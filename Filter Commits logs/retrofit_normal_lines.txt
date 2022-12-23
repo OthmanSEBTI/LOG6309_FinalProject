@@ -1,0 +1,1150 @@
+Add proguard rules to keep inherited services
+@HeaderMap parameter type must be Map or Headers
+Gson 2.9.0
+Change old IETF reference link
+Improve support for Unit as the return type
+Migrate Kotlin tests to separate project
+Use gradle-build-action
+Bump actions
+Run tests on each major JDK version
+Add JDK 18 to build matrix
+Bump actions/checkout from 2.4.0 to 3
+Enable type-safe project accessors
+Adopt Gradle 7.4
+Prevent Kotlin callers from creating services with a nullable class type
+Use #defaultConverterFactoriesSize directly.
+Update sonatype urls to s01
+Publish to S01
+Adopt vanniktech maven publish 0.18.0
+Put deps into version catalog
+Use Gradle 7.3.2. Log4shell mitigation.
+Update gson to its latest version gson:2.8.9
+Bump actions/checkout from 2.3.5 to 2.4.0
+Bump actions/checkout from 2.3.4 to 2.3.5
+Remove backpressure support from RxJava 2 and 3 adapters
+Revert "Remove RoboVM Gradle plugin and test"
+Java 17
+Rename keep rules for Protobuf
+Use one subtype per platform for simplicity
+Update gradle 7.2
+Add shrinker rules for Guava converter and adapter
+Add keep rules for protobuf and Wire
+Add RxJava 1.x rules, correct 2.x/3.x rules
+Update dependencies
+Code cleanups
+Disable publish action in forked repository
+Bump scala
+Update dependencies
+Bump gradle to 7.1.1
+Add .gitattributes
+Add .editorconfig
+Keep signature for Response<T>
+Bump protobuf to restore Android compatibility (#3597)
+Add a JAXB 3 converter (#3555)
+Add proguard config for R8 to keep type information for RxJava stuff
+Add Java 16 build
+Remove RoboVM Gradle plugin and test
+Add test for Content-Type in GET request
+Commit a stable keystore for test APK
+Update all the GitHub Actions
+Add dependabot for GitHub Actions
+Update AGP and Gradle
+Add keep rule to retain generic signature of Call
+Bump jackson-databind to 2.10.5.1
+Update website Proguard rule section to be same as Readme
+Java 15 final
+Prevent use of Java 8 features on RoboVM
+Update google-java-format to 1.8
+Error-prone 2.4.0
+Use https for the apache license
+Prepare next development version
+Prepare version 2.9.0
+Add releasing steps
+Update Maven references to Gradle
+Added RxJava3 adapter
+Prepare next development version
+Add pom descriptions for each deployed artifact
+Prepare version 2.8.2
+OkHttp 3.14.9
+Move source/target config out of error-prone block
+Use system properties to detect Android
+Remove old buildscript
+Add Gradle wrapper validation
+Publish script tweaks
+Add secrets for snapshot deploy
+Revert needs format, fix ref to be qualified reference
+Use array for needs
+Add Android integration tests
+Switch to GitHub Actions
+Add google-java-format and reformat
+Convert project to Gradle
+Update requirements to match README
+Small fixes from error-prone and animal sniffer
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-2.8.1
+Prepare version 2.8.1
+Small fixes from error-prone
+Don't attempt to resolve Lookup ctor on API 24/25
+Update changelog for 2.8.0
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-2.8.0
+Add link to okhttp & okio proguard rules
+Allow awaitResponse() to be called with nullable type parameter.
+Add Call.timeout() which returns the OkHttp Timeout
+Add Java 14+ support for default methods
+Deduplicate ListenableFuture subtype
+Deduplicate CompletableFuture subtype
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-2.7.2
+Prepare version 2.7.2
+OkHttp 3.14.7
+docs: update documentation about annotations in the website
+Migrate bug bounty URL to bugcrowd
+Update index.html (#3286)
+Prepare version 2.7.1
+Prepare version 2.6.4
+Add coroutine support to BehaviorDelegate
+Prepare next development version
+[maven-release-plugin] prepare release parent-2.7.0
+Add SCM API dependency
+Prepare version 2.7.0
+Prepare next development version
+Prepare version 2.6.3
+Migrate forced suspension mechanism from yield to Dispatcher.Default
+jackson 2.10.1
+Migrate forced suspension mechanism from yield to Dispatcher.Default
+Bump jackson-databind from 2.9.10 to 2.9.10.1
+Simplified RxJavaCallAdapterFactory.createAsync documentation to not mention any incorrect subscribeOn behavior
+Upgrade Kotlin, Guava, OkHttp, Jackson and more. (#3222)
+Upgrade to the latest checkstyle
+Prepare next development version
+Prepare version 2.6.2
+Add synchronous exception workaround for Response requests
+Add synchronous exception workaround for Response requests
+Prepare next development version
+Prepae version 2.6.1
+Avoid synchronous checked exceptions in 'suspend fun's
+Proguard nested classes in KotlinExtensions
+Avoid synchronous checked exceptions in 'suspend fun's
+Switch to OpenJDK
+Allow service interfaces to extend other interfaces
+Proguard nested classes in KotlinExtensions
+Use Objects.requireNonNull instead of custom helper
+Update to Java 8 and OkHttp 3.14
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-2.6.0
+Prepare next development version
+Add JAXB Converter in Document
+`URL` overload for `Retrofit.Builder#baseUrl`
+Support okhttp3.Headers for HeadersMap parameters.
+Next version is 2.6.0
+Update to Gson 2.8.5.
+Upgrade to protobuf 3.5.0
+Remove pre-compiled proto classes
+Remove use of Mockito
+Add more obviously missing @Nullable annotations
+Add some missing @Nullable annotations to Utils
+Back suspend methods with the CallAdapter for Call.
+Add annotation for skipping the callback executor
+Do not leak body in intermediate buffers to converters
+Test canceling a suspend invocation propagates to Call
+Add first-party Kotlin coroutine suspend support
+Add parameter annotation @Tag for setting request tags
+Add more attributes to Retrofit's R8/ProGuard rules
+Ignore static interface methods when eagerly validating
+Ensure JAX-B converter closes its body on error
+Fatal errors should crash the dispatcher thread
+Mark HttpException.response() as nullable
+Use better error messages when passing null for a parameter
+Keep Retrofit interfaces in R8 full mode
+Update README.md for retrofit-converters (#2996)
+Update link to moved repository (#2995)
+Updated jackson to the latest version (2.9.8).
+Remove sudo:false from travis
+Correct Calls API in changelog.
+Update CHANGELOG.md
+Use H2 for change log entry
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-2.5.0
+Prepare next development version
+Update OkHttp to 3.12
+Update Robolectric
+Update to Moshi 1.8.0.
+Add tests for form and multipart header values and overrides
+Add some missing Nullable annotations
+Add some missing Nullable annotations
+Next version is 2.5.0
+Clean out Java 8 READMEs to further discourage use
+Enable built-in CompletableFuture adapter on Android API 24+
+Enable built-in Optional converter on Android API 24+
+Use a dummy value to further validation optional delegation
+Forbid path traversal ('.' and '..') as @Path parameters.
+Update Proguard rules for R8 fullmode
+Replace @ParametersAreNonnullByDefault with @EverythingIsNonNull
+Test all Rx types can be subscribed to twice
+Move Optional support into Retrofit core.
+Expose static factory for Invocation
+Move CompletableFuture support into Retrofit core.
+New 'Invocation' class for tracking metrics on Retrofit calls
+Streaming annotation is for ResponseBody.
+Normalize null args to empty
+Add reified create extension for Kotlin
+Re-work unresolvable type detection in parameters
+Get rid of the now-useless HttpServiceMethod.Builder
+Update Proguard rules for D8
+Add built-in support for Kotlin's Unit type
+Update to OkHttp 3.11
+Implement correct isDefault check for Android
+Change 'compile' to 'implementation'
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+changed compile to implementation
+changed compile to implementation
+changed compile to implementation
+changed compile to implementation
+Update README.md
+RxJava: Skip enqueuing calls if disposed
+Move general checks out of HTTP-specific code
+Consolidate exception formatters in one place
+Pull out ServiceMethod base class
+Remove OkHttpCall dependency on ServiceMethod
+Update ProGuard rules
+Break request creation parsing out of service method
+Refactorings (#2789)
+Ship R8/ProGuard rules in the jar.
+Update ProGuard rules to parse correctly
+Lock down JAXB. Don't load remote entities.
+Add support for creating failed test call instances with any exception.
+Makes sure observable assembly hooks are called
+Ability to add Http status code to Response.success (#2715)
+Throw IO and RuntimeException directly without wrapping them into new RuntimeException.
+Remove redundant throws.
+Document that JAXB doesn't work on Android
+Add a test for not overwriting headers.
+Don't ever pass fatal errors to the callback.
+Update CHANGELOG.md
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-2.4.0
+Rollback release plugin.
+Prepare version 2.4.0.
+Replace 'compile' with 'implementation
+Replace 'compile' with 'implementation'.
+Small tweaks while doing other work. (#2685)
+Use HTTPS links in documentation where possible.
+Update to OkHttp 3.10.0.
+More accurately name call adapter local list. (#2667)
+Bump to latest Jackson to avoid CVE. (#2662)
+Encapsulate more behavior inside ServiceMethod. (#2665)
+More accurately name call adapter list field. (#2664)
+Update Scala dependency
+Assert full JSON document consumption with Gson.
+Bump Jackson version a bit. (#2658)
+Don't conflate downstream disposal with upstream cancel. (#2659)
+Assert full JSON document consumption with Moshi.
+Rename the Scala adapter package to retrofit2.adapter.scala.
+Define Automatic-Module-Name for Retrofit modules
+Remove old ProGuard nonsense.
+Retain service method parameters when ProGuard optimization is enabled.
+Initial JAXB converter factory. (#2609)
+Deprecate our SimpleXmlConverterFactory
+Update docs to mention @HeaderMap
+Don't catch fatal errors. (#2566)
+Handle Errors in OkHttpCall. (#2556)
+Bump okhttp.
+Add Scala Future adapter. (#2521)
+coca-cola is not have robots,   samples/DynamicBaseUrl.java     System.out.println(response1.body().string());  is NullPointeException
+typo
+Update to OkHttp 3.9.0.
+Update to Gson 2.8.2.
+Add Retrofit.Builder.adapterFactories(). (#2486)
+Add initial capacity for converter factory list.
+Add Retrofit.Builder.converterFactories(). (#2476)
+Remove volatile modifier from synchronized field.
+Update to OkHttp 3.8.1.
+Update to Gson 2.8.0.
+Update to Moshi 1.5.0.
+Add simple usage docs to each adapter.
+Remove code duplication
+Clarify that errors start at 0% probability.
+Add some missing nullable annotations.
+Add ProGuard rules
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-2.3.0
+Prepare version 2.3.0.
+Upgrade to OkHttp 3.8.
+Use custom exception type when triggering mock failure.
+Add converters which facilitate the use of Optional.
+Allowing skipping of params if the converters converted to a null
+Explicitly handle wrapped, re-thrown exceptions from onComplete, onError.
+Update to RxJava 1.3 and a stable Completable.
+Add JSR 305 nullability annotations.
+Upgrade to Checkstyle 7.7.
+Allow Crawler to crawl urls that aren't present in the fetched urls set
+Use checkNotNull utility function.
+Moved validation first before cloning
+Make HttpException unchecked to allow the Exception to thrown in custom CallAdapters
+Code style improvements.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-2.2.0
+Prepare version 2.2.0.
+Removal of Unnecessary Creation of String Builder
+Add error-prone compiler.
+Use array instead of varargs in override signature.
+Unify HttpException into a single shared type.
+Explain which types are supported for each adapter
+Use Moshi 1.4's JsonAdapter.serializeNulls()
+Remove specifying Okio 1.9.0 dependency
+Add support for query parameters with no value.
+Make Calls more stateful and add deferring factory.
+Allow HTTP errors to be created as part of mock behavior.
+Remove unused interface.
+Fail if the converter doesn't throw.
+OkHttp 3.6.0.
+Add createAsync() to RxJava 1.x CallAdapter.Factory.
+Add failOnUnknown to MoshiConverterFactory
+Add createAsync() to RxJava 2.x CallAdapter.Factory.
+Add AnnotatedConverterFactory sample
+Next version is 2.2.0.
+Add Completable to documentation in RxJava2CallAdapterFactory
+Okio proguard rules link
+Add download info to adapters and converters.
+Make Single link to Javadoc (#2114)
+Revert back to an OnSubscribe-based RxJava adapter.
+Update checkstyle to the latest version.
+OkHttp 3.5.0
+Remove RoboVM support.
+Add sample showing how to add an observeOn to Observable.
+Import RxJava 2 CallAdapter.Factory
+Add shallow-copy newBuilder() method to Retrofit.
+Reflect OkHttp Call canceled state from our Call.
+Use latest moshi.
+Remove incorrect comment as client is immutable.
+Close ResponseBody on 204/205 to avoid connection leak
+Update RxJava adapter to 1.2.0.
+Add method for returning a Moshi conveter that serializes nulls.
+Query map for service method outside of a lock.
+Promote adapter response body type parameter to class level.
+Replaced invocation of deprecated factory methods in favor of newer counterparts in JacksonConverterFactory
+Propagate fatal exceptions even if already dispatching an error.
+Add toString implementations to Response and Result.
+Implement proper error handling for Rx types.
+Switch to a better, custom validating subscriber.
+Simplify observable creation and reduce runtime allocations.
+Refactor Rx tests to avoid the use of blocking operators.
+Remove duplicated test.
+Update to support protobuf 3.0.
+Add tests for order of multipart request's parts. Issue #1846.
+Remove update warning from website.
+Update to OkHttp 3.4.1
+Update to OkHttp 3.4.0.
+Skip a UTF-8 BOM if present.
+Use string converter for String type.
+fixed test to not rely on serialization order
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-2.1.0
+Actually let's call it a 2.1.0.
+Update to the latest dependencies.
+Add missing import.
+Prepare version 2.0.3.
+Propagate @JsonQualifier annotations to Moshi.
+Update .gitignore
+Eagerly catch malformed content type headers.
+Update okhttp to 3.3.0
+Remove the misleading stack trace of the fake network exception.
+Honor the encoding of the response in XML deserialization.
+Correct path to Converter source file.
+Switch to consumer ProGuard rules which aren't insane.
+Implemented @HeaderMap.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-2.0.2
+Update date.
+10 second wait on callbacks.
+Javadoc doclint crap.
+Prepare version 2.0.2.
+Cleanup and test exposed utility behavior.
+Correct rendering of '@' in Javadoc.
+Pass the wrapped call to callbacks.
+Adapter Javadoc details.
+Eliminate some allocation/state overhead by implementing subscription directly.
+Support supplying a protobuf extension registry for deserialization.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-2.0.1
+Prepare version 2.0.1.
+Support iterable and array-based OkHttp Part parts.
+Honor backpressure in Observable creation.
+Document maps don't allow null anywhere.
+Retrofit web crawler example.
+Support HttpUrl with @Url.
+Mention isSuccess -> isSuccessful in the change log.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-2.0.0
+Prepare version 2.0.0.
+All the latest of all the things.
+Fill in a bunch of missing or slightly incorrect documentation.
+Tweak Javadoc for Part to use something other than RequestBody.
+Add support for OkHttp's MultipartBody.Part.
+Remove the need for generated accessor methods.
+Null check Call.enqueue argument.
+Sample for a dynamic base URL.
+Drop the mutable base URL.
+Doc error. `@QueryMap` with `encoded=true` will stop default url encoding. So, calling with `foo.list(ImmutableMap.of("foo", "foo+bar"))` yields '/search?foo=foo+bar' instead of '/search?foo=foo%2Bbar'.
+Combine MethodHandler and RequestFactory into ServiceMethod.
+Rename RequestFactoryParser to RequestFactory.Builder.
+Forbid null map values, and null maps.
+Note that the callback executor should be used when non-null.
+Propagate callback executor even when not explicitly specified.
+Support for primitive return types
+Make build pass on Windows
+Bumped Jackson to current version 2.7.1
+Issue template for retrofit.
+Speling.
+Add success method with headers to Response.
+Provide the ability to specify a default scheduler for RxJava.
+Add lenient option for MoshiConverterFactory
+Rxjava 1.1.1 and implement Completable support in rxjava adapter
+Use Gson instance as factory for reader to honor config.
+#1600 - Updating OkHttp to 3.1.2
+Throw nice message when resolved URL is malformed.
+OkHttp 3.1.1.
+OkHttp 3.1.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-2.0.0-beta4
+Prepare 2.0b4.
+Write up Beta 4's current change log.
+Do not encode '/' in path replacement when encoded=true.
+Only make one copy of the method annotations array.
+Local naming normalization.
+Supply method annotations to factory when invoking requestBodyConverter method.
+Correctly resolve generic types on the target type, not actual.
+Add sample showing converter delegation via annotations.
+Add example of using JSON converter as a String converter.
+Add support for iOS with RoboVM.
+Add Java 8 CompleteableFuture adapter.
+Expose the methods required to implement a CA.F on base class.
+Move converters into their own packages.
+Add missing generic.
+Ensure default methods can be invoked.
+Add an adapter for Guava's ListenableFuture.
+Refactor and fill out RxJava adapter tests.
+baseUrl should end with '/'
+More comprehensive assertions for factory failures.
+Correcting the collection used when printing out the skipped converter factories when constructing the exception message
+Update to the latest version of wire
+Update to the latest version of moshi
+Do not trap IO from request body conversion.
+Simplify body closing in response converters.
+Provide ability to retrieve original Request object from Call.
+Add support for scalars from ResponseBody
+Update to the latest version of okhttp
+Supply Call to Callback methods.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-2.0.0-beta3
+Prepare version 2.0.0-beta3.
+Support java.net.URI and android.net.Uri for @Url.
+Point to a stable release of OkHttp.
+Use method to resolve directly to a builder.
+Use import.
+Use new OkHttp's non-throwing close and a simpler body copy.
+Added more tests for RxJava Single type support
+Use Builder to add interceptor.
+Use Call.Factory in RequestBuilderTest.
+Forbid Retrofit and OkHttp Response types as response body type.
+Remove Call.Factory in favor of OkHttp's.
+Upgrade to OkHttp 3.0 API.
+Remove duplicated 'the' from javadoc
+A random assortment of documentation additions.
+Visibility housekeeping: reduce to least access level.
+Remove synthetic accessor method generation by incresing visibility.
+Remove redundant double-cause initialization.
+Remove needless unchecked suppression.
+Add Call.Factory for alternate HTTP client implementations.
+Switch to a proper builder for MockRetrofit.
+Throw normal IOException when canceled to match OkHttp.
+Remove incorrect generic parameter.
+Add an example using the gson converter.
+Correct `@Path` documentation.
+Add missing Call wrappers as return type
+Correct some Javadoc examples, always run Javadoc plugin.
+Add test for executing Calls at most once
+Introduce new mock pattern with a behavior delegate.
+New package name for version 2.
+Support iterable and array types for `@Part`.
+Move tests to same package as tested classes.
+Allow converters to delegate to others.
+Add converter for scalars to request body.
+Add isExecuted method to Call.
+Expose isCanceled API on Call.
+Check for cancellation on callback executor run.
+Add string converter support for all non-body annotation types.
+Extract iterable and array behavior from RequestAction.
+Cache stateless built-in converter instances.
+Parameterize RequestBuilderAction, rename to RequestAction.
+Added a OPTIONS annotation
+Tweaks from review.
+Fill out some documentation on public types.
+Documentation for endpoint resolving on a base URL.
+Response documentation, preconditions, and tests.
+Add CA.F sample showing an all-custom type and its callback.
+Revert "Provide Retrofit to response callback. Add error converter sample."
+Added a checkstyle rule for the line indentation
+Make Retrofit ready for usage in OSGi
+RequestBuilderAction: pass exception from converter as cause of thrown exception
+Accept validateEagerly as boolean param
+Update links to Javadoc.
+Update Wire converter to v2.0.0.
+Update index.html
+Update multipart documentation.
+Update to Gson 2.4 and newJsonWriter method.
+Revert "Temporarily revert to using Gson instance directly."
+Toss simple examples onto HTTP annotation.
+Use sections
+Properly close div
+Remove useless unsubscribed check.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-2.0.0-beta2
+Prepare for 2.0.0-beta2.
+Temporarily revert to using Gson instance directly.
+Moshi 1.0.0.
+Add Exceptions.throwIfFatal() into RxJava adapter
+Consolidate built-in converters as inner classes.
+Consolidate response body specializations as inner classes.
+HEAD requests must use Void response type.
+Use execute() instead of enqueue() in Rx adapter
+Use a correct implementation of path encoding.
+Shutdown MockWebServer so process exits cleanly.
+Provide Retrofit to response callback. Add error converter sample.
+Expose request and response converter query methods.
+Add delegation support to CallAdapter.Factory.
+Added extra caution before calling onError/onCompleted
+Remove outdated reference
+Use form-data subtype for multipart requests.
+Provide option for eagerly validating an interface.
+Updating dependencies version
+Switch to a generic to/from converter, explicit factory.
+Add built-in support for Void type which just closes body.
+Restore the SimpleService sample to working order.
+2.0 warning on website.
+More REST-->HTTP conversion.
+Quick website update for 2.0. Much to be done here...
+Give method or parameter annotations to CallAdapter and Converter factories.
+Correct the generics of CallAdapter.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-2.0.0-beta1
+Change log for 2.0.0-beta1.
+OKHttp 2.5.0 release version.
+RxJava 1.0.14 with an important Android fix.
+Do not proxy default methods on service interfaces.
+Retrofit.Builder.addConverter().
+Naming, API changes, and documentation around mock services.
+Add optional support for RxJava's experimental Single type.
+Prefer the word contentType.
+fixed broken link on website
+Website change with 26d19ea - Java 7 is required since 2ca1950
+Remove some old toString overloads which are no longer used.
+Allow multiple factories for converters and call adapters.
+Switch HttpException to not be an IOException.
+HTTP-specific exception for the simple Observable case.
+Java 7 is required since 2ca19506
+Make Result's factory methods public.
+Shift mock module to allow applying behavior to any invocation type.
+Update to latest MockWebServer snapshot.
+Allow other non-Retrofit annotations on parameters.
+Restore and update mock sample.
+Restore mock module for creating delayed and erroring Calls.
+Rename Callback.success() to onSuccess(), and failure() to onFailure().
+Call.cancel at any time.
+Replace MWS URL method with HttpUrl one.
+Use non-timing based methods to detect buffer and stream.
+Correct Javadoc for converter on parts.
+Also refer to the latest OkHttp version.
+Additional coverage for Url annotation
+Final
+Add Url annotation for dynamic resolution.
+Rename 'Endpoint' to 'BaseUrl'.
+Allow passing in an executor on which callback methods are invoked.
+Add some failing behavior tests which were not covered.
+Switch the architecture of method parsing and invocation.
+Refactor the core of request builder into parameter actions.
+Move response Converter lookup to happen during method parsing.
+Introduce factory for converter concept.
+Migrate converter tests to be integration style.
+Add first-party Moshi converter.
+Add test for empty response body still uses converter.
+Include a request body for content type and length.
+setDelay can set a value that would cause IllegalArgException to be thrown by random.nextInt
+Rewrite response parsing for more simple control flow.
+Accept an HttpUrl in the endpoint builder method.
+Rename main class to Retrofit.
+Quick Javadoc cleanup to restore snapshot building.
+Use HttpUrl for Endpoint and building URL.
+Refine the behavior of detecting unresolvable types.
+Add a test to verify unused and potentially invalid path params are allowed.
+Restore previously commented out tests.
+Forbid type variable use in response types.
+Only allow a single CallAdapter.Factory per RestAdapter.
+Move converter into the main package, remove Gson from core.
+Rewrite RxJava call adapter tests to be more understandable.
+Correct Simple XML converter's type casing.
+Remove the mock preference value change listener.
+Do not bring the converter along into the response.
+Coerce the absence of body into the empty body
+Resolve mixed-content resources
+Remove okhttp-urlconnection Gradle dependency
+Introduce call, call adapters, and the response type.
+Consolidate samples into a single package.
+Normalize specifying encoded values via parameter annotations.
+Switch to OkHttp's built-in form body builder.
+Remove our RequestInterceptor.
+Includes this repo in our open source bug bounty program.
+OkHttp 2.0 only.
+Formatting.
+Remove 'set' prefix from builder methods.
+HTTP 204 & 205 should skip the converter.
+Final
+Space
+Restore Form URL encoding support.
+Brings back Multipart from the dead!
+Add ProGuard config to the website
+Changes to Javadoc to remove doclint errors and warnings
+Remove Client, Request, Response, TypedInput, and TypedOutput abstractions.
+Simplify custom HTTP method implementation.
+Remove specialized ConversionException.
+Get rid of our own Header class.
+Use OkHttp as the sole client.
+Pass request body type to converter for serialization.
+Interceptor tape is no longer needed.
+Unused from previous commit.
+Remove logging. It stands in the way of progress.
+Remove the need for two Endpoint classes.
+Remove unused classes from 56f11374c2f5d037e57d274a3c72f9694cd9e05c.
+Switch the Client to control the threading model for execution.
+fxi spellnig
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.9.0
+Next version is 1.9.0.
+Ensure we don't crash on null header values.
+Bump Gson dependency
+Update to native OkHttp 2.0 APIs.
+Errors fail the deploy script.
+Auto-deploy snapshots from Travis CI to Sonatype.
+Shorten Thread name by removing query string.
+Optional @Field/@FieldMap URL-encoding.
+Add support for iterable headers.
+Updated strict to be final so that the converter isn't mutable
+Provide a setter to set strict mode to false
+Use new central artifact redirect link.
+Prepare version 1.8.0.
+RxJava 1.0.
+Removed incorrect documentation.
+Prepare version 1.7.1.
+Avoid an NPE when logging a null request arg
+Switch to io.reactivex version of rxjava
+Break AppEngine support out of the core.
+Remove profiler.
+Remove Client provider indirection.
+Remove ResponseCallback.
+Remove endpoint names.
+Remove deprecated error identifier.
+TWO
+Remove deprecated explicit encoded annotations.
+Rename the samples directory.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.7.0
+One seven oh.
+Forgot about encode settings on path/query annotations.
+Prepare for 1.7.0.
+Dot
+Favor an immutable singleton list over immutable list view.
+Next version will be 1.7.0.
+Simplify scheduling of mock observers.
+Document required versions.
+Provide explicit error kind for disambiguation of underlying cause.
+Use the annotations directly for parameter handling.
+Bump AssertJ dependency.
+Bump Wire dependency.
+Bump Jackson dependency.
+Bump Guava dependency.
+Bump RxJava version.
+Document custom error body deserialization exception.
+Migrate most behavior tests to be whitebox(ish).
+Add transfer encoding to multipart parts.
+Account for response URL being absent.
+Include body mime type on AppEngine client requests.
+Use charset to properly adhere to Javadoc contract.
+Update GSON to 2.3
+@Path/Query exception message update
+Unexpected mime type should be a ConversionException.
+Patch Converter typo
+Bump test dependencies.
+Add @Override annotations
+Add a new log level: HEADERS_AND_ARGS
+Accept @Header annotation values that are objects
+Correct NPE when only 'Content-Type' header is present on non-body requests.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.6.1
+Bump dependency versions to the latest.
+Prepare version 1.6.1.
+Always add special-cased 'Content-Type' header to request.
+Add trailing CRLF to multipart.
+Don't crash on null response body
+Improved documentation about OkHttp integration
+Update CHANGELOG.md
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.6.0
+Prepare version 1.6.0.
+Rename '@Raw' to '@Streaming' for better semantics.
+added @Raw annotation for retrieving the response without converting to byte[] first (as suggested in #478) incl. tests
+Expose success type on RetrofitError.
+Move Endpoints tests into the right place.
+Remove unnecessary catch block from RxSupport.
+Update RxJava version to the latest.
+Disable the integration test.
+More robust implementation of 'Content-Type' overriding.
+Clarify no body vs. an empty body in log statements.
+Apply the interceptor tape at the time of subscription.
+Add simple documentation to each converter.
+If OkHttp is present, require 1.6.0 or better.
+Change mock async behavior to use the supplied Callback instance directly.
+Specify a useful message when creating a RetrofitError.
+Delegate to existing deserialization method.
+Update documentation for handling of @Field and @Part values.
+Move method init into try/catch so exceptions are properly propagated.
+Remove deprecated functionality that has exceeded its grace period.
+Add docs about null responses.
+Return null as error body when response is absent
+add paragraph clarifying logging
+styling
+Add logging section to RestAdapter Configuration
+Remove synchronous from ErrorHandler docs
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.5.1
+Prepare for 1.5.1.
+Add a RetrofitScheduler which is loosely based on the NewThreadScheduler but alows us to provide the Executor.
+Lazily construct RxSupport stuff
+Add @PartMap annotation.
+Remove double plural in docs.
+MockRestAdapter should use ErrorHandler.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.5.0
+Changes to make JDK 8 doclint happy.
+Use latest release plugin.
+Prepare version 1.5.0.
+Remove unused jarjar plugin declaration.
+Allow overriding 'Content-Type' header.
+fix #423: Use ErrorHandler to coerce error responses during async invocations.
+Update RxJava to 0.17.1.
+switch to assertj
+Remove hack to support PATCH in HttpUrlConnection.
+http response reason can be empty.
+Deprecate G+ community in favor of StackOverflow.
+Add support for AppEngine's URLFetchService.
+Empty lines are for noobs.
+Add missing tests for proper coverage of validation.
+Remove useless setApi method, take in constructor instead.
+Update RxJava usage.
+Overhaul exception format in RestMethodInfo.
+Allow Multipart requests with parts of unknown length
+Correct query param map example to use the right annotation.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.4.1
+Correct map parameter type detection for query and field.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.4.0
+Replace more setServer calls with setEndpoint.
+Jackson requires getters?!?
+Style tweak.
+Update RestAdapter builder usages to avoid deprecated method.
+Add Jackson default converter to change log.
+Update some dependencies to their latest.
+Update Jackson converter to latest. Add default constructor.
+Prepare version 1.4.0.
+Add comment for now-deprecated Response constructor.
+Move static method to top of file.
+Ensure Defaults conforms as a utility class.
+Add documentation for AndroidLog.
+Add simple package info to root package.
+Update exception message to non-deprecated type.
+Warn about future class and method removal.
+Retain old parameter type.
+Solidify iterable iteration.
+Style tweak.
+Introduce @FieldMap.
+Introduce @QueryMap and encoded variant.
+Reduce RequestBuilder allocations.
+RequestBuilder: handle null values when Iterable is used for Field
+RequestBuilder: Support Iterable / Map for @Field
+Style tweaks to new endpoint code.
+setServer -> setEndpoint
+whitespace.
+Adding deprecated tag to javadoc.
+Endpoints final + private no-arg constructor.
+Changing IServer -> Endpoint and adding factory methods. Deprecating Server and ChangeableServer.
+Removing unnecessary public modifier.
+Changing Server to implement IServer interface.
+AndroidLog: Added getTag() and logChunk() methods
+client: Reintroduced deprecated Response constructor
+client: Added url field to Response class
+Generalize multiple param values to use Iterable.
+Properly name ignored exception in 'catch' block.
+website: Added query parameter map example
+RequestBuilder: Handle Map and List contents as separate query params
+Add docs for synchronous ErrorHandler
+Formatting tweaks to Headers doc; change User-Agent to dummy app
+Add default constructor to SimpleXmlConverter
+Add docs for setting Headers with RequestInterceptor
+Add documentation for @Headers to website
+Adding documentation about Dynamic Headers
+Update custom conversion docs per feedback
+Check for extended interfaces using getInterfaces().length instead of getSuperclass()
+move usages of Observable out of RestMethodInfo
+Added blurb about GSON documentation
+Gson customization docs
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.3.0
+Prepare for 1.3.0.
+fixed javadoc
+Add sample which uses mock data.
+Add ResponseCallback class
+add test case for observable/last-arg fix
+Last argument should be handled for observable methods
+add support for Observable requests with RxJava
+Use getTypeFactory instead of defaultInstance for Jackson deserialization
+Add some static factory methods to MockHttpException.
+Bump versions.
+UserService example in MockRestAdapter should be an interface
+Note that FULL logging buffers the entire request.
+Add adapter for wrapping mock service implementations to mimic real behavior.
+using package scope for method
+reformat with two-space indent
+fixing checkstyle errors
+fixes and refactoring for http multipart post streaming
+http multipart post streaming
+Code review
+Add a SimpleXML converter.
+Correct header length checking logic. Improve exception message.
+Promote Android logging to a class which knows about chunking.
+Log headers with toString() instead of own impl
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.2.2
+Prepare for 1.2.1.
+Minor formatting clean-up.
+Ensure HTTP input stream is always closed.
+Add empty Log implementation.
+Close the InputStream before replacing the body
+Move OkHttp connect/read timeouts to OkHttpClient.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.2.1
+Prepare version 1.2.1.
+Ensure input stream is closed.
+Use Wire release 1.0.1
+Pass InputStream to Wire
+Add convenience constructor for default instance.
+Add a first-party converter for Wire.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.2.0
+Prepare for 1.2.0.
+Ensure @EncodedPath is not cast to @Path when processing method.
+Always apply the request interceptor synchronously
+changed type to name to avoid confusion
+Propagate network exceptions that happen inside the converter.
+Prevent API interfaces from extending other interfaces.
+Add @Documented annotation for the new REST annotation.
+Add path and query tests for pre-encoded values.
+Add @Documented to the new annotations.
+Add @Documented attribute to all annotations.
+fixes #282 add PATCH support
+Simple field rename and some docs.
+More Callback docs.
+Cleanup to avoid unchecked cast on conversion.
+Add a Jackson converter.
+Added mimeType property
+Log network and unexpected exceptions if logging is enabled.
+Add converters module and protobuf converter.
+Address stylistic change requests.
+Newine at end of file. Yes plz.
+Add two files omitted from previous commit, retrofit.http.EncodedPath and retrofit.http.EncodedQuery.
+Change implementation to introduce new annotations @EncodedPath and @EncodedQuery that add path or query parameters without URL encoding them first.
+Add headers-only logging level.
+Add disableUrlEncoding to Path and Query decorators in order to support specially encoded or already encoded values.
+Ensure a real platform is present for Android detection.
+Create a RestAdapter in the docs intro.
+Add getter for log level.
+Add two levels of logging.
+Correct javadoc to point to proper annotation.
+Update javadoc based on PR comment.
+Expose addQueryParam via the RequestInterceptor injection-like framework.
+Changed tab for spaces and moved the placement of @Override annotations
+Special case String type for multi-part parts.
+Spelling.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.1.1
+Prepare version 1.1.1.
+Allow 'null' parts to remove from request.
+Add static method headers to header list when present.
+Added encode property, corresponding with #238 issue
+Add default connect and read timeouts for HttpUrlConnection.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.1.0
+Prepare for 1.1.0.
+Introduce `RequestInterceptor` to replace `RequestHeaders`.
+fix issue #227: permit use when servers or intermediaries mistakingly miss Content-Type header
+Rename samples/ to retrofit-samples/
+Be null.
+Code style cleanup.
+Forbid returning null from error handler.
+Add hook for customizing exceptions
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.0.2
+Prepare version 1.0.2.
+Allow uppercase letters in path parameters.
+Handle nulls correctly for all parameters.
+Dependency updates.
+Ensure static query params are being appended properly.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.0.1
+Escape closing curly braces for Android support.
+Remove quick-exit on the deploy script.
+Link to Javadoc.
+Add website deploy script.
+Add Google Analytics tracking code to documentation.
+First sample is synchronous.
+Add change log.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.0.0
+Website and documentation!
+Rename a few more 'pair' occurances to 'field'.
+Rename 'pair' to 'field' to match annotation.
+Re-arrange package structure.
+Normalize copyright headers.
+Review feedback.
+Rewrite annotations to be more descriptive.
+issue #198: validate header names per rfc 2616
+fix issue #198: add new @Headers and @Header annotations
+Allow digits in path parameter name
+issue #198: rename Header -> HeaderPair to harvest the names for new annotations
+Add OkHttp-specific client when its present on the classpath.
+Bump GSON to latest stable.
+Exposes the static RetrofitError construction methods
+Reset thread name to idle when not in use.
+Multipart request improvements.
+Eagerly consume a stream when exposing to caller.
+Roll our own multi-part implementation.
+Abstract logging API.
+Remove pre/post override points for ApacheClient.
+Update sample name to reflect behavior.
+Introduced a small hook-point for subclasses.
+Use standard exception cause handling in RetrofitError.
+Replacing Response with MyJsonObj in README
+Only using getErrorStream() for status >= 400
+Using Response in readme instead of SimpleResponse
+Making TestingUtils abstract so that JUnit ignores
+Style tweaks.
+Full type resolution from Gson.
+Make response wrapper members final.
+Add response object to callback success.
+Make Utils constructor private.
+Relax enforcement of UTF-8 and use the body charset for decoding.
+Remove usage of HTTP constants class from Apache dependency.
+Add UrlConnection Client.
+Log request headers. Update response log format to match.
+Provide a mutable server implementation. Update Server API to conform.
+Disallow query params in the URL.
+Use TypedOutput for Requests.
+Follow-up @Name introduction.
+Remove JSR-330 dependency in favor of our own annotations.
+Move packages.
+Break up TypedBytes into TypedInput and TypedOutput.
+Switch headers to come from an interface implementation.
+Small tweaks.
+Remove explicit MimeType class in favor of simple String.
+Provide access to the Response object directly and via Callback.
+Abstract HTTP client behind interfaces.
+Ensure endpoint definition Class is an interface.
+Defer non-interface methods to normal invocation.
+Avoid multiple .toString() calls on the URI.
+Cache all reflection in a details POJO associated with each method.
+Use UTF-8 everywhere.
+Correct docs for new RetrofitError.
+Simplify callback system to generalize usage.
+Revert "Revert "Allow MimeType instantiation. Hide some Apache implementation details.""
+Revert "Allow MimeType instantiation. Hide some Apache implementation details."
+Allow MimeType instantiation. Hide some Apache implementation details.
+Simplify test method fetching.
+Convert all files to 100-character lines. Enforce with checkstyle.
+Convert to 100-char lines.
+Added code to not append a ? if the query string is empty.
+Use proper byte length for multibyte strings
+Do not instantiate a new HttpClient on every call when using platform defaults.
+Don't load platform until the last minute
+Name the current thread with the request URL.
+Provide sane defaults for `HttpClient`, `Converter`, and `Executor`s.
+Throw explicit exception if asynchronous invocation is attempted without executors.
+Add commons-logging ignore to httpmime.
+Allow null callback executor.
+Avoid redundant call to apiUrl().
+Properly chunk string when logging content body.
+Restore FINE logging of HTTP response body.
+Only exclude the last param if execution is not synchronous.
+Reformatting file.
+Switch Content-Type constant to HTTP class.
+Hide more implementation details.
+Simplify asynchronous executor API.
+Switch 'example' package to 'sample'.
+Reorganize project for a final push toward 1.0.
+Remove unused jarjar version property.
+Inline usage of Files helper class.
+Correct javadoc.
+Use constant for Content-Type header name.
+Remove optional mark on GSON dependency.
+Add simple Twitter example using synchronous API.
+Enable more checkstyle checks.
+Remove the use of jarjar. Mark GSON optional.
+Add synchronous method invocation.
+Correct API documentation in README.
+Remove unused transitive dependency on commons-logging.
+Remove use of Objects helper class.
+Revert HTTP client version to match Android.
+Tweak RestAdapter documentation for accuracy.
+Remove unused ByteSink classes.
+Upgrade FEST and Apache HTTP components dependencies.
+Syntax highlight example interface.
+Upgrade Android Maven plugin.
+Remove unused ServerException.
+Move sample to examples folder to accommodate future additions.
+Introduce builder pattern to instantiate RestAdapter.
+Remove support for implicit injection.
+Hide implementation detail UiCallback class in package scope.
+Remove `Fetcher`.
+Change `Fetcher` to use '!= -1' logic in buffered reads.
+Write checkstyle to stdout.
+Abstract HTTP entity (de)serializaton to converters.
+Remove erroneous javadoc.
+Update copyright, fix javadoc.
+Use ServerError directly in sessionExpired and serverError.
+Add NDK to build.
+Add Travis config.
+Allows spaces to appear in path parameters.
+Purge QueueFile.
+Add a CONTRIBUTING file.
+Remove web URL and ignore SSL boolean from Server.
+Remove shake module from this repo.
+README updates.
+Bump to 0.7.0-SNAPSHOT.
+Eliminate 'android' module.
+More FEST-isms.
+Re-enable 'android' and 'io' tests. Switch to FEST.
+Eliminate barren 'core' module. Updates to other modules.
+Move QueueFile to 'io' package.
+Bump version back to 0.6.0-SNAPSHOT
+Bump version to 0.6.0-rc6.
+Pom cleanup.
+Clean up Server class a bit.
+Associate log messages with the request that caused them
+Optimization: don't create a Date object just to get current time
+Bump version back to 0.6.0-SNAPSHOT.
+Bump version to 0.6.0-rc5
+Improve response time logging: show elapsed ms
+Restore Gson 2.2.3-SNAPSHOT, which now supports serialization.
+Roll back gson change: it breaks serialization
+Update Gson to 2.2.3-SNAPSHOT.
+Adding a human-readable name to the Server interface
+Bump version back to SNAPSHOT
+Bump version to 0.6.0-rc4
+Support JSR-330 instead of Guice.
+Restore version 0.6.0-SNAPSHOT
+Publishing 0.6.0-rc3
+Use an instance method to create the dynamic proxy.
+Make RestAdapter work with JSR-330 injectors other than Guice.
+Make RestAdapter work with JSR-330 injectors other than Guice.
+ANDROID-3631: PUTs don't have a content-type, don't NPE on them
+Restore version to SNAPSHOT.
+Bump version to RC2.
+Temporarily roll back to GSON 2.1.
+Adding a beforeCall() to HttpProfiler. Allows profilers to track data that may change over the course of the server call.
+Upgrade to Gson 2.2.1
+Mark GSON as provided since we jarjar it in.
+Move distribution management to a more visible location in the pom.
+Back to snapshot version for future development.
+Bump version to RC1.
+Update deployment targets.
+fixed pom dep
+Better javadoc for Pat.
+Introduces MainThread#executeOnMain, and AndroidMainThread.
+Exposes RestAdapter#createProvider, to allow custom service wrappers.
+Use built-in constants for HTTP status codes.
+Stop treating 403s like 401s.
+Remove unused Logger instance.
+Introduce checkstyle to enforce code style. Clean-up files to pass.
+Log the api url and start time for request failures and successes
+Update IntelliJ IDEA project files for recent changes.
+Restore native synchronization functionality by loading proper module.
+Use no_aop Guice variant.
+Add internal distribution ability.
+Revert version to 0.6 to match previous ant/ivy build.
+Style tweaks.
+Re-add IDEA project.
+Mavenize.
+Serializing to json immediately in JsonTypedBytes constructor.
+Building RestAdapter requests on the main thread to avoid potential concurrent modification during request serialization.
+Log the api url for failed requests
+moving header construction back to bg thread
+Stops bad behavior
+Doc tweaks
+Update to GSON 2.1
+Removing preInvoke and constructing headers on the main thread
+Adds an int statusCode parameter to clientError and serverError.
+Review tweaks.
+Makes the gson instance Guice injectable rather than hard coding it. Clients will have to discover the just-one-gson optimization on their own.
+JSON request entity support
+Adding a preInvoke callback for right before http call is being made.
+Improve Retrofit logging
+Move variable to where it is used.
+Code review feedback
+Write header before truncating QueueFile
+Allow Server extensions; improved FilesTest
+Logging unexpected errors in RestAdapter.
+Repackage gson into retrofit.internal.gson
+Moved echo up.
+Added support for fsyncing a directory.
+Code review feedback
+Add fixed query parameter support
+Consolidate two enums, extract classes from RestAdapter
+Code review feedback
+support for path parameters
+Add PUT, DELETE support to RestAdapter
+Added a delete() method to Files utility
+Some additional java.io.File utilities in Files
+Changing Callback clientError response type to match call type.
+bumped revision to 0.4
+Ensure ByteSinks and Files use FileDescriptor.sync()
+bumped version from 0.3-SNAPSHOT to 0.4-SNAPSHOT
+Refactoring RestAdapter HTTP request construction.
+Adding GET support to RestAdapter
+ANDROID-477: Add MainThread.executeSynchronously().
+TypedFile gets its length from the underlying file now
+incremented version to 0.3
+renamed message_title to title
+added toString() to ErrorResponse.java
+Removed button label and renamed ClientMessage to ErrorResponse
+introduced the ClientMessage class so client errors can include title, message, and button text.
+Cleaned up code.
+We weren't syncing the file length metadata. Added syncing code. Added code to constructor to detect files corrupted by this bug and throw an exception.
+added ability to inject a server call profiling interface
+bumped revision to 0.2-SNAPSHOT
+Introduced some tests
+added core, io, and http modules
+moved util to android, added ShakeDetector
+added ability to publish to a local Ivy repository
+incorporated code review feedback
+put the revision into a properties file; included the SNAPSHOT tag
+Initial code drop, includes Ant buildfile and QueueFile
+First commit.

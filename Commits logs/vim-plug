@@ -1,0 +1,691 @@
+Revert "Add Sponsor Labels action"
+Add Sponsor Labels action
+Update ISSUE_TEMPLATE: Require plug block contents
+Update username of NERDTree plugin (#1208)
+Add .gitignore (#1204)
+Explicitly address the side-effects of plug#end() in the example
+Create FUNDING.yml
+PlugDiff: Press enter on the name of a plugin to see the full diff
+Check the actual value g:did_load_filetypes (#1176)
+Include plugins with 'commit' values in PlugSnapshot output
+Change the default plugin directory for Neovim
+README: Clarify recommended plugins directory for Windows Vim (#1151)
+Fix unexpected cursor movement on on-demand imap loading (#1147)
+Migrate to GitHub Actions
+Set --origin=origin for git clone commands (#1117)
+Add --create-dirs option to flatpak installation instrictions (#1126)
+Recognize pwsh(.exe) as PowerShell (#1090)
+Add GV.vim-style q mapping (#827)
+Disable credential.helper for git fetch (#1046)
+XDG_DATA_HOME respecting powershell script (#1042)
+Set empty credential.helper only when git 2.0 or above is available
+Fix syntax matches (#1028)
+Disable credential-helper (#1026)
+Code cleanup
+Reduce the number of git processes for faster operation (#937)
+Test Neovim on Bionic
+"non-master branch" -> "non-default branch"
+Update test cases
+Use branch name of origin if not specified
+PlugDiff should be able to find pending updates
+User-specified branch name should not be empty
+Use branch
+Add missing function
+Support non-master default branch
+Add |:Plug| tag in help docs (#951)
+Update README.md (Powershell Install One-Liner) (#1003)
+Fix typos (#1001)
+Support Windows shell without extension (#997)
+Fix #961 tests for Vim 7.4 (#990)
+Report when PlugClean fails to remove a directory (#985)
+Fix PowerShell instruction for Neovim
+:Plug throws error for invalid option (#961)
+Comply with the XDG protocol in the README (#966)
+Add Flatpak installation instructions to README.md (#846)
+Updated readme (#967)
+Load plugin before running funcref hook
+Use list type for command in s:spawn() (#959)
+Support list type command for s:system to reduce batchfiles on Windows (#956)
+Clarify error message (#931)
+Validate last buffer line of g:plug_window (#927)
+Use iconv() only if +iconv is enabled. (#921)
+Encode batchfile in current codepage. (#913)
+Do not show git signatures in diff window (#918)
+Set/unset shellslash on jobstart (#917)
+Detect shellslash on Windows (#916)
+Fix shellescaping for git refs and batchfile on Windows (#909)
+Delete batchfile only if it exists (#901)
+Use s:path with s:rtp always (#694)
+Detect WSL (Neovim only) (#887)
+Use chcp only if sed is in PATH (#891)
+Fix chcp parsing for the current codepage (#888)
+Add path for Neovim on Windows (#789)
+output of chcp was not parsed correctly (#886)
+Add collaborators section
+Travis: use default image for osx (#871)
+Travis: add macOS 10.14 (#870)
+travis: add ubuntu bionic,xenial (#867)
+Fix Windows support for Unix shells and powershell (#860)
+Update YCM path: Valloric -> ycm-core (#869)
+Don't override shell on Windows (#856)
+Change PlugClean description (#853)
+Escape batchfile path on Windows (#850)
+Avoid downward search when using finddir
+Escape arguments to git command during PlugUpgrade
+Travis: rename vim72 to vim74 (#723)
+Use 'rtp' option to filter diff (#798)
+Allow cloning into an empty directory (#782)
+Ignore useless use of on-demand loading (#786)
+Add support for parallel fetching of Git submodules (#784)
+Clear colorcolumn in vim-plug buffer (#779)
+has('win32') is enough for detecting Windows (#765)
+Add <plug>(plug-preview) map (#769)
+Fix Windows batch file format (#755)
+Fix handling of changed up-to-date msg from Git (#724)
+Update README and add vim help file
+Add link to automatic installation instructions
+Display not-loaded status with all plugins that have a dir (#547)
+Fix helptags generation for plugins with custom rtp
+Remove extra quotes in PlugDiff output (#680)
+Fix PlugDiff for Windows (#681)
+Prepend 'silent' to ':!' to avoid hit-enter prompt (#678)
+Port fzf#shellescape (#676)
+Fix Travis CI build (dist: trusty) (#670)
+Create LICENSE
+Hard-wrap installation instructions for Windows (#649)
+Disallow using standard Vim plugin directory as plug home
+Extend plug#load to process a list of names instead of varargs
+Update installation instruction for Neovim on Windows (#634)
+Deprecate implicit vim-scripts expansion
+Travis: VADER_OUTPUT_FILE=/dev/stderr for neovim (#618)
+Load plugins only once in plug#load (#616)
+Fix invalid diagnosis of PlugStatus with wildcard tags (#619)
+nvim: Enable job-control nvim 0.2+ (#617)
+Proper escaping of tag patterns
+Fix crlf in clones under cygwin (#608)
+Append -- to git checkout commands
+Commit hash in PlugDiff output can be longer than 7 characters
+Add plugin to &rtp before running post-update hook with : prefix
+Fix Ruby installer on macOS system Vim
+Do not use nomodeline when triggering BufRead
+Fix job_start with spaces in path in Windows (#588)
+Update README
+Update README
+Fix Vim 8 installer on Windows when path contains spaces
+Add --sync flag to Plug{Install,Update}
+Commit preview should work with non-POSIX-compliant &shell
+Travis CI: sudo: false (#561)
+test/run: shellcheck fixes (#562)
+Update documentation
+More description on `plug#end`
+Update usage examples
+Do not check Ruby interface when parallel update is not needed
+Neovim: use "dict" when referring to "self" (#566)
+git_validate: better error with checkout being ahead/diverged (#546)
+test/workflow.vader: minor Assert improvement (#563)
+Update installation instruction for Neovim
+Merge pull request #558 from HiPhish/nospell
+Do not check spelling in vim-plug buffers
+Ignore trailing ! in proxy command name
+Set the default completion type of proxy command to "file"
+Merge pull request #552 from midchildan/fix-git-version
+Fix git version detection.
+Remove unnecessary operations
+No need for `filetype off` unless `g:did_load_filetypes` exists
+Merge pull request #545 from srstevenson/set-nolist
+Set nolist in vim-plug buffers
+Do not prepend COUNT"REGISTER when feeding keys in insert mode
+Merge pull request #541 from junegunn/vim8
+Fix installer output
+Update Vim 8 requirement
+Address out-of-order invocation of out_cb and exit_cb
+Update README: +job
+Set out_mode to raw for progress report
+Refactor job callbacks with partial
+Use job_start on vim
+Set up Travis CI build for Neovim
+Make Neovim installer synchronous during startup
+Fix Ruby installer on Vim 8.0.0036 (#538)
+Update git URI validation in Ruby and Python installers
+Fix Travis CI failure
+Reuse existing plug window
+Merge pull request #531 from junegunn/fix-530
+Improve git URI validation
+Print exception from post-update hook with : prefix
+Print warning message when plug window is closed
+Merge pull request #522 from jmatth/fix-visualhostkey
+Fixing E684 when VisualHostKey is enabled for ssh
+Fix loading on c-operator
+Print post-processing error in multi-line paragraph
+Merge pull request #508 from mhinz/silence-deletions
+Silence :delete commands
+Add g:plug_pwindow for customizing preview window layout
+No period in echo message
+Define d operator for selectively removing invalid directories
+Do not proceed if $GIT_DIR or $GIT_WORK_TREE is found
+Update example: youcompleteme#Enable is no longer needed
+Support { 'do': ':VimCommand' } notation
+Ignore inconsistencies between g:plugs and g:plugs_order
+Put cursor inside the installer window after post-update hook
+Always set register in map-based ODL
+Fix #491 - Lazy-loading with omaps
+Do not trigger BufRead if not necessary
+Fix travis CI build
+Trigger BufRead when a plugin is loaded by `on` condition
+Clarify that function call requires `call`
+Do not use Ruby older than 1.8.7
+Switch &shell during submodule update
+Export Plug command as plug# function
+Merge pull request #476 from junegunn/tag-wildcard
+Support wildcards in tag option
+Fix error in test script
+Fix #474 - Load ftdetect files in filetypedetect augroup
+Revert "Use python2 for YCM post-installation"
+Merge pull request #467 from hobarrera/ycm-py2
+Use python2 for YCM post-installation
+Update README: PlugInstall! and PlugUpdate!
+Detect plugins that are diverged their origins
+Minor refactoring
+Add comments to test file
+Do not patch plug.vim during test
+Merge pull request #463 from yous/force-submodule
+Make Plug{Install,Update}! trigger post-fetch checkout, submodule update
+Fall back to Python installer if Ruby is broken
+Clear message on retry
+Fix #455 - git config should read local .git/config instead of $GIT_CONFIG
+Use <nomodeline> on User autocmd if possible
+Merge pull request #451 from simonweil/reset-colors-for-show
+Reset colors for git show
+Update submodules whenever the repo is updated
+Merge pull request #430 from junegunn/refactor-installer
+Refactor duplicate logic in installers
+Fix regular expressions for hex digits
+Update README.md
+Remove redundant checks of git --version in Neovim installer
+Clarify that the installation script for Windows requires PowerShell
+Do not proceed if getcwd() returns an empty string
+Avoid unnecessary runtime command (#434)
+Use runtime only when the file is not found in the plugin directory (#434)
+Fix #434 - Use runtime to load syntax file during ft-based ODL
+Strip trailing whitespaces in PlugDiff output
+Merge pull request #428 from junegunn/diff-graph
+PlugDiff to include graphical representation of commit history
+Merge pull request #420 from starcraftman/issue_template
+Fix #416: Add an issue and PR template.
+Merge pull request #419 from itspriddle/bugfix/syntax-with-cli-command
+Avoid multiple `syntax enable` during Vim startup
+Fix #410 - Do not load irrelevant syntax files
+Rename script-local function to generate better error message
+Merge pull request #399 from starcraftman/doc_fix
+Fix #397: clarify in docs that GitHub is the default plugin source
+Merge pull request #395 from starcraftman/small_fixes
+Fix #394: Avoid problem happening.
+Better error message when git executable is not found
+Merge pull request #387 from junegunn/as
+Add 'as' option (#371)
+Merge pull request #386 from srstevenson/conditional-syntax-highlighting
+Only highlight vim-plug buffers if syntax enabled
+Merge pull request #381 from starcraftman/powershell_path
+Fix powershell command.
+Update README - description on plug#end()
+Merge pull request #376 from beatrupp/patch-3
+Add hint for Neovim configuration path
+Update YCM instruction on README
+Amend comment section
+Merge pull request #366 from junegunn/diff-origin
+PlugDiff to show pending updates as well
+Merge pull request #361 from junegunn/snapshot-in-vimscript
+PlugSnapshot output in Vim script format (#360)
+Fix #362 - Do not show future changes in PlugDiff
+Fix #355 - PlugSnapshot to create scripts that disable shallow-clone
+Merge pull request #357 from starcraftman/win_cd
+Fix #353: Not Working On Windows
+Merge pull request #354 from starcraftman/trail_slash
+Fix #353: Not Working On Windows
+Fix #350 - Tagged plugin should be unshallowed on update
+Merge pull request #342 from mattn/windows
+Enable multi-thread on windows
+Merge pull request #345 from starcraftman/fix_msys
+Fix msys2: prepend cd to commands
+Fix nvim output format (#340)
+Merge pull request #337 from starcraftman/power_readme
+Ensure CWD isn't a factor for powershell command.
+Bind q to :bd
+Merge pull request #334 from starcraftman/update_travis
+Migrate travis to use new docker system.
+Update installation instruction (#329)
+Merge pull request #329 from starcraftman/xanderdunn-patch-1
+Add install directions for using neovim
+Merge pull request #324 from starcraftman/fix_freeze
+Fix #318: Freezes on PlugInstall
+Merge pull request #319 from starcraftman/timjk-patch-1
+Add windows install instructions
+Merge pull request #316 from junegunn/commit-hash
+Add support for commit hashes
+Enhance post-update hook output
+Case-sensitive validation of on arguments (#314)
+Prepend [vim-plug] to error messages
+Update usage examples
+Merge pull request #307 from agauniyal/patch-1
+Add a non-master branch example
+Post-update hook should not run in case of an error
+Merge pull request #285 from starcraftman/thrd_join
+Merge pull request #286 from zackhsi/master
+Update YouCompleteMe install script
+Join a thread instead of sleeping.
+Merge pull request #283 from starcraftman/refactor_command
+Refactor Python code & .travis.yml
+Merge pull request #281 from starcraftman/fix_travis_build
+Fix #280: Travis Build - Vim Fails To Compile
+Merge pull request #273 from starcraftman/fix_after_syntax
+Fix #272 PlugUpdate and delayed loading
+Merge pull request #264 from starcraftman/fix_codec
+Close #262 UnicodeDecodeError
+Make it clear that &runtimepath is updated on plug#end()
+Need to set modifiable for reloading commit content (#255)
+Merge pull request #255 from sodapopcan/plug-diff-mappings
+Make commit preview unmodifiable + map q for quit
+Merge pull request #242 from starcraftman/rem_glog
+Remove GLog.
+Fix Travis CI build
+Test refactoring
+Remove unused test code
+Merge branch 'hori-ryota-feature/fixed-bug-of-on-demand-loading'
+Merge branch 'feature/fixed-bug-of-on-demand-loading'
+Add failing test case for #236
+Bugfix of on-demand loading
+Explicitly reset s:-variables during test
+Merge pull request #235 from starcraftman/simple_depends
+Inline dependency example.
+Merge pull request #233 from itspriddle/fix-diff-display
+Specify a format when `git show` displays a commit
+Merge pull request #232 from junegunn/user-autocmd
+Trigger User autocmd when plugin is loaded on demand (#231)
+Check if autocmd defined before doautocmd
+Temporarily change shellredir (#159)
+silent! redraw is simpler
+Force evaluation of &statusline before running installer
+Merge pull request #227 from starcraftman/starting
+Neovim Python Support
+Update README
+Update README
+Merge pull request #219 from starcraftman/py3
+Support Python 2.6+ & 3.0+
+Merge pull request #221 from junegunn/shallow-clone
+Add test case where shallow-clone is disabled by tag
+Add test case for g:plug_shallow
+Shallow clone by default (#122 #217)
+Revert "Shallow clone by default (#122 #217)"
+Merge pull request #218 from junegunn/shallow-clone
+Shallow clone by default (#122 #217)
+Merge pull request #211 from mhinz/accept-lowercase-plug
+Ignore case for "<Plug>"
+Merge pull request #208 from starcraftman/travis_changes
+Testing changes.
+Improve check of Neovim Job API
+Print warning message on old Neovim (#206)
+Fix local plugin judgement on Windows (#205)
+Merge pull request #201 from junegunn/git-upgrade
+PlugUpgrade using git
+Merge pull request #198 from starcraftman/new_job_api
+New dict format.
+New neovim jobs API.
+Update usage and license in plug.vim
+Merge pull request #194 from starcraftman/master
+Fix for #193 Missing status when PlugUpdate
+Allow using Ruby/Python for PlugUpgrade on Windows (#192)
+Slim
+Change the default number of threads on Windows to 1 (#191)
+Merge pull request #189 from starcraftman/master
+Disable on cygwin for now.
+Merge pull request #187 from junegunn/python-2.6
+Python 2.6 compatibility
+Update README (markdown table)
+Remove uniq() function from test code
+Fix #184 - Avoid duplicate entries in g:plugs_order
+Merge pull request #179 from starcraftman/master
+Linking to wiki.
+Minor refactoring
+Fix error on windows when plug home contains spaces (#154)
+Interpret the second argument to Plug command as tag option
+Fix #177 - Check Python version >= 2.7
+Merge pull request #165 from starcraftman/new_pr_branch
+Python parallel plugin management.
+Merge pull request #175 from junegunn/tag-vs-branch
+Fix update of tagged plugins (#174)
+Extend Travis CI build to use vim-nox on Ubuntu 12.04
+Revert "Use :pgroup option when starting subprocesses"
+Add `o` key binding for PlugDiff
+Merge pull request #169 from junegunn/ruby-pgroup
+Use :pgroup option when starting subprocesses
+Restore $GIT_TERMINAL_PROMPT in s:update_finish
+Merge pull request #168 from junegunn/git-no-prompt
+Remove `git::@` from URI if git 2.3.0 or above is found
+Add test case for unescaped spaces in &rtp
+Do not escape spaces in &rtp
+Use v:version == 702 && has('patch374')
+Fix #166 - v:version >= 703 || has('patch-7.2.374')
+Fix typo
+Fix #154 - issues with paths containing spaces
+Disable Ruby installer when without patch-7.2.374 (#162)
+Do not use --progress option on git 1.7.0 or below (#162)
+Do not use --progress option when not necessary
+Ignore error when the buffer is not properly initialized (#162)
+Update PlugClean for Gist plugins
+Merge pull request #160 from junegunn/fix-159
+Use /bin/sh instead of /bin/bash (PlugSnapshot)
+Fix #159 by temporarily setting &shell to sh
+Update README - `curl --create-dirs`
+Update README - Pros.
+Fix #155 - `cd /d` on Windows
+Merge pull request #152 from michamos/patch-1
+Clarify messages after 'PlugUpgrade'
+Merge pull request #147 from Pyrohh/simplify-nvim-check
+Simplify neovim check
+Fix #145 - Merge duplicate on-demand loading triggers
+Merge pull request #143 from junegunn/fix-139
+Add more test cases for #139
+Fix #139 - Use git fetch+merge instead of pull
+Change test code to use local repositories
+Update README
+Fix test failure
+Merge pull request #135 from threeifbywhiskey/confirmation-convention
+Downcase opt-in confirmation options
+Merge branch 'master' of github.com:junegunn/vim-plug
+Update README
+Merge pull request #134 from wilywampa/master
+Check for full match of command name
+Define s:triggers by default to avoid error after upgrade (#132)
+Fix #131 - Syntax error
+Fix #130 - Proper cleanup of on-demand loading triggers
+Fix missing progress update (#127)
+Display "Press 'D'" message only when existing plugins are updated
+Fix some test code
+Fix failing test case
+Merge pull request #118 from splinterofchaos/job_data-list
+Update: job_data[2] is a list.
+Fix #114 - &rtp should not contain empty path
+Install frozen plugin if it's not found (#113)
+Fix #112: Do not suppress messages from ftplugin
+Workaround for PlugUpgrade error on Neovim (#111)
+Update README
+Merge pull request #103 from junegunn/neuevim
+Sort auto-completion candidates
+Improve ]]/[[ movement
+Use s:extract_name instead of matchstr
+Minor refactoring
+Update test case (related: #8c915a5)
+Code cleanup
+Detect abnormal process exit using 'Error' line
+Reuse plug window even if it's in another tab
+Use s:lines instead of split
+Disable NVim parallel installer on Windows
+Avoid unnecessary tab/window switch
+Stabilize Neovim installer
+Parallel installer for Neovim
+Fix Travis CI build
+Fix Travis CI build
+PlugSnapshot to use unexpanded plug home
+Minor refactoring
+Implement PlugSnapshot (#97)
+Remove unnecessary submodule command after recursive clone
+Fix Travis-CI build
+Allow unmanaged plugins inside g:plug_home (#95)
+Enable syntax only during startup
+Add link to Travis CI page
+Reload plugins after everything's ready
+Merge pull request #88 from junegunn/improve-rtp-mgmt
+Stricter double-comma replacement
+Improve &rtp management (#85)
+Suppress error messages from `which` command
+Expand argument to plug#begin (#82)
+Merge pull request #79 from junegunn/U
+Code cleanup
+Use blackhole register when deleting lines
+Add `U` keybinding for updating plugins
+Remove plugin directory on failure during installation (#75)
+Revert "Remove plugin directory on failure during installation (#75)"
+Remove plugin directory on failure during installation (#75)
+When to use `for` option
+Throw v:shell_error when system() output is empty
+Refactor PlugUpgrade (#72)
+`syntax enable` instead of `syntax on`
+Merge pull request #67 from stevensons/resolve-symlink
+Resolve symlinks in path to plug.vim
+Do not print 'D'-message when there was no update (#66)
+Use blackhole register when deleting commit list
+Remove unnecessary dot-concatenations
+Merge pull request #65 from vheon/fix-preview-commit
+cd to repo root when in preview window on preview commit
+Use `--no-rebase` option on `git pull` (#64)
+Update README
+Implement g:plug_url_format (#62)
+Add g:plug_window to README (#57)
+Add test case for g:plug_window (#57)
+Fix indentation
+User can now specify how plug window opens
+Add example for on-demand loading for multiple file types (#59)
+Change raw.github.com url (#58)
+Use `git::` prefix to avoid password prompt on git 1.7 (#56)
+Allow Plug command even when git executable is not found (#52)
+Improve PlugDiff: 'X' key to revert the update
+Improve PlugStatus
+Merge pull request #51 from junegunn/public-api
+Fix error messages
+Add plug#load() (#48)
+Add plug#helptags()
+Merge pull request #47 from junegunn/fix-upgrade
+Do not require reloading of .vimrc after PlugUpgrade
+Update README.md
+Revert "Make sure update/install after PlugUpgrade work"
+Make sure update/install after PlugUpgrade work
+Add -bar option to commands
+s:upgrade_specs should be called after reloading the source
+Merge pull request #46 from vheon/fix-multiple-create-directory
+Do not try to create g:plug_home more than once
+Merge pull request #45 from junegunn/travis-ci-rubies
+Test against multiple versions of Ruby
+Note on escaping double quotes in inline expression
+Forced run of post-update hooks using bang commands
+Remove duplicate expression and escape helptags directory
+Update README
+Update README
+Update README.md
+Update README
+Remove FAQ/Troubleshooting section and add link to wiki page
+Merge pull request #44 from FriedSock/test_refactoring
+Force use of bash for Vader tests.
+Update README
+Fix many subtle issues regarding on-demand loading etc.
+Minor tweaks
+Refactoring
+Ensure files under `after` are loaded when first installed
+Update examples
+Remove support for experiemental dependency resolution (#43)
+Add `dir` option: managed plugins outside `g:plug_home`
+Merge branch 'vheon-refactoring' into refactoring
+Inline substitute inside s:dirpath()
+Unmap / and ? from vim-oblique after test
+Replace s:extract_name with a single fnamemodify call
+Use single-quotes whenever possible for consistency
+Define a separate version of s:is_local_plug for Windows
+Use fnamemodify instead of split hackery
+Performance tuning: reduce the number of s:parse_options calls
+Use dot operator instead of get()
+Code cleanup: reuse s:trim() when possible
+Change error reporting method
+Performance tuning: reduce the number of globpath calls
+Performace tuning: inlining some function calls
+Avoid echoerr inside catch block
+Refactor s:add function
+Update README
+Escape angle brackets in README
+Fix typo
+Change post-hook function to take a dictionary for more control
+Fix elapsed time to include the time spent in post-update hook
+Update documentation
+Don't need <Plug> map (#38)
+Print progress of post-update hooks using `:!` (#38)
+Merge pull request #39 from vheon/fix-type-parameter-clarity
+Replace return value of type() with named values
+Don't check for the need for post-update hook when interrupted
+Minor refactoring
+Post-update hook (`do` option)
+`R` to retry interrupted tasks as well
+Update README
+'R' to retry failed update/installation tasks
+Merge pull request #37 from junegunn/retries
+Retry in 3 seconds
+Avoid InsertEnter/InsertLeave events in GUI MacVim workaround
+Use `gui_macvim` instead of `mac` (#36)
+Temporarily disable &imd on GUI MacVim (#36)
+Workaround for screen freeze in MacVim GUI (#36)
+Retry in case of timeout (#35)
+Do not assume that `frozen` key exists
+Exclude unmanaged plugins from PlugDiff output
+Ignore errors during :helptags
+Note on single quotes (#33)
+License
+Pin first and last path in &rtp (#34)
+Add support for local plugins. Add `frozen` option (#32)
+Ignore occasional error from Ruby 1.8.7
+Fix Ruby installer for Ruby 1.8.7 (#31)
+Change gif
+Real-time progress report
+Revert "Real-time progress report"
+Real-time progress report
+Minor refactoring
+Fix `after` directory and `Plugfile` on Windows
+Minor refactoring in ODL: no need to pass full dict
+Fix <Plug>-based ODL on visual range spanning multiple lines
+Fix <Plug>-based on-demand-loading on visual mode
+Load ftplugins while avoiding extraneous FileType events (#24, #25)
+Remove images from repo
+Fix test cases for travis-ci
+Travis-CI integration
+Update test runner script
+Improve PlugStatus message
+Use case-sensitive match
+Fix #28: False alarm from PlugStatus when tag used
+Fix: dependent plugins not loaded after initial installaion
+Ensure ftplugin files are loaded (#24)
+Revert "Ensure ftplugin files are loaded (#24)"
+Revert "Remove FileType autocmd after loaded"
+Ensure ftplugin files are loaded (#24)
+Revert "Clear #filetypeplugin for filetype-based ODL (#24)"
+Remove FileType autocmd after loaded
+Clear #filetypeplugin for filetype-based ODL (#24)
+Add pending test case on dependency resolution
+Allow updating subset of plugins
+Allow -range in on-demand loading commands
+Allow trailing comment after Plug declaration (#23)
+On-demand loading on filetypes (#21)
+Fix on-demand loading: load ftdetect and **/*.vim as well
+Fix #19: install error
+git submodule update --init --recursive (#18)
+Use black hole register when emptying buffer
+Echo "Press 'D'" message only on PlugUpdate
+PlugDiff: Display commit info in preview window
+Explicitly return 0
+Use s:esc function
+Change PlugDiff message (suggested by @beloglazov in #17)
+Change PlugDiff message (thanks to @beloglazov)
+Less LOC
+Fix syntax highlighting (#17)
+Fix output format (#17)
+Fix test case for PlugStatus
+Add PlugDiff command (#17)
+Change PlugStatus output to match those of other commands
+Place cursor on the 2nd line during PlugClean
+Merge pull request #16 from CD3/load-order
+added plug load order (for dependencies)
+Support paths with spaces (#15 [, #14])
+Merge pull request #13 from junegunn/shellesc
+Replace shellescape function to avoid error when &shellslash is set
+Fix PlugStatus/PlugClean on Windows
+Update README (Related: #12)
+Remove unnecessary code
+On-demand loading for imaps of <Plug> mappings
+Use <silent> map
+Add test runner
+Avoid remapping of temporary <Plug> map
+On-demand loading with <Plug> mappings (experimental)
+Load-on-demand with `on` option
+Update README
+Print error message when unable to determine plug home
+Display error message if plug#end is called before plug#begin
+Update demo screencast
+Remove dependency resolution section (link to wiki)
+Update formatting of error messages
+Ignore `git:@` when validating cloned repository
+Change list bullet charactor for errors
+Improve progress bar format
+Remove `set nocompatible` (Fixes #11)
+Fix source code error on `vim -u MYVIMRC`
+Update test/README
+Add test/README.md
+Strip trailing slash from g:plug_home
+Encourage use of path argument to plug#begin() to avoid confusion
+Add basic test scenario
+Revert "Make :Plug command unavailable after end()"
+Make :Plug command unavailable after end()
+Update README
+Add FAQ section (#10)
+Fix repo name
+plug.png
+PlugUpgrade without curl
+Update README: be explicit about reloading .vimrc (#8)
+Remove trailing backslash from rtp on Windows
+Update README
+Add link to a blog post
+while -> until
+Recursively kill dangling child processes using pgrep
+Try to cleanup dangling processes on int or timeout (#5, #6)
+Implement task timeout with default timeout 60 sec (#5)
+Add link to plug.vim
+Add gif for Plugfile example
+Fix #4: parallel installer work on Windows
+Fix PlugClean on Windows
+Make plug#begin() return boolean value
+Find Plugfile under rtp
+Add support for dictionary option argument: branch, rtp (#2)
+Update README
+Update README
+Merge pull request #3 from junegunn/Plugfile
+Proper handling of invalid branch in parallel installer
+Fix branch argument
+Spawn multiple threads unless g:plug_threads is set to 1
+Prevent serialization due to early termination of threads
+Prototype implementation of dependency resolution (#2)
+Add a note on feature request (#1)
+New screenshot
+Updating plugins -> Installing plugins
+Add PlugStatus command
+Update README
+Update README
+Update README
+Update README
+Update syntax highlighting
+Ruby-support link
+Print log in reverse order
+Update README.md
+init -> begin
+Fix PlugClean user prompt
+Change PlugClean message
+PlugClean!
+Merge branch 'master' of github.com:junegunn/vim-plug
+Git remote validation
+Relocate screenshots
+plug#begin() - plug#end()
+4 gifs
+Fix broken image link
+Add screenshot
+Change directory structure: user/repo/branch -> user/repo
+Add after directory to rtp as well
+Old rubby
+Windows support
+Improve parallel update process
+Updates
+Update doc
+Fix PlugUpgrade
+Initial commit

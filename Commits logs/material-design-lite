@@ -1,0 +1,2872 @@
+Fix placeholder check for dirty state
+Check placeholder value when setting dirty state.
+set is_dirty when placeholder exists
+Remove mouseup event on slider to let change event occur.
+Update _variables.scss
+Add public method setTab to set the active tab programmatically
+Update data-table.js
+Update data-table.js
+Automatic uncheck header checkbox
+Add expansion component
+Fix the aria-hidden setting for the case when a fixed drawer is open. (#5128)
+Fixed dead link for `CONTRIBUTING.md` in README.md
+Fixed minor typo in dialog README
+Fix checked/unchecked style for checkbox
+Add Snackbar hide method
+Fix js lint issues (#5013)
+chore(package): update gulp-zip to version 4.0.0 (#5018)
+Updated README.md to communicate MCW as MDL v2 (#5023)
+Fix #1335 (#5041)
+Remove invalid property.
+Fix full width card action overflow in IE
+Bump to 1.3.0
+Merge pull request #4987 from Abradoks/mdl-1.x
+Add mdl-card__menu docs. Fixes #1094
+_radio.scss: scale() instead of scale3d()
+sgomes-update-1.x-repo
+Merge pull request #4982 from google/sgomes-update-deps-2016-12
+Updating JSCS and fixing linting errors. Also removing custom JSCS rule for Closure.
+Update most dependencies
+Merge pull request #4966 from google/greenkeeper-babel-core-6.20.0
+Fixing build after babel-core update.
+chore(package): update babel-core to version 6.20.0
+Merge pull request #4971 from google/greenkeeper-gulp-sass-3.0.0
+chore(package): update gulp-sass to version 3.0.0
+Temporarily disable memory tests in drone due to timeouts.
+Merge pull request #4978 from pndewit/mdl-1.x
+fix(radio): add height and vertical-align
+Merge pull request #4817 from enniel/fix-spinner-styles
+fix
+Update readme with mdl-layout__tab-manual-switch.
+Merge pull request #4859 from chajath/mdl-1.x
+Merge pull request #4885 from google/greenkeeper-gulp-imagemin-3.1.0
+chore(package): update gulp-imagemin to version 3.1.0
+fix ripple.js bug (#4865)
+Merge pull request #4860 from MitchLillie/fix/allow-hrefs-in-tabs
+Merge pull request #4849 from leocaseiro/enable-border-card-supporting-text
+fix(tabs): Allow tab hrefs to point anywhere
+Add class to disable js layout switching
+feat(Card): enable border for mdl-card__supporting-text
+Merge pull request #4845 from google/greenkeeper-gulp-sourcemaps-2.0.1
+chore(package): update gulp-sourcemaps to version 2.0.1
+Merge pull request #4838 from ProZsolt/patch-1
+Fix linting issue in radio.js
+Merge pull request #4833 from CodeGenTeam/fix-error
+Fix alignment in list-control.html
+Merge pull request #4809 from aJchemist/patch-1
+Merge pull request #4813 from nayzawoo/patch-1
+refix radio.js, mocha is true
+fix data-table unit test
+fix radio unit test
+Fixed MaterialRadio.prototype.onChange_
+Fix "issue tracker" hyperlink in CONTRIBUTING.md .
+Merge pull request #4779 from google/greenkeeper-jquery-3.1.1
+Merge pull request #4781 from AlexanderOtavka/initial-upgrade-config
+fix
+Add a missing space
+Merge pull request #4789 from google/greenkeeper-gulp-mocha-phantomjs-0.12.0
+chore(package): update gulp-mocha-phantomjs to version 0.12.0
+Prevent component upgrades by catching events.
+Revert "Add componentHanderConfig to config auto upgrade"
+Revert "Fix closure errors"
+Fix closure errors
+Add componentHanderConfig to config auto upgrade
+chore(package): update jquery to version 3.1.1
+Merge pull request #4762 from google/greenkeeper-acorn-4.0.3
+chore(package): update acorn to version 4.0.3
+Fix search icon position in dashboard template
+Fix list class reference to display the proper modifier classes.
+Add comment to be consistent with comments above other demo snippets
+Merge pull request #4731 from google/greenkeeper-gulp-load-plugins-1.3.0
+chore(package): update gulp-load-plugins to version 1.3.0
+Bump to 1.2.1
+Merge pull request #4675 from google/hotfix/drawer-toggle-alignment
+Tweak drawer button alignment in desktop sizes.
+update space on comment of  button disabled (#4718)
+Fix drawer toggle mis-alignment due to incorrect line-height.
+Merge pull request #4670 from google/greenkeeper-gulp-flatten-0.3.1
+chore(package): update gulp-flatten to version 0.3.1
+Bump to 1.2.0
+Merge pull request #4643 from google/greenkeeper-mocha-3.0.2
+chore(package): update mocha to version 3.0.2
+chore(package): update mocha to version 3.0.1 (#4631)
+Merge pull request #4622 from google/greenkeeper-mocha-3.0.0
+Merge pull request #4626 from google/greenkeeper-gulp-uglify-2.0.0
+Merge pull request #4608 from google/greenkeeper-gulp-connect-5.0.0
+chore(package): update gulp-uglify to version 2.0.0
+chore(package): update mocha to version 3.0.0
+chore(package): update gulp-connect to version 5.0.0
+Merge pull request #4595 from google/greenkeeper-acorn-3.3.0
+chore(package): update acorn to version 3.3.0
+Add chip icon for docs.
+Make tooltip not blur in Chrome
+Merge pull request #4550 from google/chore/1.x/github-issue-template
+Add issue template outlining feature request / bug reporting guidelines
+Show tab overflow arrows
+Added style for unused variable
+Fix drawer toggle alignment problem
+Corrected template source URLs
+Fix drawer active state colors
+Update README to match master branch version
+Added mdl-chip component
+Add the `data-mdl-for` attribute to tooltips.
+Fixes element.MaterialRadio.[un]check() calls on radio lists
+Fix typo in layout readme
+Ensure string on margin-left property
+Possible fix for #1398
+Fix assignment for closure.
+Call CustomEvent constructor instead of Event.
+Merge pull request #4347 from joemidi/eslint-fixes
+eslint error fixes
+Remove automatic name/value example. Functionality was removed before publishing.
+Update button note to reflect disabled classes purpose.
+Fix downgrade event firing (bug introduced in #4191)
+Small tweak to make Closure compiler happy
+Bump to 1.1.3
+Merge pull request #4179 from google/hotfix/snackbar-mobile-alignment
+Fix grammatical error
+Merge pull request #4183 from sad270/patch-2
+Merge pull request #4204 from google/magic-viewport
+Add magic viewport to all templates and documentation.
+Fixing linting errors.
+Merge pull request #4191 from google/init-event-deprecated
+Fix downgrade event as well
+Use the Event constructor in browsers that support it. Fixes #4188.
+fix tab navigation for external links
+Fixing merge issue with .drone.sec
+Bump node version on CI to 4+5 (use matrix)
+Fix snackbar position on mobile.
+Bump to 1.1.2
+Merge pull request #4174 from google/textfield-placeholder
+Make labels interact better with placeholders in textfields. Fixes #243.
+Merge pull request #4120 from google/hotfix/snackbar-action-alignment
+Merge pull request #4170 from google/csso-1.x-fix
+Merge pull request #4169 from google/fix-ie11-printing
+Quick fix to stop new versions of CSSO from breaking the build
+Fix printing in IE11. Fixes #4129.
+Merge pull request #4161 from google/fix-list-examples
+Merge pull request #4162 from Zodiase/drawer-escape
+Check if the drawer is open before responding to escape keystrokes.
+Fix list example controls.
+Fix default timeout documentation.
+Fix documentation for multiline list item classes
+Merge pull request #4135 from rundef/fix-layout-init-loses-focused-element
+Refocus the :focused element after the layout rendering
+Address snackbar MD alignment.
+Fix double ascending modifier in config options.
+Merge pull request #4127 from TristanWiley/mdl-1.1
+End tag of paragraph open
+Merge pull request #4115 from mspl13/add-portfolio-template-to-index
+gupl build command run
+Initial position snackbar center aligned
+fix: snackbar container center aligned
+Merge pull request #4118 from google/issue-4061
+add portfolio template Previously the Portfolio template was not listed/linked in the `README.md` file.
+rename `home.html` to `index.html` Because the index page for the portfolio template wasn't named `index.html` the server was not able to find it when requesting the preview for the page. The file `home.html` had to be renamed to `index.html` and all files including a link to the index page had to be adjusted to this change.
+add portfolio template Previously the portfolio template was not shown in the template index because it wasn't included in the `templates.md` file and no preview image was given in template assets folder.
+Update tab button appearance on window resize. Fixes #4061.
+Merge pull request #4110 from google/deconstruct-buletproofing
+Add some bulletproofing to deconstructComponentInternal.
+Merge pull request #4087 from tleunen/issue-4084
+Merge pull request #4062 from google/readme/david-dm
+fixes #4084 - DataTable sorting icon
+Bump to 1.1.1
+Changing text field error color per MD team advice. Fixes #4066.
+Merge pull request #4069 from google/fix-list
+Improves the list to bring it closer to spec.
+Merge pull request #4064 from google/fix-waterfall-on-small-screen
+Fix issues with waterfall headers on small screens. Fixes #4058.
+Add david-dm badge
+Merge pull request #4057 from google/hotfix/list-examples
+Add inline display to list item avatar icons.
+Merge pull request #4054 from mariusbutuc/consistent-indentation
+Update out of sync classnames.
+Merge pull request #4055 from google/list-docs
+Adding list docs.
+Maintain consistent indentation levels
+Bump to 1.1.0
+Fixing syntax highlighting in some docs
+Merge pull request #4052 from google/no-auto-focusing
+Fixing broken menu demos
+Removing auto-focusing in layout.
+Merge pull request #4045 from google/dialog-docs
+Adding dialog to component documentation
+Fix tags in example
+Merge pull request #4043 from google/snackbar_docs
+Adding snackbar to components docs.
+Small fix for snackbar sample. Fixes #4041
+Add clear note that dialogs must be child of body.
+Merge pull request #4031 from oddui/reset-button-margin
+reset mdl-button margin
+Merge pull request #4033 from KeizerDev/fixed-ending-tag
+Fixed another typo
+Fixed typo in the Tabs/README.md
+Merge pull request #2025 from google/garbee/dialog
+Merge pull request #4010 from google/layout-scrolling-safari
+Switch from sTO to rAF
+:new: Add dialog component
+Merge pull request #3612 from google/garbee/data-table-alignment
+Merge pull request #3731 from google/android-alignment
+Some alignment fixes to android.com template
+Tweak data-table to make action alignment just work.
+Merge pull request #2009 from google/garbee/hotfix/downgrade
+Merge pull request #744 from paulirish/patch-1
+Merge pull request #2079 from google/hotfix/hide-number-spinners
+Merge pull request #3606 from rohanthacker/master
+Remove unnecessary comma in styles (fixes #3608)
+Merge pull request #3607 from mariusbutuc/few-typos
+Fix typos in documenting comments
+	modified:   README.md
+Added List Docs
+Merge pull request #3602 from oddui/fix-snackbar-cleanup
+fix snackbar action element not cleaned up
+Merge pull request #3592 from google/hotfix/button-will-change
+Merge pull request #3600 from google/https-links
+Remove the microsite's usage, and more importantly, our prescription that users import our resource  via the storage.googleapis.com domain, and rather suggest they access our resources via the simpler https://code.getmdl.io/thing.
+Merge pull request #3598 from google/snackbar-animation
+safari layout scrolling issue workaround
+Simplify will-change for buttons.
+Appeasing closure after snackbar changes
+Animate snackbars.
+Merge pull request #3594 from google/codepen-https
+Switching to HTTPS for Codepen now that it works again.
+Merge pull request #3591 from jirkadanek/patch-2
+Merge pull request #2030 from google/garbee/snackbar-refactor
+add missing closing tags on polygon svg elements
+Merge pull request #2380 from oddui/fix-ripple
+Merge pull request #2555 from juristr/tmpl-dashboard-fix
+Revert "dashboard: add missing closing slashes (closes #2555)"
+dashboard: add missing closing slashes (closes #2555)
+Add copyright header to list.
+Update item line modifiers to use proper syntax.
+Fixing build issue on node 0.12 with gulp-closure-compiler
+Spelling fix.
+Merge pull request #2076 from google/hotfix/progress-bem
+Merge pull request #2026 from google/hotfix/textfield-font
+Merge pull request #2038 from google/hotfix/drawer-nav
+Merge pull request #2078 from google/docs/menu-parent
+Merge pull request #2557 from cvrebert/patch-1
+"Twitter Bootstrap" => "Bootstrap"
+add missing closing tags on line and circle svg elements
+add missing closing slashes
+Hide number spinners for textfields.
+Merge pull request #2379 from oddui/fix-textfield-focus
+fix MaterialRipple#upHandler_()
+fix textfield `focus` listener on safari
+Add note on parent position requirement.
+Update progress readme for new modifier.
+Change to modifier for intermediate progress state.
+Update typography of navigation links.
+Use npm update in drone builds
+Merge pull request #2029 from listepo/gitter
+Refactor snackbar.
+Added gitter badge
+Fixed downgrading to always remove internal references.
+Add font family to textfield inputs for consistency.
+Merge pull request #2016 from google/hotfix/checkFocus
+Merge pull request #2000 from indicee/master
+Update package.json
+Update package.json
+Fix duplicate checkFocus method.
+Remove buggy focus test.
+Merge pull request #1873 from google/garbee/feature/textfield-autofocus
+Adding documentation for new data-table options
+Merge pull request #1963 from alitas/issue-1961
+Fixing layout after what looks like a bad merge.
+Merge pull request #1966 from google/jscsrc
+Fix memory test output
+Remove phantom from top level deps
+Add drone upgrade-related changes
+Merge branch 'tschiela-fix/menu-a11y'
+Merge a11y upgrades with latest layout modifications.
+Merge pull request #1958 from google/issue-1859
+Update package.json
+Update drool and API calls
+Merge pull request #1994 from afonsopacifer/contribution-adjustments
+Fix links and grammar
+Remove gulpfile from linting
+An attempt to fix phantomjs-based tests in CI
+Upgraded drone config
+Merge pull request #1965 from google/sjs/menu-leak-take2
+Utilize event deduping with addEventListener
+Merge pull request #1962 from posva/fix-badge-overlap
+Changed modifier naming to refer to the header block instead of the whole data table
+Changed ligatures to codepoints
+Added sorted column style as described in https://www.google.com/design/spec/components/data-tables.html#data-tables-interaction
+Converted material-icons typography class into a mixin
+Fix margin-right when using .mdl-badge--overlap
+Merge pull request #1960 from Garbee/mdl-lists
+Merge pull request #1959 from google/Tooltip-positions
+Extend documentation for tooltips
+Merge branch 'garbee/hotfix/textfield-autofocus'
+:new: List component
+:new: Textfield checkfocus
+Fix left/right tooltip positioning
+Cleaned code after merge
+Fixed js
+Tooltip positions
+Use Unicode point for layout hamburger button (fixes #1859)
+Merge pull request #1956 from google/garbee/layout-obfuscator
+Merge pull request #1955 from google/garbee/hotfix/layout-toggle-public
+Make obfuscator transition opacity instead of background-color
+Make drawer toggle public method for layout.
+drawer button is button element, click and keyboard event handler, tests
+Merge pull request #1893 from google/closure-fixes-2015-11
+Remove box shadow on raised disabled.
+Some minor closure compiler improvements/fixes.
+Merge pull request #1890 from mustafa-x/master
+Add mdl-typography--body-1-force-preferred-font to the navigation elements so that Roboto is used rather than Helvetica
+removed button background image
+Merge pull request #1875 from google/garbee/hotfix/disabled-button-shadow
+removed redundant commented code
+added image specific classes
+replaced .mdl-layout__header .mdl-layout__drawer-button with .portfolio-header .mdl-layout__drawer-button
+updated the CSS files to they target specifically. .portfolio-header .mdl-layout__header-row instead of .mdl-layout__header-row
+updated the meta tag description for all of the HTML files
+Updated the CSS and JS links for the templates in order to make them consistent with existing templates. This also helps with testing the builds
+Adding portfolio template and tutorial files
+Merge pull request #1889 from mariusbutuc/palette-typo
+s/pallet/palette
+Merge pull request #1878 from google/garbee/hotfix/card-text
+Merge pull request #1877 from google/garbee/hotfix/material-icons
+Update card supporting text to align with spec.
+Add material-icons to typography
+Remove shadow from disabled buttons.
+Textfield can autofocus.
+Merge pull request #1863 from The4thLaw/issue-1862
+Add padding to icon for proper spacing.
+Merge pull request #1784 from google/hotfix/gulpfile-simplify-all
+Merge pull request #1821 from MightyBranch/dashboard-template-fix
+Merge pull request #1861 from hebbet/master
+Implementing comments on the pull request
+Propose a fix for issue #1862
+use google.com for Material Design links
+Merge pull request #1832 from hebbet/master
+Merge pull request #1839 from google/waterfall-hide-top
+Adding new option to hide top rather than bottom in a waterfall
+Merge pull request #1826 from google/sites-using
+Merge branch 'mdl-1.0'
+Bump to 1.0.6
+Increase specificity of drawer scrolling fix so it works with scrolling headers.
+Fixing typo introduced in #1781
+Adding public alias to radio downgrade method
+Merge pull request #1770 from google/cleanup-docs-1.0
+Merge pull request #1779 from google/garbee/downgrade-radio
+Merge pull request #1774 from google/hotfix/drawer-item-active
+Merge pull request #1773 from google/hotfix/issue-1560
+update es5-shim
+Merge pull request #1827 from Gheoan/fix-typos
+Fix typo in blog template css
+Merge pull request #1792 from google/garbee/dt/remove-auto
+Fixing issue loading CSS in android.com template
+Add showcase styling
+Add showcase image resources
+Update showcase FAQ
+Add showcase content
+Add showcase to navigation
+Add showcase template
+Merge branch 'mdl-1.0'
+Align search icon with menu icon in Firefox
+Merge pull request #1818 from google/public-downgrade
+Don't call private component methods from the component handler.
+More JSCS fixes: - Adding reporting (syntax changed with gulp-jscs 3.0) - Working around bug with relative paths in some versions of jscs
+Updating gulp-jscs to ^3.0.0 to avoid custom rule breakage
+Reverting #1806 after discussing approach.
+Merge pull request #1806 from google/tabs-leak
+Fix tabs memory leak by ensuring a downgrade. Fixes #1803.
+Merge pull request #1796 from google/sjs/downgrade-upgrade-suite
+Print in wonderful tables
+🚿 Add component upgrade/downgrade leak tests
+Cleanup duplicate blocks. Add newline after headings.
+Downgrade radio components.
+Remove automatic name and value for data table checkboxes.
+Merge branch 'mdl-1.0'
+Removing Android font from template and repository.
+Menu: fix early-menu-hide bug when click on menu item (closes #1706)
+Merge pull request #1645 from google/issue-1326
+Merge pull request #1780 from google/garbee/initialize-invalid
+Merge pull request #1750 from faergeek/tooltip-fixes
+Merge pull request #1772 from google/hotfix/card-subtitle-color
+Merge pull request #1775 from google/hotfix/badge-color
+Merge pull request #1776 from google/hotfix/data-table-dataset
+Merge pull request #1781 from google/garbee/hotfix/layout-title-class
+Merge pull request #1785 from google/garbee/feature/menu-dividers
+Merge pull request #1786 from google/garbee/readme-badges
+Display color name on the wheel with tooltip #516 (Closes #1788)
+Merge pull request #1771 from google/hotfix/button-padding
+Add badges to readme
+Add full bleed modifier for menu items.
+Clean up gulp all task.
+Rename non-BEM class for layout title.
+Textfields can initialize as invalid.
+Merge pull request #1778 from google/hotfix/remove-old-slider-link
+Remove uneeded section from slider readme.
+use has/getAttribute instead of dataset.
+Make set white badge colors accent contrast.
+Fix active drawer item color.
+Add select element class to CssClasses_ property. Clean up multiple class assignment to checkbox.
+Remove hard-coded color and set right value for variable.
+Increase button padding to adhere to primary button specification.
+Remove primary snackbar heading.
+Make $image_path overridable (closes #1767)
+Merge pull request #1758 from google/1.0.5-internal-review-fixes
+Small fixes to JS after internal code review.
+Merge branch 'mdl-1.0'
+Set cursor to default on disabled button
+Merge pull request #1746 from google/consecutive-adjacent-selectors
+Fix tooltip to behave more correctly on mobile
+Consecutive `+` CSS selectors sometimes cause problems in WebKit.
+Merge pull request #1745 from google/issue-1744
+Fix typo in Getting Started (fixes #1744)
+Merge pull request #1734 from google/issue-1722
+Remove eat function from layout (Closes #1652)
+Disallow scrolling if drawer is open (fixes #1348)
+Add support for `data-mdl-disabled` attribute (fixes #1722)
+Namespace menu's `data-for` attribute
+Merge pull request #1724 from posva/fix/max-width-progress
+Merge pull request #1726 from google/more_broken_sibling_ios
+fix ripple effect on menubtn (fixes #1727)
+More fixes for broken sibling selector in iOS
+Set max-width to 100% in .mdl-progress
+Merge pull request #1713 from google/fix_obfuscator_ios9
+Fix issues with layout obfuscator in iOS9. Fixes #1696.
+Switching android.com template away from using CDN
+Merge pull request #1709 from google/fix_docs_footer
+Fixes for docs footer issues: - Remove bullet points from footer links - Add spacing between links in footer
+Merge pull request #1704 from jorrit/patch-3
+Remove double header background color in dashboard
+Fix reference to class name for seamed mode (closes #1703)
+Merge remote-tracking branch 'origin/mdl-1.0'
+Remove eat function from layout (Closes #1652)
+Disallow scrolling if drawer is open (fixes #1348)
+Add 24dp shadow (fixes #1606) (Closes #1654)
+Merge pull request #1685 from google/lint-task
+gulpfile - merge `jscs` and `jshint` tasks
+gulpfile - more ES2015ify
+gulpfile - code style and consistency tweaks
+Merge pull request #1684 from google/bump-deps
+Bump dependencies and remove unused ones
+Merge pull request #1683 from google/codepen-http
+Switch Codepen POST URL to HTTP instead of HTTPS
+Merge pull request #1682 from google/del
+Upgrade `del` and fix its usage in the gulpfile
+Merge pull request #1677 from google/es2015ify
+ES2015ify the gulpfile
+Merge pull request #1149 from jonathanprehn/master
+Merge pull request #1648 from google/issue-1403
+Update textfield.js (closes #1674)
+Merge pull request #1655 from google/non-xhtml
+Remove even more XHTML slashes
+Merge pull request #1667 from hebbet/hebbet-patch-1
+Merge pull request #1668 from google/issue-1665
+Re-expose MaterialLayoutTab (fixes #1665)
+fix path to font in templates/android_dot_com (fixes #1666)
+Bump to 1.0.5
+Merge pull request #1657 from google/fix-fixed-drawer-fouc
+Fixes #1656
+Remove XHTML slashes
+Increase code.getmdl.io caching to 30 days (fixes #1427)
+Add favicon and homescreen icons to templates (fixes #1449)
+Put absolute image paths into variable (fixes #1426) (Closes #1649)
+Increase code.getmdl.io caching to 30 days (fixes #1427) (Closes #1653)
+Add favicon and homescreen icons to templates (fixes #1449) (Closes #1650)
+Put absolute image paths into variable (fixes #1426) (Closes #1649)
+Add support for `data-for` on menu (fixes #1556) (Closes #1651)
+blog template: Make background image smaller and responsive (fixes #1403)
+Merge pull request #1646 from google/fix-textfield-change
+Fixes #1642
+Set useful CDN text selections on click (fixes #1326)
+Merge pull request #1635 from samccone/sjs/test-snackbar
+:goat: Split up memory tests
+:star: Add snackbar memory tests
+Merge branch 'mdl-1.0'
+Check if drawer button exists before creating a new one.
+Merge pull request #1519 from google/snackbar
+Merge pull request #1261 from google/issue-708
+Add `mdl-badge--overlap` class (fixes #708)
+Merge pull request #1508 from google/footer-styles
+Add snackbar js to gulp sources. Update script with comments for closure compiler.
+Merge pull request #1591 from narendrashetty/patch-1
+Merge pull request #1592 from narendrashetty/patch-2
+Merge master.
+Fix Switch cursor issue (fixes #1530)
+Fix Mega footer checkbox chevron visible on wide screen (fixes #1582)
+Merge pull request #1588 from google/mocha-closure
+Updating drone config to pick up mocha:closure task
+Adding a mocha:closure gulp task, to test closure-compiled JS.
+Merge pull request #1585 from samthor/closure-dest
+update Closure Compiler to pipe to ./dist
+Merge pull request #1580 from google/issue-1577
+Closure compiler fixes for new data table functionality
+Merge branch 'mdl-1.0'
+Merge pull request #1581 from google/grid-reordering
+Adding reordering classes to the grid
+Fix media-query at exactly 1024px (fixes #1577)
+Merge pull request #1570 from google/more-closure-fixes
+Merge pull request #1576 from google/stylesheet-link-consistency
+Template stylesheet link consistency
+Merge pull request #1547 from samthor/closure
+Add optional Closure Compiler support
+Merge pull request #1571 from samccone/sjs/harden-uniffee
+:hammer: Harden unwrapping logic.
+Merge pull request #1569 from andyyou/master
+Small Closure compiler bugfixes to data-table and slider
+Fixing menu unit test to not use internal properties
+Symbol export fixes for polyfills
+Exporting symbols on all components, and minor referencing bugfixes.
+Ensure mdlComponentHandler.js doesn't pass through uniffe
+Improves compatibility of the componentHandler with Closure compiler.
+Tweaking JSCS and JSHint to allow for foo['bar'] syntax
+Add reset event of Textfield
+Merge pull request #929 from mweimerskirch/patch-2
+Allow tab navigation to be used for external links
+Tiny documentation fix for gulpfile
+Closure styling fixes for 1.1 work
+Merge branch 'mdl-1.0'
+Merge pull request #1551 from google/closure-fixes
+Styling fixes across the codebase to play well with Closure. Also configures JSCS to work with our code a bit better.
+s/Components/components
+Updating gitignore
+Add comment to _variables.scss
+Merge pull request #1525 from JacobDorman/sass-variable-defaults
+Merge pull request #1514 from google/feature/fieldset-disabled
+Add !default to sass variables so they can be overridden
+Add Snackbar :candy:
+Change in the function upgradElementsInternal to enable the upgrade of child elements created by parent element's upgrade, like RippleContainerElement in Checkbox. The problem was happening when the element was created dynamically.
+Merge pull request #1498 from dopic/master
+Merge pull request #1497 from google/feature/data-table/selection-values
+Disable styles when fieldset is set to disabled.
+Fix style leakage on styling site (fixes #1476)
+Fix microsite's footer spacing issue (fixes #1440)
+Change in the function upgradElementsInternal to enable the upgrade of child elements created by parent element's upgrade, like RippleContainerElement in Checkbox. The problem was happening when the element was created dynamically.
+Add name and value options to datatable selectors. Fix data table tests to run.
+Clarifying
+Merge branch 'mdl-1.0'
+#1395 - Improve Menu page's documentation
+Merge pull request #1467 from google/drawer-button-hiding
+Adding options for hiding drawer buttons (always and desktop only).
+Merge pull request #1456 from tleunen/icon-navlink
+Fix merge conflicts with data tables update.
+insert empty <td> in <tfoot> of selectable datatable
+#1355 - More refactoring in tests
+#1355 - Adding the code change
+#1355 - Auto Check Checkboxes when the row has the is-selected class
+Adding docs for grid offset
+Merge pull request #1460 from google/grid-offset
+Adding offsets to grid. See #239.
+Align icons with text in navigation link
+Merge branch 'mdl-1.0'
+fix add space between # and headings (closes #1450)
+Merge pull request #1442 from google/cleanup-readme
+Cleanup of the README markdown 'code' style.
+Bump to 1.0.4
+Add missing files to release folder (fixes #1422)
+Merge pull request #1437 from google/issue-1422
+Merge pull request #1438 from google/test-templates-locally
+Merge pull request #1431 from google/hotfix/drawer-scroll
+Remove unnecessary line
+Add a way to test templates against a locally built version of the MDL libs
+Add missing files to release folder (fixes #1422)
+Remove eating mousewheel event on drawer so it can be scrolled.
+Merge pull request #1430 from gauntface/jshint-fixes
+Fixing up indentation issues that prevented jshint from successfully running
+Merge pull request #1425 from google/1423-fix-1.0
+Merge pull request #1424 from google/1423-fix-1.0
+Merge pull request #1239 from rogerhu/tab_show
+Refactor click handler into a separate function.
+Fix textfield background regression. Fixes #1423
+Merge pull request #1411 from google/getting-started-with-templates
+Merge pull request #1420 from google/revert-1408-ios-scroll-fix
+Revert "Fix iOS data table scrolling. Fixes #1194."
+Simplify the templates zip file so they are easier to grasp.  - Now generating a zip file for each template  - Removed the generated MDL libs that were included and now referencing the hosted versions  - Removed the bower.json and packages.json files.
+Bumping to 1.0.3
+Fix data table header checkbox positioning. Fixes #923. (Closes #1409)
+Merge pull request #1408 from google/ios-scroll-fix
+Fix iOS data table scrolling. Fixes #1194.
+Merge pull request #1406 from google/issue-1025
+Set `visibility: hidden` on menu if not visible (fixes #1025)
+Merge pull request #1405 from google/optims
+Merge pull request #1376 from google/hotfix/comment-grid-selectors
+Image optimisations (Templates)
+Merge pull request #1365 from samccone/sjs/uniffy
+Add Uniffe to reduce closure count
+Merge pull request #1362 from google/issue-1341
+Update README.md
+Use spans for badge demos so they look good on codepen (fixes #1341)
+Merge pull request #1373 from google/issue-1366
+Merge pull request #1387 from google/icon-issue
+Use code points rather than ligatures in nav
+Add note to grid about specificity of selectors.
+Merge pull request #1386 from google/slider-pointer
+Adding a pointer cursor on sliders. Fixes #1370
+Merge pull request #1384 from google/reset-imports
+Simplify reset imports. Fixes #1363
+Merge pull request #1371 from google/revert-1367-auto-check-checkboxes-on-datatable
+Revert "#1355 - Auto Check Checkboxes when the row has the is-selected class"
+Don't use styleguide to compile css lib (fixes #1366)
+Merge pull request #1367 from djalmaaraujo/auto-check-checkboxes-on-datatable
+#1355 - Refactoring
+#1355 - Auto Check Checkboxes when the row has the is-selected class
+Merge pull request #1351 from google/component-font-variables
+Merge pull request #1358 from Ninir/h5bp_update
+Updated the H5BP file
+Add variables for font sizes in components.
+Removing underscores, following further comments on #1346
+Merge pull request #1346 from google/function-import
+Standardising function import to use _ and adding license header
+Merge pull request #1309 from google/issue-1307
+Merge pull request #1344 from google/issue-1337
+Merge pull request #1343 from google/radio-label-wrapping
+Apply IIFE to entire javascript bundle at publish
+Adjust gulpfile to styleguide
+Explicitely export componentHandler
+Wrap tooltip in IIFE
+Wrap textfield in IIFE
+Wrap tabs in IIFE
+Wrap switch in IIFE
+Wrap spinner in IIFE
+Wrap slider in IIFE
+Wrap ripple in IIFE
+Wrap radio in IIFE
+Wrap progress in IIFE
+Wrap menu in IIFE
+Wrap layout in IIFE
+Wrap icon-toggle in IIFE
+Wrap data-table in IIFE
+Wrap checkbox in IIFE
+Wrap button in IIFE
+Make footer links accessible (fixes #1337)
+Fix radio label wrapping in docs
+Making mdl-layout-icon usage a bit clearer
+Merge pull request #1306 from cainmi/fix-376
+Drop timeout back to 0
+Add menu memory retry logic
+Merge pull request #1320 from SeanBannister/unneeded-class-removal
+Removing all references to the mdl-layout--overlay-drawer-button class
+Merge pull request #1331 from google/fix-grid-codepen-style
+Improve Grid component styling on CodePen. Fixes #1009
+Merge pull request #1327 from google/update-layout-docs
+Fixes errors and omissions in existing layout docs. Fixes #1310
+Merge pull request #1325 from SeanBannister/css-naming-inconsistencies
+Fixing CSS coding standard inconsistencies in demos
+Merge pull request #1316 from google/drone-memory-test
+Run memory tests on CI
+Remove unneeded textfield-demo classes from Text Fields documentation (Closes #1315)
+Remove unneeded progress-demo classes from Loading documentation
+Fixing link location for the "cutting the mustard" test (Closes #1318)
+Merge pull request #1026 from samccone/sjs/memory-tests
+Merge pull request #1314 from google/fix-readme-new-gulpfile
+Fixes the README instructions for latest gulp file rework. Fixes #1304
+Add initial automated memory test.
+Merge pull request #1295 from google/issue-1288
+Update textfield demos
+Update slider demos
+Update progress demos
+Update menu demos
+Update layout demos
+Update grid demo
+Update badges demo
+Auto-generate unique classes for each demo
+Update documentation (Closes #1296)
+Add disabled class to button
+Adding extra git commands that windows users should run to receive correct line endings (Closes #1301)
+Handle disabled textfields with floating labels (fixes #1255) (Closes #1302)
+Allow repaint to occur before removing ripple visibility
+Merge pull request #1300 from afonsopacifer/readme-update
+link for wiki added in readme.md
+Merge pull request #1291 from eduardoboucas/master
+Fix typo in layout README
+Explicitly use absolute path for gulp task "style:gen"
+Simplify cell columns on grid component
+Merge pull request #1053 from google/started-expectations
+Some tweaks to the text
+Merge pull request #1285 from google/fix-radio-position
+Fixing radio button position
+Catch scrolling when drawer is open (fixes #1076) (Closes #1282)
+Align icons inside buttons with text (fixes #1131) (Closes #1281)
+Merge pull request #1266 from AliMD/patch-1
+Merge pull request #1279 from afonsopacifer/readme-update
+Adding a link to contributing.md in readme.md
+Merge pull request #1277 from afonsopacifer/contributing-update
+link for AngularJS contribution guidelines added
+Merge pull request #1273 from codeandrop/fix-readme-git-clone
+fixes git clone --bare to git clone to run npm install
+Merge pull request #1270 from google/cache-ttl
+Merge pull request #1269 from google/gulp-race
+Ensure style template is rendered before generating color combos
+Increase cache TTL to 1 hour for code.getmdl.io
+Only remove hamburger space on desktop (fixes #1245) (Closes #1249)
+Merge branch 'samthor-closure-fixes'
+Rebase against master
+removed ( ), which are actually redundant
+moved type annotations
+JSDoc type annotation fixes
+Add mdlDowngrade to menu (fixes #1257) (Closes #1258)
+main.js: disable empty links
+Merge pull request #1265 from jelbourn/patch-1
+Remove superfluous display property on .mdl-button
+Fixed typo in the "card" README file
+Revert "Add `mdl-badge--overlap` class (fixes #708)"
+Merge pull request #1260 from google/revert-1233-issue-708
+Revert "Add `mdl-badge--overlap` class"
+Merge pull request #1233 from google/issue-708
+Merge pull request #1256 from hobbyquaker/patch-1
+Adjust documentation (Closes #)
+Add `mdl-badge--overlap` class (fixes #708)
+Set textfield internal nodes to block (fixes #1236) (Closes #1247)
+Fix slider update with numeric 0
+Merge branch 'closure-fixes' of github.com:samthor/material-design-lite into closure-fixes
+Move Closure types on componentHandler to hide from global namespace, adds comment
+removed ( ), which are actually redundant
+Set textare to `display: block` to remove baseline spacing (fixes #1178) (Closes #1234)
+Don't raise disabled colord buttons (fixes #1241) (Closes #1244)
+Adjust documentation
+Add `mdl-badge--overlap` class (fixes #708)
+Ensure primary and accent are distinct (fixes #1206) (Closes #1228)
+Added unit test for checking sibling updates on change. (Closes #1229)
+moved type annotations
+JSDoc type annotation fixes
+Docs: Fix Cutting-the-mustard Link
+Bump to 1.0.2
+Adjust layout large-screen breakpoint (fixes #1185) (Closes #1186)
+Merge pull request #1174 from google/issue-1032
+Merge pull request #1205 from google/rollup/1.0.2
+Added new methods for checking state on other components. Overhauled tests naming and style.
+Code styling (Closes #1192)
+Fix typo in dashboard template (Closes #1208)
+Avoid dataset for IE10. (Closes #1190)
+Update mini footer example to use non-deprecated classes.
+Update mega footer snippet to use non-deprecated classes.
+Merge pull request #1183 from google/README-in-release
+Add README to _release
+Bump package.json, bower.json
+Update watch directives (Closes #1147)
+Add linters as dependency to scripts task
+Rename publish:bower to publish:release
+Adjust .drone.yml accordingly
+Use subtree to push _release
+Separate lib from microsite in default task
+Fixing incorrect JS doc (Closes #1161)
+Don't save space for a burger icon when drawer is fixed (fixes #1032)
+Add doc on no spacing modifier.
+Address card review. (Closes #1145)
+Add note on NodeJS requirement. (Closes #1126)
+Add phantomjs to dependencies explicitly
+Update gulp-sass version.
+Emit blur events for tooltips (fixes #1061) (Closes #1151)
+Drop telling people to file issues on another tracker for the site.
+Merge pull request #1148 from cliffordp/patch-1
+Issue with menu overlapping header
+Looked at the CSS and updated accordingly
+Merge pull request #1130 from yourivdlans/ym-fix-downgrade-material-progress
+Created downgrade method for MaterialProgress.
+Set layout breakpoint according to spec (fixes #902) (Closes #1128)
+Add note about MD spec to typography section (fixes #942) (Closes #1124)
+Clarify tooltip display event for touch UIs.
+Merge pull request #1122 from google/issue-1064
+Merge pull request #1123 from google/issue-1024
+Fixed test case 'should upgrade a single component to an element by using its CSS classes' to reveal a bug in the current `upgradeElement` caused by `dataUpgraded` not being correctly updated. Added test case 'should upgrade a single component to an element' to reveal a bug in the current `upgradeElement` caused by unreliably checking of upgraded class.
+Re-add captions for snippets (Closes #972)
+Fix IE10/11 copy bug
+More visual feedback for unsupported browsers
+Remove swfobject as well
+Don't copy when user has selected text manually
+Use 'this' w/ bind instead of ctx = this
+Replace flash clippy with native implementation
+Clarify sticky nav bit in text-heavy's template description (fixes #1024)
+Show tooltips on touchstart (fixes #1064)
+Remove legacy wrapper from layout demo code (fixes #1082)
+Merge branch 'issue-994'
+Use correct markup in blog template
+Merge pull request #1054 from google/check-widgets
+Merge pull request #1107 from gs-akhan/master
+Merge pull request #1116 from google/textfield-methods
+Merge branch 'issue-1058'
+Add roles attributes and addition descriptions to text-only template
+Add roles attributes and addition descriptions to dashboard template
+Merge pull request #1098 from Gheoan/patch-1
+Added check classes for various textfield states.
+fix #1058, added role attributes to icons and additional button description to blog template
+Issue if Drawer has mdl-layout--small-screen-only or large-screen-only. Then the hamburger Icon needs to be hidden on small/large screen.  Fixed this by adding class to slider-Icon(hamburger).
+Fix typo in _layout.scss
+Fix typo in _variables.scss
+Bugfix for component handlers callbacks (registered via "registerUpgradedCallback") (Closes #1067)
+Fix grid documentation
+Issue #702 (Closes #1075)
+Fix merge conflicts.
+Expanded componentHandler unit tests. Removed uneeded comments.
+Add upgradeElements method to componentHandler.
+add missing en
+Remove spacing.css reference since this file doesn't exist anymore.
+Add flag to not target elements directly for typography. (Closes #1038)
+Update MD spec link.
+Fix design link.
+Added variable to trim color pallet. (Closes #991)
+Fixing typo in footer
+Link to meta viewport article.
+Updated mini footer to have proper naming in addition to old non-BEM naming. (Closes #993)
+Updated mega footer to have proper naming in addition to old non-BEM naming.
+Move shadow down in import to provide the most specificity. (Closes #1007)
+Removed uneeded icon class from badge demos. (Closes #1010)
+Add rule to remind people about meta viewport. (Closes #1011)
+Expose checkbox as widget for developer manipulation. (Closes #1013)
+Add faq entry on keeping updated with issues. (Closes #1015)
+Fix link in docs that was 404ing
+Documentation fixes for Button component
+Fix jshint deprecatoins
+Remove duplicate box-shadow property.
+Add FAQ item: showcase of sites using MDL
+Fixed grammatical error
+Note to Windows users about line endings.
+Fixed then name of the snippet file used in the getting started guide.
+Improve upgradeElement CSS class detection
+Upgrade getting started guide to reflect new upgradeElement simplification.
+Finish off tests (Closes #922)
+Testing upgrading an element using its CSS classes.
+Initial test for component handler.
+Add touch delay negation for mobile IE. Misc cleanup. (Closes #906)
+MD icon font is not optional
+Add disabled state for colored buttons. Move all disabled to bottom.
+Merge pull request #982 from Sesta/issue-560
+Merge pull request #1062 from reel/reel/typo1
+fixed typo.
+Merge pull request #1060 from maguowei/master
+add missing en
+Remove spacing.css reference since this file doesn't exist anymore.
+Add flag to not target elements directly for typography. (Closes #1038)
+Turn widget explicitly on for things that should be.
+Add responsibilities section to Getting Started.
+Update MD spec link.
+Fix design link.
+Added variable to trim color pallet. (Closes #991)
+Fixing typo in footer
+fix #994, removed unnecessary 100% width from menu item
+Link to meta viewport article.
+Updated mini footer to have proper naming in addition to old non-BEM naming. (Closes #993)
+Updated mega footer to have proper naming in addition to old non-BEM naming.
+Move shadow down in import to provide the most specificity. (Closes #1007)
+Removed uneeded icon class from badge demos. (Closes #1010)
+Add rule to remind people about meta viewport. (Closes #1011)
+Expose checkbox as widget for developer manipulation. (Closes #1013)
+Add faq entry on keeping updated with issues. (Closes #1015)
+Fix link in docs that was 404ing
+Documentation fixes for Button component
+Merge pull request #977 from alexbel/fix_jshint_deprecations
+Merge pull request #983 from kentya6/master
+Remove duplicate box-shadow property.
+Fix full screen repainting correctly
+Fix jshint deprecatoins
+Add FAQ item: showcase of sites using MDL
+Fixed grammatical error
+Merge pull request #937 from google/windows-chek
+Note to Windows users about line endings.
+Merge pull request #930 from google/fix-getting-started
+Fixed then name of the snippet file used in the getting started guide.
+Merge pull request #895 from google/simplify-upgradeElement
+Improve upgradeElement CSS class detection
+Finish off tests (Closes #922)
+Testing upgrading an element using its CSS classes.
+Initial test for component handler.
+Add touch delay negation for mobile IE. Misc cleanup. (Closes #906)
+Upgrade getting started guide to reflect new upgradeElement simplification.
+MD icon font is not optional
+Merge pull request #908 from google/button-disabled-fix
+Merge pull request #910 from google/master-is-unstable-note
+Quick note on the stability of the master branch.
+Add disabled state for colored buttons. Move all disabled to bottom.
+Merge pull request #890 from xdissent/upgrade-element
+Merge pull request #897 from yuyokk/fix-introduction
+Fix a link to Material Design Lite site and add link to Material Icon font
+Fix copy-to-clipboard in Firefox.
+Merge pull request #891 from google/test-domain-for-example-emails
+Change example emails to use a test TLD
+Upgrade element based on css class names
+Adjust z-indices for iOS Safari <3 (fixes #872) (Closes #883)
+Simplify code. (Closes #884)
+Replace for loop by forEach
+Generate CodePen buttons in templates instead of on page load.
+Merge pull request #876 from google/issue-835
+Throw error objects, not plain strings. (Closes #875)
+Merge pull request #868 from google/issue-845
+Make tabs in text-only template behave in mobile (fixes #835)
+Merge pull request #867 from JoseAlcerreca/patch-1
+Replace duplicated button demo (fixes #845)
+android-dot-com template: use CSS hosted on CDN
+Fix tooltip position
+adds correct path for bower_components (Closes #780)
+Merge pull request #819 from google/slider-tweaks
+Merge pull request #849 from HenriqueLimas/master
+fix(docs): edit Web Starter Kit link description.
+Merge pull request #844 from google/icon-font-https
+Icon font always referred to with HTTPs.
+Merge pull request #840 from yuyokk/fix-link
+Fix a link in CONTRIBUTING.md
+Merge branch 'hotfix/contributing'
+Fix commit conflict
+Merge pull request #774 from mateuspv/master
+Fix links inside CONTRIBUTING.md
+Merge pull request #834 from jonathanp/master
+Fixed typo in a JSDoc comment.
+Merge pull request #832 from DanTup/patch-1
+Removed dupe rel="stylesheet" from Styles page
+Disable webkit specific look on submit buttons on iOS (fixes #825) (Closes #827)
+Merge pull request #824 from mweimerskirch/patch-1
+Re-add icon to drawer menu (Closes #823)
+Use right container item for drawer menu (fixes #759)
+Text fields: max width of 100%
+Align icons in headerbar (fixes #787) (Closes #817)
+Fix font code on style guide (fixes #809) (Closes #813)
+Accept floats in textfield demos (fixes #815) (Closes #818)
+Merge pull request #821 from andismith/patch-1
+Add alternate preprocessor question to FAQ (Closes #812)
+Update faq.md
+Update faq.md
+Use fixed positioning for mobile sticky nav (Closes #730)
+Handle scrolling .mdl-layout container
+Enable flicky scrolling on iOS Safari
+Slider tweaks for focus and active states at 0-value.
+Merge pull request #814 from rafaelstz/patch-1
+Link to license file.
+Merge pull request #765 from herschel666/hide-tooltip-on-scroll
+Ensures textfields work as inline blocks in Firefox.
+Merge pull request #807 from google/readme-rework
+Rework the readme to make it clear it is for contributors.
+Revert "Remove assets from template zip"
+Remove assets from template zip
+Exclude generated templates from template zip file
+Actually link to templates zip file (fixes #797)
+Make note boxes white (fixes #643) (Closes #723)
+Fix font size in <ul>
+Adjust spacing on components pages
+Merge pull request #795 from google/issue-785
+Merge pull request #794 from google/issue-791
+Fixes #785 - correct theme link in README
+Fixes #791 - typo in FAQ nav
+Enable syntax highlighting for code snippets. (Closes #789)
+Adjust text width on components index (Closes #752)
+Unregister cleanup handlers (fixes #761) (Closes #768)
+Update to reflect revised package.json
+Hiding tooltips on touchmove
+package.json tweaks
+make the tables in the readme look good in ascii too
+minor readme tweaks
+NPM → npm
+Update links at "Coding Rules" in contributing.md
+Use correct paths for bower instructions (fixes #762) (Closes #767)
+Move gulp:publish -related stuff to deploy: section
+Merge pull request #764 from google/faq/requests-issue
+Hiding tooltips on scroll
+Request components via tracker template.
+Merge pull request #758 from skvale/master
+Readme templates had an extra blank list item
+Merge pull request #754 from google/add-analytics-codepen
+Merge pull request #755 from skvale/master
+Adding an eventLabel to the codepen button tracking.
+Merge pull request #1 from skvale/skvale-patch-1
+Template Links point to existing links
+Track codepen button clicks
+Increase contrast on hover in dashboard template (fixes #739) (Closes #750)
+Merge pull request #751 from epeay/patch-1
+Merge pull request #747 from samccone/sjs/fix-module-error
+Update reference to "cutting-the-mustard" test
+Better wording (tm) (Closes #736)
+Add reference to JS in customizer wording
+make link to site more prominent in GH README.md (Closes #746)
+Fix module check and export.
+Dump in development section.
+perf improvement for hosted MDL guidance
+Fix font weight (Closes #738)
+Fix microsite footer (fixes #731) (Closes #732)
+Merge pull request #733 from google/cust-link-glitch
+fatal typo in css link on customizer page
+Reduce margin on mobile (Closes #720)
+Adjust components index page (fixes #639)
+Adjust badge weight (Closes #729)
+Run napa from drone
+Enable npm install logs and trigger ci build
+Merge pull request #711 from google/fix-encoding-copy-paste
+Merge pull request #724 from google/add-analytics-components
+Adding issue templates to contributing guide (Closes #728)
+Update FAQ styling (fixes #675) (Closes #725)
+Merge pull request #719 from google/fix-floating-numeric-demo
+Use summed size (Closes #717)
+Add filesizes to the microsite
+Track clicks to the components page as pageviews. Also track correctly a direct page load to a component.
+Merge pull request #722 from google/serve-gzip
+Add syntax highlighting for bash code blocks. (Closes #721)
+Enable serving gzipped content
+Merge pull request #716 from google/issue-712
+Center badge text on Safari (Closes #706)
+Fix badge coloring and tooltip positioning
+Resize logo when header gets small (Closes #718)
+Track download clicks (Closes #714)
+Emit GA events on customizer
+Move GA to the top and add error tracking
+Fixing wrong snippet being imported in floating numeric demo
+Scrolling back to the top of the page after opening a component page on mobile.
+Update microsite logo (fixes #709) (Closes #715)
+Merge pull request #713 from google/synch-zip
+add return of streams to zip:mdl and zip:templates
+syntax error fix
+include mdl-templates.zip generation in sequence
+make zip file generation synchronous and deterministic before pushed to cloud
+Make title card top card on mobile (Closes #707)
+modify RE to avoid including 300 color combo css files in mdl.zip (Closes #710)
+Replace HTML escaping to use URL escaping for the copy-paste text passed to the flash object.
+Merge pull request #696 from google/fix-code-break-word
+Merge pull request #704 from google/napa-in-path
+Merge pull request #705 from google/remove-special-codepen-styling
+Removing special codepen style Because this breaks the menu demos in codepen
+Avoid relying on node_modules/.bin to be in the PATH.
+Make examples more consistent
+Merge pull request #701 from google/short-cache-ttl
+adjust cache ttl to 60s for code.getmdl.io objects
+reduce cache ttl to 60s for prod, to facilitate quick fixes
+Merge pull request #700 from google/faster-publish-code
+one more try to fix indentation
+fix improper indentation
+parallelize upload of runtime objects
+Merge pull request #699 from google/styles-gen
+make default build generate color combos of css files
+Move prism, swfobject to devdeps
+bower.json: drop 'images' from main.
+Tidy up build-time header. (Closes #698)
+Ensure bower, npm and LIC files are added to dist (Closes #697)
+Allow breaking words if needed on code blocks.
+Blog template: Better comment for FF workaround (Closes #694)
+Dashboard template: Better comment on browserhack
+Android template: Load material.js the same way as in other templates
+Android template: Add "view source" button
+Dashboard template: Add IE10/11 browser hack for SVG graphs
+Dashboard template: Use correct Roboto font in graph
+Dashboard template: Find an acceptable color combination to work around #693
+Dashboard template: Remove icon from menu
+Text-only template: Fix ToC in IE10
+Text-only template: Fix play icon
+Text-only template: Fix custom footer in Firefox
+Text-only template: Add missing checkbox for collapsing footer on mobile
+Text-only template: Remove accidental @extend directive
+Article template: Fix footer
+Blog template: Make menu appear on-screen on mobile
+Blog template: Fix nav spacing in IE10
+Blog template: Fix font in textarea in FF specifically
+Blog template: Fix main logo size on mobile
+Blog template: Fix text color in comment field
+Link to template folder rather than index.html
+Add missing License headers (Closes #692)
+Fix drawer styling (Closes #691)
+Bump packages to 1.0.0
+Fix styling page (closes #671) (Closes #689)
+Merge pull request #685 from google/issue-683
+Fix padding on template list on mobile (fixes #676) (Closes #688)
+Merge pull request #686 from google/small-fix-copy-button
+Small fix to the vertical centering of the new copy-to-clipboard icon.
+Fix all the misalignments and make consistent across pages (fixes #683)
+Removing Test libs in Codepen.
+Tweaking demos for codepen (Closes #684)
+Updating layout component name in docs (Closes #677)
+Replacing borders with shadows and removing scrolling from most demos.
+Styling title in footer
+Implementing reviews in #650 and #657
+Fix scrolling issue on Safari mobile (fixes #637) (Closes #659)
+Fix desktop scrolling issue in blog template
+Add padding to footer (Closes #664)
+Rework progress demos (fixes #660)
+Style <h1>s as well
+Remove "elements" header on multi-component pages
+Improve copy icon (fixes #680) (Closes #682)
+Don't capitalize external links in nav (Closes #678)
+Add padding to the top of components nav
+Move text in components nav bar (fixes #636)
+Hide icons in nav on mobile
+Fix padding in mobile view
+Align nav with logo
+Remove underlines from hover
+Set nav item padding
+Merge pull request #674 from google/issue-672
+Merge pull request #679 from google/icon-toggle-readme
+Switch to fixed padding for snippets demos in small screens since this does't work in FF.
+typo fix
+Add relative positioning to pre block on getting started
+add missing README.md for icon-toggle component
+Remove switch labels (Closes #666)
+Made tag extraction logic more generic Keep indentation Added styling to elements (Closes #662)
+Further codepen fixes: - Extract the `<script>` tags into the JS codepen tab - Add margin in between each components to avoid them looking squashed (for example the 2 progress bars)
+Use proper icons for tooltip demo (fixes #604) (Closes #668)
+Make forbidden accents in customizer transparent (fixes #644) (Closes #669)
+Revert typo (Closes #670)
+Give slider demos a bigger width (fxies #661)
+Hide codepen text outside of container (fixes #673)
+Fix getting started page (fixes #672)
+removed doc links to demo pages because they are redundant and are badly formatted, only value is testing so pages are retained for that purpose but links removed from all comp pages (Closes #667)
+Adding syntax highlighting for CSS and JS (Closes #623)
+csso instead of uglifycss
+Fix the syntax highlighting so that it does not generate links for each HTML tags. We had to switch to a "local" version since the version o cloud flare contains the plugin which generates the links by default.
+Adding a maximum header height for about page (Closes #642)
+Add artwork to ribbons on styles page (Closes #561)
+Merge pull request #645 from google/ie10-component-demos
+Merge pull request #625 from google/badge-demo
+use include directive for badge demo pages
+Fix title link color (fixes #633) (Closes #652)
+Fix target of header title link
+Make FAQ toc responsive (fixes #641) (Closes #653)
+Merge pull request #647 from google/fix-footer-collapse
+Fix footer behaviour at certain screen sizes
+Hardcode HTTPS in codepen font as well (Closes #640)
+Serve hosted over HTTPS
+Use browserhack to accomodate for IE10 in component demo
+Merge pull request #634 from google/links
+Merge pull request #635 from google/cropping
+Remove slash from About link
+Fix the cropping on mobile
+Merge pull request #621 from google/loading
+fix stale test staging dest
+split 3 progress bars into two rows for smaller devices
+add missing class to size demo widgets on progress comp page
+added demo containers to limit progress bar width
+add comments to snippet files
+add snippet code samples to laoding component page
+Preload hover images via CSS (fixes #568) (Closes #626)
+Give progress bar a default width (fixes #614) (Closes #628)
+Don't use mdl-js-* in CSS (fixes #615)
+Improve codepen implementation: - Open in new tab - Replaces relative image URLs - Processing only done when the button is clicked - Inserting body padding only for demos that are not full-width - Allow inserting custom codepen CSS for each snippet with
+Adding some sanity to components page
+Merge pull request #602 from google/faq-page
+Resolve conflicts
+Add new questions
+Rename images and update alt tags
+address feedback
+Improve answer for new components
+Fix ToC links & refresh Polymer section
+Rebase against master
+Use proper demo files for badge demos
+Add new questions
+Fix header styling rule
+Rename images and update alt tags
+address feedback
+Merge pull request #622 from google/styles-page
+Revamp the styles page
+Merge pull request #590 from google/customizer-refactor
+Refactor customiser
+Improve answer for new components
+Fix ToC links & refresh Polymer section
+Merge pull request #587 from google/textfield
+Merge pull request #620 from google/issue-611
+Merge pull request #603 from google/sliders
+Merge pull request #619 from google/tabs-demo-rework
+Adding revised grid demo (Closes #610)
+Make components small screen CSS rule more specific.
+Merge pull request #599 from google/toggles
+Adding revised content tabs demo
+Adding revised footer demo (Closes #613)
+Removed hash in components link (Closes #572)
+Fix components page history behavior: - Avoid duplicate history entries and loop when clicking the compspage index - avoid duplicate history entries and loop when entering an unknown hash fragment - Avoid entire page reload when clicking on the compspage index
+Merge branch 'master' of github.com:google/material-design-lite
+Removed hash in components link (Closes #572)
+Fix components page history behavior: - Avoid duplicate history entries and loop when clicking the compspage index - avoid duplicate history entries and loop when entering an unknown hash fragment - Avoid entire page reload when clicking on the compspage index
+Merge pull request #588 from google/layout-missing-demos
+Renaming content class, and adding comment
+Implement badge component section review (fixes #444, again) (Closes #601)
+Template list wording and order (fixes #569) (Closes #605)
+Make nav buttons in blog template clickable (Closes #594)
+Give spacer a better name
+Blog template review (fixes #579)
+Update includes for templates (Closes #595)
+Remove unmaintained templates (fixes #577)
+Merge pull request #598 from google/issue-573
+Implement full-width code blocks on mobile
+add snippet demos to sliders component page
+Add FAQ page
+adding snippets based demos to toggles component page
+Implement components scaffolding review (fixes #573)
+fix glitch in gulpfile.js
+add demos files to textfield page to improve layout on mobile
+Merge pull request #593 from google/color-definitions
+Move contrast colors to color-definitions
+fix leftover test config in gulpfile.js
+additional fine tuning of demo widgets
+fine tune demo files
+reduced widget demo set
+rework textfield component page to use snippets
+Merge pull request #589 from google/table
+Remove search bar (fixes #566) (Closes #591)
+snippets for table comp page
+Adding remaining layout demos.
+Give <html> and <body> a heigth in resets (fixes #541) (Closes #550)
+Fixing issue with CSS scoping in components
+Merge pull request #565 from google/layout-demo-rework
+Make codepen opt-in instead of opt-out.
+Merge pull request #583 from google/gcs-acl
+Removing list component (Closes #581)
+Update gsutil cmd comments
+Merge pull request #582 from google/linkfixes
+Merge pull request #562 from google/blog-overhaul
+fix link to component index image and About page href
+Fix menu in blog template
+Merge branch 'set-analytics-acct'
+Merge branch 'master' into set-analytics-acct
+Set the analytics tracking code.
+Avoid public-read ACL on GCS buckets on publish
+Add space between body and footer on the customize page closes #574
+italics look more noticable in rich tooltip text than bold (Closes #543)
+switch to 2 groups of 2 demos for better formatting on mobile devices
+fix typo
+remove demo.css
+tooltip component page revised to use snippets
+Merge pull request #557 from google/fix-comments
+Component image on every category, not every component
+Merge pull request #564 from google/fix-scrolling-header
+Adding first four layout snippets
+Add some sanity to demo styles. - Splits padding and demos into separate classes - Splits padding and captions into separate classes - Adds the ability for snippets to be full screen
+Fixes #558
+Add @paullewis's fix for jank provided by @PaulKinlan (fixes #560)
+Simplify blog template CSS
+Update and sanitize blog post CSS
+Fix card meta alignments (fixes #561)
+Fixes duplicate comments in minified JS build
+Merge pull request #490 from google/compspage
+Merge pull request #542 from google/build-release
+update components index page to match Hannah's latest mock
+Merge pull request #555 from google/remove-button-demos
+Removing raised icons buttons and accent colored minifab.
+Merge pull request #552 from google/remove-banner
+Support release of templates/assets/built-files
+Revert "Show WIP banner in production"
+Adding hover states back to drawer nav
+Fix width of <pre> blocks on narrow devices (getting started and customizer) (Closes #536)
+Ensure content gets centered
+Add first part of Styles page
+zip:library > zip:mdl, zip:site > zip:templates
+Adding mixin imports to files that use mixins (Closes #544)
+Merge pull request #537 from google/get-started-dwnload
+Make sure the tabs in the getting started guide are centered on narrow screens.
+Include bower.json & package.json in builds
+Make JSCS happy
+Generate bundles for JS/CSS as well as site/templates
+package.json: RC1
+bower.json: update main files
+bower.json: RC1
+Merge pull request #538 from google/colored-mini-fabs
+Handle FABs like raised buttons for colorization
+Streamline download button into the Getting started experience
+Make sure customize subpageheader is centered with te rest of the body
+Merge pull request #532 from google/codepen-button
+Use minified version of material.js
+Merge branch 'master' of https://github.com/google/material-design-lite
+Resolve further conflicts (Closes #533)
+Resolve further conflicts
+Introduce ie.css: overrides for IE9
+Merge pull request #534 from google/fix-links-index-dot-html
+Fix broken about header at high screen widths (Closes #526)
+Fix all links by adding index.html which we need because of GCS hosting. Also fixed Components navigation which was removing the index.html
+Make codepen buttons hide under navbar
+Merge pull request #530 from google/add-button-snippets
+Add snippets for Mini FABs and Icon buttons
+Merge pull request #527 from google/issue-475
+Merge pull request #531 from google/mdfont-after-mdl
+Fix horizontal scrolling on components page (fixes #475)
+Make sure we show developers to include the MD Font after the MDL libs
+Merge pull request #524 from google/issue-514
+Make TOC link colors turquoise (fixes #514)
+Merge pull request #525 from google/remove-universal
+Inline components should not define margins
+Fix visual issues with data tables
+Remove general template from listing
+Merge pull request #522 from google/dashboard-review
+Initialze customizer with default colors (fixes #515) (Closes #518)
+Reviewing the dashboard template for best practices
+Fix bug with header sizes with fixed drawers.
+Give code fields padding for CodePen button (fixes #495) (Closes #505)
+Update top-right.html (Closes #510)
+Adding comments for each snippets.
+Merge pull request #519 from google/issue-517
+Merge pull request #512 from google/polish-customizer
+Increase style specificities for customizer (fixes #517)
+Replacing the getting started svg logo by a png.
+Added some text above the CDN CSS. Added #ref link to this section from the text.
+Remove copy-to-codepen on customizer CDN box.
+Align Data Tables with MD spec (Closes #506)
+Add revised layout documentation (Closes #494)
+Add data-table documentation
+Hide tooltips differently for size calculations (fixes #493) (Closes #503)
+New badge component page (fixes #444) (Closes #504)
+Inline JS cleanup and comments.
+Components should not define margins
+Fixing issue with menu staying on top of items after closing
+Language update to font section.
+Merge pull request #492 from google/text-only-header
+Show default styling url when nothing is selected (fixes #486) (Closes #500)
+Implement review
+Fixing shrink issue, since we had to remove upstream fix
+Revert bad layout fix
+Merge pull request #487 from google/article-review
+Add mobile header to text-only template
+Merge pull request #491 from google/dashboard-header
+Add actual header bar to dashboard template
+Updating our default colours after Hannah's feedback
+Assign class string as widget name. (Closes #481)
+Merge branch 'master' of https://github.com/google/material-design-lite
+Update spinner.js
+Reviewing article template to reduce/improve custom CSS.
+Adding ripple to customizer preview button
+Article template: Fix padding on mobile (fixes #474) (Closes #480)
+Inline customizer (fixes #476) (Closes #479)
+Different comments for MDL and MD icon font
+Extract <style> blocks from code and inject them into the CSS section of Codepen
+Use templating for MDL libs included in copy-to-Codepen feature.
+Make sure codepen isn't shown in some blocks of the getting started guide.
+Updated button readme.md so that demos look better. Added an option to disable the codeine button (`.codepen-button-disabled` on `<pre>`)
+Revert of 165a9811d89d9490fb72c29cf65c7bcc140f54b8
+Text-only template: Add drawer menu (Closes #477)
+Text-only template: Fix padding on mobile (fixes #473)
+Rewriting menu demo to follow new mocks.
+Merge branch 'master' of https://github.com/google/material-design-lite
+Adding the concept of a demo file to snippets.
+Fixing menu z-index
+Merge pull request #471 from google/card_demos
+Revamping card demos based on new mocks. (Closes #471)
+Merge pull request #469 from google/issue-466
+Update android.com screenshots Fixes #468
+Merge pull request #470 from google/issue-463
+Turn card actions into buttons on android template (fixes #463)
+Handle raised buttons appropriately
+Revamping card demos based on new mocks.
+Further card styling fixes.
+Add vertical align to snippets demo cells.
+Fix primary/accent colored flat buttons (fixes #466)
+Merge pull request #467 from google/stylefixes
+Experiments
+Fix dashboard card (fixes #464)
+Fixing icon toggle demo
+Lint gulpfile.js & fix linting errors
+Add Button Snippets to the Getting Started Guide. Depends on #411. (Closes #436)
+Hotfix for tooltip positioning
+Add ability to publish runtime elements into separate code.getmdl.io bucket. (Closes #465)
+Fix new nav container in desktop view (Closes #462)
+Sane selectors
+Fix scrollbar issue in mobile nav
+Give scroll buttons active/disabled state
+Merge pull request #457 from google/getting-started-update
+Templating the URL prefix of the Hosted libs Add MD font to getting tarted guide snippets
+Removing margins from buttons.
+Card fixes
+Merge branch 'drone-publish'
+Auto-publish master to staging on green (success)
+Make tooltip spec compliant (fixes #453) (Closes #454)
+Merge branch 'master' of https://github.com/google/material-design-lite
+Don't jump on demo page when clicking (Closes #451)
+Remove hover state from layout (fixes #339)
+Fix issue where same copy-pasted was used every time.
+Show tooltips on tap (fixes #424) (Closes #450)
+Fix tooltip positioning (fixes #431)
+Fix issue where same code snippets was shown every time.
+Only block clicks that would select the same color twice (Closes #449)
+Fixing escaping of copy paste (Closes #411)
+80 character column fix
+Using `.copy-to-clipboard-button` class to select button element for the highlight code feature.
+Now embed the code in the <pre> block and in the flash element (for copy paste) directly instead of relying on JS to copy it.
+Generate demo widget based on snippets.
+Merge pull request #448 from google/microsite-review
+More expressive variable names
+Namespace .spacer class
+Removing old demo images
+Removing license from component readmes
+Merge pull request #417 from google/staging
+clean up obsolete gulp tasks
+refactor publish tasks to support promote from staging
+Merge pull request #446 from google/tap-reporter
+Make customizer adjust iframe size
+Make mocha-phantom use tap reporter
+Update template listing
+Increase spacing of template image and text to 40px
+Line-height of intro text to 2em
+Set download button to 54% black
+Minify navbar on mobile
+Move Github and Download item to main nav
+Adding a TOC to Component pages that have multiple elements. (Closes #434)
+Decrease nav item spacing to 24px
+Style fix.
+Small fix to animation demo since JS is already included in demo file.
+Small screen CSS fixes for Getting started guide.
+Move hiding `lf` and `cr` Prism tokens to the main CSS.
+Fixing up some styling on badge demo (Closes #433)
+Ensure the autoprefixer runs on demos and components pages.
+Fixes #430 - remove extraneous = sign
+Add English value to language attribute. (Closes #429)
+Fix emberrassing typo in customizer
+Merge pull request #427 from google/wip-banner
+Set height for wheel container (fixes #425) (Closes #428)
+Show WIP banner in production
+Fixing style nits (Closes #422)
+Adding @license
+Show CDN url in customizer (Closes #414)
+Merge pull request #409 from google/getting-started-review
+Merge pull request #416 from google/drone
+Merge pull request #412 from google/serve
+add publish:gcs gulp task to push microsite to gcs bucket
+Add a tmp ci config 'till it goes public
+Adding link to android.com sample in templates page
+Fixing issue with auto checkboxes in data-table
+Getting started guide post-commit review.
+Implement text template review (closes #406)
+Removing SASS directive from CSS file
+Removing file that was added by mistake.
+Fixing minor bugs in documentation
+Implement microsite review (closes #372)
+Merge pull request #403 from google/fix-subpageheader
+Fixing the subpageheader in the Templates and the Component's page.
+Implement refreshed customiser
+Merge pull request #398 from google/getting-started
+Getting Started guide UX/UI review fixes.
+Adding android.com template.
+Adding version number to the header
+Add hidden attribute reset for legacy browser support. (Closes #397)
+Merge pull request #383 from google/getting-started
+Adding a Getting started guide.
+Style fixes to gulpfile
+Merge pull request #396 from google/grid-build
+Add support for grid-specific builds
+Merge pull request #365 from google/browser-support-update
+Merge branch 'master' of https://github.com/google/material-design-lite
+gulpfile: add jscs task & integrate
+progress.js: fix sticky operators for jscs
+.jscsrc: configure maxLineLength
+package.json: add gulp-jscs
+Move ripple style initialization to first click.
+More scoping changes to docs
+Move browser support up. Note on templates and IE9 support.
+gulpfile.js task to push js & css to Google Cloud Storage (will add fonts and other files in next PR)
+Update blogpost page of blog template (Closes #384)
+Update overview page of blog template
+Implement code reviewCloses #385
+Implement review for dashboard template
+Implement review for article template (Closes #388)
+Add header w/ licence + MDL version to minified CSS
+Improve the behavior of deep-linking:  - If hash is empty (or unknown) first item gets displayed  - On deep linking we don't display "badges" to start then change the page. Now the page is blank and then we load the correct deep-linked page.
+Add deep linking and back button support in the Components page.
+Fix overflow bars on code samples.
+Fixing demo so card headers display as they should.
+Adding generation for individual demos.
+Adds Syntax highlighting for code blocks. Closes #375  - Using the Prism lib  - Moved Prism from the Component page only to the common layout  - Transalte prism "markup" annotation to "html"  - Translate markdown code blocks class names to Prism code block class names
+Small tweak of Code blocks styling.
+Fixing docs links with '//'; small docs fixes.
+Updated references to hosted libraries to be HTTPS
+Adding GitHub markdown-style styling for code blocks.
+Adding ability to inject the version number into the mini site using `$$version$$`
+Fix wrapping issues in docs.
+Scoping docs CSS properly. Fixes #346
+Fixes #344
+Major changes to component documentation: - Reorganized components in categories - Updated all icons (per category, now) - Fixed menu and tooltip demos
+Reimplementing components page.
+Updated browser support for dropping IE8 in any official capacity other than best effort.
+Merge pull request #355 from google/docs-update
+Updated docs to fix for recent updates.
+Adding badge component
+Remove period from classes in markup.
+Add Shadows docs
+Update menu docs
+Add mdl-js-layout note
+Update Grid docs
+Add Badge docs
+Merge pull request #343 from google/issue-299
+Use gulp-open in serve task
+Introduce separate serve:browsersync task (fixes #299)
+Merge pull request #290 from google/microsite-ui-review
+Renaming tab image to match components.md
+Fixing issue with nested layouts
+Adding missing components to docs and fixing some CSS issues
+Contents to table
+Fix card actions padding. Consistent padding on each side.
+Move grid to last import.
+Subtitle documented.
+Card typography improved.
+Make publish take partially synchronous (lands #342)
+Add .publish to clean task
+Fixing up button demo
+Some cleanups to new documentation:
+Move demo.js from src to docs/_assets
+Squashing all of @marcacohen 's work on partial component pages so far.
+Replace graphs with SVG
+Implement Zach's template review
+Implement small header
+Adjust search panel
+Add favicon and touch icons
+Make template preview images responsive
+Fix template previews
+Review template page
+Fix rest of about page
+Update micropage header
+Add CSS prefixing to microsite assets (fixes #321)
+Card Material Design alignment.
+Merge pull request #330 from google/readme
+Grammar fixes.
+Merge pull request #314 from google/demo-rework
+Reworking data table demo
+Forgot to remove one visual test
+Update visual tests to use component demos.
+All demos now use static CSS.
+Merge pull request #331 from google/official-icon-font
+Default font stacks.
+Updating README with font info
+Adding in some missing changes
+Switching to official MD icon font ("Material Icons")
+Merge pull request #322 from google/data-table
+Merge pull request #332 from google/margin-reset
+Fix floating label on expandable textfield (fixes #304)
+Enable javascript on dashboard template (fixes #320)
+Reset body margin.
+Removing all card logic from the table
+Add basic data table, with more functionality to come later.
+More gulpfile style fixes
+Updated readme
+Remove animation js from compiled output. Style fixes from jscs.
+Merge pull request #317 from google/handler-downgrade
+Merge branch 'master' into handler-downgrade
+Merge branch 'menu-active-state'
+Active state land for navigation states
+Remove CSS folder.
+Ripples shouldn't be widgets.
+Active state for navigation links.
+Merge pull request #318 from google/radio-width
+Remove width on radios.
+Downgrade functionality and components updated with downgrade methods.
+Merge pull request #311 from google/issue-310
+Fixing bug with z-indices in sliders
+Cleaning up badges
+Add miniscule delay to tab buttons to fix #310
+Merge pull request #309 from google/comps
+Fixing some issues with long drawers
+Merge pull request #305 from google/ie10
+Fix templates for ie10
+Merge pull request #294 from google/comp-pages
+Run prefixer on custom template CSS
+Layout fixes for IE10
+Implement sticky header and navigation swapping for the components page.
+Revert "Update docs for class modifications."
+Revert "Update demo for class changes."
+Update demo for class changes.
+Update docs for class modifications.
+Land 'firefox-icon'
+Retina FF icon improvements
+Firefox tooltip fixes
+Get the tooltip working in FF
+Footer improvements for FF
+Fix footer rendering issues in FF
+Slider: resolve jshint issue
+Improve hitbox simulation areas on sliders
+Simulate larger hitbox on slider element (fixes #281)
+Fix icon placement on retina in Firefox (fixes #275)
+Fix footer in Firefox (fixes #279)
+Fix visual on component pages (fixes #277)
+Make tooltip work in Firefox (fixes #282)
+Improvements to large/small screen handling in layout.
+Merge pull request #291 from google/header_rewrite
+Fixes for IE bugs
+Fixing bug with tabs in Firefox and IE
+Rewriting headers and updating all content to match. This implementation should be much saner and less buggy.
+Merge pull request #274 from google/textfield-ux-review
+Merge pull request #289 from passy/unupgraded-inactive-spinner-fix
+Update README linking instructions
+Spinner: Hide "Loading..." if inactive
+Merge pull request #288 from google/font-paths
+Replace broken base64 plugin
+Use fonts from CDN
+Minor path fixes on templates
+Improvements to 'buffer-bar-color'
+Improvements to buffer-bar-color
+Merge pull request #284 from google/path-fixing
+Merge branch 'master' of http://github.com/google/material-design-lite into comps
+intial rough layout for new comps page
+Fix tests to use dist folder
+Make buffer and unbuffered part of progress more distinct (fixes #280)
+Fix active tab on frontpage
+Fix a lot of path issues in microsite
+Merge pull request #283 from google/pathing
+Merge pull request #278 from google/gulp-dist
+Remove /fonts and /images
+Fix pathing issues on microsite
+Remove /css and /js alltogether
+Remove css and js folders
+Use dist as output folder
+Update input-text-error-color to latest spec Red (#109)
+Merge pull request #273 from google/menu-div
+Fix textfield padding to accomodate for errors
+Remove border-bottom from layout-title (#105)
+Add padding to textfield to accomodate floating labels and errors
+push of 'comps' branch for components page work
+Remove accidental duplication of script include
+Merge pull request #265 from google/hotfix/grid-variables
+Grid vars in main variables file and defaults.
+Merge pull request #262 from google/view-source-btn
+Merge pull request #263 from google/new-templates
+Add new templates to listing
+Use normal button instead of FAB for "View Source"
+Adding margin after paragraphs and updating generated files
+BEM-ify templates (closes #199)
+Merge pull request #187 from google/techstop-template
+Visual polishing
+Remove sidebar and use grid
+Rename template to article
+Merge branch 'master' into techstop-template
+Merge pull request #259 from google/footer-ux
+Feedback: comment out borders in footer
+Drop social icon buttons from footer demo
+Merge pull request #260 from google/issue-230
+Add support for menu buttons on cards
+Remove hardcoded colors from card styles
+Use min-height instead of height
+BEM-ify card styles
+Merge pull request #257 from google/microsite
+Update builds again
+Update builds.
+Move to using subhead typography for mdl-logo
+change .wsk-mega-footer--heading to be the same as Body 2
+Footer: change .wsk-mega-footer--link-list to be same as Body 1
+Footer: Change MDL copy to Title
+Footer: margin-bottom correction for heading, footer.
+Build boilerplate for microsite
+Merge pull request #254 from google/shadows-3
+Shadows: add prefix and bump builds.
+Update compiled CSS
+Update customizer to use new shadows
+Update components to use new shadows
+Update Shadows to latest spec, intro vars
+Update shadows for tests
+Rewrite shadows for Templates
+Merge pull request #253 from google/colorize-button
+Add colorization classes to button
+Merge pull request #252 from google/hotfix/main-reset
+Added main display to reset for IE support.
+Small tweak to links and updating generated files
+Removing column-layout component.
+Removing table styles from typography.
+Add .publish to gitignore
+Adding a number of fixes to typography as per #98
+Small fix and updating generated files
+Reverting f562f49d8ae3ab105a1e7af6aa520ba84ad6932b
+Fix blog template
+Add link to product template in README
+Merge pull request #236 from brianhall/product-template
+Merge pull request #235 from google/text-only-template
+Merge pull request #238 from google/drop-raf
+Update image to be proper SVGs
+File renaming, ripples, and active tab tracking.
+Remove backup files.
+Code Review
+Merge branch 'product-template' of https://github.com/brianhall/material-design-lite into product-template
+Re-export image assets without baked-in text and move figures to SVG format, along with additional CSS tweaks.
+Merge pull request #240 from Garbee/hotfix/wsk-references
+Removed IDE specific helpers and uneeded rule.
+Merge branch 'badge2'
+Renaming all WSK to MDL
+Update compiled builds
+Drop requestAnimFrame usage in menu, ripple
+Switch requestAnimationFrame polyfill
+Finishing touches.
+First pass at product template.
+Finishing touches.
+Implement text-only template
+First pass at product template.
+Merge pull request #232 from google/shadows
+Add updated builds
+Fixes #100 - update Shadows to Polymer versions
+Add shim for shadows readme
+Merge pull request #228 from brianhall/typography-change
+Minor typography change to fix body/html tags receiving mdl-base and mdl-typography.
+Merge pull request #224 from google/fix-palette
+Merge pull request #226 from google/fix-menu-documentation
+Replase `wsk` with `mdl` in menu documentation
+Merge pull request #222 from google/optional_typography
+Add white/black text colors to palette
+Merge pull request #223 from google/gridRubySass
+Grid compiles with Ruby-sass
+Updating generated files
+Tweaking default link font weight and color
+Makes typography definitions optional, through mdl-typography class.
+Merge pull request #209 from google/grid-templates
+Temporary fix for vertical scrolling
+Badge added
+Removing outdated Firefox-specific CSS hack
+Merge pull request #216 from google/tabwrap
+Merge pull request #217 from google/davedocs
+Add progress docs
+Add refreshed menu docs
+Remove flex-wrap from tab-bar
+Merge pull request #214 from Garbee/hotfix/card-height
+Updated generated files.
+Align colons for mdl-card for consistency.
+Updated card min-height variable to 200px
+Merge pull request #211 from Garbee/hotfix/important-hide
+Make use of new hide classes
+Updated compiled files.
+Important hide classes to take precedent over more specific class displays.
+Merge branch 'master' into grid-templates
+Remove border-box from styles
+Merge pull request #210 from google/grid
+Updating generated files
+Adding mdl-cell--hide-<SCREEN_SIZE> classes to grid.
+Resize huge images
+Adjust dashboard template to use grid
+Adjust blog template to use grid
+Adjust general template to use grid
+Merge pull request #207 from google/grid
+Updating generated files
+Adding classes for setting different cell sizes at different screen sizes. So class="mdl-cell-2-col mdl-cell-4-col-phone" will get 2 columns at desktop and tablet sizes, and 4 at phone size.
+Merge pull request #196 from google/varsrename
+Merge pull request #201 from google/fix-drawer-button
+Fix z-index of drawer-button in layout
+Merge pull request #198 from google/grid
+Updating generated files
+Adding initial layout grid implementation.
+Break out color definitions into separate file
+Merge pull request #194 from Garbee/hotfix/doc-inde
+Abbreviate BEM heading and add link to wiki.
+Merge pull request #193 from google/drawer-header-overflow
+Change overflow behavior of layout elements
+Merge pull request #189 from google/test-bump
+Bump build + test dependencies
+Fix side menu
+Add tech-stop-esque template
+Merge pull request #185 from google/fix-menu-item-width
+Merge pull request #186 from google/fix-expandable-input
+Merge pull request #184 from google/watch-fix
+Fix watch behavior
+Make expandable textfields' container contract
+Make menu elements stretch to parent's width
+Merge pull request #181 from google/gulp-templates
+Add links to templates
+Make SVG paths absolute to make them include independent
+Adding the customizer to the docs.
+Augment README for templates
+Add SVG inlining to `templates:styles` task
+Merge branch 'master' into gulp-templates
+Merge pull request #183 from google/inline-svg
+Inline SVGs in CSS file
+Handle fonts separately
+Remove starter template
+Adjust templates for new gulp task
+Add gulp templates pipeline
+Merge pull request #180 from google/templates-squashed
+Implement template mock
+Merge pull request #179 from google/gulp-publish
+Add publish task for gh pages
+Removing unwanted OS X dotfile
+Updating generated files
+Small bugfix to ripples
+Updating generated files
+Fixes all of the broken black/white palette stuff.
+Merge pull request #169 from google/fix-palette
+Merge pull request #172 from google/layout-doc-fix
+Fix documentation for drawer nav in layout
+Merge pull request #170 from google/progress-demo
+Use rgba() when appropriate
+Use upgrade event in progress demos
+Fix palette for black and white
+Revert "Fix palette values for black and white"
+Updating generated files
+Fix palette values for black and white
+Updating generated files
+Merge pull request #168 from google/license-headers
+Fixes #157 - adds License file headers
+Update TOC formatting
+Update homepage content
+Add download button
+Add content and typography overrides
+Add temporary Material shapes
+Merge pull request #165 from google/color-class-important
+Add !important to color classes (closes #163)
+Merge pull request #160 from google/renamedvars
+Add recompiled styles post rename
+Update WSK -> MDL in formatted footer
+Web Starter Kit -> Material Design Lite
+Rename web-starter-kit to material-design-lite
+Rename wsk -> mdl
+Merge pull request #153 from google/switchBlueBox
+Merge pull request #155 from google/component-upgrade
+Namespace event name
+Tweaking buttons for #102.
+Emit event on upgrade
+Merge pull request #149 from google/newvars
+Blue box around switch
+Reset SVG images back to master state
+Drop export of docs/out
+Break out mixins into their own file
+Rename _vars to _variables.scss
+Rebase var work against master
+Merge pull request #140 from google/hardcoded-colors
+Merge pull request #147 from google/palette
+Merge pull request #150 from brianhall/docs-update
+Merge pull request #151 from brianhall/tooltip
+Update tooltip according to UX review.
+Remove automatically added classes.
+The docs template contains some manually-added elements that MDL adds automatically. Also, fixed two typos in .gitignore.
+Rewrite Sass to address @import misuse
+Ignore this commit - recompiled assets
+Sanitize imports
+Unquote and contrast colors
+Updating generated CSS and JS
+Merge pull request #148 from google/checkboxOffColor
+Off-Color for Checkbox is wrong
+Add theme classes to palette
+Fixes #144
+Merge pull request #143 from google/tabsMobile
+Merge pull request #141 from google/demoShadow
+Use Flexbox for Tabs
+Re-add lost dependency to imagemin
+Demo-Shadow card width did not fit on mobile
+Fix tab highlight base color
+Merge pull request #110 from devnook/Microsite-squash
+Fixes #131
+Fix corporate-cla links in contribution guide.
+Merge pull request #135 from google/contributing
+Address feedback, add coding rules section
+Comment clean-up for resets/mobile
+FAB-Button hast sourounding box on mobile
+Land MQ for palette demo (#106)
+Add a better intro & a clarification on framework features.
+Minor tweaks to guide
+Add contributing guide (fixes #134)
+Merge pull request #118 from brianhall/color-definitions
+Remove remaining explicit color declarations. Remove references to nth members of the color definitions in exchange for the named value.
+Small updates to some of the visual tests
+updateClasses bugfixes. Fixes #112
+Update color definitions to better use the default palette options.
+Implement progress bar component (closes #88)
+Adding MDL microsite stub
+Updating generated CSS
+CSS fixes to wsk-button so it can be used with <a> tags
+Update builds
+Merge pull request #73 from google/documentation
+Adding public methods to elements.
+Update textfield README
+Merge pull request #91 from brianhall/color-additions
+Add alpha values for black and white text and update the demo to reflect the addition.
+Add in-development preview links for #67
+Add section on feature requests.
+Merge pull request #86 from google/jitter
+Adhere to styleguide
+DS_Store fix
+Updated READMEs
+Closes #87 by adding white and black options to the color palette, updating the demo, and bumping the build.
+Expand header on click
+Don't react to scrolling until animation is done
+Merge pull request #85 from google/ripple-fix
+Add onmouseleave event listeners
+Using semantic tag names in the layout readme.
+Merge pull request #72 from google/css_colors
+Rearranging palette SCSS files
+Adding CSS definitions for Material Design palette.
+Updating generated map file
+Merge pull request #74 from brianhall/desktop-layout-modifications
+Rebase with upstream master and bump builds.
+Hide the icon if the layout has a drawer (to make room for the menu icon).
+Bump builds.
+Sets the drawer for the layout component to by hidden by default (in a non fixed-drawer context).
+Adding CSS definitions for animation functions
+Remove DS_Store entries
+Add documentation
+Merge pull request #71 from google/gulp-visual-test
+Add test:visual task
+Bump builds
+Improve layout demos
+Merge pull request #65 from brianhall/master
+Fix minor typo in the docs for the layout component. wsk-layout-navigation-link -> wsk-navgation__link
+Merge pull request #63 from google/rework-visual-test
+Add global styling file to every showcase
+Making ripples visible until mouse/finger up
+Remove visual test’s style.css
+Fix tooltip visual test
+Merge pull request #62 from google/fix-reload
+Fix layout visual test
+Fix menu visual test
+Fix iframe sizing by removing scaffolding
+Revamping colors across MDL.
+Dont use gulp-changed on SASS
+Merge pull request #57 from google/css_template
+Merge pull request #59 from google/tests
+Use single-line vars
+Merge pull request #60 from google/visual-test-fix
+Inherit text color in textfields
+Adding $text-color-primary-contrast and $text-color-accent-contrast
+Fix visual testing page
+Update MaterialTooltip unit test with chai-jquery
+Update MaterialTextfield unit test with chai-jquery
+Update MaterialTabs unit test with chai-jquery
+Update MaterialSwitch unit test with chai-jquery
+Update MaterialSpinner unit test with chai-jquery
+Update MaterialSlider unit test with chai-jquery
+Update MaterialRadio unit test with chai-jquery
+Update MaterialLayout unit test with chai-jquery
+Update MaterialIconToggle unit test with chai-jquery
+Update MaterialColumnLayour unit test with chai-jquery
+Update MaterialCheckbox unit test with chai-jquery
+Update MaterialButton unit test with chai-jquery
+Extend MaterialTabs unit test
+Write unit test for MaterialTooltip
+Write unit test for MaterialTextfield
+Write unit test for MaterialTabs
+Write unit test for MaterialSwitch
+Write unit test for MaterialSlider
+Write unit test for MaterialRipple
+Write unit test for MaterialLayout
+Write unit test for MaterialIconToggle
+Write unit test for MaterialColumnLayout
+Write unit test for MaterialRadio
+Write unit test for MaterialCheckbox
+Merge pull request #44 from google/test/menu
+Fixes to the color templates. - Removing secondary color concept - Fixing template minification
+Generate CSS templates, with color placeholders.
+Fix broken resource references
+Add index for visual tests.
+Tooltip: minor formatting improvement
+Merge pull request #54 from google/tooltip-for-target
+Merge pull request #55 from google/rippleContainer-fix
+Merge pull request #56 from google/global-querySelector
+Make empty initializations explicit
+Pull in jQuery and chai-jquery
+Be conformant to style guide
+Merge pull request #27 from jasonmayes/master
+Merge pull request #52 from google/banner-fix
+Don't rely on global querySelector() for MaterialTabs
+Only use rippleContainer inside the `if` ensuring its existence in MaterialSwitch
+Check for existance of `for` target in MaterialTooltip
+Adding semantic tags to layout demo.
+Fix for #43
+Fix for #45
+Merge pull request #53 from google/rippleContainer-fix
+Reworking icon demo to show icon names
+Only use rippleContainer inside the `if` ensuring its existence
+Removing textual references to WSK.
+Remove tabs from the middle of the code
+Updating BrowserSync to avoid high CPU usage bug.
+Update compiled JS/CSS
+Fix banner generation
+Write unit test for MaterialMenu
+Refactoring mini footer to not use floats.
+Re adding the mustard test too :-)
+Updating correct componentHandler!
+Merge pull request #24 from google/resourcefolders
+Adding compiled CSS
+Merge pull request #23 from google/sourcemaps
+Moving image and font files to final directory structure. Again. - Split images into src/images/ and src/demo-images/ - Moved fonts to own directory: src/fonts/ - Updating scss files with new locations - Updating compiled JS and CSS
+Updating JS and CSS files with latest changes
+Add CSS Source Maps support #5
+Copying MD font over to icons component, and switching to relative paths.
+Merge pull request #22 from google/pr-21
+Add support for image flattening
+Namespacing all the demo classes, to make them per-demo. So many classes.
+Forgot to assign different IDs
+Fixing layout demo after changes to textfield
+Fixing small bug after switching footer to icon font
+Modifying checkbox and footer to use an 'images' subdirectory with a relative path
+Add initial visual test fixtures
+Run tests with build by default
+Fix spinner tests
+bower.json improvements
+package.json updates
+Fixes #15 - adds browser support
+Update dependencies
+Updating min files
+Major rework of the text field component. Should now be easier to use, and less fragile.
+Merge pull request #16 from jasonmayes/master
+Preventing ugly selection in layout tab scroll buttons
+Adding menu component - Implements Material Design spec for style and animations - Supports keyboard navigation - Supports attaching to any four corners of owner element
+Adding icon font and wsk-icon utility classes - Added Material-Design-Iconic-Font, while we're waiting for the official one - Added SASS variables for all the characters - Added a wsk-icon--<icon-name> class for every icon - Modified wsk-layout to use menu icon for opening the drawer, and chevrons for scrolling tabs - Modified tooltip demo to use icons rather than inline SVGs - Modified icon-toggle demo to use icons - Modified FAB and icon button demos to use icons
+Styleguide => Lite
+Update MDL build
+Ignore gulp-cache temp files.
+Resolve further conflicts
+Just use $.mochaPhantomjs - why isnt this $.mochaPhantomJS?
+Add tests for Buttons and Spinners.
+Handler: support per-comp instances under .widget namespace
+Fix typos in classList for spinner component.
+Support testing
+JSHint: re-enable linting
+Update to include mocha phantom
+Rebase against master
+Gulpfile: add initial gulp-mocha support
+Fixes #12 - bump gulp-sass
+Bump dependencies
+Allow 0 params for upgradeDomInternal
+Merge pull request #14 from google/arthurvr-readme-patch
+Add needed `http://` to link in readme
+Merge pull request #13 from google/aliafshar-patch-1
+Update README.md
+Just use $.mochaPhantomjs - why isnt this $.mochaPhantomJS?
+Add tests for Buttons and Spinners.
+Handler: support per-comp instances under .widget namespace
+Fix typos in classList for spinner component.
+Build process updates for tests.
+JSHint: re-enable linting
+package.json: Add gulp-mocha
+Gulpfile: add initial gulp-mocha support
+Adding friendly color names and using them in _colors.scss
+Further README improvements.
+Update README.md
+Cards should have a 2px border radius
+Making typography names more BEM-y and adding font weight override classes.
+Possible fix for #9
+Fixing an arcane bug with tooltips in Safari
+readme tweaks
+material-styleguide => material-design-lite
+Add bower.json, refresh package.json
+Drop docs/install.md
+Refresh Gulpfile for this project
+Refresh README.
+Add missing components to /src
+Add pre-built JS sources, sourcemaps.
+Add pre-built CSS
+Add initial images from build to /images
+Files clean-up.
+Continue move of files to the /src directory
+Move components to the src directory
+Bring back .git configs
+Clean-up application directories.
+Adding icon font and wsk-icon utility classes - Added Material-Design-Iconic-Font, while we're waiting for the official one - Added SASS variables for all the characters - Added a wsk-icon--<icon-name> class for every icon - Modified wsk-layout to use menu icon for opening the drawer, and chevrons for scrolling tabs - Modified tooltip demo to use icons rather than inline SVGs - Modified icon-toggle demo to use icons - Modified FAB and icon button demos to use icons
+Fixing #621. Also doing some JS cleanup.
+Adding graceful degradation to sliders. Also tidying up JS a bit.
+Fixing typo in spinner. Also adding more documentation for "start" and "stop" public methods.
+Merge pull request #613 from jeffposnick/material-sprint
+Update comment text for add to homescreen
+Slight adjustment to radio buttons
+Fixing build location for styleguide
+Manually specifying each component JS file in the gulpfile. This allows us to get around component dependencies where components depend on each other, since gulp was just processing everything alphabetically otherwise.
+Small fix so checkboxes can be reused from other components
+Add sw-precache to WSK.
+Checkbox improvements - Switch to using CSS masks for transparent tick. Sorry, IE, you get a white tick. - Some small visual tweaks (rounded corners, alignment). - Tidying up the JS
+Merge pull request #619 from codeandrop/issue_500
+Adding mini icon button option
+code styling fix on issue #500
+Merge pull request #616 from google/mustard
+Refactor CTM based on feedback.
+Remove dupe
+Add "Cutting the Mustard" test
+Adding clarification to multi-row layout demo.
+Drop pulling in material-design icons in lieu of iconfont
+Link to Sindre's npm guide
+Fix .jscsrc rule
+Fixes gulp-changed plugin's usage in the gulpfile.js. See
+bump to latest psi
+Small visual fixes to icon toggle
+Adding icon toggle component. - Implements MD spec, with focus states. - Gracefully degrades to checkbox.
+Fixing full-screen layout issue with wsk-layout
+Small fix to wsk-layout-icon to make IE happy.
+Ensuring that wskComponentHandler.js comes first in the sources. Fixes a compilation issue.
+Fixing some compilation bugs
+Added tabs + other improvements to layout: - Added tabs, implementing Material Design spec. - Made header size and padding depend on screen size, as per the MD spec. - Added helper class for icons. - JS cleanup. - Updated demo and docs.
+Adding new spinner component.
+Replacing RobotoDraft with Roboto now that the updated version is live
+Merge pull request #598 from jasonmayes/material-sprint
+Moved the "use strict" statement inside function
+Recent changes to componentHandler broke switch and tabs. Fixing.
+Merge pull request #592 from jasonmayes/material-sprint
+Pasted wrong text - updating to original
+Added ability to listen to upgrades via ComponentHandler
+Implemented content tabs. These are a lesser implementation designed to be used as part of the page content. The full Material Design tabs spec will be implemented as part of the layout component.
+merge conflict on mega footer - minor
+Altering the footer to include mini support and fix a typo
+Fixing small syntax error in footer
+Removing outdated JS comments across the board.
+Moving footer colors to _colors.scss and adding default to all colors
+Updating the text inputs in the layout demos
+Oops, fixing compilation error in switches.
+Adding switches.
+Adding footer
+Use invert() function for inverse typography
+Centralized color configuration for all components
+Move color configuration from component files
+Styleguide: add styleguide-specific WSK identifier
+Add support for onError in gulp-sass setup
+Condense padding for Styleguide nav. Fix transition.
+Add support for a _colors.scss file
+Gulpfile: Drop old UnCSS ignore rules
+Rename material-styleguide -> styleguide
+Gulpfile: Drop unneeded line
+Update copyright year
+Gulpfile: Concat/minify user scripts
+Gulpfile: Move autoprefix block to styles
+Update project dependencies
+Let's fix up that wskComponentHandler for demos in production and let's make the card background not whine
+So weird
+Reverting my previous change - we are doing weird things with JS :(
+Fixing up the component handler to be compiled into the relevant scripts
+Merge pull request #581 from jasonmayes/material-sprint
+Updates to fix jshint warnings
+Updated Ripple to new JS Design pattern
+Updated ComponentHandler for many class registrations
+Updating HTML demo template to use new JS pattern
+Updating Dropdown to work with new JS Design pattern
+Updated Layout to new JS Design pattern
+Updated Slider to new JS Design Pattern
+Updated Checkbox to new JS Design Pattern
+Trimmed trailing whitespace for Radio in new JS pattern
+Updated Radio Constants + Classes to new Design Pattern
+Converted Radio to new JS Design Pattern
+Updated documentation
+Converted Textfield to use new JS Design pattern
+Converted Column Layout to new JS design pattern
+Converted Tooltip to new JS design pattern
+Cleaned up some whitespace
+Converted Item to new JS design pattern
+Upgraded Button to new design pattern
+Spelling mistake in comment
+New JS Pattern - forgot to add function param comment.
+Converted Button to new JS Design pattern
+Adding WSK Component Handler to Third_Party
+Converted Animation to new JS Design pattern
+Lowercase object in return comment.
+Adding Component Handler for WSK
+Rethinking the CSS for column layout some more
+Fixing up CSS class names for column layout.
+Some tooltip cleanups: - Applying new CSS naming convention - Cleaning up the JS somewhat
+Fixing up radio buttons in Firefox
+Revamping checkboxes: - Applying new naming conventions - Reimplementing checkbox, using the radio buttons as a basis - Revamping checkbox visual style to match Material Design spec - Adding focus states
+Tidying up the colors and dimens for elements
+Tiyding up the typography style names
+Stuff for fixing the lists and palette
+BEMing up animations cand cards
+BEMing up the drop downs
+Merge branch 'material-sprint' of https://github.com/google/web-starter-kit into material-sprint
+bem'ing up the item
+Merge pull request #571 from sgomes/material-sprint-layout-css-pass
+Renaming navigation classes as per @csswizardry review
+Switching to demo classname for palette
+Cleaning up layout SCSS - Make sure as much as possible is behind optional classes - Rename everything to follow style convention - Add new class for JS binding - Rearrange SCSS to take advantage of nesting with &
+Renaming the shadow classes
+Merge pull request #576 from google/palette-tidy
+Rename all the things for the lolz / sergio asked for it in the PR
+BEM-ifying palette including updating variables
+Fixing a merge
+Switch over the common demo styles to be more BEM-ish
+Updating the palette CSS to use BEM
+Moving ripple effect class to main element in radio buttons
+Merge pull request #575 from sgomes/material-sprint-radio
+Adding JS class and making sure the radio buttons work if we have no JS
+Radio button revamp - Changed HTML structure for the component, to improve styling and remove hacky ~ operator - Updated component look to match material spec - Added focus states
+Merge pull request #573 from sgomes/material-sprint-ripple-css-pass
+Renaming wsk-ripple--recentering to wsk-ripple--center
+Fixing up ripple CSS classes across the board.
+Adding icon buttons and rearranging button demo.
+Updating radio SCSS to follow best practices
+Merge pull request #565 from sgomes/material-sprint-slider-css-pass
+Merge pull request #566 from google/bem-textfield
+Merge pull request #572 from sgomes/material-sprint-button-css-pass
+Cleaning up button and FAB SCSS - Make sure as much as possible is behind optional classes - Rename everything to follow style convention - Add new class for JS binding - Rearrange SCSS to take advantage of nesting with & - Merge button and FAB demos
+Add wsk-js-textfield
+Address issues with nesting.
+wsk-input__text > wsk-textfield
+Reload when JS files in styleguide change
+right, large > wsk-input--right, wsk-input--large
+Cleaning up slider SCSS - Make sure as much as possible is behind optional classes - Rename everything to follow style convention - Add new class for JS binding - Rearrange file to take advantage of SCSS nesting with &
+label > .wsk-label
+.is-dirty, wsk-input__text ~ .error > wsk-input__error
+wsk-input__expandable_holder > wsk-input__expandable-holder
+wsk-input__expandable__icon > wsk-input__text-expandable-icon
+icon__search > wsk-input__text-expandable-icon-search
+Fixes to correct breaking build.
+BEMify textfield component
+Fixes 564 - brings master changes into sprint
+Merge branch 'material-sprint' of https://github.com/google/web-starter-kit into material-sprint
+Drop commented out icon setup - we will use font icons
+Drawer button changes for Layout module: - Changing default behaviour of drawer buttons to push down the content, instead of overlaying on top of it. - Adding optional .Layout--overlayDrawerButton class to allow previous behaviour. - Switching layout demos to use .Layout--overlayDrawerButton. - Tweaking layout for index page.
+Add empty globals for #560
+Ripples should ripple on mousedown/touchstart, not click.
+Merge pull request #561 from sgomes/material-sprint
+Merge pull request #559 from antleblanc/master
+Remove .sass-cache folder from gitignore
+Implements the layout module. This module combines the old 'navigation' and 'header-panel' modules into a single, configurable component.
+Restore hamburger navigation components.
+Fix some scripts being built to root (wtf)
+Update deps, add support for libsass
+Add flexibility to styleguide iframe handling
+Minor update to comment for main.js
+Fix: BrowserSync chokes on iframes without a URL
+Merge pull request #539 from stevemao/patch-1
+Merge pull request #544 from paddy2k/master
+bump deps
+Added HTML5 webapp manifest
+Commented-out block for handling npm icons
+Update icon section in styleguide
+Fixes #487 - consume material icons
+Fix issues with Tooltips rendering cross-browser
+Drop note, add baseDir fix.
+Add note about build process.
+Small fixes to buttons after UX review
+Altering the padding for the side nav
+Updating palette colors.
+Close #537 PR: Keep dist/.git while removing everything else..
+Add TODOS to gulpfile.
+Further revisions for build process
+Drop extra hamburger. Re-use nav asset.
+Add useref blocks to build to single main.min.js file
+Temp: add hotfix for scripts, styleguide images
+Add support for gulp-concat
+Fixing visuals for disabled buttons.
+Bugfix to checkbox init.
+Making the PaperButton class optional for FABs. Also adding PaperFab--colored as a more intuitive alternative to PaperButton--colored in FABs.
+Merge pull request #536 from sgomes/material-sprint-button-revamp
+Revamping buttons, and adding flat buttons. - Added flat buttons and made them the default. - Restyled raised buttons according to Material Design spec. - Merged FABs into the same SCSS file, for easier reuse. - Minor bugfixes.
+Fix jshint
+Add initial tooltip implementation
+Merge pull request #530 from sgomes/material-sprint-slider-review-fixes
+Some fixes to the slider element, after UX review: - Updating focus states to new visuals - Improving rendering in Webkit and Mozilla by reducing the usage of gradients - Much improved vertical centering of the slider track, with subpixel accuracy
+Install docs - add tldr for quick setup
+Improve and simplify install guide #526
+Making caption type default to performance font (non web font)
+Merge pull request #477 from sgomes/material-sprint-roboto
+Merge pull request #519 from samthor/material-sprint_expandable-search
+fixed var i
+Adding theme-color. Fixes #522
+Merge pull request #521 from sgomes/material-sprint-sliders
+merge
+ripple on .ExpandableIcon
+simplified demos
+variables for expandable search
+large demo
+demo width 100% to prevent wrapping
+Merge pull request #523 from sgomes/material-sprint-header-panel-ie
+Fixing header panel demo in IE
+Completely rewrote sliders. They now closely follow the Material Design spec, and work in Chrome, Safari, Firefox and IE>=10.
+Merge pull request #515 from samthor/material-sprint
+removed empty dropdown-menu.js
+Merge pull request #517 from coryarmbrecht/master
+notes on hacks
+demos, max-width hack
+Remove Ruby references
+already animated
+minor cleanups
+v1, just places icon on left
+dropdown-menu prototype, item code
+Merge pull request #503 from sgomes/material-sprint-animation-fixes
+Merge pull request #513 from sgomes/material-sprint-ie-animation-demo
+Merge pull request #501 from sgomes/material-sprint-one-ripple
+Modifying animation demo so it works in IE. Changes were needed because IE doesn't support calc() with CSS transitions.
+Merge pull request #507 from sgomes/master
+Renaming Apple touch icon to "apple-touch-icon". See #492
+Fixes to animation demo: - Moving demo further down the styleguide - Code style fixes
+Merge pull request #502 from sgomes/material-sprint-fix-navigation
+Fixing SCSS compilation issue after removing old sidenav code
+One ripple to rule them all. Refactors buttons, FABs, radio buttons and checkboxes to all use the same ripples. Also simplifies adding ripples to components by specifying the RippleEffect class (which is now required for checkboxes and radio buttons as well, which will otherwise not have ripples).
+Merge pull request #494 from arthurvr/master
+Use https where possible
+Merge pull request #484 from google/libsass
+Bump deps
+Merge pull request #482 from sgomes/material-sprint-UI-fixes
+Merge pull request #479 from sgomes/material-sprint-fab-refactor
+Misc UI fixes
+Fixing FAB ripples, and fixing ripples overall in Firefox/IE.
+Add back precision
+Fixes #82 - use LibSass instead of Ruby Sass
+Merge pull request #481 from sgomes/material-sprint-remove-sidenav
+Removing old sidenav code.
+Merge pull request #468 from sgomes/material-sprint
+Switching default body font to 'Helvetica', 'Arial', sans-serif. Also adding optional CSS body classes that force the use of Roboto.
+Refactoring animations into separate SCSS file, and adding a demo.
+Merge pull request #465 from sgomes/material-sprint
+Adding column layout according to Material mockups: - Maximum of 3 columns in "web" layout, with 360px fixed width columns, 40px gutters and excess padding left and right. - 2 columns in "tablet" layout, with variable size columns and 24px gutters. - 1 columns in "phone" layout, with 16px gutters.
+Merge pull request #467 from sgomes/material-sprint-style-fixes
+Style fixes across the material-sprint branch. Should bring the build back to a pleasant green color.
+Minor typo
+Correcting slider javascript
+Fixing up the checkbox css naming and fixing up JS issues
+Tidied up das CSS und JS aber, dein markup is nicht so gut. a.k.a having labels as the containers for the radio inputs feels pretty wrong.
+By the power of Thor I've only gone and tidied up the mess that was the TextField. This is still far from perfect, but a.) it works - before we didn't even pull in the JS b.) It feels a lot cleaner than before.
+Making paper fabs suitcss friendly, but they need tidying up. Too dependant on the Button scss and js
+Tidying up the button styles to use SuitCSS and tidied up the JS to be a bit neater - still not totally happy.
+Palette tweak to card
+Cards + SuitCSS
+Shadows + SuitCSS
+Making palette use SuitCSS
+Tidying up the styles for lists and typography
+Ensure padding doesn't break menus.
+Only display Material border when menu collapsed.
+Fix card background image variable
+Improve sidebar styles
+Merge pull request #460 from sgomes/material-sprint
+Adding focusing an fixing up styles for the checkbox
+Merge branch 'material-sprint' of github.com:google/web-starter-kit into material-sprint
+Improving navigation. - Added content to all examples, to illustrate usage. - Added "centered horizontal" navigation. - Fixed a few minor bugs.
+Merge pull request #459 from sgomes/material-sprint
+Add new cards component implementation
+Move paper-card into shadow demo
+Remove card demo from shadows
+Switching header panel header text to correct typography
+Backing out assets until revisions ready
+Merge pull request #457 from sgomes/material-sprint
+Implements header-panel.
+Changing the focus style of the slide and also made it use the primary palette for color
+Changing the focus style of the slide and also made it use the primary palette for color
+First cut of focus styles for buttons
+Fixing up the navigation to scroll when too many items
+Merge pull request #411 from google/move-ios-touch-icon
+Add missing space before commented out code.
+gulpfile - comment out the task loading by default
+bump dependencies
+Merge branch 'material-sprint' of https://github.com/google/web-starter-kit into material-sprint
+Add icons set and previews
+There were many fixes in the navigation. They saw that it was good......hopefully.
+Renaming files and adding styles for static and horizontal
+Merge branch 'material-sprint' of github.com:google/web-starter-kit into material-sprint
+Minor Tweaks
+Make nav adhere to primary palette stuff.
+Drop the mast head.
+Update typography now that lists are a thing.
+Merge branch 'material-sprint' of https://github.com/google/web-starter-kit into material-sprint
+Add list demos.
+Add new list component
+Adding navigation menu to styleguide
+Whole lot of styles for typography.
+Drop the Material keyword
+Add material navigation to default layout.
+Correct path to styleguide.
+Drop the old navigation
+Drop the old layout
+Merge pull request #455 from google/update-deps
+Update dependencies
+Drop toolbar for now
+Clean-up
+Add in-flight nav work
+Initial re-nav work
+gulpfile - add `logPrefix` to the other browserSync instance
+Fixes #441 - add custom logPrefix for BrowserSync
+Merge pull request #426 from alexanderchan/patch-1
+Drop <h2> where not needed
+Add slider
+Fix layout bug with palettes.
+Add styles for initial masthead.
+Float the palette previews.
+Drop Orange.
+Add checkboxes.
+Add initial masthead. Include new demos.
+Add radio buttons.
+Add toolbar implementation
+Style-guide: add blockquote
+Correct indendation.
+Output some error when require-dir tasks fails
+bump dependencies
+gulpfile - fix indentation
+bump gulp-autoprefixer
+The styleguide demo looks so pretty
+Tidying up the styleguide page
+Switching textfields to use palette
+Sidenav is now using palette for border color
+Fab icons use the palette colors now
+Making the buttons use the palette styles
+Tidying up the sidenav JS and styles
+Merge pull request #421 from umaar/install-fix
+Use correct ordering in installation instructions
+Merge branch 'material-sprint' of github.com:google/web-starter-kit into material-sprint
+Some more sidenav bits
+Adding new styles and javascript to handle interaction
+Add textfield.
+FAB.
+Button stuff.
+The start of the sidenav
+Adding images to the typography demo
+Adding typography mixins and settings. Need to include image examples
+Broke cards. Copied over Lewes's Typography stuff
+Fixing up the palette and other styles to work with the styleguide and typography section
+Fixing merges and fixing addy's stuff - silly goose
+Tidying things up on the button and the styleguide
+Add in shadows and paper-card
+Beautify the button styles.
+Drop ripple from non-ripple example.
+Styling fixes, fix for no ripples.
+Add initial paper-button component.
+Add typography
+Add rAF.js
+Add shadows
+Fixing up the palette to have some sane behaviour in the mixin and display all the colors as shown in the material design spec
+First version of the palette stuff. Needs tidying up.
+Adding watch to the styles for styleguide
+Adding demo.scss
+Adding a new styleguide - nuke when complete
+Adding styleguide directory and a button
+RESTARTER ALL THE STYLES
+Merge pull request #419 from shakyShane/master
+Update to latest gulp-cache.
+Simplify server configuration - remove 'baseDir'
+move `apple-touch-icon-precomposed` into `images/touch`
+Revert "move `apple-touch-icon-precomposed` into `images/touch`"
+code consistency
+minify SVG
+minify chrome-touch-icon-192x192.png
+move `apple-touch-icon-precomposed` into `images/touch`
+Fix to new style-system not minifying output.
+Fixes #407 - headline works everywhere now.
+Revisions to the HTML starting point text.
+Add note about basic.html and IE8
+Make styling consistent with the site.
+Update Android icon sizes for basic.html
+Fixes #397 - use updated Android icon size.
+Merge branch 'master' of github.com:google/web-starter-kit
+Making 192x192 size chrome icon
+Fixes #380 - drops basic.scss
+Fixes #403 - revert back to border-box sizing
+Merge pull request #402 from paullewis/patch-1
+Adds Moz equivalent for nicer font rendering.
+Merge pull request #396 from Garbee/doc-folder
+Added link to commands in quickstart.
+Added docs folder with initial files. Pulled content from readme.
+Merge pull request #395 from bulatb/patch-1
+Fixed README typo.
+Merge pull request #384 from battaglr/patch-1
+Add `box-sizing` as an inherited value
+Merge pull request #381 from antleblanc/master
+add spacing to css selector
+Merge pull request #379 from google/styles-rework
+Rebase against master.
+Adding the comments from master into the branch
+Merge pull request #377 from google/comments
+Fixed the gulp and gulp:serve tasks to work
+Fixing up the styleguide to work correctly with the sass stylesheet
+Fixing up the html files to no longer require useref for CSS
+Renaming CSS files to .scss and dropping components.css
+Moving styleguide around
+Improve index.html comments.
+Fixes #375: sync recommendations (index > basic)
+Merge pull request #374 from antleblanc/master
+Update .jscsrc
+Merge pull request #371 from Garbee/overview
+Simplified overview section of readme
+Merge pull request #369 from crhym3/extras-repo-link
+Link WSK Extras repository from the main readme file.
+bump deps
+Merge pull request #367 from google/overview
+For #362 - adds section on WSK & CSS libraries.
+Merge pull request #363 from google/jscsrc
+Adds JSCS configuration file.
+Adjusting browser-support matrix to reflect actual support.
+Merge pull request #353 from joaostein/fixNavdrawerCSS
+Merge pull request #352 from joaostein/fixAppBarButtonCss
+remove unnecessary css that was being overridden on .navdrawer-container element
+fix redundant css declaration
+Fixes #337 - restore touch icons on Android && iOS
+Merge pull request #346 from joaostein/fixNavdrawerContainerCSS
+Merge pull request #345 from joaostein/fixSpacing
+remove repeated declaration block and unnecessary overridden css
+add spacing to css declaration
+Merge pull request #342 from markuz-gj/master
+fix #340
+Merge pull request #333 from alrra/fetch-htaccess-via-npm
+Fetch the `.htaccess` file via `npm`
+Merge pull request #317 from devnook/mdcolors
+Merge branch 'master' of https://github.com/google/web-starter-kit into mdcolors
+remove deprecated .jshintrc props - fixes #329
+Fixes #286 - fix navigation flash during resize.
+minify images
+update to new useref API
+bump deps
+Merge pull request #314 from robwierzbowski/rw/single-sass-task
+Adding output css file
+Adding material design color palette variables to sass
+Reduce to a single S/CSS task and watcher
+Update gulp-ruby-sass to 0.7.1
+Merge pull request #310 from webmakersteve/master
+Merge pull request #313 from appleboy/patch-1
+remove unnecessary empty line.
+SASS now compiles on serve
+Merge pull request #306 from rdorde/dup-css-prop
+remove duplicated line-height
+Merge pull request #290 from google/https-browserSync
+Removes https by default and provides some guidance for the developer about how to enable it
+Merge pull request #291 from philipwalton/google-analytics
+Add 'auto' to the Google Analytics tracker create method.
+A tickle, this should not be needed.
+Adds 'https:true' to both serve task
+Updating the version of browser sync
+Merge pull request #281 from alrra/move-htaccess
+Move the `.htaccess` file into the `app` directory
+Close GH-275: Adds .htaccess file.
+Merge pull request #277 from google/lang
+Adds lang attribute to basic.html
+Adds the lang attribute to html
+bump deps
+Make the footer in style guide more useful
+Merge pull request #265 from google/fonts
+Fixes #264 - copy fonts to dist
+Style formatting post font updates
+Merge pull request #261 from google/webfonts
+#251 - it turns out I didn't check in you know, the most important files
+Adding in RobotoCondensed Web fonts - #251 Adding in font files to /fonts Adding in CSS in to main.css rather than embed directly into the <head> - we can move this there later if we want. I have also changed slightly the declaration of what we serve than recomended in the bug (i.e, the Chris Coyer article), I went through how Google web fonts works and this is the recommended output that works in IE 9, 10 and above, Safari iOS 6 and above, Chrome and Firefox.  Note: we don't reference any ttf files, but I have included them
+Merge pull request #259 from google/fixminify
+Fixes #253 - correctly minify styles
+Merge pull request #254 from google/styling
+Various styling fixes
+install Sass when running Travis
+Close GH-242: Handling scss compilation error.
+followup to 4730569239d811666227aa681fc976d2a0ff6d0a
+Merge pull request #238 from google/fix-233
+Address feedback on #238
+gulpfile - simplify error handler
+gulpfile - centralize autoprefixer config
+minor consistency tweak for #239
+Merge pull request #239 from google/fix-79
+Close GH-243: Vendor prefixes. Fixes #175
+Merge pull request #240 from ValentinKlinghammer/master
+minifyHtml should only run on html files
+Potential fix for #79
+Improve navbar UX logic for #233
+Add error handler for ruby-sass to fix #234
+Index: Load google fonts in head, rather than imports.
+Style guide: add recommended font loading to head.
+Compiled CSS: drop Google font imports
+Sass: Drop Google fonts being loaded from imports.
+Merge pull request #228 from manishrc/master
+use #ignore-click instead of 'javascript:;'
+Merge pull request #221 from google/https
+Fixes #220 - move font loading to https
+tweak #217
+Close GH-217: Adds a gulp serve:dist command that uses the dist build process.  Fixes #216. Fixes #215, Fixes #216
+gulpfile - codestyle
+Merge pull request #219 from google/uncss_filter
+Adding ignore filters to uncss
+Merge pull request #206 from Charca/gulp-copy-task
+Adding a link to the demonstration site #97
+Merge pull request #210 from bfred-it/master
+Removed undesirable minimal-ui in viewport
+Merge pull request #202 from google/200
+Merge pull request #209 from manishrc/master
+fix issue with links jumping to the top of page. use href='javascript:;' instead of '#'.
+Added gulp task to copy files from app to dist
+Merge pull request #205 from jbnicolai/update-dev-dependencies
+Updates devDependencies to latest stable backwards-compatible versions.
+Merge pull request #203 from shinnn/preserve-license
+Preserve JavaScript license comment
+Rebase and bring in #145 (h/t @stephenplusplus)
+Fixes #200
+followup to #201
+Merge pull request #201 from johnjbarton/customible-gulp
+Allow gulp task list to be extended. As a starter kit, we want users to be able to customize. As a source-based distribution we want users to stay updated. By allowing users to customize web-starter-kit gulp without editing gulpfile.js, they can rebase or merge future updates.
+Merge pull request #182 from matheusazzi/patch-2
+Remove reload from the images task
+Merge pull request #187 from robwierzbowski/patch-3
+Merge pull request #195 from mrmlnc/master
+typo fix
+Handle error event generated by jshint fail reporter
+readme - link to latest release
+Merge pull request #189 from shakyShane/master
+Removed reference to BrowserSync running instance
+Inject CSS styles
+Merge pull request #185 from robwierzbowski/patch-2
+Give serve preference to files in .tmp
+gulpfile - don't need `init` anymore
+Close GH-171: Livereload breaks on jshint error(s) when running `gulp serve`. Fixes #169
+Don't optimize images on serve
+Strip unnecessary link in styleguide
+Fix missing pygments highlighting
+Merge pull request #178 from google/grids
+Move demo gray to sass utils
+Fixes #174 - moves demo classes to styleguide
+Merge pull request #177 from google/gulp-cache-bump
+Bump gulp-cache to 0.2
+Merge pull request #173 from FearMediocrity/master
+Fixed the link to the troubleshooting page.
+Strip unnecessary font-family rule
+Tweak to basic grammar
+Grammar tweaks to index
+Merge pull request #172 from battaglr/pseudo-elements
+Update pseudo-elements to double-colon syntax
+Merge pull request #167 from battaglr/patch-1
+Update gitignore
+revert manifest.webapp version change in #85
+Close GH-85: A bunch of (smaller) changes….
+Fixes #103  grid issues (ty @CreativeJuiz)
+Merge pull request #158 from Charca/box-sizing-fix
+Merge pull request #153 from google/readme-remove-features-text
+Merge pull request #161 from appleboy/patch
+update indent value of jshint config and follow style rule.
+Targeting *:before and *:after for box sizing
+readme - remove features text
+Merge pull request #154 from jbnicolai/fix-indentation-styleguide-index
+Fixes indentation and removes duplicate newlines.
+Merge pull request #152 from jbnicolai/missing-closing-section
+Adds missing closing section tag around highlights.
+Merge pull request #151 from google/contributing-md
+Move `Contributing` guide to a CONTRIBUTIN.md file
+readme - link download to releases page and not a specific release
+Merge pull request #114 from google/imagified-readme
+fixes #132 - style configuration.
+Merge pull request #141 from jbnicolai/verify-build-artifacts-are-commited
+simplify clean task with `del`
+Merge pull request #142 from jbnicolai/add-travis-yml-to-readme
+Adds .travis.yml to files to remove for the 'boilerplate-only option'.
+Include test asserting all generated build changes are commited.
+Merge pull request #140 from jbnicolai/update-components-css
+Adds newline to components.css.
+Merge pull request #138 from jbnicolai/travis-ci
+Adds `npm test` and travis.yml
+Merge pull request #134 from mateuspv/patch-1
+Merge pull request #135 from ParinParikh/master
+Removed margin top to fix article count appearance
+Fixed the article section by adding padding
+Update main.css
+Merge pull request #130 from jbnicolai/dev/query-selector
+Uses document.querySelector directly, rather than wrapping it.
+Merge pull request #129 from jbnicolai/dev/format-jshintrc
+Merge pull request #131 from jbnicolai/dev/format-main-js
+Reindents main.js using two spaces.
+Format .jshintrc in the same style as the code.
+Merge pull request #127 from alrra/remove-404-page
+Remove `404.html`
+Merge pull request #125 from battaglr/patch-1
+Update editorconfig
+Size improvement to repeated qSA & dropping touch start
+Merge pull request #119 from JohnH-/master
+Fixed so that gulp runs jshint more than once
+Merge pull request #118 from zg/master
+X-UA-Compatible meta tag missing on some HTML pages
+ontouchstart => touchstart
+prettify the readme with some graphics
+styleguide js - remove unused var and don't redefine var
+styleguide js codestyle
+minor tweaks
+404.html - drop IE comment
+reorder some head tags for consistent grouping
+consistent indentation in the styleguide
+convert to 2 space indentation
+Merge pull request #95 from zg/patch-1
+Merge pull request #108 from shakyShane/master
+Update BrowserSync version to 1.0.0
+Set web-app-title for index.html
+enable iOS homescreen meta tags by default #102
+Merge pull request #105 from sergejmueller/woff2
+WOFF2 support
+Merge pull request #92 from JamesMD/feature/utils
+Merge pull request #90 from matheusazzi/patch-1
+Close GH-80: avoid gulp.start().
+Update .editorconfig
+Update _list.scss
+Bump PSI for PageSpeed to 0.0.4
+Add default directive to top-level SASS variable definitions.
+Merge pull request #89 from alrra/update-package-json
+Mark package as private
+Merge pull request #83 from webdesignberlin/patch-1
+Expand contribution section to cover the site
+Merge pull request #87 from alrra/remove-cc-header-from-404
+Comments for components.scss
+Update _normalize.scss | remove deprecated hgroup
+Remove license info from `404.html`
+styleguide - grammar
+Style guide: remove unnecessary meta prop
+Style guide: improve image alt tags
+Close GH-75: Add basic aria roles. Fixes #53
+Update components.css
+Merge pull request #81 from alrra/update-robotstxt
+Update `robots.txt` file
+Change whitespace in styleguide JS
+readme - fix blackberry version - fixes #76
+Update README.md
+sync basic.html with index.html
+Update download link, link to BrowserSync.
+README tweaks.
+Update README.md
+Add FAQs mention to inspiration
+gulpfile - semicolon
+Merge pull request #72 from google/71-styles
+Further revisions to the readme
+ALARM!ALARM! rogue space.
+Drop capturing in the styleguide JS
+Minor formatting tweak
+Minor changes to toggling
+Add support for toggling snippets - fixes #42
+Add note on how to opt out of tooling
+Expand on UnCSS comments
+Further readme improvements
+Improvements to the readme
+Remove alt-layout - basic and index are sufficient
+Comment-up the Gulpfile
+sync readme `gulp watch` => `gulp serve`
+formatty things.
+Fixes for style guide image paths, style guide component linking.
+Inline JS for style-guide. Unlikely to be changed.
+Remove unnecessary debug reference
+Fix the navigation bar being too short on desktop.
+rename title for styles:components task.
+Rig up the gulpfile.
+Update index.html
+Merge pull request #69 from google/microdata
+use a .tmp folder for sass styles.
+autoprefixr back on for app. it had something to say about our current css files.
+fixes #71 - restructure style task.
+Merge pull request #67 from google/sass
+Merge pull request #70 from google/canonical
+For #60 - add correct docs link for canonical
+mobile-web-app-capable as a default
+Remove Article microdata
+Revise styles.scss, styles.css > components
+Merge pull request #66 from google/fixes
+Add typography fix for fonts
+Update second line to H2, add style guide to nav
+Update README.md
+Tweak gulp build comment.
+Improve Gulp installation instructions.
+Further improve installation instructions.
+Add Node installation instructions.
+Add Ruby installation note
+Add troubleshooting section.
+Revise tooling instructions.
+Fix incorrect URL.
+Hide the h4 the right way.
+Remove extra padding under nav links.
+remove min-height for larger devices.
+Only show `h4` when nav drawer is open.
+Continuing fixes for #65 + niceties.
+Add initial UX suggestion for body.click > hide menu
+First fixes for #65 - zindex, overflow, min-height
+Add link to getting started, style guide
+`to to` -> `to do`
+Grammar tweaks.
+For #5 - add browser support list
+Add contribution guide section
+Readme revisions
+Merge pull request #62 from google/feedback
+Remove CC headers from style guide
+Remove CC headers from Sass
+Drop CC headers from CSS
+Remove CC from additional layouts
+Remove CC from main index
+Add CC block to end of license file 1/2
+Add built with comment to let us discover projects using wsk
+Remove block for preventing link opens in mobile safari
+Remove disable tap highlight
+Merge pull request #61 from google/markup-cleanup
+Clean up markup (re #60)
+minify hamburger icon
+Add download link to get the zip archive of the kit.
+Readme tweaks.
+Merge pull request #58 from google/sindreismean
+Add black hamburger menu icon.
+Improve colour palette used, font-sizes on multi devices.
+Merge branch 'master' of github.com:google/web-starter-kit
+Adding JS to auto-generate code smaples in the style quide
+Merge pull request #56 from google/sindreismean
+Addressing HTML minifier feedback
+Adds alternative html minification for #54
+Minor tweaks for IE 10
+Meta tag correction.
+Merge pull request #49 from google/meta
+minify images
+consistency tweaks
+gulpfile - make livereload on vanilla CSS files instantaneous
+Add project meta tag
+Close GH-47: Adds support for UnCSS..
+Altering styles and removing the search fields
+gulpfile - turn off lr notification in the browser when loaded
+Merge pull request #45 from yeoman/styleguidechanges
+Clean-up of visual style guide
+gulpfile - no longer needs to change cwd
+Merge pull request #44 from yeoman/input
+Merge pull request #38 from yeoman/copyright
+Switch to input type=search. Fixes #39
+Bump to latest version of PSI
+Update PageSpeed task now that nokey is default
+Add copyright headers as requested.
+bump deps
+gulpfile - don't need `size` in `jshint` task
+gulpfile - tweak pageres task
+gulpfile - add titles to the size plugin
+gulpfile - be explicit about supporting arrays in `watch`
+gulpfile - remove `fonts` task
+gulpfile - use rimraf instead of gulp-clean
+gulpfile - various tweaks
+gulpfile - switch to gulp-if for more succinct syntax
+Merge pull request #37 from yeoman/psi
+Dont return on pagespeed
+Title case for web starter kit
+Merge branch 'master' of github.com:yeoman/web-starter-kit
+Tidying up the web starter kit styles - still needs work. Fixes #31
+readme - add license mention
+better fix for #36
+Merge branch 'master' of github.com:yeoman/web-starter-kit
+Fixing up the subdirectory watch and adding support for subdirectory building
+Switch to PSI for pagespeed reporting
+Adds inspiration section
+Add requirements to readme
+fix running server from subfolders - fixes #36
+index.html - minor tweaks
+fix naming so gulp builds correctly
+bump deps
+gulpfile - let gulp know when we're done
+readme - add gulp install step and slightly tweak it
+Adding favicon.ico
+Merge branch 'master' of github.com:yeoman/web-starter-kit
+Switching out the favicons - still needs a favicon.ico. Also added comments to the fav icon groups and moved chrome add to homescreen fav icon to the bottom, otherwise it doesn't work
+Readme revisions.
+Update license to Apache 2.
+Swapping out the hamburger and search icons. Also made the index page fit slightly more closely with the styleguide
+Merge pull request #27 from ianbarber/master
+Remove some unused sass
+Merge pull request #26 from ianbarber/master
+Shouldn't need to be root to npm install
+Merge pull request #24 from yeoman/refactor
+scripts -> jshint, add to build process, expand watch.
+Add comments to compiled style-guide styles.
+Adds main.css
+Add back compiled styles file (do not remove)
+main.css > h5bp.css to be more clear
+Minor styleguide cleanup
+Fix linking issues with scripts/main
+Add missing useref blocks for main index layout
+Add missing blocks for basic layout
+Add missing use ref blocks for alternative layout
+Remove Web Fundamentals headers
+Add missing icon resources and placeholder graphics
+Ignore any .tmp files
+Readme revisions.
+Merge pull request #22 from yeoman/remove-samples
+Remove samples, replace with alt-layout.html
+readme - syntax highlighting
+readme - drop sudo
+Add quick start information.
+Replace with app layout
+Revise slide out menu
+Revise styles to app layout
+Add hamburger and search icons
+fix some small formatting issues.
+Consistency between HTML and manifest attributes
+Provide a sample hosted URL
+minor tweaks in gulpfile and readme
+Revise wording on PageSpeed score for #17
+code style tweaks, gulpfile improvements and remove unused deps
+add meta files to enforce code style
+Sushi -> Web Starter Kit
+Merge pull request #16 from yeoman/js-style
+Reformat main.js
+Merge pull request #15 from ianbarber/master
+Add a basic index.html
+Remove Todo on PageSpeed integration.
+Index: correct path to new styles, remove intro about PL.
+Adds static style-guide, cleaned up from Web Fundamentals.
+Introduce Sass styles from Web Fundamentals.
+Remove current main.scss
+Gulp: correct paths for Sass styles, icons and fonts.
+Remove PatternLab from the project
+Adds a cleaner version of samples
+Merge pull request #14 from yeoman/browser-sync-name
+Change dependency name browsersync -> browser-sync
+Close GH-13: Add PageSpeed task. Closes #12.
+Minor revisions to contains list.
+Close GH-10: Add initial BrowserSync support.
+bump deps
+Move the README back out.
+Introduce file renames. Minor restructuring.
+Add Gulpfile.
+Adds PatternLab.
+Drop Pure for now.
+Add initial (Pure-based) style guide
+Adding in some overview information.
+Add contents to readme.
+Add side-bar sample.
+Drop normalize reference.
+Include PureCSS
+Drop normalize as Pure includes it in the default build.
+humans.txt - drop jQuery and Modernizr references.
+Drop startup directory
+Drop crossdomain.xml
+Trim down the readme for now.
+Drop extraneous scripts.
+Drop jQuery
+Drop Modernizr
+Add initial H5BP mobile boilerplate
+Initial commit

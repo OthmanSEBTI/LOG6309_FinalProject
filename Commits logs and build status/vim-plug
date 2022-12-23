@@ -1,0 +1,691 @@
+ddce935b16fbaaf02ac96f9f238deb04d4d33a31,Revert "Add Sponsor Labels action",Tue, 13 Sep 2022 09:43:33 +0900,Tue, 13 Sep 2022 09:43:33 +0900
+e531dbec2a5b36c34ee5f19dc5c2bb1aa814f442,Add Sponsor Labels action,Sat, 10 Sep 2022 11:28:27 +0900,Sat, 10 Sep 2022 11:28:27 +0900
+b6739f358b60b7a5590c7a59e49b2305d23f1242,Update ISSUE_TEMPLATE: Require plug block contents,Tue, 6 Sep 2022 11:04:54 +0900,Tue, 6 Sep 2022 11:06:26 +0900
+f308ef394ee7c71338e661f9da8dea186d5d2c09,Update username of NERDTree plugin (#1208),Mon, 5 Sep 2022 01:34:39 +0100,Mon, 5 Sep 2022 09:34:39 +0900
+d94d234548a8fd6fa686812848f377f1419dafa1,Add .gitignore (#1204),Wed, 17 Aug 2022 13:25:08 +0200,Wed, 17 Aug 2022 20:25:08 +0900
+d6cb65753f1aa15811600547070856081ce7f6b4,Explicitly address the side-effects of plug#end() in the example,Mon, 1 Aug 2022 09:16:26 +0900,Mon, 1 Aug 2022 09:17:35 +0900
+87a160a1c34ad390c0a3e1de00c79e6b27c6a22a,Create FUNDING.yml,Sat, 30 Jul 2022 19:54:42 +0900,Sat, 30 Jul 2022 19:54:42 +0900
+8fdabfba0b5a1b0616977a32d9e04b4b98a6016a,PlugDiff: Press enter on the name of a plugin to see the full diff,Tue, 3 May 2022 23:10:00 +0900,Tue, 3 May 2022 23:10:00 +0900
+be55ec46b5ab031805487a9c3e895db57f53010b,Check the actual value g:did_load_filetypes (#1176),Thu, 21 Apr 2022 15:54:02 +0200,Thu, 21 Apr 2022 22:54:02 +0900
+93ab5909784e09134e90f15cafa8a5edcc9a00fe,Include plugins with 'commit' values in PlugSnapshot output,Mon, 4 Apr 2022 11:52:45 +0900,Mon, 4 Apr 2022 11:52:45 +0900
+e300178a0e2fb04b56de8957281837f13ecf0b27,Change the default plugin directory for Neovim,Mon, 3 Jan 2022 23:05:08 +0900,Mon, 3 Jan 2022 23:05:08 +0900
+f085751ca149f467ce0d1e44132a67f7d27049dc,README: Clarify recommended plugins directory for Windows Vim (#1151),Mon, 3 Jan 2022 08:47:53 -0500,Mon, 3 Jan 2022 22:47:53 +0900
+68488fd7a388d31704643a3257eb97920bcdd54a,Fix unexpected cursor movement on on-demand imap loading (#1147),Mon, 6 Dec 2021 14:26:19 +0900,Mon, 6 Dec 2021 14:26:19 +0900
+93a115718fc63fe07b729374f6bc01296f6f0135,Migrate to GitHub Actions,Sun, 5 Dec 2021 22:59:08 +0900,Sun, 5 Dec 2021 23:42:23 +0900
+c9971346bb486ccff354aaee8606cc0d2d5a0c97,Set --origin=origin for git clone commands (#1117),Tue, 31 Aug 2021 09:14:37 +0100,Tue, 31 Aug 2021 17:14:37 +0900
+66e038d443310315e23feb939b3ca28c2a67e236,Add --create-dirs option to flatpak installation instrictions (#1126),Sun, 29 Aug 2021 23:20:58 +0200,Sun, 29 Aug 2021 17:20:58 -0400
+fc2813ef4484c7a5c080021ceaa6d1f70390d920,Recognize pwsh(.exe) as PowerShell (#1090),Fri, 30 Apr 2021 15:29:04 +0800,Fri, 30 Apr 2021 16:29:04 +0900
+cffcfe150bda75177920530c5f1911b52f70a065,Add GV.vim-style q mapping (#827),Mon, 8 Feb 2021 09:23:21 +0200,Mon, 8 Feb 2021 16:23:21 +0900
+8b45742540f92ba902c97ad1d3d8862ba3305438,Disable credential.helper for git fetch (#1046),Mon, 14 Dec 2020 14:30:44 +0900,Mon, 14 Dec 2020 14:30:44 +0900
+5430b6213a5c6c3bafd7e25b1e80ccb2afd7f5ba,XDG_DATA_HOME respecting powershell script (#1042),Thu, 3 Dec 2020 13:46:45 +0000,Thu, 3 Dec 2020 22:46:45 +0900
+2f4e28161e114cc4b34a9b8ff0f51f4906f37b0b,Set empty credential.helper only when git 2.0 or above is available,Tue, 3 Nov 2020 22:55:17 +0900,Tue, 3 Nov 2020 22:55:17 +0900
+ab940f624ae1df24605a8ff1bf427de7a76e5911,Fix syntax matches (#1028),Thu, 22 Oct 2020 20:35:18 +0530,Fri, 23 Oct 2020 00:05:18 +0900
+c44422460ede432a5f1cf8c38f254f1b690621e4,Disable credential-helper (#1026),Tue, 20 Oct 2020 20:48:58 +0900,Tue, 20 Oct 2020 20:48:58 +0900
+d16273e07231260e02412625f98651bc6ceebb56,Code cleanup,Tue, 8 Sep 2020 22:08:19 +0900,Tue, 8 Sep 2020 22:39:56 +0900
+b17f477585ad33aedc008f845fabe7e3401e2a3a,Reduce the number of git processes for faster operation (#937),Tue, 8 Sep 2020 22:13:21 +0900,Tue, 8 Sep 2020 22:13:21 +0900
+4a3e85e87850a94f74dbb687257f0f659fcd4980,Test Neovim on Bionic,Tue, 8 Sep 2020 17:27:20 +0900,Tue, 8 Sep 2020 17:27:20 +0900
+a9bf5bd72212ff7cf9e9e863c365a3464faa2426,"non-master branch" -> "non-default branch",Sat, 29 Aug 2020 17:05:44 +0900,Sun, 30 Aug 2020 02:05:50 +0900
+e8892a9bef0a77753abb82133b2545c358b3f71a,Update test cases,Sat, 29 Aug 2020 02:02:20 +0900,Sun, 30 Aug 2020 02:05:50 +0900
+49be3a8ca930197de69f82f59b2bcac00bc25b2d,Use branch name of origin if not specified,Sat, 29 Aug 2020 02:00:01 +0900,Sun, 30 Aug 2020 02:05:50 +0900
+95ef5e8d5f1a8366171c1b74e074e028c8474175,PlugDiff should be able to find pending updates,Sat, 29 Aug 2020 01:39:29 +0900,Sun, 30 Aug 2020 02:05:50 +0900
+6fa6475fee9e0f133f3d7535b143bfdc16650a4b,User-specified branch name should not be empty,Sat, 29 Aug 2020 01:38:33 +0900,Sun, 30 Aug 2020 02:05:50 +0900
+588467903b39960a643519fb627b5997d8e70328,Use branch,Thu, 27 Aug 2020 22:48:30 +0900,Sun, 30 Aug 2020 02:05:50 +0900
+5706f70f8f4eaaf306bbac49bec1259bc43b7667,Add missing function,Thu, 27 Aug 2020 21:59:09 +0900,Sun, 30 Aug 2020 02:05:50 +0900
+4a3c5e7ac280b15d7279ef48e6a915cf49023cc6,Support non-master default branch,Thu, 27 Aug 2020 14:30:43 +0900,Sun, 30 Aug 2020 02:05:50 +0900
+d53d5a976f06c89111530640ce43979b6cf9172b,Add |:Plug| tag in help docs (#951),Fri, 28 Aug 2020 18:43:05 -0700,Sat, 29 Aug 2020 10:43:05 +0900
+13ea184015c30be5160ae285aedc0eaec0c72e6c,Update README.md (Powershell Install One-Liner) (#1003),Sat, 8 Aug 2020 18:25:59 -0400,Sat, 8 Aug 2020 18:25:59 -0400
+457bebcd30cbfca8b34b0d308f882b7b605714fc,Fix typos (#1001),Sun, 2 Aug 2020 08:52:56 -0700,Sun, 2 Aug 2020 11:52:56 -0400
+b2133cf2ec935c55de0c3a306a6b7dc3546226da,Support Windows shell without extension (#997),Mon, 20 Jul 2020 07:59:29 -0400,Mon, 20 Jul 2020 07:59:29 -0400
+c31903639623c5be2431ac86b31ce77e54eb345f,Fix #961 tests for Vim 7.4 (#990),Mon, 6 Jul 2020 01:07:42 -0400,Mon, 6 Jul 2020 01:07:42 -0400
+3aa3b5a4e85620dd58302926b571860c92fdbb2f,Report when PlugClean fails to remove a directory (#985),Thu, 25 Jun 2020 07:56:47 -0400,Thu, 25 Jun 2020 20:56:47 +0900
+01aab60adef47c6606aa68c8783f5b994fda9fc4,Fix PowerShell instruction for Neovim,Mon, 8 Jun 2020 23:48:55 +0900,Mon, 8 Jun 2020 23:48:55 +0900
+6583b990321f03500505dc43a3f62cbbc7369862,:Plug throws error for invalid option (#961),Wed, 3 Jun 2020 07:34:44 -0400,Wed, 3 Jun 2020 07:34:44 -0400
+71c41fccf5ca42081d4d49aa1ea2f71c694bc4cf,Comply with the XDG protocol in the README (#966),Wed, 6 May 2020 12:57:50 +0200,Wed, 6 May 2020 19:57:50 +0900
+8846bc6af14d105d3c1121bb5c42fb2efc4dfe9e,Add Flatpak installation instructions to README.md (#846),Wed, 6 May 2020 01:54:46 +0000,Tue, 5 May 2020 21:54:46 -0400
+0862a76fdd89d0b3ffb951be367111510e1f2410,Updated readme (#967),Tue, 5 May 2020 18:28:53 -0700,Tue, 5 May 2020 21:28:53 -0400
+54d837fa543678314f33c325d96f4e18b1c0892e,Load plugin before running funcref hook,Sun, 3 May 2020 16:57:21 +0900,Sun, 3 May 2020 16:59:22 +0900
+e718868e85e2a32410144dfcdc3ba1303719450d,Use list type for command in s:spawn() (#959),Sat, 11 Apr 2020 10:49:47 -0400,Sat, 11 Apr 2020 10:49:47 -0400
+668bc0fd2a2a6ec2076a3b49a5031177a92df31b,Support list type command for s:system to reduce batchfiles on Windows (#956),Fri, 10 Apr 2020 15:40:28 -0400,Fri, 10 Apr 2020 15:40:28 -0400
+c3b6b7c2971da730d66f6955d5c467db8dae536b,Clarify error message (#931),Mon, 27 Jan 2020 14:48:16 +0100,Mon, 27 Jan 2020 22:48:16 +0900
+2f5f74e5e67f657e9fdac54891a76721bcd3ead3,Validate last buffer line of g:plug_window (#927),Sun, 5 Jan 2020 19:59:59 -0500,Sun, 5 Jan 2020 19:59:59 -0500
+b2aa5724c0bffda4a9422dcdbaa438ac5489fea8,Use iconv() only if +iconv is enabled. (#921),Fri, 27 Dec 2019 22:35:49 -0500,Fri, 27 Dec 2019 22:35:49 -0500
+359ce90b9b37442974fd3ccd9279493d85efb3af,Encode batchfile in current codepage. (#913),Wed, 11 Dec 2019 08:28:49 -0500,Wed, 11 Dec 2019 08:28:49 -0500
+e6ed2e5658cf565160bfc3321f56ed22ca5cc00c,Do not show git signatures in diff window (#918),Mon, 9 Dec 2019 23:26:56 -0500,Mon, 9 Dec 2019 23:26:56 -0500
+897ce5e2fad66bdb39dc94894f16dde89eee87f7,Set/unset shellslash on jobstart (#917),Sat, 7 Dec 2019 01:05:57 -0500,Sat, 7 Dec 2019 01:05:57 -0500
+d2f8ca2dbc290dbad75356e59e3b0287c1b28972,Detect shellslash on Windows (#916),Thu, 5 Dec 2019 19:34:41 -0500,Thu, 5 Dec 2019 19:34:41 -0500
+93b702512d07bcad4c0d47913db587febe8cc054,Fix shellescaping for git refs and batchfile on Windows (#909),Sun, 1 Dec 2019 21:01:17 -0500,Sun, 1 Dec 2019 21:01:17 -0500
+68fef9c2fd9d4a21b500cc2249b6711a71c6fb9f,Delete batchfile only if it exists (#901),Sun, 3 Nov 2019 21:10:37 -0500,Sun, 3 Nov 2019 21:10:37 -0500
+eee50c55bf691bf6bf04c981c1d1cfed3ffc4588,Use s:path with s:rtp always (#694),Mon, 21 Oct 2019 03:52:29 +0200,Sun, 20 Oct 2019 21:52:29 -0400
+96046c01c3a2a2555b9d694322716a7795d614c4,Detect WSL (Neovim only) (#887),Mon, 14 Oct 2019 13:38:26 -0400,Mon, 14 Oct 2019 13:38:26 -0400
+fcfd5b7e1f2ac9f90e933037cd2ef1d0ef2ff992,Use chcp only if sed is in PATH (#891),Mon, 14 Oct 2019 07:55:41 -0400,Mon, 14 Oct 2019 07:55:41 -0400
+849b76be90a2c5a13fd9943b2b76d77a9b6ebc0f,Fix chcp parsing for the current codepage (#888),Thu, 3 Oct 2019 21:19:11 -0400,Thu, 3 Oct 2019 21:19:11 -0400
+ff97806e50196d56b2858cd56bada9d48cada2aa,Add path for Neovim on Windows (#789),Sun, 29 Sep 2019 02:30:50 +0200,Sat, 28 Sep 2019 20:30:50 -0400
+68b31a4a66ec945ff299db25a8a6382cd48edf14,output of chcp was not parsed correctly (#886),Sun, 29 Sep 2019 02:10:13 +0200,Sat, 28 Sep 2019 20:10:13 -0400
+46f843aafe6a284765c484397fdc5ad9bb77147a,Add collaborators section,Tue, 3 Sep 2019 10:52:29 +0900,Tue, 3 Sep 2019 10:52:29 +0900
+ebd534c88bfd49f8d3c758d96ad04ce3f77ee6f8,Travis: use default image for osx (#871),Sat, 17 Aug 2019 16:51:07 -0400,Sat, 17 Aug 2019 16:51:07 -0400
+3b29e1e6e2fe61ed41f235fcb479acadf6484d7d,Travis: add macOS 10.14 (#870),Sat, 17 Aug 2019 11:44:24 -0400,Sun, 18 Aug 2019 00:44:24 +0900
+307b0f244d99408decda3a98f58e864d49626818,travis: add ubuntu bionic,xenial (#867),Fri, 16 Aug 2019 23:46:09 -0400,Sat, 17 Aug 2019 12:46:08 +0900
+8a44109329757e29c4956162e3353df367ecdb71,Fix Windows support for Unix shells and powershell (#860),Fri, 16 Aug 2019 04:55:17 -0400,Fri, 16 Aug 2019 17:55:17 +0900
+0b32d2d23e7cc50dd3424493185bc07122b2aeef,Update YCM path: Valloric -> ycm-core (#869),Tue, 13 Aug 2019 23:15:51 +0900,Tue, 13 Aug 2019 23:15:51 +0900
+226d6abeb2f02bcd8f5b11288543259fa2e02962,Don't override shell on Windows (#856),Mon, 15 Jul 2019 20:06:27 -0400,Tue, 16 Jul 2019 09:06:27 +0900
+fddbcb8f1a37e216504b3d14859a0a992a81cd5d,Change PlugClean description (#853),Tue, 9 Jul 2019 03:16:02 -0400,Tue, 9 Jul 2019 16:16:02 +0900
+f1ad2d864ab43c56bf86ce01be9971f62bc14f6c,Escape batchfile path on Windows (#850),Mon, 17 Jun 2019 17:00:59 -0400,Mon, 17 Jun 2019 23:00:59 +0200
+08e78d8a5ea874bebbd7f39de7bb540d9b539963,Avoid downward search when using finddir,Wed, 29 May 2019 18:29:11 +0900,Wed, 29 May 2019 18:29:11 +0900
+518a3566c32cec35c68749c765127ef6f7703630,Escape arguments to git command during PlugUpgrade,Thu, 11 Apr 2019 17:53:13 +0900,Thu, 11 Apr 2019 17:53:13 +0900
+d1c19a6fa934d90718c18e40acbec0ad7014e931,Travis: rename vim72 to vim74 (#723),Fri, 22 Feb 2019 03:14:16 +0100,Fri, 22 Feb 2019 11:14:16 +0900
+734d9a11b5a6354e6a66e152dee5d311233e033c,Use 'rtp' option to filter diff (#798),Sat, 3 Nov 2018 11:00:00 -0700,Sun, 4 Nov 2018 03:00:00 +0900
+b6050d6f03f3e2792589535249e3c997d3e94461,Allow cloning into an empty directory (#782),Wed, 12 Sep 2018 13:45:38 +0900,Wed, 12 Sep 2018 13:45:38 +0900
+7f8fdd044431ae60776cd8d64d2454fcfe134427,Ignore useless use of on-demand loading (#786),Wed, 12 Sep 2018 13:40:33 +0900,Wed, 12 Sep 2018 13:40:33 +0900
+8ed2617ba088cadcc4c87c9fa1007b4633b06442,Add support for parallel fetching of Git submodules (#784),Thu, 6 Sep 2018 15:48:54 +1000,Thu, 6 Sep 2018 14:48:54 +0900
+0a255ee62da085a01ab376fd69a97e0e26df4da0,Clear colorcolumn in vim-plug buffer (#779),Wed, 8 Aug 2018 01:52:00 +0000,Wed, 8 Aug 2018 10:52:00 +0900
+e0ca037a4fe6d3b2d0b85ceec9b69670cc9db2bc,has('win32') is enough for detecting Windows (#765),Wed, 20 Jun 2018 18:18:50 +0900,Wed, 20 Jun 2018 18:18:50 +0900
+f80eed73791210c5d06afd0520f3ae0276702363,Add <plug>(plug-preview) map (#769),Wed, 20 Jun 2018 18:09:06 +0900,Wed, 20 Jun 2018 18:09:06 +0900
+fef4e434baf9edbe0bd1c241efdb76d47172bd4f,Fix Windows batch file format (#755),Sat, 12 May 2018 11:21:17 +0900,Sat, 12 May 2018 11:21:17 +0900
+e6a775e0df3180d3cfea55b351aa7b112c58c139,Fix handling of changed up-to-date msg from Git (#724),Sun, 4 Mar 2018 05:43:13 +0100,Sun, 4 Mar 2018 13:43:13 +0900
+96375cb7d30b7caf2a9417799ff509b59b43a627,Update README and add vim help file,Mon, 27 Nov 2017 00:57:30 +0900,Mon, 27 Nov 2017 00:58:29 +0900
+2f4dc4d482a55c3c4b229e801619ec9a9e5fb078,Add link to automatic installation instructions,Mon, 27 Nov 2017 00:15:46 +0900,Mon, 27 Nov 2017 00:15:46 +0900
+9813d5ead5b6f419e9ca55fc767d9548baed6b40,Display not-loaded status with all plugins that have a dir (#547),Sun, 15 Oct 2017 11:12:15 +0200,Sun, 15 Oct 2017 18:12:15 +0900
+ddc67fc13624dbec62121e0c55ae03f270f66241,Fix helptags generation for plugins with custom rtp,Sun, 24 Sep 2017 23:59:28 +0900,Mon, 25 Sep 2017 00:00:03 +0900
+cd44b03db2158bf60f12415a91d27434589992f7,Remove extra quotes in PlugDiff output (#680),Wed, 20 Sep 2017 11:28:34 +0900,Wed, 20 Sep 2017 11:28:52 +0900
+4f95bce2f473702daa381290bdc9bb22336abb98,Fix PlugDiff for Windows (#681),Tue, 19 Sep 2017 22:02:54 -0400,Wed, 20 Sep 2017 11:02:54 +0900
+7f96c98b0ab167950603bd123ca6f530a8f09a18,Prepend 'silent' to ':!' to avoid hit-enter prompt (#678),Tue, 19 Sep 2017 00:53:35 -0400,Tue, 19 Sep 2017 13:53:35 +0900
+05c8983d1ae1f832f40abecf3c5cc85da109d12c,Port fzf#shellescape (#676),Mon, 18 Sep 2017 21:37:22 -0400,Tue, 19 Sep 2017 10:37:22 +0900
+b93975f7940185c5a7567a0f11adb8189fe1af92,Fix Travis CI build (dist: trusty) (#670),Sun, 10 Sep 2017 03:38:38 +0900,Sun, 10 Sep 2017 03:38:38 +0900
+88cc9d78687dd309389819f85b39368a4fd745c8,Create LICENSE,Mon, 10 Jul 2017 13:21:14 +0900,Mon, 10 Jul 2017 13:21:14 +0900
+cd39fa61332c4324d733a3bf0847cbb4dbba2a17,Hard-wrap installation instructions for Windows (#649),Fri, 30 Jun 2017 10:26:04 -0500,Sat, 1 Jul 2017 00:26:04 +0900
+449b4f1ed6084f81a1d0c2c1136cd242ec938625,Disallow using standard Vim plugin directory as plug home,Tue, 27 Jun 2017 17:44:12 +0900,Tue, 27 Jun 2017 17:44:12 +0900
+802b10041597e1e30204de26b9d75801ddffd067,Extend plug#load to process a list of names instead of varargs,Tue, 6 Jun 2017 16:17:30 +0900,Tue, 6 Jun 2017 16:17:31 +0900
+06992bcfb96835535d27c28c06f5d0387f681957,Update installation instruction for Neovim on Windows (#634),Fri, 19 May 2017 03:17:46 +0900,Fri, 19 May 2017 03:17:46 +0900
+f7e6a86807a1f0be7257620a8c425e1a32f877bb,Deprecate implicit vim-scripts expansion,Mon, 1 May 2017 21:31:57 +0900,Mon, 1 May 2017 21:31:57 +0900
+61ffb616155f0282b19c24e0ace4060ffdbc1e70,Travis: VADER_OUTPUT_FILE=/dev/stderr for neovim (#618),Sun, 16 Apr 2017 19:47:15 +0200,Mon, 17 Apr 2017 02:47:15 +0900
+9dcab486286779ccbe7fd38403dd7b12aa304a85,Load plugins only once in plug#load (#616),Sun, 16 Apr 2017 19:46:02 +0200,Mon, 17 Apr 2017 02:46:02 +0900
+1d3c88292b109d56c18dd8b045af5585715096d2,Fix invalid diagnosis of PlugStatus with wildcard tags (#619),Fri, 14 Apr 2017 02:13:49 +0100,Fri, 14 Apr 2017 10:13:49 +0900
+580f0a559c88600ffe024b7a4f84494e85fdd354,nvim: Enable job-control nvim 0.2+ (#617),Wed, 12 Apr 2017 04:10:09 +0200,Wed, 12 Apr 2017 11:10:09 +0900
+46ae29985d9378391c3e1ec8a50d8229afeea084,Proper escaping of tag patterns,Tue, 4 Apr 2017 17:45:37 +0900,Tue, 4 Apr 2017 17:45:37 +0900
+7f4e6cb843e59c4adf10de985dc35c5447133073,Fix crlf in clones under cygwin (#608),Sun, 12 Mar 2017 12:09:25 -0400,Mon, 13 Mar 2017 01:09:25 +0900
+769192d3d03555f09561b48870f3373c691d05f7,Append -- to git checkout commands,Sun, 26 Feb 2017 03:34:59 +0900,Sun, 26 Feb 2017 03:35:45 +0900
+e3252aae2c9fa6d5ab9bbd3dfe149f35573f4773,Commit hash in PlugDiff output can be longer than 7 characters,Fri, 17 Feb 2017 13:32:59 +0900,Fri, 17 Feb 2017 13:33:32 +0900
+f551a7168850c8cdb2ec5c0c7cdddf42a28f26ef,Add plugin to &rtp before running post-update hook with : prefix,Sat, 11 Feb 2017 23:27:52 +0900,Sat, 11 Feb 2017 23:27:52 +0900
+e80a93d5d0c0849dcde8407b75fcb2462fd17ff7,Fix Ruby installer on macOS system Vim,Sat, 11 Feb 2017 11:17:06 +0900,Sat, 11 Feb 2017 11:17:47 +0900
+d1ac3cdd1ffba7dad00d0bcace11aaf4191d0059,Do not use nomodeline when triggering BufRead,Fri, 3 Feb 2017 13:27:10 +0900,Fri, 3 Feb 2017 13:29:05 +0900
+359a65230e5855e5130c94ad104fea98e2aa64f7,Fix job_start with spaces in path in Windows (#588),Tue, 31 Jan 2017 15:19:48 +0300,Tue, 31 Jan 2017 21:19:48 +0900
+5e6bd469aca5496fafcf1a3a060cf47c9ac80823,Update README,Mon, 30 Jan 2017 02:20:36 +0900,Mon, 30 Jan 2017 02:20:36 +0900
+8c1aff151dc2b9518c95550d13216f02e119d852,Update README,Mon, 30 Jan 2017 02:19:53 +0900,Mon, 30 Jan 2017 02:19:53 +0900
+d6bda025f1bfd1ca9b06f2dfb3772982dff1fa17,Fix Vim 8 installer on Windows when path contains spaces,Sun, 29 Jan 2017 18:23:05 +0900,Sun, 29 Jan 2017 18:23:05 +0900
+5fc9eab788608fb4adcb07a8d79354dcafefaa6a,Add --sync flag to Plug{Install,Update},Wed, 4 Jan 2017 01:57:09 +0900,Wed, 4 Jan 2017 02:00:00 +0900
+93ffcb36de515de96014dca7188cae359ef7dd31,Commit preview should work with non-POSIX-compliant &shell,Mon, 2 Jan 2017 13:06:34 +0900,Mon, 2 Jan 2017 13:06:51 +0900
+d5e9f91c7baae9f17a68c093500d51e478cf7f50,Travis CI: sudo: false (#561),Sun, 1 Jan 2017 04:08:09 +0100,Sun, 1 Jan 2017 12:08:09 +0900
+0b1343b582047930b928383b75eb28c1a38c15dc,test/run: shellcheck fixes (#562),Fri, 30 Dec 2016 03:29:00 +0100,Fri, 30 Dec 2016 11:29:00 +0900
+f916aabfbef2cc0517b88c49ccaab7293027d746,Update documentation,Mon, 19 Dec 2016 01:58:15 +0900,Mon, 19 Dec 2016 01:59:24 +0900
+b50f9bb16b9832235beb60ed290393a5d03a4bf5,More description on `plug#end`,Sun, 18 Dec 2016 12:12:57 +0900,Sun, 18 Dec 2016 12:12:57 +0900
+8180692f81132d9c7de1130ae1f13fb7c64ff18f,Update usage examples,Sun, 18 Dec 2016 12:05:13 +0900,Sun, 18 Dec 2016 12:06:19 +0900
+a4aac4cf567bb060356694991064f687f8758a81,Do not check Ruby interface when parallel update is not needed,Tue, 13 Dec 2016 12:13:54 +0900,Tue, 13 Dec 2016 12:26:13 +0900
+5bccd9bc987a2459b3128ccd28d24e9697069e13,Neovim: use "dict" when referring to "self" (#566),Tue, 13 Dec 2016 04:25:46 +0100,Tue, 13 Dec 2016 12:25:46 +0900
+1540764563f9b69841d3211866bea7f74e9269a4,git_validate: better error with checkout being ahead/diverged (#546),Sun, 11 Dec 2016 13:43:44 +0100,Sun, 11 Dec 2016 21:43:44 +0900
+b9022d9046ca4bc2fcff2554e560653029d160bc,test/workflow.vader: minor Assert improvement (#563),Sun, 11 Dec 2016 13:25:33 +0100,Sun, 11 Dec 2016 21:25:33 +0900
+c53ecd3acd046ad83e7d5b2b3c20b73a4b7dfdeb,Update installation instruction for Neovim,Sat, 10 Dec 2016 18:25:21 +0900,Sat, 10 Dec 2016 18:25:21 +0900
+ca0b726f46e5495274de239424af70dfaab8ab73,Merge pull request #558 from HiPhish/nospell,Sun, 4 Dec 2016 01:03:05 +0900,Sun, 4 Dec 2016 01:03:05 +0900
+942f9948446412600176ea0b4c3f623088853725,Do not check spelling in vim-plug buffers,Sat, 3 Dec 2016 12:30:51 +0100,Sat, 3 Dec 2016 12:30:51 +0100
+6ad18f5fb866f8ceaa3dd3d2e1e50077852d9a06,Ignore trailing ! in proxy command name,Sat, 26 Nov 2016 12:22:55 +0900,Sat, 26 Nov 2016 12:22:55 +0900
+46ddb4af2d01b98b9411556d2aa72831b49ba5cb,Set the default completion type of proxy command to "file",Thu, 10 Nov 2016 12:03:37 +0900,Thu, 10 Nov 2016 12:03:37 +0900
+54683aa2c703b6e14d0f550dcf2c33b6451a8004,Merge pull request #552 from midchildan/fix-git-version,Fri, 4 Nov 2016 00:38:09 +0900,Fri, 4 Nov 2016 00:38:09 +0900
+8f38888fade778a72091f1c89f094dcd67c4bac9,Fix git version detection.,Thu, 3 Nov 2016 22:38:45 +0900,Thu, 3 Nov 2016 22:38:45 +0900
+abbbe914f0df12e757e8215bdab9fc278778ef2a,Remove unnecessary operations,Sat, 29 Oct 2016 04:46:33 +0900,Sat, 29 Oct 2016 04:46:58 +0900
+1f4e3eb0637de699e1aa1b35a8a268ab36cdd0d6,No need for `filetype off` unless `g:did_load_filetypes` exists,Fri, 28 Oct 2016 00:11:45 +0900,Fri, 28 Oct 2016 00:13:12 +0900
+2fa2761b99f8acd1dc2708f8ede2528508eee25d,Merge pull request #545 from srstevenson/set-nolist,Thu, 27 Oct 2016 12:48:26 +0900,Thu, 27 Oct 2016 12:48:26 +0900
+078f32142d5cff7553a89f8df428a70def4ce077,Set nolist in vim-plug buffers,Wed, 26 Oct 2016 22:30:41 +0100,Wed, 26 Oct 2016 22:30:41 +0100
+49c6b781e09dbfd2844b10f2a1ee43f7eb2af142,Do not prepend COUNT"REGISTER when feeding keys in insert mode,Tue, 25 Oct 2016 23:12:05 +0900,Tue, 25 Oct 2016 23:12:05 +0900
+f4427b97f1a349b35c1216a5b191de040adf5a80,Merge pull request #541 from junegunn/vim8,Wed, 19 Oct 2016 08:10:20 +0900,Wed, 19 Oct 2016 08:10:20 +0900
+6287ba88d5e411db2a104a96efc2dde6928ae2a6,Fix installer output,Tue, 18 Oct 2016 13:14:43 +0900,Tue, 18 Oct 2016 14:30:48 +0900
+1bbb7a55e349f8634078b20aa1875fe5f52ea56e,Update Vim 8 requirement,Tue, 18 Oct 2016 00:32:27 +0900,Tue, 18 Oct 2016 00:32:27 +0900
+d1022e948e19b0cb8f4db7ae48b736044074225f,Address out-of-order invocation of out_cb and exit_cb,Tue, 18 Oct 2016 00:31:36 +0900,Tue, 18 Oct 2016 00:31:36 +0900
+b94607b172334ef61b89c4c6cd64dea00da17c26,Update README: +job,Mon, 17 Oct 2016 18:00:20 +0900,Mon, 17 Oct 2016 18:00:20 +0900
+6bff19c2a935af0f472ce8d33f7a2f7eed6fa2e1,Set out_mode to raw for progress report,Mon, 17 Oct 2016 17:52:13 +0900,Mon, 17 Oct 2016 17:52:13 +0900
+759103d074cb7bfd8a42d43e847805a313179c25,Refactor job callbacks with partial,Mon, 17 Oct 2016 17:51:42 +0900,Mon, 17 Oct 2016 17:51:42 +0900
+b32169ff30eb7375453ab35eb23a14dc4e7ddd6a,Use job_start on vim,Thu, 13 Oct 2016 13:17:17 +0900,Mon, 17 Oct 2016 16:16:03 +0900
+3f7344d2cc55797294c95378b489a96401e54696,Set up Travis CI build for Neovim,Mon, 17 Oct 2016 10:23:43 +0900,Mon, 17 Oct 2016 15:34:20 +0900
+7928057108150056524de980a5c3c63032215494,Make Neovim installer synchronous during startup,Mon, 17 Oct 2016 12:34:09 +0900,Mon, 17 Oct 2016 12:34:09 +0900
+c66e264d4178938d704c3af8bd81e2d6ef4a9221,Fix Ruby installer on Vim 8.0.0036 (#538),Mon, 17 Oct 2016 12:22:20 +0900,Mon, 17 Oct 2016 12:22:20 +0900
+01e4e9170adc820b67c337cb9b7d84ab94ac080d,Update git URI validation in Ruby and Python installers,Fri, 14 Oct 2016 13:44:18 +0900,Fri, 14 Oct 2016 13:44:56 +0900
+0662b5f4ccfedb7c963f589a0c31a5e69a9d1a0e,Fix Travis CI failure,Sun, 9 Oct 2016 05:07:39 +0900,Sun, 9 Oct 2016 05:17:34 +0900
+a2f1ea481da9e5adb572de5faf7d27567dbed34e,Reuse existing plug window,Sun, 9 Oct 2016 04:29:39 +0900,Sun, 9 Oct 2016 04:48:53 +0900
+7bad3e7802eec66e924b03d83098e5a61e9873a9,Merge pull request #531 from junegunn/fix-530,Sat, 8 Oct 2016 23:48:52 +0900,Sat, 8 Oct 2016 23:48:52 +0900
+6575bd65b1b6bc780e1d2913cfdbcf75d7f7b64d,Improve git URI validation,Sat, 8 Oct 2016 23:32:48 +0900,Sat, 8 Oct 2016 23:32:48 +0900
+5d8c4bfc1fa9dc68661b5330096b3fc9cf15c623,Print exception from post-update hook with : prefix,Sat, 8 Oct 2016 23:13:36 +0900,Sat, 8 Oct 2016 23:22:06 +0900
+c0a83826f934cad3fff47739f83c97175853595e,Print warning message when plug window is closed,Sat, 8 Oct 2016 23:06:24 +0900,Sat, 8 Oct 2016 23:06:24 +0900
+645415884669c81b2ebbcb2d341081956cc8222b,Merge pull request #522 from jmatth/fix-visualhostkey,Fri, 16 Sep 2016 14:12:41 +0900,Fri, 16 Sep 2016 14:12:41 +0900
+1f206db9657969b3ff31d27feffd5394df8f20c6,Fixing E684 when VisualHostKey is enabled for ssh,Wed, 14 Sep 2016 14:09:16 -0400,Thu, 15 Sep 2016 16:35:11 -0400
+f4381fb748fb3ba294efbdf5de416791048fddc3,Fix loading on c-operator,Sun, 11 Sep 2016 12:04:08 +0900,Sun, 11 Sep 2016 12:04:08 +0900
+561518fd8cfefb06729983cc8a8fe095dca076e1,Print post-processing error in multi-line paragraph,Mon, 15 Aug 2016 00:46:10 +0900,Mon, 15 Aug 2016 00:46:10 +0900
+b44ea685aa2899316e58cba646095fa7551f8808,Merge pull request #508 from mhinz/silence-deletions,Mon, 1 Aug 2016 09:52:29 +0900,Mon, 1 Aug 2016 09:52:29 +0900
+9df0580eff1713511db300f10802bd197d688d11,Silence :delete commands,Sun, 31 Jul 2016 15:57:54 +0200,Sun, 31 Jul 2016 22:50:50 +0200
+e15598fe4567e4cdbcbc4aea2d8b0d0f75a7254f,Add g:plug_pwindow for customizing preview window layout,Sat, 23 Jul 2016 18:36:30 +0900,Sat, 23 Jul 2016 18:36:30 +0900
+326cb71a2aa714ec15364ecba149bd93c3b868c7,No period in echo message,Sat, 23 Jul 2016 18:07:12 +0900,Sat, 23 Jul 2016 18:07:12 +0900
+c9a7ca1e9e2f4b374de3f16e9c26c90afcdcfcfe,Define d operator for selectively removing invalid directories,Sat, 23 Jul 2016 10:02:35 +0900,Sat, 23 Jul 2016 18:02:00 +0900
+5695fb84743ace811c03a5cd39ca7a825fa9caf7,Do not proceed if $GIT_DIR or $GIT_WORK_TREE is found,Sat, 23 Jul 2016 10:13:25 +0900,Sat, 23 Jul 2016 10:13:25 +0900
+f68a4fddaef77c9eae7dbc8a23d8c5f7376cbf09,Update example: youcompleteme#Enable is no longer needed,Fri, 15 Jul 2016 12:18:21 +0900,Fri, 15 Jul 2016 12:18:21 +0900
+17996cedceaab2eb98bd39a666f472e547930c54,Support { 'do': ':VimCommand' } notation,Wed, 13 Jul 2016 23:01:41 +0900,Wed, 13 Jul 2016 23:01:41 +0900
+460fbe82e07d0313543180eab9da9e257d0b1ab5,Ignore inconsistencies between g:plugs and g:plugs_order,Sun, 19 Jun 2016 11:18:08 +0900,Sun, 19 Jun 2016 11:18:20 +0900
+05a1620bb19d94e25dd2ea8d6a09ecfac2468c13,Put cursor inside the installer window after post-update hook,Thu, 16 Jun 2016 22:17:03 +0900,Thu, 16 Jun 2016 22:17:21 +0900
+cb5bed0e35916678da01e81a8ac842221a8796e3,Always set register in map-based ODL,Tue, 31 May 2016 15:27:27 +0900,Tue, 31 May 2016 15:27:27 +0900
+44893a1901c29e68faadc66f69ddbe0eaff9f65c,Fix #491 - Lazy-loading with omaps,Tue, 31 May 2016 12:44:48 +0900,Tue, 31 May 2016 12:44:48 +0900
+765a2d21d3e32249133d0c813eb63055478e2fd1,Do not trigger BufRead if not necessary,Mon, 23 May 2016 22:22:43 +0900,Mon, 23 May 2016 22:22:43 +0900
+eb25f320a09d20f4bfdbfb83ad08ced32d2ad808,Fix travis CI build,Mon, 23 May 2016 13:15:57 +0900,Mon, 23 May 2016 13:15:57 +0900
+7c7ef8cf2f59fb95fd85ce5ff939e360e68c387d,Trigger BufRead when a plugin is loaded by `on` condition,Mon, 23 May 2016 13:10:44 +0900,Mon, 23 May 2016 13:11:06 +0900
+a8b09617f9b5056f996504f78d6141d0a9e401de,Clarify that function call requires `call`,Mon, 23 May 2016 01:12:09 +0900,Mon, 23 May 2016 01:12:09 +0900
+bf1e0fb8ebcb0eec684d8e82e235173ca6d0794e,Do not use Ruby older than 1.8.7,Fri, 13 May 2016 02:06:00 +0900,Fri, 13 May 2016 02:06:00 +0900
+656ccef8dc2e2494beb3184a7ca301a483fe32f7,Switch &shell during submodule update,Fri, 29 Apr 2016 13:38:28 +0900,Fri, 29 Apr 2016 13:39:17 +0900
+41de3c713c0b82700bfcb50a45e9d7756a2cce96,Export Plug command as plug# function,Fri, 22 Apr 2016 02:26:11 +0900,Fri, 22 Apr 2016 02:50:04 +0900
+0507fc897e3d4d95604e9d4298045eb6750d8ae0,Merge pull request #476 from junegunn/tag-wildcard,Sun, 17 Apr 2016 18:40:31 +0900,Sun, 17 Apr 2016 18:40:31 +0900
+e6ea538558b6481d6dc7360c2a10a8d07c4c9bb7,Support wildcards in tag option,Sun, 17 Apr 2016 05:47:30 +0900,Sun, 17 Apr 2016 15:32:34 +0900
+3de4567bc05109d4d3e43e677eb94fe8730350d5,Fix error in test script,Sun, 17 Apr 2016 01:45:51 +0900,Sun, 17 Apr 2016 01:45:51 +0900
+0d9efb01c71ab1cbc4c835f6bf16de03d2e8283b,Fix #474 - Load ftdetect files in filetypedetect augroup,Sun, 17 Apr 2016 01:13:13 +0900,Sun, 17 Apr 2016 01:13:13 +0900
+92bcecddd69b5af8e681daab17cd3b31f0a8dfe0,Revert "Use python2 for YCM post-installation",Thu, 14 Apr 2016 00:43:10 +0900,Thu, 14 Apr 2016 00:43:10 +0900
+d1752e7d14a125af85a2c244d9229903d7f98398,Merge pull request #467 from hobarrera/ycm-py2,Wed, 13 Apr 2016 02:00:40 +0900,Wed, 13 Apr 2016 02:00:40 +0900
+367e61b6b0a628f1b6c90cb6f8520e4312f96e4c,Use python2 for YCM post-installation,Tue, 12 Apr 2016 10:11:08 -0300,Tue, 12 Apr 2016 10:11:08 -0300
+612ee1d461a2a1522e0ee38cbb8c0e22ebd2a585,Update README: PlugInstall! and PlugUpdate!,Sun, 10 Apr 2016 21:21:27 +0900,Sun, 10 Apr 2016 21:27:35 +0900
+c6ed41f47e264a2033f4d22dc1229d596d0c40a2,Detect plugins that are diverged their origins,Sun, 10 Apr 2016 20:33:37 +0900,Sun, 10 Apr 2016 20:33:37 +0900
+0f3bd51d4478e12380fe83186e21439af91c3b20,Minor refactoring,Sun, 10 Apr 2016 20:24:09 +0900,Sun, 10 Apr 2016 20:24:09 +0900
+3595d5b52aee7cbc960a27beccc80c0c2b69250c,Add comments to test file,Sun, 10 Apr 2016 20:21:41 +0900,Sun, 10 Apr 2016 20:21:41 +0900
+10008e584347316fb8f9e5e58142ff406dadf821,Do not patch plug.vim during test,Sun, 10 Apr 2016 19:55:10 +0900,Sun, 10 Apr 2016 19:55:10 +0900
+d1351201d977a1d5e5c0f5c5181d435cda3322dc,Merge pull request #463 from yous/force-submodule,Mon, 4 Apr 2016 15:40:14 +0900,Mon, 4 Apr 2016 15:40:14 +0900
+a61d097037063fa2c9ae395e0196b3e104c390da,Make Plug{Install,Update}! trigger post-fetch checkout, submodule update,Sun, 3 Apr 2016 10:52:30 +0900,Mon, 4 Apr 2016 14:05:35 +0900
+158fd28bc47c31328c80d023e2f055d247dfbea6,Fall back to Python installer if Ruby is broken,Fri, 1 Apr 2016 00:00:02 +0900,Fri, 1 Apr 2016 00:03:45 +0900
+76e9076ef487df8fe2154d438d5795fe98149b56,Clear message on retry,Thu, 31 Mar 2016 23:06:11 +0900,Thu, 31 Mar 2016 23:06:11 +0900
+36973defbd7d213300ce6cc268d368027f17af3c,Fix #455 - git config should read local .git/config instead of $GIT_CONFIG,Wed, 30 Mar 2016 13:24:30 +0900,Wed, 30 Mar 2016 13:25:13 +0900
+82ac9d90755ed50ba24b788032a5dec4441dda4e,Use <nomodeline> on User autocmd if possible,Tue, 29 Mar 2016 23:00:59 +0900,Tue, 29 Mar 2016 23:02:26 +0900
+bdc5c8d3ccf9cf9dc6ae7ba90d8e7b38e58f447c,Merge pull request #451 from simonweil/reset-colors-for-show,Sat, 26 Mar 2016 02:46:06 +0900,Sat, 26 Mar 2016 02:46:06 +0900
+c1f9d7cdb4998da8dc2d9beb1223aac0933596b6,Reset colors for git show,Fri, 25 Mar 2016 15:07:14 +0300,Fri, 25 Mar 2016 15:07:14 +0300
+f666048052fa71746161cf7eb780698804bf13b2,Update submodules whenever the repo is updated,Thu, 24 Mar 2016 16:17:05 +0900,Thu, 24 Mar 2016 16:17:05 +0900
+db223a4d84291c3d51b981d4ebc2bb70a3a1cf6e,Merge pull request #430 from junegunn/refactor-installer,Thu, 24 Mar 2016 01:26:49 +0900,Thu, 24 Mar 2016 01:26:49 +0900
+eb47183af2374f278b776f369c8cecb3c9441f49,Refactor duplicate logic in installers,Thu, 24 Mar 2016 01:06:46 +0900,Thu, 24 Mar 2016 01:06:46 +0900
+e4ddb89c20843bfdafd9ad5b4727f939a55b845e,Fix regular expressions for hex digits,Tue, 22 Mar 2016 12:53:05 +0900,Tue, 22 Mar 2016 12:53:05 +0900
+a4e2c064f0d81c5527659c61b0e79a49fa667780,Update README.md,Thu, 17 Mar 2016 16:15:45 +0900,Thu, 17 Mar 2016 16:15:45 +0900
+820cc6356962927a73193daaafda6484ca461e4a,Remove redundant checks of git --version in Neovim installer,Sat, 12 Mar 2016 12:34:57 +0900,Sat, 12 Mar 2016 12:34:57 +0900
+c463c9fe835b95aedf3c3d0582756b852ea77f25,Clarify that the installation script for Windows requires PowerShell,Sun, 6 Mar 2016 14:16:40 +0900,Sun, 6 Mar 2016 14:16:56 +0900
+7218143147280ea1a08869697b924c64008a9615,Do not proceed if getcwd() returns an empty string,Sun, 6 Mar 2016 11:03:33 +0900,Sun, 6 Mar 2016 11:03:33 +0900
+c3d57ac6b5fddccd93ada0b3453568621fdb0c36,Avoid unnecessary runtime command (#434),Thu, 3 Mar 2016 13:03:47 +0900,Thu, 3 Mar 2016 13:03:47 +0900
+16902f90034053243e3fda3c59f1d86ca7fdc4a5,Use runtime only when the file is not found in the plugin directory (#434),Thu, 3 Mar 2016 10:53:34 +0900,Thu, 3 Mar 2016 10:53:34 +0900
+b082ae384778cc83cfffcb2658dbd0611fc05b4c,Fix #434 - Use runtime to load syntax file during ft-based ODL,Thu, 3 Mar 2016 10:41:04 +0900,Thu, 3 Mar 2016 10:43:41 +0900
+6246ad284c2fbe9e9adc1be3268b22ae327b1c54,Strip trailing whitespaces in PlugDiff output,Thu, 3 Mar 2016 02:14:44 +0900,Thu, 3 Mar 2016 02:14:57 +0900
+c06d222480df58f1e5c583bfffd8a6ed8f64fa39,Merge pull request #428 from junegunn/diff-graph,Thu, 3 Mar 2016 01:40:59 +0900,Thu, 3 Mar 2016 01:40:59 +0900
+b0f714e812bfbd6b9d0f56e261342cf041f92fe4,PlugDiff to include graphical representation of commit history,Sat, 27 Feb 2016 13:02:58 +0900,Sat, 27 Feb 2016 13:02:58 +0900
+31b26aa2662e7c1d938d2905666b5244a0a8221a,Merge pull request #420 from starcraftman/issue_template,Wed, 24 Feb 2016 19:29:12 -0500,Wed, 24 Feb 2016 19:29:12 -0500
+d96e30369206154626bfd5c0bf1150aebe812df5,Fix #416: Add an issue and PR template.,Sat, 20 Feb 2016 17:02:56 -0500,Wed, 24 Feb 2016 19:11:18 -0500
+a88753ef4ed687df803cca9934eb8bb0ae456b30,Merge pull request #419 from itspriddle/bugfix/syntax-with-cli-command,Sun, 21 Feb 2016 11:32:55 +0900,Sun, 21 Feb 2016 11:32:55 +0900
+396c60f24c68339405cffa2ac8a42f076a7ea555,Avoid multiple `syntax enable` during Vim startup,Sat, 20 Feb 2016 21:00:06 -0500,Sat, 20 Feb 2016 21:00:06 -0500
+ffd54224a0742c5b6e03cc9f51789de5c5de16a7,Fix #410 - Do not load irrelevant syntax files,Thu, 18 Feb 2016 01:34:04 +0900,Thu, 18 Feb 2016 01:34:04 +0900
+8d4c341a0a25e5eeb3f8c47493848dcff0df4bda,Rename script-local function to generate better error message,Sat, 13 Feb 2016 12:44:52 +0900,Sat, 13 Feb 2016 12:44:52 +0900
+3e712f393624b3ea098110d51ec41c17a55edb29,Merge pull request #399 from starcraftman/doc_fix,Wed, 3 Feb 2016 03:57:26 +0900,Wed, 3 Feb 2016 03:57:26 +0900
+88e2fa380c9430aadaf9d9024d22520612465225,Fix #397: clarify in docs that GitHub is the default plugin source,Mon, 1 Feb 2016 13:55:22 -0500,Tue, 2 Feb 2016 08:40:11 -0500
+03590d842255e9c59406426b3e982120212aba42,Merge pull request #395 from starcraftman/small_fixes,Sat, 30 Jan 2016 05:46:33 +0900,Sat, 30 Jan 2016 05:46:33 +0900
+d5a5697dc0f71dbe088b59791703cc9169e56449,Fix #394: Avoid problem happening.,Fri, 29 Jan 2016 14:11:12 -0500,Fri, 29 Jan 2016 15:20:22 -0500
+799e20a6821620fd4691d90f1c3f6bbdebee9458,Better error message when git executable is not found,Thu, 28 Jan 2016 13:35:50 +0900,Thu, 28 Jan 2016 13:35:50 +0900
+c88ab600076887f33859221e831f136103d1fc5f,Merge pull request #387 from junegunn/as,Tue, 26 Jan 2016 03:39:21 +0900,Tue, 26 Jan 2016 03:39:21 +0900
+7d494b4a7bb41fb57545e3e70a9e490304516436,Add 'as' option (#371),Tue, 26 Jan 2016 03:01:20 +0900,Tue, 26 Jan 2016 03:01:20 +0900
+676174c34ddb92d0fc0419a25d549c87a1799407,Merge pull request #386 from srstevenson/conditional-syntax-highlighting,Mon, 25 Jan 2016 13:14:03 +0900,Mon, 25 Jan 2016 13:14:03 +0900
+6f60192d71b3b37ee803f978392b52175697a2a5,Only highlight vim-plug buffers if syntax enabled,Sun, 24 Jan 2016 21:33:51 +0000,Sun, 24 Jan 2016 21:40:24 +0000
+7e7dec9252026d8cfbad76809bf248c78ea3a207,Merge pull request #381 from starcraftman/powershell_path,Mon, 18 Jan 2016 10:24:43 -0500,Mon, 18 Jan 2016 10:24:43 -0500
+13234b402908c4940b203c7a000ad23521053ae1,Fix powershell command.,Mon, 18 Jan 2016 10:19:06 -0500,Mon, 18 Jan 2016 10:19:06 -0500
+03504f26b1f5f7d17e21fbf4bee27a45172d8348,Update README - description on plug#end(),Thu, 14 Jan 2016 13:15:47 +0900,Thu, 14 Jan 2016 13:16:05 +0900
+46dda37494ff3b214be58fe2552ad223c6d5f13e,Merge pull request #376 from beatrupp/patch-3,Mon, 11 Jan 2016 03:09:07 +0900,Mon, 11 Jan 2016 03:09:07 +0900
+fa2569dc8467df386bf5ad3d341b2d45c568356a,Add hint for Neovim configuration path,Sun, 10 Jan 2016 19:05:23 +0100,Sun, 10 Jan 2016 19:05:23 +0100
+fe0ff38cd9539cc919717893f53485ef0c85d8ae,Update YCM instruction on README,Mon, 4 Jan 2016 02:06:50 +0900,Mon, 4 Jan 2016 02:06:50 +0900
+77413875dac6b4d147889d5a7c2e60a1929b5549,Amend comment section,Wed, 23 Dec 2015 13:17:34 +0900,Wed, 23 Dec 2015 13:17:34 +0900
+f695463daf3719dc066a64b28aab9ea4d793032b,Merge pull request #366 from junegunn/diff-origin,Wed, 23 Dec 2015 13:16:27 +0900,Wed, 23 Dec 2015 13:16:27 +0900
+e6f40479eec26fa2cf7551d1287dd2ee7097477e,PlugDiff to show pending updates as well,Tue, 22 Dec 2015 23:12:02 +0900,Wed, 23 Dec 2015 13:12:06 +0900
+6843e5aeec10c614586ab85805b10da52e0c8a4e,Merge pull request #361 from junegunn/snapshot-in-vimscript,Thu, 17 Dec 2015 23:34:37 +0900,Thu, 17 Dec 2015 23:34:37 +0900
+0cfa683cd0ce4c11500fe2449ba3fae029b7af84,PlugSnapshot output in Vim script format (#360),Wed, 16 Dec 2015 00:36:37 +0900,Thu, 17 Dec 2015 16:06:19 +0900
+e929534199b6be506355d29669367e34181adeb8,Fix #362 - Do not show future changes in PlugDiff,Wed, 16 Dec 2015 22:56:57 +0900,Wed, 16 Dec 2015 22:56:57 +0900
+52d7da392551a1cf173c42e665666ce724fb5258,Fix #355 - PlugSnapshot to create scripts that disable shallow-clone,Mon, 14 Dec 2015 23:16:50 +0900,Mon, 14 Dec 2015 23:16:50 +0900
+cd26cd562e09ae36f8df467dcdef8bbf80c966e8,Merge pull request #357 from starcraftman/win_cd,Sun, 13 Dec 2015 14:26:22 -0500,Sun, 13 Dec 2015 14:26:22 -0500
+24a71f9a919097dab863cc1a3fa442322ff5b2c7,Fix #353: Not Working On Windows,Sun, 13 Dec 2015 14:11:42 -0500,Sun, 13 Dec 2015 14:11:42 -0500
+b8366565564eabf9c94dd0cd558807b9333c7671,Merge pull request #354 from starcraftman/trail_slash,Sun, 13 Dec 2015 13:31:59 -0500,Sun, 13 Dec 2015 13:31:59 -0500
+7f598e5b58dbbc9151be2535d49bcc1b9698bb4e,Fix #353: Not Working On Windows,Sun, 13 Dec 2015 12:38:52 -0500,Sun, 13 Dec 2015 13:10:06 -0500
+87b426e3818d315f7e859c3f1bca39e18cce4996,Fix #350 - Tagged plugin should be unshallowed on update,Fri, 11 Dec 2015 23:11:21 +0900,Fri, 11 Dec 2015 23:11:21 +0900
+ba97f4458eae000143dc412a3c4479bb7777aec8,Merge pull request #342 from mattn/windows,Thu, 10 Dec 2015 01:04:05 +0900,Thu, 10 Dec 2015 01:04:05 +0900
+060c0e6d6ccbc895016b2634ec51817a8f3d8dc8,Enable multi-thread on windows,Thu, 3 Dec 2015 17:06:20 +0900,Thu, 10 Dec 2015 01:00:42 +0900
+80e5b3eab5b8d34413c04bb62b1a16b11d02fb1b,Merge pull request #345 from starcraftman/fix_msys,Sun, 6 Dec 2015 12:06:32 -0500,Sun, 6 Dec 2015 12:06:32 -0500
+aae282e4f029821305027c7f0e273edbbfaf8ca6,Fix msys2: prepend cd to commands,Sun, 6 Dec 2015 11:11:54 -0500,Sun, 6 Dec 2015 11:50:37 -0500
+7cdd4036def8e8684dbc0a71569ad0915a13c6b4,Fix nvim output format (#340),Sun, 6 Dec 2015 01:15:28 +0900,Sun, 6 Dec 2015 01:15:28 +0900
+173bfea4c556ee4bdd46ca3bb594484db97f3363,Merge pull request #337 from starcraftman/power_readme,Sun, 29 Nov 2015 15:59:58 -0500,Sun, 29 Nov 2015 15:59:58 -0500
+c233234bd98ffc2502ed8afd0e0fe72ab6f9f105,Ensure CWD isn't a factor for powershell command.,Sun, 29 Nov 2015 15:56:13 -0500,Sun, 29 Nov 2015 15:56:13 -0500
+84faabe4ccf76b74d8cd21b65f2de95d8ee17d5c,Bind q to :bd,Sun, 29 Nov 2015 22:08:25 +0900,Sun, 29 Nov 2015 22:12:55 +0900
+6173ecc2105bed2922e51ccaecb6d7e79fbb2601,Merge pull request #334 from starcraftman/update_travis,Sun, 29 Nov 2015 03:44:24 +0900,Sun, 29 Nov 2015 03:44:24 +0900
+dbd045e9959acdb9e6422249146848742ba9e12c,Migrate travis to use new docker system.,Sat, 28 Nov 2015 10:00:49 -0500,Sat, 28 Nov 2015 13:39:22 -0500
+0611369d0d3502b174ff3902c0c4dc1eabfdd031,Update installation instruction (#329),Sat, 28 Nov 2015 14:00:19 +0900,Sat, 28 Nov 2015 14:00:19 +0900
+d4783513634ad593a87709467d8426c21ad2d9c0,Merge pull request #329 from starcraftman/xanderdunn-patch-1,Thu, 26 Nov 2015 09:58:28 -0500,Thu, 26 Nov 2015 09:58:28 -0500
+8381041ac1d9ae9bf8852bc12cf50e46c9f9a8b7,Add install directions for using neovim,Mon, 23 Nov 2015 00:06:29 -0800,Thu, 26 Nov 2015 09:50:35 -0500
+93d9e434a207a81624141a93f797c382dc8ac27e,Merge pull request #324 from starcraftman/fix_freeze,Tue, 24 Nov 2015 18:47:56 -0500,Tue, 24 Nov 2015 18:47:56 -0500
+c3bcd9545984c3900ec1cbb80006db36425392b8,Fix #318: Freezes on PlugInstall,Tue, 24 Nov 2015 14:57:42 -0500,Tue, 24 Nov 2015 16:06:42 -0500
+f820fb9f0d487529faf818a3662f0cc6481eb177,Merge pull request #319 from starcraftman/timjk-patch-1,Fri, 20 Nov 2015 21:17:31 -0500,Fri, 20 Nov 2015 21:17:31 -0500
+072d28e86ec687f4b2b7e0bc62f6fb65bb2545f2,Add windows install instructions,Fri, 30 Oct 2015 15:43:05 +1300,Fri, 20 Nov 2015 21:03:34 -0500
+8fb0efe4e545cfa1a2d63144ccbb994a94c217fe,Merge pull request #316 from junegunn/commit-hash,Fri, 20 Nov 2015 15:54:36 +0900,Fri, 20 Nov 2015 15:54:36 +0900
+e11e045577ced6d61e30e0be3f43a086e2136376,Add support for commit hashes,Thu, 19 Nov 2015 03:23:59 +0900,Fri, 20 Nov 2015 03:38:58 +0900
+e00be1b4933a03b11e73bcf0cbd3e4251932d136,Enhance post-update hook output,Thu, 19 Nov 2015 01:21:58 +0900,Thu, 19 Nov 2015 01:23:35 +0900
+38e1e6335c144fe52eb908e63c6b2cad5a1006ab,Case-sensitive validation of on arguments (#314),Sun, 15 Nov 2015 22:43:25 +0900,Sun, 15 Nov 2015 22:43:25 +0900
+0c710f75f4058d395cab617fc1edaf50999e3b1e,Prepend [vim-plug] to error messages,Sun, 15 Nov 2015 22:41:30 +0900,Sun, 15 Nov 2015 22:41:30 +0900
+8292b3f31a9cf77cf6278758db560eeb37fbec10,Update usage examples,Sun, 8 Nov 2015 22:41:37 +0900,Sun, 8 Nov 2015 22:41:37 +0900
+26e4a77317926e170f1b422673c4ebfad83f0051,Merge pull request #307 from agauniyal/patch-1,Thu, 29 Oct 2015 01:39:48 +0900,Thu, 29 Oct 2015 01:39:48 +0900
+dd28fc7368b6165565f472ba6db56876b09a4c48,Add a non-master branch example,Wed, 28 Oct 2015 22:00:15 +0530,Wed, 28 Oct 2015 22:00:15 +0530
+fb8a5f92465f3925503e42e67b70a42dddbc936b,Post-update hook should not run in case of an error,Thu, 22 Oct 2015 13:23:35 +0900,Thu, 22 Oct 2015 13:23:35 +0900
+eb29cc9b47b45807157a8d9414f29f5113cebfa6,Merge pull request #285 from starcraftman/thrd_join,Mon, 21 Sep 2015 15:52:03 -0400,Mon, 21 Sep 2015 15:52:03 -0400
+a93bdfc17558c6f7a1cd5e14394e942dfed87a8e,Merge pull request #286 from zackhsi/master,Fri, 18 Sep 2015 15:57:20 -0400,Fri, 18 Sep 2015 15:57:20 -0400
+ded1ab756222e8a2e427db392c654bd48f2e05ed,Update YouCompleteMe install script,Fri, 18 Sep 2015 10:51:40 -0700,Fri, 18 Sep 2015 10:51:40 -0700
+91fe6ad3e9280ef9ca4c64d662f3dfd5baf73fb8,Join a thread instead of sleeping.,Thu, 17 Sep 2015 19:16:39 -0400,Fri, 18 Sep 2015 07:13:06 -0400
+86e75e5d0859b99d3b527a92e6489984ff2eb057,Merge pull request #283 from starcraftman/refactor_command,Sat, 12 Sep 2015 14:12:21 -0400,Sat, 12 Sep 2015 14:12:21 -0400
+7e1dc1bcc8909b3307d24a68d37e1f6e9d0de8f0,Refactor Python code & .travis.yml,Fri, 11 Sep 2015 08:57:51 -0400,Sat, 12 Sep 2015 14:04:34 -0400
+58d39115f9e384691d877513e32d62cb688ad408,Merge pull request #281 from starcraftman/fix_travis_build,Wed, 9 Sep 2015 09:23:17 -0400,Wed, 9 Sep 2015 09:23:17 -0400
+675b09dbfc06ba64e1bf63087cea9724229df75b,Fix #280: Travis Build - Vim Fails To Compile,Wed, 9 Sep 2015 06:48:22 -0400,Wed, 9 Sep 2015 09:17:15 -0400
+a190f4e843ded9d15fd6cb0aef0d98b771ea383e,Merge pull request #273 from starcraftman/fix_after_syntax,Wed, 26 Aug 2015 09:26:09 -0400,Wed, 26 Aug 2015 09:26:09 -0400
+27289deb5c52e253568baf111df11773dbb2fdd8,Fix #272 PlugUpdate and delayed loading,Wed, 26 Aug 2015 08:30:14 -0400,Wed, 26 Aug 2015 08:45:34 -0400
+a6f3a020e3cb2ce79f4f04d363307624ee9efa49,Merge pull request #264 from starcraftman/fix_codec,Fri, 31 Jul 2015 03:26:17 +0900,Fri, 31 Jul 2015 03:26:17 +0900
+4e5b5b978e8c5fafd357710d1ba01ea8221c4331,Close #262 UnicodeDecodeError,Thu, 30 Jul 2015 11:13:33 -0400,Thu, 30 Jul 2015 14:08:34 -0400
+2653f4bdfdedee8147970a7241d236502e3c6357,Make it clear that &runtimepath is updated on plug#end(),Wed, 22 Jul 2015 17:52:56 +0900,Wed, 22 Jul 2015 17:52:56 +0900
+69d6c9d54510cf3c22b8359be5534c6895f2d314,Need to set modifiable for reloading commit content (#255),Thu, 9 Jul 2015 01:25:35 +0900,Thu, 9 Jul 2015 01:25:35 +0900
+51cf219213fe1fb0d572d06379b957f2fcb642ad,Merge pull request #255 from sodapopcan/plug-diff-mappings,Thu, 9 Jul 2015 00:30:10 +0900,Thu, 9 Jul 2015 00:30:10 +0900
+6286337e5bf13428cfe4905e306b6abbbd92ee64,Make commit preview unmodifiable + map q for quit,Tue, 7 Jul 2015 14:53:38 -0400,Tue, 7 Jul 2015 14:53:38 -0400
+23b508e5fdf353feba611dc944ba97087d02adcc,Merge pull request #242 from starcraftman/rem_glog,Thu, 11 Jun 2015 01:51:56 +0900,Thu, 11 Jun 2015 01:51:56 +0900
+c34b35d50e9d268e7a33d94b3a24982b8a0e0f48,Remove GLog.,Tue, 9 Jun 2015 20:40:05 -0400,Tue, 9 Jun 2015 20:40:05 -0400
+240dc9cbb68f84b4a99736abc09a4c70d728f42e,Fix Travis CI build,Fri, 29 May 2015 01:07:31 +0900,Fri, 29 May 2015 01:07:31 +0900
+f85d4d774b8f30bd02ed4b401afdbde99376f87f,Test refactoring,Thu, 28 May 2015 19:03:49 +0900,Thu, 28 May 2015 19:03:49 +0900
+50cd5e5819b8c8f620b9c993316c565d64f25c8a,Remove unused test code,Thu, 28 May 2015 14:50:11 +0900,Thu, 28 May 2015 14:52:07 +0900
+099057da657cfa52ac3719776f2366482c21af2c,Merge branch 'hori-ryota-feature/fixed-bug-of-on-demand-loading',Thu, 28 May 2015 14:45:59 +0900,Thu, 28 May 2015 14:45:59 +0900
+8e0fcf88c0e39d0f1be04b5f688971534ef2bfa9,Merge branch 'feature/fixed-bug-of-on-demand-loading',Thu, 28 May 2015 14:45:30 +0900,Thu, 28 May 2015 14:45:30 +0900
+025f3141443ab6e7035aeea5a6dbafa054565fdd,Add failing test case for #236,Thu, 28 May 2015 12:50:41 +0900,Thu, 28 May 2015 14:45:14 +0900
+48fba1454b333dc460a1530c25a7ffacd90bc5af,Bugfix of on-demand loading,Thu, 28 May 2015 00:57:55 +0900,Thu, 28 May 2015 14:18:35 +0900
+2ed1f27aa272dabc381075b9cd58897b12f0d2bb,Explicitly reset s:-variables during test,Thu, 28 May 2015 12:34:43 +0900,Thu, 28 May 2015 12:34:43 +0900
+7760f1c22b1d8db3310217b3774c361659daca1f,Merge pull request #235 from starcraftman/simple_depends,Sun, 24 May 2015 11:41:22 +0900,Sun, 24 May 2015 11:41:22 +0900
+0bd23f5b47d27c679d9e55015ad8d5a9840bfa52,Inline dependency example.,Sat, 23 May 2015 10:02:41 -0400,Sat, 23 May 2015 19:50:38 -0400
+0227c78910ef92596b931f4c967b1fdd3a567b33,Merge pull request #233 from itspriddle/fix-diff-display,Wed, 20 May 2015 09:48:12 +0900,Wed, 20 May 2015 09:48:12 +0900
+8a72305371edbf2902b5666efc01ec68e27a34e8,Specify a format when `git show` displays a commit,Tue, 19 May 2015 13:45:03 -0400,Tue, 19 May 2015 14:00:31 -0400
+018b48e0713420fc403492d85287ee8886a23742,Merge pull request #232 from junegunn/user-autocmd,Wed, 20 May 2015 02:10:01 +0900,Wed, 20 May 2015 02:10:01 +0900
+7ace0c42db32961ff7285781b6ee5db141527962,Trigger User autocmd when plugin is loaded on demand (#231),Wed, 20 May 2015 01:37:14 +0900,Wed, 20 May 2015 01:38:05 +0900
+179fa7bb82e645f035b59f55cde2ef628e63283a,Check if autocmd defined before doautocmd,Wed, 20 May 2015 00:24:15 +0900,Wed, 20 May 2015 00:33:02 +0900
+76bce26ab8744f8e13942eddcbe72c90dd7f0411,Temporarily change shellredir (#159),Fri, 15 May 2015 22:18:07 +0900,Fri, 15 May 2015 22:18:07 +0900
+36e4364b8106e824b87e970d4d090ba279b86dc4,silent! redraw is simpler,Mon, 11 May 2015 12:36:55 +0900,Mon, 11 May 2015 12:36:55 +0900
+76ec64411495ad9cbe29f89e710c0f48482a9ada,Force evaluation of &statusline before running installer,Mon, 11 May 2015 12:35:48 +0900,Mon, 11 May 2015 12:35:48 +0900
+9e0a082a3dc19eacaba5a1075bad4b432de9faa8,Merge pull request #227 from starcraftman/starting,Thu, 7 May 2015 01:33:14 +0900,Thu, 7 May 2015 01:33:14 +0900
+9bee42ca0af74986fb37858fc66b1169af777f3e,Neovim Python Support,Tue, 7 Apr 2015 23:04:57 -0400,Wed, 6 May 2015 12:00:26 -0400
+18313fa43ec972f27839f307687c8a47528c4bff,Update README,Sun, 3 May 2015 22:10:32 +0900,Sun, 3 May 2015 22:10:32 +0900
+32eb4f5cbe9f98d4eee75b69bb4d28985ff811a5,Update README,Sat, 2 May 2015 23:50:58 +0900,Sat, 2 May 2015 23:55:55 +0900
+96824ccd144f406cbd772be3b6cce1011468d346,Merge pull request #219 from starcraftman/py3,Sat, 2 May 2015 23:47:36 +0900,Sat, 2 May 2015 23:47:36 +0900
+ef4549d2d1e0595087ed383751ce08069ef43a3f,Support Python 2.6+ & 3.0+,Thu, 9 Apr 2015 10:45:41 -0400,Sat, 2 May 2015 10:21:02 -0400
+d738da2ddb38944578cbd6d3d44852b89629fb5d,Merge pull request #221 from junegunn/shallow-clone,Thu, 30 Apr 2015 14:01:30 +0900,Thu, 30 Apr 2015 14:01:30 +0900
+d17d10dccb1c5aa68f67879c31c5fefb8130b1b8,Add test case where shallow-clone is disabled by tag,Thu, 30 Apr 2015 13:51:52 +0900,Thu, 30 Apr 2015 13:51:52 +0900
+6677e8bffd2e4e267beed13ecccf52210b3ddbc3,Add test case for g:plug_shallow,Wed, 29 Apr 2015 13:16:05 +0900,Wed, 29 Apr 2015 13:27:37 +0900
+80ca4ebf547d83ab476306e2c4b0dab45629b186,Shallow clone by default (#122 #217),Tue, 28 Apr 2015 14:12:00 +0900,Tue, 28 Apr 2015 22:54:35 +0900
+8f1df15cc34abc5356954178578a423f12c22c70,Revert "Shallow clone by default (#122 #217)",Tue, 28 Apr 2015 13:47:14 +0900,Tue, 28 Apr 2015 13:47:14 +0900
+2218b8fe207b26191d4fc17d62d9da2c0289c915,Merge pull request #218 from junegunn/shallow-clone,Tue, 28 Apr 2015 13:42:25 +0900,Tue, 28 Apr 2015 13:42:25 +0900
+c632c1fd6a02eb425eaf8282d5039ebe4a99fc54,Shallow clone by default (#122 #217),Sat, 25 Apr 2015 13:14:27 +0900,Mon, 27 Apr 2015 10:50:55 +0900
+42300e0c4db8414635e629ab6a62d860e20d2116,Merge pull request #211 from mhinz/accept-lowercase-plug,Sun, 12 Apr 2015 21:08:19 +0900,Sun, 12 Apr 2015 21:08:19 +0900
+13de76383d075a93b472a76c8b33bdb9a3c76905,Ignore case for "<Plug>",Sun, 12 Apr 2015 13:45:27 +0200,Sun, 12 Apr 2015 13:45:27 +0200
+481a400ba4c4842ab08d0d3c0bf49dae1423b0c0,Merge pull request #208 from starcraftman/travis_changes,Wed, 8 Apr 2015 20:56:44 +0900,Wed, 8 Apr 2015 20:56:44 +0900
+02710070a1f8e3ea6fdfd2cbe9ed2c3d7f4ee5ca,Testing changes.,Wed, 8 Apr 2015 07:16:03 -0400,Wed, 8 Apr 2015 07:22:46 -0400
+e04f93b1625fd949ea4e7942904c46718933b942,Improve check of Neovim Job API,Tue, 7 Apr 2015 22:28:13 +0900,Tue, 7 Apr 2015 22:28:13 +0900
+923f3fb3d5d0431c2aedec9b8f997fb72ef59c58,Print warning message on old Neovim (#206),Tue, 7 Apr 2015 22:18:36 +0900,Tue, 7 Apr 2015 22:20:34 +0900
+6a7efea26bdb1c43c61edc66d96b8149dd6d6854,Fix local plugin judgement on Windows (#205),Tue, 7 Apr 2015 04:06:59 +0900,Tue, 7 Apr 2015 04:06:59 +0900
+0e3e1cab75aaa36fc7cb2bdc60a63399dcf0b83e,Merge pull request #201 from junegunn/git-upgrade,Fri, 3 Apr 2015 01:26:24 +0900,Fri, 3 Apr 2015 01:26:24 +0900
+27354c826e1477fe0c465e01337a23f765c99e10,PlugUpgrade using git,Fri, 3 Apr 2015 00:43:56 +0900,Fri, 3 Apr 2015 00:47:18 +0900
+650927980db345a5c929c6c97e0b51959a2b16a8,Merge pull request #198 from starcraftman/new_job_api,Mon, 30 Mar 2015 11:40:21 +0900,Mon, 30 Mar 2015 11:40:21 +0900
+047fbba4cd19e21eb54144a1accae4fed9ebb8d9,New dict format.,Fri, 27 Mar 2015 13:00:48 -0400,Fri, 27 Mar 2015 13:03:46 -0400
+fa5ece81f7223c176404f85c3a7899cf54e88978,New neovim jobs API.,Sun, 22 Mar 2015 23:55:04 -0400,Thu, 26 Mar 2015 10:41:43 -0400
+e1b7f1ae8538cf63bf0ae515d2a9717ed49b533d,Update usage and license in plug.vim,Tue, 24 Mar 2015 00:00:12 +0900,Tue, 24 Mar 2015 00:00:35 +0900
+cf1f644aa83814561252a35bd5f078344c9283a9,Merge pull request #194 from starcraftman/master,Mon, 23 Mar 2015 09:15:59 +0900,Mon, 23 Mar 2015 09:15:59 +0900
+8da394248456035903af6e90aba9ad96c96dd5ff,Fix for #193 Missing status when PlugUpdate,Sun, 22 Mar 2015 15:41:41 -0400,Sun, 22 Mar 2015 15:49:53 -0400
+cbaf4f30881025d8243ad3c4ba99c1a885c46c03,Allow using Ruby/Python for PlugUpgrade on Windows (#192),Sun, 15 Mar 2015 13:04:47 +0900,Sun, 15 Mar 2015 13:04:47 +0900
+a06687b4edcf0e74d32aa5e8c2453b32da793c0a,Slim,Sun, 15 Mar 2015 03:13:24 +0900,Sun, 15 Mar 2015 03:13:24 +0900
+9abd50facdf4318e15454e271b87c12ddedd21d6,Change the default number of threads on Windows to 1 (#191),Sat, 14 Mar 2015 14:31:50 +0900,Sat, 14 Mar 2015 14:32:24 +0900
+b3226fbbf603145c7b464d0d3238dc5b1562a28a,Merge pull request #189 from starcraftman/master,Thu, 12 Mar 2015 23:06:56 +0900,Thu, 12 Mar 2015 23:06:56 +0900
+d0120cfb45c2f1462589305c26aeb5933d809069,Disable on cygwin for now.,Thu, 12 Mar 2015 09:57:12 -0400,Thu, 12 Mar 2015 09:57:12 -0400
+d9b70554e33726c1dbc2e6e81eedba06dd87b4f2,Merge pull request #187 from junegunn/python-2.6,Sun, 8 Mar 2015 02:40:28 +0900,Sun, 8 Mar 2015 02:40:28 +0900
+3c6ac68947b63adbb07b97f7c7d20aab78123a7a,Python 2.6 compatibility,Sun, 8 Mar 2015 02:00:06 +0900,Sun, 8 Mar 2015 02:00:06 +0900
+51dc024b2ea938d3e9aa79f1f69f69395a3830ed,Update README (markdown table),Fri, 27 Feb 2015 18:56:09 +0900,Fri, 27 Feb 2015 18:56:30 +0900
+30a2c5cc149a827b10a35bd5ead7f7bdc1bf2bd1,Remove uniq() function from test code,Wed, 25 Feb 2015 22:44:18 +0900,Wed, 25 Feb 2015 22:44:18 +0900
+a34b745a21226807b6fbcd546e5446fc16bbfa57,Fix #184 - Avoid duplicate entries in g:plugs_order,Wed, 25 Feb 2015 22:31:39 +0900,Wed, 25 Feb 2015 22:31:39 +0900
+c759170ce255ca6464af76f0d5923248ff4feb3d,Merge pull request #179 from starcraftman/master,Sun, 22 Feb 2015 22:36:18 +0900,Sun, 22 Feb 2015 22:36:18 +0900
+44410a32e3c86b67cfa412d38509bde8b148b680,Linking to wiki.,Sun, 22 Feb 2015 08:22:42 -0500,Sun, 22 Feb 2015 08:23:55 -0500
+5698a055c3a8e48fd08c11643831ead41eaab6e3,Minor refactoring,Sun, 22 Feb 2015 11:41:27 +0900,Sun, 22 Feb 2015 11:41:27 +0900
+59748b0680fc8be22c38bad7797037520596f57d,Fix error on windows when plug home contains spaces (#154),Sun, 22 Feb 2015 02:58:21 +0900,Sun, 22 Feb 2015 03:53:24 +0900
+95aa96a884b89ee282615016979e68a9bac163e0,Interpret the second argument to Plug command as tag option,Sat, 21 Feb 2015 12:26:11 +0900,Sat, 21 Feb 2015 12:26:11 +0900
+bb48508c3eb474ad2213f733104d1f33a7bbe5e5,Fix #177 - Check Python version >= 2.7,Sat, 21 Feb 2015 03:47:58 +0900,Sat, 21 Feb 2015 03:47:58 +0900
+8a525f165c2b36072bc5b11096f0d1fc6eaf103d,Merge pull request #165 from starcraftman/new_pr_branch,Thu, 19 Feb 2015 00:26:40 +0900,Thu, 19 Feb 2015 00:26:40 +0900
+e362fd5931a918975d1b9f0d32a56eba00569ad0,Python parallel plugin management.,Thu, 12 Feb 2015 11:59:50 -0500,Wed, 18 Feb 2015 10:07:35 -0500
+74169f37610aedef7d0ec1e2b26948d474d3f9a0,Merge pull request #175 from junegunn/tag-vs-branch,Wed, 18 Feb 2015 17:27:14 +0900,Wed, 18 Feb 2015 17:27:14 +0900
+7e4191baaf25e440970b71b4726be1a5d73760d8,Fix update of tagged plugins (#174),Wed, 18 Feb 2015 16:47:32 +0900,Wed, 18 Feb 2015 16:47:32 +0900
+753f7be798e81ec5cb29b84770f618e20aaf0fba,Extend Travis CI build to use vim-nox on Ubuntu 12.04,Wed, 18 Feb 2015 16:47:17 +0900,Wed, 18 Feb 2015 16:47:17 +0900
+c74fae9f8ecaae201bf43f7a326b75322e444228,Revert "Use :pgroup option when starting subprocesses",Tue, 17 Feb 2015 20:59:22 +0900,Tue, 17 Feb 2015 20:59:22 +0900
+fc200da975bd690412a4ac6d0c2f81e0fc1e7a58,Add `o` key binding for PlugDiff,Tue, 17 Feb 2015 14:09:07 +0900,Tue, 17 Feb 2015 14:09:07 +0900
+77f58a37931919c190aac2f162904e7ca23e48e3,Merge pull request #169 from junegunn/ruby-pgroup,Tue, 17 Feb 2015 11:52:46 +0900,Tue, 17 Feb 2015 11:52:46 +0900
+308fb9bc94770557b0974009756691bc57d03918,Use :pgroup option when starting subprocesses,Tue, 17 Feb 2015 11:43:39 +0900,Tue, 17 Feb 2015 11:43:39 +0900
+4a96db8971b86aeef25b360cde7aeb1ab5fceda7,Restore $GIT_TERMINAL_PROMPT in s:update_finish,Sun, 15 Feb 2015 21:24:33 +0900,Sun, 15 Feb 2015 21:24:33 +0900
+925ec7b325998ef2642f1899a425012e26878e21,Merge pull request #168 from junegunn/git-no-prompt,Sun, 15 Feb 2015 21:06:38 +0900,Sun, 15 Feb 2015 21:06:38 +0900
+7fec10e088dc25b6eb6604393c25eb3f32c1ac0c,Remove `git::@` from URI if git 2.3.0 or above is found,Sun, 15 Feb 2015 18:39:34 +0900,Sun, 15 Feb 2015 18:48:57 +0900
+54fc8a4fc7ac031b87a3835b1ee5b9f3617facf0,Add test case for unescaped spaces in &rtp,Sat, 14 Feb 2015 23:18:57 +0900,Sat, 14 Feb 2015 23:18:57 +0900
+9c1cca32f0d87daf5bdd525aecb968e254d60544,Do not escape spaces in &rtp,Sat, 14 Feb 2015 23:11:20 +0900,Sat, 14 Feb 2015 23:11:20 +0900
+f6be60a9a520c7d135620a767df71993a3975a99,Use v:version == 702 && has('patch374'),Fri, 13 Feb 2015 16:08:42 +0900,Fri, 13 Feb 2015 16:09:01 +0900
+e81e761d438bcebdd7953d3c38722cb6247cced1,Fix #166 - v:version >= 703 || has('patch-7.2.374'),Fri, 13 Feb 2015 14:20:16 +0900,Fri, 13 Feb 2015 14:20:16 +0900
+fb84e6b11c74a7870082a99f1c11528b46c59a07,Fix typo,Thu, 12 Feb 2015 11:38:48 +0900,Thu, 12 Feb 2015 11:38:48 +0900
+ef784c17b1b0ca233bafb1f84c0809582b919989,Fix #154 - issues with paths containing spaces,Thu, 12 Feb 2015 11:35:05 +0900,Thu, 12 Feb 2015 11:35:05 +0900
+7aeff0ef0d9b40957643c4d090046ec9cf7bac35,Disable Ruby installer when without patch-7.2.374 (#162),Tue, 10 Feb 2015 12:09:46 +0900,Tue, 10 Feb 2015 12:09:46 +0900
+773b3cadd095838e9a520d484ca773cd121b406d,Do not use --progress option on git 1.7.0 or below (#162),Tue, 10 Feb 2015 01:43:31 +0900,Tue, 10 Feb 2015 01:48:54 +0900
+71542dd896515a378f17972d9b60ee988f5bce76,Do not use --progress option when not necessary,Mon, 9 Feb 2015 12:12:50 +0900,Mon, 9 Feb 2015 12:12:50 +0900
+f825e4ef6e1939c960175ed09c85e6d0bbe21c6a,Ignore error when the buffer is not properly initialized (#162),Mon, 9 Feb 2015 12:09:27 +0900,Mon, 9 Feb 2015 12:09:27 +0900
+6e7509e2ef50df90432d176005a79bd4b4dd06f4,Update PlugClean for Gist plugins,Sun, 8 Feb 2015 14:47:19 +0900,Sun, 8 Feb 2015 14:47:19 +0900
+619e42a182a21478337b470370b1e47d570ef055,Merge pull request #160 from junegunn/fix-159,Sun, 8 Feb 2015 01:15:49 +0900,Sun, 8 Feb 2015 01:15:49 +0900
+48e8000b6aa0c486e4db26d10fa92d47a91de93e,Use /bin/sh instead of /bin/bash (PlugSnapshot),Sun, 8 Feb 2015 01:07:56 +0900,Sun, 8 Feb 2015 01:08:18 +0900
+79da5b2654c8148774eb8a07dd551a63f3eebe5d,Fix #159 by temporarily setting &shell to sh,Sat, 7 Feb 2015 13:36:45 +0900,Sat, 7 Feb 2015 13:36:45 +0900
+61f010ffad0ecab6d38e9b7e08664a6c4fa10391,Update README - `curl --create-dirs`,Sun, 1 Feb 2015 03:19:00 +0900,Sun, 1 Feb 2015 03:19:00 +0900
+4539bb8fb39bc3a33b97db2178944eada2b15f5d,Update README - Pros.,Sun, 1 Feb 2015 03:11:58 +0900,Sun, 1 Feb 2015 03:11:58 +0900
+7d40f592affad251f4c1436d467e8ceeb80f3a7c,Fix #155 - `cd /d` on Windows,Thu, 29 Jan 2015 19:08:03 +0900,Thu, 29 Jan 2015 19:08:03 +0900
+1c6151716428e95f1b3e8bd429e6ed0ddbb27c1f,Merge pull request #152 from michamos/patch-1,Mon, 26 Jan 2015 18:50:51 +0900,Mon, 26 Jan 2015 18:50:51 +0900
+061b326b372d8bde13e3ed8be11e2f3ab2fb2312,Clarify messages after 'PlugUpgrade',Mon, 26 Jan 2015 10:46:20 +0100,Mon, 26 Jan 2015 10:46:20 +0100
+166426718ef250de9d0f2725dd0063168d6ef014,Merge pull request #147 from Pyrohh/simplify-nvim-check,Sun, 18 Jan 2015 11:38:49 +0900,Sun, 18 Jan 2015 11:38:49 +0900
+b440603fa988e2ebcb609d2f61a5539dff4de0f4,Simplify neovim check,Sat, 17 Jan 2015 16:38:50 -0500,Sat, 17 Jan 2015 16:38:50 -0500
+04fc8f9abaff46decccd490aca798f3e2df50e42,Fix #145 - Merge duplicate on-demand loading triggers,Sat, 17 Jan 2015 17:20:37 +0900,Sat, 17 Jan 2015 17:20:37 +0900
+ebe8635043a068197b41d757db6b549c1e1caa87,Merge pull request #143 from junegunn/fix-139,Fri, 9 Jan 2015 09:53:36 +0900,Fri, 9 Jan 2015 09:53:36 +0900
+334e820c4e866a8926e72ebe124b894184a17184,Add more test cases for #139,Fri, 9 Jan 2015 00:56:52 +0900,Fri, 9 Jan 2015 00:56:52 +0900
+0e9fa672f824c178fa6778cd51a9b4c4b7482e2e,Fix #139 - Use git fetch+merge instead of pull,Thu, 8 Jan 2015 23:21:32 +0900,Thu, 8 Jan 2015 23:21:32 +0900
+fdf1e53da5cd09f5dd003708dad1933a62db82c4,Change test code to use local repositories,Wed, 7 Jan 2015 20:14:48 +0900,Wed, 7 Jan 2015 20:14:48 +0900
+470139cd86f5519bd78f075dce4e8971f996e1ad,Update README,Thu, 18 Dec 2014 23:53:32 +0900,Thu, 18 Dec 2014 23:53:32 +0900
+e8cd357060c3fa00c137ca1b3ca75a97015a914b,Fix test failure,Sat, 13 Dec 2014 11:51:37 +0900,Sat, 13 Dec 2014 11:51:37 +0900
+3606c294deeb9b6e47f9bd9eb7064ec33ed34e7f,Merge pull request #135 from threeifbywhiskey/confirmation-convention,Mon, 8 Dec 2014 23:58:05 +0900,Mon, 8 Dec 2014 23:58:05 +0900
+06f903d8af5f3d4aae7f6b852f18400dbc69b6eb,Downcase opt-in confirmation options,Mon, 8 Dec 2014 08:49:45 -0500,Mon, 8 Dec 2014 08:49:45 -0500
+1f704deb764cea14f03c20143385ebb0d47226e8,Merge branch 'master' of github.com:junegunn/vim-plug,Mon, 8 Dec 2014 17:37:46 +0900,Mon, 8 Dec 2014 17:37:46 +0900
+3ebf6361bf255f65760fab4ee343fa6a123c915a,Update README,Mon, 8 Dec 2014 17:35:41 +0900,Mon, 8 Dec 2014 17:37:26 +0900
+9b99c1f88551a9af8df7d5f562702d2a538de595,Merge pull request #134 from wilywampa/master,Mon, 8 Dec 2014 10:02:09 +0900,Mon, 8 Dec 2014 10:02:09 +0900
+53cc8a53d928e0c6ea577dfccf0da4d31855ee91,Check for full match of command name,Sun, 7 Dec 2014 13:19:09 -0700,Sun, 7 Dec 2014 13:19:09 -0700
+2ee153d610289ba242bdd12cfd370200ffa8d4ee,Define s:triggers by default to avoid error after upgrade (#132),Fri, 5 Dec 2014 12:05:57 +0900,Fri, 5 Dec 2014 12:05:57 +0900
+701917173726395c29ed038e9869bc32819f38ff,Fix #131 - Syntax error,Thu, 4 Dec 2014 15:12:00 +0900,Thu, 4 Dec 2014 15:13:37 +0900
+044c3a67c450bddb0021c93977b1782ab1aac690,Fix #130 - Proper cleanup of on-demand loading triggers,Thu, 4 Dec 2014 12:47:10 +0900,Thu, 4 Dec 2014 13:06:13 +0900
+48514768c299c76c6cadaf88e97ddf9bad579da5,Fix missing progress update (#127),Tue, 2 Dec 2014 02:48:25 +0900,Tue, 2 Dec 2014 02:48:25 +0900
+68ad02c5c3777764ef296c5b13ff35e4ca3e6d52,Display "Press 'D'" message only when existing plugins are updated,Mon, 24 Nov 2014 03:32:01 +0900,Mon, 24 Nov 2014 03:32:01 +0900
+12bc2ea1da58449c062d7a65772b745c47fabbdb,Fix some test code,Fri, 21 Nov 2014 01:06:17 +0900,Fri, 21 Nov 2014 01:06:17 +0900
+ade7fb95b18717787a0a0eca521df06e3577ea22,Fix failing test case,Sat, 8 Nov 2014 11:33:11 +0900,Sat, 8 Nov 2014 11:33:11 +0900
+9c55223869001a63459320567a7ed1f21a977a56,Merge pull request #118 from splinterofchaos/job_data-list,Sat, 8 Nov 2014 10:28:53 +0900,Sat, 8 Nov 2014 10:28:53 +0900
+495becf4423476e1559cfa0245ee1af01f5361b4,Update: job_data[2] is a list.,Mon, 27 Oct 2014 11:22:09 -0400,Wed, 29 Oct 2014 01:03:58 -0400
+425ef39db2d4a2b366b0588b7249d763ab53f857,Fix #114 - &rtp should not contain empty path,Wed, 22 Oct 2014 13:36:57 +0900,Wed, 22 Oct 2014 13:36:57 +0900
+bd2cb9d2de81c5058d8f02c0a24a1b11654e0ea4,Install frozen plugin if it's not found (#113),Wed, 22 Oct 2014 13:02:17 +0900,Wed, 22 Oct 2014 13:05:10 +0900
+0263370bd1e3932470b18092b71889e4c556e8ae,Fix #112: Do not suppress messages from ftplugin,Sun, 19 Oct 2014 14:45:19 +0900,Sun, 19 Oct 2014 14:45:19 +0900
+4b3fbd1592e72843021e0ae79adbfc5c902ddfa7,Workaround for PlugUpgrade error on Neovim (#111),Sat, 18 Oct 2014 11:25:38 +0900,Sat, 18 Oct 2014 11:26:05 +0900
+396a534a0a0afa7d6842ff0f85b143347376ac80,Update README,Fri, 10 Oct 2014 23:18:40 +0900,Fri, 10 Oct 2014 23:18:40 +0900
+a45c3834f8a3f672bfe6cbae43ff05fdf0393b0a,Merge pull request #103 from junegunn/neuevim,Fri, 10 Oct 2014 23:11:40 +0900,Fri, 10 Oct 2014 23:11:40 +0900
+a5c3952380415a0fcdaa6f41ebcc4d735f88eeee,Sort auto-completion candidates,Fri, 10 Oct 2014 17:36:54 +0900,Fri, 10 Oct 2014 17:36:54 +0900
+60bda7322f012a4ac5c1478b0eb3a15698b1037d,Improve ]]/[[ movement,Fri, 10 Oct 2014 17:35:07 +0900,Fri, 10 Oct 2014 17:35:07 +0900
+05008e7a82b9d83669481e9b56468cd8660b45d6,Use s:extract_name instead of matchstr,Fri, 10 Oct 2014 17:34:39 +0900,Fri, 10 Oct 2014 17:34:39 +0900
+2889cb4739cef6e9b0dc240b0e470fcf37e0472b,Minor refactoring,Fri, 10 Oct 2014 15:48:17 +0900,Fri, 10 Oct 2014 15:50:43 +0900
+61b21068ee2d26f02799ef809d273811181d812f,Update test case (related: #8c915a5),Fri, 10 Oct 2014 10:54:00 +0900,Fri, 10 Oct 2014 10:54:00 +0900
+15da7eb78a9e733ed90e323bba53b7df1d756f8f,Code cleanup,Fri, 10 Oct 2014 10:39:49 +0900,Fri, 10 Oct 2014 10:39:49 +0900
+385a1eb35074bb231826c4085387bbafeff451ca,Detect abnormal process exit using 'Error' line,Fri, 10 Oct 2014 10:28:15 +0900,Fri, 10 Oct 2014 10:28:15 +0900
+8c915a527155b2e57037c3d9bb1c547293207b13,Reuse plug window even if it's in another tab,Fri, 10 Oct 2014 10:23:00 +0900,Fri, 10 Oct 2014 10:23:00 +0900
+ee9f0e55b8804642be20fd71aafa1ed5012d3918,Use s:lines instead of split,Fri, 10 Oct 2014 10:10:52 +0900,Fri, 10 Oct 2014 10:10:52 +0900
+018adb2aefe98b25c7ccbd8802e3ca485cc4929b,Disable NVim parallel installer on Windows,Fri, 10 Oct 2014 10:06:29 +0900,Fri, 10 Oct 2014 10:06:29 +0900
+da47e6ee561a282e9844918e9e2bcf4cc6e2be41,Avoid unnecessary tab/window switch,Fri, 10 Oct 2014 04:39:38 +0900,Fri, 10 Oct 2014 04:39:38 +0900
+662274e61721f0b3bafb5892e36cfd57b19f8daa,Stabilize Neovim installer,Fri, 10 Oct 2014 01:01:49 +0900,Fri, 10 Oct 2014 01:10:34 +0900
+4eeff535fadba836bd2c0ed4eb0adcf8bfc43d6b,Parallel installer for Neovim,Thu, 9 Oct 2014 19:55:36 +0900,Thu, 9 Oct 2014 19:55:36 +0900
+c3669836d31e79075eeec2a77a46a5788743b51f,Fix Travis CI build,Thu, 2 Oct 2014 01:32:23 +0900,Thu, 2 Oct 2014 01:32:23 +0900
+eb38fe3d3259cfab693c8fd52123ab2c4f69a58b,Fix Travis CI build,Thu, 2 Oct 2014 01:17:46 +0900,Thu, 2 Oct 2014 01:21:52 +0900
+e7704e6cb3309d48d43b0b243561b66d60f715af,PlugSnapshot to use unexpanded plug home,Wed, 1 Oct 2014 23:14:27 +0900,Wed, 1 Oct 2014 23:14:27 +0900
+e1e04cabd5c899f26fb0a9ad3af6311f9c9af365,Minor refactoring,Wed, 1 Oct 2014 11:37:58 +0900,Wed, 1 Oct 2014 11:37:58 +0900
+afc20ecff36edc3ac24762860cce34830a4418bc,Implement PlugSnapshot (#97),Wed, 1 Oct 2014 02:42:19 +0900,Wed, 1 Oct 2014 03:10:24 +0900
+38510a8788fb1c159fa604409bbed44de4cf1afc,Remove unnecessary submodule command after recursive clone,Mon, 29 Sep 2014 02:12:33 +0900,Mon, 29 Sep 2014 02:12:33 +0900
+a34b06dd54ae3c80fe41032ff5f5eeba800cc3c7,Fix Travis-CI build,Sat, 27 Sep 2014 15:19:11 +0900,Sat, 27 Sep 2014 15:30:58 +0900
+5d910fc9ea1ed7ac04932cf95bb2ebe67e8efbac,Allow unmanaged plugins inside g:plug_home (#95),Sat, 27 Sep 2014 14:41:57 +0900,Sat, 27 Sep 2014 14:41:57 +0900
+f31477407a584c47e4b95390a538e0f2d5630e7c,Enable syntax only during startup,Tue, 23 Sep 2014 22:11:31 +0900,Tue, 23 Sep 2014 22:11:31 +0900
+0e907d4f387faa8b5ff8d50de945e38b48783782,Add link to Travis CI page,Tue, 23 Sep 2014 15:30:46 +0900,Tue, 23 Sep 2014 15:30:46 +0900
+cb08d6036b7be9ed6e7fe87cf4c128944f17923a,Reload plugins after everything's ready,Tue, 23 Sep 2014 15:24:27 +0900,Tue, 23 Sep 2014 15:25:05 +0900
+9d63fe6aeb4ca01956e198ad34369c5216b963c1,Merge pull request #88 from junegunn/improve-rtp-mgmt,Tue, 23 Sep 2014 10:14:03 +0900,Tue, 23 Sep 2014 10:14:03 +0900
+0489b5deedde0ec18588852b7db35e4ca400efd6,Stricter double-comma replacement,Tue, 23 Sep 2014 10:01:16 +0900,Tue, 23 Sep 2014 10:01:16 +0900
+cac2f9f4390b1926ff2df7c99e3408984158d82d,Improve &rtp management (#85),Tue, 23 Sep 2014 00:21:48 +0900,Tue, 23 Sep 2014 00:21:48 +0900
+115a25de795794e881100569e5862df32d20869c,Suppress error messages from `which` command,Fri, 19 Sep 2014 00:40:27 +0900,Fri, 19 Sep 2014 00:40:27 +0900
+a64b156682c81f0e654b3d57e65a7502d53e4b1c,Expand argument to plug#begin (#82),Wed, 17 Sep 2014 19:41:00 +0900,Wed, 17 Sep 2014 19:41:00 +0900
+a9fa8f44e54ab3c0a26c57ad4df3779dbd82aa62,Merge pull request #79 from junegunn/U,Mon, 15 Sep 2014 21:12:25 +0900,Mon, 15 Sep 2014 21:12:25 +0900
+d6590fa88379484cd097fc151ddf1caeb7243510,Code cleanup,Mon, 15 Sep 2014 21:03:37 +0900,Mon, 15 Sep 2014 21:03:37 +0900
+cabaf7b4312b4afbade0eb6bd10c09ae0133fd9d,Use blackhole register when deleting lines,Mon, 15 Sep 2014 21:02:08 +0900,Mon, 15 Sep 2014 21:02:08 +0900
+6e509db6ff0a73f0495d0ff7210fdc63b82d2528,Add `U` keybinding for updating plugins,Mon, 15 Sep 2014 19:12:52 +0900,Mon, 15 Sep 2014 19:12:52 +0900
+7b7778d5bac05f13b8a01ca336a00761e43be3eb,Remove plugin directory on failure during installation (#75),Sun, 14 Sep 2014 13:54:20 +0900,Sun, 14 Sep 2014 13:54:20 +0900
+f3e2d214dff355f99754c1993a0ce105914d2f2c,Revert "Remove plugin directory on failure during installation (#75)",Sun, 14 Sep 2014 13:49:00 +0900,Sun, 14 Sep 2014 13:49:00 +0900
+5ec1faefab6b8eb65c16f1e9873ecde4b3e23a74,Remove plugin directory on failure during installation (#75),Sun, 14 Sep 2014 13:30:11 +0900,Sun, 14 Sep 2014 13:41:36 +0900
+6406d73c9a11e0ba8ef127e3d8d826f858a03ea5,When to use `for` option,Wed, 10 Sep 2014 23:39:49 +0900,Wed, 10 Sep 2014 23:45:22 +0900
+ff4cbe23c0ff7bebeed2aba4962e2a027fc6ed9a,Throw v:shell_error when system() output is empty,Wed, 10 Sep 2014 00:21:39 +0900,Wed, 10 Sep 2014 00:21:39 +0900
+681ca2d43ac6fd634ae9b6a4da0d0e890d6b8487,Refactor PlugUpgrade (#72),Wed, 10 Sep 2014 00:12:04 +0900,Wed, 10 Sep 2014 00:16:23 +0900
+adb2413f0d386dce127dbaeb7d3da6688e87110e,`syntax enable` instead of `syntax on`,Fri, 5 Sep 2014 12:04:28 +0900,Fri, 5 Sep 2014 12:04:28 +0900
+dda21b50bfdd1975217df727c9a54dd14d0db326,Merge pull request #67 from stevensons/resolve-symlink,Thu, 4 Sep 2014 20:12:27 +0900,Thu, 4 Sep 2014 20:12:27 +0900
+537a5321aaaddaff10ef49d5c82111de4032e4b6,Resolve symlinks in path to plug.vim,Thu, 4 Sep 2014 10:48:31 +0000,Thu, 4 Sep 2014 10:54:15 +0000
+99f6f36b69e90fe6376fee7fd917f7e6b0f26e87,Do not print 'D'-message when there was no update (#66),Thu, 4 Sep 2014 14:10:33 +0900,Thu, 4 Sep 2014 14:10:33 +0900
+3f82808bea7eff94d2ab99b4d6e7ca160b12fe9e,Use blackhole register when deleting commit list,Thu, 4 Sep 2014 14:09:06 +0900,Thu, 4 Sep 2014 14:09:06 +0900
+7474edf13fbe2ff9389a998a05b7b3f1bf83322e,Remove unnecessary dot-concatenations,Thu, 4 Sep 2014 01:48:27 +0900,Thu, 4 Sep 2014 01:48:27 +0900
+25b0fb75835bd300ec2cffcae74434f832cb60ec,Merge pull request #65 from vheon/fix-preview-commit,Thu, 4 Sep 2014 01:29:57 +0900,Thu, 4 Sep 2014 01:29:57 +0900
+a868ee4c1121aed4e486c4a1945f036b1d247307,cd to repo root when in preview window on preview commit,Tue, 2 Sep 2014 22:35:12 +0200,Wed, 3 Sep 2014 08:47:01 +0200
+49851436ffb3e7268c9f1346eb60277deafc0e58,Use `--no-rebase` option on `git pull` (#64),Wed, 3 Sep 2014 02:14:54 +0900,Wed, 3 Sep 2014 02:14:54 +0900
+2f9a94e8c0b6e364b17c83816d5a1b02e1084752,Update README,Tue, 26 Aug 2014 01:39:12 +0900,Tue, 26 Aug 2014 01:39:12 +0900
+ab3bd3b17c5d0b1aa432bc54a536cd14efc5e0de,Implement g:plug_url_format (#62),Tue, 26 Aug 2014 01:36:50 +0900,Tue, 26 Aug 2014 01:36:50 +0900
+3572ffde7916a8de8e72c6d62529754e8f71e1cc,Add g:plug_window to README (#57),Wed, 20 Aug 2014 12:38:02 +0900,Wed, 20 Aug 2014 12:38:22 +0900
+18c8b54793b0eeaae5d6f9ce155c19b5c65fb04e,Add test case for g:plug_window (#57),Wed, 20 Aug 2014 12:30:39 +0900,Wed, 20 Aug 2014 12:33:37 +0900
+1752de5b7c846e31cb6a3294681a4251893b48ba,Fix indentation,Wed, 20 Aug 2014 12:22:23 +0900,Wed, 20 Aug 2014 12:33:37 +0900
+2f3225fc6042c16a507b44eedff2c948d535dd5b,User can now specify how plug window opens,Mon, 18 Aug 2014 23:12:22 -0400,Wed, 20 Aug 2014 12:33:37 +0900
+1022acad0bc02a3cae04d5cabcc405e2612ba9fb,Add example for on-demand loading for multiple file types (#59),Wed, 20 Aug 2014 01:27:55 +0900,Wed, 20 Aug 2014 01:27:55 +0900
+68c7fbbf9df696352aa42f06938340f6faad53bc,Change raw.github.com url (#58),Tue, 19 Aug 2014 20:46:27 +0900,Tue, 19 Aug 2014 20:46:27 +0900
+da24f714e02f511c9c84592f1d9a3317a25a0a4d,Use `git::` prefix to avoid password prompt on git 1.7 (#56),Thu, 14 Aug 2014 03:11:27 +0900,Thu, 14 Aug 2014 10:04:44 +0900
+c1bbbaf3ef57a2a98f3cc1c0ea93357a4abd6de6,Allow Plug command even when git executable is not found (#52),Mon, 11 Aug 2014 01:42:14 +0900,Mon, 11 Aug 2014 01:42:19 +0900
+f7ebba7b9e3b7d2b330eecabfd6c4f48f716d2d4,Improve PlugDiff: 'X' key to revert the update,Sun, 10 Aug 2014 16:32:46 +0900,Sun, 10 Aug 2014 16:52:26 +0900
+6272f5e289a297419e4e62b973eb5e4bd84bf327,Improve PlugStatus,Sun, 10 Aug 2014 13:08:48 +0900,Sun, 10 Aug 2014 13:46:46 +0900
+f43067c7a5c8f00802669ebbfb1503ecfcd9f66b,Merge pull request #51 from junegunn/public-api,Sat, 9 Aug 2014 23:44:59 +0900,Sat, 9 Aug 2014 23:44:59 +0900
+e6cba2899794f53fd0a40bd547f3e22253b43efb,Fix error messages,Sat, 9 Aug 2014 13:11:41 +0900,Sat, 9 Aug 2014 13:11:41 +0900
+f1b8832a13666d7e6e715901945ad6163952a41d,Add plug#load() (#48),Sat, 9 Aug 2014 12:59:04 +0900,Sat, 9 Aug 2014 12:59:20 +0900
+d0c94a9b087545b4514732ab6e2a434011fee4e4,Add plug#helptags(),Sat, 9 Aug 2014 12:02:03 +0900,Sat, 9 Aug 2014 12:58:16 +0900
+3a2e406cd00151a27154f9eb48cda0ed53f32430,Merge pull request #47 from junegunn/fix-upgrade,Tue, 5 Aug 2014 19:09:17 +0900,Tue, 5 Aug 2014 19:09:17 +0900
+84cdf61730fcd8e9905d99d96324961462a1fec2,Do not require reloading of .vimrc after PlugUpgrade,Tue, 5 Aug 2014 18:49:22 +0900,Tue, 5 Aug 2014 18:52:19 +0900
+0aeea1db081ae4eb9d55e0078af5a3e742fa1078,Update README.md,Tue, 5 Aug 2014 15:32:28 +0900,Tue, 5 Aug 2014 15:32:28 +0900
+8289477d1855224a35b83c1fefc58da54b234d7a,Revert "Make sure update/install after PlugUpgrade work",Tue, 5 Aug 2014 01:46:05 +0900,Tue, 5 Aug 2014 01:50:03 +0900
+19b12e221694650723102dcb5d5704936a598b83,Make sure update/install after PlugUpgrade work,Tue, 5 Aug 2014 01:43:42 +0900,Tue, 5 Aug 2014 01:43:42 +0900
+4c9ebe9c31e3f53bce65c4a9f0b284d7a763a56f,Add -bar option to commands,Tue, 5 Aug 2014 01:29:51 +0900,Tue, 5 Aug 2014 01:31:19 +0900
+74dcd13575a0fe295840bfc333522da6696b6b1b,s:upgrade_specs should be called after reloading the source,Tue, 5 Aug 2014 01:25:34 +0900,Tue, 5 Aug 2014 01:25:34 +0900
+518f20652ff6feedaf7686397067baaa08da46d8,Merge pull request #46 from vheon/fix-multiple-create-directory,Tue, 5 Aug 2014 00:56:26 +0900,Tue, 5 Aug 2014 00:56:26 +0900
+665ec057d793143d56373b38b2eab1af9f014589,Do not try to create g:plug_home more than once,Mon, 4 Aug 2014 17:12:42 +0200,Mon, 4 Aug 2014 17:43:34 +0200
+bc212dca77c8b52e463b7e736759a0f590b1cbe2,Merge pull request #45 from junegunn/travis-ci-rubies,Mon, 4 Aug 2014 16:40:11 +0900,Mon, 4 Aug 2014 16:40:11 +0900
+8da7b50fb2bed799f9408de23f96ad0895b522d7,Test against multiple versions of Ruby,Mon, 4 Aug 2014 16:27:06 +0900,Mon, 4 Aug 2014 16:31:05 +0900
+4ae2e879e103bb1acc1da9e62d6ae99e9b2c2988,Note on escaping double quotes in inline expression,Sat, 2 Aug 2014 14:04:03 +0900,Sat, 2 Aug 2014 14:04:03 +0900
+93628b1c3dddea4777c62f00e14544531cbbc609,Forced run of post-update hooks using bang commands,Sat, 2 Aug 2014 12:13:52 +0900,Sat, 2 Aug 2014 12:13:52 +0900
+01e126469b8d42b98a2fc54dd98ee8df77c9e382,Remove duplicate expression and escape helptags directory,Sat, 2 Aug 2014 02:47:33 +0900,Sat, 2 Aug 2014 02:52:56 +0900
+a7477f04b7c08a435ab82bd1b0ff919e02f40724,Update README,Sat, 2 Aug 2014 01:12:01 +0900,Sat, 2 Aug 2014 01:12:01 +0900
+0fdb56ba72ab31a78f5de030d5033d21b5bd8954,Update README,Sat, 2 Aug 2014 01:00:59 +0900,Sat, 2 Aug 2014 01:00:59 +0900
+d89949f16ce1f909fb05221d128dbaf55c4e6382,Update README.md,Fri, 1 Aug 2014 23:46:50 +0900,Fri, 1 Aug 2014 23:46:50 +0900
+19b8221c14add2d73f09be565156d92e1bc168fc,Update README,Fri, 1 Aug 2014 23:37:19 +0900,Fri, 1 Aug 2014 23:37:19 +0900
+336fadd236881a3069f37aa68e0a51f3de460924,Remove FAQ/Troubleshooting section and add link to wiki page,Fri, 1 Aug 2014 23:33:26 +0900,Fri, 1 Aug 2014 23:33:26 +0900
+a216e38a599c347492297fe5fb4a5b49a2acfb7a,Merge pull request #44 from FriedSock/test_refactoring,Fri, 1 Aug 2014 23:26:26 +0900,Fri, 1 Aug 2014 23:26:26 +0900
+d93059468632e346f463924aab080e6b5f9c664c,Force use of bash for Vader tests.,Fri, 1 Aug 2014 15:16:21 +0100,Fri, 1 Aug 2014 15:16:21 +0100
+f4261711ae85d30831bfd04e3d66fcea63055686,Update README,Fri, 1 Aug 2014 02:00:04 +0900,Fri, 1 Aug 2014 02:01:31 +0900
+61b77bc8e840daeade2bd9689521dbd46f873f08,Fix many subtle issues regarding on-demand loading etc.,Thu, 31 Jul 2014 16:34:41 +0900,Thu, 31 Jul 2014 16:34:41 +0900
+fe7c7e7b40c936479804d9b636e3fe04b896418c,Minor tweaks,Thu, 31 Jul 2014 03:04:59 +0900,Thu, 31 Jul 2014 03:04:59 +0900
+25afdf138c3fe05bc7a6b649c3e47064f539d183,Refactoring,Thu, 31 Jul 2014 01:01:59 +0900,Thu, 31 Jul 2014 01:01:59 +0900
+b36fd34da069cd4353984b5ae2656a265f5015f6,Ensure files under `after` are loaded when first installed,Thu, 31 Jul 2014 00:17:21 +0900,Thu, 31 Jul 2014 00:17:21 +0900
+7e55690f1940b5db21675bae91bd6f7f42df91b2,Update examples,Wed, 30 Jul 2014 20:00:21 +0900,Wed, 30 Jul 2014 20:00:21 +0900
+30ef53d83226a712d7fd2a65ae3a39a3bfecfe9f,Remove support for experiemental dependency resolution (#43),Wed, 30 Jul 2014 19:52:19 +0900,Wed, 30 Jul 2014 19:52:19 +0900
+f58d090bb263fdf79d0131f18df29598f7e1b77f,Add `dir` option: managed plugins outside `g:plug_home`,Wed, 30 Jul 2014 19:20:51 +0900,Wed, 30 Jul 2014 19:20:51 +0900
+eeef77e9c8f8e7c7aced1808cc53895f2d5accf6,Merge branch 'vheon-refactoring' into refactoring,Tue, 29 Jul 2014 23:37:47 +0900,Tue, 29 Jul 2014 23:37:47 +0900
+6af2cd89462c4ed54f719a0a0a48ab4b684e281d,Inline substitute inside s:dirpath(),Tue, 29 Jul 2014 14:21:11 +0200,Tue, 29 Jul 2014 14:21:11 +0200
+878cdd53092234d8d526041c89a8b9d339b277d5,Unmap / and ? from vim-oblique after test,Tue, 29 Jul 2014 19:18:33 +0900,Tue, 29 Jul 2014 19:18:33 +0900
+9bb2da53a0a62a7e85424dc7cf815eab98861224,Replace s:extract_name with a single fnamemodify call,Tue, 29 Jul 2014 19:08:21 +0900,Tue, 29 Jul 2014 19:17:12 +0900
+58c06ed77ef523650879b980e4e9d1008b7804ab,Use single-quotes whenever possible for consistency,Tue, 29 Jul 2014 19:07:09 +0900,Tue, 29 Jul 2014 19:07:09 +0900
+2e691c6feb42bb4c245324178674f483f87462b7,Define a separate version of s:is_local_plug for Windows,Tue, 29 Jul 2014 10:09:05 +0900,Tue, 29 Jul 2014 10:09:05 +0900
+a18087610affb2648766d8a3cf2ee65ee3dc06b0,Use fnamemodify instead of split hackery,Tue, 29 Jul 2014 02:42:53 +0900,Tue, 29 Jul 2014 02:42:53 +0900
+276106d987a8fa7bad9f733fc5552ade4cef38b8,Performance tuning: reduce the number of s:parse_options calls,Tue, 29 Jul 2014 02:11:59 +0900,Tue, 29 Jul 2014 02:11:59 +0900
+d499fc311abee24428dfb8f2f2bf26eba0ee1d63,Use dot operator instead of get(),Tue, 29 Jul 2014 01:45:05 +0900,Tue, 29 Jul 2014 01:51:32 +0900
+c4b4aa8f0745ba1ba46a74ca0daf79fa3fc10868,Code cleanup: reuse s:trim() when possible,Tue, 29 Jul 2014 00:19:29 +0900,Tue, 29 Jul 2014 00:19:29 +0900
+d690f8d576de512554605703d9b57e1684d222e4,Change error reporting method,Mon, 28 Jul 2014 19:50:09 +0900,Mon, 28 Jul 2014 19:56:59 +0900
+8738341ad0a5aa57ac46843a171d041cbe7098f6,Performance tuning: reduce the number of globpath calls,Mon, 28 Jul 2014 19:45:40 +0900,Mon, 28 Jul 2014 19:45:40 +0900
+5ab2024fbbed58cc2111cc2342d4001219c2751c,Performace tuning: inlining some function calls,Mon, 28 Jul 2014 19:36:45 +0900,Mon, 28 Jul 2014 19:41:05 +0900
+300176ba9fcbbcf6ca34c1a0b8590da7a4eb6438,Avoid echoerr inside catch block,Mon, 28 Jul 2014 01:27:30 +0900,Mon, 28 Jul 2014 01:27:30 +0900
+da7d6bd58bf3c27c60248414e30ffdec037f5505,Refactor s:add function,Sun, 27 Jul 2014 14:31:28 +0200,Sun, 27 Jul 2014 17:38:57 +0200
+b651558c633962dc4b2aad0aca7ed6fcd5627c9e,Update README,Sun, 27 Jul 2014 12:00:36 +0900,Sun, 27 Jul 2014 12:00:36 +0900
+2d815ad2f0c3ad9fdbc835e0559d92efd65ae15b,Escape angle brackets in README,Sun, 27 Jul 2014 11:58:12 +0900,Sun, 27 Jul 2014 11:58:12 +0900
+3af40791794bb14993fcb23965cfad4e9f96ee18,Fix typo,Sun, 27 Jul 2014 11:55:06 +0900,Sun, 27 Jul 2014 11:55:06 +0900
+e6a594f1ad71dd2c99600956670d06b141a27427,Change post-hook function to take a dictionary for more control,Sun, 27 Jul 2014 11:28:53 +0900,Sun, 27 Jul 2014 11:28:53 +0900
+e741d02ad0486c9acb657334e0f7556696f3fc26,Fix elapsed time to include the time spent in post-update hook,Sun, 27 Jul 2014 11:15:13 +0900,Sun, 27 Jul 2014 11:15:13 +0900
+b2208640d4c2aa5bf14192840becaa7c0789302b,Update documentation,Sun, 27 Jul 2014 11:06:47 +0900,Sun, 27 Jul 2014 11:06:47 +0900
+aa49c38586ce0ce2aff936e8e1b6d83c21094d69,Don't need <Plug> map (#38),Sun, 27 Jul 2014 03:16:44 +0900,Sun, 27 Jul 2014 03:16:44 +0900
+b6b10ac17e549f404f47379fc4a6e7f535cbd6be,Print progress of post-update hooks using `:!` (#38),Sun, 27 Jul 2014 03:07:37 +0900,Sun, 27 Jul 2014 03:07:37 +0900
+706f7e00eaf84e14c2f39e42298146d9a2762da4,Merge pull request #39 from vheon/fix-type-parameter-clarity,Sun, 27 Jul 2014 02:22:31 +0900,Sun, 27 Jul 2014 02:22:31 +0900
+6ff1031339118f56a99156ebb54fa835bb460b46,Replace return value of type() with named values,Sat, 26 Jul 2014 18:44:06 +0200,Sat, 26 Jul 2014 19:14:46 +0200
+09368773991de12ad75457fa97675170d2b39a8f,Don't check for the need for post-update hook when interrupted,Sun, 27 Jul 2014 00:42:23 +0900,Sun, 27 Jul 2014 00:42:23 +0900
+d956e16f15dd9edff86175721c293d05b16afe2d,Minor refactoring,Sat, 26 Jul 2014 22:58:34 +0900,Sat, 26 Jul 2014 22:58:34 +0900
+f98c8456fafaf3bf0388cd2b1986493bbdedf251,Post-update hook (`do` option),Sat, 26 Jul 2014 22:49:18 +0900,Sat, 26 Jul 2014 22:49:18 +0900
+5b2c03d3a814f7b43e4fcdae11ebb3995a83f6cb,`R` to retry interrupted tasks as well,Wed, 23 Jul 2014 11:46:29 +0900,Wed, 23 Jul 2014 11:46:29 +0900
+0b31be49cf9f985444f1ebc607b13e1ce213f34e,Update README,Tue, 22 Jul 2014 12:47:34 +0900,Tue, 22 Jul 2014 12:47:34 +0900
+74fa6ab9df3732f36507fb8ae8638228cde46476,'R' to retry failed update/installation tasks,Tue, 22 Jul 2014 12:46:59 +0900,Tue, 22 Jul 2014 12:46:59 +0900
+0d7e20c9843f2bc9d5025788a80b5cc648b02aa6,Merge pull request #37 from junegunn/retries,Mon, 21 Jul 2014 23:13:43 +0900,Mon, 21 Jul 2014 23:13:43 +0900
+e2714fb56e854f4aef0d918a89690c3127981465,Retry in 3 seconds,Mon, 21 Jul 2014 23:09:16 +0900,Mon, 21 Jul 2014 23:09:16 +0900
+3b83a22ea441b30fa9be6c8fae25fa943446e282,Avoid InsertEnter/InsertLeave events in GUI MacVim workaround,Mon, 21 Jul 2014 14:27:38 +0900,Mon, 21 Jul 2014 14:27:38 +0900
+cd418369bcd7dd2a29cb01e22ebe079ed323016a,Use `gui_macvim` instead of `mac` (#36),Mon, 21 Jul 2014 11:42:27 +0900,Mon, 21 Jul 2014 11:42:27 +0900
+279a334c8b1bbd36b968d0a80499a2059372c3ea,Temporarily disable &imd on GUI MacVim (#36),Mon, 21 Jul 2014 11:35:48 +0900,Mon, 21 Jul 2014 11:35:48 +0900
+9132e9d50db0cefd2936dd878a2211e93b2be2ad,Workaround for screen freeze in MacVim GUI (#36),Mon, 21 Jul 2014 02:49:47 +0900,Mon, 21 Jul 2014 02:49:47 +0900
+3323163e044f2cc8c90bf9fd193f51414cbb7236,Retry in case of timeout (#35),Sun, 20 Jul 2014 02:14:15 +0900,Sun, 20 Jul 2014 02:14:15 +0900
+e4671eaf9ea6eaed6362675a6953e322c8bb1115,Do not assume that `frozen` key exists,Fri, 18 Jul 2014 01:27:41 +0900,Fri, 18 Jul 2014 01:27:41 +0900
+9afa356fb361b46f5668418f3d9573850390dbf1,Exclude unmanaged plugins from PlugDiff output,Thu, 17 Jul 2014 10:28:59 +0900,Thu, 17 Jul 2014 10:28:59 +0900
+e04f696682fd8539f635095df3d0ee716784f221,Ignore errors during :helptags,Thu, 17 Jul 2014 02:20:00 +0900,Thu, 17 Jul 2014 02:20:00 +0900
+4cb5fd04a6f62b8387ff8bde0a8c866ad12529c9,Note on single quotes (#33),Wed, 16 Jul 2014 20:40:49 +0900,Wed, 16 Jul 2014 20:40:49 +0900
+c16743e8fc2ba106a292938a895015ff3156fd8d,License,Wed, 16 Jul 2014 20:39:39 +0900,Wed, 16 Jul 2014 20:39:39 +0900
+46a6e8441fd5c2b2f3a42def6deb924cbc67ff0b,Pin first and last path in &rtp (#34),Wed, 16 Jul 2014 20:26:42 +0900,Wed, 16 Jul 2014 20:26:42 +0900
+466d1839b37c174a66b329fadce2512b0a2ffa5e,Add support for local plugins. Add `frozen` option (#32),Wed, 16 Jul 2014 19:52:58 +0900,Wed, 16 Jul 2014 19:52:58 +0900
+c3cf35abb52d9a895544740a4f53ab1563e16d3a,Ignore occasional error from Ruby 1.8.7,Sun, 13 Jul 2014 22:02:11 +0900,Sun, 13 Jul 2014 22:02:11 +0900
+344f80aedb5668aadcb758c3b1e22e59e8dc6153,Fix Ruby installer for Ruby 1.8.7 (#31),Sun, 13 Jul 2014 20:18:56 +0900,Sun, 13 Jul 2014 20:18:56 +0900
+dae0540a113a1d8b3cf10e55df7a945f3d3b4299,Change gif,Sun, 13 Jul 2014 17:39:19 +0900,Sun, 13 Jul 2014 17:39:19 +0900
+af89938633897782ae9148e679ffa4e23d1d4ac0,Real-time progress report,Sun, 13 Jul 2014 03:54:53 +0900,Sun, 13 Jul 2014 03:58:16 +0900
+35c5f2830be85a6bcce36800444459d7982986ac,Revert "Real-time progress report",Sun, 13 Jul 2014 03:22:25 +0900,Sun, 13 Jul 2014 03:22:25 +0900
+60b907c87f693e3e4ce2cc91aa10d9125cfe441e,Real-time progress report,Sun, 13 Jul 2014 03:05:54 +0900,Sun, 13 Jul 2014 03:05:54 +0900
+9ceb9caa09bf3fd76264e8f150dce068049b4b4b,Minor refactoring,Thu, 10 Jul 2014 00:44:09 +0900,Thu, 10 Jul 2014 00:44:09 +0900
+42a42e7e71f8bca72f4a9f194a9d54eb5b0089f2,Fix `after` directory and `Plugfile` on Windows,Thu, 10 Jul 2014 00:13:32 +0900,Thu, 10 Jul 2014 00:13:32 +0900
+8885b1086f78ad46c4158bf34e0b6dc59777881f,Minor refactoring in ODL: no need to pass full dict,Wed, 9 Jul 2014 01:13:08 +0900,Wed, 9 Jul 2014 01:14:03 +0900
+90c07f269c2cc01abd4af1e3b20f03e71c85bab7,Fix <Plug>-based ODL on visual range spanning multiple lines,Mon, 7 Jul 2014 22:55:44 +0900,Mon, 7 Jul 2014 22:55:44 +0900
+f1c5157e35242facfeb9339f9b19279c90a70d68,Fix <Plug>-based on-demand-loading on visual mode,Mon, 7 Jul 2014 19:06:20 +0900,Mon, 7 Jul 2014 19:06:20 +0900
+7f1ec7b12be6d15f60fc9c0441cee5f2edbc304e,Load ftplugins while avoiding extraneous FileType events (#24, #25),Fri, 4 Jul 2014 14:20:48 +0900,Fri, 4 Jul 2014 14:20:48 +0900
+f90afc9081dc39b779862bb7a7bfc5ef676564e6,Remove images from repo,Mon, 23 Jun 2014 23:38:40 +0900,Mon, 23 Jun 2014 23:39:48 +0900
+612b9b3afdfd5c9d0a193a0ff92a1d9078c2deeb,Fix test cases for travis-ci,Mon, 23 Jun 2014 13:16:14 +0900,Mon, 23 Jun 2014 13:16:14 +0900
+58891e05be9e6f4d91f53f8e6f7d0eb30cc98ae6,Travis-CI integration,Mon, 23 Jun 2014 12:57:46 +0900,Mon, 23 Jun 2014 12:57:46 +0900
+baf7b18f73ab92e7ac7fa8d0892ea73a5e2412f5,Update test runner script,Mon, 23 Jun 2014 12:47:13 +0900,Mon, 23 Jun 2014 12:53:51 +0900
+cc37ed48be02b18ed12dc8d7fbc7ed8066f21e7b,Improve PlugStatus message,Mon, 23 Jun 2014 12:22:25 +0900,Mon, 23 Jun 2014 12:22:25 +0900
+afe7dc6f8f5c786d0737bc9b7a9f0b7cee1ae2cd,Use case-sensitive match,Mon, 23 Jun 2014 04:04:03 +0900,Mon, 23 Jun 2014 04:04:03 +0900
+8863a3a53c4c774d49e42abc366a61dd960d7ca6,Fix #28: False alarm from PlugStatus when tag used,Mon, 23 Jun 2014 04:02:49 +0900,Mon, 23 Jun 2014 04:02:49 +0900
+ee04a646d31f7f1322a3dbf68a3cba814876f5c1,Fix: dependent plugins not loaded after initial installaion,Sun, 22 Jun 2014 21:49:51 +0900,Sun, 22 Jun 2014 21:49:51 +0900
+6ddee62977fd78929e6df3f778b716fe7ef155ff,Ensure ftplugin files are loaded (#24),Sun, 22 Jun 2014 13:09:18 +0900,Sun, 22 Jun 2014 13:09:18 +0900
+8cf5fca9ca7052793c99b4ec2449dadbb0bcdaad,Revert "Ensure ftplugin files are loaded (#24)",Sun, 22 Jun 2014 12:49:22 +0900,Sun, 22 Jun 2014 12:49:22 +0900
+347fccb030d91079e74f742d7cd7d959c166811e,Revert "Remove FileType autocmd after loaded",Sun, 22 Jun 2014 12:45:21 +0900,Sun, 22 Jun 2014 12:45:21 +0900
+a026eb39c4bccf58513e3d752b388a08fa8e711b,Ensure ftplugin files are loaded (#24),Sun, 22 Jun 2014 10:27:15 +0900,Sun, 22 Jun 2014 10:27:15 +0900
+4d352e1849817af3bbc0ff857cc1635a9c03b73c,Revert "Clear #filetypeplugin for filetype-based ODL (#24)",Sun, 22 Jun 2014 10:21:58 +0900,Sun, 22 Jun 2014 10:21:58 +0900
+db3f5ad5c33b56d38556e2bb20fe5d6a0363383c,Remove FileType autocmd after loaded,Sun, 22 Jun 2014 09:58:14 +0900,Sun, 22 Jun 2014 09:58:14 +0900
+1d477a1a01390f8aa122d9cdb30a44ba469d2253,Clear #filetypeplugin for filetype-based ODL (#24),Sun, 22 Jun 2014 04:24:19 +0900,Sun, 22 Jun 2014 04:24:19 +0900
+288a4f72ce3393f8341ee325a5f092fabbed6250,Add pending test case on dependency resolution,Fri, 20 Jun 2014 21:27:46 +0900,Fri, 20 Jun 2014 21:35:42 +0900
+5168cd50db0b93b7625a0b3e6e97bb553f412477,Allow updating subset of plugins,Fri, 20 Jun 2014 20:53:57 +0900,Fri, 20 Jun 2014 20:53:57 +0900
+4d32762432ab28914eb7e7882952f2e863ff4a91,Allow -range in on-demand loading commands,Fri, 20 Jun 2014 20:35:33 +0900,Fri, 20 Jun 2014 20:35:33 +0900
+8dff1dae37d0ef2fc9cd0dff2c67ceb20a3df05f,Allow trailing comment after Plug declaration (#23),Fri, 20 Jun 2014 09:58:50 +0900,Fri, 20 Jun 2014 09:58:50 +0900
+b5b687ad9ab62323ab842acf6818e4a116157ca9,On-demand loading on filetypes (#21),Tue, 17 Jun 2014 11:59:42 +0900,Tue, 17 Jun 2014 11:59:42 +0900
+7e69a50890dc052b709127f87f9c9f0134ca975c,Fix on-demand loading: load ftdetect and **/*.vim as well,Tue, 17 Jun 2014 11:45:42 +0900,Tue, 17 Jun 2014 11:45:42 +0900
+476a613746adef8c957019d1d84dbddf81186525,Fix #19: install error,Fri, 6 Jun 2014 00:16:57 +0900,Fri, 6 Jun 2014 00:16:57 +0900
+12b5dcb903c95d650915f90db09c52b704a506ff,git submodule update --init --recursive (#18),Tue, 3 Jun 2014 18:51:01 +0900,Tue, 3 Jun 2014 18:51:01 +0900
+de81f95f6998db87350d972bb817970151a470d4,Use black hole register when emptying buffer,Tue, 15 Apr 2014 02:01:47 +0900,Tue, 15 Apr 2014 02:01:47 +0900
+b7cf1ca65a1400d89f42e70d69a305eb05bc180d,Echo "Press 'D'" message only on PlugUpdate,Tue, 15 Apr 2014 02:00:39 +0900,Tue, 15 Apr 2014 02:00:39 +0900
+7fa22a69270894b2b38af859eb5ee0c4567c9563,PlugDiff: Display commit info in preview window,Mon, 14 Apr 2014 21:20:21 +0900,Mon, 14 Apr 2014 21:20:21 +0900
+6f487f15795dcc33488a193a0e418eb84015613d,Explicitly return 0,Mon, 14 Apr 2014 20:27:23 +0900,Mon, 14 Apr 2014 20:27:23 +0900
+f8fcc81783803a85b081541b169225e395254385,Use s:esc function,Wed, 9 Apr 2014 15:25:21 +0900,Wed, 9 Apr 2014 15:25:21 +0900
+32dc4ca93f6a8d5840b7c005c79a7a46b89398fa,Change PlugDiff message (suggested by @beloglazov in #17),Wed, 9 Apr 2014 11:59:46 +0900,Wed, 9 Apr 2014 11:59:46 +0900
+7047eda14969f835912ba93cd15c0e62c4af74a2,Change PlugDiff message (thanks to @beloglazov),Wed, 9 Apr 2014 11:22:20 +0900,Wed, 9 Apr 2014 11:22:20 +0900
+5679540a2a17cbdbc8b1e1b52a6ea8c4c6e5ffb1,Less LOC,Wed, 9 Apr 2014 01:03:43 +0900,Wed, 9 Apr 2014 01:03:43 +0900
+d2f6c09c7a170317f52fdc0ec8426f1f77296c50,Fix syntax highlighting (#17),Wed, 9 Apr 2014 00:53:37 +0900,Wed, 9 Apr 2014 00:53:37 +0900
+acbba74fe2537c784bb8908abe230db60808f201,Fix output format (#17),Wed, 9 Apr 2014 00:40:19 +0900,Wed, 9 Apr 2014 00:40:19 +0900
+47a3bebb30d1d254245b25b617f03080128dfcda,Fix test case for PlugStatus,Tue, 8 Apr 2014 21:47:57 +0900,Tue, 8 Apr 2014 21:47:57 +0900
+f00dacd7bdb4d5857ea32955e963f99fcca5ec74,Add PlugDiff command (#17),Tue, 8 Apr 2014 21:43:49 +0900,Tue, 8 Apr 2014 21:43:49 +0900
+8986f87b83a2fb7367b9b2dccc49ae186424d565,Change PlugStatus output to match those of other commands,Tue, 8 Apr 2014 21:33:38 +0900,Tue, 8 Apr 2014 21:33:38 +0900
+ae6f3254d83dc75d59e7f44008caedf90256cb8a,Place cursor on the 2nd line during PlugClean,Tue, 8 Apr 2014 21:32:29 +0900,Tue, 8 Apr 2014 21:32:29 +0900
+0c1744a81959fe707f8aa0f21ceb69dc6e65aab3,Merge pull request #16 from CD3/load-order,Sun, 30 Mar 2014 12:08:33 +0900,Sun, 30 Mar 2014 12:08:33 +0900
+b763cae81a55baf089448d30e75d412c1db53094,added plug load order (for dependencies),Sat, 29 Mar 2014 21:29:54 -0500,Sat, 29 Mar 2014 21:29:54 -0500
+358363eefc287ceecb3e5ff60ee9ccdb45034302,Support paths with spaces (#15 [, #14]),Thu, 27 Mar 2014 01:07:02 +0900,Thu, 27 Mar 2014 01:07:09 +0900
+c827d2fa05901f4c8f87389e82e688c3896549a6,Merge pull request #13 from junegunn/shellesc,Wed, 19 Mar 2014 12:22:30 +0900,Wed, 19 Mar 2014 12:22:30 +0900
+2ef9b8a492e86e499407d48aef5b8ab311835351,Replace shellescape function to avoid error when &shellslash is set,Wed, 19 Mar 2014 12:15:26 +0900,Wed, 19 Mar 2014 12:15:26 +0900
+2a3a40dd426e1db32196145adee8173b95b23df5,Fix PlugStatus/PlugClean on Windows,Wed, 19 Mar 2014 00:43:37 +0900,Wed, 19 Mar 2014 00:43:37 +0900
+411bb2bef99ef1970cacae431eccedf985bd270e,Update README (Related: #12),Fri, 14 Mar 2014 01:32:08 +0900,Fri, 14 Mar 2014 01:32:08 +0900
+ff01c5472096d5ddef5f763fd95bae3a1329c39b,Remove unnecessary code,Thu, 13 Mar 2014 01:04:17 +0900,Thu, 13 Mar 2014 01:04:17 +0900
+aca17edd1c3d37f3287c9a42f81b198f389e4eed,On-demand loading for imaps of <Plug> mappings,Wed, 12 Feb 2014 03:11:13 +0900,Wed, 12 Feb 2014 03:11:13 +0900
+06ced6b640a9e191ca8ce8493e764ad02f7a2c97,Use <silent> map,Wed, 12 Feb 2014 02:57:47 +0900,Wed, 12 Feb 2014 02:57:47 +0900
+3732cdfabb5c3be7595b97cec663397642bf19d9,Add test runner,Wed, 12 Feb 2014 02:09:24 +0900,Wed, 12 Feb 2014 02:09:24 +0900
+7ea0b523e5184c463fecece091a9344a99945291,Avoid remapping of temporary <Plug> map,Wed, 12 Feb 2014 02:07:09 +0900,Wed, 12 Feb 2014 02:07:09 +0900
+cbe2e519d0bf7a3adc1fd5ec419006d32719a7f8,On-demand loading with <Plug> mappings (experimental),Wed, 12 Feb 2014 01:57:30 +0900,Wed, 12 Feb 2014 01:57:30 +0900
+1c2d394782521780de0cc06e0be907e226e4a55f,Load-on-demand with `on` option,Wed, 12 Feb 2014 00:45:23 +0900,Wed, 12 Feb 2014 00:45:23 +0900
+75efbd7b68d76452b478df978f3f44adcaab21e8,Update README,Wed, 22 Jan 2014 02:35:30 +0900,Wed, 22 Jan 2014 02:35:30 +0900
+a3cf17a2b328906397bd122d19d541fd8b23266e,Print error message when unable to determine plug home,Sun, 19 Jan 2014 00:06:23 +0900,Sun, 19 Jan 2014 00:06:23 +0900
+b9174c366fe83b3ceaa9e0490b848ae52de1c07d,Display error message if plug#end is called before plug#begin,Sat, 18 Jan 2014 15:06:06 +0900,Sat, 18 Jan 2014 19:01:52 +0900
+a439a02ff712c9af1ceed96cd5e57f5ebccc5096,Update demo screencast,Mon, 6 Jan 2014 16:13:13 +0900,Mon, 6 Jan 2014 16:13:13 +0900
+f0673947837e97340e886714edff997af82e023e,Remove dependency resolution section (link to wiki),Mon, 6 Jan 2014 16:01:41 +0900,Mon, 6 Jan 2014 16:01:41 +0900
+abfb0e74e411724bb0b770aeab7af50fdca90aef,Update formatting of error messages,Mon, 6 Jan 2014 13:04:38 +0900,Mon, 6 Jan 2014 13:04:38 +0900
+e95dd2e468167cf42f0a143b96653ef4c7267350,Ignore `git:@` when validating cloned repository,Mon, 6 Jan 2014 10:26:41 +0900,Mon, 6 Jan 2014 10:26:41 +0900
+77b1bdfa8a7e53f22d53af1c0c390ba869cc1bc3,Change list bullet charactor for errors,Mon, 6 Jan 2014 10:13:00 +0900,Mon, 6 Jan 2014 10:13:00 +0900
+d37c7a47d70b8c39c0426579c0b8f47fee2368e1,Improve progress bar format,Wed, 4 Dec 2013 23:41:53 +0900,Wed, 4 Dec 2013 23:41:53 +0900
+0df48bbb4ddd609751cfa0a521815b43316ba80f,Remove `set nocompatible` (Fixes #11),Mon, 11 Nov 2013 10:27:26 +0900,Mon, 11 Nov 2013 10:27:26 +0900
+8fd974b091f0cee3170ee6fdf5e779c6a5d1c462,Fix source code error on `vim -u MYVIMRC`,Mon, 11 Nov 2013 10:23:12 +0900,Mon, 11 Nov 2013 10:26:47 +0900
+ff5fd55095615f24835c4740311a23658b3510e0,Update test/README,Mon, 14 Oct 2013 12:59:19 +0900,Mon, 14 Oct 2013 12:59:19 +0900
+e5552548dcd621023dae413b313cb8bb70a19491,Add test/README.md,Mon, 14 Oct 2013 12:57:14 +0900,Mon, 14 Oct 2013 12:57:14 +0900
+23748f115fde67e192c6729f8ef36fcc2463d463,Strip trailing slash from g:plug_home,Mon, 14 Oct 2013 12:51:53 +0900,Mon, 14 Oct 2013 12:51:53 +0900
+3e65d146ad051e6e65d5797e23d8820b35025e93,Encourage use of path argument to plug#begin() to avoid confusion,Mon, 14 Oct 2013 12:31:03 +0900,Mon, 14 Oct 2013 12:31:03 +0900
+7ef73525bc8c8f47200bcce2f2aa3c246d1b1b78,Add basic test scenario,Mon, 14 Oct 2013 03:24:00 +0900,Mon, 14 Oct 2013 03:24:00 +0900
+4b13f358a03b5b44c0e1488ea188fbed8458f228,Revert "Make :Plug command unavailable after end()",Mon, 7 Oct 2013 02:14:35 +0900,Mon, 7 Oct 2013 02:14:35 +0900
+d369322e03f805c6f7b64a9c51fb5f0dac8c8bcb,Make :Plug command unavailable after end(),Mon, 7 Oct 2013 01:39:20 +0900,Mon, 7 Oct 2013 01:39:20 +0900
+7f160ac4d5550cd9e16a59d9a171d0d664d28c9c,Update README,Wed, 2 Oct 2013 11:36:08 +0900,Wed, 2 Oct 2013 11:36:08 +0900
+c155bfe5764d1c537973f2b52174da2010d891d5,Add FAQ section (#10),Tue, 1 Oct 2013 11:52:18 +0900,Tue, 1 Oct 2013 11:52:18 +0900
+533593e3efebaec1b53a75a1989c0d99a1d551aa,Fix repo name,Tue, 1 Oct 2013 01:32:34 +0900,Tue, 1 Oct 2013 01:32:34 +0900
+bdb4ebae1a9081d86b10d6b1c99ca76c8cffecf4,plug.png,Tue, 1 Oct 2013 00:36:58 +0900,Tue, 1 Oct 2013 00:36:58 +0900
+a8e953b793f7d3b31e28f1a7bfbed89d3cd9b083,PlugUpgrade without curl,Sun, 29 Sep 2013 12:31:39 +0900,Sun, 29 Sep 2013 12:31:39 +0900
+5b72a5fc2623893a70492992b220aa0ad6a16d03,Update README: be explicit about reloading .vimrc (#8),Sun, 29 Sep 2013 01:30:59 +0900,Sun, 29 Sep 2013 01:30:59 +0900
+8fe08f19445b3eae87a931a16998bb7b65950b51,Remove trailing backslash from rtp on Windows,Sat, 28 Sep 2013 23:43:01 +0900,Sat, 28 Sep 2013 23:43:01 +0900
+f6d94b350cb0fd10241eaf93812e3227c0388fcb,Update README,Sat, 28 Sep 2013 22:49:14 +0900,Sat, 28 Sep 2013 22:49:14 +0900
+c9f88a03fbe7b7f26eb803e9bf22f3b6bc6cbd4b,Add link to a blog post,Sat, 28 Sep 2013 22:42:33 +0900,Sat, 28 Sep 2013 22:42:33 +0900
+39d3384bfd105f782206715ab7df51309579425d,while -> until,Sat, 28 Sep 2013 20:32:25 +0900,Sat, 28 Sep 2013 20:32:25 +0900
+09b2080ddb4aa0a1265745a5ceb65748fca72efa,Recursively kill dangling child processes using pgrep,Sat, 28 Sep 2013 20:29:18 +0900,Sat, 28 Sep 2013 20:29:18 +0900
+3a4ffb49e99692dd6cd07933d5fed3eedf27f408,Try to cleanup dangling processes on int or timeout (#5, #6),Sat, 28 Sep 2013 18:53:18 +0900,Sat, 28 Sep 2013 18:53:18 +0900
+fe942d61d209f813516b0d42f9e7fb631cf8c3e2,Implement task timeout with default timeout 60 sec (#5),Sat, 28 Sep 2013 12:43:21 +0900,Sat, 28 Sep 2013 12:43:21 +0900
+b175e5fc85dd46f85836d4ad593587d18cd6c19d,Add link to plug.vim,Thu, 26 Sep 2013 23:15:04 +0900,Thu, 26 Sep 2013 23:15:04 +0900
+3b0cf33301d616cc0d7b9609c92433b1921e6311,Add gif for Plugfile example,Thu, 26 Sep 2013 19:09:54 +0900,Thu, 26 Sep 2013 19:09:54 +0900
+8bfcf21f2269c484ffbd0c80a42f380831669f9a,Fix #4: parallel installer work on Windows,Thu, 26 Sep 2013 16:11:27 +0900,Thu, 26 Sep 2013 19:07:12 +0900
+f36a558a67219d59492913732558ed009d9bc9f3,Fix PlugClean on Windows,Thu, 26 Sep 2013 15:08:52 +0900,Thu, 26 Sep 2013 15:08:52 +0900
+b60ecd2cc16c8a0267751fa2123651f7ce374132,Make plug#begin() return boolean value,Thu, 26 Sep 2013 06:37:17 +0900,Thu, 26 Sep 2013 06:37:17 +0900
+a663670c2b4aeb069e563e31867711c140a387f8,Find Plugfile under rtp,Wed, 25 Sep 2013 22:35:34 +0900,Wed, 25 Sep 2013 22:35:34 +0900
+87901b671c5c3cfb01de0008913d912886d47f08,Add support for dictionary option argument: branch, rtp (#2),Wed, 25 Sep 2013 15:09:41 +0900,Wed, 25 Sep 2013 15:13:45 +0900
+3bf257370389ff48303d3eabaa6a9449bd27e531,Update README,Wed, 25 Sep 2013 12:51:07 +0900,Wed, 25 Sep 2013 12:51:07 +0900
+405ba3ea0582ae5df7ee18835e27befc85b86c1e,Update README,Wed, 25 Sep 2013 12:50:30 +0900,Wed, 25 Sep 2013 12:50:30 +0900
+412f1cbb2f1b748d6a71f424eb37e74151076889,Merge pull request #3 from junegunn/Plugfile,Tue, 24 Sep 2013 20:47:00 -0700,Tue, 24 Sep 2013 20:47:00 -0700
+d05f75f782f6cf56b6103f68c1065ae18a7a41c3,Proper handling of invalid branch in parallel installer,Wed, 25 Sep 2013 12:45:14 +0900,Wed, 25 Sep 2013 12:45:14 +0900
+8ee3a0b36df623cf303c4e145ac8b27aefb4b23d,Fix branch argument,Wed, 25 Sep 2013 12:41:49 +0900,Wed, 25 Sep 2013 12:41:49 +0900
+2cf0c4fda509688f6fc9c940fb0539c01dda0c05,Spawn multiple threads unless g:plug_threads is set to 1,Wed, 25 Sep 2013 12:30:02 +0900,Wed, 25 Sep 2013 12:30:02 +0900
+214b4fb6facea4a58623dd35a9a13c80dbfff33b,Prevent serialization due to early termination of threads,Wed, 25 Sep 2013 12:02:15 +0900,Wed, 25 Sep 2013 12:02:15 +0900
+a9d5912b4dd1575d6882575861b32c0b433dde65,Prototype implementation of dependency resolution (#2),Wed, 25 Sep 2013 02:08:42 +0900,Wed, 25 Sep 2013 02:08:42 +0900
+1aea9fed65ccc33f88082d8f60268221516d01bc,Add a note on feature request (#1),Tue, 24 Sep 2013 23:15:31 +0900,Tue, 24 Sep 2013 23:15:31 +0900
+96463b613f052f8386ac340cbdd79d3f01c14c07,New screenshot,Tue, 24 Sep 2013 13:10:57 +0900,Tue, 24 Sep 2013 13:10:57 +0900
+0c865ba6bf4294a1c1640a3976f738b6382128d7,Updating plugins -> Installing plugins,Tue, 24 Sep 2013 12:47:47 +0900,Tue, 24 Sep 2013 12:47:47 +0900
+e117c264d252184f1ec6c4e189cb175ed39bdf56,Add PlugStatus command,Mon, 23 Sep 2013 17:33:36 +0900,Mon, 23 Sep 2013 17:33:36 +0900
+f785a017b05f724d698d6a11d4bb559b1e9b912e,Update README,Mon, 23 Sep 2013 01:51:55 +0900,Mon, 23 Sep 2013 01:51:55 +0900
+3200359ff458262671ee50a77a5f3b13335b1f0c,Update README,Mon, 23 Sep 2013 01:49:34 +0900,Mon, 23 Sep 2013 01:49:34 +0900
+fe0310737ee923759ccda0f32aee4aa32e8f6a98,Update README,Mon, 23 Sep 2013 01:47:39 +0900,Mon, 23 Sep 2013 01:47:39 +0900
+bb299b2c85ad83b78f75c71a820440c64c812476,Update README,Mon, 23 Sep 2013 00:43:38 +0900,Mon, 23 Sep 2013 00:43:38 +0900
+99b9f5e9c806133ab831969f23183bf8a409e5c5,Update syntax highlighting,Sun, 22 Sep 2013 23:25:02 +0900,Sun, 22 Sep 2013 23:25:02 +0900
+361e7ca55b8558bfe21fd54ae73ef0d29e784d73,Ruby-support link,Sun, 22 Sep 2013 14:32:06 +0900,Sun, 22 Sep 2013 14:32:06 +0900
+f033938829ee2cc34e8fd63fdf7075a1101fa314,Print log in reverse order,Sun, 22 Sep 2013 13:38:09 +0900,Sun, 22 Sep 2013 13:38:09 +0900
+243b3d40908fcb4dc3583407f0a3ed2e0156d265,Update README.md,Wed, 18 Sep 2013 21:26:15 +0900,Wed, 18 Sep 2013 21:26:15 +0900
+80b5f75c212cd7f97ebe225ade0ae74d30cedc12,init -> begin,Wed, 18 Sep 2013 17:04:00 +0900,Wed, 18 Sep 2013 17:04:00 +0900
+2652383f978bd6bf53bd16b2ed3a5d34debc48fc,Fix PlugClean user prompt,Wed, 18 Sep 2013 12:23:43 +0900,Wed, 18 Sep 2013 12:23:43 +0900
+e024756578bf063b61e8fc243f9aa6a012351308,Change PlugClean message,Wed, 18 Sep 2013 12:19:19 +0900,Wed, 18 Sep 2013 12:19:19 +0900
+443fbd3699d95e0e1abb7c72420dbd0e03da9d1e,PlugClean!,Tue, 17 Sep 2013 22:57:13 +0900,Tue, 17 Sep 2013 22:57:13 +0900
+a39753b7acf536f24bfd77de6053dcca67578de5,Merge branch 'master' of github.com:junegunn/vim-plug,Tue, 17 Sep 2013 12:35:29 +0900,Tue, 17 Sep 2013 12:35:29 +0900
+ee343ab562f3b539b6f81c8753cce532a4e6284b,Git remote validation,Tue, 17 Sep 2013 12:35:10 +0900,Tue, 17 Sep 2013 12:35:10 +0900
+2d87d2a5eb99a97cb77c3ec32f2392d5c3e9962f,Relocate screenshots,Tue, 17 Sep 2013 01:59:18 +0900,Tue, 17 Sep 2013 01:59:18 +0900
+09df71c3db7ca25cc6c7618a5c87555ffd483cf7,plug#begin() - plug#end(),Mon, 16 Sep 2013 17:37:09 +0900,Mon, 16 Sep 2013 17:37:09 +0900
+6875731135958fb046aa834f252bbfca01f2612b,4 gifs,Mon, 16 Sep 2013 13:25:57 +0900,Mon, 16 Sep 2013 13:25:57 +0900
+9e1d2529d40c2b461836dc0691d81022f45c5244,Fix broken image link,Mon, 16 Sep 2013 12:49:26 +0900,Mon, 16 Sep 2013 12:49:33 +0900
+de8e9da3cad3013e71f3e57c9af529ad959f1de3,Add screenshot,Mon, 16 Sep 2013 12:45:23 +0900,Mon, 16 Sep 2013 12:45:23 +0900
+9573ec9bd2a54f2bd94f858e4a0f50f6ca1137dd,Change directory structure: user/repo/branch -> user/repo,Fri, 13 Sep 2013 12:13:24 +0900,Fri, 13 Sep 2013 12:13:24 +0900
+754abb36a2a821657972ffa15b560d9681b92a34,Add after directory to rtp as well,Thu, 12 Sep 2013 00:35:24 +0900,Thu, 12 Sep 2013 00:35:24 +0900
+77da66ad63392f1bb443b9520dd5f064f441ee27,Old rubby,Wed, 11 Sep 2013 14:05:38 +0900,Wed, 11 Sep 2013 14:05:38 +0900
+055c4877d25f6ecd7ddc2f26369f76144dc1ab29,Windows support,Wed, 11 Sep 2013 12:29:36 +0900,Wed, 11 Sep 2013 12:29:36 +0900
+0c1a96b6b2168b01b7ca4e4238a40943fa8ee08f,Improve parallel update process,Wed, 11 Sep 2013 12:06:57 +0900,Wed, 11 Sep 2013 12:06:57 +0900
+bc438626ba83091d9323e3d3fdf6adab6bf9890b,Updates,Wed, 11 Sep 2013 02:26:40 +0900,Wed, 11 Sep 2013 02:26:40 +0900
+b84c7094fdc94f9341e6041ff229c4341f9f412b,Update doc,Wed, 11 Sep 2013 00:08:51 +0900,Wed, 11 Sep 2013 00:08:51 +0900
+9e9655f947ce4decf743d4b158910848ab3aa2d5,Fix PlugUpgrade,Wed, 11 Sep 2013 00:08:36 +0900,Wed, 11 Sep 2013 00:08:36 +0900
+fe264c97a1af3745218aa7b78c13d9b31b460046,Initial commit,Tue, 10 Sep 2013 23:58:41 +0900,Tue, 10 Sep 2013 23:58:41 +0900

@@ -1,0 +1,2523 @@
+Fix inconsistency in number of documents scanned (#26514)
+Fix typo in messages.clj (#23720)
+Fix links supported database docs in README.md (#25961)
+Fix Bigquery timestamp to date/datetime conversion with report time zone (#26383)
+[E2E] Fix grep spec filtering (#26387)
+Fix form reinitialization with formik (#26292)
+Fix stacked static chart render failure (#26285)
+Fix loader-utils (#26320)
+Fixing breaking changes according to https://github.com/actions/github-script (#26315)
+Fix failed to cast datetime in mongo (#22313)
+Fix #26284 (typo) (#26291)
+Fix newly created models not appearing in the QB (#26275)
+Fix typo (#25372)
+Adding Tests for hasColumnSettings, Fixing currency bug (#26171)
+Fix google-auth-enabled when upgrading from pre x.45 (#26200)
+Fix google sign in (#26197)
+Fix filtering by join dimensions (#26156)
+Fix typo (#26173)
+Serdes v2: Fixing some more cases of malformed SQL with empty databases (#26134)
+Fix form field API (#26160)
+Fix static viz column formatting (#26112)
+Fix missing lastEditInfo error (#26138)
+Fix BulkFilterModal breaking "between" custom expressions (#26119)
+Serdes v2: Fix the case of no (non-root, non-personal) Collections (#26089)
+Fix Collection created_at migrations for H2 and MySQL/MariaDB (#26087)
+Fix back navigation (#26049)
+Fix detection of backend files when generating i18n EDN (#26022)
+Fix SidebarContent padding (#26005)
+Fix pivot drill labels (#25972)
+[E2E] Fix cache ttl test (flake) (#25965)
+Fix typo in routes.jsx (#25850)
+Fix typo in env.clj (#25861)
+Fix a serialization test by not hardcoding tmp directory (#25880)
+Fix data app page style (#25881)
+Fix cljs compilation (#25878)
+Fix cljs compilation (#25876)
+Fix scripting error in model metadata sidebar (#25758)
+Fix gauge chart overflow (#25860)
+Fix static viz not rendering Lato font (#25809)
+Fix underlying records drill for nested queries (#25759)
+[E2E] Fix the flake in nested questions test (#25736)
+Fix Models code that is dependent on the Model being a real entity (#25718)
+Fix unused underscored not caught by ESLint (#25748)
+Fix global error page (#25749)
+Fix date filter + relative date + offset bug (#25713)
+Fix re-reselect warnings for undefined keys (#25726)
+Fix flakiness of "autocomplete should work for referencing saved questions" test (#25730)
+Fix login form when ldap is enabled but password login is disabled (#25674)
+Fix validation for the saml form (#25671)
+Fix inconsistent left y-axis padding (#25483)
+Fix FieldValuesWidget not showing spinner when loading list values (#25540)
+Fix native editor parameters layout for desktop (#25569)
+Fix popover offset (#25568)
+Fix user-created pages don't show up in app nav (#25557)
+Fix app modals sizing (#25555)
+Fix models picker not working for non-english locale (#25545)
+Fix #25521: 403 page when visiting question's URL with a card template tag (#25525)
+[E2E] Fix flaking models metadata test (#25489)
+Fix Visualization component handling of mode prop (#25438)
+Fix filter changes not updating the root query (#25417)
+Serdes v2: Fix a missing case in the deps for a Card (#25392)
+Fix eslint import error (#25383)
+Fix parameter mapping for multi-series cards (#25355)
+Fix issues with postgres PKCS-12 SSL connections (#25299)
+Fix automatic homepage handling for data apps (#25292)
+Fix Chinese weekdays localization (#25285)
+Fix filters not working for columns in multi-stage queries (#25259)
+Fix condtional to properly render multi-line charts in static-viz (#25216)
+Fix RangeDatePicker with custom columns (#25204)
+Fix updating filters in the filter header for multi-stage queries (#25228)
+Fix boolean fields for public questions (#25170)
+Fix loading the saved questions db for the first question (#25207)
+Fix apps and pages in search and recent/popular items (#25214)
+Fix incorrect bubble size for multi-series (#25164)
+Fix how weeks are displayed in tooltips for native questions (#25140)
+Fixed a misslink redirection for `Alerts` documentation (#25135)
+Fix incorrectness issue for advanced FieldValues when sandboxing use native question (#24967)
+Fix some typing issues related to string table ids (#25106)
+Fix drag-n-drop for data apps (#25082)
+Fix `is_app_page` prop usage (#25096)
+Fix SQL query turning to funnel chart crashes the app (#25060)
+Fix `ul` position in `MainNavbarView` (#24973)
+Fix for redshift late-binding view sync error (#24910)
+Fix radio hover color (#24933)
+Fix segments in case custom expressions (#24939)
+Fix click-and-drag filtering in dashboards for firefox (#24945)
+[E2E] Fix/update `createNestedQuestion` helper (#24929)
+[E2E] Fix flakes in 22700 (#24923)
+Fix click behavior for links (#24762)
+Fix exclude filter with all selected options (#24863)
+Fix Dimension instance mismatch problems when filtering via a native Model's remapped field (#24817)
+Fix for #24715: "Remember Me" functionality doesn't work (#24744)
+Fix merge issues
+Fix incorrect hash for Advanced fieldvalues (#24740)
+Revert "Fix #23689: Sandboxed group managers can't see other users in the People tab (#23825)" (#24760)
+[E2E] Fix segments/metrics failures that started after #24682 (#24717)
+[E2E] Fix a flake in 17160 (#24691)
+Fix spelling of :notification-retry-randomization-factor setting (#24667)
+Fix can't drilldown on null date dimension record (#24587)
+Fix in-memory logger (#24616)
+Fix type error in `pod-writeback` after `master` merge (#24627)
+Fix multi-level nested queries with joins (#24581)
+Fix SSH tunnel leaks when testing connections (#24446)
+Fix failing migrations (#24483)
+Fix dashboard printing (#24585)
+Fix ExplicitSize for printing (#24551)
+Fix delete alert button style (#24512)
+Fixing null error when value is null and isCustom is true (#24517)
+Fix certain dashboard header button icons not centered (#24509)
+Fix column duplication when adding a new breakout (#24503)
+Fix failing test (#24473)
+[E2E] Fix and unskip revoked collection tests (#24412)
+Fix pagination for pinned questions (#24389)
+Fix removing spread class from App (#24350)
+Fix NaN in filter when beyond practicable times (#24246)
+Fix native time tooltip formatting (#24185)
+Fix dashboard header button icons not centering on fullscreen (#24211)
+Fix achiving models doesn't remove them from the collection view (#24178)
+Fix for #24132: Search returns irrelevant matches for non-native questions (#24133)
+Fix incorrect scoring of search results (#23984)
+Fix archiving and making bookmarked collections official (#24174)
+Fix highlighting collections after moving a dashboard (#24170)
+Fix pivot table formatting (#24153)
+Fix SSO users can't change language setting (#24091)
+Fix rendering segment and metric revision history (#24097)
+Fix CircleCI job skipping magic: `$CIRCLE_STAGE` has been renamed to `$CIRCLE_JOB` (#24128)
+Fix the sample table sql (#24124)
+Fix header hover color (#24101)
+Fix tests after merge
+Fixing dashboard info sidebar height (#24056)
+Fix app bar height changes on mobile view when opening navbar (#24052)
+Fix font format parsing for URLs with query strings and hash (#23990)
+Fix row/delete action; other misc. improvements (#24031)
+Fixing viewheader unit test (#24016)
+[E2E] Fix broken `collections` tests (#24010)
+Fix constantly checking token on error (#23815)
+Fix E2E tests
+Fix color pills in Safari (#23946)
+Fix for #20716: "Our analytics" can be confusing when user does not have access to that collection (#23887)
+Fix for #23940: Error sending emails when reply-to setting contains empty string (#23942)
+Fix search bar results overflow (#23947)
+Fix behavior for settings without the default value (#23917)
+Revert "Fix search results covered by dashboard filters (#23920)" (#23926)
+Fix bug in Actions test util causing tests not to run (#23876)
+Fix search results covered by dashboard filters (#23920)
+Fix data app context logging
+Fixes some misses from http_actions routes (#23845)
+Fix for #21984: Viewing tables in Data Model is registered in "Recently viewed" (#23780)
+Fix console warning in PieChart (#23838)
+Fix visualization settings for dark brand colors (#23793)
+Fix 2 Dashboard console warnings (#23843)
+Fix #23689: Sandboxed group managers can't see other users in the People tab (#23825)
+Fix dashboard bugs (#23812)
+Fix 23421 (#23802)
+Fixing filter pill spacing (#23797)
+[E2E] Fix and optimize repro for #17160 (#23792)
+Fix failed E2E tests due to merge conflicts (#23794)
+Fix `TableSimple` visual regressions (#23765)
+Fix copy in custom font settings (#23739)
+Fix databases with no permission being shown with search results (#23678)
+Fixing Model Metadata and a dashboard test (#23742)
+Fix copy in custom font settings (#23735)
+Fix issues with custom brand colors on the homepage and the notebook editor (#23702)
+Fix whitelabel settings after #23721 (#23732)
+Fix failed to copy dashboard with parameters (#23719)
+Fix summarize button color (#23728)
+Fix dashboard sticky behaviour (#23692)
+Fix saved question picker issues (#23704)
+[E2E] Fix models tests (#23698)
+Fix Booleans Rendering as Categories (#23638)
+Fix import
+Fix circular dependencies in writeback actions
+Fix error with custom column on tables sandboxed by a UUID column (#23600)
+Fix search in the app bar (#23613)
+Fix migration ordering
+Fix importing renamed file
+Fix `cypress.js` included twice (#23490)
+Fix alerts and subscriptions bugs (#23523)
+Fix e2e tests (#23541)
+Fix editable text issues (#23532)
+Fix OSS embedding test failing (#23513)
+Fix a race condition in loading questions for pinned items (#23466)
+Fix compilation of temporal arithmetic in between filters (#23292)
+[E2E] Fix `filters` flakes (#23440)
+[E2E] Fix flakes in repro for 22227 (#23416)
+Fix various issue when handling null user names (#23376)
+Fix a typo in the Developer's Guide (#23401)
+[E2E] Fix native filter revision history flake (#23361)
+Fix e2e test after introducing #23338 (#23348)
+Fix double-committing filters in FilterPopover (#23289)
+Fix duplicated import
+Fix mysql humanize error (#23263)
+Fix click behavior for list view visualization (#23250)
+Fix an extra defmethod that should have been removed during merge
+[E2E] Fix group-admin flake (#23211)
+Fix color init for whitelabel (#23194)
+Fix whitelabelling of CSS colors with the new palette (#23160)
+Fix typo in schemas.js (#23189)
+[E2E] Fix dashboard flake (#23184)
+Fix admin select size (#23163)
+[E2E] Fix permissions pin flake (#23144)
+Fix missing `t` (#23105)
+Fix accessing model cache error modal from URL (#22794)
+Fix colors parsing (#23092)
+Fix metrics custom expression editor (#23045)
+Fix missing 'meta' variable (#23016)
+Fix deadlock in pivot table connection management (#22981)
+[E2E] Fix line-toolbar-toolips flake (#23036)
+Fix `process-query-debug` to work with pre- and post-processing middleware (#22968)
+Fix missing `t` wrappers (#22941)
+Fix typo fitler -> filter (#22956)
+Fix ordering in the dev guide documentation on how to build Metabase (#22930)
+Fix for query preprocessing happening 3x (#22931)
+Fix flaky test in randomized schedules (#22865)
+Fix model level persistence UI states (#22795)
+Fix UI issues in the bulk filtering modal (#22775)
+Fix relative preview dates for past intervals (#22733)
+Fix inability to save to sub-collections when having no access to the parent (#22663)
+Fix for whitespace and other minor issues in parameters code (#22676)
+Fix whitelabeled colors aren't respected in x-rays (#22458)
+Fix `yarn docs`/`yarn dev`/`yarn dev-ee` issues (#22646)
+Fix a typo in the component name (#22605)
+Fix whitelabeled logo proportions (#22637)
+Fix redirects of group managers when they remove the last group they manage (#22502)
+Fix automagic dashboards for queries with source queries (#22481)
+Fix LDAP requires `uid` to do group sync (#22368)
+Fix unneeded query nesting when removing all expressions (#22334)
+Fix permission bugs (#22470)
+Fix :Postgres :day-of-week extracts coming back as 0..6 instead of 1..7 (#22167)
+Revert "Fix visualization settings for raw tables (#22422)" (#22493)
+Fix toggle button alignment (#22464)
+Fix visualization settings for raw tables (#22422)
+Fix pasting non-numeric values into numeric filters (#22453)
+Fixes loading moment locale for zh locale (#22454)
+Fix smart scalar alignment (#22343)
+Fix clj-kondo alias error on mdb.conn (#22466)
+Fix migrate ParameterFieldWidget to TippyPopover (#22242)
+Fix unescaped apostrophes in translated strings during .edn creation (#22357)
+Fix FormMessage's removed const reference (#22417)
+Fix cancelling the native query via shortcut (#22415)
+Fix typo in the download limit message (#22380)
+Fix Trivy artifact logic (#22389)
+Fix relative filters for non-english locale (#22385)
+Fix removing the field type in data reference (#22367)
+Revert "Fix changing column order/visibility via sidebar is inconsistent #13455 (#21338)" (#22342)
+Fix several bugs in relative datetime filters (#22321)
+Fix data selector drops list of database schemas (#22327)
+Fix FK drills for native models overwriting metadata (#22274)
+Fix a few console warnings/errors in QB (#22275)
+Fix sort by aggregation name generation (#22232)
+Fix images in markdown for events (#22189)
+Fix XLSX column names for remapped cols (#22212)
+Fix unfriendly admin databases error message (#21607)
+Fix table pagination when there are cells with images (#22147)
+Fix moving a default timeline between collections (#22244)
+Fix dashboard PK drill on filtered data (#22190)
+Fix `Metabase` name is still present despite whitelabel name existance (#21616)
+Fix reloading questions when filters are not changed (#22197)
+Fix drilling through FKs outside of 2000 rows limit (#22140)
+Fix Permissions Graph failed when schema name has path char (#22090)
+Fix freezing when opening a timeseries chart with sparse data and without the X-axis (#22086)
+Fix exclude days of week filter formatting (#22135)
+Fix errors when downgrading then upgrading to bigquery driver (#22121)
+Fix the search input being too narrow (#22095)
+Fix state duplication with bookmarks (#22009)
+Fix broken relative datetime filter "Current" (#22017)
+Fix following an FK from object detail view (#22013)
+Fix reference for the 16938 repro (#21994)
+Fix home and auth backgrounds (#21953)
+Fix pivot queries that specify `:order-by` (#21839)
+Fix sidebar icon doesn't support whitelabeling (#21939)
+Fix native model view for no-data user (#21819)
+Fix custom expression being to aggresive in an aggregation (#21834)
+Fix homepage background (#21914)
+Fix perf issue with charts with many columns (#21911)
+Fix "not found" shown briefly on admin settings (#21800)
+Fix ID column & null value sorting in SimpleTable (#21838)
+Fix signing in for users with non-default locale (#21728)
+Fix event rendering with various X intervals (#21852)
+[E2E] Fix `homepage` flakes (#21812)
+Fix minor navigation UI regressions (#21744)
+Fix performance of getList selector (#21715)
+Fixes to DB and data model perm enforcement for users without data perms (#21699)
+Fix mixed up order-by on recent_views (#21726)
+Fix performance of collections when editing (#21702)
+Fix combined series dashcard not showing correct column title in tooltip (#21267)
+Fix loading locale in setup (#21651)
+Fix pie chart settings formatting (#21691)
+[E2E] Fix flake in repro for #10829 (#21694)
+Fix an error when converting a table question to SQL (#21673)
+Fix test failure caused by floating point variance between devices (#21674)
+Fix rendering emails with <10 items as table with trace logging (#21633)
+Fix filtering and ListField component clean up (#21613)
+Fix Snowflake start of week (#21604)
+Fix first_login so that it actually shows the earliest login (#21635)
+Fix navigating back in details modal (#21618)
+Fix MongoDB's native query preview overflow (#21463)
+[E2E] Fix collection flakes (#21499)
+Fix SSO failed to sync admin group (#20991)
+Fix XLSX exports that include NaN or Infinity (#21482)
+[E2E] Fix 13455 flake (#21476)
+Fix changing column order/visibility via sidebar is inconsistent #13455 (#21338)
+Fix collection menu padding (#21451)
+Fix data selector popover alignment (#21439)
+Fix data model perms graph to always include "schemas" key at top level (#21442)
+Fix subscription flakes related to "Email sent" string (#21441)
+[E2E] Fix admin datetime flakes (#21440)
+Fix binning click-related flakes (#21436)
+Fix small typo (#21432)
+[E2E] Fix flake in repro 17514 for good (#21423)
+Fix name [skip ci] (#21424)
+Fix flaking collection tests [ci skip] (#21417)
+Fix flaking Percy `table` snapshot in CCI [ci skip] (#21416)
+[E2E] Fix flaky collections sidebar tests (#21397)
+@sugengsuprayogi's "Fix download question data on embedded dashboard" (#21231)
+[E2E] Fix xrays flake (#21389)
+Browsing | Fix collection type & move tree utility (#21288)
+Fix mobile layout for questions and dashboards (#21349)
+Fix flakes in native filters spec [ci skip] (#21387)
+Fix a flake in repro for #15655 [ci skip] (#21379)
+Fix error and new question pages layout (#21329)
+Fix a flake in `models` (#21368)
+Fix a race condition when creating default timelines (#21354)
+Fix Time Series Fill When Grouping by Minute (#21323)
+Fix Loading the SSL root certificate into a TrustManager (#21304)
+Fix precision error in chart domain pad (#21263)
+Fix Padding on Single Database Names (#21283)
+Fix space (#21284)
+Fix Cypress tests not passing on backporting PR (#21281)
+[E2E] Fix accidental branch switch (#21268)
+Fix moved model's collection isn't displayed until page refresh (#21178)
+Fix cannot convert questions with snippets to models (#21210)
+Fix display values options not updated after the field is updated (#21217)
+Fix `:postgres` filtering by current quarter; remove a few unneeded casts in PG SQL output (#21204)
+Fix expressions with duplicate column names (#21208)
+Fix test for inclusion of global viz settings in viz settings middleware (#21188)
+Fix incorrect event icon collapsing (#21158)
+Fix snowplow test (#21157)
+Fix string quoting in custom expression (#21049)
+Fix text overflow issues in events (#21154)
+[E2E] Fix `permissions` flakes (#21092)
+Fix question E2E flakes (#21085)
+Fix regression from fixing #20954 (#21051)
+Fix E2E binning sidebar flakes (#21066)
+Fix `[:relative-datetime :current]` inside `:between` filter clause (#20975)
+Fix noisy backend tests (#20910)
+Fix hook listeners (#20926)
+Fix error in send-abandonment-emails task (#20976)
+Fix the issue with events test (#21009)
+Fix sometimes table doesn't resize (#20954)
+Fix no visual feedback when updating data model field details (#20915)
+Fix date parsing in DateInput (#20967)
+Fix x-axis granularity for time series in static viz (#20896)
+Fix BigQuery incorrectly quoting datetime-truncated field literal forms (#20907)
+Fix brackets and ordering for two dependencies in deps.edn (#20901)
+Fix no visual feedback when updating data model column properties (#20874)
+Fix schemas not loading/showing immediately for a saved question (#20800)
+Fix main page show indefinite loading spinner when any API failed (#20840)
+Fix "Show error details" keeps showing after clicked (#20824)
+Fix empty state icon in activity page misalignment (#20820)
+Fix bugs and add tests for timelines in collections (#20798)
+Fix and reproduce #20499: The term "SQL query" used in DBs that don't support SQL (#20506)
+Fix Help link for nested site users (#20740)
+Fix 'Compare to the rest' action styling (#20767)
+Fix a flake where Cypress cannot click "Exit admin" (#20738)
+Fix the icon for custom column (#20728)
+Fix resolution of implicit joins inside explicit join conditions (#20697)
+Fix E2E admin l10n tests
+Fix timestamp saving in events (#20679)
+Fix locked parameters in embedded questions (#20635)
+Fix nested query controls for no-data users (#20317)
+Fix permission error when opening revision history (#20421)
+Fix source aliases for Fields from joins not being properly escaped (#20474)
+Fix parsing of some aggregation functions with no args (#20432)
+Fix object detail browsing (#20101)
+Fix revision history display (#20417)
+Fix drill actions dispatching redux actions are broken (#20098)
+Fix QP remapping middleware not recursing into joins or source queries of source queries (#20154)
+Fix locking in new Alpine release container (#20298)
+Fix model metadata propagation (#20273)
+Visual Design Cleanup for Headers - Fix header secondary buttons (#20055)
+Fix table column titles get cut-off when switching to model metadata editor (#20249)
+Fix Browse Data section items padding (#20224)
+Fix timestamp color (#20225)
+Fix ambiguous run-query-for-dashcard endpoints (#20139)
+Fix pin map lat/lon column selection when query uses :breakout (#20227)
+Fix display of horizontal lines in dashboard text cards (#20177)
+Fix native model editor initial height (#20056)
+Fix URL hash appended to model URLs (#20183)
+Fix no-data user can't open a model (#20161)
+Fix data selector crashes and closes after hiding a table (#20166)
+Fix "source cannot be null" error in MongoDB (#20145)
+Fix native query editor resizing gets stuck (#20160)
+Fix regression in supporting `user:port@host` app db connection strings (#20131)
+Fix models e2e typing flake pt2 (#20146)
+Fix creation type (#20119)
+Fix passing treat-before-posting on the FE (#20111)
+Fix missing item descriptions in search results (#20100)
+Fix typing flake in models query editor test (#20086)
+Fix empty result with suffix "%" shows "null%" in Gauge visualization (#19558)
+Fix focus color (#20054)
+Fix NullPointerException in Postgres when using client SSL properties (#20034)
+Fix rerender when locale changes (#20015)
+Fix database created at check (#20031)
+Fix clj-kondo warning introduced in #19963  (#20007)
+Fix activation snowplow events on FE (#19986)
+Fix model toast messages say "question" (#19980)
+Fix x-raying a nested question (#19922)
+Fix reordering model columns (#19952)
+Fix a couple of edge cases in column ordering for exports (#19882)
+Fix metadata editor sidebar formatting UI (#19916)
+Fix Radio input UI regressions and remove dependency on styled-system (#19917)
+Fix some setup accessibility issues (#19883)
+Fix metadata table overflow (#19881)
+Fix semantic type picker in model metadata editor (#19877)
+Fix typos in translatable strings (#19843)
+Fix model metadata strength calculation (#19803)
+Fix focus-visible bug (#19804)
+Fix prettier linter error
+Fix Migration number 420.00-070 => 42.00-070 (#19777)
+Fix conditional logic in geojson api endpoint (#19760)
+Fix drill-through popover look for native models (#19138)
+Fix native model results disappear when leaving query editor (#19739)
+Fix the remaining model icons (#19735)
+Fix error after turning a question into a modal (#19721)
+Fix 19704 - Use "folder" icon for collections everywhere (#19723)
+Fix homepage styling issues (#19695)
+Fix flaky tests (#19701)
+Fix 19630 (#19655)
+Fix bigquery-cloud-sdk dataset-id normalization logic (#19663)
+Fix copy for the modal (#19690)
+Fix flaking repro for 11439 (#19692)
+Fix react-ace basePath console error (#19672)
+Fix copy for slack setup (#19664)
+Fix copy (#19660)
+Fix creating a new collection from navbar (#19626)
+Fix toggle background color (#19623)
+Fix typo (#19575)
+Fix google auth redirect url and sign-in styling (#19568)
+Fix metadata typo for Sample Dataset json (#19578)
+Fix typo in sql parameters user guide (#19564)
+Fix group caching issue (#19526)
+Fix mobile UI bugs in setup (#19509)
+Fix year-change CI breaks (#19507)
+Fix use of deprecated Liquibase.listUnrunChangeSets (#16085)
+Fix export type from cljs (#19493)
+Fix forcefully undefaulted number parameter filter from getting set to NaN (#19473)
+Fix x-ray selection (#19445)
+Fix intermittent e2e test failures due to race condition in Sample Dataset popover (#19385)
+Fix x-ray dashcard drilldown (#19436)
+Fix navigation with contextual help (#19431)
+Fix Liquibase checksum failure (#19429)
+Fix file upload of secret values (#19398)
+Fix combos in tables of column cardinality bigger than the columns being used in combo being broken (#19368)
+Fix expression editor’s cursor position in Safari (#19377)
+Fix logging test utils & re-enable tests (#19334)
+Fix MongoDB path collision error with nested columns (#19252)
+Fix X-Rays with filters (#19370)
+Fix typo in Dockerhub repository name (#19351)
+Fix several intermittent test failures in e2e tests with `should` (#19342)
+Fix sync issue interfering with Cypress MongoDB snapshots (#19311)
+Fix `ExpressionDimension.prototype.field` error when associated with nested question (#19282)
+Fix COALESCE with string type (#19305)
+Fix (skip) 17490 repro (#19315)
+Fix Presto JDBC test in CircleCI (#19313)
+Fix small typos in docstrings (#19170)
+Fix LDAP port validation and add LDAP API tests (#19185)
+Fix google-api-client version from google driver (#19176)
+Fix/mongo srv connection string (#19114)
+Fix type-checking with COALESCE (#19157)
+Fix pivot tables with missing pivot columns (#19116)
+Fix analytics settings (#19091)
+Fix sorting and add tests (#19045)
+Fix flaky email tests (#19023)
+Fix issue with moment locale not working (#18943)
+Fix sending a test subscription with non-default parameters (#18965)
+Fix clicking on a legend item in the query builder on unsaved question (#18790)
+Fix data picker's bucket step look (#18869)
+Fix query->preprocessed when the query has cached results (#18858)
+Fix notebook editor crash when joining on a custom column (#18845)
+Fix image link click area (#18806)
+Fix linter warning about not used variable in the Icon component (#18805)
+Fix table name gets included in pinned dimension names even for the query root table (#18753)
+Fix border width for the spinner (#18727)
+Fix questions with field literals in joins cause an infinite loop on the frontend (#18668)
+Fix SSH tunnel with ED25519 keys (#18697)
+Fix 18061 flake by obtaining `uuid` from the xhr response (#18713)
+Fix margin right for "Set up alert" icon (#18606)
+Fix SSH tunnel for SSH servers with certain configuration (#18591)
+Fix #18547 - Wrong id applied to the link to the question added to the dashboard [Activity log] (#18578)
+Fix calculation in `ttl-hierarchy` (#18495)
+Fix precondition of change set 97 (#16095)
+Fix no databases on embedded new question page (#18556)
+Fix X-Ray table field shown as "null" in the title (#18066)
+Fix missing card descriptions (#18501)
+Fix flaky `rotate-encryption-key!-test` (#18371)
+Fix broken pin map when there are no valid points (#18427)
+Fix saved question DB displayed in native editor DB picker (#18419)
+Fix line charts with missing values and duplicate X (#18415)
+Fix rendering markdown links (#18417)
+Fix filtering by null (#18400)
+Fix saving nested questions to Our Analytics (#18383)
+Fix inability to change field schema (#18385)
+Fix color issue with step action buttons (#18318)
+Fix add series modal freezes the entire app (#17609)
+Fix invalid import (#18311)
+Fix new questions don't appear in the Saved Questions picker (#18095)
+Fix auto expanding nested collections (#18240)
+Fix typo in object key (#18306)
+Fix CSP issue for Google Analytics (#18295)
+Fix whitelabel issues with color function (#18217)
+Fix datetime formatting for pulse/dashboard subscription attachments (#18225)
+Fix subscriptions being sent for the wrong dashboard (#18281)
+Fix virtual fields are not passed to ParameterValueWidget (#18223)
+Fix Dashboard Subscription email validation (second pass) (#18237)
+Fix cache native queries not working (underlying problem is unit conversion actually) (18160) (#18230)
+Fix empty state in the Erroring questions page (#18188)
+Fix composite chart layout (#18195)
+Revert "Fix combined tooltip for charts (#17946)" (#18227)
+Fix DataSelector infinite loop (#18228)
+Fix exports for queries with aggregations (#18205)
+Fix /account authentication and session deletion behavior (#18151)
+Fix errors from disallowed characters in BigQuery custom expression names (#18055)
+Fix cutting of data points in line/area/bar charts (#18119)
+Fix loading sample dataset in Redshift (#18089)
+Fix stacked charts breaking waterfall charts (#18093)
+Fix BigQuery Percentile and Median expressions not using correct backtick quoting (#17979)
+Fix {0} being shown when locale is "pt" (#17875)
+Fix saving chart with custom expressions only retains first 2 data series (#17855)
+Fix slow query when using nested native question with many rows (#18023)
+Fix personal sub-collections are hidden in item picker (#18068)
+Fix drillPK for composite keys (#18039)
+Fix dashboard filters get invisible while dragging & text selection while dragging (#18053)
+Fix #18003 regression by adding a check for borderless buttons (#18020)
+Fix approved domains validation for alerts and dashboard subscriptions (#18049)
+Fix x-ray dashboards crash on first open (#18045)
+Fix Audit logging not showing ad-hoc native queries (#18044)
+Fix text selection while rearranging table columns (#18032)
+Fix drag-n-drop in dashboard visualisation settings modal (#18031)
+Fix #15893 by disallowing literal left-hand side in comparison (#18017)
+Fix ENV case for `QA_DB_ENABLED` (#18027)
+Fix default formatting options for numeric types (#17978)
+Fix #17975 by supporting getting MBQL field literal (#17982)
+Fix #17397 - "Showing first 2000 rows" is always displayed when results are loading (#17954)
+Fix #16810: Dashboard "isDirty" property is set to true after the Dashboard title is updated. (#17955)
+Fix whitelabel overriding CSS value priority (#17924)
+Fix incorrect table names on join dimensions (#17976)
+Fix combined tooltip for charts (#17946)
+Fix missing translation of Others on the row chart (#17972)
+Fix missing formatting on the x axis of the row chart (#17974)
+Fix questions with joins or filters cause re-run overlay after first save (#17971)
+Fix data points for scatter charts (#17973)
+Fix grid map tooltips without metric column (#17969)
+Fix SaveQuestionModal's submit button state (#17951)
+Fix issues reverting dashboard (#17899)
+Fix the bulk actions bar on the archive page to reveal the last item (#17947)
+Fix data points formatting for multi-series (#17925)
+Fix whitelabling for chart colors (#17903)
+Fix showing saved value in language picker (#17853)
+Fix "Include today" for relative "Next" (#17854)
+Fix removing a notebook section can remove other sections (#17727)
+Fix race conditions when loading drivers (part 2) (#17368)
+Fix test title (#17864)
+Fix dashboard subscriptions sidebar for sandboxed users (#17823)
+Fix support for NUMERIC and BIGNUMERIC types (#17837)
+Fix settings saving behavior (#17810)
+Fix SAML login with OpenAM (#17785)
+Fix unable to click "Learn more" on custom expression (#17774)
+Fix sorting admin sections by order (#17759)
+Fixing a missing link in Markdown (#17735)
+Fix field filter no longer responding after selecting "None" (#17746)
+Fix chain filter search against FieldValues that contains nil (#17706)
+Fix joins with incomplete conditions are removed on query run (#17708)
+Fix #17673: Rounded buttons have excessive white background (#17697)
+Fix Cypress binary not being available (#17705)
+Fix failing geolocation test :wrench: (#17707)
+Fix setting Block permissions in the permissions/graph API endpoints (#17651)
+Fix #17657: No recipients causes error resulting in blank screen (#17668)
+Fix better source map option and add documentation (#17675)
+Fix notification management FE issues (#17618)
+Fix options menu in visualization settings sidebar (#17629)
+Fix run overlay not going away on GUI questions (#17590)
+Fix references to the possessive form of 'its' (#17589)
+Fix serialization P2 issues (#17388)
+Fix tracking and reporting front-end coverage for EE (#17506)
+Fix incorrect navbar width (#17496)
+Fix propType warning for `RawMaybeLink` (#17464)
+Fix order of cards in dashboard subscriptions (#17419)
+Fix column settings button if column settings side bar is already open (#17355)
+Fix collection sidebar chevrons vertical alignment (#17403)
+Fix babel loader when the cache is not desired (#17398)
+Fix wrong link in dashboard-filters user documentation (#17378)
+Fix Presto JDBC connection error (#17293)
+Fix location of share icon (#15919)
+Fix the styling of the buttons in the notebook (#17313)
+Fix incorrect props are passed to CollectionPermissionModal when used for snippets folders (#17284)
+Fix Elastic Beanstalk deployment in v40 (#17261)
+Fixing Presto JDBC issues (#17265)
+Fix failing tests after #16749 (#17274)
+Fix autobackport job fails because of branches like release-x.39.4-something (#17241)
+Fix plural form for `CollectionList.styled.js`
+Fix horizontal FormField label
+Fix `POST /api/collection` ignores authority_level (#17070)
+Fix image is rendered as url when there is a click behavior for the column (#17219)
+Fix people dropdown goes outside of the screen (#17218)
+Fix serialization: Visualization column settings lost (#17127)
+Fix waterfall visualization with ordinal and numeric X-axis (#17150)
+Fix dashboard card hovering buttons drag behavior (#17130)
+Fix can't select card text while editing dashboard (#17124)
+Fix padding for Add a map button (#17120)
+Fix partial commits (#17121)
+Fix SearchResult.info page broken (#17086)
+Fix missing icons (#17088)
+Fix Card async-metadata running query even when metadata can be deter… (#17053)
+Fix popover footer when is not equalOps (#17076)
+Fix error when opening a public question with filters having default parameters (#17034)
+[P0] Fix filters don't work for public and embedded questions (#17032)
+Fix long titles in collections push out the last-edited-by and last-edited-at columns (#16992)
+Fix native question looses visualisation settings if query fails (#17009)
+Fix console errors for Radio and SegmentedControl (#16950)
+Fix home page our analytics (#16910)
+[Fixes #16855] Avoid error when user searches with no data perms (#16925)
+Fix "Run selected text" removes everything but the selected text from the query (#16917)
+Fix data picker initial state (#16894)
+Fix random collection is suggested when saving a new dashboard (#16853)
+Fix native editor is covered with run-overlay if filter is empty (#16850)
+Fix race conditions when loading drivers (#16750)
+Fix Oracle filtering against empty strings (#16725)
+Fix SQL saved question reference to Saved Questions with parameters (#16724)
+Fix newly added columns don't appear after some columns are hidden (#16761)
+Fix invalid calculation of chart dimensions caused collapsing (#16717)
+Fix duplicated temporal subdimensions (#16755)
+Fix line chart's y-axis for filtered multi-series charts (#16713)
+Fix a regression in getting subdimensions (#16707)
+Fix admin setup smoke test (#16729)
+Fix "Zoom in" and "View these X" drilldown actions for charts based on custom columns (#16664)
+Fix Data Model page blank if database doesn't exist (#16694)
+Fix issue with the collections appearing in the list page (#16562)
+Fix can't share dashboard containing only text cards (#16586)
+Fix can't unarchive question without data access (#16590)
+Fix funnel appearance (#16626)
+Fix questions used in SQL query aren't linked correctly from variables sidebar (#16651)
+Fix misspelling and duplication in h2 unix timestamp conversions (#16631)
+Fix drilldown on multi-series chart (#16608)
+Fix flake in repro for #14114 (#16623)
+Fix broken smoke test (#16620)
+Fix pivot tables don't show stand-alone values on the upper level grouping (#16566)
+Fix border radius for circle icon
+Fix UI flash when sorting collection items (#16511)
+Fix last edit query (#16520)
+Fix typo in lint-config (#16561)
+Fix Popover proptypes (#16560)
+Fix and unskip repro for #8333 (#16537)
+Fix missing time series footer (#16478)
+Fix can't archive a question from the Question page (#16514)
+Fix bulk archive broken (#16500)
+Fix can't "Select All" collection items if all items are pinned (#16501)
+Fix #16299 MongoDB empty results when filtering against array (#16480)
+Fix broken LDAP group lookups for Active Directory (#16331)
+Fix test with old syntax
+Fix JS error on JWT settings form (#16394)
+Fix "Edit collection permissions" btn disappeared (#16339)
+Fix incorrect slugs for collections (#16296)
+Fix database docs card style, add in-out animation (#16302)
+Fix `nosql` user's email address (#16306)
+Fix expansion of :metric macros inside nested queries (#16241)
+Fix incorrect numeric tooltip values  (#16230)
+Fix standard filter detection (#16174)
+Fix standard filter detection (#16174)
+Fix API endpoints used by LDAP and email settings forms (#16187)
+Fix "remember me" checkbox on login  (#15995)
+Fix #15980: Refresh on hover (#16207)
+Fix admin setup test by adjusting the expected message (#16196)
+Fix #16188 (React unsupported style property warning in NewQueryOption) (#16192)
+Fix database schemas browsing (#16156)
+Fix a regression in getting the default dimension (#16140)
+Fix #16131: Refactor "hacky" helper functions (#16164)
+Fix UX bugs in ExpressionWidget (#16157)
+Fix AccordionList PropType (#16160)
+Fix Druid queries with temporal Fields that don't have a :temporal-unit (#16028)
+Fix multi-stage Dockerfile used by head images not building version info (#16052)
+Fix Whitelabel favicon not working in all browsers (#16022)
+Fix table visualization flaky spec (#16041)
+Fix reflection warnings (#16005)
+Fix Druid queries with multiple filters if some but not all are temporal (#16027)
+Fix "Our analytics" is initially suggested only to admins when saving items (#15999)
+Fix geocode test failures (#15970) (#15986)
+Fix geocode test failures (#15970)
+Fix item picker suggests to select items user does not have write access to (#15613)
+Fix `react/jsx-key` errors (#15448)
+Fix flaky diagnostic-info-capture-test (#15920)
+Fix sidebar loading causes UI jump (#15719)
+Fix not possible to select pinned collection items using checkbox (#15826)
+Fix-broken-ref (#15846)
+Fix typo in documentation (#15798)
+[SCHEDULED, Week 19] Fix `react/no-string-refs` errors (#15547)
+Fix wrong tooltip on charts with unaggregated data (#15778)
+Fix alignment of company logo when whitelabelling is turned on (#15755)
+Fix collections page loads slowly if contains lots of data (#15715)
+Fix `react/no-children-prop` errors (#15546)
+Fix archived personal sub-collections are displayed in the sidebar (#15674)
+Fix dashboard and question actions visibility depending on user's permissions (#15654)
+Fix "select all" button in collections footer (#15670) (#15676)
+Fix "select all" button in collections footer (#15670)
+Fix typo (#15669)
+Fix image width on Text Cards to use max-width (#15653)
+Fix collections without subcollections have an expand arrow (#15626)
+Fix settings left-hand nav being in opposite order in EE edition (#15607)
+Fix (or at least greatly reduce) flakiness of `custom_column.cy.spec.js` (#15622)
+Fix `data_ref.cy.spec.js` flake (#15619)
+Fix archive search (#15080) (#15604)
+Fix login history emails (#15606)
+Fix bad parameterized i18n template strings on FE (#15599)
+Fix Duplicate action visibile with read permission (#15573)
+Fix nested links error in `BrowseHeader` component (#15568)
+Fix BigQuery UNIX timestamps (#15552)
+Fix subdimensions for a joined/FK dimension (#15530)
+Fix `react/no-unescaped-entities` errors (#15545)
+Fix `jsx/no-target-blank` React errors (#15532)
+Fix flakiness in `scatter` visualization tests (#15520)
+Fix tooltip value on unaggregated data (#15472)
+Fix subscription cy test (#15521)
+Fix poorly-formed reference to Slack's retina image (#15500)
+Fix query in `scatter.cy.spec.js`
+Fix query in `pie_chart.cy.spec.js`
+Fix ee Dockerhub build (#15449)
+Fix failing smoke tests in CI (#15461)
+Fix druid throwing "Invalid type marker byte 0x3c for expected value token" errors if limit is 1048575  (#15452)
+Fix 24-hour format formatting of times after midnight (#15426)
+Fix SAML redirect to with certain URLs e.g. /collection/root (#15410)
+Fix exports not being in report timezone :calendar: (#15415)
+Fix Oracle SSL tests (#15260)
+Fix typo in semantic migration (#15218)
+Fix sandboxed Field Values regression
+Fix TIME (WITHOUT TIME ZONE) test failures after DST change (#15173) (#15176)
+Fix TIME (WITHOUT TIME ZONE) test failures after DST change (#15173)
+Fix wording in 05-permissions doc (#15162)
+Fix issues in execute.clj from follow-up on PR #14883 (#15102)
+Fix sandboxes test flake (in repro #14612) (#15135)
+Fix flakiness in test-ssh-tunnel-reconnection-h2 (#15088)
+Fix BigQuery generated field aliases when table names contain non-alphanumeric characters (#15023)
+Fix a gnarly typo (informational, doesn't affect correctness) (#15033)
+Fix pivot table queries w/o data permissions; a few other related fixes (#15019)
+Fix render error when removing a dashboard parameter (#14999)
+Fix nested queries with joins and expressions (#14969) (#15001)
+Fix MongoDB test failures :wrench: (#15012)
+Fix queries with multiple levels of nesting and aggregating/filtering (#14992)
+Fix redshift test failures (#14988)
+Fix test assertions in light of changes from PR #14897 (#14984)
+Fix regex-match-first operator for Postgres to work properly when run against subqueries (#14924)
+Fix #9357: Native question filter widget reordering via drag and drop (#14952)
+Fix the editor not getting the focus right away after selecting database (#14915)
+Fix confusing "current" breadcrumb UX (#14884)
+Fix documentation links for developers (#14853)
+Fix laziness in SQL QP query compilation (#14858)
+Fix check for disabled button in `add.cy.spec.js` (#14833)
+Fix using a query that contains joins to a table with FK remaps as a source query (#14745)
+[Fixes #14746] Close dashboard subscription list sensibly (#14759)
+Fix metadata for SQL-based sandboxes  (#14734)
+Fix two issues with dashboard click behavior (#14668)
+Fix custom columns in pivot tables (#14651)
+Fix occasional test failure
+Fix setting of selectedSchema in MetadataTablePicker (#14549)
+Fix test from #13015 not running against Redshift (#14499)
+Fix null day-of-week in SchedulePicker (#14525)
+Fix public/embedded pivot tables (#14462)
+Fix #14327: Collapsed calendar prevented adding a date filter (#14492)
+Fix `pulse.cy.spec.js`
+Fix `downloads.cy.spec.js`
+Fix schedule picker for pulses (#14413)
+Fix sandboxing cache issue (#14388)
+Fix duplicate plugin loading when running local dev server (#14278)
+Validate dashboard subscriptions [Fixes #14257] (#14263)
+Fix #14114 (#14251)
+Fix 13868 (second try) (#14248)
+Fix link to Api Documentation (#14147)
+Fix SQL columns action menu appearance (#14154)
+Fix #13299: Misconfigured "Port" label and input fields (#14134)
+Fix #13187: FE should respect settings for `auto_run_queries` on page load (#14121)
+Fix yet-another incorrect X axis label for waterfall total (#14048)
+Fix `user.cy.spec.js` smoke test (#14041)
+Fix #14035: waterfall issue with explicit time zone (#14038)
+Fix #13894: Always use "Previous results" for subsequent joins (#13895)
+Fix chain filtering with temporal string params like 'last32weeks' :calendar: :wrench: (#13876)
+Fix MySQL Cypress tests in `master` (#13915)
+Fix smoke tests (#13897)
+Fix `dash_drill.cy.spec.js` (#13852)
+Fix `dash_drill.cy.spec.js` (#13852)
+Fix nightly smoketests CI config (#13874)
+Fix yarn prettier (#13873)
+Fix `snippet` Cypress test for CI (#13843)
+Fix admin settings `auth` cypress test (#13841) [ci skip]
+Fix scalar error when rendering null (#13808)
+Fix `unused var` linter error on a release branch [ci skip] (#13790)
+Fix Pie chart visualization error when rows contain nils (#13721)
+Fix formatting temporal values with custom day of week (#13740)
+Fix Typo [ci skip] (#13742)
+Fix #12140 (#13724)
+Fix env variable name to reflect one actually used in Docker image (#13728) [ci skip]
+Fix `metrics.cy.spec.js` flakes (#13709)
+Fix Cypress flakes in `dashboard/dashboard.cy.spec.js` file (#13703)
+Fix `settings/settings.cy.spec.js` flakes (#13701)
+CI: Fix the cache key for uberjar for running smoketest (#13698)
+Fix dependabot and yarn warnings (#13675)
+Fix recent Cypress flakes (#13658)
+Fix old MBQL syntax in tests (#13647)
+Fix crash in ObjectDetail when parsing invalid JSON (#13633)
+Fix collections graph stack overflow (#13618)
+Fix MB_EDITION ENTERPRISE vs ee confusion (#13636)
+Fix Cypress flake in `admin/datamodel/metrics` spec file (#13621)
+Fix Cypress flake in `admin/settings/settings` spec file (#13616)
+Fix failing Cypress test in `dashboard-drill` spec file (#13612)
+[Fixes #11879] [Fixes #8410] Don't wrap email attachment filenames (#13563)
+Fix BQ/GA driver builds
+Fix null handling in filters regression (#13570)
+Fixing of TIME breakouts in MySQL (#12907)
+Fix crash using field filter without perms (#13481)
+[Fixes #7044] Don't render negative values for bar charts in pulses (#13527)
+Fix merge [ci all]
+Fix recent MySQL/MariaDB test failures [ci all] (#13526)
+Fix mysql build breakage (#13523)
+Fix typo in "query runtime minimum for cache" log line (#13302)
+[Fixes #12653] Remove nil rows when rendering a sparkline pulse (#13489)
+Fix tests for mariadb and mysqldb [ci drivers] (#13485)
+Fix DockerHub build (#13462)
+Handle mysql YEAR column types (Fixes #13203) [ci drivers] (#13448)
+Fix "typing" flake for `admin > settings.spec.cy` (#13445)
+[Fixes #12349] Respect disabling of PulseChannels (#13409)
+[Fixes #8504] Remove default Slack channel (#13423)
+Fix BigQuery tests [ci bigquery]
+Fix BigQuery tests [ci bigquery] (#13429)
+Fix Cypress flakes (#13421)
+Fixes #8396 "Postgres sync not respecting SSH tunneling" (#13391)
+Fix various dashboard interactivity bugs (#13388)
+Fix noisy logs in tests (#13394)
+Fix Google driver build [ci bigquery] (#13386)
+Fix "unix timestamp filter" Cypress test (#13322)
+Fix "editor-sorting-columns" Cypress error (#13323)
+Fix `snippet` Cypress error (#13312)
+Fixes some Custom Expression inconsistency (#13004)
+Fix footer on release-0.36.x (#13287)
+Fix tests broken by merge
+Fix failing smoketest related to admin's ability to manage sub-collections (#13256)
+Fix Jetty envvar name [ci skip]
+Fix envvar anchor links on website to lowercase [ci skip]
+Fix scrollbars on dashboard combine modal (#12769)
+Fix missing footer, so auto-refresh and fullscreen are unavailable (#12806)
+Fix Table search for non-admin Users (#13106)
+Fix build breakage in Cloverage (#13066)
+Fix Redshift field filters regression [ci drivers] (#13015)
+Fix JRE/JDK confusion [ci skip]
+Fix sync not being triggered during setup (#12942)
+Fix startup issue in Turkish (#12906)
+Fix Slack integration & make it more robust (#12921)
+Fix type inference (#12891)
+Fix insights not working on cached results (#12889)
+Fix z-index for all auth wrappers (#12894)
+Fixed some flaky Cypress files (#12895)
+Fix bad error message; better trs/tru validation (#12885)
+Fix broken datetime fingerprinters (#12856)
+Fix URL in H2 database warning (#12830)
+Fixes night mode filters and a couple of other minor things (#12799)
+Fix selector scroll jankyness (#12756)
+Fix links to docs (#12748)
+Fix-up indentation of lists in ReactMarkdown (#12264)
+Fix field values drop-down for fields added via joined tables (#12725)
+Fix bug with getting sum over time in nested question. (#12633)
+Fix busted Docker image (#12634)
+Fix binning of nested questions (#12627)
+Fix bad merge of #12467; lint fixes :wrench:
+Fix potential SQL injections (#462)
+Fix normalization of native query params (#12608)
+Fixing Google Analytics failures on new instances (#12595)
+Fix DockerHub build & better Pulse render error logging (#12543)
+Fix parsing commit messages in CI (#12502)
+Fix incorrect Content-Type "applicaton/json" (#12461)
+Fix include-drivers lein middleware (#12436)
+Fix DockerHub build & better Pulse render error logging (#12543)
+Fix BC illegal reflective access warnings (#12499)
+Fixing tests under Redshift driver (#12512)
+Fix parsing commit messages in CI (#12502)
+Fix incorrect Content-Type "applicaton/json" (#12461)
+Fix reading MySQL timediff() results when values are out of range for a LocalTime (#12447)
+Fix small logos (#12444)
+Fix include-drivers lein middleware (#12436)
+Fix issues with schema-less db permissions (#12404)
+Fix MySQL troubleshooting link (#12356)
+Fix expression 'replace' helper text (#12317)
+Fix field settings selects (#12319)
+Fix premium embedding token settings (#12281)
+Fix expressions test [ci drivers] (#12295)
+Fix filtering on joined fields (#12244)
+Fix query param date bug (#12239)
+Fix expression string literal performance. Resolves #12154 (#12213)
+Fix cached metadata (#12207)
+Fix log message (#12189)
+Fix personal collections in Cypress snapshots (#12167)
+Fix issue with expression text highlighting (#12125)
+Fix date/range native query template tags for UNIX timestamp columns (#12123)
+Fix deadlocks! (#12126)
+Fix extracting :minute-of-hour and :hour-of-day from BigQuery TIME (#12109)
+Fix async QP HTTP responses (#12112)
+Fix automatic dashboards candidate-tables for Tables with no Fields (#12106)
+Fix data selector for joins (#12066)
+Fix drill on field-literal dimensions (#12021)
+Fix occasional test failure
+Fix stack overflow when using non-existent MetaBot command (#11972)
+Fix some remapping tests spewing fingerprinting errors (#12089)
+Fix occasional test failures (?) and some cleanup
+Fix support for H2/Postgres CLOB types (#12029)
+Fixing a problem with manual migrations (#12023)
+Fix GitHub Issues label links in docs (#11963)
+Fix Druid tests failing on master [ci druid] (#11991)
+Fix date filter brush bug (#11916)
+Fix API log timing for StreamingResponses (#11944)
+Fix AddToDashSelectQuestionModal latency (#11857)
+Fix chart settings selectors with undefined values (#11899)
+Fix 200/202 test
+Fix lint
+Fix temporal type reconciliation logic for relative moments in BigQuery (#11838)
+Fix test failures [ci drivers] (#11849)
+Fix query builder loading metadata for saved nested queries (release branch) (#11784)
+Fix bug in chart column settings back behavior (#11833)
+Fix broken x axis (#11824)
+Fix notebook query cleaning (#11792) (#11798)
+Fix failing Presto test
+Fix notebook query cleaning (#11792)
+Fix permissions test
+Fix MongoDB field filters with nested columns [ci mongo] (#11782)
+Fix query builder loading metadata for saved nested queries (#11751)
+Fix date ranges generated for MongoDB params (#11781)
+Fix `query->database-and-table-ids` for `source-query` (#11760)
+Fix cypress test
+Fix snowflake date filters (#11718)
+Fixes query cancellation not working for native query builder (#11714)
+Fix sqlite3 year (#11662) (#11689)
+Fix race condition when copying newer versions of MB plugins (#11701)
+Fix SQL Server field filters against boolean Fields (#11691)
+Fix testing connections for new Presto DBs [ci presto] (#11687)
+Fix LDAP groups sync regression (#11654)
+Fix Google Analytics break out by Date:Month (#11681)
+Fix sqlite3 year (#11662)
+Fix bug with timeseries spacing of a single month (#11646)
+Fix SQL editor typing interruption and click positioning (#11596)
+Fix trend UI issues (#11649)
+Fix LDAP groups sync regression (#11654)
+Fix Mac App Title Bar [ci skip] (#11656)
+Fix BigQuery driver from Leiningen [ci bigquery] [ci sparksql] (#11650)
+Fix trend UI issues (#11649)
+Fix SQL editor typing interruption and click positioning (#11596)
+Fix mongo optional clause example (#11552)
+Fix loading namespace symbs file
+Fix loading namespace symbs file
+Fix metabase namespaces seq if source files are omitted
+Fix "Try it" button and clearing out variable defaults (#11511)
+Fix the Trend documentation (#11470)
+Fix parsing ga:yearWeek in Google Analytics results [ci googleanalytics] (#11493)
+Fix Maximum call stack size exceeded bug on dashboard (#11393)
+Google Analytics Timezone Fixes :wrench: (#11347)
+Fix filtering on type/Temporal columns (#11342)
+Fix DockerHub automated build (#11341)
+Fix up back buttons in Data Model (#11243)
+Fix audit log images (#11229)
+Fix Google Analytics query builder crashes (#11186)
+Fix redshift tests [ci redshift] (#11083)
+Fix parameter splicing when converting queries to SQL (#11038)
+Fix public questions with required parameters (#10794)
+Fix legacy auto datetime bucketing filtering against relative-datetime (#11025)
+Fix tooltip bug in pie charts (#10994)
+Fix filtering by month-of-year and month in MongoDB; lots of new tests (#10955)
+Fix how optional field filter params are substituted; fix support for nested optional params (#10947)
+Fix bug saving database info in reference (#10940)
+Fix bugs with stacked charts and log scales (#10911)
+Fix drill through actions not working with joins (#10801)
+Fix CI test failures (#10904)
+Fix LDAP auth if attributes are arrays (#10913)
+Fix (most of the) driver tests after merging PR to switch to clojure.test (#10882)
+Fix BigQuery unprepare [ci bigquery] (#10867)
+Fix table selection for single db with multiple schemas (#10766)
+Fix issues with object detail FK queries (#10792)
+Fix #10544 trs uses user locale (#10773)
+Fix display bug for large integers (#10387)
+Fix showing "saved questions" db in permissions editor (#10692)
+Fix drill through to question user doesn't have all data permissions for (#10655)
+Fix trend widget for years (#10722)
+Fix for Cannot read property 'fields' of undefined (#7069)
+Fix reporting link to be canonical (#10098)
+Fixes the error while sorting group by results (#10712)
+Fixes the error while sorting on the aggregated column (#10711)
+Fix existing column settings for native/nested queries (#10704)
+Fix reference to icon and a typo (#10678)
+Fix conditional formatting. Resolves #10663 (#10669)
+Fix docs links, small text changes (#10613)
+Fix GA default question applying to new simple/custom questions. Resolves #10602 (#10611)
+Fix additional fields with joined columns (#10592)
+Fix nested custom expressions (#10590)
+Fix metadata checksum encryption/decryption logic (#10539)
+Fix 'Ask a question > Native query'. Resolves #10527. (#10574)
+Fix joined dimension default + smarter join aliases (#10531)
+Fix typo in warning message (#10556)
+Fix queries with duplicate datetime casts to year (#10561)
+Fix #10399 (#10557)
+Fix using native queries as source queries in joins (#10546)
+Fix db order Resolves #10515 (#10530)
+Fix query cleaning when switching out of notebook mode (#10512)
+Fix "saved questions" database behavior in notebook mode + joins (#10506)
+Fix bar chart extending over x axis when y range is set (#10396)
+Fix multiseries chart without data in the first series (#10178)
+Fix dashboard filter reordering/renaming (#10323)
+Fix expression aggregations containing named expressions (#10401)
+Fix source queries with default binned fields (#10395)
+Fix source queries that contain expressions (#10392)
+Fix field_refs returned for implicit join fields (#10380)
+Fix Pulse rendering (#10360)
+Fix with-temp-copy-of-db macro :wrench: (#10311)
+Fix segment/metric form to only ask for desc of changes for existing records (#10235)
+Fix embedded ruby example code (#10282)
+Fix file path in generate-sample-dataset (#10283)
+Fix Metabase Dockerfile (#10246)
+Fix edit segments and metrics (#10224)
+Fix regression against syncing SparkSQL string type caused by #10207 (#10222)
+Fix issue #10186 : Properly map hive data types in spark driver (#10207)
+Fix internal version numbers for Redshift driver (#10198)
+Fix 'Edit Settings' button in query builder (#10136)
+Fix include-drivers middleware :wrench: (#10165)
+Fix creating DB on setup (#10164)
+Fix numeric category error with Postgres (#10103)
+Fix centering issue with hacky spacer (#10126)
+Fix refresh button for cached saved questions (#10086)
+Fix Oracle tests :wrench: [ci oracle]
+Fix Oracle tests :wrench: [ci oracle]
+Fix occasional test failures because a timeout was too short :wrench:
+Fix admin Settings updates page before version info is fetched :wrench:
+Fix sql-jdbc QP error responses not being properly reported :warning:
+Fix loading i18n files :abcd:
+Fix raw HTML strings in QueryBuilderTutorial
+Fix admin settings page not loading on new instances :wrench:
+Fix log4j error messages on startup :wrench: [ci skip]
+Fix #9563 handling of :default unit in datetimes
+Fix GA date off by one errors [ci all]
+Fix syncing MongoDB tables with no database-type :wrench:
+Fix #9563 handling of :default unit in datetimes
+Fix GA date off by one errors [ci all]
+Fix table rendering
+Fix indentation in index_template.html
+Fix 'More Examples' repo link (#9708)
+Fix e2e tests
+Fix e2e tests due to missing version setting
+Fix transient dashboard.e2e.spec.js failure
+Fix tests not cleaning up after themselves :shower:
+Fix misplaced queryOptions
+Fix occasional test failure :wrench:
+Fix load-from-h2 behavior for DashboardCards :wrench:
+Fix GeoJSON not being downloadable in embeds
+Fix no_results image paths
+Fix missing args in do-after-receiving-permit
+Fixed #9250: Auto Resize Native Query Results
+Fix for Custom Field as filter
+Fix spelling in load_from_h2.clj
+Fix druid tests [ci druid]
+Fix druid tests [ci druid]
+Fix sessions expiring too soon :timer_clock:
+Fix ns ordering :1234:
+Fix too much logging on query cancelation :wrench:
+Fix misspellings :writing_hand:
+Fix occasional CI failure on parameters.e2e.spec.js
+Fix occasional CI failure on parameters.e2e.spec.js
+Fix error where keepalive bytes would not always be written; tests :wrench:
+Fix bug in checksum calculation in driver build scripts :wrench:
+Fix typo
+Fix typo
+Fix HTTP auth for dev instances with HTTPS site URLs :wrench:
+Regenerate metabase.pot. Fix typo
+Fix typo: "awhile" to "a while"
+Fix race condition where Oracle/Vertica drivers might not load [ci oracle] [ci vertica]
+Fix table deactivation to be table-specific
+Fix MySQL connections with SSL :wrench: [ci mysql]
+Fix migration 10 valid checksums :wrench:
+Fix Ukranian translation
+Fix Turkish translations
+Fix Portugese translations
+Fix German translations -- please don't add newlines to strings
+Fix Catalan translations -- please do not add newlines to translated strings
+Fix occasional test failures :wrench: [ci all]
+Fix arity exception running lein ring server
+Fix arity exception running lein ring server
+Fix Snowflake & Vertica [ci snowflake] [ci vertica]
+Fix spellings
+Fix series labels in comparisons
+Fix bugs in withRequestState and withCachedData
+Fix dashboard copy + add entities normalize helpers
+Fix flow
+Fix flow and lint
+Fix failing tests [ci all]
+Fix EntityForm's entityObject prop and entity containers
+Fix Logs unit test
+Fix Form's validate/initial/normalize handling of nested fields
+Fix snapshot tests
+Fix bulk unarchive/delete, and fix flow
+Fix more backend tests
+Fix backend lint
+Fix lint and flow
+Fix e2e test
+Fix flow
+Fix eslint errors
+Fix running migrations
+Fix api.user_test
+Don't show unarchive button for entities without a setArchived action. Fix metric entity icon.
+Fix getter for dates with unit=year
+Fix dashboard grid background image for Chrome 72
+Fix region field placeholder text
+Fix pin map tile endpoint when a filter is applied. Resolves #9402
+Fix header modal sizing
+Fix lint and flow errors
+Fix broken pivot action. Resolves #9396
+Fix Issue link 404 in docker troubleshooting
+Fix various aspects of admin people modals, add some tests
+Fix groups rout
+Fix QB error image paths
+Fix starting Metabase with Locale = turkish
+Fix SQLServer datetime grouping for locales with yyyy-dd-MM dates [ci sqlserver]
+Fix duplicate nested fields & sync some code reorganization :wrench:
+Fix series settings for multiple aggregations with the same name. Resolves #9189
+Fix regression with Jetty SSL config options
+Fix embed downloads for 'non-root context'. Resolves #8848
+Fix settings
+Fix connection validation for Snowflake [ci snowflake]
+Fix lint and unit test
+Fix EntityType override bound action creators with provided ones
+Fix MB_DB_AUTOMIGRATE=false always printing/quitting even with no new migrations
+Fix GA parsing of weeks [ci googleanalytics]
+Fix building Docker image :wrench:
+Fix ambiguous dox: you only need JRE, not JDK [ci skip]
+Fix handling of references to non-count aggregations w/ Druid [ci druid]
+Fix: add newline back
+Fix table rendering
+Fix POST /api/table/:id/discard_values & add tests :wrench:
+Fix Snowflake sql.tx/field-base-type->sql-type impl [ci snowflake]
+Fix date formatting settings for SQL queries
+Fix popover scrolling (#9046)
+Fix currency formatting of negative numbers when currency_in_header = true
+Fix handling dimension parameters using a foreign key :key: [ci drivers]
+Fix crash on custom aggregations
+Fix column actions for custom expressions
+Fix migration failures due to timeouts :stopwatch:
+Fix non-admins w/ perms not able to create new collection in root :unlock:
+Fix Mongo & Druid multiple ags of same type :v: [ci drivers]
+Fix nested queries with JOINs :hatching_chick: [ci drivers]
+Fix QP include-current behavior for previous/next time intervals :timer_clock:
+Fix migration failures :wrench: [ci drivers]
+Fix unspecified PG database connection strings
+Fix presto test [ci presto] (#8900)
+Fix presto tests :wrench: [ci presto]
+Fix bug where Snowflake driver used wrong DB name to filter tables [ci snowflake]
+Fix BigQuery nested query support :wrench: [ci drivers]
+Fix minification
+Fix test checksum test failure on MySQL [ci drivers]
+Fix import on TableSettings page (#8829)
+Fix minification
+Fix issue with multiple popovers in permissions grid. Resolves #8206
+Fix dashboard header popovers that get stuck open. Resolves #7761 (#8811)
+Fix column title setting for non-number columns. Resolves #8756
+Fix a Time field test issue on Snowflake [ci drivers]
+Fix for a transient test issue on Snowflake [ci drivers]
+Fix snowflake bikeshed and eastwood failures [ci drivers]
+Fix loading data
+Fix pie charts with numeric breakouts. Resolves #8788
+Fix pie charts when fields need to be selected. Resolves #8784
+Fix column reordering for bucketed breakouts :wrench:
+Fix snowflake identifiers; include Database in QP Store
+Fix GA queries
+Fix filter widget FK bugs
+Fix EntityListLoader. Resolves #8748
+Fix EntityListLoader. Resolves #8748
+Fix GA (part 2)
+Fix simplify-compound-filters with nil values; test fixes :wrench:
+Fix GA queries with multiple filters
+Fix typo in docstring (#8718)
+Fix tests
+Fix Druid test failures [ci drivers]
+Fix BigQuery test failures
+Fix range conditional formatting and flow/lint errors
+Fixed tests
+Fix pivot table headers. Resolves #8720
+Fix typo
+Fix chart settings reset when resize + remappings not working
+Fix lint
+Fix lint
+Fix cond table formatting range picker
+Fix row chart
+Fix integration tests
+Fix unit tests
+Fix lint
+Fix flow
+Fix flow
+Fix SystemLocalizedString error while running FE tests
+Fix gradients for Safari. Resolves #8578
+Fix 'Show the time' isValid function
+Add a FlowFixMe to work around a type issue
+Fix a Clojure linter issue
+Fix public/embed downloads when mounted at non-root
+Fix a docker/chome karma test config issue
+Fix SystemLocalizedString error while running FE tests
+Fix lint, flow, and tests
+Fix test timezones [ci drivers]
+Fix canonicalization of query parameters (#8590)
+Fix token status checking
+Fixes #8562
+Fix cyclical dependency issue
+Fix formatRange typo
+Fix flow
+Fix unit tests
+Fix GA segments; allow cache-ttl and native.collection keys in query
+Fix incorrect module path
+Fix misc unit tests
+Fix LineAreaBarRenderer.unit.spec.js
+Fix flow
+Fix alignment of ordinal
+Fix bugs in 'show dots' setting
+Fix BigQuery SQL parameters with encrypted DB details [ci drivers]
+Fix NPE from sync operations logging
+Fix removing sort when removeing breakout
+Fix Druid tests :wrench: [ci drivers]
+Fix flow
+Fix for self-reference fk leads to ambiguous column exception
+Fix scalar settings that are strings
+Fix test/util.clj
+Fix scalar format options
+Fix lint and flow errors that were missed due to FE linters being removed from CI
+Fix flow
+Fix uberjar caching
+Fix an issue retrying migration failures
+Fix FK remappings with a user included fields clause [ci drivers]
+Fix typo
+Fix template tags reordering while editing
+Fix bug with MySQL date tz conversion for native queries [ci drivers]
+Fix driver test failures non-fk drivers, SQLServer, Oracle
+Fix issue with remappings not working on nested MBQL queries
+Fix intermittent CI failures :wrench:
+Fix flow and lint
+Fix collection permissions canceling
+Fix LDAP setting validation
+Fix data ref sidebar not filling viewport and fullscreen dashboards not hiding nav bar
+Fix Docker OOM config link
+Fix DatabaseEditApp intergation test
+Fix flow/lint
+Fix bodged merge
+Fix tests
+Fix flow and improve collection warning message
+Fix double tooltip issue
+Fix task namespace loading errors
+Fix TokenField only showing one suggested item
+Fix search for archived Pulses
+Fix data browse for GA table
+Fix pulse render test with more precise bg color regex
+Fix navigating from dashboard to question when filter applied. Resolves #8044
+Fix broken GA metrics (due to renaming of is_active to archived)
+Fix collection breadcrumbs not updating after moving. Force the collection to reload when you visit it (#8120)
+Fix duplicate SLF4J bindings by adding project.clj exclusion
+Revert "Fix _location CI failures"
+Fix pulse/color tests
+Fix db admin testsi
+Fix not being able to type a negative number in conditional field formatting
+Fix pulse table cell spacing, clean up objects passed to pulse formatting code from Clojure
+Fix more broken integration tests due to nested item picker
+Fix public integration test
+Fix metrics/segmentsi test
+Fix syncing of Mongo tables w/ all-NULL columns :wrench: [ci drivers]
+Fix missing parent_id in tests
+Fix integration tests
+Fixes for interacting with the JS color selector
+Fix collection page bugs (#8020)
+Fix bad merge
+Fix no-color-literals warnings in eslint-loader
+Fix nested query issue with SparkSQL driver [ci drivers]
+Fix lint errors
+Fix type hint
+Fix a lint warning in frontend/src/metabase/lib/urls.js
+Fix prettier
+Fix lint
+Fix unit tests
+Fix related
+Fix cell comparisons. This time for real :(
+Fix border colors, color picker
+Fix drill through links
+Fix popover/tooltip/qb arrow colors
+Fix random busted color
+Fix nav buttons
+Fix a bunch of bugs
+Fix nested cards and improve filter merging
+Fix broken url generation
+Fix regression in candidates
+Fix enumeration of field names in titles
+Fix a few borken doc links :wrench:
+Fix virtualized list and drag and drop scroll issues
+Fix 'TypeError: _this2._input.focus is not a function'
+Fix lint
+Fix lint
+Fix flow
+Fix transient issue with pulse search test
+Fix unit tests
+Fix typo
+Fix NullPointerException when not including a search string
+Fix tests
+Fix selection duplication issue and moving pulses
+Fix broken tests
+Fix lint
+Fix unit tests
+Fix flow
+Fix lint errors
+Fix GSG now that Dashboards require collection_id for read perms check
+Fix various lint warnings
+Fix bodged merge
+Fix favoriting
+Fix mispelling on new search vars
+Fix tests after adding new search result columns
+Fixup some FE test and code for the `is_active`->`archived` switch
+Fix collection_id (except for root, pending endpoint fix)
+Fix questions/card entity type issue
+Fix memory leaks in dc.js and leaflet visualizations.
+Fix tru template stings
+Fix broken integration test
+Fix alert integration tests by putting all questions into a group All Users have access to
+Fix Alert permissions behavior
+Fix admin add user close button
+Fix public question layout
+Fix an H2 sync timezone test issue [ci drivers]
+Fix qb error stateS
+Fix CI
+Fix Select and snapshot test
+Fix `/api/user` POSTs to return the same data as PUT
+Fix bodged merge
+Fix chart settings unit tests
+Fix flow
+Table formatting: ensure numeric input parses string to number. Fixes custom min/max
+Fix flow
+Fix delay when drilling in QB, due to switching visualization before re-running new query
+Fix incorrect i18n strings in `metabase.core`
+Fix Mongo test failure on master [ci drivers]
+Fix merge conflicts
+Fix bin/version
+Fix pivoted formatting and misc other polish
+Fix flow
+Fix rule loading
+Fix isNumber to include sub types. Disable 'count by time' drill
+Fix header click actions
+Fix flow
+Fix table header drill, and flow types
+Fix core_user.updated_at default value migration
+Fix the IE rendering of public dashboards
+Fix unit test timezones etc
+Fix drill through timezone being UTC instead of same as clicked dimension
+Fix unit test timezones etc
+Fix drill through timezone being UTC instead of same as clicked dimension
+Fix FieldValues behavior with List Fields over threshold
+Fix loading state, add EntityListLoader props
+Fix remaining integration tests
+Fix image paths
+Fix SparkSQL driver registration
+Fix and simplify FieldApp.integ.spec
+Fix addParamValues and addFields actions, and setErrorPage
+Fix `Unauthenticated` nested query test failures
+Fix duplicate filters in auto dash drill
+Fix flow
+Fix a bit too eager use of u/get-id
+Fix setup getting started link
+Fix coloring, filters. Support native queries
+Fix unit test coverage in CI
+Fix issue with SummarizeColumnByTimeDrill
+Fix questionUrlWithParameters crash
+Fix getFieldRefFromColumn handling of nested questions
+Fix saving GA Cards with 2 aggregations :wrench: (#7399)
+Fix DateTimeValue validation for null/not null queries [ci drivers]
+Fix list-like? check and num-fields in enhanced-table-stats
+Fix broken cell drilldown
+Fix various state paths
+Fix tables
+Fix x-of-y drill and axis
+Fix auto dash scrolling issue, pull out 'more' related into button at bottom
+Fix snapshot:
+Fix lint
+Fix integration text
+Fix always present scrollbars in FVW. Resolves #7163
+Fix histogram axis
+Fix warnings from API schemas that don't have a description
+Fix unit test
+Fix lint
+Fix pie chart crash when only 0 values
+Fix histogram axis
+Fix lint
+Fix resource loading from jar
+Fix overly verbose classication analysis logging
+Fix the 'Missing Values' setting on charts
+Fix password reset re-request link (#7294)
+Fix test
+Fix moreVerboseName for equal/not equal
+Fix candidate-tables
+Fix wrong resolution in test
+Fix failing tests
+Fix: apparently toucan doesn't like maps
+Fix failing tests
+Fix recommended-dashboards
+Fix DateRangeWidget issue and add tests
+Tighen logic for reseting calendar 'current' when receiving props. Fixes issue with switching month
+Fix auto dashboard resizing
+Fix Query RootEntity interface
+Fix lint
+Fix field value widgets on auto dashboards
+Fix failing test
+Fix broken links and broken test
+Fix outdated MetabaseApi.integ.spec.js.snap
+Fix group titles & reuse automagic-dashboard function for metrics
+Fix tests :wrench:
+Fix some long lines
+Fix failing tests
+Fix generated filter clause if there is only one filter expression
+Fix flow errors
+Frontend: Fix horizontal spacing on EditHeader
+Frontend: Fix Data Reference on smaller devices
+Frontend: Fix width of CollectionEditForm on small screens
+Frontend: Fix empty Questions state on smaller screens
+Frontend: Fix Pulses w/WhatsAPulse screen on smaller screens
+Fix typo (dashboard -> database)
+Fix related titles
+Fix has_field_values inference
+Fix titles in recommended
+Fix typo
+Fix bug with list classification logic + tests
+Fix tests :wrench:
+Fix failing test
+Fix linter error
+Fix tests again after changes from b24b775
+Fix identation
+Fix whitespace
+Fix integration tests
+Test Fixes :wrench:
+Merge pull request #7021 from wsterzik/Fix-link-on-TagEditorHelp
+Fix typo in docstring about reactivation
+Fix some formatting in the SQL parameters guide
+Fix unescaped quotes in clj i18n strings
+Fix link on TagEditorHelp
+Fix remapping endpoint and move/fix integration tests around
+Fix perms checking :wrench:
+Fix flow
+Fix broken remapping endpoints
+Fix some metadata selector logic
+Fix lint
+Fix unit and integration tests
+Fixing #6984: Updating mysql/mysql-connector-java to version 5.1.45
+Fix 404s for new public endpoints
+Fix small typo in api doc
+Fix the transient failing api.dataset-test [ci drivers]
+Fix lint and flow errors due to prettier moving things around.
+Fix lint and flow errors due to prettier moving things around.
+Fixed some unrelated tests that were broken by the changes.
+Fixed some issues caused by rebasing comments branch with master.
+Fix SSH tunnel details
+Fix Druid tests :( [ci drivers]
+Fix lint
+Fix bigquery support for sorting by agg expressions [ci drivers]
+Fix FieldApp remappings
+Fix datamodel.integ.spec
+Fix parameters.integ.spec
+Fix unit tests
+Fix lint
+Fix lint
+Fix lint
+Fix hydrating has_field_values for seqs of Fields with no FieldValues
+Fix parsing MBQL options maps with false values
+Fix parameter not clearing
+Fix misc FieldValuesWidget interactions and add a bunch of tests
+Fix the pulse bar chart rendering to use overriden columns
+Fix bug in ordering by an aggregate expression [ci drivers]
+Fix JS error in SQL params. Doesn't support FieldValuesWidget yet though
+Fix various interations in FieldValuesWidget
+Fix Druid test so it passes with 0.11.0 [ci drivers]
+Fix sync type inference for MongoDB completely null fields
+Fix binning integration test failure by commenting out assertion
+Fix tests
+Fix bad data migration :(
+Fix calendar unit test
+Fix question saving test failure by adding a delay
+Fix calendar unit test
+Fix integration tests that didn't use `rawSeries` yet
+Fix the save button UI quirk in question saving modal
+Fix bug in getPersistableDefaultSettings
+Fix alerts integration tests
+Fix Redux state synchronity issue, code cleanup
+Fix remapping endpoint
+Fix recommended-dashboards corner cases
+Fix the conditions when heads-up message is shown
+Fix lineage issue
+Fix lint
+Fix frontend broken by merge
+Fixup expression name issues on MySQL [ci drivers]
+Fix linked-from definition for segments
+Fix indentation
+Fixup delete database dialog
+Fix non ID parameter searches
+Fix broken QueryBuilderTutorial.jsx help url.
+Fix time datatype test failure on Oracle [ci drivers]
+Fix search widget in parameters due to s/field_id/field_ids/
+Fix metric name
+Fix GA worldmap, add count by time
+Fix tests
+Fix toplevel type exclusion
+Fix issue with active sort not being displayed (#6229)
+Fix question url handling of query array values. Remove checkbox onChange prop function requirement
+Fix issue with Calendar month not switching from Janury 2018 to December 2017. Resolves #6683
+Fix/add unit tests
+Fix i18n tag for object detail. Resolves #6664
+Fix i18n in PeopleListingApp
+Fix lint
+Fix table test (new table type)
+Fix invalid date format for ga charts
+Fix i18n tag for object detail. Resolves #6664
+Fix flow
+Fix lint
+Fix MySQL timezones by using datetime literals [ci drivers]
+Fix potentially returning a regression with Infinity as a coeficient
+Fix dimension-form checker
+Fix excessive DB calls on reference guide
+Fix long lines :shower:
+Fix table corner radius visual artifact
+Fix filter-tables
+Fix rename
+Fix name clash
+Fix test
+Fix missing deps
+Fix field name
+Fix wrong indentation
+Fix null exception when no cards can be made
+Fix reflection warning :shirt:
+Fix wrong values in tooltips (#6401)
+Fixup
+Fix empty dashboard archival notification
+Fix migration comment version number :wrench:
+Fix timing of the streaming middleware tests
+Fix async-test transient failures
+Fix more long lines
+Fix reflection warnings :wrench:
+Fix typo :wrench:
+Fix bad schema
+Fix pulse tests that didn't need to use expect-with-temp
+Test Fix :wrench:
+Fix more pulse_channel_test ordering issues
+Fix potential race condition where the job gets cleaned up too soon.
+Fix typo
+Fix typo
+Fix docker build image script :wrench: [ci skip]
+Fix deploying to Heroku (OOM issues) [ci skip]
+Fix regression: linear regression chart doesn't work (#6478)
+Fix incorrect error message for GET /api/card endpoint
+Fix bug causing test email pulses to fail
+Fix randomly failing segment test
+Fix javascript JWT regexp check
+Fix merge conflicts
+Fix long lines in metabase.driver.generic-sql
+Fix integration tests broken due to AccordianList changes
+Fix public dash rendering (#6373)
+Fix for a pulse_channel_test failing due to resultset order
+Fix plugins being able to introduce new Metabase namespaces (credit: @alexuf)
+Fix backend tests on Java 9
+Fix handling default values for Dimension (Field Filter) params
+Fix AccordianList divider
+Fix insights test
+Fix insigths integration test, up timeouts
+Fix long lines
+Fix frontend test runner on Java 9
+Fix failing tests due to changes in sample dataset
+Fix failing tests
+Fix test
+Fix popover width for dual date picker (#6177)
+Fix nameclash
+Fix NormalRangeinsight
+Fix test
+Fix most of the extra-long lines
+Fix #4668 (#6191)
+Fix invalid SQL for timestamp comparison in psql
+Fix failing tests and linters
+Fix typo
+Fix color picking
+Fixes :wrench:
+Fix the flow (?)
+Fix function names :wrench:
+Fix tests
+Fix tests
+Fix test
+Fix field xray, table xray and segment comparison
+Fix segment comparisons page
+Fix performance of GET /api/database/:id/fields
+Fix Karma test runner, migrate loader configurations to new format
+Fix broken links in README
+Fix comparables for field
+Fix /0 when comparing empty histograms
+Add api endpoint tests. Fix a thereby uncoverd bug
+Fix lint errors
+Fix annoying React errors when running xrays settings tests
+Fix failing tests
+Fix developer docs code example, fix linter errors
+Fix new question flow test transient failure
+Fix the endpoints being used
+Fix bug with card database_ids not being populated on native queries
+Fix word mistakes in docs.
+Fix perf problems where xray viz was rerendered unnecessarily
+Fix perf problems where xray viz was rerendered unnecessarily
+Fix tests and lint errors, simplify Redux actions
+Fix perf problems where xray viz was rerendered unnecessarily
+Fix a top level data/id call
+Fix lint error
+Fix the issue with flashing 'Custom' option in NQF
+Fix docstring typos
+Fix the poorly designed SegmentPane test that caused test failures
+Revert "Fix MySQL 5.1 support"
+Fix MySQL/H2
+Fix MySQL 5.1 support
+Fix multiseries cards in embedding (thanks to @alex-mcleod for help)
+Fix issue with scalar pulses returning timezones
+Fix issue with sql template tag filters
+Fix integer overflow in average
+Fix expansion of nested queries that use segment macros
+Fix unit tests
+Fix date bucketing with Druid grouped timeseries queries [ci drivers]
+Fix sorting with remapped values
+Fix growth when current period is 0
+Fixup test failures with oracle column naming [ci drivers]
+Fix a vertica test race condition in the unix timestamp tests [ci drivers]
+Fix typo in Jest unit tests section
+Fix a vertica test race condition in the unix timestamp tests [ci drivers]
+Fix integer overflows
+Fix fingerprinting Postgres table with time fields [ci drivers]
+Fix time granularity ordering (#5897)
+Fix issue with joins in BigQuery driver #4218
+Fix Mac App reset password
+Fix docstring checker crashes
+Fix `yarn run test` and update instructions about using it
+Fix `yarn run test` and update instructions about using it
+Fix segment definition, increase existing delays
+Fix parameter mapper and action widget overflowing issues
+Fix typo in the no-preview-display analyzer
+Fix new databases being not included in the permissions grid
+Fixup human readable values when field values change [ci drivers]
+Fix parameter mapper and action widget overflowing issues
+Fix issue with UI crashing on segments that refer to an unexisting table
+Fix issue with url when search term is cleared
+Fix one of the tests :wrench:
+Fix the failing test case in new question flow
+Fix failing lib/redux tests, fix lint errors
+Fix lint errors
+Fix SQL editor button when there is only one db, fix button overflow issue
+Fix ACE Editor autocomplete
+Fix ineligible source queries coming back from API :wrench:
+Fix tests & linters, improve input box styling
+Fix report-timezones and Presto [ci drivers]
+Fix setup wizard test lint errors
+Fix Oracle [ci drivers]
+Fix CumulativeCount expression aggregations not working [ci drivers]
+Fix bug with mid-month schedules
+Fix tests and lint errors
+Fix lint errors in tests
+Fix tests, default to conn settings, hide sched for db creation [ci e2e]
+Fix SchedulePicker text size and 'Sent' text issues
+Fix integration tests and Flow error
+Fix issue with waitForAction, add documentation [ci e2e]
+Fix issue with button-wrapping React components
+Fix Flow errors [ci e2e]
+Fix lint warnings, let ESLint know about test support folder [ci e2e]
+Fix remmaping (maybe?)
+Fix bug in field-query, add comment about cause
+Fix failing test (due to double -> int change) [ci all]
+Fix corner cases
+Fixed case
+Fix lint and Flow errors
+Fix a bug in order-of-magnitude (x<=0) and moved it to util
+Fix drilldown test, convert Dimension test to integrated test
+Fix some weird situations where tests fail for the first test to call (data/db) or (data/id)
+Fix binning drill-through
+Fix binned row chart tooltip/drillthrough
+Fix issue with not being able to add breakouts to nested queries
+Fix issue with being not able to update filters
+Fix binning option names in frontend
+Fix an unresolved merge conflict
+Fix lat/lon formatting Karma test [ci e2e]
+Fix typo [ci skip]
+Fix linter errors, fix Jest tests
+Fix bug where pulses special_type DateTimes are recognized
+Fixing step 3
+Fix a fail fast race condition in circle ci
+Fixup a unit test failures in metabase.api.card-test
+Fix Public => PUBLIC in schema name condition in SpecialTypeAndTargetPicker
+Fix Lint and Flow errors, loosen summarize field criteria
+Fix lint errors, speed up tests by removing delays [ci e2e]
+Fix misc search widget issues, add placeholder text
+Revert "Update Postgres driver dep. Fixes support for Postgres 10 beta"
+Fixing typo in PieChart error
+Fixup breakout test failures
+Fix Safari input render bug with the good old redraw hack (#5514)
+Fix issue with popover reseting itself, rename state vars
+Fix regression with Saved Questions list with multiple collections (#5495)
+Update Postgres driver dep. Fixes support for Postgres 10 beta
+Fix issue with loading a Leaflet heatmaps a second time
+Fix issue with dashcard resize widget and leaflet map resizing
+Fix integrated tests [ci all]
+Fixup order-by test failure
+Fix bug with remapping but no order by
+Fix fieldOptions not including fk fields
+Fix lint errors [ci e2e]
+Fix pending editor bar test by using Rating field [ci e2e]
+Fix lint and flow errors [ci e2e]
+Fix linter and flow errors [ci e2e]
+Fix abrupt scroll in data reference section segment picker
+Fix indentation for example code block
+Fix link
+Fix integrated tests [ci e2e]
+Fix whitespace to make linter happy
+Fix code style and flow types, run full test suite [ci e2e]
+Fix bug with fk_target_field_id getting removed
+Fix default FK remapping in field app tests, remove `fit`s
+Fix category widget, part 1
+Fix problem with single value category filter not shown correctly in FilterWidget
+Fix viz settings that were not using merged remappings
+Fix the filter widget not marking the checkbox for chosen values
+Fix the filter widget showing undefined for normal field values
+Fix MySQL & Postgres tests on localhost w/o password [ci drivers]
+Fix up oracle tests
+Fix lint errors
+Fixes for Oracle :scream_cat: [ci drivers]
+Fix compare bug
+Fix both unit and integrated tests [ci e2e]
+Fix Flow errors
+Fix lint errors
+Fix bug with table visualization and Zoom In pivot action
+Fix issues with using field filters in SQL questions
+Fix data reference section question links & formula preview
+Fix FieldPane by utilizing dimension logic of metabase-lib
+Fix FieldPane and add tests for it
+Fix SegmentPane of data reference sidebar
+Fix metric pane in data reference sidebar
+Fix drag-to-filter for nested queries (frontend)
+Fix backend behavior for nested query drag-to-filter
+Fix accidental async method
+Fix regression with not taking 'db' url param into account
+Fix segment and metric info icon popover for entities with filters
+Fix incorrect image paths in VisualizationError CSS
+Fix query cancellation in QB
+Fix popover + tooltiptransitions
+Fixed up remapping issues on MongoDB
+Fix frontend lint + test errors
+Fix some colorization not being disabled when MB_COLORIZE_LOGS=false
+Fix drag-to-filter and Safari clip-path issue
+Fix Flow errors
+Fix eslint errors
+Fix flow warnings
+Fix a close click issue with ActionWidget
+Fix a close click issue with ActionWidget
+Fix the incorrect empty field legend when choosing a sort
+Fix the flow type errors
+Fix LDAP branch reflection warnings and a few other style issues
+Fix error in bigquery_test
+Fix graph fill values setting
+Fix problem with loading the url of new questions
+Fix question saving
+Fix issues with fieldOptions, breakoutOptions and sortOptions
+Fix the use of expression as aggregation parameter
+Fix fieldOptions behavior and add tests
+Fix failing segmentation & pivot drill-through action clicks
+Fix issue with foreign keys being not taken into account in actions
+Fix clickable public dashboard titles issue
+Fix summarize by segment issue
+Fix incorrect call of onChangeCardAndRun in drag to filter
+Fix/refactor Jest tests
+Fix karma test util warnings (#5322)
+Fix Flow types
+Fixing flow errors
+Fix whitespace to make linter happy
+Fix the metric adding & removal
+Fix the removal of metrics
+Fix 'Add a metric' action from dirty saved questions, refactor setCardAndRun
+Fix some flow types, remove unused mbql wrappers
+Fix problem with the url not updating in new questions
+Fix the broken VisualizationResult
+Fix ns sorting and aliases
+Fix #5242: Remove issue-stats badges from README
+Fix lint & Flow errors
+Fix dashboard filter passing, multiscalars, action widget actions
+Fix using H2 IDriverTestExtensions methods from the REPL
+Fix the passing of filters in dashboard drill-through
+Fix clicking of legends inside query builder
+Fix composed dashcard legend click lineage issue
+Fix failing tests due to null card
+Fix row chart, also format row chart labels
+Fix Jest tests
+Fix cases where empty schema metadata property wasn't converted to an empty string
+Fix new query
+Fix brush issue when cancelling
+Fix breakouts
+Fix React component Flow types
+Fix breakout test failure on MySQL
+Fix double history and 2D breakout brushing
+Fix hidden download button in SQL queries with field filters
+Fix Issue 5073
+Fix ESLint and Flow
+Fix the selector error when loading an archived question
+Fix README links
+Fix broken links to docs in getting started guide
+Fixed driver installation description.
+Fix an annoying typo in DatabaseDetailsForm
+Fix race conditions in e2e tests
+Fix E2E tests [ci e2e]
+Fix multi scalar drill through
+Fix category picker on dashboards with mixed parameter types. Resolves #5034
+Fix Flow code, remove obsolete comments [ci e2e]
+Fix SSH tunnel credentials not being validated
+Fix the bulk "move to collection" action
+Fix Flow types
+Fix isCardDirty and add tests for it and serializeCardForUrl
+Fix loading wrapper transparent background
+Fix missing icon for schema permissions row header
+Fix some unneeded QP logging
+Fix a regression causing "started from" without title appear on new cards
+Fix flow error
+Fix regex to match fns with no args in native queries (thanks @jjw123)
+Fix dashboard archive dialog closing bug
+Fix the expression editor in recent versions of Chrome and Firefox. Resolves #4906
+Fix Flow, Jest and ESLint
+Fix postgres filtering by weeks [ci drivers]
+Fix multiple aggregation multiseries
+Fix clicking dashcard titles, and don't show lineage if cards are identical
+Fix dashboard drill-through lineage on multiseries
+Fix random proptype issues
+Fix FETCH_DATABASES reducer error
+Fix some metadata issues in the qb
+Fix filtering by minutes on Postgres [ci drivers]
+Fix scalar series drill through
+Fix numeric filter->mbql, fix flow/lint errors
+Fix param -> mbql fks
+Fix month/quarter param -> MBQL
+Fix occasional postgres test failures
+Fix SummarizeColumnDrill test
+Fix style, merge classNames in Icon
+Fix dash filter legend display bug on Firefox
+Fix and extend E2E tests (still disabled in CI due to Sauce problems)
+Fix lint and flow errors
+Fix flickering by giving to the empty search result image an explicit height
+Fix flow errors
+Fix drill sort icon and spacing
+Fix the margin between archive/favourites buttons and ellipsified title
+Fixes lint errors
+Fix misplaced header property in permissions selector
+Fixes issues with stateless components refs
+Fixes error message on group base
+Adds group search base to panel. Fixes settings testing.
+Fix overshadowing warning #4830
+Revert "Fix #4471 part 1" (wasn't actually needed)
+Fix e2e tests. Don't do production build for now. [ci e2e]
+Fix #4471 part 2
+Fix #4471 part 1
+Fix the centering bug of sharing/embedding page
+Fix blank full-screen state by giving to body element `width: 100%`
+Fix typo'd `Modal-backdrop-dark`, remove margin from its child, fix other typos
+Fix revision history modal height
+Fix error title that doesn't wrap correctly
+Fix tests regarding dashboard creation by adding a dashboard counter
+Fix dashboard creation bug in query editor, fix E2E tests [ci e2e]
+Fix Flow typing and add tests for bar visualization
+Fix the left margin of search field icon
+Fix flow errors [ci all]
+Fix geojson test
+Fix a few more absolute paths
+Fix docstring
+Fix error if second card in a dashbard is empty
+Fix various collection editor form bugs (#4764)
+Fix str name conflict
+Fix flow errors
+Fix public link URLs
+Fix timeseries widgets wonkiness. Resolves #4751.
+Fix flow erorr
+Fix broken dashcard CSS classes. Resolves #4720
+Fix dashboards Jest tests and fix ESLint warnings
+Fix wrong S3 URL in AWS setup guide [ci skip]
+Fix issue with redux-form mapStateToProps
+Fix hover state UI glitch by not using *-hover css classes
+Fix flow error and better comment
+Fix connecting to BigQuery databases with lots of tables [ci drivers]
+Fix fetching Cards in a collection whose slug is URL-encoded
+Fix BigQuery handling of multiple aggregations w/ same name [ci drivers]
+Fix funnel settings bug, in particular when using SQL. Resolves #4629
+Fix image/geojson assets, and consolidate them
+Fix metrics and misc other logic in GSG frontend as well as incorrect API validation
+Fix auth failure loop when session expires. Resolves #4660
+Fix bug that caused the category search field to never show up
+Fix saving of existing quesiton. Resolves #4695
+Fix clearing of embedded parameters. Resolves #4653
+Fix parameters on embedded/public questions. Resolves #4663
+Fixed AddToDashSelectDashModal, fixed urls because of  changes
+Fix reflection warning
+Fix Flow errors
+Fix test & some cleanup
+Fix native query contents not being used in query-hash
+Fix misaligned parens :flushed:
+Fix both backend and frontend code style, fix flow type error
+Fix connecting to SQL Server DBs with passwords with special characters [ci drivers]
+Fix Firefox Content-Security-Policy warnings [ci skip]
+Fix Flow type annotations
+Fixes DECIMAL handling
+Fix flow error and indentation
+Fix running JAR on Java 7 [ci skip]
+Field filter widget: Add 'none' options. Fix null bug
+Fix syntax error
+Fixes things from review
+Fix widget and DatePicker code style
+Fixup the pg tests to run only when the postgres engine is enabled
+Fix regexes, validate input, don't commit on blur
+Fix e2e test [ci e2e]
+Fix initialization status and health endpoint issues
+Fix types
+Fix type errors
+Fix multiseries scalar/funnels. Resolves #4512
+Fix QueryExecution data migration :wrench:
+Fix crash for non-admin sharing widget. Resolves #4552
+Only use 'Routeless' for non-inline modals. Fixes collection modal
+Fix minor BETWEEN date picker bug
+Fix field label input styling
+Fix autogeneration of secret key when enabling embedding. Resolves #4530
+Fix flow error and remove old unused files
+Fix part 2 :wrench:
+Fix new Table entries being added if a Table or View is dropped and recreated
+Fix running GA queries as a non-admin user :wrench: [ci drivers]
+Fix ui reloading after files changes for webpack-dev-server
+Fix flow/lint warnings
+Fix row chart sort order. Resolves #4359
+Fix 'common pitfalls' bad markdown [ci skip]
+Fixes for SQLite :wrench: [ci drivers]
+Fix Flow errors
+Fix lint/flow errors
+Fix setting default parameter value on dashboards
+Fix SQL param optional subsitution if SQL contain brackets
+Fix permissions graph behavior with empty schemas (#4000) :wrench:
+Fix test failures from #4147 :unamused:
+Fix segment/metric editor. Add comments explaining whitelisted 403 urls [ci all]
+Fix loading of questions which user has collection but not data permissions. Resolves #4200
+Fix progress bar viz in Safari. Resolves #3988 (#4126)
+Fix typo on Data Reference getting started page
+Update FAQ. Fix typo of MariaSQL to MariaDB
+Fix cut off chart labels in fullscreen
+Fix rare "device" busy error when building DMG :yum: [ci skip]
+Fix more graph hover logic/style
+Fix date-bucketing ranges to account for inclusive BETWEEN [ci drivers]
+Fix random test failure :wrench: [ci drivers]
+Fix named aggregation formatting / saving. Resolves #4091
+Fix visualualization names. Resolves #4084
+Fix rando metric test failures :wrench:
+Fix GA driver handling of 'week' unit
+Fix for BigQuery :wrench: [ci drivers]
+Fix typo :wrench: [ci drivers]
+Fix for Mongo [ci drivers] :wrench:
+Fix link to collections permissions
+Fix full screen modal when page is scrolled. Resolves #4068
+Fix for Redshift & lint fix [ci drivers] :shirt:
+Fix missing metadata for named aggregations [ci drivers] :yum:
+Fix unsaved card CSV download row limit. Saved cards still limited to 2k rows.
+Fix an issue where the pie chart would throw a max call stack exceeded error due to an infinite loop
+Fixed link to segment & metric doc
+Fix certain modals (e.x. About modal)
+Fix admin/people test due to modal transition [ci all]
+Fix lint and test failure
+Fix popovers. Can't remove hidden span because it's used as the popover target in some cases
+Fix e2e login caching to avoid being rate limited
+Fix empty state
+Fix saving collection without description. Show warning when All Users has access to a collection another group doesn't
+Fix expression editor keyboard shortcuts and overflow
+Fix metric saving and misc query formatting issues
+Fix edit collection title
+Fix support for METRICS with nested aggregation syntax :wrench: [ci drivers]
+Fix aggregation widget logic
+Fix production build
+Fix labels migration :wrench:
+Fix PUT /api/collection/:id and add tests :wrench:
+Fix merge :wrench:
+Fix inverted latitude and longitude
+Fix 'Replace missing values'. Resolves #3543
+Fix granting partial permissions for multiple tables :wrench:
+Fix expression aggregations with number literals inside agg [ci drivers]
+Fix expression aggregations for aggregation w/o field :wrench: [ci drivers]
+Fix table viz crash when unmounting
+Fix a fronted tooltips displaying bug.
+Fix pivot table border
+Fix fk field name
+Fixing Driud typo, changing to Druid
+Fix typo :wrench:
+Fix JSON API tests
+Fix broken link about segments and metrics
+Fix params for saved card csv downloading
+Fix POST /api/dataset/csv endpoint :wrench:
+Fix fk field names in field list
+Fix package.json preinstall hook for busybox/docker build
+Fix package.json preinstall hook for busybox/docker build
+Fix package.json preinstall hook for busybox/docker build
+Fix package.json preinstall hook for busybox/docker build
+Fix sync database test random failures :wrench:
+Fix updates setting item badge
+Fix/cleanup tests
+Fix various issues with quick filter popover
+Fix issue with not being able to go back to schema picker if there is 1 db with multiple schemas. Resolves #3309
+Fix indentation
+Fix setting settings which were broken due to replacing Angular resource with our own version
+Fix region chart legend
+Fixed misleading UI text
+Fix some function names & other cleanup :shower:
+Fix tiles endpoint & add test :wrench:
+Fix SQL for :limit clause for old versions of Oracle :wrench: [ci drivers]
+Fix wrong dates in revision history :wrench:
+Fix load-from-h2 command :wrench:
+Fix a few typos in the ExpressionWidget [ci skip]
+Fix multiple filters against same SQL field :wrench:
+Fix stale data in database edit/create + misc cleanup
+Fix bad data migration :wrench:
+Fix c3p0 startup warnings :wrench: [ci skip]
+Fix load-from-h2 command :wrench:
+Fix E2E test [ci e2e]
+Fix relative date SQL parameters :wrench:
+Fix misc React warnings
+Fix segment title/description inputs. Resolves #3579
+Fix segment/meitrcs descriptions. Resolves #3558
+Fix bug in edit segments API endpoint :wrench:
+Fix SQL editor bracket matching
+Fix getting started guide endpoint if no metrics are defined :wrench:
+Fixes adding dashcard if dashboard has card + parameter. Add some typechecks. Resolves #3566
+Fix lint error :shirt:
+Fix multiseries titles showing column names instead of card name. Resolves #3545
+Fix sample DB path fixing code if path has spaces :broken_heart:
+Fix E2E test [ci e2e]
+Fix swapped GeoJSON settings. Resolves #3537
+Fix compilation error message :wrench:
+Fix SQL button logic. Resolves #3515
+Fix table card link. Resolves #3519
+Fix permissions grid scrollbar issues
+Fix find/replace error that broke Table view
+Fix isNumber
+Fix GSG crash, misc formatting issues. Resolves #3472
+Fix a couple issues with metric preview
+Fix overeager metadata loading in datamodel
+Fix: Data reference doesn't show sum suggested question for numeric columns
+Fix: Object detail doesn't format JSON fields as JSON
+Fix: Dashboard parameter widgets don't show correct field options for city/state/zip/country widgets
+Fix: Lat/Lon columns no longer automatically detected for pin maps
+Fix: Lat/Lon no longer formatted with fixed number of decimals
+Fix: Numbers in Tables cards no longer formatted with commas
+Fix: Numbers in Scalar cards no longer formatted with commas
+Fix misc warnings
+Fix faded dashcards when switching dashboards
+Fix login redirect. Resolves #2971
+Fix error with newer versions of babel
+Fix some errors due to newer version of babel. Make sure webpack exits with non-zero exit code if build fails ಠ_ಠ. [ci all]
+Fix Sauce Connect, simplify and improve describeE2E, misc robustness [ci e2e] [ci screenshots]
+Fix reënabling Google Auth users if Google Auth is disabled :wrench:
+Fix permissions barf on legacy cards :wrench:
+Fix running native :timeseries query on Druid :wrench:
+Fix dashcard visualization_settings migration :wrench:
+add tests. Fix momentjs version
+Fix card saving validation issue
+Fix dashboard menu closing when clicking outside. Resolves #3338
+Fix logout from dashboard. Resolves #3400
+Fix misc proptype etc warnings
+Fix permissions checking when Card contains Metric or Segment :wrench:
+Fixes stuck metabot setting
+Fix field values
+Fix field type wonkiness :wrench:
+Fix field type wonkiness :wrench:
+Fix dashboard parameters field values
+Fix columnar selector crash
+Fix running migrations from JAR :wrench:
+Fix migration for MySQL :wrench:
+Fix GeoJSON validation for local resources :wrench:
+Fix reflection warning :warning:
+Fix frontend logic typo :wrench:
+Fix line/area/bar with no goal
+Fix some bad code :unamused:
+Fix load-from-h2 command :wrench:
+Fix TOC :pencil: [ci skip]
+Fix broken TOC link to section about Papertrail :pencil: [ci skip]
+Fix TOC :pencil: [ci skip]
+Fix TOC :pencil: [ci skip]
+Fix incorrectly formatted TOCs :pencil: [ci skip]
+Fix docs saying only Postgres is supported on RDS. :pencil: [ci skip]
+Fix unformatted bullet point list in developers guide :yum: [ci skip]
+Fix link to pulses doc in readme
+Fix db migration breakage and add force migrate command :skull:
+Fix GET /api/database/:id/idfields if DB has no tables :wrench:
+Fix modifying fields with legacy "sensitive" field_type :wrench:
+Fix typos :wrench: [ci skip]
+Fixed tag in ChartTooltip table. (#3274)
+Fix comment typos :shower:
+Fixed modal id implementation, added alternate reporter for e2e tests
+Fix reflection warning from #3032 :wrench: :warning:
+Fixed expect on waiting promise instead of result
+Fix datamodel link
+Fix text-reading font size [ci skip]
+Fixed double escaping of dashboard query parameters
+Fix radio buttons stretching
+Fixed radio button not using cursor-pointer
+Fixed important fields removal not working
+Fixed changes not being reflect in data-ref when creating new segments and metrics
+Fixed empty state glitch for table & segments picker
+Fix line-height in data ref paragraphs [ci skip]
+Fixed broken data update on selection changes
+Fixed metric important fields removal
+Fixed initial select state not being set properly
+Fixed removal behavior for last metric in section
+Fixed select component disable behavior & hover styling
+Fix margin above record detail
+Fixed navigate back functionality not working when only 1 database exists
+Fix dashcard button regression. Resolves #3169
+Fixed database selection getting disabled when only 1 database exists
+Fixed form value initialization, updating wrong entity type for tables
+Fixed data selector placeholder text for segments
+Fixed text inputs lingering after removal
+Fixed show_in_getting_started field for tables and segments
+Fixed updating same dashboard causing it to disappear from guide
+Fixed newlines being ignored by detail views
+Fixed caveats and points of interest update for dashboards
+Fixed empty state visibility logic
+Fix reflection warning :wrench:
+Fix pinmap center lat/lon + zoom settings Resolves #3152
+Fix datamodel schema picker requiring two clicks to take effect
+Fix OS X build commands :wrench: [ci skip]
+Fixed various merge issues
+Fix metabot toggle :robot_face:
+Fix custom column single series charts. Resolves #3095
+Fix dashcard parameter mapping. Resolves #3096
+Fix clickoutside wrpaper issue with popover being removed from the stack too soon, causing parent modal to close as well
+Fix + optimize frontend test harness
+Fix popovers being behind modals
+Fix lint errors
+Fix routes filename
+Fix dashboard params
+Fix analytics + API error handlers
+Use ReactDOM.unstable_renderSubtreeIntoContainer in Modal/Popover/etc. Fixes broken <Links>
+Fix nav dropdown shadow
+Fix Google Auth
+Replace onChangeLocation and all direct usage of dispatch in React components. Fix setup. Misc
+Fix qb forward/back
+Fixed revision message textarea styling
+Fixed buggy formula viewer animation
+Fix rendering of transformed multiseries
+Fix timeseries line charts
+Fixed more alignment issues and refactored icon-width into variable
+Fix "Cannot read property 'attrs' of undefined" when icon is missing
+Fixed useful question title caps
+Fix issue with unmounting open tooltips causing crashes
+Fixed the FIXME
+Fix scalar series splitting and D-M-M series names
+Fixed revisions icons alignment
+Fixed details alignment
+Fixed fields table heading alignment
+Fix line/area/bar chart fidelity
+Fix bin/debug-proxy
+Fix up dimension/metric settings, implement for pie chart
+Fixed metadata not loading fully for metric/segment revisions
+Fix Postgres filtering by nil UUID values :wrench:
+Fix frontend warnings
+Fix crash when user has native queries
+Fix scalar series + misc cleanup
+Fixed see this metric/segment not working for other databases
+Fixed a few react warnings
+Fixed incorrect compare function for table schema sorting
+Fixed separateTablesBySchema not exiting early
+Fixed missing names from mock table data
+Fixed hang on large databases caused by using i.assoc in reduce
+Fix another crash
+Fix some crashes
+Fixed foreign key select layout on details view when empty
+Fix saving, typo
+Fix failing frontend test
+Fixed revisions not reloading after making a change to metric or segment
+Fixed local text-body class not working
+Fixed edit button alignment error
+Fix testing against newer versions of MySQL :wrench:
+Fix qb tutorial link inside qb. Resolves #2940
+Fix sort widget crash. Resolves #2859
+Fix pulse saving, broke when centralizing Redux
+Fixed webpack warnings
+Fixed timestamps being available on numeric field types
+Fixed foreign key display logic
+Fix handling of localhost and ports in is-url? :wrench:
+Fix load-from-h2 command :wrench:
+Fixed broken revision history
+Fixed nav nested path edge case
+Fixed bug when navigating from fields to revision in list
+Fixed breadcrumbs for fields for lists
+Fixed loading indicator not showing up
+Fix merge error :bird:
+Fix n+1 DB calls in GET /activity :disappointed: :unamused:
+Fixed broken metrics and lists routes
+Fixed empty table list when navigating from table to database route
+Fix segment/metrics tableMetadata loading
+Fixed routing bug
+Fix for Redshift :honey_pot:
+Fix handling dots in identifiers :honey_pot:
+Fix adding card to dash from qb
+Fix broken activity feed upon login
+Fixed outdated render-pulse-card argument
+Fix exception when creating new dashboard
+Fix load-from-h2 :honey_pot: [WIP] [ci skip]
+Fix a few more angular->redux issues
+Fixed error display for pulse preview endpoint
+Fix for druid :keyboard:
+Fix missing type information for mongo native queries :keyboard:
+Fix fetching DB type on Heroku :yum:
+Fix issue with cursor moving to end of native editor. Resolves #2801
+Fix 'organize questions' item, remove 'create getting started guide'
+Fix object detail for PK field :key:
+Fix overeager metabot :robot_face:
+Fix C3PO logging and reduce metabase.db logging
+Fix indentation :unamused:
+Fix bad merge :unamused:
+Fix dashboard loading/switching
+Fix adding to dashboard from qb
+Fix BigQuery native queries :question:
+Fix prepending SQL query info comment :information_source:
+Fix markdown docstring indentation :information_desk_person:
+Fix getDimensions fk-> support
+Fix dashboard database metadata loading
+Fix AddSeriesModal dashcardData loading
+Fix issue with ActionButton reseting due to porting to ES6 class
+Fix QB resizing
+Fix syncing sample dataset :disappointed:
+Fix non-SQL query builder. Resolves #2690
+Fix broken today filter :scream_cat:
+Fix :max aggregations for Druid :lightning:
+Fix docstring typo :pineapple: [ci skip]
+Fix db-type when running from a JAR :honey_pot:
+Fix Flow errors
+Fix for Postgres :honey_pot:
+Fix "TypeError: Path must be a string" with fresh npm install + shrinkwrap"
+Fix unit tests
+Fixup! Added Crate type mappings
+Fix merge error :cry:
+Fix some indentation and style issues. :sad:
+Fix misplaced download icon in object detail. Resolves #2463
+Fix formatting of minutes for format-nanoseconds :ghost:
+Be more conservative with our popover z-index. Fixes tutorial page flag.
+Fix intermittent BigQuery CI failures :unamused:
+Fix table sorting when clicking column header
+Fix broken pivot table due to null dimension values. Be more defensive. Resolves #2440
+Fix updating a label name :unamused:
+Fix wrong arg count :cry:
+Fix ellipsis icon size. Allow icon 'attrs' to override default props
+Fix unit tests
+Fix issue with adding new label to a question
+Fix duplicate titles for Metabot :scream:
+Fix select all behavior
+Fix broken angular/react-router interaction
+Aggregate atomic classes into a single file and use that for 'composes' rules. Fix a couple CSS issues
+Fix a couple CSS issues
+Fix a few colors
+Fix column ordering for calculated columns :cry:
+Fix defs ordering
+Fix var ordering in QP interface :sweat:
+Fix NullPointerException when referencing expression that doesn't exist :cry:
+Fix card favorite status returned by GET /api/card :sob:
+Fix unarchiving a card :cry:
+Fix GET /api/cards?f=recent :scream_cat:
+Fix error messages for POST /api/label and PUT /api/label/:id :warning:
+Fix default time formatting + column header
+Fix timestamp parsing and switch date granularity detection to not coerce to UTC
+Fix hot-reloading
+Fix SQL Server non-SSL connections :disappointed_relieved:
+Fix pivot table formatting
+Fix SQLite "last month" behavior edge case :scream_cat:
+Fix SQLite "last month" behavior edge case :scream_cat:
+Fix table card row count calculation by allowing ExplicitSize to overide width/height prop
+Fix table card pivoting by reverting to using deprecated 'data' prop for now
+Fix unpublished ansi-styles dependency ಠ_ಠ
+Fix BigQuery error message
+Fix caching issue with Angular partial. Just inline it. Resolves #2210
+Fix adding new expression :unamused:
+Fix webpack misconfiguration causing issues with fonts
+Fix incorrect pie chart detail
+Fix chart dot radius in Safari
+Fix XKCD easter egg code
+Fix table page size calculation
+Fix dashboards on platforms where fullscreen is not supported (e.x. mobile iOS)
+Fix slight dashboard misalignment
+Fix dashboard height issues, remove old hack
+Fix Safari
+Fix 'Cannot read property 'height' of undefined'
+Fix line/area/bar chart memory leak due to dc.js's chartRegistry
+Fix new card bg fading from yellow to transparent
+Fix table card styling and pagination bug
+Ensure dashboard is centered. Fix header padding.
+Fix visualizations menu
+Fix support for Java 1.7 :crying_cat_face: :coffee: #2098
+Fix SQL timestamp parsing and retain timezone
+Fix bullet points in dashboard tips markdown :gun: [ci skip]
+Fix scalar not showing 0
+Fix scalar sizing
+Fix setting Slack token :scream_cat:
+Fix linters :cry:
+Fix dashcard sorting
+Fix for new Settings dox :page_facing_up:
+Fix indentation for docstring of defsetting :page_facing_up:
+Fix Slack Pulse unicode handling :robot:
+Fix slack pulses :scream_cat:
+Fix pasting passwords on iOS Chrome by hiding the auth scene (?!?!?). Resolves #788
+Fix week-year formatting
+Fix adding SQL cards to multiseries
+Fix pie/geo charts which still use legacy card/data props
+Fix timeseries detection due to incorrect column metadata
+Fix failing backend tests
+Fix dashcard dragging + scrolling
+Fix dashboard modals in mobile mode
+Fix race condition with charts being rendered small
+Fix AddSeriesModal expanding with legend header, cleanup use of className in visualizations
+Fix intermittent BigQuery test failures :unamused:
+Fix 'Cannot read property 'tables_lookup'
+Fix dashcard resizing
+Fix misc dashboard bugs
+Fix unecessary card data loading / re-renders
+Fix issue with chart not re-rendering when series are added/removed
+Fix error when clicking but not dragging dash card
+Fix issue with modal backdrop scrolling
+Fix d3-tip
+Fix various React warnings
+Fix dependencies status badge :flushed:
+Fix broken visualization menu, ensure we provide the current card but with the last executed query
+Fix race condition
+Fix pulse table rendering due to dividing BigDecimals
+Fix Content-Security-Policy errors on Safari
+Fix pulse table rendering due to dividing BigDecimals
+Fix slow GET /api/session/properties :unamused: #1835
+Fix 'Non-terminating decimal expansion' error in pulse rendering
+Fix some showAllowEvent selectors that were causing tutorial to inadvertently advance when clicking the wrong spot
+Fix Content-Security-Policy errors on Safari
+Fix skinny quarters bars
+Fix Unicode in pulse emails
+Fix 'unknown field' in segments listing
+Fix hot-reloading in dev environment
+Fix frontend test
+Fix for crash when editing SQL card which has chart viz. Please forgive me.
+Fix pivot table cell formatting
+Fix for data selector when a single database is present
+Fix data reference
+Fix native query data selector
+Fix when no schema is present
+Fix reflection warnings :unamused:
+Fix duplicate tables for MongoDB after doing manual sync #1633
+Fix tons of unneeded DB calls
+Fix H2 week bucketing :scream_cat: #1709
+Fix H2 week bucketing :scream_cat: #1709
+Fix MetricForm explanation text. Give form labels a max width
+Fix 'vertical rhythm' of form labels
+Fix != false filtering in MySQL :scream_cat: #1680
+Fix != false filtering in MySQL :scream_cat: #1680
+squash! Fix != false filtering in MySQL :scream_cat: #1680
+squash! Fix != false filtering in MySQL :scream_cat: #1680
+Fix != false filtering in MySQL :scream_cat: #1680
+Fix != false filtering in MySQL :scream_cat: #1680
+Fix duplicate tables in DBs without schemas :disappointed: #1633
+Fix duplicate tables for MongoDB after doing manual sync #1633
+Fix duplicate tables for MongoDB after doing manual sync #1633
+Fix duplicate tables in DBs without schemas :disappointed: #1633
+Fix duplicate tables in DBs without schemas :disappointed: #1633
+Fix duplicate tables for MongoDB after doing manual sync #1633
+Fix duplicate tables for MongoDB after doing manual sync #1633
+Fix duplicate tables for MongoDB after doing manual sync #1633
+Fix duplicate tables for MongoDB after doing manual sync #1633
+Fix unit tests to include segments in table metadata endpoint
+Fix bug with new OnClickOutsideWrapper
+Fix indentation :scream_cat:
+Fix ability to sort by grouped fk-> or datetime_field field
+Fix SpecificDatePicker before/after bug when using timestamp_milliseconds/timestamp_seconds fields
+Fix js linting warnings
+Fixed broken image link and some small typos.
+Fixed a typo.
+Fix joins on non-default-schemas :scream_cat:
+Fix typo in Generic SQL features implementation :unamused:
+Fix column titles in Raw SQL queries with lots of columns
+Fix password reset unit test
+Fix base64 encoding / url issue causing occasional 404s
+Fix Mac App loading spinner direction :heart_eyes_cat: #1402
+Fix sparkline Y axis spacing
+Fix DataSelector when no display_name is set
+Fix schedule hour formatting
+Fix table rendering when col doesn't have a display_name (SQL, etc). Use 'for' instead of 'map'
+Fix downloadLink in QueryVisualization
+Fix datetime-field?
+Fix bad Last-Modified header :unamused: #1230
+Fix 0000-00-00 dates in MySQL :unamused: #1420
+Fix misleading 'with-dataset' names in QP unit tests :scream_cat: #1457
+Fix DB details key name for SQL Server :yum: #1481
+Fix DeleteModalWithConfirm typo
+Fix pulse schedule to match backend changes
+Fix pulse schedule formatting
+Fix setting timezone for Postgres
+Fix setting timezone for Postgres
+Fix setting timezone for native MySQL queries
+Fix != quick filter
+GET /api/database/form_input shouldn't require auth Fixes #1421.
+Fixes History modal issue by explicitly setting all header button keys
+Fix DashboardsDropdown propTypes:
+Fix docstring
+Fix database delete modal cancelling
+Fixed configuring SMTP via environment variables, added other SMTP provider Heroku addons
+Fix skinny time series bar charts
+Fix on the Google Apps settings
+Fix pie chart tooltips positioning when scrolled
+Fix tooltips on dashboards
+Created db modal. Fix issue with mb-react-components rendering after being destroyed. Misc cleanup
+Fix metadata section popovers not closing, and save indicator not updating
+Fix native query errors
+Fix date null/not null filter display
+Fix duplicate titles in OS X app.
+Fix adding filters via data ref and only show valid groupings
+Fix issue with popover position being computed relative to document instead of window
+Fix table icon path
+Fix overflowing 'No results' error message in IE
+Fix small modal issue in Safari/IE
+Fix recently viewed content overflowing in IE (https://github.com/philipwalton/flexbugs#2-column-flex-items-set-to-align-itemscenter-overflow-their-container)
+Fix start script SMTP parsing
+Fix afer typo
+Fix aggregation widget, due to FieldWidget recieving tableName instead of tableMetadata
+Fix cell width calc in Safari. Use old school for loops because Safari doesn't like iterating over DOM node lists
+Fix formatting for bulleted list.
+Fix typos.
+Fix tab spacing.
+Fix Popover positioning issue due to use of constraints while testing positions
+Fix and cleanup pie chart tooltip positioning
+Fix formatCell with pivot tables
+Fix svg paths
+Fix frontend tests and scripts
+Fix freeform filters
+Fix loading `version.properties` from uberjar. Fixes #1057
+Fix computeFilterTimeRange and unit tests
+Fix filter section styling and missing function binds in FilterWidget
+Fix filter section styling and missing function binds in FilterWidget
+Fix FieldName logic to not show bucketing for non-time fields
+Fix logic for selecting specific/relative filter pane
+Fix bug where calendar defaults to showing bajillion BC
+Fix NumberPicker not getting initial values
+Fix schema_metadata and tests
+Fix popovers closing when clicking outside
+Fix dashcard data timeout and errors
+Fix dashcard actions pointer-events rule
+Fix sort order not updating when toggling on column header
+Fix sort order not updating when toggling on column header
+Fix bug in getPositionForNewDashCard
+Fix dirty state for new cards
+Fix dashboard layout/background, center empty state message
+Fix tooltips
+Fix edit header button hover states
+Fix webpack env logic
+Fix React webpack config
+Add a Modal component and use it for the new modals. Fix dashboard creation.
+Fix new form CSS, transition forms in React to new style (though some will be going away soon anyway)
+Fix 'Showing x row(s)' logic
+Fix exception when special_type=fk but target=null
+Fix exception when navigating to /admin/metadata
+Fix AddToDashboard sizing
+Fix viz scrolling issue in Safari
+Fix issue with field selector not being able to select table fields after selecting a joined field
+Fix for chart on top of data reference
+Fixes React table regression by defaulting React to minified version. Add dev mode to webpack.config
+Fix angular-bootstrap package being removed from npm ಠ_ಠ
+Fix 'Add a grouping' display logic, add some padding
+Fix column resizing, improved from never resizing to merely 'takes a long time'.
+Fixed joins for aggregations and breakouts
+Fix old viz flashes when resizing and unmount the data ref component when navigating away from CardDetail
+Fix lint error
+Fix data selector jittering etc
+Fix incorrect parentIndex on filters
+Fix dashboards on mobile
+Fix issues connection to const DB details
+Fix issues with SQL mode
+Fix issues with SQL mode
+Fix the favorite star, again
+Fix the star icon and mbIcon for reals
+Fix star icon, and mbIcon directive
+Fix sizing of object details connections icon
+Fixes BG color issue
+member1o seems to be about 2x as fast as membero for long-running ordering. Fix lint error
+Fix some React warnings and add back in . when toggling data reference
+Fix .mx2 CSS rule
+Fix open connection during Mongo sync
+Fix column ordering / test fix
+Fix z-index issues due to CSS minifiers
+Fix bug where clicking the popover trigger would close then immediately reopen popover
+Fix data table column sizing issue
+Fix selection widget items alignment
+Fix bar chart padding. Possibly my first single character commit ever.
+YATF (Yet Another Text Fix)
+Fix sort widget on query builder doesn't show aggregation columns
+Fix logic for determining which charts are sensible, add cases for country/state charts and be more robust when transforming country codes
+Fix padding in card edit panel
+Fix login page redirect when already logged in (and add a unit test!)
+Fix clone button (not processing .path change due to being fired via React event)
+Fix pie charts (due to crossfilter being loaded incorrectly)
+Fix line/bar chart x-axis numeric ordering
+Fix for large Y axis tick labels overrunning axis label
+Fix bug where each resizing of a card in dashboard editing mode would reduce margin size
+Fix bug where refreshing data in card query builder threw an exception due to null tether object
+ripping out our paging controls now that the FixedDataTable can safely handle displaying our 2000 row max.
+Fix for React being loaded twice.
+sorting works again with FixedDataTable.
+get the FixedDataTable to actually work with some very basic settings.
+Fix crossfilter import
+Fix saving of table description
+try to import FixedDataTable.  not working yet.
+Fix incorrect import of SearchBar instead of SelectionModule
+Fix breakpoint names
+Fix issue where changing value of preview_display might not save
+Fixes for db admin URL handling
+Fix accidental detached head wonky git shennanigans
+Fix Query Test
+Tests for /api/emailreport/form_input. Fix funky timezones
+Additional query processor unit tests. Fix logging SQL for QP. Fix handling of "FILTER" clauses which aren't nested inside "AND" or "OR". Implement support for "OR" clause.
+add linter. Fix some linty issues. DB filename now resolved at runtime
+Fix query processor for `limit: nil`; handle `page` clause
+Fix issues with too many DB connections being created when `sync-db` was running.
+Fix admin/database partials/controllers calling everything "datamarts" because of copypasta. 'Add Database' now allows you to specify the type of Database (postgres or H2)
+Native Query Processor returns correct Column types (ish). Add special type and base type definitions for Field. Fix issue when connecting to external DB when host=localhost
+Fix org endpoints for fetching / listing peeps. Cleanup code
+`require_params` and some more unit tests. Fix 500 with auto-parse missing param

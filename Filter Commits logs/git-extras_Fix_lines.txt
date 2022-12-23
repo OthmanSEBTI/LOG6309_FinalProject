@@ -1,0 +1,88 @@
+Fix lazy loading bash_completion from XDG_DATA_DIRS
+Fixed bug in git-ignore which ignored config core.excludeFiles
+Fix grammer
+[ fix ] Fix hardcode ignore list file path
+Fixing summary for --squash-msg option.
+Fix missing newline escapes in git-release zsh completion
+Fix checks.
+Fix documentation for git-browse
+Fixes #770: Adds git-brv
+Fix typos
+Fix an indefinite article in the documentation
+Fix missing double quotes after %DEBUG%
+Fix: Dev: `/E` option required with MORE for working on higher version of Windows 10 (**_Build 17134_**)
+Fix greedy match of version number
+Fix deleting branches without upstream
+Fixed mktemp template to support busybox (and Alpine linux)
+Fix so 'git rebase-patch' is described once.
+Fix 'Invalid code page' error when resetting code page at end of script
+Fix omission when alphabetically printing ignores
+Fix typo
+Fix typos, remove trailing whitespace
+Fix Issue #186
+Fix typo in git-extras
+Fix in git-bulk head
+Fix git-effort for paths starting with dash
+spelling: {a,an} archive. Fix #609
+Fix typo in archive-file documentation
+Fix branch option parsing
+Fix usage
+git-missing: do proper argument parsing. Fix #562
+Fix incorrect comment in git-fork
+Fix typo in Installation.md
+Fix typo
+Fix typo: typess => types
+Fix ignore-io searching bug
+Fix typo in git-clear documentation
+Fix missing shebang in git-clear and missing +x on others
+Fix typo
+Fix ~/.gi_list not exist problem
+Fix usage error
+Fix doc error for git-ignore-io
+Fix doc error for git-ignore-io
+Fix typo
+Fixed typo in install.sh
+Fix typo in variable name
+Create a bash version of git-psykorebase — Fixes #411
+Fix error on FreeBSD with process substitution
+graft: Require destination branch. Fix #23
+effort: allow sending options to log. Fix #326
+Meke coloring respect --above. Fix 74
+Fix Fatal for git-line-summary
+Fix git tag substring extraction for bash 3.2.
+Fix git-changelog for compatibility for bash<4. Fixes #337, #338
+Fix git-changelog for compatibility for bash<4. Fixes #337, #338
+when deleting merged branches, preserve "svn" branch for git-svn Fixed #328
+Fix tag trapping when HEAD and tag point to same commit.
+Fix gitflow commit history output.
+Fix missing closing curly brance in `bash_completion.sh`
+Fix typo in in `git ignore` message
+Fix link to git feature command
+Fixes #277
+Fix #267, git-missing did not catch branch name.
+Fixes #266
+Fix wrong git-info heading level in Readme.md
+Fix feature|refactor|bug testing argument for string lenght
+Fixed git-changelog errors when multiple files match change|history
+Fixed git-changelog errors on first usage
+Fix changelog formatting for large version numbers
+Fix git-squash typo
+Fix broken URL from Readme.md
+Fix pattern to find names.
+Fix #127 git-ignore won't add duplicates.
+Fix typo in markdown and re-generate git-info
+Fix screencast link
+Fixed 2 bashism and now works on bash and dash
+Fixes sorting issues with annotated and lightweight tags.
+Fixes multiple matches selection
+Fixes multiple matches selection
+Create History.md if git-changelog can't find a target. Fixes #14.
+Fixed PREFIX to respect env vars
+Fix commit and file count in git-summary with a commitish
+Fix shift in git-count
+Fixed git-contrib issue when the username is in a commit msg
+Fix printing of authors for git-summary's on Ubuntu
+Fixed readme
+Fixed readme for changelog
+Fixed <tag> in docs
+Fixed readme

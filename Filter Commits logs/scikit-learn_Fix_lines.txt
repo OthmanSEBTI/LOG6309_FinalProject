@@ -1,0 +1,1819 @@
+DOC Fix FutureWarning in ensemble/plot_gradient_boosting_regression.html (#24946)
+DOC Fix FutureWarning in decomposition/plot_faces_decomposition.html (#24936)
+DOC Fix FutureWarning in manifold/plot_lle_digits.html (#24922)
+DOC Fix FutureWarning in cluster/plot_kmeans_assumptions.html (#24928)
+DOC Fix -- make OPTICS plots consistent (#24926)
+DOC Fix FutureWarning in cluster/plot_dict_face_patches.html (#24910)
+DOC Fix FutureWarning in manifold/plot_compare_methods.py (#24909)
+DOC Fix FutureWarning in plot_linear_model_coefficient_interpretation (#24920)
+DOC Fix FutureWarning in decomposition/plot_ica_blind_source_separation.html (#24908)
+DOC Fix FutureWarning in ensemble/plot_gradient_boosting_categorical example (#24902)
+DOC Fix FutureWarning in 'applications/plot_cyclical_feature_engineering.html' (#24892)
+DOC Fix FutureWarning in 'examples/bicluster/plot_bicluster_newsgroups.py' (#24880)
+DOC Fixes link to sigmoid in calibration example (#24835)
+TST Fix uniform rng in kmeans test_scaled_weights (#24778)
+DOC Fix inline interpreted text start-string without end-string. (#24734)
+FIX Fixes common test for requires_positive_X (#24667)
+MAINT Fix build when SKLEARN_OPENMP_PARALLELISM_ENABLED=False (#24682)
+DOC Fix typo in plot_set_output.py example (#24704)
+DOC Fix typo and adjust wording in `set_output` example (#24689)
+MAINT Fix full doc build by avoiding plot_set_output.py side-effect (#24654)
+FIX Fixes HTML repr when get_params contains classes (#24512)
+MAINT Fix error on np.matrix usage in documentation (#24514)
+DOC Fix the star button in the wrong place in ways to contribute (#24510)
+FIX Fix ranking for scipy >= 1.10. (#24483)
+Fix Erroneous Avg. Loss calculation in sgd (#23798)
+[Doc] Fix hyperlink formatting (#24457)
+Fixed AgglomerativeClustering's distance_threshold misleading statement (#24460)
+DOC Fix `monotonic_cst` description in HGBT docstrings (#24396)
+MAINT Fix some broken asv benchmarks (#24407)
+DOC Fix grammar in HashingVectorizer's docstring (#24372)
+CI Fixes junit in CI based on docker (#24299)
+DOC Fix some typos (#24300)
+DOC Fix minor typo in clustering user guide (#24284)
+[float32] Fix fastica tests for debian 32 bit build and global dtype float32 (#24244)
+MAINT Fix section ordering and duplicate sections (#24226)
+DOC Fix typo brier_score_loss doctring: is the sum -> as the sum (#24197)
+DOC Fix docstrings and comments for `PairwiseDistancesReduction` (#23978)
+MNT Fix binder setup (#24173)
+TST Fix `test_pairwise_distances_argkmin` xfail (#24168)
+DOC Fixes search on webpage (#24128)
+DOC Fix variable name in Adaboost example (#24135)
+Fix Taylor expansion documentation (#24122)
+FIX Fixes OrdinalEncoder.inverse_tranform nan encoded values (#24087)
+DOC Fixed sklearn.preprocessing._label.label_binarize docstring (#24002)
+DOC Fixed sklearn.random_projection.johnson_lindenstrauss_min_dim docstring (#24003)
+DOC Fixes docstring for max_features in trees (#23982)
+DOC Fix typo in PLSSVD method docstrings (#23995)
+[MRG] DOC Fix minor typo in BisectingKMeans docstring (#23986)
+DOC Fix typo in `RegressorChain` (#23989)
+CI Fix Ubuntu build for all random seeds (#23957)
+DOC Fix imputation glossary link (#23879)
+DOC Fix typos on plot_all_scalaing page (#23860)
+DOC Fix typos on Feature Extraction page (#23859)
+DOC Fix typos in Visualizations docs (#23827)
+TST Fixes check_param_validation for failing tags (#23812)
+DOC Fix typos in metrics and scoring docs (#23785)
+DOC Fix random_state parameter definition in docstring (#23712)
+DOC Fix broken link to pandas doc (#23696)
+Fix broken link for random projections (#23673)
+Fix link to author's website (#23671)
+DOC Fix typos in Gaussian mixture page (#23622)
+DOC Fix typo in manifold page (#23623)
+DOC Fix typo in Clustering page (#23625)
+DOC Fix typos in Feature Selection page (#23601)
+DOC Fix minor typo in ensemble docs (#23570)
+DOC Fix typos in ensemble docs (#23564)
+FIX Fix gram validation: dtype-aware tolerance (#22059)
+DOC Fix grammar in contributing doc (#23553)
+MNT Fixes flake8 issues (#23542)
+DOCS Fix typos in decision trees docs (#23545)
+FIX Fix empty changed files in documentation (#23541)
+MNT Fixes doc building on PR (#23508)
+MNT Fixes lgtm config (#23493)
+DOC Fixes typo in code comment (#23529)
+FIX Fix test_spectral_eigen_tol_auto for pypy (#23523)
+MNT Fixes check-manifest for dist_metrics (#23496)
+DOC Fix typo in random forest feature importance comparison example. (#23484)
+DOC Fixes order in whats new (#23466)
+DOC Fix grammar in linear_model.rst (#23456)
+DOCS Fix broken link (#23449)
+DOC Fix pinball loss fomula in linear_model.rst (#23445)
+DOC Fixes typo in empirical_covariance.py (#23441)
+MNT Fix setup.py clean with setuptools >= 61 (#23426)
+DOC Fix minor typo in doc/tutorial/basic/tutorial.rst (#23403)
+Fix OpenML timeout (#23358)
+Fix whats_new for v1.2 (#23337)
+Fix various sphinx warnings. (#23310)
+DOC Fix return type of weighted_n_node_samples (#23284)
+DOC Fix extraneous noqa comments (#23285)
+Fix TSNE future warnings approximate neighbors (#23270)
+MAINT Fix some typos (#23251)
+DOC Fixes sphinx warning in whats_new 1.1 (#23246)
+DOC Fix label mismatch in ICA vs. PCA example (#23239)
+DOC Fixes grammar in decision tree's cpp pruning docstring (#20442)
+DOC Fixes docstring in BayesianGaussianMixture (#19243)
+DOC Fixes confusing notation for y and y_pred (#23193)
+CI Fix don't run all random seeds all the time (#23190)
+DOC Fix notebook style of plot_coin_ward_segmentation (#23164)
+TST Fix ridge tests not deterministic (#23181)
+TST Fix failing tests catched by azure cron job (#23167)
+FIX Fix available_if with bounded methods (#23077)
+FIX Fixes Stacking* HTML repr (#23097)
+DOC Fix rst title in support documentation (#23157)
+DOC Fix User Guide link in PartialDependenceDisplay (#20004)
+DOC Fix the See Also section in GraphicalLassoCV (#23131)
+DOC Fixes sphinx warnings when building docs (#23092)
+CI Fixes windows wheel build [cd build gh] (#23122)
+DOC Fix version added of ConfusionMatrix.from_predictions (#23088)
+DOC Fix duplicated module entries in whats_new (#23060)
+FIX Fixes partial_fit support for regressors in learning_curve (#22982)
+DOC Fixing a documentation issue on SVC parameter decision_function_shape (#23021)
+MNT Fix pytest random seed pluging with vscode test discovery (#22976)
+DOC Fixes nav bar by dynamically changing searchbar size (#22954)
+FIX Fix recall in multilabel classification when true labels are all negative (#19085)
+TST Fix test failing scipy nightly (#22935)
+Fix Ridge sparse + sample_weight + intercept (#22899)
+FIX Fixes OneVsOneClassifier.predict for Estimators with only predict_proba (#22604)
+MAINT Fix plot_gallery warning when building docs (#22869)
+DOC: Fix latex \max and not max in model selection (#22858)
+FIX Fix ColumnTransformer.get_feature_names_out with slices (#22775)
+TST Fixes global random seed with pytest-xdist (#22844)
+DOC Fix the formatting for environment variables in docs (#22833)
+DOC Fix wrong link title for PCA in "Dim. red." (#22835)
+FIX Fixes visualization for nested meta-estimators (#21310)
+FIX Fixed `self.n_components` typo in `kernal_pca` (#22812)
+DOC Fix docstring in quantile_transform function #21350 (#22780)
+DOC Fix docstring in sklearn.metrics._ranking.label_ranking_loss (#22781)
+Fixed sklearn.model_selection._split.check_cv docstring in #21350 (#22778)
+DOC Fix link to the minimal reproducible example (#22772)
+FIX Fixes KBinsDiscretizer for encode=ordinal (#22735)
+DOC Fix typo in _kmeans.py (#22736)
+CI Fixes job check-manifest dependency (#22732)
+DOC Fixes VotingClassifier.transform docstring (#22698)
+FIX Fixes KNeighborsRegressor.predict with array-likes (#22687)
+DOC Fixes visualization docs and runs code to plot (#22579)
+MNT Fix some warnings in examples (#22660)
+DOC Fix matplotlib warning for plot_iris_dataset.py (#22640)
+DOC Fix axes3d matplotlib deprecation warning (#22622)
+DOC Fix typo in decomposition.TruncatedSVD (#22624)
+MNT Fixes pypy load_files error in test (#22619)
+DOC Fix matplotlib warning for plot_pca_3d.py (#22591)
+CI Fixes Windows 64 wheel builds (#22532)
+CI Fix scipy-dev for deprecated numpy.distutils (#22513)
+MNT Fixes bot for test collection failure (#22512)
+BUG Fix covariance and stdev shape in GPR with normalize_y (#22199)
+DOC Fix notebook-style for plot_document_clustering.py (#22443)
+DOC Fix MDS images in user guide (#22465)
+DOC Fix duplicate-word typos (#22454)
+DOC Fixes plot_sgd example to be consistent with 0.24 (#22424)
+DOC Fix expired links to some references (#22373)
+DOC Fix docstring for AdditiveChi2Sampler (#22138)
+BUG Fixes division by zero in PCA `get_precision` (#22300)
+MAINT Fix check_scalar error in trees (#22302)
+DOC Fix selection of parameter names in documentation (#22290)
+DOC Fix incorrect heading underline length in docstrings (#22278)
+ENH Fix AttributeError of compound kernel of Gaussian processes (#22223)
+MNT Fixes Cython compile error on upstream (#22143)
+FIX Fix warning for ElasticNetCV l1_ratio=0 (#21724)
+DOC Fix doc by adding a missing closing parenthesis in _gpr.py (#22184)
+CI Fix misleading info in pylatest_pip_openblas_pandas build (#22167)
+DOC Fix sphinx warnings related to example reformatting. (#22147)
+Fix a default value in Perceptron documentation (#22116)
+CI Fixes wheel building (#22051)
+FIX Fixes OneVsRestClassifier predict_proba for constant int targets (#21871)
+FIX Fix the error message when using precomputed affinity in AgglomerativeClustering  (#21974)
+DOC Fixed an error in plot_digits_last_image (#21972)
+FIX Fixes plot_tree from going out of bounds (#21917)
+DOC Fix deprecation warning in plot_roc (#21911)
+DOC Fixes sphinx error and combines dataset module in whats new (#21900)
+FIX Fixes joblib memmap error for KDTree and BallTree (#21845)
+TST Fix test to actually check writable and readable ndarrays (#21853)
+DOC Fix docstring for ngram_range parameter in Vectorizers (#21844)
+MNT Fixes deprecation error in [scipy-dev] (#21812)
+CI Fixes check_regressors_train on prescott OpenBlas (#21781)
+FIX/API Fix AIC/BIC in LassoLarsIC and introduce noise_variance (#21481)
+BUG Fix upstream updater when test collection fails (#21655)
+DOC Fix link to scipy guide on development workflow (#21633)
+DOC Fix 21448 whats_new entry (#21579)
+FIX Fixed infinite loop in cluster._spectral.discretize (#21271)
+Fixed a small grammar mistake in the docs (#21487)
+DOC Fix precompute parameter docstring in Lasso (#21475)
+MAINT Fix broken travis link in CI badges (#21465)
+Fix numpydoc format for sklearn.model_selection._validation.numpydoc_validation_cross_val_predict (#21433)
+Fix doc issues for cluster_optics dbscan (#21419)
+CI Fixes test_rank_deficient_design (#21345)
+DOC Fixes logo and badge on PyPi's readme (#21222)
+MAINT Fix Check Manifest in CI (#21317)
+BLD Fixes osx build by downgrading to 11.X (#21227)
+MAINT Fix chmod ±x in .sh and .pyx files (#21234)
+DOC Fix changelog formatting (#21220)
+DOC Fix interpretation in plot_agglomerative_clustering.py (#21167)
+FIX Fixes test for checking gitignore and Cython templates (#20997)
+DOC Fix minor issues in bike sharing example (#21127)
+DOC Fix a few typos in release highlights (#21096)
+DOC Fix sphinx's links to Glossary (#21094)
+DOC Fixes build from source instructions (#21004)
+BUG Fixes FunctionTransformer validation in inverse_transform (#20961)
+Fix the stalled linux/arm64 [cd build] jobs on travis (#20958)
+Fixing integer overflow on 32-bit architectures. (#20904)
+Fix OvOClassifier.n_features_in_ and other unexpected warning at prediction time when checking feature_names_in_ (#20853)
+DOC Fixes numpydoc validation errors in ColumnTransformer (#20823)
+BLD Fixes OSX wheel build (#20470)
+Fix typo in example `plot.cyclical_feature_engineering.py`. (#20795)
+FIX Fixes bug in mlp when loading a pickle and partial_fit (#19631)
+DOC Fixes typo in plot_permutation_test_for_classification (#20622)
+FIX Fixes AgglomerativeClustering with precomputed affinity (#20597)
+DOC Fix default pre_dispatch value in docstring (#20596)
+DOC Fix rendering in plot_pipeline_display. formatting fix with docstring (#20562)
+Fix `_weighted_percentile` for `percentile=0` (#20528)
+DOC Fix typo in docstring for Pipeline __getitem__ method (#20523)
+DOC Fix typo in release note for ridge positive argument (#20467)
+Fix black
+DOC Fixes numpydoc validation errors in KNeighborsClassifier (#20373)
+DOC Fixes numpydoc validation errors in StandardScalar (#20368)
+DOC Fix incorrect parameter docstring in kneighbors_graph method (#20352)
+DOC Fix broken link for the paper on cross-validation (#20328)
+EXA Fix issue in Statistical comparison of models using grid search (#19966)
+DOC Fix color palette in manifold example (#19517)
+DOC Fix docstring summary line in _rfe.py (#20280)
+EXA Fix dist matrix in permutation_importance_multicollinear.py (#20239)
+CI Fixes regex label action labeler (#20229)
+FIX Fix RandomForestRegressor doesn't accept max_samples=1.0 (#20159)
+FIX Fix error when using Calibrated with Voting (#20087)
+FIX Fix typo in error message in `fetch_openml` (#20201)
+TST Fixes test and mis-matched pandas version (#20149)
+[MRG] Fix Sparse PCA optimization task #19775 (#20153)
+Fix number of splines in legend of example plot (#20142)
+Fix GaussianMixture UnboundLocalError (#20030)
+CI Fix min dependencies for scikit-image (#20108)
+CLN Fix _add_node parameter name (#20008)
+DOC Fix typo on comment about t-SNE (#20009)
+CI Fixes MAC ar build error (#19968)
+FIX Fixes PLSRegression regression for constant Yk (#19922)
+FIX Fixes regression in CCA due to change of cutoff values in SciPy  (#19646)
+FIX Fixes memory view bug in distance metrics (#19933)
+EXA Fix plot_map_data_to_normal.py example legend (#19930)
+DOC Fixes typo in doc/modules/cross_validation.rst (#19925)
+FIX Fixes unknown handling for str dtypes in OrdinalEncoder.transform (#19888)
+DOC Fixes links in outlier_detection.html (#19917)
+DOC Fix the description of some features in load_diabetes (#19366)
+DictionaryLearning: Fix several issues in the dict update (#19198)
+DOC Fix typos plot_column_transformer_mixed_types.py (#19871)
+DOC Fix typo in common_pitfalls.rst (#19867)
+DOC Fixed typo in clustering.rst (#19863)
+DOC Fix versionchanged/versionadded in OneHotEncoder (#16562)
+DOC Fix incorrect 0-1 scaling in the RBM example (#19363)
+TST Fixes test_partial_fit_oneclass (#19814)
+CI Fix string comparison in milestone workflow (#19840)
+DOC Fixes style for versionadded (#19817)
+DOC Fix order of whatsnew entries (#19822)
+DOC Fix typo in Truncated SVD documentation (#19765)
+DOC Fixed typo in cross_val_predict docstring (#19739)
+DOC Fix load iris datasets (#19729)
+DOC Fix typo in KDE metric docstring default value (#19735)
+DOC Fix doc for single linkage in feature agglomeration (#19715)
+DOC Fix doc regarding required_parameters (#19725)
+Fix typo in elastic net docstring. (#19711)
+[MRG] Fix documentation for russelrao formula (#19695)
+MNT Fix error message for Minkowski metric parameter (#19671)
+DOC Fix typo in plot_multi_metric_evaluation example (#19675)
+BUG Fixes verbose > 2 for grid search (#19659)
+Fix Calibrated classifier cv predictions with pipeline (#19641)
+DOC Fixes spelling mistake in _kmeans.py (#19634)
+DOC Fix documentation on pickle portability (#19561)
+CI Fix origin/master -> origin/main in check-changelog
+CI Fix shell syntax introduced in #19155
+CI Fixes twitter workflow (#19525)
+EXA Fix overlapping titles in clustering overview (#19506)
+DOC Fixed typos in documentation (#19511)
+Fix underflow issues due to float precision in TSNE (#19472)
+DOC Fix broken link to wikipedia in semi-supervised UG (#19481)
+DOC Fix closing backtick in IterativeImputer (#19476)
+DOC Fix typo in LDA User Guide (#19468)
+Fix: RuntimeWarning by dividing by zero in test_radius_neighbors_classifier_zero_distance (#19395)
+TST Fixes docstring ordering and test_docstring_parameters (#19048)
+TST Fixes logistic & partial_dependence test for 32bit wheels (#19402)
+TST Fix RuntimeWarning: invalid value encountered in test_calibration.py (#19421)
+MNT Fix divide by zero error thrown by _random_choice_csc during a test run (#19383)
+Fix min_pos when all negative + speed up (#19328)
+CLN Fixes PendingDeprecationWarning in CountVectorizer (#19299)
+DOC Fixes formating in feature_extraction module (#19274)
+DOC Fixed typo in a comment (#19284)
+FIX Fixes test_compare_to_elki failure (#19221)
+DOC Fix minimum version for building ZIP of the HTML (#19208)
+FIX Fixes issue with exatly_zero_info_score (#19179)
+DOC Fix typo in datasets.rst (#19136)
+DOC Fix docstring of HalvingSearch estimators (#19133)
+DOC Fix cross-validation wording in RidgeCV (#19121)
+CI Fixes scipy-dev build instance (#19062)
+TST Fix scipy DeprecationWarning from wminkowski in nightly (#18930)
+DOC Fix typo in experimental features documentation (#19053)
+DOC Fix typo in Gaussian Process docs (#19039)
+BUG Fixes fetch_kddcup99 for return_X_y and as_frame (#19011)
+DOC Fix doc of defaults in sklearn.utils.sparsefuncs.py (#18025)
+DOC Fix broken link to SLEPs in the Governance docs (#18967)
+DOC Fix ref section of grid search stats example (#18949)
+Fix missing occurrence of branch name
+TST Fix DeprecationWarning for np.bool type. (#18927)
+FIX Fixes histgradientboosting for cython 3.0 [scipy-dev] (#18883)
+MNT Fix TODO comment referring to Cython version not sklearn (#18880)
+FIX Fixes test_scale_and_stability (#18746)
+DOC Fix docstring RST formatting in TimeSeriesSplit (#18816)
+DOC Fix ref to MultiTaskElasticNetCV in MultiTaskElasticNet doc (#18814)
+DOC Fix links to navigate to correct pages as in link text (#18804)
+DOC Fix changelog rendering and undefined label sphinx warning (#18772)
+DOC Fix doc of fit_predict in neighbors/_lof.py (#18754)
+BUG Fix numpy version for `_take_along_axis` in fixes.py (#18745)
+CI Fixes CI sync (#18695)
+FIX Fixes encoders for string dtypes (#15763)
+DOC Fix typo in docstring for check_pandas_support (#18688)
+DOC Fixes common pitfalls (#18617)
+DOC Fix parameter order in model_evaluation.rst (#18602)
+FIX Fixes TheilSenRegressor with fit_intercept=False and one feature (#18121)
+DOC Fix versionadded for 0.23 (#18522)
+[MRG] Nearest Centroid Divide by Zero Fix (#18370)
+DOC Fix version in whatsnew and docstring (#18504)
+TST Fixes column transformer tests (#18452)
+DOC Fixed typo in IterativeImputer:  switch abs and max positions (#18478)
+DOC Fix docstring for class MissingIndicator (#18446)
+DOC Fix missing References (#18450)
+DOC Fix typo in plot_feature_union example (#18474)
+DOC Fix spelling in _optics.py docstring (#18463)
+DOC Fix documentation of default values in sklearn.feature_extraction.text.py (#18360)
+DOC Fix default values in _validation.py (#18337)
+DOC Fix documentation of default values in sklearn.utils._testing.py (#18386)
+FIX Fix scikit-image substitution in README.rst (#18441)
+DOC Fix docs of default values in _estimator_hhtml_repr (#18385)
+DOC Fix step 5 under "Contributing Code" to include build tools installation (#18417)
+DOC Fix default values in murmurhash.pyx (#18336)
+DOC Fix docs of default values in sklearn.utils.validation (#18401)
+DOC Fix docs for default values in sklearn.utils.extmath (#18399)
+DOC Fix docs for default values in sklearn.utils.sparsefuncs (#18400)
+DOC Fix documentation of default values in sklearn.deprecation (#18387)
+DOC Fix typo of defaults in sklearn.manifold.TSNE class (#18392)
+DOC Fix x-axis label positions for SH iterations example (#18380)
+DOC Fix docstring in _spectral_embedding.py (#18361)
+DOC Fix documentation of default values in sklearn.utils._mocking.py (#18351)
+DOC Fix A to uppercase in See Also docstring section (#18332)
+DOC Fix docstring following numpydoc validation (#18322)
+DOC Fix versionadded/versionchanged for 0.24 (#18312)
+DOC Fix default values and add None to random_state in tree._classes.py (#18291)
+DOC Fix default values, shape and dtype for preprocessing._discretization.py (#18290)
+DOC Fix default values for utils.extmath.py (#18295)
+DOC Fix docstring for default value in linear_model/_huber_loss_and_g… (#18297)
+DOC Fix default values for utils._testing.py (#18296)
+FIX Fixes cython error in 3.0 [scipy-dev] (#18294)
+TST Fixed issue with small_pos_ratio on mac os x with python >= 3.7 due to floating point precision issue (#18270)
+DOC Fix docstring in grower.py following doc guideline (#18206)
+DOC Fix docstring in examples (#18251)
+DOC Fix docs for clustering.rst following doc guideline (#18230)
+DOC Fix documentation of default values in decomposition module (#17739)
+DOC Fix documentation of the base module (#17548)
+DOC Fix doc of defaults in _label.py (#18220)
+DOC Fix docstring binning.py module (#18207)
+MNT/DOC Add preamble adding hbox around href. Fix unnumbered ref. (#18213)
+DOC Fix docstring in sklearn.metrics.pairwise.py (#18092)
+DOC Fix documentation of the dummy module (#17306)
+DOC Fixes failing examples (#18180)
+FIX Fixes ClassifierChain issue when a tuple is passed to order (#18124)
+DOC Fixes whats new by removing undefined module (#18172)
+FIX Fix a cross-platform endian issue in trees (#17644)
+DOC Fix doc of default values in sklearn.neural_network._multilayer_perceptron.py (#18133)
+DOC Fixes hard coded title in gmm selection example plot (#17418)
+DOC Fix mpl in plot_partial_dependence_visualization_api (#18109)
+DOC Fix doc of defaults in sklearn.linear_model._omp.py (#18100)
+DOC Fix doc of defaults in sklearn.linear_model._sag.py (#18098)
+DOC Fix doc of defaults in sklearn.linear_model._theil_sen (#18099)
+Fix MemoryError exception when calling barycenter_weights with large inputs (#17997)
+DOC Fix documentation of default values in fastica.py (#17989)
+DOC Fix doc of defaults in sklearn.metrics._ranking.py (#18093)
+DOC Fix doc of defaults in gaussion_process._gpr.py (#18075)
+DOC Fix doc of defaults in sklearn.manifold._mds.py (#18060)
+DOC Fix doc of defaults in manifold._spectral_embedding.py (#18061)
+DOC Fix doc of defaults in sklearn.utils.graph.py (#18064)
+DOC Fix doc of defaults in sklearn.metrics._scorer.py (#18058)
+DOC Fix doc of defaults in sklearn.utils.validation.py (#18048)
+DOC Fix doc of defaults in sklearn.calibration.py (#18034)
+DOC Fix doc of defaults in sklearn.utils.estimator_checks.py (#18037)
+DOC Fix return docstring cross_val_predict (#18035)
+CI Fixes circleci doc building by adding path to conda in bash script (#18022)
+Fix #16998 classification_report with output_dict=True should not raise AttributeError  (#17777)
+DOC Fix doc of defaults in sklearn.utils.multiclass.py (#18021)
+[MRG] Fix KMeans convergence when tol==0 (#17959)
+FIX Fixes CountVectorizer sample invariance with max_features (#18016)
+Fix typo in docstring for GaussianMixture. (#17998)
+DOC Fix documentation of default values in validation.py (#17988)
+DOC Fix documentation of default values in multiclass.py (#17986)
+DOC Fix documentation of defaults in sklearn.utils.class_weight (#17981)
+DOC Fix typo in the KNeighborsClassifier documentation (#17958)
+DOC Fix math notation error in description of CCP (#16450)
+DOC Fix error text when null_space fails with ARPACK (#17927)
+DOC Fix documentation of default values in sklearn.utils._encode.py (#17859)
+DOC Fix documentation of default values in sklearn.utils.optimize.py (#17881)
+DOC Fix numpydoc section name Return -> Returns (#17879)
+MNT Fixed import statements (#17901)
+CI Fix pre-build checks to handle compilers from build_ext options (#16193)
+DOC Fix default values in multioutput.py docstrings (#17841)
+DOC Fix documentation of default values in tree exports (#17834)
+BUG Fixes stacker compatibility with estimators without n_features_in_ (#17357)
+FIX Fix handling of binary_only tag in check_estimator (#17812)
+TST Fix test_float_precision fails on arm (#17802)
+Fixed typo in docstring of enet_path in _coordinate_descent.py (#17807)
+Fix SVs computation (#17405)
+DOC Fix some glossary links (#17773)
+TST Fix estimator checks for classifers with poor_score tag (#16851)
+ENH Enable percentage for n_features_to_select in RFE(Fix PR #16228) (#17090)
+MNT Fix extension for sphinx 3.0 (#17724)
+FIX Fix support for code in API elements (#17632)
+MNT Fix build with Cython 3.0a5 (#17627)
+MNT Fix documentation build due to failure in plot_ica_vs_pca (#17629)
+DOC Fix model parameter not added to self in GaussianNoise (#17613)
+FIX Fixes deprecation of positional arguments on test_percent10 (#17577)
+FIX Fixes deprecation of tostring on numpy master (#16928)
+DOC Fix minor typos in Release Notes for 0.23 (#17584)
+TST Fixed tiny typo in test_logistic.py (#17562)
+DOC Fixing defaults in inspection (#17523)
+DOC Fix typo in the Pipelines and composite estimators section (#17547)
+Fix simple imputer for string input (#17526)
+DOC Fix formatting in docstring of make_moon (#17528)
+MNT Fix spelling of _check_classifier_response_method (#17529)
+DOC Fix documentation of default values in cluster module (#17455)
+DOC Fixing n_jobs doc param in multiclass.py (#17489)
+DOC Fix documentation of default values in sklearn.utils.validation (#17490)
+Fixed typos (#17459)
+DOC Fix formating in plot_roc_curve docstring example (#17457)
+DOC Fix typo: R_ij -> R_{ij} for Davies-Bouldin Index (#17452)
+DOC Fix typo in quantile_transformer (#17343)
+ENH Fix averaged RMSE (#17309)
+DOC Fix RandomizedSearchCV's docstring by changing the cv_results_ data (#17275)
+BUG Fixes cython code for ppc arch (#17201)
+DOC Fix parametrize_with_checks link (#17263)
+MNT Fix incorrect source code link for wrapped objects (#17247)
+DOC Fix and extend mixed dtype column transformer example (#17088)
+DOC Fix formating in docstrings _regression.py (#17226)
+DOC Fix argument ref in Isomap docs (#17217)
+FIX Fix path to what's new in the navigation bar. (#17223)
+DOC Fix documentation of default values in base, birch (#16195)
+DOC Fix links and clarify plot_random_dataset.py (#17150)
+DOC Fix deprecation warning in plot_roc_crossval (#17155)
+DOC Fixes formating in whats new (#17076)
+[MRG] Fix LinearModelsCV for loky backend. (#14264)
+Fix Mypy issue in _openml.py (#17047)
+MNT Fix 'clf' variable naming in test_forest (#16929)
+DOC Fix a typo in comment (#17037)
+DOC Fix link to user guide (#16989)
+DOC Fix typo in ensemble.rst (#16999)
+MNT Fixes DataConversionWarning doctest in pypy (#16965)
+BUG Fix instability issue of ARDRegression (with speedup) (#16849)
+DOC Fix docstring issue in parametrize_with_checks (#16953)
+DOC Fixed Plot Mnist Example (#16200)
+Fix _deprecate_positional_args for kwonly args w/o default (#16850)
+DOC Fix wording, typo in plot_voting_regressor.py (#16895)
+DOC Fix typos, wording in plot_gradient_boosting_regression.py (#16894)
+DOC Fix grammar and clarify VotingRegressor (#16896)
+[MRG] MNT Fixes for PCA with n_components='mle' (#16841)
+TST Fixes comment in test to reflect actual missing value (#16872)
+DOC Fix Confidence Interval Again (#16809)
+Fix mypy errors (#16726)
+DOC Fix broken link in whats_new for 0.23 (#16796)
+MNT Fix higgs boson benchmark (#16740)
+BUG Fixes kernel PCA raising "invalid value encountered in mul… (#16718)
+Fix wrong optimization for Log Likelihood Gradient (#16047)
+BUG Fixes HistGradientBoosting when warm_start is on + early_stopping is on + no validation (#16663)
+BUG Fix issue with KernelPCA.inverse_transform (#16655)
+TST Fixes test so that whole test isn't skipped if pandas not… (#16627)
+DOC Fix "more..." link in "Model selection" section of 'index.… (#16620)
+Fix format of values in confusion matrix plot. (#16159)
+MNT Fix autolabeler by pinning the version (#16566)
+DOC Fixed documents that refer to Bunch object #16438 (#16447)
+DOC Fixes link in column transformer (#16516)
+DOC Fix new sphinx warnings (#16483)
+BUG Fixes benchmark script for early stopping (#16476)
+TST Fix unreachable code in tests (#16110)
+DOC Fix Tutorial example code lacking context #13566 (#14675)
+DOC Fix syntax in `model_evaluation` UG (#16410)
+TST Fixes test for California housing (#16389)
+Fix typo: datset -> dataset (#16366)
+DOC Fix minor quirks in multiclass docs (#16356)
+Fix warning in approximate_nearest_neighbors.py (#16339)
+Fix: Possible unnecessary iterations in Newton-CG algorithm (#16266)
+Fix Typo in random_state for multioutput.py (#16309)
+Fix User guide description for the Linnerud dataset #16294 (#16297)
+[MRG] Fix FutureWarning in plot_partial_dependence_visualization_api.py (#16256)
+DOC Fix alpha param of ridge estimators (#16288)
+Fix typos in doc/developers/develop.rst (#16162)
+DOC Fix links in KernelRidge user guide (#16235)
+[MRG] Fix documentation of the tol parameter of kmeans (#16125)
+FIX Fix string formatting in the error message in CategoricalNB (#16090)
+[MRG] MNT Fixes link to whats new in front page (#16009)
+DOC Fix default values in Perceptron documentation (#15965)
+[MRG] BUG Fixes constrast in plot_confusion_matrix (#15936)
+TST Fixes integer test for train and test indices (#15941)
+DOC Fix typos, via a Levenshtein-style corrector (#15923)
+BLD Fixes bug when building with NO_MATHJAX=1 (#15892)
+Fix imports in pip3 ubuntu by suffixing affected files (#15891)
+[MRG] MNT Fix assert run python script (#15905)
+DOC Fix documentation of default values in tree classes (#15870)
+BUG Fixes pandas dataframe bug with boolean dtypes (#15797)
+DOC Fix yticklabels order in permutation importances example (#15799)
+MNT Fix some easy-to-make typos (#15720)
+DOC Fix various sphinx warnings. (#15692)
+[MRG] BUG Fixes test_scale_and_stability in windows (#15661)
+TST Fix leak in tmp folders in LFW test when pillow is missing (#15676)
+MNT Fix whats new link on the home page (#15634)
+BUG Fixes partial dependence bug by setting axes to be invisible (#15572)
+DOC Fix 'Title underline too short' sphinx warning. (#15620)
+BLD Fix remove lazy import of Tempita (#15608)
+DOC Fix some new sphinx warnings. (#15560)
+DOC Fix issues in what's new. (#15564)
+[MRG] Fix OverflowError on DictVectorizer (#15463)
+DOC/CI Fix KernelDensity failing doctest
+DOC Fix docstrings to Numpy format for IsolationForest (#15454)
+DOC Fix numpydoc validatioon for  Lasso.path docstring (#15450)
+DOC Fix some new sphinx warnings. (#15437)
+FIX Fixes error with multiclass roc auc scorer (#15274)
+TST Fixed assert statements, now using assert_array_equal function (#15428)
+BUG Fixes voting named_estiamtor bug (#15375)
+DOC Fixes lof example for numpydoc to parse (#15379)
+DOC Fix broken link to docs (#15364)
+TST Fix skipped PyPy doctests in conftest.py
+MNT Fix bad import (#15366)
+DOC Fix broken link in plot_map_data_to_normal (#15347)
+MNT Fix uncaught deprecation imports (#15348)
+FIX Fixed some imports after deprecations (#15345)
+DOC Fix typo in decomposition.rst (#15342)
+[MRG] STY Fixes citation style for some references (#15301)
+DOC Fixed links in docstrings of svm.SVC and svm.SVR (#15258)
+DOC Fixes formatting issue in dev documentation page for OneVsRestClassifier (#15311)
+TST Fix Determinism in test_fit_csr_matrix (#15158)
+EXA Fix order of arguments in classification_report (#15279)
+MNT Fixes pytest by using deprecated_modules (#15291)
+DOC Fix typo in Yeo-Johnson formula (#15280)
+Fix various sphinx warnings. (#15271)
+MNT Fix link flags search for the OpenMP test program (#15042)
+BUG: Fix literal comparison (#15260)
+TST/CI Fixes import for hashing test for PyPy (#15170)
+TST Fix PyPy CI due to _hashing import in #14605
+DOC Fix whats_new for mean_tweedie_deviance
+DOC Fix tiny punctuation mistake in doc of SGDClassifier (#15135)
+FIX Fixed reshaping attributes of LogisticRegressionCV (#15044)
+FIX Fixed n_support_ attr for OneClassSVM and SVR (#15099)
+Fix integer overflows in Elkan's k-means. (#15057)
+STY Fixes whitespace for code in headers (#15092)
+STY Fix the position of 'More testimonials' link in the homepage (#15061)
+DOC Fix warnings about references and links (#14976)
+DOC Fix changelog for MissingIndicator efficiency (#15027)
+DOC Fix Title level inconsistency and orphaned page. (#15002)
+DOC Fix some sphinx warnings (#14967)
+DOC Fix "Duplicate labels" & "Duplicate .. target" sphinx warn (#14931)
+Fix bug in implementation of scoring in loo `_RidgeGCV` (#14864)
+TST: Fix assert_raises in tests_neural_networks.py (#14716)
+TST: Fix assert raises in `sklearn/metrics/cluster/tests/` (#14707)
+TST: Fix assert raises in `sklearn/metrics/tests/` (#14715)
+MAINT Fix assert raises in sklearn/semi_supervised/tests/ (#14841)
+MNT Fixed error in .gitignore file. (#14921)
+Fix mixin inheritance order, allow overwriting tags (#14884)
+DOC Fix CF full name in Birch documentation (#14880)
+Fix for spectral clustering error when using 'amg' solver (#13707)
+MAINT:Fix assert raises in `sklearn/preprocessing/tests/` (#14717)
+MAINT: Fix assert raises in `sklearn/tree/tests/` (#14737)
+DOC Fix rendering issue due to the lack of whitespace (#14828)
+DOC Documentation build Fixes (#14778)
+MAINT Fix assert raises in `sklearn/svm/tests/` (#14727)
+BLD/CI Fix pypy build (#14708)
+MNT Fix assert raises in sklearn/feature_extraction/tests/ (#14694)
+MNT Fix assert raises in sklearn/feature_selection/tests/ (#14697)
+MNT Fix assert raises in sklearn/manifold/tests/ (#14699)
+MAINT Fixes osx azure pipeline (#14689)
+MAINT Fix assert raises in sklearn/compose/tests/ (#14670)
+Fix LassoLars copy_X comment format (#14666)
+DOC Fix features selection example (#12748)
+MAINT/CI Fixes azure/circle CI (#14619)
+DOC Fixes link to images in user guide (#14600)
+MAINT DOC Fix CircleCI on master (#14586)
+DOC Fix typo in RFE example (#14529)
+[MRG+1] Fix KernelCenterer and other pairwise estimators should error on non-square data (#14336)
+DOC Fix docstring in MissingIndicator class regarding the output shape (#14506)
+Fix ARDRegression accuracy issue with scipy 1.3.0 (#14067)
+Fix test_omp_cv test on AVX512 (#14460)
+DOC Fixes unicode pdf error (#14420)
+DOC Fix OrdinalEncoder's description (#14412)
+Fix check_array dtype in MinibatchKMeans.partial_fit (#14323)
+FIX Fixes duck typing in VotingClassifier (#14287)
+MAINT Fix GCC warnings from Cython (#14077)
+DOC Fix "Variables are collinear" warning in plots_lle_digits (#14162)
+[MRG] Fix overlapped plot in the ICA example (#14213)
+DOC Fix divide by zero warning (#14147)
+Fixes #10548 random state description in feature-extraction (#14155)
+TST Fix test_truncated_svd.py::test_explained_variance_compone… (#14178)
+EXA Fixed Convergence Warnings On MLP Training Curves (#14144)
+MAINT Fix test_fit_csr_matrix failure on master (#14171)
+EXA Fixed Convergence Warnings by changing solver to 'lbfgs' in plot_mlp_alpha.py (#14158)
+DOC Fixed Future Warnings by explicitly defining n_estimators = 100 in for the Regressor. (#14159)
+DOC Fix suptitle in LDA_QDA example (#14130)
+ENH Fix unfriendly error message for documentation checks (#11967)
+FIX Fix memory leak in liblinear helper csr_to_sparse error path (#14118)
+TST Fixed typo in test_column_transformer (#14128)
+MNT Fix some typos in README (#14122)
+[MRG] Fix NCA parameter type check (#14092)
+BUG Fixes export_text with single feature (#14053)
+FIX Fix off-by-one error in liblinear helper dense_to_sparse (#14103)
+BUG Fix zero division error in GBDTs (#14024)
+MAINT Fixes lgtm errors (#14041)
+DOC Fix typo in manifold documentation (#14073)
+DOC Fixes default value for eta0 in SGDRegressor (#14047)
+DOC Fix typo: omit comma (#13999)
+DOC Fixed documentation typos (#13993)
+[MRG][DOC] Fix inconsistencies in clustering doc. (#13946)
+[MRG] MAINT Fixes apt by removing the ubuntu-toolchain-r/test repo (#13934)
+DOC Fix bracket typo in linear_model.rst (#13932)
+[MRG] Fixes get_feature_names results when using drop functionality (#13894)
+MAINT Fixes coverage reporting on pylatest_conda (#13895)
+DOC Fix missing newline in DistanceMetric docs (#13888)
+Fix for AttributeError thrown when calling metrics.pairwise_distances with binary metrics and Y is None (#13864)
+DOC Fix typo in sklearn.metrics.ranking.roc_auc_score (#13592)
+DOC Fix reference in whats new 0.21 (#13845)
+DOC Fix reference (#13841)
+DOC Fix typo. (#13813)
+DOC Fix note range in contributing.html (#13722)
+DOC Fix more formatting inconsistencies (#13787)
+Fixed documentation for mean_precision_prior.  Smaller->Larger (#13764)
+[MRG] DOC: Fix unusual phrasing in svm.SVC (#13774)
+Fix spacing and formatting inconsistencies (#13747)
+BLD Fixes Cython cimport errors (#13754)
+DOC Fixing language in Hamming loss docstring. (#13735)
+MAINT Fixes latex pdf issue (#13719)
+DOC: Fixes for latest numpydoc (#13670)
+Fix sample_weight in label_ranking_average_precision_score (#13447)
+Fix MultiOutputClassifier checking for predict_proba method of base estimator (#12222)
+[MRG + 1] Fix pprint ellipsis (#13436)
+[MRG] Fix various solver issues in ridge_regression and Ridge classes (#13363)
+Fixing parameter description (for assume_centered) (#13456)
+DOC Fixes formatting issue in webkit (#13657)
+BUG Fix missing 'const' in a few memoryview declaration in trees. (#13626)
+Fix empty clusters not correctly relocated when using sample_weight(#13486)
+FIX Fixed array equality check in pprint (#13584)
+TST Fixes to make test_pprint.py more resilient to change (#13529)
+DOC Fix missing space after backquotes (#13551)
+DOC Fix typo in contributing (#13544)
+MNT CI Fix for sphinx-gallery 0.3.1 + 404 errors on Debian Jessie packages (#13527)
+[MRG] MAINT: Fix cython warnings (#13461)
+TST Fix test_sag_regressor by setting random_state (#13506)
+DOC Fix typos in datasets documentation (#13474)
+DOC Fix typos in doc/developers/contributing.rst (#13475)
+DOC Fix docstring of quantile_transform function (#13471)
+TST Fix slow test in pairwise (#13433)
+[MRG] Fixes out of bound check in *SearchCV for callable refit (#13417)
+[MRG+2] Fix LDA predict_proba()  (#11796)
+DOC Fix a typo in cross_validation.rst (#13398)
+DOC Fix typo in FunctionTransformer (#13404)
+EXA Fix iterative imputer example's speed issue. (#13379)
+EXA Fix construction of result in IterativeImputer example (#13384)
+DOC Fix formatting in whats_new (#13375)
+Fix bad double to integer cast in __fit_and_predict for cross_val_predict (#13368)
+[MRG+1] Fix warning in doc (#13353)
+[MRG+1] Fix bug in AffinityPropagation (#13334)
+MNT Fixes cross-reference and no reference issues in sphinx (#13000)
+MAINT: Fix OpenMP runtime error on mac (#13294)
+[MRG] Fix bug in graph lasso when n_features=2 (#13276)
+Fix test_svmlight_format.py::test_dump on ARM (#13263)
+DOC Fix extract_patches_2d doctest failure (#13249)
+[MRG] Fix GaussianMixture fit_predict != fit.predict when n_init > 1 (#13142)
+DOC Fix formatting typo in the SVM user guide
+DOC Fix typo in ColumnTransformer (#13189)
+FIX Fixes tree and forest classification for non-numeric multi-target (#11458)
+DOC what's new: Fix class name
+[MRG] Fixed NMF IndexError (#11667)
+FIX Fix shuffle not passed in MLP (#12582)
+MAINT Fix PyPy CI with numpy 1.15 (#13018)
+DOC Fix warnings in examples (#12654)
+DOC: Fixes link (#12996)
+EXA Fix several DeprecationWarning: invalid escape sequence in examples (#12924)
+DOC Fix typo in glossary.rst (#12913)
+DOC Fixed typo in contributors guide (#12868)
+FIX Fixed gradient computation in gradient boosting for multiclass classification (#12715)
+DOC Fix LaTeX text{} block escaping of underscores in doc-modules-model_evaluation.rst (#12788)
+Revert "DOC Fix math typo in model_evaluation's explained_variance (#12747)"
+DOC Fix math typo in model_evaluation's explained_variance (#12747)
+FIX Fix error in make_column_transformer when columns is pandas.Index (#12704)
+DOC Fix joblib URL (#12698)
+DOC Fixed whatsnew and tiny docstring fix (#12669)
+[MRG] Fixed randomness of test_logreg_cv_penalty (#12624)
+DOC Fix links in anomaly detection example (#12665)
+Fix max_depth overshoot in BFS expansion of trees (#12344)
+DOC Fix typo (#12563)
+EXA Fix comment in plot-iris-logistic example (#12564)
+Fix dead link to numpydoc (#12532)
+[MRG] Fix segfault in AgglomerativeClustering with read-only mmaps (#12485)
+Fix inconsistent labels returned by BayesianGaussianMixture.fit_predict (#12451)
+Fix IncrementalPCA when final batch is smaller than dimensions required for SVD (#12379)
+Fix include .pxd definitions for sklearn.tree in wheels (#12381)
+Fix mean shift equation as per issue 12420 (#12455)
+Fix numpy vstack on generator expressions (#12467)
+TST Fix test gaussian mixture warm start (#12452)
+DOC: Fix typo where FMI was referred to as AMI (#12414)
+DOC Fix the link to computing docs (#12380)
+TST Fix missing assert and parametrize k-means tests  (#12368)
+BUG Fix OrdinalEncoder with manually specified categories (#12367)
+EXA Fix labels overlap in Out-of-core classification of text documents example (#12359)
+[MRG] Fix fetch_openml when ignore attributes are numeric (#12330)
+EXA Fix title, overlapping plots and axis labels in plot_ols_ridge_variance.py (#12296)
+DOC Fix broken link to joblib documentation (#12301)
+EXA Fix bad data visualisation in "Importance of Feature Scaling" (#12280)
+DOC what's new entry for "Fix numpy.int overflow in make_classification #10811"
+Fix numpy.int overflow in make_classification (#10811)
+DOC Fixing summary table in the linear model documentation. (#12220)
+DOC Fix typo in neighbors/nearest_centroid.py (#12223)
+[MRG] Fix diagonal in DBSCAN with precomputed sparse neighbors graph (#12105)
+Fix parallel backend neighbors (#12172)
+[MRG] Fix FutureWarnings in logistic regression examples (#12114)
+Fix typo (#12126)
+DOC Fix optics metric issues (DOC and precomputed) (#12028)
+DOC Fix description of SVC intercept_ shape in user guide (#12070)
+ MAINT Fix invalid escape sequence (#12064)
+DOC Fix docstring inconsistency in nmf.py (#12063)
+MNT Fix utils.sparse import in neural_network.rbm (#12032)
+EXA Fix plot in plot_optics.py
+DOC Fix: require n_splits > 1 in TimeSeriesSplit (#11937)
+MAINT Fix test_logistic::test_dtype_match failure on 32 bit arch (#11899)
+MNT Fix bug in formatting of error message in random_projection.py (#11718)
+MAINT Fix effective_n_jobs in LogisticRegression (#11803)
+[MRG] Fixed bug in _log_reg_scoring_path for multinomial case (#11724)
+Fix filename test_{print->show}_versions.py (#11726)
+DOC Fixed two small typos in normalized_mutual_info_score (#11717)
+[MRG] Fix numpy FutureWarning (#11704)
+DOC Fixed doc issues for utils module (#11445)
+DOC Fix typo in Multinomial Naive Bayes online guide (#11394)
+BUG: Fixes _BaseCompostion._set_params broken where there are no estimators (#11333)
+DOC Fix broken links in random projections docs (#11632)
+[MRG+1] Fix bad fp-comparisons (#11591)
+Fix deprecation warning in scipy.face (#11617)
+[MRG] Fix plot_svm_scale_c.py and plot_discretization_classification.py not to use deprecated plt api (#11586)
+[MRG+2] Fix sparse simple imputer (#11496)
+[MRG+1] Fix lower_bound_ not equal to max lower bound in mixture models when n_init > 1 (#10870)
+TST Fixed random state to avoid test failure of test_weighted_vs_repeated (#11523)
+[MRG] Fix DeprecationWarning due to collections.abc in Python 3.7 (#11431)
+DOC Fix typo in decomposition.rst (#11490)
+DOC Fix ExtraTree docstrings (#11454)
+DOC Fix typos, including in PassiveAggressiveClassifier what's new (#11443)
+DOC Fixed doc issues for decomposition and feature_extraction modules (#11413)
+[MRG] Fix minor typo in doc (#11397)
+TST Fix non-determinism in test_warm_start_converge_LR
+MAINT Fix scipy-dev-wheels build (#11251)
+Fix LogisticRegression with warm_start, multinomial and binary data (#10986)
+Fix skipping in conftest.py (#11318)
+MAINT Fix #9350: Enable has_fit_parameter() and fit_score_takes_y() to work with @deprecated in Python 2 (#11277)
+DOC Fix some example refs due to renaming examples (#11214)
+[MRG+2] Fix edge case of tied CV scores in RFECV (#9222)
+EXA Fix plot tomography l1 reconstruction (#11100)
+DOC Fix grammar in docs (#11094)
+Fix typo in LDA documentation (#11073)
+Fixed parameter validation in Neighbors Estimator for n_neighbors(#11024) (#11040)
+Fix memory leak in radius neighbours (#11056)
+MNT Fix typos (#11057)
+[MRG+1] Fix Docstring for random_state in RandomizedSearchCV inaccurate #10987 (#11003)
+Fix wrong name in whats_new entry
+MAINT Fixing Typos (#11017)
+[MRG+1] Fix [RandomizedSearchCV] Do not enforce that n_iter is less than or equal to size of search space (#10982)
+DOC Fix typo in RandomizedSearchCV (#10991)
+[MRG] Fix plot_stock_market.py after Google finance URL shut-down (#10958)
+DOC Fix grammar in forest.py (#10963)
+DOC Fixes code formatting in TransformedTargetRegressor docstring (#10950)
+DOC Fix code typo in plot_unveil_tree_structure.py (#10951)
+MAINT Fix broken links in RCV1 comments (#10909)
+[MRG + 1] Fix cluster coloring in example (#10876)
+DOC Fix typo in sparsfuncs.py and sparsfuncs_fast.pyx (#10865)
+DOC Fix typo in TransformedTargetRegressor
+FIX Fixed a wrong data entry at boston_house_prices.csv (#10795)
+[MRG+1] Fix validation of ngram_range property in vectorizers (#10777)
+FIX Fixed error when fitting RidgeCV with integers (#10397)
+DOC Fix typo in `f_regression` (#10765)
+[MRG+1] DOC Fixed Broken Link in boston_housing_dataset.rst (#10759)
+[MRG+1] DOC Fix typo in Gaussian process documentation (#10753)
+DOC Fix some merge issues in what's new
+[MRG+1] Fix #10229: check_array should fail if array has strings (#10495)
+Fix "We probably shouldn't recommend autopep8" (#10650)
+DOC Fix typo re latent Dirichlet allocation (#10632)
+MAINT Fix escape sequences that are deprecated in Python 3.6 (#10578)
+Fix typo in glossary syntax
+DOC Fix typo in fit_predict (#10572)
+DOC Fix confusion_matrix documentation example (#10519)
+[MRG+1] Fix FutureWarning in CategoricalEncoder due to np.issubdtype (#10507) (#10510)
+[MRG+1] Fixes #10458: Make LabelEncoder work with empty list/array (#10508)
+Fix propagation of observation error to GP model (#10026)
+[MRG+2] Fix SVC predict_proba fails with new-style kernel strings (#10412)
+[MRG] Fixes #10418 dataset: kddcup99: Removed unused randomstate (#10419)
+Fix docstring for GridSearch about cv_results_ attribute (#10392)
+DOC Fix typo in model_evaluation.rst (#10376)
+DOC Fix broken links in docs (#10353)
+Fix spectral embedding implementation (#9062)
+DOC Fix equations for mutual_information. (#10292)
+[MRG+1] Fixes #9199 - Fitting a NearestNeighbors model fails with sparse input and a callable as metric (#9579)
+DOC Fixed BinaryTree Documentation Examples (issue #10199) (#10205)
+DOC Fixing "dictionary" spelling (#10255)
+[MRG + 1] DOC Fix cardinality vs. l0 norm in multilabel ranking user guide (#10219)
+[MRG + 1] Fix for image.extract_patches_2d when # of patches requested > all possible patches  (#10101)
+DOC Fix Agglomerative children_ documentation (#10184)
+Fix typo in ShuffleSplit docstring and effective_n_jobs (#10182)
+[MRG+1] DOC Fix utils.resample and utils.shuffle docstrings: 'views' -> 'copies' (#10162)
+Fix omp non normalize (#10071)
+Fix underflow in nmf._beta_divergence (#10142)
+DOC Fix broken link in ROC example (#10151)
+Fix np.set_printoptions argument change in numpy 1.14.dev (#10132)
+DOC Fix markup in docstring
+DOC Fix broken link in adjusted_mutual_info_score (#10123)
+DOC Fix dead links in SGD (#10109)
+[MRG + 1] Fix BayesianRidge() and ARDRegression() for constant target vectors  (#10095)
+DOC Fix some dead links in what's new 0.20 (#10104)
+Fix links to Hoffman's onlineldavb code (#10070)
+Fix PEP8 error for #10042
+[MRG] DOC Fix default learning_rate in SGDRegressor docstring (#10018)
+DOC Fix a few typos (#10038)
+[MRG] Fix LogisticRegression see also should include LogisticRegressionCV(#9995) (#10022)
+[MRG+1] Fix LOF and Isolation benchmarks (#9798)
+[MRG + 1] Fix negative inputs checking in mean_squared_log_error (#9968)
+DOC Fix typo (#9996)
+DOC Fix typo: x axis -> y axis (#9985)
+DOC Fix three typos in manifold documentation (#9990)
+DOC: Fixed typo (#9977)
+DOC Fix documentation for KDDCup99 dataset (#9974)
+[MRG] DOC Fix missing link in kernel_ridge.py (#9966)
+Fix LogisticRegressionCV default solver value in docstring (#9962)
+[MRG+1] Fix cross_val_predict behavior for binary classification in decision_function (Fixes #9589) (#9593)
+[MRG+1] Fix bug in StratifiedShuffleSplit for multi-label data with targets having > 1000 labels (#9922)
+Fix example for matplotlib 2.1 change. (#9897)
+Fix 9865: Change code and add test (#9890)
+[MRG+1] Fix typos in documentation (#9878)
+Fix test class to be runnable by pytest (#9860)
+[MRG+1] Fix floating bug in roc_auc_score (#9786)
+ DOC Fix error in documentation of trustworthiness (#9800)
+Fix plot_out_of_core_classification.py. (#9815)
+[MRG + 1] Fix ValueError in LabelEncoder when using inverse_transform on unseen labels (#9816)
+[MRG+1] Fix #9743: Adding parameter information to docstring. (#9757)
+[MRG+1] Fix warnings in lgtm.com (remove redundant code) (#9719)
+Fix random state in LSHF test (#9702)
+Fixes deprecation warning in numpy-dev build (#9683)
+Fix test_validation.py
+Fix docstring section heading
+[MRG] Fix math syntax for ComplementNB documentation. (#9644)
+Fix mailmap format (#9620)
+DOC Fix typos (#9577)
+Fixed typos in tf-idf term weighting section (#9547)
+Fixed impossible min_samples_split value (#9520)
+Fix safe_indexing with read-only indices (#9507)
+DOC Fixup of linear svm separating hyperplane plot (#9471)
+Fix typos (#9476)
+[MRG + 1] DOC Fix Sphinx errors (#9420)
+[MRG+1] BUG Fix the shrinkage implementation in NearestCentroid (#9219)
+Fixed incorrect docstring (#9446)
+Fix: typo in DistanceMetric docstring example (#9427)
+[MRG] DOC Fix known issues link in faq (#9418)
+DOC Fix multi metric link in model selection (#9410)
+[MRG + 1] Fix wrong error message in StratifiedKFold (#9396)
+DOC Fix typos (#9386)
+Fix typos (#9320)
+[MRG] [HOTFIX] Fix capitalization in test and hence fix failing travis at master (#9317)
+[MRG+1] Fix alerts found with lgtm (#9278)
+[MRG+1] Fix semi_supervised (#9239)
+Fix typos (#9265)
+Fix handling of Nystroem params with a callable kernel (#9166)
+Fix in documentation doc/modules/clustering.rst (#9243)
+DOC Fix typos (#9229)
+Fix pdf doc generation
+[MRG+1] Fixes predicting std and cov without fitting in GPR by default.  (#9177)
+Fixes small typo in the GradientBoostingClassifier predict method documentation (#9210)
+Fix typos (#9205)
+[MRG+1] Fix MultinomialNB and BernoulliNB alpha=0 bug (continuation) (#9131)
+Fix typos (#9150)
+Fix a typo for k-means++ (#9139)
+Fix whats_new rendering
+Fix typos (#9095)
+Fixed sklearn-related invalid escape sequence DesprecationWarnings (#8951)
+Fix decorator called without kwarg that would prevent test from running. (#9083)
+Fix PLS scaling bug (#7819)
+Fix estimators_checks.test_non_meta_estimators
+[MRG+1] Fixes issue #3367 -> MCD fails on data with singular covariance matrix (#8328)
+[MRG] Fix LassoCV cross validation split() call (#8973)
+Fix link to cross_validation (#9025)
+Fix typos in test_covariance.py and extmath.py (#8997)
+Fix typos (#8980)
+[MRG] Fix gradient descent in TSNE (#8768)
+Fixed markdown in doc/README.md (#8925)
+Fix typo in PCA test (#8917)
+Fix n_splits in KFold instantiation in model_selection tests (#8910)
+[MRG+1] Fixing Math domain error on NMF due to numpy.dot (#8765)
+DOC Fix user guide link in MultiTaskElasticNetCV docstring (#8880)
+[MRG+1] Fix inverse_transform in deprecated GridSearchCV (#8860)
+[MRG] Randomized Search Example: Fix min_samples_split values for RandomizedSearchCV and GridSearchCV (#8847)
+[DOC] Fix latex in trustworthiness docstring (#8832)
+[MRG] Fixes #8736 add get_n_splits for RepeatedKFold and RepeatedStratifiedKFold (#8802)
+[MRG] Fix sklearn.metrics.classification._check_targets where y_true and y_pred are both binary but the union is multiclass (#8377)
+[MRG+1] Fix multi-label issues in IsolationForest benchmark (#8638)
+Fixes tildes in rst files (#8751)
+Fix typo in GridSearchCV documentation (#8739)
+[MRG+1] Fix excessive memory usage in random forest prediction (#8672)
+Fix typo: "continious" (#8685)
+[MRG+1] Fix test of SingleInheritanceEstimator to not raise DeprecationWarning (#8526)
+[MRG] Fix plot_unveil_tree_structure.py: incorrect indexing for X_test (#8653)
+DOC: Fixed year for Ng et al. citation within spectral embedding. (#8643)
+[MRG+2] Fixes kl_divergence_ update in TSNE (#8634)
+Fix typo in BaseMixture warning (#8616)
+[MRG+1] Fix float size in as_float_array (#8598)
+Fix typo in grid_search.rst (#8609)
+Fix typo in documentation (#8600)
+[MRG + 1] Correct typo in cross decomposition example (Fixes #8307) (#8578)
+[MRG + 1] Fix gradient boosting overflow and various other float comparison on == (#7970)
+[MRG+1] Fixes #7578 added check_decision_proba_consistency in estimator_checks (#8253)
+Fix doc Multitasks (#8473)
+DOC Fix default value in RandomizedLasso (#8455)
+[MRG+1] Fixes incorrect output when input is precomputed sparse matrix in DBSCAN. (#8339)
+[MRG] Fix Parameters in tutorials (#8345)
+[MRG+2] Fixed assumption fit attribute means object is estimator. (#8418)
+[MRG+1] Fix message formatting in exception (#8319)
+[MRG+1] Fix pickling bug  due to multiple inheritance & __getstate__ (#8324)
+[MRG+1] Fix ug in BaseSearchCV.inverse_transform (#8348)
+Fix tests on numpy master (#8355)
+[MRG+1] Fix description of l1_ratio for MultiTaskElasticNet (#8343)
+[MRG+1] Fix bench_rcv1_logreg_convergence.py by adding get_max_squared_sum
+DOC Fixing a bug where entropy included labeled items (#8150)
+[MRG] Fix aesthetic example roc crossval (#8232)
+[MRG+1] Fixes #8198 - error in datasets.make_moons (#8199)
+[MRG + 1] Fix the cross_val_predict function for method='predict_proba' (#7889)
+DOC Fix link (#8171)
+Fix Ridge floating point instability (#8154)
+[MRG+1] fowlkes_mallows_score: more unit tests (Fixes #8101) (#8140)
+[MRG+1] Fix "cite us" link in sidebar (#8142)
+DOC Fix typo in FAQ (#8132)
+DOC Fix indentation errors and username links (#8121)
+DOC Fix help link on about page (#8119)
+DOC: Fix the documentation of scoring LogisticCV (#8099)
+DOC Fix output shape in doc for OrthogonalMatchingPursuit (#8091)
+DOC Fix doc for CountVectorizer class. (#8085)
+[MRG + 1] Fix perplexity method by adding _unnormalized_transform method, Issue #7954 (#7992)
+[MRG + 1] Fix reference in fetch_kddcup99 (#8071)
+Fix plot_svm_margin example plots (#8051)
+[MRG + 1] Fix failure on numpy master (#8011)
+DOC Fix typo in plot_unveil_tree_structure (#7988)
+Fix version comparison for the numpy 1.12 beta (#7902)
+[MRG+1] Fix confusion matrix example code (#7971)
+[MRG+1] Fix estimators to work if sample_weight parameter is pandas Series type (#7825)
+[MRG+2] Fix K Means init center bug (#7872)
+Fix tests on numpy master (#7946)
+[MRG+1] Fix return_norm bug in preprocessing.normalize (#7789)
+Fix typo in grid_search.rst (#7918)
+Fix RandomState in the tests of linear model. (#7881)
+DOC Fix the link to testing instructions (#7871)
+[MRG + 1] Fix numerical instability in LassoLars when alpha=0 (#7778) (#7849)
+[MRG + 2] Fixed parameter setting in SelectFromModel (#7764)
+Fix docstring typo (#7844) n_features --> n_components
+[MRG+2] Fix for OvR partial_fit bug (#7786)
+Fix typo in testimonials.rst
+[MRG+2] Fixed n**2 memory blowup in _labels_inertia_precompute_dense (#7721)
+Fix typo in OMP author name.
+DOC Fixed missing "Next" button (#7641)
+Fix test suites (#6348)
+[MRG] Fix GaussianProcess batch predict in Py3k  #7329 (#7330)
+[MRG] DOC Fixed the display of search results (#7517) (#7560)
+[MRG+2]: Fix Ridge GCV with centered data (#6178)
+[MRG+1] Fixing error with step parameter #7467 (#7469)
+Fix typo in PCA docstring
+[MRG+3] Fix min_weight_fraction_leaf to work when sample_weights are not provided (#7301)
+Fix _get_importances. (#7487)
+Fix typo in whats_new.rst
+Fix changes re: @amuller
+[MRG+1] Fix regression in silhouette_score for clusters of size 1 (#7438)
+[MRG] DOC Example: Fix minor standard output formatting (#7456)
+Fix #6994: MLP partial_fit with unseen classes (#7358)
+Fixed doc for issue #7409 (#7410)
+Fixed issue #5830, capitalization in advanced installation documenation
+Fixing typo (#7402)
+Fix flake8_diff.sh when Travis runs in a fork
+[MRG+1] Fix for test_neighbors_metrics() check kd-tree algorithm when possible (#7339)
+[MRG+2] Fix repr on isotropic kernels when a 1-D length scale is given (#7259)
+Fix ConvergenceWarning's in tests
+Fix a typing issue in expected mutual information (#7240)
+Fix deprecation warning for 1d matrix input (#7263)
+[MRG] Fix TSNE init as NumPy array (#7208)
+[MRG+1] Fix for "_transform_selected" not copying when "selected='all'" (#7201)
+Fix -np.infty in GaussianMixture. (#7180)
+Fix typo (#7145)
+Fix typo in example feature_stacker.py
+Fix example to use rst syntax in notebook comments
+Fixed libsvm call with unicode kernel. Added corresponding test.
+Fix docs links (#7005)
+DOC Fixed check_estimator example (#7025)
+Fix minor typo in doc (#7001)
+Fix minor typo
+Fix doc refs to StratifiedKFold and KFold (#6936)
+Fix typos (#6942)
+Fix minor typo in grid_search.py
+[MRG+1] Added support for sample_weight in linearSVR, including tests and documentation. Fixes #6862 (#6907)
+DOC Fix text data tutorial (#6923)
+Fix sklearn.base.clone for all scipy.sparse formats (#6910)
+Fix CircleCI failure (#6903)
+Fixed pep8 errors
+Doc: Fix typo (#6854)
+Fix small typos in docstring and comment (#6840)
+[MRG+1] Fix: Replace pylab with matplotlib.pyplot #6754 (#6762)
+Fixing default order docs of sklearn.utils.check_array
+Fix IsotonicRegression __setstate__ (#6729)
+Fixed minor typo in multitasklasso docs
+[MRG] Fixed issue #6635: incorrect docstring for Birch
+[MRG] Fix strict tests
+Fix grammar bug in docstring of SelectFromModel
+[DOC] Fix broken links
+Fix typo in html target
+Fixing typos in logistic regression docs
+[gardening] Fix NameError ("estimator" not defined). Remove unused var "ind".
+Fix broken link in ABOUT
+DOC: Fix order in ARD references
+Fix consistency in docs and docstring
+Fix MLP batch_size test warning for default value
+MAINT: Fix typo in comment for travis/install.sh
+Fix misuse of it's
+Fixed typo
+Fixes the 'make cython' by adjusting the path to cythonize.py
+Fixed codestyle
+Fix broken link of Wainwright's paper
+Fix for issue #6352
+Fixed legend text and pep8 warnings
+Fix memory leak in Barnes-Hut SNE
+Fix test_label_binarizer on Windows
+DOC: Fix redundant doc for f_regression.
+Fixed typo in one word.
+Fix check_cv error message
+Fix typo in parameter's doc
+Fix axis label of multioutput regression tree example
+Fixes make_sparse_spd_matrix documentation
+Fix reading of bunch pickles
+BUG: Fix copy logic for mutual info functions
+Fix hyperparameter check error
+Fixed doc in lfw.py. Fixes #6136. Added dependence statement for data, target and pairs. Fixed minor pep8 issues.
+Fixed the broken nose link in advanced installation docs.
+Merge pull request #6005 from seales/SpellingFix
+Fixes the link to Bawa et al., "LSH Forest: Self-Tuning Indexes for Similarity Search", WWW'05 in the Nearest Neighbor section.
+Fix bug in mini batch kmeans example
+Fix omitted word in SVM-Anova example
+Fix minor typo in RandomizedSearchCV documentation
+BUG: Fixed fetch_kddcup99 for Python 3
+Merge pull request #5706 from shawpan/Fix-#5702-test-warnings-in-ranking
+DOC: Fix spelling
+Fixed unit test in sklearn/tree/tests/test_tree.py.
+Fix Kernel PCA docstring to reflect how remove_zero_eig defaults to false
+ Fix coveralls report sending
+Fix grammar in rbm docstring
+Fixed transformation of test set via RobustScaler in plot_robust_scaling.py
+Fix import of reload for python 3.3
+DOC - Minor documentation fixes - Fixes #5770 and #5761
+Fix doc string and number vs string ordering
+Fixed string comparison on arrays in new Gaussian process described in issue #5663
+Fix docs and remove duplicated checks
+Fixed user guide link in ransac.py #5621
+Fix formatting issue in tree.rst
+Fix of issue #5601
+Fixed typos: whitespace after '.', `` around inline code.
+Fixed typo..
+Fix fit_transform, stability issue and scale issue in PLS
+#5322: Fixed python3 build
+#5322: Fixing test in test_estimator_checks.test_check_estimator
+#5322: Fixing the fix - now RFs should be okay
+#5322: Fixed build for tree failures, fixing estimator_checks.check_estimator
+FIX Fix message of ValueError for wrong shape of alpha in GPR
+FIX Fixing a python2.6-related issue
+FIX Fixing test_kernel_theta
+FIX Fix failing tests (doctest, order of hyperparameters,  pairwise_kernels)
+DOC Fixing some minor issues in narrative doc of GPs
+PEP8 Fixing PEP8 issues in gaussian_process package
+TST Fix GPC and GPR such that all tests are ok
+TST Fixing some GP-releated issues in estimator checks
+FIX Fix some bugs in kernel module discovered during writing unit test
+Fixed the docstring (issue #5313)
+Fix broken examples using RandomTreeEmbeddings
+DOC Fix plot_tomography_l1_reconstruction example
+Fixed warnings for DataDimensionalityWarning, decision_function and decision_function_shape.
+Fixes #4455.
+Fix warnings during tests
+Fix few typos on links and doi
+Fix SGD partial_fit multiclass w/ average.
+DOC: Fix typo in CalibratedClassifierCV
+Fixed typo in the final ".. note::" of naive_bayes.rst
+Fix sparse_encode input checks
+Fixed syntax and combined two test functions
+Added handling of sample weights in logistic.py * Updated _check_solver_option to include sample_weight check * Updated all calls to _check_solver_option() * Updated documentation of class_weight throughout logistic.py * Added sample_weight parameter to logistic_regression_path. * Added handling of sample weights to logistic_regression_path. * Added sample_weight parameter to _log_reg_scoring_path. * Added handling of sample weights to _log_reg_scoring_path. * Added sample_weight parameter to fit() in the LogisticRegression class. * Added handling of sample sample weights in LogisticRegression.fit() * Added sample_weight parameter to fit() in the LogisticRegressionCV class. * Added handling of sample weights in LogisticRegressionCV.fit() * Added test_logistic_regressioncv_sample_weights, which:   * tests that a ValueError is raised if liblinear is used with     sample weights   * tests that passing sample weights as np.ones(y.shape[0]) is     the same as not passing them (default None)   * tests that using both lbfgs and newton-cg solvers with     sample weights yields the same results   * tests that passing class weights to scale one class is the     same as passing sample weights for the training data of just     that class * Fixed bug with *= in logistic_regression_path. * Fixed bug in test_logistic_regressioncv_sample_weights where   no data was created prior to fitting. * Changes to accepted sample_weight type. * Fixed bug in naming of sample_weight when passed from   _log_reg_scoring_path to logistic_regression_path. * Fixed issue of sample_weight=None being converted to np.array()   and then not being reconigzed as None. * Added tests for LogisticRegression * Attempting to fix same issue as 9d3becf by instead implementing   if statement in bagging.py. * Added TODO to eliminate check for liblinear w/ sample weights   in bagging.py
+Fixed LDA typo in doc
+Fix assertion for Python 3, use `assert_raise_message`.
+Fix check in `compute_class_weight`.
+Fix minor indentation issues
+Fixes #3594.
+FIX: Fix for changing mode
+Fix memory access error in OneClassSVM
+Fixed shrinkage covariance for LDA
+Fixed minor typo
+TST Fix: made the test for y 1d conversion warning more robust.
+Fix #4978: Typo in CONTRIBUTING.md
+Fixed small typos in SVM examples.
+Fixed test to check for capital No
+DOC Fix doc for NMF `init` default
+[docs] [trivial] Fix small error in cross-validation docs.
+Fix typo in model evaluation documentation
+Fixed factual error in descriptino of PR flow
+Fix deprecation of decision function in SGD
+Fix RFE / RFECV estimator tags
+Fix documentation errors
+Fixed documentation oversight.
+Fix robust_scaling test
+Fixed removal of copy-parameter
+Fixed decprecation warning
+Fix documentation in test case
+Fix documentation errors.
+Fix mistake in TruncatedSVD expalation in docs
+Fixing sparse max for older scipy
+Fix random_state to make test reproducible
+Fix string literal concatenation whitespace
+Fixed pep8 and removed unused variable.
+Fixed pep8 warnings.
+Fixed doctests.
+Fixed typos.
+Fix Float Resolution Bug on Gaussian Process Test
+Fixing bug in assert_raise_message #4559
+Fix RFE - Add the possibility to use feature_importances rather than coef_ when existing, see #2121
+Added tests of apply() for valid and invalid inputs. Fixed style.
+FIX: Ensure dependencies installed Fixes #1495
+Fix signature not compatible with previous declaration
+Fixes to sparse decision_function, rebase fixes.
+Fix class reference in twenty_newsgroups.rst
+Fix typo
+TST Fixes #4386
+DOC Fix NMF inconsistency and broken links
+Fix #4351. Rendering of docs in MinMaxScaler.
+Fix rebase conflict
+Fix typo of DPGMM doc
+Fix docstring of mahalanobis distance in empirical covariance. Closes #4168.
+[Feature Selection] Fix SelectFDR thresholding bug (#2771)
+Fixed typo in CONTRIBUTING.md about how to submit changes back to the project
+FIX: Fix n_components in AgglomerativeClustering and friends
+Fix gibbs sampling behavior in RBM with integral random_state.
+DOC: Fix is->if
+Fix rst formatting
+FIX/ENH: Fix kneighbors_graph/kneighbors and allow X=None
+Fix issue #4154
+Fix for overflow warning
+DOC staged_* returns generators. Fixes #3831.
+Fix error in CCA docstring.
+MINOR Fixed typo in test name (test_kernel_ridge_singular_kernel)
+FIX Fixed assigning colors to methods in KRR example
+Fix a typo in OneHotEncoder's docstring
+Say best_estimator_ depends on refit=True. Fixes #2976.
+PEP8 Fix E101, E111 errors and W191, W293, W293 and W391 warnings.
+PEP8 Fix E112 and E113 errors
+Fix a bug occurring when n_samples in a class < n_features Fix case n_sample in a class == 1
+Fix typos, no shortenings in name, simplify example.
+Fix a typo on svm.rst
+Fix typo in SVM docstrings
+FIX: Fix bug in computing full tree when n_clusters is large
+FIX Fixed partial_fit.
+FIX Fixed example.
+FIX Fixed ordering of returned neighbors.
+FIX Fixed benchmark.
+FIX Fixed accuracy error in scalability example.
+Fix typo
+Fix problem with np.linalg.norm for version <= 1.6.
+Fixed docstrings.
+Fixed doctest
+Fix git rebase problems
+Fixed a bug in RFECV when step != 1
+CLN: Fix typo in comment
+MRG: Fix FeatureAgglomeration docs
+Made the following changes. 1. Update doc and whatsnew.rst 2. Fix coloring
+Made the following changes 1. Fix condition for checking threshold. 2. Fix the global clustering by remapping the samples to the    subcluster_centers. 3. Add tests for threshold. 4. Minor doc and cosmits.
+Fixed error message typo
+Fix tinyclues logo in doc/about.rst
+DOC Fix broken class references
+Fix example in plot_pca_3d.py (color array had wrong size)
+Fix BallTree and KDTree Docs
+DOC: Fix LabelBinarizer docstring to rst format bug
+Fixes #3644
+Fix RFE n_features minimum value #3812 and make it simpler.
+Fix RFE n_features minimum value #3812
+Fixed issue 3815. Discrete AdaBoostClassifier now fails early if the base classifier if worse than random.
+Fix using ground truth in silhouette score in document clustering. Closes #3806.
+Add quantile strategy to DummyRegressor. Fixes #3421.
+FIX: Fix of last merge with master
+ENH: Fixed confusing X = X.T renaming
+COSMIT: Fixed pep8 problem in theil_sen.py
++ Fix a typo.
+Fix sparse_cg solver when max_iter is specified.
+Fixes ovr in the binary classifier case, and adds support for lists of feature arrays in the multiclass case.
+DOC Fix n_jobs documentation
++ Fix the bug of calling len when using sparse matrix for fit_params in cross_validation.py. + Add test case for the above fix.
++ Fix the bug of calling len when using sparse matrix for fit_params in cross_validation.py.
+Fix typo.
+Fixed a failing test in the doc
+Fix wrong attribute doc in BaggingRegressor.
+Fixing more pep8 errors.
+Fixing docstring on _multinomial_loss.
+Fixed pep8 errors. Added docstring for _multinomial_loss.
+Changed f=open() to with open() as f to eliminate ResourceWarnings. Fixes #3410.
+FIX: Fix the imputation example
+Fixed LDA transform.
+Make cosmetic adjustments, Fix random.py header, use message with assert_warns
+Fix heisenbug due to addition of max_iter param in LSVC
+MAINT Fix regression random projections work sparse matrices
+TST: Fix warnings in np 1.9
+FIX: Fixes for the cross_validation failure
+Made the following changes 1. Fixed random state 2. Object dtype support 3. Remove outdated "don't test multiclass" tests
+FIX: Fixed hessian value for intercept
+MAINT: Fixed a few docstrings and cosmits
+DOC: Fix class link
+DOC Fix example path
+ENH Make all decision functions have the same shape. Fixes SVC and GradientBoosting. Closes #1490.
+Closes #2360. Fix tiebreaking.
+Fix for old Numpy 1.6.3
+Fix labels of inliers vs outliers
+Fix grammar
+Fixed PATH issues for initial Python install environment
+Fixed bug with append string getting double "_py_py"
+Fixing simplification for clip
+Fix some fun column span alignment errors.
+Fix Machine Learning for NeuroImaging in Python link.
+Fixed paramaters to make_multilabel_classification and make_regression to keep tests under 1 second, reformated some blank lines
+Fixed typo toCSR -> tocsr
+Fix score function parameter mistake in test_weighted_boosting
+CLN: Fix typo
+Fix docstring
+Fix tests
+Fixed typo
+Fixing classes.rst
+Fixing small formatting issue in doctest
+Fixing space in docstring for default value
+Fixing matrix vs. vector notation for X
+Fixing redundant np.asarray(X.toarray()) in metrics
+Fixing docstring
+Fixed some PEP8 violations even present in master branch, in examples/
+Fixed pep8 violations. Some 'line too long' errors still remain.
+Fixed style errors detected by pep8.
+Fix the pep8 violations
+DOC Fix ``copy_X `` default in documentation
+Fix merge conflict and missing URL ref in whats_new.rst
+DOC: Fixed roc_curve docstring
+TST: Fix ValueError: Buffer dtype mismatch, expected 'npy_intp' but got 'long' on win-amd64
+Fix ValueError: Buffer dtype mismatch, expected 'INTP' but got 'long' on win-amd64
+Fixed SelectKBest corner case: k=0
+DOC: Fixed typo in Theil-Sen example.
+Fix typo in linear_model documentation
+Fix silhouette score n_labels
+Updated tests. Fixed flake8 errors
+Fixed value error. Scalar values are allowed for constant when not multioutput
+Fix test failure on Python3.
+Fix a minor typo: 'They requires' should be 'They require'.
+Fix citation in TfidfTransformer
+Fix typo in fast sgd classifier implementation comments
+Fixes Issue 2751
+Fixed incredibly minor spelling mistake
+Fixed small typo
+Fix documentation
+Fix typo
+Fixed FS1995 citation.
+Fix link to validation curve
+MAINT: Fix PEP8 warnings in sklearn/covariance
+Fixed documentation on sklearn/tree
+Fix some typos in whats_new.rst, using ispell
+Fix typos found by Alexandre
+COSMIT: Fix some PEP8 in gradient_boosting
+Fix PEP8, style and documentation
+Fix doctest.
+Fixed documentation typo
+Fix OOB score calculation for non-contiguous targets
+Fix exception message when cloning a estimator that does not implement 'get_params' method.
+Merge pull request #2633 from josericardo/FixingTypos
+Fixing small typos in the docs.
+Fix typo in test.
+Fix fragile test.
+Fix fragile symmetry check.
+GBRT enhancements:   Moved verbose output code to VerboseReporter class.   Cosmit: logical structured code blocks   Refactored: moved init state to method   Added partial_fit to GradientBoosting   Fix: is_classification not available; n_features not n_features_   Tests   Add ``partial_fit`` to docs
+Fix typo
+Fix y paramter description of score
+Fix return value description of predict
+Fix parameter description of X and y
+Fix typo
+Fix bug in is_data_valid test
+Fix indentation
+Fix description of default base estimator behavior and add corresponding test case
+Fix flake warnings
+Fix indentation of multi-line if-statement
+Fix test case function name
+Fix default parameters of RANSAC estimator
+Fix deprecated naming of estimator object
+Fix indentation
+Fix estimator parameter description
+Fix n_trials return value and add additional test
+Fix bug in residual determination
+Fixes to HMM docstrings
+Fix bug identified in #1817, comment 17340049
+Fix typo in the Gaussian PDF
+Revert "Fix accidental doctest breakage."
+Fix accidental doctest breakage.
+Fixed misc style changes suggested by Ogrisel
+Fix broken link
+[DOC] Fixed pairwise_distances_argmin docstring
+Fixed doc string; compute cosine distance without copying matrix.
+Fix grid search test.
+Fixed passing y_max and y_min to IsotonicRegression in test_isotonic
+Fixed style issues as indicated by pep8
+Fixed a typo in a contributor's name
+Fix link to flowchart, add text descriptions.
+Fix tests
+Fix grid_search.py example
+Fix tests
+Fix 'scoring' docstrings
+Fix atomics definitions under windows for sklearn._hmm.pyx
+Fix libsvm seed when predict_proba in tests and examples
+Fix use of self
+Fix self.statistics_ souldn't be set if axis==1
+Fix imports
+FIX: Newer numpy causes scipy to issue a DeprecationWarning. Ignore it. Fixes #2234.
+Fix import names
+Fix use of mask
+Fix use of as_float_array
+Fix tests + doc improvements + renaming
+Fix tests
+Fix docstring and add some usage examples
+Fix broken partial_fit test
+Fix typos in example
+DOC: Fix backwards docs on thresholds for preprocessing.
+FIX: Finish package rename from mst -> sparsetools. Fixes #2189.
+Fix broken link to web designer
+Fix broken link to web designer
+Fix as_float_array behaviour when copy=True
+Fix two remaining python3 bugs.
+Fix y vector. We wanted round off division so that y == [0 0 1 1 2 2 ...], not [0 .5 1 1.5...]
+Fix up last doc tests.
+Fix failure in svd-based ridge solver w/ old numpy.
+Fix failures in grid search.
+Fix wrong argument name in RFECV docstring
+Fix L2 regularization order in sgd_fast
+Fixed typo in metrics.py
+TST Fixed test_pipeline_methods_preprocessing_svm: pca was unused
+DOC Fix references to missing examples
+DOC Fixed documentation of kernel parameters: sigm uses gamma, but not degree. Closes #1972.
+DOC Fix estimator unsupervised fit method signature
+Fix setup.py to resolve numpy requirement during pre-install. This should allow 'pip install numpy cython scipy scikit-learn' to install scikit.
+Fixed precompute issue (again) in ElasticNet and enet_path
+DOC Fix comment for _BaseFilter.inverse_transform
+BUG: Fix for non-integer datatypes in confusion_matrix
+Fix float value support for max_patches in PatchExtractor
+DOC Fixed doc test to work with the fixed versions of LeaveOneLabelOut and LeavePLabelOut.
+Fixx doctest.
+Fix random state where appropriate.
+BUG: Use Py_ssize_t to index into numpy arrays to help Python handle big data. Indent a few copy/pasted function declarations for consistency. Fixes #1466.
+Fix comment: returns fbeta_score, not f1_score
+Fix tests for scipy <= 0.9
+BUG: Fix performance regression on large datasets in random forest. The crossover point seems to be around 5k rows. To get a fast predict time on fewer than 5k rows, set n_jobs to 1 after fit and before predict. Alternatives would be to split n_jobs into two parameters, for fit and predict, or to have a complicated heuristic based on n_estimators, n_samples, n_features, tree depth, etc.
+COSMIT: Fix up a loop.
+BUG: Build random forests the same way regardless of n_jobs and add a test for this. Don't predict in parallel since the cost of copying memory in joblib outweighs the speedups for random forests. Fixes #1685.
+Fixed pep8 issues
+Fixed pep8 issues
+PY3: Fix stdout capture in graph lasso test
+P3K: Fixed print related Python3 errors
+DOC: Fixed wrong link and formatting in decomposition docs
+Fixed pep8 spacing issue and floating point doctest issue
+Fix link to plot_lda_qda example.
+BUG: Make a RandomState object and use it in test_transformers(). Fixes #1368.
+BUG: Fix the random_state on make_blobs() in test_classifiers_classes(). Fixes #1462.
+Fix pipeline fails if final estimator doesn't implement fit_transform
+BernoulliNB: Fix the denominator of P(feature)
+Fix staged_predict_proba() in gradient_boosting.
+Fix bug in sqnorm (used by PassiveAggressive).
+Fix tests.
+P3K: Fix build for py3k + pip.
+BUG: Fix path in doc cleaning
+Fix broken links
+Fix typos and wording in RandomForestEmbedding.
+P3K: Fixed imports.
+Fixed an issue where CountVectorizer.decode leaves file pointers open after reading the contents of the file. This produces unpredictable behaviour as closing the file pointer is left to the implementation of the python interpreter.
+Fix typos in doc.
+Fix doctests.
+Fix underflow detected by test_common :)
+Fix a few test failures.
+Fix see also.
+Fix example.
+Fix random_state in SGD.
+Fix many bugs and test PA-I.
+Fixed docstrings and seed tests
+Fixed some memory inefficiencies and clearned up documentation and code semantics
+Fix typos
+Fix indentation
+Fixed typo
+ENH use the numbers module introduced in Python 2.6 to check for number types. Fixes 1255.
+Fix typo in README
+Fix test failure.
+Fix density utility when input is sparse.
+FIX seed liblinear using srand. Fixes issue #919.
+Fixed typos.
+Fix warning message.
+Fix damp parameter.
+Fix docstrings and doctests.
+Fix indentation
+Fix latex formula in isotonic regression doc.
+Fix confusing notation in isotonic regression.
+Robustify LARS. Fixes issue #487
+BF: Fix broken tests: change a check for compatibility with HMM.
+DOC Fixed a return in predict_proba in SGDClassifier
+DOC Fixed a return in predict_proba in SGDClassifier
+Fix doctests
+Fix example using deprecated API, output was misleading.
+Fixed tests for RidgeClassifier
+Fixed SSS test
+Fixed n_test issue in StratifiedShuffleSplit
+Fixed StratifiedShuffleSplit issue for unbalanced classes
+Fix #1080.
+Fixed docstring for C param in BaseLibLinear/SVM subclasses.
+Fix warnings in multiclass module tests.
+COSMIT Fixed commata
+FIX Fixed variable names. Thanks @mblondel
+Fixed small typo, even though the message is kind of the same and the one with the typo is waaay funnier.
+Fixed merge problem
+Fixed broken links on Support page
+Fixed broken links on Support page
+Fix broken bot (again ;))
+Fix broken bot (sorry for that!)
+ENH Fix seed that makes SGDClassifier work.
+Fix: RidgeClassifier must not inherit from RegressorMixin.
+Fix #904.
+Fixed typos, spacing errors & updated `Whats New`
+Fix a few spelling/grammar errors in the docs
+FIX Fixing rebasing problems...
+Fix errors due to previous refactoring on MDS
+Fix test function name.
+Fix a bug in the ward clustering.
+Fix warning.
+Fix typo.
+Fixed location of ".. _svm_mathematical_formulation:" in svm.rst
+Fixed bug in plot_rbf_parameters.py causing only one figure to show
+Fix doctest.
+Fix remaining merge conflict.
+P3K: Fixed RuntimeError.message
+P3K: Fixing prints and dtypes
+P3K: Fixed unicode pickling error by changing to BytesIO
+P3K: Fixed None < Float Python 3 error
+P3K : Fixed range iterator to be list
+P3K: Fixed print related Python3 errors
+P3K: Fixed dtype doctests for Python3
+Fixed weight calculation from distances (1. / dist), and weight function in tests (lamda d : d ** -2)
+Fixed some typos
+Fix doctest in PLS.
+Fixed typo in documentation
+Fix kernel pca example.
+TEST: Fix doctest
+Fixed syntax error
+1.Fixed typo 2.Removed has_key entries
+Fix math notation for exp and tanh.
+Fix bug when refit=False.
+Fix bad reference to LFW in example
+Fix doc mistakes.
+Fix doctest failure.
+Fixed broken image link
+Fix lsqr for scipy 0.7.
+Cosmits + Fix to a test
+Fixed bug in nearest_centroid, and removed boston test.
+BUG: Fix metrics.aux() w/ duplicate values
+TEST: Fix cross_validation tests
+Fixed random state, changed _validate_sss name, fixed _validate_stratified_shuffle_split bug
+BugFix, matrix was not flagged as sparse.
+Fix charse in mlcomp example
+Fix grid search example
+Fixes for doctests
+Fixed missing image and GUI download link -Missing image and link for it fixed in basic tutorial -Seperate page for SVM GUI added instead of direct download link
+Fixed some figures, added links & corrected SVM Param C explanation -all figures in section 2 of StatInference tut added/fixed -fixed datapoints gettin cut off -all figures link to page with code
+FIX : Fixed bug in single_source_shortest_path_length in sklearn.utils.graph
+Fixed a small typo
+Fixed spelling error,import lines,figures and html links for shrinkage section
+Fixed link typo
+Fix a test case
+Added links to some keywords. Added a small note after the Training set.. topic - linking to the other basic tutorial Fixed a typo in k-Nearest neighbors classifier heading.
+Fixed docstring to reflect current code in precision_recall_curve. 1. It has n + 1 values for precision and recall 2. It adds a "fake" point with precision = 1. and recall = 0. Signed-off-by: Brandyn A. White <bwhite@dappervision.com>
+Fixed author reference (removed link as it wasn't working)
+Not doing a full sort for getting the best results Fixed docs slightly.
+Fixed the doctests in hmm
+Fix scale_C warning.
+Fix what's news.
+DOC complicated objects as parameters confuse sphinx and the reader. Fixes issue #567.
+ENH: Replace asserts by appropriate errors. Fixes the rest of issue #570.
+Fixed data.filenames consistency issue when 'all' specified for 'subset'.
+Fix doctest.
+Fix failure in `test_bad_input`.
+Fix doctests.
+Fix doctests.
+Fix "what's new".
+Fix bug when fit is called mutiple times.
+Fix more bugs + tests.
+Fix a few more bugs.
+DOC: Fixed 'See also' in tree/forest
+Fixed an example that happened to fail
+Fix the docstring of the univariate feature selection module to match the scikit conventions
+EXAMPLE: Fixed API changes
+FIX: Fixed a buf I introduced in dpgmm
+Fix test.
+Fix bugs + adjust OCSVM parameter in outlier detection example.
+Fix broken duplicated / tests and more practical init
+Fix the API and the scaling inside dict_learning
+Fix bug with sparse matrices.
+DOC: Fixed broken links
+DOC: Fixed links to modules in the example gallery
+DOC: Fixed broken reference to user guide
+DOC: Fixed legend in iris svm example
+Fix svmlight loader doc.
+Fixed lena import in denoising example
+Fixed lena in example
+Fixed doc links
+DOC: Fixed warning
+DOC: Fixed graph_lasso reference
+Fixed typo
+DOC: Fixed What's new
+Fix one-dimensional y in Gram OMP estimator
+EXAMPLES: Fixed a bug in plot_forest_iris
+Fixed values in Adjusted Mutual Information doctests
+Fixing conflicts
+Fixed a small bug
+Fixed bugs
+Fixed bugs in forest + first test
+Fixed this example. Tested the others (they worked!)
+Fixed logs to match the matlab code results. This fixes the tests (which needed a bit of updating)
+Fixed bug in updating structure matrix in ward_tree algorithm.
+Fixed issue #378 on the RFE module
+Fixed image display in docs
+Fixed doctest error
+Fixed typos
+Fix commenting in pairwise_distance
+Fixed doctest and checked tests working - most are;
+Fix typo in SGDClassifier's docstring (via GitHub).
+Fixes based on ogrisel's comments
+Fixed merge conflict
+Fixed examples
+Revert to _Fixed Doctest_ and added regression bug fix
+DOC: Fix doctest
+Fixed doctest
+Fixed regression bug.  Thanks @pprett
+Fixed memory leak in libsvm
+Fixed error of splitting between identical feature vals
+Fix bad copy-paste.
+Fix currentmodule.
+Fix doctest errors (hopefully!).
+Fix setup!
+Fix doc!
+Fix mistake and docstring cosmits in SVC.
+Mean shift: Fixed a bug that occurs when the cluster_all argument is False
+Fix bug in one-vs-rest when underlying estimator uses predict_proba.
+Fixed loader problems
+Fixed doctest example
+Mean shift: Fixed a minor type
+Fixed a few import errors
+Fixing twenty_newsgroups
+Fix : deleted a forgotten line
+Fix plot_kmeans_digits.py.
+Fixed inappropriate checks for None
+Fixed a small introduced due to a previous commit.
+Fixes of minor bugs + improved test coverage (now 100%)
+Fixed some errors (mainly docstrings)
+BUG: Fix a bug introduced in rebasing
+Fixed a syntax error
+Fixed a broken test.
+Fix DBSCAN example.
+Fixed imports and run unit test
+Fixes for broken examples due to changes in samples_generator.py
+Fixes for broken benchmarks due to API changes in samples_generator.py
+Fixes for broken tests due to the API changes in samples_generator.py (2)
+Fixes for broken tests due to the API changes in samples_generator.py (1)
+Fixed documentation in example
+DOC: Fixed issue #110 DOC: Added default values FIX: Removed nu in SVR and epsilon in NuSVR
+Fixed documentation, and the input matrix is now consistently called 'X'.
+BUG: Fix clone for nadrrays and sparse matrices
+BUG: Fix clone for ndarrays and sparse matrices
+DOC: Fix layout
+Cosmit: Fix (some) pyflakes warnings
+BUG: Fix gmm bug + test failures
+Fixed noted issues with previous version
+Fix doctest.
+Fix broken doctest in NeighborsRegressor
+Fixed overcomplete case and updated dl example
+Fixed dico learning example
+Fixed Lasso call, all is still not right
+Fix bug in sparse k-NN and add disabled (!) test for sparse regression
+Fix parsing issues.
+BUG: Fix bug introduced in 83cf11c
+Fix broken doctest in mldata
+Fix ref counting bug.
+Fix compile issues on Mac OS X.
+Fix comment.
+Fix pprett's website URL (<> caused it to be a relative URL)
+Fix 404 from broken URL in release log
+Fix bug in MultinomialNB: output transposed
+Fix LDA.transform's docstring.
+Fix LDA transform.
+Fixed issue 82: bug in init of Kmeans. I feel it is a little hacky  since I copy init at the very begining, not in "_init_centroids". But in this function, X_mean would not be available. And I like this solution better than adding another argument to _init_centroids.
+Fix spelling in dosctring.
+BUG: Fix pyflakes warning in k_means
+DOC: Fix links in covariance
+Fixed Lasso call, all is still not right
+DOC: Fix layout
+DOC: Fix layout
+Fixing some under and overflows; this doesn't fix all test errors yet
+Fixing test failures resulting from the merge
+[MiniBatchKMeans] Fixed typo in attribute: cluster_centers_
+Fixed doc-tests and added doc strings for SGD learning rates.
+Fixing another underflow bug in digamma. Now the bound for spherical covariance never diverges as a cluster gets empty
+Fixing 0* problem in z log z
+Fix minor typo
+Fixing the names in the hmm test
+DOC: Fix layout
+BUG: Fix bug introduced by moving test_mixture
+Fixing typo-bug in the full covar update. There are still a couple of nondeterministic bugs to be taken care of
+Fixing typo bug
+Fixing the imports
+Fix little typos in the general_concepts document.
+Fix OptionParser import
+Fixing the docs
+Fix the 'give' in plot-dpmm
+Fixing pyflakes warnings
+Fixing test failures in mixture
+Fix docstring find&replace issue; restoring VBGMM
+Fixing last bugs in the bound and updates; improving docs
+DOC: Fix warnings
+DOC: Fix more warnings
+[MiniBatchKMeans] Fixed the tests for the new API
+DOC: Fix warnings
+DOC: Fix more warnings
+[batch k-means] Fixed the computation of the batch kmeans centroids
+Fix doctest.
+Documented NNDSVD. Fixed ar perturbation range.
+Fixed relative URI in NMF doc refs
+Fixed non-ascii characters
+Fixing small bug
+Fix benchmarks printing of error for alt-nmf
+Fixed NMF benchmark colors
+Fixed benchmark, removed unused import.
+Fixed comments in NMF example
+Fixed the math
+Fixing indentation bug
+Fixed broken tests due to interface change
+Fix a Broken link in the documentation
+TEST: Fix trivail doctest failure
+Fixed bug in transform (lack of .T), renaming
+Fix to the documentation of the Multinomial Naive Bayes.
+Fix to sparse SVC with kernel='poly'
+Additional tests for sample weights. Fixed some typos in doc strings. Changed signature of coef_ for SGDClassifier; now adheres to svm convention that coef_ is shape [1, n_features] in the case of binary classification.
+BUG: Fix bug introduced by PLS
+ENH: Fixed seed for shuffling in SGD
+MISC: Fix example to adjust to eps -> tol
+MISC: Fix ward bench vs scipy
+Fix error in documentation.
+Fix TransformerMixin.fit_transform.
+Fix typos.
+Fix typo.
+Fix issue in RidgeCV.
+Fix test.
+Fix 20newsgroup example.
+Fix tests for sparse case.
+Fix problem when output is a vector.
+Fixed problem with big full covariance matrices: sum,log instead of log,prod for loglikelihood computations.
+Fixed svd-based initialization, fixed example
+Fix typo.
+Fix for linear_model.rst
+Fix precompute keyword in LARS.
+Fix example paths for GMM after renaming.
+Fix GridSearch does not exist.
+Fix failing doctests in gaussian_process.rst.
+changed loss function names in SGD (squaredloss -> squared_loss; also for modified_huber). Fixed examples after SGD class renaming. COSMIT in sgd documentation.
+BUG: Fix missing gaussian_process subpackage in setup.py
+MISC: Fix example
+BUG: Fix the doc-generation of examples
+BUG: Fix GridSearch in unsupervised
+Fix math rendering in SVM documentation.
+BUG: Fix metrics to run on 2.5
+Fix typo (wantto -> want to)
+Fix broken test.
+Fix small typos.
+Fix SGD-based binary classification example.
+Fix imports.
+Fix slicing issue when using sparse matrices.
+DOC: Fix title level in install
+Fix Sparse Logistic Regression.
+Fix doctests in sgd module.
+Fix imports in example.
+Fix hierarchy inconsistency for sparse module.
+Fix for building libsvm in a portable way.
+Revert "Fix doctests in gmm (skip random ones)."
+Fix doctests in gmm (skip random ones).
+Fix and enable _covar_mstep_full in gmm.py
+Fix doctest in grid_search.
+Fix consistency problem in the order of arguments for loss functions.
+Fix cross_val when y is a 2d-array.
+Fix indentation.
+Fix links in about page.
+Fix doctests from RST docs.
+Fix typo
+Fix typo in docstring.
+Fix doctests from the tutorial.
+Fix malformed RST in BallTree.cpp
+Fix RST (numpydoc) markup.
+Fix non-html (latex) generation of the docs.
+Fix spelling errors in glm.rst
+Fix wrong link in doc.
+Fix typo in svm docs.
+Fix doctest failing by last bug fixing.
+Fix broken merge by ogrisel :-P
+Fixes for ref atlas.
+TEST: Fix whitespace in doctests.
+TEST: Fix test_pca sign error.
+DOC: Fix the reference classes documentation
+MISC: Fix spelling.
+BUG: Fix doctests.
+BUG: Fix bug introduced by previous commit
+Fix imports.
+Fix failing tests (sparse svm).
+Fix typo on David's name
+DOC: Fix typos in svm module documentation.
+BUG: Fix tests to be moroe robust
+Fix typo
+BUG: Fix doctest
+Fix doctests.
+Fix in LARS: specify manually number of interations for full path.
+BUG: Fix warnings module not imported in coordinate_descent. Thanks to Pietro Berkes
+Fixes on the Lasso-LARS algorithm.
+Fix build system.
+BUG: Fix glm/setup.py so that the glm sub package installs right.
+BUG: Fix tests broken by last commit
+BUG: Fix bug with numpy >= 1.5 introduced by my previous (stupid) commit.
+Fix bugs in dev docs.
+BUG: Fix doctests to account for change in BaseEstimator repr
+Fixed a typo
+BUG: Fix lda and qda on 64 bits.
+Fix names and missing parameters in LinearSVC.
+BUG: Fix forgotten import in example
+BUG: Fix a bug preventing from LinearModelCV to print.
+BUG: Fix cross_val_scores for unsupervised problems.
+BUG: Fixed pipeline feature selection example after last API changes
+BUG: Fixed example after last API changes
+BUG: Fix doctest in GMM
+BUG: Fix doctests in pipeline.py
+BUG: Fixed pipeline feature selection example after last API changes
+BUG: Fixed example after last API changes
+BUG: Fix constructors with arguments.
+BUG: Fix the OLS regression
+Fix broken links in doc.
+Fixes for lars.c to compile under Visual Studio.
+Fix import path in examples.
+Fixes for LARS algorithm.
+Fixes for LARS algrithm.
+Fix blas build for liblinear when no system-wide blas is found.
+Fix failing tests because of added intercept.
+Fix imports in glm test
+Fix broken link in rst feature_selection.
+Fixes in Ordinary Least Squares (glm module)
+Fix broken setup.py in datasets.
+FIX: Fix a bug that caused segfault when intercept=False on classes that call liblinear.
+Fix a bug in the computation of the log lokelihood
+Fix typo in setup.py
+Fix compatibity issues of bindings in 64bit.
+BUG: Fix the digits datasets: wrong data loading.
+BUG: Fix bugs in liblinear bindings.
+Fix typos in examples.
+Fix docstring for svm.SVC
+Fix import path in BallTree benchmarks
+Fix a bug when using an estimator in UnivSelection. x[self.support_] -> x[:,self.support_]
+Fix image location in doc.
+Fix doctests.
+Fix doctest in neighbors module.
+Fix some docstring failures in svm
+Fix some docstring failures in crossval
+Fix distutils issues.
+Fix failing tests.
+Fix memory leaks in the svm bindings.
+Fix spelling errors in svm doc.
+Fix bug when target vector dtype != int.
+Fix segfaults in the case of SVR, OneClass.
+Fix memory leaks.
+Fix performance issues in bayesian ridge regression.
+Fix cython extension to work on 64 bit
+Fix import bug
+Fix ARD and add the log-likelihood
+Fix linear and add test for ridge
+Fix: do not scale by default in SVM.
+Fix typo in README
+Fix typo in setup.py
+Fix typo in numpydoc (sphinx extension).
+Fix import paths that where broken in last commit.
+Fix parzen method in Neighbors.
+Fix: some distutils cleaning and import fixing.
+Fix import of libsvm in tests.
+Fix classification example in machine.svm.
+Fix path in examples/projection.py.
+Fix typo in web page.
+Fix bug in knn example.
+Fix imports of scikits.optimization.
+Fix bug in barycenters.
+Fix relative imports in manifold_learning/regression/tests.
+Fix typos in setup.py.
+Fix functions that depend on Neighbors.
+Fix doctests in Neighbors.
+Fix typo in class name.
+Fix: Add std namespace in order to use std::isnan.
+Fix import paths in manifold_learning.*
+Fix import.
+Fix utils subpackage __init__; used old numpy testing framework.
+Fix typos in tests.
+Fixed some extensions bugs
+Fixed some additional arguments and modules issues
+Fixed online em tests
+Fix a bug in ellipses of confidence computation for mixture + adapt to new datasets layout in examples
+Fix libsvm prediction with precomputed kernels.
+Fix kernels.
+Fixed RBF kernel.
+Fixed tests.
+Fix importing datasets in pyem/test
+Fixed old imports (ticket #36)
+Fixed issue 216
+Fixed import problem with importing __pre___init__
+Fixed import of stats module in ga.
+Fixed a time.time function replacement error that Prabhu found.

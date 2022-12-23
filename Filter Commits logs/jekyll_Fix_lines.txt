@@ -1,0 +1,573 @@
+Fix ordered-list style in articles on mobiles
+Fix Nested tree navigation with recursion example (#9174)
+Fix spelling errors in History document
+Fix URL to Liquid documentation (#9158)
+Fix false positive conflicts for static files in a collection (#9141)
+Fix alignment of home page section-units on mobile
+Fix news-archive list renders on small-devices
+Fix response header for content served via `jekyll serve` (#8965)
+Fix deprecation message for missing doc method (#8960)
+Fix link for "CloudSh" (#8934)
+Fix random test failures in TestExcerpt #to_liquid. (#8884)
+Fix typo (#8835)
+Fix regression in Convertible module from v4.2.0  (#8786)
+Fix RuboCop offenses in tests
+Fixing URL in MacOS install for rbenv-doctor (#8693)
+Fix typo in 02-liquid.md (#8637)
+Fix typo in contributing.md (#8666)
+Fix for important missing step in macOS Installation Docs: Add the Homebrew gems directory to the PATH (#8496)
+Fix i.e. typos in collections.md (#8529)
+Fixes typo in layouts_dir documentation (#8532)
+Fix broken url in docs (#8435)
+Fix test suite compatibility with JRuby (#8418)
+Fix path matching regex in post_url Liquid tag (#8375)
+Fix IRB error "ubygems" (#8199) (#8312)
+Fix 'page 1' special treatment in pagination docs (#8230)
+Fix typo name of repository (#8248)
+Fix typo (#8162)
+docs: Fix broken URL in the "Resources" page (#8136)
+Fix documents custom-ordering logic (#8028)
+[Docs] Fix asset link ref in step-by-step tutorial (#8026)
+Fix file references in Step by Step Tutorial's Assets step (#8007)
+Fix English grammar error. (#7994)
+Fix YAML representation of `group_by` result (#7979)
+Fix RuboCop Performance offenses in test files (#7839)
+History: Place Bug Fixes after Minor Enhancements
+Fix 404
+Fix: rubocop offenses (#7769)
+Fix misspelling (#7764)
+Fix date
+Fix offenses detected by rubocop-performance-1.4.0
+Fix typo from 'Github' to 'GitHub' (#7691)
+Fix broken include_relative usage in excerpt (#7633)
+Fix link space (#7600)
+Fix unnecessary allocations via StaticFileReader (#7572)
+Fix Wiki link in README.markdown (#7549)
+Fix incorrect Windows path in themes.md [skip ci] (#7525)
+Fixed unnecessary aticles and pronouns (#7466)
+Fixed grammar
+Fix grammatical error in permalinks.md (#7409)
+docs: Fix group_by_exp filter example (#7394)
+Fix content management section (#7385)
+Fix dead link and misleading prose (#7383)
+:bug: Fix link to Tidelift (#7377)
+Fix Contributors link (#7200)
+Fix a small grammar error/typo in the docs (#7260)
+Redirects Fixes #7230
+Fix minor grammatical error (#7215)
+Refactoring: Fix benchmark code smell (#7211)
+Fix links in Code Climate badges
+Fix custom 404 page for GitHub pages (#7132)
+Fix Rubocop offences in test files (#7128)
+Fix #7082 Add call to unused method (#7122)
+Fix tests to have "expected value" as the first argument passed to `assert_equal` (#7104)
+Fix: Escape Liquid
+[Doc] Fixing a small typo (#7058)
+Fix --unpublished not affecting collection documents (#7027)
+Fix --unpublished not affecting collection documents (#7027)
+Fix tests
+Fix rendering Liquid constructs in excerpts (#6970)
+Fix typo (#6969)
+Fix rendering Liquid constructs in excerpts (#6945)
+Fix CodeClimate badges [ci skip] (#6930)
+Move #6891 to Bug Fixes
+Fixed code issue (#6919)
+Fixed typo in description of categories and tags (#6896)
+Fix build on Travis
+Fix passing multiline params to include tag when using the variable syntax  (#6858)
+Fixed Minor Grammar Issue
+Fix theme gem feature (#6784)
+Fix documentation for `{{ page.excerpt }}` (#6779)
+Fix typos (#6764)
+Fix timezone incosistencies between different ruby version (#6697)
+Fix: Add note about posts directory in context of custom collections directory (#6680)
+Fix link
+Fix date
+Fix: Update link to i18n_filter plugin (#6638)
+Fix Kramdown warnings
+Fix Kramdown warnings
+Fix #6498: Use Gem to discover the location of bundler. (#6499)
+Fix a few minor issues in the docs (#6494)
+Fix list appearance by adding missing `ol` tag (#6421)
+Fix docs for the new `collections_dir` feature (#6408)
+Fixes formatting on pre-formatted text. (#6405)
+Fix typo in debug message. cc #6344
+Fix precedence docs (#6346)
+Fix typo in site.url section of variables.md :-[ (#6337)
+Fix History
+Fixes minor typo in post text (#6283)
+Fix Drop#key? so it can handle a nil argument (#6281)
+Update History.markdown to unify Bug Fixes and fix
+Fix serving files that clash with directories (#6231)
+Fix History entry for #6185
+Move Bug Fixes to the top of the current HEAD's history.
+Fix layout front-matter variables rendering. #6071 (#6073)
+Fix wording in _docs/templates.md links section (#6114)
+Fixed documentation inconsistency (#6068)
+Fix CI after #6040 (#6044)
+Fixup tutorial on creating theme from existing HTML templates (#6006)
+Fix missing quotation mark (#6002)
+Fix broken link (#5994)
+Fix whitespace issue in philosophy document.
+Fix some errant entries in History.markdown.
+Fix Appveyor with dst-aware cucumber steps
+Fixed path in "Improve this page" link in Tutorials section
+Fix typo in CONTRIBUTING doc.
+Fix typo in backport-pr
+Fix fmt issues in test for 'include a post with a abbreviated dates'
+Fix typo in contribution information
+Fixed tutorial for publishing gem to include repo.
+Fix missing trailing comma to alleviate fmt errors
+Fixes based on latest review
+Fixed inaccuracy in "Built-in permalink styles" docs [skip ci]
+Fix rubocop error.
+Fix a markdown link to look properly on the web
+Fix a minor grammatical mistake on themes' document
+Fix #5730: add gcc and make to the list of requirements
+Fix format, corrections
+Fix script/stackprof & add some GC stats.
+Fix a couple of typos in the docs
+Fixed typo
+Fixes #5498
+Fix example URL inconsistency
+Fix bad config YAML in collections example
+Fix typo.
+Fix fmt error.
+Fix history reference to #5532.
+Fix #5462: Only shutdown watch in Bash On Windows.
+Fix some external links.
+Fix internal links.
+Fix HTML rendering
+Fix broken links
+Fix 'Improve this page' link.
+Fix typo
+Fix some typos
+Fix some typos
+Fix typo in theme_template README
+Fix broken forum link
+Fix.
+Fix line length
+Fix loading data from subdir with a period in name #5429
+Fix reference to #5413
+Fix Travis.ci documentation
+Fix typo
+Fix rubocop errors & add one more test for slugify 'ascii' mode (#4680)
+Fix fmt errors.
+Fix issue #5276, where path strips root destination dir if filename matches
+Fix #5233: Increase our ability to detect Windows.
+Fix theme highlight
+Fix a link in deployment-methods.md
+Fix bad  colon in .travis.yml
+Fixes `link` tag to work with static files
+Fixes tests to account for new info.md file
+Fix path in the prompt
+Fix inspect
+Fix script/fmt error in site.rb.
+Fix indentation
+Fix Rubocop warnings
+Fix #3926 post_url helper with sub-directories
+Fix fmt error
+Fix offense: seperate every 3 digits with _
+Fix test_filter: parenthesize the method
+Fix rubocop offenses on master.
+Fix for jruby
+Fix rubocop offense.
+Fix offense.
+Fix regexp literal issues on master.
+Fix typo.
+Fixed typo
+Fix inaccurate HTTP response header field name
+Fix Page#relative_path so that it consistently does NOT have the prepending slash (previously inconsistent)
+Fix tests for document drop JSONification based on master updates. /cc #4914
+Fix test to simply ensure next is an object in jsonify
+Fix tests for plugins in configuration.
+Fix some minor things in the tests
+Fix rubocop issues.
+Fix rubocop offense.
+Fixing rubocop offenses in lib/jekyll/cleaner.rb
+Fixed a typo
+Fix #4856: Don't rescue LoadError or bundler load errors for Bundler.
+Fix spacing on the msg in Configuration#renamed_key
+Fixed typo
+Fix rubocop warning.
+Fix minor code style recommendations and typos.
+Fix history for #4693 & its cherry-pick into master which doesn't need a history line
+Fix #4689: Use SSLEnable instead of EnableSSL and make URL HTTPS.
+Fix a typo in pagination doc
+Fixed the example fork url in CONTRIBUTING
+Fixed a typo in 'contributing'.
+Fix slugify test
+Fix warnings
+Fix test teardown for cleaner.
+Use the correct URL, Fixes #4698
+Fix documentation for push/pop/shift/unshift
+Fixes typo on collections
+Fix rakefile when you don't have a title in markdown
+Fix link issues in the site found by HTML Proofer.
+Fix for issue #4582, plus simple test
+Fix jekyll-docs command.
+Fix titleize_slug so already capitalized words are not dropped
+Fix emoji support on the site.
+Fix a typo
+Fix typo in upgrading docs
+Fix typo
+Fix #4427: Make our @config hash symbol accessible.
+Fix #4191: Reduce Document#post_read complexity slightly.
+Fix #4188: Extract title from filename successfully when dateless.
+Fix bad UNLESS.
+Fix #4191: Reduce Document#post_read complexity slightly.
+Fix #4188: Extract title from filename successfully when dateless.
+Fix some debug logging.
+Fix deep_merge_hashes! handling of drops and hashes
+Remove old Fixme note
+Fixed broken link to blog on using mathjax with jekyll
+Fix grammar in the documentation for posts.
+Fix a typo in the documentation for configuration defaults.
+Fix spelling of GitHub in docs and history
+features/post_data: Fix undefined feature step.
+Fix checklist in _assets.md
+Fix an edge where file is sometimes not returned properly.
+Fix #3791/#3478
+Fix: #4219: Add CodeClimate Platform.
+Fix #4202: Have Kramdown behave like Github.
+Merge pull request #4121 from rebornix/FixDocsCSSBreak
+Merge pull request #4177 from rebornix/FixCleanCommandOptions
+Fix #4082: Allow users to use .htm and .xhtml (XHTML5.)
+Fix a typo, use single backticks for inline code examples
+Fix the deprecation warning in the doctor command
+Fix #3371 - kramdown:syntax_highlighter should automatically take value of highlighter
+Fix #4066: Move Convertible#render_liquid to using render!
+Fix #4075: Make sure that .jekyll-metadata is not generated when not needed.
+Fix test warnings when doing rake {test,spec} or script/test
+Fix pretty permalink example
+Fixed a typo, wrap at 80 characters
+Added installation instructions for 2 of the 3 options for plugins. Fixes #4013.
+Add timezone as hour & minute offset in the initial post in the new site template. Fixes #3998
+Fix broken configuration documentation page
+Fix #3970: Use Gem::Version to compare versions, not >.
+Fix up test for 'future' flag. /cc #3892
+Fixes #3776 by changing to the correct name for whitelisting.
+Fix keep_files not to match a file with repeated path.
+Fix keep_files to be used as paths relative to the destination. They were used as keywords to match files containing them in the paths.
+Fix reading of binary metadata file
+Fixes #3836. Fix site template header menu iteration variables
+Fixed an unclear code comment
+Fix: #3738; Move code wrapper from div to figure.
+Fix it so that 'blog.html' matches 'blog.html'
+Fix script/test so that testing invidual files works.
+Fix #3653: Add a doctor helper to test pwd's.
+Fixes typo on doc page "Directory structure".
+Fix header for RSS feeds with UTF8 characters.
+Fix expectation for StaticFile#to_liquid in tests.
+Fixes #3480 Show how to install and use html-proofer without Gemfile
+Fix a typo, wrap lines
+Fix formatting
+Fixed a typo
+Fix accidental line break
+Remove loader.rb and utilize "modernize" script/test. Fixes: #3573
+Fix link to @recurser's jekyll plugins. [ci skip]
+Fix grammar on collections docs warning
+Fix the test inheritance for the tests.
+Fix wording in code snippet highlighting section
+Fix broken link in resources
+Fix posts per htmlproofer.
+Use Gem::Version to get version string. Fixes #3394
+Fixes #3339 Add `pkill -f jekyll` to ways to kill.
+Fix site-nav alignment
+Fix up tests
+Fix nav items alignment when in "burger" mode
+Fix last feature
+Fix some cucumber features.
+Fix cucumber failures due to merge of #3134.
+Fixed typo [ci skip]
+Fix weird spacing
+Fix bad tabbing.
+Fix up new output for RDiscount 2.
+Fix script/test to be more cross-compatible with other platforms
+Fix nav items alignment when on multiple lines
+Fix test use of Site#getConverterImpl.
+Fix a few punctuation errors
+Fixing the default host on docs
+Fixed itemprop="author name"
+Fix indentation
+Fix coverage reporting for built-in bundles
+Fix viewport meta tag
+Fix erroneous 'next_section' value
+Fix a typo
+Fix failing tests
+Fix 2 syntax errors.
+Fix up the assertions.
+Fix site tests.
+Fix post.rb permalink stuff in light of merge of #2925.
+Fix the tests so they are *PERFECT*.
+Fix problem where entries weren't stripped of their trailing slashes.
+Fix feed link to respect baseurl
+Fix site:update_normalize_css so it works with new integrated Sass workflow. [ci skip]
+Fix head.html indentation
+Fix code example for media query mixin
+Allow per post permalinks to end in `.htm` Fixes #2920
+Fix quote character typo in site documentation for templates
+Escape unicode characters Fixes #2905
+Fix `transition` property.
+Fix link to #2895.
+Fixing "vertycal" typo
+Fixed "bellow" typo
+Fix typo in site documentation for variables
+Fix orientation bugs
+Fix test for Liquid rendering in Sass.
+Fix the custom Cucumber output.
+Fix Cucumber scenario
+Fix inaccurate comments
+Fix minor typo on plugins docs page
+Fix typo in site documentation for collections.
+Fix up script/cucumber and script/test
+Fixed ignore subir test.
+Fixed Typo in error message
+Fix `git diff` command in CI script
+Fixing anchor references to #front-matter-defaults
+Fix broken links now that docs is a collection in site.
+Fix spelling error. [ci skip]
+Fix link to Jekyll v1.0.0 release post.
+Fix post_url in 2.0.0 release post. [ci skip]
+Fix URL
+Fix up errors in CI build
+Fix rest of broken links
+Fix `grep` pattern in `script/test` as well
+Fix up `grep` pattern
+Fix loads of other broken links
+Fix Textile link
+Fix Data Files example around iterative over files in a subfolder of _data.
+Fixed broken link to Permalinks page [ci skip]
+Fix typo
+Be quiet very quickly. Fixes #2520.
+Fixes, fixes.
+Fixes highlight.rb to correctly parse list values
+Fixing tests.
+Fixes the extra indentation in cucumber test
+Fix link to jekyll-import docs
+Fixing help command in deprecation warning
+Fix broken link on installation.md
+Fix #2413 and setup a Jekyll.env.
+Fix coding for 1.9.3
+Fixing spacing issue for `code` inside `pre`
+Fix output
+Fix cases for few words in History.markdown
+Apply inline code blocks when appropriate for some legacy history items. Fix "--some_option" parsed incorrectly by kramdown.
+Fix bullet points that are parsed incorrectly
+Fix link to frontmatter defaults docs
+Use symbol instead of HTML number in upgrading.md Fix case #2349
+Fix baseurl default in the docs
+Fix site template permalink typo
+Fix header for 2.0.2 so it's written to the website.
+Fix markup
+Fix link to variables docs page
+No more relative permalinks! Fix for a test.
+Fix test for new command's output.
+Fix typo in documentation
+Fix up docs for collections.
+Fix syntax issue on Templates page with `include` example.
+Fixed broken link to github training material site
+Fix #filtered_entries so it returns a new Array if the directory doesn't exist
+Fix test for non-collectionized sites still containing data coll
+Fix path sanitization example in post. Props @gregose
+Fix Page#url escape
+Fix Post#url escape
+Fix tables alignments in Cucumber features
+Fix for menu at mobile again
+Fix site footer styles on mobile
+Fix for menu not working on mobile
+Fix error in tests.
+Fix some tests
+Fix wrong semantic
+Fix partial test
+Fix group_by_filter test by adding 2 items
+Fixes for Sass/SCSS converters.
+Fixed typos
+Fixed the tests... I guess Hash literals aren't ok.
+Fix Tom Preston-Werner blog source link
+Fix typo. Change license link
+Fix quick site bugs.
+Fix error in exception message in Markdown Converter [ci skip]
+Fix various typos and improve the doc
+Fix the highlight tag feature
+Fix typo in docs.
+Fix repo
+Fix version
+Fix a broken link on the troubleshooting.md page
+Fix tests to expect maruku 0.7 output
+Fix favicon’s type
+Fix duplicate test case name
+Fix serve -> server alias, ensure --drafts is mapped to show_drafts
+Fix link to previous section
+Fix link to /docs/datafiles/ in 1.3.0 release post.
+Fix release date of v1.3.0 in History file
+Fix a typo.
+Fix 1.8.7 syntax errors.
+Fix grammar in usage.md
+Fix typos.
+Fix typos.
+Move version updates for development dependencies to 'Development Fixes' heading.
+Fix merge conflict.
+Fix code to allow dots in variables
+Fix typo in data docs; update section pagination for migrations to correctly point back to data
+Fix unruby paradigm
+Fix handling of source-dest matching being too aggressive
+Fix params on JekyllImport::WordPress.process so it's using hash
+Fix JekyllImport::WordPress instructions on docs site to use hash as parameter.
+Fix site:releases:new rake task.
+Fix 1.2.0 release post title
+Fix latest entries without code tag
+Fix problem link to /docs/history/ in v1.2.0 release post.
+Fix merge conflict.
+Fix link to History page from Release v1.2.0 notes post.
+Fix validation error on home page. #1508.
+Fix include tag to avoid NameError
+Fix docs/templates.md private gist example.
+Fixed --layouts option
+Fix two typos in History.markdown
+Fix TypeError on Generation
+Fix docs server options override
+Fix a misleading typo
+Fix link to contributing page in README. Fixes #1424.
+Fix date format in permalink.features.
+Fix 'undefined method `encoding` for "mailto"' errors w/ Ruby 1.8 and Kramdown > 0.14.0
+Fix 'undefined method `gsub' for nil:NilClass' when undefined method is called.
+Include an HTML file in Templates docs so as not to confuse - we don't automatically markdownify/textilize includes. Fixes #1303.
+Update Quick-Start page to include reminder that all requirements must be installed for Jekyll to work. Fixes #1327.
+Add description for drafts folder. Fix #1319
+Fix for kramdown coderay options. #1201.
+Update Wordpressdotcom migrator example to match jekyll-import initial beta2. Fixes #1281.
+Fix site title to use HTML entities
+Add note that gist tag supports private gists. Fixes #1248.
+Add Youku and Tudou Embed link on Plugins page in site/. Fixes #1250.
+Add site.pages to Variables page in Docs. Fixes #1251
+Fix coolaj86 link to migrate from Blogger to Jekyll. Modifies #1242.
+Fixed my tests, I need more specific tests for the new command.
+Fix tests to match new behaviour of Pager.paginate_path
+Fix Pager.in_hierarchy to actually do the right thing
+Fix tests for Pager.
+Fixed bugs with pagination in a subdirectory.
+Update ProTip on Installation page in docs to point to all the info about Pygments and the 'highlight' tag. Fixes #1196.
+Include instructions to upgrade to the latest version of Jekyll on 'Upgrading' page. Fixes #1194
+Update history to reflect merge of #1190. Fixes #673.
+Fix #1173
+Fix typo in Stevenson
+Update history to reflect merge of #1139. Fixes #622.
+Fixes so that the timezone gets written when it explicit is specificied in a test
+Fix syntax errors in Drupal migration docs.
+Fix for issue #1122.
+Pygments does not need to be installed. Fixes #1099 #1119
+Backwards-compatibilize 'exclude' and 'include' config tags. Fixes #1109
+Fixed shading on notes, made it less apparent.
+Fix some language problems, props @maul-esel
+Fixed some things on the site.
+Fix links to /docs/ in the site.
+Catching that the Redcarpet gem has been installed. Fixes #1059
+Fixing paginate_path on windows
+Check to make sure there is a toc_token before trying to use it. Fixes #1047
+Fix up markdownified history file.
+Fix the index build with LSI
+Let Commander handle bad args after printing of deprecation warning. Fixes #1040.
+Don't print deprecation warning if no arg is specified. Fixes #1041.
+Fixed typos
+Fixed html
+Ignore --help and --version in Deprecator. Fixes #1030
+Fixed duplicate attribute in css
+Fixed typos
+Fixed select closing tag
+Fixing Pager test for 1.8.7.
+Fixing up pagination feature test
+Paginate in subdirectories properly. Fixes #878.
+Parse strings into Time objects for date-related parsing. Fixes #997.
+Fix `jekyll serve --limit_posts n` failed
+Add UTF-8 encoding where we read in YAML so it reads in UTF-8 characters properly. Fixes #836.
+--plugins can now accept plugin directories. Fixes #993.
+Fix the link to the Homebrew wiki
+Fix a verb tense mismatch
+Fix up some verbiage that didn't jive quite right.
+Fail if destination directory for jekyll new exists and is not empty. Fixes #981.
+Fixed syntax error
+Fix unit tests for Configuration#backwards_compatibilize
+Print deprecation warnings for 'server', 'watch' and 'auto' when loaded from files. Fixes #972
+Fixes multiple config loading. Closes #973. Rel: #945.
+Fixing tests, and making it more ruby friendly
+Fix cascade problem with site.baseurl. Fixes #931.
+Backwards-compatibility for 'auto'. Fixes #821.
+Fixes for @parkr comments.
+Upgrade pygments.rb to 0.4.2. Fixes #927
+Fix up a few places where words were missing.
+Fixes for directory_watcher 1.5.x integration. Closes #916.
+Fix import command parameters
+Fix symlinked assets not being included, even in unsafe mode
+Fixed expected output from xmlschema and rfc822
+Flatten tags and categories lists. Fixes #741.
+Auto-regeneration fails loudly. Fixes #470.
+Syncing STDOUT. Fixes #625.
+Fix tests that fail due to having a directory that looks like a post
+Ensure all categories are downcase. Fix for #842.
+Fix typos and remove some obtrusive code
+Fix bug where Command.globs didn't delete the destination directory. There was often a mix between absolute and relative paths and in the previous version, the destination argument was usually an absolute path where the glob array (from Dir['*']) was a relative path.
+Fix link in Readme
+Fix indentation.
+Fix typo.
+Fix jekyll-import LoadError message.
+Fix invalid ordering of posts published on the same day and move post_url specific comparison of posts where it belongs: Into post_url
+Fix broken post_url with posts with a time in their YAML front matter.
+Fixed plugin test error.
+Fix pretty url style paths.
+Fix up the whitespace.
+'gist' liquid tag by @stereobooster. Fixes #463.
+Fix issue with watching (auto-regeneration) continuously running if destination is not '_site'. #457.
+Update history to reflect merge of #795. Fixes #790.
+Fixed merge conflicts: rebasing on master.
+Fixed merge conflicts in test/test_configuration.rb
+Fixed merge with new log output in lib/jekyll.rb
+Fixed merge with new log output in lib/jekyll.rb
+Fixed typo in History file
+Relax Kramdown version to 0.14. Fixes #808.
+Add SVG support to Jekyll/Webrick. Fixes #406.
+Fix truncation of overly long post names.
+Ensures that categories are Strings before escaping. Fixes #759.
+Fixed failing Cucumber test
+Fix up a few TomDocs.
+Fixed helper inclusion in redcarpet test
+Allow setting of Kramdown smart_quotes. Fixes #482.
+Allow [+.#-] in highlight lang shortnames. Fixes #282.
+Fix photo link URL.
+Fixed a change in Tumblr's API whereby photos no longer have a single URL field.
+Fixed Tumblr URL redirects.
+Fixed grab_images handling.
+Fix typo "destintation" => "destination"
+Fix an issue NoMethodError happens in case number of files under _posts is less than limit_posts.
+Fixed cgi module name.
+Fix exception thrown in exception handler at convertible.rb:81
+Fix non-pygments code highlighting
+Fixed bug in "conversation" importing where <section> and <dialog> tags were not being closed.
+Fixed mistake in default markdown extensions
+Fix compile error by making QUERY lowercase (local instead of const)
+Adding baseurl option. Fixes #51
+Correctly generates file basename. Fixes #208.
+Fix page.url to include full relative path. Fixes #181.
+Expand source, destination, and plugin paths. Fixes #180.
+Ensure that RedCloth is loaded when textilize filter is used. Fixes #183.
+Fix Rakefile release task (tag pushing was missing origin)
+Need double quotes for newline character. Fixes #178.
+Ruby 1.9 compat fix in features. Fixes #141.
+Fixes bug that removes all highlight tags
+Merge commit '0a1e3cd2508c797d7b8d1038636a6e7111e5cd3d'. Fixes #33.
+Render highlighted code for non markdown/textile pages. Fixes #116
+Fixed WEBrick JavaScript mimetype. Fixes Firebug script pane
+Fixed bug where including includes from an include threw an exception.
+Fixed small bug in test_generated_site and updating history with latest fixes
+Fix exception that causes jekyll to fail when using CRLF (0d0a) linebreaks in YAML front matter.
+Fixing readme formatting issues
+Fix exclude to be an empty array
+Fixed tests (... or commented them out). We rule.
+Fixed test_generated_site.
+Fixed bug which meant config file did not override default source and destination
+Fix site payload available to files
+Fixed an issue with pygments, markdown, and newlines.
+Fixing permalink support
+Fixed bug that meant page data (such as the date) was not available in templates
+Fixing that the rdiscount require rescue didn't catch.
+Fixed the manifest to not include some files generated from tests

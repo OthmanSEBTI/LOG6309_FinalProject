@@ -1,0 +1,2942 @@
+Updated Intel's branch description
+Updated Intel's branch description
+Clip layer documentation
+test case fix for Clip layer gradient
+Add clip layer
+python: Set gpu device id before setting gpu mode
+fix typos and some minor fixes.
+Update inner_product_layer.cpp
+[pycaffe] test solver update
+[pycaffe] expose mutable solver parameter, base lr, and effective lr
+increment iteration during update, not step
+[pycaffe] expose solver update to do manual solving
+fix issue #6389
+fix issue #6387.
+Cherry-picked USE_HDF5 from Android branch
+tweaked Gaussian filler tests for less false fails
+Revised guidelines for GitHub issues (#6327)
+Minor correction concerning compilation compatibility with CUDA 9.0
+check embed index in debug mode
+Added Swish layer (#6002)
+bilinear filter test refactor
+Filler testing overhaul
+PoolingLayer customizable output shape rounding mode
+Add lr_mult label to the network graph in draw_net.py (#6273)
+1D blob handling in MSRA/Xavier fillers
+Remove legacy tools
+bug fix: ext should not include the '.'
+fix cuda 9.1 compilation
+Automatic replacement of snapshot_prefix parameter if it is empty or points to a directory. See issue #6110 proposed improvement No.2
+Weight parameter in solver is used in caffe.exe
+Update Classifier and Detector to avoid deprecation warning
+corrected description of set_transpose in io.py
+explain use of scratch diffs in comments
+clear scratch use of accuracy bottom diff
+clear scratch use of loss bottom diffs
+docs: switch to official AWS AMI
+Simplify pip invocation.
+Add check values of gamma and stepsize to avoid unexplained core dump
+Added count==0 safeguard to CPU accuracy calculation
+Makefile example comments for CUDA 9.0 compatibility
+infogain loss: fix bottom blobs description
+Add absolute tolerance to test_net.py to prevent random Travis fails
+add supports for cuDNN v7
+upgrading Accuracy layer: (1) efficient CPU implementation O(L) for top_k, no need for fancy priority_queue etc. (2) GPU implementation
+[docs] fix link to `AbsVal` layer
+Packages needed by Ubuntu 16.04 also
+Implement CuDNN-based deconvolution layer and test
+Expose GPU pointers to Python
+modified division operator for compatibility of python 3
+Update link to google style guide.
+Update README.md
+[DOC][FIX] fix web demo install instruction link
+update deprecated pandas call
+update sklearn calls to use latest API
+Update lrn.md
+docs: add Ubuntu package tracker link in Ubuntu guide
+docs: update apt installation guide for Debian and Ubuntu
+Update README.md
+List branches in readme
+docs/debian guide: update compiler combination table
+cmake: rename libproto.a -> libcaffeproto.a
+Downgrade boost requirement from 1.55 to 1.54
+Update euclidean_loss_layer.hpp
+Handling destruction of empty Net objects
+Rewrite crop cuda kernel
+Shape mismatch CHECK logging improvements
+Caffe 1.0
+link to new full-day crash course
+track publications by google scholar and not the wiki
+retire caffe-dev and caffe-coldpress
+add missing names to BAIR roster
+model zoo: point out wiki link immediately, explain manual editing
+favor notebook examples as more clear and popular
+drop performance + hardware page and switch to sheet
+BVLC -> BAIR
+Docker update to cuDNN 6
+fix lint errors that snuck in by #4566
+[docs] added apt command to install OpenBLAS (#4718)
+Test for python forward and backward with start and end layer.
+Explicit std::string to bp::object conversion
+[examples] switch cifar-10 back to proto instead of h5 serialization
+Updated Travis boost dependencies
+deprecate WindowData layer type
+fix: add non-MKL sqrt (should have been included in ab33988)
+CPU BatchNormLayer: replace powx with sqr and sqrt
+Add CPU sqrt functions
+GPU BatchNormLayer: replace powx with mul and sqrt
+Add GPU sqrt functions
+Added support for python 3 and NCCL
+Bump boost version to 1.55 in CMake build
+remove redundant check in LSTMUnitLayer
+fixes pycaffe forward() and backward() behavior for nets whose layer names do not match respective tops
+Allow using env vars for glog init from python
+Log shape dimensions for eltwise layer shape mismatch
+Removed repeated import Layer, get_solver
+Add example and small blurb about sigmoid layer.
+Add main() for draw_net unittest, fix import errors
+Minor fix for net drawing script
+Add test for caffe.draw.draw_net()
+Add support for cuDNN v6
+Remove missed legacy parallel code
+Expose share_weights to python to allow running test nets
+[caffe][build] added ABS_TEST_DATA_DIR var.
+[caffe][build] added Atlas lapack Library name atllapack
+Clarify batch norm parameter documentation.
+sane h5df file type check for weights
+Added python 3 compatibility to cpp_lint.py
+Init test net on all GPUs, allows parallel inference
+Solver_add_nccl accepts any kind of Solver
+Removed some 'warning: extra ‘;’ [-Wpedantic]'
+Remove not used variable in base_conv_layer.cpp
+fix broken link to hinge loss
+version bump: rc5
+Add Pascal CUDA architectures to Makefile.config.example
+make: bump version to rc4
+Document switch to explicit flags for docker: cpu / gpu.
+docs: update install_apt_debian guide
+Remove sdk version from veclib searching path.
+parse_log.py was not using --verbose argument
+Restore can be invoked on rank > 0
+Update a comment in caffe.proto
+cmake: bump soversion to rc4
+Docker refresh: simplified & update to 16.04, cuda8, cudnn5, nccl
+copyright spans 2014-2017
+ignore generated includes for docs
+[build] remove trailing backslash on comment
+remove redundant operations in Crop layer (#5138)
+fixing upgrade_proto for BatchNorm layer: be more conservative leave "name" in param, only set lr_mult and decay_mult to zero
+Python 2/3 compatible download_model_binary.py
+minor typo
+Using default from proto for prefetch
+Python layers should build on multiprocess & solver_cnt; enable with bindings
+Python Multi-GPU
+Switched multi-GPU to NCCL
+Logging from python, e.g. for lower log level on multi-GPU workers
+docs: add some tables to debian install guide and misc update
+docs: update debian installation guide. Thanks to @lukeyeager for comments.
+Add Debian codenames and make link.
+Overhaul layer catalogue documentation.
+Typos in test_inner_product_layer.cpp
+Join path using "os.path.join" instead of "+"
+Use mkl_malloc when use mkl
+docs: add debian installation guide
+check leveldb iterator status for snappy format.
+fix wrongly used marker hash
+Add Pascal to all cuda architectures
+Add the missing period
+Make lint happy (> 80 characters)
+fix many typos by using codespell
+Revert "solver: check and set type to reconcile class and proto"
+fix error link
+Checks inside Xcode for latest OSX SDK (#4840)
+solver: check and set type to reconcile class and proto
+Add missing spaces besides equal signs in batch_norm_layer.cpp
+sigmoid cross-entropy loss: normalize loss by different schemes
+docs: include AWS AMI pointer
+docs: Guillaume Dumont is the Windows maintainer
+sigmoid cross-entropy loss: ignore selected targets by `ignore_label`
+support solver resumes in parse_log.py
+Put quotes around titles in YAML front matter.
+Add Github issue template to curb misuse.
+corrected typo in accuracy_layer.hpp: MaxTopBlos -> MaxTopBlobs
+add the missing star in comment
+sigmoid cross-entropy loss: add GPU forward for full GPU mode
+pytest fix: Files created with NamedTemporary files cannot be opened on Windows
+fix typo in pascal_multilabel_datalayers.py
+NV changed path to cudnn
+slightly relax batch norm check
+Ignore Visual Studio Code files.
+[TravisCI] google/protobuf renamed the 3.0 branch
+matcaffe: allow destruction of individual networks and solvers
+fix comments in matlab classification demo
+batch norm: auto-upgrade old layer definitions w/ param messages
+batch norm: hide statistics from solver, simplifying layer definition
+[docs] identify batch norm layer blobs
+[docs] note CUDA 8 requirement for Ubuntu 16.04
+[docs] clarify handling of bias and scaling by BiasLayer, ScaleLayer
+Avoids missing return values during build.
+Benchmarking should not impact perf until timer is read
+fix layerSetUp of scale_layer to not add bias blob when already present
+cmake/Templates: remove duplicated #cmakedefines from caffe_config.h.in
+cmake: add option to link with OpenMP
+net.cpp: do not include test/test_caffe_main.hpp
+cmake: refactor deps detection, specify all dependencies in the exported caffe target
+cmake/Templates: properly spell OpenCV CMake config file name
+cmake: fix usage of INCLUDE_DIR/INCLUDE_DIRS in Dependencies.cmake
+[TravisCI] - build protobuf3 GA
+changes "c++" to "C++" for consistency
+fixes typo- duplicate "a a"
+updates tense in docs
+make cmake find cuDNN on Mac OS
+[build] set default BLAS include for OS X 10.11
+Correct a mistake on math notation
+small improments in compute_image_mean
+Import bash completion script for caffe from Debian Package.
+num in blob is deprecated
+CMake: link with ${HDF5_HL_LIBRARIES}
+add in sudo make uninstall for cmake
+Stop setting cache timeout in TravisCI
+Add "set -e" and $@ to example scripts
+Support spaces in path when downloading ILSVRC12 and MNIST
+add test for top/bottom names
+improve top_names and bottom_names in pycaffe
+Support for spaces in directories when downloading cifar10
+Update parse_log.py
+add set_random_seed to the python interface
+Add phase support for draw net
+corrected rmsprop documentation
+add default value for rms_decay
+add tests for pycaffe's layer_dict
+add unit test for clear_param_diffs
+add clear_param_diffs to the python net interface
+add layer_dict to the python interface
+Exposing solver callbacks to python
+Add level and stages to pycaffe
+Add phase, level and stages to tools/caffe
+Add level and stages to Net constructor
+Exposing load_hdf5 and save_hdf5 to python
+Add LSTMLayer and LSTMUnitLayer, with tests
+Add RNNLayer, with tests
+Add RecurrentLayer: an abstract superclass for other recurrent layer types
+Cache protobuf3 build in TravisCI
+fix install path with GNUInstallDir support
+fix install path with GNUInstallDir support
+fix install path with GNUInstallDir support
+using GNUInstallDirs in root cmake file
+fix spelling error in memory_data_layer.cpp
+Check for non-empty ImageData filelist.
+Remove misleading comment from a test file
+Overhaul TravisCI
+convert non-uint8 dtypes to float; refs #2391
+handle image names with spaces
+Update supported cuDNN version in the documentation
+Update Dockerfile to cuDNN v5
+Add cuDNN v5 support, drop cuDNN v3 support
+add check for background and foreground window size > 0 in WindowData layer
+fixed typo in io.py
+a comment misses a space char
+[build] (CMake) customisable Caffe version/soversion
+Catch MDB_MAP_FULL errors from mdb_txn_commit
+Allow reshaping blobs to size 0.
+fix problems in net_surgery.ipynb
+add parameter layer for learning any bottom
+[build] note that `make clean` clears build and distribute dirs
+Reformat to fit in 79 columns
+Remove trailing spaces
+Exit on error and report argument error details.
+Add test for attribute "phase" in python layer
+Pin the base image version for the GPU Dockerfile
+fix grep in CUDA version detection to accomodate OSX's grep (and other grep that doesn't support \d extension)
+draw_net: accept prototxt without name
+Suppress boost registration warnings in pycaffe (Based on #3960)
+avoid non-integer array indices
+fixed typo in download script command cpp_classification
+Read the data as a binary
+Update MNIST example to use new DB classes
+Print to stderr for example LMDB code
+Don't set map_size=1TB in util/db_lmdb
+Explicitly point out -weights flag in tutorial
+Typo in docs/installation.md
+Allow the python layer have attribute "phase"
+CropLayer: groom comments
+[fix] CropLayer: check dimension bounds only for cropped dimensions
+[test] CropLayer: test dimensions check to reveal bounds checking bug
+[docs] install: include more lab tested hardware
+[docs] install: be more firm about compute capability >= 3.0
+[docs] install: include latest versions and platforms, highlight guides
+[docs] install: CUDA 7+ and cuDNN v4 compatible
+Solving issue with exp layer with base e
+Net: setting `propagate_down: true` forces backprop
+test_net.cpp: add TestForcePropagateDown
+avoid divide by zeros, suggested by SeanBell
+Use lazy initialization to reuse orderd dict/list creations to save time on repeated calls.
+small bug in pooling_layer.cu
+Update info about MKL licensing
+upgrading InfogainLoss layer: (1) incorporating Softmax layer to make the gradeint computation robust, much like SoftmaxWithLoss layer (see: http://stackoverflow.com/a/34917052/1714410 for more information). (2) supporting loss along axis
+Update Makefile: Changed MKL_DIR to MKLROOT
+[build] travis: remove existing conda dir
+split p2psync::run()
+Crop: more tests and test tuning.
+Crop: fixes, tests and negative axis indexing.
+Extend Crop to N-D, changed CropParameter.
+add CropLayer: crop blob to another blob's dimensions with offsets
+add check and find GPU device utilities
+[pycaffe] test coord_map
+[pycaffe] align coord_map and #3570 Crop layer
+[pycaffe] document, style, and complete coord_map
+[pycaffe] add coord_map.py for computing induced coordinate transform
+[travis] force protobuf 3.0.0b2 for Python 3
+Removed lint script reference to non-existant caffe_memcpy function.
+minor mistakes removed
+[example] groom multilabel notebook title, order
+- doc and cmake update MKL related
+refuse to upgrade net with layer/layers inconsistency
+fix input field -> input layer net upgrade: only convert full defs
+check all net upgrade conditions
+output all logging from upgrade net tools
+Finalized tutorial. Removed asyncronous layer.
+Refactor and improve code style.
+Added tutorial on how to use python datalayers and multilabel classification.
+Don't force datum.label=0 in array_to_datum
+NetSpec: allow setting blob names by string
+Use 'six' library to ensure python3 compliance. Use '//' instead of '/' for entire division.
+supporting N-D Blobs in Dropout layer Reshape
+fix flags in #3518 for nvidia-docker
+Add Dockerfiles for creating Caffe executable images.
+Deprecate ForwardPrefilled(), Forward(bottom, loss) in lieu of dropping
+[examples] switch examples + models to Input layers
+collect Net inputs from Input layers
+drop Net inputs + Forward with bottoms
+deprecate input fields and upgrade automagically
+add InputLayer for Net input
+CMake: Do not include "${PROJECT_BINARY_DIR}/include" with SYSTEM option
+[example] improve brewing logreg notebook
+[example] improve fine-tuning notebook
+[example] improve learning LeNet notebook
+[data] get_mnist.sh rewrite; prevents prompt in tutorial notebooks
+[example] improve classification notebook
+removing all references to Blob.num property (that assumes Blob is 4D). Replacing it with accessing Blob.shape[0] - for Blobs with num_axes() != 4
+fix library install name on OSX for relative path linking
+tranpose parameter added to IP layer to support tied weights in an autoencoder. Arguments to matrix multiplication function are conditioned on this parameter, no actual transposing takes place.
+Remove useless LevelDB include
+bugfix for incorrect behaviour in caffe_parse_linker_libs function while extracting libflags from absolute library path with multiple (dots)
+Nicely prints GPU names
+use relative paths on making build/tools/ links
+Remove incorrect cast of gemm int arg to Dtype in BiasLayer
+Make the two separate build systems clearer in the documentation
+Update mnist readme.md: scale moved to transform_param
+Remove unnecessary CAFFE_TEST_CUDA_PROP declarations
+Prevent in-place computation in ReshapeLayer and FlattenLayer
+Updated import to make it work with pydotplus
+show Caffe's version from MatCaffe
+Separation and generalization of ChannelwiseAffineLayer into BiasLayer and ScaleLayer.  The behavior of ChannelwiseAffineLayer can be reproduced by a ScaleLayer with `scale_param { bias_term: true }`.
+Version 1.0.0-rc3
+Add ChannelwiseAffine for batch norm
+copy proto to distribute directory
+Add makefile config option for linking Python 3 libraries
+add register Net and Solver
+Workaround for inplace max pooling issue
+fixbug #issues/3494 No to_python (by-value) converter found for C++ type: boost::shared_ptr<caffe::Blob<float> >
+Performance related update of im2col() and col2im() functions
+CMake python version fix
+Speeding up the GPU solvers
+Exposing layer top and bottom names to python
+TestDataTransformer: fix some memory leaks caused by use of 'new'
+remove extra space before +
+enable dilated deconvolution
+add short description of dilation to caffe.proto
+disable dilated deconvolution
+add and improve tests for dilated convolution/im2col
+add support for N-D dilated convolution
+add support for 2D dilated convolution
+Replace blobs_lr with lr_mult in readme.md.
+Update interfaces.md
+ELU layer with basic tests
+Correct type of device_id; disambiguate shared_ptr
+sigmoid fix (cpp)
+sigmoid fix (cu)
+Remove hamming_distance and popcount
+dismantle layer headers
+Secure temporary file creation
+Secure implementation of MakeTempDir
+Remove bogus stepearly in MNIST example
+replace snprintf with a C++98 equivalent
+Scope macros inside switch
+Better normalization options for SoftmaxWithLoss layer.
+Exclude core.hpp when building without OpenCV
+Function must return a value
+Convert std::max args to Dtype
+Skip python layer tests if WITH_PYTHON_LAYER unset
+Display and store cuDNN version numbers during cmake.
+Add parentheses to backward_{cpu,gpu} method.
+Make backward pass work when global stats is active for BatchNormLayer including minor code cleaning
+Update computation of variance and global stats in BatchNormLayer
+Functions shall return a value in syncedmem
+Remove un-necessary includes
+fix a bug that time duration may be 0 when downloading model binary
+OSX 10.10 (and more) use Accelerate Framework instead of veclib
+Replace unistd functions with cross platform counterparts
+Switched order of two layers for simpler diff with untuned file
+display 'ignore source layer' when initializing from existing parameters
+GetDB must return a value
+Add a -c to wget so that it continues interrupted downloads
+Don't attempt to write CSV if there are no lines to write
+Correct transposition & channel_swap in deprocess
+remove dead cpp code for number of CUDA threads
+[style] fix whitespace in travis_install.sh
+[travis] fix boost/python3 conda conflict
+TravisCI: wget cmake with --no-check-certificate
+fix detect.py (invalid model path)
+Update plot_training_log.py.example
+CuDNNConvolutionLayer accumulate gradients
+cuDNN: only log conv workspace in debug mode
+Add opencv_imgcodecs to library path in Makefile
+diff.ndim != 4 is outdated
+Cleanup batch norm layer, include global stats computation
+Added batch normalization layer with test and examples
+Clean redundant/unnecessary headers
+Move HDF5 defines to data_layers header
+Endorse CMP0046, CMP0054
+[test] drop bogus OpenCV guard for layer type
+[docs] cuDNN v3 compatible
+installation questions -> caffe-users
+Qualify messages issued by CMake when CUDA is unavailable
+Moved the loop inside PReLUParamBackward to do the reduction inside the kernel Now PReLU backward is taking the same time as forward
+clean up logging for Net init
+Update examples and docs
+Add automatic upgrade for solver type
+Change solver type to string and provide solver registry
+Split solver code into one file per solver class
+Test reading and writing mean proto in matlab
+rearrange upgrade helpers
+Initial cuDNN v3 support
+Allow old-style shape in blobproto_to_array
+Set CaffeNet train_val test mirroring to false
+Add pyyaml as a requirement
+Update store2hdf5.m
+In 00-classification example, get correct class label index
+Improve numerical stability of variance computation in MVNLayer
+Remove the 4D constraint of blobproto IO in python
+BatchReindexLayer to shuffle, subsample, and replicate examples in a batch
+fixes BVLC/caffe#3163
+NetSpec: type-check Function inputs (they must be Top instances)
+Add pycaffe test for solver.snapshot()
+SilenceLayer Backward bugfix (fixes #3151)
+minor typo fix
+Add a caffe.io.write_mean function to the MATLAB interface
+add badge for travis build and license
+Install libs as non-executable files
+Add ALLOW_LMDB_NOLOCK build option
+Re-ordering some lines in build files
+Add flag on how host memory is allocated
+Implement ArgMaxLayerTest for axis param
+Generalise ArgMaxLayerTest bottom blob shape
+Update ArgMaxLayer documentation for axis param
+Implement ArgMaxLayer forward_cpu and reshape for axis param
+Add argmax_param axis
+Modify HDF5DataLayerTest to test H5T_INTEGER data
+Allow H5T_INTEGER in HDF5 files
+[test] TestReshape: check that shapes actually change
+[test] TestReshape: expect instead of check
+[test] TestReshape: check small then large
+fix broken conv/deconv reshaping caused by reading bottom shape in LayerSetUp
+fix broken DeconvolutionLayer GPU backward caused by typo
+[tools] add Python script for at-a-glance prototxt summary
+[build] check xcode command line tools version >= 6
+mark const im2col + col2im terms
+harmonize the im2col_{cpu,gpu} assignment
+clarify im2col + col2im var names
+Im2col and Convolution layers support N spatial axes
+Blob: add SyncedMemory shape accessor for GPU shape access
+caffe.proto: generalize ConvolutionParameter to N spatial axes
+refine format of switch case in solver
+Expose `Snapshot` to pycaffe
+[build] include IO dependencies by default
+Add a comment indicating that Travis CI tests are CPU only
+Separate IO dependencies
+Get back 'USE CPU' print for caffe train
+removed bug in caffe.io.resize_image when applied to Nd images
+Check that the snapshot directory is writeable before starting training
+Use EXPECT_NEAR in EltwiseLayer test
+Minor: missing space in string formatting
+disallow PythonLayer in Multi-GPU training
+enabling the alternate solvers to be accessed by the python interface
+Update extract_features.cpp
+NetSpec: don't require lists to specify single-element repeated fields
+net.cpp fix debug_info params -> learnable_params
+Net: expose param_display_names_
+ConcatLayer: allow trivial operation with single bottom Blob
+SliceLayer: allow trivial operation with single top Blob
+Show output from convert_imageset tool
+Compute backward for negative lr_mult
+fix GPU data race
+Add extra openblas search path
+No need to squeeze the output of the network
+Draw Deconvolution layers like Convolution layers
+MVNLayer fixes.
+TileLayer: add CUDA kernels
+Add TileLayer
+Python parameter test added
+Allow the python layer have weight/parameter blobs.
+bugfix for ConcatLayer with propagate_down set
+TestConcatLayer: add gradient check for bottom[1] only (to verify propagate_down[0] == false correctness)
+Output accuracies per class.
+Add signal handler and early exit/snapshot to Solver.
+remove superfluous code in Net::ToProto
+[examples] fix link to feature visualization notebook
+Use input_shape instead of input_dim in examples
+DeconvolutionLayer Backward_gpu fix: don't redo im2col
+Expose LayerFactory::LayerTypeList in pycaffe
+In BasePrefetchingDataLayer::Forward_cpu hanged top[0]->Reshape to top[0]->ReshapeLike, in line with other calls.
+Add information about how to get GPU topology from nvidia-smi
+Add some documentation on Multi-GPU support
+Malloc at least 1 byte for MultiGPU P2PSync buffers
+New make target to only build the library.
+[net] improve net config and shape mismatch error messages
+Exposing blob loss weight to python
+Make classification.bin support models with less than 5 classes
+Malloc at least one byte in Parallel
+Cite Adam paper in solver.hpp
+Adam solver
+Destroy CUDA stream when finished
+information about new implemented solvers
+fixing the database param
+Apply mutex only to shared layers and fix NVCC warning
+Data Layers Parallel for Multi-GPU
+fix for learnable_param_ids_
+Update net_spec.py
+Clean up and modernize AdaDelta code; add learning rate support; add additional test cases
+Updated AdaDelta for modern Caffe; reduced iterations on multi-iter tests
+Implement AdaDelta; add test cases; add mnist examples
+[docs] add multi-gpu usage note to interfaces
+Detect topology corner cases and improve broadcast order
+Multi-GPU
+Allocate host memory through cudaMallocHost
+Add DataReader for parallel training with one DB session
+Persistent prefetch thread
+Change the way threads are started and stopped
+Thread-local Caffe
+Add BlockingQueue for inter-thread communication
+from __future__ imports must occur at the beginning of the file
+Use net_->learnable_params() instead of net_->params() in RMSprop
+Encapsulate kRMSDecay in solver tests
+Implement RMSProp Solver
+TestGradientBasedSolver: replace dummy data with hdf5
+TestGradientBasedSolver: drop doubled seed inititialization
+EmbedBackward with no loops -- use caffe_gpu_atomic_add instead
+Add EmbedLayer for inner products with sparse input (one-hot vectors), with unit tests
+test_gradient_check_util: check_bottom < -1 only checks params
+Add gpu_util.cuh, with caffe_gpu_atomic_add
+temporarily switch the snapshot_format default back to BINARYPROTO
+Net: add learnable_params_ used by solvers to correctly handle shared params
+TestGradientBasedSolver: make tests across solver types more consistent
+TestGradientBasedSolver: restore Gaussian filler to all tests except accumulation one
+Update example bash scripts to expect .h5, new extensions in .gitignore
+TestSnapshot expects .h5 snapshots, explicitly checks history.
+Snapshot model weights/solver state to HDF5 files.
+pycaffe: add shape accessor
+TestGradientBasedSolver: add TestSnapshot to verify behavior when restoring net/solver from snapshot
+add double_data, double_diff to BlobProto for weights/snapshots saved when using Dtype == double
+add [] to "delete pixels".
+PythonLayer takes parameters by string
+[pytest] open exception file with mode for python3
+[pycaffe,build] include Python first in caffe tool
+ImageData layer default batch size of 1, and check for zero batch size
+Change log levels in upgrade_proto
+[docs] add CONTRIBUTING.md which will appear on GitHub new Issue/PR pages
+[docs] fix contrastive loss eq
+[docs] fix lmdb fetch url and path
+[docs] clear up PYTHONPATH confusion
+[pytest] simple test of top-less layers
+[pycaffe] net spec layers can have ntop=0
+[pycaffe] allow layers to have names different from their first tops
+[pycaffe] add Top._to_proto convenience function
+[pycaffe] use a Counter instead of a dict for counting net spec names
+[pycaffe] remove dead code
+[docs] set lmdb url to github mirror
+[docs] matlab 2015a compatible
+Travis scripts for python3 and pytest for cmake. Also fixes CUDA CMake build issue #2722.
+[examples] fix link to point to new tutorial notebook
+tiny fix in Layer::Backward documentation
+Update net_layer_blob.md
+examples/imagenet: fix broken link
+Removes a unused variable warning
+One command less
+Making the net_spec python3 compatible
+List protobuf-compiler dependency in the correct place (it is in the package managers for both 14.04 and 12.04)
+Deprecated OpenCV consts
+Optimize inner product layer for special case M == 1
+Update installation docs for boost - close #2454
+bilinear filler -- useful for interpolation with DeconvolutionLayer
+[examples] add Euclidean loss PythonLayer
+[examples] sequence and revise notebooks
+[examples] flickr fine-tuning notebook
+[examples] draft Python solving example
+[pytest] minimal testing of net specification
+[examples] caffenet python spec
+[pycaffe] basic net specification
+copyright 2015
+fixed _force_color check, fixes #2635
+Update parse_log.py
+register a dummy reducer to prevent mincepie runtime error
+fixed two bugs with prototext format
+typo: "a fixed steps" to "at fixed steps"
+[docs] drop out-of-date reference to dev branch
+Small platform-specific bugfix for draw.py
+Split db.hpp into leveldb_db.hpp and lmdb_db.hpp
+LogLayer gpu functionality moved to .cu file
+[bug] fix double instantiation of GPU methods in LogLayer
+Add ReductionLayer to reduce any number of "tail" axes to a scalar value
+FlattenLayer gets a FlattenParameter with an axis, end_axis
+Add LogLayer
+FilterLayer cleanup and bugfix for GPU backward
+Filter Layer implemented
+Remove unnecessary filler parameter in the sample model
+PReLU accumulates grad
+[travis] install lmdb through git mirror
+Update ilsvrc_2012_mean.mat to W x H x C, update demo and add comments
+Add a simple C++ classification example
+[example] fix path for diff in net surgery
+More tests for Blob, Layer, copy_from and step, fix some typos
+Move demo to demo/ and check weights file existence
+Clean up old matcaffe wrapper and rename caffe.reset to caffe.reset_all
+Add MatCaffe docs to docs/tutorial/interfaces.md
+Aesthetic changes on code style and some minor fix
+MatCaffe3 : a powerful matlab interface for caffe
+directly normalize accumulated gradients
+test equivalence of solving with accumulating gradients
+python/draw_net.py and python/caffe/draw.py: Simplified code; added more docstrings; adjusted code according to PEP8
+adjust local learning rate and decay according to gradient accumulation
+accumulate gradients in cudnn conv layer
+accumulate gradients in (de)conv layers
+accumulate gradients in inner product layer
+zero-init param diffs in gradient checker
+zero-init param diffs and accumulate gradients
+Solver::MakeUpdate() -> Solver::ApplyUpdate
+fix the bug with db_type when the number of features to be extracted is larger than 1
+deduplicate decay and local rate in solver updates
+Refactor solvers regularization and logging code
+add leading zeros to keys in feature DB files
+Make class MultinomialLogisticLossLayerTest derive from CPUDeviceTest
+Make class CuDNNSoftmaxLayerTest derive from GPUDeviceTest
+Make class DummyDataLayerTest derive from CPUDeviceTest
+Make class CuDNNPoolingLayerTest derive from GPUDeviceTest
+Make class CuDNNConvolutionLayerTest derive from GPUDeviceTest
+Make class ArgMaxLayerTest derive from CPUDeviceTest
+Make class CuDNNNeuronLayerTest derive from GPUDeviceTest
+Make class AccuracyLayerTest derive from CPUDeviceTest
+Make class Im2colKernelTest derive from GPUDeviceTest
+Add classes GPUDeviceTest and CPUDeviceTest.
+Split class StochasticPoolingLayerTest into CPUStochasticPoolingLayerTest and GPUStochasticPoolingLayerTest
+include comment on Saxe and sqrt(2) scaling factor
+Added MSRAFiller, an Xavier-like filler designed for use with ReLUs
+Split class MathFunctionsTest into CPUMathFunctionsTest and GPUMathFunctionsTest
+Refactor types FloatCPU and DoubleCPU into a new type CPUDevice<T>
+Update python/requirements.txt to have ipython>=3.0.0
+more const in LRN layer CUDA kernels
+more const in pooling layer CUDA kernels
+avoid dangerous state in LRN layer CUDA kernels
+avoid dangerous state in pooling layer CUDA kernels
+fix typos in docs
+Update IPython Notebooks to version 4
+fix blob_loss_weights index in test() in caffe.cpp
+clean up redundant message comments
+minor fix in cmake.config generation - do not force client libs to include numpy include dirs
+Python: Formatted docstrings to numpydoc (Take, Give -> Parameters, Returns)
+Remove unnecessary variance computation from backward in MVN layer
+Added "propagate_down" param to LayerParameter
+[pytest] check that Python receives (correct) exceptions from Python layers
+print Python exceptions when using Python layer with the caffe tool
+[pycaffe] correct exceptions from Python; remove PyErr_Print
+Update generate_sample_data.py
+Update docs for ND blobs (#1970) and layer type is a string (#1694)
+Add ReshapeParameter axis and num_axes to reshape only a particular span of the input shape
+basic tests (Forward, Gradient) for ReshapeLayer
+ReshapeLayer fixups for ND blobs
+Added a Reshape layer for copying-free modification of blob dimensions.
+Spatial Pyramid Pooling Layer
+remove bogus implementation of SigmoidCrossEntropyLossLayer::Forward_gpu
+remove superfluous empty destructors
+[pycaffe] use bp::object instead of PyObject* for self in Python layer
+python: PEP8; changed docstring documentation style to NumPyDoc style
+This imports the wrong io module in Python 3.
+check that count_ does not overflow in Blob::Reshape
+Modify for better readability regarding temporary bufffer for backward computation
+Added support for original implementation, using (margin - d^2), through the legacy_version parameter.
+Makefile bugfix: OTHER_BUILD_DIR name set incorrectly when empty due to lazy variable expansion when using the `?=` operator -- change them to explicit empty string checks with simple assignment operator `:=`.
+Correct the REPO_DIRNAME
+minor cmake fix - now Caffe complains when cmake is executed if glog/gflags are not found.
+Net::Update: CPU_ONLY is in wrong place
+fix a typo that GFLAGS_GFLAGS_H_ -> GFLAGS_GFAGS_H_
+fix typo: swap the titles of xlabel and ylabel
+clarify Makefile.config check
+Improvements to python log parser
+added epsilon to prevent possible division by zero in gradient calculation
+Abort Makefile parsing if the configuration file cannot be found.
+set default DISTRIBUTE_DIR -- fix #2328
+improved installation for osx
+Simplify image_data_layer reshapes by letting data_transformer do the job.
+Simplify data_layer reshapes and encodings by letting data_transformer do the job.
+Added InferBlobShape to data_transformer.
+Allow Transform of encoded datum. Allow initialize transformed_blob from datum or transform params. Allow force_color and force_gray as transform params.
+Changing Image import to be imported from PIL.
+Update generate_sample_data.py
+[docs] switch lmdb url for manual install, tweak formatting
+Add commented out helpers for homebrew users
+Build gflags and glog through CMake if not found in the system
+Check if CPU_ONLY is set when determining CUDA version
+Fallback to different cuDNN algorithm when under memory pressure
+Downgrade Pillow pip requirement
+Add note in example about installing scikit-learn
+Remove scikit-learn dependency
+note cuDNN v2 convolutional TODOs
+cuDNN pooling can pad now
+replace cuDNN alphas and betas with coefficient values
+switch to cuDNN R2
+Typos in documents
+remove spurious net.hpp includes
+always call Layer::Reshape in Layer::Forward
+CUDA kernels for {Slice,Concat}Layer
+change resorce to resource
+improved to load RGB image as grayscale image
+HDF5DataLayer: remove redundant shuffle
+HDF5DataLayer shuffle: minor cleanup; clarification in HDF5DataParameter
+shuffle data
+[docs] Remove `--fresh` Homebrew option
+[docs] Add missing command in OS X installation guide
+PReLU Layer and its tests
+[docs] open release of BVLC models for unrestricted use
+Remove Gist from BVLC GoogleNet
+AccuracyLayerTest: add tests for ignore_label and spatial axes
+AccuracyLayer: add ignore_label param
+[example] pycaffe classification downloads the model automatically
+Increment iter_ before snapshotting, remove +1 logic -- fixes final snapshot being off by one
+SoftmaxLossLayer fix: canonicalize input axis
+[example] warm-start web demo
+[example] revise hdf5 classification
+[example] revise net surgery + add designer filters
+[example] revise filter visualization
+[pycaffe] align web demo with #1728 and #1902
+[pycaffe] classifier + detector only have one input
+[pycaffe] fix CPU / GPU switch in example scripts
+[pycaffe] make classify.py print input + output file paths
+[pycaffe] no need to squeeze output after #1970
+extract_features preserves feature shape
+Load weights from multiple caffemodels.
+whitespace in common.hpp
+comment grammar in net.cpp
+Update leveldb include variable name to match FindLevelDB.cmake
+Update readme.md
+Making python layer work with cmake
+fix #1506
+Adding correct hdf5 path
+[docs] include boost-python in OSX pycaffe install
+[pycaffe] add missing import sys
+expose Solver::Restore() as public and Solver.restore() in pycaffe
+[pycaffe] check mean channels for transformation
+include/caffe/common.hpp: add <climits> for INT_MAX (now in blob.hpp)
+fix comment I forgot about from @shelhamer's review of #1970
+Add error checking for image mean
+[pytest] use non-4d blobs in test_python_layer
+[pycaffe] expose Blob.reshape as *args function
+Add option not to reshape to Blob::FromProto; use when loading Blobs from saved NetParameter
+PyBlobs support generalized axes
+Add CHECK_EQ(4, ...)s to "vision layers" to enforce that the num/channnels/height/width indexing is valid.
+DummyDataLayer outputs blobs of arbitrary shape
+EuclideanLossLayer: generalized Blob axes
+WindowDataLayer outputs 1D labels
+ImageDataLayer outputs 1D labels
+MemoryDataLayer outputs 1D labels
+DataLayer outputs 1D labels
+HDF5DataLayer shapes output according to HDF5 shape
+SplitLayer: change Reshape(n,h,c,w) to ReshapeLike(...)
+SoftmaxLossLayer generalized like SoftmaxLayer
+CuDNNSoftmaxLayer: generalized Blob axes
+SoftmaxLayer: generalized Blob axes
+SliceLayer: generalized Blob axes
+ConcatLayer: generalized Blob axes
+TestConcatLayer: add forward/gradient tests for concatenation along num
+TestConcatLayer: fix style errors
+common_layers.hpp: remove unused "Blob col_bob_"
+FlattenLayer: generalized Blob axes
+EltwiseLayer need not assume old 4D dim names
+Test{Net,Solver} fixes for AccuracyLayer generalization
+AccuracyLayer generalized to N instance axes
+AccuracyLayer output is 0D (scalar)
+LossLayer output is 0D (scalar)
+ConvLayer biases are 1D
+InnerProductLayer can multiply along any axis
+InnerProductLayer weights are 2D; biases are 1D
+TestBlob: test that legacy BlobProtos are correctly handled by ShapeEquals
+add offset, {data,diff}_at nd blob accessors
+Add BlobShape message; use for Net input shapes
+Blobs are ND arrays (for N not necessarily equals 4).
+Added Pillow to requirements.txt
+Small fix (visualization) on SLICE layer's documentation
+Makefile fix for OS X 10.10
+Replaced illegal tab in Makefile with spaces.
+fixed matcaffe printout to specify num of args (now including train/test phase)
+Decoding the datum before feeding it into the reshaping data layer
+Making python3 work with cmake and the new python wrapper
+APPLE was misspelled. in Line 27
+cpp_lint.py fails silently with Python3 (which is the default on some systems). This commit specifies Python2 with which cpp_lint.py works :-)
+minor cmake sumamry log fix
+fixed bug in install-tree: _caffe.so installed by install(TARGET ...) was overwritten with symlink created at build time and installed with install(DIRECTORY ...)
+set proper CMAKE_INSTALL_RPATH for _caffe.so and tools
+ignore pycharm files
+check caffe tool runs in runtest
+Bounds checks for cross-channel LRN.
+Add failing tests for LRNLayer due to large local region
+[build] fix dynamic linking of tools
+Updated the path for get_ilsvrc_aux.sh to match what is found in the current project
+Correct 'epochs' to 'iterations'
+Brief explanation of SLICE layer's attributes
+[docs] add check mode hint to CPU-only mode error
+[docs] send API link to class list
+[build] fix rpath for examples
+Repeal revert of #1878
+[docs] add gitter chat badge
+added a force_encoded_color flag to the data layer. Printing a warning if images of different channel dimensions are encoded together
+relax MemoryData transform check to warning
+[pycaffe] switch examples to Transformer
+[pycaffe] take pre-processing from Net and give to Transformer
+[pycaffe] import newline cleanup
+Changing CMAKE_SOURCE/BINARY_DIR to PROJECT_SOURCE/BINARY_DIR
+comment fix: Decaf -> Caffe
+[pycaffe] fix bug in Python layer setup
+[matcaffe] give phase to Net
+[pycaffe] give phase to Net
+tools make net with phase
+construct Net from file and phase
+no phase for the solver to orchestrate
+pass phase to transformer through layer
+give phase to Net and Layer
+[make] link libcaffe.so before dependencies
+[docs] explain one true branch and dev workflow
+[docs] update and split installation
+switch to V2 proto definitions for pytest
+[travis] enable Python layer for testing
+except PythonLayer from layer factory test
+add WITH_PYTHON_LAYER build option to include Python layer
+[pytest] basic test of Python layer
+[pytest] test that get_solver runs
+[pycaffe] allow Layer to be extended from Python
+LayerRegistry uses shared_ptr instead of raw pointers
+[pycaffe] re-expose SGDSolver, and expose other solvers
+[pycaffe] re-expose Layer
+[pycaffe] re-expose Blob
+[pycaffe] re-expose Net
+[pycaffe] expose global ("Caffe::") functions
+[pycaffe] strike down wrappers, momentarily gut all functionality
+[pycaffe] enable numpy API deprecation warnings
+[docs] groom index and zoo for highlights
+[docs] Caffe is by the BVLC, created by Yangqing, and brewed by Evan
+[docs] include caffeine favicon for site
+only dynamically link the tests
+dynamic linking
+[docs] README dispatch
+[docs] note new CMake build
+cmake 2.8.7. support
+[travis] proper cmake params
+opencv 3.0 compilation (replace #1714)
+improve CMake build
+ignore qtcreator files
+Cleaning up the encoded flag. Allowing any image (cropped or gray scale) to be encoded. Allowing for a change in encoded (jpg -> png vice versa) and cleaning up some unused functions.
+test reshaping DATA and IMAGE_DATA
+reshape DATA + IMAGE_DATA for inputs of varying dimension
+Correct 'epochs' to 'iterations'
+BlobMathTest: fixes for numerical precision issues
+Add gradient clipping -- limit L2 norm of parameter gradients
+add Net::param_owners accessor for param sharing info
+Blob: add scale_{data,diff} methods and tests
+SoftmaxWithLossLayer fix: takes exactly 2 bottom blobs (inherited from LossLayer)
+HDF5_DATA + MEMORY_DATA refuse loudly to transform
+Allow using arrays with n_ * size_ > 2^31
+groom #1416
+removed needs_reshape_ and ChangeBatchSize is now set_batch_size
+small fixes
+MemoryDataLayer now correctly consumes batch_size elements
+MemoryDataLayer now accepts dynamic batch_size
+Added opencv vector<Mat> to memory data layer with tests
+Added GPU implementation of SoftmaxWithLossLayer.
+reduce step size in PowerLayer gradient checks: fix #1252
+build with libc++ on Yosmite with CUDA 7
+fix for layer-type-str: loss_param and DECONVOLUTION type should have been included in V1LayerParameter, get upgraded
+die on inputs to IMAGE_DATA that fail to load
+Upgrade existing nets using upgrade_net_proto_text tool
+start layer parameter field IDs at 100
+get rid of NetParameterPrettyPrint as layer is now after inputs (whoohoo)
+add message ParamSpec to replace param name, blobs_lr, weight_decay, ...
+add test that all V1 layer type enum values upgrade to valid V2 string types
+add v1 to v2 upgrade tests
+restore test_upgrade_proto to dev version
+automagic upgrade for v1->v2
+restore upgrade_proto
+'layers' -> 'layer'
+Add unit test for LayerRegistry::CreateLayer
+DataLayer and HDF5OutputLayer can be constructed and destroyed without errors
+Layer type is a string
+fix Nesterov typo found by @bamos
+fixed small bug: output label_file -> label_filename
+add space after "Loading mean file from"
+fix GoogLeNet license overwritten by back-merge (see #1650)
+lint 1f7c3de
+Brief explanation of SLICE layer's attributes
+debug_info in NetParameter so it can be enabled outside training
+debug_info: print param (and gradient) stats for whole Net after Backward
+Add BlobMathTest with unit tests for sumsq and asum
+Blob: add sumsq_{data,diff} methods
+Enhancements for debug_info to display more information.
+[docs] add check mode hint to CPU-only mode error
+[docs] send API link to class list
+[test] gradient checks for softmax ignore_label and normalize: false
+document the loss_param options to SoftmaxWithLossLayer
+[test] simple test for DeconvolutionLayer
+document DeconvolutionLayer
+[pycaffe] de-dupe imports
+[example] lenet early stopping -> mnist examples
+[docs] ask install + hardware questions on caffe-users
+clarify draw_net.py usage: net prototxt, not caffemodel
+drop dump_network tool
+[fix] align pytest for solver with #1728
+fix bugs by adding const
+hdf5_save_nd_dataset takes a const string& (instead of const string)
+SoftmaxWithLossLayer: use CreateLayer so that a CuDNNSoftmaxLayer is created if available
+Back-merge fixes + docs
+Unroll kernels in SoftmaxLayer...from terrible performance to mediocre performance.
+SetTotalBytesLimit to the max (2 GB minus 1 byte)
+gut dataset wrappers
+test db wrappers
+use db wrappers
+add db wrappers
+Updated doc to suggest boost 1.57
+Matlab demo for Caffe-compatible HDF5 read/write
+Make comments for sparse GaussianFiller match actual behavior
+Update interfaces.md file
+[docs] OpenCV version >= 2.4
+check for enough args to convert_imageset
+lint internal thread
+support OS X Yosemite / 10.10
+set mode, phase, device in pycaffe; fix #1700
+Message: Please ask usage questions and how to model different tasks on the caffe-users mailing list
+add DeconvolutionLayer, using BaseConvolutionLayer
+rewrite ConvolutionLayer to use BaseConvolutionLayer helpers
+add CPU_ONLY ifdef guards to BaseConvolutionLayer
+add BaseConvolutionLayer
+[build] specify RPATH using $ORIGIN
+[build] more meaningful messages for link commands
+fix typo in layer_factory.cpp
+improve const-ness of Net
+BVLC models are for unrestricted use (follow-up to #1650)
+[pycaffe] basic, partial testing of Net and SGDSolver
+[travis] run pytest
+[travis] remove unneeded Makefile.config sed hacking
+add "make pytest" for running Python tests
+[pycaffe] expose SGDSolver.step
+break out Step from Solver
+clean up formatting in SoftmaxLossLayer
+add spatial normalization option to SoftmaxLossLayer
+add missing value support to SoftmaxLossLayer
+fixed resize_image for the case of constant images
+[tests] don't use Gaussian labels in NetTest's TinyNet
+don't do runtest as part of 'make everything'
+only build matcaffe as part of 'make everything' if MATLAB_DIR is set
+remove SoftmaxLossLayer CPU_ONLY stubs, since there is no GPU version
+move softmax loss GPU todo comment to header file
+[docs] open release of BVLC models for unrestricted use
+[docs] groom model zoo intro + list
+[scripts] fix find warnings in upload_model_to_gist.sh
+Better instructions for updating Homebrew after modifying formulae
+remove unused GetLayer function (replaced by LayerRegistry::CreateLayer)
+pretty the build with the Q variable
+automatic dependency generation
+update use of GetLayer -> LayerRegistry::CreateLayer
+switch cifar10 example to lmdb
+Warning of fallback only the first time for cudnn_pooling_layer
+Added credits and bvlc_googlenet to model_zoo.md
+Added credits for training bvlc models
+Added bvlc_googlenet prototxt and weights
+Adapt lenet_multistep_solver.prototxt to current solvers
+Added Multistep, Poly and Sigmoid learning rate decay policies
+Display averaged loss over the last several iterations
+Added credits and bvlc_googlenet to model_zoo.md
+Added credits for training bvlc models
+Added bvlc_googlenet prototxt and weights
+Use valid MathJax delimiters.
+Add CHECKs to prevent segfault for incorrect IMAGE_DATA layers.
+check host malloc result
+move cuda output from build/.../.cuo -> build/cuda/.../.o
+automatic discovery of source directories
+consolidate build rules for object files
+remove extra blank line
+Check input line count in HDF5 data layer
+Improvements to network drawing
+Store data in lists of dicts and use csv package
+Take train loss from `Iteration N, loss = X` lines
+Created parse_log.py, competitor to parse_log.sh
+clarify #endif comment
+compile for compute capability 5.0
+Update mean file help
+Better instructions for updating Homebrew after modifying formulae
+remove redundant code in ConvolutionLayer::Reshape
+use DCHECK in SoftmaxLossLayer so that bounds checking has no perf penalty without DEBUG
+in SoftmaxLossLayer, check label >= 0 in addition to upper bound
+fixed tanh to not return NaN for input values outside the range [-40, 40]
+Update python requirements.txt
+fixed filename in build_docs.sh
+fix relu cudnn test bug
+relax benchmark milliseconds threshold
+clean incorrect relu test code
+Prevent Matlab on OS X from crashing on error
+documentation bug
+Minor whitespace fix in logging message in HDF5 output layer
+make release, debug build dirs configurable in Makefile
+groom ignore
+Forward declare boost::thread instead of including boost/thread.hpp in internal_thread.hpp.
+Update data_transformer.hpp
+[docs] re-title docs, count forks
+[docs] BVLC Caffe acknowledgements
+[docs] cite the arXiv paper
+include opencv only in .cpp
+define gradient at zero to be zero
+Remove TIMING from ForwardBackward
+LMDB doesn't support many concurrent read-only transactions, so this preallocates one read-only transaction and reuses it.  It's very important that iterations are considered invalid after a commit has been performed.
+back-merge
+Edit boost-python formula
+Sometimes anaconda is installed in root.
+Adapt lenet_multistep_solver.prototxt to current solvers
+Added CPUTimer Make timing more precise using double and microseconds
+Upgrade compute_image_mean to use gflags, accept list_of_images, and print mean_values
+Change caffe time to do forward/backward and accumulate time per layer
+Added cache_images to WindowDataLayer Added root_folder to WindowDataLayer to locate images
+Speed up WindowDataLayer and add mean_values
+Add root_folder to ImageDataLayer
+Add fast code for transform(cv::Mat,Blob)
+Added timers for benchmarking
+Added test for encoded Datum to test_io.cpp
+Added encoded datum to io
+Added encoded option and check_size to convert_imageset
+Added first_key and last_key to dataset
+[docs] proofreading suggested by @cNikolaou
+Reintroduce pkg-config with optional Makefile.config flag.
+Reworked the Coder interface such that a Dataset now has both user-definable KCoder and VCoder which default to a set of DefaultCoder's based on types K and V.  Reworked the DefaultCoder's such that if none are available, a static assertion fails with a relevant message.
+Had forgotten to set some of the Dataset test cases to LMDB backend.
+Renamed Database interface to Dataset.
+Templated the key and value types for the Database interface.  The Database is now responsible for serialization.  Refactored the tests so that they reuse the same code for each value type and backend configuration.
+Switched some Database logging statements from LOG to DLOG.
+Changed Database::buffer_t to Database::key_type and Database::value_type
+The LevelDB iterator/DB deallocation order bug is pretty much fixed by having each iterator hold a shared pointer to the DB.  I manually specified a deconstructor for the LeveldbState to make it clear what order these two things need to be deallocated in.
+Updated Database interface to take key and value by const reference for put and key by const reference for put.  Additional copies are made for get and put in the LMDB implementation.
+Updated Database interface so that rather than CHECKing for certain conditions inside open, put, get, and commit, these functions return a bool indicating whether or not the operation was successful or a failure.  This means the caller is now responsible for error checking.
+Added some tests for the Database iterator interface.  Updated the post-increment operator so that it forks off a copy of the LevelDB or LMDB iterator/cursor when necessary.  Neither of these APIs allow you to directly copy an iterator or cursor, so I create a new iterator and seek to the key that the previous one was currently on.  This means the pre-increment operator can be much cheaper than the post-increment operator.
+Added a couple of sanity checks to make sure the datum buffer sizes matched what we expected.
+Updated Database interface to use custom KV type rather than std::pair.  Removed two buffer copies in dereference operation for DB iterators.
+Updated extract_features to take a leveldb/lmdb config option.
+Switched create_cifar10.sh output from leveldb to lmdb.
+Updated cifar10 build script to specify db backend.
+data layer test was relying on the autocommit on close db behavior that was recently removed.
+Don't autocommit on close for the databases.  If they were read-only, then they might fail.
+Updated interface to make fewer string copies.
+Some cleanup to make travis happy.
+Refactored leveldb and lmdb code.
+some namespace cleaning.
+Revert "OpenCV should be compiled using pkg-config options." -- breaks compilation on working systems
+[examples] fix reference model name for flickr fine-tuning
+move registration code to corresponding cpp files.
+some namespace simplification
+fix flaky math functions, remove unnecessary instantiations.
+fix flaky test EXPECT_EQ code, using EXPECT_FLOAT_NEAR per Jeff
+Added version dependent test for IMREAD_COLOR.
+OpenCV should be compiled using pkg-config options.
+Minor fixes.  (1) cudnn.hpp uses CHECK_EQ internally, so it needs to include glog at some point.  Including caffe/common.hpp.  (2) I often misconfigure some layer and softmax breaks when the dimensionality is too small for the input layers.  Check and fail fast.  (3) CV_LOAD_IMAGE_COLOR is deprecated and has been removed in OpenCV 3.0.  Replaced with cv::IMREAD_COLOR.
+[docs] pip install harder
+[docs] pip install packages in order for dependencies
+adding missing libraries - lm and lstdc++
+Added Multistep, Poly and Sigmoid learning rate decay policies
+fix instantiation
+[docs] note boost 1.56 an CUDA conflict on OS X
+[docs] update homebrew instructions for boost and boost-python split
+[example] re-title LeNet / MNIST heading too
+[example] add LeNet to MNIST title, fix paths to be from root
+[example] fix data script paths for flickr fine-tuning
+[cmake] move dependency finding to root CMakeLists.txt
+correct naming in comment and message about average_loss
+SliceLayer: fix whitespace
+use glog to provide a backtrace on crash
+[fix] check solver prototxt parsing
+change linking order such that pthread comes in the back
+change -lpthread to -pthread in linking
+Missing param.pad condition for CUDNN pooling
+uin8 spell check
+bundle pixel mean into CaffeNet as comments
+Added mean_value to specify mean channel substraction Added example of use to models/bvlc_reference_caffenet/train_val_mean_value.prototxt
+Added more tests to test_io for CVMatToDatum
+Add ReadImageToDatumReference to test_io
+[fix] include Python.h instead of re-ordering for pycaffe build on OS X
+[fix] bend pycaffe to the whims of OS X header order
+[fix] set cmake static link command for clang++ and g++ globally
+[fix] translate g++ whole archive to force load for clang++ compilation
+Added global_pooling to set the kernel size equal to the bottom size
+Add CVMatToDatum
+Added test_io and faster cv::Mat processing
+Add flag check_size=false to convert_imageset
+Refactor common code
+Update description data_transformer.hpp
+Remove Datum from WindowDataLayer
+Initial cv::Mat transformation
+Move data_mean into data_transformer remove datum_* from BaseData
+save/restore shared weights unit test
+[fix] comment typo
+Add ExpLayer to calculate y = base ^ (scale * x + shift)
+Add caffe_gpu_exp math function
+[pycaffe] expose Net::SharedTrainedLayersWith as Net.share_with
+[pycaffe] expose Net::CopyTrainedLayersFrom as Net.copy_from
+add factory header to caffe hpp
+Back-merge to include #1198
+Update detect.py
+[fix] lint causing travis failures
+caffe.proto: do some minor cleanup (fix comments, alphabetization)
+Back-merge branch 'master' into dev (for fix in PR #1203)
+[fix] solver indexing of output blobs was incorrect for non-singleton outputs
+[pycaffe] expose SGDSolver.iter
+add accessor for Solver::iter_
+[pycaffe] expose SGDSolver.test_nets
+[pycaffe] add converter for vectors of Nets
+[pycaffe] fix comment typo
+[fix] check and load weight for backward w.r.t. data
+remove a wrong space in common.hpp
+fix cuDNN build by readding line deleted in #1167
+hdf5_load_nd_dataset_helper: check that dataset exists first
+HDF5DataLayer: die on failure to open source file
+Die on failure to load HDF5 data file.
+Cleanup HDF5DataLayer log messages.
+hdf5_data_layer.cpp: fix indentation
+added test case to cover new HDF5 behavior
+make HDF5 layer support multiple data output
+test_gradient_based_solver.cpp: removed unused typedefs
+doxygen
+cuDNN pooling layer tests know that nonzero padding is not supported
+use method overrides for CuDNNPoolingLayer top blob checking
+Changed linking order: -pthread -> back. Otherwise error: /usr/bin/ld: /usr/local/lib/libgflags.a(gflags.cc.o): undefined reference to symbol 'pthread_rwlock_wrlock@@GLIBC_2.2.5' /lib/x86_64-linux-gnu/libpthread.so.0: error adding symbols: DSO missing from command line collect2: error: ld returned 1 exit status
+[examples] adding class names and deploy version of Flickr Style net
+static initialization order fiasco
+add explicit declaration - does that help the flakyness?
+add long-ignored threshold layer
+consolidate duplicate code
+cmake.
+Mute factory registration message
+Add back static library. Using -Wl,--whole-archive will allow us to preserve all symbols.
+Pre-lunch fun: add a dynamic library guard test.
+more docs
+running factory.
+message
+const fix
+cudnn pooling fallback option
+fix hdf5 data layer bug
+update HDF5 layer test data.
+tweak test case to expose bug.
+Update layer_factory.cpp
+Random crop bugfix and abstracting random number generation inside data_transformer
+Removed unnecessary "mutable"
+Back-merge
+added a Matlab demo with mean BGR pixel subtraction instead of the mean image subtraction
+Changed "blas" to "openblas"
+RGB -> BGR in the matlab demo
+added example usage to the Matlab script
+added comments to the Matlab demo script
+added matcaffe_demo for the VGG models (RGB input)
+added support for "k" LRN parameter to upgrade_proto
+adds a parameter to the LRN layer (denoted as "k" in  [Krizhevsky et al., NIPS 2012])
+web demo fix, closes #1002
+switch examples to lmdb (except for custom data loaders)
+fix cifar10 paths so they can be run from caffe root
+default backend to lmdb for image conversion and mean computation
+Back-merge
+define up-to-date all-in-one model for pascal finetuning
+load transform params in window data layer
+include WindowDataLayer in data param upgrade
+combine col_{data,diff} into single col_buff to halve memory usage
+Back-merge
+optimize 1x1 convolution for Network-in-Network style layers
+drop out-of-date conv test comments
+fix directory in finetune pascal example
+fix types of (Layer)SetUp, Reshape, Forward, and Backward calls
+fix cifar10 paths so they can be run from caffe root
+relax precision of gradient-based solver tests
+[example] groom siamese notebook
+[docs] order ipython notebooks
+[example] resurrect imagenet training scripts
+[model zoo] ignore models -- only for reference or zoo
+[model zoo] download from gist grooming
+[model zoo] download gist script
+fix warning
+check that LRN's local_size is odd as the current implementation requires
+[docs] clarify the use of Blob::Reshape a bit
+[pycaffe] expose Net::Reshape
+add Net::Reshape for only reshaping
+include Reshape in caffe time
+test net reshaping
+default LayerSetUp to no-op instead of NOT_IMPLEMENTED
+call Reshape in Layer::SetUp
+split off Reshape for vision layers
+split off Reshape for common layers
+split off Reshape for neuron layers
+split off Reshape for loss layers
+split off Reshape for data layers
+separate setConvolutionDesc from createConvolutionDesc
+separate setTensor4dDesc from createTensor4dDesc
+enable reshaping in the forward pass
+don't reallocate blobs when shrinking memory use
+add abstract Layer::Reshape, and document the new method protocol
+use Blob directly instead of shared_ptr for EltwiseLayer::max_idx_
+[docs] lenet grooming
+[docs] comment ConvolutionLayer
+test convolution by random weights for robustness
+test convolution against explicit reference implementation
+Updated mnist/readme.md file with additional information.
+Display averaged loss over the last several iterations
+[Bugfix] Move error checking closer to file read
+set up datum size for WindowDataLayer
+[fix] snapshot model weights as .caffemodel, solver state as .solverstate
+[example] update paths in net surgery
+fix caffe train GPU initialization
+fix spelling error in caffe.proto
+fix out-of-date next ID comment for SolverParameter
+Update CUDA to version 6.5 in the Travis install script
+Add ppa for gflag and glog
+add -fPIC flag to CMake build
+restore "red X" build failures in Travis
+Added contrastive loss layer, associated tests, and a siamese network example using shared weights and the contrastive loss.
+lint & reduce gradient check stepsize to pass checks
+Implemented elementwise max layer
+Back-merge to dev for slides
+[docs] replace intro slides with caffe tutorial
+Revert "call __signbit for CUDA >= 6.5 implementation" -- doesn't compile on OSX w/ CUDA 6.5
+linecount counts more dirs than just src/
+[lint] cuDNN conv declaration
+Repair crash in conv_layer due to weight pointer being NULL.
+[docs] include cuDNN in installation and performance reference
+report cuDNN error string
+CUDNN_CHECK
+strategize cuDNN softmax
+strategize cuDNN activations: ReLU, Sigmoid, TanH
+strategize cuDNN pooling
+strategize cuDNN convolution
+call __signbit for CUDA >= 6.5 implementation
+add cuDNN to build
+added common.cpp explicitly to tests
+cpp and cu files processed separately in test build
+enabled object file reusing in test builds
+add <cuda>/lib64 only if exists to suppress linker warnings
+remove uses of tmpnam
+fix transform_param in mnist_autoencoder.prototxt
+[docs] tutorial/layers: fix inner product sample
+[docs] tutorial/layers: describe some more data layers
+[docs] tutorial/layers: clean up sample markdown
+[docs] tutorial/layers: brief descriptions of some loss layers
+[docs] in tutorial/layers, Options -> Parameters
+[docs] split layer params in required/optional
+[docs] add LRN layer to tutorial/layers
+[docs] fix pooling markdown and add some comments in tutorial
+[doc] minor edits to convolution layer in tutorial
+[docs] fixup the MathJax notation in tutorial/layers
+revert separate strategies: engines will extend the caffe standards
+revert engine switch for build to always include caffe engine
+default engine to Caffe in case config is missing
+default engine to Caffe according to compile flag
+grooming: drop pointless overrides, stub layer comments
+strategize softmax
+strategize relu, sigmoid, tanh
+strategize pooling
+strategize Caffe convolution
+ifdef engine default
+add engine parameter for multiple computational strategies
+groom proto: sort layer type parameters, put loss_weight after basics
+shift CUDA code out of common
+Added initial Hinge Loss
+more layers
+conv and pooling
+neuron layers doc
+update net
+fix leaky relu
+more blob details
+relu,sigmoid,tanh
+[docs] fix br code
+[docs] link tutorial
+[docs] add titles
+Gradient-based solver test fix
+added a two-layer network that gets higher accuracy
+[docs] fix formatting and other errors in loss & solver
+[fix] stop cloc complaint about cu type
+fix fine-tuning example: paths, test acc., and total fine-tuning time
+HDF5 classification example
+[example] update ImageNet timing for K40
+fix model download advice and prototxt name for fine-tuning
+add SILENCE layer -- takes one or more inputs and produces no output
+add test_initialization option to allow skipping initial test
+script to upload/update model info as gist
+flickr style fine-tuning model (separated from example read me)
+minor fixes to docs
+removed mention of getting_pretrained_models page and old paths
+updating feature extraction example
+Renaming CaffeNet model prototxts and unignoring models/*
+removing unneeded scripts from imagenet example
+proofread model zoo
+snapshot model with caffemodel extension
+[models] adding zoo readme; caffenet, alexnet, and rcnn models in zoo format
+[docs] default setting for layout
+[example] convert mnist name fix (crashes xcode compiler)
+[example] drop stale mentions of glog env var
+Inline latest lenet_solver.prototxt
+Correct reference to lenet_train_test.prototxt
+Point to local file, not github file
+Update paths
+[example] upgrade fine-tuning example to new transformation param
+[docs] configure doxygen + docs script for docs/doxygen site output
+update doxygen config to stop warnings
+[docs] suggest the CVPR14 deep learning tutorial for nice contrast
+[docs] draft data
+wrap up solver.md -- add update info for all solvers with citations; rules of thumb for SGD
+net.hpp: Doxygen-format docs
+solver.hpp: add \briefs
+syncedmem.hpp: \brief and todo
+blob.hpp: a little Doxygen-style documentation
+filler.hpp: add brief filler descriptions
+vision_layers.hpp: Doxygen \brief & TODO stubs.
+data_layers: Doxygen \brief & TODO stubs.
+common_layers.hpp: Doxygen \brief & TODO stubs.
+neuron_layers.hpp: Doxygen-style documentation
+loss_layers.hpp: Doxygen-style documentation
+layer.hpp: Doxygen-style documentation
+.Doxyfile: don't warn if undocumented (maybe someday...)
+.Doxyfile: modify to generate C++ docs, excluding tests
+.gitignore doxygen-generated documentation
+add "make {docs,doxygen}" targets to build doxygen-generated docs
+add .Doxyfile: the default Doxygen config file from `doxygen -g`
+[wip] vision layers, start convolution
+use kramdown for markdown syntax; add mathjax
+[docs] add note on Caffe convolution
+[docs] draft tutorial subjects
+[docs] skeleton documentation subjects
+Initialize the transformer rng in the base data layer
+Correct the datum size checking conditions of the data layers
+Add and transform Datum vector in the MemeoryDataLayer
+Place InternalThreadEntry lower in the {,Image,Window}DataLayer.cpp
+Add leveldb header back to util/io.cpp
+Remove OpenCV stuffs from the memory data layer and io utils
+Add lint rule for caffe data layer setup
+Move the rest duplicate codes of the data layers into their base class
+Test adding images w/o resizing to the memory data layer
+Move transform param one level up in the proto to reduce redundancy
+Remove pthread which has been replaced with boost thread
+Add transformer to the memory data layer
+Implement Forward_gpu in the base prefetching data layer
+The BasePrefetchingDataLayer shouldn't join the thread
+Simplify the WindowDataLayer using the base class
+Remove duplicate codes from the ImageDataLayer
+Extract common data layer functionalities out of the DataLayer
+Create base data layer and base prefetching data layer
+fixed relative path and prefix for adagrad-optimised autoencoder snapshots
+[pycaffe] use _blob_names, _layer_names instead of removed .name
+[pycaffe] expose Net.blob_names and Net.layer_names
+[pycaffe] add converter for vector<string> used by _*_names
+add CUDA 6.5 error CUBLAS_STATUS_LICENSE_ERROR to cublasGetErrorString enum
+revert tools/train_net.cpp to previous, depecated version
+make MNIST autoencoder solvers start from base_lr 0.01 and step (much better performance) and terminate at iter 65K
+make adagrad/nesterov train scripts follow new "run-from-root" convention
+Add "test-on-train" stage to test accuracy on the training data; correct test_iter (should be 100 instead of 50)
+mnist_autoencoder: always compute both cross-entropy loss and L2 (euclidean) error
+hot fix for warning
+lint
+Re-added solver switch into the new caffe main excutable; fixed AdaGrad MNIST example
+lint
+Added sanity check for AdaGradSolver; added MNIST examples for solvers
+cleanup caffe.proto
+added unit test for solvers and fixed solver bugs
+proto conflit, lint, and math_functions (compiler complaint)
+fixes after rebase
+Addressed Yangqing's comments
+fixed caffe.proto after a mistaken rebase
+Added L1 regularization support for the weights
+bugfixes for AdaGrad
+improved numerical stability for AdaGrad
+fixed solver constructor in train_net.cpp
+converted pointers to shared_ptr
+restored vituals in solver.hpp
+Solver switching support & implementation of Nesterov's accelerated gradient and AdaGrad
+use LMDB in mnist autoencoder examples
+make no GPU error in CPU-only mode a little clearer
+include comment on CPU mode fine-tuning for Flickr example
+parse_log.sh adapted to new training log format + fixed typos and updated description
+updated lenet_train_test.prototxt + minor correction to create_mnist.sh
+minor changes to variable names and error messages + set default backed in convert_mnist_data.cpp to lmdb
+data now written to backend in batches
+mnist demo now works with lmdb and leveldb (set parameter in create_mnist.sh), switched around includes
+[pycaffe] expose Blob.Reshape
+[pycaffe] remove name property from PyBlob and PyLayer
+[pycaffe] declare the _caffe module init function
+[pycaffe] split _caffe into source and header files
+[pycaffe] make PyBlob a template over Dtype
+[pycaffe] make PyNet a class, not a struct
+[pycaffe] use a namespace alias instead of using directives for boost::python
+[pycaffe] live in caffe namespace instead of opening it
+[pycaffe] use class names of the form Py* instead of Caffe*
+remove residual pthread references, but restore in build for gtest
+ignore leveldb extension: ldb
+fix up leveldb ignore
+Makefile: fix boost::thread linking, drop pthread, sort
+fix up renaming
+renaming && typo fix
+[docs] new PR policy: send master fixes + docs to master
+fix data_transformer param_name
+xcode compiler complaints (warnings)...
+patch MacOS NVCC boost::thread issue
+back-merge
+[docs] Several documentation fixes
+Explain how to fix homebrew to allow updates after editing formulae
+Ignore LevelDB files
+[example] edit fine-tuning and train on ~2000 images, 1557 / 382 split
+[example] finetuning CaffeNet on Flickr Style data
+set examples paths relative to root
+ignore caffe generated files and stop ignoring examples
+Back-merge to dev for doc fixes + cherry-picks
+The return value of WaitForInternalThreadToExit has reversed
+Add boost thread in the travis install script
+Replace pthread with boost::thread
+[docs] Update installation docs to include Fedora
+clarify project origin
+create_imagenet.sh updated to new syntax
+fix layer_factory.cpp bug: there should be no ifdefs
+default ilsvrc solving to GPU
+default ilsvrc solving to GPU
+FIX drop obsolete CURAND reset for CUDA 6.5 compatibility
+clarify project origin
+FIX web_demo upload was not processing grayscale correctly
+FIX web_demo upload was not processing grayscale correctly
+remove warning about LRN layers in CPU mode
+Add "stable_prod_grad" option (on by default) to ELTWISE layer to compute the eltwise product gradient using a slower but stabler formula.
+fix memory_used_ by computing after SetUp
+'caffe test' prints all scores and their names
+fix bug for resizing images.
+[docs] Update installation docs to include Fedora
+fix bug for resizing images.
+[example] add fully-convolutional efficiency note + confidence map
+[example] add fully-convolutional efficiency note + confidence map
+fix internal thread interface confusion
+move {InnerProduct,Eltwise}Layer to common instead of vision
+fix parameter for transformation in ImageDataLayer constructor
+upgrade model definitions for transformation params
+upgrade net parameter data transformation fields automagically
+compact net parameter upgrade
+restore old data transformation parameters for compatibility
+If specified, --gpu flag overrides SolverParameter solver_mode.
+Updated installation docs for OS X 10.9 brew install protobuf as well
+Updated documentation to include instructions to install protobuf with Python support on Mac OS X
+[docs] fix citation bibtex
+If specified, --gpu flag overrides SolverParameter solver_mode.
+Refactor ImageDataLayer to use DataTransformer
+specialize cpu_strided_dot before instantiation to fix clang++ build
+clean up cpu signbit definition
+Refactor DataLayer using a new DataTransformer
+Lock the mex file to avoid Matlab crashes.
+implement GPU version of Softmax
+test softmax and softmax with loss across channels
+softmax and softmax loss layers work across channels
+add caffe_cpu_strided_dot for strided dot products
+milliseconds is a word
+Travis build matrix to do parallel builds for make and CMake; CUDA-less and CUDA-ful.  Move bits of functionality into scripts under scripts/travis for readability. Only generate CUDA compute_50 for perfomance.
+restore .testbin extension, and move caffe_tool back to "caffe". (Required as I had to change the tool target names to '.bin' but give them an OUTPUT_NAME, but the .bin made the test_net tool collide with the test_net unit test.)
+use all caps for global preprocess vars (e.g. EXAMPLES_SOURCE_DIR), and other minor cleanup
+.travis.yml and .gitignore: various minor cleanup
+[docs] CMake build steps and Ubuntu 12.04 install instructions
+Reduce packages
+Add ppa for CMake for fix 32bit precompiled cmake on 64bit
+added gflags + bugfixes + rebase on bvlc/caffe * added gflags requirement in CMake * fixed a bug that linked some tests into caffe lib * renamed tools/caffe due to conflicting target names with caffe lib * rebased onto bvlc/caffe
+Added lint target
+added proper 'runtest' target
+Examples_SOURCE_DIR cmake variable bugfix * it was set only when BUILD_EXAMPLES==OFF
+enable both GPU and CPU builds + testing in travis
+cpu only build works
+cpu only
+restoring travis.yml
+cmake from binaries
+cmake build configuration for travis-ci
+fixed lint issues
+fixed CMake dependant header file generation
+examples CMake lists
+cmake build system
+Updated installation docs for OS X 10.9 brew install protobuf as well
+Updated documentation to include instructions to install protobuf with Python support on Mac OS X
+Add "not_stage" to NetStateRule to exclude NetStates with certain stages.
+[example] set phase test for fully-convolutional model
+[example] set phase test for fully-convolutional model
+[example] include imports in net surgery
+[example] include imports in net surgery
+Added absolute value layer, useful for implementation of siamese networks! This commit also replaces the default caffe_fabs with MKL/non-MKL implementation of Abs.
+Tried to clarify function of `include' lines and train vs. test network differences
+Updated ImageNet Tutorial to reflect new merged train+val prototxt format. Also corrected 4,500,000 iterations  -> 450,000 iterations.
+Tried to clarify function of `include' lines and train vs. test network differences
+Updated ImageNet Tutorial to reflect new merged train+val prototxt format. Also corrected 4,500,000 iterations  -> 450,000 iterations.
+Store loss coefficients in layer; use for prettier training output.
+Add ACCURACY layer and softmax_error output to lenet_consolidated_solver example.
+Also display outputs in the train net.  (Otherwise, why have them?)
+Disallow in-place computation in SPLIT layer -- has strange effects in backward pass when input into a loss.
+AccuracyLayer only dies when necessary.
+Net::Init can determine that layers don't need backward if they are not used to compute the loss.
+Make multiple losses work by inserting split layers and add some tests for it. Test that we can call backward with an ACCURACY layer.  This currently fails, but should be possible now that we explicitly associate a loss weight with each top blob.
+Generalize loss by allowing any top blob to be used as a loss in which its elements are summed with a scalar coefficient.
+Add net tests for loss_weight.
+Add loss_weight to proto, specifying coefficients for each top blob in the objective function.
+[docs] update docs generation for notebook metadata
+[docs] update docs generation for notebook metadata
+[example] change notebook name metadata to avoid conflict
+[example] fix plt commands in detection
+use plt namespace for imshow in filter_visualization.ipynb
+[example] change notebook name metadata to avoid conflict
+[example] fix plt commands in detection
+use plt namespace for imshow in filter_visualization.ipynb
+Create caffe_{,gpu_}memset functions to replace {m,cudaM}emset's.
+Add caffe/alt_fn rule to lint checks to check for functions (like memset & memcpy) with caffe_* alternatives that should be used instead.
+lint targets should depend on the lint script itself
+[examples] fix links in feature extraction
+[examples] fix links in feature extraction
+[docs] ‘maximally accurate’ in the web demo explanation. closes #905
+[docs] [fix] closes #899
+[docs] ‘maximally accurate’ in the web demo explanation. closes #905
+[docs] [fix] closes #899
+[docs] sorting of examples. if doesn’t work for you, update jekyll.
+[docs] sorting of examples. if doesn’t work for you, update jekyll.
+lint
+minor fix for layer factory
+added cross-channel MVN, Mean-only normalization, added to layer factory, moved to common_layers
+default raw_scale in python scripts to ImageNet model value
+addressed Jeff's comment
+lint
+reduced blas calls
+mean-variance normalization layer
+Add a leveldb option function in io.hpp/cpp
+[docs] fix example links from install guide
+fix formatting error in blob.hpp
+Use gflags to show help when the arguments not correct
+output loss for caffenet and alexnet train/val models
+output loss for caffenet and alexnet train/val models
+default raw_scale in python scripts to ImageNet model value
+Distribute the generated proto header files
+add necessary input checks for matcaffe
+[example] fix example names
+[example] fix example names
+[docs] fix find complaint in example gathering script
+[example] fix broken links in ImageNet recipe
+Back-merge documentation and fixes
+consolidate gpu and device_id args in caffe tool
+update cli usage in examples
+fix deprecation warnings
+consolidate test into caffe cli
+comment caffe cli
+check required caffe cli args
+rename caffe cli args and revise text
+give usage message for caffe cli
+output INFO from caffe cli to stderr by default
+consolidaet GPU flag for caffe cli
+rename tools
+Painless binary mean conversion to matlab matrices.
+lint for copyright
+[docs] detail attribution, license, and copyright for development
+LICENSE governs the whole project so strip file headers
+clarify the license and copyright terms of the project
+drop np.asarray() in favor of declaration (~1.75x speedup)
+fix pycaffe context cropping with or without mean
+take array in pycaffe `Net.set_mean()` instead of file path
+fix pycaffe input processing
+Reordering of header includes for convert_imageset.cpp
+Handles gflags's change of namespace
+convert_imageset now uses gflags; optional arguments can be positioned arbitrarily now
+[example] include prediction in classification, time on GTX 770
+[example] fix example outputs
+[example] add caffe to pythonpath in all examples
+define caffe.Net input preprocessing members by boost::python
+Enable the 'build/include_alpha' rules to make lint check that the includes are correctly alphabetized.
+Add "lintclean" target to remove current lint outputs -- forces lint to be run again next time "make lint" is run.
+Changed path in description to point to parse_log.sh
+Add (momentum) SGD solver tests to check that learning rate, weight decay, and momentum are implemented properly on a least squares problem.
+Add 'snapshot_after_train' to SolverParameter to override the final snapshot.
+modified test_concat_layer.cpp
+Add tests for phase filtering according to Caffe singleton phase (currently failing as FilterNet ignores the singleton phase).
+Add script to speedtest imagenet (currently broken as FilterNet ignores Caffe::phase()).
+Test that DropoutLayer obeys dropout_ratio.
+fix compiler complaint in matcaffe
+fixed unnecessary conversions in test_solver, and rearraged common.hpp a bit
+lint
+the compiler complains about solver tests using pointers as bool
+turns out you need using::isnan too
+Included cmath in common.hpp to avoid isnan complaints from the xcode compiler
+[example] fix imagenet classification typo
+[example] include image dimensions for oversampling
+[docs] announce caffe-users
+[example] standardize imagenet leveldb names
+[fix] adding requirements.txt for web_demo. Closes #704
+[docs] contact us on webpage
+link OpenBLAS as blas
+[docs] install update: dependencies, CPU-only, Ubuntu 14.04
+Also apply HDF5OutputLayer fix to GPU version.
+Set correct solver_mode in SolverTest so Travis build doesn't randomly fail.
+fix some namespace with std::signbit
+Use unified train/test nets in examples.
+Incorporate NetState{,Rule} into Solver/Net.  Net::FilterNet includes/excludes layers based on whether the NetState meets each layer's NetStateRule(s).
+Add unit tests and skeleton code for Net/Solver filtering functionality.
+Add NetState message with phase, level, stage; NetStateRule message with filtering rules for Layers.
+[example] standardize imagenet leveldb names
+test non-square filters by separable convolution of Sobel operator
+fix GPU indexing
+test rectangular im2col
+im2col + convolve non-square filters, padding, and stride
+add h/w kernel size, stride, and pad for non-square filtering
+[docs] compile gflags with -fPIC for linking
+[docs] install glog first given incompatibility
+[docs] fix missing glog install cd
+make "all" the default target
+FIX: updating HDF5 input test for new test data
+FIX: both data and label now copied correctly in HDF5 output layer
+FIX: tests now catch bug reported in #750 (in HDF5 output layer)
+lint
+fixing comment
+gflags 2.1 bugfix (or rather a hack).
+set_mode to CPU in ArgMaxLayerTest constructor to avoid random Travis failures.
+Only install the minimal CUDA subpackages necessary for building.
+Update image_data_layer.cpp
+relaxed timer test requirements
+Symlink to tool bins without the .bin extension
+Move loss display before lr display in ComputeUpdateValue.
+Make training iterations 0-indexed.
+Print just the mean absolute value (no sum/l1norm)
+Print blob L1 norms during forward/backward passes and updates if new "debug_info" field in SolverParameter is set.
+LOG(ERROR)->LOG(FATAL), and misc script changes.
+using caffe::string to be consistent with other string definition.
+Add gradient checks for infogain loss layer, letting it take the infogain matrix as the third bottom blob.
+oops, wrong deprecation message (should have --)
+lint
+Adding new caffe binary that does everything in one binary; deprecating device_query, finetune_net, net_speed_benchmark, train_net
+include benchmark.hpp
+travis: gflags still needs -fPIC, otherwise it makes caffe cry.
+I am really bad at debugging travis.
+turns out that glog does not compile with gflags 2.1 - compiling glog first and then gflags.
+travis - does adding cflags help? want to keep minimal invasion into gflags installation.
+travis
+Cleanup pthread code for data layers
+gflags should preferrably be installed before glog
+add gflags dependency doc
+add gflags dependency to caffe.
+numerical stability improvement
+Use the same CXX for matcaffe as for the rest of the build
+Correctly apply padding to pooling layers when upgrading from V0
+SliceLayer: post-rebase fixes, cleanup, etc. (some from changes suggested by @sguada).  Test for both num & channels in forward & backward; use GaussianFiller so that tests are non-trivial.
+Add split dim layer
+reduced multiplications & fixed unit test
+leaky relu + unit test
+remove unused includes in AccuracyLayer and ArgMaxLayer
+add an "everything" target to make for comprehensive build testing
+use Blob directly instead of shared_ptr for WindowDataLayer buffers
+use Blob directly instead of shared_ptr for ImageDataLayer buffers
+use Blob directly instead of shared_ptr for DataLayer buffers
+use Blob directly instead of shared_ptr for DropoutLayer::rand_vec_
+use Blob directly instead of shared_ptr for PoolingLayer::max_idx_
+use Blob directly instead of shared_ptr for InnerProductLayer::bias_multiplier_
+use Blob directly instead of shared_ptr for ConvolutionLayer::bias_multiplier_
+Include <utility> for pair in the accuracy layer
+Limit the comparison functions to have file scope
+Add more test cases for the accuracy layer
+Refactor the accuracy layer with std::partial_sort
+Move compararing function from common_layers to argmax_layer
+Use std::partial_sort in the ArgMaxLayer as suggested by @shuokay
+Simplify the top-k argmax layer using std::sort
+Add the test cases for the mulitple top predictions argmax layer
+Extend the ArgMaxLayer to output top k results
+pycaffe: test channel_order and input_scale against None
+pycaffe: reorder exceptions
+Travis builds pycaffe
+use /usr instead of /usr/local for default Python include/lib
+test consistency of From/To Forward/Backward
+comment in net.hpp to explain subtleties of From/To on DAGs
+pycaffe: expose Forward/Backward From/To as kwargs start and end
+add Net::Forward/Backward From/To
+reapply namespace change
+cosmetics: add syntax = proto2
+lint
+compute_image_mean namespace fix.
+continuous integration of master build
+check CPU-only everything, CPU + GPU build with travis
+relax benchmark test timing for cheap hardware / CI build
+switch travis build to CPU-only flag, drop runtestnogpu target
+collect CUDA includes and calls, separate from CPU-only mode, leave out
+add guards to drop GPU code in CPU-only mode
+stub out GPU layer methods to crash loudly in CPU-only mode
+configure Makefile for CPU-only build
+neuron_layers.hpp should not need to include leveldb
+move using statements inside namespace caffe to avoid polluting the whole name space.
+[fix] adding requirements.txt for web_demo. Closes #704
+Another bugfix related to my CPU/GPU test changes: make NetTest a MultiDeviceTest (Caffe:set_mode(Caffe::CPU/GPU) isn't run without this).
+Add Net Test to verify correct param_propagate_down behavior.
+Use Blobs instead of SyncedMemorys for the bias_multiplier_'s.
+Make ConvolutionLayer and InnerProductLayer abide by param_propagate_down_
+Add param_propagate_down_ vector to layer, populate according to blobs_lr in Net::Init
+use layer_param instead of layers_[layer_id]->layer_param()
+[docs] contact us on webpage
+release net surgery example from #455
+[example] elaborate net surgery description
+define fully-convolutional imagenet model
+save from python for net surgery
+fix choice of clang++ in OS X build
+fix bug that breaks MATLAB 2014a compilation
+Add blank lines between fields for readability.
+Replace CUSTOM_CXX env var to specify non-default C++ compiler.
+Run Travis build on all branches (remove whitelist from .travis.yml).
+Add --keep-going flag to first make so that any targets that can be built are built; write out full -j flag as --jobs for clarity.
+fix Makefile comment about library names
+Seed HingeLossLayerTest; bad values can cause test (and therefore Travis CI build) to fail
+Travis build failure wasn't working for lint/warn because they didn't exit with a non-zero code -- this fixes that.
+@jeffdonahue's tweaks to .travis.yml config: -Add (CPU-only) test, lint, warn and parallel (-j 4) to travis CI build. -Add /usr/local/lib to travis config (seems needed for LMDB). -Put export in "before_script"; disable clang build -- doesn't work on Linux. -Cache Ubuntu apt packages. -Install bc package to hopefully suppress "bc: not found" errors -Get apt packages before_install as suggested by Travis official docs -Remove specified email address and IRC notifications (emails are sent to the committer by default; others can view build results in public Travis feed, on pull requests, etc.).
+-Override the default compiler by specifying a CXX in Makefile.config instead of CUSTOM_CXX, as Travis exports CXX as the compiler env variable name. -Change TEST_HDFS -> TEST_HXX_SRCS.
+@huyng's .travis.yml integration configuration file to install and test Caffe.
+Move test headers to include/. Add a test param to test both CPU and GPU (with both float and double Dtypes).
+back-merging [docs] changes and web demo [example] addition; updating net_surgery example to new format
+[example] image classification web demo
+[docs] shelhamer's minor suggestions
+[docs] updated instructions for contributing documentation
+[docs] moved example md’s to examples/**/md’s and added script to gather them for publication
+[docs] cosmetic
+fix link for caffe_rcnn_imagenet_model
+Back-merge documentation and fixes
+host materials on dl.caffe.berkeleyvision.org
+fix caffe acm-mm paper link
+Replace cudaMemcpy with caffe_gpu_memcpy in SyncedMemory per @longjon
+Implement @Yangqing's solution to copy memory in the SyncedMemory
+Switch to GPU mode when pointer is move to or from GPU in SyncedMemory
+Check the GPU mode to decide which memcpy to use
+Avoid using cudaMemcpy for memcpy when there is no GPU and CUDA driver
+makefile hotfix
+fix bug introduced by warning logs: errors didn't print because they are logged to the warnings file
+[docs] readme
+[docs] got rid of redundant README, updated development instructions
+Makefile: cleanup lint/warn report logic (and make the two more consistent)
+[docs] reworked index page, got rid of publications page
+Output a lint report for every source file linted; use to lint incrementally
+Dump compiler warnings to *.warnings.txt; use "make warn" to print them
+Don't make clean when running linecount
+added gradient check for non-square pooling
+fixed style errors
+add tests for rectangular pooling regions
+fixing pooling SetUp() to allow default values for stride and pad
+Update pooling_layer.cu
+Update pooling_layer.cpp
+Update vision_layers.hpp
+Update caffe.proto
+point to reference performance from installation, add GTX 770
+customize compiler setting in Makefile.config
+fix casts (static for void*)
+reduce caffe_copy to instantiations, split off caffe_memcpy for void*
+replace all memset with caffe_set() / caffe_gpu_set()
+replace all memcpy by caffe_copy
+do all caffe_copy() as UVA mem copy, and drop caffe_gpu_copy()
+replace softmax cudaMemcpy with caffe_gpu_copy
+switch to unified virtual addressing CUDA memcpy
+report UVA in platform test
+ConvolutionLayer can take N bottom blobs and N top blobs
+add EqualNumBottomTopBlobs() property for layers; use in ConvolutionLayer
+Organize the loss layers in alphabetical order
+Arrange the data layers to be in alphabetical order
+Separate layers relatively independent of images out of vision_layers
+acknowledge BVLC PI Trevor Darrell for advising Caffe
+fix uninitialized variable warnings in tools
+Update Makefile.config.example
+lint
+Remove Cuda.major >= 2 check on Dropout test
+Check that pointers are different before copying in caffe_copy and caffe_gpu_copy
+Added test to Dropout to check gradients during Test phase
+Modify Dropout to allow backward pass in TEST phase
+Comment-fix.
+Update name of last added param.
+Add unit test for accuracy layer.
+Next LayerParameter proto id
+Use vectors instead of arrays.
+Compute top-k accuracy in AccuracyLayer.
+Incorporate top_k param into AccuracyLayer and check it's value.
+Add parameter for AccuracyLayer in proto.
+add latest CUDA arch to fix invalid device function errors
+add latest CUDA arch to fix invalid device function errors
+Make resizing & cropping with PIL work
+Test for im2col kernel
+rename layer -> param mapping for clarity
+change weight blob field name to param
+weight sharing
+force_backward works properly with non-backproppable things
+change Backward interface: propagate_down is a vector -- use to fix long-standing issue with how this is handled in loss layers (esp. EuclideanLossLayer)
+file SoftmaxWithLoss in with loss layers
+switch language to "related publications"
+add publication section to homepage
+fix caffe paper link -- still hasn't appeared on arxiv yet
+Added top-1 and top-5 accuracy for the caffe networks to docs
+content ourselves to -Wall without -Werror for now
+make clang++ happy on OSX by not linking with pthread
+fix test data layer post-lmdb
+turn off some warnings for older compilers
+add WARNINGS to CXXFLAGS
+upgrade warnings to -Wall -Werror -Wno-sign-compare
+don't end comments with \, so that -Wcomment can be used
+initialize and comment variables that the compiler finds suspicious
+move CUDA 6.0 check into switch statement itself
+add missing const qualifiers to MemoryDataLayer ExactNum* functions
+remove unused variables from tests
+remove unused variables
+initialize in declared order in tests
+initialize in declared order
+check if window file is empty in WindowDataLayer
+actually check status values from all HDF5 calls
+fix SOFTMAX_LOSS to work with loss top blob interface
+add skeleton of the Caffe publications page
+Init google logging
+Replace the raw pointers with shared_ptr to ensure memory is released
+No need to manually delete the pointers which are managed by std::vector
+Progress should be reported for each feature blob
+Extract multiple features in a single Forward pass
+There are 256 filters in conv2.
+explicitly name L1 hinge test
+fix whitespace error in HingeLossLayer
+Change hinge_norm to norm in test_hinge_loss
+Remove C_ mentions, extra spaces and change hinge_norm to norm
+Now AccuracyLayer only computes accuracy, one should use LossLayers to compute loss Changed all val.prototxt in examples to add a LossLayer to compute loss in Test
+Unify L1 and L2 Hinge_Loss to follow convention
+Remove spaces and merge tests into one file
+Removed L2HingeLoss class now a case within HingeLoss class
+Verify the result of memtest in SyncedMemoryTest::TestGPURead
+Rename curand_availability_logged according to the Google style guide
+Revert the namespace ending comment to the same line of the bracket
+Suppress redundant log messages of unavailable curand
+Separate TestForward into Test{CPU, GPU}Forward in HDF5OutputLayerTest
+Extract GPU code out of SyncedMemoryTest::TestCPUWrite
+Initialize the RNG generator with an orthogonally newed Generator
+remove erroneous comment in ArgMaxLayer
+Modified test_net to check loss layer with top
+Now Loss layers would return the loss in the top blob if requested
+Set device_id at the begining of Solver.Init() to avoid using memory in the default GPU
+Add comment to Makefile.config.example about DEBUG flag issue in OSX per #171.
+in Caffe::SetDevice, call cudaSetDevice before Get
+Add comment for how to set the CUDA path when cuda tools are installed by the package manager.
+fix string compare error
+add lmdb support for compute_image_mean
+add lmdb support for convert_imageset
+add net surgery link to docs (+ drop old comment)
+unify data layer tests: was copied four times for all combinations of cpu/gpu and leveldb/lmdb; now just one copy of each test body
+unify test_data_layer tests
+lint
+fixed cpplint error
+add tests for lmdb of datalayer (copied from test_data_layer.cpp)
+add option for lmdb
+refactor Net::Init to call helpers AppendBottom and AppendTop
+make Net::Init loop indices clearer
+make test_net use DUMMY_DATA instead of leveldb
+make notebook for net surgery of fully-convolutional model
+define fully-convolutional imagenet model
+save from python for net surgery
+pycaffe: leave grayscale images gray according to arg
+drop learning rates and decays from deploy model
+groom install docs
+fix clang compilation problem w/ DummyDataLayer
+finish R-CNN detection example
+make selective search proposals with R-CNN configuration
+edit detection example, include R-CNN NMS
+make R-CNN the Caffe detection example
+pycaffe Detector crops with surrounding context
+fix old detect.py default
+lint dummy data layer
+add DummyDataLayer tests
+add DummyDataLayer
+fix ArgMaxLayer bug in num bottom blobs decl. pointed out by @sguada
+add fish bike example image
+move MemoryDataLayer decl. from vision_layers.hpp to data_layers.hpp
+layers declare their names and number of input/output blobs, and don't check top/bottom blob counts explicitly in SetUp; instead call base Layer::SetUp.
+fix Makefile build dir link upgrade bug reported by @jamt9000
+Changed variable name: iscolor to is_color.
+check the last pooling in padding and add padded max pooling test
+padding for max pooling
+Make TanH cleaner, more efficient, and possible to use in-place
+Update docs on building boost on OSX for the python wrappers
+update .gitignore appropriately for separate debug/release build dirs
+compile debug/release into separate directories so you don't have to rebuild the whole thing to switch back and forth
+Added an iscolor flag to io.cpp method ReadImageToDatum to handle grayscale images and a corresponding commandline flag [-g] to convert_imageset.cpp.
+Update docs on building boost on OSX for the python wrappers
+fix OSX 10.9 homebrew CXX doc
+fix OSX 10.9 homebrew CXX doc
+Un comment Test GPUs cases, fixed ThresholdLayer.cu
+Comment Test GPUs cases
+Make lint happy
+Added ForwardGPU to ThresholdLayer and to the tests
+Added Threshold layer to neuron_layers.hpp
+Corrected conditions in test_threshold
+Added the code for threshold_layer to the repo
+Added NeuronLayer<Dtype>::SetUp(bottom, top) to ThresholdLayer
+Added threshold setting test
+Test for Threshold layer
+caffe.Net preprocessing members belong to object, not class
+caffe.Net preprocessing members belong to object, not class
+convert imageset comment fixup
+don't pass LDFLAGS when only compiling
+10.9 install doc formatting
+10.9 install doc formatting
+Back-merge recent fixes from master to dev
+fix OSX 10.9 compiler/stdlib override for latest homebrew
+merge caffe_set definitions; define for int as well
+add tests for maxpooling layer forward, and for maxpooling with top mask
+optionally output the mask to a top blob instead of storing internally
+make a Blob<unsigned int> and use in dropout layer
+use a Blob<int> instead of a SyncedMemory to store max_idx_
+bugfix: setting count to the top count in backward doesn't process all of the bottom (assuming the bottom is larger, which happens for nontrivial poolsize>1)
+mask should be const in backward pass
+remove commented out code
+lint and make compilable (using static_cast's found a couple bugs at compile time)
+Adapted to V1 proto definition, test don't pass
+Commented Atomic Add, back to loop in GPU MaxPoolBackward
+Attempt to use AtomicAdd but it seems slower
+Added test for maxpool layer followed by dropout
+Use loops in GPU again to avoid over-writting of bottom_diff
+Cleaned prints from test_pooling_layer.cpp
+Set bottom_diff to 0 and remove Async memcopy
+Remove top_data from backward Max Pooling
+Use mask_idx to compute backward Max Pooling
+Added test for  Pooling layer GPU
+Added max_idx to Pooling layer GPU
+Default mask idx is -1
+Added max_idx to Pooling layer CPU
+Don't modify data pointers in im2col loop
+add convert_imageset option to resize images; use in convert_imageset.cpp and document
+follow-up on #443 to invert k channels (instead of 3)
+Correctly invert the swapping of colour channels
+follow-up on #443 to invert k channels (instead of 3)
+Correctly invert the swapping of colour channels
+commment, lint
+weight elementwise sum with per-blob coefficients
+link presentation on dropbox (was self-hosted during a dropbox issue)
+link to demo
+make sum the default eltwise operation
+fix layer name in logging
+fix draw_net python script
+release v1 model defs + weights
+reduce example image size
+point out @niuzhiheng's work on the Windows port
+add EltwiseLayer docstring
+Elementwise layer learns summation
+add caffe_gpu_add() and caffe_gpu_sub()
+EltwiseProductLayer -> EltwiseLayer for generality
+fix test_all path in docs
+Revert "setting canonical random seed"
+setting canonical random seed
+Documented ArgMax layer in vision_layers.hpp
+corrected the caffe.proto ids
+Change ArgMaxLayerParam to ArgMaxParam for consitency
+Change ThresholdLayer to ArgMaxLayer in test_argmax
+Added missing ;
+Added FLT_MAX to argmax layer
+Added Test for ArgMax Layer
+Added ArgMax Layer
+link canonical bvlc site
+link canonical bvlc site
+fix detection notebook link
+fix detection notebook link
+Back-merge changes in master
+update notebook examples with new wrapper usage, re-organize
+preprocess single inputs instead of lists
+windowed detection in python
+squash infuriating loop assignment bug in batching
+image classification in python
+fix padding for the last batch
+split drawnet into module code and script
+add caffe.io submodule for conversions, image loading and resizing
+fix python mean subtraction
+Don't modify index in im2col kernel loop
+Incorporated Evan’s comments for neuron layers
+Cosmetic change in ConcatLayer
+Lil’ more docstring, and cosmetic change in EuclideanLossLayer
+fwd/back math docs for neuron layers
+drop cute names in favor of Net.{pre,de}process() for input formatting
+Net.caffeinate() and Net.decaffeinate() format/unformat lists
+take blob args as ndarrays and assign on the python side
+Cosmetic change in prep for data layer work
+Split all loss layers into own .cpp files
+layer definition reorganization and documentation - split out neuron, loss, and data layers into own header files - added LossLayer class with common SetUp checks - in-progress concise documentation of each layer's purpose
+resize to input dimensions when formatting in python
+replace iterator with indices for consistency
+python style
+fix accidental revert of Init() from f5c28581
+batch inputs in python by forward_all() and forward_backward_all()
+don't squeeze blob arrays for python
+python forward() and backward() extract any blobs and diffs
+python Net.backward() helper and Net.BackwardPrefilled()
+bad forward/backward inputs throw exceptions instead of crashing python
+pycaffe Net.forward() helper
+set input preprocessing per blob in python
+expose input and output blob names to python as lists
+fix workaround in net prototxt upgrade
+Write/create/truncate prototxt when saving to fix #341
+pycaffe comments, lint
+add python io getters, mean helper, and image caffeinator/decaffeinator
+make python wrapper mean match binaryproto dimensions
+match existing python formatting
+net knows output blobs
+add cublas status in cuda 6 to fix warning
+fix Makefile bug - HXX_SRCS was things that don't end in .hpp, instead of things that do...
+require either train_net or train_net_param to be specified
+fix proto comment for multiple test nets
+add script to run lenet_consolidated_solver and add comment with results for first/last 500 iterations
+lint and two test_iters in lenet_consolidated_solver
+multiple test_iter
+add a lenet example of specifying train/test net directly in solver; multiple test nets
+allow multiple test nets
+log {Net,Solver}Parameters on Init
+specify NetParameters directly in the SolverParameter
+make solver_mode an enum with CPU and GPU -- fully backwards compatible with old 0/1 style
+improve includes in util/math_function.hpp
+note bug in cifar10 full with CPU computation
+bundle presentation in gh-pages for now...
+fix lint error in syncedmem.hpp
+pycaffe: allow 1d labels to be passed to set_input_arrays
+pycaffe: add Net.set_input_arrays for input from numpy
+pycaffe: store a shared_ptr<CaffeNet> in SGDSolver
+pycaffe: let boost pass shared_ptr<CaffeNet>
+add basic tests for MemoryDataLayer
+add size accessors to MemoryDataLayer
+add MemoryDataLayer for reading input from contiguous blocks of memory
+add set_cpu_data to Blob and SyncedMemory
+note the last added layer/params in caffe.proto to prevent conflicts
+Keep uniform test messages for all the test
+rollback 8368818, does not build
+Add Sublime Text project settings to gitignore
+Handling CUBLAS_STATUS_NOT_SUPPORTED to suppress warning
+fix test_net to upgrade params from v0 if needed
+default test net device to 0 and log device chosen
+set seed in neuron and power layer tests for deterministic results
+proofreading and trivial polish
+add device id arg to test_net (fix #232)
+scope data layer sequence tests to avoid leveldb contention
+set phase in dropout tests
+randomize order of test execution by make runtest
+set TRAIN in CommonTest.TestPhase
+test HingeLossLayer
+make gradient checker's kink use feature absolute value
+add HingeLossLayer for one-vs-all hinge loss
+pycaffe: add unary CaffeNet constructor for uninitialized nets
+eltwise gradient checker
+move analytic gradient computation outside loop and store -- saves a lot of time
+note pydot dependency of model visualization
+Update the drawnet.py to reflect the recent revised net definition.
+test on "0th iteration" -- before doing any training
+add caffe/random_fn lint rule to check for use of rand, rand_r, random
+replace std::shuffle with version using prefetch rng; improve unit test
+replace remaining uses of rand() with caffe_rng_rand()
+prefetch_rng in window_data_layer
+prefetch_rng in ImageDataLayer
+test scale param
+make seed test pass by setting up new layer to generate the 2nd sequence
+cleanup data_layer, add prefetch_rng_ field to it and use instead of rand -- seeded tests still fail
+add tests for random crop sequence -- currently both fail
+add data layer crop tests
+add random_seed field to SolverParameter and have solver use it -- already works for lenet, doesn't work for imagenet w/ rand() calls
+add forward tests (via reference impl) for SigmoidCrossEntropyLayer
+make CheckGradientExhaustive fail for topless layers
+do the same as prev commit for ImageDataLayer
+fix bug where DataLayerPrefetch creates its own Caffe singleton, causing the phase to always be set to TRAIN (always random crops) and RNG failures
+fix typo pointed out by @yinxusen
+Comment current forward/backward responsibilities
+Proofread install docs
+installation doc update
+fix examples path in mnist leveldb sh
+remove now unused set_generator and related code
+pass caffe rng ref into variate_generator constructor instead of having caffe rng adopt its state
+remove unnecessary return from void set_generator
+note support for non-MKL installation in dev
+add ShareTrainedLayersWith method and use for test net in solver
+change to correct next layer id for merge
+clear sigmoid top vec at initialization
+add sigmoid cross ent layer unit tests
+mnist_autoencoder_solver cleanup
+change lenet dir to 'mnist' in docs
+make solver able to compute and display test loss
+mnist autoencoder test proto bugfix: add sigmoid layer before loss
+enable DataLayer to output unlabeled data
+add mnist autoencoder example necessities (sigmoid cross entropy loss layer, sparse gaussian filler)
+include pretrained snapshot and performance details
+Document AlexNet model, include download script
+define AlexNet architecture
+rename lenet dir to mnist
+Give choice of ATLAS, MKL, and OpenBLAS (with option to override paths)
+rename python include config var to match lib
+Add possibility to use OpenBlas
+sigmoid layer backward pass optimization: don't recompute forward pass
+change Adopt -> Share as suggested by kloudkl
+add Adopt{Data,Diff} methods to blobs to enable "virtual copying"
+add unit tests for cpu/gpu copy functions
+change some unnecessary TYPED_TESTs to TEST_Fs
+fix lint errors by adding 'explicit' to new single arg pycaffe constructors
+polished ignore
+polished ignore
+Back-merge docs and example image changes from `master` to `dev`
+add using std::isnan and use this-> when calling Test{For,Back}ward
+fix osx 10.9 condition in Makefile
+include vecLib BLAS dir on osx
+change true_std to intended bernoulli_std
+more rng test cleanup
+re-time imagenet example on k20, instead of my laptop
+change *Plus* tests to *Times* tests because the Plus tests don't actually check for uncorrelated RNG results
+add analogous caffe_gpu_rng_* functions for gaussian and uniform, and add test cases
+have rng_stream initialize RNG if not already initialized
+make RNG function outputs the last argument per Google C++ style guidelines
+make RNG function names more similar to other caffe math function names
+gpu_hamming_distance fails unit test with fixed RNG; mark it NOT_IMPLEMENTED with TODO to fix and disable its unit test
+cleanup RNG unit tests
+make rng_ a private member of Generator
+cleanup test_math_functions
+comment to explain the purpose of Caffe::set_generator
+fix bernoulli*bernoulli test, now all pass
+call caffe_set_rng at the end of each vRng function to maintain state
+add bernoulli*bernoulli test
+cleanup log messages
+add analogous test for uniform instead of gaussian
+add test demonstrating weird boost RNG issue when sampling from a gaussian followed by a bernoulli
+Comment out MATLAB by default in Makefile.config
+rename doc deploy script for better tab completion
+Drop Lena image in favor of a cute cat photo
+auto-configure linux/osx build differences
+trivial makefile grooming
+update proto field IDs from placeholder values
+cleanup power layer test suite
+minor unit test cleanup
+cleanup extra LRN method names
+don't recompute pre_pad
+remove unnecessary local variables from EltwiseProductLayer
+minor polishing
+replace old cifar full with within channel LRN (per cuda-convnet layers-18pct) -- slightly slower (5000 iters now takes 6:57; took 6:43 previously), but slightly more accurate (exactly 82% test accuracy; got 81.65% before)
+merge LRNMapLayer into LRNLayer with norm_region proto field
+fix some param bugs
+add cifar example using LRN_MAP (just like the cuda-convnet layers-18pct architecture) instead of LRN
+use bvlc copyright
+use split layer in LRNMapLayer
+bug fix: average pooling already divides by N^2
+add padding for average pooling
+use average pool instead of conv
+add unit tests for new layer types
+add LRN within map layer and dependencies (eltwise product and power)
+blas install docs, other install polish
+Back-merge documentation and fixes
+format installation docs, add links
+Add hdf5 requirements to 10.9 notes, drop cmake (not linked)
+fix im2col height/width bound check bug (issue #284 identified by @kmatzen)
+Doubled protobuf Bytes Limit
+fix im2col height/width bound check bug (issue #284 identified by @kmatzen)
+separate CPU from GPU ConvolutionLayerTests
+make height/width of input dims in conv layer tests more different to expose bug (GPU tests now fail due to the bug)
+pycaffe: expose SGDSolver.solve
+pycaffe: introduce CheckFile helper
+pycaffe: expose SGDSolver.net
+switch from inheritance to directly overriding methods for caffe.Net
+make Solver::net return a shared_ptr rather than a raw pointer
+pycaffe: expose SGDSolver
+add string constructor to Solver (analogous to Net)
+strip confusing confusing comment about shuffling files
+gitignore python/caffe/proto/; superclean ignore data dir
+add /etc/rc.local hint for boot configuration of gpus
+Include k40 images per day benchmark
+drop caffe presentation in favor of dropbox link
+make build_docs.sh script work from anywhere
+proofread, fix dead link, standardize NVIDIA capitalization
+Added Link in index.md to perfomance_hardware.md
+Added Performance and Hardware Tips
+include build/ before other dirs so old proto built files in src/ and include/ don't interfere
+remove silly thing where I copied proto headers to a separate build/include dir
+matcaffe fixes
+fix test bugs and minor cleanup
+cleanup python build and clean
+compile test bins directly into build/test
+add test header dependency and fix mat targets
+minor cleanup
+libcaffe.* in build/lib/
+everything prints a blank line after compiling
+lots of corrections to dependencies etc., things seem to mostly build coherently now
+messed around with Makefile - currently in very messy state
+cleanup superclean output
+put proto-generated .cc and .h files in build directory
+create softlink to test directory at build/test
+create superclean Makefile target to delete all files with generated extensions
+put TEST_GPUID in Makefile.config
+seed boost rng with cluster_seedgen by default
+Add a space before the error string
+Add curandGetErrorString and use it to redefine CURAND_CHECK
+Add caffe::cublasGetErrorString and redefine CUBLAS_CHECK with it
+Define CUDA_POST_KERNEL_CHECK with CUDA_CHECK
+Log error string rather than enum value in CUDA_CHECK
+Removed empty space, verified lint
+Added default values to matcaffe_batch for testing
+Added matcaffe_init to easy reuse of caffe initialization
+Removed fillers from imagenet_deploy
+Created reset command and changed END to NULL again
+Added prints to matcaffe_demo stages
+Cleaned matcaffe.cpp to pass lint
+Changed matcaffe_demo to return maxlabel
+Changed Copyright to BVLC
+Resolved merge conflicts
+Use CUDA_KERNEL_LOOP in the macro DEFINE_AND_INSTANTIATE_GPU_UNARY_FUNC
+Implement and test gpu hamming distance
+Rename caffe_hamming_distance into caffe_cpu_hamming_distance
+make lint check for 'Copyright [year] BVLC and contributors.'
+compile the copyright regex
+imagenet fix: ilvsrc -> ilsvrc
+rename test_innerproduct_layer to test_inner_product_layer
+move ReadNetParamsFrom{Text,Binary}File into util
+add NetParameterPrettyPrint so that upgrade tool prints inputs before layers
+update docs (and a couple comments) for refactored layerparam
+fix upgrade_net_proto names
+minor cleanup
+add support for hdf5 output layer
+cleaner version of refactoring with fields added to LayerConnection (which retains an optional V0LayerParameter field for legacy support) and LayerConnection renamed to LayerParameter
+some post rebase fixes -- copyright, hdf5_output layer (still need to incorporate into util/upgrade_proto)
+rollback previous commit adding version number to NetParameter -- going a different route
+add NetParameter required version number as breaking change for V0NetParameter
+allow upgrade_net_proto to also read/write binary protos (e.g. saved models)
+regenerate imagenet_val feature extraction prototxt with missing IMAGE_DATA params
+make all tools backwards compatible with v0 net param
+upgrade images layer
+upgrade remaining prototxts
+upgrade_net_proto: allow input files already in new proto format
+fix upgrade_net_proto name
+incorporate WindowDataLayer into V0Upgrade and add tests
+update deprecated protos to latest dev versions
+make test_protobuf use NONE for dummy layer instead of SPLIT
+some naming standardization: ImagesLayer -> ImageDataLayer (like other data layers), and load_hdf5_file_data -> LoadHDF5FileData
+alphabetize classes in vision_layers.hpp
+some cleanup - lowercase layer class member variable names
+remove padding layer
+fix test_net for refactor
+incorporate WindowDataLayer
+rebase and fix stuff, incorporate image and padding layers
+fix layertype alphabetization
+fix lint errors
+fix post-rebase param bugs
+convert existing models to new format (used tools/upgrade_net_proto with no manual editing)
+LayerType enum
+put inputs before layers in the proto so they print in that order
+add test for input/input_dim and fix bug, wasn't copying input
+add upgrade_net_proto tool
+fix insert_splits for new layer param format
+add test which includes upgraded params
+add imagenet upgrade test and fix bug in upgrade_proto
+more padding layer upgrade tests
+imagenet padding upgrade test
+set correct bottom blob name in upgraded conv layer
+function to upgrade padding layers
+make solver use upgrade_proto (by constructing net with a string) and fix upgrade_proto bugs
+add deprecated protos to PROTO_OBJS in makefile so things compile; other minor cleanup of includes etc
+make ReadProtoFromTextFile not die on parse failure; add ReadProtoFromTextFileOrDie which has the old functionality
+add V0NetParameter and UpgradeV0Net
+caffe.proto: layer->layers
+add v0->v1 'bridge' proto and add util that uses it
+move caffe.proto.v0 -> deprecated/caffe.v0.proto and add separate target makefile target for it
+update tests for new proto format; now they compile
+changes to layers etc to make 'make all' run successfully under new caffe.proto
+add duplicated params from InnerProductParam to ConvolutionParam and PoolingParam etc, create InfogainLossParam
+HDF5DataParameter message and concat_param
+NetParameter.layers -> layer
+remove LayerConnection from proto, bottom and top now in LayerParameter
+move LayerParameter and individual layer param messages to bottom of caffe.proto
+move individual layer parameters to individual proto messages
+create file caffe.proto.v0 which duplicates current caffe.proto
+fix caffe.proto style bugs
+add DEBUG option to Makefile/Makefile.config.example
+tools should have nonzero error exit codes
+passing too many args to tool binaries is an error
+change hdf5 output layer test output file to a tmpnam rather than hard-coded path
+installation proofreading, split parallel compilation
+note copyright assignment in development guide
+Standardize copyright, add root-level CONTRIBUTORS credit
+removing lena in favor of cat
+Add packages installation command for CentOS/RHEL
+Add in doc how to remove leveldb dir if existed
+fixed compilation error on window_data_layer.cu in 10.8
+Add headers to build on OS X
+Separate WindowDataLayer::Forward_gpu into a cu file
+Separate ImagesLayer::Forward_gpu into a cu file
+Separate HDF5OutputLayer::Forward_gpu/Backward_gpu into cu file
+Rename signbit in macros to sgnbit to avoid conflicts with std::signbit
+Add signbit math func, simplify GPU defs & instantiations with a macro
+Add and test non-in-place scale math functions for CPU and GPU
+Use macro to simplify element wise cpu math functions
+Add and test element wise abs math functions for CPU and GPU
+Instantiate caffe_cpu_sign for float and double
+Add and test element wise sign math funtions for CPU and GPU
+Add and test sum of absolute values math functions for CPU and GPU
+Rebase and change the HDF5OutputLayer::Forward/Backward signatures
+Add HDF5OutputLayer to the layer factory
+Implement and test HDF5OutputLayer
+Implement HDF5 save dataset IO utility function
+Set copyright to BVLC and contributors.
+Hide boost rng behind facade for osx compatibility
+lint
+clean up residual mkl comments and code
+Added extern C wrapper to cblas.h include
+comment out stray mkl includes
+make MKL switch surprise-proof
+rewrite MKL flag note, polish makefile
+major refactoring allow coexistence of MKL and non-MKL cases
+Replace atlas with multithreaded OpenBLAS to speed-up on multi-core CPU
+fix bernoulli generator bug
+add bernoulli rng test to demonstrate bug (generates all 0s unless p == 1)
+change all Rng's to use variate_generator for consistency
+use boost variate_generator to pass tests w/ boost 1.46 (Gaussian filler previously filled in all NaNs for me, making many tests fail)
+make uniform distribution usage compatible with boost 1.46
+mean_bound and sample_mean need referencing with this
+nextafter templates off one type
+relax precision of MultinomialLogisticLossLayer test
+compile caffe without MKL (dependency replaced by boost::random, Eigen3)
+loss in forward pass fix for window data layer
+Back-merge documentation and script fixes
+fix script path incantation
+convert css indentation to spaces
+fix cifar10 leveldb creation path
+wget without checking certificate for dropbox (dodge complaint on linux)
+docs: added list of contributors
+minor style update of docs
+minor cleanup in rcnn-finetuning -- rcnn feature computation tested at this commit (in addition to all caffe unit tests passing)
+cleanup matlab demo
+add initialization key for verifying state
+demo on how to get net weights using the matlab interface
+return model weights
+keep DLOG (revert accidental switch to LOG)
+file pascal finetuning prototxt examples and fix paths
+set default to the best value
+some cleanup
+fix paths
+support for tightest square mode while finetuning
+10x learning rate for fine tuning makes a big difference
+support for adding padding to windows in the window_data_layer
+Code that was used to finetune with reasonable success
+some major bug fixes (includes some to-be-removed debugging code)
+adjustments to try to match the setup for fine tuning with cuda-convnet
+define pascal finetuning models
+add window data layer
+post rebase fixes: images layer and padding layer compute loss in forward
+null pointer defaults for forward loss outputs
+loss in forward pass for concat layer (thought i'd rebased to latest dev but apparently not)
+fix softmax loss layer bug; all tests pass
+remove accidentally added empty line
+revert unnecessary reordering of lines in softmaxwithlosslayer backward
+gradient checker optimization with forward pass loss: only need to run backward pass to compute analytic gradient (the thing being checked) now
+test_gradient_check_util: blobid -> blob_id
+make tests compile and pass
+fix net_speed_benchmark so 'make all' works
+change specification of forward/backward function and fix layer definitions appropriately
+File naming convention requires that two words be split by a underscore
+Wget should never be quiet
+Explain how to get the mean image of ILSVRC
+Change generate file list python script path in feature extraction doc
+Removing feature binarization and image retrieval examples
+Move binarize_features, retrieve_images to examples/feauture_extraction
+Add documentation for the feature extraction demo
+Add a python script to generate a list of all the files in a directory
+Don't create a new batch after all the feature vectors have been saved
+Use lowercase underscore naming convention for Net blob & layer getters
+Move extract_features, binarize_features, retrieve_images to tools/
+Save and load data correctly in feat extracion, binarization and IR demo
+Change feature binarization threshold to be the mean of all the values  rather than zero in the feature binarization example
+Enhance help, log message & format of the feature extraction example
+Add __builtin_popcount* based fast Hamming distance math function
+Simplify image retrieval example to use binary features directly
+Add feature binarization example
+Add feature extraction example
+Add image retrieval example
+Add and test Net::HasLayer and GetLayerByName
+Add and test Net::HasBlob and GetBlob to simplify feature extraction
+Remove cudaSetDevice(1)
+arrange example images, update paths, bring back imagenet_pretrained
+also fix for runtest
+add libcaffe.a to TEST_ALL_BIN dependencies in Makefile
+use CUDA_KERNEL_LOOP in padding layer
+fix remaining lint errors
+fix remaining issues related to CUDA_KERNEL_LOOP
+fix kernel loop bugs, compiles and passes all tests
+addd CUDA_KERNEL_LOOP macro
+lint, except for rand/rand_r
+drop models/ in favor of examples/
+fix README links to presentation and development section
+build_docs script
+groom docs, move Caffe presentation to dropbox
+minor fixes suggested by evan
+removing notebooks in docs, updating instructions
+minor fix to caffe model DL script
+Set phase to TRAIN when performing backward pass
+Add support for md5 checksum on OS X
+Avoid repeatedly downloading caffe reference imagenet model
+Display total num of processed files after computing image mean
+minor mnist example update
+link draft CIFAR-10 example
+sort layer factory's list alphabetically
+fix style bugs in new layers' proto fields
+Back-merge documentation and historical PRs to master
+proofreading
+Draft CIFAR-10 doc and cleanup example
+Raise Python exceptions if CaffeNet input files don't exist
+Add comment explaining placement of system headers in C++ Python module
+Add the feature and filter visualization example (Lena) to docs
+Add ImageNet Lena filter visualization example
+style: line continuation spacing
+bring back padding test and lint it
+bring back padding layer with deprecation notice
+Move semicolon to appease lint
+minor
+Lint errors fixed, except still using stream.
+Making HDF5 blob data non-mutable for copy (minor)
+make runtest with TEST_ALL_BIN obey TEST_GPUID
+Prevent blob from being freed at end of if statement scope
+relax timing checks for commodity GPUs
+HDF5 data now loaded into Blobs; cleaner interface
+readme.md updated with more info about development
+HDF5DataLayer source is now a list of filenames
+DRYing and documenting HDF5 loading code.
+support for more than 2 dimensions in hdf5 files
+Add extra comment on vector_indexing_suite to _caffe.cpp
+Remove spurious constructors from CaffeBlob and CaffeBlobWrap
+Add names to the blobs returned by CaffeLayer
+Expose caffe.Net.params as an OrderedDict
+Expose layers and remove now-redundant params in Python interface
+add hdf5 dependency to install guide
+Publish the Caffe presentation, pi day edition
+note CUDA lib without CUDA driver install for CPU mode
+fix wrapper example paths
+More documentation on running tests (including --gtest_filter info).
+Compile a binary to run all tests at once.
+Update imagenet/wrapper.py to use the new Net interface
+Update detector.py to use the new Net/blobs interface
+Use an OrderedDict for caffe.Net.blobs
+Add a pass-through Python wrapper of _caffe.CaffeNet
+Rename pycaffe.cpp -> _caffe.cpp in preparation for python wrapper
+pycaffe: blobs and params are properties, not methods
+pycaffe: expose ForwardPrefilled
+move if outside of forloop
+compute data mean for float_data
+Update README.md to fix missing } in bibtex
+Changed display top shape to include num and count, Memory required by Data
+Log memory usage while loading a Net
+Add state machine, boost::posix_time based cpu timer & tests for Timer
+Replace CPU timer with newly added Timer to benchmark net speed
+Add Timer to wrap CPU clock_t and GPU cudaEvent_t based timing
+Synchronize GPU before CPU timers start and stop in net_speed_benchmark
+remove specific device id from solver proto
+move model's pad layer into conv layer; add script to create db and train net by 80sec and 18pct model
+add cifar10 80sec and 18pct models, according to convnet
+Back-merge documentation updates from master
+Draft development guidelines, link from README
+minor readme polish
+use absolute path in script
+Splited concat_layer into .cpp and .cu, cleaned lint errors
+Added Tests for Concat Layer, and passed
+Added concat_dim to caffe.proto and ConcatLayer to set of layers
+Code for concat_layer for concat along num and channels dimensions
+fix include order for pycaffe on osx, override lint
+add hardware notes to installation
+outline pull request etiquette
+fix 'make lint' in OSX: seems that NONGEN_CXX_SRCS wasn't getting populated in OSX due to some disagreement in the regex formatting in find...give up on that and use an ugly but reliable chain of -name ... -or -name ...
+polish doc build and deploy and allow other remotes
+fix path for mnist leveldb creation
+fix examples shell scripts: too many dollar signs, not enough coffee
+fix formatting + notebook url of 8c245b5
+update detection example post re-arrangement in #124
+Splitting source files between CUDA and CPU code.
+fix python/matlab wrapper bugs introduced by lint; change linter->lint in Makefile
+make lint will not rerun if successful and no source files have been changed; saves output to build/cpp_lint.log (or build/cpp_lint.error_log on failure)
+cpplint.py -> cpp_lint.py and NOLINT_NEXTLINE -> NOLINT_NEXT_LINE
+add new tools dir to linted dir list
+fix linter errors in examples
+add examples, python, matlab to NONGEN_CXX_SRCS so they are linted as well
+fix compiler warning for test_hdf5data_layer
+fix post-rebase linter errors
+long -> int64_t; all linter errors fixed. woohoo!
+handle linter stream errors
+allow TODO without username
+make test_gradient_check_util methods use pointers for non-const inputs (also change EXPECT_LT and EXPECT_GT pair to EXPECT_NEAR)
+fix most linter errors
+add NOLINT_NEXTLINE to suppress linter errors on nextline
+exclude proto generated files from lint
+add hpp to valid cpplint extensions
+fix matcaffe and pycaffe linter errors
+suppress linter errors due to not including the directory when naming .h files
+Reverse the order of hdf5_hl hdf5 as LIBRARIES in Makefile
+add cpplint.py and "make lint" to run on all c source files
+name blobs and params for their layers in python wrapper
+minor comment edit
+HDF5DataLayer, with test.
+Adding GPU coverage to the DataLayer test.
+remove cuda_timer as is no longer needed
+remove padding_layer and its test
+unified to padding aware version
+remove padding layers in imagenet definitions
+remove the pad=0 case in conv_layer and im2col_layer
+add code to measure timing
+add test code to test the padding aware im2col col2im functions
+implemented padding aware im2col and col2im functions
+Define split layer (merge trick)
+minor cleanup; only get blob_name if needed
+add idempotence test
+add imagenet no split insertion test
+fix split layer insertion bug with in-place layers
+remove unnecessary include
+eliminate some cruft by relying on std::map default initializations
+get rid of messy snprintf string concatenation
+get_split_blob_name returns a string to remove some verbosity
+remove redundant add_bottom (immediately cleared and then re-added)
+add test for layer with two tops that are inputs to multiple layers
+fix comment typo
+remove pointlessly duplicated CheckGradientExhaustive calls (I screwed up when merging, I think)
+change \" in test_split_layer to ' for readability
+allow in place computation of SplitLayer 0th top blob
+give first top split blob same name as bottom blob
+change \n's to less distracting spaces in hard-coded proto strings
+eliminate redundant code with get_split_blob_name method
+some cleanup
+add split layer insertion tests; move split insertion code to util file
+add split layer tests
+add split layer tests
+make split_layer backward obey propagate_down
+Added a test for the tanh layer.
+Added tanh activation function layer.
+bring imagenet docs back to reality
+bring mnist docs back to reality
+fix + rename lenet training script
+harmonize imagenet example, name caffe reference model CaffeNet
+fix mnist, add deploy net example
+TODO cifar example
+everything in its right place
+include model checksum, you never know these days
+fetch caffe_reference_imagenet_model
+swap ilsvrc data with fetch script
+explain ignore, and ignore data, models, and examples
+file models
+fix mnist comments in cifar example
+Make tools/ for core binaries, stow scripts/ in tools/extra
+file mnist
+add imagenet mean file
+move imagenet splits + synsets to data
+minor README fix
+More comments in Makefile.config.example
+more instructions on how to contribute
+Updated README with doc info
+Safer docs/ build process: into own folder
+improved docs-building script
+Moving gh-pages docs to docs/ folder, with script to build them
+Properly index windows in detector list mode
+fix detector's coordinate mapping for images smaller than IMAGE_DIM
+don't pass LDFLAGS when only performing compilation (-c)
+add contributing guide
+Enforce that new_height and new_width are both 0 or both > 0
+Renamed input_layer to images_layer
+Added the option to resize_image to resize images using cv::resize while reading them
+Added input_layer to set of layers and to factory
+Draft for Input_layer copied from Data_layer
+remove unnecessary include
+eliminate some cruft by relying on std::map default initializations
+get rid of messy snprintf string concatenation
+get_split_blob_name returns a string to remove some verbosity
+remove redundant add_bottom (immediately cleared and then re-added)
+add test for layer with two tops that are inputs to multiple layers
+fix comment typo
+remove pointlessly duplicated CheckGradientExhaustive calls (I screwed up when merging, I think)
+change \" in test_split_layer to ' for readability
+allow in place computation of SplitLayer 0th top blob
+give first top split blob same name as bottom blob
+change \n's to less distracting spaces in hard-coded proto strings
+eliminate redundant code with get_split_blob_name method
+some cleanup
+add split layer insertion tests; move split insertion code to util file
+add split layer tests
+add split layer tests
+make split_layer backward obey propagate_down
+add SplitLayer and Net::AddSplits to transform shared bottom blobs into split layers
+define by := (no need for re-expansion)
+python requirements: don't fear the future
+add shebang to python scripts
+add macro for numpy < 1.7
+fixed copyright
+sigmoid layer cpu and gpu code
+added sigmoid layer
+selective_search_demo final updated version
+detector.py refactored with argparse (was gflags)
+Updated detection demo notebook. - Works with new detector.py - Everything is run automatically from cells.
+git-ignoring ipython notebook checkpoints
+moving selective_search_demo notebook to examples/
+Update LICENSE
+bugfix regarding #100
+Update net.cpp
+Set data_size_initialized to true after data_size is initialized
+add CXXFLAGS for libstdc++ on OS X 10.9
+Add script to resize and crop images in parallel using mincepie
+Check data size when converting images into leveldb
+include pip requirements.txt for python deps
+Remove trailing whitespace in example gnuplot script
+Add python matplotlib example to plot the training log
+Add gnuplot example to plot the training log
+Update script to parse log format that contains test iteration
+Print iteration along with every test score in Solver::Test
+Extract elapsed seconds since the start of solving from training log
+Extract learning rate from training log
+replace bundled install instructions with link to site
+Use sed instead of awk to find the Iteration
+Update parselog.sh
+Extract Iteration from log instead of computing it from parameters
+Added bash script to parse log and extract training loss, and test loss and accuracy
+More detailed net_speed_benchmark
+fix path problem in train_mnist.sh
+Rename devicequery.cpp to device_query.cpp
+Update solver.cpp
+Update caffe.proto
+Update devicequery.cpp
+Added device_query.cpp to examples/ to get basic information about the current GPU device or other device_id
+Added device_id to solver.prototxt and to solver.cpp
+fix flatten layer backwards to dummy return
+removing Makefile.config
+os x installation instructions
+Makefile.config removed in favor of .example file with more verbose explanations of paths.
+remove linking against mkl_intel_thread: unneeded and gives hard-to-debug errors on os x
+note pretrained model licensing: academic / non-commercial use only
+read single input, load/save csv, and record windows
+remove outdated reference to input size, debugging print
+choose proper thread number per block according to CUDA architecture.
+fix program path.
+align detector comments to reality
+Save the last batch of data in image set conversion
+detect by window list
+replace magic numbers with variable names in comments
+fix ImageNet solver max iteration typo
+automagically set detection batch size from network
+document power_wrapper -> detector in detection notebook
+promote power_wrapper to 'detection' submodule
+groom power_wrapper flags (cont'd)
+note power_wrapper TODOs
+generalize power_wrapper to different networks and inputs
+groom power_wrapper flags
+python lint
+ignore distribute dir
+give batch size efficiency advice
+default power_wrapper batch size to 10 (aeca741a69 cont'd)
+Do snapshot after computing loss and test accuracy
+include install notes
+include intro, license, and citing in README
+License under BSD
+cleanup whitespace
+setting default power_wrapper batch size to match the imagenet_deploy prototxt
+Expose params in Python interface
+Add Python interface to layer blobs
+Add removing distribute directory when make clean
+Add make proto target to seperately generate caffe/proto/caffe.pb.h
+Seperated build, distribute and source directories
+change imagenet_val batch size from 200 to intended 50
+point caffe url to bvlc
+bringing license up to date with gh-pages version
+updated detection demo notebook with picture of two cats
+minor edit
+selective search notebook and renaming to power_wrapper
+fixed bug that renormalized window crops on second resize
+center_only and corners modes work correctly
+processing images in batch, with option to use selective search window proposals
+renaming"
+Update README.md
+fix really stupid bug in flatten layer (and add test that shows the failure case; not sure why CheckGradientExhaustive didn't catch it)
+lenet.prototxt loss layer rename
+mnist train script
+Several changes:
+get_mnist.sh: changed the script to generate leveldb as well.
+convert script: spacing
+modify makefile to recompile on changes to header files
+Update README.md
+add flatten layer
+net.cpp: LOG to DLOG
+io.cpp: changed back CV_LOAD_IMAGE_COLOR for earlier versions of opencv
+Update io.cpp
+git ignore
+net speed benchmark: set device 0
+removed the -Wl flag which was an earlier experimental try
+makefile update
+makefile: add both lib and lib64 to the cuda library path.
+makefile: added a MATLAB_DIR variable. pycaffe and matcaffe will not be compiled in default unless one calls make pycaffe or make matcaffe explicitly.
+update Makefile and add some more docs
+cleanup and include ILSVRC mean image
+first pass at matlab wrapper (somewhat messy still)
+fix Makefile problem
+fixed minor typo in imagenet wrapper
+cleaned makefile a little bit
+remove remaining distributed solver stuff
+remove caffe header for distributed solver
+removed the unsuccessful distributed solver code
+fix pycaffe dependency
+fixed the missing CV flag
+makefile: not compile test in default
+makefile: fixed the nvcc path
+io.cpp: changed the imread flag to cv::IMREAD_COLOR
+added explanation notes to syncedmem
+imagenet_solver.prototxt: added back the missing test line, not sure when it slipped off the repo
+imagenet deploy prototxt: instead of having a data layer, this network proto takes an external blob called data. The shape is hardcoded to accompany the imagenet python wrapper at python/caffe/imagenet/wrapper.py. You need to change the shape if you intend to use other shapes.
+print status message on error opening leveldb
+removed the StillFresh function that was used to make sure training does not happen with an earlier version of code.
+Made a major change: when initializing a network, the input size are no longer provided by an additional vector of blobs, but should be specified in the netparameters proto by the field "input_dim". This avoid the often awkward code of creating a dummy input vector just for the sake of initializing the network.
+wrapper update
+finetune code
+pycaffe: added a temporary numpy 1.6 compile solution
+misc update
+pycaffe update and imagenet wrapper
+pycaffe update
+linecount improvement
+ilsvrc 2012 mean
+removed obsolete scripts
+python reorganization
+changed makefile, and removed the no longer needed cuda convnet translator.
+changed the python file paths
+added pycaffe wrapper. Preparing to clean the structure
+remove python deps
+stochastic pooling: avoid nan
+io.hpp bugfix
+added infogain loss layer
+bugfix
+misc update
+ilsvrc 2012 train file list
+distributed solver still having bugs. Pausing for now...
+distributed solver: small fix, still bugs
+distributed server update. bug in synchronous connections.
+data layer: random skip
+working asynchronous sgd code. may have errors.
+distributed solver - not checked thoroughly
+solver minor change
+accuracy layer: also produce logprob
+imagenet solver 2nd try
+imagenet test prototxt
+solver restructuring: now all prototxt are specified in the solver protocol buffer
+stochastic pooling test
+test convolution more thoroughly
+script to convert cifar data
+script to get cifar
+test net scripts
+data_layer: more clear logging
+syncedmem: added code to not use cudamalloc/cudafree
+data_layer: do center cropping when testing
+common.cpp: rand seed fix
+pooling layer: added stochastic pooling layer, not tested, compilable
+convert_imageset.cpp script: added error message
+caffe common cpp: fixed an embarassing bug
+removed an accidental mnist update
+python code: use BGR order to match the C++ code
+syncedmem bugfix
+option to run on cpu without gpu
+imagenet solver: a better decreasing policy
+bugfix and made the C++ interface for creating leveldb
+added back opencv dependency and convert scripts
+added back opencv dependency and convert scripts
+regarding https://plus.google.com/113952791760990667476/posts/Q5fwQY6JeEq - stopped the adagrad attempt.
+neuron layer test: added bnll
+bugfix
+bnll
+removed the old transcribe script.
+pushing missing checkout
+reverted the layer register effort. Live today, fight tomorrow.
+simply inreasing report interval
+transcribe leveldb
+put registration commands to cpp files
+Register pattern for layers
+icsi makefile for the record
+common.cpp rand seed:  do time(NULL) so we can have different initializations
+data layer race condition bugfix
+solver stepsize: float -> int32
+conv layer warning
+prefetcher race condition
+common: added DeviceQuery() function
+conv_layer bugfix
+script t- write leveldb
+train_net update
+net update
+cosmetics
+imagenet scripts and synset files
+need backward computation, and train_net resume point. Not debugged.
+allow setting custom weight decay
+data layer log
+imagenet prototxt: init bias 0.1
+unchecked: using mean file.
+compute image mean code
+freshness
+cleaning codes
+mnist demo
+add mnist data
+mnist updates
+Reorganization of codes.
+removed the net proto test that relies on external data
+solver: added snapshotting ability
+indentation
+Moved the layer factory implementation to cpp; added snapshot and restore functions to solver.
+draw a network proto
+pyutil update
+allow in-place neuron layers
+common.hpp linting
+embarassing update
+license
+added custom learning rate for individual blobs
+caffe relu layer update, not sure if it's useful or not
+pooling layer: max pooling: removed the max threshold
+require sm_2x and above
+snapshot. prepare to debug
+removed opencv dependency for easier distribution
+data layer pthread function fix
+makefile cleaning: now it supports -j while the old version has bugs in dependencies
+misc update
+blob math preparation
+cpplint
+dropout serious bugfix. Seems to be working...
+relu gradient: >=0 -> >0
+cleaning some logging print
+layer initialization
+misc update
+misc update. Moved the data to caffe/src/ and will not store it in the repo any more. changed the pooling behavior so now ave pooling runs according to the pooling region size.
+softmaxwithloss layer: softmax + loss
+misc update
+working on translator
+misc update
+common.hpp/cpp update, and lenet using random subcrop
+misc update
+add tcmalloc
+caffe test convolution
+misc sample programs
+data layer: using pthread
+bugfix
+scripts to convert dataset
+datalayer random cropping, not tested
+misc update
+misc update...
+lenet training code
+mnist network generation
+solver
+euclidean layer update
+mnist leveldb data generation
+layer more debug msg
+data layer: allow scaling and subtraction
+convert scripts
+data conversion
+simple forward test
+a bunch of updates.
+test loading from text file
+blob cpp bugfix
+updated a bunch of things, ready to test if it breaks things
+started writing solver
+ blob
+more restrictions.
+more cpplint
+cpplint
+make caffe.hpp the only header one need
+io
+xavier filler
+inner product bugfix
+forgot to add the renamed file
+inner product bugfix: not tested yet
+softmax bug fix and net testing
+net
+a lot of modifications - disallow copy constructors and misc
+multinomial logistic loss
+softmax test
+bugfix
+caffe proto txt
+softmax layer, test to be written
+test code log
+net cpp working version
+data layer modification, and net header
+pyutil
+python init
+cpplint
+renaming
+data layer testing
+a few updates
+proto update
+more cpplint
+more cpplint
+pylint and code cleaning
+copyright message
+the previous submit did not include the layer factory (blush)
+layer_factory, and misc update
+pooling layer
+pooling layer cpu
+Update README.md
+naming. I might regret it someday.
+minor updates
+lrn backward
+lrn layer gpu forward
+fixed bug
+convolution layer. I might have broken something in im2col.
+layer implementation now purely in layer.hpp
+code cleaning
+im2col works
+wording
+im2col: using cpu for now.
+non-working version
+im2col backward gpu
+im2col
+makefile
+bugfix for lrn
+makefile bugfix
+changed the test structure
+minor update
+exhaustive test mode
+gradient
+renaming
+lrn forward
+fix
+misc update
+misc update
+fix test: skip if gpu version too low
+padding layer cuda code, need debug
+inner product
+inner product forward backward
+update
+update
+bugfix
+gemm util
+updates
+naming
+working version
+comment out debug log
+figured out the bug - it's curand
+embarassing bugfix
+misc update
+working gradient check
+misc update
+gradient check test
+misc update
+misc update
+misc udpate
+misc update
+misc update
+working update
+working update
+working halfway into dropout, machine down, changing machine
+test update
+exclude precompiled protobuffer
+makefile
+Makefile
+makefile
+misc update
+misc update
+misc update
+misc update
+misc add
+some updates
+common.hpp update
+misc update
+failing test, needs to be checked.
+man I am changing ideas so fast.
+organization
+misc test updates
+makefile order fix, more test.
+run test when make test.
+converted to glog
+compilable now.
+common bugfix
+a bunch of updates. to be checked on durian. does not build.
+first try
+Initial commit

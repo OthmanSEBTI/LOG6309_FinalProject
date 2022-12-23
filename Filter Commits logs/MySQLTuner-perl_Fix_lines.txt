@@ -1,0 +1,73 @@
+Fix bug #616 get_pf_memory() returns bogus value
+Fix some master/slave renaming issues (2)
+Fixing BIGINT UNSIGNED value is out of range error
+Fix some master/slave renaming issues
+Fix for Recommendation to turn on performance_schema #579
+Fixing mount point space information
+Fix sql request on PErcona nad MySQL
+Fix MySQL index scans
+Fix key buffer usage multiple-byte units
+Fix `innodb_log_buffer_size` message
+Fix Replication Status
+Fix else+if construction
+Fix typo on `myvar`
+Fix error when `innodb_stats_on_metadata` not defined
+Fix syntax error in grant statement
+Changed http to https. Fixed broken link to original script.
+Fixed spelling of available.
+Fixing before script issue
+Fixing important performance issue during collecting metrics
+Issue #373 Fix for password column on MySQL 5.7
+Issue #373 Fix for password column on MySQL 5.7
+Fixes calculation and display of ratio between InnoDB log files size and InnoDB buffer pool size
+Fix for messages about defragmented tables Schema name must be divided from table name, now both of them joined, so you can't copy-paste recomendations to mysql console. Was:  OPTIMIZE TABLE `test_db.test_table`; -- can free xx MB Must: OPTIMIZE TABLE `test_db`.`test_table`; -- can free xx MB
+Fix typos in Index metrics
+Fix typos and markdown issues
+Fix typo
+Fix Argument "NULL" isn't numeric
+Fix Argument "NULL" isn't numeric
+Fix typos
+Fix typo in README.md
+Fix misprint
+Fixed #245 error when checking for passwordless accounts on MySQL < 5.5
+Fix SQL string concatenation in capitalization during password test
+Fix typo for OPTIMIZE
+Fix #190 changing typo for recommandations on multiprocessor
+Fix #195 single quote enclosed password
+Fix for #197
+Fix Galera checks, make sure we dont say that Galera is enabled when is not, clean-up typos
+Fix is_virtual_machine function return, drop ENV{'HOSTNAME'} for hostname cmd, some machines don't have HOSTNAME set
+Fix grammar
+Merge pull request #168 from DutchProgrammer/buildFailFix
+Fix message for #164 issue
+Fix bug on index selectivity from mariaDB Adding type in index summary
+Merge pull request #153 from 0xbsec/FixInfoAsk
+Fixed asking for username/password when it's already passed.
+Fix typos and replace Chosen with MySQLTuner-perl
+Fix several typos
+Fix identation in russian readme
+issue #98  Fix variable name bug for 32 bits systems
+Fix #83 efficiency calculations values for write/read innodb buffer
+Fix for innodb buffer pool instances when buffer pool is lower than 1Go
+Fixed reporting for temporary tables created on disk. Created_tmp_disk_tables is a subset of Created_tmp_tables
+Fixed wget command.
+Fix for MySQL 5.6 table_open_cache
+Fixed version parse errors for MariaDB 10.x
+Fix detection of Federated engine availability.
+Fixed a Solaris awk bug, found a more reliable way to get the home directory, and fixed a syntactical error. (Thanks to Adam Stein)
+Fixed an issue where the percentage of keys pulled from memory would not exist if no keys have been read since the server started. (Thanks to Simon Greenaway)
+Fixed an issue where null storage engines appeared when querying INFORMATION_SCHEMA.
+Fixed an issue where MEMORY tables would appear in the fragmented table list, which caused some confusion. (Thanks to Gary Barrueto)
+Version bump to 1.0.0-rc1 Fixed memory calculation problem in NetBSD where the amount of memory overflowed a 32-bit integer.  Used "sysctl -n hw.physmem64" rather than "sysctl -n hw.physmem" in those situations. (Thanks to Dave Burgess) Fixed an issue where the script would suggest adding skip-isam to the MySQL configuration in 4.0.x, but the directive wasn't available until 4.1.1. (Thanks to Ryan Novosielski) Fixed an issue with MySQL 5.1 where table_open_cache needed to be adjusted, rather than open_cache. (Thanks to Michael Scheidell and Blair Christensen) Adjusted some misleading wording when MySQL's memory usage is very high relative to the amount of physical memory installed. Increased threshold to 90%. (Thanks to Hans du Plooy) Fixed an issue where MySQL logins failed when a socket was specified but a .my.cnf file was also present. (Thanks to Victor Trac) Added full support for Solaris. (Big thanks to Bill Bradford)
+Fixed an issue with NULL storage engines appearing on some servers.
+Bumped version to 0.9.9 Added --socket option to use an alternative socket (thanks Mark!) Added OpenBSD memory checking support (thanks Giovanni!) Added counts to report lines to provide additional detail Fixed error where disabling BDB was recommended even when BDB tables were present (thanks Greg!) Fixed an issue with big integers (> 2^32) from key calculations (thanks Aubin!) Fixed an error on Solaris machines (thanks Bill!) Fixed an issue where the key buffer calculation caused errors when no indexes were present Added Giovanni Bechis, Greg Eden, Aubin Galinotti, Mark Imbriaco and Bill Bradford to the contributors list
+Version bump to 0.9.1 Added checks for fragmented tables Fixed login routine to allow zero-length passwords without re-prompting for the password repeatedly Added workaround for wget 1.11 timestamping bug Fixed a math error in the temporary table calculations Fixed an error that occurred when the status variable Open_files returned zero Added table cache change in preparation for MySQL 6.x Thanks to Ville Skytta, Trent Hornibrook and Luuk Vosslamber for the bug reports and feature requests!
+Fixed an issue with table_cache in MySQL 6.x (it's now table_open_cache in MySQL 6.x)
+Version bump to 0.9.0 Fixed a bug where NULL may appear when enumerating tables on MySQL 5 MySQLTuner now checks for updates and allows the checks to be disabled
+Bumped to version 0.8.5 Fixed copy/paste bug with OK/!!/-- output (Thanks to Nils!) Fixed a data length calculation bug in MySQL 4.0.x Fixed a key buffer calculation bug in MySQL 4.0.x Added in a notification for situations when no recommendations are available Added Nils Breunese to the contributors list
+Fixed a bug in MySQL 3.23 where the storage engine checks had problems Adjusted some of the Perl code to be more compact, organized, and factored
+Fix for the bugfix in r24.
+Fixed two bugs relating to the database crawler when database names contained a hyphen. (Thanks to Mike Jackson)
+* Added innodb_log_file_size checks * Added 32-bit/64-bit checks and warnings (maximum memory > 2GB = bad) * Fixed temporary table recommendation bug (would never recommend increase) * Fixed thread cache recommendations/warnings * Merged increase/decrease variable recommendations into one category
+Fixed a dumb logic error with the concurrent_insert check
+Fixed bug with 'explainonly' argument.

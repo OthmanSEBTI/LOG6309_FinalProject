@@ -1,0 +1,1213 @@
+Merge pull request #618 from lewart3/get_pf_memory
+Fix bug #616 get_pf_memory() returns bogus value
+[Patch] Legibility and typos, mark 5 #614
+I do not get, why this is showing: Outdated Version, RAM #612
+Using --defaults-file ignores the .my.cnf #605
+[Patch] Legibility and typos, mark 4 #610
+Merge pull request #611 from kochetovd/issues_607
+Update mysqltuner.pl
+typos fixes around version number
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+Updated .gitignore
+Version 2.0.5 [Patch] Legibility and typos, mark 3 #602
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Something broken when correcting "incorrectly reports roles as users without passwords #598" #600
+[Patch] Legibility and typos, mark 2 #599
+Update for MariaDB 10.8 #601
+Try to fix incorrectly reports roles as users without passwords #598"
+Use of uninitialized value $seconds_behind_master #593
+Update needed for MariaDB 10.7 #594
+version 1.9.9 - Legibility and typos #597
+Merge pull request #592 from markruys/master
+Fix some master/slave renaming issues (2)
+New workflow
+--updateversion saves updates to incorrect location #499
+--updateversion saves updates to incorrect location #499
+innodb_buffer_pool_instances(=16) suggested for MariaDB 10.5 which doesn t support it #588
+Merge pull request #590 from josev814/unsigned_big_int_fix
+Fixing BIGINT UNSIGNED value is out of range error
+Merge pull request #589 from markruys/master
+Fix some master/slave renaming issues
+False impression on key buffer usage #573 (3)
+False impression on key buffer usage #573 (2)
+Merge branch 'master' of github.com:major/MySQLTuner-perl
+'name resolution is active' should be OK when cPanel is detected #561
+Merge pull request #586 from major/renovate/actions-checkout-3.x
+Update actions/checkout action to v3
+Merge pull request #585 from major/renovate/configure
+False impression on key buffer usage #573
+Add renovate.json
+Adding AHA section for HTML generation Generating .html reports #448
+Adding AHA section for HTML generation Generating .html reports #448
+Generating .html reports #448 bis
+Generating .html reports #448
+False impression on key buffer usage #573
+Fix for Recommendation to turn on performance_schema #579
+Some experimental staff + update basic template with sortable bootstrap tables
+Updated basics template
+Merge branch 'master' of github.com:major/MySQLTuner-perl
+Adding search field on tables
+Merge pull request #583 from rskuipers/patch-1
+Remove erroneous dot
+Update template
+Adding a Jinja2 Template
+Changing Copyright
+Update USAGE.md
+Please add support for --protocol=TCP #474
+List unsupported storage engine
+Windows support updated across WSL2
+Recommendation on innodb_adaptive_hash_index_partitions #479
+The InnoDB log buffer size recommendation may be tested too strictly #569
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Version 1.9.1 Incorrectly reporting performance schema is off #580 Recommendation to turn on performance_schema #579
+Refactor dbstat part of mysqltuner
+Fixing mount point space information
+Fix sql request on PErcona nad MySQL
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Some display fixes
+Fix MySQL index scans
+Release 1.8.8 #579
+Merge pull request #577 from MichaIng/patch-1
+Merge pull request #578 from MichaIng/patch-2
+Hide recommendation when no key buffer is used
+Do not show thread pool metrics when disabled
+A lot of new info about indexes and table structures
+Merge pull request #575 from MichaIng/imgbot
+Merge pull request #572 from MichaIng/patch-1
+#574 script modified with CR end of line
+Fix key buffer usage multiple-byte units
+[ImgBot] Optimize images
+Adding Releem App link to Readme
+Bad merge roolback
+Wrong recommendation "thread_pool_size between 16 and 36 for InnoDB usage" for Percona Server #551"
+Merge pull request #568 from 64kramsystem/fix_innodb_log_buffer_size_message
+Wrong recommendation "thread_pool_size between 16 and 36 for InnoDB usage" for Percona Server (#551)
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Can't locate Data/Dumper.pm in @INC #564
+Fix `innodb_log_buffer_size` message
+Increment releas number
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Merge done
+clean end line
+Merge pull request #563 from Steve8291/patch-1
+Fix Replication Status
+Merge pull request #559 from willamowius/master
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+fix English grammar
+Illegal division by zero at ./mysqltuner.pl line 2745 #558 Wrong table cache hit rate calculation #548
+Illegal division by zero at ./mysqltuner.pl line 2745 #558 Wrong table cache hit rate calculation #548
+Version 1.8.0: Support MariaDB 10.6 Update needed for MariaDB 10.6 #557
+Create exec.yml
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Increment version
+Wrong table cache hit rate calculation #548
+improve FreeBSD support a bit (patch included) #549
+failed to execute: SHOW SLAVE HOSTS #553
+failed to execute: SHOW SLAVE HOSTS #553
+1.7.26 is fixing minor glitch with DROP USER #555
+Wrong recommendation "thread_pool_size between 16 and 36 for InnoDB usage" for Percona Server #551
+some aliases
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+Some new aliases
+Update mysqltuner.pl
+Update mysqltuner.pl
+Update mysqltuner.pl
+Update README.md
+Update mysqltuner.pl
+Duplicate recommendation/check #545
+Duplicate recommendation/check #545
+Update ReadMe.
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Merge pull request #543 from grooverdan/rename-user
+empty passwords - use exact user/host quoted
+user host recommend - RENAME USER
+Merge pull request #542 from grooverdan/doc_mysql_mariadb_support
+Merge pull request #541 from grooverdan/travis_percona
+Merge pull request #540 from grooverdan/noinnodb
+travis: add percona supported versions
+doc: 5.5 listed as full support
+doc: MariaDB-10.[01] were not support by MySQL
+correct messages on no InnoDB
+Merge pull request #539 from grooverdan/serverlog
+extend server-log for journal/container/pods
+add server-log option for explict server log
+Merge pull request #534 from grooverdan/travis_new
+travis: docker test all versions
+Merge pull request #532 from grooverdan/m10.5-travis-fix
+Merge pull request #535 from grooverdan/snap
+Merge pull request #537 from grooverdan/min_dblist
+Merge pull request #538 from grooverdan/json_total_tables
+Merge pull request #533 from grooverdan/exec_perms
+Update mysqltuner.pl
+Add total_tables to json output
+minimal database list retrieval
+skip snap filesystems
+add execute permissions to mysqltuner.pl
+travis: correct MariaDB-10.5 test
+Merge pull request #529 from grooverdan/supported_versions
+Merge pull request #528 from grooverdan/gtidmode_mariadb
+Merge pull request #527 from grooverdan/mariadbnames
+Merge pull request #526 from grooverdan/anonuser
+Merge pull request #525 from grooverdan/qc
+Merge pull request #524 from grooverdan/aria_myisam
+mariadb gtid mode - base off gtid_current_pos.
+supported version: +mariadb-10.5, eol mysql-5.6, mariadb-10.[01]
+mariadb is using its on name in mariadb/mariadb-admin
+anonymous users - remove password checks
+query_cache off with query_cache_type=OFF OR query_cache_size=0
+Aria/MyISAM cleanup
+Update README.md
+Update README.md
+Add a simple Logo
+Merge pull request #519 from sergey-dryabzhinsky/sergey-dryabzhinsky-patch-1
+Fix else+if construction
+For #518 - use new schema for mariab-10.2+
+Merge pull request #514 from grooverdan/mdb10.4-secure-users
+Merge pull request #515 from grooverdan/delanonymous
+Merge pull request #516 from grooverdan/supported_versions
+MariaDB-10.1 EOL, MariaDB-10.5 is GA
+DROP USER to delete anonymous accounts
+MySQL-5.7/8.0+ auth_socket is safe
+mariadb-10.4+ empty passwords
+Remove innodb_buffer_pool_instances recommendations for MariaDB #512
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+Change version number
+Update README.md
+Update USAGE.md
+Merge pull request #507 from RULCSoft/master
+Remove references to the domain mysqltuner.com. #501
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+Removing windows end of lines
+Update mysqltuner.pl
+Update mysqltuner.pl
+merged
+ local commit
+Merge pull request #473 from unreturned/fix_471
+And for debug line ignore these lines
+Ignore 200122 12:09:15 mysqld_safe Logging to '/var/log/mysql/error.log'. when we count errors in log
+Merge pull request #470 from mrqwer88/README.ru_update
+Update README.ru.md
+Merge pull request #466 from Ruzgfpegk/bugfix/mariadb-sys-update
+Merge pull request #468 from Ruzgfpegk/bugfix/myisam-table_cache-doclink
+Updates link to MyISAM table_cache scalability doc
+Suggest using mariadb-sys from FromDual in script
+Merge pull request #464 from jfcoz/max_allowed_packet
+Include max_allowed_packet in thread memory size
+Issue Typo in commit 6f6130b (ymsql => mysql) (#459)
+Update .travis.yml
+Update .travis.yml
+Update .travis.yml
+Validate YAML format
+Update .travis.yml
+Update .travis.yml
+Merge pull request #457 from maitrepylos/henallux
+SCALAR ref while strict refs
+Update README.md
+Missing password is not recognized #412
+Update version command #428
+About innodb_log_file_size changing recommendation #408
+About innodb_log_file_size changing recommendation #408
+Use of uninitialized value $engine in concatenation (.) or string #350
+Add recommendation on table_definition_cache #433
+Add note about join_buffer_size #434
+Adding clear all mysql containers
+Removing misplaced file
+Update README.md
+Reformatting readme.md
+update readme.md
+update documentation for tests
+Script is failing on MySQL 5.6.10(AWS Aurora) #435
+Update mysqltuner.pl
+Percona Server 8.0 - better support
+Updates on tools for test suites
+Tools for test suies based on Docker
+Renaming staff
+support fetchall feature
+simple load sample manager in command line
+Reordering folder
+Update error log file analysis
+Wrong report of InnoDB Storage engine status #450
+Issue importing sys_10.sql #452
+Bug fix #453
+Update basic_passwords.txt
+Adding dos2unix staff
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Create Vagrantfile_for_MariaDB10.4
+Merge pull request #454 from billynoah/patch-1
+Update mysqltuner.pl
+Merge pull request #451 from elfranne/percona_cve
+update CVE to include Percona
+Merge pull request #447 from Reforced/patch-1
+Merge pull request #449 from acs-ferreira/patch-2
+Add test env for MariaDB 10.4 (GA)
+Add --host to minimal usage locally example
+Merge pull request #444 from ebroto/bugfix/mariadb-sys-incomplete
+Merge pull request #446 from ebroto/bugfix/escape-identifiers-in-table-column-metrics
+Escape identifiers in table column metrics
+Suggest using mariadb-sys from FromDual in README.md
+Refresh config. Vagrant
+Merge pull request #439 from mpirio/fix/innodb_stats_on_metadataVarNotExists
+Fix typo on `myvar`
+Fix error when `innodb_stats_on_metadata` not defined
+Merge pull request #436 from vitaliytv/patch-1
+Merge pull request #438 from 36degrees/patch-1
+Fix syntax error in grant statement
+ cd: mariadb-sys/: No such file or directory
+Merge pull request #431 from atombrella/should_be
+Merge pull request #432 from atombrella/http_links
+Changed http to https. Fixed broken link to original script.
+Corrected grammar for innodb_buffer_pool_size recommendation.
+Merge pull request #430 from 0xflotus/patch-1
+did you mean 'accurate'?
+Illegal division by zero #423
+Illegal division by zero #423
+Missing password is not recognized #412
+Update README.md
+Merge pull request #422 from BarbzYHOOL/patch-1
+README: fix typo
+Merge pull request #421 from BarbzYHOOL/patch-1
+Update README.md
+README: Clear installation and usage instructions
+Update INTERNALS.md #419
+Update INTERNALS.md
+Merge pull request #416 from timhughes/html_report_timhughes
+make report visable when load
+A bit of work on the html report template
+Merge pull request #415 from schatt/master
+Fixed spelling of available.
+Uncaught exception from user code (#414)
+ignore galera check when wsrep_on = 0 #353
+Sys schema on MariaDB #362
+Updated information on README for sysschema and eprformance schema
+Last modification related to options
+Removing employee db for repository
+Removing employee db for repository
+Merge pull request #409 from tcraxs/patch-1
+fix defect link to mysql documentation - #408
+MySQLTuner dont understand Thread Pool in Percona Server 5.7 #386
+MySQLTuner dont understand Thread Pool in Percona Server 5.7 #386
+bug fix in calcualation of wsrep_slave_threads value #305
+wsrep_slave_threads info and test modification
+Wrong warning about table_open_cache #364
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+wsrep_slave_threads #305
+New script for running remote audit and generate HTML report
+Uptime info"
+adding better json outputfile option
+New simple modele for HTML result
+Update travis yml
+Template staff
+Adding test database for test purpose
+Hope to add MySQL 8 support! #377 MySQL 8: disabling Query cache recommandations MySQL 8: check password disabled due to new authentication storage model - Help wanted
+Typo fixes
+Try to use mysql 8.0
+Removing employee set storage_engine directive
+including log output content analysis
+redirecting output to log file with tee
+redirecting output to log file
+Adding tests for MariaDB 10.3
+Adding MySQL 5.7 tests
+Adding link to travis result
+New vulnerabilities list
+Removing uneeded tests and and full tests jobs for Perl 5.16
+Using new name for jobs
+Support for All MySQL and MariaDB on tavis based on Perl 5.10 and 5.24 including tests with sample database called employees
+Adding env var NAME
+Adding env var
+Adding env var
+Fixing before script issue
+Adding jobs label
+Adding databse sample injection
+Updated travis file
+Update travis tests including MySQL 5.5, 5.6, 5.7, 8.0 including more tests using --verbose options
+Update README with performance tips Update README with version information around MySQL 5.5 Adding bashrc file with basic alias for git and directory listing
+ignore galera check when wsrep_on = 0 #353
+Fixing important performance issue during collecting metrics
+New option tbstat
+Merge pull request #400 from mrqwer88/update_README.ru.md
+Update README.ru.md
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+Incorrectly assumes 32bit architecture on s390x systems #390
+Merge pull request #398 from gemal/master
+add newline
+wsrep_slave_threads #305
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+wsrep_slave_threads #305
+Merge pull request #397 from vrkansagara/master
+Minor accessing undefined variable bug to fix eventually #383
+Adding sync.sh for updating the project.
+Merge pull request #396 from vrkansagara/master
+Merge remote-tracking branch 'upstream/master'
+# 393 Peak and max memory usage estimated incorrectly
+Redme visual improvement.
+Merge pull request #395 from vrkansagara/master
+Adding more passwords
+Adding more passwords
+Merge pull request #394 from Maxximou5/patch-1
+Spelling and grammar
+Merge pull request #392 from unreturned/patch-2
+Minor fix undefined value
+Update README.md
+Merge pull request #389 from unreturned/patch-1
+Update travis
+Merge pull request #388 from unreturned/patch-1
+Switch human readable for Data (not need round)
+New Vagrant file for MySQL 8.
+#377 adding 0 as query cache efficiency for MySQL 8
+Ticket #383 Minor accessing undefined variable bug to fix eventually
+Merge pull request #381 from Kyslik/unify-sentence-ending
+End sentence with a period
+Merge pull request #380 from birdie-github/patch-1
+Some fixes
+Merge pull request #379 from schatt/master
+Spelling fixes. Physical theoretically MariaDB
+Merge pull request #2 from major/master
+New vulnerabilities list
+Update staff
+Update README.md
+Trim sub with emtpy string display error #376
+MySQL enterprise: Column recommandations #375
+Clean up staff
+Removing error from Use of uninitialized value $engine in concatenation (.) or string #350
+Avoid use of uninitialized value
+update staff
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+Some information about replication
+Update INTERNALS.md
+Issue #373 Fix for password column on MySQL 5.7
+Issue #373 Fix for password column on MySQL 5.7
+New deploy helper script
+Change year reference
+Latest version has a regression with colored outout #371
+Wrong sort order in MySQLTuner report #363
+Issue #364
+Issue #369
+Issue #371
+Update code, doc and vulnerabilities
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+Small quotes issue
+Merge pull request #370 from jsoref/spelling
+Merge pull request #367 from martinellimarco/master
+Issue #372
+spelling: update
+spelling: replication
+spelling: release
+spelling: recommendations
+spelling: password
+spelling: instance
+spelling: indenting
+spelling: efficiency
+spelling: deactivated
+spelling: considered
+spelling: configured
+spelling: authentication
+Proposed fix for #268
+Proposed fix for #268
+Update git ignorewq
+Merge pull request #366 from joncav/master
+Spelling & Grammar
+Update mysqltuner.pl
+Merge pull request #361 from racker-markh/auth_pam_compat_has_no_password
+Ignore password check for auth_pam_compat plugin
+Merge pull request #354 from wschaft/fix-gcs-limit
+Merge pull request #355 from mrqwer88/update_README.ru.md
+Update README.ru.md
+Changed gcs.limit to gcs.fc_limit, as there's no gcs.limit parameter.
+Merge pull request #347 from tompmeyer/read_log_file_by_line
+Read log file by line
+Merge pull request #346 from tompmeyer/find_real_error_log_path
+Determine real log_error path.
+Merge pull request #345 from rdey/add-support-for-ssl
+Add support to pass ssl public key to mysql connection. Makes it possible to run against servers only accepting connection over SSL.
+Merge pull request #343 from pes-soft/innodb-logsize-suggestion-doc
+add general recommendation for innodb log file changes add information to INTERNALS.md about innodb log file to buffer pool ratio fix buffer pool typos in comments fix code formatting a bit
+Issue #341 debian credentials not overridable from commandline
+New vagrant file based on Centos 7
+Merge pull request #338 from IWriteThings/IWriteThings-patch-brew-install
+Update README.md
+Performance Schema Issue #328
+variables not uninitialized #325
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+Issue Performance Schema Issue #328
+Merge pull request #335 from pes-soft/innodb-logsize-suggestion
+New vulnerabities list
+Fixes calculation and display of ratio between InnoDB log files size and InnoDB buffer pool size
+Merge pull request #334 from koskv/fix_galera
+Read the value of wsrep_slave_threads from the right place.
+Update vulnerabilities list
+Merge pull request #330 from vladisalv/master
+Merge pull request #331 from adaugherity/fix_version_cmp
+fix micro version comparison
+refactoring: pod documentation
+output help message using pod2usage instead duplicating pod documentation in usage() function
+fix: add newlines before pod command paragraph + newline before __END__
+New vulnerabilities list
+Merge pull request #327 from AnotherOneAckap/optimize_table_messages_fix
+Fix for messages about defragmented tables Schema name must be divided from table name, now both of them joined, so you can't copy-paste recomendations to mysql console. Was:  OPTIMIZE TABLE `test_db.test_table`; -- can free xx MB Must: OPTIMIZE TABLE `test_db`.`test_table`; -- can free xx MB
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+Adding a note for XtraDB
+Support column analysis with produre analyse
+Incorrect suggestion for ratio InnoDB log file size / InnoDB buffer pool size #322
+Missing argument requirement for cvefile in mysqltuner help #321 Schedule for releases on github #320
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+Update vulnerabilty list
+Merge pull request #319 from timstoop/index-metric-typo
+Fix typos in Index metrics
+Default host should be 127.0.0.1 #312
+bug fix on swappinness to 10 for Galera
+Add quotes #311 Use https instead of http #317 typo, space missing before is #315
+Merge pull request #318 from Red54/patch-1
+Disable query cache.
+The query cache should be disabled in MariaDB 10.1
+Merge pull request #313 from ktaranov/master
+Fix typos and markdown issues
+bad calculation for pct_wkeys_from_mem #303
+Merge
+Version 1.7.1
+Merge pull request #310 from emphazer/patch-1
+Check whether hyperthreading is enabled or not.
+MErge beetween all staff related to Galera Cluster
+Merge pull request #307 from jfcoz/master
+Merge branch 'master' into master
+Merge pull request #309 from ofigueroa/bugfix_gcs_fc_factor_evaluation
+Bugfix resolve #308 : gcs.fc_factor parameter evaluation and the message report, which referencing wsrep_slave_threads instead.
+Merge pull request #306 from ofigueroa/bugfix_unitialized_value
+add checks for wsrep_slave_FK_check and innodb_autoinc_lock_mode when wsrep_slave_threads > 1
+Resolved issue #304
+Use of uninitialized value #304 tidify script
+issue #300 Performance schema shouldn t be installed on 5.5 version.
+Adding new indicators for Galera Cluster'
+Update vulnerabilies list Issue #297: decrement version if word before is present in CVe description'
+Merge pull request #298 from black-snow/patch-1
+Merge pull request #299 from greg-kennedy/patch-1
+Do not test skip_name_resolve if skip_networking is ON
+lil' lang fix
+Update git ignore list Adding script to ident, update vulnerabilies list and generate USAGE file
+update USAGE information
+Add advice for performance schema
+Update vulnerabilities list
+Adding #289 adding warning info #271 adding message prescision for in advces message
+Merge pull request #296 from bperel/master
+Fix typo
+Merge pull request #295 from acs-ferreira/patch-1
+Some Markdown typos and fixes
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+#285 Argument "xxxM" isn t numeric in numeric ge (>=)
+Update README.md
+Update README.md
+Adding recommandations for Galera
+Merge pull request #287 from git001/patch-2
+Fix Argument "NULL" isn't numeric
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+Update vulnerabilities list
+Merge pull request #286 from mrqwer88/perlcritic_prototypes_warnings
+Disable zero prototypes in few functions
+Merge pull request #1 from major/master
+Merge pull request #284 from i5513/patch-1
+Allow to connect via socket with not default port
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+Merge pull request #283 from mrqwer88/innodb_file_per_table_check
+fix check innodb_file_per_table with skip-innodb
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+#265 wrong table name
+Merge pull request #282 from jfcoz/master
+query cache hit rate was not calculated when badprint "Query cache may be disabled by default due to mutex contention"
+Merge pull request #281 from mrqwer88/fix_in_log_file_recommandations
+fix code style in log_file_recommandations
+fix error on show last start/shutdowns
+Perl Error #280
+Doesn't work for remote server on AWS #279
+Detect Error and warning in error log #252 Detect last MySQL / MariaDB last shutdown and startup #253
+Bug on log file calculation
+#278 Escaping password items
+Merge pull request #276 from git001/patch-1
+Fix Argument "NULL" isn't numeric
+Update vulnerabilities list
+Bug fix on Galera Gcache mem calculation
+Incorrect innodb log file size calculation #271
+MariaDB GTID mode #272
+Merge pull request #273 from arto-p/hiding_username_and_password_from_commandline
+Merge pull request #274 from mrqwer88/README.ru_update
+Minor grammar improvements to README.ru.md
+Hiding username and password from commandline
+Update README.ru.md
+Merge pull request #269 from michaelmawhinney/typofix
+Minor spelling correction
+Merge pull request #267 from quaisi/master
+Fix typos
+Merge pull request #266 from quaisi/master
+Fix typo in README.md
+New indicators from performance schema
+#265 TOP 15 queries with temp table to disk #260 Memory used > 100% ? #258
+Last modifications
+Merge pull request #263 from henriquemoody/patch-1
+Merge pull request #262 from kn007/patch-1
+Use single quotes around password
+Non importance changes
+Non importance changes
+Non importance changes
+Non importance changes
+Non importance changes
+Non importance changes
+Merge pull request #261 from kn007/patch-1
+Something wrong to print
+Merge pull request #259 from drAlberT/italian-translation
+Fix misprint
+Italian translation finished
+Update indicator number
+Full support performance schema Update vulnerability list Updade INTERNALS doc.
+#258 new rule for innodb log file size (25% of Buffer pool size)
+Translated up to FAQ (excluded)
+Create README.it.md
+Adding new indicators from sys schema
+Redundant indexes"
+* TOP 15 most read tables * TOP 15 most modified tables * TOP 15 high select latency tables * TOP 15 high insert latency tables * TOP 15 high update latency tables * TOP 15 high delete latency tables
+Typo fix
+* TOP 15 most read indexes * TOP 15 most modified indexes * TOP 15 higth select latency index * TOP 15 higth insert latency index * TOP 15 higth update latency index * TOP 15 higth delete latency index
+* Event per wait total latency * Event per wait read latency * Event per wait write latency
+Adding * Event Wait by read bytes * Event Wait by write bytes
+Adding pfs indicators related to File IO
+Update Indicators list
+Adding new Performance schema indicators
+New vulnerability list
+Update README.ru.md
+Update README.md
+Update README.md
+Update README.md
+New indicators from performance schema On the road to 1.7.x version
+Adding Performance stat per user
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+Included a lot of new indicators for PFS when using --pfstat or --verbose option
+Update README.md
+Update doc
+Adding --defaults-file to change credentials storage
+Update README.md
+Update README.md
+Update README.md
+Update INTERNALS.md
+Update INTERNALS.md
+#193 adding some useful extraction for sysschema
+Adding Comment with sys request
+#237 removing ? more info ?
+Merge pull request #246 from rwky/master
+Fixed #245 error when checking for passwordless accounts on MySQL < 5.5
+Removing warnings for SQL request
+Tidyfy code
+Changing version in test for displaying false positive CVE messages
+False CVE detection for mysql 5.50 #235 adding info message
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+Update vulnerabilies list InnoDB buffer pool alignment check appears backward #244
+Merge pull request #243 from cloos/perlcritic
+add perlcritic to CONTRIBUTING.md
+let travis run perlcritic
+fix "Don't modify $_ in list functions"
+get_file_contents calls already remove_cr
+improve message if JSON isn't installed
+fix 'Expression form of "eval"'
+fix 'Bareword file handle opened'
+fix 'Nested named subroutine'
+#196 misplaced semi column
+#242 adjust test for unitialized value
+#242 adjust test for unitialized value
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+#196 correct variable name increment version number
+Update INTERNALS.md
+#155 adding test for consistent values for innodb_buffer_pool_size,innodb_buffer_pool_chunk_size and innodb_buffer_pool_instances
+#196 better thread cache hit rate with pools-of-threads
+#242 initiliaze $data_free to 0 if not defined or is empty
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+#231 #235 bug fix regarding way CVE are selected.
+Merge pull request #240 from cloos/travis
+fix indentation
+user before_script stage for creating .my.cnf file
+add MariaDB 10.2
+Revert "removing mariaDB 10.1 as test from travis - temporary"
+update Perl version
+increment version
+#235  #231 review way to select version
+Update vulnerabilities list issue #237: Test skip_name_resolve is set before using it Adding information message  when skip_name_resolve is missing
+Merge pull request #238 from pes-soft/password-concat-fix
+Merge pull request #239 from pes-soft/mysql-doc-passwords
+Fix SQL string concatenation in capitalization during password test
+Remove duplicate passwords, even those covered by modification of case during password test
+Add more basic passwords used in MySQL online documentation
+Update README.md
+Update README.md
+#231 change label for CVE reports
+Don t display advice for tcp slot if /proc/sys/sunrpc file doesn t exist #230
+Don t display advice for tcp slot if /proc/sys/sunrpc file doesn t exist #30
+Adjust request for table without primary key #229
+Adding a lot of things in JSON structure
+Removing some warnings and errors messages when sysctl doesnt get any value
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+Update
+Bug fix for exec fail
+#227 Stopping MySQL tuner when SELECT VERSION doesnt return any value. This indicates that user doent get enough privileges
+Update vulnerability list
+Merge pull request #226 from gakowalski/patch-1
+Don't exit after positive latest version check
+Update INTERNALS.md
+ wsrep_osu_method error #224
+#223 removing version estension for Ubuntu version - V2
+#223 removing version estension for Ubuntu version
+Updated vulnerability list
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+Update README.md
+Update README.md
+Update README.md
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+Removing strange code blocks :)
+Merge pull request #222 from sbraz/typo
+Update README.md
+Update README.md
+Reword a message
+Merge pull request #221 from 0xbsec/update_without_credentials
+no need to return, just exit
+switch version check with mysql_setup
+Merge pull request #1 from major/master
+Tokudb detection fix #218
+uninitialized value in script #218
+Update vulnerabilities list Update mysql tuner version Update internals documentation
+Merge pull request #217 from qwazerty/fix-optimize
+Fix typo for OPTIMIZE
+#213 changing badprint to print in order to display error message when JSON module is not loaded
+Merge pull request #216 from jfcoz/skip-name-resolve
+add skip-name-resolve recommandation
+adding minimum privileges request
+Merge pull request #214 from jfcoz/innodb_space
+add innodb when innodb_file_per_table is ON display OPTIMIZE requests for tables of more than 100mb with more thant 10% fragmentation
+Merge pull request #210 from smutel/patch-3
+Merge pull request #209 from smutel/patch-2
+Avoid deprecated message from perl
+Avoid bad syntax error message
+Merge pull request #208 from smutel/patch-1
+Update mysqltuner.pl
+Exclude innodb engine from fragmented tables
+Update README.md
+Merge pull request #205 from iangregory/portability-improvements
+Improve portability when fetching process memory - use ps rather than the proc filesystem
+Increment version number
+#204 updater works fine with curl now
+Update vulnerabilies list
+#196 comment thread_cache_size recommandations
+Adding this message for <=5.1 version No more password checks for MySQL version <=5.1 MySQL version <=5.1 are deprecated and end of support.
+Fix #190 changing typo for recommandations on multiprocessor
+Fix #195 single quote enclosed password
+Merge pull request #201 from Maks3w/patch-2
+Merge pull request #202 from jkavalik/patch-1
+Fix for #197
+Typo
+Update README.md
+Merge pull request #198 from zackkatz/patch-1
+Merge pull request #200 from vchepkov/wsrep_fix
+fixed wsrep_cluster_size handling
+enought to enough
+Merge pull request #194 from vchepkov/spell
+fixed spelling
+#184 minor fix xtrabackup is the good alternative
+minor addition for sys schema #193
+#184 minor fix due to error message
+Vulnerabilities list updated #190 Query cache must be activated in MariaDB 10.1 #184 bug fix on messages #184 xtrabackup support when wsrep_sst_method is starting by xtrabackup
+Tidify code
+#184: Additional information for galera Removing dependency to Env module #192
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+adding extra information about wsrep cluster size #184
+Merge pull request #191 from mrqwer88/which_replace
+change external which to sub which(), little fix for use get_http_cli and get external ip via wget
+#187 enforce control over P_S activation
+#189 fix memory calculation when Galera is disabled
+All version for galera checks #150
+Adding typo fixes Adding check for memory with other process
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+#182 using abs value for result
+Last fix on template
+Update usage file
+Update version #183
+#187 #183 removing unitialized variables code #184 adding merge between show global variables and show global variables #184 update RPM template'
+ Add a Code of Conduct from http://contributor-covenant.org/
+Merge pull request #188 from rvelhote/ubuntu-detect-os
+Detect Ubuntu correctly when checking for OS Release
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+ident fix
+ident fix
+Using a generic sub header function get_pf_memory return 0 for performance memory if P_F is disabled.
+Merge pull request #181 from robertalks/master
+Fix Galera checks, make sure we dont say that Galera is enabled when is not, clean-up typos
+#138 for threadpool in mariadb and percona use default values
+Bug fix on aria metrics
+Adding performance_schema.memoty value to max_used_memory and max_peak_memory calculation There is always MySQL 5.7+ and adaptaive memory usage to handle porperly
+Adding get_http_cli for curl or wget detecting in sysstat
+Update Internals checks documentation
+Adding new control for Galera cluster #150
+Check tables are all innodb table and check all table gets pk #150
+Dumping mysql options for galera* #150
+Dumping galera options and status #150
+#177 bug with free -h changed to free -mwq
+Adding some sysctl control in sysstat mode
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+removing mariaDB 10.1 as test from travis - temporary
+Merge pull request #179 from mrqwer88/fix_mount_output
+system information are only available with --sysstat #165
+Merge pull request #178 from mrqwer88/master
+fix mount point output for linux
+add fixes to get_os_release for debian 6/7/8
+new version
+Missing - in command option pass
+Trying to fix travis config.
+Changing travis tests for 5.2 tests
+Update .travis.yml
+Just a simple perltidy to cleanup ident in the code.
+Update USAGE.md
+Merge pull request #176 from robertalks/master
+Merge pull request #174 from zhil/master
+Merge pull request #175 from amq/master
+Fix is_virtual_machine function return, drop ENV{'HOSTNAME'} for hostname cmd, some machines don't have HOSTNAME set
+Fix grammar
+Update README.md
+Adding lot of system indicators #165
+Adding disk space and inode control other fs mountpoint #165
+#166 removing test when plugin is unix_socket or win_socket Support for bug https://bugs.mysql.com/bug.php?id=80860
+Merge pull request #170 from DutchProgrammer/master
+Merge pull request #168 from DutchProgrammer/buildFailFix
+Merge pull request #3 from DutchProgrammer/v1.6.9
+fix for perl 5.10 and 5.8
+fix for perl 5.10 and 5.8
+fix for perl 5.10 and 5.8
+fix for perl 5.10 and 5.8
+fix for perl 5.10 and 5.8
+Merge pull request #2 from DutchProgrammer/v1.6.9
+Added GetOptions check if fails show help Added verbose mode
+added update version functionality
+Merge branch 'v1.6.9' of github.com:DutchProgrammer/MySQLTuner-perl into v1.6.9
+added version update functionality
+Merge pull request #1 from DutchProgrammer/origin/v1.6.9
+inconsistent performance schema info #167
+v1.6.9
+fix the build fail
+Fix message for #164 issue
+Broken code fixed
+#164 removing by default check for 10 opened ports. option maxallowedport added for this case.
+#163 removing by default banned port 443,80, 8080,8443 and let bannedports managed this case.
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+Revert "Revert "Update CVE list""
+Revert "Update CVE list"
+Advanced dbstat for collation and charset
+Adding extra information on collation in dbstat
+Typo fix
+Update INTERNALS.md
+Update INTERNALS.md
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+Adding threadpool information #138
+Update INTERNALS.md
+Adding system recommandations for banned ports and memory used by other process
+Fix bug on index selectivity from mariaDB Adding type in index summary
+Adding banned port option to detect banned ports
+Adding system recommandations based on open port trying to detect local vulnerabilities.csv
+Support user parameter alone Support advanced debug for access denied issue
+Update CVE list
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+removing deprecated info.
+Changing engine list after 5.5
+Query cache should be disabled #159
+Update CVE database
+Null commit
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+Ticket #156: removing FULLTEXT index
+Update CVE list
+Merge pull request #158 from marklahn/master
+TX and RX now shows value in K/M/G, rather than K/M/B
+#146: Correct write effiency calculation based on log writes
+#156: Removing index stat dur to erronous information
+Update vulnerabilities list
+Merge pull request #157 from 0xbsec/WindowsPorting
+#87 small fixes for windows porting
+#87 change password single quote to double quote and small fixes
+#87 change password single quote to double quote and small fixes
+#87 password single quote to double quote
+Update vulnerabilities.
+Adding windows memory calcuclations
+Merge pull request #153 from 0xbsec/FixInfoAsk
+\t -> 4 spaces
+Fixed asking for username/password when it's already passed.
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+#87 unlock windows restriction
+Update .travis.yml
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+Title Aligment
+Update README.md
+Adding mysql capture
+Update README.md
+Update usage.md
+Adding section for ThreadPool Mariadb stat
+Update INTERNALS.md
+Update INTERNALS.md
+Update INTERNALS.md
+Update INTERNALS.md
+Galera Indicators updated
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Last Vagrantfile for MySQL 5.6 #151
+New Vagrantfile for MySQL 5.7
+Removing annoying message in mysql
+Adding JSON code to dump result (Issue #123) Adding Empty Section for Galera #150 Adding Empty Section for TokuDB #149
+New Vagrant template for MariaDB 10.0 and 10.1 Issue #151
+Update README.md
+Update README.md
+Bug fix for issue #145 Version with x are no longer taken into account
+Update VagrantFile for MariaDB 10.0
+Merge pull request #147 from isangil/master
+typo on a header (exactely -> exactly)
+Modified version for RPM packaging
+Adding CVE detection support
+Adding CVE detection support
+Adding CVE detection support
+Adding CVE vulneralities list generation
+Adding CVE vulneralities list generation
+Adding CVE extractor for MySQL and MariaDB
+Adding information about vagrant
+Adding information about vagrant
+Adding Vagrant configuration for MariaDB 10.0 on Fedora Core 23
+Merge pull request #144 from CasperTech/master
+Don't treat connections to 127.0.0.1 as remote
+Merge pull request #141 from sgrossberndt/patch-2
+Update USAGE.md
+Update CONTRIBUTING.md
+Fix typos and replace Chosen with MySQLTuner-perl
+Merge pull request #139 from sgrossberndt/patch-1
+Fix several typos
+Support for Password security on MySQL 5.7
+Merge pull request #137 from cloos/dependencies
+fix dependency check for Text::Template
+always load Data::Dumper
+whitespace fixes
+Merge pull request #134 from dshepherd/patch-1
+Merge pull request #135 from dshepherd/master
+Update .travis.yml
+Update mysqltuner.pl
+Adding code to check if module are installed.
+Adding code to check if module are installed.
+Adding error message when Windows OS is detected
+Merge pull request #132 from fisharebest/master
+Detect CYGWIN
+Merge pull request #131 from BrianDurham/master
+Issue #130: Missing s in total_aria_indexes calculation
+Update 'There is not basic password file list' message
+Merge pull request #128 from ravage84/patch-2
+Merge pull request #129 from ravage84/patch-3
+Merge pull request #127 from ravage84/patch-1
+Improve wording
+Change anonymous account recommendation to plural
+Remove double space
+Model example with tabs
+Issue #124: bug fix with noask password handling... from issue #110 patch
+Issue #121: Removing lost+found from dblist
+Issue #121: setting value when value is NULL
+Issue #121: removing lost+found from dblist to explore
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+bug fixes on RPM generation Adding .gitignore for RPM related files
+Merge pull request #120 from bungojungo/patch-1
+Correct typo regarding Perl License
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Merge pull request #119 from jani/patch-1
+Minor typo fixed in usage()
+Adding a HTML report system with a default template engine based on Text::Template
+output fix
+Adding version check features Issue #33 #95: checkversion option is now available
+Isse #108 Abort mysqltuner when auto-vertical-output is set in dafaults
+Issue #117 and #118: Rollback on #108 fix.
+Issue #117 and #118: Rollback on #108 fix.
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+Issue #118: Removing auto-vertical-output for MySQL <5.5
+Update README.md
+Update README.md
+Update CONTRIBUTING.md
+Issue ##108 Adding --auto-vertical-output=false
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+Isse #110: No asking password option --noask
+Correct return code in case of invalid login or missing data
+Issue #113: Typo fix Issue #111: MariaDB 10 and 11 as supported version Issue #109: Ne line at the end of help display
+Merge pull request #115 from grooverdan/plugin-ok
+A user with a plugin isn't the same as an empty password
+Merge pull request #114 from grooverdan/travis-mariadb
+remove perl-5.6 from tests
+quantified path to ./mysqltuner.pl
+travis: add mariadb test
+Travis test
+Adding travis information typo fix
+Update INTERNALS.md
+Update INTERNALS.md
+Update INTERNALS.md
+Update INTERNALS.md
+Update README.md
+Update README.md
+Update CONTRIBUTING.md
+Update CONTRIBUTING.md
+Update CONTRIBUTING.md
+Pertidy code + rearrange ocde
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update INTERNALS.md
+Update INTERNALS.md
+Update INTERNALS.md
+Update INTERNALS.md
+Update INTERNALS.md
+Update INTERNALS.md
+Update INTERNALS.md
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+Issue #104 /proc/meminfo is not language specific.
+Update CONTRIBUTING.md
+move internal documentation
+Adding information about checks performed by MySQLTuner
+Adding information about checks perform by MySQLTuner
+Update readme
+Fix identation in russian readme
+Change Russian README extension
+Merge branch 'master' of https://github.com/major/MySQLTuner-perl
+issue #98  Fix variable name bug for 32 bits systems
+Update README.ru
+Merge pull request #105 from denji/master
+Issue #103: Innodb buffer pool instances can t be adjust to a value grea value greater than 64
+Issue #104: Change Linux memory and swap grabbing information
+Issue #101
+Debug print output for memory
+Slave replication test issue #99 and  issue #100
+Issue #80
+Advanced code for Issue #80
+Issue #96
+Update README.md
+Issue #96
+Issue #94
+@sabinich Russian README
+Quick mod to add Aria storage engine support
+Start solving issue #80
+adding debug message for normal client
+Update README.md
+Merge pull request #93 from jmrenouard/master
+PR  #39 and PR #50
+Change shebang
+Merge pull request #91 from jmrenouard/master
+Update Usage file
+Issue #90
+Merge remote branch 'upstream/master'
+last changes
+Merge pull request #89 from joeashcraft/patch-1
+correct spelling
+Merge pull request #88 from jmrenouard/master
+Removing Data::Dumper dependency and increment version number
+Merge pull request #86 from jmrenouard/master
+Adding check for percentage used buffer pool
+Merge pull request #85 from jmrenouard/master
+update options with --skippassword
+Merge pull request #84 from jmrenouard/master
+Fix #83 efficiency calculations values for write/read innodb buffer
+port all request on select_one and select_array subroutines
+adding replication tests for detecting master and slave stop status
+Merge pull request #82 from jmrenouard/master
+issues/76
+Merge pull request #78 from jmrenouard/master
+Merge remote branch 'upstream/master'
+Add man page on RPM packaging fix a dependencies issue with mysql
+Adding metrics on worst selectivity index and unused indexes --idxstat option is needed to activate this features
+Adding options --idxstat and selectivity index request
+Adding information about Max and Reached memory for MySQL process.
+Adding read/write innodb buffer efficiency indicators.
+Adding preconisations on binlog cache and Aborted connections
+Bug fixes with POD documnetation
+Bug fixes with POD documnetation Adding USAGE.md documentation from POD documentation
+Adding POD documnetation
+Reorder buffers info display for innodb
+Documenting a bit
+Merged with upstream
+rename build rpm script
+Issue #79: incorrect mesage
+Adding option --dbstat to display database information
+build system with basic password file embedded.
+Full feature build system for mysqltuner.
+simple rpm build system
+Adding database information
+Adding debug options, Adding Databases size info"
+Switch 'Go' to just 'G'
+Merge pull request #74 from jmrenouard/master
+create a dedicated sub for innodb
+if .mylogin.cnf is set not SECURITY WARNING
+Issue #75 on collations
+merged version
+Fix for innodb buffer pool instances when buffer pool is lower than 1Go
+activate nocollor when reportfile is set
+activate nocollor when reportfile is set
+adding --reportfile for file output result
+Merge pull request #73 from jmrenouard/master
+README format errorswq
+.perltidy rules
+Merge pull request #72 from jmrenouard/master
+Adding FAQ information about mysql_config_editor
+Adding a small CONTRIBUTING file
+Merge pull request #71 from cloos/linux-memory
+fix fetching memory values on non-english Linux systems
+Merge pull request #70 from cloos/innodb_buffer_pool_instances_fixes
+move innodb_buffer_pool_instances output after innodb_buffer_pool_size
+update innodb_buffer_pool_instances output
+don't mention innodb_buffer_pool_size again
+don't mention MySQL version again
+Merge pull request #69 from jmrenouard/master
+Adding partiel suport for MySQL 5.5 and MySQL 5.6
+Adding advice for buffer_pool_size_instances variables for 5.6.6+ mysql version
+Merge pull request #68 from jmrenouard/master
+Warning message for lagging slave
+adding --passwordfile option
+Merge pull request #67 from jmrenouard/master
+some debug output cleanup.
+Adding extra security test for password based on password list
+Merge pull request #65 from rene-s/master
+added option mysqlcmd so you can give a custom mysql command to mysqltuner.pl
+Merge pull request #63 from firedev/master
+Update mysqltuner.pl
+Version 1.4.0
+Merge pull request #61 from colepatrickturner/master
+Added name to contributor list.
+Adding check for autoincrement keys
+Merge pull request #60 from eljrax/master
+Fixed reporting for temporary tables created on disk. Created_tmp_disk_tables is a subset of Created_tmp_tables
+Merge pull request #58 from JoeHorn/master
+Update mysqltuner.pl
+Merge pull request #57 from firewizard/master
+added new option
+Merge pull request #45 from altblue/master
+Merge pull request #53 from Baebeca/master
+Update mysqltuner.pl
+Merge pull request #51 from vakuum/pr-1
+Fixed wget command.
+Correct table_cache_var bug
+Merge pull request #48 from ArondeParon/patch-1
+Fix for MySQL 5.6 table_open_cache
+improve "$arch" variable usage
+Merge pull request #44 from zequeitor/patch-1
+check query cache verification on mysql >= 5.6.8
+Merge pull request #43 from bswopes/bswopes42
+Shifting InnoDB log waits block up into the have_innodb block.
+Version 1.3.0
+Merge pull request #18 from meghuizen/patch-1
+Merge pull request #19 from DanBUK/master
+Add more flexible engine display support
+Hide stderr if `which svcprop` fails
+Merge branch 'master' of https://github.com/sunfoxcz/MySQLTuner-perl into sunfoxcz-master
+Cleanup of custom mysqladmin command code
+Merge branch 'master' of https://github.com/aylazhang/MySQLTuner-perl into aylazhang-master
+Merge pull request #32 from gibas/add-darwin-arch
+Removed version checking routines until I can figure out something different
+Adding warning about big table caches
+Avoid divide by zero error with key_buffer_size
+Converted README from text to Markdown.
+Adds suggestion for innodb_log_buffer_size
+Fixed version parse errors for MariaDB 10.x
+fixed uname execution syntax
+added Darwin as 64bit architecture, as kaalis pointed out in https://github.com/rackerhacker/MySQLTuner-perl/pull/27#issuecomment-15450764
+added Darwin as 64bit architecture, as kaalis pointed out in https://github.com/rackerhacker/MySQLTuner-perl/pull/27#issuecomment-15450764
+nothing.
+little modify
+add mysqladmin option
+Added Solaris SMF and SmartOS/Percona Quickbackup detection to get credentials automatically.
+fixed finding a 64bit architecture on NetBSD/OpenBSD and FreeBSD
+fix finding a 64bit architecture on FreeBSD
+fix memory detection on FreeBSD
+Swap position of innodb buffer pool size and data size arguments to match key buffer size args.
+Add DirectAdmin support. Also tested on DirectAdmin v 1.40.3 on Debian 6 - 64 bits #17
+Merge pull request #6 from koebi001/master
+update comments and logging messages
+use the option --defaults-file ...
+use the maintanance account on debian system
+Use portable /dev/null from File::Spec.
+Ignore output from stty for portability (e.g. Windows).
+Simplify MySQL version checks.
+Avoid some awk and grep invocations for portability (e.g. Windows).
+Grammar fix.
+Trim trailing whitespace.
+Add Emacs indentation settings.
+Version bump to 1.2.0
+Merge branch 'master' of https://github.com/scop/MySQLTuner-perl into scop-master
+Work around MySQL bug #59393 wrt. ignore-builtin-innodb.
+Check engine availability also with SHOW ENGINES.
+Fix detection of Federated engine availability.
+List users without passwords as user@host, sorted.
+List users without passwords as user@host, sorted.
+Bumped version number to 1.1.1
+Added AIX 5L support (patch from Baptiste M. via the blog) Adjusted the version number (should have been done for the 1.1.0 tagged release)
+Added in a check for users without passwords and check for slaves running with read_only disabled (patch from Isart Montane)
+Forgot to change the old assembla svn note in the script over to github. :|
+Added the GPLv3 license along with the script.
+Expanded README
+Test commit.
+Added README file for github prettyness.
+Version bump to 1.1.0 Added git tag 'v1.1.0
+Fixed a Solaris awk bug, found a more reliable way to get the home directory, and fixed a syntactical error. (Thanks to Adam Stein)
+Fixed an issue where the percentage of keys pulled from memory would not exist if no keys have been read since the server started. (Thanks to Simon Greenaway)
+A warning is now provided if if the query_cache_size goes over 128M. (Thanks to Tim Soderstrom)
+Fixed an issue where null storage engines appeared when querying INFORMATION_SCHEMA.
+Fixed an issue where MEMORY tables would appear in the fragmented table list, which caused some confusion. (Thanks to Gary Barrueto)
+When counting index size for MyISAM tables, the INFORMATION_SCHEMA query included all engines. (Thanks to Tom Krouper)
+Version bump to 1.0.0 Small spelling correction Contributors list updated
+Version bump to 1.0.0-rc1 Fixed memory calculation problem in NetBSD where the amount of memory overflowed a 32-bit integer.  Used "sysctl -n hw.physmem64" rather than "sysctl -n hw.physmem" in those situations. (Thanks to Dave Burgess) Fixed an issue where the script would suggest adding skip-isam to the MySQL configuration in 4.0.x, but the directive wasn't available until 4.1.1. (Thanks to Ryan Novosielski) Fixed an issue with MySQL 5.1 where table_open_cache needed to be adjusted, rather than open_cache. (Thanks to Michael Scheidell and Blair Christensen) Adjusted some misleading wording when MySQL's memory usage is very high relative to the amount of physical memory installed. Increased threshold to 90%. (Thanks to Hans du Plooy) Fixed an issue where MySQL logins failed when a socket was specified but a .my.cnf file was also present. (Thanks to Victor Trac) Added full support for Solaris. (Big thanks to Bill Bradford)
+Fixed an issue with NULL storage engines appearing on some servers.
+Bumped version to 0.9.9 Added --socket option to use an alternative socket (thanks Mark!) Added OpenBSD memory checking support (thanks Giovanni!) Added counts to report lines to provide additional detail Fixed error where disabling BDB was recommended even when BDB tables were present (thanks Greg!) Fixed an issue with big integers (> 2^32) from key calculations (thanks Aubin!) Fixed an error on Solaris machines (thanks Bill!) Fixed an issue where the key buffer calculation caused errors when no indexes were present Added Giovanni Bechis, Greg Eden, Aubin Galinotti, Mark Imbriaco and Bill Bradford to the contributors list
+Version bump to 0.9.8 Added new options to help output Made version checking off by default, enabled by --checkversion option
+Version bump to 0.9.5 Support is now available for remote servers Can force the script to assume that a certain amount of memory is present (thanks Jason!) Usernames and passwords can now be passed on the command line Added Jason Gill to the contributors list
+Version bump to 0.9.1 Added checks for fragmented tables Fixed login routine to allow zero-length passwords without re-prompting for the password repeatedly Added workaround for wget 1.11 timestamping bug Fixed a math error in the temporary table calculations Fixed an error that occurred when the status variable Open_files returned zero Added table cache change in preparation for MySQL 6.x Thanks to Ville Skytta, Trent Hornibrook and Luuk Vosslamber for the bug reports and feature requests!
+Fixed an issue with table_cache in MySQL 6.x (it's now table_open_cache in MySQL 6.x)
+Version bump to 0.9.0 Fixed a bug where NULL may appear when enumerating tables on MySQL 5 MySQLTuner now checks for updates and allows the checks to be disabled
+Version bump to 0.8.9 Added an option to skip the enumeration/sizing of tables (--skipsize), which should help on servers with lots of tables Changed the table enumeration/sizing method for MySQL 5 to use information_schema (increased performance drastically) Adjusted the query_cache_limit recommendation to include the currently set value, rather than 1M each time Changed the wording for tmp_table_size/max_heap_table_size to make it less confusing
+Version bump. Added Shawn Ashlee to contributors.
+Added lines between sections to increase readability. Corrected a bug where storage engine statuses were still in color even with --nocolor. Excluded information_schema tables from calculations (they were showing up as usual MEMORY tables).
+Bumped to version 0.8.5 Fixed copy/paste bug with OK/!!/-- output (Thanks to Nils!) Fixed a data length calculation bug in MySQL 4.0.x Fixed a key buffer calculation bug in MySQL 4.0.x Added in a notification for situations when no recommendations are available Added Nils Breunese to the contributors list
+Corrected the total key buffer calculation when symlinks are used Went to traditional versioning scheme starting at 0.8.0
+Version bump
+Removing a minor left over comment
+Fixed a bug in MySQL 3.23 where the storage engine checks had problems Adjusted some of the Perl code to be more compact, organized, and factored
+Fix for the bugfix in r24.
+Version bump and tab fix
+Fixed two bugs relating to the database crawler when database names contained a hyphen. (Thanks to Mike Jackson)
+Added lots of InnoDB support Flipped spaces to tabs Added more storage engine checks Adjusted output display
+* Added innodb_log_file_size checks * Added 32-bit/64-bit checks and warnings (maximum memory > 2GB = bad) * Fixed temporary table recommendation bug (would never recommend increase) * Fixed thread cache recommendations/warnings * Merged increase/decrease variable recommendations into one category
+* Changed indexing calculations so that all tables are not opened in MySQL 5 (thanks Jon!) * Adjusted some of the commented lines at the top of the script
+* Added NetBSD support (thanks to Dave Burgess) * Switched username/password prompts to STDERR so they won't appear in printouts
+* Adjusted infoprint to use asterisks (cosmetic) * Per-thread/global buffer counts are now displayed * Key buffer increases are only recommended if the buffer is smaller than total indexes and key buffer hit rate is < 95% * Dropped max_seeks_for_key checks * Temporary table size increases are not recommended over 256M * Aborted connection calculation and recommendation adjustments
+Very small bugfix for MySQL 3.23 on line 408
+Added aborted connection checks Added % reads/writes counts Adjusted recommendations for slow query logging, max seeks per key, and joins without indexes
+Minor fix if no selects have been run (Thanks Kevin)
+Fixed a dumb logic error with the concurrent_insert check
+Minor divide by zero error in query cache calculations
+Tremendous overhaul of massive proportions. Thanks to suggestions from Mike Jackson, BK Box, Bryan Tholen, and Shawn Ashlee. MySQLTuner's new home is now at: http://rackerhacker.com/mysqltuner/ The big feature changes will be documented there.
+Adjusted key_buffer_size logic checks.\nChanged max_connections wording.\nAdded max_seeks_for_key check.
+Added explanations for key max_connections and fixed a Plesk bug when you run the script as a non-root user
+Fixed bug with 'explainonly' argument.
+Added option to disable colors. Explanation option is disabled by default.
+Completed long explanation portion for slow query log section. Created 'explainonly' command line argument for long explanations only. Adjusted memory usage long explanation.
+Initial verbose explain output configuration (there you go Mike!)
+Massive changes... output filtering, usage information, and temporary table corrections with regards to max memory calculations
+Changed all prints to use subroutines to allow for exclusions via command line arguments (coming up next)
+Script now requires MySQL 4.1 or higher (4.0 is EOL, and support for that is lame...)
+Corrected memory calculation issue in OS X / Darwin
+Added check to see if MySQL is even installed
+Initial Import

@@ -1,0 +1,546 @@
+﻿SHA,Message
+ed85aa196cf2e271670a5f9aceaa2f77a983ca03,Fixes leaking disposable
+f0bfb2eb7122f61a563599aeb473255254a5298c,Fixes tests.
+525509f7c6b0d7acbd5016dbcc4b4cf2eae7cfca,Fixes tests.
+db16949a3f21f261a21fbd68e40b3145dcabfe61,Fix for 1.73 broken snippet overtyping
+2a77746ca2892efd6497c93bf63bf8133bf2c199,Implements diffing fixture tests. Fixes #165041
+06a874de13fa809e12121e2ad8c7e5958c0e0fda,Fixes #156454
+d865f72001dd2f6f5732fdda3aad0de422825c0d,Fixes #162320: Add a button and a hover when a long line is truncated
+6455bf1608dfa1b955717f66295f0f9200db0f73,Fix cycle in webview contrib imports  (#163712)
+129dbaa32b9a7af0f0867b249379eca411a56f8b,Fix escape not hiding code action widget in notebooks (#163702)
+db9f5f9b9bdd06cc037607473513b59d85617082,Fix electron webviews not always updating `_webviewKeyboardHandler` when focus changes (#163495)
+b2d129c4e559cc12a64340f8b36c9a93ddbffefe,Fix ipv6 support for simple browser (#163374)
+749f48091511250b543f244f49aedea57a6285f6,"Fix ""Add Configuration"" launch.json button on Windows (#163444)"
+1de34ba70ae1e332fbe9e8c3477d43185423ddb0,Fix terminal opening when multiple users are connected via remote-ssh
+084179a026434f4f2759c29a94594f7a34dd6612,Fixes #157165
+817d4180c1b79ec2c29fa3d3192d5c626059820b,Fix typo in documentation for tabSize
+6519955afaa4fa55e10d5f695686c184485de538,Fixes
+425a6dec811366e465958b57d0121413a4b538dc,Fix notebook perf markers (#155266)
+2d126f68851876e1e367dcb42491d5359897a185,Fix link regex groups
+c6d40837c0620066bfce980c94e14e1176a04a24,Fix incorrect common.version (#154825)
+e02c71e3c60f552278e4f0a56ff20aeb131a96a0,Fix range of reference links (#154819)
+1e00e605961a8b79b8d61955ba0260c722fce5cd,Fix typo
+2b3912fa299f8c0e1e5beccb1de5e99f28118c92,Fix markdown extension path (#154656)
+32e10d588247a94af33afe5ef91f5e0e27a91c05,SCM - Fix inconsistent outline for the commit action button (#154091)
+6e3e8aa68822662dd5de879e060016e5aeaf978f,Fix #153730 (#154093)
+671bd087d0bc89d92661d53bd5de50d8c6ed4edc,SCM - Fix issue with focusing the action button (#153825)
+dd2c0a0da27335a62d2a2dd6db72bc81a39f03cf,Fixes #153715 - tweaks checkbox theme colors.
+36351641a2051c81cc0134744e2983c111c27367,Fix #153171 (#153820)
+6f902cde5b49dadbb9ccf136d8b7258740edaff3,"Revert ""Fixes #152785"""
+8b896308ac1da5355bec3770d8336fda82317d4b,Fixes #152950. Cleans up colors/css & uses diff editor decorations as default colors.
+059934482ce48a054e0877d6b5e0e3ea9e854fc0,Fixes #153116
+3268d1d47d1ae902bc1ec45bd2153fdacab66ff6,Fix hover highlight range flickering (#151235) (#153038)
+cc17bc2be6b91d2638556d94c0ae61ece1f08807,Fixes #151865.
+3268ed536be3b9a1501e444a9171fe277ec05fde,Fixes #150861.
+5ca287646df9260abed6dc8afea9965f83d5e8a1,Fixes #151235: Always render the hover on the line of the anchor even if the hover provider returns a larger hover range
+9232ebbdcbdea55c27907373d94e3082091ac75f,Fix 1ds appender (#152198)
+ef8f1ff4c4cfea74095e1779d283c670b5654e13,Fix json schema for notebook renderers (#152100)
+731de36736fda076505da6aa283b099f51e204cb,Fix #152070 (#152093)
+71c15eac23c7cf2e32b3ed8222c6ac4d35c614ba,Fix terminals in editor area not reloading
+8740995aea19e3ead6c255933c072aeec9ece6b4,Fix css logic for layout control (#151779)
+44e805f17c77bf0c103b9060f04f686913542c1a,Fix #151177 (#151764)
+6f7c121151554978ff2655603289933a3c4bbeab,"Revert ""Fixes #139175"" (#151649)"
+03e43d3bd5a803c130226f9f960e1d872f186472,Fix unit test DI warnings
+e46b49e27340a5bdcadc5a9342d5f9e23eabfe77,Fix #151515 (#151590)
+088e2a8d6ca983cf257c1120ed1082713b074014,Fix some missing registrations (#151575)
+da6e512e1333a3e96a8f9a217ae184fa7db759d4,Fix Altair save button in the interactive window (#151389)
+9daa6e91253350286f23b218afad8df72f283611,Fix #151400 (#151432)
+aa3ea7fd8563a0813612f8b4bb98f2054599574e,Fix import
+9c13b46889df60de919f1a8b3207eeb0e29b647b,Fix unwanted extra spaces when pasting code with JSDoc
+2aaacca8eb39df75247d33ad43c734add7296606,Fix first command in zsh not getting right exit code
+af8d5d9216bfa0ae99bc88853c7424dafe6d0dfe,Fixes #150968: Take into account the zero width non-joiner when computing the character's offset in the part
+d07084f754cee17a19aa02e7102557296db77081,Fix active group if closing a terminal above the active group
+5c77ef5850a8749640192d38fa3aedcb8c87f14c,Fix default copy paste (#150495)
+f86bbaa2a510b411ce4fb29da5766d8870880924,Fix terminal find styles
+1f5563fe8e8a7afabd1e05f938af599d527be753,Fix unit test to use new correct uri path
+279b7a8633558e8c95cba4d02d76e98cf996c741,Fix DecorationAddon being disposed of immediately
+993c36c9205f156c1246f65161fa4796d460502f,Fix markdown ext errors accessing disposed webview (#149960)
+a49e21c63b6e40a33206df55d7bb40beaee2f406,Fix notebook output double spacing (#149842)
+49f9aecd0aa2aef56324716f943bae65053f0302,Fix terminal theme tests
+ca280a1685a34207a8bcf4826f8294d824b3caf7,Update menubar button styles (Fix #149834) (#149835)
+89d620f4fc6c13599e95dbbde1a044c3c9d1139b,Fix terminal editor cursor border
+05f83d95d2b51f6bdbeb99be47a40365d40a1e8b,Fix issue reporter not debounce submissions (#123340)
+f5df5fb19700eae003382c4ff18c4f4925dfffe8,Open normal editor when opening a non-vscode settings.json Fix #123795
+478ec15a800025b2f4539a7cb43b37a91f679bc9,Fix #118575
+96b553a12571c453d8823db09a33ff422ba5bf73,Fix #122463
+153ed1f000d5cf98dc2aca2281ebd3ec2415bbdd,Fix compile
+55c27ab6cf4f58e0654a5f54f5217d22af4a413f,fix tests
+78a9b2bc960e7ae94354d097fad8ce9b0fcbf795,return output lines if there's an output matcher and match
+8b69182b4b312bb86b90729edaea67089da1738f,Add enum
+060914bf821fb9fbfce7a046b9e482a24e619151,command -> terminalCommand
+e996746b144b74b473727394cbad38f70c3841fd,add observability for windows
+1bf3323015d52bb8eb2ad33fa4ea3e90d925e9b5,cli: add service integration for macos
+c5057eef6f6b001e8af32ebe48c82d36e9be5c42,No need to pass in `require`
+53afa42371e62e23b0f36f0fe578d6384afc141c,Try to remove cast to `any`
+424a88c0ef66f1572080f401592953dcd971a24d,missing JS files
+3684289a70f3ebacc3b426669dd1b89ff401f2d7,Enable `onlyCompileBundledFiles`
+6c87de9dfaa8e6e3cd1d046e40bbc40b75d54eaf, Add exit status to contrib pt
+589e901e534dc429e322abde351fbe2a78b49033,fixing test
+4a040f618691b9b2470d7e2da0da9708b006ea90,increase max_old_size for core-ci
+aeb79e48a0ea91263ca8e972fdf233d51f4bad60,free memory when TS2TS mangling is done
+85c28e5927ebaa6b9f7dec7d45d25129512ac5bb,improve printing of implicit public cases
+0b697608037973ce9418e43794bb457662ec82eb,Addresses feedback from PR
+fb8187c953fc5c6bffe6f9e15dd55cd7e72f4357,source maps for build/lib
+f493f6899a5fd36d7c98a82e0c13ed62477c948e,mark private properties that are used in tests as public
+c783d52014102fefda660529cbb50297b1983714,Add implicit activation events when scanning extensions
+98a618afd4021e837c7f17cc6c72d30118db3b9e,Register testAreaInput event listeners
+1d70080dee6ad46ca5bb1b7583eaa082e2d235be,Remove extra new line
+635ed4c921d1d50c39629f2b66a4b9dbacc71c2c,Document inputLatency namespace
+d31573550f6bb640d8e6c747d726d67bc6d3f820,cli: implement local download fallback
+083a5955b30c426bc4ba5e6aa396f4af48c64b1c,Improves performance of bracket pair colorization.
+61879782c9a0f05774fb1400fe4edd9e64c36f6c,Unit test failures: Async#retry (fix #163619) (#165883)
+5885042e32de5c2215f53ffe6469195bd978d268,Update xterm.js
+503e4bc08d4406caf187cb870b341e0dfc5d85a4,Adopt implicit activation event collector for commands
+2fad3d99f39f4be9e48bc6eed2318a0451ceb50d,Do not interrupt if there are no affected cells
+dbc828f00a42ba17452981c7de1a392e37f2f0ff,Remove unneeded diff
+c222705fd5c23be8e68a5d87b698d04b9ebd5d56,merge editor telemetry
+c536595a7fbec74ba2c33e3fd0be5a12689a2641,cli: fallback to system installs in the standalone CLI
+07aacf8851633b896cfbecc62c8ee1544b402620,Pass through _store
+9f11171f3fa91a8a7c05a3185e1cd3a364a7259c,Generate an object with input latency stats
+691ffd27c2321c7977440355ab9f74f12eb7ca61,fix missing sudo
+09b380e164cf29874af313f19fa4186056846a4d,Prefix immediate with window
+f01d9d13edab3aeb51551d4b018aecab8b85fbb6,Defer bracket pair document parsing using setImmediate
+b987cb47f4a653839862849c8ded24a99cb48ad8,fix integrated cli check
+d2c5e202378b71e1d03fe1c5a9263f38db28d169,Use linked list for storing Gesture targets (#163857)
+5498be71d2357df52026995d0826732016442cb3,Make sure we dispose of Gesture.ignoreTarget (#163855)
+337b02953ffc4aaefce8deb6d076eb249ccde061,Move TernarySearchTree to own file (#163684)
+3f00e7edb886bae19d51b89681659467433ce19c,Add allow list of webview command uris (#163501)
+5916cdeccbf1dd3adbab51f95ff901adacdc3e08,Move all webview clipping logic into overlaywebview (#163853)
+d4ef671011bd891884799153fb1faeff4f149da8,add more logs (#163852)
+c6b4b2f04458dcbf5d1fac24bc34aa723569b04c,Set contain on monaco-list-rows (#163518)
+89f0c65eb4f5eb55dceeb12fdde05742ed083447,Avoid extra uses of `Iterator.ts` (#163699)
+f1a27d7b8bb5fbb027a1da33007b1d62149a5bb6,Recognize stash merge conflicts (#163680)
+85f62d7aca69bed5315f8354b4bca70031d3ece9,Improve `implies` implementation (#163841)
+e1e7ce5d17e3f86cc93c4196e5a7561f57eac459,Git - adopt log output channel api  (#163695)
+f9a0fdeff2e704b37f3ec19a2921ee3e38359073,Tolerate minor edit session identity differences (#163804)
+a0a7cc4b5fee19ad67611178ec6610716b2aeed6,Re-enable disabling inputbox/quickpick API (#163739)
+81d2ccccc9c153e088df3f3805f8255d36f82f90,Always require an extension id if you want consistent webview origins (#163711)
+cbee57d41509512ba044b7cb00210a590c187679,Bump dev container memory reqs
+641046a11d2d30ffb552e4047b61026efd1179ab,Add commands to insert images/links in markdown (#163706)
+84439a87f65d5a18ca7479983b5ff25fa093ddf6,wip
+5612f80f8dec3aa66f2f1224198acdb373facc7d,Pass associated notebook document to kernel source command (#163701)
+4c53499e8ab7530ce13ee09d36c115d1c6c91ef9,"Revert ""Make returned editor contributions an iterable instead of an array (#163309)"" (#163689)"
+0a6a5912a5ba6d444250c26659dfe9b543fdfc8e,Use editor scope contextkeyservice for fetching kernel source commands (#163693)
+a8108049ab61b970f2ec1839dfb753054e07395e,Allow extensions to use new API and it get included in Language Packs (#163493)
+2457d9eb469d9fd56ed4ce1ce9887b4b0ef43730,Plumbing for desktop to pick up strings from language packs (#163494)
+5b7233c5e3977662532e77c96a3d0fcad1d25753,Use for-of loop instead (#163491)
+24a2b8af8c7b99c4ef91b2b7f4ae97d313b7c9e3,Re-apply: Clean up how the notebook renderer entrypoint is passed around (#163486)
+7cfb34dff428cabc0a96ac223a8381f802dca9d7,Freeze the notebook kernel context (#163488)
+07b87405e7a370a90d190891c32768e717bc665e,Don't depend on typescript protocol.d.ts (#163365)
+6f7820c454195fd9d9749022f911a08a004f34bd,add accessibility setting tag (#163358)
+f5ced8231b65f7939c29e4cf23949951eb1e6596,Small clean up for terminal tab list rendering lifecycle (#163485)
+b5542cae84a18a46270e620214f49172d287154d,Document more of lifecycle.ts (#163482)
+3ddce0580ed69c46c259ca79d51f139ae76b46ee,add diff editor navigation tip to aria label (#163368)
+342aa9c59a2ca6aab8fce5043874644718415d8a,Improvements to i18n (#163372)
+22ff985c19a0e36505ee86f5bf1e4c7f9c641bd7,Add multiple template parameters (#163191)
+d055619b399e8bc4056d1b6d9c9e3dbad6384ebb,Re-use label listener when rendering explorer elements (#163474)
+2c332cefa2ba7a55e48235b60753bfb5c1283232,commit characters must check suggest model state before proceeding (#163467)
+c1ac9ecbb5f22024433a63d5a5a12da5da14c47a,Initialize context keys a bit later to avoid triggering recursive instantiation (#163445)
+a2aeb3110a7e5cf2667e312dd5bfca01bb029769,Use `toggle` instead of dynamic call to class list add/remove (#163464)
+c56e49670ed87ab5fcfb5895f84a8564b865f645,Reduce event listeners created when rendering explorer items (#163394)
+61532aeb5643822cf46cb8ccf0301024ad4af483,Re-use DisposableStores when rendering explorer items (#163380)
+f26411046b004534e737d78fde52617969bf90db,Don't create extra disposable stores when rendering settings tree elements (#163407)
+d48368110473ca0ae13262e1bfe3c595357372ec,Update xterm.js
+c3aee94a0ea5f7f8f3dea174adc1d6e7e95d7ad1,Update src/vs/workbench/contrib/terminal/browser/terminalInstance.ts
+d3e41d26ed97cebec27cbe9ee5be5d2addc413ea,Update xterm.js
+643271a4872a41127d89243056ac4643c899cdca,Add test for passing args through
+7278d50cc724dede555dbe1fd553da6d1e2500d3,fix treeshaking failure (#162723)
+a40b5131a05f12235845126dc0262145c94576ea,track duration of `setContext` API command invocation
+9926342f194d51507241ac973306c301c209162f,add completion/failure task audio cues (#162350)
+e86e2a11a5bf0eb26ee3251bedc502a92877e3d2,StickyScroll to StickyScrollContext
+c2a3e85d3c60870546a7769333cfe66cfb512a85,# Provide correct response to applyEdit()
+2b712ceeefc3e46e29dc0f8bb2ab54ccc44652bf,Adding context menu on the sticky line
+26ef29d3ce07b104acc8aebd6eceb8bdcea46c42,Unit test failure: TextFileEditorModel save() and isDirty() (fix #161886) (#161891)
+3c3556140e949df80e5a4a8febcbbc87f8686ff2,Match quick fix on exit status instead of code
+76d2ad1c9a50de9f22675f4c7f8770603d6615fb,fix change short name command title
+5b0079af2f9ba363b88563c16bbfdee534514a1e,create events
+ca745eea7cb6fd17bb23261ba9344cc018bd0d3d,tests - do not `retryCountOnTaskFailure` playwright (#161299)
+a5928232a76a5c5cc57734fe694eca8787b30d78,remove unused interface
+b9c29ce94f3aac3279b08afd759e562e44727069,small fixes
+8e6e4e91dcee8cb9cb2f8a951354fbd16591af5e,Cleanup
+770e4402f9b6234eac287f39f0265c106ed1b1e1,cleanup
+70043b14b59cfd27a4e1d910b5104a054a8325da,fix terminal contribution schema
+ea7afaee0a8814e329492106e485644f40a1ed45,Reapply https://github.com/microsoft/vscode-distro/pull/456
+5aed6e0532efeacd0234e28b73da7f3bb74663b3,added tests
+387bdee1251ef4865e41330ab105506997ddc950,cleanup
+b78276bd0f74828c8f5e622a499c10544ab65dcc,xterm@5.0.0-beta.60
+20527c05a3eae9c96e3992b467eb7625d3b957cf,move `SnippetTextEdit` into vscode-dts
+5e2825730ec276ae3f862aef494117c0518dde79,add one more API todo tag
+7466145baee381e899c71bb9d85f0b08a8adaf84,also set COOP and COEP from webview protocol handler
+968d9eda2c8f4a871377e88a58a1803b665aea6f,Integration test failure: openTextDocument
+1cf4216a101dcc18e3811aa0e94bb5b841ab44d3,unsuccessful attempt to enable COI for desktop webviews
+e19f431845cbf5451a6450de6ebb391cd3661316,Extracts menu toolbar logic.
+238b15f0f4f46834a259f40983e2d05db8dde6f5,Polish label computer
+3cbfc6fd98336735ba1499031941ffe9e8ef04f9,Enable edit sessions by default in insiders
+e3fb1dd152c29cd1db365b31e80b14f8f2e916c2,Improve filePattern to reduce some irrelevant matches
+02d073fa45eefbd8dbfad7f1a105599ffdd43234,Remove unnecessary file pattern
+43ae67e42ee425e69ccc29eff95fd62a91c352c0,Keep dialog open after user clicks on install link
+44261c904cd892657bfd26232293a25a874f2013,Match SimpleFindWidget behavior with editor FindWidget behavior
+8533550d9139da2064244a2965b7eb09785404f0,Remove
+1a3639ebe5d5aea4bbb109d58923ac295ad9b36f,Changes from review
+d0e967789c3064d66c0de14104a3ed171d88510a,Removing the check on the log service
+46bab7505cf644c79e74970a7094677c38c4554e,let builds use `transpile-client-swc`
+bff1a71d6acaf663cff415149ea1b2ab8aa88177,Changes from review
+34a64c357ac6d0eb1ba819e32b4f29e7c43a1fe5,Removing space
+50e34c9f3e63ab8094fbb275a4e7f9db28c6cce1,Only persist terminals when they have had interaction
+31a056ea899e25046173682bc464f7e13d11d2aa,Resolving certain (not all) changes
+032662071cc1ae9090dab700a38e9add16a180fa,openIntegration test failure: openTextDocument
+acca54f4c3d7ffcfd806291b7ea50805805bd514,use interface
+8cd928db8bc005da3e22ce67d653e326b68b7c43,2nd attempt at a valid copyright statement for `hygiene`
+7f9a373e4e9fdf3948c92ef623d0e4ab51cec1db,fix errors reported by `hygiene`
+95ef9dd07efe14e198b09b2acf4bd37c93c20869,add `--locate-shell-integration-path` CLI support
+28c2fe134fa116b5fea4e3156680f14b33977899,updating spdlog
+0b5cef4f76cf8217d64123adb5b68fbff0873410,Remove shell decoration icon settings
+ff92ad573f4341eb2b01cb07d7c8cf0e4edfabeb,chore: bump electron@19.0.11
+92697ad31b594d6b33df0545dda1859d3fae560e,ci: fix armhf debian dependencies
+2cf9834d650b356c4a314df22f7d07c4808e4353,ci: update armhf debian dependencies list
+82f6cbd6b5755f856951f4f011e41c0ed95990f0,ci: update amd64 debian dependencies list
+b7e713947e09c9f2625cc7904f5ebd8b7b5f97a3,ci: remove hardcoded chromium version and sysroot file
+cdf6e9902074dc26c611ffa87a9a58e0a0d0ed05,ci: don't restore stale cache
+0f48e3145a7ccd8af3dea3e458e017eaf5c5ba38,âš—ï¸ Add unit tests for sanitizeFishHistoryCmd function
+07feb2bbd328d7b71d0576c6a0313b4b047c71bd,chore: bump electron@19.0.10
+02dd789283f7c89d1cb15e654d52007d877920c8,Changing the color of the sticky scroll so it is of the same background as editor and on hover it has the list hover color from the registry
+58dd7331a203211ea0a2ad99dbcdd2410c816e62,Update src/vs/workbench/contrib/bracketPairColorizer2Telemetry/browser/bracketPairColorizer2Telemetry.contribution.ts
+d53f4c55443653a8ff20b1f1034d09ccf324adde,Improves performance of bracket pair colorization
+5f885d701d200554f15fcad540539aa22f8a5efe,Aligned the number in the margin
+2705b50c359351e60a17c3bf24724e281e360a2e,Replace the deprecated canceled with Cancellation Error.
+86e741027897bde6587d0d13205b88ce2996b53f,unit tests - help diagnose test failure reason for web tests (#155967)
+7d352660c2d165bf5fb6a9ec273ba0a167932716,code clean up and addressing comments
+52414c4084de28025dd4cea6e11a5cd25fb6b392,Remove --shell-integration from --help
+5ae2a59a6d4a4a2707bfa2dc7969c1270a36c353,smoke test - only warn when `treekill` fails (#155577)
+36f146381b492063f1ec0606e192aa2b580dcb34,editors - add capability to control centered layout (fix #154738) (#155565)
+da2a1796913c82eee73ee461f430f152e299829d,bring zoomable title bar to macos (#155354)
+4b0d6f3bbcd9630d97a0622e2ed41af29054183b,Support find widget in lists/trees (#152481)
+ed81603169922e874c0a690d8659024e0f89bd90,Update breadcrumbs when workspace folders update (#154616)
+955991d7f73ed4ca053524452c74cf79d2dc2dce,chore: update electron@18.3.5 (#155452)
+78397428676e15782e253261358b0398c2a1149e,check if values are true not just undefined (#155348)
+338a23f713453e02b07c51d10e6a0d569760cc0b,formatting
+d4fd368fdfc93d924cde0472bc5af47307a0edc5,system context menu on Windows
+070f29955dab61b069e07d7dc15b36e325f15fac,send `workbenchActionExecuted` from CC to measure its success (#155297)
+ccba8ca4370694000bb6cf9fb3afe0e3ebd33175,track usage of snippets to support snippet LRU (#155289)
+171537fd736f214405c1d8d45e03c7677b438d66,fix command not found warning (#155250)
+50229828292ccc02a8270aed44c7b70c20ead95c,Settings editor - Boolean setting description should take up the full width instead of just 60% (#155195)
+9ce77765dde9b92524209cc75832e4c3068a6810,add application to restricted settings (#155143)
+63c044b46236fdc2bf1f90131deb8e5d38b23e0b,Add configure decorations ctx menu entry
+50056f3e78836797a68f6e8a9792c8b415f23ebe,Finalize drop into editor api (#155102)
+f0f5152fce6668d6d742613dfae45c1895f685c9,Remove accidental log
+47a1f80c6531121a8ef450a980451f96a4a7e047,Adding keepLines feature to the settings (#154790)
+c71e78d3d6f53bde241dc9f3d5f4a1972bc5a75b,fix CSP for webWorkerExtHostIframe and also fix URL construction (#154899)
+f44c00cac8fbe5c66d0715360b4952358b358299,Download policy translations for previous version if current version fails (#154892)
+2638da77806dea39584c2fb824e68b2618f9f1b1,do not scan web extensions in desktop (#154851)
+9f3a127b4159e55860d9ffb6db71f1e259dddc06,xterm@4.20.0-beta.12
+01afe20df1528a169144cbf33817281939f9c0b7,fixes #154840 (#154841)
+1076bf59ddc7966e3a3f3585b2114b7f9038dc68,add task quick pick smoke tests (#154532)
+75bc124fe92fe08a31afb41cac0eed9135abbfde,Remove todo
+5b288e119180046a1e00003357293c8ee04a4782,Improve tasks localized strings
+c137fb2ef769f7d34e7a2f5b3ef94774ffdbb8f5,Better TypedArray type checking (#153929)
+ca5430942daf044b8f40545f6811d21173a84591,broadcast profiles changes to other windows (#154782)
+30b6e1a9b73ba25980f0f665ac738e8da4372f28,Pick up latest TS nightly for building VS Code (#154821)
+ada844686bb002d3ff4003bba5748b608fec0219,Button - Do no change the style on focus/blur if the button is disabled (#154253)
+82687c84ee4547871f698be5637ebf44ed7a9408,Add hook for extending built-in html renderer (#154316)
+6701dd54d6d2f8e3a140551a28d1787387c158b0,SCM - Commit action button accessibility improvements (#154817)
+51ae229d95023dbc1e191b7614f8c566f9db037c,Move telemetry test from electron-browser to browser (#154805)
+6d71bae80763122910da47f9c09553078a66117c,Remove onDidChangeName proposed API
+e209a0967f786f2b29cca012e97d6dcd853fbe79,fix tests...
+d90edae487aaa27d7501f24038c1bf7b3afe3859,use request service from main
+4dc9d90a61fa84580d4b77fec8bdcb4acfb70ff1,make to react properly to storage change events
+5d18f94bb0fc89fdc2b2bbb43a6be0cc1a039370,Git - Maintain spaces in the arguments (#154685)
+099759c8a7605a7407b8a1fffce0bacf0a7757c8,Apply bracketed paste mode on text send to the terminal
+b813ee14978cb3ad50c8b37800eea5821f7cd64a,Update xterm
+a658bc96881e9b2438d6cbd8f49d5d5a2a61a10b,Add inTerminalRunCommandPicker context key
+e6a60c37d705a25d3875f2e89c5ad551fd846cd9,Use `idToken` for edit sessions (#154534)
+d7de53f956a9300e9608c48a7728371f05a8a8ba,add `vscode-coi`-search-param when making requests for the webview and its worker
+ac70882663dd94883d9b86579b408df02aa3af24,:lipstick:
+db734e88c12b9f078b79d33abffc25b0fed1a408,Bump version to 1.70 (#154371)
+f7f3f48049934cf5d3a060aa911dafed5046500c,Mention icon in terminal icon/color settings
+ce8b7a9c132b49a74d9ab7f4373ae57b3402755d,bump distro (#154344)
+ffdb7543feb9abccee23d2b3064bb5bd3d8593a7,Correct conditional calling func instead of comparing
+d5d6e089978695d51760b35a64510d8d0e999534,Add command to copy output of the last command (#152097) (#153235)
+891fa893646795ec4995dc29f7c8ad76efbca312,Add copy command to command decoration menu
+1aaff9ef3d1f779e0ff2322c1d5b4c4a03f6d8cb,stub `activationEventIsDone` function
+12710c6cfe64785140be33880c1be86290ede0ea,Properly display the warning message
+585b6685dda19344ec0304331f294f1c5f9efe24,remove forEach usage (#154259)
+2f5975cb43b72e6795d0ee75788151a6f7b087e3,Relative -> absolute path
+01d119a39c9ee60cb834d90b6d8e561b97bb91bb,select the symbol under cursor when opening quick pick (#154247)
+7c346e113b4cff07019139de115cc72005819383,make sure document outline uses the code editor service from the current (code) editor
+25cf08709abc75b73db7732ff03800189ca9cff9,Add ellipsis to recent command/dir commands
+57609a19dad75b0c1fa324578888fa0ceedb53e7,Git - Update commit button icon and tooltip based on branch protection (#154101)
+498ae4deadf15da690175d7c3a2bc848ec36928b,Improves observable tests.
+32406a71579a58a5f32cbbe593b3bd8d653bea17,Debt - Prevent icon translations (#154094)
+b2d1f531341fa9416a7f5d3c8ce2226e0e43e8b8,make CC be two special `MenuEntryActionViewItem` instances and style them as one
+d63c49ea080b51b65b73d348f2a09432ed4caab7,push workaround for https://github.com/microsoft/vscode/issues/154083 (#154084)
+cdc1920447dc5d857ec947981f79a21674dcaa74,introduce immediate update (#154082)
+61188536ed77f5515346560db34f4046ab646d45,debt - add `Event#fromObservable` to bridge between observables and emitters (#154069)
+496d4b2c1f62db770a832847ac64251d09d506d3,enable import/export profiles actions in no profile mode (#154022)
+32037c7e96c7396e27a04f7565be9760dffa4e34,Add a flag to honour the  config when calling applyEdit form an extension
+3559a3c34edd8fb01eb803ec0c63995dbe6d6329,Process explorer: indicate extension host better (fix #150820) (#154043)
+f4ab3480cbd3d549b020ba04e37eaa66190db176,have edit sessions use ILocalizedString (#153933)
+c82dacd0b4a2fd4d88ad30338749955192fc8cb3,Correct id type
+1c793dfac8b6da321ffd498a530332ebe3b740b8,Adds menu separator.
+cc2593c288f2daf7b7870571fffd3134435a00a1,fixes #152430
+229c927bd7d740ca3e747a15a018256186916896,Only inherit parent task icon if it's not set
+82eb075ad3a8b2aa7f18d95314019197bb416143,Removes NLS string concatenation.
+8fd6e38eee1ec714b9c1882fdd1c65c518f8373d,Do not store empty edit sessions (#153599)
+165faf8e5333ae8ac2b0f881f2494ffe282d28e6,Polish shell integration failure hover
+3aa87adc4365c37d46d03b3f3d6ce166c7c6356b,merge editor - fix URI check for view state (#153416)
+57749636a42cacd26934c279cd360fb904a1675f,update simple find widget to use modified search addon return result (#153264)
+2219a2c5adf83f09a34f1fa7ad304e983f3e6fa4,Quick Access For Loaded Scripts (#152680)
+d1dd57e3c93ce6bf0c051d931cdc3fa1abf6fc15,Remove duplicate declarations in terminal (#153280)
+f148d86fd2894d42913b99bc1e0b7c200a5d7250,"Add ""Do Not Disturb"" Mode (#149645)"
+36f67de44f9dfc40746b31e5cbc0a27c21e0f39f,reset only map
+4e102e65da2787dc3de69a530e244b2295e1ae10,More granular TerminalExitReason
+09c5a6ed48269c3af355a6b9722e6eb36111a469,fix menubar visibility events when moving menubar (#153179)
+551cf462042343ead36317d5923064cd95aab3d2,use extension id as key not folder name which is more accurate (#153178)
+ba9b33b9d31e2b97e6c8d017bdd65476b880ee22,Dispose quickpick after it resolves (#153177)
+80a32bdf05bd4f402b7fe34528adcc70c7a53061,ðŸ†™distro (#153175)
+a1ba0cbfddd6b72ae44e0d5c81dc4fc04266979e,force primary click on dropdowns (#153176)
+3b549009fe133f5b98f1fd9c8d3116dbd033dbe9,Markdown path completions tests use mocked out fs (#153045)
+b642e561cdaf41a8c62ef0cf413528a7e1f647b6,Manually recover from a missing `mouseleave` or missing `mouseout` event (#153112)
+63bc558a5502d4f1e807c2568a72daf57345981a,Moves helper function `h` to base/browser/dom
+1e10d01f5a65fdc36a4c1570affa0b45464460ab,fix deleting profiles and clean up default extensions profile (#153047)
+36b313c6a6180e85994270d7d2e125d8a2cbf0a6,fix #153033 (#153042)
+9cd2caf854e05eae23290e3ed0be52332021e959,Always add a fallback to the editor font family (#153043)
+c07b55752e0018e455d24b9d24887211682abaf5,Change name of setting to allowMidWordMatch
+3d6ab7cfe6d7ea8fc4170ef27bd82fbf16431692,passing test for https://github.com/microsoft/vscode/issues/152882 (#152998)
+f37b4817a85cf709842dc2bf61ce785b772e6eea,"ðŸŽ Add ""Remove expression"" as an action bar command to debug watch expressions (#152861)"
+4878dfa5a1b4fd9856f10c5089aeb4bb218975c2,After running extension tests
+08a46984d6dd1575bb89e0888f09310a31cd2624,SCM - Add capability to disable the SCM action button (#152849)
+46f9aab70beba4851fda6eb668f7ebbf73c074ac,Add envMixin changes to tests
+ead690ec7b1855aa90b8ee67688c09d25fa17d61,Allow manual install for pwsh
+1fe0c4cda4968a1043d4b9766d9181d569e7b58e,tranform snippet into normal text whenever a snippet edit cannot be performed
+322bca15d91bbf404c4a5e363604f8f89f8f7f8e,Show toggle size to content width in command palette
+341945ef1fb342b74b0d5e62b9a0c2cca91d03b5,Addresses feedback from PR.
+bcb2c6f8ee7c1e363eca811f0cf47ab83892ad9d,Create a regular profile to work better on CI
+c573acb2f52324f7257b41129891c2f30f34462d,Move some term keys back to application scope
+0df6031d301c397c58a4c9bba35bd1c4d5a3d9c2,Remove comments/logs
+e438d4d721ac88d6c87bc806cf7e1cae0df81a5c,Rename `StorageScope.Global` to `Profile` (#152703)
+b648d44ebfff2e595a6742750d033a979fcb68a5,remove top/bottom margin from CC so that window can be dragged (#152710)
+0e9a131874595890a40ce8a50c6c5f0ba74ae086,adopt to application scope (#152708)
+2249b171f4d689a2b4cb33119a293635846152c1,Reduce number of times MD docs are re-tokenized (#152674)
+369252a02743706a2f950c634983e8a0e6528959,Skip diagnostics for non-open md files (#152687)
+963c961b59a405bf0c1a33d7c053acea30072c56,Ensure 1DS can load on the web (#152678)
+dcb622017b19ed81c3d71357c6530c1f911e2a9e,Be more descriptive
+968ff368a942b6489777d210783cf3ca2fca5709,Address feedback to use options for anyScore too
+7ef248368e7cc14282058e4cc59cc837e892e22d,fix
+5785a8310cd6f618d5c004c3b3f877e4083f6091,Gulp watch again to update monaco.d.ts
+92840da7ecd315ca0c9b5f041d4f132261206608,Update src/vs/workbench/contrib/terminal/browser/media/shellIntegration-bash.sh
+93ebc9a22352d1b9ba3384c0855b6ca9efea11c2,fix exit code not showing up etc
+72344fe380cc3d2563ca0cc7829d55f31afcbb33,return after relaunch
+a25887eb39bd31f79982fcbbd6cf023c3ab43408,added fixes from comments and added required property on triggerAction
+0edb88f3b556ce88f222d5bf71de4d2d958a4476,1DS appender for the web (#152489)
+012a409a510d4031a05b15de1087673978d4495e,Make sure _serializer is set before calling setTitle
+1ca9725a3b4264141e10d6a7697b74eaba955b58,Disable terminal smoke tests on desktop/remote
+59d9fb73bc270a28dcbcd99b5b3412730b8b85d3,storage - do not attempt to `close` when path does not exist (#152438)
+626fd8a6c7fe6018cff43ce363a7b4c0f46984fd,fix #152240 (#152431)
+623f55f437ab31fa56e13acafa9b9e7d4b50c4bf,Refactor markdown language features (#152402)
+54003f85adfd4b48dbcaefdce355ba15b6ee2e20,debt - cleanup config migration (#152425)
+b81bbef2ab3084223c41fa1b998f15d78238c09f,move IUserDataProfileService to workbench (#152427)
+3d4a1bc11ecddeafb786d47452f40adafa737d59,Split IUserDataProfilesService (#152385)
+47f417529cd8492bd3d5d76488e78c8652da9a54,"Revert ""fix smoke tests on linux (#152232)"" (#152418)"
+b067047af10e46a8502f215181f16bbec060dca4,Update src/vs/platform/terminal/node/ptyService.ts
+cced28f08057bc08c6579939253c8e8d90359604,Prevent terminals being attached to by multiple windows
+e7e3c0c3f9179e3f81b7b806aae625bfa134e4f5,fixed some of the commented issues (naming
+c4623596524062960569781f5d023641be3da063,Add option to always reveal tests after state change (#152331)
+d8a07fd4aae239324f573785d9b4a2a4f28159a0,fix on telemety on code action commands
+9db5a3674ea815acc5c8cfe916c569af977ec845,Bring the nls loader plugin into our sources (#152338)
+3114ee690b7a90da965504f38e9c5f0c14f7eaa8,Split out VS Code reference provider from markdown reference provider (#152369)
+0462b5a32694b3da3d41a572ba8f0a6a6dae1a63,Add readonly back in for _fuzzyScoreOptions
+5a43663aed2c063b4bb0d7512f9df0d77668b9ca,Avoid downloading builtin extensions (#152339)
+881c6313a14bb24f608351b6ae08b24b277657b0,Update settings.json
+88731bf6d68b97ee918b6afc13a79eed0d414106,Git - enable using the editor as the git commit input (#152158)
+46d9d7acda72fc721ea3d021f88393cabc9e95f5,Git - branch protection (#152218)
+192f8bf12b9afb7b8e78f2dc54f2979bd3455494,`Keep Editors Open` -> `Disable Preview Mode` (fixes #152240) (#152322)
+95c1a9e6538d4158ebec0ec60a7809bdf65d2d54,Add an option to expose the firstMatchCanBeWeak as a setting people can set
+1b0d0d00d49527d291c82441da323d8be4a9ebc5,Enable terminal tests on desktop
+38bdf5ab7d4082fdd141da5e44f456eef5e52599,adopt to application storage (#152224)
+f1008c80bbcc9a170f0686c12eaa8da9c4d91504,fix imports
+adf9340be6801cd5988806fc3051d9da9f367ab4,Try prevent duplicate placeholder decorations showing
+c5318659ec13fbcfd3ef2400f5b0bd1bfee68286,Git - add support for SSH Uri (#152051)
+b1f1f983700954456dafe211b7e37bfc0ad2d154,Add provides exclude for library files (#151043)
+a15d6b41a1243221b4764f4a81364a0aa13dd41f,Mark FileSystemWatcher properties as readonly (#152098)
+a2e25e976258524ca2b266f6d7ac5efb4ace3dfb,set some main side storage things as application scoped
+e0d3a8e2a8435a3f92ef7112559de7ae70245ef7,storage - first cut profile support
+527bc71786c00c63c4a3d2108a7305ff2ac9006d,add compile configuration-editing to pipeline (#152020)
+a658c04b0a4ef09a15eb4f763a5ca7dc9e4ef0b7,Adjust md external header link diagnostic range (#152001)
+c46555d9c868b6b4a6c781e28a683ba5a63c48c7,Tests for configuration editing completion providers (#151953)
+76f65c4521ec9fe332e777301b51cf7aef71faa7,Emmet inline completions (#151559)
+f5edc2642c41b9ae354bfc8ecdccee6c9037c041,Use `heart-filled` for sponsor icon (#151957)
+74c528db74d6c70db82b75e409d41eecea35840f,fix state resource file name
+8ec4cd645a519a7edcef96e238877cab52dbf848,Update sponsor colors for color contrast
+a579d89c6e243a0ab68a8e9f495de7de5574840a,Tighten up char level diffing
+03768103983d6358634f120c727b74cd84ed6bfc,add API proposal for `TextEdit#newText: SnippetString`
+7d51290b5ff15bcbe025bdfc43e34d2da1cff141,Tests for char changes having enough information to reconstruct modified from original. Tests fail.
+07bdf346b3728abfeb6397875841fd168d2c83a1,Problems view - Can't multi-select in table mode (#151788)
+2c811e69d464349400aec3e15b9d48798b6deb93,Adjust removable value
+8d8e85c28d885247992aa1e114fd8f8c01a24ac5,Add more sanitization around the attributes in MD generated HTML (#149100)
+6ab487ec62070f2ec69da1483f2b246a74ab91ce,Bump distro (#151782)
+7b6ca7b23dd0296b809be8249c79cea91941565f,Initial implementation of Continue Edit Session (#151528)
+a1c801454b11d626c7450421987a6125d72131e1,Move sbom above publishing client (#151775)
+b0a239379b0b9048d39cd11a9dcdaf8a86cc02e6,Initial adoption of 1DS Sdk (#151531)
+7a1330d62fa3e0c4fe64230b3b2278cae0c59e55,speed up decorationService tests
+5bb16df4b0dea028da65676ef28045e70d151157,Use `any` instead of `unknown` for `thisArg` (#151762)
+64bf600797dc2c78999eb6c8c1c386f90e58124f,don't override `env` when set for terminals w shell integration enabled (#151753)
+9867ef8448c3863df62d91e35c20361bad27fb28,Bump distro (#151751)
+bf61f19e3f2bee7f30c2772bb8ea327de665bb4f,Try to isolate failing ext host customers (#151743)
+4e285432bee4f76129eb3e1ffb1dbf3db947f9fa,Remove no longer useful and confusing `IKeybindingEvent` (#151735)
+1d6a09287ada35b4f7a3dfa5edad504266bf7949,Call event-utils with a disposable store (#151731)
+cf6a472cbf8e502f36559549c027a8c60311209f,Add removeAllMarkers method in monaco api (#151237)
+766743629d411fe19540e13780eed2718fc09e3b,Polish PR template picker (#151415)
+035a5ea30630c09c27ed1ca2788251edffd413ba,Cache/restore the node_modules folder in the build directory (#151725)
+bf943a1e5ee3b5e733d8c4e9f18ed04e7e8a95a2,Use info for duplicate submenu contribution (#151724)
+54b4cda07a353bd16f098ef542938e8d0fdcd7ce,update CC when keybindings change
+2be99473d5aa8f5995ba089e65d7d60c3bdbc12d,Engineering - execute tests in parallel for the CI build (#151593)
+ad912964886ca41af33097102e426e3cd9b7e44c,chore: update cache key
+dfcb989bb9d3622122dae8ec04e9439d18a8197d,fix formating
+8ed8c6a2d8dda2cb18aa1b62892f346525c96d5b,initialize state service
+64606547ee38bdd3c3a098dd347488a4b008f6c7,get back old import/export profile actions
+380295241d6287b4425f2a124cbd8abce2ffe98e,fix https://github.com/microsoft/vscode/issues/150895 (#151699)
+60709d85326a1631de92ef2c46cae4e87edffd92,fix compilation
+6bd8a2a78a4544a6fb99ca7fcf0f19f5fe13d5c8,Problems table - add tooltip for each cell (#151602)
+14676ca4816daea9008b32c9f5a70b9c99e99674,ci - always publish log files (#151686)
+ab6ba241145bb81c8bc0f323453bbec45fd66109,"Shorter label for ""go to running cell"" button (#151674)"
+160855dfb7f7855ad4174dc02e39972d6623826c,safer dispose of placeholder (#151646)
+c289307c95a2ba61975a2f714dcf5bb84842f799,Clean up DataTransferKind docs (#151656)
+f7e12a3a928aa69fc1991a00298ff62291207864,Use optional method calls in more places (#151634)
+2196474722524ea13028d6ab09f559c3b9c23ad4,Correctly resolve the icon asap when defaultProfile is null
+fa94ddc080496a67a6011887e6bca683a72cb41d,use _ for private task vars (#151637)
+5333e5bd041c833bf9997db88f10dd686ba6f4e8,Update src/vs/workbench/contrib/terminal/browser/links/terminalLinkOpeners.ts
+f1692ad986e49b19c5d6dfa1d723334d8cbafe30,Improve terminal link debug logs
+22609886df9b5172847e0625ace94f034b4ff9c2,Set z-index of watermark (#151623)
+d27edccecacd4658f566cfa2928406869a9a0371,tests - make some tests faster by smaller unit sizes (#151606)
+dadeb05148550279c3830e5590e2eba43ae36ac1,missing compile output
+0b7a513aa1f48285947f0aed3de52afa2c851c4c,Implement action to clear keyboard shortcuts search history (#151607)
+91ba859608d180560b08b598ac4d21825f23be9b,fix https://github.com/microsoft/vscode/issues/150811 (#151600)
+37bfbf263c251565c6b12b4e11d499c1970678bd,add default label when having no workspace name (#151598)
+43c31079ee2a55f111ff9e81bbb1ac12397a9b05,manual fixing of prefer-const violations
+54ae4d8ccbf4574889c24b086079a745b3debf96,Convert history commands to `Action2` (#151524)
+dc3b8f245665ba0b7fdfade0292a17eff545b20a,Allow paste API to replace metadata on copy (#151572)
+23c073031e5fb172a69b566dd33cac9d740981f1,Show drag uis as soon as shift is released (#151569)
+0f1679624b0ae9e7ae707ce230aa72cc512320e9,Adjust padding and outline of Settings editor scope widget tabs (#151567)
+7bbfca331c71506e77f0507b296f781b6bfad27e,Finalize the notebook markdown renderer extension api (#151467)
+d7c90c2b2b82df0325cd8e947f7395510b632882,Update text editor drop proposal (#151552)
+83b94a5c0303163f13516b8e13ce2261c00830d6,Add user token to PR Chat (#151556)
+ecfcde01f551e7945df7654c65160c0bbdf56695,Shorten name of separators (#151553)
+370dfd5fee7049a9c909ffbd4120bf26dc315002,Iterate on paste edit provider api (#151477)
+5a32c3ff17eb5cd91e42309c8058812fdd90c83d,[typescript-language-features] Pass through all `typescript.unstable.*` settings (#151472)
+06c4b0aa5ab46d61b5943d6259331fc421969daf,Use notification instead for progress and ensure Language Pack gets synced (#151544)
+601da405f502048ed6eb00d1332bc28b1b808f2a,dispose of marker first  (#151540)
+4213c8e810e8105fa729967587a53c62eca69f9f,add condition for awaiting profiles in `createTerminal` (#151482)
+a7d2cfe5c56ac960584c9b8a7127fd5450792aa4,debug: preserve scope expand state better (#151522)
+1b093f9bf78194a1fe7fdd408e4679811f63a16e,use `:` separator for formulated  task name (#151440)
+c38afc571d96c366e30d0a3146de408c9ab14e94,Switch deprecated editor.document -> editor.notebook (#151530)
+adb16fa39651a32e0c817cc77a8bba0ddc2fd303,leverage the contribution to register the locale service instead (#151450)
+6f5fc176226b2d2a53223698cc3fac7d19c669ec,Git - use editor as commit message input (#151491)
+da01cb05cb2d657eb778df30d0ba239fb72395d6,update notebook milestones
+13b60e192de770e8beb3122fc0df81071c5a3421,prefer-const
+21e6c2aac04d4a24126e5e670a0ef0459d830727,debug: enable crash reporter when running debugging (#151430)
+dc1ee4b14c2aee0cd8b276707fee78e66629d0ac,Engineering - Do not run macOSTest job if VSCODE_STEP_ON_IT is set (#150794)
+10e23028a7d7b328f5c20289df4037967bf333b5,debt - remove `getBaseLabel` (#151486)
+1327d1eb5045d4da849fa2117a8a1c68292a5e6b,Adopt ResourceMap in more places (#151475)
+cfecdd54612140a54d29d591a9c27ae92316417d,Adopt error no telemetry for filesystem providers. (#148832)
+75a6ddc8626b831f01f91f9f60f27de3d5bb6f38,Add DataTransferItem.kind (#151384)
+6a58b4017c4ff76a15b8af57506e3094becbe75c,Can't drag an item and drop it to an empty treeview (#151213)
+a0a9b7868d4557933dd95aed6624d647b0f1889f,Dragging multi-line `text/uri-list` from tree to editor results in error (#151224)
+711c34bdb6c4da154d3c717956a0c0c51bae8de4,Attempt post instead of get for endpoint (#151374)
+5e8550a48798d521eee24542ec0cfb9a6099538a,move localeService to contrib (#151358)
+3fb958d295ee129d4eb0922501c990e8934d736a,chore: update rpm deps (#151348)
+2092d41cd9c24ec9fa0a5b2cf1acaf56b834d432,Really fix import
+180356641c5b286be761b1072375bdb9c10f8208,Makes diff editor more reactive. Now
+b8b2e9c7f72442617cc43b915d33479fa911247b,Make sure PS1/2 aren't re-wrapped in bash shell integration
+5103c931a0106e03e0ac9cb8e9f53cf7986af66c,Use `nls.localize` for user facing strings (#151094)
+e44f4ba8866996dcfb0dc1b3cec2384c0f93bcce,Add experimental tag to experimental extension settings (#151031)
+2664c7ddfd7e14455f39a89360f31d63d56ffc3e,Use EditorStateCancellationTokenSource (#151001)
+6a670d79c30e6f7e3139fec42eff317de49c2910,add ms-vscode.vscode-selfhost-test-provider to workspace recommendations (#150979)
+0e131b5366a96a15b24747942a00452a42f51574,rename (#150612)
+d30748b76db457aae84876f46990ccb585b08380,Disable shell integration error test
+367ef09fd4663cb49254d83520c7241ed9e3366c,xterm@4.19.0-beta.55 - opaque selection in dom renderer
+6416dfe7f7e4733a0b839b3da311d0c9737fb22f,Clarify gpu acceleration off
+b0cfb974f5ca1a7231f09ca750bf8d848c79733d,`showTextDocument` is not respecting `preview: true` if user has `enablePreview` disabled (fix #149088) (#150552)
+08407b359c7a36f883325f874ec45d60992a9f5b,storage - remove telemetry for slow close calls but leave logging (#150550)
+2bc5ddab6c18a8071a3c925afef69a886f7dea87,fix node version check
+134df57c2b2064ccf6ae598a8b0526690693da86,Update some milestones in notebooks (#150545)
+8723d109a585ac7747de2962606bac7041742ae2,Skip error shell integration tests on Linux
+eb3dcea9528c19bddd3f94213e0a90819cec5f54,Adopt `setTimeout0` which doesn't suffer from the 4ms artificial delay that browsers introduce when the nesting level is > 5
+3837e55e31f1e44c514516873a4457c292607d58,update bash status correctly (#150322)
+4cf4438fc001e0c925905af51577cfc1db72f42c,Ensure execution and kernel status visible when there are source commands contributed.
+73dda0c06add139307f6be753cea50028bcde05b,remove UpdateMode policy (#150357)
+b1a0aa5cfdacecf5e4f7b1991353243a07bd3f89,Use existing resize observer instead
+476e8cc521d07b7ce130795bfc8c1a0e8f44ce8f,Extract `NativeExtensionService` and register a real implementation based on `UtilityProcess` for the extension service in the sandbox case
+21e64f84458090e52aede145202c9940ae21172c,Remove unnecessary changes
+1b88f28b495c90bb656bc3fb710a49d662074a3e,pass in registry
+0844d7c996d6b0c3e4b1196a1d7d426356bdc9c8,move `USER_TASKS_GROUP_KEY` into tasks.ts
+67cc6771cc09766911ce6783045c3ee733a64feb,center align menubar menu buttons
+0075b0156cf38d471c84497679fb6815f3cb1192,add missing CC rename
+8e84b5b0152cdfe5bacbf8649cae127c1094d925,increase title part height when CC shows
+ebcbd3d6368442a6ed40872e410d5d8090c56f5b,well defined order for command center bwd/fwd buttons
+11d269da26315e9469fa86b77ae18a6f3c70c3c2,update tests
+7075f2db1eed67ec4b079bec9a97fee96788e16d,Move out Settings editor indicator label impl (#150230)
+b8420578fd0acf3c5593503b1f918c683d30304c,Add additional allowed tags in untrusted notebook markdown (#150228)
+45aefc8f376223ce0eabd0d5641eca855973b226,cleanup
+a48a9f8fc94c94a1c95104d2200852758db480cd,rename
+2f0de4444998f992763eb58b5ced1a6f5186594a,Update src/vs/workbench/contrib/tasks/test/common/configuration.test.ts
+977123e6d840c9a5df5611b4504bf46cf3606068,Update src/vs/workbench/contrib/tasks/test/common/configuration.test.ts
+c3bddb2a4379ba203907f23c911504b639aeda17,adopt policy from configuration service
+8a27b48cff9d19c85b1d253e7046dd017d7df46a,"when temporarily showing/hiding inlay hints use the same ""redraw range"" that was used to compute inlays"
+801eaecfbce0b4bccaa46de85fb7513cf1f8cd7f,change label to `Show Search Modes...`
+d3af646dd02d1c73ecf15b4193781b771cce1e6a,switch bot assignment fro debug back to weinand
+8c88eb6e5576bc352955f86a5a1c277bfe94f8f1,Add extension output label to url
+3f5fed084c81964b92eea299bba0d534f1f0166b,Normalize slashes on Windows to correct link URI
+a3243b282c0a882ad45064f4555ee5a7fb985d2d,Add indicator
+04e34f25549ca272802d8532a5616b48ef262b4e,dispose native policy service on shutdown
+32e6d2c113f750cf0ed591b8c38a02c5a82a80a7,extract logic for title suffix and prefix computations and use it for title menu
+daf0d5e551a79a69b4482a2abaa9cbc83775e967,Add skipPaths option for markdown link validation (#149859)
+64e09597f108f58777167874c76600cd55ceb685,Handle multiline commit messages when creating PR (#149426)
+6bd7605ae151f75d4bf865f10a6a6fcab7d3c4e9,Enable strictNullChecks for implicit projects (#149844)
+ff975bc211f6546ae2da0a7e8c87d73fc080fa46,Update list of enabled APIs (#149838)
+3678e5fd8a773f0f3b66bf418875475b988c38ae,Clean up terminal xterm theme setting function
+5cdfdb435f6fb846c15a65ba3c8f7978003413fc,Support selection foreground in terminal
+c3d6d7ec7832fa7607422f24e62638d94d50aff2,fixes #149438 (#149761)
+769a8f15c725e203bcf8ee79055588caabd95c2d,Annotate error fragment (#149760)
+ca4db53d718f07c8b9732b9a59322b6ecc574fe4,Skip shell integration smoke tests on mac as well
+18cf3d01ed22f7b35895a9b3c531048c835d4489,Polish notebook workspace edit (#149734)
+1181a658000b021a70de82d407e9d8b6684b4156,add back running on close (#149751)
+116c10e0eeed56dc9b0801d079e2a2374b6ccf98,Add drop into editor option (#147049)
+06cf633d63a6bc0dbadaf9a446ade3a87da4732f,Revert running on PR close (#149747)
+4f7f2c6135bab4bbe67717aaf8f1c9ca5fb2bc4c,convert to integration tests (#149744)
+7ca85c375d5d76711e1f53c8637fa336b7be62be,"Revert ""Adopt `setTimeout0()` which doesn't suffer from the 4ms artificial delay that browsers set when the nesting level is > 5. (#149723)"" (#149742)"
+aa2996cbb7da1022d378d3425c6bc0027481d074,"Localize ""Suggested"" (#149684)"
+16db4dc2bd5221ad61aba1f22d7c4d77a60452d4,make tests faster - remove unnecessary validations - group writes
+aef0e27d249ae48f856a410a7bf7c447a9e1f7f8,fix layer break (#149735)
+1c7ab357618b568746790b5a30f204794aa50afa,Rename to DocumentOnDropEditProvider (#149730)
+9ae563f53bd406c28a2415d2df9f335a5ced8729,Pick up latest Marked.js release (#149729)
+2c97c8064722c44a10cf548990d3457864b6c89f,Adopt `setTimeout0()` which doesn't suffer from the 4ms artificial delay that browsers set when the nesting level is > 5. (#149723)
+4b3becfae1014b49f24262c382fa72fbba164107,revert the change (#149726)
+99a76d1569e13b6a1344d888321f5aeecf127ab6,use fake timer (#149725)
+f427aed437f70906cd0eb7d56ca362307b817923,add additional telemetry for connection latency and duration (#149398)
+9acfe28a460b76a353a3ee577ae63c0160fef1ac,Adopt `runWithFakedTimers` to speed up tests (for #149712) (#149724)
+30f5b296abe2041e05edc9f31457324302123eab,make `getWordAtText`-config configurable and use lower budget for speedy tests
+6ec996a9b784acaed8d5f37bbd80a04b0d26b0c4,Adopt `runWithFakedTimers` to speed up tests (#149712) (#149720)
+4481afe7d56664fc95376e32c2476eece708ed58,Split up link computer cases unit test
+fc31613e8a788e08b627340cce0ffdb079811172,clean up
+063486aafd924efa02eaae26eb7394e317f9e092,revert more changes
+2c0fa7052dcab8a40b611617782bc24014bdf452,Update src/vs/platform/terminal/common/xterm/shellIntegrationAddon.ts
+9cfa78035f4faa2661b3faa233c3080c045e1c73,remove enum
+49828c413e38499f3af65dbae30a9682368ffb0f,cleanup
+729de0a3cfbd87a8094006328010a8db430b9bcd,define HC border colors
+bdc760f6e1af943ef8fcef429a41e00e23f40dcf,fix with-calc
+3c565785529a4d5eec7db372c61e588aef74db14,use ellipsis when workspace name overflows command center
+3455ae780023f4281c038d1634097f174826eda5,"use search-icon instead of ""Search"" prefix"
+7a3fb4b936458c3dd341e9a51e9bc9ae517e1817,Add a high contrast border around simple find widget
+d092cb8e5f50f6f7cf32ef3e403388b5361eccf7,use custom hover for title menu aka command center
+dd4f49256d2e803fafb13971390b9ab5de92ff69,update distro to inclcude new rust recommendation
+9ad54adb6f9e18dfdbcfc9d692629caae23791b7,tiny css tweaks for title menu
+2718449e0253580fd400b3f139f30d008a465432,render dropdown-like element with search command and invoke quick open help from it
+b25b6dade8b67aa2209091803dce52210688ddc3,snippet completion provide shouldn't rely on word at position but use actual choice range
+aa706918c1f407aae231d8261c50cda6a48e59d3,only match against notebook uri when document selector specificies notebook type
+e2ac771f9aa7b197112a1d41075ae0f7303e762f,fix compile error
+9820e77175d315323621783e86de235110f60297,up font size to 12px
+18269f744d94d272c30bd49cb711557e10c7d8bc,define and use theme colors for title menu
+d9e58c8ce8ab0b5345e74d63c205d91b270c972d,mark the title menu region as none-draggable
+ce60d548e2cced5d3cf868e4a929ed0f8f9d8823,#NAME?
+816047831e7818d128599cc07cae4b7da2431a95,more instances
+93488f6d616beaabd1397c94dc577054a9fb68bf,force that test editor for suggest model is always focused
+eedf60ead02d77f3483b43a1136403358ca89f64,ci - only publish log files when there was a failure
+02a92ee13f8fa6bded3b7c85f08d572fe8ab99c0,"Revert ""Workspace trust - add tracing to track down integration test failure (#142609)"""
+b201f1422054370fbaee7fdd3078c323cb99ab33,Use SuggestController to trigger suggest widget instead of command
+e358a02a350d6fcccb8810c4f1946ec0bae16c24,smoke - also screenshot on failure

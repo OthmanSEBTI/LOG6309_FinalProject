@@ -1,0 +1,63 @@
+made results consistent for ts_anom_detection
+made results consistent for vec_anom_detection
+added check for correct type of the input parameter na.rm
+added some Roxygen comments for the added code
+added issues status badge
+added pull-request status badge
+fixed bug and added error handling when there are NAs in timestamp
+added more checks for input parameter max_anoms.
+adding sudo to travis config
+Minor edit to .travis.yml
+adding commit to trigger build
+adding test for anoms at midnight
+added 'stringsAsFactors=FALSE' to creation of data frames after fix for %Y-%m-%d %H:%M:%S formatting issue. Implements suggested patch for issue #29
+adding tests for constant value time series
+added verbose mode to vec_anom_detection, and changed print to message. Adrresses issue #35
+added verbose mode to ts_anom_detection, and changed print to message
+replacing print with message for debugging
+moved check for constant time series up to where we calc sigma. This checks if it is 0, and breaks out of the ESD loop if True. Addresses issue #36
+adding back tests for NAs from commit b5fbae6
+adding back the timestamp tests from commit f2884a2
+Adding the file back
+Addressing conflict
+Patch to fix POSIXlt format after using format conversion. See Issue 29. Added additional tests for output anoms timestamp format.
+removing patch which shouldn't have been applied to vec_anom_detection for Issue 29
+adding NA tests for AnomalyDetectionVec
+Updated detect_anoms to remove leading and trailing NAs before STL, and to stop the code and suggest interpolating for other NAs. Addresses Issue #22
+merging fix_daily_data_issue into master
+modified gitignore to ignore r studio files
+Rebuilt docs and removed extra paranthesis in detect_anoms.R from pull request in Issue #20
+    Issue 20:     Issues using daily data with the "long_term" option
+leading NAs are replaced with 0s now instead of 1s. Addresses issue #19
+added comments clarifying that seasonal decomp returns/is used for
+s/T/TRUE/g, s/F/FALSE/g
+added bytecode compiler and removed some unnecessary memory allocations
+perform log scaling in add_formatted_y() instead of using coord_trans()
+oops, add package back to external stringr functions
+spacing and replace = with <-
+non inclusion checks
+spacing
+break line up
+remove list name quotes
+non inclusion checks
+check non inlcusion instead of all false
+cleanup args
+package imports stringr, calls not needed
+use nrow
+make check one step
+more idiomatic
+code cleanup
+when gran is daily, changed only_last check from \!is.null to is.character
+Update ts_anom_detection.R
+Update detect_anoms.R
+Add testthat as a dependency
+Add stringr, lubridate dependencies
+Update README.md
+Updated README.md #2
+Updated README.cmd
+Adding Figures
+Editing the README.md
+Add Travis CI config
+Initial README
+Initial Import
+Initial commit

@@ -1,0 +1,775 @@
+Merge branch 'domain-socket-repl' into main
+Merge pull request #2796 from ehashman/patch-1
+Merge pull request #2779 from i2kconnect/master
+Merge pull request #2778 from reducecombine/mkdirs-nil-safe
+Merge pull request #2775 from ahmedkirasystems/patch-1
+Merge pull request #2771 from seabass-labrax/website-update-irc-link
+Merge pull request #2770 from frenchy64/patch-2
+Merge pull request #2768 from cap10morgan/fix/lein-help-exit-status
+Merge pull request #2762 from bbatsov/reply-0.5.1
+Merge pull request #2750 from gs/support-clojure-1-10-3
+Merge pull request #2760 from karolinepauls/CVE-2021-37714
+Merge pull request #2757 from pyr/exclude-single-version-ranges-from-pedantic
+Merge pull request #2752 from wavejumper/update-deploy-docs
+Merge pull request #2755 from bbatsov/incomplete
+Merge pull request #2746 from ctrueden/patch-1
+Merge pull request #2742 from kipz/kipz-gpg-env
+Merge pull request #2736 from tobias/upgrade-pomegranate-version
+Merge branch 'new-templates'
+Merge pull request #2731 from philomates/trim-nrepl-port-newline
+Merge pull request #2728 from jeff303/patch-1
+Merge pull request #2717 from frenchy64/frenchy64-lein-test-fix-race
+Merge pull request #2713 from c2nes/upgrade-apache-httpclient
+Merge pull request #2712 from utkarsh2102/update-commons-io
+Merge pull request #2711 from bbatsov/nrepl-0.8
+Merge pull request #2702 from robhanlon22/make-meta-merge-public
+Merge pull request #2701 from nighcoder/master
+Merge pull request #2680 from c2nes/deps-query-fix-version-shown
+Merge pull request #2678 from mourjo/master
+Merge pull request #2688 from 310b8fb5/OpenBSD_sha256_fix
+Merge pull request #2686 from bsless/direct-link-uberjar
+Merge pull request #2525 from pfeodrippe/support-different-transports-at-repl
+Merge pull request #2619 from rafaeldelboni/master
+Merge pull request #2676 from VaclavSynacek/master
+Merge pull request #2673 from bbatsov/nrepl-0.7
+Merge pull request #2668 from saitouena/fix-LEIN_FAST_TRAMPOLINE-to-respect-local-profile
+Merge pull request #2670 from saitouena/remove-deprecated-make-pom-properties
+Merge pull request #2665 from jackgene/master
+Merge branch 'master' of github.com:jackgene/leiningen
+Merge pull request #2661 from c2nes/memoize-middleware
+Merge pull request #2654 from robhanlon22/master
+Merge pull request #2651 from robhanlon22/fix-pprint
+Merge branch 'master' of github.com:technomancy/leiningen into fix-pprint
+Merge pull request #2652 from sgerrand/circleci-test-java-versions-matrix
+Merge pull request #2646 from glts/update-pomegranate
+Merge pull request #2647 from glts/test-gpg-home
+Merge pull request #2633 from miikka/subprocess-failed
+Merge pull request #2630 from chrisglass/fix/annotate-release-tags
+Merge pull request #2626 from radhikalism/keep-explicit-middleware-and-hooks
+Merge pull request #2593 from glts/init-project
+Merge pull request #2617 from avfonarev/master
+Merge pull request #2615 from glts/upgrade-reply
+Merge pull request #2608 from saitouena/consistent_load_order_for_lein_check
+Merge pull request #2605 from saitouena/print-progress-in-lein-release
+Merge pull request #2603 from SherSpock/remove-duplicate-test-project-information
+Merge pull request #2602 from winks/faq-1
+Merge pull request #2600 from gavinkflam/master
+Merge pull request #2544 from Vaelatern/fix-no-checksum
+Merge pull request #2596 from glts/fix-uberjar-snapshot-check
+Merge pull request #2583 from glts/deps-verify-aether-args
+Merge pull request #2588 from glts/profile-setup
+Merge pull request #2591 from glts/update-clojars-repo-url
+Merge pull request #2592 from puredanger/1.10.1
+Merge pull request #2586 from glts/composite-profile-default-meta
+Merge pull request #2581 from glts/fix-deploy-proxy
+Merge pull request #2587 from glts/broken-profile-normalization
+Merge pull request #2584 from glts/fix-test-selector-abort
+Merge pull request #2582 from glts/ci-cache-gpg
+Merge pull request #2578 from glts/repo-policy-defaults
+Merge pull request #2577 from glts/fix-jvm-args-regex
+Merge pull request #2579 from glts/gpg-disable-ipv6
+Merge pull request #2575 from glts/repo-policies-in-pom
+Merge pull request #2573 from glts/add-data.codec-to-bootclasspath
+Merge pull request #2574 from nwjsmith/update-boot-classpath
+Merge pull request #2568 from glts/fix-gpg-regex
+Merge pull request #2569 from glts/data.xml-0.2.0-alpha5
+Merge pull request #2557 from kaznak/translate-man-ja
+Merge pull request #2558 from kaznak/translate-tutorial-ja
+Merge pull request #2559 from kaznak/doc-fix
+Merge pull request #2555 from kaznak/tutorial-brushup
+Merge pull request #2550 from noisesmith/master
+Merge pull request #2551 from nwjsmith/update-guava
+Merge pull request #2541 from pesterhazy/dedupe-main
+Merge pull request #2536 from juergenhoetzel/handle-empty-proxy-string
+Merge pull request #2534 from technomancy/issue-templates
+Merge pull request #2535 from apetro/patch-1
+Merge pull request #2532 from juergenhoetzel/checkout-relative-path-invokation
+Merge pull request #2531 from opqdonut/pr-str-backwards-compatibly
+Merge pull request #2528 from ehashman/nrepl-0.6.0
+Merge pull request #2518 from LoganGirard/master
+Merge pull request #2510 from pfeodrippe/fix-transport-initialization
+Merge pull request #2515 from bbatsov/nrepl-changelog
+Merge pull request #2511 from puredanger/master
+Merge remote-tracking branch 'cnuernber/remove-transitive-deps'
+Merge pull request #2505 from winks/ps1
+Revert "Merge pull request #2279 from gonewest818/unattended-signatures"
+Merge pull request #2500 from bbatsov/fix-ack
+Merge pull request #2496 from bbatsov/nrepl-config
+Merge pull request #2493 from dancek/pom-plugin-config
+Merge pull request #2481 from JamesTryand/patch-1
+Merge pull request #2474 from bbatsov/update-reply
+Merge pull request #2468 from TimoFreiberg/update-bultitude-dependency
+Merge pull request #2470 from brunchboy/omit-ds-store-files-anywhere
+Merge pull request #2471 from jorinvo/scm-url-without-dot-git
+Merge pull request #2455 from marco-m/add-circleci-badge
+Merge pull request #2444 from bbatsov/new-nrepl
+Merge pull request #2454 from ghaskins/lein-2453
+Merge pull request #2451 from j-cr/patch-2
+Merge pull request #2448 from Chouser/patch-1
+Merge pull request #2442 from ehashman/eaux
+Merge pull request #2439 from xiongtx/2438-profile-override
+Merge pull request #2413 from aroemers/fix-duplicate-alias
+Merge pull request #2432 from technomancy/lein-change-set
+Merge pull request #2436 from technomancy/tcrawley/update-clojars-cert
+Merge pull request #2431 from xiongtx/2429-ignore-profiles
+Merge pull request #2419 from ehashman/upgrades
+Merge pull request #2211 from scottdw/powershell-fixes
+Merge pull request #2418 from winks/lein-bat-win7
+Merge pull request #2417 from ehashman/commons-io
+Merge pull request #2411 from rymndhng/patch-1
+Merge pull request #2410 from nickmbailey/patch-1
+Merge pull request #2404 from yegortimoshenko/20180220.210231/gplv2-or-later
+Merge pull request #2405 from D-side/patch-1
+Merge pull request #2398 from tirkarthi/master
+Merge pull request #2279 from gonewest818/unattended-signatures
+Merge pull request #2379 from conormcd/jar-versions-in-manifest
+Merge pull request #2367 from bbatsov/patch-4
+Merge pull request #2366 from venantius/update-template-docs
+Merge pull request #2362 from ehashman/issue-2361
+Merge pull request #2354 from sashton/add-maven-timeout-doc
+Merge pull request #2349 from slipset/patch-1
+Merge pull request #2344 from winks/cgroups-gone
+Merge pull request #2337 from tsachev/master
+Merge pull request #2338 from winks/bug-2336
+Merge pull request #2334 from paasar/fix/could-typo
+Merge pull request #2324 from acron0/fix/cgroups-jvm-opts-boolean-logic-2
+Merge pull request #2327 from bfontaine/patch-1
+Merge pull request #2322 from cap10morgan/patch-1
+Merge pull request #2319 from ghadishayban/java9-2149
+Merge pull request #2315 from nberger/fix-scm-git-tag-node
+Merge pull request #2313 from irinarenteria/static_help_fix
+Merge pull request #2312 from technomancy/vcs-commit-override-message
+Merge pull request #2306 from glts/typehint-run-form
+Merge pull request #2300 from technomancy/s3p-workaround
+Merge pull request #2297 from ehashman/man
+Merge pull request #2294 from cbcoutinho/master
+Merge pull request #2295 from kingpong/suppress-boxed-math-warning
+Merge pull request #2293 from glts/gpg-return-out-and-err
+Merge branch 'pr/2291'
+Merge pull request #2289 from glts/trim-git-head
+Merge pull request #2290 from daveliepmann/patch-1
+Merge pull request #2285 from montoux/fix-2284-checkouts-recursion
+Merge branch 'circle'
+Merge pull request #2276 from bfontaine/gpg-brew-url
+Merge pull request #2273 from iperdomo/master
+Merge pull request #2261 from technomancy/repl-outside-project
+Merge pull request #2267 from liftoffio/javac-silent
+Merge pull request #2258 from firesofmay/catch-no-route-exception
+Merge remote-tracking branch 'weavejester/smarter-target-profiles'
+Merge pull request #2256 from kenrestivo-stem/feature/tree-deps-2
+Merge pull request #2257 from timofeytt/patch-1
+Merge pull request #2254 from Rovanion/str
+Merge pull request #2244 from DanToml/dani_fs_permissions
+Merge pull request #2243 from nberger/add-vcs-tag-no-sign-doc
+Merge pull request #2242 from cap10morgan/string-deps
+Merge pull request #2238 from technomancy/gfredericks-patch-1
+Merge pull request #2233 from technomancy/amalloy-patch-1
+Merge pull request #2235 from technomancy/api-search
+Merge pull request #2232 from jeredepp/patch-1
+Merge pull request #2225 from tobias/new-clojars-repo-url
+Merge pull request #2226 from tobias/dynapath-0.2.5
+Merge pull request #2220 from rymndhng/add-deploy-classifier
+Merge pull request #2218 from emlyn/patch-1
+Merge pull request #2217 from cprice404/2216-managed-deps-with-profiles
+Merge pull request #2214 from technomancy/2212-allow-keyword-dependency-versions
+Merge pull request #2207 from cprice404/2195-dont-require-nil-for-version-in-managed-deps
+Merge pull request #2206 from cprice404/2205-npe-when-checking-for-snapshot-deps
+Merge pull request #2201 from danielcompton/patch-1
+Merge pull request #2196 from technomancy/cprice404-managed-deps-docs-re-exclusions
+Merge pull request #2174 from brianary/powershell
+Merge PR #2165
+Merge PR #2159
+Merge PR #2157
+Merge PR #2152
+Merge pull request #2184 from webappzero/waz-lein-jar-typo
+Merge pull request #2179 from danielcompton/gh-username
+Merge pull request #2176 from yatesco/patch-1
+Merge pull request #2175 from vredniy/master
+Merge pull request #2164 from cprice404/feature/master/support-reading-proj-from-reader
+Merge remote-tracking branch 'refs/remotes/technomancy/master'
+Merge pull request #2172 from winks/new-faqs
+Merge pull request #2171 from cprice404/bug/master/2170-update-clojars-cert
+Merge pull request #2126 from cprice404/feature/master/2067-support-for-managed-dependencies
+Merge pull request #2155 from 3duard0/fix-issue-2082
+Merge pull request #2154 from zackdever/bash-completion-update
+Merge pull request #2144 from CannedYerins/master
+Merge pull request #2146 from montoux/fix-2145-jvm-opts-parsing
+Merge pull request #2138 from alexhall/catch-fixture-exceptions
+Merge pull request #2135 from dryewo/master
+Merge pull request #2104 from mastersign/mastersign-patch-path-spaces
+Merge pull request #2106 from solatis/patch-1
+Merge pull request #2127 from RasterBurn/patch-2
+Merge pull request #2116 from cprice404/maint/master/update-to-pomegranate-0.3.1
+Merge pull request #2101 from pauldorman/patch-1
+Merge pull request #2099 from Reefersleep/avoid_lein_jar_on_windows
+Merge pull request #2100 from RickMoynihan/allow-user-repositories-when-uberjaring
+Merge pull request #2094 from pkan/master
+Merge pull request #2090 from cprice404/bug/master/honor-java-whitelist-settings-in-javac
+Merge pull request #2092 from timvisher/patch-1
+Merge pull request #2088 from kleewho/issue_1846
+Merge pull request #2078 from danielcompton/patch-1
+Merge pull request #2076 from danielcompton/remove-potemkin
+Merge pull request #2075 from danielcompton/upgrade-clojure-complete
+Merge pull request #2071 from technomancy/remove-clojars-docs
+Merge pull request #2070 from danielcompton/patch-2
+Merge pull request #2063 from arichiardi/gpg-piping-fix
+Merge pull request #2026 from winks/leiningen-1865
+Merge pull request #2050 from cprice404/bug/master/2043-support-snapshots-on-qualifiers
+Merge pull request #2056 from winks/copyright-2016
+Merge pull request #2047 from TrangPham/lein_pkg_opts
+Merge branch 'lein_pkg_opts' of github.com:TrangPham/leiningen into lein_pkg_opts
+Merge pull request #2046 from TrangPham/master
+Merge pull request #2045 from ryfow/set-agent-keep-alive
+Merge pull request #2032 from danielcompton/upgrade-clj-http-2-0-0
+Merge pull request #2037 from solicode/issue-2035
+Merge pull request #1998 from emlyn/aot-warning
+Merge pull request #2027 from winks/leiningen-1759
+Merge pull request #2024 into master
+Merge pull request #2023 from m9aertner/leiningen-1899
+Merge pull request #2022 from sbondaryev/feature/binary-file-support
+Merge pull request #2009 from propan/master
+Merge branch 'pr/2017'
+Merge pull request #2007 from schmir/fix-non-github-url-parsing
+Merge pull request #1990 from MichaelBlume/no-auth
+Merge pull request #2008 from floating-cat/master
+Merge pull request #2006 from RasterBurn/patch-1
+Merge pull request #2005 from coldnew/fix-typo-on-profiles-md
+Merge pull request #2004 from pietromenna/pedantic-abort-when-true
+Merge pull request #2002 from timvisher/add-timvisher-to-news
+Merge pull request #1991 from MichaelBlume/container-build
+Merge pull request #1993 from rwilson/master
+Merge pull request #1988
+Merge pull request #1970 from Hardtack/master
+Merge pull request #1830 from winks/issue-1420
+Merge pull request #1986 from danielcompton/vcs-tag-without-signing
+Merge pull request #1985 from danielcompton/add-development-section
+Merge pull request #1984 from shimanekb/issue1944
+Merge pull request #1980 from j-allard/relax-file-not-found-test
+Merge pull request #1974 from weavejester/create-classpaths-on-eval
+Merge pull request #1972 from timvisher/feature/honor-sh-return-codes
+Merge pull request #1964 from shimanekb/issue1963
+Merge pull request #1933 from shalu214patil/update-lein-failure
+Merge pull request #1954 from orderthruchaos/master
+Merge pull request #1951 from pietromenna/lein-upgrade-snapshot-message
+Merge pull request #1948 from laforge49/master
+Merge pull request #1906 from marick/master
+Merge pull request #1943 from danielcompton/scp-docs
+Merge pull request #1941 from towler73/master
+Merge pull request #1917 from rmoehn/clarify-plugin-doc
+Merge pull request #1911 from montoux/ft-reader-conditionals
+Merge pull request #1937 from conormcd/bump-cheshire
+Merge pull request #1919 from marthall/master
+Merge pull request #1918 from Leonidas-from-XIV/bugfix/platform-independent-sha
+Merge pull request #1912 from timlinquist/master
+Merge pull request #1886 from oneeman/refactor-drop-partial-args
+Merge pull request #1881 from athos/feature/template-version
+Merge pull request #1851 from yeller/add_ironic_eaxure
+Merge pull request #1870 from pksunkara/master
+Merge branch PR #1849, closes #1718.
+Merge pull request #1842 from avasenin/read-checkouts
+Merge pull request #1864 from solicode/issue-1855
+Merge pull request #1861 from bbatsov/patch-1
+Merge pull request #1862 from bbatsov/patch-2
+Merge pull request #1848 from casidiablo/patch-1
+Merge pull request #1845 from noisesmith/bail-uberjar-snapshots
+Merge PR #1838 into master.
+Merge pull request #1837.
+Merge pull request #1836 from JonathanHayward/patch-1
+Merge pull request #1832 from winks/issue-1815
+Merge pull request #1831 from fgiasson/master
+Merge pull request #1822 from mydoghasworms/mydoghasworms-patch-1
+Merge pull request #1818 from kul/master
+Merge pull request #1810 from MichaelBlume/no-dupes
+Merge pull request #1817 from ragnard/typehint-reflector-invokestaticmethod
+Merge pull request #1813 from yogthos/patch-1
+Merge pull request #1808 from mavbozo/gpg-agent-docs
+Merge pull request #1812 from yogthos/master
+Merge pull request #1807 from brandonbloom/into-strings
+Merge pull request #1804 from tpope/drawbridge-port
+Merge pull request #1801 from kephale/uberjarname
+Merge pull request #1794 from k2n/plugin_doc_ja_translation
+Merge PR #1720, fixes #1719.
+Merge pull request #1793 from m00nlight/hgignore
+Merge pull request #1786 from jafingerhut/master
+Merge pull request #1769 from RyanMcG/fix-pass-through-help-on-vector-aliases
+Merge pull request #1776 from jcrossley3/1721
+Merge branch 'improve-write-permissions'.
+Merge meta on aliases.
+Merge pull request #1770 from cakebaker/fix_new_doc
+Merge pull request #1766 from ernestas/check-for-write-permissions
+Merge pull request #1767 from danielcompton/patch-1
+Merge pull request #1747 from technomancy/check-for-permissions-in-lein-jar-1724
+Merge pull request #1755 from fgiasson/master
+Merge pull request #1745 from jebberjeb/clean-everything
+Merge pull request #1742 from hugoduncan/fix-classified-jars
+Merge pull request #1741 from jcrossley3/1740
+Merge pull request #1732 from cprice404/bug/1695-repository-replace
+Merge pull request #1737 from jakebasile/update-test-help
+Merge pull request #1735 from martinklepsch/clarify-gpg-override
+Merge pull request #1730 from hugoduncan/add-lein_no_user_profiles-to-sample-project
+Merge pull request #1704 from hugoduncan/feature/add-task-profile-meta
+Merge pull request #1696 from hugoduncan/fix-profiles-on-aliases
+Merge pull request #1700 from circlespainter/circlespainter-manifest-sections
+Merge pull request #1709 from hugoduncan/allow-all-non-default-profiles-in-jar
+Merge pull request #1727 from winks/fix-warning
+Merge pull request #1723 from dbriones/upgrade-wagon-http
+Merge pull request #1716 from sindux/bugfix/1702-lein-self-install-broken
+Merge pull request #1711 from cortextual/master
+Merge pull request #1707 from jbence/feature/fix-script-env-value
+Merge branch 'test-1676-fie-encoding'
+Merge branch 'no-inst'
+Merge pull request #1705 from dthume/RemovePrintlnFromGitFileContents
+Merge pull request #1688 from hugoduncan/fix-jar-refactoring
+Merge pull request #1689 from hugoduncan/fix-with-profile-aliases
+Merge pull request #1691 from technomancy/fix-erroneous-shell-command-form
+Merge remote-tracking branch 'hugoduncan/fix-classifier-jars'
+Merge remote-tracking branch 'hugoduncan/feature/annotated-profiles'
+Merge pull request #1676 from timmc/alt-jvm-encoding
+Merge branch 'profiles-from-plugins'
+Merge pull request #1599 from samuelbosch/master
+Merge remote-tracking branch 'hugoduncan/fix-unmerge-with-meta-profiles' into profiles-from-plugins
+Merge remote-tracking branch 'hugoduncan/feature/add-project-profile' into profiles-from-plugins
+Merge pull request #1671 from hugoduncan/feature/warn-if-classifier-sets-dependencies
+Merge pull request #1626 from tihancock/unique-file-per-namespace
+Merge pull request #1659 from winks/issue-1518-https
+Merge pull request #1651 from winks/issue-1518
+Merge pull request #1649 from MarcoPolo/sequential-fix-in-relativize
+Merge pull request #1648 from jgdavey/zsh
+Merge pull request #1640 from phalphalak/separate-control-flow-from-version-parsing
+Merge pull request #1628 from paxan/patch-1
+Merge pull request #1613 from pjlegato/print-compile-errors
+Merge pull request #1618 from mosabua/securecentral
+Merge pull request #1616 from hugoduncan/feature/add-no-user-profiles
+Merge pull request #1611 from techwhizbang/master
+Merge pull request #1609 from rogerallen/issue1607
+Merge pull request #1603 from GlenKPeterson/patch-2
+Merge pull request #1596 from hugoduncan/feature/update-clj-http-to-0.9.2
+Merge pull request #1595 from stuartfehr/master
+Merge pull request #1591 from xsc/fix/vcs-tag
+Merge pull request #1570 from technomancy/ignore_sigint_in_repl_subprocess
+Merge pull request #1584 from MichaelBlume/report-bad-filename
+Merge pull request #1582 from kumarshantanu/master
+Merge pull request #1576 from Christopher-Bui/patch-1
+Merge pull request #1572 from tihancock/one-file-per-namespace
+Merge pull request #1568 from eraserhd/new_remote_template_fixes
+Merge pull request #1556 from gfredericks/issue-1555
+Merge pull request #1549 from stuarth/patch-1
+Merge remote-tracking branch 'jcrossley3/init-release'
+Merge pull request #1542 from jcrossley3/1541
+Merge pull request #1543 from jakemcc/unknown-vcs-results-in-short-error-message
+Merge remote-tracking branch 'waynr/deploy-repositories-aliasing'
+Merge remote-tracking branch 'waynr/lein-release'
+Merge remote-tracking branch 'arr-ee/fix-1534'
+Merge pull request #1531 from crisptrutski/load-function-via-cli
+Merge remote-tracking branch 'cddr/826-info-messages-to-stder'
+Merge remote-tracking branch 'crisptrutski/set-group-or-artifact-id'
+Merge remote-tracking branch 'crisptrutski/lein-release-and-change-interop'
+Merge remote-tracking branch 'waynr/lein-release'
+Merge branch 'release'
+Merge remote-tracking branch 'crisptrutski/set-project-version'
+Merge pull request #1526 from ardumont/add-toc-to-tutorial
+Merge pull request #1524 from petergarbers/handle-duplicate-keys-in-defproject
+Merge pull request #1513 from cmpitg/better-documentation
+Merge pull request #1509 from jakubholynet/patch-2
+Merge :plugin-repositories into :repositories before loading plugins.
+Merge pull request #1506 from jakubholynet/patch-1
+Merge pull request #1504 from jcrossley3/1498
+Merge pull request #1499 from cddr/ignore-nrepl-port
+Merge pull request #1497 from jcrossley3/dedupe-group
+Merge pull request #1493 from tobias/wagon-factory-docs
+Merge pull request #1489 from CraZySacX/group-name
+Merge pull request #1486 from mpblair/force-new
+Merge remote-tracking branch 'jcrossley3/expand-profiles'
+Merge pull request #1478 from MichaelBlume/use8
+Merge pull request #1470 from fredericksgary/issue-1469
+Merge pull request #1466 from mpblair/search-progress
+Merge pull request #1468 from fredericksgary/skip-default-init
+Merge pull request #1465 from fredericksgary/cleanup
+Merge remote-tracking branch 'laurentpetit/master'
+Merge pull request #1440 from benwbooth/master
+Merge pull request #1461 from cpmcdaniel/master
+Merge remote-tracking branch 'upstream/master'
+Merge pull request #1454 from mpblair/profiles-help
+Merge branch 'retain-profile-metadata'
+Merge pull request #1456, fixes #1455.
+Merge pull request #1453 from mpblair/blank-profiles
+Merge pull request #1443 from jcrossley3/add-profiles
+Merge pull request #1434 from jcrossley3/patch-1
+Merge pull request #1432 from jcrossley3/filespec-dirs
+Merge pull request #1431 from hura/patch-1
+Merge pull request #1430 from mblair/add-new-app-files
+Merge branch 'decompose-profiles'
+Merge pull request #1425 from technomancy/lower-http-timeout-1096
+Merge remote-tracking branch 'DavidEGrayson/lein_faster'
+Merge pull request #1 from ryantm/patch-1
+Merge pull request #1413 from laurentpetit/issue-1412
+Merge pull request #1408 from drewnoakes/docs/tutorial
+Merge branch 'properly-init-profiles'
+Merge pull request #1406 from frenchy64/patch-1
+Merge pull request #1401 from benwbooth/master
+Merge pull request #1400 from devth/master
+Merge pull request #1399 from sritchie/patch-1
+Merge pull request #1395 from statonjr/master
+Merge pull request #1383 from dannypurcell/msys-classpath-fix
+Merge pull request #1379 from graue/patch-1
+Merge pull request #1373 from dentrado/check-version-on-upgrade
+Merge pull request #1372 from sebasoga/minor_doc_fix
+Merge pull request #1362 from pashields/patch-1
+Merge in uberjar profile before implicit aot check
+Merge pull request #1361 from technomancy/nested-chains
+Merge pull request #1351 from coventry/more-explicit-instructions-on-installing-dependencies
+Merge pull request #1341 from llasram/meta-merge-defaults
+Merge pull request #1342 from dominikdz/master
+Merge pull request #1345 from tobias/repl-port-abort-fix
+Merge pull request #1339 from llasram/uberjar-merge-with
+Merge pull request #1340 from llasram/sample-whitespace
+Merge pull request #1310 from jakubholynet/patch-1
+Merge pull request #1324 from dominikdz/master
+Merge pull request #1338 from jcrossley3/port-required
+Merge pull request #1336 from jcrossley3/connect-via-nrepl-port-file
+Merge in better error messages for -m in lein run.
+Merge pull request #1332 from jconti/master
+Merge pull request #1313 from coventry/clarify-checkout-dependency-usage
+Merge pull request #1312 from kumarshantanu/master
+Merge branch 'jar-directory-entries' of https://github.com/dm3/leiningen
+Merge pull request #1297 from kumarshantanu/master
+Merge pull request #1293 from kumarshantanu/master
+Merge pull request #1285 from sharms/master
+Merge pull request #1280 from samaaron/patch-1
+Merge pull request #1278 from fredericksgary/issue-1276
+Merge pull request #1275 from kohyama/issue1272
+Merge pull request #1271 from fredericksgary/issue-1269
+Merge pull request #1270 from manandbytes/oraclejdk7
+Merge pull request #1268 from babilen/dev/new-license
+Merge pull request #1264 from luigidt/winxp_fix
+Merge branch 'expand-composite-profiles'
+Merge pull request #1243 from richo/features/git_plumbing
+Merge pull request #1252 from gphil/leiningen-download-stats
+Merge pull request #1249 from josteink/master
+Merge pull request #1247 from MichaelBlume/preprocess-for-get-jar-filename
+Merge pull request #1244 from cldwalker/fix-typos
+Merge pull request #1231 from juergenhoetzel/fix-trampoline3
+Merge pull request #1239 from djanatyn/master
+Merge pull request #1234 from juergenhoetzel/fast-trampoline-keep-init-file
+Merge pull request #1232 from w01fe/faq-entry-for-long-term-performance
+Merge pull request #1230 from stuartsierra/displace-jvm-opts
+Merge pull request #1229 from juergenhoetzel/secure-tempfiles
+Merge pull request #1226 from juergenhoetzel/fix-trampoline
+Merge pull request #1225 from juergenhoetzel/use-init-file
+Merge pull request #1221 from malyn/unix-path-copy-to-jar-bytes
+Merge pull request #1223 from kanej/hostreplarg
+Merge pull request #1220 from malyn/normalized-template-slurping
+Merge pull request #1218 from leon-barrett/line-fix
+Merge pull request #1213 from zachpendleton/search-documentation
+Merge pull request #1209 from robermann/master
+Merge pull request #1211 from Iristyle/patch-1
+Merge pull request #1208 from robermann/patch-1
+Merge pull request #1206 from fredericksgary/issue-1205
+Merge pull request #1196 from leon-barrett/master
+Merge pull request #1192 from dadinn/patch-1
+Merge pull request #1184 from fredericksgary/master
+Merge pull request #1183 from fredericksgary/master
+Merge remote-tracking branch 'upstream/master' into testsUnderWindows1
+Merge remote-tracking branch 'upstream/master' into testsUnderWindows1
+Merge remote-tracking branch 'upstream/master' into testsUnderWindows1
+Merge branch 'master' into testsUnderWindows1
+Merge default profiles in checkout-deps project reading.
+Merge :uberjar profile when uberjarring.
+Merge found :deploy-repositories entry with :repositories entry in deploy.
+Merge branch 'master' into testsUnderWindows1
+Merge pull request #1177 from AtKaaZ/2StringsWere1
+Merge pull request #1164 from ryfow/rememoize-get-dependencies
+Merge pull request #1160 from JacekLach/1160-pom-extra-test-typo
+Merge pull request #1163 from technomancy/issue-1154
+Merge remote-tracking branch 'ryfow/memoize-get-dependencies'
+Merge branch 'reorg-repl'
+Merge pull request #1159 from AtKaaZ/bootstrapPathsGet
+Merge pull request #1158 from AtKaaZ/bootstrapTypo
+Merge pull request #1157 from qerub/master
+Merge pull request #1147 from joelittlejohn/template-executable
+Merge pull request #1146 from bendlas/patch-1
+Merge pull request #1145 from malcolmsparks/fix-lein-fast-trampoline
+Merge comments from master
+Merge pull request #1137 from technomancy/use-newline
+Merge pull request #1131 from laurentpetit/master
+Merge pull request #1126 from MichaelDrogalis/master
+Merge pull request #1125 from bdollard/master
+Merge branch 'improve-update-in'
+Merge pull request #1118 from djpowell/quotes-around-download
+Merge pull request #1115 from arrdem/patch-1
+Merge pull request #1114 from joelittlejohn/system-no-proxy
+Merge pull request #1109 from pyr/patch-1
+Merge pull request #1108 from gaverhae/global-vars
+Merge pull request #1101 from technomancy/improve-update-in
+Merge pull request #1100 from josephwilk/doc-typos
+Merge pull request #1098 from mtopolnik/fix-1095
+Merge pull request #1094 from mtopolnik/remove-warn-chaining
+Merge pull request #1095 from mtopolnik/delete-dup
+Merge pull request #1090 from djpowell/win-path-quoting
+Merge pull request #1087 from logaan/usr-local-bin
+Merge remote-tracking branch 'origin/with-profile-symmetry'
+Merge pull request #1083 from djpowell/master
+Merge remote-tracking branch 'marcliberatore/natives-update-java-library-path'
+Merge pull request #1078 from djpowell/more-bat-fixes
+Merge pull request #1077 from djpowell/windows-system-profile
+Merge pull request #1074 from timmc/master
+Merge pull request #1072 from cldwalker/news-test
+Merge remote-tracking branch 'hyPiRion/read-nonblocking'
+Merge pull request #1066 from djpowell/lein-bat-fixes
+Merge pull request #1065 from tobias/remove-dynapath-exclusion
+Merge pull request #1058 from hugoduncan/feature/add-bootstrap-alias
+Merge pull request #1057 from megri/master
+Merge pull request #1056 from timmc/expand-uberjar-whitelist
+Merge pull request #1046 from hugoduncan/feature/fix-repo-credentials
+Merge pull request #1041 from AtKaaZ/bultitudeUp
+Merge pull request #1036 from juggler/set-writeable
+Merge pull request #1032 from juggler/accept-credentials-in-url
+Merge pull request #1029 from aroemers/silent-resolve-issue-fix
+Merge pull request #1026 from bruceadams/master
+Merge pull request #1027 from cldwalker/add-resources
+Merge pull request #1024 from hugoduncan/feature/task-not-found-to-stderr
+Merge pull request #1023 from sergv/typo-fixes
+Merge pull request #1022 from tobias/dynapath-update
+Merge remote-tracking branch 'hugoduncan/feature/fix-recursive-alias-993'
+Merge pull request #1020 from cldwalker/fix-new-tests
+Merge pull request #1019 from hugoduncan/feature/log-classpath
+Merge pull request #1018 from hugoduncan/feature/fix-test-exit-code-for-eval-in-leiningen
+Merge pull request #1006 from cldwalker/document-global-options
+Merge pull request #1014 from deduktion/patch-2
+Merge branch 'master' of https://github.com/benjaminsavoy/leiningen
+Merge pull request #1012 from daemianmack/patch-1
+Merge pull request #986 from hugoduncan/feature/add-repo-warn-suppression
+Merge branch 'master' of github.com:technomancy/leiningen
+Merge pull request #1002 from cldwalker/upgrade-bultitude
+Merge pull request #1001 from cldwalker/test-doc-tweak
+Merge pull request #1000 from cldwalker/test-command-takes-files
+Merge pull request #999 from trevor/master
+Merge branch 'master' of github.com:technomancy/leiningen into printonly
+Merge pull request #991 from hugoduncan/feature/simplify-deploy
+Merge pull request #995 from cldwalker/test-command-docs
+Merge pull request #985 from timmc/explicit-gpg-args
+Merge pull request #984 from davidhc/better-errors
+Merge pull request #983 from paraseba/long-javac-commandline
+Merge pull request #980 from bruceadams/patch-1
+Merge pull request #974 from kumarshantanu/master
+Merge pull request #970 from cldwalker/helpful-new-renderer
+Merge pull request #972 from cldwalker/959-fix-tutorial
+Merge pull request #969 from cldwalker/contributing-typos
+Merge pull request #948 from maerz/patch-1
+Merge pull request #945 from MerelyAPseudonym/patch-1
+Merge pull request #942 from AtKaaZ/master
+Merge pull request #939 from timmc/back-to-one-problem
+Merge pull request #937 from hyPiRion/gracefully-stop-reading-input-in-sub-process
+Merge pull request #936 from metajack/fix-release-for-lein-pkg
+Merge pull request #935 from brandonbloom/newlines-at-eof
+Merge pull request #932 from mgrubb/warn-on-user-in-project
+Merge pull request #927 from AtKaaZ/master
+Merge pull request #926 from redinger/normalize-profiles
+Merge pull request #909 from hyPiRion/normalize-data-in-project-map
+Merge pull request #914 from revelytix/test-report-hook
+Merge pull request #913 from mybuddymichael/change-tutorial-to-use-find
+Merge pull request #911 from hugoduncan/feature/central-is-release-only
+Merge pull request #910 from trevor/patch-1
+Merge pull request #902 from hyPiRion/uberjar-compile-after-aot-calculations
+Merge pull request #894 from fbernier/patch-1
+Merge pull request #889 from jaceklaskowski/patch-3
+Merge pull request #888 from hyPiRion/skip-pom-git-revision-if-empty-git-repo
+Merge pull request #886 from hyPiRion/run-javac-in-subprocess
+Merge pull request #883 from hyPiRion/fix-with-profile-recursive-aliases
+Merge pull request #881 from hyPiRion/alias-java-opts-to-jvm-opts
+Merge pull request #879 from m00sey/patch-1
+Merge pull request #877 from balinterdi/fix-project-repositories-test-case
+Merge pull request #876 from balinterdi/update-repositories-key-in-sample-project
+Merge pull request #873 from balinterdi/only-run-tests-which-match-selector
+Merge pull request #874 from arohner/master
+Merge pull request #872 from dgrnbrg/alternate-repo-root
+Merge pull request #868 from hugoduncan/feature/add-profile
+Merge pull request #866 from uvtc/patch-1
+Merge pull request #864 from ghoseb/master
+Merge pull request #861 from kumarshantanu/master
+Merge pull request #859 from bmabey/patch-1
+Merge pull request #857 from bruceadams/master
+Merge pull request #855 from llasram/test-provided-deps
+Merge pull request #854 from ghoseb/master
+Merge pull request #848 from jaceklaskowski/master
+Merge pull request #839 from bruceadams/quoting
+Merge pull request #837 from AtKaaZ/fixTrampolineEOF
+Merge pull request #833 from AtKaaZ/fixTrampoline1
+Merge pull request #831 from bruceadams/quote-paths
+Merge pull request #830 from AtKaaZ/fixClassesPatch0
+Merge remote-tracking branch 'upstream/master' into fixClassesPatch0
+Merge pull request #819 from uvtc/patch-1
+Merge pull request #818 from kingtim/repl-init
+Merge pull request #817 from wlabelle/git-file-fix
+Merge pull request #810 from technomancy/last-wins
+Merge pull request #807 from technomancy/mk-tutorial-improvements
+Merge pull request #803 from tobias/help-for-subtasks
+Merge pull request #801 from jcrossley3/242
+Merge pull request #797 from jeffdik/master
+Merge pull request #795 from juergenhoetzel/master
+Merge pull request #790 from technomancy/per_project_repl_history
+Merge pull request #786 from technomancy/global-offline-flag
+Merge pull request #784 from dchelimsky/fix-typo
+Merge pull request #783 from StevenBorrelli/patch-1
+Merge pull request #782 from basicsensei/leakyenv
+Merge pull request #781 from basicsensei/fix774
+Merge pull request #779 from davie/master
+Merge pull request #778 from basicsensei/fix774
+Merge branch 'drip'
+Merge pull request #771 from charleslparker/master
+Merge pull request #767 from bruceadams/master
+Merge pull request #766 from deduktion/patch-1
+Merge pull request #763 from bruceadams/master
+Merge pull request #760 from zerokarmaleft/master
+Merge pull request #759 from hugoduncan/feature/allow-gpg-executable-configuration
+Merge pull request #758 from rwfowler/propogate-file.encoding
+Merge pull request #749 from Adirelle/patch-1
+Merge pull request #746 from llasram/provided-profile
+Merge remote branch 'llasram/provided-profile'
+Merge pull request #737 from jeremyheiler/master
+Merge pull request #733 from bruceadams/robust-self-install
+Merge pull request #725 from joegallo/task-typos
+Merge pull request #712 from pgdad/master
+Merge pull request #709 from oliyh/master
+Merge pull request #705 from joegallo/alias-example
+Merge pull request #704 from jonpither/master
+Merge pull request #703 from kenrestivo/hostfix
+Merge branch 'master' of github.com:technomancy/leiningen
+Merge pull request #701 from jonpither/master
+Merge branch 'master' of github.com:technomancy/leiningen
+Merge pull request #688 from amalloy/feature/repeat
+Merge pull request #685 from lynaghk/clarify-checkouts-docs
+Merge pull request #681 from bruceadams/master
+Merge remote-tracking branch 'Moocar/prep-tasks'
+Merge pull request #680 from bruceadams/master
+Merge pull request #675 from unnali/re_enable_post_compile_cleaning
+Merge pull request #666 from aperiodic/master
+Merge pull request #654 from winks/master
+Merge pull request #653 from winks/master
+Merge pull request #637 from bruceadams/master
+Merge pull request #626 from Knekkebjoern/master
+Merge pull request #622 from jaceklaskowski/master
+Merge pull request #621 from ato/early-register-certs
+Merge remote-tracking branch 'origin/cache-gpg-creds'
+Merge pull request #609 from ghoseb/master
+Merge pull request #603 from jaceklaskowski/master
+Merge branch 'master' of git://github.com/technomancy/leiningen
+Merge pull request #600 from cpmcdaniel/master
+Merge pull request #597 from bruceadams/master
+Merge pull request #576 from Borkdude/master
+Merge pull request #574 from Borkdude/master
+Merge pull request #572 from leonelag/master
+Merge pull request #570 from jszakmeister/fix-help-symlink
+Merge pull request #568 from juergenhoetzel/master
+Merge pull request #567 from leonelag/master
+Merge pull request #564 from technomancy/issue512
+Merge pull request #566 from ngrunwald/offline_alias
+Merge pull request #563 from uvtc/update-deps-docs
+Merge pull request #561 from jaceklaskowski/master
+Merge pull request #552 from marick/tutorial-marick
+Merge pull request #551 from kondratovich/patch-1
+Merge pull request #549 from hugoduncan/feature/add-fallback-for-lein-home
+Merge pull request #548 from hugoduncan/feature/add-target-to-git-ignore
+Merge pull request #547 from hugoduncan/feature/decouple-init-project
+Merge pull request #544 from technomancy/legacy-javac-options-support
+Merge pull request #543 from michaelklishin/newnew-0.2.8
+Merge pull request #539 from sattvik/master
+Merge pull request #538 from metajack/master
+Merge pull request #532 from kenrestivo/ce788c934159183eaaec2f3a9d841a862e791d52
+Merge pull request #526 from juergenhoetzel/master
+Merge pull request #524 from wjlroe/helpful-task-missing-error
+Merge pull request #509 from jaceklaskowski/patch-2
+Merge pull request #506 from johnbendi/patch-1
+Merge pull request #504 from jaceklaskowski/patch-1
+Merge pull request #499 from jseppanen/master
+Merge pull request #497 from juergenhoetzel/master
+Merge pull request #495 from jseppanen/master
+Merge pull request #494 from technomancy/fix/merge-profiles-meta
+Merge remote branch 'the-kenny/master'
+Merge pull request #488 from technomancy/fix/merge-metadata
+Merge pull request #485 from offby1/master
+Merge pull request #482 from technomancy/feature/392-profiles-in-project-map
+Merge pull request #472 from dysinger/feature/target-dir-should-be-target-path-in-sample
+Merge pull request #459 from leadVisionary/patch-1
+Merge pull request #448 from scgilardi/master
+Merge pull request #443 from scgilardi/master
+Merge pull request #447 from michaelklishin/java-cmd
+Merge pull request #442 from michaelklishin/one-more-test-for-the-new-task
+Merge pull request #441 from scgilardi/master
+Merge pull request #439 from jkk/master
+Merge pull request #438 from jkk/master
+Merge pull request #436 from roman/patch-1
+Merge pull request #435 from tobias/subtask-help
+Merge branch 'master' of github.com:technomancy/leiningen
+Merge pull request #431 from misfo/patch-2
+Merge branch '1.x'
+Merge pull request #426 from hugoduncan/feature/add-warn-on-no-project-in-checkout
+Merge pull request #408 from tobias/master
+Merge in nrepl-upgrade branch.
+Merge pull request #398 from misfo/patch-1
+Merge pull request #397 from guns/whoami-id-u
+Merge pull request #396 from michaelklishin/patch-1
+Merge remote-tracking branch 'michaelklishin/patch-1'
+Merge remote branch 'davidsantiago/master'
+Merge remote branch 'JulianBirch/master'
+Merge remote branch 'davidmiller/patch-1'
+Merge pull request #377 from timmc/master
+Merge maps in profiles correctly.
+Merge pull request #359 from scottjad/patch-1
+Merge pull request #345 from xeqi/master
+Merge remote-tracking branch 'ninjudd/master'
+Merge pull request #343 from acgetchell/patch-1
+Merge remote-tracking branch 'Raynes/master'
+Merge branch 'master' of git://github.com/technomancy/leiningen
+Merge lein-newnew into Leiningen proper.
+Merge branch '1.x'
+Merge pull request #315 from gmwils/1.x
+Merge remote-tracking branch 'Licenser/patch-1' into 1.x
+Merge pull request #311 from smee/patch-1
+Merge remote-tracking branch 'origin/287-user-level-deploy-repos' into 1.x
+Merge pull request #300 from tavisrudd/1.x
+Merge pull request #261 from robwolfe/upstream
+Merge pull request #280 from nathanmarz/1.x
+Merge changes from 1.6.1.1 to 1.x branch.
+Merge branch 'deploy-only-repositories-273' of https://github.com/cemerick/leiningen into 1.x
+Merge remote-tracking branch 'cemerick/211' into 1.x
+Merge pull request #258 from mwilliams/4dcd0cb718d302bd268b33b454630a7efee478d8
+Merge pull request #255 from kennystone/master
+Merge pull request #231 from bitsai/master
+Merge pull request #229 from paraseba/master
+Merge pull request #217 from scgilardi/trampoline-fix
+Merge pull request #216 from scgilardi/trampoline-fix
+Merge remote-tracking branch 'origin/master'
+Merge native-deps functionality. Needs more testing.
+Merge search task into mainlein. (har har)
+Merge remote branch 'mattrepl/master'
+Merged auth support for deps with latest from master.
+Merge remote branch 'mtyaka/windows-updates'
+Merge Colin Jones' lein-plugin plugin for managing plugins
+Merge remote branch 'alandipert/master'
+Merge branch 'alex-init'
+Merge remote branch 'trptcolin/master'
+Merge remote branch 'origin/master' into project-needed
+Merge remote branch 'origin/master' into multiple-tasks
+Merge remote branch 'lozh/windows-fixes'
+Merge branch 'windows-fixes' of github.com:lozh/leiningen into windows-fixes
+Merge remote branch 'michalmarczyk/flexible-jar-names'
+Merge commit 'neotyk/master'
+Merge commit 'mattrepl/master'
+Merge setfork branch.
+Merge branch 'master' of git://github.com/technomancy/leiningen
+Merge commit 'danlarkin/catch-missing-project'
+Merge commit 'danlarkin/guard-against-arity'
+Merge RickMoynihan's rlwrap patch, but disable it for dumb terms.
+Merge branch 'sys-exit'
+Merge branch 'master' of git://github.com/technomancy/leiningen
+Merge branch 'master' of git://github.com/technomancy/leiningen
+Merge branch 'no-maven-shell-out'
+Merge commit 'danlarkin/build-jar-in-memory'
+Merge commit 'danlarkin/improve-manifest'
+Merge commit 'danlarkin/detect-git-checkout'
+Merge branch 'master' of git://github.com/technomancy/leiningen
+Merge branch 'master' of git://github.com/technomancy/leiningen
+Merge remote branch 'technomancy/master'
+Merge remote branch 'technomancy/master'
+Merge danlarkin/master.

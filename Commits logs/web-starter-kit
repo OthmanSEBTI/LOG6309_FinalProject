@@ -1,0 +1,720 @@
+Merge pull request #961 from imkarthikk/patch-1
+Changing Bullet to Horizontal Line
+Merge pull request #916 from brianhaferkamp/patch-1
+Copy edits
+Add note about yarn support to docs
+Add yarn.lock file
+Merge pull request #905 from kennith/master
+Merge pull request #906 from JustineOwl/master
+Add sourcemaps to the tmp folder
+Add main.js to alternative starting point page
+Merge pull request #885 from nirgn975/firebase-doc-fix
+Merge pull request #883 from diegorodriguesvieira/master
+Merge pull request #886 from nirgn975/dependency-updates
+Merge pull request #887 from nirgn975/nodejs_version
+chore(mdl): Use MDL 1.2.1 (#891)
+chore(mdl): Use MDL 1.2.1
+Add node version 6 to travis.
+Update npm dependencies.
+Add firebase login command to deploy docs.
+README: remove unused file
+upgrade to mdl 1.1.3 and change locations as well (#877)
+remove usage of the gulp-uncss plugin (#876)
+live browser reloading on js files is missing (#867)
+Remove registration.update() (#866)
+Fix issue #848 (#853)
+Update sw-precache to latest
+Merge pull request #852 from arjunsajeev/master
+Fix typo in gulpfile.babel.js
+Merge pull request #851 from ReadmeCritic/master
+Update README URLs based on HTTP redirects
+Use '/' in sw-precache's stripPrefix (Closes #841)
+Revert "Properly return the streams from our tasks. Otherwise bad things can happen, as in:"
+Merge pull request #822 from mikelambert/master
+Properly return the streams from our tasks. Otherwise bad things can happen, as in: https://github.com/adametry/gulp-eslint/issues/36
+Merge pull request #804 from robwierzbowski/rw/replace-deprecated-minifiers
+Merge pull request #798 from accraze/sw-task-docs
+Updated the commands doc to explain SW difference
+Close #793 PR: fix small typo in the 'Configuring colors' section of mdl-sass.md.
+fix typo in readme
+Merge pull request #805 from robwierzbowski/rw/cleanups
+update .travis.yml
+Remove unused fs module import
+Remove unused callback in del task
+Replace deprecated minifiers with gulp-cssnano and gulp-htmlmin
+Merge pull request #791 from andresgottlieb/patch-1
+Fix wrong location for main.js and main.css
+Simplify the quickstart support list (#790)
+Update browser support list (#790)
+Node 0.12 it up
+Minor updates to license year.
+Readme: expand on docs and recipes
+Docs: minor typo correction
+Docs: add a file appendix.
+README: add offline-support
+Deploy: correct paths to docs
+Merge pull request #789 from google/gae-docs
+Add appengine deployment guide
+README: Add WPT scores and minor edits.
+README: Add code linting to features list.
+Merge pull request #788 from google/deployment
+Docs: add firebase deployment recipe
+Docs: add deployment index
+index.html: improve comments in markup
+Bring basic.html back up to date with index.html meta tags
+Add missing syntax highlighting for code blocks
+Merge pull request #787 from google/docs-mdl-sass
+Docs: MDL Sass guide - address feedback
+Docs: add MDL Sass guide
+Update to MDL 1.0.6
+Add latest project artwork thx to Mustafa
+Drop extras as no longer maintained
+Drop CSS library comparison post-MDL launch
+Drop sample content from meta description
+Update devDependencies
+Fixes #777 - move require-dir to comments
+Fixes #722 - drop style guide comment
+Fixes #782 - adds support for manifest splashscreen
+Merge pull request #780 from ikhattab/patch-1
+ignore dist/ only in the root directory
+Rework sourcemap output to fix breaking builds
+Merge pull request #778 from jonkemp/upgrade-useref
+Upgrade gulp-useref version and gulp task to 3.0.
+Merge pull request #776 from ramasilveyra/eslint
+Final task name
+Rename eslint task and simplify metafiles
+Switch over to ESLint
+Add features table
+Update to Material Design Lite 1.0.5
+Trim app/images/icons. No longer needed (#760)
+Update to babel v6 and others deps
+Typos (Closes #772)
+Update the commands doc to explain SWs
+Implements runtime SW caching for some CDN resources (Closes #771)
+Merge pull request #768 from jeffposnick/dev-dist-ports
+Merge pull request #767 from jeffposnick/sw-precache-2.2.0
+Use 3000 for dev, and 3001 for dist
+sw-precache 2.2.0 changes
+Merge remote-tracking branch 'upstream/master'
+Merge pull request #766 from google/scss-switch
+Switch main.scss -> main.css
+Drop font handling. No longer needed
+Drop Roboto Condensed
+Merge pull request #765 from robwierzbowski/rw/size
+Only report HTML size in HTML task
+Don't report sourcemap size in styles and scripts tasks
+Add feature section to readme
+Minor cleanup of README
+Merge pull request #749 from google/fix-gulp-newer-scss
+Adds optional ES2015 support (#739)
+Merge pull request #757 from antleblanc/patch-1
+Merge pull request #750 from shakyShane/master
+Remove `opn` from dependencies
+Merge pull request #752 from robwierzbowski/patch-1
+Merge pull request #754 from robwierzbowski/rw/js-task-pattern-normalization
+Merge pull request #753 from rafaelstz/patch-1
+Starter year
+Move script reloading to the JSHint watch task
+Update year
+Remove unused gulp-replace plugin
+Remove unused gulp-flatten plugin
+Add opt-in ES2015 support via Babel.
+Feature: enable scroll syncing when browsers are at different breakpoints
+Making sure gulp-newer does not filter out SCSS files.
+Small comment fix.
+Merge pull request #745 from google/switch-gulp-changed-to-newer
+Merge pull request #746 from google/disable-tap-highlight-ie8
+Add meta tag to disable tap highlight on IE8.
+Switching gulp-changed to gulp-newer.
+Add mention of Gulp recipes.
+Fix CSS sourcemap generation. (Closes #738)
+Merge pull request #703 from stevemao/concat-order
+Add some notes about the scripts task
+Merge pull request #716 from wyze/gulpfile-fat-arrows
+removed styleguide.html and added brief documention on how to choose other color schemes (Closes #736)
+drop current style guide and replace with CDN version of MDL, index updated
+make JSCS ignore the gulpfile as JSCS doesn't support ES2015
+gulpfile - add callback to the clean task
+Merge pull request #727 from arthurvr/babel
+babel was renamed to babel-core
+switched from csso to clean-css
+remove small redundant piece of code
+Remove dynamic mapping to index.html (Closes #719)
+Remove dynamic mapping to index.html
+clean up fat arrow syntax a bit more
+Merge pull request #714 from arthurvr/patch-2
+Update global gulp version in `install.md`
+gulpfile.js -> gulpfile.babel.js
+Merge pull request #712 from arthurvr/patch-1
+Small fixes to the gulpfile
+ES2015ify the gulpfile
+fix JSCS code style issue
+Bump sw-precache. Fixes #695
+Address some style issues in #697
+Fixes #698 - correct paths
+Fixes #699 - explicit concat order
+Merge pull request #685 from google/manifest-img-type
+Adding type to the manifest.json file so app install banners work
+Merge pull request #680 from google/sass-bump
+Update gulp-sass error-handling approach
+Update gulp-sass to 2.0.0
+Merge pull request #676 from google/build-updates
+Bring consistency to JS style used
+Build: fix icons for gulp/gulp serve
+Refresh CSS, JS, HTML build pipelines
+Add gulp-concat for script concatenation
+Tell useref to only reference, not anything to create, final path
+index.html: tidy up comments.
+Merge pull request #672 from google/service-worker
+Add support for Service Worker
+Update dependencies
+Merge pull request #663 from stevemao/jscs
+Remove unnecessary rules
+Lock two deps for necessary path release (#649)
+Merge pull request #638 from stevemao/travis
+Merge pull request #644 from battaglr/patch-1
+Modify comments in title-case to sentence-case
+Update .travis.yml
+bump deps
+Merge pull request #627 from stevemao/sourcemap
+Fixes #408: Add sass sourcemap
+Merge pull request #614 from tkalfigo/master
+Fixes gulp-changed plugin's usage in the gulpfile.js
+bump `psi`
+Merge pull request #596 from jacquerie/master
+Fix a .jscsrc rule
+Merge pull request #569 from chrisgrabinski/master
+Merge pull request #586 from antleblanc/sass-error
+Using `onError`callback for Sass
+Revert "README: Remove trailing spaces"
+Merge pull request #584 from google/no-sudo
+README: Remove trailing spaces
+Link to Sindre's npm guide
+bump deps
+fix invalid hamburger.svg
+Fixes #570 - osx font smoothing for mox
+Fixed font-smoothing for Firefox.
+Merge pull request #567 from ithinkihaveacat/patch-1
+Don't install sass
+Merge pull request #559 from antleblanc/master
+Remove .sass-cache folder from gitignore
+Merge pull request #539 from stevemao/patch-1
+Merge pull request #544 from paddy2k/master
+bump deps
+Added HTML5 webapp manifest
+Close #537 PR: Keep dist/.git while removing everything else..
+Install docs - add tldr for quick setup
+Improve and simplify install guide #526
+Adding theme-color. Fixes #522
+Merge pull request #517 from coryarmbrecht/master
+Remove Ruby references
+Merge pull request #507 from sgomes/master
+Renaming Apple touch icon to "apple-touch-icon". See #492
+Merge pull request #494 from arthurvr/master
+Use https where possible
+Merge pull request #484 from google/libsass
+Bump deps
+Add back precision
+Fixes #82 - use LibSass instead of Ruby Sass
+Merge pull request #411 from google/move-ios-touch-icon
+Add missing space before commented out code.
+gulpfile - comment out the task loading by default
+bump dependencies
+Merge pull request #455 from google/update-deps
+Update dependencies
+gulpfile - add `logPrefix` to the other browserSync instance
+Fixes #441 - add custom logPrefix for BrowserSync
+Merge pull request #426 from alexanderchan/patch-1
+Output some error when require-dir tasks fails
+bump dependencies
+gulpfile - fix indentation
+bump gulp-autoprefixer
+Merge pull request #421 from umaar/install-fix
+Use correct ordering in installation instructions
+Merge pull request #419 from shakyShane/master
+Update to latest gulp-cache.
+Simplify server configuration - remove 'baseDir'
+move `apple-touch-icon-precomposed` into `images/touch`
+Revert "move `apple-touch-icon-precomposed` into `images/touch`"
+code consistency
+minify SVG
+minify chrome-touch-icon-192x192.png
+move `apple-touch-icon-precomposed` into `images/touch`
+Fix to new style-system not minifying output.
+Fixes #407 - headline works everywhere now.
+Revisions to the HTML starting point text.
+Add note about basic.html and IE8
+Make styling consistent with the site.
+Update Android icon sizes for basic.html
+Fixes #397 - use updated Android icon size.
+Merge branch 'master' of github.com:google/web-starter-kit
+Making 192x192 size chrome icon
+Fixes #380 - drops basic.scss
+Fixes #403 - revert back to border-box sizing
+Merge pull request #402 from paullewis/patch-1
+Adds Moz equivalent for nicer font rendering.
+Merge pull request #396 from Garbee/doc-folder
+Added link to commands in quickstart.
+Added docs folder with initial files. Pulled content from readme.
+Merge pull request #395 from bulatb/patch-1
+Fixed README typo.
+Merge pull request #384 from battaglr/patch-1
+Add `box-sizing` as an inherited value
+Merge pull request #381 from antleblanc/master
+add spacing to css selector
+Merge pull request #379 from google/styles-rework
+Rebase against master.
+Adding the comments from master into the branch
+Merge pull request #377 from google/comments
+Fixed the gulp and gulp:serve tasks to work
+Fixing up the styleguide to work correctly with the sass stylesheet
+Fixing up the html files to no longer require useref for CSS
+Renaming CSS files to .scss and dropping components.css
+Moving styleguide around
+Improve index.html comments.
+Fixes #375: sync recommendations (index > basic)
+Merge pull request #374 from antleblanc/master
+Update .jscsrc
+Merge pull request #371 from Garbee/overview
+Simplified overview section of readme
+Merge pull request #369 from crhym3/extras-repo-link
+Link WSK Extras repository from the main readme file.
+bump deps
+Merge pull request #367 from google/overview
+For #362 - adds section on WSK & CSS libraries.
+Merge pull request #363 from google/jscsrc
+Adds JSCS configuration file.
+Adjusting browser-support matrix to reflect actual support.
+Merge pull request #353 from joaostein/fixNavdrawerCSS
+Merge pull request #352 from joaostein/fixAppBarButtonCss
+remove unnecessary css that was being overridden on .navdrawer-container element
+fix redundant css declaration
+Fixes #337 - restore touch icons on Android && iOS
+Merge pull request #346 from joaostein/fixNavdrawerContainerCSS
+Merge pull request #345 from joaostein/fixSpacing
+remove repeated declaration block and unnecessary overridden css
+add spacing to css declaration
+Merge pull request #342 from markuz-gj/master
+fix #340
+Merge pull request #333 from alrra/fetch-htaccess-via-npm
+Fetch the `.htaccess` file via `npm`
+Merge pull request #317 from devnook/mdcolors
+Merge branch 'master' of https://github.com/google/web-starter-kit into mdcolors
+remove deprecated .jshintrc props - fixes #329
+Fixes #286 - fix navigation flash during resize.
+minify images
+update to new useref API
+bump deps
+Merge pull request #314 from robwierzbowski/rw/single-sass-task
+Adding output css file
+Adding material design color palette variables to sass
+Reduce to a single S/CSS task and watcher
+Update gulp-ruby-sass to 0.7.1
+Merge pull request #310 from webmakersteve/master
+Merge pull request #313 from appleboy/patch-1
+remove unnecessary empty line.
+SASS now compiles on serve
+Merge pull request #306 from rdorde/dup-css-prop
+remove duplicated line-height
+Merge pull request #290 from google/https-browserSync
+Removes https by default and provides some guidance for the developer about how to enable it
+Merge pull request #291 from philipwalton/google-analytics
+Add 'auto' to the Google Analytics tracker create method.
+A tickle, this should not be needed.
+Adds 'https:true' to both serve task
+Updating the version of browser sync
+Merge pull request #281 from alrra/move-htaccess
+Move the `.htaccess` file into the `app` directory
+Close GH-275: Adds .htaccess file.
+Merge pull request #277 from google/lang
+Adds lang attribute to basic.html
+Adds the lang attribute to html
+bump deps
+Make the footer in style guide more useful
+Merge pull request #265 from google/fonts
+Fixes #264 - copy fonts to dist
+Style formatting post font updates
+Merge pull request #261 from google/webfonts
+#251 - it turns out I didn't check in you know, the most important files
+Adding in RobotoCondensed Web fonts - #251 Adding in font files to /fonts Adding in CSS in to main.css rather than embed directly into the <head> - we can move this there later if we want. I have also changed slightly the declaration of what we serve than recomended in the bug (i.e, the Chris Coyer article), I went through how Google web fonts works and this is the recommended output that works in IE 9, 10 and above, Safari iOS 6 and above, Chrome and Firefox.  Note: we don't reference any ttf files, but I have included them
+Merge pull request #259 from google/fixminify
+Fixes #253 - correctly minify styles
+Merge pull request #254 from google/styling
+Various styling fixes
+install Sass when running Travis
+Close GH-242: Handling scss compilation error.
+followup to 4730569239d811666227aa681fc976d2a0ff6d0a
+Merge pull request #238 from google/fix-233
+Address feedback on #238
+gulpfile - simplify error handler
+gulpfile - centralize autoprefixer config
+minor consistency tweak for #239
+Merge pull request #239 from google/fix-79
+Close GH-243: Vendor prefixes. Fixes #175
+Merge pull request #240 from ValentinKlinghammer/master
+minifyHtml should only run on html files
+Potential fix for #79
+Improve navbar UX logic for #233
+Add error handler for ruby-sass to fix #234
+Index: Load google fonts in head, rather than imports.
+Style guide: add recommended font loading to head.
+Compiled CSS: drop Google font imports
+Sass: Drop Google fonts being loaded from imports.
+Merge pull request #228 from manishrc/master
+use #ignore-click instead of 'javascript:;'
+Merge pull request #221 from google/https
+Fixes #220 - move font loading to https
+tweak #217
+Close GH-217: Adds a gulp serve:dist command that uses the dist build process.  Fixes #216. Fixes #215, Fixes #216
+gulpfile - codestyle
+Merge pull request #219 from google/uncss_filter
+Adding ignore filters to uncss
+Merge pull request #206 from Charca/gulp-copy-task
+Adding a link to the demonstration site #97
+Merge pull request #210 from bfred-it/master
+Removed undesirable minimal-ui in viewport
+Merge pull request #202 from google/200
+Merge pull request #209 from manishrc/master
+fix issue with links jumping to the top of page. use href='javascript:;' instead of '#'.
+Added gulp task to copy files from app to dist
+Merge pull request #205 from jbnicolai/update-dev-dependencies
+Updates devDependencies to latest stable backwards-compatible versions.
+Merge pull request #203 from shinnn/preserve-license
+Preserve JavaScript license comment
+Rebase and bring in #145 (h/t @stephenplusplus)
+Fixes #200
+followup to #201
+Merge pull request #201 from johnjbarton/customible-gulp
+Allow gulp task list to be extended. As a starter kit, we want users to be able to customize. As a source-based distribution we want users to stay updated. By allowing users to customize web-starter-kit gulp without editing gulpfile.js, they can rebase or merge future updates.
+Merge pull request #182 from matheusazzi/patch-2
+Remove reload from the images task
+Merge pull request #187 from robwierzbowski/patch-3
+Merge pull request #195 from mrmlnc/master
+typo fix
+Handle error event generated by jshint fail reporter
+readme - link to latest release
+Merge pull request #189 from shakyShane/master
+Removed reference to BrowserSync running instance
+Inject CSS styles
+Merge pull request #185 from robwierzbowski/patch-2
+Give serve preference to files in .tmp
+gulpfile - don't need `init` anymore
+Close GH-171: Livereload breaks on jshint error(s) when running `gulp serve`. Fixes #169
+Don't optimize images on serve
+Strip unnecessary link in styleguide
+Fix missing pygments highlighting
+Merge pull request #178 from google/grids
+Move demo gray to sass utils
+Fixes #174 - moves demo classes to styleguide
+Merge pull request #177 from google/gulp-cache-bump
+Bump gulp-cache to 0.2
+Merge pull request #173 from FearMediocrity/master
+Fixed the link to the troubleshooting page.
+Strip unnecessary font-family rule
+Tweak to basic grammar
+Grammar tweaks to index
+Merge pull request #172 from battaglr/pseudo-elements
+Update pseudo-elements to double-colon syntax
+Merge pull request #167 from battaglr/patch-1
+Update gitignore
+revert manifest.webapp version change in #85
+Close GH-85: A bunch of (smaller) changes….
+Fixes #103  grid issues (ty @CreativeJuiz)
+Merge pull request #158 from Charca/box-sizing-fix
+Merge pull request #153 from google/readme-remove-features-text
+Merge pull request #161 from appleboy/patch
+update indent value of jshint config and follow style rule.
+Targeting *:before and *:after for box sizing
+readme - remove features text
+Merge pull request #154 from jbnicolai/fix-indentation-styleguide-index
+Fixes indentation and removes duplicate newlines.
+Merge pull request #152 from jbnicolai/missing-closing-section
+Adds missing closing section tag around highlights.
+Merge pull request #151 from google/contributing-md
+Move `Contributing` guide to a CONTRIBUTIN.md file
+readme - link download to releases page and not a specific release
+Merge pull request #114 from google/imagified-readme
+fixes #132 - style configuration.
+Merge pull request #141 from jbnicolai/verify-build-artifacts-are-commited
+simplify clean task with `del`
+Merge pull request #142 from jbnicolai/add-travis-yml-to-readme
+Adds .travis.yml to files to remove for the 'boilerplate-only option'.
+Include test asserting all generated build changes are commited.
+Merge pull request #140 from jbnicolai/update-components-css
+Adds newline to components.css.
+Merge pull request #138 from jbnicolai/travis-ci
+Adds `npm test` and travis.yml
+Merge pull request #134 from mateuspv/patch-1
+Merge pull request #135 from ParinParikh/master
+Removed margin top to fix article count appearance
+Fixed the article section by adding padding
+Update main.css
+Merge pull request #130 from jbnicolai/dev/query-selector
+Uses document.querySelector directly, rather than wrapping it.
+Merge pull request #129 from jbnicolai/dev/format-jshintrc
+Merge pull request #131 from jbnicolai/dev/format-main-js
+Reindents main.js using two spaces.
+Format .jshintrc in the same style as the code.
+Merge pull request #127 from alrra/remove-404-page
+Remove `404.html`
+Merge pull request #125 from battaglr/patch-1
+Update editorconfig
+Size improvement to repeated qSA & dropping touch start
+Merge pull request #119 from JohnH-/master
+Fixed so that gulp runs jshint more than once
+Merge pull request #118 from zg/master
+X-UA-Compatible meta tag missing on some HTML pages
+ontouchstart => touchstart
+prettify the readme with some graphics
+styleguide js - remove unused var and don't redefine var
+styleguide js codestyle
+minor tweaks
+404.html - drop IE comment
+reorder some head tags for consistent grouping
+consistent indentation in the styleguide
+convert to 2 space indentation
+Merge pull request #95 from zg/patch-1
+Merge pull request #108 from shakyShane/master
+Update BrowserSync version to 1.0.0
+Set web-app-title for index.html
+enable iOS homescreen meta tags by default #102
+Merge pull request #105 from sergejmueller/woff2
+WOFF2 support
+Merge pull request #92 from JamesMD/feature/utils
+Merge pull request #90 from matheusazzi/patch-1
+Close GH-80: avoid gulp.start().
+Update .editorconfig
+Update _list.scss
+Bump PSI for PageSpeed to 0.0.4
+Add default directive to top-level SASS variable definitions.
+Merge pull request #89 from alrra/update-package-json
+Mark package as private
+Merge pull request #83 from webdesignberlin/patch-1
+Expand contribution section to cover the site
+Merge pull request #87 from alrra/remove-cc-header-from-404
+Comments for components.scss
+Update _normalize.scss | remove deprecated hgroup
+Remove license info from `404.html`
+styleguide - grammar
+Style guide: remove unnecessary meta prop
+Style guide: improve image alt tags
+Close GH-75: Add basic aria roles. Fixes #53
+Update components.css
+Merge pull request #81 from alrra/update-robotstxt
+Update `robots.txt` file
+Change whitespace in styleguide JS
+readme - fix blackberry version - fixes #76
+Update README.md
+sync basic.html with index.html
+Update download link, link to BrowserSync.
+README tweaks.
+Update README.md
+Add FAQs mention to inspiration
+gulpfile - semicolon
+Merge pull request #72 from google/71-styles
+Further revisions to the readme
+ALARM!ALARM! rogue space.
+Drop capturing in the styleguide JS
+Minor formatting tweak
+Minor changes to toggling
+Add support for toggling snippets - fixes #42
+Add note on how to opt out of tooling
+Expand on UnCSS comments
+Further readme improvements
+Improvements to the readme
+Remove alt-layout - basic and index are sufficient
+Comment-up the Gulpfile
+sync readme `gulp watch` => `gulp serve`
+formatty things.
+Fixes for style guide image paths, style guide component linking.
+Inline JS for style-guide. Unlikely to be changed.
+Remove unnecessary debug reference
+Fix the navigation bar being too short on desktop.
+rename title for styles:components task.
+Rig up the gulpfile.
+Update index.html
+Merge pull request #69 from google/microdata
+use a .tmp folder for sass styles.
+autoprefixr back on for app. it had something to say about our current css files.
+fixes #71 - restructure style task.
+Merge pull request #67 from google/sass
+Merge pull request #70 from google/canonical
+For #60 - add correct docs link for canonical
+mobile-web-app-capable as a default
+Remove Article microdata
+Revise styles.scss, styles.css > components
+Merge pull request #66 from google/fixes
+Add typography fix for fonts
+Update second line to H2, add style guide to nav
+Update README.md
+Tweak gulp build comment.
+Improve Gulp installation instructions.
+Further improve installation instructions.
+Add Node installation instructions.
+Add Ruby installation note
+Add troubleshooting section.
+Revise tooling instructions.
+Fix incorrect URL.
+Hide the h4 the right way.
+Remove extra padding under nav links.
+remove min-height for larger devices.
+Only show `h4` when nav drawer is open.
+Continuing fixes for #65 + niceties.
+Add initial UX suggestion for body.click > hide menu
+First fixes for #65 - zindex, overflow, min-height
+Add link to getting started, style guide
+`to to` -> `to do`
+Grammar tweaks.
+For #5 - add browser support list
+Add contribution guide section
+Readme revisions
+Merge pull request #62 from google/feedback
+Remove CC headers from style guide
+Remove CC headers from Sass
+Drop CC headers from CSS
+Remove CC from additional layouts
+Remove CC from main index
+Add CC block to end of license file 1/2
+Add built with comment to let us discover projects using wsk
+Remove block for preventing link opens in mobile safari
+Remove disable tap highlight
+Merge pull request #61 from google/markup-cleanup
+Clean up markup (re #60)
+minify hamburger icon
+Add download link to get the zip archive of the kit.
+Readme tweaks.
+Merge pull request #58 from google/sindreismean
+Add black hamburger menu icon.
+Improve colour palette used, font-sizes on multi devices.
+Merge branch 'master' of github.com:google/web-starter-kit
+Adding JS to auto-generate code smaples in the style quide
+Merge pull request #56 from google/sindreismean
+Addressing HTML minifier feedback
+Adds alternative html minification for #54
+Minor tweaks for IE 10
+Meta tag correction.
+Merge pull request #49 from google/meta
+minify images
+consistency tweaks
+gulpfile - make livereload on vanilla CSS files instantaneous
+Add project meta tag
+Close GH-47: Adds support for UnCSS..
+Altering styles and removing the search fields
+gulpfile - turn off lr notification in the browser when loaded
+Merge pull request #45 from yeoman/styleguidechanges
+Clean-up of visual style guide
+gulpfile - no longer needs to change cwd
+Merge pull request #44 from yeoman/input
+Merge pull request #38 from yeoman/copyright
+Switch to input type=search. Fixes #39
+Bump to latest version of PSI
+Update PageSpeed task now that nokey is default
+Add copyright headers as requested.
+bump deps
+gulpfile - don't need `size` in `jshint` task
+gulpfile - tweak pageres task
+gulpfile - add titles to the size plugin
+gulpfile - be explicit about supporting arrays in `watch`
+gulpfile - remove `fonts` task
+gulpfile - use rimraf instead of gulp-clean
+gulpfile - various tweaks
+gulpfile - switch to gulp-if for more succinct syntax
+Merge pull request #37 from yeoman/psi
+Dont return on pagespeed
+Title case for web starter kit
+Merge branch 'master' of github.com:yeoman/web-starter-kit
+Tidying up the web starter kit styles - still needs work. Fixes #31
+readme - add license mention
+better fix for #36
+Merge branch 'master' of github.com:yeoman/web-starter-kit
+Fixing up the subdirectory watch and adding support for subdirectory building
+Switch to PSI for pagespeed reporting
+Adds inspiration section
+Add requirements to readme
+fix running server from subfolders - fixes #36
+index.html - minor tweaks
+fix naming so gulp builds correctly
+bump deps
+gulpfile - let gulp know when we're done
+readme - add gulp install step and slightly tweak it
+Adding favicon.ico
+Merge branch 'master' of github.com:yeoman/web-starter-kit
+Switching out the favicons - still needs a favicon.ico. Also added comments to the fav icon groups and moved chrome add to homescreen fav icon to the bottom, otherwise it doesn't work
+Readme revisions.
+Update license to Apache 2.
+Swapping out the hamburger and search icons. Also made the index page fit slightly more closely with the styleguide
+Merge pull request #27 from ianbarber/master
+Remove some unused sass
+Merge pull request #26 from ianbarber/master
+Shouldn't need to be root to npm install
+Merge pull request #24 from yeoman/refactor
+scripts -> jshint, add to build process, expand watch.
+Add comments to compiled style-guide styles.
+Adds main.css
+Add back compiled styles file (do not remove)
+main.css > h5bp.css to be more clear
+Minor styleguide cleanup
+Fix linking issues with scripts/main
+Add missing useref blocks for main index layout
+Add missing blocks for basic layout
+Add missing use ref blocks for alternative layout
+Remove Web Fundamentals headers
+Add missing icon resources and placeholder graphics
+Ignore any .tmp files
+Readme revisions.
+Merge pull request #22 from yeoman/remove-samples
+Remove samples, replace with alt-layout.html
+readme - syntax highlighting
+readme - drop sudo
+Add quick start information.
+Replace with app layout
+Revise slide out menu
+Revise styles to app layout
+Add hamburger and search icons
+fix some small formatting issues.
+Consistency between HTML and manifest attributes
+Provide a sample hosted URL
+minor tweaks in gulpfile and readme
+Revise wording on PageSpeed score for #17
+code style tweaks, gulpfile improvements and remove unused deps
+add meta files to enforce code style
+Sushi -> Web Starter Kit
+Merge pull request #16 from yeoman/js-style
+Reformat main.js
+Merge pull request #15 from ianbarber/master
+Add a basic index.html
+Remove Todo on PageSpeed integration.
+Index: correct path to new styles, remove intro about PL.
+Adds static style-guide, cleaned up from Web Fundamentals.
+Introduce Sass styles from Web Fundamentals.
+Remove current main.scss
+Gulp: correct paths for Sass styles, icons and fonts.
+Remove PatternLab from the project
+Adds a cleaner version of samples
+Merge pull request #14 from yeoman/browser-sync-name
+Change dependency name browsersync -> browser-sync
+Close GH-13: Add PageSpeed task. Closes #12.
+Minor revisions to contains list.
+Close GH-10: Add initial BrowserSync support.
+bump deps
+Move the README back out.
+Introduce file renames. Minor restructuring.
+Add Gulpfile.
+Adds PatternLab.
+Drop Pure for now.
+Add initial (Pure-based) style guide
+Adding in some overview information.
+Add contents to readme.
+Add side-bar sample.
+Drop normalize reference.
+Include PureCSS
+Drop normalize as Pure includes it in the default build.
+humans.txt - drop jQuery and Modernizr references.
+Drop startup directory
+Drop crossdomain.xml
+Trim down the readme for now.
+Drop extraneous scripts.
+Drop jQuery
+Drop Modernizr
+Add initial H5BP mobile boilerplate
+Initial commit

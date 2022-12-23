@@ -1,0 +1,183 @@
+Fix false positive for SC2312 when using `time`
+Fix overlap check
+Fix bug in 2126 when using after/before flags with grep
+Fix bug in 2126 when using after/before flags with grep
+Fix bad version on stable releases
+Fix parsing of [$var] (fixes #2309)
+Fix redirect in LICENSE file
+Fix broken test from previous commit
+Fix typo in SC2006 message: "backticked" vs "backticks"
+Fix bad warning for ${#arr[*]}. Fixes #2218.
+Fix haddock failures (fixes #2216)
+Fix missing +x with new cabal and use previous release deps for caching
+Fix whitespace in README.md
+Fix snap distribution unable to process scripts in Unicode(Chinese) (fixes #1643)
+SC1102: Fix typo in error message: substition
+Fix #1892: Use pattern synonyms to clean up AST
+Fix TravisCI condition
+Inspect 'alias' commands for referenced variables (Fixes #1832)
+Fix pre-compiled binary URL for aarch64
+Fix Travis warnings
+Fix OSX build on Travis
+Fix issue #1724
+Fix glob range duplicate warning in [!!] (fixes #1706)
+Fix syntax and indentation in shellcheck.1.md
+Fix bad advice for SC2251 (fixes #1588)
+Fix botched variable usage
+Fix error spans for shebang warnings (fixes #1620)
+Mention that "-" is supported as a filename. (Fixes #1586)
+(docs)Fix typo in yaml markdown
+Fix internal error for --format (fixes #1507)
+Fix typo in man page (fixes #1486)
+Fix issues #896 and #433: printf -v and arrays
+Fix grammatical error in comments
+Fix SC2164 always saying 'cd' even when using 'pushd'
+Fix minor details in new Bats support
+Fix #1369 (Use file extension to detect shell)
+SC2245: Warn that Ksh [ -f * ] only applies to first (Fixes #1452)
+Make Fixer responsible for realigning tab stops
+Fix #1340 (SC2093 about removing "exec" should trigger in loops)
+Fix 'export -p' being undefined under POSIX sh
+Fix semigroup incompatibility
+Move Ranged definition to Fixer to avoid overpromising
+Fix applying multiple fixes per line
+Add ShellCheck.Fixer to the cabal file
+Fix calculation of changed lines
+Fix bug in overlap check
+Fix infinite loop on annotations for SC2188 (fixes #1413)
+Fix 'does not support multiple targets at once' error
+Improve Fix memory usage
+Fix typo in CHANGELOG
+Add wiki links to output, and a -W controlling it. (Fixes #920)
+Don't warn about LINENO since it's now POSIX. Fixes #644
+Fix #949 (failing on @ in function names)
+Fix false positive when indexing into array in cond
+Parse FD move operations like 2>&1-  correctly. Fixes #1180.
+Fix broken test stripping
+Whitelist docker for SC2016 about '$var'. Fixes #1161
+Fix tagging of 'stable'
+Fix docker image workdir and add test
+Don't ignore parse failures in here documents. Fixes #1135.
+Rephrase SC2069 (cmd 2>&1 > file) and make it a warning. Fixes #633
+POSIX warning for export -[^p]. Fixes #1130.
+Fix SC1087 to trigger on any $var[, not just $var[@]
+Better support arrays in arithmetic contexts. Fixes #1074
+Fix parsing of escaped chars in regex groups. Fixes #1077
+Warn about comments/blanks before shebang. Fixes #844
+Warn about redirs in the middle of 'find' commands. Fixes #405
+Fix annotations for here documents (fixes #1071)
+Parse 'else if' correctly, and not like elif. Fixes #1088.
+Warn about cp/mv/ln with a single argument. Fixes #1080.
+Add quote warning specific to : ${var=val}. Fixes #1084
+Fix isClosingFileOp (fixes issue #862)
+Fix 2062 for grep -e -foo bar* and --regex -foo bar*
+SC2154: Fix false positive on `local`
+Fix incorrect detection of bash-style substring expansion
+Fix parsing here docs like << '#foo' (#947)
+Fix shellcheck warnings :P
+Fix SC2120 triggering on sourced files and ${!var*}
+Fix missing backslash in SC1003 about '\''
+Fix typos in Travis CI section of the README.md
+Fix 'for file; do ..' counting $file as a safe variable.
+Fix SC095 about < /dev/null when using ssh -n
+Fix BSD style flag parsing to stop at --
+Fix warning for >&
+Fix syntax error with traditional if-clause instead of escaping bracket
+Fix parsing of [[ a =~ {$var} ]]
+Fix parsing of here documents
+Fix handling of spaces in shebangs.
+Fix a handful of typos.
+Fix broken links in README
+Fix typo
+Fix remaining FIXME for tty error color output.
+Fix/generalize message for SC2070.
+Fix compiler warning about missing field
+Fix typo "zyper" -> "zypper"
+Fixed the cabal file, which didn't include formatters :|
+Fixed exit status for missing files.
+Fixed cd foo; bar; cd -; check not trigger on top level
+Fixed incorrectly documented flag syntax for -V.
+Fixed unquoted $@ warning message.
+Fixed case sensitivity in 'trap' bashism test
+Fix SC2143 to not warn about pgrep and other quasi-greps.
+Fix parsing of ((a?b:c))
+Fixed quoted ~ warning to only trigger for ~/
+Fixed accidentally ignored undef warning for ${#foo}
+Fixed parser errors not being excluded by -e
+Fixed edge cases for braced reference extractor.
+Fix pattern matching error in z=$(echo)
+Fixed $! counting as a positional parameter reference.
+Fix $10 warning triggering for $?!, and also warn about $arr[index].
+Fixed 2148 to not trigger if a shell is specified with `-s`.
+Fixed bug where (($b)) counted as a positional reference
+Fixed quoting warnings for variables in $".."
+Fixed broken parsing of <( in arithmetics
+Fixed failing test
+Fix SC2051 to only warn about 1..$n and not 1,$n
+Fixed not recognizing --f=* as option in checkGrepRe
+Fix parsing {} in regex
+Fix parsing of &;; in case statements
+Fixed warnings when assigning arrays to scalars
+Fixed warning about \n in echo -n -e '\n'
+Fixed up README
+Fixed determining shell for shebangs with flags
+Fixed x[0] not recognized as reference of x in arithmetics
+Fixed cabal file
+Fixed parser not accepting `` in arithmetic contex
+Fixed compilation error on GHC7
+Fixed ${!var} not counting as reference of var
+Fixed parser error for '..; done| ..'
+Fixed parsing of 'time' in front of compound commands
+Fixed incorrect parsing of [ foo -a -f bar ]
+Fixed warning for 'exec foo; exit 3'
+Fix incorrect warning for 'foo > bar 2> bar'
+Fixed wrong quoting warning for foo=" "; foo
+Fixed parsing of | outside of groups in =~ regex
+Fixed parser accepting spaces after here doc token
+Fixed parser bug where }> wasn't recognized as Rbrace
+Fixed parser error for 'for ((;;))  ;  do'
+Revert "Fixed parsing for 'eval var=(values)'", because it fails for 'eval $x=foo'
+Fixed parsing for 'eval var=(values)'
+Fixed warnings for read -p "Name: "
+Fix parser errors for unclosed $( in here docs
+Fixed a series of extglob parsing oddities and edge cases
+Fixed up readme
+Fixed up some warning messages.
+Fixed parsing of IFS= read as single assignment
+Fixed accidental warning for $".."
+Fixed broken recursive backtick expansion.
+Fixed warning for trap '$VAR'
+Fixed parser warning for \{foo,bar\}
+Fixed some incorrect warnings for PS1 escapes.
+Fixed misplaced uuoc for 'cat foo' outside pipe.
+Fixed UUOC warning for 'cat * | ..'.
+Fixed crash for ''foo due to unsafe 'last'
+Fixed up warnings for \r, and added warnings for &nbsp;
+Fixed parsing of "test$"
+Fixed parsing for case foo \n in ..
+Fixed parsing for cmd &> file
+Fixed parsing for [] in =~ regex
+Fixed broken test for  for f in "*.mp3"; do ..
+Fixed glob parsing for [[:class:]] and [~.:]. Thanks to dualbus!
+Fixed warning for ${#@}
+Fixed bad for f in $(ls *.mp3) after T_Glob
+Fixed space warning for foo=$(echo $foo)
+Fixed warning for [[ greplol ]]
+Fixed warning for tr abc '[d*]'
+Fixed mistaked message for tr '[:upper:]'
+Fixed message for (($1))
+Fixed unquoted error for [ ! $(foo) ]
+Fixed incorrectly calling [ -z $foo ] a tautology.
+Fixed incorrect warning for foo=$3
+Fixed incorrect errors on [[ $1 ]]
+Fixed $(( ! n )) and incorrect warning on $(($?))
+Fixed incorrect n=1 & n=foo$n and same for $((n++))
+Fixed bugs related to groupings in conditions
+Fixed bug in allModifiedVariables
+Fixed [ grep foo bar ] warning not working
+Fixed missing Alive detection in current scope
+Fixed position of &; message
+Fixed irrelevant mixup in irrelevant command to make my joke better
+Fixed off by one preventing printing of last line
+Fixed up the wannabe unit tests
+Fixed the position of the 'then;' errors

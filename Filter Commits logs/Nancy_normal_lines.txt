@@ -1,0 +1,3786 @@
+Update README.md
+Update README.md
+Added Module extension RequiresRoles(string[] roles) and ... (#2982)
+Cleanup line formatting changes
+Add System.Security.Principal.Windows nuget package instead of conditional .NET Standard code
+Add target to netstandard2.0 for the Self host project and remove WindowsIdentity for netstandard builds because it's not part of netstandard2.0
+Upgrade to FakeItEasy 4.6.0
+Don't allocate 4kB and Stream.CopyTo for empty bodies (#2898)
+Ensure DefaultStatusCodeHandlerResult can be XML serialized
+Revert "add constructor to DefaultStatusCodeHandlerResult, so we do not have to use initializer"
+Cast a null MediaRange reference to a null string
+Guard against invalid characters when getting full path
+Update to .NET SDK 2.1.4
+Use xUnit 2.4.0-beta.1.build3958
+Use TryGetValue instead of ContainsKey and Getter for Dictionary to prevent double calculation of HashCode
+Add RuntimeFrameworkVersion workaround
+Use dotnet 2.1.3 from Travis
+Add global.json back
+Update build scripts
+Update to netstandard2.0
+Use lowercase pre-release identifier for CI builds (#2861)
+Added check before packaging nuget
+Added OSX builds on Travis
+Updated build.sh to use non-core cake and 0.24.0
+Updated build.ps1 to use non-core cake and 0.24.0
+Updated travis configuration
+Made assembly catalog methods virtual
+Removed C# language version level from .DotSettings
+Updated Microsoft.NET.Test.Sdk version
+Added explicit reference to System.Collections.Immutable
+Add IsNullOrWhiteSpace check to DeserializeObject
+Grab the SDK version from global.json
+Updated tests\Directory.Build.props
+Updated basic authentication extract credential from headers to ignore case when determining whether the begining of authorization string start with basic scheme. Updated basic authentication fixture to include theories for the changes above
+Added test for dynamic partial template name
+Replace dynamic Partial template name in Each cycles
+Updated the XML comments for IHideObjectMembers
+Upgraded SDK version to 1.1.4
+Added global.json and pinned SDK version
+Add getting-started section
+Enable support for Chunked Encoding in Nancy.Hosting.Aspnet
+Removed build definition and use VS2017 image
+Added now mandatory configurations
+Ignore If-Modified-Since when If-None-Match is set
+Updated hosting section
+Use FakeItEasy 4.0.0, and drop the VB analyzer
+fix
+failing test showing that RequestStream will flush even if the underlying stream is not writable
+Change VS 2015 mention to VS 2017.
+Removed named params
+rename parameter useSecureCookie
+Add optional bool to signature of Csrf.Enable(this.pipelines) to set the csrf cookies secure flag.
+Changed date parsing and extracted method
+Add support for deserializing nullable number types
+Dropped StringBuilderExtensions.cs which isn't used anymore
+Removed unused maxJsonLength parameter from JsonConfigurationExtension
+Use build badge from master branch
+Removed use of object serializer for Csrf cookie generation
+Changed AppVeyor and Travis verbosity to minimal
+Upgrade to FakeItEasy 3.3.2
+Changed test failure to throw an exception
+Added AvoidAsyncSuffix to ruleset
+Changed restore verbosity to minimal
+Added the async analyzer to test projects
+Disabled AvoidAsyncSuffic rule
+Disabled the UseAsyncSuffic warning
+Re-enabled the AsyncAnalyzer
+Improved test execution task
+Added Mono back on Travis
+Pointed net452 target on *nix to Mono assemblies
+Removed Mono setup from the Travis configuration
+Converted test task to use dotnet xunit
+Removed full-framework hack for *nix builds
+Updated Directory.Build.props reference in Build.cake
+Changed file casing on Directory.Build.props files
+Added support for dotnet xunit
+Improved build script
+Updated Nancy.sln build configurations
+Cleaned up Build.cake
+Changed VersionPrefix to Version
+Replace xproj with csproj
+Updated Cake and dotnet CLI
+Added csproj for Nancy.ViewEngines.Spark.Tests and added it to Nancy.sln
+Removed whitespace from csproj files
+Added base package tags to source projects
+Implemented Directory.build.props file for projects in the src folder
+Added Directory.build.props file for test projects
+Updated package reference versions
+Removed explicit use of AssemblyName element
+Sorted TargetFramework TFMs
+Sorted elements in csproj files
+Removed explicit use of PackageId
+Removed use of PackageTargetFallback
+Removed use of RuntimeFrameworkVersion element
+Upgraded references to netcoreapp1.0 to netcoreapp1.1
+Additional typo fixes related to Nancy.Validation.DataAnnotations.Tests project
+Added missing net452 dependencies to Nancy.Testing.Tests/Nancy.Testing.Tests.csproj
+Added missing net452 dependency in Nancy.Hosting.Aspnet.Tests.csproj
+Made Nancy.Validation.DataAnnotations.Tests compile again
+Removed Microsoft.NETCore.Platforms from test projects
+Updated Microsoft.Extensions.* packages in Nancy.csproj
+Updated Nancy.csproj to use implicit reference to NETStandard.Library
+Added DisableImplicitFrameworkReferences for all net452 targets
+Removed RuntimeFrameworkVersion elements
+Removed unused sources in NuGet.config
+Updated build.ps1
+Updated build.sh
+Changed Microsoft.NET.Test.Sdk version to 15.0.0
+Updated version of testing related packages
+Performed initial migration
+Fail if no projects could be built or tested
+Removed gemfile
+Removed old ruby files
+Rebased and fixed comments
+bumped dotliquid to support netstandard16
+Add // Then
+Just //Given //When //Then; no additional text needed.
+DefaultFileSystemReader: if directory does not exist, return empty list of file names. This fixes a cryptic TinyIoC exception that is thrown if the root path provider points to a path, or calculates a path that does not exist.
+Disable parallel test runs for Nancy.Tests
+use new markdown library
+- removed empty line - fixe delegate formatting
+- Implemented ProcessorThreadCount based on KestrelServerOptions to serve as the default MaximumConnectionCount.
+Added in the throw that was originally in the catch block.
+- Implemented a listener strategy around a semaphore to allow consumers to specify the number of connections they want to handle at once. - Also resolves a bug where await this.Process would only allow one request at a time to be preocesed.
+Allows SimpleJson to deserialise POCOs with constructors (#2682)
+Run Nancy.Tests.Functional netcoreapp1.0 on Unix
+Add netcoreapp1.0 target to Nancy.Validation.FluentValidation.Tests
+Add netcoreapp1.0 target to Nancy.Testing.Tests
+Add netcoreapp1.0 target to Nancy.Metadata.Modules.Tests
+Add netcoreapp1.0 target to Nancy.Embedded.Tests
+Add netcoreapp1.0 target to Nancy.Authentication.Forms.Tests
+Update xunit and FakeItEasy version to latest
+Add netcoreapp1.0 target to Nancy.Authentication.Basic.Tests
+Update FakeItEasy version to 3.0.0
+Add netcoreapp1.0 test target to Nancy.Tests
+moved asstring extension method as extension of stream
+Made AsyncUsageAnalyzers a build dependency
+rebase for build script updates from master.
+Changed Route<T>.Invoke to return the awaited action invocation instead of configuring a TaskCompletionSource to resolve a performance issue.
+Added ctor overload on DependencyContextAssemblyCatalog
+apply style fixes
+rename test meaningfully
+Add test demonstrating #2635
+Providing a simple way to register an appConfig into the container
+Changed variable name
+- Removed wait call from the RequestStream to prevent a potential deadlock.
+Added MONO_TLS_PROVIDER env variable to .travis.yml
+Made serializing null values optional through JsonConfiguration
+fix for method invokation
+fix issue with using routeInvoker implementation for get Nancy.Response object
+test for reproduce situation from https://github.com/NancyFx/Nancy/issues/2677
+Added route return type to RouteDescription
+Removed unnecessary using from Program & HomeModule per codejunkie
+File adjustments per slack conversation with codejunkie
+Added trailing newline
+Tweaked #ifdef indentation
+Add extra linebreak
+Don't use C#6 string interpolation
+Changed verbosity of build.ps to normal
+Removed GetAwaiter on Response (#2664)
+Formatting to coding style and added documentation
+Removed IViewRenderer
+Use a better error message
+Included web.config.transform files in nuget packages
+remove nuspecs as no longer needed
+Updated version to 2.0.0-clinteastwood
+Use ReflectionOnlyLoad() in the remote proxy reference prober
+Moves IsReferencing() to AssemblyExtensions
+Unit test for detection of loaded assemblies
+Cleaned up build.cake
+Tweaked messages a bit
+Removed version dependency in nuget publish and filtered out symbols
+Updated UpdateProjectJsonVersion to only change first version match
+Normalized whitespace
+Added ps1 to .editorconfig
+Updated CAKE to 0.17.0
+Khellang fixes bootstrapper resolution error
+Update .travis.yml
+Attempt at fixing Travis build
+Remove route pattern matcher. It's not in use.
+Updated README.md
+Add async code analysis
+Add code analysis including async rules
+Added myget link to readme
+Made Json class public, reuse utility to check media type
+Simplified media type checks
+Simplified content type checks, added tests
+Added support for application/problem media types
+Replaced TC with AppVeyor (#2600)
+Updated build.ps1 to use PWD
+Update build.sh
+Update appveyor.yml
+Update .travis.yml
+Updated to SDK 1.0.0-preview2-003131 and upgraded build scripts
+upgrade Microsoft.NETCore.App to 1.0.1
+Correctly return true for IsLocal extension
+Made tests fail
+Updated encrupted MyGet token
+Bumped AngleSharp version for .Net Standard
+I missed some of the comments so this should fix them
+OCD is BAD
+Added guard around loading assemblies for inspection (#2561)
+install FakeItEasy.Analyzer and remove one redundant call
+Remove redundand argument null check from HttpUtility.UrlDecode method * add unit-tests * update variable decalration according to CONTRIBUTING.md (String -> string)
+ctor doc fix
+Await async method
+Add call to ConfigureAwait(false)
+Reverted all changes which are not XML related.
+Supressed xml comment related warnings for tinyioc, httputiliy and simplejson
+Correctly parse filename*=utf-8 in multipart
+Remove unused csquery dependency (#2542)
+Remove unused bcl dependencies (#2543)
+DataAnnotations fixture merge (#2540)
+Correctly accept all json and xml subtypes (#2537)
+Remove unneeded async keyword (#2536)
+Remove Wait call to prevent deadlock
+Added enum serializing/deserializing as string
+check routeresult is Response
+Changed output folder name to netstandard1.6
+build.ps1 file for loop increment changes
+RAKE⟹ CAKE
+Replace dependency on `RequestStream` in `Request.Body` with `Stream`
+Added pre suffix rather than ci suffix for package versions
+add ci string to default version string of nancy
+Changed appveyor artifacts name from myget to nuget
+reorderd build.ps1 argument parsing
+Use APPVEYOR_BUILD_NUMBER
+detailed msbuild on appveyor
+Changed appveyor for CI builds
+Changed build.cake for CI builds
+Added a using statement that is used when test projects on netcoreapp1.0 include ShouldExtensions in compilation
+Added .net core as supported platforms
+Updated version to 2.0.0-barneyrubble
+Updated global.json for net sdk 1.0.0-preview2-003121
+Upgraded dotnet cli tools to preview 2 for RTM build
+Updated kestrel deps
+Modified build.ps1 and sh to the latest version
+Changed NETSTANDARD 1_5 to 1_6
+Added net standard 1.6 and RTM versions
+removed json net dependency from cake|
+force dotnet install even if installed globally as may be diff version required
+cake dotnet pack task does not need a dependency task and needs to only look in src folder
+push updated nancy version in cake build script
+added nogit flag to write to console instead of executing git commands
+Added Cake build script. (#2450)
+re-enable test parallelisation after the upgrade to FakeItEasy 2.0.0 (#2490)
+upgrade to FakeItEasy 2.0.0
+Add ReSharper code style for braces (#2480)
+RFC 5988 HTTP Link builder (#2389)
+updated fluent validation to 6.3.4
+Check that the stream is Seekable before doing so (#2478)
+Bumped version and fixed build error
+made kestrel demo homemodule to use non async routing
+Added missing props file to xprojs (#2474)
+Cache NuGet packages in TravisCI
+Cache packages in .nuget instead of .dnx
+using FV alpha package to get Nancy.FluentValidation working
+removed MS.Owin.Testing and added OwinHttpMessageHandler
+Update route syntax in readme
+Resolved merge conflicts between coreclr and master
+Removing decoding from SelfHost (#2462)
+Removed unused TFM parameter (#2448)
+added aspnetcore configuration usage to Nancy.Demo.Hosting.Kestrel
+Updated to stable rc2 bits
+Updated to be compatible with rc2 changes
+Added ASPNET CI Feed to NuGet.config (#2407)
+Added Type extension to create an instance
+Made Nancy.Tests.Functional run on the coreclr
+added coreclr apis for nancy testing
+made nancy metadata modules coreclr compatible
+nancy embedded coreclr ready
+made nancy.auth.statless coreclr compatible
+made nancy.auth.basic coreclr compatible
+nancy forms auth on coreclr
+added kestrel demo project
+Removed use of IAssemblyCatalog in DefaultObjectSerializer
+Changed Csrf token validation to use DateTimeOffset
+Changed DiagnosticsSession to use DateTimeOffset
+Changed TypeConverter.IsValid to TypeConvert.CanConvertFrom
+added owin test to verify ssl certificate creation from environment
+added IAssemblyCatalog to the ctor calld in DiagnosticsHook
+removed GetRawCertData error by passing X509Certificate2 directly through instead of byte[]
+added IAssemblyCatalog to DiagnosticsModuleCatalog, updated infomodule to use assembly catalog instead of AppDomain
+changed isjittrackingenabled -> debugger.isattached, ifdefed out bootstrapper exception ctor, swapped crypto classes
+added ifdef for dotnet54 in simplejson
+replaced binaryformatter with simplejson
+ifdefed out old async stream overrides, replaced close -> dispose in dotnet54, removed unused StreamExtensions.cs
+moved auto-registration to non-static method, switched it to use assemblycatalog
+clean up of code after @thecodejunkie's comments
+organised usings after comments from @thecodejunkie
+moving reflection across to dotnet54
+Updated RandomNumberGenerator.cs comment
+Swapped Rij... encryption with Aes, added ArguementException handler for a mono decryption issue
+MemoryStream.GetBuffer -> MemoryStream.TryGetBuffer
+fixed é in comment
+removed :// in Url due to bug in portability analyzer
+removed unneccessary ifdeffing
+moved implementation of IsHex/FromHex to method inside HttpEncoder and ifdefed in implementation for dotnet54
+replaced SchemeDelimiter, UriSchemeHttp, UriSchemeHttps with string literals
+added System.IO package to resolve IOException/FileNotFound error
+updated all packages to 23516 build
+added coreclr dotsettings file
+removed ifdefed method in Url.cs
+YAGNI: removed ICloneable interface after discussion in #2251
+ifdefed out usage of ICloneable interface in Url class
+ifdefed out SerializableAttribute usages in nancy.xproj
+ifdefed out usages of SerializationInfo exception ctors
+replaced RNGCrytoServiceProvider with RandomNumberGenerator.Create()
+added dotnet54 references to project.json file
+Updated the look and feel of the error pages
+added try catch calls to statuscode handlers (#2457)
+Renamed Cultures on GlobalizationConfigurationExtensions to Globalization
+use globalizationconfiguration datetimestyles when modelbinding datetime
+Use GlobalizationConfiguration.DateTimeStyles in DynamicDictionaryValue DateTime parsing
+Properly propagate async exceptions
+Content negotiation performance tweaks
+Introduced new route declaration syntax
+Check the RequiredAttribute's AllowEmptyStrings property
+Minor refactoring of helper function
+Added failing test for multipart filename extraction Updated regex for Filename extraction from the Content-Disposition header
+Updated the message that is displayed when an internal server error occurs and DisplayErrorTraces is disabled for nancy 2.0 and it's property name.
+Add destructor to RequestStream to ensure we always try to clean up temp files if .Dispose() not explicitly called. (#2430)
+Removed broken NuGet downloads, added Slack badge
+Removed JabbR and added slack information (#2419)
+removed spacing in name of Nancy.Testing.Cert.pfx
+updated targets to point to 4.5 directory
+Exclude nunit and nCrunch from automatic bootstrap registration
+Added templates for pull-requests and issues
+Updated nuget dependencies
+Updated CONTRIBUTING.md
+Moved CONTRIBUTING.md to .github-folder
+Made AddLinkHeader protected virtual
+Allow existing Link HTTP Header
+altered datetime serialization tests to cope with offsets better
+Reimplemented TryCastResultToResponse to boost performance
+Updated SharedAssemblyInfo to v2.0.0-alpha
+Changed the hint path for AngleSharp to be solution relative
+Don't add any blank lines between using groups
+Updated AngleSharp dependency to 0.9.5
+Changed TraceConfiguration.Enable to false instead of a debug check
+Only add 1 space around methods
+Enforce C# 5 in ReSharper
+Explicitly set the ReSharper file header stuff to blank so global config is not used instead.
+catch and rethrow ConfigurationException in DefaultNancyEnvironmentConfigurator
+Made the compile tasks depend on the nuget restore tasks
+Optimized CheckStatusCodeHandler in NancyEngine
+Optimization of ModuleExtensions.GetModuleName
+Optimizaiton of DefaultModelBinderLocator
+updated nancy.testing nuspec to include anglesharp
+Optimization of field name convertion
+Use ArrayCache.Empty<T>
+Added ArrayCache
+Remove call to Console.WriteLine
+Performance tweaks for the RequestHeaders class
+made owin dependency the correct case for nuget
+Removed docu and mspec from tools folder
+Updated Travis script
+Added NuGet restore task
+Changed hint path
+Removed unused function
+Quiet down dnu
+Make sure we run Nancy.Tests.Functional as well
+Add converter lookup caches to NancySerializeStrategy
+Remove unused fields from JavaScriptSerializer
+More xml doc cleanup
+Tighten xml doc comments on JavaScriptSerializer and NancySerializationStrategy
+Disable appdomains for xunit on Mono
+Converted Nancy.Tests.Functional to project.json
+Removed FakeRootPathProvider and the single use of it
+Swapped out CsQuery with AngleSharp
+Added overridden constructor to JavaScriptSerializer
+pass in a JsonConfiguration to JavaScriptSerializer ctor
+Increase NancySerializationStrategy test coverage
+Remove maxJsonLength support
+Clean up NancySerializationStrategy constructor
+Remove json recursion limits
+Remove WCF date format support
+made simplejson and nancyserializationstrategy public and added missing XML comments
+added missing g/w/t in tests and missing brackets around if statements etc
+Clean up refactored Nancy.sln
+Rename fields in NancySerializationStrategy
+Change namespace of SimpleJson
+Change namespace of NancySerializationStrategy
+Convert SimpleJson Constructor and Property caches to statics
+Add support for serializing Type
+Remove cyclical json serialization tests
+Remove WCF DateTime tests
+Clean up existing json serialization
+Remove JsonDeserializer
+Replace Json with SimpleJson
+update XML comment on JsonConfiguration to show ISO8601 is true by default
+removed double dictionary check
+fix missed spaces
+POST request example has been added to the stateless demo app
+removed thread culture and made GlobalizationConfiguration.Default use it
+added new configuration exception class and added usage for cultures
+made DefaultCulture not optional and GlobalizationConfigutationExtensions will use the first one in the list of supported cultures if not passed in
+modified ThreadCulture to use CultureInfo.CurrentCulture not CurrentThread.CurrentCulture
+added a new culture convention to look at a DefaultCulture property on GlobalizationConfiguration
+added ifdef around setting culture based on thread.currentculture
+Made LoadAllNancyReferencingAssemblies private
+Added missing XML comments
+Removed use of AssemblyResolveStrategy in LibraryManagerAssemblyCatalog
+Added a ILibraryManager based IAssemblyCatalog for DNX
+Removed used of AssemblyResolveStategy in the Razor engine
+Added some safe-guards
+Updated AppDomainAssemblyCatalog implementation
+Made assembly name comparison case insensitive
+Removed use of Assembly.EscapedCodeBase
+Don't convert enums with NumericConverter
+Change FluentValidation to v3.4.0
+Specify v3.4.0.0 of FluentValidation in nuspec
+Added overload to Diagnostics which implicilty sets enabled to true
+Updated DiagnosticsConfiguration with Enabled
+Added DNX support in the NancyBootstrapperLocator
+Implemented RazorAssemblyProvider for the Razor engine
+replaced String.IsNullOrEmpty to string.IsNullOrEmpty
+Turned off pdf generation on Mono builds
+Updated build.ps1 to only run tests on *Tests.xsproj
+Removed invalid project reference
+Updated Razor to extract error details from Roslyn results
+Removed dnx451 tfm from razor projects
+Applied to new project structure
+Enabled C# 6.0 in Razor views.
+Removed VB.NET Razor files from csproj
+Rewrote Nancy.ViewEngines.Razor to use Roslyn
+Updated NuGet.exe to v3.3
+Converted Nancy.ViewEngines.Markdown.Tests to project.json
+Converted Nancy.ViewEngines.DotLiquid.Tests to project.json
+Converted Nancy.Validation.FluentValidation.Tests to project.json
+Converted Nancy.Validation.DataAnnotations.Tests to project.json
+Converted Nancy.Testing.Tests to project.json
+Converted Nancy.Owin.Tests to project.json
+Converted Nancy.Metadata.Modules.Tests to project.json
+Converted Nancy.Hosting.Self.Tests to project.json
+Converted Nancy.Hosting.Aspnet.Tests to project.json
+Converted Nancy.Encryption.MachineKey.Tests to project.json
+Converted Nancy.Embedded.Tests to project.json
+Converted Nancy.Authentication.Forms.Tests to project.json
+Converted Nancy.Authentication.Basic.Tests to project.json
+Added a DNX tweak to AppDomainAssemblyCatalog.cs
+Tweaked build.ps1 so it hopefully works on appveyor
+Updated file path in tests
+Added TestAssembly.dll to .gitignore
+Added InternalsVisibleTo.cs to Nancy.Hosting.Self
+Split out InternalsVisibleTo.cs from SharedAssemblyInfo.cs
+Added Nancy.Tests to project.json
+Update build.ps1
+Update global.json
+Revert "Change to the Trusty distro"
+Update NuGet.exe to 3.3.0
+Change to the Trusty distro
+Bumped Nuget.exe to 3.3.0
+Removed dotMemory nuget
+Removed assert that is not needed
+Removed dotMemory tests and tools
+injected INRE into DefaultCultureService instead of GlobalizationConfiguration
+Disabled parallel test execution
+Updated xunit console runner and build scripts
+Updated packages
+renamed culture configuration extensions
+renamed cultureconfiguration to globalizationconfiguration
+moved allowed cultures to a configuration class
+Update README.md
+Removed AppDomainAssemblyTypeScanner and ScanMode
+Removed the ConfigurableBootstrapper.Assembly method
+Removed ADATS dependency in NancyInternalConfiguration
+Removed ADATS dependency in the NancyBootstrapperLocator
+Moved samples projects back into old folders
+Removed ADATS usage in the ConfigurableBootstrapper
+Removed ADATS usage in the Razor engine
+Modified paths in projects to point to the new locations
+Moved csproj projects to subfolders
+Replaced ADATS with ITypeCatalog in Registrations
+Removed more ADATS usages
+Removed ADATS dependency for Razor model type resolving
+Replaced ADATS use with ITypeCatalog
+Skipping tests for now
+Changed loading approach in AppDomainAssemblyCatalog
+Relaced use of ADATS with IAssemblyCatalog
+whitespace fixes in diagnostics classes
+Removed ADATS dependency in NancyConventions
+Changed custom IResourceAssemblyProviders to use NancyReferencing strategy
+added ITypeCatalog to SSVERegistrations to remove ADATS
+Revert "Attempt at fixing TravisCI"
+Use ITypeCatalog in DiagnosticsModuleCatalog to remove ADATS when registering Diagnostics module
+injected ITypeCatalog into Diagnostics and added access to nancy diagnostics todemo.hosting.self for mono users :)
+added IAssemblyCatalog to demo aspnet project and removed ADATS
+removed ADATS in razor localization demo to use IAssemblyCatalog
+Replaced use of ADATS with ITypeCatalog inside the bootstrapperbase
+Attempt at fixing TravisCI
+Added type and assembly catalogs on the bootstrapper
+Update appveyor.yml
+Removed MyGet deployment
+Update appveyor.yml
+Added MyGet deploy
+Added build script and AppVeyor config
+Added new solution with Nancy building for net451
+Build updates
+Removed packages folder
+Restructured folders
+Changed how Nancy referencing assemblies are loaded + added IAssemblyCatalog extension method
+Added AssemblyCatalogBase and made AppDomainAssemblyCatalog inherit it
+Added AssemblyResolveStrategy and usage
+Implemented ITypeCatalog and IAssemblyCatalog
+Removed StaticConfiguration.IsRunningDebug
+fixed environment typos
+fixes environment typo
+Added missing explicit named arg in static safepaths
+yet more xml docs tidying
+more xml docs tidying
+added explicit method args when being called and tidied up XML docs
+Cleaned up StaticConfiguration
+Migrated tracing configurations to the new config API
+Moar fixups
+More fixes, one main fix left.. hopefully :)
+More fixups
+Removed 'compiler bodge' boolean from async route definitions
+Removed non-async route definitions - build slightly broken now ;)
+Removed sync method from NancyModule.RouteBuilder and deprecated the FromSync Route static builder methods
+Added legacy tests
+Added legacy nancy module class
+renamed DefaultSafePathConfigurationProvider to DefaultStaticContentConfigurationProvider
+rename safepathconfiguration to staticcontentconfiguration
+"" to string.Empty
+renamed extension Paths to AddSafePaths
+made tests use safepath extensions for cleanliness
+removed optional paths argument on safepathconfigurationextensions
+enforced NancyContext argument in GenericFileResponse constructor
+used INancyEnvironment from NancyContext for safe paths
+updated RootPathAppStartup xml docs
+injected INancyEnvironment to RootPathapplicationStartup
+initial safe path configuration classes added
+Added XML comments
+Removed the last uses of routing settings in StaticConfiguration
+Update ModelValidationResult.cs
+Added environment to NancyContext
+Started migrating routing configuration to the new configuration API
+Cleaned up StaticConfiguration
+Migrated view settings to ViewConfiguration
+Started implementing ViewConfiguration
+Resolves #2170
+Don't swallow exception in stateless auth
+HTTP 451 Unavailable For Legal Reasons
+Typo "lleft" -> "left"
+added another test if all nested conditions are true
+implemented nested ifs
+added failing test
+fixed some spacing
+Using foreach
+Using foreach instead of enumerator.MoveNext
+Browser: remove sync methods, remove 'Async' postfix.
+LegacyBrowser. Sync methods only, wraps Browser.
+What is [obsolete(.., false)]? call site gets warning.
+Test fix, exception is expected
+All these test methods need to be async
+Using .GetAwaiter().GetResult() so any exceptions are not wrapped in an aggregate exception.
+Missing //Then
+Should be awaited
+Stupid stray new ling
+Added Sync overloads that just call their async conterparts. These are marked obsolete.
+Add 'Async' postfix to all Browser methods.
+Reverting to using Invoke()
+Sprinkle ConfigureAwait(false) where needed (Nancy, Nancy.Testing, Nancy.Owin, Nancy.Hosting.Self, Nancy.Hosting.AspNet)
+Remove unnecessary static ctor
+These tests aren't needed. The AfterPipeline enumerator is awaited so there is never a null task returned.
+Don't need the .Invoke here
+Don't need these tests. async await unwraps exceptions for us
+CompletedTask doesn't need to be laziy initialized.
+Can just return the Task here instead of using a wrapping TaskCompletionSource.
+Use Task.FromResult
+Use Task.FromResult
+Use Task.FromResult
+Use CopyToAsync
+Simpler static field init.
+Don't need this try catch wrapper
+Convert TaskHelpers.GetCompletedTask to a property
+Use Task.FromResult instead of TaskHelpers.GetCompletedTask
+Method no longer used.
+DefaultRouteInvoker - clean up async
+Method no longer used.
+AfterPipeline.Invoke() - clean up async
+BeforePipeline.Invoke() - clean up async. The continuation performance bits no longer needed.
+DefaultRequestDispatcher.Dispatch - clean up async stuff & corresponding fixture.
+Method call should be awaited
+Tests need to be asycn
+Add missing xml comment for param
+NancyEngine.InvokeRequestLifeCycle is async.
+This test needs to be async
+These tests need to be async
+NancyEngine - async cleanup
+These extensions are not needed anymore.
+AspNetHost - update handler to use tasks and async await
+NancyHost now uses GetContextAsync on http listener
+Remaining tests affected by async browser are now async
+Nancy Browser is now async and updated all Nancy.Testing.Tests to be async where necessary.
+Actually these references are needed.
+Unused references
+Update specs that invoked INancyEngine to be async.
+Use HandleRequestSync for now.
+Add async version of NancyEngineExtension.HandleRequest. Renamed overload to HandleRequestSync until we figure out what we do with Testing and SelfHost.
+Reverting c#6 code, doesn't compile on CI (TC)
+Formatting
+Using async/await
+Minor styling tweaks from last PR
+Minor styling tweak
+Replaced an unintended NullReferenceException when a partial view could not be located and introduced a ViewNotFoundException instead
+SwitchoverStream does not work when %TEMP% is full Removed problematic Path.GetTempFileName() call, uses Guid.NewGuid() for filename instead. See comments for citations.s
+Changes RequestStream.AsString extension method to not modify the stream's position.
+Moved RegisterModules in bootstrapper base
+Removed redundant RegisterModules call in bootstrapper base
+Brower -> Browser typo
+Change disposal of CancellationTokenSource to after task is complete
+Make sure we keep ReasonPhrase from existing Response
+Tweak test to fail
+Added functional tests for BindTo for Body & Form and changed BindingConfig for BindTo
+Brought back using qualifiers at nested scope
+Reset negotiation context on error to avoid invalid casts from view model to error model
+Updated init of Lazy<bool>
+Added RuntimeEnvironmentInformation methods to ConfigurableBootstrapper
+Updated to use Lazy<bool>
+Added IRuntimeEnvironmentInformation interface + default implementation
+Cleaned up the code
+Updated code to consume non-static JsonConfiguration
+Renamed JsonSettings to JsonConfiguration
+changed dll paths in Nancy.ViewEngines.Razor, to fix bug encountered in case sensitive filesystems (e.g. on linux with  mono)
+Code cleanup
+Prevent multiple enumeration of list
+Ensure http verbs are compared in a case insensitive way
+Add the method name to the InvalidOperationException thrown when a pipeline action returns null, and use semicolon instead of comma to separate the clauses in the message.
+Throw an informative InvalidOperationException instead of NullReferenceException if a pipeline method returns null.
+Add new line to end of file
+Make forms authentication config validation clearer
+Minor tweak of DotSettings
+Added SuppressXUnitOutputExceptionAttribute
+Added dotMemoryUnit console runner
+Added memory unit test
+Added JetBrains.DotMemoryUnit
+Pumped up severity for most common errors
+Don't prefer fully qualified namespace, show hint for this qualifier
+Various other settings
+Moar space
+Don't return if the container is null, to ensure Dispose(true) is always invoked.
+Made the public Dispose() method non-virtual and added a virtual protected Dispose(bool) that is invoked from the public Dispose() method.
+Made NancyBootstrapperBase.Dispose() virtual so it can be overridden in deriving classes.
+We want more space
+Force braces
+Make sure static fields are named correctly
+Made DiagnosticsConfiguration.Default readonly
+Changed extension method naming
+Changed the way XmlConfiguration.Default is created
+Updated namings to follow conventions
+Changes how diagnostics fetches the configuration
+Renamed to follow naming conventions
+Split up files and added missing XML comments
+Migrated XmlSettings to the configuration API
+Started converting XmlSettings to config API
+Properly dispose CancellationTokenSource
+Added XML docs
+Removed AsImage method. AsFile should be used instead
+Added overload for AsText that supports custom encoding
+Changed Response's implicit operator to return TextResponse
+Added charset to TextResponse
+Made tests fail
+Added GetEnvironment() method on INancyBootstrapper
+Changed IBodyDeserializer to use MediaRange + cleaned up tests
+Minor code cleanups
+Added ISerializerFactory support to DefaultResponseFormatterFactory + related
+Added missing XML comments + code cleanup
+Added missing XML comment on ISerializer
+Changed MediaRange comparison approach
+Removed C#6 code
+Removed unused parameter
+Added ISerializerFactory + implementation
+Updated to use NancyDefaultConfigurationProvider class
+Cleaned up the code
+Added DiagnosticsDefaultConfigurationProvider
+Added XML documentation to ConfigurableBootstrapperConfigurator.Configure method
+Removed unused field for old DiagnosticsConfiguration
+Added missing XML comments and cleaned up the code
+First pass at removing NancyBootstrapperBase.DiagnosticsConfiguration
+Updated GetKey method to Key property
+Updated default configuration provider implementation
+Added sample config + route to Nancy.Demo.Hosting.Aspnet project
+Made minor clean up tweaks
+Added IHideObjectMembers to all configuration API interfaces
+Updated according to review comments by Christian Horsdal
+Added missing XML comment
+Minor refactor of DefaultNancyEnvironmentConfigurator
+Added DefaultConfigurationProvider overloads to ConfigurableBootstrapperConfigurator
+Added Configure method to ConfigurableBootstrapperConfigurator
+Improved test coverage for DefaultNancyEnvironmentConfigurator
+Added support for default configurations through INancyDefaultConfigurationProvider
+Cleaned up code and typos
+Added XML comment to NancyBootstrapperBase.Configure()
+Added tests for DefaultNancyEnvironment
+Added test for INancyEnvironmentExtensions
+Removed TODO comments
+Renamed GetValue methods, with default fallback, to GetValueWithDefault
+Added XML comments to bootstrapper members
+Implemented a new unified configuraton system
+Revert "Delete Hosting.Self projects. "
+Delete Hosting.Self projects. Self hosting will be via owin and later hosts.
+Delete WCF Demo project.
+Delete wcf host and test projects.
+Removed obsolete members
+Various XML docs fixes
+Various tweaks after rebase
+Do NOT use static service location in NancyMiddleware. The will cause all sort of problems if there is more than one Nancy instance / bootstrapper in a owin pipeline. (reverted from commit e8ae7c4a92ffcb92c47744f2d921978c2b03fd45)
+Do NOT use static service location in NancyMiddleware. The will cause all sort of problems if there is more than one Nancy instance / bootstrapper in a owin pipeline.
+Katana user and owin user flow through.
+Because Nancy middleware is in own project, move middlware tests to Nancy.Tests
+Perhaps TargetFrameworkVersion should be 4.5?
+Removing Nancy.Authentication.Token and all related projects. Token (Bearer) auth should be implemented by suitable middleware.
+Delete tests /requiresvalidatedclaims isn't a thing.
+Nancy.Demo.Authentication.Stateless fixed to use ClaimsPrincipal.
+Nancy.Demo.Authentication fixed to use ClaimsPrincipal
+Nancy.Demo.Authentication.Basic fixed to use ClaimsPrincipal
+Removing RequiresValidatedClaims - doesn't make sense give we're using predicate in RequriesClaims
+Nancy.Tests.Function fixed to use ClaimsPrincipal.
+Unused using
+Replace IUserIdentity with ClaimsPrincipal.
+Authentication.Stateless user lookup func returns a ClaimsPrincipal
+Froms Auth IUserMapper returns a ClaimsPrincipal
+Basic Auth IUserValidator returns a ClaimsPrincipal.
+ModuleSecurity and SecurityHooks fixed to use ClaimsPrincipal extensions.
+Rename UserIdentityExtensions to ClaimsPrincipalExtension. Mapped IUserIdentity extension methods to ClaimsPrincipal.
+Deleting IUserIdentity. This breaks all the things.
+Added flag to (hopefully) enable docker support
+Switched to using native mono support in travis
+Stopped postgres to avoid the upgrade error
+Updated upgrade command
+Added package upgrade
+Attempted forced install
+Switched to using official mono packages
+Removed mono 2.x from travis file
+Remove reduntant using directives.
+Tweaks to dotSettings: never show "this." as redundant and skip ".cshtml" files in inspections.
+Updated nuspec files to target 4.5
+Updated nuget dependencies to v4.5 target framework
+Updated projects to target .net 4.5
+Updated SharedAssemblyInfo to v1.4.1
+Replaced powershell scripts with MSBuild target
+Removed UrlDecode call from DiagnosticHook
+Minor cleanup
+Updated SharedAssemblyInfo to v1.4.0
+Unseal NancyEngine to get Windsor working
+More clean up as suggested by @khellang
+Cleaned up PR
+Found additional tests and ensured they pass
+Ensured all tests pass after cookie decoding fix
+Code tidy as per feedback from PR
+Added test and fix for cookie decoding issue
+wrapped cyclical tests in StaticConfigCtx
+added cyclical model tests and cyclical exception to json/xml writer when serializing
+Added tests for ResourceBasedTextResource
+Update ResourceBasedTextResource.cs
+Update ResourceBasedTextResource.cs
+Made is possible to disable asp.net output buffering
+Add workaround to read Display attribute when on Mono
+Update data annotations validation to support the Display attribute
+Update data annotations validation to more easily allow overriding the error result
+Update data annotations validation to support the DisplayName attribute
+Added some XMLDOC for NancyResponseStream
+Created a wrapper stream for the AspNet response. Calling flush on the Stream defers to HttpResponse.Flush() instead of calling directly on the Stream.
+Move modules registration after all other registrations
+add constructor to DefaultStatusCodeHandlerResult, so we do not have to use initializer
+Add content negotiation to default error handler
+Add status message to OWIN demo
+Downgrade to .NET 4
+Add Owin demo into sln.
+Changed the way a new default nullable is created
+Enabled casting DynamicDictionaryValue to primitives when it is missing a value + to nullable primitives
+base class for razor html helpers
+Trying to get tests passing on Mono.
+ExceptionExtensions Flattens Incorrectly
+changed IsJsonContentType to check for endswith +json
+added application/merge-patch+json to allowed json content types
+Escape ConfigurationName in razor view engine post build command. Resolves NancyFx/Nancy#2068
+ExceptionExtensions Flattens Incorrectly
+Updated SharedAssemblyInfo to v1.3.0
+Added accept header cache busting when header is overwritten
+Added cache for parsed header values that contains a quality value
+Use Enumerable as intended: StringExtensions.GetParameterDetails() should not throw an exception but return an empty Enumerable instead if there are no parameters in the path/segment. (remove Select-self statement)
+added comments for staticconfig:AllowFilestreamUploadAsync
+added AllowFileStreamUploadAsync for file uploads on mono
+Update how to build instructions with missing prerequisites
+Whitespace fixes
+Wrap Uri in UriBuilder to include default port
+Added failing test
+corrections based on PR feedback and included DebuggerDisplay to Response
+Added .vs to .gitignore
+Cleaned up config files in test projects
+Cleaned up config files in main projects
+Cleaned up config files in demo projects
+Added .editorconfig :sparkles:
+Update CONTRIBUTING.md
+included nq on the DebuggerDisplay attributes
+Added DebuggerDisplay for Route and Request
+Added DebuggerDisplay to DynamicDictionary
+Added DebuggerDisplay to ModelValidationResult
+Added .mailmap :sparkles:
+Ripped out FlattenException into a separate extension method
+Enabled response negotiation in OnError pipeline
+Added functional test
+Refactored ClrTypeResolver
+Code style fixes
+Added primitive types
+Support for arrays
+Clean up
+Working generic model for VB
+Recognizing generic types in @model directive
+Baseline tests
+Removed unused diagnosticsConfiguration ctor parameter on NancyEngine
+Razor throws error when a layout cannot be found
+fix comment
+Updated string comparison methods
+Added support to control the use of IApplicationStartup and IRequestStartup implementations from Browser based tests
+Accept dash sign in routing segment default value.
+Changed the registration key for IDiagnosticsProvider implementations
+Refactored to remove the need for a cast
+Preventing user code from closing the response stream while testing
+Revert "Add a Gitter chat badge to README.md"
+Added Gitter badge
+Updated CachedResponse to forward call to PreExecute to inner response
+Update CONTRIBUTING.md
+Prioritize custom handler, fall back on DefaultStatusCodeHandler
+Made status code handler check break on first hit
+Changed JsonSettings to use Encoding instead of string
+Added a default user-agent to Nancy.Testing.Browser
+More clean up of Nancy.Testing code
+Cleaned up Nancy.Testing code
+ADDED: replace hardcoded values with new configuration property for disable request switching, defaults to the hardcoded value
+ADDED: property to StaticConfiguration that allows request stream switching configuration
+Remove old reference
+Perform case-insensitive lookups in EmbeddedFileResource
+Perform case-insensitive replacement in EmbeddedFileResponse
+Allow overriding contentPath in Embedded fixture
+Rename parameter in Embedded-related fixture
+AppDomainAssemblyTypeScanner exception handling
+fix x-forwarded-proto SSL detection
+Added quotes to netsh command parameters
+Added R# rule to strip out blank lines in using statements
+Minor refactor of DeserializeRequestBody
+Added unit tests to verify behavior
+Corrected spelling
+Added failing test
+Exclude object methods
+Added failing test
+Leverage the RequiresHttps method from SecurityHooks.
+include the rake gem
+use bundle instead of installing gems seperatly
+Allow binding to models with non public default ctors
+Updated nuget exe
+removed duplicated 'url' word in XML documentation for Request constructor
+No more boost-rappers :lipstick:
+Adding tuple deserialization support to JavaScriptSerializer.
+SSVE - AttributeValuePathExpansionRegEx corrected ["|'] to ["']
+Move using under namespace for DefaultNancyBstrapper
+Use FIPS-compliant hashing algorithm for etags in EmbeddedFileResponse
+Binding of nullable enum properties has been added.
+Added missing StaticConfiguration to *Context
+corrected typo in license owner
+Constraint example for constraint routing demo
+fix head response fixture to execute the response before asserting
+follow normal response life cycle including PreExecute and execution of content delegate in HeadResponse and the inner response
+Update ModuleSecurity.cs
+Allow more succinct `Requires`
+Updated SharedAssemblyInfo to v1.2.0
+Workaround for #1724
+fix exception & hang when request path contains a character present in Path.GetInvalidPathChars()
+add missing null parameter checks
+Add test for attribute value path expansion
+Add support for expanding paths in attribute values
+Changed DeclaredOnly to FlattenHierarchy
+Treat HTTP/2 specially
+Added ProtocolVersion to Request
+Removed extra semicolons
+Update Nancy.ViewEngines.Razor.Tests.Models.csproj
+Added xUnit Runner reference
+Simplified assertion.
+Added additional test coverage and cleaned whitespace.
+Set StatusCode before setting StatusDescription
+Added VersionRouteSegmentConstraint to Nancy.Routing.Constraints
+Added Given/When/Then and moved using statements
+Added given, when, then to tests
+Get CSRF-tokens either from request header or form data
+Added constraint support for CaptureNotWithMultiParameters TrieNode
+Added Accept header to test
+Removed redundant null check. NegotiationContext cannot be null anymore.
+Set NegotiationContext in NancyContext ctor
+Added failing test for negotiation in status code handler
+Changed wrong branch.
+Added test.
+Added public method for adding mime types.
+Changed DeclaredOnly to FlattenHierarchy
+Super Simple Each Perf
+Added IncludeInNancyAssemblyScanningAttribute
+Url - GetQuery should now be redundant (since we do it in the setter)
+Url - Use a StringBuilder to prevent some allocations
+Url - Simplified GetQuery
+Url - Use string alias
+Url - Use Uri constants
+Url - Make sure Query is always stored with leading '?'
+do not register dependency twice by the same interface in cofigurable bootstrapper
+Minor tweaks
+Reverted tests and added a new one.
+Inverted boolean switch
+Helps if I run tests and fix them
+Add Head route hook with static config to enable old behavior
+SSVE with i18n support
+Typos clean up
+Tabs to Spaces
+Changed HttpMultipartBoundary to use UTF8 when decoding strings
+Added failing test
+More typo cleanup & whitespace removal
+Typo cleanup
+Removed commented out Xunit using
+Adding unit tests to check for null modules and pipelines
+Removed extra an.
+Removed extra the
+Change Compatability to Compatibility
+Convert Tabs to Spaces
+Replaced tabs with spaces
+Update FavIconApplicationStartup.cs
+Removes unnecessary RequiresAuthentication call in Nancy.Demo.Authentication.Token
+Revert "OCD - Killing off Mixing Serialized & Serialised"
+Revert "Swapping Silly UK English ;)"
+More typo cleanup
+OCD - Killing off Mixing Serialized & Serialised
+Swapping Silly UK English ;)
+Tweaks :lipstick:
+Updated SharedAssemblyInfo to v1.1
+renamed to RewriteSchemeUsingForwardedHeaders for SSLProxy
+made sslproxy class static
+renamed sslproxy method
+added Before hook to make Url https if forwarded header present
+Minor tweaks
+Compare full paths in generic file response sanity checks
+Update StaticContentConventionBuilder.cs
+Nitpickng: There is usually no spaces before the parenthesis in Nancy code
+Adjust TryParse method to allow more convertions
+And also the text may be changed =)
+Change port number 8888 to 8898
+Change port number 8888 to 8898
+Add nancy dependency to validation nuspecs
+Update nuget
+Updated SharedAssemblyInfo to v1.0.0
+Pass NancyContext to CreateRequestContainer
+target client profile
+Changed Firstname to First name:
+Samples Cleanup
+Module based authentication setup. - Added INancyModule constructors for Stateless Authentication and Forms Authentication. - Unit tests for Forms Authentication. Note: There's no unit tests for Stateless Authentication.
+Implement equals on BindingMemberInfo
+Remove unneeded/bad IModelValidator registrations
+Add a check if ValueType on returnResult before testing null - fix #812
+Added this.additionalItems != null check
+Add cookie attributes as empty values.
+fixup case-sensitive tests
+Tests include case sensitivity
+respect StaticConfiguration.CaseSensitive
+Force case senitivity to be false
+fixup uppercase /MOO/MOO
+Use case insensitive comparer in TrieNode.Children dict
+GreedyCaptureNode should be case-insensitive
+CaptureNodeWithMultipleParameters should use case insensitive regex
+Allow GenericFileResponse to serve files without extension
+Pass NancyContext down to ValidationAdapters
+Ignore invalid cookie attributes
+Don't crash on an invalid cookie
+Update Tokenizer.cs
+Use case-insensitive dict for Response headers
+Overwrite Content-Type from headers
+Update DefaultResponseNegotiator.cs
+Nancy.Testing.Brower.HandleRequest shall be public
+Added ViewRenderer and Negotiate to INancyModule.
+Significantly reduce DefaultObjectSerializor output length in some cases
+simplify exception text
+New fix (hopefully) for mono issue
+Changes from previous Pull Request
+Use NancyContext.Culture instead of CultureInfo.CurrentCulture when possible in razor views
+Exception when resource name duplicates
+Additional ScanModes in AssemblyTypeScanner
+In mono if the expectedRequestLength was 0 do not try to RequestStream.FromStream
+Given, When, Then
+Failing test
+Remove unused file
+Aligned XmlResponse and JsonResponse
+Added XmlSettings (equivalent of JsonSettings)
+Link to stash was broken
+HTML encode attribute values by default
+Add missing xml comments
+Changed metadata modules test project path
+Case-sensitive parameter for ParseQueryString.
+Convert Tabs to Spaces
+Removed unused using Nancy.Localization;
+Removed trailing white space
+fixed the token auth demo bootstrap to register a default tokenizer.
+fix for collection regsitrations
+requestscopedtype fix being overwritten
+Updated model binding to support fields as well as properties.
+untabify white space
+tab indentation that doesn't show up in vs
+added check against range of HttpStatusCodes that are valid for the RedirectResponse method, as opposed to just the default value
+Add xml comment summary to RegisterAll method
+Wrap example in code tags
+Removed dependency on System.Drawing
+removed unused usings
+renamed folders of metadata
+renamed metadata module project and nuspec
+reset bodystream position to 0 in xml body deserializer
+Document test extension methods
+Added test case for collection comparison fix
+Replaced long with var, replaced tabs with spaces
+Add Content-Length header for static content
+Add dependency version for framework profiles
+Exposes Context and Request on NancyRazorViewBase<T>
+Made FormattedErrors return dynamic so the properties are key/errors not key/value
+tidied xamarin formatting
+added a way to make errors nicer when serialized
+Replaced UrlDecode calls with overload that accepts encoding param.
+Added missing UrlDecode calls (fixes failing tests)
+Refactored ParseQueryString method
+Don't lookup module description in resources for dymamic assemblies.
+Added failing test cases
+Updated SharedAssemblyInfo to v0.23.2
+Update README.md
+Exclude AppBuilder test from running on Mono.
+Renamed Mapper to Resolver, added more XML docs
+Removed some redundant stuff
+Added xml documentation
+Added NancyContext to IUserMapper
+Added IUserMapper to Nancy.Authentication.Token
+Updated CONTRIBUTING.md with style guidelines
+Rename powershell scripts to prevent conflict with future packages
+Prevent nuget package content from being copied to the output folder
+Diagnostics: capitalize the keys
+Replace mocked class with a fake
+Automatically resolve to most derived bootstrapper
+Make MediaRange immutable
+Updated SharedAssemblyInfo to v0.23.1
+Adds forgotten constructor overload
+Adds expires parameter to Cookie constructor
+Adds a string constructor to MediaRange
+Refactored to move when pre execute it executed into the main pipeline exec
+Updated materialising response to correctly set exception
+Hooked in pre execute with test and updated materialising response
+Added preexecute
+Issue #1589 update MP3 mime type to be IANA standard "audio/mpeg"
+changes "null" behaviour and fixes test
+format tests
+Adding Tests to new behaviour
+removing more air
+Added unit testing for changes to JavaScriptSerializer in this branch to the Nancy.Tests project.
+removing "air" and embracing 'if' scope
+Find in fields when property is not found.
+Added NuGet download count badge
+Added NuGet badge to README.md
+Comment out test that just will not pass on Mono.
+AppBuilderExtensions Tests - Create the request URI explicitly. (This test passes in R# and NCrunch, but fails on Travis).
+Forgot to save project file. God damnit.
+Adding some // Given When Then comments in Nancy.Owin.Tests fixtures. Capitalize Nancy in a test name.
+Tests covering the IAppBuilder extensions. Uses MS.Owin.Testing (but brings in a bunch of other stuff because of HttpClient depending on the MS.BCL stuff).
+Change AppBuilderExtensions to use NancyMiddleware MidFunc. (MidFunc is supported by Katana)
+Rename MiddlewareFunc to MidFunc (idiomatic!)
+Workaround Mono specific problem with Uri.TryCreate
+Replaced string magic with System.Uri only solution
+Adding Given/When/Then where they are missing
+Consider protocol relative URLs as non-local
+Add enum support
+Add failing tests to show lack of enum support
+fixed nuget package spec for razor
+added new long constraint and made int.. an int
+extracted method
+moved assembly variable to top of class
+fixed unit tests
+added tests
+added new setting to disable auto register on tests
+Prevent ArgumentOutOfRangeException on empty cookie
+formatted stringbuilderextensions
+Ignoring case for Secure or HttpOnly sections of the cookie header.
+(re)moved using statements
+Renamed NancyOwinHost to NancyMiddleware
+Added missing documentation
+Added extensions for the new delegate-based approach (IBuilder.UseOwin etc.)
+Moved NancyOwinHost to Nancy core
+Added indexer on TextResourceFinder
+Moved ITextResource from NancyModule to NancyContext
+Updated SharedAssemblyInfo to v0.23.0
+Updated SharedAssemblyInfo to vv0.23.0
+allow custom JavaScriptSerializer to be used for JsonBody serialization
+Remove unused GetViewFolderKey method
+Moved MetadataModule and IMetadataModule from Nancy project into Nancy.Metadata.Module project.
+testing Query DynamicDictionary value to be string
+fix the unicode character
+capital Given/When/Then
+Some encoding quirk
+Additiona linebreak for consitency
+Updated FakeItEast in metadata module test project.
+Cleaning up bad merge.
+metadata nuspec added
+Moved metadata module bits into a separate project. Replaced mods to NancyInternalConfiguration etc with use of IRegistrations.
+Addressing some feedback.
+Tidied up demo of metadata module.
+Added extra metadata module conventions.
+Added metadata module conventions.
+Added code documentation.
+MetadataModule and MetadataModuleRouteMetadataProvider tests.
+Changed IRouteMetadataProvider to support returning different types.
+Spiking out metadata module support.
+metadata nuspec added
+Turn unit tests back on
+Clean up some xml comments
+Escape less-than signs in xml comments
+Remove unused fields
+Remove duplicate TargetFrameworkVersion properties
+Don't call GetBuffer() twice
+test for casting query witho no value to boolean
+cannot test NameValueCollection for booleans
+test name type
+Tests for duplicate keys without values
+Treat ?key as ?key=key
+Test for query string without key values
+Adding HTTPS port number overload for SecurityHooks.RequiresHttps
+updated razor nuspec
+Extends data annotations support to derived data annotations
+comply to human style cop
+tidying up code
+fixing reference
+adding missing assembly
+fixing tabbing since it was messy
+Added NancyContext extensions to get a thrown exception.
+updating Razor to official MS version
+CookieBasedSessions: Don't parse decrypted bogus data
+Moved metadata module bits into a separate project. Replaced mods to NancyInternalConfiguration etc with use of IRegistrations.
+Changes to IRouteMetadataProvider and friends.
+Addressing some feedback.
+Changed documentation for authorization property
+Tidied up demo of metadata module.
+Added extra metadata module conventions.
+Added metadata module conventions.
+Added code documentation.
+RouteCache tests.
+Changed documentation for authorization property
+MetadataModule and MetadataModuleRouteMetadataProvider tests.
+Changed IRouteMetadataProvider to support returning different types.
+Spiking out metadata module support.
+clean up code, remove unused foobar class
+updating to use FakeItEasy 1.19.0
+Updated xml comment
+Removed rogue using statements
+ADded context to request startup call
+Updated AspNet bootstrapper
+All tests now passing
+Renamed method
+Updated method signature
+Added additional failing tests
+Added failing tests for request container base bootstrapper class
+Updated test and made it pass for NancyBootstrapperBase
+Added infrastructure and failing test for calling request startups
+Update DefaultRouteResolver.cs
+Update IRouteResolver.cs
+Added request startup interface and initial test
+Disabled resharper unused method check
+Added name to diagnostics
+Initial working spike of named routes
+Update ViewBagTests.cs
+Moved fake classes to outer scope
+Updated tests
+Added additional test to the bootstrapper test base class
+Resolves #1510 Some minor cleanup of what appears to be dead code
+Added missing XML docs
+Added generic route metadata provider
+Resolved merge conflict
+Changed incorrect method name
+Renamed Retrieve<TMetadata> to RetrieveMetadata<TMetadata>
+Added Retrieve ext. method to IRouteCache
+Additional updates
+Additional changes
+Cleaned up the code a bit
+Spiked out route metadata prototype
+Added AsString extension to RequestStream
+Some renaming to remove application prefix from registration tasks
+Renamed registrations class to avoid name clash
+Renamed registrations class to avoid name clash
+Added pointless GWT comments :)
+Added xml comments
+Added a MaterialisingResponse
+Updated aspnet bootstrapper to honour lifetimes
+Updated TinyIoC
+Updated DefaultNancyBootstrapper to honour lifetimes
+Updated registrations base class to handle lifetimes
+Wired in request registration, tests broken.
+Request container base now filters out pre-request registrations from app container
+Initial refactoring around registrations
+Added some failing tests
+Added new Enum for registration lifetime.
+Updated build status badges..
+Moved check for existing response into negotiator
+Added some tests for DefaultRouteInvoker
+Some refactoring of DefaultResponseNegotiator
+Made response negotiator configurable, tests passing
+Ripped the conneg parts out of DefaultRouteInvoker
+Changes for @thecodejunkie
+Refactored FileSystemTokenKeyStore tests
+Check isLocal using Uri.TryCreate. It is possible in case we have only absolute url.
+Removed blank line
+JSON serializer now recognizes any [ScriptIgnore] attribute (regardless of what namespace it came from).
+Added support for partials inside each statements
+Changed enumeration of favicon locations to stop if one is found
+Token authentication and authorization implementation.
+Check isLocal via Uri.IsLoopback
+Moved bootstrapper locator code into methods instead of static ctor
+Added some exceptions to AspNet RequestHandler to easily identify bootstrapper errors
+Remove unused code
+Cleaned up some files
+Added sample route that uses module text resources
+Made text resources available straight from module
+Properly fixed tests for WCF datetime format (was using hardcoded value for GMT+1 timezone, oops)
+Properly fixed unit tests for all possible timezones now, phew.
+Improved ISO8601 format for datetimes to support milliseconds, timezones and UTC time.
+Even the smallest change can break a test
+Updated the minetype for javascript
+Maintain QueryWrapper Selector
+Moved StaticConfigurationContext to Nancy.Testing
+Added XML comments to DisabledDiagnostics
+Added XML comments to DiagnosticsViewRenderer
+Added missing XML comments
+Renamed TraceLog to DefaultTraceLog
+Added missing XML comments to ITraceLog implementations
+Improved request tracing
+Renamed RequestTrace to DefaultRequestTrace
+Introduced IRequestTrace interface
+Refactored GetValidators method
+Update data annotations validation to include class level attributes
+Enable data annotations validator tests
+Add common InnerException.Message checking
+Remove InnerException message as constant. Check the property name and destination type
+Updated SharedAssemblyInfo to v0.22.2
+Remove ModelValidationResult.Valid so every request is unique
+NancyEngine: try-catch around the CheckStatusCodeHandler and flatten exception in the nancy engine extensions #1458
+Explicitly specify the status code handler in the test.
+The test file.
+Added missing params keyword to BindAndValidate method
+Test to show request hangs when an async exception occurs. (This test can't be timed out or terminated) #1458
+Moved DefaultRootPathProvider to separate file
+Locked albacore version
+Switched to bash
+Updated escaping on sh file creation
+Update .travis.yml
+Update .travis.yml
+Updated SharedAssemblyInfo to v0.22.1
+Add IsLocal extention metod for Request
+Potential StackOverflowException fix
+Removed BuiltInCultureConventions.PathCulture by default
+Added test
+Moved string extensions
+Added conversion back to PascalCase if RetainCasing is false
+Changed JsonSerializer to use camelCasing for dictionary keys
+Added failing test
+Added local override for RetainCasing on DefaultJsonSerializer
+Removed explicit registration of IModelValidationFactory
+protocol from context takes precedence when set
+Failing test
+Adds a constructor to url taking a string.
+Update NancyHost.cs
+Prevent ArgumentOutOfRangeException for emtpy files
+fixed unit tests properly
+Update Gemfile for new version of rubyzip
+added parameter to CSRF.Enable
+AspNetRootSourceProvider -> AspNetRootPathProvider :lipstick:
+config => this.config
+ModelValidationError.ToString now returns error message
+DataAnnodations no longer requires IValidatableObject
+Updated SharedAssemblyInfo to v0.22.0
+Nancy.Url no longer contains a fragment
+Use DefaultContext method to initialize defaultContext field
+fix spelling
+add test for passing context both via ctor and call
+Add BrowserContext defaults parameter to the other Testing.Browser constructor
+Add defaults parameter to one of the Testing.Browser contructors
+Found additional tests and ensured they pass
+Added missing XML comments
+Added EncodedHtmlString to string implicit cast
+Cleaned up using statements of EncodedHtmlString
+Added this-prefix
+increased the constraint score
+added failing test
+Ensured all tests pass after cookie decoding fix
+Use same serializer
+Spacing
+CookieBasedSessionsConfiguration
+ Code cleanup - remove redundant qualifiers; remove unused variables; use object initializer.
+Code cleanup - remove redundant using directives
+Test fix, return the correct context.
+rebase tweaks
+Moved serializing tests to Nancy.Tests.Functional
+Tested ViewBag serialized
+Tested Responses are JSON serialized
+Added Serializable to DynamicDictionary
+merge changes from retiainCasing PR
+tidied date serializer test
+ISO8601 as default
+Added setting for turn ISO8601 format on
+Whitespace fix
+added time element
+Changed date serialization
+Moved a class to the file of it's own
+Move using-statements within namespace declaration.
+Add class to HTML-encode strings. This compliments the existing non-encoded string class.
+Improved unit tests
+Using AllCultures instead of SpecificCultures
+Url casts to and from string now
+Replace "requests" in xml docs with "request"
+No need to tell to call a method in its docs
+Learn to spell bootstrapper.
+Code tidy as per feedback from PR
+Added test and fix for cookie decoding issue
+Don't store the request cancellation token in the NancyContext.Items - not used nor required.
+Add CancellationToken paramater to INancyEngine.HandleRequest(). NancyOwinHost invokes with owin.CallCancelled enviroment item. Updated fakes accordingly.
+Simplified INancyEngine to a single HandleRequest method. The previous 'overloads' are now provided by extension methods. Various fake INancyEngines in the tests were correspondingly updated.
+Guard against null and empty member names before serializing them
+Use String.Concat instead of +
+Replacing random tabs with whitespaces in .config transform files.
+add syntax highlighting to code
+Added 'Given, When, Then' and changed asserts to shoulds in tests.
+Added unit tests
+use tabs instead of spaces in JSonSerializer because the rest of the file uses tabs
+add given - when - then comments
+remove private modifier to follow the rest of JavaScriptSerializer
+added overload that allows content-type to be set togther with body string
+accompanying test
+bind to string array
+Removed some redundant code on request from @prabirshrestha :sparkles:
+Added missing XMl documentation
+Added NancyContext extension
+Renamed Extensions.cs to AppBuilderExtensions.cs
+change to string.Concat
+Add JsonSetting for opting out of camel cased Json
+Use  `string.Empty` instead of `""`
+use string as argument to convertion methos
+Use camel case in default json serializer by default
+Remove inaccurate comment in WCF host
+Add failing test for 304 responses on WCF host
+GetType was returning null when configurationBootstrapperType.Name is not in the executing assembly. Assembly, which is a required attribute in the nancyFx config section, was not actually being used. More detail here: https://groups.google.com/forum/#!topic/nancy-web-framework/nxz9Pl4EUxE
+Made sure Url querystring has correct prefix
+string comparison type changed and more test data added
+Made check for claims case insensitive
+reapplied logic after validation overhaul
+return module.ModelValidationResult
+modified if statement for existing errors
+Append errors to ModelValidationResult if Module already has errors
+Added string.IsNullOrEmpty(name) check to NamedPipelineBase.RemoveByName(name).
+double word - 'this' - removed.
+Added test for case where no processor can process the given media range
+Added newline for readability (smallest commit ever?)
+Altered DisableErrorTrace message
+Saved project :)
+Moved extension to the root namespace
+Added ModelValidationResult.Error extension
+Changes the ModelValidationError signature
+Inconsistent behavior between indexer and add methods in DynamicDictionary.cs indexers uses GetNaturalKey, while Add does not. Added natural key behavior to Add overloads. All tests pass. Not sure if this is the desired behavior but seems odd if d.Add("a-b-c","hello") means something else than d["a-b-c"] = "hello" for an empty dictionary...
+Added XML documentation to public/protected members
+Added 'Base' suffix to ParameterizedRouteSegmentConstraint
+Added IResponseProcessors back in
+Added DateTime constraint with format parameter
+Renamed RouteConstaint to RouteSegmentConstraint
+Updated demo project with a custom route constraint
+Removed constraint methods and replaced them with IRouteConstraints
+Ported all constraint methods to IRouteConstraints
+Made ResponseProcessor media range neutral
+Added WithMediaRangeResponse ext to Negotiator
+added fix for razor partial view rendering
+added failing test
+replace empty string with string.Empty for StyleCop
+Implementing fix to issue where Nancy can't find embedded resource views in other assemblies when adding them as RootNamespaces to ResourceViewLocationProvider. I rediscovered this issue but the original fix was found and suggested by Rex Witten here: http://tinyurl.com/l2n6u2g ; his fix resolves my issues of views embedded as resources in satellite assemblies not being loaded by the ResourceViewLocationProvider as expected by Nancy.
+Added some functional tests to test ability to add Url when making test requests
+Swapped url relative/absolute check around
+added for null module path
+added failing test
+add private keyword
+Improved formatting.
+add Nustache partials support
+Make Request.ParseFormData respect StaticConfiguration.CaseSensitive.
+Make HttpUtility.ParseQueryString respect StaticConfiguration.CaseSensitive.
+upgrade to FakeItEasy.1.14.0
+Added missing XML comment
+Updated ModelValidationResult and ModelValidationError
+Updated NancyContext.ModelValidationResult
+Updated gemfile, even though I don't think we use it
+Updated the XML comment for ModelType
+Grouped validation rules per property
+Added parametized tests
+Added GWT to test
+Added test for Uri-Url conversion
+stylecop amendments
+added ternary
+Renamed path variables to url
+Added Uri to Url cast
+Made Url on Browser defineable
+Passing context from composite validator
+Passing NancyContext to IModelValidator.Validate
+Added class Json/JavaScriptPrimitiveConverter.cs as an abstract base class along the same lines as JavaScriptSerializer.cs, but where the serialized value is simply an 'object' and not an 'IDictionary<string, object>'. Updated Json/JsonSettings.cs to store a list of JavaScriptPrimitiveConverter objects in a list exposed by new property PrimitiveConverters. Added a field _primitiveConverterList to Json/JavaScriptSerializer.cs to store a list of enumerable sequences of primitive converters, along the same lines as _converterList, added accessor method GetPrimitiveConverter following the same pattern as GetConverter, and added RegisterConverters overloads that accept sequences of JavaScriptPrimitiveConverter implementations and registers them. Updated the JavaScriptSerializer constructor that accepts a parameter "registerConverters" to actually pay attention to it. Updated the ConvertToType method in Json/JavaScriptSerializer.cs to check for a primitive converter before doing any other analysis Updated SerializeValueImpl in Json/JsonSerializer.cs to check for a JavaScriptPrimitiveConverter in the owner JavaScriptSerializer object after all other serialization, but before emitting the value. (This places it in the same point in the pipeline as in deserialization.) Updated Responses/DefaultJsonSerializer.cs and ModelBinding/DefaultBodyDeserializers/JsonBodyDeserializer.cs to register primitive converters in addition to regular converters when initializing the JavaScriptSerializer that will be used to serialize or deserialize request/response data.
+Removed unused references
+Registering IValidators in container
+Added custom fluent validation validator with nancy adapter and rule
+Resolved merge conflict
+Added missing XML comment on AdapterBase
+Removed unused using statement
+Added tests for DefaultFluentAdapterFactory
+Removed PropertyRule parameter from IFluentAdapterFactory.Create
+Added FallbackAdapter
+Updated XML comments on IFluentAdapter implementations with wrong description
+Cleaned up using statements
+Added XML comment on the IFluentAdapter.CanHandle method and implementations
+Removed NancyContext parameter on IFluentAdapter.CanHandle for the time being
+Removed IFluentAdapter interface from AdapterBase by mistake
+Made LengthAdapter check for implementation instead of interface
+Removed generic type parameter on IFluentAdapter
+Started removing hard coded IFluentAdapter factory
+Resolved merge conflict in ModelValidationResult
+Added PassThrough to serve Nancy errors by default
+Made sure IValidator enumerable is materialized correctly
+Returning empty enumerable if rules are null
+The OCD clean-up commit
+Added missing XML comment
+Removed old code marked with ObsoleteAttribute
+Marked AddCookie methods as Obsolete and created WithCookie extensions
+Added XML comments to the AddCookie methods
+Added missing XML comments on Response type
+Added implicit casting from DynamicDictionaryValue
+Cleaned up types in Nancy.Validation.Rules
+Cleaned up the ModelValidationResult class
+Added missing XML comments to ModelValidationException class
+Added failing test for complex model in ViewBag for SSVE
+changed ModulePath setter from private to protected.
+Prevent race condition on suffixing requestedPath with "/"
+Always return HttpQSCollection (fixes #1132).
+Updated multipart form requests to accept quotes or no quotes around the content-type boundary and content-disposition name/filename
+Updated SharedAssemblyInfo to v0.21.1
+Made Owin dispose hook more defensive, fixes #1295
+Updated SharedAssemblyInfo to v0.21.0
+Return existing content-length if it's been set
+Replaced tabs with spaces
+Added Content-Length to head requests.
+Added failing test
+Added failing test
+Added comments
+Working checking of values changing
+Styling tweak
+Added tests for DefaultValidatableObjectAdapter type
+Added tests for DataAnnodationsValidator type
+Extracted IPropertyValidator interface
+Cleaned up ModelValidationResult
+Started fixing test coverage for data annotations
+Cleaned up Data Annotation types
+Added custom ValidationAttribute to the validation demo project
+Massive refactoring of data annotations validation
+Improved XML comment of IModelValidator
+Improved Nancy.Demo.Validation slightly
+Added RegisterAll to ApplicationRegistrations
+Update packages.config
+update nustache to 1.13.8.22
+Score => 100
+Styling tweak
+Changed method names... again :grin:
+Changed method names
+Updated AssertExtensions to use AnyContains and AllContains, added tests for new method
+Renamed Contains to AnyContains, added AllContains, added overload for both methods that take a Func<T, bool> for comparison
+Styling fixups
+Re-enable JsonDeserializer tests Add missing BindingContext parameter
+Tests for session.HasChanged
+Code style
+Cleanup according to @thecodejunkie
+Given, When, Then
+Updated Stateless Demo Website api.Js file
+More cleanup according to @thecodejunkie
+Cleanup according to @thecodejunkie
+Given, When, Then
+And these files too thank you.
+Adds CaptureNode for mulitple parameters in segements
+Another test
+Failing test
+Added method to flatten exceptions before passing them on to the OnError pipeline hook. Issue #1232.
+Switched to using method group rather than lambda
+Added disposal logic to WCF host - no idea if WCF will call it though :)
+Added dispose logic to self host
+Added disposal logic to the owin host
+Only dispose after intialised
+Made the bootstrapper disposable and made it dispose the app container if possible
+Cleaning up bits and bobs for consistency
+Updated csproj files
+Disabled auto-registration in the validation demo
+Sorted out registrations for the validation projects
+Removed old debug message
+Tabify.
+Preserve inner exception. Otherwise there's no way to get any information about the exception that happened!
+Update session only is value is changed
+Added support for media range parameters to MediaRange.
+Changed parameter names to make it more readible
+Added failing test
+Added failing test
+Smallest fix ever
+Failing test
+Use TryGetValue when getting RemoteEndpointMessageProperty
+Renamed StatusDescription to ReasonPhrase
+Added StatusDescription to response in all hosts
+Test is passing! :metal:
+Added failing test
+Added WithStatusDescription to NegotiatorExtensions
+Added StatusDescription to Response and BrowserResponse
+Modified validator not found exception message to be more generic.
+Changed exception message to include possible reason.
+Missing test for QueryWrapper.ShouldBeOfClass
+Test broken by QueryWrapper.ShouldContain issue
+More useful error message for QueryWrapper extension methods
+Set back the developement server port that apparently VS changed for me...
+Testnames as the rest of the codebase
+Feature complete
+Refactoring to own folder
+How silly of me to think that only renaming the file on GitHub would work...
+Made serializer in BrowserResponseBodyWrapper extensions pluggable
+Added ContentType as an internal property on BrowserResponseBodyWrapper
+Removed the ModulePath name that I couldn't get hold of
+Added TestingViewFactory and some basic unit tests
+Added helpful error message to 500 page
+Added one more model binding overload.
+Added model binding overloads that do not require a blacklist.
+Rename IStatusHandler.cs to IStatusCodeHandler.cs
+adding command
+Adds functions to browser to add certificate
+Adds a testing certificate to the resources
+Removes testing only contructor on Request
+Adds client certificate to testing request.
+disposed the template resources after using them
+Removed rogue Mixed Platforms sln config for the 200th time...
+Another attempt to fix the annoying datetime test
+Append Set-Cookie values in Set-Cookie owin response header, if it already exists.
+Add failing test to check that nancy appends Set-Cookie response header
+Add missing XML comments on NancyOwinHost.RequestEnvironmentKey
+Add missing param tags.
+Added Given, When and Then to tests
+Replaced string.Format with string.Concat
+Added failing test
+Added static ProcessorMatch for no match
+Updated readme to try and kick travis up the backside
+Trying to fix travis build fail
+Added encoding to Form and Querystring
+Added the ability to add constraints to capture node
+Updated SharedAssemblyInfo to v0.20.0
+Update MimeTypes.cs
+Added indentation.
+generate xml docs and add it in nupkg
+Added static content convention extensions
+Added null or whitespace namespace checks back in.
+Moved default namespace init code into constructor to avoid threading issues.
+Improving the NoViewEngineException error message
+Only look for supported razor extensions
+Sorted issue with _viewstart
+Added support for viewstart
+Spiked out viewstart support in Razor
+Allow arbitrary cast of DynamicDictionaryValue
+Remove obsolete projects Nancy.Hosting.Owin and Nancy.Hosting.Owin.Tests
+Removed mspec dependency in the rake file
+Removed mspec dependency and artifacts
+Replaced mspec tests for HEAD requests
+Replaced mspec tests for PUT requests
+Replaced mspec tests for POST requests
+Replaced mspec tests for DELETE requests
+Replaced mspec tests for GET requests
+Added ContentType property on BrowserResponse
+Enable release build of Nancy.Tests and Nancy.Hosting.AspNet.Tests.
+Added null/empty checks around namespace adding
+Remove an assertion on owin.ResponseReasonPhrase that is optional according to owin spec.
+Resharper setting to be more tollerent to test method names with underscores.
+Code cleanup
+Nancy.Validation.FluentValidation - Replace FakeItEasy reference with package reference.
+Update FakeItEasy package references (projects)
+Update FakeItEasy package dependency
+Add (redundant) using declaration to fix compilation on mono 2.x, that was throwing this error:
+If the host header is not supplied (as can be the case for http/1.0), default to Dns.GetHostName()
+Check if task has faulted in mock route action
+Continue enumeration if the task isn't faulted.  Prevents accessing current.Result from throwing.
+Use InnerException from the task's aggregate exception when InvokingOnErrorHook
+BeforePipeline test fixes
+Remove unnecessary reference on Nancy.Demo.Hosting.Owin from Nancy.Hosting.Owin.Test
+Removed .NET 4.5 specific demo projects from sln
+Added ability to ignore model binding errors
+Cleaned up unused serializers in diagnostics
+Made diagnostics always use defaultjsonserializer
+Code clean-up
+Boy-scouting ftw
+Made it possible to disable 405 support
+Added back support for 405 responses
+added support for ViewBag in SuperSimpleViewEngine
+Moved test helper to bottom of fixture
+Cleaned up NancyModule code a bit
+Added resolved route to NancyContext
+Sorted out Owin Nuget references
+Tidied up a little
+Add a test that reproduces the bug
+Sorted post hook exception handling
+Made sure params are stored on context
+Allow ':' characters in basic auth passwords
+Added SSVE support for conditionals on ViewBag
+Added SSVE support for conditional on @Current inside @Each
+Updated rakefile to only build nancy nuspec files
+Passthrough fixup from rebase
+Include Extensions (forgot to save proj file)
+NanyOption pass through is now a delegate, allowing the user more flexbility to determine the reasons as to why pass-through should occur.
+Allow configuring the NancyOwinHost to support pasthrough if the specified status code(s) occur.
+Some rejiigging of a test
+More fixups
+Test fixups
+Updated NancyModule - still need stupid bool value though :(
+Added cancellation token to route definition - nancymodule not updated
+Pre and post hooks with cancellation token wired in
+Added cancellation token to before and after pipelines
+Updated demo
+Initial wiring up of async Before/After
+Ported across async Before/After pipelines - currently non-building
+Attempt to fix git auto-merge screw up
+Removed another ContinueWith
+Added some debug output from WhenCompleted
+Switched route invoker to WhenCompleted
+Quick version of making the asp.net hosting async
+Re-enabled module hooks.. currently errors are broken
+Switched ContineWith to new WhenCompleted faster version
+Added mono project config to demo project
+OWIN tidyup
+Removed old file
+Build config
+Added new Nancy.Owin project
+Playing with demo projects
+Switched main demo to iis
+Changed HandleRequestInternal to use a TCS
+Initial mostly working version
+Initial sig change on the dispatcher and invoker
+NancyEngine initial hackery complete
+Working on NancyEngine and Dispatcher -> async
+More async fixups
+Module changed to store async or wrapped
+Initial work to make route run on Task<Response>
+Added async demo project and removed QUWI
+Some initial syntax ideas for async
+Update FileSystemRootPathProvider.cs
+Changes according to @thecodejunkie
+Code review fixes
+And this fixes it.
+Added more tests to help finding the problem
+Added tests to prove long lists, with a strange fail for padded zeros
+Oops! Forgot the constructor.
+Document new parameters in `DotLiquidViewEngine`
+Document `DotLiquidApplicationRegistrations`
+Forgot DotLiquid ApplicationRegistration class
+Allow overriding of JSON deserialization length for unit testing.
+Improve IUserValidator doc comments.
+Allow override of DotLiquid naming conventions
+Update self hosting NancyHost remarks regarding threading.
+Updated SharedAssemblyInfo to v0.18.0
+Changed WCF test port to 56297 to be in the dynamic range
+Added reason to the security methods for early exit logging
+Refactor of the tracelog to remove conditional during logging
+Added optional reason and logging to the exception
+Test fixup
+Added per route auth module to the forms auth demo project
+Wired up per route claims methods
+Refactor
+Initial commit of per route auth.
+upgraded from manual FakeItEasy 1.7.4109.1 to FakeItEasy.1.13.0.nupkg
+Passing binding context to body deserializers
+Added set comment to make script exit on error
+Updated filename
+Switched to x64 pack
+Troubleshooting
+Troubleshooting
+Troubleshooting
+Troubleshooting
+Consolidated travis script
+Troubleshooting
+Troubleshooting
+Troubleshooting
+I can never type gettext with the correct number of bloody t's
+First stab at 2.x and 3.x travis build
+Updated TinyIoC to the latest version and updated AR call.
+Adjust cookie parse fix to make it more tolerant.
+Added extention method for indicating if the route it executing or the module is being constructed
+Excluded Nancy.Testing from assembly scanning
+Clarified ScanMode member descriptions
+Introduced BootstrapperException and cleaned up code
+Minor tweaks to the code and formatting
+Modified MultipleRootPathProvidersLocatedException following review
+Attempt to fix mono 3.x crash in xunit
+#1086 fixed NancyHost.Stop()
+#1086 added failing test
+Disabled randomly failing test on Mono
+Added host configuration to OWIN hosting to control client certificates
+Reformatting JsonResponse
+Some code cleanup.
+Implemented AllowChunkedEncoding in self-host.
+Minor refactoring / code cleanup
+Refactoring and added comments
+Allow customisation of the user that reservations are created for
+Opt-in to namespace reservation creation
+Use netsh to create urlacl, if necessary
+Added config option to enable/disable client certs
+Client cert now comes in synchronous. Solving #1116.
+removed redundant line ending config from CONTRIBUTING.md and other minor fixes
+Styling updates
+including compiler output in error details
+failing test
+Updated rakefile to handle VS2010 and VS2012 only machines
+Implemented CaptureNodeWithLiteral
+Caching content type in response made it to complex
+Change charset of jsonresponse. When it's set in jsonsettings.
+Added missing XML comments
+Add tests
+Diagnostics
+Try to make the logic more readable
+Revert "Switch off the default diagnostic provider"
+Exclude testing diagnostics provider
+whitespace differed
+json and jsonp charset now from JsonSettings
+typo
+change field name in NancyViewData
+Revert changed indent
+rename fields and use var instead of explicit type
+place usings inside namespaces
+Switch off the default diagnostic provider
+Added test case for using Spark's resource path substitution feature
+Modify failing test, which does tilde resolution
+Added test case for retrieving ViewBag through viewdata tag
+Added SparkRenderContextWrapper to allow better path content resolution and NancyViewData to be more compatible with how Spark works in MVC or Monorail
+added unit test for whinging fowler
+only require redirect url if redirect is not disabled
+Check if 'certificate' is preset before checking length
+Some boyscouting.
+Adds two Bind<TModel> overloads.
+No csrf cookie in response to an OPTIONS request
+Failing test
+changed debug mode to look at all non-nancy assemblies
+decode the path before handling the requests
+Prevent OPTIONS route clobber
+Adds charset=utf8 to a json response
+Added all CI builds to the readme
+Using string.Concat
+Using string instead of char
+ETag is surrounded by quotes.
+Remove redundant assertion
+Add failing test to assert that the ETag generated by GenericFileResponse is supplied and is surrounded by quotes
+ETag generated in EmbeddedFileResponse surrounds the value with quotes.
+Removed empty view location convention from error
+Updated SharedAssemblyInfo to v0.17.1
+Updated SharedAssemblyInfo to v0.17.0
+Supports [] to specify an index for formvalues, Made the index zero based and handles an instance
+Failing tests using [] to specify the index
+Adds the capability to bind to a List and specifiy an instance. matches on index
+binds to IEnumerable<T> and T[] and List<T>.
+Adds failing tests for binding to List<T> T[] and IEnumerable<T>. Plus some clean up.
+#900 Switching to Liquid's standard Ruby-like filter naming convertions
+#900 Adding failing test on lowercase filter
+#900 Adding failing test on uppercase filter
+Adds the capability to bind to Lists from Forms, Querystring and Body
+Addresses issue #1073, Index out of range for HttpOnly/Secure cookie attributes
+Use project coding style.
+Move to bottom of the file, per PR comment
+ReflectionOnlyLoad's can still result in common exceptions, for example, when loading native libraries
+StaticContentConventionsBuilder uses a static Dictionary<string, responseFunc>.
+Made NancyHost implement IDisposable
+Renamed 'Static' to 'MapStaticContent'
+Added support for matchers in SSVE
+made public method virtual so can override
+fixed up the XML comments
+Added param allowedExtensions Description
+Update StaticDirectoryContent.cs
+Update StaticContentHelper.cs
+Update StaticFileContent.cs
+Update StaticDirectoryContent.cs
+Update StaticContentHelper.cs
+Added StaticContent helpers
+Added support for hyphens in embedded resource folder names. When msbuild compiles embedded resources into assemblies, hyphens are replaced with underscores in foldernames. This causes a mismatch when the EmbeddedStaticContentConventionBuilder is used to locate a resource, as it is still expecting the folder names to contain the hyphens.
+Updated the documentation for BindingConfig.BodyOnly.
+Adds BindingConfig.BodyOnly
+Made dot optional in extension listing
+small optimisation
+Registered IViewRenderer as an additional type
+updated TriedNodeFactory references to use interface
+Code Cleanup 'var' settings - Replace direction = Can change explicit type to 'var' - 'foreach' iterator declaration type = Always use 'var'
+Added XMLBody extension
+allow RegEx to specify end of line
+Add Resharper solution settings with modifications to match nancy's coding style. Further tweaking will be required.
+Moved conditional
+Uncommented the code I left commented by accident :P
+More logic changes for RequestStream and SelfHost
+Rejigged RequestStream
+Typo and whitespace.
+removed parameter from diagnostics hook
+removed uncessary extractor
+Adds type safety to blacklisted properties
+fixing missing ctor param
+renaming the file back
+renamed file to fix casing (temp)
+updated XML doc
+added new Greedy RegEx Node
+Added XML comment
+Improved request stream copying
+Brought in changes for #1034
+Changed MoveStreamOutOfMemoryIfExpectedLengthExceedExpectedLength signature
+Updated xunit to latest stable
+Exception handling when read an unmanaged code library
+Added Given/When/Then comments to WCF fixture
+Used string.Concat instead of operator to concatenate strings
+Forcing MSBuild to use v10.0
+Removed hard reference to Nancy.Tests
+Made body string check to <body
+Changes according to @thecodejunkie
+Correctly set URL and path for requests to WCF services whose base URIs do not have trailing slashes
+Left a comment/TODO about line feeds
+handled body tag attributes
+Attempt to fix annoying random build break
+brought in images locally
+Brought in local copy of image for CSS
+Update System.Web.Razor.Unoffical package reference to 2.0.2
+tidied up some demo html
+removed Mixed platforms
+organised usings
+removed MonoDevelop import project in csproj
+added monodebug settings
+Updated Nancy & FakeItEasy refs
+Final Commit
+Improved sample blog posts
+tidied up
+added culture datetime parsing
+fixed future post title/url to match file name
+tidied home module
+Added ability for future posts to be lined up but not visible until proposed date
+MD meh
+Spotted method with no XML comments. @TheCodeJunkie would go mental!
+Tidied demo homemodule
+Demo tidy up
+Removed main.css
+Added MarkdownSharp to packages
+Improved demo
+deleted home folder
+Improved markdown demo
+tidied tests
+Added some tests
+Changes around whether view is calling HTML master or MD master
+Big Refactor
+Some more tidying!
+Changes as per the human stylecop
+Modified demo to show dynamic routes for dropping in files eg/blog post md file
+Added MarkdownSharp dependency to nuspec
+Tidied up test
+Added nuspec
+Tidied up per PR comment
+Also adds the ClientCertificate in Hosting.Self
+Bit more Stylecop OCD.
+Code clean up. And added the certificate to the
+In tests the ClientCertificate property is null.
+Adds the ClientCertificate to the Request
+Added badgerports to get a newer version of mono
+Attempt to fix the MarkErrorLines masking the real error issue
+Updated exception text
+Updated ResourceBasedTextResource logic
+Made CSS block by default to show error details
+Extended type check in registration classes to handle open generics
+Use mkpath to create binaries directory instead of mkdir
+Removed my hard tab and replaced it with spaces.  Silly Xamarin Studio defaults
+brought Nancy.Tests into scope so that the correct ShouldContain extension method would be applied to the tests
+Test to make sure the response stream is left open when the response status is InternalServerError
+Make filename match type
+Adds WriteAttributeTo method
+Updated AssemblyInfo references
+Embedded resources can be used as static content
+move buffer size to static property
+Minor optimnisation of link header creation
+Unrolled some inefficient LINQ
+Removed unnecessary double 'ToDictionary'
+increase buffer for send files up to 4Mb
+Adding HTTPS port number overload for RequiresHttps
+Excluded Nancy assemblies from resource scanning
+fixing minor code style issues
+Updated variable name and comment
+Removed unused using statement
+More minor fixups
+XML comment fixups
+Replaced all xml comments referencing NancyModule with INancyModule
+Adding Domain and Path to FormsAuthenticationConfiguration
+Removed assembly import from web.config
+Razor engine references all Nancy assemblies
+Removed explicit call to nancy assembly scanning
+Tweaked scanning code
+Changed Nancy assembly loading
+Updated TinyIoC
+Final fixups, all tests now passing
+More fixups
+Moved namespace declarations
+Changed module loading behaviour in the ConfigurableBootstrapper
+Test fixup
+Test fixups
+Removed unused props
+Updated assembly scanning and auto register logic
+Replaced hard-coded Windows path character with Path.DirectortySeparatorChar which prevented diagnostics pages from working on OSes with "/" as path separator.
+More fixups
+Cleanup / fixes
+Initial hackery to change module registration / lookup
+Updated Razor engine to use right code generator
+Disabled Csrf hook by default
+Updated TinyIoC
+Added task to rakefile
+Removed dead code and fixed comments
+Tweaked parameters in the trie
+Minor perf tweaks
+Ported across tests
+Removed Indiana Jones and the Tuple of Doom
+Added ResolveResult class
+Sorted the results in the correct order ;-)
+Removed old DefaultRouteResolver tests
+Replaced DefaultRouteResolver
+More comments
+Node comments
+Context Everywhere (TM) and comments
+Added trie from other project
+Updated SharedAssemblyInfo to v0.16.1
+Made method publid fixes #984
+Sped up runtime view discovery
+Added content type null checks
+Added automatic etag/last modified 304 responses for static content
+Added failing tests for conditional requests
+Hooked into NancyEngine
+Added to internal configuration
+Added IStaticContentProvider and implementations
+Switched off automatic pipeline hookup for static content
+Updated SharedAssemblyInfo to v0.16.0
+Reworked test to try and fix/track down the phantom CI fail
+Changed decmilar parsing
+Removed unncessary null check
+More tests and changed request header weighted value parsing
+Added failing tests
+Removed rogue nuspec
+Changed Nancy dependency version to just x.x.x rather than [x.x.x]
+Moved variable update to fix race condition - fixes #969
+Added Nancy.Owin project
+Obsoleted (sp?) the old owin host
+Remove setters from IUserIdentity and fixed tests use a FakeUserIdentity instead of a A.Fake<IUserIdentity>
+added try/catch to fix mono fail of IsValid
+Hopefully fixed so all tests are ran
+Moved diagnostics URL rewriting
+Set url basepath from WCF host
+Added error handling to favicon scanner
+Added razor helper for X-HTTP-Method-Override
+Added support for X-HTTP-Method-Override
+Made registration classes check types
+Updated formatting
+Removed explicit razor configuration registrations from demo project
+Updated razor registrations to support overriding
+Tweaked base class
+Added application registation base
+Changed to use ScanMode.ExcludeNancy instead
+Changed RootPathProvider to return an instance
+Add SecurityHooks and refactor ModuleSecurity.
+Made the hashset case insensitive
+Changed IsValidCultureInfoName because it was sloooooow
+Added failing test
+Added new extension method for asserting occurances of an exact number of elements
+Add extension methods for IUserIdentity.
+Changed scanning order
+Update readme.md
+Updated mono build settings
+Disabled VB tests on mono - it's not installed by default
+XML comment fixup
+Removed dead code
+Added functional tests to ci builds
+Removed rogue nuspec
+Added Razor2 demo page to main asp.net sample
+VB support now working again
+First attempt at bringing VB support back in
+Removed unused code
+Minor cosmetic changes
+Added back in model type discovery
+Test fixups
+Refactoring of localisation
+Reworked base class hierarchy
+Updated WriteAttribute and nuget reference
+Updated to take dependency on unofficial nuget
+Added more logic to attribute rendering for null and false
+Bodged the attribute renderer
+Initial hackery - very broken :-)
+Removed old razor binary
+Added a new rake task to nuke symbol pacakges
+Added new task for updating informational version
+Yet more yml tweaks
+Added dependency for travis
+Added dependency for travis
+Added email notification to travis
+Removed dotliquid tests from mono build
+Travis tinkering
+Travis tinkering
+Travis CI files
+Changed default ScanMode to All
+Added TypesOf overloads
+Added a new rake task to nuke symbol pacakges
+Added new task for updating informational version
+Updated gitignore
+Attempt to fix test failure on the CI box
+Removed "Extension" from ViewEngineStartupContext
+Added comments
+added a check to ensure the convert can occur before converting
+added failing test for converting a string to int
+Attempting to fix Spark caching
+Updated Spark to "work" with the new setup
+Made the new view cache the default
+Updated View Locator logic
+Updated StaticConfiguration
+Additional test + fixes
+More test fixups
+More test fixups
+Test fixups after removal of the old cache
+Ripped out the old view location cache
+Added runtime new view discovery
+Updated uncached view matching logic
+Initial work on reworking view location/caching
+Removed pointless reading of modified date
+Adding an expiring cache for view templates
+Removed overload that will not work and is replaced with Tuple<T,K> versio verio
+Move using-statements inside namespace
+Resovling issue #924
+Ability to change content type on negotiator
+Added editor browsable attribute back in
+Updated comment
+Added filter code
+Added demo project (non-working)
+Moved pipeline creation to NancyModule
+Initial switch to INancyModule from base class
+Initial cut of splitting out NancyModule
+Add missing Xml comments to NodeWrapper.
+Also ignore diags static content
+Tracing no longer records diags dashboard requests
+More detail in error message tell the user which type these classes are being registered for
+correct typo "specificed" -> "specified"
+Blame OCD
+had to convert to array to satisfy TinyIoC project
+Disabled machine key projects on mono
+Removed reference to assembly info
+Added comments
+Update src/Nancy.Hosting.Self/FileSystemRootPathProvider.cs
+updated exception message to include types that were duplicated
+Remove explicit URL on Diagnostics->Settings page
+Added nuspec
+Added helper class for crypto config helpers
+Added a horribly hacky machinekey hmac provider
+Added machine config encryption
+Updated SharedAssemblyInfo to v0.15.3
+Revved version
+Updated assembly scanning logic
+Updated SSVE to support IfNull and IfNotNull
+Updated git ignore
+Updated nuspec to force CsQuery update
+Updated CsQuery
+New testing assertions for HTML attributes.
+Use GetExecutingAssembly() instead of Environment.CurrentDirecotory
+Attempt to fix the CI build
+Added configuration object to fix #832 and fix #902
+Updated version number
+Updated and added PathCulture convention
+Remove unused references from Nancy.Testing
+Remove redundant package references from Nancy.Testing
+Made CurrentUser return IUserIdentity instead of Username
+Added Html helpers for CurrentUser for use in Razor views
+Local url validation and forms auth fix to fix #893
+Update src/Nancy.sln
+Renamed IAssemblyProvider
+Added more ignored assemblies
+Introduces scan predicate for resource texts
+Added fix for form and query
+Renamed field and added failing test for form data and querystring
+Added property and failing test
+Updated logic
+Added additional log of original accept header
+Updated resource text resource
+Removed custom bootstrapper
+Upated razor localization demo to use dev webserver
+Updated view to include the resource filename
+Updated ResourceBasedTextResoure
+Added SMDiagnostics to the assembly ignore list
+Updated TextResourceFinder
+Renamed IResourceAssemblyProvider
+Made resource text resource use IResourceAssemblyProvider
+Cleaning up after @jchannon again :-)
+Updates for creating pre-release packages
+Added numeric type fixture and changes made as per PR comments
+Tidied up branching
+Adhering to TCJ's style guidelines
+Minor improvements
+Another Resharper/HumanStyleCop conflict
+Renamed localization demo on filesystem
+Changes made as per @TheCodeJunkie PR comments
+Move call to accept header coercion convention
+Add default accept header for Browser
+Adding tracing smoke test
+Sorted out namespaces
+Put all conventions indexes to relate to new index and added tests for finding views based on culture
+All tests pass
+Updated demo
+Added null checks
+Made ResourceManager private readonly to prevent creating a new instance every time
+Wish git would add my files in a commit
+Moved ITextResource and DefaultTextResource into Nancy to look for resx files by default
+fixing spaces for tabs
+Adding less extension to MimeTypes.cs
+Made Localisation folder have a Z in it
+Added some more XML comments
+Added some XML comments
+made demo project American friendly
+moved DefaultTextResource out of the viewengine and into demo app for IOC to pick it up
+Tidied up namespaces
+Passed in NancyContext rather than just culture name string
+Removed culture property on ITextResource
+removed ITextResource from NancyViewBase and added property to HtmlHelpers that exposes CurrentLocale
+Would help if I added that class
+Renamed TextThingy to TextResourceFinder and moved Text propertry assignment into RazorViewEngine
+Changed Localisation to Text
+Added missing files
+Added localisation to Razor
+More private bin path fixes
+added ModelValidationResult remarks for BindAndValidate and BindToAndValidate
+added BindToAndValidate
+Added view renderer
+Oops, forgoet the bin path probe bit :)
+Commented out inline data that fails on a mono test
+Test fixup
+Changes as per @TheCodeJunkie comments - all tests pass
+Changes as per @TheCodeJunkie comments - 12 failing tests
+Added comments to CultureConvetions, tidied Culture tests up
+Expanded Culture tests
+Added default convention test fixture
+Added test to ensure culture service is called
+Added default convention unit tests
+Made IsValidCultureInfoName public
+removed culture verification method as no longer used
+Added Header culture convention
+Added static conventions
+without default conventions so here they are
+Added CultureConventions
+Tidied up DefaultCultureService
+Added culture to Nancy context
+Removed seperate class and interface
+Added AppDomainDirectoryProvider
+Changed discovery of ISerializer
+Url decoding file names for static con
+Added ctor overload to HttpFile
+Removed unnecessary code comment
+Converted annoying tabs to spaces
+Added support for application/json-patch (or application/json-*) to default JSON serializer and body deserializer.
+Added support for Context in SSVE
+removed unnecessary line and fixed formatting
+Changed DefaultAcceptHeaderCoercionConventions to use AcceptHeaderCoercionConventions not StaticConventions
+Revved version.. again :P
+Updated nuget to a CI build to fix a build bug
+Bumped version
+Updated version of Spark dependency
+Added test for binding List<T>
+Removed a test from the mono build - FIE compatibility issue
+Update readme.md
+Removed seperate class and interface
+Added AppDomainDirectoryProvider
+Remove NDjango from readme
+added BindAndValidate module extensions
+Add test for a DotLiquid syntax error
+Refactored to include any exception
+Add basic error handling to DotLiquid
+Make sure the diagnostics path always has a slash
+Renamed Timeout to SlidingTimeout
+Moved remaining diagnostics properties
+Removed the use of ControlPanelPrefix
+Implemented more reliable path rewriting
+Set new base path for diagnostics requests
+Change IConvention detection
+updated DateTimeStyles to 'None' for defaultness
+fixed namespaces
+fixed to handle local with comma's
+Gave the diagnostics modules some stylecop love
+Added url decoding to provider and method names
+fixed up naming of unit tests to be inline with standard set
+renamed 'register' to 'store' for consistency in test
+tidied up naming and removed subclass in text fixture
+Only run info page test in debug mode
+Return 404 instread of diag help page in release
+Added XML Comment for TryParse method
+Adding TryPrase method
+Adding unit tests for TryParse method
+Made the binder overwrite as default
+Defered the creation of the DocumentWrapper until it is first requested
+Added Given/When/Then to unit tests and fixed styling for Mr Human StyleCop
+Cleaned up code
+Resolved merge conflicts
+Introduced BindingConfigs
+Moved IStartusCodeHandler to root namespace
+Added IErrorHandler again and marked it as obsolete
+Renamed to IStatusCodeHandler
+Renamed IErrorHandler to IStatusHandler
+Update src/Nancy.Hosting.Self/NancyHost.cs
+add test to ensure serializable attribute is still present in NancyHost
+add remark about serializable use in NancyHost
+fixed merge conflict - carry on
+Update src/SharedAssemblyInfo.cs
+Added test to ensure InvalidCastExcetion is thrown
+added try/catch to throw helpful message on failed explicit cast
+removed using's included by mistake
+Added method to DynamicDictionaryValue to handle default values
+Added unit tests to handle default values
+Add test for CamelCase preservation
+fixed styling: "using" inside namespace declaration "this" for properties
+removed and inverted single line if statement.
+ModelBindingException to hold information about all failed to bind properties.
+Back original code formatting.
+Removed unused namespaces.
+Minimize changes for fixing bug #820.
+Url decode provider name
+Small code-formatting changes in tests file: tabs replaced with spaces (existed file contained mixed tabs and spaces and displayed ugly in GitHub's web viewer).
+Added test for "base URL segments case-sensitive comparison" bug-fix.
+added Url.IsSecure
+added test for verb that hasn't been overridden
+implemented unit tests and made AddRoute protected
+Update src/Nancy/IRootPathProvider.cs
+Added test for compostion exception
+Improved error message when composition fails
+Added WithCookie/Cookies extensions to negotiator
+serializable allow nancyhost to be called from another appdomain under mono
+Attemptde fix for mono failing test
+added jabbr to readme
+OCD kicking in
+Removed test route
+Implemented IDisposable in Response
+Added support for bindings.xml in Spark
+Forgot to save the project file
+Added missing XML comments
+Moved using statement in Csrf.cs
+Added missing XML comments on RequiresHTTPS
+Cleaned up IUserIdentity.cs
+Changed filename to match type
+Moved using statement
+Included non-public properties in the config bootstrapper test
+Removed object copy from default json deserializer
+Updated binder so body deserialisers can be used with query/parameters
+Added failing tests from #776
+Only overwrite values if they're not default values
+Added fallback converter as default in tests
+Changed BindTo and fixed test implementation to show true failures
+Added methods for overriding route description provider
+Sorted out RouteSegmentExtractor methods
+Made ConfigurableNancyModule parameters dynamic
+Removed old code comment
+Testing to see if dotliquid works on mono now
+Replace fix for #722 (should be closed)
+Added failing tests from #776
+Only overwrite values if they're not default values
+Added fallback converter as default in tests
+Changed BindTo and fixed test implementation to show true failures
+Added ability to specify a user host address on the BrowserContext when making a testing request.
+Converted tabs to spaces
+Added MonoDevelop.NUnit to the list of ignored assemblies
+renamed to FormsAuthenticationConfiguration.DisableRedirect
+FormsAuth EnableUnauthorizedLoginRedirect test
+FormsAuthenticationConfiguration.EnableUnauthorizedLoginRedirect
+Made multi-threading test skipped
+Switched to a lock fix, rather than creating multiple providers
+prevents race condition by always returning a new instance of the CodeDomProvider
+failing test
+added curly braces to if statements
+Removed old tests
+Improved test coverage
+Support for optional parameters
+re-ordered default view location and added new module path conventions
+Removed unnecessary fake now the configurable module supplies module/context
+Changed configurable module to capture the module
+Added tests and fix for view location error.
+changed owin web sockets key to System.Web.WebSockets.AspNetWebSocketContext
+set Owin HttpContextBase key to System.Web.HttpContextBase
+renamed ReqiureSSL property. Changed XML comment. Added Tests
+Added RequireSSL property to FormsAuthentication
+Removed unnecessary space
+Rebased
+Implemented. Issue #688
+removed version check for owin in unit test
+Sorted formatting issues
+possible fix for issue 697
+tests for newline breaking de-serialization
+Tiny code tweak
+Added support for route descriptions
+renamed to Domain to SiteBase
+fixed CustomerError.spark model to Nancy.Validation.ModelValidationResult
+module.Validate() extension method sets the module.ModelValidationResult
+set ModelValidationResult in NancyModule only if the context is not null
+added NancyModule.ModelValidationResult
+added NancyContext.ModelValidationResult
+case insentive tests for Should_convert_on_to_true_for_bool
+case insentive comparision for BooleanConvert "on"
+FallbackConverter converts "on" to true if typeconverter is a BooleanConverter and destintionIsType is bool
+made GetOwinEnvironmentValue private
+added NancyContext to owin Environment
+changed key to OWIN_REQUEST_ENVIRONMENT
+NancyOwinHost.RequestEnvironmentKey
+remove check for CancellationToken
+OwinConstants
+added a sample that demonstrates using Raw owin environment value from NancyContext
+removed version check for owin
+set nancyContext.Items["owin"] = owinEnvironment
+use string.Empty
+case return in newline with breaks
+use braces for single line code in SimpleOwinAspNetHost
+removed _ in SimpleOwinAspNetHandler
+removed _ from SimpleOwinAspNetRouteHandler
+fixed owin sample spark.dll hint path
+updated SimpleOwinAspNetHandler to the latest version (WebSockets support)
+dispose context for callCancelled and return
+updated to owin v0.15 spec
+updated TaskHelpersExtensions.cs license text
+Update src/Nancy.Hosting.Owin/TaskHelpers.cs
+Owin version check for 1.0
+NancyOwinHost check for version 1.0.0
+Owin response properties is an empty dictionary
+owin host fixture Should_set_cookie_with_valid_header
+use ~/ url for form action in owin samples
+Nancy.Hosting.Owin is compatible with owin v0.12 removed Gate and added OwinAspNetHost.cs partially commented out owin unit tests
+NancyOwinHost check for owin version >= 0.12.x
+added owin v0.12 delegates
+codereview use var, given when then
+makred Url class as sealed
+RequiresHttps uses request.Url.Clone
+Url.ICloneable explicitly implemented
+Url.Clone()
+RequiresHttps unit tests
+NancyModule.RequiresHttps extension method
+Added RequireSSL property to FormsAuthentication
+Corrected StaticContentConventionBuilder to respect relative root directories
+XML comments added to ModelBindingException class
+Updated assembly version to 0.12.1
+Added Given/When/Then to test, open braces on new lines.
+Corrected comments, some clean up
+Implemented. Issue #688
+Default binder to provide more information in the exception if some property fails to convert.
+Added new NCrunch folders to gitignore
+Moved assembly loading logic
+Removed duplicated line
+Added contributing file
+Tweaked assembly loading for Nancy.Testing
+added overload for INancyEngine taking Func<NancyContext, NancyContext> preRequest
+Removed stupid-browser test case
+Removed stupid-browser header coercsion
+Made it possible to override statucode with conneg
+Removed invalid code
+Saved sln file
+Implemented forward reading extractor
+Wired up the IRouteSegmentExtractor
+Sneaking in some code clean-up
+NancyInternalConfiguration housekeeping
+Allow RouteSegmentExtract override for testing
+Shame on me
+Wired up the segment extract in internal config
+Introduced the segment extractor
+Changed regex segment detection
+Added port to Nancy.Request when hosted by WCF
+Updated nuget
+Updated SharedAssemblyInfo to v0.12.0
+More conneg tests
+Removed NDjango
+Moved usings
+Code tidyup
+Styling changes and case fix
+Tweaked logic and added more tests
+Working on getting tests working
+Wired up coercion and added some failing tests
+Moved default coercions to separate class for reuse
+Added additional coercion
+Missing files, brain fail :)
+Initial stab at accept header coercion conventions
+Added more conneg tests
+Removed default accept header
+Started adding functional tests
+moved TinyIoc namespace to Nancy.TinyIoc
+Reverted auto-discovery of ISerializer's
+Added application registrations
+Updated fluentvalidation to latest
+Revert "Most Nancy assemblies are now strong-named."
+Disabled self host tests on mono to stop build failure
+Removed experimental project
+Cleaned up code
+Added conventon based assembly loading
+Most Nancy assemblies are now strong-named.
+Updated project to 2012 format
+added Domain property to Url
+Add closures for configuring startup items in ConfigurableBootstrapper
+Added ShouldNotExist assertion to Nancy.Testing
+Test projects to reproduce
+Added test project to explore loading issues
+Added Accept helpers to Browser
+Update Nancy and NuSpec to DotLiquid 1.7
+Correct version mismatch between DotLiquid nuspec and package dependencies
+Removed diagnostics IStartup and added explicit init
+Added trailing slashes (\) to post-build steps
+Updated XmlProcessor
+Changed logic again
+Switched logic on allowed media types.
+Added */* as default accept headers for Browser
+Update invoker result casting
+Sorted out more failing tests
+Added RequestDispatcher and ResponseProcessors to ConfigurableBootstrapperConfigurator
+Sorted out tests for engine and dispatcher
+Added logging to the invoker
+Added helper to shorten logging syntax
+changed return type to array rather than basic IE
+Saved updates to project
+First pass at refactoring DefaultRouteInvoker
+Added XML comments
+Updated demo app to use negotiation syntax
+Cleaned up the code and added comments
+Updated Negotiated route to use Negotiator
+Moved Vary header to it's own check again
+Removed old model strategy
+Made plain and negotiated model use same path
+Minor clean up
+Hideous first cut of link headers
+Added negotiator processing and added demo view
+Switched MediaRange and MediaType to matches methods rather than equals
+Reverted back to passing the model into the processor
+Were using wrong instance
+Processors now request the correct model from the context
+Renaming and added view processor
+More sample extension methods and refactoring
+Hacking on negotiators / negotiation
+Introduced the IRequestDispatcher
+Reworked processor processing
+Excluded zero quality headers
+Wired up processors
+More basic structure for processors
+Added initial interfaces/classes
+Ignoring quality 0 headers
+Helps if u save all files =(
+Added PngSerializer as a Poof of Concept
+Changed so ISerializers are discovered
+Only add Vary header if there is more than one serializer
+Changed parameter to dynamic
+Spike for negotiating response format
+Changed missed parameter to dynamic
+Added test fixture for DefaultRouteInvoker
+Added extensions property to ISerializer
+Added NegotiatedResponse
+Added NancyContext to IRouteResolver.Invoke
+Sorted out route invoker types
+Updated ConfigurableBootstrapper
+Added missing XML comments
+Added pass-through route invoker
+Updated tests to comply with dynamic return type
+Converted action return type to dynamic
+Updated AntiForgeryToken code
+View with the same name as the module are not resolved correctly
+Adds a RequiresAnyClaim security extension to limit access to when any of a set of claims are met.
+Added rate limit HTTP status codes. 420,429.
+Removed old project folder
+Added SharedAssemblyInfo instead of AssemblyInfo
+If the input is null and I cast to string then it should be null
+Removed backup artifacts.
+Replaced old demo with two new demo projects. 1 to show the api server application using StatelessAuth. 2 to demonstrate how a website can consume that rest api.
+Rebased and merged.
+Added stateless auth demo.
+More fixes to botched merge. I got in a hurry.
+Moved usings inside namespace to match the nancy team's style. Updated method documentation.
+Added new stateless authentication that can be used ina REST api.
+Added nuspec file. Tested rake build.
+Added shared assembly info link to csproj files.
+Added stateless auth demo.
+More fixes to botched merge. I got in a hurry.
+Moved usings inside namespace to match the nancy team's style. Updated method documentation.
+Added new stateless authentication that can be used ina REST api.
+Removed test code and tidied up linq statement
+Changed error message text
+Code cleanup and style tweaks
+Made the error template overridable
+Initial hacking on better razor error views.
+Post VS2012 project mungification
+Made bootstrapper test overridable
+Materializing IApplicationRegistrations
+Moved registration of IRazorConfiguration
+Added summary to DynamicDictionary
+Minor code cleanup
+Removed ObsoleteAttribute
+Added XML comments and tests
+Made GetDynamicMemberNames obsolete
+Implemented IDictionary in DynamicDictionary
+fixed typo issue #653
+Sorted out dependency helpers
+Resolved merge issue
+Removed HtmlAgilityPack reference from nuspec
+Updated nuspec to include CsQuery dependency
+Updated Nancy.Testing to use CsQuery
+Started adding more Dependency helpers
+Tying up some loose ends
+Removed xunit depenency from nuspec
+Removed xunit dependency
+Ignoring Nancy.Testing assembly
+Moved type out of the Fakes namespace
+Bit of boyscouting and removed dead code
+Made member readonly
+Updated ConfigurableNancyModule
+Renamed FakeNancyModule to ConfigurableNancyModule
+Changed auto registration behavior
+Updated modulePath based conventions
+Made RequestHeaders writeable
+Renamed a test to make it more clear
+Improved on the allowed characters in a route
+Improved startup/registration seperation
+Split IStartup into two interfaces
+Updated view location convention order
+Modified summary tag and error message
+Diagnostics login page - focus on Password field now uses javascript all browsers (including IE) should like.
+Amended code to conform with Nancy conventions
+Making requested changes
+Format whitespace
+Making requested changes
+unit test when for forms auth when RedirectQuerystringKey is null or empty
+moved FormsAuthenticationRedirectQuerystringKey to configuration
+Deleted old dependencies
+Updated spark dependency to nuget
+Add error message if error occurs while rendering view
+Add error message if an exception occurs while rendering a razor section
+Only copy RazorBuildProvider around when in debug mode. This configuration is safe for deployment at AppHarbor.
+added static readonly NonEncodedHtmlString.Empty
+Adding .shade support to Nancy Spark Engine.
+Restricted size of trace log / diag sessions
+Error handler now makes sure there an exception in the context.
+Removed duplicate file specification that caused the nuget to not build
+Added checks before trying to mkdir a directory
+Removed old NDjango engine reference
+Removed dependency on Nancy.Tests
+Excluded self hosting tests on Mono
+Removed MixPlatforms config
+Updated build configurations
+Removed FSharp.Core reference
+Moved the NDjango demo into own project
+Updated FluentValidation reference
+Makes DynamicDrop respect the global case comparison setting when building a dictionary from an ExpandoObject.
+One more change to DynamicDrop - this time to return null instead of error messages to better match liquid template conventions. If error strings are returned, then the templates don't behave consistently or as expected in many cases (for example, "{{nonexistant.foo.bar}}" returns an empty string but "{{model.nonexistant}}" returns an error string - also, "{% if model.foo %}" will always return true, whether the model has a foo or not because of the error string).
+Updated FSharp reference, lets hope it still works on Windows
+Disabled auto registration for partial test
+added FormsAuthentication.FormsAuthenticationRedirectQuerystringKey
+Updated XUnit to 1.9 and to nuget
+Adds some tests for the DotLiquidViewEngine ViewBag support.
+Added better way to get assembly path
+Added BindTo method to bind data to existing instance
+One more update to DynamicDrop to unwrap DynamicDictionaryValues (since DotLiquid can't obtain the ILiquidizable interface if they're wrapped up).
+Adds the ability to get properties from the DynamicDictionary to the DynamicDrop class, primarily for supporting the ViewBag.
+Adds ViewBag support to the DotLiquid view engine.
+Added missing extension
+fixed failing tests
+response.WithStatusCode(int) extension method
+response.WithStatusCode(HttpStatusCode) extension method
+Rolling back some unneeded cosmetic changes prior to submitting a pull request.
+Removing a mistaken gitignore file.
+Modifies the LiquidNancyFileSystem to search for included templates using established location conventions rather than simply looking at the absolute path. Also modifies the ViewEngineStartupContext to provide a property for the view engine extensions since it was there but not accessible (view engines like DotLiquid can use this for template name resolution).
+Passes the DotLiquidViewEngine to the IFileSystemFactory and on down to the LiquidNancyFileSystem so that the extension(s) set in the view engine can be used (and changed in one place) instead of hard coding the "liquid" extension. Uses higher performance string comparison operations instead of a regular expression for dropping extensions.
+Updated to comply with grumpys review comments
+Updated StaticContentConventionBuilder
+Reverted aspnet demo to original state
+Added early-exit for non-file requests
+Code cleanup
+Improved request tracing info for static content
+Updated StaticContentConventionBuilder
+Sanity checkpoint
+Updated test file to apply to conventions
+Improved test coverage of static content
+Sets the IRenderContext in a DotLiquid register for use by the LiquidNancyFileSystem (or any other Nancy-aware DotLiquid tags, blocks, etc.).
+Optimization to DotLiquid rendering to avoid rendering to a temporary string and then to the output stream - now renders directly to the output stream.
+Optimization to DotLiquid rendering to avoid rendering to a temporary string and then to the output stream - now renders directly to the output stream.
+Contexts are last in line :)
+Added the NancyFx parameter to get access to more context (i.e. for storing things in the Session etc)
+Text formatter tests
+added AsText response formatter extensions
+added TextResponse
+Rebased and cleaned up a bit
+Finalized support for razor @helper functions
+Exploring adding helper methods to Razor
+unit test for EmbeddedFileResponse ETag header without invoking response content
+set the ETag header in constructor
+unit test for EmbeddedFileResponse ETag header
+automatically add ETag response header for EmbeddedFileResponse
+Made NonEncodedHtmlString implicitly cast from string
+Ol' style cop OCD acting up again
+Added missing XML comments
+Removed IHtmlHelpers<T> and IUrlHelpers<T>
+Converted fields to public properties
+moved EmbeddedFileResponse from Nancy.Diagnostics namespace to Nancy.Responses
+Reverted changes to StreamResponse
+Added functional test to test viewbag from razor views
+View bag helper properties
+Renamed a test
+Updating so that Nancy will use the latest published version of Spark.
+Tweaked test and added IgnoredAssembly to the configurable bootstrapper
+Moved ignored assemblies to internal config
+Cleaned up using statements.
+IgnoredAssemblies implementation. Gives the user the ability to limit the amount of assemblies Nancy and the IOC Container will have to scan.
+Added ncrunch files to ignore list
+allow assmblies besides Nancy.dll to use the EmbeddedFileResponse
+Flagged AsCss and AsJs as Obsolete
+Lazy-loading Default and NoEncryption CryptographyConfigurations to allow for FIPS compliance.
+Updated Post-build generator in script to make it AppHarbor-friendly. See http://support.appharbor.com/discussions/problems/1128-builds-failing-invalid-drive-specification for discussion.
+Retrieved deleted files from previous commit
+submitting changes again
+added forms authentication extension to browser
+pass NancyContext in HandlesStatusCode correctly
+Problems gets solved when you use your brain
+Added rootpath to ViewNotFoundException
+Monkey patching root path provider for functional tests
+Removed the DotLiquidViewEngineStartup
+Updated DotLiquid
+Changed the shared assembly version to 0.10
+Added functional tests for dotliquid partial rendering
+Updated the DotLiquid engine
+Added favicon.license.txt
+Updated JsonBodyDeserializer to support List<>
+Dynamic dictionary values get properly JSON serialized like the containing object would have been.
+Clarify behaviour of non-string dynamics on Json serialization
+Removed close test, base stream will call dispose when closed
+Dispose fixes
+Added file upload demo to the main test project
+Includes support no quotes, single, or double quotes
+Updated tests
+Reworked test setup and first test
+Fit in with guidelines
+Modified Liquid file system to handle Nancy paths
+Add TODO comments about the limitation of current SelfHost fix
+deleted commented out references to routeCache in NancyEngine.cs
+NancyContext wont dispose unset request
+Updated WCF host to dispose context
+allow razor.buildproviders to build on anycpu
+Code clean-up
+Added XML comments to NancyHandler.cs
+Cleaned up NancyNandler tests
+Disposing body stream at end of request
+Remove version header from NancyEngine
+Where's Waldo
+Updated code to follow code conventions
+Add tests to Nancy.Hosting.Self
+Changed typo in test name
+Sorted out XML comments of IHtmlHelper<T> and impl
+Flipped a couple of public fields to private
+Updated IModelBinderLocator to accept the context
+Added NancyContext to HandelsStatusCode
+Added missing XML comments to MethodNotAllowedRoute
+Added XML comments to IDiagnosticsProvider and it's implementors
+Added missing XML comments to NotFoundRoute
+Updated FakeRoutePatternMatcherResultConfigurator
+Added NancyContext to IRoutePatternMatcherResult
+Added XML comments to the Route type
+Passing along NancyContext to IRoutePatternMatcher
+Added missing XML comment and moved using statement
+removing redundant else
+use 200 ok status code options repsonses
+Adding class level summary comment to OptionsRoute
+Adding OptionRoute type and using it from DefaultRouteResolver to automatically create OPTIONS route if there are no user defined ones
+Added NancyContext parameter to IViewLocator
+Added Context property on IRenderContext
+Monkey patching FavIconStartup
+Updated propertyname on fake bootstrapper
+Renamed DefaultFavIcon to FavIcon
+Changed so favicon isn't scanned for until pulled
+Make it build again
+Make it look like TheCodeJunkie wants :)
+replace forward and backward slashes in contentPath with Path.PathSeperator
+Monkey patch to hopefully fix weird TC test failure
+Added more SDHP to the favicon overriding
+Adds IronRuby and IronPython to the list of ignored assemblies for AutoRegister
+Added @Model substitution to SSVE
+param description
+Added property to ViewNotFoundException contaning all locations that where inspected looking for a view
+Created a filesystemrootpathprovider for hosting.self instead of linking from hosting.wcf
+Includes shared and layouts folders under the views folder for master template locations.
+Made helpers and url helper interfaces generic
+Updated nuget to copy view engine to bin folder on post-build
+Added custom build providers for razor views
+Added mono conditional for detecting Type when serializing json
+Added additional catch for Mono exception
+easier way to do the replacement
+doesn't break when requested resource contains the name of the virtual directory
+Sorted out stackoverflow error
+Removed old performance test
+Code clean-up
+Added support for multi param captures
+Gave the tests more meaningful names
+Infinite loop detected trying to walk the layout inheritance chain. The layout var was not updated with the new value from the current view.
+Added locking to request tracing session creation
+Made sure the diag view renderer has the correct context
+Filtered out getters/setters from interactive diags
+Back link styling tweak
+Interactive diags tooltip styling
+Initial styling for tooltip
+Initial js for method tooltips
+Reworked test to hopefully fix intermittent failure
+Test fixup, I'm sure I've fixed this before, but heyho
+Updated tests to accommodate for request tracing
+Added missing xml comments for RouteDescription
+Added missing xml comment in DefaultRoutePatternMatcher
+Added missing xml comments for IRouteCache and default impl.
+Added missing xml comments
+Added request tracing for view rendering
+Test fixes
+More test fixups and additional test
+Test fixups
+Minor fix to DefaultResourceReader.GetResourceExtension to allow resource names without extensions
+Minor fixups
+Moved session object to correct project and more tests passing
+Added cookie creation/decryption test helpers
+quick build fix
+Additional fixture work
+Fleshed out the auth tests
+Added additional blank test
+Added diags configuration to the configurable bootstrapper
+Added test placeholders for diags security
+Changed regex for parameter pattern to allow _ (underscore)
+added Response.WithContentType extension method (#480)
+Removed lorem ipsum
+Added disabling of diagnostics without a password set
+Added diagnostics configuration and minor style tweak
+Setting descriptions and set request tracing to off by default
+Updated setting page
+Url can be implicitly cast to Uri
+Improved the RequestHeaders class
+Wired up the settings logic
+Changed CRLF of file
+Removed unused texture
+Support for enumerable config values
+Initial display of bootstrapper config
+Registered NancyInternalConfiguration in container
+Cleaned up tests for consistency
+Reapplid csrf fix and reenabled tests - non building
+Rebase fixup
+Minor css tweak
+More styling tweaks
+Stying and tracelog tweaks
+Basic request tracing plus bugfixes
+CSS Tweak
+Added basic info page
+Renamings and placeholder pages
+Threading issue with trace logging
+Some initial interactive diags styling
+Dashboard styling
+Added temp background texture to see what it looks like
+Added method description and attribute support
+Added 960 grid and styling tweaks
+Started adding info about which providers that were located
+Added basic route resolve diagnostics
+Added xml comments to ResolveResults type
+Moved the RouteCandidateExtensions extension to own type
+Changed styling to give more space to results
+Removed unused references to template manager
+Removed layout manager as it's no longer used
+Renamed JSONReport.
+Templated and non-templated results now working
+Execution and parameter conversion
+Provider name now sent through in the execute message
+Removed IRouteCache from IRouteResolver.Resolve
+Added performance tests for the DefaultRouteResolver
+More execution bits
+Started adding performance tests for the defaultrouteresolver
+Updated DefaultRouteResolver for diagnostics
+Execution event wired up
+Initial working providers/methods lists
+Restructure of the backbone bits and json backend
+Rendering initial interactive diags page.
+Diag modules resolving and partially rendering page
+Some initial hacking on interactive diags client side
+Made partials/master pages work and added a master page
+Moved a few files round and added more js
+Exact route matches will now be performed
+Added dashboard resources
+Added support for rendering diagnosics views
+Some intial work on wiring up the diags/dashboard hook.
+Implemented support for returning embedded files
+Added initial template support for interactive diags
+Very basic sample of interactive diags.
+Added some random diag tracing to the route matcher
+Moved diagnostic saving to main engine
+Very initial working tracelog
+Initial playing with diagnostics infrastructure
+Give additional guidance when MaxJsonLength is exceeded.
+Code clean-up
+Slight code clean-up
+Improved XML comment
+Made ModelTypeName prop read-only
+Sorted incorrect assemblyinfo reference
+Pruned unnessecary namespace qualifier
+Added missing XML comments
+Updated code to match Nancy convention
+Cleaned up using-statements
+corrected the structure of a couple of tests
+Corrected English - changed unable to location view to unable to *locate* view
+Removed reference to class diagram
+Hopefully a fix for the weird ipv6 tostring formatting issue on TC
+Error message on startswith/endswith AssertExtension
+Hopefully a workaround for a failing test
+added test
+json serializer enhancements and unit tests
+Rewrote tests
+cleanup of using statements.
+added test for @using directive.
+handled null models getting passed down in order to auto include a model's namespace.
+fixed issue with using a model from another assembly.  Added support for auto including model namespace.
+Started implementing ToString on Url class
+updated call to new HttpFile() to include key parameter
+Added XML comments
+Made razor client profile to fix #450
+add the name of the HttpForm field to the HttpFile (HttpFile.Key)
+Added demo route to show error page
+Set exception message
+Test fixup, just swallowed new exceptions, doesn't matter
+View location now throws if it fails, some failing tests now
+Added failing test
+Added failign test for binding to an interface
+Trying to build on Mono OSX fails when trying to build Wcf assemblies
+Added nuspec for validation projects
+Clean up
+Added fluent validation tests
+Started setting up Fluent Validation tests
+Added test project for fluent validation
+Cleaned up the refactoring
+Moved data annotations validation to seperate project
+Moved fluent validation to seperate project
+Human stylecop changes :)
+Added XML comments
+Added remaining rule adaptors
+Started addings Descriptor support
+corrected support for display messages.
+initial support for translating FluentValidation validators into Nancy Validation Rules.
+First implementation of validation using FluentValidation
+added validation via IValidatorLocator.
+Tweaked a couple of tests
+Renamed conflicting parameter name
+Added missing XML comment
+Added IHtmlHelpers interface for Razor views
+Improved RequestHeader
+Removed test razorvb.vbhtml file
+Removed duplicate using
+Added nustache to mono solution configs
+MonoDevelop fixup
+Don't overwrite response contents on error
+added support for visual basic.  added support for @model keyword (cs) and @ModelType (vb) keyword to enably strongly typed views.
+Made sure System.Web.Razor is set to Copy Local
+Added nuspec file for the Nustache view engine
+Added support for Nustache view engine
+The self host now decodes the url of the request.
+Added a bunch of new mimetypes for several file extensions. (Ref http://svn.apache.org/repos/asf/httpd/httpd/trunk/docs/conf/mime.types)
+IsSectionDefined added to Razor View Engine
+Resets request stream at zero after parsin values
+Disabled global razor rendering hook from mvc
+Added support to choose which type of http redirect is returned from a Response.AsRedirect()
+modified the NancyHost for the self hosted to separate cookies into Set-Cookie headers
+Moved IsJsonType (renamed to IsJsonContentType) from a private method in JsonBodyDeserialiser into a public method on the Json class.  This is now used in the Jsonp Hook.
+change request date headers to be nullable. handle invalid dates
+Modified CookieBasedSessions initialization stage
+Tweaked request container logic.
+Mono fixup
+fixed spelling mistake for variable name identifier in IUserMapper
+Converted startup tasks to a list before enumerating
+Updated rakefile
+Updated rakefile
+Updated SharedAssemblyInfo to v0.9.0
+Added AjaxRequest browser helper
+Added placeholder script for future subproject refactor
+Moved Jsonp Stuff into its own static class Added enable and disable methods
+Added JSONP Hook with associated tests
+Add always forget to tidy up namespaces
+Added Cookie BrowserContextExtension
+Removed serializer IStartup, moved responsibility to IResponseFormatter
+add tests for owin content type https://github.com/NancyFx/Nancy/pull/378
+Able to not scan certain assemblies for embedded views
+add missing content type for owin host
+safe path test should be case insensitive
+Changed the behavior of the StreamResponse
+Replacing tabs with spaces
+Added the ability to foreach() a DynamicDictionary and return the list of keys.
+Made error handlers auto-detected by default
+Swithed error handler to be a collection
+Tweaked AsRedirect to expand the base path with ~
+Minor tweaks and comments
+Rebased with master and resolved merge conflicts
+Renamed bootstrapper members
+Code clean up of the Basic Authentication stuff
+Updated FormsAutoBootstrapper to demo per-request
+Updated CryptographyConfiguration
+Updated pipeline code
+Updated the implementation
+Went mad professor on it
+Started exploring a per-request pipeline
+Made NancyContext available on IResponseFormatter
+Added <summary> descriptions to HttpStatusCodes in the format of '{CodeNumber} {CodeName}'
+Minor renaming and adding comments
+Changed the control over the headers BasicAuth responds with from a bool to an enum with three option. Always, Never, NonAjax.
+Reformatted file to use spaces instead of tabs to match the rest of the project.
+Added the ability to skip sending back the WWW-Authenticate header that tells the browser to prompt the user for credentials.
+Pointed contributors to the website.
+Add support for multiple root paths
+Added Jake Scott to list of contributors
+Added Simon Cropp to the list of the contributors
+Removed url decoding in route matcher
+add Content-Length header
+Adding test to make sure that you can send a model object as json
+Tidy up code to meet stylecop rules
+Add JsonBody extension method so that you can send a json body request
+Just testing the build trigger.
+Updated contributors
+Request.Url.HostName is was set to the hostname of the client, rather than the hostname in the request url as expected.
+Updated contributors
+Renamed fixture class
+Implemented #348 - make browser delegate optional
+Reworked slightly and added a test
+Test fixup
+Updated nuget publish task
+Updated configurable bootstrapper
+Added unclosable stream to stop text writer closing it
+Test fixups
+Initial cut of pluggable json/xml
+Added release tasks
+Added continuations for the test browser
+use copyto
+Updated version numbers
+Update JSON to fix #336
+Formatting fix.
+Seek validation added.
+Added Response.AsStream() extension method.
+Initial attempt to fix spark caching
+new test added
+Updates to static file builder and GenericFileResponse
+Added tests for static content, including 1 failing
+Added new testing project
+Updated contributors
+Partial method in HtmlHelpers updated to fix a problem with @Html.Partial statement in Razor view
+Poked at the spacing in the rake file to make grumpy happy
+Re-added hard dependency on Nancy version in the rake file for nugets
+Updated to latest public release of nuget.exe
+Updated rakefile so it does not set a hard dependency on a specific Nancy nuget version in the other packages
+Added copyright and iconUrl elements to the nuspec files
+Updated version number to 0.8.0
+Tweaked logic on static view conventions
+Ifdefd some failing mono tests
+IfDefd a test in mono and added xunit mono build task
+refactored tests for BodyAsXml to make read more directly
+implemented BodyAsXml
+refining failing tests, to something, that might actually compile eventually
+adding a couple of failing tests, for not yet written BodyAsXml extension to BrowserResponse
+renamed JsonModel to model, since its used in both JsonBody and XmlBody tests
+implemented XmlBody as extension method to NancyContext
+adding empty tests stating intension for XmlBody method
+Added AntiForgeryToken to SSVE
+Added AntiForgeryToken to the spark base
+Minor styling change
+Refactored ErrorPipeline to fit in with the new Pipeline base
+Updated the view location providers and added test coverage
+Bootstrapper updated to expose the OnError hook
+Adds an ErrorPipeline to allow for more flexible exception handling
+Updated configurable boostrapper for csrf types
+Reworked to use the context as the primary token
+Getting there, currently have to regen the token every request though
+Test fixups
+Working version but needs some polish
+Update csrf bits - syntax needs work
+Initial work on refactoring generation away from the view engine
+Test fixups
+Increased iteration count on PassphraseKeyGenerator
+Initial non-working csrf wireup
+Csrf token validation tests
+Removed old Csrf wireup class for now
+Rework of CsrfToken and added validation interface
+Updated render stack to return HtmlResponse rather than a delegate
+Added overload for AsFile that lets you specifiy a content-type
+Changing body method to use optional parameter set to null, added back null check
+Changing body method to use optional parameter, removed null check
+Demo project fixups to reflect content folder change
+Updated favicon and asp.net demo project to show it off
+Adding content type for stream
+Added Stream overload to Body method in BrowserContext
+Updated summary descriptions for Login/Logout methods
+Addes support for forms auth login/logout without redirect response
+Removed duplicated check
+Moved the static con to the head of the before request pipeline and fixed a failing test
+Put the aspnet hosting demo back to order and updated the ssve.sshtml sample file so that it requests its image in such a way that the static contents convention is invoked
+Moved the static content startup hook to the root namespace and improved XML comments
+Cleaned up the implementation and added missing XML comments
+Tweaked convention to have reversed registration order
+Updated convention implementation
+Second iteration
+Initial spike
+Sorted out a failing test due to the change in GenericFileResponse
+Converted RootPath field to property on the GenericFileResponse type
+Updates the GenericFileResponse to have the rootpath injected into it at appstart..this way we can ensure it will never serve a file that is outside the root of your application
+Multipart browser context now can create not only files, but orm fields as well.
+Moved Name out of NancyModule Added ModuleExtensions and included a method to GetModuleName using a compiled regex Updated unit tests to match
+Added a Name property to NancyModule along with code to build a name based on the type. Passed the name through to the view locator to determine alternate view paths based on the name (in similar ways to mvc.) This addresses issue #290.
+Updated tinyioc
+Updated contributors
+Added support for non html encoded text in razor views
+Updated contributors
+Added test for removing named items
+Added ability to optionally replace in place
+Added insert before/after methods and tests
+More tweaks and restructured tests
+Pulled out a named pipeline baseclass
+Updated pipeline item to move 'random' name to ctor
+Initial methods on before pipeline - not sure about the separate named methods
+Added pipeline item class, with appropriate implicit casts
+Updated IStartup to resolve issue #237
+Rejiggered statics - seems to work now
+Added Secure flag to NancyCookie
+Added missing contributor
+Updated debug mode - doesn't seem to work though
+Added failing unit test for Spark null html encoding
+Updated SSVE - Closes #289
+Removed packages.config that is no longer needed in the NDjango project
+Added Svetoslav Milenov to the list of contributors
+remove wrong NuGet dependency for FSharp
+Improvements in the Authentication, extend the context with CurrentUser property
+WithHeaders and AsAttachments extension methods
+Demo fixup
+Updated tinyioc and excluded nancy core from autoregister
+Updated tinyioc
+Updated tinyioc
+Nothing to see here
+Updated the ConfigurableBootstrapper so that it now supports auto registration of dependencies. Auto registration can be disabled during configuration with DisableAutoRegistration(). Also updated Dependency() to register the instance for all the implemented interfaces along with the actual type of the depenency
+Modified the Nancy Request object to return the client IP. This will only work for ASP.NET, WCF or Self hosted - OWIN doesn't seem to expose the relevant data from what I could see.
+Improved the body extensions
+Updated the list of HttpStatusCode enum values
+Added support for PATCH requests in the NancyModule and Browser types
+Resolved build error
+More edits to the readme
+Updated the Browser to return a body wrapper. From the wrapper you can now use AsString, AsJson<T> and AsXml
+Added support for HEAD and OPTIONS requests in the Browser class
+Added nuget for basic authentication
+Improved test coverage of the default view location conventions. Discovered a bug in one of them and fixed it. Also added a new convention that looks for the view in a folder with the same name as the module path
+Updated the readme file
+Improvements in the Authentication, extend the context with CurrentUser property
+Improvements in the Authentication, extend the context with CurrentUser property
+Updated my profile url
+Nancy unwrap values from dictionary before handing it to ndjango.
+deleted unused variables
+Added fix for JsonSerializer and JsonDeserializer to make them Culture unaware
+Added failing test Should_Serialize_Doubles_In_Different_Cultures for cultures with different NumberDecimalSeparator
+Added the version number to SharedAssemblyInfo.cs because it is used by the Nancy-Version header at runtime
+Created ConfigurableBootstrapper that replaced FakeNancyBootstrapper + solved bug in DefaultRouteResolver that manifested itself by invoking the IRoutePatternMatcher multiple times for the same route request
+Updated contributors
+Added a dispose for context when building route cache
+Updated contributors
+Minor refactoring
+Add unit tests for changes to default binder.  Make sure it is possible to bind models from the query and the context parameters.  Make sure the the order of precedence is met.  Make sure parameters from different sources can be used to bind a single object.
+Also look at the context parameters.  Add a null check on each dictionary in the list.  Refactor to (hopefully) make code more readable
+Also use the request data for the default binder.  If data in the form and the request have the same parameter names, the value in the form is used and the request value is ignored.
+Wired SSVE up to the path expansion. Closes #216
+Updated contributors.
+Updated selfhost
+mSpec 404 test fixup
+Bumped version number to 0.7.1
+Updated Nancy.Hosting.Aspnet nuget to include the web.config transform
+Added static config option do disable error traces
+Minor fixups and added 500 error handling
+Initial cut of error handlers
+Updated contributors
+Updated contributors.
+Minor cosmetic change
+Added a test case
+Error in the code
+Corrected issue #146 when a cookie coontains an "=" sign
+Increased the version number to 0.7.0
+Nulled out the version in the nuspec files - it will be set to the correct value by the rake script
+Can access resolved parameters in Nancy Context
+Nulled out the assembly version in SharedAssemblyInfo.cs as it is set by the rake file.. also updated two invalid references to the file
+Changed the virtualpath of the Aspnet hosting demo to /nancydemo
+A couple of minor changes to the view location providers and defaultviewlocator.. also added Leo Duran to the list of contributors
+Changed FakeRootPathProvider to not return null by default. fixes #165
+Missing files
+Wired in ~ expansion to Razor and added demos
+Added RenderContext URL Parsing to Nancy Spark impl. to allow for variable Site Roots
+Updated the Rake file so that the produced zip file is called Nancy-Latest.zip and not NancyFx-Latest.zip
+Updated the licenseUrl in all the nuspec files so it points to the nancy organisation
+Added nuspec file for the OWIN host
+Updated the System.Razor.Web reference, in the Nancy.ViewEngines.Razor project, so CopyLocal is set to true
+Changed so that the Razor view engine uses the escaped code base of assemblies
+Cleaned up some failing tests, due to wrong setup after changes
+Updated the FakeNancyBootstrapper to reflect the change of only using one IViewLocationProvider at the same time
+Removed a test file
+Various tweaks to resolve issues with new method for locating views
+Updated Spark view engine to generate keys based on the new way that contents is stored in ViewLocationResult
+Removed old ViewLocationProviders property of the NancyBootstrapperBase type
+Changed DefaultViewLocationCache to use a single IViewLocationProvider interface
+Renamed ResourceViewLocationProviders to ResourceViewLocationProviders and updated the implementation so it's inline with the new way of storing information in the ViewLocationResult type
+Cleaned up the aspnet hosting demo a bit
+Added support for a single IViewLocationProvider in the NancyInternalConfiguration.cs class
+Changed view resolve logic
+Renamed the nuget rake task to nuget_package and added a new task called nuget_publish which takes the created nuget packages and publishes them to the nuget gallery. Symbol packages are also published to symbolsource.org. You need a valid api stored on your machine for the nuget_publish task to work.
+Moved path expansion to context extension and forms auth fixup.
+Added ParsePath basic code and tests
+Initial work to be able to parse paths from the rendercontext
+Updated owin host to use Url class
+Changed self host to use new Url class
+bind NancyHost (self host) to a params list of URIs
+Updated ASP.Net hosting to pass full url
+Moved the ctor to please Andreas The Walking Stylecop
+Added Url class for representing full urls.
+Improved route pattern matcher comments and test coverage
+Made the DefaultRoutePatternMatcher URL decode the requested path and use a wide capture regex
+Removed a couple of tests that were added in a different branch but magically appeared in here
+Added xml comments about the return values of each header property
+Updated RequestHeaders.Cookie so it now returnes an enumerable of INancyCookie instead of string
+Added support for Cookie in RequestHeaders.cs
+Added indexer on RequestHeaders to get the raw representation
+Implemented RequestHeaders type
+Updated the SharedAssemblyInfo file to reset it's version back to 0.6.0 (by running the rake build) after testing the new nuget task. Just to avoid confusion :o)
+Rake nuget task now overrides nuspec version numbering and common elements
+Minor update to rake todo list
+Inital nuget task addition to the rake build. Generates .nupkg and .symbols.nupkg
+Added static Create method on DynamicDictionary to allow it to be created from an IDictionary<string, object> instance
+Added naming convention to key names
+Renamed DemoBootStrapper.cs to DemoBootstrapper.cs
+Renamed class to match filename and fixed Linux test issue
+Test fixup to work around Mono bug
+Renamed all occurances of BootStrapper to Bootstrapper
+Switched project to Cassini
+Removed VS2008 import lines
+Updated cryptography and session/forms auth as a result.
+Added regression test for issue reported by Alfero Chingono
+Removed custom build command
+Minor test cleanup
+Number of parameter captures now reduces the route match priority
+Renamed a method to make it clearer/cleaner
+Ensure routes are matched to the most specific match by path segments
+Route matching places highest priority on exact path matches
+URL encoding returnUrl -  just in case anybody uses this demo as the start point for a real app.
+Updated NDjango view engine and added extends demo.
+Updated test fixture to workaound 'double location' problem
+Removed unnecessary build configs
+Build config updates
+Re-enabled unit tests using the pipelines
+Commented out and fixed some tests
+Module requiring basic auth now also adds requires auth
+Initial refactoring / rework of basic auth
+Minor reformatting
+Build fixups
+Added basic authentication support
+Enabled the self-hosting solution in the Mono
+Added IConvertible interface to DynamicDictionaryValue
+Updated razor view engine project so System.Web.Razor.dll is set to copy local
+Updated rake file so that it does not add latest Nancy version number to the packaged binares file, because the build does actually contain the latest commit and not nessecatily the latest tagged version
+Updated mono build configurations so that all Wcf and Self hosting projects are disabled
+Cache disabling in debug mode
+Removed unused test helper method
+Updated anonymous type detection to work with anonymous type on Mono
+Removed old Mono bits and added build config.
+Updated readme
+Made the self host demo launch the demo page
+Don't spawn another thread.
+Async hosting
+Added xml comments for the extension classes
+Added xml comments for the extension methods
+Implementation of IsAjaxRequest extension method
+Added nullcheck to try and fix odd build error
+Test fixup
+Added ETag and Last-Modified headers to the file response.
+Added cache control headers - 7 day max age, public
+Added favicon support.
+Updated build script to generate pdb files and removed some unneeded dependencies
+Bumped assembly version to 0.6.0
+Updated github profile link for contributor
+Support for ndjango layout files
+Added Mark Rendle and Roy Jacobs to the list of contributors
+Build fix
+gatapia's changes minus the rogue Spark modification
+Lets try that again
+Changed encoding of readme.md from ANSI to UTF-8
+Moved the method override code from the NancyHandler into Request and also restricted rewritting to be used when request was a POST
+Spark fixup for anonymous types
+Improved test coverage of the dotLiquid engine and made some improvements to the DynamicDrop type
+Cleaned up using directives
+Performed manual refactoring because ReSharper decided to ignore doing it for me when i renamed the HttpMultipartSubStream type
+Moved the FakeViewEngine type into the Fakes namespace
+Corrected a typo in the name of the HttpMultipartSubStream type and added XML comments to the source code
+Removed all viewfolder prefixes from the Nancy.Demo.Hosting.Aspnet.MainModule as they are no longer needed now that view conventions are in place
+Updates dotliquid so it now handles expando object models
+Added support for using anonymous objects as view models
+Additional demos for benchmarks + SSVE optimisation.
+Test fixup
+Working razor layouts support.
+More Razor straw clutching
+Initial straw clutching on Razor layouts
+Removed some test code
+Solved merge screw up
+Renamed RazorConfiguration.cs to DefaultRazorConfiguration.cs to follow the convention that is being used in Nancy
+Resolved merge conflict in readme.md
+Updated Spark view engine to use view engine initialization to build inmemoryviewfolder structure.
+Changed definition of IViewLocationCache and finished of implementation across Nancy
+Cleaned up source code a bit
+Implemented ViewEngineStartup and default implementation for IViewLocationCache
+Created a wrapper type for "IList<Func<string, dynamic, ViewLocationContext, string>>" as Ninject was having trouble resolving this dependency.  I think the dynamics within a delegate was not Kosher in Ninjects book
+Wired in IStartup.
+Started implementing IStartup support for view engine warmup
+Removed Spark dependency on its own FileSystemViewFolder and now using the views located by the framework to build an in memory map of areas. Also removed some superfluous pieces from the spark view engine
+Added Simon Skov Boisen to the list of contributors
+Changed encoding from iso-8859-1 to utf-8
+Added Hernan Garcia to the list of contributors
+Integrated the dotliquid view engine
+Updated the RazorConfiguration class
+Added Martijn Laarman to the list of contributors
+Updated to add a default ctor to razor view engine and added an override for it in the demo
+Integrated razor changes made by Martijn Laarman
+Tidied up the view engine code a bit
+Added non-generic JsonResponse
+Added support for template caching in the NDjango engine
+Updated razor engine so it no longer says it supports vbhtml files, because it doesn't ;)
+Refactored the spark engine to remove public members
+Cleaned up types related to the new render context feature
+Forgot this one...
+Big overhaul to spark view engine and fixed the unit tests. Still need to abstract away the multi-lingual stuff and also feed view loactors into the engine so that we don't assume FileSystem which it currently does
+Added Luke Smith to the list of contributors
+Added a new module to test feature areas - works as long as files are uniquely named across the entire project
+Added empty demo project for Spark
+Bug fix for when model is null
+Removed old partials file
+Completed Razor partials spike
+Spiking partial support in razor
+Added view cache support for Razor engine
+Added example of encoding to the demo
+Updated SSVE and demo to show master pages
+Optimisations for module location and route matching
+Spiked out implementation of IViewCache and updated the Spark engine to use it
+Stripped extension from view name in ViewLocationResults returned by the ResourceViewLocationProvider
+Added fix in ResourceViewLocationProvider to prevent it from throwing exception when there is only a single embedded view
+Added HtmlEncode to the render context interface
+Updated SSVE
+Stripped extension from view name in ViewLocationResults returned by the ResourceViewLocationProvider
+Added fix in ResourceViewLocationProvider to prevent it from throwing exception when there is only a single embedded view
+Spiked out the use of a render context for the view engines
+Implemented view discovery conventions
+Added JsonBody extension to NancyContextExtensions
+Renaming, validation and wiring into the container
+Initial convention discovery code
+Updated commandline runner for CI build
+Removed TNIE from test
+Unsealed GetApplicationContainer and removed registration logic from it
+Added RegisterBootstrapperTypes .. may need a rethink, but it works
+Renamed CreateContainer to GetApplicationContainer to fit naming conventions
+Additional refactoring.
+Changed fake in the fixture and added additional comments
+Added base class for bootstrapper tests.
+Switched module used in catalog base class to a nested fake
+Added test base class for module catalog tests
+Removed unused using
+Sealed CreateRequestContainer on the default bootstrapper
+Additional refactoring - moved logic from GetEngine to Initialise
+Additional refactoring of the request container base class
+Removed bootstrappers from main repo.
+Sealed off Equals, GetHashCode and ToString on the bootstrapper base to hide them
+Sealed off some methods in the default bootstrapper and added hiding to the base
+Test fixup and updated testing bootstrapper
+Removed other bootstrapper projects from main solution
+Test fixup and additional tests
+Updated TinyIoC to the latest version
+Bootstrapper refactor
+Removed using System statement
+Moved using statement inside of namespace
+405 Method Not Allowed response includes the Allow header
+Browser uses FormValues if present
+added a model binding example for xml
+added XmlBodyDeserializer and tests
+Updated version to 0.5.0
+Removed iffy test because json date support is borked i json
+Adding a ViewEngine for the Liquid templating language
+Added additional test to make sure it handles with and without charset
+Added additional MIME types for Office
+Added Patrik Hagne (author if FakeItEasy) to the list of contributors
+Updated to the latest version of FakeItEasy.
+Updated bootstrappers for converters and deserializers
+Made the IEnumerable collection converter materialise the collection
+Added JSON binding demo. Model binder finished for now :-)
+Test fixup
+JSON body deserializer
+Partial refactor of IBodyDeserializer interface - not building
+JSON deserializer content type tests
+Additional tests for user supplied converters/deserializer precedence
+Added collection to demo - something broken though
+Collection Converter handles Array,ICollection<T>,IEnumerable<T> types
+Blacklist, refactorings and begnning of collection converter
+Added failing tests for collection types
+Now working for basic types and calling type converters and body deserializers
+Building up default binder tests
+Building up default binder tests
+Renamed tests to match new class names
+Refactored interfaces so default binder is now pluggable
+Added body deserializer interface, currently broken
+Updated modelbinder to the latest master
+Solved bug where non seekable stream would not be made seekable by RequestStream because stream switching was disabled
+Removed old browser harness
+Removed old spike code for the test harenss
+Added XML comments to Browser and IBrowserContextValues
+Removed old FakeRootPathProvider
+Moved the FakeRootPathProvider into the Fakes namespace
+Added FakeNancyModule and fixed it up
+More refacting - login fixture now complete
+Refactor - currently form body not working
+Tests now passing
+Added additional wrapper for HtmlNode
+Added demo and additional context bits - demo currently not working due to view resolution
+Added response body test helpers
+Added first spike of Browser test harness implementation
+Made sure that RequestStream will switch streams if passed in stream.length exceeds threshold and stream switching is enabled
+Updated readme and license to include Steven Robbins as core developer
+Added Guido Tapia to the list of contributors
+Resolved merge conflict of RequestStream
+Updated self-hosting demo to listen to 8888 as the description text says
+Added missing XML comments and made minor code style changes to follow the Nancy convention
+Refactored the MoveStreamContentsToFileStream into a generic MoveStreamContentsInto method that is also used by MoveStreamContentsToMemoryStream when trying to create a RequestStream that is not seekable.
+Moved the fakes to the test project.. oops :-)
+Additional comments
+Added additional tests and fake producer
+Added a wait handle for waiting for completion in async
+Additional test around response generation
+Tweaked context disposal in the OWIN host
+Added additional ctor overloads to RequestStream
+Added file upload test page + context disposing
+Initial owin work
+Refactored the ctor of RequestStream
+Changed the signature of Request to expect a RequestStream instread of any arbitrary stream
+Added additional test to show that querystring is working
+Implemented async read and write members on the RequestStream
+Remembered to check-in the project files as well ;)
+Added RequestStream type in Nancy.IO namespace, and included tests
+Improved null checks
+Refactored configuration data provider out of RazorViewEngine now injectable but defaults to app/web.config configuration provider.
+added razor configuration section for app.config and web.config's to specify assemblies and namespaces.
+Updated test file
+Updated SSVE to support @Each without a property specified for when the model is a collection
+Added test to ensure NancyEngine doesn't throw an exception when setting Nancy-Version and the header already exists
+Minor variable rename
+Updated type scanner - seems to work ok for nerdbeers specs now
+Wired in the scanner
+Added AppDomainTypeScanner class
+Auto reference underlying system type assembly when compiling razor view so you can do @UnderLyingSystemType model = Model; to regain intellisense on (complex) view model graphs
+Renamed Nancy.Hosting.SelfHosting to Nancy.Hosting.Self
+Added README.txt files for the demo projects. Will add contents soon :)
+Renamed all demo projects to follow Nancy.Demo.xx naming convention
+Added missing XML comments in NancyModule type
+Redesigned the IViewFactory interface so that it only has a single RenderView method. Also moved the index overloads into a ViewRenderer class that is nested inside of NancyModule. This gives the ability to inject the module into the view factory
+Added Default AspNet bootstrapper and a demo to show how it works
+Updated handler to save the engine as static
+Linked in Nancy.Test.Fakes into Nancy.Authentication.Forms.Tests
+Replaced reference to Nancy.Tests from Nancy.Authentication.Forms.Test with a file link to ShouldExtensions.cs
+Added Nancy-Version header to response
+Refactored life cycle code in NancyEngine
+Added missing SharedAssemblyInfo.cs references
+Added tests for hmac/encryption of the session cookie.
+Added missing file
+Added hmac to session - some tests still to implement
+Security tweaks.
+Added test project
+Added forms authentication project and demo
+Removed old comments
+Cleaned up the HttpMultipartSubStream type a bit
+Cleaned up the multipart/form-data implementation
+Added support for parsing multipart/form-data post data
+Switched to semantic versioning and bumped version to 0.4.0
+Renamed secure module type to fit filenames
+Added convention based authentication and claims based security hook helpers.
+Static settings class for the json serializer
+Added support for arbitrary objects in session - some tests now failing
+Added session formatter ready to plug into cookie sessions
+Added a few more session tests and made session cookies http only
+Removed unused NHaml dependencies
+Updates Spark to 1.5.1.0 + included missing license.txt
+Upgraded NDjango engine to 0.9.9.0
+Resolved merge conflict between DynamicDictionaryValue changes
+Added null session provider.
+Refactored cookit based session support, added tests and setup demo route.
+Minor renaming
+Minor renaming
+Initial import of Karl Seguin's cookie based session work
+Added OPTIONS method handling
+Removed the demo route for SSVE and moved the contents into a test instead.
+updated the how to build to point out you don't need to do any of that ;-)
+Updated SSVE to latest version for nested property and @Current.Property support.
+Minor styling fixup and changed null model behaviour to just return the template
+Added David Hong to list of contributors
+- Additional method created in both NancyHost.cs and NancyWcfGenericService.cs for relativeUri/Url generation - Test for WCF hosting now includes query string in the request
+Updated to latest version of FakeItEasy
+Updated wrong list of supported extensions for the supersimpleviewengine
+Removed the StaticViewEngine and replaced it with the SuperSimpleViewEngine + cleaned up code to fit in with the Nancy code style conventions
+Minor styling tweaks
+Combined If and IfNot regexes to a single one
+Added JSON de/serializers, HttpEncoder and HttpUtility from Mono master branch and changed to Client Profile
+Updated Super Simple View Engine to latest version and updated demo model
+Added the SuperSimpleViewEngine, tests and demo
+Missed a test for string equality.  Cleaned up code a bit
+Added implicit cast for boolean and allowed it to be used in place of HasValue
+Implemented support for providing an instance of IResponseFormatter to the NancyModules
+Combined AspNetViewSourceProvider and FileSystemViewSourceProvider into one thanks to the IRootSourceProvider. The remaining one was moved into the Nancy assembly and namespace. Implemented FileSystemRootPathProvider in self-hosting and wcf host
+Implemented support for IRootSourceProvider in the IViewSourceProvider implementations and bootstrappers
+Spiked out IRootPathProvider and INancyModuleBuilder interfaces - let the re-architecutring commence
+Implemented IHideObjectMembers in the public facing API of Nancy
+Added the IHideObjectMembers interface that was created by Daniel Cazzulino
+Minor naming change
+Added a few extensions to make the security demo code clean and add trivial claims support
+Additional renaming to make bootstrapper hooks clearer
+Name changes as per Capn. CodeJunkie's Orders.. Yarrr
+Update caching demo to demonstrate selecting caching
+Yarrrr
+Added caching demo project
+AssemblyInfo fixup
+Added login demo project.
+Added initialise to bootstrapper
+Added additional comments to bootstrapper base
+Added pre and post request hooks to nancymodule
+Initial NancyEngine work for supporting module level pre and post req hooks
+Post commit hook implementation
+Pre-request hook implementation
+Added NancyContext
+Removed some more references to System.Web.HttpStatusCode
+Added own HttpStatusCode enum and removed the dependency on the one in System.Web.. One step closer to Client Profile :)
+Formatted code to be inline with the Nancy code conventions
+Added sample of using the model type name to locate the view.
+Added this[dynamic model] overload to IVewFactory that uses the model type's name to figure out the name of the view to render.
+Updated xunit to version 1.7
+Added eula.rtf for System.Web.Razor.dll dependency
+Removed us.stackdump file
+Added missing SharedAssemblyInfo.cs in the Nancy.WcfHosting.Demo project. Oh the same
+Added XML comments to the Request and Response types
+Cleaned up and added XML comments to the Nancy.* types
+Cleaned up and added XML comments to the Nancy.ViewEngines.* types
+Cleaned up and added XML comments to the Nancy.Routing.* types
+Tidied up the extension method classes a bit
+Tidied up the cookie classes a bit
+Added comments to some of the Nancy.Demo classed
+Moved file link to FileSystemViewSourceProvider into the correct WCF hosting project. Had added it to the demo project earlier
+Added xml comments to FileSystemViewSourceProvider
+Cleaned up app.config in the wcfhosting demo application
+Added view capabilities to WCF host and created Nancy.WcfHosting.Demo to illustrate usage
+Added the FileSystemViewSourceProvider to the Nancy.SelfHosting project + updated self-hosting demo to contain a static view
+Removed test that is no longer valid since the view engine stuff was rewritten
+Updated DefaultViewFactory so it returns empty view if the requested view could not be found. Also refactored the code a bit to be shorter and cleaner to read
+Updated ResourceViewSourceProvider so it provides exact file name matching instead of using .EndsWith() matching
+Refactored SparkViewEngine
+Removed unused routecollection.cs
+Cleaned up RazorViewEngine and removed dependency on IView. IView was ripped out
+Cleaned up NancyRazorErrorView a bit
+Renamed RazorViewBase to NancyRazorViewBase and ErrorView to NancyRazorErrorView
+Renamed SparkView* to NancySparkView*
+Cleaned up Spark engine and removed unused view* types in Nancy.VIewEngines
+Removed old files and added comment to spark view engine
+Ripped out some NDjango classes that's no longer needed by Nancy
+Ripped out the IViewCompiler interface
+Loads of minor clean up performed on view engine related files
+Updated Static- and SparkViewEngines
+Ripped out the old AspNetTemplateLocator
+Split our interfaces and implementations into seperate files + added xml comments and all public members
+Ripped out IViewEngine and IViewEngineRegistry
+Swapped the UnityViewLocator and UnityViewFactory with registrations of UnityEnumerableShim<T>
+Ripped out the ITemplateEngineSelector code
+Integrated route clean up code and wired up the new view engine code in the external IoC bootstrappers
+Completly rewrote view engine integration
+Implemented DefaultViewFactory
+Started refactoring view template locator
+One minor after-rebase fix
+Registered AspNetTemplateLocator as default IViewLocator in NancyBootstrapperBase
+Refactored IViewLocator to be injected via constructor (NDjangoViewEngine, RazorViewEngine)
+Refactored EngineSelector and EngineRegistry
+Removed *ViewEngineExtensions, SmartView replaced View.*
+Registered AspNetTemplateLocator as default IViewLocator in NancyBootstrapperBase
+Refactored IViewLocator to be injected via constructor (NDjangoViewEngine, RazorViewEngine)
+Refactored EngineSelector and EngineRegistry
+Removed *ViewEngineExtensions, SmartView replaced View.*
+Added SparkViewRegistry
+Removed a haml view from Nancy.Demo
+Revert "Added caching capability to ViewEngines.NHaml"
+Added caching capability to ViewEngines.NHaml
+Route filtering and tests
+RouteDescription tests
+NancyModule Tests
+NancyModule Tests
+DefaultRouteResolver tests
+NancyEngine tests
+Removed RouteDictionary fixture - route dictionary no longer exists
+RouteCache tests
+Route tests
+Removed comment now filtering is working
+Tests building - some commented out while I work the logic out
+Re-added IRouteCache interface now RouteCache is finished.
+Removed RouteCollection completely and added a routeindexer nested class.
+Removed Index from RouteDescription
+Added some comments
+Additional refactor of Route to remove parameters
+Initial refactor - need to move index and parameters around
+more route refactoring - broken
+Route now composed of RouteDescription plus parameters and action
+Removed RouteDescription
+Added Maciej Kowalewski to list of contributors
+Updated self hosting to coding convention + fixed bug where status was not set on the response
+Ensured all unreserved Uri characters are allowed in the parameters
+Added a test case to not allow percent other than escape sequences
+Support for escaped Uri characters in Uri parameters
+Forgotten changes in project files
+Added self-hosting support -- it uses System.Net.HttpListener to host a development server inside a standalone application (console, windows service, test fixture)
+Moved file and removed json.net dependency
+Moved formatters into Nancy.dll
+Forgot to save changes to sln file. doh
+Changed filename from CssResponse.cs to StaticFileResponse.cs
+Added AsCss and AsJs response formatters
+Added example of regex route in Nancy.Demo.MainModule
+Refactored the changes in DefaultRouteResolver
+Reimplemented support for HEAD request.
+Gave DynamicDictionary and DynamicDictionaryValue some love. The dictionary will now *always* return a DynamicDictionaryValue instance, even if there is no value with the name that was invoked (works for both direct member access and with the indexer). The value will have a null-value. You can now use the HasValue property on a value to see if its null or not like Request.Query.Foo.HasValue and you can also use the == and != equality operator
+Implemented possibility to specify routes using regex.
+Moved Nancy.Hosting into it's own assembly called Nancy.Hosting.Aspnet
+Updated default route pattern matcher to ignore trailing slashes on non-root requests
+Added Thomas Pedersen to list of contributors
+Added missing license files for mspec and xunit
+Split RouteResolver into two intefaces. The IRoutePatternMatcher is used to determine if the requested uri is a match for any of the routes in the routecache, i.e its the thing that understands route pattern syntaxes.. replace it to use a custom syntax..the IRouteResolver now uses the pattern matcher to figure out which routes that match the request and then decides which of the possible matches that should be choosen... also added so that it will return a 405 (Method Not Allowed) response if there were route path matches but not for the request method that was sent in
+Added Testdriven.net runner for MSpec
+Added Testdriven.net runner for xUnit
+Added implicit casting support to DynamicDictionary
+Performed some clean up in contributions
+Changed the version number in the rake file to the correct one
+Added Spark Route list example
+Inital rake build complete
+Changed coding style to fit Nancy
+Allow XmlResponse to have different content types, and default the AsXml extension to application/xml.
+Added clean and publish tasks. Started work on mspec tests (not working yet)
+Renamed all bootstrapper instances that have a capital S to a lower case s.
+Added inital rake and how to build files. This is wip.
+Pulled in an update for the Windsor bootstrapper
+Removed all project references to Nancy.Tests and replaced them with file links instead. This is in prepreation for the build script and will make it a lot easier to only run distinct tests assemblies..
+Added Chris Nicola to list of contributors
+Updated files to match Nancy coding style
+Added the changes that were mysteriously lost during the merge.
+Modified several code files to be consistent with the Nancy coding style
+Updated list of contributors in the readme
+Implemented small fix in the code that enables runtime editing of views. The problem was spotted and fixed by Bjarte Djuvik Naess
+Added support for overriding the bootstrapper in the web.config for asp.net projects - bypasses the locator completely if used.
+Added Response.AsRedirect
+Exposed the URI query parameters via IRequest/Request
+Added a ModuleKeyGenerator to handle Castle proxies properly
+Use a specific bootstrapper instead of using the locator.
+Put all of the outgoing headers and cookies into the outgoing response.
+Stop the test runner picking up the fake bootstrappers when running the WCF tests.
+Made WCF tests automatically skip if no admin permission, or run if we do.
+Included QueryString in IRequest & NancyHandler
+Added Redirect Response class
+Created Nancy.Mono.sln - basic items to get Nancy compiling on Mono and run the demos. Requires configuration of F# to get NDjango views running.
+Removed registration of IWindsorContainer since it isn't needed
+Reference project rather than output assembly
+Added WindsorNancyBootStrapper following in the footsteps of the previous bootstrappers.  All bootstrapper tests are passing.
+Updated copyright section of the readme
+Updated contributor section, of the readme, with links to their github profiles
+Bumped Nancy version to 0.0.2.0
+Updated readme to contain information about the third party bootstrappers and the fact they they won't be staying in the src
+Added missing references to ShareAssemblyInfo.cs
+Created Samples solution folder and moved Nancy.Demo into it
+Removed unused solution items folder
+Renamed Module to MainModule to reflect the file name
+Integrated bug fixes by James Eggers and Steven Robbins
+Added parameter tests and fixed up DynamicDictionary
+Removed the NHaml view engine, since the community around it appears to be dead in the water. No support for the engine by the developers, no support in Nancy. It's a fair trade! =)
+Made additional changes to the readm.. included information about the Nancy community
+Sorted out a couple of merge issues
+Updated readme file
+Integrated bug fixes by James Eggers and Steven Robbins
+Added parameter tests and fixed up DynamicDictionary
+Small fix to attempt to solve blow-ups when scanning the app domain inside Visual Studio (grr!) Updated TinyIoC to the latest version. Should probably write a helper/extension for GetAppDomainTypesFortype() as we do app domain scanning in more than one place. This fix will do for now though because I need to finish my coffee :-)
+Additional check on module discovery
+Added Unity bootstrapper.
+Added commented out request child container
+Added StructureMap bootstrapper from Jonas Cannehag. Added Ninject bootstrapper from Ian Davis.
+Added additional lifetime tests for the default bootstrapper.
+Sealed some methods on the default bootstrapper to reduce noise. Only visible overrides should now be that stuff we expect end users to override, rather than including all the bits that bootstrap authors will override.
+Overridable defaults for core types.
+Integrated bug fixes by James Eggers and Steven Robbins
+Added logical tests for the default bootstrapper to verify behaviour, lifetimes and overrides.
+Added some logical tests for the bootstrapper base class to verify that the various overrides are called correctly when overridden.
+Updated TinyIoC to the latest and allegedly greatest version.
+Some additional tests for new classes.
+Added addional fakes. Got all the old resolver fixtures working. Added some additional fixtures for new/changed functionality.
+More working tests.
+Added parameter tests and fixed up DynamicDictionary
+Enabled some more tests - showed a bug in the route resolver, now fixed.
+Updated tinyioc - only a comment removed.
+Pulled out per-request registration to an interface as some containers will manage lifetimes without child containers, but the interface still gives us some commonality for containers that support child containers for separating lifetimes.
+Partial per-request demo - not currently working, need to fixup TinyIoC.
+A couple of passign tests for NancyEngine.
+removed strange rogue files :-)
+Running example of the route cache.
+Updated autofac bootstrapper, copied the demo code from the demo app and made it use a bootstrapper derived from autofac instead to make sure it works.
+Initial stab at an autofac bootstrapper - probably doesn't work :-)
+Additional commenting and added a derived bootstrapper to the sample project
+Running bootstrapper spike.
+More bootstrapper integration - routes currently broken and non-building
+Initial work on bootstrapping and shifting to a container controlled model for instantiating modules, rather than modulemeta and INancyApplication.
+Added TinyIoC
+copying the file contents to a memory stream so we don't lock the file and make things difficult for the view developer
+Integrated bug fixes by James Eggers and Steven Robbins
+Added James Eggers to the list of contributors
+Updated Request to fix bug where Form[Key] can be null. Changed NancyHandler to use AppRelative Path instead of AbsolutePath to allow SubApplications in IIS to work.
+Added parameter tests and fixed up DynamicDictionary
+Added Vidar L. Somme to list of contributors
+Changed the imageresponse to use GetFilePath method from GenericFileresponse: HostingEnvironment.MapPath does not work in self hosted WCF services.
+Created generic FileResponse. Serves any file as a response. Possible to set custom mime type.
+Integrated contributions by Johan Danforth
+Pulled in protocal changes from James Eggers
+Minor code cleanups
+Updated IRequest to include Request's Protocol. Updated unit tests and constructors to utilize such as well.
+Integrated RouteDictionary changes with latest version of Nancy
+Added some xml comments to DynamicDictionary + cleaned up the code a bit
+Renamed RouteParamters to DynamicDictionary and moved it from Nancy.Routing into Nancy root namespace. Its functionality if being used in more places now so it makes sense to make it more agnostic
+Introduced RouteDictionary and refactored the code to use it. Nancy is now prepared for action conditions and request context support
+Added basic /routes route that lists all registered routes in the demo app
+Integrated NHaml and NDjango updates from Mindaugas Mozuras
+Added ImageResponse
+Additional code formatting changes to the Spark code - for concistency
+Gave NHamlViewRegistry a correct name
+Updated spark view engine files to better suite the overall code style in Nancy
+Added Robert Greyling to the list of contributors + updated view engines section of the readme file
+removed File concept from Response...for now
+initial work on response cookies as a first class object
+added comment for NancyModule's Application property
+razor views are associated with .cshtml instead of .razor
+trying to fix a b0rked merge
+Added Karl Seguin to the list of contributors
+Added hooks from Nancy to Spark, and included demo example similar to other view engines.
+Added a ViewFactory and a few test views to go through various scenarios that the view engine supports. Two ignored tests als added that can be deleted if we don't want to support anonymous types as view models. If we do, then a bit more code needs adding to make these tests pass.
+Added Spark Descriptors and Builders plus a bit of view caching support
+Added initial Spark projects and dependencies
+Refactored code of AppDomainModuleLocator.cs
+A couple of tests for NDjangoViewCompiler and NHamlViewCompiler
+Figured out how to make NHaml and NDjango compilers work with TextReader instead of path
+merged with main fork
+Headers is a <string, string> instead of a <string, IEnumerable<string>>
+Revert "Static response will leverage the WriteFile API for better performance"
+Refactored ViewEngines
+Static response will leverage the WriteFile API for better performance
+fixed threading issues when finding a route and the appropriate module
+removed thread-unsafe issues with how routes load modules
+Added support for automatic view engine negotiation based on extension
+Updated readme and added Steven Robbins to list of contributors
+Removed /form route form demo project
+Updated the message of the invalidoperationexception so it passes in the module type
+Cleaned up the DefaultModuleLocator
+removed thread-unsafe issues with how routes load modules
+ Altered AppDomainModuleLocator and DefaultModuleActivator to move the  responsibility of verifying that the type of derived from NancyModule  to the locator, rather than the activator.
+Added support for automatic view engine negotiation based on extension
+Brought back ViewLocationResult, added IViewCompilerWithTextReaderSupport (needs a better name)
+Added a couple of tests
+Various minor refactorings
+Pulled latest Nancy
+Removed ViewLocationResult, a couple of minor refactorings in Nancy.Tests
+Updated tests for Request class
+Moved IViewCompiler to main project, created a ViewEngine class, refactored ViewEngines.NDjango and ViewEngines.NHaml
+Updated Request.Form so it checks for content-type of application/x-www-form-urlencoded
+Optimized Request.Form so it only parses the body on the first request
+Updated the WCF host to be more terse and use more descriptive variable names
+Allow a module locator to be injected into the WCF host.
+Updated XML response formatter tests with updates provided by Andy Pike. They should now be reliable across machines
+Moved namespaces to standard place
+Refactored xml formatter tests to be more reliable
+Integrated xml response formatter by Andy Pike
+Updated contributors text in the readme file
+Added Andy Pike and Mindaugas Mozuras to the list of contributors
+Cleaned up the code for consistency
+Updated .Count() > 0 calls to Any() in the NancyEngine class
+Cleaned up the code a bit
+Removed merge files that were checked in
+Addes static view file
+Added static view engine sample route to the demo project
+Added xml response formatter, some minor refactoring and fixed build error (AssemblyInfo.cs reference)
+Completed integration
+Completed json formatter support with tests
+Added initial spike of Json formatted responses
+Minor fix
+Refactored NDjango and NHaml ViewEngines, moved common interfaces and classes to main Nancy project
+Added the missing FSharp PowerPack license
+Adding missing dependencies (FSharp.PowerPack) and licenses
+Initial implementation of Nancy.ViewEngines.NDjango
+Initial implementation of Nancy.ViewEngines.NHaml.
+Added support for passing in . characters in route parameters
+Minor fix
+Refactored NDjango and NHaml ViewEngines, moved common interfaces and classes to main Nancy project
+Added the missing FSharp PowerPack license
+Completed json formatter support with tests
+Added initial spike of Json formatted responses
+overriding GetDynamicMemberNames to aid in debugging and other scenarios
+Adding missing dependencies (FSharp.PowerPack) and licenses
+Renamed razor test fixtures
+Clean up work
+Removed spark dependencies for now, pending contribution of the integration
+Removed initial spark integration work. Robert Greyling is looking into the integration
+Cleaned up razor code
+Started Spike integration work
+Use the overloaded constructor to keep things DRY.
+Overloaded constructor to save repetition of default headers and body when creating a Request.
+Removed unused using statement
+Added Jeremy Skinner to the list of contributors. Bazinga!
+Use the overloaded constructor to keep things DRY.
+Overloaded constructor to save repetition of default headers and body when creating a Request.
+Initial implementation of Nancy.ViewEngines.NDjango
+Introduce IModuleActivator to support being able to use an IoC container to instantiate modules. Introduced CreateModuleLocator method in NancyHttpRequstHandler to support easily providing a custom INancyModuleLocator/IModuleActivator
+Initial implementation of Nancy.ViewEngines.NHaml.
+Changed the output path of compiled razor views. Its not stored in windows temp directory. Possibly not the best location
+Updated readme file with information about view engine integrations
+Updated readme file with information about view engine integrations
+Updated contributor section of the readme file
+Applied some refactorings. Added unit tests.
+Initial proof of concept. It works. It needs to be completely rewritten and refactored.
+Removed reference to web project
+Updated readme.mb to contain information about HEAD requests being supported
+Added missing files
+Integrated contributions by Joao Bragnaca
+Turned Headers property, on the Response type, into read/write
+Solved some merge issues
+fixing bug where setting the route parameters via indexer (which is how the engine does it) would not support dynamic casting
+Proving that implicit casting works
+Cleaned up the RouteParameters class a bit
+Adding support for dynamic casting of parameters
+Updated readme file to markdown syntax and added contents
+Support for HEAD requests
+Added StaticViewEngineExtension prototype in ViewEngines namespace. Is will render static files when provided the virtual path of the file
+Updated Response so that it can be cast from Action<Stream>
+Cleaned up the TestModule class in the WCF host test project
+Swapped out the MEF based module locator for one that scans the application domain and caches the results for future requests. Should improve performance quite a bit.
+Removed reduntant code from implicit cast operators. No longer needed since default values are in place
+HttpHandler now returns headers set to Response object
+Added default values to new instances of the Response type
+Removed unused cache class
+Added support to the NancyHandler so that it writes Response headers
+Added Jason Mead into the list of contributors
+More clean up
+Minor code clean up
+Request body is now available via WCF.
+Added failing test.
+Renamed test fixture and improved comment about admin privileges.
+Cleaned up NancyModule after having gotten rid of reflection dependency
+Removing need for reflection from GetRouteDescription
+Added empty test fixture for NancyHandler
+Added support for x-www-form-urlencoded form values in the request.form property
+Introduced Headers and Body properties on Request
+Created an abstraction for the HttpHandler host to make it more testable
+fixing bug where setting the route parameters via indexer (which is how the engine does it) would not support dynamic casting
+Expanded the definition of IRequest
+Proving that implicit casting works
+Added contributor section to readme file
+Updated copyright information in SharedAssemblyInfo.cs
+Updated SharedAssemblyInfo.cs
+Renamed WCF host folders to match project name
+Adding support for dynamic casting of parameters
+Added module path example to readme file
+Added action parameter example to readme file
+Updated WCF host to support the new response model of Action<Stream>
+Updated WCF stuff to reflect correct project names and namespaces
+added the files that were forgeted in the last commit
+added minimal support for hosting on WCF
+Updated readme file to markdown syntax and added contents
+Added MIT license file
+Support for HEAD requests
+Updated readme file to markdown syntax and added contents
+Added MIT license file
+Updated Reponse to represent an Action<Stream> to support richer return scenarios
+Updated NancyHttpRequestHandler to pass in HttpMethod to the Nancy request instead of RequestType
+Using xUnit's Record.Exception instead of custom Catch.Exception
+Renamed BasePath to ModulePath on the NancyModule class
+Updated View and Response properties on the NancyModule so they make sense
+Added View and Response properties on NancyModule as extension points
+Removed unused project
+Implemented initial versioN
+Updated tests for NancyModuleLocator
+Changed Route property of Request to string from Uri
+Started implementing RouteResolver
+Moved routing related files into Nancy.Routing namespace
+Implemented tests for NancyEngine
+Started implementing features
+Updated ignore file to exclude additional resharper files
+Added mono develop and OS X files that should be ignored to .gitignore
+Added mono develop and OS X files that should be ignored to .gitignore
+Added mspec dependency + reference from test project
+Added test assertion helpers
+Settings the stage for magic
+Initial commit

@@ -1,0 +1,624 @@
+Fix uberjar test to use input streams instead of relying on reflection.
+Fix exit code test.
+Fix CI config.
+Fix bug where composite profiles leaked into downstream deps.
+Fix deps test to allow overriding gpg home.
+Fix reference to `:java-source-paths`
+Fix TLS tests to use a properly bad certificate.
+Fix and expand the pom-addition section
+Fix infinite loop when unpatched gpg used with openpgp keyservers
+Fix lein test returning 0 exit code on failure
+Fix release script.
+Fix missing quote in bin/lein-pkg.
+Fix issue where deps :query shows a transitive dependency version
+Fix #586 for Windows as well
+Fix broken pprint plugin
+Fix mistaken uses of non-side-effecting when.
+Fix #2571: filter the timestamp from pom.properties
+Fix aether args in "deps :verify" task
+Fix partially composite profile setup
+Fix empty/default test selector logic
+Fix regex used to parse "-D" JVM args
+Fix regex for key ID in GPG output
+[Fix #2514] Mention the switch to nREPL 0.5 in the changelog
+Fix repl initialization with a different transport
+Fix warning in lein.ps1 - Fixes #2502
+Fix repl init-ns to work with unqualified symbol.
+[Fix #2497] Address an nREPL regression that had broken "lein repl"
+Fix classifier regex.
+[Fix #2492] Respect nREPL's configuration files
+Fix test file.
+Fix a test which encoded incorrect assumptions about repl ns.
+Fix using :main for default repl init ns in Clojure 1.9.
+Fix a typo
+Fix typo in PROFILES.md
+Fix typo in French irony
+Fix a bug where we tried to use keywords as credentials.
+Fix test for lein new.
+Fix a bug where :eval-in :leiningen was shadowed.
+Fix gitlab mirror link.
+Fix a bug where :eval-in defaulted to nil instead of not-present.
+Fixed comments formatting.
+Fix #2336 - cgroups detection, again
+Fix typo: coundn't -> couldn't
+Fix test for Java > 1.8.0
+Fix boolean logic in Java version check for cgroups memory limit JVM option
+Fix missing word in example
+Fix #2284: avoid visiting checkouts we've already seen
+Fix loading of reply to handle repo auth correctly.
+Fix a bug in deps :why.
+Fix memoization for get-dependencies. Fixes #1781.
+Fix offline fallback in get-dependencies-memoized.
+GPG: Fix Homebrew’s homepage
+Fix sample project.clj issues.
+Fix typo in sample project comments.
+Fix test which dumps files in project root.
+Fix misplaced docstring.
+(#2216) Fix bug with managed deps in profiles w/:replace
+Fix checking for SNAPSHOT deps with managed deps - fixes #2205
+Fix typo in example usage of lein-parent
+Fix small ps snags, ref #2174
+Fix proxy issue.
+Fix naming in tutorial, fixes #2130
+Fix for issue #2156
+Fix issue #2091
+Fix issue #2082
+Fix #2145: extra whitespace added to JVM_OPTS
+Fix plugin profiles documentation
+Fixed character escaping issue
+Fix for issue #2073
+Allow user repositories with uberjar Fixes #2098
+Fix file handle leak in pom.properties FAQ
+Fixup subscription email
+Fix typo on PROFILES.md
+Fix compile warnings related to c.c/update
+Fixup dependency vector in TUTORIAL.md
+Replace old HttpWagon conn-mngr setup. Fixes #1746
+Fixed unnecessary variable
+Fix docstrings for checkout functions.
+Fixed typo
+Fix some typos, warn about lack of security.
+Fix .hgignore in new with regex. Fixes #1815
+Fixes #1420
+Fixes technomancy/leiningen/#1308
+Fix for retaining :uberjar-name from profiles.
+Fix an issue when deploying project to Clojars.
+Fix jar task for :classifiers
+Fix broken lein self-install
+Fix inclusion of explicitly added profiles in jar
+Revert "Fix aliasing recursion with with-profile"
+Fix aliasing recursion with with-profile
+Fix erroneous shell command form, fixes #1683.
+Fix jar task broken by 87c3499
+Fix a test.
+Fix loading profiles from plugins.
+Fix pom for case with added profiles
+Fix with-profile test
+Fix pom with non-default :default profile
+Fix up namespace completion
+Fix grammar and print exit code from http client.
+Use pr-str for clj/sjacket roundtrip. Fixes #1632.
+Fix for issue 1607
+Fix deploy task to work with signature files.
+Fixed the testing string for the test-write-jar function
+Fix the test that's been failing on Travis
+Fix change task test to not be overly specific.
+Better message when task ns exists, but not task function. Fixes #1299.
+Fix LEIN_FAST_TRAMPOLINE path. Fixes #1562.
+Fix bad eval test.
+Fix leiningen.core.ssl lazy-load.
+Fix write-pom-properties to work when outside project dir.
+Don't add all files in git vcs commit. Fixes #1558.
+Fix uberjar download link in lein.bat.
+Fix release task to use resolve-and-apply as its entry point.
+Fix splicing for partial aliases.
+Fix some formatting in deploy task.
+Fix check task
+Document use of the SSH wagon. Fixes #1540.
+Fixed change task to work with newlines
+Fix passing of stale project map bug.
+Fix things broken by late rename
+Fixup regular expression to be less lenient
+Fix release tests.
+Fix assert-uncommitted.
+Fix up version parsing code.
+Fix version-map->string and associated test.
+Add auto-clean to deploy task. Fixes #1512.
+Catch and print query parsing exceptions in search task. Fixes #1507.
+Catch exceptions updating indices in lein search. Fixes #1508.
+Fix weird de-duping behaviour in pom.
+Actually use :plugin-repositories. Fixes #1474.
+Clarify a few points of documentation. Fixes #1475.
+Fixes #826; Redirect info messages to *err*
+Fix executable test - add force option since test is being run in system temp directory
+Fix bug where use of :to-dir option with an existing directory does not generate an error
+Clarify credential prompt message in deploy task. Fixes #1435.
+Fix tests for task arity mismatch abort messages.
+Fix test failures due to missing artifacts.
+Fix for #1458: clean-targets sanity checks.
+Retain metadata after profile setup. Fixes #1414.
+Allow non-string args to compile task. Fixes #1442
+Fix for issue 1455
+Fix Issue 1422 - add help text to repl and uberjar tasks documenting implicit profile application
+Fix issue 1444 - Leiningen errors if profiles.clj is blank.  Push try-catch from user/load-profiles to utils/read-file, print helpful error message from utils/read-file, and bubble exception up.
+Fix add-profiles so they can be merged by name
+Fix #1421 by decomposing profiles into collections of atomic profiles.
+Fix a bug where show-profiles was stripping profile namespaces.
+Fix "singing"/"signing" typo.
+Fix minor wording in 'lein new' comments.
+Fixes classpath issue under msys
+Fix punctuation in sample.project.clj comment
+Fix typo.
+Clarify java compiler not found message. Fixes #1322.
+Fix 'repl :connect <port>' when used outside of a project [fixes #1344]
+Fix unusual/extra whitespace in sample.project.clj.
+Fix typo in lein template invocation command.
+Warn when nrepl dependency isn't found. Fixes #1330.
+Fix tutorial repl message. Addresses #1317.
+Fix a bug where specified repl host was ignored.
+Fix a bug where *cwd* wasn't honored for project parsing.
+Write .nrepl-port file in addition to .lein-repl-port. Fixes #1296.
+Fix pom tests.
+Run repl :init inside init-ns. Fixes #1250.
+Fix NoClassDefFoundError when path has spaces
+"Fix" uberjar test, and make jar defn private.
+Fix wonky newlines.
+Exit if trampoline file is empty. Fixes #1254.
+Always add concrete filespec files. Fixes #1242.
+Fix problem with spaces in user-profile.
+Fix garbled sentence and broken formatting.
+Fix docstring and cosmetics on abort message.
+Fixed long line support in make-manifest.
+Fix long line.
+Crash on :aot [does.not.exist]; also regression test; Fixes #1205
+Fix a bug where the manifest is missing its last line.
+Fix for issue #1113: file paths with spaces are not passed correctly as javac arguments on Windows
+Fix typo in NEWS.md
+Fix markdown render issue in GPG.md.
+Fix -o and -U aliases to be additive.
+Fix classpath test to match new checkout-deps behaviour.
+Normalize :mirrors like :repositories. Fixes #1171.
+Fix a bunch of tests from reorg-repl.
+Fixes issue 1144. The fast trampoline functionality now works properly in the absence of a .lein/profiles.clj file.
+Fix copy-to-jar duplicate checking for directories.
+Fix merge-profiles call
+Use platform-specific newline. Fixes #987
+Fix version range check for cyclic dependencies
+Add resolve-and-apply to main and use it Fixes #1120
+Add resolve-and-apply to main and use it Fixes #1120
+Fix typo in sample project
+Fix options-for-reply
+Fix self-install dev heuristic to refuse to operate on a checkout.
+Fix #1103 by bumping stencil dependency.
+Fix missing args in connect-string
+Fix support for specifying host and potn
+Move repl dependencies to dev profile. Fixes #1076.
+Fix repl test.
+For :headless just call start-server Fixes #1093
+Fix for incorrect escaping of parameters on Windows fixes #863 - exception when running lein check
+Fix a bug I introduced to show-profiles; woo.
+Fix trampolined repl.
+Fix NEWS dates and add a few missing entries.
+Fix typo in key-manager-factory; memoize entire make-sslcontext.
+Fix repl test.
+Fix formatting of repl task.
+Abort when passwords cannot be read. Fixes #957.
+Split out get-classified-jar-filename. Fixes #1039.
+Use set-profiles in trampoline task. Fixes #1044.
+Fix docstring typo
+Document non-traditional javac compilation order. (from Quoll) Fixes #847.
+Bump http-wagon version. Fixes #1051.
+Fix repo credentials when no credentials in url
+Implement system-level profiles. Fixes #981.
+Fix reporting resolving issues other than for missing artifacts.
+Fix tests to no longer look for shouty output prefix.
+Fix some typos
+Fix FAQ formatting; link to "Faster" wiki page.
+Fix lein test exit code when :eval-in :leiningen
+Fix typos.
+Gracefully handle javac errors. Fixes #994.
+Fix stack overflow on with-profile self-aliases
+Don't follow symlinks when cleaning. Fixes #988.
+Fix long javac commandline error
+Fix typo in min-version-warning.
+Remove swank from examples in profiles doc. Fixes #947.
+Use 1.7.1 tag in readme instead of stable. Fixes #946.
+Gracefully stop reading input in sub-process. Fixes #934.
+Treat :user in profile.clj as project map when outside of project. Fixes #931.
+quadruple bacon deluxe backslash for Windows. Fixes #920.
+Fix upgrade command.
+Fix newnew test
+Move downloads to S3 bucket. Fixes #885.
+Fix tests re: central snapshots.
+Avoid NPE in trampoline's win-batch? detection. Fixes #896.
+Avoid crash in lein.bat when path contain spaces. Fixes #907.
+Normalize repositories in project map before merging. Fixes #858.
+Make jar accept alt. main class as arg. Fixes #897 and fixes #899.
+Fix typo in sample.project
+Enforce nREPL dependencies in :repl profile. Fixes #893.
+Fix ^:displace and ^:replace handling in meta-merge
+Fix deploy link in tutorial
+Fix bizarre pom indentation.
+Whitelist certain keys into jar/uberjar creation. Fixes #770.
+Fix classpath test.
+Upgrade to lein-newnew 0.3.6. Fixes #865.
+Make javac run in a subprocess. Fixes #809.
+Fix a leiningen-core project test case
+Fix link in DEPLOY.md to use preview branch. Fixes #862.
+Accept string for :license. Fixes #853.
+Fix `lein deploy clojars` issue by bumping clj-http in order to use repeatable http entities
+Fix error message when there's an arity mismatch in apply-task.
+Fix global exclusions test broken by meta-merge changes.
+Fix usages of when for return values.
+Check Clojars releases repository instead of classic. Fixes #241.
+Fix font-lock in bin/lein
+Hooks that come from profiles can be rolled back. Fixes #802.
+Fix src/resource paths when with-profile is trampolined. Fixes #822.
+clojure.walk strips metadata. Fixes #804.
+Fix profiles doc example
+Fix some typos in eval.clj tests.
+Fixed problem with building a project when .git is a file
+Load plugins in set-profiles. Fixes #772.
+Allow repl profile to be overridden from project.clj. Fixes #789.
+Fix repl tests.
+Fix environment passing to project JVM.
+Fix typos in lein script for download_failed_message
+Don't use fast trampolines outside a project. Fixes #777.
+Improve error message when javac is missing. Fixes #774.
+Print message from with-profile exceptions. Fixes #764.
+Fix pom and deploy tests.
+Fix bug where normalize-repos wasn't honoring mapization of entries.
+Fix some of the tests.
+Fix trampoline file to work with Drip
+Echo $LEIN_JAR path in self-install. Fixes #753.
+Clarify usage of .lein-classpath during plugin development. Fixes #750.
+Fix warn-user-repos for new :repositories format.
+Make nrepl listen on 127.0.0.1 by default. Fixes #748.
+Fix #742, explicit middleware load error
+Fix with-profile task to work from the base project rather than being additive.
+Fix with-profiles to work outside project dir.
+Load hooks inside reset-profiles. Fixes #740.
+Fix out-of-project repls.
+Latest lein-newnew version. Fixes #638.
+Fix project-level conditional for fast trampolines.
+Fix file leak when not using fast trampolines.
+Cache trampoline commands. Fixes #573.
+Support setting HTTPS proxy properties. Fixes #706.
+Fix bugs in pom and repl tests.
+Document gpg key generation in deployment guide. Fixes #721.
+Collapse search results into single list of hits. Fixes #683.
+Support larger .lein-classpath in .bat. Fixes #724.
+Read nREPL handlers and middleware from project. Fixes #716.
+Fix pom signature filename. Fixes #722.
+Fix typo in pom task.
+Fix pom schemaLocation URL. Fixes #714.
+Write repl port to file in target. Fixes #682.
+Improve abort messages. Fixes #684.
+Explicitly require drawbridge client namespace. Fixes #702.
+Bump ordered dependency. Fixes #697.
+Update bundled clojars.org SSL certificate. Fix #692
+Fix heuristic for when to show stack trace in with-profiles.
+Fix profile merge explanation.
+Allow successive eval-in-project calls with trampoline. Fixes #665.
+Fix existing :post-preview tests for cleanup.
+Fix pom tests to reflect sample project change.
+Don't decrypt credentials.clj.gpg for every request. Fixes #657.
+Plumb through mirror support to pomegranate. Fixes #271.
+Allow aliases to shadow task names. Fixes #660.
+Fix test for lein-newnew.
+Make problems loading project.clj explicit. Fixes #648.
+Qualify implicit ::test profile. Fixes #659 for real, hopefully.
+Move hooke injection to :test profile. Fixes #659.
+Reintroduce project.clj at jar root for lein1 compatibility. Fixes #656.
+Fix when-stale invocation for native extraction. Fixes #647.
+Fix for Issue #589 lein 2 leaves 'stale' directories all over the place
+Fix tests for bootclasspath.
+Use bootclasspath inside eval-in-project. Fixes #639.
+Fix checkout detection logic in lein.bat; fixes #579.
+Fix messed up order of os.name os.version for #636
+Mention keychain for handling gpg passphrases. Fixes #615.
+Move task chaining to do task. Fixes #632.
+Document using .lein-classpath for developing plugins. Fixes #508.
+Bump Bultitude version. Fixes #592.
+Use env in bash shebang. Fixes #624.
+Don't mess with HTTP_CLIENT setting. Fixes #623.
+When outside project load the default project map. Fixes #613
+Load SSL certificates even when running outside of a project. Fixes #613
+Register certificates before calling get-classpath.  Fixes #613
+Use cygpath in upgrade target path. Fixes #583.
+Change default :checksum policy to :fail. Fixes #571.
+Fix #31: Exclude RSA signature files from being included in uberjars.
+Warn when keys are missing from project.clj. Fixes #607.
+Quote each element of trampoline command. Fixes #606.
+Honor aliases in with-profile. Fixes #598.
+Emit user-friendly message when deploy fails. Fixes #602.
+Apply middleware before profiles are merged. Fixes #599.
+Re-create compile-path after prepping if necessary. Fixes #596.
+Output correct groupId tag for exclusions in pom.  Fixes #593
+Proxy environment variables are now converted to -Dhttp.proxyHost and -Dhttp.proxyPort JVM args for subprocesses. Fixes #594.
+Fix uberjar exclusion for signature. Fixes #31.
+Check :target-path before writing stale file. Fixes #589.
+Skip checkouts that don't define a project. Fixes #580.
+Make in-project .lein-classpath work for specifying plugins. Fixes #508.
+Fixed some quotes.
+Fix classpath test.
+Fix typo.
+Improvements in lein.bat.   Changed to look for file .lein-classpath only when running from source checkout.   Fixed construction of variable CLASSPATH to avoid unnecessary quotes and semi colons.   Removed option Xbootclasspath from command line.
+Move lein-newnew plugin to default profile. Fixes #540.
+Fix tests to not spew out "stale" directories in root.
+Fix JVM_OPTS with spaces, mostly. Closes #565.
+Fix formatting of lein-core/project test.
+Fix merge-profile, which was incorrectly appending to the :included-profiles meta.
+Fix install test.
+Fix bugs in unmerge-profiles. Add a test for unmerge-profiles.
+Friendlier error message when deps can't be found. Fixes #546.
+Fix deps test to clean whole target dir.
+Don't re-extract native deps unless deps have changed. Fixes #535.
+Fixed quoting inside generated trampoline command to pass arguments correctly.
+Fix search test.
+Clarify that :extensions aren't used by Leiningen. Fixes #555.
+Fix typo
+Fix for trampoline command parsing on Windows.
+Ignore user profiles in classpath tests. Fixes #550.
+Fix a test.
+Fix deps test.
+Use :without-profiles when calculating pom for inclusion in jar. Fixes #537.
+Fix native-path and repl test failures.
+Bump lein-newnew to 0.2.7. Fixes #533.
+Move project.clj included in jar to path under group/artifact. Fixes #521.
+Fix :offline? project key to have question mark.
+Ensure deps are calculated in prep. Fixes #433 for real.
+Fix tests for new pomegranate and newnew versions.
+Bump lein-newnew version. Fixes #507.
+Replace :javac-options map with vector. Fixes #450.
+Mention new `:dependencies` settings in sample.project.clj. Fixes #501.
+Remove last vestiges of exit-code-as-return-value. Fixes #510.
+Automatically activate offline profile when needed. Fixes #478.
+Handle global exclusions in all dependency cases. Fixes #498
+Fix get-proxy-settings when http_proxy isn't set.
+Use main/info instead of println for loggish things. Fixes #473.
+Fix merge-profiles so that it does not clobber existing metadata in the project map, but instead merges.
+Fix deps :tree test.
+Translate nonzero exit codes into exceptions. Fixes #493.
+Call prep in jar task instead of invoking compile directly. Fixes #487.
+Fix repl task when run outside project.
+Fix absolutize to no longer assume unix paths.
+Store :trampoline-promise in metadata instead of in project map. Fixes #490.
+Fix :without-profiles as per suggestion in #488.
+Fix merge-profiles so that :included-profiles metadata is added to if it is already present, instead of overwriting it.
+Change :type to :extension in sample. Fixes #457
+Poms generate dependency options. Fixes #483
+Bump repl connect timeout back up. Fixes #433.
+Whitelist classpath to just zip/jar files. Fixes #481.
+Bump bultitude dependency. Fixes #477.
+Move AOT to :release profile. Fixes #471.
+Fix example in tutorial. Fixes #449.
+Fix help task to call tasks function.
+Fix target/classes vs classes mismatch in bin/lein.
+Fix clean GC slowdown bug.
+Pretty-print pom.xml. Fixes #429.
+Update news and bash/zsh completion scripts. Fixes #437.
+Fix documentation on add-repo-auth function
+Bump lein-newnew plugin to 0.2.4. Fixes #427.
+Set classifier in pom. Fixes #349
+Move :test-path into default-project. Fixes #416.
+Fix eval-in-project compatibility shim docstring.
+Use ordered maps for :dependencies and :repositories. Fixes #400.
+Check for :repository-auth when deploying. Fixes #402.
+Fix a few leiningen-core tests.
+Fix locking call.
+Fix hooks example in plugin guide.
+Fix compilation test for numeric eval-in-project return values.
+Fix docstring typo
+Fix compile tests.
+Fix missing quote in readme
+Fix markdown typo in README.md
+Fix lein-classpath calculation; the shell hates me for some reason?
+Fix trampoline task.
+Fix bootstrapping instructions.
+Fix jar task with jar-inclusions
+Fix a bug in pom inclusion when jarring.
+Fix version comparison for multi-digit version segments (e.g. 1.273)
+Fix "lein new" tests to not care about order on disk.
+Fix tests for main in leiningen-core.
+Fix typo.
+Fix running-from-a-checkout detection in bin/lein.
+Fix comma-chaining in leiningen.main/-main.
+Fix checkout-deps classpath test.
+Fix other skeleton templates to use :eval-in-leiningen.
+Fix help task to work with plugins added to the classpath dynamically.
+Fix default skeleton. org.clojure/clojure is no longer special-cased.
+Fix help task.
+Fix "lein compile :all".
+Fix jar task. Punt on shell wrappers for now.
+Fix compile task and tests. Punt on transitive cleaning for now.
+Fix deps tests.
+Fix test task for :test-path-as-collection.
+Fix a couple tests.
+Fix run tests.
+Fix and test profile aliases.
+Fixed a bug where if the java-source-path was the same as source-path, `lein jar` would try to include things twice resulting in duplicate zip entry errors.
+Fix a bug where native deps were not being added to the java.library.path. Hyphens vs dots.
+Fix a bug where native deps were not being added to the java.library.path. Hyphens vs dots.
+Fixed deps task; tests are still a mess.
+Added newlines to the end of all template files. Fixes #339.
+Fix silly classpath test.
+Fix test task.
+Fix eval-in-project and project/read.
+Fix compile task.
+Exit Leiningen's JVM whenever project's process has exited. Fixes #324.
+Fix trampoline task for lein.bat.
+Avoid NPE in deploy task. Fixes #308.
+Look for main functions on Java classes in run task. Fixes #249.
+Fix compile test.
+Fix a bug where interactive task would break upon exceptions. Fixes #269.
+Rebind *err* inside repl-server form. Fixes #286.
+Default to Clojure 1.3.0 in new projects. Fixes #288.
+Allow non-jar files on the classpath. Fixes #244.
+Fix trampoline to work with leiningen.compile/sh. Fixes #317. Fixes #312.
+Check for file on disk before assuming :main should be AOT'd. Fixes #249.
+Remove old versions of plugins at plugin install time. Fixes #301.
+Perform deps fetching before compilation in jar task. Fixes #306.
+Fix test exit code in :eval-in-leiningen.
+Fix off-by-one.
+Fix missing argument in interactive/eval-client-loop.
+Fix manpage
+Upgrade to maven-ant-tasks 2.1.3, explicitly add disabled "central" repository when :omit-default-repositories is true. Fixes #211.
+Add resources/ to Leiningen's own classpath. Fixes #248.
+Fix native-deps test.
+Fix readable form escaping on windows.
+Fix search page count. Fixes #237.
+Fix a bug where "lein plugin install" skipped deps.
+Run eval-in-project using clojure.java.shell. Fixes #239.
+Separate JVM_OPTS and LEIN_JVM_OPTS. Fixes #233.
+Separate JVM_OPTS and LEIN_JVM_OPTS. Fixes #233.
+Fix typo in jar name in lein-pkg.
+Don't clear out lib/dev when jarring. Fixes #221.
+Block in repl-server to avoid triggering shutdown-agents. Fixes #227
+Fix typos.
+Fix an issue with leiningen's tests on Windows.
+Fix bootclasspath to use 1.2.1 in lein.bat.
+Fix bootclasspath to use clojure 1.2.1.
+Fix standalone repl.
+Load ~/.lein/user.clj inside project if present. Fixes #215.
+Fix uberjar for Leiningen itself.
+Fix missing prep arg.
+Fix trampoline task.
+Fix interactive for :eval-in-leiningen projects.
+Return filename from uberjar task. Fixes #213.
+Project names must be readable symbols. Fixes #214
+Fix typo.
+Don't trust (System/getProperty "user.home"). Fixes #204.
+Exclude dotfiles by default. Fixes #208.
+Fix new task to set project-name in project.clj.
+Fix search test.
+Expand nested jars in :native-dependencies. Fixes #207.
+Fix in-ns call in for :repl-init/:main.
+Fix extraction of license information from defproject form
+Fix traversing up dir hierarchy to find project root.
+Fix native-deps unjar. Unify :dependencies and :dev-dependencies better.
+Catch _all_ exceptions when loading tasks. Fixes #201.
+Fix search and uberjar tests.
+Fixed zsh error.
+Enabled correct quoting, editor support in rlwrap. Fixes #188.
+Allow spaces in lein checkout dir. Fixes #186.
+Prevent ns load exceptions from halting help. Fixes #187.
+Quote :repl-init ns inside rep-options form. Fixes #191.
+Pass $https_proxy environment variable to curl. Fixes #189.
+Honor init arg in eval-in-project when compiling in-process. Fixes #192.
+Fix the order of make-dependency arguments.
+Fix version comparison by using Maven API.
+Fix user-settings arity typo.
+Fix warning prompt when running as root.
+Allow multiple Java source paths. Fixes #155.
+Be more careful handling failed downloads in lein upgrade. Fixes #153.
+Fix repl in interactive task.
+Fix mispaste.
+Fix repl for :eval-in-project projects.
+Place the project jar last in the uberjar. Fixes #178.
+Separate :uberjar-exclusions from skip-set for performance. Fixes #160.
+Suppress reflection warnings for repl task. Fixes #176.
+Fix repl-options vector.
+Fix chaining of tasks.
+Fix test-jar and test-pom.
+Don't def project to var named after project. Fixes #147.
+Fix test-pom to watch for abort.
+Fix test_deploy.
+Fixed script-template for windows. Made it similar to the shell script so that the %s replacements occur in the right order
+Fix deploy test.
+Catch errors when requiring tasks in help. Fixes #172.
+Compojure is grandfathered in. Fixes #164. (close enough)
+Fix deploy/deps arities.
+Fix deploy task to use :repositories for configuration.
+Fix case of not finding :deploy-to when no options are provided.
+Fix deploy test.
+Fix bug in classpath task when checkout project uses custom paths
+Set $PROJECT.version as system property. Fixes #156.
+Fix docstring for clean task.
+Honor init form in eval-in-project. Fixes #152.
+Fix condition in native-path calculation. Thanks to wburke.
+Fix lein run first argument bugs.
+Fix a lein.bat bug when run from the root folder.
+Fix a bug in lein.bat when LEIN_DIR contains parens.
+Fix bug where plugins didn't take precedence in lein checkouts.
+Add a test for :skip-aot on :main. Fixes #145.
+Switch off :clean-non-project-classes by default. Fixes #141.
+Fix argument order for install & plugin install.
+Fix a test that wasn't testing anything.
+Wrap leiningen.original.pwd in quotes. Fixes #143.
+Fix tests to reflect sample project version change.
+Fix exit code of test! task.
+Fix sample.project.clj documentation of :repl-options.
+Fix rlwrap detection on Solaris.
+Fix conditional for falling back to JLine.
+Fix path issue in javac task. Fixes #138.
+Fix test to reflect run task bugfix.
+Fix zero-arg run task case.
+Fix bug in run task with no args.
+Fix jar task for projects with no dependencies. Fixes #123.
+Don't allow JLINE env var to mess up lein run. Fixes #131.
+Fix unquote-project to preserve forms in test-selectors.
+Show exceptions reading test namespaces. Fixes #127.
+Fixes for bootstrap classpath in :eval-in-leiningen.
+Fix post-AOT cleanup to use package-based deletion heuristic.
+Fix ant group name
+Fixes for lein install, due to new scoping of functions
+Replace dots with slashes in ~/.m2 path. Fixes #104.
+Fix for :repl-init-script. Change (File. str) to (File. (str is#))
+Update docstring for 'clean'. Fixes #103.
+Fixed error displaying if no :min-lein-version is specified.
+Fix sample.project.clj typo.
+Fixed compile test
+Use our own namespace lib instead of contrib's. Fixes #94. Fixes #98.
+Add an error message for reader exceptions. Fixes #95.
+Fixed the explosion of REPL on bad input.
+Fix :main example in sample.project.clj.
+Fix install task to expand $HOME.
+Fix project-needed? to work with projects that may take project arg.
+Fix jar to work with custom shell wrappers.
+Fix help task to ignore hooks.
+Fix infinite loop in core/-main when called w/o args.
+Oops; shell scripts don't use ==. Fixes #93.
+Clean up make-manifest. Fixes #46.
+Wrap checkout-deps read-project with more useful message. Fixes #85.
+Fix problem using jline on cygwin on later versions of windows
+Quote argument in shell script. Fixes #79.
+Fix help message in interactive task.
+Fix uberjar ns form.
+Don't freak out if OS isn't in native-names. Fixes #81.
+Merge remote branch 'alexott/master'; Fixes #77.
+Fix typo breaking uberjar.
+Refactor clean task. Fixes #64.
+Fix problem with uberjar
+Fix an entry in the sample.project.clj file.
+Fix use clause in classpath ns.
+Reverse order of checkout deps vs lib deps in classpath. Fixes #72.
+Don't use rlwrap if inside Emacs. Fixes #73.
+Fix repl to exit properly on ^D char. Fixes #69.
+Fix pom/make-repository to work after changing deps/make-repository.
+Fixed whitespace in munge-project-args.
+Support uberjar out of non-default directories. Fixes #60.
+Implicitly clean lib/ before running deps. Fixes #61.
+Check for Windows in the tests. Fixes #32.
+Fix #54; make sure all tasks have fn-level docstrings.
+Fix #48; clear out lib/dev in lein clean.
+Fix error message on missing task.
+Fix infinite loop when core/-main called with no args.
+Fix classpath calculation to use ls instead of find. (Thanks Licenser)
+Fix incorrecty formed jarname in uberjar.
+Fix jar task and add test.
+Fix test_new.
+Fix java paths on cygwin and allow spaces in the LEIN_JAR directory path.
+Fix indentation and remove outdated todos.
+Fix to lein-jar path resolution bug.
+Fix test file for generated projects.
+Fix some readme links.
+Fix for JDK 1.5 compatibility.
+Fix NPE when using -Xbootclasspath with transitive requires.
+Fix compiling of namespace that include a - character.
+Fix fat-fingered pom generation from jar task.
+Fix central repo URL, and separate out deps vs pom repo/dependency classes.
+Fix dependencies test.
+Fix markdown in readme.
+Fix dependency unpacking to use right directory.
+Fix defproject. Unfortunately build.clj needs to call it fully-qualified.

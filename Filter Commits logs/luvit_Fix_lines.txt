@@ -1,0 +1,194 @@
+Fix test-tls-server-verify by removing -tls1 arg
+Fix test-colors not being deterministic
+Fix querystring stringify test being non-deterministic
+tls: Fix for OpenSSL 1.1.0
+process: Fix signals being closed before all their listeners are removed
+Fix make.bat for updated get-lit.ps1
+Fix process.stdin abort when stdin is redirected from a file
+Fix abort when redirecting stdout/stderr to file
+Fix shields.io Freenode badge (#1082)
+childprocess: Fix exec on Windows
+Fix http-codec failing occasionally during chunked decoding
+Fix Stream.Readable.unpipe when piped to multiple streams (#1020)
+Fix http-codec not reading full header when a header has no value (#1021)
+Fix appveyor.yml parse error  - The notifications section seems to have been copied from .travis.yml and was never actually doing anything, but now appveyor fails the build due to a parse error
+Fix bundle requires on Windows
+Fix require to look in bundle *after* filesystem
+Fix easter egg
+Fix test-fs-readfile-zero-byte-liar
+dns: Fix IPv6 address matching (#946)
+Fix test-readline
+[Readline]Fix UTF-8 character's bugs and displaying problems.
+Fix childprogress.exec return.
+[readline]Fix error when cover is nil(default)
+Fix position when repl cover is not exactly 1 character wide (#913)
+repl: Fix error() calls with a non-string message breaking the repl
+Fix sni test to actually test something and not race and leak
+Fix require to use proper paths for loadstring whenever possible (#896)
+Fix truncated paths in stack traces for modules on disk (#896)
+Fix typo in repl
+Fix homepage link for resource module
+Fix luvit-loader to always look for builtins first
+Fix bundle path resolving
+Fix: use system setting for dns server addresses
+Fix memory leaks in examples/tcp-echo-server.lua
+Fix once removal using magic function table
+Fix iter to not skip nameservers
+Fix uncaught errors in tap
+http: Fix another case of duplicate user-agent headers
+http: Fix duplication of host/connection/user-agent request headers
+Fix typoes.  We don't want undefined globals
+Fix easteregg in repl
+Fix stack overflow when terminal width is 0
+Fix deep-equal and bad dep in process
+Fix extension match
+Fix extension match
+Fix typos in readline's escapeKeysForDisplay
+readline: Fix case where multiple control characters get entered at once
+Fix obsolete instructions in the README
+readline: Fix case where multiple characters get entered at once.
+Fix no-color mode (closes #679)
+Fix connect alias in net module, bump to 2.0.5
+Fix the order of the ClientRequest:done to ensure the codec's terminator is sent last.
+Fix ServerResponse:finish, improve tests
+Fix HTTP chunked request termination, test chunked http requests
+Fix issue where sometimes a TLS stream won't emit all it's cleartext.
+Fix 'socket' and 'response' events in http
+pretty-print@0.1.1: Fix auto-index when printing tables with integer keys
+Fix readStream to support reading from input device
+Fix more typoes [ci skip]
+Fix typo and link to virgo [ci skip]
+Fix decoder test to use POST for raw body requests
+Fix metadata format for new lit scanner
+Fix path in Make.bat
+Fix package name to luvit/luvit
+Fix require on windows 2
+Fix require on windows
+Fix readline for windows
+Fix history and add Control+W to readline
+Fix error handling in repl
+Fix some examples, mark others as broken
+Fix custom-binary example to use luvi system
+Fix require scope in repl to act like file in cwd
+Fix fs.writeFile helper
+Fix pretty printer for strings with high bytes [ci skip]
+Fix default luvi binary in windows
+Fix fs {read,write}File{Sync,}
+Fix tls codec
+Fix to work with wrk as well
+Fix keepAlive behavior
+Fix error (still not sure why it silently hangs)
+Fix coroutine mode and add test
+Fix test library to ignore any and all pre-existing handles
+Fix mostly for coroutine style
+Fix tls example
+Fix automated tests
+Fix require on non-windows
+Fix comment
+Fix appveyor command
+Fix paths on windows
+Fix colors on windows
+Fix dump for non-tty stdout
+Fix string escaping to print valid code
+Fix colors in main
+Fix repl
+Fix: emit write stream "end" after closing the stream * This fixes a race condition where the stream may still be open   after end is emitted and handled
+Fix copyright date and add in more sample files
+Fix the path where libuv headers are installed
+fix(global): Fix global leaks
+Fix a typo.
+Fixes #429: check for __unix__ and __POSIX__
+Fix mixed path separators on Windows platform in tools/bundler.lua
+Fix the path basename tests to have specific tests for windows.
+Fix missing handle increment on watcher creation
+Fix an error string spelling error and remove an unneeded cast.
+Fix reading environment variables and provide a test for it.
+Fix an issue with closing a wrong timer which could cause the same timmer to be closed twice.
+Fix the pattern escape sequence for the derelative function.
+Revert "Fix broken stream reading."
+Fix broken stream reading.
+Fix broken tests/runner
+Fix typo in web-app example
+Fix path.join to remove inner slashes when joining
+Fix an error occurs in utils.colorize when string is nil.
+Fix slashes in url in copyright.
+Fix require('FS') to require('fs')
+Fix fs.open to support fs.open(path, flags nil, callback)
+Fix memory leak in utils.bind
+Fix utils.bind to preserve nil arguments and optimize for basic case
+Call uv_setup_args() in main. Fixes getProcessTitle()
+Call uv_setup_args() in main.  Fixes getProcessTitle()
+Fix make bundle
+Fix regular makefile for most linuxes
+Fix make bundle
+Fixes for strict compiler (and fix auto-close)
+Fix zlib dep in Makefile
+Fix build with make (openssl and luacrypto issues)
+Fix uv version in dep
+Fix luvit --cflags to work with the native example
+Fix fs-streams.lua example to point to a file that actually exists
+Fix error reporting for error C generated error objects
+Fix bundled search paths
+Fix modules search paths
+Fix . -> : in Pipe:new()
+Fix luvit-config for the recent uv->uv_native API change
+Fix typo in comment
+Fix a bug in gyp - flock shouldn't be used directly it should reference a variable which uses different flavor of flock depending on the os.
+Fix build options for freebsd.
+Fix typo.
+Fix potential use of uninitilized variables
+Fix doc-parser for camelCase refactor
+Fix json to allow encoding numbers as keys.  Also add streaming parser helper
+Fix global leak
+Fix 32bit readers in buffer
+Fix compile issue
+Fix more examples
+Fix native example
+Fix request and response
+Fix coroutine example
+Fix net test
+Fix a couple tests
+Fix test runner and Process:spawn()
+Fix a couple typos in the timer module
+Fix build
+Fix typo in object.lua
+Fix luvit-config to work on Darwin/OSX
+Fix yajl bindings
+Fix inverted backwards condition
+Fixes for Darwin x86_64
+Fix gyp build for some macs
+Fix environment for windows
+Fix __filename
+Fix require to use proper file paths for the require caches
+Fix typo in test
+Fix build on OSX (force i386, luajit fails on osx-x86-64) Honor MAKE, CC, LDFLAGS, DESTDIR, PREFIX and BINDIR variables Handle luaL_newstate() initialization error Fix double sed on luajit Makefile
+Fix typo in test
+Fix loop getting skipped
+Fix up module loading paths
+Fix a couple response bugs and add auto content-type
+Fix a typo in emitter.js to fix remove_listener
+Fix a typo in a comment
+Fix chunked encoding
+Fix http uploads
+Fix upload example to not dump the actual data
+Fix signal handler to not segfault
+Fix the rest of the async error handlers
+Fix type on event name
+Fix makefile for Fedora
+Fix typo
+Fix type on http server example
+Fix broken chain in streams
+Fix all async callbacks to always call from the main thread
+Fix deps for fresh clone
+Fix fs_readdir
+Fix build for 32-bit linux and fs_* functions
+Fix Makefile
+Fix indentation
+Fix formatting of TODO.markdown
+Fix naming of some udp functions
+Fix title in README
+Fix another memory leak
+Fix bug so stack works again
+Fix so builtins are no longer stomping on global
+Fix .gitignore
+Fix bad paths

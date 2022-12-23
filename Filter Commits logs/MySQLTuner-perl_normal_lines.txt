@@ -1,0 +1,886 @@
+[Patch] Legibility and typos, mark 5 #614
+I do not get, why this is showing: Outdated Version, RAM #612
+Using --defaults-file ignores the .my.cnf #605
+[Patch] Legibility and typos, mark 4 #610
+Update mysqltuner.pl
+typos fixes around version number
+Updated .gitignore
+Version 2.0.5 [Patch] Legibility and typos, mark 3 #602
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Something broken when correcting "incorrectly reports roles as users without passwords #598" #600
+[Patch] Legibility and typos, mark 2 #599
+Update for MariaDB 10.8 #601
+Try to fix incorrectly reports roles as users without passwords #598"
+Use of uninitialized value $seconds_behind_master #593
+Update needed for MariaDB 10.7 #594
+version 1.9.9 - Legibility and typos #597
+New workflow
+--updateversion saves updates to incorrect location #499
+--updateversion saves updates to incorrect location #499
+innodb_buffer_pool_instances(=16) suggested for MariaDB 10.5 which doesn t support it #588
+False impression on key buffer usage #573 (3)
+False impression on key buffer usage #573 (2)
+'name resolution is active' should be OK when cPanel is detected #561
+Update actions/checkout action to v3
+False impression on key buffer usage #573
+Add renovate.json
+Adding AHA section for HTML generation Generating .html reports #448
+Adding AHA section for HTML generation Generating .html reports #448
+Generating .html reports #448 bis
+Generating .html reports #448
+False impression on key buffer usage #573
+Some experimental staff + update basic template with sortable bootstrap tables
+Updated basics template
+Adding search field on tables
+Remove erroneous dot
+Update template
+Adding a Jinja2 Template
+Changing Copyright
+Update USAGE.md
+Please add support for --protocol=TCP #474
+List unsupported storage engine
+Windows support updated across WSL2
+Recommendation on innodb_adaptive_hash_index_partitions #479
+The InnoDB log buffer size recommendation may be tested too strictly #569
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Version 1.9.1 Incorrectly reporting performance schema is off #580 Recommendation to turn on performance_schema #579
+Refactor dbstat part of mysqltuner
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Some display fixes
+Release 1.8.8 #579
+Hide recommendation when no key buffer is used
+Do not show thread pool metrics when disabled
+A lot of new info about indexes and table structures
+#574 script modified with CR end of line
+[ImgBot] Optimize images
+Adding Releem App link to Readme
+Bad merge roolback
+Wrong recommendation "thread_pool_size between 16 and 36 for InnoDB usage" for Percona Server #551"
+Wrong recommendation "thread_pool_size between 16 and 36 for InnoDB usage" for Percona Server (#551)
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Can't locate Data/Dumper.pm in @INC #564
+Increment releas number
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+clean end line
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+fix English grammar
+Illegal division by zero at ./mysqltuner.pl line 2745 #558 Wrong table cache hit rate calculation #548
+Illegal division by zero at ./mysqltuner.pl line 2745 #558 Wrong table cache hit rate calculation #548
+Version 1.8.0: Support MariaDB 10.6 Update needed for MariaDB 10.6 #557
+Create exec.yml
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Increment version
+Wrong table cache hit rate calculation #548
+improve FreeBSD support a bit (patch included) #549
+failed to execute: SHOW SLAVE HOSTS #553
+failed to execute: SHOW SLAVE HOSTS #553
+1.7.26 is fixing minor glitch with DROP USER #555
+Wrong recommendation "thread_pool_size between 16 and 36 for InnoDB usage" for Percona Server #551
+some aliases
+Some new aliases
+Update mysqltuner.pl
+Update mysqltuner.pl
+Update mysqltuner.pl
+Update README.md
+Update mysqltuner.pl
+Duplicate recommendation/check #545
+Duplicate recommendation/check #545
+Update ReadMe.
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+empty passwords - use exact user/host quoted
+user host recommend - RENAME USER
+travis: add percona supported versions
+doc: 5.5 listed as full support
+doc: MariaDB-10.[01] were not support by MySQL
+correct messages on no InnoDB
+extend server-log for journal/container/pods
+add server-log option for explict server log
+travis: docker test all versions
+Update mysqltuner.pl
+Add total_tables to json output
+minimal database list retrieval
+skip snap filesystems
+add execute permissions to mysqltuner.pl
+travis: correct MariaDB-10.5 test
+mariadb gtid mode - base off gtid_current_pos.
+supported version: +mariadb-10.5, eol mysql-5.6, mariadb-10.[01]
+mariadb is using its on name in mariadb/mariadb-admin
+anonymous users - remove password checks
+query_cache off with query_cache_type=OFF OR query_cache_size=0
+Aria/MyISAM cleanup
+Update README.md
+Update README.md
+Add a simple Logo
+For #518 - use new schema for mariab-10.2+
+MariaDB-10.1 EOL, MariaDB-10.5 is GA
+DROP USER to delete anonymous accounts
+MySQL-5.7/8.0+ auth_socket is safe
+mariadb-10.4+ empty passwords
+Remove innodb_buffer_pool_instances recommendations for MariaDB #512
+Change version number
+Update README.md
+Update USAGE.md
+Remove references to the domain mysqltuner.com. #501
+Removing windows end of lines
+Update mysqltuner.pl
+Update mysqltuner.pl
+merged
+ local commit
+And for debug line ignore these lines
+Ignore 200122 12:09:15 mysqld_safe Logging to '/var/log/mysql/error.log'. when we count errors in log
+Update README.ru.md
+Updates link to MyISAM table_cache scalability doc
+Suggest using mariadb-sys from FromDual in script
+Include max_allowed_packet in thread memory size
+Issue Typo in commit 6f6130b (ymsql => mysql) (#459)
+Update .travis.yml
+Update .travis.yml
+Update .travis.yml
+Validate YAML format
+Update .travis.yml
+Update .travis.yml
+SCALAR ref while strict refs
+Update README.md
+Missing password is not recognized #412
+Update version command #428
+About innodb_log_file_size changing recommendation #408
+About innodb_log_file_size changing recommendation #408
+Use of uninitialized value $engine in concatenation (.) or string #350
+Add recommendation on table_definition_cache #433
+Add note about join_buffer_size #434
+Adding clear all mysql containers
+Removing misplaced file
+Update README.md
+Reformatting readme.md
+update readme.md
+update documentation for tests
+Script is failing on MySQL 5.6.10(AWS Aurora) #435
+Update mysqltuner.pl
+Percona Server 8.0 - better support
+Updates on tools for test suites
+Tools for test suies based on Docker
+Renaming staff
+support fetchall feature
+simple load sample manager in command line
+Reordering folder
+Update error log file analysis
+Wrong report of InnoDB Storage engine status #450
+Issue importing sys_10.sql #452
+Bug fix #453
+Update basic_passwords.txt
+Adding dos2unix staff
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Update Vulnerabilities list Indenting mysqltuner Update Usage information
+Create Vagrantfile_for_MariaDB10.4
+Update mysqltuner.pl
+update CVE to include Percona
+Add test env for MariaDB 10.4 (GA)
+Add --host to minimal usage locally example
+Escape identifiers in table column metrics
+Suggest using mariadb-sys from FromDual in README.md
+Refresh config. Vagrant
+ cd: mariadb-sys/: No such file or directory
+Corrected grammar for innodb_buffer_pool_size recommendation.
+did you mean 'accurate'?
+Illegal division by zero #423
+Illegal division by zero #423
+Missing password is not recognized #412
+Update README.md
+README: fix typo
+Update README.md
+README: Clear installation and usage instructions
+Update INTERNALS.md #419
+Update INTERNALS.md
+make report visable when load
+A bit of work on the html report template
+Uncaught exception from user code (#414)
+ignore galera check when wsrep_on = 0 #353
+Sys schema on MariaDB #362
+Updated information on README for sysschema and eprformance schema
+Last modification related to options
+Removing employee db for repository
+Removing employee db for repository
+fix defect link to mysql documentation - #408
+MySQLTuner dont understand Thread Pool in Percona Server 5.7 #386
+MySQLTuner dont understand Thread Pool in Percona Server 5.7 #386
+bug fix in calcualation of wsrep_slave_threads value #305
+wsrep_slave_threads info and test modification
+Wrong warning about table_open_cache #364
+wsrep_slave_threads #305
+New script for running remote audit and generate HTML report
+Uptime info"
+adding better json outputfile option
+New simple modele for HTML result
+Update travis yml
+Template staff
+Adding test database for test purpose
+Hope to add MySQL 8 support! #377 MySQL 8: disabling Query cache recommandations MySQL 8: check password disabled due to new authentication storage model - Help wanted
+Typo fixes
+Try to use mysql 8.0
+Removing employee set storage_engine directive
+including log output content analysis
+redirecting output to log file with tee
+redirecting output to log file
+Adding tests for MariaDB 10.3
+Adding MySQL 5.7 tests
+Adding link to travis result
+New vulnerabilities list
+Removing uneeded tests and and full tests jobs for Perl 5.16
+Using new name for jobs
+Support for All MySQL and MariaDB on tavis based on Perl 5.10 and 5.24 including tests with sample database called employees
+Adding env var NAME
+Adding env var
+Adding env var
+Adding jobs label
+Adding databse sample injection
+Updated travis file
+Update travis tests including MySQL 5.5, 5.6, 5.7, 8.0 including more tests using --verbose options
+Update README with performance tips Update README with version information around MySQL 5.5 Adding bashrc file with basic alias for git and directory listing
+ignore galera check when wsrep_on = 0 #353
+New option tbstat
+Update README.ru.md
+Incorrectly assumes 32bit architecture on s390x systems #390
+add newline
+wsrep_slave_threads #305
+wsrep_slave_threads #305
+Minor accessing undefined variable bug to fix eventually #383
+Adding sync.sh for updating the project.
+# 393 Peak and max memory usage estimated incorrectly
+Redme visual improvement.
+Adding more passwords
+Adding more passwords
+Spelling and grammar
+Minor fix undefined value
+Update README.md
+Update travis
+Switch human readable for Data (not need round)
+New Vagrant file for MySQL 8.
+#377 adding 0 as query cache efficiency for MySQL 8
+Ticket #383 Minor accessing undefined variable bug to fix eventually
+End sentence with a period
+Some fixes
+Spelling fixes. Physical theoretically MariaDB
+New vulnerabilities list
+Update staff
+Update README.md
+Trim sub with emtpy string display error #376
+MySQL enterprise: Column recommandations #375
+Clean up staff
+Removing error from Use of uninitialized value $engine in concatenation (.) or string #350
+Avoid use of uninitialized value
+update staff
+Some information about replication
+Update INTERNALS.md
+New deploy helper script
+Change year reference
+Latest version has a regression with colored outout #371
+Wrong sort order in MySQLTuner report #363
+Issue #364
+Issue #369
+Issue #371
+Update code, doc and vulnerabilities
+Small quotes issue
+Issue #372
+spelling: update
+spelling: replication
+spelling: release
+spelling: recommendations
+spelling: password
+spelling: instance
+spelling: indenting
+spelling: efficiency
+spelling: deactivated
+spelling: considered
+spelling: configured
+spelling: authentication
+Proposed fix for #268
+Proposed fix for #268
+Update git ignorewq
+Spelling & Grammar
+Update mysqltuner.pl
+Ignore password check for auth_pam_compat plugin
+Update README.ru.md
+Changed gcs.limit to gcs.fc_limit, as there's no gcs.limit parameter.
+Read log file by line
+Determine real log_error path.
+Add support to pass ssl public key to mysql connection. Makes it possible to run against servers only accepting connection over SSL.
+add general recommendation for innodb log file changes add information to INTERNALS.md about innodb log file to buffer pool ratio fix buffer pool typos in comments fix code formatting a bit
+Issue #341 debian credentials not overridable from commandline
+New vagrant file based on Centos 7
+Update README.md
+Performance Schema Issue #328
+variables not uninitialized #325
+Issue Performance Schema Issue #328
+New vulnerabities list
+Read the value of wsrep_slave_threads from the right place.
+Update vulnerabilities list
+fix micro version comparison
+refactoring: pod documentation
+output help message using pod2usage instead duplicating pod documentation in usage() function
+fix: add newlines before pod command paragraph + newline before __END__
+New vulnerabilities list
+Adding a note for XtraDB
+Support column analysis with produre analyse
+Incorrect suggestion for ratio InnoDB log file size / InnoDB buffer pool size #322
+Missing argument requirement for cvefile in mysqltuner help #321 Schedule for releases on github #320
+Update vulnerabilty list
+Default host should be 127.0.0.1 #312
+bug fix on swappinness to 10 for Galera
+Add quotes #311 Use https instead of http #317 typo, space missing before is #315
+Disable query cache.
+The query cache should be disabled in MariaDB 10.1
+bad calculation for pct_wkeys_from_mem #303
+Version 1.7.1
+Check whether hyperthreading is enabled or not.
+MErge beetween all staff related to Galera Cluster
+Bugfix resolve #308 : gcs.fc_factor parameter evaluation and the message report, which referencing wsrep_slave_threads instead.
+add checks for wsrep_slave_FK_check and innodb_autoinc_lock_mode when wsrep_slave_threads > 1
+Resolved issue #304
+Use of uninitialized value #304 tidify script
+issue #300 Performance schema shouldn t be installed on 5.5 version.
+Adding new indicators for Galera Cluster'
+Update vulnerabilies list Issue #297: decrement version if word before is present in CVe description'
+Do not test skip_name_resolve if skip_networking is ON
+lil' lang fix
+Update git ignore list Adding script to ident, update vulnerabilies list and generate USAGE file
+update USAGE information
+Add advice for performance schema
+Update vulnerabilities list
+Adding #289 adding warning info #271 adding message prescision for in advces message
+Some Markdown typos and fixes
+#285 Argument "xxxM" isn t numeric in numeric ge (>=)
+Update README.md
+Update README.md
+Adding recommandations for Galera
+Update vulnerabilities list
+Disable zero prototypes in few functions
+Allow to connect via socket with not default port
+fix check innodb_file_per_table with skip-innodb
+#265 wrong table name
+query cache hit rate was not calculated when badprint "Query cache may be disabled by default due to mutex contention"
+fix code style in log_file_recommandations
+fix error on show last start/shutdowns
+Perl Error #280
+Doesn't work for remote server on AWS #279
+Detect Error and warning in error log #252 Detect last MySQL / MariaDB last shutdown and startup #253
+Bug on log file calculation
+#278 Escaping password items
+Update vulnerabilities list
+Bug fix on Galera Gcache mem calculation
+Incorrect innodb log file size calculation #271
+MariaDB GTID mode #272
+Minor grammar improvements to README.ru.md
+Hiding username and password from commandline
+Update README.ru.md
+Minor spelling correction
+New indicators from performance schema
+#265 TOP 15 queries with temp table to disk #260 Memory used > 100% ? #258
+Last modifications
+Use single quotes around password
+Non importance changes
+Non importance changes
+Non importance changes
+Non importance changes
+Non importance changes
+Non importance changes
+Something wrong to print
+Italian translation finished
+Update indicator number
+Full support performance schema Update vulnerability list Updade INTERNALS doc.
+#258 new rule for innodb log file size (25% of Buffer pool size)
+Translated up to FAQ (excluded)
+Create README.it.md
+Adding new indicators from sys schema
+Redundant indexes"
+* TOP 15 most read tables * TOP 15 most modified tables * TOP 15 high select latency tables * TOP 15 high insert latency tables * TOP 15 high update latency tables * TOP 15 high delete latency tables
+Typo fix
+* TOP 15 most read indexes * TOP 15 most modified indexes * TOP 15 higth select latency index * TOP 15 higth insert latency index * TOP 15 higth update latency index * TOP 15 higth delete latency index
+* Event per wait total latency * Event per wait read latency * Event per wait write latency
+Adding * Event Wait by read bytes * Event Wait by write bytes
+Adding pfs indicators related to File IO
+Update Indicators list
+Adding new Performance schema indicators
+New vulnerability list
+Update README.ru.md
+Update README.md
+Update README.md
+Update README.md
+New indicators from performance schema On the road to 1.7.x version
+Adding Performance stat per user
+Included a lot of new indicators for PFS when using --pfstat or --verbose option
+Update README.md
+Update doc
+Adding --defaults-file to change credentials storage
+Update README.md
+Update README.md
+Update README.md
+Update INTERNALS.md
+Update INTERNALS.md
+#193 adding some useful extraction for sysschema
+Adding Comment with sys request
+#237 removing ? more info ?
+Removing warnings for SQL request
+Tidyfy code
+Changing version in test for displaying false positive CVE messages
+False CVE detection for mysql 5.50 #235 adding info message
+Update vulnerabilies list InnoDB buffer pool alignment check appears backward #244
+add perlcritic to CONTRIBUTING.md
+let travis run perlcritic
+fix "Don't modify $_ in list functions"
+get_file_contents calls already remove_cr
+improve message if JSON isn't installed
+fix 'Expression form of "eval"'
+fix 'Bareword file handle opened'
+fix 'Nested named subroutine'
+#196 misplaced semi column
+#242 adjust test for unitialized value
+#242 adjust test for unitialized value
+#196 correct variable name increment version number
+Update INTERNALS.md
+#155 adding test for consistent values for innodb_buffer_pool_size,innodb_buffer_pool_chunk_size and innodb_buffer_pool_instances
+#196 better thread cache hit rate with pools-of-threads
+#242 initiliaze $data_free to 0 if not defined or is empty
+#231 #235 bug fix regarding way CVE are selected.
+fix indentation
+user before_script stage for creating .my.cnf file
+add MariaDB 10.2
+Revert "removing mariaDB 10.1 as test from travis - temporary"
+update Perl version
+increment version
+#235  #231 review way to select version
+Update vulnerabilities list issue #237: Test skip_name_resolve is set before using it Adding information message  when skip_name_resolve is missing
+Remove duplicate passwords, even those covered by modification of case during password test
+Add more basic passwords used in MySQL online documentation
+Update README.md
+Update README.md
+#231 change label for CVE reports
+Don t display advice for tcp slot if /proc/sys/sunrpc file doesn t exist #230
+Don t display advice for tcp slot if /proc/sys/sunrpc file doesn t exist #30
+Adjust request for table without primary key #229
+Adding a lot of things in JSON structure
+Removing some warnings and errors messages when sysctl doesnt get any value
+Update
+Bug fix for exec fail
+#227 Stopping MySQL tuner when SELECT VERSION doesnt return any value. This indicates that user doent get enough privileges
+Update vulnerability list
+Don't exit after positive latest version check
+Update INTERNALS.md
+ wsrep_osu_method error #224
+#223 removing version estension for Ubuntu version - V2
+#223 removing version estension for Ubuntu version
+Updated vulnerability list
+Update README.md
+Update README.md
+Update README.md
+Removing strange code blocks :)
+Update README.md
+Update README.md
+Reword a message
+no need to return, just exit
+switch version check with mysql_setup
+Tokudb detection fix #218
+uninitialized value in script #218
+Update vulnerabilities list Update mysql tuner version Update internals documentation
+#213 changing badprint to print in order to display error message when JSON module is not loaded
+add skip-name-resolve recommandation
+adding minimum privileges request
+add innodb when innodb_file_per_table is ON display OPTIMIZE requests for tables of more than 100mb with more thant 10% fragmentation
+Avoid deprecated message from perl
+Avoid bad syntax error message
+Update mysqltuner.pl
+Exclude innodb engine from fragmented tables
+Update README.md
+Improve portability when fetching process memory - use ps rather than the proc filesystem
+Increment version number
+#204 updater works fine with curl now
+Update vulnerabilies list
+#196 comment thread_cache_size recommandations
+Adding this message for <=5.1 version No more password checks for MySQL version <=5.1 MySQL version <=5.1 are deprecated and end of support.
+Typo
+Update README.md
+fixed wsrep_cluster_size handling
+enought to enough
+fixed spelling
+#184 minor fix xtrabackup is the good alternative
+minor addition for sys schema #193
+#184 minor fix due to error message
+Vulnerabilities list updated #190 Query cache must be activated in MariaDB 10.1 #184 bug fix on messages #184 xtrabackup support when wsrep_sst_method is starting by xtrabackup
+Tidify code
+#184: Additional information for galera Removing dependency to Env module #192
+adding extra information about wsrep cluster size #184
+change external which to sub which(), little fix for use get_http_cli and get external ip via wget
+#187 enforce control over P_S activation
+#189 fix memory calculation when Galera is disabled
+All version for galera checks #150
+Adding typo fixes Adding check for memory with other process
+#182 using abs value for result
+Last fix on template
+Update usage file
+Update version #183
+#187 #183 removing unitialized variables code #184 adding merge between show global variables and show global variables #184 update RPM template'
+ Add a Code of Conduct from http://contributor-covenant.org/
+Detect Ubuntu correctly when checking for OS Release
+ident fix
+ident fix
+Using a generic sub header function get_pf_memory return 0 for performance memory if P_F is disabled.
+#138 for threadpool in mariadb and percona use default values
+Bug fix on aria metrics
+Adding performance_schema.memoty value to max_used_memory and max_peak_memory calculation There is always MySQL 5.7+ and adaptaive memory usage to handle porperly
+Adding get_http_cli for curl or wget detecting in sysstat
+Update Internals checks documentation
+Adding new control for Galera cluster #150
+Check tables are all innodb table and check all table gets pk #150
+Dumping mysql options for galera* #150
+Dumping galera options and status #150
+#177 bug with free -h changed to free -mwq
+Adding some sysctl control in sysstat mode
+removing mariaDB 10.1 as test from travis - temporary
+system information are only available with --sysstat #165
+fix mount point output for linux
+add fixes to get_os_release for debian 6/7/8
+new version
+Missing - in command option pass
+Trying to fix travis config.
+Changing travis tests for 5.2 tests
+Update .travis.yml
+Just a simple perltidy to cleanup ident in the code.
+Update USAGE.md
+Update README.md
+Adding lot of system indicators #165
+Adding disk space and inode control other fs mountpoint #165
+#166 removing test when plugin is unix_socket or win_socket Support for bug https://bugs.mysql.com/bug.php?id=80860
+fix for perl 5.10 and 5.8
+fix for perl 5.10 and 5.8
+fix for perl 5.10 and 5.8
+fix for perl 5.10 and 5.8
+fix for perl 5.10 and 5.8
+Added GetOptions check if fails show help Added verbose mode
+added update version functionality
+added version update functionality
+inconsistent performance schema info #167
+v1.6.9
+fix the build fail
+Broken code fixed
+#164 removing by default check for 10 opened ports. option maxallowedport added for this case.
+#163 removing by default banned port 443,80, 8080,8443 and let bannedports managed this case.
+Revert "Revert "Update CVE list""
+Revert "Update CVE list"
+Advanced dbstat for collation and charset
+Adding extra information on collation in dbstat
+Typo fix
+Update INTERNALS.md
+Update INTERNALS.md
+Adding threadpool information #138
+Update INTERNALS.md
+Adding system recommandations for banned ports and memory used by other process
+Adding banned port option to detect banned ports
+Adding system recommandations based on open port trying to detect local vulnerabilities.csv
+Support user parameter alone Support advanced debug for access denied issue
+Update CVE list
+removing deprecated info.
+Changing engine list after 5.5
+Query cache should be disabled #159
+Update CVE database
+Null commit
+Ticket #156: removing FULLTEXT index
+Update CVE list
+TX and RX now shows value in K/M/G, rather than K/M/B
+#146: Correct write effiency calculation based on log writes
+#156: Removing index stat dur to erronous information
+Update vulnerabilities list
+#87 small fixes for windows porting
+#87 change password single quote to double quote and small fixes
+#87 change password single quote to double quote and small fixes
+#87 password single quote to double quote
+Update vulnerabilities.
+Adding windows memory calcuclations
+\t -> 4 spaces
+#87 unlock windows restriction
+Update .travis.yml
+Title Aligment
+Update README.md
+Adding mysql capture
+Update README.md
+Update usage.md
+Adding section for ThreadPool Mariadb stat
+Update INTERNALS.md
+Update INTERNALS.md
+Update INTERNALS.md
+Update INTERNALS.md
+Galera Indicators updated
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Last Vagrantfile for MySQL 5.6 #151
+New Vagrantfile for MySQL 5.7
+Removing annoying message in mysql
+Adding JSON code to dump result (Issue #123) Adding Empty Section for Galera #150 Adding Empty Section for TokuDB #149
+New Vagrant template for MariaDB 10.0 and 10.1 Issue #151
+Update README.md
+Update README.md
+Bug fix for issue #145 Version with x are no longer taken into account
+Update VagrantFile for MariaDB 10.0
+typo on a header (exactely -> exactly)
+Modified version for RPM packaging
+Adding CVE detection support
+Adding CVE detection support
+Adding CVE detection support
+Adding CVE vulneralities list generation
+Adding CVE vulneralities list generation
+Adding CVE extractor for MySQL and MariaDB
+Adding information about vagrant
+Adding information about vagrant
+Adding Vagrant configuration for MariaDB 10.0 on Fedora Core 23
+Don't treat connections to 127.0.0.1 as remote
+Update USAGE.md
+Update CONTRIBUTING.md
+Support for Password security on MySQL 5.7
+fix dependency check for Text::Template
+always load Data::Dumper
+whitespace fixes
+Update .travis.yml
+Update mysqltuner.pl
+Adding code to check if module are installed.
+Adding code to check if module are installed.
+Adding error message when Windows OS is detected
+Detect CYGWIN
+Issue #130: Missing s in total_aria_indexes calculation
+Update 'There is not basic password file list' message
+Improve wording
+Change anonymous account recommendation to plural
+Remove double space
+Model example with tabs
+Issue #124: bug fix with noask password handling... from issue #110 patch
+Issue #121: Removing lost+found from dblist
+Issue #121: setting value when value is NULL
+Issue #121: removing lost+found from dblist to explore
+bug fixes on RPM generation Adding .gitignore for RPM related files
+Correct typo regarding Perl License
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Minor typo fixed in usage()
+Adding a HTML report system with a default template engine based on Text::Template
+output fix
+Adding version check features Issue #33 #95: checkversion option is now available
+Isse #108 Abort mysqltuner when auto-vertical-output is set in dafaults
+Issue #117 and #118: Rollback on #108 fix.
+Issue #117 and #118: Rollback on #108 fix.
+Issue #118: Removing auto-vertical-output for MySQL <5.5
+Update README.md
+Update README.md
+Update CONTRIBUTING.md
+Issue ##108 Adding --auto-vertical-output=false
+Isse #110: No asking password option --noask
+Correct return code in case of invalid login or missing data
+Issue #113: Typo fix Issue #111: MariaDB 10 and 11 as supported version Issue #109: Ne line at the end of help display
+A user with a plugin isn't the same as an empty password
+remove perl-5.6 from tests
+quantified path to ./mysqltuner.pl
+travis: add mariadb test
+Travis test
+Adding travis information typo fix
+Update INTERNALS.md
+Update INTERNALS.md
+Update INTERNALS.md
+Update INTERNALS.md
+Update README.md
+Update README.md
+Update CONTRIBUTING.md
+Update CONTRIBUTING.md
+Update CONTRIBUTING.md
+Pertidy code + rearrange ocde
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update INTERNALS.md
+Update INTERNALS.md
+Update INTERNALS.md
+Update INTERNALS.md
+Update INTERNALS.md
+Update INTERNALS.md
+Update INTERNALS.md
+Issue #104 /proc/meminfo is not language specific.
+Update CONTRIBUTING.md
+move internal documentation
+Adding information about checks performed by MySQLTuner
+Adding information about checks perform by MySQLTuner
+Update readme
+Change Russian README extension
+Update README.ru
+Issue #103: Innodb buffer pool instances can t be adjust to a value grea value greater than 64
+Issue #104: Change Linux memory and swap grabbing information
+Issue #101
+Debug print output for memory
+Slave replication test issue #99 and  issue #100
+Issue #80
+Advanced code for Issue #80
+Issue #96
+Update README.md
+Issue #96
+Issue #94
+@sabinich Russian README
+Quick mod to add Aria storage engine support
+Start solving issue #80
+adding debug message for normal client
+Update README.md
+PR  #39 and PR #50
+Change shebang
+Update Usage file
+Issue #90
+last changes
+correct spelling
+Removing Data::Dumper dependency and increment version number
+Adding check for percentage used buffer pool
+update options with --skippassword
+port all request on select_one and select_array subroutines
+adding replication tests for detecting master and slave stop status
+issues/76
+Add man page on RPM packaging fix a dependencies issue with mysql
+Adding metrics on worst selectivity index and unused indexes --idxstat option is needed to activate this features
+Adding options --idxstat and selectivity index request
+Adding information about Max and Reached memory for MySQL process.
+Adding read/write innodb buffer efficiency indicators.
+Adding preconisations on binlog cache and Aborted connections
+Bug fixes with POD documnetation
+Bug fixes with POD documnetation Adding USAGE.md documentation from POD documentation
+Adding POD documnetation
+Reorder buffers info display for innodb
+Documenting a bit
+rename build rpm script
+Issue #79: incorrect mesage
+Adding option --dbstat to display database information
+build system with basic password file embedded.
+Full feature build system for mysqltuner.
+simple rpm build system
+Adding database information
+Adding debug options, Adding Databases size info"
+Switch 'Go' to just 'G'
+create a dedicated sub for innodb
+if .mylogin.cnf is set not SECURITY WARNING
+Issue #75 on collations
+merged version
+activate nocollor when reportfile is set
+activate nocollor when reportfile is set
+adding --reportfile for file output result
+README format errorswq
+.perltidy rules
+Adding FAQ information about mysql_config_editor
+Adding a small CONTRIBUTING file
+fix fetching memory values on non-english Linux systems
+move innodb_buffer_pool_instances output after innodb_buffer_pool_size
+update innodb_buffer_pool_instances output
+don't mention innodb_buffer_pool_size again
+don't mention MySQL version again
+Adding partiel suport for MySQL 5.5 and MySQL 5.6
+Adding advice for buffer_pool_size_instances variables for 5.6.6+ mysql version
+Warning message for lagging slave
+adding --passwordfile option
+some debug output cleanup.
+Adding extra security test for password based on password list
+added option mysqlcmd so you can give a custom mysql command to mysqltuner.pl
+Update mysqltuner.pl
+Version 1.4.0
+Added name to contributor list.
+Adding check for autoincrement keys
+Update mysqltuner.pl
+added new option
+Update mysqltuner.pl
+Correct table_cache_var bug
+improve "$arch" variable usage
+check query cache verification on mysql >= 5.6.8
+Shifting InnoDB log waits block up into the have_innodb block.
+Version 1.3.0
+Add more flexible engine display support
+Hide stderr if `which svcprop` fails
+Cleanup of custom mysqladmin command code
+Removed version checking routines until I can figure out something different
+Adding warning about big table caches
+Avoid divide by zero error with key_buffer_size
+Converted README from text to Markdown.
+Adds suggestion for innodb_log_buffer_size
+fixed uname execution syntax
+added Darwin as 64bit architecture, as kaalis pointed out in https://github.com/rackerhacker/MySQLTuner-perl/pull/27#issuecomment-15450764
+added Darwin as 64bit architecture, as kaalis pointed out in https://github.com/rackerhacker/MySQLTuner-perl/pull/27#issuecomment-15450764
+nothing.
+little modify
+add mysqladmin option
+Added Solaris SMF and SmartOS/Percona Quickbackup detection to get credentials automatically.
+fixed finding a 64bit architecture on NetBSD/OpenBSD and FreeBSD
+fix finding a 64bit architecture on FreeBSD
+fix memory detection on FreeBSD
+Swap position of innodb buffer pool size and data size arguments to match key buffer size args.
+Add DirectAdmin support. Also tested on DirectAdmin v 1.40.3 on Debian 6 - 64 bits #17
+update comments and logging messages
+use the option --defaults-file ...
+use the maintanance account on debian system
+Use portable /dev/null from File::Spec.
+Ignore output from stty for portability (e.g. Windows).
+Simplify MySQL version checks.
+Avoid some awk and grep invocations for portability (e.g. Windows).
+Grammar fix.
+Trim trailing whitespace.
+Add Emacs indentation settings.
+Version bump to 1.2.0
+Work around MySQL bug #59393 wrt. ignore-builtin-innodb.
+Check engine availability also with SHOW ENGINES.
+List users without passwords as user@host, sorted.
+List users without passwords as user@host, sorted.
+Bumped version number to 1.1.1
+Added AIX 5L support (patch from Baptiste M. via the blog) Adjusted the version number (should have been done for the 1.1.0 tagged release)
+Added in a check for users without passwords and check for slaves running with read_only disabled (patch from Isart Montane)
+Forgot to change the old assembla svn note in the script over to github. :|
+Added the GPLv3 license along with the script.
+Expanded README
+Test commit.
+Added README file for github prettyness.
+Version bump to 1.1.0 Added git tag 'v1.1.0
+A warning is now provided if if the query_cache_size goes over 128M. (Thanks to Tim Soderstrom)
+When counting index size for MyISAM tables, the INFORMATION_SCHEMA query included all engines. (Thanks to Tom Krouper)
+Version bump to 1.0.0 Small spelling correction Contributors list updated
+Version bump to 0.9.8 Added new options to help output Made version checking off by default, enabled by --checkversion option
+Version bump to 0.9.5 Support is now available for remote servers Can force the script to assume that a certain amount of memory is present (thanks Jason!) Usernames and passwords can now be passed on the command line Added Jason Gill to the contributors list
+Version bump to 0.8.9 Added an option to skip the enumeration/sizing of tables (--skipsize), which should help on servers with lots of tables Changed the table enumeration/sizing method for MySQL 5 to use information_schema (increased performance drastically) Adjusted the query_cache_limit recommendation to include the currently set value, rather than 1M each time Changed the wording for tmp_table_size/max_heap_table_size to make it less confusing
+Version bump. Added Shawn Ashlee to contributors.
+Added lines between sections to increase readability. Corrected a bug where storage engine statuses were still in color even with --nocolor. Excluded information_schema tables from calculations (they were showing up as usual MEMORY tables).
+Corrected the total key buffer calculation when symlinks are used Went to traditional versioning scheme starting at 0.8.0
+Version bump
+Removing a minor left over comment
+Version bump and tab fix
+Added lots of InnoDB support Flipped spaces to tabs Added more storage engine checks Adjusted output display
+* Changed indexing calculations so that all tables are not opened in MySQL 5 (thanks Jon!) * Adjusted some of the commented lines at the top of the script
+* Added NetBSD support (thanks to Dave Burgess) * Switched username/password prompts to STDERR so they won't appear in printouts
+* Adjusted infoprint to use asterisks (cosmetic) * Per-thread/global buffer counts are now displayed * Key buffer increases are only recommended if the buffer is smaller than total indexes and key buffer hit rate is < 95% * Dropped max_seeks_for_key checks * Temporary table size increases are not recommended over 256M * Aborted connection calculation and recommendation adjustments
+Very small bugfix for MySQL 3.23 on line 408
+Added aborted connection checks Added % reads/writes counts Adjusted recommendations for slow query logging, max seeks per key, and joins without indexes
+Minor fix if no selects have been run (Thanks Kevin)
+Minor divide by zero error in query cache calculations
+Tremendous overhaul of massive proportions. Thanks to suggestions from Mike Jackson, BK Box, Bryan Tholen, and Shawn Ashlee. MySQLTuner's new home is now at: http://rackerhacker.com/mysqltuner/ The big feature changes will be documented there.
+Adjusted key_buffer_size logic checks.\nChanged max_connections wording.\nAdded max_seeks_for_key check.
+Added explanations for key max_connections and fixed a Plesk bug when you run the script as a non-root user
+Added option to disable colors. Explanation option is disabled by default.
+Completed long explanation portion for slow query log section. Created 'explainonly' command line argument for long explanations only. Adjusted memory usage long explanation.
+Initial verbose explain output configuration (there you go Mike!)
+Massive changes... output filtering, usage information, and temporary table corrections with regards to max memory calculations
+Changed all prints to use subroutines to allow for exclusions via command line arguments (coming up next)
+Script now requires MySQL 4.1 or higher (4.0 is EOL, and support for that is lame...)
+Corrected memory calculation issue in OS X / Darwin
+Added check to see if MySQL is even installed
+Initial Import

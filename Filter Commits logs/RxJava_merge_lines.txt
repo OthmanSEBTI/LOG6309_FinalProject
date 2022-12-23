@@ -1,0 +1,1309 @@
+3.x: Merge as() into to() (#6514)
+3.x: Merge in changes from 2.x since the initial branching (#6498)
+Merge branch '2.x' of https://github.com/ReactiveX/RxJava.git into 2.x
+Merge pull request #4858 from akarnokd/FlatMapSingleElement
+Merge FlowableEmitter.BackpressureMode into BackpressureStrategy (#4729)
+2.x: Merge AmbArray and AmbIterable into Amb for Single, Maybe and Completable types (#4647)
+Merge branch '2.x' of https://github.com/ReactiveX/RxJava.git into 2.x
+Merge CancelledSubscriber into EmptySubscriber. (#4083)
+Merge NbpCancelledSubscriber into NbpEmptySubscriber. (#4085)
+Merge SerialDisposable and MultipleAssignmentDisposable. (#4070)
+Merge pull request #3782 from stevegury/stevegury/2.x-design
+Merge pull request #3783 from akarnokd/DesignRefactorMain2x
+Merge pull request #3693 from stevegury/2.x
+Merge pull request #3668 from akarnokd/Java6Backport
+Merge pull request #3623 from adam-arold/2.x
+Merge pull request #3380 from akarnokd/CombineLatestCleanup2x
+Merge pull request #3449 from JakeWharton/jw/delete-code
+Merge pull request #3376 from akarnokd/RxVsStreamPerf2x
+Merge pull request #3382 from akarnokd/SpscLinkedArrayQueueCapacityUse2x
+Merge pull request #3358 from akarnokd/SingleOperators2x
+Merge pull request #3371 from akarnokd/NbpObservableOps2x
+Merge pull request #3348 from ReactiveX/v2-design-flowable
+Merge pull request #3349 from ReactiveX/v2-design-subject
+Merge pull request #3353 from akarnokd/RangePerf2x
+Merge pull request #3350 from ReactiveX/v2-design-lifecycle
+Merge pull request #3352 from akarnokd/MergePerf2x
+Merge pull request #3335 from akarnokd/ScalarFastPathEnable2x
+Merge pull request #3334 from akarnokd/DisposableTests2x
+Merge pull request #3333 from akarnokd/SubscribersTests2x
+Merge pull request #3332 from akarnokd/SubjectTests
+Merge pull request #3331 from akarnokd/SchedulersTests2x
+Merge pull request #3330 from akarnokd/OperatorsTestZipFinish2x
+Merge pull request #3329 from akarnokd/OperatorTestWindow2x
+Merge pull request #3328 from akarnokd/OperatorTestsPack2xPart2
+Merge pull request #3327 from akarnokd/OperatorTestsPack2x
+Merge pull request #3326 from akarnokd/OperatorTestsThrottleFirstTimeIntervalTimeout2x
+Merge pull request #3325 from akarnokd/OperatorTestsTake2x
+Merge pull request #3324 from akarnokd/OperatorsTestSubscribeOnSwitch2x
+Merge pull request #3323 from akarnokd/OperatorTestSkip2x
+Merge pull request #3322 from akarnokd/OperatorTestSerializeSingle2x
+Merge pull request #3321 from akarnokd/OperatorTestSampleScanEquals
+Merge pull request #3320 from akarnokd/OperatorTestRetry2x
+Merge pull request #3319 from akarnokd/OperatorTestReplay2x
+Merge pull request #3318 from akarnokd/OperatorTestPublishReduceRepeat2x
+Merge pull request #3317 from akarnokd/OperatorTestOnError2x
+Merge pull request #3316 from akarnokd/OperatorTestOnBackpressure2x
+Merge pull request #3315 from akarnokd/OperatorTestObserveOn2x
+Merge pull request #3314 from akarnokd/OperatorTestIgnoreLastMapNotif2x
+Merge pull request #3313 from akarnokd/OperatorTestGroupBy2x
+Merge pull request #3312 from akarnokd/OperatorTestFlatMap2x
+Merge pull request #3311 from akarnokd/OperatorTestElementAtFilterFinally2x
+Merge pull request #3310 from akarnokd/OperatorTestDoOn2x
+Merge pull request #3309 from akarnokd/OperatorTestDistinctEach
+Merge pull request #3308 from akarnokd/OperatorTestsDelayDematerialize
+Merge pull request #3307 from akarnokd/OperatorTestDebounceDefaultIfEmpty2x
+Merge pull request #3306 from akarnokd/OperatorTestsCastConcat2x
+Merge pull request #3305 from akarnokd/SingleAndNonBackpressured2x
+Merge pull request #3303 from akarnokd/AsyncSubscription2x
+Merge pull request #3301 from akarnokd/OperatorBufferTest2x
+Merge pull request #3300 from akarnokd/OperatorTestsAllAnyAsObservable
+Merge pull request #3299 from akarnokd/OperatorTestsToFutureUsing2x
+Merge pull request #3298 from akarnokd/OperatorsTestsRefCountTimer2x
+Merge pull request #3297 from akarnokd/OperatorFromIterableRange2x
+Merge pull request #3294 from akarnokd/OperatorTests2xPart3
+Merge pull request #3293 from akarnokd/OperatorTests2xPart2
+Merge pull request #3292 from akarnokd/OperatorTests2xPart1
+Merge pull request #3284 from akarnokd/ThrottleZipTests2x
+Merge pull request #3283 from akarnokd/SubscriberTest2x
+Merge pull request #3282 from akarnokd/WindowReduceTests2x
+Merge pull request #3280 from akarnokd/ObservableTests2x
+Merge pull request #3279 from akarnokd/TestsToDoOnObservable2x
+Merge pull request #3278 from akarnokd/GroupByMergeNotificationTest2x
+Merge pull request #3277 from akarnokd/ErrorHandlingTests2x
+Merge pull request #3276 from akarnokd/ConcatTests2x
+Merge pull request #3275 from akarnokd/CombineLatestTest2x
+Merge pull request #3271 from akarnokd/UnitTestsPreparation
+Merge pull request #3270 from akarnokd/UnicastSubjectExpansion2x
+Merge pull request #3268 from akarnokd/Disposables2x
+Merge pull request #3267 from akarnokd/OperatorGenerate2x
+Merge pull request #3264 from akarnokd/AsyncObserver2x
+Merge pull request #3263 from akarnokd/SubjectNullSafe2x
+Merge pull request #3262 from akarnokd/WindowBoundary2x
+Merge pull request #3260 from akarnokd/BehaviorSubject2x
+Merge pull request #3259 from akarnokd/RxJavaPlugins2x
+Merge pull request #3258 from akarnokd/ReplaySubject2x
+Merge pull request #3257 from akarnokd/OperatorTimeout2x
+Merge pull request #3255 from akarnokd/OperatorScan
+Merge pull request #3254 from akarnokd/OperatorDebounce2x
+Merge pull request #3253 from akarnokd/OperatorWindowTimed2x
+Merge pull request #3251 from akarnokd/OperatorWindowSized2x
+Merge pull request #3250 from akarnokd/OperatorBufferWithPublisher2x
+Merge pull request #3248 from akarnokd/OperatorBuffer2x
+Merge pull request #3247 from akarnokd/UnicastSubject2x
+Merge pull request #3246 from akarnokd/OperatorRefCount2x
+Merge pull request #3245 from akarnokd/BlockingObservablePart2x
+Merge pull request #3244 from akarnokd/OperatorsDerivedPack2x
+Merge pull request #3243 from akarnokd/OperatorMaterialize2x
+Merge pull request #3242 from akarnokd/OperatorUsing2x
+Merge pull request #3241 from akarnokd/PublisherCombineLatest2x
+Merge pull request #3240 from akarnokd/OperatorSequenceEquals2x
+Merge pull request #3239 from akarnokd/OperatorTakeWhile2x
+Merge pull request #3238 from akarnokd/OperatorRedo
+Merge pull request #3237 from akarnokd/OperatorOnErrorNext
+Merge pull request #3235 from akarnokd/OperatorAmb2x
+Merge pull request #3234 from akarnokd/OperatorSwitchMap2x
+Merge pull request #3232 from akarnokd/OperatorFirstLast2x
+Merge pull request #3231 from akarnokd/OperatorTimedLastSkipTake2x
+Merge pull request #3230 from akarnokd/OperatorSwitchIfEmpty2x
+Merge pull request #3229 from akarnokd/OperatorSample2x
+Merge pull request #3228 from akarnokd/ConditionalSubscriber2x
+Merge pull request #3227 from akarnokd/Collect2xJavacWorkaround
+Merge pull request #3226 from akarnokd/OperatorCollect2x
+Merge pull request #3225 from akarnokd/OperatorDoOn2x
+Merge pull request #3224 from akarnokd/OperatorDistinct2x
+Merge pull request #3223 from akarnokd/OperatorPack2x1
+Merge pull request #3222 from akarnokd/WithLatestFrom2x
+Merge pull request #3215 from akarnokd/OperatorZip2x
+Merge pull request #3212 from akarnokd/OperatorGroupBy2x
+Merge pull request #3209 from akarnokd/OperatorOnBackpressure2x
+Merge pull request #3208 from akarnokd/IntervalSource2x
+Merge pull request #3207 from akarnokd/OperatorRepeat2xPart1
+Merge pull request #3206 from akarnokd/TestSubscriber2x
+Merge pull request #3205 from akarnokd/LambdaSubscribe2x
+Merge pull request #3204 from akarnokd/OperatorConcatMap2x
+Merge pull request #3202 from akarnokd/ScheduleOn2x
+Merge pull request #3200 from akarnokd/SchedulersRest2x
+Merge pull request #3199 from akarnokd/OperatorsAnyAllCount2x
+Merge pull request #3198 from akarnokd/OperatorsPublishReplay
+Merge pull request #3197 from akarnokd/OperatorToList2x
+Merge pull request #3196 from akarnokd/OperatorSkip2xMethods
+Merge pull request #3195 from akarnokd/OperatorSkip2x
+Merge pull request #3194 from akarnokd/OperatorTake2x
+Merge pull request #3193 from akarnokd/ConnectableObservable2x
+Merge pull request #3191 from akarnokd/OperatorFlatMap2x
+Merge pull request #3190 from akarnokd/BasicSubscribers
+Merge pull request #3189 from akarnokd/BasicPublisherSources
+Merge pull request #3188 from akarnokd/SchedulersBaseAPI
+Merge pull request #3186 from akarnokd/InternalDisposables
+Merge pull request #3185 from akarnokd/PublishSubject2x
+Merge pull request #3172 from akarnokd/RsDependency
+Merge pull request #3175 from akarnokd/InternalInfrastructure
+Merge pull request #3142 from artem-zinnatullin/actions-redundant-final
+Merge pull request #3138 from akarnokd/RangePerf
+Merge pull request #3137 from akarnokd/FromIterablePerf
+Merge pull request #3078 from davidmoten/switch-fix
+Merge pull request #3112 from akarnokd/TestCoverageObservers
+Merge pull request #3123 from jacek-rzrz/1.x
+Merge pull request #3104 from davidmoten/synchronized-queue-equals
+Merge pull request #3147 from artem-zinnatullin/unnecessary-static-modifier
+Merge pull request #3144 from artem-zinnatullin/remove-redundant-cast-in-exceptions
+Merge pull request #3143 from artem-zinnatullin/backpressure-utils-javadoc-fix
+Merge pull request #3141 from akarnokd/SchedulerLeakCheck
+Merge pull request #3082 from stealthcode/conversion
+Merge pull request #3103 from davidmoten/materialize-backp
+Merge pull request #3121 from artem-zinnatullin/android-setRemoveOnCancelPolicy
+Merge pull request #3120 from ypresto/no-interrupt-for-sync
+Merge pull request #3117 from akarnokd/OperatorReplayRewrite4
+Merge pull request #3116 from akarnokd/OperatorCacheRewrite4
+Merge pull request #3110 from akarnokd/TestCoverageFunctions
+Merge pull request #3109 from akarnokd/InternalUtilAtomicTests
+Merge pull request #3108 from davidmoten/remove-operator-on-error-flatmap
+Merge pull request #3077 from ReactiveX/PLP
+Merge pull request #3079 from davidmoten/foreach-javadoc
+Merge pull request #3085 from davidmoten/on-drop-test-fix
+Merge pull request #3086 from davidmoten/exec-sched-test-timing
+Merge remote-tracking branch 'origin/1.x' into PLP
+Merge pull request #3093 from akarnokd/MergeAsyncTest
+Merge pull request #3092 from benjchristensen/single-toObservable
+Merge pull request #3081 from abersnaze/cache-rollback
+Merge pull request #2928 from akarnokd/OperatorMergeFullRewrite
+Merge fully rewritten and other related optimizations
+Merge pull request #3023 from akarnokd/AutoConnect
+Merge pull request #3045 from akarnokd/ElementAtImprovement
+Merge pull request #3047 from akarnokd/OperatorReplayBackpressure
+Merge pull request #3048 from akarnokd/CompositeExceptionNull
+Merge pull request #3055 from davidmoten/single-subscribe-fix
+Merge pull request #3058 from davidmoten/subscriber-javadoc
+Merge pull request #3065 from davidmoten/subscribers-wrap
+Merge pull request #3069 from ReactiveX/PLP
+Merge pull request #3049 from tilal6991/1.x
+Merge pull request #3042 from davidmoten/default-if-empty-backp-2
+Merge pull request #3043 from davidmoten/test-subscriber-javadoc
+Merge pull request #3033 from davidmoten/take-last-javadoc
+Merge pull request #3034 from davidmoten/empty-2
+Merge pull request #3031 from benjchristensen/fix-flatMapIntPassthruAsync
+Merge pull request #3029 from akarnokd/TabsReplacedWithSpaces
+Merge pull request #2997 from davidmoten/redo-fix-2
+Merge pull request #2969 from akarnokd/OperatorCacheRewrite2
+Merge pull request #2995 from davidmoten/switch-overflow
+Merge pull request #2982 from davidmoten/test-sub-factory-methods
+Merge pull request #2975 from abersnaze/interval
+Merge pull request #2970 from akarnokd/BackpressureBlockDeprecated
+Merge pull request #2972 from akarnokd/WindowUnsubscribeToComplete
+Merge pull request #3018 from davidmoten/ts-await-bug
+Merge pull request #3019 from ReactiveX/PLP
+Merge pull request #3012 from benjchristensen/single-type
+Merge pull request #2990 from davidmoten/subscriber-readability
+Merge pull request #3009 from davidmoten/from-iter-bug
+Merge pull request #3001 from davidmoten/use-subscribers-from
+Merge pull request #3000 from zsxwing/java6
+Merge pull request #2999 from zsxwing/assert-error
+Merge pull request #2996 from davidmoten/switch-if-empty-request-bug
+Merge pull request #2993 from davidmoten/take-while-cause
+Merge pull request #2992 from davidmoten/error-cause-primitives
+Merge pull request #2991 from davidmoten/take-until-predicate-last-cause
+Merge pull request #2989 from davidmoten/take-request-bug
+Merge pull request #2988 from davidmoten/any-backp
+Merge pull request #2987 from davidmoten/skip-bug
+Merge pull request #2986 from davidmoten/all-backp
+Merge pull request #2985 from davidmoten/serialize-fix
+Merge pull request #2960 from davidmoten/concat-race
+Merge pull request #2961 from davidmoten/amb-bug
+Merge pull request #2966 from ReactiveX/javadocs
+Merge pull request #2963 from ReactiveX/StandardProducers
+Merge pull request #2948 from ReactiveX/TestSubscriberPlus
+Merge pull request #2956 from davidmoten/observe-on-unsub
+Merge pull request #2951 from davidmoten/concat-request-overflow
+Merge pull request #2950 from davidmoten/group-by-request-overflow
+Merge pull request #2949 from davidmoten/jacoco-disable
+Merge pull request #2923 from akarnokd/OnBackpressureLatest
+Merge pull request #2871 from davidmoten/explicit-version
+Merge pull request #2872 from rspieldenner/sonatype_sync
+Merge pull request #2929 from davidmoten/observe-on-race
+Merge pull request #2937 from davidmoten/findbugs
+Merge pull request #2940 from tomrozb/localHasValue-always-true
+Merge pull request #2938 from jacek-marchwicki/combine-last-overflow
+Merge pull request #2936 from jacek-marchwicki/fix-observer-bug
+Merge pull request #2820 from akarnokd/WindowWithSizeBackpressure
+Merge pull request #2814 from akarnokd/OperatorPublishRewrite
+Merge pull request #2921 from davidmoten/observe-on-request-overflow
+Merge pull request #2901 from akarnokd/ToSortedListBackpressure
+Merge pull request #2883 from akarnokd/ExtendedSubjectAPI
+Merge pull request #2915 from davidmoten/ignore-elements-singleton
+Merge pull request #2914 from davidmoten/take-last-one
+Merge pull request #2911 from akarnokd/OperatorPublishPerf
+Merge pull request #2905 from davidmoten/single-singleton
+Merge pull request #2904 from davidmoten/take-last-queue-producer-request-overflow
+Merge pull request #2897 from alexwen/window_overlap
+Merge pull request #2902 from davidmoten/exceptions-test
+Merge pull request #2880 from davidmoten/reduce-optimization
+Merge pull request #2899 from davidmoten/from-iter-eager-complete
+Merge pull request #2898 from davidmoten/range-eager-complete
+Merge pull request #2895 from davidmoten/from-iter-race
+Merge pull request #2892 from davidmoten/range-race
+Merge pull request #2882 from davidmoten/scan-fix
+Merge pull request #2866 from davidmoten/Action1-argument-name
+Merge pull request #2867 from davidmoten/remove-unused
+Merge pull request #2862 from davidmoten/test-warnings
+Merge pull request #2864 from davidmoten/main-warnings
+Merge pull request #2861 from davidmoten/zipRace-fix
+Merge pull request #2860 from davidmoten/OperatorSingle-request-accounting
+Merge pull request #2859 from davidmoten/doOnRequest-fix-2
+Merge pull request #2851 from zsxwing/fix-debounce
+Merge pull request #2838 from avram/patch-1
+Merge pull request #2825 from fatroom/repeat_javadoc
+Merge pull request #2831 from akarnokd/OnBackpressureDropWithActionReduced
+Merge pull request #2632 from simonbasle/plugErrorRenderer
+Merge pull request #2807 from artem-zinnatullin/correct-interfaces
+Merge pull request #2823 from rspieldenner/maven_sync
+Merge pull request #2804 from akarnokd/Perf0225
+Merge pull request #2776 from stevenzwu/issues-2764
+Merge pull request #2788 from zsxwing/publish-no-subscriber
+Merge pull request #2777 from stevenzwu/typo
+Merge pull request #2779 from davidmoten/connect-returns-null
+Merge pull request #2767 from akarnokd/ScalarScheduleOn
+Merge pull request #2771 from davidmoten/range-request-overflow
+Merge pull request #2770 from davidmoten/onBackpressureDrop-request-overflow
+Merge pull request #2769 from davidmoten/combineLatest-request-overflow
+Merge pull request #2760 from akarnokd/WithLatestFrom
+Merge pull request #2762 from akarnokd/SubscriptionOpt
+Merge pull request #2759 from davidmoten/using-redev
+Merge pull request #2655 from akarnokd/Issue2654
+Merge pull request #2627 from akarnokd/FlatMapMaxConcurrent
+Merge pull request #2601 from akarnokd/CommonUnsubscribeThrow
+Merge pull request #2580 from akarnokd/ComputationSchedulerConfig
+Merge pull request #2644 from jtulach/MissingClassThrowsError
+Merge pull request #2642 from zsxwing/fix-memory-leak
+Merge pull request #2622 from akarnokd/EmptyObservable
+Merge pull request #2607 from davidmoten/refcount-comments
+Merge pull request #2595 from benjchristensen/release-via-travis
+Merge pull request #2594 from benjchristensen/test-subscriber
+Merge pull request #2567 from akarnokd/RefCountDisconnectOnTerminalEvent
+Merge pull request #2493 from akarnokd/OperatorDoTakeWhile
+Merge pull request #2591 from akarnokd/NewThreadSchedulerSyskey
+Merge pull request #2585 from akarnokd/switch_if_empty
+Merge pull request #2583 from akarnokd/SubscriptionPerfs
+Merge pull request #2578 from ReactiveX/revert-2575-subscribeOn_subscription
+Merge pull request #2575 from abersnaze/subscribeOn_subscription
+Merge pull request #2561 from akarnokd/JCToolsUpdate0129
+Merge pull request #2574 from jnpr-jalandip/1.x
+Merge pull request #2559 from davidmoten/from-iter-request-overflow
+Merge pull request #2572 from akarnokd/TestsMoreTime
+Merge pull request #2563 from akarnokd/RetryBackpressureParallelTestChange
+Merge pull request #2565 from akarnokd/TestObstructionDetection
+Merge pull request #2540 from akarnokd/MergeMaxConcurrentBackpressure
+Merge pull request #2553 from akarnokd/RxRingBufferSynchronized
+Merge pull request #2470 from akarnokd/SubjectAdditionalMethods
+Merge pull request #2550 from davidmoten/request-additive
+Merge pull request #2548 from davidmoten/request-check
+Merge pull request #2543 from davidmoten/merge-request-overflow
+handle request overflow for OperatorMerge
+Merge pull request #2465 from akarnokd/SchedulerPurgeForJDK6
+Merge pull request #2547 from davidmoten/fix-more-warnings
+Merge with max concurrency now supports backpressure.
+Merge pull request #2471 from jnlopar/fix1702
+Merge: fixed hangs & missed scalar emissions
+Merge pull request #1840 from roman-mazur/unsubscribe-on-interrupt
+Merge pull request #2238 from zsxwing/issue2191
+Merge pull request #2447 from jnlopar/1.x
+Merge pull request #2335 from akarnokd/StatelessOperators
+Merge pull request #2474 from akarnokd/MergeTestTimeout
+MergeTest.testConcurrency timeout to let other tests run
+Merge pull request #2455 from duncani/Issue#2191
+Merge branch 'fix1702' of https://github.com/jnlopar/RxJava into fix1702
+Merge pull request #2469 from zsxwing/file-permission
+Merge pull request #2244 from davidmoten/take-last-unsub
+Merge pull request #2237 from benjchristensen/publish-ring-buffer-usage
+Merge pull request #2052 from davidmoten/make-class-static
+Merge pull request #2156 from zsxwing/map-swallow-fatal-exceptions
+Merge pull request #1967 from zsxwing/fix-groupby-unsubscribe
+Merge pull request #1965 from zsxwing/fix-sample-unsubscribe
+Merge pull request #1966 from zsxwing/fix-groupby-null-key
+Merge pull request #1964 from zsxwing/fix-buffer-request
+Merge pull request #1957 from zsxwing/fix-scan
+Merge pull request #1950 from zsxwing/unsubscribed
+Merge pull request #1968 from ReactiveX/bump-to-2.2
+Merge pull request #1961 from benjchristensen/issue-1941-remove-request-batching
+Remove Request Batching in Merge
+Merge pull request #1960 from benjchristensen/doOnRequest
+Merge pull request #1952 from zsxwing/remove-action-subscription
+Merge pull request #1951 from abersnaze/unnecessary
+Merge pull request #1946 from akarnokd/AbstractOnSubscribe2
+Merge pull request #1928 from srvaroa/1.x
+Merge pull request #1926 from zsxwing/fix-merge-finally
+Merge pull request #1922 from akarnokd/SchedulersRemoveOnCancelPolicy
+Merge pull request #1918 from ReactiveX/revert-1916-experimentalOnBackpressureBufferWithCapacity
+Merge pull request #1916 from benjchristensen/experimentalOnBackpressureBufferWithCapacity
+Merge branch '1.x' of github.com:srvaroa/RxJava into experimentalOnBackpressureBufferWithCapacity
+Merge pull request #1907 from benjchristensen/onBackpressureBlock
+Merge pull request #1911 from akarnokd/AtomicPerf
+Merge branch 'OnBackpressureBlock' of github.com:akarnokd/RxJava into onBackpressureBlock
+Merge pull request #1905 from benjchristensen/lifecycle-annotations
+Merge pull request #1904 from zsxwing/fix-scan
+Merge pull request #1898 from akarnokd/ScheduledActionNoInterrupt
+Merge pull request #1903 from benjchristensen/testscheduler-1790
+Merge pull request #1884 from benjchristensen/mutable-collect-scan-reduce
+Merge pull request #1882 from benjchristensen/scheduler-parallelism
+Merge pull request #1834 from benjchristensen/toSerializedSubject
+Merge pull request #1832 from benjchristensen/thread-interrupts-take
+Merge pull request #1835 from benjchristensen/reduce-scan-mutable-seed
+Merge pull request #1836 from benjchristensen/ring-buffer-size
+Merge pull request #1833 from benjchristensen/window-tweaks
+Merge pull request #1827 from alexwen/1826_scheduler_termination
+Merge pull request #1830 from benjchristensen/313-mergeDelayError
+Merge pull request #1829 from benjchristensen/1546-window
+Merge pull request #1819 from benjchristensen/issuje-1818-concat
+Merge pull request #1817 from benjchristensen/lift-error-handling
+Merge pull request #1813 from zsxwing/issue1812
+Merge pull request #1809 from benjchristensen/1797-utility-functions
+Merge pull request #1806 from benjchristensen/remove-utilities
+Merge pull request #1808 from jparise/readme-clojure-link
+Merge pull request #1802 from simonbasle/hasObservers
+Merge pull request #1803 from edenman/1.x
+Merge pull request #1796 from benjchristensen/testsubject-javadoc
+Merge pull request #1788 from benjchristensen/1785-remove-publish-overloads
+Merge pull request #1793 from benjchristensen/1791_first_with_retryWhen
+Merge pull request #1789 from benjchristensen/1668-groupedObservable
+Merge pull request #1787 from benjchristensen/1782-remove-withIndex
+Merge pull request #1786 from benjchristensen/1779-multicast
+Merge pull request #1784 from benjchristensen/publish-backpressure
+Merge pull request #1777 from abersnaze/javadoc-exclude
+Merge pull request #1778 from zsxwing/compose
+Merge pull request #1776 from benjchristensen/compose-generics
+Merge pull request #1771 from neerajrj/onErrorReturnBackpressure
+Merge pull request #1767 from loganj/uncaught_executor
+Merge pull request #1768 from benjchristensen/onErrorTests
+Merge pull request #1765 from neerajrj/onErrorResumeBackpressure
+Merge pull request #1766 from loganj/uncaught
+Merge pull request #1763 from benjchristensen/cleanup-refCount-tests
+Merge pull request #1757 from akarnokd/Cleanup_Override_n_SuppressWarnings
+Merge pull request #1755 from benjchristensen/issue1688
+Merge pull request #1752 from akarnokd/Cleanup_Headers_n_Casts
+Merge pull request #1750 from zsxwing/OnSubscribeFromIterabl-NPE
+Merge pull request #1751 from akarnokd/Remove_unused
+Merge pull request #1749 from benjchristensen/buffer-empty
+Merge pull request #1747 from akarnokd/Cleanup_Utility_Classes
+Merge pull request #1745 from benjchristensen/serialized-subject
+Merge pull request #1746 from benjchristensen/issue-1682
+Merge pull request #1743 from benjchristensen/issue-1685
+Merge pull request #1742 from benjchristensen/issue-1571
+Merge pull request #1740 from benjchristensen/countLong
+Merge pull request #1736 from benjchristensen/issue-1702
+Merge pull request #1738 from benjchristensen/issue-1724
+Merge pull request #1739 from benjchristensen/observeOn-testErrorPropagatesWhenNoOutstandingRequests
+Merge pull request #1733 from benjchristensen/clean-stray-file
+Merge pull request #1731 from benjchristensen/issue-1525
+Merge pull request #1729 from benjchristensen/combineLatest-1717
+Merge pull request #1728 from benjchristensen/observeOnErrorPropagation
+Merge pull request #1727 from benjchristensen/groupByWithBackpressure
+Merge pull request #1726 from benjchristensen/fix-merge-1723
+Merge pull request #1720 from abersnaze/dematerize-reWhen
+Merge pull request #1719 from abersnaze/onBackpressure-request-max
+Merge pull request #1716 from benjchristensen/remove-parallel
+Merge pull request #1714 from benjchristensen/merge-20
+Merge pull request #1683 from benjchristensen/observeOn-error
+Merge pull request #1713 from benjchristensen/tweak-pull-1705-fix
+Merge pull request #1705 from edenman/1.x
+Merge pull request #1687 from jbripley/opt-empty
+Merge pull request #1672 from benjchristensen/merge-0_20_4
+Merge pull request #1665 from loganlinn/patch-1
+Merge pull request #1652 from benjchristensen/1.x-scan-backpressure-fix
+Merge pull request #1645 from benjchristensen/remove-parallel-merge
+Remove ParallelMerge
+Merge pull request #1644 from benjchristensen/nebula-build
+Merge pull request #1639 from benjchristensen/doOnEach-error-swallowing
+Merge pull request #1638 from benjchristensen/composite-exception
+Merge pull request #1635 from daschl/blockingperf
+Merge pull request #1621 from benjchristensen/deprecation-removal
+Merge pull request #1615 from abersnaze/migrate-rx-string
+Merge pull request #1613 from daschl/more-namespace-changes
+Merge pull request #1610 from benjchristensen/multicast-without-factory
+Merge pull request #1611 from benjchristensen/superfluous-overloads
+Merge pull request #1592 from benjchristensen/using-1466
+Merge pull request #1609 from zsxwing/rxscala-backpressure
+Merge pull request #1608 from davidmoten/window-add-overload
+Merge pull request #1601 from zsxwing/rxscala-multicast
+Merge pull request #1605 from jbripley/rxscala-retrywhensignature
+Merge pull request #1597 from GeorgiKhomeriki/master
+Merge pull request #1599 from davidmoten/reuse
+Merge pull request #1598 from jbripley/rxscala-doonunsubscribe
+Merge pull request #1600 from jbripley/rxscala-javadocfixes
+Merge pull request #1602 from abersnaze/consistent-retrywhen
+Merge pull request #1593 from benjchristensen/doOnSubscribe
+Merge pull request #1589 from g9yuayon/operatorOnUnsubscribed
+Merge pull request #1586 from jbripley/rxscala-just
+Merge pull request #1587 from jbripley/rxscala-replace-deprecated
+Merge pull request #1545 from ronshapiro/master
+Merge pull request #1576 from benjchristensen/from-items
+Merge pull request #1583 from benjchristensen/repeat-concat
+Merge pull request #1582 from benjchristensen/groupedObservable-from
+Merge pull request #1581 from benjchristensen/zip-zipWith
+Merge pull request #1577 from zsxwing/compose-covariance
+Merge pull request #1569 from benjchristensen/compose-transformer-variance
+Merge pull request #1575 from benjchristensen/combineLatest-backpressure
+Merge pull request #1573 from benjchristensen/parallel-backpressure
+Merge pull request #1572 from benjchristensen/remove-toBlocking-timeout
+Merge pull request #1570 from daveray/rx-clj-fix-mapcat
+Merge pull request #1568 from benjchristensen/compose-transformer
+Merge pull request #1567 from benjchristensen/groupBy-selector
+Merge pull request #1565 from benjchristensen/kotlin-defer
+Merge pull request #1507 from zsxwing/backpressure-bufferWithSize
+Merge pull request #1557 from zsxwing/backpressure-switch
+Merge pull request #1562 from zsxwing/backpressure-takeLastTimed
+Merge pull request #1564 from zsxwing/rxscala-completeness
+Merge pull request #1548 from stealthcode/BPRedo
+Merge pull request #1559 from mattrjacobs/scheduler-plugin
+Merge pull request #1561 from benjchristensen/issue-1157-defer
+Merge pull request #1537 from GeorgiKhomeriki/master
+Merge pull request #1560 from benjchristensen/flatMap-mergeMap
+Merge pull request #1558 from benjchristensen/issue-1550
+Merge branch 'master' of https://github.com/Netflix/RxJava into docs
+Merge pull request #1552 from abersnaze/most-recent-null
+Merge pull request #1555 from jbripley/rxscala-retrywhen
+Merge pull request #1534 from benjchristensen/concat-backpressure
+Merge pull request #1533 from benjchristensen/issue-1516
+Merge pull request #1527 from mattrjacobs/reduce-fails-on-backpressure
+Merge pull request #1528 from Yarikx/android-broadcasts-rebased
+Merge pull request #1523 from zsxwing/issue-1522
+Merge pull request #1530 from zsxwing/issue-merge
+Merge pull request #1526 from benjchristensen/ring-buffer-queue
+Merge pull request #1468 from zsxwing/rxscala-completeness
+Merge pull request #1515 from benjchristensen/multicast-factory
+Merge pull request #1518 from SeanPONeil/typo_fixes
+Merge pull request #1521 from benjchristensen/issue-1450
+Merge pull request #1520 from benjchristensen/issue-1429
+Merge pull request #1519 from benjchristensen/jruby-docs
+Merge pull request #1513 from benjchristensen/to-list-copy
+Merge pull request #1501 from benjchristensen/blocking-next
+Merge pull request #1504 from benjchristensen/issue-1218
+Merge pull request #1499 from benjchristensen/retryTest-iterativeBackoff
+Merge pull request #1498 from benjchristensen/testUserSubscriberUsingRequestAsync
+Merge pull request #1497 from benjchristensen/ring-buffer
+Merge pull request #1495 from puniverse/master
+Merge pull request #1496 from benjchristensen/ring-buffer
+Merge pull request #1494 from benjchristensen/zip-with
+Merge pull request #1493 from benjchristensen/retry_repeat-when
+Merge pull request #1491 from benjchristensen/concat-backpressure-outer
+Merge pull request #1490 from benjchristensen/unit-tests
+Merge pull request #1489 from benjchristensen/terminal-operator-backpressure
+Merge pull request #1474 from mattrjacobs/ignore-backpressure-operator-tosortedlist
+Merge pull request #1473 from mattrjacobs/handle-backpressure-in-any-operator
+Merge pull request #1472 from mattrjacobs/add-unit-test-to-operator-all
+Merge pull request #1469 from mattrjacobs/fix-tolist-backpressure
+Merge pull request #1467 from benjchristensen/cache-docs
+Merge pull request #1393 from gliptak/cachehint
+Merge pull request #1431 from tomrozb/composite-exception
+Merge pull request #1436 from gliptak/genericswarnings
+Merge pull request #1463 from benjchristensen/merge-1420
+Merge Bug: Missing Emissions
+Merge pull request #1462 from benjchristensen/merge-perf-fix
+Merge pull request #1459 from benjchristensen/remove-onSetProducer
+Merge branch 'remove-onsetproducer' of github.com:abersnaze/RxJava into remove-onSetProducer
+Merge pull request #1458 from benjchristensen/remove-pivot
+Merge pull request #1457 from benjchristensen/mergeDelayError-backpressure
+MergeDelayError & OnErrorFlatMap w/ Merge
+Merge pull request #1453 from spodila/takeWhileFailure
+Merge pull request #1454 from zsxwing/issue1451
+Merge pull request #1446 from benjchristensen/zip-backpressure
+Merge pull request #1448 from zsxwing/rxscala-more
+Merge pull request #1443 from benjchristensen/request-long-max-value
+Merge pull request #1442 from benjchristensen/merge-bug
+Merge pull request #1433 from Applied-Duality/async
+Merge pull request #1423 from stealthcode/ProducerIntToLong
+Merge pull request #1422 from benjchristensen/issue-1420
+Merge pull request #1394 from gliptak/scalabindings
+Merge pull request #1417 from benjchristensen/onStart
+Merge pull request #1282 from abersnaze/closeable
+Merge pull request #1398 from zsxwing/rxscala-currying
+Merge pull request #1414 from benjchristensen/merge-fixes
+Merge pull request #1412 from benjchristensen/backpressure-9
+Merge pull request #1401 from samhendley/onnextvalue
+Merge pull request #1409 from dpsm/master
+Merge pull request #1406 from MarioAriasC/master
+Merge pull request #1400 from benjchristensen/internal-data-structures
+Merge pull request #1399 from benjchristensen/perf-tests-0702
+Merge pull request #1396 from zsxwing/rxscala-fix-warning
+Merge pull request #1397 from abersnaze/add-hooks-to-unsafeSubscribe
+Merge pull request #1388 from mattrjacobs/eliminate-circular-exception-creation
+Merge pull request #1387 from benjchristensen/jmh-0.9
+Merge pull request #1297 from everpeace/rxjava-scalaz
+Merge pull request #1332 from ashleyj/master
+Merge pull request #1380 from benjchristensen/fixes
+Merge pull request #1379 from benjchristensen/parallel
+Merge pull request #1378 from benjchristensen/pivot
+Merge pull request #1376 from benjchristensen/jmh
+Merge branch 'master' of https://github.com/Netflix/RxJava into docs
+Merge pull request #1375 from zsxwing/rxscala-toXXX
+Merge pull request #1367 from zsxwing/swallow-error
+Merge pull request #1374 from nitsanw/master
+Merge pull request #1369 from mattrjacobs/fix-debug-hook
+Merge pull request #1361 from samueltardieu/queued-actions
+Merge pull request #1336 from zsxwing/rxscala-bo
+Merge pull request #1362 from zsxwing/rxscala-create
+Merge branch 'master' of https://github.com/Netflix/RxJava into docs
+Merge pull request #1359 from akarnokd/MpscLinkedQueuePadding
+Merge pull request #1357 from benjchristensen/mergeWith-and-friends
+MergeWith, ConcatWith, AmbWith
+Merge pull request #1345 from jbripley/doblock-simplify
+Merge pull request #1337 from zsxwing/fix-toFuture
+Merge pull request #1335 from mttkay/android-gradle-0.11
+Merge pull request #1327 from akarnokd/MoreJoinPatterns
+Merge pull request #1321 from dpsm/master
+Merge pull request #1347 from samueltardieu/unsubscribe-from-periodic
+Merge pull request #1355 from akarnokd/ReplaySubjectDontAddUnsubscribedChild
+Merge branch 'master' into rxscala-bo
+Merge pull request #1350 from benjchristensen/perf-tests
+Merge pull request #1316 from zsxwing/rxscala-more
+Merge pull request #1324 from benjchristensen/trampoline-schedule-unsubscribe
+Merge pull request #1311 from craigmingtaozhang/master
+Merge pull request #1309 from benjchristensen/subscriber-subscription
+Merge pull request #1306 from mattrjacobs/add-error-handler-to-error-swallowing-operators
+Merge pull request #1307 from benjchristensen/make-notificationDelay-deterministic
+Merge pull request #1302 from davidmoten/groupBy-naming
+Merge pull request #1304 from zsxwing/flatMap
+Merge pull request #1301 from jbripley/subscription-block-expression
+Merge pull request #1298 from benjchristensen/perf-transform
+Merge pull request #1296 from jbripley/schedulers-internal
+Merge pull request #1295 from benjchristensen/notification-lite
+Merge pull request #1294 from benjchristensen/rx-internal-operators
+Merge pull request #1291 from mattrjacobs/check-unsubscribe-within-observable-from-future
+Merge pull request #1293 from benjchristensen/perf-tests
+Merge pull request #1290 from benjchristensen/jmh-upgrade
+Merge pull request #1289 from benjchristensen/schedulers-from-executor
+Merge pull request #1287 from akarnokd/SubjectObserverPerf
+Merge pull request #1276 from jbripley/cachedthreadscheduler2
+Merge pull request #1286 from davidmoten/operator-to-onsubscribe
+Merge pull request #1288 from davidmoten/string-from-bytes
+Merge branch 'master' of https://github.com/Netflix/RxJava into docs
+Merge branch 'master' of https://github.com/Netflix/RxJava into operator-to-onsubscribe
+Merge pull request #1284 from benjchristensen/util-with-mpsc
+Merge branch 'SerializedObserverPerf521' of github.com:akarnokd/RxJava into util-with-mpsc
+Merge pull request #1281 from benjchristensen/composite-subscription-performance
+Merge pull request #1265 from zsxwing/rxscala-more
+Merge branch 'master' of https://github.com/Netflix/RxJava into docs + improve retry(Func2) javadocs
+Merge pull request #1271 from akarnokd/OperatorRetryWithPredicate
+Merge pull request #1264 from akarnokd/ObserveOnScheduleUnsubscribe
+Merge branch 'master' of https://github.com/Netflix/RxJava into docs + add a couple of javadoc improvements to merged changes
+Merge pull request #1275 from benjchristensen/fix-formatting
+Merge pull request #1272 from akarnokd/ExecutorScheduler
+Merge pull request #1269 from zsxwing/range-overflow
+Merge branch 'master' into cachedthreadscheduler2
+Add parallelMerge to RxScala
+Merge pull request #1260 from zsxwing/bo-singleOrDefault-bug
+Merge pull request #1247 from zsxwing/zip-iterable
+Merge pull request #1246 from akarnokd/AtomicReferencesToFieldUpdaters
+Merge pull request #1239 from zsxwing/apply-scaladoc-example
+Merge pull request #1244 from benjchristensen/from-just
+Merge pull request #1243 from benjchristensen/perf
+Merge pull request #1236 from akarnokd/CompositeSubscriptionMemory521
+Merge pull request #1237 from akarnokd/SafeSubscriberMemory
+Merge branch 'master' of https://github.com/Netflix/RxJava into docs
+Merge branch 'master' of https://github.com/Netflix/RxJava into docs
+Merge pull request #1233 from benjchristensen/deprecate-toBlockingObservable
+Merge pull request #1232 from benjchristensen/678-Java8-names
+Merge pull request #1231 from benjchristensen/682-share
+Merge pull request #1229 from benjchristensen/1116-ambiguous-overloads
+Merge pull request #1228 from benjchristensen/fix-formatting
+Merge pull request #1160 from zsxwing/replay-multicast
+Merge pull request #1223 from akarnokd/BoundedReplaySubject520
+Merge pull request #1224 from daschl/toblocking
+Merge pull request #1226 from zsxwing/zip
+Merge branch 'master' into replay-multicast
+Merge pull request #1208 from mttkay/tolist-uses-linked-list-buffer
+Merge pull request #1216 from hmrm/patch-1
+Merge pull request #1210 from zsxwing/rxscala-more
+Merge branch 'master' into rxscala-more
+Merge pull request #1178 from zsxwing/issue1173
+Merge branch 'master' into rxscala-more
+Merge pull request #1172 from akarnokd/ObserveOnBatchDequeue
+Merge pull request #1188 from zsxwing/issue1187
+Merge pull request #1182 from amazari/rxjava-javafx
+Merge pull request #1177 from akarnokd/GroupByUntilTimeGap
+Merge pull request #1183 from akarnokd/NotificationLitePerf
+Merge branch 'master' into replay-multicast
+Merge pull request #1165 from zsxwing/review-issue1159
+Merge branch 'master' into replay-multicast
+Merge pull request #1164 from benjchristensen/scheduler-jmh-perf-tests
+Merge pull request #1159 from zsxwing/rxscala-improvement
+Merge pull request #1162 from kirkshoop/stableperiodic
+Merge pull request #1161 from akarnokd/RemoveOnSubscribeFuncRefs
+Merge pull request #1163 from benjchristensen/defer-generics
+Merge pull request #1150 from benjchristensen/replay-fix
+Merge pull request #1148 from benjchristensen/merge-delay
+Merge branch 'OperatorDelay505' of github.com:akarnokd/RxJava into merge-delay
+Merge pull request #1142 from zsxwing/contains
+Merge pull request #1138 from akarnokd/OperatorWindow430
+Merge pull request #1135 from zsxwing/take-until
+Merge pull request #1134 from zsxwing/take-last
+Merge pull request #1124 from zsxwing/scala-lift
+Merge pull request #1133 from benjchristensen/imports
+Merge pull request #1132 from benjchristensen/merge-prs
+Merge branch 'OperatorTakeTimed429' of github.com:akarnokd/RxJava into merge-prs
+Merge branch 'OperatorSwitch' of github.com:akarnokd/RxJava into merge-prs
+Merge branch 'OperatorComputationExpr' of github.com:akarnokd/RxJava into merge-prs
+Merge branch 'OperatorContribJoin' of github.com:akarnokd/RxJava into merge-prs
+Merge branch 'OperatorContribMath' of github.com:akarnokd/RxJava into merge-prs
+Merge branch 'OperatorSkipUntil' of github.com:akarnokd/RxJava into merge-prs
+Merge branch 'OperatorSkipTimed' of github.com:akarnokd/RxJava into merge-prs
+Merge branch 'OperatorSequenceEquals' of github.com:akarnokd/RxJava into merge-prs
+Merge branch 'OperatorRefCount' of github.com:akarnokd/RxJava into merge-prs
+Merge branch 'OperatorParallelMerge' of github.com:akarnokd/RxJava into merge-prs
+Merge branch 'OperatorOnExceptionResumeNextViaObservable' of github.com:akarnokd/RxJava into merge-prs
+Merge branch 'take-while' of git://github.com/zsxwing/RxJava into merge-prs
+Merge branch 'throttle-first' of git://github.com/zsxwing/RxJava into merge-prs
+Merge branch 'time-interval' of git://github.com/zsxwing/RxJava into merge-prs
+Merge branch 'OperatorOnErrorReturn' of github.com:akarnokd/RxJava into merge-prs
+Merge branch 'OperatorOnErrorResumeNextViaObservable' of github.com:akarnokd/RxJava into merge-prs
+Merge branch 'OperatorMulticast' of github.com:akarnokd/RxJava into merge-prs
+Merge branch 'OperatorMergeMaxConcurrent' of github.com:akarnokd/RxJava into merge-prs
+Merge branch 'OperatorMergeDelayError' of github.com:akarnokd/RxJava into merge-prs
+Merge branch 'OperatorGroupJoin' of github.com:akarnokd/RxJava into merge-prs
+Merge branch 'OperatorJoin' of github.com:akarnokd/RxJava into merge-prs
+Merge branch 'OperatorAsync' of github.com:akarnokd/RxJava into merge-prs
+Merge branch 'using' of git://github.com/zsxwing/RxJava into merge-prs
+Merge branch 'to-map' of git://github.com/zsxwing/RxJava into merge-prs
+Merge branch 'OperatorTimer' of github.com:akarnokd/RxJava into merge-prs
+Merge branch 'to-multimap' of git://github.com/zsxwing/RxJava into merge-prs
+Merge branch 'OperatorGroupByUntil' of github.com:akarnokd/RxJava into merge-prs
+Operator ParallelMerge
+OperatorMergeMaxConcurrent
+OperatorMergeDelayError
+Merge pull request #1092 from benjchristensen/ObservableExecutionHook-onCreate
+Merge pull request #1091 from benjchristensen/unsafeSubscribe-error-handling
+Merge pull request #1089 from benjchristensen/merge-prs
+Merge branch 'to-observable-future' of git://github.com/zsxwing/RxJava into merge-prs
+Merge branch 'OperatorMergeMap' of github.com:akarnokd/RxJava into merge-prs
+Merge branch 'OperatorFinallyDo' of github.com:akarnokd/RxJava into merge-prs
+Merge branch 'OperatorDistinctUntilChanged' of github.com:akarnokd/RxJava into merge-prs
+Merge branch 'OperatorDistinct' of github.com:akarnokd/RxJava into merge-prs
+Merge branch 'OperatorDematerialize' of github.com:akarnokd/RxJava into merge-prs
+Merge branch 'OperatorDefer' of github.com:akarnokd/RxJava into merge-prs
+Merge branch 'OperatorDefaultIfEmpty' of github.com:akarnokd/RxJava into merge-prs
+Merge branch 'OperatorCombineLatest' of github.com:akarnokd/RxJava into merge-prs
+Merge pull request #1074 from akarnokd/OperatorConcat
+Merge pull request #1073 from akarnokd/OperatorBuffer
+Merge pull request #1065 from zsxwing/skip-last-timed
+OperatorMergeMap
+Merge pull request #1072 from benjchristensen/scheduler.worker
+Merge pull request #1068 from davidmoten/retry-unit-test
+Merge pull request #1071 from benjchristensen/merge-asObservable
+Merge branch 'OperatorAsObservable' of github.com:akarnokd/RxJava into merge-asObservable
+Merge pull request #1063 from zsxwing/Timestamped-bug
+Merge pull request #1070 from benjchristensen/operator-any
+Merge branch 'OperatorAny' of github.com:akarnokd/RxJava into operator-any
+Merge pull request #1069 from benjchristensen/operator-all
+Merge branch 'OperatorAll' of github.com:akarnokd/RxJava into operator-all
+Merge branch 'master' of github.com:MarkVanDerVoort/RxJava into operator-all
+Merge pull request #1058 from jaceklaskowski/javadoc
+Merge pull request #1056 from zsxwing/scala-drop
+Merge pull request #1057 from zsxwing/issue-1044
+Merge pull request #1055 from puniverse/master
+Merge pull request #1053 from benjchristensen/deprecation-cleanup
+Merge pull request #1052 from benjchristensen/computation-scheduler
+Merge pull request #1050 from zsxwing/skip-last
+Merge pull request #1051 from benjchristensen/merge-967
+Merge branch 'single' of git://github.com/zsxwing/RxJava into merge-967
+Merge pull request #1049 from benjchristensen/joins-module
+Merge pull request #1048 from benjchristensen/executor-scheduler
+Merge pull request #1047 from benjchristensen/scheduler-0.18-with-inner
+Merge pull request #1038 from Yarikx/android-view-observable
+Merge pull request #1020 from mttkay/android-samples-gradle-1-11
+Merge pull request #1009 from zsiegel/update-android-sample
+Merge pull request #1035 from vigdorchik/scala_cleanup
+Merge pull request #1042 from MarioAriasC/master
+Merge pull request #1040 from benjchristensen/pull-972
+Merge pull request #1005 from suncelesta/scala-observable-update
+Merge pull request #1036 from GeorgiKhomeriki/master
+Merge pull request #1021 from mttkay/fix-operator-weak-binding
+Merge pull request #1033 from benjchristensen/retry-1027
+Merge branch 'petermd/retry-timeout' of github.com:petermd/RxJava into retry-1027
+Merge pull request #1030 from daschl/subj-bench
+Merge pull request #1031 from benjchristensen/subject-npe
+Merge pull request #1019 from benjchristensen/retry-1018
+Merge pull request #1015 from benjchristensen/safe-subscribe
+Merge pull request #1010 from benjchristensen/unsafe-subscribe
+Merge pull request #990 from puniverse/master
+Merge pull request #999 from benjchristensen/serialize-optimizations
+Merge pull request #1003 from rickbw/callable-func0
+Merge pull request #996 from rspieldenner/perfshadowjar
+Merge pull request #995 from benjchristensen/jmh-args
+Merge pull request #993 from benjchristensen/perf-tests
+Merge remote-tracking branch 'upstream/master'
+Merge pull request #991 from benjchristensen/jmh-build
+Merge pull request #988 from benjchristensen/issue-969
+Merge pull request #987 from benjchristensen/pivot
+Merge pull request #986 from benjchristensen/issue-985
+Merge pull request #965 from zsxwing/fix-timeout-unsubscribe
+Merge pull request #966 from zsxwing/elementAt
+Merge pull request #984 from benjchristensen/pivot-concurrency
+Merge pull request #982 from benjchristensen/pivot
+Merge branch 'master' into single
+Merge pull request #977 from benjchristensen/dematerialize
+Merge pull request #976 from benjchristensen/parallel-merge-assertions
+Merge pull request #975 from benjchristensen/groupBy-fixes
+Merge pull request #974 from benjchristensen/testing
+Merge pull request #973 from benjchristensen/merge-handle-bad-observable
+Merge with Serialize
+Merge pull request #970 from abersnaze/notification-lite
+Merge pull request #963 from gvsmirnov/master
+Merge pull request #962 from benjchristensen/serialize-synchronize
+Migrate Merge from Synchronize to Serialize
+Merge pull request #960 from benjchristensen/issue-879-unit-test
+Merge pull request #959 from rickbw/toFuture-cancellation
+Merge pull request #958 from akarnokd/OperatorSkipWhile
+Merge pull request #952 from zsxwing/amb
+Merge pull request #938 from soundcloud/operator-weak-binding
+Merge pull request #930 from mttkay/android-samples
+Merge remote-tracking branch 'netflix/master' into android-samples
+Merge pull request #953 from benjchristensen/observe-on-non-deterministic-test
+Merge pull request #950 from Acardiac/eclipse-pde-support
+Merge branch 'master' of https://github.com/Netflix/RxJava into docs
+Merge pull request #931 from soundcloud/android-operator-improvements
+Merge pull request #923 from samuelgruetter/scala-additions
+Merge pull request #929 from devisnik/fix_maven_search_link
+Merge pull request #934 from davidmoten/add-startWith
+Merge pull request #945 from benjchristensen/merge-940
+Merge branch 'clean-up-hook-args' of github.com:abersnaze/RxJava into merge-940
+Merge pull request #944 from benjchristensen/operator-retry
+Merge pull request #942 from benjchristensen/math-module
+Merge pull request #927 from benjchristensen/test-subscriber-last-seen-thread
+Merge pull request #926 from benjchristensen/test-subscriber
+Merge pull request #925 from daveray/rxjava-clojure-bindings-final
+Merge pull request #924 from benjchristensen/lift-error-handling
+Merge branch 'master' of github.com:Netflix/RxJava into scala-additions
+Merge pull request #922 from abersnaze/debug-updates
+Merge pull request #920 from benjchristensen/delete-deprecated-hook-method
+Merge pull request #919 from benjchristensen/zip-bugfix-868
+Merge pull request #918 from benjchristensen/doOnTerminate
+Merge pull request #910 from benjchristensen/groupBy-selector
+Merge pull request #909 from benjchristensen/scheduler-plugin
+Merge pull request #905 from benjchristensen/scheduler-defaults-plugin
+Merge pull request #904 from benjchristensen/merge-subscriptions
+Merge pull request #903 from benjchristensen/scheduler-visibility
+Merge: Unsubscribe Completed Inner Observables
+Merge pull request #902 from johanhaleby/master
+Merge pull request #901 from benjchristensen/groupBy-unit-test
+Merge pull request #898 from benjchristensen/safe-subscriber-plugin-error-handling
+Merge pull request #892 from benjchristensen/onErrorFlatMap
+Merge pull request #895 from zsxwing/android-operator
+Merge pull request #883 from zsxwing/swing-thread-safe
+Merge pull request #896 from abersnaze/observable-string-remove-7
+Merge pull request #885 from abersnaze/observable-string-from
+Merge pull request #894 from benjchristensen/synchronize-isTerminated
+Merge pull request #893 from benjchristensen/parallel
+Merge pull request #881 from benjchristensen/lift-performance
+Merge pull request #891 from benjchristensen/rx-util
+Merge pull request #890 from benjchristensen/subscribeOn-subscriptions
+Merge pull request #888 from benjchristensen/observeOn-bounded-unbounded
+Merge pull request #887 from benjchristensen/filter-cleanup
+Merge pull request #880 from zsxwing/android-unsubscribe-thread-safe
+Merge pull request #877 from pyrtsa/patch-1
+Merge pull request #878 from benjchristensen/scheduleRecursive
+Merge pull request #876 from benjchristensen/751-merge
+Merge branch 'issue750' of github.com:vigdorchik/RxJava into 751-merge
+Merge pull request #869 from benjchristensen/subscribeOn+groupBy
+Merge pull request #7 from zsxwing/subscribeOn+groupBy
+Merge pull request #874 from davidmoten/master
+Merge pull request #870 from zsxwing/timeout-scala
+Merge branch 'BlockingBufferUntilExperiment' of github.com:akarnokd/RxJava into subscribeOn-blockingBuffer
+Merge pull request #866 from benjchristensen/operator-touchup
+Merge pull request #790 from abersnaze/scan
+Merge pull request #862 from zsxwing/timeout-docs
+Merge pull request #863 from Acardiac/swing-rel-mouse-motion
+Merge pull request #860 from abersnaze/merge-generics
+Merge pull request #859 from Acardiac/fragment-host
+Merge pull request #857 from benjchristensen/operator-type
+Merge pull request #854 from abersnaze/oncreate
+Merge pull request #855 from benjchristensen/observeOn+queue
+Merge pull request #763 from chrisgrimm/master
+Merge pull request #853 from benjchristensen/string-observable
+Merge branch 'update-string' of github.com:abersnaze/RxJava into string-observable
+Merge pull request #852 from benjchristensen/rxjava-debug
+Merge branch 'debug' of github.com:abersnaze/RxJava into rxjava-debug
+Merge pull request #846 from johanhaleby/master
+Merge pull request #851 from zsxwing/timeout
+Merge pull request #849 from Acardiac/fragment-host
+Merge pull request #847 from benjchristensen/groupby-and-friends
+Revert to OperationMergeMaxConcurrent
+Split Merge and MergeMaxConcurrent
+Merge pull request #845 from MarioAriasC/master
+Merge branch 'master' into debug
+Merge pull request #842 from benjchristensen/range-unittest
+Merge pull request #841 from benjchristensen/operator-range
+Merge pull request #837 from abersnaze/perf_jmh
+Merge pull request #838 from samuelgruetter/OnCompletedScala
+Merge pull request #835 from benjchristensen/observeOn
+ObserveOn Merge from @akarnokd:OperatorRepeat2
+Merge pull request #839 from benjchristensen/error-handling
+Merge branch 'master' of github.com:Netflix/RxJava into OnCompletedScala
+Merge pull request #834 from daveray/update-clojure-for-0.17
+Merge pull request #832 from duncani/fixes
+Merge pull request #822 from zsxwing/subscribeOn
+Merge pull request #829 from Netflix/docs
+Merge pull request #833 from benjchristensen/take-issue-830
+Merge pull request #828 from benjchristensen/repeat-operator
+Merge pull request #824 from akarnokd/NewThreadSchedulerToDaemon
+Merge pull request #826 from benjchristensen/returned-subscription
+Merge pull request #821 from benjchristensen/fix-android-merge
+Merge pull request #783 from mironov-nsk/android-ui-operators
+Merge pull request #781 from Applied-Duality/join
+Merge pull request #820 from benjchristensen/fix-CompositeSubscriptionAddRemovePerf
+Merge pull request #819 from akarnokd/CompositeSubscriptionPerf4
+Merge pull request #817 from Applied-Duality/ScalaBindingsWithLift
+Merge pull request #818 from akarnokd/CompositeSubscriptionPerf3
+Merge branch 'master' of https://github.com/Netflix/RxJava into docs
+Merge pull request #816 from samuelgruetter/globalOnCompleted
+Merge remote-tracking branch 'origin/master' into docs
+Merge pull request #814 from akarnokd/AsyncMultiPush
+Merge pull request #785 from benjchristensen/operator-zip
+Merge pull request #805 from benjchristensen/fix-composite-exception
+Merge pull request #797 from benjchristensen/scheduler-inner-outer
+Merge pull request #796 from benjchristensen/subscription-isunsubscribed
+Merge pull request #793 from benjchristensen/subscriber-observer
+Merge pull request #791 from Netflix/docs
+Merge pull request #787 from MarioAriasC/master
+Merge pull request #786 from Netflix/docs
+Merge pull request #784 from benjchristensen/lift-observer
+Merge pull request #778 from vadims/fix-zip-race
+Merge pull request #770 from benjchristensen/bind
+Bind implementation of Merge
+Merge pull request #765 from Netflix/docs
+Merge pull request #762 from Netflix/docs
+Merge pull request #760 from benjchristensen/perf-tests
+Merge pull request #752 from benjchristensen/organize-format-alphabetize-finalize
+Merge pull request #732 from chrisgrimm/master
+Merge pull request #749 from wehjin/splittests
+Merge pull request #741 from akarnokd/ZipInstanceMethods
+Merge pull request #745 from zsxwing/issue-737
+Merge pull request #740 from akarnokd/TimeoutWithSelector
+Merge pull request #739 from akarnokd/DebounceWithFunc
+Merge pull request #738 from akarnokd/PublishAndPublishLast2
+Merge pull request #736 from akarnokd/FlatMapOverloads
+Merge pull request #735 from akarnokd/WindowViaObservable
+Merge pull request #734 from akarnokd/DelayViaObservable
+Merge pull request #733 from akarnokd/BufferWithObservableBoundary
+Merge pull request #718 from zsxwing/merge-overloads
+Merge pull request #742 from alkemist/gradle-1.10
+MergeMap with Iterable and resultSelector overloads
+Merge pull request #731 from zsxwing/flaky-unit-tests
+Merge pull request #720 from hura/master
+Merge pull request #730 from benjchristensen/unsubscribe-error-handling
+Merge pull request #727 from benjchristensen/iterable-to-observable-immediate-scheduler
+Merge pull request #725 from benjchristensen/schedulers-naming
+Merge pull request #724 from benjchristensen/revert-current-thread-scheduler-usage
+Merge pull request #723 from benjchristensen/deprecation
+Merge pull request #715 from y-p/PR_GH623
+Merge pull request #714 from benjchristensen/rxjava-computation-expressions
+Merge pull request #712 from benjchristensen/scheduler-memory-leak
+Merge pull request #710 from Netflix/docs
+Merge pull request #709 from Netflix/docs
+Merge pull request #708 from benjchristensen/combine-latest
+Manual Merge of Pull #616
+Merge pull request #707 from benjchristensen/rxjava-async-util-module
+Merge pull request #705 from Netflix/docs
+Merge pull request #700 from Netflix/docs
+Merge pull request #703 from benjchristensen/small-tweaks
+Merge pull request #701 from benjchristensen/collect
+Merge remote-tracking branch 'origin/master' into docs
+Merge pull request #699 from benjchristensen/repeat
+Merge remote-tracking branch 'origin/master' into docs
+Merge pull request #698 from benjchristensen/pull-657-merge
+Merge branch 'AggregatorsWithSelector' of github.com:akarnokd/RxJava into pull-657-merge
+Merge pull request #697 from benjchristensen/skip-take-time-merge
+Manual Merge github.com:akarnokd/RxJava SkipTakeTimed2
+Merge pull request #664 from akarnokd/OperationAsObservable
+Merge pull request #689 from akarnokd/ObserverBaseLess
+Merge pull request #694 from Netflix/docs
+Merge pull request #693 from MarioAriasC/master
+Merge pull request #691 from Netflix/docs
+Merge pull request #690 from Applied-Duality/benChanges
+Merge pull request #688 from benjchristensen/SafeObserver-errorHandling
+Merge pull request #670 from benjchristensen/api-tweaks
+Merge pull request #669 from Netflix/docs
+MergeMap, ConcatMap, SwitchMap
+Merge pull request #638 from akarnokd/OperationTakeLastwBufferDeferSubscr
+Merge pull request #635 from akarnokd/OpCaseIfDoWhileWhile
+Merge pull request #633 from zsxwing/fix-issue-595
+Merge pull request #520 from zsxwing/first
+Merge pull request #661 from benjchristensen/subscriptions
+Merge pull request #651 from benjchristensen/subjects-fixes
+Merge pull request #639 from Netflix/docs
+Merge pull request #631 from benjchristensen/NewThreadScheduler-Daemon
+Merge pull request #628 from mattrjacobs/fix-merge-delay-error
+Properly wired up SynchronizedObserver within MergeDelayError operator
+Merge pull request #619 from benjchristensen/executorSchedulerConcurrencyTests
+Merge pull request #602 from benjchristensen/observeOn
+Merge pull request #617 from Netflix/docs
+Merge pull request #615 from abersnaze/issue614
+Copied the code from OperationMerge
+Merge pull request #612 from akarnokd/ReplayAdditionalOps
+Merge pull request #609 from akarnokd/OperationTimer3
+Merge pull request #604 from akarnokd/StringObservableOps1
+Merge pull request #607 from Netflix/docs
+Merge pull request #594 from zsxwing/start
+Merge pull request #600 from benjchristensen/replay-subject
+Merge pull request #599 from benjchristensen/rx.schedulers
+Merge pull request #593 from akarnokd/LockFreeSubscriptions
+Merge pull request #576 from samuelgruetter/delay2
+Merge pull request #597 from Netflix/docs
+Merge pull request #598 from Applied-Duality/RebaseLatestChanges
+Merge branch 'master' of https://github.com/Netflix/RxJava into docs
+Merge pull request #587 from akarnokd/LongCount
+Merge pull request #575 from zsxwing/sequence-equal
+Merge pull request #574 from samuelgruetter/cache-documentation
+Merge pull request #573 from akarnokd/OpeningClosingRemoved
+Merge pull request #572 from akarnokd/ObserveOn3
+Merge pull request #571 from akarnokd/SampleWithObservable2
+Merge pull request #568 from jloisel/master
+Merge pull request #1 from samuelgruetter/OpeningClosingRemovedSam
+Merge pull request #569 from Netflix/docs
+Merge pull request #567 from akarnokd/TimestampWithScheduler
+Merge pull request #565 from akarnokd/GroupJoin2
+Merge pull request #561 from samuelgruetter/scala-constructors
+Merge pull request #563 from akarnokd/GroupByUntil5
+Merge pull request #560 from landonf/java-do-variances
+Merge pull request #537 from landonf/scala-do-operator
+Merge branch 'master' into scala-do-operator
+Merge remote-tracking branch 'upstream/master'
+Merge pull request #555 from Netflix/docs
+Merge pull request #541 from akarnokd/SkipUntil
+Merge pull request #539 from samuelgruetter/test-zip-pr
+Merge pull request #535 from soundcloud/android-support-library-fix
+Merge pull request #533 from akarnokd/ToAsync2
+Merge pull request #531 from Netflix/docs
+Merge pull request #516 from abersnaze/string-observable
+Merge pull request #527 from Netflix/docs
+Merge pull request #529 from benjchristensen/scala-tweaks
+Merge pull request #526 from benjchristensen/pull-513-toMap
+Merge branch 'ToMapAndToMultimap' of github.com:akarnokd/RxJava into pull-513-toMap
+Merge pull request #525 from benjchristensen/bugfix-subjects
+Merge pull request #514 from akarnokd/OperationJoin2
+Merge pull request #522 from zsxwing/issue-521
+Merge pull request #512 from samuelgruetter/scalaadaptor
+Merge upstream/master into OperationJoin2
+Merge upstream/master into OperationJoin2
+Merge upstream/master into ToMapAndToMultimap
+Merge branch 'master' of github.com:Netflix/RxJava into scalaadaptor
+Merge pull request #506 from akarnokd/AndPattern2
+Merge pull request #510 from benjchristensen/pull-495-zip
+Merge pull request #508 from benjchristensen/empty-subscribe
+Merge pull request #503 from Applied-Duality/scala-bindings
+Merge pull request #502 from benjchristensen/observeOn-parallelMerge
+Merge pull request #501 from benjchristensen/parallelMerge
+ParallelMerge Operator
+Merge pull request #499 from benjchristensen/observeOn-refactor
+Merge pull request #492 from zsxwing/scheduler-overloads
+Merge pull request #496 from zsxwing/min-max-contravariant
+Merge remote-tracking branch 'origin/master'
+Merge branch 'docs'
+Merge pull request #486 from benjchristensen/bugfix-async-subject
+Merge pull request #483 from benjchristensen/onEach-fix
+Merge pull request #481 from zsxwing/using
+Merge pull request #480 from zsxwing/issue-423-average
+Merge pull request #479 from nullstyle/add_doOnEach
+Merge pull request #478 from zsxwing/min-max
+Merge pull request #463 from zsxwing/timeout-overload
+Merge pull request #477 from benjchristensen/subscription-bugfixes
+Merge pull request #476 from benjchristensen/bugfix-asyncsubject-empty
+Merge pull request #475 from benjchristensen/issue-423-reduce-empty-observable
+Merge pull request #474 from benjchristensen/issue-423-reduce-empty-observable
+Merge pull request #473 from benjchristensen/fix-nondeterministic-unit-test
+Merge pull request #472 from benjchristensen/issue-431-newThreadUnsubscribe
+Merge pull request #471 from benjchristensen/error-handling
+Merge pull request #470 from benjchristensen/operator-last
+Merge pull request #467 from benjchristensen/amb-merge
+Merge pull request #466 from benjchristensen/unit-test-refactor
+Merge pull request #433 from zsxwing/issue-383
+Merge pull request #452 from zsxwing/return
+Merge pull request #450 from zsxwing/time-interval
+Merge pull request #453 from zsxwing/issue-417
+Merge pull request #455 from samuelgruetter/scalaadaptor
+Merge pull request #458 from soundcloud/android-ui-component-operator
+Merge pull request #459 from zsxwing/issue454
+Merge branch 'master' of github.com:Netflix/RxJava into scalaadaptor
+Merge pull request #449 from mattrjacobs/remove-merge-println
+Removing println from OperationMerge
+Merge pull request #447 from mattrjacobs/internal-impl-cache
+Merge pull request #434 from johnhmarks/Timeout
+Merge pull request #443 from ylecaillez/master
+Merge pull request #441 from zsxwing/issue-417
+Merge pull request #438 from MarioAriasC/master
+Merge pull request #437 from benjchristensen/bug-fixes
+Merge pull request #435 from mattrjacobs/http-chunked
+Merge pull request #430 from zsxwing/issue-428
+Merge pull request #432 from codecurve/master
+Merge pull request #426 from benjchristensen/publish-subject-resubscribe
+Merge pull request #416 from zsxwing/throw
+Merge pull request #424 from zsxwing/ignore-elements
+Merge pull request #422 from ragalie/jruby
+Merge pull request #420 from samuelgruetter/scalaadaptor
+Merge pull request #415 from zsxwing/empty-with-scheduler
+Merge pull request #414 from zsxwing/skip-last
+Merge pull request #413 from zsxwing/take-last
+Merge pull request #411 from petermd/fix-schedtests
+Merge pull request #410 from zsxwing/contains
+Merge pull request #425 from benjchristensen/pull-407-refCount
+Merge branch 'master' of github.com:johnhmarks/RxJava into pull-407-refCount
+Merge branch 'master', remote-tracking branch 'origin'
+Merge branch 'master' of github.com:johnhmarks/RxJava into pull-407-refCount
+Merge pull request #403 from zsxwing/cast
+Merge pull request #401 from zsxwing/default_if_empty
+Merge pull request #408 from samuelgruetter/idiomaticscala
+Merge pull request #409 from zsxwing/synchronize-lock
+Merge branch 'master' of github.com:Netflix/RxJava
+Merge branch 'master' into default_if_empty
+Merge branch 'master' into cast
+Merge pull request #402 from benjchristensen/event-stream-http
+Merge pull request #400 from benjchristensen/distinct-comparator
+Merge pull request #397 from benjchristensen/apache-async-http
+Merge pull request #399 from benjchristensen/pull-390-element-at
+Merge branch 'element_at' of git://github.com/zsxwing/RxJava into pull-390-element-at
+Merge pull request #398 from benjchristensen/merge-385-any
+Merge branch 'any' of git://github.com/zsxwing/RxJava into merge-385-any
+Merge pull request #396 from samuelgruetter/idiomaticscala
+Merge branch 'master' into idiomaticscala
+Merge pull request #394 from benjchristensen/issue-388
+Merge pull request #393 from benjchristensen/parallel-operator
+Merge pull request #391 from brad-uk/master
+Merge branch 'master' of github.com:Netflix/RxJava into completenesstest
+Merge pull request #382 from mattrjacobs/remove-old-rximplicits
+Merge pull request #389 from samuelgruetter/idiomaticscala
+Merge branch 'master' of github.com:Netflix/RxJava into groupBy
+Merge pull request #381 from jmhofer/mapWithIndex
+Merge pull request #380 from jmhofer/distinct-with-comparator
+Merge pull request #379 from jmhofer/interval-multiple-subscribers
+Merge pull request #378 from benjchristensen/tests
+Merge pull request #377 from benjchristensen/distinct-merge
+Merge branch 'distinct' of git://github.com/jmhofer/RxJava into distinct-merge
+Merge pull request #374 from jmhofer/distinctUntilChanged
+Merge pull request #373 from jmhofer/throttle-debounce-fix
+Merge pull request #376 from samuelgruetter/idiomaticscala
+Merge branch 'master' of github.com:Netflix/RxJava into idiomaticscala
+Merge and work on RefCount
+Merge pull request #368 from benjchristensen/throttle-and-debounce
+Merge pull request #369 from benjchristensen/reduce-and-scan-covariance
+Merge and work on RefCount
+Merge and work on RefCount
+Merge branch 'master' of github.com:Netflix/RxJava into idiomaticscala
+Merge pull request #371 from benjchristensen/retry
+Merge pull request #370 from benjchristensen/zip-collection-to-iterable
+Merge branch 'throttleFirst' into throttle
+Merge branch 'throttleLast' into throttle
+Merge branch 'throttleWithTimeout' into throttle
+Merge branch 'operation-throttle' of git://github.com/michaeldejong/RxJava into throttle
+Merge branch 'master' of github.com:Netflix/RxJava into idiomaticscala
+Merge branch 'operation-throttle' of git://github.com/michaeldejong/RxJava into throttle-merge
+Merge pull request #364 from benjchristensen/tests
+Merge pull request #363 from benjchristensen/reduce-covariance
+Merge pull request #362 from benjchristensen/operator-first-merge
+Merge branch 'first-firstDefault' of git://github.com/jmhofer/RxJava into operator-first-merge
+Merge pull request #361 from benjchristensen/issue-359-varargs
+Merge pull request #356 from jmhofer/interval
+Merge pull request #355 from jmhofer/skip-while
+Merge pull request #354 from jmhofer/count-sum-average
+Merge pull request #353 from benjchristensen/take-unit-test
+Merge pull request #352 from abersnaze/groovy-wrapper
+Merge branch 'master' of github.com:Netflix/RxJava into idiomaticscala
+Merge pull request #350 from jmhofer/swing
+Merge pull request #351 from benjchristensen/window-fix
+Merge pull request #349 from benjchristensen/window-operator
+Merge pull request #348 from benjchristensen/switchOnNext
+Merge branch 'OperationWindow' of https://github.com/RallySoftware/RxJava
+Merge window operator commit to master
+Merge pull request #347 from benjchristensen/scala-unit-tests
+Merge pull request #346 from benjchristensen/BlockingObservable
+Merge pull request #344 from daveray/covariant-support-clj
+Merge pull request #345 from benjchristensen/unit-test-cleanup-with-create
+Merge pull request #343 from benjchristensen/covariant-support
+Merge branch 'super-extends' of git://github.com/jmhofer/RxJava into covariant-support
+Merged in master so that the gradle pull request build has a chance to work again
+Merge pull request #341 from quidryan/update-gradle-wrapper-Aug2013
+Merge remote-tracking branch 'build/multi-project' into update-gradle-wrapper-Aug2013
+Merge pull request #1 from benjchristensen/super-extends-additions
+Merge pull request #332 from benjchristensen/issue-329-unit-tests
+Merge pull request #330 from daveray/issue-327-clojure-build
+Merge pull request #325 from daveray/clj-fn-metadata
+Merge pull request #324 from benjchristensen/0.11-cleanup
+Merge pull request #323 from mattrjacobs/static-core
+Merge pull request #4 from daveray/static-core-clj
+Merge pull request #3 from benjchristensen/static-core
+Merge pull request #2 from benjchristensen/static-core
+Merge pull request #2 from jmhofer/reactivate-core-tests
+Merge pull request #322 from mttkay/master
+Merge pull request #321 from benjchristensen/android-merge
+Merge pull request #318 from mttkay/android
+Merge pull request #316 from benjchristensen/fix-slow-unit-test
+Merge pull request #315 from benjchristensen/onError-to-throwable
+Merge pull request #314 from benjchristensen/map-error-handling
+Merge pull request #312 from petermd/fix-errorresumenext
+Merge pull request #311 from daveray/update-javadoc
+Merge pull request #281 from michaeldejong/operation-buffer
+Merge pull request #305 from jmhofer/master
+Merge pull request #308 from NorthNick/master
+Merge pull request #309 from josephwilk/typos
+Merged master into buffer-operation branch
+Merge pull request #303 from benjchristensen/pull-267-combineLatest
+Merge branch 'combineLatest' of git://github.com/jmhofer/RxJava into pull-267-combineLatest
+Merge pull request #290 from abersnaze/issue103
+Merge pull request #302 from rgerasimen/patch-1
+Merge pull request #284 from benjchristensen/issue282-groupBy-fixes
+Merge pull request #288 from benjchristensen/issue282-PublishSubject
+Merge pull request #287 from benjchristensen/error-handling-and-validation
+Merge pull request #285 from DavidMGross/master
+Merge pull request #280 from DavidMGross/master
+Merge pull request #279 from DavidMGross/master
+Merge pull request #275 from benjchristensen/forEach-BlockingObservable
+Merge pull request #274 from benjchristensen/0.9-cleanup
+Merge pull request #259 from michaeldejong/operation-switch
+Merge pull request #273 from billyy/concat
+Merge pull request #272 from benjchristensen/BlockingObservable
+Merge pull request #269 from benjchristensen/observeOn
+Merge pull request #268 from benjchristensen/observeOn-fixes
+Merge branch 'master' into combineLatest
+Merge pull request #266 from benjchristensen/junit-dep
+Merge pull request #265 from jmhofer/swing
+Merge pull request #264 from benjchristensen/pull-256-merge-BehaviorSubject
+Merge branch 'subject-implementations' of git://github.com/michaeldejong/RxJava into pull-256-merge-BehaviorSubject
+Merge pull request #262 from jmhofer/swing
+Merge pull request #263 from benjchristensen/publish-replay-cache
+Merge pull request #257 from jmhofer/improved-scan
+Merge branch 'improved-scan' into swing
+Merge branch 'master' into swing
+Merge branch 'master' into improved-scan
+Merge pull request #255 from jmhofer/fix-build-warnings
+Merge pull request #254 from jmhofer/SwingScheduler
+Merge branch 'SwingScheduler' into swing
+Merge pull request #249 from jmhofer/timestamp
+Merge pull request #248 from jmhofer/sample
+Merge pull request #253 from Treora/master
+Merge branch 'master' into SwingScheduler
+Merge branch 'master' into sample
+Merged with master from Netflix repo.
+Merge remote-tracking branch 'parent/master' into timestamp
+Merge pull request #250 from michaeldejong/subject-implementations
+Merge pull request #252 from benjchristensen/toFuture
+Merge pull request #246 from jmhofer/schedulePeriodically
+Merge pull request #245 from mairbek/multisubscribe
+Merge pull request #247 from benjchristensen/flatMap-alias-to-mapMany
+Merge branch 'master' into multisubscribe
+Merge branch 'master' into multisubscribe
+Merge branch 'master' into SwingScheduler
+Merge branch 'master' into combineLatest
+Merge branch 'master' into sample
+Merge pull request #244 from benjchristensen/pre-release-changes
+Merge pull request #241 from benjchristensen/pull-218-merge-replay
+Merge branch 'replay' of git://github.com/johngmyers/RxJava into pull-218-merge-replay
+Merge pull request #240 from benjchristensen/fix-TestScheduler
+Merge pull request #228 from jmhofer/interval
+Merge pull request #231 from mairbek/multicast
+Merge pull request #239 from mairbek/sched-priorityqueue
+Merge branch 'master' into sched-priorityqueue
+Merge pull request #223 from billyy/concat-merge
+Merge pull request #238 from benjchristensen/pull-234-merge-ObserveOn
+Merge pull request #236 from mairbek/sleepingfix
+Merge branch 'master' into sleepingfix
+Merge branch 'schedulerf' of git://github.com/mairbek/RxJava into pull-234-merge-ObserveOn
+Merge pull request #235 from benjchristensen/schedulers-pull-229-merge
+Merge Scheduler/AbstractScheduler
+Merge branch 'schedulers' of git://github.com/jmhofer/RxJava into pull-229-merge
+Merge pull request #230 from johngmyers/wrap-unsubscribed
+Merge pull request #232 from mairbek/naming
+Merge branch 'interval' into sample
+Merge pull request #225 from benjchristensen/schedulers-merge
+Scheduler overloads for Subscribe, ToObservable, From, Merge, Empty
+Merge branch 'schedulers' of git://github.com/mairbek/RxJava into schedulers-merge
+Merge pull request #224 from benjchristensen/execution-hooks
+Merge branch 'issue202' of https://github.com/abliss/RxJava into concat-merge
+Merge pull request #222 from joshgord/pull-issue-43-merge
+Merge branch 'issue43' of https://github.com/abliss/RxJava into pull-issue-43-merge
+Merge branch 'master' of git://github.com/Netflix/RxJava into issue202
+Merge pull request #201 from benjchristensen/issue-200-merge-synchronization
+Merge pull request #221 from benjchristensen/issue-216-error-handling
+Merge pull request #220 from johngmyers/takewhile-predicate
+Merge branch 'master' into replay
+Merge pull request #215 from benjchristensen/pull-212-manual-merge
+Merge branch 'take-test' of git://github.com/johngmyers/RxJava into pull-212-take-merge
+Merge branch 'upstream' into issue202
+Merge branch 'upstream' into issue43
+Merge pull request #211 from benjchristensen/issue-192
+Merge pull request #207 from jmhofer/master
+Merge pull request #206 from thegeez/list-subscribe
+Merge pull request #203 from mairbek/all-operation
+Merge pull request #197 from thegeez/take-while
+Synchronization of Merge operator (fixes)
+Synchronize Observer on OperationMerge
+Merge pull request #191 from prabirshrestha/where
+Merge pull request #194 from sopel/patch-1
+Merge pull request #190 from prabirshrestha/chainDematerialize
+Merge pull request #189 from benjchristensen/polishing
+Merge pull request #188 from benjchristensen/issue-173
+Merge pull request #187 from benjchristensen/issue-148
+Merge pull request #186 from benjchristensen/issue-154-osgi
+Merge pull request #184 from benjchristensen/issue-57-last
+Merge pull request #183 from benjchristensen/groovy-cleanup
+Merge pull request #182 from benjchristensen/issue-173-subscriptions
+Merge pull request #181 from benjchristensen/osgi
+Merge pull request #180 from benjchristensen/formatting-and-cleanup
+Merge pull request #179 from benjchristensen/groupBy-review
+Merge branch 'groupby' of git://github.com/mairbek/RxJava into groupBy-review
+Merge pull request #168 from mairbek/mostrecent
+Merge pull request #171 from mairbek/defer
+Merge pull request #178 from benjchristensen/GetIterator-review
+Merge branch 'getiterator' of git://github.com/mairbek/RxJava into GetIterator-review
+Merge pull request #177 from benjchristensen/dematerialize-merge
+Merge branch 'dematerialize' of git://github.com/prabirshrestha/RxJava into dematerialize-merge
+Merge pull request #151 from mairbek/TakeUntiFunctional
+Merge branch 'master' into TakeUntiFunctional
+Merge pull request #166 from benjchristensen/next-review
+Merge remote-tracking branch 'mairbek/next-new' into next-review
+Merge pull request #165 from mairbek/range-fix
+Merge pull request #161 from garethbowles/master
+Merge pull request #160 from benjchristensen/mairbek_single-merge
+Merge remote-tracking branch 'mairbek/single' Added @throws javadocs Suppressed rawtypes warnings
+Merge pull request #159 from mairbek/lastOrDefault
+Merge branch 'master' into single
+Merge pull request #156 from mairbek/toIterable
+Merge pull request #155 from benjchristensen/issue-153
+Merge pull request #150 from mairbek/code-cleanup
+Merge pull request #147 from benjchristensen/issue-45
+Merge pull request #146 from benjchristensen/issue-87
+Merge pull request #145 from benjchristensen/issue-143
+Merge pull request #144 from mairbek/mocks-inorder
+Merge pull request #142 from benjchristensen/dev
+Merge pull request #140 from mairbek/TakeLast
+Merge pull request #138 from mairbek/SequenceEqual
+Merge pull request #136 from myfreeweb/patch-1
+Merge pull request #137 from mairbek/ranges
+Merge pull request #135 from ddeaguiar/idiomatic
+Merge pull request #134 from daveray/clj-video-example
+Merge pull request #133 from benjchristensen/fixes
+Merge pull request #132 from benjchristensen/language-tests-and-examples
+Merge pull request #129 from mairbek/code-cleanup
+Merge pull request #127 from matthewmichihara/master
+Merge pull request #124 from jcacciatore/scala-example-cleanup
+Merge pull request #122 from benjchristensen/examples
+Merge pull request #121 from daveray/clj-cleanup
+Merge pull request #120 from benjchristensen/javadocs
+Merge pull request #116 from benjchristensen/refactor
+Merge pull request #115 from benjchristensen/examples
+Merge pull request #113 from billyy/concat
+Merge pull request #108 from abersnaze/subject
+Merge pull request #109 from abersnaze/future
+Merge commit 'b764ef1b1d76e8ecc9d7a826ee57023ea91c6327' into future
+Merge pull request #114 from benjchristensen/examples
+Merge pull request #112 from benjchristensen/examples
+Merge pull request #111 from benjchristensen/dev
+Merge pull request #110 from benjchristensen/build-fix
+Merge pull request #107 from benjchristensen/performance
+Merge pull request #106 from benjchristensen/function-memoization
+Merge pull request #27 from jcacciatore/scala-adaptor
+Merge pull request #6 from benjchristensen/refactoring
+Merge pull request #5 from benjchristensen/language-adaptor-classes
+Merge pull request #4 from benjchristensen/cleanup
+Merge pull request #3 from benjchristensen/clojure-adaptor
+Merge pull request #2 from benjchristensen/language-adaptors
+Merge pull request #1 from benjchristensen/api-and-naming
+Merge branch 'multi-project' of github.com:Netflix/gradle-template
+Merge pull request #3 from Randgalt/multi-project
+Merge commit 'bc662051d8c72ea7b20350b1746e1a8f527c9244' into multi-project

@@ -1,0 +1,147 @@
+bootstrap.sh: Fix malformed unsupported platform message
+Fix missing build directory when making fetch tag
+Fix missing build directory when using REPO_BINARY
+Fixup last commit
+Fix last commit - only make build instead of build/filesystem
+Fix disk creation on i686
+Fix swapped harddrive and livedisk
+Fix syntax issues in qemu makefile
+Fix virtualbox log paths
+Fix guest_errors debugging overriding cpu_reset
+Fix live disk and ISO
+Fix incorrect path when copying from rust install to relibc install
+Fix EFI variable, update CI to use 20.04
+Fix build of rust-install
+Fix relibc-freestanding path
+Fix uname check for FreeBSD in bootstrap
+Fix conditional target
+Revert "Fix .partial paths"
+Fix .partial paths Fixes #1283
+Fix bootstrap pkg install step for Fedora
+Fix use of GDB in QEMU
+Fix compilation of EFI programs
+Fix xargo deadlock
+Fix issues with EFI build
+Fix PREFIX_BINARY for NixOS users
+Fix build with new compiler-builtins, update kernel
+Fix two compile issues
+Fix failure to statically link
+Fix build of gcc-freestanding
+Fix prefix
+Fix build of relibc-freestanding
+Fix build of prefix
+Fix PREFIX_BASE_INSTALL definition
+Fix bochs target
+Fix coreboot vesad config
+prefix: Fix RUSTUP_TOOLCHAIN spec
+prefix: Fix build breakage due to invalid prefix argument
+Fix incorrect path to rust's configure script
+Fix build of bootloader-efi
+Fix issue with binutils missing libexec
+Fix issue with not clearing out old gcc-install when extracting new one
+Fixes /dev/fuse permissions inside docker when host is running MacOS
+Fix running qemu_live, update kernel
+Fix running qemu with EFI
+Fix linux distribution detection: "pacman" is also a very popular game.
+Fix error building netsurf in Docker
+Update cookbook Fix shadow permissions
+Fix incorrect clean in prefix build
+Fix build of installer
+WIP: Fixes for running ci-pkg
+Fix build for relibc
+Fix missing ampersand
+Fix missing directory
+Fix CI variables
+Fix for qemu 2.12
+Fix unfinished sentence in CONTRIBUTING.md
+Fix build
+Fix broken link to libstd
+Fix live filesystem by using a different initfs
+Fix missing build directory
+Fix capitalization
+Fix method of adding scheme to passwd
+Fix a typo in Docker script README.md.
+Fix logo src
+Fix directions on how to install qemu on Gentoo
+Fixing copy-paste error on boostrap scripts for macOS.
+tcpd: Fix behavior when reading to small buffer
+Fix detection of initfs changes
+Fix typos in description
+Fixes for build - do not use LTO on kernel
+Fix kernel output
+Fix pkgutils target
+Fix issue with init script stdio failing on vga=no
+Fix initfs target
+Fix name of bgad
+Fix Linux syntax
+Fix build on OS X
+Fix strip command on OS X
+Fix unmap_return panic
+Fix unifont
+Fix vesad text rendering
+Fix wget build
+Fixes for arm target
+Fix serial console carriage return
+Fix build of coreutils
+Fix target for docs
+Fix order of git pull
+Fix bug, mouse and keybroad no response in virtualbox
+Fix udpd compile
+Use isohybrid to generate a USB stick friendly ISO Add assertions to verify that grants are unmapped Fix grant unmapping in exec and exit, thus fixing some crashes without network cards
+Fix small typo.
+Fix link location of playbot.
+Fix for SSL on travis
+Fix loopback
+Fix ipd
+Fix printing of escape codes
+Fix installer path
+Fix warnings, increase size of fs
+Fix prefix handling
+Fixes for building libstd (real)
+Fix build, remove cfg(redox)
+Fix netutils refs
+Fix permissions
+bootstrap.sh: Fix typo (#741)
+bootstrap.sh: Fix naming origin (#742)
+Fix eventing in kernel
+Fix rustc-serialize
+Fix links to repos and users in readme (#734)
+Fix syscall ABI
+Remove resource_sceme, Fix syscall crate name, add fmap
+Fix close in ptyd
+Fix build on OS X
+Fix #725 by checking mode in chdir
+Fix mouse cursor on some systems Reenable orbital
+Fixes for TLS
+Fix behavior of cp
+Fix tx and rx
+Fix buffers by using two 32-bit high and low parts
+Fix for bootloader on new BIOS (don't know exactly why though)
+Fix for new goblin, fix of accidental swap of fusermount -u and sudo umount
+Fix building on OS X
+Add specification to vesad Fix piping Fix bug where resources are not closed Add arpd Remove question_mark features
+Fixes for updating submodules
+Fixes for bootloader unreal loading
+Fix dup deadlock, add stat
+Fix CWD without trainling slash
+Fix dup
+Fix kernel user scheme fpath
+Fix compilation of filesystem
+Fix allocate_frames
+Fix path lookup
+Fix openlibm
+Add login process. Remove debugging. Fix order of arguments
+Fix context_switch_unlock being optimized out
+Fix deadlock
+Fix creation of kstack
+Fix implementation of clone and exec. Now the init process can load and execute the pci driver
+Fix userspace clone by clobbering all variables on clone
+Fix close, add dup
+Fix path in bochs
+Fix crash in libstd
+Fix stack trace, WIP usermode
+Fix mouse position, map display on APs
+Fixes for real hardware
+Fix the build. Sorry
+Fix thread locals
+Fix locking in serial port

@@ -1,0 +1,1490 @@
+UX: Fix spelling of "Sidekiq"
+DEV: Fix broken slug migration (#18951)
+DEV: Fix text util test (#18929)
+Fix and improve `s3:expire_missing_assets` task (#18863)
+UX: Fix spelling and capitalization (#18886)
+DEV: Fix greyed text for dark mode emails (#18889)
+DEV: Fix `labeler.yml` glob configuration (#18846)
+DEV: Fix mocha deprecations (#18828)
+DEV: Fix qunit hook issue (#18829)
+SECURITY: Fix invite link email validation (#18817)
+UX: Fix grammar typo in trust_level_unlocked_tip (#18793)
+DEV: Fix flaky uploads:disable_secure_uploads spec (#18719)
+UX: Fix user status display in autocomplete (#18726)
+Fix: minor typo (#18695)
+UX: Fix alt text cancel button in dark mode (#18644)
+DEV: Fix testem output (#18609)
+A11Y: Fix tab order in "Feature topic" modal (#18576)
+DEV: Fix FakeLogger compat (#18562)
+DEV: Fix `bread-crumbs-right` `currentCategory` argument (#18491)
+DEV: Fix message section link filters displaying icons (#18484)
+UX: Fix composer position on Firefox for Android (#18403)
+DEV: Fix `InstallTrigger` deprecation warnings on Firefox (#18380)
+DEV: Fix lint (#18412)
+UX: Fix cut-off accents in sidebar headings (#18349)
+FIX: Fix GitHub onebox syntax highlight (#18300)
+DEV: Fix spec file name (#18227)
+UX: Fix width of preview pane to fix scroll (#18166)
+DEV: Fix a flaky spec (#18146)
+DEV: Fix flaky twitter onebox behavior (#18141)
+DEV: Fix Ember version lookup (#18136)
+Fix constraints typo in routes config (#17994)
+DEV: Fix flaky spec due to ordering of Array intersection (#18045)
+UX: Fix topic admin menu hidden on narrow screens
+DEV: Fix busted twitter onebox spec (#18009)
+Fix comment to include phpbb 3.3, which is now supported (#18006)
+DEV: Fix /logs in dev env (#17933)
+DEV: Fix `sidebar-hidden` localStorage value (#17915)
+DEV: Fix localStorage test leakage (#17917)
+DEV: Fix random test ordering (#17905)
+DEV: Fix the build (#17853)
+DEV: Fix a function name typo (#17828)
+UX: Fix extra spacing for group metadata in user profile (#17725)
+DEV: Fix group create response api response (#17711)
+DEV: Fix fake-timer issues (#17681)
+DEV: Fix flaky `FinalDestination` specs
+DEV: Fix mini profiler queries bg covering results (#17679)
+DEV: Fix `fabricator` deprecations (#17658)
+DEV: Fix a flaky FinalDestination spec (#17655)
+DEV: Fix `FinalDestination` specs (#17642)
+DEV: Fix failing spec due to cf5e59928eb76d5672205bb60c51cb62b32636e7 (#17606)
+DEV: Fix pretender leaking request handlers (#17584)
+DEV: Fix pretender in poll tests (#17587)
+DEV: Fix typos and other spell-checker warnings (#17554)
+DEV: Fix state leak in QUnit acceptance tests (#17507)
+DEV: Fix submit-on-enter and de-jQ two components (#17484)
+DEV: Fix various typos (#17485)
+UX: Fixes navigation 1px jitter (#17467)
+UX: Fix exp sidebar toggle alignment, add hovers (#17414)
+DEV: Fix emoji-uploader tests (#17395)
+DEV: Fix test leakage/flakes (#17407)
+DEV: Fix missing optional site.json fields (#17364)
+DEV: Fix a flaky submodule/auth test (#17313)
+FIX: Fix bulk_invite flaky tests (#17256)
+DEV: Fix flaky tests caused by timezone updates (#17232)
+DEV: Fix flaky admin badges.json api docs spec (#17210)
+DEV: Fix flakey site.json rswag specs (#17161)
+DEV: Fix typos "formated" -> "formatted" (#17156)
+DEV: Fix `this.clearRender` deprecation warning (#17150)
+DEV: Fix an rspec warning (#17123)
+DEV: Fix various frontend warnings (#17122)
+DEV: Fix `javascript:update` rake task (#17098)
+DEV: Fix openapi definition logo URL (#17038)
+DEV: Fix broken spec due to 213bcde080dcd5fee94ea4524cc880758823f786 (#17009)
+DEV: Fix paths for narrative bot jobs (#16924)
+UX: Fix status icon size in suggested topics (#16845)
+DEV: Fix production sourcemaps with Ember CLI (#16707)
+DEV: Fix not being able to boot Sidekiq server in development (#16696)
+Fix user nav overflow bug on ipad (#16702)
+DEV: Fix stylesheet watcher (#16635)
+DEV: Fix typos and outdated comments (#16614)
+UX: Fix hover state for flat buttons in WCAG schemes (#16601)
+DEV: Fix typo in customize-robots-txt (#16599)
+UX: Fix a few WCAG color scheme contrast issues (#16554)
+DEV: Fix test hook placement (#16551)
+DEV: Fix `loadScript()` in ember-cli testem env (#16533)
+DEV: Fix flaky `tags-test` (#16410)
+DEV: Fix "overridden" typos (#16399)
+DEV: Fix select-kit deprecations (#15080)
+DEV: Fix styleguide label regression (#16379)
+Fix the empty page copy on the user activity page
+DEV: Fix flaky specs (#16340)
+DEV: Fix failing share topic tests (#16309)
+DEV: Fix "serialize to JSON safely" deprecation (#16280)
+PERF: Fix n+1 for categories + featured topics (#16188)
+DEV: Fix rake qunit logging (#16159)
+DEV: Fix a flaky validation message (#16141)
+UX: Fix misaligned avatar (#16120)
+DEV: Fix random typos (#16066)
+DEV: Fix a nokogiri deprecation (#16060)
+DEV: Fix specs deprecations (#16059)
+DEV: Fix the javascript:update rake task (#16057)
+DEV: Fix SMTP bounce regexp (#16019)
+UX: Fix alignment on full page search (#15988)
+DEV: Fix small typo. (#15904)
+DEV: Fix typo. (#15857)
+UX: Fix login header z-index (#15848)
+DEV: Fix some regexes in phpBB3 import script (#15829)
+DEV: Fix typo in comment.
+UX: Fix composer popup placement (#15660)
+UX: Fix layout issues with long category names (#15604)
+DEV: Fix a computed override in tests (#15596)
+DEV: Fix missing test paths for Ember CLI (#15578)
+DEV: Fix typo for email encoded (#15577)
+DEV: Fix readme CI badge (#15569) [skip ci]
+DEV: Fix deprecation warning after updating to messabe_bus 4.0.0.
+DEV: Fix failing test.
+DEV: Fix a flaky spec (#15529)
+DEV: Fix git deprecation warnings in specs (#15503)
+DEV: Fix tests broken in 3.0 due to separation of keyword arguments
+DEV: Fix methods removed in Ruby 3.2 (#15459)
+DEV: Fix a flaky test (#15374)
+DEV: Fix linting issue with emoji `keydown` event (#15352)
+DEV: Fix intermittent failing spec. (#15308)
+UX: Fix topic status icon size in mobile search results (#15251)
+DEV: Fix position of avatar flair to be based on the actual avatar. (#15226)
+UX: Fix flair dropdown styling in user account (#15201)
+DEV: Fix mini-profiler location for custom (or missing) d-headers (#15192)
+UX: Fix alignment in group navigation bar (#15169)
+DEV: Fix ember CLI bootstrap logic (#15160)
+Revert "UX: Fix alignment in group navigation bar (#15145)" (#15150)
+UX: Fix alignment in group navigation bar (#15145)
+DEV: Fix a flaky bookmarks test (#15129)
+DEV: Fix pending posts page, make tests work in legacy env (#15132)
+DEV: Fix a test leak (#15135)
+DEV: Fix uploadHandler impl. in composer-upload-uppy mixin (#15105)
+UX: Fix extra indent on lists when supporting mixed text direction (#15110)
+DEV: Fix set-after-destroy issues (#15078)
+DEV: Fix another form of sending data in ember-cli (#15079)
+DEV: Fix the /tests path in ember-cli server (#15075)
+DEV: Fix ember-cli proxy issues (#15071)
+DEV: Fix ember-cli proxying to production sites (#15042)
+DEV: Fix flaky specs due to 8226ab1099ebdb05403ba27c25921e25e269c031. (#15060)
+DEV: Fix silence user context message (#15040)
+DEV: Fix spec (#15036)
+UX: Fix fast edit save button color in dark schemes (#15027)
+DEV: Fix `castInteger` deprecations (#15004)
+DEV: Fix a `userFields` computed property override (#14988)
+DEV: Fix `qunit/assert-args` (#14932)
+DEV: Fix a computed property overwrite (#14927)
+DEV: Fix a `computed-property.override` warning (#14922)
+DEV: Fix a call-after-destroy issue (#14923)
+DEV: Fix linting issues in core plugins (#14916)
+DEV: Fix Chrome flags (#14914)
+DEV: Fix one more use of `jQuery` global (#14910)
+DEV: Fix `hljs.highlightBlock` deprecation (#14908)
+DEV: Fix 3N+1 query in `/admin/customize/themes` (#14876)
+UX: Fix several issues with topic progress refactor (#14790)
+UX: Fix bar-style category dropdown (#14785)
+UX: Fix short post width on mobile (#14771)
+DEV: Fix rubocop issues (#14715)
+DEV: Fix thor deprecation warning (#14680)
+DEV: Fix wasm_bindgen double loading errors in Firefox (#14630)
+DEV: Fix presence testing in legacy ember environment (#14596)
+FIX: Fix local-dates in non-post contexts, and in long topics (#14565)
+DEV: Fix flaky search test (#14546)
+DEV: Fix api docs for default calendar (#14539)
+UX: Fix alignment of composer when tags are disabled (#14535)
+UX: Fix label in search when tagging is disabled (#14503)
+DEV: Fix moment warnings (#14482)
+Fix: Support Ruby 3 keyword arguments for DiscourseRedis (#14444)
+A11Y: Fix several minor issues (#14436)
+DEV: Fix flaky search-full-page test (#14421)
+DEV: Fix theme qunit error messages (#14420)
+UX: Fix date input icon display issues (#14369)
+PERF: Fix N+1 queries in SiteSerialier. (#14365)
+DEV: Fix flaky site.json api test (#14351)
+UX: Fix tab groups editing layout issues on mobile (#14329)
+UX: Fix mobile styling for admin color schemes (#14314)
+UX: Fix alignment for admin controls on mobile (#14312)
+DEV: Fix the cron ember workflow (#14320)
+UX: Fix date input display in iOS (#14307)
+DEV: Fix github event type name for cron runs (#14306)
+DEV: Fix some openapi spec issues (#14037)
+DEV: Fix several type issues with the api docs (#14016)
+DEV: Fix api docs tagging format (#14010)
+UX: Fix mobile PM nav for regular users (#14007)
+FIX: Fix rtl style for pull right (#13999)
+DEV: Fix uploads controller flaky presigned put spec (#13985)
+UX: UX Fixes (#13918)
+DEV: Fix flaky topics invite spec due to id collision.
+DEV: Fix flaky instagram onebox spec by not mutating constant.
+DEV: Fix stylesheet manager flaky spec (#13846)
+Fixed a typo in the 'same_site_cookies' site setting description (#13809)
+DEV: Fix release_note task warnings (#13794)
+Fix i18n issues reported on Crowdin (#13769)
+UX: Fix z-index for new topic alert (#13676)
+DEV: Fix a flaky test (#13580)
+DEV: Fix a leaky test (#13559)
+Fix spelling in `discourse_narrative_bot.new_user_narrative.flag.instructions`
+UX: Fix mobile alert spacing (#13506)
+DEV: Fix failing directory-columns ember CLI tests (#13490)
+Fix i18n issues reported on Crowdin (#13191)
+DEV: Fix a flaky/leaky test
+DEV: Fix broken stylesheet watcher.
+UX: Fix jump-to-post layout on mobile (#13443)
+UX: Fix mobile progress bar button alignment (#13442)
+DEV: Fix `sh: /bin/rm: Argument list too long` (#13371)
+DEV: Fix flaky test due to locale cache poisoning
+DEV: Fix another flaky spec
+DEV: Fix spec filename typo
+UX: Fix search topic titles wrapping (#13315)
+UX: Fix bulk-select icon and button alignment (#13299)
+DEV: Fix a flaky Onceoff spec (#13314)
+DEV: Fix an `ActiveModel::Errors` deprecation
+DEV: Fix incorrect optimization in SvgSprite take 2.
+DEV: Fix incorrect optimization in SvgSprite.
+UX: Fix "last visit" line overlap in Chrome (#13232)
+DEV: Fix a flaky spec (#13234)
+DEV: Fix flaky specs (#13226)
+DEV: Fix spec (#13225)
+DEV: Fix warning about already initialized constants in `FileStore::BaseStore`
+UX: Fix the PM title icon alignment (#13214)
+A11Y: Fix post control and user-menu focus styles (#13118)
+UX: Fix theme upload width, remove class clash, prettier (#13071)
+Fix typo (#13087)
+Fix typo (#13086)
+DEV: Fix some deprecation warnings in tests
+DEV: Fix flaky d-editor test (#13005)
+DEV: Fix tags/show template lint errors (#12982)
+DEV: Fix `BAD CSRF` errors for admin POST requests when on Ember CLI (#12908)
+UX: Fix styling for long label in multi-select choices (#12877)
+DEV: Fix spelling mistakes in DB migrations (#12811)
+DEV: Fix flaky Ember test (#12802)
+UX: Fix focus style for post edit history button (#12757)
+DEV: Fix linting (#12754)
+UX: Fix tab list alignment in emoji popup (#12548)
+Fix CSS for collapsed table cells when showing insertion in Raw mode (#12489)
+SECURITY: Fix is_private_ip for RateLimiter to cover all cases (#12464)
+DEV: Fix build due to highlight.js branch issue (#12441)
+FIX: Fix narrative bot settings in multisites (#12380)
+DEV: Fix `FakeLogger` spec issues (#12397)
+UX: Fix broken styling on login modal when local login is disabled.
+DEV: Fix settings/interface UI breaking on Ember CLI (#12154)
+DEV: Fix group-index-test under Ember CLI (#12153)
+DEV: Fix topic timer flaky spec for inheriting from category (#12106)
+UX: Fix excess line breaks in login modal alerts (#12104)
+FIX: Fix subcategory, tag drops and none values (#11934)
+UX: Fix local-dates styling (#12085)
+FIX: Login UI Fixes (#12034)
+DEV: Fix flaky specs
+UX: Fix reply where modal layout (#11990)
+UX: Fix & clarify bulk notification change modal (#11969)
+Fix i18n issues reported on Crowdin (#11747)
+Fix post edit icon color (#11873)
+FIX: Fix bg color of header on published page (#11652)
+DEV: Fix precompile SCSS specs (#11590)
+DEV: Fix JS errors in styleguide (#11494)
+DEV: Fix position of filtered replies notice on DiscourseHub (#11462)
+UX: Fix unreachable buttons on menus in Safari iOS (#11458)
+UX: Fix invite checkbox width issue (#11371)
+Fix typo. (#11395)
+DEV: Fix flakey spec in export_user_archive (#11278)
+DEV: Fix lint (#11213)
+DEV: Fix the build.
+UI: Fix button overlapping longer group names in group card (#11104)
+UX: Fix confusing admin UI for color scheme updates (#11100)
+Fix typos
+UX: Fix mobile padding-top on mobile, follow up to da5841d (#10982)
+DEV: Fix heisentest (#10946)
+Fix i18n issues reported on Crowdin (#10925)
+DEV: Fix an apparently "too modern" git command (#10894)
+DEV: Fix a spec incompatibility with pre-2.28 git (#10892)
+Fix broken spec.
+DEV: Fix typo
+DEV: Fix heisentest
+Fix prettier offenses
+DEV: Fix flaky UploadSecurity spec
+FIX: Fix verification_status migration for uploads
+DEV: Fix another `MessageBus::InvalidMessageTarget` error.
+DEV: Fix `MessageBus::InvalidMessageTarget` error after upgrading mb.
+PERF: Fix N+1 queries on private messages route.
+PERF: Fix broken memoization in `GroupShowSerializer`.
+Fix the build.
+Fix the build.
+Fix spec (#10539)
+DEV: Fix the broken build caused by 1e8f216.
+Fix lint.
+FIX: Fix css var issues + button :active gradient (#10469)
+DEV: Fix lint.
+DEV: Fix package.json issues and reroll yarn.lock
+DEV: Fix search to be more intentional about what it is testing.
+DEV: Fix randomly failing spec.
+Fix the build.
+DEV: Fix lint take 2.
+DEV: Fix lint.
+DEV: Fix test
+DEV: Fix watching plugin stylesheet changes locally
+DEV: Fix i18n deprecation warnings
+DEV: Fix build
+DEV: Fix a function name typo
+DEV: Fix incorrect description in spec.
+DEV: Fix false positive tests.
+DEV: Fix lint.
+UX: Fix quote sharing button spacing
+DEV: Fix fixtures (#10241)
+DEV: Fix search specs to take note of order in assertions.
+Fix the build.
+DEV: Fix error introduced in d5c56a846.
+DEV: Fix search rate limit tests
+UX: Fix missing icon when merging selected posts
+UX: Fix layout for long bookmark notes
+DEV: Fix flaky test
+FIX: Fix race condition when resolving tag and category hashtags (#10153)
+DEV: Fix OptimizedImage specs
+Fix typo.
+FIX: Fix select kit size (#10094)
+Fix the build.
+DEV: Fix typos in tests
+DEV: Fix build
+DEV: Fix undefined method due to rails_failover.
+DEV: Fix undefined method.
+DEV: Fix a composer state leak in tests
+Fix tests.
+DEV: Fix deprecation warning when using `Redis#close` with redis namespace.
+DEV: Fix undefined method in rails_failover initializer.
+DEV: Fix incorrect messagebus redis config for rails_failover.
+DEV: Fix indentation for routes.rb
+DEV: Fix moving of rails_failover middleware.
+DEV: Fix lint.
+DEV: Fix race conditions due to directory removal for uploads spec.
+Fix lint.
+UX: Fix border radius artifacts on dashboard pills (#9949)
+DEV: Fix publish to message_bus when forcing pg readonly.
+DEV: Fix implementation for `DiscourseRedis#exists`.
+UX: Fix inputs alignment in admin/customize/colors
+UX: Fix activity column display in wizard homepage step
+Revert "DEV: Fix a deprecated `ember` import (#9903)"
+DEV: Fix a deprecated `ember` import (#9903)
+DEV: Fix randomly failing spec.
+Fix lint.
+Fix lint.
+DEV: Fix broken test due to 9ab5801a1bc5bfc505673d0c74f1a3c1e6c28461.
+DEV: Fix lint.
+UX: Fix hard coded value in Crazy in Love badge description
+Fix syntax error in fluxbb.rb (#9727)
+DEV: Fix build
+DEV: Fix poll plugin causing error when server reloads in dev env.
+UX: Fix modal positioning when iOS keyboard is visible
+UX: Fix time alignment on user activity pages
+FIX: Fixes wrapping of buttons with larger buttons
+DEV: Fix typo
+UX: Fix broken image placeholder styling
+DEV: Fix topic_timer_spec (#9483)
+REVERT: Fix to app-events to make events not global
+DEV: Fix no-implicit-this for all user-* components
+DEV: Fix and enable the 'require-button-type' lint
+DEV: Fix all 'require-valid-alt-text' lints except in reused compoments
+Fix broken bookmark translations for French
+DEV: Fix some more flaky tests (#9384)
+FIX: Fix untitled/long links extending out box
+DEV: Fix build
+Fix currentUser not being loaded correctly in bookmark.js
+UX: Fix composer position on iPads with a hardware keyboard
+DEV: Fix another time-sensitive flaky spec
+DEV: Fix flaky emoji-store tests
+DEV: Fix flaky time sensitive uploads.rake specs (#9283)
+Fix the typo.
+UI: Fix 'lock' icon spacing in category dropdown
+FIX: Fix image optimization pipeline (#9257)
+FIX: Fix a PostgreSQL error when a draft was concurrently created
+Fix the build. Remove the branch value if available.
+FIX: Fix html response in development after ApplicationController reload
+Fix error on create bookmark for topic
+DEV: Fix flaky `signed_url_for_path` spec
+DEV: Fix lint error introduced in 58f16f2
+DEV: Fix build
+Fix broken secure media specs
+Fix styling for topic count in category chooser
+Fix run-on sentence (#8953)
+Fix test another way
+Fix test
+DEV: Fix web manifest short_title tests
+Fix extremely slow topic_converter_spec
+Fix the build.
+DEV: Fix failing test
+DEV: Fix the CI workflow
+Fix broken admin login fro SSO enabled sites (#8737)
+DEV: Fix function prototype deprecations (#8681)
+Fix mobile topic-timeline not closing on scrolling past last post (#8730)
+DEV: Fix tests
+DEV: Fix failing 2FA tests
+FIX: Fix choose-topic component to search by url (#8574)
+Fixing the specs. Take 2.
+Fix spec
+Fix DiscourseCops/NoURIEscapeEncode errors and re-enable
+Fix improved bookmark toggling/deleting bug
+DEV: Fix CookedPostProcessor specs
+Fix release notes rake task
+Fix the build - take 3.
+Fix the build - take 2.
+Fix the 'PostMover' spec.
+Fix the `WebHookPostSerializer` spec.
+DEV: Fix failing test on CI due to whitespace differences
+DEV: Fix failing test with watched words
+Fix Prettier in poll plugin
+Fix Prettier again
+Fix Prettier using correct version (1.19.1)
+Fix Prettier
+DEV: Fix files targetted by Lefthook Prettier
+Fix the actual failing test
+Fix failing test
+DEV: Fix some more deprecated Discourse.User and Discourse.Site
+Fix github oneboxes for RTL locales (#8245)
+DEV: Fix basic auth in smoke test
+FIX: Fixed testsuite
+DEV: Fix the `Function.prototype.on` deprecation (#8205)
+DEV: Fix heisentest (ensure that user ID really does not exist).
+FIX: Fix rake db:create after zeitwerk changes
+UX: Fix topic progress placement in iOS app
+UX: Fix composer layout in Android
+UX: Fix topic progress placement
+FIX: Fix options given to per-minute rate limiter
+DEV: Fix Prettier
+Fix: Don't show non-members as readers when the post is a whisper
+Fix: let mailgun_api_key also support their "HTTP webhook signing key" (#8091)
+Fix frontend tests on Travis (#8089)
+Fix the build.
+Fix docker image name (#8058)
+Fix typo in client.en.yml and server.en.yml (#8067)
+Feature/Fix: Flagged posts user notifications (#8041)
+Fix the build.
+Fix some broken styles
+Fix the build.
+DEV: Fix multisite support for `posts:missing_uploads`.
+Fix "Host is invalid" error when TLD >10 chars (#7948)
+DEV: Fix heisentest
+Fix typo
+UX: Fix profile image upload control spacing on mobile
+Fix typo in dc6b13e4d205fd148d10d56d1f38f0b12d55825d.
+Fix the build.
+DEV: Fix heisentest.
+Fix the build.
+Fix typo (#7887)
+DEV: Fix user simulator script.
+DEV: Fix lint. (#7824)
+FIX: Fix a navigation bug
+Fix typo in a0aeabbb940ec9df40625c396616d5d64b30e20f.
+REFACTOR: Test Memory Usage Fixes (#7769)
+Fix the build.
+DEV: Fix edge case for `InlineUploads`.
+Fix the build.
+DEV: Fix plugin:update_all task
+Fix minor typos in server.en.yml
+Fix the build.
+DEV: Fix linting error
+Fix the build.
+DEV: Fix linting issue.
+DEV: Fix broken `Upload#base62_sha1`.
+Fix Prettier
+Fix the build.
+DEV: Fix indentation
+Fix the build a3938f98f8b575675fc9b541725aa224fcddf682.
+Fixed typo in S3 rake task
+DEV: Fix pretenders leaking across acceptance test.
+Revert "Fix JS error in group summary notification message"
+Fix JS error in group summary notification message
+DEV: Fix rake task to delete old export topics.
+Fix the build.
+Fixed test suite with PREFABRICATION=0 (#7574)
+FIX: Fix build.
+DEV: Fix incorrectly hardcoded value in rake task.
+DEV: Fix the smoke test
+Fix typo for cookies_error in client.en.yml (#7580)
+DEV: Fix another frozen string error.
+Fix linting errors
+DEV: Fix race condition when enqueuing edit wiki-ed notification.
+DEV: Fix modifying a frozen string.
+DEV: Fix undefined variable.
+Fix string literal when switching theme in dev env
+Fix modifying frozen strings errors take 3.
+Fix modifying frozen strings error in `OneboxController`.
+Fix modifying frozen strings error take 2.
+Fix modifying frozen strings error.
+Fix the build take 2.
+Fix frozen string error in `plugin:install_all_official`.
+Fix the build.
+Fix incorrect condition in `groups:grant_badge` rake task.
+Fix tests
+DEV: Fix lint.
+Fix broken spec in 405ba00 take 2.
+Fix broken spec in 405ba00c08a86778a7baf28e93388201162a5347.
+Fix typo in condition value.
+DEV: Fix failing click-track tests.
+DEV: Fix failling test.
+Fix like and flag button count alignment (#7487)
+Fix rebase fail in 152238b4cff7ab4c4ce63ba26abd23b0abf05129.
+DEV: Fix test.
+DEV: Fix missing port in URLs in development mode.
+Fix bundler not requiring default group. Follow up to a2babcafd8264c94ebcc03d5237b2daf328d4e3e.
+DEV: Fix invalid constant after upgrading lograge to 0.11.0.
+FIX: Fixed uploadPlaceholder regex failing on not escaped characters (#7442)
+SECURITY: Fix tab nabbing.
+DEV: Fix failing spec.
+DEV: Fix incorrect spec file names.
+Fix the build.
+Fix failing spec.
+Fix draft position in iOS webview
+FIX: Fixed category reordering using arrow icons (#7374)
+Fix progress wrapper margin on Safari/iOS
+FIX: Fixed deleted posts layout (#7348)
+Fix the build.
+FIX: Fix assets:precompile rake task.
+Fix the build
+Fix regression due to 914ada1c749425c4eb53b2d8338afa6b4ab3f3d4.
+Fix the build.
+DEV: Fix randomly failing search spec.
+DEV: Fix method that was incorrectly made private.
+Fix regression introduced in dae0bb4c67c9f7f1eb475fb60f375118f93cdfd9.
+DEV: Fix hardcoded value introduced in cc2bac86e9ba41a948c7c6fdee8c184615c68b98.
+Fix Prettier
+FIX: Fixed changing composer mode escaping title (#7191)
+Fix spelling error (#7231)
+Fix failing qunit test.
+DEV: Fix build.
+Fix typos
+FIX: Fixed edit category description redirecting without saving (#7192)
+FIX: Fixed reorder categories by number not working correctly
+Fix SMTP connection test
+Fix favicon not updating on the client side when changed.
+DEV: Fix lint.
+Fix the build.
+FIX: Fixed vanishing select boxes on full search as new content loads
+DEV: Fix failing tests.
+DEV: Fix incorrect test.
+Fix `UserProfile` fabricator.
+DEV: Fix build.
+UX: Fix post notice on mobile
+Fix error in base import script
+UX: Fix redeemed invite table layout
+FIX: Fixed custom emoji circumventing "max emojis in topic title" set… (#7116)
+FIX: Fixed editing whispers bumps topic (#7106)
+DEV: Fix live CSS watching when viewing non-default theme
+Fix confusing ENV in `migrate_to_s3` rake task.
+DEV: Fix random build error
+DEV: Fix incorrect version for removing deprecated code.
+Fix Prettier offense
+Fix share button in post menu
+Fix desktop test too
+Fix deadblock in 615a22a579221dfe5509c8dd7bcf01a93abba9d5.
+DEV: Fix randomly failing test.
+DEV: Fix heisentest.
+Fix typo
+FIX: Fix failing test.
+Fix typo
+Fix failing spec
+Fix defect db migration
+DEV: Fix lint.
+FIX: Fix delete button for Tag Groups. (#6965)
+DEV: Fix specs using deprecated site settings.
+Fix prettier offence
+Fix theme component name's color when theme is selected
+FIX: Fix safe mode regression
+Fix specs
+FIX: Fix URL to user profile. (#6881)
+Fix remap in `migrate_to_s3` rake task.
+Fix rubocop.
+DEV: Fix randomlly failing spec.
+Fix random build error
+Fix broken spec.
+Fix prettier offence in local-dates plugin
+Fix the build.
+Fix the build.
+FIX: Fix registration dialog popup for 'full screen' social logins
+Fix the build.
+Fixing tag alignment
+Fix Travis build
+Fix the build.
+Fix Travis build
+DEV: Fix random build error
+DEV: Fix rubocop after update.
+Fix avatar flair styles
+Fixing topic status alignment in search
+Fixing slight misalignment of login/signup buttons
+DEV: Fix extremely rare test failure
+Fix the build
+FIX: Fixed tests. (#6716)
+FIX: Fix query selecting users not accepting PMs.
+FIX: Fix editing built-in badges after removing `_.include`
+DEV: Fix tests.
+DEV: Fix coding style.
+FIX: Fix mentions for mixed case group names
+Fix linting.
+FIX: Fix routes ending in `:username` for usernames containing periods (#6660)
+DEV: Fix build.
+FIX: Fix broken theme field URLs. (#6622)
+Fix the build.
+Fix `MigratePollsData` failing when poll-votes have duplicated options.
+Fix copy due to https://github.com/discourse/discourse/commit/050dd574941ef0c3619b2dfb1f0294fdef31c2ca.
+DEV: Fix typo in specs.
+Fix missing avatars on topic list page.
+PERF: Fix N+1 for non-staff users when tagging is enabled.
+Fix restores failing due to missing migration file.
+IE11 Fix: Select-kit items shouldn't have flex-grow
+Fix migrate upload url site settings to rescue from invalid URLs.
+Fix the build take 2.
+Fix the build.
+FIX: Fix vertical scrolling in modals
+Fix typo.
+Fix several FontAwesome 5 issues
+Fix random build error
+Fix small issues with FA5 icons
+Fix SVG icon in local-dates
+Fix brittle specs.
+Fix typo in server.en.yml
+Fix link to GitHub oauth registration page (#6567)
+DEV: Fix build.
+Fix sso overrides avatar description
+FIX: Fix 'New Login Alert' message. (#6539)
+IE11 Fix for tracking dropdown
+Fixing broken badge grant layout
+FIX: Fix order of recently connected devices. (#6517)
+FIX: Fix browser detection for Microsoft Edge. (#6516)
+DEV: Fix build. (#6500)
+Fix the rake task and importer instead
+FIX: Fix open quote links in new window. (#6477)
+Fix the build.
+Fixing left alignment of post controls
+Fix NoMethodError in polls#voters
+Fix random build error
+DEV: Fix wizard qunit tests not running.
+Fix missing quotes in unicorn_launcher.
+Fix invalid bash syntax.
+Fix test
+Fix progress bar position when theme has header elements outside #main (#6425)
+Fix `UploadRecovery` from S3 fails with bucket name containing sub-folder.
+Fix onceoff job in https://github.com/discourse/discourse/commit/cfa7173da346ec9f31daac13b058ba82419771d9 not running.
+Fix the build.
+Fix typo in narrative-bot plugin (#6434)
+Fix Bosnian plural rules
+Fix JS build.
+Fixes typo
+Fix lint.
+Fix the build.
+Fix s3 recovery from tombstone in `UploadRecovery`.
+Fix incorrect variable.
+Fixes to `uploads:list_posts_with_broken_images`.
+Fix broken spec.
+Fixing test
+Fix the build.
+Fix linting.
+Fix the build.
+Fix Vanilla bulk import script
+Fix `migrate_to_s3` rake task, `File#close!` is not a valid method.
+Fixing HTML structure of tag filtered topic list
+Fix the import of avatars and attachments
+Fix warnings about already initialized constants
+DEV: Fix test to use an actual PNG instead of a GIF.
+Fix lint.
+Fix JS tests.
+Fix the build.
+TEMPFIX: Fix broken restores.
+Fix the build.
+Fixing profile avatar flair poisition on mobile
+Fix typo in color scheme
+Fix invalid query syntax when `CategoryCustomField#value` is blank.
+Fix linting.
+Fix indentation
+Fix silence and unsilenced response bodies
+FIX: Fix dead link present in admin account registration instructions.
+Fix typo.
+Fix lint.
+Fix the build.
+Fix the build.
+Fix for JK highlighting, typo
+Fixing JK highlighting for Edge
+Fix the build.
+Fix: delay panning until we can determine direction
+Fix the build.
+Fix the build take 2.
+Fix the build.
+Fix typo (#6043)
+Fix: Add pan direction data, do not activate pan when event is not vertical
+FIX: Fix badge count of other users. (#6016)
+Fix 'asscoiated' typo
+Fix the specs
+Fix the build.
+Fix the build.
+Fix: let user fields respond when their labels are clicked
+Fix build
+Fix the build.
+Fix broken pool drainer after the upgrade.
+Fix another failing spec.
+Fix broken discourse narrative bot spec after upgrade.
+Fix random build error
+Fix brittle spec.
+Fix the build.
+Fix condition in travis.
+Fix user tag preferences icon
+Fix unexpected return error.
+Fix the build.
+Fix the build take 2.
+Fix regression introduced in https://github.com/discourse/discourse/commit/2ceb1070743f2d0081def11cc06bc3a9d8e7dd0e.
+Fix incorrect param.
+Fix super-wide tables in Firefox
+Fix regression introduced in https://github.com/tgxworld/discourse/commit/8cf0f51eb2c9ef5c6155d77aab1d0d9c7b104af0.
+Fix: copyedit plugin to feature for built ins
+Fix: Safari failing to download backups from email links
+Fix What's New Link
+Fix issue for custom image badges urls (#5814)
+Fix brittle spec.
+Fix JS tests take 2.
+Fix broken JS specs.
+Fix specs (didn't work on UTC+xx timezones)
+Fix spec
+Fix the badge widows on mobile (#5777)
+Fix randomly failing specs due to SearchLog cache.
+Fix: trigger group card on a post's primary group click
+Fix the build.
+Fix randomly failing JS build.
+Fix - service worker registrations
+Fix the build.
+Fix typo
+Fix the build.
+Fix `GroupsController#group_params` to allow more group attributes to be updated.
+Fix the build.
+Fix broken queries in Drupal 6 migration.
+Fix deprecation warnings in Ember.
+Fix regression due to https://github.com/discourse/discourse/commit/ee69d58a59c824a7a0b1146710930c5861d3ca26.
+Fixing table top-border alignment issue
+Fix failing spec.
+Fix the build.
+Fix random spec errors
+Fix alignment of groups filter inputs on FF.
+Fix the build.
+Fix lint.
+Fix the build.
+Fix alignment of filter inputs on groups page.
+Fix duplicated translations.
+Fix the build.
+Fix the build.
+Fix random spec failures
+Fix the build.
+Fix the build
+Fix incorrect condition while re-routing from group messages.
+Fix group messages style on mobile.
+Fix incorrect CSS class on group messages.
+Fix typos in server.en.yml (#5668)
+Fix version check in restorer.
+Fix incorrect function name.
+Fix minor typo in server.en.yml (#5649)
+Fix lint errors
+Fixing some regressions for profile badges
+Fixing badge detail positioning
+Fix the build.
+Fixed typo in page title (#5642)
+Fixing category title with logo image layout
+Fix the build.
+Fix incorrect ids for 2FA inputs.
+Fix for categories with icons not wrapping properly
+Fixing categories not wrapping properly
+Fix the build take 2.
+Revert "Fix the build."
+Fix the build.
+Fix the build.
+Fix the build
+Fix incorrect data type for `SiteSetting.google_oauth2_prompt`.
+Fix failing spec.
+UX: Fix missing css styles on invite modal.
+Fix incorrect translation.
+Fix the build
+Fix rspec description.
+Fixing emoji admin page column
+Fix avatar flair alignment on mobile user profiles
+Fix Gemfile.lock.
+Fix typo in server.en.yml
+Fix RTL topic-admin-menu-position (#5497)
+Fix font-up-3 nit
+Fix font-up-3 nit
+Fix typo in narrative-bot server.en.yml
+Fix the site header to size 1.5em
+Fix test case for site logo as `<h2>`
+Fix randomly failing spec.
+UX: Fixing font-size issue on /categories
+UX: Fixing an issue where category names were too large on /categories
+UX: Fixing mobile post action size
+Fix JS travis tests incorrectly passing.
+Fix unhandled promise in smoke test.
+Fix missing variable in smoke test rake task.
+Fix randomly failing JS acceptance tests.
+Fix chrome-qunit-test.js wasn't exiting with the right error code.
+Fix bash error in travis file.
+Fix eslint on travis.
+Fix undefined method for `NilClass` error.
+Fix the build.
+UX: Fixing code highlighting color issue in dark themes
+Fix broken Gemfile.lock.
+Fix JS test.
+Fix broken lograge logs.
+Fix the build.
+Fix scrollmap included NaN values.
+Fix placeholder for show more images (#5312)
+Fix infinate loading of group posts (#5296)
+Fix incorrect severity field.
+Fix the build.
+Fix "duplicate method" issue
+Fix eslint.
+Fix randomly failing spec on Travis.
+Fix incorrect URI for LogstashLogger.
+Fix the build.
+Fix weird Rubocop error.
+Fix test not starting with the right state.
+[FIX] Fix wizard spec
+Fix broken tests
+Fix typo.
+Fix the build.
+SECURITY: Fix XSS on unsubscribed page.
+Revert "SECURITY: Fix XSS on unsubscribed page."
+SECURITY: Fix XSS on unsubscribed page.
+Fix randomly failing spec.
+Fix failing spec.
+Fix invalid method call.
+Fix broken spec.
+Fix randomly failing spec.
+Fix ruby lint error
+Fix undefined method for Nil class error.
+Fix broken test.
+Fix undefined variable in `TopicCreator`.
+Fix broken JS tests.
+Fix broken tests
+Fix randomly failing spec.
+FIX: Fix ActiveRecord API that was removed in Rails 5.1.
+Fix broken condition in PostgresqlFallbackAdapter.
+Fix logster not ignoring CSRF warnings.
+Fix all the errors to get our tests green on Rails 5.1.
+Fix randomly failing spec.
+Fixed private group messages being exposed in suggested topics.
+Fix bugs in profiling scripts leading to incorrect results.
+Fix the build.
+Fix incorrect topic id in profiiing script.
+Fix profile db generator not seeding.
+Fix linting.
+phpBB3 importer: Fix validation of site settings
+Fix + remove unnecessary indentation, dead code, cleanup user.css
+Fix Rubocop error.
+Fix calling `exists?` on Arrays.
+Fix the build.
+Fix conditions.
+Fix typo.
+Fix `select-box` Qunit tests to use the proper Ember test helpers.
+Fix: unlinked topic search model (#5044)
+Revert "Fix up some markup to making styling latest categories easier"
+Fix up some markup to making styling latest categories easier
+Fix missing parameter.
+Fix incorrect test migration.
+Fix the build.
+Fix Redis command errors when trying to start app with a readonly Redis.
+Fix the build.
+Fix rspec tests for search pagination.
+Fix incorrect assertion in JS tests.
+Fix invalid CSS syntax.
+Fix sidekiq command in docs to start all queues instead of only critical.
+Fix JS tests failing when running in `RAILS_ENV=test`.
+Fix docker tests not loading plugins.
+Fix `SiteSetingExtension` specs to coerce int to string.
+Fix specs.
+Fix specs.
+Fix random spec failure due to ordering.
+Fix user stats colour for dark themes
+Fix the build.
+Fix incorrect filename.
+Fix ol margin/padding so it displays ordered lists without cutting them off. https://meta.discourse.org/t/numbers-cut-off-in-long-list/59856
+Fix broken specs.
+Revert "Fix .travis.yml."
+Fix .travis.yml.
+Fix guard against concurrently loading of assets.
+Fix user is nil in populate posts.
+Fix for the last broken discourse-details qunit test
+Fix failing discourse-details plugin qunit tests
+Fix the build.
+Fix broken specs.
+Fix the build.
+Fix backend code for searching by a filetype as a combination of uploads and topic links. Add rspec test for extracting file extension in upload.
+Fixes glitch on iOS safari
+Fix broken specs due to new default emoji set.
+Add extraction of image_url for oneboxed images. Fix search by images filter name.
+Fix hash style.
+Fix typo.
+Fix failing specs.
+Fixes woman_shrugging name conversion
+Fixes automobile being an alias now
+Fixes emoji name to code missing tones
+Fix eslint.
+Fix typo in post merge confirmation
+Fix pluralization for theme out-of-date notice
+Fix randomly failing spec.
+Fix typo.
+Fix tag related advanced search tests into one context. Fix dynamic locale and select clause in search by all tags. Fix separator for all tags to plus sign.
+Fix typo in transifex instructions
+Fix build.
+Fix typo.
+discourse-details: Fix German locale prefix
+FIX: Fixes to grant new user of the month badge
+Move discourse dev data out of tmp Fix watch for restart so it works with puma
+Fix the build on travis.
+Fix the build.
+Fix the build on travis.
+Fix typo in existing link warning
+UX: Fix improper aspect ratio for xkcd oneboxes
+Fix the padding on the login and register buttons.
+Fix typo.
+Fix migrate AddCssClassNameToEmbeddableHosts
+Fix migration file problem
+Fix random test failure.
+Fix tests that was testing the wrong class.
+Fix reply-by-mail for 8-bit transfer encodings
+Fix incorrect class name.
+Fix `Fixnum` is deprecated in Ruby 2.4.
+Fix the build
+Fix the build
+Fix the build.
+Fix the build.
+Fix build.
+Fix broken specs.
+Fix incorrect method usage.
+Fix incorrect method name.
+FIX: Fix poll builder qunit tests
+Fix `NilClass` error in `UsersController`.
+Fix typo.
+Fix randomly failing spec.
+Fix purge_tombstone for the brave new world of secure command execution
+Fix failing test
+Fix broken optimize image command.
+Fix rspec tests.
+Fix weird test failure.
+Fix tests.
+Fixes duplicated topic title in header after edit.
+Fix broken user created event trigger.
+Fix broken specs.
+Fix broken tests.
+Fix randomly failing specs.
+Fix failing specs.
+Fix randomly failing specs.
+Fix the build.
+Fixed typo.
+Fix a minor typo on a mailer template
+Fix typo to be more consistent with other test descriptions
+phpBB3 importer: Fix the link regex
+phpBB3 importer: Fix import of anonymous users
+Fix broken qunit tests.
+Fix specs.
+Fix "saving" message not dismissing when editing posts.
+Fix broken emojis.
+Fix undefined `attrs`.
+Fix syntax error.
+Fix typo.
+Fix typos
+Fix JS tests.
+Fix randomly failing spec.
+Fix broken specs since all urls will be oneboxed.
+Fix eslint nits.
+Fix incorrect site setting.
+Fix JS tests.
+Fix refactoring artifacts.
+UX: Fix width on avatar flair.
+Fix specs.
+Topic Featured Links: move data from custom fields to topics and categories tables. Invert behaviour of topic_featured_link_allowed checkbox. Fix a bug with invalid topic records due to changing that category checkbox.
+Fix Arabic Pluralization Rules for Client
+Fix JS tests.
+Fix JS tests.
+Fix eslint.
+Fix JS tests.
+Fix JS tests.
+Fix: Group avatar flair inputs style.
+Fix QUnit tests.
+UX: Fix margins for group name on mobile.
+Fix specs.
+Minor Discourse Fixes
+Fix travis script.
+Fix qunit tests on Travis.
+Fix incorrect style for avatar flair icon preview.
+Fix incorrect class and removal unncessary `div`.
+Fix style for font-awesome avatar flair.
+Fix Wizard unit tests
+PERF: Fix N+1 queries when loading groups.
+PERF: Fix N+1 query.
+Fix JS test.
+Fix invalid command.
+Fix specs.
+Fix build.
+Fix typo.
+Fix more deprecations:
+Fixes some Ember Deprecations for 1.13:
+Fix full page search tests.
+Fix the ID for postTime
+Fix randomly failing spec.
+Fix tags separation on new category page
+Fix typo.
+Fix build.
+Fix SQLite datetime issues
+Fix rake task.
+Fixed email
+Fix linting error
+Fix linting errors
+Fix a Plural String Leftover and Change the messageFormat Link
+Fix Plural Strings
+UX: Fixes for poll option bars on dark theme.
+Fix incorrect test.
+Fix build.
+Fix typos in descriptions of server source file
+Fix the build.
+Fix typo.
+UX: Fix polls on dark theme.
+Fix the build.
+Fix eslint.
+Fix failing tests.
+Fix the build :fired:
+Fix frozen email string problem in mbox.rb
+Fix specs.
+FIX: Fix timeline dragging on iOS. Temporary fix for bottom of page
+Fix build.
+Fix the build.
+Fix import from phpBB 3.1
+Fixes some deprecations:
+Fix: Replacing custom gif image results in old gif appearing in admin… (#4199)
+Fix: Editing a topic with an invalid title will still push it to the top (#4185)
+Fix import of polls from phpBB3
+Fix: Suspensions and Blocks do not give enough details in logs
+Fix build.
+Fix: Custom user fields on user card could show for wrong user.
+Fix issue setting post author during import from Quandora
+Fix Romanian pluralization rules (#4151)
+Fix for category stripe misalignment
+Fix for long emoji names in autocomplete
+Merge pull request #4097 from aryanraj/Fix_PostCooked
+Fixed: DecoratorHelper.cooked passing wrong parameters to PostCooked class
+Fix: Added underscore to my_redirect regex
+Fix Permalink normalization regex example
+Fix pink hearts on the badges section.
+Fixed anonymizer when 'full name required' setting is on
+Fix link in INSTALL-cloud email troubleshooting
+Fix length for hashtags, increased to 101 characters.
+Fixes scope problem.
+Fixes the link count on the sidebar by only counting unique titles.
+Fix capitalize
+Fix randomly failing test.
+Fix the build.
+Fix mbox.rb for updated Email::Receiver API
+Fix typo: are your sure
+UX: Fix a bunch of overflowing links on mobile nav.
+Fix a typo
+Fix broken tests.
+Fix the build.
+Fix the build.
+Fix eslint
+Fix broken spec
+UX: Fix misaligned topic list border.
+Fix base and vBulletin importer
+FIX: Fix the shortcut shift+p for pinning/unpinning a topic
+FIX: Fix the shortcuts shift+j and shift+k
+Fix impersonate redirect on subfolder install
+Fix rails server start command in Vagrant guide
+Fix run-on sentence re. entering HTML tables
+UX: Fix links in gutter taking up full width.
+Fix username conversion. Add comments.
+Fix bug where create topic is suggested when insufficient permissions
+Fix bug when adding new custom group
+Fix composer for FF14+
+Fix the visit tracking logic
+Fix build
+FIX: Fix behavior of category reorder dialog
+FIX: ensure we never have a string when an enum is Fixnum - Take 2
+FIX: ensure we never have a string when an enum is Fixnum
+Fix typo about table settings in server.en.yml
+Fix mobile styling
+Fix never link after clicking maybe later
+FIX: Fix the logout functionality in core
+Fix same domains links on subfolder installs
+UX: Fix menu position with custom header
+FIX: if an enum is Fixnum do not allow strings to live in it
+Fix timestamp comparison in tests.
+FIX: Fix tag input select2 box
+Fix deprecations in admin groups interface
+Fix deprecations with site text, upgrade to ES6 / store
+Fix comment
+Fixes some minor issues with the phpBB3 importer
+Fix typo
+Fix test failure (appEvents seems to not be injected?)
+Rtl Fix For Customize Toggles & Dashboard
+Fix LocalStore.remove_file to not raise if source doesn't exist
+Fixed bug that caused substrings of reserved usernames to be treated as reserved.
+Fix copy error in temporarily_closed_due_to_flags
+Fix module name for RestoreDisabledError and FilenameMissingError.
+Fix missing bracket in name selector in url anchor jumping
+Fixes deprecations on various discovery routes
+Fixes deprecations on user routes
+Fix banner breaking on reentry.
+Fix deprecations on SiteMap
+Fixes routing in tests
+Fixes issues with composer
+Fixes some deprecations
+Fixes the language codes in the pull_translations script
+Fixing map-marker FontAwesome typo
+Fix: @mention dialect matches too often
+Fix warnings for rspec 3
+Fix tests on site_setting for new rspec
+Fix a typo on Discourse Vagrant documentation
+Fix size on onebox-avatar
+Fix `NoMethodError` in TopicEmbed#find_remote
+Fix jshint 2
+Fix JSHint errors
+Fix an issue with the store hydrating embedded objects
+Fix admin badge UI style when no badge selected
+Fix if defined? conditional for R2
+Fix italics/bold WYSIWYG bug with nothing highlighted.
+Fix circular avatars getting squished
+PERF: Fix memory leak
+Fixes broken spec
+Fix Discourse.Utilities.avatarImg test on Fx.
+Fix gem load order for all importers
+Fix broken mysql2 load order in mybb import script
+Fix gem load order for SFM2 importer
+Fix some weird indentation
+Fix CORS issue when avatar url is on S3
+Fix the render_json_error api
+Fix misaligned dropdown categories
+Fix regression on editing private messages
+Fix customize HTML/CSS only show desktop code
+Fixes the attachment import of the phpBB3 importer
+FIX: Clean up after adding events. Fixes random test failures.
+Fix force_avatar_update.to_i error as force_avatar_update is a boolean
+Fix: Resize event  handler does not get cleared from window object,by wrong usage of jQuery api.
+Fix weird indentation in CSS file
+Fix bug when sso_overrides_avatar is true but no avatar_url is passed
+Fixed typo on line 49
+Fix spelling in contact_email_missing message.
+Fix guidelines_topic anchor point
+Fix relative URLs in plain text emails
+Fix typo in Gemfile
+Fix regression in `{{each}}` fixes
+Fixes many Ember 1.9.0 deprecations
+Fix resolve errors
+Fix more deprecated helpers
+Fix broken qunit tests in 1.9.0
+Fix more deprecations for 1.9.0
+Fixes broken test
+FIX: Fix rerendering issues on some components.
+UX: Fixes for group view
+Fixed typo
+UX: Fix some weird margins/padding when zoomed in on user profiles
+Fix uglifier args
+Fix: Set title for multiple youtube video player with the same ID  (don't rely on id to set title)
+Fix buggy autocomplete behaviour for non-US keyboards
+UX: Fixed padding on reply to user
+Fix data-* behavior (failure to understand own docs)
+Fix JSHint
+Fix access specifiers with private_class_methods instead of removing directly
+Revert "Fix: CSS to reveal hidden or partially visible avatars on 2nd line"
+Fix: CSS to reveal hidden or partially visible avatars on 2nd line
+Fix pretty_text translation helper again, this time for real
+Fix: remove hardcoded minimum for username length validation
+Fix test failure
+Fix wrong variable name
+Fix: rapid/continuous keyboard Next event under Topics List view may lose selected item on "load more"
+Fix: Cancel link click if triggered as part of text selection
+Fix magic numbers, extra param references
+Fixed qunit test assertion
+Fixed qunit test assertion
+UX: Add keyboard bidning for incoming/updated topics Fixed the selector used to gain access to the clickable div
+FIX: Centralize Top rendering, remove old code paths. Fix some bugs.
+Fix pop3 settings in locale file
+Fix SSO avatar downloading issues.
+Fix pop3 SSL state leaking over multisite
+Fix: dialect block parser should not eat next block's whitespace
+Fix "Server Error: [missing {{code}} value]" page
+Fix local onebox subcategory urls
+Fix tests for new route
+Fix badge type ordering
+Fix min_trust_level for wordpress
+Fixed ActiveRecord validation for post_id in incoming_link.rb
+Fix assignment of post number to progress position
+UX: Squash activity columns together. Show a cold map on the difference between the last post and original post dates. Fix some missing classes in the mobile templates and topic map.
+Fix: block parser now uses regexes for end tags. solves code block case, where end tag must be on a line of its own.
+Fix ordering of posts in posts in order unit test.
+Fix: messages imported in wrong order
+Fix: defaults should be defaults and not override parsed settings.
+Fix build
+FIX: Allow buttons to be hidden. Fixes persistent uploading progress on file uploads for non-admins.
+Fix message, and add test, for EmailUnparseableError
+Fix /p/post/user route not saving referrals
+Fix: whitelist regex for bbcode too wide
+Fix not all content in reply panel visible due to panel overflowing on small Androids with keyboard up
+Fix specs, handle_exception calls
+Fix typo.
+Fix email code & tests
+Fix specs
+Fixing grammar problem in dismissable banner msg
+Fix broken merge
+Fix typo in XSS test
+Fix broken markup on invites tab
+Fix the spec for enum site settings
+Fix Typo
+Fix Badge Spacing
+Fix broken tests
+Fix specs for avatars Implement avatar picker Correct avatar related jobs
+Fix up the bind-attr structure
+Fix failing spec. Stubbing intermittently does not stub...
+Add link to google config instructions. Fix dashboard warning for google oauth2.
+Fix c6ef85d517895. Align reply area, 10px padding.
+Fix suspended scope
+Fix my prev_page code, thanks to riking
+Fix Puma socket name
+Fix the Amazon links regex
+Fix a bunch of color issues
+Fix HTML tags in topic titles.
+Fix infinite loading spinner for badges that have not been granted yet.
+Fix user_badges n+1 query.
+Only @import plugin scss. Fixes the huge emoji issue.
+Fix badge serialization issue.
+Fix 'post omitted' bar lengths
+[bugfix] Fix for '/' keyboard shortcut putting '/' into search input
+Fix asset precompilation issues.
+Fix missing avatar while a post is being created.
+Fix the 'posted' view
+Fix post highlighting.
+Fix .pkgr.yml so that discourse can be packaged with https://pkgr.io.
+Fix visual bug
+Fix pasting into the subject field in Firefox.
+Fix code block for git commands
+Fix poll server.it.yml
+Fix this/self usage warning
+Fix inefficent jQuery usage
+Fix some bad HTML
+Fix badge description i18n match.
+Fix spec, remove pointless have_many etc preamble
+Revert "Fix unmatched braces of "nav.post-controls button""
+Fix unmatched braces of "nav.post-controls button"
+BugFix: email-in on categories wasn't null-ed properly
+BUGFIX: Fix ailing tests
+Fix typo of 'b' at the end of a heading in README
+FIX: moderators should not be able to see site setting changes in the staff action logs. Fixes #2027
+BUGFIX: Fix issues if the DOM element is destroyed while the interval is ongoing (in particular this was weird for Firefox)
+Fixes a few typos in the German translation
+Fixes on mobile signup form
+Fix: apply excludes for user aliases in user selection view
+Fix subcategories links from search
+Fix server.vi.yml at header vi
+Fixed typo in test name
+Fix the build
+FIX: Broken MDTest + Fix for removing leading spaces in a code block
+Fix shortenUrl helper to not crash when URL doesn't include any "/".
+Fix plugin:spec rake task to include subdirectories.
+Fixed some JSHint warnings
+Fixed 'devloper' typo in quickstart config file
+Fix sanitization of smileys like <_< and <3.
+Fix cold colours in activity column of topic lists
+Fix inviting others to private messages.
+REFACTOR: Fixes poor class hierarchy for listing topics
+Fix group matching SQL query
+Fix Post-rendering bug
+README: Fix link to Admin Quick Start Guide
+Fix RVM install instructions
+Fix method name in code documentation for prependMore
+Fixing padding for misaligned small logo URL
+Fix unused parameter
+Upgrade JSHint. Fixes linting issues.
+Fix top_topic.rb to be compatible with ruby 1.9
+Fix wrapping of validation messages on signup form
+Fix password_validator_spec
+Fix missing pin icon.
+Fix smtp settings, added password
+Fix topics_year, topics_month, topics_week for uncategorized category
+Fix category ordering on categories page. I broke it.
+Fix javascript_include_tag for browser-update so it includes MD5. Needed to add .js extension for some reason.
+Fix autoclose form in category modal
+Fixed broken links in Digest email
+Fix email_preview AJAX call to use Discourse.ajax
+Fix path of browser-update
+Fix browser-update.js so it doesn't depend on jQuery
+Fix "remotes images" typo
+Fix: Participant filter was broken.
+Fix js for handling click of header buttons. They were adding /# to the url, which broke routing.
+Fixing neglect to determine whether a user has the permission to create a topic on a category (besides being able to create a post) in ListController, TopicList, and TopicListSerializer causing the "Create Topic" button to appear even if a user cannot actually create a topic in that category but can reply to a topic therein.
+Debouncing broke my js tests. Fix them later.
+Fix more typos in server locale
+Fix migration that does not contain position
+Fixed Youtube videos appearing on top of compose panel (props to @hrobertson)
+Fix [object object] being rendered where it should be an ip address
+Fix some locale typos
+Fix for non-english email polling.
+Fix ActiveRecord::Associations::CollectionProxy serialization in Rails 4.
+Fixes for postgresql inet columns in Rails 4. They're backed by an IPAddr class now, which breaks sql parameter marker support, and automatically sets the attribute to nil when trying to assign an invalid ip address.
+Fix JSHINT
+Fix rendering of muted topic button
+Fix broken markdown formatting.
+Fixes #1496 - Ember 1.0 regression
+Fix failing spec due to missing variable in extracted method
+Fix missing provider param message when using Persona
+Fixed russsian localization
+Fix resolver for mobile templates
+Fix an error with mobile custom header
+Fix modal button spacing on mobile
+Fix closing a modal on mobile
+Fix IE9 bug in browser-update. Unable to get value of the property 'insertBefore': object is null or undefined
+Fix asset compile problems
+strip out css fade-in animation from share dialog, it was only causing trouble. Fixing it is more hassle than it is worth. inivisible elements take height so we constantly need to worry about re-positioning the hidden share dialog.
+Fixed all broken specs Moved middleware config into authenticators
+Fix [object Object] in staff logs details modal
+Fixes @mentions inside of lists
+Fix a case when the wrong topic is loaded because the slug starts with a number
+Fix 'You must choose a category' when a category is already chosen
+Fix a broken avatar when showing who deleted a post
+Fix uncategorized topics not being shown on categories page
+Fix edit category modal for uncategorized when showing it the second time
+Fix rails4 deprecation warnings
+Fix site settings link in Twitter config warning
+Fix url not to be nil
+Fixes #1292. PR will come for the image in a minute.
+Fix delete user button on admin/user page so it's enabled at the right times, and update its title attribute to be more helpful
+Fix various errors in german translation
+Fix typo in german translation
+Fixes to {{#groupedEach}}
+Fixed GitHub auth, GitHub can provide us with a valid email - so automatically log in for those cases
+Fix: flag modal sometimes doesn't have nuke user button when it should
+Fix rendering of email logs rows. Needed thead around the first row.
+Fix assets:precompile failure from missing @include
+Fix to allow admins to change the case of a someone's username
+Fix spelling of noscript in the settings page.
+Fix auto-group refresh response so that ajax callback runs
+Upgrade Ember to Fix CVE-2013-4170
+Fix 'undefined' in Create Category modal title
+Fix for emails with empty body
+Fix layout of category badges on categories page and in combobox
+Fix locale dependend stemmer for FTS
+Fix for autocomplete delete action removing only the last item
+Fix some errors.
+Fix spacing
+Fix share URL for first post
+Fixed typo at nginx.sample.conf
+Fix bug: pressing enter on the "forgot password" modal does not submit the form
+Discourse Macro Helpers + Minor Fix to Admin User View
+Fix a case when a staff user views a topic with a deleted post by a nuked user; might be a temporary solution until we decide what to do with nuked records
+Fix order of View table in exporter
+Fix Cyrillic transliteration map
+Fix title for plain view
+Fix recommendations from #1145
+More Javascript Tests + Fixtures. Also a rake task to crawl them.
+Improve the omniauth controller specs. Fix the email provided by CAS. Get name from CAS attributes.
+Fix update statement for Rails 4 preparation
+Fix German translation of user_automatically blocked template
+Fix links to uncategorized when SiteSetting.uncategorized_name is set
+Fix exporter spec brokenness in random mode
+Fix title attributes on post info
+Fix AdminUser bulkApprove; add a way to approve a user without sending them the welcome email for cases when must_approve_users is enabled and there are existing users
+Fix failing import spec with seed 30239
+Fix: don't enable login_required on sites that used to use an access_password
+Fix for multiple paragraph emails with text em-dashes in them (--).
+Fix length check of pm body; refactor composer length and title length validation
+Fix to prevent check for all upper case for non-ascii messages
+Fix for using non-ascii category name as a link in top_menu
+Fix JSHint in test helper
+Fix for message saying 'There are no more 29-category topics.'
+Fix change username
+FIX: Replace modal with an empty view when closed. Fixes the bug where you'd edit a category, close and then click edit again.
+Fix error when trying to edit a category with empty slug
+Fix category delete
+Fix a case where a random topic with null slug will be rendered instead of 404
+Fix spec doc; sends welcome email for active users
+Fix annoying jshint :)
+Fixed ContainerView code to build views correctly
+Unapproved users should not receive digest emails. Fixes #974
+Fix upload specs
+Fix replying in a topic that is uncategorized after allow_uncategorized_topics is set to false
+Fix typo in the German missing logo warning.
+Fix unix socket paths in nginx upstream module
+Fix a regression that broke pre-fill of username when sending private message
+Fixed jasmine specs that relied on old Discourse user api.
+Fix TopicPostersSummary when a suggested topic includes a user who has been deleted
+Fix JsHint
+Refactor + Fix: Wasn't correctly loading activity streams. Code is a lot more Ember-y now.
+Fix spelling mistake in spec doc
+Fix for topic excerpt being from the wrong post
+Fix the 'no more topics' message for categories with non-ascii names
+Fix typo in contribution document
+Add post count to similar posts popup. Fix alignment.
+Fix: comma
+Fix rerender of topic close message when you navigate away from a closing topic
+Fix broken YML
+Fixes staticController bug with requiring an HTML response.
+Fix: Multi-Select should close when an operation succeeds. A little refactoring, too.
+Fix regression: default to JSON type on GET requests.
+Fix links to user pages on dashboard
+Fix edit uncategorized when on the /category/uncategorized page
+Fix a case when editing uncategorized all the hidden form controls become visible
+Fix incoming links dashboard data when topic record can't be found
+Fix bookmarks admin dashboard counts to include bookmarks that were deleted
+Fix misspelling
+Fixed combo boxes display in edit history
+Fix topic_count in version check request
+Fixing Amazon uploads to not be hardcoded to https
+Fix links to topics with empty slug because they use non-ascii titles
+Fix a problem where you might see missing {{sentTo}} value after a failed login
+Fix for loading uncategorized topics when slug for uncategorized_name is blank
+Fixes #718: Changed password field type on Access Code entry page.
+Fix for notifications not being shown when running with prefix
+Fix version check when your version is later than the one fetched by the last version check job
+Fixed typo
+Fix colour picker size on iPad
+Fix content editor in smaller widths
+Fix emoticons: Was not upgraded to use promises
+Fixes issue with featuring topic users
+Fixes broken spec
+Fix dashboard totals for topics, posts, and private messages
+Fix for reply to user avatar and picture uploading not working when editing post with discourse running in a prefix
+Fix for when category description has html. Could be better.
+Fix styling of category select when editing a topic title
+Fix @notification text for non visitors
+Fix some 'quote reply' button quirks
+No idea why these tests weren't failing for me in guard when I pushed last time. Fixed!
+Fix issue with duplicate slugs
+Fix: `best_of` flag was not being updated properly
+Fix automatic selection of share link
+Fix spelling of Github to GitHub
+Fixes bug where progress looked weird when creating a new post.
+Fixed URL for composer /education paths
+Fix z-index of "in reply to" tabs versus filter message.
+Fix a typo and add a step to DEVELOPER-ADVANCED.md
+Fix bug where new posts wouldn't load after hitting the bottom if you'd filtered
+topic_poster.rb: Fix formatting of the attributes return value
+Fix i18n integrity issue
+Fixes regression with video embeds
+.gitignore: Fix typo in the word refreshing
+Fixed a bunch of 'best of' errors and cleaned up JS.
+Fix admin dashboard layout on smaller widths
+Fixed some merge conflicts
+Fix #435 increased the lenghth of category.topic_prefix string; also added zh_TW translations by converting the Simplified Chinese to Traditional Chinese New I18n entries added, added in both zh_CN and zh_TW Start to translate FAQ, TOS and Privacy docs Add missed zh_TW.js.erb Make translation more precise
+Fix linting errors.
+Fixes bug with creating new topic due to edit text changing.
+Fix: When you split topics, featured users and like counts were incorrect.
+Fixes JSHint error on PageDown. Updated for Uniform Access Principle.
+Fixes #313 - Without a slug the search urls were wrong.
+Fix report_spec so it's not so fussy and breaks sometimes
+Fix a jshint failure
+Fixes broken jasmine test - PreloadStore now returns null
+Fix jquery in the github commits widget
+Prevent quote content collisions with multiples in one post [Fixes #142]
+Fix check if you're up to date in javascript
+Raise 404 from Admin::UsersController#show if no user found [Fixes #353]
+Fix onebox loading on every keystroke after a request fails.
+Fix error during db:migrate on a new database
+Fix order dependency in site_setting_spec.rb The spec contained an order dependency which would cause the default bool test to fail. You can confirm this by running the spec with the option "--order rand" a couple times. This dependency was caused by surprising behavior in SiteSetting::setting as shown below:
+Fix weirdly indented code
+Fix display host for onebox
+Fix jshint issue with `[^]` in regexp.
+Fixes broken "From" header in Private Message emails.
+Fix locale path for precompiling assets
+Add X-Forwarded-Proto to nginx config to support SSL. Fixes #293
+Fixes lines that were too long.
+Fixes #264 - replaceState was wonky
+The avatar helper should be smart enough to find a nested avatar_template. Fixes #243
+Fixes #157 - Add mention of seed_fu to docs.
+Fixes title regression
+Fixed broken link to Vagrant Docs
+Fixed broken link to Vagrant Docs
+Fix broken migration. OOPS
+Fix my jshint failures
+Fix Regression: In reply to
+Fix javascript regression with quoting
+Fix login with google in IE9
+Fix admin dashboard version check losing its css styling
+Fix the missing {{provider}} value message
+Removes iconv dependency Fixes #100
+Fix typo, profile => procfile
+Fixes Issue #37 . Going to a user profile now updates the meta title. Also fixed a minor DEV guide typo.
+Fix for foreign language titles: Only enforce upper case rule on english alphabet.
+Make all quotes multiline. Fixes a bunch of annoying errors.
+Fix zooming on mobile.
+Fix bug where links to posts weren't being tracked
+Fix broken Yahoo! signup.
+Fix broken signup with Twitter
+Fixes: Bug concatenating string URL with integer id
+Fix 1px button cut off on topic progress up / down buttons.
+Rails cache needs to reconnect - Fixes error with Spork / Guard
+Updated to acts_as_paranoid. Fixes #5.
+Fixes some minor issues with users deleting their own posts.
+Fix all the trailing whitespace
+Fix Guardfile warning about deprecated :version arg.
+Fix guard warning with version spec for rb-notify.
+Fix typo on AUTHORS.md
+Fixed typo in EXISTS sql
+Fixed minor typo in lib/guardian.rb

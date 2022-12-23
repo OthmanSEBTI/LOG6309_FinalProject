@@ -1,0 +1,96 @@
+Fix consult-buffer error
+Fix dangling reference to removed stack-exec-path-mode
+Fix deprecated params passed to define-minor mode (fixes #780)
+Fix config for embark-consult
+Fix incorrect org command bindings
+Fix broken matrix spec
+Fix up init-direnv.el
+Fix comment location
+Fix js2-mode error when loading coffee-mode on emacs 25.2
+Fix silly error in stack-exec-path-mode
+Fix broken advice for recompilation
+Fix wrong number of arguments for sanityinc/save-compilation-buffer
+Fix buggy advice for shell-command-on-region
+Fix mismatched variable name in xml-related command
+Fix mangled keymap name
+Fix comment position relative to line break
+Fix workaround for company / page-break-lines clash
+Fix name of magit variable in comment hint
+Fix comment syntax
+Fix gitignore pattern for elpa-* dirs
+Fix checkdoc warning
+Fix function signature for shell-command-on-region advice
+Fix careless typo
+Fix regexp for jsp auto-mode-alist entry (thanks @liuchunhua)
+Fix dash config for sql-mode
+Fix typo
+Fix frame transparency adjustment for latest Emacs versions
+Fix commit hash for Emacs 23 version of package.el
+Fix sanityinc/add-subdirs-to-load-path to only add subdirs
+Fix up disclaimer paragraph in LICENSE
+Fix mistaken hook name
+Fix trailing reference to ac-nrepl
+Fix broken enabling of electric pair mode (fixes #190)
+Fix binding of sanityinc/eval-last-sexp-or-region
+Fix name for ielm major mode in ac-modes list
+Fix disabling of dired-hide-details-mode
+Fix hook name for bug-reference-github integration
+Fix file extension regexes
+Fix indentation
+Fix additional haskell compilation regexp entries
+Fix flymake-hlint hook code
+Fix ruby-mode auto-mode-alist entries
+Fix hl-sexp anti-flicker advice
+Fix argument order
+Fix typo in comment
+Fix incorrect comment
+Fix autoload descr for zap-up-to-char
+Fix minor error in rename-this-file-and-buffer, triggered by uniquify's buffer renaming
+Fix indentation
+Fix up haskell config
+Fix error in flymake-python-pyflakes (fixes #9)
+Fix gitignore entry for package.el
+Fix stupid trailing paren borrowed from emacswiki
+Fix spurious merge commit referenced by iedit submodule
+Fix flymake-point URL (https is preferred)
+Fix html5 schema setup hook for nxml
+Fix macbook pro max screen height
+Fix moz.el download URL
+Fix debugging advice for desktop-read
+Fix size-h ibuffer column definition borrowed from elsewhere, which was incorrect
+Fix suspension of whole-line-or-region-mode during rectangle selections
+Fix typo in 'add-inferior-js-keys
+Fix SmartTab so no expansion is attempted in read-only buffers
+Fix load-path for org-mode from el-get
+Fix yaml-mode autoloads
+Fix up local path in update script
+Fix up slime clojure repl hook
+Fix paredit-newline problem in ielm
+Fix indentation
+Fix edit-server download URL, and update from upstream
+Fix embarrassing syntax error in previous commit
+Fix broken reference to removed enable-paredit fn
+Fix ac-source-slime-simple-candidates
+Fix setting of hippie-expand-try-functions-list
+Fix definition of sbcl and cmucl slime backends
+Fix typo in init.el
+Fix logic for hiding menu bar in TTY frames
+Fix some weaknesses in frame initialisation hooks that caused odd window sizes/font changes when creating new TTY frames
+Fix fetch URL in update script for moz.el
+Fix mistaken note about hook order dependency
+Fix autocomplete sources list, and disable autocompletion until 3 chars are typed
+Fix error in mmm-mode when Emacs 23 immediately evaporates zero-width submode regions
+Fix code for disabling flymake-js in mmm submode regions
+Fix load path for org
+Fix github raw download URLs in update-all script
+Fix typo in key binding for 'anything
+Fix some odd unicode backslashes that sneaked in
+Fix conditional for mac-specific settings
+Fix conditional for avoiding color-theme crash with cocoa emacs on mac
+Fix unconventional comment
+Fix whitespace anomalies
+Fix ruby-electric autoload for benefit of rails-mode
+Fix recursive load error with sb-info
+Fix postgres path for 8.2
+Fix up configuration for haskell-mode
+Fix default frame positions

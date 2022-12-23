@@ -1,0 +1,447 @@
+Fix unit test to be compatible with fontawesome 0.4.0
+Fixed check for isPending and rebuilt javascript
+Fixed major bug in throttle.ts
+Fix #3250 (#3602)
+Fix/update news (#3651)
+Fixed automatic guessing of Content-Type in downloadHandler (#3393)
+Fix failing tabPanel() test broken by testthat 3.1.0 (#3543)
+Fix appending to list
+Fix comment
+Fix type specification of HTML dependency meta values
+Fixes for strict null checks
+Fix attachment handling and add more specific types
+Fix getid access of `data-input-id` attribute (#3538)
+Fix regression in repeated appendTab()s when navbarMenu() is present (#3518)
+Fix example parse errors
+Fix DT Rd link
+Fix link to `DT::renderDataTable()` (#3490)
+Fix invisible checkboxes and radio buttons in RStudio on Mac
+Fix bash logic in action step (#3474)
+Fix Rituals workflow validating commits have not been made (#3473)
+Fix handling of getQuosure3(expr, env, quoted=TRUE)
+Fix NEWS entry
+Fix example
+Close #3443: Fix sliderInput()'s grid tick positioning without Bootstrap (#3444)
+Fix tab input value updating for BS4 dropdowns (#3412)
+Fix CRAN note (#3394)
+Fix rlang::inject with render functions
+Fix variable name
+Fix html tags in tab titles
+Fix logic bug in dotloop()
+Fix URLs
+Fix test
+Fix NA check
+Fix test
+Fix labels for eventReactive
+Fix renderCachedPlot expression handling
+Fixes for tests
+Fix cacheHint=FALSE
+Fixes for withCache and render functions
+Fixes for R CMD check
+Fix variable names
+Fix test
+Fix use of shinyOptions in modules
+Fix typo
+Fix docs bug
+Fix missing itemize
+Fix DiskCache pruning logic when max_n and max_size are used. Closes #3033
+Fix NEWS entry
+Fix reactiveValuesToList reactlog label (#3017)
+Fix whitespace
+Fix pkgdown.yml
+* Fixed #2951: Added labels and title for dateInput and dateRangeInput
+Fixed an incorrect line in tools/README.md for IonRangeSlider
+Fixed an incorrect line in tools/README.md for IonRangeSlider
+Fixed lang attribute in templates
+Fixed app.r for NULL value of lang argument
+Fixed lang attribute in template
+Revert "Fixes #2896 by avoiding fatal JS exception in some collapsible navbar scenarios by patching a BS3 bug introduced https://github.com/twbs/bootstrap/pull/16011"
+Fixes #2896 by avoiding fatal JS exception in some collapsible navbar scenarios by patching a BS3 bug introduced https://github.com/twbs/bootstrap/pull/16011
+Fix new CMD check note
+Fix pkgdown test
+Fix tempdir()-related problem
+Fix link
+Fix ls() usage, revert MockShinySession roxygen tags
+Fix pkgdown.yml
+Fix typo
+Fix Travis checks (#2791)
+Fix some roxygen errors
+Fix global reference test inside testServer
+Fix some roxygen errors
+Fix broken timer tests and check htmltools docs (#2758)
+Fix NEWS item
+Preserve matrix dimensions in dataTablesJSON. Fixes #2653
+Fix CONTRIBUTING.md link
+Fix debounce() behavior when r() throws an error
+Fix #2624 by aligning select* input handling of groups with that of updateSelect*
+Fix 062-submitbutton-demo
+Fix typo
+Fix unit test
+Fix reactivePoll leak
+Fix spacing in warning for resource paths conflicting with www/ subdirs
+Fix upper-case test
+Fix default param
+Fix link
+Fix selectInput/selectizeInput handling character(1) options (#2540)
+Fixes for R CMD check
+Fix invalidateLater memory leak. Closes #2267
+Fix options test
+Fix expectations.
+Fix more hyperlinks
+Fix shinyOptions hyperlinking
+Fix syntax error with double-backticks.
+Fix react logging for reactiveValues
+Fix NEWS formatting
+Fix feature request template
+Fix testthat version number
+Fix tests that assumed names in a specific order
+Fix rstudio/reactlog#36: Changes to reactive values not displaying accurately
+Fix #2385: R Markdown documents containing subapps not rendering properly
+Fix serving of www/index.html. Closes #2380
+Fix broken URL
+Fix #2349, #2329, #1817: bugs triggered by networkD3 sankey plot
+Add 'Fix datepicker DST bug' as patch
+addResourcePath: create staticPath object immediately. Fixes #2339
+Exclude "session" from static path serving. Fixes #2325
+Fix test
+Bookmarking: restore inputs that have a leading dot. Fixes #2308
+Fix typo
+Use new selectize suffix. Fixes #2245
+Fix #2247: Async cached plots raise "Error in !: invalid argument type" error
+Fix error in global reactiveTimer
+Fix #2225: Input event queue can stall in apps that use async
+Fix datepicker DST bug (#2212)
+Fix brushes not being properly cleared
+Fix custom selectize rendering
+Fix selectize bug where value is set merely on query results (#2193)
+Fix spurious duplicate values being sent by selectInput
+Fixes #174, allowing specific days of the week to be disabled.
+Fix argument name in documentation
+Fix app- and session-level cache initialization
+Fix .rds directory search pattern
+Fix files that were split
+Fix absolutePath to correctly handle absolute paths
+Fixes #1933. Fixed JSON encoding of input data, and added more optgroup controls on JS-side
+Fix #2061: Tests failing on Windows due to rounding errors
+Fix #2033: Rstudio Viewer window not closed on shiny::stopApp()
+Fix #2037: With enableBookmarking="url", clientData is not available when observers are first run
+Set default reactive domain when executing flushedCallbacks. Fixes #1975
+Fix plot coordmap for devel version of ggplot2. Closes #2016
+Fix #1922: Warning: partial match of 'y' to 'yintercept'
+Fix #2021: Memory leak with reactiveTimer and invalidateLater
+Fix #2008: Allow eventReactive and observeEvent eventExprs to be async (#2014)
+Fix #928: allow inputs to trigger reactive flow even if the value of input hasn't changed
+Fix #2003: Long stack traces are truncated
+Fix #2000: Implicit calls to xxxOutput not working inside modules (#2010)
+DnD: Fix in the presence of jQuery 3.0 (removed .size())
+Trigger shiny:value even if same data is received. Fixes #1978
+Fix tests
+Fix #1964: renderPlot cache breaks when width/height throw
+Fix URL-encoded bookmarking with date/date-time sliders
+Avoid rounding errors from pretty(). Fixes #1006
+Look for restore context associated with session. Fixes #1948
+Fix remaining failing tests
+Fix coordmap unit tests
+Fix bug where req(cancelOutput=TRUE) would leave things grey
+Fix broken .shiny__stdout mechanism
+Fix various rendering bugs
+Fix ggplot brushing
+Fix version text substitution
+Fix #1824: HEAD request on static files causes app to stop (#1825)
+Escape newline chars in conditionalPanel expr. Fixes #1818
+Fix appendTab for empty tabsetPanels (#1813)
+Fix bug where last tab being removed, didn't update tabset input value
+Fixed documentation problems and JS code logic
+Don't reduce warn level when running app. Fixes #1680
+Prevent private random stream from leaking out. Fixes #1763
+Fix indentation
+Fix condition for calling exports.unbindAll(). (Correction to #1449)
+Fixed #1546: make it possible (without any hacks) to write arbitrary data into a module's session$userData
+Give each ReactiveVal separate dependents. Fixes #1710
+Fix partial arg match. Closes #1701
+Don't call body(NULL). Fixes #1676
+Fix typo
+Fix Bootstrap URL. Closes #1662
+Fix #1654: Empty space below showcase code
+Round brush coordinates to 14 digits. Fixes #1634
+Fix #1637: Outputs stay faded on MS Edge (#1640)
+Fix #1632: Showcase mode comes up almost blank in IE9 & 11 (#1633)
+Make sure reactiveTimer gets session at creation time. Fixes #1621
+Fix regex for old versions of R
+Properly register bookmark excludes for modules. Fixes #1598 (#1599)
+Don't use data-drag-interval for non-range sliders. Fixes #1605 (#1610)
+Fix value access
+Fix documentation link. Closes #1567
+Fix URL
+Fixes #1358: more informative error message when calling runApp inside of an app's app.R (or inside ui.R or server.R).
+Fix #1013: flushReact should be called after app loads (#1503)
+Fix #117: Reactive expressions hold on to memory for longer than necessary (#1504)
+Fix unqualified links to other packages
+Fixes #969: allow navbarPage's `fluid` param to control both containers
+Fix #1359: shinyApp options argument ignored when passed to runApp (#1483)
+Fix #1399: Duplicate binding error with insertUI and nested uiOutput (#1402)
+Fixes #1427: add event delegation so that modals do not close by mistake (#1430)
+Fix dategrange comment
+Fix tests for compiled code on R-devel. Closes #1404
+Fix off-by-one error for datepicker's setStartDate and setEndDate
+Fix off-by-one dates
+Allow using no separator for sliderInput numbers. Fixes #1369
+Fixes for R CMD check
+Fix reactive highlighting in showcase mode. Closes #1350 (#1351)
+Fix file uploads in IE9. Closes #1332 (#1342)
+Wrap DOM object in jQuery. Fixes #1335
+Fix renderPlot's execOnResize logic
+Fix misplaced NEWS items
+Fix updateDateRangeInput interaction from #1299 & #1315
+Fix updateDateRangeInput when only one of start/end updated (#1315)
+Fix #1122: Do something sensible when downloadHandler doesn't create a file
+Fix handling of NULLs in updateDateInput
+Fix priority of onRestore observer
+Fix bookmark URL when there are no input values. Fixes #1306
+Fix typo in bookmarkButton documentation
+Restore bookmarked tabs. Fixes #1282 (#1296)
+Fix missing parenthesis
+Fix value assignment of text area input
+Fix #1144: RadioButtons and checkBoxGroup do not work in modules when they are updated
+Fix enableBookmarking references
+Fix tests to be order-insensitive
+Fix bookmark values tests
+Fixes for R CMD check
+Fix #931: Observer memory leak (#1256)
+Fixes for R CMD check
+Fix behavior when onBookmark() is called multiple times in a module
+Fix memory leak (#1254)
+Fix reactive dependencies when restoring values
+Fix argument defaults
+Fixes
+Fixes for R CMD check
+Fix tests
+Fix function labels for profiling
+Changed customStop to stop(safeError). Refactored some middleware.R code. Fixed downloadHandler's bug of not responding to safeError.
+Fix coordmap tests
+Fixes for eslint
+Fix NEWS after weird merge
+Fix docs/check
+Fix flexCol on RStudio Desktop for Win/Linux
+Fix coordmap tests
+Fix vars
+Fix for https://github.com/rstudio/shiny/issues/692
+Fix docs/check
+Fix plot flickering on Safari and Firefox. Closes #776
+Fix package name for Travis
+Fixes #561: should discard the query when the number of columns in the request is different with the number of columns of the actual data
+Fix flexCol on RStudio Desktop for Win/Linux
+Use setAttribute() function to set image attributes. Fixes #936
+Fix unnecessary :::
+Fix progress for Shiny modules
+Use jQuery UI build without datepicker. Fixes #1042
+Fix head content location
+Fix staticdocs
+Fix a couple of req edge cases
+Fix warnings when renderXXX is called with explicit namespace
+Fix validation error handling
+Fixes #1018: make sure the selected value is always returned from server-side selectize
+Fix #1010: updateSliderInput doesn't update hidden sliders
+Fixes #1003: when the source code can be represented via the native encoding on Windows, rewrite the code to a temporary file with the native encoding and parse it
+Fix #1020: Graphics are cut off
+Fix bugs reported by @daattali
+Fix nested scopes
+Fixes #990: revert to checking if FileList is supported by the browser, instead of checking IE8 literally (partially reverted a41e1dafc2247aace6772d225f70b0588098c49c)
+Update download to work correctly with R 3.2.2 on Mac. Fixes #996
+Fix parseQueryString example (thanks Chris Beeley)
+updateCheckboxGroup: allow clearing all choices. Fixes #981
+Fix improperly escaped quote chars in select choices
+Fix and enhance reactlog
+Fix highlighting of reactives in showcase mode
+Fixes #929: defer setValue() for selectize until the options have been loaded from server
+Fix #676: getId(el) not being used in output binding
+Fixes #933: make sure type is of length one
+Fix NEWS formatting
+Fix runGist
+Make updateSliderInput work with date/datetimes. Fixes #904
+Fix updateSliderInput example code
+Fix docs for submitButton
+Fix #856: Outputs can not be unbound and re-bound
+Use methods() instead of .S3methods(). Fixes #849
+Override print.ggplot method in renderPlot. Fixes #841
+Fix off-by-one positioning error for base graphics
+Fix restoring brush with new coordmap panel data format
+Fix variable name
+Fixes for R CMD check in R 3.2.0
+Fix restoring brush with facets in IE8/9
+Fix panel matching logic
+Fix min/max order for reversed scales
+Fix panel scale order for facet_grid
+Fix brush import for reverse scales
+Fix log scaling
+Fix height/width calculation of brush div
+Fix bottom/top reversal
+Fix formatting in flowLayout documentation
+Clear error messages in imageOuputs. Fixes #783
+Fix some simple issues from pull request feedback
+Fix indentation
+Fix drag and selection on IE
+Fix plotting region check
+Fix off-by-one error in plot pixel coordinates
+Fix clipping bounds off-by-one error
+Fix bug where brush goes outside
+Fix 250ms delay in updateSliderInput(value=...) roundtrip.
+Fix offset calculation for brush dragging
+Fix checkbox input binding (closes #206)
+Fix downloading of files with no extension. Fixes #575
+Remove unneeded ID attributes. Fixes #684
+Add backward compatibility for shinysession$session (Fixes #752)
+Fix issue #749: Nested uiOutputs break outputs
+Update slider example for Shiny 0.11. (Fixes #748)
+Set message encoding to UTF-8 instead of native (Fixes #742)
+Fix Bootstrap URL
+Fix tests for new HTML structure
+Fix label spacing for inline checkbox and radio
+Fix #725: Tabs with icons give incorrect values
+navbarPage: Don't include empty row when header=NULL. Fixes #722
+Fix typo in docs
+Fix oversubscription of shown/hidden events
+Fix fixedPanel default cursor handling
+Fix reference to old shiny version number
+Fix label class for non-inline checkbox and radios
+Fix another URL
+Fix URL
+Fix docs for slider step size
+Fix class for radio buttons
+Don't limit width of inline inputs. Fixes #675
+Fix tabset input; event changed for bootstrap 3
+Fix URL
+Make default reactive domain available in request handlers. Fixes #669
+Fix appearance of download button
+Fix documentation typo
+Fix arrows for date inputs. Fixes #663
+Fix case of directory
+Fix file input appearance for Bootstrap 3
+Better help for reactiveValues. Fixes #620
+Fix appearance of DataTables examples
+Fix DOM structure for selectize inputs
+Fix appearance of date ranges
+Fix spacing of checkbox input
+Fix appearance of labels for checkbox group and radio buttons
+Fixes for progress bars with Bootstrap 3
+Fix inline checkboxGroupInputs and radioButtons
+Fix headerPanel spacing
+Fix appearance of date inputs
+Fix appearance of inputs
+Fixes for jshint
+Fix documentation bug in ?validate
+Fix eventFilter logic
+Fix action button
+Fix test to avoid printing message
+Fix incomplete sentence
+Fix off-by-one error in dependency attachments
+sliderInput: Round using min value as baseline. Fixes #301
+sliderInput: fix rounding bug. Fixes #502
+Fixes to file.path.ci
+Fix edge case with nested choices. Fixes #560
+Fix staticdoc errors
+Fix timing issue with random seed test on windows
+Fix broken client-side HTML dependency rendering
+Fixes for jshint
+Fix #477: renderPlot in shinydoc with height > 400 overlaps subsequent content
+Fix staticdoc test
+Fix argument name for S3 method
+Fix roxygen
+Fix bootstrap themes
+Fix initial dependency handling, fix knit_print
+Fix PriorityQueue error message during roxygenize
+Fix tests
+Fix createUniqueId logic
+Fix private random seed mechanism
+Fix travis?
+Fix travis
+Fix debugging of server files
+Fix gitignores for literate
+Fix makefile on windows
+Fix Rmd build tooling
+Fix scoping bug
+Fix capitalization of markdown package
+Fix 'Error in Context$new : could not find function "loadMethod"'
+Fix selectize misordering on updateSelectInput
+Fixes for jshint
+Fix debounce error in IE8
+Fix tags$head + renderUI in IE8, which was broken
+Fix staticdocs test on Linux
+Fix issue #395: Monospace fonts broken on QtWebKit
+Fix URL for slider number format details
+Fix issue #381: sendOutputHiddenState is called too many times
+Fixes for jshint
+Fix issue #359: Factors in HTML attributes are being converted to their numeric, not character, equivalent
+Fix erroneous comments in 03_reactivity
+Fix #335: Singleton observer shows up in reactlog
+Fix example
+Fix test breakage due to HTML() missing from rendered output
+Fixes for jshint
+Fix dateinput docs for pt-BR language
+Fix #21: singleton and tags$head are not really compatible with reactiveUI
+Fix typo
+Fixed typo.
+Fixed typo.
+Fixes to imports for R-devel
+Fix isolate return value bug (issue #200)
+Fix locator Retina compatibility. Again.
+Fix typo
+Fix Retina compatibility (revert b113119)
+Fix handling of empty tags
+Fix several bugs relating to suspendWhenHidden
+Fix rendering issues when slider gets too wide
+Fixes for R CMD check
+selectInput: correctly handle choices with duplicate names. Fixes #157
+Fix selected items in checkboxGroupInput
+Fix submit button interactions with tabs, plot sizes
+Fixes for jshint
+Fix bug where multiple file uploads get same path
+Fixes to tests for jshint
+Fix access to .clientData
+Fix allowDataUriScheme
+renderTable: check for empty data frame. Fixes #55
+setRatePolicy based on effectiveId. Fixes #110
+Fix call to manageHiddenOutputs in timer callback. Fixes #112
+sliderInputBinding inherits from text instead of number. Fixes #110
+Fix deprecation message for observe()
+Fix tests
+httpResponse: make sure headers is a list. Fixes #102
+Fix closing brace in isolate help
+Use correct default label for contexts. Fixes #91
+Fixes for R CMD check
+Fix test on Linux (sort locale)
+Fix #64: Hitting Enter in textbox causes form submit
+Fix tests with reactiveValuesToList
+Fix #77: tagWriteChildren error
+Fix #65: tagWrite doesn't expect strings except as direct children of tags
+Fix test
+Fix problem with circular dependencies
+reactiveTable: don't return blank if first element is NA. Fixes #71
+Fix bad calls to on.exit
+Fix reactivity for empty checkbox groups. Fixes #58
+Use new URL for runGist. Fixes #57
+Fix bug where reactiveUI doesn't accept plain lists
+Fix CRAN warning; version 0.2.2
+Fix subtle name resolution bugs
+Fix slider animation controls
+Fix runGist cygwin warning bug
+Fix IE8 slice bug
+Fix issue #41: reactiveTable should allow print options too
+Fix issue #36: reactiveUI does not always correctly render sliders
+Fix issue #27: Warnings cause reactive functions to stop executing
+Fix issue #26: Shiny.OutputBindings not correctly exported
+Fix broken imports
+Fix issue #19: Checkboxes and radios can't be added dynamically
+Fix issue #20: DESCRIPTION file should use Imports instead of Depends
+Fix S3 generic method consistency
+Fix broken roxygen declaration
+Fix issue #10: Plots in tabsets not rendered
+Fix broken progress indication
+Fix bug in deferred submission
+Fix error when no ui.R file exists
+Fix path bug on Windows
+Fix bug where HTML() nodes were still being escaped
+Fix broken Rd link
+Fix CSS for jslider
+Fix some Rd formatting issues
+Fix error in callback execution--wrong self

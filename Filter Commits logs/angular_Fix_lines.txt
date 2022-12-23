@@ -1,0 +1,206 @@
+docs(docs-infra): Fix typo in documentation for standalone components (#48026)
+fix(router): Fix route recognition behavior with some versions of rxjs (#47098)
+fix(zone.js): Fix ConsoleTask interface typo (#47090)
+Revert "fix(core): Fix `runInContext` for `NgModuleRef` injector (#46877)" (#46896)
+fix(core): Fix `runInContext` for `NgModuleRef` injector (#46877)
+fix(router): Fix cancellation code for canLoad rejections (#46752)
+build: Fix Angular CLI issue template link (#46756)
+test(core): update various tests to avoid referencing `TemplateFixture` (#46571)
+test(core): avoid `TemplateFixture` usages in LViewDebug spec (#46571)
+test(core): avoid `TemplateFixture` usages in i18n spec (#46571)
+test(core): convert view container TemplateFixture tests to TestBed (#46544)
+test(core): convert listener TemplateFixture tests to TestBed (#46517)
+test(core): convert listener TemplateFixture tests to TestBed (#46509)
+docs: fix base href haser tag (#46431) I add '>' end of header tag Fixes #46430
+fix(language-service): Fix detection of Angular for v14+ projects (#45998)
+fix(dev-infra): Fix pullapprove by commenting out the empty availability (#45846)
+fix(forms): Fix a typing bug in FormBuilder. (#45684)
+test(common): Fix flaky Location test (#45683)
+Fix typo (#45680) PR Close #45680
+docs: Fix several typos in the angular documentation (#45573)
+docs(router): Fix typo on segments (#45411)
+docs: Fix typo in issue template (#45327)
+test(animations): Fix flaky animations e2e test (#45196)
+fix(router): Fix type of Route.pathMatch to be more accurate (#45176)
+test(animations): Fix e2e intermittent failures (#45083)
+docs: Fixed typo 'test' => 'text' (#44464) PR Close #44464
+refactor(forms): Fix weak helper types in the Forms package, mostly `Function` types that can be strengthened to specific callbacks. This was originally proposed as part of Typed Forms, but it may be possible to submit at least some of these changes separately and unconditionally (i.e. without relying on `TypedOrUntyped`.) (#44370)
+docs(router): Fix incorrect name for url match options (#43268)
+docs: Fix a few typos (#43051)
+docs: Fix wrongly provided/Injected AnimalService (#42988)
+docs: Fix reference to SwUpdate.isEnabled boolean (#42634)
+docs: Fix syntax in interpolation example (#40554)
+fix(router): Fix occasional error when creating url tree in IE 11 and Edge (#40488)
+docs: Fix typo in Trusted Types documentation (#40433)
+docs: Fix compiler option name reference (#40362)
+docs(core): Fix spelling (#40296) PR Close #40296
+docs(router): Fix ActivationEnd link (#39469)
+docs: Fix typo in changelog (#39223)
+refactor(core): Change `TemplateFixture` to named parameters (#39233)
+fix(http): Fix error message when we call jsonp without importing HttpClientJsonpModule (#38756)
+fix(router): Fix arguments order for call to shouldReuseRoute (#26949)
+docs: Fix component decorator closing brackets (#38754) PR Close #38754
+docs(core): Fix typo in JSDoc for AbstractType<T> (#38541)
+docs: Fix typo in the inputs and outputs guide (#38524)
+docs: Fix link by removing a space (#38214) PR Close #38214
+docs(core): Fix incorrectly rendered code example in structural directives guide (#38207)
+docs(forms): Fix typos in template-driven forms tutorial (#37933)
+docs(core): Fixed typo in Type JSdoc (#37930)
+fix(router): Fix relative link generation from empty path components (#37446)
+docs: Fix typo in navigation.json (#36955)
+docs(elements): correct typo in custom elements image (#36090) Fixes #36050
+docs: Fix typo in template syntax (#35767)
+docs: Fix minor typos and coding styles (#35325)
+docs: replace from class hero to interface with accordance with # 344022 (#34294) Fixes #21186
+docs: Fix double 'as an' in description at line 2069 (#34373)
+docs: Fix links to Webpack docs (#34326)
+docs(changelog): Fixes typo in changelog (#33618)
+fix(compiler-cli): Fix typo $implict (#33633)
+docs: Fix appHighlightColor typo (#33331)
+docs(common): Fixes typo (#33003) PR Close #33003
+fix(language-service): Fix failing tests after merge (#32758)
+docs: fix typo in structural directive example (#32459) Fixes #32458
+docs: Fix typo in singleton-services.md page (#32330)
+test(language-service): Fix diagnostic tests (#32161)
+fix(compiler): Fix compiler crash due to isSkipSelf of null (#30075)
+build: Fix label name (#29777)
+refactor(core): Fix "explicit-query-timing" failure span. (#29792)
+fix(language-service): Fix completions for input/output with alias (#28904)
+refactor(bazel): Fix warning about overridden tsconfig options (#28674)
+build: Fix gulp format for Node >= 10.14 (#28213)
+fix(bazel): Fix integration test after v8 bump (#28194)
+docs: Fixed typo (#27669) PR Close #27669
+docs(common): Fix typo in KeyValuePipe docs (#27580) PR Close #27580
+docs: Fix wrong quoting in SSR guide (#27057) PR Close #27057
+docs: Fix links (#27027)
+fix(service-worker): Fix public api guard typing (#25860)
+docs: Fixes typo in FormArray (#26031) PR Close #26031
+fix(compiler): Fix look up of entryComponents in AOT Summaries (#24892)
+fix(router): Fix _lastPathIndex in deeply nested empty paths (#22394)
+build: Fix windows tests (#24927)
+fix(animations): Fix browser detection logic (#24188)
+fix(benchpress): Fix promise chain in chrome_driver_extension. (#23458)
+docs(forms): Fixed a typo in the reactive form (From 'address' to 'secretLairs') section (#23221)
+docs(aio): Fix failing upgrade-module tests (#23234)
+docs(aio): Fix failing boilerplate tests (#23234)
+docs(aio): Fixed typo in 'comparing observables -> Observabled compared (#23407) to arrays' section.
+test(ivy): add ComponentFixture for cleaner tests. (#22719)
+docs(aio): Fix name of component (#22332) PR Close #22332
+docs: Fix platform-detection example for Universal (#21796)
+fix(compiler-cli): Fix swallowed Error messages (#20846)
+docs(aio): Fix typo (#20732)
+fix(language-service): Fix crash when no script files are found (#20550)
+docs(aio): Fix typo in tutorial (#20295) PR Close #20295
+docs(aio): Fix typo in Architecture Overview. (#20073)
+fix(docs): Fix 404 on amcdnl image
+docs(aio): Fix incorrect wording
+fix(aio): Fix deploy to firebase script: should use < for string operations (#19005)
+ci(aio): Fix deploy to firebase scripts. (#18910)
+docs(aio) - Fixed link to the glossary dash-case term (#18311)
+docs(aio): Fixed typo with closing div
+docs(aio): Fix http guide
+docs: Fix code example in the ChangeDetectorRef docs (#18051)
+ci(aio): Fix the payload script only check for changes in aio/scripts
+docs: Fix Stack Overflow being repeatedly misspelt as a single word
+docs: Fix some non-code being formatted as code in the router docs
+docs(aio): Fix decorator JS feature explanation (#16214)
+docs(aio): Fix reference to the right example
+Fixed documentation reference to canActivate in canDeactivate (#14018)
+docs(http): Spelling Fix #13867
+Fix format
+Fix exit code. Give a specific type. Add test cases.
+Fix(http): invalidStateError response body
+docs(NgModule): Fixed docs for NgModule.entryComponents (#12006)
+Fix(http): invalidStateError if response body without content (#11786)
+fix(docs): Fixed wording for NgModule schemas (#11620)
+Fix benchpress for newest protractor and selenium (#11451)
+docs(TestBed): Fix to current packageing (#11472)
+docs(router): Fix typo of segment name and odd quote (#11409)
+docs(router): Fixed examples for router.navigate (#11263)
+refactor(tests): add ComponentFixture tests (#10910)
+docs(router): Fix mismatching of code and comment (#10791)
+chore: Fix typos in changelog for rc5 (#10688)
+Router Fixes (#10579)
+fix(testing): Fix error message in test bed
+fix(testing): ComponentFixture - Avoid extra scheduleMicrotask (#10223)
+fix(compiler): Fixed ?. operator to short-circut execution (#9965)
+build(gulp): Fix paths for public-api tasks on Windows (#9794)
+fix(core/testing): move ComponentFixture to core (#9386)
+docs(test_injector): Fix documentation typo (#9403)
+chore(docs): Fixed pre-commit command for clang-format
+fix(Router) Fix detect active route in depth.
+(docs) Fix pony greeting equivalence
+fix(docs): Fix a missing opening bracket (#8331)
+fix(build): Fix an error in package publishing step where the script errors when a UMD bundle is not found for compiler-cli package.
+fix(build): Fix broken e2e test Travis task by running the right variation of sed on Travis
+fix(testing): Check for pending macrotasks in ComponentFixture.whenStable() and ComponentFixture.isStable()
+refactor(core): type `ComponentRef`, `ComponentFactory` and `ComponentFixture` by the component type
+chore(CHANGELOG): Fix breaking changes description
+fix(release): Fix the package.json zone.js requirement to 0.6.12
+fix(WebWorker): Fix textarea value not being sent to the worker
+Fixed typo in documentation Closes #7943
+chore(build): Fix errors reported using 1.9.
+Fix DDC errors
+fix(WebWorker): Fix PostMessageBusSink and Source undefined error.
+fix(dart/payload): Fix runtime error in hello_world payload app
+docs(http.ts): Fix MockBackend examples using backend.connections observer
+fix(WebWorkers): Fix flaky WebWorker test
+docs: Fix small formatting issue in changeling
+fix(template_compiler): Fix erroneous cycle detection
+fix(dart/reflection): Fix `NoReflectionCapabilities` interface
+feat(testing): export useful properties from componentFixture
+fix(http): Fix all requests defaulting to Get
+fix(transformers): Fix @Input/@Output annotations with setters/getters
+docs(form): Fix typos of indent Closes #5159
+chore(test): rename RootTestComponent to ComponentFixture
+fix(WebWorker): Fix bug causing multi browser demo to crash
+typo(directives): Fixed the mistake of leading number
+Fix changelog before\after sample
+refactor(dart/transform): Fix potential import collision
+fix(core): Fix typo
+fix(dart/transform): Fix issue with deferred in .ng_deps
+fix(build): Fix serve.js.dev to build bundles
+fix(dart/transform): Fix transformer output declaration
+docs: Fix broken link to download angular page
+Fixes typo 'partialy' -> 'partially'
+docs(WebWorker): Fix typos in WebWorker docs
+fix(WebWorker): Fix Todo Server demo and add test to ensure the demo can bootstrap.
+chore(gulpfile.js): Fix some hint issues in gulpfile.js
+fix(core): Fix type error
+chore(build): Fix flaky builds caused by doc generation.
+chore(build): Fix test.unit.dart and test.unit.dartvm transformer load errors
+fix(docs) Fixes typo in ProtoViewRef class
+docs(dgeni): Fix an extra newline in the markdown for type.
+docs(fix-docgen): Fix docgen issues with some recent updates to core
+fix(compiler): Allow components to use any style of selector. Fixes #1602
+docs(fix-docgen): Fix docgen issues with some recent updates to core
+docs(link): Fix the link to an enum for ViewEncapsulation
+fix(testing): Fixed race condition in WebWorker and Routing tests
+fix(decorators): stop directives inheriting parent class decorators. Fixes #2291
+fix(transformer): Fix generation of `annotations` argument when registering functions.
+chore(build): Fix .d.ts generation errors caused by invisible types of exported declarations
+fix(transformer): Fix string interpolation for bindings.
+fix(change detectors): Fix deduping of protos in transformed dart mode.
+fix(transformer): Fix annotation_matcher for NgForm directive.
+fix(docs): Fix docs for Directive.compileChildren
+fix(dynamic_component_loader): Fix for ts2dart issue
+fix(change detect): Fix bug in JIT change detectors
+fix(src/reflection && src/test_lib): Fixes bugs that caused benchmarks to fail.
+chore(dart/change_detect): Fix test.unit.dart gulp target
+fix(dart/transform): Fix DirectiveMetadata read tests
+fix(facade): Fix bug in TS indexOf
+style(change detect): Fix typo unitialized => uninitialized
+Fix documentation for toFactory and toAsyncFactory
+Fixed example for EventEmitter
+chore: Fix missing analysis for lib and web directories
+fix: Fix issues found by Dart analyzer
+feat(dart/transform): Fix handling of Dart keywords
+fix(traceur): Fix a couple of unsupported or incorrect tests.
+docs(02_directives.md): Fixes variable name for visibility in Components example
+Fix which dependency is injected w/ current elem.
+fix(examples): Fix type registration in hello_world
+docs(12_zones.md): Fix typos and inconsistent capitalization
+docs(di): Fix typos, add some clarification.
+chore: Fixing review comments on Dart transformers
+feat(compiler): make directive bindings optional. Fixes #647
+Fixed small typo in example

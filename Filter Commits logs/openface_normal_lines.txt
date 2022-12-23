@@ -1,0 +1,628 @@
+Remove usage of deprecated mozilla api
+Add dlib-models to licenses.
+Update openface-demo.js
+fix typo in acknowledgements section
+Set autoplay to muted so it works consistently.
+Update classifier.py
+Mention inconsistencies between the pre-trained models and the model definitions for #351 and #349
+Added bounding box drawing to video capture
+Add example of how to call the script to generate an annotated image
+Bugfix on external class reference
+Init stalebot.
+add packages for 'Demo 1: Real-Time Web' to work
+Add installation instructions for installation with conda
+Docker config changes supporting TLS (part 2). This fixes an issue with pip and some of the dependent libraries.
+Tls cert bugfix (#262)
+TLS migration for demos/web (#260)
+Update opencv-dlib-torch.Dockerfile (#241)
+Tests: Generalize to Python 2 and 3. Run Python 2 by default.
+Make OpenFace work with Python 3 (#231)
+nit(README): use svg for travis status (#254)
+Update README tags for CommonMark.
+Use https for the model downloads.
+Travis: Update models download link.
+Update links to our models.
+get-models: Use no-check-cert for our self-hosted models.
+Travis: Use trusty dist.
+Travis: Remove flake, pep, and luacheck.
+Torch Neural Net: Add deconstructor back.
+Replace destructor with context manager (#223)
+Add @BrandonJoffe's home_surveillance project to our homepage.
+Add docs to torch_neural_net.__del__
+Add destructor to torch_neural_net for #194
+Revert "Update tests to use numpy.testing"
+Update tests to use numpy.testing
+Added --multi option to infer operation to show a list of faces detected (#189)
+Added further extension variation acceptance and made extensions properly case insensitive (#188)
+Update sphere demo page.
+webcam -> camera
+Bump date.
+Remove unused code.
+Add sphere demo docs.
+Add sphere demo gif.
+sphere demo: Add link to model download.
+Split exhibit images.
+cls-3d -> sphere
+Add data (after)lives poster.
+Update exhibits.png
+Add sphere demo images.
+cls-3d: Bump alpha up. Add text.
+Initial commit with the rest of cls-3d.py
+Initial commit of projectS and projectC to cls-3d.py
+Update ISSUE_TEMPLATE.md
+Image loading: Use 'float' instead of an undefined variable.
+Update faq.
+Update link to post.
+Update website.
+Updated to work with new openface api (#177)
+Update classifier.py (#176)
+Update data.py (#174)
+ms-celeb-1m: Use MID for directory, imgSearchRank+faceID for name.
+Add comment.
+Remove comment from copied header.
+ms-celeb-1m: Remove magic dependency from extraction script.
+ms-celeb-1m: Add data extraction script for #170
+Docs: Mention classifier_webcam and unknown person detection.
+Unknown people benchmarking with lfw dataset. (#171)
+Mention ASCII models in the FAQ.
+Reference @davidsandberg's FaceNet TensorFlow implementation on our website.
+Link to @ageitgey's blog post on our website.
+Add torch_neural_net.lutorpy by Vitalius Parubochyi
+Dockerfile: Link Torch binaries to /usr/local/bin for #166.
+Remove unnecessary import.
+Remove --version 2 from tests.
+Remove align_v2.
+dataset.lua: Comment out unused torch.linspace.
+Use torch.range instead of torch.linspace because of rounding issues.
+Bump dlib to 19.0 in Dockerfiles.
+Rebase TripletEmbedding to get speedup at forward pass
+Improve LFW --lfwPairs error message.
+Add torch.setnumthreads(1) to openface_server.
+Added Multi-GPU support #106
+Correct formating by autopep8
+Updated web/vendor deps
+SpeedUP LFW test
+Training: Correct space after device param when testing.
+Training: Pass device option to batch-represent.
+batch-represent: Add device option.
+Add commented Avg to resnet definition.
+Initial resnet model definition.
+Training: Model: Use opt.imgDim.
+Update citation to our tech report.
+Training: Improve -data description.
+Training: Add cuda device option.
+Actually fix nans from #127. Error if they appear.
+Training Tests: Specify -save.
+Training: Only convert to cuda in cuda mode.
+Resolve nan issues for #127 (hopefully)
+Training: Update plot-loss to new directory structure.
+Training: Add -save option. Default to a timestamp instead of numbers.
+align_dlib: Add returns.
+Formatting.
+Add align_dlib.align for backwards compatibility.
+Initial commit of VGG model definitions.
+Disable cudnn by default for #127. Add warning.
+Temporarily remove optimize_net for #127.
+Update website to align_v1.
+Add numpy.linalg as a mock module for API docs.
+Added align dlib v2
+Correct inception tower sizes for #142.
+Training: Use ADAM instead of adadelta.
+Update SP.
+Update SP.
+Bump scikit-learn requirements for #137.
+Bump Dockerfile dependency for TDS for #132.
+Revert dataset.lua for #132.
+Add new TDS dependency to docs.
+Add new TDS dependency to the Dockerfile.
+Remove unused variables/functions to fix luacheck warnings.
+Add @aaronnech's dataset.lua improvements for #132.
+Docker: Bump dependency version. Remove src.
+Remove OpenCV and dlib source files for #133.
+Add building/pushing comment to opencv-dlib-torch.
+Added ability to skip images with more than one face; fixed threshold type
+Mention optnet is optional and only for DNN training.
+Update setup.md
+Website: Mention the parameter counts don't include batch normalization means and variances for #125.
+Docs: Mention LFW overlapping name removal.
+Bump matplotlib dependency for 'style'.
+Model: Use opt.imgDim for retraining
+Add LDA option to the classifier.
+Load util before model for optimizeNet
+Correct OpenCV link.
+Added check if 'optnet' package is installed
+X->NAME
+Change variable to local
+Added optnet for reducing memory consumption
+Add remove-lfw-names for #116.
+Add luarocks install command.
+Torch dependencies: List cutorch.
+opencv-dlib-torch.Dockerfile: Add gm lib for Torch.
+Dockerfile: Pull from the latest torch_2016.03.19 image.
+opencv-dlib-torch.Dockerfile: Add software-properties-common for apt-add-repository.
+Training: Pass imgDim to batchRepresent. Add lfwDir option.
+cls->clf
+Add GMM option to the classification demo.
+Classification Demo: Output where classifier is saved to.
+Training Plotting code: Add minor gridlines.
+Replace satitize by clearState()
+TSNE: Update colorscheme.
+batch-represent: Handle edge case when a batch contains 1 image.
+Replace nn_to_cudnn by cudnn.convert #106
+Training: Sample from all of a person's images.
+openface_server error message: Add bash login shell note for #105.
+Update classification results with OpenBLAS.
+Python library: Import everything in the root openface module.
+Docs: Reference prune-dataset after align-dlib.
+lfw-classification: Update LFW path.
+Replace nn_to_cudnn by cudnn.convert #106
+Dockerfile: Update default CMD to use a Bash login shell.
+Docs: Improve web demo Docker command.
+docs: Add OpenBLAS execution times.
+Docs: Add GenBeta link.
+demos/vis-outputs: Add aligned example images, fix image.load usage, and output where the images are being saved to
+Web demo: bower: Update metadata.
+Update badges in README.
+Training plot-loss.py: Improve triplet loss plot bounds.
+DNN Training: Halve default epochSize.
+plot-loss: Import sys.
+Update docs on training a DNN.
+DNN Training: Plot LFW accuracies for #100.
+Update description of pyannote-video
+NN Training: Add LFW validation for #100.
+Training: Zero pad experiment work directory numbers.
+Docs: Remove broken link.
+VGG Download: Use all images, timeout URL requests.
+VGG Dataset Script: Remove unused import.
+Add git exception for download-lfw-subset.
+VGG Dataset Script: Add header and except to gitignore.
+Add VGG dataset download and align script.
+align-dlib: Remove outdated argument.
+Training: Remove test code from data loader.
+Remove -testEpochSize from the training unit test.
+Move old test code to attic for #99.
+detect-outliers: Add --delete option.
+align-dlib: Add verbose option.
+Website: Link to related projects and articles.
+Bump version to 0.2.1
+Update acknowledgements.
+Tests: Make lfwSubset assertions more informative.
+Acknowledge great issue and PR templates from @rhiever, @justinabrahms, and @auremoser
+Add a PR template and improve the issue template.
+Classification demo: Use a linear SVM with C=1 instead of grid search.
+Add ISSUE_TEMPLATE.
+lfw-classification: Add largeFont option.
+Docs: Link to @cowbjt's web demo fork
+Update CONTRIBUTING.md
+Add outlier detection util script.
+Remove stderr output.
+Add CONTRIBUTING.md
+lfw-classification: Just use a linear SVM instead of grid search.
+Update LFW plots.
+Add LFW classification experiment.
+nn4.small2.def: Comment out reshapes.
+Add print-network-table
+get-models: Change == to = to resolve #92
+websocket server: Use store_true for --cuda.
+lfw: classify->verify
+Disable stderr piping in Torch subprocess for #87
+Update copyright statement to include all models.
+README: Add example directory structure.
+align-dlib: Remove outdated sys.path modification.
+TorchNeuralNet: Improve error message when the subprocess dies.
+Remove comment from openface_server.lua.
+setup.py: Bump version.
+Docs: Add news.
+Add more details to start-servers.sh
+Docs: Phrasing.
+Docs: Update index.
+docs: Correct lfw command.
+Update illegal instruction error note.
+Update illegal instruction error note.
+Docs: FAQ: Add illegal instruction error.
+Correct link to LICENSE.
+Bump release in README.
+Remove test command from Docker example since it requires other dependencies.
+Docs: Update faq.
+Add 0.2.0 release notes.
+Docs: Add performance to faq.
+Docs: Update value.
+Setup Docs: Update commands.
+Training Docs: Remove discrepancies that are no longer valid.
+train.lua: Pass on comments.
+Add profile-pipeline.
+Improve docs.
+Docs: innerEyesAndBottomLip -> outerEyesAndNose
+LFW: Improve error message for missing pairs.txt
+LFW: Improve docs for pairs.txt
+docs: Mention OSX findutils and coreutils dependencies.
+Typo.
+Update copyright notices.
+Add note about building in an OSX Docker machine.
+Minor changes to docs and README.
+Tests: Tweak training params.
+Training: Skip battch if nTripsFound == 0.
+Docs: Update model LFW accuracies.
+opencv-dlib-torch: Add torchx.
+Update LFW results.
+Add cuda conditionals to test.lua.
+sanitize: Remove unused imports.
+batch-represent tests: Reduce precision by adding atol to np.isclose.
+batch-represent tests: Reduce precision.
+Training: Remove unused 'fbnn' import.
+batch-represent: Remove unused functions.
+Update API test to latest model.
+Formatting.
+Change page location (sorry for 404s)
+Docs: Add links to models and add performance measurements.
+Use nn4.small2.v1 by default.
+Dockerfile: Remove sklearn.
+Finish moving content into new Dockerfile.
+Add nn4.small LFW results.
+Change lfw interface.
+Remove unused fbnn dependency.
+Add blank line.
+Add opencv-dlib-torch.Dockerfile
+Tests: Add more debug output for failed tests.
+API Tests: Remove image norms.
+Tests: Disable rgb check.
+NN Tests: Use workDir for aligned images.
+Tests: Use tmp directory when writing to disk.
+Add checks for 'None' to resolve #25.
+Add two nn4.small definitions.
+lfw-subset: Wget: Use -nv.
+Travis: Wget: Use -nv.
+Travis: Source torch-active so 'th' is on the path for tests.
+Dockerfile: Use ./luarocks since sourcing in a Dockerfile doesn't work.
+Finish tensor size checks for #36.
+Training: OpenFaceOptim: Correct Tensor type.
+Move imgDim to models.
+Dockerfile: Source torch-active for luarocks.
+get-models.sh: Correct note about network traffic.
+Set executable bit on run-tests.sh.
+get-models: wget: Use -nv.
+Tests: Add neural network training tests for #13.
+Training: Add conditionals for cuda portions.
+Training: Add CPU execution for tests.
+Docker: Move Python dependencies to Ubuntu package binaries.
+Add download-lfw-subset script.
+Add batch-represent test for #13.
+Dockerfile: Remove pip install numpy
+Move tests to separate directory.
+Add test for SVM classifier training.
+Dockerfile: Install nose from apt-get.
+Requirements: Add ranges.
+Code Citation: Add @melgor.
+Web Demo: Use outer eyes and nose.
+batch-represent: Add cache option.
+lfw: Output accuracy.
+Training: Use e-lab's torch-toolbox sanitize.
+Attempt to shorten Docker build with pre-built Python libs.
+Training: Output the number of model parameters.
+DNN Models: Add parameters as comment and use opt.embSize
+nn4 def: Don't validate shape by default.
+Training: By default use an epoch size of 500.
+docs: Update title.
+Correct nn4.v2 md5sum.
+Update code to nn4.v2 for #55.
+Rename nn4.v1 LFW experiment.
+api-docs: Add SnowPlow tracker.
+OpenFace Model: Use torch/nn's SpatialCrossMapLRN.
+Update lfw-latest.sh.
+docs: Mention that no validation images can be used.
+Add @melgor's training improvements for #55
+Remove SnowPlow tracker (not clear how to use with ReadTheDocs).
+Add SnowPlow tracker.
+Update websocket-server to latest API.
+docs: Add OpenFace/FaceNet discrepancies from @melgor.
+Typo.
+Docs: Update TorchNeuralNet signature.
+Travis: Install pep257.
+Docs: Update usage example.
+Docs: Update usage example.
+Travis: Run pep257 to check docstrings.
+Finish API changes and inline Python docs for #73.
+Refactor Python interface.
+api-docs: Add mock dlib module.
+nn2.def: Add normalization.
+nn4.def: Add reasoning behind LRN layers.
+Training: Add script to run lfw evaluation on the latest model.
+docs: Add warning about running the web demo on remote servers or Docker.
+Travis: Add luacheck.
+Add usage instructions to test.py
+Add script for crontab to email broken links.
+Add util script to check for broken links.
+Correct links to API docs.
+Link to the API documentation.
+mkdocs: Link to API documentation.
+API Docs: Name
+Correct mock import.
+Add mock to api-doc requirements.
+Add blank requirements.txt for api docs.
+Initial commit of Sphinx API docs.
+Travis: Move docker commands.
+Travis: Use flake8.
+flake8 improvements.
+Convert back to BGR for OpenCV write.
+Classifier Demo: Take multiple images on input.
+Improve web demo docs.
+Web demo: Assume the HTTP and WebSocket servers are the same so the web demo works in Docker without any modifications.
+Dockerfile: Make the default command start the web demo.
+Travis: Attempt #2 to break long line.
+Travis: Break long line.
+Travis: Use a Bash login shell for Torch executables.
+Add Docker automated build docs for #35.
+Travis: Try to fix error by using a single line.
+Travis: Pull pre-built Dockerfile.
+Setup Docs: Reference tests. Correct web demo command.
+Travis: Correct nosetests command.
+Travis: Move docker tests to before_install.
+Travis: Correct test command.
+Install numpy before building OpenCV.
+Dockerfile: Correct ADD and continuation lines.
+Travis: Correct path to Dockerfile.
+Travis: Remove nosetests.
+Docs: Update docker command to root-based version.
+Travis: Run tests in Docker image.
+Requirements: Add nose.
+tests: Use full paths.
+Docker: Move back to root for context. Use context for Docker build.
+Initial commit of tests for #13.
+Install numpy before other pip dependencies.
+Remove unused skimage dependency.
+Demos: Remove sys.path appends and unused dlib imports.
+System-wide install of dlib and OpenFace.
+setup.py: Correct url.
+Improvements to create-train-val-split.
+nn4: Add LRN and remove 5x5 convolutions for #55.
+Docs: Remove typo.
+Real-Time Web Demo: Simplify server initialization.
+Web demo: server.py -> websocket-server.py
+Explictly set txaio.use_twisted.
+Add port option to server.
+Mention Python dependencies for training.
+Link to cunn.
+Remove unused cudnn dependency.
+Link to NVIDIA cuDNN.
+Correct cudnn package name.
+Add hack for CentOS support for #66.
+Add timing information to classifier.py
+tsne: Print where file is saved to.
+align-dlib: Check if image was correctly loaded.
+Formatting.
+Update docs with new align-dlib interface.
+Untested improvements to create-unknown-vectors.
+Update server for the slightly modified alignment API.
+Update demos with results from the new models.
+Add annotate-image util.
+Update LFW results with changes from #50.
+Mention fblualib dependency in docs.
+Correct names for #50.
+Update align-dlib with new alignment code for #50.
+Update align-dlib with new alignment code for #50.
+Remove skimage dependency for #50.
+Alignment improvements for #50.
+Docs: faq: Formatting.
+Add improved alignment code for #50. Accuracy not yet tested.
+Docs: Initial commit of FAQ.
+Move repo contents from docs to README.
+Docs: Link to accuracy page.
+Classifier demo: Check the mode before checking classifierModel.
+Docs: Setup: Add note about Docker memory.
+Docs: Update links to other projects in 'accuracy'
+docs: Remove semicolon from for loop for bash
+Improve web demo docs.
+solve the memory leak problem of web-demo
+Automatically switch video feeds.
+Web Demo: Show fiducial points and use tabs instead of scolling.
+Add better error handling when the Torch model is passed as the classification model.
+Clarify training procedure.
+Docs: Tweak setup.
+forwardImage: Check that the input is not None.
+Add non-default test code using hard negatives.
+Add link to deep funnelling.
+Mention research support in the README and docs.
+Add more Torch dependencies to the docs and Dockerfile for completeness.
+Minor doc tweaks.
+Update citation information.
+Improve tsne example docs.
+Docs: Mention batch-represent with the classification demo.
+Docs: Better distinguish between DNN and classification models.
+Add note to training new models.
+Docs: Add note about only testing the web demo in Chrome/OSX.
+Make suggestion 1 the default option. #48.
+Docs: Training: Add note about GPU memory.
+batch-represent: Set the default tensor type.
+Docs: Mention how to restart training.
+Training: Suggestion 2 from @melgor in #48.
+Training: Handle peoplePerBatch > nClasses edge case when nDonkey != -1.
+Docs: Phrasing.
+Training: Add note metadata caches.
+Train: Detect and correct edge case when peoplePerBatch > number of classes.
+Mention #42 in the setup guide.
+Improve web demo docs.
+Formatting.
+Remove CNAME.
+Use mkdocs theme for better mobile support.
+mkdocs: Correct js->javascript.
+Docs: Add analytics.
+Doc and README tweaks.
+Docs: Add CNAME.
+Ignore mkdocs' site dir.
+Update docs.
+Improve web demo docs.
+Remove follow badge.
+Web Demo: Use a non-interactive backend.
+Docs: Attempt to fix images.
+Formatting.
+Add doc badge and fix link for #29.
+Initial commit of mkdocs for #29.
+Add notes about running the web demo in Docker.
+Print to the browser's console on websocket error.
+Expose port 9000 from the docker container.
+Correct calls to image.load
+Improve documentation on using Docker with the web demo.
+linting errors, try #2
+linting errors
+fix torch error reporting
+setup.py
+Mention CUDA dependency in the training code for #41.
+Check Lua subprocess before trying to interact with it.
+Update Dockerfile reference to docker/Dockerfile
+Move Dockerfile to an empty folder Clear apt cache and tmp files after package installation via apt
+README: Recommend Docker and add note about python on OSX.
+Training: Update for_each call to apply.
+Training: Remove fbnn's Optim dependency.
+README: Clarify loss plot.
+Add VGG's triplet accuracy.
+README: Typo.
+README: Typo.
+README: Formatting.
+Tweak references to other open source projects for #7.
+Reference other open source projects for #7.
+Make debugging the Torch subprocess easier for #34.
+Use a better placeholder to prevent issues like #27
+Correct call to image.load for #26.
+Add a few setup notes to the README.
+Clarify ~/src for #27.
+Add gitter badge.
+Clarify structure of the raw data directory for #22.
+Add note to the README about opencv/dlib on OSX for #21.
+README: Add pandas python dependency.
+Demo: Show that the connection is local.
+Make dlib paths consistent.
+Don't ignore sigint
+Indicate network and disk sizes in the README and get-models.sh
+Improve get-models.sh
+Link to get-models.sh
+README: Mention to verify the md5 checksums of the models
+README: Slightly clarify for #19.
+Add error handling to TorchWrap for cases like #14.
+Further clarifications for #10.
+Update DOI and BibTeX entry for new (minor) release.
+Update badges in README.
+Update badges in README.
+Update CHANGELOG for 0.1.1
+Update badges in README.
+Correct nn1 to nn2.
+Further clarifications for #10.
+Further clarifications for #10.
+Resolves #10.
+README: Clarify instructions for the web demo.
+README: Improve the instructions for setting up the web demo.
+README: Link to Torch's website in the introduction.
+Add script to prune directories for training.
+README: Clarify that the classifier doesn't know John Lennon.
+Tweak README.
+Update runtimes with optimized nn.Normalize
+profile-network: Default to 500 iterations.
+README: Update stale values to values from the released model.
+Dockerfile: Include pandas.
+Update README.
+Update cloc.sh
+README: Formatting.
+README: Formatting.
+Add DOI for citations.
+Add CHANGELOG.md
+Add Travis badge.
+Small pep8 fixes.
+Add simple .travis.yml for pep8 checks.
+Small pep8 fixes.
+README: Add 'Visualizing layer outputs'
+Update align-dlib to new interface.
+Add vis-outputs demo.
+Add filter outputs of Lennon.
+Update README.
+Reorganize sections in the README.
+README: Add extra digit to AUC for consistency.
+Update LFW ROC plot.
+LFW: AUC: Use 3 digits.
+LFW: Make reference line dotted. Slight alpha on DeepFace line.
+Tweak README and get-models.
+Update README.
+README: Formatting.
+README: Formatting.
+Tweak classifier.py interface and show usage in the README.
+Tweak README.
+Update link to YouTube video.
+Update link to YouTube video.
+Add classification demo.
+Add simple Torch network profiling script.
+Add paths to completed models.
+Link to dlib's object tracker.
+README: Add note about the model.
+Complete draft of README.
+lfw experiment: Add argument for the pairs.txt location.
+Ignore mp4 videos.
+Refactor: facenet->openface.
+Training: plot-loss: Show last few values.
+README: Tweak build instructions.
+compare.py: Bump dlib version.
+Dockerfile: Initial commit.
+Workaround solution for #5: Only use the largest face in the video.
+Web demo: Correctly display name.
+Web demo: Don't train SVM if there is only one person.
+README: Add performance notes.
+Tweak README.
+TorchWrap: Use a random hex string in the temporary filename.
+Web demo: Make the 'unknown' class optional.
+Add command-line opts to the web demo.
+Training: Plot: Set alpha on the test loss since it overlaps the train loss.
+README: Move sections. Add screenshot and link to YouTube video.
+Pass on README.
+Add cloc script.
+TorchWrap: Add simple function to write image to disk.
+Comparison demo: Use all combinations of images.
+Add example images of Lennon and Clapton.
+Add t-SNE script.
+Add tsne plots.
+Training: Loss: log-scale y axis.
+LFW: Show AUC.
+Add OpenBR v1.1.0 data.
+Remove NaN values from eigenfaces data.
+README: typo.
+Refactor: examples->demos.
+Refactor: examples->demos.
+Tweak README.
+README: Add note. Draft of manual build instructions.
+Add file comparison example.
+Lua Server: Use model in evaluation mode.
+Python: naive_dlib: Take full paths on input.
+Python library: Kill Lua subprocess on exit.
+LFW: Use 4 decimals. Rename our model.
+Batch Represent: Remove unnecessary CUDA dependency.
+LFW experiment: Show avg and stdev of accuracies.
+Fully implement the LFW experiment.
+TorchWrap/Server: Add comments linking to issues.
+TorchWrap: Load model relative to file location. Remove unused parameter.
+Web Demo: Use grid to train SVM. Disable training mode by default.
+Pass on README.
+gitignore: Web example files.
+Initial commit of web demo.
+TorchWrap: Add note.
+Python: Return the vector rather than printing it.
+Add LICENSE headers.
+Initial commit of hacky Python->Lua interfacing.
+Initial commit of Python alignment portions.
+Models: Add license heading.
+Update summary image.
+Initial commit of stubbed README.
+gitignore: Large model files.
+Add FaceNet model definitions.
+Add small dlib mean and std models.
+Add dlib landmark mean image.
+Add get-models script.
+lfw roc: Make sure every representation exists.
+Evaluation: lfw-roc: Add license heading.
+gitignore: Representation directories.
+Evaluation: LFW: Add ROC generation script.
+Evaluation: Initial commit of openbr.DET.
+gitignore: Plots and data.
+Initial commit of loss plotting code from development repo.
+Initial commit of training code from development repo.
+Add LICENSE.
+gitignore: work dirs.
+batch-represent: Correctly size images.
+Add batch representation code.
+Add summary image.
+Add torch-TripletEmbedding submodule.

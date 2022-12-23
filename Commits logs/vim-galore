@@ -1,0 +1,387 @@
+PLUGINS: add a few more recent colorschemes
+Improve "cnoremap <c-n>" mapping
+Use publisher site instead of Amazon for Practical Vim
+PLUGINS: add more LSP plugins
+PLUGINS: add coc.nvim (#147)
+Remove Travis CI
+Minimal vimrc: fix link for temporary files (#156)
+README: typo (#157)
+README: typo (#158)
+Use Code of Conduct 2.0 (#160)
+Easter egg: :hi!
+Add Vietnamese Translation (#159)
+CI: go 1.10 -> 1.13
+PLUGINS: add vim-crates for Rust
+Profiling: add example for :prof during startup
+Cheatsheets: remove obsolete link (#145)
+Autocmds: use less technical wording
+PLUGINS: add Rust plugins
+Plugins: add new section for database plugins
+Terminology: Vim script? Vimscript? VimL?
+PLUGINS: add LeaderF to fuzzy finders
+PLUGINS: add vim-twiggy
+PLUGINS: add vim-rtags
+Add :TOhtml to misc section
+PLUGINS: add vim-jsx to JS plugins
+PLUGINS: add writing plugins (#142)
+README: add Derek Wyatt's screencasts
+README: reword standard plugins section
+README: add mappings for saner behavior of and N (#137)
+README: limit to 80 characters
+CI: go 1.8 -> 1.10
+Tips: Go to other end of selected text
+Simplify translation links
+New translation! 🎉 Russian!
+Typo: count -> range
+Prefer vimhelp.appspot.com
+README: wording
+Fix internal persistent undo link
+Tips: make "cosmetic changes for colorschemes" clearer
+Fix list of colorschemes link
+Ranges: :write/:global are not the only cmds acting on all lines
+Plugins: add yats.vim
+Plugins: add apprentice colorscheme
+Plugins: add PHP section
+Plugins: add nofrils colorscheme
+Plugins: add solarized8 colorscheme
+Plugins: mention Colortemplate as a colorscheme generator
+Plugins: add suggested plugins
+Plugin: add a few suggested ones
+Plugins: remove duplicate entry
+README: remove obsolete link
+Plugins: add vader.vim and vim-themis
+Plugins: add vim-test
+Plugins: add vim-flow
+Usage: add checklist for true colors
+Usage: explain the use of true colors with tmux
+Usage: add section for true colors
+persons -> people
+Quickfix: add remark about closed qf/loc windows and commands
+Rewrite the quickfix section
+CONTRIBUTING: remark about adding plugins
+Plugins: add Elixir plugin vim-mix-format
+Plugins: add paramount colorscheme
+Plugins: add is.vim
+Plugins: add plugin manager apt-vim
+Plugins: add vim-cpp-enhanced-highlight
+Typo: Github -> GitHub
+Chore: Fix typo
+Plugins: add reference to themer
+Plugins: sort lists case insensitively
+Plugins: add asyncomplete.vim
+Plugins: add oceanic-next colorscheme
+Plugins: add vim-prettier
+Plugins: add vim-diff-enhanced
+Plugins: add minpac plugin manager
+Move plugin managers to PLUGINS.md
+Plugins: add plugin managers
+Plugins: mention fzf.vim besides fzf
+Plugins: add vim-fz
+Plugins: add vim-auto-programming
+Move colorschemes to PLUGINS.md
+Plugins: add alchemist.vim
+Plugins: add Elixir section
+Plugins: move HTML section below Go
+Plugins: add more VimL plugins
+Use inline code
+Add CONTRIBUTING.md
+Add CoC
+Add LICENSE.txt
+Resources: add wincent's screencasts
+Rewrite last-position-jump section
+Plugins: add more Go plugins
+Rewrite backup section
+Temporary files: rewrite entire section
+CI: fix gomali issues
+OSX -> macOS
+contents/ -> static/
+contents/plugins.md -> PLUGINS.md
+Use CC BY-SA 4.0
+Remove LICENSE file
+Plugins: use full names
+Plugins: add Go section
+CI: bump Go version to 1.8
+Commands: add execute() to :redir section
+Reduce logo size by 55%
+Less colors for badges
+Remove useless badges
+Smaller and centered logo
+Add badge for Chinese translation!
+Change Markdown according to recent GitHub changes
+Format correct url for committia
+Fix Vim scripting link
+Remove out of place 'Standard Plugins'
+Autocmd: fix typo
+Add link to Portuguese translation
+Fix vimrc link
+Rename help leaders
+Header: make logo more prominent
+Header: remove my shameless advertising
+Commands: mention :vglobal
+README: remove question marks from links
+MatchIt: add :packadd for Vim 8
+Dist: reword section
+Dist: add spacevim
+Plugins: add completor and mucomplete
+Plugins: add denite
+Plugins: add vim-move
+Plugins: clean up "grep" section
+README: replace neobundle by dein
+README: use link reference for my vimrc
+Update README.md
+Plugins: add vim-fixkey
+Plugins: add indent plugins and vitality
+Plugins: add a bunch
+Plugins: add yajs
+Plugins: add committia to VCS plugins
+Fix .vimrc link
+Add deoplete to plugins.md
+Plugins: typo
+Plugins: add "Building and linting" section
+Misc: add caps2esc
+Reword the true colors section a bit
+True colors support info
+Typo
+Add "Technical quirks" section
+Common problems: function search undo
+Remove CONTRIBUTING
+Add badge for Japanese translation
+Rename paths
+Wording
+Add help tags for autcmds
+Add subsections to ToC
+Bigger headings for better separation
+Usage: new section: autocmds in practice
+Grammar
+Debug: add note about -V option
+Debug: move up Verbosity section
+Plugins: add vim-grammarous
+Grammar
+Remove Neovim section
+Keep calm: ! -> .
+Shorter self-promotion line
+Remove MIT license badge
+Neovim: fix sample command line
+Remove CHANGELOG.md
+Plugins: add impsort.vim
+Typo
+Join related lines
+Tips: cosmetic changes to colorschemes
+Colorscheme: add zenburn
+Cheatsheet: vim-cheat40 plugin
+Autocmds: Remove gendered language
+Travis: check all Markdown files
+README: add license and build status badges
+Fix Markdown formatting
+Add .travis.yml
+README: update header
+Sessions: improve section
+Cscope: only supports C, C++, Java
+Usage: cscope
+Plugins: add nerdtree-git-plugin
+Plugins: add vimagit
+Plugins: add Python section
+Plugins: add agit
+Colorschemes: add yowish
+Colorschemes: add acme-colors
+Typo
+Plugins: add javacomplete2
+Plugins: add C/C++ plugins
+Plugins: update Clojure plugins
+Plugins: add Clojure
+Plugins: add VimComplesMe
+Macro editor: insert <c-r> literally
+Typo
+General tips: small remark about using :verb
+Release 1.2
+Neovim: additional resources
+Commands: :global
+Commands: :normal and :execute
+Basics: argument list
+Neovim: add missing mkdir to configuration
+Neovim: change cursor style dependent on mode
+Neovim: :h nvim
+Neovim: "vimrc"
+Neovim: share config between Vim and Neovim
+Neovim: configuration
+Neovim: add new stuff to :terminal
+Neovim: :terminal
+Plugins: add targets.vim
+Plugins: add vimtex
+README: add awesome badge
+What Vim?: add has-patch help
+Plugins: add github-issues
+Tips: make [<space> and ]<space> take count
+Plugins: add HTML and Javascript
+Plugins: add Lua plugins
+Plugins: add online-thesaurus
+Move plugins ToC to content/plugins.md
+README: change header
+Misc: Map CapsLock to Control
+Plugins: add devicons
+Misc: standard plugins
+Plugins: add indentLine
+Intro: minimal vimrc
+Add content/minimal-vimrc
+Mappings: add related help
+Intro: The Vim Philosophy
+Text objects: add mnemonics
+Filters: :r! vs !!
+Usage: running external programs and using filters
+Mappings: improve description
+README: use "vim" for code blocks rather than "viml"
+Typo
+Resources: fix Amazon link
+Typo
+Typo
+Typo
+Usage: handling backup, swap, undo, and viminfo files
+Plugins: add NrrwRgn and diminactive
+Move "List of Plugins" to content/plugins.md
+pics/ -> media/
+Usage: getting help offline (alternative)
+Completion: stress to use mappings in insert mode
+Basics: undo tree
+Basics: completion
+Typo
+Typo
+Basics: ranges
+Macros: show ex2 without using a macro
+Basics: macros?
+Tips: faster keyword completion
+Tips: disable audible and visual bells
+Tips: saner <c-l>
+Tips: smarter cursorline
+Tips: reload your file on saving
+Tips: underline cursor in replace mode
+Typo
+Typo
+Plugins: add gv
+Plugins: add vim-orgmode and vim-dotoo
+Typo
+Typo
+Plugins: add calendar.vim
+README: remove IRC badge
+Plugins: update
+Plugins: airline transferred to an own org
+Autocmds: executed in the order they were defined
+Typo
+Intro: add several subsections
+Slow files: rewrite
+Typo
+Plugins: add vim-hackernews
+Commands: :redir
+CHANGELOG: fix URLs
+README: make badge shorter
+README: add badge for #vimrocks
+Version: mention the programmatic way
+Intro: What kind of Vim am I running?
+Typo
+Folding: mention FastFold plugin
+Basics: Folding?
+Typo
+Basics: Sessions?
+Usage: matchit.vim
+Basics: Changelist? Jumplist?
+Changelist: mention persistence via viminfo
+Delays: mention caret notation
+Basics: Changelist?
+Text motions: they do take counts
+Registers: the # register is not readonly
+Registers: rework section
+Locality: add <localleader>
+Mapleader: <localleader> also defaults to \
+Typo
+Typo
+Mapleader: improve example, mention `:nmap <leader>`
+Clipboard: add related help tags
+Clipboard: use table for neater presentation
+Clipboard: rewrite everything
+Resources: add "Learn Vimscript the Hard Way"
+Distributions: change gendered pronoun
+Editing remote files: mention netrc
+Quirks: delay when using escape key in terminal
+Misc: Why hjkl for navigation?
+Operators: mention 'tildeop'
+Misc: additional resources
+Usage: restore cursor position when opening file
+Usage: editing remotes files
+Debugging: debugging syntax files
+Quirks: editing small files is slow
+Quirks: editing huge files is slow
+Tips: Saner command-line history
+Basics: Marks?
+Easter eggs: add ":h!"
+Debugging: Debugging Vim scripts
+Miscellaneous: Easter eggs
+Debugging: verbosity
+Release 1.1
+Basics: rework mappings section
+Basics: Locality?
+Logo: reduce size by 61%
+Clipboard: add 'guioptions+=a'
+Usage: better structing of "clipboard theory"
+Usage: clipboard
+Typo
+README: remove badges again
+Basics: add "Motions? Operators? Text objects?"
+README: add badges (License, Twitter)
+Markdown formatting and typos
+Basics: improve "Registers?"
+Basics: registers?
+Plugins: add vim-pad
+Tips: unfancy mappings for n/N
+README: add small note about current status
+CONTRIBUTING: add clause for correcting grammar/typos
+Add CONTRIBUTING.md
+Quirks: Bracketed paste
+Basics: autocmds
+Tips: repeat shifting sidewards via "."
+Tips: use cursor style in insert mode
+Tips: quickly change font size in GUI
+Tips: file marks <-> viminfo
+Tips: quickly jump to header or source file
+Tips: quickly edit your macros
+Tips: don't lose selection when shifting sidewards
+Tips: quickly add empty lines
+Tips: quickly move current line
+Tips: saner behavior of n and N
+Plugins: new section "Tmux"
+Plugins: new section "Commenters"
+Plugins: new section "Misc"
+Basics: Quickfix and location lists?
+Quirks: Newline used for NUL
+Add CHANGELOG.md
+Add LICENSE
+Plugins: add dirvish
+Add Misc section & Vim distributions
+Usage: block insert
+Basics: Mapleader?
+Plugins: add gist-vim and vim-github-dashboard
+Plugins: alignment section
+Plugins: sort sections
+Plugins: grep tools
+Plugins: undo history
+Plugins: gitv
+Colorschemes: lucius
+Colorschemes: seoul256
+Plugins: auto-pairs
+Plugins: taking notes
+Plugins: vimfiler
+Plugins: code completion & delimiter
+Plugins: statusline
+Plugins: navigation
+Mappings
+Getting help online
+Using the help
+Profiling at runtime
+Profiling startup time
+Add "Debugging" section
+Add colorscheme section
+Plugins: add version control
+Add plugin section and fuzzy finders
+Add "Active, loaded, listed, named buffers?"
+Typo: into -> onto
+Add "Buffers, windows, tabs?"
+Add "Colorschemes?"
+Initial commit

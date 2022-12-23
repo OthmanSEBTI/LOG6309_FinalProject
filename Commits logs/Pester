@@ -1,0 +1,1860 @@
+Bump 5.4.0-rc1
+Update ExpandedPath before executing tests and blocks (#2254)
+replace deprecated macos 10.15 with 12 in CI (#2253)
+Support int and double values when merging decimaloption (#2186)
+replace deprecated ubuntu 1804 with 2204 in CI (#2252)
+Add support for multiple aliases (-Alias) to Should -HaveParameter (#2247)
+Use latest C# language version (#2250)
+Cache nugets in CI (#2204)
+Update CI build image and PesterTests to .NET 6 (#2249)
+reorg Add-ShouldOperator tests (#2248)
+Fix broken assertions link in help (#2205)
+Always return to original CWD after running Pester (#2189)
+Add help for dynamic operator parameters (#2170)
+Fix module installation in PowerShell 3 and 4 (#2214)
+Fix NRE when assigning null to arrayoption in hashtable (#2219)
+Cleanup remaining testcase param-blocks in tests (#2226)
+Add -Because to Should -Invoke and -InvokeVerifiable (#2229)
+Validate Should -Invoke is invoked in specified -Scope blocktype (#2230)
+Throw in Add-ShouldOperator when max number of operators is reached (#2231)
+Add support for assigning lists to StringArrayOption (#2232)
+Support mocking and execution in manifest modules (#2234)
+Use Start plugin-step for TestDrive and TestRegistry PSDrive cleanup (#2237)
+Fix hang in New-TestRegistry when access is denied (#2236)
+Add ANSI support for output (#2199)
+Sign format files (#2212)
+Fix support for PowerShell 6.0.4 (#2215)
+Remove v4 param-blocks from HaveParameter tests (#2224)
+Exit invoked testfile after interactive execution (#2218)
+Replace alias and positional parameter usage in Coverage.ps1 (#2225)
+Add GitHub Action to run PSScriptAnalyzer on PR and commit (#2221)
+Start interactive execution from BeforeDiscovery (#2217)
+Replace IsOriginalValue() with IsModified and fix merging and casting of default option values (#2201)
+Don't run Get-CimInstance on Nanoserver (#2192)
+Fix mocks with enum-parameters and ValidateRange (#2191)
+add -NoBuild for P-tests (#2200)
+Updates to comment help and examples (#2196)
+Minor improvements to build script (#2183)
+Update and merge help tests (#2173)
+Exclude docs and support files from triggering CI (#2184)
+Update issue form templates (#2180)
+Update issue templates to forms syntax (#2176)
+add exception-example for Should (#2171)
+Fix container failure output (#2167)
+Test on less legacy systems (#2164)
+Fix discord link in readme (#2165)
+Update branding to 5.3.3
+Update branding to 5.3.2
+Forward merge rel/5.3.x (#2163)
+Add discord-link and cleanup README (#2102)
+Adds default parameter set to New-MockObject (#2160)
+Update help for New-Fixture (#2097)
+Update devcontainer to NET 6.0 SDK and Powershell 7.2 (#2116)
+fix ForEach casing in Context (#2111)
+Fix duplicate key exception in Should-InvokeInternal debug logging (#2130)
+Use newer images in our pipeline (#2141)
+Fixes for various typos in Pester documentation and code (#2063)
+Bump to 5.3.0
+Set name in xml element testsuite (#2034)
+Bump to 5.3.0-rc1
+Add more logging to BP CC and fix case sensitive new CC (#2042)
+Bump to 5.3.0-beta1
+Enable additional plugins to be added via $additionalPlugins (#2020)
+Added Run.SkipRemainingOnFailure option (#2023)
+Added FileContentMatchMultilineExactly should assertion (#2030)
+Fix broken link to pester.dev assertions page (#2024)
+Add Ability to Override Properties on New-MockObject (#1838)
+Added Filter.ExcludeLine option (#2016)
+Bump to 5.3.0-alpha5
+Add PSObject boxing support in PesterConfiguration (#1978)
+Azure Devops & Github Actions error logging (#1996)
+Add missing container-parameters to Data (#1986)
+Update InvokeVerifiable error message and add negate support (#1976)
+Adds support for Register-ArgumentCompleter (#1979)
+Fix throwing on missing folders (#2012)
+Add option to disable TestDrive and TestRegistry (#2008)
+Fix failure on zero analyzed commands (#2001)
+Fix tracer state on cancelled Pester run with new CodeCoverage (#1998)
+Log conflicting variables in Should -Invoke -ParameterFilter (#1973)
+make Value-property setter private in options (#1994)
+Improve operator-help returned from Get-ShouldOperator (#1988)
+Limit output information for failed tests (#1975)
+Add analyzerrule for object-commands (#1753)
+Update reporttheme output to remove hard coded colour names (#1934)
+Update output for Discovery and Filter (#1969)
+Add formatdata to ensure list view for all sections in PesterConfiguration (#1964)
+Removed StartMessage from output (#1968)
+Build on PS5.1 (#1966)
+Bump 5.3.0-alpha4
+Merge branch 'main' of https://github.com/pester/Pester into main
+Bump 5.3.0-alpha3
+More tracer fixes, now it's on par with the current solution (#1965)
+Bump 5.3.0-alpha2
+Improve tracer based CC (#1959)
+Added Pester version message to detailed and diagnostic output (#1962)
+Rename v5.0 to main
+Fixed formatting for null elements in an array (#1961)
+Make InModuleScope-parameters available as variables in scriptblock (#1957)
+Merge branch 'rel/5.2.x' into v5.0
+Fix session state in Should -Invoke to use the correct session state (#1954)
+Use profiler to improve perf of test drive, name expanding and add-member (#1955)
+Update Pester.RSpec.ps1 (#1951)
+Save all files with UTF8BOM (#1950)
+Fix formatting in all files (#1949)
+Allow positional parameter in get-shouldoperator (#1947)
+Remove about links they break website MDX (#1948)
+Update New-PesterConfiguration help (#1946)
+Add Profiler based code coverage (#1937)
+Merge branch 'rel/5.2.x' into v5.0
+Merge branch 'rel/5.2.x' of https://github.com/pester/Pester into rel/5.2.x
+Hide test run was skipped message when output is None (#1942)
+Bump branding to 5.2.1
+Fix module resolve when in module scope and module is force re-imported (#1941)
+Update config-replacements for legacy options (#1938)
+Added missing format tests (#1935)
+Bump 5.2.0
+Fix generation for array default values (#1930)
+Bump to 5.2.0-rc2
+Generate config docs (#1926)
+Fix psobject to string array (#1924)
+Fix cleanup for modules with no session state (#1925)
+Bump to 5.2.0-rc1
+Remove delay bps option because it is never faster (#1918)
+Bump to 5.2.0-beta1
+PesterBoundParameters (#1916)
+Fix mock behavior for Mock and Should -Invoke (#1915)
+Remove new log (#1914)
+Resolve metadata in the correct scope (#1913)
+Add assembly version check during module import (#1790)
+Fix type for fullname-filter (#1893)
+Extend and export New-PesterConfiguration (#1728)
+CI switch does not enable CodeCoverage by default (#1911)
+Set exit code (#1910)
+Add option to throw on failure (#1908)
+Rename Script.ps1 to Pester.ps1 (#1907)
+Ensure plugins are null (#1900)
+Isolate scripts and scriptblocks on run (#1889)
+Report failures in discovery into result object (#1898)
+Fix setting passed on parent block when some blocks are not run (#1897)
+Remove unused code (#1896)
+Fix testdrive example (#1894)
+Bump to 5.2.0-alpha3
+Coverage gutters (#1887)
+Link to contribution on docs page
+In should Invoke, log output of parameter filter and variables we are redefinig (#1881)
+Exclude noisy Measure-SafeCommands rule by default (#1882)
+Enable only discovery (#1870)
+Useful string assert message (#1880)
+Build locally without inlining (#1872)
+Tiny readme fixes
+Update readme.md (#1874)
+Fix broken Version-property in Pester4Result object (#1789)
+Initialize state in Invoke-Pester and inherit it to children (#1869)
+Fix output
+Merge branch 'v5.0' of https://github.com/pester/Pester into v5.0
+Bump to 5.2.0-alpha2
+Little improvements to coverage output (#1866)
+Bunch bps and one hit bps (#1865)
+Add Coverage to result object (#1860)
+Change certificate thumbprint
+Bump to 5.2.0-alpha1
+Fix wildcards in dirs (#1858)
+Fix searching for mock table when deep in tests (#1856)
+Fix conflicting name "arguments" in parameter filter (#1855)
+Fix interactive execution of parameterized tests (#1787)
+Fix default InModuleScope args-value (#1812)
+Fix missing initial value for Data in Invoke-File (#1852)
+Fix missing LICENSE file in Nuget package (#1839) (#1840)
+Fix blank code coverage 1621 (#1807)
+Replace non-breaking spaces (ascii code 160) with regular spaces (ascii code 32). Fixes #1820. (#1823)
+Fixed type in README.md (#1834)
+Set 20 minute timeout for tests
+fixed typo in the examples of Invoke-Pester (#1841)
+Fix typo (#1844)
+Merge branch 'rel/5.1.1xx' into v5.0
+Bump to 5.1.1
+Fix help for Invoke-Pester (#1792)
+Fix exit (#1797)
+Cleanup command reference help and add online help link (#1806)
+Fix NUnit2.5 option (#1796)
+Fix index error when using Get-Command on Should (#1804)
+Fix safecomands spelling (#1800)
+Bump branding to 5.1.1-beta1
+Bump branding to 5.2.0-beta1
+Fix publishing
+Bump branding to 5.1.0
+Add missing and update help for exported functions (#1785)
+Added codeblocks to help examples with linebreaks (#1782)
+Bump to 5.1.0-rc2
+Fix interactive execution bug (#1773)
+Test for passing params to It wihout any foreach (#1776)
+Updated New-Fixture template (#1775)
+Compact templates (#1774)
+Bump to 5.1.0-rc1
+Remove Bug label from issue (#1762)
+Fix output when -ForEach is used with a block (#1760)
+Bump branding to 5.1.0-beta4
+Fix JUnit counts for skipped and notrun (#1758)
+Fix path in NUnit (#1755)
+Fix joining fallback ExpandedPath (#1754)
+Add JUnit XML output (#1748)
+Disable CC in build to make it much faster (#1751)
+Create CODE_OF_CONDUCT.md and SECURITY.md (#1676)
+Cleanup alias and missing SafeCommands (#1745)
+Removed test-step in PR template (#1749)
+Rename New-TestContainer to New-PesterContainer and fix Run.Container usage (#1743)
+Add labels to templates (#1742)
+Update github templates (#1739)
+Update branding to 5.1.0-beta3
+Add CONTRIBUTING.md (renames BUILD.md) (#1697)
+Always set exit code exit (#1734)
+Print active filters in Detailed/Diagnostic output (#1727)
+Default mock args to empty array (#1730)
+Update devcontainer (#1729)
+Re-implement New-Fixture in Pester v5 (#1726)
+Update README.md
+Clean up mocks in the session state where we defined them (#1725)
+Default to expanded name and path (#1718)
+Write all parent blocks to screen on first test or on failed block (#1717)
+Add support for VSCode problem-tracking for failed assertions (#1700)
+Bump branding to beta2
+Allow AfterAll in top-level (#1707)
+Throw when legacy syntax is used (#1706)
+Added Get-AstTopParent fn, ignore pipeline parts (#1656)
+Fix should help examples (#1647)
+Remove pipeline support from Should -Invoke (#1698)
+Create SUPPORT.md (#1677)
+Bump to 5.1.0-beta1
+Filter excluded tests from NUnit results (#1686)
+Add -ForEach parameter to Describe, Context, and as an alias to -Test… (#1681)
+Remove dt
+Add BeforeDiscovery semantic block (#1680)
+Add fallbackFallback startline (#1678)
+Add devcontainer to project (#1661)
+Merge branch 'v5.0' of https://github.com/pester/Pester into v5.0
+Parametric scripts (#1671)
+Update branding to 5.0.5
+Make switches not mandatory (#1610)
+Bump 5.0.4
+Add basic elipsis to indicate the array was shortened (#1672)
+Fix line-based filter for tests with multiline testcases (#1664)
+Removed unused variable (#1663)
+Update README.md (#1652)
+(GH-1655) Add support for "-Not" to "Should -Invoke" tests (#1665)
+Update invoke-pester help to improve #1634 (#1648)
+Update README.md (#1666)
+Fix conflicting tests (#1658)
+Add nugets and publish to nuget and choco (#1654)
+Bump 5.0.3
+fix formatting for Nunit parameterrized tests (#1630)
+Add FullNameFilter and PassThru parameters to Simple interface parameter list in README.md (#1637)
+Update README.md
+Fixes #1631 - Updated docs Planets example to work with Pester v5 (#1632)
+Fix basic scoping of BeforeAll (#1636)
+(doc): Add Legacy v4 parameter mapping to config object in README.md (#1595)
+Merge branch 'v5.0' of https://github.com/pester/Pester into v5.0
+Make outputpath of NUnit not mandatory (#1593)
+Bump branding to 5.0.2
+Fix test path (#1588)
+Refer to Add-ShouldOperator safely (#1581)
+Allowing for @ to be the first non-whitespace character after Should. (#1582)
+Bump to 5.0.1
+Update readme
+Add Legacy parameter set (#1578)
+Docs: Fix "What's New in Pester 5" Video Link (#1574)
+Add that Gherking is removed
+Bump to 5.0.0 (#1570)
+Update README.md
+Adding error message when incorrect should format is used. (#1561)
+Revert "Should work (#1568)" (#1569)
+Revert "Should work (#1568)"
+Should work (#1568)
+Remove duplicates before building (#1566)
+Fix casting from PSObject array to string (#1567)
+Minimal is the new Normal, and Normal is Detailed (#1562)
+Allow mocks in top-level BeforeAll (#1560)
+Cherry pick #1463 (#1556)
+Make StringArrayOption property perform object[] to string[] transformation automatically in a similar way how PowerShell would do it (#1549)
+Readme: Add table with mapping of parameters to configuration object properties  (#1546)
+Docs: Fix CodeCoverage property on configuration object: Enable -> Enabled (#1545)
+Separate file output with just single space (#1541)
+Add Should -Throw breaking change
+Fix verifiable mocks counting when there are multiple behaviors (#1540)
+Update branding to 5.0.0-rc9
+Merge branch 'v5.0' of https://github.com/pester/Pester into v5.0
+Update branding to 5.0.0-rc9
+Bump 5.0.0-rc8
+Fix path in code coverage (#1538)
+Fix cross module mock (#1537)
+Bump 5.0.0-rc7
+Fix path resolve (#1532)
+[v5] Repair Set-ItResult (#1520)
+[WIP] Splatting in mock (#1528)
+Fix casing
+Fix TestDrive and TestRegistry teardowns when already teared down (#1529)
+Enable test on release
+Bump to 5.0.0-rc6
+Fix config ref (#1518)
+Added version in pester object (#1502)
+null non-public props (#1517)
+Null values (#1516)
+Test registry (#1511)
+Merge v4 (#1512)
+Merge branch 'v5.0' of https://github.com/pester/Pester into v5.0
+Bump branding to rc6
+Update README.md
+Merge branch 'v5.0' of https://github.com/pester/Pester into v5.0
+Fix passing parameters
+Fix some messages and how we detect mock count in block (#1509)
+Diagnostic output (#1508)
+Better result object (#1507)
+Update rc version to 5
+Optimize runtime (#1506)
+Build the binaries (#1504)
+Debug mocks (#1500)
+Bump branding to rc5
+Update release scripts
+Move sources to new structure
+fix casing of default rest results file (#1499)
+Remove Gherkin (#1497)
+Update readme and fix typos
+Bump rc3
+Bump 5.0.0-rc2
+should -Be optimizations (#1495)
+Mock optimizations (#1492)
+Add notes about my invocation and other
+Update discovery rules
+Discovery optimizations (#1491)
+Add -FullName filter (#1489)
+Add -PassThru note
+Add -PassThru (#1488)
+Add -Script to breaking changes
+Split breaking changes into sections
+Add another breaking change
+Update README.md
+Add gifs to VSCode entry in v5 readme (#1481)
+Add more breaking changes
+Merge branch 'v5.0' of https://github.com/pester/Pester into v5.0
+Scratch that almost, it took me bloody 12 hours of work. :D
+Bump to 5.0.0-rc1
+Merge branch 'v5.0' of https://github.com/pester/Pester into v5.0
+Add vscode changes
+V5.0 rc1 (#1477)
+Table of contents into readme
+Update readme for Pester 5.0.0-rc1
+Do not run in VSCode unsaved files
+Fix build on AppVeyor
+Add ConvertTo-Pester4Result (#1472)
+Clean result object (#1470)
+Take failed blocks into account and list them at the end of the run
+Beta release notes
+Focused and fail output on null verbosity (#1453)
+Remove -Focus from public api (#1451)
+Remove scriptblock from simple api (#1449)
+Improve filtering (#1443)
+Improve advanced interface and filter by lines (#1438)
+Run files interactively (#1435)
+Merge branch 'improving-v5' into v5.0
+Merge branch 'implement-skip-and-not-run' into v5.0
+Implement skip and not run (#1434)
+Revert ubuntu version
+Use newer osx
+use newer ubuntu
+Update brew before install
+Test nulls
+Fix NUnit output
+Add skip to Describe and Context
+Add skip on Block
+Add -Skip on It
+Improve how preference is passed, and filtering logging
+Throw on Should failure in mock filter (#1421)
+Better Pester configuration (#1418)
+Eap to stop
+Fix Should behavior (#1405)
+Compound assertion (#1335)
+Simple interface for Pester (#1307)
+Remove dt
+New new runtime (#1326)
+Merge branch 'v5.0' of https://github.com/pester/Pester into v5.0
+Cmdlet dynamic param (#1317)
+Bump to alpha4
+Remove focus
+Write focused tests
+Plugins (#1306)
+Resolve paths in the same way as v4
+Write error when running non-interactively (#1301)
+Use BeforeAll instead of Add-Dependency (#1300)
+Use Should -Invoke instead of Assert-MockCalled (#1299)
+Forward merge master
+Bump 4.8.0
+Add list of all standard readonly and constant variables (#1298)
+Fix function definition in parameter filter (#1293)
+Use real path to temp path on macOS and GetTempPath() otherwise when constructing TestDrive (#1294)
+Use like wildcards for matching (#1287)
+Test that Mocks can be outside of BeforeAll
+Run mocks in test scope (#1281)
+Forward merge master
+Merge branch 'v5.0' of https://github.com/pester/Pester into v5.0
+build PRs for v5.0
+Add TestDrive parameter to In so we can use it outside of blocks (#1280)
+Added regex to filter out ErrorLines. (#1253)
+Add parameters to mock to relax commands (#1278)
+Fix timing (#1279)
+WIP: Check if function exists before removing it (#1255)
+Fix spelling (#1273)
+remove the arrow in the output of string comparison. (#1264)
+Bump 5.0.0-alpha3
+Readme for alpha3
+Forward merge master
+Fix join paths
+print paths
+fix runner script
+more array fixes
+fix code coverage counting
+do not publish xml result because the parameters are not wired up yet
+put comment back
+Make EnableExit work
+pass arguments on
+fixes for pwsh 3
+normalize path delimiters
+add build trigger for azure pipelines
+Replace guid
+Bump 4.7.3
+Fix tests and run them
+Add Windows, Linux, and MacOS tags to psd1
+Expand tokens in test names
+Generating blocks with implicit id
+Add implicit Ids to tests
+Shorten error message of string comparison when it is too long (#1248)
+Adding empty CmdletsToExport specification. (#1259)
+Fix .Length mispelling in duplicate certificate thumbprint check in signModule.ps1 (#1260)
+Code coverage as a plugin
+Add one time block setup for plugins
+Fix code coverage tests
+Forward merge master
+Coverage first step
+Apply filters to Blocks and make all uncommented tests pass
+Fix P tests
+Fix all the tests in Functions or exclude them
+Remove New-Fixture
+Fix assertion tests
+start running Pester tests on itself
+Bump 4.7.2
+Fix stripping last character in parameter filter and failing null check
+Fix mock output
+Bump 4.7.0
+Merge branch 'master' of https://github.com/pester/Pester
+Fix incorrect Code Coverage report counters (#1242) (#1244)
+Bump 4.7.0-beta1
+Add alias for extension-less external commands in windows (#1252)
+Fixed typo in README.md (#1254)
+Remove Invoke-GherkinStep from exported functions (#1229)
+Allow aliases in Parameter Filters blocks (#1240)
+Awww yiss!
+Dynamic mocks pass
+Running
+Fix runtime test
+Run almost all mock tests (been here before)
+Inverted mock
+Mck
+Add focus on blocks
+Comment out flaky timing test
+CBH Fixes: Mainly Links for online help (#1238)
+Allow mocks to work with conflicting parameter names (#1233)
+WIP: Improve logic for removal of symlinks during TestDrive tear down. (#1230)
+Print full errors when internal flag is specified (#1232)
+Add a better exeception when name is missing but scriptblock is provided for It, Describe, and Context (#1231)
+More Mocking fixes
+Fixup mocks
+Add scope based mock counting
+Add more fixes for mocks
+Add focused tests
+Fix more mocking and discovery
+Fix plugin order
+Add more debugging messages to mocking
+Add basic mock debug output
+Make all assertion tests run
+Add recursive mocks
+Fix BeforeAll AfterAll
+I think I finally understand what setup needs to run where.
+Use the correct setups and teardowns for RSpec Pester BeforeAll AfterAll
+Test that one time block setups do what I want from BeforeAll AfterAll
+Add recursive before each test running
+Put skip back, and publish Add-FreeFloatingCode
+Fix running inner scriptblock
+WIP: Enforce test failure in non-passing results in strict mode (#1225)
+Revert "Initial version of help markdown files (#1226)"
+Initial version of help markdown files (#1226)
+Bump 4.6.0
+Fixes more TestRegistry parallel issues (#1224)
+Rename 'v' to Write-PesterDebugMessage
+Filter by scriptblock position (#1220)
+Remove the Quiet parameter (#1223)
+Added Shoud-HaveParameter Assertion (#1202)
+Fix filer message
+Merge master
+Fix tests
+Add script block filter
+Add link to the discussion thread
+Fix formatting of readme
+Bump 5.0.0-alpha2
+Add readme and demo code for v5-alpha2
+Mocking (#1217)
+WIP: Fixes #287 test time not accurate (#1185)
+Use script block location to avoid problems with tests and blocks changing names
+Update links in readme
+Fix 4.4.4 (#1208)
+V5.0 (#1209)
+Bump to 4.5.0
+Modify package and class names in jacoco report to add support for coverage gutters extension (#1199)
+Fix formatting to use automatic Struostrup style in VSCode (#1203)
+Reword comitters needed message
+Exclude Pester Tests from CodeCoverage by default (#1196)
+Stop execution of scenario if one step failed/inconclusive (#360) (#1198)
+General code cleanup (#1172)
+Fix error in parallel TestRegistry (#1197)
+Add note about using Fix to automatically close related issues
+Bump to 4.5.0-beta2
+Support all natural languages which Gherkin provides (#1166)
+Create scenario for every example (#1168)
+Fix tests that should be skipped in Gherkin are failing (#1174)
+Make the PR template simpler
+Minor correction of GitHub templates (#1184)
+Add support for ScriptBlock-parameter in setup blocks (#1191)
+Better support of PowerShell classes in coverage (#1187)
+enable TestResults.Tests.ps1 tests on all platform because they work on all platforms (#1195)
+Make hashtable key access be consistently cased to prevent symptom of PowerShell bug on Unix systems where LANG is set to C.UTF-8 (#1193)
+Add more information on the passthru code coverage property (#1190)
+Clean some stuff from #920 that are no longer needed because of #1120 (#1189)
+Improve NUnit xml report (#1180)
+Rename the folder doc to images (#1183)
+Skip branches with PR on appveyor
+Add 'WMF 4' image to AppVeyor build matrix (#1178)
+Fix changelog date and counting in release script
+Bump to 4.5.0-beta1
+Fix early job disposal on PowerShell 2 by making the tasks shorter
+Skip StyleRules in normal builds on Azure
+Add azure pipelines and appveyor badges to readme
+Set up CI with Azure Pipelines (#1176)
+Fix PowerShell 2 compatibility in Strict-Mode
+Fix PowerShell 2 compatibility
+Clarify meaning (#1175)
+Fix Set-ItResult function help. (#1171)
+Assert-MockCalled -Scope: allow Feature and Scenario (#1170)
+Update README.md
+Session state hints (#1169)
+Build on appveyor on Powershell 5 and Core and in Strict-Mode on Travis
+Fix features and scenario names do not display when PesterResult is printed to the console (#1138)
+Correctly report number of found step files (#1150)
+Use Generic.List[psobject] instead of ArrayList (#1144)
+Add Get-ShouldOperator (#1116)
+Add TestRegistry (#1112)
+Skip brew update and tapping caskroom cask on macOS build
+Check scope of Set-Variable to resolve #1107 (#1109)
+Added fix for deleting symlinks in TestDrive (#1103)
+Skipping test from inside the It block (#1026)
+Patch for #972 Providing scripts to Invoke-Pester  (#1159)
+Added possibility to pass tests script as string to address cases whe… (#972)
+ More comprehensive JaCoCo support (#1120)
+Added detailed code coverage.  (#920)
+Add signing info
+Add build and signing scripts
+Signing (#1156)
+Output tests fail on PSv2 due to potentially writing the same output .xml file as the upper invocation of Pester (#1155)
+Adds support for 'Scenario Template' (#1139)
+Fix for #1119 in single column tables in Gherkin feature files (#1127)
+Fix using [ScriptBlock]::Create with InModuleScope. (#1146)
+Don't run Pester version tests on forks (#1141)
+Take only the first instance of id or uname. (#1126)
+Allow assertions with multiple aliases (#1122)
+Removes Quiet in favor of Show set to None. (#1125)
+Bump to 4.4.2
+Remove quotes when expanding strings in test name (#1090)
+Make an attempt to get environment information for non-Windows platforms (#1105)
+Update GitHub templates (#1061)
+Merge branch 'master' of https://github.com/pester/Pester
+add sticker sources
+Bump to 4.4.1
+exclude non-tagged describes from tagged run (#1098)
+Capitalise 'Name' and 'Test' parameters (#1080)
+Document integration with AppVeyor Ubuntu build (#1051)
+Bump to 4.4.0
+Bump to 4.4.0-beta2
+Remove splitting tags on whitespace (#1074)
+Fix tags filter warning (#1073)
+Fix for #1060 - Invoke-Pester -PassThru returns pipeline output from test scripts (#1063)
+Make TestDrive fail when its folder is deleted (#1059)
+Remove Than from GreaterOrEqual and LesOrEqual (#1046)
+The test for nonexisting module behavior check (#1040)
+Run all tests under Set-StrictMode set to Latest (#1041)
+Remove old news about linux compatibility
+Bump to 4.4.0-beta
+Use wildcards for tags (#1038)
+use full command name instead of alias (#1037)
+remove dynamic module after mock tests (#1036)
+Clean up mocks on start (#1035)
+Fix lessthan greaterthan assertion messages (#1034)
+Support saving result files to the path provided as a PSDrive (#1033)
+Extended the style rules for files in the Dependencies folder (#1031)
+Show error in Should -Not -Throw.
+Add FileContentMatchMultiline. (#1023)
+Fix FileContentMatchMultiline.ps1. (#1024)
+JaCoCo report always mentions only 1 file covered instead of the actual number (#1013)
+Fix issue template by using the -ListAvailable option on Get-Module when Pester is not already loaded (#1001)
+Fix Add-AssertionOperator example. (#1016)
+Add space in DescribeImpl (#1019)
+Fix -FileContentMatch example. (#1020)
+fix deploy
+Bump 4.3.0
+Add tests to verify completeness of a comment based help (#997)
+Clever output (#996)
+remove rouge link that appeared out of nowhere
+Fix #991 stack trace and Gherkin output from Pester 4 to match Pester 3 (#992)
+#808 add example to Find-GherkinStep (#995)
+#808 add GherkinStep examples (#994)
+Bump to 4.2.0
+Update should documentation (#990)
+fix negative number comparison (#988)
+Corrected snippets to follow the new standard (#987)
+Make getting started link point to wiki (#976)
+Add tags PSEdition_Core, PSEdition_Desktop (#978)
+Update Get-ScriptModule error message with link to wiki (#945)
+Correct Write-PesterStart - Fix #935 (#964)
+fixed AfterAll synopsis (#975)
+Fixed detection of empty tests (#835)
+Include the file VERIFICATION.txt in the Pester.nuspec (#963)
+Require Set-StrictMode -Version Latest for all tests (#961)
+Remove information about update on PSCore 6.0.x - Pester is not bundled since 6.0.0-rc2 (#962)
+Bump to 4.2.0-alpha3
+Add more assertion (#959)
+Create VERIFICATION.txt (#957)
+Bump to 4.2.0-alpha2
+Bump 4.2.0-alpha1
+Improve Should -Throw (#954)
+Use pre-release for PSGallery (#956)
+Bump to 4.1.1
+Fix whitespace
+Download nuget.exe on demand, otherwise it does not work on the build server
+Update nuget.exe to 4.4.1
+Rollback to original version of Nuget.exe
+Fix whitespace
+Build packages in PowerShell scripts
+Include Gherkin DLLs in Nuget package
+Don't export the function Invoke-GherkinStep (#948)
+Update news
+Update nuget.exe to 4.3.0
+Bump to 4.1.0
+Update New-Fixture help and add stripping .ps1 from the Name parameter (#941)
+Fix Gherkin for Linux (#937) and PS2 (#942)
+Fix labels on badges
+Add more badges
+Fix error in strict mode (#886)
+Created Github issue template (#929)
+remove progress to make execution faster and fix linux formatting errors (#938)
+Dev/gherkin-mocks (#936)
+Initial spelling corrections (#927)
+Trailing spaces removed from an about_* documentation (#910)
+Update a syntax of Should for the Pester v. 4 notation (#903)
+Add link to the Pester forum on PowerShell.org
+Throw on Assert-VerifiableMocks (#918)
+Update Pester to work on PowerShell Core at Windows, Linux, macOS (#925)
+Update CHANGELOG.md
+Merge pull request #893 from brantb/assertion-operator-reregistration
+Set default value for Alias
+Improve test names
+Refactor Test-AssertionOperatorIsDuplicate
+Change parameter type of Test-AssertionOperatorIsDuplicate to [object]
+Fix mistyped property name
+Add additional null checks
+Allow assertion operators to be re-registered if they are identical
+Help for the Assert-VerifiableMocks function added (#883)
+Bump to 4.0.8
+Throw on Assert-VerifiableMocks (#881)
+Add hot news
+Finally releasing 4.0.7!
+Fix icon url
+Fix manifest (#871)
+Make commands singular (#860)
+Update help of Gherkin-related functions (#861)
+Rename Contain assertios to FileContentMatch (#859)
+Remove CommandUsed parameter from Describe (#858)
+Write better readme (#837)
+The parameter CodeCoverageOutputFileFormat added - fix #848 (#850)
+Help for the function New-PesterOption updated (#847)
+Style rules extended for psd1 files, trailing spaces and tabs removed from psd1 files (#842)
+Help of New-MockObject and Context updated (#841)
+Help of Invoke-Gherking update (#839)
+Fix exception propagating outside of describe/context when AfterAll throws (#836)
+Correct Foreground for inconclusive tests results (#829)
+Bump to 4.0.6-rc
+Add recursion limit to Should -Be when comparing arrays (#824)
+Merge pull request #820 from it-praktyk/Confused_covfefe_update
+Updating Pester on W10 and W2K16 - update - Fix #585
+Merge pull request #779 from adbertram/master
+Update README with PowerShellGet info
+Add error formatting back in (#819)
+Fix call depth overflow on non-collection types implementing IEnumerable (#818)
+Add Import-LocalizedData to safe commands (#817)
+Fix header when passing in hashtables (#816)
+Merge branch 'it-praktyk-V4_PSScriptAnalyzer_Clean_Code_2'
+Bug fix and code cleanup
+Merge branch 'V4_PSScriptAnalyzer_Clean_Code_2' of https://github.com/it-praktyk/Pester into it-praktyk-V4_PSScriptAnalyzer_Clean_Code_2
+Remove unused variables (#801)
+Fix Assert-VerifiableMocks silently does not report anything if 'Verifiable' is spelled wrong on one mock
+Rename indentation test (#763)
+add tests and use .get_Keys() instead of .Keys add test 'Works with commond with paramter named Keys' to 'Naming conflicts in mocked functions' use $BoundParameters.get_Keys() instead of $BoundParameters.Keys in Get-ParamBlockFromBoundParameters fix #776
+Information about Set-TestInconclusive added to the It function (#778)
+Bump to 4.0.5
+Make Add-AssertionOperator a public function (#765)
+Bump to 4.0.4-rc
+Remove test files before packaging nuget package
+Add support for JaCoCo XML code coverage reports. (#782)
+Renamed function in Environments to prevent conflict
+Merge remote-tracking branch 'pester/master'
+Noisy names of some parameters removed
+Tests related to PSScriptAnalyzer removed
+Cleaning of code - PSUseDeclaredVarsMoreThanAssignments reported by PSScriptAnalzer v.1.11.0
+Cleaning of code - PSAvoidDefaultValueForMandatoryParameter reported by PSScriptAnalzer v.1.11.0
+Cleaning of code - PSAvoidUsingCmdletAliases reported by PSScriptAnalzer v.1.11.0
+Merge pull request #760 from nohwnd/FixBeNullOrEmptyForEmptyHashtable
+Merge pull request #691 from it-praktyk/DevV4_Style_Rules_corrections
+Fix BeNullOrEmpty to pass for an empty hashtable
+Merge pull request #759 from nohwnd/FixMockScopeErrorMessage
+Fix mock scope error message
+Merge pull request #747 from dlwyatt/MockFix3
+Merge branch 'master' into MockFix3
+Tabs replaced with spaces
+The test 'Style Rules' corrected to include also files from the module root folder. Trailing spaces removed, tabs replaced with 4 spaces in files - to fulfill 'Style rules'.
+Test fix for Describe
+Bump to 4.0.3-rc
+Merge pull request #669 from it-praktyk/Update_Help_Describe
+Merge pull request #717 from it-praktyk/DevV4_Update_Help_Invoke-Pester
+Merge pull request #744 from dlwyatt/MockFix
+Merge branch 'master' into Update_Help_Describe
+Merge pull request #670 from it-praktyk/Update_Help_Context
+Merge pull request #685 from it-praktyk/DevV4_Update_Help_Should
+Merge branch 'master' into DevV4_Update_Help_Invoke-Pester
+Fixes #746
+Update failing test
+Add failing test
+Remove old unused bits of code
+Fix test in PSv2
+Create aliases instead of renaming functions when mocking
+Add failing test
+Merge pull request #753 from nohwnd/FixXMLTests
+Merge pull request #755 from nohwnd/SwapDescribeAndContext
+Swap describe and context in the output
+Merge pull request #711 from it-praktyk/DevV4_Import-LocalizedData_Fallback
+Merge branch 'master' into DevV4_Import-LocalizedData_Fallback
+Run XML Schema tests only on Windows
+Merge pull request #719 from it-praktyk/DevV4_Update_Help_Get-TestDriveItem
+Merge pull request #723 from it-praktyk/DevV4_Update_Help_Set-TestInconclusive
+Merge pull request #752 from nohwnd/FixPaths
+Fix paths in Pester.Tests.ps1
+Merge pull request #749 from nohwnd/MoveEnvironmentFunctions
+Merge pull request #750 from nohwnd/FixResolveFullPathTest
+Add better tests for OS and temp
+Use OS independent path for resolve test
+Update README.md
+Merge pull request #748 from pester/DevelopmentV4
+Merge pull request #745 from dlwyatt/MockFix2
+Fixes #737
+Add failing test
+Merge pull request #726 from Jaykul/IncludeVSCodeMarker
+Fix StackTrace typo
+Tweak Variable names to hide them.
+Revert stacktrace line output on failed tests to match Pester v3
+Fix  IncludeVSCodeMarker #725
+Finally fix the Scenario count
+Fix more Gherkin issues with PowerShell 2.0
+Fix some obvious PowerShell-2.0 bugs
+Improve Gherkin output
+Fix gherkin test
+Fix 569 - use import-module to load assembly.
+Tweak code formatting of psd1 for consistency
+Switch "missing" tests to "Inconclusive" status
+Update Pester export for Find-GherkinStep
+Add Find-GherkinStep! yay?
+Fix scope for Gherkin Background, visibility for GherkinStep
+Dramatically improve gherkin error messages
+Refactor Gherkin to generate a "Describe" per-scenario (not per feature)
+Help for the function Set-TestInconclusive added
+Refactor Gherkin Aliases to functions in order to provide proper help
+Update Gherkin with -Show and -PesterOption
+An example for Get-TestDriveItem added
+Update help for the Invoke-Pester function
+Add a test for the scenario count which is currently failing
+Fallback to en-US culture for Import-LocalizedData
+Merge pull request #704 from nohwnd/FixShouldBe
+Fix Should Be to make Expected determine the type to be used for equality check
+Merge pull request #690 from brianbunke/patch-1
+Add commas to report summary in v4
+Added basic help for Should.
+Bump to 4.0.2-rc because the PowerShell gallery package is build on the server and lib was missing there
+Bump to 4.0.1-rc because of PowerShell gallers, use 4.0.2-rc as the next version
+Bump to 4.0.0-rc2
+Bump to 4.0.0-rc1
+Merge branch 'it-praktyk-DevV4_Update_Help_Describe' into DevelopmentV4
+Merge branch 'DevV4_Update_Help_Describe' of https://github.com/it-praktyk/Pester into it-praktyk-DevV4_Update_Help_Describe
+Merge branch 'DevV4_Update_Help_Context' of https://github.com/it-praktyk/Pester into it-praktyk-DevV4_Update_Help_Context
+Update changelog
+Reword deprecation message
+Merge branch 'developmentv4_deprecate_get-testdriveitem' of https://github.com/it-praktyk/Pester into DevelopmentV4
+Fix BeLike and BeIn variable expansions
+Quiet vs show
+Fix one more occurance of Quiet
+Remove Quiet and OutputXml, Update help, Add Show to manage output, add commas to output
+Fix BeIn BeLike and few errors to make everything work after merge
+Help updated and reformatted.
+post merge not working
+Help updated and reformatted.
+Help updated and reformatted.
+Help updated and reformatted.
+A message about deprecation added to the function Get-TestDriveItem, help for the function updated.
+Bump to 4.0.0-beta
+Bump to 3.4.6, fixing the broken release 3.4.5
+Merge pull request #676 from nohwnd/AddCommasToSummary
+Add commas to summary
+Merge pull request #677 from nohwnd/FixHasFlag
+Fix Has-Flag on Powershell v4 and older
+Bump to 3.4.5
+Added Get-OperatingSystem and Get-TempDirectory to fix TestDrive on PSCore
+Merge branch 'BeInAssertion' of https://github.com/adbertram/Pester into adbertram-BeInAssertion
+Merge branch 'FilterPesterOutput' of https://github.com/nohwnd/Pester into nohwnd-FilterPesterOutput
+Merge pull request #672 from pcgeek86/patch-3
+Made use of named parameters more consistent
+Merge pull request #656 from dlwyatt/CleanupFix
+Fix #655
+Merge pull request #654 from it-praktyk/Invoke-Pester_Update_Help
+Help updated (added info about OutputFile, OutputFormat, modified OutputXml) and reformatted (lines shortened to about 80 chars, tabs replaces with 4 spaces).
+Add option to Invoke-Pester to filter output
+Added the BeIn assertion
+Forward merge master to DevelopmentV4
+Version bump to 3.4.4
+Add New-MockObject function and export it from Pester
+The link to the article 'Writing Pester Tests' in the PowerShell/PowerShell repository added
+Merge pull request #618 from nohwnd/AddHelpToShould
+Add help to Should
+Merge pull request #617 from nohwnd/CaseInsensitive_ShouldThrow2
+Make Should Throw case insensitive
+Merge pull request #616 from nohwnd/DevelopmentV4
+Fix expectations in DSC CodeCoverage tests for PowerShell v4
+Ignore Gherkin tests on PowerShell 2
+Merge 'master' to development
+Merge pull request #615 from nohwnd/Import-local-Pester-for-Gherkin-tests
+Merge pull request #1 from nohwnd/Import-local-Pester-for-Gherkin-tests
+Import local Pester version to Gherkin tests
+Merge pull request #602 from jsoref/spelling
+Spelling fixes
+Version bump to 3.4.3
+Fixing PSv2 compatibility
+Using new PSv5 public interfaces for getting dynamic params of cmdlets
+Fixed failing NUnit tests, added TestSuiteName to New-PesterOption
+Merge pull request #591 from timker/master
+Added InconclusiveCount to Invoke-Pester output
+Merge pull request #589 from dlwyatt/CompatibilityFixes
+Adding support for both forward and back slashes in some tests
+Releasing 3.4.2
+Proxy cmdlet support for safe cmdlet lookup
+Tweaking manifest to work with current version of PowerShell Gallery NuGet
+Fixing psv2 bug
+Releasing 3.4.1
+Merge pull request #583 from dlwyatt/MockVariableConflict
+Tweaking ExecuteBlock fix to match v3 / master
+Bug fix in ExecuteBlock
+Bug fix in ExecuteBlock
+Tweaking temporary warning output
+Merge branch 'DevelopmentV4' of https://github.com/nohwnd/Pester into nohwnd-DevelopmentV4
+Merge pull request #573 from dlwyatt/NestedGroups
+Adding temporary tag warning
+Bug fix
+Fix assertion naming constraints to accept single word
+whitespace only
+Merging Describe / Context, updating output for new structure
+Removing references to $script:Pester
+TestResults tweaks
+Updates to TestResults export for new internals
+Initial updates for arbitrary group nesting
+Tweaking gherkin tests to run in background job
+Merge pull request #566 from juneb/CodeCoverage
+Typo - EndDate
+Revised CodeCoverage parameter description
+Merge pull request #564 from juneb/PassThruAndQuiet
+Revised parameter descriptions and wrote examples for PassThru and Quiet parameters.
+Merge pull request #563 from juneb/TestNameTag
+Revise help for TestName, Tag, and ExcludeTag parameters.
+Merge pull request #558 from juneb/FixTagType
+Describe -Tag needs explicit type
+Resolving a couple more merge conflicts
+Fixing whitespace
+Merge branch 'master' into DevelopmentV4
+Merge pull request #536 from Jaykul/LanguageDecoupling
+Merge pull request #548 from gitter-badger/gitter-badge
+Add Gitter badge
+Merge pull request #545 from juneb/ScriptParameter
+Revised Invoke-Pester description, Script parameter description
+Merge pull request #541 from dlwyatt/HashtableDefaults
+Making sure Parameters key is not null in ResolveTestScripts
+Update with a .Net35 build of Gherkin.dll
+Merge pull request #537 from Jaykul/Features/ContainsMultiline
+Switch to New-Object from ::new
+Add ContainMultiline and tests
+Fix whitespace failures
+Remove PowerCuke
+Convert Gherkin support to use Gherkin3 - the new official parser
+Add some tests for Invoke-Gherkin itself
+Add Tests for Gherkin Hook and Step definitions
+Fix step loading (so it, you know, loads stuff).
+Fix the old location restore so it doesn't break tests
+Add Before/After All, Feature, Scenario, Step hooks
+Merge pull request #530 from michaeltlombardi/patch-1
+Add additional resource links to about_Mocking
+Update changelog
+Merge pull request #521 from nohwnd/FixShouldThrowNullError
+Fix error messsage of Should Throw when null input is provided
+Merge pull request #520 from juneb/FixAboutTypo
+Fixed typo and tabs
+Merge pull request #519 from juneb/AboutHelp
+Added Examples section
+Fix #503
+Fix #516
+Updated changelog
+Added missing info to about_Should
+Remove invalid syntax in example
+Merge pull request #512 from juneb/master
+Fixed line breaks; broke up long first section
+Rewritten for readability
+Cosmetic stuff: file names, encoding, topic titles
+Rename about_should.help.txt to about_Should.help.txt
+Merge branch 'pr508'
+Revised count initializer
+Merge pull request #509 from JamesWTruher/master
+Be sure we're in a Pester repo before doing a version check against the repo
+$count was null
+Merge pull request #506 from PetSerAl/globbing-character-fix
+Add tests
+Fix globbing character handling
+Merge pull request #505 from PetSerAl/duplicate-test-fix
+Remove duplicate test
+Merge pull request #502 from juneb/master
+Formatted About topics
+Update changelog
+Fixing naming of BeLikeExactly failure message functions
+Adding failing test
+Merge pull request #495 from toenuff/working
+Fixes minor typo in about_testdrive.help.txt
+Merge pull request #485 from urasandesu/master
+Fix test failed sample
+Update CHANGELOG.md
+Merge pull request #484 from JamesWTruher/master
+update SafeCommands to use Get-CimInstance if it exists, then try Get-WmiObject. If neither exist, then warn the user that the test results may not have all the system information. Updated TestResult to try harder to get system information (based on whether Get-CIMInstance or Get-Wmi exists). Also, change a couple of tests to be more portable when it comes to CoreCLR because TypeId does not exist as property on Parameter.
+Fixed crappy help
+V3.4.0
+Update CHANGELOG.md
+Merge pull request #479 from dlwyatt/VSCode
+Documentation and hashtable syntax support
+v2 Strict Mode fix
+Initial fix for #470
+Merge pull request #473 from TeflonJim/DevelopmentV4
+Merge pull request #478 from dlwyatt/NestedMocks
+Removed shared state across nested mock calls
+Adding failed test
+Merge pull request #477 from PetSerAl/positional-binding-fix
+Add tests
+Set PositionalBinding to $false when mocking cmdlet
+Removed trailing white space
+Fixed trailing white space
+Fixed trailing white space
+Merge pull request #474 from PetSerAl/single-quote-fix
+Add tests
+Fix mocking commands with single quote in names
+Added support for ErrorId to PesterThrow
+Merge pull request #471 from PetSerAl/args-fix
+Add tests
+Fix $args handling
+Merge pull request #467 from dlwyatt/ScriptSyntaxErrors
+Merge pull request #465 from dlwyatt/ClosuresAsMocks
+Merge pull request #468 from dlwyatt/DiscardSetupTeardownOutput
+Merge pull request #456 from splatteredbits/454-belike
+PSv2 fix
+Added newline to test script
+Discarding output from Before/After Each/All
+Adding fix
+Adding failing test
+Adding tests
+Allowing users to pass in dynamic closures for mocks
+Merge branch 'master' into DevelopmentV4
+Creating Should BeLikeExactly assertion.
+Creating Should BeLike assertion.
+Adding Out-Host to SafeCommands table
+Removing commented code
+Fixing problems from latest merge
+Merge branch 'timothywarner-master'
+Cleaned up text in README.md. Specifically, I corrected casing problems, fixed some typos, and lightly tweaked the sample code.
+Merge branch 'master' into DevelopmentV4
+Merge pull request #441 from dlwyatt/V2Fix
+Small fix for PowerShell v2
+Releasing 3.3.14
+Update CHANGELOG.md
+Merge pull request #440 from dlwyatt/MissingSafeCommand
+Adding missing Out-String command to SafeCommands table
+Adding test to make sure all SafeCommands are in the table
+Merge branch 'lboening-master'
+Spelling change and new example
+Releasing 3.3.13
+Merge branch 'MockGetCommand'
+Made code more resilient against mocking Get-Command
+Adding failing test
+Merge pull request #435 from rogers-j/patch-1
+Update Invoke-Pester description for grammar
+Releasing 3.3.12
+Merge branch 'master' of https://github.com/pester/Pester
+Test update
+Update CHANGELOG.md
+Fix for Assert-MockCalled on aliases
+Added failing test for Assert-MockCalled on an alias
+Update CHANGELOG.md
+Merge pull request #432 from dlwyatt/MockModuleQualifiedCalls
+Adding support for mocks to module-qualified command calls
+Adding new test for module-qualified mock calls
+Merge pull request #421 from dlwyatt/Inconclusive
+Merge pull request #424 from prikkeldraad/master
+Merge pull request #433 from AnneTheAgile/AnneTheAgile-doc-mstestrepo
+DOC: Add url of MS's pester tests for powershell.
+Merge branch 'alx9r-x-stack-trace-3'
+Fixing merge changes
+Merge pull request #430 from bschwede/master
+Case insensitive replacement of Test in help
+Case insensitive replacement of Test in help
+Case insensitive replacement of Test in help
+improve stack trace and exception console output change screen output to include stack trace and nested exceptions:  - add .ErrorRecord to output of Get-PesterResult  - add function ConvertTo-FailureLines  - change Write-PesterResult to write the results of .ErrorRecord | ConvertTo-FailureLines to screen pass .ErrorRecord .AddTestResult(,'Failed',...) calls in Context and Describe update CHANGELOG.md
+Merge pull request #429 from nohwnd/CaseInsensitiveCompareInNewFixture
+Case insensitive replacement of Test
+Merge pull request #427 from lboening/patch-1
+Spelling change
+Merge pull request #425 from virgilwashere/patch-1
+Update about_Pester.help.txt
+Merge pull request #370 from pcgeek86/patch-2
+Merge pull request #417 from Mikecom32/patch-1
+Updated changelog
+Alternate approach for supporting original commands called with pipeline input
+Pulling Matt's new tests
+#413 quotations added for paths which include spaces
+Adding Set-TestInconclusive
+Update CHANGELOG.md
+Merge pull request #420 from andschwa/xml-patch
+Update CHANGELOG.md
+Merge pull request #419 from mwrock/dynamic
+handle null dynamic parameter result in ps v2
+fix dynamic parameter mocks post build 10565
+Fix XML reporting on .NET Core
+Fixed link to what's new wiki page
+Releasing 3.3.11
+Merge pull request #405 from dlwyatt/MockFix
+Fixed mocking of New-Object
+Releasing 3.3.10
+Update CHANGELOG.md
+Merge pull request #401 from dlwyatt/chocolateyInstallUpdate
+Support for side-by-side module installation.  Whitespace cleanup.
+Update CHANGELOG.md
+Merge pull request #378 from tkirill/unicode-fix-#377
+Update README.md
+Added build status icon
+Removed copy of OneGet / PowerShellGet
+Fix Unicode issue in `Contain` and `ContainExactly`.
+Update README.md
+Update CHANGELOG.md
+Merge pull request #368 from transcanada/feature/issue-363
+[CF] added an additional test for the -ignore flag, and fixed the nunit report test to use the appropriate keyword
+[CF] fixes pester/pester#363
+Merge pull request #365 from dlwyatt/NewAssertionSyntax
+Whitespace cleanup
+Added tests for Should operators with aliases
+Updated all tests in the Assertions folder to use both new and old Should syntax
+Renamed parameters
+Refactoring assertion operators
+Update CHANGELOG.md
+Merge pull request #362 from dlwyatt/MockFix
+Bug fixes
+Added failing tests.
+Merge pull request #359 from pcgeek86/patch-1
+Update about_Pester.help.txt
+Initial commit
+Corrected errors from last merge.
+Merge remote-tracking branch 'origin/AssertionOverhaul' into DevelopmentV4
+Merge branch 'master' into DevelopmentV4
+v3.3.9 Release
+Update CHANGELOG.md
+Merge pull request #358 from dlwyatt/AssertionFix
+Tests fix
+Fix for stack trace reporting in Should.
+Added failing test
+Update CHANGELOG.md
+Merge pull request #354 from dlwyatt/MockFix
+Whitespace cleanup
+Fix for #353
+Added failing test
+Merge pull request #351 from pester/It-documenatation-update
+Merge pull request #348 from pester/Exist-fix
+Add documentation of Pending and Skip parameters
+returning back
+Fix Should Exist assertion to handle paths with [ ]
+Merge pull request #347 from dsolodow/master
+Corrected spelling and capitalization in help and comments.
+Update CHANGELOG.md
+Merge pull request #346 from dlwyatt/DynamicParamFix
+Remove "LegacyOutput" parameter set. Invoke-Gherkin has no legacy.
+Added more AfterAll blocks to Mock.Tests.ps1
+Fixes
+Make Gherkin reset Location after each scenario
+Potential fix for #345
+Added tests for various dynamic-parameter scenarios
+Make Gherkin reset Location after each scenario
+Fix Write-CoverageReport (Out-Host is in Core)
+Add ExcludeTag functionality
+Stop searching up one level for tests   (not sure how that was ever a good idea)
+Trivial edits to Gherkin.ps1 Added some comments pointing out that we're missing "setup" and "teardown"
+Refactor Validator to provide the same tests as gherkin code, just for kicks.
+Fix mocks (thanks @davewyatt)
+Fix output (so there is some on Pester)
+Merge remote-tracking branch 'pester/master' into LanguageDecoupling
+Merge tweaks from 'Jaykul/Syntax/Gherkin' into Pester/LanguageDecoupling
+Merge branch 'master' into LanguageDecoupling
+Update CHANGELOG.md
+Merge pull request #341 from TravisEz13/CoverageReports
+Update CHANGELOG.md
+Update pester.bat
+Merge pull request #281 from JCapriotti/master
+Update CHANGELOG.md
+Merge pull request #324 from dlwyatt/MockAssertionUpdate
+Add test coverage
+Add hits to codeCoverage object
+Help update for Assert-MockCalled
+Converted -NotOtherwise switch to -ExclusiveFilter parameter set
+Update CHANGELOG.md
+Merge pull request #323 from dlwyatt/GlobalFunctionMock
+Update CHANGELOG.md
+Merge pull request #322 from dlwyatt/WriteProgress
+Update CHANGELOG.md
+Merge pull request #327 from Jaykul/Features/ShouldBeA
+Merge pull request #333 from dlwyatt/SetupTeardownEnhancement
+Try actually running tests before pushing Because duh, Pester has tests.
+Comply with no trailing space rule
+Update Gherkin to Pester 3.3.8
+Rename BeA to BeOfType
+Fixes for #329 and #319, and bug fix in Should Be
+Merge pull request #332 from jpvantuyl/patch-1
+indentation fix
+Add a BeA test function which lets you test if an object is of a specific type.
+Add a ContainMultiline test function which lets you test if a file matches a regular expression (instead of testing if any line in a file matches a regular expression). Crazy.
+Add "Name" alias to make ScenarioName and TestName more alike.
+Add source for PowerCuke.dll
+Color the timestamps separately, because they're easier to read this way
+Start localization
+Move Gherkin Unify output and string handling a bit (not localized yet, but the first step)
+Add a -FailedLast feature to re-run failed tests
+Patch DocStringArgument
+Improve output: + only print features where at least one scenario was tested + add scenario counts for the report + add information about step file count
+Change the "Steps" back to scripts instead of modules.
+An attempt to unify with Pester a little more...
+Fix bug in step matching: the pattern should match the WHOLE name from ^ to $
+Fix bug in Path parameter (we still need to load ALL steps files)
+Fix code coverage for Gherkin
+Add support for tables in steps
+Some more output tweaks for Gherkin results
+Blindly updating wrapper code from changes to Pester Beta ;-)
+Add the keyword to the step printed output
+Refactor WHEN to just store steps in a hashtable Fix tag filtering (it's still not feature-compatible with Cucumber's) Allow multiple matches and pick the best match Fix Background (should (re)run before every test)
+Adding Gherkin Support to Pester
+Updated Readme for pre-release branch
+Fix for StrictMode compatibility in v2
+Adding some Write-Progress output to It
+Corrected typo in variable name
+Update CHANGELOG.md
+Merge pull request #326 from pester/Fail-It-on-BeforeEach/BeforeAll-fail
+Make errors in BeforeEach and AfterEach fail the test
+Fixes for #315 and #269
+Merge pull request #310 from dlwyatt/DescribeFix
+Updated changelog
+Multiple TestNameFilter fix in Describe
+Version bump to 3.3.8
+Merge pull request #307 from dlwyatt/MockFix
+Bug fix
+Added new failing test
+Version bump to 3.3.7
+Update CHANGELOG.md
+Merge pull request #306 from dlwyatt/MockFix
+Fixing #305
+Adding failing test
+Merge pull request #304 from dlwyatt/MockFix
+Fixes #303
+Merge pull request #295 from dlwyatt/MockFix
+Workaround for GetDynamicParameters() bug
+Update CHANGELOG.md
+Update CHANGELOG.md
+Merge pull request #290 from dlwyatt/RowdyBreakAndContinue
+Added do {} until ($true) loops around test script block calls.
+Initial fix for #286
+Merge pull request #285 from dlwyatt/TestsUpdate
+Added new test, cleaned up some code
+Merge branch 'ghostsquad-issue282'
+Merge branch 'issue282' of https://github.com/ghostsquad/Pester into ghostsquad-issue282
+resolves #282
+Update README.md
+Add bin folder to PATH
+Completed merge
+Merge fail...
+Merge branch 'master' into LanguageDecoupling
+Merge branch 'LanguageDecoupling' of https://github.com/dlwyatt/Pester into LanguageDecoupling
+Update CHANGELOG.md
+Merge pull request #278 from dlwyatt/MultiModuleFix
+Proposed fix for #275
+Update CHANGELOG.md
+Merge branch 'gpduck-NugetPackagePath'
+Merge branch 'NugetPackagePath' of https://github.com/gpduck/Pester into gpduck-NugetPackagePath
+Merge pull request #277 from dlwyatt/BuildUpdate
+Build script update
+Bug fix
+Improved handling of array comparisons
+Added array comparison support for Be / BeNullOrEmpty / BeExactly
+Merge pull request #276 from dlwyatt/BetterErrorMessage
+Improved error message in InModuleScope
+Update CHANGELOG.md
+Merge pull request #274 from dlwyatt/StrictModeFixes
+Making Pester StrictMode compliant again.
+Update CHANGELOG.md
+Merge pull request #272 from dlwyatt/PathOverhaul
+Test fix
+Removed obsolete Path parameter from PassThru object.
+Added line breaks to help content.
+Renamed Path parameter, added some help.
+Update CHANGELOG.md
+Whitespace cleanup
+Added another style test
+Added test to fail the build if any lines contain trailing whitespace
+Couple more tests.
+Added tests, fixed bugs
+-Path updates
+Merge pull request #266 from vors/context
+fix non-Should exception error reporting
+Remove unused ErrorDetails
+Use TargetObject for failure details to avoid serialization, which is not available on PS v2
+Added LICENSE to nuspec
+Triggering build
+Triggering CI build
+Updated Changelog
+Merge pull request #267 from dlwyatt/MockFix
+Updated test name
+Fix for mocking aliases
+Add one-line snippet from failure to provide a context
+Triggering build
+Added comment
+Preparing v3.3.5 release
+Updated nuspec
+Merge pull request #263 from ToddBowles/master
+Fixed an issue where the snippets directory did not exist, which would cause the module to fail to load when being imported in Powershell ISE.
+Merge pull request #261 from dlwyatt/TestUpdate
+Tests Update
+Updating build scripts
+Fixing tests so the build will fail on commits without tags
+Update CHANGELOG.md
+Merge pull request #259 from dlwyatt/PRTest
+Triggering build
+Trying to trigger build
+Testing automatic PR test and tag.
+3.3.4
+Build script update
+Preparing 3.3.3 release to fix PowerShellGet upload
+Reverting changes, version bump.
+Go
+Triggering build with no tags
+..
+.
+...
+Again
+Triggering build
+Triggering build
+Triggering build again
+Automated build testing
+Updated changelog for 3.3.2 release.
+Merge pull request #255 from dlwyatt/PerformanceImprovements
+Bumped version number and changelog
+Performance improvements
+Fixed indentation
+Update nupsec to take target path as a build parameter
+Merge pull request #1 from pester/master
+Merge pull request #253 from dlwyatt/TestDriveFix
+Moved TestDrive code into try/catch/finally
+Import ISESteroids snippets
+Merge pull request #249 from dlwyatt/DscCoverageUpdate
+Updated changelog
+Updated Coverage code
+Add ISESteroids snippets
+Merge branch 'master' into LanguageDecoupling
+Merge pull request #248 from dlwyatt/MockingWithMandatoryPipelineInput
+Fix for mocking functions with mandatory pipeline parameters
+WIP
+Merge pull request #241 from JamesWTruher/patch-1
+Update Pester.psm1
+Merge pull request #239 from seanhussey/patch-1
+Fix typo
+WIP
+Merge branch 'master' into LanguageDecoupling
+Merge pull request #238 from dlwyatt/ChocolateyInstall
+Added chocolateyInstall.ps1
+Merge pull request #237 from dlwyatt/Before_After_All
+Removed commented code
+Clean $error variable
+Added BeforeAll and AfterAll commands
+Update changelog: Validate manifest version, changelog version and tag version
+Add basic tests that validate the manifest, changelog and tags
+Update version to 3.2.0
+Different color schemes for dark and light backgrouds
+Update changelog
+Implement ExcludeTags, with tests. Fixes #231
+Update Changelog
+Use Test-Path (which produces no errors) instead of Get-Variable
+Fix Write-Screen error output and color
+Merge pull request #224 from pester/Quiet_mode_for_Invoke-Pester
+Replace colors with output types on Write-Screen
+Patching the Out-Host
+Add -Quiet parameter to Invoke-Pester
+Cleaned up the last merge issues from Gherkin branch
+Merge branch 'Gherkin' into Test
+Merge branch 'master' into LanguageDecoupling
+Updated about_Should help file.
+Merge branch 'master' into LanguageDecoupling
+BeGreaterThan / BeLessThan
+Merge pull request #216 from splatteredbits/master
+Bug fix in InModuleScope
+Test update
+Cleaned up mocking situation a bit
+Sorted out mocking behavior with new decoupled Context / Describe implementations.
+More tests, bug fixes
+Same refactoring for Context
+Refactored Describe
+Merge branch 'master' into DevelopmentV4
+Fix call to AddTestResult in old format
+Updating version to 3.1.1
+Add tests that run in separate Pester instance
+Add PendingCount and SkippedCount to PassThru output
+Merge pull request #221 from dlwyatt/ItTests
+Updated tests for It command
+Fix the ItImpl parameters
+Fix text formatting problems for non en-US systems
+Updated version number in manifest
+Update CHANGELOG.md
+Merge pull request #219 from dlwyatt/MockFix
+Merge pull request #220 from dlwyatt/ParameterizedTestsRebase
+Whitespace cleanup
+Added test for previous commit
+Parameter order in XML
+Added description tag to test-case elements in new NUnit export.
+Adding updated NUnit export format
+Minor cleanup
+Refactored NUnit export function
+Added new parameter set for specifying export path / format
+Added more thorough tests of the It command
+Refactoring to allow more thorough testing of It command
+Add support for Parameterized Tests
+Examples update
+Mock ParameterFilter fix
+Add Skipped and Pending test results
+Adding BeGreaterThan assertion.
+Update CHANGELOG.md
+Merge pull request #215 from dlwyatt/MockFix
+Bug fix in mocking
+Fix mocking of Get-ItemProperty and possibly other cmdlets
+Version bump change log update
+Version bump
+Update version to 3.0.2
+Fix Team City build
+Update CHANGELOG.md
+Merge pull request #209 from dlwyatt/MockBugFix
+Mocking bug fix
+Added Help to exported "internal" functions
+Combined exported functions
+Set-DynamicParameterVariables update
+Set-DynamicParameterVariables changes
+DynamicParam update
+Merge pull request #207 from dlwyatt/DynamicParamFix
+Still more DynamicParam fixes
+Merge pull request #206 from dlwyatt/DynamicParamFix
+Mocking fix
+Update CHANGELOG.md
+Slight tweak to avoid PowerShell 3.0 bug
+Slight cleanup of Get-DynamicParametersForCmdlet code
+Update CHANGELOG.md
+Merge pull request #203 from pester/MockingDynamicParameters
+Removing breaking change
+Mocking commands that have Dynamic Parameters
+Merge pull request #202 from Jaykul/Gherkin
+Add "Name" alias to make ScenarioName and TestName more alike.
+Add source for PowerCuke.dll
+Color the timestamps separately, because they're easier to read this way
+Start localization
+Move Gherkin Unify output and string handling a bit (not localized yet, but the first step)
+Add a -FailedLast feature to re-run failed tests
+Patch DocStringArgument
+Improve output: + only print features where at least one scenario was tested + add scenario counts for the report + add information about step file count
+Change the "Steps" back to scripts instead of modules.
+An attempt to unify with Pester a little more...
+Fix bug in step matching: the pattern should match the WHOLE name from ^ to $
+Fix bug in Path parameter (we still need to load ALL steps files)
+Fix code coverage for Gherkin
+Add support for tables in steps
+Some more output tweaks for Gherkin results
+Blindly updating wrapper code from changes to Pester Beta ;-)
+Add the keyword to the step printed output
+Refactor WHEN to just store steps in a hashtable Fix tag filtering (it's still not feature-compatible with Cucumber's) Allow multiple matches and pick the best match Fix Background (should (re)run before every test)
+Adding Gherkin Support to Pester
+Updated Readme for pre-release branch
+Update CHANGELOG.md
+Merge pull request #200 from dlwyatt/CoverageLoopFix
+Closing conditions of Do/Until and Do/While now ignored by Coverage
+Fixing wrong version in the manifest, publishing new version so I can update it on Nuget/Chocolatey
+Updated version in psd1 file
+Upping the version to 3.0.1
+Update CHANGELOG.md
+Merge pull request #195 from dlwyatt/NUnitFix
+Export-NUnitReport function was missing a close tag
+Update README.md
+Merge pull request #192 from pester/Verbose-output-for-Be-and-BeExactly
+Add verbose output for string comparison for Be and BeExactly
+Merge branch 'master' of https://github.com/pester/Pester
+Fix nuspec nuget specification to build the 3.0.0 package correctly Remove the no longer needed items. Add manifest and nunit schema to the nuspec package specification file and order the items in the specification file a bit better.
+Add 3.0.0 change notes and link to CHANGELOG.md
+Updating the version to 3.0.0, finally!
+Update CHANGELOG.md
+Merge pull request #190 from dlwyatt/HelpUpdates
+More Help updates
+More Help updates
+Help Updates
+Update CHANGELOG.md
+Merge pull request #188 from dlwyatt/BetterErrorMessages
+Better error messages when exported commands are called out of order
+Update CHANGELOG.md
+Merge pull request #187 from dlwyatt/MockFix
+Fixing a mocking parameter bug
+Update CHANGELOG.md
+Merge pull request #186 from dlwyatt/DescribeAndContextErrorOutputFix
+Describe / Context error output fix
+Update CHANGELOG.md
+Merge pull request #183 from dlwyatt/DebuggingInfoInModuleScope
+Update CHANGELOG.md
+Merge pull request #185 from Jaykul/OutputFix
+Merge pull request #184 from Jaykul/Beta
+Fix results output for comparison tests #181
+Add complete description from nupkg PowerShellGet generates a nupkg from the manifest, so these need to match what you want in there.
+Make module compatible with PowerShell 5.0 (and PowerShellGet and PoshCode + Chocolatey)
+Make module manifest compatible with PowerShell 2.0
+Reporting correct file name
+Add module manifest
+Code called inside InModuleScope now retains file / line information
+Update CHANGELOG.md
+Merge pull request #176 from dlwyatt/RevertingItScope
+Mocks are no longer tied to the It scope.
+Updated changelog for PR168.
+Merge pull request #168 from dlwyatt/DescribeAndCheckoutFailureReport
+Removed tab characters from previous commit
+Test failure for script file errors (syntax, etc)
+Errors reported from Describe and Context blocks
+Changelog update for PR174
+Merge pull request #174 from dlwyatt/DescribeFix
+Describe and Context fix
+Updated changelog for PR172.
+Merge pull request #172 from dlwyatt/NoStrictModeByDefault
+Pester.bat no longer enables strict mode.
+Update change log for PR 171
+Merge pull request #171 from dlwyatt/PesterThrowFailureMessageUpdate
+Small fix for PesterThrowFailureMessage
+Merge pull request #170 from dlwyatt/FormattingCleanup
+More formatting cleanup
+Formatting cleanup
+Cleaning up pester.psm1
+Removed unnecessary variable from PesterThrow.Tests.ps1
+Merge branch 'master' into Beta
+Update CHANGELOG.md
+Merge pull request #167 from dlwyatt/AssertMockCalledFix
+Assert-MockCalled fix
+Fix formatting
+Changelog for previous changes
+Merge pull request #166 from dlwyatt/TestPathFix
+Merge pull request #165 from dlwyatt/LegacyExpectationsCleanup
+Merge pull request #164 from dlwyatt/ScopeBehaviorChanges
+Invoke-Pester tests path fix.
+Rolling back some earlier Pester Scope changes
+Removed EnableLegacyExpectations switch
+Change formatting to comply with rules discussed in #161
+Update chanegelog
+Revert "Add beforeeach aftereach changelog"
+Revert "CodeCoverage of files containing DSC Configurations changelog"
+CodeCoverage of files containing DSC Configurations changelog
+Merge pull request #163 from dlwyatt/CoverageOfConfiguration
+Add beforeeach aftereach changelog
+Merge pull request #158 from dlwyatt/SetupTeardown
+Small update
+CodeCoverage of files containing DSC Configurations
+Initial implementation of BeforeEach / AfterEach
+Fix calls to Test-Path
+Updating changelog
+Merge pull request #156 from dlwyatt/CoverageOutputUpdate
+Merge pull request #155 from dlwyatt/SuppressTestOutput
+Common parent path based on all coverage files, not just missed
+Coverage Output Update
+Suppress pipeline output in Context / Describe
+Do not show warning if resolved code coverage path is folder
+Merge pull request #154 from dlwyatt/OutputXmlV2Compatibility
+Got NUnit export working on PowerShell v2 again.
+add function name to code coverage output changelog
+Merge pull request #152 from dlwyatt/AddFunctionToCoverageOutput
+Coverage output now also includes function name
+Update the readme.md
+Remove tests testing usage of global scope
+Remove legacy object adaptations support
+Remove Validate-Xml
+Fix relative paths for OutputXml
+Add Changelog entries for the two recently merged PRs and references to previously merged PRs
+Merge pull request #150 from dlwyatt/CoverageHashtableOutput
+Merge pull request #149 from dlwyatt/CoverageTestFix
+Better output for Hashtable Key-Value pairs in CodeCoverage report
+Coverage tests fix
+Remove the templates from nupackage specification
+Add beta2 release notes
+marking the 3.0.0-beta2 release
+Merge branch 'dlwyatt-CodeCoverageAnalysis' into Beta
+Added some Verbose output to CodeCoverage initialization
+CodeCoverage automatic path filtering
+Added tests for Coverage functions
+Added Code Coverage report to Passthru output
+Removed some unnecessary comments, added documentation
+Removed duplicate breakpoints.  Some refactoring.
+Code coverage by function name
+More features, some refactoring
+Rolling back whitespace changes to Beta branch
+Command text now includes "return" and "throw" statements
+Backtracking...
+Adding Coverage Analysis (first pass)
+NUnit OutputXML updated
+Update changelog for PR 147
+Merge pull request #147 from dmonger/print-exception-source
+When PesterThrow catches an unexpected exception, record the source of the exception into the exception message
+Merge branch 'dlwyatt-ParameterFilterFixes' into Beta
+ParameterFilter fixes
+Merge branch 'dlwyatt-GlobalMockFix' into Beta
+Direct test execution fix
+Update README.md
+Bumping the version up to 3.0.0-beta
+Changed alias mock test
+Changed default behavior of Assert-MockCalled
+Reported times are now more accurate
+More documentation updates
+Documentation updates, small bug fix and code cleanup
+Update to Invoke-Pester output
+Mock call history change
+Changes to mock call history behavior
+Test fix for direct execution
+Direct Test Execution fix
+Removed comment
+StrictMode compatibility
+Test update for PowerShell 2.0 compatibility
+PowerShell 2.0 compatibility fix
+Small fix for PowerShell 2.0 compatibility
+Mock Call History scoping
+Added failing tests
+It gets its own Pester scope
+Mocking update (module scope separation)
+More mocking fixes
+Scope Isolation and Direct Test Execution
+Fixing TestName
+marking the 2.1.0 release
+Enable latest strict mode when running all tests
+Merge branch 'dlwyatt-MockSafety'
+Fully-qualified commands
+Update Mock help to reflect ModuleName parameter
+Validation of Assertion Method in Should
+Merge branch 'dlwyatt-StrictModeFixes'
+Initialize $PesterException
+Fix Parse-ShouldArgs in PowerShell strict mode
+Fix internal module support to work on PowerShell 2
+Fix Team City builds
+Add more links to further reading and resources
+Fix error message in Testdrive Cleanup
+Added support for mocking: * internal module methods * alias commands * application commands * filter commands
+Describe throw if no fixture
+updating CHANGELOG for pester.bat execution policy
+Merge pull request #131 from nfisher/master
+[fixes #130] Changed ExecutionPolicy to Bypass to avoid failure.
+Fix Should Throw filtering by exception message
+Process It in memory
+Fixing hash signs in Describe name
+updating docs to use latest should syntax
+marking the 2.0.4 release
+Fix tag filter
+Move New-Fixture out of Pester.psm1
+New-Fixture standardized
+Merge branch 'fix_exceptions_in_new-fixture'
+Fixes Bug #114: New-Fixture raises exception when using $pwd directly as -Path parameter. Restricts parameters to [string] instead of letting powershell decide which datatype to use
+Add PassThru option to Invoke-Pester
+Make output better structured
+Clean up Invoke-Pester interface
+Fixing internals for Vista
+Fixing output and internals
+Merge pull request #112 from nohwnd/ShouldBeExactly
+Add case sensitive assertions
+Merge pull request #111 from nohwnd/TestResultCultureAgnostic
+make Get-TestTime culture agnostic
+Add case sensitive assertions
+make Get-TestTime culture agnostic
+Merge branch 'random_testdrive_dirs'
+Random directory for TestDrive.
+this should fix the build. weird 3.0 and 2.0 differences
+TestDrive implemented
+Merge pull request #96 from pullrich/master
+Fix a typo.
+updates for latest merged in PRs
+Merge pull request #86 from ogrishman/patch-2
+Merge pull request #92 from nohwnd/master
+Change colors of output to dimmer colors.
+Update CHANGELOG.md
+Merge pull request #90 from xinhuang/master
+add test for `It` if no test block is given
+throw an exception when test script block of `It` is not provided, if user adopts ANSI (Allman) style to put open curly brace on a new line
+Merge pull request #85 from ogrishman/patch-1
+Make the New-Fixture function accepts "." (the current workding directory) as the $path parameter
+Fix the typo
+Merge branch 'amitelad7-master'
+adding an explanatory test fixes #52
+fixed the fact that the test drive is not available in case it has special chars like a . in it"
+Merge branch 'artribou-bugfix-mock-outfile'
+adding release note and whitespace. fixes #71
+Fix mocking out-file in describe block
+Merge branch 'jole78-get-testdrive-item'
+release note and whitespace cleanup. fixes #70
+Merge branch 'get-testdrive-item' of https://github.com/jole78/Pester into jole78-get-testdrive-item
+Merge branch 'jole78-remove-item-mock'
+updating releases notes and fixing whitespace for. fixes #68
+added fix for cleanup when remove-item is mocked
+Merge branch 'jole78-setup-passthru'
+adding Setup -Passthru reference to release notes fixes #69
+Merge branch 'setup-passthru' of https://github.com/jole78/Pester into jole78-setup-passthru
+Merge branch 'edharper01-issue58'
+rejigged tests to handle error code matching fixes #58
+Improve exception reporting by indicating whether an error was raised or not independently of whether the error message matched
+Encapsulate the expected/actual messages in curly brackets, as with other expected/actual comparisons
+reset the error message between each run
+Fix for Issue #58 - thrown error is reported, and can be compared to an expected value
+added Get-TestDriveItem function
+added support for -PassThru for Setup
+Merge pull request #64 from richardwadsworth/feature/fixReadMe
+add missing text example for Powershell function "Build"
+Merge pull request #62 from areyling/master
+Fix for #61
+Fix for #61
+Added test cases for #61 (third one fails)
+Merge pull request #60 from Matthew-Davey/master
+Update README.md
+adding changes to CHANGELOG
+Merge branch 'codito-issue-50'
+Refactor null expression input into a separate test for Should.
+Use script block to pass input to Should Throw validation for Assert-VerifiableMocks.
+Modify Should to handle pipeline input in END block. Closes #50.
+Add test for issue #50: pipe a null expression into Should.
+Merge branch 'issue-49/new-fixture-should-use-new-assertion-syntax'
+removing new-fixture from batch invocation
+new-fixture uses assertion syntax fixes #49
+Merge pull request #48 from pvaillant/master
+Fix typo in documentation
+adding back a test i accidentily removed #oldAndSenile
+fix errors when tests assign to variables named test or exception
+updating CHANGELOG for release 2.0.3
+adding a scoping example to Mock comment help
+adding documentation to call out mock scoping behavior
+updated changelog to reflect recent changes
+fix bug when trying to override a describe soped mock with a context mock and the describe mock is the only mock in the table
+fixing powershell 2.0 incompatibility with array pipline behavior
+adding tests for param filtered mocks since they have slightly different logic paths
+adding scoping to mocks
+fixing location of the newly added example
+adding example using mocks to test validators
+fixes failure line numbers from should assertions on PS 2
+fix global pollution test which is breaking in powershell 3
+test failures were not failing build
+closed #40 lookig for line number in test file and eliminating line in should.ps1
+updating CHANGELOG for new fix and prepping for release
+Merge pull request #44 from mitchelldavis/master
+The $failedTestsCount was null
+making switch conform to naming standard
+releasing 2.0.0. Disabling old style assertions by default
+getting ready for 1.2.0 release
+adding Contain assertion which will fix #13
+assertion tests no longer have cyclic dependencies
+adding new functionality to CHANGELOG
+enabled workaround that fixes #19 and fixes #27
+all Pester tests use new assertions
+adding Should Match and updating Pester tests
+moving as many pester tests to new assertions
+adding Exist assertion function
+Changing assertion functions to follow naming convention
+updated CHANGELOG and Examples with new functionality and fixes
+Adding Throw assertion which fixes #37
+adding BeNullOrEmpty assertion. This fixes #39
+fix example in TesdDrive About help
+Refactored 'Should'
+Breaking things into their respective files
+fixed bug I introduced in error output
+using args array to parse Not
+removed the gci to call dynamic function
+now invoking the assertion method in a better way
+trying out a new assertion syntax
+updating CHANGELOG for scoping fixes
+looks like some variables will always leak, but essentially this fixes #9. will leave scoping of functions for now.
+moving testResults onto $pester scope. Still working on #9
+still working on #9. Test simply spits out the extra keys that exist when a test is running
+working on issue #9. unfortunately this will break the build
+adding CHANGELOG item for describe tagging
+adding tags to the example spec
+Merge branch 'add_tagging' of git://github.com/rismoney/Pester into rismoney-add_tagging
+moved png to pester.github.com repo
+renaming default.ps1 to a more clarifying name build.psake.ps1
+moving xsd out of the root
+succumbing to my OCD. fixing whitespace, and making long lines into multi-line statements
+adding a changelog to better document releases
+adding some pipeline assertion functions
+Merge pull request #38 from stack72/master
+added support for should.not_be when writing tests. In order to test this, an additional test was added to the calculator to make sure that the sum was not a specific number.
+Merge pull request #36 from ming13/readme-syntax-highlighting
+Use PowerShell syntax highlighting in the readme file.
+fixing line number resolution for PS 2.0 (ie pretty much everyone)
+add tagging functionality to pester describes
+add support for mocking functiond that take pipeline input
+getting nuget package ready for movement of logo image to official website
+removing test file.
+fixes error when mocking a cmdlet in PS v2 that is already masked by another functin and PS adds the Common params to the metadata
+adjust tests to test bound/unbound cases
+add help documentation regarding module limitations of mocking
+fix bug with unbound params and fix line number inaccuracy when the test file is not at the top of the stack
+add a more complete description to nuspec
+add link to google group on readme
+use last tag as version number
+add tags to nuspec for better discoverability
+add link to wiki and TC result wiki from readme
+Make the default mock implementation a default script block
+get rid of unnecesary console output in mock tests
+pester should play nice with team city
+fixing some doc typos
+Updating mocking code to support passing unbound arguments
+use psake script dir for base dir
+add help files to nuspec
+make full help reachable from batch file
+remove final build number
+add more links to comment help
+readme changes
+readme changes
+updating readme
+clean up about files
+adding a pester help topic
+add doc for the TestDrive
+completing should doc
+more help docs
+added almost all comment help for exportd funtions
+adding more comment docs and fixed a ps2.0 bug
+adding documentation to commands.
+add documentation for Assert-MockCalled
+a few small fixes to mocking
+finished assert-mockcalled i think
+adding new Assert-MockCalled feature: exciting stuff!
+fix clear-mocks by explicitly clearing hashtable
+fix tests
+make sure filter is a boolean
+inline help docs added, some small formatting improvements needed for examples
+mocking complete.
+added some lost tests i accidentally cut and added param passing
+mock works with any command (not just functions) and the parameter filters are implemented. also implemented Clear-Mock
+mock renames funcion and invokes mock script
+starting mocking...so exciting!!
+Merge pull request #31 from mnaoumov/StrictModeFix
+Replaced FailedTestCount with FailedTestsCount which caused failure if you set Set-StrictMode -Version Latest
+fixing typos in nuspec xml
+removing the version 3 specific csharp requirement. This shouls fix #28
+breaking command into multiline, makes it easier to read imho
+fix icon url
+adding icon to nuspec and changing project url
+add psake tasks for releasing
+mark module with version and changeset sha1 it was built as
+adding psake builds with package restore for psake
+remove dependency on PSCX module and use a script fron the Technet samples site for XSD validation
+fix pester.bat with no args
+fix filtering by test name
+Merge pull request #25 from mwrock/master
+fix test result summary, broken exit code and batch file exit
+bumping version to 1.0.6
+Minor change to the test result xml extension
+Updated README.md
+Added test time information in console output
+Refactored Templating and TestResults. Added Test to validate generated nunit xml against the nunit 2.5 schema, unfortunately it is dependent on PSCX, might need to find a better way of validating xml against a schema.
+Added test categories, so every Describe will create its own nunit Test Suite. TODO: Need to write a test that validates generated nunit xml with nunit schema.
+Added enviroment xml template, refactored test output writing
+Added ability to pass in xml outputfile. Updated format using test-suite, environment etc
+Generating some basic nunit xml results.
+normalizing line endings
+put back enableExit
+add Invoke-Pester parameter to specify test name to run
+Re-arranging the nuget packaging code
+Merge pull request #20 from uncas/NuGet
+Update example.
+Add example script.
+Add script to generate NuGet package.
+added flag to actually exit session to fix #18
+Merge pull request #17 from staxmanade/patch-1
+Update README.md
+Update README.md
+Updated the readme. Fixed one typo. Added some links to further reading.
+Merge pull request #16 from ferventcoder/Improve_Command
+Create pester.bat that will forward to runtests and also allow new fixture creation
+Runtests should not be tied to current directory to import pester.psm1. It should also send back a non-zero exit code when it fails.
+Merge pull request #14 from Iristyle/master
+Added some simple + / - type checkboxes to the output stream
+BUGFIX: Changed to here string style output to temp file, which prevents spurious MissingEndParenthesisInExpression excpetions (often I get @{should=System.Object}Missing closing ')' in expression' Results in preservation of original whitespace (keeps tabs in my case and does not output spaces like the original code).. not sure why this fixes the issue, but it does.
+Including only .ps1 files in the fixtures
+Added Apache version 2.0 license
+Removing line-by-line evaluation and using script block evaluation and adding support for test failure line numbers
+Merge branch 'master' of github.com:scottmuc/Pester
+Removed library import script. Convert to module members
+Merge pull request #7 from martinaatmaa/bugfix_context-setup-step
+Removed overriding of pwd
+Modulized Pester and removed Nuget stuff (ditching that as an install medium
+Fixed bug in Context fixture, where Setup was not being called
+Fixed pwd when using 'In /foo -Execute {something}'
+Added the ability to obtain console transcript of code under test
+Added the creation of TestDrive for every Describe blog and updated tests
+Fixed bug in Create-Fixture that breaks when path variable starts with .\
+Creates empty implementation of the function under test
+Merge pull request #5 from manojlds/master
+Introducing PesterFailure type which is returned on failure of any assertion
+Displaying more details like test file name, line number and expected and observed values when a test fails
+Merge pull request #2 from martinaatmaa/feature_context
+Merge pull request #1 from martinaatmaa/feature_assertions
+Fixed bug in the It method
+Added a 'be_like' method to assertion type
+Added a 'match' method to assertion type
+Added a 'Test Depth' property to the global test results object
+Added a context group
+Show usage if called with no parameters
+fixed bom issues?
+removed BOM
+Using TestDrive: syntact instead of TestDrive variable for filesystem integration testing
+Added a file.should.exist() extension for file system testing
+Added  variable to remove hard coding of temp path
+Added nuget and packaging script
+Removed PowerYaml reference
+Made filesystem setup much easier
+Added PowerYaml Dependency. Need to an exlucde folder to Pester-Console.ps1
+Create FileSystem can take yaml trees to populate filesystem tests
+Creating help to create temp filesystem environment
+Added a utility to automatically create fixtures
+Added collection count check
+runtests.bat has exit code. Spiking out test data container
+Pester-Console returns a non 0 exit code if tests fail
+Minor file system organization change
+Initial commit with the basics working

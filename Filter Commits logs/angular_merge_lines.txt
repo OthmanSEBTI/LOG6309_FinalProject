@@ -1,0 +1,8 @@
+docs(common): Merge two ngOptimizedImage docs into one (#47990)
+refactor(dev-infra): provide entire pull request object to waitForPullRequestToBeMerged (#42871)
+fix(ExtractorMerger): returns errors together with nodes (as a ParseTreeResult)
+feat(ExtractorMerger): ignore implicit tags in translatable sections
+feat(ExtractorMerger): allow nested implicit tags
+docs: RenderProtoViewMergeMapping typo Closes #4042
+feat(broccoli): add diffing MergeTrees plugin
+Merge pull request #1909 from angular/view-ref-return-types

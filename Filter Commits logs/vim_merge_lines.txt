@@ -1,0 +1,10 @@
+Merge branch 'master' of github.com:vim/vim
+Merge pull request #5275 from vim/revert-5273-cirrus_ci
+Merge pull request #5273 from chrisbra/cirrus_ci
+patch 7.4.1932 Problem:    When writing viminfo the jumplist is not merged with the one in             the viminfo file. Solution:   Merge based on timestamp.
+patch 7.4.1911 Problem:    Recent history lines may be lost when exiting Vim. Solution:   Merge history using the timestamp.
+patch 7.4.1340 Problem:    Merge left extra #endif behind. Solution:   Remove the #endif
+patch 7.4.1127 Problem:    Both old and new style tests for Perl. Solution:   Merge the old tests with the new style tests.
+updated for version 7.3.910 Problem:    Python code in #ifdef branches with only minor differences. Solution:   Merge the #ifdef branches. (ZyX)
+Merge patch 7.2.434.
+Merged change from default branch: Correct Japanese menus.

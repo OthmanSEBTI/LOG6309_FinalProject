@@ -1,0 +1,567 @@
+Fix typos (#4415)
+Fix extraneous qualifiers added during CSE (#4401)
+Fix replicated type hole suggestions (#4374)
+Fix inconsistency between `stack test` and `cabal test` (#4354)
+Fix CI golden test; update test deps' either/tailrec to 6.1.0 (#4329)
+Fix incomplete type traversals (#4155)
+Fix crash caused by polykinded instances (#4325)
+Fix bad interaction between module renaming and inliner (#4322)
+Fix purescript-installer call for prereleases (#4321)
+Fix npm publish (#4320)
+Fix Prim.Int class Compare docs (#4313)
+Fix issue with unnamed instances using type operators (#4311)
+Fix broken link to 0.15 migration documentation (#4305)
+Fix package set step by upgrading npm in CI (#4302)
+Fix release build path issue; make 0.15.0-alpha-04 release (#4279)
+Fix ownership of the CI working directory (#4276)
+Fix warning suppression for wildcard types (#4269)
+Fix type operators in declaration param kinds (#4220)
+Fix backtick offside rule (#4172)
+Fix regression in row unification (#4168)
+Fix Discord link in README (#4167)
+Fix UnusedName for multiple non-recursive let bindings (#4114)
+Fix unnamed instance docs issue (#4111)
+Fix errors when generating Haddocks (#4073)
+Fixup docs for libtinfo change (#4075)
+Fix shift/reduce conflicts (#4063)
+Fix printing of hiding imports (#4058)
+Fix kinded declaration reordering in desugaring (#4047)
+Fix wildly off kind unification positions (#4050)
+Fix row unification with shared unknown in tails (#4048)
+Fix exponential collapsing of BindingGroups (#4006)
+Fix operator qualifier reversal bug (#3971)
+Fix `Coercible` golden tests (#3931)
+Fix CoreFn FromJSON version parsing and add test (#3877)
+Fix hlint warnings (#3864)
+Fix build with new Happy versions. (#3837)
+Fix substitution during kind generalization (#3831)
+Fix make ghcid (#3826)
+Fix DuplicateModule.purs golden test (#3811)
+Fix typos (#3795)
+Fix typos (#3760)
+Fix error with using Haddock markings in comments where they should not belong (#3745)
+Fix for ES object shorthand in purs bundle (#3742)
+Fix #3722, shows entire row with --verbose-errors flag (#3733)
+Fix #3727 (#3731)
+Fix #3558 (#3682)
+Fix parsing of comma-separated guards in let statements (#3713)
+Fix multiple "let"s in ado before the final "in" (#3679)
+Fix printing of tokens with string escapes (#3665)
+Fixes to allow building with Cabal (#3660)
+Fixes let/in expressions within ado (#3628)
+Fix sharing in function composition inlining (#3439)
+Fix travis deploy
+Fix making releases on Travis CI
+Fix "purs ide server" crash on macOS by providing connection hints (#3597)
+Fix browser repl backend, fixes #3387 (#3535)
+Fix: ado notation breaks docs generation (#3514)
+Fix kind error for recursive data type (#3511)
+Fix source spans for binding groups (#3462)
+Fix isUnquotedKey check to allow reserved names (#3487)
+Fix `isUnquotedKey`, fixes #3479 (#3480)
+Fix linting of unused type variables (#3464)
+Fix ST magic-do and inlining (#3444)
+Fixes #3388 (#3437)
+Fix test-support dependency versions and update psci browse test (#3374)
+Fix purs bundle to recognise explicit paths (#3361)
+Fix handling of Prim submodules with docs (#3349)
+Fix tests after merging symbols into prelude (#3322)
+Fix errors in binding groups missing source spans (#3278)
+Fix :browse Prim, it has no ExternsFile (#3246)
+Fix source span for a case of ScopeShadowing warning (#3219)
+Fix various typeclass-related error spans (#3216)
+Fix `UnusedTypeVar` missing position info (#3214)
+Fix build errors in master (#3215)
+Fix error on missing type class name with non-exported superclass (#3132) (#3173)
+Fix functional dependencies rendering as links (#3184)
+Fix #3131 Ide inserts conflicting imports for types (#3139)
+Fixed type shadowing error (#2967)
+Fix #3131 Ide inserts conflicting imports for types (#3139)
+Fix entailment issues with skolems and matches (#3121)
+Fix proxies: synonyms, inference, traversals, instances (#3095)
+Fixed type shadowing error (#2967)
+Fix AppVeyor deployment (#2774) (#3029)
+Fix pretty-printing of class names in hierarchy (#3013)
+Fix type operator precedence parsing, fix #2958 (#3009)
+Fix a loop in the kind checker (#3005)
+[purs-ide] Fixed case-splitting on local non-exported datatypes (#2986)
+Fix source links for re-exports (#2997)
+Fix fragment links to type constructors in HTML (#2989)
+Fix child decl ordering (#2984)
+Fix links to type operators in HTML docs (#2979)
+Fix test dependencies (#2927)
+Better variable naming hygiene in TCO. Fixes #2868 (#2875)
+Fix kind signature for RowCons typeClassData (#2859)
+[purs ide] Fixes the import command for kinds (#2858)
+Fix #2772, match type level strings in docs renderer (#2824)
+[purs ide] Fix encoding bug in list import command (#2818)
+#2787 Fix special case in guard codegen (#2789)
+Fix TCO issue when pattern matches can fail (#2739)
+Fix minor typo in PSCi script (#2727)
+TCO Fixes (#2719)
+Fix everythingWithScope traversal bug, fix #2718 (#2720)
+Fix Generic deriving with synonyms (#2706)
+Fix tests in CI build (#2705)
+Fix typo (#2698)
+Fix for unknown Warn type class constructor (#2666)
+Fix builtin links (#2641)
+Fix psc-publish --dry-run (#2612)
+Fix failure to parse git tag date in psc-publish (#2613)
+[psc-ide] Fix #2504
+Fix #2584
+Fix #2578, defer warnings from typeDictionaryForBindingGroup call.
+Fix 'Unknown type index' on mismatch between class and instance argument counts
+Fix inlining for negateInt
+Fix parsing for named binders. Some tidying up.
+Fix object key quoting
+Fix psci tests
+[psc-ide] Fixes tests on windows
+Fix #2459, add verify-set command to psc-package
+Fix some issues with the pretty printer, fix #2039
+Fix version bounds on language-javascript
+Fix merge leftover
+Fix windows CI
+Fix GHC 8.0.2 build (and fix #2421) (#2422)
+Fix inliner for integer bitwise operators
+Fix #2379, add error message for unknown classes (#2396)
+Fix issue with typed holes in inference mode (#2386)
+Fix inliner for Data.Array.unsafeIndex (#2389)
+Fix scope traversal for do-notation bind.
+Fix #2362, treat type annotations on top-level expressions as if they were type declarations (#2366)
+Fix #2370, allow rows in instance contexts
+Fix #2331, substutute types in newtype class deriving
+Fix #2332, allow newtype deriving when newtype is not fully applied
+Fix usage detection for operators
+Fix the duplicate/redefined module error
+Fix handling of duplicate module imports in JS codegen
+Fix test for fixed Show instance for Number
+Fix a small bug in the type pretty-printer
+Fix function application judgment
+Fix inlining for apply operators
+Fix weird parser issue identified by @FrigoEU
+Fix most HLint warnings
+Fixes Language.PureScript.Types.everywhereOnTypesTopDown
+Fix #2252, instantiate types in array literals before unification (#2258)
+Fix for #2244 (#2246)
+[psc-ide] Fix unicode encoding of json responses
+Fix build for programmable type errors after merge
+Fix issues with multiple data/type decls
+Fix core-tests (#2162)
+Fix PSCi imports
+Fix #2149, remove support for = in ObjectBinder (#2152)
+Fix issue 2128 (#2144)
+Fix #2070, typed hole errors now include environment information
+Fix #2055, desugar ParensInType inside typed binders
+Fixes #2064 (#2107)
+Fix for issue #2093: Test  contains an unreliable comparison
+Fix #2092, precedence of type application (#2098)
+Fix #2049, Pattern matching on aliases doesn't work well with as-patterns
+Fix some pretty printing issues
+Fix #2042, use JSON for parser errors in rebuild
+Fix prettyprinter for types
+Fix cycles being detected with qualified imports
+Fix spurious import suggestions when re-exporting
+Fix re-exports to include intended exports only
+Fix #1991, instantiate polymorphic types before unification in if..then.else
+Fix for rendered constrained types needing parens.
+Fix indentation bug #1881
+Revert "Fix indentation bug #1881"
+Fix #1889, improve performance by avoiding whitespace operations on large strings
+Fix indentation bug #1881
+Fix detection of single open import
+Fix true not being treated as an infallible guard
+Fix pretty printer spinning
+Fix Windows build script
+Fix bundler to use stack
+Fix source map path with default output dir
+Fix redundant case warning in derived Ord instances
+Fix #1846, start work on '_ - 1' syntax for sections
+Fix #1839, Renaming for nested constructor binders
+Fix generic deriving bug with >1 type argument
+psc-docs: Fix crash for certain kinds of reexports
+Fix #1825, generate fresh binder names unless all names in case are equal
+Fix #1794, preserve external require expressions when minifying
+Fix #1802, fix #1797, remove redundant hints and whitespace in errors
+Fix #1796, don't print to stderr when using json errors
+Fix #1779 spurious UnusedDctorImport
+allow git@github.com in extractGithub. Fixes #1549
+Fix warning about values missing from virtual modules
+Fix #1742, revert import (..) change
+Fix #1732, calculate type map separately for each error
+Fix #1723, revert parser change.
+Fix the name of handleDeclaration
+Fix #1700, remove featureRemoved calls in parser (for 0.8)
+Fix #1645, implement new indentation rules for types
+Fix #1523, add --json-errors flag.
+Fix incorrect unused class warning
+Fix psc-publish test
+Fix #1662, display extra type info in instance errors
+Fix #1664, check kind before expanding wildcards.
+Fix up shadowed module names in JS codegen
+Fix two cases where errors were missing context
+Fix tests.
+Fix #1185, fix #1369, add everythingWithScope traversal to correct some scoping issues.
+Fix #1636, instantiate polytypes fully, even under constraints.
+Fix codegen error with instance for re-exported class
+Fix missing data constructors in re-exports
+Fix #1479, encode .js files as UTF8.
+Fix #1632, instantiate type variables in anyProxy calls in generic instances.
+Fix missing spaces in psc-publish error message
+Fix warnings for unqualified implicit imports
+Fix #1596, don't show type checker warnings in the event of an error
+Fix #1090, allow accessors in operator sections
+Fix #1590, limit depth of pretty-printed expressions
+Fix #1591, use the 'negate' in scope
+Fix #1335, track scoped type variables when skolemizing
+Fix #1175
+Fix redundant import
+Fix < 7.10
+Fix #1578
+Fix #1465
+All you need is nub. Fix #1582
+Fix #1577, fix #1130
+Fix #1072
+Fix build for < GHC 7.10
+Fix double-warning issue
+Fix build for GHC < 7.10
+Fix tests
+Fix #1297, reduce memory usage from WriterT
+Fix #1570
+Fix #1534 again
+Fix #1315
+Fix ExtraRecordField example
+Fix #1169
+Fix #1557
+Fix #1534
+Fix #1551
+Fix #1543
+Fix #1535
+Fix #1476
+Fix #881, improve error for out-of-order declarations in instance
+Fix a silly mistake
+Fix #1524, render kinds as single line strings.
+Fix #1261
+Fix lts-2.22 travis job
+Fix warnings
+Fix conflicts
+Fix #922, take 3
+Fix type class issue with synonyms
+Revert "Fix #922"
+Fix some expected error messages in tests
+Fix #862
+Fix #922
+Fix #1310
+Fix warning
+Fix #1042, better messages for ExpectedType errors.
+Make some errors simpler. Fix #1387.
+Fix function composition inlining
+Fix import warnings in test suite
+Fixes running tests on Windows
+Fix shadowing issue
+Fix shadowing of sequenceA
+Fix #421, match type instance heads eagerly
+Fix #386
+Fix module name
+Fix #1246
+Fix #1321
+Fix #1260
+Fix #1336 and #1334
+Fix another "path separators on windows" issue
+Fix inlining for Int operations
+Fix psc-publish producing no modules on Windows
+Fix last two tests
+Fix #1276
+Fix optimizer for booleanAlgebraBoolean
+Fix extra-source-files paths of test support files
+Fix psci tests
+Fix the haddock for the Language.PureScript.Bundle module
+Fix psc-publish tests
+Fix transitive dependencies not being included
+Fix default-language
+Fix core-tests
+Fix error message
+docs: Fix display of 'where' keyword after typeclasses
+Fix #1174, check foreign files for staleness
+Fix tests
+Fix 1166, Use bind instead of >>= in do desugaring
+Fix Docs Render compilation with GHC 7.10.1
+Fix #1152, support globs in file paths
+Fix #1151, add psc-publish to binary bundles
+Fix Console check in PSCi when using .psci file
+Fix Console module reference
+Fix #1146, update psci for 0.7 module changes, and include :foreign directive
+Fix psci tests after test Prelude.purs filename case change
+Fix tests
+Fix #1104
+Support Eff actions in PSCi. Improve error messages. Fix #1062
+Fix GHC 7.8 compilation with composition changes
+Make untiFixedPoint work in a Monad
+Fix psci-tests, resolve #1060
+Fix verbose/comment flags
+Fix #1008
+Fix shadowing warning
+Fix #438 and #979
+Fix #968
+Fix #1012
+Fix #1008
+Fix #365
+Fix #981
+Fix verbose/comment flags
+Fix mistake in (#) documentation, thanks @jacereda
+Fix psc-docs' other-modules in purescript.cabal
+Fix JS operator precedence
+Fix typo in one of the Haddock annotations
+Fix bug with incorrect trimming of directive arguments
+Fix bug with show directive not being correctly completed
+Fix command completion to correctly expand directives
+Fix typechecking of constrained type values
+Fix prettyprinting of dictionaries
+Fix -c flag
+Fix #942
+Fix functor law in prelude documentation
+Fix typo
+Fix typo
+Fix typo in Haddocks
+Fix #745
+Fix #902.
+Fix #886
+Fix warnings in Control.Monad.Unify
+Fix tests with shadowing names
+Fix #870
+Fix up some remaining issues with scoped type variables.
+Fix typo
+Fix #796. Rebuild modules before each command is executed.
+Fix #815
+Fix some parser and pretty printer issues related to extended infix expr changes.
+Fix #795
+Fix parse precedence to allow negate
+Fix type wildcards
+Fix cabal file and add test/example
+Fix option flags in psc-make.
+Fix #824
+Fix #816
+Fix #810 and #814: don't infer polymorphic types for data constructors.
+Fix #812
+Fix generated fields arity
+Fix #820
+Fix `:s` appearing twice in auto-completion.
+Fix an issue with positioned comments
+Fix some parsing issues related to underscores
+Fix #760: Allow ':' in place of '=' in record match
+Fix #750
+Fix #759
+Fix verbose-errors flag
+Fix #738
+Fix #725
+Fix #694, take 2
+Fix building on ghc-7.6 (base 4.6) for #713
+Fix #697
+Fix inaccurate comment
+Fix bundle build
+Fix #682.
+Fix #676
+Embed the Prelude. Fix #673
+Fix #671
+Rename docgen, remove installation script, update license, change directory for prelude. Fix #657.
+Fix path computation bug
+Fix instance detection for inliner optimization
+Fix #634
+Fix error case in #457
+Fix #624 - remove xdg-basedir dependency, simplify build.
+Fix #611 - do not take locally-bound names into account when calculating binding groups
+Fix #620. More rigorous overlap check.
+Fix #587
+Fix grammar and stray type var in types doc
+Fix issue with empty binders in top-level declarations
+Fix issue with null binder parser
+Fix #594
+Fix #533
+Fix #490
+Fix meet check when ForAll is on right
+Fix #524
+Fix #580
+Fix #587
+Fix #595
+Fix #600
+Fixes the `TryPureScript!` link
+Fix #584
+Fix #570
+Fix #548
+Fix #403
+Fix #569
+Disallow top level cases with no arguments. Fixes #532
+Fixed hpc-coveralls target test suite name
+Fix #422 wrong "unknown module" error
+Fix isModuleEmpty, resolves #551
+Fix #530 and #531
+Fix for psci after rebasing feature/import-hiding
+Fix error message for conflicting definition
+Fix DCE for classes
+Fix warning
+Fixed tests with missing instance names.
+Fix missing 'cd purescript' in build instructions
+Fix isNullaryConstructor check
+Fix function argument names in mkFn
+Fix foreachE
+Fix a bug with TCO for multiple argument functions, fix #461
+Fix case of properties in documentation
+Fix failing test
+Fix precedence of ternary conditional
+Fix some problems with ctors in docgen
+Fixed hyperlink formatting (changed from MD to RST).
+Fix warning
+Fix compile warnings. Remove unnecessary function in entails.
+Fix ordArray instance
+Fix escaping for operator name props in externs
+Fix escaping for reserved name props in externs
+Fix #394
+Fix #390. Disallow unification of unknowns during type class instance resolution.
+Fix #388
+Fix #377, fix #378
+Fix #376 and make types more easily understandable by pushing foralls before constraints in type class members.
+Fix test suite
+Fix #368
+Fix #374
+Fix failing tests
+Fix Show String instance
+Fix Haddocks
+Fix a bug in dictTrace
+Fix optimizer issues after splitting up Monad.
+Fix #356
+Fix issue with type variables in super class dictionary types. Simplify desugaring somewhat, add more examples
+Fix failing tests
+Fix superclass instace search
+Fix example, do not generate __superclasses field if there are no superclasses.
+Fix an infinite search problem in entails due to module imports
+Fix tab completion in psci for explictly exported modules
+Fix docgen, update Prelude docs
+Fix docgen, update Prelude docs
+Fix tab completion in psci
+Remove unused FixityDeclarations in DCE
+Fix a bug involving let bindings and unused variable removal. Support extended let in do-notation.
+Fix an issue with type class instance ordering
+Fix an issue with type decls in instances
+Fix #332
+Fix remaining bugs related to source position information
+Fix #328
+Fixing JS encoding of " and \
+Fix #315 and fix #316
+Fix multiple let bindings in psci #258
+Fix #306. Had to move ref(In)Eq back to Prelude to avoid circular dependency between Prelude and Data.Eq.Unsafe
+Fix broken tests
+Fix #301 Flexible Instances, and a bug in type instance lookup
+Fix tests that shouldn't import prelude
+Fix #297
+Fix concatMap
+Fix #292
+Fix issue with desugar in make mode
+Fix #285
+Fix finally tagless encoding bug, add example.
+Fix record typo in types.rst
+Fix Data.String.split
+Fix Ord.
+Fix #273
+Fix #267
+Fix #253
+Fix #256
+Fix #260
+Fixes generated `for-in` loop shadowing.
+Fix #261
+Fix #254
+Fix Type(..) exports
+Fix toUpper and toLower
+Fix the types and implementations of some Prelude functions in the Math module.
+Fix issue with readNumber
+Fix failing tests
+Fix some issues with the order of desugaring passes
+Fix Prelude after merge
+Fix remaining type rename cases
+Fix --magic-do
+Bit of cleanup and documentation. Fixes #216.
+Fix for modules with dotted names in psci
+Fix module name handling in `--main`
+Fix codegen for data constructor names
+Moved the return call to the AST. Fixes # 193.
+Fixed Arrays.sort mutating the passed in list.
+Fix subsumes relation for object types
+Fix rendering of object/row types, add failing test
+Fix refEq in Prelude
+Fix typechecker bug with type synonyms in type annotations
+Fix a typechecker bug which caused type class dictionaries to not be inserted in a particular case
+Fix --magic-do and inlined operators from the Prelude, fix breaking test
+Fix float parsing
+Fix for modules with names that overlap globals
+Fix some issues in the String module
+Fix #186
+Fix #181 - implement capture avoiding type substitution properly
+Fix for #179
+Fix some issues in the optimizer, so that purescript-promises can work properly.
+Fix #178 - make sure qualified names are taken into account when sorting definitions.
+Fix for #171
+Fix prettyPrintType and update docs #174
+Fix broken tests
+Fix some failing tests
+Fix last remaining breaking test case for skolems bug #147
+Fix order of type class dictionaries passed to a function
+Fix random function in Prelude
+Fix some failing tests
+Fix last remaining breaking test case for skolems bug #147
+Fix order of type class dictionaries passed to a function
+Fix random function in Prelude
+Fix == on lists, use >>> and <<< for category composition
+Fix type synonym issue #165
+Fix Category bug #158
+Fix bad error for non-existent methods on a class
+Fix outdated links in README and RELEASE
+Fix type class lookup
+Fixed bugs with JS output for typeclass dictionaries
+Fix error in code gen for pattern matches on data constructors #148
+Fix precedence of -> and type application #144
+Fix inlineVariables
+Fix type class issue where instances with missing members were passing the type checker #126
+Fix type class instances scope issue
+Fix --magic-do
+Fix an issue with unqualified type class names
+Fix some aspects of code gen
+Fix up broken tests, fix the escape check and skolem escape check.
+Revert "Fix error in check - expand type synonyms first"
+Fix error in check - expand type synonyms first
+Fix kind checking, code gen for dictionaries
+Fix some bugs in type class instance desugaring
+Fix some bugs with --magic-do, and make it work with TCO
+Fix operator precedence issue
+Fix type synonyms issue
+Fix JQuery test
+Fix some bugs, including an issue with overenthusiastic inlining of variables.
+Fix transitive import issue
+Fix an optimizer bug
+Fix bug in which data constructors were being incorrectly accessed across modules
+Fix issue with extern member declarations returning functions.
+Fix some bugs, fix remaining passing examples, still need to fix prelude.
+Fix some examples
+Fix top level case declarations inside a non-global module
+Fix cabal file
+Fix opStart lexer
+Fix a bunch of -Wall warnings
+Fix warnings introduced by -Wall
+Fix type generalizer bug
+Fix pattern matching for rank 2 constructors, and add an example
+Fix name shadowing issue in bindings
+Fix type synonyms when checking
+Fix README
+Fix some bad parser error messages caused by too many 'try's
+Fix some prelude issues
+Fix problem with recursive functions with a type signature
+Fix IO example
+Fix person example
+Fix minor typo in README
+Fix type synonym bugs
+Fix a kind checking error, add support for 'extern data'
+Fixity declarations
+Use ArrowPlus instead of Alternative, get rid of strange Alternative instance. S and iota combinator examples. Fix non-terminating pretty-printer issue
+Fix some parsing and pretty printing issues
+Fix postfix operator precedence
+Fix example
+Check all unknowns become quantified at the top level. Fix row unification bug./
+Separate polytypes into their own datatype, remove rank 2 types. Fix type synonym example.
+Fix some typechecker bugs

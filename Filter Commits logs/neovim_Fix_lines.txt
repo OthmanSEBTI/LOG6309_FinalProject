@@ -1,0 +1,1107 @@
+revert: "jobstart(): Fix hang on non-executable cwd #9204" (#19826)
+revert: "Fix redraw regression with w_p_cole in visual mode"
+doc(treesitter): Fix typos
+Fix line length clint error
+chore(clang): Fix 'Array subscript is undefined' #15057
+fixup(clipboard): Fix error not properly handled #14984
+doc(options): Fix recommended PowerShell config (#14349)
+BugFix(clipboard): Fix block paste not working properly
+fix(vim.opt): Fix #14828 with empty values being incorrectly inserted
+fix(vim.opt): Fix #14668 Now correctly handles unescaped commas in isfname style
+fix(vim.opt): Fix #14669 whichwrap now acts as expected
+Fixed +1 -1 in util.lua (#14913)
+Fix `<afile>` getting prepended with a slash on WinClosed (#14515)
+BugFix: Fix inconsistent verbose message
+fixup(runtime): Fix lua runtime files not listed
+fix(ui): Fix pum incorrect position in multigrid mode
+fix(lsp): max 1 floating preview per buffer. Fixes #11508
+docs(lsp): Fix opts param not captured by docgen
+fix(lsp): properly handle border character list without highlight groups. Fixes #14691
+Fix crash on `:echo get_all_options_info()`
+fix(lsp): allow apply_text_edits and set_lines to insert text after the last line. Fixes #14017
+Fixed ttimeout documentation. (#14600)
+lsp: Fix range end offset off by one character
+Fix nvim_buf_set_lines
+coverity/331378: Fix inserting new decor provider
+ci(coverity): Fix typo in tar command
+Fix documentation typos for msg_scroll_flush
+Fix the comments
+Fix lualint warnings
+Fix #14192: Handle IO errors and close files in query.lua
+doc: Fix typo in the help for <Cmd> where lhs was used instead of rhs (#14272)
+Fix(treesitter): Make treesitter.inspect_lang include last field name
+Fix neovim tag bugs uncovered by vim-8.2.0088,
+Fix a failing test (highlight_spec.lua)
+Fix click on foldcolumn with vsplit (#14127)
+[RDY] Fix click on foldcolumn if it has tabline (#13982)
+Fix a typo in the Lua documentation for nvim_create_namespace().
+lsp: Fix text edits operating on the last line of a document (#13677)
+Fix unused vararg
+lsp: Fix pumvisible() check introduced in #12900 (#13866)
+LSP: Fix nil settings handling in workspace/configuration (#13708)
+treesitter: Fix linter warning and add helper function to remove duplicated logic
+ci: Fix typo in release.yml that prevents optimized nightly build (#13671)
+doc: Fix some spelling errors (#13636)
+Fixed a typo.
+lsp: Fix text payload in didSave notification (#13363)
+doc: Fix vim.lsp.diagnostic.get_next (#13495)
+Fix lsp tests breaking from new LuaJIT version
+doc: Fix incorrect LSP diagnostic-related helptags (#13388)
+Fix typo on treesitter.txt help page
+GHA: Fix event_name check for nightly builds
+Fixed lint error
+ui: Fix win_hide distination grid
+lsp: Fix "unsupported_method" error when the buffer does not have an LSP Server (#13175)
+Fix undeclared identifier when HAVE_READLINK is not defined
+runtime: Fix man.vim count handling.
+Fix colors in terminal by maintaining COLORTERM
+Removed restricted mode - Fix #11972
+Fix alignment issue
+ui: Fix click on foldcolumn when ext_multigrid is enabled
+doc: Fix treesitter doc PR.
+docs: Fix typo in example code
+Fix clipboard provider detection (#13190)
+lsp: Fix case where active_signature == vim.NIL (#13114)
+Fix popupmenu position issue
+lsp: Fix "client has shut down" errors during initializing (#13103)
+Fix shellcheck error SC2155
+Fix multiple typos (#13063)
+Fix quickfix.c warning message on EMSGN macro
+Fix byte updates for blockwise paste at buffer end
+Fix buffer_updates on blockwise paste
+LSP: Fix separator width on hover (fixes #13006, #12998) (#13007)
+test: Fix failing test in case of special .bashrc (#12920)
+Fix typo in treesitter docs: parser directory is `parser` not `parsers`
+lsp: Fix parameter markdown rendering for signature help (#12832)
+snap: Fix snapcraft builds #12879
+vim-patch.sh: Fix PR subject with multiple patches
+lsp: Fix bad sortText comparison (#12485)
+Merge #12794 'tui: Fixing problems with GNU Screen'
+Revert "tui: Fix italics when $TERM is screen in tmux #12199"
+Revert "lsp: Fix text edits with the same start position (#12434)" (#12564)
+Fix documentation
+build: Fix build failure with CI in FreeBSD
+lua: Fix crash on unprotected lua errors (#12658)
+Fix / improve report messages (#12396)
+Fix highlight group names in LSP documentation (#12427)
+lsp: Fix text edits with the same start position (#12434)
+man.vim: Fix tagfunc to respect b:man_default_sects
+test: Fix ignored LSP tests (#12470)
+lsp: Fix #12449 textDocumentSync.save can be boolean. Access textDocumentSync.save.includeText only if table. (#12450)
+provider: Fix ruby checkhealth error for Windows (#12400)
+lsp: Fix timezone format of LSP log (ISO 8601) (#12332)
+funcs: Fix a memory leak in f_expand (#12227)
+tui: Fix italics when $TERM is screen in tmux #12199
+LSP: Fix show_line_diagnostics #12186
+terminal: Fix mouse coordinates issue (#12158)
+doc:Fix incorrect nvim config paths in documentation (#12134)
+win,runtime: Fix problem when win32yank was a symbolic link in WSL [skip ci] (#12124)
+vim-patch.sh: Fix creation of commit list for PR review
+doc: Fix wildmenu doc inconsistencies and typos
+Fix screen terminal family issues
+Fix splitting issue on gnu screen
+deps: Fix luv-static build issues #11961
+nvim: Fix enum declaration of RemapValues
+nvim:viml: Fix enum declaration of ExprParserFlags
+nvim:eval: Fix enum declaration for ListLenSpecials
+quickfix.c: Fix vimgrep regression #11907
+build: Fix MSVC build failure on CI #11865
+Fix issue where callbacks are garbage collected
+doc: Fix {spell,mlang}.txt files text encoding #11814
+Fix shift change callbacks reading bad cursor (#11782)
+Fix f_jobstop() failed loudly
+Fix function prototype
+LSP: Fix flaky test #11618
+Fix scripts/vim-patch.sh for Bash 4.3
+Fix access on vim.wo (#11517)
+win_line: Fix crash with 'rightleft' in :terminal #11460
+Merge #11451 'man.vim: Fixes'
+Fix encoding translation in other places.
+Fix position params for encoding.
+Fix hovers staying on bufhidden
+Fix terminal close error message formatting
+Fix reference in rename.
+Fix rename support.
+autocmd: Fix event name casing #11332
+Remove "highbright bold" conversion. Fixes #11190
+doc: Fix TEST_FILTER example #11158
+Fix potential deadlock #11151
+Fix flaky test: tui_spec: increase timeout (#11134)
+Fix redraw regression with w_p_cole in visual mode
+Fix/revisit git-describe enhancement (#11124)
+Fix two more flaky tests (#11095)
+Fix "precedes" listchar behavior in wrap mode
+screen: fix vcol counting with virtual text. Fixes #9941
+[squash] Fix errors when porting
+api: make try_end clean-up after an exception properly. Fixes #10809
+Fix test/busted/outputHandlers/TAP.lua (#10881)
+Fix test failure on Windows [skip travis]
+Fix get_path_cutoff() on Windows
+API: nvim_win_close: Fix closing cmdline-window #10087
+build/MSVC: Fix HAVE_ICONV_H #10697
+Fix lualint: remove unused var
+Fix list_features to include space after first feature (#10711)
+Fix clint error
+Fix missing CursorHoldI events (#3758)
+Fix is_executable_in_path() on Windows (#10468)
+Fix lint failed
+Fix errors
+win,fs.c: Fix is_executable_ext #10209
+Fix luacheck errors for all Lua source files
+build: Fix rule of `build/.ran-third-party-cmake` #10402
+eval.c: Fix clint errors and typo in comment of ex_const()
+Fix problems with message catalog directory
+Fix garbled problem with msg_puts_printf on Windows
+Fix issue where test fails
+[skip appveyor] Fix clint issue
+tui/input.c: Fix problem when stdin is not TTY
+Fix screenchar() problem in headless mode
+Fix multiple c_CTRL-D showing statusline
+UI: Fix wrong msg_col after execute()
+[RDY] Fix wildmode=list,full and display+=msgsep interaction (#10103)
+Fix out of bounds read in sign_group_ref
+Fixed ordering of signs to align vim and neovim behaviour
+Fix memfile_test.c path
+vim-patch:8.0.1353: QuickFixCmdPost is not used consistently
+Fix os.getenv of lua on Windows
+Fix environment variable on Windows
+Merge #9666 'Fix completion of multibyte env var names'
+os/env: Fix completion of multibyte env var names
+Merge #9634 'fsync: Ignore ENOTSUP. Fix writing to SMB.'
+terminal: Fix potential invalid local 'scrollback' (#9605)
+:terminal : Fix F1-F4 key codes (#9535)
+Fix api doc nvim_buf_lines_event example
+build: Fix -Wconversion warnings for fpclassify et al
+build: Fix -Wconversion warnings for fpclassify et al
+:recover : Fix crash on non-existent *.swp #9504
+pvscheck.sh: Fix download URL #9500
+multigrid: Fix lint errors
+multigrid: Fix rebase errors in screen.c
+multigrid: Fix sending window grid handle in ext_newline mode
+multigrid: Fix grid allocation misses
+win/TUI: Fix scroll on Windows legacy console
+runtime/syntax: Fix highlighting of augroup contents (#9328)
+highlight: Fix missing .rgb_sp_color in initializers (#9287)
+diff/highlight: Fix GUI highlight for low-priority CursorLine (#9281)
+CI/Travis/macOS: Fix "brew reinstall" invocation (#9259)
+jobstart(): Fix hang on non-executable cwd #9204
+tui.c: Fix ext.set_underline_color for !has_colon_rgb
+screen.c: Fix PVS/V560: condition is always false
+Merge #9130 'build: Fix for macOS 10.14/mojave'
+third-party/unibilium: Fix parsing of extended capability entries
+Fix crash if --embed is used more than once
+undo: Fix infinite loop if undo_read_byte returns EOF #2880
+editorconfig: Fix charset name #9070
+test: check_cores(): Fix tmp dir exclusion (#9061)
+man.vim: Fix very long justified lines #9023
+shell/logging: Fix E730 with verbose system({List}) #9009
+popupmnu.c: Fix popup placement when preview window is below
+runtime/msgpack: Fix inf/nan regexp
+Merge #8921 'highlight: Fix after-EOL matches at cursor'
+build/MSVC: remove libvterm-Fix-escape-sequences-for-MSVC.patch
+Fix dead assignment.
+vim-patch.sh: Fix replacement which converts #1234 to vim/vim#1234
+Fix lint
+eval, ex_getln: Fix incompatible pointer types (#8792)
+Fix crash in lang_init() on macOS if lang_region = NULL
+log.c: Fix possible truncation in buffer (#8791)
+vim-patch.sh: review_commit: Fix regex for vim version
+[WIP/RFC] Fix standout mode
+win/deps: Fix copy to subdir (#8636)
+Fix implicit conversion warning (#8536)
+ex_getln.c: Fix PVS/V519: variable assigned twice
+deps: Fix libvterm and libtermkey escape sequences for MSVC
+build/MSVC: TUI: Fix uninitialized variable
+Fix memory leak
+Fix tests on windows
+win/build: Fix install (#8420)
+Merge #8419 'Fix PVS warnings'
+getchar.c: Fix PVS/V522: Dereference of null pointer mp_match
+strings.c: Fix PVS/V781: value of 'l + 1' is checked after it was used
+Merge #8218 'Fix errors reported by PVS'
+spellfile: Fix clint error
+syntax: Fix PVS/V560: condition was already checked
+spellfile: Fix PVS/V547: allocator now never returns NULL
+functests: Fix testlint errors
+*: Fix clint errors
+window: Fix PVS/V547: expression already checked in previous if()
+api/vim: Fix PVS/V547: node was already dereferenced, so can’t be NULL
+syntax: Fix PVS/V560: condition was checked in previous if(), breaking
+syntax: Fix PVS/V547: condition was checked
+syntax: Fix PVS/V560: condition checked in previous if()
+strings: Fix PVS/V547: condition already checked by surrounding if
+strings: Fix PVS/V779: wrong assert() position
+spellfile: Fix PVS/V547: allocator never returns NULL now
+spellfile: Fix PVS/V560: allocator never returns NULL now
+spell: Fix PVS/V512: use of sprintf()
+search: Fix PVS/V547: allocator never returns NULL now
+search: Fix PVS/V560: condition checked in previous if with goto
+search: Fix PVS/V547: condition already checked in surrounding if
+search: Fix PVS/V547: checking variable right after assigning it
+screen: Fix PVS/V560: col never reassigned in this part of code
+screen: Fix PVS/V519: duplicate successive assignment
+screen: Fix PVS/V560: condition was checked in surrounding if
+quickfix: Fix PVS/V547: allocator never returns NULL now
+quickfix: Fix PVS/V547,V560: no conversion with fixed &encoding
+path: Fix PVS/V560: condition is essentially `A && A`
+option: Fix PVS/V547: var is always NULL at that point
+option: Fix PVS/V560: EXPAND_BOOL_SETTINGS already caused early return
+option: Fix PVS/V547: allocator never returns NULL now
+option: Fix PVS/V517: duplicate check for titlelen
+ops: Fix PVS/V560: pre may not be zero as that was already checked
+ops: Fix PVS/V614: use of uninitialized variable
+ops: Fix PVS/V547: allocator never returns NULL
+ops: Fix PVS/V547: did_change is almost always set
+message: Fix PVS/V547: c is never equal to KS_ZERO
+memline: Fix PVS/V547: allocator now never returns NULL
+memline: Fix PVS/V560: allocator now never returns NULL
+mbyte: Fix PVS/V557: do not do useless job
+if_cscope: Fix PVS/V560: condition would result in earlier return
+os/fs: Fix PVS/V560: condition was already checked in while()
+fileio: Fix PVS/V547: split is not used
+fileio: Fix PVS/V560: end was already checked
+viml/parser/expressions: Fix PVS/V547: condition checked earlier
+viml/parser/expressions: Fix PVS/V547: condition checked earlier
+ex_cmds: Fix PVS/V547: expression was already checked in outer if()
+ex_getln: Fix PVS/V547: function is stated to never return NULL
+ex_getln: Fix PVS/V560: there are no longer NULL returns for OOM
+ex_docmd: Fix PVS/V547: condition was already checked in surr. if()
+ex_docmd: Fix PVS/V547: due to short-circuiting name_len is never > 4
+ex_cmds: Fix PVS/V557: possible array overrun in :ascii
+eval: Fix PVS/V547: skipping is now done using eval0
+win: Fix reading content from stdin (#8267)
+win: Fix reading from stdin
+eval: Fix PVS/V560: unneded check for name_len
+eval: Fix PVS/V547: ufunc_T is actually an incomplete type
+edit: Fix PVS/V560: remove always true/false checks
+diff: Fix PVS/V547: remove no longer needed OOM handler
+charset: Fix PVS/V560: remove condition which was already checked
+buffer: Fix PVS/V560: condition was checked three lines above
+buffer: Fix PVS/V547: base is never set to octal
+charset: Fix transchar() with multibyte characters
+memory: Fix documentation of some string copying functions
+test/options: Fix stdpath() failures on Windows
+api/buffer: Fix PVS/V547: use correct border for lnum
+quickfix: Fix PVS/V560: remove duplicate condition
+shada: Fix conversion warnings
+shada: Fix some memory leaks and completely ignore numbered mark names
+Merge #8183 'build/msvc: Fix functional tests'
+functests: Fix existing functional tests
+build/msvc: Fix check for cksum on Windows
+build/msvc: Fix libvterm patch
+build: Fix CMake target dependency problem
+build/luarocks: apply "Fix siteconfig" patch
+build/msvc: Fix AppVeyor build script for 'MINGW_64-gcov' configuration
+build/msvc: Fix errors caused by compiler intrinsics
+build/msvc: Fix linking for luajit and luv
+build/msvc: Fix standard IO file number definitions
+build/msvc: Fix missing restrict keyword
+build/msvc: Fix name of import library
+build/msvc: Fix preprocessor parsing
+test: man_spec: Fix use of nested [[ quoting
+Merge #5822 'mouse.c: Fix mouse click on multibyte + concealed'
+mouse.c: Fix mouse click on lines with multibyte text
+test/old: Fix_truncated_tmpfile(): more flexible
+Fix lint error in option.c
+Fix for lint
+Fix warning: multi-line comment [-Wcomment] use `:341,355s/: \zs.*/\=string(submatch(0))`
+Fix warning, read/write have unsigned int count on windows.
+Fix warning about NULL compare
+Fix bug, use &loop->uv replace loop.
+Fix warning about math functions, include isnan, isinf, fpclassify.
+Fix warning about variable length array.
+Fix warning about unused value.
+Fix warning unused static function
+Fix warning when assing size_t type value to uv_buf_t.len, convert type to ULONG on Windows.
+Fix warning when redefine RGB on Windows
+Fix warning about conversion on mingw64
+Fix an off-by-one error in the documentation of nvim_buf_clear_highlight (#7853)
+os/fileio: Fix some flag names in file_* functions documentation
+eval: Fix linter errors
+eval,lua/converter: Fix problems spotted in review
+Merge #7782 'Fix TabClose autocommand via close_windows'
+Fix TabClose autocommand via close_windows
+*: Fix linter errors
+regexp: Fix linter errors
+eval: Fix some issues found in review
+functests: Fix linter error
+eval: Fix linter error
+window: Fix matchaddpos() and enhance error reporting
+*: Fix some problems found during review
+*: Fix linter errors
+eval/typval: Fix typo
+eval: Fix add()
+*: Fix linter errors
+*: Fix test failures
+eval: Fix uniq() crash in legacy test 055
+eval/encode: Fix crash in json_encode test suite
+quickfix: Fix :cexpr and :lexpr
+eval: Fix setmatches(), setqflist() and setloclist()
+eval,functests: Fix tests and complete() and setline() behaviour
+eval: Fix writefile()
+eval: Fix inputlist()
+Fix job_control doc
+tests: Fix linter errors
+Fix type in job_control doc
+Fix for pvs V782, pointer access to first element of array
+syntax.c: Fix maybe-uninitialized warning (#7596)
+server.c: Fix bug in release mode (#7594)
+cmake: Fix api/version test failure
+syntax: Fix duplicate group definitions
+ex_getln: Fix memory leak in color_expr_cmdline
+*: Fix linter errors
+functests: Fix ui/cmdline test
+doc: Fix pathshorten() example (#7571)
+unittests: Fix automatic test case generation
+runtime: Fix syntax error in `runtime/syntax/tex.vim` (#7518)
+*: Fix linter errors
+*: Fix some typos found by oni-link
+tests: Fix testlint errors
+'inccommand': Fix matches for zero-width (#7487)
+ex_getln: Fix variable name which is wrong after the merge
+*: Fix linter errors
+Fix cmd modifier tests for the new highlight
+Fix highlighting conflict
+Fix the last line in the preview buffer
+Fix old inccomand tests, and add more for the new functionality.
+viml/parser/expressions: Fix last error found by KLEE
+cmake,bsd: Fix mandir to saner defaults. (#7417)
+viml/parser/expressions: Fix some errors spotted by KLEE
+klee: Fix possible assertion error
+viml/parser/expressions: Fix memory leak when processing ternary
+test/unit/formatc: Fix parsing of most recent viml_parser_highlight
+viml/parser/expressions,klee: Fix some problems found by KLEE run
+charset: Fix out-of-bounds array access
+klee: Fix some errors made in …parser.c
+viml/parser/expressions: Fix determining invalid commas/colons
+viml/parser/expressions: Fix call inside nested parenthesis
+lua/executor: Fix crash when first string contains NUL and second not
+lua/executor: Fix crash when printing empty string (#7157)
+lua/executor: Fix crash when printing empty string (#7157)
+api/helpers: Fix typo
+runtime: Fix where desktop file and icon are installed (#7072)
+*: Fix clint errors
+mbyte: Fix crash when using multibyte chars in maparg() return (#6986)
+syntax: Fix V763: parameter always rewritten before being used
+spell: Fix V728: excessive check
+normal: Fix V728: excessive check
+main: Fix V522: potential NULL dereference
+shada: Fix linter error
+Merge #6955 'Fix invalid :echo output'
+charset: Fix V728: excessive check
+message: Fix `:echo "\x80"` printing `~@<80>`
+unittests: Fix allocation ordering for tv_dict_add_str()
+getchar: Fix linter error
+ex_getln: Fix indent
+ex_getln: Fix “echoerr msg not shown” problem
+functests: Fix typo
+functests: Fix screen.lua supplying dedent additional argument
+runtime: Fix issue with Ruby health `latest_gem` determination
+pvscheck: Fix argument handling in do_recheck
+*: Fix conversion warnings for tv_get_number*()
+oldtests: Fix syntax of s:flaky
+tui: Fix OBOE in linux cnorm capability fixup code.
+tui: Fix Interix and account for deferred wrap. The Interix termcap entry is missing the carriage_return capability which nvim relies upon.  And Interix is one of the few terminal emulators that does not defer automatic wrap at the right margin, which is now accounted for when moving the cursor left and when outputting whole lines at a time.
+tui: Fix conflict with predefined "linux" macro.
+tui: Fix cursor motion clear screen bug visible on line #1 in redraws.
+test: Fix and add cases for unnamed register
+api/vim: Fix nvim_list_runtimepaths
+tui: Fix V547: always true condition
+spellfile: Fix V547: always true condition
+shada: Fix V581: adjacent branches with same condition
+search: Fix V502: ?: ambiguity
+memfile: Fix V547: always true condition
+eval: Fix V507
+*: Fix all V641 errors
+charset: Fix V695: dead branches
+eval/typval: Fix numbuf parameter documentation
+if_cscope: Fix truncation of formated output
+ex_getln: Fix :lang code execution when skipping
+oldtests: Fix spelling of testname in s:flaky
+regexp_nfa: Fix invalid fallthrough in character class detection
+health.vim: Fix hardcoded `python` name. #6714
+lua/converter: Fix typo in assert condition (#6708)
+CONTRIBUTING.md: Fix ri alias
+functests: Fix tests
+api/window: Fix memory leak in nvim_win_set_cursor
+man.vim: Fix filename argument in mandoc #6693
+ex_cmds.c: Fix bug in ex_z (#6557)
+Merge #6533 'Fix PVS-studio warnings'
+*: Fix linter errors
+regexp: Fix warning about octal constant
+tag: Fix “initialized twice successively” false positive
+os/env: Fix “invalid pointer to local” false positive
+memline: Fix “NULL pointer dereference” warning
+getchar: Fix if block indentation
+eval: Fix position of buf declaration
+eval: Fix condition in f_serverstop
+eval: Fix useless NULL check
+eval: Fix V547: `d == NULL` was already checked at line 2986
+macros: Fix excessive check
+edit: Fix strange code
+digraph: Fix errors due to has_mbyte and friends being fixed
+lua: Fix header guards
+viml/executor: Fix check-single-includes
+spellfile: Fix SAL sections reading
+coverity/56795: Fix NULL dereference in :syn keyword non-printable
+spellfile: Fix clint errors
+spellfile: Fix memory leak
+unittests: Fix linter error
+functests: Fix linter errors
+functests: Fix some ui/*_spec tests
+functests: Fix ui/bufhl_spec
+functests: Fix ui/screen_basic_spec
+functests: Fix terminal/highlight_spec
+functests: Fix terminal/cursor_spec
+functests: Fix legacy/wordcount_spec
+functests: Fix legacy/eval_spec
+functests: Fix legacy/close_count_spec
+functests: Fix legacy/autocmd_option_spec
+functests: Fix legacy/arglist_spec
+functests: Fix legacy/107_adjust_window_and_contents_spec
+functests: Fix legacy/097_glob_path_spec
+functests: Fix legacy/096_location_list_spec
+functests: Fix legacy/067_augroup_exists_spec
+functests: Fix some tests which are failing locally for unrelated reasons
+functests: Fix legacy/074_global_var_in_viminfo_spec
+functests: Fix legacy/065_float_and_logic_operators_spec
+functests: Fix legacy/063_match_and_matchadd_spec
+functests: Fix legacy/062_tab_pages_spec
+functests: Fix legacy/051_highlight_spec test
+functests: Fix legacy/030_fileformats_spec test
+*: Fix linter errors
+unittests: Fix testlint failure
+fileio: Fix most linter errors
+tests: Fix testlint errors
+unittests: Fix linter error
+eval/executor: Fix check-single-includes
+eval/typval,api/buffer: Fix review comments
+eval: Fix -Werror=unitialized from QB
+unittests: Fix linter errors
+eval: Fix extend() behaviour with NULL lists and dictionaries
+eval/typval: Fix SEGV in test_alot.vim test
+eval: Fix SEGV in test49
+eval: Fix len argument to xstrlcat
+syntax: Fix linter error
+eval/typval: Fix -Werror=return-type
+eval: Fix linter errors
+functests: Fix buf_functions test on Windows
+*: Fix some Windows-specific warnings
+unittests: Fix tests crash
+eval/typval,tests: Fix extending list with itself, add tests
+eval: Fix max_min functions
+eval,functests: Fix linter errors
+executor: Fix some memory leaks
+functests: Fix “function has more then 60 upvalues” error
+msgpack_rpc: Fix #HANDLE_TYPE_CONVERSION_IMPL
+eval/decode: Fix memory leak in JSON functions
+executor/converter: Fix how maxidx is determined
+executor/converter: Fix conversion of self-containing containers
+Fix wrap-around in 32 bit
+strings: Fix problems found during code review
+os/fileio: Fix QB failure
+*: Fix linter errors
+functests: Fix testlint errors
+tests: Fix repeated_popen_r usage, rename the function
+tests: Fix CI failures
+os_set_cloexec: Fix condition. #5986
+unittests: Fix linter error
+unittests: Fix linter errors
+unittests: Fix lint errors
+strings.c: Fix problems found during code review.
+ui: Fix TUI resize bug
+*: Fix linter errors
+*: Fix linter errors
+eval: Fix memory leak
+win: test: Fix closure jobs test on Windows
+win/build: Fix libuv recipe for Windows/NMake X86_64
+*: Fix linter errors
+strings: Fix “unexpected format specifier: %lp” ASAN error
+eval: Fix linter error
+eval: Fix error messages from writefile
+doc: Fix section reference (#6079)
+Fix clint issues
+Revert "tui: update_size(): Fix race condition."
+tui: update_size(): Fix race condition.
+eval.c: Fix findfile(), :find, gf in :terminal. #6009
+test: Fix broken test.
+coverity/133898: Fix sizeof argument
+readfile(): Fix read-after-free.
+input_enqueue(): Fix length calculation. (#5981)
+unittest: Fix linter errors
+unittest,memory: Fix tests
+eval: Fix failing test
+eval: Fix typo
+path.c: `vim_FullName()`: Fix heap overflow #5737
+shada: Fix offset saving
+unittests: Fix linter errors
+unittest: Fix linter errors
+eval: Fix errorneous early exit when converting lists and dictionaries
+eval: Fix unused variable error in release builds
+eval/encode: Fix 4 new linter failures
+eval: Fix case when cur_mpsv is NULL
+eval/typval_encode: Fix infinite loop
+api/helpers: Fix unused variable error in release build
+eval/typval_encode: Fix linter errors
+eval/typval_encode: Fix crashes
+eval: encode: Fix NULL check for partial's name
+eval.c: set_selfdict(): Fix invalid memory access.
+Fixes.
+CheckHealth: Fix version comparison.
+object_to_vim: Fix buffer/window/tabpage conversion on BE systems
+test: Fix shada/marks_spec.lua failure
+Fix lint errors.
+health/provider.vim: Fix system([]) invocations.
+ui: Fix the call to utf_ambiguous_width
+window: Fix cmd_with_count's formatting when sizeof(long) != 8
+if_cscope: Fix conversion warnings when char defaults to unsigned
+hardcopy.c: Fix -Wmaybe-uninitialized warning.
+option.c: Fix linter errors.
+runtest.vim: Fix spelling of s:flaky
+runtest.vim: Fix spelling of (s:)messages
+eval.c: Fix memory leak for detached pty job
+shada: Fix non-writeable ShaDa directory handling
+Fix error-handling of strtoimax boundary conditions
+helpers.c: Fix invalid state of failed conversion result for object_to_vim() (#5282)
+highlight: Added QuickFixLine highlight group
+test: Fix os_name() call.
+Fix vim-patch:7.4.689
+Windows: Fix functionaltest fixtures
+Travis: Fix accidental building of 3rd-party dependencies.
+Travis: Fix coveralls upload.
+Merge #4798 'process.c: Fix block in teardown'
+Fix String_eq() (#5051)
+Fix regression of :drop introduced in 1a91000
+[RFC] Fix #4979: Trigger TabNewEntered also with <CTRL-W>T
+unittests/*/helpers: Fix testlint errors
+*: Fix linter errors
+msgpack_rpc: Fix crash in log_server_msg
+unittests: Fix testlint errors
+unittests: Fix kFileNoSymlink test on FreeBSD
+unittests: Fix bug somewhere that makes file_read tests SEGV
+functests: Fix matchparen_spec.lua
+func_attr: Fix other new linter errors
+*: Fix new linter errors
+*: Fix errors from new linter checks
+eval.c: Fix linter errors.
+Fix style according to linter
+test: Fix path to valgrind suppressions (#4892)
+Fix indents.
+msgpack-gen: Fix for Lua 5.1. (#4857)
+lib/kvec: Fix remaining linter errors
+process.c: Fix a block when in teardown mode
+test: Fix migrated test 55.
+Fixes suggested by @justinmk and @jbradaric
+screen.c: Fix listchars hl for space/nbsp in visual mode.
+file_perm_spec: Fix the test condition on Windows.
+Fix warnings with gcc 6.1
+Fix running tests from Ninja
+test: Fix tests failing
+ex_cmds2: Fix memory leak.
+108_backtrace_debug_comands: Fix linter errors.
+shell.c: Fix missing output
+Fix tui_spec.lua for QB/Travis
+Fix be64toh() detection on BSDs.
+Fix linter warnings in test.
+test/functional/helpers.lua: Fix dedent() #4735
+Windows: Fix os_nodetype() default return
+Fix typo that seems to have been around forever
+*: Fix new linter errors
+Fix coverity errors in haslocaldir() and getcwd.
+vim-patch: 7.4.1075 Problem:    Crash when using an invalid command. Solution:   Fix generating the error message. (Dominique Pelle)
+regexp_nfa.c: Fix various linter errors
+Fix another linter error.
+delete_spec: Fix linter errors.
+Fix linter errors.
+vim-patch:7.4.1113 Problem:    Using {ns} in variable name does not work. (lilydjwg) Solution:   Fix recognizing colon.  Add a test.
+Fix loading remote plugin error
+*: Fix linter errors
+*: Fix preincrement lint errors
+eval: Fix overflow in error message in f_json_decode
+eval/decode: Fix typo in internal error message
+*: Fix linter errors
+eval/encode: Fix invalid UTF-8 strings handling:
+eval/encode: Fix writing strings starting with NL to list
+eval: Fix QuickBuild failures
+eval/encode: Fix non-utf-8 &encoding handling, add tests
+*: Fix memory leaks found by clang sanitizer
+*: Fix gcc warnings
+eval/decode: Fix vim_str2nr invocation
+*: Fix linter errors
+eval/*: Fix some linter errors
+eval/decode: Fix surrogate pairs processing
+functests(msgpack): Fix location of one of the tests
+functests(msgpack): Fix test names
+eval.c: Fix heap corruption error when constructing sourcing_name
+mbyte_spec.lua: Fix indentation
+mbyte_spec.lua: Fix wording
+eval.c: Fix cut off of terminal exit message
+mbyte.c: Fix invalid memory access in utfc_ptr2char_len
+cscope: Fix mismatched types in ':cscope show' output
+spell: Fix argument and avoid redundant prompt.
+doc: Fix tiny typo in :bufdo section
+rplugin: Fix wrong condition for lazy loading remote plugins
+ex_eval: Fix memory leak
+buffer_defs.h: Fix lint errors
+Fix guessing incorrect color index in terminal
+Fix :%s/\n//
+eval: Fix linter error.
+Fix the ASCII-art diagram in undo.c
+Fix terminal true color bold colors
+ex_docmd: Fix code style in ex_match
+test: charsearch: Fix error/typo in legacy test.
+option_defs.h: Fix "set shm+=a"
+test: Fix lint error
+eval: Fix linter error.
+Fix linter errors.
+Fix lint errors
+tests: Fix migrated legacy test.
+runtime/msgpack: Fix msgpack#string that expects old string() behavior
+search: Fix linter errors.
+Fix lint error
+Fix linter errors.
+plugin/tutor: Fix locale handling
+window: Fix code style.
+window: Fix linter errors.
+screen: Fix linting errors
+Improve YCM contrib: Fix db path
+vim-patch.sh: Fix listing of NA patches. #4034
+Fix lint issues
+shada.c: Fix HAVE_BE64TOH check
+Fix build output paths for Visual Studio generator
+win32: Fix syntax error in #ifndef block. #3968
+tests: Fix OSX's tempname issue.
+Fix S_ISLNK definition in os_defs.h.
+test/functional: Fix api/vim_spec.lua.
+doc: Fix invalid reference
+MSVC: Fix UI_CALL macro for MSVC.
+Windows: Fix cast in if_cscope.c.
+Fix CMakeLists.txt search paths for cross compile
+Fix linting errors.
+Fix indenting nested elseifs
+shada: Fix all linter errors in src/nvim/shada.*
+Fix the memory leaking
+Fix UpdateRemotePlugins fails problem
+Fix Windows code in command_line_execute()
+tutor: Fix mistaken option name
+CONTRIBUTING.md: Fix broken sentence
+Fix comments for os_* functions return value
+vim_diff: Fix incorrect ShaDa path
+Fix shadowed variable in build_stl_str_hl
+Fix lint
+Fix the examples for vim-patch.sh so they are valid commands. #3631
+ui_bridge: Fix race condition that results in deadlock.
+doc: Fix lint warning
+documentation: Fix &undodir default
+Merge PR #3546 'Fix some regressions'
+tui: Fix abort when stdout and stderr are not tty.
+os/input.c: Fix assertion in `create_cursorhold_event`
+Fix 'exrc' option
+edit.c: Fix one clint warning
+normal: Fix code style in `normal_prepare` and `normal_execute`
+option: Fix strange condition in add_dir function
+option: Fix typos that may lead to SEGV in some cases
+functests: Fix tests
+*: Fix linter errors
+functests: Fix 078_swapfile_recover test
+main,os/env: Fix lint errors
+stdpaths: Fix some issues, specifically
+documentation: Fix :delmarks! documentation
+shada: Fix memory leak and double free when setting both &vi and &sd
+ex_getln: Fix memory leak when overwriting history item
+shada: Fix shada_removable signature
+shada: Fix jump/change list merging code
+shada(documentation): Fix outdated comments
+shada: Fix out-of-bounds array access
+shada: Fix v:hlsearch save/restore and do not write empty patterns
+shada,functests: Fix v:hlsearch saving/restoring handling
+*: Fix lint errors found in new code in previously ignored files
+*: Fix problems with clang+asan Release build
+shada: Fix crash in hmll_insert
+shada: Fix -Wstrict-aliasing gcc error
+shada: Fix unused variable warning when using Release build
+ops: Fix access to unsaved register when iterating over registers
+mark: Fix out-of-bounds array access when iterating over global marks
+ops: Fix “conditional … depends on unitialized …” error in op_yank_reg
+shada: Fix incompatible pointer types error in non-glibc builds
+shada: Fix memory leak when reading registers from ShaDa file
+shada: Fix jump list merger code
+shada: Fix linter errors
+shada: Fix GCC -Wconversion warnings in srni_flags definitions
+functests: Fix change list ShaDa test failures
+mark: Fix valgrind error in mark.c
+ex_docmd: Fix terminal mode check condition for ex_normal
+tui: Fix queueing of large chunks of input
+spell.c: Fix memory leak
+Fix append() without line argument
+eval/msgpackparse(): Fix crash by adding return at error
+Merge PR #3309 'Fixes for 0.1'
+eval: Fix `ex_delfunction` to use the `uf_refcount` field properly
+regexp: Fix invalid multibyte reads at end of strings
+os/path: Fix path_get_absolute_path for top-level paths
+ui_bridge: Fix passing NULL pointer to memcpy
+path.c: Fix memory leak in expand_wildcards().
+Fix warning: stream.c: stream_init(): Dead store: HI.
+MSVC: Fix declaration generation. #3301
+test59: Fixup incorrectly encoded utf-8
+terminal: Fix use after free
+tui/remote_ui: Fix some regressions
+Fix lint errors #3204
+vim.h: Fix error which is not suppressed by clint
+eval: Fix jobwait() to process multiple jobs concurrently
+eval: Fixes to job control
+doc: Fix typo in nvim-python. #3162
+Merge #3149 'Fix pending() invocations'.
+documentation: Fix special dictionary value key name
+doc: Fix nit in previous commit
+tui: Fix terminal detection for cursor shape #3129
+menu: Fix :emenu mode detection #2992
+rstream: Fix read_cb invocation
+eval: Fix duplicate code in trig/math functions #3035
+terminal.c: Fix memory leak #2982
+rbuffer: Fix for problems with escape input sequences.
+rstream: Fix bug triggered when libuv doesn't use the allocated buffer
+ASan: Fix "null pointer passed for argument declared to never be null". #2925
+doc: Fix undefined reference warning
+Fix warnings: shell.c: do_os_system(): Nonnull passed null: FP. #2923
+tests: Fix an further simplify migrated test 61.
+doc: Fix some typos and trailing whitespace. #2875
+Fix legacy tests makefile after 4873171f. #2826
+CMake: Fix helptags generation when prefix is not /usr. #2741
+CMake: Fix _FORTIFY_SOURCE detection when using hardening-wrapper. #2788
+CONTRIBUTING.md: Fix broken links #2702
+Manual pages: Fix incorrect environment variable references
+Fix a wrong expectation for vim_FullName() and FullName_save().
+Fix compiling with gcc 5. #2566
+doc/eval: Fixed broken links
+Merge #2545: Fix clang analysis warnings. (12)
+Fix warnings: Support '%zu' in vim_snprintf(): Add support.
+Fix warnings: ex_docmd.c: ex_tabonly(): Np dereference: FP.
+Fix warnings: ex_cmds2.c: ex_listdo(): Np dereference: FP.
+Fix warnings: ex_cmds2.c: ex_listdo(): Np dereference: FP.
+Merge #2529: Fix coverity issues. (8)
+vim-patch.sh: Fix indentation, use GH URL for tagged versions. #2525
+Fix visual selection after left click on tabline
+Merge #2516: Fix clang analysis warnings. (11)
+Fix warnings: ex_getln.c: getexmodeline(): HI.
+Fix warnings: ex_getln.c: init_history(): Nonnull attr passed null: HI.
+Merge #2319 'ex_getln: Fixes for getexmodeline()'
+ex_getln: Fixes for some problems with getexmodeline()
+Merge #2491: Fix xfree of static value from vim_getenv() refactor.
+Fix xfree of static value in expand_shellcmd()
+Merge #2473: Fix clang analysis warnings. (10)
+Fix warnings: ex_getln.c: init_history(): NP dereference: FP.
+Fix warnings: ops.c: op_yank_reg(): Dead assignment: HI.
+Fix an uninitialized variable warning for call_start.
+Fix a couple uninitialized variable warnings in the release build.
+Fix several unused variable warnings in the release build.
+eval: Fix memory deallocation of JobEvent
+tests: Fix test setup/teardown in path_spec.lua #2402
+Merge #2410: Fix coverity issues. (7)
+eval: Fix `jobwait()`
+eval: Fix segfault caused by passing invalid callback to jobstart
+scripts: Fix "test input line" logic in legacy2luatest.pl #2369
+Merge #2303 'Fix clang analysis warnings. (9)'
+Fix warnings: window.c: close_last_window_tabpage(): Np deref: RI.
+Fix warnings: terminal.c: get_config_int(): Dead init: RI.
+Fix warnings: terminal.c: get_config_string(): Dead init: RI.
+Fix warnings: terminal.c: redraw(): Np dereference: RI.
+Fix warnings: eval.c: f_termopen(): Use-after-free: MI.
+Fix warnings: eval.c: f_jobstart(): Np dereference: FP.
+Merge #2240 'Fix problem with coverity/105568 fix'
+Fix problem with coverity/105568 fix.
+Merge PR #2221 'tests/ui: Fix indeterminism in Screen:wait'
+test/ui: Fix indeterminism in screen_basic_spec
+Fix a memory leak for WBuffers used in channel_write().
+tui: Fix reading when stdin is not a tty
+job: Fix memory errors
+syntax: Fix possible invalid read in hl_combine_attr
+test: Fix tty-test program
+job: Fix memory error
+job: Fix process cleanup using SIGCHLD/waitpid
+Merge #2184: Fix coverity issues. (6)
+Fixed compilation when using custom libtermkey (not installed in base system).
+Fix unused variable in wstream.c for a release build.
+remote_ui: Fix error messages #2045
+deps: Fix building 32-bit Lua rocks.
+Fix warnings: message.c: copy_hotkeys_and_msg: Garbage value: FP. #2062
+eval: Fix buffering of data in job autocommands
+Merge #2027: Fix clang analysis warnings. (7)
+Fix warnings: window.c: close_last_window_tabpage(): Use after free: RI.
+Fix warnings: screen.c: screen_puts_len(): Various (4): FP/MI.
+Merge #1983: Fix coverity issues. (5)
+tui: Fix terminfo extension indexes
+Merge PR #2007 'Fixes for the new TUI'
+tui: Fix use after free(reported by clang static analyzer)
+tui: Fix to_status_line terminfo sequence for xterm
+tui: Fix background clear for some terminals
+test: Fix 051_highlight_spec.lua
+input: Fix handle_mouse_event function
+test: Fix race condition in window_spec.lua
+Merge #1947: Fix coverity issues. (4)
+Fix an fs_spec test under FreeBSD and a symlinked home directory.
+deps: Fix libuv md5sum
+Merge #1896 'Fix coverity issues. (3)'
+Fix #1920: Unable to build on openSUSE 13.2 x64
+Travis: Fix OS X builds.
+Merge PR #1907 'Fix functional test problems'
+Fix the ctrl + left click test.
+Merge PR #1877 'Fix functional test suite hang when a test fails'
+test: Fix hanging test suite after failures
+Merge PR #1863 'Fix tests for plain lua'
+test: Fix screen.lua eol_clear method.
+Fix CID #102150
+screen: Fix screen_resize to consider minimum screen size
+input: Fix check for mouse coordinates
+Fix bad assert.
+term: Fix shell_resized for abstract_ui
+screen: Fix highlight reset for abstract_ui
+main: Fix color schemes for abstract_ui
+ui: Fix redraw bug caused by race conditions with remote clients
+ui: Fix out_flush/ui_write behavior to always flush for abstract_ui
+ui: Fix `:suspend` command for remote UIs
+ui: Fix ui resizing and change some method names
+test: Fix clear/eol_clear in screen.lua
+ui: Fix redraw bug caused by race conditions with remote clients
+ui: Fix out_flush/ui_write behavior to always flush for abstract_ui
+screen: Fix bug that causes separator to always be redraw for utf8
+runtime: Fix plugin/matchparen.vim for abstract_ui
+ui: Fix ui resizing and change some method names
+Cleanup: Fix bad assert.
+test: Fix eol_clear in screen.lua
+Linting: Fix strcpy warning.
+Linting: Fix header guards, add whitespace.
+Fix warnings: window.c: win_close_othertab(): Np dereference: FP.
+Fix warnings: syntax.c: get_id_list(): Double free: FP.
+Fix warnings: option.c: makeset()/put_setnum(): Various (3): FP.
+Passing-by: Fix FALSE/FAIL confusion.
+Fix warning: ops.c: read_viminfo_register():  Dereference of null pointer: RI.
+vim-patch:? Fix memory leak in readviminfo
+docs: Fix incorrect Mac path references
+Fix warnings: message.c: msg_attr_keep(): Np dereference: FP.
+Fix warnings: edit.c: ins_compl_next_buf(): Np dereference: MI.
+Merge PR #1620 'Fix 32bit unibilium build'
+deps: Fix unibilium/libtickit URLs
+Revert "deps: Fix 32-bit build of lib{unibilium,termkey,tickit}"
+Merge PR #1613 'Fix shell command output'
+deps: Fix 32-bit build of lib{unibilium,termkey,tickit}
+shell: Fix shell command output
+channel.c: Fix for heap-use-after-free
+Fix memory leak detected in PR 1510.
+Fix newline substitution: Adapt to upstream patch.
+Merge pull request #1582 from LBEaston/FixSegFault
+Fix SegFault when getting full path for files
+Fix newline substitution.
+eval: Fix coverity false positive.
+Wconversion: Fix warnings in indent_c.c.
+Wconversion: Fix warnings in file_search.c.
+Wconversion: Fix warnings in ex_eval.c.
+Fix outdated msgpack-rpc doc.
+Fix broken functional test.
+Fix substitute newline: Memory functions: Improve style.
+Fix Makefile for running valgrind with old tests.
+Fix functional-test-105 failure in OSX.
+test: Fix problems in job_spec.lua
+Fix warnings: Fix outdated doc: Connecting to nvim through python REPL.
+Wconversion: Fix warnings in digraph.c.
+Wconversion: Fix warnings in cursor_shape.c.
+Fix warnings: eval.c: f_rpcrequest(): Garbage value: MI.
+Fix warnings: screen.c: screenalloc(): Np arg (2): MI.
+Fix warnings: eval.c: do_return(): Np dereference: FP.
+Fix warnings: eval.c: add_nr_var(): Out of bounds: FP.
+Fix warnings: eval.c: call_user_func(): Out of bounds: FP.
+Fix warnings: eval.c: get_user_func_name(): Np dereference: FP.
+Fix warnings: eval.c: clear_tv(): Bad free: RI.
+Fix warnings: eval.c: item_compare(): Garbage value: MI.
+Fix warnings: eval.c: dictitem_alloc(): Out-of-bounds access: FP.
+Fix warnings: eval.c: set_var_lval(): Np dereference: FP.
+Fix warnings: window.c: tabline_height(): Np dereference: FP.
+Fix warnings: window.c: win_drag_vsep_line(): Np dereference: FP.
+Fix warnings: window.c: winframe_remove(): Np dereference: FP.
+Fix warnings: window.c: win_rotate(): Np dereference: FP.
+Fix warnings: tag.c: get_tags(): Uninitialized arg: RI.
+Fix warnings: tag.c: jumpto_tag(): Np dereference: MI.
+Fix warnings: tag.c: test_for_static()/get_tags(): Various (2): FP.
+Fix #1484: search gettext subdir for header
+coverity/13765,13766,13767,13768: Fix memory leaks in hardcopy.c
+Fix warnings: charset.c: win_lbr_chartabsize(): Dead assignment: HI.
+Fix warnings: undo.c: u_blockfree(): Use after free: FP.
+Fix warnings: syntax.c: get_id_list(): Double free: FP.
+Fix warnings: syntax.c: syn_regexec(): Uninitialized arg: MI.
+Fix warnings: spell.c: spell_edit_score(): Garbage value: MI.
+Fix warnings: spell.c: getroom(): Np dereference: FP/RI.
+Fix warnings: spell.c: store_aff_word(): Garbage value: RI.
+Fix warnings: spell.c: spell_read_aff(): Uninitialized arg: RI.
+Fix warnings: spell.c: spell_move_to(): Garbage value: RI.
+Fix warnings: spell.c: spell_move_to(): Null arg: FP.
+Fix warnings: spell.c: find_word(): Dead assignment: HI.
+Fix warnings: search.c: find_pattern_in_path(): Np dereference: MI.
+Fix warnings: regexp_nfa.c: nfa_regatom(): Dead assignment: HI.
+Fix warnings: quickfix.c: qf_add_entry(): Np dereference: FP.
+Fix warnings: option.c: do_set(): Dead assignment: HI.
+Fix api metadata function name in docs
+Fix fileio.c's diagram.
+Fix warnings: message.c: vim_vsnprintf(): Dead assignment (2): HI.
+Fix warnings: message.c: delete_first_msg(): Np dereference: FP.
+Fix warnings: memory.c: xcalloc(): 0 size calloc: CW.
+Fix warnings: hardcopy.c: mch_print_text_out(): Bad free: FP + RI.
+Fix warnings: fileio.c: aucmd_prepbuf(): Np dereference: FP.
+Fix warnings: fileio.c: readfile(): Dead assignment: HI.
+Fix warnings: fold.c: get_foldtext(): Np dereference: FP.
+Fix warnings: ex_getln.c: init_history(): Double free: FP.
+Fix warnings: ex_eval.c: report_pending(): Np dereference: FP.
+Fix warnings: ex_docmd.c: eval_vars(): Unitialized arg: FP.
+Fix warnings: ex_cmds2.c: do_source(): Unitialized arg (2): MI.
+Fix warnings: ex_cmds2.c: do_source(): Np dereference: FP.
+Fix warnings: ex_cmds.c: do_ecmd(): Np dereference: FP.
+Fix warnings: ex_cmds.c: do_ascii(): Garbage value (2): MI.
+test: Fix nondeterminism in tests with notifications
+job: Fix memory leak in job_start().
+msgpack-rpc: Fix typo in validation message
+job_spec: Fix bad test.
+Review: Remove long_u: memfile: Cleanup: Fix naming inconsistencies.
+Fix the nvim-clipboard help instructions
+Fix warnings: edit.c: ins_bs(): Garbage result: MI.
+Fix warnings: edit.c: replace_do_bs(): Garbage value: MI.
+Fix warnings: edit.c: mb_replace_pop_ins(): Unitilialized arg: FP.
+Fix warnings: edit.c: ins_compl_get_exp(): Np dereference (2): FP.
+Fix warnings: edit.c: ins_compl_next_buf(): Np dereference: FP.
+Fix warnings: regexp.c: match_with_backref(): Nonnull violation: FP.
+Fix warnings: regexp.c: br_regcomp(): Np dereference: MI.
+Fix warnings: regexp.c: skip_regexp: Np dereference: FP.
+Fix warnings: ops.c: cursor_pos_info(): Various (2): MI.
+Fix warnings: ops.c: do_join(): Nonnull violation: FP.
+Fix warnings: screen.c: draw_tabline(): Dead assignment: HI.
+Fix warnings: screen.c: showmode(): Dead assignment: HI.
+Fix warnings: screen.c: win_line(): Dead assigment: HI.
+Fix warnings: screen.c: win_line(): Dead initialization: HI.
+Fix warnings: screen.c: redraw_asap(): Various (6): MI.
+Fix warnings: cursor_shape.c: parse_shape_opt(): Garbage value: FP.
+CMake: Fix running individual (functional/unit) test.
+CMake: Fix helptags generation.
+CMake: Fix checking of DESTDIR
+job: Fix job_wait to properly cleanup the job when it exits.
+Fix python setup: Fix issue for users not using python.
+Merge PR #1358 'Fix python setup'
+Fix python setup: Make sure python version on user's path is picked.
+Fix python setup: Report errors.
+Merge PR #1357 'Fixes to input/job modules'
+input: Fix sizes of input/read buffers
+Merge PR #1350 'valgrind/jobs: Fix invalid reads.'
+job/valgrind: Fix invalid reads/missing free.
+Merge PR #1354 'Fixes to channel.c, input.c and helpers.lua'
+input: Fix conversion error in `convert_input()`
+Merge PR #1331 'Fixes to job and channel modules'
+msgpack-rpc: Fix error handling and leak in call_request_handler
+runtime: Fix rpcstop call in python_setup.vim
+debug: Fix broken DLOG macro calls
+input: Fix ctrl+c handling in convert_input
+Fix sign column redraw
+Improve YCM contrib: Fix 'no newline at end of file' issue.
+wstream/shell: Fix memory errors caused by os_system
+eval: Fix `save_tv_as_string` to handle non-string types
+travis: Fix clang-asan to always display memory errors
+Fix system() output truncation bug.
+Merge #1213 'Fix install permissions'
+channel: Fix unpacker loop condition
+msgpack-gen: Fix msgpack_rpc_init_function_metadata
+runtime: Fix one of python sanity checks
+wstream: Fix close/free
+job: Fix crash when passing a non-executable path to job_start
+Fix version numbers
+Merge PR #1127 'Fix segfault when calling methods in a client that already exited'
+Fix environment variable for triggering embedded tests
+channel: Fix channel not being closed when the RStream reaches EOF
+Merge #954 'Fix the policy warning CMP0026 in CMake 3.0.'
+Readme: Fix clang badge URL.
+Fix problem with test47: addition is not bitwise OR
+coverity/71508: Fix potential null dereference.
+clang-analyzer: Fix dead stores in garray.c.
+clang-analyzer: Fix dead stores in window.c.
+Merge PR #1040 'Fix segfault caused by default value of ipy/icpb options'
+Fix memory leaks for jobs.
+Fix memory leak in provider_call.
+Merge pull request #964 '[RFC] Fix #963'
+Fix #963.
+Fix some newline issues in the sv translation.
+travis.sh: Fix mixed tabs/whitespace formatting.
+os/server: Fix possible port overflow
+os/server: Fix TCP connection
+os/server: Fix indentation
+Merge #927 'Fix stdbool.h usage'
+Fix two android compile errors in fs.c #924
+dispatch function generator: Fix bug in validation/initialization
+Merge #887 'Fix #867: cmake doesn't issue `-isystem` for versioned gcc'
+Fix #867: cmake doesn't issue `-isystem` for versioned gcc
+Fix #838: build with "USE_BUNDLED=OFF" fails to find dependencies
+job: Fix vimscript wrapper by returning when an invalid id is passed
+build: Fix error in dispatch generator for functions with channel_id
+Fix some "out of memory" comments and few cosmetics
+Fix diagrams in ex_cmds.c #798
+Fix some styles
+Merge #714 'Fix unused variable when NDEBUG is defined'
+Fix unused variable when NDEBUG is defined.
+Build: Fix autocmd removal from cleanup function
+Merge #713 'Fix localization'
+Fix localization: Update po files.
+Fix localization: Fix po files.
+Fix localization: Fix build: Improve checking.
+Fix localization: Fix build: Fix sjis-fixing executable.
+Fix localization: Fix build: Fix sed issue on OSX.
+Fix localization: Fix build: Fix included source files.
+Fix localization: Fix build: Fix dangling references.
+API: Refactor: Fix buffer_get_mark
+API: Bugfix: Fix loop condition in vim_list_runtime_paths
+Introduce vim namespace: Contrib YCM: Fix style issues.
+Introduce vim namespace: Contrib YCM: Fix build dir calculation.
+Improve map module: Fix implementation of map_has
+Fix comment typo.
+Fixed outdated comment in option.c
+Fix `xmemdup` function signature
+Introduce nvim namespace: Fix define guards.
+Introduce nvim namespace: Fix contrib youcompleteme.
+Introduce nvim namespace: Fix localization.
+Introduce nvim namespace: Fix clint.
+Introduce nvim namespace: Fix functional tests.
+Introduce nvim namespace: Fix unit tests.
+Introduce nvim namespace: Fix unmasked strings.h issue.
+Introduce nvim namespace: Fix project-local includes.
+Introduce nvim namespace: Fix relative includes.
+Introduce nvim namespace: Fix build process.
+Fix jumps depending on unitialized values
+Fix update of pending_reqs in `write_cb`
+Fix unit test cleanup of path_shorten_fname_if_possible.
+Fix garray.* according to -Wconversion
+Fix clint.sh wrapper script and broken files
+Broken build on 32 bit: Fix -Wtautological-constant-out-of-range-compare.
+Broken build on 32 bit: Fix -Wshorten-64-to-32.
+Fix bug of `job_stop` not emitting `JobExit`
+Fix unit tests
+Fix broken build due to unit test include order
+Fix/add more files with to clint-files.txt
+Fix #451: Build broken on OSX.
+Fix seperator->separator, path_tail_with_separator->path_tail_with_sep.
+Fix shell.{c,h} comments to match the style guide
+Fix prepare watcher teardown in the event loop
+Fix: Use an assert to make sure, an error message can be copied into buffer buf in mch_dirname().
+Fix bugs, clean code, add tests.
+Fix memory leak in `eval7`
+Fix `free_all_mem` and EXITFREE definition
+Fix memory leak and enable valgrind on travis
+Fix style issues.
+README.md: Fixed brew install instructions
+Fixed nvim homebrew formula
+Fix a 'garbage value' warning found by Clang's static analyzer
+Fixed header levels in markdown
+Fix travis script
+Fix Markdown syntax.
+Fix space in link
+Fix previous commit
+Fix anchors
+Fixed travis image
+Fix cmake link in README
+Fix spelling mistakes in README.md
+Fix misspellings/grammar in README
+Fix spelling
+Fix some typos in README
+Fix build on OSX/Archlinux and add README

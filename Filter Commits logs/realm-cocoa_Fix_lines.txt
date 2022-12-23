@@ -1,0 +1,856 @@
+Fix issue with UserAPIKey.key returning incorrect value (#8022)
+Fix linker errors when building release builds with Xcode 14.1 + SPM (#8006)
+Fix a pile of issues with sync/app error reporting
+Fix a broken test helper function
+Fix the Cocoapods installation tests
+Style: "Fix XCTAssertEqual Message" (#7959)
+Fix the macOS deployment target for Xcode 14
+Fix the spm-ios installation test
+Fix a new swiftlint warning
+Fix a test which did not test what it intended to test
+Fix XCTFail Message (#7871)
+Fix opening existing Realms with seedFilePath set (#7843)
+Fix warnings when building with Xcode 14
+Fix using the dynamic API on unmanaged objects before shared schema init (#7790)
+Fix issue with creating a Frozen Realm after writeCopy (#7789)
+Fix a race condition in some async write tests
+Fix XCFramework with library evolution (#7753)
+Fix new swiftlint warnings
+Fix searchable component filter overriding the initial filter on `@ObservedResults` (#7710)
+Fix redundant call to filter on `@ObservedResults` from `searchable` component (#7667)
+Fix Catalyst test failures
+[SPM] Fix invalid exclude of "tools" directory (#7646)
+Fix custom obj-c bridging on iOS <14 (#7607)
+Fix for @ObservedResults not refreshing (#7594)
+Fix missing nullability specifier warnings
+Fix SPM warning about an untracked file (#7563)
+Fix App cleanup between sync tests
+Fix change notifications from sync writes when using asyncOpen
+Fix building the SwiftUI UI tests
+Fix a typo in the Jenkinsfile that made it do some extra work
+Fix crash in `RLMSyncConfiguration.initWithUser` error mapping when a user is disabled/deleted from MongoDB Realm dashboard (https://github.com/realm/realm-cocoa/issues/7399)
+Fix KVO observation in @StateRealmObject (#7424)
+Fix the spm-ios installation test
+Fix a rare crash when running the sync tests
+Fix crash in `MongoCollection.findOneDocument(filter:)` that occurred when no results were found for a given filter. (#7382)
+Fix the RLMDictionary_Private.h symlink (#7360)
+Fix decoding a `@Persisted` property throws a `DecodingError.keyNotFound` when key is missing (#7365)
+Fix compile error in Xcode 13 beta 4 (#7364)
+Fix decoding null into @Persisted properties
+Fix for RealmProperty<T?> decoding null json values
+Fix for decoding null json values
+Fix some static analyzer warnings
+Fix a performance regression when iterating swift collections
+Fix observing the invalidated property of Map
+Fix tests with older Xcode versions
+Fix the sync compactOnLaunch test (#7296)
+Fix incorrect cleanup in Map tests
+Fix crashes in -[PrimitiveArrayPropertyTests testFastEnumeration]
+Fix Xcode 13 warnings in the new data types code
+Fix running multi-process tests on Xcode 13
+Fix warnings when building with Xcode 13
+Fix running the tests via spm with Xcode 12.5
+Force weak-linking for SwiftUI framework, Fix some Xcode version that are not properly weak-linking SwiftUI by default
+Force weak-linking for SwiftUI framework, Fix some Xcode version that are not properly weak-linking SwiftUI by default
+Fix format issues
+Fix typo issue
+Fix exceptions when iterating frozen collections on multiple threads (#7241)
+Fix some incidental data races in sync tests
+Fix the release test job hanging forever
+Fix creating the Carthage xcframework package
+Fix a pile of warnings in tests
+Fix a lot of duplicate dictionary key warnings in the primitive array tests
+Fix the testCompactOnLaunch test on arm64
+Fix the testAsyncOpenTimeout test
+Fix swiftlint warnings (#7074)
+Fix SPM test compilation for iOS (#7066)
+Fix typo in setup-baas message. (#7048)
+Fix a few data races in tests
+Fix copying core in a git worktree
+Fix a data race in TimeoutProxyServer teardown
+Fix running tests on ios simulator
+Fix the Carthage build
+Fix sync realm path creation (#6922)
+Fix reading the objectTypes array when embedded objects are involved
+Fix testWatchCombine() (#6852)
+Fix comparing unmanaged lists (#6845)
+Fix compilation via Carthage with Xcode 12
+Fix building an Archive with Xcode 12
+Fix Combine extensions visibility (#6768)
+Fix failing decimal128 tests
+Fix compilation
+Fix warning when building on iOS
+Fix running the object server tests on macOS 10.14
+Fix a test that failed to test the thing it was intending to
+Fix cocoapods setup
+Fix swiftlint failures
+Fix packaging catalyst builds
+Fix spurious incorrect thread exceptions due to threadid reuse
+Fix a race condition in a test
+Fix the Swift name for several sync functions
+Fix some headers which were duplicated in the project file
+Fix the spelling of ObjectKeyIdentifiable
+Fix building the CocoaPods ios installation examples
+Fix running interprocess tests in Xcode 12
+Fix warnings when building with Xcode 12b1
+Fix framework include paths
+Fix a race condition in a new test
+Fix a race condition in the sync tests
+Fix a broken test
+Fix a case where we would accidentally reuse schedulers
+Fix a warning when using KVO on Object.isInvalidated
+Fix a failing test and add a missing changelog entry
+Fix some changelog bits
+Fix pbxproj extra header
+Fix bad RLMVersion import (#6542)
+Fix some race conditions in tests
+Fix building for iOS devices with Swift Package Manager
+Fix the Catalyst xcframework build
+Fix ObjectStore hash
+Fix ObjectStore hash
+Fix a race condition in a test
+Fix compilation of the Draw sample
+Fix non-modular header import errors when building iOS static
+Fix incorrect KVO notifications when an object after an observed object is deleted
+Fix an unused expression warning when building the tests
+Fix the non-catalyst macOS build
+Fix a crash when using value(forKey:) on a LinkingObjects property
+Fix compilation with Xcode 10
+Fix a crash when an observed primitive list is deleted before the first run of the notifier (#6283)
+Fix various CHANGELOG bugs (#6251)
+Fix packaging the obj-c catalyst framework
+Fix style check failures
+Fix inconsistent errors when running Installation tests on CI (#6211)
+Fix compilation with Xcode 9.2
+Fix the spm build
+Fix using asyncOpen on multiple Realms at once
+Fix creating simulators on machines with Xcode 11 installed
+Fix style issues
+Fix building release versions of RealmTestSupport
+Fix a few uses of deprecated functions in tests
+Fix the check for lazy properties on RLMObject subclasses
+Fix the check for lazy properties in Swift objects
+Fix warnings when building with Xcode 11b1
+Fix Changelog URL (#6156)
+Fix some tests which (usually) worked by coincidence
+Fix the swift version used to build the docs
+Fix an implicit cast warning when building as swift 5
+Fix another xcode 10.2 warning
+Fix a few new analyzer warnings
+Fix warnings when building with Xcode 10.2
+Fix a build cycle error when buliding the TodayExtension example
+Fix/remove some broken object server tests
+Fix a memory leak on each HTTP request made to ROS
+Fix a crash when iterating over the results of Realm.subscriptions() (#6050)
+Fix a crash when iterating over the results of Realm.subscriptions()
+Fix compilation as swift 4.2
+Fix docs validation failure
+Fix typo in Jenkinsfile
+Fix calling sessionForRealm: on a realm with a custom file url
+Fix the json arguments of SyncUser.requestEmailConfirmation (#5953)
+Fix a swiftlint failure
+Fix docs validation error
+Fix some typos in the docs
+Fix swiftlint failure
+Fix getting the description of MigrationObjects which have List properties
+Fix SwiftLint errors
+Fix a race in a test
+Fix a warning when building the tests for 32-bit
+Fix dependency information for generated files
+Fix test compilation with Xcode 10 beta 6
+Fix deprecation warnings in the Draw example
+Fix a swiftlint error
+Fix cocoapods compilation with Xcode 10 Beta 3
+Fix SwiftLint errors
+Fix compilation with Xcode 9 in Swift 4 mode
+Fix Swiftlint warnings
+Fix compiling as swift 4
+Fix the KVO tests
+Fix NSError -> Realm.Error bridging
+Fix iterating collections of Optionals
+Fix the tests
+Fix warnings
+Fix the capitalization of URL
+Fix changelog
+Fix import
+Fix lint warnings
+Fix swiftlint error
+Fix a race condition in a test
+Fix a broken test that usually passed by coincidence
+Fix the check for bitcode in the ios-static library
+Fix a crash on non-@objc `String?` properties
+Fix object deletion handling within migrations
+Fix version number in changelog
+Fix typo in comments
+Fix a race condition in some of the tests
+Fix a spurious runtime warning in the tests
+Fix flatMap() deprecation warning
+Fix swiftlint errors
+Fix +[RLMClassPermission objectInRealm:forClass:] to work for permission classes whose API names differ from the class name used within the Realm.
+Fix converting a RLMSyncConfiguration with partial sync enabled to a Swift SyncConfiguration
+Fix linker warnings when building Realm as a static framework via CocoaPods (#5576)
+Fix an incorrect return type.
+Fix warnings when building with Xcode 9.3 and Swift 4.
+Fix the one-time initialization of RLMSyncManager (#5650)
+Fix partial sync with ROS v3.0.0-alpha.9
+Fix the object store submodule
+Fix incorrect privilege reporting for setPermissions
+Fix the ouptut of swift-version.sh when the current command-line tools are not from an Xcode app bundle.
+Fix some UBSan warnings
+Fix some docs issues
+Fix include order
+Fix some SwiftLint violations.
+Fix how build.sh detects available devices.
+Fix typos
+Fix a crash when dynamically getting a linking objects
+Fix handling of implicitly-ignored Swift properties
+Fix regression where Swift APIs didn't work correctly with `type(of:)`
+Fixed an issue that crash when enumerating after clearing data during migration.
+Fix some recently-added change log entries.
+Fix for Swift 4.0 String slicing subscript warning (#5352)
+Fix a test that raises different errors in CI vs on my local machine.
+Fix issue with bitcasting different types of nil
+Fix `sh build.sh download-sync` when the Xcode command-line tools are selected.
+Fix some lifetime issues within -fetchResultsForQuery:objectType:callback:.
+Fix changelog
+Fix some compiler warnings in PrimitiveListTests.swift.
+Fix tests with Swift 3.0.
+Fix or suppress SwiftLint violations.
+Fix primitive list tests with Swift 4.
+Fix installing ROS when `node` isn't `/usr/local/bin/node`.
+Fix building the Realm Swift unit tests with Xcode 9 beta 6.
+Fix Swift 3.2/4.0 compilation failure
+Fix more stuff
+Fix more cases where assigning an RLMArray property to itself would clear the RLMArray
+Fix more cases where assigning an RLMArray property to itself would clear the RLMArray
+Fix an issue causing permissions tests to fail
+Fix Xcode 9 compilation
+Fix typos
+Fix `sh build.sh get-version`. (#5261)
+Fix the bundle version of our frameworks in our beta releases. (#5256)
+Fix building the Realm Swift unit tests with Xcode 9 beta 6. (#5254)
+Fix compilation error in Swift 4
+Fix the way generic Swift properties are added to schema
+Fix the biggest shellcheck issues
+Fix `Object` comparison behavior
+Fix sorting collections on iOS 7.
+Fix the core version number.
+Fix package-test-examples's extraction of version numbers from the zip file names.
+Fix a typo
+Fix self-assignment of RLMArray properties
+Fix unmanaged object initialization
+Fix the KVC collection operator tests
+Fix the Swift 3.1 installation examples
+Fix downloading the release zips for installation examples
+Fix the type name mentioned in the description of nested `List` types.
+Fix add(update: true) for nil RealmOptional properties
+Fix setting a float property to NaN.
+Fix compilation with Xcode 8.1
+Fix crashes in tests with Swift 3.2
+Fix compilation as Swift 4
+Fix errors and warnings when compiling as Swift 3.2
+Fix issue where sync does not properly reconnect (#4957)
+Fix a typo and tweak some comments
+Fix an inaccurate comment
+Fix swift lint failure
+Fix some incorrect backports from the primitive arrays branch
+Fix swiftlint warnings in ObjectTests
+Fixed typo during nil-value check in KVC setter for ObjectBase
+Fixed missing check for nil values in KVC
+Fix async open interaction with read-only Realms
+Fix not being able to enumerate objects in migration after deleting
+Fix `valueForKey:`/`valueForKeyPath:` returns incorrect results for `List` properties.
+Fixing target has libraries with conflicting names
+Fix crashes related to sync-applied schema changes
+Fix some places where c++ exceptions were not being translated to obj-c
+Fix copying objects with custom getter names with createInRealm:
+Fix misspelling of erroneously
+Fix initialization of dictionary
+Fix QueryWithReversedColumnOrderTests to actually reverse the order of properties in the given class's object schema.
+Fix a few typos
+Fix some logic and test bugs
+Fix issue where non-RLMObject could be passed to `RLMArray` method
+Fix incorrect comparison of date objects
+Fix compilation of ObjectServer tests
+Fix error behavior when binding session for the first time
+Fix issues with automatic sync token refresh subsystem
+Fix a typo, and reformat docstrings for easier reading
+Fix a test that fails on iOS 8
+Revert "Fix issues with automatic sync token refresh subsystem"
+Fix issues with automatic sync token refresh subsystem
+Fix a docstring. NFC.
+Fix Podspec for PermissionOffer and PermissionOffer
+Fix an error about missing documentation.
+Fix review feedback.
+Fix use of nested subqueries.
+Fix the Draw scheme to explicitly depend on the static framework target. (#4441)
+Fix to fail casting a list that was retrieved `DynamicObject` to List<DynamicObject>
+Fix to fail iterating Results of DynamicObject
+Fixed ambiguos setter method
+[Fix] Improper implicit 'assign' NSString property declaration
+Fix running just the Schema tests (#4340)
+Fix sync-related import statements, and remove some unused code
+Fix build.sh to properly make needed directories
+Fix podspecs for client permissions
+Fix some crashes when working with a `RLMLinkingObjects` property of an unmanaged object.
+Fix unit test infrastructure
+Fix a bunch of extra header inclusions in the project
+Fix several warnings in the obj-c examples
+Fix compilation of the RACTableView example with CocoaPods 1.1
+Fix Realm headers to be compatible with pre-C++11 dialects of Objective-C++.
+Fix Swift 2.3 and 3.0 installation examples
+Fix getting versions from dependencies.list when running build.sh from out-of-root
+Fix bug where opening Realm with access token deadlocks
+Fix logout of users and restarting inactive sessions
+Fix auto token refresh issues
+Fix a bug uncovered while writing tests
+Fix swapped-around arguments in ternary
+Fix an asssertion failure when sorting by zero properties
+Fix issues reported by swiftlint
+Fixing documentation for Swift 3 APIs
+Fix `@escaping` compilation errors introduced in GM (#4063)
+Fix crash when `initWithValue:` nested object w/ uninitialized schema (#4039)
+Fix some issues related to direct access token users
+Fix nullability annotations in Swift 3 Realm Objective-C tests
+Fix force cast to incorrect type `URL` instead of `NSString`
+Fix crash where numeric type not bridged for primary key lookup
+Fix a crash when an observed object is deallocated from within an observation
+Fix build with Swift 2.3 in Xcode 8 beta 6.
+Fix crash when obtaining Int8/Int16/Int32 value from max/min/average/sum (#3955)
+Fix building for Swift 3.
+Fix RLMSupport.swift for Swift 3.
+Fix `RLM_ERROR_ENUM` with Swift 2.3.
+Revert "Fix handling of Swift 3 properties which are renamed when bridged to obj-c"
+Fix an error due to the Test target not declaring which Swift version it uses.
+Revert "Fix handling of Swift 3 properties which are renamed when bridged to obj-c"
+Fix an error due to the Test target not declaring which Swift version it uses.
+Fixing the way the sync path is calculated
+Fixing the way binding distinguishes between sync and auth URLs
+Fix a typo in a test name noticed while looking at build output.
+Fix a typo in the name of a #define.
+Fix running the Realm tests on iOS devices with Xcode 8 beta 2.
+Fix building the Realm tests on OS X with Xcode 8 beta 2.
+Fix macro to not define NS_EXTENSIBLE_STRING_ENUM (#3839)
+Fix Swift import of `schmaVersionAtURL` to throw (#3817)
+Fix `migrateRealm:` to follow Cocoa error conventions (#3815)
+Fix createOrUpdate when column order does not match property order
+Fix spelling
+Fix code signing with Xcode 8.
+Fix member initialization order to avoid warnings from bindings that have -Wreorder enabled.
+Fix visibility of `s_sync_client_mutex`.
+Fix handling of Swift 3 properties which are renamed when bridged to obj-c
+Fix warnings when building with Xcode 8
+Fix reading the shared schema from object instances
+Fixing sequence iterators
+Fix a typo in an error message.
+Fix compile errors for NDK (#82)
+Fix a typo in an error message
+Fix move-assigning to a `Results` that has a notifier to not leak the `Realm`, and moving from a `Results` to not result in a use-after-free.
+Fix notification pipe flushing on tvOS
+Fix typo in `operatorName()` BETWEENS => BETWEEN
+Fix documentation typo. "path" -> "fileURL"
+Fix reading of optional scalar types via the dynamic API.
+Fixes based on feedback. Fixing more shared copy.
+Fix the reference to LinkingObjects.swift.
+[ObjectStore] Fix typo in UnitializedRealmException
+Fix the reference to LinkingObjects.swift.
+[ObjectStore] Fix typo in UnitializedRealmException
+Fix an assertion failure in IndexSet::do_add() following a table clear
+Fix `RLMLinkingObjects` properties on `RLMObject` subclasses declared in Swift.
+Fix `BETWEEN` queries that traverse `RLMArray`/`List` properties to ensure that a single related object satisfies the `BETWEEN` criteria.
+Fix the file format upgrade disabled test on 64-bit ios
+Fix a test failure message
+Fix an assertion failure in IndexSet::do_add()
+Fix RLMArray -addNotificationBlock: missing error
+Fix typos in doc comments
+Fix warnings in the performance tests
+Fix some Swift style issues.
+Fix fast enumeration of `LinkingObjects`.
+Fix some Swift style issues.
+Fix some style issues.
+Fix background updates of `RLMLinkingObjects`.
+[Examples objc] Fix linker error for RACTableView target
+[Doc] Fix code sample for addNotificationBlock
+Fix a debug assertion failure when deleting objects in row order
+Fix an assertion failure when a ListNotifier's LV was already deleted
+Fix assertion failure when a notifier is removed before it runs
+[Doc] Fix inconsistency for Error. IncompatibleLockFile
+Fix the initial ref count for WeakRealmNotifier
+[Doc] Fix return type of Realm.addNotificationBlock
+Fix SwiftLint line length violations
+Fix some typos
+Fix check for the target results being invalid in ResultsNotifier::deliver()
+Fix tracking of which tables need change info with multiple source notifier versions
+Fix quadratic runtime of move_last_over() parsing
+Fix incorrect results when the second-to-last row is deleted
+Fix tracking of modifications after linkview moves
+Fix dangling pointers to a reallocated vector when there are multiple source versions for handover
+Fix marking deletions when chaining move_last_over()
+Fix handling of move_last_over() on the second-to-last row
+Fix calculation of moves for unsorted queries
+Fix a use-after-free when removing KVO observers via an associated object
+Fix `-[RLMResults indexOfObjectWithPredicate:]` for `RLMResults` instances that were created by filtering an `RLMArray`.
+Fix running the tests for the static framework with Xcode 7.3.
+Fix for errant comment marking.
+Fix version number in changelog
+Fix up the paths to the prebuilt iOS frameworks.
+Fix core library name in the podspec
+Fix a few typos and improve a comment
+Fix reporting of inWriteTransaction in notifications triggered by beginWrite
+Fix warnings when building via CocoaPods
+Fix a crash when an RLMArray with notification blocks is deleted
+Fix building against older SDKs.
+Fix `TrueExpression::clone` and `FalseExpression::clone` to do the correct thing.
+Fix a perf regression when opening Realms
+Fix typos in tests
+Fix typos and minor errors in comments
+Fix a data race when RLMCancellationToken is stopped on one thread then deallocated on another
+Fix a data race in a test
+Fix a data race when an async query is unregistered while it's running
+Fix a deadlock when two callbacks try to remove each other simultaneously
+Fix a use-after-free
+Fix a data race
+Fix a data race
+Fix a lock order inversion that could lead to deadlock
+Fix incorrect logic for when to begin/end read transactions for the async worker
+Fix Swift formatting issue
+Fix the generic implementation of ExternalCommitHelper
+Fix a potential deadlock when opening a realm
+Fix some header inclusions
+Fix a typo
+Fixes for: Fix sync misbehaviour at Realm close time
+Fix sync misbehaviour at Realm close time
+add build.sh verify-osx-encryption. Fixes #1587
+Fix race conditions when an RLMRealm is deallocated from the wrong thread
+Fix using -[RLMResults setValue:forKey:] on a key used in the query
+[Style] Fix indentation
+Fixed the crash with the Puzzle app.
+[Examples] Fix storyboard warnings
+[build.sh] Fix fail to install via CocoaPods on case-sensitive filesystem
+Fix a typo.
+Fix `-testRemoveProperty` by explicitly specifying the position the property was declared at.
+Fix `+[RLMObject createInRealm:withValue:]` when given an `NSArray *` to match values in the array with properties in the order that the properties are declared.
+Fix typo in RLMObjectStore.mm
+Fix the build for 32-bit platforms.
+Fix Swift performance tests
+Fix obj-c performance tests
+Fix memory leak when using Object(value:) for subclasses with List/RealmOptional properties
+Fix typo
+Fix Xcode 6 compilation
+Fix SwiftLint issues in Realm Swift tests
+Fix SwiftLint issues in Realm Swift
+Fix compilation with xcode 6
+Fix race condition in multiprocess schema init
+Fix a crash when constructing a dynamic object from a Swift type with a RealmOptional property.
+Fix the performance tests
+Fix a typo in an error message
+Fix typo in comment
+Fix compilation with GCC 4.9
+Fix internal links
+Fix crashes when manually refreshing during fast enumeration
+Fix building the static framework with Xcode 6.4.
+Fix a copy-paste error in generate-rlmversion.sh.
+Fix osx-swift, ios-swift, and watchos-swift to ensure that Realm.framework is copied to the correct location now that building RealmSwift doesn't invoke build.sh.
+Fix references to source files to point below the RealmSwift symlink rather than RealmSwift-swift2.0.
+Fix `test-ios-static` with `XCMODE=xcpretty`.
+Fix reporting of the Target OS Type when building with older iOS SDKs.
+Fix running tests on iOS devices with the dynamic framework.
+Fix `package-ios-swift` to delete only Realm.framework from the previous iteration.
+Fixed incorrect method type encoding for setters and getters.
+Fix the deployment target of the iOS static tests target.
+Fix and re-enable the multiprocess tests.
+Fix the #if to work with Xcode 6.4.
+Fix the test host with the iOS 8.4 SDK.
+Fix building for watchOS now that the Tests target is always built.
+Fix `test-ios-devices-swift` in a clean working copy.
+Fix building Realm Swift, and running tests via build.sh.
+Fix references to swift-2.0 in packaging steps in build.sh.
+Fix references to paths containing swift-2.0 in the example Xcode projects.
+Fix failing install with CocoaPods 0.39 to case-sensitive file system.
+Fix an issue Swift optional properties no longer ignored Skip to add schema if Swift optional properties are marked as ignored
+Fix references to swift-2.0 in packaging steps in build.sh.
+Fix references to paths containing swift-2.0 in the example Xcode projects.
+Fix an issue Swift optional properties no longer ignored Skip to add schema if Swift optional properties are marked as ignored
+Fix a build failure when building the iOS Dynamic target.
+Fix a build failure in PerformanceTests.m.
+Fix error in cleanup after an error during a migration
+Fix typo
+Fix a comment
+Fix checks for what types of columns can be optional
+Fix retain cycle from notification blocks
+Fix caching of in-memory realms
+[Swift] Fix crash when using optional Int16/Int32/Int64 properties
+Fix mixed path registration/config usage in encryption tests
+Fixes for style feedback on dynamicList method
+Fix swift 1.2 tests to not use swift 2.0 features
+Fix a typo in the new dynamicTest
+Support assigning `Results` to `List` properties via KVC. Fixes #2634.
+Fix failing install with CocoaPods 0.39 to case-sensitive file system.
+Fix check for non-beta versions in package-test-examples
+Fix the name of the new test
+Fix observing standalone RealmOptional properties
+Fix tests of trying to make unsupported RealmOptionalTypes
+[RLMProperty] Fix exception message doc URLs
+Fix running the tests with null disabled
+[RLMObjectStore] Fix support for null int primary keys
+Fix the build with core's current sync-demo-5 (b7d2524d).
+Fix a copy-paste error in build.sh that I made in 0648e4e6.
+Fix running the Swift tests on iOS devices.
+Fix the path to the Extension example
+Fix the path to the OS X framework in the Carthage installation example
+Fix the check for in-repo example testing
+Fix an assertion failure when deleting objects while enumerating
+Fix compilation on iOS
+Fix running prelaunch-simulator from out-of-tree
+Fix paths to Realm frameworks in Carthage example
+Fix bitcode generation for Release builds
+Fix the sizes of the buffers used by RLMHashData.
+Fix for a race condition with RLMRealmConfiguration.
+Fix crash of GroupedTableView example in Swift 2.0
+Fix tests with the current master version of core.
+[build.sh] Fix packaging Realm Swift for OS X
+Fix for the Swift API header documentation.
+Fix to remove the explicit getter on RLMObject.
+Fix project file which got corrupted with rebase.
+Fix incorrect merge of ReactKit example
+Fix uses of deprecated methods in PerformanceTests
+Fix bug in mainThreadInit of RLMSyncSession in RLMRealm.mm
+Fix more places where background things linger past the end of tests
+Fix simulator cleanup
+Fix RLMRealm docs on setting the default configuration
+Fix migration example to use correct paths
+[RealmConfiguration] Fix swift 1.2 tests
+Fix copy/paste error
+Fix a badly named variable
+Fix a comment
+Fix typo
+Fix observing List<> properties on standalone objects
+Fix observing List<> properties on persisted objects
+Fix crash when adding a property to a model without updating the schema version.
+[Swift][Object] Fix className on non-Mac platforms
+Fix OS X Swift 2.0 installation example framework search paths
+Fix releasability
+[Installation] Fix finding CocoaPods / Carthage projects
+Fix path for the watchos framework
+[build.sh] Fix building the ios swift examples
+Fix setting a list object via subscript in Swift 2
+Fix a path in test-package-release
+Fix inheritance of Swift versions in subtasks
+Fix the output directory for ios-swift 2.0
+Fix compilation with Xcode 7 beta 3
+Fix a broken test
+Fix JP's concern by specify full Xcode path instead of plain xcrun
+Fix typo in Object.swift docs
+[RLMObjectStore] Fix automatic optional migration when multiple properties are being changed
+Fix testCrossThreadSyncLatency
+[README] Fix branches table
+[README] Fix some typos
+Fix Swift tests
+Fix for: Updated according to recent changes in core API
+Fix a memory leak when constructing standalone Swift objects
+Fixed broken links.
+Fix a typo.
+Fix the dynamic framework installation examples
+Fix some incorrect comments
+[Results] `Results` now conforms to `CVarArgType`. Fixes #1995.
+Fix the migration example after changing schema versions to use uint64_t.
+Fix list properties on old migration objects
+[Swift][Object] Made `Object.init()` a required initializer. Fixes #1916.
+Revert "Fixed sync across 32/64 bit devices."
+Fixed sync across 32/64 bit devices.
+Fixed sync across 32/64 bit devices.
+Fix iOS and OS X Draw apps so that they interoperate.
+examples/README.md: Fix sync demo build instructions
+examples/README.md: Fix sync demo build instructions (also build the server)
+Fix for: Attempt to reconnect after a network connection failure (+ a few bug fixes)
+Fix enumerating through standalone lists whose objects have list properties
+[Docs] Use the correct doc URL. Fixes #1890.
+[RLMObjectStore] Fix the deletion of orphaned subclass tables
+Fixed sync handling on the client.
+[Podspec] Fix OSX deployment_target
+[build.sh] Fix cocoapods-setup task
+[RLMMigration] Fix capitalization in deprecation message
+Fix swift tests
+[XcodePlugIn] Update UUIDs and only install file templates (not class templates). Fixes #1366.
+[Swift 1.2] Fix RealmSwift compilation warning about not generating a module map
+[Swift 1.2] Fix the property names accessed on the AllTypesObject
+[Swift 1.2] Fix position of @autoclosure
+Fix changelog
+Fix failing `package-release` command on case sensitive filesystem
+[SwiftPerformanceTests] Fix indentation
+Fix typo for test comments
+Fix entitlement file name for case-sensitive file system
+[PerformanceTests] Fix runtime errors on 32 bit devices
+Fix cannot retrieve keychain item in release build.
+Fix the performance tests
+Fixes typo in assertion
+Fix Realm Swift Backlink example
+Fix RealmSwift iOS Deployment Targets to be 8.0
+Fix the usage of fake Object subclasses
+[Object] Fix the ObjectSchema initializer call to use an unlabeled argument
+[Object] Fix schema initialization tests and add tests for indexedProperties
+[Object] Fix setValue:forKey: for peristed list properties
+[Object] Fix docs for indexed properties
+[Object] Fix parameter naming in setValue(_,forKey:)
+Fix nested object creation in Swift
+Fix deployment target for iOS Swift examples
+[Realm] Fix deployment target for iOS Dynamic framework
+[RLMArray] Fix insertObject:atIndex: test
+[Util] Fix exception message from assertPositive
+[Realm] Fix initializing a Realm without an encryption key
+Fix a crash in CFRunLoopSourceInvalidate
+Fix license header on new example source files
+Fix some small test issues
+Fix help text
+Fix typo
+Fix unsafe uses of __unsafe_unretained
+Fix small typos
+Fix race conditions in tests
+[Realm.podspec] Fix platform deployment targets
+Fix warning in testDataObjectDescription
+[RLMRealm] Fix check for open realms at path
+Fix symbol availability
+[Tests] Fix import
+[Project] Fix private header setup across targets
+[RLMUtil] Fix the type of the RLMException function that takes a C++ exception
+Fix grouped queries on allObjects
+Fix removing primary keys
+Fixes for: Fix various problems due to recent changes in core (server_sync_mode)
+[Examples/Obj-C] Fixed date format and set time zone offset such that the JSON strings are now parsed correctly.
+Fix various problems due to recent changes in core (server_sync_mode)
+Fix typo
+[RLMRealm] Fix alignment inside catch statement
+Fix some overly long object lifetimes
+Fix an assertion failure in -[RLMRealm invalidate] when the Realm is not current in read mode
+Fix the browser
+Fix a memory leak when circularly linked objects are added to a Realm
+Fixed opening new window with array (from context menu)
+Fix a place still using the _table ivar
+Fix error message when using the lldb script with Swift
+Fixed implications of RLMResults split for queries.
+Fix the objectClassName fetch for RLMArray
+Fixed bad absolute paths and set deployment target to 7.0 for Backlink examples
+Fix browser location in release zip and release 0.87.4
+Fix the RLMVerifyInWriteTransaction error message
+Fixes the empty browser issue in yosemite
+Fix crash when opening a Realm file in the browser
+Fix the creation of the default path directory on OS X
+Fix problems in SwiftTestCase
+Fix crash in RLMSuperSet
+Fix crash when querying a sorted linkview
+Fix errors when rearranging properties in model classes
+Fix changelog
+Fix another use of className that could cause init order issues
+- Fixed paths in rubymotion example Rakefile - Package Swift examples - Globally replace paths
+Fix issues with building/packaging RealmBrowser.app with build.sh
+Fix typo
+Fix using IN on an array property
+Fix paths in the release packaging
+Fix for NSNull with default values
+Fix typos & deprecations
+Fixed recursive description of objects
+Moved descriptions to separate class/object Fixed descriptions for object and array items
+Fix docs packaging in test script
+Fix running iOS tests from Xcode 6
+Fix the framework search path for the examples
+Fix compilation with the Xcode 6 GM
+Fixes for JPs comments
+Fixed a comment
+Fixes merging artefact, three lines were accidentally duplicated
+Fixes so that editing a realm in two different windows works as expected, all updates are shown everywhere
+Fixed mouse over issue
+Fix typo
+Fixed tooltip issue
+Fix some typos
+Fix a bunch of small errors in the RLMRealm docs
+Fix crash when adding an object already in a realm to another realm
+Fix some issues with multilevel link queries
+Fixes non-closing open file window…
+[WIP] Fixed several smaller syntax and design issues.
+Fix sign comparison warnings
+Fixing 'type* var'
+Fixed table column widths. Fixed tooltips for column headers. Simplifications in the code.
+Fixed the truncation issue when editing cells…
+Fixed a problem with the boolean:
+Fixed some details
+Fix the memory leak when creating queries
+Fix compilation of the browser
+Fix memory leak when breaking out of a for-in loop
+Integers in Swift were down casted to 32 bits integers. Fixed #688
+Fixed how Xcode6 iOS framework is combined into a fat framework
+Minor fixed to RLMArray -description. Fixes https://github.com/realm/realm-cocoa/issues/673
+Fixed issue in Swift tests for Xcode6-Beta4: isEqualTo should be isEqual
+Fixing a few typos.
+- Fixed issues with our unicode support - RLMProperty’s setterName is now correctly generated for UTF8 property names - RLMQueryUtil now uses the standard RLMStringDataWithNSString function - renamed UtilTests to UnicodeTests
+Fix a small regression in examples testing
+Fixed the indentation
+Fix the podspec file to point to the framework correctly
+Fix the wrong project name for the ObjC simple example
+Fixed code snippets in REST doc
+Fixed code snippets and sp mistakes in migration docs
+- Fixed issues with running build.sh examples - Added RealmMigrationExample and RealmRestExample to build.sh examples - Fixed issues with building RealmRestExample - Removed hardcoded paths from RealmRestExample
+Fixing minor issues in the new Rest example
+Fixing link
+Fixed live updating of query results
+Fixed issue that was preventing us from using our framework in other Xcode projects with Xcode6-Beta3 Fix was to temporarily remove bridging header and re-add as a public header in the framework
+Fixed Swift tests in Xcode6-Beta3 by creating TestFramework and adding RLMTestObjects to it
+Fixed Swift tests
+Fix build issue in RealmMigrationExample
+Fixing build issues in RealmPerformanceExample
+Fixing bug i navigation handling.
+- Fixed Xcode 6 project's RLMPredicateUtil's target membership to tests instead of framework - build.sh download-core now follows redirects
+Fixing expected exception names
+Fixed review issues
+Fixed bug that prevented explicit inserts of NSArrays with objects
+Fixing issue with cursor image not changing back from link pointer.
+Fixing absolute path in project configuration.
+Fixing code formatting
+Fixing error after renaming method.
+Fixing typos.
+Fix the test-all target for build.sh
+Fixing runtime error after merge.
+Fixing some code formatting
+- added support for Sequence-style enumeration in Swift - Fixed a few issues with Xcode 5 version
+Fixed issue with how RLMNotificationToken properties were declared
+Fix download-core and produce the proper exit code when using xcpretty
+Fix indentation, usage and add input validation
+Fix per feedback from @jpsim
+Fixing property type mistake.
+Fixed an issue in RLMAccessor.mm exposed by clang 3.5, this is backwards compatible with earlier versions.
+Fixed spelling of 'available' in documentation comments.
+- Moved to Xcode 6 - Builds a real iOS framework - Uses a cleaner build.sh - More reliable async tests - Fixed issue with objc_msgSend without a typecast
+Fixed minor typos and missing parameters in api docs.
+Fix for build break
+Fix the build problems
+Fix download link & add as dependency for OSX
+Fix build.sh
+Fix Product>Archive for iOS
+Fix target name in script
+Fix platform for binary download to reduce Realm-iOS scheme platforms
+Fix location of docset files
+Fix spelling mistake in exception string.
+Fix sed command
+Fix Dash and Xcode images on subpages
+Fixning up project file and includes of Realm framework
+Fix first batch of feedback from @jpsim & @alazier
+Fix hover on Dash/Xcode links
+- updated templates with +defaultPropertyValues - Fixed issues with install_templates.sh
+Fixed issue in RealmTableViewExample that would prevent notifications from working on 64bit iOS
+Fix versioning for iOS-framework
+Fix some Xcode parameters
+Fixing a few type casts
+Fixing merge problem.
+Fixed wrong text in exceptions
+Fixed BOOL -> bool
+Fix atom links
+Fix hyphens
+Fix package filenames and aim package links to docs/ios/*
+Fix styling of header
+Fix problem with the package-examples target
+Fix incorrect read-only status for descriptors + new unit test to verify the fix
+Fixed wrong comment. The method hasSameDescriptorAs: in RLMTable is implemented. Not sure for now if this will be needed in coming API. Leaving it enabled for now.
+Fixed issues with README and build.sh
+Fixed warnings.
+Fixed merge conflicts in doc/ref/RefDocExamples
+Fixed merge issues
+Fixed typo where firstWhere: macro would return ID instead of OType *
+Merge branch 'master' into jp-rlmtransactionmanager Fixed issues where NSFileManager called managerForDefaultRealm
+Fixed issue where addColumnWithName would return NO instead of NSNotFound when a read-only exception occurred
+Fixed NSInteger to NSUInteger
+Fixed unit test to create tables using realm object
+Fix typos in RLMContext
+Fix Realm task names per comments from @astigsen
+Fixes to RLMRealm docs
+Fixed refdoc to make it compilable.
+Fixed NSPredicates using NSDate comparisons and added relevant tests
+Fixed two “parameter unused” warnings in enumerator.m tests
+Fixed warning when generating tutorial.
+Fixed bug in RLMVersion isAtLeast. Refactored the class and tests.
+Fixed bug that caused typed tables to call init from initLocal. Fixed unit tests to call initLocal. Imported RLMLocal.h in RLMTestCase. Added unit test to ensure calling init on RLMTable will throw exception
+Fixed docs
+Fixed a few old references to RealmObjcDyn
+Fixed issues with examples
+Fixed tutorial issues introduced by latest changes in master
+Fixed some more example issues
+Fixed typo where TDBDynamicTableTests should have been RLM*
+Fixed block method signature in iOSTutorial
+- RefDocExamples: changed "com.realm" company ID to "io.realm" - Re-added commented YAML removed in previous commit - Fixed issues with iOSTutorial (even though it's being replaced)
+Fixed references to RLMTransaction in iOSTutorial xcode project and Makefile
+Fixed typo in test error message
+Fixed declaration ordering
+Fixed warnings in TightdbTutorial.xcodeproj
+Finished unit tests for setRow:atIndex:. Added out of bounds sexception on setRow because previously it would just abort. Fixed missing renames.
+Fixed issue stopping unit tests to run from the RealmObjcDyn Xcode project
+Fixed issue when running table_view.m tests on a machine with non-english locale
+Fixed missing renames for TDBQuery. Still working on other TDBQuery renames
+Fixed missing renames
+Fixes for: Unit tests in  have been commented out because they fail for obvious reasons
+Fix bug in `testPinnedTransactions` where a few `__block` declarations were missing
+Fix for C++ library
+Fixes for: Prefix ivar names with `_`
+Fixing typo in api ref
+Fixing typo
+Fixing compiler warning in iOS builds
+Fix set-version in build.sh
+Fix doc examples to use the latest interface
+Fixed examples and tutorials to build again
+Fix for: Upgrade `generic.mk` to latest version from core repo
+Fixing bug when inserting subtables. Preparing inserting subtable in mixed (not yet complete).
+Fixing bug when inserting subtables. Preparing inserting subtable in mixed (not yet complete).
+Fix for: Makefile (generic.mk) upgraded to version 1.0.1 (latest) from core library
+Fix spacing in tutorial to avoid lines being broken
+Fixes for: Build fat binaries for iPhone when supported by Xcode (from version 5)
+Fix for: Makefile (generic.mk) upgraded to version 1.0.1 (latest) from core library
+Fix for: Makefile (generic.mk) upgraded to version 1.0.1 (latest) from core library
+Fixing ex_objc_table_typed_intro.m
+Fixes for: Error handling and lots of other stuff from Jesper
+Fix for: Makefile (generic.mk) upgraded to version 1.0.1 (latest) from core library
+Fix typo
+Fixes due to some core header files having been moved into subdir /util/
+Fix for: Upgraded to support new build process
+Fix for: Upgraded to support new build process
+Fix for: Upgraded to support new build process
+Fix for: Upgraded to support new build process
+Fix for: Upgraded to support new build process
+Fixing typo.
+Fixing typos in API reference
+Fix for: Tracking latest generic.mk changes in core library
+Fixed cursor assignment issue for subtables (and more).
+Fix for query leakage (circular strong reference)
+Fix for memory leakage when typed tables are created in a group.
+Fixed an error in the iPhone example (table from memory).
+Fixed issues with coding standard/naming conventions. Also set detailed text in first error trial to that of the exception.
+Fixed build warning casued by new table_objc.mm, addRows: method.
+Fix for: A 'config' step has been introduced into the build procedure
+Fix for: Fixed [[table where].StringCol equal:...] such that it returns the right Query type (ans same for DateCol)
+Fixed [[table where].StringCol equal:...] such that it returns the right Query type (ans same for DateCol)
+Fixes for: New attribute 'readOnly' added to TightdbSpec
+Fixes for: New attribute 'readOnly' added to TightdbSpec
+Fixes for: 'sh build.sh test-debug' is now supported
+Fix due to core lib change: Group::get_table_count() -> Group::size()
+Fixes for: Tracking changes in core library
+Fixes for: Tracking latest error handling improvements in core library
+Fixes for: Tracking latest error handling improvements in core library
+Fix for: Fixes due to changed Group and SharedGroup constructors in core library
+Fixes due to changed Group and SharedGroup constructors in core library
+Fix for 'make uninstall'
+Fix for: Swap name/type in table macros
+Fix for: Swap name/type in table macros
+Fixes for: Rudimentary support for mixed columns in typed API. Rudimentary support for subtable columns in typed API. Rudimentary support for transactions.
+Fixes for: Files converted from CamelCase to unserscore_separated
+Fixes for: Files converted from CamelCase to unserscore_separated
+Fixes due to C++ Query class now storing a table reference
+Fixes for: Post installation test added
+Fixes for: Post installation test added
+Fix for: Now also building for iPhone when building on OS X
+Fix for: Minor update of generic.mk: Improvements in regard to CFLAGS specification
+Fix for: Minor update of generic.mk: Allow CFLAGS to be specified for each library and program
+Fix for: Minor update of generic.mk: Allow CFLAGS to be specified for each library and program
+Fix for: Minor update of generic.mk: Allow CFLAGS to be specified for each library and program
+Fix minor tightdb include and lib issues
+Fixed cyclic memory problem
+Fixed a warning. And optimized a little
+Fixed Query::do() to correct name Query::findAll().
+Fixing title
+Fixed add insert and getSize naming
+Fixed link issue

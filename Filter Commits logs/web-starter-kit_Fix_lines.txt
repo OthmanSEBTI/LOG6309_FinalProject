@@ -1,0 +1,52 @@
+Fix issue #848 (#853)
+Fix typo in gulpfile.babel.js
+Fix wrong location for main.js and main.css
+Fixes #777 - move require-dir to comments
+Fixes #722 - drop style guide comment
+Fixes #782 - adds support for manifest splashscreen
+Fix CSS sourcemap generation. (Closes #738)
+Bump sw-precache. Fixes #695
+Fixes #698 - correct paths
+Fixes #699 - explicit concat order
+Fixes #408: Add sass sourcemap
+Fixes gulp-changed plugin's usage in the gulpfile.js
+Fix a .jscsrc rule
+Fixes #570 - osx font smoothing for mox
+Fixed font-smoothing for Firefox.
+Adding theme-color. Fixes #522
+Fixes #82 - use LibSass instead of Ruby Sass
+Fixes #441 - add custom logPrefix for BrowserSync
+Fix to new style-system not minifying output.
+Fixes #407 - headline works everywhere now.
+Fixes #397 - use updated Android icon size.
+Fixes #380 - drops basic.scss
+Fixes #403 - revert back to border-box sizing
+Fixed README typo.
+Fixed the gulp and gulp:serve tasks to work
+Fixing up the styleguide to work correctly with the sass stylesheet
+Fixing up the html files to no longer require useref for CSS
+Fixes #375: sync recommendations (index > basic)
+Fixes #337 - restore touch icons on Android && iOS
+Fixes #286 - fix navigation flash during resize.
+Fixes #264 - copy fonts to dist
+Fixes #253 - correctly minify styles
+Close GH-243: Vendor prefixes. Fixes #175
+Fixes #220 - move font loading to https
+Close GH-217: Adds a gulp serve:dist command that uses the dist build process.  Fixes #216. Fixes #215, Fixes #216
+Fixes #200
+Close GH-171: Livereload breaks on jshint error(s) when running `gulp serve`. Fixes #169
+Fix missing pygments highlighting
+Fixes #174 - moves demo classes to styleguide
+Fixed the link to the troubleshooting page.
+Fixes #103  grid issues (ty @CreativeJuiz)
+Fixes indentation and removes duplicate newlines.
+Fixed the article section by adding padding
+Fixed so that gulp runs jshint more than once
+Close GH-75: Add basic aria roles. Fixes #53
+Fixes for style guide image paths, style guide component linking.
+Fix the navigation bar being too short on desktop.
+Fix incorrect URL.
+Switch to input type=search. Fixes #39
+Tidying up the web starter kit styles - still needs work. Fixes #31
+Fixing up the subdirectory watch and adding support for subdirectory building
+Fix linking issues with scripts/main

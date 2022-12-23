@@ -1,0 +1,2830 @@
+Merge branch 'rw_van_221118' into 'master'
+Move Rust install to build dir
+Update cookbook
+Merge branch 'rw_van_221117' into 'master'
+Update podman.mk
+Increase size of demo
+Add neverball and rodioplay to demo config
+Add curl, git, and vim to dev config
+Allow selecting ac97
+Merge branch 'master' of https://gitlab.redox-os.org/redox-os/redox
+Update jeremy config
+Merge branch 'bootstrap-fixes' into 'master'
+move Rust install to a persistent container dir
+Merge branch 'master' of https://gitlab.redox-os.org/redox-os/redox
+Enable audio out in virtualbox
+Merge branch 'rw_van_221116' into 'master'
+fix podman colors, env target and netsurf build
+Merge branch 'rw_van_221114' into 'master'
+Edit to reflect changes to build process
+Merge branch 'rw_van_221113' into 'master'
+update Usage to correct img location
+Update netsurf
+Enable duktape recipe
+Add missing apt-get in podman readme
+add config name to .img or .iso
+Update relibc
+Merge branch 'rw_van_221111' into 'master'
+Add podman build
+Add hardware compatibility
+Update relibc
+Use local packages for ci images
+Add images configs for i686
+Update cookbook
+Update cookbook
+Update cookbook
+Add ci.toml for i686
+Update cookbook
+Disable bash in ci
+Move CI to arch-specific location
+Retain compatibility with jenkins image job
+Retain compatibility with jenkins toolchain job
+Build images in directory per arch, remove bochs
+Disable cmatrix in CI
+Update relibc
+Update cookbook
+Update cookbook
+Merge branch 'master' of https://gitlab.redox-os.org/redox-os/redox
+Update relibc
+Update cookbook
+Updated developer config
+Update cookbook and relibc
+Update relibc
+Move filesystem size to installer config
+Merge branch 'rw_van_221016' into 'master'
+change ci-img target to build desktop, server and demo
+Move CI to its own makefile
+Merge branch 'rw_van_221010' into 'master'
+Add demo.toml, plus dependencies in bootstrap.sh
+Update cookbook
+Merge branch 'rw_van_221007' into 'master'
+Unmount /tmp/redox_installer during make unmount
+Merge branch 'rw_van_221005' into 'master'
+delete /tmp/redox_installer at every opportunity
+Update cookbook
+Update cookbook
+bootstrap.sh: Fix malformed unsupported platform message
+bootstrap.sh: Pedantic naming and capitalization fixes
+Merge branch 'fix-bootstrap' into 'master'
+bootstrap.sh: Install system dependencies before installing Cargo packages
+Update cookbook
+Merge branch 'omac777-master-patch-76222' into 'master'
+Update bootstrap.sh Only install sufficient packages to launch qemu aarch64 Redox OS
+Update bootstrap.sh
+Update installer
+Update installer
+Do not gzip CI images
+Update installer
+Fix missing build directory when making fetch tag
+Touch build/fetch.tag to prevent re-fetch
+Fix missing build directory when using REPO_BINARY
+Build repository outside of installer
+Update relibc
+Update relibc
+Add relibc to jeremy config
+Add more packages to jeremy config
+Make redox version 0.8.0alpha
+Add initfs to CI
+Disable pkgar in CI until recipe is fixed
+Update cookbook
+Support setting QEMU CPU and machine, use pc as default for i686
+Support creation of isolated filesystem images
+Update cookbook
+Remove some packages from desktop configs
+Update cookbook
+Update installer
+Update installer
+Update installer
+Update installer
+Refactor of disk image handling
+Build ISO using HD emulation
+Update installer
+Fixup last commit
+Update to use installer to produce disk images with bootloader
+Update installer and redoxfs
+Update relibc
+Update relibc
+Remove qemu nvme tracing
+QEMU tracing for NVME
+Update relibc
+Fix last commit - only make build instead of build/filesystem
+Remove development packages from desktop config
+Ensure build/filesystem exists while building build/filesystem.bin
+Update bootloader
+Update bootloader
+Update bootloader
+Fix disk creation on i686
+Support booting both BIOS and UEFI from the same image
+Update bootloader
+Add rebuild target
+Undo accidental setting of ARCH to i686
+Update bootloader
+Add desktop-minimal config for i686
+Update bootloader
+Add a minimal i686 config for low-RAM systems
+Always use live disk for aarch64
+Add aarch64 desktop config
+Support distinct filesystem configs for each architecture
+Update cookbook
+Use minimum x86_64 CPU when not using KVM
+Support multi-core x86
+Update relibc
+Update relibc
+Update relibc
+Update relibc
+List i686 as supported arch
+Disable efi on i686
+Fix swapped harddrive and livedisk
+Simplify qemu recipes
+Update bootloader
+Update cookbook
+Support higher RAM sizes for x86
+Update all submodules
+Update cookbook
+Update bootloader
+Update relibc.
+Update bootloader
+Update bootloader
+Update relibc
+Update bootloader
+Update relibc
+Enable kvm and use q35 for i686
+Update relibc
+Update relibc
+Update bootloader
+Update relibc
+Update relibc
+Update cookbook
+Update bootloader
+Update relibc
+Update relibc
+Update bootloader
+Update bootloader and cookbook
+Use bootloader package
+Build lld support for rust
+Update relibc
+Copy key after running installer
+Add bochs i686 config
+Update bootloader
+Update cookbook
+Update cookbook
+Add initfs to configs, remove unused maximal/minimal configs
+Add mgba to jeremy config
+Merge branch 'move_initfs_to_recipe' into 'master'
+Move initfs.mk to a regular cookbook recipe.
+Add more packages to jeremy config
+Remove no-reboot from qemu flags
+Update cookbook
+Update cookbook
+Update cookbook
+Enable CI for more packages
+Update cookbook
+Update relibc
+Add escalated to packages
+Add bootstrap to CI
+Update cookbook
+Update relibc
+Update relibc
+Get QEMU to run UEFI aarch64
+Fix syntax issues in qemu makefile
+Support i686 QEMU
+Update relibc
+Update cookbook
+Update cookbook and relibc
+Update cookbook
+Update cookbook
+Update cookbook and relibc
+Merge branch 'userspace_fexec' into 'master'
+Add bootstrap and escalated to configs.
+Update bootloader and relibc
+Clean relibc when running make clean
+Update cookbook
+Update bootloader
+Remove extra space from host arch
+Ensure that rustc supports the host target correctly
+Update relibc
+Update cookbook
+Use HOST_CARGO variable for compiling binaries on the host
+Update cookbook
+Update relibc and rust
+mk/prefix.mk: Use correct host target
+Improve jeremy config documentation
+Update cookbook
+Move kernel to cookbook recipe
+Update cookbook
+Update cookbook
+Update cookbook
+Update cookbook
+Remove fuse from ubuntu boostrap
+Merge branch 'master-MR-enygmator' into 'master'
+FIX bochs
+FIX minimal.toml
+Fix virtualbox log paths
+0.7.0
+Update bootloader
+Update bootloader
+Update kernel
+Update kernel
+Add redox-release file
+Update kernel
+Update kernel
+Merge branch 'master' of https://gitlab.redox-os.org/redox-os/redox
+Update kernel
+Add drivers-initfs to CI
+Add terminfo to desktop config
+Update cookbook
+Add rustc config file with example program
+Cleanup of config files, add comments for what each of them are
+Update cookbook
+Use drivers-initfs for smaller initfs
+Update redoxfs
+Update kernel
+Merge branch '4lDO2/redox-external-initfs'
+Update submodules
+Update kernel
+Create kernel.all file that has both code and debugging symbols
+Make prefix before other dependencies.
+Add redox-initfs submodule
+Update bootloader and kernel.
+Do not rebuild kernel when initfs changes
+Update relibc
+Update bootloader
+Update cookbook
+Update bootloader
+Update bootloader
+Update kernel
+Update cookbook
+Update cookbook
+Update cookbook
+Update cookbook
+Update dependencies for toolchain update
+Update toolchain to 2022-03-18
+Update installer
+Add files needed for installation to filesystem, do not copy dynamic linking files
+Remove pkg directory from initfs
+Update relibc
+Update cookbook
+Update cookbook and installer
+Update relibc
+Update installer
+Make /usr links relative
+Update cookbook
+Update cookbook
+Update cookbook
+Update submodules
+Allow redoxfs mkfs flags to be set
+Update kernel
+Update bootloader and kernel
+Update bootloader and kernel
+Update kernel
+Update bootloader and kernel
+Update bootloader
+Adjust initfs removed binaries, copy bootloader to filesystem
+Update cookbook and installer
+Update bootloader and redoxfs
+Update redoxfs
+Update bootloader and redoxfs
+Use redoxfs 0.5.0 branch
+Update bootloader
+Update bootloader
+Update bootloader
+Update bootloader and kernel
+Temporarily remove usb-tablet device from qemu
+Re-enable xhcid and drivers, update kernel
+Move logd to initfs, update kernel
+Update kernel
+Update bootloader
+Update bootloader
+Update bootloader
+Update bootloader
+Update bootloader
+Update bootloader
+Move live disk support from kernel to bootloader
+Cleanup filesystem-live build target
+Update bootloader
+Update bootloader
+Add livedisk-efi.bin target, remove unsupported livedisk-efi.iso target
+Update bootloader
+Fix guest_errors debugging overriding cpu_reset
+Update bootloader
+Update bootloader, remove bootloader-efi
+Update bootloader-efi
+Update bootloader
+Update bootloader
+Fix live disk and ISO
+Use harddrive.bin for bochs
+Update kernel
+WIP changes for rust bootloader
+Update bootloader-efi and kernel
+Update redoxfs
+Update relibc
+Add vim to ci
+Update cookbook
+Update cookbook
+Update cookbook and relibc
+Update kernel and relibc
+Add resist testing config
+Update cookbook
+Update kernel
+Update kernel and relibc
+Update kernel
+Update relibc
+Update kernel
+Update kernel
+Update kernel
+Remove unused packages from acid filesystem config
+Update kernel and relibc
+Update relibc
+Update relibc
+Update relibc
+Update cookbook
+Update kernel
+Update cookbook
+Update kernel
+Update relibc
+Update cookbook and kernel
+Update cookbook and installer
+Update submodules
+Add resist to ci
+Update cookbook
+Update relibc and rust-toolchain
+Disable sdl-player
+Update relibc
+Add libgmp
+Re-enable glium
+Disable glium recipe
+Ensure that REDOXER_TOOLCHAIN is set for all makefile targets
+Update relibc
+Update rust
+Add libexpat-dev and libgmp-dev to Ubuntu bootstrap
+Disable cairodemo recipe
+Update cookbook
+Update cookbook
+Update cookbook
+Update kernel
+Attempt to build HOST_TARGET in rust-install
+Merge branch 'rust-fix-scheme-parsing' into 'master'
+Update rust submodule.
+Merge branch 'fix_build_deps' into 'master'
+Merge branch 'master' of https://gitlab.redox-os.org/redox-os/redox into fix_build_deps
+Workarounds for compilation issues
+Fix incorrect path when copying from rust install to relibc install
+Merge branch 'update-toolchain' into 'master'
+Update Rust branch.
+Update submodules.
+Update submodules adapted to the new toolchain.
+Update toolchain to nightly-2021-06-15.
+Add missing solus packages
+Add missing fedora packages
+Add missing suse packages
+Update submodules
+Update cookbook
+Update kernel and cookbook
+Update all submodules
+Update kernel
+Update kernel
+Add acpid userspace driver
+Update cookbook
+Update kernel
+Update kernel
+Update cookbook
+Update cookbook
+Update relibc
+Update kernel
+Update bootloader-efi
+Update kernel
+Update relibc
+Update cookbook and relibc
+Update relibc
+Update kernel and makefiles to enable use of GS segment
+Update kernel
+Update kernel
+Update cookbook
+Update relibc
+Update kernel
+Update kernel
+Use /sbin/parted to call parted. This might need to be improved with automatic detection of the parted location later
+Update relibc
+Update kernel and relibc
+Install parted in gitlab CI
+Fix EFI variable, update CI to use 20.04
+Update bootloader-efi
+Update bootloader-efi
+Do not build coreboot image, it is broken
+Add ramfs to ci.toml
+gears is compiling again
+Improvements for rust dependencies in bootstrap
+Disable gears recipe
+Install correct version of cargo-config and xargo
+Add po4a for arch and fedora
+Update cookbook and relibc
+Update cookbook
+Update cookbook and relibc
+Update cookbook
+Update cookbook
+Update kernel and relibc
+Add ramfs to all initfs recipes
+Also remove unused initfs bins from coreboot and live initfs
+Update kernel
+Update relibc
+Hack for smaller initfs
+Update bootloader-efi
+Convert to RMM
+Remove old EFI harddrive target
+Add po4a dependency
+Make default image use MBR partition table
+Update cookbook
+Enable dash recipe
+Update relibc
+Update relibc
+Update cookbook
+Merge branch 'xargo-to-cargo' into 'master'
+Switch kernel builds away from using xargo
+Use CPU with all required features when kvm=no is specified
+Update relibc
+Update rust
+Update kernel
+Update cookbook
+Build cookbook rust program before running fetch or ci-pkg
+Update rust
+Update kernel
+Update kernel
+Add maximal config with all building packages
+Update cookbook
+Update cookbook
+Update cookbook
+Update relibc
+Update cookbook
+Update cookbook, remove mgba package
+Update relibc
+Update cookbook
+Update cookbook
+Update cookbook
+Update submodules
+Update relibc
+Update kernel
+Update submodules
+Update relibc
+Update relibc
+Update relibc
+Merge branch 'fix-ci-missing-xargo' into 'master'
+Use 2020-07-27 nightly, it has rustfmt
+Update to nightly 2020-08-01
+Update .gitlab-ci.yml
+Merge branch 'allow_qemu_serial_logfile' into 'master'
+Allow logging serial from qemu to a file.
+Merge branch 'bump_cookbook_to_latest_master' into 'master'
+Bump cookbook to latest master.
+Merge branch 'add_pciids_option_to_fs_and_initfs' into 'master'
+Add pciids option to fs and initfs configs.
+Undo CFLAGS hack after finding cause
+Update kernel
+Update kernel
+Merge branch 'master' of https://gitlab.redox-os.org/redox-os/redox
+Update kernel
+Set march to x86-64 in CFLAGS and CXXFLAGS when compiling prefix
+Attempt to compile binutils and gcc for generic x86_64
+Update cookbook
+Merge branch 'fixed-ci-versions' into 'master'
+Install the exact versions required in CI
+Merge branch 'add_local_make_config' into 'master'
+Add a file to hold a local make config.
+Update submodules
+Merge branch 'update-gdb-stuff' into 'master'
+Update relibc and cookbook
+Update kernel
+Update bootloader-efi
+Update submodules
+Merge branch 'gdbserver' into 'master'
+Add gdbserver + fix net=redir
+Unset RUSTUP_TOOLCHAIN when checking for Rust depends
+Merge branch 'prefix-fix' into 'master'
+Update kernel
+Fix build of rust-install
+Update cookbook and relibc
+Update relibc
+Require rustup and nasm
+Require cargo-config
+Require xargo 0.3.20
+Fix relibc-freestanding path
+Update relibc
+Add randd recipe
+Update cookbook and relibc
+Update prefix.mk
+Merge branch 'fix-homebrew-bootstrap' into 'master'
+Add cmake to homebrew in bootstrap.sh
+Update cookbook
+Use gcc-install as base of rust-install and fix compilation of relibc-freestanding-install
+Clean up prefix and fix PREFIX_BINARY=0 build
+Update relibc
+Update relibc
+Update relibc
+Update cookbook
+Update cookbook and build cookbook binary
+Add INSTALLER variable
+Set RUSTUP_TOOLCHAIN to rust-install by default
+Set REDOXER_TOOLCHAIN in preperation for new cookbook
+Remove PREFIX_RUSTC
+Set relibc base depending on PREFIX_BINARY and PREFIX_RUSTC
+Update relibc
+Build redoxfs and installer outside of build environment
+Download rust-install if PREFIX_BINARY is 1
+Update relibc
+Update cookbook
+Update relibc
+Update relibc
+Update cookbook
+Disable dash recipe
+Disable bash recipe
+Update cookbook
+Fix uname check for FreeBSD in bootstrap
+Update cookbook and kernel
+Re-enable netsurf, update cookbook, and update kernel
+Merge remote-tracking branch 'origin/freebsd'
+Add dependencies for user-space programs on FreeBSD
+Add sha256 and make sure to use gmake with freebsd
+Add python
+Add texinfo for makeinfo
+Fix conditional target
+Start adding basic support for FreeBSD
+Merge branch 'change-shebang' into 'master'
+Change shebang of bootstrap to /usr/bin/env to be more cross-platform
+Update kernel
+Update kernel
+Update kernel
+Update kernel
+Update bootloader, bootloader-efi, and relibc
+Update relibc
+Add makefile target for gdb
+Update cookbook
+Update relibc
+Merge branch 'cbindgen' into 'master'
+Merge branch 'ramfs' into 'master'
+Remove ramfs from filesystem.toml.
+Include ramfs in initfs.
+Update relibc
+Use variable for qemu EFI firmware location
+Simplify relibc install steps
+Update cookbook
+Build relibc package
+Update rust to use llvm-project with @microcolonel patch
+Use pkgar when building with cookbook
+Update cookbook
+Update cookbook
+Update cookbook
+Update kernel
+Update rust
+Update linked rust branch
+Update cookbook
+Update cookbook and relibc
+Update relibc
+Merge branch 'master' of https://gitlab.redox-os.org/redox-os/redox
+Update bootloader-coreboot
+Merge branch 'update-bootstrap-sh-for-mac' into 'master'
+update bootstrap.sh for macOS brew using steps from The Book
+Update kernel
+Update relibc
+Update cookbook
+Merge branch 'bootstrap_install_cargo_config' into 'master'
+Install cargo-config from bootstrap script
+Update kernel
+Update kernel
+Update kernel
+Update bootloader
+Update bootloader
+Update relibc
+Update cookbook
+Revert "ca-certificates is broken, need to fix"
+ca-certificates is broken, need to fix
+Update relibc
+Update relibc
+Enable cmatrix package
+Update kernel
+Update relibc
+Format harddrive-efi.bin target
+Make harddrive-efi.bin target run in a single shell instance
+Remove erroneous ONESHELL usage
+Revert "Fix .partial paths"
+Update cookbook
+Update relibc
+Update installer
+Update submodules
+Update cookbook
+Correctly determine size of MBR partition
+Merge branch 'fix-1283' into 'master'
+Fix .partial paths Fixes #1283
+Merge branch 'master' into 'master'
+Add the somehow-deleted qemu_no_build.
+Add make recipes for MBR-partitioned BIOS disks.
+Update bootloader
+Merge branch 'master' of https://gitlab.redox-os.org/redox-os/redox
+Update cookbook
+Merge branch 'master' into 'master'
+Update bootloader-efi.
+Change the format of harddrive-efi.bin to GPT.
+Update bootloader-efi
+Merge branch 'master' of https://gitlab.redox-os.org/redox-os/redox
+Update kernel and relibc
+Merge branch 'fedora-fix-bootstrap' into 'master'
+Fix bootstrap pkg install step for Fedora
+Update cookbook
+Update relibc
+Update relibc
+Update cookbook
+Update submodules
+Update rust toolchain to 2019-11-25
+Update installer
+Update installer
+Update cookbook
+Merge branch 'update-fedora-build-deps' into 'master'
+Update kernel
+Update kernel
+Update fedora build dependencies
+Update kernel
+Add REDOXFS_BLOCK to initfs.toml
+Update bootloaders
+Merge branch 'mggmuggins/fix_bootstrap_final' into 'master'
+Remove pacman upgrade; Cli options
+Nicely format ubuntu dependencies
+Update cookbook
+Update cookbook and kernel
+Merge branch 'new-nix' into 'master'
+Update cookbook version to fix nix version
+Add extra space for livedisk-efi.iso target
+Add target to mount extra and use livedisk with nvme
+Update cookbook
+Update cookbook
+Merge branch 'master' of https://gitlab.redox-os.org/redox-os/redox
+Update cookbook
+Disable neverball
+Update cookbook
+Update cookbook
+Update relibc
+Update cookbook
+Merge branch 'new-nix' into 'master'
+Update the cookbook to fix the unreachable nix commit
+Update cookbook
+Switch extra.qcow2 to extra.bin
+Update cookbook and relibc
+Update bootloader-efi
+Update cookbook
+Update cookbook
+Add /dev links to server image
+Update installer
+Add extra drive to qemu_nvme
+Add dash to server image
+Remove overrides of /etc/issue and /etc/motd
+Update cookbook
+Merge branch 'master' of https://gitlab.redox-os.org/redox-os/redox
+Fix use of GDB in QEMU
+Fix compilation of EFI programs
+Update cookbook
+Add EFI nvme target
+Update cookbook
+Add missing packages
+Update kernel
+Use NVMe as root when running make qemu_nvme
+Update submodules
+Update relibc
+Update cookbook
+Merge branch 'xargo-fix' into 'master'
+Fix xargo deadlock
+Update cookbook
+Update cookbook
+Update relibc
+Update relibc
+Merge branch 'master' of https://gitlab.redox-os.org/redox-os/redox
+Add neverball
+Update rust
+Update rust
+Update Rust
+Update cookbook and relibc
+Update relibc
+Update kernel
+Update relibc
+Update relibc
+Update relibc
+Links for /dev/null, /dev/random, /dev/urandom, and /dev/zero
+Update kernel
+Add pkg-config
+Update relibc
+Update cookbook
+Disable cargo
+Update submodules
+Enable cargo
+Disable shared-mime-info and as a result gdk-pixbuf
+Update cookbook and ci packages
+Update kernel
+Enable dash and strace by default
+Update relibc and cookbook, enable orbclient example
+Enable git
+Disable vim
+Disable ncdu
+Update relibc
+Update cookbook
+Update cookbook
+Disable gstreamer
+Update relibc
+Merge branch 'master' into 'master'
+Update kernel
+Update server.toml
+Update desktop.toml
+Update coreboot.toml
+Update kernel and relibc
+Update cookbook
+Build openttd
+Update kernel
+Update kernel
+Update kernel
+Update submodules
+Link to stdcpp statically
+Merge branch 'master' of https://gitlab.redox-os.org/redox-os/redox
+Compile cargo statically
+Merge branch 'patch-1' into 'master'
+Removes the need to sudo since the script is already running as sudo
+Remove freestanding rust files as much as possible from rust install, build cargo only
+Cleanup gitlab CI script
+Build rust toolchains with tools like cargo
+Update cookbook
+Add redoxerd
+Disable all broken recipes
+Disable openttd
+Disable hematite
+Disable git in ci
+Disable some broken recipes
+Use binary prefix
+Update cookbook, add disabled pathfinder package
+Update cookbook
+Revert "Add python to CI install"
+Add python to CI install
+Update rust
+Merge branch 'master' of https://gitlab.redox-os.org/redox-os/redox
+Update rust
+Remove nix-related patches and files
+Merge remote-tracking branch 'origin/redox-unix'
+Update cookbook
+Merge branch 'redox-unix' of https://gitlab.redox-os.org/redox-os/redox into redox-unix
+Merge prefix changes from master
+Merge branch 'nix' into 'redox-unix'
+Update cookbook
+Yet another shell.nix update
+Update cookbook
+Update cookbook
+Fix issues with EFI build
+Remove duplicate rust-install target
+Move nulld, randd, and zerod to initfs
+Link master branch of bootloader-coreboot
+Update cookbook and relibc
+Merge branch 'linux_distrib' into 'master'
+Merge branch 'patch-1' into 'master'
+Merge branch 'master' of https://gitlab.redox-os.org/redox-os/redox
+Update submodules
+Merge branch 'nix' into 'master'
+Fix PREFIX_BINARY for NixOS users
+Update installer
+Update submodules
+Update cookbook
+Fix build with new compiler-builtins, update kernel
+Update cookbook
+Fix two compile issues
+Update redoxfs
+Improve prefix generation and fix build
+bootstrap.sh: yacc provided by bison on Arch Linux
+Update relibc
+Update rust
+Update rust
+Update rust
+Update rust
+Add full rust toolchain tarball
+Update submodules
+Update cookbook
+Update cookbook
+Remove nulld, randd, and zerod from other filesystem configs
+Update relibc and redoxfs
+Move nulld, randd, and zerod to initfs
+Update submodules
+Update submodules
+Update rust
+Update rust and cookbook
+Move nulld, zerod, randd to initfs
+Update submodules
+Update cookbook
+Update cookbook
+Switch to Rust with Redox as a unix platform
+Set use PREFIX_RUSTC when using PREFIX_BINARY
+Update relibc
+Fix failure to statically link
+Update rust
+Update rust
+Update cookbook
+Update submodules
+Copy relibc artifacts to filesystem
+Update submodules
+Also strip libraries using --strip-unneeded
+Remove libtool files
+Do not allow multilib
+Fix build of gcc-freestanding
+Fix prefix
+Enable shared libraries
+Update cookbook
+Update kernel
+Fix build of relibc-freestanding
+It looks like gcc-install still needs C libs
+Update redoxfs
+Update kernel
+Update kernel
+Update cookbook
+Update rust
+Update installer
+Fix build of prefix
+Only build headers for relibc freestanding install
+Update rust
+Update rust
+Update relibc
+Update relibc
+Update kernel and relibc
+Update relibc
+Update submodules
+Add vice to ci configuration
+Fix PREFIX_BASE_INSTALL definition
+Update cookbook
+Support building two toolchains in one tree
+Fix bochs target
+Update relibc and kernel
+Build rustc prefix when aarch64 target is used
+Include custom Rust when compiling with PREFIX_RUSTC
+Add PREFIX_BASE variables that point to either binutils or rust
+Building rust does not require gcc freestanding
+Disable cmatrix
+Merge branch 'master' of https://gitlab.redox-os.org/redox-os/redox
+Update relibc
+Merge branch 'bootstrap-add-arch-packages' into 'master'
+Update kernel
+Fix coreboot vesad config
+Merge branch 'fix-prefix' into 'master'
+prefix: Fix RUSTUP_TOOLCHAIN spec
+prefix: Fix build breakage due to invalid prefix argument
+bootstrap: Add missing packages for Arch based distros
+Merge branch 'fix-prefix-rustc' into 'master'
+Fix incorrect path to rust's configure script
+Merge branch 'fedora-missing-packages' into 'master'
+Fix build of bootloader-efi
+Update kernel and rust
+Fix issue with binutils missing libexec
+Update prefix strip to prevent stripping libgcc
+Strip only host binaries
+Do not keep build directories
+Strip all prefix binaries
+Update relibc
+Also create relibc toolchain tarball
+Fix issue with not clearing out old gcc-install when extracting new one
+Makefile cleanup, default to binary prefix
+Significant changes to prefix in order to generate path agnostic toolchain. Addition of ci-toolchain target
+Update gitlab CI
+Configurable filesystem size and automatic FAT filesystem size
+Update ci-img target to build all possible disk formats
+Update EFI image creation
+Update recipes for ci build
+Update bootloader-efi
+Update cookbook
+Update cookbook
+Update kernel
+Update kernel
+Use serial for debugging by default
+Use 0x402 for qemu debugging
+Update relibc
+Update relibc and cookbook
+Update cookbook
+Update submodules
+Compile more things with LTO
+Remove more binaries from coreboot filesystem
+Add support for building as a coreboot payload
+Do not install netsurf on server
+Update redoxfs
+Update submodules
+Add missing bootstrap package on Fedora.
+Update kernel and relibc
+Update kernel
+Update kernel and start work on automatic testing configuration
+Add minimal config
+Allow easy configuration of different configs
+Update kernel
+Add bash and dash
+Enable cargo, disable rust
+Enable rust recipe
+Enable ncurses applications
+Update relibc and cookbook
+Update relibc
+Update relibc
+Update cookbook and relibc
+Add all packages to filesystem.toml
+Disable dash
+Update cookbook
+Update relibc
+Update relibc and kernel
+Change bochs cpu model to newer model
+Update kernel
+Support for syscall instruction
+Update relibc and cookbook
+Update relibc
+Update relibc
+Increase speed of kernel build when initfs changes
+Update relibc
+Update ci.toml
+Update relibc
+Merge branch 'master' of https://gitlab.redox-os.org/redox-os/redox
+Update relibc and cookbook
+Merge branch 'fix-bootstrap' into 'master'
+bootstrap: Add texinfo as a requirement on Ubuntu
+Add sdl_ttf and syobonaction again
+Temporarily disable syobonaction
+Disable sdl_ttf temporarily
+Disable rust build temporarily
+Add more packages to filesystem.toml
+Update cookbook and relibc
+Update ci.toml, cookbook, and relibc
+Merge branch 'master' of https://gitlab.redox-os.org/redox-os/redox
+Update cookbook, kernel, and relibc
+Update cookbook and kernel
+Update relibc
+Update kernel and relibc
+Update installer and redoxfs, add branches to git m modules
+Update cookbook
+Update cookbook and relibc
+Update relibc
+Update cookbook
+Update relibc
+Add cairo demos and libc-test to ci
+Update cookbook, kernel, relibc Add audiod
+Update kernel and relibc
+Update cookbook
+Update cookbook
+Update cookbook and relibc
+Update cookbook
+Update cookbook
+Enable LTO compilation
+Add more packages
+Update cookbook
+Update kernel
+Fixes /dev/fuse permissions inside docker when host is running MacOS
+Update cookbook and add rust to ci script
+Update cookbook
+Update kernel
+Update cookbook
+Update to add pthread support to gcc and c++
+Enable llvm
+Update cookbook
+Update relibc and cookbook
+Update relibc
+Update to enable mesa
+Update relibc
+Update cookbook
+Update cookbook
+Update relibc and cookbook
+Add mesa_glu, update cookbook and relibc
+Add mesa and other packages, update cookbook and relibc
+Update relibc
+Add gigalomania
+Build sopwith and eduke32
+Update cookbook
+Update ci.toml
+Update relibc
+Update relibc and cookbook
+Fix running qemu_live, update kernel
+Update submodules
+Add dosbox, update relibc
+Update relibc
+Update filesystem.toml with new packages
+Add git, openjazz, and scummvm. Update cookbook and relibc
+Update relibc
+Update relibc
+Merge branch 'master' of https://gitlab.redox-os.org/redox-os/redox
+Update relibc
+Merge branch 'docker_documentation' into 'master'
+Docker privileged flag to allow filesystem mount
+Update kernel
+Update cookbook
+Merge branch 'master' of https://gitlab.redox-os.org/redox-os/redox
+Update relibc
+Update cookbook
+Update relibc
+Cleanup for gcc make targets
+Enable c++
+Set path where required
+Update prefix logic from aarch64
+Backport prefix changes from aarch64
+Update cookbook and relibc
+Update ci.toml
+Update cookbook
+Disable diffutils, enable git
+Update relibc, enable diffutils
+Update relibc
+Disable git
+Improve definition of targets for prefix
+Update kernel
+Update cookbook, relibc, and add openttd
+Update relibc
+Add git
+Add all packages available to ci.toml
+Add patch
+Update relibc
+Add flex and bison to gitlab ci file, update cookbook and relibc
+Use the same arguments for building live kernel
+Add reasons for dosbox and perl
+Enable ffmpeg, test openttd
+Update cookbook
+Enable recipes and add reasons for disabling
+Add target to launch shell with correct build environment
+Add curl, grep, and sed
+Update kernel
+Fix running qemu with EFI
+Updates to fix gcc compile
+Fix linux distribution detection: "pacman" is also a very popular game.
+Add GCC
+Add gnu-binutils
+Enable bash
+Update relibc
+Update kernel
+Update relibc
+Enable gnu-make
+Build kernel when lock file changes
+Enable dash
+Add umask
+Update cookbook
+Update bootloader-efi
+Update bootloader-efi
+ update kernel
+Update rust
+Use xargo to compile relibc, to allow patching of rust core and alloc
+Update cookbook
+Update relibc and rust
+Update relibc
+Update kernel
+Update cookbook
+Update rust
+Update rust
+Update submodules
+Merge branch 'master' into 'master'
+fixes #1027
+Attempt to fix CI
+Update relibc
+Merge branch 'develop7-master-patch-70796' into 'master'
+Fix error building netsurf in Docker
+Update installer
+Update kernel
+Merge branch 'rip-libc' into 'master'
+Remove out of date reference to external toolchain
+Do not build EFI images yet
+Update submodules
+Add netsurf to filesystem
+Update ci packages
+Update relibc
+Update rust and relibc
+Update rust
+dash does not compile without umask
+Update redoxfs
+Update cookbook
+Update cookbook and kernel
+Merge branch 'relibc'
+Update cookbook and relibc
+Update relibc
+Update cookbook
+Update relibc
+Update submodules
+Update relibc
+Update cookbook and kernel
+Update relibc
+Update kernel
+Do not include exampled
+Update relibc
+update cookbook and relibc
+Update relibc
+Update relibc
+Merge branch 'relibc' of https://gitlab.redox-os.org/redox-os/redox into relibc
+Add example driver
+Update cookbook Fix shadow permissions
+Update relibc
+Update relibc
+Update relibc
+Fix incorrect clean in prefix build
+Update relibc
+Update relibc
+Merge branch 'relibc' of https://gitlab.redox-os.org/redox-os/redox into relibc
+- Do not copy relibc before building - Remove debug section from live kernel as well
+Add ripgrep
+Merge branch 'templates' into 'master'
+Build openssl in ci
+Update submodules
+Reorganize description templates for GitLab
+Update relibc
+Merge branch 'update_contributing_docs' into 'master'
+Change reference to github in mk/kernel.mk
+Change reference to github in docker README
+Change github links in README
+Change github references in bootstrap.sh
+Change CONTRIBUTING repo urls to point to gitlab
+Update bootloader-efi
+Update bootloader-efi
+Update bootloader
+Merge branch 'mggmuggins/permissions' into 'master'
+Add more packages that can build on relibc
+Enable more packages
+Update cookbook
+Update cookbook
+Set path to include binutils when building freestanding gcc
+Fix build of installer
+Update rust
+WIP: Fixes for running ci-pkg
+Update installer; Permissions changes
+Update cookbook and relibc
+Update installer and fix password setting
+Specify prefix as a dependency
+Update relibc
+Update kernel
+Update installer
+Update installer
+Update installer
+Update gcc build with freestanding path
+Path variables, prefix recipe
+Fix build for relibc
+Merge branch 'relibc' of github.com:redox-os/redox into relibc
+WIP: Build of cross compiler
+Add relibc submodule
+Update rust
+Update cookbook
+Update kernel
+Update kernel and rust
+Update rust
+Update kernel
+Update kernel
+Update kernel
+Update cookbook
+Merge branch 'update-list' into 'master'
+Add `small` to the project list
+Add ipcd to the list of active projects
+Rely on GitLab to link the member accounts automatically
+Update active contributor list and add a couple of projects
+Enable orbutils
+Merge branch 'patch-1' into 'master'
+Add missing packages to filesystem.toml
+Support for relibc
+Disable netsurf
+Update kernel
+Update rust
+Merge branch 'patch-1' into 'master'
+Update CONTRIBUTING.md
+Merge branch 'patch-1' into 'master'
+Update bootstrap.sh to gitlab.redox-os.org instead of github.com
+Merge branch 'master' of gitlab.redox-os.org:redox-os/redox
+Add script for entering docker environment
+Remove gitrepoman submodule
+Merge branch 'master' of gitlab.redox-os.org:redox-os/redox
+Add gitrepoman submodule
+Add artifacts
+Add isohybrid
+Add dosfstools
+Add wget
+Do not use wildcard for missing toolchain dir
+Fix missing ampersand
+Fix missing directory
+Update cookbook
+Ensure rust-src is present for bootloader-efi toolchain
+Update cookbook
+Update urls to submodules
+Install rust-src
+Do not attempt to use modprobe
+Modprobe fuse
+Adjust gitlab ci
+Make images in gitlab ci
+Fix CI variables
+Force remove project dir if not a git directory
+Prevent false being interpreted as boolean
+inspect build dir
+Attempt to fix rust install
+Attempt to fix git checkout
+Do git management in ci script
+wget
+Increase dependencies
+Add general section to ci.toml
+Modify path before running make ci
+Set default toolchain to nightly
+Change arguments to rustup
+Adjust rustup install
+Install curl
+Don't mess with /dev/fuse
+Add runner git strategies
+Update dependencies to include add-apt-repository
+Remove missing realpath package
+Apt update before apt install
+Install dependencies for apt-key before adding toolchain repo
+Update CI script
+GitLab CI
+Add ci script
+Merge pull request #1188 from jD91mZM2/master
+Move icpd & update cookbook
+Add ipcd to filesystem.toml
+Update kernel
+Merge branch 'master' of github.com:redox-os/redox
+Update kernel
+Merge pull request #1186 from sajattack/patch-4
+Fix for qemu 2.12
+Update redoxfs
+Update kernel
+Update kernel
+Update kernel
+Add more recipes to filesystem.toml
+Update kernel
+Update kernel
+Update cookbook
+Merge pull request #1182 from jD91mZM2/nix-shell
+Add shell.nix for NixOS users
+Update cookbook
+Update cookbook
+Update Rust
+Update cookbook
+Update cookbook
+Update cookbook
+Update cookbook
+Update kernel
+Update rust
+Update cookbook
+Reduce size of EFI livedisk
+Update bootloader efi
+Update bootloader-efi
+Update bootloader
+Update EFI bootloader and add harddrive recipe
+Update redoxfs
+Add EFI ISO
+Add EFI bootloader (WIP) and update kernel
+Merge branch 'master' of github.com:redox-os/redox
+Update cookbook
+Merge pull request #1177 from xTibor/patch-2
+Update build steps
+Merge pull request #1171 from takeshibaconsuzuki/master
+Fix unfinished sentence in CONTRIBUTING.md
+Fix build
+Update kernel
+Update kernel
+Update cookbook
+Update cookbook, use release version of installer
+Update kernel
+Update kernel
+Update kernel
+Merge pull request #1153 from squidboylan/update_package_dependencies
+Add more Ubuntu/Debian reqiured packages
+Merge pull request #1151 from xTibor/patch-1
+Add more required packages to the Ubuntu bootstrap
+Update Rust
+Update cookbook
+Update cookbook
+Update Rust toolchain
+Update cookbook
+Update rust-toolchain
+Update rust toolchain
+Install netsurf by default
+Update cookbook
+Update cookbook
+Update cookbook
+update kernel
+Update cookbook
+update cookbook
+Update cookbook
+Update kernel
+Merge pull request #1143 from Coding-Doctors/patch-1
+Cleanup travis config
+Update rust
+Update cookbook
+Update cookbook
+Update rust to new version
+Run dhcpd on start
+Update kernel
+Update kernel
+Update to new nightly, update kernel, run dnsd by default
+Update cookbook and kernel
+Merge pull request #1140 from FloVanGH/orbgame
+Add orbgame to readme.
+Merge branch 'master' of github.com:redox-os/redox
+Add logd
+Merge pull request #1139 from bugabinga/patch-3
+Add dependency Xargo to manual setup
+Update kernel
+Update kernel
+Merge branch 'master' of github.com:redox-os/redox
+Update kernel
+Update README.md
+Merge pull request #1133 from dogHere/master
+add autopoint as dependencie for ubuntu
+Merge pull request #1132 from fengalin/master
+Docker: add autopoint
+Update kernel
+Merge pull request #1130 from Nopey/patch-1
+Update README.md
+Fix broken link to libstd
+Update kernel
+Update kernel
+Merge branch 'master' of github.com:redox-os/redox
+Add distclean target
+Merge pull request #1129 from ids1024/no-override-set
+Do not mention 'rustup override set' in README
+Merge pull request #1128 from redox-os/revert-1125-ionbashing
+Revert "Use bash as shell until #1124 is fixed"
+Update kernel
+Update cookbook
+Update Rust and kernel
+Update Rust to the same commit as rust-toolchain
+Merge branch 'master' of github.com:redox-os/redox
+Update cookbook
+Merge pull request #1127 from NilSet/realpath
+Install realpath for cookbook ci
+Merge pull request #1126 from jD91mZM2/patch-1
+Create rust-toolchain
+Merge pull request #1125 from NilSet/ionbashing
+Update cookbook and kernel
+Use bash as shell until #1124 is fixed
+Merge pull request #1123 from Arcterus/master
+Move null: and zero: to user space
+Update kernel
+Update cookbook
+Add netdb
+Merge pull request #1120 from sajattack/patch-3
+Add cmake dependency to bootstrap.sh
+Update cookbook
+Merge branch 'master' of github.com:redox-os/redox
+Update cookbook
+Update kernel
+Update redoxfs
+Merge pull request #1118 from TSleepingCat/patch-1
+Remove broken old kernel link
+Update kernel
+Merge pull request #1114 from dlrobertson/master
+Keep debug info in a .sym file
+Update kernel
+Update cookbook
+Switch to smolnetd
+Update cookbook
+Update cookbook
+Merge branch 'master' of github.com:redox-os/redox
+Update cookbook
+Merge pull request #1110 from HarryU/check_if_xargo_is_installed
+Checking that xargo isn't already installed before trying to install it - should prevent the bootstrap script erroring out in an ugly way.
+Update redoxfs
+Update to RedoxFS 3
+Update cookbook
+Update cookbook
+Update cookbook, kernel, rust
+Merge pull request #1105 from gbutler69/master
+Corrected filesystem.toml to correctly soft-link folders in /usr to folders in / so as to avoid infinite recursiong with 'ls -lR /' as per https://github.com/redox-os/redox/issues/1102
+Corrected filesystem.toml to correctly soft-link folders in /usr to folders in / so as to avoid infinite recursiong with 'ls -lR /' as per https://github.com/redox-os/redox/issues/1102
+Revert "Corrected filesystem.toml to correctly soft-link folders in /usr to folders in / so as to avoid infinite recursiong with 'ls -lR /' as per https://github.com/redox-os/redox/issues/1102"
+Corrected filesystem.toml to correctly soft-link folders in /usr to folders in / so as to avoid infinite recursiong with 'ls -lR /' as per https://github.com/redox-os/redox/issues/1102
+Merge pull request #1099 from dlrobertson/add_bridge
+Allow specifying a bridge for qemu to use
+Update cookbook
+Update kernel and rust
+Update cookbook
+Merge pull request #1097 from martinlindhe/master
+fix some typos
+Update rust
+Merge pull request #1095 from sajattack/patch-2
+add xargo dependency
+Merge pull request #1094 from sajattack/patch-1
+add termplay to filesystem.toml
+Update cookbook
+Add more packages to filesystem.toml
+Update kernel
+Update cookbook
+Update kernel
+Merge branch 'master' of https://github.com/redox-os/redox
+Update Rust, kernel, and cookbook
+Merge pull request #1090 from fengalin/docker_cmake
+Docker: add cmake as a dependency
+Update cookbook
+Merge pull request #1087 from xTibor/readme-fixes
+README.md fixes
+Update cookbook
+Merge branch 'master' of https://github.com/redox-os/redox
+Set default keymap
+Merge pull request #1080 from ids1024/pull
+Changes to 'make pull'
+Merge branch 'master' of https://github.com/redox-os/redox
+Update kernel
+Merge pull request #1078 from tjrana/master
+Update ISSUE_TEMPLATE
+Merge pull request #1077 from pharaone/patch-9
+Reading improvement to CONTRIBUTING.MD
+Merge branch 'master' of https://github.com/redox-os/redox
+Update kernel
+Update kernel.mk
+Update Rust and kernel
+Fix live filesystem by using a different initfs
+Update redoxfs, use UUID to mount root filesystem
+Update bootloader and kernel
+Update bootloader, kernel, and redoxfs
+Update kernel
+Merge pull request #1075 from andre-richter/master
+docker: Add troubleshooting section
+Merge pull request #1074 from andre-richter/master
+Fix missing build directory
+Add installer and redoxfs to filesystem
+Update redoxfs
+Copy filesystem configuration to filesystem
+Add qemu_extra target, update installer
+Copy bootloader to filesystem
+Update redoxfs
+Add rule for making detached bootloader
+Update installer
+Update kernel
+Update submodules
+Merge branch 'master' of https://github.com/redox-os/redox
+Update Rust
+Merge pull request #1072 from Pharaone/patch-8
+Alphabetic order fix
+Merge pull request #1071 from Pharaone/patch-7
+new sodium image
+Merge pull request #1070 from vanillajonathan/patch-1
+Fix capitalization
+New method of linking live filesystem Downsize live filesystem to 256 MB
+Update Rust version
+Update kernel
+Update kernel
+Update redoxfs
+Update kernel
+Update kernel and rust
+Update cookbook
+Update kernel
+Merge branch 'master' of https://github.com/redox-os/redox
+Update kernel
+Do not use quiet on cargo build in filesystem target
+Update rust
+Update cookbook and redoxfs
+Update Rust
+Merge pull request #1058 from chrisvittal/bootstrap-help
+Merge pull request #1062 from coder543/patch-1
+Minor typo fix
+Add test for '--help' option
+Update cookbook
+Merge pull request #1053 from krrg/patch-1
+Update bootstrap.sh
+Update bootstrap.sh
+Change log names back to defaults
+Merge pull request #1046 from andre-richter/dockerhub
+docker: Adapt README for dockerhub usage
+Merge branch 'master' of https://github.com/redox-os/redox
+Update kernel and cookbook
+Merge pull request #1045 from andre-richter/docker_rework
+docker: Add interactive sessions
+docker: Switch to official Rust image as base and rework
+Merge pull request #1044 from andre-richter/master
+Docker: Cache cargo downloads with named volume
+Merge pull request #1043 from fengalin/docker_linux_macos
+Docker: allow building the container on MacOS and Linux (#1037) On MacOS, while building the container, `useradd` returns with code 4 (UID already in use), even with option -o. On this platform, the access rights for a volume attached to the container are translated to the container's user and group. So, there is no need to handle UID and GID compliance like we do on Linux. See this for reference: https://docs.docker.com/docker-for-mac/osxfs/
+Merge pull request #1035 from mssun/master
+Update required Rust version
+Rebase Rust on upstream
+Update Rust
+Update kernel
+Fix method of adding scheme to passwd
+Add scheme to home
+Update docker script for SELinux, seccomp and AppArmor enabled systems
+Fix a typo in Docker script README.md.
+Update the Docker script to disable security options
+Update kernel
+Update kernel, installer, redoxfs
+Merge pull request #1034 from ids1024/usr
+Symlink /usr to /
+Update cookbook
+Add more options for filesystem installation
+Update cookbook
+Update Rust
+Update rust
+Merge pull request #1033 from ids1024/scheme
+Add scheme to PATH
+Merge pull request #1032 from Pharaone/master
+Update README.md
+Update README.md
+Merge pull request #1 from redox-os/master
+Merge pull request #1031 from qm3ster/patch-1
+Fix logo src
+Merge pull request #1030 from fengalin/docker_update
+Attempt to fix travis build
+Docker: align APT key retrieval with Cookbook README Use the same command as the Cookbook README for Redox OS APT key retrieval. Keep adding the Redox OS repository in a dedicated file. This allows updating it specifically without updating the other repositories one more time.
+Merge pull request #1029 from AgostonSzepessy/readme
+Remove link to Magnet from README
+Update README to describe Makefile options
+Merge pull request #1028 from ids1024/cookbook-submodule
+Update cookbook submodule
+Update rust
+Merge pull request #1027 from ids1024/uutils
+Add uutils to filesystem.toml
+Update Rust
+Merge pull request #1026 from michelboaventura/patch-2
+Update README
+Update redoxfs
+Merge pull request #1024 from fengalin/docker_update
+Update docker container build script and README - Use https for redox apt repository - Import the repository's key - Update [toolchain packages' names](https://github.com/redox-os/cookbook/pull/59) - Install `wget` which is needed by [coobook/recipes/xz](https://github.com/redox-os/cookbook/blob/master/recipes/xz/recipe.sh) - Update README file to reflect the [discussion about when the submodules are needed](https://github.com/redox-os/redox/pull/1005#discussion_r129432929) - Update README file to suggest using `make fetch all` in place of `make update all` since `Cargo.lock` files come with the sources now. See this [comment](https://github.com/redox-os/redox/issues/1021#issuecomment-320946322)
+Update cookbook
+Update rust
+Update kernel
+Revert rust to upstream master
+Update Rust
+Update kernel
+Merge branch 'master' of https://github.com/redox-os/redox
+Update cookbook
+Update kernel
+Update cookbook, installer
+Update submodules
+Update kernel
+Update kernel and redoxfs
+Merge branch 'master' of https://github.com/redox-os/redox
+Update cookbook and redoxfs
+Merge pull request #1013 from garasubo/improve-readme
+improve README
+Merge pull request #1007 from michelboaventura/patch-1
+Update submodules
+Only update packages in toml
+Update kernel and rust
+Merge pull request #1008 from garasubo/improve-build-instruction
+add instruction about docker image
+Update kernel, update rustc version in README
+make update will update cookbook
+Merge branch 'master' of https://github.com/redox-os/redox
+Update rust, installer
+Fix directions on how to install qemu on Gentoo
+Merge pull request #1006 from michelboaventura/patch-1
+Skip fuse install on gentoo if already installed
+Update submodules
+Merge pull request #1005 from fengalin/docker_user_env
+Build docker container with ready to use user env Prepare user environment at build time and update user and group id at runtime if necessary. Update submodule sync step to avoid a dependency on cargo Run `make update all` instead of just `make all`. The target `update` didn't update the container environment since it was executed on the host.
+Update redoxfs
+Update kernel
+Merge branch 'master' of https://github.com/redox-os/redox
+Update cookbook
+Merge pull request #1004 from fengalin/docker_on_selinux
+Add a mention for selinux systems in Docker README Selinux blocks the following: - gosu execution labeling (no selinux policy). - permission is denied to the container's user on the tree source binding under /src. Using a different location doesn't solve the issue.
+Update kernel
+Update kernel
+Merge branch 'master' of https://github.com/redox-os/redox
+Update cookbook
+Merge pull request #1002 from AgostonSzepessy/docker
+Add dependencies to Dockerfile to build Redox
+Simplify filesystem
+Update kernel and cookbook
+Update kernel and redoxfs
+Do not include kernel in bootloader
+Clean initfs before installing
+Clean kernel on initfs regen
+Update cookbook
+Update for new network config
+Update rust
+Update cookbook
+Add all recipes, enable findutils, gawk, pastel, and sed
+Update kernel
+Update kernel
+Update kernel
+Update rust
+Update bootloader and kernel
+Update Rust
+Update cookbook and redoxfs
+Update Rust
+Merge pull request #998 from richiejp/bootstrap_correct_fuse
+bootstrap.sh: Use correct FUSE package for SUSE
+Update cookbook and kernel
+Merge pull request #996 from goyox86/goyox86/fix-copy-paste-boostrap
+Fixing copy-paste error on boostrap scripts for macOS.
+Update cookbook, kernel
+Merge branch 'master' of https://github.com/redox-os/redox
+Update rust
+Merge pull request #995 from goyox86/goyox86/fix-build-macos
+Small fixes to Makefiles to be able to build the kernel on macOS again.
+Update rust
+Update submodules
+Merge pull request #992 from ids1024/fetch
+"make fetch" target
+Update cookbook
+Update kernel
+Update kernel
+Update redoxfs
+Merge pull request #988 from ids1024/group
+Update redoxfs
+Update kernel
+'user' and 'root' groups
+Update RedoxFS
+Update cookbook
+Update kernel
+Update redoxfs
+Update rust
+Update Rust
+Update cookbook, kernel
+Update Rust
+Update cookbook
+Update redoxfs and rust
+Update cookbook and kernel
+Update kernel
+Update travis build script
+Make travis build use packages from static.redox-os.org
+Update rust
+Update cookbook
+Update cookbook
+Move installer/redoxfs submodule to redoxfs
+Update kernel
+Update README.md
+Update README.md
+Update cookbook
+Update cookbook
+Merge pull request #978 from batonius/docker_readme
+Add README.md on how to build Redox using docker images.
+Create .ionrc
+Update installer
+Update cookbook, kernel, and rust
+Merge pull request #973 from batonius/docker
+Add Dockerfile for build system.
+Merge pull request #972 from huntergoldstein/master
+Add 'pkg-config' to list of Ubuntu packages
+Update cookbook
+Remove init from filesystem, as it is in the initfs
+Upgrade cookbook, revert Rust, clean cookbook in make clean, put xargo build in subfolder
+Update cookbook
+Update cookbook
+Update kernel
+Purge binutils-doc to avoid conflict (to be fixed later)
+Remove quiet and yes from add-apt-repository
+Install repository for toolchain
+Update .travis.yml and cookbook
+Update cookbook
+Improve clean target, add update
+Update rust
+Update cookbook
+Update cookbook
+Update installer
+Add all recipes to filesystem.toml, commented out where not default. Update cookbook Increase VirtualBox RAM, use Intel HDA for audio
+Update kernel
+Add audio to makefile
+Set TMPDIR in init.rc
+Update cookbook
+Increase qemu memory size
+Reduce size to 512
+Update kernel and bootloader
+Move kernel into filesystem
+Merge pull request #965 from Pharaone/patch-6
+screenshot
+TFS's link
+Update cookbook
+Update kernel
+Update kernel
+Update kernel and bootloader
+Update kernel
+Merge branch 'master' of https://github.com/redox-os/redox
+Update cookbook
+Autostart icmpd
+Update kernel
+Merge pull request #962 from batonius/default-mac
+Change the default mac to a valid value.
+Update rust
+Update cookbook
+Update cookbook
+Update cookbook
+Update cookbook
+Update cookbook
+Update cookbook
+Update cookbook
+Update cookbook
+Update cookbook
+Update cookbook
+Merge branch 'master' of https://github.com/redox-os/redox
+Update cookbook
+Update cookbook
+Remove useless .cargo/config
+Update cookbook
+Merge branch 'master' of https://github.com/redox-os/redox
+Update kernel
+Update cookbook
+Update cookbook
+Merge pull request #951 from ids1024/filesystem
+Update cookbook
+Update kernel
+Update rust
+Merge branch 'master' into filesystem
+Merge pull request #942 from redox-os/cookbook
+Update rust
+Increase filesystem size to 1024 MB
+Merge pull request #948 from bugabinga/patch-1
+Merge pull request #949 from bugabinga/patch-2
+Updated bootstrap for Solus
+Added 'cd redox' in quick setup
+Update kernel
+Disable a few packages in default build, use partial filesystem to avoid incomplete build
+Update cookbook
+Use cookbook setup.sh
+Install xargo
+Update bootloader and travis
+Update recipes
+Update bootloader
+Update kernel
+Merge branch 'cookbook' of https://github.com/redox-os/redox into cookbook
+Update cookbook and installer
+Remove update target
+Use pcid.toml from drivers
+Update cookbook
+Remove flash.sh (it still needs work)
+Convert to cookbook based build
+Ability to use cookbook from inside Redox repo
+Upgrade dependencies
+Upgrade pkgutils
+Update orbterm
+Update UI folder
+Merge branch 'master' of https://github.com/redox-os/redox
+Update orbfont, ion, and orbterm
+Merge pull request #940 from equal-l2/patch-1
+Remove unnecessary taps
+Update dependencies and submodules
+Update ion, smith, Rust, and dependencies
+Merge pull request #939 from aurelien-git/master
++ rustup update
+Merge pull request #938 from Abogical/patch-1
+CONTRIBUTING.md: Replace Magnets with pkgutils
+Update peg
+Update submodules and dependencies
+Add Intel 82579V
+Update drivers and bootloader
+Update submodules and dependencies
+Update netutils
+Update pkgutils
+Update pkgutils, netutils
+Update pkgutils
+Revert "Move repos"
+Update pkgutils
+Move repos
+Update submodules and Cargo.lock
+Update extrautils
+Update README.md
+Update ion, smith, and Rust
+Update to break tar into library and utility
+Update Cargo.lock
+Update coreutils and ion
+Update kernel
+Update kernel
+Update kernel, update rust version in README
+Update drivers, coreutils, rust, orbital
+Quieter filesystem generation
+Remove ralloc from worspace as it creates error messages
+Increase FS size Update list of crates in workspace
+Update orbclient
+Update cargo.toml and cargo.lock
+Add ralloc and sodium
+Readd binutils and games
+Update cargo lock file
+Add mio
+Add more libs
+Add more replacements
+Add replacements as submodules
+Update to perform cloexec in kernel
+Update extrautils
+Update kernel
+Update orbutils
+Update orbutils
+Update orbutils
+Update dependencies for orbutils
+Update kernel
+Update orbutils
+Update kernel
+Update orbtk to 0.2.19
+Update orbital
+Update kernel
+Update drivers
+Update init
+Add path implementation to rand
+Update kernel
+Do not ignore Cargo.lock
+Update Cargo.lock
+Update kernel, extrautils, ion, orbutils, pkgutils
+Update Rust, fix kernel targets, update coreutils, add Cargo.lock
+Merge pull request #919 from Pharaone/patch-5
+Typo fix
+Update ion, coreutils, kernel
+Update jpeg-decoder replacement
+Update orbutils
+Update orbutils, netutils, pkgutils
+Update ion
+Update orbutils
+Update file manager
+Update submodules
+Update redoxfs and coreutils
+Update redoxfs
+Update coreutils
+Update editor
+Update installer and programs
+Merge pull request #910 from ids1024/tcp-buf
+Merge pull request #907 from Pharaone/patch-4
+Update dhcpd
+Implement timeouts in UDP
+Add timeouts to netutils, orbutils, and pkgutils
+Timeout in tcpd
+Add timeout example
+Update kernel to add timeouts
+Upgrade pkgutils
+Update libc artifacts, ion
+Update extrautils
+Remove cookbook from redox repo
+Update cookbook and ion
+Update kernel, use login program in contain
+Do not include games or binutils by default
+Install necessary config files
+Update netutils, more advanced installer file
+Do not include display scheme
+Update installer and ion
+Slight simplification by using .enumerate()
+tcpd: Fix behavior when reading to small buffer
+Add gunzip/gzip
+Update ion, pkgutils, userutils
+Merge branch 'master' of https://github.com/redox-os/redox
+Add repo configuration
+Merge pull request #908 from PeterZhizhin/patch-1
+Make easy targets section more readable.
+Update orbutils
+Update kernel
+Update submodules
+Alphabetical order fix
+Merge pull request #906 from FaraoneLele/patch-3
+New screenshots
+Update submodules
+Remove termion override
+Use patched termion, add resize executable, update rust nightly version
+Update drivers, orbital
+Update drivers, kernel, coreutils, extrautils, ion, and orbutils
+Merge pull request #898 from ids1024/tcpd
+tcpd: fix dup with address
+Update smith
+Merge pull request #896 from NickeZ/virtualbox-absolut-paths
+Use absolute paths to virtualbox options
+Merge pull request #890 from derekdreery/arch_build_improvement
+Merge pull request #893 from bjorn3/patch-1
+Allow entering redox version in issue template.
+Don't install fuse if it's there already
+Update coreutils
+Merge pull request #888 from n0npax/add-ln-command-to-coreutils
+add ln command to coreutils.mk
+Update rust
+Update ion
+Update drivers
+Update orbital
+Update orbutils
+Update drivers
+Update kernel, coreutils, and ion
+Update README.md
+Update README.md
+Update drivers
+Update Rust
+Update drivers
+Update kernel
+Driver definition for vboxd
+Update submodules
+Update ion, update drivers
+Fix detection of initfs changes
+Add shutdown support
+Update coreutils and ion
+Update ui
+Update orbital
+Add more e1000 IDs
+Update kernel
+Remove override for rustls
+Update orbutils
+Merge pull request #876 from xTibor/readme_fixes
+Update README.md
+Update submodules, fix issue with nightly rust
+Update redoxfs
+Update programs
+Update ion
+Enable test command
+Merge branch 'master' of https://github.com/redox-os/redox
+Update ion, orbutils to add title to terminal
+Merge branch 'master' of https://github.com/redox-os/redox
+Update app definitions
+Update ion
+Update to add resize cursors
+Update ion
+Update ion and orbutils
+Update submodules
+Merge pull request #865 from ids1024/makefile
+Correction to pkgutils.mk
+Merge pull request #863 from SpamapS/master
+Remove erroneous -b option from bootstrap.sh help
+Update orbutils
+Merge pull request #861 from ids1024/rustc
+Set $(RUSTC) to full path
+Update submodules
+Update userutils
+Update submodules and rust
+Merge branch 'kolipka-kernel_standalone'
+Merge branch 'kernel_standalone' of https://github.com/kolipka/redox into kolipka-kernel_standalone
+Update orbital to add resize, rename, reposition
+Update orbital to add multiple backgrounds
+Update orbutils
+Update orbital
+Update file manager
+Update orbutils
+Update orbutils
+Update orbutils
+Update orbital and orbutils
+Update viewer
+Replace liner to fix tab completion
+Update terminal
+Update extrautils
+Update orbital and orbutils
+Update icon sizes
+Update ui and orbutils to use moka icons
+Update drivers
+Update drivers
+Use patched jpeg-decoder to work around threading issue
+Merge branch 'master' of https://github.com/redox-os/redox
+Update orbital and ui data
+Merge pull request #857 from adrianN/patch-1
+Update bootstrap.sh
+Merge branch 'master' of https://github.com/redox-os/redox
+Update submodules
+Merge pull request #854 from aurelien-git/master
+improvement on the qemu without graphic support
++ how to run redox-os from remote with qemu without graphic support
+Merge pull request #851 from calmandniceperson/master
+Fix typos in description
+Update orbital
+Update orbutils
+Update calculator
+Use arc theme
+Update netutils, orbutils
+Update orbutils and orbital
+Update drivers
+Update drivers
+WIP: NVME support
+Update submodules
+Change way to generate initfs for kernel
+Update drivers and kernel
+Update ion
+Update ion and orbutils
+Update bootloader and kernel to fix IRQ issues
+Update submodules
+Update to fix network stack
+Virtualbox fix
+Update kernel
+Update submodules
+Cleanup of panics in network schemes
+Fixes for build - do not use LTO on kernel
+Fix kernel output
+Incremental compilation
+Update README and ion
+Update Rust
+Merge branch 'master' of https://github.com/redox-os/redox
+Add nproc fix for macOS
+Merge branch 'master' of https://github.com/redox-os/redox
+Update rust and redoxfs
+Merge pull request #833 from ahmedcharles/patch-1
+fuse is also a dependency on debian based systems
+Merge pull request #832 from polymetric1/markdown-update
+ Major refactor of CONTRIBUTING.md - minor tweaks to a lot of things - rewrote and clarified some statements - added more communication methods - added patreon section
+README.md - minor consistency fixes - clarify and rewrite some statements - provide more quick info that wasn't implicit before on some items in the ecosystem - change tag "what-it-looks-like" to "screenshots"
+Orbutils update
+Update submodules
+Move init to submodule
+Go back to master
+Revert last commit
+Link native directory
+Update Rust
+Update coreutils, add which
+Update and move docgen
+Update and move docgen
+Update bootstrap.sh
+Merge pull request #827 from xTibor/implement_whoami
+Move targets into kernel repo
+Update submodules
+Implement whoami
+Update Rust
+Fix pkgutils target
+Update pkgutils
+Update pkgutils
+Specify crates.io versions, update rust, cleanup modules
+Update to use upstream
+Update cookbook
+Add qemu_extra_no_build target
+Update redoxfs
+Add cookbook submodule
+More installer config to more logical location
+Use only one virtual terminal until init issue is fixed. Compile baduk, do not compile snake until issue is fixed
+Mistake in init using wrong fd in dup2, update userutils
+Fix issue with init script stdio failing on vga=no
+Update kernel
+WIP: XHCI
+Pass through more schemes - display and pty
+Simplify contain program, update kernel
+Correctly set environment, use SHELL in contain
+Update ion
+Update kernel
+Fix initfs target
+Update kernel
+Update installer
+Update installer, build installer with Redox
+Make all at top of makefile
+Remove verbose
+Revert "Compile with opt-level 3, lto"
+Compile with opt-level 3, lto
+Update drivers
+Remove unifont
+Remove verbose from cargo config
+Add event dependency
+Update submodules
+Updates to use absolute URLs
+Update orbutils
+Update orbital, orbdata
+Move orbital.conf into orbdata
+Merge branch 'master' of https://github.com/redox-os/redox
+Add installer repo
+Update screenfetch
+Add screenfetch
+Update rust
+Update libc artifacts
+Update libc-artifacts
+Update kernel and libc-artifacts
+Update libc artifacts
+Update init to handle directories
+Modularise makefiles
+Update docgen
+Use cargo to build kernel dependencies
+Update gcc.sh
+Merge pull request #819 from redox-os/cargo_workspace
+Move isolinux to submodule
+Move bootloader to submodule
+Move drivers to submodule
+Simplify travis build
+Cleanup dependencies
+Use cargo workspace (which will potentially improve build times
+Fix name of bgad
+Update kernel
+Move kernel to submodule
+Update orbutils
+Add telnet
+Use redox-os brew
+Wait for gcc install on OS X
+Update libc artifacts
+Do not export CC, as it is exported above. Add OS X to gcc.sh
+Update Rust
+Move linker config into libc-artifacts script. Use cargo config
+Update libc-artifacts
+Potential fix for issue with gcc49
+Merge branch 'master' of https://github.com/redox-os/redox
+Go back to referencing libs directly
+Update README.md
+Merge pull request #814 from redox-os/cleanup
+Cleanup Redox repo, update Rust, remove old target
+Fix Linux syntax
+Update conditions
+Merge branch 'mapper_refactor'
+Update travis OSX
+Force flush of tables
+Add settings for TCP
+Merge pull request #811 from martinlindhe/typos
+fix some typos
+Byte block sizes for OSX support
+Fix build on OS X
+Export target
+Fix strip command on OS X
+Simplify include path
+Revert c++ headers
+Remove CXX
+Merge branch 'master' of https://github.com/redox-os/redox
+Update artifacts
+Fix unmap_return panic
+Update
+Attempt to fix builds on OS X
+Update libc
+Update to use define file
+Update libc artifacts
+Remove openlibm
+Update libc artifacts, pass linker arguments to fix linking
+Fallback in ahci driver when disk: not available, ability to list disk devices
+Use variable for temporary page location
+Better panics
+Merge branch 'master' of https://github.com/redox-os/redox
+Reduce size of kernel heap
+Merge pull request #803 from FaraoneLele/patch-2
+Updated in alphabetic order
+Merge pull request #801 from FaraoneLele/patch-1
+moved "old kernel" and "ZFS" at the bottom of the software list
+Fix unifont
+Revert change that incorrectly overshifts char data
+Update rust
+Add TTL setting
+Add support for setting timeouts
+Revert change to redox userspace targets
+Revert change to userspace target (since it does not override the rustc default)
+Organize targets, export variables
+Update Rust
+Update userutils
+Update submodules
+Update orbutils
+Update coreutils, remove sys:memory
+Parse FADT
+Add memory scheme to live configuration
+Update rust
+Add memory scheme, implement fstatvfs
+Merge branch 'master' of https://github.com/redox-os/redox
+Update rust
+Allow alpha in windows
+Update orbital
+Default to choosing a resolution
+Update orbital, add games
+Merge branch 'master' of https://github.com/redox-os/redox
+Update netutils
+Merge pull request #798 from xTibor/fix_text_rendering
+Fix vesad text rendering
+Fix wget build
+Compile using real libstd, with no crate overrides
+Update README to show current building rust version
+Implement dup2. Add debugging lines.
+Update syscall
+Merge branch 'master' of https://github.com/redox-os/redox
+Update rust
+Merge pull request #797 from msehnout/master
+Use build script to imply openlibm
+Update rust and ion
+Fixes for arm target
+Add userspace ARM support
+Fedora bootstrap: Check if packages are already installed
+Update userutils
+Add serial console terminal
+Fix serial console carriage return
+Fix build of coreutils
+Cleanup of shims
+Update coreutils
+Fix target for docs
+Fix order of git pull
+Update orbital
+Update coreutils
+Update orbutils
+Update orbutils
+Update orbutils
+Update orbutils
+Update rust
+Update rust
+Merge branch 'master' of https://github.com/redox-os/redox
+Update rust
+Merge pull request #785 from origel/master
+Merge pull request #1 from origel/mouse_icon
+Fix bug, mouse and keybroad no response in virtualbox
+Update syscall crate
+Use upstream openlibm, goblin
+Use upstream openlibm
+Update rust
+Add submodule sync
+Add make pull
+Add BGA driver stub
+Merge pull request #783 from redox-os/fix_virtualbox_issues
+Workaround for an issue where a leftover grant is not unmapped before reap
+Update orbital
+Update redoxfs, orbutils
+Update rust, update submodules, switch to new redoxfs
+Merge branch 'master' of https://github.com/redox-os/redox
+Update rust
+Add skip cleanup to deploy
+Fix udpd compile
+Update submodules
+Update orbutils
+Update orbital and orbutils
+Merge pull request #778 from redox-os/fix_travis_isohybrid
+Exit on failure
+Update rust and ion
+Virtualbox net=no support
+Remove debug message
+Update extrautils
+Remove replacement for libc
+Remove SSL fix from travis
+Use genisoimage instead of mkisofs, add genisoimage package to travis
+Use isohybrid to generate a USB stick friendly ISO Add assertions to verify that grants are unmapped Fix grant unmapping in exec and exit, thus fixing some crashes without network cards
+Update submodules
+Merge pull request #769 from hockeybuggy/fix-playbot-typo-in-readme
+Fix small typo.
+Fix link location of playbot.
+Add iso build
+Cache cargo
+Travis script require completion
+Fix for SSL on travis
+Also make update when required
+Force overwrite of bin.gz
+Add gzip target for travis to deploy on tag
+Delete installer
+Update orbutils
+Activate orbital screen on load
+More path cleanup
+Cleanup path usage
+Update ion, update rust
+Update netutils
+Update rust, orbital, orbutils
+Update to make libstd use redox_syscall
+Fix loopback
+Update orbutils, redoxfs
+Update orbutils
+Remove rand replace
+Update ion
+Merge pull request #762 from NilSet/build-fix
+Update ion
+Preprocess arguments to rustc to workaround cargo
+Segregate drivers and schemes in /sbin, UI apps in ui/bin
+Implement container creation. Update coreutils
+Merge pull request #760 from redox-os/chroot
+Add chroot to container
+Implement O_DIRECTORY, switch to open for mkdir
+Clean up cfg rusttype
+WIP: Chroot
+Implement rfc 4
+Merge pull request #759 from GlenDC/master
+fix pkgconfig darwin macports pkg in bootstrap.sh
+fcntl in tcp: and udp:
+Update rust
+Update orbutils/orbital
+Update rust
+Fix ipd
+Add loopback interface - significant cleanup of ipd
+Update httpd, make it handle /ref
+ipd: Add router usage, fill arp when possible
+Use mmio, disable timer interrupt
+Default DNS to OpenDNS
+Update netutils
+WIP: Predictable naming
+Update userutils
+Fix printing of escape codes
+Fix installer path
+Remove bochs breakpoints
+Update rust
+Merge pull request #757 from redox-os/livedisk
+No need to ignore initfs/filesystem.bin anymore
+Fix warnings, increase size of fs
+Allow compiling both livedisk and harddrive
+Update ion
+Update ion, orbutils
+Add binutils
+Ignore initfs/filesystem.bin
+Do not include filesystem image in harddrive
+Increase heap size
+Load filesystem from initfs
+Add hexdump, build filesystem in initfs
+Allow initfs to be written
+Bootloader messages
+Add statvfs
+Update orbutils, fix warnings
+Replace setuid, setgid with setreuid, setregid
+Cleanup zombies in container - show scheme namespace in context list
+Add signal support - exit on signal
+More advanced setns syscall
+Add ability to contain a process in a scheme sandbox
+Update orbital dependencies
+Update browser
+Update coreutils, ion
+Update netutils, add simple ntp client
+Pass through fcntl
+Update to add chmod
+Update syscall and rust, add fcntl for permissions
+FileHandle from in exec close
+Merge branch 'cap2' of https://github.com/Yoric/redox into Yoric-cap2
+Update netutils
+Update ion, update libc
+Update ion, rust
+Pass clone and exec to dup to identify dup location, make exec dup to implement cloexec
+Add sys:exe to get current executable
+Fix prefix handling
+Update submodules
+Add fcntl
+Real std (#755)
+Implement more test arch features
+Use core intrinsics instead of memset
+Interrupt enable and nop function
+Reenable goblin
+WIP: fix build of tests
+Converting file handles into a new type FileHandle
+Converting pids into a new type ContextId
+Converting scheme ids into a new type SchemeId
+Introducing macros for defining SchemeId, Pid, ...
+Update orbutils
+Update orbutils
+Update submodules
+Update submodules
+Update rust, syscall
+Remove --cfg redox
+Update submodules
+Switch to real standard, fix daemonization on real standard
+Fixes for building libstd (real)
+Update submodules
+Update for new rustc-serialize
+Update orbutils
+Invert on cursor
+Merge branch 'master' of https://github.com/redox-os/redox
+Update rust for better libstd support of Redox
+Added dvorak keymap (#752)
+Fix build, remove cfg(redox)
+Update to use upstream libc and rand
+Update orbutils
+Add shortcut
+update bootstrap.sh script (#753)
+Update submodules, add browser
+Update redoxfs
+Fix netutils refs
+Update netutils, coreutils
+Add ref makefile target
+Disable power management
+Do not cat sys:cpu on startup
+Get frequency info
+Update cpuid
+Get CPU features
+Add memory information
+Replace libc to use closer-to-upstream rand
+Update rand, add thread_local macro
+Fix permissions
+Merge branch 'genodeftest-fix-fs-permissions'
+Merge branch 'fix-fs-permissions' of https://github.com/genodeftest/redox into genodeftest-fix-fs-permissions
+Update submodules
+Update netutils
+Update netutils, installer
+Add virtualbox support
+Update .travis.yml
+Update .travis.yml
+update dependencies README (#751)
+Update bootstrap.sh (#750)
+add additional dependencies for MacOS users (#749)
+Add libfuse-dev
+Unlink GCC like before.
+Missing semicolon
+Update .travis.yml
+Update .travis.yml
+Update .travis.yml
+Makefile: fix filesystem permissions
+Update Makefile
+Update submodules
+Merge branch 'master' of https://github.com/redox-os/redox
+Update scheme documentation
+bootstrap.sh: Fix typo (#741)
+bootstrap.sh: Fix naming origin (#742)
+Fedora uses yum instead of dnf now (#740)
+Add some documentation
+Update libc
+Update libc and ralloc, remove ralloc from repo as it is fetched with cargo
+Mount harddrive instead of filesystem
+Do not require filesystem to be built in order to mount (to fix rebuilding)
+Fix eventing in kernel
+Fix rustc-serialize
+Add bootstrap
+Merge branch 'master' of https://github.com/redox-os/redox
+Update syscall lib, update submodules and dependencies
+Fix links to repos and users in readme (#734)
+Improving self-documentation of the implementation of Registry. (#732)
+Prepare the README for moving the kernel out. (#733)
+increase process id range (#729)
+Add tee
+Add sort
+Compile kernel in release mode
+Update orbutils
+Switch to release mode, allow all optimizations
+Fix syscall ABI
+Update orbital
+Remove resource_sceme, Fix syscall crate name, add fmap
+Update terminal emulator
+Fix close in ptyd
+Update orbital
+Update libstd, orbutils, orbital
+orbital will log to debug:
+Event on close
+Only document kernel and std
+Organize doc
+Slightly better mounting procedure
+Merge branch 'NilSet-rdrand'
+Print seed indicator
+Use rdrand as seed for chacha prng, when available
+Fix build on OS X
+Update submodules
+Fix #725 by checking mode in chdir
+Add ISSUE and PR template
+Add contributing and readme
+Correct init process, allow waiting on any children, reap zombies in init
+Add pty scheme
+Update orbital
+Fix mouse cursor on some systems Reenable orbital
+remove take message
+Pkgutils update
+Revert orbital
+Update redoxfs
+Add null: and zero:
+Remove debugging
+Fixes for TLS
+Remove rd/wrfsbase
+Update tar
+DHCPD in background, update pkgutils
+Update libstd, remove openlibm (now inside of libstd)
+Add syscall as submodule
+Remove syscall dir
+Disable orbital startup
+Smp (#23)
+Add DMAR device definition
+Try to avoid memory leak in tcpd
+Update vesad ransid branch
+Add travis.yml
+Update submodules
+Update submodules
+Update submodules
+Redo networking (#22)
+Merge branch 'master' of https://github.com/redox-os/kernel
+Reset to Qemu network defaults
+Documenting use of `enable_and_halt()`. (#21)
+Sharing the message queue between instances of ip:127.0.0.1/*. (#20)
+Update userutils
+Implementation of the IP loopback. (#19)
+Add random number scheme, update userutils to use it
+Update userutils
+Documentation run on schemes/ipd. (#18)
+Update libstd
+Update coreutils
+Add httpd to makefile and init.rc
+Update submodules
+Enable arpd, update netutils, remove loop in ethernetd
+Add O_NONBLOCK
+Event based ethernetd
+Fix behavior of cp
+Add CPU ID lock
+Merge branch 'master' of https://github.com/redox-os/kernel
+Make all perCPU mappings available in all contexts - this will allow APs to pick up threads
+More debugging of writes in ahcid
+Debug all driver activity to display:1, use format to avoid line splitting
+Clear initial net settings, use dhcpd on boot
+Set mac address on boot
+Do not throw pcid into background - this prevents ethernetd from exiting if it tries to open network: too early
+WIP: Make network drivers send fevent packets
+Simplify vesad by using SchemeMut
+Add installer
+Utils
+Update acid test
+Remove unnecessary context switch in waitpid
+Improve wait condition performance
+Update submodules
+Move common definitions into netutils
+Fix tx and rx
+Do not block on IRQ read, add more debugging to RTL8168/9
+Do not ack IRQ in ahcid, as it does not enable IRQs
+Fix buffers by using two 32-bit high and low parts
+Add rtl8168d to makefile
+Add rtl8168 driver, make drivers use O_NONBLOCK
+Update orbital
+Add nonblocking root scheme
+Less output in pcid, fix e1000d crate name
+All debugging goes to display:4
+Fix for bootloader on new BIOS (don't know exactly why though)
+Bootloader fixes on systems with wrong CS
+Print error number on disk error
+Add tmp directory
+Update pkgutils and tar
+Update pkg and tar
+Add tar and pkgutils. Disable arpd and orbital on start to improve start time
+Allow x and y resolution to be saved
+Add makefile targets for generating other cargo docs (#17)
+Update acid
+Merge branch 'master' of https://github.com/redox-os/kernel
+Add acid tests
+Allow init to change stdio
+Reenable fx
+Mark kernel memory global
+Allow rustdoc
+Fix for new goblin, fix of accidental swap of fusermount -u and sudo umount
+Correct umount on OS X
+Update libc
+Update openlibm
+Remove question mark where not required
+Update openlibm
+Fix building on OS X
+Use own openlibm
+Update orbital
+Send multiple events if there are multiple packets
+Correct size of data
+Make sure file is used if cd fails
+Divide init into two files
+Significant improvements for events - switch to event queue in orbital
+Allow O_NONBLOCK to be passed to pipe
+Add specification to vesad Fix piping Fix bug where resources are not closed Add arpd Remove question_mark features
+Use a single thread for ps/2 driver
+Move IRQ ack higher in mouse driver
+Coreutils padding
+Fixes for updating submodules
+Update extrautils
+Update submodules
+Disable orbital by default
+Allow schemes to be listed
+Add sys scheme to allow inspection of processes. WIP: Signals.
+Orbital (#16)
+Add dd
+Allow sending/receiving with e1000 driver
+Enable bus mastering
+Update coreutils
+Graphics (#13)
+Add userutils
+Enable interrupt flag in userspace
+Time (#11)
+Correct ctrl-c behavior
+Add pipe2
+Update coreutils
+Update submodules
+Update smith, use master branch
+Add sudo command, add effective UID and GID, and groups file
+Implement unix permissions
+Merge branch 'encoded_syscall'
+Merge pull request #10 from redox-os/permissions
+Merge branch 'master' into permissions
+Proposed rustfmt file
+Add permissions to the filesystem, preliminary permissions to the syscalls
+More detailed print on ahci error
+Add delete and insert to ps2d
+Do not emit I/O error in the case that a small buffer is passed - just return 0
+Bootloader debug - use max sector read of 128 sectors
+Increase memory
+Fixes for bootloader unreal loading
+Update libstd
+Update ion
+Fix dup deadlock, add stat
+Add dup to ahci disk scheme
+Update extrautils
+Switch user and root password
+Split login into getty and login, like other UNIXen
+Format readme
+Update ion
+Update extrautils, more efficient font drawing
+Make rusttype optional for vesad
+Automatically get size of terminal
+Add nobuild qemu, clean smith, update libstd
+Implement control and navigation in ps2 driver
+Implement vfork
+Optimize for size
+64-bit stat size, read entire executable in one go
+Add a user account
+Check username as well
+Validate user login against /etc/passwd
+Improvements for cooked mode
+Some fixes for cooked mode
+Add smith editor, hashing in login, update ion
+Cleaner blending of fonts. Do not draw cursor when disabled
+Add license and readme in filesystem
+Build extrautils
+Fix CWD without trainling slash
+Merge pull request #9 from redox-os/redoxfs
+mkdir and rmdir
+Fix dup
+Unlink syscall
+Add more utils
+Set file as login scheme
+Fix kernel user scheme fpath
+Fix compilation of filesystem
+Allocate AP stack linearly
+KVM by default
+Build with filesystem
+Remove debugging
+Add redoxfs
+Merge pull request #8 from redox-os/pci_drivers
+Add disk scheme (mostly finished)
+Make AHCI driver read bytes
+Abstractions for better Ahci driver
+Remove unnecessary slash
+Update libstd
+Fix allocate_frames
+WIP: AHCI drivers and more memory syscalls
+Launch commands for each device found if specified
+Encode many of the file syscalls
+Event support - demonstration in example scheme
+WIP: Kevent
+Add env
+Fix path lookup
+Implement fpath in initfs
+Trim in env scheme, do not debug initfs
+Sort
+Folders in initfs
+Bring in some coreutils
+allow mode selection again
+Add cursor
+Fix openlibm
+Switch to using rusttype
+Enable SSE and FPU
+Enable SSE and FPU
+Remove bochs breakpoint
+Add FX
+Use newest version of allocator and spin
+Do not write ps2d keyboard to serial
+Add wnohang, make PS/2 driver write input to display scheme, which then passes it to the shell
+Add login process. Remove debugging. Fix order of arguments
+Increase optimization, fix clobbers in vesad
+Fix context_switch_unlock being optimized out
+WIP: Userspace console
+Clone grants
+Launch ion
+WIP: VESA driver. Make initfs generated by code
+Merge pull request #7 from redox-os/user_irq
+Validate memory pointers
+Add function for getting mapped page flags
+Implement more system calls
+Create example userspace scheme. Remove kernel duplication of syscalls, use syscall crate instead
+Grant to allow passing data to scheme handler
+Increase buffer size when reading executable, update libstd
+Fix deadlock
+Implement user schemes. Example in pcid. Currently deadlocks in UserInner
+WIP: User scheme
+Minimize locking in schemes. Reenable pcid and ion launch in init. WIP: Userspace schemes
+Remove warnings
+Move PS/2 driver to userspace
+PS/2 driver convert to char
+Seperate PS/2 keyboard and mouse driver
+Correctly position stack in higher half
+Unlock context switch lock without potentially screwing up switch_to function
+Allow userspace to handle IRQs (WIP). Create basic keyboard handler
+Add mechanism to read IRQ count
+Add fsync. Add env scheme, currently hardcoded to get ion to launch. Make serial IRQ send data to debug scheme
+Canonicalize paths in open
+Complete execve - add argument support using safe ABI
+Update libstd. Add CWD and associated syscalls. Remove debugging
+Do not optimize kernel
+Add exit status to status enum
+Remove debug break
+Remove debug breaks
+Fix creation of kstack
+Do not halt on page fault, do a stack dump
+Debug init exec and wait
+Run pcid as a daemon
+Implement the typical use of waitpid
+Allow cloning of files and memory
+work on shared memory accross threads
+Panic upon use of unsupported flags
+Collapse status of context into one status variable
+Organize context module
+Merge pull request #5 from redox-os/clone
+Map display in kernel shared memory
+Do not have interrupts enabled during context switch
+Remove debugging
+Fix implementation of clone and exec. Now the init process can load and execute the pci driver
+WIP: Create new page table for clone
+Move kernel heap into kernel PML4, now a single PML4 needs to be copied to initialize a new table
+Higher-half kernel mapping. Unmap where possible, freeing up lower memory
+WIP: Copy usermode stack
+Restore page fault handler
+Fix userspace clone by clobbering all variables on clone
+Allow cloning of kernel threads. Userspace breaks potentially due to stack aliasing
+Use flush_all instead of flush for performance
+Initialize FPU and SSE on APs
+Cleanup usermode jump
+Remove user TLS
+Pass page table of BSP to AP
+Simplify bootloader GDT
+Map kernel TLS to general area
+Cleanup PML4 entries, pass correct cpu ID to trampoline
+cr3 in context
+Implement exit, partly
+Clear memory on demand
+Add comments
+Cleanup heap management
+Store context memory information
+Allow thread control block to be moved
+Allow exec, emulate clone by pretending to be child
+Fix close, add dup
+Improve init process, debug missing syscalls, fix error codes in syscall return
+More compact output
+Stripping the kernel causes crashes for some reason
+PCI driver WIP
+KVM default off, ack after irq handling
+Flush TLB correctly when remapping Seperate mouse and keyboard structs in PS/2 driver
+Implement exec Implement brk
+Load init from initfs
+vga=no mode and serial echo
+Implement sched_yield, enable interrupts in userspace
+Remove debugging messages, launch elf on APs
+Fix path in bochs
+Reorganize kernel memory mappings
+Show where frame allocator ran out
+Relocatable kernel
+Seperate kernel and userspace targets
+Prepare for higher half
+Strip kernel for size, recompile on change of bootloader
+Remove debug warnings
+Remove symbols from init executable
+Fix crash in libstd
+Compile init as executable using libstd
+Update rust, use redox branch to prepare for libstd
+Merge branch 'master' of https://github.com/redox-os/kernel
+Connect schemes so that they can be used
+Merge pull request #4 from redox-os/usermode
+Cleanup to use question mark
+rebuild init on cargo file change
+Add syscall library, make init program Rust
+remove bochs breaks
+Nographic mode, fix userspace transition by setting kernel TLS back on syscall
+Debug reads writes better, set up stdio for BSP
+Load a very simple ELF and launch it in usermode
+Log bad mouse events
+Force scancode set, combine keyboard packets
+Fix stack trace, WIP usermode
+Remove algorithmicx package
+Assertions in PS/2 driver
+Enable display first to catch ps2 output
+Reduce bootloader messages
+Do not disable local apic, it appears to turn off irqs on BSP
+Better debugging messages
+Support both X2 and XAPIC modes
+Make sure to enable xAPIC mode as well as x2APIC mode
+Only one AP can start at a time
+Set write combining for AP
+Remove debugging times, set PIT to slower frequency
+Write combining is useable on real hardware, significantly improving scroll performance
+More efficient iteration in graphics functions
+Improve efficiency of kernel console
+Merge branch 'master' of github.com:redox-os/kernel
+Add a rough draft of the sysscall interface.
+Draw on VESA for console using ransid
+Warnings removal
+Add serial init and serial interrupts
+Fix mouse position, map display on APs
+Show mouse trail
+Set up fourth mouse packet
+Nearly complete PS/2 driver
+Fill in all exception and IRQ entries. Handle PIT, keyboard IRQs
+Merge branch 'master' of github.com:redox-os/kernel
+Add the Fd definition file.
+Add file descriptor type
+Merge branch 'master' of https://github.com/redox-os/kernel
+Improvements for context switching
+Newtype file descriptors.
+Merge branch 'master' of https://github.com/redox-os/kernel
+Simple, unsafe context switch
+Merge pull request #1 from mus0u/patch-1
+fix a couple of readme typos
+Back to x86_64, update rust
+Arm!
+Fixes for real hardware
+Add display
+Fix the build. Sorry
+Arch context in kernel context
+Add arch context, WIP switching
+Setup TSS, using thread local storage
+Thread local TSS
+Initialize contexts, add getpid
+Context list class, static context ID magic
+Allow OS X compilation
+Fix thread locals
+WIP: Thread control block and TSS in kernel
+Setup independent page tables, map heap to a single location
+Use x86 crate for definition of TSS and GDTR, WIP: loading TSS
+Switch to goblin as executable parser
+Add syscall handler, still work in progress Add elf files
+Remove clone from context
+Refactor context list
+Cleanup schemes list, remove lazy_static
+Prepare for higher half - map entire lower 4 GB
+Print out more useful information about AP and BSP, create kmain_ap
+Keep track of AP count, allocate bigger AP stack, stack trace function
+Set page table of AP to BSP, to allow mapping of heap to be shared
+Do not map heap on AP, due to it being independent from the BSP heap. We need to adjust the mapping so that kernel mappings are shared accross processors, probably using higher half mapping for the kernel
+Remove debugging
+Allocate a very small 4K stack for the other CPUs, increase count to 4
+Fix locking in serial port
+Remove warnings
+Move frame allocation to two global functions, locking happens inside them
+Map kernel in AP, WIP
+Get the APs into rust code, set stack and page table in trampoline
+Hooks to get the other CPUs into long mode
+Changes to allow for detection and init of ASPs
+Cleanup ACPI code, find lower tables
+Lazy static init of schemes
+WIP: ACPI Map and find ACPI tables, starting with RSDT
+Global allocator, page table - protected by spinlock
+Move main to start
+Remove bump allocator
+Use linked list allocator
+Move heap, make it larger
+Correct dependencies of kernel
+Cleanup, use spinlock for allocator
+GDT and IDT in kernel space Paging constructs completed, remap kernel before jumping to kmain Panic will do a stack trace Remove SSE from none target
+Add simple paging, use rust libcore and compile without sse
+Bump allocator
+WIP: Schemes
+Test for BadFile
+Add stdout/stderr tests
+Add context and file structs
+WIP: Exec
+Add syscall module
+Add test architecture
+Merge branch 'master' of github.com:redox-os/kernel
+Interrupt tables.
+Add comment
+Magic to make interrupt functions easy to write
+Move arch to seperate crate
+Strongly typed virtual/physical memory seperation.
+Rename the src directory to `kernel`.
+Convert the Makefile to Cake.
+Implement `Default` for TSS.
+Remove interrupt setup from asm bootloader, add io module, memcpy functions, and serial driver
+Interrupt handling!
+WIP: IDT in rust
+Merge branch 'master' of https://github.com/redox-os/kernel
+Bootable kernel skeleton
+Merge branch 'master' of github.com:redox-os/kernel
+Cleanup docs
+Merge branch 'master' of github.com:redox-os/kernel
+Add guidelines in the README.
+Add docs on syscalls
+Add skeleton
+Add license
+first commit

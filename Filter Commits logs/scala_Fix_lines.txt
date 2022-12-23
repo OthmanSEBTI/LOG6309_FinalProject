@@ -1,0 +1,3074 @@
+Fix criterion # in value class error message
+Fix interaction between string switching and async
+Fix accessibility case for static java members
+Fix -Yprofile-enabled on java 9+
+Fix bugs in test/scalacheck
+Fix a minor bug in test/scalacheck/VectorMap. Also removed unused import lines.
+Fix typo in  6.11 Blocks of specs.
+Fix Xlint:eta-sam description
+Merge pull request #10103 from zeesh49/Fix_Issue_12529
+Fix Issue #12529
+Fix compiler flag syntax in test file
+Fix indendation
+Fix #12619: Tasty Reader: Add DEFAULTPARAM to default accessors.
+Fix a tree shape in untypecheck-ing extractors
+Fix a tree shape in untypecheck-ing extractors
+Fix NPE regression in Vector.prependedAll
+Correct title in Pom Fix for Scala Reflect
+[bug#12464] Fix resizing for `ArrayBuffer` and `PriorityQueue`
+Fix codegen for MH.invoke etc under JDK 17 -release
+Fix rebindSuper
+Fix stability of existential types
+Fix range positions in selection from parens
+Fix slice of seq view
+Fix documentation for filter
+Fix outer tests when pattern has a refined prefix
+Fix unreported bug in `View.Patched`
+Fix unreported bug in `ArrayOps.ArrayIterator`
+Fix range position end for infix calls
+Fix #12459: Warn instead of error if TASTy is not in sync with classfile
+Fix BTypes.LONG.maxValueType(BTypes.FLOAT)
+Fix scala/bug#8493 - add regression test
+Fix inverted condition in s.c.c.Map#filterInPlaceImpl
+Fix concurrent.Map#{filterInPlace,mapValuesInPlace}
+Fix ArraySeq/Vector array sharing optimization in Vector.from
+Fix `isStaticAnnotation` for un-initialized Java annotations
+Fix Stream.iterator memory leak
+Fix scala/bug#10094 - add regression test
+Fixed Syntax Summary
+Fix exception message from productElementName
+Fix asymmetric failure behavior of Future#{zip,zipWith,traverse,sequence} by making them fail fast regardless of ordering
+Fix prefixAligns, avoid spurious outer test warnings on patdep types
+[backport] Fix intermittent auth failure to artifactory from Jenkins
+Fix intermittent auth failure to artifactory from Jenkins
+Fix specialization of methods with dependent return types
+Fixes https://github.com/scala/bug/issues/12397 by turning the long change of `&&`s in the synthetic `def equals` method:
+Fix an infinite loop bug in ExplicitOuter
+Fixes HashMap error message
+Fix typo in Logic.scala
+Fix a bug with +_/-_ not parsing in type constructor position
+Fix outer test making vs annotated types
+Fix warning about doc variable in LazyList
+Fix broken doc link in jdk.Accumulator
+Fix typo in ExprBuilder.scala
+Fix tests for JDK 16
+Fix typo in TastyFormat.scala
+Fix a 2.12-only regression in ListSet's ordering
+Fixes scala/bug#12201
+Fix regression in ZipArchive
+Fix override access checks for overriding Java methods
+Fix bad performance on complex patmat
+Fixes scala/bug#12264
+Fixup checkfile
+Fixup box/unbox merge
+Fixup partitionKeys / unused import
+Fix mimaReportBinaryIssues, not run aggregate
+Fix regression in box-unbox (in -opt:l:method)
+Fix non-exhaustive match in Cleanup phase
+Fixup async synchronized checkfile
+Fixes scala/bug#12279
+Fix cylic error in runtime reflection (protobuf)
+Fix no-boxing tests by changing the library...
+Fix regression in specialization of genericWrapArray(Array(..))
+Fix mimaReportBinaryIssues, not run aggregate
+Fix race condition in PipelineMainTest
+Fix range position for vars with default initializer
+Fix typo in comment in Names.scala
+Fix box-unbox around branches
+Fix release script for sbt 1.x update
+Fix checkKindBoundsHK for higher kinds
+Fix IntelliJ templates after sbt module renames
+Revert "Fix box-unbox around branches"
+Fix scala/bug#10272: Add regression test
+Fix box-unbox around branches
+Fix and extend Array.apply varargs optimization
+Fix remaining warnings in junit build
+Fix adapted args warnings for ArrowAssoc in junit build
+Fixes for JDK 11
+Fixes for JDK 15
+Fixes for JDK 11
+Fix regressions in immutable.TreeMap merge errors from 2.12.x
+Fix type signature for specialized Function0
+Fix backported deprecation "since"
+Fix attempt for flaky foldRightAllocations test
+Fix another patmat max recursion depth
+Fix attempt for "max recursion depth" in Typer
+Fix unmoored doc comments in compiler
+Fix run/t12182, avoid exhaustivity warnings
+[bug#3088][bug#12121] Fix adding/subtracting ListBuffer to/from itself
+Fix warning site for unused warnings
+Fix ArrayBuffer incorrectly reporting the upper bound in IndexOutOfBoundsException
+Fixes https://github.com/scala/bug/issues/11805
+Fix #12065 by adding scaladocs
+Fix lazyLines mem leak
+Fix the List rewrite in patmat to use 2.13's UnapplySeqWrapper
+Fix async phase under toolbox compilation
+Fix regression in LocalVariableTable attribute
+Fixes implicit javaBigDecimal2bigDecimal to return null, when a null is used by the implicit
+Fix off-by-one-phase error in backend private flag lookup
+Fix 'erroneous or inaccessible type' backstop in pickler
+Fix merge conflict mistake in 3d5e61267e91f78e00c438e03bc02096e905213d
+Fix document of object +:
+Fix NPE regression in immutable.HashMap.merge
+Fix -Ydelambdafy:method-ref on a Java annotation
+Fix exhaustivity uncheckableType's logic for tuples
+Fix "a pure expression does nothing" in synthetic REPL code
+Fixes issue 12073
+Fixes reflection's CodePrinter outputs incorrect code
+Fix formatting of subscripts in scaladoc.
+Fix scaladoc for IterableOps.groupMapReduce
+Fixes scala/bug#12079: Deprecated type members hidden when using scaladoc groups
+Fixes scala/bug#12029. The window.location.hash attribute is urlencoded in Chrome and Firefox, but non-encoded in Safari. Now its always decoded before looking up the anchor.
+Fixes scala/bug#11101 DocComments#getDocComment was inconsistent with DocComments#superComment in calling allInheritedOverriddenSymbols; field getter resolution moved down to allInheritedOverriddenSymbols.
+Fix mutable.HashMap.updateWith to grow the table when a value is added
+Fix checkHasElement to follow arrays
+Fix JavaUniverseForce
+Fix a link to the separately shipped scala-reflect library
+Fix dinosaur nomenclature and other typos
+Fix `tasty/test` on Windows.
+Fix thread safety problem in runtime reflection
+Fix tests
+Revert "Fix cycle when annotation argument references the annottee"
+Fix 9785
+Fix an edge case for while in expr position
+Fix an edge case for value classes
+Fixup remove stray .log files from partest suite
+Fix regression with non-awaiting patterns in tail position
+Fix detection of ill-nested awaits
+Fix .dot output when code contains ampersand
+Fix broken attempt to elide nulling in final state
+Fix nested async transforms
+Fix bug in StateSet and add a remove operation
+Fix cycle when annotation argument references the annottee
+Fix #11997: Declare `object cons` before `class Cons`.
+Fix TailCalls formatting
+Fixup RedBlackTree.upd merging error
+Fixup sorted set equals
+Fixup REPL value class outer pointer
+Fixup deprecation.check
+Fixup RedBlackTreeEqualsSharedBenchmark
+Fixup $asInstanceOf
+Fixup Java annotation parsing
+Fixup test/files/run/indyLambdaKinds
+Fixup Merge commit '8f657162dc' into merge/2.12.x-to-2.13.x-20200514
+Fixup DCE
+Fixup relax some java checks
+Fixup Java Deprecated test
+Fixup Don't enter /
+Fixup Don't enter /
+Fixup RedBlackTree#TreeIterator.ordering MiMa
+Fixup DCE part 2
+Fixup DCE
+Fixup remove some statistics
+Fixup EmptyMap.concat
+Fix condition where subtraction can overflow
+Fix exception running scaladoc using JDK11 on Windows
+README: Fix missing paren in IDE setup
+Fix regression in SortedSet.==
+Fix start of local var visibility in classfiles
+Fix suppressed stack trace frame count in REPL
+Merge pull request #8854 from gitdako3706/Fix_VectorMap
+Fix two warnings for deprecated narrowing conversions.
+Fix VectorMap[scala/bug#11933]
+Fixes Repl not cleaning after itself
+Fix warning site for unused warnings
+Revert "Fixes Iterable#toString forcing elements"
+Fix value case classes in class-based REPL
+Fix SingleType.toString
+Fix typos
+Fix scala/bug#1748 - add regression test
+Fix fallback of scalacOpts in partest's SBTRunner
+Fix existential types toString
+Fix some Vector method exceptions
+Fix Vector slicing bug
+Fix regression in HashMap.{merge, ++}
+Fix ambigious failure in implicit search for language features.
+Fixes x.toString and value classes causing auto-application warnings under -Xsource:2.14
+Fixes bug in scala docs while navigating the page with space bar/ shift+space
+Fixes Iterable#toString forcing elements
+Fix broken Scaladoc external Java references
+Fix Scaladoc eliding "case" for case objects
+[nomerge] Fix some tests on JDK 11
+Fix end of range position of Scaladoc use case (#8668)
+Fix end of range position of Scaladoc use case
+Fix variance computation for parameterized type aliases
+Fix override checks involving raw Java types (#8643)
+Fix and simplify LazyList tests
+Fix inconsistency in Java interop with Any/Object and Java wildcards
+Fix REPL multicolumn alignment bug with multi-byte characters
+Fix link to PickleFormat in Pickler
+Fix typos, via a Levenshtein-style corrector
+Fix formatting in Literal Types section
+Fix broken link to 03-types in spec (#8584)
+Fix compiler crasher under separate compilation with param aliasing + overloads
+Fix broken link to 03-types in spec
+Fix scala/bug#8522 - add regression test (#8574)
+Fix scala/bug#8522 - add regression test
+Fix manifest in jar output (#8563)
+Fix manifest in jar output
+Fix broken windows test with more closing
+Fix semantic merge error in type tag test
+Mark single-use field MUTABLE for nullification (Fixes scala/bug#11781)
+Fix misindented lines
+Fix memory leak in runtime reflections TypeTag caches
+Improve REPL display - Fixes scala/bug#10024 (#8319)
+Fix the typo "Funtion1" (#8430)
+Fix a the typo "Funtion1"
+Fix thread safety issue in runtime reflection
+Fix warnings in doc comments
+Fix merge error with MiMa whitelist
+[backport] Fix regression in phase assembly with consecutive ru… (#8347)
+Fix regression in phase assembly with consecutive runsRightAfter
+Fix regression in phase assembly with consecutive runsRightAfter
+Fix regression in classpath when JARs have 'a.b' entries beside… (#8321)
+Scala 2.12: Fix the build for newer Java Virtual Machines.
+Fix regression in large string interpolations with non-String typed splices
+Fix regression in classpath when JARs have 'a.b' entries beside 'a/b'
+Fix unmoored Scaladoc comments
+Fix comments in LazyList
+[#11559] Fix HashMap.merged behaviour for case where left HashMap size = 1 Also: * Add scaladocs to scala.collection.immutable.HashMap#merged * Add thorough merged property checkt * Add reference-equality check for hashmap#removed(nonExistantKey)
+[nomerge] Fix vulnerability in jQuery used in ScalaDoc
+Fix code in SLS 5.4 (#8253)
+Fix code in SLS 5.4
+Fix indentation of choices in generateDocsData.
+Fix deprecation message (#8240)
+Fix deprecation message
+Fix regression in -d out.jar on Windows
+Fix doc for ArrayDeque
+Fixes scala/bug#11592 (#8221)
+Fixes scala/bug#11592
+Fixes Non-Iterators have iterator reuse warnings in scaladoc#11… (#8225)
+Fixes Non-Iterators have iterator reuse warnings in scaladoc#11595
+Fixes Issue 493, to avoid unnecessary allocation.
+[backport] Fix LambdaMetaFactoryCall for java-generated LMF
+Fix scalac compatibility with JDK 13 (#8210)
+Fix scalac compatibility with JDK 13
+Fixup semantic merge conflicts
+Fix the issue when completions would break in case comments between qualifier and the point at which we do completion.
+Fix `mutable.ArraySeq.ofChar#addString` (#8176)
+Fix `mutable.ArraySeq.ofChar#addString`
+Fix race condition in pipeline builds
+Fix invisible dead link in Scaladoc
+Fix type infer regression introduced in scala/scala#6492
+Fix the link to UnliftOps
+Fix table format in Scaladoc for PartialFunction
+Fix MapView.toString when overriden
+Fix Array.fold(z)(f) when size is one
+Merge pull request #8105 from lrytz/mapStreamFixes
+[bug#11515] Fix View#toString impl
+Fix chrome trace output for outline typing strategy
+Fix scalap parsing/printing of enum and class constant types
+Fix links to the Eta Expansion section
+Fix regression in import name comparison
+Fix regression in import name comparison
+Fix deprecation warning for Position
+Fix implementation of WrappedString#indexOf
+Fix wrong usage of SeqMap in ScalaDocs
+Fix typo
+Fix asJavaSeqStream extension method on AnyStepper[Primitive]
+11468 - Fixed coverage in Champ trySplit and hang in Table trySplit
+[backport] Fix interop between Java and generic inner Scala classes
+Fix interop between Java and generic inner Scala classes
+Fix uncompiling scala.util.Using scaladoc examples
+Fix initialize method
+Fix in the doc a couple of mentions to removeAll instead of removedAll
+Fix bug found by dotty
+Fixed Accumulator to define `knownSize` properly.
+Fixed BitSet to use `InOrderStepperBase` which admits gaps.
+Fix merge error in 3014cac
+Fix merge error from 10da62d
+Fix 11438: no NPE in ListBuffer().insertAfter
+Fixes for Dotty compatibility
+Fix a typo in CONTRIBUTING
+Fix for numeric underflow with BigDecimal in NumericRange.
+Fix completion of explicitly imported type names
+Fixes broken Links in the CONTRIBUTING.MD (#7812)
+Fixup merge errors
+Fix bug in printing Higuer-Kinded types in the typer phase.
+Fix WrappedString#indexOfSlice by removing it, and add tests
+Fix access of extension point for macro classloaders
+[bug#11399] Fix LazyList#sliding
+[bug#11399] Fix LazyList#sliding
+Fixup Contexts merge
+Fix inConstructorFlag when in secondary constructor suffix
+Fix the definition of SubType_refl
+Fixes scala/bug#11380
+Fix error in ListMapBuilder where maps underlying Map was not being set to newUnderlying in addAll
+Fix HKT unification bugs
+Fix signature of `++` alias for some collections
+Fix rvm in Travis config
+Fix typo of deprecation messages of `scala.compat.Platform`.
+Fix deprecations since labels
+Fix documentation on the Future.reduce() method
+[nomerge] Fix bug in immutable.HashMap.split
+Fix ArrayOps.sorted and add tests for ArraySeq sorting
+Bug Fix #11240. Now Array, Seq, ArraySeq sortWith return the sorted array instead of the old array.
+Fix cycle detection in LazyList#addStringNoForce
+Fix LambdaMetaFactoryCall for java-generated LMF
+Fixes scala/bug#11217, scala/bug#11218 and scala/bug#11220.
+Fix interactions between macros and by-name implicits
+[backport] Fix potential bugs in SpecializeTypes
+Fix crash course on Scaladoc links
+Fix crasher regression with implicit classes and default params
+Fix the EBNF of BlockStat
+Fix the definition of `ClassDef`
+Fix a nonterminal symbol name
+Fix semantic merge conflict due to #7210
+Fix a typo in EBNF
+Fix non-termination with java strictfp
+Fix scaladoc of uncheckedVariance
+Fix ignoring of a function in StringOps.WithFilter's map.
+Fix inference bug involving nullary methods
+Fix semantic merge error from ae244bc
+Fix lookup of default getter in scope
+Fix scope of currentMethodRolledBack variable in inliner
+Change OpenHashMap scaladoc description. Fixes scala/bug#11194
+Fix potential bugs in SpecializeTypes
+Fix test t7551
+Fix regression in HashMap#concat method where we were too optimistically returning early, and not correctly handling the hashcode
+Fix typo.
+Fix LazyList and add tests
+[#11114] Fix ArrayBuffer#patchInPlace
+Fix semantic merge errors
+Merge pull request #7134 from mdedetrich/vectorMapQuickFix
+Fix VectorMap underlying index
+Fix transitive equality on VectorMap
+[11047] Fix {Queue,Stack,ArrayDeque}.sliding regression. Fixes #11047
+Fix hashCode for ArraySeq.ofByte
+Fix conversions-string `@groupdesc` in Predef
+Fixes scala/bug#11059. Replcaed UnsupportedOperationException with NoSuchElementException
+Fix inserting at length-1 in `ArrayDeque#insertAll`
+Fix regression in switch pattern translation
+Fix regression in switch pattern translation
+Fix several minor typos in comments detected by github.com/client9/misspell
+Merge pull request #7010 from lrytz/buildFix
+[11050] ArrayDeque correctly resets with new Array when inserting and resize is necessary. Fixes scala/bug#11050
+[11049] Fixes scala/bug#11049
+Fixup symbol ownership in eta expansion
+Fix the build so setupPublishCore enabled the optimizer
+Fix TreeMap class hierarchy
+[bug#11028] Fix CCE in StringOps.toArray[Any]
+Fix lengthCompare for indexed types
+Restore collection.Map --, Fixes scala/bug#10957
+Fix bug in ArraysOps.slice
+Fix regression with curried implicit defs conforming to function types
+Fix typo
+Fix Patched.knownSize, and exploit it in Patched.isEmpty
+Fix error in HashMap.HashMapCollision1.merge0
+Fixes Issue 493, to avoid unnecessary allocation.
+makes Iterable.scan and IterableOnce.fold deprecated. Fixes scala/bug#10962
+It corrects the return type by the implicit conversion from Seq[T] to Seq[Source]. Fixes scala/bug#10953
+Fix scala/bug#10900: Add back 'Set.--(IterableOnce)'
+Adjust deprecation messages to prefer the iterator. Fixes scala/collection-strawman#467
+Fix the build
+Fix ambiguous imports by the spec
+Fix handling of null values in ChampHashMap
+bug#10855 Fix IterableOnceOps.min and .max
+Fix handling of out-of-range sizes in ArrayOps.patch
+Fixes scala/bug#10864
+Fix test failure problem in non-English environment
+Fix --srcpath command line option
+SI-7729 Fix broken windows build
+Fix test kind detection
+Fix crossed wire on lazyAppendedAll change
+Fix semantic of dequeueAll to be the same as version 2.12
+Fix feature warnings
+Fix usages deprecated in 2.13 collections
+Fix @SerialVersionUID on non-serializable classes warnings
+Fix unchecked warnings
+Fix bounds of higher-kinded existentials pt. 2
+Fix tests on windows
+Merge pull request #6405 from GlulkAlex/scaladoc_Try_fold_Fix
+Drop procedure syntax from src/compiler using ScalaFix
+Fixes #10810 by tracking concurrent blockinginstead of max number of threads.
+Fix/Update enrich-gentraversable.scala.
+Fix t3346e
+Fix appending non-Queue to Queue
+Fix slice for negative bounds
+Fix Queue.dequeueFirst
+Fix up embarrassing typo.
+Don't suggest using the global EC when an implicit EC cannot be found. Fixes scala/bug#10808.
+Fix problem in Jenkins bootstrap script after recent changes to scripts
+Fix return value of sbtResolve
+Fix typo in sys.process.package doc
+Fix typo in Enumeration docs
+Fix bounds checks, etc. in ArrayDeque
+Fix scaladoc Try.fold example
+Fix error message for overriding type alias
+Fix some ArrayOps bugs
+Fixed mapInPlace on mutable maps and sets (#459)
+Fixes #382 - several entries with the same key in mutable.HashMap (#484)
+Fix typo
+Fixes #10587 by removing adaptations to accommodate for <JDK8 FJP
+Fix compilation error after rebase
+Fix the iterableFactory of mutable Sets
+Fix slice behavior difference of ImmutableArray
+Fix typo/dead code in production
+Fix versions in setup instructions
+Fix snapshots publication
+Fix off by one error regression under -Ylog
+Fix ArrayBuffer/ListBuffer.patchInPlace
+Fix compilation errors
+Fix problems caused by merging https://github.com/scala/collection-strawman/pull/336
+Fix ArrayBuffer/ListBuffer flatMapInPlace
+Fix Vector.prependedAll (#414)
+#226 Fix withDefault operations on SortedMap (#381)
+Fix ListBuffer.remove(idx)
+Fix ArrayBuffer.filterInPlace
+Fix ListBuffer.filterInPlace
+Fix StackOverflowError in Java wrappers' iterator()
+Fix bug in indexOfSlice/lastIndexOfSlice when Seq.size == slice.size
+Fix scaladoc links for Any{Ref,Val,} and Nothing.
+Fix serialization issues in HashMap, HashSet, LinkedHashMap and LinkedHashSet
+Fix NPE in Iterator.addString when there are null elements
+Fix lookup of default getter in scope
+Fix clear operation in ListBuffer
+Fix compilation errors in collections-contrib
+Improve scaladocs on stability of sort methods Fixes issue #10280
+Fixes over aggressive pruning of implicit scope.
+Fix overzealous protected access check for Java static members.
+Fix API documentation of String, add a couple of missing overloads
+Fix compilation errors
+Optimized tails in LinearSeqOptimized Fixes scala/bug/#9892
+Fix inconsistencies between size and length
+Fix tests that failed due to -Xsource:2.13
+[backport] S-10098 Fix regression in Unix runner script with JAVA_HOME unset
+Fix CI tasks. Fix Dotty incompatibilities.
+Fix corner case in preErase's treatement of Apply.
+Fix @inheritdoc on vals.
+Fix benchmark
+Fix broken scalafix tests
+Fixup run/t8852a after merging check that target=1.8 for static interface calls
+Fixup run/classfile-format-51.scala after merging asm upgrade
+SI-9833 Fix -nobootcp in the Unix scala script
+Fixup cherrypick of test case
+Fix broken references in Scaladoc
+Fix bounds of higher-kinded existentials
+Fix for scala/bug#10540 - AnyRefMap dropped entries with one hash code.
+[backport] Fix runtime refletion of empty package members under Java 9.
+[backport] Fix runtime refletion of empty package members under Java 9.
+Fix typo in OpenHashMap comments
+Fix migration of SeqLikeTest
+Fix runtime refletion of empty package members under Java 9.
+Fix Queue reversed append
+Fix title tag hover in scaladoc (#6009)
+Fix regression with eta expansion of implicit method
+SI-4331 Fix memory leaks across REPL :reset command
+Fix scalafix build definition
+Fix compile error introduced by semantic conflict in two merged PRs
+Fix waffle badge
+Fix tests
+Fix missing parens for Dotty
+Fix compilation error after rebase
+Use custom equality to compare keys in case of collisions. Fixes SI-10481 and #195.
+Fix most Dotty compilation errors.
+Fix benchmark charts containing zero values in the x-axis
+Fix compilation error in the output
+Fix the output and tuned a few rules.
+Fix compilation errors with Dotty.
+Fix evaluation issue in LazyLists built from an Iterator. Since the current implementation uses distinct thunks for the head and the tail, one can evaluate the tail of a LazyList without evaluating its head. In the case of a LazyList built from an Iterator, we still want to do the side-effect of calling `next()` when evaluating the tail, if the head hasn’t been evaluated.
+Enable ArrayBufferTest. Fix insertAll method of ArrayBuffer.
+Partially enable SetTest. Fix keySet hierarchy. Fix keysIteratorFrom method in BitSetOps.
+Enable RangeTest. Fix implementations of min and max of NumericRange.
+Enable StreamTest (renamed to LazyListTest). Fix several issues with our implementation of LazyList. cf https://github.com/scala/scala/pull/4284 and https://github.com/scala/scala/pull/5259
+Partially enable IndexedSeqTest. Fix ArrayBuffer constructor. Fix slice implementation.
+Enable mutable.HashMapTest. Fix getOrElseUpdate.
+Fix mutable sequence hierarchy
+Fix knownSize of View.Fill. Implement fill of higher arity in terms of fill of lower arity.
+Fix -Ygen-asmp, minor cleanups
+Fix race condition in quasiquotes in runtime reflection
+Fix description of the `next` method, closes https://github.com/scala/bug/issues/9423 the `next` method does not discard the element from the iterator
+Fix review feedback
+Fix-#175: Implement method 'distinct'
+Fix parens for dotty
+Fix mutable.HashMap.getOrElseUpdate.
+Fix View.PadTo implementation
+Fix bridging at the nexus of lambdas, dep. types, local modules
+Fix configuration of SBT incremental compiler
+Constructing a mutable BitSet with an empty array will return an empty instance. Fixes scala/bug#10399
+Fix LinearSeq length implementation.
+Fix access to protected members in package-protected classes
+Fix bug in minimizeParents, keep all java interfaces
+Fix 5355: wrong error message for cyclic structural types
+Fix View.toString. Rename #:: operator to prependLazy. Add an implicit #:: operator that’s partially lazy
+Fix compiation errors thanks to Dotty
+Fix import for <:<. Rename `left` and `right` to `first` and `second`, respectively. Add a test for `unzip`.
+Fix compilation errors after rebase. Remove default implementations of newBuilder method.
+Fix compilation error on Dotty
+Fix regression under -Xcheckinit: param accessors don't need init checking
+Implement `reverse` and `reverseIterator()` on top of the `reversed` protected method. Fix inheritance of a few classes.
+Fix README
+Rename appendFront and appendBack to prepend and append, respectively. Fix fromIterable infinite recursion.
+Fix dropRight to include check for negative values of n.
+Fix generic signatures for classes nested in modules
+Fix code gen for Outer.super[Q].foo
+Fix missing Scaladoc markdown
+Fix check for varargs calling convention in overrides of Java methods.
+Fix generation of derived value classes wrapping Unit, Null, and Nothing.
+Fix incorrect mathjax rendering in spec section 2
+Fix typos in comments and local val
+Fix nullary overrides
+Fix nullary method applications
+Fix completion of x.bar.<TAB>, where bar takes dependent implicits
+Fixed issue of repl string of immutable.Queue #10303
+Fix compilation errors
+Fix rounding errors in creation of Durations. Use round instead of manually trying to convert to a Long.
+Ask Travis to compile the benchmarks. Fix compilation error in the benchmarks.
+Fix typos in compiler comments and messages
+Fix #79: Add test
+Fix java boxed map
+Fix implementation of mutable.HashSet.fromIterable
+Fix compilation errors with Scalac
+Fix queue ++
+Fix broken namespace in memory benchmark
+Fix externally linked scaladoc in 2.12
+Fix ArrayOps.fromIterable
+Fix some compile errors under scalac
+Fix t5717 on Windows
+Fix compilation issues with scalac 2.12
+Fix MiMa feature request URL
+Fixes to get dotty to compile it
+Fix lambda deserialization in classes with 252+ lambdas
+Fix == in spec linearization examples
+Fix Greek Mythology references in compiler package
+Fix typo in JavaConverters doc
+Fix negative bound
+Fix benchmarks according to Dim and Rex comments.
+Fix table formatting
+Fix the SortedSet inheritance problems pointed out by julienrf
+Fix and improve Regex doc
+Fix for repositories file in bootstrap scripts
+Fix minor ArrayBufferView type inference problem
+Fix compile error on existing ListBenchmark
+Revert "Fix erasure of the qualifier of ##"
+Fix regression in 5751763
+Fix linearization of IterablePolyTransforms
+SI-10194: Fix abstract type resolution for overloaded HOFs
+SI-10026 Fix endless cycle in runtime reflection
+Fix build
+Fix typos in compiler and reflect
+Fix indent and comment of ArrayOps.scala
+Fix copy/pasto references to mutable package in benchmark
+#20 Fix the way we grow Arrays
+Fix erasure of the qualifier of ##
+SI-10154 Fix implicit search regression for term-owned objects
+Fix confused logic
+Fix the size of the stack used by RedBlackTree.iteratorFrom.
+Fixes for mutable collections
+Fix ImportHandler's reporting of importedNames and importedSymbols
+Fix SIOOBE in Name#pos for substrings of length 1
+SI-9114 Fix crasher in pattern matcher with type aliases
+SI-9331 Fix canEqual for case classes with HK type params
+Fix documentation of immutable.Queue
+SI-9630 Fix spurious warning related to same-named case accessors [backport]
+Fix how "sbt" is written
+Fix spec links to `07-implicits.html`
+S-10098 Fix regression in Unix runner script with JAVA_HOME unset
+SI-9833 Fix -nobootcp in the Unix scala script
+SI-10069 Fix code gen errors with array updates, Nothing
+SI-3772 Fix detection of term-owned companions
+SI-9814 Fix synchronized in specialized overrides
+Fix more compiler crashes with fields, refinement types
+SI-10066 Fix crash in erroneous code with implicits, dynamic
+fixup! SI-10060 Fixes NumericRange.max bug on empty ranges
+SI-10060 Fixes NumericRange.max bug on empty ranges
+SI-9915 Fix test on windows
+Fix typo in scalac, scalap man pages
+Merge pull request #5503 from dsbos/dsbos-SpecFixQuotesInProse
+Fix returns from within finalizers
+SI-10032 Fix code gen with returns in nested try-finally blocks
+Fix two instances of ASCII `...' quoting to Unicode ‘...’ (to match others).
+Merge pull request #5441 from dsbos/dsbos-SpecFixQuotes
+Fix typo in GenTraversableLike
+SI-9832 Fix line endings in junit test
+Fix the interface flag when re-writing a closure call to the body method
+Fixed some ‘...‘ (two open quotes) to ‘...’ (open vs. close quotes) in ENBF.
+SI-9697 / SD-229 Fix DelayedInit subclass capturing local value
+SI-9924: Fix: Spec. refers to U+007F (DELETE) as printable character
+Fixed reference to script engine factory in META-INF/services
+Fix instructions for baseVersionSuffix in README
+Fix typos in syntax
+SI-9760 Fix for higher-kinded GADT refinement
+Fix race condition in lambda deserialization
+Fixed some style issues
+SD-186 Fix positions in trait method bytecode
+SI-9855 Fix regression in extractor pattern translation
+[squash] Fix bounds in contains
+Fixed a typo in Predef
+Fix ParVector#padTo
+Fix typo in test comment
+Fix test failures of the sbt build in 2.12.x
+SI-9806 Fix incorrect codegen with optimizer, constants, try/catch
+Fix comparisons involving NaN
+Fix Scaladoc link syntax on java.util.Formatter references
+SI-9776: Fix type of PriorityQueue.newBuilder and improve performance - Fix the return type of mutable.PriorityQueue.newBuilder to be Builder[A, PriorityQueue[A]] rather than PriorityQueue[A].
+SI-8756 Fix generic signature for refinement of primitive
+SI-9773 Fix doc for "".lines (#5161)
+Fix the Eclipse classpaths for 2.12.0-M4. (#5136)
+SI-9516 Fix the behavior of Int shift Long operations. (#5117)
+Fix erasure for classOf[Unit], don't erase to classOf[BoxedUnit]
+SI-9760 Fix for higher-kinded GADT refinement
+Fix InlineInfo attribute for nested module accessors
+Fix minor typo
+Fix incorrect svg on objects with companion traits
+Fix expansion on click for "Full Signature" element
+Fix sidebar not displaying objects with no companion
+Fix inconsistent icon elem insertion
+Fix typo in the docs for the ++ method of Stream
+SI-9702 Fix backend crash with classOf[T] annotation argument
+Fixed Typo in scaladoc scheduler.js
+Fix a bug in multi-dimensional array creation
+Fix one warning in Util.scala
+Fix some typos in `spec` documents and comments.
+Fix Scaladoc links in scala.io.Source
+Fix link descriptions.
+Scaladoc: Fix elidable threshold off-by-one comment and link elidable
+Fix var spelling in WeakHashSet
+Fix typo
+SI-9658 Fix crosstalk between partial fun. and GADT match
+SI-9425 Fix a residual bug with multi-param-list case classes
+SI-9546 Fix regression in rewrite of case apply to constructor call
+Fix diagrams for `Content Hierarchies` in scaladoc
+Fix bold text in reflect API for 2.11.x
+Fix boostrap script when STARR isn't customized
+Fix off-by-one documentation error in Product<N>
+Fix SBT tab completion of scala command
+SI-9349 Fix use of patmat binder as prefix for new x.Inner
+SI-9542 Fix regression in value classes with enclosing refs
+Fix non-exhaustive match in macro code parsing
+SI-9630 Fix spurious warning related to same-named case accessors
+Fix some simple extra words
+Fix problems with a locale-dependent decimal mark in StringContextTest
+Fix Scaladoc overloaded method link to Duration companion object
+SI-8641 Fix right shift docs for integer types
+Fix push-pop elimination for values pushed by DUP
+SI-9581 Fix overflow on Vector take and drop methods
+Fix dependency problems in the sbt build
+SI-9567 Fix pattern match on 23+ param, method local case class
+SI-9567 Fix latent bugs in patmat's reasoning about mutability
+Fix JarJar “Keep” processing in sbt build
+Fix for SI-9363
+Fix in "consumersOfOutputsFrom" query in prod-cons analysis
+Fix List Scaladoc time & space formatting
+Fix some small warnings that pop up on every compile
+Fix specialized function class names in closure optimizer
+Fix merging of AliasingFrames
+Fix VarInstruction extractor to include IINC
+WrapAsScala: Fix documentation
+Fix the dist/mkBin target in the sbt build
+SI-9497 Fix SetLike#clear() default implementation
+SI-9527 Fix NPE in ambiguous implicit error generation
+Fixes an inconsistency between BoxesRunTime and Predef's autoboxing
+Fix typo in Process.scala
+Fixing signatures of universal methods on `Any` and `AnyRef`.
+Fix NPE in PagedSeq.slice at end of seq
+SI-9029 Fix regression in extractor patterns
+SI-9388  Fix Range behavior around Int.MaxValue
+SI-9479 Fix regression w. inherited overloads in package object
+SI-9369 Fix pattern matcher warnings for diamond shaped inheritance.
+Fix REPL completion of symbolic identifiers
+Fix completion for synthetic case modules and methods
+Fix completion for multi-line entries
+Merge pull request #4692 from JanBessai/Fix-SI-6636
+Fix maxStack after inlining
+SI-9450 Fix triple quoted strings in REPL :power mode
+SI-9442 Fix the uncurry-erasure types
+Fix typo in the name of a private method
+Fix typos in spec, docs and comments
+SI-6636 Fix macro expansion in toolboxes
+Fix documentation of filter introduced in 13f30c
+Fix method name reference in Predef documentation
+Fix tracing of implicit search under -Ytyper-debug
+SI-9422 Fix incorrect constant propagation
+[backport] Fix bytecode stability when running the closure optimizer
+[backport] SI-9387 Fix VerifyError introduced by indylambda
+[backport] Fix bytecode stability
+[backport] Fix superclass for Java interface symbols created in JavaMirrors
+Fix typo in val name
+Fix 6 typos (w-z)
+Fix bytecode stability when running the closure optimizer
+Fix 23 typos (t-v)
+Fix the bug in the example in scala.sys.process
+SI-9387 Fix VerifyError introduced by indylambda
+Fix bytecode stability
+Fix 25 typos (s)
+Fix superclass for Java interface symbols created in JavaMirrors
+Fix some tests, move others to pending/
+Fix 27 typos (p-r)
+Fix 23 typos (m-o)
+Fix size update on `mutable.TreeMap#clear()`
+Fix 8 typos (j-l)
+SI-8892 Fix incorrect qualification in error message
+Fix 25 typos (g-i)
+Fix 36 typos (d-f)
+Fix spurious test failure under -Ybackend:GenBCode
+SI-9359 Fix InnerClass entry flags for nested Java enums
+SI-9206 Fix REPL code indentation
+Fix another several typos
+Fix some typos (a-c)
+SI-9348 Fix missing last element in exclusive floating point ranges
+Fix missing quotes in EBNF of type alias
+SI-9212 Fix toolbox with varargs constructors
+Fix aliasing / nullness of CHECKCAST
+Fix illegal inlining of instructions accessing protected members
+SI-8210 Scaladoc: Fix the false negative @inheritdoc warning on accessors
+Merge pull request #4524 from lrytz/BCodeDelambdafyFixes
+Fix several tests under GenBCode
+SI-9326 Fix regression with existentials in parent types
+Fix wrong result in InstructionStackEffect for ATHROW, RETURN
+Fix wrong indexing in FrameExtensions.peekStack
+Fix small grammar error in `Warnings`
+Fixed deprecation warning in scaladoc example of Try
+[backport] Fixes a comment in the bootstrap script.
+SI-9298 Fix erasure of value classes in Java
+Fixed documentation of assertions in Predef
+Fix scaladoc of Try#failed
+SI-9275 Fix row-first display in REPL
+Fix many typos
+Fix typo in Quasiquote doc that was confusing
+Fix regression in plugin API
+Fix a typo in PriorityQueue scaladoc
+[nomerge] SI-8940 Scaladoc: Fix "Order by Alphabetical" button
+SI-8940 Scaladoc: Fix "Order by Alphabetical" button
+SI-9074 Fix generic substitution with package objects, overloading
+Fix typo in brutallyResetAttrs comment
+SI-9226 Fix NPE in GenASM.writeIfNotTooBig
+SI-9200 Fix Java generic signatures for refined types
+Fix link...
+Fix links to EPFL CI and nightly downloads.
+SI-9182 Fix runtime reflection with package object, overloads
+SI-9170 Fix resident compilation / specialization NPE
+SI-9164 Fix thread safety of Scaladoc diagram generator
+Fix the Scaladoc tests under Java 8
+Fix SI-7943 -- make `TrieMap.getOrElseUpdate` atomic.
+Fix SI-9147 Override `getOrElseUpdate` in `concurrent.Map`.
+Fix InnerClass / EnclosingMethod for closures nested in value classes
+Fix InnerClass/EnclosingMethod for trait impl and specialized classes
+SI-9105 Fix EnclosingMethod for classes defined in lambdas
+SI-9135 Fix NPE, a regression in the pattern matcher
+SI-9131 Fix use of apply syntactic sugar with by-name param
+Fix intellij 14 setup script to read scala version from version.properties
+SI-9086 Fix regression in implicit search
+SI-9087 Fix min/max of reversed Double/Float orderings
+SI-9093 Fix value discarding / multiple param list crasher
+SI-9050 Fix crasher with value classes, recursion
+Merge pull request #4234 from JanBessai/ShowCodeEscapeFix
+SI-9044 Fix order of interfaces in classfiles
+Fix problems with a locale-dependent decimal mark in StringContextTest
+Fix many typos in docs and comments
+Fix scaladoc OutpuStream typo
+Fix typo
+SI-9018 Fix regression: cycle in LUBs
+SI-9008 Fix regression with higher kinded existentials
+SI-8995: Fix broken link in error message
+Fixes memory leak when using reflection
+Fix one typo in the scaladoc of Inliners
+SI-8932 Fix dropRight/takeRight implementations
+SI-7521 Fix erasure of parametric value classes.
+SI-8253 Fix incorrect parsing of <elem xmlns={f("a")}/>
+SI-5639 Fix spurious discarding of implicit import
+SI-8449 Fix spurious error with Java raw type over a Scala class
+SI-6856 Fix incorrect EBNF in comment in Parsers
+SI-7974 Fix over-eager optimization of Symbol literals
+SI-8575 Fix subtyping transitivity with aliases, compound types
+SI-8862 Fix treatment of inherited implicits in package objects
+SI-7019 Fix crasher with private[this] extension methods
+SI-8962 Fix regression with skolems in pattern translation
+SI-8955 Fix hanging fork-join pool via parallel collections
+Fix default value for ScalaVersionSetting
+SI-8934 Fix whitebox extractor macros in the pres. compiler
+SI-8916 Fix -Ywarn-unused-import warnings
+SI-8835 Fix implementation of Iterator drop to remove quadratic behavior
+Fix lambda names under delambdafy:method in innerClassAttribute test
+Fix t8549 under -Ydelambdafy:method
+SI-3439 Fix use of implicit constructor params in super call
+SI-8871 Fix specialization under REPL / FSC
+SI-7746 patmat: fix non-determinism, infeasible counter examples Fixes non-determinism within the DPLL algorithm and disallows infeasible counter examples directly in the formula.
+SI-8291 Fix implicitNotFound message with type aliases
+SI-8870 Fix markup errors in the Types section of the spec
+SI-8868 Fix unpickling of local dummy symbols
+Merge pull request #3972 from lrytz/BCodeDelambdafyFix
+SI-8844 Fix regression with existentials + type aliases
+Fix broken URL for MathJAX Javascript dependency.
+Fix assertThrows, and the behaviors that it shadowed
+Fix InnerClass / EnclosingMethod attributes
+Fix indentation in delambdafy
+SI-8793 Fix patmat regression with extractors, existentials
+[backport] Fixes cut sentences in the generated scaladocs
+[backport] Fixed mathematically wrong statement in the documentation of scala.math.PartialOrdering.
+[backport] Fix scaladoc typo
+[backport] Fixes first sentence delimiters
+Merge pull request #3918 from dgruntz/doc/firstSentenceFixes
+Fixes cut sentences in the generated scaladocs
+SI-8743 Fix crasher with poly-methods annotated with @varargs
+Fixed mathematically wrong statement in the documentation of scala.math.PartialOrdering.
+Fix scaladoc typo
+Fixed incorrect example in StringContext.raw doc
+Fix -Yno-adapted-args, it would just warn, not err
+Fixes first sentence delimiters
+SI-8710 Fix crasher for value classes + private + overloading
+SI-8117 Fix bug when mixing well-positioned named and positional args
+SI-8708 Fix pickling of LOCAL_CHILD child of sealed classes
+SI-6967 Fix ClassTag unapply for primitives
+Fix emitting Array(1).clone() in GenBCode
+SI-8596 Fix rangepos crasher with defaults, poly methods
+SI-8609 Fix flattening of definitions and imports in quasiquotes
+SI-8607 Fix erasure for value class inheriting from private class
+Fix BeanInfo generation for GenBCode
+SI-8475 Fix off by one in GroupedIterator when Streaming
+Fix run/t5256h.scala under checkinit
+Fix run/t3569.scala under checkinit
+SI-8478 Fix a performance regression in subtyping
+SI-8520 Fix -Dscalac.patmat.analysisBudget=off
+SI-8497 Fix regression in pickling of AnnotatedTypes
+SI-8479 Fix constructor default args under scaladoc
+SI-8460 Fix regression in divergent implicit recovery
+Fix #6: automatic section numbering.
+SI-8428 Fix regression in iterator concatenation
+SI-7992 Fix super-accessor generation after a local class
+SI-8403 Fix regression in name binding with imports in templates
+Fixes syntax error in unix runner.
+SI-8376 Fix overload resolution with Java varargs
+Fix typo in log message.
+Fix block construction/deconstruction asymmetry
+Revert "SI-7624 Fix -feature warnings in scala/tools/scalap"
+Fix ./build/<stage>/bin/scaladoc
+SI-8324 Fix regression in override checks for sealed classes
+Fix quasiquote terminology to be consistent with Scheme
+SI-8315 Fix crash in dead code elimination
+SI-8224 Fix regression in f-bound aware LUBs
+SI-5900 Fix pattern inference regression
+SI-8244 Fix raw type regression under separate compilation
+[backport] SI-7902 Fix spurious kind error due to an unitialized symbol
+SI-8245 Fix regression in interplay between lazy val, return
+Fix inconsistent binding in patterns with 10+ holes
+Fix feature warnings in test.osgi.comp
+Fix partest-extras eclipse project dependencies
+Fix typo in compiler's error message: anoynmous => anonymous
+SI-8233 Fix regression in backend with boxed nulls
+Fix misuse of underscores.
+SI-8170 Fix regression in TypeRef#transform w. PolyTypes
+SI-8134 SI-5954 Fix companions in package object under separate comp.
+Fix typo
+SI-8132 Fix false "overrides nothing" for case class protected param
+[nomaster] SI-8146 Fix non-deterministic <:< for deeply nested types
+SI-8133 Fix regression with package objects, overloading
+SI-8146 Fix non-deterministic <:< for deeply nested types
+SI-8143 Fix bug with super-accessors / dependent types
+Fix infinite recursion in name-based patmat.
+SI-8128 Fix regression in extractors returning existentials
+Fix typo in documentation
+Fixes #3330 with Scaladoc changes only
+Fix typos in documentation
+SI-7880 Fix infinite loop in ResizableArray#ensureSize
+Fix Ant uptodate checking in OSGI JAR creation
+Fix typo in scala-library-all-pom.xml.
+SI-5508 Fix crasher with private[this] in nested traits
+SI-8085 Fix BrowserTraverser for package objects
+Fix osgi bundle name for continuations.
+Fixup for #3265
+SI-8024 Fix inaccurate message on overloaded ambiguous ident
+Fixup #3248 missed a spot in pack.xml
+SI-7979 Fix quasiquotes crash on mismatch between fields and constructor
+SI-8062 Fix inliner cycle with recursion, separate compilation
+SI-8046 Fix baseTypeSeq in presence of type aliases
+SI-8054 Fix regression in TypeRef rebind with val overriding object
+SI-8010 Fix regression in erasure double definition checks
+SI-6913 Fixing semantics of Future fallbackTo to be according to docs
+Fixes SI-8014, regression in Vector ++ TraversableOnce.
+SI-8023 Fix symbol-completion-order type var pattern bug
+SI-8005 Fixes NoPositon error for updateDynamic calls
+SI-7983 Fix regression in implicit divergence checking
+Fix a typo in the `scala` man page
+Fixes markdown syntax
+SI-7961 Fix false positive procedure warnings
+Fix completion after application with implicit arguments
+SI-7295 Fix windows batch file with args containing parentheses
+Fix problem assembling sources and docs of modules.
+SI-7688 Fix AsSeenFrom of ThisType from TypeVar prefix
+SI-7902 Fix spurious kind error due to an unitialized symbol
+Fix up DEFAULTPARAM semantics.
+Fix typo in documentation.
+SI-7817 Fix regression in structural types
+Fix dbuild meta info: remove scaladoc project
+SI-7801 Fix a nightmarish bug in Symbols#adaptInfos
+Fix typo in sample code in scaladoc for package scala.sys.process
+SI-7729 Fix broken windows build
+SI-7704 Fix partest's test category selection (again)
+SI-7603 Fix thread safety of FlagTranslation
+SI-7624 Fix -feature warnings in scala/tools/scalap
+SI-7624 Fix a few remaining -Xlint warnings ... in various places. This includes actors, compiler (mostly some new macro parts) continuations, partest, scaladoc, scalap.
+SI-7624 Fix -Xlint warnings in AnyVal-related code
+SI-7624 Fix -feature warnings and build with -feature
+Fix N^2 spot in erasure.
+SI-7704 Fix partest's test category selection
+Fix Platform type in Global to be JavaPlatform.
+[backport] SI-7569 Fix end position in PostfixSelect tree
+SI-7689 Fix typing regression with default arguments
+Fixing exhaustiveness warnings.
+SI-7669 Fix exhaustivity warnings for recursive ADTs.
+SI-7636 Fix a NPE in typing class constructors
+Fix typo in Documentation
+Fix repl-save test
+Fixes checkinit build failure caused by quasiquotes pull request
+SI-7649 Fix positions for reshaped tag materializers
+SI-7174 Fix initialization issues
+Fix docs inconsistent (cmp -> ord).
+Fix typo in documentation
+SI-7569 Fix end position in PostfixSelect tree
+SI-7433 Fix spurious warning about catching control throwable
+Fix typo in Scaladoc
+SI-7292 Fixes test failures by updating *.check files
+SI-7584 Fix typer regression with by-name parameter types
+SI-7343 Fixed phase ordering in specialization
+SI-6503 Fix scaladoc output to generate valid HTML5
+SI-7564 Fix detection of reflective calls on Avian
+Fix incorrectly documented exception of toBoolean method of String
+SI-7558 Fix capture of free local vars in toolbox compiler
+SI-7556 Fix runtime reflection involving ScalaLongSignature
+SI-7507 Fix lookup of private[this] member in presence of self type.
+SI-6841 Fix bug at the intersection of DelayedInit and named args
+SI-7532 Fix regression in Java inner classfile reader
+SI-7517 Fix higher kinded type inference regression
+SI-7497 Fix scala.util.Properties.isMac
+Fix for unreachable code warning.
+Fix formatting for couple of docs in the compiler
+SI-7429 Fix checkinit build failure in Contexts
+Fix unchecked warning.
+SI-7408 Fix test by sorting results of getDeclaredClasses
+Fixed BigDecimal documentation for primitive conversion methods.
+SI-7377 Fix retypechecking of patterns on case companion alias
+SI-6900 Fix tailrec for dependent method types
+SI-7259 Fix detection of Java defined Selects
+SI-7232 Fix Java import vs defn. binding precendence
+Fix typos in build.xml
+SI-7285 Fix match analysis with nested objects.
+SI-7013 Scaladoc: Fix StackOverflowError
+SI-7259 Fix detection of Java defined Selects
+SI-7232 Fix Java import vs defn. binding precendence
+Fix it-never-happened performance regression.
+SI-7242 Fix crash when inner object mixes in its companion
+SI-7226 Fix inference regression caused by TypeVar equality.
+SI-7006 Fix the unreachable test
+SI-7231 Fix assertion when adapting Null type to Array type
+Fix SI-7224.
+SI-7215 Fix transpose of an empty Array[Array[T]].
+Fix SI-7107: scala now thinks every exception is polymorphic
+SI-7180 Fix regression in implicit scope of HK type alias.
+Fix two malformed format strings.
+SI-7074 Fix xml attribute sorting
+Fix fonts to enable both old-style and lining numerals
+Fix typing idempotency bug with Annotated trees
+Fixed error in reflection API docs about linearization order on method baseClasses
+Fix and optimization in overriding logic.
+SI-7146 - Fixing checkinit bug in ExecutionContextImpl and adding test
+SI-7143 Fix scanner docComment: docBuffer and docPos are initialized in different places and as a result can get out of sync and as a result the invariant that docComment has a position is broken.
+Fix SI-7130: Memory leaked caused by Statistics
+SI-7128 Fix regression in copyToArray for empty arrays
+Fix typing idempotency bug with Annotated trees
+[nomaster] Revert "Fixes SI-6521, overrides Range#head to be faster"
+Fix for paramaccessor alias regression.
+SI-6225 Fix import of inherited package object implicits
+[backport] SI-6478 Fixing JavaTokenParser ident
+SI-7100 Fixed infinite recursion in duplicators
+SI-5824 Fix crashes in reify with _*
+SI-5833 Fixes tail-of-Nil problem in RefinedType#normalizeImpl
+Fix context for type checking early initializers
+Fix SI-6578. Deprecated `askType` because of possible race conditions in type checker.
+SI-6728 Fixes crash in parser on incomplete for expression
+Fix access to empty package from the repl.
+[backport] Fix for SI-6154, VerifyError originating in uncurry.
+SI-7018 Fix memory leak in Attachments.
+SI-6939 Fix namespace binding (xmlns) not overriding outer binding
+[backport] SI-2968 Fix brace healing for `^case (class|object) {`
+[backport] Fix for SI-6206, inconsistency with apply.
+SI-6891 Fix value class + tailrec crasher.
+Revert "SI-5824 Fix crashes in reify with _*"
+SI-6863 Fix verify error in captured var inited from expr with try/catch
+Fix broken build.
+Fix class loader issues in instrumentation tests.
+Fix some typos
+SI-7011 Fix finding constructor type in captured var definitions
+[backport] Fix unsafe array opt. / opt. primitive Array(...)
+[backport] Fix SI-6637 (misoptimization in erasure)
+SI-6987 Fixes fsc compile server verbose output
+Fixed typo in ProcessBuilder scaladoc.
+SI-5824 Fix crashes in reify with _*
+ Fix SI-6932 by enabling linearization of callback execution for the internal execution context of Future
+SI-6976 Fix value class separate compilation crasher.
+SI-5568 Fixes verify error from getClass on refinement of value type
+SI-6966 Fix regression in implicit resolution
+Fixes and features for javap (fixing SI-6894)
+Fixes SI-6521, overrides Range#head to be faster
+Fix Iterator#copyToArray (fixes SI-6827).
+Fix dependant => dependent
+Fix and simplify typedTypeConstructor.
+Fixing up the mailmap.
+Fix Iterator#copyToArray (fixes SI-6827).
+Fix scaladoc typo for isTerm method
+SI-6745 Fix <init> lookup
+SI-6288 Fix positioning of label jumps
+Fixes SI-6758: force LazyAnnnotationInfo for DefDef and TypeDef
+Fix for SI-6595, lost modifiers in early defs.
+SI-6746 Fixes MANIFEST.MF package entry (s.r.makro -> s.r.macros)
+Fixing OSGi distribution.
+Fix for rangepos crasher.
+Fixes SI-6558: typecheck lazy annotation info using non-silent context.
+Fix Scaladoc for the raw interpolator.
+Javap for Java 7 (Fixes SI-4936)
+Fix for SI-6731, dropped trees in selectDynamic.
+Fix typo in documentation for Seq
+Fix for SerialVersionUID instability.
+Fix for SI-6712, bug in object lifting.
+Fix for SI-6687, wrong isVar logic.
+Fix for SI-6706, Symbol breakage under GC.
+Fix for SI-6357, cycle with value classes.
+SI-6634 Fixes data corruption issue in ListBuffer#remove
+Fixes SI-6628, Revert "Fix for view isEmpty."
+Fix for overly eager package object initialization.
+Fix bug in partest-ack.
+Fix Documentation Typo
+Fix for SI-6664, cycle in case classes.
+Fix for SI-6357, cycle with value classes.
+Fixes SI-6150 - backport to 2.10.x branch.
+Fixes SI-6559 - StringContext not using passed in escape function.
+Fix for SI-6662, macro failing too early.
+Fix raw string interpolator: string parts which were after the first argument were still escaped
+SI-6646 Fix regression in for desugaring.
+Fix merge error.
+SI-6632 SI-6633 Fixes issues and data corruption in ListBuffer
+Fix type of the custom `ClassTag` in `PatternMatching.scala`
+Fix SI-6637 (misoptimization in erasure)
+Fixing issue where OSGi bundles weren't getting used for distribution.
+Fix for SI-6426, importable _.
+Fixes example in Type.asSeenFrom
+Fix for SI-6600, regression with ScalaNumber.
+SI-6562 Fix crash with class nested in @inline method
+Fixed bug in Symbol filtering.
+Fix SI-6584, Stream#distinct uses too much memory.
+Fix for SI-6597, implicit case class crasher.
+Fix for SI-6597, implicit case class crasher.
+Fix performance bug in GenASM.
+Fix for -Xcheckinit failures.
+Fixes SI-6500 by making erasure more regular.
+Fixes SI-6559 - StringContext not using passed in escape function.
+Fixes SI-5031 for separate compilation scenario.
+SI-2968 Fix brace healing for `^case (class|object) {`
+Fix SI-6552, regression with self types.
+Fix for SI-6537, inaccurate unchecked warning.
+Fix for SI-6206, inconsistency with apply.
+Fixes SI-6521, overrides Range#head to be faster
+Fix for SI-6499, regression in type inference.
+Fixed SI-6505. Respond to ask calls by immediate failure even after compiler shutdown.
+Fix for SI-4744, another variety of cycle.
+Fixes SI-6170: issue with dragging scaladoc splitter over central iframe
+Fix for SI-6482, lost bounds in extension methods.
+SI-6478 Fixing JavaTokenParser ident
+Fix for spurious warning.
+Fix for rangepos crasher.
+Fix for gluttunous raw type creation.
+Fix broken links with names that need to be encoded when querying the owner.
+Fix scaladoc links in a couple of places.
+Fixed problem in SI-6408
+SI-6215 Fix compiler crash on private method in value class
+Fix for TypeVar instantiation.
+Fix StringContext documentation.
+Fixes deprecation annotations for 2.10.0
+Fix for SI-6452, leak in ListBuffer.
+Fix for SI-4729, overriding java varargs in scala.
+Fix for SI-5353, imperfect error message.
+Fix for SI-5859, inapplicable varargs.
+Fix incomplete version strings (2.10 -> 2.10.0)
+Fix for SI-5130, precision disappearing from refinement.
+Fix for SI-6447, macro dependent type propagation.
+Fix for failing test.
+Fix class loader issues in instrumentation tests.
+Fixed SI-5604, selections on package objects.
+Fixed instrumentation code so that it can deal with:
+Regex.unapplySeq should not take Any (Fixes SI-6406)
+Fixes SI-6260
+Fix for loud test.
+Fix for SI-6344, value class generic signatures.
+Fix problem with names encoding in scalap.
+Fixes SI-6354: improved error messages for Dynamic signature mismatches.
+Adds OSGi support / tests to Scala.  Fixes SI-5822.
+Fixes SI-6305 scala.tools.nsc.io split between jars.
+Revert "Fixes SI-6189."
+Revert "Fixes SI-6236."
+Revert "Fix SI-4581."
+Revert "Fix SI-6294."
+Fixed comment.
+Fixes SI-6337 by disallowing nested value classes.
+Fixed SI-6353: applyDynamic with sugared applications
+Fix SI-4813 - Clone doesn't work on LinkedList.
+Fix for SI-6245 with workaround for SI-2296.
+Fixes SI-6259.  Unable to use typeOf in super call of top-level object.
+Fixes binary repo push for new typesafe repo layouts.
+Fix for SI-6367, exponential time in inference.
+Fixes SI-6268. Review by @paulp and @lrytz.
+Fix for SI-6340, error message regression.
+Fix t6114 - ++ on JList wrapper modifies underlying collection.
+Fix for SI-6327, wrongness in Dynamic.
+Fix for SI-6333 - Try throws from combinators.
+Fixes SI-6271 - Missing isEmpty override for views.
+Fixed positions in de-aliased special symbols and for automatically added `apply` methods.
+Fixes SI-6285 - ParIterableLike no longer says sequential foreach.
+SI-6274 Fix owners when eta-expanding function with byName param
+Fixes typos in the ScalaDoc of StringContext
+Fix for SI-6273, repl string interpolation.
+Fix for SI-6263, futile adaptation.
+Fix for SI-6034, covariant value classes.
+Fixes SI-6290 by creating real instnaces of language features.
+Fix SBT sha resolution for new * in sha files.
+Fix SI-6294.
+Fixed cloning a double-linked list.
+Fix crasher from bug in maven ant tasks.  Yippie.
+Fix for SI-6283, no abstract value classes.
+Fix version detection to be the first word.
+Fix SI-4581.
+Fix stupid logic inversion of try-catch
+Fix for SI-6264, crash in checkCheckable.
+Fixes SI-4996.
+Fix for community build blocker.
+Fixes SI-6236.
+Fixes SI-6189.
+Fixes SI-6150.
+Fixes backend crash due to incorrect consumedTypes
+Fix for view isEmpty.
+Move side-effecting call out of debuglog(). Fixes SI-6223.
+Fixes SI-6214.
+Fix raw string interpolator: string parts which were after the first argument were still escaped
+SI-6119 Fix mispelling on take documentation.
+Fix SI-6208.  mutable.Queue now returns mutable.Queue for collection methods rather than MutableList.
+Fixes SI-5687.
+Fix test for ExecutionContext.prepare
+SI-6119 Fix mispelling on take documentation.
+Fix for SI-4945, repl hang on -i input.
+Fix for SI-6063, broken static forwarders.
+Fixes SI-6172.
+Fixed maddening "..." lately in printed types.
+Fix for SI-6084, type alias crasher.
+Fix for SI-6154, VerifyError originating in uncurry.
+Fixed SI-5031. Only consider classes when looking for companion class. sym.effectiveOwner revealed this piece of inconsistency. companionModule is fine because similar check is there already.
+Fixed SI-5603. Early definitions now get transparent positions. This includes a fix for a minor problem described in #594 - ensureNonOverlapping still focuses on default position when outside of early defs. Review by @dragos, @odersky.
+Fixes typo in Throwable compiler warning
+Fix a few scaladoc tests I broke.
+Fix `Instrumentation.getStatistics` method in partest.
+Fix SI-4560, NoSuchMethodErrors involving self types.
+[doc] Fix example of `Ordering.on` usage.
+Fix SI-6117, regression involving import ambiguity.
+SIP-14 - Fix critical Java compatibility issue in scala.concurrent.Await
+Fixed SI-6092. Fixed leaky annotations, and relaxed the conditions under which a try-catch is lifted out to an inner method.
+Fix SI-5937.
+Fixes SI-5588. Correct compare for Enumeration. Slower than the original one but does comparison in the same spirit as IntOrdering.
+Fixed SI-6076. Range positions for macro-based string interpolation. Should bring back the jenkins job as well.
+Fix for SI-5385.
+Fix Scala library dependency in Eclipse project files.
+Fixing problem that caused fingerprints to fail in reflection. Also fixed test case that failed when moving to findMembers. Avoids similar problems in the future by renaming nme.ANYNAME
+Fixing oversight in propagating the runnable into the newly created thread.
+Fix doc about specialized subclasses of c.i.HashMap/HashSet.
+Fixed very bad build.xml issue and quick.bin missing ASM.
+Fixed replacestarr to use packed libraries and also include source files.
+Fix to push-jars to use same sha fixing that pull uses.
+Fix SI-3836 not-really-ambiguous import detection.
+Fixed the API documentation for scala.collection.MapLike.filterNot.  The previous documentation erroneously indicated that filterNot retains elements for which the supplied predicate is true when in fact the opposite is the case, as verified in the REPL.
+Fix SI-5929 - Verify error with finally and pattern match
+Fix for exponential compile time in specialization.
+Fixed race condition that was caused by Statistics pushTimer.
+Fix SI-5846 and SI-4027.
+Fix SI-5336.
+Fix SI-3326.
+Fix SI-5986.
+Fix SI-5971.
+Fix range positions when applying anonymous classes. Review by @dragos or @odersky
+SI-5966 Fix eta expansion for repeated parameters with zero arguments.
+Fix SI-4809.
+Fix SI-5284.
+Fix for SI-5953, extension methods crasher.
+Fixing embarassing typo.
+Fix SI-4541.
+Fixes from review.
+Fix SI-4954.
+Fix for java parser edge case.
+Fix for broken forwarder.
+Fix for reflection.  Review/Use by @adriaanm
+SI-4831 Fix ambiguous import detection for renamed imports.
+Fixes SI-4909 and SI-5763
+Fix SI-5853.
+Fix SI-5880.
+Fixes SI-5857.
+Fix SI-5867.
+Fix SI-5879.
+Fix `Hashing`.
+GenASM-based fix for SI-4804. Fix of the same for GenJVM pending.
+Fix a NSDNHAO in extension methods.
+Fixes SI-5085 and SI-4833.
+Fixes SI-5428.
+Fixes SI-5805
+Fixes SI-5441.
+Fix to naming of file.
+Fixing the build of actors.
+Fixed issue where forkjoin analysis bombed with incompatible class change exception.
+Fix @varargs forwarder generation in the presence of nested templates.
+Fix to Scaladoc keyboard shortcuts for Firefox
+Fix 4812
+Fix SI-2488
+Fixes SI-5804.
+Fixes SI-4461.
+Fixes previous commit.
+Fix 4138
+Fix SI-5544
+Fixes SI-4717.
+Fixes SI-5801, error messages regression. Review by @adriaanm
+Fixes SI-5623 on SyncVar and deprecates set & unset.
+Fix SI-4928
+Fix for SI-5610
+Fix SI-5259
+Fixed positions for `AnnotationInfo.original`.
+Fix SI-5626.
+Fix for unnecessary InnerClasses for top-level objects.
+Fix SI-5009: case-class copy method now eta-expands over higher parameter lists.
+Fixed SI-5708. Correctly compute accessibility for object members.
+Fixed partest so it can run in SBT.
+Fixed plugin dependencies.
+Revert "Fix for ## inconsistency."
+Fix for SI-5654.
+Fixes SI-5640
+Fix an inference regression with this.type.
+Fixes SI-5328.  Iterator.patched failed when from=0.
+Fixes SI-5201.  Adds flatten to TraversableViewLike.
+Fix for ## inconsistency.
+Fixes SI-5564.
+Fixed positions in named default applications (no hyperlinking in conjunction with implicit arguments).
+Fix for aliasing bug in reifier.
+Fixes SI-5344.
+Fixes SI-5629.
+Fixes SI-5199 through improved API docs
+Fixes SI-5514.
+Fixes si-5656.
+Fix for si-5577.
+Fix for si-5590.
+Fix for si-5018.
+Fix for one of the oldest open soundness bugs.
+Fix for broken non-local returns.
+Fix for implicit class / value class collision.
+Fix for Dynamic interaction with private methods.
+Fix for SI-3718.
+Fix for SI-5608, crasher with value classes.
+Fix SI-4976 partially
+Fixes the backticks in use case signature crash
+Fixes SI-4478. - Replaced/simplified usages of "wrt". - Added backticks to $Coll definitions, so stuff like "immutable.Stack"   hopefully stops being interpreted as the end of a sentence and shown   like that in the summary line of ScalaDoc's method description.   See collection.immutable.Stack's sortBy.   Additionally, it looks nicer this way. - Fixes the typo mentioned in SI-5666.
+Fixs for reflection and getSimpleName.
+Fixes #SI-5578. ResetAttrs shouldn't be side-effecting on the original tree, since it can lead to NPEs in erroneous trees (or maybe even for valid ones?). Review by @odersky
+Fixed a bug with setting execution contexts.
+Fixed `Setting.enabling` to properly disable dependent settings when the original setting is set to `false`.
+Fix reifier crashing repl.
+Fix unmatched parenthesis
+Fixes to OSGi version number based on IDE team's suggestions.
+Revert "Fix for range positions."
+Fix for range positions.
+Fix for SI-5471
+Fix a documentation comment of Product(n)#productElement
+SI-5677, Tiny typo. Fixed.
+Fix an potentially-disturbing error (typo?) in Either doc.
+Fix for test checkfile.
+Fix issues with exception handling in futures. Review by @heathermiller
+Fixing the docs.scalap breakage
+Fixed tests to account for SIP 18
+Fixed problems with new deprecated idents scheme.
+Fixes https://scala-webapps.epfl.ch/jenkins/job/scala-checkin-rangpos/404/
+Fix for failing test.
+Fixing a failing test.
+Fix for SI-5535.
+Fixes and clean ups for futures based on review by @viktorklang
+Fixed duplicate method problem for implicit wrappers.
+Fix memory leak related to default arguments in presentation compiler.
+Fix for SI-5648.
+SI-4540 Fix [RichDouble|RichFloat|RichLong].isValid[Byte|Short|Char|Int].
+Fix for SI-5591.
+Fix for SI-5644.
+Fix for continuations issue with match blocks.
+Fix for continuations issue.
+Fixed broken links in sources of scala/annotation
+Fixed up versioning scheme. SBT build should now mimic ant build for versions.
+Fixed build for 0.11.x again.  Working on bringing version properties file up to par.
+Fixed class cast exception thrown when re-initializing maven-ant-tasks.
+Fix for SI-3272.
+Fixes SI-5632 (serialization of large HashTables)
+Fix for regression with inference at arity 21+.
+Fix for string bug in genjvm.
+Merge pull request #344 from lrytz/classpathFix
+Fixes SI-5373
+Fix .empty and add .ofDim factory method.
+Fixed SI-5599
+Fixes SI-5593
+Fix for SI-5580.
+Fixed test cases.
+Fixed SI-5063.
+Fix for stability failure.
+Fixes SI-5248
+Fixed versioning scheme when running on a tag.
+Fixing merge conflicts for trunk.
+Fixed sha to not have the 'g' for git. Swapped 'r' to 'v' now that I've had more coffee and sleep.
+Fixed maven deployment issues for new versioning scheme.
+Fixes to build numbering system for 2.9.x release
+Remove assert given the test. Fixes #SI-5572.
+Fixed broken tests
+Fix transient attribute check for checkinit to check the field of the getter.
+Fix tasksupport field initialization for the checkInit build.
+Fix for tailcall transform/recognition bugs.
+Fix for a little last minute breakage.
+Fix for public final fields.
+Fix for -Xcheckinit failure.
+Fixes to value classes: Flags now double definitions, private constructors as errors. Fixed erasure scheme.
+Fix one benchmark.
+Fix deadlocks occurring during presentation compiler shutdown.
+Fix for phase-based logging.
+Fixes scaladoc rangepos
+Fix for corner case in type printing.
+Fix for cps regression. Closes 5538. Closes 5445.
+Fixed Issue 5321
+Fixes SI-5532
+Fixing whitespace-damaged test.
+Fixes SI-5530
+Fixes SI-5380: non-local return of try expression
+Fix for typing of objects in patterns.
+Fix for "." appearing on classpath.
+Fixed deploy script for nightly
+Improvement to API docs: GenTraversableLike and List. Fixes SI-5522.
+Fix to nightly build.
+Fixes in namers and extension methods to support nested value classes and generic value classes.
+Fix for SI-5215 part 2: generate return value when eliding method calls
+Fixed POM for sonatypes standards.
+Fix for SI-5215: scalac crash when @elidable used in trait
+Fix [@spec A] to correctly induce AnyRef specialization.
+Fix race condition in scala-concurrent-tck test
+Fixed over-optimistic anyrefSpecCache (closes SI-5500).
+Fix for "type _$1 defined twice".
+Fixes miscellaneous macro bugs
+Fixed AnyRef specialization.
+Revert "Fix for SI-5452."
+Fixing problems with generation of isInstanceOf, classOf.
+Fix for set/list/oops bug in MutableSettings#copy.
+Fix for SI-5452.
+Fix for SI-5444.
+Fixes https://issues.scala-lang.org/browse/SI-5229
+Fixes https://issues.scala-lang.org/browse/SI-5453
+Fix for overly suppressive repl.
+Fixed bug in DefDef creation.
+Fixes https://issues.scala-lang.org/browse/SI-5451
+Fixes supercalls tyo AnyVal constructors. Meter example now compiles and runs correctly (but no erasure yet).
+Fixed misplaced @usecase annotation
+Fixed a bunch of scalap check files to account for absence of ScalaObject
+Fixes https://issues.scala-lang.org/browse/SI-5334
+Fixes https://issues.scala-lang.org/browse/SI-5272
+Fixes OSTYPE check for Cygwin
+Fixes curlUpload for Cygwin
+Fixing AnyVal verify error and reflection.
+Fixed all but one of the scalap tests.
+Fixed specialized tests.
+Fixed scalacheck tests.
+Fix 2.9.2 scaladoc replacing nightlies in jenkins
+Fix some issues in parallel Ctrie.
+Fix in Definitions that now enables bootstrap without AnyVal.scala present. This should be a new starr.
+Fix typo in Future trait. Simplify recoverWith.
+Fixes reifyThis
+Fix sbt build with trunk. This was tricky to find as HLists and multiple chains of implicits are definitely not fun to debug. Reporting ambiguous errors is influenced by the general error reporting, don't look for implicit arguments if any of the preceding ones failed (kills performance, causes diverging implicits with HLists). Previously throwing type errors handled that correctly but now we don't do that. Fixed small but essential typo when typing implicit. Review by @dragos
+Fix for parser OOM.
+Fixing build string.
+Fix for slice boundary condition.
+Fix for bad bug with accidental overrides.
+Fixed handling of empty keys in emitSWITCH.
+Fixed problems with step 2
+Fixed the benchmarks a bit.
+Merge remote-tracking branch 'paulp/inline' into topic/inline Temporarily removed getClass from AnyVal to get build going. Disabled anyval-childen test. Fixed some other build problems. Implemented step 1 + 2 of inline classes proposal.
+Fix for recently induced -optimise crasher.
+Fix for SI-5375.
+SI-5405: Fix documentation error in scala.math.BigInt
+Fix for SI-5374.
+Fixed the way callbacks are handled. Removed executor from base future trait.
+* Fixed SI-4835 (https://issues.scala-lang.org/browse/SI-4835).
+Fixes SI-4929, with a test to verify.
+Fix for problem in SBT that was caused by the too severe fix of type soundness problem t5120.
+Merge remote-tracking branches 'cvogt/windowsExitCodeFix' and 'szabolcsberecz/SI-5066' into develop
+Fixed windows bat file exit code and command chaining (finally)
+Fixes a bug that messed up --classpath in partest
+Fix `all` combinator on futures, refactor execution context, remove disabled files.
+Merge remote-tracking branch 'dcsobral/interpolationFix'
+Fixed a bug SI-5377 (https://issues.scala-lang.org/browse/SI-5377).
+Fix check for number of arguments
+Revert "Fixing inliner visibility issue."
+Fixing inliner visibility issue.
+Fixing checkfile.
+Fix for raw types issue found in the IDE.
+Fixed instrumented.jar and scalacheck.jar location
+Fix for crasher in uncurry.
+Fix for spurious implicit ambiguity with package objects.
+Fixed overloading in package objects.
+Cleanup after "Fixed equality and string representation of xml attributes with null value"
+Fixing redundant type parameter in toIndexedSeq which causes suboptimal type inference
+Fix for PartialFunction NPE.
+Fix silly copy-paste error.
+Fixed equality and string representation of xml attributes with null value
+Fix for crasher where Arrays meet abstract types.
+Fix for crasher during type inference.
+Fix issue with higher-order type params.
+Fix in bytecode generation.
+Fix for NoSuchMethod in cleanup.
+Fix bugs with lubs.
+Fixing slightly damaged test.
+Fix SI-5341: PhaseAssembly.removeDanglingNodes removes elements from mutable.Map during iteration.
+Fixed regression in lub calculation.
+Fix for classOf NPE.
+Fix #5293 - changed the way hashcode is improved in hash sets.
+Fixed "Definition Classes" in bug #5287
+Fixed scalacheck test to fail if it's failing.
+Fixes windows issues.
+Add test cases for blocking. Fix in the failed projection.
+Fix for seq/array varargs crasher.
+Fix default.ExecutionContextImpl.promise. Add promise test.
+Fixed Emit*Page to write to file.
+Fix future tests
+Fixed SHA resolver to only pull necessary JAR files and ignore other directories.
+Fixed the build.
+Fixed #5054, #5287
+Fix reflective toolbox producing invalid bytecode
+Fix documentation error
+Fix merge conflict
+Fixed the docs a bit.
+Fixing match errors in the on* callback methods in future.
+Fixes the annoying spaces between name, type params and params in ScalaDoc.
+Fix documentation typo.
+Fix documentation stutters.
+Fixed publish issue. * Cleaned up layered build settings definition * Removed scalaVersion specification from build (not NEEDED). * Fixed a migration from build.sbt to project/Build.scala where   publish settings were only being used on the root project and   not also used for sub-projects which are published.
+Fixed mechanisms which pulls scala revision for properties file.
+Fix path mangling for 'scala' shell script on MinGW/MSYS.
+Fix build on Windows.
+Fixing wrong-testing test.
+Revert "Fixes the annoying spaces between name, type params and params in ScalaDoc."
+Revert "Fixes the annoying spaces between name, type params and params in ScalaDoc."
+Fixes the annoying spaces between name, type params and params in ScalaDoc.
+Fix typo on Regex documentation.
+Example in scala.sys.process didn't match the text that describes it. Fixed.
+Fix to the fix of AnnotationInfos.
+Fix part numbering in README
+Fix to position in AnnotationInfo
+Fixed the layout layout. Added back the '†' and the description for tools.
+Fix for octal test.
+Fixed -Xfuture 5.ds, deprecated 0-octal.
+Fix for build.xml classpaths.
+Fix for erroneous bytecode generation.
+Fix for what have been rather uncommon common o...
+Fix for unfortunate thinko recently introduced.
+Fix and re-enable test, that got broken by chan...
+Fix to bitrot in profiling code.
+Fixing tests, no review.
+Fix for regression in overriding with defaults.
+Fixed name of MODULE$ field to make scratchpad ...
+Fix binary breakage.
+Fixing experimental feature.
+Fixing logic in structural types.
+Fixing checkinit build.
+Fix crash with HK types.
+Fixed hang in typechecker.
+Fixed askLinkPos problem in reported by failing...
+Revert "Fix for Enumeration."
+Fix for Enumeration.
+Fix for some repl bitrot.
+Fixed type unsoundness problem in t5120 and als...
+Fix for SI-3415 regression.
+Fixed paths for 'neg' tests.
+Fixed failing pc tests. no review
+Fix doc comment. no review
+Fix for NumericRange boundary condition.
+Fixes NPE using iterator with an XML attribute ...
+Fix for crasher in explicitouter.
+Fix ArrayStack.growArray at boundary.
+Fix bug in example sort.
+Fix for varargs methods.
+Fixed problem when running under -Xcheckinit fo...
+Fixes IDE ticket #1000692.
+Fix for combinator regression.
+Fixing valueOfTerm in the repl.
+Fix for comparison warnings.
+Fix for multiple evaluation in structural calls.
+Fix regression in companion check.
+Fix for error printing regression.
+Fixes to javascript in Scaladoc, contributed by...
+Fixed overzealous caching of implicit members i...
+Revert "Fix for XML entity bug."
+Fix for XML entity bug.
+Fixed position error in Parsers detected by Hub...
+Fix bug in ModuleDef elimination.
+Fixes #4895.
+Fix for classpaths.
+Fixes #4894.
+Fixed infinite loop in reification reported by ...
+Fixes #4716.
+Fixes #4351.
+Fixing isTrivial in NullaryMethod.
+Fixed issue with warnings in IDE.
+Fixes #4417.
+Fixes build issue involving missing rootdoc.txt...
+Fixed a Scaladoc layout issue affecting how typ...
+Fix for nonsense comparison in TypeKinds.
+Fixed stackoverflow problem when initializing l...
+Fix for params/args zip IOOB crash.
+Fixing the optimized build.
+Fix various InnerClasses bugs.
+Fixes #1000349: Dot completion doesn't work whe...
+Fixed MissingRequirementError extractor (the re...
+Fixing up a few instances of suboptimal reversi...
+Fixed bug in Sorted "to" not using the ordering.
+Fixing the build
+Fixes and temporary debug scaffolding for refle...
+Fixed build problems
+Fixed a method which got hosed in the reflectio...
+Fixes typo in getter methods. Closes #4262.
+Fixes typo in setter method. Closes #4811.
+Fixes SI-4507.
+Fix java signature generation for traits: no cl...
+Fixing all the tests and source which still use...
+Fix for a bug in CharArrayReader which made tri...
+Fixed bug in the disambiguation of f(foo='bar')...
+Fix memory leak in SyncVar. Review by prokopec
+Fix to make LiftCode compiler under 1.5.
+Fixing the very broken build (was going for "co...
+Fix/workaround for inliner bug uncovered by fin...
+Fixed  build problem. No review.
+Fixed doc comments of the keys and values metho...
+Fixes SI-4641 again.
+Fixed a subset of extant signature issues.
+Fixed adriaan's patch for type constructor infe...
+Fix wiki markup of Equiv.scala.  From Josh Marcus.
+Fix Benchmark documentation to match current ar...
+Fixed a big bug in type constructor unification...
+Fix printing of Char constants.
+Fixed some unnecessary chattiness and poor func...
+Fixes #4398.
+Fixes #4326.
+Fixes #4709.
+Fixes #4723.
+Fixes #4761.
+Fixes some remaining formatting issues.
+Fix for failing test, review by extempore.
+Fixes SI-4759
+Fixed a logic error in debuglog which was turni...
+Fixing two problems in Global.scala: crashes du...
+Fix to handling of imports in namers to make ID...
+Fixing Gen* builder dispatch so that methods th...
+Fixed a bug in the optimizer which was preventi...
+Fixing -Xlint warnings, no review.
+Fixed a bug involving classOf[Foo] having the w...
+Fix a scalap checkfile, no review.
+Fixed a path issue in partest, no review.
+Fixes scaladoc layout for function arguments wi...
+Fix for unfortunate bug in Range.init.
+Fix for recently introduced performance regress...
+Fixes Zendesk ticket #1528. Review by prokopec.
+Fixes #4712. Review by moors.
+Fix broken tool-windows.tmpl.
+Fixed an overflow which occurs in hashtable siz...
+Fixing a parallel sets issue with flatmap.
+Fixed an issue with higher kinded type inferenc...
+Fixes #4490 and #4467.
+Fixes typo in ScalaDoc: IndexOutofBoundsExcepti...
+Fix for that slightly not compiling previous pa...
+Fix for wrong results from groupBy on views.
+Fixed a repl regression with parentheses handli...
+Fixed a repl history issue where some control c...
+Fixed a crasher in the scanner when unicode esc...
+Fixing an interpreter output regression and upd...
+Fixed interpreter wrapper spotting logic to mak...
+Fix for failing { val x = classOf[List[_]] } in...
+Fix #4599: XMLEventReader issue with input stream.
+Fix documentation of ## regarding null.##, than...
+Fixes and closes #4608.
+Fixed #4593.
+Fix for Iterator flattening regression.
+Fix for view+groupBy closes #4558, no review.
+[scaladoc] Fix minor CSS issue. No review.
+Fixes and closes #4461. No review.
+Fixes and closes #4535.
+Fix for failing test, no review.
+Fixes #4527.
+Fixing the pattern matcher regression I introdu...
+Fixes #4525. No review.
+Fixed a booch I made in io.Position's positioning.
+Fixed inversion of fsc's exit code, closes #451...
+Fixing a BaseBerrySethi bug I introduced in r19...
+Fixed spurious qualification of types that are ...
+Fixing a couple more tests, no review.
+Fixed some tests, renamed from Any to Gen.
+Fixes and closes #4405.
+Fixes my part of #4283 by inserting another cas...
+Fixes #2808 without redefining what override me...
+Fixed a failure output regression I introduced ...
+Fixed an edge case setting crasher, no review.
+Fixes #4298, by correcting doc comment
+[scaladoc] Fix failing test. No review.
+[scaladoc] Fix minor CSS issue. No review.
+Fixed crashes in IDE on default parameters in c...
+Fix for windows batch files. Closes #4439.
+Fix for parsing bug in scaladoc closes #4420, n...
+Fix for a little breakage which crept into powe...
+Fixed failing presentation compiler test.
+Fix for interpreter issue with missing newlines...
+Fixing the scalap test rig to work like other t...
+Fix for linked lists closes #4080 and proves my...
+Fix for cygwin: jline.UnixTerminal is now scala...
+[scaladoc] Fix wiki formatting to close #4359.
+Fixed the "poor resilience to error conditions"...
+Fixed error in previous commit
+Fixes #4298. Review by extempore.
+Fix for a big bug in lastIndexOfSlice and some ...
+Fix for a slice related array view regression.
+Fix for crasher with Class objects.
+Fixes problem with getLinkPos, which sometimes ...
+Fix for a jline/history bug when the history fi...
+Fixing the build.
+Fixed up the regression I slipped in with slice.
+Fixes the broken test, introduced in the view p...
+Fixes and closes #4328.
+Fixed possible unsynchronized access to getEnte...
+Fix for drop bug in parallel collections iterat...
+Fixes and closes #4013.
+Fixes underlying "...
+Fixes #3641.
+Fixed several issues with finally, closes #3965.
+Fix for defParamsToString.
+Fixing the other half of my recent breakage.
+Fixes and closes #4294.
+Fixing yon broken test.
+[scaladoc] Fixes the way default values and ann...
+Fixes and closes #4261.
+Fixed accidental test change.
+Fixed a bug where newly introduced type paramet...
+Fix in the unify, for a failing specialized test.
+Fixing tests depending on map and set string re...
+Fix to :javap so repl-defined objects as well a...
+Fixed all the forms of process input/output red...
+Fixed infinite expansion of rawToExistential di...
+Fixed persistent error that was caused by hyper...
+Fix for #4188.
+Fixed several specialization cases.
+Fixed failing test. no review
+Fixed a history bug with it not starting at the...
+Fix for parser regression allowing 0-case match...
+Fix for failing test.
+Fixed failure to load presentation compiler wit...
+[scaladoc] Fixes the way new lines in wiki synt...
+Fixing a spaceleak in the IDE.
+Fixed askStructure hangs.
+Fixed bug in IndexedSeqOptimized.indexWhere suc...
+Fixed some generic signature bugs I found thank...
+Fixing the positions for catch block expressions.
+[scaladoc] Fixed failing test.
+[scaladoc] Fixes issue with code block in scala...
+Fixed First/Second dependency problem in presen...
+Fix for a jline paste bug.  No review.
+Fixes #4112. Closes #4112.
+Fixes #4054.
+Fixed a mis-deprecation step where remove was r...
+Fixed a bad interaction between overloading, de...
+Fixed infinite loop on call to super from a spe...
+Fix for stability failure, I think.  No review.
+Fix 'Symbol.companionModule' for the resident m...
+Fixed compiler crash on malformed source file.
+Fixed various issues with -Ywarn-dead-code.
+Fixed parallel ranges to use the same range log...
+Fixing jvm 1.5 support for parallel collections.
+Fixes an inconsistency in primitive hashcode ca...
+Fix for #3621.
+Fixes #3630.
+Fixes #3647, closes #3647, adds a test case for...
+Fix for #3686. No review.
+Fixes #3686 by special casing Stream transforme...
+Fixes #3935.
+Fixed the bug which was hanging partest.
+Fixes #3970 and a bunch of other issues.
+Fixes #3989.
+Fixes #3989, adding test cases for #3989 and #3...
+Fixes #3996.
+Fixed -Xexperimental and other settings so that...
+Fix InnerClasses attribute: anonymous classes d...
+Fixed erasure.intersectionDominator.
+Fixes #3878. No review.
+Fixed crasher with @elidable on parameterized m...
+[scaladoc] Fixes build. No review.
+Fix for IDE ticket #1000180: the presentation c...
+Fix involving xml equality, contributed by mark...
+Fixed NoSymbol problem in IDE for type construc...
+Fixed the broken build by my previous change.
+Fixed wrong tag for Longs, which caused bad jav...
+Fixing issue with XMLEventReader.stop failing t...
+Fixes #3895.
+Fixed substring test that was occasionally fail...
+ * Fix regression with `display packages only`:...
+Fixed build.xml so scalacheck won't fail to com...
+Fixed a failing test. No review
+Fixed a scalacheck test group "test entire subd...
+Fixes scaladoc issues with lazy vals.
+Fix and test case for #3855.
+Fixed an ancient crasher in explicitouter invol...
+Fixes an infinite loop.
+Fixes comments in Map and mutable.Map. No review
+Fixes #3829. Review by extempore.
+Fixes #3847. No review.
+Fixed an abstract type issue. No review
+Fixed ParSeqView, added Patched and Reversed.
+Fixes the way results of Scalatest are checked ...
+Fixes #3850, no review.
+Fixed an issue with ListSet getting confused ab...
+Fixed long standing annoyance which prevents th...
+Fixes reporting the number of documentable temp...
+Fixes infinite loop when appending a ListBuffer...
+Fixes binary compatibility problem in BufferLike
+Fix for #3684. No review
+Fix for #3765.
+Fixes #3684. Closes #3684. No review.
+Fixes #3780. No review.
+Fix and test case for broken linked lists, cont...
+Fixed various issues with Icode, mainly fixing ...
+Fix for not looking into Java types when specia...
+Fixed build for Java 1.5. No review.
+[Scaladoc] Fixes a bug in defaultValues display...
+Fixed type soundness problem someone raised on ...
+Fixes #3728. No review.
+Fixed some typoes/errors in doc comments.
+Fixes an issue in RefChecks when the compiler d...
+Fixes priority queues and makes them iterables ...
+Fixes #3679. Review by milessabin.
+Fix for last commit.
+Fixes a priority queue issue. No review.
+[scaladoc] Fix performance problem when generat...
+Fix for stability failure introduced in build.x...
+[scaladoc] Fixes an issue whereas inherited mem...
+Fixed buggy test case. Closes #3551. No review.
+Fixes #3584. No review.
+Fixes #3580. Review by extempore.
+Fixed an infinite loop in the xml parser on inv...
+Fixed problem with `remove` in JavaConversions ...
+Fixed a bug in scripts which put the classfile ...
+Fixes #3563. Review by extempore.
+Fixied problem in my last commit to address #31...
+Fixed hash trie splitting. No review.
+Fixed the broken build.
+Fixes #3461. No review.p
+Fixed a regrettable oversight which was leaving...
+Fixed #2424. Review by dragos
+Fixed #3174. Review by spoon
+Fixed problem discovered by Paul that views do ...
+Fixed a typo in a use case
+Fix for #3284.
+Fix for init-order caused NPE in NumericRange.
+[scaladoc] Fixed typo in Scaladoc man page (tha...
+Fixes #3511 by adding a custom StreamView.
+Fixes #3508. No review is necessary.
+Fixes #3496. No review.
+Fixe for botched Parser checking for #3454.
+Fixed an xml issue arising from arrays no longe...
+Fixed a BigDecimal/Long comparison bug reported...
+Fixed problem with static initializer in ForkJo...
+Fixes #3422. No review necessary.
+Fixes #3385. No review.
+Fixes #3445. no review
+Fixes #3444. Review by phaller.
+Fix for sliding boundary condition.
+Fixed -Xcheckinit build. No review.
+Fixed a missed opportunity for code rewriting i...
+Fixed a long standing issue with interpreter co...
+Fix from Mirko Stocker and unit test for #3416.
+Fixed -Xcheckinit build.no review.
+Fixed partest for windows nightly. No review.
+Fixed bug in transpose, closes #3397, no review.
+Fixed #3358.
+Fixing the conflict between the two private-rel...
+Fix for #3391.  No review.
+Fixed broken commit. no review.
+Fixed StringBuilder#last performance problem.
+Fixed #3274. No review.
+Fixed abstract overrides of specialized methods.
+Fixed private member access, closes #3380.
+Fixed misaligning due to wide (double|long) par...
+Fixed bug in Iterator.iterate which would lead ...
+Fixed scaladoc output for several types and mem...
+Fixed broken test file. No review.
+Fixed construction of specialized classes in th...
+Fixed crash when calling super in a closure (se...
+Fixing the test I broke with the last commit.
+[scaladoc] Fix alignment of "Inherited" and "Vi...
+Fixes #3350. review by extempore
+Fixed potential duplicate error annotation "Err...
+Fixed typo in error message. No review.
+Fixed implicits problem in specs; Manifest[Clas...
+Fixed a couple bugs in tools/tokens which were ...
+Fixed retyping of ThisTypes and less aggressive...
+Fixed bug in update method visibility which cau...
+Fixed #3322wq
+Fix and test case for forwarder duplicate bug.
+Revert "Fix for #3284.
+Fixed deadlocking behavior in actors.
+Fix for #3284.
+Fix for specialized fix.
+Fixed #3258
+[scaladoc] Fixed CSS so that styles from wiki m...
+Fixed various position issues in specialized me...
+Fixed some position issues and build manager test.
+[scaladoc] Fixes efficiency issue in the way pa...
+Fix windows build.
+Fix test with new specialized output, no review.
+Fixed problem in scaladoc which did not expand ...
+Fixed retyping of singleton types, replacing in...
+Fixed a cyclic error when specializing Option.
+Fix and test for Iterator corner case.
+[scaladoc] Fixed filter method in template page...
+Fixed another partest feature I'd managed to br...
+Fixes #2535. Review by community.
+Fixed #3257
+Fix for the partest task to fail the build when...
+[scaladoc] Fixed the nightly build.
+Fix to the way Scalap decodes ScalaSignature an...
+Fixed #2242. No review.
+Fixed #3219. No review.
+Fixed #2753. No review.
+Fix for #2980. No review.
+Fixed #2803.
+Fixed #3090
+Fix for #3204.  No review.
+Fixed order of fields in the generated code.
+Fixed a test case I broke with the collect rename.
+Fixed an issue with no-parameter-list methods n...
+Fixes problematic equality of Enumeration values.
+Fixes problematic equality of En umeration values.
+Fixed the serialization test.
+Fixed build.
+Fix and test case for #3169.
+Fixes #3186. Closes #2214.
+Fix for #3204.
+Fixes #3054. No review.
+Fixed build problem by eliminiating a redundant...
+Fixes nitpicks by Adriaan in his review.
+Fixes infinite streams in #3091. No review.
+Fixes #3091. Review by community.
+Fixes #3091. Review by community.
+Fixes #3086. Review by community.
+Fixes #3132. No review necessary.
+Fixes #3155. No review is necessary.
+Fix for msil compiler.
+Fixed doc comment. No review.
+Fixed failing test t3115 via judicious applicat...
+Fixes for #3126.
+Fix for #3136 by reverting the line in r18184 w...
+Fixed actors.enableForkJoin property.
+Fixed specialized pattern matches.
+Fixes #3088. No review.
+Fix for a king-sized last-minute thinko.
+Fixes #3088. No review.
+Fixed problem with daemon actor termination.
+Fixed a little command line partest bug I intro...
+Fixed tests to unbreak build. No review.
+Fixes #3018. Review by extempore.
+Fix for #3084
+Oops, I broke jline in r20953.  Fixed.  No review.
+Fixed #3043 and #3043; fixed a regression with ...
+Fix for recent stability issue with Apply0.
+Fix for silly mistake in [20835]. No review.
+Array copy method fixed, Fixes #3065.
+Fix and test case for #3031. Review by odersky.
+Fix for the out-of-date showpickled.  No review.
+Fixes #3046 once more. No review is necessary.
+[scaladoc] Fixes for IE 8 compatibility.
+[scaladoc] Fixed popup content lookup so that i...
+Fixes #3045. No review.
+Fixed partially specialized classes.
+[scaladoc] Fixed issue with failing Windows build.
+Fixed issue in partest where result of tests th...
+Fixed XML Utility.escape method to conform to X...
+Fixes the problem mentioned in #2882, which see...
+Fixed tests. No review.
+Fix for #2563.  Review by mharrah.
+Fixed a number of faulty Scaladoc comments in l...
+Fixes #2766. Review by phaller.
+Fixed stability problem with build.
+Fixed #2497: replaceInstruction now uses refere...
+Fix ant task for build manager partest. no review.
+Fixed dead code elimination to satisfy YourKit'...
+Fix for #2867 undone, review by extempore.
+Fix for #2927.  No review.
+Fixed isClosureClass in inliner and removed it ...
+Fix and test case for #2891. No review necessary.
+Fix and test case for #408.  Review by community.
+Fix for #2365.
+Fixed issue when searching for companion of cla...
+Fixes for various Scaladoc-related positions re...
+Fix and test for #2354.  Review by community.
+Fixed #2889. No review necessary.
+Fixes #2755, but leaving open to analyze issue ...
+Fix for #2817.  Review by mharrah.
+Fix and test case for #2364, which regressed wi...
+Fix for #2883, a regression introduced in r18789.
+Fixed #2810.
+Fix for an unfortunate bug introduced in r19020...
+Fixed #2844 with dpp's patch. review by xmlteam.
+Fixed issue in Reactor/Actor that could lead to...
+Fixed #2850 -- while inside finally causes Veri...
+Fixed issue with operator symbols.
+Fixes #2857. No review.
+Fixed #2852 and #2854.
+Fixed lift 2.8 beta RC4 build problem.
+Fixed build problem caused by r20203.
+Fixed #2808. Review by odersky.
+Fixed #2616 and #2737.
+[scaladoc] Fixed crash with privately-owned pub...
+Fix and test case for #2378.
+Fix and test case for #2721.
+Fix for #2736 (scanner not advancing on unicode...
+Fix for #2725 - configure the SAX parser not to...
+Fixed failing test in the optimised case
+Fixed test I broke.
+Fixed test cases to the new method names (index...
+Fixed some Scaladoc issues: dangerous character...
+Fixed #1167.
+Fix for #2704.
+Fixed ticket 2464
+Fix for #2695 - do not generate forwarders for ...
+Giant cleanup of the automata files.  Fixes #1992.
+Fix (I think) for recently introduced MSIL brea...
+Fix for infinite loop in StringBuilder pointed ...
+Fixed #2645
+Fixed a bug in Range which was causing take and...
+Fixed #2631
+Fix and test case for #2636.
+Fix for #2647.
+Fixed #2323; made Pickler do the right thing.
+Fixed #2627.
+Fixed #2627.
+Fixed #1459
+Fixed #2848 and #2630; Improvements in equality...
+Fixes and test cases for #2087 and #2400.
+Fixes #1477 by requiring that abstract types wi...
+Fixed #2482
+Fixed #2517
+Fixed #2591
+Fixed one of the issues in the BuildManager men...
+Fixed issue #451 by updating structural method ...
+Fixed #2557, #2562
+Fixed the optimizer for inlining correctly Scal...
+Fixed DaemonScheduler on IBM J9.
+Fixed #2569
+Fixed #2504
+Fixed collections unit test (regression in List...
+Fixes issue #1006 by marking structural method ...
+Fixed #2503
+Fixed #2497
+Fixed build problem in last checkin
+Fixed #2414
+Fixed #2236
+Fix for #2525.
+Fixed initial variable binding for method param...
+Fix for #2556
+Fix and test for #2527
+Fix and test for #2530.
+Fixed #2545.
+Fixed remove/clear/update issues in BufferWrapp...
+Fix for spurious timeouts in partest (as observ...
+Fix for some accidentally enabled logging.
+Fix for #1909
+Fixed #1342.
+Fix for #2280
+Fixed #2494, plus some reorganization of swing ...
+Removed old fork-join library. Fixed build.
+Fix and test for #2214.
+Fix for #2528.
+Fix for #2529.
+Fix and test for #2515.
+Fix and test case for #2512, plus lots of time ...
+Fixed isCoDefinedWith by undoing previous changes.
+Fixed #2429.
+Fix and test for #2446.
+Fixes for 66.67% of the tests failing from the ...
+Fix and test case for #2260.  Hooray for the
+Fix and test for #1674; we aren't supposed to b...
+Fixing failing test from exhaustiveness patch.
+Fix for #1687.
+Fix and test cases for ticket #443.
+Fixed a bunch of issues with GenericRange.
+Fixed typo from last commit.
+Fixed new implementation of Range.
+Fix for #2467.
+Fixed stability issues for the optimised build,...
+Fixed #2234.
+Fixed #2422 abd #2461
+Fix for disabled test t2359.
+Fixed #2444
+Fixed #2099.
+Fix for a race condition when starting an Actor...
+Fixed #2425
+Fixed #1000, #2060
+"Fix" and test case for #1333.
+Fixed stability issues for optimised
+Fixed out-of-date debug line
+Fixed issue #2427: ListBuffer.update wrongly ch...
+Fixed #1939,plus some moving things around.
+Fix and test case for #2075.
+Fix and tests for positions issues with context...
+Fixed thread-visibility issues causing scala-ni...
+Fixed 'finally'.
+Fixed another array problem
+[no content change] Fixed all SVN properties: m...
+Fixed boundedbuffer actor example (new arrays).
+Fixed #2359.
+Fix for partest so all the javaopts files would...
+Fix and test case for #2377.
+Fixed #2381.
+Fix for #2374.
+Fix for #2364, and another XML rewrite.
+Fixed build.
+Fix for #2354, and made the surrounding XML par...
+Fixed the crash in the optimizer for nested exc...
+Fix and test case for #2081.
+Fixed #2201 (slight rewrite of paulp's patch at...
+Fixed crash on specialized inner classes.
+Fixed test case which still thought volatile va...
+Fixed #2095.
+Fixed #1857.
+Fixed #2317.
+Fixed accesses to Scala inner classes from Java.
+Fixed #2117.
+Fixed #2123.
+Fixed #2167.
+Fixed #1894.
+Fixed #1572.
+Fixed #1539.
+Fix for #2304.
+Fix and test case for #2276.
+Fix and test case for #2187 and its duplicate #...
+Fix for #2240.
+Fixed the stream threads so you should get all ...
+Fixed faulty constant propagation in the optimi...
+Fix for #2275 with tests.
+Fixed #2294.
+Fixed #2160.
+Fix and test case for #2241.
+Fixed #2283.
+Fix for the discovery that .get on a non-existe...
+Fixed #2169
+Second half of fix for #2177. Fixed #2255.
+Fixed #2177.
+Fixed the rest of the library deprecation warni...
+Fix for #2269.
+Fixed memory leaks for streams.
+Fix for #2164.
+Fixed both versions of Iterator.iterate, which ...
+Fixed #1560 (which was a typing hole, so some l...
+Fixed the resolveType method per ticket #2207.
+Fix for #2249.
+Fix of #1722
+Fixed erroneous debug statement in erasure.
+Fixed #1642
+Fixed specialization of lazy values.
+Fixed #2235.
+Fix for #1498.
+Fixed #2028 and #2100.
+Fixed NPE in scala.ref.WeakReference and scala....
+Fixed some problems with scope completion
+Fixed startup problem for interactive Global
+Fixed #2142 and #2143.
+Fixed #2212.
+Fixed problem when compileLate was calling genjvm.
+Fixed test/positions/Empty regression.
+Fixed #2183.
+Fixed spec-List test.
+Fix for another positions issue; added some pos...
+Fixes for various invalid positions; ensure tha...
+Fixes for various invalid positions.
+Fix for #2187.
+Fix and test cases for #2184.
+Fixed #2176.
+Fix and test case for #2168.
+Fix and test case for #1373.
+Fix and post/neg test cases for #1878.
+Fixed build.
+Fix for failing test t1323.
+Fixed the same bug as in r18328, but in equals.
+Fixed logic error reported in #2159.
+Fixed memory leak in remote actors.
+Fix and test case for #1141.
+Fix and test case for #1110.
+Fix for a RangePosition overlap bug with guards...
+Fixed a couple of position bugs; made validatio...
+Fixed specialized method parameters.
+Fix and test case for #1843.
+Fix and test case for #1260.
+Fixed casting bug in slider labels
+Fixed positions
+Fixes and test cases for #2124 and #2125.
+Fixed build.
+Fix for #2092
+Fixed #2106.
+Fixed #2031.
+Fixed #2107.
+Fix for #1496.
+Fixed the fact that reflective calls had logica...
+Fixed #2062.
+Fixed scaladoc crash
+Fixed symbol loaders when called at a very late...
+Fixed the optimised build.
+Fixed some deprecation warnings.
+Fixed a number of things in the icode reader, o...
+Fixed #2051.
+Fixed failing test-suite case.
+Fix for #1993.
+Fixed a couple bugs in GenericRange and added t...
+Fix and test for bug 2029.
+Fix for #2024.
+Fixed "scala.util.Random" in MSIL library.
+Fixed #2010 by scheduling waitingFor check.
+Fixed problem that spurious caused exhaustivene...
+Fixed #1794.
+Fixed #1999.
+Fixed partest build problem.
+Fix to msil build script to use unifed scalac t...
+Fix and test for #1360 - when passing a sequenc...
+Fixed output directories for inner classes.
+Fixed NPE when restarting Scheduler.
+Fixed #2000.
+Fixed interpreter output directories
+Fixed check for output directory when multiple ...
+Fixed separate compilation of traits when not u...
+Fixed #1932.
+Fixed stability issues.
+Fix for #1393.
+Fix for #715.
+Fixed Scalac ant tasks for windows when forking
+Fix and test case for #1960.
+Fixes in Sabbus: "ant newlibs build" and "ant n...
+Fix for #1878.
+Fixed typo in build.xml.
+Fix and test case for #1286.
+Fixes for #839 and #840, and removed some dupli...
+Fix for #805
+Fixed potential memory leak.
+Fix for #402.
+Fix and test case for #1773.
+Fix and test for #1937
+Fix for #901.
+Fix and test case for #1626.
+Fixed wrong attribution of duplicated labels in...
+Fixed documentation on Application
+Fixed evidently wrong condition in subtyping te...
+Fix for #1752.
+Fixed URL for nexus.scala-tools.org
+Fixes to XML for maven poms
+Fixed bug in ActorGC. Added more comments.
+Fixed a bug that prevented DBC from working wit...
+Fixed conflicting changes propagated from the 2.7.
+Fix of t1859
+Fix for #1442
+Fixes for #1587 and #1844
+Fix for #1583
+Fix for #1056
+Fixed typo
+Fixes for #1817, #1850
+Fixed Stack.push by applying Rich Dougherty's p...
+Fixes to scalac ant task
+Fixed #1094.
+Fixed nested lazy values (#1589).
+Initialization order strikes again. Fix for #1811
+Fixed finalizers containing branches, and retur...
+Fix for #1838
+Fixed Java signatures of forwarders for inherit...
+Fixed #1801
+Fixed #1675
+Fixed #1789
+Fixed #1761, function literal symbols are now e...
+Fixed a minor hashing error in OpenHashMap.
+Fixing accidental drop of .
+Fixed failing stability test by restoring remov...
+Fix for #1769.
+Fix and test case for #1392.
+Fix and test case for #1107, many long days in ...
+Fix for ticket #1718
+Fix for #1365, '_' should be a standard identif...
+Fix for #1745 - only emit generic signature if ...
+Fix for #1743.
+Fix for #1749; removed some dead code related t...
+Fix and test case for #1392.
+Fix for #749.
+Fix and test case for #1747.
+Fixed TokenMetric tool (for counting tokens).
+Fix and test case for #935; added test in RefCh...
+Fix for #1387.
+Fix and test for #1659
+Fix for #1700.
+Fix for #1465 - java annotations aren't paramet...
+Fix and test case for #1565; an anonymous funct...
+Fix for #460 (and its duplicate #1413) plus tes...
+Fix for #1638.
+Fix and test case for #1623.
+Fix for bug #473 and test case.
+Fixed an ambiguity problem with implcits, and a...
+Fix for #1185
+Fixes and test cases for #944 and #1523.
+Fix for #934
+Fix for #1268.
+Fixed duplicate symbols problem in new collecti...
+Fix and test for #1689.
+Fixed #1686.
+Fixed #1451.
+Fixed build.
+Fixed #1652.
+Fixed lockup in partest.
+Fixed issues #1084 and #1611.
+Fixed NPE when calling hashCode on a product co...
+Fixed NPE when calling hashCode on a product co...
+Fix and test for #1648
+Fixed #1652.
+Fixed a typo in the documentation (See #1648)
+Fix for #1589.
+Fixed ant test.suite target for jvm tests that ...
+Fixed #1143 (again).
+Fix timeout problem in partest
+Fix for #1624.
+Fixed floating point regex.
+Fixed warnings.
+Fix memory leak in ActorGC
+Fixed #1358.
+Fixed optimised test suite
+Fixed 1541.
+Fix #1514
+Fix for #1371.
+Fixed #1440 and generally cleaned up things a bit.
+Fixed syntax error in optimised.test target
+Fixed #1453.
+Fixed parallel matching with check init.
+Fix and test for #1513
+Fixed bug in partest that prevented setting per...
+Fixed partes to run on 'quick' classes (was ass...
+Fixed optimiser bugs, now all tests pass when u...
+Fixed issue #1193 that created an incomplete “l...
+Fixed the test that broke because of the
+Fixed multi-file jvm5 tests.
+Fixed annoying dead-code elimination bug.
+Fix for ticket #1087.
+Fixed #1374.
+Fixing IntMap/LongMap.getOrElse.
+Fixed optimization phases (#1379).
+Fix to #1450. Moved test from pending.
+Fix for ticket 1260.
+Fixed 1424.
+Fixed the icode reader (#1402).
+Fix for #1421
+Fix for #296
+Fixed build.
+Fix for #1408.
+Fix for #547 and #1404.
+Fixed #1367
+Fixed #1263, and some cosmetic changes
+Fix for ticket #1301
+Fixed #1382
+Fixed #1178
+Fixed java version for enums.jar
+Fixed spelling of partest scalac and java options.
+Fixed java options.
+Fixed optimised build
+Fixed 1.4 build
+Fixed jar classfile version
+Fixed #1329.
+Fixed #1329.
+Fixed #1249.
+Fixed problem running plugin tests.
+Fixed RefChecks to not replace unapplies with c...
+Fixed #1290.
+Fixes #1312.
+Fixed #1315, outer instances are passed implici...
+Fixing bug #1217
+Fixed spelling
+Fix for #1204, demoting match error to error lo...
+Fixed #1280, #1289
+Fixed #1271.
+Fixed #998.
+Fixed serialization of enums
+Fixed NPE on Windows, needs a new starr to fix ...
+Fixed problem with implicits in type safe cons ...
+Fixed #1232 and #1167
+Fixed #1270
+Fix for #820
+Fix for #1083.
+Fixed compiler for 1.4
+Fixed latest cyclic error
+Fixed stability tests
+Fixed #1241
+Fixed #1215.
+Fixed some stability problems
+Fixed #1231
+Fixed abstract flag for inner classes.
+Fixing #1189.
+Fixed inner classes parsing when the inner clas...
+Fixed #1189
+Fixed illegal inheritance problem reported by I...
+Fixed #1186, #1230
+Fixed test file
+Fixed #1216 by adding JAVA to the module class ...
+Fixed problem that Java interface constants wer...
+Fixed #1187, so that maps respect 'stringPrefix'
+Fixing more deprecation warnings.
+Fixed deprecation warnings
+Fixed #1140
+Fixed #1123
+Fixed the build
+Fixed tail-call related issues.
+Fixed #1130 and #1168
+Fixed #1172.
+Fixed problem with partest hanging when log fil...
+Fixed #1131.
+Fixed #1049 and #1062
+Fixed initialization for vars initialized to th...
+Fix for #1151
+Fixed #1143. Added tests for #1143 and #1116.
+Fixed partest to accept additional flags on a p...
+Fixes the msil build.
+Fixed initialization order issues (when -Xexper...
+Fixed typo.
+Fixed #853.
+Fixed #775.
+Fixed #552 and #1116. Reviewed by Iulian.
+Fixed bug in get and remove methods.
+Fixed msilName.
+Fixed indentation, removed tabs.
+Fixed and added things for Andrew, rearranged e...
+Fixing broken build from last commit.
+Fixing early value initialization for IDE (whic...
+Fixed r15497 to handle the case where a file th...
+Fixed #1085.
+Fixed (most of) the varargs warnings in the com...
+Fix build revision number.
+Fix initialization when constructing a MarkupPa...
+Fixed #1054.
+Fixed 'isSameType' for refinement types with ov...
+Fixed #999.
+Fixed Table, wrapped more of button
+Fixing #1015 and #1017 when run inside of a scr...
+Fixing case class/companion object in def asser...
+Fixing problem with case classes and companion ...
+Fixed #981.
+Fixed #948.
+Fixing problem with inter-project dependencies
+Fixed #971
+Fixed ugliness correctly this time.
+Fix for #947.
+Fixed #807. Removed debug outout in JavaParsers.
+Fixed String.+ when the implicit is applied to ...
+Fixed #904
+Fixed t0942
+Fixed #677
+1) Fix in backend to print meaningful filenames...
+Fixed issue #896: Scala script "execs" the JVM.
+Fixed the failing manifests test.
+Fixed #673.
+Fixed mkString method
+Fixed classOf problems (issues #841, #876).
+Fixed NPE in partest
+Fixed #870
+Fixed #875
+Fixed #873 by adding in a missing case to resol...
+Fixed typo (#868).
+Fixed #863.
+Fixed #852.
+Fixed #855.
+Fixed #859
+Fix for #483.
+Fix for #773.
+Fixed #809 (except for the case of String/RichS...
+Fix for #769
+Fixed showOptions
+Fixed jvm/inner test to work on a Java distribu...
+Fix for #808
+Fixed problem in Unpickler which prevented Ecli...
+Fixed #524 and improved copy propagation to dea...
+Fixed too strict warning for protected members
+Fixed protected accessor for inherited java mem...
+Fixed #521: MSIL should support separate compil...
+Fixed deprecatio warnings when calling 'newName'.
+Fixed #552
+Fixing newName crash in IDE that resulted form ...
+Fixed #580: error messages from SourceReader (c...
+Fixed old sabbus to use new scalatool task.
+Fixed #734 issue with filename encoding.
+Fixed equality to be symmetric with respect to ...
+Fixed issue that caused neg tests to succeed if...
+Fixing infinite loop bug in type checker.
+Fixed SuperSabbus.
+Fixed android build.
+Fixed the SuperSABBUS build again.
+Fixed spelling mistake: Scaladoc -> ScalaDoc
+Fixed #711.
+Fixed SuperSabbus build for documentation.
+Fixed #249
+Fixed #694.
+Fixed useless assignment when defining dummy 't...
+Fixed XML entity reference parsing: &quote; to ...
+Fixed issue #668, removed fix for issue #602.
+Fixed issues #584 and #602.
+Fixed comment added keywords.
+Fixed svn properties
+Fixed svn properties
+Fixed unreachable code in JSON parser.
+Fixed small output issue.
+Fixed #619.
+Fixed another use of 1.5 PrintWriter constructor.
+Fixed typo in SuperSABBUS that prevented it fro...
+Fixed #274 by using NameTransformer.decode.
+Fixed the test... I think.
+Fixed #585.
+Fixed #581. Made script tester more robust.
+Fixing a bug in the IDE related to abstract val's.
+Fixed commit test (which breaks partest res tes...
+Fixed issue #586.
+Fixed bugs
+Fixed bugs
+Fixed #466.
+Fixed #535 and #539
+Fixing bugs in new and old plugin.
+Fixed IDE for new-style case classes.
+Fixed #459
+Fixed dest dir in build of partest
+Fixed build of partest
+Fixed the test.
+Fixed #368:
+Fixed several issues in the MSIL backend
+Fixed "natives" test to work on my Mac.
+Fixed #444
+Fixed #327, #332
+Fixed issues #328 and #403.
+Fixed #323.
+Fixes #416.
+Fixed MSIL build (thanks to Philipp)
+Fixed #437
+Fixed #219
+Fixed #377.
+Fix for old plugin.
+Fixed #404
+Fixed build
+Fixed #311 and #312
+Fixed issue #398
+Fixed issue #313.
+Fixed a problem with TypeTree.symbol
+Fixed ticket #106.
+Fixed ticket #356
+Fixed too aggressive dead-code-elimination agai...
+Fixed ticket #306
+Fixed the usage description.
+Fixed ticket #305.
+Fixing my asInstanceOf hack in TypeParser.scala...
+Fixed problem with wrong signature for sort in ...
+Fixed #153 (thanks to Sean)
+Fixed #272
+Fixed two minor bugs in dead code elmination an...
+Fixed #216
+Fixed problem with to with custom by
+Fixed bug in to with custom by
+Fixed comparison for BigInts (and other custom ...
+Fixed issue with MSIL build.
+Fixed issue that avoids evaluating expressions ...
+Made format compatibkle with JDK 1.4. Fixed #197
+Fixed issue with task scheduler creating too ma...
+Fixed ticket #219.
+Fixed runtime.StringAdd for MSIL and CLDC
+Fixed #184
+Fixing infinite recurse
+Fixed compilation for java files in target andr...
+Fixed #162.
+Fixed ticket #10
+Fixed typo.
+Fixed backend to correctly handle type paramete...
+Fixed ticket #244.
+Fixed the package name of scala.tools.partest.u...
+Fixed #214, #217, #218
+Fixed combinator bug.
+Fixed fringe example
+Fixed ticket #206
+Fixed ticket #232
+Fixed 1.4 incompatibility
+Fixed ticket #168.
+Fixed ticket #190.
+Fixed minor bugs in icode.
+Fixed ticket #225.
+Fixed #204 and #207
+Fixed #180 and #189
+Fixed #165
+Fixed ticket #193 by issuing a compile-time error.
+Fixed ticket #222: “Predef.format” incorrectly ...
+Fixed ticket #221: incorrect ScalaDoc for Conso...
+Fixed tickets 87 and 117.
+Fixed ticket #181, iterables are now correctly ...
+Fixed NaN compilation problems.
+* Fixed array cast bug in Errasure.
+Fixed side-effecting assertion.
+Fixing a bug with long lists in GenerateIDESyms...
+Fixed method freshName to return distinct names.
+Fixed failing test 'protectedacc'.
+Fixed interpreter error recovery mode and somet...
+Fixing interpreter/scanner/XML issues.
+Fixing bugs neg/bug432.scala and neg/badtok-1.s...
+Fixed ticket #116 (protected accessor crashes c...
+Fixed build of partest.
+Fixed ticket #88 (verify error, exceptions).
+Fixed ticket #107 (verify error long/byte).
+Fixing semi-colon inference in XML.
+Fixing MSIL build problem
+Fixing 1.6 accidental java.io.Console reference
+Fixed dead code elimination phase:
+Fixed bug with automatic termination (pending r...
+Fixed termination bug in messages actors example.
+Fixed crash in lazy traits (ticket #39).
+Fixed looping data flow analyzer (due to asymme...
+Fixed double definition bug (ticket #21).
+Fixed match error in tree browser.
+Fixed bug #1287, lazy vals in trait methods.
+Fixed Array.slice to use impementation in Rando...
+Fixing scaladoc bug
+Fixing indexOf bug.
+Fixed #1248 by resetting LAZY flags on bridge m...
+Fixed bug1210
+Fixed bug #1235
+Fixed overload resolution problem that resulted...
+Fixed ++[B >: A] overload problem.
+Fixed looping behavior in inliner.
+Fixed contribution #692
+Fixed scalatest to use changed command-lines op...
+Fixed bug1049
+Fixed deprecation warnings in the backend.
+Fixed bug #1211 by making accessors in traits n...
+Fixed possible memory leak (bug 668).
+Fixed bug #1205 to optimize even more tail calls.
+Fixed typed channels example.
+Fixed linearization order and a small inefficie...
+Fixed small bug in try-finally generation in co...
+Fixed lazy vals to allow for patterns.
+Fixed bug 1194, overriding lazy values.
+Fixed contrib #658 - Iterable.isEmpty
+Fixed test script to look for build/msil/predef...
+Fixed J2ME support in the compiler
+Fixed duplicated local vars and wrong eliminati...
+Fixed wrong line numbers in ifs.
+Fixed structural subtyping to work when JVM 1.5...
+Fixed contribution #650 in mutable.Map.getOrEls...
+Fixed a problem with previous commit
+Fixed contribution #575 in immutable.HashSet
+Fixing bug
+Fixing broken test, seems like until was not ta...
+Fixed memory leak.
+Fixed stack overflow bug.
+Fixed race condition
+Fixed race condition
+Fixed contribution #474 - BigInt.equals
+Fixed failing serialization for singletons.
+Fixed scala.runtime.Camparator.equals to return...
+Fixed contribution #468 in RichChar.{to, until}
+Fixed bug #1097.
+Fixed bug1096
+Fixed several bugs, added dependent method types.
+Fixed crash on synchronized with 'return' insid...
+Fixed hard-coded references to runtime.BoxedXXX...
+Fixed bug #1080, failed to recognize recursive ...
+Fixed bug #1076, AddInterfaces assumed the call...
+Fixed #1077 by not mangling private constructor...
+Fixed svn properties in the library
+Fixed build: RichFloat was build with no Predef...
+Fixing linearization issue in JCL.
+Fixed crash for UNBOX with expected type UNIT.
+Fixed Actor.exit, added continue for loop { }.
+Fixed some icode reader issues regarding traits...
+Fixed dependencies for some clean targets in SA...
+Fixed isUnbox/isBox methods.
+Fixed SyncVar.get ( contribution #420)
+Fixed Iterator.drop (contribution #415)
+Fixing the build (toString() issues in the comp...
+Fixed problem with sensibility checks.
+Fixed tail call elimination for calls in the rh...
+Fixed a small bug in scala.Console.readShort()
+Fixed bug #1020 (crash on finally with try-catch).
+Fixed ArrayIndexOutOfBounds in cached bigints f...
+Fixed unary minus in BigInt (changed from -: to...
+Fixed compilation errors in distribution examples.
+Fixed stupid comparison warning.
+Fixed contribution #396
+Fixed verify error (bug #1009)
+Fixed crash in backend with Array comparison.
+Fixed crash in backend for scala.Array
+Fixed David Pollacks stack overflow problem.
+Fixed bug #993
+Fixed inconsistent stack height bug when boxing...
+Fixed bug 883
+Fixed bug901
+scala.actors: Fixed race in TimerThread
+Fixed SVN properties in library/scala
+Fixed some SVN properties in scala.collection
+Fixed a problem with the application of Java an...
+Fixed contribution #357 (infinite recursion in ...
+Fixed 'cannot anchor label twice' crash.
+Fixed some more warnings.
+Fixed stability check
+Fixed bug #686
+Fixed exhaustivity warnings in GenMSIL
+Fixed a name clash in the test suite (jvm/unitt...
+Fixed inliner to work with local variable scope...
+Fixed bug #953
+Fixed bug contribution #338 in mutable.Queue
+scala.actors: Fixed small bug in andThen.
+Fixed transformer/CleanUp crash with -target:msil
+Fixed exhaustiveness warning
+Fixed Iterable.drop according to contribution #332
+Fixed crash in resident mode
+Fixed contribution #322 concerning RichString
+Fixed GenMSIL for the new SCOPE_ENTER/SCOPE_EXI...
+Fixed local variable table scoping
+Fixed 'throws' attribute when used with 'uniqid'.
+Fixed references to the deprecated ListMap.Empty
+Fixed some svn properties
+Fixed svn properties in test/files/run
+Fixed some deprecated and pattern matching warn...
+Fixed some bugs, added test case for Console
+Fixed various problems in JCL.
+Fixed the bugfix for returns inside finally
+Fixed the bugfix for returns inside finally
+Fixed crash for 'return' in finally
+Fixed contribution #302 concerning scala.SeqProxy
+Fixed bug that caused single-threaded scheduler...
+Fixed bug (self not updated correctly).
+Fixing the 1.4 build by deleting 1.5 specific A...
+Fixes in shutdown methods of JDK5Scheduler and ...
+Fix the prime routine; the priming command was
+Fixed test/files/jvm/serialization.check due to...
+Fixed the #!/bin/sh at the header; the ! was mi...
+Fixed bug in andThen.
+Fixed serialization throughout RedBlack hierarchy
+Fixed bug 853, protected accessors crash with p...
+Fixed type error in Channel
+Fixed non-terminating iteration in data flow an...
+Fixed a bug with processing the SCALA_HOME envi...
+Fixed the nightly build on Java 1.4
+Fixing logging issues that cause the IDE to fal...
+Fixed bug with calls in tail position with fina...
+Fixed bug ivolving corecions and default conver...
+Fixed the test to be clearer
+Fixed even more bugs in icode reader.
+Fixed a bug where pre-existing classes could
+Fixed build.
+Fixed the scaladoc comment of scala.All$
+Fixed test/files/run/richs.scala according to t...
+Fixed bug using eq instead of ==
+Fixed bug 891 (unboxing and type promotion).
+Fixed test/files/neg/constrs.check according to...
+Fixed bug809
+Fixed bugs in protected accessors.
+Fixed bug in receiveWithin.
+Fixed bug #799: the super accessors were iterat...
+Fixed loop and andThen (functions were reset by...
+Fixed severe bug (badly handled interruption).
+Fixed import in RichException
+Fixed a method name typo in Predef
+Fixed SVN properties of some fiels in scala/run...
+Fixed bug 694
+Fixed embarrassing bug which broke the build.
+Fixed accessors for functions which access prot...
+Fixed bugs in orElse, more general typing.
+Fixed many bugs in icodeReader and added basic ...
+Fixed many bugs in icodeReader and added basic ...
+Fixed the subclass relationship for inner classes
+Fixed build.
+Fixed eeeeeeeeeevil deadlock in scheduler/Worke...
+Fixed bug 759
+Fixed build.
+Fixed bug regarding 'return's inside try-finall...
+Fixed scala doc to include docs for abstract va...
+Fixing positionConfiguratoin ref to NoPos
+Fixed bug 723
+Fixed compilation bugs arising from the move of...
+Fixed bugs. Generalized implicit lookup.
+Fixed a bug in Stream.copyToArray similar to co...
+Fixed bug #680 and #455 (duplicates) by carryin...
+Fixed bug contribution #180
+Fixed parse problem
+Fixed bug659
+Fixed bug #676
+Fixed order of inner classes entries to have 'd...
+Fixed bug #669
+Fixed bug 697
+Fixed bug contribution #176
+Fixed '-debug' check that all basic blocks are ...
+Fixed customer passing example.
+Fixed test files for bug664
+Fixed bugs 666-668
+Fixed bug contrib #170
+Fixed bugs 663,664,665
+Fix the line endings.
+Fixed dangling refs.
+Fixed bug contribution #167
+Fixed the way variables are set in wrapper scri...
+Fixed line numbers for pruned basic blocks
+Fixed  bug648
+Fixed xmlstuff problem anf bugs 401, 643
+Fixed pattern matching bugs 401, 643
+Fixed a bug in Array.range
+Fixed bug 639; added test files for bug630, bug631
+Fixed bug fixes
+Fixed bugs 633, 637, 639, 640
+Fixed bug 630
+Fixed bug 629 by moving some code from RefCheck...
+Fixed test files after syntax change for closures.
+Fixed parsing problem for closures
+Fixed bug #634
+Fixed bug #634
+Fixed bug #632 and updated test file.
+Fixed "quick" option in "clitest" script.
+Fixed type class problem reported by Bruno Oliv...
+Fixed bug 627
+Fixed type inference problem
+Fixed problems when compiling man1: too many cl...
+Fixed problem lex was encountering.
+Fixed bug 624
+Fixed two bugs that I noted.
+Fixed maxType for Long and Float
+Fixed problem with classOf[x.type]
+Fixed bug 613
+Fixed bug 604,605, 606, 607, 608, 611
+Fixed bug 604, 605, 607
+Fixed some problems with the closure eliminatio...
+Fixed two try-finally bugs.
+Fixed bug 601,602,603
+Fixed bug 595,596,597
+Fixed bug 591
+Fixed bug 592
+Fixed bug 592
+Fixed bug 593
+Fixed bug 594
+Fixed more empty package bugs.
+Fixing bug with <empty> packages.
+Fixed bugs 570/571.
+Fixed bug #567
+Fixed bug 566
+Fixed several bugs in Inliners and the monitor ...
+Fixed bug where case insensitivity breaks file ...
+Fixed abstract override problem detected by Moez
+Fixed more SVN properties
+Fixed svn properties
+Fixed the properties of pending/neg/bug432.scala
+Fixed bug #557: Testing available memory before...
+Fixed problem in 2.
+Fixed returns from synchronized blocks.
+Fixed class -> object resident bug.
+Fixed trait presentation highlighting bug.
+Fixed package treated as object bug.
+Fixed some more bugs and improved error messages.
+Fixed bug where scaladoc chokes on finding a UR...
+Fixed bugs in Scala doc.
+Fixed some distribution-related build dependenc...
+Fixed check files
+Fixed check files
+Fixed bug #538 -- icode classes buffer was not ...
+Fixed bugs 536 and 537.
+Fixed the failure of the nightly build
+Fixed a bug in Codification.
+Fixed typos in a couple of comments
+Fixed expected type for Try blocks.
+Fixed some details in SABBUS so that it works f...
+Fixed conflicting self in scala.concurrent.Proc...
+Fixing empty list bug in ClassPath.
+Fixed a small bug in NSC that prevented compila...
+Fixed wrong code generation for exception handl...
+Fixed some position bugs.
+Fixed repetitive interface name when same attri...
+Fixed the order of exception handlers and added...
+Fixed a problem with filing ticking nsc codegen...
+Fixed another bug in scanForLabels.
+Fixed forward jumps.
+Fixed tailcalls and line numbers.
+Fixing a checkin oops.
+Fixed lifting of try-catches in expressions.
+Fixed bug #487
+Fixed some erroneus error messages in Checkers ...
+Fixed deferred flag on module accessors.
+Fixed some code generation issues.
+Fixed synchronized blocks.
+Fixed constructor calls.
+Fixed bug for poly methods.
+Fixed a bug in the handling of scala.dll
+Fixed a but in the handling of scala.dll
+Fixed some bugs.
+Fixed array handling.
+Fixed according to bug contribution #76
+Fixed as noted in bug contributions #79 and #80
+Fixed bug: ctx.accessed was not reset when a ne...
+Fixed the typo that breaks compilation
+Fixed the printing of lower bounds.
+Fixed some filenames from /matching (removed "s...
+Fixed an assertion error if an attribute applic...
+- Fixed nsc list
+- Fixed error message
+Fixed the initial value of hasNext of Iterator....
+- Fixed paths in generated .bat files
+- Fixed shift 2
+Fix import of deeply nested classes.
+Fixed the implicit coercion of Enums to their u...
+- Fixed and added bug 399
+- Fixed type of name
+- Fixed "path" into "file"
+- Fixed comment for previous change
+- Fixed for no .symbl files
+- Fixed indexes in phase creation code
+- Fixed export statement
+- Fixed case of Int and Unit
+- Fixed case of Int and Unit
+- Fixed class ClonedThisSymLazyType to take int...
+- Fixed maximum heep size for tests to 128M
+[MSIL] Fixed the testing procedure for the MSIL...
+Fixed the CVS Id tag
+- Fixed the problem from bug contribution #41
+- Fixed the CVS Id tag
+- Fixed some typos
+- Fixed value of MACRO_TEST_OBJDIR
+- Fixed typo in LIBRARY_SC_CLASSPATH
+- Fixed generation of bat file for new scala_wr...
+- Fix handling of switches and labels
+- Fixed raised exception
+- Fixed assert msg
+- Fixed order of calls to setOwner and info
+- Fixed type signature (Nil -> Nil.type)
+- Fixed Pickle and UnPickle to handle correctly...
+- Fixed computation of output directory
+- Fixed typo (: -> \)
+- Fixed boottest targets
+- Fixed SCRIPTS_* variables
+- Fixed scope of startContext
+- Fixed TEST_ROOT and TEST_FILES
+- Fixed TEST_ROOT
+- Fixed key of File entry in entries table (use...
+- Fixed a bug in determining the name of the ge...
+- Fixed erasure for bug 328
+- Fixed optimization/hack in case If and Switch
+- Fixed and optimized isStatic and isStaticOwner
+- Fixed several bugs in scalap.
+- Fixed readAttribute by replacing all return s...
+Fixed bug involving nested case objects.
+- Fixed check file for new interpretation schem...
+- Fixed name of initializer to <init>
+- Fixed error tests to use isError
+- Fixed error tests to use isError
+- Fixed position of generated access method
+- Fixed some isSameAs to compare types in next ...
+- Fixed getSourceFile for case where file does ...
+- Fixed getSourceFile for case where file does ...
+- Fixed a broken compilation problem
+- Fixed id of terminal phase
+- Fixed array creation code (never create array...
+- Fixed recognition of redefined packages
+- Fixed ATree generator and Tree checker for ne...
+- Fixed the initialization of the inner class a...
+- Fixed computation of SCALA_CLASS and JAVA_CLASS
+- Fixed start phases of Import, Select and Ident
+- Fixed phase for import creation
+- Fixed ordering of symPathOrder
+- Fixed method DocSyms.constains
+- Fixed case Ident
+- Fixed symbol of compoundType
+- Fixed mk*Ref methods to avoid generation of t...
+- Fixed assertions
+- Fixed getTypeLink for root
+- Fixed owner of pushContext in transform(Packa...
+- Fixed Symbol.thisType() for post erasure phases
+- Fixed crash of interpreter on import
+Fixed bug.
+- Fixed some bugs
+- Fixed broken UnPickle.
+- Fixed to correctly retrieve reference to ROOT...
+- Fixed Ids
+- Fixed handling of single types
+- Fixed typo
+- Fixed error message
+- Fixed handling of ClassDef in GenTransformer ...
+- Fixed superclass of console modules
+- Fixed path to addons dir
+- Fixed copyright date
+- Fixed formating
+- Fixed some comments in the library that were ...
+- Fixed bugs in Scaladoc.
+- Fixed paths to test files
+- Fixed root of test files
+- Fixed paths of archives in installers section
+- Fixed the parsing of comments so that leading...
+- Fixed typo
+- Fixed lookup(Symbol, ...) to favor concrete o...
+- Fixed method name
+- Fixed method toString
+- Fixed method changeOwners to use definesSymbo...
+- Fixed case New
+- Fixed methods location and selection
+- Fixed show methods
+- Fixed loop in method statement
+- Fixed the bug that occured when a page refers...
+- Fixed typo
+- Fixed for flattened value types
+- Fixed eraseUnboxMethodType for type Unit
+- Fixed genNewUnboxedArray for multiarray of un...
+- Fixed ClassDef to use typeOfThis of next phase;
+- Fixed for new Identifier def
+- Fixed some typos
+- Fixed bootclasspaths for library and scalac c...
+- Fixed for new overriding rules
+- Fixed dtd2scala for new import scheme
+- Fixed assert
+- Fixed case Select
+- Fixed stop code
+- Fixed printTemplate (removed double printing ...
+- Fixed isInterface
+- Fixed SCALAC_SCALAC & LIBRARY_SCALAC
+- Fixed compilation order in bootstrap
+- Fixed initiali value of align
+- Fixed case Select (replaced symbol.owner.type...
+- Fixed rawInfoAt to no force lazy types
+- Fixed some bugs in AddAccessors
+- Fixed symbol of generated Super.
+- Fixed computation of new constructor types
+- Fixed computation of type of initializer
+- Fixed type of generated lists
+- Fixed mkDefaultValue for type ALL
+- Fixing of bugs.
+- Fixed error message
+- Fixed superclass
+- Fixed Ident for initializer methods
+- Fixed typo (replaced "i" by "j")
+- Fixed problem with <init> methods
+- Fixed so that initalizers have new tparams an...
+- Fixed so that initalizers have new tparams an...
+- Fixed, in Definitions, type of primitive type...
+- Fixed warning messages
+- Fixed rawFirstInfoStartPhase
+- Fixed macro call
+- Fixed
+- Fixed computation of type of New nodes
+- Fixed erasure of AnyVal subclasses
+- Fixed return type of compund type primary con...
+- Fixed command names
+- Fixed command
+- Fixed command name
+- Fixed method infoAt
+- Fixed erasure of subclasses of scala.Double
+- Fixed computation of enclosing class
+- Fixed type of isInstanceOf
+- Fixed length computation in flatten
+- Fixed rule fastclean
+- Fixed prefix handling for TypeAliases and Abs...
+Fixed bug which prevented empty files from bein...
+- Fixed AsSeenFrom for rebound nested classes w...
+- Fixed call to overriddenSymbol
+- Fixed overriddenSymbol for phases after erasure
+Fixed bug 149
+Fixed scalap handling.
+Fixed a bug.
+- Fixed computation of outer type parameters
+- Fixed documentation
+- Fixed printed phase name
+- Fixed code generated for asInstanceOf[Array[....
+Fixed a small bug and started adding a new opti...
+- Fixed debug msg
+- Fixed tutorial name
+Fixed scaladoc so that it can be used in conjun...
+- Fixed method toString
+- Fixed transformation dtd2scala name
+- Fixed transformation of STOP into SKIP
+- Fixed typo in variable name
+Fixed bibliography error.
+Fixed some smaller typographic bugs.
+- Fixed Traverser.apply(Unit[])
+- Fixed typo
+- Fixed file list computation
+- Fixed typo
+- Fixed typo
+Fixed bug in hash table resizing method.
+- Fixed typo (changed 2 \> into \=)
+- Fixed default TEXINPUTS
+- Fixed makeClass to reuse the class template s...
+- Fixed typo
+- Replaced subclass of TreeCloner by SuperFixer
+- Replaced SymbolFixer by a subclass of TreeCloner
+- Fixed code of method This
+- Fixed call to evaluate method
+- Fixed getMainMethodType for the new Type.isSa...
+- Fixed XERCES_HOME
+- Fixed description of Type.typeParams and Type...
+- Fixed interepreter trace code to handle excep...
+- Fixed the code that generates value selection...
+Fixed the FJBG_HOME entry; it was not consisten...
+- Fixed mkTypeApply for the new LazyConstrMetho...
+- Fixed LazyConstrMethodType to return a cloned...
+Fixed some inconsistencies.
+- Fixed reference to Names.EMPTY
+Fixed bugs to make the collection classes compile.
+Fixed scoping bug of type variables.
+- Fixed Symbol.isClass to return false if symbo...
+- Fixed transformInfo to use the correct type a...
+- Fixed method readClassType: it wrongly replac...
+- Fixed to not set symbol if the source tree's ...
+- Fixed objdir for target --neg
+- Fixed evaluation of IsScala
+- Fixed title
+- Fixed formatting
+- Fixed scala-test to make neg-check-files path...
+Fixed two bugs:
+- Fixed a comment
+Fixed method resize so that it now calculates t...
+- Fixed method isSubType for UnboxedType and Un...
+- Fixed computation of scala stack trace
+- Fixed early initialization of module variable...
+- Fixed a comment
+- Fixed type of method Throwable.throw
+- Fixed to use scala.runtime.InterpreterSupport
+- Fixed to use scala.runtime.InterpreterSupport...
+- Fixed some variable names
+- Fixed a comment
+- Fixed code that avoids private methods
+- Fixed type of main method
+- Fixed transformation of patterns of nullary c...
+- Fixed some small bugs
+- Fixed generated code
+- Fixed generated code
+- Fixed Makefile to generate files also when th...
+- Fixed phase id test
+- Fixed package
+- Fixed TreeCopier name
+- Fixed function RUN
+- Fixed isFunctionType & toString to pretty pri...
+- Fixed Symbol.defString to place the ":" at th...
+- Fixed erasure of is and as applied to values ...
+- Fixed interpreter to catch MatchError
+- Fixed implementation of "is" to handle null v...
+- Fixed console module construction
+- Fixed signature of toObjectArray
+- Fixed erasure to replace length calls on unbo...
+- Fixed method copyToArray
+- Fixed method updateInfo
+- Fixed method name
+- Fixed the transform method to attribute the t...
+- Fixed crash when base classes are erroneous
+- Fixed path to bcel.jar
+- Fixed some minor errors
+- Fixed some minor errors
+- Fixed to use the new definition of range
+- Fixed isSubType for UnboxedArrayType <: scala...
+- Fixed to also print the type of the last term
+- Fixed usage of flag -C
+- Fixed path to negative compilation test files
+- Fixed usage comment
+- Fixed erasure of new arrays
+- Fixed fullErasure
+- Fixed loading of null values
+- Fixed error count
+- Fixed method block for blocks containing one ...
+- Fixed rule "force"
+- Fixed main class name of scala interpreter
+- Fixed construction of CompoundType
+- Fixed path to scala source files
+- Fixed compile main class name

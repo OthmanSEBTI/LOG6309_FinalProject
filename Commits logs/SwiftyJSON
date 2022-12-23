@@ -1,0 +1,745 @@
+Merge pull request #1124 from luoxiu/master
+fix compile warning, which will be compile error in upcoming swift 6
+Merge pull request #1098 from lewis-smith/patch-1
+Merge pull request #1114 from Dahlgren/bugfix/xcode-13.3-build-phases
+Reorder build phases to fix Xcode 13.3 issue
+fix typo
+chore: bump cocoapods version
+Merge pull request #1068 from H3RSKO/H3RSKO-readme-update
+Merge pull request #1067 from DenTelezhkin/xcode-12
+Updated Readme
+Bump iOS deployment target to iOS 9. Remove platforms from Package.swift.
+Merge pull request #1049 from toneloc/patch-1
+removed broken link
+Bump to 5.0.0
+Merge pull request #1018 from SwiftyJSON/chore-code-base
+chore: improve code base
+Update project settings
+Merge pull request #1017 from SwiftyJSON/xcode10.2-swift5
+Bump pod version to 4.3.0 and update ci image to Xcode 10.2
+Updated swift-tools to version 5.0 (#1013)
+Add a "Reviewed by Hound" badge (#1006)
+Update README.md (#1010)
+Update README.md
+Remove unused script
+SwiftyJSON Model Generator Tools Reference added (#976)
+Merge pull request #989 from SwiftyJSON/modify-directory
+Re-organize directories
+Remove deprecated API in 4.2.0
+Remove .swift-version file
+Version bump to 4.2.0
+Merge pull request #983 from SwiftyJSON/xcode10.0
+Merge pull request #978 from qkdreyer/patch-1
+Update min requirement of watchOS to 3.0
+Fix version
+Added swift_version to podspec
+Update CI to Xcode 10.0/iOS 12.0
+Update build settings to Xcode 10.0
+Merge pull request #959 from wongzigii/update-setting
+Update Xcode Settings
+Version bump to 4.1.0
+Merge pull request #947 from otaviolima/improve-string-tests
+Merge pull request #954 from SwiftyJSON/xcode9.3-ci
+Xcode9.3 image no longer support Apple TV 1080p
+Update osx image to 9.3
+Merge pull request #953 from SwiftyJSON/readme
+Update README.md
+Merge pull request #951 from SwiftyJSON/xcode9.3
+Merge pull request #952 from bojanstef/master
+Updated broken Twitter API link
+Update to Xcode 9.3 recommend settings
+Improve broken testcases
+Merge pull request #923 from wleii/support_codable
+Add String to .boolValue tests for "Yes" and "1"
+Support Codable
+Merge pull request #929 from tomduncalf/patch-1
+Update README to specify correct JSONSubscriptType
+Update README.md
+Version bump to 4.0.0
+Merge pull request #907 from wongzigii/4.0.0
+Merge pull request #902 from JeffGuKang/feature/README
+Merge pull request #905 from JeffGuKang/feature/playgroundDoc
+Add .hound.yml
+Fix SwiftLint violations
+Code base improvement
+Format code documentation
+Fix violations
+Update the playground documentation Add all sections of usage.
+Update README.md
+Update deprecated examples and comments to fit the style
+Merge pull request #899 from ntoonio/master
+Fixed name in licenses
+Merge pull request #897 from SwiftyJSON/rename-path
+Fix broken path after renaming
+Merge pull request #896 from SwiftyJSON/rename-macOS
+Update .travis.yml
+Rename `OS X` to `macOS`
+Merge pull request #893 from SwiftyJSON/issue-892
+[gardening] Remove print functions and XCTFail()
+Address #892
+Bump version to 4.0.0-alpha.1
+Merge pull request #887 from SwiftyJSON/bool-value
+Compress SwiftLint violation
+Add "yes" and "1" to string.boolValue array
+Merge pull request #880 from wongzigii/Xcode9-beta
+Update README.md
+[SwiftLint] Compress SwiftLint violations
+[SwiftLint] Change SwiftLint target to macOS platform
+[Xcode9-beta] Update travisCI to Xcode9 image
+[Xcode9-beta]  set `SWIFT_SWIFT3_OBJC_INFERENCE` to default
+[Xcode9-beta] Fix some failure unit-tests in Swift 4
+Merge branch 'master' of https://github.com/SwiftyJSON/SwiftyJSON into Swift4-Xcode9
+Merge pull request #878 from Tawfikk/master
+Fix Trailing Whitespace Violation
+Update comments applied same rules
+Update comments by same rule of markup for formatting quick help
+Fix wrong descriptions and renamed in deprecated error code
+Tiny optimization
+Compress SwiftLint violations
+Address #870
+[Gardening] Fix TravisCI
+[Travis] Use stable version over head version
+[Travis] Update osx_image to Xcode8.3
+Add detail about deprecated method
+[Swift4] Update System recommend settings
+Update examples that makes warning in README `.error` to `error!`.
+Change NSNumber extension’s property to fileprivate
+Merge pull request #852 from matthew-an/potential-crash-fix
+Fix a potential crash issue by checking whether index is out of json array’s bound.
+Fix three typos
+Merge pull request #846 from matthew-an/master
+Get rid of trailing whitespaces
+Declare JSON’s type and error in a concise way.
+Merge pull request #844 from Nonchalant/feature/fix_version_string
+Fix comma-spacing on version string.
+Update README.md
+Added SwiftyJSONError namespace
+Fix failure testcases
+Moving from NSError to Swift.Error
+Merge pull request #835 from JackSteven/patch-1
+call can throw but is not marked with try
+Merge pull request #833 from wongzigii/error-handling
+[SwiftLint] Compress swiftlint violations
+Merge branch 'master' into master
+Merge pull request #832 from wongzigii/swiftlint
+[SwiftLint] Prefer `!= nil` over `let _`
+Merge pull request #827 from mictab/fix-spelling
+Fix spelling mistake
+Merge pull request #814 from neoneye/master
+Merge pull request #813 from wongzigii/swiftlint
+Converted tabs to spaces
+RawTests.testNestedJSON() added
+[SwiftLint] Corrected Trailing Whitespace
+Merge pull request #803 from wongzigii/swiftlint
+Merge pull request #811 from wongzigii/github-temp
+Merge pull request #807 from jobinsjohn/master
+Move files into .github directory
+Merge pull request #810 from wongzigii/github-template
+Add github ISSUE and PULL_REQUEST TEMPLATE
+Updated Year in License File
+Merge pull request #759 from JeffGuKang/feature/Example
+Merge branch 'master' of https://github.com/SwiftyJSON/SwiftyJSON into swiftlint
+[SwiftLint] Remove parentheses of conditional
+[SwiftLint] Satisfy implicit_getter rule
+[SwiftLint] Satisfy operator_whitespace rule
+Merge pull request #805 from SwiftyJSON/mutability-test
+[Tests] Improve SwiftyJSON Mutability test cases
+Merge pull request #793 from MikotoZero/master
+Fix a spelling mistake and simplify initialize methods invoking
+[SwiftLint] Autocorrect code style
+[SwiftLint] add .swiftlint.yml
+[SwiftLint] Add SwiftLint target
+Fix a spelling mistake and merge duplicate test files
+rawValue test
+Merge pull request #796 from Humoud/patch-1
+Merge pull request #799 from wongzigii/optimization-setting
+[Optimization] Update LLVM and Swift compiler level
+add Work with Moya section to README.MD
+fix nested JSON problems with JSON initialize method
+Merge pull request #779 from craiggrummitt/patch-1
+Fixed Spelling mistake - writing has one 't'
+Bump version to 3.1.4
+Merge pull request #775 from skyline75489/feature/hello-2017
+Hello 2017
+Fix init(data:) error handling:
+Merge pull request #766 from kscheff/patch-1
+Update README.md
+Merge pull request #764 from lbrndnr/master
+Convert every target
+Update to recommended proj settings
+Convert to latest swift version
+Merge pull request #760 from naeemshaikh90/patch-1
+Update Work with Alamofire
+Add a title of NavigationBar with type
+Merge pull request #755 from takasek/lower_cased_url
+Turn JSON.URL into lower-cased JSON.url
+Merge pull request #752 from looseyi/master
+Merge pull request #664 from MadsBogeskov/master
+Updated constructor to be more precise.
+replace JSONRawIndex and JSONIndex with generics and desclear by typealise
+Removed print statements
+Merge pull request #725 from danielkiedrowski/master
+Removed erroneous spaces and added spaces instead of tabs.
+Use exceptions to communicate merging error to user, if he tries to merge JSONs differing in type on top level.
+Created new init instead of multiple small ones.
+Added a security mechanism to prevent total overwriting of the source JSON in case that the JSON differ in type on the top level.
+Merge branch 'master' of https://github.com/SwiftyJSON/SwiftyJSON
+Merge pull request #736 from wongzigii/CI
+Fix travis_retry command not found
+Merge pull request #733 from wongzigii/CI-tricky
+Update scripts
+Merge pull request #729 from SwiftyJSON/bugfix/xcode8.1
+Updated TOC of README
+Corrected commit #c4a4de0. Sorry.
+Added pull request #725 to change log.
+Added documentation for merging two JSONs.
+Added label with: to merge and merged.
+Fix all compilation warnings
+Merge pull request #727 from victorlin/patch-1
+Merge pull request #728 from cwkatzmann/master
+update Integration section of README to reflect latest version in SPM usage subsection
+Fix duplicate comma typo
+Added a function to deep merge a JSON object into another JSON object destructively and non-destructively.
+Merge pull request #610 from gsabran/swift3
+update readme
+make casting nil to nsnull optional
+represent strings with nil as if it was nsnull
+Merge pull request #717 from SumoSimo/#692-int8-0&1-BoolOutput
+Instead of checking for the Int8 type explicitly when setting 'object', cast the Int8 value to an Int and pass that into an NSNumber when setting 'int8' or 'int8Value'
+Merge pull request #678 from dawvee/master
+Merge branch 'master' of https://github.com/SwiftyJSON/SwiftyJSON into PR_678
+Update version in pod spec
+Merge pull request #718 from skyline75489/master
+Merge branch 'master' of https://github.com/SwiftyJSON/SwiftyJSON into skyline75489_master
+Merge pull request #723 from SwiftyJSON/697-enumerations-performance
+Add performance test
+Attemp to fix #697
+Fix 'AnyObject' in comment and README.md
+The ‘isBool’ function on the NSNumber extension uses ‘trueObjCType’, which represents the type encoding for ‘true’ represented as an NSNumber, and ‘falseObjCType’, which represents the type encoding for ‘false’ represented as an NSNumber. Both type encodings are equal to ‘c’. However, an NSNumber that wraps around a value of type Int8 also has a type encoding of ‘c’. Therefore, a user who passes in a value of 0 or 1 (of type Int8) into JSON will expect to see the numbers 0 or 1 as the output because that was the intent. Unfortunately, that value will be wrapped into NSNumber and be considered a bool, so the user will see ‘true’ or ‘false’ instead.
+Merge pull request #699 from JeffGuKang/feature/Playground
+Merge pull request #704 from sagnew/patch-1
+Merge pull request #707 from wongzigii/re-organize
+Re-organize tests to satisfy SPM
+Fix typo in README.md
+Merge pull request #682 from iflix-letsplay/explicit-provisioning-style-automatic
+Merge pull request #700 from JeffGuKang/README
+Fix syntax.
+Turn on render documentation mode.
+Merge branch 'master' of https://github.com/SwiftyJSON/SwiftyJSON into feature/Playground
+Finish subscript part. Add descriptions.
+Explictily set Prov Style Automatic for macOS
+Explicitly set Prov Style Automatic for tvOS
+Explictily set Prov Style Automatic for watchOS
+Explicitly set Prov Style Automatic for iOS target
+Merge pull request #696 from wongzigii/readme-fix
+Merge pull request #698 from rabbitcdn/patch-1
+Merge pull request #613 from JeffGuKang/feature/Playground
+Fix warning In XCode 8.1 (8B62)
+Fix examples in README.md
+Merge branch 'develop' into feature/Playground
+Add getting a string using a path to the element.
+Explictily set Prov Style Automatic for macOS
+Explicitly set Prov Style Automatic for tvOS
+Explictily set Prov Style Automatic for watchOS
+Explicitly set Prov Style Automatic for iOS target
+Merge pull request #681 from aterris/master
+Merge pull request #686 from yishus/improve-example
+Merge pull request #684 from JeffGuKang/Readme
+Fix issue #603 Improve example with push segue
+Updating subscript section in playground
+Update to swift3 syntax.
+Initialization.
+Fix wrong markdown syntax in README.md
+Basic playground docs.
+Merge branch 'master' of https://github.com/SwiftyJSON/SwiftyJSON into feature/Playground
+Minor update.
+Match pre-swift3 behavior for String -> Bool
+Added check for pre-escaped URLs to prevent double-escaping of % character
+Merge pull request #675 from zhigang1992/removeNilConvertable
+Updating tests for NilLiteralConvertible
+Deprecating adoption nilLiteralConvertible
+Add carthage script
+Update pod spec
+Merge pull request #671 from yyshin/master
+Merge pull request #673 from fishcharlie/master
+Update SwiftyJSON.podspec
+Removed unnecessary type names
+Merge pull request #669 from jobinsjohn/master
+Upgraded to swift 3.0
+Copyright year upgraded
+Copyright Year Update
+Merge remote-tracking branch 'SwiftyJSON/master'
+Auto tagging releases
+Update Alamofire example for Swift3
+Merge pull request #494 from grantkemp/feature/fixMethodErrorInReadme
+Merge pull request #660 from hectormatos2011/master
+adds performance enhancement to prevent merge conflicts
+reverts improper moving of code
+adds support for nested JSON in literals
+Merge pull request #657 from samisuteria/master
+update readme with nested example
+Update pod version for 3.1.0
+Merge pull request #509 from jamesjn/exists-for-wrong-type-and-out-of-bounds
+Merge pull request #653 from SwiftyJSON/651-Swift-3-loop-nil-will-infinite-loop
+Fix infinite loop with JSON.null
+Merge pull request #652 from aaronpearce/master
+Update BaseTests with new URL
+Fix the URL tests
+Move from NSURL to URL
+Merge pull request #644 from kandelvijaya/patch-5
+Typos in Comments correction
+Fix test in macOS target
+Add spaces to badge icons
+Update min target for macOS to 10.10
+Add cocoapods and platform badge
+Fix travis CI
+Merge branch 'master' of https://github.com/SwiftyJSON/SwiftyJSON into feature/Playground
+Add checks on exists method for errors
+Merge pull request #453 from ReadmeCritic/master
+Merge pull request #458 from frankctan/master
+Merge pull request #465 from Vkt0r/master
+Merge pull request #481 from karthikgollapudi/patch-1
+Merge pull request #484 from Dershowitz011/patch-2
+Merge pull request #534 from mediatainment/patch-1
+Merge pull request #538 from jobinsjohn/patch-1
+Merge pull request #553 from EyeOfTheStorm/master
+Merge pull request #576 from Maryom/master
+Merge pull request #595 from dpfbop/patch-1
+Merge pull request #598 from tmcw/patch-1
+Fix example app in xcode 8
+Update code signing change to fix .travisCI
+Merge pull request #641 from lukas2/master
+Update NSErrorPointer usage in initializer.
+Set APPLICATION_EXTENSION_API_ONLY to yes for macOS target
+Add .swift-version
+Update pod version
+Update readme file for swift3
+Merge pull request #633 from jeneumeier/swift3-gm
+Updated main source and tests to spec for Swift 3.0 as released in Xcode 8/0 GM.
+Basic playground set.
+Spelling fix: existence, not existance
+Small Readme fix
+Add Getting an array of string from a JSON Array
+filled Manifest
+Merge pull request #541 from lucasderraugh/swift3
+Use Swift 3.0 for whole project
+Valid Swift 3.0 code
+Updated Year in License File
+updated "Swift Package Manager" installation manual
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Beta support for swift3.
+admin : fixed some typos
+errorFix: incorrect method specified in Readme. Fixed to ensure new users are not confused.
+Update README.md
+Update README.md
+Merge pull request #443 from kandelvijaya/patch-1
+Merge pull request #446 from kandelvijaya/patch-2
+Merge pull request #457 from CraigSiemens/master
+Merge pull request #467 from glennrfisher/master
+Merge pull request #419 from Adlai-Holler/ReserveCapacity
+Replace ++ with +=
+Remove blank space
+Update Alamofire code
+README typo
+Rename isExists to exists. Fixes #448
+Correct the spelling of CocoaPods in README
+Which's -> whose and typo fix in comments
+Changed from .empty to .isEmpty
+Merge pull request #420 from AlexanderNey/fix/watchos2-build-target-fix
+Merge pull request #437 from danipralea/patch-1
+Update README.md
+Merge pull request #427 from nanoxd/master
+Merge pull request #432 from saagarjha/master
+Changed "Mac OS X" to "OS X"
+Merge remote-tracking branch 'SwiftyJSON/master'
+Update optimization level to "-Ofast"
+Programmatically set current tag
+set the watch os deployment target to watchOs 2.0 - otherwise it would have used always the most current one with the result that the lib is not usable with apps deploying on watchOS 2.0
+Use minimumCapacity parameter to optimize dictionary creations
+Update README.md
+add Package.swift
+update pod specs
+Merge pull request #405 from seegno-forks/support/update-codesign-identity
+Merge pull request #406 from zhigang1992/AddInitWithString
+Add Parse as JSON.parse
+Update codesign identity
+Merge pull request #402 from zhigang1992/FixNumberOperator
+Merge pull request #399 from hibento/master
+Keep NSNumber Operator Internal
+Merge pull request #400 from azone/patch-1
+Merge pull request #401 from bcapps/optional-binding
+fixes Bool case to return expected value
+Nil coalesce instead of force unwrap
+Utilizes existing optional binding to stop force unwrapping
+Uses optional binding to remove force unwrapping
+Remove force-unwrapped indicator from constants
+Correct JSON's type specification URL
+Deleted Framework search paths for target OSX Test
+Merge pull request #396 from simonbs/master
+Merge pull request #398 from nanit/fix-alamofire-readme
+use safe unwrapping for result value
+fixed Alamofire & SwiftJSON integration example
+Sets UIRequiredDeviceCapabilities for tvOS target
+Merge pull request #384 from zhigang1992/AddPlayground
+Merge pull request #383 from zhigang1992/FixExapmleProjectCompile
+Merge pull request #376 from zhigang1992/AddingJSONSubscriptKey
+Fix Example Target Build
+Add Playground File
+Rename it to JSONKey
+Fix Typo
+Add Travis CI Icon
+Merge pull request #381 from zhigang1992/UpdateTravisCI
+Add tvOS
+Removing tvOS tests for now
+Adding tvOS and OSX
+Add back device specs
+Update Travis Config
+Merge branch 'xcode7.1'
+Merge pull request #380 from roadfire/xcode7.1
+Updated README with better JSON parsing in Swift 2
+Adding Support for Custom JSONSubscriptType
+We do return true if the JSON is neither an Array nor a Dictionary
+Merge pull request #370 from KyleMay/master
+Merge pull request #371 from RohanNagar/patch-1
+update pod specs
+Merge pull request #367 from marcospolanco/xcode7.1
+Fix formatting issues in README
+Change key to index for array
+Merge pull request #366 from samscam/tvos-in-podfile
+Update SwiftyJSON.podspec
+Added tvOS deployment target to podspec
+Adding tvOS testing
+Merge branch 'pr/338' into xcode7.1
+Merge pull request #169 from skywinder/add-change-log-file
+Merge branch 'xcode7'
+Merge pull request #356 from Thomvis/xcode7
+Merge pull request #353 from apiyron/master
+Merge pull request #345 from patricks/master
+Merge pull request #328 from otanistudio/xcode7
+Adding watchOS.
+Merge pull request #322 from pcantrell/decimal-numberValue
+Merge pull request #320 from bassrock/xcode7
+Merge pull request #319 from kohtenko/master
+Merge pull request #359 from tylerlong/master
+MACOSX_DEPLOYMENT_TARGET = 10.9
+Added Carthage bitcode support (see https://github.com/Carthage/Carthage/issues/535)
+println -> print in README.md
+Updated comments to the new Swift 2.0 style
+Changes PRODUCT_NAME of tvOS target to SwiftyJSON
+Adds support for tvOS
+Update podspec
+Update README.md
+Merge branch 'xcode7'
+Merge pull request #330 from spenrose/bugfix/watchOS-target
+remove superfluous catch frame
+While NSJSONSerialization states that it will throw, invalid JSON will make it throw prior to parsing. Apple recommends checking for valid JSON first. In practice, I've seen the case where do/try on rawData is never caught on exception, presumably because of the parsing issue (at least in XCode 7 GM.)
+XCTAssertLessThan and XCTAssertGreaterThan are now more strict about NSNumber types
+Fix carthage not being able to build the watchOS scheme for simulator
+Move watchOS info plist to correct directory.
+XCode 7 GM: NSNumber now already conforms to Swift.Comparable
+Parse string numbers as NSDecimalNumber instead of double
+Merge pull request #317 from tomco/xcode7
+Existance check + tests + readme
+Updated BuilableName
+watchOS target added.
+Merge pull request #310 from saagarjha/master
+Fixed some minor grammar errors in the README
+Adding watchOS
+Fix xcode beta5 warning.
+Merge pull request #293 from condaatje/patch-1
+Merge pull request #296 from angrauel/xcode7
+Re-Indent
+Merge pull request #298 from ndevenish/patch-1
+Merge pull request #301 from duemunk/patch-1
+Merge pull request #290 from briankracoff/fixNPEOnInit
+Fix syntax style error
+Fix bad memory access with optional error pointer
+fixes compiler warning
+URL charset, not alphanumeric
+Update Deprecated Function
+Check if error pointer exists before setting memory
+Remove cast code in JSON compare.
+Merge branch 'master' into xcode7
+Implement CollectionType.
+Delete unnecessary cast. Implement SequenceType completely.
+Update for 2.2.1
+Change example path for carthage. #140 #177 #140
+Update for xcode7. #276 #272 #263
+Change example path for carthage. #276
+Add WorkingspaceSettings.xcsettings.
+Use reduce to get subscript json.
+Merge pull request #273 from kilnyy/master
+Merge pull request #281 from kai60/master
+Merge pull request #282 from wordlessj/master
+Optimize performance of count
+example bug fix
+Allow construction of JSON from [String: JSON]
+Update JSON.nullJSON to JSON.null
+Update nullJSON to null
+Update subscript(path: [SubscriptType])
+Merge pull request #254 from remzr7/xcode7
+Updated Readme to swift 2.0
+Update README.md
+Update for xcode7
+Merge pull request #230 from Frostman/patch-1
+Update README.md
+Merge pull request #231 from xgdgsc/patch-1
+add instruction on import to README
+Add Carthage/Build to .gitignore
+Update README.md
+update change log
+Update README.md
+Merge pull request #223 from kmikael/patch-1
+Merge pull request #214 from pRizz/master
+Update the first two examples snippets
+Fixed spelling and grammar mistakes in README.md. Made some swift syntax more consistent.
+Add test - get value from [SubscriptType]
+Update README.md
+Update swift's protocol to swift.protocol
+Update podspec
+Update README.md
+Merge pull request #207 from spanage/master
+Merge pull request #194 from manijshrestha/patch-1
+Merge pull request #187 from cnoon/fixes/osx_scheme
+Merge pull request #186 from cnoon/fixes/osx_code_signing
+Fix for issue #200
+Merge branch 'xcode6.3'
+Only building tests for testing
+Avoid using subscript on AnyObject in Swift 1.2
+Update README.md
+Fixed the buildable name in the OSX scheme.
+Removed code signing identity from OSX target and tests.
+Merge pull request #146 from lwu/master
+Merge pull request #124 from ravero/master
+Merge pull request #174 from rromanchuk/carthage-support
+Merge pull request #178 from mono0926/fix-ios-test
+Fix int overflow compile error
+Better support for carthage users
+Merge pull request #170 from joelparkerhenderson/master
+Update README for new Cocoapods
+Added automatically generated change log file
+Merge pull request #156 from rastersize/fix/osx-target-and-scheme-2
+Merge pull request #154 from rastersize/nuke-xcuserdata
+Add OS X framework and tests target + scheme
+Rename info plists to have -iOS suffix
+Rename iOS tests target to “SwiftyJSON iOS Tests”
+Remove SwiftJSON OS X targets
+Remove SwiftJSON.xcodeproj/xcuserdata
+Fixed test and example's compilation errors in xcode 6.3 beta.
+Merge branch 'darrarski-master' into xcode6.3
+Swift 1.2 compatibility fixes
+Allow construction of JSON from [JSON]
+Setter for JSON array should use arrayObject not array (which does not expose a setter) (README.md)
+Merge pull request #142 from zhxnlai/patch-1
+fix travis ci
+add missing ` in comments
+Merge pull request #134 from remaerd/master
+Merge pull request #139 from watsonbox/fix_readme_nested_example
+Merge pull request #136 from esbenvb/patch-2
+Merge pull request #135 from esbenvb/patch-1
+Fix README.md nested example
+Update README.md
+Update README.md
+Fix Carthage on OSX Support
+Fix Carthage on OS X Support
+Update README.md
+change podspec to 2.1.3
+using with cocoapods require >= iOS 8
+Merge pull request #128 from johngoren/patch-5
+trigger travis first build
+test travis config
+travis ci trigger
+add travis ci support
+Minor grammar fixes to README
+Merge pull request #127 from johngoren/patch-4
+Updated because podspec is now available...
+Update optional cell textLabel's text.
+Prefixed "SequenceType" extension with Module name, since it was conflicting with other SequenceType declaration in separate library.
+Merge pull request #121 from wiruzx/fix-is-empty
+Merge pull request #119 from technomage/master
+Fix visibility of isEmpty property
+Make framework extension friendly
+Merge pull request #114 from max-potapov/codesign
+Merge pull request #115 from floydpink/master
+Merge pull request #1 from floydpink/readme-toc
+updated the TOC links
+fix the typos on the code snippets on README
+Use Mac' codesign identities for OSX targets
+Update README.md
+Update SwiftyJSON.podspec for 2.1.2
+Merge pull request #113 from Present-Inc/master
+Update README.md
+Merge pull request #106 from briankracoff/master
+Merge pull request #104 from Present-Inc/master
+Merge pull request #92 from JonathanPorta/update-alamofire-integration-recomendation
+Fix NSNumber != func
+Added shared scheme
+Removed .xcscheme from gitignore
+Updated deployment target
+Should fix code signing issues
+Updated all the code signing identities
+Merge pull request #100 from ValCapri/master
+Correct mblsha podspec
+Add a super simple error handling example
+Merge pull request #94 from franklsf95/master
+Renamed type 'Unknow' to 'Unknown'
+Change recommendation for Alamofire integration
+Merge pull request #91 from AdaptiveMe/master
+Inherit project settings in target.
+Added OS X target - 100% test passing on OSX & iOS
+Remove redundant UIKit import to make tests OS X & iOS compatible.
+Merge pull request #84 from johngoren/patch-3
+Update README.md
+Merge pull request #83 from johngoren/patch-1
+Update README.md
+Add Chinese version link
+Update test  json print which's type is .dictionary.
+Update tests for `description`
+Update `description` and `debugDescription` to call `rawString`
+Delete the rawString's `error` argument
+Update rawData's default options to NSJSONWritingOptions(0)
+Add support for non-array and non-dictionary get the raw string
+Change if to ??
+Change Dictionary<K,V> to [K : V], Array<T> to [T]
+Update README.md
+Merge branch 'xcode6.1'
+Update for XCode 6.1
+If json type is `.Array` or `.Dictionary`, `json.boolValue` should return `false`.
+Update document.
+Update README.md
+Update README.md
+Merge pull request #73 from MaddTheSane/patch-1
+Update SwiftyJSON.swift
+Add methods to get raw NSData and String. Fix #70
+Update array subscript: If index is minus, get the null json with out of bounds error.
+Merge branch 'master' into xcode6.1
+Add performance tests
+Update getter for [JSON] and [String:JSON] by map
+Fix: 32bit test failures #71
+Add subscript which parameter is array or array literal. - sub = json["list",0,"name"] - let path: [SubscriptType]= ["list",0,"name"]; sub = json[path] - json["list",0,"name"] = "Jack" - let path: [SubscriptType] = ["list",0,"name"]; json[path] = "Jack"
+Merge pull request #68 from Noobish1/master
+Making SourceKit not freak out about self.object.count being called
+Update for iOS 7
+Add launch image for example project
+Update tests for Xcode 6.1 GM 2
+Merge branch 'master' into xcode6.1
+Update README.md
+Update README.md
+Add JSON data's looping test
+Remove needless setting
+Added support for Xcode 6.1 GM Seed 2.
+Merge pull request #63 from SwiftyJSON/develop
+Update error's printable
+Update README.md
+Update README.md
+Update README.md
+Merge branch 'master' into develop
+Change tests files name
+Add Dictionary and Array tests
+Update subscript's error
+Add number and string tests
+Add number setter
+Add comparable tests
+Add sequence type tests
+Add printable tests
+Add subscript tests
+Update example
+Update the test case and Add literal convertible tests
+Change enum JSON to strut JSON and Add literal convertible protocol
+Update README.md
+Merge pull request #59 from SwiftyJSON/develop
+Add SequenceType methods
+Speedup initialization，but slow array and dictionary methods.
+Delete redundant code
+Add Dictionary methods
+Add iOS Example
+Add SwiftyJSON.xcworkspace
+Change the file path
+Update the initialization and compare methods
+Update README.md
+Adding documentation
+Update README.md
+Update the README.MD
+add the test case.
+optional value getter  and non optional value getter
+make JSONValue to JSON more friendly.
+Merge pull request #21 from Add percent escaping to URL string
+Merge pull request #56 from SwiftyJSON/revert-45-master
+Revert "Added rawObject method for unwrapping JSONValue enum to objects"
+Merge pull request #45 from k06a/master
+Added object method for unwrapping JSON enum to object, thanks @k06a
+add error
+Update the README.MD
+make error to public, fix bool print bug, add some print test
+add error handle
+update to public
+make init methods to public
+Merge pull request #55 from tangplin/master
+set the default JSONReadingOptions to .AllowFragments
+Merge pull request #54 from lingoer/master
+Fix Unit Test
+Add NSError to Null type
+Merge pull request #53 from lingoer/master
+Merge pull request #36 from kriswallsmith/master
+Merge pull request #51 from tangplin/master
+refactor! 1. Change JSONValue to JSON 2. Delete the part  of error 3. change enum' type to ScalarNumber, ScalarString, Sequence, Mapping 4. implement Comparable 5. update test
+Renaming rawObject to any
+Fixed .JNull case in rawObject method
+Just variables renamed from "possible*" to "already*"
+Added rawObject method for unwrapping JSONValue enum to objects
+Rename LISCENSE to LICENSE
+Merge pull request #33 from venables/beta5-boolean-type
+Use BooleanType instead of LogicValue
+Merge pull request #20 from bkase/obj-to-string-fix
+Converting JSON objects to string is fixed
+Merge pull request #18 from krishnan-srinivasan/master
+Merge pull request #15 from kyoh/add_url_property
+Updated to remove errors in Xcode Beta 3
+Merge pull request #16 from tangplin/master
+add first and last in JSONValue, add string to double, int etc.
+rawJSON
+add a "url" property to JSONValue
+Merge pull request #13 from gregbarbosa/master
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Add Error Handling And Wrong Keypath tracking
+Add Error Handling
+Update README.md
+I Give Up, Use NSNumber
+Fix failing test
+Merge branch 'master' of https://github.com/lingoer/SwiftyJSON
+Remove JSON options since they are unnecessary
+Add more atomic unit tests
+Remove redundant 'description calls'
+Merge pull request #6 from garnett/master
+Separate protocols implementation, refactor prettyString composing
+Add moar whitespaces
+Merge remote-tracking branch 'upstream/master'
+Add gitignore, add pretty-print unit tests
+Merge pull request #3 from garnett/master
+Simplify conditional logic in switch
+Add project with both OSX/iOS module targets
+.project file problems
+Update README.md
+Merge branch 'master' of https://github.com/lingoer/SwiftyJSON
+Started unit tests and fixed a Bool value bug with it
+Update README.md
+Update README.md
+Change Tag Naming
+Fixed Bug #1
+Merge branch 'master' of https://github.com/lingoer/SwiftyJSON
+Add Support For Printable Protocol, Now It Can Generate Nice Printed JSON Text Add Support To Init With A NSData
+Update README.md
+Update README.md
+typo
+Update README.md
+Create LISCENSE
+init
+Initial commit

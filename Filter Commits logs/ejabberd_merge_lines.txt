@@ -1,0 +1,542 @@
+Merge remote-tracking branch 'processone/pr/3905'
+Merge remote-tracking branch 'processone/pr/3904'
+Merge remote-tracking branch 'processone/pr/3813'
+Merge pull request #3756 from pouriya/Add-Process-Hook-Tracing
+Merge pull request #3757 from kianmeng/fix-typos
+Merge branch 'processone:master' into master
+Merge remote-tracking branch 'processone/pr/3735'
+Merge remote-tracking branch 'processone/pr/3724'
+Merge pull request #3652 from weiss/bump-max-items
+Merge branch 'processone:master' into master
+Merge pull request #3668 from longlene/master
+Merge remote-tracking branch 'processone/pr/3666'
+Merge pull request #3660 from ballerburg9005/patch-1
+Merge pull request #3656 from pitchum/master
+Merge pull request #3634 from lnjX/mix-identity-conf-mix
+Merge pull request #3639 from McPo/xep0033-bcc-strip-fix
+Merge pull request #3566 from Robbilie/feature/mqtt-shared-roster-groups-placeholder
+Merge pull request #3622 from pouriya/fix-ws-typos
+Merge pull request #3595 from processone/codespaces
+Merge pull request #3578 from tappytaps/srg-cache-fix
+Merge pull request #3558 from fdie/fix_node_get_state_return_value
+Merge pull request #3458 from nosnilmot/sqlite3-macos
+Merge pull request #3507 from slezakattack/master
+Merge remote-tracking branch 'processone/pr/3506'
+Merge pull request #3488 from comradekingu/patch-3
+Merge pull request #3486 from comradekingu/patch-2
+Merge pull request #3483 from weblate/weblate-ejabberd-ejabberd
+Merge pull request #3482 from comradekingu/patch-1
+Merge pull request #3480 from Neustradamus/git
+Merge remote-tracking branch 'processone/pr/3471'
+Merge pull request #3435 from fdie/fix_odbc_binary_errors
+Merge pull request #3429 from mtdcr/systemd-foreground
+Merge pull request #3402 from nosnilmot/docker-fixes
+Merge pull request #3399 from nosnilmot/redis3-configure_deps
+Merge pull request #3395 from nosnilmot/rebar3
+Merge remote-tracking branch 'processone/pr/3396'
+Merge pull request #3346 from processone/ejabberd-3343
+Merge remote-tracking branch 'processone/pr/3294'
+Merge pull request #3232 from weiss/enable-stun
+Merge pull request #3235 from weiss/xep-0215
+Merge pull request #3132 from area-42/publisher_mssql_text_to_varchar
+Merge pull request #3125 from area-42/enable_odbc_in_mix
+Merge pull request #3127 from area-42/allow_emojis_with_mssql
+Merge pull request #3142 from kenanilgun/master
+Merge branch 'sabudaye-pg_prepared_statements'
+Merge branch 'pg_prepared_statements' of https://github.com/sabudaye/ejabberd into sabudaye-pg_prepared_statements
+Merge pull request #3069 from nosnilmot/jwt-custom-jid-field
+Merge pull request #3063 from lnjX/fix/de-comma-setting
+Merge remote-tracking branch 'processone/pr/2995'
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #3004 from Slawutich/master
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #2900 from aquarhead/protect-muc-owner
+Merge pull request #2651 from Iperity/fix-privacy-race-condition
+Merge branch 'master' of github.com:processone/ejabberd
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #2869 from rstgroup/fix-elixir-umbrella-compilation
+Merge pull request #2868 from rstgroup/fix-rfc-6455-violation
+Merge remote-tracking branch 'processone/pr/2811'
+Merge branch 'pr/2764'
+Merge remote-tracking branch 'processone/pr/2805'
+Merge branch 'mix'
+Merge remote-tracking branch 'processone/pr/2763'
+Merge branch 'mod_ping_no_kill' of https://github.com/fdie/ejabberd into 3
+Merge pull request #2622 from aquarhead/rename-functions
+Merge pull request #2748 from area-42/add_acl_for_mam_in_mod_muc
+Merge pull request #2680 from Iperity/fix-privacy-check-on-presence-probe
+Merge pull request #2599 from gardenia/master
+Merge pull request #2718 from paulmenzel/strip-trailing-space-in-readme
+Merge branch 'master' into mix
+Merge branch 'master' into mix
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #2697 from Snowmanko/master
+Merge pull request #2690 from nosnilmot/stopping-hook
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #2683 from paulmenzel/use-https-url-in-readme
+Merge remote-tracking branch 'processone/pr/2675'
+Merge pull request #2655 from hamano/missing_redis_sm.lua
+Merge remote-tracking branch 'processone/pr/2636'
+Merge pull request #2605 from af8a524db1/remove_unused_error
+Merge pull request #2602 from aquarhead/expect-mnesia-up
+Merge pull request #2597 from dmitryDemchenko/master
+Merge pull request #2551 from MarcelWaldvogel/configurable-extauth-pool
+Merge pull request #2538 from weiss/tls-by-default
+Merge pull request #2537 from rouen-sk/patch-1
+Merge pull request #2525 from satish-olx/master
+Merge pull request #2526 from nosnilmot/enforce-pubsub-option-attributes
+Merge pull request #2522 from weiss/bump-max-user-conferences
+Merge pull request #2516 from licaon-kter/patch-6
+Merge pull request #2511 from licaon-kter/patch-5
+Merge pull request #2515 from ChaosKid42/fix_HMAC_in_http_upload
+Merge pull request #2495 from rodrigues/update_ptbr
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #2502 from licaon-kter/patch-4
+Merge pull request #2460 from imShara/patch-1
+Merge remote-tracking branch 'processone/pr/2446'
+Merge pull request #2438 from licaon-kter/patch-3
+Merge pull request #2431 from yokomizor/fix-xmpp-commit
+Merge pull request #2430 from yokomizor/ext_mod-export-add_sources_1
+Merge pull request #2399 from 4z3/ejabberdctl-fix-parser
+Merge branch 'master' of github.com:processone/ejabberd
+Merge branch 'muc-self-presence'
+Merge pull request #2357 from Pouriya-Jahanbakhsh/component-send-packet-hook
+Merge pull request #2351 from rom1dep/config-order_c2s-direct
+Merge pull request #2314 from oxpa/mod_admin_extra_hashes
+Merge branch 'master' into muc-self-presence
+Merge pull request #2301 from tsaqova/ejabberd_commands_get_room_affiliation
+Merge pull request #2311 from nosnilmot/validate-listen-opts
+Merge pull request #2304 from weiss/run-auth-callbacks-earlier
+Merge pull request #2299 from weiss/add-username-to-indexes
+Merge pull request #2297 from af8a524db1/move_make_rand_string
+Merge pull request #2274 from Torxen/feature/fixed-return-value-mod_muc
+Merge branch 'master' of github.com:processone/ejabberd
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #2266 from mieciu/master
+Merge branch 'mod-default-options'
+Merge remote-tracking branch 'processone/pr/2238'
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #2221 from licaon-kter/patch-1
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #2202 from weiss/bounce-to-stranger
+Merge remote-tracking branch 'processone/pr/2203'
+Merge branch 'master' of github.com:processone/ejabberd
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #2188 from weiss/fix-acl-reload
+Merge branch 'no-more-ejabberd-receivers'
+Merge pull request #2164 from angelo-chan/master
+Merge pull request #2167 from weiss/last-pep-items-to-owner
+Merge pull request #2158 from bowlofeggs/su-with-sh
+Merge pull request #2160 from weiss/publish-options
+Merge branch 'master' of github.com:processone/ejabberd
+Merge branch 'master' of github.com:processone/ejabberd
+Merge branch 'lets_encrypt_acme_support' of git://github.com/angelhof/ejabberd into angelhof-lets_encrypt_acme_support
+Merge pull request #2096 from weiss/always-add-stanza-id
+Merge pull request #2081 from nekoswag/master
+Merge pull request #2028 from weiss/increase-queue-sizes
+Merge pull request #2065 from jorjeb/mix-enable-graphics
+Merge pull request #2023 from rom1dep/endings
+Merge pull request #2052 from suchatorg/patch-1
+Merge pull request #2047 from fotock/patch-1
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #1996 from nosnilmot/ejabberdctl-quote-peer
+Merge remote-tracking branch 'upstream/master' into lets_encrypt_acme_support
+Merge remote-tracking branch 'upstream/master'
+Merge remove_account_option branch
+Merge remote-tracking branch 'processone/pr/1938'
+Merge pull request #1926 from weiss/import-metronome-pep
+Merge pull request #1912 from mathiasertl/master
+Merge remote-tracking branch 'processone/pr/1914'
+Merge pull request #1881 from weiss/push
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #1837 from marcphilipp/feature/set_room_affiliation_test
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #1903 from himawri/fix_pubsub_spec
+Merge pull request #1869 from wahjava/master
+Merge pull request #1871 from rstgroup/master
+Merge pull request #1793 from marcphilipp/bugfix/set_room_affiliation_master
+Merge pull request #1766 from IRog/master
+Merge pull request #1758 from reneklacan/fix-mix-warnings
+Merge pull request #1759 from reneklacan/fix-version-to-be-semver
+Merge branch 'joudinet-master'
+Merge branch 'master' of https://github.com/joudinet/ejabberd into joudinet-master
+Merge pull request #1697 from pipo02mix/dockerfile-17-04
+Merge branch 'new-option-validation'
+Merge pull request #1702 from skuroki/patch-1
+Merge remote-tracking branch 'processone/pr/1699'
+Merge pull request #1677 from getong/catch_lager_crash_log_not_run
+Merge pull request #1666 from weiss/fix-csi
+Merge pull request #1664 from weiss/fix-routing
+Merge pull request #1660 from michal800106/master
+Merge branch 'master' of github.com:processone/ejabberd
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #1646 from weiss/custom-headers
+Merge branch 'new_queue'
+Merge pull request #1626 from weiss/fix-scram-import
+Merge pull request #1617 from edwardchow33/patch-1
+Merge pull request #1603 from strugee/patch-1
+Merge pull request #1499 from weiss/offline-stanza-id
+Merge branch 'master' of github.com:processone/ejabberd
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #1555 from weiss/count-session-iq
+Merge pull request #1553 from lemenkov/config_functions_deprecation
+Merge pull request #1548 from lemenkov/use_get_option
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #1539 from lemenkov/use_crypto_sha
+Merge pull request #1502 from lemenkov/ignore_output_val
+Merge branch 'master' of github.com:processone/ejabberd
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #1478 from weiss/multi-host-pubsub-cache
+Merge branch 'new_stream'
+Merge branch 'new_stream' of github.com:processone/ejabberd into new_stream
+Merge branch 'master' of github.com:processone/ejabberd
+Merge branch 'docker' from Rafael Römhild
+Merge branch 'master' of github.com:processone/ejabberd
+Merge branch 'ukutaht-enable-elixir-in-mix'
+Merge branch 'enable-elixir-in-mix' of https://github.com/ukutaht/ejabberd into ukutaht-enable-elixir-in-mix
+Merge pull request #1391 from weiss/mark-copies
+Merge branch 'weiss-systemd-unit-improvements' (#1346)
+Merge branch 'systemd-unit-improvements' of https://github.com/weiss/ejabberd into weiss-systemd-unit-improvements
+Merge remote-tracking branch 'upstream/master'
+Merge branch 'master' of github.com:processone/ejabberd
+Merge branch 'master' of github.com:processone/ejabberd
+Merge branch 'master' of github.com:processone/ejabberd
+Merge branch 'master' into xml-ng
+Merge branch 'master' into xml-ng
+Merge branch 'master' of github.com:processone/ejabberd
+Merge branch 'xml-ng' of github.com:processone/ejabberd into xml-ng
+Merge mod_opt_type from db sub-modules to main module mod_opt_type
+Merge pull request #1349 from prasadvaidya/master
+Merge pull request #1343 from gardenia/mod_muc_configurable_max_discoitems
+Merge pull request #1338 from marcphilipp/muc_invite_hook
+Merge pull request #1331 from weiss/send-message-omit-copies
+Merge pull request #1249 from weiss:push-requirements
+Merge branch 'push-requirements' of https://github.com/weiss/ejabberd into weiss-push-requirements
+Merge pull request #1287 from weiss/ack-timeout
+Merge pull request #1253 from Amuhar/xep0356
+Merge remote-tracking branch 'processone/pr/1262'
+Merge remote-tracking branch 'processone/pr/1261'
+Merge pull request #1254 from lemenkov/remove_p1_xmlrpc
+Merge pull request #1245 from hamano/clean_redis_table
+Merge pull request #1223 from processone/expand_api
+Merge pull request #1221 from processone/expand_api
+Merge pull request #1178 from candrews/patch-1
+Merge pull request #1193 from gabrielgatu/support-elixir-module-installer
+Merge pull request #1211 from processone/expand_api
+Merge pull request #1201 from xmppjingle/master
+Merge branch 'master' of github.com:processone/ejabberd
+Merge remote-tracking branch 'processone/master'
+Merge pull request #1165 from weiss/default-blocking-list
+Merge pull request #1120 from anagromataf/feature/archive-id-in-message-carbons
+Merge pull request #1125 from vthriller/roster-push
+Merge pull request #1131 from weiss/failed-resume-h
+Merge pull request #1126 from weiss/muc-send-affiliation
+Merge pull request #1132 from weiss/publish-options
+Merge remote-tracking branch 'processone/pr/1122'
+Merge remote-tracking branch 'processone/pr/1088'
+Merge remote-tracking branch 'processone/pr/1087'
+Merge remote-tracking branch 'processone/pr/1102'
+Merge remote-tracking branch 'processone/pr/1086'
+Merge pull request #931 from cclam0827/dev/mod_ping
+Merge branch 'move-db-code'
+Merge pull request #1064 from sezuan/fix_check_password
+Merge branch 'master' of github.com:processone/ejabberd
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #1051 from genric/patch-1
+Merge pull request #1052 from genric/patch-2
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #1054 from richp10/master
+Merge branch 'add-error-reason'
+Merge pull request #1046 from processone/commands-update
+Merge lastest commits from master
+Merge pull request #1044 from processone/http-api
+Merge branch 'master' of github.com:processone/ejabberd
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #1036 from processone/shared-roster-ldap
+Merge pull request #1024 from rbarlow/luerl_release
+Merge pull request #684 from wcy123/master
+Merge commit 'refs/pull/524/head' of github.com:processone/ejabberd into sasl-api-change
+Merge pull request #1035 from processone/modular-tests-run
+Merge pull request #1029 from processone/coveralls
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #1022 from hamano/riak_auth
+Merge pull request #926 from lpil/fix/remove-empty-mod
+Merge pull request #1011 from oxoWrk/master
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #991 from suchatorg/patch-1
+Merge pull request #980 from sharewax/EJAB-1480
+Merge pull request #997 from tnull/fix_auth_method_order
+Merge pull request #989 from galambalazs/patch-1
+Merge pull request #988 from tnull/edoc_fix
+Merge pull request #961 from weiss/compression-after-sasl
+Merge pull request #953 from cdroege/fix_css
+Merge pull request #951 from rodrigues/master
+Merge pull request #944 from cdroege/configureable_host-mod_register_web
+Merge pull request #945 from nikolauspolak/master
+Merge pull request #914 from weiss/mam-expose-jid
+Merge pull request #943 from processone/deps-cleanup
+Merge pull request #937 from Iperity/fix-presence-based-delivery
+Merge branch 'master' of github.com:processone/ejabberd
+Merge branch 'master' of github.com:processone/ejabberd
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #919 from hamano/rename_timestamp_function
+Merge pull request #915 from fotock/master
+Merge pull request #1 from fotock/fotock-patch-1
+Merge remote-tracking branch 'processone/pr/907'
+Merge pull request #906 from hamano/stats_processes
+Merge pull request #911 from hamano/ja
+Merge pull request #900 from weiss/suppress-groupchat-error
+Merge remote-tracking branch 'processone/pr/899'
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #875 from GreenLunar/patch-1
+Merge pull request #849 from weiss/discard-chat-states
+Merge branch 'cluster_fix'
+Merge pull request #840 from cenobites/mod_ping
+Merge pull request #821 from scrogson/update_readme_openssl
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #801 from nanoz/patch-1
+Merge pull request #790 from gardenia/mod_ping_configurable_ack_timeout
+Merge pull request #781 from scrogson/master
+Merge pull request #789 from gardenia/mod_shared_roster_remove_resource_in_push_from
+Merge pull request #753 from scrogson/add_links
+Merge pull request #755 from scrogson/fix_ejabberd_directory_name
+Merge pull request #754 from scrogson/gitignore
+Merge pull request #742 from joudinet/master
+Merge pull request #748 from joudinet/bashisms
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #736 from quanzhuo/master
+Merge branch 'master' of github.com:processone/ejabberd
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #725 from processone/elixir-mix
+Merge pull request #721 from oxpa/muc_admin
+Merge branch 'typo' of https://github.com/sezuan/ejabberd
+Merge pull request #696 from weiss/muc-presence-hook
+Merge pull request #682 from weiss/no-mam-carbons
+Merge pull request #642 from weiss/pep-on-caps-update
+Merge pull request #608 from weiss/bare-jid-subscription
+Merge pull request #632 from weiss/increase-max-ack-queue
+Merge pull request #618 from weiss/muc-message-hook
+Merge pull request #628 from joudinet/master
+Merge pull request #620 from weiss/omit-non-anon-msg
+Merge pull request #581 from weiss/dh-param-file
+Merge pull request #592 from weiss/omit-subject-body
+Merge pull request #591 from jpegger/patch-1
+Merge pull request #585 from CorCornelisse/master
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #582 from badlop/master-badlop-578
+Merge pull request #569 from weiss/send-element-error-checking
+Merge pull request #573 from sezuan/fix_odbc
+Merge pull request #576 from processone/revert-570-fix_added_sm_table_to_pg
+Merge pull request #570 from sezuan/fix_added_sm_table_to_pg
+Merge pull request #571 from sezuan/fix_export_term
+Merge pull request #503 from weiss/fix-quoting-for-elixir
+Merge pull request #560 from benlangfeld/feature/dev-vm
+Merge pull request #561 from weiss/muc-mark-private
+Merge pull request #549 from joudinet/master
+Merge pull request #547 from weiss/fix-account-jid-disco
+Merge pull request #540 from weiss/queue-error-stanza
+Merge pull request #536 from weiss/fail2ban-whitelist
+Merge pull request #426 from hairyhum/master
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #486 from saa/sqlite_support
+Merge pull request #518 from liudanking/master
+Merge pull request #513 from weiss/ignore-header-case
+Merge pull request #493 from weiss/rfc-6121-routing
+Merge pull request #473 from weiss/escape-space-in-options
+Merge pull request #467 from hamano/mod_offline_restart
+Merge pull request #466 from mremond/hooks_refactor
+Merge pull request #462 from mremond/add-meck-tool-dependancy
+Merge pull request #461 from mremond/fix-r16-tests
+Merge pull request #460 from mremond/run-elixir-test
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #441 from mremond/test/#438/run-elixir-tests
+Merge pull request #448 from hamano/ja
+Merge pull request #384 from weiss/fix-last-item-type
+Merge pull request #445 from hamano/ja
+Merge pull request #443 from mojolingo/feature/muc_admin/affiliation-change-propogate-xmpp
+Merge pull request #442 from weiss/use-stable-elixir
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #429 from mremond/master
+Merge pull request #414 from weiss/fix-function-specs
+Merge pull request #413 from weiss/fix-timestamp-overflow
+Merge pull request #410 from weiss/enable-transient-supervisors
+Merge pull request #409 from hamano/scram-stringprep-checking
+Merge pull request #400 from toopay/patch-clarity-cleanup
+Merge pull request #399 from toopay/patch-cleanup-unused-vars
+Merge pull request #396 from hamano/scram-stringprep-checking
+Merge pull request #383 from weiss/fix-shutdown
+Merge pull request #395 from weiss/fix-turn-example
+Merge pull request #387 from weiss/fix-captcha-without-proto
+Merge pull request #379 from weiss/polish-readme
+Merge pull request #377 from weiss/new-timestamps
+Merge pull request #374 from weiss/fix-muc-log-config
+Merge pull request #366 from weiss/remove-unused-field
+Merge pull request #350 from flygoast/master
+Merge pull request #365 from weiss/csi-config
+Merge pull request #364 from weiss/copy-normal-messages
+Merge pull request #363 from weiss/drop-pep-errors
+Merge pull request #354 from weiss/pep-privacy
+Merge pull request #352 from weiss/no-last-pep-duplicates
+Merge pull request #223 from kaLaJengkinG/patch-1
+Merge pull request #361 from weiss/parse-ldap-dn-filter
+Merge pull request #360 from lbanders/master
+Merge pull request #351 from weiss/floating-muc-intervals
+Merge pull request #345 from weiss/last-pep-items
+Merge pull request #346 from weiss/fix-type
+Merge pull request #341 from sezuan/fix-kick-user-command
+Merge pull request #340 from weiss/disable-mechanisms
+Merge pull request #337 from weiss/fix-install-without-json
+Merge pull request #335 from weiss/avoid-carbon-dups
+Merge branch 'master' of github.com:processone/ejabberd
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #328 from flygoast/master
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #330 from weiss/accept-newline
+Merge pull request #325 from weiss/auth-after-tls
+Merge pull request #321 from weiss/fix-http-request-record
+Merge pull request #324 from liudanking/master
+Merge pull request #322 from weiss/xep-0198
+Merge pull request #317 from weiss/xep-0198
+Merge pull request #318 from weiss/remove-xmlrpc-dep
+Merge pull request #316 from weiss/really-require-tls
+Merge pull request #310 from weiss/ignore-rel-dir
+Merge pull request #303 from weiss/no-csi-if-unconfigured
+Merge pull request #307 from weiss/remove-invisible-presence
+Merge pull request #302 from weiss/ldap-deref-aliases
+Merge pull request #301 from Iperity/master
+Merge pull request #300 from weiss/resend-if-offline
+Merge pull request #299 from sjmackenzie/processone
+Merge pull request #298 from weiss/csi
+Merge pull request #297 from weiss/remove-configure-flag
+Merge pull request #296 from weiss/remove-unused-clause
+Merge pull request #295 from weiss/xep-0198
+Merge pull request #293 from weiss/fix-comment
+Merge pull request #292 from weiss/fix-xep-reference
+Merge pull request #287 from vesvalo/master
+Merge pull request #286 from vesvalo/fix_pep_odbc_publishing
+Merge pull request #284 from weiss/infinity-vs-unlimited
+Merge pull request #283 from weiss/allow-unlimited-ack-queue
+Merge pull request #282 from weiss/fix-muc-option-docs
+Merge pull request #280 from weiss/store-persistent-muc-on-init
+Merge pull request #277 from weiss/xep-0198
+Merge pull request #276 from weiss/xep-0198
+Merge pull request #269 from Iperity/master
+Merge pull request #268 from benlangfeld/fix/ldap_filter_dnattributes_new_ejabberd
+Merge pull request #273 from gamenet/master
+Merge pull request #2 from vesvalo/master
+Merge pull request #1 from vesvalo/master
+Merge pull request #270 from weiss/log-s2s-in-auth
+Merge pull request #267 from weiss/replace-echo-calls
+Merge pull request #266 from weiss/remove-http
+Merge pull request #265 from weiss/mention-starttls-required
+Merge pull request #264 from weiss/su-without-p
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #263 from weiss/fix-ejabberdctl-issues
+Merge pull request #262 from weiss/update-gitignore
+Merge pull request #261 from weiss/no-bash
+Merge pull request #257 from weiss/fix-option-name
+Merge pull request #250 from Iperity/master
+Merge pull request #254 from weiss/replace-bashism
+Merge pull request #253 from weiss/fix-config-comments
+Merge pull request #251 from weiss/enable-riak-tests
+Merge pull request #248 from mathiasertl/master
+Merge pull request #243 from matwey/master
+Merge pull request #238 from weiss/log-node-mismatch
+Merge pull request #237 from weiss/log-config-path
+Merge pull request #231 from hamano/case_clause_error_at_node_hometree_odbc
+Merge pull request #232 from weiss/dont-drop-listen-options
+Merge pull request #230 from weiss/fix-dependency-list
+Merge pull request #229 from weiss/no-carbons-to-sender
+Merge pull request #228 from weiss/turn-down-carbons-logging
+Merge pull request #227 from weiss/xep-0198
+Merge pull request #206 from weiss/xep-0198
+Merge pull request #226 from weiss/simplify-state-change
+Merge pull request #225 from weiss/use-fsm-next-state
+Merge pull request #220 from weiss/handle-send-failure
+Merge pull request #222 from weiss/keep-session-on-failed-resume
+Merge pull request #221 from weiss/omit-redundant-guard
+Merge pull request #218 from weiss/omit-iq-xmlns
+Merge branch 'weiss-check-packet-type' into 3
+Merge branch 'check-packet-type' of git://github.com/weiss/ejabberd into weiss-check-packet-type
+Merge pull request #217 from weiss/fix-extauth-cache-usage
+Merge pull request #216 from lavrin/p1-c2s
+Merge pull request #215 from weiss/fix-url-markup
+Merge pull request #208 from weiss/update-travis-config
+Merge pull request #207 from weiss/xep-0334
+Merge pull request #213 from weiss/fix-xmlrcp-doc-url
+Merge pull request #212 from weiss/fix-presence-updates
+Merge pull request #209 from weiss/rename-disconnect-user
+Merge pull request #205 from weiss/xep-0198
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #203 from hamano/added_get_random_pid_error_handling
+Merge pull request #180 from hamano/mysql_table
+Merge pull request #200 from hamano/mod_offline_bug
+Merge pull request #166 from weiss/xep-0198
+Merge remote-tracking branch 'processone/master' into xep-0198
+Merge pull request #198 from weiss/add-travis-support
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #195 from Iperity/master
+Merge pull request #194 from weiss/mysql-user-at-localhost
+Merge pull request #192 from hamano/fix_ejabberd_system_monitor_error
+Merge pull request #178 from hamano/devel
+Merge pull request #191 from hamano/added_get_random_pid_error_handling
+Merge pull request #190 from hamano/mod_register_web_response_404
+Merge pull request #187 from weiss/fix-ejabberdctl-output
+Merge pull request #189 from weiss/markdown-readme
+Merge pull request #177 from weiss/log-tls-sasl-external
+Merge pull request #181 from weiss/check-tls-before-auth
+Merge pull request #185 from weiss/verify-cert-for-s2s-out
+Merge pull request #186 from weiss/add-disconnect-command
+Merge pull request #188 from weiss/update-readme
+Merge pull request #182 from hamano/register_account_acl
+Merge pull request #179 from hamano/added_get_random_pid_error_handling
+Merge pull request #184 from weiss/properly-abort-s2s-in
+Merge pull request #176 from hamano/devel
+Merge pull request #174 from weiss/fix-s2s-in-auth
+Merge pull request #162 from weiss/enable-carbons
+Merge pull request #161 from weiss/fix-carbons
+Merge pull request #173 from weiss/force-configure-regeneration
+Merge pull request #172 from weiss/accept-extauth-cache-false
+Merge pull request #171 from weiss/update-doc-url
+Merge pull request #170 from weiss/fix-doc-typos
+Merge pull request #160 from runcom/protocol_options
+Merge pull request #167 from weiss/fix-modules-doc
+Merge pull request #168 from weiss/carbons-doc
+Merge pull request #165 from weiss/fix-access-doc
+Merge pull request #146 from jamielinux/master
+Merge pull request #159 from weiss/update-gitignore
+Merge pull request #158 from weiss/fix-lang-type
+Merge pull request #157 from weiss/fix-mod-update
+Merge pull request #156 from hamano/devel
+Merge pull request #149 from iulianlaz/carboncopy-fix-msg-back-to-original-sender
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #145 from weiss/fix-configure-flag
+Merge pull request #144 from weiss/fix-supervisor-start
+Merge pull request #134 from mrjameshamilton/patch-1
+Merge pull request #119 from Mikhail-D/patch-1
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #85 from imtal/patch-1
+Merge pull request #83 from tagged/makefile
+Merge pull request #82 from tuncer/rebar-debug_info
+Merge branch 'master' of github.com:processone/ejabberd
+Merge branch 'master' of github.com:processone/ejabberd
+Merge branch 'master' of github.com:processone/ejabberd
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #69 from PaulSD/master
+Merge pull request #67 from anton-ryzhov/config_example
+Merge pull request #62 from PaulSD/master
+Merge pull request #57 from rraptorr/carboncopy
+Merge branch 'master' of github.com:processone/ejabberd
+Merge pull request #37 from rraptorr/tls
+Merge SQL and Mnesia code into one module (EJAB-1560)
+Merge set_affiliation/3 and set_affiliation_and_reason/4 into set_affiliation/4
+Merge branch '2.1.x' of git+ssh://gitorious.process-one.net/ejabberd/mainline into 2.1.x
+Merge branch '2.1.x' of git+ssh://git@gitorious.process-one.net/ejabberd/mainline.git into 2.1.x
+Merge branch 'caps' into 2.1.x
+Merge branch '2.1.x' of git+ssh://gitorious.process-one.net/ejabberd/mainline into 2.1.x
+Merge branch '2.1.x' of git+ssh://gitorious.process-one.net/ejabberd/mainline into 2.1.x
+Merge misplaced 2055 2058 and 2062 from ejabberd-2.0.4.
+Merge SVN r1287 from trunk to 2.0.x branch:
+Merge changesets 1150 and 1151 into branch ejabberd-2.0.x: * src/Makefile.in: Allow compilation with Erlang R12 (EJAB-446) (thanks to Sergei Golovan and Maxim Treskin). Erlang R12 version is not supported and not recommended for production servers. * src/aclocal.m4: Likewise * src/configure.ac: Likewise * src/configure: Likewise * src/ejabberd_s2s_in.erl: Likewise
+Merged Process One contribution (Virtual Hosting)
+Merged the Process One contributions ( Virtual Hosting )

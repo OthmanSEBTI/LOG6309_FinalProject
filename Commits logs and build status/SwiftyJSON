@@ -1,0 +1,745 @@
+af1f7a2007d607fbe735c445f19080df4260fe8e,Merge pull request #1124 from luoxiu/master,Tue, 1 Nov 2022 23:24:23 +0800,Tue, 1 Nov 2022 23:24:23 +0800
+764c0c8b944574cd63592a452c23865f54b66d0d,fix compile warning, which will be compile error in upcoming swift 6,Mon, 31 Oct 2022 18:34:10 +0800,Mon, 31 Oct 2022 18:37:29 +0800
+f8d4d57ebac1817f6aa161014f1d4e2e119cbf7b,Merge pull request #1098 from lewis-smith/patch-1,Wed, 5 Oct 2022 14:56:53 +0800,Wed, 5 Oct 2022 14:56:53 +0800
+13f79bfd65260c1b30e70b0bf58947cd78ffee74,Merge pull request #1114 from Dahlgren/bugfix/xcode-13.3-build-phases,Wed, 5 Oct 2022 14:56:31 +0800,Wed, 5 Oct 2022 14:56:31 +0800
+84bf7837a3da22099567b737899b98af15c37a67,Reorder build phases to fix Xcode 13.3 issue,Tue, 15 Mar 2022 16:29:48 +0100,Tue, 15 Mar 2022 20:25:58 +0100
+69c58e20d11991516ac9f0f3496f252bf067295f,fix typo,Fri, 2 Apr 2021 09:16:50 +0100,Fri, 2 Apr 2021 09:16:50 +0100
+b3dcd7dbd0d488e1a7077cb33b00f2083e382f07,chore: bump cocoapods version,Sun, 28 Mar 2021 07:46:13 +0800,Sun, 28 Mar 2021 07:46:16 +0800
+99b3f4bb87261f9ed805ade158c4e9c451f4a8d0,Merge pull request #1068 from H3RSKO/H3RSKO-readme-update,Sun, 21 Feb 2021 16:55:54 +0800,Sun, 21 Feb 2021 16:55:54 +0800
+c73fe0b75d030f1ff6401fe85662f9129318b990,Merge pull request #1067 from DenTelezhkin/xcode-12,Sun, 21 Feb 2021 16:54:02 +0800,Sun, 21 Feb 2021 16:54:02 +0800
+70067f581fceb94bcda070762279025515e6b365,Updated Readme,Sun, 16 Aug 2020 13:27:18 -0400,Sun, 16 Aug 2020 13:27:18 -0400
+774f1e2b01b16e7e399b4e057d2f7b9c8526ba1a,Bump iOS deployment target to iOS 9. Remove platforms from Package.swift.,Tue, 11 Aug 2020 13:21:06 +0300,Tue, 11 Aug 2020 13:21:06 +0300
+cbf2d4955557abc1ed5debab21d20763e7ebc540,Merge pull request #1049 from toneloc/patch-1,Tue, 10 Mar 2020 23:32:57 +0800,Tue, 10 Mar 2020 23:32:57 +0800
+d68db819a15f70dfc00d000977d4e64ce25a8b58,removed broken link,Fri, 6 Mar 2020 15:11:29 -0600,Fri, 6 Mar 2020 15:11:29 -0600
+bad5f2f94a71216a32c030a3586bdcfc1f7e660b,Bump to 5.0.0,Mon, 15 Apr 2019 23:01:18 +0800,Mon, 15 Apr 2019 23:01:18 +0800
+2b6054efa051565954e1d2b9da831680026cd768,Merge pull request #1018 from SwiftyJSON/chore-code-base,Tue, 2 Apr 2019 22:10:40 +0800,Tue, 2 Apr 2019 22:10:40 +0800
+9c3ec36551b3ab3efb2fe38d53f1b9d68743f534,chore: improve code base,Tue, 2 Apr 2019 18:39:43 +0800,Tue, 2 Apr 2019 18:39:43 +0800
+e0511293fcdc0a31f585370be8623e745ec34403,Update project settings,Tue, 2 Apr 2019 15:54:01 +0800,Tue, 2 Apr 2019 15:54:01 +0800
+15634683bf71fd33b6bb022117ba48b9c7ac64dc,Merge pull request #1017 from SwiftyJSON/xcode10.2-swift5,Tue, 2 Apr 2019 15:28:04 +0800,Tue, 2 Apr 2019 15:28:04 +0800
+f7ec2badf80fd27ab5f2bd15599530bed41717e7,Bump pod version to 4.3.0 and update ci image to Xcode 10.2,Tue, 2 Apr 2019 15:08:09 +0800,Tue, 2 Apr 2019 15:08:09 +0800
+8bbb74eec7366de10f78a05fc9dff588337c117e,Updated swift-tools to version 5.0 (#1013),Sun, 31 Mar 2019 19:44:03 +0200,Mon, 1 Apr 2019 01:44:03 +0800
+645f1e39bd53dd07fb2a1b7cc8d8be043b701bcc,Add a "Reviewed by Hound" badge (#1006),Sun, 31 Mar 2019 10:39:11 -0700,Mon, 1 Apr 2019 01:39:11 +0800
+53559ee35727703bfef031af74babf07ead15f7d,Update README.md (#1010),Sun, 31 Mar 2019 08:15:21 -0400,Sun, 31 Mar 2019 20:15:21 +0800
+3f6f1d32df6e5f334593682b20bb829e48bffbee,Update README.md,Wed, 26 Sep 2018 18:03:28 +0800,Wed, 26 Sep 2018 18:03:28 +0800
+cf762e63d2f4062b755c92d47bb4ef4b76d6edde,Remove unused script,Wed, 26 Sep 2018 17:22:43 +0800,Wed, 26 Sep 2018 17:22:43 +0800
+027f1bc1c0b8c5f7f5fad7a26a6730f7d6458ee8,SwiftyJSON Model Generator Tools Reference added (#976),Wed, 26 Sep 2018 12:54:28 +0530,Wed, 26 Sep 2018 15:24:28 +0800
+1b8d86068e03417243e7f05471d5d5442e55d9de,Merge pull request #989 from SwiftyJSON/modify-directory,Wed, 26 Sep 2018 12:37:18 +0800,Wed, 26 Sep 2018 12:37:18 +0800
+32413d7055cf8f5dce334dd687e9b4323dc21437,Re-organize directories,Wed, 26 Sep 2018 12:20:00 +0800,Wed, 26 Sep 2018 12:20:00 +0800
+184c6884998c41f71a73c459f9b525b7121be846,Remove deprecated API in 4.2.0,Wed, 26 Sep 2018 00:20:01 +0800,Wed, 26 Sep 2018 00:20:01 +0800
+b51eb540e5b4351628f91a50d34385fe73e2c659,Remove .swift-version file,Tue, 25 Sep 2018 23:48:52 +0800,Tue, 25 Sep 2018 23:48:52 +0800
+3451da4ea3f835bb9e0113afdabc4a69605cf44b,Version bump to 4.2.0,Tue, 25 Sep 2018 23:39:29 +0800,Tue, 25 Sep 2018 23:39:29 +0800
+d84bba05650a0eefc5fc61326abbfb843a3ea57e,Merge pull request #983 from SwiftyJSON/xcode10.0,Tue, 25 Sep 2018 23:34:19 +0800,Tue, 25 Sep 2018 23:34:19 +0800
+a764a1cce885ccd4b0b5a68f3496340cc076b813,Merge pull request #978 from qkdreyer/patch-1,Tue, 25 Sep 2018 23:25:59 +0800,Tue, 25 Sep 2018 23:25:59 +0800
+747a29f8d9e85448b231d8f34d5eac29e664774c,Update min requirement of watchOS to 3.0,Tue, 25 Sep 2018 23:22:01 +0800,Tue, 25 Sep 2018 23:22:01 +0800
+cd8ea07d5b44673fbf882e535bc3102e05858d34,Fix version,Tue, 25 Sep 2018 23:14:26 +0800,Tue, 25 Sep 2018 23:14:26 +0800
+44dc2dc7f28b0485876c9280b0dfda93ff6fcbeb,Added swift_version to podspec,Tue, 21 Aug 2018 16:06:51 +0200,Mon, 24 Sep 2018 14:38:15 +0200
+1f37a67c6163be2561aaa1854cb921c54d1ad73c,Update CI to Xcode 10.0/iOS 12.0,Tue, 18 Sep 2018 13:13:56 +0800,Tue, 18 Sep 2018 13:13:56 +0800
+05e40f8b1240e44f2357086cc69185f1692a1d3d,Update build settings to Xcode 10.0,Tue, 18 Sep 2018 13:11:05 +0800,Tue, 18 Sep 2018 13:11:05 +0800
+b93c5d2bd883959262b4c7aabe333667dadb1ab0,Merge pull request #959 from wongzigii/update-setting,Wed, 9 May 2018 17:33:24 +0800,Wed, 9 May 2018 17:33:24 +0800
+454458d12752b19dfe47d7b0a43870cc66e63b2a,Update Xcode Settings,Wed, 9 May 2018 00:58:19 +0800,Wed, 9 May 2018 00:58:19 +0800
+ebfc0d7e314f15c1df02fcb198beb40624421839,Version bump to 4.1.0,Wed, 18 Apr 2018 23:41:35 +0800,Wed, 18 Apr 2018 23:41:35 +0800
+a1700fbb554857fabaa6278222ed31ff3aec3c1e,Merge pull request #947 from otaviolima/improve-string-tests,Fri, 13 Apr 2018 01:20:18 +0800,Fri, 13 Apr 2018 01:20:18 +0800
+31cc446ed93e6f6aa88254b8f1cc8868a6751458,Merge pull request #954 from SwiftyJSON/xcode9.3-ci,Fri, 13 Apr 2018 01:19:18 +0800,Fri, 13 Apr 2018 01:19:18 +0800
+1968e3bd1d64744099e21e4e774b3cdc5e926abd,Xcode9.3 image no longer support Apple TV 1080p,Fri, 13 Apr 2018 01:10:02 +0800,Fri, 13 Apr 2018 01:10:02 +0800
+b399fdb4ca9391d970315e37d8fd58c288a4ba42,Update osx image to 9.3,Wed, 11 Apr 2018 10:48:01 +0800,Wed, 11 Apr 2018 10:48:01 +0800
+594b6c84be8cfb94643183d6e9834e8f3fe15c5f,Merge pull request #953 from SwiftyJSON/readme,Wed, 11 Apr 2018 10:42:45 +0800,Wed, 11 Apr 2018 10:42:45 +0800
+f2126db35c1142b9c9028a69d04dde67f17562e8,Update README.md,Wed, 11 Apr 2018 10:30:57 +0800,Wed, 11 Apr 2018 10:30:57 +0800
+2c64ddc51ba00d28b5f89e652b02e89ab4bdc9e2,Merge pull request #951 from SwiftyJSON/xcode9.3,Wed, 11 Apr 2018 09:57:08 +0800,Wed, 11 Apr 2018 09:57:08 +0800
+666b39860d9ad09ab1e724ce840893c5822c1144,Merge pull request #952 from bojanstef/master,Wed, 11 Apr 2018 09:52:38 +0800,Wed, 11 Apr 2018 09:52:38 +0800
+1284c0619d8d8cff3d0ea57beed0614a3980b960,Updated broken Twitter API link,Tue, 10 Apr 2018 10:10:05 -0700,Tue, 10 Apr 2018 10:10:05 -0700
+42c3848afc684baf0f341ea9265ddddf8af3a5c0,Update to Xcode 9.3 recommend settings,Wed, 11 Apr 2018 01:01:52 +0800,Wed, 11 Apr 2018 01:01:52 +0800
+bbd9abff2c86a65ea6d63eaf526eb7dc0cac0aa0,Improve broken testcases,Wed, 11 Apr 2018 01:01:17 +0800,Wed, 11 Apr 2018 01:01:17 +0800
+e315d0f1e2594e250b13c9d7445de10226f812ea,Merge pull request #923 from wleii/support_codable,Wed, 11 Apr 2018 00:29:45 +0800,Wed, 11 Apr 2018 00:29:45 +0800
+481ba1eb19f2efdbf58b7f3daf2bf4ad9d1291dd,Add String to .boolValue tests for "Yes" and "1",Wed, 28 Mar 2018 20:33:17 +0300,Wed, 28 Mar 2018 20:37:13 +0300
+38d9815729537f18fe09310b839edb622bfb8c08,Support Codable,Tue, 9 Jan 2018 21:08:32 +0800,Wed, 28 Mar 2018 12:23:17 +0800
+6bbffd341e91df5bf91af2b7572de67c63a35da0,Merge pull request #929 from tomduncalf/patch-1,Wed, 28 Mar 2018 09:42:09 +0800,Wed, 28 Mar 2018 09:42:09 +0800
+da527cf88a1661ac369bf0df889353c10bee26ae,Update README to specify correct JSONSubscriptType,Tue, 16 Jan 2018 21:54:12 +0100,Tue, 16 Jan 2018 21:54:12 +0100
+fb67763f27990ba76a42bf412f848af5aef5e5ea,Update README.md,Wed, 8 Nov 2017 03:47:20 -0600,Wed, 8 Nov 2017 03:47:20 -0600
+d9682fb9e722fc6aefe664ff7c87ee16a94df4fc,Version bump to 4.0.0,Wed, 8 Nov 2017 17:11:34 +0800,Wed, 8 Nov 2017 17:11:34 +0800
+f1d4918909fdf3c0ca321bc95ea12fa3115d05ff,Merge pull request #907 from wongzigii/4.0.0,Wed, 8 Nov 2017 02:58:54 -0600,Wed, 8 Nov 2017 02:58:54 -0600
+f70c37975ad1a319209e97c6551cfacf317dc8d1,Merge pull request #902 from JeffGuKang/feature/README,Wed, 8 Nov 2017 00:01:47 -0600,Wed, 8 Nov 2017 00:01:47 -0600
+c3dd7fa680ff7a88b632ca169a5324c68c673881,Merge pull request #905 from JeffGuKang/feature/playgroundDoc,Wed, 8 Nov 2017 00:00:32 -0600,Wed, 8 Nov 2017 00:00:32 -0600
+dd861383ba4f9b7859e378315c5d1b734dcbfe81,Add .hound.yml,Wed, 8 Nov 2017 13:32:30 +0800,Wed, 8 Nov 2017 13:32:30 +0800
+89361aec8b87bc5ae4f59b9943fce44f1b7e3d68,Fix SwiftLint violations,Tue, 7 Nov 2017 22:27:11 +0800,Tue, 7 Nov 2017 22:27:11 +0800
+73966c08057721bdf0c05d741ebd3099f1b4269f,Code base improvement,Tue, 7 Nov 2017 22:10:44 +0800,Tue, 7 Nov 2017 22:10:44 +0800
+c108f95c6c3a385153c437e4ecdc6c136cc79fb0,Format code documentation,Tue, 7 Nov 2017 19:03:43 +0800,Tue, 7 Nov 2017 19:03:43 +0800
+874520d49c05b2391928fd28243e4a615da09f4d,Fix violations,Tue, 24 Oct 2017 21:55:35 +0900,Tue, 24 Oct 2017 21:55:35 +0900
+f730539ce4c30ed843b93f91a8140c486d283742,Update the playground documentation Add all sections of usage.,Tue, 24 Oct 2017 21:46:42 +0900,Tue, 24 Oct 2017 21:46:42 +0900
+1c5e98704e10766f06c05aae8df18eaf4cfb3803,Update README.md,Tue, 24 Oct 2017 20:49:32 +0900,Tue, 24 Oct 2017 20:49:32 +0900
+030c1a9aa9e80b25172eec5f03e33b513a127358,Update deprecated examples and comments to fit the style,Sun, 22 Oct 2017 10:52:04 +0900,Sun, 22 Oct 2017 10:52:04 +0900
+3c83ad485a11f53244e077d9b7625fbb2deee937,Merge pull request #899 from ntoonio/master,Sat, 21 Oct 2017 00:29:23 -0500,Sat, 21 Oct 2017 00:29:23 -0500
+f70af920fa12eccea13330ea66a1033445ab97cd,Fixed name in licenses,Sun, 15 Oct 2017 17:47:11 +0200,Sun, 15 Oct 2017 17:47:11 +0200
+e1b9090415109b61b6f16b97c75399ed1bec5e62,Merge pull request #897 from SwiftyJSON/rename-path,Mon, 25 Sep 2017 23:33:58 -0500,Mon, 25 Sep 2017 23:33:58 -0500
+61c612fcc4c336c0ef3116573e49ebb7eed0fa34,Fix broken path after renaming,Tue, 26 Sep 2017 12:14:26 +0800,Tue, 26 Sep 2017 12:14:26 +0800
+6a6f87ae030582ae3acc9fbbd57b4d9b0dae6e15,Merge pull request #896 from SwiftyJSON/rename-macOS,Mon, 25 Sep 2017 23:02:20 -0500,Mon, 25 Sep 2017 23:02:20 -0500
+076a7073947604224c3a015b31da0fc7f1618113,Update .travis.yml,Tue, 26 Sep 2017 11:54:29 +0800,Tue, 26 Sep 2017 11:54:29 +0800
+647b6feba8bcf4f728eda5f123ee4070f25332ad,Rename `OS X` to `macOS`,Tue, 26 Sep 2017 11:34:06 +0800,Tue, 26 Sep 2017 11:34:06 +0800
+4e117f4709e239bfa19dcdcce1b077be88f956b2,Merge pull request #893 from SwiftyJSON/issue-892,Fri, 15 Sep 2017 16:53:08 +0800,Fri, 15 Sep 2017 16:53:08 +0800
+8d03539eab116d52a2f09e45c35d49117cb100ae,[gardening] Remove print functions and XCTFail(),Thu, 14 Sep 2017 22:24:43 +0800,Thu, 14 Sep 2017 22:24:43 +0800
+a17635734e62a9101e57eb791fff60f027bf9b1e,Address #892,Sat, 9 Sep 2017 14:59:43 +0800,Sat, 9 Sep 2017 14:59:43 +0800
+6b9f11e2bbd277f199b1c09fa65631bfc52d4a5d,Bump version to 4.0.0-alpha.1,Fri, 8 Sep 2017 16:56:24 +0800,Fri, 8 Sep 2017 16:56:24 +0800
+29957c71dfff7c467255f61a2642adf187f20eb2,Merge pull request #887 from SwiftyJSON/bool-value,Fri, 8 Sep 2017 12:58:25 +0800,Fri, 8 Sep 2017 12:58:25 +0800
+50ecfbe0e6dfb242c6fe840ef689bf7fc735777e,Compress SwiftLint violation,Fri, 8 Sep 2017 12:42:30 +0800,Fri, 8 Sep 2017 12:42:30 +0800
+112c9e2beb13f3f1039838567e3b954377f3a8e6,Add "yes" and "1" to string.boolValue array,Fri, 8 Sep 2017 12:32:50 +0800,Fri, 8 Sep 2017 12:32:50 +0800
+6835ea4bc19ab36406e4c7450522259dfc3ed8e1,Merge pull request #880 from wongzigii/Xcode9-beta,Fri, 8 Sep 2017 11:27:21 +0800,Fri, 8 Sep 2017 11:27:21 +0800
+7fdd0cb9b110bc9cb55c9f4095e2a49d2b11a996,Update README.md,Wed, 30 Aug 2017 15:49:04 +0800,Wed, 30 Aug 2017 15:49:04 +0800
+f8cb0b71cb236029c9372f9c7634b94c7974e772,[SwiftLint] Compress SwiftLint violations,Wed, 30 Aug 2017 15:02:27 +0800,Wed, 30 Aug 2017 15:02:27 +0800
+f8dc059d6a28ea52026f04803a753578a7f448d0,[SwiftLint] Change SwiftLint target to macOS platform,Wed, 30 Aug 2017 15:02:10 +0800,Wed, 30 Aug 2017 15:02:10 +0800
+a4c9b8054a7a079eeaac2ef0cf20c0ed368f4294,[Xcode9-beta] Update travisCI to Xcode9 image,Wed, 30 Aug 2017 14:58:14 +0800,Wed, 30 Aug 2017 14:58:14 +0800
+2aab76f7f39e9272ab4193b7f8867be091d27f0a,[Xcode9-beta]  set `SWIFT_SWIFT3_OBJC_INFERENCE` to default,Wed, 30 Aug 2017 14:57:52 +0800,Wed, 30 Aug 2017 14:57:52 +0800
+c2eecc8417e0351545fc6b366e8bb10ae84b2fc9,[Xcode9-beta] Fix some failure unit-tests in Swift 4,Wed, 30 Aug 2017 14:57:23 +0800,Wed, 30 Aug 2017 14:57:23 +0800
+f382ac2fb28788b0bb735b0047598f9e4a9c684b,Merge branch 'master' of https://github.com/SwiftyJSON/SwiftyJSON into Swift4-Xcode9,Wed, 30 Aug 2017 14:29:46 +0800,Wed, 30 Aug 2017 14:29:46 +0800
+e4b2644167341faf9622062307b5b2e18f8a506f,Merge pull request #878 from Tawfikk/master,Mon, 28 Aug 2017 10:29:37 +0800,Mon, 28 Aug 2017 10:29:37 +0800
+2a27d763dccd64e71db0acd3b6ff75164b748078,Fix Trailing Whitespace Violation,Wed, 23 Aug 2017 19:59:04 +0900,Sat, 26 Aug 2017 15:38:03 +0800
+be15beba7357ac8b6e1658795b2e0b6412887449,Update comments applied same rules,Fri, 18 Aug 2017 19:47:17 +0900,Sat, 26 Aug 2017 15:38:03 +0800
+fffe564b0d8e729bf95dc0f100ff221092c4c4b5,Update comments by same rule of markup for formatting quick help,Fri, 18 Aug 2017 19:34:16 +0900,Sat, 26 Aug 2017 15:38:03 +0800
+7ffd87c4918df2c410ba76717ac88915ab030307,Fix wrong descriptions and renamed in deprecated error code,Fri, 18 Aug 2017 17:37:29 +0900,Sat, 26 Aug 2017 15:38:03 +0800
+522575b5cd291bdc574e9c247f78e65a620d341c,Tiny optimization,Tue, 22 Aug 2017 01:13:32 +0300,Tue, 22 Aug 2017 01:16:45 +0300
+e9e53b8076e3cc8eabcb6ea53d70395b136dad5e,Compress SwiftLint violations,Tue, 15 Aug 2017 12:28:51 +0800,Tue, 15 Aug 2017 12:37:01 +0800
+1e99c7b7383ad107ad17d4300e43264395ea2529,Address #870,Tue, 15 Aug 2017 12:24:42 +0800,Tue, 15 Aug 2017 12:37:01 +0800
+b5453968803e80785f7faae78b3fe56bb061f67e,[Gardening] Fix TravisCI,Tue, 15 Aug 2017 11:42:32 +0800,Tue, 15 Aug 2017 11:57:34 +0800
+52ff87909072f56e55017e90d3c3e8ee7ea2ef2a,[Travis] Use stable version over head version,Tue, 15 Aug 2017 11:27:07 +0800,Tue, 15 Aug 2017 11:57:34 +0800
+7b02c2b5be2d43dfb2d4f24efd63067dc1c8f1b5,[Travis] Update osx_image to Xcode8.3,Tue, 15 Aug 2017 11:15:51 +0800,Tue, 15 Aug 2017 11:57:34 +0800
+14147406199b38473f50bf2a21cf9482b3576deb,Add detail about deprecated method,Mon, 26 Jun 2017 12:17:14 +0800,Tue, 15 Aug 2017 11:57:34 +0800
+2f0d8283612580dd4ce7242c5e13b59a3f8fe1a1,[Swift4] Update System recommend settings,Tue, 15 Aug 2017 11:13:07 +0800,Tue, 15 Aug 2017 11:13:07 +0800
+ebc305b69ecca005b636f20e0db4d07d19d333fa,Update examples that makes warning in README `.error` to `error!`.,Sun, 4 Jun 2017 23:40:09 +0900,Mon, 26 Jun 2017 10:34:45 +0800
+a4a099b6eeeb43541bbee205ebb35816be77ec4d,Change NSNumber extension’s property to fileprivate,Fri, 26 May 2017 11:06:54 +0800,Mon, 26 Jun 2017 10:16:49 +0800
+d932f6498b9acdd286e65ff6691c3dd3518b086e,Merge pull request #852 from matthew-an/potential-crash-fix,Sat, 3 Jun 2017 11:37:12 +0800,Sat, 3 Jun 2017 11:37:12 +0800
+e9c12fafcb58454518f432a6f6c4a915a0a11762,Fix a potential crash issue by checking whether index is out of json array’s bound.,Fri, 2 Jun 2017 09:24:14 +1200,Fri, 2 Jun 2017 09:24:14 +1200
+236aabb0a18c0b9a1084e9b6dce00cffc99c3d45,Fix three typos,Fri, 2 Jun 2017 09:15:37 +1200,Fri, 2 Jun 2017 09:15:37 +1200
+121d6cc3715822145fd83b8679d7e1644b2e1c59,Merge pull request #846 from matthew-an/master,Thu, 1 Jun 2017 10:12:20 +0800,Thu, 1 Jun 2017 10:12:20 +0800
+ddfb135d5f043907db534a5c49590139d4aba531,Get rid of trailing whitespaces,Thu, 25 May 2017 15:53:02 +1200,Thu, 25 May 2017 15:53:02 +1200
+bb01068dce240885c073ca6df1fc4dfcedeeb560,Declare JSON’s type and error in a concise way.,Thu, 25 May 2017 15:26:46 +1200,Thu, 25 May 2017 15:26:46 +1200
+4a62eb3a37e1e694a7f83d50093e803f966055ba,Merge pull request #844 from Nonchalant/feature/fix_version_string,Thu, 18 May 2017 14:22:07 +0800,Thu, 18 May 2017 14:22:07 +0800
+f261e70e942404ed6675f83b35799b884d42ad06,Fix comma-spacing on version string.,Wed, 17 May 2017 20:34:47 +0900,Wed, 17 May 2017 20:34:47 +0900
+74c3f1c96aadaa597b42bfd108eb02d0af409434,Update README.md,Wed, 3 May 2017 22:29:13 +0800,Wed, 3 May 2017 22:41:55 +0800
+0bf454603f31554a66e0cabb28d1d03eb8fd754c,Added SwiftyJSONError namespace,Wed, 3 May 2017 22:15:59 +0800,Wed, 3 May 2017 22:41:55 +0800
+d3ae7a1bd16bac12fb81c6ddb1503311335fe9eb,Fix failure testcases,Sat, 22 Apr 2017 15:47:26 +0800,Wed, 3 May 2017 22:41:55 +0800
+083c6d7c42222846348dd5322ba01186adabf431,Moving from NSError to Swift.Error,Sat, 22 Apr 2017 15:46:11 +0800,Wed, 3 May 2017 22:41:55 +0800
+03bcacb1a7a428e569eecd0afb2d811c8d0e1f56,Merge pull request #835 from JackSteven/patch-1,Thu, 20 Apr 2017 16:40:37 +0800,Thu, 20 Apr 2017 16:40:37 +0800
+acbe2412dc58f79fe49b13cdcffceeae49e3bd4f,call can throw but is not marked with try,Thu, 20 Apr 2017 14:51:50 +0800,Thu, 20 Apr 2017 14:51:50 +0800
+f9afe967e2637db74ed93d75cf4967e3e26d9846,Merge pull request #833 from wongzigii/error-handling,Sun, 16 Apr 2017 20:12:41 +0800,Sun, 16 Apr 2017 20:12:41 +0800
+06477da6d9b302389f68ff3e35d6863fbdc3cc52,[SwiftLint] Compress swiftlint violations,Sun, 16 Apr 2017 20:00:07 +0800,Sun, 16 Apr 2017 20:00:07 +0800
+4193f9b56ca0a5d2f54b22d9753d060ef3defb49,Merge branch 'master' into master,Sun, 16 Apr 2017 19:42:26 +0800,Sun, 16 Apr 2017 19:42:26 +0800
+9b325479a20006ac14f2e92de788a7983d7040db,Merge pull request #832 from wongzigii/swiftlint,Sun, 16 Apr 2017 17:16:34 +0800,Sun, 16 Apr 2017 17:16:34 +0800
+d106438eb21345a526c840340ec62594f64484e0,[SwiftLint] Prefer `!= nil` over `let _`,Sun, 16 Apr 2017 17:06:31 +0800,Sun, 16 Apr 2017 17:06:31 +0800
+a1d057f5b1e142ea823fcbe4d650bacd170a4246,Merge pull request #827 from mictab/fix-spelling,Sat, 15 Apr 2017 10:40:32 +0800,Sat, 15 Apr 2017 10:40:32 +0800
+de70760ff5c065a4397e5429e162398a1ab2db66,Fix spelling mistake,Tue, 4 Apr 2017 15:45:53 +0200,Tue, 4 Apr 2017 15:45:53 +0200
+74cda0fa5ae0be109b60a7dad396bcf92a9d5a13,Merge pull request #814 from neoneye/master,Wed, 15 Mar 2017 23:20:33 +0800,Wed, 15 Mar 2017 23:20:33 +0800
+619fba2d551b678aa0b6ceff1c863677f0eb7ff7,Merge pull request #813 from wongzigii/swiftlint,Wed, 1 Mar 2017 15:55:11 +0800,Wed, 1 Mar 2017 15:55:11 +0800
+71cae94f2ae3900369d0c760710bbc332614ac90,Converted tabs to spaces,Sun, 26 Feb 2017 13:41:30 +0000,Sun, 26 Feb 2017 13:41:30 +0000
+41f547272db2afef4def3d441d9670f49e23f637,RawTests.testNestedJSON() added,Sun, 26 Feb 2017 13:26:33 +0000,Sun, 26 Feb 2017 13:26:33 +0000
+0417977cead785f51054da08dfca970a303623da,[SwiftLint] Corrected Trailing Whitespace,Sat, 25 Feb 2017 02:01:57 +0800,Sat, 25 Feb 2017 02:01:57 +0800
+d6e1c7e45455ea7db41cca254c428e07400b0d28,Merge pull request #803 from wongzigii/swiftlint,Sat, 25 Feb 2017 01:53:28 +0800,Sat, 25 Feb 2017 01:53:28 +0800
+1d64b89d9aba1e82bd74a6393cfc3061250a8a80,Merge pull request #811 from wongzigii/github-temp,Fri, 24 Feb 2017 00:02:25 +0800,Fri, 24 Feb 2017 00:02:25 +0800
+bed4c303206a003b025680506679aac1cf7c4242,Merge pull request #807 from jobinsjohn/master,Thu, 23 Feb 2017 22:04:13 +0800,Thu, 23 Feb 2017 22:04:13 +0800
+cc071b333729c06687277d51a469824c2ca785d9,Move files into .github directory,Thu, 23 Feb 2017 21:54:34 +0800,Thu, 23 Feb 2017 21:54:34 +0800
+945710aa18c497b5ab9c21751af905a5c9f15653,Merge pull request #810 from wongzigii/github-template,Thu, 23 Feb 2017 21:52:16 +0800,Thu, 23 Feb 2017 21:52:16 +0800
+0e986772b1888181e54f60dae44090bb7947a0eb,Add github ISSUE and PULL_REQUEST TEMPLATE,Wed, 22 Feb 2017 23:51:03 +0800,Wed, 22 Feb 2017 23:51:03 +0800
+8936353a9c17b64e37ee72ac088dc8139ab33a3d,Updated Year in License File,Wed, 22 Feb 2017 09:32:49 +0400,Wed, 22 Feb 2017 09:32:49 +0400
+92cc41427e44da834f044880872e4e3985777fbc,Merge pull request #759 from JeffGuKang/feature/Example,Tue, 21 Feb 2017 12:20:34 +0800,Tue, 21 Feb 2017 12:20:34 +0800
+e1ce485cf1c0b786758a97a5e76c0771cc2f86c0,Merge branch 'master' of https://github.com/SwiftyJSON/SwiftyJSON into swiftlint,Tue, 21 Feb 2017 12:15:13 +0800,Tue, 21 Feb 2017 12:15:13 +0800
+024efa4e123d80d09e927c44eb51f8c34c5ef5b6,[SwiftLint] Remove parentheses of conditional,Tue, 21 Feb 2017 01:03:34 +0800,Tue, 21 Feb 2017 01:03:34 +0800
+831b47e0d50d7143a3db1e452be1572b4055b7b0,[SwiftLint] Satisfy implicit_getter rule,Tue, 21 Feb 2017 01:01:13 +0800,Tue, 21 Feb 2017 01:01:13 +0800
+ddd18f423193aede05f0f2873b945695086d4d8e,[SwiftLint] Satisfy operator_whitespace rule,Tue, 21 Feb 2017 00:53:31 +0800,Tue, 21 Feb 2017 00:53:31 +0800
+007cb9f32cbca0ba505657cb2b6df24ce2b540ca,Merge pull request #805 from SwiftyJSON/mutability-test,Mon, 20 Feb 2017 23:14:08 +0800,Mon, 20 Feb 2017 23:14:08 +0800
+3c1ab40abec704c1caf2484a4b288476c3add40a,[Tests] Improve SwiftyJSON Mutability test cases,Mon, 20 Feb 2017 22:35:51 +0800,Mon, 20 Feb 2017 22:35:51 +0800
+13653d9db20226871b5fdcd4cd605cda4d0f02e2,Merge pull request #793 from MikotoZero/master,Mon, 20 Feb 2017 19:25:39 +0800,Mon, 20 Feb 2017 19:25:39 +0800
+d02ca810a338240bc10a67b8e471f0373d2be868,Fix a spelling mistake and simplify initialize methods invoking,Mon, 20 Feb 2017 09:30:47 +0800,Mon, 20 Feb 2017 09:30:47 +0800
+395124dcf6f220980bc065f3b94402f2119c7fe0,[SwiftLint] Autocorrect code style,Fri, 17 Feb 2017 22:55:59 +0800,Fri, 17 Feb 2017 22:55:59 +0800
+5acb5d76655f5bf81dd258b18662f72fcd3964d0,[SwiftLint] add .swiftlint.yml,Fri, 17 Feb 2017 22:47:29 +0800,Fri, 17 Feb 2017 22:47:29 +0800
+9d96db2a1627709c90ed144dcf2e60dfdd73c762,[SwiftLint] Add SwiftLint target,Fri, 17 Feb 2017 22:46:42 +0800,Fri, 17 Feb 2017 22:46:42 +0800
+d91b9ecb28bf962290061e0a3e94c9231c28a09d,Fix a spelling mistake and merge duplicate test files,Fri, 17 Feb 2017 15:08:56 +0800,Fri, 17 Feb 2017 15:08:56 +0800
+78470aa6f0f72b3f202acee395f1e77e1dd29717,rawValue test,Thu, 16 Feb 2017 18:20:40 +0800,Thu, 16 Feb 2017 18:20:40 +0800
+ae848b2910c3e5a0978f973de2ab2aca61e83f66,Merge pull request #796 from Humoud/patch-1,Wed, 15 Feb 2017 23:04:51 +0800,Wed, 15 Feb 2017 23:04:51 +0800
+48bfdae54bcc684f50f6066938ee098f5f11b80c,Merge pull request #799 from wongzigii/optimization-setting,Tue, 14 Feb 2017 22:58:17 +0800,Tue, 14 Feb 2017 22:58:16 +0800
+fcd1c6796777349662ead65bda2507354387514d,[Optimization] Update LLVM and Swift compiler level,Mon, 13 Feb 2017 22:25:45 +0800,Tue, 14 Feb 2017 17:13:18 +0800
+19d5cd3809d73f8f932b6699fc84f8755063045c,add Work with Moya section to README.MD,Sun, 12 Feb 2017 14:41:04 +0300,Sun, 12 Feb 2017 14:41:04 +0300
+1c5e9025062dd521fe6cb30ae9f20828ad08ece7,fix nested JSON problems with JSON initialize method,Sat, 4 Feb 2017 16:03:12 +0800,Mon, 6 Feb 2017 18:42:27 +0800
+adf34cfb4c9f2ff4e3c420c6d9fb1e2eaf3b3791,Merge pull request #779 from craiggrummitt/patch-1,Thu, 12 Jan 2017 19:34:59 +0800,Thu, 12 Jan 2017 19:34:59 +0800
+a76d81d3c8ac68e52ada6c74fd6eca2b6082f757,Fixed Spelling mistake - writing has one 't',Tue, 10 Jan 2017 13:42:36 -0500,Tue, 10 Jan 2017 13:42:36 -0500
+dadbfcffd5f51e2b488a26e83f188d96755e5393,Bump version to 3.1.4,Tue, 10 Jan 2017 17:35:24 +0800,Tue, 10 Jan 2017 17:35:24 +0800
+bc44b497c56f7165258c7b29de43a5aa786562ba,Merge pull request #775 from skyline75489/feature/hello-2017,Tue, 3 Jan 2017 18:22:38 +0800,Tue, 3 Jan 2017 18:22:38 +0800
+94d7f0593a031811cfef7c803b335aa51600fe7a,Hello 2017,Tue, 3 Jan 2017 09:34:20 +0800,Tue, 3 Jan 2017 09:34:20 +0800
+29a064b923b1199625b22334c4bc5f030bc85c25,Fix init(data:) error handling:,Sun, 1 Jan 2017 21:33:57 -0800,Sun, 1 Jan 2017 21:33:57 -0800
+a124861a83545e51dc1609c53328b4b0d4f7647a,Merge pull request #766 from kscheff/patch-1,Sun, 25 Dec 2016 23:16:53 +0800,Sun, 25 Dec 2016 23:16:53 +0800
+db78d800097d90b9e90274a04344d5f6551d83a7,Update README.md,Thu, 22 Dec 2016 13:34:15 +0100,Thu, 22 Dec 2016 13:34:15 +0100
+b85a0641e77b5eac5bf5f025a4513306c7fe0d4d,Merge pull request #764 from lbrndnr/master,Thu, 22 Dec 2016 12:23:19 +0800,Thu, 22 Dec 2016 12:23:19 +0800
+29a2ceaed113277bb434ccc6ae0e70313c47c9f8,Convert every target,Wed, 21 Dec 2016 17:58:45 +0100,Wed, 21 Dec 2016 17:58:45 +0100
+ad28952c6e370d6674be1e3e35149c9850b2d6d5,Update to recommended proj settings,Wed, 21 Dec 2016 17:53:18 +0100,Wed, 21 Dec 2016 17:53:18 +0100
+2c48d85304e0409e99a9ab584d3903dd2a6086ed,Convert to latest swift version,Wed, 21 Dec 2016 17:52:47 +0100,Wed, 21 Dec 2016 17:52:47 +0100
+969ad4bba054cd89dc648d6399d7766978178865,Merge pull request #760 from naeemshaikh90/patch-1,Fri, 16 Dec 2016 21:45:20 +0800,Fri, 16 Dec 2016 21:45:20 +0800
+b295b6219cfbf8aac954c4471897ae8bb5754ba4,Update Work with Alamofire,Fri, 16 Dec 2016 12:20:29 +0530,Fri, 16 Dec 2016 12:20:29 +0530
+b311c581af557425db1cebfba2654c3b8b79ceea,Add a title of NavigationBar with type,Fri, 16 Dec 2016 14:12:03 +0900,Fri, 16 Dec 2016 14:12:03 +0900
+a7d83f0a55cda288e2c9c7cf14cd1d62f9b5752f,Merge pull request #755 from takasek/lower_cased_url,Sun, 11 Dec 2016 19:46:47 +0800,Sun, 11 Dec 2016 19:46:47 +0800
+7afc077db6cd7dad2e81388bc8c3b6e959f90c50,Turn JSON.URL into lower-cased JSON.url,Sun, 11 Dec 2016 20:29:10 +0900,Sun, 11 Dec 2016 20:29:10 +0900
+07426f183b729eac41a2f2cbeec911d6db19146e,Merge pull request #752 from looseyi/master,Sun, 11 Dec 2016 14:23:28 +0800,Sun, 11 Dec 2016 14:23:28 +0800
+1925aa19897839ddf6a693f46d6a525cd3dc4e54,Merge pull request #664 from MadsBogeskov/master,Sat, 10 Dec 2016 16:35:31 +0800,Sat, 10 Dec 2016 16:35:31 +0800
+fa439d70acd2df5c1c057ce5f519614ea8e88b2a,Updated constructor to be more precise.,Sat, 10 Dec 2016 09:27:45 +0100,Sat, 10 Dec 2016 09:27:45 +0100
+ec2a1c7847e6da0165a1223754a73678c075257d,replace JSONRawIndex and JSONIndex with generics and desclear by typealise,Thu, 8 Dec 2016 15:46:45 +0800,Thu, 8 Dec 2016 15:46:45 +0800
+007d544ebd0bc429acc3b65680b291107ea0c684,Removed print statements,Mon, 5 Dec 2016 08:33:54 +0100,Mon, 5 Dec 2016 08:33:54 +0100
+25cd88578b630c9b1ed8f37b235919e8cdd7e300,Merge pull request #725 from danielkiedrowski/master,Sat, 3 Dec 2016 14:51:16 -0800,Sat, 3 Dec 2016 14:51:16 -0800
+d2b4ae9ab4ba70bb37cd3e78639815075ac302ec,Removed erroneous spaces and added spaces instead of tabs.,Sat, 3 Dec 2016 10:21:55 +0100,Sat, 3 Dec 2016 10:21:55 +0100
+f0f6ead40a1fb0e323da1d2b8765e1ffe1c79669,Use exceptions to communicate merging error to user, if he tries to merge JSONs differing in type on top level.,Sat, 3 Dec 2016 10:14:05 +0100,Sat, 3 Dec 2016 10:14:05 +0100
+bdcf170b142a3d117395590acbc09e7c7b36089b,Created new init instead of multiple small ones.,Fri, 2 Dec 2016 12:46:22 +0100,Fri, 2 Dec 2016 12:46:22 +0100
+950c01f2fb3f12ecffccbe4ce780889e9d352eda,Added a security mechanism to prevent total overwriting of the source JSON in case that the JSON differ in type on the top level.,Fri, 2 Dec 2016 11:30:28 +0100,Fri, 2 Dec 2016 11:30:28 +0100
+e567f1fdea62ad4e9dc61559108d895828ad0357,Merge branch 'master' of https://github.com/SwiftyJSON/SwiftyJSON,Fri, 2 Dec 2016 11:09:30 +0100,Fri, 2 Dec 2016 11:09:30 +0100
+c2024dce53377fbc04015597c5f7e9bd29249854,Merge pull request #736 from wongzigii/CI,Fri, 25 Nov 2016 00:46:01 +0800,Fri, 25 Nov 2016 00:46:01 +0800
+493d6ba4ff6ccb3aa2bac06dad43b326b878da86,Fix travis_retry command not found,Thu, 24 Nov 2016 00:42:23 +0800,Thu, 24 Nov 2016 00:42:23 +0800
+59b4c40ff8f7c9dfd9d5aa38cc4c470b599c48c8,Merge pull request #733 from wongzigii/CI-tricky,Thu, 24 Nov 2016 00:27:32 +0800,Thu, 24 Nov 2016 00:27:32 +0800
+ae338a61420df6fc06f7d85fe7c219d8ad243ae8,Update scripts,Wed, 23 Nov 2016 23:21:53 +0800,Wed, 23 Nov 2016 23:21:53 +0800
+30e3e67c981793e2f783982c7bf4c9501bf2d9a0,Merge pull request #729 from SwiftyJSON/bugfix/xcode8.1,Wed, 23 Nov 2016 16:15:43 +0800,Wed, 23 Nov 2016 16:15:43 +0800
+361356df1c66e4079425614a6d2d6d4f96845de2,Updated TOC of README,Tue, 22 Nov 2016 11:35:20 +0100,Tue, 22 Nov 2016 11:35:20 +0100
+b35672498e5e5c6bcda8e088d9453eb6b7d289f7,Corrected commit #c4a4de0. Sorry.,Tue, 22 Nov 2016 11:04:12 +0100,Tue, 22 Nov 2016 11:04:12 +0100
+c4a4de08b0f9413466aa224755dcd52ba830cf18,Added pull request #725 to change log.,Tue, 22 Nov 2016 11:00:07 +0100,Tue, 22 Nov 2016 11:00:07 +0100
+c28f3f537ae5d1a01bf618b4a8fe297e7d658875,Added documentation for merging two JSONs.,Tue, 22 Nov 2016 10:51:32 +0100,Tue, 22 Nov 2016 10:51:32 +0100
+d5552cb78fa3182042f06b2792022d4b5e7cb861,Added label with: to merge and merged.,Tue, 22 Nov 2016 10:31:22 +0100,Tue, 22 Nov 2016 10:31:22 +0100
+a257374283f97eae7f6469de576a518545060928,Fix all compilation warnings,Mon, 21 Nov 2016 20:10:06 -0800,Mon, 21 Nov 2016 20:10:06 -0800
+1ca0adfe3efacaa33328a1e7e89418381efc0172,Merge pull request #727 from victorlin/patch-1,Mon, 21 Nov 2016 19:35:12 -0800,Mon, 21 Nov 2016 19:35:12 -0800
+1e7677c64510cdb83bf50ec80ea80540e8fea4a0,Merge pull request #728 from cwkatzmann/master,Mon, 21 Nov 2016 19:34:51 -0800,Mon, 21 Nov 2016 19:34:51 -0800
+1eac774469ff84924dc998932b7b245656c15c7f,update Integration section of README to reflect latest version in SPM usage subsection,Mon, 21 Nov 2016 15:25:31 -0600,Mon, 21 Nov 2016 15:25:31 -0600
+6de5453a604597914d23b5a0cd4f9ea6581dc21c,Fix duplicate comma typo,Sun, 20 Nov 2016 22:27:25 -0800,Sun, 20 Nov 2016 22:27:25 -0800
+588db575856bfb1625d22cec5c16f15008327df9,Added a function to deep merge a JSON object into another JSON object destructively and non-destructively.,Thu, 17 Nov 2016 16:34:02 +0100,Thu, 17 Nov 2016 16:34:02 +0100
+da5ed7f10f3489866f49eff6ce9f438f2d793f51,Merge pull request #610 from gsabran/swift3,Thu, 17 Nov 2016 10:56:03 +0800,Thu, 17 Nov 2016 10:56:03 +0800
+5c18ba9df5307ebacfbf9046562a1ac2fd376bc9,update readme,Wed, 16 Nov 2016 14:40:21 -0800,Wed, 16 Nov 2016 14:40:21 -0800
+62b490c5f972198480cd0c5bcdc6ad9a27841320,make casting nil to nsnull optional,Mon, 26 Sep 2016 10:00:23 -0700,Wed, 16 Nov 2016 13:59:49 -0800
+9a79305facf4a0966022b5431b242609e65af6b0,represent strings with nil as if it was nsnull,Mon, 26 Sep 2016 09:19:18 -0700,Wed, 16 Nov 2016 13:59:49 -0800
+fde284fc85c9b5a84a4058f79ad562498f6f3d3a,Merge pull request #717 from SumoSimo/#692-int8-0&1-BoolOutput,Thu, 17 Nov 2016 00:43:16 +0800,Thu, 17 Nov 2016 00:43:16 +0800
+c911942dd1ccd710d8ae106ca51654864bed1d16,Instead of checking for the Int8 type explicitly when setting 'object', cast the Int8 value to an Int and pass that into an NSNumber when setting 'int8' or 'int8Value',Wed, 16 Nov 2016 11:23:13 -0500,Wed, 16 Nov 2016 11:23:13 -0500
+cd2c86abaaa9178f29f0116b59a6a608960c818a,Merge pull request #678 from dawvee/master,Thu, 17 Nov 2016 00:05:37 +0800,Thu, 17 Nov 2016 00:05:37 +0800
+7262ddf64a1a6c886b940f5d0a33d4fea2e0331f,Merge branch 'master' of https://github.com/SwiftyJSON/SwiftyJSON into PR_678,Thu, 17 Nov 2016 00:03:22 +0800,Thu, 17 Nov 2016 00:03:22 +0800
+885c387169ed3f62032158a6f5235884d436a1f9,Update version in pod spec,Wed, 16 Nov 2016 23:22:21 +0800,Wed, 16 Nov 2016 23:24:45 +0800
+e98ac1a9750bf80473eebca636b57dac280efdaf,Merge pull request #718 from skyline75489/master,Wed, 16 Nov 2016 23:15:43 +0800,Wed, 16 Nov 2016 23:15:43 +0800
+ac6f5cf8afcb8281afb84f3ae91aac03e22f4ed4,Merge branch 'master' of https://github.com/SwiftyJSON/SwiftyJSON into skyline75489_master,Wed, 16 Nov 2016 23:14:48 +0800,Wed, 16 Nov 2016 23:14:48 +0800
+6d6c0f3d1f221f223b02e100b0eb9586b6756f24,Merge pull request #723 from SwiftyJSON/697-enumerations-performance,Wed, 16 Nov 2016 23:10:29 +0800,Wed, 16 Nov 2016 23:10:29 +0800
+e64f17ffdbc3a11bafbb200b6d5e07933d7c603e,Add performance test,Wed, 16 Nov 2016 23:07:25 +0800,Wed, 16 Nov 2016 23:07:25 +0800
+d983bd9cc9b9b9e8b19ddad5f02612ae6d343101,Attemp to fix #697,Wed, 16 Nov 2016 23:01:12 +0800,Wed, 16 Nov 2016 23:01:12 +0800
+6f0ddada0be966886a67884e9be70bbdc005b1c0,Fix 'AnyObject' in comment and README.md,Sun, 13 Nov 2016 17:19:17 +0800,Sun, 13 Nov 2016 17:19:17 +0800
+2eb271f87a251577b20add3f6954ba447f512f76,The ‘isBool’ function on the NSNumber extension uses ‘trueObjCType’, which represents the type encoding for ‘true’ represented as an NSNumber, and ‘falseObjCType’, which represents the type encoding for ‘false’ represented as an NSNumber. Both type encodings are equal to ‘c’. However, an NSNumber that wraps around a value of type Int8 also has a type encoding of ‘c’. Therefore, a user who passes in a value of 0 or 1 (of type Int8) into JSON will expect to see the numbers 0 or 1 as the output because that was the intent. Unfortunately, that value will be wrapped into NSNumber and be considered a bool, so the user will see ‘true’ or ‘false’ instead.,Thu, 10 Nov 2016 08:06:27 -0500,Thu, 10 Nov 2016 08:06:27 -0500
+1dc2ce0f913b27380cd5b803af8aa853745b9608,Merge pull request #699 from JeffGuKang/feature/Playground,Mon, 7 Nov 2016 20:32:26 +0800,Mon, 7 Nov 2016 20:32:26 +0800
+d21e130842169456ec2da6825f430a9931cec824,Merge pull request #704 from sagnew/patch-1,Mon, 7 Nov 2016 20:31:13 +0800,Mon, 7 Nov 2016 20:31:13 +0800
+e3a3029565afecb4b0fe356a84a026a781cde390,Merge pull request #707 from wongzigii/re-organize,Mon, 7 Nov 2016 18:32:10 +0800,Mon, 7 Nov 2016 18:32:10 +0800
+2c9f373d53e5a5f4fc4eb6e81c089505507719a7,Re-organize tests to satisfy SPM,Mon, 7 Nov 2016 00:17:25 +0800,Mon, 7 Nov 2016 00:17:25 +0800
+ef668d869f7cbbb54419d7fbf4b981de4ac3c651,Fix typo in README.md,Fri, 4 Nov 2016 14:27:36 -0400,Fri, 4 Nov 2016 14:27:36 -0400
+ffbc7e4b8ee0e9ec76966007e7a7bef659aea284,Merge pull request #682 from iflix-letsplay/explicit-provisioning-style-automatic,Mon, 31 Oct 2016 15:51:48 +0800,Mon, 31 Oct 2016 15:51:48 +0800
+d77421c3acebc236c6100c7489aa08597355c667,Merge pull request #700 from JeffGuKang/README,Mon, 31 Oct 2016 15:48:52 +0800,Mon, 31 Oct 2016 15:48:52 +0800
+da5c307822dc54e7ab23a5e4192f13c72ceb22d8,Fix syntax.,Mon, 31 Oct 2016 16:29:37 +0900,Mon, 31 Oct 2016 16:29:37 +0900
+e2be46e1656f64ba264f0f87c50cf4ce1b15a9ff,Turn on render documentation mode.,Mon, 31 Oct 2016 16:06:13 +0900,Mon, 31 Oct 2016 16:06:13 +0900
+365a0b089b0ae8626bcaf49351f6d9b4e5ac7ed8,Merge branch 'master' of https://github.com/SwiftyJSON/SwiftyJSON into feature/Playground,Mon, 31 Oct 2016 16:02:58 +0900,Mon, 31 Oct 2016 16:02:58 +0900
+58fad8a2f19701069222029a16a6e927330a8b67,Finish subscript part. Add descriptions.,Mon, 31 Oct 2016 15:57:47 +0900,Mon, 31 Oct 2016 15:57:47 +0900
+eadd072159f1626c060cc69711ffa45bb04f6e98,Explictily set Prov Style Automatic for macOS,Fri, 21 Oct 2016 20:51:29 +1100,Mon, 31 Oct 2016 13:33:23 +0800
+423bdc0f2adbcb39c314b85bcd8ce027e335eb53,Explicitly set Prov Style Automatic for tvOS,Thu, 13 Oct 2016 11:07:45 +1100,Mon, 31 Oct 2016 13:33:23 +0800
+e7b7e26dc75ae38caafc80ed8802885163424350,Explictily set Prov Style Automatic for watchOS,Thu, 13 Oct 2016 11:07:21 +1100,Mon, 31 Oct 2016 13:32:35 +0800
+9f5cfa06ec279bcab828d2e7856ca40b00c2a1dc,Explicitly set Prov Style Automatic for iOS target,Thu, 13 Oct 2016 11:06:39 +1100,Mon, 31 Oct 2016 13:32:26 +0800
+b8f5977d5e6387c6cce1c303c0071fd579f99b1d,Merge pull request #696 from wongzigii/readme-fix,Mon, 31 Oct 2016 13:29:31 +0800,Mon, 31 Oct 2016 13:29:31 +0800
+dc44a8fafa8a35c4e817a86188ada3ea9721348a,Merge pull request #698 from rabbitcdn/patch-1,Mon, 31 Oct 2016 13:29:15 +0800,Mon, 31 Oct 2016 13:29:15 +0800
+1b53ed5270fab04c54e3889e3d6e46cffa802a01,Merge pull request #613 from JeffGuKang/feature/Playground,Mon, 31 Oct 2016 13:28:44 +0800,Mon, 31 Oct 2016 13:28:44 +0800
+3e54d90db10335c428405cf96b4ac4e407607ac5,Fix warning In XCode 8.1 (8B62),Fri, 28 Oct 2016 16:38:17 -0400,Fri, 28 Oct 2016 16:38:17 -0400
+1dbcdaed717cd85f01aba0c0d1c576bcb790aefa,Fix examples in README.md,Fri, 28 Oct 2016 17:40:58 +0800,Fri, 28 Oct 2016 17:40:58 +0800
+52124f4703b6b11276a7ee58708982a40f01b01b,Merge branch 'develop' into feature/Playground,Fri, 28 Oct 2016 16:48:56 +0900,Fri, 28 Oct 2016 16:48:56 +0900
+5b7400f279122871095ffbdbfe6c913ecda6b14e,Add getting a string using a path to the element.,Fri, 28 Oct 2016 16:46:34 +0900,Fri, 28 Oct 2016 16:46:34 +0900
+553610566ec6600a3db1cceb5efcd637897e4ce3,Explictily set Prov Style Automatic for macOS,Fri, 21 Oct 2016 20:51:29 +1100,Tue, 25 Oct 2016 18:14:37 +1100
+db404fca6c7562050b3e1bd30341dcb979211b90,Explicitly set Prov Style Automatic for tvOS,Thu, 13 Oct 2016 11:07:45 +1100,Tue, 25 Oct 2016 18:14:37 +1100
+e81fb1c2585091a0b323e315b353cc22ad6985b0,Explictily set Prov Style Automatic for watchOS,Thu, 13 Oct 2016 11:07:21 +1100,Tue, 25 Oct 2016 18:14:37 +1100
+32adaff4fa7628824fb658880b5053a45c70caa1,Explicitly set Prov Style Automatic for iOS target,Thu, 13 Oct 2016 11:06:39 +1100,Tue, 25 Oct 2016 18:14:37 +1100
+6a0c3a82e2b4a07723b4958146315c7928220189,Merge pull request #681 from aterris/master,Fri, 21 Oct 2016 16:38:53 +0800,Fri, 21 Oct 2016 16:38:53 +0800
+4cbe898dfb856a95e80061d1616bb60c3625b926,Merge pull request #686 from yishus/improve-example,Fri, 21 Oct 2016 16:36:13 +0800,Fri, 21 Oct 2016 16:36:13 +0800
+1b5c3c9cf20512e035d261ed8c40eac94380b618,Merge pull request #684 from JeffGuKang/Readme,Fri, 21 Oct 2016 16:35:37 +0800,Fri, 21 Oct 2016 16:35:37 +0800
+769e1816fa17a531eb4b0df02660b37226420a45,Fix issue #603 Improve example with push segue,Thu, 20 Oct 2016 21:40:39 +0800,Thu, 20 Oct 2016 21:40:39 +0800
+2f3d92ea243b357c71d13a61bc442a24b3ebbc2c,Updating subscript section in playground,Wed, 19 Oct 2016 23:57:20 +0900,Wed, 19 Oct 2016 23:57:20 +0900
+08b90e824648be0e22126b12217ae0bbf4bb1583,Update to swift3 syntax.,Tue, 18 Oct 2016 21:30:02 +0900,Tue, 18 Oct 2016 21:30:02 +0900
+3886d47e65d1481d6316ffdc68a7ed272aa9704b,Initialization.,Tue, 18 Oct 2016 21:21:38 +0900,Tue, 18 Oct 2016 21:21:38 +0900
+d01fb5f85569380e30a403da70d587029a8c2876,Fix wrong markdown syntax in README.md,Sun, 16 Oct 2016 16:59:35 +0900,Sun, 16 Oct 2016 16:59:35 +0900
+cdca18303a3613e7996b0978654e485baf3329a5,Basic playground docs.,Sun, 16 Oct 2016 16:57:36 +0900,Sun, 16 Oct 2016 16:57:36 +0900
+8752eef1f91ab3c8cdff3d0e59f947dc72c0c9d0,Merge branch 'master' of https://github.com/SwiftyJSON/SwiftyJSON into feature/Playground,Sun, 16 Oct 2016 16:38:01 +0900,Sun, 16 Oct 2016 16:38:01 +0900
+fdb96ae182233255c1450ef2fde125c113c41a00,Minor update.,Sun, 16 Oct 2016 16:37:38 +0900,Sun, 16 Oct 2016 16:37:38 +0900
+a54419975c908dbafb55a10eba1bd62f01938e87,Match pre-swift3 behavior for String -> Bool,Fri, 14 Oct 2016 14:26:19 -0400,Fri, 14 Oct 2016 14:26:19 -0400
+e488fb27ee9a3962f8e14a2272092aacb9d5ee2a,Added check for pre-escaped URLs to prevent double-escaping of % character,Wed, 12 Oct 2016 11:29:22 +0100,Wed, 12 Oct 2016 11:29:22 +0100
+707516458b618c48ad9365d23a0dad3c3b860fa0,Merge pull request #675 from zhigang1992/removeNilConvertable,Mon, 10 Oct 2016 21:10:41 +0800,Mon, 10 Oct 2016 21:10:41 +0800
+6a017fa3bd0b675262b5ea05e65799ec9cb853fa,Updating tests for NilLiteralConvertible,Fri, 7 Oct 2016 20:02:49 +0800,Fri, 7 Oct 2016 20:02:49 +0800
+f50fb16f2c354400de3af0385da36543a43d300f,Deprecating adoption nilLiteralConvertible,Fri, 7 Oct 2016 20:00:55 +0800,Fri, 7 Oct 2016 20:00:55 +0800
+5a5928b5a021e140409e8bd20244d41dbba6c52d,Add carthage script,Fri, 7 Oct 2016 10:45:29 +0800,Fri, 7 Oct 2016 10:45:29 +0800
+f0c55b8f3bdea66ce99f98c336d8f386c47ed067,Update pod spec,Fri, 7 Oct 2016 10:33:34 +0800,Fri, 7 Oct 2016 10:33:34 +0800
+1bb0fd277589d7f989dcdd20e102bedd4632fd5b,Merge pull request #671 from yyshin/master,Fri, 7 Oct 2016 09:41:12 +0800,Fri, 7 Oct 2016 09:41:12 +0800
+c3b3f298f7510f4907c31155651edd67509127eb,Merge pull request #673 from fishcharlie/master,Fri, 7 Oct 2016 09:40:43 +0800,Fri, 7 Oct 2016 09:40:43 +0800
+6c666dac94f032f67834bb7d9277c6ae168c36b3,Update SwiftyJSON.podspec,Wed, 5 Oct 2016 13:42:04 -0600,Wed, 5 Oct 2016 13:42:04 -0600
+c8ba0977e4cdc194648e6bbcfed29142cce799e8,Removed unnecessary type names,Tue, 4 Oct 2016 17:13:54 -0700,Tue, 4 Oct 2016 17:13:54 -0700
+0f2777ea5e139cf18612d09d1d59bd956b77206d,Merge pull request #669 from jobinsjohn/master,Tue, 4 Oct 2016 17:25:34 +0800,Tue, 4 Oct 2016 17:25:34 +0800
+325529ec51675b029cf1af31eb84219b893c1fd7,Upgraded to swift 3.0,Mon, 3 Oct 2016 14:10:19 +0400,Mon, 3 Oct 2016 14:10:19 +0400
+c7eedf9f4436e1b092238cb585cc441907d00d35,Copyright year upgraded,Mon, 3 Oct 2016 14:10:04 +0400,Mon, 3 Oct 2016 14:10:04 +0400
+522e74bf59874fb29b0a23206fb3f31e6d276d09,Copyright Year Update,Mon, 3 Oct 2016 13:39:19 +0400,Mon, 3 Oct 2016 13:39:19 +0400
+0dc0c72ebaba9de13583406b3ee9d6d6ef95e132,Merge remote-tracking branch 'SwiftyJSON/master',Mon, 3 Oct 2016 10:49:46 +0400,Mon, 3 Oct 2016 10:49:46 +0400
+ff43c8e31b4a74e9f98ead17d9b83fa9caf6c486,Auto tagging releases,Thu, 29 Sep 2016 11:04:55 +0800,Thu, 29 Sep 2016 11:04:55 +0800
+39a19dc33c7cfa8927f81722d591643f12d80ba8,Update Alamofire example for Swift3,Wed, 28 Sep 2016 22:45:19 +0800,Wed, 28 Sep 2016 22:45:19 +0800
+2cd2a0b579d093682c1935f3acdb17d7910fe52f,Merge pull request #494 from grantkemp/feature/fixMethodErrorInReadme,Wed, 28 Sep 2016 15:31:06 +0800,Wed, 28 Sep 2016 15:31:06 +0800
+e27ad77ed99d34fb7afbb6e056fe8593df0b1670,Merge pull request #660 from hectormatos2011/master,Wed, 28 Sep 2016 15:15:15 +0800,Wed, 28 Sep 2016 15:15:15 +0800
+b0cff7c266ae7e521d05176df9ed277f0c6fd872,adds performance enhancement to prevent merge conflicts,Tue, 27 Sep 2016 15:56:11 -0700,Tue, 27 Sep 2016 15:56:11 -0700
+46eb9a35f86e3d2f050e85526ad97e5fd3d4c030,reverts improper moving of code,Tue, 27 Sep 2016 15:20:52 -0700,Tue, 27 Sep 2016 15:20:52 -0700
+1c84dbe72cea0e979dd8608a5835638ebe7f6f13,adds support for nested JSON in literals,Tue, 27 Sep 2016 15:17:17 -0700,Tue, 27 Sep 2016 15:17:17 -0700
+1f716321de815a6d0b5323258bd265a6fdf20495,Merge pull request #657 from samisuteria/master,Tue, 27 Sep 2016 21:08:26 +0800,Tue, 27 Sep 2016 21:08:26 +0800
+aba949498551d27829ab8b27ad9b21de08e5aef2,update readme with nested example,Mon, 26 Sep 2016 21:58:53 -0700,Mon, 26 Sep 2016 21:58:53 -0700
+d075ce98e9c0cfe608a6ff1b28389527dc3cf718,Update pod version for 3.1.0,Mon, 26 Sep 2016 14:23:55 +0800,Mon, 26 Sep 2016 14:23:55 +0800
+eee5bd9800e3d6fcef1d2d7a04e7f82246d9fd1f,Merge pull request #509 from jamesjn/exists-for-wrong-type-and-out-of-bounds,Mon, 26 Sep 2016 14:11:10 +0800,Mon, 26 Sep 2016 14:11:10 +0800
+7ee9aabe063f00125e9cadbf03a823d6920d4f22,Merge pull request #653 from SwiftyJSON/651-Swift-3-loop-nil-will-infinite-loop,Mon, 26 Sep 2016 13:33:39 +0800,Mon, 26 Sep 2016 13:33:39 +0800
+197889498df0e5e79a8a474ad4124412efc03f36,Fix infinite loop with JSON.null,Mon, 26 Sep 2016 12:40:26 +0800,Mon, 26 Sep 2016 12:40:26 +0800
+2317a133fb552936ad10e8a46a40c29f266e834b,Merge pull request #652 from aaronpearce/master,Mon, 26 Sep 2016 11:05:40 +0800,Mon, 26 Sep 2016 11:05:40 +0800
+c23d428a796ab554ccb936a4b3b426498fe5ee84,Update BaseTests with new URL,Mon, 26 Sep 2016 15:38:25 +1300,Mon, 26 Sep 2016 15:38:25 +1300
+f6264e721048298ce66959f298a27aa09165efd3,Fix the URL tests,Mon, 26 Sep 2016 15:36:59 +1300,Mon, 26 Sep 2016 15:36:59 +1300
+21507827a7d81daccd08529b87230c6768b4e3c7,Move from NSURL to URL,Mon, 26 Sep 2016 13:17:55 +1300,Mon, 26 Sep 2016 13:17:55 +1300
+328d7887461af8b5fc746c7ec9e9b1ad00735013,Merge pull request #644 from kandelvijaya/patch-5,Fri, 23 Sep 2016 15:34:37 +0800,Fri, 23 Sep 2016 15:34:37 +0800
+e953aa7d8796c0b114e07516f00698b8158247e0,Typos in Comments correction,Fri, 23 Sep 2016 07:43:08 +0200,Fri, 23 Sep 2016 07:43:08 +0200
+0df304865c059bdf0b786eb01cfb1d1f8f16c729,Fix test in macOS target,Thu, 22 Sep 2016 13:44:49 +0800,Thu, 22 Sep 2016 13:44:49 +0800
+5c526116cf3945f3bc3679bd9ef94df71006b231,Add spaces to badge icons,Thu, 22 Sep 2016 13:41:24 +0800,Thu, 22 Sep 2016 13:41:24 +0800
+995fe225e75febcb605412126a7203a7b38d2575,Update min target for macOS to 10.10,Thu, 22 Sep 2016 13:37:23 +0800,Thu, 22 Sep 2016 13:37:58 +0800
+5e29a8b86c5763d95fa0b207319d5c735d37df01,Add cocoapods and platform badge,Thu, 22 Sep 2016 13:31:20 +0800,Thu, 22 Sep 2016 13:31:20 +0800
+46e888a19fae39e2a23b780dec808e3e15bf76d0,Fix travis CI,Thu, 22 Sep 2016 13:15:47 +0800,Thu, 22 Sep 2016 13:16:04 +0800
+260ad5ec12e4456462fafcd8cd55a0e1ed0d80b5,Merge branch 'master' of https://github.com/SwiftyJSON/SwiftyJSON into feature/Playground,Thu, 22 Sep 2016 13:06:41 +0900,Thu, 22 Sep 2016 13:06:41 +0900
+78fb8311bab86bacbeb8a9d9f5afe75c15eaea54,Add checks on exists method for errors,Thu, 12 May 2016 08:36:17 -0400,Wed, 21 Sep 2016 22:04:02 -0400
+10fcd74b0ce660fb24e1fdf5ee549c085004a8b6,Merge pull request #453 from ReadmeCritic/master,Thu, 22 Sep 2016 04:01:53 +0800,Thu, 22 Sep 2016 04:01:53 +0800
+c9a4db117d5c5434654909ee3c889151811d0252,Merge pull request #458 from frankctan/master,Thu, 22 Sep 2016 03:58:14 +0800,Thu, 22 Sep 2016 03:58:14 +0800
+2cb880a449b0314ec0200ee653b117e656b562e3,Merge pull request #465 from Vkt0r/master,Thu, 22 Sep 2016 03:43:34 +0800,Thu, 22 Sep 2016 03:43:34 +0800
+3e5375e439135f0a9a2b4a5c12fcb072c403cbdd,Merge pull request #481 from karthikgollapudi/patch-1,Thu, 22 Sep 2016 03:34:34 +0800,Thu, 22 Sep 2016 03:34:34 +0800
+06031ff2c1c504fc5cf56116a93ccda0112f8f29,Merge pull request #484 from Dershowitz011/patch-2,Thu, 22 Sep 2016 03:34:15 +0800,Thu, 22 Sep 2016 03:34:15 +0800
+b817c196c994c34627069ae3b470407ec78f9f3d,Merge pull request #534 from mediatainment/patch-1,Thu, 22 Sep 2016 02:01:49 +0800,Thu, 22 Sep 2016 02:01:49 +0800
+7709ba1f13d871f7ff5ca490bebd797ac64ec22e,Merge pull request #538 from jobinsjohn/patch-1,Thu, 22 Sep 2016 02:00:16 +0800,Thu, 22 Sep 2016 02:00:16 +0800
+3c01e2526d718974a4749b247f4aa6cc210888de,Merge pull request #553 from EyeOfTheStorm/master,Thu, 22 Sep 2016 01:58:14 +0800,Thu, 22 Sep 2016 01:58:14 +0800
+2c17cdd8fbb4f34a34cf050ac270ea8de86fb98e,Merge pull request #576 from Maryom/master,Thu, 22 Sep 2016 01:47:02 +0800,Thu, 22 Sep 2016 01:47:02 +0800
+11b8857a4ea39bac99fdd81d81eff606d218ad4b,Merge pull request #595 from dpfbop/patch-1,Thu, 22 Sep 2016 00:27:18 +0800,Thu, 22 Sep 2016 00:27:18 +0800
+113b05fdeb45ad2d021cd0c896a4a83347ff7031,Merge pull request #598 from tmcw/patch-1,Thu, 22 Sep 2016 00:11:07 +0800,Thu, 22 Sep 2016 00:11:07 +0800
+e7729f35da2fad24f2ea9e036207aaf39e2ef2e3,Fix example app in xcode 8,Thu, 22 Sep 2016 00:05:24 +0800,Thu, 22 Sep 2016 00:05:24 +0800
+1090ce6299d32479be7a5321926991277a923bb2,Update code signing change to fix .travisCI,Wed, 21 Sep 2016 23:58:52 +0800,Wed, 21 Sep 2016 23:58:57 +0800
+63d5d55c3f67ea83fe212c2d4d629986a38f3b98,Merge pull request #641 from lukas2/master,Wed, 21 Sep 2016 23:55:06 +0800,Wed, 21 Sep 2016 23:55:06 +0800
+497e8eb9f350c7af41f425274a1a3afef724d79a,Update NSErrorPointer usage in initializer.,Wed, 21 Sep 2016 17:29:41 +0200,Wed, 21 Sep 2016 17:29:41 +0200
+87dae80939b9163cc2b2a5d90215a6e8e133bebe,Set APPLICATION_EXTENSION_API_ONLY to yes for macOS target,Wed, 21 Sep 2016 22:41:26 +0800,Wed, 21 Sep 2016 22:41:26 +0800
+c8a6bda9aa0e823b4c0ec1e74f19869d77c4bed4,Add .swift-version,Wed, 21 Sep 2016 22:19:34 +0800,Wed, 21 Sep 2016 22:20:12 +0800
+f6d8c921034c58e19bc34b6aa5d0d3f9c345e3f1,Update pod version,Wed, 21 Sep 2016 22:16:21 +0800,Wed, 21 Sep 2016 22:16:21 +0800
+e20cbab49fc0f67c6a8dcfbf4c370b905506bce5,Update readme file for swift3,Wed, 21 Sep 2016 22:09:33 +0800,Wed, 21 Sep 2016 22:09:33 +0800
+7148be629992f25e5ae04a44871f4359dc7793f5,Merge pull request #633 from jeneumeier/swift3-gm,Wed, 21 Sep 2016 21:52:13 +0800,Wed, 21 Sep 2016 21:52:13 +0800
+cf657820fad3656df022d8ebf32f9cdd99e1247a,Updated main source and tests to spec for Swift 3.0 as released in Xcode 8/0 GM.,Sun, 18 Sep 2016 09:25:08 -0400,Sun, 18 Sep 2016 09:25:08 -0400
+d2367f7df4608649c718b41dc8eab50db98327ee,Basic playground set.,Thu, 1 Sep 2016 23:01:15 +0900,Thu, 1 Sep 2016 23:01:15 +0900
+fea362172a2a36c6491cd70021e508d8c2a5aaa9,Spelling fix: existence, not existance,Tue, 23 Aug 2016 17:13:21 -0400,Tue, 23 Aug 2016 17:13:21 -0400
+8e488dec25f3d1c83f74a51d880ab6fd376cb9a8,Small Readme fix,Wed, 17 Aug 2016 00:28:39 +0100,Wed, 17 Aug 2016 00:28:39 +0100
+536f3766b8ea2abdffe1ebb05b0a3f31af573f22,Add Getting an array of string from a JSON Array,Sat, 30 Jul 2016 12:19:12 +0300,Sat, 30 Jul 2016 12:19:12 +0300
+580dc33a003b7800a604fb636019ebb347b687fd,filled Manifest,Wed, 6 Jul 2016 14:29:13 +0200,Wed, 6 Jul 2016 14:29:13 +0200
+1a9755949a652967dc2986cd7f4653496e556715,Merge pull request #541 from lucasderraugh/swift3,Mon, 27 Jun 2016 10:04:55 +0800,Mon, 27 Jun 2016 10:04:55 +0800
+976ba4c487a0b29cb46f56109baf06fd29f9b51a,Use Swift 3.0 for whole project,Sat, 25 Jun 2016 06:31:43 -0400,Sat, 25 Jun 2016 06:31:43 -0400
+700c8d2c9476588fc61db7d68924a24604cf7e32,Valid Swift 3.0 code,Sat, 25 Jun 2016 05:39:01 -0400,Sat, 25 Jun 2016 05:47:17 -0400
+79d3a8babcef64a18ff79b62b06698cc0b6cb712,Updated Year in License File,Thu, 23 Jun 2016 12:01:51 +0400,Thu, 23 Jun 2016 12:01:51 +0400
+cecab2b06d65f8e10e31858e3e17f972bb6d2e4e,updated "Swift Package Manager" installation manual,Fri, 17 Jun 2016 16:42:11 +0200,Fri, 17 Jun 2016 16:42:11 +0200
+73670b94292b8d8496c398a973f56ac67789ba9f,Update README.md,Tue, 14 Jun 2016 16:23:25 -0700,Tue, 14 Jun 2016 16:23:25 -0700
+29e8cf380dd9ff40970243b49312e2ad1cf33b02,Update README.md,Tue, 14 Jun 2016 16:22:21 -0700,Tue, 14 Jun 2016 16:22:21 -0700
+4421d00c351215f14111f06f52fd97c740796ec0,Update README.md,Tue, 14 Jun 2016 16:21:32 -0700,Tue, 14 Jun 2016 16:21:32 -0700
+2d4f4d0226257a0d78e3ffaf66186143db35b301,Update README.md,Tue, 14 Jun 2016 16:21:04 -0700,Tue, 14 Jun 2016 16:21:04 -0700
+f2c0c962cdf353a4831c8ce457aed8343ed898e4,Update README.md,Tue, 14 Jun 2016 16:14:59 -0700,Tue, 14 Jun 2016 16:14:59 -0700
+6882c23c19d8c36811e9424daf458877032f4b81,Beta support for swift3.,Tue, 14 Jun 2016 16:12:31 -0700,Tue, 14 Jun 2016 16:12:31 -0700
+a57e05c465cf9bb52316bfbdb4c6490847aaee2b,admin : fixed some typos,Sat, 16 Apr 2016 19:54:08 +0100,Sat, 16 Apr 2016 19:54:08 +0100
+a121ac6ef15336a71b792f0998d275be32e18c2e,errorFix: incorrect method specified in Readme. Fixed to ensure new users are not confused.,Sat, 16 Apr 2016 19:53:41 +0100,Sat, 16 Apr 2016 19:53:41 +0100
+71a006fef39b5a42ab8658542ccf0d0752f734b6,Update README.md,Sun, 27 Mar 2016 13:58:35 +0530,Sun, 27 Mar 2016 13:58:35 +0530
+b3972382d06459a5ae1dea5e6672a7bdb96094f6,Update README.md,Sun, 20 Mar 2016 17:49:53 -0700,Sun, 20 Mar 2016 17:49:53 -0700
+2a5b70f06001316d4fb54501edc70b4084705da0,Merge pull request #443 from kandelvijaya/patch-1,Tue, 15 Mar 2016 11:50:45 +0800,Tue, 15 Mar 2016 11:50:45 +0800
+33b383cf4fff45286b32ff8c6a6137382273c709,Merge pull request #446 from kandelvijaya/patch-2,Tue, 15 Mar 2016 11:49:27 +0800,Tue, 15 Mar 2016 11:49:27 +0800
+653cf8c7601bafeea7329ed76cb94db10f9deabf,Merge pull request #457 from CraigSiemens/master,Tue, 15 Mar 2016 11:48:47 +0800,Tue, 15 Mar 2016 11:48:47 +0800
+fe96b92c8f2a10c8b7d803b32407d670cc9c4d8e,Merge pull request #467 from glennrfisher/master,Tue, 15 Mar 2016 11:47:35 +0800,Tue, 15 Mar 2016 11:47:35 +0800
+98587843c8f1ed2b20fafaf33d5e1165702d0670,Merge pull request #419 from Adlai-Holler/ReserveCapacity,Tue, 15 Mar 2016 11:46:07 +0800,Tue, 15 Mar 2016 11:46:07 +0800
+20ee3ed7bd9e49c250d91f402f01fe87caeacf2a,Replace ++ with +=,Tue, 1 Mar 2016 11:23:14 -0600,Tue, 1 Mar 2016 11:23:14 -0600
+d0ea821595e20874dcda32300155c3ec251cee59,Remove blank space,Mon, 29 Feb 2016 19:32:39 -0500,Mon, 29 Feb 2016 19:32:39 -0500
+52cfeb54e05233e7f2b697a17a9b27e2fde524ff,Update Alamofire code,Mon, 29 Feb 2016 19:31:27 -0500,Mon, 29 Feb 2016 19:31:27 -0500
+f0bbe53d891cfcb781d4e73f87b35a4b9c045b53,README typo,Thu, 18 Feb 2016 17:45:34 -0500,Thu, 18 Feb 2016 17:45:34 -0500
+5fc4545c7a5d1fd4a2b3d04964f1bc593c356676,Rename isExists to exists. Fixes #448,Wed, 17 Feb 2016 09:48:30 -0700,Wed, 17 Feb 2016 09:48:30 -0700
+9966411ad58c17aac831b2af9ea9035b461e1743,Correct the spelling of CocoaPods in README,Fri, 12 Feb 2016 19:33:44 -0800,Fri, 12 Feb 2016 19:33:44 -0800
+49f588e634c934bad0439aa5a0a13eaea8e931fc,Which's -> whose and typo fix in comments,Sun, 31 Jan 2016 13:33:57 +0100,Sun, 31 Jan 2016 13:33:57 +0100
+64b832c7f5f59a2ad132f738c332dbe53f766c69,Changed from .empty to .isEmpty,Thu, 28 Jan 2016 16:45:37 +0100,Thu, 28 Jan 2016 16:45:37 +0100
+42bdb102d2624b143c07850ebdc1537d5b6579b6,Merge pull request #420 from AlexanderNey/fix/watchos2-build-target-fix,Wed, 27 Jan 2016 18:00:17 -0600,Wed, 27 Jan 2016 18:00:17 -0600
+d814977b1eb924552ecace40aa3b7b31efb9672c,Merge pull request #437 from danipralea/patch-1,Wed, 27 Jan 2016 17:59:04 -0600,Wed, 27 Jan 2016 17:59:04 -0600
+cbeddbc246ea18cb3e893452cd03085f830d4658,Update README.md,Tue, 12 Jan 2016 23:32:18 +0200,Tue, 12 Jan 2016 23:32:18 +0200
+929539eb6a3304eaa9153ca44041a78b85bf2ee5,Merge pull request #427 from nanoxd/master,Mon, 11 Jan 2016 19:01:13 -0600,Mon, 11 Jan 2016 19:01:13 -0600
+af8924f93a5a45d3746ef144784923871c27f649,Merge pull request #432 from saagarjha/master,Mon, 11 Jan 2016 19:00:47 -0600,Mon, 11 Jan 2016 19:00:47 -0600
+baf8c18655317439bf8d5e63d439c8fe40644112,Changed "Mac OS X" to "OS X",Tue, 5 Jan 2016 17:06:56 -0800,Tue, 5 Jan 2016 17:06:56 -0800
+9b961a051314926086ab70c8f9caed3338997c5c,Merge remote-tracking branch 'SwiftyJSON/master',Tue, 5 Jan 2016 17:01:11 -0800,Tue, 5 Jan 2016 17:01:11 -0800
+5f59648a6e9356b26c5cb698ab924fa7d750b6c9,Update optimization level to "-Ofast",Tue, 29 Dec 2015 18:22:53 +0800,Tue, 29 Dec 2015 18:22:53 +0800
+7620d5bc0fb4ad21c7dccbe6661b61a5f27b0545,Programmatically set current tag,Mon, 21 Dec 2015 08:48:44 -0800,Mon, 21 Dec 2015 08:48:44 -0800
+60034664e8ca3d9174efda1aa93a2c07ae45292a,set the watch os deployment target to watchOs 2.0 - otherwise it would have used always the most current one with the result that the lib is not usable with apps deploying on watchOS 2.0,Wed, 9 Dec 2015 14:42:27 +0000,Wed, 9 Dec 2015 14:42:27 +0000
+1ddae138ebf0b9bacb2550bd8c14c13b03f96ea3,Use minimumCapacity parameter to optimize dictionary creations,Tue, 8 Dec 2015 18:02:52 -0800,Tue, 8 Dec 2015 18:02:52 -0800
+8e618c8baf6323a5079c6549bb38d48357b31630,Update README.md,Fri, 4 Dec 2015 21:55:50 +0800,Fri, 4 Dec 2015 21:55:50 +0800
+a1356035d2de68c155d05521292f0609ef7e69bb,add Package.swift,Fri, 4 Dec 2015 21:33:51 +0800,Fri, 4 Dec 2015 21:33:51 +0800
+4d05047af9d80284bcff31883e4d33f32e2f1c03,update pod specs,Thu, 3 Dec 2015 08:58:31 +0800,Thu, 3 Dec 2015 08:58:31 +0800
+a4cce2ec0bf31bfec2cf4cc7f1030a59a7bc95d2,Merge pull request #405 from seegno-forks/support/update-codesign-identity,Thu, 26 Nov 2015 06:00:30 -0600,Thu, 26 Nov 2015 06:00:30 -0600
+06088052ee60c9f2bf7ef8d5028041b58aa4d995,Merge pull request #406 from zhigang1992/AddInitWithString,Thu, 26 Nov 2015 05:45:33 -0600,Thu, 26 Nov 2015 05:45:33 -0600
+298feb497e47422b6843f2308f370c5d83110963,Add Parse as JSON.parse,Thu, 26 Nov 2015 05:37:35 -0600,Thu, 26 Nov 2015 05:37:35 -0600
+ae73ec1373e2bab8904c77205f12e44afabf2cfc,Update codesign identity,Wed, 25 Nov 2015 15:13:49 +0000,Wed, 25 Nov 2015 15:13:49 +0000
+5ccffc14df519cf29b8dfbc7c1698373f2a6da40,Merge pull request #402 from zhigang1992/FixNumberOperator,Tue, 24 Nov 2015 16:08:26 -0600,Tue, 24 Nov 2015 16:08:26 -0600
+98c8da9d588904e5d0e11f13ea1157cb146b655f,Merge pull request #399 from hibento/master,Tue, 24 Nov 2015 15:42:21 -0600,Tue, 24 Nov 2015 15:42:21 -0600
+b3257946ce59e18b52b4fd02a72af1624e0b0e34,Keep NSNumber Operator Internal,Tue, 24 Nov 2015 15:37:41 -0600,Tue, 24 Nov 2015 15:37:41 -0600
+9b0292fa0526167be531c699369e912026b8fe13,Merge pull request #400 from azone/patch-1,Tue, 24 Nov 2015 15:25:09 -0600,Tue, 24 Nov 2015 15:25:09 -0600
+b4fb0c4c54022093bf1fe2209d69266de8ca9425,Merge pull request #401 from bcapps/optional-binding,Tue, 24 Nov 2015 15:24:27 -0600,Tue, 24 Nov 2015 15:24:27 -0600
+9181c7c6d3da87890f23e1a7b01f5fed175241b8,fixes Bool case to return expected value,Tue, 24 Nov 2015 12:29:10 -0500,Tue, 24 Nov 2015 12:29:10 -0500
+ea2696e459093c31e12ee13f81b20b10068004a2,Nil coalesce instead of force unwrap,Tue, 24 Nov 2015 12:19:52 -0500,Tue, 24 Nov 2015 12:19:52 -0500
+d4bf9f1d9a34d0e1db8c0f734638bafe503192d0,Utilizes existing optional binding to stop force unwrapping,Tue, 24 Nov 2015 12:16:40 -0500,Tue, 24 Nov 2015 12:16:40 -0500
+0f88e655bbf622de2d1359cf92f708c33e0f4ca8,Uses optional binding to remove force unwrapping,Tue, 24 Nov 2015 12:13:10 -0500,Tue, 24 Nov 2015 12:13:10 -0500
+bfbc948c6ec4f04556e32ab8265a784ca0bd0e17,Remove force-unwrapped indicator from constants,Tue, 24 Nov 2015 12:09:28 -0500,Tue, 24 Nov 2015 12:09:28 -0500
+48939eefea178480e42acb514c17b895f3666b35,Correct JSON's type specification URL,Fri, 20 Nov 2015 15:31:01 +0800,Fri, 20 Nov 2015 15:31:01 +0800
+88e5723b7b5fbe2f2fa98bf597ecae81afd38ee0,Deleted Framework search paths for target OSX Test,Wed, 18 Nov 2015 10:33:32 +0100,Wed, 18 Nov 2015 10:33:32 +0100
+10f67900bdf2fb0faba3371249a6fefdcaa880c5,Merge pull request #396 from simonbs/master,Fri, 13 Nov 2015 14:32:34 -0600,Fri, 13 Nov 2015 14:32:34 -0600
+141c48b29f88062c48e760af6cef84ba8fd1d578,Merge pull request #398 from nanit/fix-alamofire-readme,Fri, 13 Nov 2015 14:32:21 -0600,Fri, 13 Nov 2015 14:32:21 -0600
+bc6223c815ee2b764020b4d7d5cd5c22678cc761,use safe unwrapping for result value,Thu, 12 Nov 2015 14:43:20 +0200,Thu, 12 Nov 2015 14:43:20 +0200
+d92b1bde563cfe707296b2b7b70a00ef69acf04a,fixed Alamofire & SwiftJSON integration example,Wed, 11 Nov 2015 16:37:57 +0200,Wed, 11 Nov 2015 16:37:57 +0200
+4c45c92a04785be3191ae2572b07599c16b23723,Sets UIRequiredDeviceCapabilities for tvOS target,Tue, 10 Nov 2015 18:35:50 +0100,Tue, 10 Nov 2015 18:35:50 +0100
+ece271ab33839d11c2153d71fb59c53545132cf9,Merge pull request #384 from zhigang1992/AddPlayground,Sat, 31 Oct 2015 22:29:05 -0500,Sat, 31 Oct 2015 22:29:05 -0500
+92b27d3cadd8db39e3d50a63ff1bc7c3f5977ed4,Merge pull request #383 from zhigang1992/FixExapmleProjectCompile,Sat, 31 Oct 2015 22:14:30 -0500,Sat, 31 Oct 2015 22:14:30 -0500
+91d77eb2877fb5bb73c4799e2a5f0ebbf6e59036,Merge pull request #376 from zhigang1992/AddingJSONSubscriptKey,Sat, 31 Oct 2015 22:02:46 -0500,Sat, 31 Oct 2015 22:02:46 -0500
+07afaaa9ad69bba83d502e2be85c6ff590584730,Fix Example Target Build,Sat, 31 Oct 2015 22:01:18 -0500,Sat, 31 Oct 2015 22:01:18 -0500
+df8ecbcdae0b81a78bf173890fd078adc0465d8f,Add Playground File,Sat, 31 Oct 2015 21:36:17 -0500,Sat, 31 Oct 2015 21:36:17 -0500
+fd5fac549fd0976ba60938249b6ad07b764e16eb,Rename it to JSONKey,Sat, 31 Oct 2015 11:59:33 +0800,Sat, 31 Oct 2015 11:59:33 +0800
+646f7e8813e6627bd9b09c77d5e775b67988de72,Fix Typo,Sat, 31 Oct 2015 11:55:32 +0800,Sat, 31 Oct 2015 11:55:32 +0800
+28fdb86271c904d933964a03c99cb0b71cf3d76d,Add Travis CI Icon,Sat, 31 Oct 2015 11:50:01 +0800,Sat, 31 Oct 2015 11:50:01 +0800
+684ceb678e861e76bcf09c85d2a455bfa15b9af8,Merge pull request #381 from zhigang1992/UpdateTravisCI,Sat, 31 Oct 2015 11:46:15 +0800,Sat, 31 Oct 2015 11:46:15 +0800
+37ffd5d7241f48684e924e8b18695b193e7ad6fd,Add tvOS,Sat, 31 Oct 2015 08:55:22 +0800,Sat, 31 Oct 2015 08:55:22 +0800
+def6ca609057544933082979816b0e56fa684756,Removing tvOS tests for now,Sat, 31 Oct 2015 02:33:21 +0800,Sat, 31 Oct 2015 02:33:21 +0800
+ab0ddbaec8c025e1f8d52fb50904bb1fa912ad5b,Adding tvOS and OSX,Sat, 31 Oct 2015 02:26:10 +0800,Sat, 31 Oct 2015 02:26:10 +0800
+e5a5efb01d0e878e566d65e4c3a9314cff6e4417,Add back device specs,Sat, 31 Oct 2015 02:19:27 +0800,Sat, 31 Oct 2015 02:19:27 +0800
+21ba023f5afd146dbb46094aa1ca6ca316942261,Update Travis Config,Sat, 31 Oct 2015 02:15:08 +0800,Sat, 31 Oct 2015 02:15:08 +0800
+61c47231e06301bcd4e0c5d345d5a76cfa759b9a,Merge branch 'xcode7.1',Sat, 31 Oct 2015 01:58:41 +0800,Sat, 31 Oct 2015 01:58:41 +0800
+3db7e39b11b58c91a0a360381ec7620b2caab46a,Merge pull request #380 from roadfire/xcode7.1,Sat, 31 Oct 2015 01:49:05 +0800,Sat, 31 Oct 2015 01:49:05 +0800
+fdd674e2c67f5189f4989bf29723c80a84227627,Updated README with better JSON parsing in Swift 2,Thu, 29 Oct 2015 21:28:29 -0400,Thu, 29 Oct 2015 21:28:29 -0400
+662fff11a6d49b4b297d6f01262c871a22ffa110,Adding Support for Custom JSONSubscriptType,Wed, 28 Oct 2015 23:57:28 +0800,Wed, 28 Oct 2015 23:57:28 +0800
+5f5d00dbdcd256600a250765d9f674964080ceee,We do return true if the JSON is neither an Array nor a Dictionary,Mon, 26 Oct 2015 17:53:15 +0800,Mon, 26 Oct 2015 17:53:15 +0800
+7ab46079bce71fe3c833e6b3214e5137b0363c03,Merge pull request #370 from KyleMay/master,Mon, 26 Oct 2015 17:43:21 +0800,Mon, 26 Oct 2015 17:43:21 +0800
+e61f690c07bf87948654120f68549bd6595bcabc,Merge pull request #371 from RohanNagar/patch-1,Mon, 26 Oct 2015 17:41:58 +0800,Mon, 26 Oct 2015 17:41:58 +0800
+ddf8244d7ac92644ce3dc18f0b99984b845b1408,update pod specs,Mon, 26 Oct 2015 17:28:34 +0800,Mon, 26 Oct 2015 17:28:34 +0800
+f02a2843d458b7e667a16030aba52a3a2cbad988,Merge pull request #367 from marcospolanco/xcode7.1,Mon, 26 Oct 2015 17:19:59 +0800,Mon, 26 Oct 2015 17:19:59 +0800
+4895d37992f330ed2d9433564f4ea78c55a96bad,Fix formatting issues in README,Thu, 22 Oct 2015 15:47:18 -0500,Thu, 22 Oct 2015 15:47:18 -0500
+e43f400c39136e4fdeeb9c62db2e45b51c5805cf,Change key to index for array,Thu, 22 Oct 2015 19:49:33 +1100,Thu, 22 Oct 2015 19:49:33 +1100
+d3be4c70b6e60045b79a8999c02f490072c6b324,Merge pull request #366 from samscam/tvos-in-podfile,Wed, 21 Oct 2015 12:53:44 +0800,Wed, 21 Oct 2015 12:53:44 +0800
+4e0cc63562fe851b0314f6a9768d53c778e53944,Update SwiftyJSON.podspec,Mon, 19 Oct 2015 20:18:46 -0700,Mon, 19 Oct 2015 20:18:46 -0700
+10e2c2a8db16fc0d01c648255219dcb447b10545,Added tvOS deployment target to podspec,Mon, 19 Oct 2015 23:29:19 +0100,Mon, 19 Oct 2015 23:29:19 +0100
+35c94b244ceb3be1b1b89371642564e912d2ffbd,Adding tvOS testing,Thu, 15 Oct 2015 13:06:05 +0800,Thu, 15 Oct 2015 13:06:05 +0800
+9e099f356da78cf9e74636009cb68e60d0dffd1f,Merge branch 'pr/338' into xcode7.1,Thu, 15 Oct 2015 11:23:57 +0800,Thu, 15 Oct 2015 11:23:57 +0800
+83dc3138b14571200ea7f070933a2a510491e997,Merge pull request #169 from skywinder/add-change-log-file,Wed, 14 Oct 2015 17:30:25 +0800,Wed, 14 Oct 2015 17:30:25 +0800
+052bc9cc42ff7d900640d5c2072c93889bd5de4b,Merge branch 'xcode7',Wed, 14 Oct 2015 17:26:42 +0800,Wed, 14 Oct 2015 17:26:42 +0800
+7a1eed5a63a7bba13e10f8fc3493f921fa29821d,Merge pull request #356 from Thomvis/xcode7,Wed, 14 Oct 2015 17:09:17 +0800,Wed, 14 Oct 2015 17:09:17 +0800
+77941cb2dee3351ca044bbf4bc9a6c7e42335223,Merge pull request #353 from apiyron/master,Wed, 14 Oct 2015 17:09:04 +0800,Wed, 14 Oct 2015 17:09:04 +0800
+8470b61c4abe8d5e35533342e42acd91bf285c62,Merge pull request #345 from patricks/master,Wed, 14 Oct 2015 17:00:38 +0800,Wed, 14 Oct 2015 17:00:38 +0800
+233f02f56a7c305f770b8a6e51950e5feaaf452e,Merge pull request #328 from otanistudio/xcode7,Wed, 14 Oct 2015 16:59:03 +0800,Wed, 14 Oct 2015 16:59:03 +0800
+a5a861b6e090efc1ddc7c434d6e76f31ca9a1dca,Adding watchOS.,Fri, 21 Aug 2015 20:08:47 -0700,Wed, 14 Oct 2015 16:51:06 +0800
+9778e94fcc453c7aaaf5850ff8db22f8148f485c,Merge pull request #322 from pcantrell/decimal-numberValue,Wed, 14 Oct 2015 16:44:54 +0800,Wed, 14 Oct 2015 16:44:54 +0800
+c2d750d189f2427fbf45de31fbc9e50bbc0eecbd,Merge pull request #320 from bassrock/xcode7,Wed, 14 Oct 2015 16:35:21 +0800,Wed, 14 Oct 2015 16:35:21 +0800
+2ce98a9d0e4a56ce4656fc0e35617e3bec934e12,Merge pull request #319 from kohtenko/master,Wed, 14 Oct 2015 16:34:45 +0800,Wed, 14 Oct 2015 16:34:45 +0800
+c9e9705820c73e3b8dc18c3a128b0b1672e3923c,Merge pull request #359 from tylerlong/master,Wed, 14 Oct 2015 16:20:08 +0800,Wed, 14 Oct 2015 16:20:08 +0800
+d11cd7d8f9c226e5af95b2182367424a85380499,MACOSX_DEPLOYMENT_TARGET = 10.9,Sat, 10 Oct 2015 14:10:24 +0800,Sat, 10 Oct 2015 14:10:24 +0800
+aade0fd6a0a8b26b95c8457520449a234c4ea4e2,Added Carthage bitcode support (see https://github.com/Carthage/Carthage/issues/535),Mon, 5 Oct 2015 16:45:03 +0200,Mon, 5 Oct 2015 16:45:03 +0200
+fd9e866118f8ac8121e4a30da122bb76f031173d,println -> print in README.md,Sat, 3 Oct 2015 03:33:33 +0300,Sat, 3 Oct 2015 03:33:33 +0300
+e69270e3f36f688ef9ac986dd7447b8427911770,Updated comments to the new Swift 2.0 style,Wed, 23 Sep 2015 11:00:30 +0200,Wed, 23 Sep 2015 11:00:30 +0200
+75cc8c7d58510433e505103da21deadbfbf38869,Changes PRODUCT_NAME of tvOS target to SwiftyJSON,Fri, 18 Sep 2015 11:48:34 +0200,Fri, 18 Sep 2015 11:48:34 +0200
+4af1fc66bdca22652b6d99c38f266a35229c6657,Adds support for tvOS,Fri, 18 Sep 2015 11:45:10 +0200,Fri, 18 Sep 2015 11:45:10 +0200
+3b5d0d4e0c19173b1bf0dc823bde25ad870f70c0,Update podspec,Fri, 18 Sep 2015 11:08:25 +0800,Fri, 18 Sep 2015 11:08:25 +0800
+50583adf21de1f84a4a06f6dff1b2bb09fe0b03b,Update README.md,Wed, 16 Sep 2015 19:26:54 +0800,Wed, 16 Sep 2015 19:26:54 +0800
+1f38ced11db4d651116634898f274d158bfb9c85,Merge branch 'xcode7',Wed, 16 Sep 2015 19:24:35 +0800,Wed, 16 Sep 2015 19:24:35 +0800
+6eb4cda062fa09c4658e4184f92d822058f226e3,Merge pull request #330 from spenrose/bugfix/watchOS-target,Wed, 16 Sep 2015 19:00:04 +0800,Wed, 16 Sep 2015 19:00:04 +0800
+a669e50c7108de5d15e4646755e603312c7f634d,remove superfluous catch frame,Sat, 12 Sep 2015 20:15:49 -0700,Sat, 12 Sep 2015 20:15:49 -0700
+b8482065c435129ccd815d2ce2544753007cef78,While NSJSONSerialization states that it will throw, invalid JSON will make it throw prior to parsing. Apple recommends checking for valid JSON first. In practice, I've seen the case where do/try on rawData is never caught on exception, presumably because of the parsing issue (at least in XCode 7 GM.),Sat, 12 Sep 2015 19:54:30 -0700,Sat, 12 Sep 2015 19:57:10 -0700
+9178db058e814b5ac8d86f3a3c9bba2d86deaf60,XCTAssertLessThan and XCTAssertGreaterThan are now more strict about NSNumber types,Sat, 12 Sep 2015 19:50:46 -0700,Sat, 12 Sep 2015 19:50:46 -0700
+3ea43c86d105022999d5737908bbdc3a44cbf857,Fix carthage not being able to build the watchOS scheme for simulator,Fri, 11 Sep 2015 17:59:47 -0400,Fri, 11 Sep 2015 17:59:47 -0400
+18f12d17e4a02723b34df7cdc6c5a0aff82a3d31,Move watchOS info plist to correct directory.,Fri, 11 Sep 2015 17:59:21 -0400,Fri, 11 Sep 2015 17:59:21 -0400
+06a5bdc52354c27bbc11e36bd62cc5e037eb69d3,XCode 7 GM: NSNumber now already conforms to Swift.Comparable,Thu, 10 Sep 2015 10:55:03 -0700,Thu, 10 Sep 2015 10:55:03 -0700
+7df89b7a1be8301ce858e5fe0d410b1209702ecb,Parse string numbers as NSDecimalNumber instead of double,Wed, 9 Sep 2015 10:11:09 -0500,Wed, 9 Sep 2015 10:11:09 -0500
+d4df13c66146a8e9c8d96c852746a08363003d36,Merge pull request #317 from tomco/xcode7,Tue, 8 Sep 2015 15:00:18 +0800,Tue, 8 Sep 2015 15:00:18 +0800
+8ccb619ffd942141347a92dc6fd47fa093a089c4,Existance check + tests + readme,Wed, 2 Sep 2015 17:08:32 +0300,Wed, 2 Sep 2015 17:08:32 +0300
+7cc7dd88223fae5c9f675e79b33f6beb5c502717,Updated BuilableName,Mon, 31 Aug 2015 14:32:32 +0200,Mon, 31 Aug 2015 14:32:32 +0200
+b1efa67f190bdd25f82372dac2f37a717525029e,watchOS target added.,Mon, 31 Aug 2015 12:40:05 +0200,Mon, 31 Aug 2015 12:40:05 +0200
+6ed4b729124a7b5d448517eb822573a8f6f3a625,Merge pull request #310 from saagarjha/master,Mon, 31 Aug 2015 15:03:16 +0800,Mon, 31 Aug 2015 15:03:16 +0800
+69cf31343909e6001012884848c4904462801a24,Fixed some minor grammar errors in the README,Mon, 24 Aug 2015 22:12:53 -0700,Mon, 24 Aug 2015 22:12:53 -0700
+12397b44a3483659df3ed5c7a8e2633809ce8936,Adding watchOS,Fri, 21 Aug 2015 20:08:47 -0700,Fri, 21 Aug 2015 20:08:47 -0700
+f269523ac572979245baa99c8475eab73caf1e9b,Fix xcode beta5 warning.,Fri, 21 Aug 2015 16:53:51 +0800,Fri, 21 Aug 2015 16:53:51 +0800
+a3daac3e0dce1a3dbcb926165c28d26b7c921cc2,Merge pull request #293 from condaatje/patch-1,Fri, 21 Aug 2015 15:55:09 +0800,Fri, 21 Aug 2015 15:55:09 +0800
+b57f4d0ad17de0af171f24dc6e0c5fae5a06331c,Merge pull request #296 from angrauel/xcode7,Fri, 21 Aug 2015 15:54:04 +0800,Fri, 21 Aug 2015 15:54:04 +0800
+1609d5a7fc5ee84bd69cf253b19f0a15c264042d,Re-Indent,Fri, 7 Aug 2015 23:19:18 +0800,Fri, 21 Aug 2015 14:47:26 +0800
+d2455075224731f0449366c71e1a08d10d718e6d,Merge pull request #298 from ndevenish/patch-1,Tue, 18 Aug 2015 11:06:02 +0800,Tue, 18 Aug 2015 11:06:02 +0800
+90b385354b13dc1e181faa5b14a73a818d5de7f6,Merge pull request #301 from duemunk/patch-1,Fri, 14 Aug 2015 14:50:51 +0800,Fri, 14 Aug 2015 14:50:51 +0800
+a0fe1be5251916982475b12d7d699a1d943ae88b,Merge pull request #290 from briankracoff/fixNPEOnInit,Fri, 14 Aug 2015 14:50:31 +0800,Fri, 14 Aug 2015 14:50:31 +0800
+14e486ea2ff4a91b5135d3f492f9cf97bd4d4ead,Fix syntax style error,Thu, 13 Aug 2015 13:38:30 +0200,Thu, 13 Aug 2015 13:38:30 +0200
+770667461d7b8f763f0941a0c6eee567f59a3297,Fix bad memory access with optional error pointer,Tue, 11 Aug 2015 19:59:08 +0100,Tue, 11 Aug 2015 19:59:08 +0100
+dbd02fd60d48c36714bbc83dc7ad3a8c05557fe7,fixes compiler warning,Mon, 10 Aug 2015 07:40:10 +0200,Mon, 10 Aug 2015 07:40:10 +0200
+1aa183ed3dae717f78312163aef501130b2850c1,URL charset, not alphanumeric,Sat, 8 Aug 2015 17:04:34 -0400,Sat, 8 Aug 2015 17:04:34 -0400
+70ddb5419b5b05511ac9db41b128e50e37313206,Update Deprecated Function,Sat, 8 Aug 2015 16:47:28 -0400,Sat, 8 Aug 2015 16:47:28 -0400
+a208ce8237d996cf7e3922a828ea8d76ac5752a5,Check if error pointer exists before setting memory,Thu, 6 Aug 2015 10:16:01 -0400,Thu, 6 Aug 2015 10:16:01 -0400
+45ca854ce75948858f65e31fbc58cbf214669250,Remove cast code in JSON compare.,Sat, 1 Aug 2015 21:55:59 +0800,Sat, 1 Aug 2015 21:55:59 +0800
+838cba3f321f8075931e7eb40eae69e247cdbf12,Merge branch 'master' into xcode7,Fri, 31 Jul 2015 15:03:31 +0800,Fri, 31 Jul 2015 15:03:31 +0800
+d1b287c5d788e862479b606425c529a75a0be7d3,Implement CollectionType.,Fri, 31 Jul 2015 11:06:43 +0800,Fri, 31 Jul 2015 11:06:43 +0800
+c069c0dc207cbd1fbb057e930413121081313ebe,Delete unnecessary cast. Implement SequenceType completely.,Thu, 30 Jul 2015 23:19:41 +0800,Thu, 30 Jul 2015 23:19:41 +0800
+dd9551eab0d09026676a57a0e0fd762af8465f03,Update for 2.2.1,Wed, 29 Jul 2015 00:56:02 +0800,Wed, 29 Jul 2015 00:56:02 +0800
+4cf6f023d4023848914b6e35baa655d278f34ef6,Change example path for carthage. #140 #177 #140,Wed, 29 Jul 2015 00:19:48 +0800,Wed, 29 Jul 2015 00:50:54 +0800
+88c3f8ca078a0c74df8d94bb1d85df69b649e7ad,Update for xcode7. #276 #272 #263,Wed, 29 Jul 2015 00:37:12 +0800,Wed, 29 Jul 2015 00:37:12 +0800
+11f1be4af08b8fbcc7af8834be4d8b8844b33d88,Change example path for carthage. #276,Wed, 29 Jul 2015 00:19:48 +0800,Wed, 29 Jul 2015 00:19:48 +0800
+213e53a9ec80e6264efa4b1bc45e2d6876b09b65,Add WorkingspaceSettings.xcsettings.,Wed, 29 Jul 2015 00:02:19 +0800,Wed, 29 Jul 2015 00:02:19 +0800
+ebbc30d640ce93e8e3e57405c8081a80e9afb932,Use reduce to get subscript json.,Tue, 28 Jul 2015 23:59:37 +0800,Tue, 28 Jul 2015 23:59:37 +0800
+18fe2e6414b4b58387befdf5ec85bc3f7750eb4f,Merge pull request #273 from kilnyy/master,Mon, 27 Jul 2015 11:18:39 +0800,Mon, 27 Jul 2015 11:18:39 +0800
+ef832c0cbeac368a13d6b56c43d2467380653081,Merge pull request #281 from kai60/master,Mon, 27 Jul 2015 11:17:26 +0800,Mon, 27 Jul 2015 11:17:26 +0800
+66ed9bc59ed15d8a610471f4dd3b736060a7f26c,Merge pull request #282 from wordlessj/master,Mon, 27 Jul 2015 11:17:00 +0800,Mon, 27 Jul 2015 11:17:00 +0800
+1cac8860c80e3b7f905f71ba748ba8d034f6937e,Optimize performance of count,Sat, 25 Jul 2015 11:36:11 +0800,Sat, 25 Jul 2015 11:36:11 +0800
+7f8b896812a3352c00a03302dda1bd3d848ef725,example bug fix,Fri, 24 Jul 2015 16:10:50 +0800,Fri, 24 Jul 2015 16:10:50 +0800
+141f17d2026dd4ba9b20705e231b2e2e644855f1,Allow construction of JSON from [String: JSON],Tue, 14 Jul 2015 15:41:25 +0800,Tue, 14 Jul 2015 15:41:25 +0800
+999ae8340492d6e9b42f28f332cbd591509de079,Update JSON.nullJSON to JSON.null,Tue, 14 Jul 2015 14:16:43 +0800,Tue, 14 Jul 2015 14:16:43 +0800
+fb9f6b43cd8d3684c3129793057eb2a2564e2430,Update nullJSON to null,Fri, 19 Jun 2015 17:19:45 +0800,Fri, 19 Jun 2015 17:19:45 +0800
+0c88169d43aeb989f27231b4bb14ab5719a4f508,Update subscript(path: [SubscriptType]),Fri, 19 Jun 2015 16:25:26 +0800,Fri, 19 Jun 2015 16:25:26 +0800
+90ffef87d9358ddb42edb51da52ff0845fd81b78,Merge pull request #254 from remzr7/xcode7,Fri, 19 Jun 2015 14:44:02 +0800,Fri, 19 Jun 2015 14:44:02 +0800
+e85218625a90aa8f329899c746d79616464bcdf7,Updated Readme to swift 2.0,Tue, 16 Jun 2015 17:59:42 +0800,Tue, 16 Jun 2015 17:59:42 +0800
+62b581e14c5a813b1195d43faf61efe035a114c1,Update README.md,Sat, 13 Jun 2015 13:58:19 +0800,Sat, 13 Jun 2015 13:58:19 +0800
+d93505a2d0e27eeb74d8a0d1bdc8a987ce6ea85d,Update for xcode7,Sat, 13 Jun 2015 13:55:07 +0800,Sat, 13 Jun 2015 13:55:07 +0800
+321bedc299ad146be97b9b30fbcfebcf617b3672,Merge pull request #230 from Frostman/patch-1,Mon, 25 May 2015 13:19:23 +0800,Mon, 25 May 2015 13:19:23 +0800
+5d0eb07b85e3adc698f81c09906a8eae145c4fc0,Update README.md,Mon, 25 May 2015 12:26:52 +0800,Mon, 25 May 2015 12:26:52 +0800
+58098186abc56017d80cc46c1705f45114f69f32,Merge pull request #231 from xgdgsc/patch-1,Mon, 25 May 2015 12:00:20 +0800,Mon, 25 May 2015 12:00:20 +0800
+6af1f1635bbe4540b9da35b84e4ed2ab871bbd21,add instruction on import to README,Sat, 16 May 2015 22:46:16 +0800,Sat, 16 May 2015 22:46:16 +0800
+af9b44cea4d639d7a677df80ea383e5e7f044159,Add Carthage/Build to .gitignore,Wed, 13 May 2015 14:52:31 -0700,Wed, 13 May 2015 14:52:31 -0700
+f75736d83fb054ac1bef62388823ebe28ab80a6e,Update README.md,Tue, 5 May 2015 10:25:27 +0800,Tue, 5 May 2015 10:25:27 +0800
+2c96a3e69b5936b8abc34c776309936d5fa7fb6f,update change log,Mon, 4 May 2015 09:12:31 +0300,Mon, 4 May 2015 09:12:31 +0300
+ed1521cade399598c24639b29c818bda27b2d3a0,Update README.md,Fri, 1 May 2015 22:23:56 +0800,Fri, 1 May 2015 22:23:56 +0800
+79af3b8a9d073f7414e8db7173536c3c6f25e696,Merge pull request #223 from kmikael/patch-1,Fri, 1 May 2015 21:47:12 +0800,Fri, 1 May 2015 21:47:12 +0800
+fffd6d908d0a342fee86c2a7afadd7c28b07c383,Merge pull request #214 from pRizz/master,Fri, 1 May 2015 21:37:05 +0800,Fri, 1 May 2015 21:37:05 +0800
+991deb419b0aabc416f41b577f87c8fcf0e0ba5b,Update the first two examples snippets,Sun, 26 Apr 2015 23:02:24 +0200,Sun, 26 Apr 2015 23:02:24 +0200
+52c3c191ab175fb31d295324a1162ad6607d3c5d,Fixed spelling and grammar mistakes in README.md. Made some swift syntax more consistent.,Thu, 16 Apr 2015 23:01:26 -0500,Thu, 16 Apr 2015 23:01:26 -0500
+018c6fbabf1f110582c0018e742655a8cf4b6003,Add test - get value from [SubscriptType],Thu, 16 Apr 2015 17:56:18 +0800,Thu, 16 Apr 2015 17:56:35 +0800
+ce369e35f803c6c01421e9ff5d36bad7b8fcc82d,Update README.md,Thu, 16 Apr 2015 17:40:09 +0800,Thu, 16 Apr 2015 17:40:09 +0800
+c5554fa4f8559d2833d509e7f49f89479029245e,Update swift's protocol to swift.protocol,Thu, 16 Apr 2015 14:55:03 +0800,Thu, 16 Apr 2015 14:55:03 +0800
+87fa9e2432187629aae80cf89027f2a615af2c31,Update podspec,Mon, 13 Apr 2015 14:50:54 +0800,Mon, 13 Apr 2015 14:50:54 +0800
+db087bb7bed20ca9b982cf5e3cfb1c9dfc548027,Update README.md,Mon, 13 Apr 2015 14:42:58 +0800,Mon, 13 Apr 2015 14:42:58 +0800
+84c41320dd38c977ce8ccc29dd6bf5cce414f4bf,Merge pull request #207 from spanage/master,Mon, 13 Apr 2015 14:38:41 +0800,Mon, 13 Apr 2015 14:38:41 +0800
+1d89633517cb8ba48ece332cef3c4ce911a74c77,Merge pull request #194 from manijshrestha/patch-1,Mon, 13 Apr 2015 13:58:44 +0800,Mon, 13 Apr 2015 13:58:44 +0800
+2afc0d2b90a39f49b3bee6a6e9f5e92cf4785b9b,Merge pull request #187 from cnoon/fixes/osx_scheme,Mon, 13 Apr 2015 13:56:00 +0800,Mon, 13 Apr 2015 13:56:00 +0800
+87b3bed0feef208e15c52a136882b41df4b810d1,Merge pull request #186 from cnoon/fixes/osx_code_signing,Mon, 13 Apr 2015 13:55:24 +0800,Mon, 13 Apr 2015 13:55:24 +0800
+4b3bdd6f04ddf435af695bd43d95202396a5cab3,Fix for issue #200,Mon, 13 Apr 2015 13:48:22 +0800,Mon, 13 Apr 2015 13:48:22 +0800
+db2b0274684779ee0d6e0f169f89f499883260a0,Merge branch 'xcode6.3',Mon, 13 Apr 2015 13:37:42 +0800,Mon, 13 Apr 2015 13:37:42 +0800
+fbd135e0535a8635573e1118da3594040fc824ca,Only building tests for testing,Sun, 12 Apr 2015 22:19:50 -0700,Sun, 12 Apr 2015 22:19:50 -0700
+c569b21d81b1fbe63fef3c711e70810d0aac3847,Avoid using subscript on AnyObject in Swift 1.2,Fri, 10 Apr 2015 23:37:39 +0200,Fri, 10 Apr 2015 23:38:10 +0200
+68e18284ff77daf6f4554b22fafc3a4f16262795,Update README.md,Sun, 5 Apr 2015 13:05:56 -0500,Sun, 5 Apr 2015 13:05:56 -0500
+4b0ec44b7114f1263917181fca70391b0610c53a,Fixed the buildable name in the OSX scheme.,Wed, 25 Mar 2015 11:24:41 -0700,Wed, 25 Mar 2015 11:24:41 -0700
+1e0a02944e17dc8a62eb33fa6e7594c3e7960b7d,Removed code signing identity from OSX target and tests.,Wed, 25 Mar 2015 11:15:20 -0700,Wed, 25 Mar 2015 11:15:20 -0700
+489a62927cd28d8fd854379e3bbe665a285a9526,Merge pull request #146 from lwu/master,Fri, 20 Mar 2015 15:33:29 +0800,Fri, 20 Mar 2015 15:33:29 +0800
+c21711d635f831c91f2b14b30166f722c56a506e,Merge pull request #124 from ravero/master,Fri, 20 Mar 2015 15:20:21 +0800,Fri, 20 Mar 2015 15:20:21 +0800
+00214e2981741b5c1b8bad0448c90f1df575e0f5,Merge pull request #174 from rromanchuk/carthage-support,Fri, 20 Mar 2015 14:39:51 +0800,Fri, 20 Mar 2015 14:39:51 +0800
+008a09d7ea8b13c03fb59b35c01aad339584a5e1,Merge pull request #178 from mono0926/fix-ios-test,Fri, 20 Mar 2015 14:33:13 +0800,Fri, 20 Mar 2015 14:33:13 +0800
+7cad22145d30d9c8463d174e0ccb6ae96b577a60,Fix int overflow compile error,Thu, 19 Mar 2015 09:09:04 +0900,Thu, 19 Mar 2015 09:09:04 +0900
+ad03f607d72955c0f6d0fd1c6ce4ed70d6413864,Better support for carthage users,Sun, 15 Mar 2015 14:35:53 -0700,Sun, 15 Mar 2015 14:35:53 -0700
+52e916b7a76484cb6e1efc05f304599fe6c2de7b,Merge pull request #170 from joelparkerhenderson/master,Thu, 12 Mar 2015 14:28:56 +0800,Thu, 12 Mar 2015 14:28:56 +0800
+2fcc611d25114b119d552589b9b9babc55e4e117,Update README for new Cocoapods,Wed, 11 Mar 2015 22:29:57 -0600,Wed, 11 Mar 2015 22:36:18 -0600
+1736aec181c094e1c6b171f5152222d1117e7f78,Added automatically generated change log file,Wed, 11 Mar 2015 12:07:25 +0200,Wed, 11 Mar 2015 12:07:25 +0200
+86ad05b022a9f7da2ed806d784006c7a120eb010,Merge pull request #156 from rastersize/fix/osx-target-and-scheme-2,Wed, 11 Mar 2015 13:32:13 +0800,Wed, 11 Mar 2015 13:32:13 +0800
+b63806a75f68ddc9f1d416dfe17079cb13163f19,Merge pull request #154 from rastersize/nuke-xcuserdata,Wed, 11 Mar 2015 13:30:42 +0800,Wed, 11 Mar 2015 13:30:42 +0800
+fde6335486d6f6170a6d5c23977bb6f6aec521d4,Add OS X framework and tests target + scheme,Sun, 15 Feb 2015 17:46:40 +0100,Sun, 15 Feb 2015 17:46:40 +0100
+40c3784c6b9fc463b0f68624992f1ed205ccf5d9,Rename info plists to have -iOS suffix,Sun, 15 Feb 2015 17:45:24 +0100,Sun, 15 Feb 2015 17:45:24 +0100
+46036b178389a5408b234cab6717f882fa7bfe8b,Rename iOS tests target to “SwiftyJSON iOS Tests”,Sun, 15 Feb 2015 17:33:02 +0100,Sun, 15 Feb 2015 17:33:02 +0100
+dd129a37b479badbc6b8440f5c92d7d3358b2520,Remove SwiftJSON OS X targets,Sun, 15 Feb 2015 17:32:29 +0100,Sun, 15 Feb 2015 17:32:29 +0100
+0e11e213dd1b6f550b17a3fbd3eb62ef92c6e85f,Remove SwiftJSON.xcodeproj/xcuserdata,Sun, 15 Feb 2015 16:46:14 +0100,Sun, 15 Feb 2015 16:46:14 +0100
+0691445da4c4a94484621919c347d7b69f9598fe,Fixed test and example's compilation errors in xcode 6.3 beta.,Thu, 12 Feb 2015 11:45:49 +0800,Thu, 12 Feb 2015 11:45:49 +0800
+fa057b8ddedff649fa5ae92f2d562ab67f401aa0,Merge branch 'darrarski-master' into xcode6.3,Thu, 12 Feb 2015 11:36:57 +0800,Thu, 12 Feb 2015 11:36:57 +0800
+aa39ffdac0d4a53f73009992016e94a3de660912,Swift 1.2 compatibility fixes,Mon, 9 Feb 2015 22:44:29 +0100,Mon, 9 Feb 2015 22:44:29 +0100
+28ab56bc653298111f623b1269088355f65a6b8b,Allow construction of JSON from [JSON],Thu, 5 Feb 2015 14:59:40 -0800,Thu, 5 Feb 2015 14:59:40 -0800
+28ec80f991f6f38545f610bd31b290dcee668c66,Setter for JSON array should use arrayObject not array (which does not expose a setter) (README.md),Tue, 3 Feb 2015 17:17:36 -0800,Tue, 3 Feb 2015 17:17:36 -0800
+02878562cc779fda8e86be3211050f03228a01d6,Merge pull request #142 from zhxnlai/patch-1,Thu, 29 Jan 2015 16:56:11 +0800,Thu, 29 Jan 2015 16:56:11 +0800
+b6ef388434914e08b12c74a7c799cb001202d5e1,fix travis ci,Wed, 28 Jan 2015 16:45:03 +0800,Wed, 28 Jan 2015 16:45:03 +0800
+0d939002de0732ca024b2e5c04abadaafe5289b6,add missing ` in comments,Tue, 27 Jan 2015 14:55:03 -0800,Tue, 27 Jan 2015 14:55:03 -0800
+5b0ec364040b4fac1ab70ff50f5aa91942874458,Merge pull request #134 from remaerd/master,Mon, 26 Jan 2015 11:49:31 +0800,Mon, 26 Jan 2015 11:49:31 +0800
+8462fc1dac3f8b3c8a80625cf6e489801bc6a3cf,Merge pull request #139 from watsonbox/fix_readme_nested_example,Mon, 26 Jan 2015 11:38:35 +0800,Mon, 26 Jan 2015 11:38:35 +0800
+3764b3facf7f2c768fbd0a17d3ca3929f2ef411a,Merge pull request #136 from esbenvb/patch-2,Mon, 26 Jan 2015 11:38:13 +0800,Mon, 26 Jan 2015 11:38:13 +0800
+90562eb14f9604a124a002d7b50eb590ff067996,Merge pull request #135 from esbenvb/patch-1,Mon, 26 Jan 2015 11:37:54 +0800,Mon, 26 Jan 2015 11:37:54 +0800
+c54eaa551ae06999c55131c067bb9463f860f9f4,Fix README.md nested example,Wed, 21 Jan 2015 19:52:12 +0100,Wed, 21 Jan 2015 19:52:12 +0100
+d542c44d9043c2610d4a851e0c690b3a6b14d7ba,Update README.md,Tue, 20 Jan 2015 09:51:31 +0100,Tue, 20 Jan 2015 09:51:31 +0100
+8cffc6486c5eede0d349602c6549054fec96f2f7,Update README.md,Tue, 20 Jan 2015 09:43:51 +0100,Tue, 20 Jan 2015 09:43:51 +0100
+94b692c957acb7999cc04c22bc9985adfc956f6c,Fix Carthage on OSX Support,Tue, 20 Jan 2015 12:58:46 +0800,Tue, 20 Jan 2015 12:58:46 +0800
+bad58520dad25de03e8104c2a927d818bf201969,Fix Carthage on OS X Support,Tue, 20 Jan 2015 12:40:16 +0800,Tue, 20 Jan 2015 12:40:16 +0800
+63133c2d5c1be69ee0d7ac48e3175d663a745dc5,Update README.md,Sat, 10 Jan 2015 15:24:40 +0800,Sat, 10 Jan 2015 15:24:40 +0800
+2c0f54394f473cfee0cd1cd35d599f8f6f0f5c9e,change podspec to 2.1.3,Sat, 10 Jan 2015 15:04:29 +0800,Sat, 10 Jan 2015 15:04:29 +0800
+7ea630c5842b9aee6a6a0062fb9ec27cbb076a38,using with cocoapods require >= iOS 8,Sat, 10 Jan 2015 14:57:10 +0800,Sat, 10 Jan 2015 14:57:10 +0800
+8d1908d5bee518d4ec2117e2dd6f06927b3cdf1a,Merge pull request #128 from johngoren/patch-5,Fri, 9 Jan 2015 12:22:33 +0800,Fri, 9 Jan 2015 12:22:33 +0800
+8edd3e252bdcc520f28f3b483b6cfe235b0e0f5b,trigger travis first build,Fri, 9 Jan 2015 12:14:52 +0800,Fri, 9 Jan 2015 12:14:52 +0800
+81929fcf52ae416da87eedd060895601ee89846b,test travis config,Fri, 9 Jan 2015 12:07:28 +0800,Fri, 9 Jan 2015 12:07:28 +0800
+4ca2b62574d9d04a814874a3483b0b10c733dd4b,travis ci trigger,Fri, 9 Jan 2015 12:05:22 +0800,Fri, 9 Jan 2015 12:05:22 +0800
+c7319f07a35dd55aba95be4e7724bbe7f177b0f9,add travis ci support,Fri, 9 Jan 2015 11:59:09 +0800,Fri, 9 Jan 2015 11:59:09 +0800
+e735cae23f2c14a0b4b0df5c52cad6442bd5f9ec,Minor grammar fixes to README,Wed, 7 Jan 2015 15:14:21 -0800,Wed, 7 Jan 2015 15:14:21 -0800
+c049e23172c223eb798cb7f658035ae27335fc4f,Merge pull request #127 from johngoren/patch-4,Sun, 4 Jan 2015 13:41:21 +0800,Sun, 4 Jan 2015 13:41:21 +0800
+58a3772517290d3745dcba736c97710012596171,Updated because podspec is now available...,Tue, 30 Dec 2014 11:34:22 -0800,Tue, 30 Dec 2014 11:34:22 -0800
+f5d08738c287508ffc9fd0672741dbca9ef50a32,Update optional cell textLabel's text.,Wed, 24 Dec 2014 11:57:50 +0800,Wed, 24 Dec 2014 11:57:50 +0800
+5acbe93435a2ce0935224d214a0c531795f568e5,Prefixed "SequenceType" extension with Module name, since it was conflicting with other SequenceType declaration in separate library.,Tue, 23 Dec 2014 20:10:12 -0200,Tue, 23 Dec 2014 20:10:12 -0200
+f757b60453ff33ec3b5e2a3e138e18a3039d4790,Merge pull request #121 from wiruzx/fix-is-empty,Tue, 23 Dec 2014 10:04:48 +0800,Tue, 23 Dec 2014 10:04:48 +0800
+f9f2080ebe5245cb2d3d79c1bf90bc75ad7c4f66,Merge pull request #119 from technomage/master,Tue, 23 Dec 2014 10:04:26 +0800,Tue, 23 Dec 2014 10:04:26 +0800
+b83db584965d75250182478b69ad6b9fbb8c35bc,Fix visibility of isEmpty property,Mon, 22 Dec 2014 14:38:03 +0300,Mon, 22 Dec 2014 14:38:03 +0300
+f5347e5a90dfe00c32fa1fe228472291cacb386a,Make framework extension friendly,Sat, 20 Dec 2014 11:26:47 -0700,Sat, 20 Dec 2014 11:26:47 -0700
+c168276888e8db42f8e8aa96c6fc7ee95c6792a5,Merge pull request #114 from max-potapov/codesign,Tue, 16 Dec 2014 18:00:11 +0800,Tue, 16 Dec 2014 18:00:11 +0800
+bacdcc92e79b997029bc79d03a822c719184f66d,Merge pull request #115 from floydpink/master,Tue, 16 Dec 2014 16:54:27 +0800,Tue, 16 Dec 2014 16:54:27 +0800
+bb4625702e80eea2d5d2a9e77db028605dae698c,Merge pull request #1 from floydpink/readme-toc,Sun, 14 Dec 2014 15:51:46 -0500,Sun, 14 Dec 2014 15:51:46 -0500
+8df99e0c05e8974f00a78b7d2a51854f1efa2075,updated the TOC links,Sun, 14 Dec 2014 15:50:45 -0500,Sun, 14 Dec 2014 15:50:45 -0500
+023f307a20eb041a23e34bfaa5e146cc77e659ab,fix the typos on the code snippets on README,Sun, 14 Dec 2014 15:33:07 -0500,Sun, 14 Dec 2014 15:33:07 -0500
+99527af0a1bfd4a5336edee7a3e478c760d92255,Use Mac' codesign identities for OSX targets,Sun, 14 Dec 2014 15:16:05 +0300,Sun, 14 Dec 2014 15:16:05 +0300
+78dfbf4ffb235ef95badd68bb1c34a64d65a1501,Update README.md,Sat, 13 Dec 2014 16:34:54 +0800,Sat, 13 Dec 2014 16:34:54 +0800
+9910b9db9c904a61b55f82e1ea5c55c70669ea29,Update SwiftyJSON.podspec for 2.1.2,Sat, 13 Dec 2014 11:18:14 +0800,Sat, 13 Dec 2014 11:18:14 +0800
+34305ea0df0d9c1e6ad2dd0aaaedbf510bc3fe5e,Merge pull request #113 from Present-Inc/master,Sat, 13 Dec 2014 11:16:32 +0800,Sat, 13 Dec 2014 11:16:32 +0800
+62bf5eb863e5d28c702e2bc099fd0f9779c19dc4,Update README.md,Fri, 12 Dec 2014 10:53:58 -0500,Fri, 12 Dec 2014 10:53:58 -0500
+5a14f9004e05691b3d7f6201ec47f908a6bbcdae,Merge pull request #106 from briankracoff/master,Thu, 11 Dec 2014 14:18:34 +0800,Thu, 11 Dec 2014 14:18:34 +0800
+58fbd6ddcfa79eacfbd140cff451284b600bf7c5,Merge pull request #104 from Present-Inc/master,Thu, 11 Dec 2014 14:17:34 +0800,Thu, 11 Dec 2014 14:17:34 +0800
+b05c10b5eeab935ccb6e22ce8e6797976d1f805a,Merge pull request #92 from JonathanPorta/update-alamofire-integration-recomendation,Thu, 11 Dec 2014 14:13:53 +0800,Thu, 11 Dec 2014 14:13:53 +0800
+78986c89ebd399b0c1aa695b1ad1fd5108908aa0,Fix NSNumber != func,Mon, 8 Dec 2014 14:14:39 -0500,Mon, 8 Dec 2014 14:14:39 -0500
+aa9cc392822729e77517dcc25642ffb2ea6b026d,Added shared scheme,Tue, 2 Dec 2014 13:01:08 -0500,Tue, 2 Dec 2014 13:01:08 -0500
+0381feab23220fcb829f4e5659cb2223244b187e,Removed .xcscheme from gitignore,Tue, 2 Dec 2014 13:00:29 -0500,Tue, 2 Dec 2014 13:00:29 -0500
+def49ed99df1d937da702ca4cae864100e1e567f,Updated deployment target,Tue, 2 Dec 2014 12:57:53 -0500,Tue, 2 Dec 2014 12:57:53 -0500
+eef5bf135c8cbc2cc64f3f66e5665e9019bb88cb,Should fix code signing issues,Tue, 2 Dec 2014 11:30:11 -0500,Tue, 2 Dec 2014 11:30:11 -0500
+09779b1dd0f95661087433eb6f6c5d539e0e6e86,Updated all the code signing identities,Tue, 2 Dec 2014 11:14:43 -0500,Tue, 2 Dec 2014 11:14:43 -0500
+abcc89bd0437282e4ff3f98a5976a8f59fa39114,Merge pull request #100 from ValCapri/master,Mon, 24 Nov 2014 19:56:45 +0800,Mon, 24 Nov 2014 19:56:45 +0800
+1d72868e524c8354697e9a5b7f5736dc5dbc9449,Correct mblsha podspec,Sun, 23 Nov 2014 18:53:26 +0100,Sun, 23 Nov 2014 18:53:26 +0100
+ad17a21e52bb0eb9408771b4f2ce1845e8499fda,Add a super simple error handling example,Thu, 13 Nov 2014 17:21:23 -0800,Thu, 13 Nov 2014 17:21:23 -0800
+25ceb607a457aad56e679e687d271c837a7c9e8b,Merge pull request #94 from franklsf95/master,Wed, 12 Nov 2014 18:33:42 +0800,Wed, 12 Nov 2014 18:33:42 +0800
+a1ce24bac68203cf3b58b49543815298d01e12fd,Renamed type 'Unknow' to 'Unknown',Tue, 11 Nov 2014 15:10:53 -0600,Tue, 11 Nov 2014 15:10:53 -0600
+79617cc32c76d321a008533421e866cf2b51584e,Change recommendation for Alamofire integration,Sat, 8 Nov 2014 22:10:51 -0700,Sat, 8 Nov 2014 22:10:51 -0700
+9e422fc9d1e6a33161e26f25747bd56bdcec3953,Merge pull request #91 from AdaptiveMe/master,Fri, 7 Nov 2014 18:11:26 +0800,Fri, 7 Nov 2014 18:11:26 +0800
+3175e4ce6efd3284e8144b13b67fc3cd54048af4,Inherit project settings in target.,Fri, 7 Nov 2014 11:05:14 +0100,Fri, 7 Nov 2014 11:05:14 +0100
+3ebfb4b419e0db771901ac26e181d8c9bd327d08,Added OS X target - 100% test passing on OSX & iOS,Thu, 6 Nov 2014 22:14:18 +0100,Thu, 6 Nov 2014 22:14:18 +0100
+4801fe45116dd57f0c0ef54d276074936f695174,Remove redundant UIKit import to make tests OS X & iOS compatible.,Thu, 6 Nov 2014 22:13:10 +0100,Thu, 6 Nov 2014 22:13:10 +0100
+b38a19a830ca3320ad5b1e36737fb9ac4bdd2c5c,Merge pull request #84 from johngoren/patch-3,Sat, 25 Oct 2014 08:03:16 +0800,Sat, 25 Oct 2014 08:03:16 +0800
+cb36f3f5f27f64fb7606bbfd279c5e43e81df391,Update README.md,Fri, 24 Oct 2014 13:54:41 -0700,Fri, 24 Oct 2014 13:54:41 -0700
+16794d85540d8b5ae7ee8066a3e3085a3861a1c1,Merge pull request #83 from johngoren/patch-1,Thu, 23 Oct 2014 09:33:13 +0800,Thu, 23 Oct 2014 09:33:13 +0800
+f1bc3922a6444506b021ae52a3d00610141cc2bd,Update README.md,Wed, 22 Oct 2014 12:43:37 -0700,Wed, 22 Oct 2014 12:43:37 -0700
+56fb3fbd3241e832c671e5f6e7657107d133b859,Add Chinese version link,Wed, 22 Oct 2014 21:46:44 +0800,Wed, 22 Oct 2014 21:46:44 +0800
+016b14b909a5b73bdec5520a6190beb469fdaf3f,Update test  json print which's type is .dictionary.,Tue, 21 Oct 2014 11:56:08 +0800,Tue, 21 Oct 2014 11:56:08 +0800
+6297219aa33818f3fae3b77d1c423b3ee54f8aae,Update tests for `description`,Mon, 20 Oct 2014 01:00:11 +0800,Mon, 20 Oct 2014 01:00:11 +0800
+08e450aceeaddb46eff35a51c2b919b68b06903f,Update `description` and `debugDescription` to call `rawString`,Mon, 20 Oct 2014 00:47:46 +0800,Mon, 20 Oct 2014 00:47:46 +0800
+f11909984755141888c5721c5837dd175ec409bd,Delete the rawString's `error` argument,Mon, 20 Oct 2014 00:45:30 +0800,Mon, 20 Oct 2014 00:45:30 +0800
+e4365fe2ce67cc90cdfe8014c110adb775cca98a,Update rawData's default options to NSJSONWritingOptions(0),Mon, 20 Oct 2014 00:44:00 +0800,Mon, 20 Oct 2014 00:44:00 +0800
+5ff175449a13df5919911cc866e08ecff3090605,Add support for non-array and non-dictionary get the raw string,Sun, 19 Oct 2014 23:29:09 +0800,Sun, 19 Oct 2014 23:29:09 +0800
+7a4c6b7bc0153b807a81ffb0556106b9e01e832d,Change if to ??,Sun, 19 Oct 2014 17:08:51 +0800,Sun, 19 Oct 2014 17:08:51 +0800
+dda468f698293169a7ab61bbaf31a956d01f5bbc,Change Dictionary<K,V> to [K : V], Array<T> to [T],Sun, 19 Oct 2014 16:57:56 +0800,Sun, 19 Oct 2014 16:57:56 +0800
+514dd98f816b28eb1280c16f6229e92f3407a931,Update README.md,Sun, 19 Oct 2014 10:46:15 +0800,Sun, 19 Oct 2014 10:46:15 +0800
+156c31915530aca92cd8ce4f4aae4d34c8f7c17d,Merge branch 'xcode6.1',Sun, 19 Oct 2014 10:39:05 +0800,Sun, 19 Oct 2014 10:39:05 +0800
+08a51a9e604ab920f7c0cc221087971cfa2ab477,Update for XCode 6.1,Sun, 19 Oct 2014 10:35:53 +0800,Sun, 19 Oct 2014 10:35:53 +0800
+0916e7630172df741f967c6a37b4107bc3890d4c,If json type is `.Array` or `.Dictionary`, `json.boolValue` should return `false`.,Sun, 19 Oct 2014 10:34:43 +0800,Sun, 19 Oct 2014 10:34:43 +0800
+d45c0419f9d62a05ea86e21266952c09242a087d,Update document.,Sun, 19 Oct 2014 10:32:12 +0800,Sun, 19 Oct 2014 10:32:12 +0800
+857ccc021b56b9e030e71cf1a52bf9267b7b9473,Update README.md,Thu, 16 Oct 2014 11:39:10 +0800,Thu, 16 Oct 2014 11:39:10 +0800
+f1a832054653a990e69566ae77d34d2de3084b75,Update README.md,Thu, 16 Oct 2014 11:30:44 +0800,Thu, 16 Oct 2014 11:30:44 +0800
+7df35e7b8556298d2c2436157afc388ca7d21bd3,Merge pull request #73 from MaddTheSane/patch-1,Thu, 16 Oct 2014 09:35:44 +0800,Thu, 16 Oct 2014 09:35:44 +0800
+4e7073050ca45e4b4704b14b453cc4dd7de72db1,Update SwiftyJSON.swift,Wed, 15 Oct 2014 11:57:54 -0600,Wed, 15 Oct 2014 11:57:54 -0600
+5ef814e43b0c4400ce603ba049fc3764baa97620,Add methods to get raw NSData and String. Fix #70,Thu, 16 Oct 2014 00:32:25 +0800,Thu, 16 Oct 2014 00:32:25 +0800
+093256d216a60eb66d0c602091f88a73fcdd72d0,Update array subscript: If index is minus, get the null json with out of bounds error.,Tue, 14 Oct 2014 00:18:35 +0800,Tue, 14 Oct 2014 00:18:35 +0800
+02cad99d49c67d5897ff273b2d82763f451c4e5c,Merge branch 'master' into xcode6.1,Mon, 13 Oct 2014 22:30:03 +0800,Mon, 13 Oct 2014 22:30:03 +0800
+61b43146625c0945d8159bcd72ad4db430ec28d8,Add performance tests,Mon, 13 Oct 2014 22:28:28 +0800,Mon, 13 Oct 2014 22:28:28 +0800
+24771789ddaca183114e22940fa8be6f9c2891f0,Update getter for [JSON] and [String:JSON] by map,Mon, 13 Oct 2014 22:27:40 +0800,Mon, 13 Oct 2014 22:27:40 +0800
+59c330959be2d418b3301f02e489fc5bf3f4bc4e,Fix: 32bit test failures #71,Mon, 13 Oct 2014 12:34:37 +0800,Mon, 13 Oct 2014 12:34:37 +0800
+1dfbd5392c8bede9051360ebc5de7072a15254d7,Add subscript which parameter is array or array literal. - sub = json["list",0,"name"] - let path: [SubscriptType]= ["list",0,"name"]; sub = json[path] - json["list",0,"name"] = "Jack" - let path: [SubscriptType] = ["list",0,"name"]; json[path] = "Jack",Sat, 11 Oct 2014 15:55:39 +0800,Sat, 11 Oct 2014 15:55:39 +0800
+ed3d93dd1200d2a687b2c8e90e9afeb83ff66142,Merge pull request #68 from Noobish1/master,Fri, 10 Oct 2014 09:45:01 +0800,Fri, 10 Oct 2014 09:45:01 +0800
+dc3ae4bb5b58c3e65859c2f1880220ea33625b41,Making SourceKit not freak out about self.object.count being called,Fri, 10 Oct 2014 08:51:17 +1300,Fri, 10 Oct 2014 08:51:17 +1300
+1a5d12bc1388b61912e6b80644f0fccea37e28a5,Update for iOS 7,Thu, 9 Oct 2014 18:16:52 +0800,Thu, 9 Oct 2014 18:16:52 +0800
+ee47ed717c515c60baf8e7065e44079e11559f98,Add launch image for example project,Thu, 9 Oct 2014 17:44:15 +0800,Thu, 9 Oct 2014 17:44:15 +0800
+f777245393e60782898ac9acdfbebc3b622d37ef,Update tests for Xcode 6.1 GM 2,Thu, 9 Oct 2014 17:23:11 +0800,Thu, 9 Oct 2014 17:23:11 +0800
+30d77a3f9e4178bfbbbe4a9174deb24c7eb4afc3,Merge branch 'master' into xcode6.1,Thu, 9 Oct 2014 14:27:21 +0800,Thu, 9 Oct 2014 14:27:21 +0800
+abc285c05f4ceedda49322f80a4ec1c5c1599ee1,Update README.md,Thu, 9 Oct 2014 07:47:11 +0800,Thu, 9 Oct 2014 07:47:11 +0800
+dda34da59d1fe0cfd09a9f2e37c00b98ee90988b,Update README.md,Wed, 8 Oct 2014 23:36:49 +0800,Wed, 8 Oct 2014 23:36:49 +0800
+bc4a6fc80b83c8205a9761e7312d31e688972cf6,Add JSON data's looping test,Wed, 8 Oct 2014 23:13:38 +0800,Wed, 8 Oct 2014 23:13:38 +0800
+5115f09e3e3c1322ee2babe4b37860012c1a15ee,Remove needless setting,Wed, 8 Oct 2014 23:12:58 +0800,Wed, 8 Oct 2014 23:12:58 +0800
+5c4773be8f4b8fe4d4c8bf129500b0e157deddd4,Added support for Xcode 6.1 GM Seed 2.,Wed, 8 Oct 2014 09:55:29 -0500,Wed, 8 Oct 2014 09:55:29 -0500
+bfb0287cf42627c9494ec92d95c5b8ff1eb86781,Merge pull request #63 from SwiftyJSON/develop,Wed, 8 Oct 2014 18:45:13 +0800,Wed, 8 Oct 2014 18:45:13 +0800
+54d5a5eb2bc881ff316c2bc37d2ae03131ed6426,Update error's printable,Wed, 8 Oct 2014 18:40:15 +0800,Wed, 8 Oct 2014 18:40:15 +0800
+f6e8580368ea7a46eb565821d4f309d57a63c1db,Update README.md,Wed, 8 Oct 2014 18:35:55 +0800,Wed, 8 Oct 2014 18:35:55 +0800
+8186d6c780754fe2447b608cd792932133b7c04f,Update README.md,Wed, 8 Oct 2014 18:30:55 +0800,Wed, 8 Oct 2014 18:30:55 +0800
+ddd84ab2aeb3add95d88cd50cf3ef0ed5f004348,Update README.md,Wed, 8 Oct 2014 18:28:49 +0800,Wed, 8 Oct 2014 18:28:49 +0800
+75f82b7cbded884f7579ff46dc147e0df03a503f,Merge branch 'master' into develop,Wed, 8 Oct 2014 16:59:49 +0800,Wed, 8 Oct 2014 16:59:49 +0800
+776c79e2f3a7eb1e89e6b1cebedf1552e8b3c9e1,Change tests files name,Wed, 8 Oct 2014 16:53:52 +0800,Wed, 8 Oct 2014 16:53:52 +0800
+69439a5a72ac92d1e955ce61bfedb3637cc31328,Add Dictionary and Array tests,Wed, 8 Oct 2014 16:48:32 +0800,Wed, 8 Oct 2014 16:48:32 +0800
+46526110d0fa82308eed0ffd990d0e4c9b684bac,Update subscript's error,Wed, 8 Oct 2014 16:48:00 +0800,Wed, 8 Oct 2014 16:48:00 +0800
+87d26a56277d74cff941345b4ea51ed879c5c9e6,Add number and string tests,Wed, 8 Oct 2014 15:04:58 +0800,Wed, 8 Oct 2014 15:04:58 +0800
+d3ecc49e4a21577095420e2c3a5a8be5fa05c302,Add number setter,Wed, 8 Oct 2014 15:04:28 +0800,Wed, 8 Oct 2014 15:04:28 +0800
+0507ea70f0377a1731f3833c9762f11c3f419f6a,Add comparable tests,Tue, 7 Oct 2014 17:51:30 +0800,Tue, 7 Oct 2014 17:51:30 +0800
+397f6ddcc3d1c3a4037a6904f32e789f50e11ab8,Add sequence type tests,Tue, 7 Oct 2014 16:31:51 +0800,Tue, 7 Oct 2014 16:31:51 +0800
+6a4dbdf8cd8a02560bfa192fa0d9f4ccbd1c8765,Add printable tests,Tue, 7 Oct 2014 10:10:04 +0800,Tue, 7 Oct 2014 10:10:04 +0800
+dd2dd463befcd3bf903d8e89a7ef349d4f3ec7f9,Add subscript tests,Tue, 7 Oct 2014 00:52:49 +0800,Tue, 7 Oct 2014 00:52:49 +0800
+eb7cc54fec4597da11ffd52d3e8c23944ab47636,Update example,Mon, 6 Oct 2014 23:25:37 +0800,Mon, 6 Oct 2014 23:25:37 +0800
+748ef28c3792c6e2f06ec57b1ea8c2fa9ef26b88,Update the test case and Add literal convertible tests,Mon, 6 Oct 2014 23:25:13 +0800,Mon, 6 Oct 2014 23:25:13 +0800
+59996b25c38ed366209ad76d7a67eb08a7b2dff5,Change enum JSON to strut JSON and Add literal convertible protocol,Mon, 6 Oct 2014 23:24:08 +0800,Mon, 6 Oct 2014 23:24:08 +0800
+52486aaa4b6bd88a4e0a1ac33e05ae3871d1fd2e,Update README.md,Thu, 2 Oct 2014 15:21:44 +0800,Thu, 2 Oct 2014 15:21:44 +0800
+114f556ce4ef4d8f009aa2ce9157b27b9972e1d8,Merge pull request #59 from SwiftyJSON/develop,Thu, 2 Oct 2014 14:54:55 +0800,Thu, 2 Oct 2014 14:54:55 +0800
+919d4b6030c879532c2d2029e9930d14e8f3c885,Add SequenceType methods,Thu, 2 Oct 2014 14:51:40 +0800,Thu, 2 Oct 2014 14:51:40 +0800
+54dc5d22efd3b0ec582be7c3a4666914b3215fb9,Speedup initialization，but slow array and dictionary methods.,Thu, 2 Oct 2014 00:58:01 +0800,Thu, 2 Oct 2014 00:58:01 +0800
+75eb0440d03bcf0ffc2f9fbe2aae60fa58c6f500,Delete redundant code,Wed, 1 Oct 2014 10:10:29 +0800,Wed, 1 Oct 2014 10:10:29 +0800
+80121e8f258617fcea0e5eb5c34580386b89e5e2,Add Dictionary methods,Mon, 29 Sep 2014 22:54:59 +0800,Mon, 29 Sep 2014 22:54:59 +0800
+c8ae7fc641b2b8b25bf78034970a9da532289746,Add iOS Example,Mon, 29 Sep 2014 22:54:12 +0800,Mon, 29 Sep 2014 22:54:12 +0800
+bc6f3d8db38c481040a170da835f24ac5439616b,Add SwiftyJSON.xcworkspace,Mon, 29 Sep 2014 13:30:08 +0800,Mon, 29 Sep 2014 13:30:08 +0800
+082b1ecea54e4e8b9cd8b43173ff33f598bf9acc,Change the file path,Mon, 29 Sep 2014 13:24:33 +0800,Mon, 29 Sep 2014 13:24:33 +0800
+8e55d60e5c213d019b8841479bb5239ee8f180f8,Update the initialization and compare methods,Sat, 27 Sep 2014 18:33:30 +0800,Sat, 27 Sep 2014 18:33:30 +0800
+7902d60ee0a7611cd20618600bc6a46c34bf7193,Update README.md,Fri, 26 Sep 2014 16:19:27 +0800,Fri, 26 Sep 2014 16:19:27 +0800
+4e0191fe7c92cc1502d9ad57a81f4e5b92b3afdb,Adding documentation,Fri, 26 Sep 2014 15:21:56 +0800,Fri, 26 Sep 2014 15:21:56 +0800
+304f5936e76b8de729f647585081c028a083b848,Update README.md,Thu, 25 Sep 2014 11:07:56 +0800,Thu, 25 Sep 2014 11:07:56 +0800
+178a9447984f359099a233da44e270600cf54ab5,Update the README.MD,Thu, 25 Sep 2014 11:06:54 +0800,Thu, 25 Sep 2014 11:06:54 +0800
+ac44937285f97984267fc28924ab1cc61fc69551,add the test case.,Thu, 25 Sep 2014 10:24:38 +0800,Thu, 25 Sep 2014 10:24:38 +0800
+4b7af97c18b2cfe3a3320f61786483538b18d6e2,optional value getter  and non optional value getter,Thu, 25 Sep 2014 10:24:16 +0800,Thu, 25 Sep 2014 10:24:16 +0800
+e4c60995b95810a285c314bbd4474fd488af0b80,make JSONValue to JSON more friendly.,Wed, 24 Sep 2014 16:47:09 +0800,Wed, 24 Sep 2014 16:47:09 +0800
+63c2490252bb6c15890e93269e8ebbf7909f7732,Merge pull request #21 from Add percent escaping to URL string,Wed, 24 Sep 2014 14:56:22 +0800,Wed, 24 Sep 2014 14:56:22 +0800
+093400130f98c087c58dda434d6055e7925903ce,Merge pull request #56 from SwiftyJSON/revert-45-master,Wed, 24 Sep 2014 14:28:20 +0800,Wed, 24 Sep 2014 14:28:20 +0800
+a76de439827ea43b3d6c678944cafda869d97402,Revert "Added rawObject method for unwrapping JSONValue enum to objects",Wed, 24 Sep 2014 14:26:17 +0800,Wed, 24 Sep 2014 14:26:17 +0800
+9ef56870efb5b47d2299c4f96ee5525be23cdfea,Merge pull request #45 from k06a/master,Wed, 24 Sep 2014 14:22:38 +0800,Wed, 24 Sep 2014 14:22:38 +0800
+7f79741407971faa93b943d9b3ed2c24b9f0d246,Added object method for unwrapping JSON enum to object, thanks @k06a,Wed, 24 Sep 2014 14:18:50 +0800,Wed, 24 Sep 2014 14:18:50 +0800
+0b583c43ba74135b9236f599cfefa09d97c7a564,add error,Wed, 24 Sep 2014 13:55:09 +0800,Wed, 24 Sep 2014 13:55:09 +0800
+7fa9e1e565e4cb098048be14f84b088129079f5a,Update the README.MD,Wed, 24 Sep 2014 00:14:26 +0800,Wed, 24 Sep 2014 00:14:26 +0800
+bd4c616196010f16e89fbba1153ec51fde9e91e5,make error to public, fix bool print bug, add some print test,Tue, 23 Sep 2014 23:57:36 +0800,Tue, 23 Sep 2014 23:57:36 +0800
+794b9c3c12e345f5b9b2e333bb9ed89c8d22c90b,add error handle,Tue, 23 Sep 2014 22:40:49 +0800,Tue, 23 Sep 2014 22:40:49 +0800
+cf6462aa5fd12da3b9adc95f551e8b8f10ce47f7,update to public,Tue, 23 Sep 2014 16:29:42 +0800,Tue, 23 Sep 2014 16:29:42 +0800
+495d651868211f0e8b68a9526b6040291fb02ec7,make init methods to public,Tue, 23 Sep 2014 14:23:23 +0800,Tue, 23 Sep 2014 14:24:01 +0800
+31acf5d407f7395f227b975a04c17fa8ad784d2c,Merge pull request #55 from tangplin/master,Tue, 23 Sep 2014 12:38:23 +0800,Tue, 23 Sep 2014 12:38:23 +0800
+48a6e922a303aacb213e7f6a2e965c703885553a,set the default JSONReadingOptions to .AllowFragments,Tue, 23 Sep 2014 12:31:59 +0800,Tue, 23 Sep 2014 12:31:59 +0800
+4a215f2c0e5bb918e9fb7ee0526df96b6c9f3039,Merge pull request #54 from lingoer/master,Tue, 23 Sep 2014 11:37:06 +0800,Tue, 23 Sep 2014 11:37:06 +0800
+b414497dff6fe7d8bc1e15d2f6cb94a41c0d2df1,Fix Unit Test,Tue, 23 Sep 2014 11:36:29 +0800,Tue, 23 Sep 2014 11:36:29 +0800
+65f7703628167b5f5d9404f253ae13b949e12742,Merge pull request #53 from lingoer/master,Tue, 23 Sep 2014 11:23:23 +0800,Tue, 23 Sep 2014 11:23:23 +0800
+feeaef0294c65aacd4b5b01f7cd4b56d8f300087,Add NSError to Null type,Tue, 23 Sep 2014 11:24:03 +0800,Tue, 23 Sep 2014 11:24:03 +0800
+fcaebf771f81dd5b357752ac22a9c2a35108dc2d,Merge pull request #36 from kriswallsmith/master,Tue, 23 Sep 2014 10:09:58 +0800,Tue, 23 Sep 2014 10:09:58 +0800
+de1885da8b6da89db1fdcd9600409173b615dc8d,Merge pull request #51 from tangplin/master,Mon, 22 Sep 2014 15:17:46 +0800,Mon, 22 Sep 2014 15:17:46 +0800
+127a5c34d745c4e9cb86b09c41d17496ee5c4291,refactor! 1. Change JSONValue to JSON 2. Delete the part  of error 3. change enum' type to ScalarNumber, ScalarString, Sequence, Mapping 4. implement Comparable 5. update test,Mon, 22 Sep 2014 14:59:29 +0800,Mon, 22 Sep 2014 14:59:29 +0800
+61ba28704f1bc1355e3eb998ae65ea94f427bb90,Renaming rawObject to any,Fri, 12 Sep 2014 21:20:18 +0400,Fri, 12 Sep 2014 21:20:18 +0400
+de1e2fba74f01bcc570b718b0a61bc61233ba507,Fixed .JNull case in rawObject method,Sat, 30 Aug 2014 19:02:47 +0400,Sat, 30 Aug 2014 19:02:47 +0400
+6ba82e72556ab3edb140f174a5a8b353ffab634e,Just variables renamed from "possible*" to "already*",Sat, 30 Aug 2014 17:01:31 +0400,Sat, 30 Aug 2014 17:01:31 +0400
+5f11309e680b6f8a5d6222794bd183c77883ea23,Added rawObject method for unwrapping JSONValue enum to objects,Sat, 30 Aug 2014 16:57:59 +0400,Sat, 30 Aug 2014 16:57:59 +0400
+8ba9154aaa23d74f729c27579ced20dd3e121a4f,Rename LISCENSE to LICENSE,Wed, 6 Aug 2014 11:08:53 -0700,Wed, 6 Aug 2014 11:08:53 -0700
+11f6b94b2da20c88a31153d427d338eb3372c347,Merge pull request #33 from venables/beta5-boolean-type,Tue, 5 Aug 2014 11:02:35 +0800,Tue, 5 Aug 2014 11:02:35 +0800
+09ca33d0e334bfdbbf2d43cf24f961762d451d6a,Use BooleanType instead of LogicValue,Mon, 4 Aug 2014 16:17:26 -0400,Mon, 4 Aug 2014 16:26:38 -0400
+85703f67fa39730dceae2a1c7813242ee5a8269c,Merge pull request #20 from bkase/obj-to-string-fix,Thu, 10 Jul 2014 10:15:26 +0800,Thu, 10 Jul 2014 10:15:26 +0800
+e79ac3818e24f48f0d3011b6eb8e486cd546a4a3,Converting JSON objects to string is fixed,Wed, 9 Jul 2014 19:06:36 -0700,Wed, 9 Jul 2014 19:06:36 -0700
+196387f1177e5c981739b3249f4cc1facfdf42a3,Merge pull request #18 from krishnan-srinivasan/master,Tue, 8 Jul 2014 09:12:11 +0800,Tue, 8 Jul 2014 09:12:11 +0800
+f04211e69144e3dc881d1bbfb75446f95e2baca9,Merge pull request #15 from kyoh/add_url_property,Tue, 8 Jul 2014 09:11:33 +0800,Tue, 8 Jul 2014 09:11:33 +0800
+8d452b43a5e31c8d4f1f7255f0c9f3f9b354f0d1,Updated to remove errors in Xcode Beta 3,Mon, 7 Jul 2014 15:40:54 -0700,Mon, 7 Jul 2014 15:40:54 -0700
+88e05ba7e082d1023e2eb6697fe7f066e8b2b964,Merge pull request #16 from tangplin/master,Mon, 7 Jul 2014 20:39:09 +0800,Mon, 7 Jul 2014 20:39:09 +0800
+45611ec562384ae40af4e02e2cf94573922488a6,add first and last in JSONValue, add string to double, int etc.,Mon, 7 Jul 2014 20:00:49 +0800,Mon, 7 Jul 2014 20:00:49 +0800
+3dca8c07de513fdfcdd346cc10fb8c6d4ad3faf6,rawJSON,Sun, 6 Jul 2014 14:06:19 +0800,Sun, 6 Jul 2014 14:06:19 +0800
+1c042d2dc38e32ce62faa290de892f32e9f28feb,add a "url" property to JSONValue,Sat, 5 Jul 2014 03:40:14 +0900,Sat, 5 Jul 2014 03:40:14 +0900
+eb34294c01502d726e9d6975eb0c6337c45a19a6,Merge pull request #13 from gregbarbosa/master,Tue, 1 Jul 2014 09:38:58 +0800,Tue, 1 Jul 2014 09:38:58 +0800
+dca393e29e58f047636a273ea6e19530d61cd6d0,Update README.md,Mon, 30 Jun 2014 16:54:10 -0400,Mon, 30 Jun 2014 16:54:10 -0400
+35641dfecf41a6e1ab16e99b6ac0799f9c2302c6,Update README.md,Mon, 30 Jun 2014 16:51:18 -0400,Mon, 30 Jun 2014 16:51:18 -0400
+3a43960b35003bb76f17563f1554fae867fb4570,Update README.md,Sat, 28 Jun 2014 13:57:29 +0800,Sat, 28 Jun 2014 13:57:29 +0800
+1d78e8ab823e140754eabffb838c7ceb6e7ba345,Update README.md,Fri, 27 Jun 2014 01:53:19 +0800,Fri, 27 Jun 2014 01:53:19 +0800
+420ca829a6aeb755116b871f25d41d406b271a45,Update README.md,Fri, 27 Jun 2014 01:50:46 +0800,Fri, 27 Jun 2014 01:50:46 +0800
+0e0a5e62b17762f9ebf42442828ff3788c180444,Add Error Handling And Wrong Keypath tracking,Fri, 27 Jun 2014 01:34:19 +0800,Fri, 27 Jun 2014 01:34:19 +0800
+40b7b4be0264ece2f9678f9ccfe2ae1b0a6ed380,Add Error Handling,Fri, 27 Jun 2014 01:15:24 +0800,Fri, 27 Jun 2014 01:15:24 +0800
+bf5b07b0cf3e0329178690892738005cd3c13d52,Update README.md,Wed, 25 Jun 2014 13:41:56 +0800,Wed, 25 Jun 2014 13:41:56 +0800
+485eb9122e1c1917fe7e03ef39e8c8014164d058,I Give Up, Use NSNumber,Wed, 25 Jun 2014 12:34:28 +0800,Wed, 25 Jun 2014 12:34:28 +0800
+bbc7b147ebfaff33d17615f59e3cd263f8e4f825,Fix failing test,Tue, 24 Jun 2014 14:35:20 +0300,Tue, 24 Jun 2014 14:35:20 +0300
+4a876e33b587886077264f0cabb249f99ddb7d24,Merge branch 'master' of https://github.com/lingoer/SwiftyJSON,Tue, 24 Jun 2014 14:30:23 +0300,Tue, 24 Jun 2014 14:30:23 +0300
+5381a73e55bd863e15e98ad361335908c347bfa0,Remove JSON options since they are unnecessary,Tue, 24 Jun 2014 13:13:20 +0300,Tue, 24 Jun 2014 13:13:20 +0300
+67bef024e8fe89d89468e9d43a3dec9af5325ebc,Add more atomic unit tests,Tue, 24 Jun 2014 12:44:09 +0300,Tue, 24 Jun 2014 12:44:09 +0300
+676b951356601f9b81fdc4e9703c7281e2c4be9e,Remove redundant 'description calls',Tue, 24 Jun 2014 12:13:33 +0300,Tue, 24 Jun 2014 12:13:33 +0300
+4f6d204b66d5ea4906942d2199653fcd8899e0b6,Merge pull request #6 from garnett/master,Tue, 24 Jun 2014 10:28:26 +0800,Tue, 24 Jun 2014 10:28:26 +0800
+dd04f55fdf751ce9dc3c411495e4b03bc55b469d,Separate protocols implementation, refactor prettyString composing,Mon, 23 Jun 2014 20:58:58 +0300,Mon, 23 Jun 2014 20:58:58 +0300
+479635c567f65d1f5ad9d97d88702d563ab8d3c6,Add moar whitespaces,Mon, 23 Jun 2014 20:42:58 +0300,Mon, 23 Jun 2014 20:42:58 +0300
+73fec565c3a4cc3fe10c2f195e19cf2544e2d1b0,Merge remote-tracking branch 'upstream/master',Mon, 23 Jun 2014 20:35:45 +0300,Mon, 23 Jun 2014 20:35:45 +0300
+2a106d0d122800e0e3fcc9972c8d7ccadcb4d2d2,Add gitignore, add pretty-print unit tests,Mon, 23 Jun 2014 20:34:18 +0300,Mon, 23 Jun 2014 20:35:10 +0300
+906439c45d1733468672fd2201abab903bbf2c49,Merge pull request #3 from garnett/master,Mon, 23 Jun 2014 11:42:48 +0800,Mon, 23 Jun 2014 11:42:48 +0800
+0a01ebe09bb6e165b9b1e3bef5a5ff8acf0a73db,Simplify conditional logic in switch,Sun, 22 Jun 2014 21:56:31 +0300,Sun, 22 Jun 2014 21:56:31 +0300
+ecb877ad148ea13cf72ae73abdaeb95e9c503f07,Add project with both OSX/iOS module targets,Sun, 22 Jun 2014 21:53:40 +0300,Sun, 22 Jun 2014 21:53:40 +0300
+33517eeebf75640cc380b48e554454021f1da520,.project file problems,Sat, 21 Jun 2014 13:48:42 +0800,Sat, 21 Jun 2014 13:48:42 +0800
+1282690b83f1ec3b81ea3592e13beef9b79d5723,Update README.md,Sat, 21 Jun 2014 13:42:15 +0800,Sat, 21 Jun 2014 13:42:15 +0800
+f4580295e3cb1bd6af09ebb448ab9d17b1e9d29a,Merge branch 'master' of https://github.com/lingoer/SwiftyJSON,Sat, 21 Jun 2014 13:32:57 +0800,Sat, 21 Jun 2014 13:32:57 +0800
+09839c4e3d34964e846a756e247388fb905383b2,Started unit tests and fixed a Bool value bug with it,Sat, 21 Jun 2014 13:32:47 +0800,Sat, 21 Jun 2014 13:32:47 +0800
+a76a4fc54c799ec717d9d55d6c48cd7cf12eaaf8,Update README.md,Sat, 21 Jun 2014 00:17:53 +0800,Sat, 21 Jun 2014 00:17:53 +0800
+3fac5fedfd4bf74fa4f1d7e6b1b0798e2c22ded3,Update README.md,Sat, 21 Jun 2014 00:12:28 +0800,Sat, 21 Jun 2014 00:12:28 +0800
+7fe7a8d9d8f20df1d4b4f762445ceeeb6d5fbdad,Change Tag Naming,Sat, 21 Jun 2014 00:05:55 +0800,Sat, 21 Jun 2014 00:05:55 +0800
+a6b658b5f16df77575af215c8a85ebc55da87682,Fixed Bug #1,Fri, 20 Jun 2014 23:44:19 +0800,Fri, 20 Jun 2014 23:44:19 +0800
+f6de8dc9f21e7041cb9ca7bf508d041d65a2e1fe,Merge branch 'master' of https://github.com/lingoer/SwiftyJSON,Fri, 20 Jun 2014 20:08:48 +0800,Fri, 20 Jun 2014 20:08:48 +0800
+70519646a8715900274efe7b4f03d883f483bab4,Add Support For Printable Protocol, Now It Can Generate Nice Printed JSON Text Add Support To Init With A NSData,Fri, 20 Jun 2014 20:08:38 +0800,Fri, 20 Jun 2014 20:08:38 +0800
+b81aa2543110c1934426011ab798bc0ea8ea1272,Update README.md,Thu, 19 Jun 2014 01:10:16 +0800,Thu, 19 Jun 2014 01:10:16 +0800
+c5431870fa1d6719520d5c7b7f82ee3aab12f038,Update README.md,Thu, 19 Jun 2014 01:03:47 +0800,Thu, 19 Jun 2014 01:03:47 +0800
+12667b988323181a1ea6cf90c40dc20a20a7bd16,typo,Thu, 19 Jun 2014 00:24:24 +0800,Thu, 19 Jun 2014 00:24:24 +0800
+01723f8dbbea2d4bb450c37ff9d042a945a6f574,Update README.md,Thu, 19 Jun 2014 00:21:31 +0800,Thu, 19 Jun 2014 00:21:31 +0800
+ebe8f1d477ed8191b01ac9952f2682667b0b99ee,Create LISCENSE,Wed, 18 Jun 2014 22:49:20 +0800,Wed, 18 Jun 2014 22:49:20 +0800
+ea05fbec7bf1eb0bc061679593175ba32a4b66cb,init,Wed, 18 Jun 2014 22:46:13 +0800,Wed, 18 Jun 2014 22:46:13 +0800
+9cc1c3192a0c2ed38ded84f737bf823df96a4eb2,Initial commit,Wed, 18 Jun 2014 22:41:15 +0800,Wed, 18 Jun 2014 22:41:15 +0800

@@ -1,0 +1,63 @@
+Fix formatting
+Fix number of sibling modules in website/index.html
+Fix compile warning
+Fix broken r8/proguard link for OkHttp
+Fixing dead link
+Fix typo
+Fix typo
+Fix build conditional
+Fix snapshot deployment script
+Fix missing body in raw response for error
+Fix missing body in raw response for error
+Fix sample code in 2.6.0 CHANGELOG.
+Fix support for protobuf 3.5+, ExtensionRegistry cannot be null
+Fix Optional converter factories not delegating properly.
+Fix Javadoc formatting.
+Fix error message for out-of-order parameters.
+Fix typo in OkHttpCall (#2781)
+Fix pointer to renamed rules file
+Fix local converter name.
+Fix date.
+Fix inconsistent example in QueryMap's javadoc.
+Fix typo in README of retrofit-mock.
+Fix checkstyle.
+Fix typos in changelog
+Fix exceptoin typo
+Fix README link for provided dependency
+Fixed copy-paste errors.
+Fix potential NoSuchElementException when using Rx 1.x Singles.
+Fix annotation docs to advertise string converters.
+Fix typo in CHANGELOG
+Fix Error Message for Maybe if it's not parameterized and add RxJava2CallAdapterFactoryTest tests.
+Fix download link for the jar
+Fix adapter readme titles
+Fix test to not rely on the order
+Fix cancellation typos
+Fix date in changelog
+Fix typo
+Fix foo/bar/baz in @Query documentation
+Update to OkHttp 2.2. Fix a tiny potential NPE.
+Fix annotation link. EncodedPath is gone.
+Fix usage of deprecated MimeUtil functions
+Fix english in exception message.
+Fixed exception message in RestMethodInfo
+Fix small wording issues in custom converter docs
+Fix extending interface test to actually fail.
+Fix identation in Gson customization docs; emphasis that Retrofit just offloads to Gson for custom conversion behavior
+Fix VerifyError when using mock REST adapter without RxJava.
+Fixes spelling in website.
+Fixed typo
+Fix IntelliJ auto-formatting.
+Fix a few tiny issues in the retrofit docs.
+Fix styling of Maven download.
+Fixed missing quotation mark which caused multipart file uploads to parse without a filename, leading to missing files in requests on the server side
+Merge pull request #171 from ransombriggs/errorStreamFix
+Merge pull request #170 from ransombriggs/simpleResponseReadmeFix
+Fix for 204 'No Content' responses.
+Fix wrapper scope and callback param ordering.
+Fix inconsistencies in javadocs.
+Fix Url Escaping on GET Parameters
+Fix style nits per review
+Fixes failure to transmit interesting unicode characters by specifying HTTP.UTF_8 in UrlEncodedFormEntity.
+Fix spelling
+Fixing clientError handling -- constructing BufferedHttpEntity so that entity may be consumed multiple times.

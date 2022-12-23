@@ -1,0 +1,353 @@
+Fix trace call for inner reverts (#25971)
+cmd/clef: Fix broken link in README and other minor fixes (#21303)
+[#20266] Fix bugs decoding integers and fixed bytes in indexed event fields (#20269)
+accounts/abi: Fix method overwritten by same name methods. (#17099)
+swarm/pss: Fix flaky TestProxNetwork (#19471)
+Fix rebase error: include norm package
+Fix linter issues
+Fix key derivation
+Fix some linter issues
+swarm/network/stream: Fix flaky tests in GetSubscriptionsRPC test (#19227)
+swarm: Fix localstore test deadlock with race detector (#19153)
+common/fdlimit: Fix compilation error in freebsd, Raise() returns uint64 (#19141)
+README: Fix typo (#18966)
+swarm/storage: Fix race in TestLDBStoreCollectGarbage. Disable testLDBStoreRemoveThenCollectGarbage (#18512)
+swarm: Fix T.Fatal inside a goroutine in tests (#18409)
+crypto/secp256k1: Fix invalid document link (#18297)
+signer/core: Fixes typo of method name in comment. (#18222)
+swarm/api: Fix #18007, missing signature should return HTTP 400 (#18008)
+Fix retrieval tests and simulation backends (#17723)
+accounts/abi: fix panic in MethodById lookup. Fixes #17797 (#17798)
+whisper: Fix interpretation of `to` parameter in `shh_requestMessages` (#16996)
+README: Fix punctuation - closes #17317
+build: Fix a typo in ci.go
+core/vm: Fixed typos in core/vm/interpreter.go
+core/vm: Fixed typo in core/vm/evm.go
+swarm/api/http: Fix using deprecated bzzr scheme (#16152)
+cmd/puppeth: Don't allow hyphen in network name. Fixes #16155
+whisper: Fix race condition in whisperv6/peer.go
+core/vm: Fix comment typo
+ethstats: Fix ethstats reporting while syncing
+crypto: Fix comment typo
+core: Fix flaw where underpriced locals were removed (#15081)
+core/vm: Fix testcase input for ecmul
+whisper: Fix spelling and grammar in error (#15009)
+whisper: use hexutil.UnmarshalFixedText for topic parsing
+consensus: Fix `makedag` epoch
+core: Fix VM error logging
+swarm/api: Fix adding paths which exist as manifests (#14482)
+common/hexutil: add UnmarshalFixedUnprefixedText
+mobile: Fix typo ( Ethereun -> Ethereum )
+cmd/geth, cmd/swarm: Fix to close file handler appropriately
+build: Fix tiny typo
+containers/docker: Fix dockerfiles for new branch layout; add dockerfile in root
+Merge pull request #3108 from homotopycolimit/FixChunkerWithBrokenReader
+core/state: Fix memory expansion bug by not copying clean objects
+internal/ethapi: Fix bug in opCodeWrapper usage
+README: Fix typo
+accounts/abi: Fixed bytes input accept []byte and variable input support
+common: Fix HomeDir detection
+cmd/geth: Fix chain purging from cmd line
+rpc/api: format pendingTx response. Fixes #1648
+web3: regression. Fixes #1613
+rpc: to in Call no longer required. Fixed eth_estimateGas
+Merge pull request #1502 from ethereum/canaryFix
+Fixed canary to require 2+ nonzero, not sum 2+
+miner, xeth: fire log event during mining. Fix return raw tx
+Fix core error forwarding, unify OOG VM err
+Fix hex conversion
+Fix geth blocktest command
+Fix paths
+Fixed signing + tests
+Fixed readme links and description
+Fix blocktest
+xeth: remove nonce on error. Fixes #1026
+Fixed max uncle count error message
+Fix hex conversion in --unlock and log when successful
+Fix address type in js test
+Fix natspec test (again x2) types
+Fix natspec e2e test accounts type (again)
+Fix HEX hack in xeth accounts()
+Fix common.Address / []byte type conversions
+cmd/geth, miner, backend, xeth: Fixed miner threads to be settable
+eth, eth/downloader: don't require td on downloader. Fixed tests
+Fix ignore of unexpected files in key dir
+downloader: moved chunk ignoring. Fixes issue with catching up
+Fixes for TransactionTests
+Fix call output when empty
+Fix links
+Fixed tests to reflect log changes
+Fixed tests
+Fixed pending states
+Fix RLP decoding of tx metadata
+Fixes for balance
+Fixed decoding for uint64 into bytes
+Fixed uncle rewards in miner
+Fix block size output #613
+Use ExtraDB for storage. Fixes #577
+Fixed miner
+Fixed filter and refactored code
+Fixed storage. Closes #516
+Fixed issues with stalled remote miner
+Fix new types for blocktests and comment out non-working log level setter
+Fix Mist types build errors
+Fixed state tests
+Fixed incorrect recipient derived
+Fix link to build instructions in the readme
+Fixed mkdnode & added some tests
+Fixed tests and bloom
+Fixed VM & Tests w/ conversion
+Support for addresses with or without 0x. Fixes #472
+Fix eth_newBlockFilter
+Fix arg names in tests
+Fixed error message. Closes #448
+Fix logger import path
+Fixed tests
+Fix VM tests not checked
+Fixed iterator bug which skips the 0x000...000 key
+Fixed Average Return calculation
+Fixed genesis
+Fixes and debug added
+Fixed error for invalid transaction
+Fix JitVm build
+Fixed test helper
+Fix logger import in tests
+Filter accepts multiple topics per entry. Fixes #403
+GetOrNew for accessors. Fixes #404
+Fixed miner threads for ethereum CLI
+Fixed consensus issue for refunding
+Fix key store address hex decoding and accounts test
+Merge pull request #376 from frozeman/topicsFix
+Fix duplicate leading 0x
+Fix test for Finney
+Fixed chain event issue
+Fixed a few errors in the browser special meta tags objects
+Fixed mining & limited hash power
+Fixed QML errors
+Fixed issue in peer window
+Fixed a few issues in the miner and updated hash rate title
+Fix ECIES params nil bug
+Fixed "to" field
+Fixed iterator
+Fix broken link in README
+set uncles regardless of empty uncle list. Fixes invalid blocks being mined
+Fixed whisper "to" filtering. Closes #283
+Fixed a copy issue in the trie which could cause a consensus failure
+Fixed n
+Fixed Sign nonce
+Fixed whisper pub key bug
+Fixed issue with Storage()
+Fix for API.
+removed fromFixed, toFixed && offset from tests
+Fix string outputs. Auto collapse for < 2 returns.
+Fixes to ethereum.js and standard.js.
+Vanity addresses in AZ. Fixes to ethereum.js eth.flush()
+Fixed difficulty
+Fixed consensus issue
+Fixed whisper messages
+Fix for JS API formatting.
+Fixed size 0 bug
+Fixed some whisper issues
+Reworking GUI interaction. Fixed javascript inject. Closes #132
+Fixed tests where txs weren't properly removed
+Fixed port num
+Fixed tests
+Updated WS API. Fixes #219. Closes #220
+Fixed peer window. Minor tweaks and fixes
+Fixed bug where logging could crash client during tx adding
+Fixed using new trie iterator API
+Fixed tests
+Fixed gas check for vm test
+Fixed chain test & added new chain
+Fixed a bug where keys where serialised twice
+Fixed EVM environment. Closes #215
+Fixed tests
+Fixed casting error
+Fixed refund model
+Fixed deref ptr
+Fix variable name
+Fix return tests.
+Fixed tests
+Fixed issue in VM where LOG didn't pop anything of the stack
+Fixes #189
+Fixed mem error in vm. Fixed logs tests
+Fixed EXP gas
+Fixed merge
+Fixed test
+Fixed iterator for short nodes.
+Fixed tests for 'types'
+Fixed require web3 bug
+Fixes for PV41/42
+Fix CallRecursiveBomb2
+Fixes for the log method
+Removed all implicit logging. Fixed gas issues and jump errors
+Fix TestBytestoNumber
+Fix gas cost for OOG calls
+Fixed jshint warnings
+Fixed bloom, updated mining & block processing
+Fixed bug on gas and setting of receipts and roots
+Fixed indent
+Fixed VM and added static analysis for EVM jumps
+Fixed genesis
+Fix JSHint errors
+Fixed Qt provider
+Added removal off erroneous txs. Fixed pipeline
+Fixed bloom
+Print error using regular println. Fixes #146
+Fix right-click context menu of block chain view.
+Debug only if a tx is set. Fixes #134
+Fixed setting providers to the right object
+Using proper naming scheme. Fixes #63
+Moved Filter's wrapping functions to their own util package. Fixes #61
+Fixed most of the tests
+Fixed remote Arithmetic tests
+Fix ethereum compilation and functioning on Windows. repl console output is now colored. repl "exit" command now works.
+Fixed inconsistencies
+Fixed messages to use proper numbers
+Fixed race condition
+Fixed min gas price on coin
+Fixed deref ptr
+Fix tabs
+Fix whitespace
+Fix to display Mist menu bar on linux
+Fixed contract validation address in tx pool
+Updated to latest sha3 implementation. Fixes #48
+Fixed transact
+Fixed minor issues with filtering
+Fixed reference
+Fixed gas limit calculation
+Fixed stack issue
+Fixed issue with overflowing 256 bit integers
+Typo. Fixes #107
+Removed peer disconnect on pong timeout. Fixes #106
+Fixed
+Fixed issue with var int reading.
+Fixed strange issue where qml will crash first run after go install
+Fix regression on 32bit (windows) systems
+Fixed tx sha creation
+Fixed miner and logger
+Fixed miner stopping / starting:wq
+Fixed range
+Fixed miner channel
+Fixed string data
+Fixed name reg
+Fixed coinbase copy in state
+Fixed an issue where the trie might crash on missmatching lengths
+Fixed "Copy" to also copy over the pending storage changes
+Fixed BYTE opcode
+Fix quit
+Fixed state reset case
+Fixed state reset on err
+Fix VM tests.
+Fixed crazy looping
+Fixed shebang check. Previously it would hang on an unknown shebang
+Fixed reverting error
+Fix
+Fixed CREATE op. Fixes #87
+Fixed address generation
+Fixed namereg
+Fixed key import for empty entries
+Fix for creating a tx from an unknown account
+Close pow chat. Fixes #95
+Fixed roots
+Fix for installer
+Fix key generation in ethPub
+Support hex and decimal keys for GetStorageAt RPC. Fixes ethereum/go-ethereum#74
+Fixed call
+Proper checks for multiple data items. Fixes #80
+Fixed GT and LT
+Fixed issue where JUMPI would do an equally check with 1 instead of GT
+Fixed minor issue with the gas pool
+Fix compare
+Fix BigMax to return the biggest number, not the smallest
+Fixed debugger hang
+ethereum instead of ethereal. Fixes #69
+fixed logging issue that would otherwise crash the client. Fixes #68
+Fixed issue with casting to smaller byte array
+Added config file setup. Fixes #59
+Unified the contract interface and tx interface. Fixes #62
+Fixed issue where the client could crash when sending malformed data
+Fixed state object gas return
+Fixes and improved debugger
+Fix merge conflict
+Fixes #60
+Fix merge conflict
+Fixed debugger
+Fixed some issues connecting for interop
+Fix merge conflicts
+Fixes #49
+Fixes #50
+Fixed unconfirmed balance string
+Fixed Public block creation. Added block logging
+Fixed competing block method
+Fixed state overwriting issue
+Fixed couple issues
+Fixed state issue
+Fixed casting issue
+Fixed crash
+Fix notification when processing block that didn't have this client as origin
+Fixed genesis and block data
+Refactored to reactor. Fixes #42
+Removed old tx pool notification system. Fixes #19
+Fixed catching up
+Fix merge conflicts
+Removed harcoded addresses from GetBlock JS bindings. Fixes #39
+Fix
+Fix merge conflict
+Fixed wallet crash for new account. Fixes #38
+Implemented our own makeshift go seed. Fixes #16
+Fixed some tests
+Fixed closure
+Fixed disasamble for all pushes
+Fix an issue where we don't have the rpc so we dont have to close it
+Fixed GetBlock when no block can be found
+Fixed import cycle
+Fix circular deps
+Fixed samplecoin
+Fixed Upnp bug
+Fixed minor issue with upnp where 'err' wasn't checked resulting in crash
+Fixed tx nonce
+Fixed state problem
+Fixed tests
+Fixed Base problem and sload/sstore
+Fixed minor issue with gas and added state object init
+Fixed gas, price & value setters on initialization
+Fix up paneling
+Fix merge conflicts
+Fix transaction on new blocks
+Fixed up grammar and spelling in README
+Fix merge conflict
+Fixed some state issues
+Fixed miner
+Fixed an issue with sending gas to a contract
+Fixed bug in stack to expand beyond expectations. Fixed EQ and NOT opcode
+Fixed tests
+Fixed IsContract method to use the contractCreation flag
+Fixed typo
+Fixed MSTORE and added some more commets
+Fixed issue with stack where it sliced of the wrong values
+Fixed asset path error. Fixes #29
+Fix Whitespace
+Fixed shutting down
+Fix RLP tests.
+Fixed connection button spamming
+leveldb API changed for NewIterator. Fixes #20
+Fix empty string.
+Fix error in call to NewIterator function
+Fixed a minor issue where a string is expected but returns slice
+Fixed a minor issue on crashed contracts
+Fixed contract running
+Fixed broken links. Fixes #18
+Fix a couple errors from go vet
+Fixed block handling
+Fixed test
+Fixed test
+Fixed peer handling
+Fixed self connect through public key discovery.
+Fixed value
+Fixed mining
+Fixed typo (credit to comma 8)
+Fixed validation
+Fixed dagger verification
+Fixed tests a bit
+Fixed rlp encoding

@@ -1,0 +1,4362 @@
+Organize the compiler's internal constants files (#4406)
+Document our evolving changelog principles (#4288)
+Fix typos (#4415)
+Add variable name, spans to DuplicateDeclarationsInLet error (#4405)
+IDE dependencies filter - filter by import list (#4412)
+Allow IDE module rebuilds without touching filesystem output/cache-db (#4399)
+Release 0.15.6 (#4404)
+Fix extraneous qualifiers added during CSE (#4401)
+Make FromJSON instance for Qualified backwards compatible (#4403)
+Prepare PureScript 0.15.5 Release (#4398)
+Remove base-compat as a dependency (#4384)
+Revise CannotDeriveInvalidConstructorArg errors (#4395)
+New algorithm for computing covering sets (#4195)
+Derive Foldable and Traversable (#4392)
+Optimize mkST and runST family of functions (#4386)
+Invalidate the CI cache when containers are changed (#4394)
+Bump depend NPM purescript-installer to ^0.3.1 (#4353)
+Remove purescript-cst from Makefile (#4389)
+Add note about tests that do not produce warnings (#4393)
+Merge pull request #4391 from rhendric/rhendric/bump-hlint
+Improve error spans for class and instance declarations (#4383)
+Add changelog file
+HLint fix: "Use <=<"
+HLint fix: "Use unzip"
+HLint fix: "Use maybe"
+HLint fix: "Use fromRight"
+HLint fix: "Use any"
+HLint fix: "Redundant fmap"
+Bump HLint to 3.5
+Sort on kind levels only, not lvls and txt (#4369)
+Fix replicated type hole suggestions (#4374)
+Bump actions environment to macOS-11 (#4372)
+Qualify references to top-level floated expressions (#4364)
+Enable OverloadedRecordDot extension (#4355)
+Merge `0.15.4-next` branch (#4361)
+Increase rendered typed holes to max of 30 (#4341)
+Make v0.15.3 release (#4356)
+Qualify locally-bound names with source spans (#4293)
+Update codebase to GHC 9.2.3 (#4351)
+Fix inconsistency between `stack test` and `cabal test` (#4354)
+Support shebang lines in modules (#4214)
+Remove unused SimpleErrorMessage constructors (#4344)
+Stop emitting null source spans (#4343)
+Setup infrastructure for testing source maps (#4335)
+Enable more warnings in purescript.cabal (#4336)
+Accommodate internal initial-digit identifiers (#4334)
+Float compiler-synthesized function applications (#3915)
+Stop requiring devDependencies to publish (#4332)
+Make 0.15.2 release (#4331)
+Only update version number for prerelease (#4330)
+Make 0.15.1 release (#4328)
+Fix CI golden test; update test deps' either/tailrec to 6.1.0 (#4329)
+Drop dependency on microlens libraries (#4327)
+Move most instance deriving into the type checker (#4315)
+Fix incomplete type traversals (#4155)
+Add Matrix channel and Libera.Chat channel as unaffiliated spaces (#4292)
+Fix crash caused by polykinded instances (#4325)
+Prerelease only if sources change (#4324)
+Clarify version scheme and what counts as a breaking change (#4318)
+Update Prim docs for type-level changes; clean up other docs (#4317)
+Fix bad interaction between module renaming and inliner (#4322)
+Fix purescript-installer call for prereleases (#4321)
+Fix npm publish (#4320)
+Deploy builds continuously to GitHub and npm (#4306)
+Check for partially applied type synonyms in kinds and constructors (#4169)
+Fix Prim.Int class Compare docs (#4313)
+Fix issue with unnamed instances using type operators (#4311)
+Ignore type wildcards in binders when under a fully-typed declaration (#4309)
+Fix broken link to 0.15 migration documentation (#4305)
+ci/build-package-set.sh: exclude metadata package (#4304)
+Make 0.15.0 release (#4299)
+Fix package set step by upgrading npm in CI (#4302)
+Update tests and their bower dependencies to 0.15.0 library versions (#4300)
+Make 0.15.0-alpha-07 release (#4297)
+Make alpha-06 release (#4296)
+Add instructions for publishing prerelease to NPM (#4295)
+Merge/move 'lib/purescript-cst/' into 'src/' (#4290)
+Add Prim.Int.ToString compiler-solved class (#4267)
+Make alpha-05 release (#4291)
+Lazy initialization for recursive bindings (#4283)
+Add GNU Guix installation instructions (#4286)
+Stop `purs docs` failure due to `case _ of` in inst decl (#4282)
+Fix release build path issue; make 0.15.0-alpha-04 release (#4279)
+Make alpha-03 release (#4275)
+Remove libtinfo from binary; add CI test to ensure not added in future (#4259)
+Fix ownership of the CI working directory (#4276)
+Containerized Linux build (Glibc 2.24) (#4228)
+Remove compiler-generated identifiers from type search results (#4260)
+Clarify what do-notation compiles to in error (#4272)
+Fix warning suppression for wildcard types (#4269)
+Restore names when generalizing unknowns (#4257)
+Remove `purs bundle` and browser backend for `purs repl` (#4255)
+Update version to 0.15.0-alpha-02 (#4262)
+Show compilation progress (#4258)
+Type-level integers (#4207)
+Make first alpha release for v0.15.0 (#4251)
+Warn on ad-hoc `case ... of` expressions (#4241)
+Fail if CJS is detected in FFI (#4250)
+Apply precedence rules to operator sections (#4033)
+Update CI to use windows-2019 (#4248)
+Add 'addWarning' to roots temporarily (#4249)
+Remove deprecated syntax: '#' and 'kind' (#4239)
+Disable constraints in FFI (#4240)
+Doc HSPEC_ACCEPT; verify `Main` module exists in PS tests (#4243)
+Improve apartness checking (#4149)
+Support es modules (#4232)
+Make v0.14.7 (#4245)
+Make v0.14.6 PS release (#4236)
+Support the purs.json manifest in purs publish (#4233)
+Add myself to contributors (#4237)
+Scope type vars when type checking typed values (#4216)
+Rewrite `Partial` optimization to be cleaner (#4208)
+Fix type operators in declaration param kinds (#4220)
+Properly deserialize unused identifiers in the CoreFn (#4221)
+Update GitHub issue templates to use new tag names (#4219)
+Inline newtype constructor applications with ($) (#4205)
+Build the entire latest package set in CI (#4217)
+remove explicit disabling of Nix in stack.yaml (#4198)
+Update unnamed instances changelog entry (#4122)
+Display roles in HTML docs (#4121)
+Make `Quote` from `Prim.TypeError` polykinded (#4142)
+Check role declarations arity during type checking (#4157)
+Expand Layout.hs module docs (#4197)
+Prevent hangs on internal errors (#4126)
+Bump PureScript to building with LTS-18 (#4199)
+Include missing source spans for data constructors (#4202)
+Make v0.14.5 Release (#4189)
+Properly rename module imports in case of conflicts with declarations (#4188)
+Derive Functor for Language.PureScript.CoreFn.Module (#4186)
+Synonym inference bug (#4184)
+More Release guide updates (#4177)
+Prepare for v0.14.4 release (#4175)
+Fix backtick offside rule (#4172)
+Update Discord link to remove explicit invite (#4170)
+Fix regression in row unification (#4168)
+Defer synonym expansion from type class desugaring (#4164)
+Improve row type error messages (#4159)
+Fix Discord link in README (#4167)
+Replace Slack links with Discord (#4166)
+Add support for bundling function declarations (#4044)
+Represent class dictionaries as newtypes (#4125)
+update Stack in Github Actions (#4134)
+Add a hint for errors in foreign data type declarations (#4161)
+Add golden tests for self cycles in type class declarations, kind declarations and foreign data type declarations (#4162)
+Omit kind sigs where kind is uninteresting, even when parens are involved (#4137)
+Solve union constraints backwards (#3720)
+Run Weeder in CI and make it happy (#4148)
+Delete make_release_notes (#4151)
+Add developer guide (#3900)
+Minor edits to RELEASE_GUIDE.md (#4131)
+Add note about what to do when a release fails (#4147)
+Move unreleased changelog entries to CHANGELOG.d (#4132)
+Refer to binary using local-doc-root workaround (#4139)
+Prepare for v0.14.3 release (#4128)
+Revert "Improve apartness checking (#4064)" (#4129)
+Improve apartness checking (#4064)
+RELEASE_GUIDE.md: s/Or alternatively/Alternatively/ (#4123)
+Display inferred kind signatures in HTML docs (#4119)
+Remove generated names from errors about instances (#4118)
+Display kind signatures and comments in docs (#4100)
+Move type class instance name desugaring into type class desugaring pass (#4099)
+Use GenIdent for anonymous instances (#4096)
+Fix UnusedName for multiple non-recursive let bindings (#4114)
+Pin OS versions in CI, instead of using the latest (#4113)
+Allow fixity, kind, role declarations in REPL (#4046)
+Fix unnamed instance docs issue (#4111)
+Proposal: edits to RELEASE_GUIDE.md (#4104)
+Fix errors when generating Haddocks (#4073)
+Bump versions for v0.14.2 (#4103)
+Merge purescript-ast into purescript-cst (#4094)
+Export `rebuildModule'` to speed up Try PureScript! slightly (#4095)
+Merge pull request #4090 from rhendric/rhendric/hlint-campaign
+Update changelog
+HLint fix: "Use camelCase"
+HLint fix: "Use tuple-section"
+HLint fix: "Use infix"
+HLint fix: "Use lambda-case"
+HLint fix: "Use const"
+HLint fix: "Use fmap"
+HLint fix: "Use join"
+HLint fix: "Eta reduce"
+HLint fix: "Use <$>"
+HLint fix: "Move brackets to avoid $"
+HLint fix: "Redundant $"
+HLint fix: "Redundant bracket"
+HLint fix: "Avoid reverse"
+HLint fix: "Use sortOn"
+HLint fix: "Redundant fmap"
+HLint fix: "Hoist not"
+HLint fix: "Use Just"
+HLint fix: "Use ."
+HLint fix: "Use :"
+HLint fix: "Use list literal pattern"
+HLint fix: "Use ++"
+HLint fix: "Use &&"
+HLint fix: "Use unwords"
+HLint fix: "Use gets"
+HLint fix: "Use fromMaybe"
+HLint fix: "Use zipWithM_"
+HLint fix: "Use maybe"
+HLint fix: "Use =<<"
+HLint fix: "Use $>"
+HLint fix: "Use /="
+HLint fix: "Use traverse_"
+HLint fix: "Use unless"
+HLint fix: "Use isDigit"
+HLint fix: "Use String"
+HLint fix: "Use notElem"
+HLint fix: "Redundant if"
+HLint fix: "Redundant =="
+HLint fix: "Unused LANGUAGE pragma"
+HLint fix: "Parse error"
+Remove unneeded HLint ignore directives
+Make instance names optional by generating them based on types (#4085)
+Unused var tweaks (#4088)
+Note FreeBSD binary packages in the installation instructions. (#4081)
+Do less work in test initialization (#4080)
+Avoid compiling tests with diagnostics twice (#4079)
+Switch to hspec exclusively, remove tasty (#4057)
+Remove setup-win.cmd (#4076)
+Migrate CI from Travis to GitHub Actions (#4077)
+Fixup docs for libtinfo change (#4075)
+Drop libtinfo dependency (#4069)
+Prompt to add to CONTRIBUTORS.md (#4074)
+Rearrange CHANGELOG entry for 0.14.1 (#4070)
+Update RELEASE_GUIDE.md for multiple packages (#4061)
+Bump versions for v0.14.1 (#4068)
+Fix shift/reduce conflicts (#4063)
+Update LICENSE for v0.14.1 (#4060)
+Update INSTALL.md (#4059)
+Fix printing of hiding imports (#4058)
+Pedantically rename some variables (#4055)
+Require rebuild if any codegen targets are outdated (#4053)
+Fix kinded declaration reordering in desugaring (#4047)
+Clarify unused warnings changelog entry (#4052)
+Unused warnings (#3819)
+Fix wildly off kind unification positions (#4050)
+Fix row unification with shared unknown in tails (#4048)
+Make stack pedantic by default (#4045)
+Instantiate polymorphic kinds when unwrapping newtypes while solving Coercible constraints (#4040)
+Desugar type operators in top-level kind signatures (#4027)
+Use type annotation hint only when needed (#4025)
+Add hints to nested constraint errors (#4004)
+Upgrade tests Bower dependencies (#4041)
+Remove unused Data.Foldable.foldr import (#4042)
+Updates for GHC 8.10.4 (#4013)
+Support TCO for functions with tail-recursive inner functions (#3958)
+Fix exponential collapsing of BindingGroups (#4006)
+Drop hpack, make it easier to use cabal-install (#3933)
+Add white outline stroke to logo.png (#4003)
+Drop "Proposal:" prefix in proposal template (#4026)
+Make close punctuation printable in errors (#3982)
+Release v0.14.0 🎉 (#4014)
+Don't mention unknowns in unification errors when coercing misaligned rows (#4000)
+Erase elaborated kinds from all errors by default (#4007)
+Don't explain Coercible as a class with compiler-generated instances (#3999)
+Update the changelog with release notes for the upcoming v0.14 (#3994)
+[purs ide] Improves protocol errors from the ide server (#3998)
+Extend ImportCompletion with declarationType (#3997)
+Only include direct dependencies in output for purs graph (#3993)
+Generate changelog and add PR template (#3989)
+Update version to 0.14.0-rc5 (#3976)
+Add hint about constructor not being in scope when the unwrapping rule fails (#3927)
+Don't implement Newtype methods when deriving (#3975)
+Refactor Ord instances (#3902)
+Fix operator qualifier reversal bug (#3971)
+Update license-related error messages (#3970)
+Update version to 0.14.0-rc4 (#3969)
+Interaction solver for Coercible constraints (#3955)
+Expand type synonyms in instances dictionaries (#3965)
+Expand type synonyms in superclasses (#3966)
+Reform handling of quote characters in raw strings (#3961)
+Unsupport bare negative literals as equational binders (#3956)
+Improve error message when `negate` isn't imported (#3952)
+Add source span to PartiallyAppliedSynonym errors (#3951)
+Update version to 0.14.0-rc3 (#3945)
+Update the desugaring pipeline to work on individual modules (#3944)
+Warn against exported types with hidden constructors but `Generic` or `Newtype` instances (#3907)
+Turn `Coercible` into a symmetric relation (#3930)
+Require newtype constructors to be imported for coercing them (#3937)
+Allow instances for synonyms (#3539)
+Check all recursive paths in data binding groups (#3936)
+Desugar type operator aliases inside parens (#3935)
+Bump version for 0.14.0-rc2 (#3934)
+Solve `Coercible` constraints on rows (#3878)
+Check role declarations make sense (#3881)
+Walk under constrained types during role inference (#3906)
+Fix `Coercible` golden tests (#3931)
+Expand type synonyms before role checking (#3909)
+Disallow cycles in foreign data kinds (#3929)
+Remove spurious doc comment on CoreFn Module (#3552)
+Saturate higher kinded types in `Coercible` constraints (#3893)
+Forbid partial data constructors exports (#3872)
+Link to releases page (#3920)
+Update CONTRIBUTING.md (#3924)
+Copy default-extensions.yaml to subprojects (#3908)
+Disallow `Coercible` instance declarations (#3905)
+Add troubleshooting steps for libtinfo and EACCES errors (#3903)
+Updated link to book (#3916)
+Check roles of mutually recursive types (#3860)
+Pin language-javascript to a specific version (#3904)
+Faster warnDuplicateRefs (#3899)
+Check role declarations against inferred roles (#3873)
+Have module re-exports appear in generated code (#3883)
+Recurse on the right of arrows and under foralls when inferring nominal roles from kinds (#3896)
+Updated purescript version in package.yaml (#3894)
+Printer for CST Modules (#3887)
+Fix CoreFn FromJSON version parsing and add test (#3877)
+Remove core tests (#3861)
+Fix hlint warnings (#3864)
+Setup `hlint` to run in the project (#3816)
+Print compile errors to stdout, progress messages to stderr (#3839)
+[purs ide] Extracts documentation comments for type classes (#3856)
+Remove legacy resolutions format (#3847)
+Deprecate constraints in foreign imports (#3829)
+Create issue templates (#3853)
+Represents ModuleNames as a single Text (#3843)
+[purs ide] Hides compiler internals in Prim modules from completions (#3850)
+Fix build with new Happy versions. (#3837)
+Pretty print errors as warnings in warnings golden tests (#3846)
+Binary encoding for externs (#3841)
+Fix substitution during kind generalization (#3831)
+Fix make ghcid (#3826)
+Deprecate primes in identifiers exported from foreign modules (#3792)
+Use the same default extensions everywhere (#3823)
+Run golden tests in CI (#3808)
+Remove PackageImports (#3821)
+Relax dependency to `microlens` (#3817)
+Fix DuplicateModule.purs golden test (#3811)
+Polykinds (#3779)
+Add golden tests for Coercible (#3810)
+Split into packages (#3793)
+[purs ide] Tracks the cache-db.json timestamp (#3799)
+Fix typos (#3795)
+[purs ide] Updates the cache-db.json file on rebuilds (#3789)
+Golden tests for `purs/failing` and `purs/warning` (#3774)
+Implement `Coercible` for safe zero-cost coercions (#3351)
+Add `graph` command for graphing module dependencies (#3781)
+Add versions bounds (#3777)
+Update RELEASE_GUIDE.md (#3772)
+Run license-generator (#3771)
+Bump versions for 0.13.6 (#3770)
+Output docs.json files for Prim modules too (#3769)
+optimize away binds to wildcards in Do notation (#3220)
+optimize import desugaring for full builds (#3768)
+Generate correct arity failure case for some guarded matches (#3763)
+Added spans to ado desugaring (#3758)
+Ambiguous variable check: take closure of fundeps across constraints (#3721)
+[purs ide] Resets IDE state before performing a full reload (#3766)
+Undo spelling change to LICENSE file (#3761)
+Fix typos (#3760)
+Use PureScript escapes in string pretty-printing (#3751)
+Update package.json for 0.13.5
+Update package.yml for 0.13.5
+Add upper bound on Protolude (#3752)
+Consider re-exports in unused kind warnings (#3748)
+Banish lazy I/O from Make (#3747)
+Fix error with using Haddock markings in comments where they should not belong (#3745)
+Update npm package for 0.13.4
+v0.13.4
+Fix for ES object shorthand in purs bundle (#3742)
+Fix #3722, shows entire row with --verbose-errors flag (#3733)
+Update language-javascript to 0.7.0.0 (#3738)
+Better reporting of IO errors (#3730)
+Improve lint import warnings (#3685)
+Update language-javascript to 0.6.0.14 (#3736)
+Fix #3727 (#3731)
+Create output directory if necessary when writing cache db file (#3729)
+Add to the CONTRIBUTORS.md list for #3682. (#3725)
+Improved build cache invalidation with content hashes (#3705)
+Fix #3558 (#3682)
+Add Makefile command to run license generator (#3718)
+Update the npm package for 0.13.3 (#3719)
+v0.13.3
+Update link to moved resource (#3717)
+Fix parsing of comma-separated guards in let statements (#3713)
+Refactor and simplify BuildPlan a little (#3699)
+row diffs on errors and hints (#3477)
+Add data constructor docs (#3683)
+Eliminate built type class dicts when necessarily empty (#3416)
+Remove more dead code during bundling (#3562)
+Add placeholder purs.bin to fix npm installs (#3695)
+v0.13.2
+Regenerate LICENSE file
+Bump to v0.13.1 (#3692)
+Ignore duplicate file inputs to compile command (#3653) (#3676)
+Add npm package (#3691)
+Throw a parse error (not internal error) when using quoted labels as puns (#3690)
+Empty commit for travis
+Update to GHC 8.6.5, lts 13.26 (#3688)
+Empty commit for Travis
+CI tweaks (#3687)
+Fix multiple "let"s in ado before the final "in" (#3679)
+Add --debug flag to bundle command (#3666)
+Remove partial type signatures from parameterized productions (#3667)
+Update author & maintainer sections of cabal file (#3663)
+Fix printing of tokens with string escapes (#3665)
+Update test dependency on typelevel-prelude (#3649)
+Add upper bounds when producing source distributions (#3661)
+Fixes to allow building with Cabal (#3660)
+Tighten base lower bound (#3659)
+make git consider *.out files as binary for the golden tests (#3656)
+Bump version to 0.13.0 (#3651)
+Use externs files when producing docs (#3645)
+Disallow re-exporting class and type with the same name (#3648)
+Remove old parser (#3646)
+Add --output option for purs docs (#3647)
+Docs: Write ctags and etags to filesystem instead of stdout. (#3644)
+Improve display of internal errors (#3634)
+Docs: make html the default output format. (#3643)
+Docs: make markdown format behave like html. Remove --docgen opt. (#3641)
+Keep Parser.y ASCII to avoid locale issues with happy (#3640)
+Improve error message on ModuleNotFound error for Prim modules. (#3637)
+Unify matching constraints (#3620)
+Add a test for @-pattern precedence (#3631)
+Update INSTALL.md (#3607)
+Better illegal whitespace errors (#3627)
+Fixes let/in expressions within ado (#3628)
+Add tests for grammar fixes addressed by CST (#3629)
+Load externs concurrently (#3609)
+Integrate purescript-cst (#3608)
+Tweaks to type pretty printing (#3616)
+Remove failable patterns and NoMonadFailDesugaring extension (#3610)
+only display class members that are not exported from the module when throwing a TransitiveExportError for a class (#3612)
+Fail compilation when a module imports itself (#3586)
+Fix sharing in function composition inlining (#3439)
+Allow kind annotations in `forall` contexts (#3576)
+Fix travis deploy
+Fix making releases on Travis CI
+v0.12.5
+Update resolver for license generator & rerun
+Remove unnecessary appveyor workaround
+Final tweaks to ci/travis config
+still trying to get windows CI working (#3606)
+[purs ide] Filters out module declarations before suggesting imports (#3598)
+Fix "purs ide server" crash on macOS by providing connection hints (#3597)
+Use qualified names for detecting cycles in type classes (#3599)
+Update INSTALL.md (#3593)
+Rerun license generator
+Bump to v0.12.4
+Empty commit for appveyor ci
+Use one build script for all CI builds (#3587)
+Shrink types less aggressively, fixes #3577 (#3585)
+Handle "use strict" better in bundler (#3581)
+Make bundle tests rerun some compile tests (#3579)
+Empty commit to help CI
+Updates for GHC 8.6.4 (#3560)
+Warn when consuming the legacy resolutions file format (#3574)
+Add test for resolved dependencies with no version (#3575)
+Error message for cyclic type class (#3381)
+Naming a constructor PS brakes the javascript no more. (#3533)
+Simplify `purs publish` resolutions format (#3565)
+Bump bower version used in tests (#3570)
+Convert prim docs tests to use tasty (#3568)
+Carry data constructor field names in the AST (#3566)
+Filter unused imports during dead code elimination (#3546)
+[purs ide] Represent Filters as a datatype rather than functions (#3547)
+[purs ide] Deprecates the list loadedModules command (#3548)
+Add Nix test dependencies to stack.yaml (#3525)
+Raise upper bound on aeson in package.yaml (#3537)
+Don't generate unused imports (#3545)
+Truncate types in errors, fixes #3401 (#3543)
+[purs ide] Treat module declarations like any other (#3541)
+v0.12.3
+Update LICENSE (#3538)
+Fix browser repl backend, fixes #3387 (#3535)
+Add AppVeyor build status to README.md (#3536)
+Simplify docs re-export handling (#3534)
+Empty commit for Travis CI
+Add the module from which something was imported to ReExportRefs (#3521)
+Turn License generator into a proper stack script (#3513)
+add better positions for UnknownName errors for types/kinds (#3516)
+Fix: ado notation breaks docs generation (#3514)
+Bump version to 0.12.2 (#3512)
+Add a template release checklist, refs #3185 (#3509)
+Fix kind error for recursive data type (#3511)
+Add named type wildcards (#3500)
+Fix source spans for binding groups (#3462)
+Remove the concept of the 'current module' in Docs (#3506)
+Add better source positions to kind errors (#3495)
+Implement QualifiedDo (#3373)
+Add :print directive for customizable repl printing (#3478)
+Json compat tests (#3497)
+Remove pretty print constructors from Type (#3498)
+Use handwritten JSON instances for Type/Kind (#3496)
+Add annotations to Type and Kind (#3484)
+Fix isUnquotedKey check to allow reserved names (#3487)
+Prevent invalid JS being generated from awkward record labels (#3486)
+print clickable links with row:column information (#3473)
+PSCi: Support multiple command types in paste-mode (#3471)
+Fix `isUnquotedKey`, fixes #3479 (#3480)
+Optimize inferred partial constraint fn (#3218)
+Ignore tags files (#3465)
+Avoid dropping super class dicts for the same class (#3461)
+Fix linting of unused type variables (#3464)
+Link to documentation repo as docs for non-Prim built-in types/kinds (#3460)
+add Boolean kind to Prim.Boolean (#3389)
+Remove references to previous kinds * and ! (#3458)
+add longer error message for repl (#3456)
+Update package.yaml
+Build psciEnvironment as needed for :print in REPL (#3241)
+[purs ide] Accepts codegen targets for the rebuild command (#3449)
+Adding `Prim.TypeError.QuoteLabel` (#3436)
+Add a stricter source span check for warnings (#3441)
+Add source spans to desugared do blocks (#3440)
+Fix ST magic-do and inlining (#3444)
+Consider type operators when reexporting a pseudo-module (#3442)
+Add nix config to stack.yaml (#3435)
+Fixes #3388 (#3437)
+Added ffiCodegen to MakeActions (#3434)
+Avoid Data.ByteString.Lazy.toStrict (#3433)
+Error spans for CannotFindDerivingType (#3425)
+Update README.md (#3423)
+Print types of missing typeclass members (#3398)
+Use `microlens-platform` instead of `lens` (#3400)
+Set --haddock flag based on BUILD_TYPE per joneshf (#3409)
+Changes necessary to build on GHC 8.4.3 (#3372)
+Fix test-support dependency versions and update psci browse test (#3374)
+Bump to 0.12.0 (#3365)
+[purs repl] Allows to :browse Prim.* modules (#3364)
+[purs ide] Use absolute paths for source locations (#3363)
+Fix purs bundle to recognise explicit paths (#3361)
+[purs ide] Allows adding imports from Prim.* modules (#3352)
+delete psc-bundle/README.md (#3356)
+Update INSTALL.md and bundle/README for 0.12 (#3357)
+[purs ide] Removes Pursuit commands (#3355)
+Add arities to `IncorrectConstructorArity` (#3354)
+Explain --editor-mode intent (#3350)
+Fix handling of Prim submodules with docs (#3349)
+Add myself to Contributors (#3346)
+Added SourceSpan to CoreFn.Module (#3342)
+Add hint to run purs COMMAND --help for command specific help (#3344)
+Update CLI help for `purs docs` (#3343)
+Bump version for v0.12.0-rc1 (#3340)
+Add myself to CONTRIBUTORS.md (#3341)
+Ensure associativity error in type operators doesn't crash (#3337)
+Add evidence for solving empty type classes & keep track of sub goals (#3334)
+Move rogue test case from old "examples" location (#3332)
+Check foreign kinds are exported when used in exported type (#3331)
+Add a link to the forum in the README (#3330)
+Introduce `--codegen` argument so targets can be specified explicitly (#3324)
+Examples is a silly name for tests (#3328)
+restrict base (#3294)
+Replace type synonyms earlier when newtype deriving (#3326)
+Allow operators shadowed by variables of the same name as the alias (#3320)
+Fix tests after merging symbols into prelude (#3322)
+Efficient object updates for closed records  (#3321)
+Fix errors in binding groups missing source spans (#3278)
+add a CoreFn optimization pass (#3319)
+Check warnings/errors for positions (#3211)
+Track where clause metadata (#3317)
+Add positions for `ScopeConflict` caused by exports (#3318)
+Add real error messages for associativity errors (#3315)
+Move solved type classes into Prim modules & bump test deps (#3312)
+Include full file path in CJS requires. (#3314)
+Remove inlining for `mod` for `Int` (#3309)
+Improve parse error messages for .purs-repl (#3249)
+Add missing output directory to error (#3311)
+Add Prim.Row.Lacks constraint (#3305)
+Remove MultipleFFIModules error code (#3308)
+Add some source span to ErrorParsingFFIModule (#3307)
+Fix :browse Prim, it has no ExternsFile (#3246)
+Complete type identifiers following '::' in REPL (#3239)
+Check that instance declarations don't overlap in related modules (#3129)
+Revert tests support deps (#3306)
+Switch to Doc for custom type errors & remove TypeConcat/TypeString (#3298)
+Tidy up "undetermined class argument" warning (#3304)
+Update `Effect` inlining (#3301)
+Raise warning for re-export of qualified module with implicit imports (#3299)
+Add a Makefile with ghcid and testing commands (#3290)
+Allow functor derivation under quantification (#3295)
+updated docs for RowCons and RowUnion (#3292)
+Add compiler derived Prim.Row.Nub class (#3293)
+Smarter make (#3270)
+[purs ide] Find usages for recursive definitions (#3282)
+Makefiles make things easier for new and regular contributors alike (#3266)
+Implements magic-do for Control.Monad.Effect (#3289)
+Disallow Prim modules (#3291)
+Rename prim classes (#3176)
+Complete any number of words after :kind and :type in REPL (#3237)
+Complete after parens and brackets in REPL (#3236)
+Add source spans for literals (#3277)
+Take advantage of multi-span errors (#3273)
+Error positions for FFI related errors (#3276)
+Allow errors to carry multiple positions (#3255)
+Explaining the custom Eq, Ord instances for Binder (#3271)
+Make Let-Pattern desugaring less brittle (#3268)
+Skip SourceSpan in Binder Eq, Ord for faster exhaustivity check (#3265)
+Make REPL completion tests faster (#3234)
+Improvments to REPL tab-completion (#3231)
+Fix source span for a case of ScopeShadowing warning (#3219)
+allow for explicit exports in generating tags (#3205)
+Ensure ExportConflict has source span (#3217)
+Fix various typeclass-related error spans (#3216)
+Fix `UnusedTypeVar` missing position info (#3214)
+Fix build errors in master (#3215)
+Add source spans to name constructors and fix `ShadowedName` warning (#3213)
+[purs ide] Find Usages round two (#3206)
+update stack resolver to lts-10.3 (#3209)
+Eq1 / Ord1 deriving again (#3207)
+throw IntOutOfRange error with position information if present (#3210)
+create UnusedIdent (#3194)
+Fix error on missing type class name with non-exported superclass (#3132) (#3173)
+Make explicit import suggestions more consistent (#3142)
+Revert proxies (#3186)
+Switch test suite to use tasty (#2848)
+Add test cases for #3114 (#3175)
+Fix functional dependencies rendering as links (#3184)
+Print error message on failed examples (#3181)
+Add position information for type warning (#3174)
+Added pre-built installers to INSTALL.md (#3167)
+remove stack 7.10 yaml file (#3161)
+Merge branch '0.12.0-dev' into master
+Empty commit to fix Travis
+Update Glob library, fixes #3055 (#3156)
+pretty print proxy types when rendering docs (#3144)
+correctly quote uppercased field labels which would otherwise remain unquoted (#3148)
+Merge master
+0.11.7
+Add docs for duplicate labels in record types (#3143)
+[purs ide] return documentation comments (#3138)
+Instantiate abstraction body during inference (#3128)
+Fix #3131 Ide inserts conflicting imports for types (#3139)
+Desugar nested parentheses (#3086)
+Error on duplicate type class or instance declarations (#3126)
+Add position to type class declaration error (#3109)
+Adds a (non-completed) document for ide's design. (#3108)
+Merge
+Remove reference to ProxyType in master
+Add valid location list to orphan instance error (#3106)
+Only add newline before initial group of comment lines in javascript codegen (#3098)
+A couple of minor changes to contributing guide
+Expand error message for UnusableDeclaration (#3088)
+Fixed type shadowing error (#2967)
+Bump to ghc8 2 (#3070)
+[purs ide] Groups hiding imports with implicit ones (#3069)
+Add docs for duplicate labels in record types (#3143)
+[purs ide] return documentation comments (#3138)
+Instantiate abstraction body during inference (#3128)
+Fix #3131 Ide inserts conflicting imports for types (#3139)
+Desugar nested parentheses (#3086)
+Print proxy type as an operator (#3124)
+Fix entailment issues with skolems and matches (#3121)
+Error on duplicate type class or instance declarations (#3126)
+Add position to type class declaration error (#3109)
+Adds a (non-completed) document for ide's design. (#3108)
+Update PROTOCOL.md (#3119)
+Add valid location list to orphan instance error (#3106)
+CoreFn Module type (#3101)
+Corefn Json representation (#3049)
+Fix proxies: synonyms, inference, traversals, instances (#3095)
+Only add newline before initial group of comment lines in javascript codegen (#3098)
+A couple of minor changes to contributing guide
+Update Overlapping instances error message. (#3084)
+Expand error message for UnusableDeclaration (#3088)
+Fixed type shadowing error (#2967)
+Bump to ghc8 2 (#3070)
+Require single-method instance declarations to be indented (#3073)
+Remove old generics (#3007)
+Add inlining for runEffFnN/mkEffFnN (#3026)
+Instance chain groups (#2929)
+[purs ide] Groups hiding imports with implicit ones (#3069)
+Update CONTRIBUTORS.md (#3066)
+Revert "Revert "Run AppendSymbol in reverse (#3025)" (#3027)" (#3030)
+Remove scripts, fix #2993 (#3011)
+Add applicative do notation (#2889)
+Add proxies (#2846)
+Solve ConsSymbol (#3054)
+Don't recommend IRC any more (#3064)
+Add `:complete` directive to psci (#3038)
+Adds a pattern synonym for ValueDeclarations (#3051)
+inline Unsafe.Coerce.unsafeCoerce (#3050)
+Introduce data type for value declarations (#3048)
+[purs ide] Adds an `actualFile` parameter to the rebuild command (#3045)
+[psc-ide] Make `type` command's `filters` param optional to align with doc (#3040)
+bump glob dependency (#3041)
+Improves ExternsFile parse errors (#3037)
+Introduces a type for type declarations (#3034)
+Allow blaze-html 0.9 (#3031)
+Fix AppVeyor deployment (#2774) (#3029)
+Use Hspec in TestDocs (#3028)
+Revert "Run AppendSymbol in reverse (#3025)" (#3027)
+Run AppendSymbol in reverse (#3025)
+[purs ide] Add qualified explicit import (#3024)
+Embed CSS for HTML docs (#3017)
+Use order given in export list in generated docs (#3015)
+eliminate redundant whitespace in js output (#3021)
+Treat kinds as used in import warnings (#3019)
+Improve suggested git url in purs publish error message (#2998)
+Fix pretty-printing of class names in hierarchy (#3013)
+Remove some references to old executables (#3014)
+also runs type search for data constructors (#3008)
+Fix type operator precedence parsing, fix #2958 (#3009)
+[purs ide] Editor mode (#3006)
+Fix a loop in the kind checker (#3005)
+Prevent browser from treating declTitle and linkToSource as one word (#3002)
+[purs-ide] Fixed case-splitting on local non-exported datatypes (#2986)
+Only build master and semver tags in AppVeyor (#2987)
+Fix source links for re-exports (#2997)
+Update installation doc [ci skip] (#2994)
+Desugar type operators in instance declarations (#2991)
+Update test dependencies (#2992)
+Fix fragment links to type constructors in HTML (#2989)
+0.11.6
+Revert "Require single-method instance declarations to be indented" (#2985)
+Fix child decl ordering (#2984)
+Only build master and semver tags in Travis (#2982)
+Include comments in child declarations in HTML docs (#2981)
+Solve RowToList (#2945)
+Fix links to type operators in HTML docs (#2979)
+Re-evaluate REPL globs during :reload (#2978)
+[purs ide] Collect data constructors (#2976)
+Replace synonyms in instance constraints (#2973)
+Require single-method instance declarations to be indented (#2965)
+Allow things to be hidden from Prim (#2951)
+Remove purescript.cabal and add to gitignore (#2952)
+Raise upper bound on aeson in package.yaml (#2953)
+[purs ide] Adds declarations for Prim (#2946)
+Allow aeson 1.1 (#2873)
+[purs ide] Repopulates the rebuild cache when populating volatile state (#2942)
+[purs ide] Add declaration type filter (#2924) (#2934)
+Add source span annotations to Declaration (#2935)
+Add source span annotations to DeclarationRef (#2933)
+[purs ide] improve reexport bundling (#2931)
+Fix test dependencies (#2927)
+0.11.5
+[purs ide] Groups reexports in completions (#2907)
+Allow type signatures in instances (#2912)
+Disallow invalid newtype-derived instances (#2864)
+[purs-ide] Resolve synonyms and kinds (#2917)
+Encode PSCI's server content as utf-8 string (#2918)
+Parse support modules from actual test support purs (#2916)
+Disallow `forall` within constraints (#2874) (#2900)
+[purs ide] Work around laziness when measuring command perf (#2905)
+Update `build` command to run test (#2901)
+[purs ide] Simplify state type (#2882)
+[purs ide] Adds a command to add qualified imports (#2898)
+[purs ide] Implements new import formatting (#2897)
+[purs ide] Introduce completion options (#2896)
+[purs ide] Add a new namespace filter (#2792) (#2893)
+[purs ide] parses modules in parallel (#2891)
+converts \r\n into \n after reading files as ByteStrings (#2884)
+[purs ide] extract namespace adt (#2878)
+[purs ide] Decodes source files as UTF8 when parsing out the imports (#2876)
+Better variable naming hygiene in TCO. Fixes #2868 (#2875)
+Apply relative paths during pretty printing of errors (#2867)
+Desugar let properly when generating docs, fix #2861 (#2863)
+Fix kind signature for RowCons typeClassData (#2859)
+Bumps lower bound for directory (#2857)
+[purs ide] Fixes the import command for kinds (#2858)
+Update package.yaml (#2854)
+small fix for the copyright dates (#2849)
+[purs ide] Reads files in TextMode for adding imports (#2850)
+Turn off coveralls upload for now (#2852)
+0.11.4
+display help text by default (#2851)
+Row TypesDoNotUnify, don't assume unique labels, fix #2820 (#2843)
+Adding -h/--help to `ide` subcommands (#2841)
+switch core-tests to psc-package. fixes #2830 (#2845)
+TCO simplification (#2831)
+remove newline from printed custom type errors (#2836)
+Update CONTRIBUTING.md for "new contributor" label (#2844)
+purs cmd-line help messages plualized module path (#2840)
+Allow user to propagate Warn constraints (#2828)
+Bump aeson lower bound to 1.0 (#2825)
+Fix #2772, match type level strings in docs renderer (#2824)
+[purs ide] Fix encoding bug in list import command (#2818)
+Add a bunch of NFData instances (#2817)
+[purs ide] Use the user-specified log level for file-watcher logs (#2814)
+0.11.3
+Accept print function as handleCommand argument (#2808)
+Require directory > 1.2.3.0 for Xdg support (#2816)
+Exhaustivity check for pattern guards (#2807)
+0.11.2
+Use XDG Base Directory Specification for psci_history (#2799)
+Desugar pattern guards *after* type checking (#2801)
+adds a package.yaml manifest file for hpack (#2802)
+[purs ide] Collect more information for classes and synonyms (#2798)
+PSCi eval test suite (#2791)
+Polymorphic Labels (#2784)
+0.11.1
+Wrap decl title in span for better double-click selection (#2786)
+List instance info under correct sections, fix #2780 (#2790)
+#2787 Fix special case in guard codegen (#2789)
+Upgrade Stack (#2788)
+Use GHC 8 with stack by default (#2778)
+Enable TCO for variable intros and assignments (#2782)
+Use latest 0.11-compatible libraries for tests (#2785)
+Improve error when using old-style context (#2773)
+Use git log to get tag versions (#2771)
+[purs ide] Track where a Reexport was resolved from (#2751)
+Remove TH from Environment.hs (#2770)
+Row union constraints (#2761)
+Derive Generic.Rep for empty records (#2767)
+Make psc-ide-client executable
+Implement evaluation test for PSCi (#2747)
+Add useful errors for removed kind syntax (#2760)
+Allow parens wrapping constraints again (#2759)
+Add "--format html" to psc-docs (#2733)
+Add test for #2756 (#2758)
+ConstrainedType only takes a single Constraint (#2746)
+[purs ide] Reuses lenient import parsing for the list import command (#2741)
+Fix TCO issue when pattern matches can fail (#2739)
+PS 0.11 breaking changes (#2730)
+[purs ide] No longer strip trailing dots for Pursuit queries (#2744)
+Just a few minor refactorings (#2743)
+[purs ide] Removes unnecessary clause in import pretty printing (#2742)
+Tracks more positions during parsing (#2662)
+Improve instance arity errors (#2740)
+Improve errors for bind/discard  (#2736)
+[purs ide] improve import parsing (#2725)
+Add back .psci file support (#2735)
+Imperative core, initial refactoring (#2723)
+Divide TestPsci into several modules (#2729)
+Fix minor typo in PSCi script (#2727)
+New PSCi command: reload (#2721)
+TCO Fixes (#2719)
+Fix everythingWithScope traversal bug, fix #2718 (#2720)
+Find record accessors in Type Directed Search (#2710)
+Bring module of any used class constructor into scope (#2717)
+Add InvalidDerivedInstance error (#2712)
+Include source span in externs file for error reporting purposes (#2711)
+Improve error for unused type variables (#2709)
+Improve errors from module sorter (#2708)
+Make paths relative in error messages (#2707)
+Use data ctor name parser for data ctors in imports/exports (#2660)
+Fix Generic deriving with synonyms (#2706)
+[psc-ide] removes the deprecated --debug option (#2699)
+[psc-ide] Don't create the output/ directory if it can't be found (#2700)
+Make superclass codegen less ugly (#2704)
+Fix tests in CI build (#2705)
+Allow duplicate labels (#2696)
+#2616, errors for open rows in derived instances (#2697)
+Fix typo (#2698)
+Remove dependency on the Bower executable (#2687)
+0.11.0
+Optimize keepImp, fix #2212 (#2684)
+Add psc-ide-client script (#2681)
+Better error message for removed PSCi let decl (#2667)
+Support polymorphic types in typed binders (#2656)
+simplify a hairy use of M.insert (#2677)
+replace nub with ordNub (#2679)
+Include git commit information in non-release builds (#2669)
+Add ide-client command (#2678)
+publish: Allow for older git versions (#2673)
+Update LICENSE (#2674)
+PSCi command changes (#2665)
+Fix for unknown Warn type class constructor (#2666)
+Use Discard class to catch values which are implicitly discarded (#2653)
+Use Stackage LTS 8.0 (#2659)
+Emit _ instead of false case for if-then-else (#2654)
+Instantiate types in record literals as necessary (#2625)
+Misc. work on #2567 and the skolem escape check (#2643)
+Update CLI error and helper messages (#2650)
+Desugar patterns in let-in expressions (#2627)
+Capitalise *script into *Script (#2649)
+Nudge travis
+Address travis timeout issues (#2647)
+Revert "Generate data constructors without IIFEs" (#2648)
+Compress contributors list (#2645)
+Pattern guards (#2588)
+Add basic usability check for type class members (#2637)
+Fix builtin links (#2641)
+Remove extra-deps from stack-ghc-8.0.yaml (#2636)
+Remove psc-package, combine remaining executables (#2632)
+0.10.6
+Return operators in psc-ide imports list (#2617)
+Generate data constructors without IIFEs (#2619)
+Rebuild modules if necessary when using --dump-corefn (#2623)
+Add stack-ghc-8.0.2.yaml (#2611)
+Disallow polymorphic types in binders, prevent internalError (#2624)
+Combine inlining optimizations into a single pass (#2615)
+Fix psc-publish --dry-run (#2612)
+Fix failure to parse git tag date in psc-publish (#2613)
+Revert binder syntax (#2605)
+Add HasCallStack to internalError (#2608)
+Failing example for #2601 (#2607)
+Merge pull request #2606 from purescript/phil/no-macos
+Disable MacOS builds for now
+Change nested record update syntax and fix bug with depth > 2 (#2580)
+Update `psc-package` to use turtle 1.3 (#2585)
+comment-styles: style comment types differently (#2597)
+[psc-ide] fix 2537 (#2603)
+[psc-ide] Also detect location information for operators (#2602)
+[psc-ide] Restructure testing to avoid running the server (#2599)
+[psc-ide] Collect type class instances (#2592)
+[psc-ide] Fix #2504
+[psc-ide] Speeds up rebuilding by x2
+Merge pull request #2591 from purescript/add-html-rendering
+Update license after adding cheapskate
+Merge pull request #2587 from purescript/phil/2584
+Add modules for rendering HTML documentation
+Merge pull request #2589 from kRITZCREEK/fix-psci-tests
+fix tests
+Merge pull request #2586 from michaelficarra/GH-2568
+extract Unicode replacement into PSString.decodeStringWithReplacement
+UTF-16 surrogate pair and lone surrogate support in type level strings
+fixes #2568: TypeLevelString/TypeConcat should not be quoted
+Fix #2584
+Inline Partial.Unsafe.unsafePartial (#2572)
+Require dependencies to exist during sorting phase (#2570)
+Merge pull request #2583 from michaelficarra/GH-2581
+Merge pull request #2550 from purescript/include-ident-namespace
+Merge pull request #2582 from kRITZCREEK/psc-ide-small-logging-improvements
+fixes #2581: generate JS static member accesses whenever possible
+[psc-ide] Log failing to accept or parse an incoming command
+Merge pull request #2579 from purescript/phil/2578
+Fix #2578, defer warnings from typeDictionaryForBindingGroup call.
+Add support for user defined warnings via the Warn type class (#2569)
+remove JSAccessor; replace with JSIndexer (#2554)
+Support nested record update (#2566)
+Merge pull request #2563 from LiamGoodacre/fix/class-instance-arity
+Fix 'Unknown type index' on mismatch between class and instance argument counts
+Merge pull request #2560 from purescript/phil/2136
+Merge pull request #2559 from purescript/phil/parse-named-binders
+Fix inlining for negateInt
+Fix parsing for named binders. Some tidying up.
+Store more information in RenderedCode / refactoring
+Merge pull request #2553 from purescript/remove-bookmarks
+Don't expand synonyms until after kind checking (#2546)
+Use identity from Protolude
+Remove Docs.Bookmarks
+Merge pull request #2552 from purescript/docs-memory-improvements
+Fail early when 'bind' is brought into scope inside 'do' (#2547)
+Minor memory usage improvements in Language.PureScript.Docs
+Merge pull request #2549 from purescript/fix-pretty-print-row-labels
+Fix object key quoting
+Merge pull request #2532 from kRITZCREEK/psc-ide-pretty-unicode-types
+[psc-ide] use unicode forall and arrows in completions
+Merge pull request #2544 from purescript/include-tag-date
+Add git tag time to psc-publish JSON
+v0.10.5
+Merge pull request #2541 from LiamGoodacre/fix/data-ctor-conflict
+Detect conflicting data constructor names
+Merge pull request #2539 from purescript/kind-pretty-printing
+Update pretty printer for Kinds
+Replace type wildcards earlier (#2535)
+Merge pull request #2536 from purescript/psstring-json-backwards-compat
+Generate PSString values as JSON strings where possible
+Restore JSON backwards compatibility for PSStrings
+Merge pull request #2488 from michaelficarra/string-newtypes
+Use 'markCode' when pretty-printing Labels
+Merge pull request #2533 from purescript/pursuit-json-backwards-compat
+Adds specific error message when failing to import bind (#2527)
+Update purescript.cabal
+Fix psci tests
+Tidying up: represent PureScript strings as sequence of Word16
+Remove redundant do
+Restore backwards compatibility for parsing Kinds
+Merge pull request #2531 from purescript/update-bower-json
+Update bower-json to 1.0.0.1
+Merge pull request #2522 from LiamGoodacre/update/orphan-detection
+Merge pull request #2524 from purescript/phil/kind-reserved-word
+fixes #2438: represent PureScript strings as sequence of Word16
+Update orphan instance check to use covering sets
+\'kind\' is no longer a reserved word
+Merge pull request #2523 from kRITZCREEK/psc-ide-fix-windows-tests
+Merge pull request #2521 from purescript/remove-stackage-badges
+[psc-ide] Fixes tests on windows
+Remove Stackage badges
+0.10.4
+Derive instances when data types use type synonyms (#2516)
+Add naive functor deriving (#2515)
+Add command to apply minor package updates (#2510)
+Solving CompareSymbol and AppendSymbol (#2511)
+Add support for user defined kinds (#2486)
+Merge pull request #2474 from nwolverson/bundle-sourcemaps
+psc-bundle: Add source map output
+Merge pull request #2509 from purescript/improve-license-generator
+Add --node-path option to PSCi (#2507)
+Merge pull request #2508 from purescript/phil/verify-set
+More robust license generator script
+Fix #2459, add verify-set command to psc-package
+Merge pull request #2503 from purescript/add-package-info-to-reexports
+Add package information to re-exports
+Further conversions to Text in Docs modules (#2502)
+Merge pull request #2501 from purescript/prim-docs-update
+Merge pull request #2500 from purescript/add-turtle-upper-bound
+Update docs for the Partial type class
+Add upper bound on turtle, fixes #2472
+Add Prim docs to the library, resolves #2494 (#2498)
+Merge pull request #2391 from rightfold/master
+Merge pull request #2497 from purescript/2039
+Fix some issues with the pretty printer, fix #2039
+Merge pull request #2495 from purescript/fix-language-js-bounds
+Fix version bounds on language-javascript
+Merge pull request #2491 from LiamGoodacre/fix/entails-kinded-type
+Unwrap KindedType when instance solving
+Update links to wiki (#2476)
+Update websocket host in psci interactive (#2483)
+0.10.3
+Merge pull request #2473 from pure11/psc-package
+psc-package: display full path in 'packages.json does not exist' error message
+fixes #2434 and #2438: PureScript chars must be UTF-16 code units (#2454)
+Merge pull request #2469 from pure11/dump-tests-output
+Merge pull request #2470 from kRITZCREEK/psc-ide-cleanup
+remove unneeded pragmas
+remove text conversion functions
+Merge pull request #2468 from purescript/psc-bundle-utf8
+Issue #2453: dump output of psc tests to file
+Use writeUTF8File in psc-bundle
+Fix merge leftover
+Merge pull request #2467 from kRITZCREEK/psc-ide-diagnostics
+Merge pull request #2465 from purescript/phil/2074
+Merge pull request #2466 from purescript/fix-windows-ci
+[psc-ide] log version mismatches when reading externs files
+[psc-ide] more finegrained logging
+[psc-ide] log handleCommand duration
+Merge pull request #2414 from kRITZCREEK/psc-ide-polling
+[psc-ide] Adds polling option for psc-ide-server
+Fix windows CI
+Use HTTPS to query Pursuit
+Add support for rows in instance head under fundeps (#2451)
+Merge pull request #2456 from purescript/new-docs
+Update documentation link location
+Print functional dependencies in psc-docs output, fix #2439 (#2450)
+Update Errors.hs
+Merge pull request #2446 from osa1/patch-1
+Use Text over String (#2418)
+Exhaustive pattern match on JSAnnot. (#2432)
+Update error message of `ErrorInDataBindingGroup` to include participating identifiers (#2447)
+Warn for shadowed type class variables (#2441)
+Update CONTRIBUTING.md
+Solving IsSymbol instances (#2429)
+Merge pull request #2440 from joneshf/psc-package-uninstall
+Add uninstall command to psc-package
+Add value source positions (#2427)
+Add 'available' command to psc-package (#2430)
+AmbiguousTypeVariable error: prettyPrintType -> typeAsBox (#2428)
+Create documentation for psc-package (#2424)
+Fix GHC 8.0.2 build (and fix #2421) (#2422)
+Merge pull request #2420 from marsam/master
+Add psc-package to release bundle
+-> 0.10.2
+Traversal should pick up bindings in all value declarations. (#2412)
+2323: Sort IDE-generated explicit imports (#2413)
+Add psc-package (#2337)
+2374: Add error message for ambiguous type variables in inferred contexts (#2410)
+Merge pull request #2417 from kRITZCREEK/text-lexer
+Speeds up parsing by reading files as Text
+Merge pull request #2403 from brandonhamilton/inliner
+Fix inliner for integer bitwise operators
+Derive Data.Generic.Rep.Generic (#2356)
+Add paste mode, remove --multi-line option, fix #934 (#2361)
+Fix #2379, add error message for unknown classes (#2396)
+Handle TypeLevelString when checking orphans (#2393)
+Fix issue with typed holes in inference mode (#2386)
+Fix inliner for Data.Array.unsafeIndex (#2389)
+Support record updates on records with field named hasOwnProperty
+Merge pull request #2387 from rightfold/patch-1
+Update outdated comments about Prim types
+Allow symbols in data contructors (#2384)
+Type directed search (#2352)
+Better error messages for bad indentation (#2368)
+Merge pull request #2385 from LiamGoodacre/fix/bind-scope
+Fix scope traversal for do-notation bind.
+Small cleanup to Language.PureScript.Interactive.IO (#2381)
+Pretty-print suggested types differently (#2369)
+Update CONTRIBUTORS.md (#2382)
+Merge pull request #2380 from brandonhamilton/master
+Merge pull request #2318 from kRITZCREEK/psc-ide-lens-experiments
+[psc-ide] Adds lenses and prisms for psc-ide's core data types
+Move unsafeIndex to Data.Array
+Fix #2362, treat type annotations on top-level expressions as if they were type declarations (#2366)
+Merge pull request #2375 from purescript/2370
+Fix #2370, allow rows in instance contexts
+Refactor subsumes function (#2364)
+Merge pull request #2365 from purescript/revert-http-client
+Revert http-client-0.5 change
+Merge pull request #2355 from purescript/phil/aeson
+Merge pull request #2354 from purescript/bsd3-license
+Use aeson 0.11.* for now, for Pursuit JSON compatibility
+Use BSD 3-clause license
+Strict handling of UTF8 files (fixes fd issue) (#2338)
+Merge pull request #2334 from purescript/phil/2332
+Merge pull request #2335 from purescript/phil/2331
+Fix #2331, substutute types in newtype class deriving
+Fix #2332, allow newtype deriving when newtype is not fully applied
+Add andreypopp
+Merge pull request #2327 from garyb/duplicate-module-error
+Merge pull request #2329 from garyb/unused-operator-warnings
+Fix usage detection for operators
+Fix the duplicate/redefined module error
+Merge pull request #2328 from garyb/fix-dup-module-codegen
+Merge pull request #2326 from garyb/derive-newtype
+Fix handling of duplicate module imports in JS codegen
+Fix test for fixed Show instance for Number
+Add deriving for Data.Newtype
+[psc-ide] Return qualifier from explicit/hiding imports (#2317)
+Merge pull request #2324 from nwolverson/pursuit-json-update
+-> 0.10.0
+[psc-ide] Update pursuit JSON parsing
+Merge pull request #2322 from purescript/phil/constraint-layout
+Merge pull request #2321 from purescript/phil/fn-judgment
+Add --dump-corefn command line option (#2275)
+Fix a small bug in the type pretty-printer
+Fix function application judgment
+Functional Dependencies (#2279)
+Allow anonymous accessor chains (_.a.b) (#2264)
+Merge pull request #2307 from kRITZCREEK/psc-ide-resolve-operator-types
+[psc-ide] look up types/kinds for operators
+Newtype Deriving (#2304)
+Merge pull request #2305 from kRITZCREEK/psc-ide-ast-information-completion
+[psc-ide] Provides AST information on completion
+Merge pull request #2303 from kRITZCREEK/psc-ide-parse-type-annotations
+[psc-ide] Parse type annotations from source files
+Added typelevel string functions (#2280)
+Merge pull request #2299 from purescript/phil/parser-issue
+Merge pull request #2300 from purescript/fix-apply-inlining
+Fix inlining for apply operators
+Fix weird parser issue identified by @FrigoEU
+Safer installation from source in INSTALL.md (#2294)
+Revert "Update CONTRIBUTING.md to use Stack"
+Update CONTRIBUTING.md to use Stack
+Support http-client-0.5 (#2284)
+[psc-bundle] Verify entry points exist (#2286)
+Add explicit import of Monoid <>  (#2278)
+Merge pull request #2281 from ianbollinger/hlint
+Import suggestions for UnusedDctorImport's (#2282)
+Fix most HLint warnings
+Improved error messages for record subsumption (#2271)
+Merge pull request #2276 from ianbollinger/everywhereOnTypesTopDown
+Fixes Language.PureScript.Types.everywhereOnTypesTopDown
+Support aeson-1 (#2268)
+gitignore .psc-ide-port globally (#2261)
+remove legacy ObjectGetter and update doc (#2262)
+Merge pull request #2274 from kRITZCREEK/psc-ide-rebuild-cycle
+fixes kRITZCREEK/pscid#20
+0.9.3
+Fix #2252, instantiate types in array literals before unification (#2258)
+Better context information for typed hole errors (#2247)
+Merge pull request #2257 from purescript/2241
+Merge pull request #2256 from purescript/2237
+Use latest LTS, fix #2241
+Add upper bound to http-client, fix #2237
+Merge pull request #2253 from natefaubion/make-utf8
+Decode externs with correct encoding
+protolude 0.1.6: fix ambiguous occurrences (#2225)
+Improved error messages in the constraint solver (#2230)
+Fix for #2244 (#2246)
+0.9.2
+Merge pull request #2223 from purescript/2181
+Combine the sdist and coverage builds. Avoid .tix files during deployment.
+Evaluate PSCi expressions in the browser (#2199)
+Update Data.Function constant for prelude 1.0 (#2213)
+New reexports (#2215)
+Merge pull request #2221 from kRITZCREEK/psc-ide-unicode-enc
+[psc-ide] Fix unicode encoding of json responses
+Merge pull request #2193 from kRITZCREEK/psc-ide-parse-modules
+[psc-ide] Parse Modules on load
+[psc-ide] Switches to the Protolude
+[psc-ide] Multi phase load
+Elaborate re-exports
+Merge pull request #2195 from purescript/2190-scopeshadow-pos
+Include position info in ScopeShadowing warning
+Merge pull request #2189 from felixonmars/patch-1
+Elaborate re-exports
+Allow pipes 4.2
+Merge pull request #2184 from phadej/2183-nodejs-fix
+Travis tweaks (#2178)
+Run bower thru node(js) executable
+Merge pull request #2169 from purescript/0.9
+Merge pull request #2174 from michaelficarra/GH-2172
+fixes #2172: allow escape seqs in JS FFI exported using strings
+Disable the nightly Stackage build for now
+Bump version
+Fix build for programmable type errors after merge
+Programmable type errors (#2155)
+Merge pull request #2171 from garyb/2168
+Merge pull request #2170 from garyb/1945
+Restore position info to import parser
+Fix issues with multiple data/type decls
+Typecheck main in PSCi (#2163)
+marking code in error messages with backticks (#2079)
+Merge pull request #2167 from purescript/primed-types
+Allow use of prime symbol in type names.
+Fix core-tests (#2162)
+Return a completion for operators (#2160)
+Merge pull request #2157 from garyb/2138
+Combine multiple export refs for types
+Merge pull request #2156 from purescript/fix-psci
+Fix PSCi imports
+Merge pull request #2153 from purescript/imports-first
+Fix #2149, remove support for = in ObjectBinder (#2152)
+Require imports to appear before other declarations
+Fix issue 2128 (#2144)
+Merge pull request #2132 from purescript/2070
+Merge pull request #2131 from purescript/name-resolving
+Cache last rebuild (#2083)
+Merge branch '0.9' into 2070
+Merge pull request #2143 from bmjames/bash-portability
+Merge branch 'master' into 2070
+Avoid overlaps during type renaming in errors
+Require imports for qualified names to resolve
+Merge pull request #2146 from garyb/2145-partial-shadowing
+Merge pull request #2137 from garyb/warnings-tests
+Merge pull request #2135 from garyb/suggest-all-dctors
+Generate names when elaborating Partial
+More portable shebang line
+Add tests for warnings & fix some warnings
+Use (..) for data constructors in suggestion
+Find foreign modules by name rather than comment-search (#2118)
+Fix #2070, typed hole errors now include environment information
+Merge pull request #2129 from purescript/name-map
+Version 0.9
+Merge pull request #2127 from purescript/psci-save-dev
+Use Map rather than list in Exports
+Merge pull request #2126 from purescript/single-module-files
+Only allow one module per file
+Recommend using save-dev for psci support
+Add a mechanism for invalidating that AppVeyor cache
+Merge pull request #2120 from hdgarrood/update-parsec
+Small fixes (#2114)
+Update parsec, fixes Number literal parsing #2115
+Merge pull request #2119 from hdgarrood/require-main
+poll to check if the server is running (#2121)
+Merge pull request #2117 from purescript/2055
+PSCi speed improvements and design changes (#2088)
+Check that passing tests have a Main module
+Fix #2055, desugar ParensInType inside typed binders
+[psc-ide] adds a reset command (#2112)
+Speed up tests (#2110)
+Separate the `Op` and `Ident` namespaces
+Merge pull request #2108 from hdgarrood/merge-master-into-0.9
+Fixes #2064 (#2107)
+Rename Prim.Object to Prim.Record, fix #1768 (#2102)
+Merge branch 'master' into 0.9
+Merge pull request #2104 from pure11/master
+Fix for issue #2093: Test  contains an unreliable comparison
+Switch to stack for CI, resolves #1974 (#2099)
+Fix #2092, precedence of type application (#2098)
+NoImplicitPrelude, enable some global extensions (#2094)
+Require Partial instance on partial functions (#2072)
+Merge pull request #2087 from purescript/multi-file-tests
+Multi-file test setup
+Improve license errors in psc-publish (#2082)
+Merge pull request #2077 from nwolverson/sourcespan
+Merge pull request #2073 from LiamGoodacre/update/remove-deprecated-class-syntax
+Merge pull request #2085 from purescript/test-hspec-compiler
+Expect 'Done' from passing tests
+Use HSpec for the compiler tests
+Merge pull request #2081 from purescript/test-support-modules
+Update the support modules list in the tests
+Tighten source-spans to token end position
+0.9 Remove deprecated class import/export syntax
+Merge pull request #2078 from DavidLindbom/bugfix-1881-v2
+Type suggestions (#2076)
+New Prelude names
+Merge pull request #2071 from kRITZCREEK/psc-ide-watcher-improvements
+Always reload Externs
+Merge pull request #2068 from purescript/2049
+Fix #2049, Pattern matching on aliases doesn't work well with as-patterns
+Remove legacy operator sections, merge #2024
+Remove qualified keyword, merge #1997
+Remove --require-path completely, merge #1996
+Merge pull request #2043 from LiamGoodacre/fix/psc/pretty
+Merge pull request #2047 from purescript/revert-2046-link-as-needed
+Revert "Add --as-needed linker option to stop linking against unused shared objects"
+Fix some pretty printing issues
+Merge pull request #2046 from jplatte/link-as-needed
+Merge pull request #2044 from purescript/2042
+Add --as-needed linker option to stop linking against unused shared objects
+Fix #2042, use JSON for parser errors in rebuild
+Merge pull request #2041 from LiamGoodacre/update/psci/show-import
+Update PSCi `:show import`
+Merge pull request #2038 from purescript/bump-0.8.5
+Bump to 0.8.5
+Improved UTF8 handling in IDE server
+Typed holes
+Merge pull request #2032 from kRITZCREEK/create-output-on-startup
+[psc-ide] create the output folder if it's missing
+Merge pull request #2029 from hdgarrood/relax-licensing-rules
+Merge pull request #2028 from purescript/require-exports-for-typeop-alias
+Merge pull request #2027 from purescript/type-prettyprint-updates
+Add note recommending adding a license file
+Update license-generator
+Relax rules on license files in psc-publish
+Require types to be exported if an type operator alias is
+Always read UTF-8, tests
+Fix prettyprinter for types
+#1712, fast recompilation in psc-ide-server (#2013)
+Merge pull request #2022 from purescript/2018-fix-incorrect-cycle-detection
+Merge pull request #2021 from purescript/2017-supress-single-hiding-warning
+Fix cycles being detected with qualified imports
+Merge pull request #2020 from purescript/1558-case-wildcards
+Merge pull request #2009 from purescript/type-operator-aliases
+Don't warn for a single hiding import
+Wildcards for case and if
+Type operator aliases
+Merge pull request #2016 from hdgarrood/fix-2011
+Merge pull request #2015 from LiamGoodacre/fix/qualified-ctor-ops
+Better error for invalid FFI identifiers, #2011
+Qualified constructors are not valid identifiers for operator aliases.
+Merge pull request #2003 from purescript/1862-spurious-import-suggestions
+Fix spurious import suggestions when re-exporting
+Merge pull request #2007 from purescript/1872-reexport-unaliased
+Merge pull request #2004 from purescript/1823-redundant-import-warnings
+Merge pull request #2006 from purescript/1895-invalid-newtype-binding-group
+Merge pull request #2001 from trofi/master
+Fix re-exports to include intended exports only
+Merge pull request #2002 from hdgarrood/appveyor
+nudge appveyor
+Remove github token from appveyor.yml
+Detect invalid newtypes in data binding groups
+Remove RedundantUnqualifiedImport
+Windows CI
+Language/PureScript/Ide/Types.hs: fix haddock markup
+Merge pull request #2000 from purescript/winbuild-stack
+Add a Windows version for the stack bundle script
+0.8.4.0
+Check that FFI imports match with implementations
+[psc-ide] - Import helper commands
+Disallow constraint generalization for recursive functions.
+Merge pull request #1994 from purescript/utf-logging
+Merge pull request #1993 from purescript/1991
+Use utf8 when writing to stdout and stderr
+Fix #1991, instantiate polymorphic types before unification in if..then.else
+Merge pull request #1984 from LiamGoodacre/fix/renderdocs
+Merge pull request #1990 from LiamGoodacre/fix/scope-traversal
+Merge pull request #1989 from nwolverson/language-ps-6
+everythingWithScope improperly traversing binary ops
+Fix for rendered constrained types needing parens.
+Update travis.yml
+Update to use language-purescript 0.6.x
+0.8.3.0
+Merge pull request #1964 from faineance/various-cleanup
+Merge pull request #1961 from faineance/publish_error_on_missing_license
+Error on missing LICENSE file or if bower.json has no license
+Merge branch 'master' of https://github.com/purescript/purescript into various-cleanup
+Merge remote-tracking branch 'upstream/master' into various-cleanup
+Merge pull request #1970 from kRITZCREEK/better-psc-publish-error
+Better error message for psc-publish tests
+Merge pull request #1969 from kRITZCREEK/gracefully-fail-case-split
+respond with an error instead of crashing
+Fix indentation bug #1881
+Merge pull request #1965 from kRITZCREEK/escape-regex-chars
+escapes regexy chars when using the flexMatcher
+more fixes
+Merge pull request #1962 from hdgarrood/bump-bower-json
+various fixes
+Update stackage nightly
+Add bower-json to extra-deps
+Don't use Stackage versions of bower-json
+Bump dependency on bower-json
+Merge pull request #1958 from nwolverson/requirepath
+Add -r deprecation warning to psc-bundle
+Default require path to ../, warn from psc
+Merge pull request #1955 from nwolverson/suggest-hidingimport
+Expose hiding import suggestion in JSON
+Merge pull request #1749 from purescript/no-meet
+Merge master
+Merge pull request #1934 from purescript/202
+Merge pull request #1925 from bagl/fix-#1916
+Merge pull request #1951 from purescript/revert-1913-bugfix-1881
+Revert "Fix indentation bug #1881"
+Merge pull request #1949 from purescript/1889
+Merge pull request #1950 from purescript/trusty-travis
+Try Trusty dist for Travis
+Fix #1889, improve performance by avoiding whitespace operations on large strings
+Merge master
+Merge pull request #1918 from stevejb71/UpgradeOptParseApplicative
+Upgrade optparse-applicative to >= 0.12.1 for all executables.
+Merge pull request #1943 from kRITZCREEK/remove-superfluous-constraints
+Merge pull request #1938 from hdgarrood/drop-ghc-78
+Merge pull request #1942 from kRITZCREEK/psc-ide-cleanup
+removes superfluous constraints.
+lots of formatting.
+Use GHC 7.10.3 for compiling release binaries
+Remove support for stack LTS 3 and older
+Drop support for GHC 7.8 and older
+Merge master
+Merge pull request #1913 from DavidLindbom/bugfix-1881
+Merge pull request #1932 from kRITZCREEK/catch-eof-psc-ide
+Merge pull request #1931 from kRITZCREEK/psc-ide-help-cli
+Merge pull request #1917 from purescript/literal-refactor
+Update CONTRIBUTORS.md
+Use generic Literal in the AST
+Merge pull request #1933 from purescript/no-ghc-8
+Remove GHC 8 build for now
+catches EOF exceptions thrown in acceptCommand
+adds a --help command to the psc-ide executables
+Add missing newline
+Desugar operator section always to lambda
+Update MonadState example
+Basic context simplification
+Generalize types properly in MissingTypeDeclaration warnings
+Tests, Check all unknowns in unsolved constraints will be generalized
+Only generalize types for declarations without type annotations
+Infer types with class constraints (work in progress)
+Fix indentation bug #1881
+0.8.2
+Merge pull request #1910 from purescript/single-open-import-heuristic
+Merge pull request #1909 from purescript/1906-otherwise-guard
+Merge pull request #1908 from purescript/1905-fix-pretty-spin
+Fix detection of single open import
+Merge pull request #1907 from purescript/fix-winbuild
+Fix true not being treated as an infallible guard
+Fix pretty printer spinning
+Fix Windows build script
+Add stack bundler script
+Fix bundler to use stack
+Add back Prelude to cabal file
+v0.8.1.0
+Merge pull request #1903 from purescript/1869-single-open-import
+Merge pull request #1900 from nwolverson/sourcemap-output-fix
+Allow one open import without warning
+Update CONTRIBUTORS.md
+Fix source map path with default output dir
+Merge pull request #1899 from phadej/update-travis-2016-02-25
+Update travis 2016-02-25
+Merge pull request #1876 from kRITZCREEK/psc-ide-integration
+remove lts-2 build from travis
+Adds psc-ide to the project
+Merge pull request #1693 from nwolverson/sourcemap-pr
+Remove position from atoms (hanging error printer)
+Add Source Map support.
+Merge pull request #1890 from purescript/dctor-operator-aliases
+Operator aliases for data constructors
+Merge pull request #1870 from purescript/eq-deriving
+Update TestDocs.hs to fix tests build
+Merge pull request #1863 from hdgarrood/infer-docs-types-2
+Merge pull request #1884 from izgzhen/psci
+Merge pull request #1861 from purescript/1846
+refactor PSCi code
+Merge pull request #1879 from phadej/ghc-8.0
+Add GHC8.0.1 to build matrix
+Bump bounds
+Merge pull request #1873 from hdgarrood/fix-publish-tests
+More tests, handle Void types
+Add tests for records and nested types
+Fix redundant case warning in derived Ord instances
+More efficient derived instances for Ord
+Tidy up the test suites
+Deriving tests
+Ord deriving
+Merge pull request #1871 from kRITZCREEK/fix-stack-yaml-parse-error
+fix stack.yaml syntax error
+Eq deriving
+Merge branch 'master' into 1846
+Infer types in psc-{docs,publish}
+Deprecation warnings
+More tests
+Add Parens constructor back, ensure new operator sections are parenthesized
+Merge pull request #1865 from kRITZCREEK/hlint-refactorings
+Merge pull request #1864 from hdgarrood/stackage-https
+apply hlint suggestions
+Use stackage over HTTPS
+Fix #1846, start work on '_ - 1' syntax for sections
+Merge pull request #1847 from DavidLindbom/master
+Extended parser to accept unicode arrows
+Merge pull request #1852 from purescript/tco-inline-interaction-fix
+Workaround for TCO/composition inlining interaction
+Merge pull request #1854 from nicodelpiano/wrong_unreachable
+Solves #1853
+Merge pull request #1824 from soupi/master
+Merge pull request #1845 from purescript/otherwise
+adding qualified name lookup for psci :browse
+Support new location of `otherwise` in exhaustivity checker
+Merge pull request #1844 from purescript/fix-usedmodules-synonym-case
+Merge pull request #1832 from hdgarrood/reexports-docs-improvements
+Add missing cases to usedModules
+Merge pull request #1843 from purescript/1805-inliner-updates
+Updates & fixes for JS inliner
+Merge pull request #1841 from sharkdp/fix-1839
+Fix #1839, Renaming for nested constructor binders
+Add myself to the CONTRIBUTORS.md file.
+Merge pull request #1840 from hdgarrood/fix-generic-deriving
+Fix generic deriving bug with >1 type argument
+Merge pull request #1814 from damncabbage/topic/psc-docs-help-fix
+Merge pull request #1758 from cdepillabout/change-monad-logger-to-newtype
+Merge pull request #1777 from nwolverson/error-suggestions
+psc-docs: Fix crash for certain kinds of reexports
+Include module name in re-exports internal errors
+Expose error suggestions in JSON
+Merge pull request #1830 from purescript/1825
+Fix #1825, generate fresh binder names unless all names in case are equal
+Merge pull request #1829 from purescript/1794
+Merge pull request #1826 from hdgarrood/relax-documentation-comments
+Fix #1794, preserve external require expressions when minifying
+Merge pull request #1827 from anttih/fix-foreign-keyword
+Rename `foreign` argument to fix compiling issue
+Relax rules for docs comments, fixes #1820
+Merge pull request #1770 from hdgarrood/reexport-docs
+Add myself to the CONTRIBUTORS.md file.
+Merge pull request #1817 from purescript/import-linting
+Enhancements to import linting
+Quotes psc-docs examples to avoid some shells incorrectly globbing files.
+Merge pull request #1812 from purescript/1802
+Fix #1802, fix #1797, remove redundant hints and whitespace in errors
+Merge pull request #1811 from purescript/1796
+Merge pull request #1808 from purescript/1789-module-collision-rename-fix
+Merge pull request #1810 from purescript/1786-fix-unknownmodule-missing-pos
+Fix #1796, don't print to stderr when using json errors
+Add position info to UnknownModule error
+Don't apply module collision renaming to current module
+Disable psc-publish test suite temporarily
+Documentation for re-exports (fixes #1677)
+Add tests for Language.PureScript.Docs
+Log to stdout during psc-publish tests
+Make tests a bit easier to follow
+Return the imports/exports Env in parseAndDesugar
+Refactor parseAndDesugar
+Add desugarImports variant which produces an Env
+Merge pull request #1788 from purescript/1774-unused-warnings
+Better unused import warnings
+Merge pull request #1784 from purescript/remove-impl-ctor-warning
+Remove warning about implicitly importing data constructors
+Merge pull request #1782 from passy/psc-publish-https
+Allow https://github.com URLs for psc-publish
+Merge pull request #1780 from nwolverson/extra-unuseddctorimport
+Merge pull request #1773 from purescript/distinguish-propernames
+Merge pull request #1778 from nwolverson/remove-errorlink
+Fix #1779 spurious UnusedDctorImport
+Remove Data/Typeable deriving
+Remove errorlink in JSON to separate field
+Merge pull request #1752 from codedmart/1549
+Distinguish between the different ProperNames
+Merge pull request #1772 from purescript/warn-unspecified-constructors
+Warn about unspecified constructors in type imports
+allow git@github.com in extractGithub. Fixes #1549
+Merge pull request #1760 from hdgarrood/remove-parse-desugar-error
+Merge pull request #1761 from kRITZCREEK/patch-3
+uses the latest resolver when stack installing
+Remove ParseDesugarError data type
+Merge pull request #1759 from purescript/virtual-imports
+Fix warning about values missing from virtual modules
+Merge pull request #1750 from purescript/1722-alias-any-operator
+Change Logger datatype into a newtype.
+Allow operator aliases for imported values
+Merge pull request #1751 from purescript/1739-unnecessary-bind-warning
+Remove bind import linter special case
+Merge pull request #1748 from purescript/1721-implicit-qual-warning
+Remove meet judgment, #1719
+Merge pull request #1738 from purescript/1731-negative-bottom
+Don't warn about implicit qualified imports
+Merge pull request #1747 from purescript/1742-part-2
+Merge pull request #1745 from purescript/1732
+Merge pull request #1744 from purescript/1723
+Allow use of bottom integer
+Remove further remnants of `import M (..)`
+Merge pull request #1746 from purescript/1742
+Fix #1742, revert import (..) change
+Fix #1732, calculate type map separately for each error
+Fix #1723, revert parser change.
+Merge pull request #1737 from purescript/1717-renamer-primes
+Merge pull request #1730 from hdgarrood/rename-psci-main
+Merge pull request #1725 from hdgarrood/fix-psci-multiple-module-definitions
+Merge pull request #1727 from purescript/unicode
+Merge pull request #1648 from purescript/built-in-names
+Revise reserved & built in names list
+Remove special handling of primes from renamer
+Rename default 'main' in psci
+Remove a now-unnecessary line of code
+Fix the name of handleDeclaration
+Remove importedFilenames field of PSCiState
+Unicode operators
+Ensure no duplicates appear in the PSCiState
+Add release notes script
+Merge pull request #1710 from purescript/renamer-updates
+Merge pull request #1715 from purescript/eager-parsing
+Renamer updates
+Reduce backtracking in parser
+Merge pull request #1707 from purescript/1700
+Merge pull request #1696 from natefaubion/multi-case-expr
+Match multiple expressions in case statements
+Merge pull request #1704 from purescript/partial-constraint
+Add native Partial constraint
+Merge pull request #1709 from purescript/1645
+Merge pull request #1671 from purescript/json-errors
+Fix #1700, remove featureRemoved calls in parser (for 0.8)
+Fix #1645, implement new indentation rules for types
+Merge pull request #1691 from purescript/operator-aliases
+Test psc-publish as part of the main test suite
+Merge pull request #1708 from purescript/fix-unused-class-warning
+Merge pull request #1703 from purescript/1669-constraint-parens
+Fix #1523, add --json-errors flag.
+Fix incorrect unused class warning
+Introduce operator aliases
+Drop paren requirement for constraints
+Merge pull request #1688 from purescript/lazy-conflicts
+Error when re-exporting a pseudo module with conflicts
+Delay errors about scope conflicts until they are unavoidable
+Merge pull request #1685 from purescript/open-imports
+Merge pull request #1689 from passy/psc-publish-test
+Warn on unspecified imports
+Merge pull request #1684 from purescript/class-ref-keyword
+Improve deprecated syntax warning messages
+Fix psc-publish test
+Merge pull request #1674 from mgmeier/master
+added as a contributor
+Don't use show in PSCI showRef
+Add tests for new type & class ref syntax
+Introduce class keyword for refs, allow type refs without ()
+Merge pull request #1682 from nwolverson/ctags
+Merge pull request #1679 from purescript/warn-empty-hiding
+Merge pull request #1678 from purescript/qual-module-check
+Merge pull request #1676 from purescript/dupe-ref-warnings
+Show identifiers correctly in ctags
+Warn when import X hiding (..) imports nothing
+Remove unhelpful isExplicitQualModule check
+Warn on duplicate values in export lists
+Warn on duplicate values in import lists
+add comment
+fixes purescript/#1673
+Merge pull request #1668 from purescript/remove-elaborateImports
+Merge pull request #1666 from purescript/1662
+Remove unnecessary elaborateImports from Names
+Fix #1662, display extra type info in instance errors
+Merge pull request #1665 from purescript/1664
+Fix #1664, check kind before expanding wildcards.
+Merge pull request #1663 from purescript/js-shadowed-module-names
+Fix up shadowed module names in JS codegen
+Merge pull request #1660 from purescript/int-range
+Merge pull request #1659 from purescript/scope
+Check int values are within range in codegen
+Merge pull request #1658 from purescript/error-context
+Fix two cases where errors were missing context
+Merge pull request #1657 from purescript/warn-duplicate-imports
+Fix tests.
+Fix #1185, fix #1369, add everythingWithScope traversal to correct some scoping issues.
+Warn on duplicate imports
+Merge pull request #1656 from purescript/1111
+Add information about skolems to type errors
+Merge pull request #1655 from purescript/unused-classes
+Warn about unused class imports
+Merge pull request #1654 from purescript/1636
+Merge pull request #1653 from purescript/sort-rows
+Fix #1636, instantiate polytypes fully, even under constraints.
+Merge pull request #1646 from purescript/1479
+Sort rows in unification errors
+Merge pull request #1651 from purescript/1507-import-qualified-hiding
+Merge pull request #1650 from purescript/1594-missing-dctor-reexports
+Add deprecation warning for import qualified syntax
+Update CONTRIBUTORS.md
+Merge pull request #1649 from purescript/1595-instance-for-reexport-fix
+Allow import hiding with qualified imports
+Fix codegen error with instance for re-exported class
+Fix missing data constructors in re-exports
+Fix #1479, encode .js files as UTF8.
+Ignore md5 files in bundle dir
+Type.Proxy, not Types.Proxy
+-> 0.7.6
+Merge pull request #1574 from tfausak/patch-1
+Use Types.Proxy.Proxy instead of Data.Generic.Proxy
+Merge pull request #1635 from purescript/deriving-fixes
+Missed fromSpine
+Merge pull request #1641 from hdgarrood/only-warn-on-dirty-dry-run
+psc-publish: only warn on dirty working tree on dry runs
+Merge pull request #1600 from nwolverson/unused-imports-2
+Update README.md
+Use consistent badge image
+Add Gitter badge
+Merge master
+Update generic deriving for latest purescript-generics changes
+Merge pull request #1634 from purescript/1632
+Fix #1632, instantiate type variables in anyProxy calls in generic instances.
+Merge pull request #1631 from soupi/psci-browse
+adding more information to psci :browse command
+Merge pull request #1628 from hdgarrood/less-noisy-rendered-instances
+Merge pull request #1624 from purescript/1596
+Reduce noise in instance declarations
+Merge pull request #1627 from hdgarrood/psc-publish-error-reporting
+Better bower.json error reporting for psc-publish
+Remove useless constructor BowerJSONNameMissing
+Merge pull request #1626 from hdgarrood/psc-publish-message-spaces
+Fix missing spaces in psc-publish error message
+Don't warn unused data constructors when none imported
+Warn on unused data constructors
+Simplify warning on all explicit imports unused
+Also suppress import warnings for modules re-exported via qualified name
+Don't warn on re-exported modules
+Fix warnings for unqualified implicit imports
+GHC <= 7.10
+Fix #1596, don't show type checker warnings in the event of an error
+Merge pull request #1623 from michaelficarra/patch-1
+small optimisation in encodeChar
+Merge pull request #1622 from michaelficarra/unicode-supplementary-planes
+support escapes for characters outside of BMP (code points > 0xFFFF)
+Merge pull request #1621 from michaelficarra/GH-1602
+fixes #1602: escape sequences for characters with code point below 0x10
+Merge pull request #1618 from balajirrao/master
+Record constructor field puns, fix #921
+Merge pull request #1619 from purescript/1090
+Fix #1090, allow accessors in operator sections
+Merge pull request #1612 from phadej/refactors-2
+Apply few more automatic refactorings
+Merge pull request #1616 from purescript/1590
+Reformat files to unix line-endings
+Merge pull request #1617 from zudov/missing-space
+Missing space in an error message
+Fix #1590, limit depth of pretty-printed expressions
+Merge pull request #1614 from purescript/1335
+Merge pull request #1615 from purescript/1591
+Fix #1591, use the 'negate' in scope
+Add test case
+Fix #1335, track scoped type variables when skolemizing
+Merge pull request #1613 from purescript/1175
+Merge pull request #1601 from purescript/tc-refactor
+Fix #1175
+Merge pull request #1611 from phadej/refactors
+Apply few automatic refactorings
+Constraints
+Merge pull request #1606 from natefaubion/psc-bundle-require-path
+Fix redundant import
+Add --require-path options to psc-bundle
+Merge master
+Merge pull request #1608 from phadej/ghc-7.10.3
+Merge branch 'master' into tc-refactor
+Merge pull request #1610 from phadej/base-compat
+Use base-compat across package
+Use base-compat in psci
+Write license-generator in Haskell
+Add GHC 7.10.3 to build matrix
+Use base-compat in tests
+Merge pull request #1603 from purescript/fieldpuns
+Field puns, fix #921
+Merge pull request #1586 from purescript/1465
+Bump semigroups dependency
+New approach to unification
+Merge pull request #1593 from purescript/parallel-parse
+Merge pull request #1545 from nwolverson/unused-imports
+Type constructors mark their type used. Show operators properly
+Give warnings on unused imports (implicit and explicit)
+Parse modules in parallel
+-> 0.7.5.3
+Merge pull request #1587 from purescript/1578
+Fix < 7.10
+Fix #1578
+Pre-AMP fix
+Merge pull request #1581 from purescript/1072
+Merge pull request #1583 from purescript/1577
+Merge pull request #1584 from purescript/1582
+Fix #1465
+All you need is nub. Fix #1582
+Fix #1577, fix #1130
+Fix #1072
+-> 0.7.5.2
+Fix build for < GHC 7.10
+-> 0.7.5.1
+Merge pull request #1571 from purescript/1570
+Fix double-warning issue
+Fix build for GHC < 7.10
+Merge pull request #1572 from purescript/1297
+Fix tests
+Fix #1297, reduce memory usage from WriterT
+Fix #1570
+Merge pull request #1566 from purescript/1169
+Add failing test case for #1169
+Merge pull request #1567 from purescript/1315
+Merge pull request #1568 from purescript/1534-2
+Merge pull request #1565 from purescript/hints-after
+Merge pull request #1554 from purescript/1548
+Fix #1534 again
+Fix #1315
+Fix ExtraRecordField example
+Fix #1169
+Update MutRec.purs
+Display hints after main error, resolve #1563
+Merge pull request #1562 from purescript/1557
+Merge pull request #1556 from purescript/friendly
+Fix #1557
+Remove unused import
+Merge master
+Remove some 'the's
+Add internalError, make some of @garyb's suggested changes.
+Remove unused import
+Merge pull request #1555 from purescript/1534
+Four more
+Friendlier errors
+Remove unused imports
+Fix #1534
+Merge pull request #1553 from purescript/1551
+Try to fix #1548
+Merge pull request #1552 from purescript/1543
+Fix #1551
+Fix #1543
+Merge pull request #1547 from nwolverson/decomposing
+Grammar
+Merge pull request #1546 from trofi/master
+Language.PureScript.Externs: fix haddock markup
+-> 0.7.5
+Merge pull request #1542 from aspidites/fix-warnings
+Added a type signatue to main.
+Merge pull request #1529 from purescript/revert-1525-remove-type-export-check
+Add tests for the improved transitive export check
+Add export check for synonyms and types in dctors
+Add Stackage badges
+Merge pull request #1540 from purescript/1535
+Fix #1535
+Merge pull request #1539 from purescript/1476
+Fix #1476
+Merge pull request #1527 from purescript/1524
+Merge pull request #1528 from purescript/1071
+Merge pull request #1530 from 5outh/typed-binders
+Merge pull request #1532 from purescript/1451
+Merge pull request #1533 from purescript/881
+Fix #881, improve error for out-of-order declarations in instance
+Add some TODOs for polymorphic typed binders
+Merge pull request #1531 from zudov/stack-distribution
+Included some more files in the distribution
+Add missing cases
+Remove type annotation in pretty print + add exhaustivity checker case
+Don't deploy from coverage build
+Include stack files in the distribution
+Merge with master + fix error
+Merge branch 'master' into typed-binders
+Merge branch 'master' of https://github.com/purescript/purescript
+Fix a silly mistake
+Revert "Don't require that all types are exported"
+Kind check constraint contexts, fix #1071
+Merge pull request #1525 from purescript/remove-type-export-check
+Fix #1524, render kinds as single line strings.
+Don't require that all types are exported
+Add Typed Binders
+Merge pull request #1501 from purescript/tempbuild
+Merge master with feature branch
+Merge pull request #1514 from purescript/box-errors
+Merge pull request #1516 from purescript/hints
+Merge pull request #1518 from purescript/1261
+Recurse into case expressions when checking exhaustivity
+Merge pull request #1522 from kRITZCREEK/improve-install-instructions
+changes the recommended build tool to stack
+Merge pull request #1519 from purescript/1333
+Only warn on top-level declarations #1333
+Merge pull request #1520 from purescript/inferProperty
+Remove inferProperty judgment
+Warnings for missing top-level type declarations, fix #1333
+Fix #1261
+Change data structure for error message hints
+Merge master to feature branch
+Use boxes library to print types and values.
+Merge pull request #1503 from kRITZCREEK/cleanup-refactor
+refactoring and cleaning up
+Merge pull request #1504 from michaelficarra/GH-1502
+fixes #1502: make `qualified` keyword optional in qualified imports
+Merge synonyms2 and incremental branches into master
+Parallel builds
+Merge pull request #1487 from purescript/containsTypeSynonyms
+Merge pull request #1498 from senju/master
+Merge pull request #1473 from purescript/1469-2
+CONTRIBUTORS.md - Adding Senju.
+fixed #1496.
+Merge pull request #1494 from phadej/process-1.3
+Fix lts-2.22 travis job
+Bump stackage snapshots
+Bump process upper bound
+Fxi #1482
+Remove unused function arguments
+Fix warnings
+Add a warning, and a test.
+Expand type synonyms eagerly
+Merge pull request #1489 from zudov/psci-ctrl-d-exit
+Don't psci on Ctrl-C, just interrupt the current command
+Fix conflicts
+Begin work on decls
+Ghci-like handling of Ctrl-C, Ctrl-D in psci
+Merge pull request #1480 from purescript/externs-file
+Remove dodgy check rule
+Give names for all JSON fields
+CPP for GHC < 7.10
+Merge pull request #1484 from purescript/922-3
+Fix #922, take 3
+Merge pull request #1478 from phadej/aeson-0.10
+Fix type class issue with synonyms
+WIP: new externs file format
+Merge pull request #1483 from purescript/revert-1466-922
+Revert "Fix #922"
+Bump aeson upper bound to <0.11
+Restrict the number of binders when checking exhaustivity, fix #1469, fix #1288.
+Merge pull request #1467 from purescript/862
+Merge pull request #1466 from purescript/922
+Merge pull request #1468 from phadej/semigroups-0.17
+Merge pull request #1464 from purescript/typevar-warnings
+Bump semigroups upper bound to <0.18
+Fix some expected error messages in tests
+Fix #862
+Fix #922
+Improve context info for lint warnings
+Warn on unused type variable
+Warn on shadowed type var within a single type
+Merge pull request #1462 from purescript/1310
+Fix #1310
+Merge pull request #1461 from purescript/no-show
+Fix warning
+Only use Show for debugging.
+Merge pull request #1458 from purescript/1042
+Merge pull request #1457 from purescript/1372
+Fix #1042, better messages for ExpectedType errors.
+Merge pull request #1454 from purescript/friendly-errors
+Support constraints without forall
+s/redudant/unreachable
+Merge pull request #1455 from purescript/1374
+Merge pull request #1456 from zudov/bump-stackage
+Bump stackage resolvers
+Implement @hdgarrood's suggestion for psc-publish
+Merge pull request #1453 from purescript/1440
+Make some errors simpler. Fix #1387.
+Merge pull request #1450 from zudov/publish-utf8
+Oops, fix #1140, fix #1310
+Properly encode UTF-8 String into Bytestring
+Merge pull request #1436 from zudov/foreign-keyword
+Merge pull request #1437 from zudov/empty-case
+Do not allow empty case statement
+foreign -> foreign_
+-> 0.7.4.1
+Merge pull request #1431 from purescript/1426
+Update CONTRIBUTORS.md
+Add assertions
+Move more tests around
+Partial fix for 1426
+Merge pull request #1428 from purescript/1427-fix-composition-inline
+Fix function composition inlining
+Merge pull request #1420 from erdeszt/move-werror-to-travis-config
+Merge pull request #1423 from mjgpy3/1268_easier_include_ffi
+Merge pull request #1425 from purescript/preserve-export-info
+Preserve import/export info in externs files
+Update CONTRIBUTORS.md
+Update CONTRIBUTORS.md
+Remove redundant imports of <*>
+Fix import warnings in test suite
+Add -Werror to the travis build
+-> 0.7.4.0
+Merge pull request #1424 from mjgpy3/say_correct_level_in_link_text
+Merge pull request #1422 from purescript/1421-warning-locations
+Merge pull request #1418 from purescript/1244-reexports
+Merge pull request #1419 from epost/master
+In error/warning link text, correctly say "error" or "warning"
+Resolves #1268. JavaScript (FFI) files can be specified without `--ffi`.
+Improve warning error locations from typechecker
+Sort
+Update CONTRIBUTORS.md
+Link to Text.Parsec.Error.showErrorMessages from comment
+Remove Werror
+Format parse errors uniformly (#1098)
+Merge pull request #1417 from phadej/travis-ghc-7.10.2
+Add Applicative constraints for older GHCs
+Test for #1244
+Better re-export handling
+GHC 7.10.2 is whitelisted on Travis
+Merge pull request #1346 from erdeszt/enhance-core-tests
+Merge pull request #1402 from purescript/1401-windows-tests
+Update cabal file
+Fixes running tests on Windows
+Install bower locally
+Add force reinstall and recompile options
+Only install bower when it is not already installed
+Merge pull request #1412 from erdeszt/fix-failing-build
+Add #if guard for Control.Applicative
+Merge pull request #1411 from erdeszt/fix-warnings
+Merge pull request #1406 from purescript/421
+Merge pull request #1382 from phadej/test-random-order
+Merge master
+Unify LANGUAGE pragma layouts
+Add -Werror to all psc* projects
+Fix shadowing issue
+Fix shadowing of sequenceA
+Remove redundant import warnings for 7.10
+Merge pull request #1410 from purescript/1297-writer-leak
+Rename failing test
+Use strict writers to avoid leaking memory
+Add comment in .travis.yml
+Reuse sandbox in test-install.sh
+Run sdist tests
+Test sdist installation
+Tests could be run in random order
+Choose simplest superclass instance
+Add error for deep recursion in instance search, fix tests
+Fix #421, match type instance heads eagerly
+Merge pull request #1405 from zudov/bump-stack-resolver
+Update CONTRIBUTORS.md
+Bumped lts-3 resolver
+Update CONTRIBUTORS.md
+Merge pull request #1403 from purescript/386
+Merge pull request #1398 from purescript/1391-misleading-type-import
+Fix #386
+Remove unnecessary `return ()`
+Preserve existing error positions in withPosition
+Warn on misleading Type(..) imports
+Update CONTRIBUTORS.md
+Update CONTRIBUTORS.md
+Update CONTRIBUTORS.md
+Merge pull request #1399 from MichaelXavier/patch-1
+Add license statement to contributors.md
+Update CONTRIBUTORS.md
+Update CONTRIBUTORS.md
+Update CONTRIBUTORS.md
+Update CONTRIBUTORS.md
+Update CONTRIBUTORS.md
+Update CONTRIBUTORS.md
+Update CONTRIBUTORS.md
+Add links to GitHub pages
+Update CONTRIBUTORS.md
+Merge pull request #1395 from nicodelpiano/master
+Add three more contributors
+Add Robert Roland
+Merge pull request #1397 from michaelficarra/patch-3
+Add @michaelficarra to CONTRIBUTORS.md
+Update CONTRIBUTING.md
+Update CONTRIBUTORS.md
+Added an example of void generic deriving to `core-tests/tests/generic-deriving/Main.purs`.
+Create CONTRIBUTORS.md
+Pass the length of arguments in as a function argument.
+Merge pull request #1393 from purescript/1232-unknown-impexp-errors
+Merge pull request #1389 from purescript/817-1112-multiple-imports
+Allow duplicate imports
+Improve import/export errors for unknown values
+Merge multiple imports of the same module
+Merge pull request #1388 from purescript/1024-module-redefined-error
+Include position info in RedefinedModule errors
+Merge pull request #1381 from hdgarrood/update-install
+Update INSTALL.md regarding prebuilt binaries
+Remove unused import
+Merge pull request #1378 from zudov/stack-lts-3
+Merge pull request #1365 from phadej/cabal-jobs
+-> 0.7.3
+Updated travis.yaml
+Merge pull request #1373 from purescript/standalonederiving
+Merge pull request #1376 from purescript/disallow-orphan-instances
+Changed naming scheme. Added stack-nightly.yaml
+Use a sum type instead of Maybe for instance bodies
+Support deriving with type arguments
+Derive not deriving
+Added stack config for building with 7.10
+Disallow orphan instances
+Fix module name
+Standalone deriving, fix #1371
+Use shields.io for Hackage
+Merge pull request #1364 from mjgpy3/1176_warn_about_non_existent_files
+Resolves #1176. Warn when psc is given globs that match no files.
+Merge pull request #1363 from purescript/generics-2
+Merge pull request #1366 from lukerandall/bump-aeson-upper-bounds
+Bump upper bounds on aeson
+Simplify GHC9221 workaround
+Test Data.Generic in core-tests instead
+Merge pull request #1358 from purescript/1246
+Merge pull request #1138 from gbaz/deriving-generic-patch
+Merge branch 'master' into 1246
+Merge pull request #1361 from purescript/no-travis-caching
+Cache different sandboxes
+pattern synonyms --> pattern guards, also fix some missing signature warnings
+add link to license
+tweak binders, always use fixed Data.Generic module
+Update README.md
+Fix #1246
+cleanup PR as per comments. fixing the module name outstanding.
+Merge branch 'master' of github.com:purescript/purescript into deriving-generic-patch
+Merge pull request #1356 from purescript/lint
+Merge pull request #1355 from phadej/travis-stackage
+Don't lint modules if they won't be rebuilt, close #1328
+Merge pull request #1354 from purescript/1264
+Merge pull request #1353 from purescript/1321
+Add travis builds against stackage snapshots
+Update stack,yaml resolver
+One more, reduce code duplication
+More minor tidying
+Add clarifying comment
+Minor tweak to MakeActions
+Might as well be symmetric
+Fix #1321
+Merge pull request #1345 from erdeszt/use-defaultoptions-in-psci
+Use Options.defaultOptions in PSCi
+Merge pull request #1266 from michaelficarra/patch-3
+Merge pull request #1344 from hdgarrood/update-bundle-readme
+Update binary bundle README
+Merge pull request #1343 from hdgarrood/install-info
+Add INSTALL.md to binary bundles
+Add INSTALL.md for installation troubleshooting
+Merge pull request #1342 from phadej/faster-travis-builds
+Add comments to ghc options
+Tune GHC parameters
+Update CONTRIBUTING.md
+Merge pull request #1339 from phadej/issue-1336
+Merge pull request #1340 from purescript/1260
+Add tests for infinite things
+Fix #1260
+Fix #1336 and #1334
+Merge pull request #1332 from purescript/bump-0.7.2
+Bump to 0.7.2
+Merge pull request #1331 from purescript/1330-int-inlining
+Merge pull request #1329 from hdgarrood/psc-publish-windows
+Merge pull request #1320 from hdgarrood/psc-publish-dotcmd
+Fix another "path separators on windows" issue
+Fix inlining for Int operations
+Fix psc-publish producing no modules on Windows
+Only try "bower.cmd" on Windows
+psc-publish: Try "bower.cmd" if "bower" is not found
+Merge pull request #1323 from hdgarrood/should-fail-with
+Merge pull request #1327 from epost/emacs-friendlier-errors
+Fix last two tests
+Add a bunch more shouldFailWith declarations
+Include error code when shouldFailWith is missing
+Make error list heading emacs-friendly
+Merge pull request #1325 from purescript/1276
+Run all tests in one go and report all failures
+Add a bunch more shouldFailWith declarations
+Remove extraneous test example
+Print make warnings to stderr
+Fix #1276
+Merge pull request #1324 from purescript/1312-boolean-optimizations
+Fix optimizer for booleanAlgebraBoolean
+Check the right kind of error is thrown in tests
+Merge pull request #1316 from hdgarrood/update-test-support
+Merge pull request #1319 from hdgarrood/publish-ensure-clean-tree
+Check for a clean working tree in psc-publish
+Use purescript-assert 0.1.1
+Ensure the 'flattened' directory exists
+Install test support code automatically
+Fix extra-source-files paths of test support files
+Ensure type class members can be completed in psci
+Fix psci tests
+Update support module list
+Update test suite
+Merge pull request #1314 from nicodelpiano/redundancy3.1
+Redundancy checking. Throws the overlapping cases in pattern matching definitions.
+Merge pull request #1311 from mjgpy3/1235_kind_query_fix
+Resolves #1235. Data declared in PSCI session can be queried for kind.
+Merge pull request #1303 from nicodelpiano/master
+Merge pull request #1308 from hdgarrood/publish-dry-run
+Add --dry-run option to psc-publish
+Line numbers for `shadowedName` warnings.
+Merge pull request #1305 from purescript/fix-nix
+Merge pull request #1304 from hdgarrood/publish-to-library
+Merge pull request #1307 from hdgarrood/bundle-error-reporting
+psc-bundle: include detail from language-javascript
+Include a module identifier in psc-bundle errors
+s/psc-make/psc
+Remove trailing whitespace
+Include test files for nix package fix
+Explicit export lists
+Move psc-publish code into a library
+Merge pull request #1300 from purescript/publish-help
+Merge pull request #1299 from nicodelpiano/master
+Add --version and --help options to psc-publish
+Do not show file name in pattern match errors. Show the module name instead.
+Merge pull request #1294 from mjgpy3/psci_config_in_home
+Update CONTRIBUTING.md
+Resolves #883. Look in home directory (after pwd) for '.psci'
+Merge pull request #1270 from hdgarrood/new-travis
+Merge pull request #1284 from mjgpy3/1272_reduce_false_positives_comp_sugg
+Merge pull request #1282 from nicodelpiano/master
+Only make composition suggestion on `object . app function`
+Print five exhaustivity checking warnings for each definition instead the whole set.
+Reworking the Travis script
+Merge pull request #1271 from purescript/improve-error-positions
+Improve error positions from typechecker
+fixes #1265: escape all but printable ASCII (except space) in strings
+Merge pull request #1262 from wuzzeb/master
+Fix the haddock for the Language.PureScript.Bundle module
+-> v0.7.1
+Merge pull request #1256 from hdgarrood/fix-psc-publish-tests
+Merge pull request #1218 from nicodelpiano/master
+Fix psc-publish tests
+First version of the Exhaustivity Checker
+Merge pull request #1245 from wuzzeb/master
+Merge pull request #1252 from mjgpy3/1250_say_warning_when_warning
+Resolves #1250. Differentiate errors v. warnings in their messages
+Merge pull request #1248 from wuzzeb/pretty-array-literals
+Pretty print array literals without newlines
+Change psci to use the common Make support
+Move the bulk of bundling code into the library
+Merge pull request #1231 from hdgarrood/travis-ghc-7.6
+Merge pull request #1236 from hdgarrood/refactor-parse-and-desugar
+Merge pull request #1237 from hdgarrood/handle-bower-link
+Merge pull request #1238 from hdgarrood/psc-publish-add-version
+Add the compiler version to psc-publish output
+Handle 'bower link' properly in psc-publish
+Refactor parseAndDesugar
+Move the make code from psc into the purescript library
+Don't install hpc-coveralls for non-coverage builds
+Might as well add GHC 7.10.1 while we're at it
+Don't do more Travis builds than necessary
+Run Travis build on GHC 7.6
+Merge pull request #1226 from purescript/binders
+Simplify pretty printer for binders
+Merge pull request #1221 from hdgarrood/fix-resolved-dependencies
+Use sndM instead of traverse, fix #1211
+Merge pull request #1220 from hdgarrood/add-display-package-error
+Fix transitive dependencies not being included
+Add displayPackageError
+Fix default-language
+Fix core-tests
+Update purescript.cabal
+Allow empty --module options in psc-bundle
+Fix error message
+Globs for psc-bundle
+SVG badge for Travis
+Use SVG badge for Coveralls
+Merge pull request #1208 from purescript/sq-export
+Support exports using square brackets in FFI modules under psc-bundle
+Merge pull request #1202 from mjgpy3/errors_without_backticks
+Remove backticks from error messages.
+Merge pull request #1172 from hdgarrood/warn-unacceptable-version
+Merge pull request #1205 from purescript/bundler
+Merge pull request #1203 from hdgarrood/hoogle-additions
+Use transformers-compat imports
+Install alex and happy during CI build
+Add version to psc-bundle output, add -o option
+Add psc-bundle
+Rename psc-make to psc
+Merge pull request #1200 from purescript/psc-begone
+Write errors and warnings to stderr
+Merge pull request #1184 from ilexlabs/module-exports
+Reinstate test suite
+Support for entire-module (re-)exports
+Extract functions for rendering constraints
+Add ability to omit pretty printing of objects
+Remove psc, DCE module, simplify options.
+Merge pull request #1199 from hdgarrood/fix-where
+docs: Fix display of 'where' keyword after typeclasses
+Merge pull request #1198 from hdgarrood/delay-docs-rendering
+Merge pull request #1187 from mjgpy3/1169
+docs: Separate conversion and rendering stages
+Merge pull request #1197 from etrepum/stack-support
+add support for building with stack
+Merge pull request #1193 from wuzzeb/master
+Small improvements to the pretty printer
+Resolves #1169. Throw constructor arity error when case omits params
+Preserve exports list in externs files
+Merge pull request #1167 from purescript/1166
+Merge pull request #1180 from purescript/1174
+Fix #1174, check foreign files for staleness
+Merge pull request #1168 from hdgarrood/extra-info-for-hoogle
+Merge pull request #1178 from puffnfresh/perf/dictionary-lookup
+Index type-class dictionaries by class names
+Remove TODOs
+Merge pull request #1173 from puffnfresh/perf/dictionary-lookup
+Improve addTypeClassDictionaries perf
+Add psc-publish warning for unacceptable versions
+Fix tests
+Use a Map to lookup type-class dicts in entails
+Remove unnecessary TODO
+Include more rendered code in child declarations
+Fix 1166, Use bind instead of >>= in do desugaring
+Merge pull request #1164 from purescript/require-path-prefix
+Merge pull request #1163 from mjgpy3/1142_extra_type_class_member_error
+Allow a prefix to be specified for require() paths
+Clarify ExtraneousClassMember vs. MissingClassMember
+Merge pull request #1162 from puffnfresh/perf/replaceAllTypeSynonyms
+Optimise replaceAllTypeSynonyms
+Merge pull request #1161 from puffnfresh/perf/entails-filtermodule
+Remove poor performing entails.filterModule
+Merge pull request #1155 from purescript/glob
+Merge pull request #1160 from puffnfresh/perf/dictionary-lookup
+Improve performance of type-class dict lookup
+Globs for all
+Add globbing to psci
+Merge pull request #1157 from puffnfresh/bug/ghc7101-isop
+Fix Docs Render compilation with GHC 7.10.1
+Fix #1152, support globs in file paths
+Merge pull request #1116 from hdgarrood/infix-docs
+Collect fixity information in docs
+Another missing constraint for 7.8
+use new NameKind constructor, add some missing Functor constraints
+Merge branch 'master' of github.com:purescript/purescript into deriving-generic-patch
+use 7.8 compat error import
+Update winbuild for 1151
+Fix #1151, add psc-publish to binary bundles
+Fix Console check in PSCi when using .psci file
+Fix Console module reference
+Merge pull request #1148 from purescript/psci-0.7
+Merge pull request #1147 from purescript/no-fromNumber-optimize
+Fix #1146, update psci for 0.7 module changes, and include :foreign directive
+Don't inline fromNumber
+Merge pull request #1140 from purescript/warn-on-class-operator
+Merge pull request #1145 from purescript/comments-before-instances
+Show comments before instances in generated docs
+Merge pull request #1144 from sinelaw/master
+fix bug in Prelude.js: ordArrayImpl
+Merge pull request #1143 from andyarvanitis/test-prelude-name-change
+Fix psci tests after test Prelude.purs filename case change
+Warn about declaring operators in classes
+Generic Deriving
+Merge pull request #1095 from purescript/external-ffi-files
+Merge pull request #1137 from purescript/no-implicit-prelude
+Remove implicit Prelude import
+Use transformers-compact
+Merge master and fix psci-tests
+Fix tests
+Pass foreigns map to buildMakeActions in PSCi
+Merge pull request #1133 from purescript/external-ffi-2
+Merge pull request #1129 from hdgarrood/add-tested-with
+Attempt to get psci working agian
+Add tested-with to Cabal file (refs #1121)
+Merge pull request #1127 from kRITZCREEK/master
+rejects numeric literals with leading zeros during parsing
+Merge pull request #1114 from mjgpy3/1097_less_verbose_compile_errors
+Errors for multiple module FFI implementations
+Merge pull request #1118 from hdgarrood/psc-publish-warnings
+Use real errors rather than `error`
+Make PSCi work again
+Comments, type synonyms for better documentation
+Use a record for Make actions
+Copy foreigns during psc-make and use require
+Use real filePathMap
+Add missing case
+Move codegen out of make
+Move FFI JS parsing for psc/psc-make sharing
+Support multiple parse errors
+Check for missing or unnecessary foreign modules
+Include foreign JS in psc output
+Read foreign values from $foreign
+Simplify representation of foreign declarations
+Parse foreign files for `// module X.Y.Z` comment
+Move JS codegen for compile into psc
+Merge pull request #1117 from purescript/write-multiple-doc-files
+Allow psc-docs to write multiple modules to a file
+Don't print "Warnings:" unless there are warnings
+Resolves #1097. "Reading ..." error output is only shown when passed flag.
+Merge pull request #1109 from hdgarrood/psc-docs-parent-dirs
+psc-docs: Create parent directories if missing.
+Merge pull request #1108 from hdgarrood/docs-add-version-tag
+Add versionTag to psc-publish output
+Merge pull request #1106 from hdgarrood/fix-license
+Fix #1104
+Merge pull request #1105 from mjgpy3/1088_import_module_name
+Correct ConflictingImport error, add suggestion. Resolves #1088.
+Merge pull request #1103 from nicodelpiano/master
+Modified the TypeChecker monad for supporting warnings. * Wildcard types are now detected as warnings * Added some manual tests
+Merge pull request #1102 from hdgarrood/pursuit2
+Add instances for NotYetKnown
+Merge pull request #1067 from hdgarrood/pursuit2
+Update LICENSE + automatic generation
+Various changes to Docs for Pursuit
+desugar imports in psc-docs
+Move parseAndDesugar into the library
+Add new executable psc-publish
+make `exportedDeclarations` filter everything
+Merge pull request #1096 from mjgpy3/func_comp_error_suggestion_squashed
+Add suggestion framework with "Did you mean composition" example
+Initial work on integration of psc-pages
+Merge pull request #1083 from purescript/arrays
+Include position info in errors
+Merge pull request #1082 from purescript/errors
+Remove array type notation and cons binders
+Tidying, add kind traversal
+Nicer errors for skolemized types
+Merge pull request #1077 from balajirrao/friendly-unknowns
+Merge pull request #1080 from purescript/unsafeIndex
+Move to Data.Array.Unsafe
+Simplify unification variables in error messages
+Merge pull request #1065 from purescript/int-literals
+Tests
+Char literals
+Merge pull request #1064 from purescript/psci-console
+Merge pull request #1079 from puffnfresh/feature/pattern-match-errors
+Add source position info to match errors
+Use isPrefixOf
+Merge pull request #1070 from puffnfresh/optimisation/inline-semigroupoid-arr
+Merge pull request #1044 from puffnfresh/feature/pattern-match-errors
+Support Eff actions in PSCi. Improve error messages. Fix #1062
+Enable core-tests again
+Remove inlineAppliedVars
+Fix GHC 7.8 compilation with composition changes
+Combine function composition optimisations
+Add inlining of semigroupoidArr composition
+Add inlineAppliedVars optimisation
+Make untiFixedPoint work in a Monad
+Add everywhereOnJSTopDownM
+Int literals #1061
+Use Console module in PSCi
+Remove prelude.purs from extra-source-files
+Fix psci-tests, resolve #1060
+Disable core-tests for now
+Add new prelude libraries to test-everything script
+Merge pull request #1056 from puffnfresh/optimisation/elim-function-semigroupoid
+Merge pull request #1058 from purescript/0.7-dev
+Add a snapshot of the Prelude for running tests
+Add warning for no prelude
+-> 0.7.0.0
+Optimise (f <<< g $ x) as (f (g x))
+Merge pull request #1052 from hdgarrood/0.7-dev
+Merge remote-tracking branch 'upstream/master' into 0.7-dev
+Merge pull request #1050 from hdgarrood/check-sdist
+Merge pull request #1048 from hdgarrood/transformers-compat
+Check source distributions during Travis builds
+Merge pull request #1049 from purescript/0.6.9.4
+0.6.9.4
+Fix verbose/comment flags
+Fix #1008
+Merge pull request #1047 from hdgarrood/fix-warning
+Relax the lower bound on transformers
+Fix shadowing warning
+Constructor names in pattern match errors
+Remove Prelude #1040
+Merge branch 'warnings' into 0.7-dev
+Merge branch '438' into 0.7-dev
+Merge pull request #1037 from hdgarrood/srclocs-show
+Better Show instance for SourcePos/SourceSpan
+Merge pull request #1032 from purescript/integer-clamping
+Fix #438 and #979
+Ensure all integer ops are in the Int32 range
+Merge pull request #1031 from purescript/extra-instances
+Extra instances for Ordering and Unit
+Merge pull request #1029 from purescript/integer-division
+Inline integer divisions
+Add warnings and linter module
+Merge pull request #1025 from purescript/integers
+Inline native int and bitwise operators
+Merge pull request #1018 from purescript/prelude-again
+Further update prelude docs, remove (%)
+Merge pull request #1020 from purescript/968
+Fix #968
+Merge pull request #1017 from purescript/remove-bits
+Remove `Bits`
+Merge pull request #1016 from purescript/prelude
+Organise prelude, add Unit instances
+Merge pull request #1014 from purescript/1012
+Fix #1012
+Merge pull request #1001 from purescript/boolean-algebra
+Break up `BoolLike`
+Merge pull request #1009 from purescript/1008
+Comments never hurt
+Fix #1008
+Merge pull request #1002 from purescript/365
+Cover failing case in BindingGroups
+Fix #365
+Merge pull request #999 from purescript/error-tidying
+Make tests work again
+Tidy up MonadError code a bit more
+Merge pull request #998 from balajirrao/master
+Remove duplicates from 'overlapping instances' error report
+Merge pull request #996 from purescript/981
+Merge pull request #962 from purescript/rebindable-do
+Fix #981
+Merge pull request #992 from purescript/psc-make-options
+Fix verbose/comment flags
+Merge pull request #989 from purescript/readme
+Add stackoverflow link
+Revise readme
+Remove old release files
+Merge pull request #987 from hdgarrood/hash-docs
+Fix mistake in (#) documentation, thanks @jacereda
+Merge pull request #986 from hdgarrood/psci-help
+Link to wiki for further information
+Better psci help
+Merge pull request #985 from hdgarrood/exported-dctors
+Provide more information in `exportedDctors`
+Merge pull request #978 from mrhania/flexible-row-syntax
+Merge pull request #967 from hdgarrood/psci-tests
+Create simple failing test cases for row constructors
+Add some more sophisticated cases to row constructors test suite
+Make row parser accept any type after extension operator
+big psci overhaul: refactoring, completion, tests
+-> 0.6.9.3
+Merge pull request #980 from hdgarrood/master
+Fix psc-docs' other-modules in purescript.cabal
+-> 0.6.9.2
+-> 0.6.9.1
+Add test case covering new row syntax
+Make row syntax more flexible
+Merge pull request #976 from hdgarrood/fix-build-failure
+Add missing module 'Directive' to other-modules
+-> 0.6.9
+Merge pull request #958 from purescript/js-op-precedence
+Additional tests
+Merge pull request #969 from purescript/hide-refeq
+Don't export refEq and refIneq
+Another exampleg
+Rebindable do notation
+Merge pull request #956 from hdgarrood/psci-imports
+Merge pull request #960 from andyarvanitis/preserve_names
+Changes to binding name preservation improvements based on pull req feedback
+Use precedence groupings
+Add comment explaining ImportedModule
+Allow more declarations
+Improve names for ImportDeclarationType constructors
+Preserve binding names a bit better in functions
+Add `not` precedence test
+Fix JS operator precedence
+Remove 'import' as a directive to match ghci
+First stab at better imports in psci, #753
+Merge pull request #955 from mrhania/psci-commands-overhaul
+Fix typo in one of the Haddock annotations
+Fix bug with incorrect trimming of directive arguments
+Fix bug with show directive not being correctly completed
+Fix command completion to correctly expand directives
+Make directive parser recognize only unambiguous commands
+Refactor main modules to use new directive utilities
+Refactor PSCI parser module to use new directive utilities
+Create utility module for special commands
+Adapt PSCI command parser to support non-abbreviated directives
+Merge pull request #951 from purescript/constrained-typedval-fix
+Fix typechecking of constrained type values
+Fix prettyprinting of dictionaries
+Merge pull request #949 from hdgarrood/hash-docs
+update prelude docs for ($) and (#)
+Update markdown docs for (#)
+Merge pull request #948 from hdgarrood/hash-docs
+fix docs for (#)
+Merge pull request #946 from purescript/test-everything
+Build core libraries during CI build, fix #737.
+Merge pull request #945 from purescript/comments
+Merge pull request #943 from purescript/942
+Move test to manual directory
+Fix -c flag
+Fix #942
+Merge pull request #936 from hdgarrood/fix-functor-laws
+Fix functor law in prelude documentation
+Merge pull request #933 from purescript/eff-docs
+Make 'compare on' example idiomatic
+Fix typo
+Fix typo
+Document the remaining Prelude modules, fix #852
+Merge pull request #932 from purescript/prelude-docs
+Remove 'forall's in laws, document 'cons'.
+Prelude documentation
+Merge pull request #926 from hdgarrood/expose-version
+Expose version at runtime
+Merge pull request #925 from pseudonom/patch-1
+Specified identity elements in semiring description
+Make --node-opts optional
+Merge pull request #924 from purescript/905
+Merge pull request #923 from purescript/js-codegen-where
+Use boxes library for printing errors, fixes #905
+Restructure code with where clause
+Typo - fix #918
+Merge pull request #915 from purescript/prelude-comments
+Style tweaks and a few more comments
+Merge pull request #914 from jacereda/psc-docs-tags
+Merge pull request #913 from japesinator/basic_docs
+reformatted
+made it valid purescript
+Support ctags/etags generation
+capitalization
+fixed indentation and two examples
+made some corrections
+build docs
+docs for the doc god
+Merge pull request #911 from purescript/docs-space-tweak
+Skip empty module comments
+Merge pull request #910 from japesinator/rules
+missed one
+rebuilt docs
+capitalization
+updated docs
+generally edited and revised
+Added rules to the Functor, Apply, Applicative, Bind, and Monad classes, partially addressing #852
+Merge pull request #906 from purescript/745
+Added rules to the Semigroupoid and Category classes, partially addressing #852
+Print error in failing tests to detect failing test coverage
+Merge pull request #885 from pseudonom/patch-1
+Use HTTPS for error link
+Tidy up position info in errors
+Fix typo in Haddocks
+Link to wiki in error messages #703
+Fix #745
+Typechecker error messages
+More progress on error messages
+Merge pull request #903 from purescript/886
+Merge pull request #904 from joneshf/master
+Fix #902.
+Fix #886
+A bit more progress on errors
+A start on #745 - a type for error messages
+Merge pull request #901 from joneshf/master
+Add comments to `Module`.
+Merge pull request #898 from purescript/supply
+Merge pull request #899 from MichaelXavier/psci-node-flags
+Remove some unneeded extensions
+Merge remote-tracking branch 'refs/remotes/upstream/master' into psci-node-flags
+Use MonadSupply in code gen
+Drop traceShow
+Extract MonadSupply class and mtl-ify the Sugar modules
+-> 0.6.8
+Merge pull request #897 from purescript/docs-output-tweaks
+Remove erroneous MonadPlus instance after move to ExceptT.
+Drop non-pipe comments from the output
+Flip comment/decl, add fenced blocks for decl
+Merge remote-tracking branch 'hdgarrood/update-deps'
+Remove hierarchy options
+Render without sections
+Don't sort alphabetically
+Use import lists for Control.Monad{.Except,}
+Re-enable deprecation warnings
+Fix warnings in Control.Monad.Unify
+Remove all use of the Error typeclass (from mtl)
+Use local Control.Monad.Unify
+Add Control.Monad.Unify from monad-unify
+Use Control.Monad.{Error => Except} where possible
+Switch to ExceptT and transformers/mtl 0.4.*
+Merge pull request #882 from purescript/709
+Added semigroupOrdering instance
+Make --single-line-mode the default behavior in psci
+Merge pull request #880 from purescript/879
+Support declarations split over multiple commands in psci #879
+Merge pull request #877 from purescript/corefn-class-repr
+Remove unnecessary arguments
+Use where to reduce arg passing
+Merge remote-tracking branch 'origin/master' into corefn-class-repr
+Add TCD accessor value
+Merge pull request #869 from berewt/master
+Add a --comments option
+Merge pull request #874 from purescript/modulosemiring
+Alter `ModuloSemiring` case
+Relax `ModuloRing` to `ModuloSemiRing`
+Update class hierarchy diagram
+Merge pull request #872 from purescript/num
+Update docs
+Fix tests with shadowing names
+Update rule for `%`
+Add `ModuloRing`
+Inline `one` and `zero` for numbers
+Update optimizer rules
+Add new prelude constants
+Update prelude classes
+-> 0.6.7.1
+Merge pull request #871 from purescript/870
+Fix #870
+-> 0.6.7
+Merge pull request #866 from purescript/scoped-type-vars
+Another test
+Fix up some remaining issues with scoped type variables.
+Scoped type variables #347
+Merge pull request #863 from purescript/642
+Fix typo
+Another test
+D'oh.
+Allow unknowns to unify with types in instance heads.
+Merge pull request #860 from purescript/782
+Prototype of a rows in instance contexts, based on @apsk's work.
+Better let bindings in psci, fix #782
+Merge pull request #857 from purescript/796
+Preserve newlines in embedded comments
+A start on #852
+Merge pull request #858 from purescript/802
+Update Prelude doc
+Reformat psc-docs output slightly, and embed markdown comments.
+Merge pull request #856 from purescript/815
+Fix #796. Rebuild modules before each command is executed.
+Fix #815
+Merge pull request #855 from purescript/reserved-propername-escaping
+Escape built-in JS proper names
+Bump version
+Merge pull request #853 from purescript/object-getter-underscores
+Merge pull request #854 from michaelficarra/GH-851
+fixes #851: terminate parser errors with a newline
+Underscores in the object position for updaters
+Underscore syntax for object getters
+Merge pull request #850 from purescript/839
+Rename hierarchy to psc-hierarchy, since it gets put in /usr/local/bin by the .pkg bundle.
+Fix some parser and pretty printer issues related to extended infix expr changes.
+Extended infix operators
+Merge pull request #848 from purescript/795
+Bump version
+Fix #795
+Merge pull request #847 from purescript/supply-object-wildcards
+Don't scrimp on the other traversals either
+Merge branch 'master' into supply-object-wildcards
+Don't scrimp on the traversals
+Use supply to generate wildcard argument names
+More failing tests
+Merge pull request #846 from purescript/operator-sections
+Add failing test
+Use Supply to generate arg name for swap lambda
+Operator section pretty printing
+Fix parse precedence to allow negate
+Operator sections
+Operator sections test
+Merge pull request #845 from purescript/object-syntax
+Pretty printing cases
+Getter composition test case
+Section-style getter syntax
+Object updaters
+Object getters
+Use `elem` rather than `any`
+Merge pull request #843 from purescript/name-errors
+Merge pull request #844 from purescript/extended-object-literals
+Add ObjectConstructor traversal case
+Fix type wildcards
+Fix cabal file and add test/example
+Object wildcards
+Lex underscores explicitly
+Disallow class/type or class/dctor name overlaps
+Add position info to duplicate def errors
+Improve error message for duplicate types/dctors
+Merge pull request #841 from paulyoung/fix-options-psc-make
+Fix option flags in psc-make.
+Bump version to 0.6.4.1
+Merge pull request #838 from purescript/824
+Merge pull request #834 from purescript/812
+Merge pull request #835 from purescript/810
+Merge pull request #836 from purescript/816
+Fix #824
+Fix #816
+Fix #810 and #814: don't infer polymorphic types for data constructors.
+Fix #812
+Reduce duplicate errors
+Merge pull request #829 from davidchambers/whitespace
+trim trailing whitespace
+Merge pull request #809 from davidchambers/triple-quotes
+Fix generated fields arity
+Use field names in binders
+Add field names to environment entries for dctors
+Add named fields to data constructor representation
+Upper bound for utf8-string
+Remove broken test
+Merge pull request #826 from aspidites/update-utf8-string
+Bumped utf8-string version and updated code accordingly.
+Add missing comment
+Merge pull request #821 from purescript/820
+Fix #820
+Add Google group link
+Merge pull request #811 from philopon/fix/#807
+fix on (negate $ negate a)
+insert space of negate only when apply to negative value
+fixed #807
+use triple-quoted strings to avoid backslashes
+Merge pull request #808 from davidchambers/file-extension
+update file extension
+Merge pull request #770 from purescript/769
+Add Pursuit to README
+Merge pull request #804 from sztupi/fix-paren-expressions
+fixing lost parens
+Bump version to 0.6.3
+Merge 518 branch
+Merge pull request #801 from vkorablin/completion
+PSCI: unwrap data binding groups during completion
+Move comments module out
+Merge pull request #800 from vkorablin/completion
+More completion fixes and improvements for PSCI.
+Merge pull request #799 from purescript/whitespace
+Minor refactoring of completion context mechanism.
+Improve whitespace parser
+Render comments in markdown docs, and generated JS and externs
+Initial work on #518
+Call the flag node-opts
+Use a --node-flags flag instead
+Add node flags to psci
+Merge pull request #792 from RossMeikleham/master
+Added parsing check for wildcard type when parsing row endings.
+Merge pull request #790 from purescript/completion
+Merge pull request #791 from vkorablin/master
+Auto complete names of foreign imports
+Fix `:s` appearing twice in auto-completion.
+Merge pull request #789 from vkorablin/master
+Better auto-completion in psci.
+Merge pull request #787 from purescript/dce-binders
+Check binders during DCE
+Merge pull request #785 from dylex/master
+Lift restriction on underscores in unames
+Merge pull request #784 from dylex/master
+Import void from Control.Monad for backwards compatibility
+Merge pull request #779 from purescript/lexer3
+Simplify parsing of commands in psci. Correct some indentation issues.
+Merge @garyb's core functional AST changes, fixes #710
+Fix an issue with positioned comments
+Fix some parsing issues related to underscores
+Isolate the lexer changes
+Merge pull request #778 from hdgarrood/export-helpers
+fix a compile error
+only use exported declarations in psc-docs
+Export functions for extracting exported declarations
+Update Prelude documentation
+Merge pull request #773 from leighman/760
+Fix #760: Allow ':' in place of '=' in record match
+Remove Data.Eq from Prelude
+Merge pull request #762 from purescript/759
+Merge pull request #763 from purescript/750
+Fix #750
+Make example throw
+Fix #759
+Merge pull request #741 from KMahoney/pure-run-st
+provide Control.Monad.ST.pureST
+Merge pull request #739 from dylex/master
+Refine optparse-applicative dependency version
+Revert @dylex's binding group change - was breaking strongcheck. Third time lucky ...
+Default value for output flag
+Fix verbose-errors flag
+Bump version
+Merge pull request #733 from purescript/730-1
+Add example, update code based on @dylex's suggestion
+Fix #738
+Merge pull request #736 from anthoq88/master
+Move from cmdtheline to optparse-applicative #690
+Merge pull request #735 from dylex/everywhere-once
+Merge pull request #731 from purescript/starray
+Make everywhereOnValuesM only apply functions once at top level
+Add back @dylex's binding groups change.
+Do not descend into Let bindings multiple times during desugaring
+Remove STArray implementation.
+Revert "Catch erroneous (singleton) recursive definitions"
+Merge pull request #728 from dylex/master
+Catch erroneous (singleton) recursive definitions
+v0.6.1.2
+Merge pull request #726 from purescript/725
+Fix #725
+Merge pull request #723 from purescript/432
+Add span information to errors
+Merge pull request #722 from purescript/694-take-2
+Fix #694, take 2
+Bump version
+Merge pull request #719 from purescript/pipe
+Indentation example
+Simplify indentation rules for guards
+Merge pull request #718 from dylex/ghc7.6
+Fix building on ghc-7.6 (base 4.6) for #713
+Update RELEASE-0.7.md
+Merge pull request #717 from purescript/697
+Do not enable library coverage during tests if tagging.
+Fix #697
+Bump version
+Update release notes to break out 0.6.1
+Create RELEASE-0.7.md
+Merge pull request #714 from purescript/287
+Type wildcards are disallowed in type synonyms, data declarations, instances. #287
+Port previous type wildcards implementation
+Merge pull request #712 from purescript/ast
+Delint
+Break up Declarations
+Merge pull request #707 from purescript/psci-let
+Avoid updating state unnecessarily
+Delint
+Improve let declaration handling
+Merge pull request #708 from purescript/650
+Hlint
+More hlint & remove report file
+Update comment
+Update comments & more hlint
+Update comment & hlint
+Split up typechecker
+Evaluate after let declaration
+Merge pull request #706 from purescript/294
+Add 'otherwise'.
+Support multiple guard clauses, fix #294.
+Merge pull request #705 from purescript/667
+Fix inaccurate comment
+Import instances when referencing qualified values
+Merge pull request #704 from joneshf/functor-ops
+Merge branch 'master' of github.com:purescript/purescript into functor-ops
+Removed `($>)` and `(<$)`.
+Merge pull request #699 from michaelficarra/GH-606
+Merge pull request #700 from joneshf/functor-ops
+clean up fix for #606
+Add some `Functor` functions.
+fixes #606: allow unquoted keywords as key names in record literals
+Update README.md
+Bump version
+Merge pull request #695 from purescript/692
+Never rebuild the Prelude. Always rebuild temporary modules in PSCI.
+Distribute the prelude with the cabal build
+Merge pull request #691 from purescript/0.6
+Merge pull request #681 from purescript/680
+Merge pull request #683 from purescript/682
+Bump version
+Fix bundle build
+Merge branch '682' into 0.6
+Fix #682.
+Better error messages for duplicate labels in rows, fix #680
+Remove docs after move to wiki
+Include library and wiki info in release notes
+Merge pull request #678 from purescript/676
+Windows bundle script, resolve #468
+Merge pull request #677 from purescript/embed
+Fix #676
+Update release notes
+Tidy up type signatures, use a better type for optional file paths.
+Embed the Prelude. Fix #673
+Merge pull request #675 from michaelficarra/patch-2
+change docgen to psc-docs in bundle/README
+Merge pull request #670 from purescript/657
+Merge pull request #672 from purescript/671
+Fix #671
+Rename docgen, remove installation script, update license, change directory for prelude. Fix #657.
+Merge pull request #666 from purescript/524
+Parallel errors for desugaring steps
+Multiple errors during name resolution
+Update RELEASE-0.6.md
+Update RELEASE-0.6.md
+Create RELEASE-0.6.md
+Merge pull request #662 from ardumont/add-browse-module-in-psci
+Improve the edge case about invalid module
+Improve the error message.
+Improve impossible case description
+Keep in order the new commands in the help message.
+Add missing docstring
+Refactor some more
+Remove warning about non-exhaustive pattern (is this the right way?)
+Remove warning about redundant imports
+Deal with edge case (no module name or bad one)
+Improve implementation for :b(rowse) using standard environment computation routine. (As suggested by @paf31)
+Add order to list :b and :s outputs
+Refactor - Remove comments + improve intermediary function name
+Add a hack to be able to browse prelude's signatures.
+Remove useless code
+Fix path computation bug
+Add a :s import and :s loaded subcommand to respectively see the loaded modules (in current session) and the imported modules
+Add a :s command to list the modules loaded in current session.
+Improve implementation avoiding loading extern.purs file
+Add declaration
+Remove useless blank space
+Internalize function inside a where clause https://github.com/purescript/purescript/pull/662#discussion_r19645443
+Remove the access to the state since we do not touch it. https://github.com/purescript/purescript/pull/662#discussion_r19645354
+Ensure: - the module is specified - the file exists before trying to read it
+Load unconditionally the content of the file extern.purs for the current loaded module.
+Intermediary commit - Add handleBrowse function without implementation
+Add new parser command instruction
+Update RELEASE-0.5.md
+Merge pull request #656 from EmmanuelOga/fix-readme-link
+Bump version
+Merge pull request #659 from dylex/imminstance
+Fix instance detection for inliner optimization
+Bump version
+Bump version
+Merge branch '618'
+Merge pull request #643 from purescript/457
+Merge pull request #655 from purescript/634
+Remove Proxy example
+fix link to release doc
+Always include kinds in externs files
+Merge pull request #648 from dylex/imminstance
+Fix #634
+Merge pull request #654 from purescript/649
+Tweak error message for nullary top level cases
+Remove runtime-type-checks reference for psc-make
+Merge pull request #653 from purescript/652
+Simplify replaceAllTypeVars and handle some more edge cases
+First pass at #652
+Pass kind information through to externs file
+Initial work on #618.
+Add failing Foldable testcase from #365
+Improve declaration cycle error
+Check for duplicate labels in intermediate types.
+Merge pull request #646 from purescript/bundle
+Define type instances without wrapper function
+Modify bundle script to take OS as an argument
+Update Travis build to create bundle.
+Modify bundle script to work on Linux
+Fix error case in #457
+Initial work on Mac build and install scripts #468
+Merge pull request #640 from purescript/check-exports
+Reduce forM_ duplication
+Check classes aren't partially exported
+Check exported members don't use private classes
+Move typeCheckModule to TypeChecker
+Merge pull request #639 from purescript/no-runtime-type-checks
+Update docs
+Remove --runtime-type-checks
+Merge pull request #635 from Bogdanp/master
+Merge pull request #636 from purescript/611
+Merge pull request #637 from purescript/624
+validate imports correctly
+Fix #624 - remove xdg-basedir dependency, simplify build.
+Fix #611 - do not take locally-bound names into account when calculating binding groups
+psci: validate imports when using :i
+Merge pull request #629 from purescript/620
+Merge pull request #630 from antoinecomte/patch-1
+fix type
+Another test
+Fix #620. More rigorous overlap check.
+Improve error messages for overlapping instances
+Merge branch 'master' of github.com:paf31/purescript
+Fix #587
+Merge pull request #623 from dylex/master
+Fix grammar and stray type var in types doc
+Merge pull request #621 from puffnfresh/patch-3
+Add triple quotes to ffi.rst
+Update ffi.rst
+Bump version
+Fix issue with empty binders in top-level declarations
+Bump version
+Fix issue with null binder parser
+Bump version
+Merge pull request #603 from purescript/bindists
+Merge pull request #605 from purescript/594
+Merge pull request #604 from purescript/533
+Fix #594
+Breaking example and some refactoring
+Fix #533
+Fix #490
+Merge pull request #601 from purescript/flight_work
+Merge pull request #599 from phadej/blockstring
+Fix meet check when ForAll is on right
+Fix #524
+Fix #580
+Fix #587
+Fix #595
+Fix #600
+Support single-line mode for REPL server
+Blockstring
+Merge pull request #596 from fjdumont/patch-1
+Fixes the `TryPureScript!` link
+Add book link
+Merge pull request #590 from nullobject/refactor/prelude
+Remove empty block from while statement in prelude.
+Cleanup JS function style in prelude.
+Bump version
+Merge pull request #586 from purescript/584
+Fix #584
+Merge pull request #583 from purescript/557
+Prefix output with a 'Generated by psc version X.Y.Z' comment #557
+Use environment variable for OAuth token
+Revert "Add encrypted key"
+Add encrypted key
+Merge pull request #573 from joneshf/releases
+Remove repo
+Remove api_key
+Merge pull request #578 from purescript/570
+Merge pull request #577 from purescript/548
+Merge pull request #576 from purescript/403
+Merge pull request #575 from purescript/564
+Merge pull request #574 from purescript/569
+Fix #570
+Fix #548
+Fix #403
+Remove multiple references to --no-prelude
+Fix #569
+Merge pull request #572 from op8867555/master
+Try to have released files available.
+fix signature of peekSTArray
+Merge pull request #568 from mpietrzak/master
+Add preludeFilename to Language.PureScript
+Merge pull request #567 from joneshf/master
+Escape any operators characters in objects.
+Merge pull request #566 from natefaubion/issue-532
+Disallow top level cases with no arguments. Fixes #532
+Merge pull request #565 from guillaume-nargeot/master
+Added coveralls badge to README
+Fixed hpc-coveralls target test suite name
+Send code coverage report to coveralls.io
+Merge pull request #559 from purescript/js-unit
+Update valUnit name to valUndefined
+Optimise __unused and fn(undefined)
+Use undefined over unit
+Bump version
+Merge pull request #560 from purescript/alternative
+Use unit over {}
+Add `jsUnit` value
+Merge pull request #558 from purescript/422
+Fix #422 wrong "unknown module" error
+Merge pull request #552 from purescript/551
+Fix isModuleEmpty, resolves #551
+Merge pull request #550 from purescript/536
+Add case for function application to a type class dictionary
+Remove Alternative from Prelude
+Merge pull request #546 from trofi/master
+purescript.cabal: add missing tests to tarball
+purescript.cabal: allow mtl-2.2, transformers-0.4
+Merge pull request #545 from purescript/unused-const
+Prevent unused arguments from being renamed
+Merge pull request #544 from 5outh/psci-module-change
+Fix #530 and #531
+fix https://github.com/purescript/purescrit/issues/531 and https://github.com/purescript/purescript/issues/530
+Main ->
+Merge pull request #541 from purescript/expr
+Update Value to Expr in psci
+Rename Value to Expr, resolves #494
+Merge pull request #522 from andreypopp/feature/import-hiding
+Fix for psci after rebasing feature/import-hiding
+Fix error message for conflicting definition
+Add passing example for import mod hiding (..)
+Refactor ImportDeclaration
+Move checkRefIsValid up
+Add `import ... hiding (...)` construct
+Merge pull request #537 from purescript/tcocase
+Bump version
+Merge pull request #535 from purescript/renamer
+Merge branch 'renamer' into tcocase
+Rename in ObjectUpdate constructor
+Rename in psc-make
+Update CONTRIBUTING.md
+Update CONTRIBUTING.md
+Add newScope to Let
+Separate renamer state into bound names and used names
+Test for accidental renamer ident shadowing
+Merge pull request #526 from joneshf/inlining
+Pointify the newScope function
+Remove (<<<)/(>>>) inlining. Move `pure` inlining to `magicDo`.
+Merge branch 'renamer' into tcocase
+Use a newScope for a case alternative
+Port TCO/case changes to renamer branch
+Another test
+Ensure new names are always unique
+Add renaming pass
+Add tests
+Merge pull request #528 from 5outh/master
+remove comment + fix warnings
+Make it work with non-fully-qualified data types
+Parse  argument into a Type, :k works but only for fully qualified names (e.g. :k Data.Either.Either => * -> * -> *) for now.
+fix typo
+clean up
+final for now
+Merge pull request #521 from purescript/508
+Working
+start :k
+Use a fresh name.
+Inlined `<>` for string, `<<<` and `>>>` for `->`.
+Update types.rst
+Satisfy type class dictionaries when LHS of a function application is constrained
+Merge pull request #520 from purescript/dce-fix
+Fix DCE for classes
+Merge pull request #519 from purescript/ffi-safe-compare
+Make `unsafeCompare` "FFI-safe"
+Merge pull request #515 from purescript/newtype-updates
+Update prelude for newtypes
+Fix warning
+Add another test for newtypes
+Merge pull request #510 from purescript/newtypes
+Merge pull request #513 from joneshf/instance-names
+Fixed tests with missing instance names.
+Update externs codegen for newtypes
+Improve errors for invalid newtype declarations
+Update generated docs
+Merge pull request #509 from joneshf/docgen-stderr
+Remove TCO test
+Add test that should pass, but doesn't
+Update codegen for newtypes
+Retain data/newtype info in Environment
+Parse newtypes
+Add newtype parsing tests
+Add param to dctors for newtype representation
+Merge pull request #507 from purescript/optimise-constructors
+Use stderr for hierarchy also.
+Use stderr for docgen errors.
+Optimise fully saturated constructors
+Merge pull request #504 from purescript/private-instances
+Improve function names and add types
+Merge pull request #503 from purescript/new-op
+Don't export "private" instances
+Make JS `new` an operator
+Tweak test error message and type
+Merge pull request #499 from michaelficarra/GH-497
+fixes #497: do not throw plain strings for failed pattern matches
+Merge pull request #500 from hexx/change-to-unit-in-docs
+Change {} to Unit in docs.
+Update repository URL
+Merge pull request #495 from epost/patch-1
+Fix missing 'cd purescript' in build instructions
+Merge pull request #491 from purescript/collapse-nested-if
+Combine nested `if` blocks in JS
+Merge pull request #476 from purescript/prototypes-with-typeclasses
+Update typeclass desugaring comment
+Merge pull request #489 from purescript/480
+Rename `isIdent` to be more meaningful
+Fix isNullaryConstructor check
+Add test for Prelude's unsafeCompare FFI call
+Update FFI call to use .value
+#480
+Merge branch 'visibility'
+Use "value" rather than "create" for nullary ctors
+Generate prettier code for curried constructors
+Merge pull request #488 from purescript/mkfn
+Let bindings should be able to see each other
+Additional test
+Fix function argument names in mkFn
+Add mkFn and runFn for arities up to 10 #486
+Generate prototypes for typeclasses
+New codegen approach for data constructors
+isFunction, begone! #485
+Merge pull request #482 from purescript/multifn
+Merge pull request #484 from purescript/implicit-prim-fix
+Don't import Prim in JS
+Optimize mkFn even when the body is not a return statement.
+Merge pull request #483 from purescript/implicit-prim
+Import Prim without cheating
+Remove special cases from parser for JS types
+#295
+Bump version
+Add Functor instance for Ref
+Merge pull request #472 from purescript/remove-bindnames
+Remove unnecessary bindName(s)
+Merge pull request #471 from purescript/foreachE
+Fix foreachE
+Merge pull request #462 from purescript/no-empty-superclasses
+Don't output empty __superclasses
+Fix a bug with TCO for multiple argument functions, fix #461
+Merge pull request #459 from purescript/458
+Update patterns.rst
+#458
+Update CONTRIBUTING.md
+Merge pull request #456 from purescript/eq-array
+Faster array equality
+Merge pull request #455 from pelotom/patch-1
+Change `{}` to `Unit/unit` and export `void`
+Add `void` function
+Merge pull request #453 from darthdeus/errors-to-stderr
+Print `psc` errors to STDERR
+Merge pull request #452 from purescript/EffBug
+Remove unused variable optimization #451
+Merge pull request #447 from bergmark/cabal-source-repo
+.cabal: Add source-repository for cabal get -s
+Merge pull request #446 from nagisa/patch-1
+Fix case of properties in documentation
+Merge pull request #443 from purescript/versions
+Adjust cabal package dependencies
+Merge pull request #441 from michaelficarra/patch-1
+fix markup bug in docs/source/start.rst
+Bump version
+Merge pull request #439 from purescript/eff-unit
+Fix failing test
+Use Unit in Eff
+Fix precedence of ternary conditional
+Bump version
+Merge pull request #437 from sebastiaanvisser/master
+Derive Alternative for the type checking monad.
+Merge pull request #435 from purescript/docgen-no-prim
+Merge pull request #434 from purescript/docgen-dctors
+Don't show `Prim.` qualification for basic types in docgen
+Fix some problems with ctors in docgen
+Merge pull request #431 from joneshf/master
+Added some missing function instances.
+Merge pull request #430 from cblp/patch-1
+Merge pull request #429 from purescript/tco-fix
+removed extra repetition
+TCO does not close over arguments to higher order functions
+Merge pull request #426 from epost/master
+Fixed hyperlink formatting (changed from MD to RST).
+Merge pull request #425 from epost/master
+Moved 'Installation' sections to their own 'Getting Started' chapter, and added sections on grunt-init-purescript and psc-make
+Merge pull request #424 from garyb/multiple-arguments
+Add multi argument function helpers
+Bump version
+Merge branch 'master' of github.com:paf31/purescript
+Revert "Merge branch 'tco-case'"
+Merge pull request #420 from eamelink/comment-docs
+Describe comments in syntax docs
+Merge branch 'tco-case'
+Merge pull request #419 from purescript/supply
+Use evalSupplyT
+Use a global variable supply
+Keep position info around when desugaring do notation
+Add TCOCase example.
+Better TCO for case statements
+Merge pull request #415 from purescript/faster-instances
+An attempt at a faster instance lookup implementation
+Merge pull request #413 from garyb/do-pos-errors
+Don't erase position info
+Merge pull request #414 from purescript/bettertco
+Expand one of the inliner rules to enable better TCO
+Fix warning
+Add position info to do-desugaring errors
+Bump version
+Specify haskeline dependency, fix #412
+Fix compile warnings. Remove unnecessary function in entails.
+Merge pull request #407 from garyb/unit
+Make `unit` a value
+Merge pull request #406 from puffnfresh/unit
+Add Unit example
+Add unit :: forall a. a -> Unit
+Add Show Unit instance
+Add Unit data type and instances
+Merge pull request #402 from purescript/ord-array-fix
+Fix ordArray instance
+Merge pull request #400 from garyb/prettyprinter-escaping
+Fix escaping for operator name props in externs
+Fix escaping for reserved name props in externs
+Merge pull request #399 from garyb/import-indents
+Fix #394
+Merge remote-tracking branch 'osa1/desugaringpatch'
+replace JS code generated by desugarer for typeclasses with PS code (2)
+Merge pull request #397 from garyb/master
+Export explicitly from the prelude
+Add missing Ord instances
+Delete RELEASE-0.5.md
+Merge pull request #393 from purescript/noemptymodules
+Do not generate module wrapper when module has no declarations
+Bump
+Another small corner case of #390
+Bump version
+Merge pull request #391 from garyb/psci-modules
+Merge pull request #392 from garyb/multi-docgen
+Accept multiple source files
+Rename psci_modules to .psci_modules
+Update description
+Fix #390. Disallow unification of unknowns during type class instance resolution.
+Merge pull request #389 from garyb/docgen-exports
+Fix #388
+Update typeclasses.rst
+Update typeclasses.rst
+Update syntax.rst
+Update syntax.rst
+Update syntax.rst
+Update syntax.rst
+Update syntax.rst
+Update syntax.rst
+Update syntax.rst
+Update syntax.rst
+Update syntax.rst
+Update syntax.rst
+Merge pull request #382 from garyb/master
+Update docs
+Update doc generation script for -h option
+Make hierarchy images optional
+Only output documentation sections with content
+Expand type synonyms in type decls in let bindings
+Release notes
+Remove syb dependency #367
+Implement everythingWithContext by hand.
+Write everythingM by hand.
+Write everythingM' by hand.
+Add function to accumulate values over types appearing inside a value/declaration/binder.
+Eliminate 'something'
+More work on removing syb
+Remove syb from dead code elimination module
+Remove syb dependency from module dependency module
+Remove syb from code gen / fresh name generation
+Include images for online documentation
+Update release notes
+Merge remote-tracking branch 'joneshf/hierarchy'
+Change name.
+Use monad-unify 0.2.2 for improved performance
+Yet more work on replacing SYB
+More work on replacing syb
+Write some syb traversals by hand #367
+Merge branch 'master' of github.com:purescript/purescript into hierarchy
+Made hierarchy more general.
+Only make image if necessary.
+Fix #377, fix #378
+Started on hierarchy.
+Bump version
+Update RELEASE-0.5.md
+Update RELEASE-0.5.md
+Update CONTRIBUTING.md
+Merge branch 'commonjs1'
+Fix #376 and make types more easily understandable by pushing foralls before constraints in type class members.
+Docs for qualified imports
+Update modules.rst
+Fix test suite
+Separate compilation for psci, provide output directory option in psc-mkae
+Initial CommonJS modules commit
+Fix #368
+Fix #374
+Update RELEASE-0.5.md
+Fix failing tests
+Merge branch 'master' of https://github.com/purescript/purescript
+Add show instance for Array to prelude
+Move (!!) to Prelude.Unsafe.unsafeIndex
+Add (:) to prelude
+Merge pull request #373 from garyb/array-functions
+Add show instance for Array to prelude
+Move (!!) to Prelude.Unsafe.unsafeIndex
+Add (:) to prelude
+Merge pull request #366 from joneshf/master
+Merge branch 'master' of github.com:purescript/purescript
+Added `null` to reserved words.
+Fix Show String instance
+Update RELEASE-0.5.md
+Update RELEASE-0.5.md
+Merge pull request #364 from dckc/patch-1
+refine syb dependency
+Bump version
+Fix Haddocks
+Merge pull request #363 from garyb/class-errors
+Improve "error in type class" message
+Add error for missing class instance members
+Improve error for untyped member definition
+Merge pull request #362 from garyb/semigroupoid
+Speed improvement for tidyUp.
+Add Semigroupoid
+Merge branch 'superclasses'
+Move  out of Monad type class.
+Fix a bug in dictTrace
+More lenient overlap check
+Fix optimizer issues after splitting up Monad.
+Merge pull request #359 from garyb/eq-ordering
+Add Eq instance for Ordering
+Inserted Bind into hierarchy.
+Update patterns.rst
+Inserted Apply into hierarchy.
+Fix #356
+Use <> for the semigroup operation
+More tests, be explicit about missing type variable in applySubst.
+Fix issue with type variables in super class dictionary types. Simplify desugaring somewhat, add more examples
+Fix failing tests
+Update Prelude
+Fix superclass instace search
+Fix example, do not generate __superclasses field if there are no superclasses.
+Code comments
+More superclasses tests
+Do not search superclass implementations when looking for a superclass dictionary
+Qualifying superclass names, more work on instance search.
+Changes to entails for superclass search
+Add superclass dictionaries
+Merge branch 'master' into superclasses
+Broken first superclasses checkin
+Bump version
+Release notes
+Simplify imports
+Get rid of Escaped
+Better codegen for object binders
+Allow definition of objects with unusual property names, as well as row types.
+Allow string literal object accessors
+Merge pull request #350 from garyb/astypeof
+Add asTypeOf to prelude
+Use sortedNubBy
+Update code comments
+Release notes
+Simplify the type classes implementation
+Filter modules before removing duplicate type class instances. Bump version
+Fix an infinite search problem in entails due to module imports
+Update RELEASE-0.5.md
+Bump version
+Permit overlap of instances introduced by module imports
+Allow overlapping instances from module imports, fix tests
+Add failing example
+Initial commit
+Fix tab completion in psci for explictly exported modules
+Bump version
+.psci config file support
+Fix docgen, update Prelude docs
+Fix docgen, update Prelude docs
+A few more documentation fixes
+Update docs
+Fix tab completion in psci
+Merge pull request #347 from garyb/elim-unused-fixities
+Remove unused FixityDeclarations in DCE
+Merge pull request #345 from garyb/externs-imports
+Retain imports in externs files
+Fix a bug involving let bindings and unused variable removal. Support extended let in do-notation.
+Release notes
+Fix an issue with type class instance ordering
+Bump version, bump directory dependency
+Merge pull request #340 from osa1/ir
+Merge pull request #336 from garyb/sourcepos-errors
+fix Module documentation
+Add source position info to name-related errors
+Additional failing tests for names
+Bump version
+Fibonacci example, fix inliner bug.
+Bump version
+Some optimizer improvements
+Bump pattern-arrows dependency
+Merge pull request #335 from garyb/sourcepos-errors
+Update release notes
+Add position info to most errors
+Use ErrorStack everywhere
+Module & decl error sources
+Make compilation error type names generic
+Extract errors module
+Include source name in SourcePos info
+Bump version
+Fix an issue with type decls in instances
+Fix #332
+Bump version
+Merge branch 'srcpos'
+Revert "Revert "Initial work on #242""
+Pretty printer for let expressions. Only show first and last errors when not using -v
+Fix remaining bugs related to source position information
+Revert "Initial work on #242"
+Better layout for pretty printed values
+First version of source position information in error messages
+Initial work on #242
+Refactor JS string prettyprinting
+Release notes
+Fix #328
+Merge pull request #330 from garyb/unicode-in-strings
+Encode all JS character escape sequences
+Fixing JS encoding of " and \
+Merge pull request #329 from garyb/unicode-in-strings
+Encode non-ascii chars in JS strings with unicode literals
+Bump version
+Merge pull request #324 from garyb/no-prelude-fix
+Disable prelude auto-import with --no-prelude
+Update RELEASE-0.5.md
+Merge pull request #323 from garyb/optimize-by-default
+Optimize by default and use flags to disable
+Update RELEASE-0.5.md
+Update RELEASE-0.5.md
+Merge pull request #319 from garyb/name-decl-errors
+Merge pull request #320 from garyb/hidden-type-error
+Merge pull request #318 from garyb/where-clauses
+Merge pull request #317 from garyb/negative-numbers
+Test for hidden type errors
+Ensure exported members don't rely on hidden types
+Include decl name in errors for binding groups, data decls, type synonyms, etc
+Include name of declaration in name-related error
+Tests for where clauses
+Where clauses
+Signed numeric literals test
+Parse signed numeric literals
+Release notes
+Fix #315 and fix #316
+Merge branch 'let'
+Infix function declarations #311
+Fix multiple let bindings in psci #258
+Add test for closing over an outer variable in a let binding
+Only allow type declarations and value declarations in let bindings
+Multi-let #258
+Revert "Replace ++ with Semigroup in Prelude"
+Replace ++ with Semigroup in Prelude
+Fix #306. Had to move ref(In)Eq back to Prelude to avoid circular dependency between Prelude and Data.Eq.Unsafe
+Bump version
+Remove legacy Prelude tests
+Update Prelude docs
+Fix broken tests
+Remove extracted prelude modules
+Merge pull request #305 from garyb/master
+Don't import prelude in externs files
+Bump version
+Rebuild modules based on dependencies
+Update RELEASE-0.5.md
+Merge pull request #303 from garyb/auto-prelude
+Auto-import prelude now working properly
+Move psc --make into a new executable psc-make
+Update some tests
+Bump version
+Merge Operators.hs
+Merge branch 'master' into auto-prelude
+Release notes
+Merge branch 'operators'
+Desugar unqualified BinaryNoParens constructors
+Fix #301 Flexible Instances, and a bug in type instance lookup
+First try at simplifying operators
+Fix tests that shouldn't import prelude
+Use import info in operator desugaring
+Auto-import prelude
+Update RELEASE-0.5.md
+Merge pull request #299 from garyb/master
+Add test for qualified imports
+Split manual tests up into passing/failing again
+Only parse `qualified as` for now
+Resolve qualified imports
+Refactoring for qualified types
+Initial refactoring for qualified imports
+Remove escape check
+Speed up test suite
+Fix #297
+Fix concatMap
+fst and snd
+Remove duplicates : elem, notElem
+nub, nubBy, elem, notElem
+Merge branch 'make'
+Include Prelude in make mode
+Merge pull request #293 from joneshf/master
+Added on.
+Fix #292
+Fix issue with desugar in make mode
+Desugar externs files when using separate compilation #218
+psc --make #218
+Revert "Remove runtime type checks #93"
+Release notes
+Add --codegen option to support separate compilation
+Improve some error messages #289 #290
+Release notes
+Remove runtime type checks #93
+Release notes
+Improve instance propagation #272
+Release notes
+Fix #285
+Merge pull request #288 from joneshf/master
+Add a couple Either/Maybe tests.
+Merge pull request #284 from joneshf/master
+Create directories if they don't exist.
+Relax haskeline bound
+Fix finally tagless encoding bug, add example.
+Remove a debugging message
+Update RELEASE-0.5.md
+Merge pull request #281 from garyb/master
+Don't attempt to merge modules in generated JS
+Disallow duplicate module definitions
+Rename module for error effects
+Allow empty imports lists for only importing instances
+Factor out backwards composition from Category
+Merge pull request #278 from puffnfresh/patch-2
+Fix record typo in types.rst
+Fix Data.String.split
+Fix Ord.
+Remove a debug message
+Merge pull request #274 from joneshf/master
+Array is unfunny now. Add some foldable functions. Removed duplicates.
+Merge branch 'master' of github.com:purescript/purescript
+Release notes
+Fix #273
+Array is acting funny.
+Merge branch 'master' of github.com:purescript/purescript
+Removed duplicated functions.
+Added Data.Traversable and instances.
+Added some Foldable functions.
+Issue with typing of mempty in #243
+Added Data.Foldable and instances.
+Bump version
+Fix #267
+Bump version
+Merge pull request #266 from robertrolandorg/patch-1
+Include fixities in externs files, include inline JS decls. #253
+Update intro.rst
+Fix #253
+Foreign type class instance declarations. For #253 and #218
+Eq instances for Maybe and Either
+Move `Read` into its own module
+Merge pull request #263 from garyb/master
+Eliminate exports as well as declarations in DCE
+Use export list when generating JS
+Add instances to exports while desugaring classes
+Create DeclarationRef for instances
+Elaborate exports during renaming
+Merge pull request #259 from timmytofu/patch-2
+Update docs
+Merge pull request #262 from joneshf/record-updates
+Update release notes
+Fix #256
+Merge branch 'master' of github.com:purescript/purescript into record-updates
+Fix #260
+Remove commented line.
+Updated test to actually run a record update.
+Fixes generated `for-in` loop shadowing.
+Merge branch 'master' of github.com:purescript/purescript into record-updates
+Clean up a bit.
+Fix #261
+Merge branch 'master' of github.com:purescript/purescript into record-updates
+Add an example of object creation with syntax
+Merge pull request #257 from timmytofu/patch-1
+Updates Hello World example to run as expected
+Change JSIndexer to JSAccessor.
+Generates a for-in loop.
+Improve documentation generation using new prettyPrintTypeAtom
+A start on #253
+Fix #254
+Constants module #236
+Split up the optimizer code #247
+Merge pull request #252 from garyb/master
+Fix Type(..) exports
+Merge pull request #250 from garyb/master
+Allow import/export of types sans constructors
+Merge pull request #249 from garyb/master
+Allow access to unexported members within a module
+Use 2-space indents like everywhere else in the codebase
+Test for referencing unexported values within a module
+Update RELEASE-0.5.md
+Reinstate -Wall, fix warnings.
+Filter exported names in psci autocomplete method #238
+docgen now checks module export list #238
+Merge pull request #237 from garyb/master
+Update RELEASE-0.5.md
+Update RELEASE-0.5.md
+Update RELEASE-0.5.md
+Fix toUpper and toLower
+Simplify JS exporting of declarations
+Use List over Set to avoid excessive `toList`ing
+Delint
+Create Prim module
+Reject invalid qualified names
+Disallow export of undefined members
+Explicit exports
+Basic tests for module exports
+Initial work for module exports
+Rename "ImportType" so semantically it works for exports too
+Fix the types and implementations of some Prelude functions in the Math module.
+Fix issue with readNumber
+Bump version
+Update typeclasses.rst
+Update docs
+Merge branch 'master' of github.com:paf31/purescript
+Named type class instances
+Update RELEASE-0.5.md
+Merge branch 'renamed2'
+Fix failing tests
+Fix some issues with the order of desugaring passes
+Move case alternative out into its own type. Remove canonicalize code.
+Remove unused imports
+Rearrange exports environment
+Improve handling of missing explicit imports
+Check that specific data constructors do exist
+Use Either over Error when failing
+Rethrow errors with the module name
+Use applicative rather than liftM
+An attempt at importing values
+Simplify a pattern match
+Ensure explicitly imported types actually exist. Have to sacrifice explicit type class imports for now.
+Removed a failed attempt at fixing garyb's TODO, moved some code around in resolveDcons
+Adding some comments and type signatures to aid my understanding a little
+Fix Prelude after merge
+Merge remote-tracking branch 'garyb/renaming' into renaming
+Improve explicit import handling
+Tidy up
+Deal with data constructors from explicit imports
+Update RELEASE-0.5.md
+No need for execTests.sh any more
+Empty data decls and empty type class decls
+Add drop and take to prelude, add Eff.Unsafe module
+Use Either instead of error
+Use extM instead of chaining everywhereM
+Remove redundant canonicalizeType
+Delinting again
+TypeDeclarationKind now unnecessary
+Delinting
+Fix remaining type rename cases
+Type renaming mostly working
+Just use Qualified name for dcons
+Don't need to carry NameKind for dcons anymore
+Disallow duplicate definitions in scope
+No need to check for aliased constructors anymore
+Rename data constructors
+Add rename pass to desugar
+Add zipWithM
+Merge pull request #228 from joneshf/psci-fixes
+Removed excess loading of prelude filename.
+Flip order of let bindings and use foldl.
+Bump version
+Update RELEASE-0.5.md
+Show file(s) argument in psci --help
+Merge pull request #227 from joneshf/master
+Forgot other modules for psci.
+Some Prelude fixes
+Merge pull request #225 from joneshf/remove-lint
+Removed most lint.
+Update RELEASE-0.5.md
+MonadState example
+Multi parameter type classes #125. Also fix #224.
+Fix --magic-do
+Update completion function when a new module is loaded using :m
+Load modules into psci on the command line
+Consolidate all parsing in psci into one parsec parser
+Merge pull request #222 from joneshf/psci-fixes
+Document `:t` command.
+Updated for changes in prelude.
+Add everywhereWithContext'
+Merge branch 'master' of github.com:purescript/purescript into psci-fixes
+Bit of cleanup and documentation. Fixes #216.
+Expression no longer consumes colons.
+Works with trailing whitespace
+"until" no longer needs to be reserved
+Treat "arguments" and "eval" as reserved for strict mode
+Update docs
+Update RELEASE-0.5.md
+Started parsing commands.
+Cleanup parser a bit.
+Merge pull request #221 from garyb/master
+Update tests for renamed prelude modules
+Delete tests using block syntax
+Update mentions of "Eff"
+Move unsafe array functions to new module
+Lift ref functions to avoid ADT internals in FFI code
+Rename prelude modules
+Start on parser module.
+Merge pull request #217 from garyb/master
+Fix for modules with dotted names in psci
+Merge pull request #214 from joneshf/psci-fixes
+Merge pull request #215 from garyb/master
+Remove unnecessary pattern
+Fix module name handling in `--main`
+Merge branch 'master' of github.com:purescript/purescript into psci-fixes
+Tilde expansion works.
+Sorted all compleitions.
+#130 Add :t to PSCi
+Cleanup.
+#92 Allow binders in function arguments
+Merge pull request #212 from joneshf/master
+Remove debugging line.
+Check win64 aswell.
+Process os stuff better.
+Merge pull request #210 from joneshf/master
+Merge branch 'master' of github.com:purescript/purescript
+Added myself to authors.
+Merge pull request #209 from joneshf/master
+Removed extra let.
+Merge pull request #208 from joneshf/psci-fixes
+More documentation.
+Some documentation.
+Merge garyb's changes to the Prelude
+Rename binder -> let.
+Handle lets properly
+Don't special case `let` in the commands.
+A few comments.
+Added quit command and use StateT.
+Add help commands
+Reverse the binders to make it easier.
+First pass at binds.
+First pass at let bindings.
+Sort function completions.
+Moved config creation to Setup.hs.
+Merge branch 'master' of github.com:purescript/purescript into psci-fixes
+Update intro.rst
+Update RELEASE-0.5.md
+Update index.rst
+Delete blocks.rst
+Merge branch 'master' into nostatements
+Merge branch 'master' into nostatements
+Update intro.rst
+Update RELEASE-0.5.md
+Update prelude.purs
+Merge pull request #200 from garyb/master
+Fix codegen for data constructor names
+Parse psc options that can have module names with dots
+Parse module name with dots
+Change ModuleName to accept [ProperName]
+History file works.
+Merge pull request #199 from joneshf/show-array
+Sugar up Array show.
+Merge pull request #198 from joneshf/master
+Merge pull request #197 from joneshf/psci-fixes
+Hold off on handling values.
+Merge branch 'master' of github.com:joneshf/purescript
+Update contrib to reflect test process.
+Have to install.
+Attempt to get travis to actually run the tests
+Merge branch 'master' of github.com:purescript/purescript into psci-fixes
+Moved the return call to the AST. Fixes # 193.
+Merge pull request #196 from joneshf/master
+Fixed Arrays.sort mutating the passed in list.
+Got psci to compile things and run.
+Fix subsumes relation for object types
+Fix rendering of object/row types, add failing test
+Use parseFloat for Read Number instance, to make Read and Show instances work together.
+Fix refEq in Prelude
+Create RELEASE-0.5.md
+Merge pull request #195 from garyb/master
+Improve error message for row typecheck failures
+Improve pretty printing for row types
+Update conf.py
+Update RELEASE-0.4.md
+Bump version to 0.4.0
+Create RELEASE-0.4.md
+Create RELEASE-0.2.md
+Update and rename RELEASE.md to RELEASE-0.3.md
+Traverse top-down in replaceTypeClassDictionaries, to avoid traversing the wrong part of the AST, for an approx 30% performance improvement when using type classes.
+Merge pull request #192 from garyb/master
+Update docs
+Rework psc options for new --main and --module
+Check Eff type of main when using --entry-point
+Use --entry-point to change --run-main's module
+Default entry point to "Main" when using --run-main
+Fix typechecker bug with type synonyms in type annotations
+Expand STArray example
+Merge branch 'master' into nostatements
+Fix a typechecker bug which caused type class dictionaries to not be inserted in a particular case
+:Merge branch 'master' into nostatements
+Update docs
+Bump version
+Dead code elimination #190
+STArray and associated optimization rules
+Collatz example, fix an optimizer bug due to inlining a converted STRef.
+Aggressively inline ST computations when STRefs are only used locally. Inline whileE and untilE.
+Inline functions in the ST module
+Update TCO example
+:OMerge branch 'master' into nostatements
+Fix --magic-do and inlined operators from the Prelude, fix breaking test
+Add very basic support for let bindings. Does not support local function definitions.
+Remove blocks
+Bump version
+Bump version
+Update docs
+Relax restriction on data constructor names
+Merge pull request #189 from garyb/master
+Add compiler argument to specify namespace in browser
+Restore module merging in generated code
+Add Math constants
+Fix float parsing
+Fix for modules with names that overlap globals
+Update docs, add more examples
+#188 Support for multiple data constructor arguments
+Fix some issues in the String module
+Thunk type class dictionaries to fix the TC equivalent of #185
+Minimal failure case for runtime scope issue involving type classes
+Change the order of some prelude instances
+Update docs
+Functor instance for Either now #181 is fixed
+Bump version, move passing test
+Fix #186
+Test for function scope issue #186
+Delete 1
+Fix #181 - implement capture avoiding type substitution properly
+Free variables calculation, better quantify function.
+#184 Nested type synonyms now expand properly, type class instances for type synonyms can be found
+More code comments
+Another example for #185
+#185 Non-function values should not have access to the current binding group
+Update docs
+Add examples/shouldpass
+Merge pull request #183 from garyb/master
+Don't clobber global scope
+Prelude additions
+Move out jQuery into its own repository, move prelude into a top-level directory
+Escape ' as
+Merge pull request #180 from garyb/master
+Use error instead of unit for temp types
+Haddock comments
+Fix for #179
+Use indexer for JS reserved idents where possible
+Bump version
+Fix some issues in the optimizer, so that purescript-promises can work properly.
+Doc update
+Fix #178 - make sure qualified names are taken into account when sorting definitions.
+Prelude updates
+Instantiate constrained types as well as universally quantified types when unifying with a unification variable.
+Disallow type synonym instances #177
+Update patterns.rst
+Update docs
+Remove JS types from prelude
+Fix for #171
+Update tests for `return`
+Vanity & enable travis emails
+update docs
+Update prelude to use Haskell named (JS reserved keywords)
+Fix prettyPrintType and update docs #174
+Remove Javascript parser
+Make operator precedence in the Prelude match Haskell #176
+Disallow ticks/underscore in data constructor names
+Fix broken tests
+Merge master
+Merge branch 'master' of https://github.com/garyb/purescript
+Allow JS reserved identifiers
+Disallow data constructors from having the same name as their enclosing module #172
+Update blocks.rst
+Basic documentation generation #164
+Fix some failing tests
+Some work on type classes in the Prelude
+Bump version
+Fix last remaining breaking test case for skolems bug #147
+First work on fixing the skolems bug #147
+Fix order of type class dictionaries passed to a function
+Fix random function in Prelude
+Update blocks.rst
+Basic documentation generation #164
+Fix some failing tests
+Some work on type classes in the Prelude
+Merge branch 'master' of github.com:paf31/purescript
+Bump version
+Fix last remaining breaking test case for skolems bug #147
+First work on fixing the skolems bug #147
+Merge pull request #170 from garyb/master
+Include file path in syntax errors
+Fix order of type class dictionaries passed to a function
+Fix random function in Prelude
+Use monad-unify 0.2.0
+Bump version to 0.3.8
+Fix == on lists, use >>> and <<< for category composition
+Speed up Operators.purs example by avoiding long chains of nested calls to >>=
+Add optimizations for binary and unary operators
+Make tests pass again
+Initial commit for noops branch #161
+Remove redundant sortBy in CodeGen.JS
+Add indexer notation for operators at the top level #142
+Merge pull request #168 from garyb/stringnames
+Remove `Ident` from JS AST
+Revert "Use [..] property access for non-JS-safe ids"
+Use [..] property access for non-JS-safe ids
+Fix type synonym issue #165
+Start work on Prelude documentation #164
+Update docs for multiple argument functions
+Bump version to 0.3.7
+Merge branch 'singleargs'
+Remove multi arg functions from Prelude
+Fix Category bug #158
+Merge pull request #160 from garyb/singleargs
+Import kinds for basic types
+Use `TypeConstructor`s for basic types
+Merge pull request #159 from puffnfresh/superclasses
+Fix bad error for non-existent methods on a class
+Merge pull request #156 from puffnfresh/travis-image
+Fix outdated links in README and RELEASE
+Update Travis image in README
+Merge pull request #155 from puffnfresh/gitignore-sandboxes
+Ignore Cabal sandboxes
+Merge branch 'singleargs' of github.com:paf31/purescript into singleargs
+Fix type class lookup
+Merge pull request #154 from garyb/master
+Don't parse nullary functions
+Fixed bugs with JS output for typeclass dictionaries
+Merge pull request #153 from puffnfresh/name-mangling
+Mangle '.' to "$dot"
+Add Escaped constructor to Ident to prevent double mangling of names
+Merge pull request #152 from puffnfresh/name-mangling
+Mangle '$' identifier to "$dollar"
+Merge pull request #151 from puffnfresh/name-mangling
+Use pretty name mangling, e.g. '~' becomes "$tilde"
+Remove multiple argument functions, allow type class instances for ->
+A test for the $ bug, can now apply $ to a constrained function type.
+Support constrained types in the subsumes check #138
+Bump version
+Merge pull request #149 from garyb/master
+Revised fix for code gen for data constructor pattern matches
+Use monad-unify package
+Use pattern-arrows library #118
+Disallow reserved names as value names #136
+Fix error in code gen for pattern matches on data constructors #148
+Merge pull request #146 from puffnfresh/findexecutable-node
+Lookup node executable
+Inline fully applied calls to $
+When defining FFI calls with inline JS, copy the JS into the module body #145
+Fix precedence of -> and type application #144
+More Haddock comments
+Do not allow variable shadowing #135
+Update CONTRIBUTING.md
+Update README.md
+Update README.md
+Merge pull request #134 from taku0/fix_inlining
+Fix inlineVariables
+Starting work on code comments
+Generate proper name for names involving tick characters #133
+Do not run tests in NodeJS during Travis CI build
+Update .travis.yml
+Replace obsolete shelltest scripts
+More Prelude work, run tests in nodejs
+Code for mutually recursive types not being generated #127
+Sort modules based on dependencies
+Fix type class issue where instances with missing members were passing the type checker #126
+Type synonyms and data type declarations can now depend on each other.
+Update index.rst
+Create kinds.rst
+Update types.rst
+Update syntax.rst
+Update types.rst
+Update syntax.rst
+Update syntax.rst
+Update syntax.rst
+Update intro.rst
+Update README.md
+Update README.md
+Update types.rst
+Update typeclasses.rst
+Update index.rst
+Create blocks.rst
+Update syntax.rst
+Update patterns.rst
+Update modules.rst
+Update intro.rst
+Update intro.rst
+Update intro.rst
+Update ffi.rst
+Update index.rst
+Update syntax.rst
+Update types.rst
+Create typeclasses.rst
+Create patterns.rst
+Create ffi.rst
+Create modules.rst
+Create syntax.rst
+Create types.rst
+Update index.rst
+Create intro.rst
+Sphinx Docs
+Don't check constructor name if there is only one constructor #85
+#120
+#114
+Operators can be function arguments again #124
+[] can now be used in type class instances
+Update RELEASE.md
+Prelude's print function doesn't need to be an FFI call.
+Update README.md
+Update RELEASE.md
+Rename release.md to RELEASE.md
+Fix type class instances scope issue
+Update README.md
+Update README.md
+Update type classes docs
+Update release.md
+Fix --magic-do
+Update README.md
+Bound haskeline version to make heroku build pass
+Bump version
+Forever example
+Do notation using type classes
+Qualify all unqualified names in type class declarations
+Add array example
+Add the ability to bypass type checking for a term, and therefore fix the ordering problem.
+Merge branch 'master' into typeclasses
+CodeGen fixes
+Fix an issue with unqualified type class names
+Fix some aspects of code gen
+Generate typeclass dictionary names
+Generate typeclass dictionary names
+Add Monad example
+Add failing example
+Show (Data a) example
+Basic implementation of the entails relation
+Starting work on replacing type class dictionary placeholders
+Pass modified values up to codegen phase
+Generate type class dictionary placeholders
+Fix up broken tests, fix the escape check and skolem escape check.
+Some improvements to the REPL
+A little more work on the REPL
+The beginnings of a basic REPL
+Update README.md
+Update README.md
+Revert "Fix error in check - expand type synonyms first"
+Fix error in check - expand type synonyms first
+Fully type the provided value in infer and check. Need to fix the escape check.
+Fix kind checking, code gen for dictionaries
+More work on desugaring
+Fix some bugs in type class instance desugaring
+First work on desugaring instance declarations
+Generate Javascript for type class dictionary getters
+Add contexts to instance declarations
+Delete README.md
+Improved jQuery library and example
+More work on desugaring type classes into dictionaries
+Initial work on desugaring type classes into dictionaries
+Classes and instances parsers
+Bump version
+Qualify all names appearing in types when adding names to the environment.
+Cabal file, README update
+Add --run-main option
+Fix some bugs with --magic-do, and make it work with TCO
+Update README.md
+--magic-do flag
+Fix operator precedence issue
+Fix type synonyms issue
+Make unifies with relation transitive again
+Merge pull request #103 from utkarshkukreti/dont-add-trailing-whitespace
+Don't add trailing spaces in PureScript.Pretty.JS.
+Fix JQuery test
+Update README.md
+Fix some bugs, including an issue with overenthusiastic inlining of variables.
+Fix transitive import issue
+More work on the Prelude
+Update prelude.purs
+Create jquery_io.purs
+Auto include the Prelude, add --no-prelude flag.
+Fix an optimizer bug
+Try to parse the Javascript in foreign import declarations.
+Very basic version of GHCJS-style imports, no parsing of JS, yet.
+Factor out Sugar module
+Fix bug in which data constructors were being incorrectly accessed across modules
+Fix issue with extern member declarations returning functions.
+Move Optimize.hs into CodeGen module
+Create copies of vars during TCO to prevent capture of state in function call.
+Update README.md
+Merge branch 'tco'
+Bump version to 0.2.9
+Self-calls must not appear under a function in a tail call. Remove nested blocks during optimization.
+First version of tail call optimization. Still need to figure out name shadowing and what happens when a return statement appears under a lambda.
+Bump version to 0.2.9
+Self-calls must not appear under a function in a tail call. Remove nested blocks during optimization.
+First version of tail call optimization. Still need to figure out name shadowing and what happens when a return statement appears under a lambda.
+Update README.md
+Runtime type checks for basic types
+Update README.md
+Update README.md
+Remove values-as-statements
+Do notation
+Remove foreach
+Allow $ as an operator
+First work on the Eff monad
+Combine Type and Row types to facilitate kind-checking effects later.
+Add (:) to prelude
+No special case for function definitions during codegen
+Use -fno-warn-orphans
+Update README.md
+Update README.md
+Bump version
+Merge branch 'bindinggroups'
+Mutually recursive data types, part 2
+Mutually recursive data types, part 1
+Foreign imports always refer to functions defined globally
+Import data types using import keyword, fix prelude, fix some errors when unifying types across modules.
+Update README.md
+Update README.md
+Fix some bugs, fix remaining passing examples, still need to fix prelude.
+Fix some examples
+Still more work on mutually recursive functions, still need to fix examples
+More work on mutually recursive values, still not working.
+Work so far on binding groups
+Update README.md
+Update README.md
+Use standard input with -s flag
+Move type declarations desugaring into its own module
+Update docs
+Make compatible with GHC 7.4
+Fix top level case declarations inside a non-global module
+Fix cabal file
+Parser changes for top-level binders
+Inlining multiple function arguments
+Better capture avoiding function argument names
+Better codegen for top level case expressions - make Case expressions accept multiple inputs in general.
+Allow multiple-argument functions to be defined using top level case expressions
+First attempt at top level case expressions
+Update README.md
+Update release.md
+Update release.md
+Update README.md
+Update release.md
+Update release.md
+Update release.md
+Update release.md
+Bump version
+Update release.md
+Update release.md
+Update release.md
+Update README.md
+Create release.md
+Split up ArrayBinder into ArrayBinder and ConsBinder
+Allow method calls and other expressions evaluating to {} in statements
+Allow : and . in operator names
+Use braces for blocks, instead of the do keyword
+Update README.md
+Fix opStart lexer
+Fix a bunch of -Wall warnings
+Fix warnings introduced by -Wall
+Use dot for module name separator, not a colon
+Bump version
+Name resolution up the module hierarchy, allowing names in the global module to be referenced.
+Avoid reassigning vars when importing a module
+Use Environment to store types of local variables.
+Use .purs file extension
+Update README.md
+Fix type generalizer bug
+Tidier implementation of forall instantiation
+Polymorphic object update
+Bump version to 0.1.11
+Fix pattern matching for rank 2 constructors, and add an example
+Prevent skolem variables from escaping
+Capture avoiding substitution during skolemization
+Fix name shadowing issue in bindings
+Another test
+Maybe monad
+Polytypes in record fields, another example
+More tests for RankNTypes, adding polytypes to type synonyms and data declaration
+Another test, and a TODO
+General tidying, better approach to recursive functions with a top-level quantifier
+Test cases pass again
+Better error messages during unification
+More bug fixes
+Remove trace
+Better error messages
+Fix type synonyms when checking
+More work on RankNTypes
+Progress on RankNTypes
+Monotype check
+Merge polytype and type data types
+Some parser tidying, bump version, fix overlapping imports issue
+Update CONTRIBUTING.md
+Merge pull request #70 from Bogdanp/master
+fix indentation
+simplify ImportDeclaration type checker
+drop potentially confusing lines from doc
+add haskell formatting to import doc
+add import to README
+make the ImportDeclaration type checker update the env properly
+make Import example more complex
+add failing import example
+add passing import test
+fix hlint warning in parseImportDeclaration
+implement declToJs for ImportDeclarations
+add ImportDeclaration type checker
+add Alias constructor to NameKind
+use ModulePath instead of [ProperName]
+add ImportDeclaration parser
+add ImportDeclaration constructor
+Bump version, pretty printing JS
+More tests, plus fixing a bug in JS generation
+Make the test suite pass
+First attempt at reconciling user defined operators with modules
+Update README.md
+Bump version
+Initial modules implementation
+Mixed argument syntax docs
+Mixed function argument syntax
+Hello World sample
+Update README.md
+Curried function argument syntax
+Update README
+Bump version
+Use double bang for array indexing
+Bump version
+Fix README
+Use foreign import, not extern. Add foreign import member syntax
+Update README.md
+Use ! for array indexing to avoid ambiguous syntax
+Bump version
+Merge pull request #61 from chrissmoak/guards-scope
+Allow guards access to current scope
+Merge branch 'master' of github.com:paf31/purescript
+Fix some bad parser error messages caused by too many 'try's
+Add "Try PureScript" link
+Merge branch 'master' of github.com:paf31/purescript
+Bump version
+Update README.md
+Update CONTRIBUTING.md
+Create CONTRIBUTING.md
+Change record field separator to a comma
+Merge branch 'master' of github.com:paf31/purescript
+bump version
+Update readme to reflect optimized Javascript code
+More optimizations
+Basic Javascript optimizations
+Create a Javascript AST type, and separate generation and pretty printing.
+Fix some prelude issues
+Sanitize some modules
+Merge branch 'master' of github.com:paf31/purescript
+Prepare package for hackage upload
+Update README.md
+Update README.md
+hlint
+Update README.md
+Merge pull request #51 from L8D/patch-1
+Merge pull request #50 from lucian1900/patch-1
+Update README.md
+TypeScript was just the inspiration, I take it :)
+More work on the Prelude
+If blocks without else blocks never result in unreachable code
+Map and fold
+Fix problem with recursive functions with a type signature
+Math object
+Prelude makefile
+Prelude Javascript
+First attempt at a prelude
+Fix IO example
+Fix person example
+jquery example
+Merge branch 'master' of github.com:paf31/purescript
+Default fixity declaration is infixl
+Merge pull request #41 from Nami-Doc/patch-1
+readme - minor typo
+Merge pull request #38 from puffnfresh/patch-1
+Fix minor typo in README
+Merge branch 'master' of github.com:paf31/purescript
+Use extern data for Console example
+Update README.md
+Merge branch 'master' of github.com:paf31/purescript
+Better name for row kind
+Update README.md
+Merge branch 'master' of github.com:paf31/purescript
+Object update syntax
+Update README.md
+Disallow array index and object property updates in blocks.
+More pattern matching tests
+Merge branch 'master' of github.com:paf31/purescript
+cabal tests
+Update README.md
+Update README.md
+Update README.md
+Show relevant term in type error
+Better parser errors using <?>
+Introduce saturated type synonyms to allow type synonyms to persist until unification
+Fix type synonym bugs
+Fix a kind checking error, add support for 'extern data'
+Show human readable types in type errors
+Fixity declarations
+Rename travis file
+Merge branch 'master' of github.com:/paf31/purescript
+Update README.md
+Travis integration
+If-Then-Else expressions
+Recursive functions need to be made lazy
+Use ArrowPlus instead of Alternative, get rid of strange Alternative instance. S and iota combinator examples. Fix non-terminating pretty-printer issue
+Guards, named patterns, fixed array patterns
+More work on examples
+Person example for talk
+Better syntax for single function application
+Console example
+Fix some parsing and pretty printing issues
+Lightweight syntax for single argument functions
+Properly handle multiple files
+Fix postfix operator precedence
+Disallow Javascript keywords as identifiers
+Fix example
+For Each
+Finally get indentation working
+A few tests using shelltestrunner
+Check all unknowns become quantified at the top level. Fix row unification bug./
+Row unification was not symmetric
+Whitespace sensitive syntax for blocks
+Whitespace sensitive syntax using indents package
+First attempt at whitespace sensitive syntax
+More objects tests
+User defined operators
+Separate polytypes into their own datatype, remove rank 2 types. Fix type synonym example.
+Work on type synonyms and rank-N types
+Some tidying of the code gen module
+More examples
+Update README.md
+Formatting
+Formatting
+FFI
+Support arrays and objects in assignments
+Update README
+Better code gen, better support for arrays, more patterns, more examples.
+Examples and TODO
+Fix some typechecker bugs
+Remove test file
+Initial add
+Initial commit

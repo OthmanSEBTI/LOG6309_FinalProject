@@ -1,0 +1,1645 @@
+Fix problem with smartparens when expanding nested snippets
+Fix `spacemacs//dir-byte-compile-state` which returned nil
+Fix PR #15736 (#15740)
+Fix cumbersome pdf-tools selection behavior
+Fix native-compile-p function (#15718)
+Fixed #15583 and also bound SPC T g to toggle gui elements
+Fix double ownership of posframe package
+Fix a previous attempted fix loading mu4e.
+[finance] Fix void-variable ledger-report-mode-map
+[core] Fix wrong type for "dotspacemacs-startup-banner-scale"
+[helm] Fix dangerous implementation for helm-use-fuzzy
+[go] Fix issues in README
+[git] Fix forge warning
+Fix broken recentf functionality due to PR #15574
+[fountain] Fix tag declaration
+[defaults] Fix toggle line numbers to respect dotspacemacs-line-numbers.
+Fix variable is void warnings at startup
+Fix: variable is void: emoji-cheat-sheet-plus-buffer-mode warning
+python: Fix broken link
+Fix function quote warning (#15446)
+common-lisp: Fix typo (#15507)
+Fix NPM package to install for JSON lsp (#15492)
+[spacemacs-bootstrap] Fix :pre-bindings evaluation in evilified-state-evilify-map (#15490)
+[zig] Fix setup backend hook (#15483)
+Fix #15306. Reflect eaf layer keybinding logic to upstream changes.
+notmuch: Fix company based address completion (#15392)
+[nixos] Fix variable name in README (#15413)
+[completion] Fix readme markup. (#15410)
+Fix tab key functionality in pdf outline mode (#15345)
+Fix ⌘-s shortcut in macOS (#15329)
+Fix the use of consult--source-project-file (#15328)
+Fix consult-buffer error (#15327)
+[ci] Fix problem with bin patches
+keyboard-layout: Fixes #15249 (#15251)
+Fix #15198 predicate to check if major-mode is compilation-mode or derived. (#15253)
+Fix keybindings in ivy-occur-grep-mode
+Revert "[org-roam] Fix evil org-roam-node-insert spacing" (#15244)
+[semantic-web] Fix missing package, ttl-mode
+[doc] Fix wrong min emacs version and rewrite update instructions
+Fix #14162, python-execute-file not using in virtual environment
+[lsp-latex] Fix warning void variable TeX-view-program-selection
+Fix mouse click behavior in customize buffers (issue #15211)
+Fix package update for emacs versions < 26.2 (issue #15212) (#15215)
+Fix #15198: Apply ansi-colors to compilation-mode derived modes
+Fix #15186, broken package update due to commit cac0105
+Fix small typos (#15188)
+[gnus] Fix wrong evilified macro
+Fix #15169, snippets not loading correctly
+Fix forge evil keybinds (#15167)
+Fix autocompletion in elisp and text mode
+[compleseus] Fix orderless integration
+Fix typo doftile->dotfile (#15147)
+[python] Fix broken link
+[compleseus] Fix some small typos
+[doc] Fix spelling mistake
+LaTeX: Fix broken key binding
+[ivy] Fix new src block in docs
+Fix (activate) company-emoji completion
+Fix and update PR #14992: update eaf layer
+[djvu] Fix docs and prefixes
+[lsp] Fix void variable error during startup
+[elisp] Fix small typo in README
+[reddit] Fix small typos in docs and add dependency to org layer
+Fix another link
+Fix link
+Revert "Fix evil search prompt on mouse leave (#15002)"
+[c-c++]: Fix keybinding for organizing includes (#15029)
+[CI] Fix committing
+Fix typo that prevents ivy-rich from being enabled
+[docs] Fix broken link in ivy README
+[org-roam] Fix evil org-roam-node-insert spacing (#15008)
+Fix macOS GUI full screen button wreck caused by GUI setup in early-init.el
+Fix file rename target path when buffer name is uniquified
+Fix evil search prompt on mouse leave (#15002)
+[compleseus] Fix keys (#14968)
+[compleseus] Fix junk file function (#14973)
+Fix ahs ts, open prompt
+[compleseus] Fix indentation
+Fix google-translate functionality
+Fix wrong buffer name after file rename
+Fix typos in .spacemacs.template
+Fix evil-matchit % jump in web mode (#14940)
+Fix symbol highlight ts counter
+Fix symbol highlight ts, infinite loop
+Fix symbol highlighting
+[doc] Fix exwm README.org
+Fix exit keyword in symbol-highlight TS (#14890)
+Fix typo
+[ci] Fix hub path
+[ci] Fix CircleCI stuff
+[Readme] Fix link (#14877)
+core-dotspacemacs: Fixes typo
+Revert "Fix which-key entries: gr and gs in dired and magit"
+[org] Fix org-habit (#14838)
+[python] Fix keybinding in README (#14851)
+Fix some typos (#14832)
+[doc] Fix broken link (#14828)
+Fixed bugs and refactor in new EXWM layer
+Fix key binding in README in layers/tools/transmission (#14814)
+Fix one diminish pattern in a list in :spacediminish (#14810)
+[org] Fix installation from nongnu elpa and double ownership of org
+[default] Fix the condition for dotspacemacs-use-SPC-as-y
+[home] Fix full release note cursor position
+[json] Fix "void variable" in init-json-navigator
+[json] Fix functions optionally working on regions
+Revert "[keyboard-layout] Fix colemak-hneio next/prev line in magit"
+[ocaml] Fix name of layer variable in defvar (#14736)
+[lsp] Fix missing [ in documentation
+[lsp] Fix some smaller issues in documentation
+[ocaml] Fix variable name to make ocamlformat properly working on save
+[core] Fix 'append nesting in transient-state-format-hint macro (#14698)
+Fix clone workspace
+[scheme] Fix geiser company backends
+erlang: Fix local vars
+elixir: Fix file local vars
+dart: Fix local vars
+Fix issues with EXWM layer (#14693)
+[ocaml] Fix typo (#14692)
+[ocaml] Fix for merlin package split (#14691)
+Fix: update eaf layer
+[python] Fix directory specific python-backend
+[groovy] Fix wrong customization type
+go: Fix local variables
+groovy: Fix local vars
+Fix ewww docs
+[eww] Fix some smaller issues in the new layer
+[base] Fix void spacemacs-evil-collection-allowed-list
+Fix scheme layer support for scheme implementations
+Fix call to deleted method in latex layer
+Fix #14641
+[c-c++] Fix "Wrong number of arguments" on Emacs 28
+[doc] Fix links
+[java] Fix not existing function
+[Fix] `dotspacemacs/test-dotfile` complains error on new custom vars
+[zig] Fix some smaller issues in the docs
+Fix bug in `spacemacs//python-setup-backend ()`
+CONTRIBUTING.org, Fix typos, etc.
+[bootstrap] Fix depreciation warning for pcase `t case
+[org] Fix startup and document key bindings
+ Fixed a bug in notmuch-tree which was preventing d/D bindings to work
+Fix packages missed in Melpa
+Revert "Fix void variable `mu4e-view-mode-map`" to fix bug #14548
+[lsp] Fix org markup
+[base] Fix evil collection buff menu
+Fixup URLs to HTTPS and fix GPLv3 logo link
+Fix typo: connst -> const
+Fix expected type of: dotspacemacs-which-key-delay
+[home] Fix alignement and footer regression cased by 9a66c2566
+Fix lambda quoting warning
+[auto-completion] Fix obsolete: helm-c-yas-space-match-any-greedy
+[core] Fix another typo
+[scala] Fix typos
+[core] Fix value validation for `dotspacemacs-editing-style`
+Fix .spacemacs validation choices
+Fix void variable `mu4e-view-mode-map`
+[python] Fix invalid recipe declaration for nose.el
+[spacemacs-navigation] Fix wrong url in recipe declaration
+[spacemacs-defaults] Fix broken URL in help-fns+ fetcher recipe
+[python] Fix broken fetcher declaration for pylookup
+Fix SPC h SPC, void smartparens-mode
+[org] Fix unsupported fuzzy link in docs
+Fixes error if parsing ipython dev version
+[parinfer] Fix: Wrong number of arguments: setq, 5
+Fix purpose and magit: max-lisp-eval-depth
+Fix void string-edit-mode
+[languagetool] Fix missing autoload on `langtool-correct-buffer`
+Reverted `ESS: Fixes syl20bnr#13282`
+[purpose] Fix undefined magit-display-buffer-function during startup
+[lua] Fix unbound var error during layer load
+Fix home buffer ace links
+[keyboard-layout] Fix colemak-hneio next/prev line in magit
+Fix EAF-layer to make it work with the epc (support Windows)
+Fix doc org-contacts
+Fix #14213 remove dash and ht from core libs
+[markdown] Fix formating issues introduced in my last commit
+[markdown] Fix syntax issues and revise readme and package.el
+[base] Fix void dired-mode-map
+ESS: Fixes #13282
+Fix which-key entries: gr and gs in dired and magit
+Fix key: home buffer list Recent Files by Project
+[latex] Fix small typo in docs
+Fix issue #14250 by unshadowing 'K'
+Fix typo found in commit ab4877f218def9ad1d90a1b625db6ff44c394286
+Small Fixes and Improvents to Factor Layer (#14253)
+[python] Fix one small issue in latest doc additions
+[doc] Fix some trivial typos in latest additions
+[base] Fix void helm-use-fuzzy
+[base] Fix evil undo
+Fix typo in spell-checking docs
+[core] Fix package update restart message
+Fix fsharp-mode auto-completion unreliable
+[git] Fix g magit-refresh for hybrid without evil navigation
+[git] Fix g for magit-refresh with emacs editing style
+Fix evil-easymotion in hybrid state
+Fix `undefined var` during loading of magit
+Fix major-mode set key prefix documentation
+[org] Fix key binding table formating
+[latex] Fix broken binding for `SPC m R TAB`
+Fix small doc typos in shell and latex layers
+Fix three typos in various files
+[c-c++] Fixed typo in README.org
+Fix misc. compilation warnings
+Fix counsel find-file functions to use Spacemacs large file check
+Fix fsharp-mode autocomplete not working
+Fix link
+Fix formatting of ivy keybinding table
+Fix links
+[pass] Fix travis-ci error on internal link
+[tabs] Fix typo
+Fix typo, and uppercase a key
+Fix git-gutter+ refresh on Magit refresh (#13958)
+[python] Fix small unintentional change from copyright date update
+[org] Fix readme: typo and table alignment
+[elisp] Fix loading of nameless from a dump
+[modeline] Fix all-the-icons theme with utf-8 separator
+[modeline] Fix dumper support for alternate modeline themes
+[osx] Fix broken code in instructions for setting config variables (#13955)
+Revert `Fix git-gutter+ refresh on Magit refresh`
+[lsp] Fix lsp-diagnostics-provider name (#13956)
+Fix git-gutter+ refresh on Magit refresh
+[core] Fix evil keybindings when a link is selected in Custom-mode (#13963)
+Fix up markdown mode specifiers (#13964)
+[lsp] Fix lsp-origami integration
+[html] Fix emmet-mode overwriting company popup bindings
+[fasd] Fix bug in fasd-find-directory-only
+[ipython] Fix bindinding for RET in transient state
+[ipython] Fix elisp whitespace
+[tests] Fix test-make-all-packages
+[core] Fix installation of unused layer dependencies after SPC h SPC
+[javascript] Fix default value for javascript-backend
+[core] Fix docstring for dotspacemacs-emacs-dumper-dump-file
+Fix "lsp is no valid syntax checker" error message
+[core] Fix append path from .spacemacs.env
+[editing] Fix use-package invocation for evil-swap-keys
+Fix org table evil paste
+[core] Fix ugly comment formating
+[bibtex] Fix some minor issues in bibtex layer
+[hy] Fix readme, remove = around links
+[rust] Fix .ron support
+[ESS] Fix: remove obsolete variables in ESS (#13826)
+[python][doc] Fix emphasis
+[python] Support --last-failed for pytest. Fixes #12023
+[treemacs] Fix wrong instructions to set ace mode as default action
+[groovy] Fix broken binding for non-lsp company backend
+[semantic-web][docs] Fix layer renamed from semweb
+Fix ruby mode handling for special files
+Revert "[spacemacs-bootstrap] Fix mode-line evil state foreground"
+[spacemacs-bootstrap] Fix mode-line evil state foreground
+[helm] Fix helm with universal argument
+[groovy] Fix missing ")" in documentation
+Fix ignored popwin declarations
+Fix spacelpa public key file name
+Fix inline `code` styling
+[go] Fix search for current test function to run
+[core] Fix: removes nils from layers list
+[spacemacs-layouts] Fix return value of `rename-buffer`
+Fix incf causing an error message
+Fix origami bindings in normal mode
+Fix typo in holy-mode latin function name
+[c++] Fix not loading of "c-c++/post-init-company" function
+[neotree][treemacs] Fix/unify first header line
+[extempore] Fix BEGIN_SRC block in doc and provide better eldoc setup
+[dap] Fix mode specific prefixes
+[spacemacs-base] Fix void layout local variable and function
+[plantuml] Fix config to have the package use local jar execution
+[Debug][Doc] Fix broken link in documentation.
+[lsp][dart] Fix dart layer
+[dash] Fix wrong keybindings in README
+[julia] Fix inconsistencies in backend configuration
+[treemacs doc] Fix layer variable
+Revert "[ipython] Fix mode name, and remove unmaintainable code"
+Fix bug with keyboard-layout layer an bépo layout
+[org] Fix typo in docs
+[ipython] Fix mode name, and remove unmaintainable code
+Fix emacs major mode leader key binding for GUI emacs
+[scala] Fix implicit loading of lsp layer
+Fix my previously introduced PR tutorial link
+[javascript] Fix broken link to tide layer
+[#1598] Fix missing mu4e-modes error
+[gnus] Fix gnus/init-gnus :init section indentation
+[#1598] [mu4e] Fix purpose labels for mu4e buffers
+[c-c++] Fix wrong variable name in documentation
+[sphinx] Fix typo in documentation
+[javascript] Fix another broken link in the documentation
+[javascript] Fix invalid link which broke doc generation
+[pdf] Fix pdf-view-jump-to-register
+Fix filenames in layer file headers
+[#13243] Fix keybinding issues with dropped notebook-multilang-mode
+[dump] Fix several dumper issues
+Fix R lsp company setup
+[nlinum] Fix symbol name typo
+Fix void destructuring-bind after cl pkg deprecation
+[haskell] Fix REPL stuck snippets
+rust: Fix a broken code block in README
+Fix helm-spacemacs-help-faq, SPC h f
+Fix missing implicit dependency of the git layer to magit-section
+[clojure] Fix typos
+Fix ~SPC m ;~ binding
+Fix capitalization of GitHub
+[keyboard-layout] Quick Fix of 11954
+[java] Fix key binding: SPC m m t C-a
+[helm] Fix rg interaction with its config file
+Fix erc-log transient state - change it to be in erc-view-log-mode
+Fix docstring typo
+Fix: broken rust-quick-run command
+Fix key bindings in Ruby layer
+Fix searching in the helm-find-file actions
+Fix helm-find-files-edit action `C-c C-e`
+Fix keys not remapped by keyboard-layout
+Fix CI builds by reverting a breaking change to `mocker.el`
+[ivy] Fix visual selection expansion across the buffer on `SPC s S` and `SPC s B`
+Fix "d d d starts with non prefix key" warning during loading of dap
+[latex] Fix README to say auto-fill on by default.
+Fix clang-format-on-save
+[CI] Fix doc fmt bot && cleanup
+Fix revision check
+Fix SPC-TAB in spacemacs-base distribution
+Fix typo "verbose" -> "verbatim"
+Fix typos
+[helm] Fix searching in projects with C-s from SPC p p
+Fix typo "verbose" -> "verbatim"
+[CI] Fix deploy condition
+Fix home buffer version and banner
+Fix spacemacs/counsel-search with ag and rg
+Fixes function name bug in react layer fmt-on-save
+Fix handling of java-backend
+Fix wrong initial directory
+Fix sudo-edit on TRAMP
+Fix spacemacs/kill-other-buffers to kill only buffers in the persp
+Fix bad value for :requires, list is mandatory when multiple symbols
+[c-c++] Fix typos and improve wording
+Fix void counsel-find-file-map
+Fix git-grep on point
+Fix broken ivy-occur
+[ivy] Fix spacemacs/layouts-ts-close-other
+Fix C-k in company with tooltip
+Fix GNU Global install instructions for macOS
+Fix tide with tsx files
+[search-engine] Fix typo of "Hoogle" as "Hoggle"
+Fix documentation for key bindings
+Fix conditional backend setup
+Fixed a typo
+[dap] Fix errors in README.org
+[core] Fix layer dependencies based on layer variables
+Fix #9429: Make agda layer retain indentation on paste.
+[dart] Fix reverting a dart buffer
+[org] Fix commit browsing via magit blame in org buffers
+[java] Fix broken "pu" binding to update user/project settings
+[java] Fix various issue introduced by dropping ensime support
+Fix C-k ivy-previous-line in ivy-switch-buffer
+[japanese] Fix doc
+Fix hybrid-mode error when dumping (fixes #11923)
+Fixed go-run-test-current-function for go test and gocheck
+[ansible] Fix filename regexp, escape period
+Fix definitions of extra actions R and D for recentf
+[elixir] Fix README.org
+[mu4e][doc] Fix a typo and org verbatim emphasis
+[clojure] Fix jumping backwards after cider-find-var
+[chore] Fix spelling error in prefix description
+[ansible] Fix void-variable company-backends
+[core] Fix some typos in stable ELPA verification prompts
+Fix Package undo-tree is unavailable
+Fixed the =c-c++-default-mode-for-headers= should not affect the default behavior for Emacs > 26.1+
+Fix treemacs-project-toggle
+Fixes issue of customize search engine list
+Fix formatting core/core-dotspacemacs.el
+Fix winner lazy loading issues
+Fix regular loading of Emacs (i.e. without a dump file)
+[python] Fixed typos
+Fix canceling spacemacs/ace-buffer-links
+Fix small typo in default popwin config for *undo-tree* buffer
+Fix ansible layer for upstream changes in ansible minor mode
+Fix failing lsp-python-ms setup
+Fixes flycheck support in jsonnet files
+Fix copied dir not in minibuffer, clipboard disabled
+[doc] Fix incorrect ace-link instruction
+Fix lazy-loading of ruby-test-mode
+[chinese] Fix fcitx.el. And add a variable
+Fix mismatched brackets in markdown README
+[doc] Fix typos and add missing/remove extra ~
+Fix dash//activate-package-docsets when using counsel-dash
+Fix spacemacs//helm-open-buffers-in-windows
+Fix typo on org-brain-add-friendship binding.
+Fix typo
+spacemacs-layouts: Fix adding buffers to new persp
+Fix void function error when recentf-save-list is undefined
+Fix parenthesis in rcirc/init-rcirc :init
+[docs] Fix spelling, Reorder configuration functions
+Fix flyspell correction on spell-checking layer
+Fix spacemacs-project setup readme
+Fix `SPC h SPC` binding after latest change
+Fix sort in insert-lazy-install-configuration
+core: Fix typo in error message
+[ocaml] Fix typo in diagnostic message.
+Fix doom-modeline in the messages buffer
+Fix typo in holy-mode
+Fix typo in mu4e documentation
+Fix binding for "capitalize keywords" in sql-layer
+Fixes #10762 Added support for user labels in LaTeX exports from org
+Fix org-clock-resolve-clock keybinding
+Fix wrong use-package declaration of irfc-mode
+Fix accidental activation of `flycheck-pos-tip-mode` in emacs lisp layer
+Fix documentation for ietf layer
+Fix react laye: make evil matchit work
+Fix partial merge of last doc update
+Fix OSX keybindings for daemon mode
+Fix post-init of parinfer in the clojure layer
+Fixes #5158
+[lsp] Fix lsp-prefer-flymake readme/docstring
+Fix typo in spell-checking layer documentation
+[javascript] Fix hook value to enable evil-matchit
+Fix helm transient state cleanup
+Fix changlog.develop gratitude typo
+Fix magit conflicting with golden-ratio
+Fix haskell jump handler for dante
+Fix typo in multiple-cursors readme
+Fixing incorrect shortcuts in README
+Fix undefined function spacemacs-docker//load-env when SPC f e R
+Fix lsp find-* functions using peek-navigation
+[agda] Fix: typo in agda layer setup documentation
+Fix keybindings overwritten by LSP
+Fix link to forge setup instructions
+Fix conflict between pipenv directory .venv and pyvenv file .venv
+Fixed typescript/jump-to-type-def when npm module
+Fix diff-hl-highlight function is set to nil
+Fix `magit-repository-directories` documentation
+Fix environment variables export
+Fix/improve dependency installers
+Fix spacemacs/c-c++-tags-find-references-at-point
+Fix jump handlers conflict for haskell and intero
+typescript: Fix jump handlers in tsx
+Fix typo
+Fix links
+ivy: Fix counsel search
+Fix java/python/javascript/rust lsp backends
+rcirc-late-fix: Fix compiler warnings
+typescript: Fix jump handling with multiple backends
+Fixes formatting on documentation table
+DOCUMENTATION.org: Fix typos
+Fix src blocks in c-c++ layer
+Fixes raw link to the lsp layer documentation
+Fixed haskell documentation about REPL
+Fixes #11527 - Error opening org file when cfengine and org layers enabled
+Fix broken leader key binding for inferior shell
+[TravisCI] Fix pub_org.sh file mode
+Fix packages.el formatting
+Fix code blocks
+Fix autocompletion of file names in js2-mode when lsp is used
+Fix missing newline warning
+Fix the rename file and organize import key binding for typescript
+Fix global toggles for aggressive-indent and smartparens
+Fixed shell popup broken on macOS
+java layer: Fix typo in README
+Fix: add prefix to org-mode clock options.
+pact: Fixed README formatting
+Julia: Add instructions for compiling language server. Fix typo.
+Fix header typo
+Fixes spotify documentation formatting
+Fix regression: void function helm-current-directory on C-x C-f
+Fix pyenv using system Python
+Fix issues in ruby layer
+Fix keybindings in documentation of spell checking transient state
+Fixes elm readme formatting
+Fixes keybinding conflict with `fasd` layer
+[Haskell] Fix Readme.org typos, missing words
+Fix key bindings for wgrep
+Fix updating buffer names in window configurations
+Fix Elfeed not saving on quit
+Fixes React imports when using web beautify.
+Fixes formatting on ruby readme
+Fix #1109: Escape argument for shell spacemacs/python-execute-file
+Fix smart-closing-parenthesis extra parenthesis
+Fix loading of Magithub
+clojure: Fix face name of fancified symbols
+Fix zone-out-when-idle and correctly disable it when nil
+Fixes copy-as-format documentation
+Fix templates layer
+Fixes framework name in layer header
+Fix a typo (overwite -> overwrite)
+Fix overflow of line in page-break-lines-mode when using line number
+Fix git-timemachine link
+Fix typo
+helm: Fix error from SPC s f on non-file buffers
+Fix and rename column-indexing toggle
+Fix handling of keymap property when it's symbol valued
+Fix the projectile layer
+ivy: Fix error on nil input with counsel search
+Fixes errors when restoring a perspective
+Fix typo
+Fix typo in org/README
+Fix lazy loading of evil-escape
+Fix startup buffers without spaceline mode line
+restructuredtext: Fix broken linum codeblock
+Fix typo
+Fix typos
+Fixes errors when env file does not exist at startup
+Fix breakage of `M-x` caused by a417e3ca856a2a6c885521d35ae1ce72513de978
+Fix environment variable setting for go and rust layers
+Fix editing style test
+Fix EXPERIMENTAL.org TOC
+Fix typo in spacemacs/plist-get docstring (#10803)
+Fix spacemacs-base functional tests
+Fix link to dash layer
+Fix evil-escape lighter being shown in mode-line
+Fix counsel-gtags package name in common-lisp layer
+Fixes #10723 - Properly check for executable rather than file (#10735)
+Fix some small typos in spacemacs-purpose documentation
+Fixes shell readme format
+OSX: Fix the function keys not working correctly
+Fix pushing org-projectile-todo-files to org-agenda-files
+Fix run-pandoc resetting settings
+jabber: Fix missing optional argument for the alert jabber-alert-echo function.
+Fix typo in README.org
+Fix formatting in javascript layer README.org
+Fix code block without language in +completion/templates README.org
+Fix various typos
+Fix vert/horiz in Window Manipulation Transient St (#10726)
+Fix issue "counsel-gtags command doesn't work in c-c++ layer
+Fix pyvenv pre-init defun and package names; adjust hy-mode prefixes.
+EXPERIMENTAL.org: Fix typo in ref to struct member
+Fix typo in default value for dotspacemacs-emacs-dumper-dump-file
+python: smartparens: Fix bytecomp warning (#10582)
+Fix modeline colors on emacs-mac port
+Fix travis script.
+Fix another link in documentation...
+Fix documentation link to web-beautify layer README
+Fix documentation formating
+Fix symbols's function definition is void: winum--window-list
+Fix Neotree RET bind
+Fix ipython-notebook layer instructions
+Fix 404 URLs
+Fix Ensime URL
+Fixes ansible key errors
+Fixes newline problems after newlines header
+Fix Slack Layer helm menu display
+Fix 404 links.
+perl5: Fix for leader key prefix name on CPerl mode
+Fix: use recipe for lsp-javascript-typescript
+xclipboard: Fix keybindings for copy and page
+Fix: remove buggy hooks in javascript and typescript
+Fix `l` keybinding in neotree to open in MRU window
+Fix automatic syntax checking for cfengine
+Fix xclipboard local package name
+Fixes TOC formatting for python layer
+Fixes CI failure
+Fix Typescript key binding typo
+Fix: remove unnecessary comments
+Fix line separation in README
+typescript: Fix eldoc hooks
+typescript: Fix eldoc
+Fix spacemacs/swiper-all-region-or-symbol function
+Fix Java layer README
+Fix doc for S>-bootstrap, S>-navigation, S>-visual and S>-org
+Fix documentation for S>-editing and S>-misc
+Fix package initialization on Emacs 27
+Fix doc for S>-completion and S>-editing-visual layers
+Fix doc for first bunch of internal spacemacs layers
+Fix typo
+Fix typo in clojure/README
+Fix docs for rcirc layer where :user-name is the right value
+Fix doc for spell-checking and ansible layer
+Fix doc for octave, sql and go layers
+Fix doc for nginx, jr, nlinum and systemd layer
+Fix doc for graphviz, deft and finance layer
+Fixed the next bunch of documents
+Fix doc for django, scala, sml, floobits, puppet and evernote layer
+Fix broken package declaration for dockerfile-mode
+Fix doc for tmux, c-c++, faust, node and docker layer
+Fix test test-resolve-package-archives--org-supports-https
+mu4e: Fix major-mode leader-key bindings
+Fix typo
+Fix base16-theme mapping for all themes in core-themes-support.el
+Fix doc for chinese, transmission, d, command-log and idris layer
+evil-mc: Fix misaligned cursors on macOS and Windows
+Fix hjkl bindings in image-mode and add leader bindings.
+Fix using eyebrowse without persp-mode
+Fix bindings in imenu-list
+Fix OPAM share directory in OCaml layer
+Fix potential unsupported separator by base powerline package
+Fix dotfile tests for dotspacemacs-mode-line-theme variable
+Fix void variable spaceline-all-the-icons-separator-scale
+Fix spelling errors in org layer documentation
+CONTRIBUTING.org: Fix broken link to reviewing PRs
+Fix doc for erlang, gpu, ess and vim-empty-lines layer
+Fix spacemacs mode-line theme
+Fix doc for common-lisp, bibtex, cfengine and gnus layer
+Fix errors in rcirc and slack layers
+Fix handling of windows paths of package archives
+Rust: Fix cargo-process-current-test keybinding, update documentation
+Fix capitalization of changes
+notmuch: Fix typo ":reuiqres" in notmuch-packages
+Fix #10091, which-key interface delay/ lag.
+core: Fix unescaped character literals
+core: Fix lambda quoted with '
+Fix doc for nim, fsharp, forth, dash and fasd layer
+Fix doc for terraform, perforce, elfeed and evil-snipe layer
+ivy: spacemacs-help: Fix candidate layers with no packages
+Fix 3 typos
+c-c++: Fix clang format on save
+Fix the broken python repl invocation through SPC a '
+Python: Fix pyenv-executable-find in presence of pyenv-which-ext.
+Fix typos in doc for safe structural editing
+Fix doc for cscope, geolocation, wakatime, prodigy and smex layer
+Fix org-projectile capture-template keyword argument
+Fix elfeed selection bindings in visual state
+Fix documentation for sphinx, confluence, helm and ivy layer
+Fix documentation for selectric, imenu-list and vimscript layers
+Fix typo
+Fix documentation for java, major-modes and purescript layer
+Fix documentation for speed-reading, restclient and pandoc layer
+Fix documentation issues with typescript
+Fix h key binding in compilation and grep buffers
+Fix neotree and treemacs window number allocation
+core: Fix issue with custom settings and lazy loading
+Fix switch to home buffer moves prev buffers cursor
+treemacs: Fix typo and keybinds table and improve description in README.
+Fix documentation about shadowing mechanism
+Fix typo in layer shadowing documentation
+Fix: company-dante -> dante-company
+Fix name of window-purpose in readme
+Fix various documentation errors and inconsistencies
+Fix documentation for parinfer, pdf-tools, yaml, csv and salt layer
+Fix documentation for elisp, colour, ibuffer and windows-scripts
+Fix typo (issue #9655)
+Fix purpose error when both helm and ivy layers are not used
+Fix warnings about unrecognized keys without helm or ivy layers
+Fix header
+Fix documentation issues with ruby, rails, and swift layers
+Fix SPC w = (balance windows)
+Fix evil-snipe
+Fix typo in deploy script
+Fix deploy
+Fix last remaining link that uses relative style
+Fix nix-mode.el URL
+Fixed feature header
+Fix reference to cfgl-package-distant-p
+Fix: kill buffer shall return to *docker-containers*
+Fix org-projectile/goto-todos
+Fix features format in misc README.org's
+Fix remote link in documentation deploy script
+Fix CI with nested "Features:" list
+Fix links in BEGINNERS_TUTORIAL.org
+Fix link and features in spacemacs-docker/README
+Fix documentation issues in CONTRIBUTING.org
+Fix documentation issues with slack and emoji layers
+php: Fix php-company autocompletion
+@Fix issue: SPC m : current major mode commands
+Fix html layer installer of spacemacs-docker
+Fix Org MIME keybindings in gnus layer help.
+Fix documentation for installing pass layer
+Fix typo. Improve grammar.
+Fix docstring for spacemacs/evil-smart-doc-lookup
+Fix the base16-solarflare mapping in core-themes-support.el
+Fix link
+Fix: Better checking of used packages
+Fix: Check owner of dependent packages
+Fix: Check dependencies for owned packages too
+Fix cfgl-layer docstring (concat not evaluated)
+Fix disabled scrollbar remains
+Fix rcirc logging where the channel name has '/' in it
+Fixes ansible-doc-mode error on `SPC h d k`
+Fix a missing package name in mu4e documentation
+Fix issue #8823: evil-paste-pop doesn't work
+Fix docstring for searching in files with Helm
+Fixes insert point for lazy loaded layers
+Fix keyboard-layout readme
+Fixed bug so hy command work when hy is installed on a virtualenv
+Fix Swift REPL leader key bindings
+Fix typo
+Fix d-mode flycheck imports on dub projects
+Fix sayid clojure debugger documentation typo
+Fix company-php configuration
+Fix layout name generation
+Fix Evil URL
+Fix #7383
+Fix terminal RET and TAB in layouts/workspaces transient state
+Fix some issues with persistent server
+Fix Clojure layer cider-repl-mode keybindings
+Fix OSX mapping issue, because of a recent commit changed the way of OSX mapping
+Fix typo in java layer README
+Fix frame cycling in evil-unimpaired.
+Fixes org table cleanup
+Fix typo for spell-checking config
+Fix last documentation errors
+Fix documentation error reported by Travis
+Fix error message about no eldoc support
+[docs] Fix parentheses
+FAQ: Fix git clone command for trying Spacemacs
+Fix key binding `dolist's
+Fix graphviz erroneous usage of default-tab-width
+Fix typo in keyboard-layout/packages.el
+Fix init-slime-company
+Fix typos in documentation
+Fixed url with unescaped `+` causing broken link
+Fix the "fix"
+Fix pronouns style
+Fix css links and various org links
+Fix support for fancy frame title
+Fix spacefmt test on deleted files
+Format and cleanup docs. Fix links.
+Fixes syl20bnr/develop.spacemacs.org#10
+Fix a typo in beginners tutorial
+Fix pasting ignoring register selection
+Fix CI
+Fix ansible layer typos
+Fixed a little typo
+Fix documentation about replace mode
+Fix elm to not switch to root directory
+Fix links and instructions in beginners tutorial
+Fix notation inconsistencies in .spacemacs.template
+Fix keybindings for ess layer
+Fix readme for GUI only nyan-mode
+Fix typos in space-doc.el
+Magit: Fix decrease hunk key in README
+Fixes keybindings for gfm-mode
+Fix spelling error in NeoTree Key Hints
+Fixes markdown org table saving
+Fix broken links to missing README files in layers list to fix #8291
+Fix broken link to CONTRIBUTE.org in documentation to fix #8290
+Remapping of twittering-mode was broken. Fix it.
+Update doc/LAYERS.org: Fix 2 Use-package titles/links
+Fix #8698
+core: Fix spacemacs/diminish-undo and add documentation about it
+Fix and update eshell's clear features
+Fix signatures of spacemacs/evil-mc-paste-{after,before}
+Fix zoom-frm
+Fix documentation for bundler keybindings in ruby layer
+Fix #7644
+Fix void: evil-mc-get-cursor-count when pasting
+Fixing typo
+Fixed keybinding to helm-cscope-find-calling-this-function
+Fix spelling
+Fix IndexProcessor for compatibility with python3.
+rcirc: Fix using multiple .authinfo lines for authentication.
+Fixed a type in the README for title bar
+Fix some typos in the dotfile template comments
+Fix #8653
+Fix repeating jumping to errors using the '.' command #8083
+Fix typos
+Fix typo in release note
+Fix void reference to go--position-bytes in go-rename
+Fix python-enable-yapf-format-on-save
+Fix 'o' on folded headings
+Fix typo in Clojure layer README
+Fix spacemacs/rename-current-buffer-file on non-file buffers.
+Fix ivy wgrep and helm-ag when used with rg
+Fix typo
+Fix evilification of edebug-mode-map
+Fix evil-search module activation
+Fix error global-linum-mode-check-buffers wrong type error
+core: Fix typo
+Fixed ranger layer documentation
+Fix typo for spell-checking readme
+Fix number of arguments in calling cider-test- funcs
+Fix old documentation of loading order
+Fix export-breaking org links in documentation
+Fix links in documentation which breaks org html export
+Fix variable is void: system-info in spacemacs/report-issue
+Fix golden ratio for new package winum
+Fix cider and cider-repl modes in company configuration
+Fix python path with virtualenv on Windows in Python nose package
+Fix issue with jump handler in omnisharp-mode where the handler is async
+Fix eldoc initialization in typescript layer.
+Fix a link on beginner's tutorial
+Fix helm :config: ‘fuzzy-match’ not supported in async sources.
+Mark tern command as async. Fixes #7591.
+which-key: Fix transient state descriptions
+Fix SPC b C-d and SPC b C-D conflict
+Fix typo in beginner’s tutorial – “differend”
+Fix hyperlinks in restclient README
+Fixed dead hyperlink in magit intro
+Fix minor typo
+Fix typo in Agda's packages.el
+Fix Typo in Purpose Layer
+Fix link to achievements in README.md
+Fix some minor mistakes and typos in the documentation
+Fix unbound holy-mode error
+spacemacs-purpose readme - Fix links and typos
+Fix eclim documentation in Java layer
+Fix #6947 by deriving conf-mode from text-mode
+Fix broken link to a file in CONTRIBUTING.org
+Fix whoopsie from previous commit
+Fix typos
+Fix inconsistent org mode key bindings
+Fix typo
+Fix usage of gorename on symlinked projects
+Fix connecting to default servers with TLS more than once with ERC
+Fix for 5320
+Fixed layout transient state not closing on layer select in ivy layer
+Fix some comments in purpose layer
+Fix spacemacs-purpose-popwin name
+Fix org markup in the changelog
+Fix a typo introduced in 42a33f3ae8c58b8f416207e6d553dbcbd78e5385
+Fix private/README.md
+Fix unclosed strings in spacemacs.template
+Fix typos in change log
+react: Fix emmet -> emmet-mode
+Fix some typos
+typescript: Fix potential nil buffer-file-name
+Fix shell buffer regexp
+Fix changelog saying systemd is in +config-files, when it is under +tools
+Fix typos in development CHANGELOG
+Fix golden-ratio in tmux
+Fix initial-buffer-choice in daemon mode
+Fix capitalization of “GitHub” in layer docs
+Fix wrong filename in a layer file’s header comment
+Fix a typo in the version switching message
+Fix SPC sj binding
+Fix (error: (void-variable spacemacs-jump-handlers-react-mode))
+Fix buffer edges bug.
+Fix packages list for spacemacs-language
+Fix latex-mode jump handler definition
+Fix jump handler macro invocation
+Fix (void-variable spacemacs-jump-handlers-....)
+Fix Python jumping with async anaconda mode function.
+[bepo] Fix loading of the ranger correction
+Fix get-package-directory regex
+Fix possible infinite appending to golden-ratio-exclude-buffer-names
+Fix: only choose random banner once
+Fix auto complete with key sequence in Hybrid mode
+Python: Fix link in layer Readme.
+Fix java layer after eclim package refactor
+Fix C-k not working in company-quickhelp-mode
+Fix company-quickhelp in daemon mode
+Fix version-control layer in daemon mode
+Fix neotree TS
+Fix gtags eldoc warning
+Fix references to declare-used-layer(s) in docs
+Fix description: command of generating TOC
+Fix asciidoc demote function name
+Fix possibly unbound mouse-wheel-mode
+Fix Python layer loading on emacs master branch.
+Fix typo in Scala README
+Fix configuration layer functional tests
+Fix typo
+Fix jumping backwards after calling spacemacs/evil-smart-goto-definition
+Fix agda indentation and README
+Fix Agda layer for users without 'agda-mode' executable.
+Fix cargo config
+Fix single missing character in documentation
+Replace the typewriter image with the correct one. Fix #6832
+Fix smartparens after nested snippet expansions
+Fix docs link to themes-megapack README.org
+Fix dot completion bug in scala mode
+Fix .gitignore to enable submodule update
+Fix #6704: don’t use evil-open-below/above
+Fix broken links in the docs
+Fix typo in doc/DOCUMENTATION.org
+Fix minor typos in .spacemacs.template
+Fix typos in Haskell layer README
+Fix emmet expansion if yas isn’t turned on
+Fix possibly calling bad code after theme change
+Fix void-function spacemacs//restore-previous-display-config error
+Fix notes on wrong powerline separators
+Fix spelling in saltstack layer
+Fix some intero functions
+Fix magit-gh-pulls docs
+Fix typo in docstring
+Fix bug with Autocomplete in elm
+Fix yaml layer autocompletion
+Fix #6500, only change ediff hook if org loaded
+Fix #5966, slime-eval-last-sexp is not defined
+Fix the loading of `vmd` for daemon mode
+Fix github layer missing parens
+Fix dependency in readme
+Fix doc typo and tweak source code pro doc
+Fixes display of per-binding docs in micro-state
+Fix #6429, provide tests for new startup-list.
+Fix spacemacs-start-directory variable definition
+Fix :owner reference in ivy-spacemacs-help
+Fix error with which-key--buffer on startup
+Fix init error for emacs in terminal mode
+Fix a minor grammatical mistake
+Fix duplicated layer string format error
+Fix tests
+Fix link appearance
+[bepo] Fix code style
+Fixing dash layer variable names.
+Fix javascript layer refactoring documentation
+Fix typo in layers/+tools/shell/README.org
+Breaking Bug Fix ERC related errors
+Fix proposed ghc-mod workaround in haskell layer README
+Fixes #6051, checks for existance of git-gutter.
+Fix package sources for ivy and helm
+core: new layer file -> layers.el / Fix regressions of previous commits
+Fix wrong documentation introduced by previous commit.
+Fix the dependencies missing in bibtex layer.
+Fix neotree key bindings
+Fix diminish for hi-lock mode
+Fix errors with last revert and move neotree funcs
+deft: Fix create new file with filter text
+Fix hs-minor-mode activation in prog modes
+Fix dumb error with spacemacs-projects-packages variable
+semantic: Fix srecode-map.el in root folder at install
+Fix dotspacemacs wizard
+Fix Elisp = prefix
+Fix bibtex keybinding loading and add more navigation options.
+Fix indentation in syntax-checking/packages.el
+Fix a typo
+Fixed agda-post-packages -> agda-packages (develop)
+Fix tramp history file path
+Fix go/README.org
+Fix file extension matching for filenames with newlines
+Fix error on startup (void-variable evil-normal-state-map)
+Fix showing of indicators in the fringe.
+Fix autohotkey documentation
+Fix font definition for first frame in daemon mode
+Fix null error
+Fix offset detection in js2-mode
+Fix typo in README.org
+Fix transparency transient state docstring
+Fix broken keybindings in the Rust layer
+Fix cider tests error, and improve implementation
+Fix ace-delete-window bindings
+Fix typo in COMMUNITY.org
+Fix 'makefile' for pylookup
+Revert "(5719) Fix multi-term shell popup"
+[clojure] Fix loading of `eldoc-mode`
+Fix shells asking for "Run program"
+spacemacs-helm: Fix typo (,r . ,r)
+Fix erc/README.org
+Fix typo in FAQ.org
+Fix next-error behavior when flycheck is active
+Fix url links in VIMUSERS.org
+(5719) Fix multi-term shell popup
+Fix Y-y$ remapping
+Fix eshell setup for xterm-color
+Fix bookmark binding conflict
+Fix misplaced keybinding definition for ranger
+Fix `deer` binding being overlapped by `dired`
+Fix dired-x dired-jump autoload
+Fix inconsistent notation of SPC key in docs
+Fix spelling error in .spacemacs template
+Fix +lang/markdown documentation on promotion and movement keybindings
+Fix minor typo in Go README
+Fix move selected text up and down in visual state
+Clojure: Fix a error caused by mess writing.
+Fix unit-test test-insert-lazy-install-form
+Fix eyebrowse error when syncing layers
+Fix long-lines toggle and rename it
+Fix evil-inner-buffer text object
+Fix persp-mode config for erc and rcirc
+Fix indentation
+Fix error when using `spacemacs/counsel-search' wihout initial input.
+Fix long lines in evil-snipe readme
+Fix C-c C-e key binding in helm-find-files
+Fix bug: helm-imenu doesn't work in react-mode
+Fix scrolling transient state keybindings typo
+Fix auto-completion toggle without default
+Fix chruby in the ruby layer
+Fix broken ensime refactor bindings
+Fix cider-pop-back function name
+Fix minor markup hiccup in pdf-tools README
+Fix smart doc and goto rewrite
+Fix smooth-scroll toggling at startup
+Revert "Fix startup error when dotspacemacs-smooth-scrolling is nil"
+Fix startup error when dotspacemacs-smooth-scrolling is nil
+Fix use of deprecated function avy--with-avy-keys
+Fixup rake config
+Fix inline code blocks
+Fix Java layer command documentation.
+Fix ranger layer typos
+Fix org-agenda RET behavior
+Fix Window Manipulation Transient State typo
+Fix pylookup binding
+Fixes #5106
+Fix the change log of release 0.105.11
+Fixed reversed keybindings for comint-previous/next.
+Fix scroll transient state
+evil-jumps: Fix old function names
+Fix 0 as prefix arg in paste transient state
+Fix formatting typo in CHANGELOG.org
+Fix typo
+Fix unusable Emacs when an ELPA repository is down
+ivy: Fix counsel-git-grep-region-or-symbol
+Fix wakatime-dashboard url
+Fix toggle-maximize-buffer
+[bepo] Fix elfeed remapping
+[bepo] Fix evil-magit remapping
+[bepo] Fix flycheck-error-list remapping
+Fix name of shell script function
+Fix docstring for layout transient state
+Fix typo in spacemacs-force-resume-layouts
+company: Fix :init and use default company-frontends
+tmux: Fix #4535
+Fix display of recent bookmarks without filename
+Fix react magic mode
+Fix error message in vcs trans-state
+Fix git-gutter linum setup.
+Fix name of google-translate's init function
+[doc] Fix some additional `SPC :` to `SPC SPC`
+Fix trailing whitespaces in last commit
+Fix previous commit
+[Doc] Fix possible misunderstanding of "root"
+Fix frame parameter for maximized
+which-key: Fix replacement for transient-state/body
+Fix flycheck loading tweak
+Fix/delete dead references to HOWTOs.org file
+Fix initialisation of erc-terminal-notifier - use-package was not being called
+Fix table alignment in SQL README
+Fix "the point" problems
+Fix parenthesis code style in Python packages
+Fix workspaces transient state
+Fix transient workspace tags
+ipython-nb: Fix transient-state doc
+Fix bugs when version-control-diff-tool = diff-hl
+Fix ielm initialization and register as REPL
+Fix code examples in auto-completion layer
+ipython-notebook: Fix typo in layer name in doc.
+Fix typo in syntax-checking README
+Fix typo in shell documentation.
+Fix docs to provide correct keybindings for Avy
+Fix helm-source-header not updating
+Fix early creation of empty org directory
+Fix helm-project-do-pt key-binding in docs
+Fix key binding part in c-c++/README.org
+Fix typo in dotfile template.
+Fix prefix error triggered by Helm
+Fix SPC h SPC function
+spacemacs-ivy: Fix imenu jumping for ivy split
+ivy: Fix recentf loading
+Fix mu4e installation instructions
+Fix jumping to nil perspectives
+Fix rbenv loading
+startup: Fix for #4057
+Fix spacemacs-buffer/goto-buffer being called twice in some cases
+emacs-lisp: Fix mode hook
+Fix void variable error for new version segment
+Add monokai-theme to themes-megapack. Fixes #4254.
+scala: Fix typo in variable name
+Fix typo in .spacemacs.template comment
+Fix some links in README.org files
+Fix spacemacs|do-after-display-system-init
+[haskell-layer] Fixed ghci-ng for stack projects
+latex: Fix enabling of minor modes
+Fix transparency toggle
+Fix #4279 Comint mode showing weird symbols
+Fix ruby-end hook removal
+Fix call to eyebrowse-rename
+Fix layouts TAB behavior
+Fix helm grep
+Fix another typo in README.md
+Fix some typos in README.md
+Fix markup and justification in Rust auto-completion documentation
+Fix horizontal/vertical splits documentation (-, /)
+Fix push/pull keybindings in git README
+Fix eyebrowse documentation
+Fix haskell SPC mht and SPC mhi
+Fix helm-spacemacs FAQ candidates
+Fix `web-mode` and `erc-log` micro-states bindings
+core: Fix free variable references
+Fix for #4204: Don't bind if emacs leader is ""
+Fix eyebrowse/layouts layer re-syncing
+helm-spacemacs: Fix FAQ source
+Fix #4215
+Fix smartparens bindings
+Fix early call to smartparens in ruby
+Fix flycheck clang args loading (zhengyangfeng00)
+Fix C/C++ flycheck hooks
+Fix rollback language
+Fix extra dash in org documentation.
+keys: Fix an issue with C-i/tab distinction
+Fixes typos
+Fix makefile for python version 2.7.10
+Fix smartparens workaround in auto-completion
+haskell: Fix command name
+Fix Latin function name
+Fix some documentation bugs
+Fix loading of git gutter fringes.
+Fix a typo in `version-control' README
+Fix vcs microstate documentation
+keys: Fix #3927
+Fix diminish timing of git gutter packages
+Fix issue #3978
+keys: Fix #3981
+Fix smartparens loading in web-mode
+Changed hotkeys for processes and packages. Fixes #3507.
+Fix period from triggering complete
+Fixed undefined (ruby-)mode which key prefix declaration
+Fix void variable error: smartparens-strict-mode
+Fix the badge - the github CDN cache is stale.
+Fix major mode bindings for finance layer.
+layers: Fix missing owner for some layers
+Fix neotree documentation
+Fix some broken documentation
+Fix evilify bug in vinegar layer
+Fix bug with org ctrl-c-ctrl-c binding
+Fix erroneous org-mode leader keys
+layers: Fix leader key in some modes
+Fix type error in package-archives
+Fix helm microstate
+spacemacs-base: Fix paren problem
+Fix rawgit badge cache
+Fix up latexmk code
+Fix `layout-switch-by-pos`
+Fix micro-state error.
+react: Fix Flycheck setup
+Fix grammar to be more consistent and discoverable
+Fix eshell linum-mode check
+Fix flycheck-pos-tip-mode setup
+Fix flycheck-pos-tip initialization
+Fix helm-spacemacs package action
+Fixed default value of `open-junk-file-directory'.
+Fix helm-faces to select face under point
+Fix snippet prompt on multiple valid keys (#1922)
+Fix up typography layer documentation
+Fix spacemacs/kill-other-buffers
+Fix vinegar keybindings
+scala: Fix bindings for Ensime test commands
+Fix doc publishing code
+Fix LaTeX flyspell hook
+Fix helm-spacemacs with new FAQ.org format
+Fix C-u dotspacemacs/sync-configuration-layers
+Fixed a typo in Editing Lisp code section.
+Fix flyspell/rcirc integration
+Fixes #1217, SPC T n after SPC T h broken
+Fix haskell layer paren bug
+Fix ghc-mod variable name
+Fix yas-snippet-dirs setup
+Fix unicode minor modes separator in terminal
+Fix the list of buffer-wide commands in markdown
+Fix debug on error toggle
+Fix typo in latex README
+Fix error in FAQ
+Fix magit-gh-pulls and magit-gitflow keys
+Fix modeline update (broken by upstream)
+Fix brew tap url in README
+python/doc: Fix a link to pylookup
+doc: Fix Markup in the projectile key binding table
+Fix `SPC j k` unwanted auto-comment
+spacemacs-layer: Fix linum-relative-mode
+Fix escaping in buffer name regexp
+Fix access to possibly void variable
+Fix Spacemacs buffer notes
+Fix minimize spelling mistake
+Fix #1493: add align rule for Haskell
+Fix erc notification icon
+Fix SIGQUIT bug #3324
+Fix typo in var name for suppressing error popups
+Fix #3214: add back split-window-and-switch func
+Fix bug introduced in df6b530
+Fix typo with ~= in the doc
+Fix erc-tex warning when starting spacemacs
+Fix some cl-lib function with prefix
+Fix pylookup
+Fix link to layers directory.
+Fix cljr-extract-def binding (again)
+Fix cljr-extract-def binding and update README
+Fix vim-powerline layer so it works. Resolves #3216
+Fix core tests
+Fix a typo, githib->github
+Fix README.md blunder introduced in #3138
+Fix typo "SPV" in layers/org/README
+Fix smartparens configuration in html layer
+Fix lots of errors in change log
+Fix wrong variable name in README for rcirc layer.
+Fix org-repo-todo loading
+Fix showing snippets in company popup.
+Fix update error when a distant package is unavailable
+Fix bug with define-prefix-command (2)
+Fix bug with define-prefix-command
+Fix #2390
+Fix evil-matchit for python and ruby
+Fix version injection in home buffer
+spacemacs-core: Fix issues with major-mode-leader
+Fix documentation for emacsclient
+Fix #3015 (void function)
+Fix tests
+Fix salt layer keybinding.
+Fix `SPC u` not repeating universal-argument
+core: Fix #2952 by not loading missing layer
+spacemacs-layer: Fix ahs search
+Fix eldoc not enabled properly in gtags layer
+Fix `ranger-up-directory` mapping for emacs / evil users.
+Fix neotree 0 window bug.
+Fix broken alignment commands
+Fix `SPC f e s` and `SPC f e c`
+Fix link to git layer.
+Fix Markdown to Org for README in Jabber Layer
+Fix the README for the perspectives layer
+Fix tern integration (see #2400)
+Fix bug in spacemacs//cider-eval-in-repl-no-focus
+Fix #2148: Update failure in Emacs 25
+Fix the header for the YAML package.el
+Fix returned local dir value in python and rcirc layers
+Fix projectile-generic-command
+Fix the path for loading solarized.
+Fix docs for magit's url and manual changes.
+Fixed osx/init function for reveal-in-osx-finder
+Fix single letter typo for the quickhelp :)
+[Fix #2363] Fix inputting backtick and single quote in markdown mode
+Fixed various naming errors in package file descriptions
+Fix ace-link for spacemacs buffer
+Fix visual-state evil-yank-binding in evilified modes
+eyebrowse layer: Fix not working keys when tagging a workspace
+Fix Spacemacs Home Buffer to jump to bookmarks.
+Fixed the formatting of the bullet points
+Fixes broken link to the magit "about" page
+Fix selection-info when region reaches buffer end
+unimpaired layer: Fix newline format
+Fix global-mode segment
+Fix helm-spacemacs
+[Fix #1514] Add transparency micro-state.
+Fix formatting typo
+Fix RoR and Django layer naming
+Fix `SPC i K` for the first line of buffer.
+Fix typo in c-c++ README.
+Fix typo in Github readme
+Fix issues in VIMUSERS.org.
+Fixing typo in git command to update spacemacs
+Fixed docs
+Fix the document of version control keybinding
+Fix the link for `pt` in README.md.
+Fixes links to other documents (.md => .org)
+Fix call to popwin-mode before it's loaded
+Fixed `electric-pair-skip` not working in racket mode
+[Fix #1953] Correct link to text micro-state documentation.
+Fix typo in header
+Fix typos.
+Fix magit-toggle-whitespace et al for magit 2.1.0
+Fix magit loading when git-use-magit-next is nil
+[Fix #2082] Use Helm header line for input
+Fix tab in home buffer in terminal and define a map for spacemacs-mode
+Fix home buffer keys in terminal
+Fix helm-resume opening window in half of split screen
+[Fix #1980] Remove f from helm-spacemacs.
+[Fix #1453] Re-enable auto-save-mode
+Fix various bugs and missing functions in search funcions
+Fix `SPC s b` error
+Fix not defined dired-mode-map at startup
+Fix helm-ag integration with expand-region
+Fix bookmark list in home buffer, clean shortcuts
+Fix various key bindings in converted READMEs
+Fix various issues with org markup
+Fix to allow ~SPC ,~ and others as such to be renderd
+Fix erc-track-mode in modeline
+[Fix #1512] Don't enable smartparens when expanding snippets
+latex layer: Fix latex post init flycheck hook
+Fixing copy/paste error: npm install js-beautify
+Fixing Links in README
+Fix a couple of typos.
+Fixing link to Git Layers
+[Fix #1813] Insert tab in Python REPL
+Fix error when checking for new version
+Fix unit tests for layer variables
+org layer: Fix lazy-loading issue with ox-gfm
+Fix toggle-maximize-buffer
+[Fix #1611] Add an entry for Helm help buffer in display-buffer-alist
+Fix Python and Semantic integration
+[Fix #1668] Don't enable Vim key bindings if holy-mode
+Fix smex prompt whitespace
+Fix the recentf-exclude variable
+[Fix #1553] Make sure yasnippet is actually loaded
+Fix binding conflict with shell and evil-nerd-commenter
+Fix aggressive manipulation of face-remapping-alist in helm and ido
+Fix missing value for :exit keyword in some micro-states
+Fix typos in org-present keybinds
+Exclude terminal modes from vim-empty-lines Fixes #1615
+Fix for new line insertions with 'SPC i'
+Fix redefinition error of categories ?U and ?u when resync dotfile
+Fix Rails mappings showing up in non rails projects.
+Fix error when hiding lighter for fill-column-indicator
+Fix evil-highlight-persist face (again!)
+Fix typos in ocaml layer.
+Fix advice deactivation for paste micro-state
+[Fix #1547] Make org-ctrl-c-ctrl-c fallback to <Leader>m,.
+Fix #1557: Add auto-completion to puppet
+Fixed ghci-ng loading
+php-layer: Fix ggtags hook.
+[Fix #960] Add open-junk-file
+Fix company and fci-mode incompatibility
+Fix fci-mode rule color
+Fixed ghci-ng keybindings being overriden
+Fix spray cursor issue when quitting
+Fix global toggle of whitespace
+Fix for paste command in multi-term
+Fix key bindings for emacs lisp format commands
+Fix key binding for Elisp format sexp
+[Fix #1409, #1407, #1424, #1442]] Explicitly manage popwin
+[Fix Smantic layer] Load srefactor-lisp
+Fix package loading in lang/ess
+[Fix] Disable company-tooltip-flip
+Fix `gd` and `K` in normal state that insert strings in the buffer
+Fix iedit-insert state face in vim-powerline
+Fix helm-spacemacs logic for open layer doc
+[Fix #1396] Do not use other function to display buffer in Helm
+Fixed typo: SPC fe h => SPC f e h
+Fix typos in .spacemacs template.
+c-c++ layer: Fix post-init function names and remove unnecessary when condition
+Fix non unicode number spacing in modeline
+Fix evil-search-highlight-persist-highlight-face again
+Fix ggtags eldoc integration
+Fix error with git-gutter and linum-mode.
+Fix links
+[Fix #1121] Delete redundant buffer key bindings
+Fixed typo in window documentation
+Fix evil-map
+Fix typo
+[Fix #1280] Only open Helm window in current window
+Fix spelling error in window micro-state.
+Fix bug in ruby auto-completion
+Fix release note
+html layer: Fixes #1161 Emmet tab expansion and other fixes
+Fix silly typo
+Fixed a typo in window-manipulation-full-doc
+Fix escaping in open-in-external-app on windows
+Fix formatting for the auto-completion README.md
+Fix `ruby-test-mode` initialization.
+Fix evil-search-highlight-persist-highlight-face again
+[Fix #992] Use gh-md for superior reading experience
+Fix evil-search-highlight-persist-highlight-face unreadable
+[Fix #1083] Improve functionality of Spacemacs shortcuts
+Fix typo in syntax-checking layer.
+Fix error loading non existing buffer cache file
+Fix configuration-layer unit test
+Fix broken link in README.
+Fix org-pomodoro init function name
+[puppet] Fix typos in README keybindings
+Fix company backends issues
+Fix company-backends error with ymcd and c-headers
+Fix missing link in README
+Fix two important bugs in Update/Rollback
+Fix search of package installed directory
+Fix bugs in c-c++ and ycmd auto-completion
+Fix ace-link key bindings configuration
+Fixed ace-link configuration
+Fix regression in solarized theme for 24.3
+Fix header comments in test files
+Fix default layer in dotfile template
+[Fix #1060] Only enable vi tildes where appropriate
+Fix helm-spacemacs for unused layers
+Fix enable company and auto-complete macros
+Fix for go-oracle.
+[Fix #1023] Restore rectangle-mark-mode key binding
+auto-completion layer: Fix typo in funcs.el
+Fix various missing init functions
+Fix automatic global toggle of auto-complete when loaded
+Fix double loading of packages.el files
+Fix and tweaks for startup lists
+Fix error when displaying the missing layer warning
+Fix nyan cat starting rainbow on a light background
+Fix loading order in some of my layers
+c-c++ layer: Fix append of company-cmake
+Fix for cider-send-function-to-repl
+Fix evilified `evil-visual-line` key binding
+Fix error in buffer micro-state doc
+Fix for persistent-server if server never got started
+haskell layer: Fix flycheck configuration
+Fix some extra lang quirks and add Nim support
+Fix update of cursor color (temporary fix for #964)
+Fix eager expansion of evilify macro
+[Fix #890] Improve editing functionality for holy-mode
+Fix company transformer with company-mode-use-tab-instead-of-enter
+Fix non activated package if there is no defined init function
+Fix smex overwritten by helm configuration
+Fix bad Markdown markup in private/README
+[Fix #878] Add flycheck-pos-tip
+[Fix #661] Add highlight-numbers
+Fix loading packages for new version of ess
+[Fix #803] Add eval-sexp-fu
+[Fix #693] Make helm-ff-doted-directory consistent
+Fix for flycheck-haskell-setup autoload
+Fix missing functions in projectile :commands
+Fix lazy loading of rcirc
+[Fix #859] Remove now unnecessary winner-mode handling for Helm
+Fix for rcirc load ordering and configuration
+Fix error for emacs versions built without graphics support
+Fix window-numbering duplicated mode-line indicator
+Fix clojure lazy-loading
+Fix bookmark lazy-loading
+Fix lazy-loading of auto-highlight symbol
+Fix compatibility with use-package 2.0
+Fix up some use-package forms
+[Fix #738] Display all parameters in the top line
+Fix utf-8 separator in powerline configuration
+Fix mode-line progress bar in the dotfile when pressing C-c C-c
+Fix presence of GUI element when starting emacs as a daemon
+Fix unbalanced parenthesis in evil-snipe packages.el
+Fix typo doftile -> dotfile
+Fix bindings for "hn" and "hN" for hl-anything
+Fix typos in micro-state source
+Fix test: test-declare-layers--result-order-is-reversed
+Fix spacemacs loading with 'all for dotspacemacs-configuration-layers
+Fix typo in spacemacs/mode-line-org-org-clock-current-task-toggle
+Fix boundp check for 'spacemacs-use-helm-projectile'
+Fixed flycheck not being properly initialized for haskell-mode
+dotspacemacs: Fix execution of dotspacemacs/init when C-c C-c
+clojure layer: Fix lazy loading of golden-ratio settings
+Fix broken ac-cider link in Clojure README
+Fixes an issue with company-ghc not loading correctly
+Fix sticking helm micro-state when performing some actions
+Fix ruby filetype regex
+Fix ignored parameter color in `spacemacs/set-evil-cursor-color`
+Fix micro-state face override from ido that could persist in helm
+Fix ido micro-state which could persist between different ido sessions
+Fix last issues with ido micro-state
+Fix H and L symmetry
+Fix header for ghci-ng section in readme
+Fixes #641
+Fix glitches with ido and helm micro-state faces
+Fix side effect with golden-ratio and lv
+Scala: Fix issue with ensime '.' command
+Fix error in clojure layer with configuration-layer/package-declaredp
+Fix bug in the go/init-go-oracle function
+Fix outdated comment
+Fix typo "orhpan" -> "orphan" in "dostpacemacs-delete-orphan-packages"
+Fix a typo, past -> paste
+Fix missing parameters for python-shell-send-region-switch
+Fix a bug in loading animation dot length
+Fix escape sequence for evil-lisp-state
+Fix for css yasnippet load issue.
+Fix LaTex typo/link in README
+Fix error when attempting to delete an unknown package
+Fix typo in finance layer README
+Fix `[Update]` for 24.3
+Fix TAB in terminal to switch to helm micro-state
+Fix dotspacemacs-helm-micro-state variable name
+Fix evilification of git-rebase-mode
+Fix get version of built-in package
+Fixed spelling of ASP
+Fix duplicates in helm-spacemacs package candidates
+Fix csharp layer key bindings doc, format and sort them
+Fix regression in visual block with evil-escape
+Fix blank powerline with startup buffers in some circumstances
+Fixes #489 Spacemacs uses the wrong package.el implementation
+Fixes #494 Powerline is not loaded in startup buffers
+Fixes #493 Powerline curves are not resized when zooming the frame
+Fix ignored system-type in `spacemacs/set-default-font`
+Fix crash if `Source Code Pro` is not available on the system
+Fix helm-spacemacs broken with new `core-` prefix
+Fix emacs quit when replying `n` for question `do you really want to quit?`
+Fix `fd` not working in some case when in `emacs state`
+Fix README.md link to git documentation
+Fix error when invoking ido
+Fix the behavior of <tab> in term-mode buffers due to yasnippet
+Fixed minor grammatical error
+Fix regression with iedit states and evil-escape
+Fix void-variable error introduced by last commit
+Fix error message when opening NeoTree buffer
+Fix regression with term and evil-escape
+Fix check for new versions
+Fix multiple insertion of `f` in isearch and ex-command contexts
+Fixes #437 Tips For Emacs Users Missing
+Fixes #442 Error with `n` and `N` with recent update of anzu
+Fix :nohl ex command to clear persistent highlights
+Fix display error of mode-line when anzu package is excluded
+Fix potential errors when activating hs-minor-mode
+Fix helm-spacemacs with defvar declaration in config.el files
+Fix a typo in README
+Fix conf_layers link in private README
+Fixes #415 Compatibility with 24.3
+Fix elisp key bindings in key-bindings.el of spacemacs layer
+Fix git-gutter-fringe and linum
+Fixes #397 activate package dependencies before installing
+Fix global-mode-string and new version sections of mode-line
+Fix check version implementation on Windows
+Fixes #390 Reimplement check of new version
+Fix missing gh library required for update notification
+Fix images in git layer README
+Fixes remaining function requires graphical support
+Fixes #50 compatibility for emacs with no graphical support
+Fixes #211 cygwin emacs-w32 wrong unicode chars
+Fix lazy activation of packages for 24.3
+Fix README headers level in Features section
+Fixes #381 server directory unsafe on windows
+Fix evil-tutor configuration
+Fix define and bind evil-object macro with latest changes in evil-mode
+Fix startup error void function string-empty-p
+Fix the mess at the end of DOCUMENTATION.md
+Fixes #344 SPC f i undefined and document SPC f e prefix
+Fixes #343 Add the version number in Spacemacs
+Fix init function names
+Fix duplicated battery info in mode-line
+Fix go to init function in helm-spacemacs
+Fixes #327 Add binding for window split + move to window
+Fixes #331 On Windows SPC does not work in org files
+Fixes for company-mode for C/C++
+Fixes #316 Pre-extensions var are required by default
+Fixes #315 error when a layer does not exist
+Fix error with `git-enable-github-support` and helm-spacemacs
+Fixes #283 Find a way to map `<SPC> m` to `,`
+Fixes #283 Find a way to map `<SPC> m` to `,`
+Fixed tern-auto-complete to load correctly
+Fix colors saturation and lightness micro-state
+Fix perforce layer
+Fix colors for rainbow-identifiers at startup
+Fix git-gutter lazy loading in git layer
+Fix spacemacs|evilify `n` and `N` key bindings
+Fix minor documentation issue
+Reverts #280 Fix evil-surround vim-surround inconsistency
+Fix for dotspacemacs-fullscreen-at-startup on windows
+Fixed evil-surround inconsistency
+Fixes #270 Evil keybindings no longer work in *Scratch* buffer
+Fixed location of auto-save-list files
+Fixes #262 Add documentation about font
+Fix bad format and typos in layer READMEs
+Fixes #258 C-u to scroll up doesn't work anymore
+Fixed `dotspacemacs-persistent-server` key bindings
+Fixed undo-tree-auto-save-history
+Fixes #78 Use helm histories for eshell/comint
+Fixes #216 Additional evil-org-mode keybindings
+Fixes #226 Flycheck not automatically started in haskell buffers.
+Fixes #238 Smartparens-strict-mode not working
+Fix smartparens-strict-mode for python
+Fixes #220 missing description of commands in guide-key
+Fix #223 Changing buffers causes periodic recentering
+Fix custom evil-ex bindings in insert state
+Fixes #239 no binding for magit-goto-next-section
+Fixes #236 custom ex-command and M-x command key
+Fixes #237 Spacemacs finds orphan packages every time
+Fix alphabetical sorting of packages and extensions
+Fix defvar instead of setq in readme
+Fix incorrect example for evil-escape-key-sequence
+Fixes #224 jedi does not need to be installed manually
+Fix title image in readme
+Fixes #222 Modeline colors don't quite match up
+Fix guide-key breakage
+Fix `o` and `O` in iedit states
+Fix `overlayp, nil` in iedit state
+Fix `C-U` bindings in iedit state
+Fix `A` and `I` descriptions in iedit layer documentation
+Fix missing `~` in README and missing Paradox link in DOC
+Fix lazy loading of iedit
+Fix helm-resume key bindings conflict, now using <SPC> h l
+Fix `*` and `#` with ahs
+Fixes #195 Add documentation for `<SPC> o` (reserved to users)
+Fixes #196 Move <SPC> w v and <SPC> w b and window resize micro-state
+Fix typo in DOCUMENTATION.md
+Fixes #186 Extend support for native themes.
+Fixes #175 Org-mode is adding indents to new headings
+Fixes #182 Pre-extensions var are required by default
+Fixes #181 `<SPC> c t` is defined both for evil-nc and theme cycling
+Fix functions prefix in erlang-elixir layer
+Fixes #161 Add Trash/Recycle Bin support
+Fixes #166 Lower delay for guide-key
+Fix annoying company behaviour in ruby-like languages
+Fix: projectile-persp-bridge is inside of persp-projectile
+Fix solarized term default faces for emacs 24.3
+Fix typo in dotspacemacs-default-theme
+Fix `<SPC> p D` binding for projectile-dired
+Fix some typo in documentation
+Fixes #165 evil-org mode submodule
+Fixes #163 Wrong face in `term` when changing default spacemacs theme
+Fixes #147 Reenable helm-projectile commands
+Fix void variable spacemacs-config-layer
+Fix layer creation command
+Fixes #152 missing update section in readme
+Fixes #146 Add support for fancy-battery in mode-line
+Fixes #136 add truncate lines toggle key bindings
+Fix rainbow-identifiers faces update when theme is specified in dotfile
+Fixes #128 Cannot use <SPC> leader in Magit buffers
+Fix counter when installing package
+Fix "jk" experimental feature for projectile find find using ido
+Fixes #115 Unable to customize org agenda files
+Fix find-dotfile function
+Fix a bug in automatic orphans deletion algorithm
+Fix typos in contribute
+Fixes #107 Bad Interaction Between Highlighting Line
+Fixes #103 Fancy narrow key bindings are overridden
+Fixes #42 false positives in orphan package cleanup
+Fix ess contrib layer: bad init function prefix
+Fix error with diminish and smartparens
+Fix broken micro-states in syl20bnr contrib in Emacs 24.4
+Fix broken scale font micro-state in Emacs 24.4
+Fix readme TOC
+Fix ag
+Fix broken links in readme
+Fixes #40 and #53 Move evil-nerd-commenter to extensions
+Fixes #51 Projectile cache remains empty
+Fix ido-vertical key bindings stability
+Fix helm lazy loading for describe-xxx functions
+Fix helm-show-kill-ring binding
+Fixes #46 Weird behavior of projectile
+Fixes #45 maximize frame if dotspacemas-fullscreen-at-startup is t
+Fixes #44 error "subword-mode is not currently registered as a minor mode"
+Fixes #41 cannot insert `f` in ex command mode
+Fixes #35 spacemacs dotfile should be optional
+Fixes #25 put custom variables in ~/.spacemacs
+Fix a bug where wrong dependent packages could be deleted
+Fix error when checking dotspacemacs-fullscreen-at-startup
+Fix bad mode-line format when flycheck is not enabled
+Fixes #30 spacemacs/escape-state-term-insert-func
+Fixes #28 Anzu mode displays in all windows in all frames
+Fix bad prefix `S` by changing shell-command binding
+Fix bug with yasnippet and haskell mode
+Fix missing packages in spacemacs-packages
+Fix URLs of powerline separators screenshots in readme
+Fixes #17 all deps for EDTS are now available in MELPA
+Fix powerline separators and make them configurable
+Fixes typo in xxx-packages docstring
+Fixes #16 `fd` bug in minibuffer
+Fix error void function powerline-reset
+Fix some typo in readme
+Fix a bug with yasnippet loading
+Fix incorrect base state after `fd`
+Fix wrong state when leaving insert state in some cases
+Fix `fd` issue in minibuffer
+Fix some typo in Git section in readme
+Fix diminish of smartparens lighter
+Fix bug when invoking a helm window
+Fix 'fd' trigger for helm
+Fix `jj` support to exit helm windows
+Fix typo in .spacemacs.template
+Fix counter of installing packages
+Fixes #11 Multiple things don't work on Windows
+Fix syntax error in spacemacs/extensions.el
+Fix key binding for toggle fringe in readme
+Fix pylookup configuration
+Fixes #7 Theme cycling fails with void definition
+Fix syntax error in syl20bnr configuration layer
+Fix window number ghost in mode line
+Fixes #3
+Fix Wrong type argument: symbolp, "Source Code Pro"
+Fix some typos in readme
+Fix yasnippet initialization
+Fix inverted key bindings for quick line formatting
+Fix broken evil-backward-char in compilation buffers
+Fix typo in spacemacs/extensions.el
+Fix formating in *spacemacs*
+Fix typo in readme
+Fix syntax error in packages.el
+Fix ace-jump-mode autoload
+Fix error in contribsys.el preventing from installing new packages
+Fix typos in packages.el
+Fix init of Solarized theme
+Fix deprecated user-extensions-directory variable
+Fix ToC links in readme
+Fix formating of a table in readme
+Fix error in comment
+Fix 'f' binding key conflict in magit-status buffer
+Fix eval-after-load for agenda key bindings
+Fix error in bzg-big-fringe function
+Fix some readme links
+Fix lazy loading of flycheck
+Fix lazy loading of pylookup
+Fix erlang/EDTS lazy loading
+Fix initialization of auto-highlight-symbol-mode
+Fix path to new yas yasnippet
+Fix error in init-evil-leader
+Fix evil motion 'f' when changing text with 'c'
+Fix window numbering
+Fix conflict in key bindings
+Fix correct column to highlight with fill-column-indicator
+Fix solarized submodule.
+Remove fill-column-indicator since for now it cause a bug with search-forward. Fix bug with revive hook. Clean up unused packages. evil-insert-map is not reinitialized anymore.

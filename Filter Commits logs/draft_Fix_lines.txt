@@ -1,0 +1,818 @@
+[unord.req.general] Fix garbled end of sentence
+[basic.scope.scope] Fix indentation in example
+[class.inhctor.init] Fix explanation of "error:" in example
+[temp.deduct.general] Fix typo in comment in example
+[flat.multiset.modifiers] Fix typo in "multiset" (#5927)
+[format.string.escaped] Fix example of invalid code unit (#5890)
+[temp.local] Fix typo in "inject-class-name" (#5889)
+[associative.reqmts.general] Fix typo in namespace name (#5881)
+[func.wrap.move.general] Fix formatting of "cv" (#5880)
+[unord.general, container.adaptors.general] Fix list of exposition-only alias templates (#5840)
+[c.math.hypot3] Fix mis-transcribed parameter type (#5852)
+[mdspan.accessor.default.members] Fix typo in "equivalent"
+[diff.cpp20.{dcl,expr}] Fix subclause order to match main document
+[cpp.predefined] Fix index entries
+[expr.ass] Fix typo, "~" should be "^".
+[format.range.fmt*] Fix missing \exposid, align comments
+[coro.generator.promise] Fix indentation of declarations
+[range.move.wrap] Fix constraint (move, not copy-constructible)
+[format.string.escaped] Fix typos in "APOSTROPHE"
+[range.refinements] Fix template argument name ("T", not "R")
+[range.drop.overview, range.take.overview] Fixed unformatted (void)F, decay-copy(E)
+[algorithm.syn] Fix template head formatting (#5786)
+[tuple.syn, tuple.like] Fix template head formatting (#5784)
+[ranges.cartesian.iterator] Fix typo "reference_t" => "range_reference_t" (#5777)
+[unord.multimap.overview] Fix presentation of member types
+[streambuf.cons] Fix grammar typo
+[fpos.operations] Fix name of type trait
+[fpos] Fix typo in exposition-only member
+[ios.base.storage] Fix grammar typo
+[locale.collate.general] Fix grammar typo
+[time.cal.year.members] Fix erroneous qualified-id
+[time.duration.io] Fix grammar typo
+[valarray.members] Fix bad reference to argument
+[uninitialized.move] Fix typos in parameter names
+[set.difference] Fix grammar typo
+[flat.set.defn] Fix name of function parameter ("rg", not "range")
+[range.as.const.view] Fix order of constraints in class synopsis (#5760)
+Fix preconditions for start_lifetime_as_array(p, n)
+[range.adaptor.tuple] Fix tuple helper parameter name clash (#5769)
+[flat.multi*] Fix typo ("mutli" => "multi")
+[expr.prim.id.unqual] Fix parameter name in example ("y", not "z")
+[ranges.cartesian.iterator] Fix typo
+[range.repeat.view] Fix typo (#5765)
+[range.as.rvalue.view] Fix accidentally swapped concepts in template head
+[range.chunk] Fix subclause headings (#5516)
+[format.string.escaped] Fix invalid examples
+[range.cartesian.view] Fix definition of cartesian-product-is-common
+[thread.lock.unique.locking] Fix function call expressions
+[range.zip.transform.view] Fix typo: mmove_constructible.
+[range.join.with.sentinel] Fix template format
+[format.formattable] Fix spacing of _requires-expression_
+[vector.bool] Fix wording - change "variable template" to "expression"
+[flat.set.modifiers] Fix subject of subclause.
+P2513R3 char8_t Compatibility and Portability Fix
+[numeric.limits.members] Fix English phrasing in footnote
+[range.ref.view] Fix index command (#5648)
+[range.take.overview] Fix punctuation (#5564)
+[range.req.general] Fix grammar typo
+[span.syn] Fix formatting of comment in header synopsis
+[unord.multiset.overview] Fix presentation of member types
+[unord.set.overview] Fix presentation of member types
+[unord.map.overview] Fix presentation of member types
+[set.cons] Fix grammar typo
+[forward.list.modifiers] Fix misspelled parameter name
+[functional.syn,func.search.default] Fix name of template parameter
+[allocator.adaptor.syn] Fix typo in comment in header synopsis
+[range.elements.sentinel] Fix incorrect \placeholder (#5526)
+[ranges.syn] Fix the constraints order of slide_view
+[func.wrap.move.ctor] Fix typo naming template parameter packs (#5517)
+[tuple.cnstr] Fix bad escaping in codeblock (#5501)
+[range.chunk.fwd.iter] Fix unformatted semicolon (#5492)
+[temp.over] Fix grammar typos
+[temp.deduct.type] Fix grammar typo
+[temp.decls.general] Fix missing comma
+[over.match.class.deduct] Fix syntax error in example
+[class.base.init] Fix grammar typo in note
+[class.expl.init] Fix grammar typo
+[class.copy.ctor] Fix grammar typo
+[dcl.fct.def.coroutine] Fix grammar typo
+[dcl.init.aggr] Fix grammar typo in example
+[dcl.fct.default] Fix grammar typo in comment in example
+[dcl.fct.default] Fix indentation in example code
+[expr.yield] Fix typos in examples
+[expr.or] Fix grammar typo
+[expr.xor] Fix grammar typo
+[expr.mptr.oper] Fix code indentation in example
+[expr.await] Fix English grammar in string-literal in example
+[expr.prim.lambda.general] Fix missing capture-default in example
+[intro.progress] Fix grammar typo
+[intro.memory] Fix missing semicolon in example
+[over.match.best.general] Fix typo in example (#5446)
+[syncstream.osyncstream.cons] Fix use of parameter name (#5445)
+[lex.ccon] Fix typo in character name for U+0027 (#5412)
+[range.adjacent.transform.iterator] Fix wrong template parameter in adjacent_transform_view::iterator
+[spanbuf] Fix template name in subclause heading (#5365)
+[lib] Fix cross-references to replaced table cpp17.allocator
+[range.chunk.outer.value] Fix missing \tcode markup (#5329)
+[range.slide.overview] Fix bad quotation marks for string-literal (#5326)
+[range.chunk.inner.iter] Fix index reference (#5325)
+[allocator.adaptor.members] Fix select_on_container_copy_construction
+[container.reqmts] Fix index entry (escaping `!`)
+[temp.local] Fix type-name interpretation of injected-class-name
+[fs.class.directory.iterator.general] Fix grammar
+[range.adjacent.transform.iterator] Fix exposition-only formatting.
+[expected] Fixes for issues introduced with P0323R12.
+[basic.stc.dynamic.general] Fix index entries for de/allocation function
+[util.smartptr.atomic.general] Fix cross-reference to shared_ptr (#5222)
+[class.default.ctor] Fix implicit invocation of default constructor  (#4026)
+[temp.constr.atomic] Fix phrasing in note
+[associative.reqmts.general] Fix confusing local use of 'r'
+[std] Fix bad \grammarterms
+[algorithm.syn,alg.min.max] Fix indexing of indirectly_copyable_storable (#5195)
+[range.access] Fix cross-references for 'array' (#5147)
+[over.sub] Fix typo: change oeprator to operator (#5140)
+[associative.reqmts.general] Fix typo: 'kx', not 'rx' (#5136)
+[spanstream.ctor] Fix base class name in effects
+[stdatomic.h.syn] Fix missing \expos
+[input.output] Fix headings of 'assign and swap' subclauses
+[range.adjacent.overview] Fix multi-character in example
+[class.copy.assign] Fix phrasing in note to avoid 'could'. (#4418)
+[index] Fix dangling 'see' references
+[diff.cpp14.lex] Fix index entry for implementation-defined behavior
+[std] Fix cross-references to 'unevaluated operand' (#4941)
+[headers] Fix note about importing library headers
+[lex.{phases,charset,string}] Fix minor misapplications of P2314R4 (#5040)
+[range.lazy.split.outer.value] Fix indexed outer class name
+[func.wrap.move.ctor] Fix phrasing for move constructor
+[func.wrap.move.inv] Fix garbled phrase
+P2432R1 Fix istream_view
+P2372R3 Fixing locale handling in chrono formatters
+[fs.path.type.cvt] Fix cross-reference for execution wide-character set
+[func.search] Fix inconsistencies between boyer_moore searchers (#4873)
+[class.copy.elision] Fix comment in example (#4928)
+[fstream.syn] Fix grammar
+[facet.num.get.virtuals] Fix singular/plural mismatch
+[facet.num.get.virtuals] Fix indentation of code
+[intro.abstract] Fix reference to point to .general subclause (#4892)
+[expr.typeid] Fix reference to header synopsis (#4883)
+[expr.const] Fix reference to integer overflow (#4880)
+[forward] Fix typo in example 2 in paragraph 6 (#4858)
+[basic.types.general] Fix comment in example
+[allocator.requirements.general] Fix typo in table's note (#4782)
+[span.streams.overview] Fix typo in "these" (#4769)
+[variant.variant.general] Fix typo in "constexpr" (#4765)
+[thread] Fix and add cross-references in header synopses
+[basic.stc.dynamic.general, class, namespace.udecl] Fix ranged index entries
+[macros] Fix spacing of \exposidnc
+[class.pre] Fix incorrect comment in example
+[conv.general] Fix index redirect for contextual conversion to bool.
+[version.syn] Fix typo in header name
+[range.lazy.split.inner] Fix "base()" according to LWG3533
+[expr.const.cast] Fix punctuation placement.
+[list.ops] Fix name of parameter in list::unique effects
+[defns.well.formed] Fix definition of 'well-formed'
+[index] Fix entry for 'program execution'
+[dcl.struct.bind] Fix indexing font
+[stacktrace.entry.query] Fix description of `source_line` (#4481)
+[utilities] Fix inconsistent indentation for declarations with requires clauses.
+[std] Fixes for library concepts that should be \libconcept'd.
+[range.drop.view] Fix tabs inserted as part of LWG3482 (#4524)
+[range.iota.iterator,range.iota.sentinel] Fix markup around \libconcept (#4503)
+[dcl.init.general] Fix misapplied term 'block variable'
+[format.arg] Fix return type of visit_format_arg
+[time.traits] Fix code indentation (#4471)
+[thread.condition.general] Fix style of quotation marks
+[time.duration.comparisons] Fix indentation of requires-clause (#4428)
+[iterator.synopsis] Fix indentation (#4427)
+[range.drop.while.view] Fix formatting of exposition-only names (#4424)
+[class.access.general] Fix list item punctuation.
+ [time.clock.gps.members] Fix misspelled return type. (#4318)
+[iterator.requirements.general] Fix indexing around 'valid range'.
+[basic.lookup.unqual] Fix placement of cross reference
+[thread.sharedtimedmutex.requirements.general] Fix typo
+[time.cal.ymwd.members] Fix object name in year_month_weekday constructor (#4304)
+[ptr.launder] Fix font for object meta-variable 'X'. (#4311)
+[stringbuf.assign] Fix typo ("s" => "rhs"). (#4306)
+[thread.stoptoken.intro] Fix typo
+[class.dtor] Fix wording about object's lifetime
+[range.istream.view] Fix missing `ranges::` qualifier in example (#4296)
+[std] Fix PDF title and subject. (#4208)
+[ostream.formatted.reqmts] Fix incomplete sentence in footnote.
+[char.traits.require] Fix excess vertical space in table.
+[dcl.type.simple] Fix excess vertical whitespace before grammar excerpt.
+[locale.messages.general] Fix indentation of get.
+[gslice.cons] Fix indentation in itemdecl for gslice.
+[std] Fix the remainder of 'may' and 'shall' in footnotes.
+[vector.cons] Fix subclause heading.
+[xref] Fix C++20-based reference of cross-references again. (#4207)
+[class.virtual] Fix example with constrained non-templated function
+[temp.over] Fix example
+[range.prim.empty] Fix misapplication of P2091R0
+[conv.qual] Fix punctuation in bulleted list.
+[std] Fix dangling \grammarterms.
+[xref] Fix C++20-based reference of cross-references.
+[lex.string] Fix excessive whitespace stretching by allowing a linebreak in the middle of the interval "[E000, 10FFFF]".
+[intro.refs,time.format] Fix normative references.
+[intro.refs] Fix clause reference to ISO/IEC 9899.
+[defns.projection] Fix context to 'library'.
+[mem.poly.allocator.mem] Fix syntax for variadic template declaration
+Fix solitary subclauses.
+[depr.c.headers.other] Fix overfull \box
+Fix all hanging paragraphs by adding "General" sections.
+[meta.type.synop] Fix bad indentation. (#4164)
+[macros] Fix PDF links to clauses and annexes
+[expr.post] Fix scope of \opt markup (#4142)
+[fs.class.path, fs.path.nonmember] Fix inline whitespace (#4092)
+[lib] Fix uses of "clause" (#4104)
+[std] Fix dangling index redirects. (#4110)
+[range.drop.view] Fix italics for exposition-only members. (#4135)
+[tab:atomic.types.pointer.comp] Fix column captions. (#4137)
+[ranges.syn] Fix declaration of transform_view (#4132)
+[fs.race.behavior] Fix cross-reference to self (#4122)
+[expr.reinterpret.cast] Fix note on round-tripping pointer values. (#4080)
+[stopcallback] Fix indentation (#4040)
+[iterator.synopsis] Fix indexing targets for singular sentinels. (#4030)
+[unique.ptr.runtime.asgn] Fix missing space (#4023)
+[atomics.types.operations] Fix typo in exposition-only code (#4001)
+[range.elements.iterator] Fix typo in declaration of  operator<= (#3981)
+[depr.atomics] Fix <atomic> header name. (#3948)
+[depr.strstream] Fix typography for NTBS in index. (#3942)
+[class.temporary, expr, dcl.ref] Fix incorrect cross-references for decltype (#3918)
+[dcl.fct.def] Fix incorrect cross-reference referring to "this" (#3925)
+[dcl.fct] Fix incorrectly pluralized grammar terms (#3926)
+[over.match.class.deduct] Fix self-referential cross-references
+[temp.func.order] Fix hyphenation.
+[intro.object] Fix hyphenation.
+[all] Fix typeface of "volatile-qualified".
+[stmt.expr] Fix cross reference
+[concepts.equality] Fix grammar for P2102R0
+[lib] Fix ;s in itemdecls
+[dcl.attr.grammar] Fix parallelism
+[lex.pptoken] Fix note grammar
+[variant.general] Fix missing teletype typeface.
+[locale.facet] Fix missing teletype typeface.
+[iosfwd.syn] Fix mis-indexing of istreambuf_iterator and ostreambuf_iterator.
+[version.syn] Fix mis-ordering of __cpp_lib_{bind_front, bit_cast}
+[range.req.general, range.sized] Fix and improve description
+[ostream] Fix poor grammar to be consistent with [istream]
+[allocator.requirements] Fix punctuation in tables.
+[basic], [expr] Fix incorrect cross-references to [conv.ptr] for null pointer values
+[support.types.byteops] Fix misapplication of LWG2950 (#3863)
+[diff.cpp17.lex] Fix typeface of 'pointer to char'.
+[unord.general] Fix typeface for reference to exposition-only names.
+[range.split.outer,range.split.inner] Fix misuses of current_ (#3849)
+[time.zone.zonedtime.overview] Fix typo (#3846)
+[module.interface] Fix typo. (#3840)
+[expr.ref] Fix terminology in description of access of non-static data members
+[diff.cpp17.basic] Fix example added by P0593R6.
+[semaphore.syn] Fix typeface for "implementation-defined" text.
+[semaphore.syn] Fix indexing of implementation-defined value for counting_semaphore::least_max_value.
+[cpp.module] Fix indexing of module and import directives.
+[concept.swappable,iterator.cust] Fix phrasing 'with no diagnostic required'
+[time.format] Fix description of - insertion and examples.
+[cpp.pre][cpp.module][cpp.import] Fix neither-nor wording to include verbs after the "nor" and add punctuation.
+[ranges] Fix issues with wording of P2091R0 as suggested in #3752
+[range.access.begin] Fix missing \libconcept on input_or_output_iterator
+P1976R2 Fixed-size span construction from dynamic range
+[range.elements.sentinel] Fix template-head for elements_view::sentinel added by P1994R1
+[algorithms.requirements] Fix non-sensical English for NoThrowForwardIterator
+P1963R0 Fixing US 313
+P1937R2 Fixing inconsistencies between constexpr and consteval functions
+[expr.prim.lambda.capture]/p2 Fix P2095R0 wording: move "...opt" after "identifier"
+P2082R1 Fixing CTAD for aggregates
+[dcl.fct] Fix reference to temp.fct.
+Fix typo in index entry local-time-format-it
+[temp.func.order] Fix comment to refer to correct overload resolution result.
+[range.join.sentinel], [range.split.view] Fix typos (#3656)
+[range.istream.iterator] Fix bad reference to member name (#3661)
+[temp.constr.op] Fix missing parentheses in example (#3643)
+[optional.optional, optional.ctor] Fix constexpr/explicit position (#3644)
+[expr.post.incr] Fix typeface of ++ in note.
+[dcl.fct,expr.ref] Fix description of class member access expressions
+[basic.scope.pdecl] Fix example of self-referential initialization.
+[thread.condvarany.intwait] Fix invocation of wait_until.
+[ptr.launder] Fix note and example for std::launder.
+[expr.prim.lambda.closure] Fix wording inaccuracy in note
+[thread.lock.unique.locking] Fix typo in try_lock_for.
+[stmt.cont] Fix formatting.
+[lex.charset] Fix various issues with the description of UCNs.
+[std] Fix cross-references pointing to entire clauses now that we have 'preamble' sections.
+[format.arg] Fix parameter type for basic_format_arg constructor.
+[module.private.frag] Fix indentation in example
+[time.clock.cast.fn] Fix inappropriate phrasing of "Mandates:" element.
+[basic.compound] Fix the wording "A pointer to objects".
+P0883R2 Fixing Atomic Initialization
+[range.range] Fix example to clarify who/what is being specialized for/with/on what.
+P1975R0 Fixing the wording of parenthesized aggregate-initialization
+[module.private.frag] Fix description of the private module fragment in the note, and update the example to match a revised version from Nathan Sidwell.
+[expr.const] Fix wording confusion over "is a core constant expression" versus "does not disqualify some other expression from being a core constant expression".
+[conv.rank] Fix cross-reference to expr.arith.conv (#3384)
+[depr.impldec] Fix cross-reference for 'deleted function'.
+[xrefdelta] Fix typo for 'fmtflags'.
+[time.cal.year.nonmembers] Fix return type of operator""y
+[time.cal.day.nonmembers] Fix return type of operator""d
+[cmp.alg] Fix typo for 'ISO/IEC/IEEE 60559'.
+[expr.type] Fix typo when using 'reference-related'.
+[iterator.concept.winc] Fix "extended integral type" (#3301)
+[range.subrange.access] Fix typo (#3299)
+[expr.prim.id] Fix immediate function id-expression requirement
+[class.temporary] Fix typo in example.
+[locale] Fix example.
+[intro.compliance] Fix reference in footnote
+[span.iterators] Fix typo in paragraph 5 (#3276)
+[stmt.jump] Fix markup typo in grammar, causing bad index entries. (#3275)
+[list.ops] Fix misapplication of P1463R1, "!=" should be "==". (#3258)
+[format.arg] Fix missing formatting in index entry.
+[concepts.arithmetic] Fix notes that use undefined terms (#3223)
+[class.spaceship] Fix weak_ordering::equal to equivalent (#3220)
+[basic.stc.dynamic.safety] Fix ambiguous antecedent for 'it'. (#3228)
+[span.syn] Fix inconsistent class key in tuple_size/tuple_element (#3211)
+[ostream] Fix indentation for operator<<(..., const char32_t*) = delete.
+[over.match.class.deduct] Fix terminology
+[cpp.glob.frag] Fix whitespace
+[module.reach], [over.ics.rank] Fix punctuation
+[dcl.attr.nodiscard], [diff.cpp17.dcl.dcl] Fix grammar/usage
+[basic.def.odr] Fix typos
+[atomics] Fix missing italics in 'wait(integral, ...)'
+[time.cal.ymd.members] Fix misapplication of P1724R0: `ld` -> `1d`.
+[range.sized] Fix misapplication of P1724R0: "non-array object" -> "program-defined".
+[re.submatch.op] Fix inconsistency between declaration and description of sub_match operator<=>: remove 'constexpr' from declaration, and change return type in definition from 'bool' to 'auto'.
+[chrono], [iostreams], [support] Fix 'template <' and 'typename T' to the conventional 'template<' and 'class T' throughout the library.
+[range.istream.iterator] Fix 'parent_' to the obviously-intended 'parent'.
+[time.syn] Fix specifier order in declarations to match library style. Rename parameter 't' to 'hms' to make declaration and later description match.
+[time.format] Fix some minor issues (comma rather than period, moving a "Let" sentence out of a Remarks clause to a separate paragraph, using 'class' rather than 'typename').
+[format.string.std] Fix space collapse in example. Use commas rather than spaces to separate fields to more clearly show where whitespace is introduced by a field rather than between fields.
+[conv.qual] Fix example for cv-decomposition.
+[time.parse] Fix description of %Ex and %EX parse flags.
+[algorithms] Fix some bad indentation in itemdecls.
+Fix overfull hboxes.
+Fix inconsistencies in the Latex used for concept names throughout the library.
+[support.srcloc] Fix comments in example.
+[range.drop.view] Fix typo "requirement" -> "required".
+[ranges] Fix 'constexpr friend' to our preferred order 'friend constexpr'.
+[time.hms.nonmembers] Fix editorial error in hh_mm_ss operator<< (only stream to 'os' once). This formulation was proposed by Howard Hinnant on the lib reflector.
+Fix collisions with the right margin.
+[format.string] Fix whitespace collapse in format alignment example.
+[format.string] Fix wording that talks about omitting arg-ids but presupposes that they are all present to instead specify what happens when some or all are absent.
+[over.match.class.deduct] Fix failure to handle the case where a deducible alias template's defining-type-id contains a nested-name-specifier (or 'typename' or 'template' keywords).
+[dcl.attr.nodiscard] Fix vexing-parse bug in example. Make sure the missiles actually get launched, not merely redeclared.
+[expr.prim.req] Fix cross-reference for substituting into constraints.
+[list.erasure][forward.list.erasure] Fix missing lambda braces (#2936)
+[lex] Fix stray uses of 'source character set'
+[over.call.object] Fix surrogate calls with regards to cv-qualifiers
+[fs.path.append] Fix examples to show correct results for Windows
+[module.reach, dcl.fct.def.coroutine] Fix index redirects. (#2897)
+[ranges] Fix index entries for operator!=. (#2898)
+[time.cal.ymwd.nonmembers] Fix typo in parameter names. (#2895)
+[ranges.dangling] Fix namespace of ranges::dangling (#2829)
+[atomics.types.operations] Fix typo "indeteminate"
+[temp.inst] Fix bogus double-spacing after colon in example.
+[equal.range] Fix formatting of 'Returns' clause. (#2823)
+[temp.expl.spec] Fix grammar (add missing article)
+Fix further occurrences of the typo 'inadvertantly' in the Editors' Report.
+[lex.header] Fix note describing where a header-name token is formed to match the changes applied by P1103R3.
+[decl.init]/10 Fix specified initialization.
+[std] Fix a bunch of faulty parallelism with "either".
+[dcl.enum] Fix singular/plural mismatch.
+[expr.type] Fix missing formatting for 'T'.
+[mem.res.monotonic.buffer] Fix indents in class synopsis
+[template.bitset,bitset.members] Fix template parameter indentation
+[array.tuple] Fix broken description of tuple_element for std::array.
+[dcl.type.simple] Fix inaccurate note added by CWG2332
+[expr.static.cast] Fix wording of CWG2310 to match CWG intent (verified on core reflector):
+[pair.astuple, tuple.helper] Fix inconsistent class key in tuple_size/tuple_element. (#2679)
+[depr.array.comp] Fix example of deprecated array comparison
+[temp.mem.func] Fixed text in example, which was not updated by CWG 249 (#2658)
+[meta.const.eval] Fix typo in function name (#2650)
+[ranges.syn] Fix a typo: "fowarding"
+Fix some `operator<=>` declarations with the wrong number of parameters.
+[expr.prim.id.dtor] Fix comment in example.
+[range.subrange] Fix comment indentation and code markup
+[alg.min.max] Fix typo in returns element of ranges::minmax (#2600)
+[reverse.iter.nonmember, reverse.iterator] Fix spacing
+[indirectcallable.general] Fix reference
+[lex.key] Fix relative order of 'do' and 'double' in keywords table.
+[template.mask.array.overview] Fix nesting of parentheses; reflow source
+Fix spacing after full stops that LaTeX mistakenly thinks are mid-sentence. (#2562)
+[expr] Fix cross-references for 'composite pointer type'
+[basic.stc.dynamic.allocation] Fix cross-reference for get_new_handler
+P1248R1 Remove CommonReference requirement from StrictWeakOrdering (a.k.a Fixing Relations)
+P0487R1 Fixing operator>>(basic_istream&, CharT*) (LWG 2499)
+[cpp.cond] Fix "carries_depencency" typo in table
+[expr.prim.id] Fix typo "the the" (#2314)
+[temp.constr.order] Fix typo: conjuctive -> conjunctive (#2322)
+Fix a couple of 'template <'s that have snuck into the library wording.
+[basic] Fix index entry for 'odr-use' (#2283)
+Fix spelling error "Tueday" --> "Tuesday" (4x)
+[std] Fix cross-references that should point to [class.prop] (#2253)
+[iterators.general] Fix up Iterators library summary table (#2263)
+[library.general] Fix up the library categories table (#2262)
+Fix overfull \hboxes caused by subclause renumbering
+[over.match.viable] Fix cross-reference to satisfaction of constraints
+[class.copy.elision] Fix typo that accidentally makes example ill-formed
+[dcl.attr.contract] Fix mention of odr-use of a parameter value to talk about odr-use of the parameter instead; values can't be odr-used.
+[temp.dep] Fix typo 'An expressions...' (#2181)
+Fix \grammartermnc to actually suppress the italics correction.
+[support.limits.general] Fix typo: '<forwardlist>' should be '<forward_list>'
+[span.overview] Fix reverse_iterator for span (#2112)
+[expr.spaceship] Fix typo for std::strong_equality::nonequal (#2216)
+[diff.cpp17.depr] Fix typo from P0619R4 (#2217)
+[alg.sorting] Fix grammar.
+[concept.strictweakorder] Fix grammar in note.
+[concept.destructible] Fix meaningless phrase "potentially-throwing, even if non-throwing".
+[diff.cpp17.library] Fix description of how to adjust code for the removal of <ccomplex> and <ctgmath>.
+[diff.cpp17.library] Fix list of new headers compared to C++17.
+[diff.cpp17.except] Fix Rationale to be a rationale.
+LWG3104 Fixing duration division
+[dcl.attr.contract] Fix typeface of std::terminate in comment.
+[class.virtual] Fix comment in example
+[dcl.attr.contract] Fix sentence defining violation handler
+[temp.arg.nontype] Fix example involving string literal
+[temp.deduct] Fixes from editorial review of CWG2293:
+[dcl.attr.likelihood] Fix error in example
+[comparisons] Fix a typo in the note for `std::less`. (#2089)
+[class.expl.init] Fix example to account for guaranteed copy omission.
+[algorithms.parallel.defns] Fix cross-reference to [algorithms.requirements]
+[span.overview] Fix typo (#2059)
+[depr.strstreambuf] Fix indentation in synopsis
+[xrefdelta] Fixes for reverse_iterator cleanup (#2015)
+[complex.literals] Fix indexing of complex literals.
+[ostream.manip] Fix typo where "basic_osyncbuf" should be "basic_syncbuf" (#2004)
+[span.elem] Fix misplaced colon (#2007)
+[over.best.ics] Fix capitalization of "conversion" in p6 (#1987)
+[temp.spec] Fix cross-reference to one-definition rule. (#1980)
+[span.cons] Fix indentation of remarks. (#2006)
+[temp.local] Fix example not to name the constructor. (#1981)
+Fix trailing whitespace.
+Fix overfull hboxes.
+[fs.path.nonmember] Fix pluralization/possessive (#1929)
+[refwrap] Fix wrong use of "shall"
+[thread.thread.id] Fix wrong uses of "shall"
+[expr.const] Fix no longer correct comment
+Fix references to container requirements tables.
+[conv.array] Fix decay index redirects. (#1908)
+Fix misuses of \grammarterm (#1871)
+[facet.num.put.virtuals] Fix definition and use of 'loc' (#1861)
+[except] Fix index entry for 'exception object' (#1865)
+[unord.req, fs.path.io] Fix "Effects: Equivalent to" styles (#1806)
+[allocator.adaptor.syn] Fix index entries for scoped_allocator_adaptor member typedefs. (#1850)
+[allocator.requirements] Fix pointer_to expression and reinstate descriptive variable 'r' (#1656)
+[mem.res] Fix whitespace around ptr-declarators and template arguments (#1840)
+Fix index entries
+Fix some more subscripts for T, also fix cv in a few places. (#1805)
+[algorithm.syn] Fix indenting of parameters in count_if, fill_n, merge, and set_union in synopsis.
+[atomic] Fix overfull hboxes from memory_order cleanup.
+[forwardlist.ops] Fix the dangling, second requirement to be consistent with how multiple requirements are stated in other \requires clauses.
+[index] Fix dangling "see".
+[cover-reg] Fix box to fit page margins
+[basic.def] Fix typo "braced-enclosed".
+[util.smartptr.shared.cmp] Fix overfull hbox. [unique.ptr.special] Adjust to match changes to [util.smartptr.shared.cmp] [tuple.cnstr] Adjust wording to avoid awkward linebreak within code fragment.
+[dcl.decl, temp.deduct.type] Fix inappropriate uses of \grammarterm.
+[intro.execution] Fix indentation of example code
+[alg.count,mismatch,alg.equal] Fix indentation of declaration.
+[time] Fix namespace for definitions in std::chrono
+[mem.res] Fix namespace for definitions in std::pmr
+Fix '// Error' in examples to use '// error' instead.
+[ios.members.static] Fix case of first letter in footnotes.
+[locale] Fix excessive spacing.
+[allocator.requirements] Fix footnote within Table 31 and table placement
+[re.grammar] Fix typeface of 'match_type_flag'
+[util.smartptr.shared.create] Fix macro application
+[everywhere] Fix (\ref{..}) at start of line to be \iref on prior line.
+[temp.constr.order] Fix spacing in example.
+[temp] Fix example to use valid expression in requires-clause.
+[temp.inst] Fix typo 'the the'.
+[temp.class.spec] Fix typo "the primary" -> "the primary template".
+[temp] Fix confusion between two different forms of template-declaration.
+P0704R1 Fixing const-qualified pointers to members
+[expr.const] Fix example of integral constant expression conversion to involve integral constant expressions.
+[alg.equal] Fix misapplication of P0467R2: change "no" to "an" in bullet 3.2.
+[stmt.if] Fix spelling mistake in 'if constexpr' wording. (#1653)
+[meta.unary.prop] Fix typo 'remove_all_extents<T>' which should say 'remove_all_extents_t<T>', introduced editorially in commit 79974877.
+[fs.dir.entry.obs] Fix position of error_code arguments
+[streambuf.virt.put] Fix logic error in the specification of the overflow() effects, introduced by 0b640ed8161937d31f31e251c297b658c559a978. (#1613)
+[iomanip.syn] Fix std::setfill() template declaration
+[cmath.syn] Fix hypot(long double,long double) overload
+[basic.scope.pdecl], [class] Fix misuses of \grammarterm
+[re.def] Fix subsection depth for definitions
+[meta.unary.prop] Fix index entry for is_aggregate. (#1581)
+[locale.money.get.members] Fix missing parameter type
+Fix spelling error and missing formatting.
+[except.handle, except.spec, fs.op.temp_dir_path] Fix typos
+Fix some more inappropriate \grammarterm uses.
+[index] Fix various minor indexing problems and in so doing fix all remaining makeindex warnings.
+[xref] Fix missing glossary entries for 'string.op!=' and 'reverse.iter.op!='.
+[cpp.predefined] Fix spacing before reference
+[dcl.init.list] Fix misuses of \grammarterm. (#1550)
+Fix overfull hboxes.
+Fix misuses of \grammarterm.
+[optional.comp_with_t] Fix misapplication of LWG2934.
+[re.results.state] Fix bad index for match_result::ready (#1531)
+[diff.mods.to.headers] Fix overfull hbox caused by a change in section number.
+Fix index entries for 'nested/local class'.
+Fix all overfull \hboxes throughout standard.
+Fixups for application of parallel algorithms motions.
+P0623R0 Final C++17 Parallel Algorithms Fixes
+Fix issues identified by SG1 review in Kona
+Fix pointer arithmetic declarations
+[rand.dist.bern.negbin] Fix index for k member
+Fix references to new Clause 1, Clause 2, and Clause 3 to include the word "Clause".
+[diff.decl] Fix typo (#1494)
+[basic.stc] Fix introductory sentence on dynamic storage duration to match later more-normative rule: it applies to objects, not storage.
+[lex.ccon, stmt.ranged] Fix index entries that misuse \idxcode. (#1488)
+Fix cross-reference for 'inline'. (#1464)
+[basic.fundamental] Fix index entries for sizeof (#1465)
+[move.iter.op.index] Fix misnested \tcode
+[temp.class.spec] Fix index entry for 'primary class template'. (#1446)
+[associative.set.syn] Fix cross-reference link for 'multiset'
+[time.point] Fix cross-reference to clock requirements.
+[optional.comp_with_t, func.search.bm] Fix spacing around punctuators "?", ":", ",", "=="
+[meta.rel] Fix incorrect use of \grammarterm{return-statement}. (#1253)
+Fix remaining uses of \Cpp macro (#1366)
+[expr.prim.fold]  Fix missing space after \caret in list of fold-operators. (#1353)
+[except.handle] Fix typo in index entry
+Fix range_close markers for index ranges (#1328)
+[re.submatch.members] Fix spacing around ? and :
+[dcl.init] Fix a typo in definition of const-default-constructible (#1327)
+[sf.cmath] Fix 'where' associations of Greek variable names. (#1317)
+Fix typos in [mem.poly.allocator.mem]/9.1 and /9.5 (#1269)
+[lib] Fix capitalization and punctuation in itemdescrs. (#1238)
+[localization] Fix indentation in class template synopses. (#1227)
+[algorithms] Fix overfull lines in move, merge and is_heap
+[thread] Fix overlong lines. Use a codeblock for the expression requirement in [futures.async].
+[rand.req.adapt] Fix syntax error (#1194)
+Fix duplicate index entries for 'base class'. (#1165)
+[basic.life] Fix nesting of example; tidy up list.
+[dcl.constexpr] Fix missing full stop
+[meta.logical] Fix application of LWG 2567 and add further explicit boolean conversions editorially. (#1133)
+[enum.file_type], [enum.copy_options], [enum.directory_options] Fix up badly-formatted tables after application of LWG2678.
+[except.terminate] Fix singular/plural mismatch in P0502R0.
+P0497R0 Fixes to shared_ptr support for arrays
+[ostream.cons] Fix misnested environments
+[dcl.enum, path.modifiers] Fix typos
+[associative.reqmts], [unord.req] Fix typo in precondition for the 'merge' member function. (#1080)
+[cfenv.syn] Fix 'see below' styling
+[algorithms.general] Fix typo (add missing "s") (#1047)
+[lex.ext] Add hyphen in index entry for user-defined literals Fixes #628.
+Harmonize formatting of 'cv' in 'cv-qualified' Fixes #798.
+[class.this], [temp.param] 'cv-qualified' should never be \grammarterm'd Fixes #798.
+[atomics] Fix standard-layout requirement for atomic types (#1021)
+[expr.call], [expr.static.cast]: Convert one copy of rule on calling a function through a wrong-typed function pointer to a note. Fix incompleteness of the other copy of the rule.
+[func.bind.bind] Fix intro sentence for local definitions (#1005)
+[diff.cpp11.lex] Fix example for digit separators (#1004)
+Fix lots of see/seealso references, especially regarding operators. (#943)
+NB JP-13 (C++17 CD): [class.friend] Fix reference to 'inline'
+NB US-27 (C++17 CD): [class.base.init] Fix overly-wide space between "side" and "effect" in comment in example.
+NB JP-9 (C++17 CD): [dcl.fct.def.delete] Fix reference to 'inline'
+NB JP-4 (C++17): [basic.life] Fix example to say '*pb', not '&pb'
+NB GB-24 (C++17 CD): [except.handle] Fix incorrect example.
+[stringstream] Fix section reference
+[temp.alias, rand.dist.pois.exp] Fix typos (#956)
+[streambuf.virt.put] Fix typo (#955)
+[dcl.type] Fix poor phrasing -- it's not appropriate to restrict the defining-type-specifiers that can appear in a type-specifier-seq, since type-specifier-seqs contain type-specifiers, not defining-type-specifiers.
+Fix comment typo in .travis.yml
+[input.iterators] Fix formatting of parentheses and p. (#912)
+[cpp.predefined] Fix misapplication of P0035R4: the macro __STDCPP_DEFAULT_NEW_ALIGNMENT__ should be listed in the first paragraph of [cpp.predefined] (macros that the implementation is required to provide), not in the second paragraph (macros that the implementation conditionally defines).
+[deque] Fix index entries
+[generalindex] Fix misnested multipage index ranges
+[re] Fix typo in index ("transform_primary")
+[facet.num.put.virtuals] Fix grammar: determining -> determine. (#908)
+[associative.reqmts] [unord.req] Fix "pointed to by to" typos
+[inner.product] Fix typo (#925)
+[class.copy] Fix example to take into account guaranteed copy elision, and add an example where we need both stages of overload resolution when handling "return local_variable;".
+[depr.strstreambuf.virtuals] Fix typo: (unsigned char*)gnext -> (unsigned char)*gnext. (#877)
+Fix incorrect use of \idxhdr (#874)
+[dcl.attr.deprecated, depr.ostream.members] Fix trailing whitespace in \tcode. (#870)
+[diff.cpp11.basic] Fix return type of operator new
+[headers] Fix typo in "<memory_resource>" (#833)
+[reduce] Fix invasion of the right margin.
+[dcl.dcl] Fix formatting of grammar rule for structured bindings.
+Fix review comments from Mike.
+Fix review comments from Jeffrey.
+[class.rec.dir.itr] Fix typo "dereferencable".
+[any] Fix template parameter list of make_any to list the parameter that is intended to be explicitly specified first. The wording paper had inconsistent parameter orders between the synopsis and the detailed wording, and this is the obvious intent.
+[ﬁlesystems] Fix unmatched parentheses around references (#814)
+Fix review comments from Ville.
+Fix index entries for operator!=
+[utility] Fix declarations of in_place_index_t
+[valarray.members] Fix up index entries for named valarray member functions (#808)
+[ratio.si] Fix typo (#779)
+[cpp] Fix index text for STDCPP_DEFAULT_NEW_ALIGNMENT (#784)
+[fs.op.absolute] Fix inconsistent coding style.
+P0358r1 Fixes for not_fn
+[class.union] Fix typo.
+[istream::extractors] Fix '.' inside reference.
+[alg.move] Fix bad linewrapping introduced by LWG2689.
+[tuple.cnstr] Fix bad line wrapping introduced by LWG issue 2549.
+[class.static.data] Fix inconsistency between rules for when a declaration of an inline variable is a definition and remove unintended implication that an inline static data member defined inside a class must also be defined outside.
+[expr.prim.lambda] Fix description of lambda-expressions. The expression itself is a prvalue, not its value.
+[expr.comma] Fix description of temporaryness of comma operator. It's not meaningful to talk about a value being a temporary expression.
+[fs.op.absolute] Fix table name
+[meta.trans.sign] Fix formatting in "Other transformation" table
+[strings] Fix spacing around commas
+Fix stray punctuation after notes.
+[Readme] Fix isocpp link for DR submission (#756)
+[basic.lookup] Fix typos
+[valarray.sub] Fix error in example code (#746)
+[18-28] Fix index entry for constructors
+[support.runtime] Fix name of stdarg.h in index
+[time.duration.comparisons] Fix index entry for duration operator<
+[string.view.comparison] Fix index for basic_string_view operators
+[pairs.pair] Fix indentation of Remarks: paragrah.
+[allocator.requirements] Fix other incorrect variable names in Table 28 (#732)
+[allocator.requirements] Fix incorrect variable references (#727)
+[meta.rel] Fix for for INVOKE in table 54
+Fix definition and uses of "value initialize*"/"value-initialize*" (#708)
+Fix \effects throughout the library (#694 part 1)
+[input.output] Fix coding style of iostreams to match rest of library
+[allocator.requirements] Fix missing colon for "u" in Table 27 (#195)
+[thread.lock.unique.cons] Fix tense of "own" (#204)
+[algorithms.general] Fix indenting of shuffle (#233)
+[temp.deduct.type] Fix template deduction example (#241)
+[time.duration.nonmember] Fix missing \tcode in \returns (#406)
+[memory.polymorphic.allocator.class] Fix cross-reference to [memory.polymorphic.allocator.ctor]
+[memory.polymorphic.allocator.mem] Fix wording "construct an object X at p"
+[memory.polymorphic.allocator.mem] Fix wording of "constructing a std::pair<T1,T2> object at p"
+[index] Fix some bad collation and confusing index entries.
+[util.smartptr.shared] Fix coding style in example.
+[sf.cmath] Fix bulleted lists.
+[filesystems] Fix references to [fs.err.report].
+[fs.definitions] Fix capitalization in note.
+[numarray] Use "compound assignment". Fix missing title in [gslice.array.comp.assign].
+Fix makegram script to produce the same output with BSD sed and GNU sed.
+[dcl.init.aggr] Fix an example in extended init.
+[func.searchers.boyer_moore_horspool.creation] Fix typo boyer_moore_searcher_horspool and manually wrap overfull hbox.
+P0253R1 Fixing a design mistake in the searchers interface
+[dcl.attr] Fix wrong source encoding
+Fix wrong reference
+Fix wrong reference
+[temp.variadic] Fix typo "evalutes"
+[re.alg.match] Fix typo "otherwis"
+[conv.qual] Fix typo "desecender"
+[diff.class] Fix typo "choise"
+[unique.ptr.runtime.ctor] Fix format
+[temp.res] Fix self-contradiction in paragraph describing when a template with valid specializations can be diagnosed.
+[terminate] Fix typo "terminate_handleri"
+[over.best.ics] Fix a typo in "user-defined conversion sequence"
+[func.wrap.func.con] Fix error in note
+[class.inhctor.init] Fix typo in example.
+[containers] Fix whitespace issues in container overviews.
+Fix alignment issues involving /see below/ and /implementation-defined/ placeholders in library text.
+Fix horizontal alignment around /unspecified/ placeholders in the library.
+[library] Fix index entry
+[intro] Fix index entry that uses !see instead of |see.
+[fstream.members] Fix "returns returns".
+Fix bad cross-reference to first/last lib chapters, and rebuild grammar and xrefs after 2015-10 motions.
+[dcl.array] Fix typo; multiple array declaratiors create a multidimensional array type, not necessarily a multidimensional array object.
+[diff.cpp14.depr] Fix hard coded reference to Annex D.
+[except.spec] Fix capitalization mismatch at start of bullets.
+[library.general] Fix typo.
+[tuple.assign] Fix typo
+[dcl.enum] Fix italicization of non-definition of "underlying type".
+[ostream.seeks] Fix nesting of itemdecl inside itemdescr.
+Fix references in CWG1780 as per discussion on c++std-core.
+[basic.ios.members] Fix name of exceptions() function.
+[class.union] Fix example to not use an ill-formed empty anonymous union.
+[util.smartptr.enab] Fix test of shared ownership in example.
+Fix formatting of DECAY_COPY
+[strings] Fix spacing around index entry.
+[allocator.requirements] Fixed types for a, a1, a2 in Table 27.
+[xref] Fix cross-references to definitions to be numbered correctly.
+[c.math] Fix use of undefined term "arithmetic argument" to the intended "argument of arithmetic type".
+[basic.fundamental] Fix misleading and miscapitalized "that is" in footnote.
+Fix formatting of P
+[stmt.ranged] Fix terminal formatting in BNF.
+[dcl.link] Fix indentation of example code
+[basic.stc.auto] Fix apparent contradiction: the `static` implied by `thread_local` is not explicit, so this wording could be read as claiming that `thread_local` local variables have automatic storage duration, contradicting wording in several other parts of the standard and the design intent.
+[unord.map.cnstr] Fix misapplication of edit for LWG2230.
+Fixes issue #409: undefined behavior index entry.
+Fix collation order
+Fix more bad spacing
+[declarators] Fix bad spacing in 'new-expressions'
+[bad.exception] Fix indentation of itemdecl contents.
+Fix formatting of INVOKE
+[expr.const] Fix typo 'evalution'.
+[associative.reqmts] Fix double-appearance of table caption on page 751. Thanks to Thomas Koeppe for diagnosing the problem and identifying the fix.
+[basic] Fix inconsistency between here and [temp.type]p1: define when two template-ids referring to variable template specializations are the same. This is the clear and unambiguous intent.
+[depr.strstreambuf.virtuals] Fix a collection of formatting issues (paragraph numbers in the middle of a bullet in the middle of a paragraph, half of a paragraph accidentally incorporated into a table, missing begin/end of bulleted list).
+[stmt.ambig] Don't start a several-paragraph note in the middle of a paragraph; that makes it hard to notice that the second paragraph is not normative. Fix the note to avoid suggesting that unambiguous cases need disambiguation.
+Fix to 2013-09 LWG Motion 7:
+[cpp] Fix font of # in non-directive.
+Fix several omissions of semicolon.
+[atomics.syn] Fix typo by replacing ')' with '_'
+[func.bind.bind] Fix "template parameter back" typo.
+[stack.defn] Fix swap signature.
+[class] Fix unclear phrase "only one" to clearer phrase "at most one" used in [class.union], to make it more obvious that a union can have no active members.
+Fix typography of "C." (spacing)
+[depr.str.strstreams] Fix typo and inconsistent formatting.
+[ratio.syn] Fix formatting of codeblock with digit separators.
+Fix 'tokens not allowed' warnings when building PDF.
+Fix vertical whitespace around grammar definitions and bullets.
+[temp] Fix example to match a modern understanding of Quantum Mechanics.
+[gram] Fix formatting of 'class' and 'enumeration' -- these don't refer to keywords, so they shouldn't be in teletype font.
+Fix missing space before bulleted lists.
+[basic.def.odr] Fix example to perform the lvalue-to-rvalue conversion outside the conditional expression, as intended.
+[bitset.cons] Fix typo and surrounding inconsistencies.
+[using.linkage] Fix reference to C standard section.
+[dcl.init] Fix "operand of a comma" -> "operand of a comma expression"
+[cpp.include] Fix odd parenthetical sentence.
+Fix to CWG1662.
+[over.ics.list] Fix "1,0" -> "1.0" in code example.
+Fix to CWG1604.
+Fixes to CWG1658.
+Fixes to CWG1787.
+Fix to CWG1613.
+Fix to CWG1612.
+Fix to N3887.
+Fix to LWG2315 weak_ptr should be movable
+Fix to LWG2263.
+Fix incorrect reference [intro.thread] -> [intro.multithread].
+[lower.bound] Fixed formating of "Complexity" clause.
+[support.initlist.access] Fixed case of "Complexity" clause.
+[input.iterators] Fixed format of range (a,b) in first line of iterator.input.requirements table.
+[input.iterators] Fixed formatting in requirements table.
+Fix bad reference in commit 041f5cce (NB CA-20 Capturing function parameter packs CWG1662).
+Fix example in last commit (NB CA-14 Out-of-lifetime lvalue-to-rvalue conversion CWG1773)
+Fix typos in last commit (NB CA-27 Disambiguation of noexcept CWG1740)
+addmarkup.sed: Fix codeblock markup.
+Fix references in addmarkup.sed.
+Fix formatting in README.rst.
+[over.literal] Fix examples of valid/invalid user-defined literal suffixes.
+[basic.scope.namespace] Fix singular/plural mismatch.
+[basic.stc.dynamic] Fix an error that was introduced editorially: the implicitly-declared 'operator delete' functions are explicitly 'noexcept'.
+[alg.remove] Fix typo.
+Fix typo in [ios.members.static]
+[dcl.ref] Fix "specificer" typo
+Fixes unformatted "N" in "array of N T".
+Fixed typo
+[list.ops] Fix "an exception in thrown by" typo.
+Fix unterminated \tcode.
+Fixes to a few problems introduced by reverting optional, arrays of runtime bound, and dynarray.
+CWG1685 (deemed as editorial by CWG): [expr.unary.noexcept]/2 Fix result of noexcept operator to be a prvalue.
+NB GB-11 (C++14 CD) [re.iter], [re.tokiter] Fix exposition-only member formatting.
+[depr.c.headers] Fix count of C headers.
+[pairs.pair] Fix typo to refer to member functions plural.
+[algorithms.general] Fix typo for search_n's return type
+Fix accidental transposition introduced in previous commit.
+[quoted.manip] Fix required type of put_time().
+[temp.friend] Fix minor typo.
+Bug Fix: <dynarray>, not <dynamic_array> in header overview.
+N3672 Editorial Fix
+Fix "k -> ke" and formatting in complexity for a_tran.count(ke).
+Fix typo "mil[l]iseconds"
+N3669 Fixing constexpr member functions without const
+Fix diff.cpp{11,03} headings once more.
+N3652 Editorial Fix
+N3649 Editorial Fixes
+N3638 Editorial Fix
+N3624 Editorial Fixes
+CWG1435 Fix - italicize class-name appropriately.
+Editorial [temp.dep.type] Fix "which" -> "that".
+[class.temporary] Fix formatting of "ctor-initializer"
+[namespace.udecl] Fix "using-declarations" formatting.
+[class.mem] Fix final s in "using-declarations"
+[dcl.type.cv] Fix formatting for "volatile".
+[forwardlist.overview] Fix "acess" typo.
+[unord.req] Fix "load load factor" typo.
+[atomics.types.generic]/4 Fix wording full->explicit specialization.
+[streambuf.virt.put] Fix typo.
+[atomics.types.generic]/7 Fix typo.
+[dcl.type.simple] Fix example.
+[dcl.attr.grammar] Fix "ill formed" and "malformed".
+[tuple.swap]/1 Fix typo in subscript.
+[ios.base] Fix types of seekdir values.
+Fix cross reference (basic.scope.local -> basic.scope.block)
+[istreambuf.iterator] Fix typeface.
+[istream::sentry] Fix typeface.
+[tuple.general] Fix forward_as_tuple signature.
+Fix minor typo, etc.
+[class.expl.init] Fix sample for copy-list-initialization
+[tuple.general] Fix return type of forward_as_tuple
+[pair.astuple] Fix placement of "constexpr" before "typename". Thanks to Alisdair Meredith!
+[futures.overview] Fix formatting of "implementation-defined" in <future> synopsis. Thanks to Alisdair Meredith!
+Fix two typo'd references. Thanks to Alisdair Meredith!
+Fix "function function" typo in draft.
+Fix previous document number.
+CWG1418 DR Fix constness of type of elements in initializer_list backing array.
+[sequence.reqmts] and [forwardlist.modifiers]: Fix occurrences of "i1" that are supposed to be "il". Thanks to Jeffrey Yasskin!
+[meta.rel] Fix a Clause reference. Thanks to Masayoshi Kanke!
+Fix a few more Clause references.
+[basic.link] Fix reference to clause to include "Clause". Thanks to Masayoshi Kanke!
+[basic.lookup.elab] Fix indentation of comment. Thanks to Masayoshi Kanke!
+Fix >> appearing as guillemets in inline code in a bunch of places.
+[diff.library] Fix typo USRT_MAX -> USHRT_MAX. Thanks to Kevin McCarty!
+[locale.codecvt] Fix "The stateT object" -> "Objects of type stateT" (stateT is a type, not an object). Thanks to Beman Dawes!
+[expr.static.cast]/2 Fix "result of the cast is undefined" -> "behavior is undefined". Thanks to Richard Smith.
+[temp.deduct.partial] Fix "conversion operator" -> "conversion function". Thanks to Mike Miller.
+[temp.param] Fix typo in comment for example in paragraph 11. Thanks to Mike Miller!
+[over.literal] Fix return type for pi (it's not an integer) in example and add leading underscore. Thanks to Mike Miller!
+[over.ics.list] Fix typo "C"->"D" in constructor name in example. Thanks to Mike Miller.
+[dcl.attr.grammar] Fix typo of "alignment-expression" -> "assignment-expression". Thanks to Mike Miller.
+[namespace.memdef] Fix "defined" -> "declared" in paragraph 3 code example. Thanks to Mike Miller.
+[stmt.for] Fix capitalization of "clause". Thanks to Mike Miller.
+[expr.cond] Fix indentation of text at the end of /3 that was meant to apply to the paragraph, not the third item of the contained bullet. Thanks to Mike Miller!
+[basic.scope.class] Fix grammar issues in last bullet of paragraph 1. Thanks to Mike Miller.
+[lex.name] Fix capitalization. Thanks to Mike Miller.
+[reverse.iterator] and [reverse.iter.opdiff]: Fix return type of operator-() to not use protected member in decltype(). Thanks to Daniel Kruegler!
+[stack.cons] Fix typo in constructor parameter name
+[streambuf.virt.pback] Fix typo and typeface
+[conversions.buffer] Fix indentation.
+[conversions.string] Fix typedef definitions.
+[ostream.inserters.character] Fix wrong bracket type in declaration.
+[ostream.inserters.arithmetic] Fix typo in code fragment.
+[expr.prim.lambda] Fix missing semi-colon in example.
+[container.requirements.general] Fix typeface.
+[pairs.pair] Fix typeface.
+Add cross-references for iterator categories. Fix typeface and capitalization.
+Fix line break re LWG2021
+Fix to LWG2053
+Fixes for core issues listed in N3377
+Fixes for CWG1313
+Fixes to CWG1350
+Fix typeface.
+ * [swappable.requirements], [alg.rotate], [rand.req.dist] Fix some more requirements formatting errors.
+Remaining editorial fixes for pre-Kona mailing:  * Fixed typo theads -> threads in [thread] (thanks Mark de Wever)  * Add missing closing parenthesis in [vector.bool] (thanks Stephan T. Lavajev)  * Remove spurious period in [reverse.iter.requirements] (thanks Daniel Krügler)  * Remove spurious closing brace in [locale.num.get] and clean up declarations (thanks Nico Josuttis)  * Fix 'osterambuf' -> 'ostreambuf' typo in [localy.syn] (thanks Nico Josuttis)  * Add default template argument 'default-alignment' to aligned_storage declaration    in <type_traits> synopsis (thanks Daniel Krügler and Nico Josuttis)  * Add declarations for generic_category() and system_category() to <system_error>    synopsis in [syserr.errcat.overview] (thanks Nico Josuttis)  * Add virtual to function declarations in override example in [class.virtual] (thanks Torsten Will)  * Only reference types to literal types are literal types in [basic.types] (thanks Andrew Koenig)  * Clarify definition of literal type in [basic.types] (thanks Andrew Koenig)  * Fix a few Effects clauses in [string.modifiers] and a broken Returns clause (thanks Bo Persson)  * More fixes and improvements to operator+= effects clauses in [string.modifiers] (thanks Chandler Carruth)  * Fix location of #include <initializer_list> in synopses in [sequences.general] (thanks Jon Benito)  * Add missing paragraph number and fix double semicolons in [thread.thread] (thanks Pete Becker)  * Several tiny fixes in [thread] (thanks Pete Becker)  * Missing paragraph number in [futures] (thanks Pete Becker)  * Remove extraneous sentence from [hash.requirements] (thanks Pete Becker)  * Add returns clause for thread::operator=() in [thread.thread.assign] (thanks Pete Becker)  * Remove extraneous parentheses in [thread.req.timing] (thanks Pete Becker)  * Remove redundancy from 'should' sentence in [thread.req.timing] (thanks Pete Becker)  * Fix string inserters and extractors in synopsis to match [string.io] (thanks Daniel Krügler)  * Fix many obvious spelling mistakes (thanks Eelis van der Weegen)  * Fix second parameter of two-parameter forward_list::erase_after() to be    const_iterator in [forwardlist] (thanks Daniel Krügler)  * Change sometype/some_type to onlydouble in example in [dcl.fct.def.delete] (thanks Peter Sommerlad)  * Add <scoped_allocator> to the list of headers in [headers] (thanks to Pete Becker and Daniel Krügler)  * Remove confusing 'empty class' index entries (thanks Daniel Krügler)  * Small fixes in [string::insert] (thanks Nico Josuttis)  * 'Two threads' -> 'Two or more threads' in [intro.memory] (thanks Roger Orr)
+Editorial improvements by Jonathan Wakely:  * Fix instances of "if such a type exits" -> "... exists" in [allocator.traits.types]  * Type T should be charT in [string.access]  * Several font fixes for requirements such as CopyConstructible  * Formatting fixes in [diagnostics]  * Missing colon in nested-name-specifier in [futures.async]  * Removal of redundant template argument lists throughout [containers]  * Correcting "T" to "value_type" in [associative.reqmts]  * "behavor" -> "behavior" in compatibility annex  * Remove duplicate ATOMIC_LLONG_LOCK_FREE definition in [atomics.syn]  * Several typo fixes in the index
+Fix unclear wording in [string.access] for the case where pos == size().
+Draft with editorial fixes received as of 2011-05:  * Fix parameter names in inner_product  * Fixed typeface in [thread.thread.destr] and locales  * Fixed some wording in [thread.thread.destr].  * Fixed "terminate()" -> "std::terminate()" in a bunch of places, and    similar fixes for "unexpected()".  * Fix small issue in [pointer.traits.functions]  * Fix "contructor" typo in [expr.call].  * Fix typo "anotherside" -> "another side"  * Ensure unique_ptr::unique_ptr(nullptr_t) is noexcept for the T[]    specialization of unique_ptr.  * Remove "noexcept" from tuple::operator=(pair&&) as intended in N3279.  * Remove accidentally added const to UTypes&& parameter of tuple constructor.  * Fix "An shared state" -> "A shared state".  * Fix indentation in code example in [temp.variadic].  * [locale.members] - remove stray text.  * [locale.time.put.virtuals] - replace period with comma.  * [unordered] - replace "implementation-defined" with "see below" for unordered_set and unordered_multiset.  * Add missing "of" in [lex.ext]/6, "type of ch".  * Add aligned_union declaration to type_traits synopsis.  * Fix formatting of aligned_union description.  * cosntant -> constant  * Remove const from && parameter to scoped_allocator_adaptor constructor.  * Replace static_cast<Outer> with static_cast<OuterAlloc> in [allocator.adaptor.members]/3&4.

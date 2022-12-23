@@ -1,0 +1,674 @@
+Merge pull request #7042 from tarleb/jats-element-citations
+Merge pull request #6949 from wikey/patch-1
+Merge pull request #6941 from tarleb/docx-raw
+Merge pull request #6946 from mb21/icml-image-fit
+Merge pull request #6922 from jtojnar/db-writer-admonitions
+Merge pull request #6552 from favonia/patch-1
+Merge pull request #6495 from tarleb/html5-figure-accessiblity
+Merge pull request #6547 from Blake-Eryx/master
+Merge pull request #6527 from lierdakil/fix-6514
+Merge pull request #6528 from lierdakil/fix-ci-haskell-setup
+Merge pull request #6513 from brisad/master
+Merge pull request #6506 from bewuethr/fix-manual-typo
+Merge pull request #6509 from lierdakil/docx-smush-inlines-refactor
+Merge pull request #6508 from lierdakil/bench-bs-readers
+Merge pull request #6328 from lierdakil/defaults-meta-parse
+Merge pull request #4573 from expipiplus1/haddock-links
+Merge pull request #6211 from tarleb/lua-pandocerror
+Merge pull request #6224 from despresc/better-tables
+Merge branch 'lierdakil-docx-reader-styles'
+Merge pull request #5589 from blmage/fix-3992
+Merge pull request #5590 from blmage/fix-4206
+Merge pull request #5604 from jgm/jats-abstract
+Merge pull request #5606 from blmage/odt-frames
+Merge pull request #5312 from tarleb/pandoc-mediabag-extension
+Merge pull request #5526 from tarleb/richer-version-type
+Merge pull request #5497 from mb21/html-writer-video-audio
+Merge pull request #5185 from gely/master
+Merge pull request #5138 from katrinleinweber/patch-1
+Merge pull request #5095 from pyssling/master
+Merge pull request #5093 from adunning/patch-1
+Merge pull request #5054 from lierdakil/docx-image-bookmarks
+Merge branch 'Yanpas-groff_reader'
+Merge branch 'groff_reader' of https://github.com/Yanpas/pandoc into Yanpas-groff_reader
+Merge branch 'master' into groff_reader
+Merge pull request #4921 from pyssling/master
+Merge pull request #4931 from ajscholl/master
+Merge pull request #4927 from tie/patch-1
+Merge pull request #4914 from danse/4912-2
+Merge pull request #4906 from chris-martin/patch-2
+Merge pull request #4604 from mb21/yaml-file
+Merge branch 'master' into groff_reader
+Merge branch 'master' into groff_reader
+Merge branch 'labdsf-fb2-hrblankline'
+Merge branch 'fb2-hrblankline' of https://github.com/labdsf/pandoc into labdsf-fb2-hrblankline
+Merge pull request #4291 from hmenke/xtables
+Merge pull request #4237 from sitewisely/header_and_footer
+Merge pull request #4221 from phikal/master
+Merge pull request #4259 from italia/4248
+Merge pull request #4271 from dotlambda/lstinline-ampersand
+Merge pull request #4227 from tarleb/lua-run-json-filter
+Merge pull request #4219 from stalmon/master
+Merge branch 'master' of github.com:jgm/pandoc
+Merge pull request #4214 from mb21/manual
+Merge branch 'master' of github.com:jgm/pandoc
+Merge pull request #4170 from oltolm/opendocument
+Merge pull request #4212 from iredwards/master
+Merge pull request #1 from iredwards/iredwards-patch-1
+Merge pull request #4184 from mb21/html-reader-figcaption
+Merge pull request #4204 from mb21/extension-docs
+Merge pull request #4189 from mb21/export-blocksToInlines
+Merge pull request #4177 from stencila/jats-xml-reader
+Merge branch 'master' of github.com:jgm/pandoc
+Merge branch 'master' of github.com:jgm/pandoc
+Merge pull request #4148 from stencila/jats-figures
+Merge pull request #4153 from tarleb/unify-lua-init
+Merge branch 'master' of github.com:jgm/pandoc
+Merge pull request #4032 from wilx/master
+Merge remote-tracking branch 'upstream/master'
+Merge pull request #4022 from adam234/patch-1
+Merge pull request #4009 from mb21/html-class-names
+Merge pull request #4008 from labdsf/fb2-bullets
+Merge pull request #4001 from labdsf/fb2-tests
+Merge pull request #4018 from swilde/creole-fixes
+Merge pull request #3998 from ickc/proofread-2
+Merge pull request #3997 from ickc/proofread
+Merge pull request #3988 from mb21/lettrine
+Merge pull request #3987 from wilx/master
+Merge pull request #3980 from bfirsh/skip-spaces-in-image-options
+Merge pull request #3970 from d-dorazio/master
+Merge pull request #3965 from labdsf/fb2poem
+Merge pull request #3963 from agusmba/issue3901
+Merge pull request #3955 from bucklereed/read-latex-languages
+Merge pull request #3951 from greut/patch-1
+Merge pull request #3952 from tarleb/lua-pipe-wrapper
+Merge pull request #3945 from tarleb/lua-mediabag
+Merge pull request #3911 from labdsf/muse-reader-braces
+Merge pull request #3917 from labdsf/muse-reader-emphasis-word
+Merge pull request #3913 from labdsf/muse-reader-verbatim
+Merge pull request #3908 from labdsf/muse-reader-example
+Merge pull request #3904 from labdsf/muse-reader-code
+Merge pull request #3902 from adunning/euro
+Merge pull request #3879 from adunning/patch-1
+Merge branch 'master' into patch-1
+Merge pull request #3885 from tarleb/lua-module-docs
+Merge branch 'schrieveslaach-textcolor-support'
+Merge branch 'textcolor-support' of https://github.com/schrieveslaach/pandoc into schrieveslaach-textcolor-support
+Merge branch 'master' of https://github.com/jgm/pandoc into textcolor-support
+Merge branch 'master' into textcolor-support
+Merge pull request #3719 from iandol/patch-2
+Merge pull request #3714 from tarleb/odt-reader-cleanup
+Merge pull request #3704 from labdsf/anylinenewline
+Merge pull request #3699 from herwigstuetz/org-ref-cites
+Merge pull request #3676 from labdsf/space-char
+Merge pull request #3677 from labdsf/anylinenewline
+Merge pull request #3671 from WUUUGI/horizont-spacing
+Merge pull request #3668 from tarleb/copyright-update
+Merge pull request #3569 from tarleb/lua-destructured-filter-functions
+Merge pull request #3556 from nunull/issue1831_footnoteBackRefs
+Merge pull request #3553 from nunull/master
+Merge pull request #3550 from tarleb/lua-readers-submodule
+Merge branch 'jats'
+Merge branch 'master' of github.com:jgm/pandoc
+Merge commit 'ce8226f1a7d64da56117d2f7f351e06225a84614'
+Merge pull request #3464 from mb21/determine-svg-size
+Merge commit '9e52ac6bb02afd7b4ed5dad61021a1fa33051203' as 'data/templates'
+Merge commit '9e52ac6bb02afd7b4ed5dad61021a1fa33051203' as 'data/templates'
+Merge pull request #3438 from ilabdsf/org-anchor-links
+Merge pull request #245 from twsh/titlegraphiclogo
+Merge pull request #244 from twsh/dvipsnames
+Merge pull request #234 from wilx/master-use-unicode-math
+Merge branch 'typeclass'
+Merge branch 'typeclass'
+Merge pull request #241 from wilx/master-geometry-after-hyperref
+Merge pull request #239 from Wandmalfarbe/master
+Merge pull request #233 from wilx/JelteF-patch-1
+Merge from master to update #193.
+Merge pull request #229 from wilx/master
+Merge pull request #226 from mb21/patch-1
+Merge pull request #224 from Wandmalfarbe/patch-1
+Merge pull request #223 from Nicop06/patch-1
+Merge pull request #222 from jez/jez-beamer-hypersetup
+"Merge" MANUAL.txt into README.md (#3167)
+Merge pull request #3158 from ickc/COPY-LICENSE
+Merge pull request #3108 from tarleb/part
+Merge pull request #3168 from hubertp-lshift/feature/odt-image-with-caption
+Merge pull request #3166 from hubertp-lshift/bug/3134
+Merge pull request #3165 from hubertp-lshift/feature/odt-image
+Merge pull request #3146 from hubertp-lshift/feature/odt-list-start-value
+Merge pull request #3072 from tarleb/lineblock
+Merge pull request #3159 from jkr/refs
+Merge pull request #3156 from ickc/removing-googlecode
+Merge pull request #3141 from ickc/master
+Merge pull request #3136 from nichtich/patch-1
+Merge pull request #212 from greut/notes-server
+Merge pull request #3093 from wilx/master-figure-placement
+Merge pull request #215 from wilx/master-figure-placement
+Merge pull request #218 from tarleb/html5-semantical-header
+Merge pull request #216 from artemklevtsov/patch-1
+Merge pull request #3071 from tarleb/structured-author-doc
+Merge pull request #3091 from wilx/master-narrow-no-break-space
+Merge branch 'org-meta-handling'
+Merge pull request #3074 from waldyrious/patch-1
+Merge branch 'org-figure-fix'
+Merge pull request #3048 from tarleb/latex-mini-fix
+Merge pull request #211 from cagix/beamer-theme
+Merge pull request #3065 from tarleb/org-verse-indent
+Merge pull request #3067 from tarleb/org-figure-bugfix
+Merge pull request #210 from cagix/fix_beamerarticle
+Merge pull request #3045 from mortonfox/patch-1
+Merge pull request #3038 from tarleb/patch-1
+Merge pull request #3033 from tarleb/github-readme
+Merge pull request #205 from twsh/master
+Merge pull request #3019 from tarleb/org-verbatim-fix
+Merge pull request #3014 from tarleb/org-writer-div
+Merge pull request #3012 from tarleb/org-drop-ugly-pragma
+Merge pull request #3010 from tarleb/org-header-tree
+Merge pull request #203 from twsh/master
+Merge pull request #202 from alexivkin/master
+Merge pull request #3001 from tarleb/org-figure-label
+Merge pull request #2992 from tarleb/org-partial-functions
+Merge pull request #2979 from tarleb/doc-update
+Merge pull request #2980 from tarleb/org-raw-inlines
+Merge pull request #2981 from felixonmars/patch-1
+Merge pull request #2968 from IvoBCD/docbook5-xlink-ns
+Merge pull request #2964 from tarleb/org-berkeley-ref
+Merge pull request #2962 from tarleb/org-more-export-settings
+Merge pull request #2950 from tarleb/org-ref-support
+Merge pull request #2954 from tarleb/org-export-blocks
+Merge pull request #2946 from tarleb/org-modularization
+Merge pull request #2942 from mb21/epub-reader
+Merge pull request #2941 from tarleb/org-drawer-improvements
+Merge pull request #2934 from tarleb/org-properties-drawer
+Merge pull request #2927 from tarleb/org-attr-html
+Merge pull request #198 from vladipus/patch-1
+Merge pull request #2919 from janschulz/master
+Merge pull request #2894 from sid-kap/rst-code-class
+Merge pull request #2913 from jlduran/strut-minipage-tables
+Merge pull request #2910 from janschulz/master
+Merge pull request #2912 from tarleb/org-export-settings
+Merge pull request #2908 from ickc/master
+Merge pull request #1 from jgm/master
+Merge pull request #2907 from tarleb/org-fixes
+Merge pull request #2906 from roblabla/feature-mediaWikiTableHeaderSpaces
+Merge pull request #2898 from tarleb/org-table-refactoring
+Merge pull request #2900 from tarleb/org-symbol-fix
+Merge pull request #2890 from bcdevices/docbook5-writer
+Merge pull request #197 from bcdevices/feature/docbook5
+Merge pull request #2735 from mb21/patch-1
+Merge pull request #2829 from adunning/patch-1
+Merge pull request #2876 from shosti/org-code-indent
+Merge pull request #2828 from adunning/patch-1
+Merge pull request #2812 from mb21/patch-2
+Merge pull request #2637 from mb21/latex-figure-label
+Merge pull request #79 from josefs/master
+Merge pull request #186 from frasertweedale/fix/beamer-institute
+Merge pull request #2771 from mb21/docx-alt-text
+Merge pull request #2760 from ickc/master
+Merge pull request #2739 from mb21/patch-2
+Merge pull request #2646 from tarleb/org-figure-with-no-name
+Merge pull request #2668 from monofon/fix/yaml-metadata-block-bottom-line
+Merge pull request #2691 from tarleb/org-image-file-links
+Merge pull request #2732 from pra85/patch-2
+Merge pull request #2725 from adunning/patch-1
+Merge pull request #2703 from rski/stack_link_fix
+Merge pull request #2699 from MathieuDuponchelle/patch-1
+Merge pull request #2681 from pra85/patch-1
+Merge pull request #179 from c-forster/teiwriter
+Merge pull request #2638 from c-forster/teiwriter
+Merge pull request #2665 from monofon/fix/table-alignment
+Merge pull request #2632 from matt-e/fix-stack-build
+Merge pull request #2629 from tarleb/org-noexport-fix
+Merge pull request #2622 from conklech/ignore-stack
+Merge pull request #155 from adunning/html-abstract
+Merge pull request #2598 from twsh/biblatexoptions
+Merge pull request #169 from twsh/beamer-includes
+Merge pull request #175 from twsh/thanks
+Merge pull request #172 from twsh/parskip
+Merge pull request #167 from twsh/themes
+Merge pull request #152 from twsh/biblatex-options
+Merge pull request #174 from twsh/section-titles
+Merge branch 'AndreasLoow-master'
+Merge branch 'master' of https://github.com/AndreasLoow/pandoc into AndreasLoow-master
+Merge pull request #2593 from mb21/icml-linebreaks
+Merge pull request #2594 from adunning/patch-1
+Merge pull request #2591 from mb21/ICML-figures
+Merge pull request #2570 from mb21/rst-reader-imgattrs
+Merge pull request #164 from adunning/patch-2
+Merge pull request #162 from adunning/patch-3
+Merge pull request #161 from adunning/patch-2
+Merge pull request #163 from vlm/patch-1
+Merge pull request #2569 from rgaiacs/add-highlighting-to-gap
+Merge pull request #2568 from mb21/readers-images
+Merge pull request #157 from ousia/patch-1
+Merge pull request #156 from adunning/patch-1
+Revert "Merge pull request #158 from xoolive/pr-title"
+Merge pull request #158 from xoolive/pr-title
+Merge branch 'new-image-attributes' of https://github.com/mb21/pandoc into mb21-new-image-attributes
+Merge pull request #2532 from michaelbeaumont/fix-2530
+Merge pull request #2506 from adunning/patch-1
+Merge pull request #2509 from adunning/patch-2
+Merge pull request #2540 from adunning/patch-3
+Merge pull request #151 from vsivsi/master
+Merge pull request #2533 from adunning/patch-4
+Merge pull request #2531 from adunning/patch-3
+Merge pull request #2526 from tarleb/org-definition-lists-fix
+Merge pull request #2525 from tarleb/org-smart-fixes
+Merge pull request #141 from adunning/keywords
+Merge pull request #2502 from minoki/latex-comment-environment
+Merge pull request #2505 from tarleb/org-header-markup-fix
+Merge pull request #2472 from adunning/patch-1
+Merge pull request #2484 from nickbart1980/patch-4
+Merge pull request #2481 from mb21/textarabic
+Merge pull request #144 from adunning/html-keywords
+Merge pull request #143 from adunning/patch-1
+Merge pull request #142 from adunning/asciidoc
+Merge pull request #2477 from tarleb/org-toggling-header-args
+Merge pull request #2475 from tarleb/org-paragraph-before-list
+Merge pull request #2467 from adunning/patch-1
+Merge pull request #139 from adunning/patch-2
+Merge pull request #140 from adunning/patch-1
+Merge pull request #138 from adunning/patch-1
+Merge pull request #2458 from mb21/lang-inlines
+Merge pull request #137 from mb21/lang-inlines
+Merge pull request #136 from adunning/title-prefix
+Merge pull request #135 from adunning/fontspec
+Merge pull request #2461 from classeur/master
+Merge pull request #134 from adunning/patch-1
+Merge pull request #2451 from adunning/patch-1
+Merge pull request #2450 from adunning/patch-1
+Merge pull request #133 from adunning/latex-options
+Merge pull request #2449 from adunning/patch-1
+Merge pull request #113 from hugoroy/patch-1
+Merge pull request #132 from adunning/patch-1
+Merge pull request #131 from adunning/master
+Merge pull request #130 from adunning/xltxtra
+Merge pull request #2412 from frerich/reader/docbook/xref_support
+Merge pull request #127 from lyrixx/patch-1
+Merge pull request #2441 from mb21/polyglossia-lang
+Merge pull request #129 from mb21/polyglossia-lang
+Merge pull request #123 from alexvong1995/better-man-template
+Merge pull request #2426 from alexvong1995/better-man-writer
+Merge pull request #2445 from adunning/patch-2
+Merge pull request #2435 from adunning/patch-2
+Merge pull request #2432 from hftf/hyphens
+Merge pull request #115 from xoolive/pr-tufte
+Merge pull request #122 from adunning/patch-1
+Merge pull request #121 from gbonnefille/inner-outer
+Merge pull request #2420 from xymostech/patch-1
+Merge pull request #2419 from mb21/bidi
+Merge pull request #120 from mb21/bidi
+Merge pull request #2418 from nickbart1980/patch-3
+Merge pull request #114 from mb21/language-variables
+Merge pull request #2369 from mb21/language-variables
+Merge pull request #2406 from tarleb/org-verse-fix
+Merge pull request #2405 from lierdakil/rest-normalize-amend
+Merge pull request #2364 from gbataille/bugDoc
+Merge pull request #2352 from ousia/master
+Merge pull request #2360 from jg/issue-2354
+Merge pull request #2327 from hftf/list-style
+Merge pull request #2338 from trofi/master
+Merge pull request #1689 from kuribas/master
+Merge pull request #2323 from hftf/implicit-header-refs
+Merge pull request #2318 from infotroph/infotroph-readme-patch2
+Merge pull request #2303 from hftf/h6
+Merge pull request #2295 from dev-zero/master
+Merge pull request #2266 from PromyLOPh/fieldinline
+Merge pull request #2282 from adunning/patch-1
+Merge pull request #108 from mb21/patch-2
+Merge pull request #2255 from mchladek/odt_linebreak
+Merge pull request #2250 from PromyLOPh/rsttarget
+Merge pull request #106 from xoolive/pr-cjk
+Merge pull request #107 from xoolive/pr-color
+Merge pull request #2241 from mb21/docbook-reader-figures
+Merge pull request #99 from xoolive/master
+Merge pull request #98 from majutsushi/epub-role-fix
+Merge pull request #2217 from ousia/master
+Merge pull request #2215 from DigitalPublishingToolkit/icml-crashfix
+Merge pull request #90 from Kaixhin/master
+Merge pull request #97 from emwap/beamer_tightlist
+Merge pull request #2170 from tarleb/org-generalize-result-block
+Merge pull request #2169 from tarleb/org-header-tags
+Merge pull request #2141 from DigitalPublishingToolkit/icml-images
+Merge pull request #2149 from lierdakil/bibliography-docs
+Merge pull request #2138 from lierdakil/backtick-code-blocks
+Merge pull request #2131 from nickbart1980/patch-2
+Merge pull request #2134 from jlmuir/fix-user-guide-typos
+Merge pull request #95 from lierdakil/fix-paragraph-undefined
+Merge pull request #2123 from hellofloat/master
+Merge pull request #2112 from lierdakil/issue2101
+Merge pull request #2110 from timtylin/patch/travis-new-apt-syntax
+Merge pull request #2099 from RyanGlScott/master
+Merge pull request #2095 from pombreda/patch-1
+Merge pull request #2090 from lierdakil/issue2083
+Revert "Merge pull request #1947 from mpickering/Fmonad"
+Merge pull request #2093 from gbataille/genericTypo
+Merge branch 'jlduran-latex-tightlist'
+Merge branch 'latex-tightlist' of https://github.com/jlduran/pandoc into jlduran-latex-tightlist
+Merge pull request #1954 from mcmtroffaes/feature/citekey-firstchar-alphanum
+Merge pull request #2079 from lierdakil/rst-normalize-headings
+Merge pull request #2088 from AndreasLoow/master
+Merge pull request #2092 from lierdakil/issue1909
+Merge pull request #92 from lierdakil/patch-1
+Merge pull request #2081 from lierdakil/docx-content-title
+Merge pull request #2078 from nickbart1980/patch-2
+Merge pull request #2072 from lierdakil/latex-reader-cleanup
+Merge pull request #2070 from lierdakil/odt-image-captions
+Merge pull request #2064 from nickbart1980/patch-1
+Merge pull request #2057 from Jubobs/master
+Merge pull request #89 from onlyjob/reveal.js
+Merge pull request #2042 from lierdakil/issue1866
+Merge pull request #2035 from lierdakil/issue2031
+Merge pull request #2038 from lierdakil/docx-hyphen-settings
+Merge pull request #2037 from lierdakil/issue458
+Merge pull request #2039 from mpickering/7.10
+Merge branch 'rootzlevel-master'
+Merge branch 'master' of https://github.com/rootzlevel/pandoc into rootzlevel-master
+Merge pull request #2034 from lierdakil/issue2032
+Merge branch 'master' of github.com:jgm/pandoc
+Merge branch 'mpickering-errortype'
+Merge branch 'errortype' of https://github.com/mpickering/pandoc into mpickering-errortype
+Merge pull request #2030 from lierdakil/issue2026
+Merge pull request #2023 from lierdakil/fix-stylemap
+Merge pull request #1947 from mpickering/Fmonad
+Merge pull request #2013 from ShabbyX/master
+Merge pull request #1968 from lierdakil/issue1607
+Merge pull request #2008 from tomleese/fix-github-phrasing
+Merge pull request #1989 from zudov/shortcut_ref_link_pr
+Merge pull request #2000 from bosmacs/org-smart
+Merge pull request #1999 from synsem/latex-reader-tables
+Merge pull request #1976 from wcaleb/json-help-message
+Merge pull request #1988 from sumitsahrawat/issue-969
+Merge pull request #1980 from RyanGlScott/master
+Merge pull request #1964 from mpickering/latexfix
+Merge pull request #1927 from freephile/master
+Merge pull request #1915 from mpickering/travisupdate
+Merge branch 'timtylin-patch/fixTexinfoWrap'
+Merge branch 'patch/fixTexinfoWrap' of https://github.com/timtylin/scholdoc into timtylin-patch/fixTexinfoWrap
+Merge pull request #1925 from timtylin/patch/prettyLineBreaks
+Merge pull request #81 from aaron0browne/issue-80
+Merge pull request #1912 from zudov/missing_alt
+Merge pull request #1885 from mb21/html-reader-tables
+Merge pull request #78 from EoinTravers/patch-1
+Merge pull request #1888 from mpickering/errormsg
+Merge pull request #1870 from mb21/fix-xelatex-recommendation
+Merge pull request #1856 from markwright/master
+Merge pull request #1853 from mpickering/contrib
+Merge pull request #76 from ousia/master
+Merge branch 'patch-1' of https://github.com/Wikiwide/pandoc into Wikiwide-patch-1
+Merge pull request #1803 from mpickering/bugfixes
+Merge branch 'use-texorpdfstring' of https://github.com/wilx/pandoc into wilx-use-texorpdfstring
+Merge pull request #1805 from bergey/rst
+Merge pull request #1813 from tarleb/file-links
+Merge pull request #1695 from bjornbm/master
+Merge pull request #1797 from bos/master
+Merge pull request #1795 from bos/master
+Merge pull request #1796 from bos/threaded
+Merge pull request #1746 from shelf/dw-ext-images
+Merge pull request #1794 from mpickering/docxfix
+Merge pull request #1646 from neongreen/issue1631
+Merge pull request #1716 from lierdakil/issue1607-pullreq
+Merge pull request #1790 from mpickering/master
+Merge pull request #1787 from Twinside/master
+Merge pull request #1781 from bergey/rst
+Merge pull request #1645 from neongreen/issue1636
+Merge pull request #1742 from tarleb/org-fix-links
+Merge pull request #1726 from AlexanderS/twiki-parser
+Merge pull request #1727 from toddsifleet/tws-fix-issue-1682
+Merge pull request #1706 from tarleb/org-symbol-entities
+Merge pull request #1668 from gbataille/widthFromRef2
+Merge pull request #1680 from shelf/master
+Merge pull request #1700 from tarleb/org-emphasis-fix
+Merge pull request #1702 from tarleb/org-comment-trees
+Merge pull request #1674 from freiric/master
+Merge pull request #1666 from jronallo/webvtt-mime
+Merge pull request #1601 from jkr/windowsfix
+Merge pull request #1589 from mszep/master
+Merge pull request #1644 from mpickering/master
+Merge branch 'master' of github.com:jgm/pandoc
+Merge pull request #70 from bluebirch/master
+Merge pull request #1639 from RyanGlScott/master
+Merge branch 'mime' of https://github.com/Aelve/John into Aelve-mime
+Merge pull request #1580 from jkr/stringCellDokuWiki
+Merge pull request #1574 from jlduran/latex-horizontal-rule
+Merge branch 'ugly-tables' of https://github.com/jlduran/pandoc into jlduran-ugly-tables
+Merge pull request #1577 from jkr/plainCells
+Merge pull request #1567 from mpickering/dokuwidth
+Merge pull request #1564 from jkr/trackChangesWriter
+Merge pull request #1565 from Chobbes/master
+Merge pull request #1553 from mpickering/master
+Merge pull request #1547 from jkr/styleparse
+Merge pull request #1536 from considerate/master
+Merge pull request #1543 from jkr/superSubVert
+Merge pull request #1540 from jkr/charStyles
+Merge pull request #1539 from jkr/builderRewrite
+Merge pull request #1531 from jkr/morefonts
+Merge pull request #1529 from jkr/dunning-fixes
+Merge pull request #1527 from mpickering/juicypixels
+Merge pull request #1528 from mpickering/epubtitlepage
+Merge pull request #1524 from jkr/dropCap3
+Merge pull request #1523 from jkr/dropCap2
+Merge pull request #1522 from jkr/dropCap
+Merge pull request #1521 from jkr/emptyEmph
+Merge pull request #1519 from mpickering/more
+Merge pull request #1365 from gbataille/docx-margin
+Merge pull request #1516 from mpickering/epubmetadata
+Merge pull request #1518 from jkr/fontsmore
+Merge pull request #1512 from mpickering/master
+Merge pull request #1510 from jkr/spacefix
+Merge pull request #1509 from jkr/symbol
+Merge pull request #1508 from mpickering/master
+Merge pull request #1507 from mpickering/master
+Merge branch 'newbranch' of https://github.com/mpickering/pandoc into mpickering-newbranch
+Merge pull request #1503 from jkr/streamlineMath
+Merge pull request #1502 from jkr/streamlineMath
+Merge pull request #1488 from mpickering/epubfixes
+Merge pull request #1496 from mpickering/master
+Merge pull request #1494 from jkr/math-module
+Merge pull request #1495 from jkr/inline-drawings
+Merge pull request #1492 from jkr/nodocxenv
+Merge pull request #1491 from jkr/texmath-equations
+Merge pull request #1490 from ulikoehler/master
+Merge pull request #1487 from mpickering/master
+Merge pull request #1486 from Aelve/minor
+Merge pull request #1476 from jkr/endnote-fix
+Merge branch 'epubend' of https://github.com/mpickering/pandoc into mpickering-epubend
+Merge pull request #1461 from cben/readme-linkable-extensions
+Merge pull request #1479 from Aelve/capitalise
+Merge pull request #1475 from Aelve/fix-benchmark
+Merge branch 'underline-option' of https://github.com/jkr/pandoc
+Merge pull request #1473 from jkr/mediabag-test-2
+Merge branch 'master' of github.com:jgm/pandoc
+Merge pull request #1472 from mpickering/master
+Merge pull request #1470 from jkr/metadata-test
+Merge pull request #1468 from jkr/mediabag
+Merge pull request #1463 from jkr/metadata
+Merge pull request #1459 from mpickering/formats
+Merge pull request #1457 from mpickering/generalstate
+Merge pull request #1453 from mpickering/txt2tagsfinal
+Merge pull request #1444 from mpickering/master
+Merge pull request #1438 from mpickering/master
+Merge pull request #1435 from bosmacs/org-babel-exports
+Merge pull request #1430 from jkr/anchor-fix-2
+Merge branch 'claremacrae-dokuwiki'.
+Merge pull request #1414 from mpickering/general
+Merge pull request #1415 from jkr/nicertype
+Merge pull request #1418 from wcaleb/document_code_attr_ext
+Merge branch 'dokuwiki' of https://github.com/claremacrae/pandoc into claremacrae-dokuwiki
+Merge pull request #1397 from jkr/equations
+Merge pull request #1399 from xkollar/reader
+Merge branch 'master' of git://github.com/jgm/pandoc into dokuwiki
+Merge pull request #1388 from jkr/divattrToCont-cleanup
+Merge pull request #1386 from jkr/hanging_indent
+Merge pull request #1383 from jkr/writer-bookmark-fix
+Merge pull request #1381 from jkr/updateDState
+Merge remote-tracking branch 'jgm/master' into dokuwiki
+Merge pull request #1379 from jkr/more_auto_id
+Merge pull request #65 from claremacrae/dokuwiki
+Merge pull request #1377 from jkr/monad
+Merge remote-tracking branch 'jgm/master' into dokuwiki
+Merge pull request #1374 from jkr/track-changes-options
+Merge pull request #1375 from jkr/cleanup
+Merge pull request #1372 from jkr/track-changes
+Merge pull request #1370 from jkr/fix-zero-indent
+Merge pull request #1368 from jkr/docxCode
+Merge pull request #1367 from jkr/reducible-copyright
+Merge pull request #1366 from jkr/reducible3
+Merge pull request #1363 from jkr/newNormalize
+Merge pull request #1361 from jkr/testNormalize
+Merge pull request #1357 from jkr/bottomUpStrNormalize
+Merge pull request #1354 from jkr/literalTab
+Merge pull request #1351 from jkr/testWithOptions
+Merge branch 'docx' of https://github.com/jkr/pandoc into jkr-docx
+Merge pull request #1344 from mpickering/master
+Merge pull request #1339 from dfc/patch-1
+Merge pull request #1336 from aspnes/master
+Merge pull request #1302 from tarleb/inline-latex
+Merge pull request #1309 from michaelt/patch-1
+Merge pull request #1307 from palday/master
+Merge pull request #1306 from snoyberg/patch-1
+Merge pull request #1293 from tarleb/typo
+Merge pull request #1296 from DanStaal/master
+Merge pull request #1297 from tarleb/citations
+Merge pull request #1290 from tarleb/fix-header-params
+Merge pull request #1288 from tarleb/update-copyright
+Merge pull request #1289 from tarleb/code-block-headers
+Merge pull request #60 from yihui/patch-1
+Merge pull request #1280 from tarleb/org-inline-blocks
+Merge pull request #1272 from tarleb/link-types
+Merge pull request #58 from yihui/master
+Merge pull request #1268 from tarleb/copyright-housekeeping
+Merge pull request #1265 from tarleb/org-links
+Merge pull request #1260 from joehillen/tabs-in-cabalfile
+Merge pull request #1257 from tarleb/mathmlinhtml-deprecation-warning
+Merge pull request #1256 from tarleb/org-reader-improvements
+Merge pull request #1240 from neilmayhew/master
+Merge pull request #1239 from tarleb/org-linebreak
+Merge pull request #1238 from tarleb/org-figures
+Merge pull request #44 from aaronwolen/beamer-captions
+Merge pull request #1231 from tarleb/org-fix-subexpr
+Merge pull request #1229 from tarleb/org-math-improved
+Merge pull request #1228 from tarleb/travis-fail-on-warnings
+Merge pull request #1227 from tarleb/editorconfig
+Merge pull request #1226 from tarleb/org-emphasis-reader
+Merge pull request #1224 from tarleb/org-math
+Merge pull request #1219 from tarleb/org-images
+Merge pull request #1216 from trofi/master
+Merge pull request #1207 from mpickering/htmlinlines
+Merge pull request #1068 from jaimeMF/mw-images-langs
+Merge pull request #54 from KarolS/master
+Merge pull request #1190 from eVITAERC/patch/1151-windows-texlive
+Merge pull request #46 from mb21/master
+Merge branch 'master' of https://github.com/mb21/pandoc into mb21-master
+Merge pull request #1179 from tarleb/org
+Merge pull request #1145 from wilx/en-dash-ligature-avoidance
+Merge pull request #1163 from merijn/master
+Merge remote-tracking branch 'origin/master' into en-dash-ligature-avoidance.
+Merge pull request #1143 from merijn/master
+Merge pull request #974 from merijn/master
+Merge pull request #1005 from nougad/consistent_bibliography
+Merge pull request #1103 from nikai3d/patch-1
+Merge pull request #1099 from hdevalence/master
+Merge pull request #49 from lionandoil/master
+Merge pull request #1090 from jrnold/master
+Merge pull request #48 from lionandoil/master
+Merge pull request #1076 from jlduran/booktabs
+Merge pull request #47 from jlduran/booktabs
+Merge pull request #1074 from heurist/normalizeDateYearOnly
+Merge pull request #1061 from heurist/epub_coverLinear
+Merge pull request #1048 from minrk/svg
+Merge branch 'master' of github.com:jgm/pandoc
+Merge pull request #41 from wilx/master
+Merge pull request #995 from wilx/master
+Merge pull request #38 from ErikEvenson/pr/html5-meta-scale
+Merge branch 'master' of github.com:jgm/pandoc
+Merge branch 'master' of github.com:jgm/pandoc
+Merge pull request #961 from nougad/add_latex_listings_label
+Merge pull request #960 from semorrison/master
+Merge branch 'altcite'
+Merge pull request #950 from semorrison/master
+Merge branch 'master' of https://github.com/semorrison/pandoc
+Merge pull request #36 from logc/master
+Merge pull request #924 from drothlis/patch-1
+Merge pull request #907 from KholdStare/fix-no-highlight
+Merge pull request #886 from aaronwolen/master
+Merge pull request #31 from aaronwolen/master
+Merge pull request #29 from abakst/patch-1
+Merge pull request #868 from maxandersen/atxasciidoc
+Merge pull request #841 from juhp/patch-2
+Merge pull request #808 from davidlazar/master
+Merge branch 'opml'
+Merge pull request #787 from sheremetyev/wix-allusers
+Merge pull request #19 from dfc/master
+Merge pull request #769 from dfc/fix-readme
+Merge pull request #748 from sheremetyev/wix-peruser
+Merge branch 'citations'
+Merge pull request #733 from jrunningen/master
+Merge branch 'master' of github.com:jgm/pandoc
+Merge branch 'master' of github.com:jgm/pandoc
+Merge pull request #717 from juhp/patch-1
+Merge pull request #658 from clinty/master
+Merge pull request #636 from byorgey/master
+Merge pull request #619 from bgamari/master
+Merge pull request #596 from dlax/rst-fieldlists
+Merge pull request #16 from adityam/master
+Merge pull request #15 from akerbos/patch-1
+Merge commit 'd25656571a4662a4e67b195daed69e77d80c4c2c'
+Merge branch 'master' of github.com:jgm/pandoc
+Merge pull request #510 from mytskine/markdown-extra
+Merge pull request #563 from ArloL/patch-2
+Merge pull request #561 from ArloL/patch-1
+Merge pull request #521 from jonassmedegaard/master
+Merge pull request #11 from jonassmedegaard/master
+Merge pull request #485 from paul-r-ml/master
+Merge pull request #495 from mb21/master
+Merge pull request #496 from markwright/master
+Merge pull request #491 from mb21/patch-1
+Merge pull request #482 from sol/mtl-2.1
+Merge branch 'master' into docbookreader
+Merge branch 'master' into docbookreader
+Merge pull request #456 from gmaslov/master
+Merge pull request #452 from wangp/master
+Merge pull request #444 from trofi/master
+Merge pull request #442 from trofi/master
+Merge pull request #438 from michaelt/patch-2
+Merge pull request #437 from michaelt/patch-1
+Merge pull request #6 from adityam/master
+Merge pull request #5 from adityam/master
+Merge pull request #411 from dfc/patch-1
+Merge pull request #404 from conal/master
+Merge pull request #366 from gridaphobe/master
+Merge pull request #364 from aslatter/master
+Merge branch 'asciidoc'
+Merge pull request #304 from aslatter/master
+Merge pull request #295 from takahashim/fixfootnotes
+Merge pull request #1 from adityam/master
+Merge pull request #283 from trofi/master
+Merge pull request #278 from tanimoto/master
+Merge pull request #273 from qerub/master
+Merge pull request #270 from khightower/master
+Merge branch 'lineend'
+Merge branch 'master' of github.com:jgm/pandoc
+Merge branch 'tests'
+Merge branch 'master' of github.com:jgm/pandoc into tests
+Merge branch 'tests' of github.com:xabbu42/pandoc into tests
+Merge branch 'master' into tests
+Merge branch 'punchagan-master'
+Merge branch 'citeproc' into master.
+Merge branch 'master' into citeproc
+Merge branch 'master' into citeproc
+Merge branch 'master' into citeproc
+Merge branch 'master' into citeproc
+Merge branch 'textile'
+Merge branch 'master' into citeproc
+Merge branch 'master' into citeproc
+Merge branch 'master' into citeproc
+Merge branch 'atlists'.  Added auto-numbered example lists.
+Merged branches/context:  addition of a ConTeXt writer <http://www.pragma-ade.nl/>. + Text.Pandoc.Writers.ConTeXt added. + Text.Pandoc modified to export the basic ConTeXt writer. + Main.hs modified to recognize 'context' as a writer. + ConTeXtHeader added to headers + DefaultHeaders.hs template modified to include ConTeXt header + Tests added (writer.context, tables.context), and runtests.pl   modified to run them + pandoc.cabal updated to include Text.Pandoc.Writers.ConTeXt.
+Merged changes from 'quotes' branch since r431.  Smart typography is now handled in the Markdown and LaTeX readers, rather than in the writers.  The HTML writer has been rewritten to use the prettyprinting library.
+Merged changes from docbook branch since r363.
+Merged 'strict' branch from r324.  This adds a '--strict' option to pandoc, which forces it to stay as close as possible to official Markdown syntax.
+Merged changes from branches/wrappers since r177. Summary of main changes: + Added -o/--output and -d/--debug options to pandoc. + Modified pandoc to behave differently depending on the name   of the program.  For example, if the program name is 'html2latex',   the default reader will be html and the default writer latex. + Removed most of the old wrappers, replacing them with symlinks   to pandoc. + Rewrote markdown2pdf and created a new wrapper web2markdown,   with the functionality of the old html2markdown script.  These   new scripts exploit pandoc's -d option to avoid having to do   complex command-line parsing. + Revised man pages and documentation appropriately.
+Merged changes to footnotes branch r219-r240.
+Merge changes in branches/wrappers into trunk.
+Merge trunk with ghc66-branch.

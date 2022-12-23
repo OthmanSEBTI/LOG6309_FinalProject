@@ -1,0 +1,1 @@
+Fix: 如果同时设定了is_need_at和keyword, 会导致判定出错不会执行下方命令. 现在强制判断, 只有is_need_at为0的时候才检查keyword. 防止不明群众二者都设置

@@ -1,0 +1,1137 @@
+Fix make_artifacts.sh.
+Fix CABALOPTS in make_artifacts.sh.
+Fix warnings.
+Fix import.
+Fix an import warning.
+Fix test for template marshaling.
+Fix import in pandoc-lua-engine tests.
+Fix typo introduced by recent commit in styles.html.
+Fix rc build for Windows.
+Fix typo in build-arm.sh.
+Fix `nightly` flag for macos nightly build.
+Fix nightly Windows build so it uses `nightly` flag.
+Fix `nightly` flag build.
+Fix small whitespace things.
+Fix 'quick-cabal' target in Makefile to build pandoc-cli.
+Fix stack config, nightly build
+Fix support for Lua 5.3
+Fix typo in manual
+Fix implicit_header_references with duplicate headings.
+Fix stack.yaml
+Fix stack.yaml
+Fix revision to stack.yaml.
+Fix a small space leak in HTML writer.
+Fix stack.yaml
+INSTALL.md: Fix link to fedora package site. (#8246)
+Fix typo in trypandoc.js.
+Fix macOS zip so pandoc-server is a symlink.
+Fix regression with data uris in 2.19.1.
+Fix typos
+Fix rc action for pandoc-server.
+Fix make_artifacts.sh.
+Fix pandoc-server on linux make_artifacts.sh.
+Fix tests for d2bd9abc4d5e9b6b4a6414fd010cdb5995f32935
+Fix bug in filter example. Thanks to Jiří Wolker.
+Fix links in manual (#8188)
+RST writer: Fix missing spaces with nested inlines.
+Fix roff ms syntax highlighting definitions.
+Fix mistakes in the User’s Guide (#8173)
+Org reader: Fix Post / Pre mixup when setting emphasis chars (#8134)
+Fix treatment of extensions for `\input` in LaTeX reader.
+Fix LaTeX tests for tables with colspans
+Fix tests after changes to JATS template
+LaTeX template: Fix <200c> character rendering (#8036)
+Fix compiler warnings from last commit.
+Fix 2.18 release date in changelog.
+Fix regression with `ascii_identifiers` and Turkish undotted i.
+Fixed two thunk leaks in RTF reader.
+JATS writer: Fix handling of CSL variable 'page'.
+doc/lua-filters.md: Fix typo (#7981)
+LaTeX template: Fix regression with code in footnotes...
+Add scrreport to the latex writer chaptersClasses. Fixed #6168 (#7935)
+Fix typos (#7934)
+Fix parsing of epub footnotes.
+Fix typo in changelog.
+Fix identifier in lua-filters doc.
+Fix div position in faqs.
+Fix lua-filters documentation for table column widths.
+Fix compiler warnings.
+Fix some haddock errors.
+Fix pattern syntax in sample readability custom reader.
+Fix message in man page about where code can be found.
+Fix 'make trypandoc' target.
+Fix typo in changelog.
+Fix typo in changelog.
+Fix regression: allow blank lines in HTML attributes.
+Fix parsing of footnotes in `--metadata-file`.
+Fix gitignore wildcards to use `**`.
+Fix typo panjabi -> punjabi.
+Fix ghc 9.2.1 warnings.
+Fix macos build on GitHub actions release-candidate.
+Fix typo.  Closes jgm/pandoc-website#54.
+LaTeX reader: Fix semantics of `\ref`.
+Fix top-level header on changelog.
+Fix misspelled extension name in manual.
+Fix parsing of `%` in bibtex fields.
+Fix build on GHC 9.2
+Fix trypandoc so it builds with aeson > 2.
+Fix a copy/paste bug in Lua marshalling code.
+Fix more epub files in epub reader tests.
+Fixed test/epub/img.epub and img_no_cover.epub...
+Fix conformance errors in test/epub/features.epub and
+Fix description of sandbox feature in changelog.
+Fix 2.15 release date on changelog.
+Fix line numbers in source code with reveal.js
+pptx: Fix list level numbering
+Fix markdown parsing bug for math in bracketed spans and links.
+Fix warning
+Fix compareXML helper in Tests.Writers.OOXML.
+Fix changelog date for 2.14.2.
+Fix linter warning.
+Fix code blocks using `--preserve-tabs`.
+Fix quick-cabal target
+pptx: Fix logic for choosing Comparison layout
+pptx: Fix presentation rel numbering
+pptx: Fix capitalisation of notesMasterId
+Fix command test for #7557.
+Fix test for #7521.
+Fix typo in changelog.
+RST reader: Fix `:literal:` includes.
+Fix bug in last commit due to removal of take1WhileP.
+Fix raw LaTeX injection issue (LaTeX writer).
+Fix some lint issues.
+Fix scope for LaTeX macros.
+Fix RTF table parsing bug that created undesired nested tables.
+Fix comment syntax in cabal.project
+PDF: Fix svgIn path error.
+Docx writer: Fixed a couple bugs in Figure numbering.
+Fix regression with comment-only YAML metadata blocks.
+Fix unneeded import
+Fix test for #7397
+Markdown writer: Fix regression in code blocks with attributes.
+Fix regression in citeproc processing.
+Fix line breaks in issue templates.
+Fix link to contributing guidelines.
+Fix MediaBag regressions.
+LaTeX writer: Fix regression in table header position.
+Fix regression in 2.14 for generation of PDFs with SVGs.
+Fix regression with commonmark/gfm yaml metdata block parsing.
+Fix test #3752 (1) for Windows.
+Fix a command test so it writes to stdout not stderr.
+Fix link to KDE syntax highlighting docs.
+LaTeX reader: Fix parsing of `+-` in siunitx numbers.
+Fix .editorconfig so Emacs can open zip archives and docx again.
+Fix source position reporting for YAML bibliographies.
+epub Writer: Fix belongs-to-collection XML id choice (#7267)
+Fixed another typo in cabal.project.
+Fix typo in cabal.project.
+Fix nightly build.
+Fix regression in grid tables for wide characters.
+Fix typo (#7200)
+Fix "phrase" in DocBook: take classes from "role" not "class".
+Fixed typo #7159
+Fixed "The this" typo in lua-filters.md
+Fix DocBook reader mathml regression...
+Fix fallback to default partials on templates.
+Fix finding of data files from test programs.
+Fix benchmark in ci.
+Fix regression with `tex_math_backslash` in Markdown reader.
+Fix benchmark CI to use gauge options.
+Fix, amend changelog.
+Fixed build-arm script.
+Fix linux nightly build to use ghc 8.10.3.
+Fix docker image.
+Fix CI for older cabal versions.
+Fix bug in last commit.
+Fix/update URLs and use HTTP**S** where possible (#7122)
+Fix changelog-helper.sh
+Fix command test 5686
+Fixed some compiler warnings in tests.
+Fix stack config
+Fix infinite HTTP requests when writing epubs from URL source.
+Fixed table with file extensions and interpreters
+Fix typo in CONTRIBUTING.md
+Makefile: Fix checkdocs target.
+Fix citeproc regression with duplicate references.
+LaTeX writer: Fix bug with nested csl- display Spans.
+HTML writer: Fix handling of nested csl- display spans.
+Fix a tiny Typo in the CSV reader module
+Docx writer: Fix bullets/lists indentation
+Fix pre-commit hook so it doesn't catch .latex+lhs extensions.
+LaTeX tables: Fix calculation of column spacing.
+Fix truncation of `[Citation]` list in `Cite` inside footnotes...
+LaTeX reader: Fix negative numbers in siunitx commands.
+Text.Pandoc.PDF: Fix `changePathSeparators` for Windows.
+Fix small typo in manual for `--markdown-headings`.
+Fix error when extension output is doc (#6834)
+Fix corner case in YAML metadata parsing.
+Fix code example in lua-filters.md.
+Fix duplicate "class" attribute in HTML writer
+Fix handling of xdata in bibtex/biblatex bibliographies.
+Fix some small typos in the API documentation (#6751)
+Fix remaining typos in tests
+Fix typos in comments, doc strings, error messages, and tests
+Fix CSL JSON conversion examples in MANUAL.
+Markdown writer: Fix autolinks rendering for gfm.
+Fix spelling errors in chengelog.  See #6738.
+Fix spelling errors in MANUAL found by fossies codespell tool.
+Fix advice about using bibutils in changelog.
+LaTeX reader: Fix parsing of "show name" in newtheorem.
+Fixed some bibtex comments in tests (closing }).
+Fix custom writer test.
+Fix apparent typos in sample.lua (#6729)
+Fix URL prefixes in citations also when they occur in notes.
+Fix URL for "short DOIs" in citations.  See #6723.
+Fixed regresison in last commit.
+Fix redundant import warning.
+Fix short-title.
+Fix pandoc-templates target to include all partials.
+Fix hlint suggestions, update hlint.yaml (#6680)
+CI/macOS: Fix stack invocations.
+Fix tests for skylighting 0.10
+epub.css: Fix cover page selectors and add note explaining their use. (#6649)
+Makefile: Fix macospkg target to fetch target from S3 artifacts.
+HTML writer:  Fix addition of doc-biblioentry role.
+[Latex Reader] Fixing issues with \multirow and \multicolumn table cells (#6608)
+Fix trypandoc in response to d8ad766d17603784b86fc5c2e1b22864125d04d1
+Fix typo in CONTRIBUTING.md (#6584)
+Fix Typos in Lua Filters Doc
+Fix typo in MANUAL.txt
+Fix date on changelog
+Fix 'make pandoc-templates'.
+Fix MIME type for TrueType fonts in EPUBs (#6464)
+Fixed Katex standalone script (#6399)
+Fix underline in RTF writer.
+Fix misleading note about image size conversions in MANUAL.
+Fix mediawiki reader with gfm_auto_identifiers.
+Fixed round-trip HTML tests.
+Fix round-trip bug with HTML tables....
+Fix typo.
+Fix path for nightly linux build.
+Markdown Reader: Fix inline code in lists (#6284)
+Fix ATX header syntax in manual
+Fix description of BulletList Lua type
+Fix #6228 (#6230)
+Fixes to 'notarize' target to preserve hardened runtime.
+Fix man reader test for previous change.
+Fix parsing of `\'` in man/ms readers.
+Fix parsing of `\.` in man/ms readers.
+Fix table alignment when heading begins with t.
+Fix typo in changelog.
+Fixes: group biblatex citations even with prefix and suffix (#6058)
+sample.lua: Fix typo in descriptive comments (#6136)
+Fix spurious dots in markdown_mmd metadata output
+Fix --number-offset with HTML TOC.
+Fix duplicate frame classes in LaTeX/Beamer output.
+Fix bug in Text.Pandoc.CSV.
+Fix test suite for new skylighting.
+Fix typo in windows ci build.
+Fix regression in handling of columns in beamer slides.
+Fix regression in beamer slide structure with certain slide levels.
+Fix revealjs slide structure regression with certain slide levels.
+Fix test/tables.org
+Fix parsing bug affected indented code after raw HTML.
+Fix regression with --number-sections.
+Fix README.md so that relative links from manual become absolute.
+Fix regression in `makeSections`.
+Fix --toc-depth regression in 2.8.
+Fix --toc-depth regression in 2.8.
+Fix makeSections so it doesn't turn column divs into sections.
+Fix regression with behavior of --variable.
+EPUB writer: Fix regression with `--css option.
+Fix trypandoc for Text changes.
+Fix extract-changes.hs to use new changelog.md format.
+Fix extract-changes.hs so it uses stack as interpreter.
+Fix changes_github Makefile target.
+Fix typos (#5919)
+Fix changelog list formatting.
+Fixed some test locations and put test data files in extra-source-files.
+Fix regression preventing header-includes from being set using -V.
+Fix regression introduced by last commit.
+Fix typos (#5896)
+DocBook reader: Fix bug with entities in mathphrase element.
+Fix list fields in Opt so they aren't reversed.
+Fix metadata replacement example in lua-filters doc.
+LaTeX reader: Fixed dollar-math parsing...
+Fix capitalization of "Linux" in docs (#5859)
+Fixed typo in example.
+Fix `gfm_auto_identifiers` behavior with emojis.
+Fix examplel for defaults.
+Fix all hlint warnings in Muse reader
+Fix compiler warnings on ghc 8.8.
+Fix trypandoc with getReader/getWriter changes.
+Fix benchmarks so they compile again.
+Fix linux ci.
+Fix tests in linux ci (GitHub).
+Fix cabal command in linux ci.
+RST reader: Fixed parsing of indented blocks.
+Nightly: Fix macos file finding.
+Fixes to nightly workflow.
+PDF: Fix test for Cygwin.  See #5451.
+Fix syntax of cabal v2-install.
+Fix setting path.
+LaTeX reader: Fix parsing of optional arguments that contain braced text.
+Roff reader: Fix problem parsing comments before macro.
+Fix inline parsing in grid table cells.
+Fix multiline table for XWiki writer (#5683)
+Fix links to Attr in lua-filters.doc.
+Fix stack.yaml.
+Fix error introduced in change to test for 4669.
+Fix diff-zip.sh so it works on Darwin.
+Fix #4499: add mbox and hbox handling to LaTeX reader (#5586)
+Fix redundant constraint warnings. (#5625)
+Update Lua function names in pandoc.system Fixed function names of pandoc.system.get_working_directory() and pandoc.system.with_temporary_directory() which are written in the manual of lua filter.
+Fix typo in lua documentation.
+Fix document section assignments in EPUB writer.
+Fix handling of `file:` URL scheme in `downloadOrRead` (#5522)
+Fix using Beamer with geometry (#5505)
+Fix broken links in documents (#5473)
+Fix footnote in image caption.
+Fix --self-contained so it works when output format has extensions.
+Fix harmless error in file-scope code.
+Fixed typo in circleci config.
+LaTeX writer: Fix footnotes in table caption and cells.
+Fixed mistake in filterIpynbOutput (prefer lower, not higher rank!)
+Fix typo in changelog.
+Fixed asciidoc display math in list contexts.
+Fix misleading code comment.
+Revert "Docx reader: Fix windows error"
+Docx reader: Fix windows error
+Fix cabal.project.
+LaTeX template: Fix subtitle spacing (#5244)
+Fix tests for sample custom writer tables
+Tests: Fix findPandoc to work with Windows.
+Fix findPandoc so it works with cabalv2.
+Fix typo in MANUAL.txt
+Fix CSS and viewport on try pandoc index.html.
+Fix typos
+Fix missing word
+Fix warnings in Text.Pandoc.Process.
+Fix progit book url
+Fix custom tests.
+Fix parsing of citations and quotes after parentheses.
+ODT writer: Fix list indentation
+MANUAL: Fix outdated description of latex_macros extension.
+Fix markdown-citations test for new abbreviations changes.
+Docx writer: Fix bookmarks to headers with long titles.
+Fix compiler warning.
+Fix test case for #5014.
+Fix note on curly brace syntx for locators.
+Fix CPP conditional for TH pragma
+Fix typo in changelog.
+Fix bug in linux/Dockerfile.
+Fix bug in linux/Dockerfile.
+Fix readWithM with Stream.
+Fix Muse writer style
+Man reader: Fix spacing requirement for macro arguments.
+Man reader: Fixed handling of nested fonts.
+Man reader: Fix .B, .I, .BR, etc.
+LaTeX reader: Fix small regression in pattern argumnents...
+Markdown reader: Fix awkward soft break movements before abbreviations.
+Fixed tests for new skylighting.
+Fixed haddock error in Muse reader.
+LaTeX writer: Fix description lists contining highlighted code.
+Fixed appveyor improvemnets.
+appveyor - Fix typo.
+Fix appveyor.yaml env variable.
+RTF writer: Fix build failure with ghc-8.6.1 caused by missing MonadFail instance.
+Fix compiler warning.
+Makefile: Fix executable path in trypandoc target.
+'make winpkg': Fixed creation of zips.
+Fix 'make winpkg'.
+Fix haddock on 'Ext_footnotes'
+Travis: Fix stack build.
+travis: Fix ghc version label for stack build.
+Fix percentage image scaling in ODT (#4881)
+Fix "new new" typo in changelog
+Fix a typo: s/afeter/after/
+Fix mistake in REPL instructions for stack. (#4849)
+Fix compiler warning.
+Fix parsing of embedded mappings in YAML metadata.
+Fix for bug in parsing `\include` in markdown.
+Fix regression finding templates in user data directory.
+Fix aeson flag again...
+Fix appveyor flag.
+PDF: Fix logic error in runTeXProgram.
+Fix compiler warnings.
+Fixed typo in LaTeX writer.
+Fixed cabal versions in travis.
+Fix regression with tex math environments in HTML + MathJax.
+Fixed bug in uriPathToPath for Windows.
+Fix another changelog typo
+Fix changelog typo
+Fix Haskell link in README.
+Fix changelog typo
+Ms template:  Fix date.
+Fix link in README.
+Fix a typo in Muse reader testsuite comment
+Fix bash completion for `--print-default-data-file`.
+Fix a comment
+Fix typo.
+Parsing: Fix romanNumeral parser.
+Fix example in lua-filters docs. Fixes #4459 (#4476)
+Fixed duplicate entry in stack.lts9.yaml.
+Fix what was missing in last commit.
+Fixed typo introduced in merge.
+Fix Prelude <> export.
+Fixed formatting of DefaultStyle ordered lists in docx writer.
+LaTeX reader: Fix regression in package options including underscore.
+LaTeX writer: Fix image height with percentage.
+LaTeX reader: Fixed comments inside citations. Closes #4374.
+Docx writer: Fix ids in comment writing
+Dock writer: Fix deletion track changes
+Fix Text.Pandoc.Builder link
+Markdown reader: Fix parsing bug with nested fenced divs.
+Fixed typo in Makefile.
+Fixed tabs in changelog.
+HTML reader: Fix col width parsing for percentages < 10% (#4262)
+Fix import.
+Fix cabal to use base-compat with ghc < 7.10.
+Powerpoint writer: Fix anchor links.
+Fixed a test case so it works on windows too.
+HTML writer: Fixed footnote backlinks with --id-prefix.
+Fixed an item that went missing in changelog for 2.1.
+Powerpoint writer: Fix new replaceNamedChildren
+PowerPoint writer: Fix error with empty table cell.
+Powerpoint writer: Fix compiler error (again)
+Docx writer: Fix custom styles with spaces in the name.
+Fixed small bug in README generation.
+Fixed some doc comments in data/pandoc.lua.
+Fixed warning in powerpoint writer test.
+Fix warning.
+Revert "data/sample.lua: Fixed problem with definition lists."
+Fix regression of DefinitionLists in custom writer
+data/sample.lua: Fixed problem with definition lists.
+Fix custom writer regression
+Fixed changelog typo
+Fixed bug: when target is PDF, writer extensions were being ignored.
+LaTeX reader: Fixed subtle bug in tokenizer.
+Fix for #4171 fix: don't wrap note references after SoftBreak
+Fixed regression in LateX tokenization.
+Fix comment that confused compiler.
+Fix --help output for --highlight-style to include FILE (#4098)
+Fix comment typo: s/elemnet/element/
+Creole reader: Fix performance issue for longer lists. (#4075)
+EPUB writer: Fixed path for cover image.
+Fix comment that confuses haddock.
+Fixed typo in lua-filters exmaple.
+Fix a typo: "uisng" -> "using"
+Fixed URIs in jats.csl.
+Fixed YAML metadata with "chomp" (`|-`).
+Fix regression with --metadata.
+Fix 'make changes_github'.
+Fix test output for latest skylighting.
+Fix strikethrough in gfm writer.
+Fixed revealjs slide column width issues.
+Fixed regression in parsing of HTML comments in markdown...
+Fix broken reference links in manual. (#4014)
+Fixed example of slide columns structure in changelog.
+Fixed warnings.
+Fix warning for older GHC versions.
+Fixed filters doc link
+Fixed test for change in log level.
+Fixed make_tarball.sh to get VERSION set.
+Fixed bug in make_linux.sh path.
+Fixed detection of VERSION in make_macos_package.sh.
+Fix typo in changelog
+Markdown reader: Fixed bug with indented code following raw LaTeX.
+Fix a typo: s/collabarators/collaborators/
+Fixe another changelog error.
+Fixed bug in determining writer for xelatex engine.
+Fix and simply latex engine code in App.
+HTML reader: Fix pattern match.
+RST reader: Fixed `..include::` directive.
+Fix import in PDF.
+Fixed command test #2994 on Windows.
+Fix hyperref options clash (#3847)
+Fixed command tests to set local path.
+LaTeX reader: Fixed space after \figurename etc.
+Fixed data-dir on translations tests.
+Fixed import.
+Fixed writer tests not to use writerUserDataDir.
+Fix `blanklines' documentation (#3843)
+Fix docx writer test for ghc 8.2.1.
+Fix ghc 8.2.1 compiler warnings.
+Revert "Fixed some ghc 8.2 compiler warnings."
+Fixed some ghc 8.2 compiler warnings.
+Fixed #3760. (#3784)
+Fixed log message for InvalidLang.
+Fixed support for `lang` attribute in OpenDocument and ODT writers.
+EPUB writer: Fixed various things with new EPUB structure.
+Fixed footnotes in table captions.
+Fixed name shadowing in benchmark.
+Fixed trypandoc to work with new API.
+Fixed weigh-pandoc for Text readers.
+Fixed benchmark to work with Text readers.
+Fixed MacOS packaging script.
+Fixed keywords in docx writer.
+Fixed HTML reader.
+Org reader: Fix cite parsing behaviour
+LaTeX reader: Fixed failures on \ref{}, \label{} with `+raw_tex`.
+Fixed handling of soft hyphen (0173) in docx writer.
+Fixed appveyor.yml.
+appveyor.yml. Fix WINBIN path.
+Fixed appveyor.yml.
+Markdown writer: Fixed duplicated reference links
+Fixed appveyor.yml syntax error.
+Fix links inside captions in LaTeX output with links-as-notes.
+Fix keyval funtion: pandoc did not parse options in braces correctly.… (#3642)
+LaTeX writer: Fix problem with escaping in lstinline.
+Fixed shadowing warnings
+Man writer: Fix handling of nested font commands.
+Fixed a typo (#3562)
+Fix compiler warning.
+JATS writer: Fixed bibliography handling.
+Fixed a test not updated on last commit.
+Fixed .travis.yml.
+Fixed paths: deb->linux.
+Fixed weigh-pandoc so it compiles again.
+Markdown writer:  Fixed false ordered lists in YAML metadata.
+Markdown reader: Fixed regression on left-biased union for metadata.
+Fixed some loose ends in #1592.
+Markdown writer: Fixed grid tables embedded in grid tables.
+Fixed typos in CONTRIBUTING.md (#3479)
+Fixed typo in CONTRIBUTING.md.
+Fixed type sig for older GHC versions.
+Fixed addVariablesToJSON.
+Fix stale references to `tests` directory (#3469)
+Fixed link to mac uninstaller script.
+Fix compiler warning for older GHC versions.
+Fixed repeated log messages in RST reader.
+Fix indirect hyperlink targets.  Closes #512.
+appveyor.yml:  Fixed some paths.
+Fixed small bug in RST list parsing.
+Fix import
+Fix an unneeded import warning.
+Fixed some compiler warnings in tests.
+Fixed up github changes target in Makefile so #s aren't escaped.
+Fixed trypandoc.
+Fix up benchmarks so they compile.
+Fixed small mistake in instance for logOutput.
+Fixed shadowing warnings.
+Fixed something small that broke in rebase.
+Fixed up weigh-pandoc and benchmark-pandoc so they build.
+Fixed a misleading comment.
+Fix rebasing errors.
+Fixed icml tables test (no newline at end).
+Fixed regression in OPML writer.
+Fixed rtf tables test
+Fixes to compile after rebase.
+Fix up compiler warnings.
+Fix sample.lua barfing on Raw data (#3358)
+Fixed typo (#3351)
+Fixed -f markdown_github-hard_line_breaks+escaped_line_breaks.
+MediaWiki reader: Fix quotation mark parsing (#3336)
+MANUAL/README: Fixed broken links (#3316)
+Fix display math with --webtex in markdown output.
+Fixed bash completion for filenames with spaces.
+Fixed tests with dynamic linking.
+Fixed some bad regressions in HTML table parser.
+LaTeX writer: Fix unnumbered headers when used with `--top-level`
+Markdown writer: Fixed incorrect word wrapping.
+Fixed some bugs in Pretty that caused blank lines in tables.
+Fix for calculation of column widths for aligned multiline tables
+Fixed xref lookup in DocBook reader.  Closes #3243.
+Markdown writer: Fix escaping of spaces in super/subscript.
+LaTeX reader: Handle BVerbatim from fancyvrb.  Fixes #3203.
+Fixed date on MANUAL.txt
+Fixed typo in deprecation warning.
+Fix grouping of imports.
+Fix for unquoted attribute values in mediawiki tables.
+Fix out of index error in handleError
+Fix the LaTeX and EPUB links
+Fixed stack.full.yaml.
+Fixed appveyor badge
+Fix MANUAL.txt path in make-windows-installer.txt.
+Fixd README date.
+Fixed compiler warnings.
+Fixed duplicate reference in README.
+Fixed lts6 travis build.
+Fixed exponential parsing bug in textile reader.
+Fix warning for parseURl import.
+Textile reader: Fix overly aggressive interpretation as images.
+Fixed RST links with no explicit link text.
+Fix for obscure hyperref/xelatex issue.
+Fixed --local-bin-path in deb package script.
+Fixed osx packaging issues.
+Fixed windows/stack.yaml.
+appveyor.yml:  Fix check for existing wixtoolset.
+appveyor: Fixed spacing issue in VERSION setting.
+appveyor: Fixed version detection.
+Fixed YAML for appveyor.yml.
+Markdown reader: Fix pandoc title blocks with lines ending in 2 spaces.
+LaTeX writer: Fixed position of label in figures.
+Fixed copyright dates.
+Fixed bug in Markdown raw HTML parsing.
+Fix stdin handling for file-scope
+Fixed link to TEI in README.
+Fixed changelog.
+Fixed changelog formatting.
+Fixed Chris Forster's name.
+Fixed version in osx/distribution.xml.
+Fixed typo in deb, osx stack.yaml.
+Fixed behavior of base tag.
+Fixed some linter warnings.
+Fix typos in Readme
+Fixed stack.yaml.
+Fix stack link in INSTALL
+Markdown reader: Fixed bug with smart quotes around tex math.
+Fixed regression in latex smart quote parsing.
+Fixed typo in deb/stack.yaml.
+Fixed shadowing warning.
+Fix function dropping subtrees tagged :noexport:
+RST, Markdown writers: Fixed rendering of grid tables with blank rows.
+Fixed v1.16 reversion with --latex-engine.
+Fixed debpkg target.
+Fixed windows stack.yaml.
+Fix language code for Czech (cs not cz)
+Fixed typos in changelog.
+Fixed benchmark for new API.
+Fixed ICML image syntax for local files.
+Fixed tests.
+Fixed cite key parsing regression.
+Fixed Emoji character definitions.
+Fixed man template so disabling hyphenation actually works.
+AsciiDoc writer: Fixed code blocks.
+Fixed travis again.
+Fixed travis.
+Fix travis problem.
+Fixed .travis.yml syntax.
+reveal.js template: Fixed parallaxBackground options.
+Fixed bug in make_osx_package.sh script.
+Fix math cross-reference.
+Org reader: Fix emphasis rules for smart parsing
+Fixed shadowing error.
+Fixed omitted `url(...)` in CSS data-uri with `--self-contained`.
+Fixed typo.
+Fixed typo.
+Fixed over-eager raw HTML inline parsing.
+Fix author, date in AsciiDoc; add keywords, abstract.
+Fixed one test case.
+Fixed auto_identifiers examples
+Fixed typo in make_osx_package.sh.
+Fixed tests for template changes.
+appveyor.yml:  Fixed another multiline statement.
+appveyor: Fixed stack.exe path.
+Fix regression:  allow HTML comments containing `--`.
+Fixed some internal links in README.
+LaTeX writer:  Fixed detection of 'chapters' from template.
+Fix typo in RELEASE_CHECKLIST
+`--self-contained`:  Fixed overaggressive CSS minimization.
+Fixed email javascript obfuscation with mailto: URLs.
+Fixed travis.
+Fixed man page building in make_osx_package.sh.
+Fix RST reference names with special characters
+Fixed regression in CSS parsing with `--self-contained`.
+Fixed tests/docx/links.docx for new url.
+Fix InDesign crash with URLs containing more than one colon character
+Fixes to trypandoc fixes.
+Fixed svg handling in EPUB writer.
+Fixed compiler warning.
+Fixed regression in charsInBalancedBrackets.
+Fixed misleading example in README.
+HTML reader: Fixed detection of self-closing tags.
+Fix image URIs in ICML output (v2)
+Fixed accidental reversion to earlier templates version.
+Fix typos in User's Guide
+Fix paragraph undefined problem
+Fixed tests for change to latex template.
+Fixed regression with lists inside defintiion lists.
+Fixed typo in URL for dzslides
+MD Reader: Fix links/footnotets after citations
+Fixed `htmlTag` in HTML reader.
+Fixed warning.
+Fixed toc depth in RST writer.
+Fix obsolete reference to mods2yaml
+Fixed typo in lhs-test.html.
+Fixed lhs writer tests (overflow-x, not x-overflow).
+Fixed ghc-prof-options.
+Docx Writer: Fix StyleMap
+Fix accidently usage of list monad instance
+Fixed a compiler warning.
+Fixed pipe tables -- headerless tables are not allowed.
+Fix issue #969, #1779 by providing --latex-engine-opt
+Fixed revealjs template so style css is correctly included.
+Fixed some cosmetic spacing issues in reveal.js template.
+reveal.js template:  Fixed link to theme.
+Fix revealjs theme functionality
+Fixed list-style-type for numbered example lists.
+Fixed typo in make_deb.sh.
+MediaWiki writer: Fixed links with URL = text.
+Fixed link in README
+Fixed Makefile tab
+Fixe autolinks with following punctuation.
+Fix test suite
+Fix for #1641 (docx table captions above tables)
+Fixed double-rendering of footnotes in RST tables.
+Fixed bug in org with bulleted lists:
+Fixed README and pandoc.cabal for TWiki reader.
+Fix indent issue for definition lists
+Escape spaces. Fixes jgm/pandoc#1694.
+Fixed absolute URI detection in EPUB writer.  Closes #1672.
+Fix 'Ext_lists_without_preceding_blankline' bug.
+MediaBag: Fixes Windows specific path problems
+Fixed typo.
+Docx reader: Fix window path for image lookup.
+EPUB writer: Fixed typo.
+Merge pull request #1594 from jkr/itemFix
+Makefile: Fixed install target to use copy, register.
+LaTeX writer: Fix tables
+Fixed exampleLine parser to accept example lines which have indentation at the start of the line.
+Fix build dependencies for the trypandoc flag.
+Fixed --self-contained with Windows paths.
+Txt2Tags Reader: Fixed crash when reading from stdin
+Docx writer:  Fixed regression, bungled list numbering.
+Fixed typo in templates README.
+Docx reader: Fix bug in character styles.
+Fixed typo in changelog.
+make_osx_package:  Fix man page installation.
+Fixed haddock comment.
+Docx Reader: Fix font style parsing.
+EPUB Reader: Fixed another normalisation problem..
+EPUB reader: Fixed bug where filepaths weren't sufficiently normalised
+Docx reader: Fix spacing issue.
+EPUB: Fixed another mediabag related regression..
+EPUB Reader: Fixed regressions in image extraction
+SelfContained:  Fixed determining of source URL from within CSS files.
+Fixed runtime error with compactify'DL on certain lists.
+Fix behavior of `markdown_attribute` extension.
+Markdown reader: Fixed small bug in HTML parsing with markdown_attribute.
+Fixed typo in link
+Docx Reader: Fix hdr auto-id when already auto-id.
+DokuWiki writer:  Fix raw inlines and blocks.
+Fixed typo in module header for Asciify.
+Fixed an issue caused by e4263d306e6988dd322c895242eb818d22b9e012.
+Markdown reader:  Fixed regression with intraword underscores.
+Fixed `--filter` so it doesn't search PATH for a filter with a path.
+Fix typo in README.
+Docx reader: Fix spacing in formatting.
+Fixed compiler warnings.
+HTML reader:  Fix performance issue with malformed HTML tables.
+LaTeX writer: Fixed strikeout + highlighted code. Closes #1294.
+Merge pull request #1355 from jkr/normalizeFixes
+Docx reader: Fix hdr handling in block norm
+Fix notes test.
+Fixed compiler warning.
+HTML reader: Fixed major parsing problem with HTML tables.
+Fixed subtitle in latex template.
+PDF writer:  Fixed treatment of data uris for images.
+Require latest highlighting-kate.  Fixes #1317.
+Fixed documentation of attributes. Closes #1315.
+Fixed travis build to install alex for GHC 7.8.2.
+EPUB writer:  Fixed regression on cover image.
+Fixed 034cd4bb214a30de3739c756eab428d5fbe617cc.
+Process: Fix minor typo in pipeProcess' docs
+Org reader: Fix block parameter reader, relax constraints
+Org reader: Fix parsing of blank lines within blocks
+Fix textile reader hanging.
+Windows install script: Fixed typo in path.
+Fixed the fix to #1154.
+LaTeX writer: Fixed inconsistencies with reference escaping.
+Markdown reader: Fixed bug with unwanted code in lists.
+LaTeX reader: Fixed regression introduced with last commit.
+Fixed empty reference links.  Closes #1186.
+Fix #1267.
+EPUB writer: Fixed some idrefs to match changes in ids.
+MathMLinHTML: Fix deprecation warning
+Org reader: Fix parsing of footnotes
+Org reader: Fix distinction of images and normal links
+Org reader: Fix parsing of loose lists
+Org reader: Fix code for subexpression parsing
+Shared: Fixed bug in toRomanNumeral.
+Fix editorconfig for test files
+Org writer: Fix output for linebreaks
+Fix issue #52: set max width and height of images in default.beamer
+Org reader: Fix parsing of sub-/superscript expressions
+Fixed cabal path in travis config.
+Fixed $CABAL in travis script.
+Fixed PDF print function in reveal.js template.
+reveal.js template:  Fix PDF print function.
+Org reader: Fix parsing of nested inlines
+MediaWiki reader: Fixed bug in certain nested lists.
+Converted HTML reader to use builder. Fixes #1162.
+RTF writer:  Fixed tables cells containing paragraphs.
+Fixed typo in README
+Markdown reader: Fixed regression on line breaks in strict mode.
+Fixed bug in reference link parsing in markdown_mmd.
+HTML writer:  Fixed bug with unnumbered section headings.
+Fixed mediawiki ordered list parsing.
+HTML reader:  Fixed bug reading inline math with `$$`.
+Fixed bug in changelog (item was put under wrong release).
+Fixed small regression in docx writer.
+OpenDocument writer:  Fixed RawInline, RawBlock so they don't escape.
+Docx writer:  Fixed problem with some modified reference docx files.
+EPUB writer:  Fixed bug with `--epub-stylesheet`.
+Fixing default.beamer includegraphics redefinition to allow custom options
+Markdown reader:  Fixed regression in title blocks.
+Fixed documentation bug.
+Markdown reader: Fixed bug with literal `</div>` in lists.
+Markdown writer:  Fix rendering of tight sublists.
+Fixed tests for new ConTeXt writer behavior.
+Fixed `cover-image` in EPUB YAML metadata.
+Fixed bug with intraword emphasis.
+Shared: Fixed bug in openURL with data: URIs.
+Docx writer:  Fix URL for core-properties in `_rels/.rels`.
+Fix definition lists with internal links in terms (closes #1032).
+Fixed make_osx_package.sh so data files embedded in pandoc-citeproc.
+Fixed '. . .' (pause) on HTML slide formats.  Closes #1029.
+LaTeX reader: Fixed character escaping in \url{}.
+Fixed stupid copy&paste error
+src/Text/Pandoc/Writers/OpenDocument.hs: Fix formatting of strikeout code.
+Fixed reference slides.
+Fixed typo in changelog: pandoc-citations -> pandoc-citeproc.
+Fixed a couple test files in cabal file.
+Markdown writer: Fixed bugs in YAML header output.
+Fixed typo.
+Fixed make_osx_package.sh.
+Fix some warnings in dokuwiki writer (#386)
+Fixed inlined code in dokuwiki writer (#386)
+pandoc.py: Fixed bug for {}, removed rawInline, rawBlock.
+Fixed compilation with http-conduit flag False.
+README: Fix minor typo
+Fixed warning.
+Fixed YAML code block in README.
+Fixing wrong numbered-list indentation in open document format
+Fixed bug retrieving default template for markdown variants.
+Fixed 'authors' metadata parsing in reST.
+Fixed regression with RTF table of contents.
+Fixed merge bugs in Shared.
+Fixed errors in revealjs template.
+Fixed errors introduced in last revealjs template update.
+Shared: Fixed readDefaultDataFile so it works on Windows.
+Fixed footnote numbers in LaTeX/PDF tables.
+Fixed Haddock reader bugs with list item spaces and examples.
+Fixed haddock test output.
+Mediawiki reader:  Fixed | links inside table cells.
+Mediawiki reader:  Fixed last commit.
+Mediawiki:  Fixed regression for `<ref>URL</ref>`.
+Fixed typo.  Closes #798.
+Docx writer: Fixed rendering of display math in lists.
+Fixed numbering mismatch between TOC and sections in HTML.
+Fixed regression in ODT writer.
+Fixed spacing bugs involving code block attributes.
+Pretty:  Fixed chomp so it works inside Prefixed elements.
+Fix example header identifier. Very minor.
+EPUB writer:  Fix section numbering.
+Markdown reader: Fix title block parsing.
+Markdown reader: Fixed bug parsing key/value attributes.
+COPYING: Fixed sublist indentation.
+Fixed make-windows-installer to use double quotes for path.
+Fixed latex macro parsing.
+Fixed Makefile PHONY line.
+Fixed regressions in fenced code blocks.
+Fixed MIN_VERSION - need to sub _ for - in blaze-html.
+Markdown reader: Fixed bug with headerless grid tables.
+Fixed bug in uri parser.
+Fixed bug with escaped % in LaTeX reader.
+Fixed bug in make_osx_package.sh.
+Fixed problem with duplicate ids in epub.
+Parsing:  Fixed uri -- escape unicode URLs.
+RST writer: Fixes bug with links with duplicate text.
+Fixed/simplified diff output for tests.
+pandoc.hs:  Fix writerSourceDirectory when a URL is provided.
+Fixed regression in example lists.
+Fixed duplicate link reference in README.
+Fixed paths for LaTeXMathML and MathMLinHTML scripts.
+Fixed test suite to use Diff 0.2 API.
+Fixed bytestring upperbounds (0.11, not 1.0).
+Fixed benchmark file to find documentation files.
+Fixed bug in withRaw.
+Textile reader/writer: Fixed autolinks.
+EPUB:  Fixed invalid nesting problem in nav.xhtml.
+Fixed a couple validation bugs that affect epub2 also.
+Fixed Biblio for extra parameter on Citation.
+Fixed bug in fetching CSL files from CSL data directory.
+Textile reader: Fixed bug with list items containing line breaks.
+Fixed typo.
+Textile reader: Fixed bug affected words ending in hyphen.
+Texinfo writer:  Fixed internal cross-references.
+Markdown reader: Fixed link parser to avoid exponential slowdowns.
+RST writer:  Fixed hyperlinked images.
+MediaWiki reader: Fixed charsInTags parser to use innerText.
+Fixed spacing in context writer test.
+LaTeX reader: Fixed parsing of paragraphs beginning with a group.
+Fixed footnotes bug in textile.
+Docx writer: Fixed bug with nested lists.
+Fix RST reader for field lists items with body beginning after a new line
+Pretty:  Fixed bug that caused combining characters to be dropped.
+Fixed titleblock in markdown, plain templates.
+Fixed titleblock in markdown, plain templates.
+Fixed handling of default extensions, so they don't override +options.
+Fixed whitespace errors.
+Fixed MakeManPage for new reader signature.
+Fixed Benchmark to compile with latest changes.
+HTML reader: Fixed bug in htmlBalanced.
+Fixed performance improvement to tables.
+SelfContained:  Fix handling of absolute URLs in css imports.
+Fixed shadowing warning.
+Fixed documentation on mixed lists.  Closes #533.
+Fixed `--incremental` behavior for Beamer.
+DocBook reader: Fixed headers for headerless table.
+DocBook reader: Fixed some compiler warnings.
+LaTeX writer: Fixed spacing in quote environments.
+ConTeXt writer: Fixed escaping of `%`.
+Docx writer: Fixed error message when style file can't be parsed.
+Fixed bug in fromEntities.
+Docx writer: Fixed multi-paragraph list items.
+Fixed document encoding in texinfo template.
+Fixed comment on MakeManPage.
+Fixed issue with q in dzslides template.
+Fixed bug parsing LaTeX tables with one column.
+Fixed travis-CI script to build tests.
+Fixed lstlisting environment in LaTeX reader.
+Fixed typo in README
+Fixed permissions on installed man pages.
+Fixed spacing issue in context template.
+Fixes list label positions in beamer.
+Fix list labels in beamer.
+Fix initial `Str "."` after `LineBreak` as well?
+Fixed ployglossia support in LaTeX template for multiple langs.
+Fixed default LaTeX template so \euro and € work.
+Fixed link example in README.
+Fixed LaTeX writer tests for last patch.
+Fixed bug in LaTeX string escaper (with ~).
+LaTeX reader: Fixed accents.
+Fixed html5 template so it works properly with highlighting.
+Fix _rels/.rels if it has been screwed up by Word.
+Fixed problem in reference.docx styles.
+Fixed name on "Date" style in reference.docx.
+Fixed lhs+markdown instructions.
+Fixed typo in changelog.
+Fixed bug in fromEntities:  require semicolon to process as entity.
+Fixed Pretty so it uses Data.Monoid's <> w/ GHC 7.4.
+Fixed template name in windows installer.
+Revert "Fixed some paths on windows installer script."
+Fixed some paths on windows installer script.
+LaTeX reader: Fixed bug in authors.
+Markdown reader: Fixed bug in code block attribute parser.
+Fixed link in README.
+Fixed table parsing with wide or combining characters.
+Fixed regression in HTML writer:  all headers level 1!
+Slides: Fixed bug in prepSlides.
+dzslides template:  Fixed css for new highlighting-kate.
+Fixed -Wall errors in PDF module.
+Docx writer: Fixed styles in footnotes.
+Docx writer: Fixed bug with numbered lists.
+ImageSize: Fixed implementation of sizeInPoints.
+Fixed whitespace bug in comments.
+Markdown reader: Fix parsing of consecutive lists.
+Fixed layout bug in ConTeXt and LaTeX writers.
+Fixed line breaks in tds in table cells.
+Fixed previous patch so it doesn't swallow a character!
+Markdown reader: Fixed backslash escapes in reference links.
+Fixed tests for escapes in markdown titles, URLs.
+Fixed tests for escapes in links.
+Fixed test for style type meta in highlighted html+lhs.
+Renamed to AsciiDoc.  Fixed display math and escapes.
+Fixed continuations in asciidoc definition lists.
+Fixed markdown-citations.ieee.txt to use em-dashes for citation ranges.
+Biblio:  Fixed mess created by my removing procInlines.
+Fixed typo.
+Fixed make_osx_package.sh.  Closes #288.
+Fixed nesting of conditional around title in slidy template.
+Fixed typo in README
+RST writer:  Fixed bug involving empty table cells.
+Fixed ConTeXt writer tests.
+Fixed opendocument writer test.
+Fixed bug in html template with html5 and mathml.
+HTML reader: Fixed bug parsing tables w both thead and tbody.
+Fix template problem for epub.
+Fixed make_osx_package.sh so that data paths work correctly.
+Fixed template name in MakeManPage.hs
+Fixed slidy css.
+Fixed latex template: don't use ucs if using biblatex.
+Fixed comment.
+markdown2pdf: Fix issue reading log with non-UTF8 characters.
+Fixed bug in slidy writer: unclosed div tag.
+Fixed test, added another markdown emph/strong test.
+Fixed Slidy/S5 output to allow --section-divs.
+Fixed bug in footnote order in HTML.
+Fixed bug in RST field list parser.
+Fixed orgmode link.
+Fixed lhs-test.nohl tests.
+markdown2pdf: Fixed filename encoding issues.
+HTML writer: Fixed footnote backrefs in --ascii mode.
+markdown2pdf: Fixed bug with output file extensions.
+Markdown reader: Fixed whitespace footnote bug (Jesse Rosenthal).
+Fixed Interact.hs to handle the cpp macros in UTF8.
+Fixed misspelling in README.
+LaTeX reader:  Fixed bug with whitespace at beginning of file.
+Markdown reader tables: Fixed bug in alignments.
+Highlighting: Fixed non-highlighting-kate version of highlightHtml.
+Fixed highlighting for inline code.
+Shared: Fixed bug in normalize revealed by tests!
+Fixed extractSection in MakeManPage.
+LaTeX reader: Fixed an incomplete pattern match.
+Textile reader: Fixed bug (swallowed p at beginning of paragraph).
+Fixed -Wall error in imports.
+Fixed the two test cases that were intentionally set to fail.
+Fixed problem with inline code in ConTeXt writer.
+Fixed problem with strikout in LaTeX headers with hyperref.
+Fixed lhs tests for new position of <title> after <meta>s.
+Fixed the parser for rst+lhs - set stateLiterateHaskell.
+Parsing: Fixed bug in grid table parser.
+Fixed bug in markdown-citations.mhra.txt expected test output.
+Fixed bug in markdown-citations.mhra.txt expected test output.
+Remove some accidentally commited functions. Fixed a type and alignment.
+test-pandoc: Fixed + and - in diff output, which were reversed.
+Fixed lhs-test.markdown for new wrapping.
+HTML reader:  Fixed bug in htmlTag for comments.
+Fixed macro parsing.
+Fixed regression in markdown reader.
+HTML reader:  Fixed some parsing bugs.
+Markdown writer: Fixed bug in Image.
+Pretty:  Fixed parens.
+Fixed markdown-citations.ieee.txt.
+Fixed markdown-citations.txt.
+Fixed biblatex/natbib citation writer tests.
+Fixed preamble parsing in LaTeX reader.
+Fixed regression in parsing _emph_
+Markdown reader: Fixed abbrev handler to allow abbrev at end of line.
+Markdown reader: Fixed referenceKey parser to allow space after newline.
+Fixed inlineListToIdentifier to treat '\160' as ' '.
+Fixed table in README.
+Fixed internal link in README.
+Markdown reader: Fixed regression in reference key parser.
+Fixed bugs in ieee.csl (Andrea Rossato).
+Fix regression: markdown references should be case-insensitive.
+Fixed spacing bug for reference-style citations.
+Fixed spacing in ieee citation test.
+Fixed spacing problems in textile nested lists.
+Fixed eol mistake in test.
+Fixed pandoc man page source.
+Shared:  Fixed uniqueIdent so it behaves as described in README.
+Fixed treatment of unicode characters in URIs.
+Fixed indent in README.
+Fixed definition lists for options in README.
+RST writer:  Fixed headerless tables.
+Markdown writer:  Fixed citations.
+HTML writer:  Fixed multiline tables with no header.
+Fixed docbook writer for headerless tables.
+Fixed minor error in README.
+Fixed RunTests so it doesn't require data files to have been installed.
+markdown2pdf: Fixes to usage and error reporting.
+Fixed bug with $else$ in templates module.
+Fixed RST writer to use new templates.
+Fixed spacing in latex, context templates.
+Fixed up LaTeXMathML module not to use TH.
+Fixed markdown writer to use templates.
+Fixed S5.
+Fixed link in README.
+Fixed typo in website.
+Fixed handling of footnotes in titles (HTML) and headers (LaTeX).
+Fixed htmlComment parser.
+Fix inline math parser so that \$ is allowed in math.
+Fixed markdown2pdf.hs to accept --longopt=val options.
+Fixed bug in HTML comment parser.
+Fixed README - obsolete reference to --header.
+Fixed lhs test cases.
+Fixed duplicate text bug in markdown2pdf.hs.  (Paulo Tanimoto)
+Fixed profiling options.
+Fixed regression with --preserveTabs.
+Fixed bug with header spacing in Markdown and RST writers.
+Fixed bug in mediawiki writer:  improper closing tags in tables.
+Fixed problems in RST and markdown output due to bug in pretty-1.0.1.0
+Fixed problem in mkdemos.pl:
+Fixed parsing of RST comment blocks.
+Fixed Setup.hs so correct status is returned after build.
+Fixed minor cut-and-paste error in README.
+Fixed haddock bug in Text/Pandoc/LaTexMathML.hs.
+LaTeX reader: Fixed regression in list parsing (introduced by recent changes to unknownCommand).
+Fixes to make haddock work with template haskell: + Added CPP, TemplateHaskell, FlexibleInstances to cabal file "Extensions" field + Added #ifndef __HADDOCK__ cpp declarations in the files using template haskell.
+Fixed typo in pandoc.cabal.
+Fixed REFERENCEODT in markdown2odt to point to the right place in debian builds. Resolves Issue #79.
+Fixed bug in Markdown parser:  regular $s triggering math mode. For example:  "shoes ($20) and socks ($5)."
+OpenDocument writer:  Fixed typo in inline styles fix (super/sup).
+Fixed bugs in OpenDocument writer affecting nested block quotes.
+OpenDocument Writer: Fixed handling of spaces and tabs in preformatted blocks.
+OpenDocument writer: Fixed indentation for verbatim blocks inside defn lists.
+Fixed haddock documentation error (affects latest version of haddock only).
+Fixed bug in RTF writer: Extra spaces were being printed after emphasized, boldface, and other inline elements.  Resolves Issue #64.
+Fixed handling of Quoted inline elements to use unicode left & right quotes. Added inQuotes auxiliary function.
+Fixed path for library documentation in website.
+Fixed delimited code blocks:  eat blank lines afterwards, and allow end line to contain more tildes than beginning line.
+Fixed bug in RST reader, which would choke on: "p. one\ntwo\n". Added some try's in ordered list parsers.
+RST reader: Fixed bug in parsing explicit links (resolves Issue #44). The problem was that we were looking for inlines until a '<' character signaled the start of the URL.  So if you hit a reference-style link, it would keep looking til the end of the document.  Fix:  change inline => (notFollowedBy (char '`') >> inline).  Note that this won't allow code inlines in links, but these aren't allowed in resT anyway.
+Fixed markdown reader to handle "*hi **there***" as a strong nested in an emph. (A '*' is only recognized as the end of the emphasis if it's not the beginning of a strong emphasis.)
+Fixed bug in the markdown reader:  HTML preceding a code block could cause it to be parsed as a paragraph.  (The problem is that the HTML parser used to eat all blank space after an HTML block, including the indentation of the code block.)  Resolves Issue #39. + In Text.Pandoc.Readers.HTML, removed parsing of following space   from rawHtmlBlock. + In Text.Pandoc.Readers.Markdown, modified rawHtmlBlocks so that   indentation is eaten *only* on the first line after the HTML   block.  This means that in   <div>        foo   <div>   the foo won't be treated as a code block, but in   <div>
+HTML reader:  Finished fixing Issue #40. Contents of script tags were still being treated as markdown when the script tags were parsed as inline.  Fixed by moving "script" from the list of tags that can be either block or inline to the list of block tags.
+Fixed bug in HTML reader:  it was looking for <IT> tag, not <I>.
+Fixed handling of email addresses in markdown and reStructuredText. Consolidated uri and email address parsers.  (Resolves Issue #37.) + New emailAddress and uri parsers in Text.Pandoc.Shared.   uri parser uses parseURI from Network.URI.  emailAddress   parser properly handles email addresses with periods in them. + Removed uri and emailAddress parsers from Text.Pandoc.Readers.RST. + Removed uri and emailAddress parsers from Text.Pandoc.Readers.Markdown.
+Fixed small error in testsuite.native.
+Fixed some haddock documentation bugs in Shared.hs.
+Fixed logic in markdown smart quote parsing: + Added some needed 'try' statements. + Unicode right single-quote can double as apostrophe, so treat it   as a quote-end only when not followed by an alphanumeric character.
+Fixed smart quote parsing in markdown reader so that unicode characters 8216 and 8217 are recognized as single quotes, and 8220 and 8221 as double quotes.
+Fixed bug in LaTeX reader (pointed out by Mark Eli Kalderon): needed a "try" before "string" in parser for \[ math blocks.
+Fixed bug in parsing files that begin with blank lines. + In Text.Pandoc.Shared: rewrote lineClump to parse EITHER a string   of blank lines OR a string of nonblanks.  Removed code for parsing   eof. + In Markdown and RST readers, use 'manyTill (... <|> lineClump) eof'   instead of many, since lineClump no longer parses eof.
+Improvements to RST reader: + Allow field lists to be indented. + Parse the contents of field lists instead of treating them as   raw strings. + Represent field lists as definition lists rather than blockquotes. + Fixed bug in which metadata would be overridden if the document   contained more than one field list. + Parse fields associated with ..image: blocks, and use the 'alt'   field, if present, for image alt text and title.
+Fixed bug in RST reader:  previously, code blocks had to be indented a full tabstop, but RST allows any amount of indentation. Resolves Issue #27.
+Fixed bug in markdown writer:  If an ordered list item began with a marker greater than 3 characters in width, and the item took more than one line, it would appear on the line after the list marker, e.g.:
+Fixed a bug in the Markdown writer:  incorrect line wrapping in paragraphs including hard line breaks.  Resolves Issue #25.
+Fixed macports Portfile: + Do installation manually rather than using Makefile's install-all.   (There appears to be a problem with the Makefile's handling of   DESTDIR.) + Note that the library must be registered in the activate phase, after   the library files have been copied out of the destroot.  Cabal   generates a 'register.sh' script that will do this.
+Fixed URL regex in html2x.pl, and added a command to the pipe to truncate input pages to 100K.
+Fixed two bugs in HTML reader: + <code>...</code> not surrounded by <pre> should count as   inline HTML, not code block. + parser for minimized attributes should not swallow trailing spaces
++ Fixed bug in RST writer's handling of ordered lists.  Previously,   list items with multiple lines would not always line up with single-line   list items.  Now, list items are nested the length of the list marker + 1.   This looks better and ensures that list items all line up.  (Note that   list markers are padded to the length of the longest list marker in the   series.) + Use 3-space indent for unordered lists.
+Fixed CSS for website so headers linked back to TOC don't have lines under them.
+Fixed formatting mistakes in 0.43 news on website.
+Fixed bug in LaTeX reader, which wrongly assumed that the roman numeral after "enum" in "setcounter" would consist entirely of "i"s.  enumiv is legitimate.
++ Fixed bug introduced into referenceTitle by previous changes.   Now it works as before. + Improved Markdown.pl-compatibility in referenceLink:  the two   parts of a reference-style link may be separated by one space,   but not more... [a] [link], [not]   [a link].
+Fixed markdown inline code parsing so it better accords with Markdown.pl:  the marker for the end of the code section is a clump of the same number of `'s with which the section began, followed by a non-` character.  So, for example,
+Fixed bug in LaTeX writer:  autolinks would not cause '\usepackage{url}' to be put in the document header. Also, changes to state in enumerated list items would be overwritten.
+Separated $(web_dest) and website targets. Fixed a bug in index.txt.in.
+Fixed bug in LaTeX writer.  When a footnote ends with a Verbatim environment, the close } of the footnote needs to occur on the same line or an error occurs.  Fixed by adding a newline before the close } in every footnote.
++ Fixed bug in markdown ordered list parsing.  The problem was   that anyOrderedListStart did not check for a space following the   ordered list marker. So, 'A.B. 2007' would be parsed as a list item,   then fail because of the lack of space after 'A.' (required by   orderedListStart). Resolves Issue #22. + Fixed a similar problem in RST reader. + Added regression test.
+Fixed block quote output in markdown writer:  previously, block quotes in notes would be indented only in the first line.
+Fixed bug in tarball target in Makefile (should be RELNAME instead of fullname).
+Fixed bug in normalizeSpaces:  Space:Str "":Space should compress to Space.
+Fixed problems with obfuscateLink introduced by last round of changes.  Changed type so that text parameter is String, not HTML, which allows easier testing for autolinks.
+Fixed a bug in Docbook writer:  email links with text were being incorrectly treated as autolinks.
+Fixes in LaTeX writer: + put \VerbatimFootnotes right before \title block, to avoid   bad interactions. + added deVerb in description list. + removed \texttt{} from deVerb, because it cannot go in description   lists.
+Fixed bug in TOC generation in HTML writer (regression, introduced by the revision in the WriterState type).
+Fixed bug in spanStrikeout:  case was not exhaustive.
+Fixed newline issue at end of man page writer test.
+Text.Pandoc.Blocks: + Fixed a bug in hPad, which previously padded the rightmost   cell.  This is fixed by introducing a case for a singleton   list. + Fixed Markdown writer so that the space after a table is not   nested two spaces. + Adjusted Markdown table tests accordingly.
+Markdown writer: Fixed a small problem with lengths of dashed lines in tables.
+Fixed bug in Notes ($$ instead of <>), which caused note blocks to be indented.
+HTML writer modifications: + Added code to HTML Writer to generate a table of contents if the   writerTableOfContents option is specified.  This is an unordered list   with links to the headers.  It is constructed hierarchically, based on   the order of the headers and their levels. + If a TOC is used, the headers become links back to the TOC. + Removed Toc from WriterState; instead, the TOC is generated at the top   level, by the function tableOfContents. + Fixed a bug in uniqueIdentifiers which prevented it from handling more than   one duplicate.
+Fixed bug in Markdown reader:  links in footnotes were not being processed.  Solution:  three-stage parse.  First, get all the reference keys and add information to state.  Next, get all the notes and add information to state.  (Reference keys may be needed at this stage.)  Finally, parse everything else.
+Fixed bug with indented blocks occurring in definition lists.
+Fixed bug in anyLine parser.  Previously anyLine would parse an empty string "".  But it should fail on an empty string, or we get an error from its use inside "many" combinators.
+Fixed export declarations; removed unneeded import of Pandoc.Shared.
+Fixed bug in email obfuscation (issue #15). If the text to be obfuscated contains an entity, this needs to be decoded before obfuscation. Thanks to thsutton for the patch.
+Fixed bug in HTML email obfuscation using --strict mode. The problem is that the "href" function escapes &, so (href "&#108;") is 'href="&amp;#108;"'.  Fixed by using primHtml for the whole link.  Resolves issue 9.
+Fixed bug in noscript part of email obfuscation: & instead of &amp;
+Fixed issue #8:  slow performance in parsing inline literals in RST reader.  The problem was that ``#`` was seen by 'inline' as a potential link or image.  Fix:  insert 'notFollowedBy (char '`')' in link parsers.
+Fixed bug in 'extractTagType' in HTML reader:  previous version was not skipping / in close tags.
+Fixed a bug in extractTagType in HTML Reader:  the previous version extracted the attributes, too, which is not wanted.
+Fixed bug in HTML attribute parser:  now a space is required before an attribute.  Previously, <a.b> would be parsed as an HTML tag with an attribute!
+Fixed bug in smart quoting:  recognize ' in contractions like "don't" as not beginning single quoted contexts.
+Fixed bug in smart quote recognition:  ' before ) or certain other punctuation must not be an open quote.
+Fixed haddock documentation errors.
+Fix debian/changelog.
+Fixed docbook writer test -- removed named entities.
++ Fix a nasty bug in markdown2pdf.  It used to send the log file to   /dev/null!
+Fixed performance problems with '--strict' option: + Replaced skipEndline with "option ' ' newline" where possible. + Replaced "notFollowedBy' header" in definition of endline with   a faster but equally accurate test for a folliwng header. + Removed check at the beginning of 'reference' for   a noteStart: This is not needed, because note comes before   referenceKey in the definition of block. + Replaced check for a following anyHtmlBlockTag in autoLink   with a check for anyHtmlTag or anyHtmlEndTag. + Other small code cleanups.
+Fixed bug in Markdown reader's handling of underscores and other inline formatting markers inside reference labels:  for example, in '[A_B]: /url/a_b', the material between underscores was being parsed as emphasized inlines.
+Fixed formatting in pandoc man page.
+Fixed serious performance problems with new Markdown reader: Instead of using lookahead to determine whether a single quote is an apostrophe, we now use state.  Inside single quotes, a ' character won't be recognized as the beginning of a single quote.  'stateQuoteContext' has been added to keep track of this.
+Fix the bug in 'install-all' target which does not install the wrappers. (This target is somewhat special as it should handle installing and _registering_ the library in generic installations.)  We can't rely on 'install-exec' to fix this bug (but we should depend on 'build-exec' nevertheless), since the 'install-all' target already installs pandoc along with the library files.  Therefore we should install wrappers separately by using a helper function which was specifically created to avoid code duplication ('install-exec' target was also updated so as to use this function).
+Fix the wrapper usage instruction in INSTALL.
+Fixed small bug in consolidateList:  added case for (Str a):Space:Space:rest.
+Fixed bug in encodeEntities (characters less than 128, not 127, should be encoded).
+Fixed a bug in website generation, which only worked if 'pandoc' and the wrappers had been installed.
+Fix the version of Debian packages, it should be "0.3" now.
++ Added regression tests with footnotes in quote blocks and lists. + This uncovered an existing bug in the RTF writer, which got indentation   wrong on footnotes occuring in indented blocks like lists.  Fixed   this bug.
+Fixed a serious bug in the Markdown reader (also affecting LaTeX and RST readers).  The problem:  these readers ran 'runParser' on processed chunks of text to handle embedded block lists in lists and quotation blocks.  But then any changes made to the parser state in these chunks was lost, as the state is local to the parser. So, for example, footnotes didn't work in quotes or list items.
+Fixed two small haddock bugs.
+Fixed a minor mistake introduced in resolving conflicts from the merge.
+Fixed bug with 'shift' in html2markdown and markdown2pdf.
+Fix a bug in 'uninstall-exec' target.
+Portability fixes and various cleanups in wrapper scripts: + Fix the tests at the header of wrappers.  which(1) doesn't behave as   expected on some systems.  We should only assume that it's pretty widely   available (for example, it's a builtin in csh) and we should only rely on   its exit code by ignoring its output. + Replace 'echo -n' with 'printf' as the latter is recommended. + In markdown2pdf script, '--suffix' and '--backup' options of mv(1) appear   to be GNU-ism.  Apply a workaround. + Wrap some long lines to fit in an 80-column screen. + Remove spaces at the line ends.
+Fix a serious bug in Makefile.  'make' should recompile when a source file has been modified.
+Fixed two small Haddock comment bugs in Shared.hs.
+Fixes from last review: + Add markdown2pdf to %.pdf dependencies. + Make build-all target explicitly depend on build-program, instead of   'all' which might be changed in future. + Add build-program to osx-pkg-prep for the sake of explicitness. + Generate INSTALL.html in build-doc.
+Fix all the errors lintian(1) reported: + "SEE ALSO" sections of man files have paragraph fillings errors which   groff(1) complains ("cannot adjust line").  This is because .BR line in   "SEE ALSO" section is too long to break properly.  Fix all man pages.   While on it, move all AUTHORS section to the end of the files, this   section should come last. + lintian(1) complains about the debian/changelog symlink:     W: pandoc source: changelog-is-symlink     N:     N:   The file debian/changelog is a symlink instead of a regular file. This     N:   is unnecessary and makes package checking and manipulation more     N:   difficult. If the changelog should be available in the source package     N:   under multiple names, make debian/changelog the real file and the     N:   other names symlinks to it.     N:     N:   This problem may have prevented lintian from performing other checks,     N:   leading to undetected changelog errors.   Reverse the source and targets in symlink to fix this warning.  Now, the   Debian packages can be cleanly built.
+Fix a bug in variable substitution.
+Fixed jgm's email address in debian changelog.
+* Fix man files installation so that we really ignore .svn directories. * Remove $datadir/doc/pandoc on uninstall-doc.  Only this directory is   removed since it's a cruft directory due to its name. I couldn't find   a reliable method to remove other directories created on installation. * Use fakeroot when invoking dpkg-buildpackage.  Improve warnings in   'deb' target.

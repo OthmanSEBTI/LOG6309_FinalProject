@@ -1,0 +1,98 @@
+Fix unexpected cursor movement on on-demand imap loading (#1147)
+Fix syntax matches (#1028)
+Fix typos (#1001)
+Fix #961 tests for Vim 7.4 (#990)
+Fix PowerShell instruction for Neovim
+Fix shellescaping for git refs and batchfile on Windows (#909)
+Fix chcp parsing for the current codepage (#888)
+Fix Windows support for Unix shells and powershell (#860)
+Fix Windows batch file format (#755)
+Fix handling of changed up-to-date msg from Git (#724)
+Fix helptags generation for plugins with custom rtp
+Fix PlugDiff for Windows (#681)
+Fix Travis CI build (dist: trusty) (#670)
+Fix invalid diagnosis of PlugStatus with wildcard tags (#619)
+Fix crlf in clones under cygwin (#608)
+Fix Ruby installer on macOS system Vim
+Fix job_start with spaces in path in Windows (#588)
+Fix Vim 8 installer on Windows when path contains spaces
+Fix git version detection.
+Fix installer output
+Fix Ruby installer on Vim 8.0.0036 (#538)
+Fix Travis CI failure
+Fixing E684 when VisualHostKey is enabled for ssh
+Fix loading on c-operator
+Fix #491 - Lazy-loading with omaps
+Fix travis CI build
+Fix error in test script
+Fix #474 - Load ftdetect files in filetypedetect augroup
+Fix #455 - git config should read local .git/config instead of $GIT_CONFIG
+Fix regular expressions for hex digits
+Fix #434 - Use runtime to load syntax file during ft-based ODL
+Fix #416: Add an issue and PR template.
+Fix #410 - Do not load irrelevant syntax files
+Fix #397: clarify in docs that GitHub is the default plugin source
+Fix #394: Avoid problem happening.
+Fix powershell command.
+Fix #362 - Do not show future changes in PlugDiff
+Fix #355 - PlugSnapshot to create scripts that disable shallow-clone
+Fix #353: Not Working On Windows
+Fix #353: Not Working On Windows
+Fix #350 - Tagged plugin should be unshallowed on update
+Fix msys2: prepend cd to commands
+Fix nvim output format (#340)
+Fix #318: Freezes on PlugInstall
+Fix #280: Travis Build - Vim Fails To Compile
+Fix #272 PlugUpdate and delayed loading
+Fix Travis CI build
+Fix local plugin judgement on Windows (#205)
+Fix for #193 Missing status when PlugUpdate
+Fix #184 - Avoid duplicate entries in g:plugs_order
+Fix error on windows when plug home contains spaces (#154)
+Fix #177 - Check Python version >= 2.7
+Fix update of tagged plugins (#174)
+Fix #166 - v:version >= 703 || has('patch-7.2.374')
+Fix typo
+Fix #154 - issues with paths containing spaces
+Fix #159 by temporarily setting &shell to sh
+Fix #155 - `cd /d` on Windows
+Fix #145 - Merge duplicate on-demand loading triggers
+Fix #139 - Use git fetch+merge instead of pull
+Fix test failure
+Fix #131 - Syntax error
+Fix #130 - Proper cleanup of on-demand loading triggers
+Fix missing progress update (#127)
+Fix some test code
+Fix failing test case
+Fix #114 - &rtp should not contain empty path
+Fix #112: Do not suppress messages from ftplugin
+Fix Travis CI build
+Fix Travis CI build
+Fix Travis-CI build
+Fix indentation
+Fix error messages
+Fix many subtle issues regarding on-demand loading etc.
+Fix typo
+Fix elapsed time to include the time spent in post-update hook
+Fix Ruby installer for Ruby 1.8.7 (#31)
+Fix `after` directory and `Plugfile` on Windows
+Fix <Plug>-based ODL on visual range spanning multiple lines
+Fix <Plug>-based on-demand-loading on visual mode
+Fix test cases for travis-ci
+Fix #28: False alarm from PlugStatus when tag used
+Fix: dependent plugins not loaded after initial installaion
+Fix on-demand loading: load ftdetect and **/*.vim as well
+Fix #19: install error
+Fix syntax highlighting (#17)
+Fix output format (#17)
+Fix test case for PlugStatus
+Fix PlugStatus/PlugClean on Windows
+Remove `set nocompatible` (Fixes #11)
+Fix source code error on `vim -u MYVIMRC`
+Fix repo name
+Fix #4: parallel installer work on Windows
+Fix PlugClean on Windows
+Fix branch argument
+Fix PlugClean user prompt
+Fix broken image link
+Fix PlugUpgrade

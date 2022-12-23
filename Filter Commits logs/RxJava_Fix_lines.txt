@@ -1,0 +1,590 @@
+Fix cancellation order in ThrottleFirst (#7484)
+3.x: Fix formatting in TestObserver/Consumer/Subscriber javadoc html (#7442)
+3.x: Fix marbles of first(T) (#7400)
+Fix assert message format (#7351)
+Fix missing nullability on Single.subscribe(BiConsumer) (#7331)
+3.x: Fix javadoc wording of {Publish|Behavior}Processor::offer() (#7328)
+3.x: Fix ExecutorScheduler initializing Schedulers prematurely (#7323)
+Fix missing NonNull on Observable.map (#7302)
+Fix 0.17.0 plugin config
+3.x: Javadoc: Fix wording of *OnSubscribe interfaces (#7274)
+3.x: Fix copy-paste error in Completable javadoc (#7272)
+Fix minor formatting issues in build.gradle (#7265)
+Fix POM_URL (#7214)
+Fix intermittently failing unit tests (#7213)
+Added Javadoc checks to Checkstyle. Fix violating Javadoc. (#7210)
+3.x: Fix wrong reference in Single.flattenStreamAsObservable javadoc (#7206)
+3.x: Fix Schedulers.from to honor interruptibleWorker across methods (#7203)
+Fix the typos (#7178)
+3.x: Fix take() mentioning the old limit() operator (#7145)
+Fix code style
+Fix push_javadoc.sh
+3.x: Fix source locator code to support GitHub Actions folder layout (#7113)
+Fix minor typos of @{code
+3.x: Fix Flowable.concatMap backpressure w/ scalars (#7089)
+3.x: Fix toFlowable(ERROR) not cancelling on MBE (#7083)
+3.x: Fix Observable.window (size, skip, overlap) dispose behavior (#7049)
+3.x: Fix map() conditional chain causing NPE (#7040)
+Fixed image link and added java examples for Connectable Observable operators (#6997)
+3.x: Fix recent groupBy tests sometimes failing with MBE (#6994)
+3.x: Fix Flowable.groupBy eviction-completion-replenishment problems (#6988)
+3.x: Fix Flowable.groupBy cancellation/cleanup/eviction race hangs (#6979)
+3.x: Fix Flowable.groupBy eviction logic double decrement and hang (#6975)
+3.x: Fix scheduled tasks' fatal exception behavior (#6956)
+Fix trailing spaces.
+3.x: Fix Observable.flatMap with maxConcurrency hangs (#6946)
+Fix typos in Backpressure.md (#6927)
+3.x: Fix replay() not resetting when the connection is disposed (#6921)
+3.x: Fix switchMap not canceling properly during onNext-cancel races (#6917)
+3.x: Fix groupBy not requesting more if a group is cancelled w/ items (#6895)
+3.x: Fix marble dimensions, add program that checks them (#6890)
+Fix minor JavaDocs syntax errors
+3.x: Fix many marbles in Maybe (#6866)
+3.x: Fix method argument naming across types (#6853)
+Fix a minor mistake in the generator and docs
+3.x: Fix Flowable.flatMap not canceling the inner sources on outer error (#6826)
+3.x: Fix Junit 4.13 deprecated API use (#6813)
+Fix minor Javadoc mistakes
+3.x: Fix diamonds, spelling, unnecessary code (#6804)
+3.x: Fix window (boundary, start/end) cancel and abandonment (#6762)
+3.x: Fix Observable.window (size & time) cancellation and abandonment (#6761)
+3.x: Fix Flowable.window (size, time) cancellation and abandonment (#6758)
+Fix typo in Flowable javadoc (#6760)
+3.x: Fix Observable amb, combineLatest & zip ArrayStoreException (#6756)
+3.x: Fix self-see references, some comments (#6729)
+ 3.x: Fix parallel() on grouped flowable not replenishing properly (#6719)
+3.x: Fix MulticastProcessor not requesting more after limit is reached (#6714)
+3.x: Fix concurrent clear in observeOn while output-fused (#6708)
+Fix formatting mistake
+3.x: Fix type inference problem when compiling with newer JDKs (#6682)
+3.x: Fix window(time) possible interrupts while terminating (#6674)
+3.x: Fix concurrent clear() calls when fused chains are canceled (#6676)
+3.x: Fix groupBy group emission in some cases (#6664)
+3.x: Fix size+time bound window not creating windows properly (#6652)
+3.x: Fix takeLast(time) last events time window calculation. (#6648)
+3.x: Fix groupBy not canceling upstream due to group abandonment (#6642)
+3.x: Fix blockingIterable not unblocking when force-disposed (#6626)
+3.x: Fix switchMap incorrect sync-fusion & error management (#6616)
+3.x: Fix many operators swallowing undeliverable exceptions (#6612)
+3.x: Fix refCount not resetting when termination triggers cross-cancel (#6609)
+3.x: Fix mergeWith not cancelling the other source if the main errors (#6598)
+3.x: Fix truncation bugs in replay() and ReplaySubject/Processor (#6582)
+Fix issue #6576 - ObservableBlockingSubscribe compares BlockingObserver.TERMINATED with wrong object (#6577)
+Fix NPE when debouncing empty source (#6559)
+#6543 Fixing version tag since `Schedulers.from(Executor, boolean)` has been promoted. (#6544)
+3.x: Fix concatMapDelayError not continuing on fused inner source crash (#6523)
+2.x: Fix window() with start/end selector not disposing/cancelling properly (#6398)
+2.x: Fix concatEager to dispose sources & clean up properly. (#6405)
+Fix bug in CompositeException.getRootCause (#6380)
+2.x: Fix bounded replay() memory leak due to bad node retention (#6371)
+2.x: Fix publish not requesting upon client change (#6364)
+2.x: Fix Completable.andThen(Completable) not running on observeOn scheduler. (#6362)
+2.x: Fix the error/race in Obs.repeatWhen due to flooding repeat signal (#6359)
+Fix: use correct return type in Javadoc documentation (#6344)
+Fix Flowable#toObservable backpressure support (#6321)
+2.x: Fix refCount eager disconnect not resetting the connection (#6297)
+Fix(incorrect image placement) (#6303)
+2.x: Fix Observable.flatMap to sustain concurrency level (#6283)
+Fix broken markdown (#6273)
+2.x: Fix cancel/dispose upon upstream switch for some operators (#6258)
+2.x: Fix flaky sample() backpressure test, improve coverage (#6254)
+Fix docs typos (#6235)
+Fix typos (#6223)
+Fix terminology of cancel/dispose in the JavaDocs (#6199)
+2.x: Fix toFlowable marbles and descriptions (#6200)
+#6195 Fix Flowable.reduce(BiFunction) JavaDoc (#6197)
+2.x: Fix refCount termination-reconnect race (#6187)
+2.x: Fix marble of Maybe.flatMap events to MaybeSource (#6155)
+2.x: Fix boundary fusion of concatMap and publish operator (#6145)
+Fixed broken link under RxJS in docs/Additional-Reading.md (#6125)
+Fixing javadoc's code example of Observable#lift. (#6104)
+2.x: Fix Completable mergeX JavaDoc missing dt before dd (#6103)
+2.x: Fix aspect of some Completable marbles.
+Fix links for Single class (#6066)
+2.x: Fix Javadoc warnings on empty <p>
+2.x: Fix concatMap{Single|Maybe} null emission on dispose race (#6060)
+Fix check that would always be false (#6045)
+Fix Flowable.blockingSubscribe is unbounded and can lead to OOME (#6026)
+2.X: Fix disposed LambdaObserver onError to route to global error handler (#6036)
+2.x: Fix MulticastProcessor JavaDoc warnings (#6030)
+2.x: Fix Single.takeUntil, Maybe.takeUntil dispose behavior (#6019)
+2.x: Fix & prevent null checks on primitives (#6014)
+Fix typo (#6003)
+2.x: Fix switchMap to indicate boundary fusion (#5991)
+2.x: Fix refCount() connect/subscribe/cancel deadlock (#5975)
+2.x: Fix Observable.concatMapSingle dropping upstream items (#5972)
+Fix few typos in readme. (#5967)
+2.x: Fix some grammar mistakes (#5959)
+Fix typo (#5960)
+Fixed conditional iteration breaking. (#5952)
+Fix Observable javadoc (#5944) (#5948)
+Fix Completable.toMaybe() @return javadoc. (#5936)
+2.x: Fix concatMapSingle & concatMapMaybe dispose-cleanup crash (#5928)
+Fix broken table in "Using an overload with ..."
+2.x: Fix JavaDoc warnings of buffer(Publisher|Callable) (#5923)
+2.x: Fix Flowable.singleOrError().toFlowable() not signalling NSEE (#5904)
+2.x: Fix excess item retention in the other replay components (#5898)
+2.x: Fix publish(-|Function) subscriber swap possible data loss (#5893)
+2.x: Fix Observable.flatMap scalar maxConcurrency overflow (#5900)
+2.x: Fix the extra retention problem in ReplaySubject (#5892)
+Fix buffer() documentation to correctly describe onError behaviour (#5895)
+2.x: Fix Flowable.window(Publisher|Callable) upstream handling (#5888)
+2.x: Fix window(Observable|Callable) upstream handling (#5887)
+2.x: Fix Javadoc warnings, links to the JDK types (#5861)
+2.x: Fix copy-paste errors in SingleSubject JavaDoc (#5834)
+2.x: Fix Observable.switchMap main onError not disposing the current inner source (#5833)
+2.x: Fix O.blockingIterable(int) & add O.blockingLatest marbles (#5826)
+2.x: Fix buffer(open, close) not disposing indicators properly (#5811)
+2.x: Fix flatMap inner fused poll crash not cancelling the upstream (#5792)
+2.x: Fix JavaDoc wording of onTerminateDetach (#5783)
+2.x: Fix TrampolineScheduler not calling RxJavaPlugins.onSchedule(), add tests for all schedulers. (#5747)
+Fix a misleading documentation of Observable.singleElement() (#5668)
+Fix broken license link (#5662)
+Fix mistakes in observers package info, fix generics
+2.x: Fix subscribeWith documentation examples (#5647)
+Fixing JavaDoc warnings (#5637)
+2.x: Fix Observable.delay & Flowable.delay javadoc (#5617)
+2.x: Fix Observable.concatMapEager queueing of source items (#5609)
+2.x: Fix flaky MaybeFromCallableTest.noErrorLoss (#5541)
+Fix a typo in the changelog (#5481)
+Fix Javadoc for Flowable and Observable reduce. (#5476)
+2x: Fix wording in Async and Publish processors javadoc. (#5444)
+2.x: Fix a small typo in Single.delay
+Fix javadoc for Observable.reduce() and Observable.reduceWith() (#5406)
+Fix documentation. (#5403)
+Fixed Javadoc for SingleFlatMapIterableObservable. (#5383)
+2.x: Fix typo in error message. (#5354)
+Fix javadoc for FunctionX (#5347)
+Fix Javadoc for Maybe.toSingle (#5343)
+2.x: Fix Javadoc of Flowable.toObservable (#5309)
+Fix JavaDoc image for Single#flatMapObservable (#5297)
+Fixed broken links (#5262)
+Fix wrong comments in Functions.java “Function3” -> “BiFunction” (#5230)
+2.x: Fix whitespaces
+Fix grammar, add imports to some examples.
+Fix a small typo in ParallelFlowable
+Fix JFrog broken link, also trigger snapshot build
+Fix javadoc sentence warning
+Fix copyright instructions (#5017)
+2.x: Fix Observable.singleElement doc (#4989)
+Fixed a typo and other cosmetics issues. (#4976)
+2.x: Fixed Javadoc for SingleToObservable, MaybeToObservable, CompletableToObservable (#4946)
+2.x: Fix typo in DisposableHelper (#4900)
+Fix code style.
+Merge pull request #4873 from akarnokd/TestObserverFix
+2.x: Fix javadoc and style errors
+2.x: Fix exceptions in javaDoc (#4793)
+2.x: Fixed Javadoc for Disposables.fromFuture (#4744)
+Fix code coverage link
+2.x: Fix Flowable.elementAt on empty sources. Plus sync tests (#4707)
+Fix unnecessary import.
+2.: Fix flatMapX over-cancellation in case of an inner error (#4686)
+2.x: Fix Flowable + Single elementAt and elementAtOrError operators on empty sources (#4681)
+2.x: Fix javadoc for Single.flatMapObservable (#4669)
+Fix wrong upstream type.
+Fix flaky MaybeUnbsubscribeOnTest.normal
+2.x: Fix typo in Single + Maybe defer() (#4560)
+2.x: Fix MaybeTimber by using scheduler and unit (#4529)
+Fix compile warnings
+2.x: Fix Generics T[] in Zip & CombineLatest (#4525)
+Fix compilation error in Eclipse
+Fix wrong javadoc tag.
+Merge pull request #4450 from akarnokd/CleanupFixes831
+Fix FlowableOnBackpressureBufferStrategy (#4441)
+Fix FlowableOnBackpressureBufferStrategy
+Fix buffered objects not propagated downstream in FlowableOnBackpressureBufferStrategy Fix drop strategy logic in FlowableOnBackpressureBufferStrategy Add unit test for FlowableOnBackpressureBufferStrategy, copied from FlowableOnBackpressureBufferTest, there is still some work needed to have a better coverage
+Fix typo. (#4433)
+Fix link to 2.x javadoc
+Fix bad javadoc link
+Fix missing javadoc type argument
+2.x: Fix some typos in Flowable + Observer documentation (#4344)
+Fix compilation warnings
+Merge pull request #3671 from akarnokd/SchedulerTestFix2x
+Merge pull request #3377 from akarnokd/TakeReentrancyFix2x
+Merge pull request #3354 from akarnokd/PerfAwaitFix2x
+Fixed testNestedAsyncConcat not waiting for the parent to complete and misses the last onComplete
+Fixed fromFuture, added headers
+Fixes to MpscLinkedQueue, some minor refactorings.
+Merge pull request #3273 from akarnokd/FirehoseTestFixAttempt2x
+Fix attempt to the firehose test.
+Merge pull request #3265 from akarnokd/RxJavaPluginsPerfFix
+Merge pull request #3261 from akarnokd/SubjectFixes0901
+Fixes to ReplaySubject and BehaviorSubject.
+Merge pull request #3256 from akarnokd/OperatorDebounceFix2x
+Fixed debounce behavior, added throttleFirst, throttleLast alias
+Operator scan, reduce. Fixes to TestSubscriber async behavior.
+Fixes to classes, convenience operators mostly.
+Merge pull request #3220 from akarnokd/FixesForReactiveSocket2x
+Fix for BackpressureUtils method javadoc
+Merge pull request #3129 from akarnokd/RetryPredicateFix
+Fix retry with predicate ignoring backpressure.
+Merge pull request #3101 from akarnokd/TakeErrorHandlingFix
+Fix take swallowing exception if thrown by the exactly the nth onNext call to it.
+Fix request != 0 checking in the scalar paths of merge()
+Merge pull request #3091 from akarnokd/AutoConnectFix
+Fix autoConnect calling onStart twice.
+Merge pull request #3039 from akarnokd/WindowFuncFix
+Merge pull request #3052 from akarnokd/FixSerializedObserverTest
+Merge pull request #3028 from akarnokd/DelayErrorCutaheadFix
+Fix OperatorFlatMapPerf.flatMapIntPassthruAsync Perf Test
+Merge pull request #2983 from akarnokd/MultiOnStartFix
+Fix a wrong assertion in assertError
+Fixed multiple calls to onStart.
+Fixed window(time) to work properly with unsubscription, added backpressure support to window(size, skip).
+Merge pull request #2907 from akarnokd/SchedulerFromFix
+Merge pull request #2939 from akarnokd/OperatorPublishFix0508
+Fixes another race between terminalEvent and the queue being empty.
+Fixed Observable.combineLatest overflow bug on Android
+Fixed TestSubject bug in onError and onCompleted
+Fixed TestSubject bug in onNext
+Merge pull request #2934 from akarnokd/OperatorPublishRaceFix
+Fix termination race condition in OperatorPublish.dispatch
+Fixed schedule race and task retention with ExecutorScheduler.
+Merge pull request #2912 from akarnokd/FixEventLoopsPerfDegradation
+Fix the performance degradation due to different schedule execution and SubscriptionList.add() and thread unparking.
+Merge pull request #2909 from akarnokd/RxRingBufferTestFix
+Fix the drainer to check if the queue is empty before quitting.
+Fix for #2896 overlapping windows. Source was emitting t multiple times while holding queue.
+Merge pull request #2894 from akarnokd/ConcatOverflowFix
+Merge pull request #2875 from akarnokd/ConcatNPEFix
+Fixes NPE in requestFromChild method.
+Merge pull request #2868 from akarnokd/RetryWithBackpressureFix
+Fixed reentrancy issue with the error producer.
+Merge pull request #2854 from akarnokd/AbstractOnSubscribeRequestFix
+Fixed request accounting, increased visibility of BackpressureUtils
+Merge pull request #2852 from akarnokd/RetryOldSubscribeFix
+Merge pull request #2845 from akarnokd/Issue2844Fix
+Fix for issue 2844: wrong target of request on repeat
+Fix typo in OnSubscribe interface's Javadoc
+Fixed javadoc for Observable.repeat() method
+Merge pull request #2837 from akarnokd/TestFixes0318
+Fixed a non-deterministic test and a few scheduler leaks.
+Merge pull request #2818 from akarnokd/SubjectJavadocFix
+Merge pull request #2817 from akarnokd/OnBackpressureDropWithActionFix
+Merge pull request #2809 from akarnokd/TakeUntilTerminationFix
+Fixed takeUntil not unsubscribing from either of the observables in case of a terminal condition.
+Fix the bug that 'publish' will cache items when no subscriber
+Fix typo
+Fix Pull Request Conditionals
+Merge pull request #2648 from akarnokd/OnCompletedFix
+Fix a potential memory leak in schedulePeriodically
+Merge pull request #2630 from akarnokd/FixSubscriberLoss
+Merge pull request #2628 from akarnokd/BuildFix3
+Merge pull request #2610 from akarnokd/BuildFix2
+Merge pull request #2609 from akarnokd/BuildFix
+Fixed comment and missing value
+Merge pull request #2593 from akarnokd/ZipHangFix2
+Merge pull request #2589 from akarnokd/OperatorDistinctFix
+Merge pull request #2590 from akarnokd/ZipHangFix
+Merge pull request #1955 from akarnokd/OnBackpressureBlockFix
+Fixed some concerns with the operator.
+Fixed local variables, added blackhole to *Local benchmarks
+Fixed race in testConnectUnsubscribeRaceCondition()
+Fixed typo.
+Merge pull request #2552 from akarnokd/OperatorPublishRequestFix
+Merge pull request #2566 from akarnokd/CombineLatestBackpressureFix
+Merge pull request #2482 from akarnokd/MergeFix0122
+Fixed line delimiters.
+Fixes indent.
+Merge pull request #2478 from akarnokd/TestRefCountAsyncFix
+Merge pull request #2476 from akarnokd/WindowFixes0121
+Merge pull request #2477 from akarnokd/BackpressureTestsFix0121
+Fixed SLOW_PASS_THRU to prevent JIT optimizing it away.
+Fixed off-by-one error and value-drop in the window operator.
+Merge pull request #2475 from akarnokd/SyncQueueCloneFix
+Fixes NPEs reported in ReactiveX#1702 by synchronizing queue. Adds unit test for regression.
+Fixes NPEs reported in ReactiveX#1702 by synchronizing queue. Adds unit test for regression.
+Fixed file comment, larger timeout for a test
+Merge pull request #2332 from akarnokd/OperatorRetryTestFixAttempt
+Fix for https://github.com/ReactiveX/RxJava/issues/2191 - OperatorMulticast fails to unsubscribe from source.
+Fixes indentation.
+Fixed comment typo, added the rest of the operators
+Fixed the error function.
+Fix the bug that cache doesn't unsubscribe the source Observable when the source is terminated
+Fix the issue that map may swallow fatal exceptions
+Fix for back pressure on the alternate subscription.
+Merge pull request #2053 from akarnokd/ReplaySubjectBoundedFix1218
+Fixed potential request value overflow.
+Fixed wrong subject use in test.
+Merge pull request #1973 from akarnokd/ReplaySubjectFix1215
+Fixed test issuing non-serialized messages to the subject.
+Fix the issue that GroupBy may not call 'unsubscribe'
+Merge pull request #1938 from akarnokd/OperatorAnyFix
+Fix the issue that Sample doesn't call 'unsubscribe'
+Fix NPE when the key is null in GroupBy
+Merge pull request #1953 from akarnokd/OperatorSerializePerfFix
+Merge pull request #1947 from akarnokd/ReplaySubjectFirstEmissionFix
+Fix 'request(0)' issue in Scan
+Fixed race & late termination condition.
+Fixed timer cast-to-int crash causing incorrect benchmark.
+Fixed first emission racing with pre and post subscription.
+Merge pull request #1937 from akarnokd/SchedulerTestsFix
+Fixed OperatorAll unsubscribing downstream.
+Fixed wrong Java 8 reflection API call
+Merge pull request #1912 from akarnokd/RetryWithBackpressureFix
+Fixed retry without backpressure & test function to support bp.
+Fix the bug that Scan may request 0 when n is 1
+Merge pull request #1901 from akarnokd/RedoRequestFix
+Fix TestScheduler Handling of Immediate vs Virtual Time
+Fixed typo.
+Fixed accidental import * expansion.
+Fixed redo & groupBy backpressure management
+Merge pull request #1893 from akarnokd/MergeDelayErrorFix
+Fixed incorrect error merging.
+Merge pull request #1886 from akarnokd/MergeFix
+Fixed unsubscription issue in buffer with time and a potential concurrency issue in merge.
+Merge pull request #1866 from akarnokd/ReplaySubjectMemoryLeakFix
+Fix Scan/Reduce/Collect Factory Ambiguity
+Fix memory leak in bounded ReplaySubject due to retaining the node index indefinitely once the Subscriber caught up.
+Fix Thread Safety for Unsubscribe
+Fix Take Early Unsubscription Causing Interrupts
+Fix mergeDelayError Handling of Error in Parent Observable
+Merge branch 'mergeDelayErrorFix' of github.com:EmteZogaf/RxJava into 313-mergeDelayError
+Fixes Early Unsubscribe for Overlapping Window
+Fixes Early Unsubscribe for Non-Overlapping Window
+Fix Concat Breaks with Double onCompleted
+Fix Synchronous OnSubscribe Exception Skips Operators
+Fix issue #1812 that zip may swallow requests
+Fix the RxClojure project link.
+Fix for #1791 - don't retry (subscribe) to source if child has unsubscribed.
+Merge pull request #1775 from akarnokd/BlockingOperatorNextTestFix
+Fix NPE when iterable is null
+Fix Slow Non-deterministic Test
+Fix TrampolineScheduler NullPointerException
+Fix the race condition in BufferUntilSubscriber
+Fix Rx serialization bug in takeUntil again
+Fix compose generics
+Fix the failing Observable.mergeDelayError synchronous error unit test
+Issue #1642 Fix null-emitting combineLatest
+Fix the bug that Switch doesn't propagate 'unsubscribe'
+Fix Javadoc README link
+Operator Scan Backpressure Fix
+Fix the 'compose' unit test
+Fix the compose covariance
+Fix for mapcat, issue #1556
+Fixing Kotlin Defer
+Fix errors in Completeness.scala and also improve it
+Fixing a bug and a potential for other concurrency issues.
+Fix the unbounded check for merge
+Fix issue #1522
+Fix toIterator Exception Handling
+Fix non-deterministic test
+Fix typos in javadoc comments.
+Fix typo
+Backpressure Fixes and Docs
+Merge Perf Fix: Re-enable fast-path
+Fix related classes for issue #1451
+Fix issue #1451
+Fix Merge Bug
+Concurrency Fixes for RxRingBuffer & Merge
+Merge pull request #1421 from akarnokd/RangeBackpressureFix
+Fix Merge Bug
+Fixed OnNextValue to not call toString on the failing value
+Fix the compiler warnings
+Fixed up SafeObserverTest w.r.t. CompositeException changes
+BugFix: Pivot Concurrency
+Fix head/tail false sharing issues.
+Fix the bug that 'flatMap' swallows OnErrorNotImplementedException
+Fix a race condition if queued actions have been handled already
+Fixed padding of the integer and node classes.
+Fix and Update JMH Perf Tests
+Fix Encoding/Formatting
+Fix the bug that int overflow can bypass the range check
+Fix "window"; change "amb" parameter to varargs; add examples
+Merge pull request #1254 from akarnokd/ZipWithIterableFix
+Fix the bug that BlockingObservable.singleOrDefault doesn't call unsubscribe
+Merge pull request #1248 from akarnokd/SchedulerTestConcurrentFix
+Fixed testConcurrentOnNextFailsValidation
+Fix the bug that using mutable function in 'zipWithIndex'
+Merge pull request #1185 from akarnokd/BehaviorSubjectTimeGapFix2
+Fix the initialization order
+Merge pull request #1195 from akarnokd/SwingSchedulerNegativeFix
+Merge pull request #1191 from akarnokd/OperatorPivotTestFix
+Merge pull request #1175 from akarnokd/ConnectableObservableSynchronousFix
+Fix issue #1196 and some docs issues
+Fix attempt #1
+Fix issue #1187
+Fix the bug that the inner Subscriber can not be unsubscribed and elimilate scaladoc warnings
+Fix issue #1173
+Fixed synchronous ConnectableObservable.connect problem
+Merge pull request #1158 from akarnokd/SchedulerFixes0506
+Fix defer for Java 8 type-inference
+Fix ReplaySubject termination race
+Merge pull request #1137 from akarnokd/OperatorFixes430
+Fixes to the operators.
+Merge branch 'SerializedObserverTestFix' of github.com:akarnokd/RxJava into merge-prs
+Merge branch 'ReplaySubjectDoubleCompletionFix' of github.com:akarnokd/RxJava into merge-prs
+Fix for SerializedObserverTest
+Fix ReplaySubject's double termination problem.
+Fix last test case.
+Merge pull request #1066 from akarnokd/CompositeSubscriptionFix422
+Fix bugs in equals and hashCode
+Fix issue #1044
+Merge branch 'SubjectDeadlockFix320' of github.com:akarnokd/RxJava into pull-972
+Fix NPE in SubjectSubscriptionManager
+Fix BlockingOperator Subscribe Behavior
+Merge pull request #1012 from akarnokd/SerializedObserverFix2
+Ignore Unit Test until Delay is Fixed
+Fix unit test determinism
+Fix Non-Deterministic Pivot Test
+Fix SynchronizedObserver.runConcurrencyTest
+Fix typos
+Fix Unit Test Assertion
+Compilation Fix
+GroupBy & Time Gap Fixes
+Fixed deadlock in Subjects + OperatorCache.
+Fix tests in rxjava-math
+Fix clojure test
+Merge pull request #964 from akarnokd/SubjectSubscriptionManagerFix
+Merge pull request #928 from akarnokd/SubscribeOnBoundedFix
+Merge pull request #956 from akarnokd/StringObservableTestFix
+Merge pull request #955 from akarnokd/ReplaySubjectLeakFix
+Fixed byLine test to use line.separator system property instead of \n.
+Fixed ReplaySubject leak
+Fix docs
+Merge pull request #936 from Applied-Duality/SkipFixed
+Fixed state capture bug. Added some additional tests
+Fix project import issue in Android Studio and a compilation failure
+Fix deadlock in SubscribeOnBounded
+BugFix: Zip with 0 Observables
+Fixed NullPointerException that may happen on timeout
+Fix DebugHookTest as per direction from @abersnaze
+Fixed an issue with the from(Reader) added a bunch of unit tests.
+Fix Unit Tests related to SubscribeOn
+Fixing the generics for merge and lift
+Fix import org.apache.http.protocol.HttpContext;
+Merge pull request #777 from akarnokd/NextTestFix
+GroupBy Fixes
+Fix problem with Subscription
+Make Parallel use NewThread until Computation Fixed
+[Issue #831] Fix for OperationJoin race condition
+Merge pull request #827 from Applied-Duality/BugFixesSchedulers
+Fixed cut & paster error in io scheduler
+Fixing apparent encoding issue
+Merge pull request #812 from akarnokd/ConditionalsFix
+Fixed OperationSubscribeOn so OperationConditionalsTest works again.
+Fixed issue #799 - Added break to possibly-infinite loop in CompositeException.attachCallingThreadStack
+Fix Scala Build
+Fix problem with Observable.create(); Avoid use of deprecated methods
+Fix OperationalConditional
+Fix Typo: s/CompositeException/CompositeSubscription
+Fix Subject.toObservable
+Conditionals: Fix all but 2 tests
+Fix Unit Tests
+Fix Exception Handling from SafeObserver and Subscriptions
+Fix Subject SubscriptionManager
+Fixed 1 Unit Test - Linked Observer/Subscription where seemingly obvious to do so.
+Fixed buglet in join binding. Simplified types for groupByUntil, window, buffer, and empty to use Any and Nothing.
+Subjects Fixed
+Fix Zip race condition
+Fixed testSingleSourceManyIterators
+Fixed ZipWithIndex using mutable state (not pretty)
+BugFix: Another GroupBy use case found and fixed.
+Take: Fix Terminal State Handling
+Merge pull request #767 from akarnokd/ZipFixes
+Fixed issue #737
+Merge pull request #717 from Applied-Duality/ScalaPublishFix
+Added ConnectableObservable Fixed test Added overload for scan Added trivial test for scan
+Fix CurrentThreadScheduler Delay Bug
+CurrentThreadScheduler Fixes
+CurrentThreadScheduler Memory Leak Fixed
+ExecutorScheduler Memory Leak Fix
+Fix Memory Leak in NewThreadScheduler Recursion
+Fix Deprecated Method Call
+Merge branch 'CombineLatestFix' of github.com:akarnokd/RxJava into combine-latest
+Fixed Scala bindings
+Fix SafeObserver handling of onComplete errors
+Fix TakeLast after removing SingleAssignmentSubscription
+Merge pull request #659 from akarnokd/SubjectsFixAdditional
+Merge pull request #626 from akarnokd/OperationLatestAndFixes
+Merge pull request #621 from Applied-Duality/CleanFixes
+Fix the unit tests in groovy and kotlin
+Fixed the blocking/non-blocking first
+Fixed issue #595 about null in toList operator
+Fix non-deterministic unit test
+Fixes based on @zsxwing's suggestions.
+Observable.from with scheduler Fixed blocking test in ObservableWindowTest
+ObserveOn Fixes
+Fix #544 ReplaySubject emits items received after onError
+Merge pull request #596 from akarnokd/BufferFix1
+Renamed apply(items: T*) to items. Fixed all tests.
+Fix for buffer not stopping when unsubscribed.
+Merge pull request #586 from akarnokd/ConcatFix
+Fix Concat to allow multiple observers
+Merge pull request #2 from samuelgruetter/RxJavaBugFixesSam2
+Fix the 'null' issue in the default equality
+Renamed rx.lang.scala.concurrency to rx.lang.scala.schedulers Fixed Scheduler constructor to map to correct scheduler type.
+Fixed scala compilation error.
+Merge pull request #562 from samuelgruetter/RxJavaBugFixesSam
+Merge pull request #545 from akarnokd/ZipInfiniteFix
+Fixed case with skipUntil(empty()) == never() (matches Rx.NET)
+Pulled in changes from Samuel. Fixed tests, all working without warnings
+Merge pull request #1 from samuelgruetter/RxJavaBugFixesSam
+Fixed Zip issue with infinite streams.
+Fixing tests
+Fixing tests
+Fixed implicit conversions to make compile work
+Fixed type errors in Schedulers. Added scheduler factory.
+Fixed ambigous definitions; kuddos to https://class.coursera.org/reactive-001/forum/thread?thread_id=1466.
+Fixed doc comment.
+Fix bad unit test
+BugFix: Handling of Terminal State for Behavior/Publish Subjects
+Fixed the issue #521
+Fix ObserveOn and add ParallelMerge Scheduler overload
+BugFix: AsyncSubject
+BugFix: Throw an IllegalArgumentException instead of ArithmeticException if the observable is empty
+BugFix: Reduce an empty observable
+Fix non-deterministic unit test
+BugFix: Unsubscribing does not work when using subscribeOn(Schedulers.newThread())
+Fix unit test after last() changed behavior
+Fix behavior of BlockingObservable.last
+Fix ambiguous imports
+Fixed issue #454
+Fixed testOnErrorViaHasNext in issue #383
+Fixed issue #417
+Fix OperationSwitch so that it does not onComplete() before inner and outer subscription completes.
+Fix OperationSwitch so that it does not onComplete() before inner and outer subscription completes.
+Fixed the issue that 'take' does not call 'onError' when 'onNext' throws any error
+BugFix: unsubscribe was not propagating to parent Observable on merge(Observable<Observable<T>>)
+Fixed a couple of warnings and reverted change to imports
+Fixed path to RxScalaDemo.scala
+Fixed issue #428
+Fixed the issue about null values
+Fixed the issue of takeLast(items, 0)
+Fixes to rxjava-apache-http
+Fix ObserveOn, NewThreadScheduler and ScheduledObserver bugs
+Fix Observable.window static/instance bug
+Fixing Scala unit tests after previous commits accidentally broke them
+Fixing Maven orgId (accidentally got camel-cased)
+Fix build issues for rxjava-clojure examples
+Fix RxJava Groovy Unit Tests after static method refactor
+Fixing aggregateJavadoc
+Fix PublishSubject non-deterministic behavior on concurrent modification
+Fix unit tests
+Fix concurrency bug in ScheduledObserver
+Fixed javadoc warnings.
+Fixed a javadoc parameter.
+Fixed a typo the UnitTest class of OperationThrottle.
+Fixed a typo, added missing error and completion handling
+Fixed everything but empty return tags.
+Fixed links in the javadocs, mostly.
+Fix multiple subscription bug on operation filter
+ExecutorScheduler now uses scheduleAtFixedRate instead of recursion when possible.
+Fixed millisecond/nanosecond confusion in test scheduler, fixed schedulePeriodically to use now() instead of System.nanoTime() and added a test against scheduling periodically
+Fixed a bug in the test scheduler that happened when advancing time by a too little amount
+Fixed scheduler javadoc, and one single unnecessary cast in takeWhile
+Fixed sleeping action
+Fixing UnitTest
+Fixed yet more indentation issues.
+Fixed indentation.
+Added a unit test. Fixed the implementation. Maybe still a bit naive when it comes to intervals that are too small to keep up with?
+Fix non-deterministic unit test
+Fix violations of the Observer contract.
+Fixed javadoc and comments, cleaned up a bit, and tried to fix synchronization.
+Fix for Observable.toList failing with multiple subscribers
+Fixed bug in ranges
+Fixed import
+Fixing javadocs
+Fixing transitive-ness of provided
+Fixing issue when publishing source/javadoc to maven central
+Fix quotes

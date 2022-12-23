@@ -1,0 +1,526 @@
+Fix #5421, docs code snippets not running (#5422)
+Fixes #5410 (#5413)
+Fix CI for Node 16.14.x (#5404)
+Fix continuing first line of explicit [/{ literal (#5397)
+Fix #5378, stack overflow on large files (#5380)
+Fix documentation links to try/catch section (#5349)
+Fix call MetaProperty (#5324)
+Fix: comprehension as postfix conditional (#5310)
+Fix typos (#5287)
+Fix comments after colons getting lost (#5276)
+Fix #5103: Add support for BigInt literals (#5104)
+Fix #5213: Update Babel options to restore MINIFY=false (#5214)
+Fix #5201: allow leading breaking elision (#5202)
+Fix repl.rli deprecation (#5178)
+Fix tests (#5176)
+Fix #5128: parens around default param (#5167)
+Fix 5085 (#5145)
+Fix #5112: A string of ', ' in an array should not be detected as an elision (#5113)
+Fix Parens
+Fix inspect helper
+Fix #5086: Don't generate unnecessary interpolations in JSX tags when the tags contain only here (`/* ... */`) comments (#5108)
+Fix #4609: support new.target (#5106)
+Fix #5046: Adjacent JSX (#5049)
+Fix #1832: Browser compiler should run code using globally-scoped eval (#5047)
+Fix #5034: Adjacent JSX elements must be wrapped in an enclosing tag (#5046)
+Fix README ASCII art
+Fix #4876: remove polyfill for object rest/spread (#4884)
+Fix: a test relied on faulty behavior (#5028)
+Fix #4875: Asynchronous iterators (#4893)
+Fix #4877: Exponentiation operators (#4881)
+Fix #5013: return statement as an expression (#5014)
+Fix: destructuring assignment with an empty array in object (#5000)
+Fix #5004: incorrect compiled code when a destructuring array contains accessors (#5005)
+Fix #4889: for...range loop condition (#4891)
+Fix #4882: Range not declaring var for the "i" (#4883)
+Fix #4878: Compile error when using destructuring with a splat or expansion in an array (#4879)
+Fix #2047: Infinite loop possible when `for` loop with `range` uses variables (#4853)
+Fix #4852, @get @set implicit object (#4867)
+Fix #3306: trailing comma in a function call in the last line throws a syntax error (#4860)
+Fix #4868: Incorrect ‘Can’t call super with @params’ error (#4869)
+Fix #3933: Missing `then` doesn’t trigger nearby error (#4862)
+Fix #4437: variable scope in chained calls (#4863)
+Fix #3921 & #2342: inline function without parentheses used in condition, inline 'else' (#4838)
+Fix #1726: expression in property access causes unexpected results (#4851)
+Fix #3441: parentheses wrapping expression throw invalid error  (#4849)
+Fix #4843: bad output when assigning to @prop in destructuring assignment with defaults (#4848)
+Fix #4105 (#4855)
+Fix #4836: functions named get or set can be used without parentheses when attached to @ (#4837)
+Fix #4798: Incorrect output for object rest destructuring inside array destructuring  (#4799)
+Fix #4811: Heregex comments cannot contain three slashes in a row (#4814)
+Fixes #4684: Elision (#4796)
+Fix #4790: Double-check that we're not creating a bound generator function, even if the yield got stuffed inside a compiler-generated IIFE (#4792)
+Fix #4787: Destructuring of objects within arrays can generate invalid JavaScript (#4791)
+Fix #4763: Comments at beginning or end of REPL input shouldn't throw errors (#4764)
+Fix #4765: .map file should always have the same output base filename as the generated .js file (#4784)
+Fix #4774: `export default` followed by an object should always work, even if the object contains braces. `default` shouldn't suppress a newline, we should handle it in the grammar the same way returning an implicit object is handled (#4783)
+Fix #4780: Don't mutate the options object when compiling and transpiling, so that options are correct on subsequent iterations (#4785)
+Fix #4756: When moving comments from the children of an Existence, we need to search all its descendants, not just the immediate children (#4757)
+Fix #4752: Error on calling super with @params in a derived class constructor (#4754)
+Fix #4747: Flow local variables (#4753)
+Fix #4706: Flow generics (#4736)
+Fix import/export list bug with aliased keywords (#4744)
+Fix #4724 (#4737)
+Fix #4725: apply transpile option to require’d .coffee files (#4728)
+Fix #4727: Tests failing in Windows (#4731)
+Fix #3440: --stdio and --map don’t make sense to use together (#4721)
+Fix #4703, 4713: Transpile fixes (#4717)
+Fix #4464: backticked expressions in class body (#4712)
+Fix link to logo
+Fixes #4703 — Don't depend on Babel in package.json
+Fix #4686: if a CSX interpolation contains comments, not just inner CSX (JSX) tags, it needs to be wrapped in braces (#4689)
+Fix #4342: Always output `sourcesContent` property as part of source map, whether inline map or written-to-disk map (#4698)
+[CS2] Fix destructuring bugs #4673 and #4657 (#4683)
+[CS2] Fix CS2 docs mobile issues, improve performance (#4688)
+[CS2] Fix async tests (#4680)
+Fix #3098: Suppressed newline should be unsuppressed by semicolon (#4669)
+[CS2] Fix v3 source map (#4671)
+Fix #1768: Ignore space after `::` (#4670)
+Fix #4576: Allow accessing a property of a function literal (like `.call`) via chaining syntax (#4665)
+Fix #4589: Unquote all interpolated strings, not just CSX ones, so that quotation marks are not unnecessarily escaped in backtick-delimited strings/template literals (#4660)
+[CS2] Fix #4260 and #1349: Splat error with soak properties or expressions (#4644)
+[CS2] Fix #3709, #3789: ‘throw’ an ‘if’, ‘for’, ‘switch’, ‘while’ (#4664)
+Fix #4575: Check for the previous token’s existence before comparing against it (#4663)
+[CS2] Fix #2870: Allow specifying output filename (#4661)
+Fix #4578: Never look back past the start of the token stream (#4662)
+[CS2] Fix #4629: interpolations (whether in strings or CSX tags) with only comments (#4659)
+[CS2] Fix #4209: --require for filenames that are invalid identifiers (#4658)
+Fix #4558: Stack trace line numbers for scripts that compile CoffeeScript (#4645)
+[CS2] Fix #4631: Expansion that becomes rest parameter causes runtime error (#4634)
+Refine sameLine implicit object tagging [Fixes #4568] (#4598)
+[CS2] Fix object spread nested properties (#4611)
+[CS2]: Fix #4591: multiple accesses after super (#4592)
+[CS2] Fix #3199: throw multiline implicit object (#4599)
+[CS2] Fix #4467: tagged template literal call (#4601)
+refine sameLine implicit object tagging [Fixes #4568] (#4598)
+[CS2] Fix a couple of typos (#4602)
+[CS2] Fix #3906: handle indentation inside indented chain (#4587)
+[CS2] Fix for comma after function glyph [#1043] (#4588)
+error message for implicit call [Fixes #4283]
+Fix #4579: postfix for in object literals (#4581)
+Fix #4564: indent closes implicit object (#4570)
+Fix immediately invoked named classes (#4569)
+Fix REPL assignment (#4559)
+Fix #4544: postfix conditional on first line of implicit object (#4554)
+Fix #4533: chained calls incorrectly wrapping enclosing implicit objects (#4534)
+Fix typo; closes #4187 (#4539)
+Fix #4020: No need for `break;` after a switch case that `throw`s (#4538)
+Fix #4150: Correctly outdent ternary followed by method call (#4535)
+[CS2] Fix non-bare `get` `set` when called with `@` argument (#4525)
+Fix #4248: Unicode code point escapes (#4498)
+Fix parenthesized conditions in if-else assignment (#4519)
+[CS2] Fix links in v2 docs (#4506)
+Fix broken links, update redirected links (#4505)
+A particular REPL test is broken in Node 4.8.2 because of a regression that was fixed in Node 5.11.0; just disable the test for Node < 6. Fixes #4502. (#4510)
+Fix #4491: import- and export-specific lexing should stop (#4492)
+Fix #4487: Outdentation bug (#4488)
+Fix #4489: Regex octal escape sequence bug
+[CS2] Fix handling of tabbed code blocks in .litcoffee files (#4485)
+Fix broken links in 2 docs (#4480)
+Fix #4481: Export an imported member named `default`
+Fix #4451: Treat `default` as a keyword in an export statement only when it follows `export` or `as`
+Fix browser test.html to work with async tests
+Fix CS2 build after merge pulled in a bare super call (#4447)
+Fix Try CoffeeScript for mobile
+Fix link to browser-based tests
+[CS2] Fix handling of parameters that are complex (#4430)
+Fix "export" squashing variable declarations
+Fix CodeMirror cursor in CoffeeScript input columns; update generated documentation
+Fix stack trace (#4428)
+[CS2] Fix handling of parameters that are function calls (#4427)
+Fix scope of assignments in dynamic class keys
+Fix link to Try CoffeeScript
+Fix releaseHeader for the initial release; should backport to v1
+Fix //= operator (#4410)
+Fix scrollspy for Resources
+Fix filename style
+Fix releaseHeader for the initial release; should backport to v1
+Fix sidebar scrolling on mobile
+Fix menu button on regular browsers sized narrowly
+Fix command completion under nodejs v6.9.1 (#4402)
+Fix empty source file when building with MINIFY=false, closes #4403 (#4404)
+Fix margin
+Remove Error.prepareStackTrace and the related source map code. Fixes jashkenas/coffeescript#4391
+Fix link to logo; closes #4382
+Fix path to browser compiler (#4374)
+Fix missing hunk
+Fix links to annotated source
+Fix tabbed Literate CoffeeScript (#4345)
+Fix typo
+Fix location data for implicit CALL_END tokens
+Fix shorthands after interpolated key in objects
+Fix minor typo in changelog for 1.11.0
+Fix indentation-stripping in `"""` strings
+Fix `isLiteralArguments`
+Fix source maps for errors thrown from .coffee.md files
+Fix CLI crash when `null` is thrown
+Fix incorrect location data in OUTDENT nodes
+Fix misspellings
+Fix failing source map tests
+Fix 'Error: EBADF: bad file descriptor, write' on `.exit` in REPL
+Fix typo.
+Fix minor typo
+Fix broken `CoffeeScript.register()` and commit build
+Fix #4178: an issue of processing Unicode characters in stdin
+Fix invalid JS in one of the docs examples
+Fix scoping error in coffee-script.coffee
+Fixed minor document typos
+Fix #4137: Caught errors named `undefined`
+Fix #4130: Unassignable param destructuring crash
+Fix compiler crash with renamed destrucured params with defaults
+Fixed link to Groovy doc link
+Fix documentation typos
+Fix #4088: Don't declare caught variables
+Fix #3926: Disallow implicit objects as parameter destructuring
+Fix #4070: Improve error message for lone expansion
+Fix #1192: Assignment starting with object literals
+Fix formatting of `#`-only lines in herecomments
+Fix `CoffeeScript.nodes(tokens)`; fix the repl
+Fix #3935: Implicit calls + obj key interpolation
+Fix #3965, sourcemaps for bare programs.
+Reverts #3758, Fixes #3863 -- kills the broken warning
+Fix getting of character at index
+Fix single-line heredocs starting with "undefined"
+Fix #3846: Fix odd start token of implicit objects
+Fix error message for invalid escape at end of regex
+allow multiline comment inside of an object definition [Fixes #3761]
+Fix #3597: Allow interpolations in object keys
+Fixed copyright range to be updated to 2015
+Fix #3795: Never generate invalid strings and regexes
+Fix incorrect token representation
+Fix #3778: Make for loops more consistent
+Fix #3822: Include delimiters in string/regex locations
+Fixes #3816 -- prettier internal variable names.
+Fix broken CoffeeScript APIs
+Fix #3804: Provide list of referenced vars to REPL
+Fixed broken link
+Fix #1316: Interpolate interpolations safely
+Fix #3194: Make strings always uncallable
+Fix #3502: Define param variables when expansion
+Fix #1500, #1574, #3318: Name generated vars uniquely
+Fix #3671: Allow step in optimized range comprehensions
+Fix #3410, #3182: Allow regex to start with space or =
+Fix #3598: Make unary + and - generate _refs
+Fix #2516, #3560: Unicode space handling
+Fix issue #3498
+Fixed jashkenas/coffeescript#3638 - invalid block comments compilation
+Fix the "Examples" link on coffeescript.org
+Fix the "Examples" link on coffeescript.org
+Fixed an error formatting issue f7b36054fcbcc0c26f
+Fix wrong location issue in heregex interpolation
+Fix wrong location issue in "string" interpolation
+Fix wrong location issue in string interpolation starting with line break
+Fix off-by-one issue with string interpolation in lexer
+Fix “list of open-source CoffeeScript on GitHub”
+Fix help for .load
+Fix repl for Node 0.11.12.
+Fix errors on index
+Fixes issue #3349, prints deprecation warning
+Fix #3361, make %% coerce right operand only once
+Fix a typo causing module.paths to be always set as the cwd.
+Fix markup in math operator documentation
+Fix markup in math operator documentation
+Fixes in documentation
+Fixing tests for browser.
+Fixes chaining after inline implicit objects
+Fix indendation error messages
+Fix for declarations in object literals
+Fix expansion in destructuring inside comprehensions
+Fixes #1871, close implicit objects in implicit returns
+Fix 1275
+Fixed chaining semantics after outdent
+Fix `child_process.fork` patch
+Fix multiple postfix conditionals
+Fix: `EPERM` when deleting watched dirs in Windows
+Fixes #3267 -- Remove source maps of deleted source files
+Fix #3264, missing leading whitespace before interpolation in heredoc
+Fixed leading whitespace before interpolation in simple strings
+Fixes #3259 -- Use placeholders when adding params to scope
+Fix and simplify management of `sources` in CLI
+Fix multiple escaped backslashes in literal strings
+Fixes #2367 -- super in for-loop
+Fix error location for illegal pure statements
+Fixes #3232 -- Tag all class properties `static`
+Fixes #3087 -- Use `fs.*Sync` for CLI compilation
+Closes #3008 -- Fix scope of constructor reference
+Fix: `__extends` helper above directive prologue
+Fixes #2941 -- don't destroy extensionless filenames for --join
+Fixes #3019 - Documentation tweak to default argument meaning.
+Fixes #2181 -- conditional assignment as subexpression
+Fixes #3047 -- Fixes module.paths when running directly with no explicit passed-in files.
+Fixes #3053 - error for mismatched own/for-in without an index.
+Fixes #3063 -- wait a moment so that an error can be raised.
+Fixes #3072 -- tweak process.argv to match when running REPL
+Fixes #3089 -- don't mutate options passed in to compile()
+Fixes #3143 -- Potential memory leaks caused by use of fat arrow next to other (non-fat-arrow-using) long-lived closures.
+Fixes #3160 -- a missing bit of locationData
+Fixes #3166 -- add a (simpler) flag to suppress the generated header.
+Fixes #3208. You now have to require 'coffee-script/extensions' in order to be able to auto-require CoffeeScript files.
+Fixes #3186
+Fix constructor_destructuring example to alert a defined value
+Fix some inconsistent indentation
+Fix: support for consumers of the REPL *module* being able to opt into using the global context via option `.useGlobal`.
+Fixes #3132 - Improve rendering of block-comments
+Fix formatting issues in underscore.coffee documentation (generated html)
+Issue #3092: Fix column numbers in sourcemaps to not be essentially random.
+Fixed deep directory creation for command line utility
+Fix multi-line if-else in single-line expression.
+Fix path separator issues in tests.
+Fixing browser build boilerplate.
+Fixes tabbed code test in literate
+Fix 'propeties' typo in docs
+Fixes #2916 -- implicit calls with preceding herecomment
+Fix docs : modify source file instead of built file
+Fix #2953. Method calls on splice endpoints
+Fix #1069. Non-callable literals shouldn't compile
+Fix #1437. Unneeded ref in existential assignment.
+Fix REPL when env.HOME isn't available - #2945
+Fix #2944
+Fix bug in REPL where history file was closed late.
+Fix missing `` ` `` - #2926
+Fixes #1057: Allow catch/finally in single line functions.
+Fix error reporting for invalid object key.
+Fix regression with executable class bodies and prototypal attachment.
+Fixes #2908, add "\n" between pure literal header and function body.
+Fix Windows path separator issue in `baseFileName`.
+Fixes #2849: now the compilation errors thrown by CoffeeScript.compile will include the correct filename and source code information
+Fixing erroneous whitespace fix in generated JS
+Fixes #2737, fix fork() for both .js and .coffee, revised.
+Fixes #2478 -- mention js2coffee in docs
+Fixes #2555
+Fixes #1829. Preserve variable scope in the REPL
+Fixes #1829. Preserve variable scope in the REPL
+Fix typo in documentation
+Fixes #2808. Remove --require flag.
+Fixes #2490 -- adding guard-style if blocks
+Fixes #2796, by adding a test for it.
+Fixes #2781, fixes #2782. Reverting to old method of instance method binding.
+Fix sourceRoot and relative path for .coffee files in generated source maps.
+Fixes #1066 -- interpolated strings are not implicit funcs
+Fixes #1055 -- disallow invalid keys in object literals ... but allow them where the implicit object is being used as a class defn' or a destructuring
+Fixes #2422 -- Catch clause scoping plus old IE
+Fixes #2773 -- tricky dependency ordering when overriding bound functions.
+Fix #2768: rewrite literate code before the join
+Fix location of tokens with no length
+Fixes #2765 -- incorrect line number in mappings
+Fixes #2766 -- incompatible line number API
+Fixing lingering brain fart. Inexcusable.
+Fix source map generation
+Fixes #2455 -- condition should know what variables the body has declared.
+Fixes #2489, fixes #1819, fixes #1821 -- remove the __bind helper.
+Fixes #2502 -- improper compilation with parenthesized inner value of instance properties in a class body.
+Fixes #2508 -- existential access of the prototype.
+Fixes #2749. Restricting  to instance methods in class bodies, where it actually has a chance in hell of calling the correct thing.
+Fixes #2750 -- clarify error message
+Fix line numbers when first line is indented.
+Fix from code inspect: Use "not" instead of "!".
+Fix generated file name in v3 source map
+Fixed key name in source map, added coffee file to map sources
+Fixes #2721 -- show error message for naked super
+Fixes #2721, super outside of classes with extends for instance methods.
+Fixing heredocs in literate coffeescript
+Fix implicit calls with try/catch/finally as arguments
+Fix failing parser error message test
+Fix repl handling of blank line
+Prevent repl from crashing on error [Fixes #2716]
+Fix indentation on test
+Fix #1435 by amending away sign reversal.
+Fix merge problem, and rebuild parser.js
+Fixes #2359 -- tweak grammar to use new name
+Fixes #2523 -- remove resetting of process.execPath
+Fixes #2690 -- tweak cake bench to handle literate coffeescript
+Fixes #2525, #1187, #1208, #1758, and many more -- allow looping over an array downwards
+Fixes #2531. Allow colors where Node says that colors are available.
+Fixes #2613 -- bug with over-optimization of parentheses on LHS of destructuring
+Fixes #2617 -- implicit object call getting out of control.
+Fixes #2681 -- removes old --require hook.
+Fixes #2630 -- Class bodies shouldn't be able to reference arguments.
+Fixes #2389 -- strip the BOM for once and for all
+Fixes #2621 -- buggy function parameter name detection with complex destructuring in param list.
+Fixes #2622 -- better document how --nodejs flag works
+Fixes #2645 -- block comments should always be closed
+Fix broken case for generated explicit indentation.
+Fix TODO in interpolateString.
+Fix reporting of errors in 'cake test'
+Fix line numbers for TERMINATOR tokens.
+Fixes #2567 -- optimize generated code with an existential is directly negated.
+Fixing wonky spacing at top level.
+Fixes #2580 -- Try/Catch is allowed to destructure the error object.
+Fixes #2577 -- better instructions for installing master
+Fixes #2577 -- better instructions for installing master
+Fix #2534: Address @jashkenas review comment.
+Fix #2534: Don't pass a string argument to the XMLHttpRequest constructor.
+Fixes #2441: Remove (deprecated) registerExtension support.
+Fixes #2331 -- bound 'super' regression
+Fixes broken autocompletion from 8bc6001d27a87f7b75fa997a246e2ea84eef1b8e
+Fix typo in test name
+Fixes #2287 -- tweak extends to make jshint easier
+Fixes #2197 -- uncached double existential
+Fixes #2209 -- document heredocs as 'block strings'
+Fixes #2207 -- unambiguous immediate implicit closes don't close implicit objects
+Fixes #1183, Refactors #2252, super calls in inner functions
+Fixes #2258 -- allow parameter lists in the vertical style.
+Fixes #2280 -- add enumerable prototypal properties to autocompletion.
+Fixes #2273, reverts #643 -- no special variable treatment for loop variables.
+Fixes #2274 -- allow @variables as loop variables
+Fixes issue where destructured assignment params were incorrectly identified as duplicates.
+Code and commentary diverged in that short time.  Fix.
+Fixes #2155 -- existential assignment to a closure
+Fix a confusing error message for '(arguments) ->'
+Fix inherited spelling in documentation
+Fixing indentation, trailing whitespace.
+Fix error that prevented object literals from being properly returned from comprehensions.
+Fixed cake::printTasks to be backward compatible with node v0.4
+Last commit accidentally broke autocompletion. Fixed.
+Fixes #1980
+Fixes #1961, Fixes #1974, compound assignments to an implicit object.
+Fixes #960 -- 'do' is now more efficient and permissive about undefined values.
+Fixes #494: Forcing named classes in CoffeeScript (named functions) ... even in IE.
+Fixing bug that was causing directory deletes to be ignored
+Fixing bug that was causing file deletes to be ignored, debouncing compileJoin
+Fixes #1771: Fixing the indexOf shim.
+Fixes #1859 -- postfix if preceding an unparenthesized single-line function body
+More work on watching / joining ... Fixes #1941, fixes #365. Watched files may now be added and removed, including with --join
+Fixes #1853 -- fs.watch trouble.
+Fixes #1813
+Fixes #1871, allows single-line implicit ends to close implicit objects.
+Fixes #1903
+Fixing crappy JS AMD code.
+Fixes #1838
+Fixes #1861
+Fixes #1876
+Fixes #1922
+Fixes #1842
+Fix bug in lexer's reserved word error message
+Fixes #1803 -- use fs.watch instead of fs.watchFile ... more of a PITA, but hey.
+Fixes #1714
+Fix for issue #1446: Compiler crashes on permissions error instead of giving meaningful error message
+Fixing issue #1492: Consecutive semicolons in compiled output in some situations
+Fixing funkiness introduced in #1498.
+Fixes #1035, #1425, and #1444: (another) overhaul of REPL and CoffeeScript.eval. Instead of writing about all the changes and why I made those decisions, I'll just answer any questions in the commit comments, so add a commit comment if you want to question anything. Thanks to @TrevorBurnham and @satyr for their help/contributions. Also, closes #1487. And still no REPL tests...
+Fixes #1461. Existential assignment now correctly reports if it is a statement.
+Fixes #1467. Catch now introduces its parameter to scope.
+Fixes #1035, #1425, and #1444: (another) overhaul of REPL and CoffeeScript.eval. Instead of writing about all the changes and why I made those decisions, I'll just answer any questions in the commit comments, so add a commit comment if you want to question anything. Thanks to @TrevorBurnham and @satyr for their help/contributions. Also, closes #1487. And still no REPL tests...
+Moved src/*.coffee under src/coffee-script/ so that lib can be added to $NODE_PATH and only expose the top-level coffee-script namespace. Fixes #1246
+Fixes #1461. Existential assignment now correctly reports if it is a statement.
+Fixes #1467. Catch now introduces its parameter to scope.
+Fixes #1461. Existential assignment now correctly reports if it is a statement.
+Fixes #1467. Catch now introduces its parameter to scope.
+Fix for #1150: String interpolation regression
+Fixed silently failing command line --join functionality when directories are specified for compilation.
+Fixes #1328
+Fix for #1216 and pull #1348; preserves original semantics while prettying the compiled output
+Fix for #1216 ?= compilation
+Fixing external constructors / order of execution for once and for all ... knock on wood.
+Fixed splat sibling variable scope leak.
+Fix for #1326 by value is uncached
+Revert "Fix for #1304 ... but disallows an alternative syntax."
+Fix for #1304 ... but disallows an alternative syntax.
+Fixing unavailability of `global` properties on REPL
+Revert "Fix a typo in `browser.coffee`."
+Fixing process.argv[0] ... #1303
+Fixes broken `require` from last commit. We're not actually sure yet *why* `require` and only `require` was affected. All other globals that I tried were unaffected: `console`, `parseInt`, `process`, `global`, `Array`, `Object`, `Buffer`, `setTimeout`, ...
+Fixes error in REPL where any variable defined in `src/coffee-script.coffee` is shared with the REPL scope. Example: try `lexer` or `@VERSION` pre-commit.
+Fixes #1280, regex and compound division mixup.
+Fixes #1188, scope for self-referencing functions.
+Fix a typo in `browser.coffee`.
+Fix scoping of splat parameters in argument lists.
+Fixing issue #1046.
+Fixing require './foo' under --eval and REPL; issue 1035
+Fixing browser test suite for new filenames after reorganization. Also added `global ?= window` where necessary. Firefox seems to be complaining about an unexpected lambda still, though.
+Fixing for a in b() -> ...
+Fixing issue #965 -- first character of '.' prefixed folder.
+Fixing the asKey setting in Obj.
+Fixing class extends this in a non-class context.
+Fixing literals that should be statements, and adding failed compilation tests.
+Fixing issue #924 ... static methods of nested classes.
+Fixing #930 so I can work on testing ranges, slices, and splices. Regression tests for this will come with the other refactored slicing tests in a future commit.
+Fix for #926
+Fixing #934 (at least partially).
+Fixing Issue #916. Overoptimization leading to empty var;
+Fixing issue #902 ... collected comprehension when no comprehension is necessary.
+Fixing Issue #904. Destructuring parameters need to reserve their variable names as if they were true parameters.
+Issue #905. Fixing soaked-value-as-a-comprehension-subject ... incorrect LEVEL_TOP.
+Fixing compileSplice broken by c7a9801d because " + 1" is now evaluated as NaN by node. Removed that implicit cast entirely.
+Fixing direct construction splats.
+Fixing the repl so that errors print properly, and async exceptions are logged instead of killing the session.
+Fix spelling
+Fixing jsl.conf to lint cleanly again (don't mind our void 0s)
+Fixing --eval; see issue 820
+Fixing scope.coffee -- we can't use a JS object as a hash that has to contain the word 'hasOwnProperty'
+Fixing the REPL.
+Fixing destructor in magicked for. Also making destructors in range loops syntax errors.
+Fixing IE DontEnum bug in Scope. Ignoring everywhere else.
+Fixing inconsistencies for index variables
+Fixing #761. p -1 now translates to p(-1), not p - 1. Same with +.
+Fixed comprehension magic's scoping.
+Fixing for magic scoping issues. Small steps at a time.
+Fixing #774. Strict equality operator, which wasn't supported in the grammar anyway, is removed from the lexer.
+Fixed #763. SimpleAssignables are now the only possible recepients of ++, -- and compound assignments.
+Fixing #700. Block comment for constructor now appears above the constructor declaration.
+Fixing #600. JS statements that must be expressions but contain pure statements cause syntax errors.
+Fixing #773. Statements cannot be wrapped in parens (as in JS).
+Back four commits ... Fixing named function expressions -> function declarations for IE. (grumble grumble)
+Fixing splats after newlines - #754.
+Fixing issue #751 ... implicit number arguments within implicit object literals.
+Fixing Issue 730 -- and removing garbage collection of tempvars (which was totally unsafe.)
+Fixing Issue #744 -- you can now use reserved words as static properties of a class.
+Fixing Issue #738 -- rewriter skips a token.
+Fixing #723; switch cases not iterated by eachChild.
+Fixing issue #276 -- unsoaked cached indexes.
+Fixing issue #700, block comment after first line of class definition.
+Fix REPL. Add CoffeeScript.eval method as run doesn't return result.
+Fixing issue #694. Destructuring assignment as first line of implicitly called block -- regression.
+Function soaks should preserve `this`. Fixes issue #692.
+Fixing the double-implicit-call-into-implicit-object problem.
+Fix for issue #685. Over-aggressize heredoc cleanup when there is no leading indentation.
+Fixing issue #676, chained accesses against the super() keyword.
+Fixing issue #678 -- missing parentheses in a mixed operation(call(soak))
+Fix for Issue #655. Leading empty commas in ArgLists are now disallowed.
+Fixed #669: Wrapper arguments
+Fixing Issue #643. Be a little bit safer about declaring block variables as close to the block scope as possible.
+Fixing the longstanding and important Issue #637. I'm glad this one got got.
+Revert "Fixes Issue #618. Close implicit arguments in the middle of param lists."
+Fixes Issue #618. Close implicit arguments in the middle of param lists.
+Fixing Issue #622 with a light refactor to start using a 'tags' property on all nodes.
+Fixing naked chained existential checks -- the associativity recently got reversed.
+Fixing first part of #614 -- improperly cached existential operator, when first operand is a function call.
+Fixing compound assignment as a right-hand sub expression of a larger operation. Invalid in JS, valid in Coffee.
+Fixes Issue #574 ... number keys in implicit object literals.
+Fixing implicit object literals with leading string keys.
+Fixes Issue #603 -- a longstanding precedence issue involving prefix vs postfix if and unless, involving using the entire single-line if statment as an expression.
+Fixes Issue #573. Herecomments inside of class literals.
+Fixes Issue #542. Ensure that top-level objects are parenthesized. It's not valid code, but we might as well not SyntaxError out.
+Fixing closures-generated-within-comprehensions to preserve block local scope for range comprehensions
+Fixing Issue #589. Compound assignment to an operation should have lower precedence.
+Fix typo
+Fix typo
+Fix typo
+Fixing Issue #509. Double-evaluation for function calls within IndexNodes as the left-hand-assignment part of a compound-assignment operation.
+Fixing issue #544. Needed to special case implicit-object-closing for outdents -- it's different than a single-line implicit object with a terminator.
+Fixing Issue #552, Indentation bug with chained calls with nested object literals...
+Fixes Issue #525 -- String interpolation bug due to conflict with Heredoc interpolation.
+Fixing Issue #506. existential chains should force parentheses in the presense of a compiled ternary operator.
+Fixing (at least partially) Issue #502. Trailing block comment parse.
+Fix for Issue number 501 ...
+Fixing issue #495 ... options wasn't being passed down in ArrayNode#compileSplatLiteral
+toFixed() seems to be non-portable. Trying a different number test.
+Fixing issue number #486 (which is debatable). Allowing an unparenthesized if/else ternary as a trailing parameter to a call.
+Fixes issue #477, missing global helpers in REPL.
+Fixing commented-out if-clauses or empty if-clauses.
+Fix for issue #414 -- apostrophes in heredocs.
+Fixed lingering CoffeeScript Compiler running live in Internet Explorer bugs. Implemented helpers.index_of and removed named functions. Ticket #366
+Fixing silly mistake with the comments.
+Fixing invalid pattern matching and object creation.
+Fixing string keys in pattern matching on objects (ticket 325)
+Fixing splats-with-super()-in-classes, an oversight.
+Fix for bug with chaining
+Fixed a small bug that happened when having a trailing comma in multiline array and object literals
+Fixed a small bug about flexible splats that occured when the leading array was a literal
+Fixed a tiny slicing bug
+Fixing up command-line args for --stdio and --eval. Now makes more sense with --run by default.
+Fixing up command-line args for --stdio and --eval. Now makes more sense with --run by default.
+Fix the naked .property highlighting in interpolation to match coffee parsing
+Fixed web_server example to be compatible with Node v0.1.30
+Removing the notion of a ThisNode so that we don't have to worry about the special cases. Fixes Issue 180
+Fixed Narwhal integration. Cleaned up module organization, etc.

@@ -1,0 +1,2045 @@
+Update to notify v5 via notify_debouncer_mini
+Fix cursor visibility with focus change on macOS
+Update glutin to 0.30.0
+Update winit to 0.27.5
+Bump crossfont and sctk-adwaita
+Fix startup failure on macOS with dash as /bin/sh
+Fix crash with very low font sizes
+Fix cursor and underlines always being black
+Fix `--help` output for `--class` to match man pages
+Fix changelog versioning
+Fix Windows release build
+Fix clippy warnings
+Bump winit to 0.27.4
+Add RHEL8 instructions to INSTALL.md
+Fix icon decoding on X11
+Migrate from winapi to windows-sys
+Fix IPC config overriding previous values
+Update unicode-width to Unicode 15
+Bump winit to 0.27.3
+Avoid text cursor location for hyperlink preview
+Update Cargo.lock for new `-dev` bump
+Don't enable multisampling
+Add licenses to `alacritty_config`
+Bump development version to 0.12.0-dev
+Add IPC config subcommand
+Add inline input method support
+Rework `--class` CLI option
+Include extra directory in crate
+Fix general and instance class set on window (#6276)
+Bump winit to 0.27.2
+Use `WindowEvent::Occluded` to hint rendering
+Bump glutin to 0.29.1
+Warn if only columns XOR lines is set
+Make grid mutably accessible to libraries
+Fix visible regex match on tall viewports
+Fix clippy warnings
+Remove redundant dirty updates
+Fix inverted condition for cell's extra clearing
+Register Alacritty shells as tty sessions on macOS
+Remove panics from UNIX PTY initialization
+Replace `map().unwrap_or()` with `map_or()`
+Fix thin strokes on macOS
+Fix hyperlinks not being keyboard actionable
+Use org.alacritty instead of io.alacritty
+Add support for hyperlink escape sequence
+Fix error when opening in root dir on Windows
+Use DeviceId/WindowId::dummy in tests
+Add `cursor.blink_timeout` config option
+Fix resize on Wayland when creating new window
+Add hexadecimal support to --embed
+Bump dirs to 4.0.0
+Bump copypasta to 0.8.1
+Ignore special files for live config reload
+Bump copypasta to 0.8.0
+Add value hints for clap file paths
+Use `MaybeUninit<usize>` instead of `usize` in `Storage::swap`
+Update SGR escape sequence support
+Add vi action to center view around vi cursor
+Fix flickering during resize on Wayland
+Support dual source blending in GLES2 renderer
+Fix old vi cursor not being properly damaged
+Fix crash when damaging off-screen hint
+Fix a few minor clippy lints
+Fix DEC Special Character Set (Line drawing)
+Fix Vi cursor not being damaged on scroll
+Don't inherit `--command` for `SpawnNewInstance`
+Fix selection change after leaving vi-mode
+Fix inaccurate method documentation
+Enable damage tracking only on Wayland
+Fix builtin glyphs for U+2567 and U+2568
+Fix gap in builtin box drawing
+Remove unnecessary commas in config keybindings
+Fix selection copy without button release
+Fix cell_height of impl From<SizeInfo<f32>> for WindowSize
+Extract `SizeInfo` from alacritty_terminal
+Disallow OSC 52 for unfocused window
+Fix OSC 4 color response format
+Reset blinking on search bindings in Vi mode
+Persist OpenGL context creation flags
+Add colored underline support
+Use center of the pixel when aligning undercurl
+Fix `font.glyph_offset` not live reloading
+Fix crash when searching during reset
+Fix line indicator damage computation
+Use round instead of ceil for line position
+Fix gap calculation for dashed underline
+Add fallback GLES2 renderer
+Add `ToggleMaximized` key binding action
+Add version 0.10.1 to changelog
+Omit git version hash when git command fails
+Don't use 'origin_upper_left' in rect shaders
+Don't load font twice during display creation
+Account for absolute WAYLAND_DISPLAY paths
+Reuse Rasterizer in Display::new
+Add support for dashed and dotted underlines
+Clear damage rects right after drawing
+Fix terminal not being damage when only font size changed
+Make undercurls thickness close to underlines
+Add note about publishing RCs to crates.io
+Add version to info log
+Fix warnings when building only with Wayland feature
+Fix alpha when using `colors.transparent_background_colors`
+Add support for drawing undercurls
+Add instructions for building without X11/Wayland
+Fix alacritty_terminal not emitting damage on color change
+Fix renderable_cursor method documentation
+Fix builtin font block elements going invisible
+Fix repeated permission requests on M1 macs
+Fix terminal damage after leaving Vi mode
+Add damage tracking and reporting to compatible compositors
+Clean up and abstract shader creation code
+Use cell width to compute builtin font thickness
+Log used display server on Linux/BSD
+Account for font.offset and glyph.offset in built-in font
+Add option to control built-in box drawing chars
+Remove outdated changelog URLs
+Fix logfile overwriting existing files
+Fix typo in SizeInfo padding_y rustdoc
+Reset cursor blinking on ToggleViMode
+Fix OSC 104 with empty second parameter
+Add ´?´ support to OSC 4
+Remove time dependency
+Fix macOS release CI
+Update time crate to 0.3.5
+Don't blink when cursor is hidden
+Use `with_position` instead of `set_outer_position`
+Fix use-after-free when formatting Wayland protocol error
+Fix block selection expansion with Ctrl + RMB
+Fix fullwidth char regex search infinite loop
+Fix last column block selection
+Fix macOS IME regression
+Fix title setting via IPC when dynamic_title is enabled
+Use builtin font for box drawing unicode characters
+Trim \n from hints/semantic-/simple selection
+Migrate from structopt to clap 3
+Update wayland-client to v0.29.3
+Add title/class CLI parameters to create-window
+Fix input lag with nvidia driver on Wayland
+Migrate to 2021 edition
+Bump development version to 0.11.0-dev
+Fix test failures due to CLI parameters
+Fix CreateNewWindow CLI fallback
+Remove shared PID/FD variables
+Spawn children from foreground working directory
+Keep history position when viewport is cleared
+Remove trailing whitespace from block selection
+Remove outdated Rust compatibility code
+Update dependencies
+Fix vi cursor moving incorrectly with new output
+Fix crash when vi cursor in history during clear
+Bump glutin to 0.28.0
+Add parameters to `msg create-window` subcommand
+Switch to clap-generated completions
+Update signal-hook to 0.3.10
+Fix crash with empty post-processed matches
+Add alacritty-msg manpage to documentation
+Fix libxkbcommon-devel package name for openSUSE
+Add multi-window support
+Fix cursor inversion logic
+Update rustfmt configuration
+Fix typo in makefile
+Fix incorrect vi mode search origin
+Fix vi indicator obstructing vi mode cursor
+Handle PTY EIO error for Rust 1.55+
+Add python to Archlinux install instructions
+Remove unused struct fields
+Add libxkbcommon-dev to openSUSE dependencies
+Remove custom merge strategy for changelog
+Watch non-canonical path for config symlinks
+Fix alacitty_terminal build on windows
+Fix 'background_opacity' deprecation
+Migrate CLI config to structopt
+Add macOS ARM builds to CI
+Add option to apply opacity to all background colors
+Add python3 dep to freebsd install instructions
+Log dependency warnings/errors at trace level
+Fix fullwidth character crash on resize
+Update crossfont to 0.3.1
+Add ExpandSelection mouse binding action
+Add note about dependencies to Cargo Installation
+Downgrade glutin version
+Add changelog entry for 7879552
+Fix insert mode crash with fullwidth characters
+Invert windows asset symlinks
+Fix Linux release CI build
+Bump development version to 0.10.0-dev
+Remove optional releases section from appdata.xml
+Fix vi cursor tracking during scrolling
+Fix copying interrupted tab characters
+Update dependencies
+Symlink windows assets for cargo install
+Add libxkbcommon to INSTALL.md dependencies
+Fix search regressions
+Update mio-anonymous-pipes to 0.2.0
+Fix PTY performance regressions
+Fix Void Linux link in the install guide
+Fix leaving vi mode with active selection
+Fix vi cursor motion with ScrollPage* actions
+Fix crash when resizing during vi mode
+Add buffer for PTY reads during terminal lock
+Fix clippy warnings
+Remove .agignore
+Add libxkbcommon-dev to debian INSTALL.md
+Remove blink capability from terminfo
+Fix regex search regression
+Add modes to regex hint bindings
+Switch official IRC channel to Libera.Chat
+Fix ScrollHalfPageUp vi cursor motion regression
+Fix crashes with cut-off fullwidth characters
+Improve rendering performance
+Add ipfs/ipns URL scheme support
+Fix startup caching of bold glyphs
+Fix typo in config documentation
+Add magnet URL support to config docs
+Fix default URL binding
+Fix URL highlighting with unicode whitespace
+Fix unnecessary redraws due to hint highlighting
+Add Ctrl+c binding for exiting hint mode
+Fix crash when copying out of bounds selections
+Update crossfont to 0.3.0
+Add changelog entry for config url change
+Fix release mode tests
+Fix single column block selection
+Bump development version to 0.9.0-dev
+Add deprecation warning for mouse URL config
+Use cell colors for focused match CellRgb
+Cleanup config path logging without any files
+Add support for magnet URLs
+Fix highlighting multiple hints in the same line
+Fix replacement of fullwidth characters
+Update vi-mode `Open` config docs for hints
+Fix cursor expansion across wide chars
+Fix out of order terminal query responses
+Fix selection flooding Wayland connection
+Update dependencies
+Fix mouse reports
+Fix mouse point crash on resize
+Add hint action for moving the vi cursor
+Fix initial vi cursor position while in scrollback
+Fix hint label with start above viewport
+Fix URL highlight in mouse mode without shift
+Add vi/mouse hint highlighting support
+Add hide other windows binding on macOS
+Fix automatic scrolling on resize
+Add copy/paste/select hint actions
+Fix focused match selection color
+Keep viewport in place during resize
+Unify the grid line indexing types
+Fix cursor thickness on wide cells
+Fix URLs opening in explorer on Windows
+Fix inconsistent_struct_constructor clippy lint
+Fix vi mode search
+Add regex terminal hints
+Remove incorrect changelog entry
+Add Windows version requirements to readme
+Run clippy on MSRV
+Fix hollow block cursor being drawn for hidden cursor
+Fix vi cursor after leaving search
+Add sync update terminfo and docs
+Bump base64 to 0.13.0
+Add support for synchronized updates
+Match intermediates directly in CSI parser
+Fix selection after search without match
+Add version 0.7.2 to changelog
+Add Drop implementations for OpenGL structures
+Fix search freezing Alacritty
+Fix cursor position when scrolled into history
+Limit the maximum DPR on X11 to 10
+Update dependencies
+Fix the estimated DPR to 1 on Wayland.
+Fix segmentation fault on shutdown with Wayland
+Remove --dimensions/-d from bash completions
+Fix damage tracking on Wayland
+Move renderable cell transformation to alacritty
+Remove all rustc benchmarks
+Fix dead Alacritty talk link in readme
+Update shell completions
+Add IME support for Windows
+Fix typo in README.md
+Add minimum OpenGL version to readme
+Fix assertion crash on 32-bit systems
+Fix readme logo icon URL
+Fix jumping between matches in reverse vi search
+Remove the GitHub pull request template
+Fix inefficient search initialization
+Update cargo lockfile
+Bump development version to 0.8.0-dev
+Fix debug mode crash in vi-less search
+Update vte to 0.10.0
+Fix deserialization of untagged enums
+Fix movement between matches in vi-less search
+Add vi/search line indicator
+Remove Windows WinPTY backend
+Use ConfigDeserialize for all config enums
+Add default binding to cancel search on Ctrl+C
+Fix Wayland crash due to fontconfig
+Fix characters getting swallowed during IME input
+Fix readme image alt description
+Update Alacritty's description
+Fix missing glyphs crash on Windows
+Draw cursor with rect renderer
+Hide "missing" glyp for zerowidth character
+Disable shadows for transparent windows on macOS
+Remove terminfo dependency
+Fix artifacts on macOS with transparent windows
+Replace serde's derive with custom proc macro
+Fix embedded _NET_WM_ICON on X11
+Add search history support
+Add separate mode for search bindings
+Fix crash due to clipboard not being properly released on Wayland
+Fix invalid ESC escape sequence parsing
+Increase file watcher delay on BSD
+Fix draining of PTY when holding on exit
+Fix typo in .editorconfig
+Fix live reload with broken yaml on start
+Fix cursor reports with mouse outside of window
+Bump glutin to 0.26.0
+Remove live-shader-reload feature
+Print multiline logs in one write call
+Render underline and strikeout rects in batches
+Fix scrolling region performance with fixed lines
+Remove alacritty.spec
+Fix dimming of indexed colors
+Draw selection below Vi cursor when it's hidden
+Fix DoS caused by excessive CSI parameter values
+Remove redundant CLI flags
+Fix CI upload assets tag matching
+Fixed typo in INSTALL.md
+Remove copr from installation instructions
+Fix Cargo.lock
+Fix CHANGELOG sections
+Add blinking cursor support
+Add support for '~/' in config imports
+Increase font size in CSDs on Wayland
+Fix stdout log message order
+Ignore nonexistent config imports instead of raising an error
+Fix vi mode terminal reset
+Fix wide characters being cut off
+Reduce number of GitHub Actions CI builds
+Add Alpine Linux build dependencies
+Bump development version to 0.7.0-dev
+Fix unused import warning
+Fix zerowidth characters in the last column
+Load only gl 3.3 functions
+Feature gate 'image' when building without x11 feature
+Fix github releases tag pattern
+Update vte to 0.9.0
+Add ability to select text during search
+Fix use after free when dropping zerowidth data
+Add g++ to Fedora build dependency documentation
+Fix sr.ht clippy job
+Fix github actions clippy job
+Update wayland-rs to 0.28.2
+Fix configuration file formatting
+Spawn new alacritty processes in CWD on macOS
+Migrate from Travis CI to GitHub Actions
+Deprecate the WinPTY backend
+Add editorconfig
+Use dynamic storage for zerowidth characters
+Fix visual bell getting stuck
+Fix crash with large negative font offset
+Error on warnings when running clippy
+Fix build failure on macOS without features
+Remove rustc_tools_util dependency
+Remove all duplicate dependencies from Linux/BSD
+Remove unneeded collect during line rect creation
+Check viewport size after initial resize
+Add license symlinks for crates
+Update dependencies
+Fix incorrect X11 feature check
+Make use of glutin wayland/x11 features
+Add support for urgency hints CSI
+Fix feature checking in cross builds
+Bump glutin to 0.25.0
+Fix non-ascii message bar text width calculation
+Add additional CentOS/RHEL build dependencies
+Add support for single line terminals
+Fix selection incorrectly expanding when scrolled in history
+Fix IME position with fullwidth chars in search
+Remove unused Linear newtype. (#4248)
+Log new padding and cell size on 'SizeInfo' update
+Add changelog entry for FreeType version bump
+Fix CLI arguments without config file
+Update cargo lockfile
+Improve example for the -o CLI flag
+Pass existing CLI parameters to SpawnNewInstance
+Disable WinPTY with windows-gnu toolchain
+Update smithay-clipboard to 0.5.2
+Fix multiline URL highlighting
+Add escape to report text area size
+Unify term dimension calls
+Add CLI parameter to override config options
+Fix config import error handling
+Add configuration file imports
+Update spec file
+Add logging for crossfont
+Fix selection scrolling with message bar visible
+Use yellow/red from the config for message bar colors
+Use user's background color for render timer text
+Add support for double underlines
+Fix handling of wrapline flag in last line
+Add `Vi` to available binding modes
+Remove copyright notice from files
+Remove markdownish markup from `--help` output
+Fix characters swallowed during search
+Add ^C binding to cancel search and leave Vi mode
+Add support for colon separated SGR parameters
+Rework installation instructions
+Fix clippy issues
+Use `tcgetpgrp` to get PID for SpawnNewInstance
+Reduce InstanceData footprint
+Fix typo in example config file
+Document keybinding actions
+Fix travis release deployment
+Fix negative window position
+Fix typo in readme
+Fix configuration file documentation
+Fix crates.io publishing restrictions
+Add 0.5.0 announcement blog to readme
+Remove 0.5.0 changelog suffix
+Unify changelog section order
+Fix 0.5.0 changelog
+Remove snap packaging config
+Bump minimum supported Rust version to 1.43.0
+Fix CellForeground and CellBackground cursor colors
+Fix scrolling with selection expansion
+Document rejected window ops escapes
+Invert fixed color cursor if it's close to cell bg
+Fix viless search origin
+Remove outdated sections from README
+Document Alacritty's features
+Add secondary DA support
+Improve selection expansion changelog entry
+Bump version to 0.6.0-dev
+Bump alacritty_terminal version
+Fix rustfmt build failures
+Rename font crate to crossfont
+Fix crashes during search
+Add different search label for backward search
+Fix selection update in viless search
+Remove Ubuntu PPA installation instructions
+Add support for searching without vi mode
+Fix docs about multiple simultaneous keybindings
+Fix padding change not being applied immediately
+Fix cursor reflow
+Fix movement within search matches
+Fallback to SHELL instead of passwd if present
+Fix freetype 26.6 format conversion
+Fix crash on cursor resize
+Remove gui dependencies from alacritty_terminal
+Remove alacritty.yml mentions from font crate errors
+Fix crash when configured font is missing
+Add readline bindings to search
+Fix clipboard not working on KDE Wayland
+Add option to run command on bell
+Set default FreeType properties
+Bump urlocator and unicode-width
+Fail compilation if Fontconfig is not installed on Linux/BSD
+Add regex scrollback buffer search
+Fix cursor reflow
+Fix saved cursor handling
+Preserve linewrap flag across alt screen switches
+Fix compilation on 32bit targets
+Add auxiliary files to macOS Application bundle
+Update --help for class option to match manpage
+Document supported escape sequences
+Fix reflow of empty wrapped cursor line
+Fix foreground dimming with truecolor text
+Rename alt_grid to inactive_grid
+Clear selection on clear line/screen escapes
+Fix scroll down escape pulling lines from history
+Fix live right-click expansion
+Remove checks on nightly from CI
+Run rustfmt on sr.ht
+Add selection expansion
+Add automatic scrolling during selection
+Use compile_error! instead of panic! in build.rs
+Rework default config binding replacement
+Improve documentation for install on macOS via brew cask
+Add missing docs for ScrollHalfPageUp/Down
+Cleanup window.rs imports
+Update dependencies
+Remove copypasta dependency from alacritty_terminal
+Remove copyright notice from files
+Fix class and cursor thickness deserialization
+Refactor Shell, Command, and Launcher to share impl
+Fix font rendering regression on macOS
+Add version 0.4.3 entries to changelog
+Add whitespace after dropped file paths
+Add cargo feature for WinPTY
+Refactor Term/Grid separation
+Update dependencies
+Remove env_logger depedency
+Add documentation about patch releases
+Set IUTF8 input setting on supported platforms
+Fix build warnings on macOS/Windows
+Remove unused dependencies
+Update dependencies
+Update copypasta to v0.7.0
+Add subpixel anti-aliasing support on macOS 10.14+
+Fix crash when writing wide char in last column
+Bump winit to 0.22.2
+Change default color scheme to 'Tomorrow Night'
+Fix vi ScrollToBottom motion
+Refine documentation on disabling the URL launcher
+Add support for Fontconfig embolden and matrix options
+Fix OSCs terminated by \x9c byte in unicode
+Remove prebuilt linux binaries
+Fix emojis being blended with background
+Fix INSTALL.md platform ordering
+Add fontconfig to Clear Linux install requirements
+Treat Shift + Backspace as Backspace
+Don't hide cursor on modifier press
+Extend style guideline documentation
+Use frame callbacks instead of vsync on Wayland
+Fix scrolling multiplier documentation
+Use numbers instead of strings for additional mouse bindings
+Call glFinish right after swap_buffers on X11
+Fix clippy warnings
+Fix startup locale on macOS
+Use embedded resource for window icon
+Update depedencies
+Bump minimum supported Rust version to 1.41.0
+Fix code formatting
+Clear selection on grid swap
+Update depedencies
+Add Windows font fallback
+Add config option to set cursor thickness
+Log critical errors with error! instead of println!
+Fix various mouse mode + vi mode interactions
+Use config colors to theme Wayland decorations
+Remove 0.4.2 changelog suffix
+Fix tabstops not being reset with 'reset'
+Remove `fs::read_to_string` reimplementations
+Remove orphan servo-freetype-proxy folder
+Update Linux/BSD font dependencies
+Remove std::fs::read_to_string reimplementation from tests
+Fix cursor position after alt screen resize
+Add CopyPrimary keybinding action on Linux/BSD
+Add FreeBSD to CI
+Add changelog entry for minimum Rust version bump
+Fix invisible selection
+Remove right click deselection
+Fix default keybinding documentation
+Fix scrolling with selection outside of vimode
+Add modal keyboard motion mode
+Add default keybinding for SpawnNewInstance on macOS
+Use font style for fontconfig fallback
+Remove std::fs::read_to_string reimplementation
+Fix changelog version
+Bump version to 0.5.0-dev
+Fix live config reload for window title
+Capitalized the .desktop Filename (#3425)
+Add option to pick Linux/BSD backends
+Run clippy on oldest supported version
+Fix crash when selecting last column
+Update to glutin 0.24.0
+Bump copypasta to 0.6.3
+Fix selection with invisible start and end
+Fix caching of variable font faces
+Remove `ref_test` option from configuration file
+Remove HollowBlock/Hidden config cursor styles
+Fix ignoring of slow touchpad scrolling
+Fix DCS escape parsing crash
+Move debug to bottom of config
+Remove `tabspaces` config option
+Fix tabs across linewrap
+Add GNU Guix installation instructions
+Update terminfo dependency
+Fix log target of color config errors
+Remove unnecessary macos focus check
+Remove docs for 0xRRGGBB color notation
+Fix crash on Wayland compositors with `wl_seat` version 7+
+Revert caching of font pixelsize
+Add missing angled bracket to email
+Add FreeType face cache
+Change documented default TERM to alacritty
+Fix config reload updating incorrect grid
+Fix Fontconfig's font size query
+Fix block selection including last column
+Fix discarding of FreeType loading flags
+Add Alpine Linux installation instructions
+Extract winpty crate
+Fix parser stopping at unknown modes
+Add custom merge strategy for CHANGELOG.md
+Add seconds and nanoseconds to log output
+Increase Beam, Underline and Box cursors' line width
+Fix incorrect display offset after rotation
+Bump vte and urlocator
+Revert "Fix backspace deleting chars when IME is open"
+Document that Alacritty does not create config
+Update glutin to v0.23.0
+Fix selection expansion across full-width glyphs
+Add docs about multiple bindings on same trigger
+Start window invisible on Windows
+Remove unsetting of dirty flag on key press
+Fix non-scalable font resize issue
+Fix handling of OpenType variable fonts
+Mirror OSC query terminator
+Fix backspace deleting chars when IME is open
+Fix inconsistent test module naming
+Rework Fontconfig fallback to use cached list from font_sort
+Switch to flamegraph-rs script
+Fix incorrect grid.len() and grid.history_size()
+Add font metric caching
+Fix selection rotating outside of scrolling region
+Fix build error on OpenBSD
+Add debug log for missing config
+Fix underline position for bitmap fonts
+Fix stack overflow when printing shader error
+Fix oob error during selection
+Fix first cell when selection is off screen
+Disable drawing bold text bright by default
+Remove scrolling.auto_scroll feature
+Bump minimum Rust version to 1.37.0
+Force application symlink on macOS make build
+Change Alacritty .ico to use higher resolution
+Replace `.nth(0)` with `.next()`
+Fix reset CLI parameters on config reload (#3216)
+Update font crate to 2018 edition
+Expand line selection across wrapped lines
+Remove Windows working directory canonicalization
+Remove synthetic keyboard event handling
+Bump VTE to 0.5.0
+Fix crash with invalid working directory
+Fix font size reset when moving between screens
+Move Alacritty to organization
+Bump glutin to 0.22.0
+Force exact modifiers match for mouse bindings
+Fix cut off full width glyphs in last column
+Add separate deployment for Windows releases
+Build releases on Windows stable
+Fix keybinding deserialization
+Remove winit key remappings
+Fix incorrect config path in --help and manpage
+Bump version to 0.4.2-dev
+Add `Minimize` binding action
+Bump winit to 0.20.0 Alpha 6
+Update outdated reftests
+Fix macOS OpenGL context resize ordering
+Replace deprecated Error methods
+Improve performance benchmarking documentation
+Clean up Windows PTY string handling
+Remove C1 escape support
+Fix high startup time on wlroots compositors
+Move live-shader-reload feature to alacritty
+Remove outdated information from README
+Fix screen reset not clearing cell flags
+Fix crash on clear when scrolled up in history
+Remove unneeded NamedPipe::connect() calls
+Default to ConPTY instead of WinPTY
+Fix Windows CI build failure
+Add conpty dynamic loading restrictions docs
+Send PTY resize messages through event loop
+Fix storage rotation error
+Fix crash when resizing Alacritty
+Fix deadlock when closing on Windows using Conpty
+Fix vague startup crash messages with WinPTY
+Fix colored row reset performance
+Add support for colored emojis on Linux/BSD
+Fix minimize causing resize Windows
+Add /Application symlink to macOS DMG
+Fix unicode 11/12 glyph width
+Remove unnecessary lifetimes from winpty
+Add documentation for the release process
+Fix incorrect DPI after wakeup on X11
+Fix PR and issue template
+Add new issue and PR templates
+Fix direct escape input on Windows using alt
+Move icon embed step from winpty to Alacritty
+Add Insert/Delete bindings with combined modifiers
+Add prerendered PNG and simplified SVG logo
+Fix `OSC 52` with empty clipboard param
+Fix parsing of file scheme
+Remove unused PackedVertex struct
+Simplify `cargo deb` usage
+Bump copypasta to 0.6.1
+Bump x11-clipboard to 0.4.0
+Fix modifiers not getting released with XWayland
+Move renderer from alacritty_terminal to alacritty
+Fix excessive allocations in URL parser
+Fix paste on Wayland inserting empty lines
+Bump master to 0.4.1-dev
+Remove tests failing in release mode
+Bump glutin depedency
+Fix deletion of lines when clearing the screen
+Fix ESC escapes not ignoring invalid intermediates
+Fix cell reset not clearing flags and foreground
+Fix WinPTY freeze on termination
+Add reftest for line deletion
+Fix `CSI Ps M` deleting lines above cursor
+Fix division by zero without any cols or lines
+Fix mouse modes not being mutually exclusive
+Fix incorrect DPI at startup on X11
+Fix modifier inconsistencies
+Add escape for reading clipboard
+Add ref test for verifying colored clear behavior
+Fix URL scheme highlighting
+Add UTF-8 mouse mode support
+Fix incorrect cell foreground when clearing screen
+Fix URL highlighting
+Add live config reload for font family and style
+Fix wrong default cursor icon
+Fix clippy warnings
+Remove unused imports on Windows
+Fix message bar drawing over terminal after resize
+Fix sending chars with bind not clearing selection
+Fix visual bell rendering mode
+Fix bell not redrawing without event updates
+Fix setting persistent logging via CLI
+Update dependencies
+Fix unused import warning on macOS/Windows
+Fix XEmbed compilation error on 32-bit platforms
+Fix window title not filled by default
+Remove terminfo from deb package
+Bump winit version
+Revert "Disable depth and stencil buffers"
+Print launch command name on failure
+Add support for alternate scroll escape
+Fix logged config path separators on Windows
+Add support for title stack escape sequences
+Disable depth and stencil buffers
+Add libxcb-xfixes0-dev as travis dependency
+Add --hold CLI flag
+Remove automatic config generation
+Update to winit/glutin EventLoop 2.0
+Update VirtualKeyCode url in alacritty.yml
+Add live config reload for font size
+Concatenate parameters of title OSC
+Add `ReceiveChar` action for passing key's text
+Fix selection not inverting terminal background
+Fix cell opacity when color matches terminal bg
+Fix overflow on wrong scroll region setting
+Add Xembed support
+Remove outdated TODO/FIXME comments
+Initialize only visible characters
+Rework default bindings
+Remove code for setting _NET_WM_PID
+Fix bindings incorrectly getting replaced
+Fix empty block selection detection
+Replace uninitialized with MaybeUninit
+Bump minimum Rust version to 1.36.0
+Reset the Mouse Cursor While Selecting
+Update and dedupe parking_lot to 0.9
+Fix Wayland selection clipboard not storing text when stopping outside of window
+Fix legacy xparsecolor regression
+Fix url highlight not showing with required modifiers
+Fix legacy xparsecolor regression
+Fix url highlight not showing with required modifiers
+Fix style issues in zsh completions
+Add bold italic font support
+Add bold italic font support
+Follow zsh conventions in zsh completion
+Show text cursor when pressing shift in mouse mode
+Follow xparsecolor spec in escape sequences
+Update depedencies
+Fix clippy issues
+Fix smithay-clipboard integration
+Format code
+Ignore unsupported CSI sequences
+Fix multiple underlines/strikeouts on the same line
+Remove errno depedency
+Fix lines in last line not rendered when scrolled up
+Fix crash when hovering over message bar
+Move modifier check before URL search
+Switch to rfind_url for URL detection
+Remove color from log output
+Organize Readme OS list
+Bump minimum supported Rust version to 1.34.0
+Fix cursor flickering on url hover
+Update gl_generator to 0.13
+Fix double-click selecting trailing tab
+Fix copypasta README.md formatting
+Respect fontconfig's embeddedbitmap setting
+Fix NetBSD build failure
+Remove redundant use statement on macOS
+Override default bindings with subset mode match
+Query DirectWrite for the rendering mode to use
+Fix cursor color setting with escape sequence
+Fix row occ not set during new and reset
+Fix mouse move handling
+Change mouse cursor when hovering over the message bar
+Add class and short title completions
+Fix saving of ref tests
+Fix doc box drawing symbols
+Allow setting gtk variant and general class on X11
+Use Menlo as fallback font on macOS
+Suggest installing fish completions per-user
+Fix X11 clipboard hanging with mime set
+Fix rows only resetting partially
+Perform clear and buffer swap before showing window
+Fix first unfullscreen on fullscreen mode launched window
+Fix dependencies for Archlinux in INSTALL.md
+Fix performance issues with text reflow
+Update manual install instructions for Void Linux
+Fix inconsitent cursor position when scrolling
+Reorder and clearify the mouse/keybinding docs. (#2509)
+Add block selection
+Bump appdata to v0.3.3
+Fix redundant static lifetime clippy lint
+Fix ubuntu deployment
+Add Fedora Copr install instructions
+Unset DESKTOP_STARTUP_ID environment variable
+Bump version to 0.3.3
+Fix default fullscreen binding docs
+Fix default login shell documentation
+Add INSTALL.md note about OpenBSD user datasize limits
+Bump version to 0.3.3-rc2
+Bump smithay-clipboard dependency version
+Fix dynamic color escape response
+Remove reqwest dependency on Windows
+Add python 3 to OpenBSD dependencies
+Bump version to 0.3.3-rc1
+Fix dynamic multi-color escape codes
+Fix compiler warnings
+Add RPM spec for building in COPR
+Add wayland primary selection clipboard support
+Bump minimum supported Rust version to 1.32.0
+Fix ncurses backspace key
+Fix build without git
+Fix index out of bounds during selection
+Re-invert cursor when in selection
+Fix INSTALL.md relative windows/linux build link
+Add Gentoo install dependencies
+Fix INSTALL.md .deb instruction link
+Add foreground/background request escape codes
+Skip UTF-8 BOM when reading config file
+Add build instructions for Clear Linux
+Update license file path for cargo-deb 1.18.0
+Allow URLs to end with trailing slash
+Update Cargo.lock
+Fix URL detection matching invalid URLs
+Reenable macOS automatic graphics switching
+Fix message bar not updating PTY size on hide
+Fix cargo-deb license file path
+Add support for double-click bracket-pair selection
+Fix cursor only showing up over left half of wide characters
+Add linux Appstream packaging data
+Refactor config parsing files
+Add Ubuntu PPA install instructions
+Update dependencies
+Add NSSystemAdministrationUsageDescription to macOS manifest
+Fix empty clipboard freezing Alacritty on X11
+Add git hash to version string, and fix crate name (#2397)
+Update Fedora and Ubuntu/Debian dependencies
+Remove clipboard loading error logging
+Add libxcb-devel dependency to INSTALL.md for openSUSE
+Fix selection of double-width characters
+Fix mouse mode generate events without cell change
+Fix spelling mistakes
+Fix cargo-deb license file path
+Switch from copypasta to rust-clipboard
+Set _NET_WM_ICON on X11
+Fix double-width characters in URLs only highlighting halfway
+Split alacritty into a separate crates
+Fix position of zero-width over double-width characters
+Fix cursor disappearing
+Show same fg/bg text when inversed
+Fix message bar not updating PTY size
+Add fullscreen support
+Add DirectWrite font rasterizer
+Update wayland comment in README
+Bump version to 0.3.2
+Fix ConPTY panic
+Bump version to 0.3.1
+Fix hidden cursor inverting cell colors
+Improve errors for missing shell file on Windows
+Fix selection copying on Windows
+Fix cursor colors
+Fix cursor dimension style issues
+Fix cursor dimensions with font offset
+Update pty size when font size changed
+Fix update_lines performance issues
+Remove outdated comment line.
+Call TIOCSWINSZ only on grid change
+Fix duplicate resize events
+Fix macos subprocess execution
+Remove redundant closures and imports
+Add Pop!_OS to the list of supported Linux distros
+Switch 0.3.0 announcement link to https
+Fix Alacritty icon background on Windows
+Document URL launcher parameter options
+Document EGL driver dependency on Wayland
+Document VC++ redistributable requirement
+Document distro support for precompiled binaries
+Set maximum Rust version to 1.31.0
+Add 0.3.0 announcement blog to readme
+Remove duplicate changelog entry
+Reset scrolling region when receiving RIS escape
+Add ScrollLineUp and ScrollLineDown actions for scrolling line by line
+Bump version to 0.3.0
+Add new icon to macOS binary
+Fix warning about inconsistent types in shader
+Fix build errors on BSD
+Disable automatic graphics switching on macOS
+Fix .desktop path in snapcraft.yml
+Add icon to Linux .desktop file
+Upgrade to winapi 0.3.7
+Bump dependencies
+Fix BSD build failure
+Fix Windows deployment
+Add official logo
+Revert daemon removal
+Merge "Changed" sections in ChangeLog
+Add rustfmt style guide
+Rework URL highlighting
+Update --class docs
+Fix prompt jumping during reflow
+Disable URL highlight with URL launcher disabled
+Revert accidental deletion of change log entry
+Fix `start_maximized` option on X11
+Fix URL highlight crash
+Fix URL parsing with double-width characters
+Update extended-description for deb file
+Remove deprecated libc::daemon call
+Fix URLs getting incorrectly extended to next line
+Add URL hover highlighting
+Remove InclusiveRange code
+Add change log entry for Wayland title fix
+Add additional key bindings for changing font size
+Update Cargo.lock
+Fix invalid --working-dir string ptr for ConPTY
+Update glutin to version 0.20
+Add text reflow
+Add config option to change selection color
+Fix signal handling on Unix systems
+Add option for window position at startup
+Add support for SpawnNewInstance using linux compat on FreeBSD
+Add dynamic title support for Window
+Make start_daemon behaviour on Windows consistent with Unix
+Remove appveyor badge from readme
+Fix selection starting inside padding
+Fix terminfo support for extended capabilities
+Fix alt screen bugs
+Add additional key bindings
+Fix scrollback live reloading
+Add MSI installer for Windows
+Add install instructions for Chocolatey to readme
+Fix selection copying with mouse outside of window
+Fix panic on exit with ConPTY
+Small Updates to the README (#2091)
+Add early return to `received_char`
+Fix broken link in CONTRIBUTING.md
+Remove incorrect doc comment
+Update fish completion installation
+Bump version to 0.2.9
+ Fix font spacing error
+Remove deployment script from clippy builds
+Bump version to 0.2.8
+Fix dimensions CLI/manpage docs
+Change font size only when new metrics are valid
+Remove selections when clearing screen partially
+ Change shift+pgup/pgdown to scroll history
+Dynamically resize terminal for errors/warnings
+Fix unclickable URLs with scrolled viewport
+Set window title on Wayland
+Disable incremental for release builds
+Scale IME position by hidpi_factor
+Remove library lockfiles from git
+Simplify text shader
+Fix macOS config decorations doc
+Remove unused coordinate from rect shader
+ Fix regression in the URL launcher config
+Fix reloading with empty config
+Document that alacritty requires winpty-agent on windows
+Trim unicode characters from the start of URLs
+Add pkg-config to Debian dependencies
+Improve touchpad scrolling
+Update dependencies
+ Move clippy tests to stable
+Changed explicit script shebangs to use /usr/bin/env
+Fix off-by-one error in erase_chars
+Bump version to 0.2.7
+Fix crash on Windows (#2021)
+Remove Appveyor CI builds
+Bump version to 0.2.6
+Fix crash on macOS and BSD with SpawnNewInstance action
+Add config option to send or not send ESC when ALT-key is pressed
+Make all configuration fields optional
+Fix tabs overwriting cells during movement
+Add Solus install instructions to README
+Fix config documentation typo
+Fix CPU load when moving windows between monitors
+Fix crash when starting Alacritty on full drives
+Fix selection with right and middle mouse
+Fix macOS CI deployment script
+Fix minor issues in the config documentation
+Bump version to 0.2.5
+Normalize Log Message Strings
+Set minimum macOS version to 10.11
+Improve URL detection with special characters
+Limit number of URL schemes
+Fix removal of trailing URL characters
+Launch URLs only when left-clicking
+Add key/mouse action for spawning new Alacritty instances
+Fix double-triggering of mouse bindings
+Process Mouse Binding Actions Earlier
+Change default Windows shell to PowerShell
+Use default cursor instead of arrow in mouse mode
+Fix line metrics
+Fix underline interruption with empty cells
+Add support for Windows ConPTY API
+Fix Windows config location documontation
+Fix `create_rect` function documentation
+Update reqwest to 0.9
+Use mio-extras instead of mio-more
+Make windows config location more sensible
+Report Windows panics through MessageBox
+Add proper underline and strikeout support
+Expand snap description and remove comments
+Send alt key with actual key in one flush
+Add Mageia install instructions to README.md
+Add color option to visual bell
+Fixing tabs in copy-paste
+Update dependencies
+Add scoop install instructions for windows
+Ignore result on deregistering pty
+Fix color issues in ncurses programs
+Upgrade to Rust 2018
+Bump version to 0.2.4
+Fix rendering of zero-width characters
+Add a contributing.md file
+Change missing config log level to info
+Refactor Alacritty scripts
+Fix recording of ref tests
+Use tool lints for clippy allow/deny lint attributes
+Add docs for enabling system font smoothing on macOS
+Detach Child process to avoid zombie processes
+Remove sudo keyword from travis
+Launch a login shell by default on macOS
+Request user attention when bell received in macOS
+Add change log entries for macOS privacy requests
+Request OSX privacy permissions
+Fix for an underflow on some type conversions (#1715)
+Ignore initial size if the window is maximized on start
+Move winpty-sys dep to crates.io
+Add option for launching Alacritty maximized
+Changed path to standard /usr/bin/..., registered as an x-terminal-emulator alternative
+Add keybinding action for clearing warns/errors
+Remove `scale_with_dpi` setting from config
+Update filetime to v0.2.4
+Lower log level of warnings in ansi.rs
+Add NixOS install instructions to README.md
+Display errors and warnings
+Fix blurry fonts without dynamic padding
+Add option for dynamic padding (#1780)
+Document homebrew cask option for macOS installation
+Fix i386 CI releases
+Update all dependencies
+Move .deb building instructions to INSTALL.md
+Add change log entry for `scale_with_dpi` setting
+Bump lockfile
+Bump version to 0.2.3
+Fix specifying 0 lines/columns in config file
+Fix incorrect padding calculations
+Fix macos config bold font documentation
+Fix failing github releases
+Bump version number to v0.2.2
+Center the grid inside the window
+Set env variables before window start
+Remove re-export of glutin size types
+Upgrade Glutin to v0.19.0
+Fix grammatical errors in README
+Capitalization changes in README.md (#1757)
+Add automated i386 docker builds to travis
+Update readme to link to the github releases
+Fix clippy issues
+Fix windows tagged builds
+Publish Github releases from Travis
+Fix selection while scrolling
+Fix default hollow cursor behavior with empty conf
+Add Instructions for installing on FreeBSD
+Fix mouse pasting in mouse mode with shift
+Rework cursor configuration
+Update serde_yaml to 0.8
+ Add change log entry for configuration fix
+Sync .app bundle timestamp during build
+Fix deb build
+Update Windows configuration file
+Revert "Update Windows configuration file"
+Update Windows configuration file
+Add cargo workspace, add winpty tests to CI
+Explicitly detach from the console on exit
+Refactor platform-specific code
+Relax matching of URL modifiers
+Add official Gentoo package to install instructions
+Move gentoo install instructions, add windows to table of contents
+Fix change log entry for URL clicking
+Add option to open URLs on click
+Fix rotation of selection below 0
+Add support for rendering cursors to rusttype
+Attach to the console of the parent process on windows
+build(package): acquire latest winpty
+Fix appveyor badge link
+Allow the usage of scancodes in the config
+Add support for Windows (#1374)
+Add statusline capabilities to Terminfo
+Extract manual installation instructions
+fix erroneous indexed_color results
+Fix invalid default config
+Version 0.2.1
+Add additional documentation to "background_opacity" option
+Make the macOS bundle compatible osx 10.12
+Drop terminal lock before rendering
+Bump fontconfig dependencies
+Fix failing test with `bench` feature
+Fix rendering of selections outside the viewport
+Add note about package install on FreeBSD
+Fix deserialization of old decorations values
+Fix selection start point lagging behind cursor
+Fix selection of empty lines
+Implement CNL and CPL escape codes (#1590)
+Fix reset cursor terminfo escape
+Add standalone terminfo definition
+Dynamically initialize grid storage
+Allow copying selection to primary clipboard
+ Implement config option for term colors 16..256
+Fix mesa rendering outside window borders on wayland
+Unify configuration file structure
+Fix config error with missing decorations field
+Fix CHANGELOG.md
+Improve window.decorations options: (#1241)
+Update CHANGELOG for #1243
+Fix Bracketed Paste Mode when input contains end sequence. (#1243)
+Merge pull request #1573 from ChrisMacNaughton/patch-1
+Update snapcraft.yaml
+Add changelog entry for 32-bit fix
+Fix build failure on 32-bit machines
+Update core-* dependencies
+Show hollow cursor for windows starting unfocused
+Add hidden escape sequence
+Opt-in to macOS Mojave Dark Mode
+Mention required terminfo update when changing tabspaces
+Set upper limit for scrollback history size
+Fix style issues
+Add `fontconfig-devel` dependency for building on Void Linux
+Fix fish completion name in deb installer
+Give zsh completion file the correct name when installing with `cargo deb --install`
+Set COLORTERM variable to advertise 24-bit support
+Acknowledge first click on unfocused windows with bsd/linux
+Add mention of official arch linux package
+Add latest blog post to README
+Merge pull request #1147 from jwilm/scrollback
+Bump version in CHANGELOG
+Bump version number to 0.2.0 (#1492)
+Fix substraction underflow with IL sequence
+Remove redundant copy when selecting font_key
+Implement `ansi::ClearMode::Saved`
+Scroll visible area when growing window
+Update depend
+Update dependencies
+Reset visible area when RIS is received
+Remove "Why doesn't it support scrollback?" from FAQ
+Revert cargo-deb install back to use crates.io
+Enable LTO
+Change deb installation from crates.io to git
+Merge branch 'master' into scrollback
+Merge master into scrollback
+Fix trailing colors when leaving vim after resize
+Replace runtime debug assertions with static asserts on scrollback
+Ignore errors when logger can't write to output
+Fix clippy lints and run font tests on travis
+Add optional dim foreground color
+Switch to rustup clippy component
+Add binding action for hiding the window
+Add support for LCD-V pixel mode
+Send newline with NumpadEnter
+Allow specifying modifiers for mouse bindings
+Scrollback cleanup
+Switch from deprecated `std::env::home_dir` to `dirs::home_dir`
+Remove redundant dependency from deb build
+Fix 'cargo-deb' desktop file name
+Fix clone URL in deb install instructions
+Add bright foreground color option
+Add support for cursor shape escape sequence
+Add config for unfocused window cursor change
+Add `cargo deb` build instructions
+Disable scroll buffer for "alt" Grid
+Fix incorrect cell side in selection
+Replace debug asserts with static_assertions
+Remove outdated comment about NixOS
+Enable clippy in font/copypasta crates
+Fix scrollback accessing indices out of bounds
+Remove unnecessary clippy lint annotations
+Update manpage to document all CLI options
+Fix clippy issues
+Add opensuse zypper install method to readme
+Make compilation of binary a phony target
+Ignore mouse input if window is unfocused
+Change green implementation to use the macro
+Override dynamic_title when --title is specified
+Move to cargo clippy
+Optimize indexing of the grid's raw buffer
+Add Copy/Cut/Paste keys
+Reduce Increase-/DecreaseFontSize step to 0.5
+Add working --class and --title CLI parameters
+Allow disabling DPI scaling
+Allow changing scrollback history size at runtime
+Remove dead code
+Optimize Storage::swap
+Refactor Storage<T> to be a Vec<Row<T>> internally
+Fix issue with endless allocation loop
+Shave a few cycles off Grid::scroll_up
+Fix OOB index in grid::DisplayIter
+Optimize Row::reset
+Optimize Storage::swap_lines
+Truncate invisible lines before storing ref-tests
+Add documentation for `len` field on `Storage`
+Remove `push` from `Storage`
+Improve the resizing implementation
+fixup! Add assert to Row::grow
+Add assert to Row::grow
+Re-record grid_reset test
+Improve storage comparison algorithm
+Reduce size of ref tests
+Reset grid content when running `reset`
+Enable history comparison in ref-tests
+Reset grid when running `reset`
+Fix bright characters in first column
+Revert "Fix cursor not showing in first column"
+Compile on stable
+Fix order of lines after resize
+Fix scrollback history size 0 bug
+Add documentation to explain the process
+Fix cursor not showing in first column
+Fix BCE ref tests
+Fix selection tests
+Fix grid scroll tests
+Make tests compile again
+Rework auto-scrolling options
+Fix regression with scrolling regions
+Refactor `span_simple` selection
+Replace scrolling methods with enum
+Add scrollback hotkeys
+Fix selection starting in first cell
+Fix buggy selection when scrolling down
+Fix multi-line selection with single cell end
+Fix selection in scrollback
+Fix linux config default value
+Merge branch #1095
+Change config file to display the correct default
+Make normal scrolling line amount configurable
+Fix crash when selection leaves viewport
+Disable faux scrolling when shift is pressed
+Add faux_scrolling back to scrollback
+Provide correct default for scroll_history
+Add `failure_default` deserializer to `scroll_history`
+Fix 4+ line copying
+Disable LTO
+Add SCROLL_MULTIPLIER
+Support selections with scrolling buffer
+Move selection into Grid
+Style cleanup
+Fix scrolling backwards in tmux
+Make number of scrollback lines configurable
+Scroll to bottom on character received
+wip fix scroll_down
+Fir cursor not scrolling
+Add scrolling limit and update on grow lines
+checkpoint: very basic scrolling works
+wip scrollback
+Remove some unused impls
+Minor improvements
+WIP optimize scroll in region
+Use memcpy for resetting row contents
+Remove redundant selection::Region type
+Remove some unused methods and impls
+Eliminate ClearRegion trait
+Move grid Row and tests into submodules
+Back Grid with VecDeque
+Cleanup style
+Reduce debug level for release
+Update to glutin 0.16.0
+Fix typo in error message
+Fix locale_id for older versions of OS X (<= 10.11)
+handle older macOS versions
+macos: add check for valid locale
+remove commented out line
+Set $LANG env var using languageCode, countryCode
+Fix clippy lints
+Paste path into terminal when drag & dropping file
+Don't paste selection when in mouse mode
+Fix completion install instructions for Fish on macOS (#1237)
+macOS: fixes segfault on nightly
+alacritty: add support for OpenBSD.
+Oxford comma
+Fixed typos, alphabetical ordering
+add freeBSD on the top
+Fix typo
+Explicitly call log::set_max_level (Closes: #1201)
+Try to create window with different SRGB config when failed
+Switch meta key to alt instead of super
+Add modifiers to mouse events
+Fix clippy lints
+Rename button_state to prev_state for clarity
+Extend SGR and VT200 (normal) mouse support
+Enable SRGB (#1178)
+Prevent negative cell dimensions (#1181)
+Add completion install instructions for Fish
+Added -d & -e to fish completions
+Add fish shell completions
+Add centos missing dependency
+Add caret key
+Fix benchmarks
+Add shell completions and manpage
+Remove all instances of unwrap() from config
+Update arraydeque dependency
+Upgrade dependencies
+Fix heading for NixOS/Nixpkgs
+Add install instructions via cargo --git
+Add info about default configuration for macOS
+`starting` not `staring` (#1074)
+fix fallbacks in macos (#1099)
+Update core-text (#1061)
+Update lockfile
+Update dependencies
+Better character cell width with FreeType (#1029)
+Implement `reset_state` of Term struct (#1035)
+Update lockfile (#1031)
+Spawn alacritty window as invisible
+Update lockfile
+Expand key binding config documentation
+Make Mac app installation steps idempotent (#1015)
+Fix `ioctl` call failing on 32 bit architecture (#1011)
+Fix indexed color setting regression
+Revert #987 behavior on macos (#1007)
+Non-bracketed paste support for DOS CRLFs.
+Resolves #733.
+Honour working dir on linux (#987)
+Fix SGR mouse reporting
+Add clippy check to travis
+Improve ability of alacritty to deal with broken config
+Prevent font_size_modifier from sinking too low (#994)
+Pass ModifiersState to mouse_moved method too
+Pass ModifiersState to mouse input as whole
+Always clear selection
+Use default modifier state
+Fix failed tests
+Update mouse modifiers to only pass shift
+Enable shift+select in mouse mode
+Add support for set-clipboard. (#970)
+Address feedback
+Allow faux scroll amount configuration
+Add config option for faux scrollback
+Fix zombie children (#976)
+Refactor populate cursor, fix-wide-cursor (#762)
+Change mouse cursor on terminal mode change (#865)
+Adding dynamic_title property to configuration (#819)
+Fix stack overflow with too large glyphs
+Move custom cursor block on ft
+Use font_key provided with cursor glyphs
+Fix linux symbol size
+Remove the launcher and set the locale/current directory in alacritty (#879)
+Add box cursor to unfocused underline and beam
+Refactor darwin code
+Add custom box cursor for unfocused window
+Format cursor code and add documentation
+Add custom cursors for macos
+Add custom beam cursor
+Specify unicode code point explicitly
+Update comment to reference proper character
+Revert to old system for macos
+Add custom underline cursor
+Update glutin to v0.11
+Update euclid to v16
+Update bitflags to v1
+Update glutin to v0.10
+Update deps
+Update dependencies
+Assure that newlines are in selections (#777)
+Remove debug print
+Fix macOS fallbacks (#956)
+Remove built crate
+Update README.md for current state of macOS
+Add Void Linux to distrobutions with packages
+Style nits
+Adapt pixel-based scrolling behavior
+Fix faux scrolling for line-based touchpads
+Implement faux scrolling
+Share LoadGlyph implementations
+Change LoadGlyph in LoaderApi to match RenderApi
+Fix stack-overflow when creating a new atlas
+Use consistent config deprecation message style
+Deprecate config top-level dimensions and padding
+Update config files
+Move dimensions and padding into window section
+Add new window section to config
+Add borderless option to config files
+Add 'borderless' option
+Fix License link at the bottom of the readme (#933)
+On macOS when launching multiple times focus win (#941)
+Remove the launcher and set the locale/current directory in alacritty (#879)
+Add cursor style option (#928)
+clippy: do and don't pass some things by reference as suggested (needless_pass_by_value, needless_borrow).
+clippy: use is_empty() instead of  len() == 0 (warn(len_zero)).
+clippy: remove unneeded return statement (needless_return).
+clippy: string constants do not need to have static lifetime (const_static_lifetime).
+Cargo.lock: bump clippy from 0.0.164 to 0.0.174.
+clippy: fix if_not_else warning 'breaking' the build. Swap blocks and change to "==".
+commit some Cargo.lock changes that "cargo build" would do automatically
+Revert "Wait to display window until initialization is complete (#907)"
+Wait to display window until initialization is complete (#907)
+Remove outdated TASK.md (#906)
+Support more color escape codes (#757)
+Output more info for `--version` (#888)
+Fix typo and whitespace
+Style fixes
+Don't enforce window dimensions if configured with 0 columns or lines
+Add ref test for 855
+Run all ref tests
+Match LF behavior outside scroll region with urxvt
+Correct linefeed handling when scroll region set (#855)
+Fixed typo in README.md (#876)
+Support integer font size in config (#886)
+Link to FAQ when referencing it (#881)
+fix some typos in comments
+config_subsitute(): fix typo by renaming to config_substitute()
+set_urgent on mac throws a warning (#867)
+Fix stack overflow
+Change cursor from pointer to text (#778)
+Fix typo
+Rewrite err_println to eprintln introduced in Rust 1.19 (#799)
+Update README.md with more Wayland
+Set urgent WM flag on bell on X11 systems (#812)
+Fix solid background color opacity (#847)
+List all valid actions in config error message (#848)
+Update macOS icon with icon from #285 (#856)
+Add Function + Modifier keybindings (#853)
+Fix render issues on macOS (#845)
+Fix config reloading
+Fix default config reload value
+Use correct keyname for decreasing font size in MacOS  (#843)
+Drop nightly feature
+Fix memory leak from font resizing
+Implement user actions for font resize (#625)
+Fix resize behavior
+Support web notation for hex colors
+Add fontconfig instructions to Linux config
+Update servo-fontconfig-sys fork
+Scale all fonts based on device-pixel-ratio
+Support bitmap fonts
+Add support for env_logger
+FreeType rasterizer respects some fontconfig
+Improve glyph rasterization performance
+Remove unused macros
+Extend and improve FcPattern bindings
+Organize fontconfig wrappers
+Update Solus deps (#792)
+Revert "Update glutin & fix a few wayland issues (#815)"
+Update glutin & fix a few wayland issues (#815)
+centos/RHEL 7  build instructions added (#813)
+Add ref test for CSI REP
+implement ANSI CSI REP (Repeat)
+Use clippy = "*", update, and fix some warnings (#796)
+Log where config was loaded from
+Comment about duration arg to file watcher
+Reduce file watcher debounce period
+Update notify
+Update most remaining deps
+Update servo
+A (very) little english fixup... (#770)
+Fix #721: touchpad scrolling (#726)
+Remove invalid characters from default config files. (#769)
+Update README.md
+Change CLI live-config-reload options into flags
+Default to enabling live config reload
+Implement options to not start the config_monitor thread (#689)
+Fix reloading colors from config (#756)
+Add gentoo instructions. (#759)
+Add issue template
+Restore winit deps (#763)
+winit: 0.7.5 -> 0.7.6, glutin: 0.9.1 -> 0.9.2 (#761)
+Fix default config for home/end
+Fix newline + scroll region bug (#747)
+Fix panic when resizing
+Add background_opacity option to set terminal transparency (#331)
+Move rust dependency to the Prerequisites section (#724)
+Add rust to the list of Arch Linux dependencies
+Add ref test for 24-bit vim BCE
+Fix smcup/rmcup toggle bug
+Rename some variables for clarity
+Fix warnings on macOS
+Fix BCE issues affecting vim
+remove unused macros
+Read more from pty
+Support background and foreground color escape codes (#662)
+Don't panic when setting cursor visibility fails (#683)
+docs(): add instructions for mac apps (#688)
+font: update macOS core-text dependency to 6.1.0, fixes #685 (#692)
+README.md: add NixOS (#694)
+add support for X input method (#691)
+Use latest winit
+Implement and use ansi attribute CancelBold (#659)
+Update to latest Glutin/winit (#671)
+Canonicalize the config watching path (#672)
+Fix typo in rustdoc (#654)
+Add a long option for the command flag (-e) (#655)
+Revert "Reduce InstanceData footprint"
+Document binding keys to a `command` (#647)
+Reduce InstanceData footprint
+Add Solus instructions
+Use foreign-types from crates.io
+Update README
+Add dim color support
+Update vte dependency
+remove $SNAP variable inside snap environment
+Adding snapcraft.yaml
+Update tests for new Selection API
+Fix unnecessary redraws with active selection
+Implement semantic and line selection dragging
+Add dependency to FreeBSD-specific setup
+Fix bright inverse colors (#621)
+Implement 'backwards tab'
+Make Travis test alacritty on nightly Rust, but allow failures
+Use cursor cell template when handling 'CSI X' escape sequence
+Add support for Beam, Underline cursors
+changes osx fallback symbol font style
+macOS use system font fallback
+Fix selection when padding is present
+CI with the oldest known working version of rust
+avoid named field shorthand
+final core-graphics extensions moved upstream
+remove code that has been upstreamed
+updated some font deps
+avoid unused warning
+somewhat DRYer code for font loading
+Implement FocusIn/FocusOut reports (#589)
+Add config file as cli option (#576)
+Fixes font raster for mono, gray bitmaps (#590)
+Find and set $WINDOWID to X11 window ID (#586)
+Fix colors in macOS config
+Fix default color scheme
+Add script to apply a tilix colorscheme file. (#524)
+Add terminfo file supporting true color, italics
+Remove incorrect close (#552)
+Update dependencies
+Add support for running commands on key press (#566)
+Minor cleanup, style fix, dead code removal
+Add DrainResult enum
+Fix typo
+Ensure that the event loop thread cleanly exits on shutdown
+Fix #573. Ensure we don't write 0 bytes to pty
+Use debug! instead of println!
+Add Shift+PageUp and Shift+PageDown to default key bindings
+Add Ctrl+PageUp and Ctrl+PageDown to default key bindings
+Fix viewport_size.height calculation
+Fix Device Status reports
+Add support for Query Device Status
+Fix sign error in CoreText font rasterizer
+Fix bug in SizeInfo::contains_point
+Work around ICE
+Add window padding option
+Fix glyph offsets in cell
+Update build instructions about Homebrew Rust bug
+Remove old note about Mesa bug
+Fix whitespace in README
+Fix bug with tab rendering
+Combine FontOffset and GlyphOffset structs into Delta struct
+Add glyph offset option to user configuration
+Remove unnecessary size argument to metrics function
+Improve freetype metric usage
+Add script for spawning alacritty in CWD
+Support setting _NET_WM_PID in X11 environments
+Support insert mode
+Add limit check in scroll_up/down_relative
+Implement tab stop manipulation
+Add trailing semicolons to Categories and Actions
+Fix spelling of Categories
+Update TERM config comment
+Remove unused limit function
+Fix some bugs with resize
+Fix issue with back_color_erase
+Add more vttest ref tests
+Add reftest for vttest 2 scroll
+Pass scrolling region tests in vttest 2
+Partially add DECCOLM support
+Support DECOM (Origin Mode)
+Add CLI arg for setting working directory
+Fixes for vttest cursor movement screen 1
+Implement LF/NL
+Fix delete key binding for macOS
+Fix delete key binding
+Add ref test for tab rendering
+fix tabulation rendering
+Better error handling in event loop
+Fix hang on exit after child process failed
+Enable Shift + Insert to paste
+Do not replace $SHELL with --command option
+Update ref tests
+Add better printing for ref test failure
+Fix issue with htop rendering incorrectly
+Remap `Copy` and `Paste` to use `Shift + Control` instead of `Command`
+Add Action to desktop file
+Merge pull request #462 from brycefisher/cema-mac-app-tweaks
+Setup locale properly in new shell (thanks @casimir)
+(fix) Associates .desktop file with running process in Linux desktop OSes
+Remove LSEnvironment from info.plist
+Changes recommended by @mondras
+Fix launcher script
+Add LSEnvironment
+Add tiny wrapper to start from '$HOME'
+Add install target
+Updated Makefile to put binary in subdir
+Add Makefile and .app
+Ignore temp files
+Handle CSI command J3 (Clear saved lines)
+Handle OSC command '1' (Set Icon Name)
+Fix bug parsing OSC strings
+Add support for wide characters
+font::fc: Remove unneeded clone
+font::ft: misc style cleanup.
+Drop unnecessary unsafe on add_charset
+Switch over to using font_match everywhere.
+Rework font cache to cache on paths
+First pass of font fallback rendering
+Fix fc::Pattern::add_charset
+PoC find font with glyph
+Fix #447 - yml: mention `showkey -a` to get x sequence from key
+Add ref test for tab background highlighting
+Update cell to cursor template when adding a tab.
+Change cursor colors config to use text and cursor
+hide mouse cursor mac os
+Lazily reset `start_time` in VisualBell's `completed` method
+Document hide cursor when typing behaviour
+Fix cursor visibility when window lost focus
+Set cursor only when its visibility changes
+Add hide cursor when typing option
+Bump glutin
+Updates Glutin to proper handle dead keys
+use an empty cell as template when resizing grids
+Implement workaround for Mesa issue
+Add TERM config entry
+Add default Alt+Backspace keybinding
+Disable visual bell by default
+Handle OSC for setting indexed color values
+Move color list to Term struct
+Fix issue with cat /dev/urandom
+Update serde_yaml to 0.6.1
+Print YAML errors using Display
+Improvements to default config
+Add visual bell support
+Semantic Selection
+Add zsh tab completion ref test
+Implement clearing above cursor
+Fix zsh tab completion
+Configurable window dimensions
+Render underline on empty cells
+Send mouse wheel commands only if they're supported
+Add "Quit" action to allow exit on a Cmd-W or Cmd-Q
+Fix bug with restore cursor
+readme: Remove stray line
+Alacritty now compiles on stable Rust :tada:
+Fix bug introduced with save/restore patch
+Decouple input processing from Term
+Implement save/restore cursor position
+Fix bug with cursor colors and old config
+Load the primary clipboard when pasting
+Add Arch Linux package install instructions
+Update to serde 0.9 and serde-yaml 0.6.
+support for inverting the cursor or using colors
+Fix section headers in README
+Add support for -e argument
+Optimize glyph cache access
+Add Slackware section to README.md
+fix config file
+Implement argument passing in config
+Use clap as cli parser.
+Change to process::Command
+Remove debug_print! macros
+Return an error from logging::initialize
+Minor formatting fixes
+Changes to Logger logic
+Use the log-crate instead of printing to stdout
+Capture test output by default
+Remove line_wrap test
+Dynamically generate test harness
+ansi: Designate and invoke graphic character sets
+Merge pull request #336 from lukaslueg/patch-3
+Mention talk at Rust Meetup in README.md
+Mention our IRC channel in the README
+Use latest nightly on travis
+Remove unnecessary feature
+Update rustc-version
+Make it run on FreeBSD
+Cleanup getpwuid_r wrapper
+add suggestive fallback messages on unavailable fonts
+make thin stroke rendering configurable
+Merge pull request #298 from mbrumlow/line_wrap_test
+Adding test for line wrap.
+Proposal for line wrap - ^[[7h and ^[[7l (private)
+Fix bug where event loop could get stuck reading
+Add support for setting title from OSC
+Update README.md
+Merge pull request #268 from mbrumlow/urandom_panic
+Fix last panic with `cat /dev/urandom`
+Fixing panic on cat /dev/urandom
+Merge pull request #255 from igravious/patch-1
+Add another optional config path `$HOME/.alacritty.yml`
+Support config path `$XDG_CONFIG/alacritty.yml`
+Conform to XDG spec for configuration
+Update README.md
+Merge pull request #236 from tcrayford/print_glutin_events
+Remove some dead code
+Fix parsing of coalesced SGR attributes
+print glutin events if --print-events is passed
+Merge pull request #216 from mbrumlow/better_bounds_checking
+Merge pull request #224 from valarauca/master
+Enabled Rustc' Link Time Optimization
+Changes requested.
+Merge pull request #220 from mbrumlow/resize_fix
+Fixing resize crashes.
+Removing stale comment.
+Implementing line wrapping.
+Better bounds checking.
+Merge pull request #214 from lukaslueg/patch-2
+Update README.md
+Merge pull request #208 from nottombrown/patch-1
+Update README.md
+Merge pull request #198 from lukaslueg/patch-1
+Merge pull request #164 from mbrumlow/fix_bounds
+Update README.md
+Add instructions for VoidLInux in README.md
+Merge pull request #138 from honza/master
+Merge pull request #159 from jwilm/fix-intl-input
+Merge pull request #188 from coder543/patch-3
+Typo
+Change README.md to reflect the current compiler situation
+Avoid unwrap when determining proper shell to use
+Avoid unnecessary closure in a map call
+Add doc string to 'shell' config option
+Fixes a slew of bounds issues.
+Fix issue with some international inputs
+Merge pull request #131 from Manishearth/stable
+Clippy fixes!
+Add `nightly` feature, use for `unlikely` intrinsic
+Remove need for inclusive ranges
+Remove need for range_contains feature
+Replace need for drop_types_in_const with lazy_static
+Remove need for step_by feature
+Merge pull request #151 from dannydulai/master
+shift-tab key binding
+Add "shell" option to config
+Merge pull request #132 from tomwadley/xwayland-tip
+Add tip for running in XWayland
+Add blog post to README
+Merge pull request #115 from krig/opensuse
+Add installation instructions for openSUSE
+Make plugin feature optional
+Merge pull request #91 from coder543/master
+Merge pull request #92 from amikhalev/add-desktop-entry
+Merge pull request #86 from benmyles/master
+Reduced Desktop Entries heading size
+Added Alacritty.desktop file and instructions to README.md
+Merge branch 'master' of github.com:coder543/alacritty
+Handle invalid gotos more gracefully.
+Add README instruction for Fedora
+Fix panic when closing window
+Add default macOS config
+Write default config when not found
+Add README instruction for macOS config
+Emphasize pre-alpha in the README
+Add note about this release being pre-alpha
+Merge pull request #66 from pengowen123/master
+Merge pull request #60 from MagaTailor/master
+Handle EINTR in I/O loop
+Merge pull request #67 from rudism/window-name
+Added --title argument to set window title
+Add prerequisites for Arch Linux
+Merge pull request #59 from quininer/modsspace
+Fix ARM
+Fix ARM
+Allow key_binding have space
+Merge pull request #56 from durka/patch-1
+macOS: cmake is not required
+Draw the screen when Refresh event arrives
+Merge pull request #49 from FliegendeWurst/patch-1
+Fix typo in README
+Add note about forthcoming blog post
+Send correct character sequence with alt key
+Update README arrow keys FAQ
+Have default mouse and key bindings
+Fix scrolling with SGR mode
+Better error message when xclip is not available
+Real support for placing config in XDG_CONFIG_HOME
+Rework font loading
+Write README.md
+Fix rustc-version file
+Improve error handling for shader initialization
+Improve error handling for clipboard actions
+Add support for SGR mouse reporting
+Print nice error messages for font loading errors
+Propagate font rasterizer errors
+Add ffi-util crate and use in fontconfig wrapper
+Refactor FontConfig wrappers
+Improve RenderableCellsIter performance
+Add Default impl for Cell
+Fix pty read sometimes not triggering draw
+Fix some bugs with selections
+Implement clipboard store for x11 with xclip
+Add super hacky underline drawing
+Hopefully fix read not triggering draw
+Unify Cursor, Location and name it Point
+Add silver searcher ignore file
+Fix selection copy for long lines
+Minor cleanup in main()
+Fix bug with config reloading
+Implement copying selection for macOS
+Refactor bindings and fix binding tests
+Major cleanup for event handling
+Refactor input processing to take action context
+Implement copypasta::Store for macOS pasteboard
+Implement visual component of mouse selections
+Fix config reloading
+Remove dead code
+Misc formatting fixes
+Remove outdated and no longer correct doc
+Replace remaining use of `try!` with `?`
+Rustup and clippy
+Merge pull request #27 from quininer/ref_fish_cc
+add fish_cc ref
+Handle overflow in Term::move_backward
+Remove need for Rc<RefCell<_>> usage
+Fix a couple of compiler warnings
+Track terminal cells on mouse movement
+Update nightly pin on travis
+Implement mouse scrolling with line deltas
+Finish main.rs cleanup
+Display manages window, renderer, rasterizer
+Add run() function and document it
+Add display impl for Points<T>
+Cleaning up main; Added window module
+Move config path into Config type
+Cleanup cli option parsing
+Force drawing when config reloads
+Implement Handler::identify_terminal for Term
+Add comments in main loop
+Borrow glutin::Window instead of using Arc
+Refactor color list management
+Add support for indexed colors
+Rename RenderApi::render_grid() to render_cells()
+Add support for bracketed paste
+Move term::cell module to its own file
+Document a couple of methods
+Refactor cell selection out of renderer
+Refactor limit function
+Support trackpad scrolling
+Support normal mouse tracking mode
+Use checked subtraction for backspace
+Update to latest Rust
+Remove unnecessary slicing
+Add README.md
+Fix mouse bindings
+Fix glutin wayland
+Add a number of simple ref-tests
+Add support for recording/running ref tests
+Make bindings configurable from alacritty.yml
+Fix test for Cell layout
+Redraw screen on focus
+Fallback to received chars when no bindings
+Fix/add some keybindings
+Fix alacritty shutdown when shell exits on macOS
+Fix resize on macOS leaving screen blank
+Rustup
+Fix config file reloading on macOS
+Workaround for cutoff glyphs
+Update default config
+Support drawing bold test with bright colors
+Merge branch 'reload-colors'
+Set colors on CPU
+Dynamically update render_timer config
+Move config reloading to separate thread
+Live shader reloading is now a feature
+Move color indexing to vertex shader
+Expand cell::Color layout tests
+Fix some compiler warnings
+Add discriminant_value test for cell::Color
+Proof of concept live reloading for colors
+Add test exhibiting SIGBUS on my machine
+Make colors configurable from file
+Rustup and update dependencies
+Fix X11 WaitEventsIterator Busy Loop
+Implement blank character insertion
+Add script for creating flamegraph with perf
+Update cargo.lock with osx clipboard
+Implement copypasta::Load for macos::Clipboard
+Start implementing copypasta, a clipboard library
+Don't write v when pasting on macOS
+wip
+Clean up event_loop module
+Refactor EventLoop into event_loop module
+Resolve compiler warnings
+Fix bug with scrolling regions
+Use evented I/O for the pty
+Fix some compiler warnings
+Add unhandled `execute` log
+Fix missing `esc_dispatch` log
+Fix refresh bug
+Update VTE for OSC string fix
+Delete an extra space
+Make use of `unlikely` intrinsic
+Minor fixes
+rustup
+Rewrite ansi parser using vte crate
+Remove extra wait_events()
+Fix crash
+Implement delete_chars
+Fix resize not redrawing immediately
+Update deps and remove printlns
+Move rendering back to main thread
+Eliminate extra renders
+Update serde, glutin
+Separate input handling from rendering
+Scrolling v2
+Term [unimplemented] prints to stderr in release
+Term handles LineClearMode::{Left, All}
+Fix scrolling directions to match ansi doc
+Add Origin mode to parser
+Fix bug in input
+Fix corruption issue
+Fix tests
+Pin nightly compiler on travis
+Support bold/italic font rendering on Linux
+Support bold/italic font rendering on macOS
+Add support for CGContextSetFontSmoothingStyle
+Fix arrow keys on macOS
+Update Glutin to get Cocoa modifier keys
+Input expects modifier keys from Glutin
+Optimizations for `find /usr`
+Fix debug printing in ansi
+Add test for input
+Early return in input handling
+Switch to write_all in input handler
+Move debug macros to macros.rs
+Remove unnecessary calls in grid
+Fix tests in ansi
+Fix bug getting stuck in non-CSI escapes
+Add more debug printing
+Fix Control-H bug
+Fix bug in newline
+Fix bug rendering inverted cells
+Update to latest nightly
+Remove noisey printing on macOS
+Fix some compiler warnings
+Use "invert" cursor instead of drawing block
+Fix bug with scrolling regions
+Add some printing for unhandled non-CSI escapes
+Fix some debug printing in term
+Fix resizing on macOS
+Correctly handle Backspace and Delete
+Add support for application keypad mode
+Term::ansi::Handler methods use debug_println!
+Merge renderer and input handling threads
+Fix transpose bug with ansi goto
+Make ansi::Handler methods strongly typed
+Remove ansi::DebugHandler
+Make ansi::TermInfo strongly typed
+Move ::grid::index to ::index
+Remove now unused CursorExt
+Mark ansi::Handler methods for Term with #[inline]
+Grid API is now generic and strongly typed
+Move WriteNotifier type into input module
+Improve ergonomics of iterating on grid::Row
+Implement Term::erase_chars
+Fix sign error with scroll directions
+Improve pty reading and renderer synchronization
+Vendor upcoming Utf8Chars iterator from libstd
+Add config file
+Add license header to glsl files
+Add license headers to source files
+Fix resizing on macOS
+Implement terminal resizing
+Refactor Tty and Grid creation into Term::new
+Enable vsync
+Fix subpixel rendering for macOS
+Function keys send escape sequences
+Implement special input handling
+Fix bug handling ansi mode sequences
+Fix a few compiler warnings
+Cache cargo dependencies on travis
+Add macOS to CI matrix
+Add support for macOS
+Fix backspace
+Fix all trivial compiler warnings
+Sort some imports
+Make state updates and rendering event driven
+Fix shutdown deadlock
+Add support for scrolling regions
+Handle TEXT_CURSOR mode
+Only draw when terminal state has changed
+Parse a few more ansi terminal mode commands
+Handle pty char recv errors
+Add named thread for pty reader
+Unwrap some unhandled errors
+Add explicit bounds check when advancing cursor
+Tweak some Grid methods
+Fix bug where there were extra grid rows
+Terminal sets more attributes on grid Cells
+Fix escape bytes as input bug in ANSI parser
+Add support for drawing background colors
+Minor updates to terminal handling
+Update task list
+Handle SIGCHLD
+Support dynamic character loading
+Batching flushes on texture change
+Refactor Instanced Drawing to use Vertex Arrays
+Optimize Rendering with batched draw calls
+Add iterator methods to Grid and Row types
+Optimize rendering
+Add live-reload for shaders
+render: cleanup active_tex handling
+Move debug timer
+Use texture atlas for glyphs
+Refactor renderer functions out of main.rs
+Update Cargo dependencies
+Initial support for Terminal Emulation (woo!)
+Initial ANSI parser implementation
+Remove old debug "test"
+Add Summary of ANSI standards for ASCII terminals
+Implement tty::new()
+Add render time meter
+Correct sub-pixel font rendering with OpenGL
+Use subpixel font rendering
+Add a Grid
+Start tracking some tasks
+Rasterizer uses DPI from Glutin
+Font no longer hardcoded in get_glyph
+Fix compiler warnings
+Add support for multiple font faces in rasterizer
+Cleanup PackedVertex initialization
+Implement per vertex struct
+Organize buffer data into struct
+Fix some compiler warnings
+Move rendering stuff into renderer mod
+Abstract glyph rendering, poorly
+Bit of cleanup
+Use indexed drawing to draw quads
+Fragment shader supplies color correctly
+build rect describing glyph quad
+Add license
+Render the letter J
+Add test font for travis
+Implement very basic glyph rasterization
+implement list_fonts::list_families
+Add function for listing font names on linux
+Initialize new cargo binary project

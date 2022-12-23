@@ -1,0 +1,1991 @@
+Merge pull request #8635 from jekyll/add-3-9-1-stuff
+Merge pull request #8326 from jekyll/release-jekyll-3-9-0
+Merge pull request #7927 from AninditaBasu/patch-2
+Merge pull request #7905 from hteumeuleu/patch-1
+Merge pull request #7899 from iBug/patch-1
+Merge pull request #7848 from coliff/patch-3
+Merge pull request #7847 from coliff/patch-2
+Merge pull request #7795 from XhmikosR/patch-1
+Merge pull request #7736 from jekyll/386-release-notes-public
+Merge pull request #7737 from ashmaroli/move-auto-generated-to-source
+Merge pull request #7705 from ashmaroli/filter-dot-entries
+Merge pull request #7707 from ashmaroli/refactor-glob-include
+Merge pull request #7680 from bomberstudios/patch-1
+Merge pull request #7683 from fons-/patch-1
+Merge pull request #7560 from rosariopfernandes/patch-1
+Merge pull request #7558 from denismcdonald/patch-2
+Merge pull request #7470 from makmm/update-license-year
+Merge pull request #7457 from behrangsa/patch-1
+Merge pull request #7354 from jekyll/add-3.8.5-post
+Merge pull request #7336 from jekyll/docs/data-variables
+Merge pull request #7334 from ashmaroli/liquid-filters-template
+Merge pull request #7319 from jekyll/add-tidelift
+Merge pull request #7171 from ashmaroli/codeclimate-badges
+Merge pull request #7142 from monkeywithacupcake/patch-1
+Merge pull request #7143 from jekyll/sponsor
+Merge branch 'master' into sponsor
+Merge branch 'master' into sponsor
+Merge pull request #7141 from belhassen07/master
+Merge branch 'master' into master
+Merge pull request #7070 from chrisfinazzo/remove-gemnasium
+Merge branch 'master' into release-3.8.3
+Merge branch '3.8-stable' into master
+Merge branch '3.8-stable'
+Merge pull request #6995 from jekyll/oe-patch-1
+Merge branch 'master' into oe-patch-1
+Merge pull request #6993 from ashmaroli/revert-docs-liquified-link
+Merge branch '3.8-stable'
+Merge pull request #6928 from ashmaroli/troubleshooting-docs
+Merge pull request #6859 from EarthSchlange/patch-1
+Merge pull request #6846 from ashmaroli/variable-for-avatar
+Merge pull request #6840 from MarioCekic/patch-1
+Merge pull request #6538 from jekyll/pull/imageOptim
+Merge pull request #6635 from ashmaroli/page-inspect-patch
+Merge pull request #6595 from ashmaroli/shorter-log-key
+Merge pull request #6657 from m1guelpf/patch-1
+Merge branch 'ashmaroli-kramdown-warning-config'
+Merge pull request #6552 from ashmaroli/version-patch
+Merge pull request #6552 from ashmaroli/version-patch
+Merge pull request #6496 from jekyll/revert-6151-future-collection-liquid-test
+Merge pull request #6462 from jekyll/pull/post-3.6.2-released
+Merge pull request #6378 from jekyll/release-3-6-0
+Merge pull request #6327 from jekyll/fix-history
+Merge pull request #6320 from jekyll/add-CODEOWNERS
+Merge branch 'yajl-ruby-2-4-patch'
+Merge branch 'ashmaroli-ruby-2.4.0'
+Merge pull request #5989 from ashmaroli/fmt-fix
+Merge pull request #5961 from ashmaroli/cucumber-win-fix
+Merge pull request #5983 from DirtyF/ruby-2.1
+Merge pull request #5792 from jekyll/philosophy
+Merge pull request #5952 from tomjohnson1492/patch-19
+Merge branch 'master' into patch-19
+Merge pull request #5978 from jekyll/custom-404-tuts
+Merge pull request #5946 from ashmaroli/custom-404-tuts
+Merge pull request #5965 from Kivlov84/patch-2
+Merge pull request #5962 from Kivlov84/patch-1
+Merge pull request #5971 from tomjohnson1492/patch-21
+Merge pull request #5949 from lukebro/patch-1
+Merge pull request #5969 from jekyll/release-3.4.3
+Merge pull request #5957 from jekyll/pull/escape_colon
+Merge pull request #5966 from fulldecent/patch-1
+Merge pull request #5951 from tomjohnson1492/patch-18
+Merge pull request #5947 from ashmaroli/update-exclude-docs
+Merge pull request #5941 from jekyll/3.4.2.release.post
+Merge pull request #5903 from ashmaroli/about-no-includes
+Merge pull request #5925 from jekyll/backport-pr
+Merge pull request #5926 from jekyll/allow-releases-from-stable-branches
+Merge pull request #5934 from ashmaroli/appease-classifier
+Merge pull request #5820 from tomjohnson1492/patch-15
+Merge pull request #5927 from PedroLamas/patch-1
+Merge pull request #5930 from jekyll/release-3-4-1
+Merge pull request #5920 from jekyll/allow-brief-post-dates
+Merge pull request #5916 from jekylltools/master
+Merge pull request #5698 from tomjohnson1492/patch-12
+Merge pull request #5910 from infotexture/patch-1
+Merge pull request #5905 from Strangehill/patch-2
+Merge pull request #5900 from iBobik/patch-1
+Merge pull request #5891 from chunfeilung/patch-1
+Merge pull request #5887 from philnash/uri-escape-docs-update
+Merge pull request #5882 from felicianotech/posts-is-collection
+Merge pull request #5883 from ivanoats/fix-aerobatic-docs
+Merge pull request #5878 from jekyll/convertible-validate-permalink-emptiness-as-string
+Merge pull request #5880 from BlueberryFoxtrot/patch-3
+Merge branch 'master' into ruby-2.4.0
+Merge pull request #5834 from tomjohnson1492/patch-16
+Merge pull request #5860 from ashmaroli/exclude-patch
+Merge pull request #5871 from jekyll/static-file-drop
+Merge pull request #5876 from marcanuy/master
+Merge pull request #5858 from desiredpersona/patch-1
+Merge pull request #5837 from natebass/add-termux-troubleshooting
+Merge pull request #5842 from alfredmyers/patch-1
+Merge pull request #5835 from ashmaroli/rubocop-patch
+Merge branch 'master' into ruby-2.4.0
+Merge pull request #5827 from DirtyF/filters-links
+Merge pull request #5817 from DirtyF/pull/installation
+Merge pull request #4362 from jekyll/liquid-4
+Merge branch 'master' into release-3-4-0
+Merge pull request #5798 from DirtyF/bump-codeclimate-test-reporter
+Merge pull request #5822 from joelmeyerhamme/patch-1
+Merge pull request #5819 from arogachev/patch-1
+Merge pull request #5802 from ajaykarwal/master
+Merge pull request #5811 from nhoizey/patch-3
+Merge pull request #5690 from tomjohnson1492/patch-4
+Merge pull request #5815 from felicianotech/expand-ci-section
+Merge pull request #2 from DirtyF/expand-ci-section
+Merge pull request #5812 from jhabdas/jekyll-ga-generator
+Merge pull request #5810 from jhabdas/jekyll-money
+Merge pull request #5797 from DirtyF/bump-rdoc
+Merge pull request #5799 from sparanoid/patch-2
+Merge branch 'master' into patch-1
+Merge pull request #5736 from DirtyF/fix-broken-links
+Merge branch 'master' into fix-broken-links
+Merge pull request #5694 from tomjohnson1492/patch-8
+Merge pull request #5640 from jekyll/jekyll-utils-exec
+Merge pull request #5542 from ashmaroli/url-slash
+Merge pull request #5753 from DirtyF/docs-merge-categories
+Merge pull request #5780 from jekyll/dont-include-in-load-path-if-nil
+Merge pull request #5791 from DirtyF/fix-note
+Merge pull request #5784 from ashmaroli/bump-rvm
+Merge pull request #5312 from DirtyF/docs-usage-help
+Merge branch 'master' into docs-usage-help
+Merge pull request #5781 from DirtyF/bump-htmlproofer
+Merge pull request #5782 from DirtyF/bump-jemoji
+Merge pull request #5731 from zdroid/gcc-make
+Merge pull request #5691 from tomjohnson1492/patch-5
+Merge pull request #5767 from Crunch09/issue-5756
+Merge pull request #5779 from jekyll/fix-flaky-plugins-path-test
+Merge pull request #5768 from DirtyF/rubocop-47
+Merge pull request #5769 from diev/patch-1
+Merge pull request #5765 from jekyll/bump-rubocop
+Merge pull request #5764 from purplecarrot/patch-1
+Merge pull request #5750 from jekyll/no-implicit-conversion-of-nil-to-string
+Merge pull request #5758 from BlueberryFoxtrot/patch-2
+Merge pull request #5761 from jekyll/pull/consistent_comma
+Merge pull request #5744 from DirtyF/pull/docs-use-defaults
+Merge pull request #5752 from mpchadwick/jekyll-pre-commit
+Merge pull request #5621 from rogerogden/patch-1
+Merge branch 'master' into liquid-4
+Merge pull request #5746 from DirtyF/sort-gems
+Merge pull request #5748 from yoostk/minor-fix
+Merge branch 'master' into sort-gems
+Merge pull request #5725 from jekyll/pull/assert_nil
+Merge pull request #5745 from DirtyF/rubocop-autocorrect
+Merge branch 'master' into docs-usage-help
+Merge pull request #5473 from kentonh/patch-1
+Merge pull request #5740 from KAndrsn/patch-1
+Merge branch 'master' into fix-broken-links
+Merge pull request #5738 from Longwelwind/patch-1
+Merge pull request #5696 from tomjohnson1492/patch-11
+Merge pull request #5692 from tomjohnson1492/patch-6
+Merge pull request #5544 from jekyll/revert-5532-perma-docs
+Merge branch 'master' into revert-5532-perma-docs
+Merge pull request #5726 from jekyll/pull/remove-deprecated
+Merge branch 'master' into jekyll-utils-exec
+Merge pull request #5720 from oakstudios/add-unpublished-to-docs
+Merge pull request #5688 from muratayusuke/feature/jekyll-numbered-headings
+Merge branch 'master' of https://github.com/jekyll/jekyll into url-slash
+Merge pull request #5713 from jekyll/bump-license
+Merge pull request #5693 from tomjohnson1492/patch-7
+Merge branch 'master' into patch-7
+Merge pull request #5712 from yous/theme-license
+Merge pull request #5711 from Ch4s3/master
+Merge pull request #5683 from Nursen/patch-1
+Merge pull request #5705 from robcrocombe/robcrocombe-patch-1
+Merge pull request #5689 from tomjohnson1492/patch-3
+Merge pull request #5679 from jekyll/liquid-4-utils
+Merge pull request #5671 from DirtyF/rubocop-gemfile
+Merge pull request #5670 from DirtyF/bump-rake
+Merge pull request #5668 from kainjow/patch-1
+Merge pull request #5666 from DirtyF/rubocop-jekyll
+Merge pull request #5655 from ashmaroli/fontawesome-docs
+Merge pull request #5658 from idmit/patch-1
+Merge pull request #5657 from Kraymer/patch-1
+Merge pull request #5653 from kimbaudi/patch-1
+Merge pull request #5652 from jekyll/pull/assert_nil
+Merge pull request #5513 from thiagoarrais/5415-group_by_exp-filter
+Merge pull request #5612 from ashmaroli/win-tz
+Merge pull request #5643 from hugomd/master
+Merge pull request #5641 from daattali/patch-1
+Merge pull request #5632 from arogachev/patch-1
+Merge pull request #5614 from XhmikosR/patch-1
+Merge pull request #5611 from XhmikosR/https
+Merge pull request #5530 from XhmikosR/site-font-awesome
+Merge pull request #5609 from fene/fix-date-file-name
+Merge pull request #5384 from ashmaroli/theme-gem-feature
+Merge pull request #5573 from ashmaroli/directory-docs
+Merge pull request #5587 from happycollision/patch-1
+Merge pull request #5600 from mpchadwick/mpchadwick-patch-2
+Merge pull request #5608 from ashmaroli/clean-test-names
+Merge pull request #5605 from Lunderberg/master
+Merge pull request #5597 from thetimbanks/add_array_connector_param
+Merge pull request #5435 from alexmalik/github-pages-backticks
+Merge pull request #5592 from brainscript/patch-1
+Merge pull request #5582 from DirtyF/docs-windows
+Merge pull request #5572 from jekyll/fix-underscore-in-permalink
+Merge pull request #5571 from DirtyF/docs-github-pages
+Merge pull request #5464 from jekyll/allow-regular-windows-watchers
+Merge pull request #5570 from DirtyF/fix-pinboard-plugin-link
+Merge pull request #5559 from ryandesign/use-baseurl-before-link-tag
+Merge branch 'mattg-master'
+Merge branch 'spencerbyw-patch-3'
+Merge branch 'georgemandis-patch-1'
+Merge branch 'clorichel-patch-1'
+Merge pull request #5526 from ashmaroli/fix-win-tests
+Merge pull request #5546 from ashmaroli/win-cucumber
+Merge pull request #5564 from jekyll/vendor-bundle
+Merge pull request #5524 from fene/nomethoderror
+Merge pull request #5557 from 10by10pixel/patch-1
+Merge pull request #5536 from malaterre/patch-1
+Merge pull request #5540 from matthewdu/patch-1
+Merge pull request #5533 from crispgm/fix-link
+Merge pull request #5538 from DirtyF/script-proof
+Merge pull request #5532 from ashmaroli/perma-docs
+Merge pull request #5459 from jekyll/docs-folder
+Merge pull request #5466 from zdroid/patch-1
+Merge pull request #5519 from neudabei/patch-1
+Merge pull request #5512 from 5jt/patch-1
+Merge pull request #5457 from ashmaroli/dependency-template
+Merge pull request #5505 from fene/master
+Merge pull request #5511 from bksteiny/bksteiny-patch-1
+Merge pull request #5504 from baiyangcao/patch-2
+Merge pull request #5502 from DirtyF/docs-jekyll-hook-outdated
+Merge pull request #5495 from jekyll/pr/layouts-error
+Merge pull request #5496 from jekyll/pr/rubocop
+Merge pull request #5492 from tnhu/patch-2
+Merge pull request #5497 from kingscott/master
+Merge pull request #5494 from jekyll/pr/gsub
+Merge pull request #5479 from ashmaroli/test-script
+Merge pull request #5489 from ashmaroli/rubocop-fix
+Merge pull request #5491 from ashmaroli/patch-1
+Merge pull request #5472 from codethebeard/patch-1
+Merge pull request #5471 from chrisfinazzo/normalize-css-v5
+Merge pull request #5449 from DirtyF/docs-link-tag
+Merge pull request #5442 from jekyll/3-3-release-post
+Merge pull request #5456 from jekyll/revert-server-address-sig-change
+Merge pull request #5433 from ayastreb/5429-data-dir-with-period-in-name
+Merge pull request #5452 from danayel/change-yaml-list-link
+Merge pull request #4873 from mlocher/bug-post-url
+Merge pull request #5212 from eloyesp/fix-excerpt-link-finder
+Merge pull request #5256 from kwokfu/patch-1
+Merge pull request #5431 from Crunch09/update_url_in_dev_environment
+Merge pull request #5441 from mhw/patch-1
+Merge pull request #5264 from DirtyF/static-file-name
+Merge pull request #5411 from zdroid/patch-1
+Merge pull request #5410 from jekyll/pr/i18n-url-filters
+Merge pull request #5427 from jekyll/don-t-utime-if-symlink
+Merge pull request #5430 from Strangehill/patch-1
+Merge pull request #5412 from zdroid/editorconfig
+Merge pull request #5428 from ashmaroli/bundle2new
+Merge pull request #5157 from stevecheckoway/fix-hooks-priority-order
+Merge pull request #5210 from jekyll/node-must-die
+Merge pull request #5408 from ashmaroli/bundle2new
+Merge pull request #5413 from tf2manu994/patch-1
+Merge pull request #5416 from ashmaroli/win-tz
+Merge pull request #5325 from ashmaroli/gemspec-template-patch
+Merge pull request #5421 from crispgm/fix-logo
+Merge pull request #5420 from DirtyF/site_template
+Merge pull request #5405 from jekyll/relative_url_and_absolute_url
+Merge pull request #5403 from chrisfinazzo/macOS
+Merge remote-tracking branch 'jekyll/master' into patch-1
+Merge pull request #5402 from ashmaroli/jekyll-new-assets
+Merge pull request #5399 from jekyll/relative_url_and_absolute_url
+Merge pull request #5338 from ashmaroli/config-patch
+Merge pull request #5397 from jekyll/add-jekyll-menus
+Merge pull request #5389 from ashmaroli/cucumber-with-access
+Merge pull request #5375 from Nicop06/underscore_highlight
+Merge pull request #5376 from jonblatho/master
+Merge pull request #5380 from ethomson/coderay_deprecation
+Merge pull request #5237 from ashmaroli/bundle2new
+Merge pull request #5369 from MertcanGokgoz/patch-1
+Merge pull request #5364 from jekyll/themes-asset-folder
+Merge branch 'master' into themes-asset-folder
+Merge pull request #5381 from pathawks/pr/rubocop
+Merge pull request #5383 from ashmaroli/ruby-cucumber
+Merge pull request #5372 from kyleobrien/patch-1
+Merge pull request #5361 from DirtyF/patch-1
+Merge pull request #5199 from jeffkole/adds-linking-to-all-files
+Merge pull request #5347 from vohedge/patch-1
+Merge pull request #5326 from ashmaroli/gitignore-gem
+Merge pull request #5337 from jekyll/fix-convertible-5308
+Merge pull request #5316 from DirtyF/markdown--default-extension
+Merge pull request #5335 from DirtyF/copy-theme-files
+Merge branch 'jussikinnula-master'
+Merge pull request #5235 from jekyll/update-windows-detection-to-check-proc-version
+Merge pull request #5318 from ashmaroli/docs-themes-update
+Merge pull request #5334 from Crunch09/issue-5144
+Merge pull request #5320 from jrmessias/master
+Merge pull request #5308 from jekyll/rubocop-convertible
+Merge pull request #5224 from eduardoboucas/patch-1
+Merge pull request #5189 from jekyll/skip-theme-if-not-string
+Merge pull request #5045 from ayastreb/document-rubocop-fix
+Merge pull request #5295 from ashmaroli/script-default-site
+Merge pull request #5304 from crispgm/site-exclude
+Merge pull request #5280 from Anthony-Gaudino/documentation-hook-payload
+Merge pull request #5240 from XhmikosR/appveyor
+Merge pull request #5293 from crispgm/exclude-gemfile-in-config
+Merge pull request #5281 from Anthony-Gaudino/site-documentation-links
+Merge pull request #5294 from svachmic/patch-1
+Merge pull request #5262 from ashmaroli/highlighter
+Merge pull request #5291 from mertkahyaoglu/jekyll-admin-post
+Merge pull request #5286 from DirtyF/issue-template
+Merge pull request #5287 from ashmaroli/docs-fix
+Merge pull request #5273 from jekyll/affinity-teams-and-their-captains
+Merge pull request #5279 from DirtyF/document-profile-option
+Merge pull request #5272 from Anthony-Gaudino/site_install_command
+Merge pull request #5274 from DirtyF/document-lsi
+Merge pull request #5271 from cchorn/patch-2
+Merge pull request #5258 from ebabel-eu/patch-1
+Merge pull request #5249 from crispgm/fix-theme-highlight
+Merge pull request #5244 from mkasberg/master
+Merge pull request #5254 from pmarsceill/fix-logo-stretch
+Merge pull request #5239 from ashmaroli/colorize-embed
+Merge pull request #5221 from ashmaroli/mod-travis
+Merge pull request #5222 from stkent/patch-1
+Merge pull request #5226 from gerardorn/patch-1
+Merge pull request #5214 from DirtyF/fix-5213
+Merge pull request #5167 from Crunch09/plugin_manager_tests
+Merge branch 'DirtyF-doc-link-tag'
+Merge pull request #5205 from DirtyF/document-new-theme
+Merge pull request #5183 from nhoizey/patch-1
+Merge pull request #5196 from jekyll/site-template-jekyll-feed
+Merge pull request #5190 from shingo-nakanishi/master
+Merge pull request #5194 from nhoizey/patch-2
+Merge pull request #5180 from XhmikosR/patch-1
+Merge pull request #5185 from crispgm/doc-for-filters
+Merge pull request #5187 from jekyll/release-3-2-1
+Merge pull request #5188 from jekyll/default-site-read-from-local
+Merge pull request #5178 from jekyll/default-site-specify-gemfile
+Merge pull request #5168 from jekyll/change-quickstart
+Merge pull request #5164 from jekyll/fix-windows-error
+Merge pull request #5169 from DirtyF/change-quickstart
+Merge pull request #5154 from jekyll/build-the-site
+Merge branch 'master' into build-the-site
+Merge branch 'master' into build-the-site
+Merge pull request #5156 from jekyll/theme-source-fix
+Merge pull request #5177 from gep13/patch-1
+Merge pull request #5173 from danayel/patch-1
+Merge pull request #5152 from jekyll/theme-dir-regex-fix
+Merge pull request #5158 from jekyll/release-the-themes
+Merge pull request #5143 from adampetrie/jekyllrb-404
+Merge pull request #5150 from jekyll/add-excerpts
+Merge pull request #5140 from jekyll/3.2.0-release-post
+Merge pull request #5141 from jekyll/remove-example-from-theme
+Merge pull request #5138 from chrisfinazzo/note-about-fmt
+Merge pull request #5139 from cdubz/patch-1
+Merge pull request #5137 from jekyll/pull/fixes-for-rubocop-0-42
+Merge pull request #5135 from chrisfinazzo/baseurl-subcommand
+Merge pull request #4860 from pathawks/pr/where_exp
+Merge pull request #5127 from ayastreb/date-filter-fix
+Merge pull request #5129 from stevecheckoway/display-liquid-warnings
+Merge pull request #5131 from stevecheckoway/default-docs
+Merge pull request #5109 from mojavelinux/issue-4858
+Merge pull request #5118 from XhmikosR/site-valid-html
+Merge pull request #5122 from ayastreb/docs-fix
+Merge pull request #5123 from ayastreb/patch-1
+Merge pull request #5124 from crispgm/fix-ruby-style
+Merge pull request #5119 from XhmikosR/appveyor
+Merge pull request #5115 from XhmikosR/appveyor
+Merge pull request #5113 from XhmikosR/whitespace
+Merge pull request #5116 from XhmikosR/yml
+Merge pull request #5112 from XhmikosR/img-compression
+Merge pull request #5114 from XhmikosR/typo-fixes
+Merge pull request #5117 from spencerbyw/patch-1
+Merge pull request #5022 from ayastreb/collection
+Merge pull request #5106 from ayastreb/after_init_hook
+Merge pull request #5060 from stomar/stringify-overrides
+Merge pull request #5101 from crispgm/dev_to_integer_filter
+Merge pull request #5053 from stevecheckoway/strict-liquid
+Merge pull request #5042 from jekyll/fix-more-theme-things
+Merge pull request #5011 from jekyll/maintainer-docs
+Merge pull request #5100 from Crunch09/fix_activesupport_dependency
+Merge pull request #5097 from chrisfinazzo/jekyll-community
+Merge pull request #5069 from Crunch09/issue-2834
+Merge pull request #5098 from esasse/patch-1
+Merge pull request #5067 from jekyll/excerpt-drop-previous-doc
+Merge pull request #5096 from chrisfinazzo/update-normalize-css
+Merge pull request #5068 from stomar/example-com
+Merge pull request #5063 from ayastreb/extract-tag-name
+Merge pull request #5065 from stomar/fix-test
+Merge pull request #5056 from ayastreb/drop-fetch
+Merge pull request #5058 from synthecypher/patch-2
+Merge pull request #5054 from andrewmunsell/patch-1
+Merge pull request #5043 from alexivkin/master
+Merge pull request #5015 from jekyll/remove-jruby-and-ruby-head
+Merge branch 'master' into remove-jruby-and-ruby-head
+Merge pull request #5030 from ayastreb/document-stylefix
+Merge pull request #5031 from ayastreb/convertible-stylefix
+Merge pull request #5032 from ayastreb/renderer-stylefix
+Merge pull request #5024 from ayastreb/configuration
+Merge pull request #5025 from ayastreb/regenerator
+Merge pull request #5026 from ayastreb/utils
+Merge pull request #5027 from sondr3/add-plugin-generator-jekyllized
+Merge pull request #5019 from ayastreb/static_file
+Merge pull request #4922 from jekyll/jekyll-new-use-theme
+Merge pull request #5018 from DirtyF/rubocop-command
+Merge pull request #5017 from DirtyF/rubocop-exe
+Merge pull request #5014 from jekyll/exe
+Merge pull request #5009 from nasht00/master
+Merge pull request #4917 from pathawks/pr/normalize_whitespace
+Merge pull request #5012 from admhlt/update-liquid-links
+Merge pull request #4993 from ayastreb/filters
+Merge pull request #5010 from rvernica/patch-1
+Merge pull request #5006 from jbilinski/patch-1
+Merge pull request #4908 from jekyll/add-timing-cucumber
+Merge pull request #5000 from crispgm/master
+Merge pull request #5005 from jekyll/doctor-run-generate
+Merge pull request #4989 from chrisfinazzo/normalize-css-v4
+Merge pull request #4973 from ayastreb/site
+Merge pull request #4940 from DirtyF/feature-rubocop
+Merge pull request #4985 from chrisfinazzo/fix-broken-link
+Merge pull request #4979 from jekyll/percent_r
+Merge branch 'master' into percent_r
+Merge pull request #4980 from jekyll/gsoc-update
+Merge pull request #4976 from galopin/patch-1
+Merge pull request #4966 from floydpraveen/rubocop-compliant
+Merge pull request #4977 from jwillmer/patch-2
+Merge pull request #4962 from samdutton/patch-1
+Merge pull request #4959 from derekgottlieb/rubocop-theme-and-url
+Merge pull request #4956 from ayastreb/step_definitions
+Merge pull request #4953 from Crunch09/issue-4850
+Merge pull request #4975 from jwillmer/patch-1
+Merge pull request #4974 from ayastreb/frontmatter_defaults
+Merge pull request #4958 from pathawks/markdownify-to_s
+Merge pull request #4971 from alexcameron89/patch-1
+Merge branch 'pathawks-readers'
+Merge branch 'ayastreb-tags'
+Merge pull request #4948 from pathawks/drops
+Merge pull request #4931 from pathawks/converters
+Merge pull request #4933 from pathawks/liquid
+Merge pull request #4934 from pathawks/features
+Merge pull request #4947 from pathawks/rubocop/tests
+Merge pull request #4950 from pathawks/rubocop/entry_filter
+Merge pull request #4951 from pathawks/rubocop/stevenson
+Merge branch 'pathawks-rubocop/misc'
+Merge pull request #4949 from jekyll/fix-drop-rubocop-errors
+Merge branch 'master' into pathawks-fp/jsonify-drops
+Merge pull request #4944 from pathawks/fp/sort-includes
+Merge pull request #4943 from pathawks/fp/fix-layout-var-overflow
+Merge pull request #4942 from pathawks/fp/configuration-from-permalink-fix
+Merge branch 'pathawks-fp/ExcerptDrop'
+Merge pull request #4936 from pathawks/passing
+Merge pull request #4916 from brint/rubocop_cleaning
+Merge pull request #4848 from jekyll/new-theme-command
+Merge pull request #4903 from jehartzog/fix-pagination-docs
+Merge pull request #4902 from brint/rubocop_cleanup_tests
+Merge pull request #4888 from TheLucasMoore/Commands
+Merge pull request #4881 from ajhit406/master
+Merge pull request #4892 from derekgottlieb/rubocop-cleaner
+Merge pull request #4890 from dinamicoplus/patch-1
+Merge pull request #4849 from envygeeks/master
+Merge pull request #4887 from jekyll/pull/add-jekyll-tips
+Merge pull request #4886 from jekyll/enable-rubocop
+Merge pull request #4859 from jekyll/feature/allow-excludes-to-leave-the-insane-asylum
+Merge pull request #4863 from xHN35RQ/patch-1
+Merge pull request #4872 from mdxprograms/patch-1
+Merge pull request #4874 from git-no/master
+Merge pull request #4867 from dudepare/master
+Merge pull request #4857 from jekyll/fix/dont-rescue-load-error-for-bundler
+Merge pull request #4855 from jekyll/upgrade/update-colorator-to-1.0
+Merge pull request #4854 from jekyll/site-improvements
+Merge pull request #4847 from jekyll/3-0-5-release-post
+Merge pull request #4844 from ahanselka/formkeep
+Merge pull request #4710 from fenollp/safe-symlinks
+Merge pull request #4808 from jekyll/fix-collection-defaults-
+Merge pull request #4595 from jekyll/themes
+Merge pull request #4819 from jekyll/release-posts
+Merge branch 'master' into themes
+Merge pull request #4792 from jekyll/feature/globalize-filters
+Merge pull request #4793 from sl4m/change-example-domain-url
+Merge pull request #4799 from vwochnik/patch-1
+Merge pull request #4804 from henrywright/patch-1
+Merge pull request #4754 from lexoyo/patch-1
+Merge pull request #4813 from joshaidan/patch-1
+Merge pull request #4786 from jekyll/convertible-use-doc-frontmatter-regexp
+Merge pull request #4789 from duksis/master
+Merge pull request #4734 from nsgonultas/master
+Merge pull request #4478 from edgemaster/where-exp
+Merge pull request #4769 from lorentrogers/lr/update_collection_docs
+Merge pull request #4771 from menatankush/patch-1
+Merge pull request #4775 from KrzysiekJ/jekyll-i18n_tags
+Merge pull request #4781 from kevee/docs-data-file-format
+Merge pull request #4756 from keegoid/master
+Merge pull request #4760 from clarkwinkelmann/patch-2
+Merge pull request #4741 from jekyll/sortable-doc-drop
+Merge pull request #4763 from shengbinmeng/patch-1
+Merge pull request #4758 from nscyclone/typo-in-contributing.md
+Merge pull request #4759 from clarkwinkelmann/patch-1
+Merge pull request #4755 from awood/master
+Merge pull request #4750 from SuriyaaKudoIsc/patch-23
+Merge pull request #4751 from SuriyaaKudoIsc/patch-24
+Merge pull request #4717 from jekyll/cleanup-launch-browser
+Merge pull request #4537 from Crunch09/fix-warnings
+Merge pull request #4720 from jekyll/feature/upgrade-rake
+Merge remote-tracking branch 'origin/master' into themes
+Merge pull request #4703 from jekyll/after_init_hook
+Merge pull request #4712 from chrisfinazzo/highlight-code-samples
+Merge pull request #4640 from surrim/symlink_static_files
+Merge pull request #3849 from shinkondo/master
+Merge pull request #4624 from jeffkole/feature/add-collection-url-tag
+Merge pull request #4704 from jekyll/parkr-patch-1
+Merge pull request #4706 from yordis/patch-1
+Merge pull request #4542 from jekyll/jekyll-new-with-gemfile
+Merge remote-tracking branch 'upstream/master'
+Merge pull request #4533 from hgoodman/feature/show-dir-listing
+Merge pull request #4700 from KrzysiekJ/jekyll-paspagon-plugin
+Merge pull request #4694 from pathawks/pr/xml_escape
+Merge pull request #4699 from chrisfinazzo/fix-resources-url
+Merge pull request #4686 from yanisvieilly/patch-1
+Merge pull request #4491 from jekyll/ignore-tilde
+Merge pull request #4685 from smacz42/master
+Merge pull request #4682 from DirtyF/patch-1
+Merge pull request #4670 from jekyll/clean-up-post-url
+Merge pull request #4658 from SuriyaaKudoIsc/patch-20
+Merge pull request #4659 from SuriyaaKudoIsc/patch-21
+Merge pull request #4660 from SuriyaaKudoIsc/patch-22
+Merge pull request #4647 from gesa/fix-templates-doc
+Merge pull request #4655 from spudowiar/themes
+Merge pull request #4654 from spudowiar/themes
+Merge branch 'master' into themes
+Merge pull request #4653 from mlinksva/patch-2
+Merge pull request #4652 from jekyll/clean-sass-cache
+Merge pull request #4645 from jekyll/affinity-teams-post
+Merge pull request #4646 from jekyll/avatar-fix
+Merge pull request #4596 from jekyll/contributing-refresh
+Merge pull request #4628 from mejackreed/travis-sudo
+Merge pull request #4555 from timwis/patch-1
+Merge pull request #4639 from anthonyjsmith/patch-1
+Merge pull request #4636 from HugoGiraudel/patch-4
+Merge pull request #4558 from zandaleph/log-future
+Merge pull request #4641 from alexpls/patch-1
+Merge branch 'master' into themes
+Merge pull request #4635 from HugoGiraudel/patch-3
+Merge pull request #4630 from dvonlehman/patch-1
+Merge pull request #4637 from HugoGiraudel/patch-5
+Merge pull request #4633 from HugoGiraudel/patch-1
+Merge pull request #4601 from jekyll/copy-better
+Merge branch 'copy-better' of https://github.com/jekyll/jekyll into copy-better
+Merge branch 'master' into copy-better
+Merge pull request #4620 from jeffkole/fix/clear-related-posts-for-non-post-pages
+Merge pull request #4621 from eug/patch-1
+Merge pull request #4618 from spudowiar/fix-test-state-leakage
+Merge pull request #4590 from tonyg/pr4582
+Merge pull request #4557 from timwis/patch-2
+Merge pull request #4602 from mlinksva/patch-1
+Merge pull request #4611 from jekyll/draft-time-source-mtime
+Merge pull request #4599 from SuriyaaKudoIsc/patch-18
+Merge pull request #4545 from jekyll/allow-no-extensions-coll-docs
+Merge pull request #4606 from yous/escape-template
+Merge pull request #4597 from mlinksva/patch-1
+Merge pull request #4583 from SuriyaaKudoIsc/patch-8
+Merge pull request #4589 from SuriyaaKudoIsc/patch-14
+Merge pull request #4591 from SuriyaaKudoIsc/patch-15
+Merge pull request #4592 from SuriyaaKudoIsc/patch-16
+Merge pull request #4594 from SuriyaaKudoIsc/patch-17
+Merge pull request #4566 from chrisfinazzo/add-https-urls
+Merge pull request #4559 from SuriyaaKudoIsc/patch-4
+Merge pull request #4561 from SuriyaaKudoIsc/patch-6
+Merge pull request #4562 from SuriyaaKudoIsc/patch-7
+Merge pull request #4554 from jekyll/google-site-verification
+Merge pull request #4553 from jekyll/site-improvements
+Merge pull request #4547 from jekyll/3.1.2
+Merge pull request #4546 from jekyll/slash-equals-html
+Merge pull request #4543 from frenchie4111/master
+Merge pull request #4535 from jekyll/issue-template
+Merge pull request #4522 from bojanland/patch-1
+Merge pull request #4526 from toshimaru/jekyll-tagging-related_posts
+Merge pull request #4525 from atomicules/capitalize-in-titleize
+Merge pull request #4512 from chrisfinazzo/grammar
+Merge pull request #4514 from Crunch09/bump_cucumber
+Merge pull request #4517 from juusaw/patch-1
+Merge pull request #4505 from lonnen/fixup-deprecated-help-string
+Merge pull request #4502 from cash/cash-patch-1
+Merge pull request #4492 from jekyll/handle-tilde-in-sanitization
+Merge pull request #4374 from fusion809/patch-1
+Merge pull request #4496 from demidovakatya/patch-1
+Merge pull request #4487 from pra85/patch-1
+Merge pull request #4485 from jekyll/parkr-future-dates
+Merge pull request #4484 from jekyll/help-upgrading-plz
+Merge pull request #4473 from manabusakai/fix-typo
+Merge pull request #4460 from CGarces/patch-1
+Merge pull request #4461 from MiteshNinja/patch-1
+Merge pull request #4459 from rbrtmrtn/patch-1
+Merge pull request #4465 from chrisfinazzo/remove-broken-plugin-link
+Merge pull request #4463 from nhoizey/patch-2
+Merge pull request #4464 from chrisfinazzo/remove-old-rebuild-flag-from-htmlproof
+Merge pull request #4455 from daattali/patch-2
+Merge pull request #4452 from jekyll/set-linenumbers
+Merge pull request #4428 from jekyll/bug/make-config-symbol-accessible
+Merge pull request #4437 from pathawks/rubocop.yml
+Merge pull request #4436 from d2s/d2s-site-linkfix
+Merge pull request #4434 from chris72205/master
+Merge pull request #4410 from michaellee/patch-1
+Merge pull request #4429 from toshimaru/jekyll-toc
+Merge pull request #4424 from SuriyaaKudoIsc/patch-1
+Merge pull request #4423 from jekyll/release-3-1-1
+Merge pull request #4404 from jekyll/bom-it
+Merge pull request #4419 from chrisfinazzo/punctuation
+Merge pull request #4422 from kpym/patch-1
+Merge pull request #4409 from alfredxing/fix-test-stdout
+Merge pull request #4403 from jekyll/page.dir-must-have-slash
+Merge pull request #4402 from davidcelis/update-code-of-conduct
+Merge pull request #4401 from jekyll/fix-documents-with-permalink-with-slash
+Merge branch 'master' of github.com:jekyll/jekyll
+Merge pull request #4394 from j26design/patch-1
+Merge pull request #4195 from jekyll/pull/cleanup-document__post_read
+Merge pull request #4388 from jekyll/fix-page.class-access
+Merge remote-tracking branch 'origin/pull/cleanup-document__post_read' into pull/cleanup-document__post_read
+Merge pull request #4389 from zsyed91/refactor_page_permalink
+Merge pull request #4390 from contentful/contentful/add-contentful-to-docs
+Merge pull request #4380 from jekyll/cherry-pick-4378
+Merge pull request #4382 from jekyll/3.0.2-release
+Merge pull request #4376 from pathawks/detach
+Merge pull request #4377 from liambowers/master
+Merge pull request #4373 from jekyll/page-as-renderable
+Merge pull request #4364 from jekyll/jmcglone-github-pages-guide
+Merge pull request #4361 from jekyll/pheuko-empty-permalink
+Merge pull request #4359 from jekyll/optimize-drop
+Merge pull request #4350 from jekyll/pr/cleanup-gemfile
+Merge pull request #4349 from pathawks/fixme
+Merge pull request #4347 from jekyll/rearrange-cucumber-add-flair
+Merge pull request #4343 from jekyll/pr/cucumber-rspec-expec-jruby-support
+Merge pull request #4344 from alexjbest/patch-1
+Merge pull request #4338 from jekyll/pr/add-script-travis
+Merge pull request #4342 from jekyll/pr/remove-objectspace-and-use-inherited
+Merge pull request #4340 from jekyll/pr/implement-codeclimate-platform
+Merge pull request #4341 from jekyll/pr/remove-script-rebund
+Merge pull request #4335 from jekyll/revert-4318-pull/cleanup-gemfile
+Merge pull request #4314 from jekyll/allow-custom-php-extensions
+Merge pull request #4333 from pathawks/smartypants
+Merge pull request #4323 from pathawks/smartypants
+Merge pull request #4330 from motlin/patch-2
+Merge pull request #4329 from motlin/patch-1
+Merge pull request #4318 from jekyll/pull/cleanup-gemfile
+Merge pull request #4319 from jekyll/pull/remove-rake-analysis
+Merge pull request #4322 from splattael/fix-spelling
+Merge pull request #4254 from jekyll/shim-docs-import-with-nudge
+Merge pull request #4307 from fulldecent/patch-1
+Merge pull request #4290 from jekyll/deal-with-extraneous-spaces
+Merge pull request #4296 from kakoma/master
+Merge pull request #4312 from jekyll/fix-layout-metadata
+Merge pull request #4311 from jekyll/use-drop-hash-accessor
+Merge pull request #4301 from pathawks/rubocop
+Merge pull request #4303 from alistaircom/patch-1
+Merge pull request #4305 from Atul9/master
+Merge pull request #4293 from alfredxing/incremental-docs
+Merge pull request #4299 from pathawks/jekyll-commonmark
+Merge pull request #1 from kakoma/kakoma-patch-1
+Merge pull request #4292 from jekyll/pull/fix-liquid-drop-requires
+Merge pull request #4289 from jekyll/fix-utils-deep-merge-drops
+Merge branch 'fixup-custom-markdown'
+Merge pull request #4281 from jekyll/drop-to_h
+Merge pull request #4288 from pathawks/calling-setter
+Merge pull request #4285 from jekyll/drop-refactor
+Merge pull request #4286 from wildlyinaccurate/patch-1
+Merge pull request #4282 from leethomas/refactor-rake-tasks
+Merge pull request #4277 from jekyll/document-drops
+Merge pull request #4273 from midnightSuyama/add_plugin
+Merge pull request #4275 from plaindocs/master
+Merge pull request #4263 from qrush/doctor-to-jekyll
+Merge branch 'akoeplinger-doctor-permalink-same-case-warning'
+Merge pull request #4259 from itsdn/patch-1
+Merge pull request #4255 from ofalvai/patch-1
+Merge pull request #4048 from chrisfinazzo/grammar-fixes
+Merge pull request #4052 from Crunch09/process-empty-config-files
+Merge pull request #4184 from ducktyper/allow-quoted-dates
+Merge pull request #4251 from mneumegen/mneumegen-draft-post-docs
+Merge pull request #4249 from brioscaibriste/patch-1
+Merge pull request #4244 from r00k/patch-2
+Merge pull request #4243 from r00k/patch-1
+Merge pull request #4233 from RochesterinNYC/patch-1
+Merge pull request #4231 from jekyll/pull/add-default-charset-to-webrick-cleanup-servlet
+Merge pull request #4228 from jekyll/pull/fix-file-edge-servlet
+Merge pull request #4223 from jekyll/pull/sample-filter
+Merge pull request #4224 from jekyll/pull/cleanup-and-modernize-serve-cmd
+Merge pull request #4220 from jekyll/pull/enable-codeclimate-platform
+Merge pull request #4109 from jekyll/cleanup-kramdown-converter
+Merge pull request #4210 from DavidBurela/patch-1
+Merge pull request #4150 from ducktyper/master
+Merge pull request #4205 from jekyll/pull/fix-layout-vs-page-data
+Merge pull request #4200 from jekyll/pull/prevent-shell-injection
+Merge pull request #4190 from nielsenramon/nr-add-kickster
+Merge pull request #4144 from friedenberg/master
+Merge pull request #4183 from rebornix/MultiVariableInclude
+Merge pull request #4154 from napcae/patch-1
+Merge pull request #4181 from jekyll/bump-cucumber
+Merge pull request #4160 from jekyll/fix-html-htm-xhtml-pages
+Merge pull request #4180 from untra/fix/#4178
+Merge pull request #4179 from vwochnik/patch-1
+Merge pull request #4174 from gfxmonk/master
+Merge pull request #4169 from vwochnik/patch-1
+Merge pull request #4168 from jekyll/pr/cleanup-url-sanitize
+Merge pull request #4157 from jekyll/upgrading-to-3.0
+Merge pull request #4163 from paulrobertlloyd/master
+Merge pull request #4120 from rebornix/CacheIncludeTemplate
+Merge pull request #4152 from jekyll/jekyll-docs
+Merge pull request #4100 from rebornix/master
+Merge pull request #4140 from krockgardin/patch-1
+Merge pull request #4142 from Lewiscowles1986/patch-3
+Merge pull request #4137 from Lewiscowles1986/patch-3
+Merge pull request #4134 from vwochnik/patch-1
+Merge pull request #4130 from nicolewhite/patch-1
+Merge pull request #4128 from larryfox/remove-post-autoload
+Merge pull request #4125 from jordanthornquest/remove-deleted-blog-post
+Merge pull request #4114 from chrisfinazzo/fix-deprecation-warning
+Merge pull request #4110 from jekyll/subdirectories-arent-categories
+Merge pull request #4111 from lawmurray/master
+Merge pull request #4104 from willnorris/fix-hooks
+Merge pull request #4101 from ursooperduper/update-templates-doc-with-gist-info
+Merge pull request #4090 from paulrobertlloyd/3371-kramdown-highlight
+Merge pull request #4091 from jekyll/skip-cucumber-on-jruby
+Merge pull request #4086 from XhmikosR/site-font-awesome
+Merge pull request #4087 from XhmikosR/master
+Merge pull request #4085 from XhmikosR/site-normalizecss
+Merge pull request #4079 from jekyll/fix-jekyll-metdata-being-generated-on-non-incremental
+Merge pull request #4077 from jekyll/fix_render
+Merge pull request #4078 from jekyll/fix-test-warnings
+Merge pull request #4063 from jekyll/3-0-release-post
+Merge pull request #4062 from jekyll/allow-excerpt-to-live
+Merge pull request #4060 from jekyll/fix-post-url-deprecation-warning
+Merge pull request #4059 from alfredxing/disable-incremental-default
+Merge pull request #4058 from jekyll/method_missing_madness
+Merge pull request #4053 from sparanoid/patch-1
+Merge pull request #4055 from jekyll/beefer-collections
+Merge pull request #4050 from alfredxing/default-font-weight
+Merge pull request #4049 from BigBlueHat/icon-refactor
+Merge pull request #4046 from chrisfinazzo/style-the-test-code
+Merge pull request #4032 from jekyll/refactor-cleaner-for-expressiveness
+Merge pull request #4035 from jaybe-jekyll/patch-2
+Merge pull request #4034 from jaybe-jekyll/patch-1
+Merge pull request #4033 from jekyll/ignore-more-bundler-directories
+Merge pull request #4004 from kevinoid/excerpt-match-post-content
+Merge pull request #4029 from MonsieurV/patch-1
+Merge pull request #4022 from chrisfinazzo/fix-the-typos
+Merge pull request #4018 from mudpuddle/alternative-instructions-for-el-capitan
+Merge pull request #4021 from stomar/fix-indentation
+Merge pull request #4013 from antonk52/patch-1
+Merge pull request #4015 from takuti/new-plugin-link
+Merge pull request #3999 from chrisfinazzo/instructions-for-el-capitan
+Merge pull request #4001 from hartmel/master
+Merge pull request #3997 from d9n/master
+Merge pull request #3992 from jekyll/abort-before-confusing-msg
+Merge pull request #3994 from arthurhammer/patch-1
+Merge pull request #3990 from pheuko/permalink-timestamp
+Merge pull request #3989 from tomjohnson1492/patch-1
+Merge pull request #3917 from leo/patch-1
+Merge pull request #3966 from webchef/patch-1
+Merge pull request #3828 from superlukas/fix-clean-command
+Merge pull request #3736 from jekyll/jekyll-feed
+Merge branch 'master' into jekyll-feed
+Merge pull request #3769 from chrisfinazzo/install-docs
+Merge pull request #3950 from nyufac/master
+Merge pull request #3948 from julienbourdeau/julienbourdeau-patch-1
+Merge pull request #3935 from jekyll/filter-where-to_s
+Merge pull request #3931 from dommmel/patch-1
+Merge pull request #3933 from jekyll/vendor-mime-types
+Merge pull request #3871 from stevecrozz/3870_hook_trigger_interface_change
+Merge pull request #3925 from jekyll/code-of-conduct
+Merge pull request #3918 from gangsthub/patch-2
+Merge branch 'fniephaus-_includes' into 'master'
+Merge branch 'master' of https://github.com/jekyll/jekyll into _includes
+Merge pull request #3897 from vlajos/typofixes-vlajos-20150807
+Merge pull request #3895 from jekyll/update-contrib
+Merge pull request #3894 from nateberkopec/change-contributing-md
+Merge pull request #3820 from chrisfinazzo/configuration-docs
+Merge pull request #3852 from jekyll/reorganize-gemfile
+Merge pull request #3865 from mushishi78/static-publisher-documentation
+Merge pull request #3880 from probins/patch-1
+Merge pull request #3883 from codeinpink/patch-1
+Merge pull request #3787 from TWiStErRob/hl_lines
+Merge pull request #3848 from vitalyrepin/patch-1
+Merge pull request #3838 from gynter/issue-3836
+Merge pull request #3858 from AJ-Acevedo/shebang
+Merge pull request #3853 from jekyll/update-kramdown
+Merge pull request #3845 from fw42/fix_binread
+Merge pull request #3837 from jensechu/master
+Merge pull request #3823 from 18F/adapt-static-file
+Merge pull request #3818 from mgiuffrida/patch-2
+Merge pull request #3811 from fw42/bubble_up_liquid_exceptions
+Merge pull request #3795 from jekyll/update-dependencies
+Merge pull request #3762 from fw42/liquid_profiler
+Merge pull request #3779 from jekyll/move-highlight-div-to-figure
+Merge pull request #3763 from tasken/patch-1
+Merge pull request #3767 from cpicanco/patch-2
+Merge pull request #3732 from jekyll/fix-frontmatter-defaults
+Merge pull request #3760 from cpicanco/patch-1
+Merge pull request #3750 from mnuessler/plugins
+Merge pull request #3717 from alfredxing/regenerator-handle-deleted-files
+Merge pull request #3728 from jordanthornquest/new-website-once-again
+Merge pull request #3745 from C4K3/update_welcome_post
+Merge pull request #3743 from mxstbr/master
+Merge pull request #3731 from jekyll/fix-script-test-file
+Merge pull request #3713 from fw42/fix_marshal_bugs
+Merge pull request #3712 from loctauxphilippe/patch-1
+Merge pull request #3706 from fw42/marshal_metadata
+Merge pull request #3707 from fw42/sort_files_only_once
+Merge pull request #3694 from erlend-sh/patch-1
+Merge pull request #3704 from jekyll/add-doctor-helper-for-osx-fsnotify-bug
+Merge pull request #3698 from erlend-sh/patch-2
+Merge branch 'add-support-for-jruby'
+Merge pull request #3696 from fw42/cleaner_optimizations
+Merge pull request #3553 from stevecrozz/jekyll-hooks
+Merge pull request #3693 from fw42/cache_document_to_liquid
+Merge pull request #3692 from fw42/rubyprof
+Merge pull request #3691 from dimitri-koenig/master
+Merge pull request #3683 from chrisfinazzo/troubleshooting-docs
+Merge pull request #3681 from nightsense/master
+Merge pull request #3670 from jekyll/bernardodiasc-collections
+Merge pull request #3678 from jekyll/minitest-5-6
+Merge pull request #3679 from alfredxing/remove-relative-permalinks
+Merge pull request #3671 from falkorichter/completeCiInstructions
+Merge pull request #3672 from chrisfinazzo/remove-extra-space
+Merge pull request #3665 from purp/master
+Merge pull request #3649 from schneems/schneems/utf8-myhomework
+Merge pull request #3658 from jekyll/fix-jekyll-minitest-rspec-mocks
+Merge pull request #3629 from justinweiss/lsi_search_on_posts
+Merge pull request #3596 from jekyll/static-files-upgrade
+Merge pull request #3655 from alfredxing/sunset-maruku
+Merge pull request #3657 from arthurnn/minitest_v
+Merge branch 'jaybe-jekyll-patch-1'
+Merge pull request #3652 from christianv/security-fix-redcarpet
+Merge pull request #3650 from chrisfinazzo/collections-docs
+Merge branch 'davidsilvasmith-origin/patch-3'
+Merge branch 'chrisfinazzo-upgrading-docs'
+Merge pull request #3608 from nickburlett/patch/incremental-build
+Merge pull request #3623 from chrisfinazzo/ci-docs
+Merge branch 'delftswa2014-remove-unused-method'
+Merge pull request #3647 from nhoizey/patch-1
+Merge branch 'delftswa2014-static-file-test'
+Merge pull request #3638 from adunning/patch-1
+Merge pull request #3637 from Sourdoughh/patch-1
+Merge pull request #3628 from delftswa2014/profiling
+Merge pull request #3614 from nickburlett/patch/incremental-build-dest-missing
+Merge pull request #3622 from fulldecent/patch-1
+Merge pull request #3619 from jekyll/no-args-exit-1
+Merge pull request #3617 from delftswa2014/log-adapter
+Merge pull request #3612 from jekyll/remove-activesupport
+Merge pull request #3545 from delftswa2014/site_extract_readers
+Merge pull request #3586 from x43x61x69/patch-1
+Merge pull request #3581 from daviewales/patch-1
+Merge pull request #3609 from nickburlett/patch/issue-3588-squashed
+Merge pull request #3592 from nickburlett/patch/incremental-build
+Merge pull request #3601 from chrisfinazzo/update-collections-docs
+Merge pull request #3603 from chrisfinazzo/remove-spaces
+Merge pull request #3597 from pathawks/jekyll-metadata
+Merge pull request #3599 from chrisfinazzo/update-site-subpath
+Merge pull request #3600 from pathawks/rspec-docs
+Merge pull request #3598 from pathawks/md5
+Merge pull request #3580 from jekyll/fix-3393
+Merge pull request #3585 from gmile/patch-1
+Merge pull request #3574 from jekyll/remove-legacy-loader
+Merge branch 'stkent-patch-1'
+Merge pull request #3556 from willnorris/permalinks
+Merge pull request #3576 from jekyll/fix-proofer
+Merge pull request #3567 from chrisfinazzo/grammar
+Merge pull request #3572 from pathawks/jekyll-smartify
+Merge
+Merge pull request #3570 from eduardoboucas/master
+Merge pull request #2 from jekyll/master
+Merge pull request #3560 from maxbeizer/maxbeizer/fix-collections-docs-grammar
+Merge branch 'master' of github.com:jekyll/jekyll
+Merge pull request #3552 from arthurnn/rm_rr
+Merge pull request #3551 from corysimmons/cs/add-pagination-warning
+Merge branch 'master' into site_extract_readers
+Merge branch 'master' of github.com:jekyll/jekyll
+Merge pull request #3520 from delftswa2014/sort-null
+Merge branch 'master' of github.com:jekyll/jekyll
+Merge pull request #3547 from yous/resolve-warnings
+Merge pull request #3537 from kleinfreund/patch-2
+Merge pull request #3538 from willnorris/permalink
+Merge pull request #3546 from capnfabs/patch-1
+Merge pull request #3544 from delftswa2014/micro_refactor_url
+Merge pull request #3418 from tarebyte/destination-and-source
+Merge pull request #3490 from willnorris/ext
+Merge pull request #3535 from delftswa2014/deprecation-inconsistency
+Merge pull request #3531 from jekyll/liquid-c-upgrade
+Merge pull request #3532 from willnorris/ordinal_docs
+Merge pull request #3469 from jedd-ahyoung/Frontmatter-date-documentation
+Merge branch 'fabianrbz-remove_adapters_deprecation_warning'
+Merge pull request #3528 from willnorris/textile
+Merge pull request #3516 from jekyll/end-with
+Merge pull request #3530 from delftswa2014/picturetag-link-fix
+Merge pull request #3523 from alfredxing/introducing-jekyll-talk
+Merge branch 'alfredxing-add-talk-to-help'
+Merge pull request #3489 from merlos/patch-1
+Merge pull request #3485 from watkyn/extra_slash_in_example_base_url
+Merge branch 'delftswa2014-improve-this-page'
+Merge pull request #3511 from alfredxing/fix-docs-tests
+Merge pull request #3502 from delftswa2014/update-doc-link
+Merge pull request #3496 from yous/site-template-gitignore
+Merge pull request #3497 from yous/trailing-whitespace
+Merge pull request #3492 from jekyll/upgrade-tests
+Merge pull request #3477 from kleinfreund/patch-1
+Merge pull request #3479 from tuzhucheng/update_doc_pagination_path
+Merge pull request #3475 from markphelps/master
+Merge pull request #3466 from MartinRogalla/twitterLinkUpdate
+Merge pull request #3464 from willnorris/rebuild
+Merge pull request #3457 from penibelst/jch
+Merge pull request #3456 from willnorris/draft
+Merge pull request #3455 from jekyll/read-csv-data-with-proper-encoding
+Merge pull request #3452 from rtomayko/serve-strip-html-suffix
+Merge pull request #3382 from alfredxing/site-template-kerning
+Merge pull request #3440 from tkrotoff/class-text
+Merge pull request #3438 from jordanthornquest/master
+Merge pull request #3436 from jekyll/fix-highlight-madness
+Merge pull request #3401 from jekyll/fix-code-cleanup
+Merge pull request #3431 from Ezmyrelda/patch-1
+Merge pull request #3428 from jekyll/help-page
+Merge pull request #3426 from jekyll/release-compiled-site
+Merge pull request #3427 from jekyll/proof
+Merge pull request #3424 from Toddy69/documentation-correction
+Merge pull request #3419 from yous/overflow-x
+Merge pull request #3420 from nicwest/smallest-pr-ever
+Merge pull request #3413 from eksperimental/patch-1
+Merge pull request #3360 from nternetinspired/font-css-syntax
+Merge pull request #3396 from chrisfinazzo/grammar
+Merge pull request #3397 from jekyll/recommend-pgrep-with-kill
+Merge pull request #3391 from jekyll/enspeeden-include
+Merge pull request #3323 from jekyll/remove-runtime-deps
+Merge pull request #3388 from chrisfinazzo/extra-spaces-are-for-animals
+Merge branch 'jekyll-gjtorikian-patch-1'
+Merge pull request #3383 from jekyll/respect-the-title
+Merge pull request #3384 from Ezmyrelda/patch-1
+Merge pull request #3376 from tkrotoff/helvetica
+Merge pull request #3378 from kaatt/initial-build-time
+Merge pull request #3375 from tkrotoff/fix-nav-items-gaps
+Merge pull request #3329 from tkrotoff/fix-nav-items-gaps
+Merge pull request #3325 from imathis/generate-url
+Merge pull request #3346 from jekyll/release-3-0-0-beta-1
+Merge pull request #3336 from hqro/patch-1
+Merge pull request #3335 from jekyll/jekyll-meetup-address-fix
+Merge pull request #3332 from jekyll/meetup
+Merge pull request #3333 from digitalsparky/master
+Merge pull request #3331 from tkrotoff/fix-site-nav-alignment
+Merge pull request #3326 from alfredxing/check-regen-method
+Merge pull request #3319 from jekyll/split-off-textile
+Merge pull request #3321 from jekyll/performance-upgrades
+Merge pull request #3322 from pborreli/patch-1
+Merge branch 'nitoyon-slugify-new-param'
+Merge pull request #3320 from jekyll/mcallan83-test_global_post_permalinks_with_template_variables
+Merge branch 'davidized-collection_yaml_dots'
+Merge pull request #2774 from dziemian007/formatter_variables_by_relative_path
+Merge pull request #3014 from jekyll/revert-3013-revert-2921-post-dest
+Merge branch 'majioa-devel'
+Merge pull request #3314 from yoshyosh/master
+Merge pull request #2571 from yous/patch-mixed-case-category
+Merge pull request #3312 from omegahm/fix-weird-spacing
+Merge pull request #3306 from adamzr/patch-1
+Merge pull request #3220 from inukshuk/patch-1
+Merge pull request #3292 from flyinprogrammer/eliminate_section_metadata
+Merge pull request #3299 from ryanburnette/fix_date
+Merge pull request #3295 from jaybe-jekyll/patch-1
+Merge pull request #3296 from jaybe-jekyll/patch-2
+Merge pull request #3291 from flyinprogrammer/master
+Merge pull request #3288 from jaybe-jekyll/patch-1
+Merge pull request #2767 from jekyll/rdiscount-2
+Merge pull request #3256 from XhmikosR/accessibility-tweaks
+Merge pull request #3258 from omegahm/symlink-local-tmp
+Merge pull request #3279 from jekyll/fix-cross-platform-testing
+Merge pull request #3271 from maban/patch-1
+Merge pull request #3278 from jekyll/kevinushey-bugfix/highlight-whitespace-stripping
+Merge pull request #3277 from paulrayner/jekyll-asciidoc_plugin
+Merge pull request #3264 from tkrotoff/fix-nav-items-gaps
+Merge pull request #3172 from alfredxing/docs-output-overrides
+Merge branch 'master' of github.com:jekyll/jekyll
+Merge pull request #3261 from flyinprogrammer/master
+Merge pull request #3255 from XhmikosR/readme-badges
+Merge pull request #3254 from flyinprogrammer/master
+Merge pull request #3253 from SuriyaaKudoIsc/master
+Merge pull request #3233 from jessepinho/punctuation-fixes
+Merge pull request #3251 from nternetinspired/article-semantics
+Merge pull request #3234 from jekyll/ruby-2-2
+Merge pull request #3244 from jekyll/store-messages
+Merge pull request #2924 from nitoyon/unescape-document
+Merge pr #3185.
+Merge pull request #3186 from eduardoboucas/master
+Merge pull request #3189 from robschia/patch-1
+Merge pull request #3047 from karouf/slugify-non-latin
+Merge pull request #2908 from alfredxing/document-path
+Merge PR #2790.
+Merge pull request #3240 from jekyll/snake_case
+Merge pull request #3241 from jekyll/separate-jekyll-docs
+Merge pull request #3204 from jekyll/sort-static-files-once
+Merge pull request #3237 from jekyll/enable_coderay
+Merge pull request #3002 from jekyll/liquid-3
+Merge pull request #3235 from jekyll/drop-ruby-1-9
+Merge pull request #3236 from tkrotoff/remove-end-tag
+Merge pull request #3229 from megalomono/master
+Merge pull request #3116 from alfredxing/incremental
+Merge pull request #3222 from jasonbellamy/jekyll-mermaid-plugin
+Merge pull request #3218 from jekyll/alfredxing
+Merge pull request #3212 from bdesham/add-inline-highlight-plugin
+Merge pull request #3196 from jekyll/site-troubleshooting-updates
+Merge pull request #3198 from mehdisadeghi/master
+Merge pull request #3158 from afeld/as-liquid-refactor
+Merge pull request #3180 from jekyll/fix-coverage-reporting
+Merge pull request #3176 from rud/bugfix/site-feed-is-rss
+Merge pull request #3177 from rpherbig/master
+Merge pull request #3170 from tkrotoff/fix-viewport
+Merge pull request #3163 from lkorth/patch-1
+Merge pull request #3161 from dnozay/patch-3
+Merge pull request #3162 from dnozay/patch-4
+Merge pull request #3165 from fabschurt/fix-doc-typos
+Merge pull request #3154 from afeld/jsonify-bool
+Merge pull request #3149 from jekyll/document-build-serve-quiet-option
+Merge pull request #3147 from blbradley/markdown-file-ext-regexp
+Merge pull request #3141 from jekyll/bundle-require-is-borking-pygments
+Merge pull request #3117 from jekyll/release-2-5-2
+Merge pull request #3119 from jekyll/fix-bundle-require
+Merge pull request #3136 from knorthfield/patch-1
+Merge pull request #3132 from XhmikosR/gridism
+Merge pull request #3133 from XhmikosR/patch-11
+Merge pull request #2904 from XhmikosR/mixins
+Merge pull request #3127 from aarongustafson/master
+Merge pull request #3123 from jekyll/site-sass-improvements
+Merge pull request #3058 from alfredxing/fix-post-url-equality
+Merge branch 'master' of github.com:jekyll/jekyll
+Merge pull request #3094 from alfredxing/no-noifniof
+Merge pull request #3091 from rovrov/master
+Merge pull request #3101 from ndarville/patch-1
+Merge pull request #3089 from jekyll/remove-duplication-in-regexp
+Merge pull request #3093 from shinnn/ga
+Merge pull request #3090 from alfredxing/fix-error-output
+Merge pull request #3088 from alfredxing/fix-error-output
+Merge pull request #3080 from jekyll/release-2-5-1
+Merge pull request #3077 from jekyll/fix-windows-path-sanitation
+Merge pull request #3075 from joshk/patch-1
+Merge pull request #3064 from ribbons/cygwin-env
+Merge pull request #3067 from jekyll/specify-log-level
+Merge pull request #3066 from jekyll/catch-no-gemfile
+Merge pull request #3062 from jekyll/release-2-5-0
+Merge pull request #2865 from jekyll/some-kind-of-bundler-thingy
+Merge pull request #3065 from cllns/master
+Merge pull request #3063 from jekyll/jsonify-on-hashes
+Merge pull request #2882 from jekyll/security/centralize-path-sanitation
+Merge pull request #3053 from alfredxing/fix-serve-host
+Merge pull request #3052 from vlajos/typofixes20141102
+Merge pull request #3040 from mitaa/master
+Merge pull request #3031 from alfredxing/frontmatter-permalinks
+Merge pull request #3032 from jekyll/jsonify-deeply
+Merge pull request #3022 from jekyll/perf
+Merge pull request #3018 from jekyll/webrick-fancy-indexing
+Merge pull request #2997 from jekyll/utils-slugify
+Merge pull request #2986 from tamagokun/where_filters_enumerable
+Merge pull request #3011 from fhemberger/master
+Merge pull request #3017 from glaucocustodio/master
+Merge pull request #3013 from jekyll/revert-2921-post-dest
+Merge pull request #3010 from croaky/master
+Merge pull request #2994 from jekyll/fixes-from-benchmarking
+Merge pull request #2996 from hickford/link-feed-from-head
+Merge pull request #2993 from jekyll/benchmarking
+Merge pull request #2982 from XhmikosR/page-description
+Merge pull request #2985 from jekyll/revert-2980-patch-1
+Merge pull request #2980 from tamagokun/patch-1
+Merge pull request #2984 from kevgathuku/patch-1
+Merge pull request #2981 from XhmikosR/normalize
+Merge pull request #2979 from rob-murray/add-twitter-tag-plugin
+Merge pull request #2972 from tkrotoff/wrapper-width-hardcoded
+Merge pull request #2973 from tkrotoff/indent-head.html
+Merge pull request #2964 from nternetinspired/meta-description
+Merge pull request #2967 from tmthrgd/master
+Merge pull request #2949 from rusikf/patch-10
+Merge pull request #2953 from vasinov/master
+Merge pull request #2954 from chrisfinazzo/remove-explicit-serve-from-docs
+Merge pull request #2957 from walpurgisriot/master
+Merge pull request #2921 from alfredxing/post-dest
+Merge remote-tracking branch 'upstream/master' into patch-10
+Merge pull request #2925 from pathawks/htm-extension
+Merge pull request #2946 from kleinfreund/patch-1
+Merge pull request #2951 from jekyll/fix-rouge
+Merge pull request #2939 from jekyll/ghp-gem
+Merge branch 'ghp-gem' of github.com:jekyll/jekyll into ghp-gem
+Merge pull request #2906 from pathawks/escape-css-characters
+Merge pull request #2943 from rusikf/patch-7
+Merge pull request #2937 from tmthrgd/patch-1
+Merge pull request #2922 from igas/patch-1
+Merge pull request #2911 from charlesbaynham/minor-grammatical-error
+Merge pull request #2931 from snrbrnjna/master
+Merge pull request #2929 from rusikf/patch-5
+Merge pull request #2887 from pathawks/Update-Liquid-Links
+Merge pull request #2917 from nitoyon/fix-template-doc
+Merge pull request #2919 from bcomnes/singular-docs
+Merge pull request #2913 from rusikf/patch-3
+Merge pull request #2916 from TheFox/bigfootnotes
+Merge pull request #2899 from XhmikosR/master
+Merge pull request #2898 from XhmikosR/font-awesome
+Merge pull request #2896 from jekyll/release-2-4
+Merge pull request #2895 from jekyll/array-filters
+Merge pull request #2884 from gjtorikian/improve-docs-for-include-relative
+Merge pull request #2889 from pdehaan/patch-1
+Merge pull request #2870 from gjtorikian/support-relative-include
+Merge pull request #2881 from penibelst/patch-1
+Merge pull request #2880 from kansaichris/slugify-liquid-filter
+Merge pull request #2877 from nitoyon/fix-variables-doc
+Merge pull request #2879 from SpectrumPixel/patch-1
+Merge pull request #2864 from kansaichris/add-title-to-collection-urls
+Merge pull request #2867 from chibicode/add-inspect-filter
+Merge pull request #2862 from mischah/fix-orientation-bugs
+Merge pull request #2829 from kansaichris/collections-permalink-docs
+Merge pull request #2858 from jekyll/auto-enable-watch
+Merge pull request #2849 from jekyll/maybe-secure-doc-reading
+Merge pull request #2856 from jekyll/fix-liquid-in-sas
+Merge pull request #2859 from jekyll/parallelize-tests
+Merge pull request #2830 from kansaichris/render-liquid-in-coffeescript
+Merge pull request #2845 from farukaydin/where_filter
+Merge pull request #2839 from jglovier/patch-1
+Merge pull request #2799 from kansaichris/add-title-to-collection-permalinks
+Merge pull request #2817 from rusikf/patch-2
+Merge pull request #2791 from gjtorikian/patch-2
+Merge pull request #2771 from ghprince/minor-tweaks-to-site-template
+Merge pull request #2768 from jekyll/remove-docs
+Merge pull request #2761 from theodi/csv-data
+Merge pull request #2765 from alfredxing/fix-site-plugins-typo
+Merge pull request #2764 from MinnSoe/doc-typo
+Merge pull request #2763 from zhuochun/master
+Merge pull request #2751 from pathawks/kill-redundant-plugins
+Merge pull request #2748 from rusikf/hack
+Merge pull request #2742 from fhemberger/patch-1
+Merge pull request #2740 from jekyll/latest-version
+Merge pull request #2721 from jekyll/fork-classifier
+Merge pull request #2723 from jekyll/release-2-3-0
+Merge pull request #2739 from DynamicDyno/sassify-filters
+Merge pull request #2737 from jekyll/fix-reading-imgs
+Merge pull request #2735 from jekyll/multitask-defaut
+Merge pull request #2733 from jekyll/sass-in-liquid
+Merge pull request #2731 from jekyll/doc-to_s
+Merge pull request #2732 from jekyll/type-should-be-similar-in-number
+Merge pull request #2722 from jekyll/don-t-concat-extnames
+Merge pull request #2729 from jekyll/to_liquid_before_jsonify
+Merge pull request #2704 from jekyll/mult-converters
+Merge pull request #2716 from jekyll/reform-watch
+Merge pull request #2708 from felixkiss/patch-1
+Merge pull request #2720 from jekyll/read-in-utf8
+Merge pull request #2719 from pathawks/null-not-nil
+Merge pull request #2718 from jekyll/case-insensitive-extnames
+Merge pull request #2717 from hockeybuggy/fenced-paragraphs
+Merge pull request #2707 from jekyll/jekyll-help
+Merge pull request #2705 from bcomnes/dont_read_categories_from_path
+Merge pull request #2682 from alfredxing/date-parser-util
+Merge pull request #2688 from barryclark/add_smashing_mag_tutorial_to_resources_page
+Merge pull request #2693 from ivantsepp/2142_partial_liquid_output_tag_in_include_tag
+Merge pull request #2696 from jekyll/jekyll-autogeneration-disabled
+Merge pull request #2687 from kleinfreund/sassify_site_template
+Merge pull request #2697 from jekyll/classifier-fix
+Merge pull request #2694 from MartinSeeler/patch-1
+Merge pull request #2689 from minad/patch-1
+Merge pull request #2615 from alfredxing/collections-static-files
+Merge pull request #2649 from alfredxing/friendly-date-error
+Merge pull request #2680 from jekyll/no-pretty
+Merge pull request #2664 from alfredxing/replace-deprecated-methods
+Merge pull request #2673 from lucianosousa/patch-1
+Merge pull request #2679 from budparr/master
+Merge pull request #2669 from budparr/master
+Merge pull request #2674 from kleinfreund/master
+Merge pull request #2659 from alfredxing/front-matter-defaults-defaults
+Merge pull request #2667 from jekyll/use-page
+Merge pull request #2672 from alfredxing/fix-ci-git-diff
+Merge pull request #2671 from gjtorikian/patch-1
+Merge pull request #2651 from jekyll/site-on-2-0
+Merge pull request #2643 from jekyll/v2-2-0-release
+Merge pull request #2642 from jekyll/pygments-opts-sanitize
+Merge pull request #2620 from alfredxing/warn-on-layout-nonexistent
+Merge pull request #2639 from wdenton/add-co2-plugin-to-docs
+Merge pull request #2633 from redox/read_categories_from_path
+Merge pull request #2625 from fw42/remove_unnecessary_blank_method
+Merge pull request #2622 from alfredxing/fix-markdown-docs
+Merge pull request #2623 from mvdbos/master
+Merge pull request #2611 from alfredxing/delete-rubyforge-links
+Merge pull request #2610 from alfredxing/proof-use-bundle-exec
+Merge pull request #2608 from alfredxing/fix-proof-grep
+Merge pull request #2605 from alfredxing/proof-site
+Merge pull request #2601 from alfredxing/master
+Merge pull request #2596 from ivantsepp/add_ivantsepp_plugins
+Merge pull request #2584 from yous/patch-categories-feature
+Merge pull request #2591 from jekyll/extract-list
+Merge pull request #2588 from raboof/patch-2
+Merge pull request #2564 from jekyll/release-2-1-1
+Merge pull request #2576 from bhollis/maruku-update
+Merge pull request #2575 from alfredxing/test-document-permalink
+Merge pull request #2578 from juthilo/patch-1
+Merge pull request #2572 from AJ-Acevedo/master
+Merge pull request #2567 from austinpray/beefUpDox
+Merge branch 'master' of github.com:jekyll/jekyll into beefUpDox
+Merge pull request #2563 from jekyll/fix-read-vuln
+Merge pull request #2561 from jshawl/fix-typo
+Merge pull request #2558 from kleinfreund/patch-1
+Merge pull request #2554 from alfredxing/fix-build-tomdoc
+Merge pull request #2553 from jekyll/release-2.1.0
+Merge pull request #2552 from jekyll/collections-with-dots
+Merge pull request #2550 from jekyll/extract-watch
+Merge pull request #2432 from jekyll/docs-4-ci
+Merge pull request #2547 from penibelst/docs-url
+Merge pull request #2532 from alexmedearis/hl_lines
+Merge pull request #2544 from mikecole/patch-2
+Merge pull request #2490 from penibelst/deep-defaults
+Merge deep
+Merge pull request #2477 from jekyll/serve-skip-initial-build
+Merge pull request #2495 from jekyll/latest-liquid
+Merge pull request #2493 from jekyll/fix-sort
+Merge pull request #2511 from denilsonsa/patch-1
+Merge pull request #2524 from jekyll/all-html-files
+Merge pull request #2531 from jekyll/merge-post-categories
+Merge pull request #2535 from simonsarris/master
+Merge pull request #2536 from letuboy/master
+Merge file system categories with categories from YAML.
+Merge pull request #2526 from AlessandroLorenzi/master
+Merge pull request #2514 from penibelst/docs-compress
+Merge pull request #2419 from jens-na/collection-defaults
+Merge pull request #2485 from tomer/patch-2
+Merge pull request #2494 from penibelst/remove-coveralls
+Merge pull request #2492 from jekyll/upgrade-listen
+Merge pull request #2459 from ivantsepp/watch_ignore_files
+Merge pull request #2479 from kitsched/patch-1
+Merge pull request #2476 from jekyll/stickermule-post
+Merge pull request #2436 from budparr/documenttoliquid
+Merge pull request #2470 from XhmikosR/https
+Merge branch 'documenttoliquid' of https://github.com/budparr/jekyll into documenttoliquid
+Merge branch 'documenttoliquid' of https://github.com/budparr/jekyll into documenttoliquid
+Merge pull request #2469 from jekyll/extract-gist-tag
+Merge pull request #2468 from rob-murray/add_link_to_version_plugin
+Merge pull request #2444 from createdbypete/configurable-logger
+Merge pull request #2439 from tschmidt/update-configuration-documentation
+Merge pull request #2438 from pathawks/spicy-feed
+Merge pull request #2458 from karouf/cleaner-empty-dirs
+Merge pull request #2463 from bwillis/patch-1
+Merge pull request #2457 from marcransome/master
+Merge pull request #2437 from pathawks/date_to_rfc822
+Merge pull request #2455 from jekyll/extract-pagination-generator
+Merge pull request #2373 from tschmidt/handle-categories-in-site-config-defaults
+Merge pull request #2389 from kleinfreund/patch-1
+Merge pull request #2395 from rdumont/data-subdirectories
+Merge pull request #2431 from jekyll/remove-collections-from-layouts
+Merge pull request #2418 from mathbruyen/collections_permalink
+Merge pull request #2420 from albertogg/fix-encoding-issue
+Merge pull request #2424 from kleinfreund/patch-2
+Merge pull request #2430 from ivantsepp/doc_fix
+Merge pull request #2429 from jshawl/code-overflow-fix
+Merge pull request #2406 from yihangho/config-yaml
+Merge pull request #2421 from chezou/fix-broken-link
+Merge pull request #2417 from jekyll/jekyll-env
+Merge pull request #2377 from jekyll/numeric
+Merge pull request #2408 from quinn/patch-1
+Merge pull request #2411 from mathbruyen/patch-1
+Merge pull request #2410 from XhmikosR/master
+Merge pull request #2401 from jdavis/patch-1
+Merge pull request #2387 from jaybe-jekyll/doc_updates
+Merge pull request #2368 from XhmikosR/master
+Merge pull request #2394 from penibelst/fix-dates
+Merge pull request #2393 from createdbypete/quieter-build-command
+Merge pull request #2384 from penibelst/test-sort-utf8
+Merge pull request #2383 from kleinfreund/patch-1
+Merge pull request #2345 from penibelst/sort-collection
+Merge pull request #2374 from albertogg/update-ruby
+Merge branch 'master' into handle-categories-in-site-config-defaults
+Merge pull request #2369 from jekyll/json-data
+Merge pull request #2365 from jekyll/release-2-0-3
+Merge pull request #2364 from jekyll/save-from-errors
+Merge pull request #2363 from yizeng/history-markdown-fixes
+Merge pull request #2359 from abroder/where-collection
+Merge pull request #2353 from gpxl/configuration-defaults-typo
+Merge pull request #2351 from yizeng/#2349/fix-escaping
+Merge pull request #2342 from jekyll/anchor-links
+Merge pull request #2341 from albertogg/fix-baseurl-default-in-docs
+Merge pull request #2337 from sankage/grammar-slam
+Merge pull request #2331 from albertogg/fix-site-template-permalink
+Merge pull request #2326 from iamgabeortiz/master
+Merge pull request #1 from iamgabeortiz/gist.rb-doc-update
+Merge pull request #2319 from jekyll/use-urls
+Merge pull request #2316 from holic/master
+Merge pull request #2314 from troyswanson/gist-docs
+Merge pull request #2312 from jekyll/release-2.0.0
+Merge pull request #2299 from penibelst/sort-nils
+Merge pull request #2309 from jekyll/remove-unreleased-notes
+Merge pull request #2310 from jekyll/fix-get-cwd-error
+Merge pull request #2303 from jekyll/jbranchaud-adding_exclude_tests
+Merge pull request #2298 from jekyll/release-post
+Merge pull request #2307 from jekyll/obey-stevenson
+Merge pull request #2304 from XhmikosR/html5shiv
+Merge pull request #2305 from XhmikosR/master
+Merge pull request #2306 from XhmikosR/mobile-nav
+Merge pull request #2127 from XhmikosR/css
+Merge pull request #2295 from jekyll/add-documents-listing
+Merge pull request #2300 from kzykbys/myPluginDescription
+Merge pull request #2301 from TheTomThorogood/short_year_permalink
+Merge pull request #2268 from jekyll/template-fixes
+Merge branch 'master' of github.com:jekyll/jekyll
+Merge pull request #2288 from penibelst/badges-svg
+Merge pull request #2292 from mtcomscxstart/code-class-fix
+Merge pull request #2290 from penibelst/travis-workaround
+Merge pull request #2291 from chezou/fix-typo-in-docs
+Merge pull request #2277 from troyswanson/jekyll-help-relocation
+Merge pull request #2273 from jpiasetz/copy-rails-functions
+Merge pull request #2154 from jpiasetz/refactor-highlighter
+Merge pull request #2269 from jekyll/fix-up-serve
+Merge pull request #2238 from jekyll/fix-the-collections
+Merge pull request #2257 from stevenspasbo/master
+Merge pull request #2258 from caffinatedmonkey/cucumber_cleanup
+Merge pull request #2253 from jekyll/var-substitution
+Merge pull request #2205 from jekyll/maul-esel-frontmatter-defaults
+Merge pull request #2250 from sheehamj13/patch-1
+Merge pull request #2247 from mrfoto/patch-1
+Merge pull request #2244 from jekyll/xml-escape-nil
+Merge pull request #2243 from RadicalZephyr/master
+Merge pull request #2199 from jekyll/collection-plate
+Merge pull request #1492 from maul-esel/publishing
+Merge pull request #2211 from jekyll/pgp-key-header-frontmatter
+Merge pull request #2216 from szymzet/command-better-coverage
+Merge pull request #2215 from jeffkole/page-collection-plugin
+Merge pull request #2214 from stomar/file-exists
+Merge pull request #2213 from XhmikosR/docs-favicon
+Merge branch 'frontmatter-defaults' of git://github.com/maul-esel/jekyll into maul-esel-frontmatter-defaults
+Merge pull request #2189 from benhanzl/move_rouge_loading
+Merge pull request #2197 from jekyll/plugin-manager
+Merge pull request #1823 from jekyll/highlight-without-newline
+Merge pull request #2192 from XhmikosR/docs-feed
+Merge pull request #1568 from nitoyon/url-escape
+Merge pull request #1824 from lachy-xe/master
+Merge pull request #2185 from XhmikosR/docs-fonts
+Merge pull request #2193 from XhmikosR/docs-favicon
+Merge pull request #2177 from jekyll/help
+Merge pull request #2200 from fabianrbz/remove_unnecessary_post
+Merge pull request #2191 from pilosus/site
+Merge pull request #2187 from XhmikosR/rm-unused-img
+Merge pull request #2186 from XhmikosR/site_template
+Merge pull request #1639 from maul-esel/tags-and-categories
+Merge pull request #2131 from XhmikosR/html5shiv
+Merge pull request #2165 from Zequez/master
+Merge pull request #2175 from jekyll/security-yo
+Merge pull request #2178 from fabianrbz/remove_warnings
+Merge pull request #2130 from XhmikosR/html-cleanup
+Merge branch 'master' of github.com:jekyll/jekyll
+Merge pull request #2169 from gmile/patch-1
+Merge pull request #2164 from mrtazz/draft-unpublished
+Merge pull request #2163 from hildred/doc-safe
+Merge pull request #2160 from jpiasetz/travis
+Merge pull request #2148 from jekyll/error-when-pygments-errors
+Merge pull request #2158 from lmullen/patch-1
+Merge pull request #2155 from jekyll/fix-cucumber
+Merge pull request #994 from stephenmcd/master
+Merge pull request #2129 from XhmikosR/modernizr
+Merge pull request #2143 from jekyll/fix-cli
+Merge pull request #2126 from XhmikosR/normalize.css
+Merge pull request #2128 from XhmikosR/compress-images
+Merge pull request #2122 from XhmikosR/whitespace
+Merge pull request #2109 from jekyll/proper-path-cleaning
+Merge pull request #2121 from XhmikosR/docs
+Merge pull request #2118 from mscharley/windows-support
+Merge pull request #2112 from jekyll/no-core-ext
+Merge pull request #2108 from slavapavlutin/refactor-cucumber-features
+Merge pull request #2098 from jekyll/sass-as-separate-gem
+Merge pull request #2105 from callmeed/patch-1
+Merge pull request #2102 from ZDroid/mkdown
+Merge pull request #2081 from gosyujin/translating-readme-and-contributing
+Merge pull request #2097 from jekyll/listen-2.5
+Merge pull request #2096 from bbakersmith/patch-1
+Merge pull request #2095 from jekyll/simplify-gemspec
+Merge pull request #2094 from tobru/master
+Merge pull request #2050 from jglovier/master
+Merge pull request #2067 from troyswanson/assets-can-be-better
+Merge pull request #2065 from jekyll/fix-windows-root-system-thingy
+Merge pull request #2078 from ZDroid/rm-layout-none
+Merge pull request #2084 from nslater/add-whitespace
+Merge pull request #2085 from jekyll/mercenary-0-3-0
+Merge pull request #2090 from coreyward/selfish
+Merge pull request #2061 from jekyll/unreleased-features-warnings-on-site
+Merge pull request #2074 from jekyll/default-to-utf8
+Merge pull request #2077 from mprins/patch-1
+Merge pull request #2075 from jekyll/expose-static-files
+Merge pull request #2073 from mizuhands/patch-1
+Merge pull request #2058 from jekyll/layouts-relative-to-config
+Merge pull request #2041 from anthonyjsmith/webrick_index_xml
+Merge pull request #1946 from jekyll/security-vuln-patches
+Merge master into security-vuln-patches
+Merge pull request #2042 from anthonyjsmith/draft-path
+Merge pull request #2056 from herr-biber/remove-executable-bits
+Merge pull request #2048 from ZDroid/mkdown-ext
+Merge pull request #2049 from ZDroid/kramdown-reorder
+Merge pull request #2045 from jekyll/kill-1-9-2
+Merge pull request #2044 from jekyll/bump-redcarpet
+Merge pull request #2009 from penibelst/test-sass-include
+Merge pull request #1976 from jekyll/fix-pagination-issue
+Merge pull request #2031 from jekyll/utf8-heart
+Merge pull request #2038 from joshbrw/master
+Merge pull request #1988 from jekyll/maruku-to-kramdown
+Merge pull request #2015 from aheckler/master
+Merge pull request #2016 from Jashank/destination-warning
+Merge pull request #2020 from jekyll/refactor-layout-reading
+Merge master into security-vuln-patches
+Merge pull request #2013 from penibelst/patch-1
+Merge pull request #2010 from Jashank/gemspec-update
+Merge pull request #1982 from dtao/safe-yaml-no-clobber
+Merge pull request #2005 from jekyll/vim-jekyll
+Merge pull request #2004 from jekyll/noyarp-sad
+Merge pull request #2001 from 23maverick23/sublime-jekyll
+Merge pull request #1991 from jekyll/coffeescript
+Merge pull request #1999 from 23maverick23/jekyll-font-awesome
+Merge pull request #1998 from 23maverick23/jekyll-humanize
+Merge pull request #1993 from azizshamim/mimetypes_update
+Merge pull request #1984 from jekyll/yarp
+Merge pull request #1985 from jekyll/rebund
+Merge pull request #1983 from jfirebaugh/perf
+Merge pull request #1932 from jekyll/sass
+Merge master into sass
+Merge pull request #1931 from liufengyun/published
+Merge pull request #1951 from jens-na/include-tag-error-path
+Merge pull request #1962 from jglovier/patch-1
+Merge pull request #1935 from benbalter/vision
+Merge pull request #1970 from minddust/missing_post_docs
+Merge pull request #1971 from 4ensicLog/patch-1
+Merge branch 'master' into vision
+Merge pull request #1953 from troyswanson/dataify-docs
+Merge pull request #1958 from jekyll/lock-down-maruku
+Merge pull request #1947 from jekyll/1-4-3-release-info
+Merge pull request #1940 from robatron/patch-1
+Merge pull request #1938 from jekyll/excludes-relative-to-site-source-docs
+Merge pull request #1936 from jekyll/branding
+Merge pull request #1928 from jekyll/things-to-content
+Merge pull request #1916 from jekyll/gitignore-excludes
+Merge pull request #1923 from mscharley/master
+Merge pull request #1927 from jekyll/delegate-silly
+Merge pull request #1883 from pathawks/master
+Merge pull request #1912 from jekyll/cibuild
+Merge pull request #1910 from pborreli/typos
+Merge pull request #1899 from soimort/preview-404
+Merge pull request #1875 from jekyll/benbalter-where-filter
+Merge pull request #1898 from ahazem/add-quiet-flag
+Merge pull request #1900 from jekyll/ruby-2-1
+Merge pull request #1906 from afeld/upgrade-shoulda
+Merge pull request #1902 from troyswanson/utf-8-note
+Merge pull request #1889 from penibelst/site-link-license
+Merge pull request #1896 from georgeanderson/master
+Merge pull request #1897 from nschonni/patch-1
+Merge pull request #1859 from robin850/rouge
+Merge pull request #1849 from afeld/sort-attributes
+Merge pull request #1894 from CHH/patch-1
+Merge pull request #1893 from rrgayhart/testing-additions
+Merge pull request #1886 from ivantsepp/1845_bump_safe_yaml_version
+Merge pull request #1879 from jekyll/update-mercenary
+Merge pull request #1877 from jekyll/maul-esel-consistent-opts
+Merge pull request #1825 from arika/smallfix_post_url_tag_behavior_for_invalid_names
+Merge pull request #1831 from jekyll/default-maruku-fenced-code-blocks
+Merge pull request #1841 from jens-na/include-variable-liquid-filters
+Merge pull request #1853 from jekyll/update-history-with-v1.4.x
+Merge pull request #1866 from colindean/patch-2
+Merge pull request #1872 from jekyll/gjtorikian-steal-envygeeks-custom-markdown-processors
+Merge branch 'steal-envygeeks-custom-markdown-processors' of git://github.com/gjtorikian/jekyll into gjtorikian-steal-envygeeks-custom-markdown-processors
+Merge pull request #1847 from schneems/schneems/better-bat-time-error
+Merge pull request #1867 from pootsbook/patch-2
+Merge pull request #1864 from pootsbook/patch-1
+Merge remote-tracking branch 'upstream/master' into sort-attributes
+Merge pull request #1854 from EricDobson/docs_datafiles_typo
+Merge pull request #1848 from afeld/sort-pages
+Merge pull request #1836 from jekyll/update-history-with-v1.4.x
+Merge pull request #1818 from jekyll/windows-docs
+Merge pull request #1817 from jekyll/move-to-jekyll-jekyll
+Merge pull request #1815 from mojombo/redcarpet-3
+Merge pull request #1812 from mojombo/openshift-cartridge
+Merge pull request #1780 from mojombo/kill-1-8
+Merge pull request #1706 from mojombo/drop-commander
+Merge pull request #1805 from ivantsepp/scaffold_vertical_scrollbar
+Merge pull request #1799 from konklone/maruku_fenced_code_blocks
+Merge pull request #1803 from penibelst/site-unminify-css
+Merge pull request #1804 from penibelst/site-fix-postv141
+Merge pull request #1788 from mojombo/group-by-filter-2
+Merge pull request #1795 from Ivoz/patch-1
+Merge pull request #1796 from mojombo/fix-fetching-things
+Merge pull request #1800 from cs/move-entry-filter-into-jekyll-module
+Merge pull request #1797 from dougjohnston/patch-1
+Merge pull request #1791 from konklone/kramdown_gfm
+Merge pull request #1787 from mojombo/css-includes-2
+Merge pull request #1657 from mojombo/safe-whitelist
+Merge pull request #1785 from mojombo/release-1.4.0-updates
+Merge pull request #1779 from mojombo/no-duplication
+Merge pull request #1775 from Ivoz/maruku
+Merge pull request #1778 from mojombo/fix-toml
+Merge branch 'master' into frontmatter-defaults
+Merge pull request #1682 from envygeeks/patch-1
+Merge pull request #1765 from mojombo/tomlify
+Merge pull request #1772 from penibelst/no-x-icon
+Merge pull request #1762 from yizeng/master
+Merge pull request #1755 from gregkare/more_trailing_whitespace
+Merge pull request #1769 from davidsawyer/master
+Merge pull request #1759 from mojombo/pagination-lowest-priority
+Merge pull request #1754 from gregkare/duplicate_testcase
+Merge pull request #1448 from penibelst/replace-yoursite
+Merge pull request #1746 from maul-esel/missing-include
+Merge pull request #1736 from gregkare/trailing_whitespace
+Merge pull request #1718 from thomasdao/master
+Merge pull request #1741 from andrewhavens/patch-1
+Merge pull request #1734 from gregkare/travis_cache
+Merge pull request #1732 from mojombo/fix-import-docs
+Merge pull request #1730 from mojombo/pathname-to-s
+Merge pull request #1726 from maul-esel/include-fix
+Merge pull request #1669 from albertogg/jekyll-import-arguments
+Merge pull request #1711 from abhiyerra/org-mode-converter-link
+Merge pull request #1707 from localheinz/patch-1
+Merge pull request #1708 from yihangho/add-emoji-plugin
+Merge pull request #1697 from mojombo/entry-filter-method-object
+Merge pull request #1670 from samrayner/add-asset-path-tag-to-docs
+Merge pull request #1695 from santtu/patch-1
+Merge pull request #1693 from shigeya/website-update-shigeya-plugins
+Merge pull request #1694 from mojombo/release-1.3.0
+Merge pull request #1691 from katydecorah/master
+Merge pull request #1687 from mojombo/fix-listen
+Merge pull request #1677 from yizeng/add-section-info-to-drafts
+Merge pull request #1667 from mojombo/release-1.3.0.rc
+Merge pull request #1662 from carols10cents/fix-import-error-message
+Merge pull request #1665 from mojombo/downgrade-listen
+Merge pull request #1663 from penibelst/emphasize-date-filters
+Merge pull request #1405 from GSI/master
+Merge pull request #1660 from mojombo/fix-shorts
+Merge pull request #1582 from mojombo/seconds_agnostic_time
+Merge pull request #1651 from liufengyun/jsonify
+Merge pull request #1493 from maul-esel/feature-improvements
+Merge pull request #1589 from dchest/better-watch
+Merge pull request #1656 from mojombo/plugin-gems-docs
+Merge pull request #1557 from mojombo/require-gems-plugins
+Merge pull request #1543 from maul-esel/fix-coderay
+Merge pull request #1637 from maul-esel/options-duplication
+Merge pull request #1638 from maul-esel/render-page-or-post
+Merge pull request #1636 from pda/patch-1
+Merge pull request #1635 from dpassage/patch-1
+Merge branch 'master' into frontmatter-defaults
+Merge pull request #1626 from albertogg/migrations-warning-note
+Merge pull request #1615 from benbalter/downcase-lexers
+Merge pull request #1622 from blackjid/master
+Merge pull request #1616 from bricejlin/patch-1
+Merge pull request #1602 from sferik/update_safe_yaml_dependency
+Merge pull request #1613 from maul-esel/fix-variable-include
+Merge pull request #1610 from sferik/update_kramdown_dependency
+Merge pull request #1603 from sferik/update_rake_dependency
+Merge pull request #1606 from sferik/update_coveralls_dependency
+Merge pull request #1604 from sferik/update_rr_dependency
+Merge pull request #1608 from sferik/update_launchy_dependency
+Merge pull request #1495 from maul-esel/variable-include
+Merge pull request #1601 from maul-esel/fix-error-file
+Merge pull request #1592 from fxn/master
+Merge pull request #1503 from swanson/add-docs-for-data-feature
+Merge pull request #1596 from maul-esel/error-file
+Merge pull request #1598 from mojombo/maruku-0.6.0
+Merge pull request #1514 from maul-esel/tag-errors
+Merge pull request #1003 from liufengyun/data-sources
+Merge pull request #1586 from mojombo/print-webrick-url-if-muted
+Merge pull request #1590 from fxn/master
+Merge pull request #1 from mojombo/master
+Merge pull request #1449 from shigeya/config-encoding-and-yaml-opts
+Merge pull request #1571 from mojombo/non-destructive-array-concat
+Merge pull request #1574 from Aptary/simplified_css
+Merge pull request #1490 from penibelst/allow-include-read-override
+Merge pull request #1553 from penibelst/change-link-liquid
+Merge pull request #1556 from maul-esel/dest-match
+Merge pull request #1539 from maul-esel/coveralls
+Merge pull request #1555 from davidensinger/patch-1
+Merge pull request #1554 from grobmeier/patch-1
+Merge pull request #1551 from mojombo/release-1-2-1
+Merge pull request #1518 from mojombo/fix-serve-detatch
+Merge pull request #1537 from mojombo/better-pr
+Merge pull request #1536 from mojombo/liquid-2.5.2
+Merge pull request #1531 from maul-esel/mute-tests
+Merge pull request #1516 from penibelst/fix-post-title
+Merge pull request #1525 from zerobase/issue1519
+Merge pull request #1515 from drewish/redcarpet-2.3
+Merge pull request #1522 from jaybe-jekyll/master
+Merge pull request #1512 from penibelst/fix-history-markup
+Merge pull request #1507 from penibelst/add-site-menu
+Merge pull request #1404 from mojombo/rake-site-releases-new
+Merge pull request #1363 from koron/stop-reverse-lookup
+Merge pull request #1511 from mojombo/fix-validation-errors
+Merge pull request #1510 from mojombo/release-1.2
+Merge pull request #1506 from dafi/patch-1
+Merge pull request #1481 from mojombo/pathawks-patch-1
+Merge pull request #1494 from maul-esel/fix-include-error
+Merge pull request #1498 from troyswanson/remove-kramdown-as-dependency
+Merge pull request #1501 from dpree/patch-1
+Merge pull request #1491 from penibelst/list-plugin-good-include
+Merge pull request #1497 from maul-esel/ruby-badges
+Merge pull request #1488 from troyswanson/iso8601
+Merge pull request #1486 from nquinlan/patch-1
+Merge branch 'patch-1' of git://github.com/pathawks/jekyll into pathawks-patch-1
+Merge pull request #1480 from mojombo/ignore-_site-in-deploy
+Merge pull request #1463 from penibelst/add-site-repository
+Merge pull request #1341 from maul-esel/minor-refactors
+Merge pull request #1474 from mgp/master
+Merge pull request #1462 from penibelst/patch-1
+Merge pull request #944 from x3ro/permalink-special-characters
+Merge pull request #1429 from maul-esel/refactor-cleanup
+Merge pull request #1458 from dafi/patch-1
+Merge pull request #1454 from bdesham/fix-typos-in-history
+Merge pull request #1443 from ddavison/detachment
+Merge pull request #1444 from chrisnicotera/master
+Merge pull request #1430 from penibelst/site-speed
+Merge pull request #1445 from penibelst/patch-1
+Merge pull request #1439 from bdesham/pluralize-and-reading-time
+Merge pull request #1441 from sleeper/master
+Merge pull request #1389 from mojombo/doctor-conflicting-permalinks
+Merge pull request #1415 from mojombo/full-path-output-for-liquid-exception
+Merge pull request #1418 from nfagerlund/docs_redcarpet
+Merge pull request #1419 from penibelst/typo-apostrophe
+Merge pull request #1411 from penibelst/master
+Merge branch 'permalink-no-dir' of git://github.com/maul-esel/jekyll into maul-esel-permalink-no-dir
+Merge pull request #1408 from penibelst/master
+Merge pull request #1400 from penibelst/patch-1
+Merge pull request #1386 from mojombo/disable-excerpts
+Merge pull request #1397 from nfagerlund/error_187_undefined_method_encoding_for_mailto
+Merge pull request #1390 from mojombo/better-errors
+Merge pull request #1394 from catsby/drafts_flag
+Merge pull request #1364 from koron/write-in-binary-mode
+Merge pull request #1382 from torsneyt/fix_md_ext
+Merge pull request #1373 from indirect/patch-1
+Merge pull request #1370 from matze/add-ditaa-plugin
+Merge pull request #1360 from mojombo/readme-dep-updates
+Merge branch 'master' into minor-refactors
+Merge pull request #1356 from mojombo/remove-redundant-arg
+Merge branch 'master' of https://github.com/mojombo/jekyll into permalink-special-characters
+Merge pull request #1354 from agelber/add-jekyll-rss-to-plugins
+Merge pull request #1346 from penibelst/patch-1
+Merge pull request #1353 from benbalter/1-1-2-blog-post
+Merge pull request #1349 from benbalter/bump-liquid
+Merge pull request #1347 from rmehner/patch-1
+Merge pull request #1339 from mojombo/no-layouts-for-excerpt
+Merge pull request #1343 from penibelst/patch-1
+Merge pull request #1338 from mojombo/abort-with-non-zero-exit-codes
+Merge pull request #1318 from johnkhughes/master
+Merge pull request #1330 from robwierzbowski/add-grunt-yeoman
+Merge pull request #1328 from mojombo/remove_table_selector
+Merge pull request #1310 from robwierzbowski/organize-plugins
+Merge pull request #1320 from penibelst/patch-1
+Merge branch 'master' of github.com:mojombo/jekyll
+Merge pull request #1306 from robwierzbowski/add-jit-plugin
+Merge branch 'master' into permalink-special-characters
+Merge pull request #1201 from zachgersh/all_kramdown
+Merge pull request #1304 from DamianLettie/PostTimeZoneDocs
+Merge pull request #1302 from mojombo/excerpt
+Merge pull request #1098 from mojombo/catch-missing-configs
+Merge pull request #1144 from jpiasetz/cleanup
+Merge pull request #1289 from mojombo/drafts-docs
+Merge pull request #1296 from jannypie/master
+Merge pull request #1290 from kolorahl/gemspec
+Merge pull request #1204 from maul-esel/include-params2
+Merge pull request #1046 from mojombo/jekyll-docs
+Merge pull request #1267 from jpiasetz/Text-files
+Merge pull request #1286 from cobyism/news-responsivityness
+Merge pull request #1093 from mojombo/blog-posts
+Merge pull request #1283 from cobyism/blog-posts-tweaks
+Merge pull request #1271 from sanandnarayan/related_posts
+Merge pull request #1284 from mojombo/include-exclude-deprecation-simplification
+Merge pull request #1280 from robwierzbowski/add-jpt-plugin
+Merge changes on docs/plugins/ page.
+Merge pull request #1263 from sectore/master
+Merge pull request #1260 from markets/add_plugin_link
+Merge pull request #1118 from maul-esel/dir-bug-take2
+Merge pull request #1253 from mojombo/catch-conversion-errors
+Merge pull request #1247 from mojombo/jekyll-new-redcarpet
+Merge pull request #1245 from mojombo/jekyll-new-redcarpet
+Merge pull request #1242 from Florent2/patch-1
+Merge pull request #1215 from sanandnarayan/folder_plus
+Merge pull request #1171 from zachgersh/new_empty
+Merge pull request #1192 from zachgersh/update_contrib
+Merge pull request #1198 from mojombo/fix-pagination
+Merge pull request #1228 from zachgersh/plugin_updates
+Merge pull request #1227 from zachgersh/doc_update
+Merge pull request #1229 from edsl/add-plugin-pandoc-multiple-formats
+Merge pull request #1225 from ixti/patch-1
+Merge pull request #1223 from mojombo/remove-obsolete-plugins
+Merge pull request #1222 from zachleat/patch-1
+Merge pull request #1214 from jadbirch/docs_correction
+Merge pull request #1208 from mojombo/imageoptim
+Merge pull request #1210 from snappylabs/jpap-docs-plugin-jade
+Merge branch 'master' of github.com:mojombo/jekyll
+Merge pull request #1191 from leggetter/master
+Merge pull request #1151 from jpiasetz/refactors-steps
+Merge pull request #1175 from we-also-do-cookies/update_markuru_link_to_docs
+Merge pull request #1189 from mojombo/private-gist-support
+Merge pull request #1190 from mojombo/maruku-errors
+Merge pull request #1186 from gcapizzi/fix_command_line_params
+Merge pull request #1147 from beeeswax/frontmatter-nil
+Merge pull request #1170 from mojombo/remove-ids-from-site-template
+Merge pull request #1166 from dracula2000/stevenson
+Merge pull request #1065 from zachgersh/changelist_page
+Merge pull request #1150 from jpiasetz/iso-dates
+Merge branch 'master' of git://github.com/beeeswax/jekyll into beeeswax-master
+Merge pull request #1149 from mojombo/jekyll-logger
+Merge branch 'master' into changelist_page
+Merge pull request #1156 from nathany/span-go-1153
+Merge pull request #1143 from redwallhp/changing-plugins-page
+Merge @mattr's history update with mine
+Merge pull request #1139 from scribu/cucumber-fix
+Merge pull request #1124 from jpiasetz/master
+Merge pull request #1142 from kmikael/filters-documentation
+Merge pull request #1136 from mojombo/migrators-docs-updates
+Merge pull request #1063 from Kelsin/fixing-paginate_path-for-windows
+Merge pull request #1123 from mainerror/docs_overflow_auto
+Merge pull request #1115 from clang1234/master
+Merge pull request #1121 from mojombo/non-zero-exit-on-liquid-exception
+Merge pull request #1114 from mojombo/backwards-compatibilize-exclude-include
+Merge branch 'master' of github.com:mojombo/jekyll
+Merge in additional changes from mojombo/jekyll
+Merge pull request #1116 from blinry/master
+Merge latest commits from mojombo/jekyll
+Merge pull request #1035 from tkareine/add_minibundle_to_plugin_list
+Merge pull request #1057 from mojombo/refactor-related-posts
+Merge pull request #1107 from pauloppenheim/master
+Merge branch 'master' into refactor-related-posts
+Merge pull request #1106 from mojombo/stevenson
+Merge branch 'add_contentblocks' of git://github.com/rustygeldmacher/jekyll into rustygeldmacher-add_contentblocks
+Merge pull request #1089 from zachgersh/cobyism_style
+Merge pull request #1101 from sankage/upgrade-docs
+Merge branch 'master' into changelist_page
+Merge pull request #1066 from Rowno/data-language
+Merge pull request #1081 from mojombo/relative-permalinks
+Merge pull request #1078 from maul-esel/fix-num-category
+Merge pull request #1084 from maul-esel/deprecate-old-config
+Merge branch 'master' into changelist_page
+Merge branch 'master' into relative-permalinks
+Merge pull request #1079 from maul-esel/docs-remove-pygments
+Merge benbalter:docs-pages #985
+Merge pull request #1073 from zachgersh/link_change
+Merge pull request #1067 from stomar/kramdown
+Merge pull request #1053 from mojombo/redcarpet-respect-pygments
+Merge pull request #1048 from mojombo/fix-toc-rdiscount
+Merge pull request #1037 from djui/patch-1
+Merge pull request #1027 from benbalter/markdownify-changelog
+Merge pull request #1045 from mojombo/fix-lsi-build
+Merge pull request #1032 from pborreli/typos
+Merge pull request #1028 from pborreli/site-typos
+Merge branch 'master' of github.com:mojombo/jekyll
+Merge pull request #1025 from Nikkau/patch-1
+Merge pull request #1022 from olov/patch-1
+Merge pull request #1018 from kivikakk/readme_links
+Merge pull request #965 from benbalter/upgrading-docs
+Merge pull request #1016 from mojombo/fix-pagination
+Merge pull request #992 from maul-esel/consistent-page.url
+Merge pull request #964 from benbalter/html-template-site
+Merge pull request #998 from dhcole/master
+Merge pull request #1015 from mojombo/loose-pygments-dep
+Merge pull request #1014 from mojombo/string-times
+Merge pull request #860 from cobyism/responsify
+Merge pull request #1007 from michaelklishin/patch-1
+Merge pull request #1004 from uu59/fix_limit_posts_from_cli
+Merge pull request #1001 from mojombo/refactoring-convertible
+Merge pull request #1002 from mojombo/refactor-post
+Merge pull request #989 from mojombo/docs-proofreading
+Merge branch 'master' of github.com:mojombo/jekyll
+Merge configuration properly. Closes #978.
+Merge pull request #977 from maul-esel/no-layout-defaults
+Merge pull request #957 from mojombo/timezonify
+Merge branch 'master' of github.com:mojombo/jekyll
+Merge pull request #959 from mojombo/deprecator
+Merge pull request #968 from maul-esel/cucumber-fix
+Merge pull request #955 from mojombo/refactor-markdown
+Merge pull request #907 from advatar/pkpass_mime_type_support
+Merge pull request #966 from benbalter/quick-start-scaffold
+Merge pull request #961 from benbalter/default-markdown-engine
+Merge pull request #962 from dracula2000/refactor-site
+Merge pull request #956 from jhauraw/doc-var-excerpt
+Merge pull request #953 from mojombo/refactor-configuration
+Merge pull request #954 from maul-esel/liquid-override-path
+Merge pull request #951 from maul-esel/liquid-file-path
+Merge pull request #952 from mojombo/refactor-commands
+Merge pull request #946 from maul-esel/preserve_excerpt
+Merge pull request #945 from voidfiles/master
+Merge pull request #413 from sethladd/master
+Merge pull request #942 from mojombo/pagination-paths
+Merge pull request #941 from dracula2000/refactor-features
+Merge pull request #939 from jroes/patch-1
+Merge pull request #938 from maul-esel/restrict-cucumber
+Merge pull request #935 from mojombo/baseurl-normalization
+Merge pull request #928 from danieldriver/ordinal_date
+Merge pull request #934 from mojombo/auto-to-watch
+Merge pull request #918 from mojombo/awesome-docs
+Merge pull request #875 from mojombo/posts-cant-be-dirs
+Merge pull request #892 from rafaelrosafu/master
+Merge pull request #890 from zachgersh/abbreviated_month
+Merge pull request #921 from tombell/patch-1
+Merge remote-tracking branch 'mojombo/master' into responsify
+Merge pull request #909 from x3ro/symlinked-static-files
+Merge pull request #916 from AlexanderEkdahl/directory_pre_load
+Merge pull request #913 from dracula2000/master
+Merge pull request #910 from x3ro/fix-import-command-parameters
+Merge pull request #885 from mattr-/remove-unused-code
+Merge pull request #872 from mojombo/downcase-post-cats
+Merge branch 'master' of github.com:mojombo/jekyll
+Merge pull request #853 from davecranwell/master
+Merge pull request #861 from danielgrieve/gist-tag
+Merge pull request #871 from mojombo/gh-pages-mime-types
+Merge pull request #869 from mojombo/baseurl-in-liquid
+Merge pull request #862 from mojombo/fix-autogen-dest-prob
+Merge pull request #837 from ixti/feature-excerpt
+Merge pull request #764 from mojombo/jekyll-new
+Merge master into jekyll-new
+Merge pull request #864 from mojombo/prioritize_plugins
+Merge pull request #863 from mojombo/accept-custom-config
+Merge pull request #856 from danielgrieve/jekyll-new
+Merge pull request #855 from danielgrieve/remove-ruby-version
+Merge pull request #851 from jroes/jekyll-new
+Merge pull request #838 from mattr-/dedupe-entry-generation
+Merge pull request #847 from mojombo/mime_file
+Merge pull request #829 from stomar/patch-1
+Merge pull request #536 from fotos/fix_page_dir
+Merge pull request #835 from larrylv/fix-typo
+Merge branch 'drafts-fixup'
+Merge pull request #832 from mojombo/features-html
+Merge pull request #831 from dhilgarth/feature/fix_post_url
+Merge branch 'drafts' of https://github.com/scribu/jekyll into scribu-drafts
+Merge pull request #826 from chapmajs/patch-1
+Merge pull request #785 from lenniboy/master
+Merge pull request #824 from sinamt/symlinked_folders
+Merge pull request #654 from mattr-/issue-653
+Merge branch 'master' into issue-653
+Merge pull request #822 from mojombo/gist-tag
+Merge pull request #820 from mojombo/fix-autoregen-loop
+Merge pull request #795 from mojombo/new-log-format
+Merge pull request #788 from mojombo/add-opts
+Merge pull request #815 from bhardin/fixing_help
+Merge pull request #807 from mojombo/safeyaml-warnings
+Merge pull request #801 from kevinSuttle/master
+Merge pull request #806 from scribu/patch-1
+Merge pull request #799 from apodlaski/remove-migrators-from-gemspec
+Merge pull request #792 from mojombo/alias-serve-to-server
+Merge pull request #793 from mojombo/remove-migrators
+Merge pusewicz/bump-gems from #744
+Merge branch 'code-cleanup' of git://github.com/tombell/jekyll into code-cleanup Module Cleanup
+Merge pull request #775 from metamatt/issue773
+Merge pull request #767 from mojombo/string-categories
+Merge pull request #777 from mastahyeti/safe_yaml
+Merge pull request #776 from tombell/script-bootstrap
+Merge pull request #771 from mojombo/fix-coverage
+Merge pull request #684 from mattr-/issue-680.
+Merge pull request #671 from fzero/master
+Merge pull request #765 from mattr-/fix-coverage
+Merge branch 'master' into issue-653
+Merge branch 'master' of github.com:mojombo/jekyll
+Merge pull request #664 from Jashank/faster_lsi
+Merge pull request #496 from dunsmoreb/issue/481
+Merge pull request #751 from mojombo/new-cmds-docs
+Merge branch 'master' of github.com:mojombo/jekyll
+Merge pull request #743 from mccxj/master
+Merge pull request #616 from hokaccha/fix_pygments_opt
+Merge pull request #690 from tombell/jekyll-command-redux
+Merge branch 'master'
+Merge pull request #750 from mojombo/update-travis-config
+Merge pull request #685 from edeustace/keep_files_feature
+Merge remote-tracking branch 'jekyll/master'
+Merge pull request #745 from erictheise/master
+Merge pull request #746 from mattr-/contributor-guidelines
+Merge remote-tracking branch 'upstream/master' into issue-653
+Merge branch 'master' into 'jekyll-command-redux'
+Merge branch 'patch-1' of https://github.com/jlecour/jekyll into jlecour-patch-1
+Merge branch 'docs' of https://github.com/icco/jekyll into icco-docs
+Merge pull request #728 from mojombo/ruby-version-file
+Merge pull request #651 from alagu/master
+Merge branch 'master' of https://github.com/enure/jekyll into enure-master
+Merge pull request #721 from mrueg/patch-1
+Merge branch 'message-for-yaml-error' of https://github.com/stereobooster/jekyll into stereobooster-message-for-yaml-error
+Merge pull request #699 from nitoyon/0-12-0-history
+Merge branch 'deletion_protection' of https://github.com/jasonroelofs/jekyll into jasonroelofs-deletion_protection
+Merge branch 'master' of git://github.com/mojombo/jekyll
+Merge branch 'fix/front-matter-regexp' of https://github.com/zimbatm/jekyll into zimbatm-fix/front-matter-regexp
+Merge branch 'master' of https://github.com/Neil-Smithline/jekyll into Neil-Smithline-master
+Merge branch 'master' of https://github.com/wbrady/jekyll into wbrady-master
+Merge branch 'redcarpet-update' of https://github.com/tombell/jekyll into tombell-redcarpet-update
+Merge pull request #683 from petedmarsh/master
+Merge branch 'master' of git://github.com/mojombo/jekyll
+Merge branch 'alagu-posterous-importer-rebased' of git://github.com/simensen/jekyll
+Merge pull request #574 from tombell/remove-rbx-travisci
+Merge branch 'switch-to-pygmentsrb' of https://github.com/tombell/jekyll into tombell-switch-to-pygmentsrb
+Merge pull request #568 from tombell/travis-ci
+Merge branch 'custom-layout-directory' of https://github.com/tombell/jekyll into tombell-custom-layout-directory
+Merge branch 'master' of https://github.com/daneharrigan/jekyll into daneharrigan-master
+Merge branch 'PluginsAsArray' of https://github.com/simensen/jekyll into simensen-PluginsAsArray
+Merge remote-tracking branch 'origin/alagu-master' into alagu-posterous-importer-rebased
+Merge pull request #472 from nfm/patch-1
+Merge branch 'post_url' of https://github.com/thatguystone/jekyll into thatguystone-post_url
+Merge pull request #446 from ossxp-com/patch-1
+Merge pull request #419 from vjt/master
+Merge pull request #460 from kendagriff/master
+Merge pull request #426 from joshbrown/master
+Merge pull request #368 from jacius/wordpress
+Merge pull request #384 from voxpelli/drupal-alias-redirect
+Merge pull request #383 from voxpelli/drupal-db-prefix
+Merge branch 'master' of https://github.com/jpravetz/jekyll into jpravetz-master
+Merge pull request #437 from stephenmcd/master
+Merge branch 'master' of https://github.com/tmtk75/jekyll into tmtk75-master
+Merge pull request #447 from mking/master
+Merge branch 'patch-1' of https://github.com/hypertexthero/jekyll into hypertexthero-patch-1
+Merge branch 'categories_with_space' of https://github.com/spk/jekyll into spk-categories_with_space
+Merge branch 'master' of https://github.com/laumann/jekyll
+Merge branch 'master' of https://github.com/RJ/jekyll into RJ-master
+Merge branch 'include' of https://github.com/lukebayes/jekyll into lukebayes-include
+Merge pull request #1 from simensen/alagu-master
+Merge pull request #1 from cgroner/master
+Merge github.com:mojombo/jekyll
+Merge pull request #409 from wagenet/master
+Merge https://github.com/mojombo/jekyll
+Merge remote-tracking branch 'kou/fix-error-message'
+Merge remote-tracking branch 'richbecks/master'
+Merge pull request #356 from mpalmer/yaml-exception-message
+Merge git://github.com/mojombo/jekyll
+Merge pull request #354 from juliangruber/patch-1
+Merge remote-tracking branch 'mjschultz/master'
+Merge remote-tracking branch 'derekprior/configurable_coverter_file_extensions'
+Merge pull request #328 from shoaibkamil/master
+Merge remote-tracking branch 'vazexqi/patch-1'
+Merge branch 'next'
+Merge remote-tracking branch 'MattHall/redcarpet'
+Merge https://github.com/mojombo/jekyll
+Merge remote-tracking branch 'rodrigopinto/master'
+Merge remote-tracking branch 'tonycosentini/master'
+Merge remote-tracking branch 'guilleiguaran/patch-1' into devel
+Merge remote-tracking branch 'jbw/ruby-v1.9' into devel
+Merge remote-tracking branch 'MattHall/cli' into test
+Merge remote-tracking branch 'phatblat/master' into test
+Merge remote-tracking branch 'elia/master' into devel
+Merge remote-tracking branch 'MattHall/posterous' into devel
+Merge remote-tracking branch 'ab9/master' into devel
+Merge remote-tracking branch 'zenspider/master' into devel
+Merged wordpress.com migrator fix from 'heuripedes/jekyll'
+Merge remote branch 'sos4nt/remove-orphaned-files'
+Merge remote branch 'MattHall/master'
+Merge remote branch 'mattdipasquale/master'
+Merge remote branch 'jasongraham/kramdown-support'
+Merge remote branch 'stmpjmpr/master'
+Merge remote branch 'remotes/mojombo/master'
+Merge remote branch 'tomash/master'
+Merge remote branch 'claco/uri-escape'
+Merge remote branch 'jlecour/master'
+Merge remote branch 'cblunt/limit_posts'
+Merge remote branch 'lpenz/master'
+Merge branch 'limit_posts' of github.com:cblunt/jekyll into limit_posts
+Merge remote branch 'ctrochalakis/rdiscount_extensions'
+Merge remote branch 'christianhellsten/master' into next
+Merge remote branch 'darwin/site_url_from_cmdline'
+Merge remote branch 'koraktor/pygments-options' into next
+Merge remote branch 'sharms/master'
+Merge remote branch 'technoweenie/no-leading-zeroes'
+Merge branch 'enh_pages_in_payload'
+Merge branch 'issue_64_broken' into enh_pages_in_payload
+Merge branch 'enh_pages_in_payload'
+Merge branch 'issue_119' of github.com:krisb/jekyll into issue_119
+Merge commit 'a49326719132242c05e744f59d3c8b4afc1435e2'
+Merge commit 'b1a055f10dc921fd8ec03db703d2fb0608179f4d'
+Merge branch 'enh_post_date_in_front_matter_issue_62'
+Merge branch 'fix_tags_and_categories_issues_73_and_84' into updates_20100110
+Merge commit 'e3bd1c88e9ad6c9d6c89a543ca72c82a289b6bd7'
+Merge commit '597c7a7904198d92aa5eacad356019165685c311'
+Merge commit 'krisb/fix_for_test_redcloth_version'
+Merge branch 'jamie/master'
+Merge branch 'fix_for_render_order_issue71'
+Merge branch 'fix_for_test_redcloth_version'
+Merge commit 'bahuvrihi/master'
+Merge commit 'ujh/master'
+Merge commit 'qrush/permalinks'
+Merge branch 'qrush/shoulda' into can_has_good_tests
+Merge commit '992c4a8e6f71334f6c1a422c3547fdc535e7c8c2'
+Merge commit 'fb4902799746b08424eb7c483f8219e26e20d3e3'
+Merge commit 'fab8442432f473ba647c682608bc8ff9ced6cca2'
+Merge commit '7655c745c46559d7598b5558fc9bf6fa8b215e28'
+Merge commit 'ee65dadc9a5ae5fc8f19848754f7175ebd630375'
+Merge commit '60709da7067fbe1d106fbdfadb3a84b35d07d721' into qrush
+Merge commit 'd9b183f99826df630eedeae29f70005993da3d64' into cat
+Merge commit 'bac34fab3a27a12b35add1ecab409b19941e29a6'
+Merge commit 'ea70d8ac7ae26f' into amp
+Merge commit 'd397b762dae'
+Merge commit '6980948528f'
+Merge commit 'a0da1249a31faa704'
+Merge commit '5cfa956448f00730'
+Merge commit '32a9b6b8dd330e826'
+Merge commit 'mojombo/master'
+Merge commit '87a5e747f'
+Merge commit '4f677f627ef569be8'
+Merge branch 'date-format'
+Merge commit '5a954e'
+Merge commit 'b45fd6'
+Merge commit '6bfaa6'
+Merge commit '6d8c73'
+Merge commit '8d08a2'
+Merge commit 'b094b9'
+Merge branch 'master' of git@github.com:pjhyett/jekyll
+Merge commit '01828dada88a6ce2ebd72268c87d79d7bd60a3fd'
+Merge commit '767d99b5bffc9fd188b1fbd1b67aef20014bc1b7'
+Merge commit 'c31d67'
+Merge commit 'f3a1aa'
+Merge commit 'ad29ef'

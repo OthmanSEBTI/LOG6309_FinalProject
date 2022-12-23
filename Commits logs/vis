@@ -1,0 +1,2604 @@
+Set version to 0.8-git
+wl-paste and wl-copy should not add \n to the end of the clipboard.
+Revert "vis-lua: support themes in vis:message"
+Add filetype detection for SPEC file for RPM packages building.
+Update used OSes for GitHub Actions
+vis-clipboard: clean up bashisms and make shellcheck happy.
+filetype: actually match filename
+vis: Some duplicate files were overlooked due to a condition in the wrong place
+vis: Compare non-existing files by name and existing files by inode
+simplify loop to sanitize filename and read extension
+vis: Compare inodes instead of filenames
+Add support for the Hare language file type
+filetype: add .bashrc and .bash_profile
+man: explicitly document default mark usage
+vis-lua: support themes in vis:message
+lexers: add .jsx and .tsx as a javascript (until they get their own)
+Makefile lexer now supports multiple targets in single definition
+filetype: support filetype detection via hashbang
+build: update alpine in docker build to version 3.16
+filetype: Set diff filetype for COMMIT_EDITMSG files
+filetype: Allow ".PKGBUILD" extension for PKGBUILDs
+filetype: add .glif to xml
+filetype.lua: Add "text/x-script.python" to python
+README: fix typo
+Re-enabled tre by #including <stddef.h>.
+README: x/freenode/c/libera/
+filetype: Set "groovy" for Jenkinsfile
+ci: verify coverity scan script before using it
+ci: verify codecov script before using it
+vis: Add readline Ctrl+A/E bindings
+add lua5.4 in configure script
+vis: correctly close pipe connected to stdin of external process
+sam: simplify trailing match handling for x/y commands
+sam: tweak handling of zero length matches in y commands
+gitignore: remove vim specific swap files
+test: update
+sam: produce empty match at the end of looped range
+sam: only skip the last empty match if it follows a newline
+build: update alpine in docker build to version 3.13
+Merge branch 'patch-1' of https://github.com/dallinjdahl/vis
+Adding .sv extension to verilog syntax highlighter
+filetype: Detect make shebang for "makefile".
+filetype: Set "bash" for APKBUILD and .ebuild.
+lexers/git-rebase: also highlight break command
+lexers/strace: improve comments, field names and syscall results
+Mention pkg-config in README
+vis-lua: provide file.permission property
+vis: implement multiline to/till motions
+vis: rename to/till motion internals
+lua: fix luacheck warnings
+Merge branch 'fix-typos' of https://github.com/moesasji/vis
+fix typos in comments
+vis: make O implementation independent of <Up> mapping
+lexers: fix bug in bash lexer for last here-doc
+build: add git based version information back
+Set version to 0.7
+Add gemini lexer
+Merge branch 'master' of https://github.com/KaneRoot/vis
+Zig filetype entry.
+Adding Zig lexer.
+Merge branch 's-0-bash-heredoc' of https://github.com/silasdb/vis
+Heredocs with "-" can have spaces before closing
+lexers: add meson build file lexer
+ci: avoid usage of ::add-path:: command in GitHub action
+test: update
+view: make view_selections_dispose_all O(n)
+Make SourceHut badge show status of master branch commits
+correct a couple of typos and distinguish between immediate and waiting operators
+vis: fix <C-c> processing after SIGINT
+build: fix curses library/pkg-config name
+vis: use localtime_r(3) instead of localtime(3)
+sam: simplify boolean expression, start < end implies end > 0
+map: remove no longer used map_leaf function
+Merge branch 'master' of https://github.com/ccao001/vis
+build: use feature test macros for memrchr configure check
+build: add -D_NETBSD_SOURCE for NetBSD
+lua: fix typo in lilypond file extension
+test: update
+text: simplify iterator_init
+text: fix invalid pointer comparison
+text: avoid invalid pointer arithmetic
+test: update
+text: move higher level utility functions to separate file
+text: move generic iterator functionality to separate file
+text: move I/O related code to separate file
+build: list source files on separate lines
+text: provide public text_iterator_init
+text: rename internal text_iterator_init
+text: mark return value of text_iterator_text as const
+text: make text_snapshot return whether it succeeded
+array: mark array_peek argument as const
+array: mark array_capacity argument as const
+array: mark array_init_from argument as const
+text: mark text_delete_range range argument as const
+text: mark text_save_write_range range argument as const
+text: mark text_mmaped argument as const
+array: mark array_get_ptr argument as const
+array: mark array_get argument as const
+array: mark array_length argument as const
+text: mark text_write{,_range} argument as const
+text: mark text_size argument as const
+text: mark text_mark_get argument as const
+text: mark text_iterator_byte_get argument as const
+text: mark text_bytes_alloc0 argument as const
+text: mark text_byte(s)_get argument as const
+text: mark text_iterator_get argument as const
+text: mark text_state argument as const
+text: mark text_modified argument as const
+text: mark text_stat argument as const
+text: introduce text_iterator_text
+text: introduce text_iterator_has_{next,prev}
+text: add namespace prefix to block type constants
+text: avoid direct access to txt->blocks in I/O related code
+text: introduce text_saved
+text: use public text_stat interface where possible
+text: introduce block_load
+text: store blocks in array
+text: simplify reading of initial file content
+vis: add vis-selection-new-match-all
+vis: refactor selections_match_next
+text: add text_object_find_next/prev
+filetype: and Node.js module extensions
+test: update
+Merge branch 'ts' of https://github.com/erf/vis into master
+Merge branch 'emg-add-ignorecase' of https://github.com/deepcube/vis into master
+Merge branch 'routeros' of https://github.com/eworm-de/vis into master
+Merge branch 'filetype' of https://github.com/eworm-de/vis into master
+Merge branch 'csi_event' of https://github.com/ezdiy/vis into master
+lexers: add .ts as a javascript (until typescript gets its own)
+Add ignorecase option
+lexers: add Mikrotik RouterOS script lexer
+filetype: do not match text/plain too early
+filetype: use scheme lexer for racket files
+text: improve text_line_down on the last line of the file
+vis-lua: provide vis.mark property
+vis-lua: use utility function to translate mark names
+vis: provide reverse mapping function for mark names
+vis-lua: provide vis.register property
+vis-lua: use utility function to translate register names
+vis: provide reverse mapping function for register names
+vis-lua: fix mark_names Lua doc indentation
+Pass up terminal CSI as events to Lua.
+text: improve and simplify inner word text object
+vis: improve C-n behavior in visual mode
+vis: implement C-n in normal mode with a mapping to viw
+text: make inner text objects work on single delimiting symbols
+text: provide save function taking a directory descriptor
+text: provide load function taking a directory descriptor
+text: move misplaced text_save documentation snippet
+vis-lua: fix redraw method name in API documentation
+vis-lua: make file.modified assignable
+doc: update doxygen configuration
+Update copyright year
+doc: update version number in doxygen config
+doc: use c as default sphinx role
+doc: enable C syntax highlighting by default
+doc: fix a couple of API doc warnings
+vis: remove ae outer entire text object
+vis: remove ie inner entire text object
+vis: remove z> rightmost pairwise selection combinator
+vis: remove z< leftmost pairwise selection combinator
+vis: remove z- shorter pairwise selection combinator
+vis: remove z+ longer pairwise selection combinator
+vis: remove z& pairwise selection intersection
+vis: remove z| pairwise union
+vis: remove commented entries from default config
+vis: use ~ instead of ! for selection complement
+vis: remove ~ as alias for g~
+vis: remove window related aliases from default config
+vis: remove special key aliases from default config
+test: update
+test: update
+support for primary clipboard
+vis-open: add trailing "/" for the folders
+build: mark distclean and testclean targets as PHONY
+Makefile: add testclean target
+Makefile: add distclean target
+build: define LUA_COMPAT_5_3
+text: simplify remapping of original file content
+text: remove dead store
+text: code cleanup, use local variable
+text: fix typo in comments, no code change
+Support wayland clipboard (wl-clipboard)
+build: add git based version information back
+build: set version to 0.6
+ui: fix terminal UI on serial console
+test: update
+vis: fix implicit enum conversion warning
+build: update alpine in docker build to version 3.12
+doc: update outdated version information
+doc: update sphinx configuration to python 3
+test: update
+text: introduce text_save_method, remove text_save_range
+test: update
+build: use -O2 by default
+vis: cleanup pre-processing of :-commands
+Tweak README
+vt100: do not crash if termkey is not yet initialized
+ui: fix line number drawing
+build: fix _XOPEN_SOURCE redefinition warning
+vis: make <Escape> reset count in visual modes
+vis: make <Escape> reset count in normal mode
+lexers: prioritize markdown list rule
+lexers: make markdown white space rule less greedy
+man: document theme location
+Avoid use of VLAs
+vt100: use shorter escape sequence to clear screen
+Add Julia lexer
+Merge branch 'single-cursor-is-primary' of https://github.com/3dc1d3/vis
+color-column: Don't change fg/bg if not set explicitly
+Set single cursor style as primary, not secondary
+sam: fix X and Y commands which were interchanged
+Add Elm lexer
+sam: fix spurious "file exists" warnings
+build: provide install-strip make target
+ci: fix Alpine build by installing terminfo data
+test: update
+ci: remove Travis CI integration
+ci: remove Appveyor integration
+ci: improve OpenBSD Lua installation
+ci: make sure en_US.UTF-8 locale is available on Debian
+ci: disable codecov commit status updates
+vis-lua: implement vis:redraw()
+lua: add `redrawtime` option
+lua: fix documentation typos and errors
+lua: optimize the win:style() loop
+ci: update README status badges
+sam: warn when attempting to write to an existing file
+sam: fix modification time comparision when writing file
+ci: fix test coverage upload
+test: update
+sam: re-take range after pre-save hooks are run
+ci: add periodical coverity scan check
+ci: add Lua API documentation generation
+ci: add Lua static code analysis
+ci: add man page generation
+ci: add windows builds
+ci: add macOS builds
+ci: add ubuntu builds
+test: update
+ci: add sourcehut build manifests
+test: update
+sam: support optional count for text commands
+sam: move parse_number code, no functional change
+lexers: fix TOML comments not being detected
+lexers: remove TOML indent error
+vis-lua: avoid string memory leaks in error case
+vis: omit error message when vis-menu(1) is cancelled
+vis-menu: use distinct error code upon cancelling selection
+lexers: add git rebase lexer
+filetype: highlight column 72 in git commit messages
+lexers: ruby squiggly heredocs
+filetype: add more Prolog filename extensions
+vis: restore mode when dot-repeating
+lua: add <plugin>/init.lua to package.path
+build: improve debug flags
+doc: update release number
+Merge branch 'lexer-c' of https://github.com/zsugabubus/vis
+Merge branch 'fix-cc-cell' of https://github.com/zsugabubus/vis
+vis: make core code more robust
+array: make array_sort work for empty arrays
+build: properly kill docker container
+vis: improve <C-n> in visual mode
+vis: simplify selections_match_next
+build: explicitly specify working directory for docker
+lexers: also apply 7e9e0a2 to html and wsf lexers
+lexers: XML performance improvement
+Merge branch 'case-visual-mode' of https://github.com/erf/vis
+lexers: add reference to new upstream location
+lexers: fix crash in rst lexer
+main: fix a few mistakes in comments
+view: Fix a @param name in a comment
+vis: Fix a few :help strings
+man: fix mandoc linting warnings
+man: fix skipping empty macro warnings
+man: fix mandoc warnings as reported by make man
+build: explicitly list configure options for docker builds
+build: cleanup docker package installation
+build: allow to replace docker
+build: add target docker-clean
+build: clean up docker build
+vis: support an optional exit status in :q and :qall commands
+build: fix generation of HTML man pages
+Merge branch 'master' of https://github.com/eafe/vis
+lexers: add case keyword to rc lexer
+vis: make r<Enter> insert a new line
+vis: pass absolute path to pre/post save events
+lexers: fix incorrect (and *very* slow) YAML lexer token
+vis: don't search off screen when highlighting matches
+text: ignore fsync(2) errors on unsupported directory descriptors
+sam: fix ^ anchor behavior in looping commands
+text: unconditionally use REG_NOTEOL for backward searches
+Merge branch 'add-layout-option' of https://github.com/kdsch/vis
+man: remove redundant layout option abbreviation
+remove redundant layout option abbreviation
+text: fix search wrapping for overlapping matches
+text: fix spurious regex anchor matches
+add layout option to manpage
+Merge branch 'master' into add-layout-option
+Merge branch 'fix-search-wrap' of https://github.com/zsugabubus/vis
+Merge branch 'acl-static' of https://github.com/eworm-de/vis
+build: try to fix travis-ci by installing libtool-bin
+build: force enable acl for docker builds
+Merge branch 'patch-1' of https://github.com/erf/vis
+build: install static libacl for docker builds
+build: try to fix travis-ci by installing libtool
+Merge branch 'solarized-term' of https://github.com/xcko/vis
+Merge branch 'fix-menu-warns' of https://github.com/zsugabubus/vis
+Merge branch 'text' of https://github.com/zsugabubus/vis
+build: update libuntar used in docker builds
+Merge branch 'alping-3-11' of https://github.com/eworm-de/vis
+lexers: add Fennel support
+Merge branch 'master' of https://github.com/silasdb/vis
+vis: don't draw colorcolumn after the end
+vis: fix search wrapping bugs
+vis-menu: fix sign-compare compiler warnings
+filetype: try text lexer as a last resort
+lexers: match whitespaces in text lexer
+lexers: update ansi_c
+build: update alpine in docker build to version 3.11
+build: skip sam related tests on macOS travis infrastructure
+Merge branch 'ft-exact' of https://github.com/michaelforney/vis
+Merge branch 'alpine-3-10' of https://github.com/eworm-de/vis
+build: update alpine in docker build to version 3.10
+filetype: Match known filenames exactly
+Add layout option
+libtermkey version 0.22 + checksum
+build: update lpeg to version 1.0.2
+Heredoc delimiter should end with a newline
+update libtermkey
+build: try to fix travis macOS build
+Merge branch 'master' of https://github.com/jocap/vis
+Merge branch 'master' of https://github.com/msiism/vis
+Merge branch 'alpine-3-9' of https://github.com/eworm-de/vis
+build: update alpine in docker build to version 3.9
+Improve comma usage and hyphenation in intro
+Fix configure on DragonFly BSD
+vis-lua: add file type detection for executable shell scripts
+change case in visual mode with u and U ( vim comp )
+solarized themed terms do not need bg and fg set again
+add tab character to special characters array (#1)
+test: update
+text: only default to mmap for files larger than 64 MiB
+vis: add loadmethod option
+text: allow to specify how the file content should be loaded
+sam: always apply | command to existing selections
+sam: normalize selections after command execution
+sam: change nomencalture, use selection where appropriate
+man: Mark command line arguments with .Cm
+man: Mark ranges with en-dashes
+man: Mark a few parameters with .Ar
+man: Mark a few literals with .Li
+man: Mark a few commands with .Ic
+man: Add a couple missing .Ic
+man: Add a missing paragraph separator
+man: Undocument a recently removed feature
+man: This tip belongs to the last list item
+vis: make % motion match quotes and backticks as well
+vis: simplify C status bar drawing code
+vis: display count/input queue content in status bar
+vis-lua: expose current input_queue content
+Add support for Fantom language syntax highlighting
+add plist (xml) filetype
+test: upate to adapt to recent changes
+vis: make sure zb redraws line at the bottom if possible
+sam: keep selections after :> command
+vis: remove v and V in operator pending mode
+vis: remove gP
+vis: remove gp
+vis: implement g~ using tr(1)
+vis: implement gU using tr(1)
+vis: implement gu using tr(1)
+vis: remove gq alias for =
+text: use mkstemp(3) for temporary file creation in atomic saves
+text: do not unlink existing `file~` when saving to `file`
+lexers: handle pony triple quoted strings properly
+Update year numbers in copyright information
+ui: make sure $TERM is set
+array: fix off by one error in array_remove
+Merge branch 'typos' of https://github.com/Two-Finger/vis
+Updates to ruby lexer:
+Fix "parenthese" in identifiers
+lexers: add async/await keywords to javascript
+Merge branch 'rej' of https://github.com/eworm-de/vis
+Add .rej as a diff/patch file extension
+main: fix a few typos in comments
+man: fix POSIX vi(1) reference
+lexers: remove execution file permission from clojure lexer
+build: add git based version information back
+build: set version to 0.5
+build: build standalone binary against latest Alpine packages
+build: try to use POSIX tools/options for vis-single target
+vis-single: add missing header include for signal(2)
+Merge branch 'lpeg-ac_check_lib' of https://github.com/Two-Finger/vis
+configure: Improve LPeg detection
+Merge branch 'zenburn-theme' of https://github.com/casr/vis
+Merge branch 'paranthese-typo' of https://github.com/Two-Finger/vis
+Merge branch 'scheme-filetype' of https://github.com/Two-Finger/vis
+view: use strncat instead of an inline loop to concatenate cell data
+view: fix buffer overflow when dealing with combining characters
+view: properly advance over incomplete unicode sequence
+Reset parsing state after mbrtowc(3) failure
+lua: add more Scheme filename extensions
+Fix a typo in identifiers
+Merge branch 'vis-open-fixes' of https://github.com/kj/vis
+vis: improve handling of linewise ranges in change operator
+Add clojure lexer and filetype support
+lexer: add reference to ReasonML homepage
+Merge branch 'lexer-improvements' of https://github.com/roguh/vis
+Adds basic Reason ML lexer.
+Add .yml as a YAML file extension
+Add ^Vagrantfile$ as a Ruby file extension
+vis: implement normal/outer paragraph text object
+text-object: implement more precise paragraph text object
+text-motion: ignore blank lines for next/prev paragraph motions
+text-motion: implement text_line_blank_{prev,next}
+vis: reset count after window scroll/slide actions
+Fix asm lexer to correctly match conditional jcc, cmovcc, and setcc instructions
+sam: fix g/^$/
+configure: fix static lpeg detection messages
+Merge branch 'colors-6.1' of https://github.com/michaelforney/vis
+man: add a note about the visrc.lua structure to vis.1
+Merge branch 'master' of https://github.com/ii8/vis
+Support COLOR_PAIRS > SHRT_MAX
+lua: recognize scheme library definition files
+lexers: improve scheme lexer
+lexers: pony missing tilde for unsafe operators
+vis-complete: send whole paths for completion
+vis-complete: Strip the common part
+vis-complete: Show just basenames in vis-menu
+vis-complete: Slight refactoring
+test: update
+vis: keep <C-j> mapped to <Enter> in command line window
+vis: insert carriage return upon <C-v><C-j> in insert mode
+vis: insert literal new line upon <C-j> in insert mode
+build: abort configure scripts upon interrupts
+lua: reap the zombie after io.popen()
+build: use pkg-config to find lpeg
+PHP lexer: stop line comments right before ?>
+lua: fix theme loading when lexer module is not available
+vis: remove now unused variable in prompt handling code
+vis-open: fix creating new files in selected directory
+vis: fix command malfunction triggered by special cursor position
+vis-open: fix for absolute and non-existent paths
+lexers: add pony
+vis: do not override default register on delete operations in insert mode
+vis: improve `cw` behavior
+Add a key combo example of mark usage
+vis: make selections visible when lua support has been disabled
+vis: let <C-c> behave as <Escape> if only one selection exists
+build: update alpine in docker build to version 3.7
+build: remove erroneous libtermkey dependency
+Python lexer: recognize python3's async/await keywords
+vis-lua: implement window:close
+vis-lua: do not enumerate internal windows
+Update erlang syntax lexer.
+vis: take symbolic keys into account when evaluating key prefixes
+man: remove outdated key mapping
+lexer: associate *.conf to the ini lexer
+lexer: fix file type association for xs lexer
+themes: add zenburn and make it the default 256 theme
+Add `xs` lexer and mappings.
+man: fix typos and grammar issues
+lexers: fix white space issue of recent php lexer changes
+vis: restore old s mapping in visual mode
+vis: remove ! operator
+Merge branch 'master' of https://github.com/ltobler/vis
+Reassign .cls file extension to latex
+vis.1:  Surround with quotes link-name arguments of .Lk
+vis: ignore SIGQUIT
+- added php constants
+- updated php keywords
+lexers: add copyright statement to strace lexer
+build: add git based version information back
+build: set version to 0.4
+vis: use strncpy to copy into fixed sized buffer
+vis: only draw selections of currently active window
+vis-lua: move marks array to window object
+vis: specify window in mark related API
+vis: fix coverity issue 157025
+man: update manual page with recent developments
+vis: restore s / S normal mode bindings
+vis: remove useless mappings which interfere with jumplist
+vis: use distinct mark to save last selections
+vis: always reduce selections when not in visual mode
+vis-lua: make selection first class primitives in Lua API
+vis: handle further input after mark and register specifiers
+Revert "vis: process aliased key sequences individually"
+vis: cleanup register related API
+vis-lua: represent marks as array of ranges
+test: update
+vis: remove change list
+vis: let '^ mark point to top of jump list
+vis: implement jump list in terms of marks
+array: add helper functions for LIFO usage
+vis: simplify and fix pairwise selection intersection
+vis: simplify selection complement and minus implementation
+vis: rename default mark to '
+Add Myrddin lexer and filetypes entry
+test: update
+vis: perform more renames cursor -> selection
+view: keep but clear primary selection if instructed to replace all
+vis: cleanup marks implementation
+vis: use marks instead of registers to store selections
+text: limit write(2) calls to INT_MAX bytes
+vis: make sure all selections have same anchored state
+Remove conditional initialization from Makefile
+vis: implement `gv` by means of new "^ register
+vis: process aliased key sequences individually
+Fix Unicode regex searches for libtre builds
+man: Fix a typo
+vis: properly set initial window ui options
+Merge branch 'show-eof' of https://github.com/p-e-w/vis
+Merge branch 'theme-tweaks-2' of https://github.com/p-e-w/vis
+test: update
+vis: enable new selection manipulation primitives
+vis: normalize selections after pairwise combination
+vis: implement pairwise selection combinator: rightmost
+vis: implement pairwise selection combinator: leftmost
+vis: implement pairwise selection combinator: shorter
+vis: implement pairwise selection combinator: longer
+vis: implement pairwise selection combinator: intersection
+vis: implement pairwise selection combinator: union
+vis: implement subtraction of selections
+vis: implement complement of selections
+vis: implement intersection of selections
+vis: implement union of selections
+array: add array initialization utility function
+view: make sure primary selection is visible
+vis: allow selections to be restored from registers
+vis: allow active selection to be saved to a register
+vis: add function to query which register was specified
+vis: add basic infrastructure to store selections in registers
+view: add functions to save/restore arbitrary ranges
+view: add functions to get/set all selections
+view: disallow setting of invalid selections
+array: add array_sort utility function
+text-util: add text_range_intersect utility function
+text-util: change definition of range intersection
+vis: normalize selections after motions
+sam: simplify print command implementation
+view: fix view_selections_set
+view: do not automatically anchor selections when setting range
+view: introduce view_selections_normalize
+vis: rename uses of Cursor to Selection
+view: rename view_cursors_column
+view: rename view_cursors
+view: rename view_selection_anchored
+view: rename view_cursors_column{,count,next}
+view: rename view_cursors_number
+view: rename view_cursors_count
+view: rename view_cursors_next
+view: rename view_cursors_prev
+view: view_cursors_selection_restore
+view: rename view_cursors_selection_save
+view: rename view_cursors_selection_start
+view: rename view_cursors_selection_swap
+view: rename view_cursors_selection_clear
+view: rename view_selections_clear
+view: rename view_cursors_selection_get
+view: rename view_cursors_primary_{get,set}
+view: rename view_cursors_clear
+view: rename view_cursor_disposed
+view: rename view_cursors_dispose
+view: rename view_cursors_new
+view: remove view_cursors_multiple
+view: clean up and add documentation
+doc: enable mathjax support for sphinx documentation
+vis: promote selections to first class primitives
+vis: strip double leading slashes of paths
+single: ignore SIGINT in self-extracting process
+More theme improvements
+sam: fix + address
+themes: simplify color definition
+Improve appearance of line numbers and EOF markers
+Add option to hide EOF marker
+build: port self-contained executable to libuntar
+port self-contained executable to libtar
+build: produce reproducible self contained executable
+Merge branch 'strip' of https://github.com/eworm-de/vis
+build: strip vis-single by default
+build: use single threaded compression for reproducible builds
+vis: use more portable format string for wchar_t
+build: inject the version into docker image
+vis: fix compiler warning concerning write(2) return value
+build: remove make standalone leftovers
+build: switch docker image to i386 architecture
+build: try to make docker build reproducible
+build: add a make docker target
+build: cleanup self contained executable
+build: remove standalone
+build: remove shell based self contained executable
+build: allow to build self-contained executable
+build: add Dockerfile for static builds from Alpine
+vis-lua: fix file:match_at API documentation
+lexer: add simple strace(1) output lexer
+ui: reopen terminal read-writeable
+vis-lua: avoid nil values in table returned by vis:mapping
+vis-lua: expose functions to unmap key bindings
+vis-lua: expose currently active key bindings through API
+vis: remove unused enumeration constants
+vis: improve `:<` command implementation
+vis: ensure complete ! command output is displayed
+man: mention regex anchor behavior
+man: mention `o` to change selection direction
+sam: use default address for file looping commands
+build: fix warning in lua related configure check
+vis: immediately update screen after a vis_redraw call
+Add a whitespace rule for the "elixir" lexer.
+Move the #defines within the #include guards
+Fix compilation on GNU Hurd systems
+Link to C API documentation of master branch
+Revert "doc: specify complete file names"
+doc: specify complete file names
+vis: add vis_interrupt{,requested} functions
+vis: add doxygen comments
+vis: improve job control for forked process
+text: remove text_history_get function
+text: remove text_iterate macro
+text: remove text_insert_newline function
+text: remove count argument from text_{earlier,later}
+vis: introduce count iterator to handle interrupted flag
+text: add miscellaneous documentation section
+text: rename text_sigbus to text_mmaped
+text: rename text_byte_get argument name
+map: convert comments to doxygen format
+array: convert comments to doxygen format
+buffer: convert comments to doxygen format
+text: convert comments to doxygen format
+doc: add status badge to README
+doc: use nicer sphinx theme
+doc: add initial documentation files
+doc: add sphinx breathe extension
+doc: add sphinx configuration
+doc: customize Doxyfile
+doc: add default Doxygen file
+ui: ignore whitespace when parsing style options
+vis: fix newline insertion at end of file
+vis: fix # register count
+vis: implement <C-r> in terms of gP
+vis: add # register to insert cursor number
+vis: adapt <C-r> to new register handling code
+vis: start cleaning up register related code
+vis: restructure register handling
+array: implement array_resize
+array: implement array_truncate
+buffer: simplify buffer_content0
+array: implement array_capacity
+vis: rename vis_register_set to vis_register
+build: install miscellaneous documentation
+vis: make certain operations interruptible with <C-c>
+sam: fix negative count specifiers from visual mode
+man: document new count specifier for `g` and `v` commands
+sam: support %n count specifier matching every n-th selection
+sam: add support for negative count specifier
+sam: add support for count specifier to `g` and `y` commands
+sam: distinguish between empty // and no regex
+sam: reject command names containing digits or ending with a hyphen
+build: update libtermeky to version 0.20
+build: tweak CFLAGS for profiling target
+text: do not redefine _GNU_SOURCE
+text: use MB_LEN_MAX instead of MB_CUR_MAX
+vis: reject invalid register name when recording a macro
+vis: remove handling of \r\n line endings
+text: drop special handling of \r\n line endings
+text: add mem{r,}chr(3) based byte search functions
+text: adjust iterator position when switching to adjacent pieces
+text: simplify \r\n handling
+text: introduce text_char_get which converts \r\n to \n
+text: fix iterator semantics regarding windows style newlines
+test: update
+vis: fix memory leak in selection rotation code
+sam: properly free transcript in error case
+Fix formatting in man page
+vis: remove unused struct member
+vis: do not remove indentation of non-empty lines
+vis: add motions to move by codepoints
+vis: automatically dispose invalid cursors
+vis: reject multi letter mark and register names
+Fix Debian package lintian warnings
+text: Add missing va_end() when vsnprintf fails
+vis: improve tab completion in command prompt
+lexers: sync with scintillua changeset 600 rev fdeca0b808bf
+vis: add non-default actions for vi compatible n/N motions
+vis: rename search related constants
+Add more wiki references to the README
+Use a minimal POSIX shar implementation for self extracting executable
+Prefer Lua 5.3
+build: add git based version information back
+build: set version to 0.3
+Merge branch 'master' of https://github.com/joshaw/vis
+lexers: fix perl pattern for horrible regex lines
+vis: properly redraw status bar of windows displaying internal files
+vis-lua: register a panic handler
+vis-lua: use better name for error handling function
+vis-lua: removed unused function declaration
+vis-lua: adjust return value validation of called lua functions
+vis-lua: validate lua state on vis API entry points
+ui: try to fix job control issues with certain shells
+vis-lua: add usage documentation to command_register
+text: use proper open(2) flags when saving inplace
+test: update
+vis: fix wrap around with <C-n>
+vis: do not indent empty lines when right shifting with `>`
+view: rename view_dirty to view_invalidate
+vis: fix syntax highlighting glitches with split windows
+vis: make `cw` and `cW` more vim compatible
+vis: reject invalid option names
+vis-lua: allow operators to be defined as lua functions
+vis: add infrastructure for user specified operators
+view: use correct default cell style
+Move :set horizon option implementaiton to lua
+Move :set theme option implementation to lua
+Move :set syntax option implementation to lua
+vis-lua: make vis.win return nil if no window exists yet
+vis-lua: expose option_unregister function
+vis-lua: expose option_register function
+vis: add infrastructure to dynamically add :set options
+vis: make sure g_ does not cross line boundaries
+Fix errors and add ANS Forth 2012 keywords
+Recognize additional Forth filetype
+man: fix last mandoc linting warning
+Merge branch 'master' of https://github.com/josuah/vis
+vis: fix selection background color
+ui: explicitly initialize cell matrix after resize
+ui: fix vt100 compilation
+build: include dvtm terminfo entries in standalone builds
+ui: further cleanup display code
+man/vis.1: semantic macros, homogenize format
+view: mark view as dirty even when resizing to same size
+vis: remove unnecessary status bar redraw
+vis: remove special case when invalidating windows
+ui: fix display artifacts in info line
+test: update
+build: clarify lpeg related configure option
+Fix README markdown and improve contribution section
+ui: fix compiler warning
+Make Vis' Solarized theme match the official Vim one.
+ui: add some bound checks
+travis: add non-curses builds to test matrix
+Add experimental raw vt100 UI backend
+Restructure display code
+standalone: use stronger hashing algorithm for source verification
+lua: add filetype detection for Plan9 rc and derivatives
+travis: add TRE regex backend to test matrix of travis-ci linux builds
+vis-lua: remove vis:open method
+vis: remove now unused #define
+text-object: remove C implementation of file name text object
+lua: fix more luacheck warnings
+lua: reimplement word and file name completion in lua
+vis-lua: expose vis:pipe function
+vis: add file argument to vis_pipe_collect
+vis: remove word and file name completion from editor core
+test: update
+vis: process command line options when reading from stdin
+travis: fix luarocks invocation
+build: add luacheck make target
+travis: try to run busted based test on macOS
+vis-lua: add vis:exit function
+lua: fix luacheck warnings in plugins
+vis-lua: fix bogus URL in LDoc comment
+vis: remove :bdelete command
+lua: use goto label to mimic continue statement
+lua: let number increment/decrement handle next number
+vis-lua: fix invalid LDoc tag
+lua: return nil for invalid text objects
+vis-lua: make cursor.pos return nil if cursor position is invalid
+vis-lua: document cursor behavior
+view: fix display when inserting text at start of file
+vis: improve cursor positioning after shift operators
+lua: reimplement number increment <C-a> and decrement <C-x>
+lua: move digraph handling to separate 'plugin'
+vis-lua: correctly treat return value of input event handler
+vis-lua: fix wrong return value when setting vis.count
+Merge branch 'master' of https://github.com/arames/vis
+vis-lua: make vis:win assignable
+Honor user's umask when saving files
+Remove unnecessary umask change in text_save_begin_inplace
+Fix a couple typos
+vis: allow useage of file dialog for :read command
+view: reposition cursor after restoring selection
+test: update
+lexers: sync with scintillua changeset 594 rev 6e29a8d2a783
+build: try to enable compiler flags to minimize binary size
+vis: tweak handling of end inclusiveness
+vis: mark 0, ^, g_ and $ as idempotent
+vis: fix $ motion for lines containing \r
+text: add iterator accessor function which translates \r\n to \n
+vis: make ^ and g_ only skip blank (spaces+tabs) characters
+vis: add vis- prefix to pseudo editor keys
+vis: remove unused struct member
+vis: make help texts optional to produce a smaller binary
+vis: fix ^ motion for blank lines terminated by \r\n
+vis: fix display after newline insertion at the start of viewport
+vis: improve handling of \r\n line endings
+view: make sure viewport remains valid when scrolling up
+vis: unify error path of command registration functions
+test: update
+build: skip configure check for built-in lpeg if lua is not found
+vis: remove `gf` and `<C-w>gf` functionality
+text-object: remove text_object_number
+vis: remove number increment/decrement functionality
+vis-lua: use shorter type names
+vis-lua: cleanup type checks by using #define's
+vis-lua: make vis:count assignable
+vis-lua: expose current count specifier as vis:count
+lua: add file:match_at method to match LPeg pattern around a position
+vis-lua: expose type meta tables through vis.types
+lua: expose vis:module_exist method, load lexer and lpeg module during startup
+vis-lua: check for nil return value of text object callback
+test: update
+vis: simplify `r` implementation and fix cursor positioning
+vis: add exact count motion flag
+Tweak README
+sam: make sure all commands can be undone
+sam: reformat code to avoid one level of indentation
+test: update
+buffer: fix integer overflow issue
+buffer: add buffer_grow
+buffer: rename buffer_grow to buffer_reserve
+text: fix some integer overflow issues
+util: add overflow safe unsigned addition function
+appveyor: let Cygwin handle the environment variable
+appveyor: try to fix yaml multiline syntax
+test: update
+appveyor: fix symlinks for Cygwin builds
+test: update
+vis: cleanup error paths in key action handling code
+build: more complete cleanup in make clean
+test: update
+build: enable RDP access to AppVeyor build workers
+travis: fix yaml syntax
+test: update
+Move more README content to the Wiki
+travis: try to fix code coverage for test/core
+test: update
+vis: use single function call to print version information
+vis: remove motion and text objects related to C functions
+text-motions: remove unused text_line_lastchar
+travis: re-enable code coverage
+travis: use apsolute paths for ${C,LD}FLAGS
+travis: tweak build matrix
+test: update
+vis: add compile time features to version output
+view: improve handling of long sequences of combining characters
+test: update
+test: update
+vis: make r handle special keys like <Tab>
+vis: make t, T, f and F work for special keys
+vis: introduce vis_keys_utf8
+sam: fix bogus clang compiler warning
+text: fix use of uninitialized variable in error path
+Slightly update developer section of README
+Remove regex section from README
+vis: improve <C-d> and <C-t> implementation in insert mode
+vis: fix cursor positioning after :help
+vis: make `ga` and `g8` more robust
+vis-menu: check read(2) return value
+vis-digraph: properly initialize local variable
+test: update
+text: clean up iterator semantics
+sam: execute commands even if we have no valid range
+text: remove special case for marks at start of file
+view: fix view_cursors_scroll_to to operate on current state
+vis: make sure prompt starts newline terminated
+Allow {} to be nested in shell variables
+test: update
+vis: improve text object handling
+vis: reformat text object definitions
+Disable keymap for movement_key character
+vis: set $vis_file{name,path} environment variables for external commands
+vis: add file argument to vis_pipe
+view: reduce redraws upon selection changes
+view: keep track of the most recently created cursor
+view: do not let new cursors automatically become primary
+test: update
+lexer: fix scheme token rule ordering
+map: remove unused function
+test: update
+vis: support rudimentary help search using :help pattern
+Slight code cleanups, use buffer API where appropriate
+update comment and readme about lua path
+add /etc/vis to lua path for system-wide configuration by administrator
+test: update
+vis: insert new line after linewise change commands
+vis: fix repetition of O when given a count
+vis: refactor autoindent handling
+standalone: use git snapshots for attr and acl
+Update year number to 2017
+vis: improve cursor positioning after operators in visual mode
+view: add back link from selection to corresponding cursor
+sam: optmize transcript insertion for common case
+vis: add workaround for broken color handling in Terminal.app
+standalone: update lua to version 5.3.4
+standalone: update lpeg to version 1.0.1
+build: properly strip elf executables
+vis: deindent blank autoindented lines when leaving insert mode
+vis: keep track of most recently processed keys of input queue
+vis-digraph: add utility to handle digraphs
+vis-lua: introduce vis:replace function
+vis-lua: introduce vis:insert function
+vis: do not set count when handling 0 motion
+sam: disallow destructive commands in groups and looping constructs
+vis: do not repeat insertion while showing prompt
+Merge branch 'standalone' of https://github.com/eworm-de/vis
+test: update
+vis: slightly cleanup repeat code, always set dot register
+vis: improve new line handling at end of file
+text: fix EOF handling for text_iterator_byte_next
+standalone: work around borked dependencies in attr
+text-regex: add regex backend based on libtre
+lexer: sync with scintillua changeset 582 rev d70a5ee43d38
+lexer: update README
+build: more standalone build multilib cleanup
+vis: make <C-n> in visual mode wrap around
+build: try to fix standalone build for multilib systems
+standalone: work around borked dependencies in acl
+vis: simplify count handling for insertion
+sam: use 'm to reference mark m
+vis: remove <C-o> mapping in insert mode
+lexer: update C lexer to C11 and add POSIX errno constants
+build: slightly cleanup make standalone
+standalone: build with POSIX ACL support
+test: update
+lexer: add lexer for Parallax Spin language
+vis: fix count handling for append
+vis: support count for insertion and replacement
+vis: unify insert/replace mode enter handler
+vis: unify insert/replace mode leave handler
+vis: support count for macro replay
+vis: do not take undo snaphots while replaying a macro
+vis: change key input handling model
+map: add map_leaf utility function
+vis: allow macro recording/replay in visual mode
+vis: fix single letter word text objects at start of file
+vis: cleanup regex header inclusion
+man: remove authors section from tool's man pages
+man: add man page for vis-complete(1)
+make: define EXECUTABLES and install in a loop
+single: include tools vis-{clipboard,complete,menu,open}
+vis-lua: pass pending keys to lua key handling functions
+view: fix check to prevent duplicate cursor creation
+vis: show error messages for failed :map/:unmap commands
+vis: do not crash when given insufficient arguments to :map
+sam: do not clobber error value when failing to parse a group
+vis-prompt: make it easier to enter multi line commands
+view: enforce invariant that cursor is within selection
+vis-lua: allow mode changes by setting vis.mode
+test: update
+sam: remove s (substitute) command use x (extract) and c (change) instead
+sam: allow empty text specifiers
+sam: allow input text to refer to search registers
+vis: introduce registers 0-9 and & to capture search matches
+text-regex: add text_regex_nsub to get number of sub expressions
+text-regex: slightly clean up header
+sam: create new selections for changed ranges
+view: add infrastructure for delayed cursor destruction
+sam: implement parallel grouping behavior
+ui: improve editor suspension
+single: allow to build self-extracting executable
+vis-lua: expose register names as vis:register_names()
+vis: add register description to :help output
+vis-lua: expose valid marks as vis:mark_names()
+vis: add valid marks to :help output
+vis: add process id to :help output
+test: update
+buffer: make sure mem{cpy,move} are called with valid arguments
+buffer: fix buffer_move bug
+buffer: remove redundant function
+ui: improve color palette reset
+vis: simplify mode lookup for :map and :unmap
+test: update
+Merge branch 'musl' of https://github.com/eworm-de/vis
+lua: adjust C lexer to recognize POSIX types
+ui: remove now unused code
+theme: pretend that specifying color numbers doesn't work
+ui: replace lookup tables with algorithm
+ui: Turn palette on/off when saving/restoring terminal
+standalone: update to musl version 1.1.16
+ui: use accurate colors when available
+ui: move color_from_256 to file scope
+vis: allow user registered :-commands to specify a help text
+vis: typedef function type not pointer to function
+sam: use buffer_move where appropriate
+buffer: implement buffer_move
+test: update
+sam: execute X and Y commands only once not for every selection
+sam: change write command implementation to not change argv[]
+sam: explicitly pass invalid range for X and Y commands
+sam: use more expressive name for select command
+Add rc lexer
+vis-lua: allow vis:map to set up key aliases and actions
+vis-lua: introduce vis:action_register
+vis: cleanup key action lifetime management
+vis-lua: simplify lua function reference handling
+vis-lua: luaL_checkstring already checks for NULL return value
+test: update
+vis: unmap all conflicting bindings of a forced map command
+map: implement map_prefix_delete
+map: implement map_first
+vis: do not free right hand side of mapping twice
+build: use latest Lua 5.3.x for make local and standalone builds
+build: update libtermkey to version 0.19
+vis: properly free dynamic key bindings
+array: implement array_remove
+travis: install 9base
+build: configure ncurses with --disable-leaks
+build: pass $CFLAGS_EXTRA through make debug target
+fix help text for next/prev match
+text-objects: explicitly ignore return value of strtoll(3)
+Apply format string attribute to printf style functions
+text: make text_vprintf static, it is only used within text.c
+text: remove Filepos typedef
+text: introduce EMARK to denote an invalid mark
+test: update
+vis-lua: store Vis context in upvalues where needed
+text: change datatype of Mark to uintptr_t
+text: make default block size overridable via C pre-processor
+buffer: make default buffer size overridable via C pre-processor
+text: avoid undefined multiple accesses in expression
+text: do not rely on indeterminate value in a comparison
+build: do not install lua/doc directory
+build: also include working tree state in version information
+vis: implement `gh` and `gl` to move by relative byte offsets
+vis: implement `go` to move to absolute byte position
+vis: implement g8
+vis: improve literal insertion via <C-v> in insert mode
+vis: improve ga
+ui: increase maximum info message length
+buffer: implement buffer_capacity utility function
+buffer: implement buffer_appendf to append formatted content
+buffer: fix error case in buffer_append0
+vis-lua: implement vis.registers[] array
+vis: introduce vis_register_from utility function
+vis-lua: simplify obj_ref_new error handling
+vis-lua: simplify object reference checking
+vis-lua: implement file.marks[] array
+vis-lua: implement file:mark_{get,set}
+test: update
+vis: allow boolean :set options to be toggled
+vis: always remove consumed keys from input queue
+travis: try to enable code coverage for test/core
+build: update unused make standalone/local Lua reference to 5.3.3
+vis: process keys following an unmatched prefix individually
+vis: add section about compile time configuration to :help output
+build: move $CFLAGS_DEBUG into config.mk
+vis: always store registers values NUL terminated
+vis: respect terminating NUL bytes in the input queue
+vis: more informative error message for :set option
+lua: make sure we always load a default theme
+lua: improve error message when failing to load lpeg/lexer module
+vis: remove useless NULL check
+build: improve description of --enable-lpeg configure option
+lua: avoid errors if no theme is set
+lua: add crontab file type and configure it to save in-place
+lua: allow per file type :commands being executed
+lua: use Lua patterns to match file extensions
+vis: add new :set savemethod auto|atomic|inplace option
+text: expose text save method to calling code
+build: fix Cygwin build
+man: avoid standard directives which are undefined for some groff versions
+build: remove internal configure options from help text
+build: add configure options for built-in lpeg support
+Allow building lpeg into vis
+Remove useless variable assignment
+vis-lua: add generic way to expose C text objects to Lua
+man: fix mistakes
+vis-lua: add comment about possibly outdated Lua API documentation
+lua: add more mime types for file type detection
+vis-lua: expose input key event in insert and replace modes
+vis: rename some internal C function pointers
+build: include Lua files in windows zip
+Update tests to changes in Lua API
+vis-lua: only fail file_save_pre event if explicitly returned false
+Move manual pages to man/ subfolder
+vis-lua: move mode constants from vis.MODE_* to vis.modes.*
+vis-lua: add optional help parameter to mapping functions
+vis-lua: expose init event and use it to set default theme
+lua: add simple event multiplexing mechanism
+lua: move non-core code out of vis.lua
+Cleanup .gitignore and ignore HTML and CSS files
+Move all lua related files to lua/ subfolder
+Reorganize README
+vis-lua: more extensive Lua API documentation
+vis-lua: add preliminary version of LDoc based Lua API documentation
+view: make cursor placement more robust
+man: improve vis manual page
+vis: use file(1) for file type detection
+build: do not define _FORTIFY_SOURCE for debug builds
+vis: improve :set option number parsing
+build: simplify manual page installation
+build: add new `make man` target
+man: improve formatting and fix warnings
+man: Make vis-{clipboard,menu,open} manpages lint-clean.
+man: first steps towards a proper manual page
+Merge branch 'master' of https://github.com/josuah/vis into man
+vis-clipboard: fix detection of macOS systems
+man: use hard coded dates in manual pages
+vis: avoid inconsistent state after file reloading with :e
+build: try to avoid failed commit status when coverage slightly drops
+lexer: add standard ml
+sam: introduce `m as an address refering to mark m
+vis: move mark description into core code
+vis-lua: add file.path property denoting the absolute path to the file
+vis-lua: lua_pushtring already takes care of NULL string
+sam: stricter command parsing
+vis: cleanup signal handling code
+vis: install SIGTERM handler to properly restore terminal when being killed
+ui: remove terminal restore code
+vis: redirect stdout and stderr streams to /dev/null when lacking a consumer
+vis: re-open /dev/tty read-writeable
+vis: fix I/O redirection bugs, cleanup vis_pipe
+vis-menu: also re-open /dev/tty as stderr
+vis: add `:set escdelay nn` option
+ui: remove $ESCDELAY handling
+vis: populate :set option map at startup
+vis-lua: also emit save events when writing to stdout
+vis-lua: introduce pre-save hook
+vis-lua: pass path as second argument to file_save_post event hook
+vis-lua: rename file_save event to file_save_post
+test: update
+sam: change default addresses used for commands in normal mode
+vis: keep track of whether "0 stores line wise data
+sam: change default address of "s" command to current line
+test: udpdate
+vis: make gg and G move to first non-blank character of line
+vis: reformat motion definition block to avoid overly long lines
+build: install plan9port on Mac OS X builds
+build: disable codecov comments in pull requests
+Merge branch 'man' of https://github.com/michaelforney/vis
+Fix date format string in man pages
+Fix date command in man page installation
+Update scheme.lua
+Add code coverage badge to the README
+test: update
+build: cache external source tarballs on Travis CI
+build: add automated code coverage via Travis CI and codecov.io
+bulid: run individual tests directly from .travis.yml
+ui: work around libtermkey bug when stdin is /dev/null
+build: add automated Mac OS X builds via Travis CI
+vis: treat vis_keys_feed input like a macro replay
+sam: use default shell command for <, >, | and ! when applicaple
+sam: support an empty regex as an alias for the most recently used one
+test: update
+sam: make `:w` and `:wq` honor their given range
+sam: `e`, `q`, `X`, `Y`, `!` and all vi commands should not take addresses
+sam: reformat command definition block to avoid overly long names
+Fix documentation regarding Lua paths in README and manual page
+vis: defer UI initialization and overhaul argument parsing
+vis: overhaul and unify event generation code
+vis: generalize special stdin handling
+vis: move initial theme loading code to lua
+vis-lua: add vis.ui.colors denoting the number of available colors
+ui: remove unused function
+build: do not clutter source tree with AppVeyor configuration file
+test: update
+lexers/fstab: add systemd-specific mount options
+test: adapt tests to changes in the Lua API
+vis: cleanup `:set option` argument parsing logic
+vis: add `:set shell` option
+vis: attempt to use the default shell of the user to execute external commands
+sam: fix range for line zero
+vis: fix compilation with Lua support disabled
+vis: change default status bar indication for Windows style line endings
+vis-lua: change misnamed attribute values of `file.newlines`
+vis: split `:set show <option>` into separate options
+vis: add help texts for :set option values
+vis: make vis_draw actually draw each window
+build: add Makefile target for code coverage via gcov
+README: Fix instructions for lexers and themes
+Use nicer IRC badge in README
+vis: handle cancelation of `r` command
+Add another useless badge to the README
+test: update test suite
+build: add automated Cygwin builds using AppVeyor
+build: make `vis -v` version output more robust
+vis: improve `r` in normal and replace mode
+vis: perform undo snapshotting more rarerly
+vis: add replace operator VIS_OP_REPLACE
+vis: unify VIS_OP_{INSERT,REPLACE} implementation
+sam: fix default value handling of +/- addresses
+vis: fix key parsing/skipping logic
+sam: dispose primary cursor at end of group
+view: make viewport adjustment more robust
+vis: display Lua package.cpath in :help output
+sam: y should also loop over empty trailing matches
+sam: improve cursor positioning after command execution
+sam: fix default command handling at end of a group
+sam: ignore white space between commands of a group
+sam: fix command name parsing
+sam: improve escape parsing logic
+ui: correctly display cell attributes
+vis: abort syntax highlighting if viewport is invalid
+text: change usage of sizeof idiom for allocation of new objects
+text: rename Buffer to Block to avoid confusion with buffer.[ch]
+theme: use better defaults for color column and cursor line styles in 16 color mode
+ui: allow cursor line style to override cell attributes
+vis-complete: allow custom input not matching any completion candidate
+vis: tweak join behavior
+vis: fix :langmap behavior
+view: use more lightweight default white space replacement symbols
+vis: apply language map only to key values not modifiers
+Merge branch 'awk' of https://github.com/larryhynes/vis
+Add app definitions for awk in vis.lua
+vis.1: Added spacing as in manpages.bsd.lv
+Manual: Cleanup, and real "KEY BINDINGS" section
+Pulled content from the README into the man page
+Only complete up to cursor position
+File completion updates
+vis: fix join operator to work on lines ending with white spaces
+vis: fix g_ motion to never cross line boundaries
+Teach vis-complete that ".." path segments in the prefix are acceptable.
+Quote meta-characters in the completion pattern.
+Handle completing absolute paths, not just relative ones.
+Don't use repeated shell evaluation in vis-complete.
+lexers: sync with scintillua changeset 571 rev 23435f1d82da
+Merge branch 'exit' of https://github.com/eworm-de/vis
+Merge branch 'pkgbuild-2' of https://github.com/eworm-de/vis
+use EXIT_FAILURE for exit status
+lexers/pkgbuild: support arch specific variables
+Harden vis-complete
+vis-complete - Use different delimiter in sed command
+Fix various issues reported by coverity scan
+ui: fix resource leak, close file descriptor
+vis: check return value of fcntl(2) call
+lexers/pkgbuild: add a comment about pkgver, srcdir and startdir
+lexers/pkgbuild: match functions with parentheses
+lexers: reduce changes to scintilla core lexing code
+lexers: sync language lexers with scintillua rev 568 id 55b15760cd31
+sam: show error message on failed write
+vis: improve cursor positioning after scrolling
+vis: make <C-w> delete word instead of WORD
+sam: simplify :r command implementaion
+sam: consistent argument handling for :r, :w, :e commands
+view: change cursor line up/down off screen movements
+vis: fix % for angle brackets
+Cosmetic changes to file detection code
+Merge branch 'master' of https://github.com/lxyd/vis into filetype
+Replace win.file.lines with win.file:content for better performance
+visrc: move global settings to start handler
+sam: allow non-latin command names
+Better file type detection: full filename patterns, shebang, custom detector functions
+vis: also apply language map to operator pending mode
+vis: disable language map for replacement character of `r` command
+vis: move file name and word completion logic to a shell script
+sam: change license header
+text: improve variable naming
+vis: also list :set options in :help output
+vis: add rudimentary builtin help for :-commands
+vis-lua: document lua file close event
+vis-lua: expose file save event to lua
+vis-lua: expose file open event to lua
+vis: do not invoke file save event for internal files
+vis: set correct reference count when splitting windows
+vis: implement gJ like behavior
+vis: add vis_mode_get function
+vis: improve dot (repeat) command implmentation
+vis: improve unpaired text objects
+text-motions: improve matching quotation marks heuristic
+vis-lua: add win:draw() function
+vis: overhaul input queue handling
+buffer: add buffer_remove implementation
+text-regex: improve searching in binary data
+vis: use vis-open for gf implementation
+text-object: add ` as a delimiter for file name text objects
+view: fix screen line based motions when cursor is not visible
+Merge branch 'new-lexers-readme' of https://github.com/5paceToast/vis
+Mention POSIX.1-2008 as a requirement in README
+sam: do not change cursor position after :! command
+sam: improve quoted argument parsing
+Fix filetype table link in lexers/README.md
+build: properly set LDFLAGS for standalone build dependencies
+standalone: update to musl version 1.1.15
+vis: fix inner text object variants when cursor is on opening delimiter
+Merge branch 'master' of https://github.com/aeosynth/vis
+remove duplicate argument
+vis-open: Add a manpage.
+Merge branch 'vis-clipboard-manpage' of https://github.com/Screwtapello/vis
+vis-clipboard: Add a manpage.
+Update the statusline when starting or ending the recording of a macro
+Merge branch 'vis-open-cleanup' of https://github.com/Screwtapello/vis
+vis-menu: improve empty prompt handling (vis-menu -p '')
+vis-menu: reduce indentation level of switch statements
+vis-menu: more cleanup
+sam: use more suitable error message if no command is given
+vis: try to reduce number of redraws
+lexer: add lexer for Google protocol buffer IDL
+[vis-menu] Document the initial-filter parameter.
+[vis-open] Don't use realpath(1).
+[vis-open] Handle filenames with spaces and tabs.
+[vis-open] Actually use '--' where it's useful.
+[vis-open] Fix '--' to actually work.
+Rewrite vis-open to be more robust.
+[vis-menu] Add a manpage.
+[vis-menu] Remove unused keybinding.
+ui: properly redraw status line when window focus changes
+vis: use normalized absolute file names as internal representation
+vis-lua: cleanup Lua status bar display code
+vis: cleanup C status bar display code
+Add utility function to calculate display width of a string
+vis-lua: improve error handling when loading visrc.lua
+vis-lua: add debug infrastructure to trace object lifetime
+vis: only display mode in status bar of active window
+vis-lua: introduce light references for short lived objects
+Add a newline at the end of the file
+Remove unneeded header import
+vis: load default styles even for unknown file types
+vis-lua: fall back to C status bar handling if the Lua implementation is not available
+vis-lua: do not report errors recursively
+vis: refactor status line handling
+vis-lua: add win:status function
+vis: add function to change window statusbar content
+vis-lua: add vis.recording property
+vis-lua: add window.{width, height} read only properties
+vis: add functions to query window size
+vis-lua: add vis.VERSION property
+vis: consider :set horizon setting when syntax highlighting
+lexer: return nil if lexer loading fails
+vis: move syntax highlighting to pure Lua code
+vis-lua: add window.viewport range
+vis-lua: add bindings for new view style functions
+view: add functions to style a file range
+ui: s/UiStyles/UiStyle/g
+vis-lua: cleanup vis.MODE_* constants handling
+vis: always start vis-menu with -b flag
+We don't use slmenu, so don't mention it.
+vis-menu: do not segfault if an option lacks an argument
+implement xread() and wrap read() + die()
+ignore vis-menu
+vis-menu: remove unused code
+build: check for Lua >= 5.2 in configure script
+build: let make debug compile vis-menu with debug flags
+vis-menu: fix matching order, exact matches should come first
+vis-menu: import token based match function from dmenu
+vis-menu: interpret non-option argument as an initial prompt value
+vis-menu: change version output
+vis-menu: remove X clipboard support
+Import slmenu 7e74fa5 as vis-menu
+vis: tweak completion commands
+Merge branch 'lexer-add-crystal' of https://github.com/soveran/vis
+lexer: add crystal
+vis: fix behavior of complete-word on BSD
+vis-lua: fail more silently when visrc.lua can not be loaded
+vis: add completion for file names in current directory via <C-x><C-f>
+vis: add #define for VIS_MENU
+vis: add completion for current file contents via <C-n> in insert mode
+vis: add an interactive mode to vis_pipe{,_collect}(...)
+buffer: implement buffer_{v,}printf functions
+vis: introduce vis_pipe_collect utility function
+buffer: add utility function to NUL terminate buffer
+test: update test suite
+vis: introduce vis-menu helper script
+vis: allow :commands with a hyphen in the name
+vis-lua: add win:map function for window local key mappings
+vis: clean up key mapping implementation
+vis-lua: add more restrictive checks for position arguments
+build: install support files only when needed
+lexer: *.cc is a C++ file extension
+Merge branch 'fstab' of https://github.com/eworm-de/vis
+lexer: add fstab
+lexer: add delimiter-separated-values
+Revert "vis: clean up interaction between vis and ui"
+vis: improve cursor placement at EOF with enabled auto indent
+Fix autoindent when using O
+theme: add light-16 theme
+lexer: add networkd file LPeg lexer
+lexer: remove commented command
+lexer: add systemd service types
+test: adapt test suite to latest changes
+text: fix bug in line break caching logic
+Merge branch 'mainc-type' of https://github.com/joshaw/vis
+lexer: add systemd unit file LPeg lexer
+lexer: sort list of file extensions
+Fix typo `cursor-sceenline-up` -> `cursor-screenline-up`
+theme: make dark-16 use more bold font for better color contrast
+ignore README.html in subdirs
+lexer: assume .h is ANSI C, not C++
+build: add -D__BSD_VISIBLE=1 to default CFLAGS for FreeBSD
+sam: avoid taking snapshots within the filter command implementation
+view: try to recover from invalid cursor positions
+vis-lua: reload all lexers after theme change
+vis-lua: add new theme_change event hook
+vis-lua: simplify event callback code
+view: simplify line up/down motions
+note that primary cursor is not blinking
+vis: enable large file optimizations for files with long lines
+vis: clean up cursor column display
+vis: clean up interaction between vis and ui
+vis: re-open stdin as /dev/tty when reaching EOF
+vis: make j and k a linewise inclusive motion
+Fixed bug, use $XDG_CONFIG_HOME correctly
+test: udpate test suite
+vis-lua: let vis:map override existing mappings
+vis-lua: expose vis:feedkeys API
+vis: delay start event until we are fully initialized
+vis: further cleanup input handling, introduce vis_keys_feed API
+vis: cleanup input handling, improve macro replay
+view: try to improve cursor placement
+view: improve view sliding down
+vis: improve cursor placement after join operator
+vis: move non-configuration sections out of visrc.lua into vis.lua
+vis: do not crash when processing :-commands and no window is active
+vis: unmap all mapped prefixes if a new mapping is forced
+vis: reject key mappings for which a prefix is already mapped
+vis: adapt charwise put operator to not move across lines
+vis: change behavior of $ to never move to the left
+vis: do not advance cursor to next line when appending with `a`
+text-motions: fix character next motion within a line
+view: change view_cursors_place to take 1 based column number
+vis-lua: fix vis.win to always return currently focused window
+test: update test suite
+vis-lua: add file.modified property
+build: fix lua auto detection on OpenBSD
+build: try to produce a statically linked position independent executable
+build: skip -pie for static build
+build: (re)enable pie build
+build: explicitly pass $CFLAGS to make invocation
+build: remove redundant code from configure script
+build: add more default flags to $CFLAGS instead of $CFLAGS_AUTO
+build: run configure before building dependencies
+build: add checksum for lua-lpeg patch
+Mention NixOS package in README
+vis: display lua search paths in :help output
+build: disable pie build for now, it breaks local/standalone builds
+build: change lpeg into lua integration
+build: clean up make local/standalone implementation
+vis-lua: allow selection modification by assigning to cursor.selection
+vis-lua: implement vis:message(msg)
+vis-lua: also accept a range as argument for file:delete and file:content
+vis: also show user registered :-commands in :help output
+vis: list usable symbolic keys in :help output
+test: update to include lua based tests
+vis-lua: add vis:command_register to map a Lua function to a :-command
+vis-lua: add utility function to push a Filerange onto the Lua stack
+vis: add infrastructure to register custom :-commands
+vis: do not lazy allocate :-commands
+map: add map_free_full utility function
+vis-lua: load files from directory specified with ./configure --sharedir=DIR
+vis-lua: trigger start event after ui has been initialized
+vis: handle termination from within win_open event gracefully
+vis: add :set horizon option
+vis: add an unsigned option type for :set command
+test: add test for :wq in normal mode with multiple cursors
+vis: add actions for prev/next character motions within the same line
+Fix vis-test git submodule integration
+Integrate vis-test git submodule
+vis-lua: strip relative paths from package.{path,cpath}
+vis-lua: cleanup lua package.path handling
+vis: use internal file to show lua errors
+vis: do not run event handlers for internal files
+text: when saving also fsync(2) the destination directory after rename(2)
+Mention #vis-editor IRC channel in README
+Mention slmenu(1) in README
+vis: indicate primary cursor by using a different color instead of blinking
+vis: remove mapping from ' ' to <Space>
+sam: except for visual mode, apply :w to whole file
+text: add infrastructure to save non-contiguous ranges
+vis-lua: add vis.mode property
+vis-lua: update API documentaiton in README
+vis-lua: add cursor.selection property
+vis-lua: add window.cursors[] array
+vis-lua: add window.cursors_iterator function
+vis-lua: add cursor.number property
+vis-lua: change cursor object implementation
+view: add view_cursors_place(cursor, line, col) function
+view: add view_cursors_col function
+view: add view_cursors_line function
+vis-lua: add file.size to return file size in bytes
+vis-lua: add file.newlines to detect type of new lines
+vis: calculate auto indent for all cursors individually
+vis: fix wrong usage message for :unmap command
+vis: improve handling of ~ and environment variables when opening files
+vis: do not run registered event handlers for internal files
+vis: allow mapping of <Space>
+vis: add #defines to ease overriding of utility names
+Merge branch 'package-smgl' of https://github.com/vaygr/vis
+vis: stop repeated motions as soon as resulting position remains the same
+sam: improve ^ matching start of line
+Use view_cursors_new_force where appropriate
+view: add view_cursors_new_force function
+vis: make = operator an alias for gq, both currently use fmt(1)
+text-motion: simplify implementation of [{, ]}, [( and ]) motions
+Add "[(" and "])" motions for jumping to a parenthese pair's start/end
+Add "[{" and "]}" motions to jump to a block's start/end
+Merge branch 'fixups' of https://github.com/tycho/vis
+README.md: add coverity scan build status badge
+added link to new SMGL package for vis
+text-motions: fix misspelled function name "is_word_boundry"
+sam.c: fix some typos in comment
+README.md: add travis-ci build status badge
+Update developer overview section in README
+build: also probe for lua as lua-{5.2,5.3}
+main.c: correct name of function, cursor>window
+Merge branch 'master' of https://github.com/erig0/vis
+README.md: Add pkgsrc to the distribution packages list
+[README] unmap requires <mode>
+vis: make j an inclusive motion
+vis: make sure linewise put operations insert necessary new lines
+Merge branch 'patch-3' of https://github.com/larryhynes/vis
+Add more detail on configuring to README.md
+Merge branch 'patch-4' of https://github.com/larryhynes/vis
+Add map example to visrc.lua
+Add section on visrc.lua to README.md
+Add '.markdown' suffix for markdown syntax highlighting.
+sam: change default address of < and | commands
+vis: let :e recreate a window at the same location as the old one
+vis: cleanup window focusing code
+vis: indicate primary cursor number in status bar
+vis: make ZZ work for unnamed but unmodified buffer
+Mention a few more distribution packages in README
+Update README.md
+lexer: update to scintillua-3.6.4-2
+lexer: remove hard coded color specification from lexers
+Make explicit the space keybinding on help.
+Commands and movements on alphabetic order.
+Sort keybinding alphabetically.
+vis: fix vi filter operators ! and =
+text-object: fixup last commit, add accidentally missed hunk
+vis: make af and if text objects more robust
+text-motion: restore old text_{line_,}find_prev behavior
+sam: include limits.h for PATH_MAX
+vis: remove left over from :sam command
+vis: fix coverity scan warnings
+Update README with newer screen cast
+Update README to include latest multiple cursors related key bindings
+vis: let <C-l> remove all but the count cursor column
+sam: cosmetic changes
+sam: improve group handling, do not loop infinitely
+sam: stop executing once a command fails
+sam: some commands should only be executed once not for every selection
+vis: let <C-c> remove the count cursor column
+vis: fix selection column rotation
+vis: in visual mode allow navigation among cursors using <C-j> and <C-k>
+sam: fix x command with default pattern
+sam: y and Y commands require a regexp pattern
+sam: use better default addresses for <, >, | and r commands
+sam: fix special handling of single line numbers
+sam: fixup bf52c0cb95b76b4ae17f138c9d98552c38185f46
+sam: add missing include for strncasecmp(3)
+Update README to reflect sam(1) integration
+sam: focus first cursor after a x, y, g, v command
+sam: implement cd (change directory) command
+sam: support % as address denoting the whole file
+vis: reimplement file open dialog
+sam: implement ! command
+vis: change vis_pipe API and cleanup related code
+sam: unify vi(m) and sam command line
+build: explicitly list sources files
+buffer: add buffer_content0 utility function
+sam: restructure code to avoid useless goto
+sam: implement s (subtitute) command in terms of sed(1)
+sam: cleanup command argv passing/handling
+sam: simplify and fix grouping
+sam: attempt to make x/y commands more robust
+sam: implement > command
+sam: implement r (read) command in terms of < cat
+sam: implement < command in terms of | with an empty range
+sam: implement | (filter) command
+sam: implement w (write) command
+sam: add infrastructure to support multi letter commands
+sam: fix escape handling in regex parsing
+sam: more flexible parsing
+sam: treat single line numbers as motions not ranges
+sam: remove old cursor/selection before executing command
+sam: fix default regexp handling i.e. ':sam x'
+sam: adapt to changes in multiple cursors API
+sam: fix negative relative line number placement
+sam: change print command behavior when given an empty range
+sam: fix empty regexp matches
+sam: fix regex parsing
+sam: fix parsing of , compound address
+sam: do not segfault when given a NULL pointer to parse
+sam: fix segfault with multiple regular expressions in same command
+Add section about new command language to README
+Support sam's structural regular expression based command language
+vis: in visual mode let \ trim selections
+view: make syntax coloring more robust
+buffer: add buffer_content utility function
+buffer: add buffer_length utility function
+view: add return value to view_cursors_dispose
+text-regex: introduce function to match arbitrary text
+vis: cleanup vis_pipe API
+vis: implement selection rotation
+view: constify functions to manipulate selections
+text-util: constify text_range_* functions
+view: change internal representation of selections
+array: allow arbitrarily sized array elements
+ignore README.html
+README: add a paragraph about distribution packages
+Update README section about multiple cursor key bindings
+vis: cleanup usage of vis_cursors_count
+vis: Ctrl-{j,k} do not create duplicate cursors, instead advance primary one
+view: prevent creation of duplicated cursors
+vis: support right alignment of selections in visual mode with <S-Tab>
+vis: support count for {Meta-Ctrl,Ctrl}-{j,k}
+vis: fix changing of primary cursor via Ctrl-{u,d}
+vis: let Meta-Ctrl-{j,k} create new cursor
+vis: align selections with <Tab> in visual mode
+vis: support column based alignment
+view: add infrastructure to iterate through cursor columns
+view: maintain ordering relation among cursors
+view: change cursor creation API to take an initial position
+fix linker flags
+Set version to 0.2
+vis: remove __DATE__ and __TIME__ references to aid with reproducible builds
+vis: do not crash when using vis:command without active window
+configure: fix probing of hardening flags
+build: use order only dependencies for build folder
+build: expose make dependency-local target
+Mention libutf in LICENSE
+handle patch as usual source
+make sure build directory exists
+build: fix make local, improve make standalone
+build: rename package specific targets used for make local/standalone
+visrc: Move filetype detection to separate function
+do not link lua against ncurses
+fix dependencies for standalone build
+fix install prefix for standalone build
+configure: use capital letters for variable names
+configure: default to cc instead of c99
+Make vis-clipboard executable
+configure: fix detection of libtermkey
+configure: use temporary file instead of /dev/null for compiler output
+Add missing word
+Remove identically replicated copyright comments from source files
+vis: use vis-clipboard instead of vis-{copy,paste} scripts
+Add vis-clipboard script
+configure: clear ${C,LD}FLAGS_LUA in error case
+configure: exchange _{BSD,DARWIN_C}_SOURCE defines
+Remove bashisms from configure script.
+vis: also lookup Lua support files relative to the binary location
+configure: probe for hardening flags
+configure: probe for size optimizing flags (disabled for now)
+build: reorder some variables
+build: create empty config.mk if it does not exist
+configure: make vis depend on config.mk
+build: add vis subdirectory to $SHAREPREFIX
+configure: make man and share directories configurable
+configure: fix install prefix for man and share directories
+configure: fix condition for libselinux
+configure: fix condition for libacl
+configure: fix condition for liblua
+configure: fix condition for libtermkey
+configure: fix condition for ncurses
+build: overhaul build system auto detect stuff using a configure script
+vis: do not segfault when given a NULL command to process
+vis: do properly replay ": and "/ registers
+vis: slightly cleanup register related code
+vis: add support for command register ":
+text: improve ENOSPC handling when saving
+text-regex: fix possible infinite loop when searching backwards
+Update README to include recent changes to supported registers
+vis: convert gn and gN text objects to use "/ register content
+ui/view: general code cleanup
+ui: use correct default cell style
+view: cleanup default ui style handling
+vis-lua: allow to set window.syntax = nil
+view: also load lua theme for windows without syntax highlighting
+ui: make primary cursor blink even if no lua theme has been loaded
+vis: overhaul search related code, support "/ register
+register: add function to set register content to arbitrary data
+register: make sure returned register content is always NUL terminated
+register: rename register put related functions
+Update README to reflect changes in multiple cursor support
+ui: also blink primary cursor if it is on a blank cell
+vis: respect count for <C-d> and <C-u>
+view: add query function for multiple cursors
+ui: make primary cursor blink
+ui: add support for blink style attribute
+vis: let <C-u> and <C-d> in visual mode move to prev/next cursor
+view: clean up API functions related to primary cursor handling
+vis: let /^pattern match at the start of the line
+Merge branch 'master' of https://github.com/xomachine/vis
+Add missing angle brackets around broken C-p key binding
+Workaround for #199
+Added page up and down keys for visual mode
+vis: handle lexer module load failure even more gracefully
+vis: gracefully handle lpeg module load failure
+build: remove hardening compiler flags for now
+build: do not modify $CFLAGS directly
+build: update make standalone to use musl-1.1.14
+vis: ignore trailing NUL byte of register content by default
+vis: use standard registers for macro recordings
+Make f, F, t, T motion work when replaying a macro
+Merge branch 'line-motions' of https://github.com/rgburke/vis
+Added + and - motions
+initized variables
+remove unused function cmd()
+vis: only move to start of yanked range if it is not line wise
+vis: insert missing new line when putting at the end of file
+Cleanup new line insertion code
+vis: move cursor to next char after ~ in normal mode
+vis: reject obviously recursive key bindings
+recursive ib fix
+vis: list layout specifc key mappings in <F1> help output
+Description for langmap command
+vis: implement :langmap command to set keyboard mappings
+colorcolumn enhancement
+update lexer for Arch Linux PKGBUILD
+vis: make put commands p, P, gp, gP available in visual modes
+vis: move cursor to start of yanked range
+Update README to reflect changes to Lua API
+vis-lua: add text object ii to match based on syntax item/token
+vis-lua: add helper functions to implement motions/text objects in lua
+vis-lua: add file:content(pos, len) function
+vis-lua: expose vis:textobject_register
+Add infrastructure to register custom text object functions
+vis-lua: expose vis:textobject(id)
+vis-lua: add vis:motion_register function
+Add infrastructure to add custom motion functions
+Add a simple dynamically growing array data structure
+vis-lua: expose vis_motion to lua
+vis-lua: expose mode constants to lua
+vis-lua: expose win.syntax
+vis-lua: expose cursor:to(line, col)
+vis-lua: promote vis to a real object
+vis: add possibility to bind keys to lua functions
+map: set errno to EEXIST when trying to map_put a duplicate value
+map: set errno to ENOENT if prefix for map_closest does not exist
+vis: fix possible undefined zero allocation
+vis: enable number increment <C-a> and decrement <C-x> in normal mode
+vis: use <Tab> to align multiple cursors in normal mode
+vis: add insfrastructure to support global key mappings
+Display NUL bytes correctly
+Update make standalone to use musl-1.1.13
+Display ASCII-127 (DEL) character as ^?
+Add text object to cover lines with same indentation level
+vis: add <C-c> as an alias for <Escape> in normal mode
+vis: in insert mode <S-Tab> aligns all cursors by inserting spaces
+Convert call sites of text_line_char_{get,set} to text_line_width_{get,set}
+text-motion: add functions to get/set position based on display width
+vis: respect window local mappings for child modes
+vis: remove trailing new line before executing prompt command
+text-object: simplify text_object_range implementation
+vis: fix printf format string used in number_increment_decrement
+Update README to reflect recent development
+Mark some tables as const
+Improve large file support
+vis: try to make * and # motions work on more systems
+vis: implement gn and gN text objects
+vis: add support for different kind of text objects
+vis: tweak <F1> help text list all available key actions
+vis: simplify modes implementation
+vis: implement yank register "0
+vis: implement gf and <C-w>gf to open filename under cursor
+vis: export vis_window_closable
+vis: mark output of pipe command as saved
+text-object: introduce text_object_filename
+vis: implement number increment <C-a> and decrement <C-x> functionality
+text-object: introduce text_object_number
+text-object: add utility function for abitrarily delimited text objects
+text-object: hide ugly casts for isboundary behind a #define
+text-object: hide ugly casts for isspace behind a #define
+text-motion: hide ugly casts for isboundary behind a #define
+text-motion: hide ugly casts for isspace behind a #define
+text-object: merge word/WORD implementations
+text-motion: export custom word motion functions
+text-object: fix bugs in outer word `aw` implementation
+fix {, }, (, ) movements
+Change vis-{copy,paste} to use X clipboard xsel -b
+Improve cursor position after :substitute command
+Rename stderr field to err
+Implement "A - "Z registers
+Implement system clipboard registers "* and "+
+Implement blackhole register "_
+Cleanup register implementation
+Improve Lua error reporting
+vis: implement new pipe/write out command :| or :w !
+vis: factor out filter command implementation
+vis: factor out common code to create internal file
+lexer: snyc with upstream scintillua 3.6.3-1
+vis: implement nn%
+vis: clean up count handling
+text-motion: change text_bracket_match API
+vis: let % move to next special char if not already there
+vis: apply insert register <C-r> to all cursors
+vis: remove unused struct Mode member 'is_user'
+vis: make <End> in insert/replace mode move to the end of line
+vis: further improve selection restore code
+Fix to/till movements
+Add usage example for file open dialog to README
+vis: fix # and * motions to only match words
+vis: switch to normal mode if a :-command was successful in visual mode
+vis: fix default command prompt in visual mode
+vis: improve :-command argument tokenizing
+vis: keep selection in visual mode after shift operators
+vis: improve selection restore `gv`
+vis: improve cursor placement after shift operators
+vis: do not move cursor when entering visual line mode
+vis: tweak count handling of till motions 't' and 'T'
+vis: fix segfault upon :qall
+text-regex: remove unused struct member
+vis: simplify code by using text_bytes_alloc0
+Fix default $VIS_PATH in man page
+ui: display current line number instead of relative 0
+vis: make Y only yank from the current position to the end of line
+theme: change solarized theme to use the 256 degenerated colors
+ui: support color definitions in terms of the 256 color palette
+vis: make :e an alias for :edit
+vis: let ~ have an immediate effect in normal mode
+view: remove special cursor handling at end of visible area
+vis: move selected prompt entry to end of the file
+vis: make o and O work in prompt
+vis: sentence motions are not linewise
+vis: use different default register when editing a prompt file
+vis: move prompt handling to separate file
+vis: more cleanups
+vis: s/moves/vis_motions/g
+vis: s/ops/vis_operators/g
+vis: move motion releated functions to corresponding file
+vis: s/VIS_MODE_LAST/VIS_MODE_INVALID/g
+vis: move vis_operator(..) to corresponding file
+vis: move text object definitions to separate file
+vis: inline expand_tab
+vis: focus correct window when closing prompt
+vis-cmds: resolve conflict with BSD getmode(3)
+build: cleanup $LIBS variable
+Implement command/search prompt history as a regular file
+view: introduce view_selection_get
+ui: make statusbar configurable
+vis: reindent :-command definitions
+vis: implement :map-window and :unmap-window
+vis: allow :-commands containing a hyphen
+vis: add infrastructure to support per window key bindings
+map: implement map_copy
+map: fix return value of map_delete
+vis: implement :map and :unmap
+vis: cleanup key binding definitions
+Add -pedantic to debug CFLAGS and fix resulting warnings
+vis: fix tab expansion if enabled
+gitignore: Fix pattern
+Simplify code by using text_bytes_alloc0
+text: introduce text_bytes_alloc0 utility function
+text-motion: fix integer overflow in text_search_{forward,backward}
+vis-open: Fix indentation
+Merge branch 'vis-open' of https://github.com/Pyrohh/vis into master
+vis-open: Print error message to stderr
+vis-open: Use basename of $0 in usage message
+Makefile: Use $(MAKE) instead of directly calling `make`
+vis: make <C-v> also available at :-command prompt
+vis: apply <C-v> to all cursors not only primary one
+vis: enhance <C-v> to recognize a few special keys
+lexer: sync with upstream scintillua rev bdb74a2f31df
+Add explicit build commands to README
+view: fix regression
+Also remove vis-open when uninstalling
+Add section about Lua API to README
+vis-lua: implement vis.events.{start,quit} events
+vis-lua: implement window.cursor.{line, col, pos}
+vis-lua: implement vis.lines[..] array
+text: let text_pos_by_lineno return EPOS if given a too large line number
+text: introduce text_newline_insert
+vis-lua: implement vis.open(filename)
+vis-lua: rename a few functions
+vis-lua: remove unnecessary casts
+#111 command line prompt options defaults
+lexer: add some meta data to newly added lexers
+vis: fix default lua package.path and support $XDG_CONFIG_HOME
+Clean up build system
+view: improve cursor handling at end of file
+view: fix new line handling at the end of visible area
+view: fix view [start,end] range calculation
+Update README
+vis: move file type detection to visrc.lua
+vis: change Lua package.path to also include vis base directory
+vis: refactor Lua integration
+Initialize enum values to the public API ones
+vis: fix forceful redraw <C-l>
+Make normal mode 'S' behave like in Vim
+lexer: add lexer for Faust
+vis: make <C-w>w an alias for <C-w>j
+vis: add namespace prefix for MARK_SELECTION_{START,END}
+vis: do not switch to normal mode when leaving ? and / prompt
+view: remove ViewEvent infrastructure
+vis: improve switching to prompt mode
+vis: implement = operator in terms of fmt(1)
+vis: add cmd argument to VIS_OP_FILTER
+view: preserve column position when moving across lines
+view: remove special treatment of tabs in cell matrix
+vis: improve cursor alignment command <C-a>
+vis: improve creation of new cursors on line above/below
+vis: implement filter operator !
+vis: change semantics of operator implementation return value
+vis: close correct file descriptor upon failure in filter command
+vis: fix compiler warnings related to `ga` implementation
+vis: use file open dialog for all directories
+vis: implement ga
+Cast argument to ctype.h is* functions to unsigned char
+vis: improve replacement of combining characters
+view: fix cell placement of combining characters
+text: introduce functions to iterate over graphemes
+buffer: tweak memory allocation strategy
+text: get modification time after replacing file content in place
+vis: improve <C-p> in visual mode
+vis: fix <C-n> in visual mode for partial matches
+buffer: add some comments to clarify allocation strategy
+vis: put in visual mode should replace the current selection
+ui: improve fallback code in case of unknown term
+view: increase range to consider for syntax highlighting
+lexer: improve pure lexer
+ui: fall back to xterm-256color if term initialization fails
+lexer: add lexer for pure
+build: do not clutter dependency/install with manual pages
+Update .gitignore
+lexer: fix some more color specifications
+build: try to fix make standalone for multiarch systems
+lexers: fix color specification in diff lexer
+view: improve window redrawing for shared files/split windows
+view: correctly redraw window content
+ui: warn if theme loading failed
+Clarify build dependencies in README
+Fix warnings found by static analyzer
+Mention make local in README
+Update year numbers in Copyright clause
+Remove trailing white space from source files
+Mention new source files in README
+Delete now obsolete syntax.h
+vis: map <F1> to :help
+vis: reindent config.def.h (no functional changes)
+Tweak manual page
+view: do not highlight matching symbols if selection is active
+ui: try to make sure that selected text is still visible
+theme: updated low color theme
+theme: add default low color theme
+ui: load syntax theme based on the number of supported colors
+vis: introduce vis namespace for lua objects
+build: add VIS_PATH=. to suggested execution after make local
+build: explicitly link againgst dl
+lexer: add ledger lexer
+theme: increase contrast by setting background color to black
+lexer: new lexer for man/roff format
+lexer: new APL lexer
+vis: try to support all lua versions >= 5.1
+vis: implement :set colorcolumn
+ui: make default selection visible
+Add lexer specific README file
+travis: try to fix build by using local built dependencies
+ui: redo syntax coloring after resize
+Update README
+vis: factor out syntax highlighting code
+vis: implement :set theme
+vis: implement :set cursorline
+vis: experimental support for lua/lpeg based syntax highlighting
+Overhaul build system
+Import LPeg based lexers from Scintillua 3.6.1-1
+vis: remove regex based syntax highlighting
+vis: more comments and cleanups
+text-motion: do not treat ' as string delimiter in match bracket
+vis: shadow default register while in prompt mode
+vis: prefix enum VisMotion values with VIS_
+vis: tweak enum VisTextObject names
+vis: prefix enum VisOperator values with VIS_
+vis: API documentation and cleanup
+vis: introduce vis_cancel API
+vis: move modes into separate file
+vis: move operators to separate file
+vis: move motions to separate file
+vis: move :-commands into their own file
+vis: fix cursor position after charwise paste
+vis: do something reasonable upon visual repeat
+vis: fix operators to correctly handle multiple selections
+vis: fix definition of space motion
+vis: make open line commands (o and O) repeatable
+vis: make single character replace (r command) repeatable
+vis: add vis_keys_inject to place keys into the input queue
+buffer: add buffer_insert to insert data at an arbitrary position
+vis: add some default bindings for <Delete>
+vis: let libtermkey map <DEL> to <Backspace>
+vis: map <DEL> to <Backspace>
+text: return end of changed range in text_redo
+vis: free input_queue at exit
+vis: make I command repeatable
+vis: let keys entered via API affect macro recording
+vis: make append (a and A) commands repeatable
+vis: improve count handling for dot command
+vis: improve dot command
+travis: try to fix build once more
+vis: adapt some comments to new input handling code
+view: make zb command more robust
+build: introduce make local Makefile target
+ui: make color parsing more robust
+vis: map C-c to leave insert mode
+ui: properly restore terminal state upon exit
+Update source tree overview section in README
+build: merge parts of the build system changes from lua branch
+vis: make Vis an opaque type, hide implementaton details
+vis: introduce vis_macro_recording API
+vis: introduce vis_prompt_enter API
+vis: clean up tab/newline insertion code
+vis: introduce pseudo operators for put
+vis: introduce explicit operators for cursor creation
+vis: introduce explicit operators for case changes
+vis: move key handling functions to main.c
+vis: merge editor.c into vis.c
+vis: introduce vis_key_next API
+vis: introduce vis_register_{get,set} API
+vis: introduce vis_count_{get,set} API
+vis: introduce vis_motion_type API
+vis: clean up mark handling
+vis: convert jumplist navigation to proper motions
+vis: convert changelist navigation to proper motions
+vis: introduce vis_repeat API
+vis: introduce macro API
+vis: introduce vis_keys API
+vis: introduce vis_cmd API
+vis: introduce vis_textobject API
+vis: introduce vis_motion API
+vis: introduce vis_mode_switch API
+vis: introduce vis_operator API
+vis: begin librarization of core vis primitives
+vis: refactor startup code
+ui: introduce and use ui specific die(...) function
+vis: overhaul signal handling
+vis: remove config selection based on argv[0]
+vis: remove global state from key input handling
+vis: remove yet more global state
+vis: remove yet more global state from motion functions
+vis: rename motion type
+vis: remove more global state from motion functions
+vis: pass editor instance to keyboard action functions
+vis: remove more global state
+vis: pass editor instance to command handling funcitons
+vis: pass editor instance to mode handling functions
+vis: refactor operator implementation
+vis: include :-commands in :help output
+vis: improve :help text, add separate status mode names
+text: introduce text_appendf utility function
+vis: correct typos in help text
+view: ensure minimal window size
+vis: preserve ui options when splitting windows
+ui: add uniform function prefix
+ui: cleanup redrawing
+vis: alias <C-h> to <Backspace>
+vis: introduce special keys which allow mappings to editor actions
+vis: fix name clash of keyboard actions
+view: cleanup whitespace replacement symbol handling
+view: cleanup option handling
+ui: refactor syntax style definitions
+vis: properly ignore tab at command prompt
+text: fix usage of va_arg in text_vprintf
+ui: fix ressource leak (CID 114606)
+build: always take revision from current branch
+travis: remove harmful line continuation symbols
+travis: install libtermkey dependency
+Change release tarball compression to gzip
+add a new Makefile target 'release' to build release tarball
+update version handling to work with tags or without git
+Add section about build dependencies to README
+vis: add rudimentary :help command
+Add a profile Makefile target
+text: add text_{v,}printf function
+vis: fix key alias implementation
+vis: introduce keyboard actions
+vis: remove now unused common_prefix mode attribute
+vis: consolidate all text objects into one mode
+vis: add rudimentary support for key aliases
+buffer: add functions to prepend data to an existing buffer
+vis: cleanup keyboard handling implementation
+vis: update mode diagram in config.def.h to be closer to reality
+vis: convert mark handling to new input handling code
+vis: convert insertion of register from insert mode
+vis: convert register specification to new input handling code
+vis: convert macro recording / replay to new input handling code
+vis: convert insert verbatim to new input handling code
+vis: convert to/till movements to new input handling
+vis: adapt r (replace) to new input handling
+vis: change key binding function prototypes
+vis: rework input handling using libtermkey
+Add utfnext utility function
+buffer: add buffer_put0 to store a NUL terminated string
+buffer: add buffer_append0 to append NUL terminated strings
+map: introduce map_contains utility function
+ui: differentiate between Ctrl-J and enter
+ui: remove translation of ^b to backspace
+Improve shell highlighting
+ui: query terminal size on stderr
+ui: make cursor visible when executing external programs
+vis: fix :edit! command
+vis: fix repeated use of file open dialog
+vis: cancelling wildcard open causes crash
+text: rename some functions to improve consistency
+text: introduce helper function text_delete_range
+vis: limit to/till movements to current line
+Add APL syntax highlighting.
+vis: implement gv to restore last selection
+vis: implement al and il text objects
+vis: implement gp and gP add count support to put operations
+Add short demo screencast to README
+vis: use file open dialog also for :edit
+Update README
+vis: use I and A instead of CTRL-O for new cursors in visual mode
+text-motion: make text_bracket_match more robust
+vis: add text objects `af` and `if`
+vis: add motions [[, [], ][, ]]
+text-motion: fix text_find_{next,prev}
+vis: support `ae` and `ie` text objects
+view: hide API to free main cursor
+vis: cleanup handling of charwise/linewise motions
+vis: fix one more coverity scan warning
+vis: fix bugs uncovered by coverity scan
+vis: fix join operator
+vis: pass cursor to operator implementations
+text-util: introduce text_range_equal
+text-object: introduce utility function text_range_is_linewise
+vis: use multiple cursor/selection infrastructure
+vis: do not move cursor in multicursor mode after undo/redo
+vis: try to align cursors on the same column with CTRL-A
+text-motion: introduce text_line_char_{get,set}
+vis: CTRL+J and CTRL+K creates a new cursor on the line below/above
+vis: ESC in normal mode clears all cursors
+vis: add per cursor registers
+vis: add an operator to create new cursors
+text-motion: add functions to iterate over lines of a range
+text-util: add text_range_contains
+text: move utility functions to separate file
+ui: try to fixup unicode display issues
+view: use a mark to keep track of the visible area
+view: do not set cursor position after resize
+view: always fill out complete cell matrix
+vis: add infrastructure to support multiple cursors/selections
+text-object: add new functions to search for words
+text: handle marks set to 0 and text_size(...)
+text: add text_range_overlap
+text-motion: introduce text_line_{up,down}
+text-object: add text_range_linewise
+text: introduce text_range_new
+ui: further separate curses related user interface code
+vis: improve insertion of verbatim characters via CTRL-V in insert mode
+vis: handle file truncation more gracefully
+text: move regex related functions to separate file
+text: slight cleanup, add a few comments
+vis: rename struct member to avoid conflict with standard library
+vis: add a file open dialog
+vis: fix detection of file changes outside the editor
+text: upon successfull file save store new modification time
+ui: abstract curses related special keys away
+ui: unify backspace handling
+ui: move terminal state handling code to ui specific file
+ui: move input handling code to ui specific files
+vis: improve handling of linewise deletion at end of file
+vis: make J (join) behave like in vim when given a count
+vis: only read file content from stdin if - was specified
+text: safer temporary file creation
+view: properly NUL terminate whitespace replacement symbols
+text: avoid double close in error case
+text: remove left over debugging code
+Make selection contiguous over whitespace symbols
+Warn when saving a file which has been changed outside the editor
+text: remove text_load_fd and text_fd_get
+Move filename from Text to File
+text: overhaul file load implementation
+text: overhaul save implemenation
+make: only call uname once in config.mk
+text: store buffer allocation type (mmap or malloc)
+Add movements to next/previous character within same line
+Do not take a snapshot in text_range_write
+Remove text dump debugging code
+Fix handling of multibyte characters (at start of display area)
+Add :show command to display special symbols for whitespaces
+Fix segfault in cmd_filter
+Perform character prev/next movements based on Text not View
+Cleanup insert/replace mode input handling
+Do not take address of variables which go out of scope
+Mark intentional case statement fall through
+Fix copy/paste error in text_restore
+Replace a->time with a->seq in history_traverse_to
+Add seq field to Action struct
+Add more thorough description of history to README
+Make :earlier and :later accept arguments similar to vim
+Mark internal undo tree functions as static
+Edit README to reflect new history implementation
+Hook up :-commands & keybindings for earlier/later
+Core undo tree changes
+fixed some typos in comments
+Use $(MAKE) instead of directly calling `make`
+Implement :substitute by invoking sed as a filter
+Implement :r and :r! in terms of filter commands
+Filter command :!
+Release macro data
+Cleanup general purpose buffer API
+Let each :-command decide what to do if no range is specified
+Improve parsing of :-command name and parameters
+In command mode make the '.' range specifier match the current line
+Add '--' as end of options
+Use the command name without the Filerange in argv
+Move redrawing out of operator implementations
+Make operators return new cursor position
+Update header include guard to match file name
+Cleanup line ending type detection and insertion
+Fix echo foo | vis -
+for editor command compare string, not just first character
+make vis print version with command option -v
+get version from git
+Rename window.[ch] to view.[ch]
+Yet more renames (EditorWin -> Win)
+More renames, no functional changes
+More renaming vis->win->view instead of vis->win->win
+Better variable naming (VisText -> File)
+Remove redundant RegexMatch definition
+Improve loading of files
+Make '.' respect count
+Mark some movements as idempotent
+Make 'n', 'N', '*', '#' respect count
+Handle failure of a movement gracefully
+Cleanup implementation of movements to marks
+Further clean up to/till movements
+Cleanup implmentation of line and column movements
+Implement ';' and ','
+Clean up to/till movements
+Highlight null directive.
+Try to remember column position when moving across lines
+Add javascript syntax highlighting
+Rename README -> README.md
+Update README, convert to Markdown
+Recognize g~ as case swap operator
+Eliminate global running variable
+Remove global mode state
+Move structs to editor.h remove global action{,_prev}
+Further ui separation, eliminate global state
+Eliminate global state for repetition of last modification
+Eliminate global state for :set options
+Lazy initialization of :-commands
+Fix crit-bit tree URL reference
+Make ":set syntax" without any argument display the currently active one
+Highlight matching cursor symbol
+Travis CI: disable clang build for now
+Fix cell attributes for tabs
+Show cursor in visual mode
+Add Travis CI integration in preparation for Coverity Scan automation
+Set '< and '> marks
+Add basic Lua syntax highlighting support
+Prevent black flicker on load
+Remove unused struct member
+Remove useless duplication of argument to exec_cmdline_command
+Fix clang static analyzer warnings
+Introduce new struct VisText
+Fix drawing of selection
+Cleanup :set implementation
+Move more curses related stuff to ui-curses.c
+Change behaviour of 'cw' and 'cW'
+Mark some pointers in struct Action as const
+Add option to display relative line numbers
+Preliminary user interface separation
+Fixed multiline comment regexp.
+Do not modify the argument to exec_command
+Check return value of realloc
+Add hack to make CTRL-w CTRL-h work
+Add additional key mappings for window switching
+Implement 'o' in visual mode: go to other end of selection.
+Add additional key mappings for window switching
+Cleanup :-command implementation
+Crit-bit tree based map
+Delete key in visual mode should delete selection
+Do not lump together replace actions
+Fix :nnn where nnn > maximal number of lines
+OpenBSD links against ncurses
+Fix coverity issue 12388
+Do not leak memory in repeated text_filename_set calls
+Fix :saveas command definition
+Merge branch 'hardening' of https://github.com/jvoisin/vis
+Introduce basic PHP syntax highlighting support
+Print debug output to stdout
+Avoid possible double close when saving
+Always close file descriptor after :read command
+Reorder if/else clause in order to avoid dead code
+In vim, "syntax" can be abbreviated as "syn".
+add C source and header file to depends
+remove vis from .PHONY
+Pass $LDFLAGS after source files
+Remove nano like frontend for now
+Simplify Makefile
+Accept unique prefixes as :commands
+Fix segfault when using arrow keys in prompt
+Add hardening flags for gcc and clang
+Make J also join lines spanning multiple screen lines
+Change default line up/down movements to match vim
+Cleanup nn| implementation
+Add new logical linewise movements
+Rename window_line_* functions
+Change ledger syntax regex to work with BSD regex
+Print prettier status bar when given no file name
+More useful error message when opening non regular files
+Merge branch 'ledger-syntax' of https://github.com/clehner/vis
+Add syntax rules for Ledger journals
+Add rudimentary markdown syntax support
+Update README to reflect current state
+Rudimentary change list (accessible via g; and g,)
+Change :open to create a new window if no argument is given
+Add default settings for editor startup
+Support per file type settings
+Fix some compiler warnings
+define underscores to be part of a word
+no need to allocate len+1 if we're not appending '\0'
+implement rudimentary autoindent
+Support relative line jumps :+nn / :-nn
+Simplify jump to line :nnn
+Change window_cursor_getxy API
+Fix openline command on the first line
+Added a .gitignore
+Update :set option section in README
+Make :set option parsing more robust
+Add the :x(it)? command
+Fix :quit regex
+Fix size_t specifiers in format strings
+Add python syntax support
+Make single character replacement repeatable
+Fix compilation on various *nix systems
+Make last insertion/replacement repeatable with '.'
+Rip out insertion repeating infrastructure
+Constify buffer API
+Make getkey read one UTF-8 character at a time
+Add rudimentary support for jump list (CTRL+{O,I})
+Introduce externally managed marks
+Rename mark related functions
+Fix compiler warnings
+Simplify # and * commands by using inner text objects
+Distinct between inner and outer word text objects
+Optionally display line numbers alongside file
+Move kepress hook to record all keys
+Macro support
+Support longer key bindings
+Improve syntax highlighting of C style comments ending in **/
+Improve usage as a filter
+Also join lines if cursor is at beginning of a line
+Also join lines if cursor is on newline (after text)
+Fix segfault when joining lines
+Treat file read from stdin as unmodified
+Accept spaces between range and command
+Set correct default range for commands
+Introduce text_range_size
+Support partial writes
+Support partial saves
+Change return type of text_save
+Fix mode switching bugs
+Set MARK_SELECTION_{START,END} in visual mode
+Recognize some basic file ranges
+Add Filerange argument to all commands
+Make command prompt available in visual modes
+Do not crash when given an invalid search pattern
+Add option to execute commands on startup via +{cmd}
+Use pselect instead of select
+Move feature test macros to config.mk
+Read text to edit from stdin if it isn't a terminal
+Preserve file permissions when saving
+<End> goes past end in insert mode
+Only cast once in op_case_change
+Toggle case operator
+Place cursor after inserted text when pasting a register
+Make editor usable as a filter: echo foo | vis - | cat
+Make running flag volatile
+Read stdin when given - as filename
+Factor out editor main loop
+Add syntax rules for Haskell
+Improve some syntax highlighting rules
+Make text objects available in visual mode
+Clean up visual mode handling
+Unbreak 'J' in normal mode
+Allow to supend the editor via CTRL-Z
+Promote join to an operator
+More helpful error when trying to open a non file
+Make '.' repeat last insertion
+Fix typo in piece table caching layer
+Improve argument validation in text_insert
+Add insert mode key bindings CTRL-X+CTRL-{E,Y}
+Hook up shifting in insert mode via CTRL-{D,T}
+Improve cursor placement after shifting
+Implement 'zt', 'zz', 'zb'
+Implement '#'
+Make '*' more useful
+Add text objects for word (lowercase) variant
+Factor out common user info message
+Implement :bdelete
+'g_' should be inclusive
+Simplify text_line_finish
+Implement proper distinction between word and WORD
+Realign a few code blocks, no functional changes
+Add infrastructure for word (lowercase) motions
+Perform some renames in preparation for different word types
+Exit command prompt if last character is deleted
+Do not warn if no command is given
+Accept :se as abbreviation for :set
+Actually set global tabwidth
+Implement '*'
+Add text_object_word_raw which does not include any whitespaces
+Make '$' move to the last character of a line
+Introduce text_line_lastchar
+Revert "Change semantics of text_line_end"
+Fix cursor position after 'p'
+Implement 'ZZ' and 'ZQ'
+Implement window related keys (CTRL-W ...) in terms of ':'-commands
+'f' and 't' should be inclusive
+'r' should not move the cursor
+Implement :new and :vnew
+Change split/vsplit API
+Change semantics of text_line_end
+<num>gg should go to <num> line
+Implement 'g0', 'gm', 'g$'
+Rename a few functions to avoid conflicts
+Rename MOVE_LINE_{UP,DOWN} to MOVE_SCREEN_LINE_{UP,DOWN}
+Implement 'gU' and 'gu'
+Handle filenames with spaces
+Update README to reflect current ':'-command status
+Implement :saveas command
+Implement 'P', fix 'p'
+Implement append in insert mode 'a'
+'o' should switch to insert mode
+Implement linewise visual mode
+Add support for the '<', '>' marks
+Fix display of selection in visual mode
+Make idle timeout configurable per mode
+Make syntax highlighting run time configurable
+Revert some multiline syntax definitions
+Improve syntax highlighting
+This fixes warning with latest glibc (>= 2.19.90), which deprecated _BSD_SOURCE
+Remove some TODO items
+Support files with Windows style newlines \r\n
+Windows style newlines are actually \r\n not \n\r
+Implement expand tab functionality, make tabwidth configurable
+Fix :0 on command prompt to move to begin of file
+Cleanup handling of action.count
+Ignore tab key in command prompt for now
+Do only open an empty buffer if the file does not exist
+Display error messages when loading a file fails
+Clean up window splitting API
+Update README with current operator support
+Implement left shift operator
+Implement right shift operator
+Simplify text_object_line implementation
+Fix scrolling direction of CTRL-{F,B}
+This fixes warning with latest glibc (>= 2.19.90), which deprecated _BSD_SOURCE
+Fix compilation on OpenBSD
+Fix editing of files with length 0
+Implement CTRL-{U,D,E,Y} in normal mode
+Clean up cursor handling in window.[ch]
+Import syntax rules from sandy
+More efficient syntax highlighting, first match wins
+Display current mode in window statusbar
+Fix save to absolute paths
+Add a dummy man page inorder to fix make install
+Make byte based iterator API handle the whole range [0, size]
+Use EPOS where appropriate
+All *_free(...) functions should accept a NULL argument
+Fix clang static analyzer warnings
+Rename OP_PASTE to OP_PUT
+Introduce some helper functions dealing with Filerange
+Rename text_insert_raw to text_insert
+Introduce and use EPOS instead of (size_t)-1
+Make window_selection_get to return the correct range
+Add a README
+Fix 'G' movement to end of file
+Add movements 'H', 'M', 'L'
+In normal mode 'r' should also replace new lines
+Cleanup editor.h
+Display a few error messages where appropriate
+Use the new global keypress hook to hide user messages
+Add a global keypress hook before any keybindings are checked
+Add facility to display a message to the user
+Add some more API comments
+Make sure that the state is consistent after an undo operation
+Remove outdated comments
+Fix loading of not yet existing files
+Introduce text_filename_set
+Rename text_filename to text_filename_get
+Restore cursor position after an undo/redo
+Name modes more consistently
+Take snapshot when leaving insert/replace mode
+Make normal mode command 'x' undoable
+Be stricter on what commands to accept at the ':'- prompt
+Fix bug when moving to characters with display width > 1
+Add :edit command
+Remove Ctrl+c for quit, since we now have a command prompt
+Fix ascii art tree of modes
+Add normal mode command 'X'
+Avoid segfault if no previous search has been performed
+Fix warnings about redefinition of typedefed structs
+Add/cleanup window commands Ctrl-{n,s,q}
+Add :qall command
+On the prompt Ctrl-{B,E} should move the cursor to the begin/end of the line
+In visual mode 'v' should switch to normal mode
+Add readline Ctrl+U binding
+Reindent readline key bindings
+Clean up normal mode key bindings
+Add normal mode command 's'
+Add movement 'W'
+Add normal mode command 'J'
+Add normal mode commands 'O' and 'o'
+Make movements to next / previous line available
+text-motions: add text_line_prev function
+text-motions: fix no match case of text_find_char_{next,prev}
+Add normal command 'Y' as a synonym for 'yy'
+Add normal command 'S' as asynonym for 'cc'
+Add movements 'B' and 'E'
+Add normal mode commands 'A', 'C', 'D' and 'I'
+Add normal mode key binding for 'r'
+Add a few comments about the subtleties of mode switching
+Redraw editor content after command execution
+If text has been created from an empty file, store filename upon first save
+Keep window focused indication while prompt is shown
+Fix :q command
+Add license header
+Simplify drawing of the window statusbar
+Simplify cursor color management
+Add comments where appropriate
+Cleanup header files
+Remove trailing whitespaces (sed 's/[ \t]*$//')
+Rename vis.[ch] to editor.[ch] and main.c to vis.c
+Unclutter config.def.h by moving stuff to main.c
+Add window borders in vertical layout
+Open all files given on command line
+Add infrastructure for commands
+Separate different types of text objects
+Add all 26 marks
+Add all 26 registers
+Detect whether a file is already opened when splitting a window
+Fix a few memory leaks
+Change mode input prototype
+Improve undo/redo
+Hook up search as a movement
+Fix repeat command
+Zero can be both a movement and part of a multiplier
+Unify variable naming
+Use named struct initializers where appropriate
+Make Home/End keys work in command prompt
+Fix insertion of newlines
+Add user prompt infrastructure
+Add visual mode key bindings
+Add insert mode key bindings
+Implement movement to column in line
+Make status window optional
+Cleanup vis.h
+Fix missuse of cursor instead of call in config.def.h
+Update nano keybindings to infrastructure changes
+In visual mode operators should operate on the selected text
+Remember whether the register content is linewise
+Add helper function which finds the start of the next line
+Remove cruft from config.def.h
+Skip modes with common prefix if it does not match
+Implement movement to a given line
+Fix action multiplier
+Implement to/till movements i.e. 'f', 'F', 't', 'T'
+Factor out getkey logic
+text-motion: fix find_char_prev
+Implement rudimentary mark handling
+Rudimentary support for copy / paste via registers
+Enable text objects, introduce operator options
+Introduce a logical line as text-object
+Fix cursor placement after delete operation
+First try at a repeat command i.e. '.'
+Teach window_cursor_to how to display the end of the file
+Fix Makefile
+Refactor frontend code
+First part of a vi like frontend
+Expose various text objects with individual functions
+Add rudimentary register implementation
+Add trivial text motions to start and end of file
+Add support for backticks to movement and text object
+text-objects: add objects delimited by brackets or quotes
+motion: improve matching of single and double quotes
+text-object: make word object behave more like in vim
+text-object: correctly detect word boundries
+motion: fix movement to previous word end when right before
+text: fix iterator_char{prev,next} to accept NULL argument
+motion: add character wise motion
+Improve text motions
+Move motion related stuff into own file
+Add work in progress editor frontend
+Add license header
+Share common macros in util.h
+text: invalidate line <-> pos mapping upon undo/redo
+text: redesing mark implementation
+text: refactor piece_get
+Remove useless replace API
+Rename files editor.[ch] -> text.[ch]
+Change 'namespace' Editor -> Text
+Add search functionality
+Add support for file marks
+Add function to query line-numer <-> byte offset mapping
+Further improve iterator API
+Improve iterator API
+Reindent comments
+Perform argument validation
+Rename content => data
+API cleanup
+Rename Editor::pos -> Editor::len
+Refactor editor_save
+Add prototypes
+Remove redundant function
+Remove unnecessary special case for inserting into an empty document
+Fix bugs in caching layer
+Add some more comments
+Introduce cache layer
+Add iterator functions to walk through text
+Add comments regarding deletion
+Add some ascii art to illustrate insertion
+Implement modification detection
+Remove trailing white spaces
+Document data structures
+Throw away redo history once a new action is performed
+Simplify + add prototypes
+Introduce buffer holding text
+Implement replacement/overwrite
+Implement deletion
+Implement insertion
+Inital import

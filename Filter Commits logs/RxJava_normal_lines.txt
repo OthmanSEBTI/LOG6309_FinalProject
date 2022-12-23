@@ -1,0 +1,4112 @@
+Add onDropped callback for throttleFirst - addresses #7458 (#7482)
+Bump gradle/wrapper-validation-action from 1.0.4 to 1.0.5 (#7479)
+Bump mockito-core from 4.8.0 to 4.8.1 (#7478)
+Bump actions/cache from 3.0.10 to 3.0.11 (#7477)
+Bump actions/cache from 3.0.9 to 3.0.10 (#7474)
+Bump actions/cache from 3.0.8 to 3.0.9 (#7473)
+Bump mockito-core from 4.7.0 to 4.8.0 (#7468)
+Bump ru.vyarus.animalsniffer from 1.5.4 to 1.6.0 (#7465)
+Bump actions/cache from 3.0.7 to 3.0.8 (#7466)
+Change @coded tag to @code tag (#7463)
+Bump mockito-core from 4.6.1 to 4.7.0 (#7462)
+Bump actions/cache from 3.0.6 to 3.0.7 (#7461)
+3.x: Update Flowable.throttleLatest MissingBackpressureException message (#7460)
+3.x: Add onDropped callback to throttleLatest operator (#7457)
+3.x: Standardize MissingBackpressureException message, introduce QueueOverflowException (#7459)
+3.x: Upgrade to Gradle 7.5.1 (#7456)
+Bump actions/cache from 3.0.5 to 3.0.6 (#7455)
+Update Schedulers.java (#7453)
+3.x: fix typo in BehaviorSubject.java (#7452)
+Upgrade to Gradle 7.5 (#7451)
+Bump actions/cache from 3.0.4 to 3.0.5 (#7449)
+Bump biz.aQute.bnd.builder from 6.3.0 to 6.3.1 (#7440)
+Bump actions/cache from 3.0.3 to 3.0.4 (#7439)
+3.x: Remove redundant interface declarations (#7438)
+Enable software development from any device via https://gitpod.io (#7437)
+Bump actions/cache from 3.0.2 to 3.0.3 (#7430)
+3.x: Add missing `@NonNull` annotation to `Maybe` type argument (#7436)
+Bump mockito-core from 4.6.0 to 4.6.1 (#7434)
+Bump biz.aQute.bnd.builder from 6.2.0 to 6.3.0 (#7432)
+Bump mockito-core from 4.5.1 to 4.6.0 (#7426)
+Bump reactiveStreamsVersion from 1.0.3 to 1.0.4 (#7424)
+Remove @NonNull annotations for functions with void return type (#7425)
+Undo permissions on snapshot and release GHA
+Set permissions for GitHub actions (#7410)
+Bump mockito-core from 4.5.0 to 4.5.1 (#7414)
+Bump mockito-core from 4.4.0 to 4.5.0 (#7413)
+Bump actions/cache from 3.0.1 to 3.0.2 (#7412)
+Bump actions/setup-java from 2 to 3 (#7411)
+Bump codecov/codecov-action from 2.1.0 to 3 (#7409)
+Bump actions/cache from 2.1.7 to 3.0.1 (#7408)
+Upgrade to Gradle 7.4.1 (#7402)
+Bump mockito-core from 4.3.1 to 4.4.0 (#7401)
+Bump actions/checkout from 2.4.0 to 3 (#7399)
+Bump guava from 31.0.1-jre to 31.1-jre (#7398)
+Bump com.vanniktech.maven.publish from 0.18.0 to 0.19.0 (#7396)
+Bump biz.aQute.bnd.builder from 6.1.0 to 6.2.0 (#7397)
+3.x: Apply the Javadoc format cleanup to Disposable.html (#7393)
+Upgrade to Gradle 7.4 (#7392)
+3.x: Move nullness annotation to use sites of Supplier (#7385)
+Bump mockito-core from 4.3.0 to 4.3.1 (#7388)
+Bump mockito-core from 4.2.0 to 4.3.0 (#7387)
+Bump testng from 7.4.0 to 7.5 (#7381)
+3.x: Upgrade to Gradle 7.3.3 (#7379)
+Bump mockito-core from 4.1.0 to 4.2.0 (#7377)
+3.x: Upgrade to Gradle 7.3.2 (#7374)
+Bump actions/cache from 2.1.6 to 2.1.7 (#7367)
+Bump biz.aQute.bnd.builder from 6.0.0 to 6.1.0 (#7366)
+Bump mockito-core from 4.0.0 to 4.1.0 (#7363)
+Upgrade to Gradle 7.3 (#7359)
+Bump ru.vyarus.animalsniffer from 1.5.3 to 1.5.4 (#7357)
+Bump actions/checkout from 2.3.5 to 2.4.0 (#7356)
+Using TCK Tested JDK builds of OpenJDK (#7354)
+Bump actions/checkout from 2.3.4 to 2.3.5 (#7352)
+Bump mockito-core from 3.12.4 to 4.0.0 (#7350)
+Added required comma to README.md (#7349)
+Bump biz.aQute.bnd.builder from 5.3.0 to 6.0.0 (#7348)
+Update assert messages format to be compliant with GradleRunner and JUnitRunner (#7345)
+Bump guava from 31.0-jre to 31.0.1-jre (#7343)
+3.x: Javadocs: indicate takeUntil stops on completion of other (#7341)
+Bump guava from 30.1.1-jre to 31.0-jre (#7340)
+Bump com.vanniktech.maven.publish from 0.17.0 to 0.18.0 (#7337)
+Bump codecov/codecov-action from 2.0.3 to 2.1.0 (#7338)
+3.x: Add missing exports packages, fix param overrides (#7336)
+Add full Java module descriptor (#7241)
+3.x: Add step to JDK 11 build to verify generated module-info (#7334)
+Align hasCustomOnError behavior of CallbackCompletableObserver with LambdaObserver, ConsumerSingleObserver and so on (#7326)
+Bump mockito-core from 3.12.3 to 3.12.4 (#7325)
+3.x: Specify proper OSGi unique bundle symbolic name (#7319)
+3.x: Standardize many of the operator fusion interfaces & queues (#7320)
+Bump mockito-core from 3.12.1 to 3.12.3 (#7322)
+Bump codecov/codecov-action from 2.0.2 to 2.0.3 (#7321)
+Bump mockito-core from 3.11.2 to 3.12.1 (#7316)
+Update gradle 7.2 (#7314)
+Disable publish action in forked repository (#7313)
+Add .editorconfig to .gitignore
+Update README.md
+Bump gradle to 7.1.1 (#7307)
+3.x: Add RxJavaPlugins.createExecutorScheduler (#7306)
+Bump codecov/codecov-action from 2.0.1 to 2.0.2 (#7304)
+3.x: Move nullability annotations into the type argument declaration (#7303)
+3.x: Javadocs fix some wording in Schedulers.java (#7301)
+Bump codecov/codecov-action from 1.5.2 to 2.0.1 (#7299)
+3.x: Add subscribe with disposable container (#7298)
+3.x: API promotions for 3.1.0 (#7296)
+Removes the purge thread in favor of standard ScheduledThreadPoolExecutor APIs (#7293)
+Update gradle_release.yml
+Update gradle_snapshot.yml
+Bump com.vanniktech.maven.publish from 0.15.1 to 0.17.0 (#7290)
+3.x: Update withLatestFrom doc about upstream early complete (#7289)
+Bump mockito-core from 3.11.1 to 3.11.2 (#7287)
+Rollback the publish plugin
+Bump com.vanniktech.maven.publish from 0.15.1 to 0.16.0 (#7285)
+Bump mockito-core from 3.11.0 to 3.11.1 (#7283)
+Bump codecov/codecov-action from 1.5.0 to 1.5.2 (#7282)
+Bump mockito-core from 3.10.0 to 3.11.0 (#7280)
+Bump gradle/wrapper-validation-action from 1.0.3 to 1.0.4 (#7279)
+Bump actions/cache from 2.1.5 to 2.1.6 (#7278)
+3.x: fix typo in ObservableRetryTest.java (#7277)
+Bump mockito-core from 3.9.0 to 3.10.0 (#7273)
+Bump actions/checkout from 2 to 2.3.4 (#7269)
+Bump codecov/codecov-action from 1 to 1.5.0 (#7270)
+Bump gradle/wrapper-validation-action from 1 to 1.0.3 (#7268)
+3.x: Consolidate test logging (#7263)
+Updated javadocCleanup to use logger and remove semi-colons (#7264)
+Rename workflow tasks (#7262)
+Remove toolVersion for jacoco and checkstyle (#7261)
+3.x: Move Gradle properties into gradle.properties file (#7260)
+3.x: Gradle wrapper 7 0 (#7259)
+Remove Javadoc not failing on error (#7258)
+Remove redundant addition of JMH to classpath (#7257)
+Update Gradle task dependencies to remove dependsOn 'build' task (#7255)
+Remove fixPom method from build.gradle (#7253)
+Re-enable snapshot full build, update README
+Don't do full build yet, saves time with trying the new snapshot push
+Try fixing snapshot releases, attempt 1
+Bump com.vanniktech.maven.publish from 0.15.0 to 0.15.1 (#7250)
+Update gradle_release.yml
+Update env names for release plugin v0.15 (#7247)
+Bump com.vanniktech.maven.publish from 0.14.2 to 0.15.0 (#7246)
+Update gradle_release.yml
+3.x: Action cache clear, limit environmental variables (#7238)
+Bump actions/cache from v2.1.4 to v2.1.5 (#7234)
+Upgrade setup-java GitHub actions to v2 (#7232)
+Bump testng from 7.3.0 to 7.4.0 (#7231)
+Bump actions/cache from v2 to v2.1.4 (#7230)
+Initial commit for dependabot.yml config file (#7227)
+Remove custom Gradle garbage collection tasks (#7225)
+Bump mockito-core from 3.8.0 to 3.9.0 (#7224)
+3.x: fix typo in FlowableRetryTest.java (#7223)
+Modernize gradle plugin block, change maven to maven-publish (#7219)
+Bump guava from 30.1-jre to 30.1.1-jre (#7216)
+3.x: CompositeException.printStackTrace to write directly into PS/PW (#7212)
+Bump gradle to 6.8.3 & optimize gradle config (#7207)
+3.x: Upgrade Gradle to 6.8.3 (#7208)
+Ignore .checkstyle (local property config for the header file)
+Standardize java source headers (#7205)
+Update README.md
+Bump build-info-extractor-gradle from 4.20.0 to 4.21.0 (#7198)
+3.x: Cover changes of #7196
+3.x: Allow Single.zip and Maybe.zip result to be garbage collected (#7196)
+3.x: Add onSubscribe hook to ParallelFlowable operators (#7191)
+Bump mockito-core from 3.7.7 to 3.8.0 (#7193)
+Bump biz.aQute.bnd.gradle from 5.2.0 to 5.3.0 (#7194)
+Bump gradle-animalsniffer-plugin from 1.5.2 to 1.5.3 (#7192)
+Bump jmh-gradle-plugin from 0.5.2 to 0.5.3 (#7182)
+Bump junit from 4.13.1 to 4.13.2 (#7188)
+Bump gradle-maven-publish-plugin from 0.14.1 to 0.14.2 (#7189)
+Bump gradle-maven-publish-plugin from 0.13.0 to 0.14.1 (#7186)
+3.x: Upgrade to Gradle 6.8.2 (#7184)
+Update gradle_release.yml
+Update build.gradle
+3.x: Release to Sonatype directly (#7181)
+3.x: Allow reruns of release actions by enabling bintray.override (#7176)
+3.x: Workaround for FutureTask.toString + JDK 11 build (#7173)
+Bump build-info-extractor-gradle from 4.19.0 to 4.20.0 (#7171)
+3.x: Introduce property rx3.scheduler.use-nanotime (#7169)
+3.x: Add fusion support to concatMap{Maybe|Single|Completable} (#7165)
+3.x: Improve Javadocs style of Schedulers (#7168)
+3.x: TestScheduler option to use onSchedule hook (#7163)
+Updating documentation for scheduleActual method (#7164)
+Io Scheduler, Scheduled worker release. (#7160)
+Bump build-info-extractor-gradle from 4.18.3 to 4.19.0 (#7159)
+3.x: Schedulers.from vs. RejectedExecutionException (#7150)
+3.x: onReduceBackpressure internals cleanup (#7151)
+Bump mockito-core from 3.7.0 to 3.7.7 (#7152)
+3.x: Update marbles of amb(), ambArray() and ambWith() (#7144)
+Bump mockito-core from 3.6.28 to 3.7.0 (#7141)
+Bump build-info-extractor-gradle from 4.18.2 to 4.18.3 (#7140)
+Bump guava from 30.0-jre to 30.1-jre (#7134)
+adding 1.x 2.x 3.x javadoc to wiki sidebar (#7133)
+3.x: Add onBackpressureReduce operator (#7129)
+3.x: Add onBackpressureReduce operator (#7124)
+3.x: Improve Javadocs of Connectable sources (#7127)
+3.x: Improve error messages in the test consumers (#7126)
+Trigger on prereleases too
+Limit to released event types
+Bump build-info-extractor-gradle from 4.18.1 to 4.18.2 (#7123)
+3.x: Remove unnecessary cancel/dispose calls from terminating using (#7121)
+Bump build-info-extractor-gradle from 4.18.0 to 4.18.1 (#7118)
+Bump mockito-core from 3.6.0 to 3.6.28 (#7116)
+3.x: Update badge in README.md (#7115)
+3.x Switch from Travis CI to GitHub Actions (#7114)
+3.x: Flowable scan/scanWith backpressure documentation update (#7110)
+Bump gradle-animalsniffer-plugin from 1.5.1 to 1.5.2 (#7106)
+Switch to travis-ci.com as the org goes away (#7104)
+Bump build-info-extractor-gradle from 4.17.2 to 4.18.0 (#7102)
+Bump mockito-core from 3.5.15 to 3.6.0 (#7103)
+Bump mockito-core from 3.5.13 to 3.5.15 (#7099)
+Bump guava from 29.0-jre to 30.0-jre (#7098)
+Bump biz.aQute.bnd.gradle from 5.1.2 to 5.2.0 (#7097)
+Bump junit from 4.13 to 4.13.1 (#7094)
+Clarify the documentation for scan operators (#7093)
+Bump jmh-gradle-plugin from 0.5.1 to 0.5.2 (#7082)
+Bump mockito-core from 3.5.11 to 3.5.13 (#7086)
+s/error/fail/ (#7080)
+Bump mockito-core from 3.5.10 to 3.5.11 (#7077)
+3.x: Patch out duplicate @NonNull annotation in generated javadocs (#7073)
+3.x: fromRunnable/fromAction javadoc improvements (#7071)
+Bump mockito-core from 3.5.9 to 3.5.10 (#7070)
+Bump mockito-core from 3.5.7 to 3.5.9 (#7069)
+Bump build-info-extractor-gradle from 4.17.1 to 4.17.2 (#7067)
+Bump jmh-gradle-plugin from 0.5.0 to 0.5.1 (#7066)
+Bump mockito-core from 3.5.6 to 3.5.7 (#7064)
+Bump mockito-core from 3.5.5 to 3.5.6 (#7063)
+Bump mockito-core from 3.5.2 to 3.5.5 (#7062)
+Bump mockito-core from 3.5.0 to 3.5.2 (#7060)
+Bump build-info-extractor-gradle from 4.17.0 to 4.17.1 (#7059)
+Bump mockito-core from 3.4.6 to 3.5.0 (#7057)
+Bump build-info-extractor-gradle from 4.16.1 to 4.17.0 (#7053)
+3.x: Update marbles of onErrorResume(Next|With) + cleanup (#7051)
+Bump testng from 7.0.0 to 7.3.0 (#7047)
+Bump mockito-core from 3.4.4 to 3.4.6 (#7043)
+Made the parameter of {Flowable,Observable}.collect(Collector) contravariant on T. (#7033)
+Bump biz.aQute.bnd.gradle from 5.1.1 to 5.1.2 (#7038)
+Bump mockito-core from 3.4.2 to 3.4.4 (#7035)
+Bump mockito-core from 3.4.0 to 3.4.2 (#7031)
+fixed for issue #7001 (#7028)
+Bump mockito-core from 3.3.3 to 3.4.0 (#7027)
+Bump build-info-extractor-gradle from 4.16.0 to 4.16.1 (#7024)
+Edit dependency for gradle (#7023)
+Bump build-info-extractor-gradle from 4.15.2 to 4.16.0 (#7013)
+Bump biz.aQute.bnd.gradle from 5.1.0 to 5.1.1 (#7009)
+Updating SuppressUndeliverableRule to have a named inner class instead of an anonymous inner class. (#7006)
+Bump gradle-animalsniffer-plugin from 1.5.0 to 1.5.1 (#7007)
+Bump biz.aQute.bnd.gradle from 5.0.1 to 5.1.0 (#7003)
+3.x update Conditional-and-Boolean-Operators.md (#7000)
+Suppress UndeliverableException handling in tests (#6987) (#6996)
+Removed unnecessary upstream.cancel() call for casually finished upstream sequences. (#6992)
+Add missing `@Test` annotation (#6990)
+3.x: Disable fusion on the groups of Flowable.groupBy (#6983)
+3.x: Allow setting the drift tolerance timeunit via system property (#6969)
+Bump build-info-extractor-gradle from 4.15.1 to 4.15.2 (#6967)
+Bump guava from 28.2-jre to 29.0-jre (#6959)
+Bump gradle-bintray-plugin from 1.8.4 to 1.8.5 (#6951)
+docs: Quick Javadoc fixes. (#6943)
+3.x: Workaround flakyness of multiThreadedWithNPE* tests (#6953)
+Update image urls to non-transparent version. (#6944)
+Bump biz.aQute.bnd.gradle from 5.0.0 to 5.0.1 (#6941)
+Remove unused imports
+Bump build-info-extractor-gradle from 4.15.0 to 4.15.1 (#6940)
+Add see annotation for range operators (#6934)
+Bump build-info-extractor-gradle from 4.14.1 to 4.15.0 (#6937)
+Bump mockito-core from 3.2.4 to 3.3.3 (#6935)
+Bump build-info-extractor-gradle from 4.13.0 to 4.14.1 (#6924)
+Update README.md
+Update 2.x maintenance date, include 3.0 wiki
+More missing version tags
+Missing version tag from Single.concatMaps
+3.x: Add missing coverage, fix unused/inconsistent ops (#6901)
+3.x: Add 'Error handling' section to Observable.blockingFirst documentation (#6900) (#6903)
+3.x: Add concatEagerDelayError across (#6899)
+3.x: Add remaining Maybe marbles (+50) (#6897)
+3.x: Reenable XFlatMapTest.maybeSingle, add missing Single operators (#6893)
+3.x: Swap Maybe.flatMapSingle and Maybe.flatMapSingleElement (#6891)
+3.x: Use more appropriate operators when delegating to Flowable ops (#6888)
+3.x: Add safeSubscribe to Maybe, Single & Completable (#6887)
+3.x: Add Completable.onErrorReturn[Item] (#6886)
+3.x: Add missing startWith overloads (#6885)
+3.x: Add Completable.sequenceEqual (#6884)
+3.x: Add Single.mergeArray & mergeArrayDelayError (#6882)
+3.x: Add various concatXDelayError operators (#6881)
+3.x: Add concatMapX operators (aliases) (#6879)
+3.x: Add doOnLifecycle to M/S/C (#6877)
+3.x: Add Single.ofType (#6876)
+3.x: Add Maybe/Completable toFuture (#6875)
+3.x: Add timeInterval & timestamp to M/S (#6874)
+3.x: Add many fromX operators + marbles (#6873)
+3.x: Add Maybe.dematerialize (#6871)
+Refresh operator-matrix
+3.x: Add Maybe/Single/Completable switchOnNext & switchOnNextDelayError (#6870)
+3.x: Add S/C retryUntil + marbles (#6869)
+Update Operator-Matrix generator and output
+3.x: Add Completable.onErrorResumeWith (#6868)
+3.x: Add onErrorComplete to Flowable, Observable and Single (#6867)
+3.x: Add Maybe/Single/Completable blockingSubscribe (#6862)
+add delayError to Maybe.delay (#6864)
+Bump biz.aQute.bnd.gradle from 4.3.1 to 5.0.0 (#6861)
+3.x: Add last missing throws tag to JavaDocs (#6860)
+Minor fix to the operator matrix.
+3.x: [Wiki] Improve Operator-Matrix with links and notes (#6857)
+3.x: Verify the use of base interfaces in operator inputs & lambdas (#6858)
+Rename Single.equals to Single.sequenceEqual (#6856)
+3.x: Simplify @return sentences in Flowable JavaDocs (#6847)
+Add `pull_request` to Wrapper Validation Triggers (#6849)
+Official Gradle Wrapper Validation GitHub Action (#6848)
+Deleted unnecessary NPE tests (#6846)
+3.x: Add operator matrix wiki + auto-extractor (#6845)
+3.x: Remove Maybe.onExceptionResumeNext (#6844)
+3.x: Improve wording of operators (#6843)
+3.x: Add nullability annotations to type arguments (#6840)
+Bump build-info-extractor-gradle from 4.12.0 to 4.13.0 (#6808)
+3.x: enable javac parameter saving in class files (#6839)
+3.x: Rename to combineLatestArrayDelayError (#6838)
+3.x: Remove a pointless concatMapIterable overload (#6837)
+3.x: Cleanup javadoc for parameter validation all around (#6835)
+3.x: Improve JavaDocs of Observable and fix similar issues elsewhere (#6831)
+3.x: Improve JavaDocs of Maybe (#6815)
+Deleted Functions.naturalOrder (#6817)
+3.x: Remove fromFuture(..., Scheduler) overloads (#6814)
+Bump junit from 4.12 to 4.13 (#6810)
+3.x: Improve Javadocs of Single (#6812)
+3.x: Improve Javadocs of Completable and some others (#6809)
+3.x: Prettify Flowable javadoc + validator (#6806)
+3.x: [Java 8] Add flattenStreamAsX to Maybe/Single (#6805)
+Bump guava from 28.1-jre to 28.2-jre (#6802)
+3.x: Add missing throwIfFatal calls (#6801)
+3.x: Add blockingForEach(Consumer, int) overload (#6800)
+3.x: XProcessor.offer to throw NPE immediately (#6799)
+3.x: [Java 8] Add ParallelFlowable operators + cleanup (#6798)
+3.x: [Java 8] Add Observable operators + cleanup (#6797)
+3.x: Add missing annotations, fix many diamonds (#6795)
+3.x: Add NonNull & SafeVarargs annotations + validator (#6791)
+Bump build-info-extractor-gradle from 4.11.0 to 4.12.0 (#6792)
+3.x: Remove now unnecessary unchecked warning suppressions (#6790)
+diamond operators in unit tests, small packages (#6789)
+Diamond operators in tests (#6788)
+diamond operators in unit tests, observable package (#6786)
+diamond operators in unit tests, flowable package (#6787)
+3.x: Cleanup and prettify Javadocs, widen XOperator throws (#6785)
+3.x: [Java 8] Add fromOpt/Stage, mapOptional, toCompletionStage to M/S/C (#6783)
+Migrate Disposables static factories to Disposable interface (#6781)
+3.x: [Java 8] Add blockingStream & flatMapStream to Flowable (#6779)
+3.x: [Java 8] Add AutoCloseable <-> Disposable conversions, nicen docs (#6780)
+3.x: [Java 8] Implement mapOptional, collector, first/last/single stage (#6775)
+3.x: Javadocs package-info made nicer, update README regarding Java 8 (#6778)
+Add FunctionalInterface annotations. (#6773)
+Replace ObjectHelper.requireNonNull with Objects.requireNonNull (#6771)
+Replace some ObjecsHelpers methods with Java 8 APIs (#6770)
+Remove deprecated method from 2.x (#6769)
+3.x: [Java 8] Upgrade to Java 8, add Flowable.fromX operators (#6765)
+Bump mockito-core from 3.2.0 to 3.2.4 (#6764)
+3.x: Do not update snapshot Javadocs from secondary branches (#6752)
+3.x: Change how the cause of CompositeException is generated (#6748)
+3.x: Update observeOn docs with links and +backpressure explanation (#6750)
+3.x: Change Flowable.groupBy to signal MBE instead of possibly hanging (#6740)
+3.x: Add fair mode overload to Schedulers.from(Executor) (#6744)
+3.x: Make DisposableContainer public API (#6745)
+3.x: Upgrade to Gradle 6.0.1 (#6741)
+3.x: Mockito fix deprecated API use after bump to 3.2.0 (#6739)
+Bump gradle-bintray-plugin from 1.7.3 to 1.8.4 (#6735)
+Bump build-info-extractor-gradle from 4.5.2 to 4.11.0 (#6736)
+Bump mockito-core from 3.0.0 to 3.2.0 (#6737)
+Bump biz.aQute.bnd.gradle from 4.2.0 to 4.3.1 (#6738)
+Bump guava from 28.0-jre to 28.1-jre (#6734)
+Bump jmh-gradle-plugin from 0.5.0-rc-2 to 0.5.0 (#6733)
+3.x: Add Maybe marble diagrams (14 cases) (#6730)
+3.x: Update Single.zip marble diagrams (4 cases) (#6732)
+3.x: observeOn and Schedulers.from eagerness javadoc updates (#6723)
+3.x: Upgrade to Gradle 5.6.4 (#6711)
+3.x: cleanup of some Javadoc parts (#6709)
+3.x: Embed R8 ProGuard rules to ignore Flow* interfaces in RS 1.0.3 (#6706)
+Cherry-pick fixes from #6683 (#6699)
+3.x: Update javadoc for observeOn to mention its eagerness (#6700)
+3.x: Update Backpressure.md
+Add Export-Package declarations for OSGi headers (#6675)
+3.x: Add missing marble diagams to Single (#6668)
+Update Additional Docs to include Reactive Programming on Android with RxJava (#6665)
+3.x: Multiple empty line detection to ignore whitespace (#6662)
+3.x: constrain upstream requests from take (#6569) (#6650)
+3.x: Rename combineLatest methods that take an array to combineLatestArray (#6640)
+3.x: Cleanup addThrowable, "2.x" and null-value error messages (#6639)
+3.x: Rename zipIterable, remove zip(O(O)), adjust concatMapX arg order (#6638)
+3.x: Avoid using System.getProperties() due to security restrictions (#6637)
+3.x: Remove vararg overloads for combineLatest in Observable + Flowable (#6635)
+3.x: Upgrade to Rective Streams 1.0.3 (#6633)
+3.x: Upgrade Gradle & dependency versions (#6632)
+Update Readme.md with the new package locations (#6631)
+3.x: better leak detection via GC/sleep loop (#6628)
+3.x: Refactor to io.reactivex.rxjava3.** (#6621)
+elementAt, first - constrain upstream requests  (#6620)
+3.x: Have `internal.operator.observable` unit tests extends `RxJavaTest` - 6 (#6607)
+3.x: Have unit tests extends `RxJavaTest` - 5 (#6604)
+Have `internal.operator.flowable` unit tests extends `RxJavaTest` - 4 (#6600)
+Have unit tests extends `RxJavaTest` - 3 (#6595)
+Have unit tests extends `RxJavaTest` - 2 (#6594)
+Create a base test class and have all unit tests extend it (#6589)
+3.x: widen throws on the XOnSubscribe interfaces (#6579)
+3.x: Add more time for GC in RefCountTest.publishNoLeak (#6581)
+3.x: travis use openjdk8 as oraclejdk8 stopped working? (#6574)
+3.x: fix switchMaps inconsistency swallowing errors when cancelled (#6572)
+3.x: Code verification fixes for javac's generated switchmap classes (#6570)
+3.x: fix wording in Single javadocs (#6566)
+3.x: remove buffer/window with supplier & onExceptionResumeNext (#6564)
+3.x rename on error resume next methods to disambiguate when calling from kotlin (#6551) (#6556)
+3.x: remove unnecessary static imports from unit tests (#6550)
+3.x: Simplify JUnit tests with more appropriate assert methods (#6549)
+3.x: remove no-arg, dematerialize(); remove replay(Scheduler) variants (#6539)
+3.x: Add concatMap with Scheduler guaranteeing where the mapper runs (#6538)
+3.x: Promote Beta/Experimental to Standard (#6537)
+3.x: Make using() resource disposal order consistent with eager-mode (#6534)
+3.x: JavaDocs: clarify create emitters are per consumer (#6535)
+3.x: Add eager truncation to bounded replay() to avoid item retention (#6532)
+3.x: Remove Changes.md (#6533)
+3.x: add marbles to X.fromSupplier (#6531)
+3.x: disambiguate startWith+1 to startWithItem & startWithIterable (#6530)
+3.x: Add X.fromSupplier() (#6529)
+Rename test methods and enable the check (#6528)
+3.x: remove `test` from `testXXX` method names, create a validator (#6525)
+3.x: Remove methods from test consumers, make internal versions (#6526)
+3.x: ConnectableFlowable/ConnetableFlowable redesign (#6519)
+3.x: Various small API changes and removals (#6517)
+3.x: remove getValues() from some subjects/processors (#6516)
+3.x: Widen functional interface throws, replace Callable with Supplier (#6511)
+3.x: Sync up with 2.2.10 snapshot (#6507)
+3.x: Adjust infrastructure version markers (#6421)
+Release 2.2.7
+Improving Javadoc of flattenAsFlowable and flattenAsObservable methods (#6276) (#6408)
+Add doOnTerminate to Single/Maybe for consistency (#6379) (#6386)
+Expand `Observable#debounce` and `Flowable#debounce` javadoc (#6377)
+Release 2.2.6
+ 2.x: Don't dispose the winner of {Single|Maybe|Completable}.amb() (#6375)
+2.x: Add interruptible mode to Schedulers.from (#6370)
+Indicate source disposal in timeout(fallback) (#6365)
+docs(README): Use 'ignoreElement' to convert Single to Completable (#6353)
+Release 2.2.5
+Update outdated java example in wiki #6331 (#6351)
+Javadoc: fix examples using markdown instead of @code (#6346)
+Replace indexed loop with for-each java5 syntax (#6335)
+Adding NonNull annotation (#6313)
+2.x: Update Filtering Observables docs (#6343)
+ #6323 Java 8 version for Problem-Solving-Examples-in-RxJava (#6324)
+Release 2.2.4
+Change javadoc explanation for Mutable List (#6314)
+Javadoc: explain that distinctUntilChanged requires non-mutating data to work as expected (#6311)
+Javadoc updates for RXJava Issue 6289 (#6308)
+Javadoc : Explain explicitly about non-concurrency for Emitter interface methods (#6305)
+2.x: Update Transforming Observables docs (#6291)
+Add missing onSubscribe null-checks to NPE docs on Flowable/Observable subscribe (#6301)
+2.x: Add dematerialize(selector), deprecate old (#6281)
+ 2.x: Add materialize() and dematerialize() (#6278)
+2.x: Expose the Keep-Alive value of the IO Scheduler as System property. (#6279) (#6287)
+2.x: Improve the package docs of i.r.schedulers (#6280)
+2.x: Improve the Observable/Flowable cache() operators (#6275)
+2.x: Update Error Handling Operators docs (#6266)
+2.x: Call the doOn{Dispose|Cancel} handler at most once (#6269)
+2.x: Update Creating Observables docs (#6267)
+Inline SubscriptionHelper.isCancelled() (#6263)
+Use JUnit's assert format for assert messages to enable better suppor… (#6262)
+Add generate examples to Creating-Observables.md in Wiki (#6260)
+Release 2.2.3
+2.x: Add C.delaySubscription marble, fix some javadoc (#6257)
+2.x: Cleanup code style, commas, spaces, docs (#6255)
+2.x: Expand and fix Completable.delaySubscription tests (#6252)
+Add delaySubscription() methods to Completable #5081 (#6242)
+Add Nullable annotations for blocking methods in Completable (#6244)
+2.x Wiki: Remove mention of i.r.f.Functions (#6241)
+2.x: Adjust Undeliverable & OnErrorNotImpl message to use full inner (#6236)
+Add timeout and unit to TimeoutException message (#6234)
+2.x: Cleanup Observable.flatMap drain logic (#6232)
+2.x JavaDocs: Remove unnecessary 's' from ConnectableObservable (#6220)
+2.x: Assert instead of print Undeliverable in some tests (#6205)
+Release 2.2.2
+Add "error handling" java docs section to from callable & co (#6193)
+2.x: Cleanup multiple empty lines in sources (#6182)
+Update Additional-Reading.md (#6180)
+2.x: explain null observer/subscriber return errors from RxJavaPlugins in detail (#6175)
+Auto-clean up RxJavaPlugins JavaDocs HTML (#6173) (#6174)
+2.x: Add explanation text to Undeliverable & OnErrorNotImplemented exs (#6171)
+Release 2.2.1
+Remove unused imports
+2.x: Make observeOn not let worker.dispose() called prematurely (#6167)
+Update `unsubscribeOn` tests to avoid the termination-cancel race
+Error handle on Completable.fromCallable with RxJavaPlugins (#6165)
+2.x: Make Flowable.fromCallable consitent with the other fromCallables (#6158)
+2.x: Clarify TestObserver.assertValueSet in docs and via tests (#6152)
+2.x: cleanup newline separation, some field namings (#6150)
+Grammar fix (#6149)
+2.x: Add concatArrayEagerDelayError operator (expose feature) (#6143)
+Add marble diagrams for various Single operators (#6141)
+2.x: Cleaunp - rename fields to upstream and downstream (#6129)
+2.x: Update Mathematical and Aggregate Operators docs (#6140)
+2.x: Add marbles for Single.concat operator (#6137)
+2.x: Update Getting started docs (#6136)
+Update RxJava Android Module documentation (#6134)
+2.x: Expand Creating-Observables.md wiki (#6131)
+Initial clean up for Combining Observables docs (#6135)
+2.x: Update _Sidebar.md with new order of topics (#6133)
+2.x: Remove fromEmitter() in wiki (#6128)
+2.x: Flowable.onErrorResumeNext improvements (#6121)
+Add marbles for Single.timer, Single.defer and Single.toXXX operators (#6095)
+2.x: Improve Completable.onErrorResumeNext internals (#6123)
+2.x: Test cleanup (#6119)
+6108 changed README to use Gradle's implementation instead of compile (#6116)
+2.x: Update Readme.md about the parallel() operator (#6117)
+Release 2.2
+2.x: Promote all Experimental/Beta API to standard (#6105)
+Release 2.1.17
+2.x: Adjust JavaDoc stylesheet of dt/dd within the method details (#6102)
+2.x: Final set of missing Completable marbles (#6101)
+Update TestHelper.java: trivial typo fix (#6099)
+2.x: Several more Completable marbles (7/19b) (#6098)
+2.x: Add missing Completable marbles (+19, 07/19a) (#6097)
+2.x: Improve Completable.delay operator internals (#6096)
+Add marbles for Single.amb operators (#6091)
+2.x: Add missing Completable marbles (07/18a) (#6090)
+Single error operators marbles (#6086)
+Add marbles for Single.from operators (#6087)
+Add marble diagram for Single.repeatUntil operator (#6084)
+2.x: More Completable marbles, add C.fromMaybe (#6085)
+Add marble diagrams for Single.repeat operators (#6081)
+2.x: Add Completable marble diagrams (07/17a) (#6083)
+2.x: Improve class Javadoc of Single, Maybe and Completable (#6080)
+Add marble diagram for Single.hide operator (#6077)
+2.x: Add Completable.takeUntil(Completable) operator (#6079)
+Add marble diagrams to the Single.delay method (#6076)
+2.x: Add Maybe.hide() marble diagram (#6078)
+Add marble diagram to the Single.filter method (#6075)
+Add marble diagram to the Single.never method (#6074)
+2.x: Adjust JavaDocs dl/dd entry stylesheet (#6070)
+Release 2.1.16
+Release 2.1.15
+2.x: Expand {X}Processor JavaDocs by syncing with {X}Subject docs (#6054)
+2.x: Use different wording on blockingForEach() JavaDocs (#6057)
+2.x: Add Maybe marble diagrams 06/21/a (#6053)
+#5980 made subscribeActual protected (#6052)
+Make it explicit that throttleWithTimout is an alias of debounce (#6049)
+2.x: Add the wiki pages as docs (#6047)
+fix MulticastProcessor javadoc comment (#6042)
+Update DESIGN.md (#6033)
+Remove whitespaces.
+2.x: Inline CompositeDisposable JavaDoc (#6031)
+2.x: Improve Observable.takeUntil (#6028)
+2.x: Upgrade to Gradle 4.3.1, add TakeUntilPerf (#6029)
+2.x fix group-by eviction so that source is cancelled and reduce volatile reads (#5933) (#5947)
+2.x: Dedicated {Single|Maybe}.flatMap{Publisher|Observable} & andThen(Observable|Publisher) implementations (#6024)
+2.x: More time to BehaviorProcessor & Interval TCK tests (#6023)
+2.x: add full implementation for Single.flatMapPublisher so doesn't batch requests (#6015) (#6021)
+2.x: Add TCK for MulticastProcessor & {0..1}.flatMapPublisher (#6022)
+2.x: benchmark (0..1).flatMap and flattenAs performance (#6017)
+Release 2.1.14
+2.x: Add assertValueSetOnly and assertValueSequenceOnly to TestObserver + TestSubscriber (#6010)
+2.x: Add MulticastProcessor (#6002)
+2.x: Add throttleLatest operator (#5979)
+2.x: Javadoc space cleanup (#6005)
+2.x: readme: mention 1.x eol; 2.x snapshot javadoc url (#5997)
+2.x: Add refCount with count & disconnect timeout (#5986)
+Implement 'toString' method for some Emitters (#5995)
+2.x: Automatically publish the generated JavaDocs from CI (#5996)
+Observable javadoc cleanup (#5992)
+Add marble diagrams to a few Single.doOnX methods. (#5987)
+2.x: Add blockingSubscribe JavaDoc clarifications (#5984)
+2.x: Cleanup in the Scheduler class (#5985)
+2.x: deprecate getValues() in Subjects/Processors (#5982)
+2.x: improve JavaDocs of the subscribeActual methods (#5981)
+2.x: Flowable.take to route post-cancel errors to plugin error handler (#5978)
+2.x: Maybe/Single Javadoc; annotation cleanup (#5977)
+Adding eager concats to Single (#5976)
+Release 2.1.13
+2.x: Workaround for Objects.requireNonNull inserted by javac (#5966)
+2.x: Add Single.ignoreElement, deprecate toCompletable (#5957)
+Add missing parenthesis on README.md (#5955)
+2.x: blockingX JavaDoc to mention wrapping of checked Exc (#5951)
+Removed TERMINATED check in onNext (#5942)
+2.x: Also allow @SchedulerSupport on constructors. (#5940)
+fix typo `ingored` (#5938)
+Add @NonNull annotations to create methods of Subjects and Processors (#5930)
+Release 2.1.12
+2.x: Expand the Getting Started (#5926)
+Add @Nullable annotations to Processors (#5925)
+2.x: Update Single.flatMapPublisher marble (#5924)
+Release 2.1.11
+2.x: Add fusion (perf++) to ObservableSwitchMap inner source (#5919)
+2.x: Improve the scalar source perf of Obs.(concat|switch)MapX (#5918)
+2.x: Optimize ObservableConcatMapCompletable (#5915)
+2.x: Benchmark X-Map-Z operators (#5914)
+2.x: Improve coverage, fix operator logic 03/12 (#5910)
+2.x: Cleanup test local variable names (#5907)
+2.x: Add public constructor for TestScheduler that takes the time. (#5906)
+2.x: Coverage improvements, logical fixes and cleanups 03/08 (#5905)
+2.x: Perf measure of Flowable flatMap & flatMapCompletable (#5902)
+2.x: clarify dematerialize() and terminal items/signals (#5897)
+2.x: Improve coverage & related cleanup 03/05 (#5891)
+Added nullable annotations to subjects (#5890)
+2.x: Cleanup, coverage and related component fixes (#5889)
+2.x: Upgrade the algo of Observable.timeout(time|selector) operators (#5886)
+2.x: Improve coverage and fix small mistakes/untaken paths in operators (#5883)
+2.x: Add Observable switchMapX and concatMapX operators (#5875)
+2.x: Add note about NoSuchElementException to Single.zip(). (#5876)
+2.x: Add Flowable.switchMap{Maybe,Single}{DelayError} operators (#5873)
+2.x: Add Flowable.concatMap{Maybe,Single}{DelayError} operators (#5872)
+2.x: Add Flowable.switchMapCompletable{DelayError} operator (#5870)
+2.x: Add Flowable.concatMapCompletable{DelayError} operator (#5871)
+2.x: Improve the JavaDoc of the other lift() operators (#5865)
+enhance test for groupBy with evicting map factory (#5867)
+2.x: Expand the documentation of the Flowable.lift() operator (#5863)
+Release 2.1.10
+2.x: Cleanup after the new groupBy additions
+2.x: groupBy add overload with evicting map factory (#5860)
+2.x: Add finite requirement to various collector operators JavaDoc (#5856)
+2.x: Add efficient mergeWith(Single|Maybe|Completable) overloads. (#5847)
+remove unnecessary comment from Observable.timeInterval(TimeUnit) (#5858)
+2.x: Unify race test loop counts and invocations (#5857)
+2.x: Add efficient concatWith(Single|Maybe|Completable) overloads (#5845)
+2.x: Improve the wording of the Maybe.fromCallable JavaDoc (#5848)
+2.x: Explain the properties of the XEmitter interfaces in detail (#5844)
+2.x: Expand the JavaDocs of the Scheduler API (#5843)
+2.x: Improve JavaDoc of XObserver types. (#5841)
+2.x: Detail distinct() & distinctUntilChanged() in JavaDoc (#5837)
+Added nullability annotation for completable assembly (#5838)
+Add JavaDoc links to the base reactive classes to Getting started (#5836)
+2.x: Reword the just() operator and reference other typical alternatives (#5830)
+2.x: Document size-bounded replay emission retention caveat (#5827) (#5828)
+2.x: Improve the wording of the share() JavaDocs (#5824)
+Release 2.1.9
+2.x: Add Subject and Processor marbles (#5816)
+2.x: Final planned Observable marble additions/fixes (#5805)
+2.x: More Observable marbles, 01/10-a (#5804)
+2.x: Improved XSubject JavaDocs (#5802)
+2.x: Add missing {Maybe|Single}.mergeDelayError variants (#5799)
+2.x: Observable.replay(Function, ...) marble fixes (#5798)
+2.x: Observable marble fixes 01/08-b (#5797)
+2.x: More marbles 01/08-a (#5795)
+2.x: add error handling section to merge() operator docs (#5786)
+2.x: improve request accounting overhead in retry/repeat (#5790)
+Remove apostrophe to correct grammar. (#5793)
+2.x: Update Maybe doOn{Success,Error,Complete} JavaDoc (#5785)
+2.x: Describe merge() error handling. (#5781)
+2.x: Improve BehaviorSubject JavaDoc + related clarifications (#5780)
+Update CHANGES.md
+2.x: Improve BehaviorProcessor JavaDoc (#5778)
+2.x: Improve JavaDoc of retryWhen() operators (#5773)
+Rename interface parameters (#5766)
+2.x: Upgrade to Reactive Streams 1.0.2 final (#5771)
+2.x: Subject NPE fixes, add UnicastProcessor TCK (#5760)
+2.x: fix timed exact buffer calling cancel unnecessarily (#5761)
+2.x: marble additions and updates (12/11) (#5759)
+2.x: add a couple of @see to Completable (#5758)
+2.x: Add retry(times, predicate) to Single & Completable and verify behavior across them and Maybe. (#5753)
+2.x: improve autoConnect() Javadoc + add its marble (#5756)
+2.x: Check runnable == null in *Scheduler.schedule*(). (#5748)
+2.x: Add marbles for Observable (12/06) (#5755)
+2.x: fix javadoc link in observables/package-info
+2.x: RxJavaPlugins unwrapRunnable (#5734)
+2.x: add/update Observable marbles 11/28 (#5745)
+2.x: improve wording and links in package-infos + remove unused imports (#5746)
+2.x: SchedulerMultiWorkerSupport version fix to 2.1.8 - exp
+2.x: API to get distinct Workers from some Schedulers (#5741)
+Release 2.1.7
+Check isDisposed before emitting in SingleFromCallable (#5743)
+2.x: marbles for Observable all, fromPublisher, zipArray (#5740)
+correct javadoc for ConnectableFlowable, GroupedFlowable, FlowableAutoConnect (#5738)
+Improved code formatting for README.md (#5737)
+Restore license to correct text. (#5735)
+2.x: Implement as() (#5729)
+2.x: distinguish between sync and async dispose in ScheduledRunnable (#5715)
+2.x : Rename variable name "subject" to "processor" for exact expression (#5721)
+Remove duplicate nullity check line (#5723)
+2.x: Add a sentence to documentation of take() operator. (#5718)
+2.x: Javadocs: add period to custom scheduler use sentences (#5717)
+2.x: BaseTestConsumer values() and errors() thread-safety clarifications (#5713)
+2.x: Improve Javadocs of flatMapSingle and flatMapMaybe (#5709)
+Remove mentions of Main thread from Schedulers.single() javadoc. (#5706)
+Moved tests to FromCallableTest from FromCompletableTest (#5705)
+2.x: fix Completable.concat to use replace (don't dispose old) (#5695)
+Update 'java' → 'java-library' Gradle plugin, update deps configurations. (#5682)
+Release 2.1.6
+2.x: Add TCK test for limit() (#5683)
+2.x: More Observable marble fixes (10/18) (#5680)
+2.x: add limit() to limit both item count and request amount (#5655)
+2.x: make parallel() a fusion-async-boundary (#5677)
+2.x: Add PublishProcessor JMH perf comparison (#5675)
+2.x: coverage, add SingleToFlowableTest (#5673)
+2.x: fix PublishProcessor cancel/emission overflow bug (#5669)
+2.x: improve Flowable.timeout() (#5661)
+Upgrade testng to get method names to show up in gradle console when skipping, and in testng html output. (#5653)
+2.x: inline disposability in Obs.concatMap(Completable) (#5652)
+2.x: update Obs.just(2..10) & switchOnNextDelayError marbles (#5651)
+2.x Add concatMapCompletable() to Observable (#5649)
+2.x: improve package JavaDoc (#5648)
+Release 2.1.5 changes.md update
+2.x: Readme.md update snapshot links (#5645)
+2.x: additional warnings for fromPublisher() (#5640)
+Added Automatic-Module-Name instruction in build.gradle (#5644)
+2.x: RC4 fix maven-POM generation again
+2.x: fix bintray repo and name config
+2.x: fix "full" mode gradle code
+2.x: Upgrade to Gradle 4.2, remove nebula, custom rls (#5633)
+2.x: add onTerminateDetach to Single and Completable (#5624)
+2.x: fix incorrect error message at SubscriptionHelper.setOnce (#5623)
+2.x: Add Single.delay overload that delays errors (#5616)
+Add missing license headers (#5615)
+Release 2.1.4
+Updating JavaDoc with correct return types (#5600)
+Implement LambdaConsumerIntrospection (#5590)
+2.x: fix assertValueSequence reversed error message (#5594)
+2.x: fix Single.timeout unnecessary dispose calls (#5586)
+implement Maybe.switchIfEmpty(Single) (#5582)
+Add NullPointerException comment (#5578)
+Remove unnecessary git command from build instructions (#5572)
+Added formatting to license section (#5571)
+2.x: Add assertValuesOnly to BaseTestConsumer. (#5568)
+2.x: fix Obs.combineLatestDelayError sync initial error not emitting (#5560)
+Release 2.1.3
+Update Schedulers.java (#5552)
+2.x: upgrade Reactive-Streams dependency to 1.0.1 (#5546)
+Add assertValueAt(int, value) to TestObserver (#5529)
+2.x: Try fixing Travis CI lack of java (#5531)
+2.x: add/update Observable marbles (07/30) (#5524)
+2.x: add missing null check to fused Observable.fromCallable (#5517)
+Release 2.1.2
+Remove unnecessary generic type parameters for delaySubscription methods in Single (#5511)
+2.x: fix SpscLAQ nepotism, FlowableRefCountTest.testRefCountAsync flaky (#5507)
+2.x: make withLatestFrom conditional subscriber, test cold consumption (#5495)
+2.x: fix Schedulers.io() javadoc {link missing the @ symbol
+2.x: fix ReplayProcessor backpressure and NotificationLite emission bug (#5493)
+FlowableWithLatestFrom forgets request (#5494)
+Indent comments (#5492)
+2.x: small note on Maybe.defaultIfEmpty regarding toSingle (#5486)
+Corrected return type in doc for F.reduce(seed, reducer), F.reduceWith(seedSupplier, reducer) and O.reduce(seed, reducer) (#5478)
+2.x: See if sudo required results in consistent build times (#5457)
+removing commented code from tests (#5467)
+2.x: fix wording of toList, fix a/an in subscribeOn (#5465)
+use a mutable field in FlowableTimeoutTimed instead of an AtomicReference (#5466)
+Refactoring SingleSchedulerTest. Now it extends AbstractSchedulerTests, so redundant tests could be removed in favor of abstract tests. (#5462)
+2.x: fix Javadoc mistakes and some style (#5460)
+[REF] replace duplicate calling method setAccessible on the same object (#5454)
+2.x: add missing 'the' to the changed sentences of 5413
+2.x: Add empty source clauses to javadocs of combineLatest operators accepting unspecified number of sources. This commit resolves #5412 (#5413)
+Remove the @NonNull annotation from Function (#5449)
+2.x: fix periodic scheduler purging config not honored (#5441)
+2.x: concat to report isDisposed consistently with termination (#5440)
+Remove @NonNull annotation in Consumer method parameter (#5447)
+Gradle to use less memory, missed an export command (#5436)
+Run GC before the TestNG to avoid kill 137, hopefully
+2.x: fix/clarify the Observable class' javadoc (#5432)
+2.x: fix time bounded replaySubject getValue() inconsistency with getValues() on old items (#5434)
+Release 2.1.1
+2.x: fix buffer(time, maxSize) duplicating buffers on time-size race (#5427)
+2.x: more eager cancellation in flatMapX (#5422)
+2.x: fix periodic scheduling with negative period causing IAE (#5419)
+2.x: attempt to fix a few time-sensitive tests. (#5421)
+2.x: fix doOnNext failure not triggering doOnError when fused (#5415)
+#5382 Corrected Single.delay documentation (#5409)
+DefaultSubscriber javadoc sample fix (#5407)
+DefaultObserver javadoc fix: use subscribe, remove disposable code (#5405)
+Update README.md (#5395)
+2.x: add subscribeOn overload to avoid same-pool deadlock with create (#5386)
+Changed minimum value of rx2.buffer-size to 1 (#5391)
+2.x: add missing null checks on values returned by user functions (#5379)
+2.x: make SingleMap not allow map function return null (#5378)
+2.x: make sure interval+trampoline can be stopped (#5367)
+2.x: Replace Action1 with Consumer in docs
+2.x: update some marbles of Observable (#5351)
+2.x: add tryOnError to create/XEmitter API (#5344)
+Add missing bracket (#5326)
+Mark VolatileSizeArrayList as RandomAccess list (#5324)
+Release 2.1.0
+2.x: improve coverage of some classes (no functional changes) (#5310)
+2.x: Apply promotions for v2.1 (#5307)
+2.x: Change ObservableSource.defer to Observable.defer in Observable.scan() documentation. (#5306)
+Release 2.0.9
+2.x: more detailed no-multi-subscribe with std consumers error message (#5301)
+Correct documented return type of Single#flatMapObservable Function argument (#5304)
+2.x: add Single.unsubscribeOn() (#5302)
+Improve doOnDispose JavaDoc (#5296)
+2.x: add/remove empty lines in ConnectableObservable and Observable (#5288)
+2.x: fix Flowable.flatMapMaybe/Single maxConcurrency not requesting more (#5287)
+2.x: cleanup for text and javadoc 04/15 (#5286)
+2.x: BehaviorProcessor & Subject terminate-subscribe race (#5281)
+2.x: Single.subscribe(BiConsumer) consistent isDisposed (#5277)
+2.x: enable link to external JDK, fix Schedulers style (#5271)
+remove commented out code from IoScheduler (#5268)
+2.x: fix whitespaces
+Remove @NonNull annotations in BiConsumer (#5257)
+More nullability annotations (#5251)
+2.x: fix flatMapIterable appearing to be empty when fused (#5256)
+Add nullPointerException comments and ObjectHelper test code. (#5255)
+2.x: fix Flowable.toList() onNext/cancel race (#5247)
+2.x: fix DisposableX copy-paste error in javadoc
+Release 2.0.8
+2.x: fix CallbackCompletableObserver calling onError, ResourceX wording (#5240)
+Add TimeUnit null check test case in Timed (#5231)
+2.x UnicastProcessor fail-fast support (#5226)
+2.x: cleanup based on IntelliJ 2017.1 inspections (#5222)
+2.x: improve the documentation of Schedulers utility class. (#5223)
+2.x: Minor checkstyle fixes
+2.x: safeguard against building with v1 tags (#5219)
+2.x: add resilient versions of parallel map(), filter() & doOnNext() (#5202)
+[2.x] UnicastSubject fail fast support (#5217)
+2.x: fix window() with time+size emission problems (#5213)
+2.x: prevent tasks to self interrupt on the standard schedulers (#5207)
+2.x: better documentation on the abstract consumer classes (#5210)
+2.x: fix images of firstElement, flattenAsX, flatMapIterable (#5208)
+2.x: increase timeout on parallel & completable tests (#5199)
+2.x: add ParallelTransformer interface, params-validation (#5197)
+2.x: Add a few more @Nullable & @NonNull annotations to public interfaces. (#5196)
+Correct java doc for refCount() return type. (#5191)
+2.x: add offer() method to Publish & Behavior Processors (#5184)
+2.x: fix flatMap emitting the terminal exception indicator on cancel (#5188)
+2.x: fix concatMapEager should accept 0 for prefetch (#5189)
+2.x: reflection-based parameter validator & fixes (#5187)
+2.x: test to disallow anonymous inner classes (#5183)
+2.x: fix replay().refCount() leaking items between connections (#5182)
+2.x: Minor generics fix to Functions
+removes all anonymous inner classes (#5177)
+2.x: fix private field access, few generics problems (#5176)
+2.x: WIP removes anonymous inner classes. (#5174)
+2.x: fix LambdaObserver not cancelling the upstream (#5170)
+add Observable.switchMapSingle (#5161)
+2.x: Single.subscribe() to report isDisposed() true on success/error (#5163)
+Release 2.0.7
+2.x: add missing <T> javadoc
+2.x: improve BaseTestConsumer with awaitCount & timeout (#5155)
+Add @NonNull to the methods of Emitter (#5156)
+2.x: Java 9 compatibility fixes (March 3) (#5153)
+2.x: fix timed replay-like components replaying outdated items (#5140)
+2.x: add TestSubscriber.withTag (#5137)
+2.x: fix repeatWhen and retryWhen signatures (#5136)
+2.x: fix flatMap not cancelling the upstream eagerly (#5133)
+2.x: update javadoc of flatMap() overloads (#5127)
+2.x cleanup: add missing override annotations.
+2.x: add ParallelFlowable.sequentialDelayError (#5117)
+2.x: improve coverage, remove unused code (#5119)
+2.x: fix Observable.zip to dispose eagerly (#5121)
+Add more prominent javadoc links
+2.x: fix Obs.combineLatest to dispose eagerly (#5114)
+2.x: benchmark the new strict/interop mode (#5115)
+2.x: Flowable as a Publisher to be fully RS compliant (#5112)
+2.x: fix window(time, size) not completing windows on timeout (#5106)
+2.x: fix doOnSubscribe signalling Undeliv.Exception instead of onError (#5103)
+Added missing @NonNull attribute to Function7. (#5102)
+2.x: fix Maybe.concat() subscribe-after-cancel, verify others (#5101)
+Release 2.0.6
+Add doAfterTerminate callback to the Single type. (#5093)
+2.x: fix scan(seed, f) to emit accumulated values asap (#5090)
+2.x: fix CI load sensitive BlockingNextTests retry with backoff (#5088)
+Correct marble diagram dimensions (#5087)
+2.x: wrap undeliverable errors (#5080)
+2.x: measure performance of 0-1 length inner source to flatMap
+Removed documentation leftover (#5076)
+2.x: fix imports and raw type usage.
+Feature/#5045 more generics in RxJavaPlugins (#5058)
+2.x: cancel upstream first, dispose worker last (#5075)
+2.x: compatibility fixes (JDK 9 & IntelliJ 2017.1 EAP) (#5069)
+Update README.md (#5068)
+Update codecov.yml (#5066)
+2.x: increase sleep time in XFlatMapTest
+2.x: fix replay() cancel/dispose NPE (#5064)
+2.x: update readme parallel example (#5062)
+use bounded wildcards for errorHandler (fixes #5045) (#5049)
+2.x: Feature/#4876 more null checks (#5055)
+2.x: document (internal) SimpleQueue (#5056)
+Another adjustment to codecov.yml
+2.x: disable codecov-checks on PRs (#5057)
+add nullable annotation to simple queue (fixes #5053) (#5054)
+Feature/#4876 nonnull annotations (#5051)
+Document and test amb subscription ordering. (#5047)
+Add StackOverflow links (#5046)
+2.x: add parallel hooks to RxJavaPlugins, add missing params validation (#5043)
+2.x: reintroduce OnErrorNotImplementedException for 0-1 arg subscribe() (#5036)
+Annotate function interfaces. (#5023)
+2.x: dedicated Single.zip implementation, no dispose on all-success (#5027)
+Release 2.0.5
+2.x: option to fail for using blockingX on the computation scheduler (#5020)
+2.x: Add scheduler creation factories (#5002)
+Give more time to delay tck test
+Override RS dependency to compile, replace owner info (#5015)
+2.x: improve the parallel() mode test coverage, improve its code (#5006)
+2.x: add Flowable.parallel() and parallel operators (#4974)
+2.x: ExecutorScheduler.scheduleDirect to report isDisposed on complete (#5005)
+2.x: assertNever(T value) / assertNever(Predicate<T> valuePredicate) (#4994)
+2.x: A.flatMapB to eagerly check for cancellations before subscribing (#4992)
+2.x: Update marble diagrams for sample overloads (#4990)
+2.x: make Obs.combineLatest consistent with Flowable + doc cornercase (#4987)
+2.x: fix cross-boundary invalid fusion with observeOn & zip (#4984)
+2.x: fix Observable.concatMapEager bad logic for immediate scalars (#4982)
+Update copyright
+Update Copyright to 'RxJava Contributors' (#4980)
+Add newline to end of files missing a newline (#4979)
+readme.md with links to 1.x and a quick guide
+2.x: fix withLatestFrom null checks, lifecycle (#4970)
+2.x: Add Completable.hide() (#4973)
+Improve compose() generics (#4972)
+2.x: Add @CheckReturnValue to create methods of Subjects + Processors (#4971)
+2.x: add subjects for Single, Maybe and Completable (#4967)
+2.x: add strict() operator for strong RS conformance (#4966)
+2.x: fix takeUntil() other triggering twice (#4962)
+2.x: add sample() overload that can emit the very last buffered item (#4955)
+2.x: fix LambdaObserver calling dispose when terminating (#4957)
+2.x: fix minor javadoc errors
+Release 2.0.4
+fix javadoc for BehaviorSubject (#4951)
+2.x: fix timeout with fallback not cancelling the main source (#4945)
+2.x: fix publish(Function) not replenishing its queue (#4943)
+2.x: add safeguards to generate() (#4932)
+eaadb540dad556cb524a7376b5bc6f07f108b93d (#4930)
+2.x: fix timer() ISE due to bad resource mgmt (#4927)
+Release 2.0.3
+Update CHANGES.md
+2.x: Change Completable to CompletableSource (#4924)
+2.x: fix TestSubscriber/Observer message texts (#4921)
+2.x: fix & update Observable.repeatWhen and redoWhen (#4911)
+Use t instead of value to allow for IDE naming (#4907)
+Whitespace fixes
+Observable.scan no seed fix post-terminal behaviour (#4904)
+doAfterNext - prevent post-terminal emission (#4903)
+FlowableScan - prevent multiple terminal emissions (#4901)
+FlowableScanSeed - prevent post-terminal events (#4899)
+2.0.2
+2.x: fix compilation errors when using Java 8 (#4893)
+2.x: Issue and PR "welcome" templates (#4891)
+2.x: fix firstOrError back conversions not signalling NSE
+2.x: dedicated reduce() op implementations (#4885)
+Add CheckReturnValue annotation (#4881)
+2.x: Common test classes for Processors. (#4882)
+Add equals() to the unit test to satisfy checkstyle
+2.x: Apply missing RxJavaPlugins.onAssembly on ops (#4877)
+Remove empty list item from `io.reactivex.package-info.java` (#4874)
+2.x: TestObserver shouldn't clear the upstream disposable on terminated
+2.x: add Maybe.flatMapSingleElement returning Maybe
+Release 2.0.1
+2.x: javadoc: fix wording of some operators, remove @throws implications (#4839)
+2.x: add fluent requestMore to TestSubscriber (#4838)
+2.x: add doAfterNext & doAfterSuccess to the other types (#4835)
+2.x: add `Flowable.doAfterNext` operator + 3 doX TCKs (#4833)
+2.x: add doFinally to the rest of the reactive base classes (#4832)
+Porting the Scheduler.when operator from 1.x to 2.x (#4827)
+2.x: add doFinally for handling post terminal or cancel cleanup (#4831)
+2.x: Observable.repeatWhen fix for onError (#4819)
+fix typo in javadoc of Maybe::toSingle (#4815)
+Subtle change in Completable's documentation for retryWhen. (#4810)
+Update ObservableEmitter.java (#4803)
+documentation updates (#4798)
+2.x: fix Observable.repeatWhen & retryWhen not disposing the inner (#4783)
+Update readme and changes.md
+2.x: allow subscribeOn to work with blocking create (#4770)
+Rename BackpressureStrategy.NONE to MISSING (#4767)
+2.x: cleanup, fixes and coverage 10/25 (#4766)
+2.x: cleanup & coverage 10/24-2 (#4763)
+2.x: cleanup, fixes, coverage 10/24-1 (#4761)
+2.x: Add Single.fromObservable(ObservableSource) (#4760)
+2.x: fix window-timed test leaking an MBE that affects unrelated tests (#4755)
+2.x: Remove some unused fields (#4754)
+2.x: fix Flowable.concatMapEager hang due to bad request management (#4751)
+Add more new marble diagrams & update old ones (#4752)
+New 2.x marble diagrams (#4749)
+2.x: distinctUntilChanged to store the selected key instead of the value (#4747)
+2.x: coverage, fixes, cleanup 10/21-1 (#4742)
+Update changes and readme
+2.x: coverage, fixes, cleanup 10/20-2 (#4738)
+2.x: cleanup, fixes, coverage 10/20-1 (#4736)
+2.x: coverage, minor fixes, cleanup 10/19-2 (#4732)
+2.x: Delegate null Collections down to onError in toList (#4731)
+2.x: fix warnings
+Remove checked exceptions from transformer interfaces. (#4710)
+2.x: coverage, fixes, cleanup, copy to Flowable 10/19-1 (#4730)
+2.x: coverage, fixes, enhancements, cleanup 10/18-1 (#4723)
+2.x: remove variance from the input source of retryWhen (#4720)
+2.x: Distinct Operator - delegate null Collection down to onError (#4718)
+2.x: coverage and cleanup 10/17-1 (#4717)
+2.x: test sync from Observable to Flowable 10/16-1 (#4714)
+2.x: coverage, cleanup, fixes 10/15-2 (#4712)
+Decouple stream operators from Function interface. (#4711)
+2.x: coverage, fixes, cleanup 10/15-1 (#4708)
+2.x: cleanup, coverage, fixes 10/14-2 (#4706)
+2.x: coverage, cleanup fixes 10/14-1 (#4705)
+2.x: coverage and cleanup 10/13-1 (#4701)
+2.x: Clean up null usages by using ObjectHelper.requireNonNull (#4699)
+2.x: coverage and cleanup 10/12-1 (#4696)
+2.x: CompositeException fix order of Exceptions (#4695)
+2.x - improve timer javadoc (#4694)
+2.x: coverage, fixes and cleanup 10/11-2 (#4692)
+2.x: BaseTestConsumer add assertValueAt(index, Predicate<T>) (#4690)
+2.x: Add Observable.rangeLong & Flowable.rangeLong (#4687)
+2.x: coverage and cleanup 10/11-1 (#4689)
+2.x: Test static from methods and add Maybe.fromSingle & fromCompletable (#4685)
+Update Mockito to 2.1.0 (#4682)
+Release 2.0.0-RC4
+2.x: fix flatMapX calling SpscLinkedArrayQueue.offer concurrently (#4678)
+2.x: add javadoc and unit test to the recently changed XTransformers (#4674)
+2.x Remove Function from transformer interfaces to allow a single obj… (#4672)
+Limit gradle memory (#4668)
+2.x: flatMap{Completable, Maybe, Single} operators (#4667)
+2.x: coverage and cleanup 10/04-1 (#4666)
+2.x: cleanup and fixes 10/03-2 (#4663)
+2.x: cleanup and coverage 10/03 (#4661)
+2.x: Observable.compose to use ObservableTransformer (#4658)
+Upcast ConcurrentHashMap to Map to avoid compatibility issue (#4654)
+Switch Maybe and Single to use their Transformers in compose() (#4651)
+Signal NPE ObservableAmb FlowableAmb (#4645)
+2.x: fix Mockito 2.1 changes using deprecated API of its own (#4639)
+2.x: Remove unused methods in BasicFuseableObserver (#4637)
+Update Mockito to 2.1.0-RC.2 (#4636)
+allow more graceful memory use in MaybeTest
+2.x: Clean up SingleFlatMap (#4632)
+Force cast to U again
+Cleanup warnings
+2.x: add flattenAs{Observable,Flowable} to Single and Maybe (#4604)
+Don't wrap with CompositeException when there is only one error (#4631)
+2.x: Add Completable.fromRunnable() (#4629)
+Replace 'resource' observers with plain 'disposable' observers in tests. (#4625)
+2.x: Use predicates in BaseTestConsumer assertError(Class/Throwable) to remove duplicate code, tests tweaks to remove few IDE warnings (#4627)
+2.x: enable operator fusion in onBackpressureBuffer (#4622)
+2.x: Make CompositeExcpetion thread-safe like 1.x and also fix some issues. (#4619)
+2.x: Add Single.flatMapMaybe (#4617)
+Add missing type argument documentation
+2.x: improve performance of Observable.flatMapIterable (#4612)
+2.x: Add Maybe.flatMapSingle (#4614)
+2.x: Add Completable.andThen(MaybeSource) (#4616)
+2.x: Factor out typical TestObserver/TestSubscriber methods (#4609)
+2.x: TestSubscriber & TestObserver add assertValue(Predicate) (#4607)
+2.x: Verify same onNext / onError null behavior across all Subjects and Processors (#4606)
+2.x: Evaluate Schedule initialization via Callable (#4585)
+2.x: RxJavaPlugins - Don't pass null throwable down to Error Handler (#4603)
+2.x: benchmark just() and fromCallable() throughput (#4602)
+Remove unused imports
+2.x: Add missing @Test annotation on tests (#4597)
+2.x: don't show started unit tests (#4600)
+2.x: Sync behaviour between UnicastProcessor & UnicastSubject + add a few test cases (#4601)
+Remove mention of blocking from the package-infos
+2.x: Remove takeFirst(predicate) in Observable & Flowable (#4595)
+2.x: Enhance NPE messages (#4593)
+2.x: Add singleOrError, firstOrError, lastOrError & elementAtOrError to Observable and Flowable (#4589)
+2.x: UnicastSubject fix onTerminate (#4592)
+2.x: Report errors from onError to Plugin when done (#4590)
+Highlight RC3 as done
+Update changes.md for RC3
+2.x: Add error assertion with predicate to TestSubscriber and TestObserver (#4586)
+2.x fix Flowable.create() not reporting null values properly, unify (#4583)
+Remove unused import
+2.x: Remove some dead code (#4581)
+2.x: Add missing Maybe tests for concatWith & onErrorResumeNext (#4582)
+2.x: convert the Observable operators to return Single/Maybe (#4579)
+2.x: count, elementAt, ingoreElements, last, single, reduce, reduceWith (#4576)
+2.x: collect, toList, toSortedList, toMap, toMultimap to return Single (#4574)
+2.x: make any() and all() return Single, patch up tests (#4573)
+2.x: last() to return Single (#4570)
+Add extra Maybe iterable Amb tests for overlapped emissions (#4567)
+2.x: Enhance NPE message in Create functions of all Base Reactive Types (#4561)
+2.x: make internal naming consistent, refactor some classes 9/14-2 (#4554)
+2.x: cleanup of style and other minor things, 9/14-1 (#4552)
+2.x: cleanup of some javadoc errors and mentions of 'Nbp' (#4542)
+2.x: small cleanup and TCK fix (#4541)
+2.x: Add Create test with CancelAble for all types and add more MaybeCreateTest cases (#4540)
+2.x: add most relevant ~100 operators' Reactive-Streams TCK tests (#4538)
+2.x: last Maybe operators (#4537)
+Observable/Flowable should unsubscribe from underlying subscription on dispose (#4536)
+2.x: more cleanup and fixed checker, Maybe.takeUntil (#4533)
+2.x: cleanup 9/12-1, more Maybe operators, more source code checking (#4530)
+2.x: PublishSubject enhance NPE when onNext(null) is called (#4531)
+2.x: add Maybe operators, add annotation and source code checker tests (#4528)
+2.x: Remove unused declarations (#4527)
+2.x: More usage of ObjectHelper (#4526)
+Observable/Flowable/Completable/Single.delay should always call onError on the provided Scheduler (#4522)
+2.x: Add missing Resource Observer for Maybe, Completable & Single and adjust some Javadoc (#4518)
+2.x: add more Maybe operators 9/09-1 (#4519)
+2.x: fix Single.using, add unit tests and coverage (#4516)
+2.x: cleanup and coverage 9/08-1
+2.x: fix switchMap bad cancellation (#4513)
+2.x: Adjust some JavaDoc in Emitters (#4509)
+2.x: add system properties to adjust thread priorities of Schedulers (#4503)
+2.x: add Reactive-Streams TCK infrastructure and couple of tests (#4507)
+2.x: Add exception message in SingleFromCallable (#4508)
+2.x: fix operator RefCount, disable FindBugs (due to Travis OOM) (#4506)
+Replace `finallyDo` references with `doAfterTerminate` (#4502)
+2.x: Add Disposable Observer for Maybe, Completable & Single (#4504)
+2.x: Ignore Checkstyle failures (#4505)
+Add Checkstyle for Trailing Whitespace (#4497)
+2.x: Remove trailing whitespace (#4496)
+2.x: more Maybe operators, minor cleanups 9/07-1 (#4493)
+2.x: reduce blockingX overhead, move internal observers to common pkg (#4491)
+rename emitters #isCancelled to #isDisposed (#4490)
+2.x: add new methods to Maybe, Observable and Single from 4481 (#4488)
+2.x: Flowable.reduce() to return Single, macro fusion (#4484)
+2.x: Completable enhance doOnEvent to reduce allocations (#4486)
+2.x: Add doOnEvent to Single & Completable (#4479)
+Replace all occurrences 'TestSubscriber'  by 'TestObserver' in TestObserver class (#4478)
+Update changes.md and readme.md
+2.x: coverage and fixes 9/03-2 (#4469)
+2.x: coverage, bugfixes, 9/03-1 (#4468)
+2.x: add more Maybe operators, fix a few javadoc mistakes (#4467)
+rename Observable and Single #doOnCancel to #doOnDispose (#4458)
+2.x: start reimplementing Maybe with up-to-date javadoc, tests and algo (#4454)
+Add a maybe type as a lazy Optional type. (#4436)
+2.x: fixes, cleanup, coverage 8/31-1
+2.x: Subject/Processor improvements & small cleanup (#4437)
+2.x: cleanup, behavior clarifications, fixes, coverage 8/28-1 (#4435)
+2.x: cleanup, bugfixes, coverage 8/27-2 (#4434)
+2.x: coverage, fixes, cleanup 8/27-1 (#4431)
+2.x Improve coverage, fix bugs (#4430)
+2.x - collect - handle post-terminal events for Observable (#4428)
+Add missing css
+Update changes.md and readme.md
+2.x: add subscribeWith to get back the subscriber/observer fluently (#4422)
+2.x: fixes, cleanups, renames (#4421)
+2.x: add assembly tracking, minor fixes and cleanup (#4417)
+2.x: API removals and renames (#4413)
+2.x: cleanup, enhancements 8/23-1 (#4410)
+2.x collect - handle post-terminal events properly (#4364)
+2.x: add missing ops, cleanup, fusion fixes (#4403)
+Avoid potential NPE when onError throws. (#4398)
+2.x: Completable.test cancel TestSubscriber when wanted (#4395)
+2.x: Single.test dispose TestSubscriber when wanted (#4394)
+Remove explicit StackOverflow check as its a VirtualMachineError. (#4391)
+Remove unused test methods from safe observer/subscriber. (#4387)
+Move error consumer helper to internal API. (#4386)
+Free upstream resources when default observer/subscriber is canceled. (#4385)
+Remove reference counted Disposable public type. (#4388)
+Do not promise a new instance where we return a singleton. (#4384)
+Remove double dash on RxThreadFactory thread names. (#4383)
+Correctly dereference subscription before comparing against null. (#4382)
+Correct factory method name for converting an RS Publisher. (#4381)
+Move single-use top-level type to nested class of its only use. (#4379)
+Remove test scheduler factory. (#4380)
+2.x: implement ops, add javadoc, remove unused components 8/19-2 (#4378)
+2.x: added missing ops, cleanup 8/19-1 (#4375)
+Implement ObservableHide for also masking the Disposable. (#4372)
+2.x: move blocking operators into the base classes (#4371)
+2.x: remove Try+Optional, introduce Notification (#4370)
+2.x: add withLatestFrom many, cleanups and other enhancements (#4368)
+2.x: test sync, fix retryWhen/redoWhen/publish(Function) (#4361)
+2.x: factor out inner classes from the base reactive types (#4360)
+Add missing @Test annotation (#4358)
+2.x: switch to throwing Action, switchMapDelayError (#4357)
+2.x: sync Completable javadoc and related changes (#4355)
+Accept subclasses of Throwable for asserting failure. (#4353)
+2.x: Sync Single javadoc with 1.x (#4352)
+2.x: Observable + Flowable fix some typos (#4349)
+2.x: sync Javadoc of Observable (copy&adjust Flowable's) (#4346)
+2.x: sync javadoc of Flowable (#4342)
+Remove conditional resource management from async listeners. (#4338)
+2.x: move DisposableObserver to public area, add some javadocs (#4337)
+2.x: Clarify behavior of RxJavaPlugins.reset() in javadoc (#4298)
+Add 'WithUpstream' interfaces to connectable implementations. (#4333)
+Extract 'WithUpstream' interfaces. (#4326)
+Skip static factories when converting between stream types. (#4324)
+No scheduler change happens for timeInterval() and timestamp(). (#4323)
+Switch (almost) all chain operators to ObservableWithUpstream. (#4319)
+Switch (almost) all chain operators to FlowableWithUpstream. (#4318)
+Rename create to unsafeCreate, add "safe" create methods. (#4317)
+Normalize empty and never sources. (#4316)
+Use ArrayListSupplier in more places, add HashMapSupplier. (#4315)
+2.x: Remove unused exceptions in public API (#4309)
+Rename FlowableSource to FlowableWithUpstream to match ObservableWithUpstream. (#4314)
+Hotfix compilation error and missing generics
+Rename source/publisher wrapper class to more semantic 'from' name. (#4305)
+Promote anonymous Observables to top-level types. (#4291)
+2.x: fix SubscriptionArbiter reentrancy/cancel bug (#4310)
+Promote Observable to Single/Flowable adapters to top-level types. (#4308)
+Promote lift implementations to top-level types. (#4307)
+2.x: Add missing license headers (#4304)
+Move single and completable observers to correct package. (#4303)
+2.x: Rename Observable Base Interface Types for consistency (#4300)
+2.x: Rename Completable Base Interface Types for consistency (#4302)
+2.x: Rename ObservableSource to ObservableWithUpstream (#4301)
+2.x: Rename Flowable Base Interface Types for consistency (#4299)
+2.x: Rename Single Base Interface Types for consistency (#4297)
+2.x: Observable.range fix Exception message (#4296)
+Add serialized single subscriber wrapper. (#4295)
+Correct default subscriber name. (#4293)
+Inline generic-free runnable and long consumer method. (#4294)
+Actually apply custom scheduler when applying future. (#4292)
+Elide more create/callback wrappers in favor of direct Observables. (#4289)
+2.x: move Exceptions to public area, + ExceptionHelper (#4288)
+Elide ObservableWrapper for empty and never. (#4287)
+Remove defunct 'Nbp' prefix from Observable interfaces. (#4285)
+2.x: Functional interfaces now throw (#4278)
+2.x: test sync and missing operators (8/02) (#4273)
+2.x: test sync and bugfixes (#4268)
+2.x: add dedicated concat for array of publishers (#4266)
+2.x: subscribeOn allow cancelling before the actual subscription happens (#4222)
+2.x: Test sync, +groupJoin, +join, +onTerminateDetach (#4217)
+2.x: use generic type instead of Object in combineLatest and zip (#4211)
+2.x: test sync + cleanup (#4204)
+2.x: sync unit tests of Completable, add missing features (#4195)
+2.x: +fromAsync, distinctUC, skip, take overloads, fix TestSubscriber API (#4192)
+2.x: implement concat(Map)Eager(DelayError) and expose concat(Map)DelayError overload (#4190)
+2.x: introduce op-fusion to Observable + disposable-chaining fixes
+2.x: reduce overhead of blocking first/last/single (#4167)
+2.x: measure overhead of toBlocking() first and last (#4166)
+2.x: fix wrong reference check in FlattenIterable (#4165)
+2.x: enable op-fusion on GroupBy, doOnX, fix mistakes in map and filter (#4160)
+2.x: Enable fusion-consumers (#4157)
+2.x: enable scalar and async fuseable sources and intermediates (#4151)
+Observable direct rest (#4145)
+2.x: upgrade to Gradle 2.14 (#4141)
+2.x update branch and year in contributing and readme md (#4135)
+2.x: fix flaky tests (#4139)
+2.x: enable fuseable sources, adjust operators (#4136)
+2.x: cleanup and test renames (#4134)
+2.x: run Findbugs on main only (#4130)
+2.x: cleanup of PMD suggestions (#4129)
+Reduce the visibility of internal methods. (#4128)
+Correct method name for Flowable-->Observable. (#4127)
+Remove XResource classes (#4126)
+Switch some Observable ops to direct, map fuseable (#4124)
+Refactor ConditionalSubscriber, add base fuseable Subscribers (#4122)
+Parallelize unit test execution for speed! (#4113)
+2.x: provide an explanation why certain tests are ignored (#4120)
+2.x: Add Findbugs (#4116)
+Remove explicit cancel flags where it can be inferred. (#4110)
+Simplify boolean disposables which run code on dispose. (#4111)
+Case IO acronym like a word. (#4114)
+Switch the last SerialResource to manual resource management. (#4112)
+2.x: make sure the helper returns true if the pre-swap value was null (#4107)
+Invert subscription validation return type for better semantics. (#4108)
+Remove explicit cancel flags where it can be inferred. (#4106)
+Remove some superfluous reads before writes. (#4105)
+Expose isDisposed method on Disposable. (#4102)
+2.x: prepare the operator-fusion enhancement (#4103)
+Switch a SerialResource use to SerialDisposable. (#4101)
+2.x: Add PMD (#4100)
+2.x: convert Observable OnSubscribe to direct implementation (#4096)
+Invert request validation return type for better semantics. (#4095)
+Remove EmptySubscriber, start to remove NbpEmptySubscriber. (#4094)
+Ignore PMD and android studio, also check if push is still enabled.
+Normalize request validation using SubscriptionHelper. (#4087)
+More uses of SubscriptionHelper. (#4084)
+Do not leak the DISPOSED marker instance into public API. (#4081)
+Replace custom empty Disposables with global instance. (#4080)
+Re-use the single empty Disposable instance everywhere. (#4078)
+Some small tweaks to Disposables. (#4076)
+Use more DisposableHelper and SubscriptionHelper in operators. (#4074)
+Dereference atomic ref before identity comparison. (#4072)
+Inline last uses of caching DisposableHelper's constant. (#4071)
+Remove second type parameter from Subject and FlowProcessor. (#4069)
+2.x: cleanup a few additional SubscriptionHelper locations (#4059)
+Use DisposableHelper and SubscriptionHelper to reduce duplication. (#4058)
+Update conversion method name to reflect new base type names. (#4055)
+Convert SchedulerSupport annotation to accept a string value. (#4053)
+2.x: make Flowable operators extend Flowable directly to reduce allocation (#4049)
+2.x: Publish code coverage results to codecov.io (#4048)
+2.x: Single operators factored out, headers added (#4045)
+2.x: factor out Completable ops, unify disposed markers (#4043)
+2.x: Use XCompletable in Completable and Single (#4042)
+2.x: Update Observable's ops to work with ObservableConsumable (#4041)
+2.x: factor out consumer types, add XConsumable, update ops
+Update groupID and readme. (#4031)
+2.x: first step switching to the reduced-allocation architecture (#4030)
+2.x: Add support for concurrently inserting actions while advancing time (#3648)
+2.x: Design.md +extension +fusion (#3980)
+Clean-up of the 2.x Design.md document (#3935)
+Changed the wording of the Consumable and Fusion sections
+2.x: rename and refactor classes to match the design document
+Rework of the design decisions for the 2.x branch
+Update nebula gradle plugin
+2.x: fix SchedulerLifecycle.testStartIdempotence vs cached threads dying
+2.x: full JDK 6 compatible backport + including bugfixes up to today
+#3618 adding source links for @Beta and @Experimental
+Remove duplication of Optional API behavior.
+2.x: fix SpscLinkedArrayQueue leaves 1 slot null just before growing
+2.x: CombineLatest removed leftover debug field + better cleanup
+2.x: fix take() reentrancy problem.
+2.x: perf comparing Observable, NbpObservable, Stream and ParallelStream
+2.x: Single class + operators and test from 1.x + extra operators.
+2.x: non-backpressure NbpObservable all relevant operators + tests.
+2.x: perf: comparison of range and flatMap between Observable, NbpObservable and Single.
+2.x: perf change wait to spin-loop for short async benchmarks
+2.x: range perf + added missing header.
+2.x: perf checks for flatMap and merge
+2.x Design: Creation/Destruction
+2.x Design: Subject
+Flowable/Observable
+Create DESIGN.md
+2.x: scalar flatMap optimization enabled
+2.x: disposable unit tests + fix to RefCountDisposable behavior
+2.x: subscribers/observers tests
+2.x: subject tests and bugfixes
+2.x: scheduler tests (no single() yet).
+2.x: operator test zip and SafeSubscriberTest
+2.x: operator test: window variants
+2.x: operator tests unsubscribeOn, withLatestFrom, zip (partial)
+Workaround for javac, added missing headers.
+2.x: operator tests: timestamp, toMap, toMultiMap, toList, toSortedList
+2.x: operator throttleFirst, timeInterval and timeout + bugfixes
+2.x: operator tests: take family + fixes
+2.x: operator test: switchIfEmpty, switchMap + bugfixes
+2.x: operator test: skip variants and bugfix
+2.x: operator test: serialize, single + SerializedSubscriber fix
+2.x: operator tests: sample, scan and sequenceEqual + their bugfixes
+2.x: operator test: retry, retryWhen
+2.x: operator test for replay
+2.x: operator tests: publish, reduce, repeat + fixes
+2.x: operator test onError and onException, relevant bugfixes
+2.x: operator test onBackpressure(Buffer|Drop|Latest) and their bugfix
+2.x: operator test observeOn and related bugfixes
+2.x: operator test map, materialize
+2.x: operator test ignoreElements, last, mapNotification
+2.x: operator test for groupBy; fix to groupBy and type argument swap for GroupedObservable
+2.x: operator test flatMap, merge, mergeDelayError
+2.x: operator test elementAt, filter, finally, first
+2.x: operator test doOn(Request|Subscribe|Unsubscribe).
+2.x: operator test distinct, distinctUntilChanged and doOnEach
+2.x: operator test delay, dematerialize
+2.x: Operator debounce and defaultIfEmpty, fix to debounce behavior
+2.x: operators cast and concat tests
+2.x: classes Single and NbpObservable
+2.x: added missing buffer overload (with boundary selector)
+2.x: test for buffer, I'm still missing the boundary-supplier version
+2.x: test for operators all, any, asObservable, fixes to all and any
+2.x: test for toFuture and using, changes according to the test expectations
+2.x: tests for refCount and timer, fixes to flatMap and publish, range
+2.x: unit tests and fixes for fromIterable and range
+More tests and bugfixes to operators.
+Test some UnicastSubject, cache, NotificationLite, amb
+Unit test for Blocking operators.
+BlockingObservable.toFuture cancel races with onSubscribe.
+Missed a return in case of a null value.
+Simpler tests of throttleLast, throttleWithTimeout, zip
+SubscriberTests port from 1.x
+Simpler tests for window reduce, scan, starWith.
+Added missing header and fixed javadoc link
+ObservableTests and bugfixes.
+ConversionTest and DonTest
+Simplest tests of groupBy, merge and Notification
+ErrorHandlingTests and EventStream
+Simplest concat test from 1.x
+Simplest combineLatest tests and fix to groupBy.
+Sleeping instead of computational waiting.
+First unit test and fixes to operators.
+UnicastSubject javadoc, support for onCancelled notification.
+Standard disposables, changes to resource containers to support them.
+2.x: Added plugin handler for creating and receiving the new thread scheduler.
+generate: don't wrap the counter when cancelling a max value.
+Forgot the parameter null check.
+Operator generate: create an observable that generates values by calling
+Forgot static modifier on unlock in Plugins.
+RxJavaPlugins performance enabling fix & lockdown.
+AsyncObserver
+Subjects onNext and onError null safety
+Operator window with boundary (exact, selector, exact + supplier).
+BehaviorSubject
+RxJavaPlugins extended with handler registration and reset support
+ReplaySubject
+Operator timeout, onBackpressureBuffer(onOverflow), fixes to parameter types.
+Operator debounce (time, selector), throttleWithTimeout (alias)
+Operator window timespan, timespan + count, timespan + timeskip
+Window with count, count + skip.
+Operator buffer with boundary and open-close, fixes to the timed variants.
+Operators buffer: size, time, size + time
+UnicastSubject, onBackpressureBuffer-like behavior for a single subscriber only
+Operator refCount
+BlockingObservable, next, latest, mostRecent, first, last, single, subscribe, stream, forEach, iterator
+Operators delay, delaySubscription, share.
+Operator materialize, dematerialize, minor notification fix.
+Operator using, some inernal refactorings.
+Operator combineLatest
+Operator sequenceEqual
+TakeWhile: forgot to push new class.
+Operator takeWhile
+Operator retryWhen, repeatWhen; Notification
+Operators onErrorReturn, onErrorResumeNext, onExceptionResumeNext
+Operator amb, ambWith
+OperatorSwitchMap accidental main method.
+Operator switchMap, switchOnNext, added missing merge and concat overloads, some refactorings
+Operators first, last, multi-offer for SpscLinkedArrayQueue
+Operator takeLast time + size, skipLast time
+Operator fromFuture with plain future, blocking by nature.
+Operato switchIfEmpty, defaultIfEmpty
+Operator sample with time or with another publisher
+ConditionalSubscriber to help fusing filter-like operators into emission/drain loops.
+collect: javac is unable to select the right overload for some reason
+Operator collect, toMap and toMultimap based on it.
+Operations doOnX.
+Operator distinct, timeInterval, common Timed container.
+Operator WithLatestFrom, PublishLift to help with operator fusing, SubscriptionHelper for common validation logic.
+Strenghtening flatMap against misbehaving sources, TestSubscriber + methods
+Operator zip plus Function3..Function9.
+Operator groupBy.
+Operators onBackpressure(Drop|Buffer|Latest)
+Operators interval and intervalRange
+Some Repeat + Retry methods, fix to SubscriptionArbiter.
+TestSubscriber implemented
+Lambda-based subscription and lifecycle tracking methods
+Operator concatMap and related convenience methods
+Operators observeOn, subscribeOn and unsubscribeOn
+All standard schedulers ported and cleaned up.
+Operators all, any, count, elementAt, single
+Workaround for another javac 1.8 bug.
+Operators publish, replay and cache.
+Operator toList and toSortedList
+The skips and filter operators added to Observable
+Operators of skip (untimed), filter; fix to takeUntil
+Operators of take (untimed), plugin error reporting fix for other operators
+ConnectableObservable and autoConnect
+Operators map and flatMap
+Basic Subscribers and RxJavaPlugin
+Added a bunch of basic event sources and helper Subscription implementations.
+Schedulers (a few) + API, slight modifications to other classes, incomplete.
+Disposable interface and a bunch of general resource containers.
+PublishSubject, AsyncSubject and a few helper classes
+Some safe queue implementations
+Javac workaround.
+RS dependency, some basic Observable/Observer methods.
+Update gradle.properties
+2.0.0-DP0
+2.0.0-DP0-SNAPSHOT
+Java 8
+Java 8
+Clear for 2.x
+Travis 2.x Branch
+2.x Initialization
+Version 1.0.14
+Remove redundant final modifier from static method in Actions
+Range overhead reduction
+Remove unnecessary static modifier
+Remove redundant cast in Exceptions
+Correct scheduler memory leak test for from(Executor) and added check for periodic tasks retention as well.
+FromIterable overhead reduction.
+eliminate javadoc compiler warnings, add "since" stub
+Implemented Observable.x(ConversionFunc) to allow external extensions to Observables.
+Add links to page that explains The Observable Contract
+Improve performance of NewThreadWorker.tryEnableCancelPolicy(). Disable search for ScheduledExecutorService.setRemoveOnCancelPolicy() on Android API < 21
+Remove redundant type parameter in EmptyAction
+No InterruptedException with synchronous BlockingObservable
+Test coverage for the observers package.
+Movet LinkedArrayListTest to the test section.
+Operator replay() now supports backpressure (again)
+cache() now supports backpressure (again)
+Test coverage of rx.functions utility methods.
+add backpressure to OperatorMaterialize
+Unit tests and cleanup of JCTools' queues.
+remove OperatorOnErrorFlatMap because unused
+fix SynchronizedQueue.equals
+window() behavior changed, so did marble diagram & thus its size
+1.0.13
+Single.toObservable
+Private toObservable renamed to asObservable
+Revert "cache now supports backpressure"
+Revert "If cache() now supports backpressure, correct javadocs to indicate this."
+Revert "Operator replay() now supports backpressure"
+Revert "No need to allocate a new head node."
+reduce probability of ExecutorSchedulerTest.testOnBackpressureDrop failing on slow machine
+break tests as approach timeout so that don't fail on slow machines
+fix forEach javadoc
+Add "since" annotations to javadocs for new Experimental/Beta methods
+Binary examples including SNAPSHOT
+OperatorSwitch - fix lost requests race condition using ProducerArbiter
+add Subscribers.wrap
+Improve toSingle() javadoc (diagram, see also, since-annotation)
+add and improve javadoc in Subscriber
+toSingle should use unsafeSubscribe
+single: add toSingle method to Observable
+Reduce test failure likelihood of testMultiThreadedWithNPEinMiddle
+CompositeException extra NPE protection
+No need to allocate a new head node.
+Operator replay() now supports backpressure
+ElementAt request management enhanced
+add backpressure support for defaultIfEmpty()
+TestSubscriber javadoc improvements
+Window with boundary observable: fixed unsubscription and behavior.
+instantiate EMPTY lazily
+takeLast javadoc fixes, standardize on parameter names (count instead of num), improve message in OperatorTakeLast exception
+Replaced tabs with spaces for good.
+Delay: error cut ahead was not properly serialized
+If cache() now supports backpressure, correct javadocs to indicate this.
+ConnectableObservable autoConnect operator
+cache now supports backpressure
+A handful more javadoc changes (misnamed @params and such)
+Javadoc improvements.
+Add marble diagrams for Single operators.
+fix awaitTerminalEventAndUnsubscribeOnTimeout
+rx.Single
+1.0.12
+ensure iterator.hasNext is not called unnecessarily as per #3006
+add two unit tests for issue #3008
+Use initCause to initialize AssertionError
+use Subscribers.from()
+Replace the Java 7 AssertionError(message, cause) with RuntimeException
+fix request processing in OperatorSwitchIfNext
+fix OnSubscribeRedo race conditions
+add request overflow checking to OperatorSwitch
+add value as last cause to error in takeWhile(predicate)
+fix render value in error last cause for primitive types
+include last value in cause when error occurs in takeUntil(predicate)
+improve Subscriber readability and don't perform unnecessary test in request method
+prevent OperatorTake from requesting more than needed
+add backpressure support for OperatorAny and include last value in exception cause
+fix skip race conditions and request overflow
+implement backpressure for OperatorAll and include last value in cause if exception occurs
+make OperatorSerializeTest.testMultiThreadedWithNPEinMiddle fail less often
+fix OperatorConcat request race conditions with ProducerArbiter
+add factory methods to TestSubscriber
+fix Amb backpressure problems
+Deprecate and rename the timer methods that take initial delay and period to interval.
+Deprecated onBackpressureBlock.
+1.0.11
+The usual anally-retentive javadoc edits.
+Added links to the source of the new queue classes.
+Standard producers and some more (platform-safe) queues from JCTools
+OperatorObserveOn should not request more after child is unsubscribed
+OperatorConcat - use BackpressureUtils to prevent request overflow and add n > 0 check to prevent race condition
+add request overflow checks and prevent Long.MAX_VALUE requests being decremented in OperatorGroupBy, added unit test that failed with previous code
+Javadocs: adding marble diagram, return value for onBackpressureLatest
+remove findbugs and jacoco because are run with default build, will figure out later
+More assertions for TestSubscriber
+don't reduce requested by produced if requested is Long.MAX_VALUE
+use new pollQueue from @akarnokd
+fix OperatorObserveOn race condition where onComplete could be emitted despite onError being called
+Remove unnecessary localHasValue check
+add code quality plugins to build.gradle (jacoco, findbugs)
+Test that finds a TestScheduler bug
+Javadocs: adding @since annotations to new public methods, cleaning up Subject javadocs a bit
+Non-blocking version of the toBlocking().latest() operator.
+ensure this does not escape from ObserveOnSubscriber constructor by moving code to an init() method and calling after construction
+prevent request overflow in OperatorObserveOn and add unit test that fails on original codebase but passes with change
+improve perf of OperatorIgnoreElements
+add OperatorTakeLastOne
+OperatorPublish full rewrite with comments + its perf fix
+OperatorPublish benchmark
+reduce gc pressure by using singleton Operators for single, distinct, distinctUntilChanged, onBackpressureBuffer, isEmpty
+TakeLastQueueProducer add request overflow check
+stack overflow test can hang build, simplify the tests and ensure don't hang
+Operators toList and toSortedList now support backpressure
+Observable.from(iterable) should emit onCompleted even if none requested when iterable is empty
+add unit test to ensure that range with count of 0 sends onComplete even when initial request is 0
+fix race condition for Observable.from(Iterable) where two concurrent calls to the Producer.request with Long.MAX_VALUE could start the fast path twice
+Concat: fixed reentrancy problem in completeInner
+fix race condition for range where two threads concurrently request Long.MAX_VALUE and both start the fast path thus possibly some items more than once
+Proposal: standardized Subject state-peeking methods.
+child.onNext should not be called after child.onError
+use singleton reduction functions in count and countLong
+Use the correct accounts for sonatype sync
+use explicit versioning for gradle-rxjava-project-plugin
+1.0.9
+remove unused code that was the subject of varargs warnings, remove unused import
+use simpler naming in Action1, Func1 because is used as a default for IDEs when generating implementing methods
+add generic type to IndexedRingBuffer.POOL and modifiy IndexedRingBuffer.getInstance so that infers type
+warnings cleanup in test source
+ensure OperatorZipTest.testZipRace does not fail on slower machines
+OperatorSingle should request exactly what it needs
+fix unsub of OperatorDoOnRequest and add more unit tests
+Change retryWhen to eagerly ignore an error'd source's subsequent events
+Add a unit test for debounce's backpressure issue
+Add 'request(Long.MAX_VALUE)' in 'onStart' to fix the backpressure issue of debounce
+increase memory for test
+Add .gradle to cache
+Removing debug
+memory for test
+Adding caching to Travis
+Debug build failures
+Checking if the test change is the main cause or not.
+javadocs: adding @since annotation; adjusting failed @link targets to @code
+Enable maven central sync via bintray
+Changed javadoc regarding backpressure
+Backpressure for window(size)
+Small fix in the sentences of getValue.
+Added more to take to decrease the likelyhood that nothing is dropped.
+800kb jar.
+1.0.8
+revert eager static ref to plugin + better exception handling around render
+Corrected all Java interfaces declarations
+ObserveOn throughput enhancements
+statically reference the plugin and mark as experimental
+Implement hook to render specific types in OnNextValue
+Add Experimental to onBackpressureDrop(Action1)
+shouldSubscribe boolean variable not required
+issue-2764: add new operator onBackpressureDrop(Action1 onDrop)
+revert visibility of fields and add == this check for guarded subscription
+fix typo in comment
+OperatorMulticast.connect(connection) should return first subscription on multiple calls, address possible race condition provoking IAE
+fix several typos
+add request overflow check to OnSubscribeRange
+add request overflow check to OperatorOnBackpressureDrop
+add request overflow check for combineLatest
+Optimized scalar observeOn/subscribeOn
+javadocs: withLatestFrom diagram, @since annotations, standardize on formatting and terminology, add compiler nags for missing content
+1.0.7
+using should use unsafeSubscribe, allow eager disposal to enable the synchronous case
+Optimized isUnsubscribed check
+Experimental annotation.
+Operator WithLatestFrom
+Restore merge changes: not related to the bug
+SwitchOnNext: fixed wrong producer
+javadocs: adding (+ correcting one) @since annotations
+Explicit build + snapshot
+Delete publishViaTravis.sh
+Conditional logic for pull request
+javadocs: add @since annotations to new methods; fix formatting, polish wording for new Subscriber constructor
+Version 1.0.6
+TakeWhile: don't unsubscribe downstream.
+Missing Unsafe class yields NoClassDefFoundError so checking for Exception is not really appropriate. Let's catch all throwables.
+Use MultipleAssignmentSubscription to save an import
+Revert the change in recursiveAction
+Update build.gradle
+Create gradle.properties
+Update build.gradle
+project.setProperty('release.scope', 'patch')
+reverting release.scope=patch
+release.scope=patch
+Reenable Snapshot
+Cast back Observer to Subscriber if passed to subscribe(Observer)
+Make travis run a proper build.
+FlatMap overloads with maximum concurrency parameter
+Disable Snapshot
+Add release.travisci Property
+add diagram for new takeUntil variant and a few other related javadoc tweaks and remove a troublesome unicode ligature from SpscArrayQueue.java that's causing a compiler warning
+Changed empty into a stateless constant observable.
+Build at least as if it was a pull request.
+Script fix
+improve OnSubscribeRefCount comments
+Snapshot with Patch Version
+Reporting stackoverflow caused stackoverflow
+Use buildViaTravis for all flows
+Add Release Branch
+Update buildViaTravis.sh
+Add Snapshot Support
+add @since annotation to javadocs for new takeUntil variant
+Added experimental annotation, using propagate.
+Adjusted subject error text.
+Added common throwIfAny to throw 0 or more exceptions
+Secure Variables for Release
+Nebula Config for Travis Build/Release
+Gradle & Travis Release Config
+Version 1.0.5
+Revert Behavior Change in TestSubscriber.awaitTerminalEvent
+Less iteration.
+Zip: emit onCompleted without waiting for request + avoid re-reading fields
+Changed system-parameter naming.
+Changed the naming of the NewThreadWorker's system parameters
+Zip: fixed unbounded downstream requesting above Long.MAX_VALUE
+Repeat/retry: fixed unbounded downstream requesting above Long.MAX_VALUE
+add @since annotation to new operator (also: remove "Beta" section as it's been moved from Beta to Experimental status)
+Using @Experimental, covariance and final class
+Changed predicate to stopPredicate: stops on becoming true.
+Added perf tests for various container-like subscriptions
+Allow configuring maximum number of computation scheduler threads
+Revert "subscribeOn drops the subscriptions returned from the scheduler."
+subscribeOn drops the subscriptions returned from the scheduler.
+SizeEviction test needs to return false when verifying if it needs eviction
+add request overflow check for OnSubscribeFromIterable
+Give more time to certain concurrency tests.
+RefCount: disconnect all if upstream terminates
+CombineLatest: fixed concurrent requestUpTo yielding -1 requests sometimes.
+Obstruction detection in tests.
+Split error conditions into separate test lines.
+Handle concurrent unsubscription in drain (avoid NPE).
+Updating queue code from JCTools
+Removed commented-out code.
+Update RxRingBuffer.java
+Update RxRingBuffer.java
+Correcting javadocs for the amb/ambWith operators
+RxRingBuffer with synchronization
+Publish: fixed incorrect subscriber requested accounting
+onStart requests should be additive (and check for overflow)
+Subscriber.request should throw exception if negative request made
+remove unnecessary imports, add missing generic types, add SuppressWarnings(unchecked)
+Changed operator names, fixed backpressure.
+Added value null check
+Less concurrent threads and more in-line timeout detection.
+Added capacity increase on poll.
+Back to a field updater.
+Operator DoTakeWhile
+Use a PBQ instead of a PQ on the trampoline. Moves counter inside to worker class and ditches the separate field updater.
+RefCountAsync: adjusted time values as 1 ms is unreliable
+BackpressureTests: adjusted some tests to make them more reliable.
+SynchronousQueue.clone fix
+Added experimental annotations
+Don't block the action on the queue lock.
+Use unsubscribed check instead of a null check.
+Subject state information methods & bounded ReplaySubject termination fix
+Remove the execute permission from source files
+Unsubscribe when thread is interrupted
+ScheduledExecutorService: call purge periodically on JDK 6 to avoid cancelled task-retention.
+Unbroken TestSubscriber
+Moved test cases for issue #2191 into OperatorReplayTest
+IllegalArgumentException > NPE
+Fail early if a null subscription is added to a CompositeSubscription. Otherwise, it'll just fail late when unsubscribing, which is much harder to trace.
+updating javadocs to link to latest web docs
+A first set of stateless operators that don't need to be instantiated for lift all the time.
+Few adjustments.
+Version 1.0.4
+add check for isUnsubscribed to OperatorTakeLast fast path
+Make Publish Operator Release RingBuffer
+enable faster travis builds
+Addressing review feedback:
+Added Operator switchIfEmpty, like defaultIfEmpty but subscribes to and emits the items in an Observable if the source is empty
+OperatorDoOnRequest.ParentSubscriber should be static class
+Version 1.0.3
+Update as per review
+javadocs: minor style, grammar changes; add @since annotation to new method
+Add a new state of `terminated` to fix the race condition of `errorEmitted`; Add more comments.
+Propagate onError to all groups
+Apply java plugin
+Bump to 2.2
+add @since section to doOnRequest() javadocs
+Handle 0 or negative request in Buffer
+SerialSubscription and MultipleAssignmentSubscription should use Subscriptions.empty()
+doOnRequest
+Factored out the backpressure management into an experimental class and reimplemented Buffer and Block strategies with it.
+Remove ActionSubscription
+Remove extraneous request(n) and onCompleted() calls when unsubscribed.
+Add "Subscriptions.unsubscribed" to fix the 'isUnsubscribed' issue
+tidying up AbstractOnSubscribe javadocs
+minor tweaks to javadocs for new onBackpressureBuffer variants
+AbstractOnSubscribe to help build Observables one onNext at a time.
+Any should not unsubscribe downstream.
+Scheduler.Worker to be finally unsubscribed to avoid interference.
+Add onBackpressureBuffer with capacity
+Move the codes out of the finally block
+javadoc: diagrams for onBackpressureBlock (would benefit from a review)
+Set removeOnCancelPolicy on the threadpool if supported
+Update CHANGES.md
+Update CHANGES.md
+1.0.2
+Revert "Experimental onBackpressureBufferWithCapacity"
+rx.internal.* warning
+BufferOverflowException -> MissingBackpressureException
+javadocs: add "since" reminder; minor text changes
+Mark onBackpressureBuffer(count) as Beta
+Use Action instead of Func0<Void>
+getAndSet benchmarks
+Atomic operations JMH benchmarks
+Marking OnBackpressureBlock as @Experimental
+Beta & Experimental Annotations
+Version and Lifecycle Annotations
+Version 1.0.1
+Do not leave drain if queue has data and downstream doesn't do backpressure.
+Operator OnBackpressureBlock
+Restore timeout on the test.
+Add optional bound to onBackpressureBuffer
+Some class simplifications.
+Perf profile & simplifications.
+Simplified the memory footprint.
+Cleanup the worker.
+Avoid self-interrupting of a completing ScheduledAction.
+Avoid request(0) to trigger a recursive call.
+The backpressure exception might cut ahead of all onNext events.
+Version 1.0.0
+javadocs: remove leftover "@since" annotations; add param description
+Version 1.0.0-rc.12
+Version 1.0.0-rc.11
+Whitespace fix.
+Remove Unused Scheduler.parallelism
+0.20.7
+1.0.0-rc.10
+Add missing javadoc interface descriptions for the various FuncN variants (#1843)
+Add missing javadoc interface descriptions for some ActionN variants (#1842)
+Make the javadoc descriptions of various Exception implementations parallel one another better (#1841)
+overridden onFoo() methods in Subscriber subclasses need their own javadocs (#1849 #1850). Also: Observer javadocs are a bit too groovy.
+in BlockingObservable.forEach() javadoc, clarify what happens in case of error notification from underlying Observable (#1844)
+In javadocs, warn developers away from using BlockingObservable in production code (#1844)
+advanced javadoc formatting yoga in GroupedObservable class description (#1846)
+promote Observer.create(onNext) note about onError to sentence #1 of javadoc description (#1847)
+javadocs for Subscriber variants: take care of Observer/Subscriber distinction (#1848)
+Hiding implementation details from Scheduler javadocs (#1851)
+deprecating inferiority complex (#1852)
+remove links to .NET docs from our javadocs (#1852)
+Improve asObservable() javadoc description (#1853)
+clean up onBackpressureDrop() javadocs and make similar to those for onBackpressureBuffer() (#1854)
+clarify return value of publish() in javadocs (#1855)
+make javadocs for reduce() more precise (#1856)
+make javadocs for scan() more precise (#1857)
+make javadoc for zip() variants more precise (#1858)
+minor corrections to javadocs for new scan/reduce variants (#1835)
+Update README.md
+Update README.md
+Delete gradle.properties
+IndexedRingBufferSize (256 default, 8 on Android)
+RxRingBufferSize (128 default, 16 on Android)
+Scan/Reduce with Seed Factory
+Subject.toSerialized
+Unit Test By Window Variant
+Add check to ensure that the worker was removed from the queue, before unsubscribing that worker.
+This doesn't belong here. Replaced by http://reactivex.io/documentation/Operators/operators.html
+1.0.0-rc.9
+1.0.0-rc.9
+Update README.md
+Create README.md
+Remove Utility Functions from Public API
+Remove Javadoc Linebreaks
+fix javadoc description of share()
+Remove `Not` Class
+Remove Actions Utility Methods
+Print full classname (inner class support) and fix enum output
+Note on Versioning and GroupIDs
+add hasObservers method to Subjects (#1772)
+New and improved javadocs for MissingBackpressureException (#1800)
+Javadocs for MissingBackpressureException (#1800)
+Improve TestSubject Javadoc
+1.0.0-rc.8
+Take Unsubscribes Before OnNext
+GroupedObservable.from/create
+Remove PublishLast/InitialValue
+Remove *withIndex Operators
+Remove Multicast
+Publish with Backpressure
+Change Transformer to Func1<Observable<T>, Observable<R>>
+exclude rx.internal. exclude RxJavaErrorHandlerDefault by deleting it.
+Covariance Test with GroupedObservable.compose
+Increased the interval time to 100ms.
+back pressure tests
+back pressure support
+Version 1.0.0-rc.7
+OnErrorResume Backpressure Tests
+ExecutorScheduler delivers uncaught exceptions
+Unhandled errors go to UncaughtExceptionHandler
+set producer to allow back pressure signals to flow between parent and child
+0.20.6
+Combine RefCount Tests
+Compose generics
+Cleanup: added missing annotations, removed unnecesary annotations
+OnSubscribeRefCount UnitTests
+OnSubscribeRefCount with Synchronous Support
+Added missing headers, removed unnecessary casts
+Removed unused import and variables.
+EmptyObserver
+add javadocs to describe SerializedSubject class (also correct error in javadoc comments for OperatorDoOnSubscribe, for what it's worth)
+1.0.0-rc.6
+minor javadoc formatting fix
+javadoc fixes (countLong, subscriptionDelay, Observables)
+Added final keyword and private constructor to private/utility classes.
+Fatal System.err Logs on Unhandled Exceptions
+SerializedSubject
+Subject Error Handling
+Swallow Errors in TestObserver
+Clarify Javadoc on Observers.empty()
+Delete EmptyObserver
+longCount -> countLong
+Delay Operator with Reactive Pull Backpressure
+Remove use of ThreadLocal
+more javadoc changes to correspond with recent method changes
+javadoc changes to correspond with recent method changes
+Update README.md
+Move To Proper Location
+Version 1.0.0-rc.5
+Add dates
+Remove Unused Code
+ObserveOn Error Propagation
+ObserveOn Cleanup
+Request Up When Dropping Values
+groupByUntil -> groupBy
+back pressure support for group by operator
+Synchronize Access
+Remove Comment
+fix for merge dropping values from scalarValueQueue and not completing during request(..) when the last value emitted was from scalarValueQueue
+forgot to commit the changes to the tests.
+Add a shim to make it so the public api for repeatWhen and retryWhen don't expose Notification<?>
+Bug in the onBackpressure operators
+0.20.5 and 1.0.0-rc.4
+Remove Observable.Parallel
+Use EmptyObserver instead of Subscribers.empty()
+Added a unit test to demonstrate regression in Observable.mergeDelayError
+Slightly cleaner code for onNext from buffer
+Don't allocate an empty ArrayList for each Observable.empty call
+Assert onError cuts ahead of onNext
+Unsubscribe eagerly and drop queued onNext to emit onError
+NotificationLite.ErrorSentinel.toString
+Update README.md
+Remove CloudBees and Pull Request Logo
+fix typo
+0.20.4 and 1.0.0-rc.3
+Make TakeUntil obey Rx contract
+Error Handling Unsubscribe and Terminal State
+Ignore furthur messages after entering terminate state
+OperatorScan should check for MAX_VALUE on request
+Update CONTRIBUTING.md
+Update README.md
+Removing deprecated operators from operator decision trees
+1.0.0-rc.2
+1.0.0-rc.2
+Update CHANGES.md
+0.20.3
+Travis build image
+Only JDK 7 for Travis
+JDKs for Travis
+Create .travis.yml
+Update build.gradle
+Nebula Build - Single Module
+migrate to single-module build
+Copying javadoc enhancements for CompositException from 0.20
+add license header
+0.20.2
+doOnEach - Handle Fatal Exceptions
+Composite Exception - Circular Reference Handling
+0.20.1
+Optimize single BlockingObservable operations.
+Remove Deprecated Usage in Contrib Modules
+Deprecation Removal
+fix the usage of deprecated methods.
+#1607 wiping the javadoc @since slate clean for 1.0
+copying over recent javadoc enhancements from the 0.20 branch
+Replacing Netflix/RxJava with ReactiveX/RxJava
+Update README to reflect repository move.
+0.20.0
+Migrate Non-Core Modules Out
+[Gradle Release Plugin] - new version commit:  '0.20.1-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.20.0'.
+0.20.0-SNAPSHOT
+Deprecate Superfluous Methods with Scheduler Overload
+Deprecate Old Using Method
+Deprecate Multicast without Factory
+Update createExampleWithBackpressure to use subscribeOn
+RxScala: Add backpressure support
+add missing window with time overload, the one that has control over every parameter
+RxScala: Update signatures of retryWhen/repeatWhen to match RxJava
+removed the unnecessary ` extends Notification<?>` from repeatWhen too.
+Make retryWhen the same with the Scheduler as the retryWhen without the Scheduler.
+RxScala: Change "multicast" to be consistent with RxJava
+RxScala: JavaDoc fixes to not use code or link
+RxScala: Add mapping to RxJava doOnSubscribe
+reuse existing methods
+javadoc enhancements for the new doOnSubscribe() method
+RxScala: Add mapping to RxJava doOnUnsubscribe
+reactive.io: RxScala getting started examples
+doOnSubscribe
+and... the inevitable javadoc enhancements (for the new doOnUnsubscribe method)...
+Decouple Dispose Function for Using
+Added doOnSubscribe() to Observable
+RxScala: Switch mapped RxJava methods to map to non-deprecated versions
+RxScala: Observable.items(T*) -> Observable.just(T*)
+javadoc enhancements for from(a,b,c...) to just(a,b,c...) switchover
+Version 0.20.0-RC6
+[Gradle Release Plugin] - new version commit:  '0.20.0-RC7-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.20.0-RC6'.
+javadoc enhancements for zip(iterable) => zipWith(iterable) switchover
+Redo/Repeat Backpressure
+Deprecate GroupedObservable.from
+zip(Iterable) -> zipWith(Iterable)
+from(T) -> just(T)
+Clarify OperatorTextViewInputTest methods
+black magic applied.
+combineLatest with backpressure
+Version 0.20.0-RC5
+[Gradle Release Plugin] - new version commit:  '0.20.0-RC6-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.20.0-RC5'.
+Use single Executor for all tests
+additional javadoc enhancements for lift & compose
+Backpressure: parallel
+Remove Temporary Timeout in take
+Remove Timeout in Blocking Iterator
+javadoc enhancements for recent groupBy/compose/Transformer changes
+Compose/Transform Covariance
+Compose/Transformer
+groupBy with element selector
+Add a blank line to fix the bullet points issue
+TakeLastTimed with backpressure support
+Remove Variance on Defer
+javadoc changes related to the mergeMap[Iterable] => flatMap[Iterable] changeover
+flatMap overloads
+More consistent hooks for scheduler plugins.  This is a rework of #1514. * Deprecated RxJavaDefaultSchedulers and RxJavaDefaultSchedulersDefault (I think these names are confusing) * Added RxJavaSchedulersHook ** Ability to override entire schedulers from scratch ** Ability to decorate Action0 before submission to Scheduler
+mergeMap generics
+SwitchOnNext with backpressure support
+RxScala: Add retryWhen/repeatWhen methods
+javadocs: add @see links to wiki discussion of "Backpressure"; add marble diagrams for onBackpressureFoo() operators
+Bring back ViewObservable.input(EditText, boolean) and rename new version to ViewObservable.text
+Adding backpressure to OnSubscribeRedo
+Make Android ViewObservable.input observe TextView instead of String
+add "@since 0.20" annotation to new multicast() variant
+Version 0.20.0-RC4
+[Gradle Release Plugin] - new version commit:  '0.20.0-RC5-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.20.0-RC4'.
+Handle overflow
+`scheduleRec` for recursive scheduling (Scala)
+Propagate request(n) to each AmbSubscriber
+Amb with backpressure support
+Concat Backpressure
+Make "single" support backpressure
+Optimize the fix for takeLast and handle the race condition
+fix sticky intent duplication, add tests for OperatorBroadcast
+remove main thread unsubscribe, fix LocalBroadcastOperatorTest
+Add operators to create Observables from BroadcastReceiver
+Added another unit test to OperatorReduce/backpressure
+Failing unit test for reduce, showing it does not implement backpressure correctly
+Restore use of SpmcArrayQueue in RxRingBuffer
+Bump to Robolectric 2.3, make samples build under Studio 0.8.+
+Remove unused param comments
+Version 0.20.0-RC3
+Version 0.20.0-RC3
+Restore rxjava-quasar
+[Gradle Release Plugin] - new version commit:  '0.20.0-RC4-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.20.0-RC3'.
+Temporarily skipping rxjava-quasar
+Support Subject Factory with Multicast
+Revert to copying list in toList
+removing unicode ligature that breaks build
+BufferWithSize with Backpressure Support
+messagePrefix null check
+Restore use of messagePrefix
+Eliminate duplication of List in toList
+blocking synchronous next
+retrytest.iterativeBackoff
+non-deterministic testUserSubscriberUsingRequestAsync
+spsc ring buffer concurrency test
+Reverting use of JCTools Until Problem Is Solved
+Update JCTools Code
+using a <dl> will make the "Scheduler" and "Backpressure Support" sections fit into the javadoc format more effectively
+adding @since annotations, a few other touch-ups to javadocs of new operators
+zipWith
+Add retryWhen example to Javadoc
+retryWhen/repeatWhen
+Upgrade to Quasar 0.6.0
+TODO for removing this timeout
+Concat Outer Backpressure
+non-deterministic timeouts on slow machines
+Ignore backpressure for OperatorToObservableSortedList
+OperatorAny needs to handle backpressure
+Add test of backpressure to OperatorAll
+Update CONTRIBUTING.md
+ToList operator needs to ignore backpressure
+javadocs: add missing @see links; correct broken link URLs; standardize formatting/capitalization/punctuation
+Increasing timeout
+remove javadoc warnings from cache(); add @since annotation to cache(b)
+Update CompletenessTest.scala
+Javadocs for cache operator
+Add perf tests for cache(1) variant
+Update CHANGES.md
+Version 0.20.0-RC2
+[Gradle Release Plugin] - new version commit:  '0.20.0-RC3-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.20.0-RC2'.
+Support OnSetProducer/Request Changes
+Remove Pivot Operator
+Removing unnecessary test
+Removing unnecessary test
+Remove test ... leave functional testing in core
+Removing onSetProducer from the API
+Debugging Test
+OperatorAll & Backpressure
+New test case for takeWhile that currently fails
+RxScala: Add Scala idiomatic methods
+Zip with Backpressure Support
+first pass at javadocs for new backpressure stuff
+Version 0.20.0-RC1
+[Gradle Release Plugin] - new version commit:  '0.20.0-RC2-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.20.0-RC1'.
+Infinite request with Long.MAX_VALUE instead of -1
+minor javadoc improvements
+Adding alt attributes to img tags in javadocs to avoid occasional build issues
+Correct static access warnings
+Add generics
+Add generics
+Remove unused imports/locals
+Remove cast
+Move cast to parent function
+Copied from master
+Undo comments
+Remove cycles in CompositeException
+Removed deprecated OnSubscribeFunc
+Forgot to undo
+Revert "CompositeException does not mutate nested exceptions by attaching stacks, but instead"
+Removed unnecessary variance
+Publish signature
+Changed producer interface to work with long instead of int
+Range concurrency & off-by-one bugfix
+Remove build provided references and separate JUnit tests
+Remove build provided references (except for rxjava-android)
+'rxjava-contrib:rxjava-scalaz'
+Version 0.19.6
+Ignoring non-deterministic test
+flatMapAsync test was non-deterministic
+Use Subscriber.onStart as idiomatic backpressure start point
+Test timing
+Clarity about batching request
+Remove provided configuration for test dependencies
+Set scalatest as testCompile dependency
+Backpressure & 0.20.0-RC1
+Version 0.19.4
+[Gradle Release Plugin] - new version commit:  '0.19.5-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.19.4'.
+0.19.4-SNAPSHOT
+Avoiding OperatorObserveOn from calling subscriber.onNext(..) after unsubscribe().
+Kotlin M8
+Add links to Graham Lea's useful overview of observeOn/subscribeOn
+Added a renderValue function to create a string from unknown client objects without calling toString (PR #1401)
+Rename to sliding and tumbling
+Use currying to improve type inference
+Created test cases that show inconsistent error handling with OnNextValue and toString
+Internal Data Structures
+Update Perf Tests
+Adding the hooks unsafeSubscribe by making the execution same as safe version without the safety checks.
+Add cache(int capacity) to Observable
+Better naming, and new test
+Version 0.19.2
+[Gradle Release Plugin] - new version commit:  '0.19.3-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.19.2'.
+rxjava-scalaz
+Removed unused import
+CompositeException does not mutate nested exceptions by attaching stacks, but instead aggregates them at print-time.
+Cross-reference observeOn and subscribeOn from each others' javadocs
+Upgrade to JMH 0.9
+Adding missing javadocs to Exceptions/OnErrorThrowable (#1322)
+Adding missing javadocs to TestSubject (#1322)
+Adding missing javadocs to TestSubscriber (#1322)
+TrampolineScheduler Cleanup
+TestSubscriber.assertNoErrors
+Formatting
+OnSubscribe: DelaySubscribe -> UnsafeSubscribe
+Remove unnecessary code
+TakeUntil & NotificationLite
+Parallel Operator Rewrite
+Enable FlightRecorder for JMH Tests
+1000000 is too much
+Disable flatMapTwoNestedAsync for now
+Update README.txt
+Revision of JMH Tests
+More work on #1322 (missing javadocs)
+Avoid the cast in toSet and toBuffer
+Add idiomatic toXXX methods to RxScala
+Javadoc changes to help fix #1322
+adding markdown version of operator decision tree
+adding the rest of the operators, tidying up, adding some color
+DebugHook got miswired before
+several new operators; improved CSS
+now in spectacular Valid-HTML-o-Vision with previously unshown scenes
+Work in progress: an HTML definition-list version of Paul Taylor's RxJS decision trees, for RxJava.
+Remove '/*XXX*/'
+Implement 'create' in RxScala
+"wiki-" prefix no longer required for anchor names in github wiki pages also: correct one parameter name in javadoc comments
+add @since annotations to javadocs of new ...With() instance variants
+Version 0.19.1
+[Gradle Release Plugin] - new version commit:  '0.19.2-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.19.1'.
+Improve docs of 'toFuture'
+Don't add the subscriber to the manager if it unsubscribed during the onStart call
+As per suggestions: Added single static instance of ExecutorService for delayed posting Introduced ScheduledIOSAction to enable CompositeSubscription
+Baseline Performance Tests
+Allow use of the returned subscription to cancel periodic scheduling
+RxScala: Simplify doOnCompleted/Terminate, finallyDo callback usage
+Update '***OrElse' to use Option.getOrElse
+Add subscribeExample to explain subscribe and foreach are same
+Future wil receive NoSuchElementException when the BlockingObservable is empty
+RxScala: Add examples for BlockingObservable
+RxScala: Add toFuture to BlockingObservable
+RxScala: Add latest to BlockingObservable
+RxScala: Add *Option and *OrElse to BlockingObservable
+Bump build tools to 19.1 and android plugin to 0.11
+Using the correct code style for variable name and removing unused imports.
+IOSSchedulers for RoboVM
+comments, docs and names improvement
+Filling in javadoc gaps where I feel confident enough to do so...
+Change the return type, and add tests
+Adding ScheduledSubscription to parent in order to properly chain unsubscribe.
+CRLF fix
+Join patterns extension for 4..9 and N arity joins.
+Replace unnecessary with details
+Rewrite toMultimap
+Update pivotExample
+Javadoc changes: * flesh out and update @throws sections * add @warn nags to missing javadocs * standardize formatting * fix dead links to images
+Using a ScheduledAction in order to ensure correct subscription behaviour.
+TrampolineScheduler & Unsubscribe
+Ensuring Runnables posted with delay to a Handler are removed when unsubscribed.
+Add toMultimap to RxScala
+Add longCount to RxScala
+Add pivot to RxScala
+Add groupJoin to RxScala
+Add groupByUntil variant to RxScala
+Update CompletenessTest.scala
+Add orElse to RxScala
+Add combineLatest variant to RxScala
+Add foreach to RxScala
+Add error variant to RxScala
+Add retry variant to RxScala
+Add switchMap to RxScala
+Add flatten variant to RxScala
+Add nest to RxScala
+Add onErrorFlatMap to RxScala
+Attempt to fix one integration test class
+0.19.0
+[Gradle Release Plugin] - new version commit:  '0.19.1-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.19.0'.
+Hide ChainedSubscription
+Remove call to RxJavaPlugins ErrorHander in mergeDelayError operator - CompositeException is already visible
+testNotificationDelay - Attempt at determinism
+Hooked RxJavaPlugins errorHandler up within all operators that swallow onErrors. * Otherwise, the only onErrors visible to plugin are the ones which propagate all the way to SafeSubscriber.
+everything defaults to 1.6
+0.19.0-SNAPSHOT
+Add concatMap to RxScala
+Add flatMap variants to RxScala
+rename variable childObserver to child (is now a Subscriber) and rename gps to group (is not plural)
+replaced getOne method which is based on promise with toBlocking.first
+Add convenience method for adding unsubscription callback
+Introduced 'rxjava-scalaz' project.  This project provides some type class instances for Observable.
+Remove Bad Perf Test
+Move NewThreadWorker out from NewThreadScheduler
+Move RxThreadFactory out from NewThreadScheduler
+Change `void accept` to `boolean accept`
+hard-code image heights in javadocs to make page loading cleaner, especially with links to anchors deep in the javadoc
+rx.operators -> rx.internal.operators
+add annotations about default schedulers to javadocs for Observable operators
+switch from AutoCloseable to Closeable for java 6. UnsafeFunc0 now extends Callable.
+utility function for creating observables for closeable resources
+Modify OnSubscribeToObservableFuture to return early if unsubscribe without emitting anything
+2 new tests for OnSubscribeToObservableFuture
+Upgrade to JMH 0.7.3
+Schedulers.from(Executor)
+adding javadocs to ChainedSubscription methods
+Ensure StringObservable.from() does not perform read when already unsubscribed because read could block
+Remove duplicate NotificationLite.
+Removal of ConcurrentHashMap from ReplaySubject and some NotificationLite cleanup.
+fix GroupBy and GroupByUntil which are actually Operators
+Rename classes starting with Operator that are actually OnSubscribe implementations to start with OnSubscribe
+Version 0.18.4
+Move MPSC Queue to rx.internal.util
+Revert SerializedObserver Changes
+Reduce Subscription Object Allocation
+add caveat about avoiding memory leaks when using GroupedObservables
+correction to RxJavaPlugins's getDefaultSchedulers() return type as reported in javadocs
+Filling in more gaps in the javadocs.
+Removed the Func1 retry variant.
+Declare Scheduler classes in CachedThreadScheduler as final
+Better name for worker class running scheduled actions
+Javadoc overhaul: 1) standardize formatting, phrasing, terminology; 2) fill in gaps where javadocs (or parts of them) were missing; 3) add spurious @warn tags to cause build warnings for as-yet-unfilled gaps
+Switch to AtomicIntegerFieldUpdater and volatile int, instead of AtomicBoolean
+Switch to use NewThreadScheduler.RxThreadFactory
+Add "buffer(=> Observable[Any])" to replace "buffer(() => Observable[Any])" and "buffer(Observable[Any])""; Remove the cast for "window(=> Observable[Any])"
+ExecutorScheduler to wrap an Executor
+Operator Retry with predicate
+Javadoc changes: 1) standardize opening sentences of function descriptions into the 3rd person descriptive; 2) add spurious @warn tag to throw compiler warnings indicating javadoc work TBD; 3) standardize on line-width; 4) document a few under-documented bits
+Remove some javadoc errors; make others more pronounced ;-) (#1266)
+Change 'window(closings: () => Observable[Any])' to 'window(boundary: => Observable[Any])'
+Add singleOption, singleOrElse, headOption, lastOption, lastOrElse to RxScala
+Update CompletenessTest.scala
+Add amb variant to RxScala
+Add timer variants to RxScala
+Add toBlocking to RxScala and deprecate toBlockingObservable
+Add debounce variant to RxScala
+Add share to RxScala
+Add unsubscribeOn to RxScala
+Add unsafeSubscribe to RxScala
+Add publishLast to RxScala
+ObserveOn scheduled unsubscription
+Make the chunk_test.clj work again for now
+Changed lazySet to regular volatile write to avoid potential visibility issues.
+ZipIterable unsubscription fix.
+Rename to 'zipWith';  add 'zip(iterable)'; add examples
+Add zip(iterable, selector) to RxScala; resolve the issue of zipWithIndex; update CompletenessTest.scala
+Moved to atomic field updaters.
+Update README.md to new constructors
+Observable.from(T) using Observable.just(T)
+Remove Subscription Wrapper from Observable.subscribe
+JMH Tests for Simple Use Cases
+Update docs for "apply" and add an example
+Changed to field updater
+Switch to AtomicReferenceFieldUpdater.
+Lock-free, MPSC-queue based, fast-path serializing Observer.
+Implement a cached thread scheduler using event loops
+Adding another @since annotation to the toBlocking() javadocs
+adding @since javadoc annotation to new methods
+(#1230) javadocs for serialize() also some improvements to javadocs for share()
+Deprecate toBlockingObservable in favor of toBlocking
+ForEach aliases to Subscribe to match Java 8 Convention
+Limit alias to Take
+Operator Alias: Share
+Remove Ambiguous Subscribe Overloads with Scheduler
+Git Reformats This File
+make 'zip(that, selector)' public and rename to 'zipWith'
+Implement shorter toBlocking as shorter alias for toBlockingObservable.
+ReplaySubject enhancement with time and/or size bounds
+Re-enable testStaggeredCompletion
+Javadoc: Inner -> Worker
+Exposing PublishSubject
+Revert createExampleBad and import scala.concurrent.duration.MILLISECONDS
+Eliminate compiler warnings
+Update CompletenessTest.scala for new operators
+use LinkedList to buffer the sequence’s items
+Comment out javafx until build is fixed
+Might help with questions like in the email thread "javadoc for api-sdk in Eclipse: how to?"
+EDGE-1369 document runAsync/StoppableObservable
+Adding marble diagrams to StringObservable operator javadocs
+Add buffer variants to RxScala
+Add using to RxScala
+Update range comments
+Add delay variants to RxScala
+Update more mappings to CompletenessTest
+Comment explaining non-positive delay values
+Negative schedule time now indicates immediate execution.
+Add timeInterval to RxScala
+Add takeRight(takeLast) variants to RxScala
+Add take variants to RxScala
+Add sequenceEqual to RxScala
+Update the signature of "schedule" methods
+Update CompletenessTest.scala
+Add note to javadocs about ConnectableObservables requiring connect() call (#1180)
+Unified the Subject management.
+PublishSubject to match BehaviorSubject
+Some performance improvements
+Going lite
+BehaviorSubject subscription timegap fix 2
+BehaviorSubject subscription timegap fix
+Version 0.18.3
+Switch to direct accept and no instanceof
+Add facilities for creating Observables from JavaFX events and ObservableValues.
+GroubByUntil to use BufferUntilSubscriber
+Change to batch dequeue.
+Update 'startWith' info in CompletenessTest
+Remove 'startWith', add '+:' and ':+'
+Remove () and update CompletenessTest
+Update according to review in issue #1159
+[Gradle Release Plugin] - new version commit:  '0.18.4-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.18.3'.
+Revert #1163 until decision made
+JMH Perf Tests for Schedulers.computation
+fix to remove drift from schedulePeriodic
+Replace '+' with '::'
+Removed unused interface
+Removed use of deprecated API from tests & operators, fixed year in headers, added and removed suppressions, fixed line endings, replaced tabs with spaces
+Add 'replay' variants to RxScala
+Remove 'Observable.apply(Int)'
+Add 'multicast' variants to RxScala
+Change '(() => Subscription, Observable[R])' to 'ConnectableObservable[R]'
+Scheduler correctness improvements.
+Add 'publish' variants to RxScala
+Add 'startWith' to RxScala
+Add 'doOnTerminate' to RxScala
+Add 'repeat' to RxScala
+Add 'contains' to RxScala
+Add 'dropUntil' to RxScala
+Version 0.18.2
+[Gradle Release Plugin] - new version commit:  '0.18.3-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.18.2'.
+ReplaySubject testRaceForTerminalState()
+Make final
+Operator Delay rebase & fixes
+Modified BufferUntilSubscriber to onError for any subscriber but the first
+Update 'contains' signature to 'contains(Object)'
+Use NotificationLite
+Update the signature of lift
+Operator Window and other changes
+OperatorTakeLast
+OperatorTakeUntil
+collapse imports
+Update CompletenessTest
+Operator TakeTimed
+Operator Switch
+Conditional statements contribution to Operator
+Operator When
+Corrected LF
+Operators of contrib-math
+Add unsubscribe
+Add Operator conversion, tail and update liftExample2
+Add lift to rxscala
+OperatorSkipUntil
+OperatorSkipTimed
+OperatorSequenceEqual
+OperatorRefCount
+Operator OnExceptionResumeNextViaObservable
+OperatorTakeWhile
+OperatorThrottleFirst
+OperatorTimeInterval
+OperatorUsing
+OperatorOnErrorReturn
+OperatorOnErrorResumeNextViaObservable
+OperatorMulticastAndReplay
+OperatorJoin
+Removed deprecated API
+OperatorAsync
+OperatorToMap
+OperatorToMultimap
+OperatorTimerAndSample
+OperatorGroupJoin
+OperatorGroupByUntil
+Removed localTerminate as it is never observed as true at that point.
+OperatorDebounce
+0.18.1
+0.18.1
+[Gradle Release Plugin] - new version commit:  '0.18.2-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.18.1'.
+Reconnecting ObservableExecutionHook.onCreate
+Handle Thrown Errors with UnsafeSubscribe
+Method Signature Cleanup
+OperatorToObservableFuture
+OperatorFinallyDo
+OperatorDistinctUntilChanged
+OperatorDistinct
+OperatorDematerialize
+OperatorDefer
+OperatorDefaultIfEmpty
+OperatorCombineLatest
+Rename concat test
+OperatorConcat
+OperatorBuffer
+0.18.0
+[Gradle Release Plugin] - new version commit:  '0.18.1-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.18.0'.
+Scheduler.Inner -> Scheduler.Worker
+Simplify Subscription Chain
+OperationAnyTest -> OperatorAnyTest
+Simplify Subscription Chain
+add synchronous test of resubscribe after error
+CompositeSubscription fix
+Only cache the latest items in the time window
+OperatorAsObservable LF
+OperatorAsObservable
+OperatorAny
+OperatorAll
+typo
+Deprecate Observable.apply
+Add drop and dropRight to rxscala
+close #1054
+Remove deprecated methods/classes from rxjava-core
+Remove deprecated rx.util.functions.*
+Restoring parallel() to using Schedulers.computation()
+ComputationScheduler -> EventLoopsScheduler
+Replace LinkedList with ArrayDeque
+Reimplement the "SkipLast" operator with time
+Rename OperationSkipLast to OperatorSkipLast
+Reimplement "SkipLast" operator
+Move rx.joins to rxjava-joins module
+Remove ExecutorScheduler - New ComputationScheduler
+0.18.0-SNAPSHOT
+degreeOfParallelism() -> parallelism()
+inner() -> createInner()
+Scheduler.inner() for Language and Contrib Modules
+Scheduler.inner() for Core
+(#1045) clarify javadocs to accurately describe currently-intended behavior of sample()
+0.17.6
+[Gradle Release Plugin] - new version commit:  '0.17.7-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.17.6'.
+Update README
+Update doc comments.
+Test with full compatibility with 0.17.0
+Kotlin M7, minor fixes, compatibility with 0.17.0
+Remove Redundant Action1 Observer Collection Argument
+Simplify Subscription/Observer State
+Title -> RxJava: Reactive Extensions for the JVM
+rxjava-android: parameterize OperatorViewClick by concrete view type
+improve javadocs for onErrorFlatMap( ) with link to wiki docs & marble diagram
+Simplify 'buffer' signature to be the same as 'window'.
+replaced FRP with RP in README title
+Move bindFragment call in sample to onCreate
+OperatorWeakBinding -> OperatorConditionalBinding
+Unit Test and Review of #1027
+exclude tests
+Restore rxjava-scala
+exclude tests
+Benchmarking: Add JMH benchmark for ReplaySubject.
+Updating the new sample to demonstrate UI binding
+isolate subscriber used for retries, cleanup tests
+OperatorWeakBinding to not use WeakReferences anymore
+Upgrade Gradle wrapper for Android samples to Gradle 1.11
+Version 0.17.5
+[Gradle Release Plugin] - new version commit:  '0.17.6-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.17.5'.
+Unsubscribe on retry using SerialSubscription
+unsubscribe before retry
+Remove Redundant protectivelyWrap Method
+0.17.4
+[Gradle Release Plugin] - new version commit:  '0.17.5-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.17.4'.
+Removed window between the two synchronized blocks.
+UnsafeSubscribe
+Version 0.17.3
+[Gradle Release Plugin] - new version commit:  '0.17.4-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.17.3'.
+Adding a new RetainedFragment example
+comments to walk through logic
+Use latches instead of sleep for unit test
+corrected implementation
+add examples of toMap to RxScalaDemo
+add toMap from Java Observable
+Func0 can transparently implement java.util.concurrent.Callable.
+Update SerializedObserver to Not Allow Notification Delay
+tabs to spaces
+Produce a shadow'd jar for the performance benchmarks
+Support Custom JMH Args
+New Implementation of SerializedObserver
+Perf Tests with JMH
+JMH Benchmarks Gradle Config
+Change target back to 1.7
+Match updated RxJava API (rx.util.function -> rx.functions etc.)
+Target Java 1.6
+Migrate Pre-JMH Tests to rx.archive
+fix jmh build config
+Use Quasar 0.5.0 release
+0.17.2
+[Gradle Release Plugin] - new version commit:  '0.17.3-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.17.2'.
+OnErrorFailedException
+add marble diagrams to pivot() javadocs
+Add Javadoc to Pivot
+Pivot Unit Test
+Pivot Operator
+Implement ElementAt as Operator
+Add ElementAt and ElementAtOrDefault to rxjava-scala
+Reimplement the ElementAt operator
+Chain Subscription in TimeoutSubscriber and SerializedSubscriber
+Dematerialize - handle non-materialized terminal events
+parallel-merge unit test assertions
+TestSubject, TestObserver and TestScheduler Improvements
+Notifications for the allocation adverse.
+Rename OperationFirstOrDefaultTest and OperationLastTest to OperatorFirstOrDefaultTest and OperatorLastTest
+Throw NoSuchElementException in the first, last and single operators when the Observable is empty
+Add first, last, single to rxjava-scala
+Reimplement the 'single' operator
+Version 0.17.1
+SubjectSubscriptionManager fix.
+Updated ObservableBenchmark to follow better benchmarking practices
+Updated gradle build scripts so there is a separate benchmarks task
+[Gradle Release Plugin] - new version commit:  '0.17.2-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.17.1'.
+Synchronize -> Serialize
+SerializedObserver and SerializedSubscriber
+queue and lock implementation
+Unlock in finally block
+Unit tests for each
+Clarify names during testing
+Experimenting with different implementations and performance
+Functional now ... it seems.
+not quite functional ... and slow
+OperatorSerialize
+OperationSynchronize -> OperatorSynchronize
+Retry Unit Test from #879
+Rewrite AndroidObservableTest to test the new operator
+Forward subscription of wrapped subscriber
+Guard the log calls
+Some cleaning up
+OperatorWeakBinding supports predicates now
+merge remote-tracking branch 'netflix/master' into operator-weak-binding
+Add sample for binding to list adapters in ListFragment
+Add sample for fragments and connectable observables
+Add full example for Activity + retained fragment + cache
+OperatorSkipWhile
+Revert to using the all Gradle wrapper dist type
+Trigger samples build manually via Gradle build property
+Switch to customizable Gradle wrapper
+Bump Android plugin version to 0.9
+OperationToFuture must throw CancellationException on get() if cancelled.
+Make OperatorObserveOnTest.testNonBlockingOuterWhileBlockingOnNext deterministic
+Update CHANGES.md
+[Gradle Release Plugin] - new version commit:  '0.17.1-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.17.0'.
+0.17.0-SNAPSHOT
+Update CHANGES.md
+Version 0.17.0 Release Notes
+0.17.0 Release Notes
+Version 0.17.0
+Change to a single 'get' call
+Rename observer to subscriber and add a special logic to exit the loop
+Rename OperationAmb to OperatorAmb
+  Reimplement the amb operator
+Add amb, delay and delaySubscription in rxjava-scala
+fixing a variety of errors in javadoc generation (syntax errors, misnamed params, etc.)
+add support for eclipse pde
+OperationAll to OperatorAll
+correcting markup error in javadoc comments
+startWith(observable) marble diagram
+[Gradle Release Plugin] - new version commit:  '0.17.0-RC8-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.17.0-RC7'.
+Changing line 38 to try and fix build
+Ignoring broken unit tests until fixed
+Move state inside Subscriber
+OperationRetry -> OperatorRetry
+math-module
+refactor the debug hooks before they become a breaking change.
+First implementation of OperatorWeakBinding
+Simplify version property forwarding
+add space to a comment to force ci rebuild to see if suspected non-deterministic test fails again
+add Observable.startWith(Observable) method and unit test to avoid breaking method chaining when want to startWith an Observable rather than just an Iterator or specific values.
+Implemented Skip using Lift in Observable and OperatorSkip Deleted non-time part from OperationSkip Moved tests to OperatorSkipTest
+Initial commit of the Android samples module
+A number of improvements to OperatorObserveFromAndroidComponent
+correct link to maven search
+[Gradle Release Plugin] - new version commit:  '0.17.0-RC7-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.17.0-RC6'.
+TestSubscriber lastSeenThread
+TestSubscriber: Default onError and Terminal Latch Behavior
+Added BlockingObservable
+[Gradle Release Plugin] - new version commit:  '0.17.0-RC6-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.17.0-RC5'.
+seq->o should seq-ify arg
+Implement range
+Implement iterate
+Remove val-fn version of group-by
+Implemented multi-sequence mapcat
+Eliminated macro version of future stuff based on feedback.
+Eliminate sorted-list variants and cleanup sort tests
+Make catch and finally ->> friendly
+Update generator docstring
+Reimplement into without toList
+interpose docstring
+Updates from @mbossenbroek's feedback.
+Update merge/merge-delay-error impls.
+Avoid intermediate toList for blocking/into
+Implemented partition-all
+Implement interleave and interleave*
+Implement group-by
+more README
+Implement catch-error-value
+Cleaned up naming of observable operator definition fns
+fix gradle spec in README
+Update Clojure README
+Experimental warnings
+Update blocking stuff
+Some more core operators
+Clean up future stuff and docs
+Got rid of base. It was weird.
+Replace chain with operators. General core cleanup
+Initial import of indigena-rx
+Localized Operator Error Handling
+deprecate rx.lang.scala.Observable.create[T](Observer[T]=>Subscription)
+add Subscriber and Observable creation from `Subscriber[T] => Unit`
+Changes made while integrating it with our internal system
+some RxScalaDemo tweaks
+customize diagram/javadocs for doOnTerminate()
+[Gradle Release Plugin] - new version commit:  '0.17.0-RC5-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.17.0-RC4'.
+Delete Deprecated onSubscribeStart That Doesn't Work
+Added additional test to prove issue
+Operator: doOnTerminate
+tweak RxScalaDemo (and Olympics example)
+Observable.sample(Observable) in Scala
+Added ChannelObservable.get
+[Gradle Release Plugin] - new version commit:  '0.17.0-RC4-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.17.0-RC3'.
+Scheduler instances should be or behave like singletons
+Deprecate Direct Access to Scheduler Implementations
+Remove groupBy with selector.
+Rename RxJavaSchedulers to RxJavaDefaultSchedulers
+RxJavaSchedulers Plugin
+Scheduler.Recurse fields should be private
+GroupBy Unit Test from #900
+[Gradle Release Plugin] - new version commit:  '0.17.0-RC3-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.17.0-RC2'.
+Handle illegal errors thrown from plugin
+Refactor to more descriptive name: OnErrorThrowable.addValueAsLastCause
+Attach Value Without Wrapping
+Make Subscriptions of SwingObservable thread-safe
+Rewrite OperationObserveFromAndroidComponent to OperatorObserveFromAndroidComponent
+removing java 7 dep
+Synchronized Operator Check for isTerminated
+Change Parallel to use Long instead of Int
+onErrorFlatMap + OnErrorThrowable
+Refactor OnErrorResumeNextViaFunction to Operator
+Lift Performance
+rx.util.functions deprecated proxies
+Remove rx.util usage from sub-modules
+Move rx.util.functions to rx.functions
+Update sub-modules
+Move time based util classes to rx.schedulers
+Move Exception Classes to rx.exceptions
+Split SubscribeOn into SubscribeOn/UnsubscribeOn
+Revert Bounded ObserveOn
+Remove Bad Filter Logic
+-
+map Observable.onError(Throwable) to SendPort.close(Throwable) in
+Force ViewObservable be subscribed and unsubscribed in the UI thread
+fixing javadoc layout bugs
+0.17.0-RC2-SNAPSHOT
+[Gradle Release Plugin] - pre tag commit:  '0.17.0-RC1'.
+Scheduler.scheduleRecursive
+Correct synchronization guard in groupByUntil
+Revert to 1.8 as 1.10 is causing the build to fail
+Update CompositeSubscriptionTest.java
+Add timeout to CoundDownLatch, ignore InterruptException and fix the test to be consistent with the new subscribeOn
+0.17.0-RC1-SNAPSHOT
+SubscribeOn Scheduler/Unsubscribe Behavior
+javadoc: document more exception throwing
+Comment on Parallel
+Hide Buffer/Blocking SubscribeOn Behavior
+javadoc changes: add nest() diagram, make some 0.17-related corrections, fix typos, make formatting consistent & 112-column
+Add the selector variants of timeout in RxScala
+GroupBy and SubscribeOn Tests Passing
+TestSubscriber.awaitTerminalEventAndUnsubscribeOnTimeout
+Update OperationScan to OperatorScan
+Convert to scan to use lift
+Check child unsubscription status more eagerly.
+Added bounded buffering capability to SubscribeOn
+Optimize Swing-RelativeMouseMotion pipeline
+minor fix in classifier
+Proposed solution to the time gap, using unbounded buffering.
+Update the timeout docs
+Add 'Fragment-Host' to rxjava-contrib/debug module for OSGi
+Change Lift to use rx.Observable.Operator
+The onCreate hook disappeared
+Move InterruptibleBlockingQueue Inside ObserveOn
+Use a custom SuspendableClassifier
+Add the missing License
+Rename the files
+Reimplement the timeout operator and fix timeout bugs
+Add 'Fragment-Host' to rxjava-contrib modules for OSGi
+Add timeout unit tests
+Comment Out "Time Gap" Tests on GroupBy
+Remove Stray Println
+Further TestSubscriber Functionality
+More Parallal Unit Tests
+InterruptibleBlockingQueue.size()
+Added overloaded createRequest method that takes an HttpContext instance
+Revert Observable.Range to support 0 for count.
+Migrate from Deprecated Notification Constructors
+IllegalStateException if Repeat receives an onError
+ObserveOn using InterruptibleBlockingQueue
+Observable.nest()
+InterruptibleBlockingQueue
+OperatorFilter Migrated to Lift Operator
+Added ChannelObservable.subscribe
+Updating StringObservable to use lift And added from(InputStream) and from(Reader)
+tests pass
+initial commit
+Test Unsubscribe
+OnSubscribeRange
+Rename OperatorFromIterable to OnSubscribeFromIterable
+Observer -> Subscriber
+ObserveOn with Buffer Size
+Performance Testing
+Test to prove non-blocking despite blocking onNext
+Changed to use SubscribeOn instead of ObserveOn for Async Behavior
+Custom InterruptibleBlockingQueue for ObserveOn
+Fast Producer / Slow Consumer Backpressure Tests for ObserveOn
+GroupBy Test Improvement
+ObserveOn with Backpressure
+Special Handling of java.lang.Error and OnErrorNotImplemented
+make Scala OnCompleted Notification an object instead of a class
+Small change to convert from Caliper to JMH.
+Setting up the new subproject for debugging observable chains.
+Update Clojure examples to use new Observable/create
+Make rx/action implement new OnSubscribe interface
+Updated nrepl task
+Remove line break
+from(this) -> nest()
+Take operator was breaking the unsubscribe chain
+Changing marble diagrams for repeat() variants to those that operate on a source Observable rather than a source item
+adding marble diagrams, see-also links to javadocs of new repeat() variants
+Subscribers/Observers.empty()
+Repeat with Count
+OperatorRepeat
+Test Repeat with SubscribeOn
+Return wrapped Subscription
+Using inner and fix unit tests
+Set setDaemon on NewThreadScheduler
+Remove 'inner.unsubscribe'
+Reimplement 'subscribeOn' using 'lift'
+Update to use Subscriber/Subscriptions.create
+Git keeps modifying this file so committing it how it wants it.
+CompositeSubscription performance increase
+CompositeSubscription memory reduction
+- Updated schedulers to reflext 0.17 changes. - Add timer bindings
+Updates some javadoc comments to reflect 0.17 changes
+one global onCompleted object
+RunAsync method for outputting multiple values
+Zip NULL and COMPLETE Sentinels
+OperatorZipIterable
+Subscribers for common factory methods
+Reimplement Zip Operator Using Lift
+Add testMultipleWithSameCause UnitTest
+Added more possible failure cases to CompositeExceptionTest
+Disabling Scala (and Kotlin) until fixed
+Update Modules to New Scheduler
+Scheduler Outer/Inner
+0.17.0-SNAPSHOT
+Add Subscription.isUnsubscribed()
+Restored use of Observer in most places
+working on stuff
+Subject reverted to Observable+Observer
+Added the first of the perf tests
+get the perf source working
+Subscriber and Observer
+Observer+Subscription -> Subscriber
+improve switchOnNext description in javadocs repair anchors in links to RxJava wiki in javadocs
+Careful With That Global Search And Replace, Eugene.
+Implement some Android UI related operators
+Restore Broken OperationJoinsTest
+TestObserver fix for Scala UnitTest
+Performance comparison
+Ignore JoinsTest.whenComplicated until questions answered
+OperationJoinTest - fixing
+Clarify intent of unit test
+Down to 7 of 893 unit tests failing
+587 of 590 operator unit tests passing
+Operator Tests Retrofitted to use TestObserver
+TestObserver
+Added join
+Compiling. Unit Tests Failing.
+Move Observers to rx.observers
+Move Observer factory methods to Observers
+`Observer` becomes `Observer implements Subscription`
+Rename `bind` to `lift`
+Simplify OperationZip ItemObserver
+Simple Javadoc for Bind
+GroupBy: No need to close over parentSubscription
+FromIterable: Remove superfluous onComplete
+Organize and Import
+Remove use of @SafeVarargs (breaking Java6 build)
+Cleanup after rebase.
+Updates while validating no major performance and memory regressions
+Temporarily disable Scala/Kotlin builds until they are fixed
+Groovy: MetaMethod to disambiguate the create method during deprecation phase
+Deprecate the Old Create Method
+Get OperationReplay working via OnSubscribeFunc to Action1 bridge
+Operator Class
+Bugfix: GroupBy Completion
+Bind implementation of Parallel
+New Bind Signature and GroupBy Operator
+Bind implementation of Map, Cast, Timestamp
+Bind implementation of fromIterable, toList, toSortedList
+Re-implemented Take Operator with Bind
+Added Observable.bind
+Zip fix for multiple onCompleted and moved unsubscribe outside the lock.
+A variety of improvements to the javadoc text.
+Added support for custom functions in combineLatest.
+adding javadoc marble diagram for the mergeMap(next,completed,error) variety
+adding diagrams to javadocs for replay(selector) variants
+Start of Performance Testing Operators
+Create /src/perf for Performance Tests
+Add marble diagrams to new operators & variants. Add javadoc "@deprecated use..." where appropriate. Some javadoc comment reformatting (e.g. overlong lines).
+Provide Observable.timestamp(Scheduler) to be used in the tests.
+Updating License Headers
+Make Observable Methods Final
+0.16.2-SNAPSHOT
+Update gradle.properties
+Back to 1.10 after building
+Revert to 1.8 for build to work ...
+Alphabetize Observable.java
+Organize Imports and Format Code
+Version 0.16.1
+Version 0.16.1
+Separated Android test code from source.
+modified groupByUntil include the key of the group in the closings function.
+Moved unsubscribe out the gate
+Replaced MultipleAssignmentSubscription with SerialSubscription
+Modified to conform Rx.NET
+Build with Gradle 1.10.
+Zip with iterable, removed old aggregator version and updated tests
+Timeout with selector overloads
+Debounce with selector
+Added variance to selector functions
+Publish and PublishLast overloads
+Added event-merger overload
+Window with Observable boundary.
+Delay with subscription and item delaying observables.
+Buffer with Observable boundary.
+ported groupByUntil function.
+Replaced 'Thread.sleep' with 'CountDownLatch' to fix the flaky test failures
+Improve Error Handling and Stacktraces
+Version 0.16.0
+0.16.1-SNAPSHOT
+Added unit tests
+Implemented the rest 'merge' overloads
+0.16.0-SNAPSHOT
+ToObservableIterable Recursion/Loop
+The test has to wait on each action independently. Reduced the size of the iterable because I think it was blowing through the stack.
+Simpler computation/io naming for Schedulers
+Revert use of CurrentThreadScheduler for Observable.from
+Deprecate multiple arity ‘from’
+Added `Observable.timeout` wrappers to scala adapter
+Add missing type hint to clojure example
+rxjava-computation-expressions
+Remove Validation of Ordering
+Remove Timeout on Tests
+Increasing Unit Test Timeout for Slow Machines
+Missing Header
+Updated Schedulers Unit Tests
+Small ObserveOn Improvements
+Scheduler Unit Tests
+Memory Leak Tests
+Update Scheduler Tests for Recursion and Common Testing
+Created new wiki page for the operators in the Async class ...adjusted javadoc links accordingly ...added new sections for previously un-wiki-documented operators in Async ...added links to those in javadocs
+Lotsa javadoc improvements * diagrams for previously-undiagram'd methods * links to wiki docs where available * standardizing format & nomenclature
+Manual merge of https://github.com/akarnokd/RxJava/commit/eee312a6ac41582e4efe3daac3dfcd0385359d25
+New contrib module: rxjava-async-util
+adjust javadocs for new sumFoo()/averageFoo() method names
+Standardize Naming of average/sum methods
+Remove Extra Synchronization
+Mark as Deprecated
+Collect Operator
+adding diagram to repeat() javadocs
+Adding diagrams, improving javadocs for sumFoo/averageFoo operators.
+Repeat Operator
+javadoc improvements: * diagrams for skip(t), single(), take(t), skipLast(t) * minor corrections, reformatting of javadoc comments
+Rename to ReduceTest
+Remove newly added aggregate methods
+Remove ObserverBase Import
+correcting typo causing build failure
+javadoc improvements * add "see also" notes about hidden Rx.NET "asyncFoo" methods to Observable.java * reformat BlockingObservable javadoc comments to Oracle formatting standards * add links to RxJava Wiki & MSDN web pages as "see also" links in BlockingObservable javadocs
+Change in wiki page from "Mathematical Operators" to "Mathematical and Aggregate Operators" move toList, reduce, concat, toSortedList, toMap, and toMultiMap to that page deprecate aggregate in favor of reduce [should I move takeLast, last, and takeLastBuffer to the Aggregate operators page? they don't operate on the aggregate, exactly, but they do wait until the source completes before emitting anything]
+Kotlin M6.2
+javadoc improvements: * diagrams for switchLatest, mergeMap, concatMap, switchMap, mapWithIndex, doOnNext * change text to note deprecation of aggregate * standardized formatting * force image size in ReplaySubject javadoc
+Removed ObserverBase
+Deprecate aggregate in favor of reduce
+Deprecate manWithIndex
+Update Tests for doOn* Changes
+Javadoc improvements: * diagrams for switchCase, doWhile, whileDo, ifThen, delaySubscription, single, singleOrDefault, takeFirst, takeLast (and variant forms of these) * standardizing javadoc comment formatting * standardizing nomenclature
+Operators Skip, SkipLast, Take with time
+doOnNext, doOnCompleted, doOnError, doOnEach
+Alias from switchOnNext to switchLatest to match RxJS
+Operation AsObservable
+Naming and Class Conventions
+Refactor SerialSubscription
+Refactor MultipleAssignment
+Refactor CompositeSubscription
+Refactor RefCountSubscription
+Missing fixes from the subject rewrite.
+Code Reformatting
+Remove Unnecessary Subscription
+BooleanSubscription: Add Action Support
+Reverting to Previous SafeObserver
+Comments on Performance Increase
+Operations Aggregate, Average and Sum with selector
+Added create with initial capacity, minor fix
+Added create with initial capacity.
+Performance improvement suggestions.
+Refactor for Performance
+License Header and Separate out Perf Tests
+Subject Refactor
+Remove volatile
+Implement the blocking/non-blocking single, singleOrDefault, first, firstOrDefault, last, lastOrDefault
+Mark takeFirst deprecated
+Add MSDN links
+Moved the descriptions of some operators to a new "Conditional and Boolean Operators" wiki page.
+Operators DelaySubscription, TakeLast w/ time, TakeLastBuffer
+Operators: switchCase (Case), ifThen (If), doWhile (DoWhile), WhileDo (While)
+Make NewThreadScheduler create Daemon threads
+Increased time delay in test.
+Added: BO.Latest, fixed: BO.next, BO.mostRecent, BO.toIterable
+Observable.from with scheduler
+Removed local SerialSubscription isUnsubscribed implementation since underlying subscription now implements it.
+UnitTest to assert thread safety of Executor Scheduler
+replay() and timer() javadocs: diagrams & wiki links
+Moved onError, onCompleted and cancel.unsubscribed outside the lock
+CombineLatest fix
+Operation: Replay additional overloads
+CustomReplaySubject to support various replay() operators.
+Operation Timer 3.0
+Javadoc improvements: * consistent nomenclature * consistent/standard javadoc formatting * more-precise descriptions * timer() marble digram & wiki link * delay() marble diagram & wiki link
+Added op:join to concat objects with separator between elements.
+Remove the Action0 overloads
+ReplaySubject UnitTests
+Add Missing License Headers
+Migrate code to use rx.schedulers instead of rx.concurrency
+rx.concurrent -> rx.schedulers for Android and Swing modules
+Backwards compatible deprecated rx.concurrency classes
+Organize Imports - Migrate to rx.schedulers for src/main
+Migrate Schedulers to rx.schedulers package
+Add more unit tests
+Release notes edits.
+Release notes edits.
+Added accept with Observer to match RxJava
+Empty subscribe()
+* corrects grammar of sequenceEqual() javadoc * updates link to wiki description of count() * adds sample(sampler) marble diagram/wiki link * adds longCount() marble diagram/wiki link
+Made rx.Scheduler bindings  private [scala] such that you can access them them if needed.
+Implement the 'Start' operator
+Lock-free subscriptions
+Test to show various constructors.
+Experimental extension methods for lists.
+Added default implementation in Subscription trait
+Observer cleanup
+Added back private PublishSubject[T] object.
+rebasing
+added apply(Observer) to Observable[T] trait
+Layout
+Release notes for Notification
+Cleaned up subscriptions to make them idempotent when called from either side.
+Normalize Line Endings
+GitAttributes for Line Endings
+CRemoved Assert. prefix from tests
+renamed `accept` to `apply` for Notification.
+Updated release notes
+use non-locking state machine based on atomic reference
+Operation LongCount
+fix constructor usage in ObservableTest
+undo undesired side effects of search/replace
+reorg imports of TestSchedulerExample
+fix one constructor usage
+remove rx.lang.scala.subscriptions.SubscriptionTests,
+Documented factory method changes.
+Interop Helpers
+README
+Manually merge branch 'master' of github.com:Netflix/RxJava into MergingFinalStageSam
+Update ObservableHttp.java
+Updated release notes for Subject[T]
+Simplified Subject[-T, +R] extends Observable[R] with Observer[T] to Subject[T] extends Observable[T] with Observer[T].
+(Superfluous) Subject tests.
+Notification tests.
+Notification tests.
+Doc comments for Notification.
+Changed def to val in release notes to match source code.  Which I could put in hyperlink ;-)
+Re-instantiating commented out tests.
+Re-instantiating commented out tests.
+Reimplement the 'SequenceEqual' operator using other operators
+release notes details
+Tried to improve type inference, alas.
+private [scala] val asJavaXXX for all.
+Subjects & Observers
+Added test for SerialSubscription
+More precise marble diagram for the case when zip() takes an Observable that emits Observables
+Cosmetic changes to Notification. Cleaned up overloads for Observer.
+Release notes for Notification
+Added overloads for Observer companion object
+make OperationDelayTest test Observable.delay instead of OperationDelay.delay
+add delay methods in Observable.java (copied those by @jmhofer)
+copy delay test by @jmhofer
+add OperationDelay
+add timer methods in Observable.java
+add OperationTimer
+clarify documentation on cache()
+remove import rx.lang.scala.util._
+remove package rx.lang.scala.util since all its contents were removed
+Removed Opening and Closing historical artifacts.
+Modified Subscription tests.
+Modified Subscription tests.
+Modified Subscription tests.
+ObserveOn fix for observing the same source on the same scheduler by two different observers.
+Operation Sample with Observable v2
+Return null on getSubscription() when previously unsubscribed to match initial contract
+Making tests work. Solution was to delete all class files. Why is there no build/clean?
+Making tests work
+Removing BooleanSubscription
+Strange changes ...
+Added overrides.
+Release notes
+Added release notes for Observer. Added missing empty implementations for Observer methods.
+JUnit setting subscription concurrently
+fix: getSubscription should not expose internal sentinel subscription
+Simplify code; Junits
+javadoc improvements (groupJoin, groupByUntil, timestamp w/scheduler)
+Code simplification
+Lock free strategy using a sentinel (Thanks to akarnokd)
+Make unsubscribe + reference modification an atomic operation
+Use lock free strategy
+Operation Timestamp with Scheduler
+Manually merge branch 'master' of github.com:Netflix/RxJava into scala-constructors
+Operator GroupJoin v2
+Operation GroupByUntil v5
+undo commit 99a1d035233100e32050240472a9bdc85521bc61
+add Observable.from(Future) constructor
+add equals, hashCode, toString to Notifications
+Add type variances for doOnEach actions.
+Remove unnecessary type parameter.
+rename Observable constructors
+replace Observable.apply(rx.Observable) by toScalaObservable
+skipUntil() marble diagram and wiki link in javadoc
+IntelliJ suggested style changes.
+Trivial code movements
+Tests to verify fix and error behavior
+Made subjects safe
+Double negation Observer.
+Added Observable.create. (a) it will stop the pointless discussions around it. (b) it is removes the interference with from(T*) (c) we should remove the latter, since that is not the common case.
+restore subjects package object for scaladoc
+scaladoc for package rx.lang.scala
+scaladoc links in ThreadPoolForXxxScheduler
+make zip with selector function private because
+reorg imports of ImplicitFunctionConversions
+deleting def observable[T](=>T) requires deleting corresponding demo, too
+add one missing import
+restore original gradlew
+Added copyright headers
+Added copyright headers
+Factory methods for Observer.
+Added package names in doc comments to keep IntelliJ happy
+Made Subscription.app(rx.Subscription) private. Added overload for zip
+Inner classes set to private
+Operation SkipUntil
+Removed dead function, left package object for scala docs.
+Moved stuff around some more.
+Moved stuff around.
+Deleted spurious package object
+Added TestScheduler
+Deleted spurious package object.
+Deleted old Schedulers object.
+Deleted old scheduler factory methods.
+Added ThreadPoolForIOScheduler
+Added ThreadPoolForComputationScheduler
+Added ScheduledExecutorServiceScheduler
+Added ExecutorScheduler
+Added current thread scheduler
+Added new thread scheduler
+Added immediate scheduler
+Moved Subscription object to package rx.lang.scala.subscriptions with the other subscriptions
+Removed spurious package
+setting the up that string test to use core test
+moving the AssertObservable class to the test side of the build.
+Moving StringObservable to contrib module
+Adding utility functions for observables of strings useful for processing non blocking IO.
+Remove unnecessary cast.
+tests for zipping a finite and an infinite Observable
+Add scala adapters for doOnEach operator.
+Use Object as argument type for fromFragment helper
+Async conversions
+visually distinguish operators that use schedulers; add distinct doOnEach diagrams
+Version 0.15.1
+[Gradle Release Plugin] - new version commit:  '0.15.2-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.15.1'.
+Add License Headers
+Notification constructors Implicit conversions
+Calling constructor explicitly on schedulers
+Missing ! .... grrr.
+Update Observable.java
+Javadoc improvements, including diagrams and wiki links for new operators
+Make unsubscribe idempotent.
+Make unsubscribe idempotent.
+UnitTests demonstrating bugs
+Added test
+Added OperationRepeat & repeat operator
+Added OperationRepeat & repeat operator
+Operations toMap (3) and toMultimap (4)
+standardizing javadoc comments, adding wiki links and diagrams, for and/then/when
+Update Observable.java
+fix one scaladoc link
+update TODO
+do not import things from the same package
+replace `work{ t1 }` by `work{ t1.call() }`
+reactivate Observable.withFilter
+Unit Tests and SuppressWarnings
+move rx.lang.scala.subscriptions.Subscription to rx.lang.scala.Subscription (mirror Java package structure)
+replace Assert.assertXxx by assertXxx
+examples to examples, tests to tests
+restore CompletenessTest
+private vars in Scala do not start with underscore
+@Ignore RxScalaDemo
+PublishSubject.apply() does not take a parameter
+update package objects
+restore package.scala files (mainly for scaladoc)
+move commented-out example from TestScheduler to separate file TestSchedulerExample
+mention Rationale.md in README.md
+restore original README.md
+rename README.md to Rationale.md
+Empty subscribe
+Removed unused test function
+Operation: Join Issue #56
+Update Observable.java
+Operators: And, Then, When Issue #23, Issue #88, Issue #100
+Update Observable.java
+Version 0.15.0
+[Gradle Release Plugin] - new version commit:  '0.15.1-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.15.0'.
+0.15.0-SNAPSHOT
+Updated README
+Reorg Scala Structure
+Scala Bindings Refactor
+Refactored ObserveOn without ScheduledObserver
+Update Observable.java
+Unit test to assert correct scheduler thread
+ZipMany with conformance changes
+Implement the scheduler overloads for Range, From, StartWith
+Add contravariant for min and max
+Version 0.14.11
+[Gradle Release Plugin] - new version commit:  '0.14.12-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.14.11'.
+adding marble diagrams to javadocs; standardizing formatting & terminology
+Remove a doOnEach overload
+DoOn Tweaks
+Version 0.14.10
+[Gradle Release Plugin] - new version commit:  '0.14.11-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.14.10'.
+Wraps DoOnEach in a SafeObserver
+Use the '+1/-1' way to implement the min and max operators
+Implement the 'Using' operator
+Version 0.14.9
+Adds scala adapters for doOnEach operator
+Separating unit tests out and update the comments
+Adds other overrides for doOnEach
+Adds beginnings of doOnEach operator
+Added the min and max operators in Observable and comments
+Implemented the 'min' and 'max' operators
+[Gradle Release Plugin] - new version commit:  '0.14.10-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.14.9'.
+Unsubscribe Idempotence Test
+CompositeSubscription
+Don't emit null onComplete when no onNext received
+Additional unit test for reduce
+Add and clarify unit tests in map
+Last operator
+Version 0.14.8
+Added the rest overloads of Timeout operator
+[Gradle Release Plugin] - new version commit:  '0.14.9-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.14.8'.
+Separating unit tests out due to https://github.com/Netflix/RxJava/pull/466
+Add missing license headers.
+Move last 6 remaining unit tests out.
+Organize, Format, Comments and Cleanup
+moving tests to test source folder #439
+creating test classes on test source folder
+Removed the 'vararg' overload and added 2-9 args overloads
+Implemented the 'Amb' operator
+Version 0.14.7
+[Gradle Release Plugin] - new version commit:  '0.14.8-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.14.7'.
+Update httpasyncclient to 4.0 from 4.0-beta4
+Singularize AndroidObservables, move to observables package
+Renamed the log tag as it was too long
+some documentation for CompletenessTest
+Force 'hasNext' and 'next' throw the error once they have already thrown it before
+Followed the iterator contract
+Blocked 'hasNext' instead of 'next' until any notification arrives
+Removed the unnecessary 'catch' and 'fail'
+add one TODO
+Updated the comments
+Implemented the scheduler version of the 'Return' operator
+Implemented the 'TimeInterval' operator
+Update CHANGES.md
+[Gradle Release Plugin] - new version commit:  '0.14.7-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.14.6'.
+Caching the result of 'isInternalImplementation' so that reflection doesn't get invoked on every subscribe
+Do not unsubscribe from child once parent has been completed.
+Version 0.14.5
+[Gradle Release Plugin] - new version commit:  '0.14.6-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.14.5'.
+Added kotlin to internal build system.
+Exclude rxjava-kotlin from internal Netflix build until dependencies exist
+Comments on Test classes
+Delete examples
+Kotlin Version
+License and README
+Kotlin Examples
+Basic Kotlin tests completed
+Initial Kotlin support
+Gradle changes for Kotlin Support
+Initial Kotlin support
+merge
+Version 0.14.4
+[Gradle Release Plugin] - new version commit:  '0.14.5-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.14.4'.
+Scheduler overload with recursive support
+rx-apache-http now recognizes "Transfer-Encoding: chunked" as an HTTP stream
+Improved efficiency of SerialSubscription and unit tested Timeout
+SerialSubscription and Timeout operator
+SerialSubscription and Timeout operator
+Remove isFinishing check when calling back to activities
+Add guards around log statements
+Only release references in unsubscribe
+Drop volatile in favor of failing fast if not subscribed from UI thread
+update TODOs according to meeting
+Update CHANGES.md
+[Gradle Release Plugin] - new version commit:  '0.14.4-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.14.3'.
+Update build.gradle
+Drop use of WeakReferences and use a custom subscription instead
+Version 0.14.3
+Revised version of Android UI component operator
+Used 'subscribeOn' instead of 'observeOn'
+Implemented the 'Throw' operator with scheduler
+Implemented the 'IgnoreElements' operator
+Remove PublishSubject Terminal State Behavior
+Combine RefCountTest and RefCountTests
+Unit Test while testing refCount submission
+JRuby README include usage instructions
+Up rspec version
+JRuby license headers
+JRuby README
+Handle OnSubscribeFuncs correctly in JRuby interop logic
+JRuby performance test
+JRuby wrapper specs
+Implement JRuby function wrapping support
+update completeness test
+use Tuple instead of Timestamped
+remove takeWhileWithIndex
+rename fold to foldLeft
+improve scaladoc
+changes from review + scaladoc improvements
+head, headOrElse, zip(3), zip(4)
+apply review patch
+make defer implementation more explicit
+implicit function conversion hack just for nicer scaladoc
+allow to construct Observables ina similar way as futures
+Added missing license header
+Added MSDN links
+Implemented the 'Empty' operator with scheduler
+update TODO
+make all constructors private
+TestScheduler example
+add exists and isEmpty
+Optimize for 'count == 0'
+Updated the comments
+Implemented the 'SkipLast' operator
+Scheduler and TestScheduler
+work on Schedulers
+start TestScheduler
+javadoc -> scaladoc translation
+update README and TODO
+improve scaladoc
+add rx.lang.scala.concurrency.Schedulers
+put unapply of Notifications into companions
+scaladoc for Observer, Subject, Scheduler, and
+Add one more unit test
+Implemented the 'Contains' operator
+Timestamped and its companion can now have the same name
+Version 0.14.2
+[Gradle Release Plugin] - new version commit:  '0.14.3-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.14.2'.
+update counter before triggering latch
+Removed static variant of refCount
+work around scalac bug by renaming companion object `Timestamped` to  `TimestampedObject`
+remove `implicit` from Timestamped
+Opening/Closing, Timestamped with unapply, BlockingObservable with WithFilter
+make Subscription an implicit value class
+how to add RxJava core to scaladoc input
+move MovieLibUsage.java from project rxjava-scala-java to project rxjava-scala and delete project rxjava-scala-java
+move examples from `src/main/scala` to `src/examples/scala`
+add Documentation section to README
+Implemented 'Synchronize' with 'lock'
+do not run RxScalaDemo on each build,
+Implemented publishLast
+Minor tweak
+Removed classes dir
+Finished RefCount - all tests pass
+Used 'isInstance' to replace 'isAssignableFrom' and added a unit test
+Used 'cast' to remove SuppressWarnings
+Implemented the 'ofType' operator
+Added a klass parameter
+Added the MSDN link
+Implemented 'cast' operator
+Update README.md
+Update README.md
+Version 0.14.1
+[Gradle Release Plugin] - new version commit:  '0.14.2-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.14.1'.
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Create README.md
+Version 0.14.0
+Implemented the 'DefaultIfEmpty' operator. See #34
+[Gradle Release Plugin] - new version commit:  '0.14.1-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.14.0'.
+0.14.0-SNAPSHOT
+Update CHANGES.md
+Removing 'comparator` overloads of `distinct`
+Added missing license header
+Change 'any' to 'isEmpty'/'exists'
+[Gradle Release Plugin] - new version commit:  '0.13.6-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.13.5'.
+Observable API for Apache HttpAsyncClient 4.0
+delete comparison.md because tooltips do not work on github
+add Scala/Java Observable comparison
+add markdown export to CompletenessTest
+update Scala TODO list
+add combineLatest, apply(java Future), remove docu without impl
+add mergeDelayError and flattenDelayError
+add `parallel` and example
+add concat, length, retry; rename replay()->replay, merge->flatten
+add distinct and distinctUntilChanged, but
+first and firstOrElse
+add methods and examples
+add merge operation and examples
+Version 0.13.4
+[Gradle Release Plugin] - new version commit:  '0.13.5-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.13.4'.
+0.13.4-SNAPSHOT
+Change Interval and Sample default Scheduler
+Reorg fields
+Making Observable.synchronize an instance method rather than static
+Parallel Operator
+Adding marble diagrams
+Adding marble diagrams
+add zipWithIndex, sum, product, and an explanation why no average
+all move explanations why methods are not present in Observable to CompletenessTest
+completeness test now also checks static methods
+extract static methods in completeness test
+completeness test for instance methods in Scala adaptor
+Version 0.13.2
+[Gradle Release Plugin] - new version commit:  '0.13.3-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.13.2'.
+Implemented the 'elementAt' and 'elementAtOrDefault' operators. see #41
+remove scalatest packages from OSGI imports
+start completeness test
+add methods to BlockingObservable
+add multicast, publish, replay
+use Java Subject<T, R> as contravariant in T and covariant in R
+add comment to ImplicitFunctionConversions and reformat it
+move ImplicitFunctionConversions out of internal package
+finish groupBy example
+more examples/tests in RxScalaDemo
+make Olympics example data timed
+Follow the correct logic of 'any' operator. See #385
+Solve the conflict of 'any' method name in unit tests
+Add 'any' operator to Observable
+update scala README
+Implemented the 'any' operator
+start groupBy examples
+first Scala groupBy implementation
+Removing deprecated RxImplicits from rxjava-scala
+simplified error handling as this is already done on the outside
+implemented mapWithIndex
+added tests against multiple subscriptions, just to be on the safe side
+added comparator versions of distinct operation, too
+added both new variants to observable
+added test against comparator usage
+initial introduction of an equality comparator into distinct implementation, still needs test
+wrapped subscription so that interval works for multiple subscribers and added a test for staggered subscriptions with publish/connect, too
+added another test against multiple staggered subscribers
+added missing mock
+added test with multiple subscribers
+Version 0.13.1
+[Gradle Release Plugin] - new version commit:  '0.13.2-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.13.1'.
+UnitTests while working on EventStream use cases
+add license headers
+add more methods and type aliases
+update README
+TODO list for Scala adaptor
+complete WithFilter
+mark RxImplicits and RxImplicitsTests as old
+restore old RxImplicits and RxImplicitsTests
+added javadoc comments to Observable.distinct
+implemented distinct operator
+add apply() which takes Java Observable
+fixed javadoc descriptions in the operator
+BlockingObservable: add foreach and make it extend AnyVal
+remove sleep() from RxScalaDemo
+refactor package structure
+fixed all the javadoc build warnings
+Added distinctUntilChanged member methods to Observable
+added methods taking key selectors
+initial version of a distinctUntilChanged operator
+a few warnings, javadoc, and one missing scheduler parameter
+add debounce/throttle methods
+fix reduce to work with new no-wildcards Java reduce
+Version 0.13.0
+[Gradle Release Plugin] - new version commit:  '0.13.1-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.13.0'.
+0.13.0-SNAPSHOT
+Simplify reduce/scan generics
+replace cast in window() by ascription
+add a int-version of buffer and window...
+add operation merge (as instance method)
+add usability tests
+IntervalDemo
+Java example using Scala Observable code
+Operator: Retry
+Change zip method signature from Collection to Iterable
+Javadoc with images
+Remove covariance of scan/reduce since consumer/producer are the same <T, T, T>
+Use 'debounce' as proper name for ThrottleWithTimeout which unfortunately is the poorly named Rx Throttle operator.
+Operators: throttleWithTimeout, throttleFirst, throttleLast
+refactoring package structure
+(does not compile!) refactoring of package structure
+RefCount work in progress
+RefCount work in progress
+add methods to Scala Wrapper (7)
+make dematerialize infer everything
+add methods to Scala Wrapper (6)
+get rid of wrapper around Observer
+Update javadoc for throttleWithTimeout
+Update javadoc for throttleLast
+Operator: throttleFirst
+Operator: throttleWithTimeout
+additions to tests
+unit tests for covariance
+Vararg change unit tests in Groovy
+Observable.mergeDelayError: refactor varargs to overloads
+Generic covariance of concat.
+Observable.startWith: refactor varargs to overloads
+Observable.merge: refactor varargs to overloads
+Observable.concat: refactor varargs to overloads
+Observable.from: refactor varargs to overloads
+Update README.md
+Update README.md
+Create README.md
+add Observer wrapper to make subscribe(Observer[T]) work
+Added link urls to the msdn descriptions
+Added FirstOrDefault operation
+Added the two variants of the first operator.
+removed unused imports
+added interval methods to Observable, where they were still missing
+implemented skipWhile and skipWhileWithIndex (#80)
+implemented average operation (#25)
+added test against long sum, too (#83)
+added sum operations
+implemented count operator (#32)
+Take Operator Error Handling
+Version 0.12.1 and 0.12.2
+[Gradle Release Plugin] - new version commit:  '0.12.3-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.12.2'.
+adding Func5-9 and N to the wrapper
+add methods to Scala Wrapper (5) (window)
+add methods to Scala Wrapper (4)
+[Gradle Release Plugin] - new version commit:  '0.12.2-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.12.1'.
+add methods to Scala Wrapper (3) and find interesting questions
+work around scalac bug by giving explicit type parameter to Observable constructor
+work around scalac bug by removing `extends AnyVal`
+removed a few unused imports
+Pulled in all the changes from master that happened in the meantime...
+add methods to Scala Wrapper (2) and find scalac bug
+add methods to Scala Wrapper (1)
+set up stubs for Scala Observable and its testing
+Version 0.12.0 Changes
+Version 0.12.0
+[Gradle Release Plugin] - new version commit:  '0.12.1-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.12.0'.
+0.12.0-SNAPSHOT
+made the public window methods more generic via the basic (lol) super/extends fluff; also simplified api by removing a few useless super definitions (there's no super of Opening and Closing)
+removed raw Func0s from the chunks
+made WINDOW_MAKER typed
+SwitchDo
+Cleanup Javadocs
+BlockingObservable Refactor
+Remove unnecessary Observable constructor
+Update Clojure interop to support new OnSubscribeFunc with rx/fn.
+Change OnSubscribeFunc.call to OnSubscribeFunc.onSubscribe
+Adding implicit for OnSubscribeFunc
+Add OnSubscribeFunction and refactor to support it
+[Gradle Release Plugin] - new version commit:  '0.11.4-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.11.3'.
+removed some <? super Throwable>s because that's rather unnecessary
+Version 0.11.2
+Version 0.11.2
+Version 0.11.2
+[Gradle Release Plugin] - new version commit:  '0.11.3-SNAPSHOT'.
+[Gradle Release Plugin] - pre tag commit:  '0.11.2'.
+Scala 2.10.+
+Update to Gradle 1.6 to match what was already in RxJava, but this version hasn't been tested thoroughly.
+Move githubProjectName earlier and set explicitly.
+added a few 'compiler' tests
+generalized BlockingObservable and the execution hook further
+Generalized all the operators, too
+added an unnecessary explicit cast because the Jenkins java compiler is unhappy otherwise?
+Timestamped, Notification and Future are now also treated as covariant
+generalized everything in Observable that deals with covariance of observables
+adapted RxImplicits tests againt zip to new generics order, renamed two more reduceFunctions to zipFunction
+Zip: Order of Generics and Artities 5-9
+Need to stay pinned on Scala 2.10.1 still …
+UnitTest confirming compilation failure without super/extends and success with them.
+Make Materialize.testMultipleSubscribes test deterministic
+Improve determinism of GroupBy.testUnsubscribe
+Improve testRecursiveScheduler2 determinism
+Improve testNoBufferingOrBlockingOfSequence determinism
+RxJavaPlugin Unit Tests
+updated to Scala 2.10.2 again, repaired Scala tests, generalized two more zip methods
+Make DummyObservable visible to clojureTest classpath.
+lots of Observer<? super X>
+added variance to Action*, too
+added variance to all other Func*; this breaks Scala for good, it seems, as long as Observable remains invariant
+added variance to Func2, too
+added variance to Func1 (hopefully) everywhere...
+making Func0 covariant in its return type, cleaning up a few warnings, removing a bit of unused code
+Update README.md
+Version 0.11.1
+Gradle Release Plugin - new version commit:  'rxjava-0.11.2-SNAPSHOT'.
+Gradle Release Plugin - pre tag commit:  'rxjava-0.11.1'.
+Preserve metadata on fn and action macros
+Version 0.11.0
+Update README.md
+Update README.md
+Version 0.10.1
+Gradle Release Plugin - new version commit:  'rxjava-0.11.1-SNAPSHOT'.
+Gradle Release Plugin - pre tag commit:  'rxjava-0.11.0'.
+Scala 2.10.1
+0.11.0-SNAPSHOT
+Gradle Release Plugin - pre tag commit:  'rxjava-0.11.0'.
+0.11.0-SNAPSHOT
+Comment on 'provided' scope
+Gradle Release Plugin - pre tag commit:  'rxjava-0.11.0'.
+Improve unit test determinism
+License/Copyright Headers
+Clojure Examples
+Organize Imports
+Javadoc Cleanup
+Update rxjava-clojure adaptor.
+Adding mavenLocal() for local resolution
+Remove subscribe(Map<String, Object>)
+Make Functions.from typesafe
+Added dummy Clojure class and stopped compiling Clojure examples to get rxjava-clojure JAR generation unblocked
+repaired rxjava-swing to work with new scheduler and observable api
+Reactivated the rxjava-core tests
+re-added combineLatest methods that got lost due to too optimistic super/extends generics
+Move Observable UnitTests
+Observable API reduction
+0.11.0-SNAPSHOT
+Groovy ExtensionModule to support groovy.lang.Closure
+Remove repetitive Scheduler overloads.
+Action interfacesAction Marker Interface
+Cleaning up rxjava-android build.gradle
+Remove FunctionLanguageAdaptor from rxjava-core
+Cleaning up rxjava-swing
+Removing Java GroovyAdaptor - will be replaced by Groovy idiomatic version
+Removing Java ClojureAdaptor - will be replaced by an idiomatic Clojure version
+Removing JRuby adaptor (temporarily)
+Reworked Scala adaptor to use implicits in RxImplicits, rather than code generation
+Make rxjava-core typesafe
+Update README.md
+Update README.md
+Create README.md
+Gradle Release Plugin - new version commit:  'rxjava-0.10.2'.
+AtomicObservableSubscription to SafeObservableSubscription
+Gradle Release Plugin - pre tag commit:  'rxjava-0.10.1'.
+Upgrade to Robolectric 2.0 and remove all the things...
+Removed the exclude from the javadoc task as it was breaking javadoc generation from the projects root folder
+Moved sources under main android package. Excluded the test support package from being included when building a jar or generating javadoc Javadoc comments added
+Add empty .gitignore file so that git checks out the values folder
+Reduce duplication by making "schedule now" the special case
+Add unit tests for HandlerThreadScheduler
+Add support for running Robolectric tests
+Expose main thread scheduler through AndroidSchedulers class
+Add HandlerThreadScheduler which schedules actions on an Android Handler thread
+Add rxjava-android build module + config
+Version 0.10.0
+Gradle Release Plugin - new version commit:  'rxjava-0.10.1-SNAPSHOT'.
+Gradle Release Plugin - pre tag commit:  'rxjava-0.10.0'.
+0.10.0-SNAPSHOT
+Remove thread.sleep from unit test to speed it up
+Test with Error instead of RuntimeException
+Add Error propagation now that we use Throwable.
+Change hasException to hasThrowable
+Rename exception to throwable to be clear
+OnExceptionResumeNext
+Change onError(Exception) to onError(Throwable)
+Clarify unittest for observeOn with ImmediateScheduler
+Remove assertTrustedObservable
+Better handling of map function errors
+Rename AtomicObserver to SafeObserver
+Version 0.9.2
+Gradle Release Plugin - new version commit:  'rxjava-0.9.3-SNAPSHOT'.
+Gradle Release Plugin - pre tag commit:  'rxjava-0.9.2'.
+handle multiple onError calls
+fix for case where resume is async and original is still emits events after onError
+Various Javadoc improvements and corrections.
+Remove stray HEAD line
+typos
+Ensure time is always updated
+adding marble diagram to combineLatest() javadoc
+Improved buffer operation test cases with checks for empty buffers.
+Trying to get rid of the Gradle warnings.
+Gradle Release Plugin - new version commit:  'rxjava-0.9.2-SNAPSHOT'.
+Gradle Release Plugin - pre tag commit:  'rxjava-0.9.1'.
+Version 0.9.1
+Update Observable.isInternalImplementation, get rid of NullPointerException
+Added JavaDoc and moved public helper classes of OperationBuffer class to rx.util package.
+Adding zip(Ob<Ob<?>>)
+diagram & description of combineLatest() operator
+Changed default scheduler used in buffer operation and removed printStackTrace call
+javadoc interlinkings and other javadoc improvements
+defer gets a diagram & javadoc + lots of javadoc changes in Observable
+Add javadoc comments to individual OperationFoo files
+Unit testing what happens when the number of arguments doesn't match the number of observables.
+New BlockingObservable-specific diagram legend
+Add zip of a collection of Observables
+Give unit test some room for scheduler variability
+Add Object overloads for dynamic language support.
+GroupBy unsubscribe logic
+GroupBy GroupedObservables should not re-subscribe to parent sequence
+Synchronize terminalState and subscription logic
+Javadoc changes
+Editing javadoc comments
+Throw if no onError handler specified
+Common approach for IllegalArgumentException on subscribe methods
+Prevent direct instantiation of BlockingObservable via no-arg constructor
+Commentary on constructing an Observable
+Add to marble diagrams
+Added license header to OperationBuffer.
+Added static create methods to BufferOpenings and BufferClosings.
+Restored static imports in Observable.
+Initial implementation and wiring of the buffer operators.
+Diagrams and some new docs for Observable subclasses
+adding several marble diagrams
+Version 0.9.0
+Version 0.9.0
+Gradle Release Plugin - new version commit:  'rxjava-0.9.1-SNAPSHOT'.
+Gradle Release Plugin - pre tag commit:  'rxjava-0.9.0'.
+0.9.0-SNAPSHOT
+Move forEach to BlockingObservable
+Commenting out exclude until Scala build can be resolved
+Remove javadoc warnings
+stop using deprecated method
+exclude unit tests from jar
+Remove SLF4J dependency
+Merging OperationSwitch with new class location
+Add new unit test to check for non-blocking.
+Revert "Add new unit test to cover infinite observable being the first sequence."
+Add new unit test to cover infinite observable being the first sequence.
+Replaced tabs with spaces.
+Switch operator should now propagate onError in subsequences.
+README on internal nature of rx.operators package
+Make unit test more deterministic
+Rewrite concat operation to not block on subscribe
+Migrating from 'toObservable' to 'from' and using toBlockingObservable() where needed
+Deprecating 'toObservable' duplications of 'from' methods
+Move blocking operators to BlockingObservable
+Moving "implementation detail" classes out of public API
+Tried to adapt according to Ben's review comments.
+Gradle Release Plugin - new version commit:  'rxjava-0.8.5'.
+Gradle Release Plugin - new version commit:  'rxjava-0.8.4'.
+fix concurrency bug in ScheduledObserver
+improved generics for combineLatest (PECS principle)
+Added a helper for computing relative mouse motion.
+Got rid of the last remnants of synchronization in favor of a concurrent map.
+Update README.md
+added combineLatest static methods to Observable
+handled combine functions that throw exceptions and added a test against this case
+Improved key press observable to filter out events of type KEY_TYPED completely.
+Version 0.8.2
+Gradle Release Plugin - new version commit:  'rxjava-0.8.3'.
+change from junit to junit-dep
+fixing strange compilation problems by specifying the packages directly
+a few minor cleanups, renamings, javadoc additions
+Added observables for component events.
+Gradle Release Plugin - pre tag commit:  'rxjava-0.8.2'.
+Removing SynchronizedObserver usage from Subject implementations.
+moved SwingObservable into the rx.observables package
+remove debug statements from unit tests
+Re-order count increment to make unit tests deterministic
+Cache operator
+Replay operator on Observable
+Publish operator on Observable
+added a missing license header
+Added basic mouse event observables.
+Added observable for all currently pressed keys
+fixed method signatures and respective javadocs of various aggregate/reduce/scan overloads
+Removed synchronized block as per RxJava guidelines (6.7).
+Improved documentation of the BehaviourSubject.
+Reverted changes to junit and mockito imports in the Observable class.
+Cleaned up imports and removed unnecessary final keywords in the OperationThrottle class.
+Added support for the switch operation.
+No longer using Notification<T> for scheduling throttled events.
+Ensure static star imports are used for test cases.
+Switched away from using take and skip again due to concurrency issues.
+Created and wired an implementation for the throttle operation on Observables.
+Also added aggregate (alias for reduce, see issue #20).
+also adapted type signatures of the reduce methods
+found drop (it's called skip here...) - finished with generalizing scan
+trying to generalize scan, however drop is still missing...
+Created the initial implementation of BehaviorSubject
+Added filtering for key codes.
+Added key events as source for Swing observables.
+Removed some unused code, fixed some (Eclipse) warnings
+Cleaned up all empty `@return` tags, too.
+Moved Swing observables to new subfolder `rxjava-contrib` after merge.
+Renamed `extensions` to `rxjava-contrib`.
+Added some api documentation.
+Refactored implementation out from SwingObservable, as there will probably be lots more methods in the long run.
+Allow creating observables from `AbstractButton`s.
+Increased test delays.
+Tested whether the actions are really executed in the EDT.
+Created `extensions` subdirectory for non-core additions to RxJava and moved `SwingScheduler` into a new subproject `rxjava-swing`.
+Added tests against periodic scheduling. I hope the delays are stable yet fast enough...
+Update CHANGES.md
+Implemented periodic scheduling, too. Needs testing now.
+Added sample methods to observable.
+Added `timestamp` method to `Observable`, too.
+Version 0.8.1
+Gradle Release Plugin - new version commit:  'rxjava-0.8.2-SNAPSHOT'.
+Gradle Release Plugin - pre tag commit:  'rxjava-0.8.1'.
+Observable.toFuture
+Initial implementation of AsyncSubject
+Removed superfluous null check
+added copyright text to Timestamped class, added timestamp operation, reusing mapping
+Added toString to Timestamped
+Added value class wrapping timestamped values
+fixed formatting and removed superfluous checks
+minor renaming and removing unnecessary warning suppression again
+Add flatMap alias to mapMany
+Removed unused imports.
+switched OperationInterval implementation over to use periodic scheduling
+Tested unsubscription, too
+adapted SwingScheduler to new Scheduler interface
+added missing linebreak
+taken over default recursive implementation
+fixing the scheduler methods to fit the new pattern
+manually merging master in...
+Version 0.8.0
+Gradle Release Plugin - new version commit:  'rxjava-0.8.1-SNAPSHOT'.
+Gradle Release Plugin - pre tag commit:  'rxjava-0.8.0'.
+0.8.0-SNAPSHOT
+Rename from Operator* to Operation* to match convention
+Rename DefaultSubject to PublishSubject
+Update TestScheduler to match merged Scheduler changes
+CurrentThreadScheduler updates.
+ObserveOn and SubscribeOn concurrency unit tests
+Priority of the delayed actions in CurrentThreadScheduler
+Refactor test to use CountDownLatch instead of Thread.sleep
+Implement Scheduler method with dueTime
+Add unit tests for recursive scheduler usage
+Change Scheduler implementations to use primary methods
+Add CompositeSubscription
+Trying to fix a build
+Non-blocking implementation of ScheduledObserver
+Blocking implementation of ScheduledObserver
+Corrected naming Operator -> Operation
+Moved state to Observer from Observable
+Passing status to Artifactory builds
+Verify before we can't take it back, use preferredVersion variable
+Removed annotation
+Added support for sever connect method calls
+Unit tests for multicast
+Multicast implemented
+Playing with Subject and ConnectedObservable
+initial attempt at implementing periodic schedulers as discussed in #228, needs some testing next...
+Added a unit test against the sample operator
+Switched sample from internal clock to using the interval operator
+An unsubscribed AtomicObservableSubscription.wrap() unsubscribes its argument.
+Trying to extend the Scheduler interface according to the comments at #19.
+Added a scheduler for scheduling actions on the Swing event thread.
+First attempt at "sample" operator. Should probably use "interval" operator instead of an internal clock. Also still needs tests!
+Oops, the test scheduler has to go into the main sources.
+Switched to a default scheduler that actually works together with this operator.
+Added a TestScheduler which collects actions in a queue and has adjustable time.
+Initial implementation for interval (#55). Needs a test scheduler...
+Handle unavailable sonatype properties
+avoiding some synchronization on combineLatest
+Version 0.7.0
+Gradle Release Plugin - new version commit:  'rxjava-0.7.1-SNAPSHOT'.
+Gradle Release Plugin - pre tag commit:  'rxjava-0.7.0'.
+0.7.0-SNAPSHOT
+Removing Scheduler overloads on operators (for now)
+Use long instead of int
+Name the NewThreadScheduler threads
+Set threads to daemons so they don't prevent system from exiting
+Basic unit tests
+Tweaks to Executor/ExecutorScheduler/IOScheduler and Javadocs
+Make ForwardingScheduler Internal
+Consolidating ExecutorScheduler and ScheduledExecutorScheduler
+Formatting to match codebase
+Keeping ScheduledObserver out of public API
+Gradle Release Plugin - new version commit:  'rxjava-0.6.4-SNAPSHOT'.
+Gradle Release Plugin - pre tag commit:  'rxjava-0.6.3'.
+Version 0.6.3
+RxJavaObservableExecutionHook
+1.  Update javadoc on subscribe() blocking if observables are running on the same thread. 2.  Add test case with infinity observable. 3.  Add test case to unsubscribe() with all observables running in different thread (non-blocking).
+added threadPoolForComputation and threadPoolForIO schedulers
+Removed SleepingAction from Abstract scheduler. ExecutorScheduler throws exception for the delayed action.
+Gradle Release Plugin - new version commit:  'rxjava-0.6.3-SNAPSHOT'.
+Gradle Release Plugin - pre tag commit:  'rxjava-0.6.2'.
+0.6.2-SNAPSHOT
+Gradle Release Plugin - pre tag commit:  'rxjava-0.6.1'.
+Version 0.6.2
+Make uploadMavenCentral task, that encompasses other tasks
+Automatically aggregate and publish docs (java,groovy,scala)
+Matching wrapper to 1.5
+Upgrading release process
+Simplified ImmediateScheduler
+Trying to fix non-deterministic test
+Restrict identification of "internal" operators to only the rx.operators package
+Protect subscribe/forEach implementations against user provided function failures
+Improve error handling of user provided Observers
+TakeWhile protect calls to predicate
+Resolve merge conflicts
+Add unit tests to PublishSubject
+Beef up UnsubscribeTester some more
+Beef up UnsubscribeTester
+Extract UnsubscribeTester to top level
+Implement RepeatSubject
+Small reorganization of code for OperationTake and TrustedObservableTester
+Introduce Subject as analogue to RX ISubject
+Rename Subject to PublishSubject
+take(0) subscribes to its source
+Incorporate review feedback.
+Implement TrustedObservableTester.assertTrustedObservable()
+Incorporate review suggestions.
+Split Take and TakeWhile
+Add tests to demonstrate bugs
+Remove use of JSR 305 and dependency on com.google.code.findbugs
+Whoops, generics not allowed in @see javadoc...
+Using latest features of release plugin
+Add sonatype snapshot repository
+An attempt at implementing the correct combineLatest semantics. The tests do pass again now (they had to be adapted too).
+made 'next' more typesafe
+updated a test and added another one, trying to get the expected behavior right
+Failing test case to show Observable.toList breaks with multiple observers due to sharing of the buffer list
+Use newer version of license-gradle-plugin that fixes skipExistingHeaders field
+Reimplementation of Concat, improved handling of Observable<Observable<T>>.
+Move gradle-release dependency to bintray
+Switching to bintray for dependencies (same as Maven Central)
+Upgrading to Gradle 1.4
+Update codequality/checkstyle.xml
+Added groovy test
+Updated Observable API
+Implemented all operation
+Whitespace
+Extracted ScheduledObserver as a separate class
+renamed tests
+Documenting code
+Some documentation
+ObserveOn/SubscribeOn unit tests
+Headers
+More tests
+Added to Schedulers
+Added ScheduledExecutorServiceScheduler
+Call complete on take/takeWhile observables once the predicate is true.
+Failing test case to show bug in takeWhile
+Incoporate review suggestions.
+Added nonstatic Observable.finally0
+Missing import
+Add finally0 to Observable.java .
+New operation Finally (issue #43)
+Add communications links
+Convert README to Markdown
+Add pointer regarding unit tests as inner classes
+Naive schedulers implementation
+added where operation to Observable
+implemented OperationWhere
+Version 0.6.1
+updates dematerialize so can chain correctly
+more thorough error handling in case Func1 implementation itself fails
+add try/catch in example to better demonstrate error handling
+gracefully handle null subscription on trusted onSubscribe the same as non-trusted already does
+Note on versioning on road to 1.0
+0.6.1-SNAPSHOT
+update clojure and groovy code to subscriptions changes
+Subscriptions cleanup
+Version 0.6.0
+Confusing Javadoc for `toObservable(Future)` methods
+Add 'Fragment-Host' to submodules for OSGi
+Convert 'last' from non-blocking to blocking to match Rx.Net
+Groovy VideoExample improvements
+Set unsubscribed true
+Version 0.5.5
+0.6.0-SNAPSHOT
+Subscriptions utility class and rx.subscriptions package
+Add OSGi manifest headers
+Cleanup various compiler warnings.
+making sequenceEqual private methods public
+bulk import organize and code formatting
+Move GroupedObservable to rx.observables
+0.5.6-SNAPSHOT
+Refactor to eliminate need of delegate methods for GroupedObservable
+Removed static methods delegations
+Refactored Iterator implementation out of Observable into OperatorToIterator
+copyright update
+Updated Observable API
+Concurrency improvements
+Draft group by implementation
+Cleaned up comment
+Refactored TakeUntil to use TakeWhile.
+Updated logic to match Rx.NET
+optimize imports
+updated dematerialize unit tests to use mockit
+unit test for OperationDematerialize
+added dematerialize api to observable
+implemented OperationDematerialize
+Unsubscribe behavior.
+Implemented Defer Operation
+Implemented GetIterator operation
+Updated Observable API
+Unit tests for MostRecent Operator
+Basic MostRecent implementation
+Reimplemented Last operation
+Refactored TakeUntil operator
+0.5.5-SNAPSHOT
+0.5.4
+don't throw exception on iterator.hasNext()
+Add unit test testNoBufferingOrBlockingOfSequence
+Renamed variable
+Updated Observable API
+Implemented Operation Next
+Update README.md
+Implemented lastOrDefault
+Updated single/singleOrDefault according to review request
+Implemented single and singleOrDefault methods
+Static method plus javadoc
+Implemented toIterable method
+Change target compatibility from 1.5 to 1.6
+Tests for TakeUntil
+Basic takeUntil implementation
+Cleaned up copy-paste in merge code
+fix links
+0.5.4-SNAPSHOT
+Version 0.5.3
+mark the thread as interrupted again
+removing unused verifications
+add a comment so it doesn't look like this was left empty by accident
+forEach with Action1 but not Observer
+Operator: ForEach
+add error handling for onNext failure so exceptions don't get thrown up the stack but instead via onError
+merge Operator TakeWhile pull request
+javadocs
+play with tests in clojure -- still not hooked up or actual tests
+Add IntelliJ Idea support to Gradle build
+fix javadocs - cleanup some warnings
+Used mockito's inOrder to verify ordering instead of hand-written stub
+Version 0.5.2
+0.5.3-SNAPSHOT
+0.5.2-SNAPSHOT
+RxJavaErrorHandler Plugin
+example (as test) of closure versus map
+fix grammar and add success log
+styling: new line at the end of the file
+Added ordering unit test
+Added takeLast to Observable
+TakeLast basic implementation
+Implemented sequenceEqual method
+Implemented range operator
+Update language-adaptors/rxjava-scala/README.md
+Update language-adaptors/rxjava-jruby/README.md
+Idiomatic usage of import in ns macro.
+Adapt Groovy VideoExample to Clojure
+Create CHANGES.md
+Update language-adaptors/rxjava-scala/README.md
+Update language-adaptors/rxjava-jruby/README.md
+Update language-adaptors/rxjava-groovy/README.md
+Update language-adaptors/rxjava-clojure/README.md
+Update language-adaptors/rxjava-clojure/README.md
+Update language-adaptors/rxjava-scala/README.md
+Renamed takeWhile with Func2 parameter to takeWhileWithIndex
+Restoring null check removed in recent commit
+remove warnings and cleanup
+restore performance optimization to reduce wrapping
+clojure project build config
+remove rxjava-examples submodule
+groovy example code
+clojure example code
+README to explain unit tests
+remove rxjava-examples
+migrate unit tests for Groovy to separate Groovy file
+Code cleanup
+Update README
+Restored javadoc
+Unit tests for take while
+TakeWhile support for predicate with index
+Basic take-while implementation
+clean-up
+Remove scala from rxjava-examples
+Eclipse build config
+scala is building
+Commenting out non-deterministic portion of unit tests
+scala support in examples
+Minor cleanup of Clojure example.
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update gradle.properties
+Update gradle.properties
+Update gradle.properties
+Update gradle.properties
+Create CONTRIBUTING.md
+Create README.md
+Update README.md
+Update README.md
+Update README.md
+updating jruby and scala builds
+Update README.md
+dependency management
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Create README.md
+fix package names for imports
+make Observable constructor arg optional so unit tests can just override subscribe for simpler code
+fix warning
+removing .observables package so main classes are just rx.*
+performance test classes
+clean example so it shuts down correctly
+synchronization and contract refactoring
+more examples
+Update comment in Observable for concat.
+Update the javadoc
+Add overloaded methods and unit tests for list<observable<T>> and Observable<Observable<T>>.
+adding more details about how the toObservable behaves.
+builds for each language and examples
+example code as part of "How to Use"
+factory method createSubscription from Action0
+Update example with two observables.
+Add the new Operation Concat
+adding support for also get time outs.
+Start of examples with clojure and groovy
+Change NullObservableSubscription to NoOpObservableSubscription
+ignore Scala .cache folder
+IDE support
+fixing compile issues after core refactoring
+make scala build fork so it gets its own JVM args
+upgrade from Gradle 1.1 to 1.3 to support needed Scala features
+removing the dependency on groovy
+Adding a draft of Subject class https://github.com/Netflix/RxJava/issues/19
+Creating toObservable for Future
+Format code, delete test classes
+Performance refactoring: OperatorSubscribeFunction
+Refactoring towards performance improvements
+Performance optimizations for dynamic function execution.
+Refactoring name-space to remove 'org'
+Adding code for scala adaptor (initial implementation)
+Update README.md
+update language adaptors to rx.* package
+Change order of generics for Func from R, T to T, R to match C# Rx
+subscribe methods with typed Action arguments
+alias methods "from" for toObservable
+changing package to rx.*
+Support multiple class types for language adaptors
+Remove erroneous create method
+remove 'wrap' functionality
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Version 0.1
+Create README.md
+Create README.md
+Create README.md
+ClojureAdaptor
+Forward from Object to Observer overload
+Javadoc generation
+License headers
+JRuby adaptor
+GroovyAdaptor
+LanguageAdaptor for Function execution
+Add more arities
+Refactoring for consistent implementation approach.
+Rename to Observer/Observable
+Organize imports and format code
+Java 5 compatibility target
+Initial commit
+build settings for rxjava-core
+Initial commit
+Adding provided scope
+Using a better github location
+Putting javadoc and sources into proper confs and setting types
+Add local publishing
+Filling in more pom fields for Sonatype
+Stop relying on maven convention on project
+Changes needed for release plugin
+Setting default name for multi-project
+Using custom build of release plugin, to support building from a branch
+Pointing to a repo in our control
+Release plugin
+Adding cobertura
+Upgrade to Gradle 1.1.
+Enable license header plugin
+Sonatype URL was wrong
+Make one less thing people have to change
+Un-indenting HEADER
+Create branch that contains only build related files
+Use lifecycle to add signing task
+Multimodule builds need a dump signing task
+Remove local testing file
+Avoid signatures in archives unless doing mavenCentral build
+Correct artifacts, moved pom to more visible area
+Restructure into smaller files
+Initial commit, working with Maven Central

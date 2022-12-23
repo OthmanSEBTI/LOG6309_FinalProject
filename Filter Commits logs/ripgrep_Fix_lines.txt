@@ -1,0 +1,62 @@
+Fix typos
+Fix path passed to try_create_bytes()
+Fix minor typos
+Fix printing context after an early return from a search
+Fix invisible file path text in PowerShell (#557)
+[ignore] Fix matched_path_or_any_parents() for patterns ending in slash
+Fix minor grammar issues in docs for `ignore::Walk`
+Fix another bug in -o/--only-matching.
+Fix typo, should be 'mode' instead of 'more'
+Fix reiteration of the first found match with --only-mathing flag
+Fix brew tap sha256 sum.
+Fix interaction with clap.
+Fixes #394 - Added in svg to the types file
+Fix test on Windows.
+Fix leading slash bug when used with `!`.
+Fix homebrew formula
+Fix invalid UTF-8 output on Windows.
+Fix type compose test.
+Fix spacing issue in --help output.
+Fix cut-off line in globset docs.
+Fix a non-termination bug.
+Fix completion build.rs
+Fix leading hypen bug by updating clap.
+Fix bug reading root symlink.
+Fix completion script deployment bundle.
+Fix stdin bug with --file.
+Fix issue number mixup.
+Fix a bug with handling --ignore-file.
+Fixes a bug with --smart-case.
+adding .mak extension for makefile filetype. Fixes #217
+Fixes a matching bug in the glob override matcher.
+Fix bug when processing parent gitignore files.
+Fix debug expression statement.
+Fix docopt usage string. Gah.
+Fix symlink test.
+Fix brew formula name to not conflict with core
+Fix an off-by-one error with --column.
+Fix Windows compilation error.
+Fix tests on Windows.
+[Fixes #46] Use 1 less worker thread than number of threads
+Fix directory whitelisting.
+Fix whitelisting precedence.
+Fix trailing recursive globs in gitignore.
+Fix typo.
+Fix handling of absolute patterns in parent gitignore files.
+Fix an absolute path name bug.
+Fixes #43.
+Fix a bug in the translation from a gitignore pattern to a glob.
+Fixing VC++ wording and link.
+Fix a performance bug where using -w could result in very bad performance.
+Fix error handling bug.
+Fixing, polishing and adding benchmarks.
+Fix off-by-one bug in searcher.
+Fix test that relied on non-deterministic order of results.
+Fix `files` test. What a pain.
+Fix grep match iterator.
+Fix required literal handling and add debug prints.
+Fix glob tests.
+Fix glob problem on Windows.
+Fix yellow color to match ack.
+Fix context writing.
+Fix deps so that others can build it.

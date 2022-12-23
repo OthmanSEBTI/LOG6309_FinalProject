@@ -1,0 +1,92 @@
+Merge pull request #51 from terrytangyuan/bugfix
+Merge pull request #50 from terrytangyuan/master
+Merge pull request #55 from terrytangyuan/issue39
+made results consistent for ts_anom_detection
+made results consistent for vec_anom_detection
+Merge pull request #52 from terrytangyuan/enhancement
+added check for correct type of the input parameter na.rm
+added some Roxygen comments for the added code
+added issues status badge
+added pull-request status badge
+fixed bug and added error handling when there are NAs in timestamp
+added more checks for input parameter max_anoms.
+Merge pull request #38 from owenvallis/master
+adding sudo to travis config
+Minor edit to .travis.yml
+adding commit to trigger build
+adding test for anoms at midnight
+added 'stringsAsFactors=FALSE' to creation of data frames after fix for %Y-%m-%d %H:%M:%S formatting issue. Implements suggested patch for issue #29
+adding tests for constant value time series
+added verbose mode to vec_anom_detection, and changed print to message. Adrresses issue #35
+added verbose mode to ts_anom_detection, and changed print to message
+replacing print with message for debugging
+moved check for constant time series up to where we calc sigma. This checks if it is 0, and breaks out of the ESD loop if True. Addresses issue #36
+adding back tests for NAs from commit b5fbae6
+adding check for nan before testing if R(max anom) is greater then lam(critical value) in detect_anoms. Fix suggested in issue #36
+adding back the timestamp tests from commit f2884a2
+Merge branch 'master' of github.com:twitter/AnomalyDetection
+Fixing the file
+Adding the file back
+Addressing conflict
+Merge branch 'jhochenbaum-master'
+Patch to fix POSIXlt format after using format conversion. See Issue 29. Added additional tests for output anoms timestamp format.
+Merge pull request #30 from jhochenbaum/master
+removing patch which shouldn't have been applied to vec_anom_detection for Issue 29
+Fixed issue when only one timestamp at midnight exists. Fixes Issue #29
+Merge branch 'master' of github.com:twitter/AnomalyDetection
+Merge pull request #27 from owenvallis/master
+Merge branch 'master' of github.com:twitter/AnomalyDetection
+adding NA tests for AnomalyDetectionVec
+Updated detect_anoms to remove leading and trailing NAs before STL, and to stop the code and suggest interpolating for other NAs. Addresses Issue #22
+Merge pull request #26 from owenvallis/master
+Merge branch 'master' of github.com:twitter/AnomalyDetection
+If no anoms are detected in detect_anoms, R_idx now returns NULL. Fixes Issue #24
+Merge pull request #25 from owenvallis/master
+merging fix_daily_data_issue into master
+modified gitignore to ignore r studio files
+Rebuilt docs and removed extra paranthesis in detect_anoms.R from pull request in Issue #20
+    Issue 20:     Issues using daily data with the "long_term" option
+leading NAs are replaced with 0s now instead of 1s. Addresses issue #19
+added comments clarifying that seasonal decomp returns/is used for
+Merge pull request #17 from wrathematics/master
+Merge branch 'master' of https://github.com/wrathematics/AnomalyDetection
+s/T/TRUE/g, s/F/FALSE/g
+added bytecode compiler and removed some unnecessary memory allocations
+Merge pull request #16 from jhochenbaum/master
+perform log scaling in add_formatted_y() instead of using coord_trans()
+Merge pull request #13 from darrkj/master
+oops, add package back to external stringr functions
+spacing and replace = with <-
+non inclusion checks
+spacing
+break line up
+remove list name quotes
+non inclusion checks
+check non inlcusion instead of all false
+cleanup args
+package imports stringr, calls not needed
+use nrow
+make check one step
+more idiomatic
+code cleanup
+Merge pull request #10 from owenvallis/master
+when gran is daily, changed only_last check from \!is.null to is.character
+Fixed Epoch handling
+Merge pull request #7 from adamatw/master
+Update ts_anom_detection.R
+Fix LICENSE reference
+Merge pull request #4 from gsee/patch-1
+Update detect_anoms.R
+Merge branch 'master' of https://github.com/twitter/AnomalyDetection
+Fixed a typo
+Add testthat as a dependency
+Add stringr, lubridate dependencies
+Update README.md
+Updated README.md #2
+Updated README.cmd
+Adding Figures
+Editing the README.md
+Add Travis CI config
+Initial README
+Initial Import
+Initial commit

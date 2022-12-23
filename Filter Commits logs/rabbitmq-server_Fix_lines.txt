@@ -1,0 +1,1305 @@
+See #4842. Fix broken test
+Fixup format check on windows
+Fix the CQ Observer CLI plugin with clusters
+Fix error handling of shovel_management delete/restart shovel
+Fix table layout for terminated shovel status
+Fixup the update-otp-patches.yaml workflow
+Fix keys for route and partitions responses
+Fixup config drift causing the Windows Actions to fail
+Fixup platform references for erlang git master nightly tests
+Fix issue listing amqp 1.0 connections
+Fix badmatch in Web-STOMP initialization
+CQ: Fix channel_operation_timeout_SUITE mixed versions
+CQ: Fix test compilation error following rebase
+CQv2: Fix property suite
+CQ: Fix an xref error
+CQ: Fix prop suite after removal of lazy and other changes
+Fix warning
+Fixup sed expressions in update-otp-patches.yaml workflow
+Fix flaky rabbit_fifio_int:credit tests
+Fix typo in plugins.mk
+Fix MQTT protocol version in MQTT tests
+Fix bug in start-uaa.sh script
+Fix location of script waitTillUAAReady
+Fix wrong folder name
+Fix location of uaa configuration
+Fix logout workflow
+Fix test case oauth_test
+Fix auth_test
+Fix issue related to refreshing access tokens
+Fix two issues
+Fix failing proxy_protocol test
+Fix duplicate credit grant in quorum queue
+Fix typo
+Fix variable references in update-otp-patches.yaml
+Fix a typo in a comment in rabbit_env
+Fix a typo in a comment in prometheus_rabbitmq_core_metrics_collector
+Fix issue where the cluster was wrongly matched
+Fix `badmatch` by taking edge case into account
+Fixup other references to the master branch, which has moved to main
+Fix failing test
+Fix overview graphs in Grafana 9
+Fix dist link graph
+CQv1: Fix failure to recover messages in rare cases
+Fix stream command name
+Fixup version selection in update-elixir-patches.yaml workflow
+Revert "Fixup an accidental backport side-effect"
+Fixup an accidental backport side-effect
+Fix stream queue segment size policy test
+Fix rabbit_index_route inconsistencies
+Fix some formatting
+Fix consumer update key in command table
+Fix sha retrieval in update-otp-patches workflow
+CQ: Fix two accidental state overwrites
+Fixup shell scripting error in update-*-patches.yaml workflows
+Fixup otp minor versions in update-otp-patches.yaml
+Fixup path in actions workflows
+feature_flags_v2_SUITE: Fix typo in "Overring"
+Fixup the source_archive macro in dist.bzl
+Fix mixed version channel crash
+Fix read frame_max and heartbeat parameters
+Fix log format in consistent hash exchange
+rabbit_feature_flags: Fix a stale comment about experimental feature flags
+unit_config_value_encryption_SUITE: Fix log message + add stacktrace
+Fixup the bazel build when used without bzlmod
+Fixup an echo statement in oci.yaml
+Fixup rabbitmqctl build for missing formatters & otp 25
+Fixup the update-rbe-images.yaml workflow
+Fix cluster links statistic
+Fix quorum queue crash when reject with requeue followed by dead-letter
+Fix `rabbitmqctl status` when the disk_free cannot be determined
+Fix unit test
+Fix stream SAC coordinator unit test
+Fix target name in bazel configuration
+Fix test
+Fix typo in bazel configuration file
+Fix stream consumer state change
+Fix stream SAC computation and notification
+Fix stream SAC computation and notification
+Fix condition in oci.yaml workflow attempt 2
+Fix condition in oci.yaml workflow
+Fix handling of osiris with bzlmod
+Fix info(all_keys) for stream queues
+Fix incorrect location of HEX_TARBALL_FILES in deps/amqp10_common
+Fix typo
+CQ: Fix potential crash when collecting stats
+Fix mixed version tests by enabling maintenance_mode_status
+Fix for #4523
+Fix migrate leadership timeout
+Fixed reading SSL settings from rabbitmqadmin config file Fixed reading boolean values from rabbitmqadmin config file
+Fixup the oci.yaml workflow to not be branch specific
+Fix next_seq_id value when none is found in terms
+Fix return value of now_to_str
+Fixup message content in mergify config
+Fix a few small issues reported by dialyzer
+Fix usage of add_uaa_key command
+Fix stream coordinator v1-to-v2 machine state change
+Fix a couple of typo
+Fix eol sending for stream queue
+Fix badmatch when basic.get on quorum queue with expired messages
+Fix 'rabbitmqctl list_queues --help' output
+Fix bug in v1 to v2 conversion
+Fix upgrades from rabbit_fifo_v1 to v2
+Fix dialyzer warning
+Fix failing GitHub action
+Fix next_seq in rabbit_fifo_client
+Fix dialyzer warnings
+Fix rebase onto origin/master
+Fix pipeline
+Fix dialyzer warnings
+QQ Fix invalid_policy test
+CQv2: Fix Dialyzer warnings
+Fix up previous commit
+CQv2 property suite: Fix vhost restart cancelling consumers
+Fix performance regression when stream_queue feature is not enabled
+Fixup an include path for bazel
+Fix color for queues in memory details
+CQ property suite: Fix cmd_basic_get_msg
+Fix a consistency issue in the v1 index after dirty restarts
+CQ v2: Fix infinite loop in convert_to_lazy in rare scenarios
+CQ property suite: Fix race condition after closing consumers
+Fix reading duplicates from index
+Fix incorrect log messages
+Fix resuming v1->v2 conversion during dirty recovery
+Fix v2 backing_queue recover test
+Fix classic_queue_SUITE for OTP < 24
+Fix unused vars warning in classic_queue_SUITE
+Fix v1 CQs issues introduced in previous commits
+Fix remaining tests for CQ v1
+Fix per-vhost store not removing messages
+Fix a couple crashes + add store entry header + CRC32 check
+Fix memory leaks
+Fix channel_operation_timeout test
+Fix remaining tests
+Fix obvious mistakes in previous commit
+Fix recovery with next_seq_id>0 but empty index
+Fix xref errors
+Fix writing to segment files that have been deleted
+Fix wrong value for acks during recovery
+Fix osiris and ra git branches in workspace_helpers.bzl
+Fix issue with fsutil
+Revert "Fix the sha and prefix for bazel-erlang based on the repo rename"
+Fix the sha and prefix for bazel-erlang based on the repo rename
+Fix config example in README.md for rabbitmq_auth_backend_cache
+Fix all uses of file:read_file/1
+Fix tests
+Fix tests
+Fix win32 memory leak by using `raw` file operations. Not ideal but this skips all file servers.
+Fix log level when halting the VM
+Fix win32 memory leak by using `raw` file operations. Not ideal but this skips all file servers.
+Fix log level when halting the VM
+Fix case where confirms may not be sent
+Fix quorum queue crash during consumer cancel with return
+Fix cuttlefish config for oauth2
+Fixup update-rbe-images workflow
+Fixup the "Failed to symlink private_log directory." error in bazel
+Fix description of "deliver" command in RabbitMQ Streams protocol documentation
+Fix metric active value when consuming from a QQ
+Fix use of "RabbitMQ Streams" in protocol documentation
+Fix RabbitMQ Streams protocol documentation
+Fix ssl port handling in prometheus plugin
+Fix persistent message count display in mgmt UI
+Fix binding deletion in duplicate-binding scenarios
+Fix stream coordinator log message
+Fix memory_breakdown for connection procs
+Fix memory leak when using mandatory flag in CQs
+Fix group spec in test
+Fixup workflow syntax for update-* workflows
+Fix typo in UI help hint
+Fix handling of priv dirs for external deps
+Fix a minor github actions copy paste error
+Fixup update-rbe-images.yaml workflow
+Fixup rabbitmq-ct-helpers auto-bump workflow
+Fix workflow syntax
+Fix a typo in rabbitmq-run.sh
+Fix some edge cases in handling ssl information from PROXY protocol
+Fix cross-workflow reference in AWS peer discovery workflow
+Fixup update-otp-for-oci.yaml workflow
+Fixup use of yq in oci workflow
+Fix store offset parameters
+rabbit_boot_state: Fix style bug
+rabbitmq_cli: Fix `maintenance_mode_status` feature flag name
+Fix function_clause error in stream reader
+rabbit_{connection,channel}_tracking: Fix race condition in list()
+Logging: Fix crash when Epoch-based timestamps are used with JSON
+Fix line breaks and add extra info for release notes in 3.9.2
+Fix workflow typo
+Fixup update-rbe-images.yaml
+Fix typo in ensure_safe_call_timeout
+Fix `make docker-image` as executed from the repo root
+Fix channel rate limiter for ack messages
+Fix link of stream docs
+Fix function_clause error in tracking_status/2
+Fix list_stream_publishers additional usage output
+rabbit_web_dispatch_sup: Fix modules list in supervisor spec
+rabbit_mgmt_agent_sup_sup: Fix worker type for the pg group
+Fix accept dependency in rabbitmq_prometheus
+Fix accidental test case skip when not using mixed versions
+Fix link for stream.html
+Fix links
+Fix shard_count for rabbit_stream_queue_SUTIE
+Fix delete_replica bug
+Fixup rabbitmq_federation:queue_SUITE for mixed version testing
+Fixup previous commit
+Fix restart of stream coordinator when there are no stream queues
+Fix handling of `broker_with_plugins` config "flag" under bazel
+Fix build-publish-dev check name
+Fix heartbeater exception exit
+Fix RABBITMQ_IMAGE reference in aws peer discovery workflow
+Fixup deps/rabbitmq_management/BUILD.bazel
+Fixup deps/rabbitmq_management/BUILD.bazel
+Fix test for rabbitmq-ct-helpers change
+Fixup bazel compilation for rabbitmq_stream_common
+Fix recovery when terms are accidentally empty
+Fix properties binary construction
+Fix rabbitmq-components.mk path when publishing to hex pm
+Fix comment
+Fix test_gc_consumers test
+Fix call to deprecated function
+Fix stream protocol open origin
+Fix stream x-stream-offset regression
+Fix some logging statements in stream plugin
+Fix stream test suite
+Fix additional Erlang 24 compiler warnings
+Fix for a compiler warning in Erlang 24
+Fix bats shell testing in RBE
+Fix and refactor amqp_client bazel tests
+Fix stream prometheus test suite
+Fixup rabbitmq_shovel + bazel
+rabbit_env: Fix Bourne shell concatenated literal parsing
+Logging: Fix Cuttlefish schema mappings
+rabbit_env: Fix arguments to the ?LOG_DEBUG format string
+Fix the lack of systemd in certain bazel tests
+Fixup previous commit
+Fix rabbit -> systemd dependency in bazel
+Doc: Fix all errors reported by edoc
+Fix for the consolidation of erlang.mk and rabbitmq-components.mk
+Fix bazel rbe for amqp10_client system_SUITE
+Fix self-referencing recursive make variable
+Fix bazel rbe for amqp10_client system_SUITE
+Fix self-referencing recursive make variable
+Fix variable match
+Fix integration tests to wait until ra cluster is ready
+Fix Makefile for feature_flags_SUITE_data/my_plugin
+Fixup the behavior of rabbit_mnesia:is_virgin_node/0
+Fix Grafana dashboards when importing from URL
+Fix colors for node names that include digits in Grafana dashboards
+Fix the docker image for use with uncompressed plugins
+Fix OPENSSL_PGP_KEY_IDS ENV in Dockerfile
+Fix stream protocol documentation after review
+Fix conserve_resources alarm handling
+Fix notify_decorators and policy notifications
+Fix unused variable
+Fix capture of `application:get_env` return value
+Fix default cluster size config name
+Fix stream prometheus tests
+Fix crash bug in QQ state conversion
+Fixup previous commit
+Fix typo
+tools/terraform: Fix warning reported by Terraform
+Fixup workflow caching (#2678)
+Fixup args for `docker load` in workflows
+Fix failure tests in stream plugin
+Fix metrics table GC test in stream plugin
+Fix some dialyzer warnings in stream plugin
+Fix a job ordering problem in the Erlang git master workflow
+Fixup the Maintenence workflow to keep needed images [ci skip]
+Fix up ci paths broken by previous commit
+Fix small typo
+Fix generation of workflow_sources/deps.yml on darwin [ci skip]
+Fix honeycomb build traces
+Fix dialyzer error
+Fix "byte" validator message.
+Fix unknown type specs
+tools/terraform: Fix warnings reported by recent versions of Terraform
+Fix conflict
+Fix some bad direct connection and channel process leaks on failed upstream connection attempts due to AMQP client timeouts. On long running nodes, these have potential to eventually take down a node on reaching or exceeding the the process limit.
+Fix start offset for first offset consuming
+Fix md linking error
+rabbit_env: Fix parsing of $CONF_ENV_FILE output
+Fix mixed-versions test assertion
+Fix credit flow related HA queue regression
+Fix queue master locator regression
+Fix crash bug when consumers are removed
+Fix stream commands
+Fix transient type handling
+Fix function ordering to restart correctly. Reduce log spam.
+Fix one more timing-sensitive per_user_connection_channel_limit suite test
+exchange_SUITE: Fix format string
+Fix destructuring assignment.
+rabbit_fifo: Fixes for move to lqueue
+Fix typo
+Fix bug in get_metadata function in vhost.erl module.
+Fix parsing of queue arguments on definitions list
+packaging/generic-unix: Fix the way we path files list to tar(1)
+Fixed typo in doc for list_unresponsive_queues
+Fixed typo in doc for list_unresponsive_queues
+rabbit_prelaunch_errors, rabbit_core_ff: Fix style consistency
+Fix frame reading in test
+Fix Erlang cookie when running with Docker Compose on Windows
+Fix mqtt_machine crash bug
+Fix closing sequence
+Fix metric name & description in zdbbl graph, Erlang Distribution
+Fix specific_erlang_metrics_present_test
+Fix a typo spotted by @VVD
+Fix cluster tests
+Fix dialyzer errors
+GitHub Actions: Fix mentions of "rabbitmq-cli"
+Fix typo
+Fix net_timetime typo
+Fix link in documentation
+Fix links in documentation
+Fix rabbit_pbe and rabbit_control_pbe to take credentials-obfuscation 2.0 into account
+Fix several type specs
+Fix dependency
+rabbit_ssl: Fix return value of `get_highest_protocol_version/0`
+rabbit_quorum_queue: Fix type spec
+rabbit_peer_discovery: Fix type spec of lock/0
+rabbit_feature_flags: Fix type specs
+rabbit_amqqueue: Fix spec of list_local_mirrored_classic_without_synchronised_mirrors_for_cli/0
+Fix README build badges
+rabbitmq-plugin.mk: Fix copy-paste error
+QQ: Fix crash bug when reaching delivery limit
+Fix test that was made to fail on purpose
+Fix GitHub Actions workflow badges
+Fix schema sync for parameters
+Fix export using python 3
+rabbitmq-dist.mk: Fix incorrect quoting in install-cli-scripts
+tools/terraform: Fix warnings reported by Terraform 0.12.x
+rabbit_feature_flags: Fix concurrent registry module reload
+feature_flags_SUITE: Fix Lager configuration
+Fix syntax errors
+Fix flaky test - connection tracking is asynchronous
+Fixes race conditions on rabbit_fifo_int
+rabbitmq-dist.mk: Fix `install-cli-scripts` when rabbit is top-level
+rabbitmq-env: Fix indentation
+rabbit_ct_broker_helpers: Fix indentation
+Fix leading tabs
+Fix restart banner by using a default for vhost
+Fix function clause
+Fix timing sensitive test
+Fix QQ dead letter crash
+Fix QQ crash recovery bug
+rabbitmq_prelaunch: Fix all warnings reported by Dialyzer
+Fix setting log level to debug
+rabbit_lager: Fix log level being set from the configuration file
+Fix make target for building Docker image using local RabbitMQ dev
+Fix 0/0 and enable all tests
+Fix upstream Travis CI for rabbitmq-server-ha
+Revert "Fixes a function_clause in httpc:request/5"
+Fixes a function_clause in httpc:request/5
+Fix bad type of result of ack function.
+rabbit: Fix plugins' run_boot_steps() vs. start order
+rabbit_env: Fix an error reported by Dialyzer
+Revert "unit_SUITE: Fix test plugin's dependencies"
+unit_SUITE: Fix test plugin's dependencies
+test/fixtures: Fix mock plugins' dependencies
+Fix QQ PerfTest instance name in Prometheus config
+rabbitmq_prelaunch: Fix xref errors
+unit_inbroker_parallel_SUITE: Fix use of `?config()`
+Fix rabbit_fifo tests after aux eval/tick changes
+Fix misplaced brace
+rabbit_env: Fix typo in comment about Dialyzer
+rabbit_env: Fix Dialyzer warnings
+rabbitmq-dist.mk: Fix concurrent runs of `make {,test-}dist` and `make install-cli`
+Fix queue_metrics references
+Fix a rabbit_mgmt_util extraction leftover
+Fix test by adding hide_server_info to schema
+Fix a couple more inconsistencies in Erlang-Distributions-Compare
+Fix Erlang-Distributions-Compare network panels title
+Fix Erlang-Distributions-Compare title, reset time_options
+Fix typo
+Fix regression where queue exchange rates were too high
+Fix set_parameter command output
+Fix willIsRetained test
+Fixed the lastWillNotSentOnRestrictedTopic test
+Fix queue type split
+rabbitmq-run.mk: Fix generated rabbitmq-server configuration
+Fix test for mqtt.sparkplug_b
+Fix build & identity info metrics
+rabbit_disk_monitor: Fix format string to correctly log an integer
+Fix test that fails when the metric is empty
+rabbitmq-tools.mk: Fix tags counting in `commits-since-release`
+Fix type specification
+Fix test failure message description
+Fix link to exchange details
+Fix typo in description for "stop" command
+Fix switches and help section for log commands
+Stream log for N seconds. Fix line cropping when reading entire log.
+Fix messages redelivered critical threshold on RabbitMQ Overview
+rabbitmq-*test.mk: Fix latest regressions on our side w.r.t *-on-concourse
+Fix erlang_vm_dist_node_queue_size graph
+include/amqqueue.hrl: Fix indentation
+tools/terraform: Fix missing `erlang_git_ref` variable definition
+Fix invalid docker-compose
+Fix premature prometheus dep version bump
+Fix start-brokers / start-cluster make target
+Fix top-level app reference in README config example
+Fix basic.get metrics on Grafana dashboard
+Fix type issues with send_drained message
+rabbit_queue_location_validator: Fix pattern in validate_policy/1
+Fix rate interval for / s metrics
+Fix "like" expression in message selector
+Fix eunit_formatters test dependency resolution
+Fix missed rabbitmq-components.mk update
+Fix bytes prefix symbol
+tools/terraform: Fix use of `$elixir_version` in setup-erlang.sh
+Fix rabbit_fifo tests
+Fix tests by make quorum queue discovery defensive
+Fix prefix msgs types
+Fix function clause in bindings when using CORS headers. Enable OPTIONS method for bulk delete.
+Fix in-memory counters
+Fix issues with forward slashes
+Fix snapshot bug in rabbit_fifo
+RPM: Fix service restart after upgrade
+rabbit_fifo_SUITE: Fix include of `rabbit_fifo.hrl`
+Fix rabbit_pbe for OTP-22
+Fixed rabbitmq-plugins link
+Fix rabbit_fifo poison handling
+Fix channel liveness issue
+Fix a type that caused a Dialyzer warning
+Fix a typo in rabbitmq-components.mk
+Fix a spec that caused two warnings
+Fix another Dialyzer warning
+Fix more Dialyzer warnings
+Fix error when trying to set properties for AMQP 1.0
+Fix many Dialyzer warnings
+Fix many Dialyzer warnings
+wait_command.ex: Fix function clause with validate/2
+Fixed typo
+Fixed typos
+formatters.js: Fix a typo
+Fix errors reported by Dialyzer
+Fix errors reported by Dialyzer
+Fix almost all Flake8/pycodestyle warnings
+Fix basic get message ready count
+Fix dynamic_qq test expectation
+Fix Dialyzer warnings
+Fix compiler warnings
+Fix test setup
+Fixed years in copyright
+Makefile: Fix strftime format for rabbitmq-server-release timestamp
+Fix port in schema
+Fix test to account for new event
+Fix enabled plugin
+Fix rabbit_quorum_queue:status type spec
+Fix merge defaults test, fix warnings
+Fix test for @hostname case
+rabbitmq-run.mk: Fix stop-brokers with NODES > 1
+Fix Maven tests for CI environment
+Fix Maven tests for CI environment
+Fix LDAP evaluation resulting in list of strings.
+Fixing http method to create a shovel
+Fix context restart and use two contexts (TLS and TCP) in rabbitmq-management web dispatch.
+Fix minority calculation
+Fixes #1735: Improve error reporting in rabbitmqctl.bat
+Fix min function to lists:min instead of erlang:min.
+Fix bug in metrics gc
+Fix a potential badmatch error
+Fix a warning
+Fix routing on jump consistent hashing
+Fix function removing extension.
+Fix typo in www/js/global.js
+Fix formatting
+Fix typos in readme
+Fix typo
+Fix demo script. Add rabbit_client client to request token.
+Fixes the "zombie" direct connections, when using Federated Exchanges and forcibly closing the upstream connections. This happens deterministically 100% of the time. The fact that direct connections do not close, causes a process and memory leak on RabbitMQ.
+Fixed quote() breaking 'list' subcommand
+Fix to replace encoded space as '%20' instead of '+'
+Fix syslog config translation tests.
+Fix bug generating AMQP 0.9.1 connection name.
+Fix a typo
+Fix array serialization
+Fix Erlang 19.3 support
+Fix tutorial module to make it work.
+Fix default maximum number of Erlang processes
+Fixed typo
+Fixed typo
+Fix line continuation
+Fix batch file issues with env variables
+lager_forwarder_backend: Fix spec of #state{}
+vm_memory_monitor: Fix spec of get_cached_process_memory_and_limit()
+rabbit_core_metrics: Fix return values of several functions
+rabbit_misc: Fix specs of rpc_call() and get_gc_info()
+worker_pool_worker: Fix set_timeout() specifications
+rabbitmq-components.mk: Fix $(possible_base_rmq_ref) value
+Fix node & rows selector post jQuery 1.12 upgrade
+Fix a typo spotted by xref/Concourse
+Fix a typo spotted by xref/Concourse
+OCF RA: Fix syntax error
+OCF RA: Fix syntax error
+Fix test syntax yet again for /bin/sh
+Fix test syntax for /bin/sh
+Fix remaining tests
+Fixing SetParameterCommand and tests
+Fix tests broken by rabbitmq/rabbitmq_ct_helpers#17
+OCF RA: Fix logging in start notification handler
+OCF RA: Fix test for no node in start notification handler
+Fix tests broken by rabbitmq/rabbitmq_ct_helpers#17
+Fix test errors in OTP 20 due to empty tuple in list
+Fix the rabbit_mgmt_wm_redirect handler
+Fix the rabbit_mgmt_wm_redirect handler
+Fix rabbit_cowboy_redirect and remove unused optional callbacks
+Fix multiple event addition due to auto-refresh
+Fix rabbitmq-plugins enable/disable/set behavior for --online flag.
+Fix types after merge stable
+Fix link so it works with and without a prefix
+Fix Cowboy 1.1 API references spotted by xref
+Fix Cowboy 1.x function calls spotted by xref
+Fix the flag value for queue waiting message paging continuation
+Fixing more cowboy_req API
+Fix dotnet tests.
+Fix a syntas error resulting from a bad merge in formatters.js
+Fix a DEPS merge
+Fix issues uncovered after merging #224
+Fixed typo.
+Fixed typo.
+rabbitmq_aws_config: Fix indent of parse_body_response()
+Fix all -spec()
+Fix test for ha-mode exactly. Requires sync-ing the queues to ensure slave pids are started
+Fix typo: SSH -> SSFix typo: SSH -> SSL
+Fix segmented cache expiration timeouts.
+Fix segmented cache expiration timeouts.
+debian/dirs: Fix typo in /ets/profile.d; should be /etc
+Fix typo in RABBITMQ_LOGS environment setup
+Fix includes
+Fix an include.
+Fix fetch-deps.
+Fix fetch-deps.
+Add more checks to stats timer test. Fix expectations
+Add stats emission tests cleanup. Fix some expectations.
+Fix stats emission callbacks.
+rabbitmq-run.mk: Fix indentation
+Fix dep fetching on detached HEAD
+Fixes for SELinux support
+Run dialyzer tests. Fix warnings.
+Fix compile warning
+Fix test expectations.
+Fix unused variable
+Fix tests that check vhost permissions
+Fix return type of start_vhost
+Fix a merge
+Fix error messages
+Fix usage of parseInt()
+Fix verbiage to read a little better
+Fix xref issue.
+rabbit_nodes_common: Fix the "can't establish TCP connection" format string args, take #2
+rabbit_nodes_common: Fix "can't establish TCP connection" format string args
+docs/rabbitmqctl.1.xml: Fix quoting of {encrypted, <<"...">>}
+Fixes setting ha policy
+docs/rabbitmqctl.8: Fix various syntax errors
+Fix rabbitmqadmin link on /cli page. Make its URI absolute so it always works, even when /cli page gets accessed without trailing slash, like http://rabbitmq.server:15672/cli
+Fix log_management test in OTP 20
+Fix issue when binary payload is send wrapped as an AmqpValue.
+Fix term_to_binary_compat tests in R16B03
+Fix rabbitmqadmin link on /cli page. Make its URI absolute so it always works, even when /cli page gets accessed without trailing slash, like http://rabbitmq.server:15672/cli
+Fix binary comparison in OTP R16B03
+Fix compiler warnings that hinted at a typo in atom name
+Fix timed out message
+inet_tcp_proxy: Fix logging of "BLOCKED"/"allowed" events
+rabbit_ct_broker_helpers: Fix race condition with inet_tcp_proxy startup
+Add cuttlefish schema tests and cuttlefish schema. Fixes #2
+Add cuttlefish schema tests and cuttlefish schema. Fixes #2
+Fix off-by-one error in amqp10 shovel
+Fix compile warnings about unused args.
+Fix match exception bug
+Fix function arity when testing handle_command_output
+Fix typo
+Fix broken help tags
+Fix formatting of static shovel name
+Fix monitor message patterns for collect_monitors.
+Fix sup_delayed_restart_SUITE.
+Fix sup_delayed_restart_SUITE.
+Fix environment logging for Unicode systems
+Fix sorting and also its relationship to filtering
+Fix tests
+Fix runtime parameter formatting.
+Fixing erlang and string formatters.
+Makefile: Fix how we patch rabbit_common.app for compat modules
+ssl_compat: Fix comment which explains the use of nowarn_deprecated_function
+Fix an typo
+Fix switching nodes
+rabbitmq-build.mk: Fix typo in "concise"
+Fix HA OCF script
+Fix mnesia_table_loading_retry_timeout example config & add retry limit
+Fix HA OCF script
+Fix wm modules that did not call 'with_decode' with the right number of arguments.
+Fix bug in handling auth mechanism response tuple
+rabbit_amqqueue: Fix notify_sent_queue_down() wrapper
+Fix typo in x-credit arguments.
+src/rabbit_mgmt_test_util.erl: Fix include path
+Fix dialyzer warnings and termination during initialisation of the reader
+Fix types and dialyzer warnings
+Fix list_nodes/0 return value, improve naming a bit
+Fix flaky dynamic test.
+Makefile: Fix malformed manpages
+Fix badmatch exception when purging connections
+Fix typo in README
+Add elvis Fix dialyzer issues in tests
+Fix lager initialization code
+packaging/debian: Fix Erlang dependency at runtime
+Fix appending
+packaging/standalone: Fix path to the source `rabbit.rel` file
+packaging/standalone: Fix path to the source `rabbit.rel` file
+Fix help command test
+Fix #357
+Fix metrics test suite
+Fix delayed first sample
+Fix timing dependent test
+Fix all warnings reported by Elixir 1.4.x in the testsuite
+Fix Java test build and test on Java 9
+exometer_slide: Fix an "unused variable" warning
+Fix a bad merge
+Fix a bad merge
+Fix variable names
+Fix crash when refreshing certificates
+Fix Makefile
+rabbit_mgmt_http_SUITE: Fix incorrectly encoded URLs
+rabbit_mgmt_http_SUITE: Fix include directive
+rabbit_mgmt_http_SUITE: Fix incorrectly encoded URLs
+rabbit_mgmt_http_SUITE: Fix include directive
+Fix build
+Fix test to represent Jwt decoded extended scope permissions
+Fix typo in exchange name
+Fix autocomplete script paths
+Fix some compiler warnings in tests
+packaging/RPMS: Fix SAVE_CHANGELOG handling
+Revert "Fix --auto-complete clauses"
+Fix --auto-complete clauses
+Fix a few compiler warnings
+Fix autocomplete scripts file names
+Fix auto complete module to support new parser API
+Fix upgrade to cowboy
+Fix API for listing vhost limits
+Makefile: Fix creation of rabbitmq-{diagnostics,plugins}
+mix.exs: Fix a warning reported by Elixir 1.4.0
+rabbit_mgmt_wm_topic_permission: Fix "case claure never matching" warning
+Fix path to delete operator policies
+Fix operator_policies URL in PUT
+metrics_SUITE: Fix an "unused variable" warning
+Fix typo Urls, add PUT method in rabbit_mgmt_wm_limits
+Fix typo and add tests to verify stats recover after reset
+clustering_management_SUITE: Fix "unused variable" warnings
+worker_pool_SUITE: Fix "unused variable" warnings
+Fix include path
+help_command_test.exs: Fix warning about unused alias
+Fixes #19
+Fix topic authorisation test
+Fix a bad merge
+Fixed various typos across code comments
+Fixed various typos across code comments
+Fix arguments to restore vm_watermark in test
+Fix logs. Expect multiple logs during startup
+Fix topic authorisation tests
+Fix sorting and plugin name access for plugin management commands
+Fix msg_store test
+Fix listing active plugins with multiple plugin directories
+Fix issue when binary payload is send wrapped as an AmqpValue.
+Fix a condition test here
+Fix race condition in test
+Fix global parameters test
+rabbit_web_mqtt_app: Fix listeners registration
+rabbit_ws_sockjs: Fix listeners registration
+rabbit_web_dispatch_registry: Fix variable shadowing
+rabbit_web_dispatch_registry: Fix listener (un)registrations
+Fix use of default credentials with use_http_auth
+Fix force_default_creds to accept binary/list creds
+Fix merge
+Fix longname-mode on hosts without detectable FQDN
+Fix typo in tutorial file name
+Fix race condition where vhost_msg_stats were not updated after queue delete
+Fix plugins formatter test
+Fix CORS preflight requests
+Fix CORS preflight requests
+Fix vhost dir location in test
+Fix bad content-length on 404 responses
+Fix issue where the slide would occasionally zero pad incorrectly
+Fix issue with summing non-incremental slides as well as recording the first timestamp
+Fix sliding window
+Fix storage of unchanged stats
+Fix index cleanup in metrics GC
+Fix the last few dialyzer warnings
+Fix overview test
+Range, samples and avg tests. Fixed JSON output tags.
+Fix a merge revert conflict
+Fix stream output for csv formatter
+Fix bad content-length on 404 responses
+Fix test expectations, more renames, more logging
+Fix test timing
+Fix JSON arguments parsing in CLI
+Fix tests
+Fix tests for plugins commands
+Fix bash script
+Fix markdown tables
+Fix `clean` make target for source dist tarballs
+Fix typo: s/Multile/Multiple/
+Fix node_persister_stats and add tests for incremental counters
+Fix a few dialyzer issues
+Fix and testing of instant rates
+Fix stdout/stderr redirects
+Fix log message
+Fixing some tests
+Fix ETS query
+Fix duplicate content-type in error responses
+Fix typo
+Fix formatting of queries results and skip connection details if not yet available
+Fix escaping of records on select queries
+Fix vhost stats
+Fix warnings in tests
+Fix bashisms in rabbitmq OCF RA
+Fix a copy+paste mistake
+Fix merge_defaults implementations
+Fix an IO.puts/1 line ported from io:format/2 too literally
+Fix trivial typo noticed in error message.
+Fix CLI arguments parsing for policies, brush up tests
+Fix aggregation of messages and queue stats with unnamed tables
+Fix some type specs
+Fix some type specs
+Fix some tests
+Fix longname-mode on hosts without detectable FQDN
+Fix testsuite build on Erlang R16B03 by using macros for old builtin types
+Fix build on Erlang R16B03 by using macros for old builtin types
+Fix build on Erlang R16B03 by adding macros for old builtin types
+Travis CI: Fix the `$GROUP` env. var. matrix
+Travis CI: Fix stupid syntax error
+Fix a few errors in -spec which crept in during the merge of stable
+rabbit_ct_broker_helpers: Fix a typo in `io:forma`
+Fix tests cleanup
+Fix compile error with Erlang OTP 19
+Fix compile error with Erlang OTP 19
+make run-tls-broker: Fix certificates path on Windows
+Fix typo
+Fix typo in node name
+Fix bashisms in OCF HA script
+Fix compilation error in QueueEvents
+Fixes #820.
+Fix banner of the add_user command
+Fix license headers in a couple of tests
+Fix query arg encoding
+Fix the packaging info
+Fix tests
+Fix XML parser for nested docs
+Fix the doc for httpc_aws_xml
+Fix application startup
+Fix signing header sorting to be case insensitive
+Fix clear_permissions default option merge so it doesn't suppress quiet flag
+rabbit_ct_client_helpers: Fix recursion in close_everything()
+Fixing tests
+Fix a test pollution issue in list_users test module
+Fix copy-pasta errors in tracing test strings
+Fix test bugs in trace_off command
+rabbit_policy: Fix case clause for missing vhost
+rabbit_policy: Fix transaction return value in udpate_policies()
+Fix gc of indexes
+Fix half-hearted attempt to erase mnesia in OCF RA
+Fix exit code implementation so that it actually returns exit codes
+Fix the tests for travis
+Travis CI: Fix typo in comment
+Fixing merge issue. Create advanced config instead of config file for use in windows service
+Fix overly complex signature for absolute values.
+Fix `rabbitmqctl list_consumers`
+Fix `rabbitmqctl list_consumers`
+Fix `rabbitmqctl list_consumers`
+Fix `rabbitmqctl list_consumers`
+Fix `rabbitmqctl list_consumers`
+Fixing schema
+Fix logrotate / systemd incompatibility
+Fix copy-pasta error in timeout test.
+Fix listing of down queues
+Fix nonsensical test
+Fix duplicate content-type in error responses
+Travis CI: Fix how we recreate the tested tag/branch
+Fix unit tests
+make source-dist: Fix erlang.mk autopatching
+Makefile: Fix Makefile indentation
+make manpages: Fix xmlto(1) failures handling
+Fix filtering of bindings
+rabbit_alarm: Fix resource_alarm_source() type
+Fix doc
+Fixing start args
+Fix wording
+Fix second largest calculation
+Fix action_stop for the rabbit OCF
+Fix cluster membership check for running master
+Fix uninitialized status_master
+Fix wrong protocol name in management UI
+Fixes
+Fix config to start broker
+Fix regression from adding ssl_compat module
+Fix usage of uninitialized variable in OCF script
+Fix rabbitMQ OCF monitor detection of running master
+Fix crash on SSL connections
+Fix 'rabbitmqctl rotate_logs' behaviour
+Fix get_status, action_stop, proc_stop then beam's unresponsive
+Fix proc_kill then there is no pid found
+Fix split errors
+Fix stop conditions for the rabbit OCF resource
+Fix build: the produced archive is now compressed with xz(1)
+Fix preprocessor ifdef for specs
+rabbit_stomp_test: Fix how connections are accounted
+Fix size check when marshalling lists/maps/arrays
+Fix the set_rabbitmq_policy.sh usage
+make source-dist: Fix path to erlang.mk in rebar-based dependencies
+Fix computation of $push_url
+Fix invalid macro name: s/test_node_rootdir/node_tmpdir/
+Fix HiPE compilation during startup
+Fix the build and a bug
+Fix the build and a bug
+Fix backwards sort arrow icon.
+make tests: Fix typo in how $(TARGETS_IN_RABBITMQ_TEST) is constructed
+Fix RABBITMQ_CTL_ERL_ARGS variable in rabbitmq-plugins
+packaging/windows-exe: Fix quoting of uninstall.exe
+Fix memory reporting for connections
+Makefile: Fix how we modify an autopatched erlang.mk
+rabbitmq-dist.mk: Fix an infinite loop
+Fix metadata in OCF HA script
+packaging/windows-exe: Fix circular variable references
+rabbitmq-defaults.bat and rabbitmq-echopid.bat: Fix line ending
+rabbitmq-env.bat: Fix how we escape double quotes
+make dist: Fix dependencies list for .ez archives
+Fix autorefresh when a non-existent page is requested
+Fix `run-background-brocker` makefile target
+packaging/standalone: Fix path to default $(SOURCE_DIST_FILE)
+make source-dist: Fix licenses handling to match previous behavior
+Fix spelling of function name
+rabbit_web_dispatch_test: Fix relative path to docroot
+Fix project name...
+Fix cluster-wide alarm handling
+Fix RabbitMQ configuration file path
+Fix piped exit codes expectations and count processing
+Fix the timeout arg for the su_rabbit_cmd
+Fix compatibility with GNU sed
+rabbitmqctl-env: Fix how we locate rabbit_common
+Fix "/LANG=${LANG_ENGLISH} language not loaded" warning
+Fix typo, a trailing ')' was left over
+rabbitmq-env: Fix vars for rabbitmq-plugins before setting ERL_LIBS
+Adds emitting_map_with_wrapper_fun/5 and emitting_map_with_wrapper_fun/6. Fixes handling of emitted messages which use 'continue' tag.
+rabbitmq-tests.mk: Fix several bugs with testsuite handling
+Fix build by removing unused variables
+Fixes indentation.
+rabbitmq-components.mk: Fix typos
+Fix `make distclean` deactivation
+Fix to call list_down/1 instead of list/1 when listing down queues.
+Fix migration from 2.1.1
+Updates to use abstraction function, rabbit_control_main:emitting_map/4. Updates existing consumers_all/1 to also use get_queue_consumer_info/2. Fixes indentation.
+Fix default port when option is missing
+Fix `make stop-node` when the node is not running
+Fix travis config
+Fix versions comparison to work on Mac OS X too
+Priority queue: Fix a crash when querying 'head_message_timestamp'
+ Fixes a logic problem with NODE_IP_ADDRESS and NODE_PORT in rabbitmq-env.bat.
+Fix indentaion, typos, hardcodes
+Fix kill and mnesia removal
+Merge branch 'scratch-net-Fix_bat_typos'
+Fixes #179
+Fix set type
+Fix set type
+Fixes #4
+Fix a badmatch
+append_sample: Fix indentation of case clauses
+rabbit_dead_letter.erl: Fix shadowing of variable 'Info'
+Updates to the API for 3.5.0. Fixes #8, #9.
+Fix crash when performing tag query using invalid other_bind creds Not actually harmful since the crash was caught higher up and reinterpreted as "permission denied" anyway, but this give us cleaner logs.
+Fix tests, the exceptions are a bit cleaner now (bug26610)
+Fix compatibility with Python 2
+Fix clearer timeout_waiting_for_tables error message
+Fix O(n^2) time to ack / requeue multiple messages.
+Fix a hilarious typo in the example config
+Fix breakage introduced in bug 24781.
+Fix tests.
+Fix a couple of silly bugs: specify the journal prefix lengths for ack and del, and correctly assemble the segment backwards.
+Fix confusion over where the embedded size lives.
+Fix eager sync.
+Fix fill escaping, plus a test.
+Various fixes / improvements: with the new scheme multiple renamings will not waork, so check for them. Fix abortive renames (with a copy of the mnesia dir). Ensure we don't talk to any other nodes while backing up / restoring since that inevitably goes wrong. Split up rename/2 a bit and rename a few other things for more clarity.
+Fix bookkeeping of ram_msg_{count,bytes} - don't assume it decrements on alpha -> beta transition, allow it to decrement on beta -> delta as well if the message went to the QI. (We were already correct on delta -> beta, and there isn't a bulk beta -> alpha move.)
+Fix dirty recovery.
+Fix confirms
+Fix tests.
+Fix forgetting queue when deleting offline.
+Fix 500s listing permissions for nonexistent users or vhosts.
+Fix rendering of exclusive queues in the list. Damn it.
+Fix display of legends on Firefox.
+Fix the SSL options for TLS too. Make sure we compare the unfixed version with [], since the fixed version will never be [].
+Fix plugin activation on Windows.
+Fix message rates breakdown
+Fix type spec, fix a behaviour warning.
+Fix a race.
+Fix type error (introed in 24926 I think) spotted by Dialyzer.
+Fix typo spotted by Edwin Fine.
+Fix typos, remove examples from 3.3.5 case (I'm sure that file will get duplicated...)
+Fix tests, cosmetic.
+Fix await_startup/1. Change its design from "figure out what apps we should be running and wait for them" to "wait for the boot marker to go away".
+Fix a log message, remove a lost comment.
+Fix contexts
+Fix various appearance bugs.
+Fix handshake_timeout docs in rabbitmq.config.example
+Fix tests for 32 bit machines.
+Fix broken invocation.
+Fix validation explosion and typo.
+Fix management extension enable/disable handling
+Fix bitstrings, export term/3.
+Fix stupidity, and rename.
+Fix memory calculations: we were erroneously removing the mgmt db from the plugins bucket (although it was never counted there) and not removing it from the 'other plugins' bucket (although it was).
+Fix for old Erlangs.
+Fix an oops in rabbit:stop/0 and apply consistent parameter names in r_plugins
+Fix plugin expansion during runtime configuration changes
+Fix various oopses and reduce the distance to default some more
+Fix tests post-merge
+Fix error formatting invalid selector string (back-level compatibility).
+Fix multi-call tests
+Fix a syntax error in config example
+Fix drop/2.
+Fix basic.return stats, and fix various problems found by dialyzer.
+Fix type error
+Fix the BQ interface comments pertaining to recovery data
+Fix type spec and modify backing_queue_qc to call init correctly
+Unbreak basic.reject, basic.nack and basic.recover. Fix up specs.
+Fix various bugs that prevented this form working at all. Also change the "OtherArgs" we pass through to Args (since it's there to be reported, it makes no sense to hide args we have parsed out).
+Fix handling of credit arriving with drain=true and an empty queue - we need to not really add the credit (since it is "used up" immediately and thus not unblock if needed).
+Fix type
+Fix search and replace mishap. It's... not an 'Objection'.
+Fix the tests, and fix bug found by the tests :/
+Fix off-by-1 issue
+Fix test
+Fix variable shadowing.
+Fix hider.
+Fix auto-merge error.
+I tried uncommenting everything and trying to use the resultant config file. Fix syntax errors thus found.
+Fix stupidity
+Fix removal of DLX policy
+Fix missing validate_binding for RMQ 3.1.0
+Fix copyrights
+Fix dumb typo that had been there since bug 24826.
+Fix SQL grammar error that doesn't parse '--<expression>' correctly
+Fix inadvertent match of Args. That's what you get for only running the test suite.
+Fix embarassment perpetrated in 97f0e3842c04.
+Refactor dictionary scan to make it more readable. Fix warnings.
+Fix various bugs in status updates, tests now pass again.
+Improve tests. Fix some defects in the tests where we assume everything happens at time 0, modify the emission of fine stats so we emit them all in one go for a single channel (like real channels do) and add a test where things happen at different times. This fails against stable, and passes on this branch.
+Don't persist gm_pids; by definition when all we have is the rabbit_durable_queue record the cluster has gone down completely so there can't be any pids. Fixes gm_pids leak. Since we're here, fix a similar but less severe leak in sync_slave_pids. (Less severe because rabbit_mirror_queue_misc:store_updated_slaves/1 has the effect of cleaning it up periodically. But it's still wrong.)
+Fix bugs.
+Fix non-temp reply queues, and add a test.
+Fix data-rate charts (connection details page).
+Fix regexp, don't allow non-numerals in the input.
+Fix link to disk free alarm contextual help.
+RJMS-74: Fix compile_sql function.
+Fix tests
+Fixed in -server.
+Fix the case of sending credit state back when changing credit when there are no messages in the queue.
+Fix docs and specs.
+Fix an old test that assumed no augmentation.
+Fix second example
+Fix accidental change
+Fix a couple of partition-related specs.
+Fix key / name confusion
+Fix the text version.
+Fix a couple of stupid crashers.
+Fix bugs in previous commit, and be rather more thorough about monitoring and cleaning up credit flow.
+Fix expiry
+Fix a race where we decide on the BQ before writing the #amqqueue{} to Mnesia, then the policy changes and we are therefore not notified. We now only make the initial decision after we can be assured we will be informed of subsequent changes.
+Bug 25232 broke MSIE completely. Fix that, and explain the weirdness.
+Fix idiocy
+Fix arities, support 'drop'.
+Use arguments rather than backing queue status in the test. Fix column selection so this is actually possible. Remove a case where we create atoms from user content. Tidy slightly.
+Fix tests from 382c4aa21972 (oops!), and make failures more comprehensible.
+Fix that too
+Fix formatting of hostname-or-IP-address
+Fix tests.
+Fix policy info items
+Slightly surprised that compiled on R15B02 - but it doesn't on R12B-5. Fix CI + nightlies.
+Fix appearance of broken exchanges
+Fix appearance of mandatory multifield.
+Fix tests affected by binding ids
+Fix formatted error handling as broken by Matthias in 891e659f0e77.
+Fix post CSS change from bug 25110.
+Fix post CSS change from bug 25110.
+Bug 25110 broke ability to invoke "rabbitmqctl stop_app; rabbitmqctl status". Fix that.
+Fix spec broken by bug 25212
+ensure that slaves confirm messages when ttl=0 Fixed in the simplest possible, rather than most efficient, way - by removing an optimisation.
+Fix broken merge
+Fix detection of mirror removal at clean shutdown
+Fix upgrade function.
+Fix dialyzer warnings.
+Fix for R12B-3 that was broken by bug 24196.
+Fix typo in debian control file
+Clearer var naming in BQ:dropwhile. Fix in amqqueue_process:drop_expired_messages.
+Fix rabbit_tests - only get the state after calling bq:dropwhile.
+Fix badmatch and give some context if an error occurs.
+Fixed cycle detection, resources and names were messed up.
+(Incidentally) Fix use of /tmp instead of $TMPDIR, aka run tests on a Mac.
+revise nack handling in queue (for dlx) - with the changes introduced in bug 24750, the "lost" message count   logged was misleading since it would not include any messages still   pending confirmation from other queues. Fix that. - normal queue terminations are not log worthy - splitting log information across two entries loses context,   i.e. other log entries might appear inbetween. So now we collate all   the information into a single log entry. - saying that messages were "lost" is misleading - we simply don't   know what happened to them. Make this clear(er).
+Fix for starting in 2.7 and later brokers.
+Fix in map_headers.
+Fix most tests.
+Fix links.
+Fix macports to Portfile after move of vars to rabbitmq-env
+Fix a bug found by the tests! TSV output should not have trailing tabs on each line.
+Fix a bug found by the tests! rabbitmqadmin declare permission expects a vhost= argument, not a --vhost one.
+Fix messy copyright headers
+Fix the little test client so it actually uses the parser correctly and does not drop messages.
+Fix to reject_tx, list comprehension instead of map.
+Fix those links on Firefox.
+Fix breaks to publish and get introduced in 2ff8ff3089c4.
+Fix dumb typo.
+Fix duplicated example para when generating rabbitmqctl docs
+Fix handling of confirms for unrecorded receipts
+Fix tests, at the cost of a leetle tiny bit of ugliness.
+Fixed again.
+Fix some properties handling. Support publishing with subject as routing key. Support single section amqp-value messages (since Rob's Java client emits those now).
+Fix stop raciness.
+Fix a couple of warnings.
+Fix list function names, introduce an abstraction.
+Fix building from the public umbrella.
+Fixed heartbeat byte
+Fix a quirk of the codec and a bug with the new use of re.
+Fix most unused variable warnings. A couple are left in because it wasn't 100% obvious to me they didn't represent real problems.
+Fix dumb mistake
+Fix bookkeeping (io:formats left in deliberately, something is wrong with bug 24130).
+If start_child is called twice in a row we used to hang. Um, that's not good. Fix.
+Fix docs
+Fix index files for directories, and redirecting.
+Fix race. Use cast. No "hello".
+Fix upgrades from 2.4.1 and before. This failed because the #exchange{} record now contains the exchange scratch space, but at the point at which we add trace exchanges Mnesia hasn't got there yet. The moral of this story is: never use record definitions in rabbit_upgrade_functions (which is why all the transform() invocations don't).
+Dialyser points out that pid_of/1 was returning the wrong thing, hence some tests were passing incorrectly. Fix dubious test.
+Fix silly bug that I introduced while merging.
+Fix usage of "lsof" on UNIX-like opertating systems.
+Fix an occasional race.
+Fix binary-vs-listness of from_set
+Fixed up spec for msg_lookup_callback to contstrain input and output types to be the same
+Fix a list vs binary bug around default exchanges / vhosts.
+Not sure why this worked before, but it doesn't now. Fixed.
+These lists didn't have a defined order. Fix.
+Fixed stupid commenting out of tests
+Fixed bug with undecoded content
+* Makefile (REBAR): Fix case where rebar is not in path.
+Fix up with web UI for tags.
+Publishing under new GUID now. DL'd messages have x-death-reason and x-death-queue headers for admin purposes. Support DL for queue.delete. Fixed issue when messages not in memory were not loaded back from disk
+Fix the command-queuing logic. This requires a number of changes:
+Fix the remaining memory leak
+Updated documentation, and in the course of writing it, thought up another scenario I wasn't coping with. Fixed. However, not all documented causes of memory leaks are yet fixed in the code
+Fix dumb mistake.
+Fix for non-GNU sed.
+Remove extra mgmt contexts. Fix contexts where the prefix is "". Remove register_authenticated_static_context.
+Fixed call to validate_message
+Fix tests up for different implementation of check_contexts
+Fix racy bug in tests as reported by Simon. Bug created in bug24037 I suspect
+This use of rabbit_mgmt_util:with_decode is very wrong - it enforces the presence of routing_key and arguments (which it shouldn't), but *after* the binding is created anyway! Fix this, and improve tests to match.
+Fix up documentation for publish / get, add warnings.
+Fix from previous default merge.
+Fix help msg
+Fix error handling.
+Fix tests
+Fix tests
+Fix tests again.
+Fix tests
+Fixed bits/binary typo in private functions.
+Fix tests.
+Fix Matthias' deliberate mistake.
+Fix on_node_down.
+Fix link startup. Tests all pass again.
+Fix for API change
+Fix tests.
+Fix client properties info item.
+Fix deps for rabbitmqadmin
+When stdout is not a TTY (e.g. redirecting) Python assumes everything must be ASCII. Fix that.
+Fix
+Make new mirrors magically occur when set to [] and a new node in the cluster appears. Fix various other bits and pieces
+Fixed bug in the QPid tests. My tests were passing because I used an exchange name in both add and remove calls
+Fix bad path_entry creation
+Fixed a few pattern matching errors - remove actually works again
+Fixed bug with SSL socket setup. Added full SSL communication test
+Fixed confirms in HA queues. Broke slave promotion. Will fix
+Fix various bugs:
+Fixed issue in adhoc_convert_headers when AMQP message contains no extra headers
+Fix delivery mode.
+Make round-trips between publish and get work. Fix various things to do with JSON<->AMQP structures. Tests for publishing.
+Fixed bug in receipt processing when interleaving receipt/no-receipt messages. Increased test coverage for receipts
+Fixed incorrect binding pattern in rabbit_mnesia
+Fix MESSAGE send frame body fragment assembly.
+Fix reinstatement of wmtrace.  To test, make the return value of a resource {{trace, /tmp}, State}
+Fix breakage caused by change to Erlang client.
+Fix "File listed twice" warnings when building RPMs
+Fix minor error in test for embedded nulls
+Fix our idea of which nodes were running when we shut down.
+Fixed cosmetics as per comment#6 on bugzilla
+Fixed issue with multi-confirm and added support for TX receipts
+Fix alignment.
+Fix SSL connections in R13Bx.
+Use more visible consumer tags.  Fix up some credit bookkeeping
+Fix breakage caused by bug 23696
+Fix the OCF script. Man, that was painful.
+Fixes for Windows XP: set our own environment too, invoke batch files via cmd.exe.
+Fix uninstall icon, show better uninstall information.
+Fix docs
+Fix a variety of outdated bits, and explain how to build from a tag.
+rabbit_mgmt_util:vhosts/1 doesn't exist any more since bug 23455. Fix, add a test for the non-admin case, look embarrassed.
+Fixed up bugs in new parser
+Fix surprisingly long-lived mistake.
+Fix the MSIE fix.
+Fixed error during merge
+Fix bug. FTR, this mistake has been there since Sept 16th 2010
+Fixed issue with merge that broke version negotiation tests
+Fix dumb mistake. Not sure how that used to work.
+Fix bug
+Fix some validation issues.
+Fix comments.
+Fix name of env var
+Fix appearance of mandatory args in usage message.
+Fix a few spec-related stupidities.
+Fix spec
+Fix distclean
+Fix a couple of examples
+Fix random range
+Fix warnings
+Fixed a bug caused by revision 454fbb9127bd in rabbit-ha from where gm.erl came; Make gm_tests more robust; Avoid creating endless funs all the time for every message (substantial performance gain). Abstract use of dicts - expected use case is relatively small groups, thus orddict would normally be more appropriate
+Fix a race condition that can occur on queue deletion. Also change boot order to make sure the msg_stores are started before us (and thus stopped after us)
+Fix UI mess.
+Fix heartbeat size and encode large compounds
+Fix up train-wrecked Mercurial auto-merge.
+Fix
+Fix
+Fix one more warning.
+Fix unused variable warnings.
+Fix coexistence of 1-0 and 0-9-1 on the same socket.
+So those tests should have failed long ago when I removed send_oct et al from /overview, but... Erlang claims 0 < undefined. I disagree. Fix that, and make sure we would catch bug 23551 if it happened again.
+Fix receiving - we need a version of send_command_and_notify that doesn't use a content frame.
+Fix some whitespace issues, add a note
+Fix accidental renaming of an info item.
+Fix rabbitmqadmin, config import, and tests. The first two are trivial, the last is a mess and convinces me to start work on bug 23384.
+Fixed issue with arbitrary headers not being included in MESSAGE frames
+Fix
+Fixed windows scripts
+Fix default config
+Fixed thinkos in calls to string:join.
+Fixed whitespace error
+Fixed missing version header in CONNECTED frames
+Fixed up use of new heartbeat API. Corrected capture of PIDs for ReceiveFun
+Fix that...
+Fixed up the specs for the heartbeater
+Fix use of file:open/2
+Fixed the persistent sender example
+Fixed most of the samples. Other fixes require some consideration
+Fix stats DB failover in the graceful shutdown case.
+Fix acronym appearance on FF
+Fix default
+Fix the test "suite" and rehabilitate the single test within it to actaully do something, albeit not much.
+Fix when we mean password and when password hash. Tests pass again.
+Fix copy right info in Erlang files. Add copyright info to Python file. Add LICENSE files similar to those in rabbitmq-server.
+Fix for bug23218
+Fix a test
+Fixed the .app file
+Fixed another formatting problem
+Fixed bad formatting and removed TODO that had already been TODONE
+Fix copyright statements
+Fix column names
+Fix a couple of UI quirks, in particular allow visiting a connection page that has no rate.
+Fix warning
+Fix tests and refactor slightly.
+Fix 500 errors when the vhost is wrong.
+Fix for the old make run / make test.
+Fixed
+Fix a couple of bugs that crept in.
+Fix updating. Only elements marked "updateable" get updated, so doesn't interfere with forms. Allow frequency of updates to be selected.
+Fix the {function_clause,[{proplists,get_value,[rate,0,unknown]}... problem. Testign this requires makign the DB tests support an arbitrary number of stages.
+Fix non-ASCII characters in names, unused variables. TODO.
+Fix some cases where results of amqp_request got trampled on.
+Fix a minor bug introduced by Matthias.
+Fix some unused variable warnings.
+Fixed the bug. The problem was that I was not removing msgs from the index for the dest in a gc if they had a refcount of 0. Thus they could later be reincremented. I was also thoughtlessly doing an index_delete_by_file on the src post gc, which should be unnecessary - 0 refcounts are now removed as they're discovered, and non-zero will be updated to be in the dest. This leaves only 1 worrying use of index_delete_by_file which is now in delete_file_if_empty. Here, scanning and deleting as we find msgs will be constant time and simple. Note this also features a very rough hacking out of the use of contiguous top in GC which turns out to be essential for this bug. However the real fix for that will be in bug 23233 which will block this bug.
+MSIE does not correct these capitalisations, and webmachine gets confused. Fix.
+Fix the rate bug.
+Fix for Chrome.
+Fix + rename vars.
+Fix forms, pass through the whole params object.
+Fix tests.
+Fixes all over. Still more to do, though mainly API fixes. Functionality seems to be correct.
+Fix stupid error, more consistency.
+Fix typo.
+Somehow the 0-9-1 branch had reverted to talking 0-8. Fix.
+Fix warning.
+Fix handle_deleted
+Fix connection closure.
+Fixed channel shutdown mechanisms
+Add a very simple codegen mechanism to avoid the pain of embedding HTML in Javascript. Fix dependencies.
+Fix idiocy
+Fix type of inner_fun, cosmetics.
+Fix compilation on R14A.
+Fix STOMP adapter.
+Fix the shovel.
+Fix up the Erlang client.
+Fix auto-delete on unbind.
+Fix up connection.close/ok and basic consume. I think we're now talking real AMQP 0-8.
+Fix >80 columns
+Fix msg_file scan block size at 4MB
+Fix testing for variables so that you get as many errors as possible at the same time. This solves the very annoying problem of a build dying for some reason, then you fix the reason, build again, and end up with a very slightly different error at the same point.
+Fix up direct connections to use the queue collector process to stay compatible with the server.
+Fixing up coverage - it would appear the coverage is *very* sensitive about how it gets started
+Fixed recursive delete - it now takes a list of paths, and it deletes directories it comes across
+Fix the refactoring which broke bpqueue
+Fixes
+Fix a leak in the fhc - all clients of the fhc now have a monitor created for them to enable us to tidy up after the process dies. The distinction between these monitors and the ones created in release_on_death is that the release_on_death ones are not stored in the client_mrefs dict, thus if a monitor DOWN message appears which we can't find in that dict, it is assumed it is a release_on_death monitor
+Large accountancy bug in queue index leading to great confusion and indeed infinite loop. Fixed.
+Fixed a leak - if we have many queue index segments which were written to disk but contained only references to transient messages then on restart, they would never be removed. Unfortunately, this does potentially introduce further work on startup (the queue will try to ensure that it loads the persistent contents of the first segment which contains a persistent message, which can involve scanning through a lot of segments. However, this is actually pretty quick. The only way to fix this would be to keep per segment counters of persistent messages and ensure that's written to disk too, but the extra code cost and complexity may make this just not worth it.
+Fix some mistakes that were in the Windows Service documentation.
+Fixes to limiter - logic mistake in maybe_notify and some refactoring and cosmetics
+Fix breakage of usage introduced in 600668c4da36.
+Fix a couple of mistakes noticed by Matthias.
+Fix internal links in the generated page.
+Fix up things that dialyze complains about
+Fix potential leak in cur file cache if the msg is both already known and in a different file - eg same msg gets added to 2 queues, one very long, the other very short. Then memory becomes tight. By the time the short file pushes msg to disk, cur file may well have rolled over
+Fix all sorts of concurrency races in the concurrent readers versus GC
+Fix rabbitmq-multi issue with parentheses in path
+Fixed. If the env vars are not set, combine them from the .conf file (non-RABBITMQ_-prefixed). In the case of one set but not the other, use the DEFAULT_ values.
+Fixup specs.
+Fixes as suggested. Having tested, the asroot wrapper is used only with activate/deactivate, which don't take any arguments anyway, making testing argument passing a little challenging. However, minor editing of those scripts suggests that it does indeed seem to work.
+Fixed. There was a choice of having the qi do its own seqids, which would have been fine, but for the fact that at any point, there is the possibility of the vq deciding to flush everything out to disk. Thus to avoid rewriting in order to preserve order, instead we cope with the fact that there may be partial segments. The solution is to have a dict of segments which received fewer than the expected number of publishes before a different segment was written to. Then, when adding acks, we check to see if the number of acks is now equal to the partial number of segments, if it is, delete. Also, when moving to a different segment, we potentially delete the seg file if the number of acks is equal to the number of publishes. One key aspect of this is that the current segment to which we are publishing never appears in this dict, so it is not possible to delete the current publish segment by having the same number of pubs and acks, without it being really really full. Added and modified tests accordingly.
+Fixed bug in the app descriptor
+subtle bug in queue_index in that there's a sort of race because scattering the journal out to the segments can cause the publish file handle to be closed, should the segment become full. Fixed.
+Fixed a few bugs in fhc, pushed fhc through to msg_store and msg_file. API change to fhc:position to match file, also extended fhc with copy. msg_store must also trap exits so that it will shut down cleanly - especially important given that data to be written is now cached more aggressively. Removal of stop from msg_store as it's part of a supervisor and so the correct way to stop it is via the supervisor.
+Fixed tabs.
+Fixed formatting for string-based errors
+Fixed spelling
+Fixed the mistake Matthias spotted in recovery from crash (comment #211). Tested by deliberately breaking the compaction in a variety of ways and then coverage and startup and ensuring the correct code paths are taken.
+Fixed missing copy of the .hrl file
+Fixed entity escaping
+Fixed dependency of the doc on the include path and got rid of line break
+Fix an incorrect variable name in rabbitmq-env
+Fixed some QA remarks
+Fixed dependency on server sources and headers
+Fixed lib locations and root wrapper mutation in macports
+Fixed handling of symlinks; compacted list comprehensions
+Fixed variable name - changed from UNPACKED to EXPAND for consistency
+Fixed a bug in the mixed_queue which could lead to messages being marked undelivered when in fact they have been delivered when converting to disk_only mode. In truth, this bug didn't exist because there is no way in which a message could end up in that form in the mixed_queue which had previously been delivered. However, that will change when the prefetcher comes in, necessitating this "bug" gets fixed.
+Fixed the commit bug. Really this should probably be in bug20470 but I really didn't want to have to deal with merging and the other information about this bug is in the above comments in 20980 so it's in here.
+Fixed hardcoded RPC path
+Fixed bug when constructing ez files
+Fixes from removing the non-contiguous sequences support from the disk queue that I failed to spot last night, but apparently came to me during my dreams. I have no idea how the tests managed to pass last night...
+Fix off-by-one error (discovered by Matthias)
+Fixing up escaping of commandline arguments
+Fixing invalid call to erlang:exit/1
+sorted out the disk_queue tests which had been left behind with the last set of API changes. By fixing them, discovered a bug in the disk queue. Also made the tests a little more rigorous, and discovered a the rdq_stress_gc test was not doing anything like what I'd wanted. Fixed.
+Yup, basically, same bug in three places. Fixed. It all works.
+Formatting only. Only just realised emacs was using tabs. Fixed.
+Fix up merge damage
+Fixed unused-variable warning
+Fix double-exchange-deletion bug
+Fix for that bug. Basically, mnesia wasn't being deleted correctly, which meant on the subsequent startup, it would report messages which we couldn't find anywhere, as they'd been deleted from disk.
+Fixed sed to properly handle rabbitmq.conf.5 and updated other man pages. /etc/rabbitmq is no longer owned by rabbitmq user.
+Use common wrapper for scripts in rpm packages. Fixed indentation. init.d script uses wrapper.
+Fix dialyzer spec for rabbit_net:send/2
+Fixed hg tag file
+Fixed some split strings
+Fixed punctuation
+Fix spaces
+Fix for multi ack bug
+Fixed some QA remarks
+Added po-debconf support to satisfy translated debconf requirement. See man po-debconf for details. Fixed minor warnings given by lintian.
+Fixed warnings reported by lintian. According to rule '6.5.4.2.3. Select/Multiselect' from Debian guide, descriptions shouldn't be questions.
+Fix more names in the batch files
+Fix a couple of Makefile variable references (important to make cleandb non-dangerous!)
+Fixed compiler warning
+Fixed compiler warnings
+Fix batch file
+Fix rabbitmqctl output formatting
+Fix a bashism that causes FAIL on Ubuntu.
+Fix typos
+Fixed documentation
+Fixed bug in limiter
+Moved from python-json to python-simplejson. Fixed 'unicode' problem for auto-generated code.
+Fixed typo
+Fixed QA remarks
+Fixes for dialyzer
+Fixed full table scan when deleting forwards routes
+Fixes for auto-delete exchanges
+Fix for not cleaning up durable auto_delete exchanges properly
+Fix for auto_delete exchanges
+Fixed bug with fanout routing
+Fixed bug with case handling of queue:out/1, queue:head/1
+Fixed type signature
+Fixed checking build dependencies in rpms while building on Debian systems. Unfortunately .spec doesn't have 'not' logic.
+Fixed alignment of the comment about the constant field
+Added status command to rabbit_mutli, init.d scripts now use that command. Used status command in init.d scripts to check if the server is running before stopping it. Fixed various indentation problems in init.d scripts. Synchronized the init.d in Debian and RPM to behave in a similar way.
+Fixed various QA remarks. Renamed rotate_logs_all to rotate_logs. logrotate will fail silently to logrotate if calling rotate_logs on any of the logs failed.
+Fixed dialyzer error
+Fixed compilation error
+When appending the old log file fails always try to create the handler. This can happen when the file we append to is not writable. Fixed missing case clause.
+Fixed spec definition. Renamed name() to binary_name() because of the conflict with definition in kernel/include/file.hrl
+Fixed qa remarks
+Added required commands to the init.d script for rpm packages. Fixed various things in the spec file for rpm and made it more consistent with approved packaging guidelines.
+Fixing some QA remarks
+Fixed another error in the specs
+Fixed specification for declare
+Fixed confusing comment
+Fixed some of the QA notes
+Fix for bug when you try to publish to a non-existent exchange that crashes the connection, network case
+Fix for bug when you try to publish to a non-existent exchange that crashes the connection
+Fixed type arguments in call to exit()
+Fixes to STOMP adapter that came out of some experiments I ran after talking to Sean Treadway.
+Fix for bug in request queuing that assumed commands could be pipelined
+Fix for strange handling of connection end
+Fixed exit trap between reader and framing channel process
+Fixed trap exit handling when channel closing is not followed by a connection close
+Fixed bug in init() of supervised event handler
+Fix for notify_sent bug

@@ -1,0 +1,2601 @@
+Update dependencies
+update postcss to 8.4.19 (#1485)
+Release 10.4.13 version
+Update dependencies
+Ignore CSS Custom Properties on prefix in value lookup
+Update dependencies
+Add Node.js 19 to CI
+update tests results for postcss 8.4.17 (#1481)
+Release 10.4.12 version
+Fix gradients cleaning
+fix: unitless zero for `<angle>` values are allowed in CSS gradients (#1479)
+Update dependencies
+Release 10.4.11 version
+Clean up code
+update data for text-decoration (#1478)
+Release 10.4.10 version
+Move to MDN data for unicode-bidi
+Release 10.4.9 version
+Fix unicode-bidi import
+Update dependencies
+Update dependencies
+Clean up CI config
+Update test.yml (#1472)
+Release 10.4.8 version
+Do not print warning if print-color-adjust is also in the rule
+Update dependencies and example in docs
+Simplify CI config
+Release 10.4.7 version
+Update dependencies
+Fix print-color-adjust in FF
+Release 10.4.6 version
+Improve handling print-color-adjust
+Fix Node.js 12 on CI
+Update dependencies
+Update dependencies
+Clean up ESLint config
+Fix test name
+Fix test
+Release 10.4.5 version
+Update dependencies
+Update CI config
+Fix #1446 (#1457)
+Release 10.4.4 version
+Update PostCSS
+Revert funding URL format changes
+Release 10.4.3 version
+Update PostCSS
+Update dependencies
+Fix funding URL format
+Update dependencies
+Update `funding` key in package.json (#1448)
+Update dependencies
+Release 10.4.2 version
+Fix stretch prefix
+Update dependencies and clean npm ignore
+Release 10.4.1 version
+Clean up npm ignore
+Move from Jest to uvu
+Remove TS from project
+Remove Windows test on CI
+Fix CI
+Move from yarn to pnpm
+Use caniuse-lite data for ::file-selector-button (#1438)
+Update dependencies
+Fix CLI dependency installation instructions (#1439)
+Release 10.4 version
+Update dependencies
+Fix CI
+Update CI
+Add support for prefixing :autofill (#1430)
+chore: update picocolors (#1431)
+Remove TS config from npm package
+Release 10.3.7 version
+Update dependencies
+Replace nanocolors to picocolors
+Add bugs field/URL to package.json (#1424)
+Release 10.3.6 version
+Clean docs on release
+Update dependencies
+Update dependencies
+Release 10.3.5 version
+Update dependencies
+Update Nano Colors
+Update dependencies
+Replace colorette with nanocolors
+Release 10.3.4 version
+Update dependencies
+Fix stretch in latest Firefox
+Speed to test
+Release 10.3.3 version
+Update dependencies
+Added blocker -moz- for ::file-selector-button (#1421)
+Typo
+Release 10.3.2 version
+Update dependencies
+Clean up tests
+Fix ::file-selector-button pseudo-element (#1420)
+Update dependencies
+Release 10.3.1 version
+Update dependencies
+Fix: Term element in content value gets parsed (#1414)
+Release 10.3 version
+Clean up dependencies
+Update dependencies
+Autoprefix the file-selector-button pseudo-element (#1412)
+Fix: remove broken link with 404 error (#1410)
+Release 10.2.6 version
+Better warning text
+Update Jest
+Use Node.js 16 on CI
+Clarify warning about no targets (#1409)
+Update dependencies
+Fix Node.js 10 on CI
+Update dependencies
+Update lock files
+update postcss to patched version (#1408)
+Add console syntax highlighting (#1407)
+Code changes to ease the conversion to Deno (#1404)
+Update dev practices
+Update GitHub Actions
+Release 10.2.5 version
+Update dependencies
+Fix error throwing when `supports-selector-fn` has pseudo-classes or pseudo-elements as argument. (#1398)
+Correct CodePen name (#1394)
+Release 10.2.4 version
+Update dependencies
+Add more browser names in --info
+Fix test coverage
+Release 10.2.3 version
+Fix clone for PostCSS 8
+Release 10.2.2 version
+Move from Once event to OnceExit
+Update dependencies
+Release 10.2.1 version
+Update dependencies
+Add TS auto-fix
+check transition-property value list before warn (#1385)
+Release 10.2 version
+Update dependencies
+Add typings (#1382)
+fix CONTRIBUTING.md formatting (#1383)
+Update dependencies
+Update dependencies
+Release 10.1 version
+Update dependencies
+Update dependencies
+Added dpcm resolution support and made calc more precise (#1380)
+Release 10.0.4 version
+Fix Cannot read property 'proxyOf' of undefined exception (#1377)
+Release 10.0.3 version
+Update dependencies
+fixed misspelling of "subtract" for mask-composite (#1378)
+Update dependencies
+Release 10.0.2 version
+Update Browserslist
+Avoid -ms-user-select: all
+Add Node.js 10 to CI
+Move from Travis CI to GitHub Actions
+Update dependencies
+Fix warning
+Update dependencies
+Release 10.0.1 version
+Use OpenCollective
+Update PostCSS
+Refactor cache into Map (#1364)
+Simplify uniq util (#1363)
+Update dependencies
+Improve release process
+Release 10.0 version
+Update size limit
+Update PostCSS
+Move postcss to deepDependencies
+Use PostCSS 8 API
+Update dependencies
+Remove old Babel hack
+Use PostCSS 8
+Update npm ignpre
+Update linter and code style
+Remove build tools
+Remove browserify build
+Drop old Node.js versions support
+Release 9.8.6 version
+Update dependencies
+Clean up code
+Normalize CHANGELOG.md
+Change log fix for v9.8.5 (#1339)
+Release 9.8.5 version
+Fix size limit
+Update dependencies
+Merge branch 'Dan503-Dan503/#1335-justify-align-self'
+Merge
+Fix for #1333 - No warnings when grid is turned off; Also added a subgrid warning (#1334)
+Adding test for #1335 fix
+Fix for #1335 - align/justify-self not grid prefixing if display: flex
+Release 9.8.4 version
+Replace kleur to colorette
+Release 9.8.3 version
+Update dependencies
+Add old non-LTS Node.js versions to engine
+Update dependencies
+Clean up changes
+Release 9.8.2 version
+Remove old buggy Node.js from supported list
+Release 9.8.1 version
+Update dependencies
+Update example
+chore: swap color lib (#1327)
+Update README.md grunt-postcss URL (#1325)
+Release 9.8 version
+Remove debug
+Fix size limit
+Hack for :placeholder-shown (#1312)
+Update dependencies
+Fix TOC
+Add Tidelift enterprise language (#1300)
+Release 9.7.6 version
+Update dependencies
+Revert "Fix stretch support"
+Remove old non-specific AP plugin for VSCode
+Added another Text Editor (VSCode) (#1297)
+Release 9.7.5 version
+Fix stretch support
+Do not collect coverage on all Node.js versions
+Update dependencies
+Fix link to PostCSS warning API docs (#1277)
+Release 9.7.4 version
+Update dependencies
+fix typo (#1276)
+Clean up CLI
+Clean up tests (#1273)
+Add test for at-rules (#1272)
+Release 9.7.3 version
+Fix Node.js 6 test in CI
+Do not run Size Limit for Node.js 6
+Update dependencies
+Clean up RegExps
+Fix compatibility with CSS Modules
+Fix JSDoc indent
+Release 9.7.2 version
+Add -ms-user-select: element support
+Downgrade Size Limit to fix Node.js 6 support on CI
+Downgrade chalk to keep Node.js 6 support
+Update dependencies
+Add Tidelift funding
+Updating environment variable documentation to include multi-platform support (#1262)
+Adding better environment variables documentation (#1261)
+Release 9.7.1 version
+Update dependencies
+Feature/vendor specific transition (#1260)
+Update ESLint config
+Fix fit-content in Firefox
+Revert fit-content fix
+Fix fit-content prefix
+Fix typo (#1259)
+Release 9.7 version
+Update PostCSS
+Fix size limit
+Fix env variable nam
+Update dependencies
+Add Node.js 13 to CI
+Fix ESLint path
+Fix missed options error
+Fix ESLint
+Add AUTOPREFIXER_GRID env support
+Update dependencies
+Release 9.6.5 version
+Update dependencies
+Bugfix/separate selectors (#1253)
+Release 9.6.4 version
+Uncomment line
+Release 9.6.3 version
+Fix undefined node error
+Release 9.6.2 version
+Fix npm ignore
+Clean up ignore files
+Fix false warning
+Update dependencies
+Clean up code
+Put OpenCollective first
+Add OpenCollective
+Update dependencies
+Fix Size Limit on CI
+Fix CI
+Update dependencies
+Release 9.6.1 version
+Add hack for -webkit-line-clamp
+Update dependencies
+Increase size limit
+Update dependencies
+Release 9.6 version
+Fix for console-less env
+Ignore .github in npm package
+Update authors
+Fix contributing docs
+Update dependencies
+Add 2x as alias for 2dppx
+Move CONTRIBUTION to sub dir
+Add/how to contribute (#1093)
+Add text-orientation support
+More real example
+Improve code examples
+Removed dead link 'No prefixes in production' (#1218)
+Update dependencies
+Replace browsers option to overrideBrowserslist
+Clean up docs
+Add Sponsor button on GitHub
+Update dependencies
+Update example
+Update dependencies
+Release 9.5.1 version
+Fix resolution prefix for old Firefox
+Add backdrop-filter -ms- to -webkit- convert
+Update dependencies
+Clean up imports
+Clean up code
+Fix for backdrop-filter to support it properly in Edge 17/18 (#1208)
+Add security note
+Release 9.5 version
+Update dependencies
+Speed up code
+Fix tests for OS Windows (#1204)
+add mask-composite (#1202)
+Update dependencies
+Fix Travis error
+Try to fix Travis CI
+Update dependencies
+Release 9.4.10 version
+Add warning for names Grid lines
+Update dependencies
+edit webpack link (#1195)
+Clearify docs
+Recommend Parcel instead of Gulp
+Simplify docs
+Update README.md (#1194)
+Release 9.4.9 version
+Update dependencies
+[css-grid] Fix bug when grid-area rules are not inserted (#1192)
+Release 9.4.8 version
+Update dependencies
+Fix calc() in grig-gap
+Release 9.4.7 version
+Update dependencies
+Fix infinite loop
+Release 9.4.6 version
+Update dependencies
+Fix 'implement' typo (#1182)
+Release 9.4.5 version
+Add text-decoration-skip-ink support
+Update dependencies
+Release 9.4.4 version
+Smarter direction test
+Update dependencies
+Add `ms-writing-mode` value based on `direction` declaration (#1175)
+Update tests
+Fix spelling of template (#1177)
+Update dependencies
+Gulp 4 code fixes (#1173)
+Release 9.4.3 version
+Update authors list
+Update dependencies
+Add warning for some content-distribution and alignement properties (#1172)
+Clean up code
+HTTPS links (#1168)
+Typo
+Release 9.4.2 version
+Typo
+Update dependencies
+Fix Grid autoplacement warning
+Replace Taobao to Alibaba
+Release 9.4.1 version
+Update dependencies
+Update dependencies
+Do not use flexbox prefixes in Grid elements
+Typo
+Always show TOC
+Clean non-importnat subsections in doc TOC
+Clean up docs
+Update CSS-in-JS docs section
+Fixed enabling autoplacement in old projects section recommendation (#1163)
+Release 9.4 version
+Update size limit
+[css-grid] Implement autoplacement (#1148) (#1151)
+Update dependencies
+Remove warning from grid-[column/row]-end: span X; + grid-area combo … (#1159)
+Add Node.js 10 to Travis CI
+Release 9.3.1 version
+Update dependencies
+[css-grid] Fix bug when grid-rows/columns are prefixed with wrong values (#1149)
+Release 9.3 version
+Update dependencies
+[css-grid] Fix/row column span inheritance bug (#1147)
+[css-grid] Implement hack for place-self property (#1144)
+Release 9.2.1 version
+Update dependencies
+Fix broken Node#parent
+Fix indent
+Release 9.2 version
+Update dependencies
+Normalize titles in old versions
+Update dependencies
+Update authors
+Disable grid in specific supports at-rule
+Fix if
+Fix indent
+Improve docs about grid option and control comment
+Fix indent
+Fix indent
+Clean up code
+Impove tests
+Control grid option via comment (#1138)
+Improvements to the README (#1139)
+[grid-gap] Inherit gaps from less specific rules (#1126)
+List has no maintaince
+Update warning code
+[Updated] Add warning to align/justify-items/content in IE (#1129)
+Update Visual Studio build tool link (#1128)
+[css-grid] Show warning if grid-area and grid-(row/column) both present in the same rule (#1125)
+Use defaults browsers in playground
+Playground fixes (#1121)
+Clean up test
+WIP: [grid-area] implement duplicate grid-areas (#1095)
+Simplify file names
+Fix linter
+Move playground from build
+Adding a basic experimentation playground to the repo (#1120)
+Refactoring, remove reduanded else (#1112)
+Refactoring, delete unnecessary else (#1111)
+Fix typos (#1107)
+update babel-preset-env link (#1105)
+Release 9.1.5 version
+Update Size Limit
+Fix package.json compiler
+Release 9.1.4 version
+Clean up package.json build
+Update dependencies
+Fix tests
+Move Babel targets to Browserslist
+Use babel 7 in stabdalone build
+Use Babel 7
+Keep git clean from npm/yarn errors
+Update dependencies
+Release 9.1.3 version
+Fix old FF gradient prefix
+Fix code indent
+Update docs
+Sort info output
+Update dependencies
+Release 9.1.2 version
+Disable expecte-expect rule
+Fix info on new Node.js
+Update dependencies
+Release 9.1.1 version
+Update authors
+Use Logux ESLint config directly
+Update dependencies
+[css-grid] fix bug when searching areas and update tests (#1097)
+ [grid-gap] retain gaps through media (#1092)
+[grid-column] prefix "span X" safely (#1090)
+Update the description of `postcss-preset-env` in the README.md (#1089)
+[grid-area] fix sequence of breakpoints (#1087)
+Release 9.1 version
+Fix code style
+Add background-clip support
+Update dependencies
+[grid-template] fix adding grid span for IE (fixes #1084) (#1086)
+Clean default value of homepage in npm
+Release 9.0.2 version
+Update authors
+Update code style
+Add name to authors
+Show warning if grid-area has a non-unique identifier (fixes #1038) (#1080)
+chore(package.json): add homepage attribute (#1082)
+Release 9.0.1 version
+Update ESLint
+Update dependencies
+Update authors
+Fix nested @media rules (#1077) (#1079)
+Fix readme typo (#1078)
+Release 9.0 version
+Remove AUTHORS from npm package
+Update code style
+Update Babel targets
+Update dependencies
+Remove Node.js 4 and 9 support
+Release 8.6.5 version
+Do not show Grid warning without IE
+Clean up tests
+Update Can I Use
+Remove outdated advise
+Update link to Grid guide
+Remove not important anymore sections from docs
+Clean up docs
+Fix line breaks
+Typo
+Clean up Autoprefixer Grid docs
+Add a FAQ section for IE grid support caveats (#1075)
+Release 8.6.4 version
+Fix stretch prefix
+Update dependencies
+fix(readme): Best Practises -> Best Practices (#1069)
+Release 8.6.3 version
+Add display: grid and display: inline-grid note to info
+More clear about Grid properties in info
+Clean up code
+Add warning for Grid auto features
+Clean up code
+Add warning about old grid properties
+Update Can I Use db
+Release 8.6.2 version
+Update dependencies
+[css-grid] Fixed error with media (#1059)
+Release 8.6.1 version
+Update size limit
+Update dependencies
+[css-grid] move media query cell placements to come after cell styles (#1057)
+Release 8.6 version
+Add ignoreUnknownVersions options
+Increase size limit
+Update dependencies
+[css-grid] Two values, gap prop (#1054)
+Release 8.5.2 version
+Update authors list
+Fix grid template parsing in case of auto row sizes (#1052)
+Release 8.5.1 version
+Remove warning on -webkit-fill-avaiable
+Update dependencies
+update prefixer disabling way in less (#1042)
+Release 8.5 version
+Better radial gradient direction fix
+Update authors list
+Add support for grid-gap (#1032)
+Update Size Limit
+Speed up CI
+Update dependencies
+Fix minor typos (#1040)
+Fix minor typos (#1039)
+Clean .npmignore
+Update Node.js versions
+Update dependencies
+Fix typo (#1033)
+Release 8.4.1 version
+Fix 80 columns line
+fix Processor.disabled(): check if node has parent before get prev() (#1028)
+Better control comment example
+Release 8.4 version
+More compact code
+Clean up tests
+Clean up code
+Update dependencies
+Fix line breaks in docs
+Clean up disabling docs
+"autoprefixer: ignore next" support (#1027)
+Clean up docs
+Update examples for Browserslist w/ best practises (#1026)
+Update dependencies
+Release 8.3 version
+Fix spaces between in grid hack
+[grid-template-areas] Supported grid-template(-areas) in media rules (#1018)
+Update dependencies
+Improve warning test
+Look for outdated gradient syntax only inside radial-gradient block (#1017)
+Release 8.2 version
+Clean up requires in data/prefixes
+Update dependencies
+Add color-adjust declaration support (#1009)
+[color-adjust]: added support for color-adjust declarations (#1007)
+Removed flexbox section since current browsers do not need it
+Update dependencies
+Rename latest Node.js version in Travis CI
+Release 8.1 version
+Update dependencies
+Fix other line break in the docs
+Fix line breaks in docs
+Update size limit
+Fix test coverage
+Disable grid tests in prefixes cleaning
+Clean up code
+[grid-area] Better grid-area (grid-column/row-end) support (#994)
+Add Cult of Martians badge
+Add overscroll-behavior support
+Use fake result in support prefixer
+Update Size Limit
+Update dependencies
+Unify require style
+[grid-template] Added support for grid-template shortcut  (#992)
+Readme stale counts removed, wording improved (#991)
+Release 8.0 version
+Promote postcss-preset-env instead of cssnext
+Fix title paddings in docs
+Update Size Limit
+Remove page-break-* support since it is not a prefix
+Rename autoprefixer CLI
+Use Browserslist 3.0
+Release 7.2.6 version
+Update dependencies
+[grid-template-areas] Repetitive grid-area declarations (#983)
+Fix Browserslist config name
+Don't require sub-files in postcss (#981)
+Add missing space in `autoprefixer -info` CLI docs (#978)
+Release 7.2.5 version
+Fix value prefixing
+Update dependencies
+Release 7.2.4 version
+Update Browserslist
+Update PostCSS
+Fix for IE 9/10 in class which use extends (#963)
+Delete development sections from build package.json
+Remove unnecessary browserlist config from package.json
+Use Jest 22
+Update AUTHORS
+Update dependencies
+Remove unnecessary dependency
+Add IE 10 support to build
+More clear disabling docs
+Release 7.2.3 version
+Update dependencies
+Fix test
+ Fix #954  (#955)
+Release 7.2.2 version
+Fix Size Limit warning
+Update dependencies
+Fix strange issue by stacktrace
+Reduce size & make animation check a little faster (#949)
+Release 7.2.1 version
+Fix old JS runtimes support
+Release 7.2 version
+Fix grid-template-areas warning
+Clean up code
+Add grid-template-areas support (#948)
+Fix Jest warning
+Update dependencies
+Add missing semicolons (#946)
+Update Size Limit
+Copy bin scripts to build directory
+Add autoprefixer-info CLI tool
+Remove unsupported Grid warning
+Improve test coverage
+Add warnings for old radial syntax
+Use ESLint CI instead of ESLint
+Update dependencies
+Clean up grid hacks
+Merge branch 'master' into master
+Add support for grid-template shorthand
+Add code coverage, tests of initializing and remove not used code (#928)
+Update dependencies
+Clean up code
+Add partial grid-area support, improve grid-row and grid-column support (#938)
+Do not prefix modern animation-direction values
+Clean up code
+Update dependencies
+Add Node.js 8 to Travis CI
+Provide a default file path for info() output (#932)
+Release 7.1.6 version
+Add warning for multiple control comments
+Add warning for having browserslist option
+Fix rare case in indent changes
+Update dependencies
+Release 7.1.5 version
+Fix ::placeholder prefix for Edge
+Fix common values in flex-direction
+Update dependencies
+Clean up comments
+Bugfix reuse of global RegEx object. (#918)
+Update dependencies
+Fix typos (#908)
+Fix other builder section
+Link to Neutrino build tool integration in Readme (#901)
+Release 7.1.4 version
+Reduce Size Limit quota
+Allow to use image-set in cursor
+Fix radial gradient direction convertion
+Update dependencies
+[Refactor] Removes redundant else structures (#895)
+[Refactor] Removes redundant else structures (#889)
+[Refactor] Removes redundant else structures (#891)
+[Refactor] Removes redundant else structures (#892)
+[Refactor] Removes redundant else structures (#893)
+[Refactor] Removes redundant else structures (#890)
+[Refactor] Removes redundant else structures (#888)
+[Refactor] Removes redundant else structures (#887)
+[Refactor] Removes redundant else structures (#886)
+Release 7.1.3 version
+Update dependencies
+Add warning for old radial gradient direction
+Update dependencies
+Update Browserslist
+Update dependencies
+Clean up CLI example
+Added npx example for CLI (#872)
+Update dependencies
+Update dependencies
+Update dependencies (#867)
+Update dependencies
+Update dependencies
+Update Size Limit
+Release 7.1.2 version
+Add text-decoration support
+Update dependencies
+Add Babelify to standalone build
+Update dependencies
+Update Size Limit
+Add size-limit
+Update dependencies
+Add min-resolution to FAQ
+Update dependencies
+Update dependencies
+Fix indent
+Add the usage description for webpack 2 (#847)
+Release 7.1.1 versionn
+Clean up code
+Update dependencies
+Fix: In CSS grid, only Safari needs to add the -webkit- prefix to min-content/max-content values. (#840)
+Release 7.1 version
+Add unicode-bidi support
+Move Jest and ESLint from Gulp
+Update Can I Use
+Fix intrinsic prefixes in Grid
+Use -webkit- prefix for appearance in Edge
+Explicit way to set directory for info()
+Update dependencies
+Clean up process.cwd usage in info()
+fix: info() not picking up browserlist configuration (#838) (#839)
+Clean up section about postcss-unprefix
+add link of `postcss-unprefix` (#836)
+Fix typos (#835)
+Release 7.0.1 version
+Fix Autoprefixer for old V8 and browsers
+Update PostCSS
+Release 7.0 version
+Update Browserslist
+Use PostCSS 6.0
+Update dependencies
+Disable grid option by default
+Split disabled logic for add and remove
+Clean up code
+Update Browserslist
+Use Browserslist 2
+Fix -ms-grid-column-align
+Replace initClass() to static propeties
+Add missed test after Coffee to JS convertion
+Fix transition prefixer after Coffee to JS convertion
+Clean up code
+Normalize if spaces
+Make clear vars and beforeEach connection
+Clean up tests
+Replace Mocha to Jest
+Fix cache checking
+Add browsers to babel-preset-env
+Remove browsers from Babel build
+Update Yarn lock
+Add ESLint CLI
+Clean up after ES6 migration
+Add lint-staged
+Enable lint for tests too
+Fix test/prefixes.js
+Fix test/prefixer.js
+Fix test/old-value.js
+Fix test/old-selector.js
+Fix test/info.js
+Fix test/declaration.js
+Fix test/browsers.js
+Fix test/brackets.js
+Fix test/at-rule.js
+Fix test/selector.js
+Fix test/supports.js
+Fix test/utils.js
+Fix test/value.js
+Update yarn.lock
+Fix data/prefixes.js
+Fix code string max length
+Fix ignoring important file
+Fix gulpfile
+Remove bad disables from ESLint
+Update AUTHORS
+Use standard PostCSS .editorconfig
+Porting to JavaScript (#812)
+Initial caniuse-lite implementation.
+Remove node.js 0.12 limits
+Drop Node.js 0.12 support
+Update PostCSS API URL (#829)
+Update dependencies
+Update dependencies
+Fix postcss-cli usage (#808)
+Update link to Codekit (#809)
+Update dependencies
+Update README.md (#800)
+Release 6.7.7 version
+Fix order for non-digit values
+Update dependencies
+Update README.md (#797)
+Release 6.7.6 version
+Update authors
+Update dependencies
+Derive from font-kerning feature (#795)
+Release 6.7.5 version
+Update dependencies
+Clip Path should derive from css-clip-path feature (#793)
+Add prefix to text-decoration-skip in IOS (#792)
+Add ChangeLog description
+Release 6.7.4 version
+Update dependencies
+Release 6.7.3 version
+Update dependencies
+Rename fill to stretch
+Clean up Sass comment note
+Shorter documentation for disabling in Sass/SCSS (#788)
+Fix typography
+add postcss-font-family-system-ui to FAQ section (#780)
+Release 6.7.2 version
+Update dependencies
+Do not generate flex/grid prefixes in supports if user disable them
+Release 6.7.1 version
+Update dependencies
+Release 6.7 version
+Update dependencies
+Update Browserslist and PostCSS
+Add flex-flow partial support for 2009 spec
+Clean up code
+Fix no-prefix future warning
+Update dependencies
+Release 6.6.1 version
+Update dependencies
+Update README.md (#760)
+Update dependencies
+Augment prefixes data with feature name (#758)
+Fix README. (#757)
+Release 6.6 version
+Add yarn.lock to git
+Use Browserslist 1.5
+Fix indent
+Release 6.5.4 version
+Use yarn
+Update dependencies
+Add hack for unitless 0 basis in IE10/IE11 shorthand flex (#749)
+Clean up AUTHORS list
+Add AUTHORS using list generated from git log (#751)
+Update dependencies
+Removed unused require (#743)
+Release 6.5.3 version
+Add warning for popular mistake
+Updatae dependencies
+Release 6.5.2 version
+Update dependencies
+Add nod.js 7 to Travis CI
+Remove duplicated text-emphasis (#740)
+Update dependencies
+Fix minor typo in README.md (#733)
+Release 6.5.1 version
+Update dependencies
+Fix -- selector support
+Update dependencies
+fix link to autoprefixer-rails (#725)
+Update dependencies
+Release 6.5 version
+Update dependencies
+Generates -ms-flex-item-align on align-self instead on align-items
+Fix align-self cleaning on webkit and webkit 2009
+Do not add grid prefix for align-items with flexbox value
+Update dependencies
+Update dependencies
+Release 6.4.1 version
+Update dependencies
+Fix null cloning
+Update EditorConfig
+Update dependencies
+update postcss-cli link (#700)
+Update dependencies
+Add code format to ChangeLog
+Release 6.4 version
+Add :any-link support
+Update dependencies
+Use better data for text-decoration-skip
+Fix node.js 0.12 support
+Fix backface-visibility prefix for Safari 9
+Use Safari way for Opera 12 transition
+Add text-decoration-skip support
+Add transition: duration property; support
+Remove Grid Layout Safari TP support
+Add postcss-flexbug-fixes
+Make tests independent from browsers statistics update
+Update dependencies
+Repair unit conversion. (#664)
+Release 6.3.7 version
+Update dependencies
+Fix stranhe null.constructor() error
+Update dependencies
+Add .editorconfig to .npmignore
+Use node.js 6 on Travis CI
+Add new question to FAQ
+fix #661 (#662)
+Update dependencies
+Release 6.3.6 version
+Add -webkit- support to Grid
+Clean up code
+Update dependencies
+More robust Opera prefix test
+Release 6.3.5 version
+Prevent double prefixing
+Update dependencies
+Release 6.3.4 version
+Add newline between browsers and coverage
+Update dependencies
+Release 6.3.3 version
+Fix compilcated transition warning
+Use shared ESLint config
+Sudo option is now default on Travis CI
+Release 6.3.2 version
+Update dependencies
+Merge pull request #619 from MeoMix/master
+Add .json file-ending to all relevant require statements
+Merge pull request #615 from coryhouse/patch-2
+Grammar fixes
+Merge pull request #613 from mortonfox/patch-1
+postcss-cssnext repo has moved
+Release 6.3.1 version
+Fix Flexibility compatibility
+Release 6.3 version
+Add stats option to pass it to Browserslist
+Update dependencies
+Merge pull request #607 from harianus/patch-1
+Fix styling backtick
+Warn user on unsupported Grid features
+tes no warnings during common tests
+Do not prefix unsupported values
+Add grid-row and grid-column support
+Add text-spacing support
+Add grid-*-end basis support
+Fix README option value example
+Allow to disable 2009 flexbox
+Allow to disable at-supports, flexbox and grid support
+Clean up indents
+Fix compatibility with other PostCSS plugins in some cases
+Add Grid Layout support
+Clean up code
+Update Browserslist
+Release 6.2.3 version
+Found real source of prev transtion issue
+Merge pull request #598 from ntwb/travis-nodejs-versions
+Travis CI: Switch deprecated `stable` NodeJS to `5` to test the latest 5.x.x NodeJS version
+Release 6.2.2 version
+Update dependencies
+Safer transition check for some broken CSS
+Release 6.2.1 version
+Update Can I Use dependency
+Clean up transition safer
+Add tests for transition issue
+Merge pull request #592 from jvdanilo/patch-1
+indexOf undefined
+Release 6.2 version
+Update should.js
+Normalize angle range
+Add other angle units support
+Remove logo.svg from npm build
+Remove old test file
+Update dependencies
+Better support for old WebKit gradients
+Use only @supported browsers in @support prefixes
+Fix node.js 0.12 support
+Normalize warning messages
+Add warning for complicated transition cases
+Support old fill-available too but produce warning
+Rename fill hack
+We do not need comments here
+Merge pull request #583 from yisibl/fix-fill-available
+Show warning on wrong text-emphasis-position value
+Update dependencies
+Typo
+Clean up files
+Merge pull request #587 from heady/@supports-animation
+@supports animation
+Rewrite @supports support
+Add time capsule with a message for prefix-less future
+Add simple brackets parser
+Merge pull request #585 from heady/support-tests
+Test cases for support
+Update dependencies
+Clean up tests
+Merge pull request #581 from yisibl/fix-text-emphasis
+Better notes
+Fix comment error
+Intrinsic & extrinsic sizing rename 'fill-available' to 'fill'
+Fix text-emphasis-position reverse order
+Add text-emphasis support
+Smarter brackets cleaner in support at-rule prefixer
+Merge pull request #580 from heady/support-parenthesis
+Wrapping ( or )
+Merge pull request #579 from ReadmeCritic/master
+Update README URLs based on HTTP redirects
+Release 6.1.2 version
+Update dependencies
+Merge pull request #572 from lexich/gradient-fix
+Fix: range bound bug
+Update polyfill recommendations
+Merge pull request #569 from danez/patch-1
+Typo in CHANGELOG.md
+Merge pull request #567 from shvaikalesh/master
+oops
+made few adjustments
+corrected typos & grammar
+Release 6.1.1 version
+Use different data for cursor: grab
+Update dependencies
+Release 6.1 version
+Remove outdated mark
+Fix prefixer check
+Update dependencies
+Fix node.js order in Travis CI
+We already have node.js 5 in stable
+Add node.js 5 and latest 4 to Travis CI
+Update FilterValue comments
+Return filter-value because it is used not only in transition
+Remove outdated transition
+New way to add prefixes to transition
+Remove transform value hack
+Remove transition code from value prefixer
+Remove transition note in info()
+Add Transition class
+Remove filter value hack
+Fix hacks order
+Clean up code
+Add :read-only support
+Fix Autoprefixer for PostCSS JS and other cases with nodes without sources
+Update dependencies
+Merge pull request #547 from huyinghuan/patch-1
+Update README.md
+Return section part to Google link
+Merge pull request #544 from vishnuravi/master
+fixed google URL
+Add postcss-js usage example
+Add transition support to backdrop-filter
+Rewrite gradient hack wwith postcss-value-parser
+Merge pull request #528 from ocean90/gradients-test
+Replace rotateZ to rotate for IE 9
+Add -ms- and -o- as common mistakes to transform-style
+Better control comments check
+Prefix any appearance values
+Update npm dependencies
+Tests: Add test for gradients on new lines
+Add node.js 4.0 to Travis CI
+Release 6.0.3 version
+Fix gradient direction warning
+Update dependencies
+Merge pull request #515 from Andersos/patch-1
+Fix link in options section in README.
+Merge pull request #512 from robhowell/patch-1
+Fixed typo: "directiom" should be "direction"
+Release 6.0.2 version
+Remove -khtml- prefix from animations properties
+Remove -khtml-user-select and -khtml-box-shadow
+Update dependencies
+Remove -khtml-border-radius too
+Release 6.0.1 version
+Update Can I Use dependencies
+Merge pull request #510 from yisibl/fix-cross-fade
+Fix cross-fade() not support <number>
+Add few points to 6.0 changes
+Release 6.0 version
+Update Can I Use dependency
+Merge pull request #509 from nickspielgist/patch-1
+Fixed typo in browser options
+Show gradient warning even if there is no gradient prefixes
+Fix IE writing-mode data
+Join projects
+Typo
+Update CoffeeScript
+Add cross-fade support
+Add writing-mode support
+Update dependencies
+Add other break-* props to multicolumn hack
+Fix filter transition behaviour
+Fix old mask-border removing
+Fix removing old pixelated values
+Fix image url in -webkit-image-set
+Add .editorconf
+Change online demo tool
+Fix styles indent
+Must be support image-set(string) to url()
+The mask-border property should be in turn.
+Add image-set support
+Add max-box-image support
+Return old name until full merge
+Shorter link to repository from package.json
+Clean up old separation
+Use Browserslist 1.0
+Add CSS Regions support
+Add ::backdrop support
+Add warnings to docs
+Remove old migration warning
+Add Scroll snap points support
+Remove deprecated API
+Reduce Usage section
+Merge Autoprefixer and Autoprefixer Core projects
+Remove node.js 0.10 from Travis CI
+Merge branch 'master' of https://github.com/iamvdo/autoprefixer-core into next6
+Update dependencies
+Upgrade to postcss 5.*
+Merge pull request #499 from renestalder/patch-1
+update grunt example
+Update dependencies
+Add EOF to test files
+Fix typo
+Add element() function support
+Add filter() function support
+Add backdrop-filter support (fix postcss/autoprefixer#495)
+Merge pull request #484 from helm168/master
+fix typo error of sample code at section Outdated Prefixes
+Fix broken link
+Update dependencies
+Merge pull request #472 from maxmechanic/docs
+Consistently pluralize 'versions' to match Browserslist usage
+Fix line breaks
+Merge pull request #469 from michaelbeil/patch-1
+Edit README.md
+Merge pull request #59 from evilebottnawi/patch-2
+comment copy-past error
+Merge pull request #58 from evilebottnawi/patch-1
+fix typo
+Release 5.2.1 version
+Merge pull request #57 from joshgillies/bug
+Update dependencies
+Fix issue occuring when '_autoprefixerDisabled' is undefined
+Add postcss-unprefix
+Update dependencies
+Merge pull request #466 from badisa/patch-2
+Minor Typo
+Clean up links
+Clean up unprefixed FAQ
+Merge pull request #461 from hallvors/patch-1
+Mention flexboxfixer and gradientfixer in autoprefixer docs
+Fix link
+Clean up docs
+Merge pull request #459 from hudochenkov/master
+Add Options section in readme
+Add Grunt usage example
+Merge pull request #458 from postcss/prepros
+Fix CodeKit link
+Readd back Prepros in tools
+Merge pull request #456 from DanielGarcia-Carrillo/patch-1
+Corrects postcss cli command for documentation
+Releasee 5.2 version
+Update npm dependencies
+Fix links order
+Clean up README.md
+Clean up README.md
+Use uppercase names for all docs
+Update Can I Use data
+Do not show warnings on outdated prefixes
+Add position to gradient warning
+Update npm dependencies
+Add prefixes only for ::placeholder
+Sudo-less install instructions
+Fix cascade in cache key
+Add cascade to cache key
+Faster clone
+Update Can I Use database
+Better gradients tests
+Fix text-decoration prefixes
+Prefix only none appearance value
+Add PostCSS Runner Guidelines
+Add warning about gradient direction syntax
+Warn on old crisp-edges value
+Prefix pixelated instead of crisp-edges
+Warn on display: box
+Update PostCSS and Can I Use
+Update README.md to use PostCSS API instead of deprecated internal
+Add warning to ::placeholder
+Add prefixes cache
+Add add option
+Deprecate process() method
+Use PostCSS 4.1 plugin API
+Add postcss-plugin ketword
+Add appearance support
+Update dependencies
+Merge pull request #48 from stevemao/patch-1
+Merge pull request #49 from stevemao/patch-2
+Fix options in README
+Fix postcss source-map link
+Add Outdated Prefixes section
+Remove Prepros because it uses AP 4.x
+Move Grunt to other build tools
+Remove outdated Autoprefixer plugins
+Fix FAQ order
+Remove gradients from FAQ
+Remove display: box from FAQ
+Remove appearance from FAQ
+Merge pull request #451 from stevemao/patch-1
+Update postcss plugins link
+Fix links
+Release 5.1.11 version
+Update num2fraction to 1.1.0
+Release 5.1.10 version
+Update npm dependencies
+Do not generate -webkit-image-rendering
+Merge pull request #42 from martco/patch-1
+Update README.md
+Release 5.1.9 version
+Update npm dependencies
+Add webkit-keyframes question to FAQ
+Merge pull request #41 from halfninja/patch-1
+DynJS compatibility
+Update npm dependencies
+Compress logo by SVGO
+Release 5.1.8 version
+Fix old webkit gradient ignoring
+Add old webkits to mask background too
+Add mask properties to gradients
+Typo in README.md
+Update npm dependencies
+Fix word wraps in docs
+Clean up docs
+Merge pull request #418 from aruseni/patch-1
+Improve the README text quality
+Merge pull request #416 from AllThingsSmitty/master
+Removed -moz- prefix in README example
+Merge pull request #414 from farcaller/patch-1
+Updated readme section about `appearance` to be more readable
+Release 5.1.7 version
+Fix versioins header
+Update npm dependencies
+Merge pull request #34 from iamvdo/master
+Fix: :placeholder-shown is a pseudo-class, not pseudo-element
+Release 5.1.6 version
+Update npm dependencies
+Merge pull request #32 from iamvdo/master
+Add ::placeholder-shown support
+Merge pull request #412 from arhoads/patch-1
+Fix typo and grammar in readme
+Merge pull request #411 from bernig/patch-1
+Fixed a typo in README.md
+Fix holy 80 columns line
+Update polyfill section in FAQ
+Release 5.1.5 versioin
+Add transition to CSS Masks
+Take prefix exception from Can I Use
+Release 5.1.4 version
+Update dependencies
+Add -webkit- prefix support for Opera Mobile too
+Add iojs to Travis CI
+Add node.js 0.12 to Travis CI
+Release 5.1.3 version
+Update Can I Use data
+Add IE support for crisp-edges
+Release 5.1.2 version
+Update dependencies
+Add @-ms-keyframes to common mistakes list
+Add @-ms-keyframes to common mistakes list because of Font Awesome
+Release 5.1.1 version
+Update Can I Use package
+Safer string split in flex hack
+Release 5.1 version
+Update CoffeeScript
+Do not add -moz- if resolution query contains dpi
+Clean up data/prefixes
+Add gradients difference from Can I Use
+Do not convert Can I Use agents
+Clean prefixes data
+Take flexbox spec version from Can I Use
+Take logical props data from Can I Use
+Use Browserslist 0.2
+Add logical inline border support for Firefox
+Clean up browsers data code
+Fix inline logical border
+Fix border logical property
+Add border for CSS logical properties
+Add block logical properties support
+Case insentive resolution prefixer
+Update dependencies
+Use safer .style() instead of direct .before
+Merge pull request #31 from jasonkuhrt/patch-1
+Update processor.coffee
+Update Browserslist
+Save code style on at-rule clone
+Use rationals in Opera resolution media query
+Add support for -moz- and -o- prefixes to resolution media query
+Add logical properties support
+Support decimal value
+Add remove option to README.md
+Clean up code
+Do not remove vendor-hack prefixed values
+Clean up code
+Add crisp-edges support
+Add text-align-last support
+Update dependencies
+Do not create separated transition for -webkit-filter
+Add utils.editList
+Clean up comment
+Clean up hack name
+Clean resoluion media queries from old prefixes
+Add prefixes for resolution media query
+Fix missed browsers
+Fix comment
+Add @viewport support
+Add notice about appearance
+Do not remove -webkit-background-clip with non-spec text value
+Add autoprefixer.defaults
+Add text-emphasis
+Remove unnecessary test cases
+Support text-overflow
+Update dependencies
+Add missed change to ChangeLog.md
+Mention that Compass config.rb hack is a hack
+Fix Compass map support
+Release 5.0 version
+Update dependencies
+Add readable name for UC Browser
+Add CSS Shape support
+Add object-fit and object-position support
+Add prefixes to gradients in lists
+Add CSS Grace plugin to README.md
+Use Autoprefixer Core 5.0 from master
+Add Taobao to main users
+Add nbsp to README.md
+Clean up docs
+Add Browserslist link to docs
+Use Browserslist
+Update dependencies
+Use released PostCSS 4.0 version
+Use PostCSS 4.0 from master
+Same link as in Autoprefixer docs
+Merge pull request #24 from denis-sokolov/patch-1
+Readme: update live demo link as it's moved to jsbin
+Shorter big users
+Move big companies to top
+Change main example
+Add support list link to FAQ
+Typo
+Merge pull request #369 from lukeapage/master
+Add instructions on using with less
+Update dependencies
+Clean up Compass config example
+Add map support to Compass config
+Update dependencies
+Speed up Travis CI
+Typo
+Remove outdated browser query
+Add Evil Martians badge
+Add Evil Martians badge
+Merge pull request #364 from trevorah/patch-2
+Removed weird comma
+Update dependencies
+Merge pull request #363 from trevorah/patch-1
+Updated hack count
+Release 4.0.2 version
+Update dependencies
+Remove -o-border-radius too
+Use SVG Travis CI badge
+Use SVG Travis CI badge
+Add html-autoprefixer to README.md
+Update dependencies
+Typo
+Merge pull request #353 from aderyabin/readme_jekyll
+Add Jekyll usage to Readme
+Update dependencies
+Remove deprectated none browsers selection
+Release 4.0.1 version
+Update dependencies
+Merge pull request #19 from iamvdo/master
+Fix regex for @supports rule
+Update PostCSS dependency
+Remove broken Prepros image
+Add famous users to README.md
+Release 4.0 version
+Use PostCSS 3.0.1
+Add box-decoration-break support
+Update map options docs
+Use stable PostCSS 3.0
+Update Can I Use dependency
+Update should.js
+Do not remove old prefixes on remove: false
+Do not add old webkit prefix for gradients with px
+Fix line breaks in README.md
+Clean up PostCSS mention
+Use PostCSS 3.0 RC from master
+Add support for PostCSS 3.0
+Add postcss-epub to README.md
+Merge pull request #338 from rfsbsb/patch-1
+Updating Firefox ESR version
+Clean up flexbox in FAQ
+Add old flexbox question to FAQ
+Release 3.1.2 version
+Update Firefox ESR version
+Update dependencies
+Fix 80 columns line
+Merge pull request #330 from adam-lynch/patch-1
+README: change of wording for disabling section
+Release 3.1.1 version
+Fix standalone build for Java Rhino
+Update dependencies
+Use flexbox 2009 in old Android
+Merge pull request #12 from davidpike7/master
+Correct URL typo in README
+Update dependencies
+Use postcss-loader in webpack example
+Change demo URL
+Use grunt-postcss in example
+Corrected English grammar in README.md
+README.md, Browsers section: Document the < and <= operators.
+Correct example input
+Merge pull request #8 from Subash/patch-1
+Update README.md
+Add missing feature author to ChangeLog.md
+Release 3.1 version
+Update dependencies
+Add special hack for transition: filter
+Show message if your doesn't need Autoprefixer anymore
+Save comments in prefixed values
+Added a failing test - multiline comments should not be removed when specified within css calc().
+Merge pull request #6 from papandreou/olderThan
+Fixed typo: newerTh{e => a}n
+Browsers: Implemented < and <= operators for selecting browsers older than a specific version.
+Correct example input
+Update README.md
+Merge pull request #308 from kohgpat/fix-gulp-readme
+Fix incorrect example in gulp section in README
+Merge pull request #3 from radium-v/master
+Release 3.0.1 version
+Update dependencies
+Safer autoprefixer.postcss
+Allow Safari 6.1 to use final Flexbox spec
+Use new CoffeeScript 1.8
+Use new object shortcut from PostCSS 2.2.2
+Use new object shortcut from PostCSS 2.2.2
+Normalize index in package.json
+Release 3.0 version
+Use autoprefixer-core in Gulp example
+Update dependencies
+Change owner in docs
+Change GitHub owner in docs
+Fix example with new API
+Fix new API examples
+Clean up Visual Studio steps
+Fix dead link in README.md
+Clean up links in README.md
+Reorder How Tos in README.md
+Fix features titles
+Add source map support to Gulp example
+Remove unnecessary details of ASP.NET and Visual Studion How Tos
+Clean up .NET and Visual Studio sections
+Add webpack loader
+Pack other build tools to one section
+Decrease How Tos size
+Clean up How Tos in README.md
+Move interactive demo upper
+Fix line break in README.md
+Clean up README.md
+Add more section to README.md
+Clean up README.md
+Fix line breaks in README.md
+Typo
+Set browsers to option object
+Fix variable in standalone task
+Add standalone build task to Gulp
+Add lint for pure JS files
+Fix README.md line breaks
+Use Gulp instead of Cake
+Add process() options to README.md
+Clean up README.md
+Move project to PostCSS GitHub org
+Clean .npmignore
+Remove standalone build task
+Remove benchmark
+Remove logo
+Remove binary
+Use PostCSS 2.2
+Update dependencies
+Add Travis CI badge
+Add Travis CI badge
+Update PostCSS
+Fix line breaks in README.md
+Fix line breaks in README.md
+Fix 80 holy line
+Fix 80 holy line
+Merge pull request #296 from kieranju/master
+Merge pull request #296 from kieranju/master
+README.md rewording and grammatical fixes
+README.md rewording and grammatical fixes
+README.md rewording and grammatical fixes
+README.md rewording and grammatical fixes
+Update dependencies
+More line break fixes in README.md
+More line break fixes in README.md
+Fix typography of README.md
+Fix typography of README.md
+Clean up README.md
+Clean up README.md
+Merge pull request #293 from stigok/patch-1
+Merge pull request #293 from stigok/patch-1
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Merge pull request #292 from dotch/master
+Merge pull request #292 from dotch/master
+spelling fixes to make the readme more understandable
+spelling fixes to make the readme more understandable
+Release 2.2 version
+Update dependencies
+Use PostCSS 2.1 from npm
+Fix more prototype definitions for Rhino in standalone build
+Try to fix standalone build for Rhino
+Update development devependencies
+Print CSS example on syntax error
+Set height for logo image in README.md
+Set height for logo image in README.md
+Use new PostCSS from master
+Update Browserify
+Fix safe mode example
+Fix safe mode example
+Update dependencies
+Replace strict mode to safe
+Replace strict mode to safe
+Move to unreleased PostCSS 2.0
+Move to unreleased PostCSS 2.0
+Allow to disable Autoprefixer by control comment
+Remove old deprecated option and method
+Allow to disable Autoprefixer by control comment
+Merge pull request #282 from Taritsyn/master
+Merge pull request #282 from Taritsyn/master
+README.md: Fixed images width
+README.md: Fixed images width
+Clean up README.md
+Clean up README.md
+Merge pull request #281 from Taritsyn/master
+Merge pull request #281 from Taritsyn/master
+README.md: Added the Visual Studio section and updated ASP.NET section
+README.md: Added the Visual Studio section and updated ASP.NET section
+Release 2.1.1 version
+Update dependencies
+Fix background-size hack on contain and cover values
+Fix 80 columns line
+Fix 80 columns line
+Merge pull request #274 from battaglr/patch-1
+Merge pull request #274 from battaglr/patch-1
+Update browser short aliases
+Update browser short aliases
+Merge pull request #273 from iamvdo/patch-1
+Don't add webkit prefixes when a data-uri is set
+Release 2.1 verion
+Add CSS masks support
+Revert "Don't add webkit prefix to SVG filters"
+Release 2.0.2 version
+Clean up README.md
+Clean up README.md
+Merge pull request #271 from Taritsyn/master
+Merge pull request #271 from Taritsyn/master
+Update fs-extra
+README.md: Added ASP.NET section and updated .NET section
+README.md: Added ASP.NET section and updated .NET section
+Don't prefix 3D transforms for Opera
+Fix inspect for new browsers
+Add readable aliases for new browsers
+Add readable aliases for new browsers
+Don't add webkit prefix to SVG filters
+Release 2.0.1 version
+Fix cascade tests
+Test, that docs example is actual
+Use common between fix in Prefixer
+Merge pull request #268 from iamvdo/master
+Fix `between` only in Declaration and Value prefixer
+Fix origin declaration style on cloning node
+Sve origin declaration style on cloning
+Update source map docs
+Update source map docs
+Release 2.0 version
+Update dependencies
+Use PostCSS 1.0 release
+Fix cascade docs
+Fix cascade docs
+Clean @supports from unnecessary and doubled prefixes
+Always set Prefixes#add["@selected"]
+Add Prefixes#cleaner()
+Add old tests to commons tests
+Nobody cares about current speed feature
+Prefix properties in @supports
+Use all browsers from Can I Use
+Add Supports prefixer
+Nobody cares about current speed feature
+Add --sources-content option to binary
+Add --annotation option to binary
+Replace -c binary option to --no-cascade
+Enable cascade by default
+Restore cascade after delete declaration
+Fix IE Mobile name in info
+Do no select minor browsers in popularity requirement
+Use all browsers from Can I Use
+Allow to use latest Autoprefixer from git
+Use PostCSS 1.0 branch from git
+Remove data/names
+Use Can I Use browser names inside Autoprefixer
+Remove lib/caniuse
+Release 1.3.1 version
+Fix gradient hack with background with color
+Release 1.3 version
+Set caniuse-db version in better way
+Add support for background-size for Android 2
+Fix Holy 80 columns line
+Add text-size-adjust support
+Update README.md about caniuse-db
+Update README.md about caniuse-db
+Update development dependencies
+Release 1.2.0 version
+Fix browserify require autodetect support
+Update development dependencies
+Clean up dependencies in package.json
+Use Can I Use npm packages for prefixes data too and remove old in-package updater
+Use Can I Use npm packages for prefixes data too and remove old in-package updater
+Use Can I Use npm package for browsers data
+Release 1.1.20140605 version
+Update npm dependencies
+Fix parsing gradient stops without space separator
+Add iOS 8 and Android 4.4.3 data
+Update browsers usage statistics
+Merge pull request #257 from lydell/master
+Merge pull request #257 from lydell/master
+Add link to brunch plugin
+Add link to brunch plugin
+Clean up text
+Clean up text
+Merge pull request #256 from vegardlarsen/master
+Merge pull request #256 from vegardlarsen/master
+Add link to .NET version.
+Add link to .NET version.
+Release 1.1.20140523 version
+Update development dependencies
+Release Opera 21 and add Opera 23 data
+Release 1.1.20140521 version
+Update development dependencies
+Release Chrome 35 and add Chrome 38 data
+Release 1.1.20140512 version
+Update development dependencies
+Remove -moz- prefix for wavy text decoration
+Update Safari prefixes
+Release 1.1.20140510 version
+Update development dependencies
+Ignore -ms- prefix in 3D transforms
+Add more code tags to ChangeLog.md
+Add code tags to ChangeLog.md
+Update browser usage statistics
+Merge pull request #250 from nschonni/patch-1
+Fix heading levels of patch releases
+Release 1.1.20140430 version
+Update benchmark
+Update benchmark
+Separate 2D and 3D transform prefixes
+Release Firefox 29 and add Firefox 32 data
+Release 1.1.20140429 version
+Fix cursor updater fix
+Clean up code
+Merge pull request #247 from nschonni/cursor-vendor-prefix-values
+Update development dependencies
+Fix updater with new GitHub RAW API
+Cursor: Fix Zoom and Grab prefixing ranges
+Merge pull request #246 from arikon/feature/issue-245
+Support alternative order of words to describe gradient direction
+Add test for non from gradient fix
+Merge pull request #243 from arikon/feature/color-stops-pos
+Do not ignore color stop positions for the first and last gradient colors
+Add inline-box support
+Release 1.1.20140410 version
+Update development dependencies
+Release Chrome 34 and add Chrome 37 data
+Fix Holy 80 line
+Fix Holy 80 line
+Merge pull request #234 from Grawl/patch-1
+Merge pull request #234 from Grawl/patch-1
+Update README.md
+Update README.md
+Merge pull request #233 from imathis/master
+Merge pull request #233 from imathis/master
+AutoprefixerRails.process is the correct method.
+AutoprefixerRails.process is the correct method.
+Update speed description
+Update speed description
+Fix Chrome 36 data
+Typo
+Typo
+Remove node.js 0.8 from test
+Release 1.1.20140403 version
+Update development dependencies
+Update statistics and release Opera 20
+Release 1.1.20140327 version
+Update Sass and Compass in benchmark
+Fix Blackberry 10 data
+Update AutoprefixerRails API in docs
+Update AutoprefixerRails API in docs
+Don't generate -ms-transform inside @keyframes
+Clean up directly version docs
+Clean up directly version docs
+Release 1.1.20140319 version
+Update npm dependencies
+Don't add prefixed, which already hacked after
+Release FF 28 and add FF 31 data
+Update Compass in benchmark
+Normalize spaces inside value before check
+Clean trailing spaces
+Clean trailing spaces
+Merge pull request #219 from Aaron3/patch-2
+Merge pull request #219 from Aaron3/patch-2
+Update README.md
+Update README.md
+Grammar changes in README.md
+Grammar changes in README.md
+Merge pull request #218 from Aaron3/patch-1
+Merge pull request #218 from Aaron3/patch-1
+Fixing grammar
+Fixing grammar
+Merge pull request #213 from corysimmons/patch-1
+Merge pull request #213 from corysimmons/patch-1
+Add COdeKit section to README.md
+Add COdeKit section to README.md
+Update README.md
+Update README.md
+Add Broccoli and Atom links
+Add Broccoli and Atom links
+Merge pull request #212 from sindresorhus/patch-1
+Merge pull request #212 from sindresorhus/patch-1
+readme - add link to Atom package and Broccoli plugin
+readme - add link to Atom package and Broccoli plugin
+Use official Can I Use to get text-decoration-* data
+Add some BlackBerry data
+Release 1.1.20140302 version
+Use new PostCSS version
+Update usage statistics
+Speed up text-decoration updater
+Add text-decoration support
+Release 1.1.20140226 version
+Update development dependencies
+Release Chrome 33 and add Chrome 36 data
+Release 1.1.20140222 version
+Update dependencies in package.json
+Clean up ChangeLog
+Support touch-action prop
+Merge pull request #206 from Justineo/master
+Merge pull request #206 from Justineo/master
+Update README.md
+Update README.md
+Add forgotten feature to ChangeLog
+Release 1.1 version
+Update browserify
+Add break-inside hack
+Add ECMAScript 6 note to README.md
+Add ECMAScript 6 note to README.md
+Clean up README.md
+Clean up README.md
+Typo in README.md
+Typo in README.md
+Add Why CS section to README.md
+Add Why CS section to README.md
+Clean up code
+Merge pull request #203 from Rowno/box-flex-keywords
+Add flex:auto|none fallbacks for box-flex
+Fix JS syntax in README.md
+Fix JS syntax in README.md
+More stable benchmark
+More stable benchmark
+Update browserify package
+Better group detect
+Use better flex props for IE 10
+Add tests for new method in declaration
+Improve selector hacks support
+Update benchmark to CoffeeScript 1.7
+Fix example with visual cascade
+Fix example with visual cascade
+Add optional visual cascade
+Add optional visual cascade
+Works with Comment node from PostCSS 0.3
+Move to PostCSS 0.3
+Move to PostCSS 0.3
+Remove unnecessary csso require
+Remove unnecessary csso require
+Remove old deprecated methods from 1.0
+Release 1.0.20140213 version
+Update npm packages
+Release Firefox 27
+Better errors output while build process
+Merge pull request #197 from ocean90/patch-1
+Add a case-insensitive test for IE filter
+IE filter: Convert alpha() value to lowercase
+Merge pull request #195 from simevidas/patch-1
+Merge pull request #195 from simevidas/patch-1
+Update README.md
+Update README.md
+Improve selector RegExp
+Clean up README.md links
+Clean up README.md links
+Add demo to README.md
+Add demo to README.md
+Use CoffeeScript 1.7 string features
+Merge pull request #192 from lydell/regex
+Improve regex readability
+Merge pull request #187 from Voles/master
+Merge pull request #187 from Voles/master
+Update README.md
+Update README.md
+Still use -o- prefix for Opera in config
+Release 1.0.20140203 version
+Update development dependencies
+Release Android 4.4, Opera 19, add Opera 21 data and update usage statistics
+Release 1.0.20140130 version
+Fix flexbox in transitions
+Better string diffs
+Update npm packages
+Update Can I Use browser versions API
+Update FF 29 data
+Clean up versions documentation
+Clean up versions documentation
+Clean up README.md
+Clean up README.md
+Merge pull request #179 from damonbauer/master
+Merge pull request #179 from damonbauer/master
+Release Android 4.4, FF 27, Opera 19 and Chrome 33
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Add nbsp to README.md
+Add nbsp to README.md
+Release 1.0.20140117 version
+Update development packages
+Release Chrome 32 and add Chrome 34 data
+Add gradients note to FAQ
+Add gradients note to FAQ
+Release 1.0.20140110 version
+Use capitalize browser names
+Use capitalize browser names
+Fix documnetation
+Fix documnetation
+Use readable titles in default browsers
+Add ff esr browser requirement
+Mark Opera 18 as released and add Opera 20 data
+Release 1.0.20140109 version
+Update development dependencies
+Remove outdated prefixes before add new
+Find selectors by regexp
+Add selectors and at-rules groups to debug info
+Release 1.0.20140103 version
+Update development dependencies
+Update browsers popularity
+Use css-sticky from caniuse master
+Add position: sticky support
+Use colon in fork name as in GitHub PR page
+Fix comments in prefixes updater
+Add note about Can I Use download
+Add note about Can I Use download
+Add Opera 19 data
+Fix Rewrite Syntax section
+Fix Rewrite Syntax section
+Update Compass benchmark after move to Ruby 2.1
+Update Compass benchmark after move to Ruby 2.1
+Clean benchmark code
+Release 1.0.20131225 version
+Clean up prefixes order
+Add support for old FF placeholder selector syntax
+Update development dependencies
+Fix old API hack
+Merge pull request #157 from varemenos/master
+Merge pull request #157 from varemenos/master
+added extra info in the README file about node.js
+added extra info in the README file about node.js
+Fix CSS part name
+Merge pull request #153 from mzgol/changelog
+Correct grammar in a changelog entry.
+Merge pull request #152 from mikaeljorhult/patch-1
+Merge pull request #152 from mikaeljorhult/patch-1
+Link to Brackets extension.
+Link to Brackets extension.
+Clean up binary code
+Add missing fs-extra dependency
+Add missing feature to 1.0 ChangeLog
+Release 1.0 version
+Update browserify and mocha development dependencies
+More free lock of PostCSS version in dependencies
+Clean up indents in README.md examples
+Clean up indents in README.md examples
+Use long browser names in examples
+Use long browser names in examples
+Add explorer browser alias
+Clean up Browser section in README.md
+Clean up Browser section in README.md
+Clean up tests
+Add selection last versions by browsers
+Add selection last versions by browsers
+Ignore case in browser names
+Add full name browsers aliases
+PostCSS keeps compression
+PostCSS keeps compression
+Fix FAQ question
+Fix FAQ question
+Remove double PostCSS link
+Remove double PostCSS link
+Update main example
+Update main example
+Remove outdated Russian article
+Remove outdated Russian article
+Remove Rework npm development dependency
+Update benchmark
+Update benchmark
+Don't create empty map file without -m argument
+Update Stylus benchmark
+Add screenshot to Prepros
+Add screenshot to Prepros
+Resort examples
+Resort examples
+Add source map support to Autoprefixer binary
+Add source map support to Autoprefixer binary
+Increase test timeout
+Add deprecated compile() to compatibility
+Rename compile() to process() to be more semantics
+Rename compile() to process() to be more semantics
+Rename inspect to info to prevent name conflict in some languages
+Rename inspect to info to prevent name conflict in some languages
+Remove Rework from benchmark, because Rework prefix plugin was removes
+Set minor versions as headers in ChangeLog.mg
+Change ChangeLog format to Markdown
+Move to PostCSS 0.2 API
+Move to PostCSS 0.2 API
+Add PostCSS to README.md
+Add PostCSS to README.md
+Use browserify to pack standalone build
+Show file name in syntax error
+Clean up binary tests
+Split output file and directory arguments
+Add hack for values in CSS3PIE props
+Check already and hack by prefix groups
+Add output to dir, but remove output concat
+Fix gradient test
+Check keyframes inside other at-rule
+Fix updaters
+Use released PostCSS version
+Clean up gradient convertor
+Clean up Gradient hack by list module from PostCSS
+Clean up file names
+Fix doubling test
+Fix selectors tests
+Move flexbox support to PostCSS
+Fix cleaning @keyframes
+Move display: flex hack to PostCSS
+Clean up code
+Fix removing prefix with notes
+Move border-image to PostCSS
+Update PostCSS vendor API
+Smarter prefixed/unprefixed convertor and border-radius supports
+Remove double test
+Move Rework to PostCSS in README.md
+Move fill-available hack to PostCSS
+Move transition: transform IE hack to PostCSS
+Move IE filter check to PostCSS
+Move gradient hack to PostCSS
+Better benchamrk CLI
+Remove comments in keyframes test, which is unnecessary in PostCSS
+Fix keeping vendor specific hacks
+Better auto spacer in PostCSS
+Move selectors hacks to PostCSS
+Add hacks loader to Prefixer
+Move Processor to PostCSS
+Clean from cache on cloning
+Update binary to PostCSS
+Load new Prefixers in Prefixes
+Find only browser prefixes in parent
+Add Browsers.prefixes() by default data
+Remove unnecessary methods in Prefixes
+Add Value prefixer
+Move Rework to PostCSS in tests
+Move Rework to PostCSS in README.md
+Clean up methods order in Selector prefixer
+Add Declaration prefixer
+Add parent test for selector prefixer
+Clean up prefixers names
+Fix load paths in Autoprefixer tests
+Remove unnecessary utils.clone
+Remove unnecessary Autoprefixer files
+Move to new PostCSS file paths
+Add SelectorPrefix
+Add KeyframesPrefix
+Add Prefix
+Change license to MIT
+Clean up README.md
+Clean up README.md
+Fix README.md format
+Fix README.md format
+Better explanation from MDN
+Better explanation from MDN
+Add appearance in FAQ
+Add appearance in FAQ
+Release 0.8.20131213 version
+Firefox ESR changed to 24
+Firefox ESR changed to 24
+Update npm packages
+Release FF 26 and add FF 28 data
+Release 0.8.20131209 version
+Update css-stringify to build by component
+Clean up ChangeLog
+Typo
+Typo
+Fix update command
+Merge pull request #140 from cvn/issue-130-old-webkit-gradient
+Updating gradient tests to account for old-style -webkit-gradient direction order fix
+Updating message about how to build autogenerated files
+Fixing direction order for old style webkit-gradient
+Adding ios 4.3 to old-style webkit-gradient
+Old Safari required old webkit gradients too
+Update browsers popularity statistics
+Update npm packages
+Merge pull request #127 from sethjgore/patch-1
+Merge pull request #127 from sethjgore/patch-1
+Update changelog for v0.8.20131205
+Set package version to v0.8.20131205
+Add Google Chrome v33, update state of Chrome v31
+Cleaned up English in README.md
+Cleaned up English in README.md
+Release 0.8.20131104
+Update browsers versions
+Fix line breaks in FAQ
+Fix line breaks in FAQ
+Clean up typography in FAQ
+Clean up typography in FAQ
+Merge pull request #125 from whitequark/patch-1
+Merge pull request #125 from whitequark/patch-1
+Update README.md
+Update README.md
+Merge pull request #124 from kirs/typos
+Merge pull request #124 from kirs/typos
+Minor english issues
+Minor english issues
+Fix line breaks in FAQ
+Fix line breaks in FAQ
+Add indents question to FAQ
+Add indents question to FAQ
+Add FAQ section to README.md
+Add FAQ section to README.md
+Update npm dependencies
+Better errors in updater
+Release 0.8.20131029 version
+Update npm packages
+Add Russian name to link for better searching
+Add Russian name to link for better searching
+Add Safari 6.1 data
+Add fx alias to Firefox
+Clean up Cakefile
+Release 0.8.20131020 version
+Update dev dependencies
+Sort browser versions in data
+Release IE 11 and Android 4.3, add prerelease Opera 18
+Release 0.8.20131017 version
+Update css-parse package
+Release 0.8.20131015 version
+Update npm packages
+Refix gradient mixin
+Use CLI in Stylus example
+Use CLI in Stylus example
+Merge pull request #118 from jenius/master
+Merge pull request #118 from jenius/master
+add note about stylus integration to readme
+add note about stylus integration to readme
+Clean up code
+Merge pull request #117 from doochik/issue-111-multiple-gradients
+Fix #111
+Update npm packages
+Move mocha arguments to mocha.opts
+Release 0.8.20131009 version
+Update npm packages
+Release Opera 17
+Update benchmark overview
+Update benchmark overview
+Change README.md intro
+Change README.md intro
+Release 0.8.20131007 version
+Update benchmark with faster Sass
+Update benchmark with faster Sass
+Clean up Compass benchmark
+More cool first example
+More cool first example
+Check selector prefix on declaration prefixing
+Clone arrays in utils.clone()
+Release 0.8.20131006 version
+Release Chrome 30 and add Chrome 32 data
+Update cursors data
+Update browsers statistics
+Release 0.8.20131001 version
+Update dev dependencies
+Use official Can I Use feature for cursors
+Add support for new cursor values
+Clean up updater#fork API
+Update Can I Use data
+Release 0.8.20130923 version
+Release Firefox 24 and add Firefox 26 data
+Release 0.8.20130919 version
+Remove Binary class from standalone build
+Prevent CoffeeScript to create unnecessary array
+Update dev dependencies
+iOS 7 was released
+Add Prefix#isCustom() to clean up code
+Merge pull request #102 from null2/skrollr-support
+Skrollr Stylesheet Support
+Clean up code
+Concat outputs if several files compile to one output
+Add author to Autoprefixer logo
+Add author to Autoprefixer logo
+Merge pull request #99 from lydell/cleaner-binary.coffee
+Clean up binary.coffee
+Clean up tests
+Release 0.8.20130911 version
+Update component
+Update css-parse to trim propetry name
+Trim spaces until css-parse has issue
+Release 0.8.20130906 version
+Update development dependencies
+Fix radial direction syntax
+Fix hack for modern IE filter
+Release 0.8.20130903 version
+Improve gradient test
+Better gradients convertor
+Fix old webkit gradients with rgba
+Release 0.8 version
+Update mocha
+Update browsers statistics
+Clean up flex-direction hack
+Clean up flexbox hacks
+Improve prefixes notes test
+Use space to split prefix and note instead of ~
+Update benchmark data
+Update benchmark data
+Add CLI inspect to README.md
+Add CLI inspect to README.md
+Fix browser versions order in inspect
+Change default browsers
+Change default browsers
+Update first example in README.md
+Update first example in README.md
+Speed up utils.removeNote
+Typo in test
+Don't prefix transform transition for IE
+Remove background-clip hack
+Move Fast as 3rd feature
+Move Fast as 3rd feature
+Don't remove prefix without unprefixed version
+Add utils.removeNote to clean up code
+Add basic support for old webkit gradients
+Add notes to prefixes for different syntaxes for one prefix
+Remove -ms-border-radius too
+Clean up border-radius updater
+Update Opera 17 prefixes
+Add autoprefixer.default with current default browsers
+Fix prefixed selectors order
+Improve placeholder test
+Remove common unexisted prefixes too
+Fix link and Holy 80 columns line
+Fix link and Holy 80 columns line
+Merge pull request #90 from porada/patch-1
+Merge pull request #90 from porada/patch-1
+Get rid of a stray sentence in the ‘Browsers’ section
+Get rid of a stray sentence in the ‘Browsers’ section
+Be polite and link to -prefix-free
+Be polite and link to -prefix-free
+Rephrase the ‘In-package update’ section
+Rephrase the ‘In-package update’ section
+Add Opera 16 data
+Merge pull request #87 from nschonni/patch-1
+Merge pull request #87 from nschonni/patch-1
+Typo for Grunt version of CSSO
+Typo for Grunt version of CSSO
+Add autoprefixer-php to README.md
+Add autoprefixer-php to README.md
+Add -moz-available hack
+Clean up prefixes updaters
+Add intrinsic sizing support
+Release 0.7.20130824 version
+Update development libraries
+Add Chrome 31, 30 and Firefox 25 data
+Clean up syntax test
+Merge pull request #82 from vladkens/feature
+Fix parser bug
+Add csso to README
+Add csso to README
+Merge pull request #79 from esundahl/patch-1
+Merge pull request #79 from esundahl/patch-1
+Fixes rework documentation
+Fixes rework documentation
+Add In-Package Update section to README.md
+Add In-Package Update section to README.md
+Remove logo from npm package
+Show, what updater changed
+Add progress to updating
+Call updaters from binary to update from npm package
+Release 0.7.20130810 version
+Add browsers list
+Add browsers list
+Release Firefox 23 and add Firefox 25 data
+Add link to browsers codenames
+Add link to browsers codenames
+Merge pull request #72 from subzey/feature/logo-svg-attrs
+Merge pull request #72 from subzey/feature/logo-svg-attrs
+Logo SVG: remove useless attributes
+Logo SVG: remove useless attributes
+Update Prepros link
+Update Prepros link
+Add Prepros How To to README.md
+Add Prepros How To to README.md
+Release 0.7.20130808 version
+Add flex-grow, flex-shrink and flex-basis to transitioned
+Add Compass How To
+Add Compass How To
+Add transition to flex property
+Allow to select browser versions by > and >=
+Allow to select browser versions by > and >=
+Release 0.7.20130807 version
+Update development dependencies
+Update tab-size prefixes data
+Add tab-size support
+Add :fullscreen support
+Fix other placeholder selector
+Release 0.7.20130806 version
+Fix 80 columns line in README.md
+Fix 80 columns line in README.md
+Add Mincer How To
+Add Mincer How To
+Add hyphens support
+Release 0.7 version
+Remove deprecated API
+Update Stylus
+Fix retranslation in README.md
+Fix retranslation in README.md
+Merge pull request #60 from Leonya/patch-1
+Merge pull request #60 from Leonya/patch-1
+Better English
+Better English
+Update browsers popularity
+Add iOS data to ::placeholder
+Merge pull request #59 from porada/patch-1
+Don’t use forks for ::selection and ::placeholder data anymore
+Sort browsers in prefixes data
+Get ::placeholder data from Can I Use pull request
+Add hacks for ::placeholder
+Opera < 15 doesn't support placeholder selector
+Add hacks for selectors
+Add updater.all to prefixes without Can I Use page
+Clean up updaters
+Run browsers updater always before prefixes
+Add prefixes to selectors
+Clean up prefix updaters by feature shortcut
+Allow to use forks in updater
+Add selectors to postprocessed data
+Add Rules class to iterate rules
+Add ::selected data
+Fix JSON stringify for selectors
+Release 0.6.20130731 version
+Fix value rewrite from unprefixed to prefixed declaration
+Same actual/expect order in Rework test
+Rename clip case to background-clip
+Clean up tests
+Allow to change value in prefixProp to clean up border-image
+Add border-image support
+Typo
+Typo
+Merge pull request #55 from princed/master
+Merge pull request #55 from princed/master
+README: Fix sentence on comparison with -prefix-free
+README: Fix sentence on comparison with -prefix-free
+Release 0.6.20130730 version
+Update Can I Use updater to work with notes
+Clean up angle recalculation
+Merge pull request #53 from kizu/master
+fixAngle was broken, fixing it.
+Clean up code
+Merge pull request #52 from demiazz/master
+Final testcase fix. Clean comments when compare rework result
+Add comments to keyframes test cases
+Fix correct clone comments inside keyframes
+Release 0.6.20130729 version
+Update dependencies
+Add Opera 16 data
+Update transition example
+Update transition example
+Release 0.6.20130728 version
+Update CSS parser
+Fix comments
+Don't remove non-standard background-clip: text
+Add -prefix-free comparison
+Add -prefix-free comparison
+Merge pull request #48 from localhots/fix_spec_description
+Use third person in the present tense spec descriptions
+Release 0.6.20130721 version
+Update component.js
+Add Chrome 30 data
+Merge pull request #47 from porada/middleman
+Merge pull request #47 from porada/middleman
+Mention middleman-autoprefixer in the README
+Mention middleman-autoprefixer in the README
+Fix link to Google strategy
+Fix link to Google strategy
+Fix logo size
+Fix logo size
+Add logo to README.md
+Add logo to README.md
+Move logo to repo root
+Move logo to repo root
+Clean up commas in README.md
+Clean up commas in README.md
+Merge pull request #45 from moimikey/patch-1
+Merge pull request #45 from moimikey/patch-1
+Missing dash breaks IE 5.0
+Missing dash breaks IE 5.0
+Release 0.6 version
+Refix line breaks in README.md
+Refix line breaks in README.md
+Fix line breaks in README.md
+Fix line breaks in README.md
+Add that Autoprefixer is postprocessor
+Add that Autoprefixer is postprocessor
+Fix Stylus benchmark
+Update development dependencies
+Update Safari 7 prefixes
+Refix line breaks for desktop GitHub
+Refix line breaks for desktop GitHub
+Refix line breaks
+Refix line breaks
+Move Sublime Text section higher
+Move Sublime Text section higher
+Fix line breaks in README.md on mobile GitHub
+Fix line breaks in README.md on mobile GitHub
+Add benchmark to README.md
+Add benchmark to README.md
+Clean benchmark format
+Add benchmarks with preprocessors
+Spell check README.md
+Spell check README.md
+Typo in README.md
+Typo in README.md
+Clean up README.md
+Clean up README.md
+Fix README.md on GitHub preview
+Fix README.md on GitHub preview
+Clean up Features section in README.md
+Clean up Features section in README.md
+Use minor browsers in popularity select
+Add none requirement
+Add none requirement
+Clean up code by OldValue class
+Faster Value.load
+Clean unnecessary transitions
+Improve perfomance
+Small speed improvements
+Faster IE filter check
+Faster old values finder
+Use webkit prefix for Opera 15 and newer
+Add removed version to deprecated message
+Add cache for deprecated methods
+Add cache for deprecated methods
+Add syntax parsing error to message
+Add inspect to README.md
+Add inspect to README.md
+Update devepoment dependencies
+Add Opera 15 and update statistics
+Increase value check speed
+Refector API to improve perfomance
+Refector API to improve perfomance
+Add benchmark task
+Fix documentation
+Fix documentation
+Update Chrome 29 prefixes data
+Release 0.5.20130629
+Update development dependencies
+Improve flex to old box-flex convert
+Add align-content: stretch test
+Release 0.5.20130626 version
+Add prefixes for font-feature-settings
+Add Firefox 24 data
+Add logo
+Release 0.5.20130625 version
+Update npm packages to has css-parse with error reporting
+Add URL to Twitter account
+Add URL to Twitter account
+Update main prefix example
+Update main prefix example
+Add flex-basis support
+Add flex-shrink support
+Fix comments for flexbox hacks
+Add flex-grow support
+Add flex support
+Clean up flexbox test CSS
+Add align-self support
+Clean up FlexDeclaration
+Add order support
+Remove transition from flex prefixers
+Add flex-flow support
+Add align-content support
+Add display: inline-flex support
+Clean up display flex detection
+Add flex-wrap support
+Add align-items support
+Clean up code by FlexDeclaration
+Add justify-content support
+Add flex-direction support
+Add support for display: flex
+Add nbsp symbols to README.md
+Add nbsp symbols to README.md
+Clean before publish to prevent standalone in npm package
+Release 0.5.20130617 version
+Remove unnecessary background-clip and background-size prefixes
+Remove old Mozilla border-radius
+Cache values regexps
+Speed up gradient hack
+Clean up declaration properties
+Load declaration hack by unprefixed property
+Typo
+Don't prefix old IE filter
+Allow to hack Declaration
+Move values names to hacked class
+Release 0.5.20130616 version
+More useful message for CSS parsing errors
+Fix printing unstack error in binary
+Fix comment with braces parsing issue
+Remove old WebKit gradient prefix
+Create regexp without escaping
+Release 0.5 version
+Fix publish task
+Update Rework for tests
+Clean up test name
+Fix CSS#eachDeclaration
+Add gradient test to compile tests
+Better Value.hacks fixturing
+Fix node 0.8 support
+Fix values inspect
+Hide transition in inspect if transition property without prefixes
+Fix inspect transition properties
+Autoprefixer now is not a Rework filter
+Autoprefixer now is not a Rework filter
+Clean up temp dir in binary test
+Add node 0.8 to Travis CI
+Rewrite Autoprefixer
+Add Safari and iOS 7 data
+Tidied up the english usage in the readme
+Tidied up the english usage in the readme
+Release minor version
+Update Rework version in component.json
+Update development dependencies
+Support Rework 0.15
+Update browsers popularity
+Release minor version
+Fix iOS data by removeing ending zero
+Add Opera 15, iOS 6.1 and Chrome 29
+Merge pull request #30 from tonyganch/master
+Merge pull request #30 from tonyganch/master
+Fix typos
+Fix typos
+Release minor version
+Update development dependencies
+Rules#forEach process only properties, not comments
+Exclude minor browsers in usage statistics requirements
+Add to README.md about Blackberry and Android browsers
+Add to README.md about Blackberry and Android browsers
+Add Blackberry and Android as minor browsers
+Fix API for new css-stringify
+Release minor version
+Add Chrome 29 data
+Update development dependencies
+Release minor version
+Add Firefox 23
+Release minor version
+Remove unnecessary browsers from prop/value object
+Add old syntax for gradient direction
+Add old webkit syntax for display: flex
+Clean up code by Rules object
+Fix display: flex syntax for old Firefox and IE
+Clean up code
+Remove Node.js 0.8 from Travis CI
+Split tests to autoprefixer core and browser data
+Add current selected browsers list to prop/value data
+Update data for IE 11
+Add future IE 11 to data
+Release 0.4 version
+Add clean feature to README.md
+Add clean feature to README.md
+Update sinon
+Fix negative degrees in gradients
+Fix several gradients in one property
+Fix indents in props/values data functions
+Clean code by JSHint
+Change degrees in webkit gradients
+Clean old Mozilla border-radius syntax
+Clean old keyframes
+Linting JS
+Add box-shadow and border-radius to clean styles from old prefixes
+Remove old prefixes
+Release minor version
+Don't reprefix prefixed rules
+Allow to set property custom check function to prevent prefix IE filter
+Release minor verion
+Update GitHub CSS URL to benchmark
+Update component
+Prefix several same values in one property
+Use async read in binary
+Add Sublime Text plugin to README.md
+Add Sublime Text plugin to README.md
+Clean up package.json
+Improve error print in binary
+Add another browser req check
+Release minor version
+Fix value override in prefixer
+Release 0.3 version
+Update sample in README.md
+Update sample in README.md
+Sort elemnts in inspect print
+Prefix properties names in transition as common values
+Add values.js to component.json
+Clean up code
+Don't add wrong prefixes to value in prefixed properties
+Don't add wrong prefixes to value in prefixed properties
+Add prefixed transition to tests
+Fix comments
+Fix transitions with easings
+Add own filter for transitions
+Prevent to create unnecessary fields in autoprefixer.filter()
+Use two for to find prefixed values in prefixed properties
+Use new filter to add prefix to values
+Use new filter to add prefix to properties
+Join properties with values to write own filter next
+Merge pull request #13 from jonathanong/patch-1
+Merge pull request #13 from jonathanong/patch-1
+Rename autoprefixer.filter() to rework()
+Rename autoprefixer.filter() to rework()
+Split prefixes data to props and values
+add a main to component.json
+Add benchmark Cake task
+Update dev dependencies
+Merge pull request #10 from putnik/patch-1
+Fix help: "2 last versions" don't work
+Add grunt-autoprefixer to README.md
+Add grunt-autoprefixer to README.md
+Merge pull request #5 from mvasilkov/master
+Merge pull request #5 from mvasilkov/master
+Update README.md
+Update README.md
+Add link to Russian translation
+Add link to Russian translation
+Add Evil Martians to README.md
+Add Evil Martians to README.md
+Release 0.2 version
+Update project description
+Update project description
+Add inspect to standalone script
+Move updater.coffee to updaters/lib/
+Use component to build standalone script
+Use latest Rework
+Release 0.1 version
+Update props data
+Add quotes to versions in Travis CI
+Move data to top, to easy read standalone version
+Add non-break spaces
+Add non-break spaces
+Improve documentation and add Ruby instructions
+Improve documentation and add Ruby instructions
+More clean README.md
+More clean README.md
+Add task to build standalone version
+Add task to build standalone version
+Add instruction, how to install autoprefixer by npm
+Add instruction, how to install autoprefixer by npm
+Couple of fixes in README
+Couple of fixes in README
+Move updater to Cakefile
+Update mocha
+Remove index.js and set main in package.json
+Update data
+Fix non-break spaces in README.md
+Fix non-break spaces in README.md
+Move uniq to main autoprefixer file
+Fix README.md
+Fix README.md
+Add documentation to README.md
+Add documentation to README.md
+Show usable errors
+Add inspect to show, what browser, properties and values will be used
+Move default browsers to autoprefixer.parse
+Add autoprefixer binary
+Clean up tests
+Allow to set float popularity
+Add calc()
+Add flexbox properties
+Add user-select property
+Add multicolumns properties
+Add quotes to @keyframe property key
+Add animation properties
+Add filter property
+Sort JSON for all updaters
+Sort properties on update to have always same file
+Add box-sizing property
+Get properties info from Can I Use repository
+Add browser names to updater.coffee
+Get browsers info from Can I Use repository
+Allow to set future versions
+Clean up utils code
+Fill npm package.json
+Lock dev dependencies
+Rename project to autoprefixer
+Rename project to autoprefixer
+Add Travis CI config
+Initial commit
+Initial commit

@@ -1,0 +1,7 @@
+adding check for nan before testing if R(max anom) is greater then lam(critical value) in detect_anoms. Fix suggested in issue #36
+Fixing the file
+Fixed issue when only one timestamp at midnight exists. Fixes Issue #29
+If no anoms are detected in detect_anoms, R_idx now returns NULL. Fixes Issue #24
+Fixed Epoch handling
+Fix LICENSE reference
+Fixed a typo

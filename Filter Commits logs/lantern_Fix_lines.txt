@@ -1,0 +1,331 @@
+Fix links - master->main
+Fixed beta links
+Fixed branch name -- master->main
+Fixed link
+Fixed minimum osx version
+Fixed Linux links
+Fixed deduplication for Loggly
+Fixed incorrect logic for when we're not configured for proxying
+Fixed names
+Fixed generic byte data
+Fixed race condition in detour
+Fixed netx test failure on Linux
+Fixed baked-in fallbacks
+Fixed comment on Dial
+Fixed Makefile SOURCES for Mac
+Fixed fetcher_test
+Fixed connection leak, using new idletiming API
+Fixed Edge issue
+Fixed integration test
+Fixed loggly keys
+Fixed stacktraces
+Fixed user ID method
+Fixed borda test
+Fixed race condition in cache_test
+Fixed direct test
+Fix tests (using different testify lib)
+Fixed testpackages
+Fixing unit tests
+Fixing unit tests
+Fixed race condition in masquerade caching
+Fixed race condition in PAC file setting
+Fixing button state with error closes #4229
+Fixed shadowing
+Fixed bug in config validation
+Fixed CPUProfile reference
+Fixed user ID handling and some linter issues closes #4005
+Fixed linter issue
+Fix code broken by the new Go SSA enabled compiler optimizations.
+Fixed data race in connpool_test
+Fixed various race conditions (mostly in unit tests)
+Fix the latest android beta apk download link
+Fixed occasional failure in idletiming_test
+Fixed part of windows unit test
+Fixed spelling issue
+Fixed settings_test.go
+Fixed lantern target
+Fixed build variables that were failing to show up
+Fixing wrong event.
+Fixed https to http for CloudFlare closes #3603
+Fixed other geolookup test
+Fixed geolookup_test
+Fixed util test
+Fixing comment.
+Fixed occasional runaway loop
+Fixed data race in eventual
+Fixing indentation.
+Fixed API for Android
+Fixed setting of PackageVersion in production builds
+Fixed typo in comment
+Fixed build after merge from valencia-embeddable
+Fixing codesigning bug.
+Fixed checkfallbacks
+Fixed unit tests
+Fixing languages.
+Fixed commit/push hooks to export MODIFIED_DIRS variable
+Fixed manoto wording
+Fixed chained server
+Fixed responde code handling
+Fixed deferred close issue
+Fix issue in checkfallbacks
+Fix auth token issue with chained bootstap configs
+Fixes to reuse more of old balancer Dial method
+Fixed not changing installer package files but only removing them rule through using separate chained servers file #3106
+Fixes to race conditions in config fetching and bad rand values in geolookup
+Fix for only fetching fresh config on the first run #3106
+Fixed linux test path
+Fixes for windows
+Fix for race condition on initially updating the config with data from the bootstrap server #3106
+Fixed release target of Makefile
+Fixed parsing #3071
+Fixing indentation in generic_error.html and updating resources file.
+Fixed channel
+Fixing variable name.
+Fixing small typos.
+Fixing test when no distribution detected
+Fixed bug in Darwin implementation
+Fix tests after interface change
+Fix gomobile vendoring (do not use submodules)
+Fixed registry maintenance from installer and windows and changed to auto-start by default closes #2802
+Fixing a typo, sorry.
+Fix for #2882
+Fixed windows manoto version
+Fixed some logging issues
+Fixing tests in idletiming
+Fix fdcount test (take 2)
+Fixed tests for fdcount
+Fixes #2829
+Fixed sloppy regression
+Fixing test
+Fixed loopback check to consider localhost to be a loopback address closes #2817
+Fixing opening browser on startup and launch on startup setting on windows
+Fixing wrong file extension, using full name instead.
+Fixed wrongly resolved conflict when merging valencia
+Fix for #2648
+Fix for issue #2721
+Fixed logging, concatenation is done like fmt
+Fixing REVISION_DATE on Linux.
+Fix for potential race conditions on startup #2719
+Fix tests
+Fixing merge conflicts in auto-update server.
+Fix for issue-2682
+Fixed UI CSS: unnecessary horizontal bar
+Fixed wrongly structured UI localdiscovery messages
+Fixed a few minor issues in Makefile
+Fixing indentation.
+Fix issue #2669
+Fixed log message length for loggly grouping closes #2650
+Fixing indentation.
+Fix for issue 2642: environment variables are not properly set up in this Makefile rule
+Fixed small issue in loadFallbacks function
+Fixing typo.
+Fixing wrong log level.
+Fixed old error
+Fix for getlantern/firetweet#86
+Fix conditional so it doesn't break all non-IE #2494
+Fix for using stored location when lookup fails
+Fixed compilation issue
+Fix for generating assets for windows packages #2431
+Fixes following comments from Alan.
+Fixing conflict with valencia.
+Fixing a wild sleep within the main configuration's goroutine.
+Fixing some observations from Myles.
+Fixing leading dollar symbol.
+Fixing missing command termination.
+Fix: Should check if HEADLESS is not empty.
+Fixing some issues with building binaries directly with no VERSION variable. Also, after generating a binary the update asset is not also created.
+Fixing some inconsistencies between package version and GIT revision.
+Fixing conflict with valencia.
+Fixed cygwin check
+Fixed cygwin check
+Fixed cygwin check
+Fixing messages and testing auto update over https.
+getlantern/lantern#2325 Fixed unit test failure in fronted
+Fixing some inconsistencies with asset names.
+Fixing tests.
+Fixing merge conflicts
+Fixed unit test
+getlantern/lantern#2271 Fixed color of give mode peers
+Fixed log rotation
+Fixed spelling mistake in fronted log
+Fixed pathing of systray.dll
+Fixed pathing of systray.dll
+Fixed nil masquerades issue and problem with calculating wait time
+Fixed unit test
+Fixed non-peer ignore
+Fixed integer overflow
+Fixed unit test failure
+Fixed test failure
+Fixing indentation.
+getlantern/lantern#2248 Fixed pathing issue on Windows in tarfs
+Fixed spelling of dist
+Fixed problem in passing string to systray on Windows
+Fixed merge issue in crosscompile.bash
+Fixing tests to make sure we explain what's the intention behind them.
+Fixed cf test error on duplicate registration
+Fixed test condition for claim timeout
+Fixed comment on New method
+Fixed unit test
+Fixed nil reference in register
+Fixed unit test
+Fixed race conditions in balancer test
+Fixed code review issue
+Fixed go vet issue
+Fixed connection leak in enproxy
+Fixed deregistering old name on name change
+getlantern/lantern#2145 Fixed flashlight test
+getlantern/lantern#2117 Fixed Close method, added test and comment
+Fixed nil pointer in idletiming.Listener close handling
+getlantern/lantern#2127 Fixed race condition in idletiming conn
+getlantern/lantern#2118 Fixed unit test
+Fixed unit test failure
+getlantern/lantern#2092 Fixed test for filemode
+Fix call to GOMAXPROCS.
+Fix .travis.yml syntax.
+Fix imports for gopkg.in/stack.v0
+fix isEqual for different content, same size. Fixes #23
+Fix behavior when breaking a loop into an outer block
+Fix string representation of GREATER_OR_EQUAL
+Fix JSON.stringify treating large integers as float64
+Fix cloning of _fnStash
+ Fix toReflectValue to handle Struct, Map, Slice, etc.
+Fix "Halting Problem" example
+Fix array-like handling in JSON.stringify
+Fix 'start' executable not found in %PATH%
+Fix missing interrupt
+Fix delete ... triggering property get()
+Fix Date tests to always mock UTC
+Fix documentation
+Fix parseInt if ErrRange occurs (fallback to float64)
+Fixed issue 18 - now certain functions require at least 2 sets as parameters.
+Fix toValue not properly converting type aliases
+Fix Array.prototype.reduce, .reduceRight
+Fix "memory leak" by gelcapping panic values with _exception
+Fix Date.prototype.setTime
+Fix Union to derive created set type from first passed set.
+Fix Put to see set/get properties
+Fix for get/set: undefined is actually a getter/setter
+Fix assumption that property.value is Value
+Fix a few aspects of accessor properties
+Fix package description
+Fix groups.google.com link
+Fix Value.isArray => isArray
+Fix Date.prototype.set(UTC)FullYear.length = 3
+Fix Date.prototype.set(UTC)Month.length = 2
+Fix Date.prototype.set(UTC)Hours.length = 4
+Fix Date.prototype.set(UTC)Minutes.length = 3
+Fix Date.prototype.set(UTC)Seconds.length = 2
+Fix Date.UTC.length = 7
+Fix Date.parse.length = 1
+Fix Date(...) to be different from new Date(...)
+Fix Date.parse to parse RFC1123
+Fix Math.pow(-1, +Infinity) => NaN
+Fix Number.prototype.toFixed to use ToString if exponent >= 21
+Fix Number.prototype.toString(undefined)
+Fix String.prototype.lastIndexOf
+Fix String.prototype.indexOf to return the right index even with an offset
+Fix special case in String.prototype.split
+Fix off-by-one error with $' in String.prototype.replace
+Fix placement of elements during Array.prototype.concat
+Fix inadvertent stringification in Array.prototype.concat
+Fix NaN/+0/-0 comparison in Array.prototype.lastIndexOf
+Fix NaN/+0/-0 comparison in Array.prototype.indexOf
+Fix: Array.prototype.sort.length = 1
+Fix: Array.isArray.length = 1
+Fix .length property of functions via .bind
+Fix Function.prototype.call .length
+Fix: Function.prototype.toString (Should not be generic)
+Fix: Function(null)
+Fix: Function("z;x", ...)
+Fix parsing: body, parameters => parameters, body
+Fix: Function("abc, def", "ghi", ...)
+Fix: "[object Object]" (Should be a SyntaxError)
+Fix Object.defineProperties to only enumerate over enumerable
+Fix Function.bind to use newBoundFunction...
+Fix documentation (nikai3d)
+Fix redundant evaluation of test in "for" (sdgoij/MatrixFrog)
+#1093 Fixed logic for displaying no proxies warning and no connection warning
+Fixed missing keys in en_US.json that prevented startup in dev mode
+Fixed key
+Fixed errant var and deep comparison on total user count calculation
+Fix small typo
+Fixed animation of newly connected/disconnected peers
+Fixed resize delay/artifacts
+Fixed resize delay/artifacts
+Fixed resize delay/artifacts
+Fixed opacity on peer to peer arcs
+Fixes #3. It should be consistent.
+Fixes of @arnehormann's Code review
+Fix not unlocking() during return of falsy items
+Fix handling of operations to be more thread safe. This commit is a modification of @arnehormann s great work.
+Fix typo
+Fix and improve more
+Fix typo
+8.12.9: Fix panic when [[Writable]] is something but [[Value]] is not
+Fix Object.create to skip non-enumerable properties
+Fix TestDate_now to be less flakey
+Fix ./inline > inline.go (OSX 10.8.3, Perl 5.12.4)
+Fix Object.create() prototype assignment
+Fix Uint32 Array/String indexing
+Fix Array.indexOf to be compliant with 15.4.4.14
+Fix writable/enumerable/configurable of *.prototype to be false
+Fix writable/enumerable/configurable of Object.prototype to be false
+Fix writable/enumerable/configurable of undefined, NaN, & Infinity to be false
+Fix Function.prototype to have a length property
+Fix Object.prototype to be an Object
+Fix documentation
+Fix .ToValue([]string{...}).Export() to return []string{...}
+Fix race detection incompatibility
+Fix Object built-in attribute defaults (true, false, true)
+Fix Date built-in attribute defaults (true, false, true)
+Fix global built-in attribute defaults (true, false, true)
+Fix Array initialization (in the case of [,...], etc.)
+Fix Arguments initialization
+Fix string/array/slice indexing to avoid uint32 => -int issue
+Fix panic when given a generic descriptor in argumentsDefineOwnProperty
+Fix Local/UTC conversion discrepancy in newDateTime
+Fix: parse_statement.go:184: function ends without a return statement
+Fix RegExp.prototype.toString .length & .prototype
+Fix RegExp.prototype.test .length & .prototype
+Fix RegExp.prototype.exec .length & .prototype
+Fix broken multiline RegExp behavior
+Fix broken RegExp syntax: \c
+Fix that we were using a non-runtime toValue method with go_array, go_map, and go_struct
+Fix isNaN/isFinite .length & .prototype
+Fix iterator evaluation to return the proper result if a break happens
+Fix test to pass regardless of time zone (always UTC)
+Fix HasInstance to recurse the prototype hierarchy
+Fix (intermittently) failing Date tests due to local timezone dependency
+Fix Math.atan() test
+Add Number.toFixed
+Fix (band-aid) Go/JavaScript cross-boundary error transformation
+Fix passing the wrong value to calculateBinaryOperation
+Fix always passing in the global object as this for eval
+Fix and tests for Math.pow
+Fix toString(-0)
+Fix String.char*At to look at utf16 version
+Fix subtle range bug in String.substring (uint => int64)
+Fix bug in String.slice with a (go) slice bounds violation
+Fix numberToStringRadix to return "NaN"
+Fix indexOf to use safer _toInteger
+Fix Number.toString to handle Infinity, NaN better
+Fix HasInstace (instanceof) to return false
+Fix broken (panicking) RegExp transformations
+Fix .test262 panic digest
+Fix to handle Infinity radix in parseInt properly
+Fix trying to delete non-reference
+Fix substring to have correct behavior
+Fix to not bypass finally on continue, break, return, etc.
+Fix trying to call a non-function as a function
+Fix not skipping /* & // after encountering them
+Fix handling of EscapeSequence: "\0" => 0x0000
+Fix parsing of null, etc. on Object intialization
+Fix toFloat to parse hexadecimal properly
+Fix scanning \r, \b, \f, \v as \t
+Fix prototype property being read-only
+Fixed synopsis test
+Fix <return> => <throw>
+Fix casing on evaluateNew
+Fix extraneous " in doctype tag. Changed ng:autotest to ng-autotest
+Fix broken references to widgets and make template IE friendly
+Fixed two small typos in scripts/web-server.js.

@@ -1,0 +1,1618 @@
+docs: Fixed outdated documentation (uploading to App Store) (#35116)
+docs: Fix the URL bugs at tutorial-6-publishing-updating.md (#35175)
+Fix a typo (#33042)
+Fix typo in quick-start.md (#32282)
+docs: Fix environment variable name (#32094)
+Fix typo in distribution docs (#31791)
+Fix wrong code example for `preload` property (#30555)
+fix: Fix main.js source code (#28265)
+2693008: Fix loading non-system cursors on Windows on browser_tests
+Fixup 2725403: Add URLLoaderClient::OnReceiveEarlyHints()
+Fixup 2752406: [LSC] Replace base::string16 with std::u16string in //ui
+Fixup 2721718: Move HostID to extensions::mojom::HostID
+Fixing `source` typo (#27583)
+Fix outdated Cerebral Debugger link (#23427)
+Fix node.lib download link (#21930)
+fix: Fix compositor recycling when creating new BrowserView (#21372)
+fix: Fix broken globalShortcuts.registerAll() on non-macOS platforms (#20963)
+Fix typo (#20450)
+ci: Fix build failures on linux nightly release tests (#20287)
+ci: Fix triggering CircleCI release builds (#20275)
+docs: Fix `process.enablePromiseAPI` typo in promisification.md (#19576)
+docs: Fix incorrect dialog docs (#18227)
+Fix atom::PATH_END so it's greater than PATH_START. (#18339)
+Fix typos in feature request template instructions (#17651)
+//components/spellcheck: Fix 64-bit truncation issues
+Fix typo in registerSchemesAsPrivileged reference (#17214)
+docs: Fix types and missing property in WebRequest APIs (#17046)
+Fix webContents.print() (#17052)
+content: Fix WebContentsUserData for usage across components.
+chore: Fix typo in AtomDownloadManagerDelegate::OnDownloadSaveDialogDone (#16646)
+Fixed a little typo (#16550)
+docs: Fix TouchBar API example (#16482)
+Fix typos in app.md (#16260)
+Fix invalid handle errors found with App Verifier
+Fix GTK menubar item color (#15878)
+Fixed typo in dialog.md (#15861)
+Fix callback info for showSaveDialog and showOpenDialog (#15549)
+Fix missing remote object error when calling remote function created in preload script (#15444)
+docs: Fix CSP header setting of sample code (#15313)
+ci: Fix timeout when generating breakpad symbols (#15126)
+Fixed reporting for iframe ugprade-insecure-requests upgrades
+Fix yaml issue
+Fix second-instance handler signature (#14731)
+Fix path to blink resources
+Fix code triggering new -Wmicrosoft-cast warning in M67
+Fix broken link (#14301)
+docs: security.md: Fix navigation lockdown example code (#14185)
+Fix flaky sandbox tests
+Fix typos (#13999)
+Fix process.execPath returning parent process path instead of the helper in sandboxed renderer (#13839)
+Fix formatting
+Fix failed devtools tests due to fs.statSyncNoException not working  (#13584)
+Fix warnings as error fixes.
+Fix links to webview.md
+Fix broken link of electron-builder (#13341)
+Fix VSTS config for release builds
+Fix windows desktop_capturer build
+Fix windows desktop_capturer build
+Fixed the spawn tests with the RUN_AS_NODE tests
+Fixed the fork tests, remove comment
+Fix inspector tests, you can now have multiple inspector sessions
+Fix the media events test
+Fix linker error on Windows
+Fix pr builds
+Fix duplicate RTCDispatcher console error for debug build.
+Fix appveyor config
+Fixing pdf print errors on Windows build
+Fix error: no matching constructor for initialization of 'v8::TryCatch'
+Fix includes in AtomQuotaPermissionContext
+Fix session restore with network service.
+Fix autofill popup position when the popup is spawned from a webview (#13184)
+Fix link to macOS notifications HIG
+Fix vulnerabilities both top-level and in spec (#13029)
+Fix: Prevent menu update while it's open (#12809)
+Fix broken link (#12387)
+Fix linting error
+Fix empty description when only one extension is given
+Fix contents.setSize(options) documentation in web-contents.md (#12922)
+Fix oops: remove duplicate doc from last commit
+Fix routingId type
+Fix up #includes to work with both GYP and GN
+Fix optimizeSimpleObject for arrays of objects (#12815)
+Fix chromium-style errors (#12802)
+docs: Fix typo in transaction.md (#12804)
+Fixed several broken links to the sections (#12797)
+Fixes #12710 (#12786)
+Fix some broken documentation links (#12794)
+Fix crash when releasing a script context that never had node injected (#12741)
+Fix tyop
+Fix broken link
+Fix new clang warnings
+Fix event leak on reuse of touchbar item (#12527)
+Fix Value::ToDetailString() call
+Fix crash when releasing window
+Fix transparency in capturePage (#12561)
+:memo: Fix dead urls
+Fix memory leaks in file_dialog_mac.mm
+Fixed one minor grammatical issue
+Fix documentation tyop (#12422)
+Fix context menu for sandbox devtools (#11933)
+Fix error caused by refactor
+Fix windows build
+Fix release build on Windows
+Fix Windows linking error
+Fix webview resize test
+Fix build error caused by base::Passed changes
+Fix cpplint warning
+Fix warning when building openssl-cli
+Fix warnings when building node
+Fix build by adding define in node_includes.h
+Fix webrtc linking issues
+Fix WorkerPool and IPC send inside print job/manager
+Fix super fast hash and blocking pool
+Fix system proxy config resolver constructor
+Fix nil tray title crash (#12352)
+Fix non-draggable regions on macOS (#12327)
+:wrench: Fix security warning (#12309)
+Fix AttributeError: 'dict' object has no attribute 'required'
+Revert "Fixes electron/electron#12147" (#12293)
+Fixes electron/electron#12147 (#12193)
+Fix require on network share path (#12282)
+Fix broken links (#12232)
+Fix desktop-id notification edge case (#12216)
+Fixed passing of exception to the system crash handler
+Fixed Mac build when enable_run_as_node==false
+Fix menubar toggle alt key detection on focus
+Fix broken link
+Fix some flaky tests in CI (#12153)
+Fix getFocusedWindow return type (#12149)
+Fixup cpplint
+Fix typo found during the Spanish translation
+:memo: Fix url to unity-launcher and tiny correction (#12084)
+Fix dockMenu not being referenced in JavaScript (#12062)
+Fix network delegate race condition (#12044)
+Fix descriptions to make docs parser happy
+Fix error when cross compilation
+Fix assertion when get X11 error in new thread
+Fix build error after rebasing
+Fix linking error with atomic
+Update node: Fix crash when doing crypto operation
+FIXME: Fix brightray::DevToolsNetworkTransaction compilation
+Fixes from running 2.0.0-beta.1 release
+Fix deprecated API in tools/dump-version-info.js
+Fix browserWindow detection in menu.popup()
+Fix brightray::GetApplicationName(), ..Version() on Linux (#11980)
+Fix the cyclic reference in menu delegate (#11967)
+:memo: Fix the fix
+:memo: Fix dead links
+Fix protocol filtering of net.request
+Fix cppcheck warnings (#11883)
+Fix frameless windows with vibrancy (#11886)
+Fix child touch bar items not updating (#11812)
+Fix #11893 Remove unused member variable content_client_ (#11894)
+Fix grammar
+Fix typo
+Fix include order
+Fix PRE_RELEASE_VERSION (on master) (#11844)
+Fix build and ensure no breaking change
+Fix build and ensure no breaking change
+Fix implicit appUserModelId set
+Fix test BrowserWindow.addTabbedWindow() (#11795)
+Fix and update debugger UTF char test
+:memo: Fix some errors
+:wrench: Fix various typos, implement feedback
+:construction_worker: Fix failed test
+:memo: Fix typo in remote api docs [ci skip]
+Fix macos Full Screen Toggle menu item label (#11633)
+Fix lint
+[Docs] Fix URLs and Paths (#11584)
+Fix build on other platforms
+Fixes hexColorDWORDToRGBA for transparent colors
+Update libcc: Fix Shift not showing
+posix: Fix assertion when freeing ProcessSingleton
+Fix cpplint warning
+win: Fix assertion when creating Notification
+win: Fix assertion when getting exe version
+win: Fix assertion when getting printers
+win: Fix assertion "IsWprintfFormatPortable(format)"
+Fix compilation on Windows
+Revert "Fix race condition when calling JsAsker::BeforeStartInUI"
+Fix race condition when calling JsAsker::BeforeStartInUI
+Fix "test.py -g Menu" not working
+Fix syntax
+Update node: Fix crash when doing crypto operation
+Fix indentions
+Fixed BT bug
+:memo: Fix mixed content warning [ci skip] (#11448)
+Fix 'electron-versioning' link in README.md
+Fix typos
+:wrench: Fix value shift
+Revert "fix: Fix `menu.popup()` bugs"
+:wrench: Fix value shift
+Fixed crash in `atom::api::SpellCheckClient`
+Fix docs linting error
+:construction_worker: Fix the last broken test
+spec: Fix the failing coffee-script test
+Fix race condition in event_subscriber.h
+Fix the detection of ANSI code
+Fix memory leak in ANSCI parsing code
+Fix cpplint warning
+Fix margin
+Merge pull request #11227 from emmkimme/Fix_10470_sandbox_preload
+Fix typo
+Fix a codeblock markup
+Fix uninitialized NodePlatform
+Fix linking problem with NodePlatform
+Fix node_debugger api changes   * _debugWaitConnect => _breakFirstLine   * Use default thread pool size specified by node.cc
+Fix "nghttp2" build
+Fix crash when destroying NetLog
+Fix cpp lint errors
+Fixed build issues
+Fix client certificate private key handling api
+Fixed crash on startup on Windows
+Fix printing_handler_win compilation errors
+Fixed moved cert x509 function issue on Windows
+Fix compilation of atom/browser/api/atom_api_app.cc
+Fix 'constructor cannot be redeclared' error
+Fix brightray::URLRequestContextGetter::GetURLRequestContext()
+Fix WebLocalFrame API usage
+:wrench: Spec: Fix style issues
+:wrench: Fix style issues
+Fix creating dist for mips64el
+Fix linting error
+Fix passing rpath to gcc
+Fix compiler warning when building with gcc
+Fixed wrong word  electron-i18n & url in README.md
+Fix getLoginItemSettings timing issue
+Fix docs for menu setApplicationMenu/getApplicationMenu methods [ci skip]
+Fix random crash on app quit.
+Fix test failure
+Fix testing fork prs (#11127)
+:memo: Fix typo in session docs
+Fix missing eof missing from html test files
+Fix issues in the file for the tests.
+:construction_worker: Fix the spec
+Fix line length in caller.cc
+Fix crash when emitting unhandled error on native EventEmitter
+Fix typo inspector to inspect
+Fix Korean grammatic mistakes I fixed wrong words & wrong translations.
+Fix rendering issues with Nvidia GPU on High Sierra
+Fix crash in custom protocols caused by bad callback exec
+Fixed typo
+Fix js coding style errors
+Fix crash that happens when the PDF viewer is refreshed. The root cause is the PdfViewerHandler instanceis destroyed but not removed from the list of observer in WebContentsZoomController
+Fix linefeeds
+Fix link to version-change-rules
+Fixing coding style
+Fix Korean grammatic mistakes
+Fix link to libnotify spec
+Fixed font DPI scaling
+Fix building on Windows
+Fix cpplint warnings
+Fix formatting on bump-version.
+Fix link to environment-variables.md in pt-br
+Fix link to environment-variables.md in pt-br
+Fix findInPage() documentation for correcting type definition
+Fix lint
+[ci skip] Fix link to Chromium Runtime Features JSON file (#10639)
+Fix for narrowing conversion warnings, minor style change
+Fix app.makeSingleInstance hanging on posix systems
+Fix insecure content errors when loading content from `chrome-extension`
+Fixed potential crash in Win32 notifications.
+Fixes NSUserActivityDelegate that was called on a background thread thus not working.
+Fix typo and remove extraneous doc entries.
+Fix examples
+Fix styling
+Fix link
+Fix app.getGPUFeatureStatus in app.md
+Fix cpplint warnings
+Fix missing extension when saving a file without filters
+Fix another crash caused by assertion of asyncContext
+Fixed crash on process exit on Windows
+Fix crash when emitting render-view-deleted event
+Fix crash when switching menus in menubar
+Fix deprecated node::MakeCallback call
+Fix crash caused by freeing capturer task
+Fix the crash caused by asyncContext
+Fix CI for Linux
+Fix build on Linux
+win: Fix "thickFrame: false" not working for normal window
+:memo: Fix markdown syntax
+:memo: Fix desktopCapturer example (#10303)
+Fix compilation on mac
+Fixing uncaught exception on window close
+Fixing Windows tray icon content menu - based on chrome/browser/ui/views/status_icons/status_icon_win.cc
+Fix brightray.gyp
+Fix free memory calculation.
+Fix HasServiceWorker check
+Fix compilation
+Fix CompositorResizeLock to do something.
+Fix cc/paint skia type mismatches
+Fix sandbox crash when opening a background tab
+Fixed wording
+Fixed a typo
+Revert "Fix window.opener being null when nativeWindowOpen is used"
+Fix lint errors
+spec: Fix the event test calling done for multiple times
+Fix accessing empty vector in V8FunctionInvoker
+Fix crash when converting invalid image to JPEG
+Fix Linux ia32/arm build
+Fix typo in comment
+Fix nativeWindowOpen's opener being null
+Fix conflicting dependencies for building arm
+Fix stupid or check in scrubber defaults
+Fix No module named google_compute_engine error
+Fixed invalid empty vector subscript access
+Fix devtools open in mixed sandbox mode
+Fix typo
+Fix french language mistakes in documentation
+Fix #8017: Crash copying croped image to clipboard
+:bug: Fix #9231: Don't load url when detached.
+Fix #8768: Show() on already open modal
+Fix error message of `assertWithinDelta()`
+Fixed build issues in debug mode
+Fixes electron/electron-typescript-definitions/issues/63
+Fix structure docs
+Fix typo in Notification docs
+:apple: Fix treat packaged app as directory
+Fix crash when using file chooser in BrowserView
+Fix docs: app.md `setLoginItemSettings`
+:apple: Fix full screen when resizable is set to true
+Fix invisible titlebar on macOS 10.13
+Fix broken link to Atom
+Fix typo
+Fix hyperlink text containing space
+Merge pull request #9694 from yuit/FixLinkToThaiDoc
+Fix typings for cookies.get
+:memo: [ci skip] Fix link to Thai documentation
+:apple: Fix an issue where alwaysOnTop window disappears when restored from the application icon
+:memo: Fixed typo
+:white_check_mark: Add test for Windows fullscreen state toggle. Fix #6036
+:checkered_flag: Fix #6036. Ensure window is visible after fullscreen toggle
+Fix reference typed reply placeholder
+Fix linting errors and add isSupported
+Fix linting issues
+Fix compilation and click events on macOS
+:apple: Fix incorrect extension when filters is used
+Fix typo in option name
+Fix typos in ProcessMetric doc
+Fixing indentations
+:art: Fix documentation
+Fix naming and formatting
+Fix linting violations
+Update BrowserView docs. Fixes #9553
+Fix string16 init on macOS
+Fix missing return value type for systemPreferences.getUserDefault
+Fix missing dep of libdatrie1
+Fix missing deps when building for ia32 and arm
+Fix pylint warnings
+Fix typo in Japanese docs
+Fix menubar animations being incorrect in RTL layout
+Fixed vscode debugging code
+Fix build/include_alpha linter violations in brightray
+Fix build/include_what_you_use linter violations in brightray
+Fix build/header_guard linter violations in brightray
+Fix JSON issue in example block
+Fix how rpc-server releases references after page reload
+Fix copy paste typos in BrowserView docs
+Fix createFromDataURL return type
+Fix postData type definition in docs
+Fixed capitalization and punctuation in README
+Fix windows path in service worker spec
+Fix return type of makeSingleInstance
+Fix webcontents capital
+Fix broken link
+Fixing missed variable name
+Fix order of OSs
+Fixing UT
+Fixing lint error
+Fixing UT on mac
+Fix #8911
+Fix typo in fixture comment
+Fix JS style in test HTMLs
+Fix context leak in ObjectLifeMonitor.
+Fixing mac build
+Fixing lint error
+Fix typo when updating code
+Fix release build
+Fix unresolved symbol to icu::DateInterval
+Fix linking error with icu symbols
+Fix crash when using secure schemes
+Fix building on Windows
+Fix symbol conflicts in Xlib.h
+Fix building on Linux
+Fix lack of some Chromium headers
+Fix crash on exit
+Fix API changes of FrameSubscriber
+Fix change of FileDescriptorWatcher API
+Fix blink API changes
+Fix more API changes due to name changes
+Fix API changes of base::Value
+Fix API changes in OSR code
+Fix API changes of Chrome58
+Fix typos
+Fix typos in comment
+Fix OverrideSiteInstanceForNavigation() signature
+Fix building on Linux
+Fix API changes of Chrome 58
+Fix missing warning icon with dialog.showMessageBox() on macOS
+Fix cpplint errors
+Fix comment for ChildWebContentsTracker
+Fix afterEach
+Fix session.setPermissionRequestHandler webContents argument type
+Fix link to the Upgrading Chrome doc
+:memo: Fix document of MimeTypedBuffer Object [ci skip]
+Fix sandboxed crashReporter for windows.
+Fixed a couple of failing debug checks when calling Chromium APIs
+Fix c&p error
+Fix some style things
+Fix file sorting
+Fix indentation
+Fix JS style
+Fix cpplint: at least two spaces between code and comments.
+Fix namespace comments.
+Fix net module to accept non-string header values
+Fix compilation against macOS 10.10 SDK
+Fix namespace comments.
+Fix choise -> choice
+Fix crash happened in UvRunOnce
+Fix translation error
+Fix compilation issue
+Fixed for linting
+Fix indent in api-crash-reporter-spec.js
+Fix docs lint warnings
+Fix cpplint warning
+Fix js lint
+Fix typos and adjust sentences
+Fix option doc
+Fix spec description
+Fix JavaScript in docs
+Fix C++ style
+Fix JavaScript style
+Fix ELECTRON_GUEST_WINDOW_MANAGER_INTERNAL_WINDOW_OPEN handler
+Fix duplicate protocol method declaration
+Fixed linting
+Fix linting
+Fix linting
+Fixed pass by reference and added spec
+Fix Group items
+Fix cpp linting
+Fix JS linting
+Fixed js lint issues.
+Fix cpplint warnings
+Fix crash when the main frame is replaced
+Fix init check for process.windowsStore
+Fixed typo
+Fix typo in comment
+:memo: Fix typos and grammatical errors.
+:memo: Fix some grammar mistakes
+:memo: Fix some spelling mistakes
+Fixed typo in translation doc for BrowserWindow
+Fix darwin platform name
+Fix linting
+Fix typo
+Fix linting errors around spacing and semicolons
+Fix example code
+Fix code formatting
+Fix wrong signature for gtk's ShowSaveDialog()
+:checkered_flag: Fix dialog method calls for Windows
+Fix exception when executing create-dist directly
+Fix lint errors
+Fix large icon spec
+Fix doc lint
+Fix more review
+Fix some feedback
+Fix code style
+Fix lint
+:bug: Fix webpreferences not accepting numeric options
+Fix missing of symbols when linking win32 build
+Fix broken Squirrel.Windows link.
+Fix print() not working
+Fix compilation waring on Mac
+Fix PrintToPDF not receiving results
+Fix sync printing not working
+Fix missing of symbols issue on Release build
+Fix cpplint warnings
+Fix Debug building on Windows
+Fix crash when using webview
+Fix linking on Mac
+Fix error due to search for openssl headers
+Fix typo in getLoginItemSettings doc
+Fix method signature on macOS.
+Fix typo in spec description
+Fix Debug building on Windows
+Fix standard linting error
+Fix Japanese translation
+Fix a typo
+Fixing missing link
+Fix dereferencing nullptr
+:memo: Fix typo
+Fix linking for arm build
+Fix building error for arm linux
+Fix linking for Windows
+Fix building on Windows
+Fix linking error for x64 Linux build
+Fix linking problem with libgtk2ui
+Fix compilation errors for Linux
+Fix linking errors on Mac
+Fix cpp linter errors
+Fix the rendering for the rounded edges
+:memo: Fix a broken asar link.
+Fix electron-jp's link in README.md
+Fix a typo, there => their
+Fixed link to Quick Start
+Fix broken link in dialog.md [ci skip]
+Fix issue where actual/expected was same variable
+Fix printing with the sandbox enabled
+Fix linting
+Fix build issues
+Fix issues and deprecate the old prop
+Fixup app and bw docs
+Fix indentation in menu template example
+Fixed language code to Aragonese
+Fixed linting on Windows
+Fix linting issues
+Fix maximize --> unmaximize positioning issue
+Fix crash when return value pointer is null
+Fix typo
+Fix support for dragging urls in Mac
+Fix win/linux compile (again)
+Fix win/linux compile
+Fix ternary
+Fix method names, move to anon namespace
+Fix header
+Fix linting
+Fix method call
+Fix typo
+Fix standard linting errors
+Fixed incorrect subject name of test client certificate.
+Fix listing issues: remove semicolons.
+Fix the download-item doc so it correctly resembles a class
+Fix tray and menu docs
+Fix the IPC docs so the docs-linter finds the methods
+Fixing a trivial js lint issue.
+Fixed typo
+Fixing code review issues: refactoring emit methods using CustomEmit.
+:memo: Fix links in docs-translations/pt-BR/README.md [ci skip]
+Fixing code review issues: fixing linter issues in spec file.
+Fixing code review issues: adding some test cases for partition/session options.
+Fixing code review issues: adding a partition options and making the session option only takes Session objects.
+Fixing code review issues: making delegate_ a raw pointer.
+Fixing code review issues.
+Fix typo, and trimming.
+Fixing authentication cancel with null/undefined credentials.
+Fixing net doc file name.
+Fixing net response objects being piped into writable streams test.
+Fix bd object name
+Docs: Fix relative link to MAS builds tutorials
+Fixing a crash with pending URLRequests on shutdown.
+Fix spaces
+Fix uploaddata naming
+Fixing build: removing constness on net::HttpResponseHeaders as otherwise we would need a change in libchromiumcontent.
+Fixing code review issues: function call formatting, renaming JS member variables, refactoring response headers conversion.
+Fix missing type
+Fix spec linting issues
+Fixing build on Mac OS
+Fixing various issues in tests.
+Fixing build on Linux
+Fixing lint-js issues.
+Fixing cpplint issues.
+Fix oops typos
+Fix dot
+Fix Windows compiler errors
+Fix Linux compiler errors
+Fix typo
+:memo: Fix misspelling in docs/api/app.md [ci skip]
+Fix relative url
+Fix relative link, added translation link for dutch
+Fix errors
+Fix JS Lint issues
+Fix indentation
+:memo: Fix the link source-code-directory-structure.md on pt-br [ci skip]
+Merge pull request #7291 from thomsonreuters/Fix_Missing_Additional_Features_New_Popup_Windows
+Revert "Fix for issues seen on frameless window (Windows) when at 200% resolution"
+Fix webContents.findInPage links in docs
+Fixes mouse coordinates for Windows when display is set to a higher DPI (ex: enlarged by 150% using display settings)
+Fix docs linting
+Fix broken link
+Fix broken link
+Fix getAccentColor() docs in system-preferences.md
+Fix broken links
+Fix errata
+:memo: Fix typos and improve translations in README.md
+Fix compiler errors
+Fix erratum
+Fix some bronken links
+Fix k typo
+Fix compatibility with canScroll
+Fix js linting error
+Fix failing spec when refreshing test window
+Fix API change of findInPage API
+Fix crash caused by new network parameters
+Fix crash in offscreen renderer
+Fix building on Windows
+Fix building on Linux
+Fix API changes of Chrome 53
+Fix navigation controller
+Fix API changes of Chrome 53
+Fix warning when compiling for win32 ia32 build
+Fix arm's zip name
+Fix symbols zip's name
+Fix oops on Windows / Linux.
+Fix spelling mistake from registred to registered
+Fix linting issues
+Fix typos
+Fix date
+Fix cpp linting issues
+Fix attribute typo in docs
+Fixing indentation
+Fix printing on Windows when sandbox is enabled
+Fix scroll conflict
+Fix building on Linux
+Fix building under linux
+Fix accidentally changed lines
+Fix lint warnings in documentations
+Fix lint errors of using __proto__
+Fix linting issues
+:memo: Fix link to macOS Debugging Instructions
+Fix filename when uploading to github
+Fix error in run_boto_script
+Fix error of run_python_script
+Fix styling issues
+Fixes not being able to send UTF8 characters anymore
+Fixes not being able to send UTF8 characters anymore
+Fix typo in comment
+docs: Fix undefined variables
+Fix building on non-Windows
+Fix lint warnings
+Fix test for PR #6600
+Fix TypedArray check, add check when instanceof doesn't work for TypedArrays.
+Fix linting
+Fix building on Windows
+Fix building on Linux
+Fix compilation error after merge
+Fix compilation error after merge
+spec: Fix exception when refreshing test window
+Fix compilation errors on Windows
+Fix cpplint warnings
+Fix casing issue on the windows update JS file
+Fix linting, removes additional semicolon
+spec: Fix js lint warning
+Fix building on Linux
+:memo: Fix grammatical typo
+:memo: Fix isolated link
+:memo: Fix typo
+Fix Windows compilation issues
+Fix transparent window having border on OS X 10.9
+Fix link to locales.md
+win: Fix openExternal not working with non-ASCII characters
+Fix indention
+Fixed broken links in documentation PT-BR
+Fix typo in the web-contents.md
+Fix unmaximize() not working
+Fixed broken FAQ link in docs/README.md
+Fix typo in the web-view-tag.md
+Fix typos in the remote.md
+Fix a hash of a link href in the remote.md
+Fix linter warnings
+Fix disordered definitions in webContents doc
+Fix building on Windows
+Fix cpplint warnings
+Fix building on Linux
+Fix building on Linux
+Fix crash when creating protocol module
+Fix linter errors
+Fix crash in ReadImageSkiaFromICO when CreateSkBitmapFromHICON fails
+Fix uninitialized member variable in CrashReporterWin
+Fix chrome.runtime.sendMessage
+Fix usages of global BrowserContext in App::ImportCertificate
+mac: Fix maximize/unmaximize event emitted before window is maximized
+spec: Fix failing tests of Menu
+Fix lint errors
+Fix init list order
+Fix typo in DevTools Extensions tutorial
+:apple: Fix context menus selecting first item by default.
+:memo: Fix minor text issues.
+:art: Fix typo: 'arugments'
+Fix exception in alert for inavlid parameter
+Fix double free when closing window with devtools opened
+:memo: Fix grammatical issue
+Fix typo in example
+Fix spec case
+Fix typo in `atom::TaskbarHost::InitializeTaskbar()`
+Fix location of code snippet in nativeImage docs
+Fix title of frameless window showing as empty under fullscreen
+Fix NativeWindow::Focus not moving focus to window
+Fix shared data example
+Fix typo
+Fix js lint warnings
+:apple: Fix 'setAspectRatio(0)' not resetting the default behaviour.
+:apple: Fix context menus only showing on primary monitor.
+:bug: Fix setFullscreen() on Windows
+Fix pylint warnings
+Fix: Properly notify observers when window prevents close
+Fix showing context menu in devtools
+Fix crash when quitting
+Fix building on Windows
+Fix js lint warnings
+Fix chrome.devtools not available in devtools extensions
+Fix building on Linux
+Fix compilation errors on Linux
+Fix cpplint warnings
+Fix crash due to site_instace being freed early
+Fix using invalid pointer as SiteInstance
+Fixed linting error
+:memo: Fix link to improve readability
+Fix passing fd across modules
+Fix the toolbar showing when titleBarStyle is hidden-inset
+Fix building on Windows
+Fix linux support
+Fix build issues
+Fix failing CI on OS X
+Fix cpplint warnings
+:memo: Fix styling of the context-menu docs [ci skip]
+:apple: Fix context menu positioning
+Fix crash when creating external buffer
+Fix compilation warnings introduced by VS 2015
+Fix linking problem with IPC::MessageT
+Fix GURL coonstructor from webkit string error
+Fixed grammar issue.
+Fixed typo
+Fix leak when KeyWeakMap::Remove is called directly
+Fix passing paths in command line
+:memo: Fix code style issue
+:memo: Fix code style issue
+Fix exception when refreshing specs window
+:memo: Fix small typos
+Fix compilation error
+Fix the toDataUrl call in desktopCapturer
+Fix spacing on lines and url
+Fix code styling problems
+Fix small mistakes in CONTRIBUTING-ko.md
+Fix margin of elements in flex
+Fix code styling issue
+:memo: Fix typo
+:memo: Fix Windows debug doc pointing to OS X [ci skip]
+Fix logic errors
+Fix pylint warnings
+Fix systemPreferences docs
+Fix autoUpdater error on OS X
+:memo: Fix typos
+Fix specs on Windows when running without desktop session
+Fix a few failing tests on Windows
+Fix logo
+Fix #3075 by not caching the displays (id is not persistent on Windows)
+:apple: Fix converting from windows virtual keycode back to mac keycode
+Fix compilation error
+Fix building on non-mac
+Fix BrowserWindow.maximize/unmaximize on Mac
+Fix links in readme for spanish translation
+Fix translations to spanish
+:memo: Fix coding style issues
+:memo: Fix coding style issues
+:memo: Fix typos
+:memo: Fix coding style issues
+Fix display.rotation documentation
+Fix linting errors.
+Fix some coding style issues
+Fixed docs sample code programming error for DownloadItem
+Revert "Fix headers"
+Add `isLoadingMainFrame` method to WebContents. Also switch `webContents.executeJavaScript` to check it instead of `isLoading`. There doesn’t seem to be a reasonable public way to get this information out of Chromium, so it’s synthesized here based on WebContentsObserver callbacks. Fixes #5183.
+:memo: Fix typos
+Fix documentation
+Fix JS linter errors
+Fix headers
+Fix the link error
+Fix race initialising DevtoolsNetworkController
+Fix lint warnings
+:memo: Fix url to relative
+:memo: Fix grammatical typos
+:memo: Fix url locale
+Fix trailing whitespace caught by linter.
+Add `resourceType` arg to webContents `did-get-response-details` event. Fixes #5074 and follows @zcbenz's recommendation to expose ResourceTypeToString from atom_network_delegate publicly. Also adds testing for other arguments to the `did-get-response-details` events, since there were no existing tests for them.
+Fix problem with old Node
+Fix coding styles
+Fix style issues
+Fix memory leak
+Fix broken template image support in Tray icon
+Add `isMainFrame` as last argument to WebContents `did-fail-load` event. Fixes #5013.
+Fix converting SkColor to NSColor
+spec: Fix failing test due to path delimiter
+Fix the background color in test app
+Fix compilation errors on Windows
+Don't emit 'will-quit' when 'app.exit()' is called. Fixes #4643
+Fix Menu documentation
+Fix alert()
+Fix compile oopses on non-OS X
+Fix spec failure
+Fix failing test
+Fix libffmpeg.dylib path for install_name_tool
+Fix broken/outdated link and push up the version
+Fix the chrome version
+Fix linking error for Release build on Linux
+Fix linking error for Release build
+Fix compilation errors on Windows
+Fix cpplint warnings
+Fix compilation errors on Linux
+Fix passing Promise with remote
+Fix node integration not working
+Fix cpplint warnings
+Fix compilation errors on OS X
+Fix the compilation errors from brightray and crashpad
+Fix compilation error on Windows
+Fix RenderFrameHostChanged
+Fix devtools not working
+Fix compilation errors on OS X
+Fix typos in comments.
+Fix link name.
+Fix passing certificate to select-client-certificate's callback
+:apple:Fix 'isMaximized()' for non resizable windows
+Fix strict-ssl detection.
+Fix JP docs tranlation
+Fix Menu template API example
+Fix crash in mate::Converter<const net::URLRequest*>::ToV8
+Fix render-view-deleted being emitted twice
+spec: Fix failing tests on Windows
+Fix linter error
+Fix broken links in desktop-environment-integration.md
+Fix line length wrap
+Fix: add missing fragment in FAQ section URL
+Fixing the problem related to FrameSubscriber
+Fix electron binary relative path
+Fix index increment
+ Fixing typo
+Fix failing specs
+Fix 'user strict' typo
+Fix type cast of sharedApplication
+Fix "Object has been destroyed" error in "page-title-updated" event
+Fix compilation error
+spec: Fix failing tests on Windows
+Fix fullscreenable on EL Capitan
+Fix typos in environment-variables.md
+Fix a broken link
+Fix Windows crash when trying to free asar fd
+Fix doc
+Fix crash when closing page with webview
+Fix style issues of #4029
+Fix a document
+Fix failing test on Windows
+Fix linux and mac build errors
+Fix "name" of Error object not serialized
+Fix hiding fullscreen button on EL Capitan
+Fix crash when request failed
+spec: Fix failing specs on Windows
+Fixing link to web contents from ipcMain
+Fix coding styles
+Fix circular reference caused by Object.defineProperty
+Fix circular reference caused by RemoteMemberFunction
+Merge pull request #3912 from tylergibson/FixingMoveItemToTrash-Windows7
+Fix converting string to NSURL
+linux: Fix pressing Alt not toggling window menu bar
+Fixes #2810: correct look of hidden-inset windows in full screen.
+docs: Fix markdown code language
+Fix context menu not working in devtools
+Fix crash when passing empty path to addRecentDocument
+:memo: Fix confused translation
+Fix converter for std::set
+Fix memory leak
+Fix release title
+Fix up Chrome47 changes
+Fix up Windows build errors
+Fix cppling warning
+Fix the failing sendSync
+Fix broken link in Docs > Synopsis
+Docs: Fix link to webcontents send channel
+spec: Fix failing tests on win32
+:memo: [ci skip] Fix typos
+Fix CORS header code to be cleaner
+:bug: Fix missing execution permission bit in execFile override
+Fix wrong deprecation wrappers of BrowserWindow
+Fix compatibility with activate-with-no-open-windows event
+Fix https://github.com/atom/electron/issues/3565 by adding a typeof
+docs: Fix deprecated usage tips
+Fix typos in Korean api/ipc-main.md
+Fix a typo in Korean quick-start tutotial
+Fix menu-item using deprecated API
+Fix platform label to uppercase (ko)
+Fix platform label to uppercase
+docs: Fix typo
+Fix cpplint warning
+Fix wrong markdown
+Fix sizing of Mac OS X tray icon after image change
+Fix missed changes
+Fix Tag Typo
+Fix typos in download-item.md
+Fix typo in notifications example docs
+Fix typo, tray => Tray
+Fix node_bindings link in Simplified Chinese document translation
+Fix building on Windows
+Fix building on OS X
+Fix a few places using old style require
+Fix a typo
+Fix build error
+Fix typo
+Fix compilation error of brightray
+Fix compilation error
+docs: Fix typo
+Fix pylint errors
+spec: Fix refreshing on Windows
+win: Fix calling showItemInFolder in renderer process
+Fixing MoveItemToTrash behavior in Windows
+Fix building on POSIX
+Fix remove boolean parameter at IsSwitchEnabled function
+Fix comments from @jlord
+Fix module types available in the renderer process
+Win: Fix adding '.*' to filename in callback.
+Fix missing spell
+Fix calling showItemInFolder in renderer
+Fix passing Date object in remote
+Fix passing Error object in remote
+win: Fix compiler warning
+Fix crash when calling app.quit() before app is ready
+Fix memory corruption when cleaning timer
+Fix up filenames to include Chrome source
+Fix callback handle usage
+Fix build against old OneShotTimer
+Fixed linter issues but now the code looks awful
+Fix always passing the first result to renderer when the API is called multiple time at once.
+Fix: tray NotfiyDropFiles typo
+Fix: savePage API saves external resources in a wrong directory.
+Fix some typos.
+win: Fix "enable-larger-than-screen" option spec
+views: Fix crash when setSizeConstrains is called early
+Fix linking error
+Fixing "tile" -> "title" typo
+Fix `process.std*.write`
+Fix console.* calls on Windows
+docs: Fix wrong level for API titles
+Fix `postMessage` not working for windows opened by `window.open`
+Fix building with Xcode 6
+Fix small typos
+Fix small typo
+Fix a wrong usage of switch commandline.
+Fix RegisterPrefs not working in subclass.
+osx: Fix setting size constraints for frameless window
+Fix some minor bugs related to KeyboardEvent sending
+win: Fix building on Windows
+views: Fix content size constraints in window with menubar
+win: Fix GetContentSize for minimized window
+osx: Fix converting size for frameless window
+Fix typo, closes #2990
+Fix restore/unmaximize wrong window size
+Fix tooltip can not show outside window
+Fix crashing on Linux
+Fix cpplint warnings
+linux: Fix pressing Alt not showing menubar
+Fix calculating min/max size in frameless views
+Fix typo for docs/api/menu-item.md
+Fix window state events on Windows
+Fix inconsistent docs: downloadItem.getURL() => downloadItem.getUrl()
+win: Fix leaking of fd when reading file in asar
+win: Fix building
+Fix initializer
+Fix cpplint warnings.
+Fix small typo in debug message.
+Fix a typo
+Fix wrong return values in a few converters
+Fix cpplint warnings
+Fix compilation error
+Fix cpplint warning
+Fix the git commit messages hash link
+Fixed the mapNumbers require call
+Fix a wrong check in emitting 'activate-with-no-open-windows' event.
+docs: Fix role hideothers, unhide typo
+Fix harder
+Fix electron-rebuild instructions for Win32
+Fix backward compatibility with old BrowserWindow options
+Fix `create_chrome_version_h` in bootstrap.py
+Fix typo
+Fix small typo
+Fix build failing on Windows
+Fix README links.
+Fix typos in zh-TW README docs
+Fix building on Windows
+Fix API changes on Linux
+Fix API changes
+Fix conflict
+Fix many typos, update as upstream
+Fix API changes on Linux
+Fix API changes
+Fix link to app.addRecentDocument
+Fix print spooler hangs when printing more than 3 pages on Windows.
+Fix typo
+Fix leak of handle when emitting events
+Fix IMPORTANT Typos and update as upstream
+Revert "Fix link target in README.md"
+Fix building on OS X
+Fix link target in README.md
+Fix typos and improve grammer, translate more files
+Fix path comparison in api-ipc-spec
+Fixed comment spacing
+Fix no close button in message box on Windows
+win: Fix release build
+win: Fix Release build
+linux: Fix building
+Fix for issue 1968: use uv_backend_timeout to determine timeout to match other platforms
+Fix memory leak and confirming to style guide
+Fix some typos, update as upstream
+:memo: Fix a typing error: printBackgrounds => printBackground
+Fix a typing error in option checking: printBackgrounds => printBackground
+Fix absolute url to github
+Fix formatting of print and printToPDF methods
+Fixed typo
+Fix crash when requesting invalid url
+win: Fix compiler warning
+Fix emitting did-attach event
+Fix finding the WebContents of a pending renderer process
+Fix search path of ffmpeg
+Fix compilation warnings caused by chrome44 update
+Fix API changes in DevToolsManagerDelegate.
+Fix a crash issue in GetProcessOwner if no renderer view host is found.
+Fix content::BrowserPluginDelegate::DidResizeElement API changes.
+Fix node::Buffer API changes.
+Fix WillAttach API changes in content::BrowserPluginGuestDelegate.
+Fix cpplint warnings
+Fixed typo
+Fix cpplint warning
+Fix typo
+Fix typo
+Fix: browser window will be resiable when calling `window.setResizable(false)` twice.
+Fix compilation error caused by #2340
+Fix running callback when global.global is deleted
+Fix typo in auto-updater.md
+Fix a missing the specified mime type check in <input> accept attribute.
+Fix code formatting issues
+Fixed typo
+Fix linting issues
+Fix up namespaces
+linux: Fix min/max size not working
+Fix app-command event always return 'unknown'.
+Only allow extensions explicitly specified by the user. Fixes #2296
+Update as upstream, Fix typos
+Fix typos, Improve grammer
+Fix hanlding trailing slash in asar package, close #2222
+Fix OS X build error.
+Fix typos, update some files
+Fix cpplint warnings
+Fix the ill cookie test
+Fix session specs
+Fix docs typo It was breaking the docs site build because it's a code block type
+Fix failed specs caused by window.open url parsing
+Fix sample code indention
+Fix focusing message box
+Fix a type error on window.moveTo API.
+Fixed and clarified crash-reporter documentation
+Fix uploading headers when release draft exists
+Fix pylint warning
+Fix path to requests library
+Fix calling clean.py
+Fix pylint warning
+Fix calling npm on win32
+Fix the wrong reverse `pageup` and `pagedown` keys.
+Fix compilation errors due to compiler change
+Fix a compiler warning
+Fix `window.open` with wrong name
+Fix charsets, add more translated files
+Fix typos, add more files
+Fix some typos and translate more files
+Fix building on Windows
+:memo: Fix a type error.
+Fix the order of function definitions
+Fix release render view with wrong ID
+win: Fix building, close #2018
+Fix more code styles.
+Fix cpplint.
+win: Fix setContentSize changing window position
+Fix cpplint warnings
+Fix code style.
+Fixing type: printBackgrounds => printBackground
+Fix a type error.
+Fix a type error in checking function options.
+Fix Linux compilation error.
+Fix OS X compilation error.
+Fix a `landscape` option error.
+win: Fix running spec
+win: Fix compilation error
+Fix typo
+Fix calls to deprecated node::ThrowError API
+Fixing cpplint line width
+Fix grammar and JS example for Chrome command line switches docs
+Fix several typos and grammar errors
+win: Fix runing clipboard spec
+Fix building on Windows, close #1896
+:memo: Fix english errors and language
+:memo: Fix english errors and clarify docs
+:memo: Fix english errors
+Fixed example with correct capturePage api.
+Fix coffeelint error.
+Fix refreshing test window
+Fix crash when quitting
+Fix typo
+Fix dialog.showSaveDialog doesn't show the non-exist file name on Linux.
+Fix changing src would calling loadUrl for twice
+Fix cpplint error.
+Fix running spec on Windows
+:lipstick: Fix grammatical issues
+:lipstick: Fix grammatical issues
+:lipstick: Fix grammatical issue
+Fix compilation errors
+Fix typo
+Fixup code review items
+Fix typo
+Fix PPAPI flash plugin description
+Fix wording in docs/api/remote.md
+Fix a potential out-of-bound issue in Accelerator.
+Fix indentation
+Fix compilation error on OS X.
+spec: Fix error when refreshing
+Fixing typo in desktop-environment-integration.md
+spec,win: Fix page-favicon-updated event spec
+win: Fix compilation error
+Fix typo
+Fix grammar in NW.js comparison
+linux: Fix compiler warning
+Fix API changes
+Fix refreshing specs
+Fix API changes
+Fix the build on OS X
+Fix some draw issues in native mac os window
+:art: Fix a typo
+Fix upload.py for the rename
+Fix typo
+Fix uploading index.json under OS X
+linux: Fix wrong off_t type under 32bit arch
+Fix pylint warnings
+Fix typo
+win: Fix linking problem on x64
+Fix spelling and grammar errors.
+win: Fix link errors caused by libicu
+mac: Fix libicu symbols not included
+linux: Fix linking with node and v8
+Fix including icu libraries
+Fix generating distribution for chromedriver
+mac: Fix linking error when running chromedriver
+linux: Fix create distribution for chromedriver
+Fix pylint warnings
+linux: Fix static linking
+linux: Fix linking with system libraries
+Fix typo
+Fix path to boringssl.dll
+win: Fix a compiler warning in Node
+win: Fix Debug build
+Fix minor typo
+mac: Fix linking with boringssl
+Fix generating configs on OS X and Linux
+win: Fix linking with libyuv
+win: Fix linking with ffmepg
+win: Fix linking
+win: Fix defines under component build
+win: Fix libchromiumcontent_src_dir not defined
+Fix linking node and chromium together
+Fix calling our new APIs in patch
+Fix generating node.lib
+Fix wrong update of node
+linux: Fix relocation error when compiling as shared library
+win: Fix linking errors
+Fix calling js2c
+win: Fix compilation error
+linux: Fix compilation error
+docs: Fix setting GYP_DEFINES on Windows, closes #1126
+Add runas as devDependencies, or the python script will install it again and again. The options of register_msdia80_dll.js should be admin. Fix the problem of runas not works cause it will escape command parameters by default.
+win: Fix tests and compilation errors
+Fix building on Windows
+linux: Fix compilation error
+Fix webview for the new API
+Fix devtools override for its new architecture
+Fix other compilation errors
+Fix API changes of CopyFromBackingStore
+Fix API changes of tracing API
+Fix API changes of ContentBrowserClient
+Fix API changes of WebContentsDelegate
+Fix ui/gfx/geometry headers
+Fix accidental update of submodules, closes #1255
+Fix compilation on Linux
+Fix a typo
+Fix styling of #1209
+Fix browser_context.cc
+Fix url_request_context_getter.cc
+Fix network_delegate.cc
+Fix inspectable_web_contents_impl.cc
+Fix inspectable_web_contents_impl.h
+Fix devtools_manager_delegate.cc
+Fix ui/gfx/geometry headers
+Fix styling of #1199
+Fixes after code review.
+Fix tense of error message
+win: Fix calling FILE_PATH_LITERAL for variable, fixes #1143
+Fix cpplint errors.
+Fix window.open options parsing: remove excessive whitespace (gets inserted in property names), avoid creating dummy properties if not needed, turn 1/0 to true/false, convert integer strings to strings (fixes width/height).
+Fix cpplint warnings
+spec: Fix BrowserWindow.capturePage
+Fix cpplint warnings
+Fix build on OS X
+linux: Fix building
+Fix cpplint warnings
+Fix cpplint warning
+Fix change of ShowDesktopNotification API
+win: Fix program not quitting, close #1084
+Fix string escaping
+Fix the build on Linux
+Fix loading node integration when page in webview navigates, close #1068
+spec: Fix flags in fs.open
+linux: Fix building for Chrome 40
+Fix executing upload-node-headers.py in cygwin
+Fix cpplint warning
+Fix the API to set opaque background
+Fix process.crash()
+Fix target url
+docs: Fix typo
+Fix converting ListValue to V8
+win: Fix building
+Fix cpplint warning
+views: Fix showing icon in message dialog
+Fix devtools window can not minimize
+Fix ignored exception thrown from constructor.
+win: Fix building
+linux: Fix building
+Fix throwing error in constructor
+mac: Fix a crash when closing window
+Fix bootstrap.py on posix platform
+linux: Fix building
+win: Fixes stopping FlashFrame, closes #906
+Fix cpplint warnings
+Fix nullref crash in RemoveGuest
+Fixed 64-bit windows install
+win: Fix calculating window bounds on high DPI display
+win: Fix generating location.pak.
+mac: Fix installing view on frameless window
+win: Fix compilation errors
+Fix compilation warning on Windows
+Fix relative links in "src" of <webview>
+Fix compilation warnings due to API changes
+Fix browser plugin API changes
+Fix the default framework name to be 'Product Framework.framework', not 'Product.framework'
+mac: Fix crash reporting on Yosemite
+Fix compilation errors caused by Chrome 39
+Fix compilation warning on Yosemite
+Fix building on Mac
+Fix capturePage API, closes #847
+Fix typo in method
+win: Fix crash when calling app.setName
+Fix displaying context menu for devtools
+views: Fix "visible" not working in menu bar, closes #825
+win: Fix default path for native dialogs
+Fix CPP formatting
+Fix merge conflict with native_window_views.cc
+Fix code style formatting
+Fix code style to be <= 80 lines
+Fix pylint warnings
+views: Fix showing menu bar when pressing Alt for a long time
+Fix Windows min/max animation on frameless windows
+views: Fix showing menu bar when pressing Alt for a long time
+Fixes Event.prevenDefault() not working, closes #771
+Fix JavaScript errors in webview
+Fix double freeing WebContents
+Fix leaking WebContents from devtools.
+Fix double freeing guest
+Fix type convertion errors.
+Fix creating window in <webview>
+Fix initializing webview
+Fix js errors in webview
+linux: Fix detect global menu bar
+linux: Fix compilation warning from dbus
+win: Fix toggling the menubar, closes #681
+Fix __dirname for page in asar package
+win: Fix building
+Fix building on Linux
+Fix building on Linux
+Fix API changes of Chrome 38
+Fix loading devtools
+Fix cpplint warning
+Fix compilation warning on Linux
+gtk: Fix focusing on file dialog
+linux: Fix compilation warning
+asar: Fix fs.realpath on package's root
+win: Fix total value in SetProgressBar API.
+Fix overriding async node API
+Fix readdir on a linked directory
+Fix shifting args in fs.readFile
+Fix getting file from symbol linked directory.
+Fix calling fs.open in fs.readFile wrapper
+Fix getting information for root.
+Fix __dirname and __filename in asar: protocol.
+mac: Fix dock progress bar doesn't show after hiding, fixes #658.
+Fix creating empty chromedriver archive.
+Fix chromedriver's version in archive.
+Fixing dialog api parameter parsing
+win: Fix compilation error.
+win: Fix compilation with Chrome 37.
+linux: Fix API changes of Chrome 37.
+Fix API changes of Chrome 37.
+Fix cpplint warnings.
+Fix API changes of Chrome37.
+Fix cpplint warnings.
+linux: Fix BrowserWindow.setResizable.
+linux: Fix linking error.
+Fix handling failed print.
+Fix cpplint warnings.
+Fix compiling with print messages.
+docs: Fix typos.
+views: Fix activating lower case accelerators.
+views: Fix calculating underline's position.
+views: Fix compilation error.
+Fixes for windows
+Fix compilation error on Linux.
+mac: Fix crash when checking for update, fixes #575.
+Fixed inconsistent newlines
+linux: Fix error when generating symbols.
+Fix cpplint warning.
+Fix compilation error of Constructor and ScopedPersistent in node 0.10.
+Fix compilation error with node 0.10.
+Fix "warning: field 'widget_' is uninitialized when used here".
+Fix pylint warning.
+win: Fix calling lint scripts with win32 python.
+linux: Fix detecting Alt modifier.
+win: Fix the key code of Alt.
+Fix cpplint warnings.
+win: Fix window frame when DWM is disabled, closes #519.
+Fix cpplint warnings.
+Fix typo.
+Nits: Fix code style.
+mac: Fix app.dock.show/hide, close #520.
+Fix building on Windows.
+Fix building on Linux.
+mac: Fix blank page after devtools is opened.
+mac: Fix the notification presenter of new API.
+win: Fix tray context menu in high DPI mode
+Fix isMinimized API documentation
+views: Fix showing window icon, closes #514.
+win: Fix generating symbols.
+mac: Fix crash when closing window, closes #504.
+mac: Fix the focus event of web contents.
+win: Fix parent window of dialogs.
+linux: Fix compilation error caused by X header.
+win: Fix compilation error.
+Fix crashing when setting web-preferences, closes #443.
+Fix cpplint warnings.
+Fix releasing script contexts.
+Fix shipping icudtl.dat in dist.
+linux: Fix modal message box.
+win: Fix showing menu on High DPI display.
+Fix crash when closing docked devtools by clicking close button.
+win: Fix black ground when closing message box.
+win: Fix window frame on detached window.
+win: Fix notify icon and context menu.
+Fix a crash when creating window.
+win: Fix compilation errors for chrome35.
+Fix context menu in devtools.
+Fix cpplint warning for obj-c header.
+Fix cpplint warning.
+Fix coding style
+linux: Fix setting parent window for file dialogs.
+Fix specs.
+Fix assertion caused by base::mac::AssignOverridePath.
+Fix invoking ContentMain.
+Fix using common modules.
+Fix including gtk rules in other OSs.
+gtk: Fix lack of x11_util implementations.
+Fix compilation errors on Linux.
+Fix ICU inilialization bug.
+Fix changes of node's build environment.
+Fix return types
+Fix long line
+Fix assertion in InitializeICU on launch
+Fix include paths for WebIconURL.h
+:lipstick: Fix the links
+Fix compilation error.
+Fix converting empty V8 dictionary.
+Fix refreshing the spec window.
+mac: Fix handling event from other windows.
+:lipstick: Fix cpplint warnings.
+:memo: Fix the outdated menu example, closed #389.
+:lipstick: Fix clipboard on Linux.
+win: Fix context menu clicking in notify icon.
+:lipstick: Fix cpplint warning.
+Fix cpplint warning.
+mac: Fix en-US locale.
+:memo: Fix some old docs.
+Fix specs.
+Fix error when showing empty menu.
+gtk: Fix setting unresizable window.
+:memo: Fix typos regarding to #349.
+gtk: Fix the focus event.
+win: Fix the resizable flag, closed #316.
+:lipstick: Fix cpplint warning.
+gtk: Fix setting content size.
+Fixed typo in BrowserWindow API Documentation
+Fix a typo
+Fix closing a crashed window, closes #269.
+Fixed typos
+Fixed typos
+Fixes auto updater regression, closes atom/atom#1949.
+:lipstick: Fix format.
+Fix subtitle
+win: Fix dumping symbols.
+Fix compilation error on Windows.
+win: Fix executing apm.
+Fix executing npm under cygwin.
+:lipstick: Fix pylint warning.
+:lipstick: Fix pylint warning.
+Fix printing in specs.
+Fix releasing the wrong renderer view.
+Fix using an null dictionary.
+:lipstick: Fix cpplint warning.
+Fix compilation under Linux.
+Fix the capturePage method.
+Fix parameter detection in capturePage.
+Fix cpplint warning.
+Fix cpplint warning.
+Fix passing the wrong parameter.
+Fix compilation error of function_template.
+Fix compiler warning in breakpad when using latest clang.
+Fix a crash when destroying window.
+Fix app.exit compatibility.
+Fix capturePage under accelerated mode, fixes #223.
+:lipstick: Fix cpplint warning build/include_what_you_use.
+:lipstick: Fix cpplint warning.
+gtk: Fix crash when calling GetSize() for hidden window.
+Fix calling apm for apm 0.37.0.
+Fix a possible crash when destroying window.
+gtk: Fix BrowserWindow::HasModalDialog.
+Fix bump-version script.
+Fix the location default_app is copied to.
+Fix process.resourcesPath.
+Fix coffeelint.
+gtk: Fix crash when using frameless window.
+:lipstick: Fix cpplint warning.
+Fix the menu of default_app.
+:lipstick: Fix pylint warning.
+Fixes crash caused by NativeWindow::IsWebViewFocused.
+:lipstick: Fix pylint warning.
+Fix calling node in coffeelint.
+Update node: Fix crash from UVException.
+Update node: Fix wrong uv error code.
+Update node: Fix crash from node::uv::ErrName.
+Fix crash caused by Protocol::RegisterProtocol.
+:lipstick: Fix cpplint warnings.
+Fix building on cygwin.
+linux: Fix upload script.
+linux: Fix create-dist.
+Fix polluting devtools in some cases.
+:lipstick: Fix cpplint warnings.
+Fix race condition when initializing request context getter.
+linux: Fix one compiler warning.
+:lipstick: Fix cpplinting.
+linux: Fix crash when using protocol module early.
+linux: Fix compilation error.
+Fix using BrowserWindow as parameter for ipc.sendChannel.
+Fix quitAndInstall when there is no window.
+Fix crash when calling quitAndUpdate without any update.
+win: Fix detecting attached modal dialog.
+Fix assertions when building against Debug libchromiumcontent.
+Fix building on Windows.
+Fix ci.
+:lipstick: Fix cpplint warning.
+Fix how we filter out atom-shell switches in process.argv.
+:lipstick: Fix cppling warning.
+Fix crash when opening multiple pages at the same time.
+Fix loss of --node-integration token after refresh.
+Fix debug assertions about transport_security_state
+Fix assertions in Debug builds about using NetworkDelegate on the wrong thread
+Fix gyp error on CI.
+Fix cpplint warnings.
+Fix uv loop hack on child_process.
+Fix crash when calling dialog's callback.
+Fix warnings of node_lib.
+Fix warnings of openssl-cli.
+Fix possible crashes when quiting message loop.
+Fix invoking non-exist method when quiting.
+Fix entry function under Linux.
+Fix circulate require.
+Fix console.log under Windows.
+:lipstick: Fix wrong order of parameter when killing process.
+Fix crash caused by BrowserWindow.destroy().
+Fix crash when calling method of destroyed object.
+Update brightray: Fix building on Windows.
+Fix protocol spec on Windows.
+Fix __filename on Windows.
+Fix initializing V8 on Windows.
+Fix third party module specs.
+Update apm: Fix installing for node v0.11.x.
+:lipstick: Fix cpplint warnings.
+Fix protocol module specs.
+Fix capturePage() spec.
+Fix a couple minor typos in docs
+Fix flash of page while resizing devtools NSSplitView divider.
+Fix the black devtools view.
+Fix crashes about persistent v8 functions.
+Fix node integration to browser after updated to Chrome31.
+Fix recursive calling of handle().
+Fix IsDevToolsOpened when devtools is attched to pane on Linux.
+Fix template related compilation errors of VC++.
+:lipstick: Fix cpplint warnings.
+Update node: Fixed a handle leak in fs.statNoException().
+Fix returning the chosen option for synchronous dialogs.
+Fix executing python script in gyp.
+win: Fix error when bootstraping.
+Fix remaining cpplint errors in inspectable_web_contents_view_linux.cc
+Fix backwards typedef
+Fix cpplint errors in common/mac/foundation_util.h
+Fix cpplint errors in media_capture_devices_dispatcher.cc
+Fix cpplint errors in application_info_win.cc
+Fix most cpplint errors in inspectable_web_contents_view_linux.cc
+Fix cpplint errors in devtools_window.cc
+Fix cpplint errors in inspectable_web_contents_view_win.h
+Fix cpplint errors in content_client.h
+Fix cpplint errors in inspectable_web_contents_view_win.cc
+Fix most cpplint errors in devtools_window.h
+Fix cpplint errors in main_delegate.cc
+Fix cpplint errors in main_delegate.h
+Fix cpplint errors in main_application_bundle.h
+Fix cpplint errors in content_client.cc
+Fix whitespace/comment errors
+Fix cpplint errors in bry_application.h
+Fix cpplint errors in inspectable_web_contents_view_linux.h
+Fix cpplint errors in web_ui_controller_factory.h
+Fix cpplint errors in url_request_context_getter.h
+Fix cpplint errors in notification_presenter_mac.h
+Fix cpplint errors in network_delegate.h
+Fix cpplint errors in inspectable_web_contents_view_mac.h
+Fix cpplint errors in inspectable_web_contents_view.h
+Fix cpplint errors in inspectable_web_contents_impl.h
+Fix cpplint errors in inspectable_web_contents.h
+Fix all remaining readability/namespace errors
+Fix cpplint errors in default_web_contents_delegate.h
+Fix cpplint errors in browser_main_parts.h
+Fix typos
+Fix cpplint errors in browser_context.h
+Fix cpplint errors in browser_client.h
+Fix cpplint errors in web_ui_controller_factory.cc
+Fix cpplint errors in url_request_context_getter.cc
+Fix cpplint errors in network_delegate.cc
+Fix cpplint errors in inspectable_web_contents_impl.cc
+Fix cpplint errors in inspectable_web_contents.cc
+Fix cpplint errors in devtools_ui.cc
+Fix cpplint errors in default_web_contents_delegate.cc
+Fix cpplint errors in browser_main_parts.cc
+Fix cpplint errors in browser_context.cc
+Fix cpplint errors in browser_client.cc
+Fix a possible dead lock when quiting.
+win: Fix setting icon after format of atom.rc has changed.
+Fix the "'true' is not recognized as an internal or external command" error.
+:lipstick: Fix typo of doc.
+Fix creating zip distribution on Windows.
+Fix a hang on quit when application cache is used
+Fix a possible crash when calling AdapterRequestJob::Kill().
+Fix flashing in WebContents we create
+:lipstick: Fix build on Windows.
+:lipstick: Fix target version of atom-shell's uploading.
+:lipstick: Fix warnings of coffeelint.
+:lipstick: Fix violations against pylint.
+:lipstick: Fix cpplint warnings.
+Fix crash when using protocol module on startup.
+:lipstick: Fix comparing extension.
+mac: Always use "Atom" as name when find helper process. Fixes #89.
+:lipstick: Fix cpplint warnings.
+Fix view autoresizing.
+Hide the fullscreen button when leaving fullscreen mode. Fixes #88.
+Fix button order on Win32
+:lipstick: Fix protocol specs.
+Fix invocation of npm on non-Cygwin
+[Win] Fix the command line spliting code.
+[Win] Fix conversion between wchar_t* and const wchar_t*.
+[Win] Fix compilation error.
+[Win] Fix running node from python.
+[Mac] Move the FixMenuTitles hack to MenuController.
+Fix test case for the d3 module.
+Fix process.argv[0] for child_process.fork.
+Fix README on the license thing.
+Fix broken submodule reference
+Fix calling apm under cygwin.
+Fix typos
+Fix the update-node script.
+Fix the update-node script for our new style of URLs.
+Fix updating the win32 python repo.
+Fix how we detect renderer crash.
+Fix .gitignore.
+Add 'open-url' event for app API. Fixes #36.
+Fix uploading the version file to wrong place.
+Fix main function on Windows.
+Use abusolute path when linking to external libraries. Fixes #22.
+Fix update-frameworks.
+Fix compilation errors and warnings on native_window.cc.
+Fix warnings in http_parser.
+Fix two warnings in openssl.
+Fix calling compile-coffee under cygwin.
+Fix passing null as window in dialog.showMessageBox.
+Add app.getVersion() API. Fixes #28.
+Fix cpplint errors.
+Revert "Make BrowserWindow inheritable. Fixed #23."
+Make BrowserWindow inheritable. Fixed #23.
+Fullscreen => FullScreen. Fixed #19.
+Fix debug assertion about performing IO on the UI thread
+Fix crashes in auto updater.
+Use - as filename seperator for coffee script files. Fixes #15.
+Fix linker errors about __imp___CrtDbgReportW
+Fix linker errors about missing Win32 APIs
+Fix linker errors about missing registry APIs
+Support key combinations of over 4 keys. Fixes #12.
+Force running uv loop under a handle scope. Fixed #13.
+Fix Windows build error about passing std::string to base::FilePath::Append
+Fix titles of submenus in application menu.
+Fix places where Window should be BrowserWindow.
+Add 'Reload' in application menu. Fixes atom/atom-shell#4.
+Rename 'window' module to 'browser_window' module. Fix #3.
+Implement window.moveTo and window.ResizeTo. Fix #2.
+Fix typo in the comment.
+Fix script/bootstrap
+Fix the menu popup on OS X.
+Fix whitespace/line_length warnings of cpplint.
+Fix header guard.
+Fix crashes when dragging links
+Fix DCHECK() assertion in BrowserClient
+Fix README.
+Fix devtools.
+Fix double-delete of BrowserMainParts
+Fix lifetime management of URLRequestContextGetter
+Fix a NSSplitView leak

@@ -1,0 +1,734 @@
+1142e7ac47c61dc77eb1cd58697b0fb344688d10,Remove usage of deprecated mozilla api,Sat, 28 Sep 2019 13:20:04 +0300,Tue, 26 Nov 2019 10:56:28 -0500
+92d61fdd53e6e2a01d0b73bc32f5db8a93271e4d,Add dlib-models to licenses.,Tue, 26 Nov 2019 10:55:02 -0500,Tue, 26 Nov 2019 10:55:02 -0500
+cff4f882f2db647671004c2bb6d60bdc4aff75f5,Update openface-demo.js,Mon, 24 Jun 2019 18:03:12 +0700,Mon, 24 Jun 2019 07:41:31 -0400
+c2d3b2df055ae8637eff28422d7916c1575a6e83,fix typo in acknowledgements section,Sun, 17 Jun 2018 18:17:14 -0400,Mon, 18 Jun 2018 10:56:55 -0700
+4d205fcd1b8fb33b72f327a9b91a6fb194f75daf,Set autoplay to muted so it works consistently.,Fri, 8 Jun 2018 11:00:58 +1000,Thu, 7 Jun 2018 18:16:31 -0700
+0c07bba31eea0d7366739df78f1eb85c8d443d35,Fix deprecated method in web demo.,Fri, 8 Jun 2018 10:42:07 +1000,Thu, 7 Jun 2018 17:55:37 -0700
+cb0de2ce665c5ec0fe9690f7ce90eee5735eea22,Update classifier.py,Mon, 9 Apr 2018 19:48:09 +0200,Thu, 7 Jun 2018 17:55:19 -0700
+bb377aac51b9ac335b6e5be3098fca4ecc815b71,Mention inconsistencies between the pre-trained models and the model definitions for #351 and #349,Thu, 1 Mar 2018 19:03:55 -0500,Thu, 1 Mar 2018 19:03:55 -0500
+c1d800f657cf90c2c48692e9294c6b4ce4290816,Added bounding box drawing to video capture,Sun, 28 Jan 2018 19:40:26 +0000,Sun, 28 Jan 2018 15:59:21 -0500
+80ca76eea5635dda8797f4be4782261ab29d4a16,Add example of how to call the script to generate an annotated image,Tue, 5 Dec 2017 11:47:26 -0500,Sun, 28 Jan 2018 15:23:41 -0500
+563668586b3d5433d51a110772821241b092b5f0,Bugfix on external class reference,Tue, 5 Dec 2017 10:57:01 -0500,Sun, 28 Jan 2018 15:23:41 -0500
+ca315e274439652ce1249fd15626889fd578b817,Init stalebot.,Sat, 18 Nov 2017 09:13:24 -0500,Sat, 18 Nov 2017 09:13:24 -0500
+ac4ded4b3ece9cb86ee98caace614c8d966a8ab1,add packages for 'Demo 1: Real-Time Web' to work,Thu, 8 Jun 2017 01:26:08 +0200,Thu, 8 Jun 2017 11:57:46 +0100
+006517593a419367f0b0e1751def880761a7b9ce,Add installation instructions for installation with conda,Thu, 1 Jun 2017 21:34:19 +0200,Fri, 2 Jun 2017 00:33:13 +0100
+268d2c465e76d8303099c07cc92434c063570c29,Docker config changes supporting TLS (part 2). This fixes an issue with pip and some of the dependent libraries.,Mon, 1 May 2017 19:59:23 -0700,Tue, 2 May 2017 09:08:43 -0400
+47afcbf35a8b0b9952daeaff50a295782dfa6749,Tls cert bugfix (#262),Mon, 1 May 2017 10:40:54 -0700,Mon, 1 May 2017 13:40:54 -0400
+37ba2ac9828be133ed218386f9dbcf56196f2832,TLS migration for demos/web (#260),Fri, 28 Apr 2017 03:05:12 -0700,Fri, 28 Apr 2017 06:05:12 -0400
+07fb4c79b5cc9d15823645131f18cbf0e8a5ecfa,Update opencv-dlib-torch.Dockerfile (#241),Mon, 24 Apr 2017 16:56:35 -0500,Mon, 24 Apr 2017 17:56:35 -0400
+fe8f73eb69f94bde3047d565e4414667a7fdc969,Tests: Generalize to Python 2 and 3. Run Python 2 by default.,Mon, 24 Apr 2017 18:01:10 -0400,Mon, 24 Apr 2017 18:01:10 -0400
+71ee6ee7477be8fe2a2865b5b60fdfef52cf5783,Make OpenFace work with Python 3 (#231),Tue, 25 Apr 2017 07:50:16 +1000,Mon, 24 Apr 2017 17:50:16 -0400
+9c02f78a86fa0f64c3d2fe0dc36d380535b28831,nit(README): use svg for travis status (#254),Fri, 7 Apr 2017 19:26:30 +0200,Fri, 7 Apr 2017 13:26:30 -0400
+d1fcf1c46df43d9c7b40539373c7a3c1c166e03a,Update README tags for CommonMark.,Mon, 27 Mar 2017 02:15:37 -0400,Mon, 27 Mar 2017 02:15:37 -0400
+96b45fd0eb65c5d72df1a1cf86bacf5383fec232,Use https for the model downloads.,Tue, 7 Feb 2017 13:43:42 -0500,Tue, 7 Feb 2017 13:43:42 -0500
+ec25aecb0d272322d857d8c96b9398dc6c6a6144,Travis: Update models download link.,Tue, 7 Feb 2017 12:16:35 -0500,Tue, 7 Feb 2017 12:16:35 -0500
+320cf3d728f83eec992acdb330890e3a0d3fe536,Update links to our models.,Tue, 7 Feb 2017 11:56:49 -0500,Tue, 7 Feb 2017 11:56:49 -0500
+6848378f40dfa039bceb92242ca3cc7ed97ac6b8,get-models: Use no-check-cert for our self-hosted models.,Tue, 7 Feb 2017 11:33:01 -0500,Tue, 7 Feb 2017 11:33:01 -0500
+4ee2cd34fe6a569b12f46cc4945aa0832ba3959c,Travis: Use trusty dist.,Tue, 7 Feb 2017 11:29:38 -0500,Tue, 7 Feb 2017 11:29:38 -0500
+ccb9b8ec11d1d6b5b5ddb401aef9b7ab31527416,Travis: Remove flake, pep, and luacheck.,Tue, 7 Feb 2017 11:23:19 -0500,Tue, 7 Feb 2017 11:23:19 -0500
+b84b7c67f250afcddf018bef2950300d26979db0,Torch Neural Net: Add deconstructor back.,Sat, 7 Jan 2017 18:39:26 -0500,Sat, 7 Jan 2017 18:39:26 -0500
+f9764b9c5d0a2875476fe237dfb6fd237889d7c2,Replace destructor with context manager (#223),Sun, 8 Jan 2017 01:37:23 +0200,Sat, 7 Jan 2017 18:37:23 -0500
+7659f7907d1d1aa16ba11423500a6d927106b742,Add @BrandonJoffe's home_surveillance project to our homepage.,Fri, 4 Nov 2016 13:22:51 -0400,Fri, 4 Nov 2016 13:22:51 -0400
+6343e404417cbe17db6139e62de691c3520148ce,Add docs to torch_neural_net.__del__,Fri, 21 Oct 2016 09:37:41 -0400,Fri, 21 Oct 2016 09:37:41 -0400
+0b6b22313e6e4fe3138b40e2fa420fca08b8c868,Add destructor to torch_neural_net for #194,Fri, 21 Oct 2016 07:47:42 -0400,Fri, 21 Oct 2016 07:47:42 -0400
+4d0280557cec3e1f52b72479d40aaf275d77ffc3,Revert "Update tests to use numpy.testing",Sun, 16 Oct 2016 01:32:00 -0400,Sun, 16 Oct 2016 01:32:00 -0400
+882109c1410e03af79efd5479dcdac17473efc8d,Update tests to use numpy.testing,Sat, 15 Oct 2016 18:22:40 -0400,Sat, 15 Oct 2016 18:22:40 -0400
+1267e1abb3df69c97d5a54fb65b60678b44f66d2,Fix the data type image.load,Fri, 7 Oct 2016 14:27:13 -0400,Fri, 7 Oct 2016 14:27:21 -0400
+041c90f0c13a4501567cf46703bd6660bff5f26d,Added --multi option to infer operation to show a list of faces detected (#189),Thu, 22 Sep 2016 16:21:04 +0530,Thu, 22 Sep 2016 06:51:04 -0400
+35c99507a645963b64e528c698d54b88ab1ab70a,Added further extension variation acceptance and made extensions properly case insensitive (#188),Tue, 20 Sep 2016 07:36:43 -0500,Tue, 20 Sep 2016 08:36:43 -0400
+97f30d5d05235285c07a280f7e7f56ad140c0ed8,Update sphere demo page.,Thu, 15 Sep 2016 09:30:09 -0400,Thu, 15 Sep 2016 09:30:09 -0400
+3f8067731d2a99959d66917aea4137a983fd63ee,webcam -> camera,Thu, 15 Sep 2016 09:02:26 -0400,Thu, 15 Sep 2016 09:02:26 -0400
+b423779eb1b28b7a03963f932df69841c98b5172,Bump date.,Thu, 15 Sep 2016 08:49:50 -0400,Thu, 15 Sep 2016 08:49:50 -0400
+7f6413fca9265a7069f3e2b127db96735189c444,Remove unused code.,Thu, 15 Sep 2016 08:43:43 -0400,Thu, 15 Sep 2016 08:43:43 -0400
+bb64d6917e3e9ccb5c3cbde3469a44849054c941,Add sphere demo docs.,Thu, 15 Sep 2016 08:43:39 -0400,Thu, 15 Sep 2016 08:43:39 -0400
+8bc8227937450d2e57062c624f11f8fe955702b7,Add sphere demo gif.,Thu, 15 Sep 2016 08:01:39 -0400,Thu, 15 Sep 2016 08:01:39 -0400
+6b453b0b0029e3f968dc9dfd86e216fb37ce4f10,sphere demo: Add link to model download.,Thu, 15 Sep 2016 08:01:26 -0400,Thu, 15 Sep 2016 08:01:26 -0400
+f8e37ad8cd024134bf78279255ae28c8bf67cea9,Split exhibit images.,Sun, 11 Sep 2016 12:35:22 -0400,Sun, 11 Sep 2016 12:35:22 -0400
+0b2f07127d9c40e6ad6f561118dcd1a3b7e03d71,cls-3d -> sphere,Sun, 11 Sep 2016 12:27:04 -0400,Sun, 11 Sep 2016 12:27:04 -0400
+4f6c65bf3c0f52be47699c0ee77e8689c2fc80b8,Add data (after)lives poster.,Sun, 11 Sep 2016 12:16:43 -0400,Sun, 11 Sep 2016 12:16:43 -0400
+909a431db2eac385b0b76300c1002c90fd499c43,Update exhibits.png,Sun, 11 Sep 2016 12:15:22 -0400,Sun, 11 Sep 2016 12:15:22 -0400
+465fdefc816ef1ead46e0c67b9a5c8ee8895d807,Add sphere demo images.,Sun, 11 Sep 2016 12:11:13 -0400,Sun, 11 Sep 2016 12:11:25 -0400
+1745b19dfad8098c224ab3035e515586e9ccdcfd,cls-3d: Fix pep warnings.,Fri, 2 Sep 2016 14:27:42 -0400,Fri, 2 Sep 2016 14:27:42 -0400
+9c5580d7d13e2a687d44dec2028fe4e6cb9f92a6,cls-3d: Bump alpha up. Add text.,Fri, 2 Sep 2016 13:33:59 -0400,Fri, 2 Sep 2016 13:33:59 -0400
+f5c71ad47bcd65acf2c827c2b8781112ec0fe766,Initial commit with the rest of cls-3d.py,Fri, 2 Sep 2016 08:36:22 -0400,Fri, 2 Sep 2016 08:36:22 -0400
+da93d452362a91b948c13922029da5ac980fb5f4,Initial commit of projectS and projectC to cls-3d.py,Thu, 1 Sep 2016 23:27:20 -0400,Thu, 1 Sep 2016 23:27:30 -0400
+d915244d237d45c69e87b4cefd72a9c507d7da55,Update ISSUE_TEMPLATE.md,Thu, 25 Aug 2016 15:23:05 -0400,Thu, 25 Aug 2016 15:23:05 -0400
+13701ec424a3beb316fbb8abc94976743fd0790a,Image loading: Use 'float' instead of an undefined variable.,Mon, 22 Aug 2016 19:39:36 -0400,Mon, 22 Aug 2016 19:39:45 -0400
+60d31c09b4ff1adf6fd561b92ffa4752780d6f5c,Update faq.,Sun, 21 Aug 2016 22:03:07 -0400,Sun, 21 Aug 2016 22:03:07 -0400
+2f0566a19e8fda72d7e7622b50f884d11746e996,Update link to post.,Wed, 10 Aug 2016 13:51:30 -0400,Wed, 10 Aug 2016 13:51:30 -0400
+f57a92c1c7121c3a601ba29bff06a285508247f2,Update website.,Wed, 10 Aug 2016 09:58:38 -0400,Wed, 10 Aug 2016 09:58:41 -0400
+611d05af478493c4ba782716de777951669ba001,Updated to work with new openface api (#177),Sun, 7 Aug 2016 03:21:33 +0200,Sat, 6 Aug 2016 21:21:33 -0400
+80014e0e9768497f0db582ca1e84d407b2dc74f2,Update classifier.py (#176),Sun, 7 Aug 2016 09:19:21 +0800,Sat, 6 Aug 2016 21:19:21 -0400
+3dc4546198e3802e6c4463227dbf537308ae890b,Update data.py (#174),Tue, 2 Aug 2016 22:40:37 +0800,Tue, 2 Aug 2016 10:40:37 -0400
+67e9c5d84f1ba1ae7af52b8c871295951a723695,ms-celeb-1m: Use MID for directory, imgSearchRank+faceID for name.,Sun, 31 Jul 2016 08:51:31 -0400,Sun, 31 Jul 2016 08:51:31 -0400
+3582d542c400faf0ce04cbc7b5966796bd1abcbc,Fix flake warning.,Fri, 29 Jul 2016 16:05:45 -0400,Fri, 29 Jul 2016 16:05:45 -0400
+592052b8195d5d2db708cc2a6bf50137c4dd45af,Add comment.,Fri, 29 Jul 2016 16:02:22 -0400,Fri, 29 Jul 2016 16:02:22 -0400
+45c0e05fcab21f758a208a6d73750d3104b87aab,Remove comment from copied header.,Fri, 29 Jul 2016 15:56:22 -0400,Fri, 29 Jul 2016 15:56:22 -0400
+c35e2f38a85e3dbd05a3abc3f23de88becd4e48e,ms-celeb-1m: Remove magic dependency from extraction script.,Fri, 29 Jul 2016 15:53:54 -0400,Fri, 29 Jul 2016 15:53:54 -0400
+24f616b0bb4c01fdf4a056dca7fc3fc5c97d7d3e,ms-celeb-1m: Add data extraction script for #170,Fri, 29 Jul 2016 15:53:15 -0400,Fri, 29 Jul 2016 15:53:15 -0400
+43e2b61d491501dfa44de5939f030cec03b49695,Docs: Mention classifier_webcam and unknown person detection.,Thu, 28 Jul 2016 14:42:48 -0400,Thu, 28 Jul 2016 14:42:48 -0400
+fa2a3a5d2097252b0612e1f8a58a9dd62217c9a0,Unknown people benchmarking with lfw dataset. (#171),Fri, 29 Jul 2016 00:08:14 +0530,Thu, 28 Jul 2016 14:38:14 -0400
+0d301b916de3c0f94f44166850a87805f159376f,Mention ASCII models in the FAQ.,Tue, 26 Jul 2016 11:27:51 -0400,Tue, 26 Jul 2016 11:27:51 -0400
+8764f2bdba9c5ec33ca36ae9fb03108774f7e8aa,Reference @davidsandberg's FaceNet TensorFlow implementation on our website.,Tue, 26 Jul 2016 11:16:57 -0400,Tue, 26 Jul 2016 11:16:57 -0400
+8ff67921406b451f6b2e29f647c14da07ba7b488,Link to @ageitgey's blog post on our website.,Tue, 26 Jul 2016 11:12:56 -0400,Tue, 26 Jul 2016 11:12:56 -0400
+a2df4c67ae0d05708c2be9cf498b2bab8d54eb84,Fix flake8 warnings.,Mon, 25 Jul 2016 19:06:25 -0400,Mon, 25 Jul 2016 19:06:25 -0400
+96743001d38535ffe8ef4e22ad9f674ddcda1480,Add torch_neural_net.lutorpy by Vitalius Parubochyi,Mon, 25 Jul 2016 17:27:11 -0400,Mon, 25 Jul 2016 17:27:11 -0400
+131f7bbf0c4d75dc70615d9fcfbbe9c4bb2d38ce,Dockerfile: Fix link for #166.,Sat, 23 Jul 2016 17:42:59 -0400,Sat, 23 Jul 2016 17:42:59 -0400
+469ae3bac968f06f90caf455d334feb2a6861915,Dockerfile: Link Torch binaries to /usr/local/bin for #166.,Sat, 23 Jul 2016 17:20:27 -0400,Sat, 23 Jul 2016 17:20:30 -0400
+a59f87d503a39ff9535a9522624607a81c8b5136,Remove unnecessary import.,Fri, 15 Jul 2016 16:09:02 -0400,Fri, 15 Jul 2016 16:09:02 -0400
+dd4f084c85dac7597ca84c4341af389c839caef2,Remove --version 2 from tests.,Fri, 15 Jul 2016 16:00:43 -0400,Fri, 15 Jul 2016 16:00:43 -0400
+84576d252d1f14926e1ca3302d7e86db8efb5cdb,Remove align_v2.,Fri, 15 Jul 2016 15:14:58 -0400,Fri, 15 Jul 2016 15:14:58 -0400
+87e5c047dc3e9d4679a4d96a196431b537975a4d,Merge pull request #161 from melgor/fix_test,Wed, 13 Jul 2016 13:41:08 -0400,Wed, 13 Jul 2016 13:41:08 -0400
+4fad635aa45f4de4bb97f748f3d3cc23e23f9763,Fix testing,Wed, 13 Jul 2016 19:28:11 +0200,Wed, 13 Jul 2016 19:28:11 +0200
+2582f4379715fa8fef27053fa964c624848097db,dataset.lua: Comment out unused torch.linspace.,Tue, 12 Jul 2016 12:06:12 -0400,Tue, 12 Jul 2016 12:06:12 -0400
+6534788a41f462be78e330bf02d4c4173e32d24b,Use torch.range instead of torch.linspace because of rounding issues.,Tue, 12 Jul 2016 11:45:15 -0400,Tue, 12 Jul 2016 11:45:15 -0400
+a0d0ba41fa498f85bb062a3863d534e0b3849cb2,Bump dlib to 19.0 in Dockerfiles.,Tue, 12 Jul 2016 08:10:30 -0400,Tue, 12 Jul 2016 08:10:30 -0400
+89a036b4f836e7dd298eee402dc9e66fd80476a1,Merge pull request #159 from melgor/master,Tue, 12 Jul 2016 06:42:29 -0400,Tue, 12 Jul 2016 06:42:29 -0400
+4c0e55dfd5fcaa8e4f96031e683978bfc6ed117a,Rebase TripletEmbedding to get speedup at forward pass,Tue, 12 Jul 2016 08:02:53 +0200,Tue, 12 Jul 2016 08:02:53 +0200
+678c422894c61425cdc409defb7e8cfac00477b4,Improve LFW --lfwPairs error message.,Sun, 10 Jul 2016 07:31:00 -0400,Sun, 10 Jul 2016 07:31:05 -0400
+7fd3746becc6777b75be32105ddd81f33feb200b,Add torch.setnumthreads(1) to openface_server.,Thu, 7 Jul 2016 09:05:14 -0400,Thu, 7 Jul 2016 09:05:21 -0400
+e0306890422d3826df448de10fa13e5f96473374,Merge pull request #156 from melgor/mGPU,Mon, 4 Jul 2016 16:43:45 -0400,Mon, 4 Jul 2016 16:43:45 -0400
+0995e86b7e054d9dcc74e4c93dc233b807b7477f,Added Multi-GPU support #106,Wed, 29 Jun 2016 11:48:03 +0200,Mon, 4 Jul 2016 22:23:37 +0200
+b0f96107e5861b20f4340141122c0d7f468c1d07,Merge pull request #153 from melgor/LFW-speed,Wed, 29 Jun 2016 13:19:00 -0400,Wed, 29 Jun 2016 13:19:00 -0400
+36cc8ddd7259561fa30b6368e4dea8b0b440eafe,Correct formating by autopep8,Wed, 29 Jun 2016 10:19:08 +0200,Wed, 29 Jun 2016 10:19:08 +0200
+026288afa64dabb076e91eac18199e06a81f9631,Merge pull request #155 from heman4t/master,Tue, 28 Jun 2016 12:40:12 -0400,Tue, 28 Jun 2016 12:40:12 -0400
+efa3ab80077c65cd9b71817f0310a8b5b3913a8b,Updated web/vendor deps,Tue, 28 Jun 2016 10:47:47 +0530,Tue, 28 Jun 2016 10:47:47 +0530
+ad078aef9b0943a86969c16ea1d802010a115aa4,SpeedUP LFW test,Thu, 23 Jun 2016 11:06:28 +0200,Thu, 23 Jun 2016 11:06:28 +0200
+e489b7a7b84cf66b605daf742ee85fc9c678de63,Training: Correct space after device param when testing.,Sun, 19 Jun 2016 23:42:15 -0400,Sun, 19 Jun 2016 23:42:15 -0400
+b82f6c31d6ed9de13178b94c0eec6d4d0820e923,Training: Pass device option to batch-represent.,Sun, 19 Jun 2016 21:44:00 -0400,Sun, 19 Jun 2016 21:44:00 -0400
+eaf7a1e19f7b919c43fc19d7d5227e3827f4f0f0,batch-represent: Add device option.,Sun, 19 Jun 2016 21:43:48 -0400,Sun, 19 Jun 2016 21:43:48 -0400
+85bf6eecc24c49d9b4549a27ab1fc565d9eea048,Fix luacheck warnings.,Sun, 19 Jun 2016 17:23:03 -0400,Sun, 19 Jun 2016 17:23:03 -0400
+a24484c671f5e50ac2ae2d101dd4d4f28860afd8,Add commented Avg to resnet definition.,Sun, 19 Jun 2016 17:14:07 -0400,Sun, 19 Jun 2016 17:14:07 -0400
+0574a726419c0e17c74642297acad4e7abb59820,Initial resnet model definition.,Sun, 19 Jun 2016 17:13:21 -0400,Sun, 19 Jun 2016 17:13:21 -0400
+2c6ddfba2d5dab08ac800ba308e898995d244196,Training: Model: Use opt.imgDim.,Thu, 16 Jun 2016 20:12:16 -0400,Thu, 16 Jun 2016 20:12:21 -0400
+5132cbf3e701a2e4a04535de0ac3a85f7de23853,Update citation to our tech report.,Tue, 14 Jun 2016 17:13:03 -0400,Tue, 14 Jun 2016 17:13:03 -0400
+1fb8abc247158a33d350b97d29a078dcb8cf182d,Training: Improve -data description.,Tue, 14 Jun 2016 15:56:37 -0400,Tue, 14 Jun 2016 15:56:37 -0400
+92684ab771f028da1036545b685fe7d02cf7745f,Training: Add cuda device option.,Tue, 14 Jun 2016 15:55:46 -0400,Tue, 14 Jun 2016 15:55:46 -0400
+a1b3251f96be093c4b3d3e3ba38082e9490dad92,Actually fix nans from #127. Error if they appear.,Tue, 14 Jun 2016 13:51:18 -0400,Tue, 14 Jun 2016 13:51:18 -0400
+2bad4e503e011389b3b174dd8ef76ce60e798eda,Training Tests: Specify -save.,Mon, 13 Jun 2016 14:22:59 -0400,Mon, 13 Jun 2016 14:22:59 -0400
+c04386c48cfe26d2f6e02377898b40c0e9d385fb,Training: Only convert to cuda in cuda mode.,Mon, 13 Jun 2016 14:12:36 -0400,Mon, 13 Jun 2016 14:12:36 -0400
+f4567e882eb1b40268f7b91e544350b8b14728c8,Fixes for travis.,Mon, 13 Jun 2016 14:06:12 -0400,Mon, 13 Jun 2016 14:06:12 -0400
+fea2fb41d893231236bebf524146b44e0a7a2813,Resolve nan issues for #127 (hopefully),Mon, 13 Jun 2016 13:50:33 -0400,Mon, 13 Jun 2016 13:50:38 -0400
+aaab8fe1193bafd19320075df79a2df0cb4bf016,Training: Update plot-loss to new directory structure.,Mon, 13 Jun 2016 13:49:24 -0400,Mon, 13 Jun 2016 13:50:38 -0400
+c6f0962b6df652e133fec235f044a1857b20ef37,Training: Add -save option. Default to a timestamp instead of numbers.,Mon, 13 Jun 2016 13:29:29 -0400,Mon, 13 Jun 2016 13:50:38 -0400
+5e0ab14049f29afaaf336003bbaa0aabc0a8baed,align_dlib: Add returns.,Fri, 10 Jun 2016 11:05:20 -0400,Fri, 10 Jun 2016 11:05:20 -0400
+bb2ef270c11366b2baaec299e7c95abea78ddb2b,Formatting.,Thu, 9 Jun 2016 15:14:26 -0400,Thu, 9 Jun 2016 15:14:26 -0400
+252c0c9d432d8614dc0965ade23e5f7b62a6681b,Fix pydoc for align_dlib.align,Thu, 9 Jun 2016 14:53:20 -0400,Thu, 9 Jun 2016 14:53:20 -0400
+54a5c9b59fc0bf598a0d1075eb05cff5ac4ac51b,Add align_dlib.align for backwards compatibility.,Thu, 9 Jun 2016 14:45:39 -0400,Thu, 9 Jun 2016 14:45:39 -0400
+e534fa9c7f6585ef8f02f69300a4cbe680f2d746,Initial commit of VGG model definitions.,Wed, 8 Jun 2016 12:13:27 -0400,Wed, 8 Jun 2016 12:13:27 -0400
+288fd8a3bde4c8f065a042a30c16959a1e1d9191,Fix test for changed cudnn option.,Tue, 7 Jun 2016 18:34:29 -0400,Tue, 7 Jun 2016 18:34:29 -0400
+bced2bb445b0bfe265c892c642847ea609ca25d0,Disable cudnn by default for #127. Add warning.,Tue, 7 Jun 2016 18:20:46 -0400,Tue, 7 Jun 2016 18:20:46 -0400
+21f1bcc5c41a530f288d6600a7700bb69cef2f31,Temporarily remove optimize_net for #127.,Tue, 7 Jun 2016 18:14:13 -0400,Tue, 7 Jun 2016 18:14:13 -0400
+40f124c614045a0a065f0b9ce6f620cc47043cc5,Update website to align_v1.,Tue, 7 Jun 2016 16:47:17 -0400,Tue, 7 Jun 2016 17:02:16 -0400
+db46f273d298441cd67166232ae8afa2b1df5e42,Fix API doc default arguments.,Tue, 7 Jun 2016 16:53:22 -0400,Tue, 7 Jun 2016 16:53:22 -0400
+7800460ad7163f03c0a6c07e58cd5230b87bb8f6,Add numpy.linalg as a mock module for API docs.,Tue, 7 Jun 2016 16:49:35 -0400,Tue, 7 Jun 2016 16:49:35 -0400
+fe387e175d074e2af60f88d64b95908009546008,Merge pull request #147 from Godrek/align-dlib-v2,Tue, 7 Jun 2016 16:39:53 -0400,Tue, 7 Jun 2016 16:39:53 -0400
+3e679b9fb96e0d158877f6697568024d58ed618a,Added align dlib v2,Mon, 6 Jun 2016 18:27:33 +0000,Tue, 7 Jun 2016 20:26:28 +0000
+49fffb36710086e0a0540d194fd53e7954fd563c,Correct inception tower sizes for #142.,Fri, 3 Jun 2016 19:04:40 -0400,Fri, 3 Jun 2016 19:04:40 -0400
+130edcecc9d7a3c0e5b066a9494db149305888db,Training: Use ADAM instead of adadelta.,Fri, 3 Jun 2016 15:29:26 -0400,Fri, 3 Jun 2016 17:48:38 -0400
+02b85b78249a9457a4f0246416f63d83dfb1e3ca,Update SP.,Wed, 25 May 2016 12:47:47 -0400,Wed, 25 May 2016 12:47:47 -0400
+815b471b5003b6e59adf8d41ccdff891aee72bc3,Update SP.,Tue, 24 May 2016 04:22:43 -0400,Tue, 24 May 2016 04:22:43 -0400
+d720f012c3a646fd32b339c7ed1365e0402e7ae2,Fix typo.,Fri, 20 May 2016 12:21:47 -0400,Fri, 20 May 2016 12:21:47 -0400
+3b9b99c3b2dc588ecab8fe642a143d59356e9576,Bump scikit-learn requirements for #137.,Fri, 13 May 2016 18:24:17 -0400,Fri, 13 May 2016 18:24:17 -0400
+5a7e2650863f09e99c89dbeb188b60746e1e4f01,Bump Dockerfile dependency for TDS for #132.,Sun, 8 May 2016 12:15:24 -0400,Sun, 8 May 2016 12:15:30 -0400
+b4df1f9644e4d24428f66033337f573e1ec991ab,Revert dataset.lua for #132.,Sun, 8 May 2016 12:11:59 -0400,Sun, 8 May 2016 12:11:59 -0400
+0044a7817c336fb5a2432ce2f684815d635bc524,Add new TDS dependency to docs.,Sat, 7 May 2016 20:46:49 -0400,Sat, 7 May 2016 20:46:49 -0400
+58ac0cf7f0b0ee4f3363b17aac57334c0fdb0272,Add new TDS dependency to the Dockerfile.,Sat, 7 May 2016 20:45:49 -0400,Sat, 7 May 2016 20:45:49 -0400
+0707db5718d25650950eb06762e96cf2777792ca,Fix maxPathLength assertion/increment.,Sat, 7 May 2016 20:43:53 -0400,Sat, 7 May 2016 20:43:53 -0400
+85d7375fd960c05de898ba711a3592734fb0f788,Remove unused variables/functions to fix luacheck warnings.,Sat, 7 May 2016 20:33:52 -0400,Sat, 7 May 2016 20:33:52 -0400
+b11910b1da576c4136221344393b8abf836f5c3c,Fix assert bound.,Sat, 7 May 2016 20:30:17 -0400,Sat, 7 May 2016 20:30:17 -0400
+1d5491a1e8407b9c113e16bb763a11e57bde01a0,Add @aaronnech's dataset.lua improvements for #132.,Sat, 7 May 2016 20:25:27 -0400,Sat, 7 May 2016 20:25:27 -0400
+4c0522f651e3da2c5b2074e97bd505760bc377e8,Docker: Bump dependency version. Remove src.,Fri, 6 May 2016 11:13:19 -0400,Fri, 6 May 2016 11:13:19 -0400
+9c4fd0f97622fe0e3f2e082a49d48cf29819ade8,Remove OpenCV and dlib source files for #133.,Fri, 6 May 2016 11:11:58 -0400,Fri, 6 May 2016 11:11:58 -0400
+ecfb83fdb0c057ee98ae8fd691c000d6561d8d80,Add building/pushing comment to opencv-dlib-torch.,Fri, 6 May 2016 10:14:16 -0400,Fri, 6 May 2016 10:14:16 -0400
+60203bd45ec391978f356cfc7e523bf6054e0059,Merge pull request #131 from bakwc/master,Tue, 3 May 2016 19:23:35 -0400,Tue, 3 May 2016 19:23:35 -0400
+30db42c2baf98dc485db45e2eb7b55ee7dbb9789,Fixed style-guide,Tue, 3 May 2016 22:54:01 +0300,Tue, 3 May 2016 22:54:01 +0300
+d18017a1953510d34c030ae15bfc49bb5523578c,Added ability to skip images with more than one face; fixed threshold type,Tue, 3 May 2016 22:15:57 +0300,Tue, 3 May 2016 22:15:57 +0300
+5b46a5fcb492b1401be955151b7aae32e7b454aa,Fix typo.,Wed, 27 Apr 2016 17:30:14 -0400,Wed, 27 Apr 2016 17:30:14 -0400
+8423c91364e68db52e44757d5b8e56db9bef9186,Mention optnet is optional and only for DNN training.,Tue, 19 Apr 2016 14:43:24 -0400,Tue, 19 Apr 2016 14:43:24 -0400
+b9f41dcb02d70d56c495758a8461adb94efdfd5b,Merge pull request #126 from neuraldomi/master,Tue, 19 Apr 2016 14:41:11 -0400,Tue, 19 Apr 2016 14:41:11 -0400
+caaaee5be15b24815c4e20b5143f1847b32d34e1,Update setup.md,Tue, 19 Apr 2016 20:35:34 +0200,Tue, 19 Apr 2016 20:35:34 +0200
+88cd4af2096bb599a9824702946eac17d6fcd236,Website: Mention the parameter counts don't include batch normalization means and variances for #125.,Mon, 18 Apr 2016 20:25:34 -0400,Mon, 18 Apr 2016 20:25:34 -0400
+c677b1830c3a55a345a8fb7393bbd80dc7258bf2,Docs: Mention LFW overlapping name removal.,Thu, 7 Apr 2016 17:18:57 -0400,Thu, 7 Apr 2016 17:18:57 -0400
+eba58604c9eb80f5783c016e99db5d45081633c2,Bump matplotlib dependency for 'style'.,Wed, 6 Apr 2016 10:44:51 -0400,Wed, 6 Apr 2016 10:44:51 -0400
+66efcb706b13262e2f38963515bcdb1c49d324b4,Model: Use opt.imgDim for retraining,Tue, 5 Apr 2016 18:01:15 -0400,Tue, 5 Apr 2016 18:02:45 -0400
+98c42a057c614a51fe21938e8d3b01025a3b2fcc,Add LDA option to the classifier.,Sun, 3 Apr 2016 15:36:53 -0400,Sun, 3 Apr 2016 15:36:58 -0400
+1b3b48f588b774b34ed0a5254de642df15366e39,Load util before model for optimizeNet,Sun, 3 Apr 2016 02:48:50 -0400,Sun, 3 Apr 2016 02:48:50 -0400
+d3e0b7470ab1a8bed0b75c93a7e1e89628fd0fe4,Correct OpenCV link.,Sun, 3 Apr 2016 02:30:33 -0400,Sun, 3 Apr 2016 02:30:33 -0400
+e2845172343f1abc50a35213d4a9254c285c725d,Merge pull request #118 from melgor/optimMemory,Fri, 1 Apr 2016 14:42:15 -0400,Fri, 1 Apr 2016 14:42:15 -0400
+505c63f828a6a90638482f93ca4d3cf81cd29391,Added check if 'optnet' package is installed,Fri, 1 Apr 2016 13:04:25 +0200,Fri, 1 Apr 2016 13:04:25 +0200
+d901af1acd53ac8d418e2f4a9c8bd973774f0bec,X->NAME,Thu, 31 Mar 2016 21:42:11 -0400,Thu, 31 Mar 2016 21:42:11 -0400
+46798c97cca26e62a51e5d78ff1b0f768def27e3,Change variable to local,Thu, 31 Mar 2016 12:00:17 +0200,Thu, 31 Mar 2016 12:00:17 +0200
+bf6a4664844da2568f4a928abf2e180272817b9d,Added optnet for reducing memory consumption,Wed, 30 Mar 2016 23:21:13 +0200,Wed, 30 Mar 2016 23:21:13 +0200
+92c152faa36676c7926e1625090b4603d9f337e5,Fix flake warnings.,Wed, 30 Mar 2016 14:18:26 -0400,Wed, 30 Mar 2016 14:18:26 -0400
+8784e2d639e58efdf87a540b318e6c7c2217607f,Add remove-lfw-names for #116.,Wed, 30 Mar 2016 14:08:28 -0400,Wed, 30 Mar 2016 14:08:28 -0400
+c45f58c4b1543b787a2a382ff58439ab5cfb59b6,Add luarocks install command.,Fri, 25 Mar 2016 10:42:18 -0400,Fri, 25 Mar 2016 10:42:18 -0400
+82f463dd08b5978f731ab441d53384fb7b9b40f6,Torch dependencies: List cutorch.,Tue, 22 Mar 2016 16:23:36 -0400,Tue, 22 Mar 2016 16:23:40 -0400
+2ce20d39e6b1164ff3e6ed4f733b9cfe14bfbc67,opencv-dlib-torch.Dockerfile: Add gm lib for Torch.,Sat, 19 Mar 2016 23:03:07 -0400,Sat, 19 Mar 2016 23:03:07 -0400
+0cbeda3617a6c4f280c3d04ccf6374115682ac5d,Dockerfile: Pull from the latest torch_2016.03.19 image.,Sat, 19 Mar 2016 17:02:25 -0400,Sat, 19 Mar 2016 17:02:25 -0400
+c5fc607bac3c611fc257260cfa36832fa4bb9ce9,opencv-dlib-torch.Dockerfile: Add software-properties-common for apt-add-repository.,Sat, 19 Mar 2016 16:10:59 -0400,Sat, 19 Mar 2016 16:11:06 -0400
+6c43f6ba382fa5b395256f0232cc582514adad46,Training: Pass imgDim to batchRepresent. Add lfwDir option.,Sat, 19 Mar 2016 15:44:47 -0400,Sat, 19 Mar 2016 15:44:47 -0400
+2035eeb8a5630b0c33e4d7efcc92e8d74c10066c,cls->clf,Fri, 18 Mar 2016 16:19:08 -0400,Fri, 18 Mar 2016 16:19:08 -0400
+437603e45d6e0abe060bf016f31da77b9b272585,Classification Demo: Fix typo and formatting.,Fri, 18 Mar 2016 16:15:58 -0400,Fri, 18 Mar 2016 16:15:58 -0400
+3a5ce4e70ac8297c388810c2d27a45f6e4f296e4,Add GMM option to the classification demo.,Fri, 18 Mar 2016 15:26:40 -0400,Fri, 18 Mar 2016 15:26:40 -0400
+cca19b4c6abdc32e654008211e2819b3dc5f14cf,Classification Demo: Output where classifier is saved to.,Fri, 18 Mar 2016 14:53:33 -0400,Fri, 18 Mar 2016 14:53:33 -0400
+b30d6d94618272cee1142f606b860d04d65e30a0,Training Plotting code: Add minor gridlines.,Fri, 18 Mar 2016 14:10:53 -0400,Fri, 18 Mar 2016 14:10:53 -0400
+02884dde26b1d41e6ea917fdba7fcd67f6614d23,Merge pull request #110 from melgor/clearState,Thu, 17 Mar 2016 14:07:27 -0400,Thu, 17 Mar 2016 14:07:27 -0400
+bba911c8020e3272eb7986e62d3b42c4fd764c73,Replace satitize by clearState(),Wed, 16 Mar 2016 18:20:11 +0100,Wed, 16 Mar 2016 18:20:11 +0100
+e7c574829d7502ddbecc5935fe88187dc62e1857,Merge pull request #108 from melgor/cudnn_convert,Wed, 16 Mar 2016 11:54:20 -0400,Wed, 16 Mar 2016 11:54:20 -0400
+cada02629c665dc0b89f53f0350f1b1bd16bedd1,TSNE: Update colorscheme.,Wed, 16 Mar 2016 11:42:52 -0400,Wed, 16 Mar 2016 11:42:52 -0400
+8830e48b57b60d8c05d7f407c63626b2f6526c39,batch-represent: Handle edge case when a batch contains 1 image.,Wed, 16 Mar 2016 11:17:15 -0400,Wed, 16 Mar 2016 11:17:15 -0400
+7d21caf0049d079e24dda421b3a6c1547bdfab84,Merge branch 'cudnn_convert' of https://github.com/melgor/openface into cudnn_convert,Wed, 16 Mar 2016 16:15:05 +0100,Wed, 16 Mar 2016 16:15:05 +0100
+f63acb637e8124e6a21adb14eec211cd76e8faff,Replace nn_to_cudnn by cudnn.convert #106,Fri, 11 Mar 2016 11:09:23 +0100,Wed, 16 Mar 2016 15:38:06 +0100
+6fd4ac860415fba49fc06f904f5a5ef5d9b5ed43,Training: Sample from all of a person's images.,Tue, 15 Mar 2016 16:23:04 -0400,Tue, 15 Mar 2016 16:27:09 -0400
+2c3164c50d648d68b2950c1e32ec44359d8f6436,openface_server error message: Add bash login shell note for #105.,Sat, 12 Mar 2016 15:12:09 -0500,Sat, 12 Mar 2016 15:12:09 -0500
+811fce86139ee014fab4663766a4f92b727bf35a,lfw-classification: Fix typo.,Fri, 11 Mar 2016 18:31:25 -0500,Fri, 11 Mar 2016 18:32:22 -0500
+e455a1c82e8633b2d61ec2603e6960b42b155b8f,Update classification results with OpenBLAS.,Fri, 11 Mar 2016 18:31:09 -0500,Fri, 11 Mar 2016 18:32:22 -0500
+71885041e7a132e605e63ed8d7e8bcbe5a7f3caf,Python library: Import everything in the root openface module.,Fri, 11 Mar 2016 16:58:28 -0500,Fri, 11 Mar 2016 16:58:28 -0500
+d6b9d16156194a8d782acc3c514c9c1057de32ad,Docs: Reference prune-dataset after align-dlib.,Fri, 11 Mar 2016 16:50:35 -0500,Fri, 11 Mar 2016 16:50:35 -0500
+6ab7a6bb4e3b404b0c48888d76ef2494685316d3,lfw-classification: Update LFW path.,Fri, 11 Mar 2016 15:33:35 -0500,Fri, 11 Mar 2016 15:33:35 -0500
+e2d7513ff52a0d478c6c1679eaeed336ee611f34,Replace nn_to_cudnn by cudnn.convert #106,Fri, 11 Mar 2016 11:09:23 +0100,Fri, 11 Mar 2016 11:09:23 +0100
+b8de89375a14ec26f90c817bfd917b23b23b491d,Dockerfile: Update default CMD to use a Bash login shell.,Thu, 10 Mar 2016 18:52:31 -0500,Thu, 10 Mar 2016 18:52:31 -0500
+6001f91a15776cd213eb482b57e5afc23a2486db,Docs: Improve web demo Docker command.,Thu, 10 Mar 2016 18:21:30 -0500,Thu, 10 Mar 2016 18:21:30 -0500
+338516a1537fbda397c5920f07d57d825150ca12,docs: Add OpenBLAS execution times.,Thu, 10 Mar 2016 14:13:10 -0500,Thu, 10 Mar 2016 14:13:10 -0500
+3a66bc23457269277a5f52c3d2e22869269cfd8d,Docs: Add GenBeta link.,Wed, 9 Mar 2016 23:48:41 -0500,Wed, 9 Mar 2016 23:48:41 -0500
+d4ee384d5e103a44f7732bec158dab944639082b,demos/vis-outputs: Add aligned example images, fix image.load usage, and output where the images are being saved to,Wed, 9 Mar 2016 22:26:12 -0500,Wed, 9 Mar 2016 22:26:12 -0500
+18575f7199172ee24f12b661e3cd4537a203944f,Web demo: bower: Update metadata.,Wed, 9 Mar 2016 18:56:56 -0500,Wed, 9 Mar 2016 18:56:56 -0500
+8fb4a9d528a95f75cd3be61951d1b51aa1cbae12,Update badges in README.,Tue, 8 Mar 2016 20:55:39 -0500,Tue, 8 Mar 2016 20:55:39 -0500
+71b6bbf765e129877647d24bbad569ed0f7c9837,Fix flake warning.,Tue, 8 Mar 2016 20:39:03 -0500,Tue, 8 Mar 2016 20:39:03 -0500
+665cb4c9d7849086f22ba8844680c2a534c8349b,Training plot-loss.py: Improve triplet loss plot bounds.,Tue, 8 Mar 2016 18:36:58 -0500,Tue, 8 Mar 2016 18:36:58 -0500
+04d23481fb0e6dc65147f3c919228233dd2812f3,Fix typo.,Sun, 6 Mar 2016 21:15:10 -0500,Sun, 6 Mar 2016 21:15:10 -0500
+4616f61ff84575b96210176adff593ed26c9df61,DNN Training: Halve default epochSize.,Sun, 6 Mar 2016 20:03:54 -0500,Sun, 6 Mar 2016 20:03:54 -0500
+f17a36c2fdf3443011743134dc04a4a848627912,plot-loss: Import sys.,Sun, 6 Mar 2016 19:56:12 -0500,Sun, 6 Mar 2016 19:56:12 -0500
+dd82f1825d1c5ac10c020cbafb7f796994480339,Update docs on training a DNN.,Sun, 6 Mar 2016 19:54:40 -0500,Sun, 6 Mar 2016 19:54:40 -0500
+f112398178bc86d7dbda907758cdb90ce446db33,DNN Training: Plot LFW accuracies for #100.,Sun, 6 Mar 2016 19:46:33 -0500,Sun, 6 Mar 2016 19:46:33 -0500
+bbff0a01dd8e18371361e3aee02e2d363ae57ee8,Fix tests for training the DNN.,Sun, 6 Mar 2016 19:45:37 -0500,Sun, 6 Mar 2016 19:45:37 -0500
+1786f20fb2ef33342a2ff8ad9eda006fb1f8054c,Update description of pyannote-video,Sun, 6 Mar 2016 19:01:40 -0500,Sun, 6 Mar 2016 19:01:40 -0500
+f5766412d26c3f1b5264abd48867364f58004d66,NN Training: Add LFW validation for #100.,Fri, 4 Mar 2016 18:30:39 -0500,Fri, 4 Mar 2016 18:30:39 -0500
+e4c4aef3e4eddee43bcd937d5663f95e410d906d,Training: Zero pad experiment work directory numbers.,Fri, 4 Mar 2016 18:09:55 -0500,Fri, 4 Mar 2016 18:09:55 -0500
+8db6a8ad05a474a3a0035f36fe17dc743756e1da,Docs: Remove broken link.,Thu, 3 Mar 2016 09:05:41 -0500,Thu, 3 Mar 2016 09:05:41 -0500
+1b4057da55d32f6cea055038cd1c20b0765ac300,VGG Download: Use all images, timeout URL requests.,Wed, 2 Mar 2016 10:40:43 -0500,Wed, 2 Mar 2016 10:40:43 -0500
+f9b8a28f8c6ef458d33b468f7b1c9f9e8ed70abf,VGG Dataset Script: Fix formatting.,Tue, 1 Mar 2016 12:25:36 -0500,Tue, 1 Mar 2016 12:25:36 -0500
+958a49b4a60da68668a022eed65775656b4369ee,VGG Dataset Script: Fix flake formatting warnings.,Mon, 29 Feb 2016 08:44:59 -0500,Mon, 29 Feb 2016 08:44:59 -0500
+74d0850b632223fa1091d9adf76b5b5602fc91f1,VGG Dataset Script: Remove unused import.,Mon, 29 Feb 2016 08:41:11 -0500,Mon, 29 Feb 2016 08:41:11 -0500
+e6c73b18aa2b57a3fb24cee675b1c9508c34925b,Add git exception for download-lfw-subset.,Mon, 29 Feb 2016 08:39:04 -0500,Mon, 29 Feb 2016 08:39:04 -0500
+6fc8e9d8e56d295779b462dbeec8e1a088facf03,VGG Dataset Script: Add header and except to gitignore.,Mon, 29 Feb 2016 08:37:42 -0500,Mon, 29 Feb 2016 08:37:42 -0500
+99d9955bda47732679863c5d7a7aaae03759cc55,Add VGG dataset download and align script.,Mon, 29 Feb 2016 08:34:01 -0500,Mon, 29 Feb 2016 08:34:01 -0500
+0b20785778d5305261d89497ae2e619edde64bd0,align-dlib: Remove outdated argument.,Mon, 29 Feb 2016 08:29:35 -0500,Mon, 29 Feb 2016 08:29:35 -0500
+540b7d03c69c0d6b6a4e3b200208cbcaaac0fa04,Fix luacheck warning.,Sun, 28 Feb 2016 15:08:50 -0500,Sun, 28 Feb 2016 15:08:50 -0500
+49d195355bb36f8b447ca92be72d53db73716a55,Training: Remove test code from data loader.,Sun, 28 Feb 2016 13:48:22 -0500,Sun, 28 Feb 2016 13:48:22 -0500
+ccaf42390460bda12d862900261e89eccf56b39c,Remove -testEpochSize from the training unit test.,Sat, 27 Feb 2016 18:00:20 -0500,Sat, 27 Feb 2016 18:00:20 -0500
+e987b15b22c0e850df1711cafd15440067ec15ba,Move old test code to attic for #99.,Sat, 27 Feb 2016 17:50:11 -0500,Sat, 27 Feb 2016 17:50:11 -0500
+b2054fed5e2202d768354a8dd94204d5908dd964,detect-outliers: Add --delete option.,Sat, 27 Feb 2016 16:41:04 -0500,Sat, 27 Feb 2016 16:41:04 -0500
+d845e6cd1617d71306ee1517f66ef0bfa5225ac8,align-dlib: Add verbose option.,Sat, 27 Feb 2016 15:10:57 -0500,Sat, 27 Feb 2016 15:11:05 -0500
+1bb08b2e837b2c85125de8d43890c9d50ceb2064,Website: Link to related projects and articles.,Fri, 26 Feb 2016 18:00:01 -0500,Fri, 26 Feb 2016 18:00:01 -0500
+69837ba70b33b337925a4825e3abb2b7ec522193,Bump version to 0.2.1,Thu, 25 Feb 2016 12:41:12 -0500,Thu, 25 Feb 2016 12:41:24 -0500
+aeb14897c5b5d3574534a167e64b9884cdb57a8c,Update acknowledgements.,Wed, 24 Feb 2016 23:59:29 -0500,Wed, 24 Feb 2016 23:59:29 -0500
+a1a644c44c9bd1bd811ee66ba1e08b0d396c720a,Tests: Make lfwSubset assertions more informative.,Sun, 21 Feb 2016 16:18:16 -0500,Sun, 21 Feb 2016 16:18:16 -0500
+d89548721b8b45814cf2a188fac856c3c1427414,Acknowledge great issue and PR templates from @rhiever, @justinabrahms, and @auremoser,Fri, 19 Feb 2016 14:58:10 -0500,Fri, 19 Feb 2016 14:58:10 -0500
+ac7c784b6070487d594fb4ed269e68342b4d54a1,Add a PR template and improve the issue template.,Fri, 19 Feb 2016 14:30:19 -0500,Fri, 19 Feb 2016 14:30:19 -0500
+c79cc4a73e81dfc278cdf9ef0d525c8925040874,Classification demo: Use a linear SVM with C=1 instead of grid search.,Fri, 19 Feb 2016 14:18:02 -0500,Fri, 19 Feb 2016 14:18:02 -0500
+f10dee45594550eb04cd3a47424b2e3606227877,Add ISSUE_TEMPLATE.,Fri, 19 Feb 2016 12:20:45 -0500,Fri, 19 Feb 2016 12:20:45 -0500
+b3e41133caa89565c97a6cbf50b93287c9a7521f,lfw-classification: Add largeFont option.,Wed, 17 Feb 2016 13:54:08 -0500,Wed, 17 Feb 2016 13:55:12 -0500
+deeb66f87dedd08e002a63c2ec27562cbf38f5ab,Docs: Link to @cowbjt's web demo fork,Wed, 17 Feb 2016 13:46:51 -0500,Wed, 17 Feb 2016 13:55:12 -0500
+8a4c2cae0abf8a7897378bbb3b23fdef3abed7d0,Fix flake8 warnings.,Wed, 17 Feb 2016 13:46:28 -0500,Wed, 17 Feb 2016 13:55:12 -0500
+90297b735d377e9434662d67c48a2c61c61e4874,Update CONTRIBUTING.md,Mon, 15 Feb 2016 15:04:06 -0500,Mon, 15 Feb 2016 15:04:06 -0500
+c40c301e5c2783b57374da80be62db86b34f8a7f,Merge branch 'master' of github.com:cmusatyalab/openface,Sun, 14 Feb 2016 21:58:34 -0500,Sun, 14 Feb 2016 21:58:34 -0500
+58ac46511964ca1dd3de25d2b6053eb785e3e281,Add outlier detection util script.,Sun, 14 Feb 2016 21:57:39 -0500,Sun, 14 Feb 2016 21:57:39 -0500
+91376f9caa45cea2a10c87788f66ab168536aace,Remove stderr output.,Thu, 11 Feb 2016 13:59:56 -0500,Thu, 11 Feb 2016 13:59:56 -0500
+c1235f712ace9988a8ce082a654e0686c75a171c,Add CONTRIBUTING.md,Mon, 8 Feb 2016 07:46:59 -0500,Mon, 8 Feb 2016 07:46:59 -0500
+b922abc1531f451a92f12bfcba5597523cc87e7d,Fix flake8 warnings.,Sun, 7 Feb 2016 17:50:41 -0500,Sun, 7 Feb 2016 17:50:41 -0500
+964c06f64a4c516e7091d5292e29b71c2e67f1ad,lfw-classification: Just use a linear SVM instead of grid search.,Sun, 7 Feb 2016 17:24:39 -0500,Sun, 7 Feb 2016 17:24:39 -0500
+18bae7d1adffa299da562943eb2cf17facf7d350,Update LFW plots.,Sat, 6 Feb 2016 23:41:17 -0500,Sat, 6 Feb 2016 23:41:17 -0500
+dfa6b7f6142f9f1b9f821d06c90f0f56ce0fce72,Add LFW classification experiment.,Sat, 6 Feb 2016 19:27:00 -0500,Sat, 6 Feb 2016 19:27:05 -0500
+0ec2de4572348feff705d187eaf398eda8d80cfe,Fix luacheck warning.,Sat, 6 Feb 2016 19:24:38 -0500,Sat, 6 Feb 2016 19:24:38 -0500
+b43f510489c2872b1d532ba290393ff58a38fbbb,nn4.small2.def: Comment out reshapes.,Sat, 6 Feb 2016 18:56:50 -0500,Sat, 6 Feb 2016 18:56:50 -0500
+c206fa20c5c16a01491332b4b9574076d58b4c17,Add print-network-table,Sat, 6 Feb 2016 18:56:32 -0500,Sat, 6 Feb 2016 18:56:32 -0500
+3fefe5825c44cf78fc25c4d93ab9592463323156,get-models: Change == to = to resolve #92,Sat, 6 Feb 2016 16:32:38 -0500,Sat, 6 Feb 2016 16:32:38 -0500
+cfe3a83e2fb6558e354628ed78334e1c3b987071,websocket server: Use store_true for --cuda.,Fri, 5 Feb 2016 20:08:13 -0500,Fri, 5 Feb 2016 20:08:18 -0500
+a5528889c42cb563723560cb05fe139077eac0e3,lfw: classify->verify,Fri, 5 Feb 2016 20:07:29 -0500,Fri, 5 Feb 2016 20:08:18 -0500
+7d8c6ba012c03592b1921ebfbcd9cbdd428945a0,Disable stderr piping in Torch subprocess for #87,Fri, 29 Jan 2016 10:36:38 -0500,Fri, 29 Jan 2016 10:36:38 -0500
+744bf8b55e8b2a5fffd6cbe67f599b3799b4f767,Update copyright statement to include all models.,Tue, 26 Jan 2016 17:51:57 -0500,Tue, 26 Jan 2016 17:51:57 -0500
+2840c632aed4bdc6db56849b087d15ec927e8ac2,README: Add example directory structure.,Tue, 26 Jan 2016 10:51:44 -0500,Tue, 26 Jan 2016 10:51:44 -0500
+b3735ff6414726c78626618f50eb4c9a01c33d5b,align-dlib: Remove outdated sys.path modification.,Mon, 25 Jan 2016 15:54:12 -0500,Mon, 25 Jan 2016 15:54:12 -0500
+be0cc05ea117945c94a0327559f5498830c93ec3,TorchNeuralNet: Improve error message when the subprocess dies.,Sat, 23 Jan 2016 17:28:57 -0500,Sat, 23 Jan 2016 17:28:57 -0500
+147ce31b33ec001e8552d8a4ca439b92a68df6c2,Remove comment from openface_server.lua.,Sat, 23 Jan 2016 17:25:35 -0500,Sat, 23 Jan 2016 17:25:35 -0500
+6d69373a442f6afc7ebf1a861eab90c84244adc5,setup.py: Bump version.,Fri, 22 Jan 2016 12:03:36 -0500,Fri, 22 Jan 2016 12:03:36 -0500
+5946f37d6045820dfa4e81ba2baac719563abc87,Docs: Add news.,Thu, 21 Jan 2016 12:56:41 -0500,Thu, 21 Jan 2016 12:56:41 -0500
+19d9d8c703c40054874ae7daf8e882312de85ced,Add more details to start-servers.sh,Wed, 20 Jan 2016 23:18:17 -0500,Wed, 20 Jan 2016 23:18:17 -0500
+e8cd669265d97924cce433bcd16bdb698e4c24ea,Docs: Phrasing.,Wed, 20 Jan 2016 14:39:38 -0500,Wed, 20 Jan 2016 14:39:40 -0500
+2eaff950d7bb3198e5c284628f05a352d71aa00c,Docs: Update index.,Wed, 20 Jan 2016 13:18:27 -0500,Wed, 20 Jan 2016 13:18:27 -0500
+c7a0e798415f4f012b7b8a693fcda4671b8a2d70,docs: Correct lfw command.,Wed, 20 Jan 2016 12:45:00 -0500,Wed, 20 Jan 2016 12:45:00 -0500
+17fe502e4dbe0f3dc703b63b5aa9acfaa195f8b5,Update illegal instruction error note.,Tue, 19 Jan 2016 14:59:21 -0500,Tue, 19 Jan 2016 14:59:21 -0500
+ec70d3c4deecc7cea61a63528095dfbfb07380a4,Update illegal instruction error note.,Tue, 19 Jan 2016 14:57:29 -0500,Tue, 19 Jan 2016 14:57:29 -0500
+f7af1436adf98d4a271d2621e6391e677214de08,Docs: FAQ: Add illegal instruction error.,Tue, 19 Jan 2016 14:19:01 -0500,Tue, 19 Jan 2016 14:19:01 -0500
+28419c2a0da83ac9ee92d5e3c6fadb29e55008db,Correct link to LICENSE.,Tue, 19 Jan 2016 14:07:37 -0500,Tue, 19 Jan 2016 14:07:37 -0500
+f091896e79fad88517a6b256ddc2f7673685a707,Bump release in README.,Tue, 19 Jan 2016 11:42:17 -0500,Tue, 19 Jan 2016 11:42:17 -0500
+60d371d19b7cec06823ade509993aa9e382c614b,Remove test command from Docker example since it requires other dependencies.,Tue, 19 Jan 2016 11:36:22 -0500,Tue, 19 Jan 2016 11:36:22 -0500
+89084a9134ee36704483739750a4bc186ba5f59e,Docs: Update faq.,Tue, 19 Jan 2016 10:07:22 -0500,Tue, 19 Jan 2016 10:07:22 -0500
+1e2791a396bfbedf2201e116d6173b6a83d82ee9,Fix typo.,Tue, 19 Jan 2016 08:08:24 -0500,Tue, 19 Jan 2016 08:08:24 -0500
+2a2cfd9c920276c26089853feec7e68f68f1bbfe,Fix typo.,Tue, 19 Jan 2016 06:20:01 -0500,Tue, 19 Jan 2016 06:20:01 -0500
+b336249d5f8d9e9637114285337e9684dbb370c8,Add 0.2.0 release notes.,Tue, 19 Jan 2016 06:15:11 -0500,Tue, 19 Jan 2016 06:16:18 -0500
+85fe1b1825b5a099e22c67a00d9d3317ceeba59f,Docs: Add performance to faq.,Tue, 19 Jan 2016 06:14:40 -0500,Tue, 19 Jan 2016 06:16:18 -0500
+5acd962b45076240627147d5059079102d6917ce,Docs: Update value.,Tue, 19 Jan 2016 06:01:31 -0500,Tue, 19 Jan 2016 06:16:18 -0500
+d05fecb633b6b753ad484ffaa094098835c15a9c,Setup Docs: Update commands.,Sun, 17 Jan 2016 00:58:27 -0500,Sun, 17 Jan 2016 00:58:27 -0500
+90de8e2573d99185ff09a4dd291422e16b4ec6d6,Training Docs: Remove discrepancies that are no longer valid.,Sat, 16 Jan 2016 23:53:18 -0500,Sat, 16 Jan 2016 23:53:18 -0500
+9b04bca65d778648aa0e6e3fb79c03b90c43bc78,train.lua: Pass on comments.,Sat, 16 Jan 2016 23:50:54 -0500,Sat, 16 Jan 2016 23:50:54 -0500
+ca15ee51760830d9bb239ed0fe0d54c009661760,Fix flake8 warnings.,Sat, 16 Jan 2016 22:54:57 -0500,Sat, 16 Jan 2016 22:54:57 -0500
+5502b26018b8e6baa9a8dbf54891fa4459b9f23e,Add profile-pipeline.,Sat, 16 Jan 2016 21:31:43 -0500,Sat, 16 Jan 2016 21:31:43 -0500
+51b01c200c97593cb680aa407ddfec2e7bcf41e6,Train: Fix model saving logic for out-of-memory errors.,Sat, 16 Jan 2016 16:37:32 -0500,Sat, 16 Jan 2016 16:37:35 -0500
+162cf1f76a5f101e8fc5e84d023c81fbb01269e5,Improve docs.,Sat, 16 Jan 2016 16:32:16 -0500,Sat, 16 Jan 2016 16:32:16 -0500
+a94e623477cfd3ced27e8223d29e17994683e68f,Docs: innerEyesAndBottomLip -> outerEyesAndNose,Fri, 15 Jan 2016 11:01:26 -0500,Fri, 15 Jan 2016 11:01:26 -0500
+4d855e67042a919744defb30c37cec8a7a9f8b24,LFW: Improve error message for missing pairs.txt,Thu, 14 Jan 2016 08:40:16 -0500,Thu, 14 Jan 2016 08:40:16 -0500
+e243655a39d696615c17b104be3eb83256edda42,LFW: Improve docs for pairs.txt,Thu, 14 Jan 2016 08:35:46 -0500,Thu, 14 Jan 2016 08:35:46 -0500
+dad9ce965ad399db4d2563fed8384c9edecf7dce,docs: Mention OSX findutils and coreutils dependencies.,Wed, 13 Jan 2016 16:15:53 -0500,Wed, 13 Jan 2016 16:15:53 -0500
+5617ab194abe63fac6f87d3dd1dbdeaa4356b47a,Typo.,Wed, 13 Jan 2016 16:10:58 -0500,Wed, 13 Jan 2016 16:11:00 -0500
+9d1bd99579f9b1708e7ab5e8b6ee8b272b2e6ef7,Update copyright notices.,Wed, 13 Jan 2016 14:52:52 -0500,Wed, 13 Jan 2016 14:52:52 -0500
+2c40986183e73486e27138fbac05d718d45e4310,Add note about building in an OSX Docker machine.,Wed, 13 Jan 2016 14:43:13 -0500,Wed, 13 Jan 2016 14:43:15 -0500
+b0f318568bd2b621f3e6394a29a689f0e6b5c4d8,Minor changes to docs and README.,Wed, 13 Jan 2016 08:36:16 -0500,Wed, 13 Jan 2016 14:43:15 -0500
+71d7720a86eca04dba3cf6acb58ff4f57a9e1b23,Tests: Tweak training params.,Wed, 13 Jan 2016 14:33:17 -0500,Wed, 13 Jan 2016 14:33:17 -0500
+8bbfd4da0568225ebdf5f6db9a927de4ba37428e,Training: Skip battch if nTripsFound == 0.,Wed, 13 Jan 2016 14:32:43 -0500,Wed, 13 Jan 2016 14:32:43 -0500
+6b6ed234f9ede53e2da8b39c66fab2eea33edfbb,Fix flake8 warnings.,Tue, 12 Jan 2016 17:59:04 -0500,Tue, 12 Jan 2016 17:59:04 -0500
+c1db3819a8363e8aa50c9562bebf66c85454e33d,Docs: Update model LFW accuracies.,Tue, 12 Jan 2016 17:58:30 -0500,Tue, 12 Jan 2016 17:58:30 -0500
+686e48409c7612d4b0b65dc95156ac344a9d08e5,opencv-dlib-torch: Add torchx.,Tue, 12 Jan 2016 17:57:59 -0500,Tue, 12 Jan 2016 17:57:59 -0500
+0764f0d6bd4a58249798775af05a45db5c34c026,Update LFW results.,Tue, 12 Jan 2016 17:49:56 -0500,Tue, 12 Jan 2016 17:49:56 -0500
+d9c602c44946df14fa791547eb594d83a080e26b,Add cuda conditionals to test.lua.,Tue, 12 Jan 2016 17:43:50 -0500,Tue, 12 Jan 2016 17:43:50 -0500
+e5277e916c9f374872188ac4b4b4c870e4abf367,sanitize: Remove unused imports.,Tue, 12 Jan 2016 17:40:01 -0500,Tue, 12 Jan 2016 17:40:01 -0500
+745d48d7c89b16278b7a3dc84e124d39cccf1504,batch-represent tests: Reduce precision by adding atol to np.isclose.,Tue, 12 Jan 2016 17:35:10 -0500,Tue, 12 Jan 2016 17:35:10 -0500
+f4611dafd914084cf4d4defc50892a8ad579c9a0,batch-represent tests: Reduce precision.,Tue, 12 Jan 2016 17:34:10 -0500,Tue, 12 Jan 2016 17:34:10 -0500
+640e6ccf4a60a4c0bf4703d84919c36421391834,batch-represent: Fix test.,Tue, 12 Jan 2016 17:30:32 -0500,Tue, 12 Jan 2016 17:30:32 -0500
+dd5d0d11bd0b094a3e07ac1e46316f42f6bbacc9,Training: Remove unused 'fbnn' import.,Tue, 12 Jan 2016 17:30:06 -0500,Tue, 12 Jan 2016 17:30:06 -0500
+44bd27095aafafdf1b869bedbd043bb9c591d110,batch-represent: Remove unused functions.,Tue, 12 Jan 2016 17:29:45 -0500,Tue, 12 Jan 2016 17:29:45 -0500
+7a3b472ea888caeb83f8867138691ec0595d2836,batch-represent: Fix index.,Tue, 12 Jan 2016 17:29:34 -0500,Tue, 12 Jan 2016 17:29:34 -0500
+dcc9acc77171008cc15f5b9757649b9bb76cdc2f,Update API test to latest model.,Tue, 12 Jan 2016 17:10:49 -0500,Tue, 12 Jan 2016 17:10:49 -0500
+2cdf309cad3a35c88cabb0cd70cdc8669537d02c,Docs: Fix test command.,Tue, 12 Jan 2016 17:06:05 -0500,Tue, 12 Jan 2016 17:06:05 -0500
+1a96439f345ea3f383e5b2cd87ec02ad0eb90f82,Formatting.,Tue, 12 Jan 2016 16:48:22 -0500,Tue, 12 Jan 2016 16:48:22 -0500
+1f1a1bbb5aea344d47641bf95295089ab18af199,Change page location (sorry for 404s),Tue, 12 Jan 2016 16:26:26 -0500,Tue, 12 Jan 2016 16:26:26 -0500
+a793b7791aefffed81cb00efb4964d9faee38ee1,Docs: Add links to models and add performance measurements.,Tue, 12 Jan 2016 16:22:13 -0500,Tue, 12 Jan 2016 16:22:13 -0500
+f96b2067652745902b3d894e6f86f0269bc5f823,Use nn4.small2.v1 by default.,Tue, 12 Jan 2016 15:46:49 -0500,Tue, 12 Jan 2016 15:46:57 -0500
+74046f1c51b837047000578c5d4bb447edc866f0,Dockerfile: Remove sklearn.,Tue, 12 Jan 2016 15:45:48 -0500,Tue, 12 Jan 2016 15:45:48 -0500
+d03d96fe69e4c26e2aec6f48e9f93b559ba4a5be,Finish moving content into new Dockerfile.,Tue, 12 Jan 2016 15:21:09 -0500,Tue, 12 Jan 2016 15:21:12 -0500
+56dae9f9994db2ef83aecf924a9ac2d5ab7bf753,Add nn4.small LFW results.,Tue, 12 Jan 2016 14:32:30 -0500,Tue, 12 Jan 2016 14:32:54 -0500
+e8344fbe345220d7f6294af5daea6cd5615d8701,Change lfw interface.,Tue, 12 Jan 2016 14:30:55 -0500,Tue, 12 Jan 2016 14:32:54 -0500
+6409661f5ff10e802155cad29daa99e3e3ae4b46,Remove unused fbnn dependency.,Tue, 12 Jan 2016 14:13:03 -0500,Tue, 12 Jan 2016 14:32:54 -0500
+d4a5e342b9b414a3748bb14495c011f22c211cd6,Add blank line.,Tue, 12 Jan 2016 14:11:34 -0500,Tue, 12 Jan 2016 14:32:54 -0500
+12612b098a0640dcac50ad750521897a3e4cfeba,Add opencv-dlib-torch.Dockerfile,Tue, 12 Jan 2016 13:43:05 -0500,Tue, 12 Jan 2016 13:43:09 -0500
+8e293779521f857fe0b87793d3e8801b064ac181,Tests: Add more debug output for failed tests.,Tue, 12 Jan 2016 13:31:00 -0500,Tue, 12 Jan 2016 13:31:00 -0500
+a4dd1c74ee481155e8d3d8befe9b3659f41f6f43,API Tests: Remove image norms.,Tue, 12 Jan 2016 13:26:24 -0500,Tue, 12 Jan 2016 13:26:24 -0500
+338a0e43fd6e1d5b165ad05ab95bf1099a01db1e,Tests: Disable rgb check.,Tue, 12 Jan 2016 11:54:36 -0500,Tue, 12 Jan 2016 11:54:36 -0500
+4477b5e0cf3ac75805e30e49a3998dc22e346473,NN Tests: Use workDir for aligned images.,Mon, 11 Jan 2016 17:50:31 -0500,Mon, 11 Jan 2016 17:50:31 -0500
+f42eceb4526f1d774287b313e2bf2973a04758df,Fix pep257 warnings.,Mon, 11 Jan 2016 17:42:20 -0500,Mon, 11 Jan 2016 17:42:20 -0500
+17e8dc5f2b14a8d411a6e7117bea99b7265f901a,Tests: Use tmp directory when writing to disk.,Mon, 11 Jan 2016 17:36:54 -0500,Mon, 11 Jan 2016 17:36:54 -0500
+b84d57a6df9d7009b817d432619e19286b72a92d,Add checks for 'None' to resolve #25.,Mon, 11 Jan 2016 17:24:52 -0500,Mon, 11 Jan 2016 17:24:52 -0500
+bddc2538ed160aa4a10dd69d777ad56899e41314,Add two nn4.small definitions.,Mon, 11 Jan 2016 17:01:42 -0500,Mon, 11 Jan 2016 17:01:42 -0500
+0fbb28378934ad12b1ca0458013400f14f4a9559,lfw-subset: Wget: Use -nv.,Mon, 11 Jan 2016 16:59:56 -0500,Mon, 11 Jan 2016 16:59:56 -0500
+0cb17becc714fc8f442002c53bbea04d77f35b35,Travis: Wget: Use -nv.,Mon, 11 Jan 2016 16:58:27 -0500,Mon, 11 Jan 2016 16:58:27 -0500
+49aa43ece30d8cf9750fc898d365a1df465f65b3,Travis: Source torch-active so 'th' is on the path for tests.,Mon, 11 Jan 2016 16:55:45 -0500,Mon, 11 Jan 2016 16:55:50 -0500
+55928e9f95b77a36208946cbba74aac6fffd44d2,Tests: Fix flake8 warnings.,Mon, 11 Jan 2016 16:49:05 -0500,Mon, 11 Jan 2016 16:55:49 -0500
+aef46e7babf8a9a24f1b3305e5af995b65c8facc,Dockerfile: Use ./luarocks since sourcing in a Dockerfile doesn't work.,Mon, 11 Jan 2016 16:48:05 -0500,Mon, 11 Jan 2016 16:48:08 -0500
+0479d0e3459633489a3a2a0110be6bd938fbd8b6,Finish tensor size checks for #36.,Mon, 11 Jan 2016 16:44:50 -0500,Mon, 11 Jan 2016 16:44:50 -0500
+d0b40686a28860244a3477573b5bbdfd11a2e620,Training: OpenFaceOptim: Correct Tensor type.,Mon, 11 Jan 2016 16:44:32 -0500,Mon, 11 Jan 2016 16:44:32 -0500
+5f78673b7d25b961ba444b596ce62985af57f154,Move imgDim to models.,Mon, 11 Jan 2016 16:38:24 -0500,Mon, 11 Jan 2016 16:38:24 -0500
+27f71cdf5d569c95835e7b311110d8a4b9d0b020,Dockerfile: Source torch-active for luarocks.,Mon, 11 Jan 2016 16:38:05 -0500,Mon, 11 Jan 2016 16:38:05 -0500
+b7facaa8a7b74c655e7309db6379fd708cdf40f3,get-models.sh: Correct note about network traffic.,Mon, 11 Jan 2016 16:23:05 -0500,Mon, 11 Jan 2016 16:23:05 -0500
+5634a4f563a0498f99178bef130454666446d499,Set executable bit on run-tests.sh.,Mon, 11 Jan 2016 16:19:37 -0500,Mon, 11 Jan 2016 16:19:37 -0500
+c8bc687983d2979c27357cff57d180098b75bb0b,get-models: wget: Use -nv.,Mon, 11 Jan 2016 16:19:07 -0500,Mon, 11 Jan 2016 16:19:07 -0500
+8e81c62e3cb69e4e48394ea387a5d765e0516d80,Tests: Add neural network training tests for #13.,Mon, 11 Jan 2016 16:17:31 -0500,Mon, 11 Jan 2016 16:17:36 -0500
+c5b0accd4d0b32fd06483fc6c44731f313c987bc,Training: Add conditionals for cuda portions.,Mon, 11 Jan 2016 16:17:03 -0500,Mon, 11 Jan 2016 16:17:36 -0500
+15cc5fef005dd14095dd2c820fab1887027b0d6c,Training: Add CPU execution for tests.,Mon, 11 Jan 2016 15:36:58 -0500,Mon, 11 Jan 2016 16:17:36 -0500
+ff06eff8932512646198227a3d3e1de6f7791322,Docker: Move Python dependencies to Ubuntu package binaries.,Mon, 11 Jan 2016 16:12:41 -0500,Mon, 11 Jan 2016 16:12:45 -0500
+43751a25c179983d44fb0cdb92563bf6018d068e,Add download-lfw-subset script.,Mon, 11 Jan 2016 12:44:42 -0500,Mon, 11 Jan 2016 12:44:42 -0500
+c69bb8434e874548203c8cf7f8edf07b5fd58676,Fix comments at the top of tests.,Mon, 11 Jan 2016 12:41:23 -0500,Mon, 11 Jan 2016 12:41:23 -0500
+a7b10d483c0436d22602470f160157aefac33529,Add batch-represent test for #13.,Mon, 11 Jan 2016 12:41:03 -0500,Mon, 11 Jan 2016 12:41:03 -0500
+d48957bcdf5380b736c4e84e19daaa488fd960b5,Tests: Fix falke8 errors.,Mon, 11 Jan 2016 12:26:37 -0500,Mon, 11 Jan 2016 12:29:07 -0500
+343389f936c39116778e7c64cf824a4af7403fb4,Dockerfile: Remove pip install numpy,Mon, 11 Jan 2016 12:23:46 -0500,Mon, 11 Jan 2016 12:23:49 -0500
+9ed7a42c8533852cc4af6800280d96cfe557318b,Move tests to separate directory.,Mon, 11 Jan 2016 12:13:14 -0500,Mon, 11 Jan 2016 12:13:14 -0500
+3ba7574e4d63660ac3633de3bff59a8932888f09,Add test for SVM classifier training.,Mon, 11 Jan 2016 12:00:14 -0500,Mon, 11 Jan 2016 12:00:22 -0500
+79bd9ac1e74d37193224672df977c2c559990f7a,Dockerfile: Install nose from apt-get.,Mon, 11 Jan 2016 11:20:41 -0500,Mon, 11 Jan 2016 11:20:44 -0500
+f11b9df9faf183d3807c847eaa8d2b8b2525c9eb,Requirements: Add ranges.,Mon, 11 Jan 2016 11:20:22 -0500,Mon, 11 Jan 2016 11:20:44 -0500
+b4b0b60e7b1e4063b5ab00657c631fb5e059cebc,Code Citation: Add @melgor.,Mon, 11 Jan 2016 11:03:11 -0500,Mon, 11 Jan 2016 11:03:11 -0500
+1de080d65b26b06830b8a7ce91c92f59a82ec408,Web Demo: Use outer eyes and nose.,Mon, 11 Jan 2016 10:31:35 -0500,Mon, 11 Jan 2016 10:31:38 -0500
+2a3f0efed2e04de2f1625a2feab48a61e2fefbf2,Fix luacheck warning.,Mon, 11 Jan 2016 08:47:34 -0500,Mon, 11 Jan 2016 08:47:34 -0500
+ce0fe8e4a8b638a3358afb721c38174bd7b6205c,batch-represent: Add cache option.,Mon, 11 Jan 2016 08:25:04 -0500,Mon, 11 Jan 2016 08:25:04 -0500
+46251db1e2c175740ec89d08973b59bb2f38c18e,lfw: Output accuracy.,Mon, 11 Jan 2016 08:11:37 -0500,Mon, 11 Jan 2016 08:11:37 -0500
+6a5d95d451a91ce3ce984dff7e2c085082f54d49,Fix luacheck warning in sanitize.,Mon, 11 Jan 2016 07:48:01 -0500,Mon, 11 Jan 2016 07:48:01 -0500
+8155840989592d6b73dbd42e8e46ff774d5ea1c3,Training: Use e-lab's torch-toolbox sanitize.,Sat, 9 Jan 2016 17:17:20 -0500,Sat, 9 Jan 2016 17:17:30 -0500
+6029baf48e90f35cebb42c23965234278f84961c,Attempt to shorten Docker build with pre-built Python libs.,Fri, 8 Jan 2016 14:27:34 -0500,Fri, 8 Jan 2016 14:27:38 -0500
+697fac07c15e4e55885cc076b54f4823ebf7752c,Training: Output the number of model parameters.,Fri, 8 Jan 2016 11:18:44 -0500,Fri, 8 Jan 2016 11:18:44 -0500
+2b249d02e6b013013e74c7ced3e969736dea67e9,DNN Models: Add parameters as comment and use opt.embSize,Fri, 8 Jan 2016 11:18:30 -0500,Fri, 8 Jan 2016 11:18:30 -0500
+1bac754aca2166c91949f495c524e5e0be0573cf,nn4 def: Don't validate shape by default.,Fri, 8 Jan 2016 11:00:07 -0500,Fri, 8 Jan 2016 11:00:17 -0500
+22cf225923e0d47d3fb3ab8df78eb09a8e4d97c2,Training: By default use an epoch size of 500.,Fri, 8 Jan 2016 10:58:21 -0500,Fri, 8 Jan 2016 11:00:17 -0500
+d7ae2a388593684c24fe316b1fc594474aac368c,Docs: Fix typo.,Fri, 8 Jan 2016 10:20:45 -0500,Fri, 8 Jan 2016 10:20:45 -0500
+778f17737b403d81534ae7adbb49b55c3bb33be1,docs: Update title.,Thu, 7 Jan 2016 19:12:22 -0500,Thu, 7 Jan 2016 19:12:22 -0500
+442b721f93fc2fd3d45ed658c5ad8da497bd3fa3,Correct nn4.v2 md5sum.,Thu, 7 Jan 2016 19:07:56 -0500,Thu, 7 Jan 2016 19:07:56 -0500
+7a1377d54cc7f024185c486568d60dee6e894916,Travis: Fix typo.,Thu, 7 Jan 2016 18:44:11 -0500,Thu, 7 Jan 2016 18:44:11 -0500
+434dc1ca9f55def4e02cb29cd654c3a191f0242c,Fix flake8 warnings.,Thu, 7 Jan 2016 18:43:25 -0500,Thu, 7 Jan 2016 18:43:25 -0500
+6246fada8320eacd7ea84d32c638d45024d00307,Update code to nn4.v2 for #55.,Thu, 7 Jan 2016 18:28:05 -0500,Thu, 7 Jan 2016 18:28:11 -0500
+5f076735a18cdf7a2cb4d0db604faa0c2a3e7a5f,Rename nn4.v1 LFW experiment.,Thu, 7 Jan 2016 12:36:01 -0500,Thu, 7 Jan 2016 18:28:11 -0500
+cb24f00a2551df6a24f220e83b9f01d277dc98ea,api-docs: Add SnowPlow tracker.,Thu, 7 Jan 2016 13:52:35 -0500,Thu, 7 Jan 2016 13:52:35 -0500
+4821cb6ee23c4547d7323aa626af197212f0f946,Fix flake8 warnings.,Wed, 6 Jan 2016 17:19:37 -0500,Wed, 6 Jan 2016 17:19:37 -0500
+7923c2785cbe35d442231d0de88ed594602791f1,OpenFace Model: Use torch/nn's SpatialCrossMapLRN.,Wed, 6 Jan 2016 17:04:21 -0500,Wed, 6 Jan 2016 17:04:21 -0500
+2b8f03c9081102375718999ccec840d477764617,Update lfw-latest.sh.,Wed, 6 Jan 2016 17:02:00 -0500,Wed, 6 Jan 2016 17:02:30 -0500
+d693a68589467c4d4cf3c95d27a3e22f71e19d00,docs: Mention that no validation images can be used.,Wed, 6 Jan 2016 17:01:52 -0500,Wed, 6 Jan 2016 17:02:30 -0500
+2769411d56be496016af42cd59c653dbdffd9f9b,Add @melgor's training improvements for #55,Wed, 6 Jan 2016 16:04:10 -0500,Wed, 6 Jan 2016 17:02:30 -0500
+cae21e0610c7273d7d822339b3a68c4e0a7fad02,Fix indentation.,Tue, 5 Jan 2016 15:11:50 -0500,Tue, 5 Jan 2016 15:11:50 -0500
+2f1f3b00e051e0d41f2604fecca6f1897b3c7aef,Remove SnowPlow tracker (not clear how to use with ReadTheDocs).,Tue, 5 Jan 2016 14:55:09 -0500,Tue, 5 Jan 2016 14:55:09 -0500
+64ed4074c042a75b7876e6634e0369339f375456,Add SnowPlow tracker.,Tue, 5 Jan 2016 13:59:06 -0500,Tue, 5 Jan 2016 13:59:06 -0500
+4357fdccae910bed6cb337c9e1658a38192d18ec,Update websocket-server to latest API.,Thu, 31 Dec 2015 13:02:36 -0500,Thu, 31 Dec 2015 13:02:36 -0500
+0326504176d3f66448bdf65f265a2c02cbf73b02,docs: Add OpenFace/FaceNet discrepancies from @melgor.,Wed, 30 Dec 2015 17:11:30 -0500,Wed, 30 Dec 2015 17:11:30 -0500
+0184c476008ddd6352c1cef3c01ccda37259822b,Typo.,Wed, 30 Dec 2015 13:33:54 -0500,Wed, 30 Dec 2015 13:33:54 -0500
+e9ccfad76c4f90b2a13472aa4e979cef0a908293,Docs: Update TorchNeuralNet signature.,Wed, 30 Dec 2015 13:33:30 -0500,Wed, 30 Dec 2015 13:33:30 -0500
+5c502deb62d60d87341217d08ff00f3594c163ad,Travis: Install pep257.,Wed, 30 Dec 2015 13:24:00 -0500,Wed, 30 Dec 2015 13:24:00 -0500
+97315327a7c5a215ad65dfa3359771859a577e38,Docs: Update usage example.,Wed, 30 Dec 2015 13:17:59 -0500,Wed, 30 Dec 2015 13:17:59 -0500
+73ddd089d97a8378c283f0f4a61ad34879c711a7,Docs: Update usage example.,Wed, 30 Dec 2015 13:15:48 -0500,Wed, 30 Dec 2015 13:15:48 -0500
+53bb9089d687b3845faa5795e3a3230cd895c555,Travis: Run pep257 to check docstrings.,Wed, 30 Dec 2015 13:14:55 -0500,Wed, 30 Dec 2015 13:14:55 -0500
+e15d11fbd7ce2a5655bfef53a2a218c02c7436ec,Finish API changes and inline Python docs for #73.,Wed, 30 Dec 2015 13:14:30 -0500,Wed, 30 Dec 2015 13:14:30 -0500
+1f7b50efa2763010a1f87997e9803e827121f1f2,Refactor Python interface.,Tue, 29 Dec 2015 19:57:29 -0500,Tue, 29 Dec 2015 19:57:29 -0500
+9073a50f9ac8ba730ef4c21c4d9b4052f21cb6cf,api-docs: Add mock dlib module.,Tue, 29 Dec 2015 16:04:21 -0500,Tue, 29 Dec 2015 16:04:21 -0500
+1799e9b949d31b15f8be7efb86a93e868e158cc1,nn2.def: Add normalization.,Mon, 28 Dec 2015 21:29:13 -0500,Mon, 28 Dec 2015 21:29:13 -0500
+80135c737cbcab4ae99f757ad66bc99c4b1bedb3,nn4.def: Add reasoning behind LRN layers.,Mon, 28 Dec 2015 21:28:06 -0500,Mon, 28 Dec 2015 21:28:06 -0500
+4098a586ae788edf576d691388fc3bdaeed1e488,Training: Add script to run lfw evaluation on the latest model.,Mon, 28 Dec 2015 16:54:26 -0500,Mon, 28 Dec 2015 16:54:35 -0500
+8a5128ea5586e357c9f616e715265416a334b60f,docs: Add warning about running the web demo on remote servers or Docker.,Mon, 28 Dec 2015 13:05:46 -0500,Mon, 28 Dec 2015 13:05:46 -0500
+ff51b2cbde9446e2ee75e089791f50f5e88b7dc9,Fix luacheck warnings.,Sun, 27 Dec 2015 09:09:14 -0500,Sun, 27 Dec 2015 09:09:14 -0500
+419ea9bbb2a79fbd088a47f31a65e3edd51ad1ea,Travis: Fix luarocks command.,Sun, 27 Dec 2015 08:49:06 -0500,Sun, 27 Dec 2015 08:49:06 -0500
+8f50bac850a8b870c3e76cddb68c330bd4b76a68,Travis: Fix apt-get commands.,Sun, 27 Dec 2015 08:47:24 -0500,Sun, 27 Dec 2015 08:47:24 -0500
+9d3ea68654b72e23f2dde90cd0f5d0c0020b1968,Travis: Add luacheck.,Sun, 27 Dec 2015 08:41:57 -0500,Sun, 27 Dec 2015 08:41:57 -0500
+57118ac28fa90a682d4bd1079f6201b07b873175,Fix luacheck warnings.,Sun, 27 Dec 2015 08:41:49 -0500,Sun, 27 Dec 2015 08:41:49 -0500
+fc55bae9d6987b828f278897fc58e0ea514ffa11,Add usage instructions to test.py,Sun, 27 Dec 2015 08:17:38 -0500,Sun, 27 Dec 2015 08:17:38 -0500
+335683c8127c0c4fea93ce3e20de32dc1e65b9e3,Fix pep warnings.,Sat, 26 Dec 2015 17:41:22 -0500,Sat, 26 Dec 2015 17:41:22 -0500
+e601a87adc78b6405f5df33f1ed4862c6f226a8c,Add script for crontab to email broken links.,Sat, 26 Dec 2015 17:22:29 -0500,Sat, 26 Dec 2015 17:22:29 -0500
+d9be46134972e88a01e74cefe61ff8ccd51b3fe2,Add util script to check for broken links.,Sat, 26 Dec 2015 17:12:06 -0500,Sat, 26 Dec 2015 17:12:06 -0500
+81a62c6e13a6ce15f3e0b5c0ad37e8c76403f2ef,Fix broken links.,Sat, 26 Dec 2015 17:11:44 -0500,Sat, 26 Dec 2015 17:11:44 -0500
+3821c9b39bc2b25cc80ece6477c8f96df7ad4d2c,Correct links to API docs.,Thu, 24 Dec 2015 18:48:06 -0500,Thu, 24 Dec 2015 18:48:06 -0500
+b03364d5fc4fa1b130b0bbdf388f1b00fc481eeb,Link to the API documentation.,Thu, 24 Dec 2015 14:01:23 -0500,Thu, 24 Dec 2015 14:01:23 -0500
+d45ed006b655af55a53df3159325ac66a86cb417,mkdocs: Link to API documentation.,Thu, 24 Dec 2015 13:52:39 -0500,Thu, 24 Dec 2015 13:52:39 -0500
+4883f106d1ac7128043beed478ac235ce9fe0f07,API Docs: Name,Thu, 24 Dec 2015 13:48:16 -0500,Thu, 24 Dec 2015 13:48:16 -0500
+5712d50f380e250d08ca263504b57ca54061394a,Correct mock import.,Thu, 24 Dec 2015 13:46:44 -0500,Thu, 24 Dec 2015 13:46:44 -0500
+76c45dfa799596306d8517faf02641153adc1dba,Add mock to api-doc requirements.,Thu, 24 Dec 2015 13:45:16 -0500,Thu, 24 Dec 2015 13:45:16 -0500
+f6f9de1ac5b13bb47bd260d52bccd2db3e6ef391,Add blank requirements.txt for api docs.,Thu, 24 Dec 2015 13:43:56 -0500,Thu, 24 Dec 2015 13:43:56 -0500
+4e82393a4ce33f0cb8c7bcb86604b370b7171d11,Fix flake8 warnings.,Thu, 24 Dec 2015 13:33:20 -0500,Thu, 24 Dec 2015 13:33:20 -0500
+8be642b855c72b607e2ed79dce29e9057ab64dd5,Initial commit of Sphinx API docs.,Thu, 24 Dec 2015 13:23:45 -0500,Thu, 24 Dec 2015 13:23:45 -0500
+c2c6eb8b72166d5ea9447da98bea332eb9023b43,Travis: Move docker commands.,Thu, 24 Dec 2015 11:45:41 -0500,Thu, 24 Dec 2015 11:45:41 -0500
+0469eba30fbc020f6b9707a4f5e5a540fc73ea13,Travis: Use flake8.,Thu, 24 Dec 2015 11:45:13 -0500,Thu, 24 Dec 2015 11:45:13 -0500
+dceb6a910b006545bb0dea5f3a9e86d2754afe01,flake8 improvements.,Thu, 24 Dec 2015 11:45:00 -0500,Thu, 24 Dec 2015 11:45:00 -0500
+5177deb351de576fb3459a2d6a79dfc92c6ddb57,Convert back to BGR for OpenCV write.,Thu, 24 Dec 2015 11:07:19 -0500,Thu, 24 Dec 2015 11:07:19 -0500
+e1a8ccbe372e5495a2f848b45279437ddf040622,Classifier Demo: Take multiple images on input.,Thu, 24 Dec 2015 11:06:52 -0500,Thu, 24 Dec 2015 11:06:52 -0500
+ff939ef1a29b6b0eaa25f883fd2be059539fc113,Improve web demo docs.,Wed, 23 Dec 2015 18:42:36 -0500,Wed, 23 Dec 2015 18:42:40 -0500
+3e5be95a3cc8af1f83581d90e694e726d50a6ae2,Web demo: Assume the HTTP and WebSocket servers are the same so the web demo works in Docker without any modifications.,Wed, 23 Dec 2015 18:42:24 -0500,Wed, 23 Dec 2015 18:42:40 -0500
+cd80427cfeff4cd7f086b75642855556ea029c30,Dockerfile: Make the default command start the web demo.,Wed, 23 Dec 2015 18:41:38 -0500,Wed, 23 Dec 2015 18:42:40 -0500
+63e364f01f8d659d3d227b8252ff2f3abbe6eb94,Travis: Attempt #2 to break long line.,Wed, 23 Dec 2015 16:07:29 -0500,Wed, 23 Dec 2015 16:07:29 -0500
+083c1fb033f08ff587900dfc3bae066f8ab0bb81,Travis: Break long line.,Wed, 23 Dec 2015 16:03:51 -0500,Wed, 23 Dec 2015 16:03:51 -0500
+436b5dc802b05d846630dea5861b72cf33abb2d1,Travis: Use a Bash login shell for Torch executables.,Wed, 23 Dec 2015 15:53:01 -0500,Wed, 23 Dec 2015 15:53:01 -0500
+73fc46e52a294a3ab007bf2f36d589a147fa33fd,Add Docker automated build docs for #35.,Wed, 23 Dec 2015 15:41:23 -0500,Wed, 23 Dec 2015 15:41:23 -0500
+507e535c255a781c00096926a077b22c3ab72164,Travis: Try to fix error by using a single line.,Wed, 23 Dec 2015 15:37:28 -0500,Wed, 23 Dec 2015 15:37:28 -0500
+3098948a8734f87fdf69a0325bdeeaf45896f3b8,Travis: Pull pre-built Dockerfile.,Wed, 23 Dec 2015 15:23:12 -0500,Wed, 23 Dec 2015 15:23:12 -0500
+8e3fabb84d290f5c2a54cfed6f6a506a9a3e0ede,Setup Docs: Reference tests. Correct web demo command.,Wed, 23 Dec 2015 00:44:37 -0500,Wed, 23 Dec 2015 00:44:37 -0500
+df27b988a33d214452a76dc162b08a9d7b0eebe0,Travis: Correct nosetests command.,Wed, 23 Dec 2015 00:44:14 -0500,Wed, 23 Dec 2015 00:44:14 -0500
+876da5258da93cd713cdd03c07196187d3009957,Travis: Move docker tests to before_install.,Wed, 23 Dec 2015 00:20:03 -0500,Wed, 23 Dec 2015 00:20:03 -0500
+8bdaf973d9895b3b4c01e08c0e6cd34140a2de63,Travis: Correct test command.,Wed, 23 Dec 2015 00:17:25 -0500,Wed, 23 Dec 2015 00:17:25 -0500
+d2bee9db50884fb6e829b60d636331386934afcf,Install numpy before building OpenCV.,Wed, 23 Dec 2015 00:10:32 -0500,Wed, 23 Dec 2015 00:10:32 -0500
+5673787f3571a36e4621914390ae15eb4d745446,Dockerfile: Correct ADD and continuation lines.,Tue, 22 Dec 2015 23:42:56 -0500,Tue, 22 Dec 2015 23:42:56 -0500
+5251ddc9e8414c9f504f6b2e37cc1225bdb4fa59,Travis: Correct path to Dockerfile.,Tue, 22 Dec 2015 23:16:02 -0500,Tue, 22 Dec 2015 23:16:02 -0500
+6ac715703162d101267333bcc21a7c20aaa5c5e7,Travis: Remove nosetests.,Tue, 22 Dec 2015 23:14:23 -0500,Tue, 22 Dec 2015 23:14:23 -0500
+e74857c1b4e89b620f7aaed73bea296eb9e6f4c7,Docs: Update docker command to root-based version.,Tue, 22 Dec 2015 23:13:30 -0500,Tue, 22 Dec 2015 23:13:30 -0500
+f85045e5c490332edef846bc380d49753b12f516,Travis: Run tests in Docker image.,Tue, 22 Dec 2015 23:11:44 -0500,Tue, 22 Dec 2015 23:11:44 -0500
+9488550c245f2ec088a2e5823da4a83e5bc491e4,Requirements: Add nose.,Tue, 22 Dec 2015 23:11:26 -0500,Tue, 22 Dec 2015 23:11:26 -0500
+b47d3cf8413268558ef80b2987b89f2754a99374,tests: Fix pep8 errors.,Tue, 22 Dec 2015 23:11:15 -0500,Tue, 22 Dec 2015 23:11:15 -0500
+57b506083b838d782f5849ba261625198d15f73f,tests: Use full paths.,Tue, 22 Dec 2015 23:09:35 -0500,Tue, 22 Dec 2015 23:09:35 -0500
+653a99a266288bd28240c260ee58bac4b9220b5a,Docker: Move back to root for context. Use context for Docker build.,Tue, 22 Dec 2015 23:06:00 -0500,Tue, 22 Dec 2015 23:06:00 -0500
+5ec35da6f248197517519ebdc4eacddf0428836b,Initial commit of tests for #13.,Tue, 22 Dec 2015 22:41:04 -0500,Tue, 22 Dec 2015 22:41:04 -0500
+507b27f0328c8e7f984035340150bf4666b8d957,Install numpy before other pip dependencies.,Tue, 22 Dec 2015 22:14:59 -0500,Tue, 22 Dec 2015 22:14:59 -0500
+122f70ce3bfe299a1ab0f1f6fd76873dae642979,Remove unused skimage dependency.,Tue, 22 Dec 2015 22:14:35 -0500,Tue, 22 Dec 2015 22:14:35 -0500
+fbde622805a0ed642fa914d93ffb7761d8247485,Demos: Remove sys.path appends and unused dlib imports.,Tue, 22 Dec 2015 21:33:27 -0500,Tue, 22 Dec 2015 21:33:27 -0500
+ec6aa45d890c5c0fd7774395eb424ca7b5713e6d,System-wide install of dlib and OpenFace.,Tue, 22 Dec 2015 20:58:06 -0500,Tue, 22 Dec 2015 20:58:06 -0500
+e2e292894b68de731165c199acbee51d44da6a92,setup.py: Correct url.,Tue, 22 Dec 2015 20:30:49 -0500,Tue, 22 Dec 2015 20:30:49 -0500
+b70dcdd0b6d32251dad1afa901631b4c9bbf37cd,Merge pull request #44 from yarnbasket/feature/setup.py,Tue, 22 Dec 2015 20:29:31 -0500,Tue, 22 Dec 2015 20:29:31 -0500
+7d49bef7587a194bf48ab65081bf3f348e9b583e,Fix pep8 issues.,Mon, 21 Dec 2015 19:09:54 -0500,Mon, 21 Dec 2015 19:09:54 -0500
+eecb0041e19568b2660eedadd998a1ed3a78ba55,Improvements to create-train-val-split.,Mon, 21 Dec 2015 18:08:39 -0500,Mon, 21 Dec 2015 18:08:39 -0500
+e90694fcba3422bc8467913996beed59ff61a8e3,nn4: Add LRN and remove 5x5 convolutions for #55.,Sun, 20 Dec 2015 22:23:15 -0500,Sun, 20 Dec 2015 22:29:55 -0500
+d69cd17d13809d65d850cd549ce5a089f63dbf47,Docs: Remove typo.,Sun, 20 Dec 2015 17:36:32 -0500,Sun, 20 Dec 2015 17:36:32 -0500
+027f9dcf8ebbbeb854f9ba8dd7ad9302ce3e0a81,Real-Time Web Demo: Simplify server initialization.,Sat, 19 Dec 2015 18:17:27 -0500,Sat, 19 Dec 2015 18:17:27 -0500
+7d739468367a7c2bbe06f8751c804540c442c911,Web demo: server.py -> websocket-server.py,Sat, 19 Dec 2015 17:46:57 -0500,Sat, 19 Dec 2015 17:46:57 -0500
+aec7de78dc15a59a149f1e971c88684241520499,Explictly set txaio.use_twisted.,Fri, 18 Dec 2015 10:51:40 -0500,Fri, 18 Dec 2015 10:52:36 -0500
+918d3af1416e3578e406b6a098ef999c6f330d08,Add port option to server.,Fri, 18 Dec 2015 10:47:40 -0500,Fri, 18 Dec 2015 10:52:36 -0500
+eea992b45824fede4b62c2dd3936984dae470d4b,Mention Python dependencies for training.,Thu, 17 Dec 2015 11:42:58 -0500,Thu, 17 Dec 2015 11:43:00 -0500
+33c2b687ed95b30f420a2dfdd8b31fe71c62805c,Link to cunn.,Thu, 17 Dec 2015 09:09:41 -0500,Thu, 17 Dec 2015 09:09:41 -0500
+92672ec4062648337983adde74a5d2fd92759a71,Merge.,Thu, 17 Dec 2015 09:06:46 -0500,Thu, 17 Dec 2015 09:06:46 -0500
+bf38abe8f9bf2c0e29f837b5ebbb7559d7e20505,Remove unused cudnn dependency.,Thu, 17 Dec 2015 09:04:46 -0500,Thu, 17 Dec 2015 09:04:46 -0500
+dff471987eba924979f3c9f56c0867c32cd9273b,Link to NVIDIA cuDNN.,Thu, 17 Dec 2015 08:53:00 -0500,Thu, 17 Dec 2015 08:53:00 -0500
+4a0449e44cbbe19c67e2da366e29a5a8f09c97e6,Correct cudnn package name.,Thu, 17 Dec 2015 08:46:17 -0500,Thu, 17 Dec 2015 08:46:17 -0500
+fe56897ddc75aabce1e1ddb4facb3b7e097da00a,Fix pep8 warning.,Wed, 16 Dec 2015 13:14:39 -0500,Wed, 16 Dec 2015 13:14:39 -0500
+163f06d32bf99303f0bf93ede214e996ee5aa1ec,Add hack for CentOS support for #66.,Wed, 16 Dec 2015 13:12:12 -0500,Wed, 16 Dec 2015 13:12:15 -0500
+1b9ad376ff692195aac8d41520c1db8e019fb647,Add timing information to classifier.py,Mon, 14 Dec 2015 11:53:11 -0500,Mon, 14 Dec 2015 11:53:15 -0500
+139cfb7756aa6c01d547c0a88cac939c6e88e926,tsne: Print where file is saved to.,Sat, 12 Dec 2015 16:30:16 -0500,Sat, 12 Dec 2015 16:30:18 -0500
+446436ced17e4ef9f3af74bfa6b2ea4329413c1f,align-dlib: Check if image was correctly loaded.,Sat, 12 Dec 2015 15:27:54 -0500,Sat, 12 Dec 2015 15:27:54 -0500
+244ac78e90893e2b24d049b36a0cee98813c46c5,Formatting.,Sat, 12 Dec 2015 13:45:54 -0500,Sat, 12 Dec 2015 13:45:54 -0500
+af575bdb7220d9bbddcaf87c2669aa2e68c1d9de,Update docs with new align-dlib interface.,Sat, 12 Dec 2015 13:43:30 -0500,Sat, 12 Dec 2015 13:43:30 -0500
+b9c848c8a29fe39fef27995daf3b3baf42fa0a84,Fix pep8 warning.,Fri, 11 Dec 2015 15:59:28 -0500,Fri, 11 Dec 2015 15:59:28 -0500
+c8a4f340954cdae73c54b9826abf5a23774d8853,Untested improvements to create-unknown-vectors.,Fri, 11 Dec 2015 15:55:56 -0500,Fri, 11 Dec 2015 15:56:00 -0500
+97cb800a40eb1fcbfa43b4d9b1e3500c6e50dcb7,Fix pep8 errors.,Fri, 11 Dec 2015 10:22:15 -0500,Fri, 11 Dec 2015 10:22:18 -0500
+ec7650cf739691f3a104683cb73cad1da705f4a6,Update server for the slightly modified alignment API.,Fri, 11 Dec 2015 10:21:01 -0500,Fri, 11 Dec 2015 10:21:01 -0500
+0e99d0c499b25265b1861ba25d474d3704c015c9,Merge branch 'experimental/align',Thu, 10 Dec 2015 21:09:01 -0500,Thu, 10 Dec 2015 21:09:01 -0500
+12a86489590c31ef17714354272b5cb60c00589b,Update demos with results from the new models.,Thu, 10 Dec 2015 21:05:52 -0500,Thu, 10 Dec 2015 21:05:55 -0500
+4a94b513143f62e3d7781b08883e8c4a0c2881eb,Add annotate-image util.,Thu, 10 Dec 2015 20:52:34 -0500,Thu, 10 Dec 2015 21:05:55 -0500
+d81f76e48af4e3f210ca2e0220e6ced821acea08,Update LFW results with changes from #50.,Thu, 10 Dec 2015 21:04:00 -0500,Thu, 10 Dec 2015 21:04:00 -0500
+05a1b87c6f4c1d9f9764a2aea1de7e856a59d229,Mention fblualib dependency in docs.,Tue, 8 Dec 2015 18:31:11 -0500,Tue, 8 Dec 2015 18:31:11 -0500
+08986266eadae67e50bf801c014979ccacdba9df,Correct names for #50.,Tue, 8 Dec 2015 17:42:27 -0500,Tue, 8 Dec 2015 17:42:27 -0500
+d6809b119e6dfbf11716de375dc7a0cc1ee982f5,Update align-dlib with new alignment code for #50.,Tue, 8 Dec 2015 17:04:57 -0500,Tue, 8 Dec 2015 17:04:57 -0500
+e5fedb125c0a0d2f854dd6e1cf803885dfa426f2,Update align-dlib with new alignment code for #50.,Tue, 8 Dec 2015 17:04:21 -0500,Tue, 8 Dec 2015 17:04:21 -0500
+a1a89ea65f3b43a1eb2ea7f2552682aee9c2a403,Remove skimage dependency for #50.,Tue, 8 Dec 2015 16:41:40 -0500,Tue, 8 Dec 2015 16:41:40 -0500
+a78043923b1819bc0931d132acf470bc5c2bfda4,Alignment improvements for #50.,Tue, 8 Dec 2015 16:29:09 -0500,Tue, 8 Dec 2015 16:29:09 -0500
+7fd4480161194b1b3f82260f3ae34ceaf6a2c2fd,Docs: faq: Formatting.,Sun, 6 Dec 2015 17:23:44 -0500,Sun, 6 Dec 2015 17:23:44 -0500
+b5d77344cacff5959372bac76aac0fd5afcdcc98,Add improved alignment code for #50. Accuracy not yet tested.,Sun, 6 Dec 2015 16:46:25 -0500,Sun, 6 Dec 2015 16:46:25 -0500
+4962a4876d978003d900f623b00bcb482946a17d,Docs: Initial commit of FAQ.,Sun, 6 Dec 2015 16:20:25 -0500,Sun, 6 Dec 2015 16:20:25 -0500
+0a245693548c4f379fbedc6b329c3a2239d22d5e,Move repo contents from docs to README.,Sat, 5 Dec 2015 09:09:02 -0500,Sat, 5 Dec 2015 09:09:02 -0500
+0701e69db8051126b6a92d6e6e16dabcc48d5ea6,Docs: Link to accuracy page.,Fri, 4 Dec 2015 03:14:37 -0500,Fri, 4 Dec 2015 03:14:37 -0500
+5e6977c8cd841caa1b8a6feac5698d1bf638b4b6,Classifier demo: Check the mode before checking classifierModel.,Thu, 3 Dec 2015 13:47:37 -0500,Thu, 3 Dec 2015 13:47:37 -0500
+0efe4fe391dd7a3a5f7d68be0503c8c0f92f2a4d,Docs: Setup: Add note about Docker memory.,Thu, 3 Dec 2015 13:40:35 -0500,Thu, 3 Dec 2015 13:40:35 -0500
+6742ef326f6c844bfca20a71cc703f4c2d8bb3f8,Docs: Update links to other projects in 'accuracy',Wed, 2 Dec 2015 03:28:53 -0500,Wed, 2 Dec 2015 03:28:53 -0500
+cf49f815c62e052b6fabfe924de2e3ec83b646bc,docs: Remove semicolon from for loop for bash,Tue, 1 Dec 2015 16:29:52 -0500,Tue, 1 Dec 2015 16:29:52 -0500
+44e5a6401d2c31491573feba253ba314995fe84f,Improve web demo docs.,Mon, 30 Nov 2015 17:33:27 -0500,Mon, 30 Nov 2015 17:33:27 -0500
+98002816f881a4b1ca759cdbd530db6db5f9d43f,Merge pull request #61 from ZhihengCV/master,Sat, 28 Nov 2015 00:21:38 -0500,Sat, 28 Nov 2015 00:21:38 -0500
+334461d34f06621e2d984c1dc6c304ce86681d5a,solve the memory leak problem of web-demo,Sat, 28 Nov 2015 11:13:40 +0800,Sat, 28 Nov 2015 11:13:40 +0800
+09577c5d064e615ebf15b804c48084ad9df176be,Automatically switch video feeds.,Thu, 26 Nov 2015 15:21:18 -0500,Thu, 26 Nov 2015 15:21:18 -0500
+f1f4f635985fd2c4a6533953332e6fb261be9e82,Web Demo: Show fiducial points and use tabs instead of scolling.,Thu, 26 Nov 2015 13:31:27 -0500,Thu, 26 Nov 2015 13:31:27 -0500
+c48255a236c4cce54395db50c06e668b220a1544,Add better error handling when the Torch model is passed as the classification model.,Tue, 24 Nov 2015 09:57:33 -0500,Tue, 24 Nov 2015 09:57:33 -0500
+df89d749d13890fd00b0afc193dd1245bea055a9,Clarify training procedure.,Mon, 23 Nov 2015 16:12:59 -0500,Mon, 23 Nov 2015 16:12:59 -0500
+bcf69ec2bb2fb8ac41ba7c934c70368d71891fb3,Docs: Tweak setup.,Mon, 23 Nov 2015 15:35:27 -0500,Mon, 23 Nov 2015 15:35:29 -0500
+509cea2974c2caa62f52e4ef3d01dee04a16b6e7,forwardImage: Check that the input is not None.,Fri, 20 Nov 2015 14:10:19 -0500,Fri, 20 Nov 2015 14:10:31 -0500
+0a0cae4889aa4cfba7e2afc3430503e4bae6686e,Add non-default test code using hard negatives.,Tue, 10 Nov 2015 15:29:13 -0500,Fri, 20 Nov 2015 14:10:31 -0500
+4193bf3eedad49ad1395d9e898d14207a3440ec9,Add link to deep funnelling.,Thu, 19 Nov 2015 14:00:17 -0500,Thu, 19 Nov 2015 14:00:17 -0500
+d451c2efe3b56ba7e3e66cacd8e61ae5cac5858e,Mention research support in the README and docs.,Sat, 14 Nov 2015 15:35:42 -0500,Sat, 14 Nov 2015 15:35:42 -0500
+7246ed809f5e4ded642b26cb0fe00eb6f87f1d39,Add more Torch dependencies to the docs and Dockerfile for completeness.,Fri, 13 Nov 2015 16:52:33 -0500,Fri, 13 Nov 2015 16:52:33 -0500
+67f676417fad60f1c05c41d682b1495f64d055af,Minor doc tweaks.,Thu, 12 Nov 2015 18:51:56 -0500,Thu, 12 Nov 2015 18:51:56 -0500
+8560e23366a2ac85486adc63e51158f2033582aa,Update citation information.,Wed, 11 Nov 2015 11:51:56 -0500,Wed, 11 Nov 2015 11:51:56 -0500
+a10fa332e3e5dc889b3d7033dc3b0ff3ce31b41a,Improve tsne example docs.,Wed, 11 Nov 2015 11:20:27 -0500,Wed, 11 Nov 2015 11:20:27 -0500
+7ba9ed8727020618ae3f633fe6876a788ca2ec78,Docs: Mention batch-represent with the classification demo.,Wed, 11 Nov 2015 11:00:21 -0500,Wed, 11 Nov 2015 11:00:21 -0500
+9d95ac35286cd73bb7815856738db533dbc8f9a3,Docs: Better distinguish between DNN and classification models.,Tue, 10 Nov 2015 14:31:24 -0500,Tue, 10 Nov 2015 14:31:24 -0500
+62f6fc9215f14161b98272ffa3f4d28ffd3a3d00,Add note to training new models.,Tue, 10 Nov 2015 10:38:27 -0500,Tue, 10 Nov 2015 10:38:27 -0500
+8ce5a137e0de2b48bf5f0c65cd47c25d016d1704,Docs: Add note about only testing the web demo in Chrome/OSX.,Tue, 10 Nov 2015 10:26:35 -0500,Tue, 10 Nov 2015 10:26:35 -0500
+2e8466afb1f68cadd722c1d949d5c30f18292e53,Make suggestion 1 the default option. #48.,Mon, 9 Nov 2015 15:58:01 -0500,Mon, 9 Nov 2015 15:58:05 -0500
+e067ea3198a3c6105cae10049ecaf98a4636dbb6,Docs: Training: Add note about GPU memory.,Mon, 9 Nov 2015 12:35:29 -0500,Mon, 9 Nov 2015 12:35:29 -0500
+4462c391a6d9c1c24f51ebcf303eb0105a354e02,batch-represent: Set the default tensor type.,Mon, 9 Nov 2015 11:12:10 -0500,Mon, 9 Nov 2015 11:12:10 -0500
+5a5fc588b6d7fbcbe30abd89e246e17f5e43c166,Docs: Mention how to restart training.,Mon, 9 Nov 2015 08:26:33 -0500,Mon, 9 Nov 2015 08:26:33 -0500
+aed184d860d8caa64db661f6f4e10e61d1f664ca,Training: Suggestion 2 from @melgor in #48.,Sun, 8 Nov 2015 17:08:06 -0500,Sun, 8 Nov 2015 17:08:06 -0500
+30f754176c889c8777299037e1359ddd2bf8ff9c,Training: Handle peoplePerBatch > nClasses edge case when nDonkey != -1.,Sat, 7 Nov 2015 14:35:49 -0500,Sat, 7 Nov 2015 14:35:49 -0500
+ae348c22f9ba3ce48b65013b9502c7ae7667e9bc,Training: Fix error with tensors being unexpectedly doubles.,Fri, 6 Nov 2015 17:09:47 -0500,Fri, 6 Nov 2015 17:09:47 -0500
+e2b72e3b7cba4aefe786ba293305123eb0f5b9a9,Docs: Phrasing.,Fri, 6 Nov 2015 14:49:42 -0500,Fri, 6 Nov 2015 14:49:42 -0500
+d481ace0f52dabd6673fbcadac0f59f8cf3f2323,Training: Add note metadata caches.,Fri, 6 Nov 2015 13:57:34 -0500,Fri, 6 Nov 2015 13:57:34 -0500
+9bef1e8a604e57c99ac8ff9d90259012b96be92b,Train: Detect and correct edge case when peoplePerBatch > number of classes.,Fri, 6 Nov 2015 12:10:25 -0500,Fri, 6 Nov 2015 12:10:25 -0500
+27e2172ea0899d89b7d58f2c95cba844a1d296de,Fix broken link to the Dockerfile.,Thu, 5 Nov 2015 08:58:28 -0500,Thu, 5 Nov 2015 08:58:28 -0500
+0831c9e0694fa9d5e83718493b2553f62bbd1f9f,Fix alignment references.,Thu, 5 Nov 2015 08:55:03 -0500,Thu, 5 Nov 2015 08:55:03 -0500
+5adf826d9d9b9c275bba62e5b5c350e142781ab8,Mention #42 in the setup guide.,Wed, 4 Nov 2015 16:05:33 -0500,Wed, 4 Nov 2015 16:05:33 -0500
+3607e23887ae3ca9d687a6eb05bd2c6df5b3e701,Improve web demo docs.,Wed, 4 Nov 2015 15:59:04 -0500,Wed, 4 Nov 2015 15:59:04 -0500
+b3f1748ac4d97c87299c943a83d93452363f6d4d,Formatting.,Wed, 4 Nov 2015 15:30:38 -0500,Wed, 4 Nov 2015 15:30:38 -0500
+bde27f16e9a6cb46bedeeab70dfacc8473f9a959,Remove CNAME.,Tue, 3 Nov 2015 16:23:11 -0500,Tue, 3 Nov 2015 16:23:11 -0500
+cd246c801bd5a76d69682ec197a5751fe3ac4610,Use mkdocs theme for better mobile support.,Tue, 3 Nov 2015 16:22:36 -0500,Tue, 3 Nov 2015 16:22:36 -0500
+bd7be7d9ed994657f9f4b00a1191bf036d50f4fb,mkdocs: Correct js->javascript.,Mon, 2 Nov 2015 18:55:02 -0500,Mon, 2 Nov 2015 18:55:02 -0500
+54be389f25f2e7b91ed767e840a3942e5a20bc10,Docs: Add analytics.,Mon, 2 Nov 2015 18:40:53 -0500,Mon, 2 Nov 2015 18:40:53 -0500
+a6a722e484bb27069b7406e5fffac4941baa0307,Doc and README tweaks.,Mon, 2 Nov 2015 17:41:09 -0500,Mon, 2 Nov 2015 17:41:09 -0500
+5ee5476afa0e439f2ed79a9dde781b3e1aa1ad0a,Docs: Add CNAME.,Mon, 2 Nov 2015 17:32:51 -0500,Mon, 2 Nov 2015 17:32:51 -0500
+6c7e1afaea3020e1bb05e000f27c8375b38e178d,Ignore mkdocs' site dir.,Mon, 2 Nov 2015 17:32:00 -0500,Mon, 2 Nov 2015 17:32:00 -0500
+1e966337ebf20fe4adbb09d868e77a874771c952,Update docs.,Mon, 2 Nov 2015 17:30:14 -0500,Mon, 2 Nov 2015 17:30:14 -0500
+3139fad63fe747757af25dac200f2d89f5ccd74f,Improve web demo docs.,Mon, 2 Nov 2015 15:06:24 -0500,Mon, 2 Nov 2015 15:06:24 -0500
+724e8079806304247d6871676df227591373e60b,Remove follow badge.,Mon, 2 Nov 2015 12:27:51 -0500,Mon, 2 Nov 2015 12:27:51 -0500
+513ad572447ae79507410890df06cdfb736b49cc,Web Demo: Use a non-interactive backend.,Mon, 2 Nov 2015 11:15:02 -0500,Mon, 2 Nov 2015 11:15:02 -0500
+ae61278fb2b953cbfcd3b7f7c428ba019adc7fcd,Docs: Attempt to fix images.,Mon, 2 Nov 2015 07:58:51 -0500,Mon, 2 Nov 2015 07:58:51 -0500
+ccfc9ecaa8b29dc624729cefc5f984b1937e720e,Fix broken link for #29.,Sun, 1 Nov 2015 08:13:05 -0500,Sun, 1 Nov 2015 08:13:05 -0500
+b854c337811d2a12a2c699783ddbf922558e5887,Fix broken links for #29.,Sun, 1 Nov 2015 08:09:21 -0500,Sun, 1 Nov 2015 08:09:21 -0500
+92f57ff884f8d43f478d7e414de09d0a735eabd3,Fix broken links.,Sun, 1 Nov 2015 08:02:54 -0500,Sun, 1 Nov 2015 08:02:54 -0500
+3364775fd74f1fc9efee46daae670226c72c55d3,Formatting.,Sun, 1 Nov 2015 08:00:02 -0500,Sun, 1 Nov 2015 08:00:02 -0500
+4d965d36e42af39e4260e5a94dba24788f33ea7c,Add doc badge and fix link for #29.,Sun, 1 Nov 2015 07:58:51 -0500,Sun, 1 Nov 2015 07:58:51 -0500
+046033201b22ad2005c6ae1e02d27df02b95a1fe,Initial commit of mkdocs for #29.,Sun, 1 Nov 2015 07:52:46 -0500,Sun, 1 Nov 2015 07:52:46 -0500
+bfc105f9a33febd915e426bb9ea782206f910c59,Add notes about running the web demo in Docker.,Sat, 31 Oct 2015 17:15:08 -0400,Sat, 31 Oct 2015 17:15:08 -0400
+f195085d70fa918343cbb869ccd905280728332f,Print to the browser's console on websocket error.,Sat, 31 Oct 2015 17:12:39 -0400,Sat, 31 Oct 2015 17:12:47 -0400
+a62c333078ac9cfee7832e298e8ee485fa477f2f,Expose port 9000 from the docker container.,Sat, 31 Oct 2015 17:10:59 -0400,Sat, 31 Oct 2015 17:12:47 -0400
+1fb67767b75800bb369ac17309f8d77702b88c6c,Correct calls to image.load,Tue, 20 Oct 2015 11:34:52 -0400,Sat, 31 Oct 2015 17:12:47 -0400
+0771ba87ba2f223d8347a4b4bc29e4360b84b7c3,Improve documentation on using Docker with the web demo.,Sat, 31 Oct 2015 12:09:01 -0400,Sat, 31 Oct 2015 12:09:01 -0400
+770511d388b80974691d5520d7b1e614f792f3f5,Merge pull request #45 from yarnbasket/feature/fix_torch_error_reporting,Fri, 30 Oct 2015 15:03:18 -0400,Fri, 30 Oct 2015 15:03:18 -0400
+fda0496fdc06e31c722a4c6c534588c03d315218,linting errors, try #2,Fri, 30 Oct 2015 12:47:04 -0400,Fri, 30 Oct 2015 12:47:04 -0400
+f7baa6fa9af36e3b8a1199d8c0a3c0ef61d80028,linting errors,Fri, 30 Oct 2015 12:42:49 -0400,Fri, 30 Oct 2015 12:42:49 -0400
+af2169765c1210729b7fbdfcd0fcba4f62472543,fix torch error reporting,Fri, 30 Oct 2015 12:40:47 -0400,Fri, 30 Oct 2015 12:40:47 -0400
+10451f5c29d4688d2fabf148d503dacc43d1659d,setup.py,Fri, 30 Oct 2015 12:34:09 -0400,Fri, 30 Oct 2015 12:34:09 -0400
+986db491be8068908397e1a9f4e48bc2db29a650,align-dlib: Fix logic for debug images for #43.,Thu, 29 Oct 2015 15:24:16 -0400,Thu, 29 Oct 2015 15:24:22 -0400
+f9170eb3aa8d42120a7357c969dea10406084655,Mention CUDA dependency in the training code for #41.,Thu, 29 Oct 2015 08:41:21 -0400,Thu, 29 Oct 2015 08:41:21 -0400
+1ab061d23d32265c4cfe89f82a4f989bcdc2f345,Check Lua subprocess before trying to interact with it.,Thu, 29 Oct 2015 08:35:44 -0400,Thu, 29 Oct 2015 08:35:44 -0400
+7bd9405a74f19e7d56d9ab97e1022372daa14929,Fix variable type for #40.,Thu, 29 Oct 2015 07:50:15 -0400,Thu, 29 Oct 2015 07:50:15 -0400
+ce506d4f5c86aaca1002fb76192b0fe9c0e2532e,Merge pull request #38 from harshjv/master,Wed, 28 Oct 2015 09:18:25 -0400,Wed, 28 Oct 2015 09:18:25 -0400
+f2f978b56f37c1aaebdeaa544f60449428f2c8da,Update Dockerfile reference to docker/Dockerfile,Wed, 28 Oct 2015 14:06:17 +0530,Wed, 28 Oct 2015 14:06:17 +0530
+8301046b06ae5614c4ede113a91475a1089ebf08,Move Dockerfile to an empty folder Clear apt cache and tmp files after package installation via apt,Wed, 28 Oct 2015 14:03:40 +0530,Wed, 28 Oct 2015 14:03:40 +0530
+30eb5ca08300203be511ad0bd9cea80557f03e55,README: Recommend Docker and add note about python on OSX.,Tue, 27 Oct 2015 14:06:00 -0400,Tue, 27 Oct 2015 14:06:00 -0400
+948bc2d3e9592f92075409ce99df40d5f084262a,Training: Update for_each call to apply.,Mon, 26 Oct 2015 17:41:36 -0400,Mon, 26 Oct 2015 17:41:46 -0400
+59002cdfe50eecb7ded0abaafbab6fce2b04a090,Training: Remove fbnn's Optim dependency.,Sun, 25 Oct 2015 13:05:00 -0400,Mon, 26 Oct 2015 17:41:46 -0400
+4f85fa8ebb7918313609fd7c3902ab7fc53fe326,README: Clarify loss plot.,Mon, 26 Oct 2015 12:40:55 -0400,Mon, 26 Oct 2015 12:40:55 -0400
+dcba98845814736b0b35871538fab8f49d8b0a73,Add VGG's triplet accuracy.,Sat, 24 Oct 2015 14:41:17 -0400,Sat, 24 Oct 2015 14:41:17 -0400
+45066b0876de96e89468ea0a13bc64586832c349,README: Typo.,Sat, 24 Oct 2015 14:40:08 -0400,Sat, 24 Oct 2015 14:40:08 -0400
+b0ee9ffd6ad0aa66c57ba2b90bfa07cdcef4eedb,README: Typo.,Sat, 24 Oct 2015 14:39:27 -0400,Sat, 24 Oct 2015 14:39:27 -0400
+8b693e761a9ef4ae64f29dd58e0a6acc4b8fd2fc,README: Formatting.,Sat, 24 Oct 2015 14:39:12 -0400,Sat, 24 Oct 2015 14:39:12 -0400
+6b4503c5c111217f2b20c91e5679a3baf40a0a1d,Tweak references to other open source projects for #7.,Sat, 24 Oct 2015 14:38:01 -0400,Sat, 24 Oct 2015 14:38:01 -0400
+87ad0f2de316ec3b550a7c8ab9c06f1f42974f29,Reference other open source projects for #7.,Sat, 24 Oct 2015 14:27:55 -0400,Sat, 24 Oct 2015 14:27:55 -0400
+caf10c533f440dcc5fc16f9ba0b8df3809c9cc7a,README: Fix docker-machine typo.,Fri, 23 Oct 2015 11:59:52 -0400,Fri, 23 Oct 2015 11:59:52 -0400
+5c4e69239f8a58468168a142ef789936f2ccc9da,Make debugging the Torch subprocess easier for #34.,Thu, 22 Oct 2015 17:20:53 -0400,Thu, 22 Oct 2015 17:21:03 -0400
+b21295d9308775b3df08c5ea8156f7e4949a0029,Use a better placeholder to prevent issues like #27,Wed, 21 Oct 2015 16:38:51 -0400,Wed, 21 Oct 2015 16:38:54 -0400
+b41f9a289fa5ae9237bf7ab63ff3a1a1583742b3,Correct call to image.load for #26.,Tue, 20 Oct 2015 11:20:32 -0400,Tue, 20 Oct 2015 11:20:36 -0400
+131ccebb3aa2ae0b22287fcecfb54deb0f6c1274,Add a few setup notes to the README.,Tue, 20 Oct 2015 10:00:03 -0400,Tue, 20 Oct 2015 10:00:03 -0400
+f2ad8309014b2c5042f774ef83c5110c025dabbb,Clarify ~/src for #27.,Mon, 19 Oct 2015 06:31:05 -0400,Mon, 19 Oct 2015 06:31:05 -0400
+0f5d3e1221e36714d9d78be6b77b4bb9b43a4253,Add gitter badge.,Sun, 18 Oct 2015 12:16:27 -0400,Sun, 18 Oct 2015 12:16:27 -0400
+8f1121c7b217dcca2d0c9689a653bb7ccc554ed3,Clarify structure of the raw data directory for #22.,Sun, 18 Oct 2015 12:07:39 -0400,Sun, 18 Oct 2015 12:07:39 -0400
+322df25984494d5cfc29b8f5465f619148f94b33,Add note to the README about opencv/dlib on OSX for #21.,Sun, 18 Oct 2015 12:00:20 -0400,Sun, 18 Oct 2015 12:00:20 -0400
+4d7400334c684a608ce00f4d8924c67ec588429c,README: Add pandas python dependency.,Sun, 18 Oct 2015 11:22:58 -0400,Sun, 18 Oct 2015 11:41:44 -0400
+38660b5ef26176dfde3922601d6afa438b1d274f,Demo: Show that the connection is local.,Sat, 17 Oct 2015 14:24:19 -0400,Sat, 17 Oct 2015 14:24:19 -0400
+85382938042d4d5736b8c58198a3167601d5ec43,Web demo: Fix edge case in server.py,Sat, 17 Oct 2015 14:18:24 -0400,Sat, 17 Oct 2015 14:19:32 -0400
+f615d6b53209e4a2f01132dd6dd7d88cbe2dd3cd,Make dlib paths consistent.,Sat, 17 Oct 2015 14:18:20 -0400,Sat, 17 Oct 2015 14:19:32 -0400
+0cf59629eae7ccb0353df7e7ecf57eccf70ebc17,Don't ignore sigint,Sat, 17 Oct 2015 13:38:14 -0400,Sat, 17 Oct 2015 13:38:14 -0400
+eb37050c0e038c0449b544e8d4babe02a068919f,Indicate network and disk sizes in the README and get-models.sh,Sat, 17 Oct 2015 13:26:48 -0400,Sat, 17 Oct 2015 13:26:48 -0400
+1be4123c579ba56ff7bce33df95d66499beb35cb,Improve get-models.sh,Sat, 17 Oct 2015 13:15:39 -0400,Sat, 17 Oct 2015 13:15:39 -0400
+8ad8bcf685c41ca0944264f3b69e6ec4afe2ec2e,Fix typo found by @HugoGiraudel,Fri, 16 Oct 2015 18:20:49 -0400,Fri, 16 Oct 2015 18:20:49 -0400
+ade9e2dbd8dcc10ff15191b8eee21286367df9de,Link to get-models.sh,Fri, 16 Oct 2015 10:31:41 -0400,Fri, 16 Oct 2015 10:31:41 -0400
+7e5274185e0a8a226e49c6701423f95684089815,README: Mention to verify the md5 checksums of the models,Fri, 16 Oct 2015 09:07:14 -0400,Fri, 16 Oct 2015 09:07:20 -0400
+d02acc5cb7cb7672dbce0112ccf7c743f3c633e2,README: Slightly clarify for #19.,Fri, 16 Oct 2015 08:41:31 -0400,Fri, 16 Oct 2015 08:45:13 -0400
+2aea81c58bfa1ddb459ec23549d55b4f9a7ad69b,Fix pep8 warning.,Thu, 15 Oct 2015 23:05:59 -0400,Thu, 15 Oct 2015 23:05:59 -0400
+c4f78bbfbb61c04575f317123af4ecc8e9addf2e,Add error handling to TorchWrap for cases like #14.,Thu, 15 Oct 2015 23:00:31 -0400,Thu, 15 Oct 2015 23:00:35 -0400
+2a53c370bfa7b9ced37096144d3e5b9ce7e45364,Further clarifications for #10.,Thu, 15 Oct 2015 20:59:37 -0400,Thu, 15 Oct 2015 20:59:37 -0400
+d114f7bc111e6b569c5ab4a30180c1407cd8dd21,Update DOI and BibTeX entry for new (minor) release.,Thu, 15 Oct 2015 11:50:40 -0400,Thu, 15 Oct 2015 11:50:40 -0400
+e19042d085fcf03ec0d04b80c4b9047a35a04ce4,Update badges in README.,Thu, 15 Oct 2015 11:27:34 -0400,Thu, 15 Oct 2015 11:27:34 -0400
+eb35f7522116f9eda94f792ce62f1952774e3f82,Update badges in README.,Thu, 15 Oct 2015 11:27:18 -0400,Thu, 15 Oct 2015 11:27:18 -0400
+357e7bca7307fe66b9723d3257ab5bc7e7986ecd,Update CHANGELOG for 0.1.1,Thu, 15 Oct 2015 11:25:58 -0400,Thu, 15 Oct 2015 11:25:58 -0400
+0004721e3ba1727a13224e1bd5c1d03c0a84d29c,Update badges in README.,Thu, 15 Oct 2015 11:25:46 -0400,Thu, 15 Oct 2015 11:25:46 -0400
+9507f224449b0549f303828accc63809a81af1b3,Fix pep8 warnings.,Thu, 15 Oct 2015 11:16:09 -0400,Thu, 15 Oct 2015 11:16:09 -0400
+3dba58e0ef1dd15bd9b10c933214d859c51b4e6c,Fix code to output debug images when aligning.,Thu, 15 Oct 2015 11:13:43 -0400,Thu, 15 Oct 2015 11:13:46 -0400
+10b5d020aaccd915ae15338392a00419eef1e0d9,Correct nn1 to nn2.,Tue, 13 Oct 2015 22:55:36 -0400,Thu, 15 Oct 2015 11:13:46 -0400
+3149ec53c8490700dacb1f51755a3fe4eeeb37fe,Fix model definition names in the header comments.,Tue, 13 Oct 2015 22:54:45 -0400,Thu, 15 Oct 2015 11:13:46 -0400
+e6028e3b5bd93f34ff82ee06509db75ceca3ffc1,Further clarifications for #10.,Thu, 15 Oct 2015 10:36:15 -0400,Thu, 15 Oct 2015 10:36:15 -0400
+227887bcd8a013f62e0b6916f9a7e187f2ce402e,Further clarifications for #10.,Thu, 15 Oct 2015 10:35:06 -0400,Thu, 15 Oct 2015 10:35:06 -0400
+ef614699cc4012606159a1c2359ac55ec2f30acf,Resolves #10.,Thu, 15 Oct 2015 10:29:23 -0400,Thu, 15 Oct 2015 10:29:23 -0400
+e5d18d5774f61c6c6809c56b4162fe29b0120c75,README: Fix typo.,Thu, 15 Oct 2015 08:42:34 -0400,Thu, 15 Oct 2015 08:42:34 -0400
+bcbf6271ad3cb438a00c1220286cd3f393e6d292,README: Clarify instructions for the web demo.,Thu, 15 Oct 2015 05:31:54 -0400,Thu, 15 Oct 2015 05:31:54 -0400
+399165c52cfbcc5435ec0b34d77f043548ec81ad,README: Improve the instructions for setting up the web demo.,Wed, 14 Oct 2015 17:11:33 -0400,Wed, 14 Oct 2015 17:11:33 -0400
+abe9853a420b89b3372c997c2d9e0ef197169706,README: Link to Torch's website in the introduction.,Wed, 14 Oct 2015 11:51:46 -0400,Wed, 14 Oct 2015 11:51:46 -0400
+0c62de62dcceee9c80ee75e7411448e78e8aef1c,Fix pep8 warnings.,Tue, 13 Oct 2015 22:34:30 -0400,Tue, 13 Oct 2015 22:34:30 -0400
+12c9212f1cede2a8840f6ccfd86324cfda66bebf,Add script to prune directories for training.,Tue, 13 Oct 2015 22:29:03 -0400,Tue, 13 Oct 2015 22:29:03 -0400
+51f66d87920e6d54e3c79041ba4d60a143757ca5,README: Clarify that the classifier doesn't know John Lennon.,Tue, 13 Oct 2015 17:46:53 -0400,Tue, 13 Oct 2015 17:46:53 -0400
+3d968c0ef525977651513443c1c0383fd8112e08,Fix other link to YouTube video.,Tue, 13 Oct 2015 17:40:11 -0400,Tue, 13 Oct 2015 17:40:11 -0400
+d23cb565cb0dbcdd7f191905568259f607d99b67,Fix link to YouTube video.,Tue, 13 Oct 2015 17:22:45 -0400,Tue, 13 Oct 2015 17:22:45 -0400
+240a5a98da8e3b7a472effd33a3c15d27cbfa40a,Tweak README.,Tue, 13 Oct 2015 16:18:11 -0400,Tue, 13 Oct 2015 16:18:11 -0400
+faea17de0e61eeaafdc70dc660822ecd82e0aea9,README: Fix BibTeX tag.,Tue, 13 Oct 2015 15:46:12 -0400,Tue, 13 Oct 2015 15:46:12 -0400
+c3525e06d9deec29b9320a39776283bd2ffd0cb1,Update runtimes with optimized nn.Normalize,Tue, 13 Oct 2015 15:18:52 -0400,Tue, 13 Oct 2015 15:18:52 -0400
+901a6f98b94ff71b763fcd87af16ee1a94a1238b,profile-network: Default to 500 iterations.,Tue, 13 Oct 2015 15:18:47 -0400,Tue, 13 Oct 2015 15:18:47 -0400
+a13f820b102f1d36ca2e3a7cb66c347030fb62c7,README: Update stale values to values from the released model.,Tue, 13 Oct 2015 14:26:21 -0400,Tue, 13 Oct 2015 14:26:24 -0400
+0ac8dbd880500cdbcf48c5b84058ab349d99115e,Dockerfile: Include pandas.,Tue, 13 Oct 2015 14:25:49 -0400,Tue, 13 Oct 2015 14:26:24 -0400
+70b33a0563f3b8b8979d34ee1382900fe95fe03f,Fix broken links in README.,Tue, 13 Oct 2015 10:00:34 -0400,Tue, 13 Oct 2015 10:00:34 -0400
+df3ee10dc165589e4a7ae7c31dcb4ee38680df4d,Update README.,Tue, 13 Oct 2015 09:55:00 -0400,Tue, 13 Oct 2015 09:55:00 -0400
+90097f6ed89a5fd120c3b38ae32273243c2e6912,Update cloc.sh,Tue, 13 Oct 2015 08:03:08 -0400,Tue, 13 Oct 2015 08:03:08 -0400
+828c71025d241b2bcc70acc75bd049eef8a9f236,README: Formatting.,Tue, 13 Oct 2015 08:02:12 -0400,Tue, 13 Oct 2015 08:02:12 -0400
+9a67ec8c5cb8e709ce21f225f6f5517348be75c6,README: Formatting.,Tue, 13 Oct 2015 08:01:59 -0400,Tue, 13 Oct 2015 08:01:59 -0400
+6b1eeb207580b056e4008535470f30d26f4959a8,Add DOI for citations.,Tue, 13 Oct 2015 08:01:43 -0400,Tue, 13 Oct 2015 08:01:43 -0400
+b1e1a2d1e173843fd2da95cbfcfeba8e4ae22969,Add CHANGELOG.md,Tue, 13 Oct 2015 07:46:15 -0400,Tue, 13 Oct 2015 07:46:15 -0400
+719060c2137ad5ea2c1a8647c3353fb8e173a072,Add Travis badge.,Tue, 13 Oct 2015 07:45:20 -0400,Tue, 13 Oct 2015 07:45:20 -0400
+58933774c5bff3826978de6bc9701b703b2dbdb2,Small pep8 fixes.,Tue, 13 Oct 2015 07:40:47 -0400,Tue, 13 Oct 2015 07:40:47 -0400
+fcc5b54524e130ead0e6f0024ebf1a9623a759a8,Add simple .travis.yml for pep8 checks.,Tue, 13 Oct 2015 07:37:40 -0400,Tue, 13 Oct 2015 07:37:40 -0400
+2f80e4c6a54be0dcd0780a1aaee5320781282d56,Small pep8 fixes.,Tue, 13 Oct 2015 07:37:27 -0400,Tue, 13 Oct 2015 07:37:27 -0400
+1f2ce4cac1a0d9d60a6fce24696b2f759804265e,README: Add 'Visualizing layer outputs',Tue, 13 Oct 2015 02:28:16 -0400,Tue, 13 Oct 2015 02:28:19 -0400
+f6e3e438c36f760ae122480cdba134c4ace3f1a2,Update align-dlib to new interface.,Tue, 13 Oct 2015 02:22:33 -0400,Tue, 13 Oct 2015 02:28:19 -0400
+119c3c826d969f94811423cfb292d4d36ea3c404,Add vis-outputs demo.,Tue, 13 Oct 2015 02:22:02 -0400,Tue, 13 Oct 2015 02:28:19 -0400
+f648180b8c8bd382d0fdf90c7928ebf037bffd22,Add filter outputs of Lennon.,Tue, 13 Oct 2015 02:21:15 -0400,Tue, 13 Oct 2015 02:21:15 -0400
+0cb253d14e53a13c39c9691a442f4a924afd3fcd,Update README.,Mon, 12 Oct 2015 17:12:00 -0400,Mon, 12 Oct 2015 17:12:00 -0400
+25a96b6fe99bba33c4f36c333376eea243302580,Reorganize sections in the README.,Mon, 12 Oct 2015 17:03:59 -0400,Mon, 12 Oct 2015 17:03:59 -0400
+8dc0455d3413ad481f898ef7ac687513e75ede36,Fix command in README.,Mon, 12 Oct 2015 17:02:10 -0400,Mon, 12 Oct 2015 17:02:10 -0400
+0d500b2cddecef9bf5c22bb8aa577c3451ab4654,README: Add extra digit to AUC for consistency.,Mon, 12 Oct 2015 16:56:28 -0400,Mon, 12 Oct 2015 16:56:28 -0400
+b226f0fca982c6269c05e161366931fe5e3fca79,Update LFW ROC plot.,Mon, 12 Oct 2015 16:55:50 -0400,Mon, 12 Oct 2015 16:55:50 -0400
+ef14b3e4b38ca465086fd51b4e4c2865300e622b,LFW: AUC: Use 3 digits.,Mon, 12 Oct 2015 16:55:18 -0400,Mon, 12 Oct 2015 16:55:18 -0400
+a7de80b529223fcd1662531a0952a72c8203bedf,LFW: Make reference line dotted. Slight alpha on DeepFace line.,Mon, 12 Oct 2015 16:52:06 -0400,Mon, 12 Oct 2015 16:52:06 -0400
+c739a3cde00da2d407bb0b015cc1e319884b3c93,Tweak README and get-models.,Mon, 12 Oct 2015 13:18:23 -0400,Mon, 12 Oct 2015 13:18:23 -0400
+5ca23547fcae51e922de9e7e261fffec39f28e58,Fix some pep8 warnings.,Mon, 12 Oct 2015 11:30:29 -0400,Mon, 12 Oct 2015 11:30:29 -0400
+115efdd255a60453ff89d439e52cdec60ead5a90,Update README.,Sun, 11 Oct 2015 18:24:54 -0400,Sun, 11 Oct 2015 18:24:54 -0400
+31b0466ae74092b7f74b52b4b20def36ffae8094,README: Formatting.,Sun, 11 Oct 2015 17:36:34 -0400,Sun, 11 Oct 2015 17:36:34 -0400
+5d40b1f8d990a2f7f7f28bc3c730112bbeb223d4,README: Formatting.,Sun, 11 Oct 2015 17:36:09 -0400,Sun, 11 Oct 2015 17:36:09 -0400
+71be06d81e8a2adb16f4f754f62aa25e3054a689,Tweak classifier.py interface and show usage in the README.,Sun, 11 Oct 2015 17:35:50 -0400,Sun, 11 Oct 2015 17:35:50 -0400
+23f0860e47ffd41c69a3bde41118d07c555a1f8a,Tweak README.,Sun, 11 Oct 2015 17:27:05 -0400,Sun, 11 Oct 2015 17:27:05 -0400
+d518b15ffa8286e98ec1577e5763078ad7472a7b,Update link to YouTube video.,Sun, 11 Oct 2015 17:13:48 -0400,Sun, 11 Oct 2015 17:13:48 -0400
+4ee692ca49229ce2e0ed461ae1fd575845a3831b,Update link to YouTube video.,Sun, 11 Oct 2015 17:08:34 -0400,Sun, 11 Oct 2015 17:08:34 -0400
+118b7c0d7a896f3a6b0dbc7ad006bfc88c9066f3,Add classification demo.,Sun, 11 Oct 2015 16:58:58 -0400,Sun, 11 Oct 2015 16:58:58 -0400
+d15a2b7c715dcf13f03024a9b18759e83ec5b350,Add simple Torch network profiling script.,Sun, 11 Oct 2015 16:55:56 -0400,Sun, 11 Oct 2015 16:55:56 -0400
+9e1c18131453b602808600fe11eea29e22a2a06a,Add paths to completed models.,Sun, 11 Oct 2015 16:54:49 -0400,Sun, 11 Oct 2015 16:54:49 -0400
+54c04eb030945d079e88af3ea62f6ac249664e58,Link to dlib's object tracker.,Sat, 10 Oct 2015 21:34:46 -0400,Sat, 10 Oct 2015 21:34:46 -0400
+70b535020e18c76b03f7cc571d8a7e65d6eb7833,README: Add note about the model.,Sat, 10 Oct 2015 21:33:02 -0400,Sat, 10 Oct 2015 21:33:02 -0400
+67377b0eba323fa9f972d9552d5b32651fb5d0bc,Fix link to the comparison demo.,Sat, 10 Oct 2015 21:31:19 -0400,Sat, 10 Oct 2015 21:31:19 -0400
+09e73241dd9c4767cff680dbabf3b133874788ce,Complete draft of README.,Sat, 10 Oct 2015 21:28:20 -0400,Sat, 10 Oct 2015 21:28:41 -0400
+000f33cab4e1d4a46e79195c93bf351fa8ef48ed,lfw experiment: Add argument for the pairs.txt location.,Sat, 10 Oct 2015 21:26:10 -0400,Sat, 10 Oct 2015 21:28:41 -0400
+d69935eb43d0e7efa3a8c8d606ff8d22e97e2c80,Ignore mp4 videos.,Fri, 9 Oct 2015 11:58:15 -0400,Sat, 10 Oct 2015 21:28:41 -0400
+69586648e6cad47b5b89de17d222b8f9c26d61cc,Refactor: facenet->openface.,Fri, 9 Oct 2015 10:48:06 -0400,Sat, 10 Oct 2015 21:28:41 -0400
+245a833113c21a0361a9c613626db638a31c826d,Training: plot-loss: Show last few values.,Fri, 9 Oct 2015 09:54:34 -0400,Sat, 10 Oct 2015 21:28:41 -0400
+3e5d1a67a084bd1deaf9bcb6ce556797faef0b9c,Compare demo: Fix options.,Fri, 9 Oct 2015 09:54:15 -0400,Sat, 10 Oct 2015 21:28:41 -0400
+51aaf28668107a79179d7fd91397b6f7c0131e0d,README: Tweak build instructions.,Sun, 4 Oct 2015 02:09:02 -0400,Sun, 4 Oct 2015 02:09:05 -0400
+9389e8c123fe6b7c800686d4ef9bc763084dc9e5,compare.py: Bump dlib version.,Sun, 4 Oct 2015 02:08:53 -0400,Sun, 4 Oct 2015 02:09:05 -0400
+57f9b89942d07362474605088ffb12cfbcd3dc72,Dockerfile: Initial commit.,Sun, 4 Oct 2015 02:08:36 -0400,Sun, 4 Oct 2015 02:09:05 -0400
+02990255e37480010294cfcb4dba688ccb350053,Workaround solution for #5: Only use the largest face in the video.,Sat, 3 Oct 2015 23:46:43 -0400,Sat, 3 Oct 2015 23:46:43 -0400
+dc7b0504231b206733c7c1fcc576da0e7d9a9456,Web demo: Correctly display name.,Sat, 3 Oct 2015 23:40:16 -0400,Sat, 3 Oct 2015 23:40:19 -0400
+b0561510b166086217ff5bace745ec95fb9a7a92,Web demo: Don't train SVM if there is only one person.,Sat, 3 Oct 2015 23:39:07 -0400,Sat, 3 Oct 2015 23:40:19 -0400
+b974ce13c9b939377b94bb1ec58e1125a4c92262,README: Add performance notes.,Sat, 3 Oct 2015 23:23:38 -0400,Sat, 3 Oct 2015 23:23:38 -0400
+9abd1ea5452a053a9c98c031ced364ce05ce08ed,Tweak README.,Sat, 3 Oct 2015 23:04:02 -0400,Sat, 3 Oct 2015 23:04:02 -0400
+818d1cd13be9377240dd85157acd17544d5caff9,TorchWrap: Use a random hex string in the temporary filename.,Sat, 3 Oct 2015 22:59:35 -0400,Sat, 3 Oct 2015 22:59:40 -0400
+dbd44905365ccbcc7a2094f8a0149b2869ddc21d,Web demo: Make the 'unknown' class optional.,Sat, 3 Oct 2015 22:52:58 -0400,Sat, 3 Oct 2015 22:52:58 -0400
+f12d181a751264137fd23bb3cb7832b5537645f0,Add command-line opts to the web demo.,Sat, 3 Oct 2015 22:05:53 -0400,Sat, 3 Oct 2015 22:47:35 -0400
+f51d02fb51dad02751b842d7c96295097061c33f,Training: Plot: Set alpha on the test loss since it overlaps the train loss.,Sat, 3 Oct 2015 22:47:27 -0400,Sat, 3 Oct 2015 22:47:27 -0400
+4509fac2e3489555effbfdee60b4b7ffdcc408b0,Fix link and add paragraph to the README.,Sat, 3 Oct 2015 22:42:05 -0400,Sat, 3 Oct 2015 22:42:05 -0400
+90ebfd6b8f63aba03d80b2d44a5a1961ef847625,Fix YouTube link.,Sat, 3 Oct 2015 21:28:50 -0400,Sat, 3 Oct 2015 21:28:50 -0400
+41268e57c5361831d5a8593714a8a396835d38f5,README: Move sections. Add screenshot and link to YouTube video.,Sat, 3 Oct 2015 21:26:59 -0400,Sat, 3 Oct 2015 21:26:59 -0400
+1f7c708f30d55df6498e9d276d5a100113cbea19,Pass on README.,Sat, 3 Oct 2015 21:15:36 -0400,Sat, 3 Oct 2015 21:15:36 -0400
+0f077cad5301f2286cdf615cd776436a8fcd9e75,Add cloc script.,Sat, 3 Oct 2015 19:24:22 -0400,Sat, 3 Oct 2015 19:24:22 -0400
+874401e0a616f4080500e2f01c9eeb42dbdfec1c,TorchWrap: Add simple function to write image to disk.,Sat, 3 Oct 2015 19:23:59 -0400,Sat, 3 Oct 2015 19:23:59 -0400
+402b453f05367111ee6be0be91d49e95a3383d13,Comparison demo: Use all combinations of images.,Sat, 3 Oct 2015 19:23:13 -0400,Sat, 3 Oct 2015 19:23:13 -0400
+28891143a137859e762bf853f6779a781e827095,Add example images of Lennon and Clapton.,Sat, 3 Oct 2015 19:22:55 -0400,Sat, 3 Oct 2015 19:22:55 -0400
+4c91109c4019f09e08c916b36bc53ff4982327f5,Add t-SNE script.,Sat, 3 Oct 2015 18:46:29 -0400,Sat, 3 Oct 2015 18:46:29 -0400
+aa0c8c5664d90a3d736e817cc0e3aef2c9bb91ae,Add tsne plots.,Sat, 3 Oct 2015 18:43:18 -0400,Sat, 3 Oct 2015 18:43:18 -0400
+aa6ee28120421c9459f7d5171be78cc138b697cf,Training: Loss: log-scale y axis.,Sat, 3 Oct 2015 17:24:17 -0400,Sat, 3 Oct 2015 17:24:17 -0400
+1d58e82993882942045d926e8663a0244068bbcc,LFW: Show AUC.,Sat, 3 Oct 2015 17:16:44 -0400,Sat, 3 Oct 2015 17:16:44 -0400
+718ed8caa11f9eb9df549b610d139f4b7435615e,Add OpenBR v1.1.0 data.,Sat, 3 Oct 2015 17:16:02 -0400,Sat, 3 Oct 2015 17:16:02 -0400
+5aaea9cb58b5b88a5465eaeb908b29da861b1617,Remove NaN values from eigenfaces data.,Sat, 3 Oct 2015 17:15:46 -0400,Sat, 3 Oct 2015 17:15:46 -0400
+53ab6943d446986da802103f825edb48d48d76c1,README: typo.,Tue, 29 Sep 2015 18:43:53 -0400,Tue, 29 Sep 2015 18:43:53 -0400
+a4afe1c5150327438601acb077fd2189693c7b72,Refactor: examples->demos.,Tue, 29 Sep 2015 18:33:43 -0400,Tue, 29 Sep 2015 18:33:43 -0400
+312beca81439ffa80fcb5f7fec11547ae21810b8,Refactor: examples->demos.,Tue, 29 Sep 2015 18:32:59 -0400,Tue, 29 Sep 2015 18:32:59 -0400
+4067ba6d2ae3712915d1172a5279db9b41ec48e6,Tweak README.,Tue, 29 Sep 2015 18:28:37 -0400,Tue, 29 Sep 2015 18:28:37 -0400
+1b092613032bc27b0238ca43d362e10e4620980d,README: Add note. Draft of manual build instructions.,Tue, 29 Sep 2015 18:27:36 -0400,Tue, 29 Sep 2015 18:27:36 -0400
+513b498449fda263742379569e4b3292c70a5de9,Add file comparison example.,Tue, 29 Sep 2015 18:07:12 -0400,Tue, 29 Sep 2015 18:07:12 -0400
+875ac72039bb9b9a3f4d6cce4a26c8879264338f,Lua Server: Use model in evaluation mode.,Tue, 29 Sep 2015 18:03:53 -0400,Tue, 29 Sep 2015 18:03:53 -0400
+429452c806390a28c86217ceeba0fe7871da181d,Python: naive_dlib: Take full paths on input.,Tue, 29 Sep 2015 18:03:27 -0400,Tue, 29 Sep 2015 18:03:27 -0400
+06a3afa5d67014e33110ec9208d79a01affc5262,Python library: Kill Lua subprocess on exit.,Tue, 29 Sep 2015 18:03:00 -0400,Tue, 29 Sep 2015 18:03:00 -0400
+158ff1bcce4c2bcfee5861c303f9293b0baa8e2e,LFW: Use 4 decimals. Rename our model.,Tue, 29 Sep 2015 18:02:36 -0400,Tue, 29 Sep 2015 18:02:36 -0400
+8728bae64835cd1406f9a98a521b8ccbaacf116a,Batch Represent: Remove unnecessary CUDA dependency.,Tue, 29 Sep 2015 18:02:01 -0400,Tue, 29 Sep 2015 18:02:01 -0400
+5bffd697cc8ea0086c37ebaf49f458b52f210211,LFW experiment: Show avg and stdev of accuracies.,Sat, 26 Sep 2015 04:41:48 -0400,Sat, 26 Sep 2015 04:41:48 -0400
+d85ee28f93afb5eb0c788821ec6421669d5b6bdd,Fully implement the LFW experiment.,Sat, 26 Sep 2015 04:34:58 -0400,Sat, 26 Sep 2015 04:34:58 -0400
+02c22ecd64b310ed99091a5c96c9c46e5d9d7866,TorchWrap/Server: Add comments linking to issues.,Fri, 25 Sep 2015 14:57:17 -0400,Fri, 25 Sep 2015 14:57:17 -0400
+d4830e84fc95659ac72a9113f30783a0e4320d78,TorchWrap: Load model relative to file location. Remove unused parameter.,Fri, 25 Sep 2015 14:12:38 -0400,Fri, 25 Sep 2015 14:12:38 -0400
+2f25d3d6e32d3715b45be50b9599d7f065c8f033,Web Demo: Use grid to train SVM. Disable training mode by default.,Thu, 24 Sep 2015 18:05:19 -0400,Thu, 24 Sep 2015 18:05:19 -0400
+7d9af6cab1418f1a2ba52129e2eb61c26dcdbcd1,Pass on README.,Thu, 24 Sep 2015 17:36:26 -0400,Thu, 24 Sep 2015 17:36:30 -0400
+2fc6b0e3de840525f1d784dc938b0a30d1999fd7,gitignore: Web example files.,Thu, 24 Sep 2015 17:35:55 -0400,Thu, 24 Sep 2015 17:36:30 -0400
+81dbe0e5956784351b24d20f9259caaf2eed15ff,Initial commit of web demo.,Thu, 24 Sep 2015 17:31:45 -0400,Thu, 24 Sep 2015 17:36:30 -0400
+458c1aea2a67d448564c4e5387e473a7e00e96ac,TorchWrap: Add note.,Thu, 24 Sep 2015 17:31:20 -0400,Thu, 24 Sep 2015 17:36:29 -0400
+e80817032456fe4fb6ea4735abc0ca0b5bc18ddd,Python: Return the vector rather than printing it.,Thu, 24 Sep 2015 17:30:33 -0400,Thu, 24 Sep 2015 17:36:29 -0400
+122b06bd962384dfa6a1f61f2b463f142bdd74e3,Add LICENSE headers.,Thu, 24 Sep 2015 17:17:13 -0400,Thu, 24 Sep 2015 17:36:29 -0400
+78058f5cef8d6d27717cba9aa5a273c5d1acdddb,Initial commit of hacky Python->Lua interfacing.,Thu, 24 Sep 2015 17:11:27 -0400,Thu, 24 Sep 2015 17:36:29 -0400
+df40fa2af07fda271f34e723e40fdb7718e9c975,Initial commit of Python alignment portions.,Thu, 24 Sep 2015 15:49:31 -0400,Thu, 24 Sep 2015 17:36:29 -0400
+4973245a2631545222999e30be19ee5ba99f416e,Models: Add license heading.,Thu, 24 Sep 2015 15:13:36 -0400,Thu, 24 Sep 2015 17:36:29 -0400
+23286eb8890e5884cc0a4073b0a56c5a715dd3c1,Update summary image.,Thu, 24 Sep 2015 15:10:11 -0400,Thu, 24 Sep 2015 15:10:14 -0400
+4eb080dce25178b1d812368645454ba828b42f78,Initial commit of stubbed README.,Thu, 24 Sep 2015 14:47:17 -0400,Thu, 24 Sep 2015 14:47:17 -0400
+caa2caa6be70ad8b456a18517265d2fc9acdffc5,gitignore: Large model files.,Thu, 24 Sep 2015 14:32:38 -0400,Thu, 24 Sep 2015 14:32:38 -0400
+72a8390b66d05c1cda25384654c33f9106189026,Add FaceNet model definitions.,Thu, 24 Sep 2015 14:32:28 -0400,Thu, 24 Sep 2015 14:32:28 -0400
+f7853db09bd3b344c8f0177ac9ff50666ddfcc7d,Add small dlib mean and std models.,Thu, 24 Sep 2015 14:32:14 -0400,Thu, 24 Sep 2015 14:32:14 -0400
+ba27930a05ca966e2452c8365e54116809f1edf5,Add dlib landmark mean image.,Thu, 24 Sep 2015 14:31:56 -0400,Thu, 24 Sep 2015 14:31:56 -0400
+71b2c63770a0835eb43713b0a7ab07a2b3acccbd,Add get-models script.,Thu, 24 Sep 2015 14:31:46 -0400,Thu, 24 Sep 2015 14:31:46 -0400
+ce72875f540854188fb6bc6d46c69f0e37d34f6d,lfw roc: Make sure every representation exists.,Thu, 24 Sep 2015 14:21:47 -0400,Thu, 24 Sep 2015 14:21:47 -0400
+63104030dd0e100c82f2281e4859f868ca17a99b,Evaluation: lfw-roc: Add license heading.,Thu, 24 Sep 2015 10:44:43 -0400,Thu, 24 Sep 2015 10:44:43 -0400
+3217e6466c6a8d8d979673d7781c826741e12230,gitignore: Representation directories.,Thu, 24 Sep 2015 10:18:58 -0400,Thu, 24 Sep 2015 10:18:58 -0400
+bb96f0ac6e1fe8a601686e9e46b3f26d333f3685,Evaluation: LFW: Add ROC generation script.,Thu, 24 Sep 2015 10:18:34 -0400,Thu, 24 Sep 2015 10:18:34 -0400
+ee3d11be370f3f7b29c866a625445847f45c75ed,Evaluation: Initial commit of openbr.DET.,Thu, 24 Sep 2015 10:06:47 -0400,Thu, 24 Sep 2015 10:06:47 -0400
+3d85b86f71a6c5d3d595b6582c468e40ec31083b,gitignore: Plots and data.,Wed, 23 Sep 2015 19:52:37 -0400,Wed, 23 Sep 2015 19:52:37 -0400
+f0196220ff0e4e72a9a114e72ac24658c0324372,Initial commit of loss plotting code from development repo.,Wed, 23 Sep 2015 19:51:47 -0400,Wed, 23 Sep 2015 19:51:47 -0400
+d8790408d16aa11f1ed8b655567bdebae0dbb877,Initial commit of training code from development repo.,Wed, 23 Sep 2015 19:49:45 -0400,Wed, 23 Sep 2015 19:49:45 -0400
+2611ce29bb40b14cb90904002c3479258ad95c80,Add LICENSE.,Wed, 23 Sep 2015 19:28:51 -0400,Wed, 23 Sep 2015 19:28:51 -0400
+84264c192ab4b908ec23874f08f92797e1d105f3,gitignore: work dirs.,Wed, 23 Sep 2015 19:18:06 -0400,Wed, 23 Sep 2015 19:18:06 -0400
+c3b6373e96b25bcf946723afeb85f0e1c3579dd6,batch-represent: Correctly size images.,Wed, 23 Sep 2015 18:46:38 -0400,Wed, 23 Sep 2015 18:46:38 -0400
+fb9164e6fba9349bab0ee0855e20a88677f41bcb,Add batch representation code.,Wed, 23 Sep 2015 18:19:30 -0400,Wed, 23 Sep 2015 18:19:33 -0400
+f651de636b9c17379cea8ff95f70344e34d7b687,Add summary image.,Wed, 23 Sep 2015 18:14:10 -0400,Wed, 23 Sep 2015 18:14:10 -0400
+bead8284421e239bb85ee1e818353a4597184788,Add torch-TripletEmbedding submodule.,Fri, 18 Sep 2015 16:57:25 -0400,Fri, 18 Sep 2015 16:57:25 -0400

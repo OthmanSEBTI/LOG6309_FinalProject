@@ -1,0 +1,332 @@
+Fix gradients cleaning
+Fix unicode-bidi import
+Fix print-color-adjust in FF
+Fix Node.js 12 on CI
+Fix test name
+Fix test
+Fix #1446 (#1457)
+Fix funding URL format
+Fix stretch prefix
+Fix CI
+Fix CLI dependency installation instructions (#1439)
+Fix CI
+Fix stretch in latest Firefox
+Fix ::file-selector-button pseudo-element (#1420)
+Fix: Term element in content value gets parsed (#1414)
+Fix: remove broken link with 404 error (#1410)
+Fix Node.js 10 on CI
+Fix error throwing when `supports-selector-fn` has pseudo-classes or pseudo-elements as argument. (#1398)
+Fix test coverage
+Fix clone for PostCSS 8
+Fix Cannot read property 'proxyOf' of undefined exception (#1377)
+Fix warning
+Fix size limit
+Fix for #1333 - No warnings when grid is turned off; Also added a subgrid warning (#1334)
+Fix for #1335 - align/justify-self not grid prefixing if display: flex
+Fix size limit
+Fix TOC
+Revert "Fix stretch support"
+Fix stretch support
+Fix link to PostCSS warning API docs (#1277)
+Fix Node.js 6 test in CI
+Fix compatibility with CSS Modules
+Fix JSDoc indent
+Fix fit-content in Firefox
+Fix fit-content prefix
+Fix typo (#1259)
+Fix size limit
+Fix env variable nam
+Fix ESLint path
+Fix missed options error
+Fix ESLint
+Fix undefined node error
+Fix npm ignore
+Fix false warning
+Fix Size Limit on CI
+Fix CI
+Fix for console-less env
+Fix contributing docs
+Fix resolution prefix for old Firefox
+Fix for backdrop-filter to support it properly in Edge 17/18 (#1208)
+Fix tests for OS Windows (#1204)
+Fix Travis error
+[css-grid] Fix bug when grid-area rules are not inserted (#1192)
+Fix calc() in grig-gap
+Fix infinite loop
+Fix 'implement' typo (#1182)
+Fix spelling of template (#1177)
+Fix Grid autoplacement warning
+Fixed enabling autoplacement in old projects section recommendation (#1163)
+[css-grid] Fix bug when grid-rows/columns are prefixed with wrong values (#1149)
+[css-grid] Fix/row column span inheritance bug (#1147)
+Fix broken Node#parent
+Fix indent
+Fix if
+Fix indent
+Fix indent
+Fix indent
+Fix linter
+Fix typos (#1107)
+Fix package.json compiler
+Fix tests
+Fix old FF gradient prefix
+Fix code indent
+Fix info on new Node.js
+Fix code style
+Fix nested @media rules (#1077) (#1079)
+Fix readme typo (#1078)
+Fix line breaks
+Fix stretch prefix
+[css-grid] Fixed error with media (#1059)
+Fix grid template parsing in case of auto row sizes (#1052)
+Fix minor typos (#1040)
+Fix minor typos (#1039)
+Fix typo (#1033)
+Fix 80 columns line
+Fix line breaks in docs
+Fix spaces between in grid hack
+Fix other line break in the docs
+Fix line breaks in docs
+Fix test coverage
+Fix title paddings in docs
+Fix Browserslist config name
+Fix value prefixing
+Fix for IE 9/10 in class which use extends (#963)
+Fix test
+ Fix #954  (#955)
+Fix Size Limit warning
+Fix strange issue by stacktrace
+Fix old JS runtimes support
+Fix grid-template-areas warning
+Fix Jest warning
+Fix rare case in indent changes
+Fix ::placeholder prefix for Edge
+Fix common values in flex-direction
+Fix typos (#908)
+Fix other builder section
+Fix radial gradient direction convertion
+Fix indent
+Fix: In CSS grid, only Safari needs to add the -webkit- prefix to min-content/max-content values. (#840)
+Fix intrinsic prefixes in Grid
+Fix typos (#835)
+Fix Autoprefixer for old V8 and browsers
+Fix -ms-grid-column-align
+Fix transition prefixer after Coffee to JS convertion
+Fix cache checking
+Fix test/prefixes.js
+Fix test/prefixer.js
+Fix test/old-value.js
+Fix test/old-selector.js
+Fix test/info.js
+Fix test/declaration.js
+Fix test/browsers.js
+Fix test/brackets.js
+Fix test/at-rule.js
+Fix test/selector.js
+Fix test/supports.js
+Fix test/utils.js
+Fix test/value.js
+Fix data/prefixes.js
+Fix code string max length
+Fix ignoring important file
+Fix gulpfile
+Fix postcss-cli usage (#808)
+Fix order for non-digit values
+Fix typography
+Fix no-prefix future warning
+Fix README. (#757)
+Fix indent
+Fix minor typo in README.md (#733)
+Fix -- selector support
+Fix align-self cleaning on webkit and webkit 2009
+Fix null cloning
+Fix node.js 0.12 support
+Fix backface-visibility prefix for Safari 9
+Fix stranhe null.constructor() error
+Fix compilcated transition warning
+Fix Flexibility compatibility
+Fix styling backtick
+Fix README option value example
+Fix compatibility with other PostCSS plugins in some cases
+Fix node.js 0.12 support
+Fix comment error
+Fix text-emphasis-position reverse order
+Fix: range bound bug
+Fix prefixer check
+Fix node.js order in Travis CI
+Fix hacks order
+Fix Autoprefixer for PostCSS JS and other cases with nodes without sources
+Fix gradient direction warning
+Fix link in options section in README.
+Fixed typo: "directiom" should be "direction"
+Fix cross-fade() not support <number>
+Fixed typo in browser options
+Fix IE writing-mode data
+Fix filter transition behaviour
+Fix old mask-border removing
+Fix removing old pixelated values
+Fix image url in -webkit-image-set
+Fix styles indent
+Fix typo
+Fix broken link
+Fix line breaks
+Fix issue occuring when '_autoprefixerDisabled' is undefined
+Fix link
+Fix CodeKit link
+Fix links order
+Fix cascade in cache key
+Fix text-decoration prefixes
+Fix options in README
+Fix postcss source-map link
+Fix FAQ order
+Fix links
+Fix old webkit gradient ignoring
+Fix word wraps in docs
+Fix versioins header
+Fix: :placeholder-shown is a pseudo-class, not pseudo-element
+Fix typo and grammar in readme
+Fixed a typo in README.md
+Fix holy 80 columns line
+Fix inline logical border
+Fix border logical property
+Fix missed browsers
+Fix comment
+Fix Compass map support
+Fix regex for @supports rule
+Fix line breaks in README.md
+Fix 80 columns line
+Fix standalone build for Java Rhino
+Fixed typo: newerTh{e => a}n
+Fix incorrect example in gulp section in README
+Fix example with new API
+Fix new API examples
+Fix dead link in README.md
+Fix features titles
+Fix line break in README.md
+Fix line breaks in README.md
+Fix variable in standalone task
+Fix README.md line breaks
+Fix line breaks in README.md
+Fix line breaks in README.md
+Fix 80 holy line
+Fix 80 holy line
+Fix typography of README.md
+Fix typography of README.md
+Fix more prototype definitions for Rhino in standalone build
+Fix safe mode example
+Fix safe mode example
+README.md: Fixed images width
+README.md: Fixed images width
+Fix background-size hack on contain and cover values
+Fix 80 columns line
+Fix 80 columns line
+Fix inspect for new browsers
+Fix cascade tests
+Fix `between` only in Declaration and Value prefixer
+Fix origin declaration style on cloning node
+Fix cascade docs
+Fix cascade docs
+Fix IE Mobile name in info
+Fix gradient hack with background with color
+Fix Holy 80 columns line
+Fix browserify require autodetect support
+Fix parsing gradient stops without space separator
+Fix heading levels of patch releases
+Fix cursor updater fix
+Fix updater with new GitHub RAW API
+Cursor: Fix Zoom and Grab prefixing ranges
+Fix Holy 80 line
+Fix Holy 80 line
+Fix Chrome 36 data
+Fix Blackberry 10 data
+Fixing grammar
+Fixing grammar
+Fix JS syntax in README.md
+Fix JS syntax in README.md
+Fix example with visual cascade
+Fix example with visual cascade
+Fix flexbox in transitions
+Fix documnetation
+Fix documnetation
+Fix comments in prefixes updater
+Fix Rewrite Syntax section
+Fix Rewrite Syntax section
+Fix old API hack
+Fix CSS part name
+Fix FAQ question
+Fix FAQ question
+Fix gradient test
+Fix updaters
+Fix doubling test
+Fix selectors tests
+Fix cleaning @keyframes
+Fix removing prefix with notes
+Fix keeping vendor specific hacks
+Fix load paths in Autoprefixer tests
+Fix README.md format
+Fix README.md format
+Fix update command
+Fixing direction order for old style webkit-gradient
+Fix line breaks in FAQ
+Fix line breaks in FAQ
+Fix line breaks in FAQ
+Fix line breaks in FAQ
+Fix #111
+Fix radial direction syntax
+Fix hack for modern IE filter
+Fix old webkit gradients with rgba
+Fix browser versions order in inspect
+Fix prefixed selectors order
+Fix link and Holy 80 columns line
+Fix link and Holy 80 columns line
+Fix parser bug
+Fixes rework documentation
+Fixes rework documentation
+Fix other placeholder selector
+Fix 80 columns line in README.md
+Fix 80 columns line in README.md
+Fix retranslation in README.md
+Fix retranslation in README.md
+Fix JSON stringify for selectors
+Fix value rewrite from unprefixed to prefixed declaration
+README: Fix sentence on comparison with -prefix-free
+README: Fix sentence on comparison with -prefix-free
+Fix correct clone comments inside keyframes
+Fix comments
+Fix link to Google strategy
+Fix link to Google strategy
+Fix logo size
+Fix logo size
+Fix line breaks in README.md
+Fix line breaks in README.md
+Fix Stylus benchmark
+Fix line breaks in README.md on mobile GitHub
+Fix line breaks in README.md on mobile GitHub
+Fix README.md on GitHub preview
+Fix README.md on GitHub preview
+Fix documentation
+Fix documentation
+Fix comments for flexbox hacks
+Fix printing unstack error in binary
+Fix comment with braces parsing issue
+Fix publish task
+Fix CSS#eachDeclaration
+Fix node 0.8 support
+Fix values inspect
+Fix inspect transition properties
+Fix iOS data by removeing ending zero
+Fix typos
+Fix typos
+Fix API for new css-stringify
+Fix display: flex syntax for old Firefox and IE
+Fix negative degrees in gradients
+Fix several gradients in one property
+Fix indents in props/values data functions
+Fix value override in prefixer
+Fix comments
+Fix transitions with easings
+Fix help: "2 last versions" don't work
+Fix non-break spaces in README.md
+Fix non-break spaces in README.md
+Fix README.md
+Fix README.md

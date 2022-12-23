@@ -1,0 +1,1613 @@
+Fix release script typo (#31725)
+=str Fix scala doc of `Source#idleTimeout`. (#31713)
+Fix flaky EventSourcedBehaviorRetentionSpec, #31623 (#31703)
+Fix RecipeAdhocSource test, #31674 (#31690)
+docs: Fix some api doc links #31641 (#31687)
+Fix maximumObjectLength check in JsonFraming, #31569 (#31600)
+Fix broken link in stream customize #31586 (#31588)
+Fix references to Log (#31556)
+Fix compilation error in ActorContextDelegateSpec with Scala 2.12 (#31509)
+Fix links to point to correct level (#31506)
+Fix typo (#31496)
+Fix java-example for standalone ask with status fail future in typed/interaction-patterns.md (#31480)
+Fix imports referenced in quickstart. (#31469)
+=act Fix cancelReceiveTimeoutTask bug when stop an actor. (#31398)
+Fix build.sbt 'Dependencies' import (#31382)
+Fix language in akka-cluster-sharding's reference.conf (#31379)
+=sbt Fix StreamOperatorsIndexGenerator on Windows (#31347)
+=str Fixup some docs in GraphStage. (#31259)
+Fix StreamRefSerializer.serializeRemoteSinkFailure throwing NPE (#31307)
+Fix compilation error GraphMergePrioritizedNSpec Scala 2.12 (#31286)
+Fix stack overflow for dead letters message adapter, #31241 (#31249)
+Fix Scala 2.12 compilation error in akka-stream-tests (#31246)
+Fix loading of deleted snapshots in LocalSnapshotStore (#31228)
+Fix race condition on shard region noticing shard shutdown in RememberEntitiesAndStartEntitySpec #31221 (#31224)
+Fix possible NPE in ClusterShardingLeaseSpec (#31161)
+Fixed #31098. (#31105)
+Fix Scala 2.12 compile of akka-persistence-tck (#31094)
+Fix compilation of stream tests on Scala 2.12 (#31062)
+Fixed external links akka-protobuf and akka-remote (#31038)
+Fix external links - seventh iteration (akka-actor) (#31021)
+Fix external links - sixth iteration (LICENSE) (#31020)
+Fix examples (#31002)
+Fix for build failure on Scala 2.12 (#31007)
+Fixed small typo mistake #30967 (#30992)
+Fix failing ClusterShardingRememberEntitiesSpec, #30975 (#30976)
+Fix mima excludes for wildcardindex (#30896)
+Fix StackOverflowError in multi-jvm tests, #30885 (#30886)
+Fix Scala 2.12 compilation (#30888)
+Fix typo in throttle documentation (#30880)
+Fixed testkit durable state store current changes non completion (#30819)
+Fix typo in ActorDocSpec (#30776)
+Fix external links - fifth iteration (#30697) (#30755)
+Fix bug in Artery delivery of Terminated message, #30135
+Fix compilation error on Scala 2.12 (#30741)
+Fix external links - fourth iteration (#30697) (#30736)
+Fix race in EventStreamSpec unsubscribe test  (#30730)
+Fix external links - third iteration (#30697) (#30722)
+Fix external links - second iteration (#30697) (#30707)
+Fix external links - 1th iteration (#30697) (#30704)
+Fix event stream spec fail, second try (#30692)
+Fix MessageAdapterSpec instability (#30662)
+Fix MiMa exclusions for 2.6.16 (#30665)
+Fix ActorsLeakSpec instability (#30660)
+Fix broken links about java serialization (#30589) (#30593)
+Fix broken links in CONTRIBUTING.MD (#30590)
+Fix incorrect quotes (#30585)
+Fixed possible race condition
+Fixed yet another race condition
+Fix test to avoid race condition from multiple persistent actors
+Fixes Java test on null empty state: try to avoid race condition by waiting for 1 persistent actor to stop before starting the next one (#30579)
+Fixes Java test on primitive state: try to avoid race condition by waiting for 1 persistent actor to stop before strating the next one
+Fix GC logging configuration when running with Java 11
+Fix actor ref backpressure source spec instability (#30538)
+Fix StartEntitySpec instability
+Fix LazySourceSpec instability
+Fix running whitesource in nightly
+Fix TcpConnection error handling
+Fix CoronerSpec instability (#30494)
+Fix FlowFlatMapPrefixSpec instability
+Fix TlsSpec on AdoptOpenJdk 1.8.0-272+ (#30473)
+Fix UdpConnectedIntegrationSpec instability
+Fix LocalPubSubSpec instability (#30467)
+[Docs] Fix scala snippet for Sink.combine #30431 (#30433)
+Fix MailboxSelectorSpec race (#30429)
+Fix race in RoutersTest (#30428)
+Fix deprecated links in osgi.md (#30405)
+Fix word wrap in Stream Sink.combine docs (#30318)
+Fixed typo - replaced scaladsl with javadsl (#30316)
+Fix mapConcat context propagation (#30289)
+Fix context propagation (#30221)
+Fix specificity of inherited attributes for {Source,Flow,Sink}.fromMaterializer (#30171) #30142
+Fix LineNumberSpec failing since Scala 3 update in #30248 (#30261)
+Fix test ActorCreationTest.testWrongAnonymousInPlaceCreator (#30236)
+Fix Broadcast examples, as they currently fail.
+Fixed race condition in MergeHub draining test: 30207
+Fix for broken cluster shutdown #30026 (#30034)
+docs: Fix Java code to check cookiesReply for ask (#30030)
+Fix for race condition in WorkPullingWithEventSourcedProducerQueueSpec #29949
+[Docs] Fix wrong syntax using paradox directives (#29876)
+Fix duplicate RequestNext messages in durable WorkPullingProducerController, #29854
+Fixed a formatting issue, the '@scala[]' marker, does not seem to handle CRLF (#29857)
+Fix for stream ref test fail #29843 (#29845)
+Fix port configuration for basic cluster example spec (#29836)
+Fix deprecated versin is cluster sharding settings (#29819)
+Fix passing of lease settings in typed cluster sharding. (#29671)
+Fix cluster sharding with remember entities test (#29773)
+Fix BehaviorTestKit.signal false alarm in thread check  #29779
+Fix typo in docs for cluster sharding rolling updates (#29771)
+Fixes the wording of the Scaladoc on the `unwatched` method (#29766)
+Fix typo (#29741)
+Fix typo (#29733)
+Fix .scala-steward.conf syntax
+Fix for PersistentShardingMigrationSpec failing  #29234 #29690
+Fix population of akka-protobuf-v3 (#29719)
+Fix Welcome/Gossip deserialization of app-version (#29692)
+Fix links to Microsoft CQRS and ES reference (#29596)
+Fix for ReplicatedShardingSpec failing #29674
+Fix documentation version warning for 'series' page (#29647)
+Fix cross-dc heartbeat interval config, #29614 (#29646)
+Fix comment index
+Fix markdown link with brackets (#29594)
+Fix grammar (#29593)
+Fix grammar
+Fix markdown syntax for link that uses parens (#29576)
+Fix calculating backoff delay in order to prevent IllegalArgumentExce… (#29569)
+Fix acceptable-heartbeat-pause in cluster.StressSpec, #29512 (#29541)
+Fix time in AtLeastOnce.setDeliverySnapshot, #27786
+Fix grammar in exception message (#29533)
+Fix patch versin for scala when overriding
+Fix documentation about the way to enable the akka async dns resolver (#29468)
+Fix mima excludes for actor termination task (#29394)
+Fix SBR lease-implementation config example (#29361)
+Fix doc typo (#29326)
+Docs: Fix a small typo in sharded daemon process docs (#29097)
+Fix race in ActorThreadSpec (#29130)
+Fixed Deploy productElement implementation #29104 (#29105)
+Fix grammer error in cluster-concepts
+=build Fix commandAlias for fixall and sortImports (#28984)
+Fix grammar in CONTRIBUTING.md (#29042)
+Fix publishing credentials instructions (#29002)
+Fix race condition in InputStreamSinkSpec (#28990)
+Fix typo in ClusterMetricsDisabledSpec (#28969)
+Fix grammatical error (#28958)
+Fix 27338 - Allow passing an actor system to the typed.ActorTestKit (#28871)
+Fix ReliableDeliveryBenchmark on JDK8, #28889 (#28892)
+Fix compiling javadoc jar #11927 (#28858)
+Fix example package names in Akka Typed
+Fix compiler error in project/Dependencies.scala (#28770)
+Fix link text
+Fix ExplicitlyTriggeredScheduler cancellation #28604
+Fix java leases usage from java and scala #28685
+Fix ambiguous reference to position in ByteBuffer/Buffer (#28709)
+Fix takeWhile description (#28703)
+Fix ambiguous reference to position in ByteBuffer/Buffer
+Fixed typo
+Fix incorrect link in 2.6 migration guide (#28622)
+Fix LeveldbEndToEndEventAdapterSpec, it's not logging because journal not started
+Fix typo depredated, change to deprecated (#28572)
+Fix filter operator example output (#28560)
+Fixes EventEnvelope unapply
+Fix memory leak of restarting Artery outbound stream, #28390 (#28478)
+Fix typo in Akka Typed Style guide (#28499)
+Fix problems with byte string copy to array 2.13 (#28468)
+Fix compile error in multi-jvm test
+Fix test compilation issue in akka-cluster-typed
+Fix typos, add some punctuation, and rephrase some text (#28452)
+Fix RetryFlow not stopping after maxRetries (#28443)
+Fixing typo ("timej" to "time") (#28438)
+[doc] Fix scala doc in javadsl.FileIO (#28328)
+Fix typos, via a Levenshtein-style corrector
+Fixing test compiler warnings. (#28388)
+Fix a single grammar error in docs (#28352)
+Fix typos (#28326)
+Fix type on cluster-usage page (#28228) (#28237)
+Fix race condition in print tree (#28191)
+Fix method name in the description of Source 'lazilyAsync' operator (#28162)
+Fix fire and forget wording (#28160)
+Fix the URL Holly reported
+Fix typo in Response type (#28136)
+Fixed small error in Akka Typed Getting Started Tutorial 5 (#28041)
+Fixes intermittent "Could not create directory" issue (#28056)
+Fix incorrect exception names in fault tolerance doc (#28036)
+Fix wording
+Fix state.nonEmpty check when starting HandOffStopper#27647 (#27860)
+Fix broken persistent fsm link (#27928)
+Fix custom dispatcher
+Fix typo (#26927)
+Fix Travis: Update AdoptOpenJDK (#27815)
+Fix Java snippet (was partially showing on scala) (#27718)
+Fixes to one of the tests in FlowGroupBySpec  (#27675)
+Fix stream detached exception variable naming (#27711)
+Fix ByteStringSpec for Scala 2.13.1 (#27655)
+Fix typo in CoupledTerminationFlow docs
+Fixed incorrect routing sample comment (#27628)
+Fix race when binding to port '0' in artery tcp (#27525)
+Fix singleton issue when leaving several nodes, #27487 (#27488)
+Fix assertion in dns tests wrt changed docker json API #27489
+Fix race conditions in Artery TCP binding to 0 (#27456)
+Fixed warnings in akka-bench-jmh-typed (#27435)
+Fix akka-bench-jmh warnings. (#27438)
+Fix race in AkkaProtocolSpec (#27431)
+Fixed akka-stream-tests-tck warnings (#27436)
+Fix warnings in akka-actor-typed-tests (#27424)
+Fix stashing of commands when snapshot is in progress (#27389)
+Fix a typo in Stash document (#27399)
+Fix some grammar in the typed style guide (#27388)
+Fix SurviveNetworkInstabilitySpec (#27383)
+Fix intercept of Watch in use of safe remote features #27333 (#27334)
+Fix Scaladoc typo (#27320)
+Fix stack overflow in stream converters (#27305)
+Fix an issue of prolonged delay in the Delay stage #26470
+Fixes same typo mutiple times (#27236)
+Fix paradox anchor references (#27226)
+Fixed test tagged as IgnoreForScala212 ran in nightly not hit in other CI jobs, just needed the new akka.remote.use-unsafe-remote-features-without-cluster = on. (#27202)
+Fix typo (#27187)
+Fix grammar (#27185)
+Fix authors script to run with 2.13 (#27145)
+Fix error in sharding message flow description (#27161)
+Fix entity ref link in migration guide
+scheduleWithFixedDelay vs scheduleAtFixedRate, #26910
+Fix some documentation whitespace (#27036)
+Fix typo in expanded SRV query (#26998)
+Fix for UdpConnected actor going away on PortUnreachableException #26903
+Fix formatting for supervision.md (#26907)
+Fix config blocks in classic remoting docs (#26851)
+Fix typo in ShardingCompileOnlyTest.java (#26801)
+Fixed documentation typos in DeviceGroup sample class (#26661)
+Fix race in ActorModelSpec  #26773
+Fix minor typo in docs (#26778)
+Fix expected serialized bytes for 2.13 (#26766)
+Fix regression in MultiDcHeartbeatTakingOverSpec introduced by removing compiler warnings (#26761)
+Fix akka-actor-typed scaladoc
+Fix regression in ClusterRoundRobinSpec
+Fix multi-node-testkit warnings (#26754)
+Fix warnings in akka-remote (#26735)
+Fix remaining akka-testkit warnings (#26752)
+Fix 'unmoored scaladoc comment' error (#26758)
+Fix warnings in akka-actor-typed (#26738)
+Fix warnings in akka-osgi  #26088
+Fix akka-actor-testkit-typed warnings (#26741)
+Fix startup race condition in ActorRefSource, #26714
+Fix a typo in PoisonPill warning
+Fix typo in documentation (#26702)
+Fix akka-stream javadoc errors
+Fix ByteIterator for 2.11 and 2.13 (#26680)
+Fix a couple of docs warnings (#26671)
+Fix coordination test 2.13.0-M5 #26636 (#26657)
+Fix typo of DispatcherSelector's Scaladoc (#26649)
+Fix minor text omissions in actor docs (#26641)
+Fix memory leak in watchWith (#26625)
+Fix links to Delta State Replicated Data Types paper
+Fix of the new javadoc search functionality (#26604)
+Fix pattern for matching SRV service names (#26332)
+Fix typo in QueueSource's error message. (#26509)
+Fix dead links in the docs
+Fixing compilation error regarding to and from context propagated source (#26461)
+Fixing minor wrapping.
+Fix typos of OutgoingConnectionStage's port names.
+Fix excludes for docs publish in release script
+Fix test expectation for JDK 11, refs #26030
+Fix ActorLoggingSpec for Scala 2.11, #26368
+Fix new compiler warning, before adding automated fix of all new. (#26357)
+Fix race condition in StreamConverters.asOutputStream() (#26136)
+Fix log singleton message #26329
+Fixes #26286 by applying same change for Java9+ as was done in #25165
+Fixes #26286 by applying same change for Java9+ as was done in #25165
+Fix dead links to samples
+Fix comment in hashtag example of streams quickstart doc
+Fix compiler warnings in akka-cluster* #26087 (#26241)
+Fix debug message Udp.Received Message.parse at DnsClient (#26218)
+Fix compiler warnings in akka-remote, akka-actor-typed. (#26139)
+Fixes final stop message handling #26141
+Fix compiler warnings akka-actor (#26095)
+Fix log args to actually show the forwarded message (#26053)
+Fix link to lagom
+Fix broken link to lagom framework (#25844)
+BackoffSupervisorSpec: Fix race of terminated messages (#25947)
+Fix punctuation in incompatible version warning (#26035)
+Fix 2.11 compilation
+Fix TestProbeImpl#receiveN_internal with the receiveOne change
+Fix typo in lookup of ResolverConfiguration (#25826)
+Fix: DNS TTL uses seconds while caching usese millis (#25848)
+Fix typo in reference.conf (#25821)
+Fix doc links to cluster docker compose sample (#25756)
+[=doc] Fix Akka Typed fiddle (#25754)
+Fix parsing truncated DNS messages (#25691)
+Fix bad link to Immutability Changes Everything
+Fix bad link to Immutability Changes Everything
+Fix vulnerability in AESCounterBuiltinRNG
+Fix SelectionHandler sequenceNumber overflow #25546
+Fix ShardRegion.changeMembers, #25509 (#25510)
+Fix several minor typos detected by github.com/client9/misspell (#25448)
+Fix README scladex badge (#25471)
+=doc Fix Config links in testing (#25421) (#25422)
+Fix a typo in cluster-usage.md (#25424)
+Fix link to substreams documentation (#25420)
+Fix compilation errors and minor update to the futures.md
+Fix bug in Balance stage when some downstreams pull and close immediately and an another try to pull but wait a response indefinitely #25387
+Fix broken links of CRDTs materials in "Learn More about CRDTs" (#25351)
+Fix java dsl for createLogLevels  (#25337)
+Fix a typo in BroadcastHub doc (#25346)
+Fixed scheduling and cancelling receive timeout #25340
+Fix publishing akka-stream_2.12 with jdk8 and jdk9 classes (#25341)
+Fix recovery timeout in Typed PersistentBehavior, #25268
+Fix broken link (#25304)
+Fix failure in typed RecoveryPermitterSpec #25233
+Fix docs (#25211)
+Fix NotInfluenceReceiveTimeout behavior when used with Timers trait (#24989)
+Fix NotInfluenceReceiveTimeout behavior when used with Timers trait (#24989)
+Fix ActorSink.actorRef signature in docs (#25256)
+Fix typo in distributed data documentation related to write behind configuration.
+Fixed typo on tutorial_4.md (#25238)
+Fix ClusterShardingIncorrectSetup barrier (#25187)
+Fix RemotingFailedToBindSpec #24579
+Fix a NullPointerException due to race in OutputStreamSourceStage - #25159
+Routing docs: Fix typo and clarify group behavior (#25162)
+Fix MultiByteArrayIterator.copyToArray silently drops bytes. #16303 (#25141)
+Fix ReceiveTimeout issue with NotInfluenceReceiveTimeout #24770
+Fix BoundedBlockingQueueSpec against spurious wakeups (#25025)
+Fix typo in reference.conf (#25106)
+Fix for contradictory OSGi meta data in akka-stream #25055
+Fix Java Doc test for actorRefWithAck (#25079)
+Fix java documenation of QueueOfferResult.Dropped (#25080)
+Fix for java8144+ sni changes. (#23878)
+Fixing documentation typo: loosing -> losing (#25037)
+Fix doc - use new markdown directive for dependency (#24811)
+Fix def getDetails in StreamOperatorsIndexGenerator for paradox on Windows (#25006)
+Fix typed cluster singleton cross dc proxies (#24936)
+Fix snippets in typed cluster docs
+=doc Fix description of Sink.scala#foreach (#24899)
+Fix typo in ShardRegion code
+Fix serialization in TypedActor (#24851)
+Fix broken explicit ask pattern for Java (closes #24587)
+Fixed an empty ByteStrings problem in InputStreamSinkStage #24880
+#24752 Fix timestamped versions (#24845)
+Fix stream excludes
+Fix persistence excludes
+Fix a few leftover Behaviors.deferred mentions (#24612)
+Fixes broken test for Scala 2.12 #24617
+Fix typo: lead -> led
+Fix dead link in cluster.md
+Fix error message when LinearTraversalBuilder module has more than one outlet (#24591)
+[#24294] Fix DistributedPubSubMediator not unsubscribing actors from … (#24343)
+Fix in BackoffSupervisor.calculateDelay #24419
+Fix typed initial inports (#24384)
+Fix some links in cluster-dc.md documentation
+Fix race in OptionalSnapshotStoreSpec (#24323)
+Fix MiMa for Untangle settings from attributes in materializer #24063
+Fix Java logging code example (#24275)
+=doc Fix dangling `@@@` in howto docs #23516 (#24261)
+Fix record overflow race condition in flight recorder #21992
+Fixing small error in the ORMap documentation (#24227)
+=doc Fix typos in Distributed Data section (#24164)
+Fix doc typo in sharding doc (#24151)
+=str #23929 Fix double push message in sub source (#24083)
+Fix multiple potential races in StageActorRefSpec  (#24091)
+Fix some typos/grammar (#24082)
+Fix "steal data" typo in DistributedData docs (#24079)
+Fix typos in stream-graphs.md
+Fix "et.c." typo in documentation and reference configuration #24037 (#24038)
+Fix order in which japi and api docs are returned (#24026) (#24027)
+Fix race in ClusterShardingFailureSpec
+Fix #23336 by delaying consumer
+Fix typo (#24008)
+Fix lookup of coordinator for sharding proxies (#23995)
+Fix a bug in viaMat for Identity flow optimization #22899
+Fix typos in PersistentActor.scala #23962
+Fixed typos and grammar in streams error handling and streams buffers doc (#23956)
+Fix shutdown timeout in multi-jvm tests, #23925 (#23927)
+Fix excessive rebalance in LeastShardAllocationStrategy (#23830) (#23834)
+Fix Scaladoc for recoverWithRetries (#23762) (#23763)
+Fix typos in binary compatibility doc (#23846)
+Fix for unstable UnfoldResourceAsync tests #23382
+Fix broken links in documentation, #23787
+Fix scala example in sharding doc (#23785)
+= #23749 Fixes logging when serialization is not defined on NotSerializableException (#23750)
+Fix race in CircuitBreakerSpec #23413 (#23729)
+=doc Fix multi jvm sample link
+Fix minor docs typo (#23709)
+Fixed a typo in a toc in the guide (#23660)
+Merge pull request #23605 from sebastianharko/FixMavenGradle
+Fix wrong link of "Handling blocking operations in Akka HTTP" in Dispatchers page. (#23571)
+Fixed a typo in a generic type declaration in tutorial (#23559)
+Fix docs typo (#23548)
+=doc Fix wrong scala/java snippet directives #23513
+Fix docs typo (#23474)
+Fix #23385, Update ExtendedActorMaterializer doc (#23431)
+=build Fixing sbt deprecation warning (#23454)
+Docs: Persistence: Fix Layout Issue (#23446)
+Fix broken link. (#23447)
+Docs: Persistence: Fix note about sharding and snapshots (#23444)
+Fix #23165: Update StreamConverters.fromInputStream docs to reflect reality
+Fixed typos and broken code snippet (#23423)
+Fix glued Scala/Java code snippet tabs (Fixes #23415) (#23420)
+Fix reference to Hitch-Hiker's Guide (#23410)
+Being consistent on explanation of actor incarnations (Fixes #23035) (#23186)
+Fix formatting mistake in akka-cluster docs (#23348)
+Fix link in OptionVal doc (#23346)
+Fix documentation for Unzip class (#23333) (#23334)
+Fix link to the actor lifecycle (#23300)
+No need to test attribute propagation in LazySourceSpec (Fixes #23065) (#23178)
+Fix typo getStageActorRef to getStageActor (#23259)
+Correct the backpressure API comment for throttle (Fixes #22791) (#23225)
+Fix typos in CONTRIBUTING.md #23200 (#23201)
+More description about blocking operations (Fixes #22803)
+Add hyperlink to Lightbend Enterprise Suite (Fixes #23022)
+Fix broken link for consistent hashing article (#23133)
+Fixing typo and improving wording
+Fix ResendUnfulfillableException after transport failure detection, #23010
+Add mentions to akka.stream.impl.package and fix some typos. (Fixes #23073) (#23075)
+Move a warning on -optimize to CONTRIBUTING.md (Fixes #22932) (#23089)
+Fix quotes around version number in the docs (#23092)
+Fix docs for Source.queue (closes #23081)
+Fix RemoteReDeploymentSpec instability (#20180)
+Fix typo in the comment of completeIfPossible()
+Fix the multiple invoke issue of JavaPartialFunction.apply in javadsl testkit
+Fixed unidoc filter and unused property setter
+Fix 'Location Transparency' link in remoting
+Fix broken links in docs, fixes (#23034) (#23038)
+Fix table
+Fix invalid DateTimeFormatter usage in AeronErrorLog, #22982
+Add note for paradox on Windows (Fix #22986)
+Fix broken url to "Building a Better Bloom Filter" (#22983)
+Fix typo in scala doc for ExtensionId.get (#22984)
+Fix or improve some formatting in the new docs
+#22936 Fix akka-samples link in documentation
+Fix text of stream-quickstart.rst for Java (Fixes #22923)
+Fix typo in test name
+#22909 Fix parameters
+Fix tables in camel.md (#22898) (#22922)
+#22903 Fix code snippeds
+Fix typos and improved English in scaladoc/javadoc for BroadcastHub (#22852)
+Test cases for BackoffSupervisor's replyWhileStopped (Fixes #21213)
+Doc text to be in line with sample code (Fixes #22726)
+Fix docs for Sink.last(Option) #22691
+Fix comment in Backoff Supervisor example
+Fix doubly namespaced setting
+Fix typo in migration guide
+Fix link
+Fix bulleted list in actors intro
+=doc Fix broken headers (#22637)
+Fix umlaut in akka-doc #22611 (#22612)
+Fix indentation diffs
+Fix some build and compile warnings
+Fixed race in TcpSpec (try to Kill not yet existing actors) (#22500)
+Fix missing port ID assignment
+Fixed all (known) remaining LinearTraversal issues. Added comments.
+#22463 Fix race conditions in FlowScan(Async)Spec (#22474)
+Fix too early call to onIslandReady (#22468)
+Fix the case where an identity flow is appended to a Source with materialized value composition (#22442)
+Fix MatchError when asking an ActorRefAdapter (#19947)
+Fix "attmpts" typo
+Fix invalid ranges in ByteStringSpec #22389
+Fix DaemonMsgCreateSerializer #22225
+Fix configuration for persistence-query test deps (fix #22342)
+Fix JSON formatting of the jmx-cluster/akka-cluster tool #21250
+Fix AbstractPersistentActor ambiguity with Scala 2.12  #22218
+Fix grammer in cluster documentation
+Fix typos in persistence docs
+Fixes #22246 when `State` is persisted (a snapshot is saved) `rememberEntities` value is not included, but when the snapshot is loaded `rememberEntities` is not set from settings, that makes messages replay end up with wrong state as some of the message are processed with `rememberEntities` taken into account.
+Fix typo of the "Why Akka?" documentation (#22228)
+Fix metrics documentation “sample-period” to “sample-interval”
+Fix rel="canonical" links (#22132)
+Fix a typo
+Fix release date of Akka in Action
+#21955: Fixed the case when identity flow appended to Source combining materialized values (#21956)
+Fix scala.util.parsing.combinator version for OSGi import #21966 (#21968)
+Fix handling of escape sequences in JsonObjectParser #21961 (#21962)
+Fix incorrect materialized types = Unit in stream documentation (#21938)
+Fixes #20553 Tree flattening should be separate from Fusing
+Fixed the bug in Attributes.getFirst(default : T) #21658 (#21846)
+Fix #21791 by adding exclusions scala packages in external moduls
+#21833: Fix race in BroadcastHub shutdown and new registrations
+Refactored TopHeavyHitters and added comments. Fixed small bug.
+#21838: Fix ByteStringParser backpressure
+Fix formatting of plural ByteStrings in docs (#21792)
+Fix the RoundRobinLogic select function when Long is overflow would never reach the last collection element.
+Fixed error handling behaviour of Fold and Reduce
+Fix #21760 - Close Tls connection if Inbound closed before receiving peer's close_notify (#21786)
+Search box rendering issue in Firefox and IE (Fixes #21779) (#21784)
+Fix #21711 - foldAsync test using mapAsync
+=act Fix warning log that was published as error #21765
+Add DistributedPubSub message guarantee in doc (Fixes #21441) (#21713)
+#21574 Fix dispatcher use after system termination
+Fixed typo in GraphInterpreter.scala (#21552)
+Fix artery segfaults on termination (#21501)
+Fix AFR file deletion on Windows
+Fix artery test file leak #21484
+Fix initialization order in BroadcastHub caused by an otherwise innocent race #21362
+More descriptive errors from ReplayFilter (Fixes #20394)
+Add instruction for akka-samples (Fixes #21415) (#21416)
+Fix regression in Cluster Singleton, #21236
+#21135: Fix fuzzing mode
+Fixes for the JsonFraming #21150, #21154 and #21150
+Fix typo docs inbox #21132
+Fix typos in "handling blocking operations" doc (#21099)
+Fix typo in source-streaming-support #21103
+Fixed bug in Chunker, exposed by interpreter changes
+=per-tck Fix CapabilityFlag.off (#21082)
+=htc #20786 Fix for RFC 7235 so HttpChallenge only renders the realm when it has a value (#21043)
+Fixed scaladoc-typo in FSM.scala
+Fix snippet example in stream-rate doc #21006
+Fix typos in HTTP streaming doc (#20963)
+=doc Fix indefinite articles typos in docs (#20924)
+Fix the StackOverflow link (#20923)
+Fixes #20543 GraphStage subtypes should not be private to akka
+#20829 Fix double pull in GroupBy
+#20487: Fix race in FlowForeachParallelSpec
+!htp #20102 Fix authentication scheme of WWW-Authentication header for OAuth2 over HTTP (#20756)
+Fix CircuitBreaker Open state's remainingTimeout() method (#20029)
+20224: Fix onSubscribe-request-onNext reentrancy in VirtualProc (#20670)
+#20564 Fix compose method of EmptyModule to be able to Keep.left or right
+Fix for dist missing libraries #20661
+=doc Fix how to access deadLetters from system in actor (#20665)
+=htp #20610 Fix Java RouteTest to not depend on scala DSL in API (#20615)
+#20573 Fixing wrong initial buffer sizes in delay, and one logic bug
+=doc Fix float issue (#20599)
+=per Fix flaky ThrowExceptionStrategyPersistentActorBoundedStashingSpec
+Fixed 19039 for both scaladsl and javadsl
+=doc Fix path to "akka.http.host-connection-pool" (#20363)
+=doc Fix `authorizeAsync` reference in `authorize` docs (#20359)
+#20311: Fix association race condition and add reproducer
+#15882: Fix UDP unbind for Windows
+#20142: Fix implicit sender closure in TcpConnectionsStage
+doc #20259 Fix broken snippet en streams (#20260)
+20232: Fix missing last group in groupedWithin
+Fix a few typos in the docs
+=doc #20133 Fixed doc about futures
+Fixes #20126 - Added text/markdown to MediaType
+Fix typo in persistence docs
+Fix typos in persistence query docs
+Fix type of tweets Source
+=doc Fix documented type in authenticateOAuth2Async
+#20044 Fix page layout issue on chromium/linux
+Merge pull request #20040 from johanandren/wip-20039-incorrect-case-in-FixedBufferSpec-johanandren
+=str #20039 incorrect FixedBufferSpec test case fixed
+=htt,str,doc #20009 Fix for found unsafe graph stages
+Fix up some typos in the contributing guide
+Fix typo #19898
+Merge pull request #19954 from agolubev/19481-Fix_akka-bench-agolubev
+=str #19481 Fix akka-bench
+Fix reference to blog post on Distributing Akka Workloads & Shutting Down After. My Domain changed.
+=doc Fix typos in FlowDocTest & FlowDocSpec
+Fix common typos
+Fix for sharding GetClusterStats #19601
+#19830 Fix corrupted code include directive
+Fixed typo
+Merge pull request #19807 from akka/wip-FixedSizeBuffer-wrap-RK
+fix FixedSizeBuffer wrap-around
+#19553 Fix One2OneBidi not failing if inner flow completion wins the race with cancellation
+Merge pull request #19703 from akka/wip-19702-maxFixedBufferSize-RK
+add maxFixedBufferSize materializer setting #19702
+=htt #19388 Fixing broken test in akka-docs from RemoteAddress changes
+Fix a couple of build issues.
+Fixes typo in docstring.
++act #19704 Fix UnboundedControlAwareMessageQueueSemantics verification
+Fix memory leak in AddressTerminatedTopic
+Fix double border from pre sections in docs.
++htt #19657 Fix type mapping to re-enable Java HTTPS servers
+=osgi #19462 Fix version ranges
+Fixes #19593 a potential race condition in FileSubscriber. If an error occurs in the stream, the completionPromise is completed before the file is closed, leading to potential race condition if the file is then tried to be deleted upon the promise completion, while it's still open.
+Fixed some old API references
+Fix a few typos in akka-stream docs
+Fix link to contributing.md
+=str - 19327 - Fixes race condition in InputStreamSinkSpec
+Fix link to SBT installation instructions
+=pro #19288 Fix grammar in CONTRIBUTING.md
+=per #19283 Fix OSGi manifest for optional LevelDB dependency
+=act #19216 Fix AbstractNodeQueue value nepotism
+=act #19216 Fix AbstractNodeQueue nepotism
+=str #19067: Fixed error reporting after stage is closed.
+=htp Fixes early error also being signalled as error via event
++str, doc: Fix small issues in GraphStage docs
+Issue #18945. Fix HandOff problem where Shards may not be killed.
+Merge pull request #18980 from andreaTP/indirectFix
+=pro Fix unmaintained scalariform github repo link.
+=doc Fixed typo
+=doc Fixes for genjavadoc
+=str #18756: Fix Zip completion
++htt - 18781 - Fixes a SOE in javadsl.HttpsContext.create
+=doc Fix sentence in `Actors/Send messages/Ask`
+=htc #18539 Fix off-by-one error in response entity parsing
+Fix various interpreter issues, add extensive port transition tests
+Fixed formatting
+=htp #18389 Fix spray-json unmarshaller utf8 encoding bug
+=str #18384 Fix javadsl.Broadcast eagerCancel
+fix Fix JournalSpec: swap AtomicWrite(Seq) with Seq(AtomicWrite)
+Fixed a spelling error in a cluster sharding error message when coordinator is not contactable.
+=con #17670 Fix potential ReceivePipeline MatchError
+Merge pull request #18113 from rsujak/tcpNoDelayFix
+=doc Fix typo
+Fix typo in streaming IO docs
+Fixed typo.
+=pro Fix accessing None in ValidatePullRequest
+Fixed wrong test-case:
+Fixes for Akka Streams docs
++per #17799 Fix refactoring bug in deleteMessages
+Fix master cancellation in SplitWhere
+- Fix accidentally passing ClientServerSpec tests - Making materializer more robust against exceptions
+Fix for #17677, #17714, parsed to https://tools.ietf.org/html/rfc6265#section-5.1.1.
+Fix grammar in Akka Typed docs
+=doc #17329 Fixed and normalized spellings in ScalaDoc and comments
+Fix code formatting.
+=doc Fixed and normalized spellings
+=htc Fix typo in error message and small improvement in reference.conf docs
+Merge pull request #17437 from gkb/Fix-Documentation
+Merge pull request #17437 from gkb/Fix-Documentation
+=str #17453: Fix substream RS compliance, awaitAllStagesStopped and Fanin leak
+Fix caching of HTTP Date header
+=act #17391 Fix regression in 2.3.10 DirectByteBufferPool
+=str #17351: Fix pushAndFinish improper stage termination
+=str #16986 Fix memory leak in PrefixAndTail when using Sink.publisher
+=doc #16910 Fix include sections in fault tolerance docs
+=str #16924: Fix FanoutProcessor to not overwrite last termination cause
+=htc #16954 Fix handling of empty authority in Uris
+=clu #13875 Fix regression in leader selection
+=htc #16953 Fix handling of empty hosts in Uris
+=str Fix some scaladoc
+=str #16982 Fix supervision bug when more than one resume/restart
+=doc Fixed links in camel docs
++doc: Fix stream-customize docs
+=htp #16814 Fix ClassCastException in `PathMatchers.NumberMatcher`
+=str #16553: Fix TCP stream shutdown scenarios
+!str #16425: Fix bind failure tests, unbind should not fail on bind error
+Fix code example in TestKit docs.
+=rem #16623: Fix concurrent reliable delivery actors
+=per #16534 Fix compilation error in akka-sample-osgi-dining-hakkers
+Fix #16364 - Doc - Persistent actor - clarification of the recovery customization
+=doc Fix wrong rst format
++str - Fixes #16065 by adding an IteratorPublisher and removing SimpleCallbackPublisher
+=str Fix worst performance hotspot in graph builder
+=str Fix scaladoc warnings
+=tes Fix comments in TestEventListener for different event types
+=str #15888: Fix unguarded access to input queue causing NPE
+=htc Fix handling of non-BMP characters in URI encoding/decoding, closes #16014
+=str #15960 Fix broken FlowGraphCompileSpec
+=str #15892 Fix ClassCastException in ThunkSource
+=htc Fix flow transformer naming error
+=act #15409 Fix race in ActorDSL
+=act Fix tell method scaladoc
+=con #15699 Fix race in Cluster Sharding tests
+=act Fix typo in ActorRef Java example
+Fixe documentation to state consumer only access is allowed to poll/peek/peekNode/pollNode
+Fix isEmpty() and count()
+=str #15535 Fix NPE in ActorPublisher stop
+=doc Fix typo in scala remoting.rst
+=con #15600 Fix config in PeekMailboxSpec
+=per Fix minor doc issues
+=doc #13965 Fix wrong code sample for BalancingPool
+=str #15418: Fix NPE when stream is closed before having a connection actor
+Fix Duct#append type parameter
+=rem #13923 Fixes hanging ActorSystem termination
+=str #15221 Fix typo in scaladoc
+!str Fix NPE in TcpListenStreamActor
+!str Fixed part of review comments
+!str Fix wrong test in StreamSpec
+!str Fixed demand bug in ActorProducer
+!str Fixed comments round 1
+Fixed a typo
+Fixes #13983
+Fix task keys to fit sbt 0.13 style (and reality)
+=doc Fixed typos in actor documentation
+=pro Fixed release script Java version check
+=rem #3787: Fix wrong loglevels in remote events logging (forward port)
+=con #3865 Fix race in pub-sub when nodes are removed
+Merge pull request #1999 from ppiotrow/docTypedActorsFix
+=per #3862 Fix concurrency bug in LevelDB journal
+=doc Fix some typos and update sample output on multi-jvm-testing page
+Add a serialization format to actor selections. Fixes #3748
+=act #3853 Fix consistent hashing group inconsistency
+=act #3825 Fix bug in BalancingSpec
+=act #3738 Fix memory leaks in tests
+=act #3634, #3796 Fixing errors in code comments
+=doc Fix a few typos in docs
+=pro Fix doc build of java only projects
+=rem #3726 Fix race in RemoteWatcher for first quick watch/unwatch
+=doc #3792 Fixed broken tex/pdf config
+=tes #3727 Fix timing failure in TestTimeSpec
+=rem #3633 Fix race between EndpointWriter Terminated and TakeOver
+=per #3739 Fix broken Javadoc generation
++act #3671 Implementing support for MDC values defined by the application. Fixes #3671.
+=doc Fix spelling. Change depreceated to deprecated
+=doc Fix misspelled method reference in FSM
+=act #3640 Fix how BalancingDispatcher apply mailbox configuration
+=per #3615 Fix InvalidActorNameException in persistence tests
+=con #3616 Fix failing ClusterClientSpec
+=rem #3566 Fix failing RemoteNodeRestartDeathWatchSpec
+=act Fix typo in scheduler error message
+Fixed wrong line number for referencing dependency licenses.
+Fixing dead code in MessageContainerSerializer.scala
+DOC: Fix compilation error in migration guide
+Fix scaladoc warnings in akka-actor, see #3152
+Fixing missing notFull-signal in BoundedBlockingQueue drainTo and clear
+Fixes for leaked connection
+ #3434 - Fixing dead link to Iteratees in io-codec.rst
+Fix typo in docs
+Fix exiting ordering problem in ClusterSingletonManager, see #3408
+Fix one more broken code include in docs. See #3374
+Fix 3 dead links to a paper in akka-docs.
+Fixed race causing missed wakeups
+Fixed decoding in the case of fragmented delimiters #3306
+ #3205 - Fixing a race condition in TcpConnectionSpec
+Fixes to Patrik's comments
+Fixed misnamed barrier
+Fix links to EchoServer.scala
+Fixed bug in outbound quarantine
+Fixed require statement for QuarantineDuration
+Fixed review comments
+ #3182 - Fixing a StackOverflow error in the FileBasedMailbox
+Fixed compile errors
+Fix failing UnreachableNodeJoinsAgainSpec
+Fix `Connectable channel failed to connect` assertion error on OS/X
+Fixed all occurences of "retry-latch"
+Fixed wrongly configured retry-gate to avoid test-interference and reduce logs
+Fix ScalaDoc for ExtensionKey (Scala API) (closes #3197)
+Drop unserializable and oversized messages, preserving association. Fixes #3070
+Fixes after merge
+Fixes and additions to the ThrottlerTransportAdapter. See #2930
+ #3153 - 'Fixing' the ByteStringSpec by not having it generate now illegal combinations of data for copyToArray
+Fixes according review. See #3076
+Dump diagnostics (Coroner's Report) if a test takes too long. Fixes #3110
+Fixes according to review. See #3115
+Fixed TcpConnetionSpec to be l10n aware #3089
+Fixed race between async close() and ChannelReadable message in tests #3055
+Fixing invalid causality assumption in AbstractTransportAdapter #3111
+Fixed according to review comments
+Fixed backoff delay to be read from RemotingSettings
+Fixed regression caused by fixes in previous commit
+TestTransport does not rely on onSuccess for writes Fixed incorrectly reported backpressure by trttl Added retry logic for initial associate
+ #3085 - Fixing so that option-returning TypedACtor calls return None
+Make LoggingReceive docs more obvious. Fixes #3094
+Fixed broken old-io spec (due to l10n of exception msg)
+Fix typos in TcpConnectionSpec
+Fix TcpListener frequently not accepting new connections
+Make ComposableActor example work. Fixes #2765
+Remove mention of Dispatcher from DefaultScheduler scaladoc. Fixes #2759
+Fix of typo and other misc. formatting.
+Edit of I/O docs. Fixes #3047
+Fix ClusterDomainEventPublisherSpec, see #3041
+IOManager connect and accept failure handling. Fixes #3035
+Add receiveN to JavaTestKit. Fixes #3029
+Improved router documentation. Fixes #2874   * Edit of basic usage and design.   * Rearranged order of sections.   * Added more information on special message types.   * Added receiveN to JavaTestKit.
+Typo in dataflow docs. Fixes #3028
+Fixed according to revew comments
+Fixed temporarily disabled StopReading operation
+Fixed mismatched RemoteConfigSpec with reference.conf
+Fix race in CircuitBreakerMTSpec.openBreaker, see #2953
+Make it easer to override SystemMessage serialization. Fixes #2940
+Fixed missing hostname setting in RemotingSpec
+Add 'requiring': like 'ensuring' but with 'require' semantics. Fixes #2798
+Fix TcpListener not distributing incoming connections across all selectors
+Unwatch watched actors on termination. Fixes: #2923
+ Fixed problems handling passive connections in Remoting #2878
+ Fixed problems handling passive connections in Remoting #2878
+Fixed issue with Netty not releasing worker threads properly #2733
+Fix HashedWheelTimer when timeout is multiple of wheel period #2898
+Fixed startup race in transport adapters #2867
+Fix race in CircuitBreakerMTSpec, see #2823
+Fixes in NettyTransport, ThrottlerTransportAdapter, removal of Status #2844  - Promise was completed twice erroneously  - Purged the trait Status from Transport, using failed futures instead  - using intercept instead of try ... catch in tests  - added termination hook for UntrustedSpec to shut down second system  - Fixed threading issues in ThrottlerTransportAdapter  - Removed nulls from exception constructors  - replaced Promise.successful(...).future with Future.successful
+Fixes by Roland:  - exhaustive matches in AkkaProtocolTransport  - handling of Terminated in flushing state in Remoting  - various fixes of warnings
+- Added AddressUrlEncoder to centralize address string encoding at one place - Removed HasTransport trait from NettyHelpers - Fixed unsafe initialization of boss and worker executors in netty driver when using an akka dispatcher
+- Fixes in contrib and docs - Fixed getExternalAddressFor
+Fixed handling of passive connections in the failureinjector and remoting
+- Removed usage of null from Endpoint - Fixed race resolution logic in FailureDetectorRegistry to not create unnecessary instances
+ #2812 - Fixing PatternSpec for gracefulStop by testing for juc.TimeoutException (common ancestor)
+Rename FSM and TestFSMRef's timerActive_? to isTimerActive. Fixes #2766
+Add intro to migration guide and do a minor edit. Fixes #2773
+Cancel all timers when FSM terminated. Fixes #2689
+Updated instructions for Sphinx install on Mac OS. Fixes #2735
+Fix various small things in docs, see #2707
+Fixed according to review comments.
+Fix build breakage in akka-osgi-aries due to last commit (cherry picked from commit 68b60745f2d7b30d9ccd57536cd9427b04303b84)
+Fix bug where ActorSystems created via OsgiActorSystemFactory(ctx).createActorSystem fail to load akka.event classes unless bundle imports akka.event package (cherry picked from commit 3070343a5de78cd7b363e93a09d56565b1e6df9b)
+#2717 - Fixing the backoff strategy in PojoSRTestSupport
+Fixing SupervisorHierarchySpec after discovered bug in patmat
+#2694 - Fixing DataflowDocSpec examples
+Fixing SupervisorHierarchySpec after discovered bug in patmat
+Fix failing WeightedRouteesSpec, see #2547
+#2669 - Fixing the docs about how to generate the docs
+#2658 - Fixing todo sections of the documentation documentation ;-)
+Fix CircuitBreakerMTSpec openBreaker, see #2627
+Fixed code example. #2513
+Fix bug introduced in refactoring, see #2284
+2609 Fixed more 'available' typos in ClusterRouteeProvider
+Merge pull request #788 from akka/wip-2606-remove-FixedRateTask-patriknw
+Remove cluster.FixedRateTask, see #2606
+Fix for "#2579: Scheduler drifts away"
+Fixing a typo in the ScalaDoc for Actor.noSender and clarifying that it is indeed the famous null being used here.
+Fixes according to review. #2413
+Fix issue in ResizeSpec, see #2566
+Fix racy ActorWithBoundedStashSpec, see #2554
+Fixing ProducerFeatureTest
+Fixing version string in dataflow.rst
+Fixing version string and crossVersion string and artifact id
+#2536 - Fixing docs and making sure test artifacts are published for Akka Mailboxes Common
+Fixing so that the 0MQ tests will run on 0mq 3 and removed some boiler from RemoteClientLifeCycleEvent
+Fixing broken code include for Dataflow docs
+#2532 - Fixing PostRestart prematurely clearing out the fancy bits out of the InvocationHandler
+#2522 - Fixing so that an explicitly system-propertied target repository is used for the nightly sbt plugin.
+Fix scaladoc code snippets for routers
+#2476 - Fixing broken links to typesafe.com
+Fix leaking this in constructor of Cluster, see #2473
+Fix NPE due to initialization order, see #2473
+Fixing minor documentation error
+Fix compilation errro in docs code
+#2450 - Fixing expectMsgAllConformingOf and expectMsgAllClassOf + adding more tests
+Fixed typo
+#2452 - Fixing so that rootGuardian actorFor deadLetters returns deadLetters (which is where it logically lives)
+Fix failing TransitionSpec, see #2423
+Fix erroneous links page
+Fixes from review. See #2385
+#2355 - Fixing issue with takeUntil and friends on EOF plus generalizing repeat
+Fix sphinx with parallel execution
+Fixing some ScalaDoc links
+Fixing ActivationIntegrationTest
+Fixing bug in preRestart pushing the envelope as message
+Fixing CircuitBreakerSpec and CircuitBreaker
+Fixing Future2ActorSpec and adding scaladoc to Batchable and making it extend Runnable
+Fixing FutureSpec SUPERGREEN
+Fixing broken ConfigSpec
+Fixing erronous docs for Future.reduce
+Fixes #2302 - removing potential race in ActorSystemSpec
+Fixes #2321 - Upgrade Netty to 3.5.2.Final
+Fix bug in convergence, see #2317
+Fix race in UnreachableNodeRejoinsClusterSpec
+Fix bugs, see #2311
+Fixing OSGi tests by making them serially executed.
+Fix time sensitivity in NodeLeavingAndExitingSpec, see #2289
+Fixed license, lazy and naming issues
+Fix LogRoleReplace, remote lifecyle not logged
+Fix time sensitivity in LeaderLeavingSpec, see #2287
+Fix wrong order of constructor params in AccrualFailureDetector
+Fixing the zeromq module, currently requires a non-published version of the zeromq bindings, revisit later.
+Fixed RoutingSpec test. See #2268
+Fix failing TransitionSpec, failed due to wrong test, see #2259
+Fixed link to licenses for dependency projects
+Added longer waiting time to wait for leader hand-off and convergence on new leader in the LeaderLeavingSpec. Fixes #2254
+Fixing bug in flushMessage
+Fixed all issues from review. In particular fully separated state transformation and preparation for side-effecting processing.
+Fixed wrong ScalaDoc.
+Fixed and enabled tests that test LEAVING -> EXITING -> REMOVED.
+Redesign of life-cycle management of EXITING -> REMOVED. Fixes #2177.
+Fixing so that the SSL tests are ignored if the respective cipher isn't available on the machine the test runs on, so you'll see a yellow warning that the test wasn't run in that case
+Fixed protoc generated code with script and updated instructions
+Fix false convergence when singleton cluster, see #2222
+Use nanoTime in FixedRateTask, see #2214
+Fixed serious bug in ByteStringBuilder.++=
+Fixed potential problem in test
+Implemented/Fixed Cluster.remove() and state transition from LEAVING -> REMOVED.
+Fixed wrong formatting in docs
+Fix feedback, see #2194
+Fixing ScalaDoc messup
+Fix shutdown/remove race as described by @rkuhn, see #2137
+Fixed typo in config
+* Add Circuit Breaker to akka.pattern for general use. Circuit breaker implementation as described by Michael T. Nygard in Release It!. Fixes #1734
+Fix regression IllegalStateException: Can't find this Member, see #2117
+Added changes to Netty pipelines to support SSL/TLS. Fixes #1978
+Fixed typos in ByteString comments
+Fixed ByteIterator InputStream wrapping
+Fixed implementations of ByteIterator.getBytes, getShorts, etc.
+Fixed ByteIterator.{take,drop,slice} for extreme argument values
+Fixed minor check: checking on 'address' equality instead of 'port'
+Added LeaderDowning spec for testing that the leader automatically is downing an unreachable node. Fixes 2112.
+Fixing wording in use of BalancingDispatcher as routerDispatcher
+Fixed indeterministic ordering bug in test
+Fixed implementation of ByteIterator.InputStreamWrapper.next
+#2130 - Fixing unforunate naming in DiningHakkers
+Added changes to Netty pipelines to support SSL/TLS. Fixes #1978
+Fixing some additional binary compat thingies + documented the heaviness of the ActorSystem
+Fixing that getHostName thingy
+Fix compilation error, getHostString, java7
+Fixing the DurationConverterTest and the DurationConverter to conform to Camel Spec
+Fixing bad ScalaDoc
+Fixing AkkaException once and for all
+Fixing logic bug introduced in refactor
+Fixed minor sphinx complaint in microkernel docs
+Fixed error in Java code for Extension docs
+Fixed problem in cluster tests with conflicting (unused) remote servers binding to the same port (2555).
+Fixing signature of routeResponse to Unit instead of Any
+Fixed ByteStringBuilder.resizeTemp
+#1964 - Fixing doc example mistake in 0mq docs, no review
+Fixes for maven central publishing.
+Fix PromiseActorRef bang potentially throwing IllegalStateException
+Fix pi output in getting started docs. See #1890
+Fix kernel start script. See #1889
+Removed the getting started with Eclipse tutorial. Fixes #1887
+Fixed ugly log printout in ActorRefProvider.
+Fixing #1876
+Fix to support initial slash in resource path, regression from RC3
+Fixed misc issues after review.
+Fixing a couple of places where the classloader wasn't specified to load the config
+Fixing broken link in docs
+Fixed remaining issues with gossip based failure detection and removal of unreachable nodes.
+Fixed error in merge.
+Fixed bug in failure detector which also fixes bug in cluster scrutinize service. Also added test case for the bug.
+Fix merge issues
+Fix akka-remote default config's spelling/grammer/formatting
+Fixing pointless error on ask timeout completion
+Fixing typo
+Fixed minor typos in the Futures doc
+Fixing #1837
+Fixing the signatures of the Java API for Coordinated
+Fixed './scripts/generate_config_with_secure_cookie.sh' - generated the wrong config.
+Fix spelling errors.
+Fix merge conflicts
+Fixes ticket #1809 - Harmonize configuration option names.
+Fixed the failing doc test
+Fix merge conflict
+Add test with a restart. Remove thisActor name. Fix supercall in preRestart().
+Fixing doc error in remoting
+Fixing returns to return in ScalaDoc
+Fixed misc stuff after review.
+Fixed bug in ScatterGatherFirstCompletedRouterSpec.
+Fixed minor typos in the futures docs.
+Fixes bug in RandomRouter.
+Fixed config in akka-sample-remote. See #1766
+Fixed things from review. See #1310
+Fixing Deadline, removing TimeoutException and fixing bugs in Gossiper etc
+DOC: Fixed unclear docs of OneForOneStrategy and AllForOneStrategy.
+Fixing doc error
+Fixed bunch of stuff based on feedback on pull request. Moved all cluster config to akka-cluster (and added test).
+Fixed ugly logging in NettyRemoteSupport (plus misc minor formatting).
+Fixed import clash when using java7, fj in java.util.concurrent._. See #1728
+Fixed ugly logging in NettyRemoteSupport (plus misc minor formatting).
+Fixed memory leak in doc tests. See #1743
+Fixed akka-docs/java/logging.rst debug configuration
+Fixing so that PinnedDispatcher always uses the correct ThreadPool
+Fixing so that it's possible to add the FJ config to MessageDispatcherConfigurator
+Fixes after review
+Fixing so that RemoteConfigSpec actually tests what is used by Akka
+Fixing multi-jvm tests
+Fixed conflicting dependencies. See #1718
+Fix scaladoc @returns warnings (use @return)
+Fixing misconception around hotswapped behavior
+Fixing the 0MQ tests and removing boilerplate
+Fixing inverted logic
+Fixing signature of Futures.reduce
+Fixing master: Unborking of BalancingDispatcher, fixing of PinnedDispatcher config, not creating one dispatcher per message for PinnedDispatcher ;)
+Fixed failing test, due to pool-size.
+Fixing ticket #1657
+DOC: Fixed wrong log samples in migration guide
+Fixing glitch discovered by Derek
+Fixed target.nodes config property. See #1599
+Fixing ticket #1650
+Fixed invalid dependencies in akka-remote, issue with log4j 1.2.15. See #1648
+Fixed issue with cancel of scheduled recurring tasks. See #1641
+Fixed racy test, which was ported from ActorPoolSpec. See #1557
+Fixing a logic error inte the ActiveRemoteClient
+DOC: Fixed wrong documentation of bounded mailbox, mailbox-capacity should be used, not task-queue-type. See #1601
+Fixing VerifySerializabilitySpec
+Fixing typeSignature in ExecutionContext
+Fixing race in ActorTimeoutSpec and a shadowing import in RoutingSpec
+Fixing ScalaDoc errors in Future
+Fixed typos and wordings.See #1546
+Fix typed actor spec by adding matching max pool size
+Add a note to the coordinated docs. Fixes #1292
+Fixed failing/ignored tests. See #1458
+Fixing racy FutureSpec test
+Fixed typo
+Added copyright header to all samples in docs. Fixes #1531
+Add docs and tests for java api for agents. Fixes #1545
+Fix remaining warnings in docs generation
+DOC: Fixed invalid include
+Fixed even more comments on the remoting. See #1175
+Fixed broken link in "What is an Actor?"
+Fixed all comments related to remoting. Added new serialization section in documentation. See #1175. See #1536.
+Fixed failing test class.
+Fixed last(?) comments on the pull request. Fixes #1063
+Fixed typo. See #1063
+Fix minor issue in the untyped actor docs
+Updated introduction documents to Akka 2.0. Fixes #1480
+Fix compilation error in typed actor
+Fixing some ScalaDoc inaccuracies
+Updated the Pi tutorial to reflect the changes in Akka 2.0. Fixes #1354
+Add dist task for building download zip. Fixes #1001
+DOC: Replace all akka.conf references. Fixes #1469
+Fixed another shutdown of dispatcher issue. See #1454
+Fixing indentation and adding another common pitfall
+Fixed review comments
+Fixed string concatenation error
+Fixed wrong help text in exception. Fixes #1431.
+Fixed several memory and thread leaks. See #1404
+Updated samples and tutorial to Akka 2.0. Added projects to SBT project file. Fixes #1278
+Fixing #1379 - making the DLAR the default sender in tell
+Fixed race in trading perf test. Fixes #1383
+Add sbt settings to exclude or include tests using scalatest tags. Fixes #1389
+Added check in DefaultScheduler to detect if receiving actor of a reschedule has been terminated. Fixes #1393
+Fixed problems with remote configuration.
+Changed the HWT implementation to use System.nanoTime internally instead of System.currentTimeMillis. Fixes #1381
+Fixed failing test, see #1291
+Fixing FIXME to rename isShutdown to isTerminated
+Fixed some typos, see #1291
+Add more compherensive tests for DeployerSpec. Fixes #1052
+Fixing (yes, I know, I've said this a biiiiiillion times) the BalancingDispatcher, removing some wasteful volatile reads in the hot path
+Docs: Add info about timestamped snapshot versions to docs. Fixes #1164
+Fixing bug where a dispatcher would shut down the executor service before all tasks were executed, also taking the opportunity to decrease the size per mailbox by atleast 4 bytes
+Fixed missing import
+Added test for ScatterGatherFirstCompletedRouter. Fixes #1275.
+Added a Cancellable trait to encapsulate any specific scheduler implementations from leaking. Fixes #1286
+Implemented HashedWheelTimer as the default scheduling mechanism in Akka. Fixes #1291
+Check mailbox status before readding buddies in balancing dispatcher. Fixes #1338 (or appears to)
+Fixing the BuilderParents generated by protobuf with FQN and fixing @returns => @return
+Fixing ActorPoolSpec (more specifically the ActiveActorsPressure thingie-device) and stopping the typed actors after the test of the spec
+Separate latency and throughput measurement in performance tests. Fixes #1333
+Fix deprecation warnings in sbt plugin
+Fixing a compilation quirk in Future.scala and switching to explicit timeout in TypedActor internals
+Fixing erronous test renames
+Fixing TestActorRefSpec, now everything's green
+Fixing ActorModelSpec for CallingThreadDispatcher
+Fixing FutureSpec and adding finals to ActoCell and removing leftover debug print from TypedActor
+Fixing ActorModelSpec to work with the new ask/?
+Fixing ask/? for the routers so that tests pass and stuff
+Fixing TypedActors so that exceptions are propagated back
+Fixing ActorRefSpec that depended on the semantics of ?/Ask to get ActorKilledException from PoisonPill
+Fixing UntypedCoordinatedIncrementTest so it works with computers with less CPUs than 5 :p
+Add chart for comparing throughput to benchmark. Fixes #1318
+Fixed benchmark reporting, which was broken in AkkaApplication refactoring. Repo must be global to keep results
+Fixed misc FIXMEs
+Send tasks back to the Dispatcher if Future.await is called. Fixes #1313
+Fixed minor stuff in Gossiper after code review feedback.
+Fixing memory size regression introduced by non-disclosed colleague ;-)
+#1109 - Fixing some formatting and finding that Jonas has already fixed this
+Fix bug in DeathWatchSpec (I had forgotten to wrap a Failed)
+Fix the scaladoc generation again so that nightlies work
+Fixing yet another potential race in the DeathWatchSpec
+Fixing a race in DeathWatchSpec
+#1297 - Fixing two tests that have been failing on Jenkins but working everywhere else
+Fixed spelling error
+Fix remote main compile and testkit tests
+Fix remaining tests in akka-actor-tests
+Fix for right arrows in pdf docs
+Fix actor ref spec
+Fix actor ref spec
+Fixing the short timeout on PromiseStreamSpec and ignoring the faulty LoggingReceiveSpec (which will be fixed by AkkaApplication
+Fixing a bug in supervise, contains <--- HERE BE DRAGONS, switched to exists
+Fix publishing and update organization (groupId)
+Fixing DispatcherActorSpec timeout
+Fixing a logic error in the default DeathWatch
+Fixing the bookkeeping of monitors etc so that it's threadsafe
+Fixing Ticket669Spec to use the new explicit Supervisor
+Fixing the SchedulerSpec by introducing an explicit supervisor
+Fixed broken 'stop' method on RoutedActorRef, now shuts down its connections by sending out a 'Broadcast(PoisonPill)'.
+Fixed issues with LocalActorRefProviderSpec
+Fix IO actor spec by ensuring startup order
+Fix scaladoc generation manually again
+Fixed race condition in actor creation in *ActorRefProvider
+Fixing a typo in the event handler dispatcher configuration name and also deprecating some dangerous methods and adding TODOs and FIXMEs
+Fixing pesky race condition in Dispatcher
+Fix ticket 1111 spec by creating compatible exception-throwing behaviour for now.
+Fixing broken camel test
+Fix restart strategy spec by resuming on restart
+Fixing the camel tests for real this time by introducing separate registered/unregistered events for actors and typed actors
+Fixing Camel tests
+Fixing SupervisorHierarchySpec
+Fixing the SupervisorHierachySpec
+Fixing the mailboxes and asserts in the ActorModelSpec
+Fix FSMActorSpec lazy val trick by waiting for start
+Fix some tests: ActorRefSpec, ActorRegistrySpec, TestActorRefSpec.
+Fixing ReceiveTimeout
+Fixing actorref serialization test
+Fix for message dispatcher attach (and async init)
+Hide uuid from user API. Fixes #1184
+Fix the scaladoc generation. See #1017
+Fixed typos in Cluster API.
+Fixed toString and hashCode in config element. Fixing DeploymentSpec.
+Fixing race-condition in ActorRegistry.actorFor(address)
+Fixed wrong package in NetworkFailureSpec.
+Fixed misstake, missed logger(instance), in previous commit
+Use ActorRef.address as SL4FJ logger name. Fixes #1153
+Replaced toString of message with exc.getMessage when logging exception from receive. Fixes 1152
+Use slf4j logger from the incoming instance.getClass.getName. Fixes #1121
+Internal Metrics API. Fixes #939
+Revert "Fixing erronous cherry-pick change in EventHandler"
+Fixed bug in Cluster; registration of actor address per node mapping was done in wrong order and using ephemeral node.
+Fixed bug in NettyRemoteSupport in which we swallowed Netty exceptions and treated them as user exceptions and just completed the Future with the exception and did not rethrow.
+Fixing erronous cherry-pick change in EventHandler
+#1143 - Fixing EventHandler.levelFor by switching to isAssignableFrom"
+Fixed completely broken spec: ClusterActorRefCleanupMultiJvmSpec.
+Adding ClusterActorRef to ActorRegistry. Renamed Address to RemoteAddress. Added isShutdown flag to ClusterNode. Fixes #1132.
+Fixed problem with ClusterActorRefCleanupMultiJvmSpec: added missing/unbalanced barrier.
+Fixed race problem in actor initialization in Random3ReplicasMultiJvmSpec.
+Fixed problems with RandomFailoverMultiJvmSpec.
+Fixed randomly failing test for Ticket #1111
+Fixed problem with node and test infrastructure initialization order causing multi-jvm test to fail randomly.
+Fixed broken tests: RoundRobin2Replicas and RoundRobin3Replicas
+Fixed broken tests: NewLeaderChangeListenerMultiJvmSpec and ReplicationTransactionLogWriteThroughNoSnapshotMultiJvmSpec.
+Fixed broken test ReplicationTransactionLogWriteBehindNoSnapshotMultiJvmSpec
+Fixed race condition in initial and dynamic management of node connections in Cluster * Using CAS optimistic concurrency using versioning to fix initial and dynamic management of node connections in Cluster * Fixed broken bootstrap of ClusterNode - reorganized booting and removed lazy from some fields * Removed 'start' and 'isRunning' from Cluster * Removed 'isStarted' Switch in Cluster which was sprinkled all-over cluster impl * Added more and better logging * Moved local Cluster ops from Cluster to LocalCluster * Rewrote RoundRobinFailoverMultiJvmSpec to be correct * RoundRobinFailoverMultiJvmSpec now passes * Minor reformatting and edits
+Scatter-gather router. ScatterGatherRouter boradcasts the message to all connections of a clustered actor, and aggregates responses due to a specified strategy. Fixes #1111
+Docs on how to use supervision from Java is wrong. Fixes #1114
+Fix of failing ClusterActorRefCleanupMultiJvmSpec: also removed some debugging code
+Fix of failing ClusterActorRefCleanupMultiJvmSpec
+Fixing FutureTimeoutException so that it has a String constructor so it's deserializable in remoting
+Fixing ClusterSpec
+Fixed race in Future.await, and minor changes to Future.result and Future.exception
+Fixing await so that it respects infinite timeouts
+Fixing merge conflict with the name of the mutable fold test
+Fix for error while generating scaladocs
+Ticket 1002: Fixed dist:clean
+ticket 974: Fix of the ambiguity problem in the Configuration.scala
+Fixing a type and adding clarification to ticket #956
+Fixes some MBean compliance issues
+Fixing broken test in ActorSerializeSpec by adding a .get call for an assertion
+Fix for scaladoc - manually edit the protocol
+Fixing ticket #984 by renaming Exit to Death
+Fixing ticket #1005 by using WeakReference for LocalActorRefs
+Fixing ticket #997, unsafe publication corrected
+Fixing ticket #982, will backport to 1.2
+Fixing a visibility problem with Scheduler thread id
+Fixing ticket #1008, removing tryWithLock
+1. Fixed problems with actor fail-over migration. 2. Readded the tests for explicit and automatic migration 3. Fixed timeout issue in FutureSpec
+1. Makes sure to check if 'akka.enabled-modules=["cluster"]' is set before checking if the akka-cluster.jar is on the classpath, allowing non-cluster deployment even with the JAR on the classpath 2. Fixed bug with duplicate entries in replica set for an actor address 3. Turned on clustering for all Multi JVM tests
+1. Added configuration option for 'preferred-nodes' for a clustered actor. The replica set is now tried to be satisfied by the nodes in the list of preferred nodes, if that is not possible, it is randomly selected among the rest. 2. Added test for it. 3. Fixed wrong Java fault-tolerance docs 4. Fixed race condition in maintenance of connections to new nodes
+1. Changed the internal structure of cluster meta-data and how it is stored in ZooKeeper. Affected most of the cluster internals which have been rewritten to a large extent. Lots of code removed. 2. Fixed many issues and both known and hidden bugs in the migration code as well as other parts of the cluster functionality. 3. Made the node holding the ClusterActorRef being potentially part of the replica set for the actor it is representing. 4. Changed and cleaned up ClusterNode API, especially the ClusterNode.store methods. 5. Commented out ClusterNode.remove methods until we have a full story how to do removal 6. Renamed Peter's PeterExample test to a more descriptive name 7. Added round robin router test with 3 replicas 8. Rewrote migration tests to actually test correctly 9. Rewrote existing round robin router tests, now more solid 10. Misc improved logging and documentation and ScalaDoc
+Fixed broken support for automatic migration of actors residing on crashed node. Also hardened the test for automatic migration of actors.
+Fixed problems with actor migration in cluster and added tests for explicit actor migration through API
+Fix dependencies after merge
+Fixed clustered management of actor serializer. Various renames and refactorings. Changed all internal usages of 'actorOf' to 'localActorOf'.
+Fix publishing
+Fixing mem leak in NettyRemoteSupport.unregister
+Fixing ticket #908
+Fixing ticket #907
+Fixed implicit deadlock in cluster deployment
+Fixed remaining issues in pluggable serializers (cluster impl)
+1. Removed implicit scoped timeout in ? method. Reason: 'pingPongActor.?(Ping)(timeout = TimeoutMillis)' breaks old user code and is so ugly. It is not worth it. Now user write (as he used to): 'pingPongActor ? (Ping, TimeoutMillis)' 2. Fixed broken Cluster communication 3. Added constructor with only String arg for UnhandledMessageException to allow client instantiation of remote exception
+1. Removed implicit scoped timeout in ? method. Reason: 'pingPongActor.?(Ping)(timeout = TimeoutMillis)' breaks old user code and is so ugly. It is not worth it. Now user write (as he used to): 'pingPongActor ? (Ping, TimeoutMillis)' 2. Fixed broken Cluster communication 3. Added constructor with only String arg for UnhandledMessageException to allow client instantiation of remote exception
+Fix Future type issues
+Fixing spelling errors in docs
+Fixing formatting for SLF4J errors
+Fixing ticket #913 by switching to an explicit AnyRef Array
+Fixing ticket #916, adding a catch-all logger for exceptions around message processing
+Fixed failing RoutingSpec
+Fixing bugs in actorref creation, or rather, glitches
+Fixing bugs in actorref creation, or rather, glitches
+Fix type
+Fixing #648, adding transparent support for Java Serialization of ActorRef (local + remote)
+Fix warnings in docs
+Fixed failing akka-camel module, Upgrade to Camel 2.7.1, included akka-camel and akka-kernel again into AkkaProject
+Fixing ticket #888, adding startLink to Supervisor
+Fixing erronous use of actor uuid as string in ActorRegistry, closing ticket #886
+Fixing a race in CyclicIterator
+Fixed issues with 'ClusterNode.use(address): ActorRef'. Various other fixes and minor additions.
+Fixed problems with trying to boot up cluster through accessing Actor.remote when it should not
+Refactored and changed boot of Cluster and ClusterDeployer. Fixed problems with ClusterDeployerSpec and ClusterMultiJvmSpec. Removed all akka-remote tests and samples (needs to be rewritten later). Added Actor.cluster member field. Removed Actor.remote member field.
+Fixing import shadowing of TransactionLog
+Fixed wrong import in multi-jvm-test.rst. Plus added info about where the trait resides.
+1. Added docs on how to run the multi-jvm tests 2. Fixed cyclic dependency in deployer/cluster boot up 3. Refactored actorOf for clustered actor deployment, all actorOf now works
+Fix docs
+Fixing typos
+Fix nightly build by not publishing tutorials
+Fix new api task
+Fixing #846
+Docs: Fix of sample in 'Serializer API using reflection' (cherry picked from commit dfc2ba15efe49ee81aecf3b64e5291aa1ec487c0)
+Docs: Fixed third-party-integrations (cherry picked from commit 560296035172737efac428fbfb8f2d4e1e5e8cea)
+Docs: Fixed third-party-integrations (cherry picked from commit 720545de2b5ca0c47ae98428f3803109b1ff31c8)
+Docs: Fixed benchmarks (cherry picked from commit 9099a6ae18f7f3a6edf0bead6f095e74c12030db)
+Fix up the migration guide
+Fix scaladoc errors
+Fix @deprecated warnings
+Fixed toRemoteActorRefProtocol
+Fixing ticket #837, broken remote actor refs when serialized
+Fixing Akka boot config version printing
+Fixing use-cases documentation in reST
+Fix bug with 'Future << x', must be used within a 'flow' block now
+Fixed deployment-scenarios
+Fixed what-is-akka
+Fix Future.flow compile time type safety
+Fixing typos in scaladoc
+Fixing ticket #824
+Fix Scaladoc generation failure
+Fixing ticket 808
+Fixed typo
+Fixing ticket #813
+Fixing ticket #813
+Fixing tickets #816, #814, #817 and Dereks fixes on #812
+Fixing tickets #816, #814, #817 and Dereks fixes on #812
+Fixing the docs for the Actor Pool with regards to the factory vs instance question and closing ticket #744
+Fix warnings in docs
+Fixing ticket #805
+Fixing docs for Future.get
+Fix failing tests
+Fix continuation dependency. Building from clean project was causing errors
+Fixed broken pi calc algo
+Fixed broken pi calc algo
+Fix CompletableFuture.<<(other: Future) to return a Future instead of the result
+Fixed problem in Pi calculation algorithm
+Fix bug in actor pool round robin selector
+Fix another Predef.error warning
+Fixed some typos
+Fixed some typos
+Fix sbt download link
+Fix broken compile - revert import in pi tutorial
+Fixing section headings
+Fixing section headings
+Fixing section headings
+Fix section headings
+Fix section headings
+Fixing 2 wrong types in PriorityEBEDD and added tests for the message processing ordering
+Fix after removal of akka-sbt-plugin
+Fix after removal of akka-sbt-plugin
+Fixed bug with not shutting down remote event handler listener properly
+Fixed bug with not shutting down remote event handler listener properly
+1. Fixed issues with remote message tx log. 2. Added trait for network failure testing that supports 'TCP RST', 'TCP DENY' and message throttling/delay. 3. Added test for the remote transaction log. Both for TCP RST and TCP DENY.
+1. Fixed issues with remote message tx log. 2. Added trait for network failure testing that supports 'TCP RST', 'TCP DENY' and message throttling/delay. 3. Added test for the remote transaction log. Both for TCP RST and TCP DENY.
+Fix race in ActorModelSpec
+Fix race in ActorModelSpec
+Fix race with PoisonPill
+Fix race with PoisonPill
+Fixing order-of-initialization-bug
+Fixing order-of-initialization-bug
+1. Added a 'pending-messages' tx log for all pending messages that are not yet delivered to the remote host, this tx log is retried upon successful remote client reconnect. 2. Fixed broken code in UnparsableException and renamed it to UnknownRemoteException.
+1. Added a 'pending-messages' tx log for all pending messages that are not yet delivered to the remote host, this tx log is retried upon successful remote client reconnect. 2. Fixed broken code in UnparsableException and renamed it to UnknownRemoteException.
+1. Added a 'pending-messages' tx log for all pending messages that are not yet delivered to the remote host, this tx log is retried upon successful remote client reconnect. 2. Fixed broken code in UnparsableException and renamed it to UnknownRemoteException.
+1. Added a 'pending-messages' tx log for all pending messages that are not yet delivered to the remote host, this tx log is retried upon successful remote client reconnect. 2. Fixed broken code in UnparsableException and renamed it to UnknownRemoteException.
+Fixing classloader priority loading
+Fixing classloader priority loading
+Prevent throwables thrown in futures from disrupting the rest of the system. Fixes #710
+Prevent throwables thrown in futures from disrupting the rest of the system. Fixes #710
+Fixed bug with restarting supervised supervisor that had done linking in constructor + Changed all calls to EventHandler to use direct 'error' and 'warning' methods for improved performance
+Fixed bug with restarting supervised supervisor that had done linking in constructor + Changed all calls to EventHandler to use direct 'error' and 'warning' methods for improved performance
+Fixed bug with restarting supervised supervisor that had done linking in constructor + Changed all calls to EventHandler to use direct 'error' and 'warning' methods for improved performance
+Fixing stall issue in remote pipeline
+Fixing stall issue in remote pipeline
+Fix for event handler levels
+Fix for event handler levels
+Fixing #706
+Fixing #706
+Fixing ticket #703 and reformatting Pool.scala
+Fixing ticket #703 and reformatting Pool.scala
+Fixing ReadTimeoutException, and implement proper shutdown after timeout
+Fixing ReadTimeoutException, and implement proper shutdown after timeout
+Fix problems with config lists and default config
+Fix problems with config lists and default config
+Fix calls to EventHandler
+Fix calls to EventHandler
+Fixing #655: Stopping all actors connected to remote server on shutdown
+Fixing #655: Stopping all actors connected to remote server on shutdown
+Fixed #675 : preStart() is called twice when creating new instance of TypedActor
+Fixed #675 : preStart() is called twice when creating new instance of TypedActor
+Fix test after merge
+Fix test after merge
+Fix for timeout not being inherited from the builder future
+Fix for timeout not being inherited from the builder future
+Fixing bug in ifOffYield
+Fixing bug in ifOffYield
+Fixing a regression in Actor
+Fixing a regression in Actor
+Fixing neglected configuration in WorkStealer
+Fixing neglected configuration in WorkStealer
+Fixing ticket #652 - Reaping expired futures
+Fixing ticket #652 - Reaping expired futures
+Fix publish release to include parent poms correctly
+Fix publish release to include parent poms correctly
+Fixing ticket #645 adding support for resultWithin on Future
+Fixing ticket #645 adding support for resultWithin on Future
+Fixing #648 Adding support for configuring Netty backlog in akka config
+Fixing #648 Adding support for configuring Netty backlog in akka config
+Fix for local actor ref home address
+Fix for local actor ref home address
+Fixing a possible race-condition in netty
+Fixing a possible race-condition in netty
+Use correct config keys. Fixes #624
+Use correct config keys. Fixes #624
+Fix dist building
+Fix dist building
+Fixing ticket #614
+Fixing ticket #614
+Fixed some TypedActor tests
+Fixed some TypedActor tests
+Fixing ticket #608
+Fixing ticket #608
+Fixing ticket #603
+Fixing ticket #603
+Fixed remaining issues with gossip based failure detection and removal of unreachable nodes.
+Fixed error in merge.
+Fixed bug in failure detector which also fixes bug in cluster scrutinize service. Also added test case for the bug.
+Fixing #586 and #588 and adding support for reconnect and shutdown of individual clients
+Fixing #586 and #588 and adding support for reconnect and shutdown of individual clients
+Fixing erronous test
+Fixing erronous test
+Fixed logging glitch in ReflectiveAccess
+Fixed logging glitch in ReflectiveAccess
+Fixing ticket 594
+Fixing ticket 594
+Fixed bug with not setting homeAddress in RemoteActorRef
+Fixed bug with not setting homeAddress in RemoteActorRef
+Fixing a lot of stuff and starting to port unit tests
+Fixing a lot of stuff and starting to port unit tests
+Fixing a glitch in the API
+Fixing a glitch in the API
+Fixing a glitch in the API
+Fixing a glitch in the API
+Fixing SLF4J logging lib switch, insane API FTL
+Fixing SLF4J logging lib switch, insane API FTL
+Fixing SLF4J logging lib switch, insane API FTL
+Fixing silly error plus fixing bug in remtoe session actors
+Fixing silly error plus fixing bug in remtoe session actors
+Fixing %d for logging into {}
+Fixing %d for logging into {}
+Fixing all %s into {} for logging
+Fixing all %s into {} for logging
+Fixing all %s into {} for logging
+Fixed problem with message toString is not lazily evaluated in RemoteClient
+Fixed problem with message toString is not lazily evaluated in RemoteClient
+Fixed issues with config - Ticket #535
+Fixed issues with config - Ticket #535
+Fixed issues with config - Ticket #535
+Fixed bug in ActorRegistry getting typed actor by manifest
+Fixed bug in ActorRegistry getting typed actor by manifest
+Fixed bug in ActorRegistry getting typed actor by manifest
+Fixed bug in ActorRegistry getting typed actor by manifest
+Fixing ticket #533 by adding get/set LifeCycle in ActorRef
+Fixing ticket #533 by adding get/set LifeCycle in ActorRef
+Fixing groupID for SBT plugin and change url to akka homepage
+Fixing groupID for SBT plugin and change url to akka homepage
+fixed ticket #531 - Fix RedisStorage add() method in Java API : added Java test case akka-persistence/akka-persistence-redis/src/test/java/akka/persistence/redis/RedisStorageTests.java
+fixed ticket #531 - Fix RedisStorage add() method in Java API : added Java test case akka-persistence/akka-persistence-redis/src/test/java/akka/persistence/redis/RedisStorageTests.java
+Fixing ticket #530
+Fixing ticket #530
+Fixed Issue 528 - RedisPersistentRef should not throw in case of missing key
+Fixed Issue 528 - RedisPersistentRef should not throw in case of missing key
+Fixing ticket #519
+Fixing ticket #519
+Fixing #522
+Fixing #522
+Fixing ticket #524
+Fixing ticket #524
+Fix for Ticket 513 : Implement snapshot based persistence control in SortedSet
+Fix for Ticket 513 : Implement snapshot based persistence control in SortedSet
+Fixed maven groupId and some other minor stuff
+Fixed maven groupId and some other minor stuff
+Fixing optimistic sleep in actor model spec
+Fixing optimistic sleep in actor model spec
+Fixing issue with turning off secure cookies
+Fixing issue with turning off secure cookies
+Fixing #491 and lots of tiny optimizations
+Fixing #491 and lots of tiny optimizations
+Fixing ticket #498
+Fixing ticket #498
+Fixing ticket #481, sorry for rewriting stuff. May God have mercy.
+Fixing ticket #481, sorry for rewriting stuff. May God have mercy.
+Fixed compile error after resolving merge conflict
+Fixed compile error after resolving merge conflict
+Fixing Akka Camel with the new package
+Fixing Akka Camel with the new package
+Fixing missing renames of se.scalablesolutions
+Fixing missing renames of se.scalablesolutions
+Fixed bug in startLink and friends + Added cryptographically secure cookie generator
+Fixed bug in startLink and friends + Added cryptographically secure cookie generator
+Fixing a cranky compiler whine on a match statement
+Fixing a cranky compiler whine on a match statement
+Fixing #492
+Fixing #492
+Fixing race-conditions, now works albeit inefficiently when adding/removing actors rapidly
+Fixing race-conditions, now works albeit inefficiently when adding/removing actors rapidly
+Fixing #467
+Fixing #467
+Fixing performance regression
+Fixing performance regression
+Fixed akka-jta bug and added tests
+Fixed akka-jta bug and added tests
+Fixing bug where ReceiveTimeout wasn´t turned off on actorref.stop
+Fixing bug where ReceiveTimeout wasn´t turned off on actorref.stop
+Fixing UUID remote request bug
+Fixing UUID remote request bug
+Fixing ReceiveTimeout as per #446, now need to do: self.receiveTimeout = None to shut it off
+Fixing ReceiveTimeout as per #446, now need to do: self.receiveTimeout = None to shut it off
+Fixing ticket #450, lifeCycle = Permanent => boilerplate reduction
+Fixing ticket #450, lifeCycle = Permanent => boilerplate reduction
+Fixing compiler issue that caused problems when compiling with JDT
+Fixing compiler issue that caused problems when compiling with JDT
+Fixing ticket 413
+Fixing ticket 413
+Fixing varargs issue with Logger.warn
+Fixing varargs issue with Logger.warn
+Fixing #437 by adding "Remote" Future
+Fixing #437 by adding "Remote" Future
+Fixing #425 by retrieving the MODULE$
+Fixing #425 by retrieving the MODULE$
+Fixing id/uuid misfortune
+Fixing id/uuid misfortune
+Fixing Dispatcher config bug #422
+Fixing Dispatcher config bug #422
+Fixing ticket #420
+Fixing ticket #420
+Fixing mailboxSize for ThreadBasedDispatcher
+Fixing mailboxSize for ThreadBasedDispatcher
+Fix ticket #415 + add Jetty dep
+Fix ticket #415 + add Jetty dep
+Fixing master
+Fixing master
+Fixed deadlock in RemoteClient shutdown after reconnection timeout
+Fixed deadlock in RemoteClient shutdown after reconnection timeout
+Fixing bugs in DataFlowVariable and adding tests
+Fixing bugs in DataFlowVariable and adding tests
+Closes #398 Fix broken tests in akka-camel module
+Closes #398 Fix broken tests in akka-camel module
+Fixing logback config file locate
+Fixing logback config file locate
+Fixed unessecary remote actor registration of sender reference
+Fixed unessecary remote actor registration of sender reference
+Fix Atmosphere integration for the new dispatchers
+Fix Atmosphere integration for the new dispatchers
+Fix Atmosphere integration for the new dispatchers
+Fixed #305. Invoking 'stop' on client-managed remote actors does not shut down remote instance (but only local)
+Fixed #305. Invoking 'stop' on client-managed remote actors does not shut down remote instance (but only local)
+Fixed issue in AMQP by not supervising a consumer handler that is already supervised
+Fixed issue in AMQP by not supervising a consumer handler that is already supervised
+Fixing a boot sequence issue with RemoteNode
+Fixing a boot sequence issue with RemoteNode
+Fixing ticket 372
+Fixing ticket 372
+Fixed race condition in ActorRegistry
+Fixed race condition in ActorRegistry
+Fixed failing (and temporarily disabled) tests in akka-spring after refactoring from ActiveObject to TypedActor.
+Fixed failing (and temporarily disabled) tests in akka-spring after refactoring from ActiveObject to TypedActor.
+Fixing Comparable problem
+Fixing Comparable problem
+Fixed broken tests for Active Objects + added logging to Scheduler + fixed problem with SchedulerSpec
+Fixed broken tests for Active Objects + added logging to Scheduler + fixed problem with SchedulerSpec
+closes #341: Fixed O-S-G-i example.
+closes #341: Fixed O-S-G-i example.
+Fixing case 334
+Fixing case 334
+Fixed bug when trying to abort an already committed CommitBarrier
+Fixed bug when trying to abort an already committed CommitBarrier
+Fixed bug in using STM together with Active Objects
+Fixed bug in using STM together with Active Objects
+Fixing bug in ActorRegistry
+Fixing bug in ActorRegistry
+Fixing case 286
+Fixing case 286
+Fixed race-condition in Cluster
+Fixed race-condition in Cluster
+Fixed concurrency bug
+Fixed concurrency bug
+Fixed bug in Active Object restart, had no default life-cycle defined + added tests
+Fixed bug in Active Object restart, had no default life-cycle defined + added tests
+Fixed deadlock when Transactor is restarted in the middle of a transaction
+Fixed deadlock when Transactor is restarted in the middle of a transaction
+Fixed 3 bugs in Active Objects and Actor supervision + changed to use Multiverse tryJoinCommit + improved logging + added more tracing + various misc fixes
+Fixed 3 bugs in Active Objects and Actor supervision + changed to use Multiverse tryJoinCommit + improved logging + added more tracing + various misc fixes
+#304 Fixed Support for ApplicationContextAware in akka-spring
+#304 Fixed Support for ApplicationContextAware in akka-spring
+Fixed Issue #306: JSON serialization between remote actors is not transparent
+Fixed Issue #306: JSON serialization between remote actors is not transparent
+Fixing flaky tests
+Fixing flaky tests
+Fix ActiveObjectGuiceConfiguratorSpec. Wait is now longer than set timeout
+Fix ActiveObjectGuiceConfiguratorSpec. Wait is now longer than set timeout
+Fixed bug in remote deserialization + fixed some failing tests + cleaned up and reorganized code
+Fixed bug in remote deserialization + fixed some failing tests + cleaned up and reorganized code
+Fixed bug in fault handling of TEMPORARY Actors + ported all Active Object Java tests to Scala (using Java POJOs)
+Fixed bug in fault handling of TEMPORARY Actors + ported all Active Object Java tests to Scala (using Java POJOs)
+Fixed bug in fault handling of TEMPORARY Actors + ported all Active Object Java tests to Scala (using Java POJOs)
+Fixed bug in fault handling of TEMPORARY Actors + ported all Active Object Java tests to Scala (using Java POJOs)
+Fix for #286
+Fix for #286
+Fixed #287,Old dispatcher settings are now copied to new dispatcher on restart
+Fixed #287,Old dispatcher settings are now copied to new dispatcher on restart
+Fixed bug with actor unregistration in ActorRegistry, now we are using a Set instead of a List and only the right instance is removed, not all as before
+Fixed bug with actor unregistration in ActorRegistry, now we are using a Set instead of a List and only the right instance is removed, not all as before
+OSGi work: Fixed plugin configuration => Added missing repo and module config for BND.
+OSGi work: Fixed plugin configuration => Added missing repo and module config for BND.
+OSGi work: Fixed packageAction for AkkaOSGiAssemblyProject (publish-local working now) and reverted to default artifactID (removed superfluous suffix '_osgi').
+OSGi work: Fixed packageAction for AkkaOSGiAssemblyProject (publish-local working now) and reverted to default artifactID (removed superfluous suffix '_osgi').
+Fixed import in ants sample for removed Vector class
+Fixed import in ants sample for removed Vector class
+Fixed bug with stm not being enabled by default when no AKKA_HOME is set.
+Fixed bug with stm not being enabled by default when no AKKA_HOME is set.
+Fix for ticket #280 - Tests fail if there is no akka.conf set
+Fix for ticket #280 - Tests fail if there is no akka.conf set
+Fixed final issues in actor deep serialization; now Java and Protobuf support
+Fixed final issues in actor deep serialization; now Java and Protobuf support
+Fixed problem with Scala REST sample
+Fixed problem with Scala REST sample
+Fixed bug in setting sender ref + changed version to 0.10
+Fixed bug in setting sender ref + changed version to 0.10
+Fixed wrong test description
+Fixed wrong test description
+Fixing Jersey classpath resource scanning
+Fixing Jersey classpath resource scanning
+Fixed bug in remote actors + improved scaladoc
+Fixed bug in remote actors + improved scaladoc
+Fixed race condition in Agent + improved ScalaDoc
+Fixed race condition in Agent + improved ScalaDoc
+Fixed Jersey dependency
+Fixed Jersey dependency
+Fixed bug in STM and Persistence integration: added trait Abortable and added abort methods to all Persistent datastructures and removed redundant errornous atomic block
+Fixed bug in STM and Persistence integration: added trait Abortable and added abort methods to all Persistent datastructures and removed redundant errornous atomic block
+Fixed issue with CommitBarrier and its registered callbacks + Added compensating 'barrier.decParties' to each 'barrier.incParties'
+Fixed issue with CommitBarrier and its registered callbacks + Added compensating 'barrier.decParties' to each 'barrier.incParties'
+Fixed issue with CommitBarrier and its registered callbacks + Added compensating 'barrier.decParties' to each 'barrier.incParties'
+Fixing sbt run (exclude slf4j 1.5.11)
+Fixing sbt run (exclude slf4j 1.5.11)
+Fix of issue #235
+Fix of issue #235
+Fixed issue #240: Supervised actors not started when starting supervisor
+Fixed issue #240: Supervised actors not started when starting supervisor
+Fixed issue with AMQP module
+Fixed issue with AMQP module
+Fixed issue with sender reference in Active Objects
+Fixed issue with sender reference in Active Objects
+Fixed issue with sender reference in Active Objects
+Fix for no logging on sbt run (#241)
+Fix for no logging on sbt run (#241)
+Fixed issue #157
+Fixed issue #157
+Fixed issue #156 and #166
+Fixed issue #156 and #166
+Fixed bug in Transaction.Local persistence management
+Fixed bug in Transaction.Local persistence management
+Fixed wrong code rendering
+Fixed wrong code rendering
+Fixed bug in issue #211; Transaction.Global.atomic {...} management
+Fixed bug in issue #211; Transaction.Global.atomic {...} management
+Fixed regression bug in AMQP supervisor code
+Fixed regression bug in AMQP supervisor code
+Fixed issue #190: RemoteClient shutdown ends up in endless loop
+Fixed issue #190: RemoteClient shutdown ends up in endless loop
+Fixed regression in Scheduler
+Fixed regression in Scheduler
+Fixed race-condition in creation and registration of RemoteServers
+Fixed race-condition in creation and registration of RemoteServers
+Fixed cluster
+Fixed cluster
+Fixed problem with ordering when invoking self.start from within Actor
+Fixed problem with ordering when invoking self.start from within Actor
+Fixed race-condition in Supervisor linking
+Fixed race-condition in Supervisor linking
+Fixed supervision bugs
+Fixed supervision bugs
+Fixed final bug in remote protocol, now refactoring should (finally) be complete
+Fixed final bug in remote protocol, now refactoring should (finally) be complete
+Fixed wrong instructions in sample-remote README
+Fixed wrong instructions in sample-remote README
+Fixed potential stack overflow
+Fixed potential stack overflow
+Fixing bug with !! and WorkStealing?
+Fixing bug with !! and WorkStealing?
+Fixed Actor initialization problem with DynamicVariable initialied by ActorRef
+Fixed Actor initialization problem with DynamicVariable initialied by ActorRef
+Fixing the test
+Fixing the test
+Fixed remote actor protobuf message serialization problem + added tests
+Fixed remote actor protobuf message serialization problem + added tests
+Fixed Ref initial value bug by removing laziness
+Fixed Ref initial value bug by removing laziness
+Fixed problem with PersistentVector.slice : Issue #161
+Fixed problem with PersistentVector.slice : Issue #161
+Fixed: Akka kernel now loads all jars wrapped up in the jars in the ./deploy dir
+Fixed: Akka kernel now loads all jars wrapped up in the jars in the ./deploy dir
+Fixed reported exception in Akka-Security
+Fixed reported exception in Akka-Security
+Fixing akka-rest breakage from Configurator.getInstance
+Fixing akka-rest breakage from Configurator.getInstance
+Fix for InstantiationException on Kernel startup
+Fix for InstantiationException on Kernel startup
+Fixed issue with file URL to embedded repository on Windows.
+Fixed issue with file URL to embedded repository on Windows.
+Fixed problem with Agent, now tests pass
+Fixed problem with Agent, now tests pass
+Fixed typo in docs.
+Fixed typo in docs.
+Fixed bug which allowed messages to be "missed" if they arrived after looping through the mailbox, but before releasing the lock.
+Fixed bug which allowed messages to be "missed" if they arrived after looping through the mailbox, but before releasing the lock.
+Fixed deprecation warning
+Fixed deprecation warning
+Fixing container detection for SBT console mode
+Fixing container detection for SBT console mode
+Merge commit 'upstream/master' into dispatcherimprovements Fixed conflict in actor.scala
+Merge commit 'upstream/master' into dispatcherimprovements Fixed conflict in actor.scala
+Fixed mess-up of previous commit (rollback changes to akka.iml), CamelService companion object for standalone applications to create their own CamelService instances
+Fixed mess-up of previous commit (rollback changes to akka.iml), CamelService companion object for standalone applications to create their own CamelService instances
+Fixed last persistence issues with new STM, all test pass
+Fixed last persistence issues with new STM, all test pass
+Fixing a bug in JGroupsClusterActor
+Fixing a bug in JGroupsClusterActor
+Fix for link(..)
+Fix for link(..)
+Fixed actor deregistration-by-id issue and added ActorRegistry unit test.
+Fixed actor deregistration-by-id issue and added ActorRegistry unit test.
+Fixed issue with shutting down cluster correctly + Improved chat sample README
+Fixed issue with shutting down cluster correctly + Improved chat sample README
+Fixed redisclient pom and embedded repo path
+Fixed redisclient pom and embedded repo path
+Fixed bug with not shutting down remote node cluster correctly
+Fixed bug with not shutting down remote node cluster correctly
+Fixed bug in shutdown management of global event-based dispatcher
+Fixed bug in shutdown management of global event-based dispatcher
+Added registration of remote actors in declarative supervisor config + Fixed bug in remote client reconnect + Added Redis as backend for Chat sample + Added UUID utility + Misc minor other fixes
+Added registration of remote actors in declarative supervisor config + Fixed bug in remote client reconnect + Added Redis as backend for Chat sample + Added UUID utility + Misc minor other fixes
+Fixing ticket 89
+Fixing ticket 89
+Fixed bug in RemoteClient reconnect, now works flawlessly + Added option to declaratively configure an Actor to be remote
+Fixed bug in RemoteClient reconnect, now works flawlessly + Added option to declaratively configure an Actor to be remote
+Fixing Jersey resources shading
+Fixing Jersey resources shading
+Fixed bug in event-driven dispatcher + fixed bug in makeRemote when run on a remote instance
+Fixed bug in event-driven dispatcher + fixed bug in makeRemote when run on a remote instance
+Fixed bug with starting actors twice in supervisor + moved init method in actor into isRunning block + ported DataFlow module to akka actors
+Fixed bug with starting actors twice in supervisor + moved init method in actor into isRunning block + ported DataFlow module to akka actors
+Fixing comet support
+Fixing comet support
+Fixed deps
+Fixed deps
+Fixed JErsey broadcaster issue
+Fixed JErsey broadcaster issue
+Fixed issue #35: @transactionrequired as config element in declarative config
+Fixed issue #35: @transactionrequired as config element in declarative config
+Fixed problem with implicit sender + updated changes.xml
+Fixed problem with implicit sender + updated changes.xml
+Fixed issue #46: Remote Actor should be defined by target class and UUID
+Fixed issue #46: Remote Actor should be defined by target class and UUID
+Fixing master
+Fixing master
+Fix NullpointerException in the BasicAuth actor when called without "Authorization" header
+Fix NullpointerException in the BasicAuth actor when called without "Authorization" header
+Fixed misspelled XML namespace in pom. Removed twitter scala-json dependency from pom.
+Fixed misspelled XML namespace in pom. Removed twitter scala-json dependency from pom.
+Fixing trunk
+Fix trunk
+Fixed dependencies

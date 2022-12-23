@@ -1,0 +1,942 @@
+Merge pull request #4391 from rhendric/rhendric/bump-hlint
+Merge `0.15.4-next` branch (#4361)
+Merge/move 'lib/purescript-cst/' into 'src/' (#4290)
+Merge purescript-ast into purescript-cst (#4094)
+Merge pull request #4090 from rhendric/rhendric/hlint-campaign
+Merge branch '0.12.0-dev' into master
+Merge master
+Merge
+Merge pull request #2606 from purescript/phil/no-macos
+Merge pull request #2591 from purescript/add-html-rendering
+Merge pull request #2587 from purescript/phil/2584
+Merge pull request #2589 from kRITZCREEK/fix-psci-tests
+Merge pull request #2586 from michaelficarra/GH-2568
+Merge pull request #2583 from michaelficarra/GH-2581
+Merge pull request #2550 from purescript/include-ident-namespace
+Merge pull request #2582 from kRITZCREEK/psc-ide-small-logging-improvements
+Merge pull request #2579 from purescript/phil/2578
+Merge pull request #2563 from LiamGoodacre/fix/class-instance-arity
+Merge pull request #2560 from purescript/phil/2136
+Merge pull request #2559 from purescript/phil/parse-named-binders
+Merge pull request #2553 from purescript/remove-bookmarks
+Merge pull request #2552 from purescript/docs-memory-improvements
+Merge pull request #2549 from purescript/fix-pretty-print-row-labels
+Merge pull request #2532 from kRITZCREEK/psc-ide-pretty-unicode-types
+Merge pull request #2544 from purescript/include-tag-date
+Merge pull request #2541 from LiamGoodacre/fix/data-ctor-conflict
+Merge pull request #2539 from purescript/kind-pretty-printing
+Merge pull request #2536 from purescript/psstring-json-backwards-compat
+Merge pull request #2488 from michaelficarra/string-newtypes
+Merge pull request #2533 from purescript/pursuit-json-backwards-compat
+Merge pull request #2531 from purescript/update-bower-json
+Merge pull request #2522 from LiamGoodacre/update/orphan-detection
+Merge pull request #2524 from purescript/phil/kind-reserved-word
+Merge pull request #2523 from kRITZCREEK/psc-ide-fix-windows-tests
+Merge pull request #2521 from purescript/remove-stackage-badges
+Merge pull request #2474 from nwolverson/bundle-sourcemaps
+Merge pull request #2509 from purescript/improve-license-generator
+Merge pull request #2508 from purescript/phil/verify-set
+Merge pull request #2503 from purescript/add-package-info-to-reexports
+Merge pull request #2501 from purescript/prim-docs-update
+Merge pull request #2500 from purescript/add-turtle-upper-bound
+Merge pull request #2391 from rightfold/master
+Merge pull request #2497 from purescript/2039
+Merge pull request #2495 from purescript/fix-language-js-bounds
+Merge pull request #2491 from LiamGoodacre/fix/entails-kinded-type
+Merge pull request #2473 from pure11/psc-package
+Merge pull request #2469 from pure11/dump-tests-output
+Merge pull request #2470 from kRITZCREEK/psc-ide-cleanup
+Merge pull request #2468 from purescript/psc-bundle-utf8
+Merge pull request #2467 from kRITZCREEK/psc-ide-diagnostics
+Merge pull request #2465 from purescript/phil/2074
+Merge pull request #2466 from purescript/fix-windows-ci
+Merge pull request #2414 from kRITZCREEK/psc-ide-polling
+Merge pull request #2456 from purescript/new-docs
+Merge pull request #2446 from osa1/patch-1
+Merge pull request #2440 from joneshf/psc-package-uninstall
+Merge pull request #2420 from marsam/master
+Merge pull request #2417 from kRITZCREEK/text-lexer
+Merge pull request #2403 from brandonhamilton/inliner
+Merge pull request #2387 from rightfold/patch-1
+Merge pull request #2385 from LiamGoodacre/fix/bind-scope
+Merge pull request #2380 from brandonhamilton/master
+Merge pull request #2318 from kRITZCREEK/psc-ide-lens-experiments
+Merge pull request #2375 from purescript/2370
+Merge pull request #2365 from purescript/revert-http-client
+Merge pull request #2355 from purescript/phil/aeson
+Merge pull request #2354 from purescript/bsd3-license
+Merge pull request #2334 from purescript/phil/2332
+Merge pull request #2335 from purescript/phil/2331
+Merge pull request #2327 from garyb/duplicate-module-error
+Merge pull request #2329 from garyb/unused-operator-warnings
+Merge pull request #2328 from garyb/fix-dup-module-codegen
+Merge pull request #2326 from garyb/derive-newtype
+Merge pull request #2324 from nwolverson/pursuit-json-update
+Merge pull request #2322 from purescript/phil/constraint-layout
+Merge pull request #2321 from purescript/phil/fn-judgment
+Merge pull request #2307 from kRITZCREEK/psc-ide-resolve-operator-types
+Merge pull request #2305 from kRITZCREEK/psc-ide-ast-information-completion
+Merge pull request #2303 from kRITZCREEK/psc-ide-parse-type-annotations
+Merge pull request #2299 from purescript/phil/parser-issue
+Merge pull request #2300 from purescript/fix-apply-inlining
+Merge pull request #2281 from ianbollinger/hlint
+Merge pull request #2276 from ianbollinger/everywhereOnTypesTopDown
+Merge pull request #2274 from kRITZCREEK/psc-ide-rebuild-cycle
+Merge pull request #2257 from purescript/2241
+Merge pull request #2256 from purescript/2237
+Merge pull request #2253 from natefaubion/make-utf8
+Merge pull request #2223 from purescript/2181
+Merge pull request #2221 from kRITZCREEK/psc-ide-unicode-enc
+Merge pull request #2193 from kRITZCREEK/psc-ide-parse-modules
+Merge pull request #2195 from purescript/2190-scopeshadow-pos
+Merge pull request #2189 from felixonmars/patch-1
+Merge pull request #2184 from phadej/2183-nodejs-fix
+Merge pull request #2169 from purescript/0.9
+Merge pull request #2174 from michaelficarra/GH-2172
+Merge pull request #2171 from garyb/2168
+Merge pull request #2170 from garyb/1945
+Merge pull request #2167 from purescript/primed-types
+Merge pull request #2157 from garyb/2138
+Merge pull request #2156 from purescript/fix-psci
+Merge pull request #2153 from purescript/imports-first
+Merge pull request #2132 from purescript/2070
+Merge pull request #2131 from purescript/name-resolving
+Merge branch '0.9' into 2070
+Merge pull request #2143 from bmjames/bash-portability
+Merge branch 'master' into 2070
+Merge pull request #2146 from garyb/2145-partial-shadowing
+Merge pull request #2137 from garyb/warnings-tests
+Merge pull request #2135 from garyb/suggest-all-dctors
+Merge pull request #2129 from purescript/name-map
+Merge pull request #2127 from purescript/psci-save-dev
+Merge pull request #2126 from purescript/single-module-files
+Merge pull request #2120 from hdgarrood/update-parsec
+Merge pull request #2119 from hdgarrood/require-main
+Merge pull request #2117 from purescript/2055
+Merge pull request #2108 from hdgarrood/merge-master-into-0.9
+Merge branch 'master' into 0.9
+Merge pull request #2104 from pure11/master
+Merge pull request #2087 from purescript/multi-file-tests
+Merge pull request #2077 from nwolverson/sourcespan
+Merge pull request #2073 from LiamGoodacre/update/remove-deprecated-class-syntax
+Merge pull request #2085 from purescript/test-hspec-compiler
+Merge pull request #2081 from purescript/test-support-modules
+Merge pull request #2078 from DavidLindbom/bugfix-1881-v2
+Merge pull request #2071 from kRITZCREEK/psc-ide-watcher-improvements
+Merge pull request #2068 from purescript/2049
+Merge pull request #2043 from LiamGoodacre/fix/psc/pretty
+Merge pull request #2047 from purescript/revert-2046-link-as-needed
+Merge pull request #2046 from jplatte/link-as-needed
+Merge pull request #2044 from purescript/2042
+Merge pull request #2041 from LiamGoodacre/update/psci/show-import
+Merge pull request #2038 from purescript/bump-0.8.5
+Merge pull request #2032 from kRITZCREEK/create-output-on-startup
+Merge pull request #2029 from hdgarrood/relax-licensing-rules
+Merge pull request #2028 from purescript/require-exports-for-typeop-alias
+Merge pull request #2027 from purescript/type-prettyprint-updates
+Merge pull request #2022 from purescript/2018-fix-incorrect-cycle-detection
+Merge pull request #2021 from purescript/2017-supress-single-hiding-warning
+Merge pull request #2020 from purescript/1558-case-wildcards
+Merge pull request #2009 from purescript/type-operator-aliases
+Merge pull request #2016 from hdgarrood/fix-2011
+Merge pull request #2015 from LiamGoodacre/fix/qualified-ctor-ops
+Merge pull request #2003 from purescript/1862-spurious-import-suggestions
+Merge pull request #2007 from purescript/1872-reexport-unaliased
+Merge pull request #2004 from purescript/1823-redundant-import-warnings
+Merge pull request #2006 from purescript/1895-invalid-newtype-binding-group
+Merge pull request #2001 from trofi/master
+Merge pull request #2002 from hdgarrood/appveyor
+Merge pull request #2000 from purescript/winbuild-stack
+Merge pull request #1994 from purescript/utf-logging
+Merge pull request #1993 from purescript/1991
+Merge pull request #1984 from LiamGoodacre/fix/renderdocs
+Merge pull request #1990 from LiamGoodacre/fix/scope-traversal
+Merge pull request #1989 from nwolverson/language-ps-6
+Merge pull request #1964 from faineance/various-cleanup
+Merge pull request #1961 from faineance/publish_error_on_missing_license
+Merge branch 'master' of https://github.com/purescript/purescript into various-cleanup
+Merge remote-tracking branch 'upstream/master' into various-cleanup
+Merge pull request #1970 from kRITZCREEK/better-psc-publish-error
+Merge pull request #1969 from kRITZCREEK/gracefully-fail-case-split
+Merge pull request #1965 from kRITZCREEK/escape-regex-chars
+Merge pull request #1962 from hdgarrood/bump-bower-json
+Merge pull request #1958 from nwolverson/requirepath
+Merge pull request #1955 from nwolverson/suggest-hidingimport
+Merge pull request #1749 from purescript/no-meet
+Merge master
+Merge pull request #1934 from purescript/202
+Merge pull request #1925 from bagl/fix-#1916
+Merge pull request #1951 from purescript/revert-1913-bugfix-1881
+Merge pull request #1949 from purescript/1889
+Merge pull request #1950 from purescript/trusty-travis
+Merge master
+Merge pull request #1918 from stevejb71/UpgradeOptParseApplicative
+Merge pull request #1943 from kRITZCREEK/remove-superfluous-constraints
+Merge pull request #1938 from hdgarrood/drop-ghc-78
+Merge pull request #1942 from kRITZCREEK/psc-ide-cleanup
+Merge master
+Merge pull request #1913 from DavidLindbom/bugfix-1881
+Merge pull request #1932 from kRITZCREEK/catch-eof-psc-ide
+Merge pull request #1931 from kRITZCREEK/psc-ide-help-cli
+Merge pull request #1917 from purescript/literal-refactor
+Merge pull request #1933 from purescript/no-ghc-8
+Merge pull request #1910 from purescript/single-open-import-heuristic
+Merge pull request #1909 from purescript/1906-otherwise-guard
+Merge pull request #1908 from purescript/1905-fix-pretty-spin
+Merge pull request #1907 from purescript/fix-winbuild
+Merge pull request #1903 from purescript/1869-single-open-import
+Merge pull request #1900 from nwolverson/sourcemap-output-fix
+Merge pull request #1899 from phadej/update-travis-2016-02-25
+Merge pull request #1876 from kRITZCREEK/psc-ide-integration
+Merge pull request #1693 from nwolverson/sourcemap-pr
+Merge pull request #1890 from purescript/dctor-operator-aliases
+Merge pull request #1870 from purescript/eq-deriving
+Merge pull request #1863 from hdgarrood/infer-docs-types-2
+Merge pull request #1884 from izgzhen/psci
+Merge pull request #1861 from purescript/1846
+Merge pull request #1879 from phadej/ghc-8.0
+Merge pull request #1873 from hdgarrood/fix-publish-tests
+Merge pull request #1871 from kRITZCREEK/fix-stack-yaml-parse-error
+Merge branch 'master' into 1846
+Merge pull request #1865 from kRITZCREEK/hlint-refactorings
+Merge pull request #1864 from hdgarrood/stackage-https
+Merge pull request #1847 from DavidLindbom/master
+Merge pull request #1852 from purescript/tco-inline-interaction-fix
+Merge pull request #1854 from nicodelpiano/wrong_unreachable
+Merge pull request #1824 from soupi/master
+Merge pull request #1845 from purescript/otherwise
+Merge pull request #1844 from purescript/fix-usedmodules-synonym-case
+Merge pull request #1832 from hdgarrood/reexports-docs-improvements
+Merge pull request #1843 from purescript/1805-inliner-updates
+Merge pull request #1841 from sharkdp/fix-1839
+Merge pull request #1840 from hdgarrood/fix-generic-deriving
+Merge pull request #1814 from damncabbage/topic/psc-docs-help-fix
+Merge pull request #1758 from cdepillabout/change-monad-logger-to-newtype
+Merge pull request #1777 from nwolverson/error-suggestions
+Merge pull request #1830 from purescript/1825
+Merge pull request #1829 from purescript/1794
+Merge pull request #1826 from hdgarrood/relax-documentation-comments
+Merge pull request #1827 from anttih/fix-foreign-keyword
+Merge pull request #1770 from hdgarrood/reexport-docs
+Merge pull request #1817 from purescript/import-linting
+Merge pull request #1812 from purescript/1802
+Merge pull request #1811 from purescript/1796
+Merge pull request #1808 from purescript/1789-module-collision-rename-fix
+Merge pull request #1810 from purescript/1786-fix-unknownmodule-missing-pos
+Merge pull request #1788 from purescript/1774-unused-warnings
+Merge pull request #1784 from purescript/remove-impl-ctor-warning
+Merge pull request #1782 from passy/psc-publish-https
+Merge pull request #1780 from nwolverson/extra-unuseddctorimport
+Merge pull request #1773 from purescript/distinguish-propernames
+Merge pull request #1778 from nwolverson/remove-errorlink
+Merge pull request #1752 from codedmart/1549
+Merge pull request #1772 from purescript/warn-unspecified-constructors
+Merge pull request #1760 from hdgarrood/remove-parse-desugar-error
+Merge pull request #1761 from kRITZCREEK/patch-3
+Merge pull request #1759 from purescript/virtual-imports
+Merge pull request #1750 from purescript/1722-alias-any-operator
+Merge pull request #1751 from purescript/1739-unnecessary-bind-warning
+Merge pull request #1748 from purescript/1721-implicit-qual-warning
+Merge pull request #1738 from purescript/1731-negative-bottom
+Merge pull request #1747 from purescript/1742-part-2
+Merge pull request #1745 from purescript/1732
+Merge pull request #1744 from purescript/1723
+Merge pull request #1746 from purescript/1742
+Merge pull request #1737 from purescript/1717-renamer-primes
+Merge pull request #1730 from hdgarrood/rename-psci-main
+Merge pull request #1725 from hdgarrood/fix-psci-multiple-module-definitions
+Merge pull request #1727 from purescript/unicode
+Merge pull request #1648 from purescript/built-in-names
+Merge pull request #1710 from purescript/renamer-updates
+Merge pull request #1715 from purescript/eager-parsing
+Merge pull request #1707 from purescript/1700
+Merge pull request #1696 from natefaubion/multi-case-expr
+Merge pull request #1704 from purescript/partial-constraint
+Merge pull request #1709 from purescript/1645
+Merge pull request #1671 from purescript/json-errors
+Merge pull request #1691 from purescript/operator-aliases
+Merge pull request #1708 from purescript/fix-unused-class-warning
+Merge pull request #1703 from purescript/1669-constraint-parens
+Merge pull request #1688 from purescript/lazy-conflicts
+Merge pull request #1685 from purescript/open-imports
+Merge pull request #1689 from passy/psc-publish-test
+Merge pull request #1684 from purescript/class-ref-keyword
+Merge pull request #1674 from mgmeier/master
+Merge pull request #1682 from nwolverson/ctags
+Merge pull request #1679 from purescript/warn-empty-hiding
+Merge pull request #1678 from purescript/qual-module-check
+Merge pull request #1676 from purescript/dupe-ref-warnings
+Merge pull request #1668 from purescript/remove-elaborateImports
+Merge pull request #1666 from purescript/1662
+Merge pull request #1665 from purescript/1664
+Merge pull request #1663 from purescript/js-shadowed-module-names
+Merge pull request #1660 from purescript/int-range
+Merge pull request #1659 from purescript/scope
+Merge pull request #1658 from purescript/error-context
+Merge pull request #1657 from purescript/warn-duplicate-imports
+Merge pull request #1656 from purescript/1111
+Merge pull request #1655 from purescript/unused-classes
+Merge pull request #1654 from purescript/1636
+Merge pull request #1653 from purescript/sort-rows
+Merge pull request #1646 from purescript/1479
+Merge pull request #1651 from purescript/1507-import-qualified-hiding
+Merge pull request #1650 from purescript/1594-missing-dctor-reexports
+Merge pull request #1649 from purescript/1595-instance-for-reexport-fix
+Merge pull request #1574 from tfausak/patch-1
+Merge pull request #1635 from purescript/deriving-fixes
+Merge pull request #1641 from hdgarrood/only-warn-on-dirty-dry-run
+Merge pull request #1600 from nwolverson/unused-imports-2
+Merge master
+Merge pull request #1634 from purescript/1632
+Merge pull request #1631 from soupi/psci-browse
+Merge pull request #1628 from hdgarrood/less-noisy-rendered-instances
+Merge pull request #1624 from purescript/1596
+Merge pull request #1627 from hdgarrood/psc-publish-error-reporting
+Merge pull request #1626 from hdgarrood/psc-publish-message-spaces
+Merge pull request #1623 from michaelficarra/patch-1
+Merge pull request #1622 from michaelficarra/unicode-supplementary-planes
+Merge pull request #1621 from michaelficarra/GH-1602
+Merge pull request #1618 from balajirrao/master
+Merge pull request #1619 from purescript/1090
+Merge pull request #1612 from phadej/refactors-2
+Merge pull request #1616 from purescript/1590
+Merge pull request #1617 from zudov/missing-space
+Merge pull request #1614 from purescript/1335
+Merge pull request #1615 from purescript/1591
+Merge pull request #1613 from purescript/1175
+Merge pull request #1601 from purescript/tc-refactor
+Merge pull request #1611 from phadej/refactors
+Merge pull request #1606 from natefaubion/psc-bundle-require-path
+Merge master
+Merge pull request #1608 from phadej/ghc-7.10.3
+Merge branch 'master' into tc-refactor
+Merge pull request #1610 from phadej/base-compat
+Merge pull request #1603 from purescript/fieldpuns
+Merge pull request #1586 from purescript/1465
+Merge pull request #1593 from purescript/parallel-parse
+Merge pull request #1545 from nwolverson/unused-imports
+Merge pull request #1587 from purescript/1578
+Merge pull request #1581 from purescript/1072
+Merge pull request #1583 from purescript/1577
+Merge pull request #1584 from purescript/1582
+Merge pull request #1571 from purescript/1570
+Merge pull request #1572 from purescript/1297
+Merge pull request #1566 from purescript/1169
+Merge pull request #1567 from purescript/1315
+Merge pull request #1568 from purescript/1534-2
+Merge pull request #1565 from purescript/hints-after
+Merge pull request #1554 from purescript/1548
+Merge pull request #1562 from purescript/1557
+Merge pull request #1556 from purescript/friendly
+Merge master
+Merge pull request #1555 from purescript/1534
+Merge pull request #1553 from purescript/1551
+Merge pull request #1552 from purescript/1543
+Merge pull request #1547 from nwolverson/decomposing
+Merge pull request #1546 from trofi/master
+Merge pull request #1542 from aspidites/fix-warnings
+Merge pull request #1529 from purescript/revert-1525-remove-type-export-check
+Merge pull request #1540 from purescript/1535
+Merge pull request #1539 from purescript/1476
+Merge pull request #1527 from purescript/1524
+Merge pull request #1528 from purescript/1071
+Merge pull request #1530 from 5outh/typed-binders
+Merge pull request #1532 from purescript/1451
+Merge pull request #1533 from purescript/881
+Merge pull request #1531 from zudov/stack-distribution
+Merge with master + fix error
+Merge branch 'master' into typed-binders
+Merge branch 'master' of https://github.com/purescript/purescript
+Merge pull request #1525 from purescript/remove-type-export-check
+Merge pull request #1501 from purescript/tempbuild
+Merge master with feature branch
+Merge pull request #1514 from purescript/box-errors
+Merge pull request #1516 from purescript/hints
+Merge pull request #1518 from purescript/1261
+Merge pull request #1522 from kRITZCREEK/improve-install-instructions
+Merge pull request #1519 from purescript/1333
+Merge pull request #1520 from purescript/inferProperty
+Merge master to feature branch
+Merge pull request #1503 from kRITZCREEK/cleanup-refactor
+Merge pull request #1504 from michaelficarra/GH-1502
+Merge synonyms2 and incremental branches into master
+Merge pull request #1487 from purescript/containsTypeSynonyms
+Merge pull request #1498 from senju/master
+Merge pull request #1473 from purescript/1469-2
+Merge pull request #1494 from phadej/process-1.3
+Merge pull request #1489 from zudov/psci-ctrl-d-exit
+Merge pull request #1480 from purescript/externs-file
+Merge pull request #1484 from purescript/922-3
+Merge pull request #1478 from phadej/aeson-0.10
+Merge pull request #1483 from purescript/revert-1466-922
+Merge pull request #1467 from purescript/862
+Merge pull request #1466 from purescript/922
+Merge pull request #1468 from phadej/semigroups-0.17
+Merge pull request #1464 from purescript/typevar-warnings
+Merge pull request #1462 from purescript/1310
+Merge pull request #1461 from purescript/no-show
+Merge pull request #1458 from purescript/1042
+Merge pull request #1457 from purescript/1372
+Merge pull request #1454 from purescript/friendly-errors
+Merge pull request #1455 from purescript/1374
+Merge pull request #1456 from zudov/bump-stackage
+Merge pull request #1453 from purescript/1440
+Merge pull request #1450 from zudov/publish-utf8
+Merge pull request #1436 from zudov/foreign-keyword
+Merge pull request #1437 from zudov/empty-case
+Merge pull request #1431 from purescript/1426
+Merge pull request #1428 from purescript/1427-fix-composition-inline
+Merge pull request #1420 from erdeszt/move-werror-to-travis-config
+Merge pull request #1423 from mjgpy3/1268_easier_include_ffi
+Merge pull request #1425 from purescript/preserve-export-info
+Merge pull request #1424 from mjgpy3/say_correct_level_in_link_text
+Merge pull request #1422 from purescript/1421-warning-locations
+Merge pull request #1418 from purescript/1244-reexports
+Merge pull request #1419 from epost/master
+Merge pull request #1417 from phadej/travis-ghc-7.10.2
+Merge pull request #1346 from erdeszt/enhance-core-tests
+Merge pull request #1402 from purescript/1401-windows-tests
+Merge pull request #1412 from erdeszt/fix-failing-build
+Merge pull request #1411 from erdeszt/fix-warnings
+Merge pull request #1406 from purescript/421
+Merge pull request #1382 from phadej/test-random-order
+Merge master
+Merge pull request #1410 from purescript/1297-writer-leak
+Merge pull request #1405 from zudov/bump-stack-resolver
+Merge pull request #1403 from purescript/386
+Merge pull request #1398 from purescript/1391-misleading-type-import
+Merge pull request #1399 from MichaelXavier/patch-1
+Merge pull request #1395 from nicodelpiano/master
+Merge pull request #1397 from michaelficarra/patch-3
+Merge pull request #1393 from purescript/1232-unknown-impexp-errors
+Merge pull request #1389 from purescript/817-1112-multiple-imports
+Merge multiple imports of the same module
+Merge pull request #1388 from purescript/1024-module-redefined-error
+Merge pull request #1381 from hdgarrood/update-install
+Merge pull request #1378 from zudov/stack-lts-3
+Merge pull request #1365 from phadej/cabal-jobs
+Merge pull request #1373 from purescript/standalonederiving
+Merge pull request #1376 from purescript/disallow-orphan-instances
+Merge pull request #1364 from mjgpy3/1176_warn_about_non_existent_files
+Merge pull request #1363 from purescript/generics-2
+Merge pull request #1366 from lukerandall/bump-aeson-upper-bounds
+Merge pull request #1358 from purescript/1246
+Merge pull request #1138 from gbaz/deriving-generic-patch
+Merge branch 'master' into 1246
+Merge pull request #1361 from purescript/no-travis-caching
+Merge branch 'master' of github.com:purescript/purescript into deriving-generic-patch
+Merge pull request #1356 from purescript/lint
+Merge pull request #1355 from phadej/travis-stackage
+Merge pull request #1354 from purescript/1264
+Merge pull request #1353 from purescript/1321
+Merge pull request #1345 from erdeszt/use-defaultoptions-in-psci
+Merge pull request #1266 from michaelficarra/patch-3
+Merge pull request #1344 from hdgarrood/update-bundle-readme
+Merge pull request #1343 from hdgarrood/install-info
+Merge pull request #1342 from phadej/faster-travis-builds
+Merge pull request #1339 from phadej/issue-1336
+Merge pull request #1340 from purescript/1260
+Merge pull request #1332 from purescript/bump-0.7.2
+Merge pull request #1331 from purescript/1330-int-inlining
+Merge pull request #1329 from hdgarrood/psc-publish-windows
+Merge pull request #1320 from hdgarrood/psc-publish-dotcmd
+Merge pull request #1323 from hdgarrood/should-fail-with
+Merge pull request #1327 from epost/emacs-friendlier-errors
+Merge pull request #1325 from purescript/1276
+Merge pull request #1324 from purescript/1312-boolean-optimizations
+Merge pull request #1316 from hdgarrood/update-test-support
+Merge pull request #1319 from hdgarrood/publish-ensure-clean-tree
+Merge pull request #1314 from nicodelpiano/redundancy3.1
+Merge pull request #1311 from mjgpy3/1235_kind_query_fix
+Merge pull request #1303 from nicodelpiano/master
+Merge pull request #1308 from hdgarrood/publish-dry-run
+Merge pull request #1305 from purescript/fix-nix
+Merge pull request #1304 from hdgarrood/publish-to-library
+Merge pull request #1307 from hdgarrood/bundle-error-reporting
+Merge pull request #1300 from purescript/publish-help
+Merge pull request #1299 from nicodelpiano/master
+Merge pull request #1294 from mjgpy3/psci_config_in_home
+Merge pull request #1270 from hdgarrood/new-travis
+Merge pull request #1284 from mjgpy3/1272_reduce_false_positives_comp_sugg
+Merge pull request #1282 from nicodelpiano/master
+Merge pull request #1271 from purescript/improve-error-positions
+Merge pull request #1262 from wuzzeb/master
+Merge pull request #1256 from hdgarrood/fix-psc-publish-tests
+Merge pull request #1218 from nicodelpiano/master
+Merge pull request #1245 from wuzzeb/master
+Merge pull request #1252 from mjgpy3/1250_say_warning_when_warning
+Merge pull request #1248 from wuzzeb/pretty-array-literals
+Merge pull request #1231 from hdgarrood/travis-ghc-7.6
+Merge pull request #1236 from hdgarrood/refactor-parse-and-desugar
+Merge pull request #1237 from hdgarrood/handle-bower-link
+Merge pull request #1238 from hdgarrood/psc-publish-add-version
+Merge pull request #1226 from purescript/binders
+Merge pull request #1221 from hdgarrood/fix-resolved-dependencies
+Merge pull request #1220 from hdgarrood/add-display-package-error
+Merge pull request #1208 from purescript/sq-export
+Merge pull request #1202 from mjgpy3/errors_without_backticks
+Merge pull request #1172 from hdgarrood/warn-unacceptable-version
+Merge pull request #1205 from purescript/bundler
+Merge pull request #1203 from hdgarrood/hoogle-additions
+Merge pull request #1200 from purescript/psc-begone
+Merge pull request #1184 from ilexlabs/module-exports
+Merge pull request #1199 from hdgarrood/fix-where
+Merge pull request #1198 from hdgarrood/delay-docs-rendering
+Merge pull request #1187 from mjgpy3/1169
+Merge pull request #1197 from etrepum/stack-support
+Merge pull request #1193 from wuzzeb/master
+Merge pull request #1167 from purescript/1166
+Merge pull request #1180 from purescript/1174
+Merge pull request #1168 from hdgarrood/extra-info-for-hoogle
+Merge pull request #1178 from puffnfresh/perf/dictionary-lookup
+Merge pull request #1173 from puffnfresh/perf/dictionary-lookup
+Merge pull request #1164 from purescript/require-path-prefix
+Merge pull request #1163 from mjgpy3/1142_extra_type_class_member_error
+Merge pull request #1162 from puffnfresh/perf/replaceAllTypeSynonyms
+Merge pull request #1161 from puffnfresh/perf/entails-filtermodule
+Merge pull request #1155 from purescript/glob
+Merge pull request #1160 from puffnfresh/perf/dictionary-lookup
+Merge pull request #1157 from puffnfresh/bug/ghc7101-isop
+Merge pull request #1116 from hdgarrood/infix-docs
+Merge branch 'master' of github.com:purescript/purescript into deriving-generic-patch
+Merge pull request #1148 from purescript/psci-0.7
+Merge pull request #1147 from purescript/no-fromNumber-optimize
+Merge pull request #1140 from purescript/warn-on-class-operator
+Merge pull request #1145 from purescript/comments-before-instances
+Merge pull request #1144 from sinelaw/master
+Merge pull request #1143 from andyarvanitis/test-prelude-name-change
+Merge pull request #1095 from purescript/external-ffi-files
+Merge pull request #1137 from purescript/no-implicit-prelude
+Merge master and fix psci-tests
+Merge pull request #1133 from purescript/external-ffi-2
+Merge pull request #1129 from hdgarrood/add-tested-with
+Merge pull request #1127 from kRITZCREEK/master
+Merge pull request #1114 from mjgpy3/1097_less_verbose_compile_errors
+Merge pull request #1118 from hdgarrood/psc-publish-warnings
+Merge pull request #1117 from purescript/write-multiple-doc-files
+Merge pull request #1109 from hdgarrood/psc-docs-parent-dirs
+Merge pull request #1108 from hdgarrood/docs-add-version-tag
+Merge pull request #1106 from hdgarrood/fix-license
+Merge pull request #1105 from mjgpy3/1088_import_module_name
+Merge pull request #1103 from nicodelpiano/master
+Merge pull request #1102 from hdgarrood/pursuit2
+Merge pull request #1067 from hdgarrood/pursuit2
+Merge pull request #1096 from mjgpy3/func_comp_error_suggestion_squashed
+Merge pull request #1083 from purescript/arrays
+Merge pull request #1082 from purescript/errors
+Merge pull request #1077 from balajirrao/friendly-unknowns
+Merge pull request #1080 from purescript/unsafeIndex
+Merge pull request #1065 from purescript/int-literals
+Merge pull request #1064 from purescript/psci-console
+Merge pull request #1079 from puffnfresh/feature/pattern-match-errors
+Merge pull request #1070 from puffnfresh/optimisation/inline-semigroupoid-arr
+Merge pull request #1044 from puffnfresh/feature/pattern-match-errors
+Merge pull request #1056 from puffnfresh/optimisation/elim-function-semigroupoid
+Merge pull request #1058 from purescript/0.7-dev
+Merge pull request #1052 from hdgarrood/0.7-dev
+Merge remote-tracking branch 'upstream/master' into 0.7-dev
+Merge pull request #1050 from hdgarrood/check-sdist
+Merge pull request #1048 from hdgarrood/transformers-compat
+Merge pull request #1049 from purescript/0.6.9.4
+Merge pull request #1047 from hdgarrood/fix-warning
+Merge branch 'warnings' into 0.7-dev
+Merge branch '438' into 0.7-dev
+Merge pull request #1037 from hdgarrood/srclocs-show
+Merge pull request #1032 from purescript/integer-clamping
+Merge pull request #1031 from purescript/extra-instances
+Merge pull request #1029 from purescript/integer-division
+Merge pull request #1025 from purescript/integers
+Merge pull request #1018 from purescript/prelude-again
+Merge pull request #1020 from purescript/968
+Merge pull request #1017 from purescript/remove-bits
+Merge pull request #1016 from purescript/prelude
+Merge pull request #1014 from purescript/1012
+Merge pull request #1001 from purescript/boolean-algebra
+Merge pull request #1009 from purescript/1008
+Merge pull request #1002 from purescript/365
+Merge pull request #999 from purescript/error-tidying
+Merge pull request #998 from balajirrao/master
+Merge pull request #996 from purescript/981
+Merge pull request #962 from purescript/rebindable-do
+Merge pull request #992 from purescript/psc-make-options
+Merge pull request #989 from purescript/readme
+Merge pull request #987 from hdgarrood/hash-docs
+Merge pull request #986 from hdgarrood/psci-help
+Merge pull request #985 from hdgarrood/exported-dctors
+Merge pull request #978 from mrhania/flexible-row-syntax
+Merge pull request #967 from hdgarrood/psci-tests
+Merge pull request #980 from hdgarrood/master
+Merge pull request #976 from hdgarrood/fix-build-failure
+Merge pull request #958 from purescript/js-op-precedence
+Merge pull request #969 from purescript/hide-refeq
+Merge pull request #956 from hdgarrood/psci-imports
+Merge pull request #960 from andyarvanitis/preserve_names
+Merge pull request #955 from mrhania/psci-commands-overhaul
+Merge pull request #951 from purescript/constrained-typedval-fix
+Merge pull request #949 from hdgarrood/hash-docs
+Merge pull request #948 from hdgarrood/hash-docs
+Merge pull request #946 from purescript/test-everything
+Merge pull request #945 from purescript/comments
+Merge pull request #943 from purescript/942
+Merge pull request #936 from hdgarrood/fix-functor-laws
+Merge pull request #933 from purescript/eff-docs
+Merge pull request #932 from purescript/prelude-docs
+Merge pull request #926 from hdgarrood/expose-version
+Merge pull request #925 from pseudonom/patch-1
+Merge pull request #924 from purescript/905
+Merge pull request #923 from purescript/js-codegen-where
+Merge pull request #915 from purescript/prelude-comments
+Merge pull request #914 from jacereda/psc-docs-tags
+Merge pull request #913 from japesinator/basic_docs
+Merge pull request #911 from purescript/docs-space-tweak
+Merge pull request #910 from japesinator/rules
+Merge pull request #906 from purescript/745
+Merge pull request #885 from pseudonom/patch-1
+Merge pull request #903 from purescript/886
+Merge pull request #904 from joneshf/master
+Merge pull request #901 from joneshf/master
+Merge pull request #898 from purescript/supply
+Merge pull request #899 from MichaelXavier/psci-node-flags
+Merge remote-tracking branch 'refs/remotes/upstream/master' into psci-node-flags
+Merge pull request #897 from purescript/docs-output-tweaks
+Merge remote-tracking branch 'hdgarrood/update-deps'
+Merge pull request #882 from purescript/709
+Merge pull request #880 from purescript/879
+Merge pull request #877 from purescript/corefn-class-repr
+Merge remote-tracking branch 'origin/master' into corefn-class-repr
+Merge pull request #869 from berewt/master
+Merge pull request #874 from purescript/modulosemiring
+Merge pull request #872 from purescript/num
+Merge pull request #871 from purescript/870
+Merge pull request #866 from purescript/scoped-type-vars
+Merge pull request #863 from purescript/642
+Merge pull request #860 from purescript/782
+Merge pull request #857 from purescript/796
+Merge pull request #858 from purescript/802
+Merge pull request #856 from purescript/815
+Merge pull request #855 from purescript/reserved-propername-escaping
+Merge pull request #853 from purescript/object-getter-underscores
+Merge pull request #854 from michaelficarra/GH-851
+Merge pull request #850 from purescript/839
+Merge pull request #848 from purescript/795
+Merge pull request #847 from purescript/supply-object-wildcards
+Merge branch 'master' into supply-object-wildcards
+Merge pull request #846 from purescript/operator-sections
+Merge pull request #845 from purescript/object-syntax
+Merge pull request #843 from purescript/name-errors
+Merge pull request #844 from purescript/extended-object-literals
+Merge pull request #841 from paulyoung/fix-options-psc-make
+Merge pull request #838 from purescript/824
+Merge pull request #834 from purescript/812
+Merge pull request #835 from purescript/810
+Merge pull request #836 from purescript/816
+Merge pull request #829 from davidchambers/whitespace
+Merge pull request #809 from davidchambers/triple-quotes
+Merge pull request #826 from aspidites/update-utf8-string
+Merge pull request #821 from purescript/820
+Merge pull request #811 from philopon/fix/#807
+Merge pull request #808 from davidchambers/file-extension
+Merge pull request #770 from purescript/769
+Merge pull request #804 from sztupi/fix-paren-expressions
+Merge 518 branch
+Merge pull request #801 from vkorablin/completion
+Merge pull request #800 from vkorablin/completion
+Merge pull request #799 from purescript/whitespace
+Merge pull request #792 from RossMeikleham/master
+Merge pull request #790 from purescript/completion
+Merge pull request #791 from vkorablin/master
+Merge pull request #789 from vkorablin/master
+Merge pull request #787 from purescript/dce-binders
+Merge pull request #785 from dylex/master
+Merge pull request #784 from dylex/master
+Merge pull request #779 from purescript/lexer3
+Merge @garyb's core functional AST changes, fixes #710
+Merge pull request #778 from hdgarrood/export-helpers
+Merge pull request #773 from leighman/760
+Merge pull request #762 from purescript/759
+Merge pull request #763 from purescript/750
+Merge pull request #741 from KMahoney/pure-run-st
+Merge pull request #739 from dylex/master
+Merge pull request #733 from purescript/730-1
+Merge pull request #736 from anthoq88/master
+Merge pull request #735 from dylex/everywhere-once
+Merge pull request #731 from purescript/starray
+Merge pull request #728 from dylex/master
+Merge pull request #726 from purescript/725
+Merge pull request #723 from purescript/432
+Merge pull request #722 from purescript/694-take-2
+Merge pull request #719 from purescript/pipe
+Merge pull request #718 from dylex/ghc7.6
+Merge pull request #717 from purescript/697
+Merge pull request #714 from purescript/287
+Merge pull request #712 from purescript/ast
+Merge pull request #707 from purescript/psci-let
+Merge pull request #708 from purescript/650
+Merge pull request #706 from purescript/294
+Merge pull request #705 from purescript/667
+Merge pull request #704 from joneshf/functor-ops
+Merge branch 'master' of github.com:purescript/purescript into functor-ops
+Merge pull request #699 from michaelficarra/GH-606
+Merge pull request #700 from joneshf/functor-ops
+Merge pull request #695 from purescript/692
+Merge pull request #691 from purescript/0.6
+Merge pull request #681 from purescript/680
+Merge pull request #683 from purescript/682
+Merge branch '682' into 0.6
+Merge pull request #678 from purescript/676
+Merge pull request #677 from purescript/embed
+Merge pull request #675 from michaelficarra/patch-2
+Merge pull request #670 from purescript/657
+Merge pull request #672 from purescript/671
+Merge pull request #666 from purescript/524
+Merge pull request #662 from ardumont/add-browse-module-in-psci
+Merge pull request #656 from EmmanuelOga/fix-readme-link
+Merge pull request #659 from dylex/imminstance
+Merge branch '618'
+Merge pull request #643 from purescript/457
+Merge pull request #655 from purescript/634
+Merge pull request #648 from dylex/imminstance
+Merge pull request #654 from purescript/649
+Merge pull request #653 from purescript/652
+Merge pull request #646 from purescript/bundle
+Merge pull request #640 from purescript/check-exports
+Merge pull request #639 from purescript/no-runtime-type-checks
+Merge pull request #635 from Bogdanp/master
+Merge pull request #636 from purescript/611
+Merge pull request #637 from purescript/624
+Merge pull request #629 from purescript/620
+Merge pull request #630 from antoinecomte/patch-1
+Merge branch 'master' of github.com:paf31/purescript
+Merge pull request #623 from dylex/master
+Merge pull request #621 from puffnfresh/patch-3
+Merge pull request #603 from purescript/bindists
+Merge pull request #605 from purescript/594
+Merge pull request #604 from purescript/533
+Merge pull request #601 from purescript/flight_work
+Merge pull request #599 from phadej/blockstring
+Merge pull request #596 from fjdumont/patch-1
+Merge pull request #590 from nullobject/refactor/prelude
+Merge pull request #586 from purescript/584
+Merge pull request #583 from purescript/557
+Merge pull request #573 from joneshf/releases
+Merge pull request #578 from purescript/570
+Merge pull request #577 from purescript/548
+Merge pull request #576 from purescript/403
+Merge pull request #575 from purescript/564
+Merge pull request #574 from purescript/569
+Merge pull request #572 from op8867555/master
+Merge pull request #568 from mpietrzak/master
+Merge pull request #567 from joneshf/master
+Merge pull request #566 from natefaubion/issue-532
+Merge pull request #565 from guillaume-nargeot/master
+Merge pull request #559 from purescript/js-unit
+Merge pull request #560 from purescript/alternative
+Merge pull request #558 from purescript/422
+Merge pull request #552 from purescript/551
+Merge pull request #550 from purescript/536
+Merge pull request #546 from trofi/master
+Merge pull request #545 from purescript/unused-const
+Merge pull request #544 from 5outh/psci-module-change
+Merge pull request #541 from purescript/expr
+Merge pull request #522 from andreypopp/feature/import-hiding
+Merge pull request #537 from purescript/tcocase
+Merge pull request #535 from purescript/renamer
+Merge branch 'renamer' into tcocase
+Merge pull request #526 from joneshf/inlining
+Merge branch 'renamer' into tcocase
+Merge pull request #528 from 5outh/master
+Merge pull request #521 from purescript/508
+Merge pull request #520 from purescript/dce-fix
+Merge pull request #519 from purescript/ffi-safe-compare
+Merge pull request #515 from purescript/newtype-updates
+Merge pull request #510 from purescript/newtypes
+Merge pull request #513 from joneshf/instance-names
+Merge pull request #509 from joneshf/docgen-stderr
+Merge pull request #507 from purescript/optimise-constructors
+Merge pull request #504 from purescript/private-instances
+Merge pull request #503 from purescript/new-op
+Merge pull request #499 from michaelficarra/GH-497
+Merge pull request #500 from hexx/change-to-unit-in-docs
+Merge pull request #495 from epost/patch-1
+Merge pull request #491 from purescript/collapse-nested-if
+Merge pull request #476 from purescript/prototypes-with-typeclasses
+Merge pull request #489 from purescript/480
+Merge branch 'visibility'
+Merge pull request #488 from purescript/mkfn
+Merge pull request #482 from purescript/multifn
+Merge pull request #484 from purescript/implicit-prim-fix
+Merge pull request #483 from purescript/implicit-prim
+Merge pull request #472 from purescript/remove-bindnames
+Merge pull request #471 from purescript/foreachE
+Merge pull request #462 from purescript/no-empty-superclasses
+Merge pull request #459 from purescript/458
+Merge pull request #456 from purescript/eq-array
+Merge pull request #455 from pelotom/patch-1
+Merge pull request #453 from darthdeus/errors-to-stderr
+Merge pull request #452 from purescript/EffBug
+Merge pull request #447 from bergmark/cabal-source-repo
+Merge pull request #446 from nagisa/patch-1
+Merge pull request #443 from purescript/versions
+Merge pull request #441 from michaelficarra/patch-1
+Merge pull request #439 from purescript/eff-unit
+Merge pull request #437 from sebastiaanvisser/master
+Merge pull request #435 from purescript/docgen-no-prim
+Merge pull request #434 from purescript/docgen-dctors
+Merge pull request #431 from joneshf/master
+Merge pull request #430 from cblp/patch-1
+Merge pull request #429 from purescript/tco-fix
+Merge pull request #426 from epost/master
+Merge pull request #425 from epost/master
+Merge pull request #424 from garyb/multiple-arguments
+Merge branch 'master' of github.com:paf31/purescript
+Revert "Merge branch 'tco-case'"
+Merge pull request #420 from eamelink/comment-docs
+Merge branch 'tco-case'
+Merge pull request #419 from purescript/supply
+Merge pull request #415 from purescript/faster-instances
+Merge pull request #413 from garyb/do-pos-errors
+Merge pull request #414 from purescript/bettertco
+Merge pull request #407 from garyb/unit
+Merge pull request #406 from puffnfresh/unit
+Merge pull request #402 from purescript/ord-array-fix
+Merge pull request #400 from garyb/prettyprinter-escaping
+Merge pull request #399 from garyb/import-indents
+Merge remote-tracking branch 'osa1/desugaringpatch'
+Merge pull request #397 from garyb/master
+Merge pull request #393 from purescript/noemptymodules
+Merge pull request #391 from garyb/psci-modules
+Merge pull request #392 from garyb/multi-docgen
+Merge pull request #389 from garyb/docgen-exports
+Merge pull request #382 from garyb/master
+Merge remote-tracking branch 'joneshf/hierarchy'
+Merge branch 'master' of github.com:purescript/purescript into hierarchy
+Merge branch 'commonjs1'
+Merge branch 'master' of https://github.com/purescript/purescript
+Merge pull request #373 from garyb/array-functions
+Merge pull request #366 from joneshf/master
+Merge branch 'master' of github.com:purescript/purescript
+Merge pull request #364 from dckc/patch-1
+Merge pull request #363 from garyb/class-errors
+Merge pull request #362 from garyb/semigroupoid
+Merge branch 'superclasses'
+Merge pull request #359 from garyb/eq-ordering
+Merge branch 'master' into superclasses
+Merge pull request #350 from garyb/astypeof
+Merge pull request #347 from garyb/elim-unused-fixities
+Merge pull request #345 from garyb/externs-imports
+Merge pull request #340 from osa1/ir
+Merge pull request #336 from garyb/sourcepos-errors
+Merge pull request #335 from garyb/sourcepos-errors
+Merge branch 'srcpos'
+Merge pull request #330 from garyb/unicode-in-strings
+Merge pull request #329 from garyb/unicode-in-strings
+Merge pull request #324 from garyb/no-prelude-fix
+Merge pull request #323 from garyb/optimize-by-default
+Merge pull request #319 from garyb/name-decl-errors
+Merge pull request #320 from garyb/hidden-type-error
+Merge pull request #318 from garyb/where-clauses
+Merge pull request #317 from garyb/negative-numbers
+Merge branch 'let'
+Merge pull request #305 from garyb/master
+Merge pull request #303 from garyb/auto-prelude
+Merge Operators.hs
+Merge branch 'master' into auto-prelude
+Merge branch 'operators'
+Merge pull request #299 from garyb/master
+Merge branch 'make'
+Merge pull request #293 from joneshf/master
+Merge pull request #288 from joneshf/master
+Merge pull request #284 from joneshf/master
+Merge pull request #281 from garyb/master
+Merge pull request #278 from puffnfresh/patch-2
+Merge pull request #274 from joneshf/master
+Merge branch 'master' of github.com:purescript/purescript
+Merge branch 'master' of github.com:purescript/purescript
+Merge pull request #266 from robertrolandorg/patch-1
+Merge pull request #263 from garyb/master
+Merge pull request #259 from timmytofu/patch-2
+Merge pull request #262 from joneshf/record-updates
+Merge branch 'master' of github.com:purescript/purescript into record-updates
+Merge branch 'master' of github.com:purescript/purescript into record-updates
+Merge branch 'master' of github.com:purescript/purescript into record-updates
+Merge pull request #257 from timmytofu/patch-1
+Merge pull request #252 from garyb/master
+Merge pull request #250 from garyb/master
+Merge pull request #249 from garyb/master
+Merge pull request #237 from garyb/master
+Merge branch 'master' of github.com:paf31/purescript
+Merge branch 'renamed2'
+Merge remote-tracking branch 'garyb/renaming' into renaming
+Merge pull request #228 from joneshf/psci-fixes
+Merge pull request #227 from joneshf/master
+Merge pull request #225 from joneshf/remove-lint
+Merge pull request #222 from joneshf/psci-fixes
+Merge branch 'master' of github.com:purescript/purescript into psci-fixes
+Merge pull request #221 from garyb/master
+Merge pull request #217 from garyb/master
+Merge pull request #214 from joneshf/psci-fixes
+Merge pull request #215 from garyb/master
+Merge branch 'master' of github.com:purescript/purescript into psci-fixes
+Merge pull request #212 from joneshf/master
+Merge pull request #210 from joneshf/master
+Merge branch 'master' of github.com:purescript/purescript
+Merge pull request #209 from joneshf/master
+Merge pull request #208 from joneshf/psci-fixes
+Merge garyb's changes to the Prelude
+Merge branch 'master' of github.com:purescript/purescript into psci-fixes
+Merge branch 'master' into nostatements
+Merge branch 'master' into nostatements
+Merge pull request #200 from garyb/master
+Merge pull request #199 from joneshf/show-array
+Merge pull request #198 from joneshf/master
+Merge pull request #197 from joneshf/psci-fixes
+Merge branch 'master' of github.com:joneshf/purescript
+Merge branch 'master' of github.com:purescript/purescript into psci-fixes
+Merge pull request #196 from joneshf/master
+Merge pull request #195 from garyb/master
+Merge pull request #192 from garyb/master
+Merge branch 'master' into nostatements
+:Merge branch 'master' into nostatements
+:OMerge branch 'master' into nostatements
+Merge pull request #189 from garyb/master
+Merge pull request #183 from garyb/master
+Merge pull request #180 from garyb/master
+Merge master
+Merge branch 'master' of https://github.com/garyb/purescript
+Merge branch 'master' of github.com:paf31/purescript
+Merge pull request #170 from garyb/master
+Merge pull request #168 from garyb/stringnames
+Merge branch 'singleargs'
+Merge pull request #160 from garyb/singleargs
+Merge pull request #159 from puffnfresh/superclasses
+Merge pull request #156 from puffnfresh/travis-image
+Merge pull request #155 from puffnfresh/gitignore-sandboxes
+Merge branch 'singleargs' of github.com:paf31/purescript into singleargs
+Merge pull request #154 from garyb/master
+Merge pull request #153 from puffnfresh/name-mangling
+Merge pull request #152 from puffnfresh/name-mangling
+Merge pull request #151 from puffnfresh/name-mangling
+Merge pull request #149 from garyb/master
+Merge pull request #146 from puffnfresh/findexecutable-node
+Merge pull request #134 from taku0/fix_inlining
+Merge branch 'master' into typeclasses
+Merge pull request #103 from utkarshkukreti/dont-add-trailing-whitespace
+Merge branch 'tco'
+Merge branch 'bindinggroups'
+Merge polytype and type data types
+Merge pull request #70 from Bogdanp/master
+Merge pull request #61 from chrissmoak/guards-scope
+Merge branch 'master' of github.com:paf31/purescript
+Merge branch 'master' of github.com:paf31/purescript
+Merge branch 'master' of github.com:paf31/purescript
+Merge branch 'master' of github.com:paf31/purescript
+Merge pull request #51 from L8D/patch-1
+Merge pull request #50 from lucian1900/patch-1
+Merge branch 'master' of github.com:paf31/purescript
+Merge pull request #41 from Nami-Doc/patch-1
+Merge pull request #38 from puffnfresh/patch-1
+Merge branch 'master' of github.com:paf31/purescript
+Merge branch 'master' of github.com:paf31/purescript
+Merge branch 'master' of github.com:paf31/purescript
+Merge branch 'master' of github.com:paf31/purescript
+Merge branch 'master' of github.com:/paf31/purescript

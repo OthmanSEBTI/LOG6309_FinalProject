@@ -1,0 +1,1569 @@
+ignore/types: add automated test for sortedness
+msrv: bump to Rust 1.65.0
+ignore/types: add devicetree filetype
+readme: add guix installation instructions
+ignore/types: add carp
+ignore/types: add ReScript and ReasonML
+ignore/types: add motoko and candid
+readme: add more links to overview
+readme: add note about 'rg -uuu'
+ci: bump actions/checkout from 2 to 3 (#2318)
+ci: bump actions/upload-release-asset from 1.0.1 to 1.0.2 (#2317)
+ci: enable Dependabot for the Actions workflows
+ci: remove `fetch-depth` parameter from the checkout action
+ci: use `cargo check`'s `--check` option directly
+ci: switch to using '@master' dtolnay action
+ci: use latest runner images in CI
+doc: fix typo
+ignore/types: add *.cjs, *.mjs, *.cts, *.mts
+ignore/types: add embedded puppet templates
+ignore/types: add Solidity
+ripgrep: add /.github/ to whitelist
+doc: add '-.' as short flag for '--hidden'
+doc: fix a few typos
+ignore/types: improve 'markdown' and 'php' types
+doc: appease rustdoc
+grep-0.2.10
+grep: bump grep-searcher to 0.1.10
+grep-searcher-0.1.10
+searcher: remove stray 'dbg!'
+grep-0.2.9
+grep: bump 'grep-regex' and 'grep-searcher'
+grep-searcher-0.1.9
+searcher: bump grep-regex dep to 0.1.10
+grep-regex-0.1.10
+regex: fix matching bug when text anchors are used
+ci: switch to dtolnay/rust-toolchain
+ignore/types: add dts to default types
+doc: fix typo
+doc: fix typos
+ignore: fix gitignore parsing bug for trailing \/
+globset/readme: update version number and some links
+deps: update to globset 0.4.9
+globset-0.4.9
+globset: make 'log' an optional feature
+deps: update to packed_simd_2 0.3.8
+ignore/types: add pants
+ignore/types: add hare to default types
+printer: fix duplicative replacement in multiline mode
+ignore/types: improve Bazel globs
+cargo: use SPDX license format for all crates
+ignore/types: add '*.hh' to C++ headers
+ignore/types: add '*.asp' for asp type
+deps: bump memmap2 to 0.5
+deps: update everything
+warnings: remove/tweak some dead code
+ci: fix failing nightly-arm build on ci workflow
+doc: transcoding is done in addition to search
+cli: improve configuration failure mode
+ignore/types: add fennel
+ignore: if require_git is false, don't stat .git
+ignore/types: improve 'vim' and 'vimscript' types
+ignore/types: add lilypond
+ignore/types: add hy
+ignore/types: fix futhark type extension
+ignore/types: add janet
+readme: update install commands for Debian/Ubuntu
+doc: add -F/--fixed-strings to "common options"
+doc: --field-match-separator's default value is ':'
+doc: fix typo "used" -> "use"
+ignore/types: add texinfo
+ignore/types: add CUDA
+changelog: add #1911 bug fix
+searcher: disable mmap searching on non-64 bit
+doc: fix typo in --glob flag docs
+ignore/types: add file extensions for Crystal
+globset-0.4.8
+globset: fix compilation when serde is enabled
+doc: fix formatting of nested list
+pkg: fix version number for 13.0.0 release
+regex: update regression test
+regex: fix -w when regex can match empty string
+ci: use musl to build debian artifact
+changelog: add template for next entry
+pkg: update brew tap version to 13.0.0
+release: work around GitHub Actions weirdness
+release: add note about pushing changes
+13.0.0
+changelog: final prep before ripgrep 13 release
+deps/grep: update minimal versions
+grep-0.2.8
+deps/printer: update minimal versions
+grep-printer-0.1.6
+deps/searcher: update minimal versions
+grep-searcher-0.1.8
+deps/pcre2: update minimal versions
+grep-pcre2-0.1.5
+pcre2: update minimal version to 0.2.3
+deps/regex: update minimal versions
+grep-regex-0.1.9
+deps/matcher: update minimal versions
+grep-matcher-0.1.5
+deps/cli: update minimal versions
+grep-cli-0.1.6
+deps/ignore: update minimal versions
+release: add step about making sure 'master' is in sync
+ignore-0.4.18
+deps/globset: update minimal versions
+globset-0.4.7
+release: tweak 'cargo outdated' advice
+deps: update to memmap2
+deps: updates libc and syn
+msrv: bump to Rust 1.52.1
+deps: update everything
+edition: manual changes
+edition: run 'cargo fix --edition --edition-idioms --all'
+edition: set edition=2018
+edition: initial 'cargo fix --edition' run
+changelog: fix typo and add Ruby to type improvement list
+ignore/types: config.ru and *.rbw Ruby
+changelog: a bit of polish
+github: add note about file types
+ci: re-work github actions release
+changelog: prep for ripgrep 13 release
+printer: trim line terminator before doing replacements
+changelog: fish completions are staying
+globset: expand docs and impl Default for GlobSet
+printer: trim line terminator before finding submatches
+grep: fix bugs in handling multi-line look-around
+printer: fix multi-line replacement bug
+printer: vimgrep now only prints one line
+cli: add --field-{context,match}-separator flags
+cargo: statically link binary on Windows/MSVC
+globset: fix recursive suffix over matching
+ignore: check ignore rules before issuing stat calls
+printer: fix context bug when --max-count is used
+searcher: do UTF-8 BOM sniffing like UTF-16
+ignore/types: add red
+ignore/types: replace duplicate glob with *.aspx.vb
+doc: explain ignore rules a bit more
+cli: add -. as short option for --hidden
+printer: fix \r\n line terminator handling
+cli: print warning if nothing was searched
+cargo: remove "readme" field
+doc: document '{a,b}' glob syntax
+ci: check docs for all crates
+doc: clarify --files-with-matches and --files-without-match
+doc: improve wording
+cli: fix process leak
+searcher: remove variable shadowing
+regex: add unit tests for non-matching anchor bytes
+args: make --passthru and -A/-B/-C override each other
+doc: add vulnerability report docs
+cli: fix arbitrary execution of program bug
+changelog: sync with commits since last release
+impl: fix --multiline anchored match bug
+ignore/types: add po files to supported types
+printer: fix --vimgrep for multi-line mode
+doc: fix typo in --engine flag docs
+deps: update to regex 1.5.2
+deps: update everything
+doc: add links to Spanish translation
+doc: clarify --hidden definition
+ignore/types: add mint
+core: add a 'trace' message
+searcher: update outdated comment for buffer size
+tests: fix tests for buffer size change
+searcher: bump buffer size
+ci: fix deb build script in clean checkout
+deps: bump regex and regex-syntax
+gitignore: add HTML files generated by cargo -Z timings
+ignore/types: improve bazel globs
+regex: s/CachedThreadLocal/ThreadLocal
+deps: update everything
+deps: replace memmap with memmap2
+ignore-0.4.17
+cli: fix stdin detection for Powershell on Unix
+ignore: provide underlying IO Error
+readme: fix link to .deb
+ignore/types: add yang file type
+ci: update to GITHUB_ENV
+doc: update CI links in crate READMEs
+doc: sync --help output with man page
+doc: clarify that CLI invocation must always be valid
+ci: install cross from crates.io
+doc: update several links to use https
+doc: add missing backtick in FAQ
+printer: tweak binary detection message format
+deps: update base64 to 0.13.0
+deps: bring in all semver updates
+deps: targeted update of some dependencies
+ignore/types: add Futhark
+ignore/types: generalize bazel type a bit
+globset-0.4.6
+globset: remove regex unicode dependency
+ignore/types: add a type for minified files
+doc: clarify how -S/--smart-case works
+ignore/types: add flatbuffers type
+doc: elaborate on the function of -u/--unrestricted
+benchsuite/runs: add updated benchmark, with ugrep
+benchsuite: add ugrep commands to benchmarks
+benchsuite: remove -a flag from grep
+benchsuite: remove sift, pt and ucg
+benchsuite: update subtitle URLs
+spelling: fix various misspellings
+doc: fix FAQ ordering
+doc: document cygwin path translation behavior
+deps: upgrade pcre2-sys to 0.2.5
+deps: bump pcre2-sys again
+deps: bump pcre2-sys
+ignore/types: add vcl (#1659)
+ignore/types: add racket
+ignore/types: add dvc
+doc: fix typos
+changelog: add empty TBD section to CHANGELOG
+pkg: update brew tap version to 12.1.1
+12.1.1
+changelog: 12.1.1
+doc: small release checklist updates
+core: update minimal dependency versions
+grep-0.2.7
+grep: update minimal dependency versions
+grep-cli-0.1.5
+ignore-0.4.16
+deps: update all dependencies
+ignore/doc: update misleading documentation
+doc: clarify capture group indices
+ignore/types: add meson filetype
+doc: fix egregious markup output
+doc: more release checklist updates
+pkg: update brew tap to version 12.1.0
+changelog: 12.1.0
+12.1.0
+doc: add more detail to release checklist
+deps: update minimal versions for dependencies
+grep-0.2.6
+grep: update minimal dependency versions
+grep-printer-0.1.5
+grep-regex-0.1.8
+ignore-0.4.15
+doc: add 'cargo outdated' step to release checklist
+deps: update to base64 0.12
+deps: update all dependencies
+changelog: add #1550 to CHANGELOG
+doc: add a release checklist
+changelog: add downstream notices
+doc: use asciidoctor instead of a2x
+ignore: allow filtering with predicate
+grep-cli: support files compressed by compress(1)
+doc: shorten -h/--help prelude
+doc: add a section about --pre to the GUIDE
+doc: add -U/--multiline to common options
+cli: improve invalid UTF-8 pattern error message
+doc: note how to escape a '$' in --replace
+doc: clarify that *files* override gitignores
+doc: add config file note for --type-{add,clear}
+snap: remove snapcraft configuration
+printer: fix --count-matches output
+tests: add new regression test for fixed inner literal bug
+deps: small dependency updates
+crates/ignore: switch to depth first traversal
+readme: fix ordering of benchmarks
+github: add necessary metadata
+github: switch to new issue template format
+doc: fix newline escape
+pkg: fix brew tap version
+ci: disable man page check
+regex: fix another inner literal bug
+doc: fix typo in help description
+ci: upgrade to actions/checkout@v2
+pkg: update brew tap to 12.0.1
+12.0.1
+changelog: prepare for 12.0.1 release, redux
+ignore-0.4.14
+changelog: prepare for 12.0.1 release
+deps: minor dependency updates
+ignore/types: add ebuild type
+ci: attempt to fix CI
+ignore-0.4.13
+grep-regex-0.1.7
+regex: special case literal extraction
+tests: fix typo in test name
+crates.io: remove badges
+ignore: fix failing test
+ignore: squash noisy error message
+ci: fix deb build script
+pkg: update brew tap to 12.0.0
+ci: tweak release name
+release: 12.0.0, take 2
+ripgrep: release 12.0.0
+changelog: prepare for 12.0.0 release
+ci: make script names consistent
+ci: remove Travis and appveyor specific stuff
+ci: rebuild release infrastructure on GitHub Actions
+readme: update file size
+readme: add 'Unicode' label to ugrep
+readme: update benchmarks
+regex: avoid using literal optimizations when whitespace is detected
+style: fix rust-analyzer lint warnings
+cli: add --no-ignore-files flag
+doc: clarify globing behavior
+doc: remove CPU features from man pages
+doc: note ripgrep's stdin behavior
+cli: add engine flag
+args: refactor to permit adding other engines
+style: fix rust-analyzer lints in core
+deps: update everything
+crates: update URLs in Cargo.toml
+ignore/types: add coq type
+ci: fix ci by removing fetch-depth 1
+doc: be more vague in the FAQ
+globset: Implement serde::{Serialize, Deserialize} for Glob
+readme: update CI badge
+ignore: another simplification
+ignore: simplify parallel worker initialization
+ci: switch build to GitHub Actions
+ignore: fix parallel traversal
+tests: add debugging output
+tests: use std::env::consts::EXE_SUFFIX
+tests: make 'cross test' work
+ci: soft-disable Travis and AppVeyor
+ignore/types: add K type
+repo: make ripgrep build with the new organization
+repo: move all source code in crates directory
+style: rustfmt everything
+ci: check rustfmt in Travis
+ci: set MSRV to Rust 1.41.0
+changelog: add commit links
+ignore: rework inter-thread messaging
+ignore: treat symbolic links to directories as directories
+cli: add --no-unicode, deprecate --no-pcre2-unicode
+cli: add --no-require-git flag
+deb: fix fish completion install location
+ignore: make walker visit untraversable directories
+grep-regex: fix inner literal extraction bug
+ignore: allow post-processing at end-of-thread
+core: simplify parallel walking using borrows
+ignore: allow parallel walker to borrow data
+changelog: highlight a bad performance regression
+ignore: use git commondir for sourcing .git/info/exclude
+cli: make ripgrep work in non-existent directories
+cli: add --no-ignore-exclude flag
+globset: implement FromStr for Glob
+globset: add GlobMatcher::glob
+grep-regex: add fast path for -w/--word-regexp
+grep-regex: improve literal detection with -w
+grep-regex: improve inner literal detection
+doc: document `all` file type
+doc: improve docs for `--sort` and `--sortr` flags
+readme: simplify openSUSE instructions
+cli: add --include-zero flag
+ignore/types: add spec file type
+explicitly declare lazy_static dependency
+ignore/types: add xhtml to xml file type
+changelog: add notes about new file types
+ignore/types: add 'diff' file type
+cli: add --no-context-separator flag
+tests: remove existing test directory
+ignore: add existence check for ignore files
+readme: remove outdated SIMD info
+readme: document CentOS 8 support
+ignore/types: add HAML and ERB
+ignore/types: add slim, slime, and skim templates
+ignore: allow use of Error::description
+ignore/types: add typoscript file type
+faq: add section about donations
+deps: update everything
+deps: update regex, regex-syntax and aho-corasick
+ignore/types: add *.org_archive to org file type
+globset: fix benchmarks
+ignore/types: make 'gradle' it's own type
+readme: add instructions for Haiku x86_64 and x86_gcc2
+readme: update outdated links
+doc: add missing "will" to the user guide
+ignore/types: fix postscript globs
+deps: update everything
+deps: various updates
+ignore-0.4.11
+ci: fix musl docker build
+ci: disable github actions for now
+deps: update to crossbeam-channel 0.4
+deps: update to bytecount 0.6
+deps: update to thread_local 1.0
+deps: bump to base64 0.11
+deps: run cargo update
+doc: fix typo in FAQ
+ci: get GitHub Actions running again
+ci: initial github actions config
+ignore: remove unused parameter
+deps: update everything
+deps: update bstr to 0.2.7
+doc: use XDG_CONFIG_HOME in comments
+doc: update to reflect glob matching behavior change
+grep-regex-0.1.5
+grep-searcher-0.1.6
+deps: update ignore
+ignore-0.4.10
+deps: drop tempfile
+deps: update everything
+readme: Debian Buster is stable now
+changelog: update with bug fix
+searcher: fix roll buffer bug
+pkg: update brew tap to 11.0.2
+ci: fix musl deployment
+ripgrep: release 11.0.2
+src: remove old directories
+ignore: release 0.4.9
+grep-regex: release 0.1.4
+grep-matcher: release 0.1.3
+changelog: start work on 11.0.2 release
+deps: update everything
+doc: mention .ignore and .rgignore more prominently
+doc: add translations section
+doc: improve PCRE2 failure mode documentation
+ripgrep: fix bug when CWD has directory named `-`
+ripgrep: add --glob-case-insensitive
+regex: fix -F aho-corasick optimization
+ignore/types: add edn type from Clojure ecosystem
+deps: update them
+deps: bump ignore
+ignore-0.4.8
+ignore: support compilation on wasm
+readme: fix broken link to Scoop bucket
+ignore/types: add Robot Framework
+doc: improve docs for --replace flag
+release: globset, grep-cli, grep-printer, grep-searcher
+deps: update everything
+bstr: update everything to bstr 0.2
+search: a few small touchups
+search: better errors for preprocessor commands
+deps: update everything
+style: fix deprecations
+ignore/types: add more nim types
+doc: point regex doc link to the latest version
+ignore: remove .git check in some cases
+readme: mention Zstandard and Brotli
+readme: remove outdated statement
+ci: use cross for musl x86_64 builds
+deps: bump pcre2-sys to 0.2.1
+printer: remove unnecessary mut
+alloc: use jemalloc when building with musl
+cli: fix bug where last byte was stripped
+readme: mention --pcre2 as long form of -P
+readme: mention --auto-hybrid-regex in advantages
+pkg: update brew tap to 11.0.1
+ripgrep: release 11.0.1, take 2
+ripgrep: release 11.0.1
+deps: update regex to 1.1.6
+doc: fix typo in FAQ
+ignore/types: add GAP
+readme: remove brew tap instructions
+pkg: update brew tap to 11.0.0
+ripgrep: release 11.0.0
+grep: release 0.2.4
+grep-cli: release 0.1.2
+grep-printer: release 0.1.2
+grep-searcher: release 0.1.4
+grep-pcre2: release 0.1.3
+grep-regex: release 0.1.3
+grep-matcher: release 0.1.2
+ignore: release 0.4.7
+doc: add note about --pre-glob
+release: globset 0.4.3
+complete: fix typo
+ripgrep: max-column-preview --> max-columns-preview
+changelog: small fixups
+changelog: backfill it
+ignore/types: add additional java files
+ci: bump MSRV to 1.34.0
+ripgrep: add --auto-hybrid-regex flag
+deps: update glob dev-dependency
+deps: update everything
+ripgrep: increase pcre2's default JIT stack size
+ripgrep: add --pcre2-version flag
+pcre2: add a few re-exports
+deps: use pcre2 0.2.0
+ripgrep: add -I as a short option for --no-filename
+versioning: next version will be ripgrep 11
+doc: note cases of exorbitant memory usage
+printer: support previews for long lines
+binary: rejigger ripgrep's handling of binary files
+regex: fix HIR analysis bug
+ignore/types: add more extensions for xml
+ignore/types: add lock files
+regex: make multi-literal searcher faster
+deps: update to clap 2.33
+searcher: add option to disable BOM sniffing
+ignore/types: add *.am and *.in for C/C++/make
+readme: add Repology badge
+ripgrep: remove extra new-line after Clap output
+deps: add bstr to Cargo.lock
+regex: print out final regex in trace mode
+regex: fix a perf bug when using -w flag
+globset: small perf improvements
+globset: use bstr
+cli: use bstr
+config: switch to using bstrs
+printer: use bstr
+searcher: partially migrate to bstr
+ci: switch to xenial (#1234)
+deps: update to aho-corasick 0.7
+deps: update everything
+deps: bump encoding_rs_io
+regex: bump regex dep to fix match bug
+readme: include details about filtering
+deps: update tempfile
+deps: bump smallvec
+deps: update to aho-corasick 0.6.10
+deps: update various dependencies
+grep-regex-0.1.2
+ci: don't do releases on all tags
+deps: miscellaneous updates
+grep-searcher-0.1.3
+searcher: revert big-endian patch
+tests: use const constructor for atomics
+grep-searcher-0.1.2
+searcher: use naive line counting on big-endian
+ignore/types: add zig
+deps: bump encoding_rs to 0.8.16
+ignore/types: *.dtx and *.ins added for tex
+readme: bump MSRV
+deps: update other deps
+deps: update to crossbeam-channel 0.3.8
+deprecated: remove use of ATOMIC_BOOL_INIT
+cargo: include auto-generated message
+readme: remove EOL Fedora install instructions
+changelog: BUG #916
+changelog: BUG #1154
+ignore: correctly detect hidden files on Windows
+doc: small updates to the FAQ and GUIDE
+search: fix -F and -f interaction bug
+exit: tweak exit status logic
+args: prevent panicking in 'rg -h | rg'
+doc: add note about inverted flags
+doc: clarify automatic encoding detection
+fmt: shorten --ignore-file-case-insensitive description
+changelog: BUG #1095
+config: add --no-ignore-dot flag
+regex: make CRLF hack more robust
+deps: bump regex-syntax to 0.6.5
+searcher: always strip BOM
+readme: encoding_rs's SIMD support is broken
+deps: update removal of grep devdeps
+ignore/types: add method for retrieving file type definition
+changelog: BUG #1121
+ripgrep: don't skip stdout in --files mode
+grep: remove unused dependencies
+globset: permit ** to appear anywhere
+changelog: BUG #1174
+globset: fix repeated use of **
+changelog: BUG #1173
+ignore: fix handling of **
+changelog: PR #1093
+ignore: always use literal_separator for gitignore patterns (#1093)
+readme: add instructions for openSUSE 15.0
+printer: fix path handling in summarizer
+changelog: brotli/zstd addition
+grep-cli: support Brotli/Zstd decompression
+ignore/types: add/update brotli, bzip2, gzip, xz, zstd
+ripgrep: ban rustfmt
+ripgrep: add --ignore-file-case-insensitive
+edition: fix build.rs
+edition: move core ripgrep to Rust 2018
+deps: update memmap
+deps: update to bytecount 0.5
+deps: update various dependencies
+ignore/types: add QML
+doc: fix typo
+grep-printer: add macro docs, redux
+grep-searcher: add docs for assert_eq_printed
+doc: fix typo
+ignore-0.4.6
+ignore: permit use of deprecated trim_right
+deps: bump ignore
+ignore-0.4.5
+deps: update most other dependencies
+deps: update to crossbeam-channel 0.3
+deps: update regex and regex-syntax
+ignore/types: add ASP
+ignore/types: add postscript
+ignore/types: add more Cython file types
+ignore/types: add Apache Thrift
+doc: escape braces in AsciiDoc
+deps: update encoding_rs
+ignore/types: add BUILD.bazel to bazel file type
+ignore/types: add buildstream
+ripgrep: suggest -U/--multiline
+grep-searcher: update to encoding_rs_io 0.1.3
+grep-regex: fix inner literal detection
+readme: touch up README
+Ripgrep is also available in Ubuntu (from Cosmic)
+deb: add section info
+doc: fix typo
+pcre2: use jit_if_available
+readme: update dpkg version
+readme: fancy regexes are not supported by default
+pkg: update brew tap to 0.10.0
+ci: tweak deployment conditions
+changelog: add release date
+ci: always force PCRE2 static builds for releases
+ci: clean up appveyor
+ci: remove 'branch' condition for deployment
+deb: add completions
+deps: update versions for all crates
+deps: minor updates
+scripts: add copy-examples
+simplegrep: touch up
+grep: add clap and regex dev dependencies to grep
+grep-searcher: add Box<...> impl for Sink
+doc: minor touchups to API docs
+grep-printer: delete unused code
+grep-matcher: add LineTerminator::is_suffix
+readme: a few clarifications
+deps: update various deps
+deps: update grep version
+grep-0.2.1
+changelog: assign feature id
+windows: fix unused warnings on Windows
+ripgrep: add --pre-glob flag
+ripgrep: add --line-buffered and --block-buffered
+grep-cli: introduce new grep-cli crate
+ignore/types: add pascal type
+doc: fix typos
+deps: update other crates
+deps: update termcolor for perf tweaks
+changelog: fix typo
+changelog: update
+ignore: add into_path for DirEntry (#1031)
+doc: clarify and fix typo
+ripgrep: use 'ignore' for skipping stdout
+ignore: add 'stdout' skipping to the walker
+complete: don't complete bare pattern after -f
+ripgrep: add --sort and --sortr flags
+ignore: add sort_by_file_path builder method
+ignore: add 'same_file_system' option
+deps: more updates
+ripgrep: use winapi-util for stdin_is_readable
+deps: update various deps
+changelog: fix typo
+doc: clarify use of SIMD features
+deps: update walkdir minimum version
+deps: update dependencies
+deps: update clap
+deps: various patch upgrades
+ignore: fix false positive in path_is_symlink
+release: better support for binary Debian package
+doc: update ripgrep's description
+grep-printer: fix bug in printing truncated lines
+tests: touch up tests on Windows
+ripgrep: remove workaround for std bug
+ignore: clarify docs for DirEntry::error
+ripgrep: move minimum version to Rust stable
+ripgrep: make --no-pcre2-unicode the canonical flag
+doc: fix typo
+doc: caveats
+ripgrep: small cleanups
+doc: add section on PCRE2 performance
+deps: update other dependencies to latest
+deps: update libripgrep crate versions
+ignore/types: add .mako and .mao for Mako templates
+complete: add completion reference guide
+ripgrep: add --no-multiline-dotall
+ripgrep: fix typos in option descriptions
+complete: update wording, exclusion, &c.
+test_complete: match certain long options in description bodies
+changelog: massive update for libripgrep
+tests: re-tool integration tests
+ripgrep: migrate to libripgrep
+libripgrep: initial commit introducing libripgrep
+readme: ripgrep is available in Debian Buster
+grep: remove senseless test
+ignore/types: add *.sbt to scala type
+ignore/types: add Idris, Dhall and ATS
+readme: update debian link to 0.9.0
+deps: update bytecount to 0.3.2
+pkg: update brew tap to 0.9.0
+release: 0.9.0
+grep-0.1.9
+deps: update termcolor and encoding_rs_io
+tests: reduce reliance on state in tests
+tests/style: 80 columns, dammit
+ignore: fix typo
+ignore/style: 80 columns, dammit
+ignore: fix bug in matched_path_or_any_parents
+ignore-0.4.3
+globset-0.4.1
+ignore: respect XDG_CONFIG_DIR/git/config
+complete: add --no-pre, improve --pre/--search-zip exclusivity
+deps: update atty and winapi
+ripgrep: when given no patterns, don't match
+tests: be looser with gzip failure
+ripgrep: stop early when --files --quiet is used
+ripgrep: don't skip tar archives
+ripgrep: add --no-ignore-global flag
+ignore: only respect .gitignore in git repos
+ripgrep: improve usage documentation
+ripgrep: better --path-separator error message
+deps: pin winapi to 0.3.4
+ripgrep: add --no-pre switch
+ripgrep: replace decoder with encoding_rs_io
+ripgrep: reformat --pre warning
+ripgrep: add warning to --pre flag
+ripgrep: add --pre flag
+ripgrep: add support for lz4 decompression
+changelog: updates
+snap: build without wrappers
+ignore: fix has_any_ignore_rules for explicit ignores
+crates.io: use 'OR' instead of '/'
+globset: clarify documentation on regex method
+deps: update regex to 1.0.2
+readme: update rogue 1.20 reference
+deps: update all transitive dependencies
+deps: bump various dependencies
+deps: bump encoding_rs to 0.8
+deps: bump minimum Rust to 1.23.0 from 1.20.0
+deps: get rid of unstable feature
+grep: small literal detection fix
+deps: update termcolor to 1.0.0
+termcolor: moved to its own repository
+ignore: permit use of env::home_dir
+complete: improve zsh completion
+ci: minor improvements to test_complete.sh
+ripgrep: rename --maxdepth to --max-depth
+ripgrep: add --fixed-strings flag
+ripgrep: disable autotests
+ripgrep/printer: fix small performance regression
+ripgrep: use new BufferedStandardStream from termcolor
+termcolor: add BufferedStandardStream
+ignore/types: add Bazel
+deps: update to regex 1.0.1
+ripgrep: use exit code 2 to indicate error
+ignore/types: add Android makefile types
+ignore/types: add AIDL file type
+ignore/types: add FIDL type
+doc: sync config file examples
+doc: add MacPorts installation instructions
+doc: update crates.io badge
+doc: add BSD packages to README
+doc: fix broken link to RegexSet docs
+ignore/types: add jsp extension to java type
+deps: update regex to 1.0
+ignore/doc: improve docs for case_insensitive
+doc: update suggested version for ignore
+ignore/types: add shorthand 'hs' for Haskell
+doc: go away snap
+ignore/types: fix typo in puppet glob
+ignore/types: add puppet
+doc: update crates.io description
+ignore: speed up Gitignore::empty
+ignore/types: add verilog
+tests: fix tests on Windows
+output: remove unnecessary mut binding
+changelog: update
+output: remove --line-number-width flag
+deps: update to atty 0.2.9
+output: add --no-column flag
+ignore: support .git directory OR file
+complete: add --no-ignore-messages
+logging: add new --no-ignore-messages flag
+doc: more specific docs for --no-messages
+doc: add search and replace faq
+deps: update remove_dir_all
+ignore: release 0.4.2
+globset: release 0.4.0
+ignore: impl Clone for DirEntry
+deps: pin to atty 0.2.6
+readme: add --classic flag to snap install
+deps: update regex-syntax
+readme: add openSUSE Tumbleweed package
+ignore: add Clone/Debug for builders
+deps: update all dependencies
+termcolor: release 0.3.6
+termcolor: fix bold + intense colors in Win 10
+deps: update regex
+deps: update clap, atty, libc
+grep: add "perfect" smart case detection
+grep: upgrade to regex-syntax 0.5
+changelog: update for 0.9.0
+deps: update regex crate
+globset/doc: update README for 0.3 release
+output: add --stats flag
+args: treat --count --only-matching as --count-matches
+search: add a --count-matches flag
+cleanup: rename match_count to match_line_count
+search: add -b/--byte-offset flag
+ignore: support backslash escaping
+globset: make ErrorKind enum extensible
+globset: support backslash escaping
+doc: add Windows Scoop install instructions
+mmap: handle ENOMEM error
+doc: add additional instructions for snap
+doc: shorten Rust nightly brew install command
+termcolor/doc: fix typo
+doc: use PATTERNFILE for -f/--file flag
+pkg: update snapcraft.yaml
+doc: clarify licensing story
+doc: clarify snap installation instructions
+doc: fix typos
+doc: "to rip" means "fast"
+pkg: update brew tap to 0.8.1
+ci: fix macOS asciidoc installation
+ci: fix man page generation on macOS
+release: 0.8.1
+changelog: 0.8.1
+deps: update to clap 2.30.0
+termcolor: release 0.3.5
+ignore: release 0.4.1
+ci: build man page on ARM cross-compile
+doc: omit revision when it isn't available
+doc: clarify failure mode
+ignore: fix performance regression on Windows
+termcolor: add ?Sized bound for &mut T impl
+termcolor: improve "intense" docs
+termcolor: add underline support
+doc: clarify Debian/Ubuntu install instructions
+doc: fix typo in Debian install instructions
+types: add csv
+ignore: fix symlink following on Windows
+doc: clarify --ignore-file flag
+doc: add .deb installation instructions
+doc: fix files-with-matches typo
+ignore: fix improper hidden filtering
+ignore: fix custom ignore name bug
+types: add VHDL
+doc: the year is 2018
+doc: add "grep replacement" question to FAQ
+doc: fix typo
+pkg: update brew tap to 0.8.0, take 2
+release: 0.8.0
+pkg: update brew tap to 0.8.0
+pkg: delete Archlinux PKGBUILD
+changelog: 0.8.0
+ignore: release 0.4.0
+globset: release 0.3.0
+termcolor: release 0.3.4
+wincolor: release 0.1.6
+grep: release 0.1.8
+deps: update several dependencies
+doc: fix asciidoc->man formatting
+ci: remove `cargo clean`
+globset: remove use of unsafe
+doc: add color FAQ entries
+termcolor: support ANSI in Windows terminals
+wincolor: add support for enabling VT100
+termcolor: permit hex colors
+ci: update deployment for doc rearrangement
+doc: overhaul documentation
+doc: clarify --files-without-match
+build: remove compile script
+deps: update regex to 0.2.6
+argv: add several hidden flags
+argv: support hidden flags
+globset: add more tests for single-asterisk pattern
+ci: fix deploy condition
+ci: test build outputs
+doc: generate man page
+ci: cleanup
+argv: tweak the meaning of zero
+argv: update clap to 2.29.4
+argv: fix PATTERN typo
+config: add persistent configuration
+argv: permit repeated flags
+argv: refactor clap initialization
+deps: remove vec-map feature from clap
+build: add git hash
+logger: drop env_logger
+deps: bump wincolor
+wincolor-0.1.5
+docs: touch up issue template
+docs: add an issue template
+deps: bump walkdir (again)
+windows: fix OneDrive traversals
+ignore/deps: update walkdir
+worker: better error handling for memory maps
+style: remove eprintln macro
+deps: update bytecount
+search: add support for searching compressed files
+termcolor: add extended color support
+deps: bump memmap to 0.6.2
+ignore: support custom file names
+termcolor: tweak reset escape
+types: add Smarty tpl
+ignore: fix handling of / in patterns
+types: add gn type
+types: add hxx to the cpp type
+types: add webidl (*.webidl)
+types: add webidl
+types: yarn.lock is not YAML
+readme: add Ubuntu install instructions
+readme: ripgrep is in Fedora 27
+types: add Apache avro
+printer: add --passthru flag
+doc: various updates
+Update types.rs
+Add a type for man pages
+deps: update bytecount to 0.3
+benchsuite: fix formatting
+readme: update summary benchmarks
+benchsuite: add updated benchmarks
+readme: link to Andy Lester's feature comparison
+remove reference to copr for F28+
+trivial: update instructions for Fedora
+Update crossbeam to 0.3.2
+ux: suggest --fixed-strings flag
+cleanup: replace try! with ?
+printer: add support for line number alignment
+deps: bump lazy_static to 1
+deps: update same-file dep
+wincolor: migrate to winapi 0.3
+deps: update all deps
+deps: update to latest clap release
+deps: update to latest regex crate
+couple of trivial fixes to make clippy a bit more happy (#704)
+Update app.rs (#707)
+Speeding CI builds
+Add note about --smart-case smartness
+Improve detection of upper-case characters by smart-case feature
+Add armhf build to Travis CI
+Omit context separators when using a contextless option like -c or -l
+clippy: fix warnings about useless format call and remove references that would be immediately dereferenced by the compiler.
+clippy: main.rs: call Clone() on trait instead of ref-counted pointers and pass Arc<Args> by ref more often.
+clippy: docs: put more relevant things into backticks.
+clippy: string constants have static lifetime by default.
+bump bytecount to 0.2
+full package name for Gentoo sys-apps/ripgrep
+Update to memmap 0.6
+switch nb to jupyter
+add notebook file extensions to types
+Support both [^...] and [!...] for globset class negation
+Bump Cargo.toml version in ReadMe from 0.2 to 0.3
+Add Google Closure Templates type (.soy)
+bump crossbeam to 0.3
+Add Protocol Buffer file type.
+Added example for --colors to README
+Support ripgrep-bin installation with linuxbrew
+fix some typos
+Properly match the rules "**/" and "!**/"
+Correct spelling mistakes in readme file.
+update brew tap
+cargo: bump to 0.7.1
+changelog 0.7.1
+deps: bump ignore to 0.3.1
+ignore: partially revert symlink loop check optimization
+update brew tap
+cargo: bump to 0.7.0
+changelog 0.7.0
+ignore: be fastidious with file handles
+printer: fix colors on empty matches
+style
+deps: update everything
+ignore: upgrade to walkdir 2
+deps: upgrade to memchr 2
+style: 80 cols
+printer: --only-matching works with --replace
+Don't create command until we know we can test it
+Wrap comments to 79 columns
+Skip regression 210 test on APFS
+State the default case sensitivity
+Add purescript to built-in types
+Add troubleshooting notes re: conflicting tools/aliases
+readme: clarify intro
+Type improvements (`config`, `license`, `sh`, `systemd`, &c.)
+Addressed code reivew.
+Ripgrep installs from Linuxbrew just fine and works as expected.
+Add support for Dockerfiles filtering
+Update README to be more explicit about precompiled binaries (fixes #618)
+globset README version bump
+Rewording README
+Update README
+Color --replace text using the match type
+add support for terraform file type
+Avoid expensive check with --files (fixes #600)
+doc: clarify --with-filename behavior with --heading
+tweak working
+Add support for Standard ML file types
+ignore: add grouped toggle for standard filters
+Add Elm file type.
+Update encoding_rs to 0.7.0
+restore the default SIGPIPE behavior as a temporary workaround
+deps: bump termcolor in lock file
+termcolor-0.3.3
+termcolor: make StandardStream be Send
+termcolor: 80 cols
+ignore: document git_global enabled by default
+readme: update minimum version
+update brew tap
+ci: unpin nightly, redux
+0.6.0
+cargo: add crates.io badges
+bump deps
+changelog 0.6.0
+ci: bump rustc from 1.16 to 1.17
+doc: note that ripgrep may terminate unexpectedly
+man: synchronize man page with --help
+ci: strip ripgrep binary on Unix
+Types extension and Yocto renaming to BitBake
+integration tests: ignore regression_428 on Windows
+Pass the simd-accel feature to encoding_rs
+Add short key for julia type
+Add -x/--line-regexp (#520)
+Remove unused libc dependency
+bump clap to 2.26
+bump encoding_rs to 0.6
+Add test for option-arguments with leading hyphens
+Allow options with non-numeric arguments to accept leading hyphens in arguments (fixes #568)
+Install zsh APT package
+Update test_complete to source completion function for more reliable options parsing
+Make completion support short-option values in same word; handle debug variable
+fix profile showing command for powershell
+Refactor zsh completion function
+Update test_complete.sh to avoid false positives related to shell syntax
+ignore-0.2.2
+benchsuite: fix another bug
+benchsuite: fix bugs
+bump ignore version, take 2
+bump ignore version
+ignore-0.2.1
+[ignore] Add extensive test for gitignore matching (#551)
+update COPR name
+Tweak long_version features output
+Update `--version` output to show compile-time features
+Add `-f` to completions
+Add test_complete.sh to CI tasks
+Add test_complete script to compare `rg --help` output to zsh completion function
+Add --iglob to zsh completion function
+Improve zsh completion function
+add --iglob flag
+Update version of `ignore` crate in README.md
+Add cabal files for Haskell packages
+bump wincolor dep
+wincolor-0.1.4
+wincolor: Re-fetch the console on all calls
+fix word boundary w/ capture group
+add yocto file types
+Add julia as file type
+Use clap's overrides_with and default_value_if
+Add "msbuild" filetype for msbuild related files
+Add .inl as one of the c++ file typee definitions.
+Add a cshtml ignore type
+Use uppercase for required argument names
+Add Zsh completion file
+Update help and man pages
+Remove vestigial color function from src/args.rs
+Update documentation for --color ansi
+Should show filename for one file with vimgrep
+Add support for QMake files
+bump deps, redux
+Revert "bump deps"
+bump deps
+Make --quiet flag apply when using --files option
+update brew tap
+bump ripgrep, ignore, globset
+changelog 0.5.2
+deps: update clap to 2.24
+Add Powershell tips and autocompletion instructions
+Add snapcraft.yaml
+Add better error messages for invalid globs.
+Use for_label_no_replacement.
+Add dfa-size-limit and regex-size-limit arguments
+Add nix
+update brew tap
+0.5.1
+bump deps
+bump ignore
+changelog 0.5.1
+Add ability to colorize column numbers.
+update man page
+Add `-o/--only-matching` flag.
+Add short note on Windows Tips
+updates clap and removes home rolled -h/--help distinction
+fix typo in comment
+Enforce 79 column limit. Grr.
+Bamp clap to 2.22.2
+Improves Printer, fixes some bugs
+bump deps
+Add -0 shortcut for --null
+remove uninstall step
+Add vim type.
+bump termcolor dep
+termcolor-0.3.2
+Add license info to termcolor crate.
+remove allow(dead_code)
+bump ripgrep version in Cargo.lock
+Add powershell completions to build artifacts
+Update whirlwind tour with encoding info.
+Revert "Add _rg.ps1 to windows zip"
+update brew tap to 0.5.0
+0.5.0
+add date to CHANGELOG
+fix CHANGELOG link
+changelog 0.5.0
+Bump and update deps.
+Add new -M/--max-columns option.
+pin nightly
+Improve docs for --glob flag.
+Clarify -u/--unrestricted flags.
+No line numbers when searching only stdin.
+Stop aggressive inlining.
+Add support for additional text encodings.
+Add license files to each crate.
+Add scss and ejs.
+Add _rg.ps1 to windows zip
+update deps
+Add "Known issues" section in README.md
+Remove regex build-dependency in Cargo.toml
+Remove clap validator + add max-filesize integration tests
+Reduce unnecessary stat calls for max_filesize
+Add `--max-filesize` option to cli
+Add file size exclusion to walker
+Add enclosing group to alternations in globs
+Added Chocolatey to the installation list
+bump clap to 2.20.5
+update env_logger to 0.4
+kick travis
+Add .log as FileType
+fix badges
+use termcolor 0.3, not 0.1
+Tweak how binary files are handled internally.
+Don't parses regexes with --files.
+Permit --heading to override --no-heading.
+update termcolor dep
+termcolor-0.3.0
+Remove Windows deps from ripgrep proper.
+Implement Hash for Glob, and re-implement PartialEq using only non-redundant fields.
+Remove lazy_static from globset
+termcolor: add support for output to standard error
+Add .twig as a Filetype
+add '*.sass' to sass type
+Look for global git/ignore in ~/.config/git, not ~/git
+Add Ceylon file type filtering
+Add 'text-processing' category.
+ Add categories to Cargo.toml
+Add shell completion files to ripgrep-bin.rb
+File Types: Add .eex under Elixir
+update deps
+wincolor-0.1.2
+Update 0.4.0 changelog.
+Add stderr support to wincolor.
+Replace internal atty module with atty crate.
+note minimum Rust version
+update brew tap
+0.4.0
+changelog 0.4.0
+update same-file dep
+Use basic SGR sequences when possible.
+Make --column imply --line-number.
+another bytecount update, weird
+update bytecount
+Add --path-separator flag.
+Add example to -r/--replace docs.
+fix minimum Rust version
+remove redundant words
+add anti-pitch
+Don't search stdout redirected file.
+add Kotlin type: "*.kt", "*.kts"
+Ruby type: add "Gemfile", "*.gemspec", ".irbrc", "Rakefile"
+Perl type: add "*.t"
+add Crystal type: "Projectfile", "*.cr"
+Sync documented threads cap to code.
+Remove trivial condition.
+Provide a mechanism to compose type definitions
+Add docs for shell completion files.
+Add --sort-files flag.
+Tweak the parallel directory iterator.
+Rejigger bold and intense settings.
+Add powershell as a known file type
+bump deps
+Tweak build matrix.
+Update to regex 0.2.
+bump various versions
+Add types for handling SWIG files. (#297)
+Remove superfluous memmap dependency in `grep` crate.
+Remove special ^C handling.
+add docs to wincolor
+Small code cleanups.
+Remove ~ dependency on clap.
+Add some additional benchmark runs.
+Add some commented out commands to compile script.
+Add --disabled flag to benchsuite.
+update deps
+fix some clippy lints (#288)
+Update Cargo.lock to bring in clap 2.19.2 fix for ZSH completions. (#287)
+Update docs to explain use of -g and --files to search for paths. (#285)
+Make backreference support clear.
+update brew tap
+fix ci
+0.3.2
+changelog 0.3.2
+update Cargo.lock
+try removing cache
+ignore-0.1.6
+Simplify code.
+Disable Unicode mode for literal regex.
+Detect more uppercase literals for --smart-case.
+Clarify use of --heading/--no-heading.
+Add stylus type
+Re-add zsh types
+Add type for Less
+Add type for Sass
+0.3.1
+changelog 0.3.1
+bump termcolor
+termcolor-0.1.1
+Only emit bold ANSI code if bold is true.
+Use clap ~2.18.0.
+update brew tap
+bsd doesn't have --recursive
+another attempt to fix deploy
+fix deploy
+0.3.0
+changelog 0.3.0
+Make wincolor crate compilable on non-Windows platforms.
+Get rid of special mmap decision on Windows.
+Propagate no_messages option to worker.
+Completely re-work colored output and tty handling.
+Rename --files-without-matches to --files-without-match.
+Add --files-without-matches flag.
+Switch from Docopt to Clap.
+Use env::home_dir() instead of env::var_os(HOME).
+Allow specifying patterns with `-f FILE` and `-f-`
+Added elixir to types
+Disable symlink tests on Windows.
+Pin rustc-serialize to 0.3.19.
+0.2.9
+update deps
+ignore-0.1.5
+changelog 0.2.9
+Rework parallelism in directory iterator.
+reword
+reword
+ucg author says it's not a bug per se
+Don't ever search directories.
+touchups
+typo
+Always search paths given by user.
+touchups
+touchups
+touchups
+touchups
+Update README with more/updated benchmarks
+Update brew tap.
+0.2.8
+changelog 0.2.8
+simd-accel should not invoke avx-accel.
+0.2.7
+changelog 0.2.7
+Update sub-crate dependency versions.
+ignore-0.1.4
+grep-0.1.4
+globset-0.1.2
+Add --no-messages flag.
+Add -m/--max-count flag.
+Add new 'h' file type.
+Include the name "ripgrep" in more places.
+update man page
+Note -e/--regexp's additional usefulness.
+Actually use simd/avx optimizations in bytecount crate.
+Use the bytecount crate for fast line counting.
+Add parallel recursive directory iterator.
+Rename IgnoreOptions::has_ignores
+Use new Match::or to simplify return
+update ripgrep
+adding cs filetype for ease of use.
+adding .pdf filetype to available types.
+Add pod filetype
+Add wiki filetype
+Add creole filetype
+Add org filetype
+Add rdoc filetype
+Add textile filetype
+Add .markdown, .mdown, .mkdn extension to md and markdown
+Add .adoc, .asc, asciidoc extension to asciidoc
+Add Gentoo info to the README
+Added taskpaper as a file type
+Add Agda and improve TeX ignore support (#207)
+0.2.6
+changelog 0.2.6
+update ignore dependency
+ignore-0.1.3
+ignore-0.1.2
+Ignore ignore/Cargo.lock
+update Cargo.lock
+Add .fish extension to fish shell
+update brew tap to 0.2.5
+changelog 0.2.5
+0.2.5
+fix appveyor, sigh
+0.2.4
+changelog 0.2.4
+update deps
+bump ignore to 0.1.1
+ignore-0.1.1
+don't commit ignore/Cargo.lock
+bump thread_local
+ignore-0.1.0
+bump globset dep in ignore
+globset-0.1.1
+Reset the terminal when Ctrl-C is pressed
+Move all gitignore matching to separate crate.
+update python types to include Cython files
+Add zsh type
+Mention Nix package in README
+Use svg for travis badge
+Update deps.
+Add instructions for installation on Fedora 24+ and RHEL/CentOS 7.
+update archlinux PKGBUILD
+Update brew tap.
+add .tcl file extension
+Shorten name of Handlebars type
+Add `handlebars` type
+Add .gradle as a groovy extension pattern
+0.2.3
+changelog 0.2.3
+Switch to thread_local crate in lieu of thread_local!.
+clarify docs for --threads
+0.2.2
+Don't include HomebrewFormula in crate.
+changelog 0.2.2
+Update regex-syntax for bug fix.
+Update darwin cfg attributes.
+Disable regression_131 test on darwin.
+Clarify documentation for --replace.
+globset-0.1.0
+add version marker
+Fill in globset/Cargo.toml with more details.
+Update appveyor to test subcrates.
+style nits
+Finish overhaul of glob matching.
+Update Homebrew instructions in the README
+Always follow symlinks on explicit file arguments.
+added extra .md filetype for ease of access
+added .spark filetype
+added .config filetype
+Change Arch Linux instructions
+Refactor and test glob sets.
+add jinja type for *.jinja and *.jinja2
+Added *.cmake extension to cmake file type.
+Remove i686-darwin.
+Move glob implementation to new crate.
+Stopgap measure for projects with huge gitignore files.
+Make the repo a Homebrew Tap
+AppVeyor: Change release description to fit Travis binaries
+Be better with short circuiting with --quiet.
+clarify
+Add -s/--case-sensitive flag.
+bump docopt to 0.6.86
+if --color always, always print with color, even when --vimgrep is given
+colorize filepath at the beginning of line too
+add a max-depth option for directory traversal
+Correct example with --type-add.
+Add colour choice
+Update brew 0.2.1 package hashes
+fix use of --type-add
+brew 0.2.1
+0.2.1
+changelog 0.2.1
+Don't print empty lines in single threaded mode.
+Add a --null flag.
+Add regression test.
+Allow (and ignore) whitespace-only lines in .gitignore files
+Don't quit if opening a file fails.
+Don't initialize ignores for file arguments.
+Add SystemVerilog (SV) type
+Clojure files can also end in cljc or cljx
+update brew formula to 0.2.0
+0.2.0
+bump grep to 0.1.3
+grep 0.1.3
+changelog 0.2.0
+fix windows
+Don't use an intermediate buffer when --threads=1.
+Don't replace NUL bytes when searching binary files as text.
+Make printing paths a bit faster.
+Don't union inner literals of repetitions.
+On Windows, always consider stdin to be a tty.
+ripgrep is now in [community]
+Move --files-with-matches to less common options.
+Permit whitelisting hidden files in ignores.
+Add curly brace alternates to glob format.
+Stop after first match is found with --quiet.
+Stupid docopt.
+Clarify documentation of --type-add.
+Add ts type for typescript
+Be more conservative with stdin.
+--type js: include more extensions
+Add --files-with-matches flag.
+Add --smart-case.
+Add --no-ignore-vcs flag.
+Permit options with --help/--version.
+Strip trailing whitespace in gitignore patterns.
+Update brew package to 0.1.17.
+Tweak memory maps on darwin.
+If a file is empty, still try to search it.
+Don't ignore first path when using --files.
+Clarify what rg does in --help.
+Add --no-filename flag.
+Change the default output of --files to elide './'.
+Update to docopt 0.6.85.
+Clarify the documentation of the --type-* flags.
+Impl Debug for IgnoreDir.
+Add support for the Nim programming language file type
+FSharp language file type
+Add support for the Swift programming language file type
+Switch from .rgignore to .ignore.
+Prefer https:// over git://
+Column numbers should start at 1.
+Add a few more R relevant extensions
+Add VB files to default type list
+0.1.17
+Don't use panic-on-abort.
+Switch over to the real README.
+bump PKGBUILD
+0.1.16
+Add --vimgrep flag.
+fix wording
+bump PKGBUILD to 0.1.15
+Update brew formula.
+Add benchmarks from local machine.
+Remove old benchmark runs.
+0.1.15
+add man page to build artifact
+update brew formula to 0.1.14
+Include man page in Archlinux package.
+0.1.14
+Add man page.
+add link to regex syntax docs
+Add a `rg (no mmap)` benchmark.
+0.1.13
+fix -uuu test on Windows
+add note about other repos
+0.1.12
+Try to use memory maps more aggressively on Windows.
+Add Archlinux AUR package.
+0.1.11
+grrr fix appveyor deployment filter
+0.1.10
+attempt to fix Windows build
+bump grep to 0.1.2
+grep 0.1.2
+Bump regex version.
+fix brew
+Add brew.
+0.1.9
+0.1.8
+typo
+clarify
+0.1.7
+Remove GNU nightly build.
+0.1.6
+Add an error message for catching a common failure mode.
+Add "unrestricted" flag.
+Add new benchmarks.
+0.1.5
+add links
+format
+add tool names
+update shield
+clarify
+clarify
+format
+ripgrep 0.1.4
+add file include/exclude example
+update draft
+tweak
+draft
+Add support for searching multiple patterns with -e.
+0.1.3
+fix windows build
+Add Ubuntu 16.04 benchmark runs
+0.1.2
+bump grep
+grep 0.1.1
+Improve ergonomics of benchsuite.
+rename
+Reorganize some files.
+Improve the "bad literal" error message.
+Update walkdir
+Some minor performance tweaks.
+try again...
+fix tests
+Rework glob sets.
+Don't traverse directory stack if we don't need to.
+Remove .agignore from ignore file list.
+--no-ignore implies --no-ignore-parent
+Replace crossbeam with deque.
+notice
+0.1.1
+We don't use thread_local any more, so remove it.
+update Cargo.toml description
+add readme
+update grep Cargo.toml
+Stream results when feasible.
+Add a word benchmark.
+fix typos
+teaser
+initial set of benchmarks
+commit Cargo.lock
+update gitignore
+More benchmarks for subtitle corpus.
+Update regex.
+Don't skip the first arg.
+Don't panic when an argument is invalid UTF-8.
+Make file type filtering a lot faster.
+We don't need regex-syntax directly in ripgrep.
+Initial cut at a benchmark suite for CLI search tools.
+Bump default thread count to 8.
+Add alternative compile strategy (in a comment).
+Add doc.
+Make line counting much faster.
+Rename search module to search_stream.
+Rejigger the atty detection stuff.
+Add standard Linux CI (GNU libc).
+Add integration tests.
+fix Rust version number in CI
+clean up CI script
+expand Rust versions we test on.
+fix windows build
+update project name
+Refactor how coloring is done.
+fix deploy
+update distributable to include readme and license
+Rename xrep to ripgrep.
+Hack in Windows console coloring.
+Add support for memory maps.
+Add support for printing column numbers.
+Tweak colors.
+Only create the Grep searcher once.
+update appveyor
+another try
+windows debug, take 1
+windows, take 3
+windows, take 2
+setting up windows, take 1
+use correct api key
+incite riots
+Trying CI.
+Whoops. Remove other bits of parking lot.
+don't need parking lot
+More progress. With coloring!
+TODOs and some cleanup/refactoring.
+Lots of progress:
+making search work (finally)
+progress on after contexts
+Switch to Chase-Lev work stealing queue.
+Before contexts seem to work.
+Make "before" context work.
+struggling with printing contexts, what a mess
+fix glob tests
+tests and refactoring search
+The search code is a mess, but...
+Lots of improvements. Most notably, removal of memory maps for searching.
+Implementing core functionality.
+File path filtering works and is pretty fast.
+globbing by regex
+docs and small polish
+Remove the buffered reader.
+Refactor buffered test.
+update
+progress
+refactor progress
+update
+tweaks
+short matches
+progress
+progress
+rename to xrep
+makefile
+add readme
+beating 'grep -E' on some things
+initial commit

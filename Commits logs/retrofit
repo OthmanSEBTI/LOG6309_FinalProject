@@ -1,0 +1,1960 @@
+Add proguard rules to keep inherited services
+Merge pull request #3759 from Goooler/header_map_header
+@HeaderMap parameter type must be Map or Headers
+Merge pull request #3726 from sitamshrijal/master
+Gson 2.9.0
+Merge pull request #3725 from wiryadev/patch-1
+Change old IETF reference link
+Merge pull request #3702 from ansman/improve-unit-support
+Improve support for Unit as the return type
+Merge pull request #3715 from square/jw/kotlin/2022-03-29
+Migrate Kotlin tests to separate project
+Use gradle-build-action
+Bump actions
+Merge pull request #3713 from square/jw/vary-tests/2022-03-28
+Run tests on each major JDK version
+Merge pull request #3712 from square/jw/vote/2022-03-28
+Add JDK 18 to build matrix
+Merge pull request #3705 from square/dependabot/github_actions/actions/checkout-3
+Bump actions/checkout from 2.4.0 to 3
+Merge pull request #3692 from square/jw/type-safe-project-accessors/2022-02-10
+Enable type-safe project accessors
+Merge pull request #3690 from Goooler/gradle74
+Adopt Gradle 7.4
+Merge pull request #3688 from bryansills/nonnull-create-extension
+Prevent Kotlin callers from creating services with a nullable class type
+Merge pull request #3679 from fengdai/patch-1
+Use #defaultConverterFactoriesSize directly.
+Merge pull request #3675 from Goooler/s01
+Update sonatype urls to s01
+Merge pull request #3673 from Goooler/publish
+Publish to S01
+Merge pull request #3672 from Goooler/pub
+Adopt vanniktech maven publish 0.18.0
+Put deps into version catalog
+Merge pull request #3669 from autonomousapps/patch-1
+Use Gradle 7.3.2. Log4shell mitigation.
+Merge pull request #3651 from JPrendy/master
+Update gson to its latest version gson:2.8.9
+Merge pull request #3649 from square/dependabot/github_actions/actions/checkout-2.4.0
+Bump actions/checkout from 2.3.5 to 2.4.0
+Merge pull request #3647 from square/dependabot/github_actions/actions/checkout-2.3.5
+Bump actions/checkout from 2.3.4 to 2.3.5
+Merge pull request #3636 from square/jw/rxjava-updates/2021-09-21
+Remove backpressure support from RxJava 2 and 3 adapters
+Merge pull request #3635 from square/jw/robo/2021-09-20
+Merge pull request #3633 from square/jw/seventeen/2021-09-20
+Revert "Remove RoboVM Gradle plugin and test"
+Fix formatting
+Merge pull request #3556 from chenhui0212/fix-compile-warning
+Fix number of sibling modules in website/index.html
+Java 17
+Merge pull request #3618 from square/jw/platform/2021-08-17
+Merge pull request #3623 from ChristianBecker/patch-1
+Rename keep rules for Protobuf
+Use one subtype per platform for simplicity
+Merge pull request #3615 from Goooler/gradle
+Update gradle 7.2
+Merge pull request #3614 from square/jw/guava/2021-08-16
+Merge pull request #3613 from square/jw/proto-proguard/2021-08-16
+Merge pull request #3612 from square/jw/rxrules/2021-08-16
+Add shrinker rules for Guava converter and adapter
+Add keep rules for protobuf and Wire
+Add RxJava 1.x rules, correct 2.x/3.x rules
+Update dependencies
+Code cleanups
+Merge pull request #3609 from Goooler/action
+Disable publish action in forked repository
+Merge pull request #3605 from Goooler/bump
+Bump scala
+Update dependencies
+Bump gradle to 7.1.1
+Merge pull request #3602 from Goooler/editorconfig
+Add .gitattributes
+Add .editorconfig
+Merge pull request #3598 from jzbrooks/keep-response-sig
+Keep signature for Response<T>
+Bump protobuf to restore Android compatibility (#3597)
+Add a JAXB 3 converter (#3555)
+Merge pull request #3596 from neworld/feature/r8_rules_for_rxjava
+Add proguard config for R8 to keep type information for RxJava stuff
+Merge pull request #3584 from square/jw/sixteen/2021-06-29
+Merge pull request #3552 from square/jw/get-content-type-test/2021-04-29
+Add Java 16 build
+Remove RoboVM Gradle plugin and test
+Add test for Content-Type in GET request
+Merge pull request #3583 from square/jw/updates/2021-06-29
+Merge pull request #3563 from mkj-gram/add-kotlin-continuation-keeprule
+Merge pull request #3579 from christofferqa/update_keep_rules
+Commit a stable keystore for test APK
+Update all the GitHub Actions
+Add dependabot for GitHub Actions
+Update AGP and Gradle
+Merge pull request #3579 from christofferqa/update_keep_rules
+Add keep rule to retain generic signature of Call
+Fix compile warning
+Merge pull request #3520 from Jawnnypoo/patch-1
+Fix broken r8/proguard link for OkHttp
+Merge pull request #3502 from JoaoPPinto/master
+Bump jackson-databind to 2.10.5.1
+Merge pull request #3489 from kozaxinan/master
+Update website Proguard rule section to be same as Readme
+Merge pull request #3484 from h4n23s/jackson-fix
+Fixing dead link
+Merge pull request #3460 from square/jw/fifteen-sixteen/2020-09-15
+Java 15 final
+Merge pull request #3424 from clydebarrow/robovm
+Prevent use of Java 8 features on RoboVM
+Merge pull request #3415 from square/jw/gjf/2020-06-08
+Update google-java-format to 1.8
+Merge pull request #3408 from mrlem/patch-1
+Fix typo
+Merge pull request #3407 from square/jw/ep/2020-05-29
+Error-prone 2.4.0
+Merge pull request #3402 from BraisGabin/patch-1
+Fix typo
+Merge pull request #3397 from PaulWoitaschek/patch-1
+Use https for the apache license
+Prepare next development version
+Prepare version 2.9.0
+Add releasing steps
+Merge pull request #3374 from ctlove0523/master
+Update Maven references to Gradle
+Merge pull request #3315 from mickverm/rxjava3-adapter
+Added RxJava3 adapter
+Prepare next development version
+Add pom descriptions for each deployed artifact
+Prepare version 2.8.2
+Merge pull request #3394 from square/jw/okhttp/2020-05-17
+OkHttp 3.14.9
+Merge pull request #3393 from square/jw/configure/2020-05-16
+Move source/target config out of error-prone block
+Merge pull request #3390 from square/baron1405-platform-fix
+Use system properties to detect Android
+Remove old buildscript
+Add Gradle wrapper validation
+Publish script tweaks
+Add secrets for snapshot deploy
+Revert needs format, fix ref to be qualified reference
+Use array for needs
+Fix build conditional
+Merge pull request #3367 from square/jakew/android-tests/2020-04-17
+Add Android integration tests
+Merge pull request #3369 from square/jakew/actions/2020-04-20
+Switch to GitHub Actions
+Merge pull request #3365 from square/jakew/gjf/2020-04-17
+Add google-java-format and reformat
+Merge pull request #3358 from square/jakew/gradle/2020-03-25
+Convert project to Gradle
+Update requirements to match README
+Merge pull request #3355 from square/jakew/gradle/2020-03-25
+Small fixes from error-prone and animal sniffer
+Merge pull request #3346 from square/jakew/gradle/2020-03-25
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-2.8.1
+Prepare version 2.8.1
+Small fixes from error-prone
+Merge pull request #3344 from square/jakew/get-a-handle/2020-03-24
+Don't attempt to resolve Lookup ctor on API 24/25
+Update changelog for 2.8.0
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-2.8.0
+Add link to okhttp & okio proguard rules
+Merge pull request #3340 from square/zachklipp/awaitresponse-allownulls
+Allow awaitResponse() to be called with nullable type parameter.
+Merge pull request #3313 from igomezal/docs/updateAnnotations
+Merge pull request #3338 from square/jwilson.0318.call_timeout
+Add Call.timeout() which returns the OkHttp Timeout
+Merge pull request #3334 from square/cogman/master
+Add Java 14+ support for default methods
+Merge pull request #3331 from square/jakew/dedupe/2020-03-11
+Merge pull request #3332 from square/jakew/dedupe2/2020-03-11
+Deduplicate ListenableFuture subtype
+Deduplicate CompletableFuture subtype
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-2.7.2
+Prepare version 2.7.2
+OkHttp 3.14.7
+docs: update documentation about annotations in the website
+Merge pull request #3289 from square/jwilson.0128.bugcrowd
+Migrate bug bounty URL to bugcrowd
+Update index.html (#3286)
+Prepare version 2.7.1
+Prepare version 2.6.4
+Merge pull request #3267 from square/jakew/mock-suspend/2019-07-23
+Add coroutine support to BehaviorDelegate
+Merge branch 'master' of https://github.com/square/retrofit
+Prepare next development version
+[maven-release-plugin] prepare release parent-2.7.0
+Add SCM API dependency
+Prepare version 2.7.0
+Merge branch 'two-six'
+Prepare next development version
+Prepare version 2.6.3
+Migrate forced suspension mechanism from yield to Dispatcher.Default
+Merge pull request #3259 from sullis/jackson-2.10.1
+jackson 2.10.1
+Merge pull request #3254 from square/jakew/yield/2019-11-21
+Migrate forced suspension mechanism from yield to Dispatcher.Default
+Merge pull request #3247 from square/dependabot/maven/com.fasterxml.jackson.core-jackson-databind-2.9.10.1
+Bump jackson-databind from 2.9.10 to 2.9.10.1
+Merge pull request #3243 from Syrok77/clarify-create-async-javadoc
+Simplified RxJavaCallAdapterFactory.createAsync documentation to not mention any incorrect subscribeOn behavior
+Upgrade Kotlin, Guava, OkHttp, Jackson and more. (#3222)
+Upgrade to the latest checkstyle
+Merge branch 'two-six'
+Prepare next development version
+Prepare version 2.6.2
+Add synchronous exception workaround for Response requests
+Merge pull request #3209 from square/jakew/more-try-catch/2019-09-16
+Add synchronous exception workaround for Response requests
+Fix snapshot deployment script
+Merge commit '4fe1b2b5793e5f132080a719032dea4be93fb40e'
+Prepare next development version
+Prepae version 2.6.1
+Avoid synchronous checked exceptions in 'suspend fun's
+Fix missing body in raw response for error
+Proguard nested classes in KotlinExtensions
+Merge pull request #3183 from square/jakew/avoid-undeclared/2019-07-27
+Avoid synchronous checked exceptions in 'suspend fun's
+Switch to OpenJDK
+Merge pull request #3145 from square/jakew/extend/2019-07-03
+Allow service interfaces to extend other interfaces
+Merge pull request #3146 from square/jakew/objects/2019-07-03
+Merge pull request #3149 from hqzxzwb/patch-1
+Proguard nested classes in KotlinExtensions
+Use Objects.requireNonNull instead of custom helper
+Merge pull request #3132 from square/jakew/updates/2019-06-22
+Fix missing body in raw response for error
+Update to Java 8 and OkHttp 3.14
+Merge pull request #3123 from ychescale9/patch-1
+Fix sample code in 2.6.0 CHANGELOG.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-2.6.0
+Prepare next development version
+Merge pull request #3114 from joelhandwell/patch-1
+Add JAXB Converter in Document
+`URL` overload for `Retrofit.Builder#baseUrl`
+Merge pull request #3070 from NightlyNexus/eric.2019-04-09.headers-parameter
+Support okhttp3.Headers for HeadersMap parameters.
+Merge pull request #3065 from square/jakew/versions/2019-04-03
+Next version is 2.6.0
+Merge pull request #3064 from ojh102/bump_gson
+Update to Gson 2.8.5.
+Merge pull request #3051 from chriscizek/proto5-support
+Fix support for protobuf 3.5+, ExtensionRegistry cannot be null
+Upgrade to protobuf 3.5.0
+Remove pre-compiled proto classes
+Merge pull request #3047 from square/jakew/mockit-NO/2019-03-07
+Remove use of Mockito
+Merge pull request #3039 from square/jakew/nullable/2019-02-28
+Add more obviously missing @Nullable annotations
+Add some missing @Nullable annotations to Utils
+Merge pull request #3040 from square/jakew/skip-callback-executor/2019-02-28
+Back suspend methods with the CallAdapter for Call.
+Merge pull request #3038 from square/jakew/skip-callback-executor/2019-02-28
+Add annotation for skipping the callback executor
+Merge pull request #3035 from square/jakew/one-source/2019-02-20
+Do not leak body in intermediate buffers to converters
+Merge pull request #3029 from square/jakew/cancel-test/2019-02-15
+Merge pull request #3028 from square/jakew/tag/2019-02-15
+Test canceling a suspend invocation propagates to Call
+Merge pull request #2886 from square/jakew/suspend/2018-09-11
+Add first-party Kotlin coroutine suspend support
+Add parameter annotation @Tag for setting request tags
+Merge pull request #3025 from square/jakew/more-attrs
+Add more attributes to Retrofit's R8/ProGuard rules
+Ignore static interface methods when eagerly validating
+Merge pull request #3011 from square/jakew/nully/2019-01-22
+Merge pull request #3012 from square/jakew/throw-if-fatal/2019-01-22
+Merge pull request #3013 from square/jakew/converter-data-leak/2019-01-22
+Merge pull request #3010 from square/jakew/keep-retrofit-interfaces/2019-01-22
+Ensure JAX-B converter closes its body on error
+Fatal errors should crash the dispatcher thread
+Mark HttpException.response() as nullable
+Merge pull request #2965 from NightlyNexus/patch-1
+Use better error messages when passing null for a parameter
+Keep Retrofit interfaces in R8 full mode
+Update README.md for retrofit-converters (#2996)
+Update link to moved repository (#2995)
+Merge pull request #2993 from JayNewstrom/jackson-update
+Updated jackson to the latest version (2.9.8).
+Merge pull request #2976 from shaishavgandhi05/sg/remove-sudo
+Remove sudo:false from travis
+Merge pull request #2970 from NightlyNexus/patch-2
+Correct Calls API in changelog.
+Merge pull request #2969 from adibfara/patch-1
+Update CHANGELOG.md
+Use H2 for change log entry
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-2.5.0
+Prepare next development version
+Merge pull request #2967 from square/jakew/robo/2018-11-18
+Merge pull request #2968 from square/jakew/okhhtp/2018-11-18
+Update OkHttp to 3.12
+Update Robolectric
+Update to Moshi 1.8.0.
+Merge pull request #2962 from square/jakew/completable-future-android/2018-11-16
+Merge pull request #2963 from square/jakew/nullability/2018-11-16
+Merge pull request #2964 from square/jakew/header-tests/2018-11-16
+Add tests for form and multipart header values and overrides
+Add some missing Nullable annotations
+Merge pull request #2961 from square/jakew/nullability/2018-11-16
+Merge pull request #2960 from square/jakew/optional-android/2018-11-16
+Add some missing Nullable annotations
+Next version is 2.5.0
+Clean out Java 8 READMEs to further discourage use
+Enable built-in CompletableFuture adapter on Android API 24+
+Enable built-in Optional converter on Android API 24+
+Merge pull request #2957 from square/jakew/optional-testing/2018-11-15
+Use a dummy value to further validation optional delegation
+Merge pull request #2932 from square/jwilson.1021.path_traversal
+Forbid path traversal ('.' and '..') as @Path parameters.
+Merge pull request #2927 from vanniktech/patch-1
+Update Proguard rules for R8 fullmode
+Merge pull request #2915 from square/jwilson.1005.everything_is_non_null
+Merge pull request #2904 from NightlyNexus/eric.2018-09-23.delegating-optional
+Merge pull request #2905 from NightlyNexus/eric.java8
+Replace @ParametersAreNonnullByDefault with @EverythingIsNonNull
+Merge pull request #2912 from square/jakew/subscribe-twice/2018-09-28
+Test all Rx types can be subscribed to twice
+Move Optional support into Retrofit core.
+Fix Optional converter factories not delegating properly.
+Merge pull request #2903 from NightlyNexus/patch-1
+Fix Javadoc formatting.
+Merge pull request #2895 from NightlyNexus/eric.java8
+Merge pull request #2902 from square/jakew/invocation-tweak/2018-09-22
+Expose static factory for Invocation
+Merge pull request #2899 from square/jwilson.0920.invocations
+Move CompletableFuture support into Retrofit core.
+New 'Invocation' class for tracking metrics on Retrofit calls
+Merge pull request #2892 from square/jakew/tag/2018-09-18
+Merge pull request #2894 from NightlyNexus/patch-1
+Streaming annotation is for ResponseBody.
+Normalize null args to empty
+Merge pull request #2885 from square/jakew/reified-create/2018-09-11
+Add reified create extension for Kotlin
+Merge pull request #2878 from square/jakew/suspend/2018-09-06
+Re-work unresolvable type detection in parameters
+Merge pull request #2875 from square/jakew/builder/2018-09-02
+Get rid of the now-useless HttpServiceMethod.Builder
+Merge pull request #2870 from jrodbx/jrod/update-proguard
+Update Proguard rules for D8
+Merge pull request #2859 from square/jakew/unit/2018-08-16
+Add built-in support for Kotlin's Unit type
+Merge pull request #2849 from NightlyNexus/eric.more-checks
+Fix error message for out-of-order parameters.
+Merge pull request #2818 from square/jakew/default-android/2018-07-05
+Merge pull request #2827 from square/jakew/okhttp/2018-07-13
+Update to OkHttp 3.11
+Implement correct isDefault check for Android
+Change 'compile' to 'implementation'
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+changed compile to implementation
+changed compile to implementation
+changed compile to implementation
+changed compile to implementation
+Update README.md
+Merge pull request #2806 from square/jakew/refactorings/2018-06-16
+RxJava: Skip enqueuing calls if disposed
+Merge pull request #2807 from simonlinj/master
+Fix typo in OkHttpCall (#2781)
+Move general checks out of HTTP-specific code
+Merge pull request #2799 from square/jakew/refactorings/2018-06-16
+Consolidate exception formatters in one place
+Merge pull request #2798 from square/jakew/refactorings/2018-06-15
+Pull out ServiceMethod base class
+Merge pull request #2796 from square/jakew/refactorings/2018-06-15
+Merge pull request #2797 from square/jakew/fix-names/2018-06-15
+Fix pointer to renamed rules file
+Remove OkHttpCall dependency on ServiceMethod
+Merge pull request #2790 from square/jakew/refactorings/2018-06-12
+Merge pull request #2795 from square/jakew/rules/2018-06-15
+Update ProGuard rules
+Break request creation parsing out of service method
+Merge pull request #2787 from square/jakew/ship-rules/2018-06-11
+Refactorings (#2789)
+Ship R8/ProGuard rules in the jar.
+Update ProGuard rules to parse correctly
+Merge pull request #2735 from square/jwilson.0417.lock_down_jaxb
+Lock down JAXB. Don't load remote entities.
+Add support for creating failed test call instances with any exception.
+Merge pull request #2721 from adriancole/observableAssembly
+Makes sure observable assembly hooks are called
+Ability to add Http status code to Response.success (#2715)
+Merge pull request #2709 from Apsaliya/as/patch-3
+Throw IO and RuntimeException directly without wrapping them into new RuntimeException.
+Remove redundant throws.
+Merge pull request #2704 from square/jwilson.0320.be_sad_about_jaxb
+Document that JAXB doesn't work on Android
+Merge pull request #2698 from NightlyNexus/patch-1
+Add a test for not overwriting headers.
+Merge pull request #2695 from NightlyNexus/patch-1
+Fix local converter name.
+Merge pull request #2692 from NightlyNexus/patch-1
+Don't ever pass fatal errors to the callback.
+Update CHANGELOG.md
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-2.4.0
+Rollback release plugin.
+Fix date.
+Prepare version 2.4.0.
+Merge pull request #2688 from woprandi/woprandi-compile-to-implementation
+Replace 'compile' with 'implementation
+Replace 'compile' with 'implementation'.
+Small tweaks while doing other work. (#2685)
+Merge pull request #2673 from square/jwilson.0225.https_links
+Use HTTPS links in documentation where possible.
+Merge pull request #2672 from NightlyNexus/eric.okupdate
+Update to OkHttp 3.10.0.
+More accurately name call adapter local list. (#2667)
+Bump to latest Jackson to avoid CVE. (#2662)
+Encapsulate more behavior inside ServiceMethod. (#2665)
+More accurately name call adapter list field. (#2664)
+Merge pull request #2660 from NightlyNexus/eric.2018-02-13.end-document
+Merge pull request #2661 from NightlyNexus/eric.2018-02-14.end-document
+Merge pull request #2663 from PromanSEW/patch-2
+Update Scala dependency
+Assert full JSON document consumption with Gson.
+Bump Jackson version a bit. (#2658)
+Don't conflate downstream disposal with upstream cancel. (#2659)
+Assert full JSON document consumption with Moshi.
+Merge pull request #2639 from square/jwilson.0206.scala_adapters
+Rename the Scala adapter package to retrofit2.adapter.scala.
+Merge pull request #2636 from square/jwilson.0206.retrofit_modulenames
+Define Automatic-Module-Name for Retrofit modules
+Merge pull request #2614 from square/jakew/proguard/2018-01-18
+Remove old ProGuard nonsense.
+Merge pull request #2613 from technoir3/retain-service-params
+Retain service method parameters when ProGuard optimization is enabled.
+Merge pull request #2610 from square/jwilson.0110.deprecate_simple_xml
+Initial JAXB converter factory. (#2609)
+Deprecate our SimpleXmlConverterFactory
+Merge pull request #2591 from vibinr/querymap-docfix
+Fix inconsistent example in QueryMap's javadoc.
+Merge pull request #2588 from jrodbx/headermap-docs
+Update docs to mention @HeaderMap
+Merge pull request #2580 from vanniktech/patch-1
+Fix typo in README of retrofit-mock.
+Don't catch fatal errors. (#2566)
+Handle Errors in OkHttpCall. (#2556)
+Merge pull request #2564 from kacperduras/okhttp
+Bump okhttp.
+Add Scala Future adapter. (#2521)
+Merge pull request #2532 from mirsfang/master
+coca-cola is not have robots,   samples/DynamicBaseUrl.java     System.out.println(response1.body().string());  is NullPointeException
+Merge pull request #2524 from glureau/patch-1
+typo
+Merge pull request #2499 from naturalwarren/ws_bump_okhttp
+Merge pull request #2498 from naturalwarren/ws_bump_gson
+Update to OkHttp 3.9.0.
+Update to Gson 2.8.2.
+Fix checkstyle.
+Add Retrofit.Builder.adapterFactories(). (#2486)
+Merge pull request #2490 from NightlyNexus/patch-1
+Add initial capacity for converter factory list.
+Add Retrofit.Builder.converterFactories(). (#2476)
+Merge pull request #2439 from square/jw/2017-08-02/remove-volatile
+Remove volatile modifier from synchronized field.
+Merge pull request #2417 from NightlyNexus/patch-2
+Merge pull request #2418 from NightlyNexus/patch-3
+Merge pull request #2416 from NightlyNexus/patch-1
+Update to OkHttp 3.8.1.
+Update to Gson 2.8.0.
+Update to Moshi 1.5.0.
+Merge pull request #2397 from square/jw/2017-07-07/adapter-docs
+Add simple usage docs to each adapter.
+Merge pull request #2363 from MGaetan89/simplify_code
+Remove code duplication
+Merge pull request #2356 from square/jw/2017-06-02/clarify-javadoc
+Clarify that errors start at 0% probability.
+Merge pull request #2345 from square/jw/2017-05-25/nullable
+Add some missing nullable annotations.
+Merge pull request #2336 from PromanSEW/patch-1
+Add ProGuard rules
+Merge pull request #2332 from PromanSEW/patch-1
+Fix typos in changelog
+Fix exceptoin typo
+Fix README link for provided dependency
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-2.3.0
+Prepare version 2.3.0.
+Merge pull request #2331 from square/jwilson.0513.okhttp_38
+Upgrade to OkHttp 3.8.
+Merge pull request #2322 from square/jw/2017-05-11/error-city
+Merge pull request #2323 from square/curalate-allow-null-converters
+Merge pull request #2324 from square/jw/2017-05-11/optional-converters
+Merge pull request #2327 from square/jw/2017-05-11/custom-exception-type
+Use custom exception type when triggering mock failure.
+Add converters which facilitate the use of Optional.
+Allowing skipping of params if the converters converted to a null
+Explicitly handle wrapped, re-thrown exceptions from onComplete, onError.
+Merge pull request #2318 from square/jw/2017-05-09/rx-one-three
+Update to RxJava 1.3 and a stable Completable.
+Merge pull request #2315 from square/jw/2017-05-08/nully
+Add JSR 305 nullability annotations.
+Merge pull request #2313 from square/jwilson.0506.upgrade_checkstyle_77
+Upgrade to Checkstyle 7.7.
+Fixed copy-paste errors.
+Merge pull request #2303 from lucastsantos/samples_fix_crawler_add_url
+Fix potential NoSuchElementException when using Rx 1.x Singles.
+Merge pull request #2299 from NightlyNexus/eric/2017.04.21-query-docs
+Allow Crawler to crawl urls that aren't present in the fetched urls set
+Fix annotation docs to advertise string converters.
+Use checkNotNull utility function.
+Moved validation first before cloning
+Merge pull request #2239 from jaredsburrows/jb/make-httpexception-unchecked
+Make HttpException unchecked to allow the Exception to thrown in custom CallAdapters
+Code style improvements.
+Merge pull request #2205 from guptasourabh/patch-1
+Merge pull request #2210 from JayNewstrom/changelog-typo
+Fix typo in CHANGELOG
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-2.2.0
+Prepare version 2.2.0.
+Removal of Unnecessary Creation of String Builder
+Merge pull request #2200 from square/jw/2017-02-14/error-prone
+Add error-prone compiler.
+Merge pull request #2197 from square/jw/2017-02-13/error-prone
+Use array instead of varargs in override signature.
+Merge pull request #2196 from square/Jawnnypoo-joint-http-exception
+Unify HttpException into a single shared type.
+Merge pull request #2193 from Jawnnypoo/docs
+Explain which types are supported for each adapter
+Merge pull request #2188 from NightlyNexus/eric/moshi-1.4.0
+Use Moshi 1.4's JsonAdapter.serializeNulls()
+Merge pull request #2183 from NightlyNexus/patch-1
+Remove specifying Okio 1.9.0 dependency
+Merge pull request #2181 from square/jw/2017-01-30/query-name
+Add support for query parameters with no value.
+Merge pull request #2178 from square/jw/2017-01-30/mock-errors
+Merge pull request #2177 from square/jw/2017-01-30/unused
+Merge pull request #2176 from square/jw/2017-01-30/stateful-calls
+Make Calls more stateful and add deferring factory.
+Allow HTTP errors to be created as part of mock behavior.
+Remove unused interface.
+Merge pull request #2172 from square/jw/rx-async
+Merge pull request #2174 from square/jwilson.0129.fail_fail
+Fail if the converter doesn't throw.
+Merge pull request #2173 from square/jw/2017-01-29/latest-okhttp
+OkHttp 3.6.0.
+Add createAsync() to RxJava 1.x CallAdapter.Factory.
+Add failOnUnknown to MoshiConverterFactory
+Merge pull request #2169 from square/jw/rx-async
+Add createAsync() to RxJava 2.x CallAdapter.Factory.
+Fix Error Message for Maybe if it's not parameterized and add RxJava2CallAdapterFactoryTest tests.
+Add AnnotatedConverterFactory sample
+Next version is 2.2.0.
+Merge pull request #2134 from vanniktech/documentation
+Add Completable to documentation in RxJava2CallAdapterFactory
+Merge pull request #2119 from Jawnnypoo/proguard-okio
+Okio proguard rules link
+Merge pull request #2107 from square/jw/rex
+Merge pull request #2115 from Jawnnypoo/readme-fixes
+Fix download link for the jar
+Fix adapter readme titles
+Add download info to adapters and converters.
+Make Single link to Javadoc (#2114)
+Merge pull request #2109 from square/jw/checkstyle
+Revert back to an OnSubscribe-based RxJava adapter.
+Update checkstyle to the latest version.
+Merge pull request #2106 from square/jw/okhttp
+OkHttp 3.5.0
+Merge pull request #2095 from square/jw/remove-robovm
+Remove RoboVM support.
+Merge pull request #2092 from square/jw/rx-on-main
+Add sample showing how to add an observeOn to Observable.
+Merge pull request #2079 from square/jw/rxjava2
+Import RxJava 2 CallAdapter.Factory
+Merge pull request #2077 from square/jw/cancel-from-below
+Merge pull request #2078 from square/jaredsburrows-jb-retrofit-newbuilder
+Add shallow-copy newBuilder() method to Retrofit.
+Reflect OkHttp Call canceled state from our Call.
+Merge pull request #2051 from serj-lotutovici/sl/update_moshi
+Use latest moshi.
+Merge pull request #2046 from square/jw/immutable
+Remove incorrect comment as client is immutable.
+Merge pull request #2023 from joaham/close-responsebody-204
+Close ResponseBody on 204/205 to avoid connection leak
+Merge pull request #2016 from square/jw/rxjava-one-two
+Update RxJava adapter to 1.2.0.
+Merge pull request #2017 from square/jw/generics
+Merge pull request #2018 from square/jw/moshi-nulls
+Add method for returning a Moshi conveter that serializes nulls.
+Query map for service method outside of a lock.
+Promote adapter response body type parameter to class level.
+Merge pull request #2006 from ArazAbishov/update-jackson-converter
+Replaced invocation of deprecated factory methods in favor of newer counterparts in JacksonConverterFactory
+Merge pull request #1986 from square/jw/throw-fatal
+Propagate fatal exceptions even if already dispatching an error.
+Merge pull request #1984 from square/jw/to-string
+Add toString implementations to Response and Result.
+Merge pull request #1981 from square/jw/rex
+Implement proper error handling for Rx types.
+Merge pull request #1980 from square/jw/rex
+Switch to a better, custom validating subscriber.
+Merge pull request #1978 from square/jw/rex
+Simplify observable creation and reduce runtime allocations.
+Merge pull request #1977 from square/jw/rex
+Refactor Rx tests to avoid the use of blocking operators.
+Merge pull request #1964 from square/jw/remove-duplicate-test
+Remove duplicated test.
+Merge pull request #1953 from square/jw/proto3
+Update to support protobuf 3.0.
+Merge pull request #1949 from matbos/tests-for-multipart-request-builder
+Add tests for order of multipart request's parts. Issue #1846.
+Remove update warning from website.
+Merge pull request #1924 from amincheloh/patch-1
+Update to OkHttp 3.4.1
+Merge pull request #1906 from square/jw/okhttp
+Update to OkHttp 3.4.0.
+Merge pull request #1905 from square/jw/drop-the-bom
+Skip a UTF-8 BOM if present.
+Merge pull request #1882 from square/jw/string-converter-for-string
+Use string converter for String type.
+Merge pull request #1874 from alexgyori/xmltest
+fixed test to not rely on serialization order
+Merge pull request #1871 from alexgyori/request-order
+Fix test to not rely on the order
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-2.1.0
+Actually let's call it a 2.1.0.
+Update to the latest dependencies.
+Add missing import.
+Prepare version 2.0.3.
+Merge pull request #1840 from square/jw/moshi-qualifiers
+Propagate @JsonQualifier annotations to Moshi.
+Merge pull request #1835 from Sharabaddin/patch-1
+Update .gitignore
+Merge pull request #1820 from square/jw/malformed-content-type
+Eagerly catch malformed content type headers.
+Merge pull request #1818 from sparty02/patch-1
+Update okhttp to 3.3.0
+Merge pull request #1798 from square/jw/nuke-stack
+Remove the misleading stack trace of the fake network exception.
+Merge pull request #1778 from square/jw/xml-char-stream
+Honor the encoding of the response in XML deserialization.
+Correct path to Converter source file.
+Merge pull request #1752 from square/jw/sanity
+Switch to consumer ProGuard rules which aren't insane.
+Implemented @HeaderMap.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-2.0.2
+Update date.
+10 second wait on callbacks.
+Javadoc doclint crap.
+Prepare version 2.0.2.
+Merge pull request #1728 from square/jw/test-exposed-util-behavior
+Cleanup and test exposed utility behavior.
+Merge pull request #1720 from square/jw/crappydoc
+Correct rendering of '@' in Javadoc.
+Merge pull request #1718 from square/jw/correct-call
+Pass the wrapped call to callbacks.
+Merge pull request #1713 from square/jw/skim
+Merge pull request #1714 from square/jw/adapter-docs
+Adapter Javadoc details.
+Eliminate some allocation/state overhead by implementing subscription directly.
+Merge pull request #1711 from square/jw/proto-registry
+Support supplying a protobuf extension registry for deserialization.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-2.0.1
+Prepare version 2.0.1.
+Merge pull request #1703 from square/jw/iterable-and-array-part
+Support iterable and array-based OkHttp Part parts.
+Merge pull request #1702 from square/jw/under-pressure
+Honor backpressure in Observable creation.
+Merge pull request #1680 from square/jw/no-nulls
+Document maps don't allow null anywhere.
+Merge pull request #1673 from square/jwilson_0314_crawler_example
+Merge pull request #1672 from square/jwilson_0314_httpurl
+Retrofit web crawler example.
+Support HttpUrl with @Url.
+Mention isSuccess -> isSuccessful in the change log.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-2.0.0
+Prepare version 2.0.0.
+All the latest of all the things.
+Fill in a bunch of missing or slightly incorrect documentation.
+Tweak Javadoc for Part to use something other than RequestBody.
+Merge pull request #1666 from square/jw/multipart-part-parts
+Add support for OkHttp's MultipartBody.Part.
+Merge pull request #1664 from square/jw/death-to-accessor-methods
+Remove the need for generated accessor methods.
+Merge pull request #1662 from square/jw/nully
+Null check Call.enqueue argument.
+Merge pull request #1654 from square/jwilson_0306_dynamic_base_example
+Merge pull request #1652 from square/jwilson_0306_no_mutable_base_url
+Sample for a dynamic base URL.
+Merge pull request #1653 from walfud/master
+Drop the mutable base URL.
+Doc error. `@QueryMap` with `encoded=true` will stop default url encoding. So, calling with `foo.list(ImmutableMap.of("foo", "foo+bar"))` yields '/search?foo=foo+bar' instead of '/search?foo=foo%2Bbar'.
+Merge pull request #1650 from square/jwilson_0306_servicemethod
+Combine MethodHandler and RequestFactory into ServiceMethod.
+Merge pull request #1648 from square/jwilson_0305_requestfactorybiulder
+Rename RequestFactoryParser to RequestFactory.Builder.
+Merge pull request #1647 from square/jw/forbid-null-in-maps
+Forbid null map values, and null maps.
+Merge pull request #1633 from Shredder121/master
+Merge pull request #1640 from square/jw/callback-executor-in-sample
+Note that the callback executor should be used when non-null.
+Merge pull request #1639 from square/jw/propagate-executor
+Propagate callback executor even when not explicitly specified.
+Support for primitive return types
+Make build pass on Windows
+Merge pull request #1625 from s3xy4ngyc/master
+Bumped Jackson to current version 2.7.1
+Merge pull request #1621 from square/jwilson_0221_issue_template
+Issue template for retrofit.
+Speling.
+Add success method with headers to Response.
+Merge pull request #1615 from square/jw/schedulers
+Provide the ability to specify a default scheduler for RxJava.
+Add lenient option for MoshiConverterFactory
+Merge pull request #1610 from NightlyNexus/cancel-typos
+Fix cancellation typos
+Merge pull request #1603 from square/jw/gson-lenient-reading
+Rxjava 1.1.1 and implement Completable support in rxjava adapter
+Use Gson instance as factory for reader to honor config.
+Merge pull request #1601 from bleege/master
+#1600 - Updating OkHttp to 3.1.2
+Merge pull request #1583 from square/jw/malformed-resolve
+Throw nice message when resolved URL is malformed.
+Merge pull request #1577 from square/jw/okhttp
+OkHttp 3.1.1.
+Merge pull request #1573 from square/jw/okhttp-three-one
+OkHttp 3.1.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-2.0.0-beta4
+Prepare 2.0b4.
+Write up Beta 4's current change log.
+Do not encode '/' in path replacement when encoded=true.
+Merge pull request #1548 from square/f2prateek-method-annotations-2
+Only make one copy of the method annotations array.
+Local naming normalization.
+Supply method annotations to factory when invoking requestBodyConverter method.
+Merge pull request #1542 from square/jw/resolve-generic-types
+Correctly resolve generic types on the target type, not actual.
+Merge pull request #1541 from square/jw/annotation-delegation
+Add sample showing converter delegation via annotations.
+Merge pull request #1540 from square/jw/json-as-string-converter
+Add example of using JSON converter as a String converter.
+Add support for iOS with RoboVM.
+Merge pull request #1532 from square/jw/java-eight
+Add Java 8 CompleteableFuture adapter.
+Merge pull request #1530 from square/jw/adapter-util-methods
+Expose the methods required to implement a CA.F on base class.
+Merge pull request #1531 from square/jw/converter-packages
+Move converters into their own packages.
+Merge pull request #1529 from square/jw/generic
+Add missing generic.
+Merge pull request #1528 from square/jw/default-methods
+Merge pull request #1521 from square/jw/guava-adapter
+Ensure default methods can be invoked.
+Merge pull request #1520 from square/jw/rx-tests
+Add an adapter for Guava's ListenableFuture.
+Refactor and fill out RxJava adapter tests.
+Merge pull request #1516 from manidesto/patch-2
+baseUrl should end with '/'
+Merge pull request #1513 from square/setheclark-exception_msg_correction
+More comprehensive assertions for factory failures.
+Correcting the collection used when printing out the skipped converter factories when constructing the exception message
+Merge pull request #1491 from JayNewstrom/wire
+Merge pull request #1490 from JayNewstrom/moshi
+Update to the latest version of wire
+Update to the latest version of moshi
+Merge pull request #1487 from square/jw/do-not-trap-io
+Do not trap IO from request body conversion.
+Merge pull request #1485 from square/jw/simplify-close
+Simplify body closing in response converters.
+Merge pull request #1484 from square/jw/call-get-request
+Provide ability to retrieve original Request object from Call.
+Add support for scalars from ResponseBody
+Merge pull request #1483 from JayNewstrom/okhttp
+Update to the latest version of okhttp
+Merge pull request #1471 from square/jw/call-argument
+Supply Call to Callback methods.
+Merge pull request #1440 from JayNewstrom/changelog
+Fix date in changelog
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-2.0.0-beta3
+Prepare version 2.0.0-beta3.
+Merge pull request #1436 from square/jw/url-uris
+Support java.net.URI and android.net.Uri for @Url.
+Merge pull request #1434 from square/jw/stable-okhttp
+Point to a stable release of OkHttp.
+Merge pull request #1427 from square/jw/import
+Merge pull request #1428 from square/jw/resolve-to-builder
+Use method to resolve directly to a builder.
+Use import.
+Merge pull request #1426 from square/jw/new-okhttp-apis
+Use new OkHttp's non-throwing close and a simpler body copy.
+Added more tests for RxJava Single type support
+Merge pull request #1425 from square/jw/fix-tests
+Use Builder to add interceptor.
+Merge pull request #1423 from square/jwilson_0101_callfactory
+Use Call.Factory in RequestBuilderTest.
+Merge pull request #1418 from square/jw/forbid-response-response-types
+Forbid Retrofit and OkHttp Response types as response body type.
+Merge pull request #1406 from square/jw/okhttp-three
+Remove Call.Factory in favor of OkHttp's.
+Merge pull request #1405 from square/jw/okhttp-three
+Upgrade to OkHttp 3.0 API.
+Merge pull request #1403 from gilvegliach/gv/fix-javadoc-typo
+Remove duplicated 'the' from javadoc
+Merge pull request #1400 from square/jw/some-docs
+A random assortment of documentation additions.
+Merge pull request #1398 from square/jw/visiblity-housekeeping
+Merge pull request #1397 from square/jw/nuke-synthetics
+Merge pull request #1396 from square/jw/double-cause
+Merge pull request #1395 from square/jw/needless
+Visibility housekeeping: reduce to least access level.
+Remove synthetic accessor method generation by incresing visibility.
+Remove redundant double-cause initialization.
+Remove needless unchecked suppression.
+Merge pull request #1394 from square/jw/call-factory
+Add Call.Factory for alternate HTTP client implementations.
+Merge pull request #1393 from square/jw/mock-builder
+Switch to a proper builder for MockRetrofit.
+Merge pull request #1392 from square/jw/canceled-io-throw
+Throw normal IOException when canceled to match OkHttp.
+Merge pull request #1391 from square/jw/wrong-generic
+Remove incorrect generic parameter.
+Add an example using the gson converter.
+Merge pull request #1371 from square/jw/path
+Correct `@Path` documentation.
+Merge pull request #1359 from vpratfr/patch-1
+Add missing Call wrappers as return type
+Merge pull request #1354 from square/jw/javadoc
+Correct some Javadoc examples, always run Javadoc plugin.
+Merge pull request #1347 from NightlyNexus/test-execute-call-once
+Add test for executing Calls at most once
+Merge pull request #1343 from square/jw/new-mock
+Introduce new mock pattern with a behavior delegate.
+Merge pull request #1342 from square/jw/two
+New package name for version 2.
+Merge pull request #1326 from square/jw/iterable-array-part
+Merge pull request #1325 from square/jw/move
+Support iterable and array types for `@Part`.
+Move tests to same package as tested classes.
+Merge pull request #1319 from square/jw/delegating-converters-with-chunking-sample
+Allow converters to delegate to others.
+Merge pull request #1317 from square/jw/scalars
+Add converter for scalars to request body.
+Merge pull request #1313 from square/jw/call-is-executed
+Add isExecuted method to Call.
+Merge pull request #1302 from square/1zaman-delivery-cancellation
+Expose isCanceled API on Call.
+Check for cancellation on callback executor run.
+Merge pull request #1294 from square/jw/string-converter
+Add string converter support for all non-body annotation types.
+Merge pull request #1289 from square/jw/abstract-iterable-and-array-param-actions
+Extract iterable and array behavior from RequestAction.
+Merge pull request #1287 from square/jw/caching-build-in-converters
+Cache stateless built-in converter instances.
+Merge pull request #1288 from square/jw/request-action
+Parameterize RequestBuilderAction, rename to RequestAction.
+Added a OPTIONS annotation
+Merge branch 'master' of https://github.com/square/retrofit
+Tweaks from review.
+Merge pull request #1284 from square/jw/url-docs
+Merge pull request #1283 from square/jw/docs
+Merge pull request #1282 from square/jw/response
+Fill out some documentation on public types.
+Documentation for endpoint resolving on a base URL.
+Response documentation, preconditions, and tests.
+Merge pull request #1277 from square/jw/all-custom-call-adapter
+Add CA.F sample showing an all-custom type and its callback.
+Merge pull request #1276 from square/jw/revert-callback-retrofit
+Revert "Provide Retrofit to response callback. Add error converter sample."
+Merge pull request #1266 from SimonScholz/master
+Merge pull request #1269 from SimonScholz/checkstyle
+Added a checkstyle rule for the line indentation
+Make Retrofit ready for usage in OSGi
+Merge pull request #1244 from artem-zinnatullin/validate-eagerly-boolean
+Merge pull request #1252 from artem-zinnatullin/request-builder-action-exception
+RequestBuilderAction: pass exception from converter as cause of thrown exception
+Accept validateEagerly as boolean param
+Merge pull request #1233 from square/jwilson_1026_update_javadoc_links
+Update links to Javadoc.
+Merge pull request #1230 from square/jw/wire-2
+Update Wire converter to v2.0.0.
+Merge pull request #1189 from danielchristopher1/patch-2
+Update index.html
+Update multipart documentation.
+Merge pull request #1154 from square/jw/simple-examples
+Merge pull request #1163 from square/jw/gson-two-four
+Update to Gson 2.4 and newJsonWriter method.
+Revert "Temporarily revert to using Gson instance directly."
+Toss simple examples onto HTTP annotation.
+Merge pull request #1139 from larsgrefer/documentation
+Use sections
+Properly close div
+Merge pull request #1134 from square/jw/remove
+Remove useless unsubscribed check.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-2.0.0-beta2
+Prepare for 2.0.0-beta2.
+Merge pull request #1132 from square/jw/temporary-gson-workaround
+Temporarily revert to using Gson instance directly.
+Merge pull request #1131 from square/jw/moshi-one
+Moshi 1.0.0.
+Merge pull request #1119 from artem-zinnatullin/improve-error-handling-in-rx-call-adapter
+Add Exceptions.throwIfFatal() into RxJava adapter
+Merge pull request #1127 from square/jw/consolidate-response-bodies
+Merge pull request #1126 from square/jw/consolidate-converters
+Consolidate built-in converters as inner classes.
+Consolidate response body specializations as inner classes.
+Merge pull request #1123 from square/jw/path-encoding
+Merge pull request #1125 from square/jw/head-must-be-void
+HEAD requests must use Void response type.
+Merge pull request #1117 from dlew/dlew/rxjava-scheduling
+Use execute() instead of enqueue() in Rx adapter
+Merge pull request #1122 from square/jw/shutdown
+Use a correct implementation of path encoding.
+Shutdown MockWebServer so process exits cleanly.
+Merge pull request #1118 from square/jw/provide-retrofit
+Provide Retrofit to response callback. Add error converter sample.
+Merge pull request #1115 from square/jw/converter-methods
+Expose request and response converter query methods.
+Merge pull request #1109 from square/jw/call-adapter-delegation
+Add delegation support to CallAdapter.Factory.
+Merge pull request #1096 from lukaciko/multipart-form-data
+Merge pull request #1108 from dlew/dlew/rx-sub-safety
+Added extra caution before calling onError/onCompleted
+Merge pull request #1099 from f2prateek/patch-1
+Remove outdated reference
+Use form-data subtype for multipart requests.
+Merge pull request #1080 from square/jw/eager
+Provide option for eagerly validating an interface.
+Merge pull request #1056 from joaopedronardari/patch-1
+Updating dependencies version
+Merge pull request #1052 from square/jw/new-converter-api
+Switch to a generic to/from converter, explicit factory.
+Merge pull request #1051 from square/jw/void-converter
+Add built-in support for Void type which just closes body.
+Merge pull request #1043 from square/jw/fixurup
+Restore the SimpleService sample to working order.
+2.0 warning on website.
+More REST-->HTTP conversion.
+Merge pull request #1042 from square/jw/website
+Quick website update for 2.0. Much to be done here...
+Merge pull request #1039 from square/jw/annotations
+Give method or parameter annotations to CallAdapter and Converter factories.
+Merge pull request #1038 from square/jw/call-adapter-generics
+Correct the generics of CallAdapter.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-2.0.0-beta1
+Change log for 2.0.0-beta1.
+Merge pull request #1032 from square/jw/rxjava-latest
+Merge pull request #1031 from square/jw/okhttp-two-five-final
+OKHttp 2.5.0 release version.
+RxJava 1.0.14 with an important Android fix.
+Merge pull request #1006 from square/jw/java-eight
+Do not proxy default methods on service interfaces.
+Merge pull request #1021 from square/jwilson_0822_converter
+Retrofit.Builder.addConverter().
+Merge pull request #1017 from square/jw/network-behavior
+Naming, API changes, and documentation around mock services.
+Merge pull request #981 from square/jw/rxjava-single
+Add optional support for RxJava's experimental Single type.
+Merge pull request #1024 from square/jwilson_0822_contenttype
+Prefer the word contentType.
+Merge pull request #1018 from oakesja/master
+Merge pull request #1015 from vanniktech/master
+fixed broken link on website
+Website change with 26d19ea - Java 7 is required since 2ca1950
+Remove some old toString overloads which are no longer used.
+Merge pull request #1009 from square/jw/multiple-converters-and-call-adapters
+Allow multiple factories for converters and call adapters.
+Merge pull request #1003 from square/jw/http-is-not-io
+Switch HttpException to not be an IOException.
+Merge pull request #1001 from square/jw/http-exception
+HTTP-specific exception for the simple Observable case.
+Merge pull request #986 from jjshanks/update-readme-java-version
+Java 7 is required since 2ca19506
+Merge pull request #980 from square/jw/result-helpers-public
+Make Result's factory methods public.
+Merge pull request #976 from square/jw/mock
+Shift mock module to allow applying behavior to any invocation type.
+Merge pull request #978 from square/jw/mws
+Update to latest MockWebServer snapshot.
+Merge pull request #961 from square/jw/allow-non-retrofit-annotations
+Allow other non-Retrofit annotations on parameters.
+Merge pull request #960 from square/jw/restore-mock-sample
+Restore and update mock sample.
+Merge pull request #944 from square/jw/the-mock-night-rises
+Restore mock module for creating delayed and erroring Calls.
+Merge pull request #950 from square/jwilson_0708_onSuccess
+Rename Callback.success() to onSuccess(), and failure() to onFailure().
+Merge pull request #948 from square/jwilson_0708_cancel
+Call.cancel at any time.
+Merge pull request #943 from square/jw/mws-http-url
+Replace MWS URL method with HttpUrl one.
+Merge pull request #942 from square/jw/non-timing-based-buffer-and-stream
+Use non-timing based methods to detect buffer and stream.
+Correct Javadoc for converter on parts.
+Merge pull request #930 from benoitdion/urlTests
+Merge pull request #929 from square/jwilson_0629_latest_version
+Also refer to the latest OkHttp version.
+Additional coverage for Url annotation
+Final
+Merge pull request #927 from square/jw/url
+Add Url annotation for dynamic resolution.
+Merge pull request #926 from square/jw/base-url
+Rename 'Endpoint' to 'BaseUrl'.
+Merge pull request #925 from square/jw/expose-executor-call-adapter-factory
+Allow passing in an executor on which callback methods are invoked.
+Merge pull request #913 from square/jw/test-coverage
+Add some failing behavior tests which were not covered.
+Merge pull request #912 from square/jw/rearchitect-parsing
+Switch the architecture of method parsing and invocation.
+Merge pull request #911 from square/jw/parameter-actions
+Refactor the core of request builder into parameter actions.
+Merge pull request #909 from square/jw/converter-factory
+Move response Converter lookup to happen during method parsing.
+Merge pull request #908 from square/jw/converter-factory
+Introduce factory for converter concept.
+Merge pull request #906 from square/jw/converter-integration-tests
+Migrate converter tests to be integration style.
+Merge pull request #905 from square/jw/moshi
+Add first-party Moshi converter.
+Merge pull request #903 from square/jw/include-request-body
+Add test for empty response body still uses converter.
+Include a request body for content type and length.
+setDelay can set a value that would cause IllegalArgException to be thrown by random.nextInt
+Merge pull request #899 from square/jw/logic
+Merge pull request #898 from square/jw/http-url
+Rewrite response parsing for more simple control flow.
+Accept an HttpUrl in the endpoint builder method.
+Merge pull request #896 from square/jw/branding
+Rename main class to Retrofit.
+Merge pull request #893 from square/jw/http-url
+Quick Javadoc cleanup to restore snapshot building.
+Use HttpUrl for Endpoint and building URL.
+Merge pull request #888 from square/jw/naming
+Refine the behavior of detecting unresolvable types.
+Merge pull request #892 from shekibobo/typo-in-otherwise-awesome-stuff
+Fix typo
+Merge pull request #890 from square/jw/unused-path-param
+Merge pull request #889 from square/jw/restore
+Add a test to verify unused and potentially invalid path params are allowed.
+Restore previously commented out tests.
+Merge pull request #885 from square/jw/bounds
+Merge pull request #884 from square/jw/only-one-call-adapter-factory
+Forbid type variable use in response types.
+Only allow a single CallAdapter.Factory per RestAdapter.
+Merge pull request #876 from square/jw/converters
+Move converter into the main package, remove Gson from core.
+Merge pull request #881 from square/jw/casing
+Merge pull request #880 from square/jw/value-change-listener
+Merge pull request #882 from square/jw/sane-tests
+Rewrite RxJava call adapter tests to be more understandable.
+Merge pull request #879 from square/jw/do-not-bring-a-converter-along
+Correct Simple XML converter's type casing.
+Remove the mock preference value change listener.
+Do not bring the converter along into the response.
+Merge pull request #875 from roman-mazur/empty-body
+Coerce the absence of body into the empty body
+Merge pull request #874 from commonquail/mixed-content
+Resolve mixed-content resources
+Merge pull request #873 from commonquail/doc-redundant-dep
+Remove okhttp-urlconnection Gradle dependency
+Merge pull request #845 from square/jw/this-changes-everything
+Introduce call, call adapters, and the response type.
+Merge pull request #852 from square/jw/samples
+Consolidate samples into a single package.
+Merge pull request #849 from square/jw/encoded
+Normalize specifying encoded values via parameter annotations.
+Merge pull request #848 from square/jw/built-in-form-builder
+Switch to OkHttp's built-in form body builder.
+Merge pull request #839 from square/jw/remove-interceptor
+Remove our RequestInterceptor.
+Merge pull request #838 from alokmenghrajani/alok/bugbounty
+Includes this repo in our open source bug bounty program.
+Merge pull request #824 from tomrozb/doc-fix
+Fix foo/bar/baz in @Query documentation
+Merge branch 'master' of https://github.com/square/retrofit
+OkHttp 2.0 only.
+Merge pull request #803 from marcin-kozinski/feature/proguard-configuration
+Formatting.
+Merge pull request #814 from square/jw/builder-updates
+Remove 'set' prefix from builder methods.
+Merge pull request #815 from square/jw/two-oh-four-and-five
+HTTP 204 & 205 should skip the converter.
+Final
+Space
+Merge pull request #812 from square/jw/form-encoding
+Restore Form URL encoding support.
+Brings back Multipart from the dead!
+Add ProGuard config to the website
+Merge pull request #788 from hekar/fix/jdk8-doclint
+Changes to Javadoc to remove doclint errors and warnings
+Merge pull request #732 from square/jw/destroy-client
+Remove Client, Request, Response, TypedInput, and TypedOutput abstractions.
+Merge pull request #730 from square/jw/exceptions
+Merge pull request #731 from square/jw/simplify-http-annotations
+Simplify custom HTTP method implementation.
+Remove specialized ConversionException.
+Merge pull request #729 from square/jw/headers
+Get rid of our own Header class.
+Merge pull request #728 from square/jw/okhttp-is-the-client
+Use OkHttp as the sole client.
+Merge pull request #727 from square/jw/pass-type-to-serializer
+Pass request body type to converter for serialization.
+Merge pull request #726 from square/jw/no-more-tape
+Interceptor tape is no longer needed.
+Unused from previous commit.
+Merge pull request #725 from square/jw/loggy
+Remove logging. It stands in the way of progress.
+Merge pull request #724 from square/jw/endpoint
+Remove the need for two Endpoint classes.
+Remove unused classes from 56f11374c2f5d037e57d274a3c72f9694cd9e05c.
+Merge pull request #721 from square/jw/async-client
+Switch the Client to control the threading model for execution.
+fxi spellnig
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.9.0
+Next version is 1.9.0.
+Merge pull request #701 from square/jw/null-header-values
+Ensure we don't crash on null header values.
+Merge pull request #694 from BillGuard/master
+Bump Gson dependency
+Merge pull request #692 from square/jw/okhttp-two
+Update to OkHttp 2.2. Fix a tiny potential NPE.
+Merge pull request #691 from square/jw/okhttp-two
+Update to native OkHttp 2.0 APIs.
+Fix annotation link. EncodedPath is gone.
+Errors fail the deploy script.
+Merge pull request #684 from square/jw/auto-deploy
+Auto-deploy snapshots from Travis CI to Sonatype.
+Merge branch 'vml-rmott-thread-name-shorten'
+Shorten Thread name by removing query string.
+Merge pull request #636 from square/jw/break-app-engine-out
+Merge branch 'karlicoss-encode-field'
+Optional @Field/@FieldMap URL-encoding.
+Merge pull request #666 from square/jw/iterable-headers
+Add support for iterable headers.
+Updated strict to be final so that the converter isn't mutable
+Provide a setter to set strict mode to false
+Merge pull request #660 from square/jw/new-redirect-link
+Use new central artifact redirect link.
+Merge branch 'master' of https://github.com/square/retrofit
+Prepare version 1.8.0.
+RxJava 1.0.
+Merge pull request #654 from eddieringle/er/fix-mime-deprecation-warnings
+Fix usage of deprecated MimeUtil functions
+Merge pull request #653 from timehop/fix-parseresponsetype-javadoc
+Removed incorrect documentation.
+Prepare version 1.7.1.
+Merge pull request #639 from square/rice/fix_log_npe
+Avoid an NPE when logging a null request arg
+Merge pull request #638 from square/edenman/update-rxjava
+Switch to io.reactivex version of rxjava
+Break AppEngine support out of the core.
+Merge pull request #629 from square/jw/remove-profiler
+Remove profiler.
+Merge pull request #631 from square/jw/kill-endpoint-naes
+Merge pull request #632 from square/jw/kill-response-callback
+Merge pull request #633 from square/jw/client-provider-death
+Merge pull request #630 from square/jw/deprecated
+Remove Client provider indirection.
+Remove ResponseCallback.
+Remove endpoint names.
+Remove deprecated error identifier.
+Merge pull request #628 from square/jw/remove-deprecated-methods
+TWO
+Remove deprecated explicit encoded annotations.
+Rename the samples directory.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.7.0
+One seven oh.
+Forgot about encode settings on path/query annotations.
+Prepare for 1.7.0.
+Dot
+Favor an immutable singleton list over immutable list view.
+Next version will be 1.7.0.
+Merge pull request #578 from square/jw/mock-scheduling
+Simplify scheduling of mock observers.
+Document required versions.
+Merge pull request #622 from square/jw/error-kind
+Provide explicit error kind for disambiguation of underlying cause.
+Merge pull request #620 from square/jw/annotations
+Use the annotations directly for parameter handling.
+Merge pull request #623 from square/jw/document-exception-behavior
+Bump AssertJ dependency.
+Bump Wire dependency.
+Bump Jackson dependency.
+Bump Guava dependency.
+Bump RxJava version.
+Document custom error body deserialization exception.
+Merge pull request #619 from square/jw/whiteboxish
+Migrate most behavior tests to be whitebox(ish).
+Merge pull request #612 from square/jw/content-transfer-encoding
+Add transfer encoding to multipart parts.
+Merge pull request #617 from square/jw/fetch-client-null-url
+Merge pull request #616 from square/jw/fetch-client-content-type
+Account for response URL being absent.
+Include body mime type on AppEngine client requests.
+Merge pull request #610 from square/jw/gson-charset
+Use charset to properly adhere to Javadoc contract.
+Merge pull request #605 from timehop/update-gson-dependency
+Update GSON to 2.3
+Merge pull request #597 from austynmahoney/am/bug/595-path-query-exception
+@Path/Query exception message update
+Merge pull request #601 from square/ray/wire-conv
+Unexpected mime type should be a ConversionException.
+Merge pull request #581 from f2prateek/patch-1
+Patch Converter typo
+Bump test dependencies.
+Merge pull request #577 from square/rice/log_headers_and_args
+Add @Override annotations
+Add a new log level: HEADERS_AND_ARGS
+Merge pull request #576 from LukeStClair/master
+Accept @Header annotation values that are objects
+Merge pull request #558 from square/jw/only-content-type-header
+Correct NPE when only 'Content-Type' header is present on non-body requests.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.6.1
+Bump dependency versions to the latest.
+Prepare version 1.6.1.
+Merge pull request #553 from square/jw/content-type-header-no-body
+Always add special-cased 'Content-Type' header to request.
+Merge pull request #552 from square/jw/wtf-dot-net
+Add trailing CRLF to multipart.
+Merge pull request #551 from square/edenman/dont-blow-up-on-null-bodies
+Don't crash on null response body
+Merge pull request #541 from BugsBunnyBR/okhttp-integration-doc
+Improved documentation about OkHttp integration
+Update CHANGELOG.md
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.6.0
+Prepare version 1.6.0.
+Merge branch 'master' of https://github.com/square/retrofit
+Merge branch 'raw'
+Rename '@Raw' to '@Streaming' for better semantics.
+added @Raw annotation for retrieving the response without converting to byte[] first (as suggested in #478) incl. tests
+Merge pull request #524 from square/jw/expose-success-type
+Expose success type on RetrofitError.
+Merge pull request #523 from square/jw/endpoints-test
+Move Endpoints tests into the right place.
+Merge pull request #517 from square/jw/update-rx
+Merge pull request #518 from square/jw/remove-catch
+Remove unnecessary catch block from RxSupport.
+Update RxJava version to the latest.
+Disable the integration test.
+Merge pull request #511 from square/jw/fix-content-type-mess
+More robust implementation of 'Content-Type' overriding.
+Merge pull request #510 from square/jw/no-body
+Clarify no body vs. an empty body in log statements.
+Merge pull request #509 from square/jw/apply-interceptor-tape-on-subscribe
+Apply the interceptor tape at the time of subscription.
+Merge pull request #508 from square/jw/converter-docs
+Add simple documentation to each converter.
+Merge pull request #505 from square/jwilson_0527_okhttp_16
+If OkHttp is present, require 1.6.0 or better.
+Merge pull request #493 from square/jw/mock-async-sleep-before-callback
+Change mock async behavior to use the supplied Callback instance directly.
+Merge pull request #496 from square/jw/exception-messages
+Specify a useful message when creating a RetrofitError.
+Delegate to existing deserialization method.
+Merge pull request #495 from square/jw/document-field
+Update documentation for handling of @Field and @Part values.
+Merge pull request #494 from square/jw/init-in-try-catch
+Move method init into try/catch so exceptions are properly propagated.
+Merge pull request #492 from square/jw/deprecated
+Remove deprecated functionality that has exceeded its grace period.
+Add docs about null responses.
+Merge pull request #491 from desseim/master
+Return null as error body when response is absent
+Merge pull request #484 from koalahamlet/master
+add paragraph clarifying logging
+styling
+Add logging section to RestAdapter Configuration
+Merge pull request #482 from vinc3m1/master
+Remove synchronous from ErrorHandler docs
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.5.1
+Prepare for 1.5.1.
+Merge branch 'chrisjenx-fix/rxjava-0-18'
+Add a RetrofitScheduler which is loosely based on the NewThreadScheduler but alows us to provide the Executor.
+Merge pull request #474 from square/edenman/lazy-build-rx-support
+Lazily construct RxSupport stuff
+Merge pull request #470 from ypresto/add_part_map
+Add @PartMap annotation.
+Remove double plural in docs.
+Merge pull request #447 from square/jw/mock-error-handler
+MockRestAdapter should use ErrorHandler.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.5.0
+Changes to make JDK 8 doclint happy.
+Use latest release plugin.
+Prepare version 1.5.0.
+Merge pull request #443 from square/jw/what-were-you-thinking-george-lucas
+Remove unused jarjar plugin declaration.
+Merge pull request #441 from square/jw/override-content-type
+Allow overriding 'Content-Type' header.
+Merge pull request #439 from adriancole/adrian.fix-423
+fix #423: Use ErrorHandler to coerce error responses during async invocations.
+Merge pull request #437 from niqo01/master
+Update RxJava to 0.17.1.
+Merge pull request #428 from adriancole/assertj
+switch to assertj
+Merge pull request #425 from square/jw/patch-up-patch
+Remove hack to support PATCH in HttpUrlConnection.
+Merge pull request #417 from adriancole/adrian.null-reason
+http response reason can be empty.
+Merge pull request #401 from square/jw/appengine
+Deprecate G+ community in favor of StackOverflow.
+Add support for AppEngine's URLFetchService.
+Empty lines are for noobs.
+Merge pull request #414 from square/jw/useless-method
+Merge pull request #416 from square/jw/emmmmmmmmmmmma
+Add missing tests for proper coverage of validation.
+Merge pull request #413 from square/jw/rx-twewaks
+Remove useless setApi method, take in constructor instead.
+Update RxJava usage.
+Merge pull request #412 from square/jw/exception-overhaul
+Overhaul exception format in RestMethodInfo.
+Merge pull request #408 from mironov-nsk/multipart-fix
+Allow Multipart requests with parts of unknown length
+Correct query param map example to use the right annotation.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.4.1
+Correct map parameter type detection for query and field.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.4.0
+Replace more setServer calls with setEndpoint.
+Jackson requires getters?!?
+Style tweak.
+Update RestAdapter builder usages to avoid deprecated method.
+Add Jackson default converter to change log.
+Update some dependencies to their latest.
+Update Jackson converter to latest. Add default constructor.
+Prepare version 1.4.0.
+Add comment for now-deprecated Response constructor.
+Move static method to top of file.
+Ensure Defaults conforms as a utility class.
+Add documentation for AndroidLog.
+Add simple package info to root package.
+Update exception message to non-deprecated type.
+Warn about future class and method removal.
+Merge pull request #396 from square/jw/primitive-array-iteration
+Retain old parameter type.
+Solidify iterable iteration.
+Style tweak.
+Merge pull request #395 from square/jw/field-map
+Introduce @FieldMap.
+Merge pull request #394 from square/jw/query-map
+Introduce @QueryMap and encoded variant.
+Merge pull request #393 from square/jw/less-alloc
+Reduce RequestBuilder allocations.
+Merge pull request #392 from hongrich/master
+RequestBuilder: handle null values when Iterable is used for Field
+RequestBuilder: Support Iterable / Map for @Field
+Style tweaks to new endpoint code.
+Merge branch 'server-interface' of https://github.com/mhickman/retrofit into mhickman-server-interface
+setServer -> setEndpoint
+whitespace.
+Adding deprecated tag to javadoc.
+Endpoints final + private no-arg constructor.
+Changing IServer -> Endpoint and adding factory methods. Deprecating Server and ChangeableServer.
+Removing unnecessary public modifier.
+Changing Server to implement IServer interface.
+Merge pull request #387 from Turbo87/android-log
+AndroidLog: Added getTag() and logChunk() methods
+Merge pull request #383 from Turbo87/response-url
+client: Reintroduced deprecated Response constructor
+client: Added url field to Response class
+Merge pull request #380 from square/jw/iterable
+Merge pull request #379 from square/jw/naming
+Generalize multiple param values to use Iterable.
+Properly name ignored exception in 'catch' block.
+Merge pull request #377 from Turbo87/exploded-queries
+website: Added query parameter map example
+RequestBuilder: Handle Map and List contents as separate query params
+Merge pull request #373 from swanson/add-synch-error-docs
+Add docs for synchronous ErrorHandler
+Merge pull request #368 from swanson/update-headers-docs
+Formatting tweaks to Headers doc; change User-Agent to dummy app
+Merge pull request #371 from matthewmichihara/constructor
+Add default constructor to SimpleXmlConverter
+Add docs for setting Headers with RequestInterceptor
+Fix english in exception message.
+Merge pull request #369 from flash-ua/patch-1
+Fixed exception message in RestMethodInfo
+Add documentation for @Headers to website
+Adding documentation about Dynamic Headers
+Merge pull request #359 from swanson/gson-customization-docs
+Fix small wording issues in custom converter docs
+Update custom conversion docs per feedback
+Merge pull request #365 from square/loganj/more_indirection
+Fix extending interface test to actually fail.
+Check for extended interfaces using getInterfaces().length instead of getSuperclass()
+move usages of Observable out of RestMethodInfo
+Fix identation in Gson customization docs; emphasis that Retrofit just offloads to Gson for custom conversion behavior
+Added blurb about GSON documentation
+Gson customization docs
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.3.0
+Prepare for 1.3.0.
+Merge pull request #357 from jdreesen/patch-1
+fixed javadoc
+Merge pull request #356 from square/jw/fix-broken-mock
+Add sample which uses mock data.
+Fix VerifyError when using mock REST adapter without RxJava.
+Merge pull request #352 from atermenji/response_callback
+Add ResponseCallback class
+Merge pull request #353 from mironov-nsk/master
+Merge pull request #1 from square/loganj/last_arg_test
+add test case for observable/last-arg fix
+Last argument should be handled for observable methods
+Merge pull request #351 from ataulm/patch-1
+Fixes spelling in website.
+Merge pull request #350 from loganj/rx
+add support for Observable requests with RxJava
+Merge pull request #349 from johnlcox/master
+Use getTypeFactory instead of defaultInstance for Jackson deserialization
+Merge pull request #348 from square/jw/helpers
+Add some static factory methods to MockHttpException.
+Merge pull request #347 from square/jw/bump-things
+Bump versions.
+Merge pull request #345 from SeanPONeil/javadoc-typo
+UserService example in MockRestAdapter should be an interface
+Merge pull request #342 from square/jw/mock-adapter
+Merge pull request #343 from square/jw/doc-log-level
+Note that FULL logging buffers the entire request.
+Add adapter for wrapping mock service implementations to mimic real behavior.
+Merge pull request #341 from fr3akX/master
+using package scope for method
+reformat with two-space indent
+fixing checkstyle errors
+fixes and refactoring for http multipart post streaming
+http multipart post streaming
+Merge pull request #340 from fabienric/master
+Code review
+Add a SimpleXML converter.
+Merge pull request #337 from square/jw/logic
+Correct header length checking logic. Improve exception message.
+Merge pull request #327 from dashorst/patch-1
+Merge pull request #328 from square/jw/dont-mock-me
+Promote Android logging to a class which knows about chunking.
+Log headers with toString() instead of own impl
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.2.2
+Prepare for 1.2.1.
+Minor formatting clean-up.
+Ensure HTTP input stream is always closed.
+Add empty Log implementation.
+Close the InputStream before replacing the body
+Merge pull request #322 from square/jw/ok-defaults
+Move OkHttp connect/read timeouts to OkHttpClient.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.2.1
+Prepare version 1.2.1.
+Merge pull request #314 from square/rice/wire_input_stream
+Ensure input stream is closed.
+Merge pull request #315 from jschmid/patch-1
+Fixed typo
+Use Wire release 1.0.1
+Pass InputStream to Wire
+Merge pull request #312 from square/jw/sheeeeeeeeeeeit
+Add convenience constructor for default instance.
+Merge pull request #311 from square/jw/omar-comin-yo
+Add a first-party converter for Wire.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.2.0
+Prepare for 1.2.0.
+Merge pull request #307 from square/jw/fix-encoded-path-cast
+Ensure @EncodedPath is not cast to @Path when processing method.
+Merge pull request #304 from loganj/eager_intercept
+Always apply the request interceptor synchronously
+Merge pull request #303 from fernandohur/patch-2
+changed type to name to avoid confusion
+Merge pull request #301 from square/jw/propagate-network-exceptions
+Propagate network exceptions that happen inside the converter.
+Fix IntelliJ auto-formatting.
+Merge pull request #300 from square/jw/no-extends
+Prevent API interfaces from extending other interfaces.
+Add @Documented annotation for the new REST annotation.
+Merge branch 'patch' of https://github.com/adriancole/retrofit into adriancole-patch
+Merge branch 'master' of github.com:square/retrofit
+Add path and query tests for pre-encoded values.
+Add @Documented to the new annotations.
+Merge branch 'feature-add-urlencoding-disable-opt' of https://github.com/jasco/retrofit into jasco-feature-add-urlencoding-disable-opt
+Merge pull request #296 from square/jw/documented
+Add @Documented attribute to all annotations.
+fixes #282 add PATCH support
+Simple field rename and some docs.
+Merge branch 'master' of https://github.com/icastell/retrofit into icastell-master
+Merge pull request #280 from kaiwaldron/kw/jackson-converter
+More Callback docs.
+Cleanup to avoid unchecked cast on conversion.
+Add a Jackson converter.
+Merge pull request #271 from square/jw/protos
+Added mimeType property
+Merge pull request #276 from square/jw/log-exceptions
+Log network and unexpected exceptions if logging is enabled.
+Add converters module and protobuf converter.
+Address stylistic change requests.
+Newine at end of file. Yes plz.
+Add two files omitted from previous commit, retrofit.http.EncodedPath and retrofit.http.EncodedQuery.
+Change implementation to introduce new annotations @EncodedPath and @EncodedQuery that add path or query parameters without URL encoding them first.
+Merge pull request #269 from square/jw/headers
+Add headers-only logging level.
+Add disableUrlEncoding to Path and Query decorators in order to support specially encoded or already encoded values.
+Merge pull request #259 from square/jw/docs-docs-docs
+Merge pull request #260 from square/jw/platform-detection
+Ensure a real platform is present for Android detection.
+Create a RestAdapter in the docs intro.
+Add getter for log level.
+Merge pull request #255 from square/jw/plank
+Add two levels of logging.
+Merge pull request #254 from square/jw/doc-tweak
+Correct javadoc to point to proper annotation.
+Merge pull request #253 from nbauernfeind/QueryParamRequestInterceptor
+Update javadoc based on PR comment.
+Expose addQueryParam via the RequestInterceptor injection-like framework.
+Changed tab for spaces and moved the placement of @Override annotations
+Merge pull request #252 from square/jw/strings
+Special case String type for multi-part parts.
+Spelling.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.1.1
+Prepare version 1.1.1.
+Merge pull request #251 from square/jw/optional-part
+Allow 'null' parts to remove from request.
+Merge pull request #249 from square/jw/static-headers
+Add static method headers to header list when present.
+Added encode property, corresponding with #238 issue
+Merge pull request #246 from square/jw/timeouts
+Add default connect and read timeouts for HttpUrlConnection.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.1.0
+Prepare for 1.1.0.
+Merge pull request #223 from square/jw/interceptor
+Introduce `RequestInterceptor` to replace `RequestHeaders`.
+Merge pull request #229 from adriancole/graceful-when-missing-mimetype
+fix issue #227: permit use when servers or intermediaries mistakingly miss Content-Type header
+Rename samples/ to retrofit-samples/
+Be null.
+Code style cleanup.
+Forbid returning null from error handler.
+Add hook for customizing exceptions
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.0.2
+Prepare version 1.0.2.
+Merge pull request #218 from square/jw/earl
+Allow uppercase letters in path parameters.
+Merge pull request #216 from square/jw/gson-update
+Merge pull request #214 from square/jw/nulls
+Handle nulls correctly for all parameters.
+Merge pull request #215 from square/jw/static-query
+Dependency updates.
+Ensure static query params are being appended properly.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.0.1
+Merge pull request #209 from square/jw/bad-bad-intellij
+Escape closing curly braces for Android support.
+Merge pull request #207 from square/jwilson/doc_nitpicks
+Fix a few tiny issues in the retrofit docs.
+Remove quick-exit on the deploy script.
+Fix styling of Maven download.
+Link to Javadoc.
+Add website deploy script.
+Add Google Analytics tracking code to documentation.
+First sample is synchronous.
+Add change log.
+[maven-release-plugin] prepare for next development iteration
+[maven-release-plugin] prepare release parent-1.0.0
+Website and documentation!
+Rename a few more 'pair' occurances to 'field'.
+Merge branch 'master' of https://git.squareup.com/io2013/retrofit
+Merge pull request #3 from io2013/jw/package
+Rename 'pair' to 'field' to match annotation.
+Re-arrange package structure.
+Merge pull request #205 from square/jw/normalize
+Normalize copyright headers.
+Merge pull request #202 from square/jw/rewrite-all-the-things
+Review feedback.
+Merge remote-tracking branch 'ac/header-params' into jw/rewrite-all-the-things
+Rewrite annotations to be more descriptive.
+issue #198: validate header names per rfc 2616
+Merge pull request #201 from matthewmichihara/allow-digits
+fix issue #198: add new @Headers and @Header annotations
+Allow digits in path parameter name
+issue #198: rename Header -> HeaderPair to harvest the names for new annotations
+Merge pull request #195 from square/jw/gee-son
+Merge pull request #196 from square/jw/okhttp
+Add OkHttp-specific client when its present on the classpath.
+Bump GSON to latest stable.
+Merge pull request #192 from imminent/patch-1
+Exposes the static RetrofitError construction methods
+Merge pull request #190 from square/jw/thread-name-reset
+Reset thread name to idle when not in use.
+Merge pull request #183 from codebutler/master
+Multipart request improvements.
+Merge pull request #187 from square/jw/eager-stream-read
+Eagerly consume a stream when exposing to caller.
+Merge pull request #182 from inktomi/master
+Fixed missing quotation mark which caused multipart file uploads to parse without a filename, leading to missing files in requests on the server side
+Merge pull request #179 from square/jw/multiparty
+Roll our own multi-part implementation.
+Merge pull request #180 from square/jw/lumber-jack
+Abstract logging API.
+Merge pull request #177 from square/jw/apache-tweaks
+Remove pre/post override points for ApacheClient.
+Merge branch 'master' of https://github.com/rburton/retrofit into rburton-master
+Merge pull request #171 from ransombriggs/errorStreamFix
+Merge pull request #169 from ransombriggs/fixingTestsFromMaven
+Merge pull request #170 from ransombriggs/simpleResponseReadmeFix
+Merge pull request #176 from codebutler/master
+Fix for 204 'No Content' responses.
+Merge pull request #175 from square/jw/fix-sample
+Update sample name to reflect behavior.
+Introduced a small hook-point for subclasses.
+Use standard exception cause handling in RetrofitError.
+Replacing Response with MyJsonObj in README
+Only using getErrorStream() for status >= 400
+Using Response in readme instead of SimpleResponse
+Making TestingUtils abstract so that JUnit ignores
+Style tweaks.
+Merge pull request #167 from square/jwilson/types
+Full type resolution from Gson.
+Merge pull request #165 from jjNford/master
+Make response wrapper members final.
+Fix wrapper scope and callback param ordering.
+Add response object to callback success.
+Make Utils constructor private.
+Merge pull request #164 from square/jw/charset
+Relax enforcement of UTF-8 and use the body charset for decoding.
+Remove usage of HTTP constants class from Apache dependency.
+Merge pull request #160 from dlam/master
+Fix inconsistencies in javadocs.
+Merge pull request #159 from square/jw/dont-call-it-earl
+Add UrlConnection Client.
+Merge pull request #158 from campnic/escape_fix
+Fix Url Escaping on GET Parameters
+Merge pull request #152 from square/jw/request-typed
+Merge pull request #157 from square/jw/log-request-more-like-yeah
+Log request headers. Update response log format to match.
+Merge pull request #156 from square/jw/point-to-things
+Provide a mutable server implementation. Update Server API to conform.
+Merge pull request #153 from square/jw/weary-query
+Disallow query params in the URL.
+Use TypedOutput for Requests.
+Follow-up @Name introduction.
+Merge pull request #150 from square/jw/drop-jsr-330
+Remove JSR-330 dependency in favor of our own annotations.
+Merge pull request #149 from square/jw/package-move
+Move packages.
+Merge pull request #148 from square/jw/typed-things
+Break up TypedBytes into TypedInput and TypedOutput.
+Merge pull request #147 from square/jw/footers
+Switch headers to come from an interface implementation.
+Merge pull request #145 from square/jw/small
+Small tweaks.
+Merge pull request #144 from square/jw/kill-all-mimes
+Merge pull request #143 from square/jw/response-object
+Remove explicit MimeType class in favor of simple String.
+Provide access to the Response object directly and via Callback.
+Merge pull request #136 from square/jw/abstract-http-client
+Abstract HTTP client behind interfaces.
+Merge pull request #138 from square/jw/interfaces-only-bro
+Ensure endpoint definition Class is an interface.
+Merge pull request #132 from square/jw/defer
+Defer non-interface methods to normal invocation.
+Avoid multiple .toString() calls on the URI.
+Merge pull request #129 from square/jw/cache
+Cache all reflection in a details POJO associated with each method.
+Merge pull request #127 from square/jw/utf8-or-gtfo
+Use UTF-8 everywhere.
+Merge pull request #128 from square/jw/docs
+Correct docs for new RetrofitError.
+Merge pull request #126 from square/jw/generalize
+Simplify callback system to generalize usage.
+Revert "Revert "Allow MimeType instantiation. Hide some Apache implementation details.""
+Revert "Allow MimeType instantiation. Hide some Apache implementation details."
+Merge pull request #125 from square/jw/files
+Allow MimeType instantiation. Hide some Apache implementation details.
+Simplify test method fetching.
+Merge pull request #121 from square/jw/throwin-hundreds
+Convert all files to 100-character lines. Enforce with checkstyle.
+Convert to 100-char lines.
+Merge pull request #115 from thorinside/5f7b5f96a8e15e0f3166b964e134d05be5a16edf
+Added code to not append a ? if the query string is empty.
+Merge pull request #110 from square/edenman/fix-multibyte-length
+Use proper byte length for multibyte strings
+Merge pull request #108 from square/jw/singleton
+Do not instantiate a new HttpClient on every call when using platform defaults.
+Merge pull request #107 from square/pforhan/dont-load-platform-unless-needed
+Don't load platform until the last minute
+Merge pull request #106 from square/jw/nomenclature
+Name the current thread with the request URL.
+Merge pull request #104 from square/jw/defaults
+Provide sane defaults for `HttpClient`, `Converter`, and `Executor`s.
+Merge pull request #102 from square/jw/executors-exceptions
+Throw explicit exception if asynchronous invocation is attempted without executors.
+Add commons-logging ignore to httpmime.
+Merge pull request #97 from square/jw/optional-callback-executor
+Allow null callback executor.
+Merge pull request #95 from square/jw/redund
+Avoid redundant call to apiUrl().
+Merge pull request #94 from square/jw/things
+Properly chunk string when logging content body.
+Merge pull request #93 from square/jw/log-things
+Restore FINE logging of HTTP response body.
+Merge pull request #92 from square/jw/synchronous-post
+Merge pull request #90 from square/jw/executors
+Merge pull request #91 from square/jw/impl-hiding
+Only exclude the last param if execution is not synchronous.
+Reformatting file.
+Switch Content-Type constant to HTTP class.
+Hide more implementation details.
+Simplify asynchronous executor API.
+Switch 'example' package to 'sample'.
+Merge pull request #89 from square/jw/flip-the-world
+Reorganize project for a final push toward 1.0.
+Remove unused jarjar version property.
+Merge pull request #88 from square/jw/files-flies
+Inline usage of Files helper class.
+Correct javadoc.
+Merge pull request #87 from square/jw/constant
+Use constant for Content-Type header name.
+Remove optional mark on GSON dependency.
+Merge pull request #86 from square/jw/twitter-example
+Add simple Twitter example using synchronous API.
+Merge pull request #84 from square/jw/kill-jarjar-binks
+Merge pull request #85 from square/jw/cleanup-some-things
+Enable more checkstyle checks.
+Remove the use of jarjar. Mark GSON optional.
+Merge pull request #74 from square/jw/synchronous
+Merge pull request #82 from square/jw/objects
+Merge pull request #83 from square/jw/unused
+Add synchronous method invocation.
+Correct API documentation in README.
+Remove unused transitive dependency on commons-logging.
+Remove use of Objects helper class.
+Merge pull request #81 from square/jw/revert-all-the-things
+Revert HTTP client version to match Android.
+Merge pull request #77 from square/jw/copy-tweak
+Tweak RestAdapter documentation for accuracy.
+Merge pull request #75 from square/jw/byte-me
+Remove unused ByteSink classes.
+Merge pull request #73 from square/jw/doin-thangs
+Upgrade FEST and Apache HTTP components dependencies.
+Syntax highlight example interface.
+Upgrade Android Maven plugin.
+Merge pull request #70 from square/jw/builder
+Merge pull request #71 from square/jw/examples
+Merge pull request #72 from square/jw/unused
+Remove unused ServerException.
+Move sample to examples folder to accommodate future additions.
+Introduce builder pattern to instantiate RestAdapter.
+Merge pull request #69 from square/jw/inject
+Remove support for implicit injection.
+Merge pull request #68 from square/jw/hide-and-seek
+Hide implementation detail UiCallback class in package scope.
+Merge pull request #67 from square/jw/floater
+Remove `Fetcher`.
+Change `Fetcher` to use '!= -1' logic in buffered reads.
+Write checkstyle to stdout.
+Merge pull request #62 from square/jw/converter
+Abstract HTTP entity (de)serializaton to converters.
+Merge pull request #61 from square/jw/javadoc-tweak
+Remove erroneous javadoc.
+Update copyright, fix javadoc.
+Merge pull request #60 from square/jw/callback-api-stuff
+Use ServerError directly in sessionExpired and serverError.
+Add NDK to build.
+Add Travis config.
+Merge pull request #59 from square/ray/spaces-in-path-params
+Allows spaces to appear in path parameters.
+Merge pull request #58 from square/jw/kill-the-queue
+Purge QueueFile.
+Add a CONTRIBUTING file.
+Merge pull request #56 from square/jw/drop-useless-info
+Remove web URL and ignore SSL boolean from Server.
+Remove shake module from this repo.
+README updates.
+Merge pull request #55 from square/jw/le-sigh
+Bump to 0.7.0-SNAPSHOT.
+Merge pull request #54 from square/jw/dont-shake-the-baby
+Eliminate 'android' module.
+Merge pull request #53 from square/jw/tests
+More FEST-isms.
+Merge pull request #52 from square/jw/tests
+Re-enable 'android' and 'io' tests. Switch to FEST.
+Merge pull request #51 from square/jw/kill-core
+Eliminate barren 'core' module. Updates to other modules.
+Merge pull request #50 from square/jw/io-io-its-off-to-queue-file-i-go
+Move QueueFile to 'io' package.
+Bump version back to 0.6.0-SNAPSHOT
+Bump version to 0.6.0-rc6.
+Merge pull request #49 from square/pom-updates
+Pom cleanup.
+Merge pull request #48 from square/jw/server-cleanup
+Clean up Server class a bit.
+Merge pull request #47 from square/edenman/more-logging
+Associate log messages with the request that caused them
+Merge pull request #46 from square/edenman/no-object-creation
+Optimization: don't create a Date object just to get current time
+Merge pull request #45 from square/edenman/improve-elapsed-time-logging
+Bump version back to 0.6.0-SNAPSHOT.
+Bump version to 0.6.0-rc5
+Improve response time logging: show elapsed ms
+Merge pull request #44 from square/jwilson/rollforward
+Restore Gson 2.2.3-SNAPSHOT, which now supports serialization.
+Merge pull request #43 from square/edenman/revert-breaking-gson-change
+Roll back gson change: it breaks serialization
+Merge pull request #42 from square/gson-update
+Update Gson to 2.2.3-SNAPSHOT.
+Merge pull request #41 from square/edenman/server-humanreadable-name
+Adding a human-readable name to the Server interface
+Bump version back to SNAPSHOT
+Bump version to 0.6.0-rc4
+Merge pull request #40 from square/jwilson/noguice
+Support JSR-330 instead of Guice.
+Restore version 0.6.0-SNAPSHOT
+Publishing 0.6.0-rc3
+Merge pull request #38 from square/jwilson/use-jsr330
+Use an instance method to create the dynamic proxy.
+Merge branch 'jwilson/use-jsr330' of github.com:square/retrofit into jwilson/use-jsr330
+Make RestAdapter work with JSR-330 injectors other than Guice.
+Make RestAdapter work with JSR-330 injectors other than Guice.
+Merge pull request #37 from square/holmes/put-shall-not-fail
+ANDROID-3631: PUTs don't have a content-type, don't NPE on them
+Restore version to SNAPSHOT.
+Bump version to RC2.
+Merge pull request #36 from square/jw/temp-gson-revert
+Temporarily roll back to GSON 2.1.
+Merge pull request #35 from square/rdickerson/profiler-data
+Adding a beforeCall() to HttpProfiler. Allows profilers to track data that may change over the course of the server call.
+Merge pull request #34 from square/gson22
+Upgrade to Gson 2.2.1
+Mark GSON as provided since we jarjar it in.
+Move distribution management to a more visible location in the pom.
+Back to snapshot version for future development.
+Bump version to RC1.
+Update deployment targets.
+Merge pull request #33 from square/ray/execute-on-main
+fixed pom dep
+Better javadoc for Pat.
+Introduces MainThread#executeOnMain, and AndroidMainThread.
+Merge pull request #32 from square/ray/createProvider
+Exposes RestAdapter#createProvider, to allow custom service wrappers.
+Merge pull request #31 from square/jake/meaningless
+Use built-in constants for HTTP status codes.
+Merge pull request #30 from square/pat/no403
+Stop treating 403s like 401s.
+Merge pull request #29 from square/jake/checkstyle
+Remove unused Logger instance.
+Introduce checkstyle to enforce code style. Clean-up files to pass.
+Merge pull request #28 from square/edenman/better-request-logging
+Log the api url and start time for request failures and successes
+Merge pull request #27 from square/jake/tweak
+Update IntelliJ IDEA project files for recent changes.
+Restore native synchronization functionality by loading proper module.
+Use no_aop Guice variant.
+Add internal distribution ability.
+Revert version to 0.6 to match previous ant/ivy build.
+Merge pull request #25 from square/jake/mavenize
+Style tweaks.
+Re-add IDEA project.
+Mavenize.
+Merge pull request #24 from square/serialize-on-main-thread
+Serializing to json immediately in JsonTypedBytes constructor.
+Merge pull request #23 from square/serialize-on-main-thread
+Building RestAdapter requests on the main thread to avoid potential concurrent modification during request serialization.
+Merge pull request #20 from square/edenman/log-failed-urls
+Log the api url for failed requests
+Merge pull request #19 from square/headers-on-bg-thread
+moving header construction back to bg thread
+Merge pull request #18 from square/pat/nolog
+Stops bad behavior
+Merge pull request #17 from square/doc-fixes
+Doc tweaks
+Merge pull request #16 from square/update-gson
+Update to GSON 2.1
+Merge pull request #15 from square/remove-preinvoke
+Removing preInvoke and constructing headers on the main thread
+Merge pull request #14 from square/hello-status-code
+Fix style nits per review
+Adds an int statusCode parameter to clientError and serverError.
+Merge remote-tracking branch 'origin/injectable-gson'
+Review tweaks.
+Makes the gson instance Guice injectable rather than hard coding it. Clients will have to discover the just-one-gson optimization on their own.
+Merge pull request #12 from square/allow-json-entity
+JSON request entity support
+Merge pull request #11 from square/add-preinvoke-callback
+Adding a preInvoke callback for right before http call is being made.
+Merge pull request #10 from square/fix-encoding-ray
+Fixes failure to transmit interesting unicode characters by specifying HTTP.UTF_8 in UrlEncodedFormEntity.
+Merge pull request #9 from square/better-logging
+Improve Retrofit logging
+Merge pull request #8 from square/atomic-clear
+Move variable to where it is used.
+Code review feedback
+Fix spelling
+Write header before truncating QueueFile
+Merge pull request #7 from square/mutable-server
+Allow Server extensions; improved FilesTest
+Merge pull request #6 from square/rest-adapter-logging
+Logging unexpected errors in RestAdapter.
+Merge pull request #5 from square/repackage-gson
+Repackage gson into retrofit.internal.gson
+Moved echo up.
+Added support for fsyncing a directory.
+Merge pull request #3 from square/more-http-methods
+Code review feedback
+Add fixed query parameter support
+Consolidate two enums, extract classes from RestAdapter
+Code review feedback
+support for path parameters
+Add PUT, DELETE support to RestAdapter
+Added a delete() method to Files utility
+Merge branch 'master' of github.com:square/retrofit
+Fixing clientError handling -- constructing BufferedHttpEntity so that entity may be consumed multiple times.
+Merge branch 'files'
+Some additional java.io.File utilities in Files
+Changing Callback clientError response type to match call type.
+bumped revision to 0.4
+Ensure ByteSinks and Files use FileDescriptor.sync()
+bumped version from 0.3-SNAPSHOT to 0.4-SNAPSHOT
+Refactoring RestAdapter HTTP request construction.
+Merge branch 'android-477-in-app-activation-deadlock'
+Adding GET support to RestAdapter
+ANDROID-477: Add MainThread.executeSynchronously().
+Merge branch 'android-346-length'
+TypedFile gets its length from the underlying file now
+incremented version to 0.3
+Merge branch 'message-title'
+renamed message_title to title
+added toString() to ErrorResponse.java
+Removed button label and renamed ClientMessage to ErrorResponse
+introduced the ClientMessage class so client errors can include title, message, and button text.
+Cleaned up code.
+We weren't syncing the file length metadata. Added syncing code. Added code to constructor to detect files corrupted by this bug and throw an exception.
+Merge branch 'server-call-logging'
+added ability to inject a server call profiling interface
+bumped revision to 0.2-SNAPSHOT
+Merge branch 'fix-tests'
+Introduced some tests
+Merge branch 'restadapter'
+added core, io, and http modules
+Merge branch 'shake'
+moved util to android, added ShakeDetector
+added ability to publish to a local Ivy repository
+incorporated code review feedback
+put the revision into a properties file; included the SNAPSHOT tag
+Initial code drop, includes Ant buildfile and QueueFile
+First commit.

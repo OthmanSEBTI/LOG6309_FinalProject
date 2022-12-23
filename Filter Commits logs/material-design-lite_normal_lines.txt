@@ -1,0 +1,1890 @@
+Check placeholder value when setting dirty state.
+set is_dirty when placeholder exists
+Remove mouseup event on slider to let change event occur.
+Update _variables.scss
+Add public method setTab to set the active tab programmatically
+Update data-table.js
+Update data-table.js
+Automatic uncheck header checkbox
+Add expansion component
+Add Snackbar hide method
+chore(package): update gulp-zip to version 4.0.0 (#5018)
+Updated README.md to communicate MCW as MDL v2 (#5023)
+Remove invalid property.
+Bump to 1.3.0
+_radio.scss: scale() instead of scale3d()
+sgomes-update-1.x-repo
+Updating JSCS and fixing linting errors. Also removing custom JSCS rule for Closure.
+Update most dependencies
+chore(package): update babel-core to version 6.20.0
+chore(package): update gulp-sass to version 3.0.0
+Temporarily disable memory tests in drone due to timeouts.
+fix(radio): add height and vertical-align
+fix
+Update readme with mdl-layout__tab-manual-switch.
+chore(package): update gulp-imagemin to version 3.1.0
+fix ripple.js bug (#4865)
+fix(tabs): Allow tab hrefs to point anywhere
+Add class to disable js layout switching
+feat(Card): enable border for mdl-card__supporting-text
+chore(package): update gulp-sourcemaps to version 2.0.1
+refix radio.js, mocha is true
+fix data-table unit test
+fix radio unit test
+fix
+Add a missing space
+chore(package): update gulp-mocha-phantomjs to version 0.12.0
+Prevent component upgrades by catching events.
+Revert "Add componentHanderConfig to config auto upgrade"
+Add componentHanderConfig to config auto upgrade
+chore(package): update jquery to version 3.1.1
+chore(package): update acorn to version 4.0.3
+Add comment to be consistent with comments above other demo snippets
+chore(package): update gulp-load-plugins to version 1.3.0
+Bump to 1.2.1
+Tweak drawer button alignment in desktop sizes.
+update space on comment of  button disabled (#4718)
+chore(package): update gulp-flatten to version 0.3.1
+Bump to 1.2.0
+chore(package): update mocha to version 3.0.2
+chore(package): update mocha to version 3.0.1 (#4631)
+chore(package): update gulp-uglify to version 2.0.0
+chore(package): update mocha to version 3.0.0
+chore(package): update gulp-connect to version 5.0.0
+chore(package): update acorn to version 3.3.0
+Add chip icon for docs.
+Make tooltip not blur in Chrome
+Add issue template outlining feature request / bug reporting guidelines
+Show tab overflow arrows
+Added style for unused variable
+Corrected template source URLs
+Update README to match master branch version
+Added mdl-chip component
+Add the `data-mdl-for` attribute to tooltips.
+Ensure string on margin-left property
+Possible fix for #1398
+Call CustomEvent constructor instead of Event.
+eslint error fixes
+Remove automatic name/value example. Functionality was removed before publishing.
+Update button note to reflect disabled classes purpose.
+Small tweak to make Closure compiler happy
+Bump to 1.1.3
+Add magic viewport to all templates and documentation.
+fix tab navigation for external links
+Bump node version on CI to 4+5 (use matrix)
+Bump to 1.1.2
+Quick fix to stop new versions of CSSO from breaking the build
+Check if the drawer is open before responding to escape keystrokes.
+Refocus the :focused element after the layout rendering
+Address snackbar MD alignment.
+End tag of paragraph open
+gupl build command run
+Initial position snackbar center aligned
+fix: snackbar container center aligned
+add portfolio template Previously the Portfolio template was not listed/linked in the `README.md` file.
+rename `home.html` to `index.html` Because the index page for the portfolio template wasn't named `index.html` the server was not able to find it when requesting the preview for the page. The file `home.html` had to be renamed to `index.html` and all files including a link to the index page had to be adjusted to this change.
+add portfolio template Previously the portfolio template was not shown in the template index because it wasn't included in the `templates.md` file and no preview image was given in template assets folder.
+Add some bulletproofing to deconstructComponentInternal.
+fixes #4084 - DataTable sorting icon
+Bump to 1.1.1
+Improves the list to bring it closer to spec.
+Add david-dm badge
+Add inline display to list item avatar icons.
+Update out of sync classnames.
+Adding list docs.
+Maintain consistent indentation levels
+Bump to 1.1.0
+Removing auto-focusing in layout.
+Adding dialog to component documentation
+Adding snackbar to components docs.
+Add clear note that dialogs must be child of body.
+reset mdl-button margin
+Switch from sTO to rAF
+:new: Add dialog component
+Some alignment fixes to android.com template
+Tweak data-table to make action alignment just work.
+Remove unnecessary comma in styles (fixes #3608)
+	modified:   README.md
+Added List Docs
+fix snackbar action element not cleaned up
+Remove the microsite's usage, and more importantly, our prescription that users import our resource  via the storage.googleapis.com domain, and rather suggest they access our resources via the simpler https://code.getmdl.io/thing.
+safari layout scrolling issue workaround
+Simplify will-change for buttons.
+Appeasing closure after snackbar changes
+Animate snackbars.
+Switching to HTTPS for Codepen now that it works again.
+add missing closing tags on polygon svg elements
+Revert "dashboard: add missing closing slashes (closes #2555)"
+dashboard: add missing closing slashes (closes #2555)
+Add copyright header to list.
+Update item line modifiers to use proper syntax.
+Spelling fix.
+"Twitter Bootstrap" => "Bootstrap"
+add missing closing tags on line and circle svg elements
+add missing closing slashes
+Hide number spinners for textfields.
+fix MaterialRipple#upHandler_()
+fix textfield `focus` listener on safari
+Add note on parent position requirement.
+Update progress readme for new modifier.
+Change to modifier for intermediate progress state.
+Update typography of navigation links.
+Use npm update in drone builds
+Refactor snackbar.
+Added gitter badge
+Add font family to textfield inputs for consistency.
+Update package.json
+Update package.json
+Remove buggy focus test.
+Adding documentation for new data-table options
+Remove phantom from top level deps
+Add drone upgrade-related changes
+Update package.json
+Update drool and API calls
+Remove gulpfile from linting
+An attempt to fix phantomjs-based tests in CI
+Upgraded drone config
+Utilize event deduping with addEventListener
+Changed modifier naming to refer to the header block instead of the whole data table
+Changed ligatures to codepoints
+Added sorted column style as described in https://www.google.com/design/spec/components/data-tables.html#data-tables-interaction
+Converted material-icons typography class into a mixin
+Extend documentation for tooltips
+:new: List component
+:new: Textfield checkfocus
+Cleaned code after merge
+Tooltip positions
+Use Unicode point for layout hamburger button (fixes #1859)
+Make obfuscator transition opacity instead of background-color
+Make drawer toggle public method for layout.
+drawer button is button element, click and keyboard event handler, tests
+Remove box shadow on raised disabled.
+Some minor closure compiler improvements/fixes.
+Add mdl-typography--body-1-force-preferred-font to the navigation elements so that Roboto is used rather than Helvetica
+removed button background image
+removed redundant commented code
+added image specific classes
+replaced .mdl-layout__header .mdl-layout__drawer-button with .portfolio-header .mdl-layout__drawer-button
+updated the CSS files to they target specifically. .portfolio-header .mdl-layout__header-row instead of .mdl-layout__header-row
+updated the meta tag description for all of the HTML files
+Updated the CSS and JS links for the templates in order to make them consistent with existing templates. This also helps with testing the builds
+Adding portfolio template and tutorial files
+s/pallet/palette
+Update card supporting text to align with spec.
+Add material-icons to typography
+Remove shadow from disabled buttons.
+Textfield can autofocus.
+Add padding to icon for proper spacing.
+Implementing comments on the pull request
+Propose a fix for issue #1862
+use google.com for Material Design links
+Adding new option to hide top rather than bottom in a waterfall
+Bump to 1.0.6
+Increase specificity of drawer scrolling fix so it works with scrolling headers.
+Adding public alias to radio downgrade method
+update es5-shim
+Add showcase styling
+Add showcase image resources
+Update showcase FAQ
+Add showcase content
+Add showcase to navigation
+Add showcase template
+Align search icon with menu icon in Firefox
+Don't call private component methods from the component handler.
+More JSCS fixes: - Adding reporting (syntax changed with gulp-jscs 3.0) - Working around bug with relative paths in some versions of jscs
+Updating gulp-jscs to ^3.0.0 to avoid custom rule breakage
+Reverting #1806 after discussing approach.
+Print in wonderful tables
+🚿 Add component upgrade/downgrade leak tests
+Cleanup duplicate blocks. Add newline after headings.
+Downgrade radio components.
+Remove automatic name and value for data table checkboxes.
+Removing Android font from template and repository.
+Menu: fix early-menu-hide bug when click on menu item (closes #1706)
+Display color name on the wheel with tooltip #516 (Closes #1788)
+Add badges to readme
+Add full bleed modifier for menu items.
+Clean up gulp all task.
+Rename non-BEM class for layout title.
+Textfields can initialize as invalid.
+Remove uneeded section from slider readme.
+use has/getAttribute instead of dataset.
+Make set white badge colors accent contrast.
+Add select element class to CssClasses_ property. Clean up multiple class assignment to checkbox.
+Remove hard-coded color and set right value for variable.
+Increase button padding to adhere to primary button specification.
+Remove primary snackbar heading.
+Make $image_path overridable (closes #1767)
+Small fixes to JS after internal code review.
+Set cursor to default on disabled button
+Consecutive `+` CSS selectors sometimes cause problems in WebKit.
+Remove eat function from layout (Closes #1652)
+Disallow scrolling if drawer is open (fixes #1348)
+Add support for `data-mdl-disabled` attribute (fixes #1722)
+Namespace menu's `data-for` attribute
+fix ripple effect on menubtn (fixes #1727)
+More fixes for broken sibling selector in iOS
+Set max-width to 100% in .mdl-progress
+Switching android.com template away from using CDN
+Remove double header background color in dashboard
+Remove eat function from layout (Closes #1652)
+Disallow scrolling if drawer is open (fixes #1348)
+Add 24dp shadow (fixes #1606) (Closes #1654)
+gulpfile - merge `jscs` and `jshint` tasks
+gulpfile - more ES2015ify
+gulpfile - code style and consistency tweaks
+Bump dependencies and remove unused ones
+Switch Codepen POST URL to HTTP instead of HTTPS
+Upgrade `del` and fix its usage in the gulpfile
+ES2015ify the gulpfile
+Update textfield.js (closes #1674)
+Remove even more XHTML slashes
+Re-expose MaterialLayoutTab (fixes #1665)
+fix path to font in templates/android_dot_com (fixes #1666)
+Bump to 1.0.5
+Remove XHTML slashes
+Increase code.getmdl.io caching to 30 days (fixes #1427)
+Add favicon and homescreen icons to templates (fixes #1449)
+Put absolute image paths into variable (fixes #1426) (Closes #1649)
+Increase code.getmdl.io caching to 30 days (fixes #1427) (Closes #1653)
+Add favicon and homescreen icons to templates (fixes #1449) (Closes #1650)
+Put absolute image paths into variable (fixes #1426) (Closes #1649)
+Add support for `data-for` on menu (fixes #1556) (Closes #1651)
+blog template: Make background image smaller and responsive (fixes #1403)
+Set useful CDN text selections on click (fixes #1326)
+:goat: Split up memory tests
+:star: Add snackbar memory tests
+Check if drawer button exists before creating a new one.
+Add `mdl-badge--overlap` class (fixes #708)
+Add snackbar js to gulp sources. Update script with comments for closure compiler.
+Updating drone config to pick up mocha:closure task
+Adding a mocha:closure gulp task, to test closure-compiled JS.
+update Closure Compiler to pipe to ./dist
+Closure compiler fixes for new data table functionality
+Adding reordering classes to the grid
+Template stylesheet link consistency
+Add optional Closure Compiler support
+:hammer: Harden unwrapping logic.
+Small Closure compiler bugfixes to data-table and slider
+Symbol export fixes for polyfills
+Exporting symbols on all components, and minor referencing bugfixes.
+Ensure mdlComponentHandler.js doesn't pass through uniffe
+Improves compatibility of the componentHandler with Closure compiler.
+Tweaking JSCS and JSHint to allow for foo['bar'] syntax
+Add reset event of Textfield
+Allow tab navigation to be used for external links
+Tiny documentation fix for gulpfile
+Closure styling fixes for 1.1 work
+Styling fixes across the codebase to play well with Closure. Also configures JSCS to work with our code a bit better.
+s/Components/components
+Updating gitignore
+Add comment to _variables.scss
+Add !default to sass variables so they can be overridden
+Add Snackbar :candy:
+Change in the function upgradElementsInternal to enable the upgrade of child elements created by parent element's upgrade, like RippleContainerElement in Checkbox. The problem was happening when the element was created dynamically.
+Disable styles when fieldset is set to disabled.
+Change in the function upgradElementsInternal to enable the upgrade of child elements created by parent element's upgrade, like RippleContainerElement in Checkbox. The problem was happening when the element was created dynamically.
+Clarifying
+#1395 - Improve Menu page's documentation
+Adding options for hiding drawer buttons (always and desktop only).
+insert empty <td> in <tfoot> of selectable datatable
+#1355 - More refactoring in tests
+#1355 - Adding the code change
+#1355 - Auto Check Checkboxes when the row has the is-selected class
+Adding docs for grid offset
+Adding offsets to grid. See #239.
+Align icons with text in navigation link
+fix add space between # and headings (closes #1450)
+Cleanup of the README markdown 'code' style.
+Bump to 1.0.4
+Add missing files to release folder (fixes #1422)
+Remove unnecessary line
+Add a way to test templates against a locally built version of the MDL libs
+Add missing files to release folder (fixes #1422)
+Remove eating mousewheel event on drawer so it can be scrolled.
+Refactor click handler into a separate function.
+Simplify the templates zip file so they are easier to grasp.  - Now generating a zip file for each template  - Removed the generated MDL libs that were included and now referencing the hosted versions  - Removed the bower.json and packages.json files.
+Bumping to 1.0.3
+Set `visibility: hidden` on menu if not visible (fixes #1025)
+Image optimisations (Templates)
+Add Uniffe to reduce closure count
+Update README.md
+Use spans for badge demos so they look good on codepen (fixes #1341)
+Use code points rather than ligatures in nav
+Add note to grid about specificity of selectors.
+Revert "#1355 - Auto Check Checkboxes when the row has the is-selected class"
+Don't use styleguide to compile css lib (fixes #1366)
+#1355 - Refactoring
+#1355 - Auto Check Checkboxes when the row has the is-selected class
+Updated the H5BP file
+Add variables for font sizes in components.
+Removing underscores, following further comments on #1346
+Standardising function import to use _ and adding license header
+Apply IIFE to entire javascript bundle at publish
+Adjust gulpfile to styleguide
+Explicitely export componentHandler
+Wrap tooltip in IIFE
+Wrap textfield in IIFE
+Wrap tabs in IIFE
+Wrap switch in IIFE
+Wrap spinner in IIFE
+Wrap slider in IIFE
+Wrap ripple in IIFE
+Wrap radio in IIFE
+Wrap progress in IIFE
+Wrap menu in IIFE
+Wrap layout in IIFE
+Wrap icon-toggle in IIFE
+Wrap data-table in IIFE
+Wrap checkbox in IIFE
+Wrap button in IIFE
+Make footer links accessible (fixes #1337)
+Making mdl-layout-icon usage a bit clearer
+Drop timeout back to 0
+Add menu memory retry logic
+Removing all references to the mdl-layout--overlay-drawer-button class
+Run memory tests on CI
+Remove unneeded textfield-demo classes from Text Fields documentation (Closes #1315)
+Remove unneeded progress-demo classes from Loading documentation
+Add initial automated memory test.
+Update textfield demos
+Update slider demos
+Update progress demos
+Update menu demos
+Update layout demos
+Update grid demo
+Update badges demo
+Auto-generate unique classes for each demo
+Update documentation (Closes #1296)
+Add disabled class to button
+Adding extra git commands that windows users should run to receive correct line endings (Closes #1301)
+Handle disabled textfields with floating labels (fixes #1255) (Closes #1302)
+Allow repaint to occur before removing ripple visibility
+link for wiki added in readme.md
+Explicitly use absolute path for gulp task "style:gen"
+Simplify cell columns on grid component
+Some tweaks to the text
+Catch scrolling when drawer is open (fixes #1076) (Closes #1282)
+Align icons inside buttons with text (fixes #1131) (Closes #1281)
+Adding a link to contributing.md in readme.md
+link for AngularJS contribution guidelines added
+fixes git clone --bare to git clone to run npm install
+Ensure style template is rendered before generating color combos
+Increase cache TTL to 1 hour for code.getmdl.io
+Only remove hamburger space on desktop (fixes #1245) (Closes #1249)
+Rebase against master
+removed ( ), which are actually redundant
+moved type annotations
+JSDoc type annotation fixes
+Add mdlDowngrade to menu (fixes #1257) (Closes #1258)
+main.js: disable empty links
+Remove superfluous display property on .mdl-button
+Revert "Add `mdl-badge--overlap` class (fixes #708)"
+Revert "Add `mdl-badge--overlap` class"
+Adjust documentation (Closes #)
+Add `mdl-badge--overlap` class (fixes #708)
+Set textfield internal nodes to block (fixes #1236) (Closes #1247)
+Move Closure types on componentHandler to hide from global namespace, adds comment
+removed ( ), which are actually redundant
+Set textare to `display: block` to remove baseline spacing (fixes #1178) (Closes #1234)
+Don't raise disabled colord buttons (fixes #1241) (Closes #1244)
+Adjust documentation
+Add `mdl-badge--overlap` class (fixes #708)
+Ensure primary and accent are distinct (fixes #1206) (Closes #1228)
+Added unit test for checking sibling updates on change. (Closes #1229)
+moved type annotations
+JSDoc type annotation fixes
+Bump to 1.0.2
+Adjust layout large-screen breakpoint (fixes #1185) (Closes #1186)
+Added new methods for checking state on other components. Overhauled tests naming and style.
+Code styling (Closes #1192)
+Avoid dataset for IE10. (Closes #1190)
+Update mini footer example to use non-deprecated classes.
+Update mega footer snippet to use non-deprecated classes.
+Add README to _release
+Bump package.json, bower.json
+Update watch directives (Closes #1147)
+Add linters as dependency to scripts task
+Rename publish:bower to publish:release
+Adjust .drone.yml accordingly
+Use subtree to push _release
+Separate lib from microsite in default task
+Don't save space for a burger icon when drawer is fixed (fixes #1032)
+Add doc on no spacing modifier.
+Address card review. (Closes #1145)
+Add note on NodeJS requirement. (Closes #1126)
+Add phantomjs to dependencies explicitly
+Update gulp-sass version.
+Emit blur events for tooltips (fixes #1061) (Closes #1151)
+Drop telling people to file issues on another tracker for the site.
+Issue with menu overlapping header
+Looked at the CSS and updated accordingly
+Created downgrade method for MaterialProgress.
+Set layout breakpoint according to spec (fixes #902) (Closes #1128)
+Add note about MD spec to typography section (fixes #942) (Closes #1124)
+Clarify tooltip display event for touch UIs.
+Re-add captions for snippets (Closes #972)
+More visual feedback for unsupported browsers
+Remove swfobject as well
+Don't copy when user has selected text manually
+Use 'this' w/ bind instead of ctx = this
+Replace flash clippy with native implementation
+Clarify sticky nav bit in text-heavy's template description (fixes #1024)
+Show tooltips on touchstart (fixes #1064)
+Remove legacy wrapper from layout demo code (fixes #1082)
+Use correct markup in blog template
+Add roles attributes and addition descriptions to text-only template
+Add roles attributes and addition descriptions to dashboard template
+Added check classes for various textfield states.
+fix #1058, added role attributes to icons and additional button description to blog template
+Bugfix for component handlers callbacks (registered via "registerUpgradedCallback") (Closes #1067)
+Issue #702 (Closes #1075)
+Expanded componentHandler unit tests. Removed uneeded comments.
+Add upgradeElements method to componentHandler.
+add missing en
+Remove spacing.css reference since this file doesn't exist anymore.
+Add flag to not target elements directly for typography. (Closes #1038)
+Update MD spec link.
+Added variable to trim color pallet. (Closes #991)
+Link to meta viewport article.
+Updated mini footer to have proper naming in addition to old non-BEM naming. (Closes #993)
+Updated mega footer to have proper naming in addition to old non-BEM naming.
+Move shadow down in import to provide the most specificity. (Closes #1007)
+Removed uneeded icon class from badge demos. (Closes #1010)
+Add rule to remind people about meta viewport. (Closes #1011)
+Expose checkbox as widget for developer manipulation. (Closes #1013)
+Add faq entry on keeping updated with issues. (Closes #1015)
+Documentation fixes for Button component
+Remove duplicate box-shadow property.
+Add FAQ item: showcase of sites using MDL
+Note to Windows users about line endings.
+Improve upgradeElement CSS class detection
+Upgrade getting started guide to reflect new upgradeElement simplification.
+Finish off tests (Closes #922)
+Testing upgrading an element using its CSS classes.
+Initial test for component handler.
+Add touch delay negation for mobile IE. Misc cleanup. (Closes #906)
+MD icon font is not optional
+Add disabled state for colored buttons. Move all disabled to bottom.
+fixed typo.
+add missing en
+Remove spacing.css reference since this file doesn't exist anymore.
+Add flag to not target elements directly for typography. (Closes #1038)
+Turn widget explicitly on for things that should be.
+Add responsibilities section to Getting Started.
+Update MD spec link.
+Added variable to trim color pallet. (Closes #991)
+fix #994, removed unnecessary 100% width from menu item
+Link to meta viewport article.
+Updated mini footer to have proper naming in addition to old non-BEM naming. (Closes #993)
+Updated mega footer to have proper naming in addition to old non-BEM naming.
+Move shadow down in import to provide the most specificity. (Closes #1007)
+Removed uneeded icon class from badge demos. (Closes #1010)
+Add rule to remind people about meta viewport. (Closes #1011)
+Expose checkbox as widget for developer manipulation. (Closes #1013)
+Add faq entry on keeping updated with issues. (Closes #1015)
+Documentation fixes for Button component
+Remove duplicate box-shadow property.
+Add FAQ item: showcase of sites using MDL
+Note to Windows users about line endings.
+Improve upgradeElement CSS class detection
+Finish off tests (Closes #922)
+Testing upgrading an element using its CSS classes.
+Initial test for component handler.
+Add touch delay negation for mobile IE. Misc cleanup. (Closes #906)
+Upgrade getting started guide to reflect new upgradeElement simplification.
+MD icon font is not optional
+Quick note on the stability of the master branch.
+Add disabled state for colored buttons. Move all disabled to bottom.
+Change example emails to use a test TLD
+Upgrade element based on css class names
+Adjust z-indices for iOS Safari <3 (fixes #872) (Closes #883)
+Simplify code. (Closes #884)
+Replace for loop by forEach
+Generate CodePen buttons in templates instead of on page load.
+Throw error objects, not plain strings. (Closes #875)
+Make tabs in text-only template behave in mobile (fixes #835)
+Replace duplicated button demo (fixes #845)
+android-dot-com template: use CSS hosted on CDN
+adds correct path for bower_components (Closes #780)
+fix(docs): edit Web Starter Kit link description.
+Icon font always referred to with HTTPs.
+Removed dupe rel="stylesheet" from Styles page
+Disable webkit specific look on submit buttons on iOS (fixes #825) (Closes #827)
+Re-add icon to drawer menu (Closes #823)
+Use right container item for drawer menu (fixes #759)
+Text fields: max width of 100%
+Align icons in headerbar (fixes #787) (Closes #817)
+Accept floats in textfield demos (fixes #815) (Closes #818)
+Add alternate preprocessor question to FAQ (Closes #812)
+Update faq.md
+Update faq.md
+Use fixed positioning for mobile sticky nav (Closes #730)
+Handle scrolling .mdl-layout container
+Enable flicky scrolling on iOS Safari
+Slider tweaks for focus and active states at 0-value.
+Link to license file.
+Ensures textfields work as inline blocks in Firefox.
+Rework the readme to make it clear it is for contributors.
+Revert "Remove assets from template zip"
+Remove assets from template zip
+Exclude generated templates from template zip file
+Actually link to templates zip file (fixes #797)
+Make note boxes white (fixes #643) (Closes #723)
+Adjust spacing on components pages
+Enable syntax highlighting for code snippets. (Closes #789)
+Adjust text width on components index (Closes #752)
+Unregister cleanup handlers (fixes #761) (Closes #768)
+Update to reflect revised package.json
+Hiding tooltips on touchmove
+package.json tweaks
+make the tables in the readme look good in ascii too
+minor readme tweaks
+NPM → npm
+Update links at "Coding Rules" in contributing.md
+Use correct paths for bower instructions (fixes #762) (Closes #767)
+Move gulp:publish -related stuff to deploy: section
+Hiding tooltips on scroll
+Request components via tracker template.
+Readme templates had an extra blank list item
+Adding an eventLabel to the codepen button tracking.
+Template Links point to existing links
+Track codepen button clicks
+Increase contrast on hover in dashboard template (fixes #739) (Closes #750)
+Update reference to "cutting-the-mustard" test
+Better wording (tm) (Closes #736)
+Add reference to JS in customizer wording
+make link to site more prominent in GH README.md (Closes #746)
+Dump in development section.
+perf improvement for hosted MDL guidance
+fatal typo in css link on customizer page
+Reduce margin on mobile (Closes #720)
+Adjust components index page (fixes #639)
+Adjust badge weight (Closes #729)
+Run napa from drone
+Enable npm install logs and trigger ci build
+Adding issue templates to contributing guide (Closes #728)
+Update FAQ styling (fixes #675) (Closes #725)
+Use summed size (Closes #717)
+Add filesizes to the microsite
+Track clicks to the components page as pageviews. Also track correctly a direct page load to a component.
+Add syntax highlighting for bash code blocks. (Closes #721)
+Enable serving gzipped content
+Center badge text on Safari (Closes #706)
+Resize logo when header gets small (Closes #718)
+Track download clicks (Closes #714)
+Emit GA events on customizer
+Move GA to the top and add error tracking
+Scrolling back to the top of the page after opening a component page on mobile.
+Update microsite logo (fixes #709) (Closes #715)
+add return of streams to zip:mdl and zip:templates
+syntax error fix
+include mdl-templates.zip generation in sequence
+make zip file generation synchronous and deterministic before pushed to cloud
+Make title card top card on mobile (Closes #707)
+modify RE to avoid including 300 color combo css files in mdl.zip (Closes #710)
+Replace HTML escaping to use URL escaping for the copy-paste text passed to the flash object.
+Removing special codepen style Because this breaks the menu demos in codepen
+Avoid relying on node_modules/.bin to be in the PATH.
+Make examples more consistent
+adjust cache ttl to 60s for code.getmdl.io objects
+reduce cache ttl to 60s for prod, to facilitate quick fixes
+one more try to fix indentation
+fix improper indentation
+parallelize upload of runtime objects
+make default build generate color combos of css files
+Move prism, swfobject to devdeps
+bower.json: drop 'images' from main.
+Tidy up build-time header. (Closes #698)
+Ensure bower, npm and LIC files are added to dist (Closes #697)
+Allow breaking words if needed on code blocks.
+Blog template: Better comment for FF workaround (Closes #694)
+Dashboard template: Better comment on browserhack
+Android template: Load material.js the same way as in other templates
+Android template: Add "view source" button
+Dashboard template: Add IE10/11 browser hack for SVG graphs
+Dashboard template: Use correct Roboto font in graph
+Dashboard template: Find an acceptable color combination to work around #693
+Dashboard template: Remove icon from menu
+Text-only template: Add missing checkbox for collapsing footer on mobile
+Text-only template: Remove accidental @extend directive
+Blog template: Make menu appear on-screen on mobile
+Link to template folder rather than index.html
+Add missing License headers (Closes #692)
+Bump packages to 1.0.0
+Small fix to the vertical centering of the new copy-to-clipboard icon.
+Removing Test libs in Codepen.
+Tweaking demos for codepen (Closes #684)
+Updating layout component name in docs (Closes #677)
+Replacing borders with shadows and removing scrolling from most demos.
+Styling title in footer
+Implementing reviews in #650 and #657
+Add padding to footer (Closes #664)
+Rework progress demos (fixes #660)
+Style <h1>s as well
+Remove "elements" header on multi-component pages
+Improve copy icon (fixes #680) (Closes #682)
+Don't capitalize external links in nav (Closes #678)
+Add padding to the top of components nav
+Move text in components nav bar (fixes #636)
+Hide icons in nav on mobile
+Align nav with logo
+Remove underlines from hover
+Set nav item padding
+Switch to fixed padding for snippets demos in small screens since this does't work in FF.
+typo fix
+Add relative positioning to pre block on getting started
+add missing README.md for icon-toggle component
+Remove switch labels (Closes #666)
+Made tag extraction logic more generic Keep indentation Added styling to elements (Closes #662)
+Further codepen fixes: - Extract the `<script>` tags into the JS codepen tab - Add margin in between each components to avoid them looking squashed (for example the 2 progress bars)
+Use proper icons for tooltip demo (fixes #604) (Closes #668)
+Make forbidden accents in customizer transparent (fixes #644) (Closes #669)
+Revert typo (Closes #670)
+Give slider demos a bigger width (fxies #661)
+Hide codepen text outside of container (fixes #673)
+removed doc links to demo pages because they are redundant and are badly formatted, only value is testing so pages are retained for that purpose but links removed from all comp pages (Closes #667)
+Adding syntax highlighting for CSS and JS (Closes #623)
+csso instead of uglifycss
+Adding a maximum header height for about page (Closes #642)
+Add artwork to ribbons on styles page (Closes #561)
+use include directive for badge demo pages
+Make FAQ toc responsive (fixes #641) (Closes #653)
+Hardcode HTTPS in codepen font as well (Closes #640)
+Serve hosted over HTTPS
+Use browserhack to accomodate for IE10 in component demo
+Remove slash from About link
+fix stale test staging dest
+split 3 progress bars into two rows for smaller devices
+add missing class to size demo widgets on progress comp page
+added demo containers to limit progress bar width
+add comments to snippet files
+add snippet code samples to laoding component page
+Preload hover images via CSS (fixes #568) (Closes #626)
+Give progress bar a default width (fixes #614) (Closes #628)
+Don't use mdl-js-* in CSS (fixes #615)
+Improve codepen implementation: - Open in new tab - Replaces relative image URLs - Processing only done when the button is clicked - Inserting body padding only for demos that are not full-width - Allow inserting custom codepen CSS for each snippet with
+Adding some sanity to components page
+Resolve conflicts
+Add new questions
+Rename images and update alt tags
+address feedback
+Improve answer for new components
+Rebase against master
+Use proper demo files for badge demos
+Add new questions
+Rename images and update alt tags
+address feedback
+Revamp the styles page
+Refactor customiser
+Improve answer for new components
+Adding revised grid demo (Closes #610)
+Make components small screen CSS rule more specific.
+Adding revised content tabs demo
+Adding revised footer demo (Closes #613)
+Removed hash in components link (Closes #572)
+Removed hash in components link (Closes #572)
+Renaming content class, and adding comment
+Implement badge component section review (fixes #444, again) (Closes #601)
+Template list wording and order (fixes #569) (Closes #605)
+Make nav buttons in blog template clickable (Closes #594)
+Give spacer a better name
+Blog template review (fixes #579)
+Update includes for templates (Closes #595)
+Remove unmaintained templates (fixes #577)
+Implement full-width code blocks on mobile
+add snippet demos to sliders component page
+Add FAQ page
+adding snippets based demos to toggles component page
+Implement components scaffolding review (fixes #573)
+fix glitch in gulpfile.js
+add demos files to textfield page to improve layout on mobile
+Move contrast colors to color-definitions
+fix leftover test config in gulpfile.js
+additional fine tuning of demo widgets
+fine tune demo files
+reduced widget demo set
+rework textfield component page to use snippets
+Remove search bar (fixes #566) (Closes #591)
+snippets for table comp page
+Adding remaining layout demos.
+Give <html> and <body> a heigth in resets (fixes #541) (Closes #550)
+Make codepen opt-in instead of opt-out.
+Removing list component (Closes #581)
+Update gsutil cmd comments
+fix link to component index image and About page href
+Set the analytics tracking code.
+Avoid public-read ACL on GCS buckets on publish
+Add space between body and footer on the customize page closes #574
+italics look more noticable in rich tooltip text than bold (Closes #543)
+switch to 2 groups of 2 demos for better formatting on mobile devices
+fix typo
+remove demo.css
+tooltip component page revised to use snippets
+Component image on every category, not every component
+Adding first four layout snippets
+Add some sanity to demo styles. - Splits padding and demos into separate classes - Splits padding and captions into separate classes - Adds the ability for snippets to be full screen
+Add @paullewis's fix for jank provided by @PaulKinlan (fixes #560)
+Simplify blog template CSS
+Update and sanitize blog post CSS
+update components index page to match Hannah's latest mock
+Removing raised icons buttons and accent colored minifab.
+Support release of templates/assets/built-files
+Revert "Show WIP banner in production"
+Adding hover states back to drawer nav
+Ensure content gets centered
+Add first part of Styles page
+zip:library > zip:mdl, zip:site > zip:templates
+Adding mixin imports to files that use mixins (Closes #544)
+Make sure the tabs in the getting started guide are centered on narrow screens.
+Include bower.json & package.json in builds
+Make JSCS happy
+Generate bundles for JS/CSS as well as site/templates
+package.json: RC1
+bower.json: update main files
+bower.json: RC1
+Handle FABs like raised buttons for colorization
+Streamline download button into the Getting started experience
+Make sure customize subpageheader is centered with te rest of the body
+Use minified version of material.js
+Resolve further conflicts (Closes #533)
+Resolve further conflicts
+Introduce ie.css: overrides for IE9
+Make codepen buttons hide under navbar
+Add snippets for Mini FABs and Icon buttons
+Make sure we show developers to include the MD Font after the MDL libs
+Make TOC link colors turquoise (fixes #514)
+Inline components should not define margins
+Remove general template from listing
+Initialze customizer with default colors (fixes #515) (Closes #518)
+Reviewing the dashboard template for best practices
+Give code fields padding for CodePen button (fixes #495) (Closes #505)
+Update top-right.html (Closes #510)
+Adding comments for each snippets.
+Increase style specificities for customizer (fixes #517)
+Replacing the getting started svg logo by a png.
+Added some text above the CDN CSS. Added #ref link to this section from the text.
+Remove copy-to-codepen on customizer CDN box.
+Align Data Tables with MD spec (Closes #506)
+Add revised layout documentation (Closes #494)
+Add data-table documentation
+Hide tooltips differently for size calculations (fixes #493) (Closes #503)
+New badge component page (fixes #444) (Closes #504)
+Inline JS cleanup and comments.
+Components should not define margins
+Language update to font section.
+Show default styling url when nothing is selected (fixes #486) (Closes #500)
+Implement review
+Revert bad layout fix
+Add mobile header to text-only template
+Add actual header bar to dashboard template
+Updating our default colours after Hannah's feedback
+Assign class string as widget name. (Closes #481)
+Update spinner.js
+Reviewing article template to reduce/improve custom CSS.
+Adding ripple to customizer preview button
+Inline customizer (fixes #476) (Closes #479)
+Different comments for MDL and MD icon font
+Extract <style> blocks from code and inject them into the CSS section of Codepen
+Use templating for MDL libs included in copy-to-Codepen feature.
+Make sure codepen isn't shown in some blocks of the getting started guide.
+Updated button readme.md so that demos look better. Added an option to disable the codeine button (`.codepen-button-disabled` on `<pre>`)
+Revert of 165a9811d89d9490fb72c29cf65c7bcc140f54b8
+Text-only template: Add drawer menu (Closes #477)
+Rewriting menu demo to follow new mocks.
+Adding the concept of a demo file to snippets.
+Revamping card demos based on new mocks. (Closes #471)
+Turn card actions into buttons on android template (fixes #463)
+Handle raised buttons appropriately
+Revamping card demos based on new mocks.
+Further card styling fixes.
+Add vertical align to snippets demo cells.
+Experiments
+Lint gulpfile.js & fix linting errors
+Add Button Snippets to the Getting Started Guide. Depends on #411. (Closes #436)
+Hotfix for tooltip positioning
+Add ability to publish runtime elements into separate code.getmdl.io bucket. (Closes #465)
+Sane selectors
+Give scroll buttons active/disabled state
+Templating the URL prefix of the Hosted libs Add MD font to getting tarted guide snippets
+Removing margins from buttons.
+Card fixes
+Auto-publish master to staging on green (success)
+Make tooltip spec compliant (fixes #453) (Closes #454)
+Don't jump on demo page when clicking (Closes #451)
+Remove hover state from layout (fixes #339)
+Show tooltips on tap (fixes #424) (Closes #450)
+Only block clicks that would select the same color twice (Closes #449)
+80 character column fix
+Using `.copy-to-clipboard-button` class to select button element for the highlight code feature.
+Now embed the code in the <pre> block and in the flash element (for copy paste) directly instead of relying on JS to copy it.
+Generate demo widget based on snippets.
+More expressive variable names
+Namespace .spacer class
+Removing old demo images
+Removing license from component readmes
+clean up obsolete gulp tasks
+refactor publish tasks to support promote from staging
+Make customizer adjust iframe size
+Make mocha-phantom use tap reporter
+Update template listing
+Increase spacing of template image and text to 40px
+Line-height of intro text to 2em
+Set download button to 54% black
+Minify navbar on mobile
+Move Github and Download item to main nav
+Adding a TOC to Component pages that have multiple elements. (Closes #434)
+Decrease nav item spacing to 24px
+Style fix.
+Small fix to animation demo since JS is already included in demo file.
+Small screen CSS fixes for Getting started guide.
+Move hiding `lf` and `cr` Prism tokens to the main CSS.
+Ensure the autoprefixer runs on demos and components pages.
+Add English value to language attribute. (Closes #429)
+Set height for wheel container (fixes #425) (Closes #428)
+Show WIP banner in production
+Adding @license
+Show CDN url in customizer (Closes #414)
+add publish:gcs gulp task to push microsite to gcs bucket
+Add a tmp ci config 'till it goes public
+Adding link to android.com sample in templates page
+Getting started guide post-commit review.
+Implement text template review (closes #406)
+Removing SASS directive from CSS file
+Removing file that was added by mistake.
+Implement microsite review (closes #372)
+Implement refreshed customiser
+Getting Started guide UX/UI review fixes.
+Adding android.com template.
+Adding version number to the header
+Add hidden attribute reset for legacy browser support. (Closes #397)
+Adding a Getting started guide.
+Style fixes to gulpfile
+Add support for grid-specific builds
+gulpfile: add jscs task & integrate
+progress.js: fix sticky operators for jscs
+.jscsrc: configure maxLineLength
+package.json: add gulp-jscs
+Move ripple style initialization to first click.
+More scoping changes to docs
+Move browser support up. Note on templates and IE9 support.
+gulpfile.js task to push js & css to Google Cloud Storage (will add fonts and other files in next PR)
+Update blogpost page of blog template (Closes #384)
+Update overview page of blog template
+Implement code reviewCloses #385
+Implement review for dashboard template
+Implement review for article template (Closes #388)
+Add header w/ licence + MDL version to minified CSS
+Improve the behavior of deep-linking:  - If hash is empty (or unknown) first item gets displayed  - On deep linking we don't display "badges" to start then change the page. Now the page is blank and then we load the correct deep-linked page.
+Add deep linking and back button support in the Components page.
+Adding generation for individual demos.
+Adds Syntax highlighting for code blocks. Closes #375  - Using the Prism lib  - Moved Prism from the Component page only to the common layout  - Transalte prism "markup" annotation to "html"  - Translate markdown code blocks class names to Prism code block class names
+Small tweak of Code blocks styling.
+Updated references to hosted libraries to be HTTPS
+Adding GitHub markdown-style styling for code blocks.
+Adding ability to inject the version number into the mini site using `$$version$$`
+Reimplementing components page.
+Updated browser support for dropping IE8 in any official capacity other than best effort.
+Updated docs to fix for recent updates.
+Adding badge component
+Remove period from classes in markup.
+Add Shadows docs
+Update menu docs
+Add mdl-js-layout note
+Update Grid docs
+Add Badge docs
+Use gulp-open in serve task
+Introduce separate serve:browsersync task (fixes #299)
+Renaming tab image to match components.md
+Adding missing components to docs and fixing some CSS issues
+Contents to table
+Move grid to last import.
+Subtitle documented.
+Card typography improved.
+Make publish take partially synchronous (lands #342)
+Add .publish to clean task
+Some cleanups to new documentation:
+Move demo.js from src to docs/_assets
+Squashing all of @marcacohen 's work on partial component pages so far.
+Replace graphs with SVG
+Implement Zach's template review
+Implement small header
+Adjust search panel
+Add favicon and touch icons
+Make template preview images responsive
+Review template page
+Update micropage header
+Add CSS prefixing to microsite assets (fixes #321)
+Card Material Design alignment.
+Grammar fixes.
+Reworking data table demo
+Forgot to remove one visual test
+Update visual tests to use component demos.
+All demos now use static CSS.
+Default font stacks.
+Updating README with font info
+Adding in some missing changes
+Switching to official MD icon font ("Material Icons")
+Enable javascript on dashboard template (fixes #320)
+Reset body margin.
+Removing all card logic from the table
+Add basic data table, with more functionality to come later.
+More gulpfile style fixes
+Updated readme
+Remove animation js from compiled output. Style fixes from jscs.
+Active state land for navigation states
+Remove CSS folder.
+Ripples shouldn't be widgets.
+Active state for navigation links.
+Remove width on radios.
+Downgrade functionality and components updated with downgrade methods.
+Cleaning up badges
+Add miniscule delay to tab buttons to fix #310
+Run prefixer on custom template CSS
+Layout fixes for IE10
+Implement sticky header and navigation swapping for the components page.
+Revert "Update docs for class modifications."
+Revert "Update demo for class changes."
+Update demo for class changes.
+Update docs for class modifications.
+Land 'firefox-icon'
+Retina FF icon improvements
+Firefox tooltip fixes
+Get the tooltip working in FF
+Footer improvements for FF
+Slider: resolve jshint issue
+Improve hitbox simulation areas on sliders
+Simulate larger hitbox on slider element (fixes #281)
+Make tooltip work in Firefox (fixes #282)
+Improvements to large/small screen handling in layout.
+Rewriting headers and updating all content to match. This implementation should be much saner and less buggy.
+Update README linking instructions
+Spinner: Hide "Loading..." if inactive
+Replace broken base64 plugin
+Use fonts from CDN
+Minor path fixes on templates
+Improvements to 'buffer-bar-color'
+Improvements to buffer-bar-color
+intial rough layout for new comps page
+Make buffer and unbuffered part of progress more distinct (fixes #280)
+Remove /fonts and /images
+Remove /css and /js alltogether
+Remove css and js folders
+Use dist as output folder
+Update input-text-error-color to latest spec Red (#109)
+Remove border-bottom from layout-title (#105)
+Add padding to textfield to accomodate floating labels and errors
+push of 'comps' branch for components page work
+Remove accidental duplication of script include
+Grid vars in main variables file and defaults.
+Add new templates to listing
+Use normal button instead of FAB for "View Source"
+Adding margin after paragraphs and updating generated files
+BEM-ify templates (closes #199)
+Visual polishing
+Remove sidebar and use grid
+Rename template to article
+Feedback: comment out borders in footer
+Drop social icon buttons from footer demo
+Add support for menu buttons on cards
+Remove hardcoded colors from card styles
+Use min-height instead of height
+BEM-ify card styles
+Update builds again
+Update builds.
+Move to using subhead typography for mdl-logo
+change .wsk-mega-footer--heading to be the same as Body 2
+Footer: change .wsk-mega-footer--link-list to be same as Body 1
+Footer: Change MDL copy to Title
+Footer: margin-bottom correction for heading, footer.
+Build boilerplate for microsite
+Shadows: add prefix and bump builds.
+Update compiled CSS
+Update customizer to use new shadows
+Update components to use new shadows
+Update Shadows to latest spec, intro vars
+Update shadows for tests
+Rewrite shadows for Templates
+Add colorization classes to button
+Added main display to reset for IE support.
+Small tweak to links and updating generated files
+Removing column-layout component.
+Removing table styles from typography.
+Add .publish to gitignore
+Adding a number of fixes to typography as per #98
+Small fix and updating generated files
+Reverting f562f49d8ae3ab105a1e7af6aa520ba84ad6932b
+Add link to product template in README
+Update image to be proper SVGs
+File renaming, ripples, and active tab tracking.
+Remove backup files.
+Code Review
+Re-export image assets without baked-in text and move figures to SVG format, along with additional CSS tweaks.
+Removed IDE specific helpers and uneeded rule.
+Renaming all WSK to MDL
+Update compiled builds
+Drop requestAnimFrame usage in menu, ripple
+Switch requestAnimationFrame polyfill
+Finishing touches.
+First pass at product template.
+Finishing touches.
+Implement text-only template
+First pass at product template.
+Add updated builds
+Add shim for shadows readme
+Minor typography change to fix body/html tags receiving mdl-base and mdl-typography.
+Replase `wsk` with `mdl` in menu documentation
+Add white/black text colors to palette
+Grid compiles with Ruby-sass
+Updating generated files
+Tweaking default link font weight and color
+Makes typography definitions optional, through mdl-typography class.
+Temporary fix for vertical scrolling
+Badge added
+Removing outdated Firefox-specific CSS hack
+Add progress docs
+Add refreshed menu docs
+Remove flex-wrap from tab-bar
+Updated generated files.
+Align colons for mdl-card for consistency.
+Updated card min-height variable to 200px
+Make use of new hide classes
+Updated compiled files.
+Important hide classes to take precedent over more specific class displays.
+Remove border-box from styles
+Updating generated files
+Adding mdl-cell--hide-<SCREEN_SIZE> classes to grid.
+Resize huge images
+Adjust dashboard template to use grid
+Adjust blog template to use grid
+Adjust general template to use grid
+Updating generated files
+Adding classes for setting different cell sizes at different screen sizes. So class="mdl-cell-2-col mdl-cell-4-col-phone" will get 2 columns at desktop and tablet sizes, and 4 at phone size.
+Updating generated files
+Adding initial layout grid implementation.
+Break out color definitions into separate file
+Abbreviate BEM heading and add link to wiki.
+Change overflow behavior of layout elements
+Bump build + test dependencies
+Add tech-stop-esque template
+Make expandable textfields' container contract
+Make menu elements stretch to parent's width
+Add links to templates
+Make SVG paths absolute to make them include independent
+Adding the customizer to the docs.
+Augment README for templates
+Add SVG inlining to `templates:styles` task
+Inline SVGs in CSS file
+Handle fonts separately
+Remove starter template
+Adjust templates for new gulp task
+Add gulp templates pipeline
+Implement template mock
+Add publish task for gh pages
+Removing unwanted OS X dotfile
+Updating generated files
+Small bugfix to ripples
+Updating generated files
+Use rgba() when appropriate
+Use upgrade event in progress demos
+Updating generated files
+Updating generated files
+Update TOC formatting
+Update homepage content
+Add download button
+Add content and typography overrides
+Add temporary Material shapes
+Add !important to color classes (closes #163)
+Add recompiled styles post rename
+Update WSK -> MDL in formatted footer
+Web Starter Kit -> Material Design Lite
+Rename web-starter-kit to material-design-lite
+Rename wsk -> mdl
+Namespace event name
+Tweaking buttons for #102.
+Emit event on upgrade
+Blue box around switch
+Reset SVG images back to master state
+Drop export of docs/out
+Break out mixins into their own file
+Rename _vars to _variables.scss
+Rebase var work against master
+Update tooltip according to UX review.
+Remove automatically added classes.
+The docs template contains some manually-added elements that MDL adds automatically. Also, fixed two typos in .gitignore.
+Rewrite Sass to address @import misuse
+Ignore this commit - recompiled assets
+Sanitize imports
+Unquote and contrast colors
+Updating generated CSS and JS
+Off-Color for Checkbox is wrong
+Add theme classes to palette
+Use Flexbox for Tabs
+Re-add lost dependency to imagemin
+Demo-Shadow card width did not fit on mobile
+Address feedback, add coding rules section
+Comment clean-up for resets/mobile
+FAB-Button hast sourounding box on mobile
+Land MQ for palette demo (#106)
+Add a better intro & a clarification on framework features.
+Minor tweaks to guide
+Add contributing guide (fixes #134)
+Remove remaining explicit color declarations. Remove references to nth members of the color definitions in exchange for the named value.
+Small updates to some of the visual tests
+Update color definitions to better use the default palette options.
+Implement progress bar component (closes #88)
+Adding MDL microsite stub
+Updating generated CSS
+CSS fixes to wsk-button so it can be used with <a> tags
+Update builds
+Adding public methods to elements.
+Update textfield README
+Add alpha values for black and white text and update the demo to reflect the addition.
+Add in-development preview links for #67
+Add section on feature requests.
+Adhere to styleguide
+DS_Store fix
+Updated READMEs
+Closes #87 by adding white and black options to the color palette, updating the demo, and bumping the build.
+Expand header on click
+Don't react to scrolling until animation is done
+Add onmouseleave event listeners
+Using semantic tag names in the layout readme.
+Rearranging palette SCSS files
+Adding CSS definitions for Material Design palette.
+Updating generated map file
+Rebase with upstream master and bump builds.
+Hide the icon if the layout has a drawer (to make room for the menu icon).
+Bump builds.
+Sets the drawer for the layout component to by hidden by default (in a non fixed-drawer context).
+Adding CSS definitions for animation functions
+Remove DS_Store entries
+Add documentation
+Add test:visual task
+Bump builds
+Improve layout demos
+Add global styling file to every showcase
+Making ripples visible until mouse/finger up
+Remove visual test’s style.css
+Revamping colors across MDL.
+Dont use gulp-changed on SASS
+Use single-line vars
+Inherit text color in textfields
+Adding $text-color-primary-contrast and $text-color-accent-contrast
+Update MaterialTooltip unit test with chai-jquery
+Update MaterialTextfield unit test with chai-jquery
+Update MaterialTabs unit test with chai-jquery
+Update MaterialSwitch unit test with chai-jquery
+Update MaterialSpinner unit test with chai-jquery
+Update MaterialSlider unit test with chai-jquery
+Update MaterialRadio unit test with chai-jquery
+Update MaterialLayout unit test with chai-jquery
+Update MaterialIconToggle unit test with chai-jquery
+Update MaterialColumnLayour unit test with chai-jquery
+Update MaterialCheckbox unit test with chai-jquery
+Update MaterialButton unit test with chai-jquery
+Extend MaterialTabs unit test
+Write unit test for MaterialTooltip
+Write unit test for MaterialTextfield
+Write unit test for MaterialTabs
+Write unit test for MaterialSwitch
+Write unit test for MaterialSlider
+Write unit test for MaterialRipple
+Write unit test for MaterialLayout
+Write unit test for MaterialIconToggle
+Write unit test for MaterialColumnLayout
+Write unit test for MaterialRadio
+Write unit test for MaterialCheckbox
+Generate CSS templates, with color placeholders.
+Add index for visual tests.
+Tooltip: minor formatting improvement
+Make empty initializations explicit
+Pull in jQuery and chai-jquery
+Be conformant to style guide
+Don't rely on global querySelector() for MaterialTabs
+Only use rippleContainer inside the `if` ensuring its existence in MaterialSwitch
+Check for existance of `for` target in MaterialTooltip
+Adding semantic tags to layout demo.
+Reworking icon demo to show icon names
+Only use rippleContainer inside the `if` ensuring its existence
+Removing textual references to WSK.
+Remove tabs from the middle of the code
+Updating BrowserSync to avoid high CPU usage bug.
+Update compiled JS/CSS
+Write unit test for MaterialMenu
+Refactoring mini footer to not use floats.
+Re adding the mustard test too :-)
+Updating correct componentHandler!
+Adding compiled CSS
+Moving image and font files to final directory structure. Again. - Split images into src/images/ and src/demo-images/ - Moved fonts to own directory: src/fonts/ - Updating scss files with new locations - Updating compiled JS and CSS
+Updating JS and CSS files with latest changes
+Add CSS Source Maps support #5
+Copying MD font over to icons component, and switching to relative paths.
+Add support for image flattening
+Namespacing all the demo classes, to make them per-demo. So many classes.
+Forgot to assign different IDs
+Modifying checkbox and footer to use an 'images' subdirectory with a relative path
+Add initial visual test fixtures
+Run tests with build by default
+bower.json improvements
+package.json updates
+Update dependencies
+Updating min files
+Major rework of the text field component. Should now be easier to use, and less fragile.
+Preventing ugly selection in layout tab scroll buttons
+Adding menu component - Implements Material Design spec for style and animations - Supports keyboard navigation - Supports attaching to any four corners of owner element
+Adding icon font and wsk-icon utility classes - Added Material-Design-Iconic-Font, while we're waiting for the official one - Added SASS variables for all the characters - Added a wsk-icon--<icon-name> class for every icon - Modified wsk-layout to use menu icon for opening the drawer, and chevrons for scrolling tabs - Modified tooltip demo to use icons rather than inline SVGs - Modified icon-toggle demo to use icons - Modified FAB and icon button demos to use icons
+Styleguide => Lite
+Update MDL build
+Ignore gulp-cache temp files.
+Resolve further conflicts
+Just use $.mochaPhantomjs - why isnt this $.mochaPhantomJS?
+Add tests for Buttons and Spinners.
+Handler: support per-comp instances under .widget namespace
+Support testing
+JSHint: re-enable linting
+Update to include mocha phantom
+Rebase against master
+Gulpfile: add initial gulp-mocha support
+Bump dependencies
+Allow 0 params for upgradeDomInternal
+Add needed `http://` to link in readme
+Update README.md
+Just use $.mochaPhantomjs - why isnt this $.mochaPhantomJS?
+Add tests for Buttons and Spinners.
+Handler: support per-comp instances under .widget namespace
+Build process updates for tests.
+JSHint: re-enable linting
+package.json: Add gulp-mocha
+Gulpfile: add initial gulp-mocha support
+Adding friendly color names and using them in _colors.scss
+Further README improvements.
+Update README.md
+Cards should have a 2px border radius
+Making typography names more BEM-y and adding font weight override classes.
+Possible fix for #9
+readme tweaks
+material-styleguide => material-design-lite
+Add bower.json, refresh package.json
+Drop docs/install.md
+Refresh Gulpfile for this project
+Refresh README.
+Add missing components to /src
+Add pre-built JS sources, sourcemaps.
+Add pre-built CSS
+Add initial images from build to /images
+Files clean-up.
+Continue move of files to the /src directory
+Move components to the src directory
+Bring back .git configs
+Clean-up application directories.
+Adding icon font and wsk-icon utility classes - Added Material-Design-Iconic-Font, while we're waiting for the official one - Added SASS variables for all the characters - Added a wsk-icon--<icon-name> class for every icon - Modified wsk-layout to use menu icon for opening the drawer, and chevrons for scrolling tabs - Modified tooltip demo to use icons rather than inline SVGs - Modified icon-toggle demo to use icons - Modified FAB and icon button demos to use icons
+Adding graceful degradation to sliders. Also tidying up JS a bit.
+Update comment text for add to homescreen
+Slight adjustment to radio buttons
+Manually specifying each component JS file in the gulpfile. This allows us to get around component dependencies where components depend on each other, since gulp was just processing everything alphabetically otherwise.
+Small fix so checkboxes can be reused from other components
+Add sw-precache to WSK.
+Checkbox improvements - Switch to using CSS masks for transparent tick. Sorry, IE, you get a white tick. - Some small visual tweaks (rounded corners, alignment). - Tidying up the JS
+Adding mini icon button option
+code styling fix on issue #500
+Refactor CTM based on feedback.
+Remove dupe
+Add "Cutting the Mustard" test
+Adding clarification to multi-row layout demo.
+Drop pulling in material-design icons in lieu of iconfont
+Link to Sindre's npm guide
+bump to latest psi
+Small visual fixes to icon toggle
+Adding icon toggle component. - Implements MD spec, with focus states. - Gracefully degrades to checkbox.
+Small fix to wsk-layout-icon to make IE happy.
+Added tabs + other improvements to layout: - Added tabs, implementing Material Design spec. - Made header size and padding depend on screen size, as per the MD spec. - Added helper class for icons. - JS cleanup. - Updated demo and docs.
+Adding new spinner component.
+Replacing RobotoDraft with Roboto now that the updated version is live
+Moved the "use strict" statement inside function
+Pasted wrong text - updating to original
+Added ability to listen to upgrades via ComponentHandler
+Implemented content tabs. These are a lesser implementation designed to be used as part of the page content. The full Material Design tabs spec will be implemented as part of the layout component.
+merge conflict on mega footer - minor
+Altering the footer to include mini support and fix a typo
+Removing outdated JS comments across the board.
+Moving footer colors to _colors.scss and adding default to all colors
+Updating the text inputs in the layout demos
+Oops, fixing compilation error in switches.
+Adding switches.
+Adding footer
+Use invert() function for inverse typography
+Centralized color configuration for all components
+Move color configuration from component files
+Styleguide: add styleguide-specific WSK identifier
+Add support for onError in gulp-sass setup
+Add support for a _colors.scss file
+Gulpfile: Drop old UnCSS ignore rules
+Rename material-styleguide -> styleguide
+Gulpfile: Drop unneeded line
+Update copyright year
+Gulpfile: Concat/minify user scripts
+Gulpfile: Move autoprefix block to styles
+Update project dependencies
+Let's fix up that wskComponentHandler for demos in production and let's make the card background not whine
+So weird
+Reverting my previous change - we are doing weird things with JS :(
+Updates to fix jshint warnings
+Updated Ripple to new JS Design pattern
+Updated ComponentHandler for many class registrations
+Updating HTML demo template to use new JS pattern
+Updating Dropdown to work with new JS Design pattern
+Updated Layout to new JS Design pattern
+Updated Slider to new JS Design Pattern
+Updated Checkbox to new JS Design Pattern
+Trimmed trailing whitespace for Radio in new JS pattern
+Updated Radio Constants + Classes to new Design Pattern
+Converted Radio to new JS Design Pattern
+Updated documentation
+Converted Textfield to use new JS Design pattern
+Converted Column Layout to new JS design pattern
+Converted Tooltip to new JS design pattern
+Cleaned up some whitespace
+Converted Item to new JS design pattern
+Upgraded Button to new design pattern
+Spelling mistake in comment
+New JS Pattern - forgot to add function param comment.
+Converted Button to new JS Design pattern
+Adding WSK Component Handler to Third_Party
+Converted Animation to new JS Design pattern
+Lowercase object in return comment.
+Adding Component Handler for WSK
+Rethinking the CSS for column layout some more
+Some tooltip cleanups: - Applying new CSS naming convention - Cleaning up the JS somewhat
+Revamping checkboxes: - Applying new naming conventions - Reimplementing checkbox, using the radio buttons as a basis - Revamping checkbox visual style to match Material Design spec - Adding focus states
+Tidying up the colors and dimens for elements
+Tiyding up the typography style names
+Stuff for fixing the lists and palette
+BEMing up animations cand cards
+BEMing up the drop downs
+bem'ing up the item
+Renaming navigation classes as per @csswizardry review
+Switching to demo classname for palette
+Cleaning up layout SCSS - Make sure as much as possible is behind optional classes - Rename everything to follow style convention - Add new class for JS binding - Rearrange SCSS to take advantage of nesting with &
+Renaming the shadow classes
+Rename all the things for the lolz / sergio asked for it in the PR
+BEM-ifying palette including updating variables
+Switch over the common demo styles to be more BEM-ish
+Updating the palette CSS to use BEM
+Moving ripple effect class to main element in radio buttons
+Adding JS class and making sure the radio buttons work if we have no JS
+Radio button revamp - Changed HTML structure for the component, to improve styling and remove hacky ~ operator - Updated component look to match material spec - Added focus states
+Renaming wsk-ripple--recentering to wsk-ripple--center
+Adding icon buttons and rearranging button demo.
+Updating radio SCSS to follow best practices
+Add wsk-js-textfield
+Address issues with nesting.
+wsk-input__text > wsk-textfield
+Reload when JS files in styleguide change
+right, large > wsk-input--right, wsk-input--large
+Cleaning up slider SCSS - Make sure as much as possible is behind optional classes - Rename everything to follow style convention - Add new class for JS binding - Rearrange file to take advantage of SCSS nesting with &
+label > .wsk-label
+.is-dirty, wsk-input__text ~ .error > wsk-input__error
+wsk-input__expandable_holder > wsk-input__expandable-holder
+wsk-input__expandable__icon > wsk-input__text-expandable-icon
+icon__search > wsk-input__text-expandable-icon-search
+BEMify textfield component
+Drop commented out icon setup - we will use font icons
+Drawer button changes for Layout module: - Changing default behaviour of drawer buttons to push down the content, instead of overlaying on top of it. - Adding optional .Layout--overlayDrawerButton class to allow previous behaviour. - Switching layout demos to use .Layout--overlayDrawerButton. - Tweaking layout for index page.
+Add empty globals for #560
+Ripples should ripple on mousedown/touchstart, not click.
+Remove .sass-cache folder from gitignore
+Implements the layout module. This module combines the old 'navigation' and 'header-panel' modules into a single, configurable component.
+Restore hamburger navigation components.
+Update deps, add support for libsass
+Add flexibility to styleguide iframe handling
+Minor update to comment for main.js
+bump deps
+Added HTML5 webapp manifest
+Commented-out block for handling npm icons
+Update icon section in styleguide
+Drop note, add baseDir fix.
+Add note about build process.
+Small fixes to buttons after UX review
+Altering the padding for the side nav
+Updating palette colors.
+Close #537 PR: Keep dist/.git while removing everything else..
+Add TODOS to gulpfile.
+Further revisions for build process
+Drop extra hamburger. Re-use nav asset.
+Add useref blocks to build to single main.min.js file
+Temp: add hotfix for scripts, styleguide images
+Add support for gulp-concat
+Bugfix to checkbox init.
+Making the PaperButton class optional for FABs. Also adding PaperFab--colored as a more intuitive alternative to PaperButton--colored in FABs.
+Add initial tooltip implementation
+Some fixes to the slider element, after UX review: - Updating focus states to new visuals - Improving rendering in Webkit and Mozilla by reducing the usage of gradients - Much improved vertical centering of the slider track, with subpixel accuracy
+Install docs - add tldr for quick setup
+Improve and simplify install guide #526
+Making caption type default to performance font (non web font)
+fixed var i
+merge
+ripple on .ExpandableIcon
+simplified demos
+variables for expandable search
+large demo
+demo width 100% to prevent wrapping
+Completely rewrote sliders. They now closely follow the Material Design spec, and work in Chrome, Safari, Firefox and IE>=10.
+removed empty dropdown-menu.js
+notes on hacks
+demos, max-width hack
+Remove Ruby references
+already animated
+minor cleanups
+v1, just places icon on left
+dropdown-menu prototype, item code
+Modifying animation demo so it works in IE. Changes were needed because IE doesn't support calc() with CSS transitions.
+Renaming Apple touch icon to "apple-touch-icon". See #492
+One ripple to rule them all. Refactors buttons, FABs, radio buttons and checkboxes to all use the same ripples. Also simplifies adding ripples to components by specifying the RippleEffect class (which is now required for checkboxes and radio buttons as well, which will otherwise not have ripples).
+Use https where possible
+Bump deps
+Misc UI fixes
+Add back precision
+Removing old sidenav code.
+Switching default body font to 'Helvetica', 'Arial', sans-serif. Also adding optional CSS body classes that force the use of Roboto.
+Refactoring animations into separate SCSS file, and adding a demo.
+Adding column layout according to Material mockups: - Maximum of 3 columns in "web" layout, with 360px fixed width columns, 40px gutters and excess padding left and right. - 2 columns in "tablet" layout, with variable size columns and 24px gutters. - 1 columns in "phone" layout, with 16px gutters.
+Style fixes across the material-sprint branch. Should bring the build back to a pleasant green color.
+Minor typo
+Correcting slider javascript
+Tidied up das CSS und JS aber, dein markup is nicht so gut. a.k.a having labels as the containers for the radio inputs feels pretty wrong.
+By the power of Thor I've only gone and tidied up the mess that was the TextField. This is still far from perfect, but a.) it works - before we didn't even pull in the JS b.) It feels a lot cleaner than before.
+Making paper fabs suitcss friendly, but they need tidying up. Too dependant on the Button scss and js
+Tidying up the button styles to use SuitCSS and tidied up the JS to be a bit neater - still not totally happy.
+Palette tweak to card
+Cards + SuitCSS
+Shadows + SuitCSS
+Making palette use SuitCSS
+Tidying up the styles for lists and typography
+Ensure padding doesn't break menus.
+Only display Material border when menu collapsed.
+Improve sidebar styles
+Adding focusing an fixing up styles for the checkbox
+Add new cards component implementation
+Move paper-card into shadow demo
+Remove card demo from shadows
+Switching header panel header text to correct typography
+Backing out assets until revisions ready
+Implements header-panel.
+Changing the focus style of the slide and also made it use the primary palette for color
+Changing the focus style of the slide and also made it use the primary palette for color
+First cut of focus styles for buttons
+Add missing space before commented out code.
+gulpfile - comment out the task loading by default
+bump dependencies
+Add icons set and previews
+There were many fixes in the navigation. They saw that it was good......hopefully.
+Renaming files and adding styles for static and horizontal
+Minor Tweaks
+Make nav adhere to primary palette stuff.
+Drop the mast head.
+Update typography now that lists are a thing.
+Add list demos.
+Add new list component
+Adding navigation menu to styleguide
+Whole lot of styles for typography.
+Drop the Material keyword
+Add material navigation to default layout.
+Correct path to styleguide.
+Drop the old navigation
+Drop the old layout
+Update dependencies
+Drop toolbar for now
+Clean-up
+Add in-flight nav work
+Initial re-nav work
+gulpfile - add `logPrefix` to the other browserSync instance
+Drop <h2> where not needed
+Add slider
+Add styles for initial masthead.
+Float the palette previews.
+Drop Orange.
+Add checkboxes.
+Add initial masthead. Include new demos.
+Add radio buttons.
+Add toolbar implementation
+Style-guide: add blockquote
+Correct indendation.
+Output some error when require-dir tasks fails
+bump dependencies
+gulpfile - fix indentation
+bump gulp-autoprefixer
+The styleguide demo looks so pretty
+Tidying up the styleguide page
+Switching textfields to use palette
+Sidenav is now using palette for border color
+Fab icons use the palette colors now
+Making the buttons use the palette styles
+Tidying up the sidenav JS and styles
+Use correct ordering in installation instructions
+Some more sidenav bits
+Adding new styles and javascript to handle interaction
+Add textfield.
+FAB.
+Button stuff.
+The start of the sidenav
+Adding images to the typography demo
+Adding typography mixins and settings. Need to include image examples
+Broke cards. Copied over Lewes's Typography stuff
+Tidying things up on the button and the styleguide
+Add in shadows and paper-card
+Beautify the button styles.
+Drop ripple from non-ripple example.
+Styling fixes, fix for no ripples.
+Add initial paper-button component.
+Add typography
+Add rAF.js
+Add shadows
+First version of the palette stuff. Needs tidying up.
+Adding watch to the styles for styleguide
+Adding demo.scss
+Adding a new styleguide - nuke when complete
+Adding styleguide directory and a button
+RESTARTER ALL THE STYLES
+Update to latest gulp-cache.
+Simplify server configuration - remove 'baseDir'
+move `apple-touch-icon-precomposed` into `images/touch`
+Revert "move `apple-touch-icon-precomposed` into `images/touch`"
+code consistency
+minify SVG
+minify chrome-touch-icon-192x192.png
+move `apple-touch-icon-precomposed` into `images/touch`
+Revisions to the HTML starting point text.
+Add note about basic.html and IE8
+Make styling consistent with the site.
+Update Android icon sizes for basic.html
+Making 192x192 size chrome icon
+Adds Moz equivalent for nicer font rendering.
+Added link to commands in quickstart.
+Added docs folder with initial files. Pulled content from readme.
+Add `box-sizing` as an inherited value
+add spacing to css selector
+Rebase against master.
+Adding the comments from master into the branch
+Renaming CSS files to .scss and dropping components.css
+Moving styleguide around
+Improve index.html comments.
+Update .jscsrc
+Simplified overview section of readme
+Link WSK Extras repository from the main readme file.
+bump deps
+For #362 - adds section on WSK & CSS libraries.
+Adds JSCS configuration file.
+Adjusting browser-support matrix to reflect actual support.
+remove unnecessary css that was being overridden on .navdrawer-container element
+fix redundant css declaration
+remove repeated declaration block and unnecessary overridden css
+add spacing to css declaration
+fix #340
+Fetch the `.htaccess` file via `npm`
+remove deprecated .jshintrc props - fixes #329
+minify images
+update to new useref API
+bump deps
+Adding output css file
+Adding material design color palette variables to sass
+Reduce to a single S/CSS task and watcher
+Update gulp-ruby-sass to 0.7.1
+remove unnecessary empty line.
+SASS now compiles on serve
+remove duplicated line-height
+Removes https by default and provides some guidance for the developer about how to enable it
+Add 'auto' to the Google Analytics tracker create method.
+A tickle, this should not be needed.
+Adds 'https:true' to both serve task
+Updating the version of browser sync
+Move the `.htaccess` file into the `app` directory
+Close GH-275: Adds .htaccess file.
+Adds lang attribute to basic.html
+Adds the lang attribute to html
+bump deps
+Make the footer in style guide more useful
+Style formatting post font updates
+#251 - it turns out I didn't check in you know, the most important files
+Adding in RobotoCondensed Web fonts - #251 Adding in font files to /fonts Adding in CSS in to main.css rather than embed directly into the <head> - we can move this there later if we want. I have also changed slightly the declaration of what we serve than recomended in the bug (i.e, the Chris Coyer article), I went through how Google web fonts works and this is the recommended output that works in IE 9, 10 and above, Safari iOS 6 and above, Chrome and Firefox.  Note: we don't reference any ttf files, but I have included them
+Various styling fixes
+install Sass when running Travis
+Close GH-242: Handling scss compilation error.
+followup to 4730569239d811666227aa681fc976d2a0ff6d0a
+Address feedback on #238
+gulpfile - simplify error handler
+gulpfile - centralize autoprefixer config
+minor consistency tweak for #239
+minifyHtml should only run on html files
+Potential fix for #79
+Improve navbar UX logic for #233
+Add error handler for ruby-sass to fix #234
+Index: Load google fonts in head, rather than imports.
+Style guide: add recommended font loading to head.
+Compiled CSS: drop Google font imports
+Sass: Drop Google fonts being loaded from imports.
+use #ignore-click instead of 'javascript:;'
+tweak #217
+gulpfile - codestyle
+Adding ignore filters to uncss
+Adding a link to the demonstration site #97
+Removed undesirable minimal-ui in viewport
+fix issue with links jumping to the top of page. use href='javascript:;' instead of '#'.
+Added gulp task to copy files from app to dist
+Updates devDependencies to latest stable backwards-compatible versions.
+Preserve JavaScript license comment
+Rebase and bring in #145 (h/t @stephenplusplus)
+followup to #201
+Allow gulp task list to be extended. As a starter kit, we want users to be able to customize. As a source-based distribution we want users to stay updated. By allowing users to customize web-starter-kit gulp without editing gulpfile.js, they can rebase or merge future updates.
+Remove reload from the images task
+typo fix
+Handle error event generated by jshint fail reporter
+readme - link to latest release
+Removed reference to BrowserSync running instance
+Inject CSS styles
+Give serve preference to files in .tmp
+gulpfile - don't need `init` anymore
+Don't optimize images on serve
+Strip unnecessary link in styleguide
+Move demo gray to sass utils
+Bump gulp-cache to 0.2
+Strip unnecessary font-family rule
+Tweak to basic grammar
+Grammar tweaks to index
+Update pseudo-elements to double-colon syntax
+Update gitignore
+revert manifest.webapp version change in #85
+Close GH-85: A bunch of (smaller) changes….
+update indent value of jshint config and follow style rule.
+Targeting *:before and *:after for box sizing
+readme - remove features text
+Adds missing closing section tag around highlights.
+Move `Contributing` guide to a CONTRIBUTIN.md file
+readme - link download to releases page and not a specific release
+fixes #132 - style configuration.
+simplify clean task with `del`
+Adds .travis.yml to files to remove for the 'boilerplate-only option'.
+Include test asserting all generated build changes are commited.
+Adds newline to components.css.
+Adds `npm test` and travis.yml
+Removed margin top to fix article count appearance
+Update main.css
+Uses document.querySelector directly, rather than wrapping it.
+Reindents main.js using two spaces.
+Format .jshintrc in the same style as the code.
+Remove `404.html`
+Update editorconfig
+Size improvement to repeated qSA & dropping touch start
+X-UA-Compatible meta tag missing on some HTML pages
+ontouchstart => touchstart
+prettify the readme with some graphics
+styleguide js - remove unused var and don't redefine var
+styleguide js codestyle
+minor tweaks
+404.html - drop IE comment
+reorder some head tags for consistent grouping
+consistent indentation in the styleguide
+convert to 2 space indentation
+Update BrowserSync version to 1.0.0
+Set web-app-title for index.html
+enable iOS homescreen meta tags by default #102
+WOFF2 support
+Close GH-80: avoid gulp.start().
+Update .editorconfig
+Update _list.scss
+Bump PSI for PageSpeed to 0.0.4
+Add default directive to top-level SASS variable definitions.
+Mark package as private
+Expand contribution section to cover the site
+Comments for components.scss
+Update _normalize.scss | remove deprecated hgroup
+Remove license info from `404.html`
+styleguide - grammar
+Style guide: remove unnecessary meta prop
+Style guide: improve image alt tags
+Update components.css
+Update `robots.txt` file
+Change whitespace in styleguide JS
+readme - fix blackberry version - fixes #76
+Update README.md
+sync basic.html with index.html
+Update download link, link to BrowserSync.
+README tweaks.
+Update README.md
+Add FAQs mention to inspiration
+gulpfile - semicolon
+Further revisions to the readme
+ALARM!ALARM! rogue space.
+Drop capturing in the styleguide JS
+Minor formatting tweak
+Minor changes to toggling
+Add support for toggling snippets - fixes #42
+Add note on how to opt out of tooling
+Expand on UnCSS comments
+Further readme improvements
+Improvements to the readme
+Remove alt-layout - basic and index are sufficient
+Comment-up the Gulpfile
+sync readme `gulp watch` => `gulp serve`
+formatty things.
+Inline JS for style-guide. Unlikely to be changed.
+Remove unnecessary debug reference
+rename title for styles:components task.
+Rig up the gulpfile.
+Update index.html
+use a .tmp folder for sass styles.
+autoprefixr back on for app. it had something to say about our current css files.
+fixes #71 - restructure style task.
+For #60 - add correct docs link for canonical
+mobile-web-app-capable as a default
+Remove Article microdata
+Revise styles.scss, styles.css > components
+Add typography fix for fonts
+Update second line to H2, add style guide to nav
+Update README.md
+Tweak gulp build comment.
+Improve Gulp installation instructions.
+Further improve installation instructions.
+Add Node installation instructions.
+Add Ruby installation note
+Add troubleshooting section.
+Revise tooling instructions.
+Hide the h4 the right way.
+Remove extra padding under nav links.
+remove min-height for larger devices.
+Only show `h4` when nav drawer is open.
+Continuing fixes for #65 + niceties.
+Add initial UX suggestion for body.click > hide menu
+First fixes for #65 - zindex, overflow, min-height
+Add link to getting started, style guide
+`to to` -> `to do`
+Grammar tweaks.
+For #5 - add browser support list
+Add contribution guide section
+Readme revisions
+Remove CC headers from style guide
+Remove CC headers from Sass
+Drop CC headers from CSS
+Remove CC from additional layouts
+Remove CC from main index
+Add CC block to end of license file 1/2
+Add built with comment to let us discover projects using wsk
+Remove block for preventing link opens in mobile safari
+Remove disable tap highlight
+Clean up markup (re #60)
+minify hamburger icon
+Add download link to get the zip archive of the kit.
+Readme tweaks.
+Add black hamburger menu icon.
+Improve colour palette used, font-sizes on multi devices.
+Adding JS to auto-generate code smaples in the style quide
+Addressing HTML minifier feedback
+Adds alternative html minification for #54
+Minor tweaks for IE 10
+Meta tag correction.
+minify images
+consistency tweaks
+gulpfile - make livereload on vanilla CSS files instantaneous
+Add project meta tag
+Close GH-47: Adds support for UnCSS..
+Altering styles and removing the search fields
+gulpfile - turn off lr notification in the browser when loaded
+Clean-up of visual style guide
+gulpfile - no longer needs to change cwd
+Bump to latest version of PSI
+Update PageSpeed task now that nokey is default
+Add copyright headers as requested.
+bump deps
+gulpfile - don't need `size` in `jshint` task
+gulpfile - tweak pageres task
+gulpfile - add titles to the size plugin
+gulpfile - be explicit about supporting arrays in `watch`
+gulpfile - remove `fonts` task
+gulpfile - use rimraf instead of gulp-clean
+gulpfile - various tweaks
+gulpfile - switch to gulp-if for more succinct syntax
+Dont return on pagespeed
+Title case for web starter kit
+readme - add license mention
+better fix for #36
+Switch to PSI for pagespeed reporting
+Adds inspiration section
+Add requirements to readme
+fix running server from subfolders - fixes #36
+index.html - minor tweaks
+fix naming so gulp builds correctly
+bump deps
+gulpfile - let gulp know when we're done
+readme - add gulp install step and slightly tweak it
+Adding favicon.ico
+Switching out the favicons - still needs a favicon.ico. Also added comments to the fav icon groups and moved chrome add to homescreen fav icon to the bottom, otherwise it doesn't work
+Readme revisions.
+Update license to Apache 2.
+Swapping out the hamburger and search icons. Also made the index page fit slightly more closely with the styleguide
+Remove some unused sass
+Shouldn't need to be root to npm install
+scripts -> jshint, add to build process, expand watch.
+Add comments to compiled style-guide styles.
+Adds main.css
+Add back compiled styles file (do not remove)
+main.css > h5bp.css to be more clear
+Minor styleguide cleanup
+Add missing useref blocks for main index layout
+Add missing blocks for basic layout
+Add missing use ref blocks for alternative layout
+Remove Web Fundamentals headers
+Add missing icon resources and placeholder graphics
+Ignore any .tmp files
+Readme revisions.
+Remove samples, replace with alt-layout.html
+readme - syntax highlighting
+readme - drop sudo
+Add quick start information.
+Replace with app layout
+Revise slide out menu
+Revise styles to app layout
+Add hamburger and search icons
+fix some small formatting issues.
+Consistency between HTML and manifest attributes
+Provide a sample hosted URL
+minor tweaks in gulpfile and readme
+Revise wording on PageSpeed score for #17
+code style tweaks, gulpfile improvements and remove unused deps
+add meta files to enforce code style
+Sushi -> Web Starter Kit
+Reformat main.js
+Add a basic index.html
+Remove Todo on PageSpeed integration.
+Index: correct path to new styles, remove intro about PL.
+Adds static style-guide, cleaned up from Web Fundamentals.
+Introduce Sass styles from Web Fundamentals.
+Remove current main.scss
+Gulp: correct paths for Sass styles, icons and fonts.
+Remove PatternLab from the project
+Adds a cleaner version of samples
+Change dependency name browsersync -> browser-sync
+Close GH-13: Add PageSpeed task. Closes #12.
+Minor revisions to contains list.
+Close GH-10: Add initial BrowserSync support.
+bump deps
+Move the README back out.
+Introduce file renames. Minor restructuring.
+Add Gulpfile.
+Adds PatternLab.
+Drop Pure for now.
+Add initial (Pure-based) style guide
+Adding in some overview information.
+Add contents to readme.
+Add side-bar sample.
+Drop normalize reference.
+Include PureCSS
+Drop normalize as Pure includes it in the default build.
+humans.txt - drop jQuery and Modernizr references.
+Drop startup directory
+Drop crossdomain.xml
+Trim down the readme for now.
+Drop extraneous scripts.
+Drop jQuery
+Drop Modernizr
+Add initial H5BP mobile boilerplate
+Initial commit

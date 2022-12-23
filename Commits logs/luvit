@@ -1,0 +1,2974 @@
+Run completion in repl in coroutine
+fix parse `auth` order in url.parse
+process: respecting deprecation on getpid
+thread: fix thread.equals
+Update root certificates in tls module
+Merge pull request #1171 from luvit/release-2.18.1
+Release luvit v2.18.1
+Merge pull request #1170 from luvit/update-certs
+Update root certificates in tls module
+Merge pull request #1159 from truemedian/master
+fix main thread tracebacks
+Merge pull request #1155 from leXinshou/master
+Added nil safety reason
+Merge pull request #1142 from luvit/release-v2.18.0
+Release Prep for Luvit v2.18.0
+Merge pull request #1149 from squeek502/test-dns-linux-hotfix
+test-dns: Quick fix for resolveTxt test on Linux
+Merge pull request #1145 from squeek502/freenode-readme
+Merge pull request #1146 from squeek502/github-actions
+Merge pull request #1147 from squeek502/tls-server-verify-test
+Fix test-tls-server-verify by removing -tls1 arg
+Remove travis CI now that travis-ci.org is gone
+Add basic Github Actions workflow
+Remove freenode badge from readme
+Merge pull request #1144 from squeek502/test-colors-consistency
+Fix test-colors not being deterministic
+Merge pull request #1143 from squeek502/querystring-test-fix
+Fix querystring stringify test being non-deterministic
+Merge pull request #1139 from truemedian/master
+Merge pull request #1140 from luvit/release-v2.17.1
+Bump deps for updates and luvit 2.17.1
+wrap main in a coroutine
+Remove Freenode and add Discord link (#1138)
+Merge pull request #1126 from TSnake41/stream-readable-localize
+Localize p in stream_readable.lua.
+Merge pull request #1124 from luvit/assert-resume
+Adds utils.assertResume
+Merge pull request #1120 from squeek502/openssl-1.1.0-fix
+tls: Fix for OpenSSL 1.1.0
+Merge pull request #1119 from zhaozg/master
+fix luvit handle args
+Merge pull request #1085 from luvitred/master
+Merge pull request #1117 from squeek502/signal-listeners
+test-process: cleanup 'signal usr1,usr2,hup' test
+process: Fix signals being closed before all their listeners are removed
+core: Make Emitter:removeListener return the number of removed handlers
+Merge pull request #1112 from zhaozg/simplify_emitter
+simplify the logic of Emitter:listeners
+Merge pull request #1115 from zhaozg/fix/tty-write
+Merge pull request #1114 from zhaozg/fix/test-process
+test-process: add comment about signal unreffing
+Merge pull request #1116 from zhaozg/feature/network
+expose Socket BufferSize api
+make console/tty write safe
+fix test-process, make sure signal handled
+Merge pull request #1111 from luvit/fix/cover
+CI: fix coveralls, really active
+Merge pull request #1110 from zhaozg/cover
+enable coveralls
+Merge pull request #1108 from zhaozg/master
+Revert "make console/tty write safe"
+Merge pull request #1105 from zhaozg/master
+fixup require wrong module
+Mitigate bogus errors being returned on stack overflows (#1102)
+Merge pull request #1098 from squeek502/luvit-2.17.0-bump
+Fix make.bat for updated get-lit.ps1
+Bump lit version in makefiles to v3.8.1
+Add changelog for 2.17.0
+Bump Luvit version to 2.17.0 using Luvi v2.10.1
+Bump version of changed deps
+Merge pull request #1097 from zhaozg/master
+make console/tty write safe
+Merge pull request #1096 from squeek502/stdio-file-bandaid
+Fix process.stdin abort when stdin is redirected from a file
+Merge pull request #1095 from squeek502/stdio-file-bandaid
+Fix abort when redirecting stdout/stderr to file
+Merge pull request #1093 from datatypevoid/patch-1
+fix: remove extra argument to doWrite call
+Merge pull request #1088 from luvitred/emitter
+emitter: fix removeAllListeners
+http: ignore upgrade header when no upgrade listener is present
+Update changelog and dependencies for a 2.16.0 release (#1081)
+Fix shields.io Freenode badge (#1082)
+Merge pull request #1079 from zhaozg/fix_tlsv13
+update ssl to support session reuse for TLSV1.3
+Merge pull request #1078 from zhaozg/master
+fix unclosed handle in childprocess module
+Merge pull request #1075 from joerg-krause/master
+test: Add test-process-exec.lua
+Merge pull request #1077 from squeek502/windows-exec
+childprocess: Fix exec on Windows
+make luvit not collectgarbage manually (#1071)
+Merge pull request #1070 from zhaozg/master
+update http module
+Merge pull request #1069 from zhaozg/master
+clean broken examples
+Merge pull request #1067 from zhaozg/fix
+test: Improve test-process.lua
+Merge pull request #1066 from zhaozg/fix
+test: improve test-tls-peer-certificate.lua
+Merge pull request #1065 from zhaozg/upssl
+update test-tls-remote.lua
+update openssl to v1.1.x (#1062)
+set process.env.__pairs to lenv.iterate for backwards compatibility
+Replace access google.com with github.com
+update process.env to use portable iterate
+ugly avoid unclosed pipe handle
+update test-crypto.lua for lua-openssl v0.7.4
+http-codec: cap 'chunked' decoding chunk-size to 16 hex digits
+Add better test for http-codec chunked decoding
+Bump http-codec version to 2.0.3
+Fix http-codec failing occasionally during chunked decoding
+Merge pull request #1048 from Python1320/patch-1
+Handle uncaughtException in process.lua
+Add uncaughtException handler
+Match only past last . in file extensions (#1047)
+Create hard links on Windows (#1046)
+update changelog and dependencies for a 2.15.0 release (#1044)
+Merge pull request #1043 from zhaozg/master
+fixup c9cbddbef3e9939d474fed878897bb7f726d7477
+Merge pull request #1041 from zhaozg/master
+fix test
+update default TLS from TLSv1 to TLSv1_2
+Merge pull request #1040 from zhaozg/master
+update urlencoding according to https://tools.ietf.org/html/rfc3986#section-2.3
+Merge pull request #1039 from zhaozg/master
+fix bug EAI_NONAME in tls.connect
+fix parse HTTP Status Lines
+Merge pull request #1038 from aiverson/master
+adding some simple error handling to the REPL autocomplete.
+fix ignore enomem on getaddrinffo (#1032)
+fix ignore connect errors (#1031)
+Merge pull request #1029 from luvit/fixes/dns_tweaks
+dns for luvit.io is in flux... switch to google
+Merge pull request #1028 from zhaozg/master
+remove keeplive on listen socket
+Update lit PowerShell command to use TLS 1.2 (#1027)
+Fix Stream.Readable.unpipe when piped to multiple streams (#1020)
+Fix http-codec not reading full header when a header has no value (#1021)
+Merge pull request #1014 from squeek502/process-usage
+Update process:memoryUsage() to be more like node's  - Return a table instead of a single number  - Add `heapUsed` key that holds the memory used by the Lua VM
+Add process:cpuUsage() and process:memoryUsage() functions
+Add luvi.exe to gitignore
+Merge pull request #1010 from eZethNesthrown/master
+Update http-download.lua
+Merge pull request #1008 from squeek502/appveyor-fix
+Fix appveyor.yml parse error  - The notifications section seems to have been copied from .travis.yml and was never actually doing anything, but now appveyor fails the build due to a parse error
+Merge pull request #1007 from luvit/flush-streams-on-exit
+Flush streams on exit (fixes https://github.com/luvit/lit/issues/222)
+Merge pull request #1001 from SinisterRectus/timer
+Adds missing timer clean-up in coroutine sleeper
+Update core version to match what's published to lit
+skip txtTCP test on travis
+bump deps
+release info for 2.14.2 (#988)
+Miscellaneous fixes and optimizations (#992)
+add contributing doc (#989)
+add servername to TLS options (#987)
+Merge pull request #980 from luvit/release-2.14.1
+Bump fs to 2.0.3
+Revert "fix fs.ReadStream doesn't return anything"
+Add changelog for 2.14.1
+Bump luvit version to 2.14.1
+Update lit build dependency to 3.5.4
+Bump require to 2.2.1, url to 2.1.1, ustring to 2.0.2
+Bump dns to 2.0.4
+Merge pull request #979 from cfarquhar/issue/978
+Support punctuation in http credentials
+Merge pull request #977 from squeek502/windows-require
+Fix bundle requires on Windows
+Merge pull request #973 from zhaozg/ci_master
+Merge pull request #975 from yaa110/patch-1
+Add HTTP status codes of RFC 6585
+reactive ci
+try to make test-dns.lua work, need review.
+update dns to avoid https://github.com/LuaJIT/LuaJIT/issues/28
+ugly make test-process.lua pass
+fix bug in ustring.lua, init default is 1
+Merge pull request #969 from joerg-krause/patch-1
+Unbreak stream example
+Bump require and luvit versions again
+Fix require to look in bundle *after* filesystem
+Bump version to release changes
+Don't put bundle deps ahead of disk deps for dependencies of disk files
+Merge pull request #959 from Miigon/patch-1
+fix ustring.find's behavior when used `init`
+Debug memory leak on keep-alive connections (#958)
+Merge pull request #954 from mscdex/patch-1
+Merge pull request #956 from cyrilis/patch-1
+Fix easter egg
+Fix test-fs-readfile-zero-byte-liar
+dns: Fix IPv6 address matching (#946)
+Merge pull request #945 from n1tehawk/20170131_resolvebyip
+dns: Bump version to 2.0.3
+dns: Add the ability to resolve certain DNS queries internally
+fix: remove duplicate dns test "resolve6"
+bump fs.lua
+fix stream closing (#944)
+Merge pull request #942 from Miigon/master
+fix fs.ReadStream doesn't return anything
+Add changelog for v2.12.0
+Update lit to 3.4.5 and bump luvit to 2.12.0
+Release repl 2.1.0
+Release readline 2.2.0
+Release childprocess 2.1.0
+Merge pull request #941 from Miigon/master
+fix printing wrong address in 9fa47b31932e
+added two simple http-server examples (json, todo-web).
+Merge pull request #935 from Miigon/master
+Add ustring into package.lua
+Merge pull request #936 from SinisterRectus/master
+Changed signed buffer write methods to aliases - Should be more efficient than wrapping the unsigned versions - Also corrected compliment to complement
+test for ustring and little fixes
+little fix
+Fix test-readline
+fix ustring.upper and History
+Merge branch 'master' of github.com:luvit/luvit
+Tabs to spaces
+Added write methods to Buffer
+[Readline]Fix UTF-8 character's bugs and displaying problems.
+Add UTF-8 support: ustring.lua ustring provided string-like APIs(eg. gsub,len,match) to support UTF-8 in pure lua(jit).
+Merge pull request #933 from luvitrocks/master
+add isBuffer method
+Merge pull request #928 from cyrilis/patch-1
+Fix childprogress.exec return.
+Merge pull request #923 from Miigon/master
+[readline]Fix error when cover is nil(default)
+[readline]Faster way the cover character to be replaced. The results are the same(with multi characters supported).
+Merge pull request #1 from luvit/master
+Publish updated readline with new options.cover
+Fix position when repl cover is not exactly 1 character wide (#913)
+Add new options.cover to hide input (#913)
+Update luvi/lit and bump version to 2.11.5
+bump http to 2.1.1
+release notes for 2.11.4
+Merge pull request #919 from luvit/fixes/dns_error_fix
+dns: bump to 2.0.2
+dns: error message fix
+Merge pull request #916 from squeek502/http-header
+Bump lit to 3.4.2
+Move http.headerMeta to its own package and add util functions
+Merge pull request #915 from luvit/fixes/bump_2.11.3
+Add changelog for 2.11.3
+Bump new luvit release with merged 2.11.1 and 2.11.2 changes
+Restore lost 2.11.1 release
+Merge pull request #914 from luvit/fixes/release_2.11.1
+Bump repl version
+bump to 2.11.2
+bump files for 2.11.1
+Merge pull request #912 from luvit/fixes/patch_dns_resolving
+add phony and remove luvit test runner
+add unit test
+dns: fix server order resolving
+Don't run readline test if stdin is not a TTY (#911)
+Test luvit with both folder and zip bundle modes
+Release luvit 2.11.1
+Merge pull request #909 from Miigon/master
+Add some echo examples
+Merge pull request #906 from SinisterRectus/patch-1
+Changed random seed from os.clock to os.time
+Merge pull request #899 from squeek502/repl-error
+repl: Fix error() calls with a non-string message breaking the repl
+Fix sni test to actually test something and not race and leak
+Publish new require with fixed loadstring paths
+Fix require to use proper paths for loadstring whenever possible (#896)
+Use local version of luvi in test target
+Use luvi to run tests to avoid lit bug in pulling remote deps sometimes
+Release 2.11.0 with updated changelog and deps
+Bump versions and publish updated modules
+Fix truncated paths in stack traces for modules on disk (#896)
+Merge pull request #895 from squeek502/url-resolve
+Add url.resolve
+Merge pull request #892 from squeek502/url-format
+Merge pull request #894 from squeek502/patch-2
+Readme: Add instructions for running a specific test
+Make url.parse return host in the same format that node does  - `host` will include the port ("localhost:9000") while `hostname` will not ("localhost")
+Add url.format  - url.parse now runs href through url.format
+Refactor test-url
+Merge pull request #888 from zhaozg/master
+adjust tls io event handle
+Merge pull request #889 from zhaozg/patch-1
+Update thread.lua
+Update luvi, lit and bump version to 2.10.1
+Publish updated deps
+Update lit and ca certs
+Merge pull request #887 from zhaozg/master
+fix bind socket event to http ServerResponse
+Fix typo in repl
+bump lit to 3.1.1
+Merge pull request #876 from luvit/luv-change-adapt
+Bump versions of affected packages and release new luvit
+Bump luvi version
+Update to work with new and old luv APIS for scand_next
+Merge pull request #850 from luvit/fixes/tap_handle_closing
+tap: check for closing handles in shutdown
+Fix homepage link for resource module
+Add changelog for 2.8.0
+Merge pull request #861 from luvit/luvly
+Revert all changes except porting modules to new metadata format
+Move module replacement to resource module
+Fix luvit-loader to always look for builtins first
+Fix bundle path resolving
+Get several unit tests passing again
+Switch luvit modules to luvit-loader format
+Update root certs
+Merge pull request #874 from luvit/fix/dns_struct_simplification
+Remove a modulus and use math.ceil.
+bump changelog
+slight tweak to build on unix again
+Merge pull request #873 from luvit/fix/use_windows_dns
+Fix: use system setting for dns server addresses
+Merge pull request #871 from Miigon/patch-1
+Fix memory leaks in examples/tcp-echo-server.lua
+bump deps for pretty-print
+add changelog and bump to 2.7.3
+dns bump
+add test file
+dns: resolve whitespace inbetween nameservers
+Merge pull request #866 from squeek502/patch-1
+Add support for any tostring-able versions of luvi options
+Make pretty-print usable outside luvit
+Add changelog for 2.7.2
+Update versions
+Cleanup repl globals
+Make sure native require is not clobbered
+Add changelog for 2.7.1
+Merge pull request #855 from luvit/bump/luvi_try2
+bump common/tls to 1.3.3
+bump to 2.5.0 of luvi and 2.3.0 of lit
+upgrade to support newest lua-openssl
+bump to 2.2.22
+Revert "Merge pull request #848 from zhaozg/master"
+bump to 1.0.7
+Merge pull request #854 from luvit/fixes/term
+parenthesis
+pretty-print: fix term check
+Merge pull request #848 from zhaozg/master
+upgrade to support newest lua-openssl
+Merge pull request #844 from urzds/feat/print-value-on-type-mismatch
+Publish fixes to pretty-print
+deep-equal: Print values on type mismatch
+Merge pull request #842 from urzds/fix/term-screen-256color
+Enable --256-colors if $TERM = *-256color
+Changelog for 2.7.0 with updated luvi
+Release luvit 2.6.0
+Add changelog for v2.6.0
+Bump versions and publish require and http modules
+Merge pull request #823 from luvit/fix-exit-leak
+Remove leaking timeout on exit code
+Merge pull request #822 from luvit/require-internal-first
+Look in bundle first when doing module require
+Release version 2.5.9
+Release v2.5.8
+childprocess@1.1.0 - Release with new exec and execFile functions
+Merge pull request #798 from kaustavha/kaustavha/feat/childprocess-exec
+feat(childprocess/exec&execfile): Implement cp.exec and execFile similiar to node
+changelog for 2.5.7 and bump versions
+Merge pull request #816 from luvit/fixes/dns_errors
+fix: dns error callback
+Merge pull request #813 from kaustavha/kaustavha/fix/repl
+fix(repl): Add path to the list of auto populated libs available to the user
+bump luvit to 2.5.6
+add changelog for 2.5.6 release
+Merge pull request #811 from simonvetter/svetter/fixResolvConfParser
+fix(deps/dns.lua): resolv.conf parser enhancements
+Update luvi and bump luvit version
+bump tls module
+update root certs
+release 2.5.3
+Merge pull request #807 from zhaozg/master
+Merge pull request #809 from zhaozg/fix
+converted examples/app, which show howto use http web server
+delete examples/broken/web-app show setup web server, because it already as a part of httpd standard lib which more simple and flexible.
+update examples/broken/app
+converted examples/http-static-file-server.lua
+remove unnecessary files
+converted a few of http examples
+converted examples/fs-streams.lua
+converted examples/json.lua
+converted examples/stream
+converted examples/tcp-echo-client.lua
+converted example/prompt.lua
+fix bug in examples/tcp-echo-server.lua
+fix readline module with default options
+make json module try use lpeg
+tune table.unpack to unpack
+Merge pull request #806 from bfontaine/patch-1
+add threadpool support
+Makefile: support custom prefixes
+Release v2.5.2
+Merge pull request #804 from luvit/fixes/add_versions_of_luvi_options
+Pull in pretty-print update from lit
+add versions of luvi options
+bump to 2.5.1
+Merge pull request #803 from luvit/fixes/fix_http_end
+add unit test
+fix(http): call self:finish() on stream _end
+release 2.5.0
+Merge pull request #802 from zhaozg/master
+enhance thread.start accept function or string(lua code)
+Merge pull request #799 from luvit/zhaozg-master
+Update dependencies
+Add thread to deps list for luvit
+Lit exports must come before require calls
+Bump luvi version to 2.3.0 for threading support
+Convert line endings to match rest of project
+Use new luvi API instead of copying lua logic in thread
+add luvit thread support.
+Merge pull request #801 from luvit/fix-once-removal
+Clean up once method
+Reimplement remove to use table and shared metamethods
+Improve emitter tests
+Add test for once removal
+Fix once removal using magic function table
+bump to 2.4.5
+fix(dns): start the read after the send due to a libuv-ism
+Fix iter to not skip nameservers
+Bump versions and publish 2.4.4
+Merge pull request #793 from kaustavha/kaustavha/feat/repl-auto-add-libs
+feat(repl-add-libs): The repl automatically namespaces some of the default libs shipped with luvit now. Mimics what nodes repl does and makes it easier to play with it as a learning tool
+bump to 2.4.3
+Merge pull request #792 from luvit/fixes/handshake_on_error
+fix(tls): shutdown on socket error
+Publish luvit/tap@0.1.1
+Fix uncaught errors in tap
+bump to 2.4.2
+Merge pull request #790 from luvit/fixes/add_close_event_to_spawn
+make sure em.exitCode is populated
+feat(spawn): add close event when all stdio are closed
+Release 2.4.1 with changelog and updated deps
+querystring: Bump version to 1.0.2
+Merge pull request #788 from squeek502/qs-stringify
+querystring: Add tests for stringify
+querystring: Add stringify function
+querystring: urlencode spaces as '%20' instead of '+'
+Publish http 1.2.1
+Merge pull request #786 from squeek502/http-dup-headers
+http: Clean up header comparison style
+Bump luvi/lit version to get new 'rex' module and release 2.4.0
+http: Fix another case of duplicate user-agent headers
+http: Fix duplication of host/connection/user-agent request headers
+Publish updated repl module with stdout fix
+Merge pull request #785 from schwa423/repl
+Use Unix line endings in REPL.  Simple.
+Merge branch 'master' into repl
+Cleaner implementation.
+Release 2.3.4
+Publish changed deps to lit
+Replace print() with stdout:write() in repl.lua.
+Merge pull request #784 from zhaozg/master
+update querystring.lua
+Merge pull request #782 from luvit/fixes/add_travis_backtrace
+add travis backtrace support
+bump to 2.3.3
+Merge pull request #781 from luvit/fixes/process_stdout_destroy_itself
+exit with correct errorlevel and fix windows bug
+fix stream destroy
+bump to 2.3.2
+Merge pull request #780 from luvit/fixes/zombie_processes_on_kill
+fix(childprocess): do not prematurely close the handle
+add a .gitattributes for batch files
+Release version 2.3.1
+Bump fs to 1.2.2
+Merge pull request #778 from luvit/fs-readfile-stream
+Fix typoes.  We don't want undefined globals
+Add support for 'size 0' files where the kernel lies
+Bump tls version to 1.3.0
+Merge pull request #777 from luvit/binary-certs
+Update tls module to use binary root certs
+Finish update script for certs
+Start conversion script
+Show lua sizes
+Bump version to 2.3.0
+Run repl in coroutine and add virtual global 'thread'
+Fix easteregg in repl
+Merge pull request #776 from luvit/header-meta
+Add headerMeta to make http headers smarter (fixes #773)
+Add regression test for http sample on luvit.io (#773)
+Merge pull request #775 from luvit/feat/add_32bit_build_to_appveyor
+Merge pull request #774 from luvit/check/fs_open_non_existant
+add 32bit tests to windows
+use different path
+test: windows nonexistant build
+add #luvit badge
+Bump version to 2.2.8
+Update lit to 2.1.6 and luvi to 2.1.5
+Bump dependency versions
+Make clean target more effective
+Merge pull request #772 from luvit/fixes/add_shutdown_timer
+remove the timer.active's
+tls: add shutdown timer
+Merge pull request #771 from luvit/revert-770-fixes/change_tmp_directory
+Merge pull request #770 from luvit/fixes/change_tmp_directory
+change tmp directory to /var/run
+tag for 2.2.7
+Merge pull request #769 from luvit/fixes/tls_connection_epipe
+fix(tls): on socket shutdown error really destroy
+Revert "change tmp directory to /var/run"
+bump to 2.2.6
+Merge pull request #768 from luvit/fixes/error_objects_in_fs
+tweaks for error objects in fs module
+bump to 2.2.5
+Merge pull request #767 from luvit/fixes/resolv_conf_loading
+fix resolv.conf loading
+Bump version to 2.2.4
+Bump versions
+Cleanup sigpipe ignoring code
+Merge github.com:luvitred/luvit
+Add trim target to Makefile [ci skip]
+Strip more trailing whitespaces
+Merge pull request #765 from zhaozg/master
+Update lit/luvi versions and strip trailing whitespace
+add uid/gid
+fix and test emitter event removals
+fix and test emitter event removals
+fix test errors
+Add support TLS client session reuse
+ignore SIGPIPE
+another try
+try to pass failing test
+don't bind finish
+keep http connections alive
+pump shutdown on destroy
+add uid/gid
+Don't try to run freshly removed handlers
+bump to 2.2.3
+Merge pull request #761 from luvit/fixes/fix_stdout_stderr_wait_for_finish
+stdout and stderr: wait for finish
+2.2.2 release
+Merge pull request #757 from luvit/fixes/tls_socket
+add GITHUB_TOKEN var
+fix(tls): destroy socket on end
+Merge branch 'master' of github.com:luvit/luvit
+wait for the close to make sure the stream is flushed
+Fix stack overflow when terminal width is 0
+Merge pull request #755 from gsick/fix_process_exit_listener
+Merge pull request #756 from gsick/fix_http_write_get_length_of_nil
+fix exception if nil string
+bump versions
+add changelog
+bump lit to 2.1.0
+allow process exit listener
+Merge pull request #754 from luvit/fixes/stdout_stderr_exit
+stdout/stderr flush on exit
+Merge pull request #753 from luvit/fixes/flush_stdout_on_exit
+move the self:emit('exit')
+process: flush stdout on exit
+Don't use require's file cache for module:load() (closes #749)
+require@1.2.1: Allow absolute bundle paths in require
+net@1.1.2: Don't hang if socket already destroyed
+Merge pull request #751 from OptionCloudgate/master
+back out silly change
+Merge branch 'master' of https://github.com/OptionCloudgate/luvit
+allow absolute path require in bundle
+don't hang if destroyed
+allow absolute path require in bundle
+don't hang if destroyed
+Merge pull request #750 from luvit/fixes/load_resolver_non_windows
+fix(init): DNS load resolver on non-windows platforms
+Bump luvit to 2.2.0 with updated lit and luvi
+bump deps
+bump to 2.1.16
+Merge pull request #747 from luvit/fixes/flush_fix
+tweak test
+fix(http): flush res with a nil push
+Merge pull request #744 from luvit/coro-all-the-things
+Merge pull request #746 from luvit/fixes/tls_reads
+fix tls reads
+Add timer.sleep using coroutines
+Add coroutine support to dns queries
+ bump to 2.1.15
+no way to disable colors
+Merge pull request #740 from luvit/fixes/stdio
+fix(childprocess): add stdio options to spawn
+bump lit to 1.3.0
+bump to 1.3.0
+update changelog
+Merge pull request #738 from luvit/fixes/connect_proxy_tls
+fix(tls): export socket and copy _connecting
+Merge pull request #735 from runner-mei/patch-1
+print error message while realRequire failed
+Merge pull request #732 from OptionCloudgate/master
+fix merge issue
+hook all socket functions and assert check for difficult to find bind errors
+add error handler to process
+clear buffer on full read
+fix pause on socket
+add connection upgrade support
+Update luvi again to get sni fixed
+Update tests for fs.mkdirp rename
+Bump version to 2.1.11
+Merge pull request #729 from zhaozg/master
+assign port number for test
+Add changelog for 2.1.9
+Bump version to 2.1.9
+Merge pull request #733 from luvit/fixes/nil_the_root_cas_after_load
+feat(tls): nil the CAs after load
+Update lit@1.2.5, luvi@2.0.6, and luvit@2.1.8
+skip failed test
+skip failed test
+fix some bug on linux
+update test-tls-client-econnreset.lua
+fix handle http encode/decode error
+fix to handle http encode error
+Done to convert all test
+http catch decode error
+have no fiber anymore
+minor fix and clean
+converted test-tls-client-econnreset.lua
+converted a few tls test, need to update luvi(bacause lua-openssl update) to pass test
+add SSL sni support, use lua-openssl https://github.com/zhaozg/lua-openssl/commit/e36165e0317a5c4053e128f3a43b8e9fe7d80d6e
+converted test-tls-remote.lua
+fix bugs in fixture-tls.lua
+important have chance to notice when SSL accepting error
+remove old test-windows-long-path.lua
+change test multicast address from 224.0.0.0 to 239.255.0.1
+Tiny luvit 2.1.7 release to get module:action
+require@1.1.2: Add module:action(path, action)
+Fix deep-equal and bad dep in process
+Add license to luvit package
+Bump version to 2.1.5 and record changes
+Add metadata for lit packages
+Document license in lit metadata
+Document more inter-dependencies
+Document inter-dependencies for luvit core modules (#635)
+Add some metadata
+Publish tap module to lit
+Merge pull request #724 from zhaozg/master
+Revert travis changes.
+Run the right test
+See if gdm is installed in docker more
+Attempt to get stacktrace on segfault in travis
+Update lit version to fix windows build
+Fix extension match
+Revert travis changes.
+Run the right test
+See if gdm is installed in docker more
+Attempt to get stacktrace on segfault in travis
+Update lit version to fix windows build
+Merge pull request #727 from Playermet/patch-1
+Fix extension match
+fix handle tmp dir
+add missing file
+converted test-tls-connect-simple.lua
+converted test-net-buffer-write-before-connect.lua
+converted test-utils.lua
+enhance dump support with recurs and nocolor
+fix bug in test-fs-readfile-zero-byte-liar.lua
+converted test-dgram-multicast.lua
+add dgram.setMembership, dgram.addMembership,  dgram.dropMembership to support multicast
+converted test-fs-truncate.lua
+converted test-fs-readfile-zero-byte-liar.lua
+converted test-windows-long-path.lua
+converted test-fs-long-path.lua
+Changelog for 2.1.4
+bump the modules for 2.1.3
+changelog and bump to 2.1.3
+Merge pull request #720 from luvit/fixes/add_append_file_support
+reset buffer to the leftover data
+fix partial write
+Merge pull request #719 from luvit/fixes/close_on_finish
+add appendFileSync
+Merge pull request #723 from luvit/feat/port_more_tests
+add test-fs-chmod
+open test-buffer.lua on windows
+skip test-fs-truncate.lua
+skip fs-chmod test
+convert test-fs-readfile-unlink.lua
+fix bug when luajit link with static run times lib, eg. /MT link flags
+converted test-fs-truncate.lua
+add fs.truncate and fs.truncateSync
+converted test-fs-chmod.lua
+converted test-fs-utime.lua
+converted test-fs-fsync.lua
+converted test-fs-read.lua
+converted test-fs-exists.lua
+add fs.exists an fs.exitsSync
+converted test-fs-read-file-sync.lua
+converted test-net-connect-handle-econnrefused.lua
+remove tests/to-convert/test-error.lua because test/test-emitter.lua include that feature
+convert test-http-response-error-propagation.lua
+remove tests/to-convert/test-path.lua
+converted test-querystring.lua
+add fs.appendFile
+converted test-http-timeout.lua test
+converted to-convert/test-http-get-url.lua
+converted to-convert/test-url.lua test
+remove old to-convert/test-url.lua test
+remove old to-convert/test-zlib.lua test
+add createWriteStream
+fix(writestream): close on finish
+v2.1.2 release
+Use simple resolve for static asset loading
+Merge pull request #718 from luvit/module-class
+Add proper module global into repl
+Refactor require to use shared prototype for module
+Merge pull request #717 from lduboeuf/patch-2
+fix typo: implementes-> implements
+Merge pull request #716 from lduboeuf/patch-1
+fix tipo: executible -> executable
+Merge pull request #715 from squeek502/fix-readline
+Fix typos in readline's escapeKeysForDisplay
+Merge pull request #709 from squeek502/fix-readline
+readline: Add Editor:onKey test cases
+readline: Fix case where multiple control characters get entered at once
+Merge pull request #710 from squeek502/readline-insert-above
+fix 1mb post
+Merge pull request #712 from zhaozg/master
+fix tests/test-http-post-1mb.lua to pass
+readline: Add Editor:insertAbove to allow output without disrupting the prompt  * Also made the unhandled key print use insertAbove
+Merge pull request #707 from squeek502/fix-readme
+Merge pull request #708 from squeek502/readme-links
+Add links to luvi/lit in the README
+Fix obsolete instructions in the README
+changelog and bump deps for 2.1.1
+Merge pull request #704 from luvit/fixes/pass_all_options
+close on end
+readline: Fix case where multiple characters get entered at once.
+use self.flags for writestream
+pass all options to tls socket creation
+Document querystring dependency for url module
+Merge pull request #703 from luvit/prep/release_2_1_0
+container based builds
+add luvi 2.0.3 to package.lua
+prep release for 2.1.0
+Merge pull request #702 from GabrielNicolasAvellaneda/master
+Added for functionality to the url.parse method and added a test suite for the new and older functionality.
+Merge pull request #701 from luvit/fixes/double_callback2
+fix(net): double callback
+Revert "Merge pull request #698 from luvit/fixes/double_callback"
+Merge pull request #698 from luvit/fixes/double_callback
+Merge pull request #700 from luvit/fixes/remove_encoding
+fix(cleanup): remove encoding
+lint
+sync finish
+call the socket end function
+add finish event again
+fix stream finish
+finish the response after the write
+set callback if not passed in
+close server on client side
+async write
+tweak for windows
+bump lit to 1.1.2
+destroy then call the callback
+fix(net): double callback in net :_write
+Bump versions and add changelog for 2.0.6
+Update to lit 1.1.2
+Merge pretty-print into a single file
+Fix no-color mode (closes #679)
+Merge pull request #695 from luvit/fixes/net_destroy_and_process_once
+fix(net): set uv.close callback
+Merge pull request #694 from luvit/fixes/child_process_errors
+make sure stdout/stderr errors are propagated
+check for is closing
+fix(childprocess): propagate errors through the pipes
+Merge pull request #693 from luvit/fixes/fix_kill_close
+fix(childprocess): close handle on a process kill
+Merge pull request #690 from GabrielNicolasAvellaneda/master
+Changed return value of Emitter:propagate to allow continuation of propagation.
+Added Emitter.propate to propagate and event to a target emitter
+Merge pull request #689 from GabrielNicolasAvellaneda/master
+Minor changes
+Added parsing auth i.e. http://username:password@host.com/
+tls(x509): use the singleton default x509 store
+update socket timeout test for connect change
+Fix connect alias in net module, bump to 2.0.5
+bump to 2.0.4
+Merge pull request #688 from luvit/windows_process
+disable invalid command test on windows
+bump lit to 1.0.3
+Merge pull request #669 from luvit/http_post_error
+remove unused header check from the http ClientRequest
+Clean up the done a little more * We cannot ignore '' within the ClientRequest:Write as the Writable:_end (which is called with '') calls :Write * If we don't send data with the :Write, call the callback
+Don't send empty chunks to the encoder since they are interpreted as EOS
+Don't write empty strings to socket
+Fix the order of the ClientRequest:done to ensure the codec's terminator is sent last.
+Fix ServerResponse:finish, improve tests
+Make the 1MB test pass.
+Fix HTTP chunked request termination, test chunked http requests
+Merge pull request #686 from 5at/master
+added cwd
+Merge pull request #681 from luvit/feat/add_poll_libcurl_example
+Merge pull request #683 from gsick/fix_handle_nil_error
+fix handle nil error
+add libcurl example
+Document changes for 2.0.3
+Bump versions as luvit 2.0.3
+Merge pull request #680 from luvit/fixes/stdin_highwater_mark
+schedule emitter exit for nextTick
+fix(ci): badge banners
+skip usr1,usr2,hup signal test on windows
+set the highwaterMark to 0 on the stdin stream
+fix(stdin): self initial state to reading = false
+process.stdin fixes
+fix(process): returning on stream not flowing is not correct
+Add links to irc and mailing list.
+Bump version to 2.0.2
+Add back text about hacking on luvit and binary modules
+Make README more about this repo and less about the project as a whole
+Add publish script for unix flavors
+Merge pull request #676 from luvit/fixes/emit_exit_event
+fix exit event
+Merge pull request #675 from luvit/fixes/release_buffers_set_mode
+Merge pull request #673 from luvit/fixes/pause_stdin
+tls(mode): pass true to clear the mode
+if stdin is paused then stop reading
+Merge pull request #672 from rjeli/master
+Spelling error in README
+Update README.markdown
+Bump version to 2.0.1 and add changelog entry
+Merge pull request #671 from luvit/tls-read-fix
+Fix issue where sometimes a TLS stream won't emit all it's cleartext.
+Add instructions for getting luvit.
+Merge pull request #666 from luvit/fixes/flush_http
+Merge pull request #667 from luvit/fixes/add_thawte_premium_server_ca
+add(castore): thawte Premium Server CA
+fix(http): flush the stream with an _end()
+Fix 'socket' and 'response' events in http
+Bump version to 2.0.0
+Disable broken prompt example
+Merge pull request #662 from luvit/fixes/net_socket_destroy
+IncomingMessage should be a socket
+Include stack trace in uncaught exceptions during main
+Bump all modules to at-least 1.0.0 and bump luvit to 1.9.9 (2.0.0 release candidate)
+Import version bumps from modules shared with lit 1.0.0
+Clean up init function
+Merge pull request #661 from luvit/fixes/init_lua_rng
+initialize lua rng within init
+Update to lit 1.0.0
+Merge pull request #660 from luvit/fixes/add_build
+building from git section
+Merge pull request #659 from luvit/fixes/remove_all_cruft
+fix(readme): remove the old cruft
+Merge pull request #654 from luvit/fixes/unicode_json
+tweak comparison
+lint + add unicode json test
+Merge pull request #653 from james2doyle/feat/version-flag
+expose package version in -v and --version
+Merge pull request #652 from luvit/v1.9.5-pre
+Bump version to 1.9.5
+lint and cleanup whitespace
+Merge pull request #650 from luvit/feat/process_std_support
+add process.{stdout,stdin,stderr}
+pretty-print@0.1.1: Fix auto-index when printing tables with integer keys
+Merge pull request #649 from luvit/fixes/wrap_readme
+wrap readme to 80 chars
+Merge pull request #618 from luvit/fixes/add_test_fs_readstream
+Cleanup sample usage for stream joystick
+Use Transform in stream example for Joystick
+Fix readStream to support reading from input device
+Add back in old linux-joystick example using fs.open and fs.read
+add more tests for readstream
+add fs.readstring offset and length
+add fs.readstream functionality
+Merge pull request #646 from luvit/update-lit
+Update to luvi with conventions
+Update lit to 0.10.6
+require@0.2.3: Improve error messages for loading binary modules
+Update to http-codec 0.1.5 to get parser fix
+Merge pull request #644 from luvit/fixes/capture_end_of_stream
+Bump version to 1.9.4
+Update lit version to 0.10.5
+Make sure new path is inside the tempdir when loading binary modules
+add test case
+finish and close events
+fixes(http stream): re-emit end event
+Fix more typoes [ci skip]
+Fix typo and link to virgo [ci skip]
+README fix [ci skip]
+README tweaks [ci skip]
+Move badges to top [ci skip]
+Update README [ci skip]
+Update README.markdown
+Add intro section explaining luvit 2.0. [ci skip]
+Fix decoder test to use POST for raw body requests
+Update to lit 0.10.4
+Fix metadata format for new lit scanner
+Merge pull request #639 from luvit/update-deps
+Bump luvit version to 1.9.3
+Bump versions for http and https
+Bump versions for dgram and dns
+Update to http-codec 0.1.4 to fix HTTP/1.0 GET and HEAD requests
+Merge pull request #638 from DBarney/fix/http-client-done-ignored
+done no longer ignores data being passed before the connections is established
+Merge pull request #636 from luvit/new-require
+Update to new require system
+Merge pull request #633 from luvit/https-more-tests
+style cleanups
+Improve URL parsing
+Default a http user-agent if none was given
+Improved URL string conversion for HTTP
+Add more to the HTTP/HTTPS tests * test the stream end
+Merge pull request #634 from luvit/http-lax
+http-codec@0.1.3: Be more lax about terminators when parsing to allow \n in place of \r\n
+Update custom-binary example to use lit and latest luvit API
+Cleanup gitignore and makefile [ci skip]
+Update to luvi 0.7.1 and lit 0.9.9
+Merge pull request #632 from luvit/make-up
+Rename Make.bat to be lowercase
+Move luvit windows make to new style
+Bump versions
+fix(makefile): lint target
+Merge pull request #627 from luvit/http-connect
+Merge pull request #629 from DBarney/fix/http-codec-string-check
+HTTP CONNECT client support and example
+Merge pull request #630 from DBarney/fix/http-client-bubble-error
+errors from the socket are now bubbled up to the http request
+Merge pull request #628 from DBarney/fix/datagram-arg-order
+added an error message when item type is wrong. also returning item if is an empty string
+fixed test to match new order
+empty strings should be trated as nil
+also send should be in the same port,host order
+matching nodejs api
+add lit- to the clean
+Bump lit versions of all changed modules
+Bump version to 1.9.0
+Merge pull request #625 from luvit/library-tidy
+Forward return value to luvi
+don't use the default root store
+Restructure luvit's init to be easier to consume
+Merge app into root
+Bump lit to version 0.9.3
+change set_verify to verify_mode
+Merge pull request #619 from luvit/fixes/add_readdir_test
+add readdir test
+Merge pull request #621 from luvit/fixes/litify
+use -L
+tweak
+Revert "use the new travis docker builders"
+use the new travis docker builders
+litify
+Merge pull request #612 from luvit/http-client
+HTTP/HTTPS functionality, URL library, associated tests
+add test-fs-readfile-empty
+add test-fs-open
+Don't use shallow clone for submodule (ci skip)
+Merge pull request #616 from luvit/fixes/add_fs_write_file_test
+Merge pull request #617 from luvit/fixes/add_test_fs_write
+migrate test : test-fs-write-file
+add test-fs-write-sync
+add test-fs-write
+Merge pull request #615 from luvit/fixes/test-fs-stat
+remove to-convert/test-env... migrated to misc test
+test(stat): migrate fs_stat test
+remove to-convert/test-hrtime.lua
+remove test-signal-handler, implemented in test-misc
+Merge pull request #614 from luvit/fixes/fix_timeout_test
+fix(test): timeout test
+Update rpi binary
+Update binaries to include Raspberry PI
+Merge pull request #608 from luvit/string_extension
+remove __add
+add string extension
+Merge pull request #611 from luvit/fixes/process_kill_and_getpid
+feat(process): kill, getpid, argv, exit
+Update lit and luvi versions
+Tweak makefile for clean clones
+Don't nuke submodule in clean [ci skip]
+Merge pull request #605 from luvit/lit-up
+Use Ubuntu 10.10 build for linux x64
+Use lit in submodule for better version control
+luvit/repo@0.1.1: fix arguments list
+Make luvit target depend on lit target in Make.bat
+Fix path in Make.bat
+Fix package name to luvit/luvit
+Migrate to lit for building
+Use lit instead of luvi to build
+Start to move all modules to lit
+Update to final v0.6.3 luvi (with raspberry pi version) [skip ci]
+bump luvi-binaries to 0.6.3
+Merge pull request #604 from luvit/cleanup/child_process
+further cleanup
+cleanup(child_process): modularize child process
+tweak the artifacts URL
+Merge pull request #602 from luvit/fixes/lints
+lint passes
+fix a lot of lints
+Merge pull request #601 from luvit/fixes/tls_memory
+Merge branch 'fixes/tls_memory' of github.com:luvit/luvit into fixes/tls_memory
+tweak test to begin after 100ms
+bump luvi-binaries
+tweak port number on test
+bump luvi-binaries
+fix(tls): add release_buffers mode
+Merge pull request #600 from luvit/refactor/stream_module
+refactor(stream): move module stream directory
+Merge pull request #599 from luvit/fixes/refactor_stream_module_loading
+clean(stream): requires and exports definitions
+Merge pull request #598 from luvit/fixes/add_writefilesync
+feat(fs): add writefilesync
+Merge pull request #597 from luvit/fixes/close_writestream_on_reopen
+Merge pull request #596 from luvit/fixes/stream_writable_error_object
+don't use property lookups for error object
+fix(fs): close write stream on reopen
+add Error object to stream_writable
+Merge pull request #594 from luvit/fixes/improvements_to_environment
+feat(env): add iteration and clear support
+Update luvi-binaries to v0.6.1
+Merge pull request #592 from grandao/luvi-up
+Fix require on windows 2
+Fix require on windows
+Merge pull request #591 from grandao/luvi-up
+Merge pull request #590 from luvit/http-sugar
+Log if http or https in server example
+fix(lint): luacheck cleanup
+fix(tls): read all pending data
+start https server code
+Merge pull request #589 from james2doyle/patch-1
+fix missing code block ending
+Merge pull request #588 from luvit/http-sugar
+Implement auto chunked encoding for server response
+Re-enable old http-server example
+Update to http-codec@0.1.4
+Add basic http server module with example
+Update to creationix/http-codec@0.1.2
+Merge pull request #587 from luvit/fixes/add_ffi_test
+add expect
+add ffi test
+remove converted test
+Merge pull request #584 from luvit/fixes/add_path
+Merge pull request #585 from luvit/fixes/double_timer_close
+feat(path): add path module
+check for timer that is already closing
+Merge pull request #583 from luvit/fixes/child_process_does_not_exist
+bump luvi-binaries
+Update luvi to v0.5.7 to fix handle leak
+fix(spawn): emit error if cmd does not exist
+Merge pull request #582 from luvit/fixes/add_clear_timer
+add clearTimer for luvit 1.x compatibility
+Merge pull request #581 from luvit/luacheck-fixes
+Add lint make target
+Add luacheck config
+Minor tweak
+More luacheck fixes
+Remove questionable code
+Remove some unused variables/arguments
+Remove unused recursive require and fix typo
+Merge pull request #579 from luvit/fixes/add_tls_client_reject
+Publish dkjson to lit
+remove old server-verify test
+Merge http encoder/decoder into a single package
+Merge pull request #580 from luvit/tweak/dns_resolve_prototype
+export CLASS and TYPEs
+tweak dns prototype
+Split pretty-print code out of utils and put on lit
+fix(tls): peer verification upgraded for lua-openssl
+Add lit metadata to readline and require, publish them there
+Update luvi-binaries to v0.5.6
+Add home/end for cmd.exe in readline
+Update README.md
+Update appveyor badge [ci skip]
+Merge pull request #572 from KennethWilke/luvi-up
+Work around error shape change in lua-openssl
+Update luvi to v0.5.5
+changed example to just close tcp socket
+added signal handler and tcp echo server examples
+Improve readline history logic
+Show real global in repl and run completions through uniq and sort
+Implement completion in the repl
+update luvi to v0.5.4
+Really fix readline on windows thanks to piscisaureus
+Merge pull request #567 from luvit/readline
+Fix readline for windows
+Make prompt assert friendly
+Hook up repl to readline with persistent history
+Add prompt example
+Add Alt + up/down for iterm
+Add page up and page down and cleanup API
+Add Jump left and right for iTerm and Terminal.app
+Support home/end in terminator
+Fix history and add Control+W to readline
+Add readline prototype
+Merge pull request #565 from luvit/feat/null_cipher_test
+tweak
+test(tls): test cipher suite
+Prevent the unit test framework from hanging on some exceptions
+Merge pull request #564 from luvit/fixes/emit_exit_on_nexttick
+emit exit after close
+Merge pull request #563 from luvit/http-decoder
+Update bench to use new http codecs
+Tweak encoder/decoders for http
+Merge pull request #562 from luvit/http-decoder
+Update HTTP test request
+Merge pull request #561 from luvit/fixes/tls_client_verify
+Convert http-codec to decoder style
+fixes
+fix client verify
+Merge pull request #560 from luvit/fixes/tls
+remove old tls code
+tls refactor: server and client working
+Update luvi to v0.5.3
+Fix error handling in repl
+Update luvi-binaries to v0.5.2
+Merge pull request #556 from luvit/feat/process_exit
+Merge pull request #558 from luvit/fix-examples
+Merge pull request #557 from luvit/random-fixes
+Fix some examples, mark others as broken
+Fix custom-binary example to use luvi system
+Fix require scope in repl to act like file in cwd
+Remove test.txt
+Don't write binary modules to disk if they are already there
+Merge pull request #559 from luvit/fixes/disable_dns_windows_test
+disable dns test on windows... (appveyor weirdness)
+comment the hooks module
+add process exit support
+Merge pull request #555 from KennethWilke/luvi-up
+proposed improvements to proxy example
+Properly detect format in require
+Support loading .so/.dll modules from the bundle
+Update native example to compile without old luvit
+Merge pull request #554 from luvit/add_fs_write_stream
+lines added to proxy example for clarity
+simple tcp proxy example using raw uv stuff
+disable write to fd stream
+add writefile stream
+Merge pull request #553 from luvit/fixes/bind
+more robust bind
+Merge pull request #552 from luvit/update-luvi
+Update raspberry pi build to v0.5.1 from 0.5.0 to match the rest
+Update to luvi v0.5.1
+Merge pull request #551 from luvit/tls.connect
+make the global process table an emitter
+tls cleanup and streams tweak
+remove all stream interface
+add tls test
+add abort2 test
+tweak options
+add is_closing to tap.lua
+add tls client abort test
+working tree
+more tweaks... still failing due to lua-openssl
+add rejectunauthorized support
+add ca roots
+use tlsv1_client
+should be a break
+initial pass at tls.connect
+Merge pull request #545 from luvit/process
+add initial process support
+Merge pull request #549 from luvit/add-net-streams
+Merge pull request #550 from luvit/add-vagrantfile
+change to setImmediate
+add vagrantfile
+add net streams
+Fix fs.writeFile helper
+Fix pretty printer for strings with high bytes [ci skip]
+Add install target [ci skip]
+Fix default luvi binary in windows
+Include .exe in windows build
+Merge pull request #544 from luvit/update-luvi
+Update to luvi v0.4.2 with new LUVI_APP/LUVI_TARGET semantics and libuv 1.0.0
+Merge pull request #543 from luvit/fs-tweaks
+Support implicit offsets in fs
+Fix fs {read,write}File{Sync,}
+Update luvi-binaries to get raspberry-pi binaries [ci skip]
+Merge pull request #541 from luvit/helpful
+Add helpful module
+Merge pull request #540 from luvit/codec.emitter
+Update to luvi v0.3.0
+Test the whole emitter wrapper in code
+fixup codec test
+Merge pull request #537 from luvit/fixes/remove_x509_test
+WIP: add wrapEmitter
+Merge pull request #538 from luvit/json_fixes
+fix copyright
+add json module
+remove x509 test
+Merge pull request #536 from luvit/add_tcp_test
+fix copyright and make host var
+feat(tcp): add tcp test, fix nil callback
+Merge pull request #535 from luvit/udp_test_case
+Merge pull request #534 from luvit/add-luvit-module
+cleanup functions
+fix(udp): add unit test and add recvStart/recvStop
+add luvit.run
+add init system
+Merge pull request #533 from luvit/exit-code
+return the exit code
+Merge pull request #532 from luvit/fixes/fix-fs-example
+add global process
+use data
+fix onWrite
+fix fs-example
+Merge pull request #531 from luvit/tls-codec
+Merge pull request #530 from luvit/dns_support
+Fix tls codec
+Port old tls code to new codec
+Tidy up a bit
+fix
+add onError handler
+nil udp messages?
+skip resolver loader on windows
+use do/end block
+one more style tweak
+cleanup
+refactor random seed into initialize function
+add secondary google server
+add resolve.conf loading
+remove timeout from tcp test
+add tcp test
+add timeout support
+use all luvit.io domains
+fix retry function
+add lcrypto and change dns resolver to use secure rng
+seed rng
+initial pass at dns support
+Move adapt into utils
+Organize codecs and themes into sub-folders
+Merge pull request #529 from luvit/add-fs-readfile
+Update luvi-binaries to v0.2.1
+Add fs.readfile and tests
+Merge pull request #528 from luvit/fixes/net_timeout
+if the socket was destroyed then return
+Merge pull request #526 from luvit/port-crypto
+Merge pull request #525 from luvit/add-emitter
+Merge pull request #523 from luvit/http-codec
+Use empty string to signal end of body in http-codec
+Merge head table with headers table in http-codec.
+Add license and docs for cluster benchmark/example
+Allow setting version in server encoder
+Create sample HTTP client
+finish http-codec features
+Move test into cluster benchmark and unit test
+Fix to work with wrk as well
+Fix keepAlive behavior
+Fix error (still not sure why it silently hangs)
+Improve debugging in http-test [ci-skip]
+Add coro version of http codec
+Finish initial http server
+Package codec as duplex to match future tls version [ci skip]
+Add shell to test http-codec
+add error handling
+add crypto test
+indent tweak
+add emitter test
+Merge pull request #524 from luvit/fixes/fix_ecancelled
+fix close
+Merge pull request #522 from luvit/fixes/add-test-socket-timeout-test.lua
+tweak timeout test
+fix(net): add is_closing
+add test-socket-timeout
+Update luvi-binaries to fixed v0.2.0 for Windows and Linux
+Put luvi-up CI badges in Readme [ci skip]
+Update luvi-binaries to v0.2.0
+Lint tweaks to tests
+Merge pull request #518 from luvit/fs-sugar
+Finish wrapping fs operations
+Implement more fs sugar
+Fix coroutine mode and add test
+Initial fs wrapping and test
+Merge pull request #519 from luvit/add-buffer
+remove un-needed imports
+Merge pull request #520 from luvit/add_instanceof_test
+Merge pull request #521 from luvit/add-net
+remove unneeded import
+feat(net/timer): add more timer and network support
+Update luvi-binaries to v0.1.0
+add instanceof test
+add buffer support
+Merge pull request #517 from luvit/timers
+Update luvi binaries to get recent luv fixes
+Move bind to utils, fix copyright headers
+Implement timer module with unit test
+Fix test library to ignore any and all pre-existing handles
+Merge pull request #516 from luvit/fixes/add_hooks
+remove table
+add hooks and core module
+Update to newer luvi to get openssl flavor as default
+Remove unneeded variables in tls example
+Clean up variable names, don't use  for callback
+Clean up example
+Include both styles
+Fix mostly for coroutine style
+Fix tls example
+Fix automated tests
+Almost get TLS working with nice channels
+Fix require on non-windows
+Start on JSON parser
+Fix comment
+Make windows path handling more correct
+Fix appveyor command
+Fix paths on windows
+Fix colors on windows
+Revert to auto-detected color caps after color test
+Add -f to make clean
+Update binaries to get Darwin build
+Re-enable travis using prebuilt luvi binaries
+Remove unused symlinks
+Add Makefile for easy 'building' and testing
+Make module search paths more effecient
+Organize the tests a bit
+Fix dump for non-tty stdout
+Add smart quote test
+Make colors test automated
+Expose strip for utils test
+Fix string escaping to print valid code
+Show usage if invalid flags are passed in
+Import tap library from luv
+Fix colors in main
+Rewrite pretty-printer to be more robust and faster
+Fix repl
+Replace utils with new colors code
+Implement initial version of dump algorithm
+Add notice to README about state of luvi-up branch
+Clean up old luvit stuff not used anymore
+No need to register utils in bootstrap
+Hook up new require system to main
+Implement most of require v2
+Add basic luvi shell for luvit style repl
+Merge pull request #511 from luvit/fixes/fs_call_memory_leak
+fix(fs_call): memory leak
+Merge pull request #508 from luvit/fixes/socket_error
+fix(socket): destroy socket handle on _any_ error
+Merge pull request #507 from luvit/fixes/stream_end_ordering
+Fix: emit write stream "end" after closing the stream * This fixes a race condition where the stream may still be open   after end is emitted and handled
+Merge pull request #505 from IZEDx/patch-1
+getsockname() only returned local ip address
+Merge pull request #503 from luvit/zippy
+Add main hook for bundle
+Fix copyright date and add in more sample files
+Check for tiny binaries and fix zlib bundling
+Interpret . and .. path segments
+Add hook into require system to look in zip bundle
+Add zipreader to core and expose instance as _G.zip
+Merge pull request #502 from luvit/restore_builtins
+Restore lua's builtin debug table
+Merge pull request #501 from luvit/restore_builtins
+Restore basic language builtins
+Merge pull request #500 from DBarney/master
+when compiling on solaris, c99 features are needed.
+Merge pull request #499 from luvit/fixes/binary_to_install
+fix(install): use the correct product for install
+Merge pull request #498 from luvit/fix-gyp-uv-include-install
+Fix the path where libuv headers are installed
+Merge pull request #495 from luvit/fixes/tls_error_cb
+fix(tls): only setup the error callback if non-nil
+Merge pull request #494 from luvit/fixes/econnreset_on_socket
+fix(tls): on socket error, call callback
+Merge pull request #491 from luvit/use-clean-env-in-process-test
+fix(tests):  Use `env` for clean env reading
+Merge pull request #489 from luvit/fixes/is_connected_socket
+Merge pull request #488 from luvit/fixes/add_remove_all_listeners
+feat(emitter): add listeners
+feat(emitter): Add removeAllListeners
+fix(net.Socket): add isConnected boolean
+bump to 0.10.0
+should be 0.8.3
+add ChangeLog for 0.8.2
+Merge pull request #487 from luvit/fix/openssl_bump
+Bump openssl to 1.0.1i
+Merge pull request #486 from luvit/fixes/infinite_loop
+fix the infinite loop hopefully for good
+explicitly only go from 1..i
+Merge pull request #484 from luvit/fixes/add_blurb_for_embedding
+add blurb for embedding
+tweaks for OSX compilation
+Revert "Merge pull request #264 from tim-smart/feature/querystring-stringify"
+Merge pull request #264 from tim-smart/feature/querystring-stringify
+fix(tests): DNS Test needed tweaks
+Merge pull request #482 from luvit/fixes/gnu_source
+add GNU_SOURCE to linux
+Merge pull request #481 from luvit/fixes/only_allow_stringable_objects
+fix utils.dump
+Merge pull request #478 from luvit/fixes/prevent_infinite_recursion
+Merge pull request #480 from luvit/fixes/lua52compat
+add LUAJIT_ENABLE_LUA52COMPAT back
+Merge pull request #479 from luvit/fixes/luvit_32bit
+fix(gyp): 32bit luvit build fix
+add testcase
+prevent infinite recursion
+Merge pull request #471 from luvit/fixes/no_delay_keepalive
+Merge pull request #469 from luvit/songgao/fix_fs_readstream_length
+add changelog for 0.8.2
+Merge pull request #475 from luvit/fixes/util_dump
+fix utils.dump infinite loop on 32bit
+Merge pull request #474 from luvit/release/0.8.1_notes
+add release notes
+Merge pull request #472 from luvit/fix/stream_close
+whitespace fix
+emit an error if write is called after closed
+fix(streams): close the filedescriptor when the stream ends
+add a test case for cf8fec627
+add keepalive and nodelay
+fix a bug related to options.length in ReadStream;
+export path_base module within luvit_exports
+Merge pull request #466 from rjemanuele/fixes/pathing
+fix test-http-parse-error.lua to be a little more concise
+Merge pull request #467 from luvit/fixes/certs
+improve the loading of the default certificates
+fix the unlink test to be a little more robust * file delete on windows is not guarenteed to happen at the api call, lazy delete
+Pathing fixes for Windows
+Merge pull request #465 from luvit/fixes/libuv_bump
+bump libuv to v0.10.27
+Merge pull request #464 from luvit/songgao/emitter_doc
+add some docs regarding to Emitter
+Merge pull request #463 from luvit/fixes/openssl_1.0.1h
+bump openssl to 1.0.1h
+Merge pull request #462 from luvit/songgao/added_emitter_listenerCount
+add listenerCount to Emitter class
+bump openssl
+Merge pull request #458 from luvit/fixes/windows
+bump openssl for windows
+include ssl after luv headers
+Merge pull request #457 from gsick/fix_missing_errors_in_module
+errors table misplaced
+Merge pull request #456 from luvit/fixes/openssl_upgrade_fixes
+fix(ssl-tests): add -tls1 to openssl commandline
+bump openssl for gyp fixes
+Merge pull request #455 from luvit/fixes/bump_openssl_1_0_1g
+bump openssl
+point the travis image to the master branch
+Merge branch 'master' of github.com:luvit/luvit
+add luv_poll.c to gyp
+Merge pull request #453 from luvit/fixes/checkout_cares
+Merge pull request #439 from luvit/features/poll
+perform a gitsubmodule update automatically
+Merge pull request #451 from luvit/bump/uv
+bump libuv to v0.10.25
+Merge pull request #449 from luvit/bump/luajit_2_0_3
+bump(luajit): Bump Luajit to 2.0.3
+Merge pull request #448 from luvit/fixes/freebsd
+fix for linux
+freebsd patch
+Merge pull request #447 from wscherphof/npm
+Trim Whitespace
+npm support
+Merge pull request #442 from luvit/fixes/global_leaks
+Merge pull request #443 from rafis/master
+fix mistake in documentation of core module
+Merge pull request #441 from luvit/fixes/nil_callbacks_for_dns
+fix(global): Fix global leaks
+fix(dns): nil callbacks
+feature(Poll): add poll support
+regen expired tls test keys
+Merge pull request #437 from dalange/patch-2
+changed that MSVC linker whole program optimization does not strip LuaJIT BC symbols
+Merge pull request #436 from luvit/fix/zlib-test-path
+fix: poor use of path join in the zlib test
+Merge pull request #435 from dalange/master
+Merge pull request #434 from dalange/patch-1
+Merge pull request #433 from Kami/emit_parse_error_on_req_object
+Merge pull request #432 from Kami/fix_response_object_error_propagation
+uv_print_*_handles functions are only present in debug version
+uv_print_*_handles functions are only present in debug version
+uv_print_*_handles functions are only present in debug version
+uv_print_*_handles functions are only present in debug version
+fixed generated code to compile with MSVC
+Emit "parse" error on request instead of the response object.
+Modify Response object to correctly propagate 'error' events from the underlying socket object.
+Merge pull request #431 from Kami/use_absolute_paths_in_tests
+Use absolute paths so the tests pass inside chrooted environments.
+Fix a typo.
+Merge pull request #430 from racker/fixes/posix_signal_handling
+Fixes #429: check for __unix__ and __POSIX__
+Update openssl submodule to include arm changes.
+Merge pull request #427 from Kami/update_readme_build_instructions
+Merge pull request #428 from Kami/arm_build_fixes
+Use startswith approach so it also catches other versions of architecture.
+Map armv6l host architecture to arm.
+Add missing command to the build instructions in the README.
+Merge pull request #425 from rjemanuele/libuv_upgrade
+bump libuv
+add changelog 0.7.0
+fix path for cares
+add deps/cares to gitmodules.local
+Merge branch 'master' of ssh://github.com/racker/luvit into upstream-master
+Merge pull request #421 from rjemanuele/cares_fix
+Add cares into the event loop
+Merge pull request #410 from cehoffman/fs_watcher_fix
+Merge branch 'upstream_master' into racker_master
+Merge pull request #419 from rjemanuele/upgrade_libuv
+Libuv and luajit upgrade plus 64-bit windows support
+Merge pull request #417 from norefle/windows-version-fix
+Fix mixed path separators on Windows platform in tools/bundler.lua
+Mixed path separators in 'example/web-app/server' on Windows.
+Merge pull request #412 from rjemanuele/windows_test_fix
+Fix the path basename tests to have specific tests for windows.
+Merge pull request #411 from cehoffman/path_basename_ext_rm
+Implement optional extension removal in path.basename
+Fix missing handle increment on watcher creation
+Merge remote-tracking branch 'upstream/master'
+Merge pull request #409 from rjemanuele/remove_dll
+Do not use a DLL under Windows, statically link.
+Merge pull request #408 from cehoffman/patch-1
+Update to latest luajit
+Remove warning on used uninitialized variable
+Merge pull request #406 from luvit/fixes/path_windows
+fix filepath
+Merge pull request #404 from luvit/features/detached_processes
+add detached process support
+Merge pull request #401 from 5at/master
+Merge pull request #402 from Cloven/master
+automated test for new Process.hrtime
+Adding Process.hrtime to mirror node (and provide a ns-level timer)
+Merge remote-tracking branch 'upstream/master'
+Merge pull request #400 from rjemanuele/long-file-name-cleanup
+comment the test script
+Clean up the long filename test as it functions but Windows doesn't like the long named file for parts of its API.
+Merge pull request #399 from rjemanuele/openssl_test_fix
+wrap the tests in a shell script so that on a properly set up windows build host (one with git for windows installed and *.sh files associated with sh.exe).  this is needed when the tests rely on unix commands like openssl.
+Modified so that "make bundle" works on OsX machines by making it more generic.
+Merge pull request #394 from AndrewTsao/patch-3
+instanceof(everything, nil) == true?
+Merge pull request #383 from rjemanuele/fix-env
+Merge pull request #389 from rjemanuele/upmaster-windows-fix
+Remove duplicate dependencies from the project files. ljamalg.c includes all those files.
+Merge pull request #386 from dvv/patch-1
+make yajl build honor CFLAGS
+Merge pull request #385 from Kami/update_changes
+Make the message one line.
+Make the message shorter, reference the tickets.
+Add info about a timer bug fix.
+Merge pull request #384 from luvit/0.6.0-changelog
+ChangeLog: add 0.6.0 changes
+Handle the environment variable being changed out from under the reading thread.
+Merge pull request #382 from rjemanuele/fix-env
+Fix an error string spelling error and remove an unneeded cast.
+Merge pull request #381 from rjemanuele/fix-env
+fix unused variable
+put the *nix code back.
+Fix reading environment variables and provide a test for it.
+Merge pull request #380 from luvit/fixup-gyp-build-for-luajit
+deps: luajit.gyp: fixup to include new sources
+Update bundled luajit to 2.0.0 stable release
+Bump libuv to latest stable release (nodev0.8.16) and http_parser to much newer version
+Merge pull request #378 from hasufell/master
+fix linking order
+fix dist_build to set Werror to 0 on releases
+fix install rules
+give options for debug symbols and -Werror
+provide options to unbundle more libs
+remove automagic dep on openssl
+Merge pull request #377 from luvit/fix_timer_double_close_issue
+Add a test which demonstrates the problem and fails before my fix (4a6e25394fc53f572f49300b02bc9335eeeba126).
+Fix an issue with closing a wrong timer which could cause the same timmer to be closed twice.
+Merge pull request #375 from piscisaureus/fix-spawn-windows
+windows: fix process spawning
+Merge pull request #374 from luvit/check-ssl-in-puller
+lib: luvit: tls: copy _pull logic from node
+Merge pull request #373 from rjemanuele/crlf-normalize
+Merge pull request #372 from rjemanuele/long-path-fix
+Use automatic text detection for everthing not explicitly set.
+assume everything defaults to text
+additional windows long path edge cases and a test script to cover many simple and edge cases.
+Fix the pattern escape sequence for the derelative function.
+Merge branch 'master' into crlf-normalize
+force the CA and fixtures in test to be treated as binary files, this way the tests work.
+Merge pull request #371 from rjemanuele/long-path-fix
+Re-normalize the repo with respect to CRLF as per https://help.github.com/articles/dealing-with-line-endings
+Remove relative path parts from Win32 long paths as they are invalid.
+Generalize the the lua fs calls to native_uv in a way that the parameters can be modifed.
+stat and rename additions to fs.lua that include the long path fix
+Correct the regexs to be lua style patterns.
+long path fix for windows
+Merge pull request #370 from AndrewTsao/patch-2
+Update .gitmodules
+Merge pull request #369 from rjemanuele/master
+Create a windows case for test-ffi.lua using an approximated signature for SleepEx.
+Merge pull request #368 from rjemanuele/master
+tests/test-fs-chmod.lua - Change windows specific checks to use os.type as the other tests do instead of process.platform.
+Merge pull request #366 from luvit/move-to-luajit-on-luvit
+gitmodules: move to a mirror of luajit on github
+Merge pull request #365 from rjemanuele/master
+Make this test open the file with the same parameters used in node.js.  Then the truncate calls work.
+Merge pull request #364 from rjemanuele/master
+Merge remote-tracking branch 'upstream/master'
+Merge pull request #363 from racker/revert-remove-shutdown-in-clear-text
+Revert "lib: tls: remove unused function"
+Change the stats table call to accept a uv_statbuf_t* instead of a struct stat* because the struct stat does not use a 64 bit value for size.
+Merge branch 'master' of github.com:luvit/luvit
+Merge pull request #362 from racker/uncolorize
+support no colorization on utils.dump
+Merge pull request #359 from douyw/patch-1
+Update api.markdown
+Merge pull request #358 from racker/on-close
+tests: test-http-timeout: the http code now throw socket hang up
+emit error on http clientrequest ...
+Merge pull request #357 from racker/fixup-streams
+lib: luvit: tls: implement end and done
+lib: tls: use nextTick instead of setTimeout
+lib: tls: remove unused function
+lib: net: Socket: set destroyed earlier
+lib: net: implement Socket:done
+luvit: net: Socket: remove bizarre pipe implementation
+luvit: core: pipe: copy didOnEnd logic from node
+uv: stop using closed and use close
+tests: test-tls-remote: fixup to match node
+net: Socket: don't shutdown if destroyed
+Revert "Fix broken stream reading."
+Merge pull request #353 from racker/luv_on_close
+Fix broken stream reading.
+Merge pull request #350 from greenITea/master
+Merge pull request #352 from racker/add_fs_stat_macros_windows
+change _MSC_VER to _WIN32
+Merge branch 'master' of https://github.com/luvit/luvit
+undo whitespace changes
+moved windows data macros to luv_portability.h
+luacryto bump
+Merge pull request #351 from luvit/fixup-compiler-warnings
+Added S_IS* macros for windows to flesh out the fs.stat struct
+luv_process: fix two compiler warnings
+src: luv_tls_conn: fix compiler warning
+add get and set functions for UID/GID on POSIX OS
+Merge pull request #348 from luvit/fix-fverify-luacrypto
+Bump to latest stable libuv matching node-v0.8.11
+Merge branch 'master' of github.com:luvit/luvit
+Merge pull request #349 from racker/fix-extend
+Object:extend now works as expected.
+Merge branch 'master' of github.com:luvit/luvit
+deps: lcrypto: check for errors in fverify and friends
+deps: lcrypto: check for errors in fverify and friends
+luvit: tls: remove spaces on an empty line
+Merge branch 'master' of github.com:luvit/luvit
+dns-tests: use luvit.io
+Merge pull request #341 from kengonakajima/master
+Merge pull request #347 from AndrewTsao/patch-1
+forget to free req when tcp connect failed
+Merge pull request #346 from racker/https-server
+Merge pull request #345 from racker/fix-tests
+Fix broken tests/runner
+Makes a https server easier...
+SyncWriteStream breaks _G.len
+Merge remote-tracking branch 'upstream/master'
+revert uv
+Merge remote-tracking branch 'upstream/master'
+return 0 from luv_close
+Merge remote-tracking branch 'upstream/master'
+Merge pull request #340 from luvit/fix/double_closes
+bugfix: check for closing handle
+Tidy up new stream example
+Add new stream, new fiber, and new continuable examples
+disable the multicast test for now
+Fix typo in web-app example
+Merge pull request #335 from AndrewTsao/master
+replace tabs with spaces to maintain a cindent style.
+Add two hello benchmark apps
+Copy web demo into examples folder
+Fix path.join to remove inner slashes when joining
+Merge remote-tracking branch 'upstream/master'
+Merge branch 'master' of https://github.com/racker/luvit
+Merge branch 'master' of github.com:luvit/luvit
+http: fix Host and chunking
+remove gettop() and assert, add a test case that create a socket handle in fiber.
+Merge pull request #338 from hnakamur/fix_error_utils_colorize
+Fix an error occurs in utils.colorize when string is nil.
+fixed #319
+Merge pull request #310 from hnakamur/test-fs-utime
+Merge pull request #333 from luvit/allow_stdin_close
+Only close stdin if its not already closed -- allowing apps to close stdin if they wish
+Port test-fs-utime from node.js
+Merge pull request #329 from hnakamur/good-if-style-in-fs-tests
+Merge pull request #331 from luvit/fix_o_sync_windows
+win32: remove O_SYNC from windows
+Merge remote-tracking branch 'upstream/master'
+Merge branch 'master' of https://github.com/racker/luvit
+Merge pull request #330 from luvit/add_unref_ref_to_handle
+references: add ref/unref functions to Handles
+Use good-style if-statements (avoid one-line if-statements).
+Merge pull request #326 from hnakamur/test-fs-truncate
+Merge pull request #328 from hnakamur/test-fs-append-file
+Merge pull request #327 from hnakamur/test-fs-write-sync
+Port test-fs-append-file from node.js
+Port test-fs-write-sync from node.js
+Port test-fs-truncate from node.js. Add fs.truncate(Sync) and modify fs.ftruncate(Sync).
+Merge pull request #316 from luvit/fix-ffi-on-gyp-build
+Port test-fs-long-path from node.js
+Merge pull request #325 from hnakamur/instanceof
+Merge pull request #324 from hnakamur/test-fs-readfile-zero-byte-liar
+Merge pull request #313 from hnakamur/test-fs-write
+luajit: enable FFI flags
+tests: test-ffi: initial commit
+Merge pull request #306 from luvit/fix_udp_on_64bit
+Add super to Object.meta. Add instanceof to core.
+Merge pull request #320 from hnakamur/test-fs-append-file-sync
+Remove the 'utf8' arg.
+Merge pull request #315 from hnakamur/test-fs-read
+Merge pull request #318 from hnakamur/test-fs-fsync
+Merge pull request #321 from hnakamur/test-fs-read-file-sync
+Merge pull request #322 from hnakamur/test-fs-readfile-empty
+Merge pull request #323 from hnakamur/test-fs-readfile-unlink
+Port test-fs-readfile-zero-byte-liar from node.js
+Port test-fs-readfile-unlink from node.js
+Port test-fs-readfile-empty from node.js
+Port test-fs-read-file-sync from node.js
+Port test-fs-append-file-sync from node.js
+Port test-fs-fsync from node.js
+Port test-fs-read from node.js
+Port test-fs-write from node.js
+udp: fix 64bit
+Merge pull request #298 from hnakamur/ignore-dirty-submodules
+Merge pull request #301 from hnakamur/test-fs-stat
+Fix slashes in url in copyright.
+Fix require('FS') to require('fs')
+Fix fs.open to support fs.open(path, flags nil, callback)
+Port tests/test-fs-stat.lua from node.js
+Merge pull request #290 from luvit/add-readdir-test
+Merge pull request #300 from luvit/test-tls-client-econnreset
+tests: test-tls-client-econnreset
+luv_process: ensure handle is not null
+luvit: uv: Stream: guard against writing to closed stream
+tests: test-net: double destroy the handlle
+luvit: uv: Handle: set _closed when closed received
+tests: runner: do recursive remove on tmp
+Ignore dirty submodules.
+Merge pull request #291 from hnakamur/test-fs-write-file
+Merge pull request #292 from hnakamur/test-fs-exists
+Merge pull request #293 from hnakamur/test-fs-open
+Merge pull request #296 from hnakamur/test-fs-chmod
+tests: test-fs-chmod and fixtures ported from node.js
+Support 'rs' and 'rs+' for flags in fs.open()
+Support omission of mode when callback is also omitted.
+tests: test-fs-open ported from node.js
+tests: test-fs-exists ported from node.js
+tests: test-fs-write-file ported from node.js
+tests: test-readdir: initial commit
+Merge pull request #289 from luvit/bump-libuv-to-0.8-base
+tests: test-net: ensure double close returns error
+luvit: net: Server: clear _handle to nil
+luvit: timer: avoid double close
+luvit: uv: Handle: avoid double close on handles
+common.gypi: remove GCC_VERSION on OSX
+luvit: uv: remove stdin pauseNoRef()
+tests: test-socket-timeout: use luvit.io
+luvit: uv: Timer: replace ref logic with close
+debug: add support for displaying all or active handles
+luvit: uv: Process: stop opening pipes
+test-dns: note why we are calling deprecated functions in test
+luv_process: upgrade to libuv 0.8
+common.gypi: bump to OSX backwards compat to 10.6
+lib: luvit: bind to new uv_ref/uv_unref signatures
+deps: uv: bump to v0.8 branch
+UDP support
+Fix memory leak in utils.bind
+Fix utils.bind to preserve nil arguments and optimize for basic case
+Merge pull request #285 from hnakamur/install_target_for_gyp
+set default value for '--prefix'
+use the variable luvit_prefix for installation target directories.
+Add an install target for the gyp build system. After running 'make -C out', run 'sudo make -C out install'.
+Merge pull request #279 from coolaj86/patch-1
+Merge remote-tracking branch 'upstream/master'
+Merge pull request #284 from luvit/fixes/dns_assert
+bugfix: dns crash in getaddrinfo
+Merge pull request #278 from luvit/pull-out-dist-build
+Merge remote-tracking branch 'origin/master'
+Merge pull request #282 from Kami/dont_call_pause_no_ref_on_pure_lua_stream
+Don't call pauseNoRef whenn operating on a file which uses pure lua implementation of a stream.
+Don't call pauseNoRef whenn operating on a file which uses pure lua implementation of a stream.
+updated style
+allow the user to pass in a nil timer
+Makefile: introduce dist_build target
+Merge pull request #276 from luvit/process-title
+lib: Remove useless conditional in process __pairs metamethod
+Merge pull request #275 from luvit/remove-next-tick-http-onSock
+Merge pull request #274 from luvit/fixup-Process-stdout-stderr-setup
+lib: Add magic process.title getter/setter property
+lib: luvit: http: remove nextTick from onSock
+lib: luvit: uv: fix setup of stdout/stderr
+lib: luvit: uv: get tests running again by fixing stdin pause
+Merge branch 'add_pause_resume_to_tty'
+lib: luvit: refactor the stdin pause logic
+lib: luvit: uv: implement pause/resume
+stdin: really? ick
+add comment to luv_read_stop_noref
+add comment for pauseNoRef()
+add a readStopNoRef function
+Revert "unref"
+Revert "stdin: really? ick"
+Revert "lib: luvit: uv: implement pause/resume"
+Revert "lib: luvit: refactor the stdin pause logic"
+Merge pull request #272 from luvit/add_pause_resume_to_tty
+Merge remote-tracking branch 'origin/master' into add_pause_resume_to_tty
+lib: luvit: refactor the stdin pause logic
+lib: luvit: uv: implement pause/resume
+stdin: really? ick
+windows: fix build
+unref
+Merge branch 'add_pause_resume_to_tty' of github.com:luvit/luvit into add_pause_resume_to_tty
+stdio: testing on windows
+windows: fix build
+Merge remote-tracking branch 'upstream/master' into add_pause_resume_to_tty
+tty: add pause and resume
+Merge pull request #271 from luvit/fixup-buildsystem-after-luajit-bump
+deps: luajit: disable dynasm line number insertion on windows
+deps: luajit: fix 64 bits and windows
+deps: luajit: fix luajit build for gyp
+Merge branch 'coro-sugar' of github.com:luvit/luvit
+Call uv_setup_args() in main. Fixes getProcessTitle()
+Call uv_setup_args() in main.  Fixes getProcessTitle()
+Wrap uv_(get|set)_process_title
+Upgrade to luajit v2.0.0-beta10-62
+Merge pull request #265 from luvit/add-build-info-to-readme
+Tidy up querystring.stringify
+Add order array option to querystring.stringify
+README: add build instructions
+Add querystring stringify, url{en|de}codecomponent
+Merge pull request #263 from mhart/patch-1
+Updated release version - looked like it was a bit out of date?
+Merge pull request #255 from hnakamur/add-Buffer-toString
+Merge pull request #233 from mjohnsullivan/master
+Merge pull request #259 from luvit/fix-make-clean
+Makefile: make clean misses zlib and lcrypto
+ChangeLog: 0.5.0
+Merge pull request #256 from luvit/features/improve_http_module
+http: Rewrite the http client to be node-like
+Merge pull request #257 from luvit/coro-sugar
+Make fiber sugar more useful.
+add Buffer:toString(i, j)
+Only run files that start with test, not just contain test.
+it's VERSIONISH for gyp. meh
+fix gyp tarball
+fix make tarball
+Merge branch 'fix_dns_ipv4_ipv6'
+Merge branch 'release_0.3.2' into release_0.4.0
+move dns.isIP* to net.*
+add API changes
+release: changelog: fixes #247
+Use a double for now too, so we can use it on 32bit machines instead of just 64
+tcp: fix handle reference for ipv6
+Merge pull request #246 from luvit/fix_ipv6_resolver_new
+dns: fix ipv6 resolver
+Merge pull request #244 from luvit/fix-gyp-build-on-linux-and-windows
+tools/gyp: bump with warn on duplicate fix
+gitmodules: use luvit/gyp
+Merge pull request #242 from luvit/gyp-as-submodule
+tools: gyp: use a submodule
+Merge pull request #240 from racker/tls_context
+lib/luvit/tls.lua: Changed function call to createCredentials in connect()
+lib/luvit/tls.lua: Added code to tls.connect() to allow for context import
+Merge pull request #239 from luvit/fix_hrtime_types
+HRtime is a double, lets put it into luvit as a double
+bump openssl
+Merge pull request #237 from racker/add-callback-state-saver
+Move skinny confiugration to configure
+Default luvit_skinny to false
+Upgrade OpenSSL
+luv_stream: convert to use luv_callback_state
+utils: introduce luv_callback_state
+Merge pull request #236 from Kami/fix_http_request_without_body
+Be consistent - remove extra line break.
+Make sure chunk is a string.
+Add headers for getpid()
+memset options structure to prevent use of unset members
+If avail_in is 0, rc could be unset
+Merge pull request #235 from Kami/url_parse_parse_query_string
+Remove print statements.
+Upgrade zlib
+Add tests for url.parse.
+Add parseQueryString argument to the url.parse so it matches signature in node.
+Merge branch 'master', remote-tracking branch 'origin/master'
+Merge pull request #232 from racker/fileWritetype
+lib/luvit/fs.lua: Added error that breaks if non-string is passed to writeFile
+Added tests that the files/directories being deleted by the uninstall target are in fact the correct types (i.e. a file or a directory)
+Makefile updated with tests for both install and uninstall. The general test target will now also run these tests.
+Added uninstall to the Makefile
+Merge pull request #230 from luvit/getpid
+luvit.lua: retrieve PID directly from native.getpid()
+tests: process: test for non-nil pid
+luv_portability: windows: define getpid as _getpid
+luvit.lua: map process.pid to native.getpid()
+Merge pull request #226 from luvit/fix-assert-functional
+luvit_init: remove function call from assert()
+fix build on windows
+Merge pull request #223 from luvit/fix-string-gc-in-fs-write
+luv_fs: fix gc of string during a fs.write
+Merge pull request #221 from luvit/add-exit-code
+luvit: add process.exitCode
+Merge branch 'master' of github.com:luvit/luvit
+change hrtime to be in resolution of milliseconds
+Merge pull request #216 from luvit/test-tls-client-reject
+tests: test-tls-client-reject.lua initial commit
+lib: tls: add error handling for missing servername
+lib: tls: _pusher return -1 when ssl is nil
+Merge pull request #215 from luvit/hookup-tls-errors-to-lua
+tls: hookup passing back the error string to lua
+Merge pull request #214 from alFReD-NSH/patch-1
+tls: use a global root_ca_store
+fix the root_certs
+Revert "free the x509 store"
+Updated the version in README.
+Merge branch 'master' of github.com:luvit/luvit
+free the x509 store
+Fix make bundle
+Store line numbers when bundling luvit
+Fix regular makefile for most linuxes
+Merge pull request #213 from radare/master
+Fix make bundle
+Merge pull request #210 from luvit/add-more-tls-tests
+tests: test-tls-connect-simple: do two connections
+tests: test-tls-client-abort2.lua: add
+Merge pull request #208 from bnoordhuis/sunos
+test: .gitignore tmp dir
+build: fix build on solaris
+Merge pull request #202 from luvit/standardize-build.py-spacing
+Merge pull request #204 from luvit/add-debug-info-to-luajit
+luvit.gyp: add -g flag to luajit
+tools: build.py: fixup spacing to use 4 spaces
+fix: yajl.gyp on windows. closes #192
+Use the more portable uintptr_t number type for storage in void* data
+Fixes for strict compiler (and fix auto-close)
+Merge pull request #201 from luvit/fix_windows_tests
+fix environment passing and get openssl tests running on windows
+Merge pull request #193 from luvit/remove-end-from-api-docs
+Merge pull request #200 from dvv/master
+Merge pull request #199 from Sh4rK/master
+fix for upgraded protocols
+Remove unnecessary asserts
+tests: fix windows tests
+Merge pull request #196 from Sh4rK/master
+C89 compatibility + fixes
+Merge pull request #195 from luvit/luv_handle
+Add start of luv_handle based userdata refactor
+Merge pull request #194 from luvit/remove-tls-semicolons
+lib: tls: remove semicolons
+api.markdown: remove instance of :end()
+Merge pull request #190 from luvit/unref_json_fix
+unref the json object
+tests: timer: verify timer timeout
+Merge branch 'master' of github.com:luvit/luvit
+use local
+add recursiveTimer test
+Merge pull request #189 from twojcik/master
+added os.clock to os luvit os module
+prep changelog for 0.3.1
+lib: luvit: fix double error in net
+Merge branch 'master' of github.com:luvit/luvit
+add TODO
+Merge pull request #188 from twojcik/master
+copy all libuv header files when installing luvit
+cleanup interval correctly
+add clearTimer changelog entry
+Merge pull request #186 from luvit/fix_clear_timer
+fix clearTimer and add test
+move the libraries to the end
+build fixes for ubuntu 11.10
+remove retvalString since it isn't used
+fix comment from node
+fix Vladimir's name and retab to spaces
+Merge pull request #185 from racker/master
+lib: tls: remove debugging print in emit
+add changelog
+Merge pull request #184 from racker/fixup-stream-destroy
+lib: streams use destroy() instead of close() and make tests pass
+lib: net: make streams use destroy() instead of close()
+lib: tls: fix test-tls-client-abort test
+use isEmpty
+remove debug statement
+Merge remote-tracking branch 'origin/master' into fix_timer
+fix timers taking a reference within the event loop
+fixes
+more timer changes
+Merge pull request #183 from racker/enable-tls-tests
+tests: tls: enable tls tests
+Merge pull request #182 from luvit/fix_timer
+Merge pull request #181 from racker/fixup-socket-error-handling
+add test and fix timer for multiple timeouts
+tests: add test-net-connect-handle-econnrefused
+lib: net: fixup error handling for socket
+lib: luvit: add process.nextTick function
+fix process:on('exit'... within the tests
+add test-tls-peer-certificate
+add test-tls-junk-closes-server
+add socket address test
+fix windows
+add tls request timeout test
+Merge pull request #179 from hasufell/master
+split flags
+accidentally moved the luajit pin
+make insert private
+timer improvements
+add tls-session-cache test
+add test-tls-server-verify
+add tls_server_verify_test
+add sni support and debug support
+Fix zlib dep in Makefile
+Look for the right file in zlib's dep
+Don't nuke zlib when creating a tarball
+Add local gitmodules for openssl and luacrypto
+Update to latest luajit
+it works locally
+fix order of deps
+fix dep on luacrypto
+fix the dependency on zlib
+suppress the error string if pkg-config doesn't exist
+fix warning and error on incompatible pointer type
+Merge pull request #175 from radare/fixmake
+Merge pull request #174 from racker/move-luacrypto
+Fix build with make (openssl and luacrypto issues)
+deps/luacrypto: use the luvit/luacrypto repo
+Merge pull request #173 from racker/stop-using-white
+lib: utils: stop using Bwhite and add B color
+Merge pull request #172 from racker/create-tmpdir-in-runner
+tests: runner: create tmp dir in runner
+Revert "tests: test-pipe: fix for windows"
+Merge pull request #171 from luvit/free_yajl_contextes
+Merge pull request #168 from luvit/connect_buffer
+use userdata for json objects
+Merge pull request #170 from racker/test-pipe-fix-on-windows
+tests: test-pipe: fix for windows
+deps: luacrypto: bump to fix windows
+Merge pull request #163 from racker/add-luacrypto
+fix DEFINES and CFLAGS on release
+add test
+buffer writes before connect
+windows fixes for zlib
+Merge branch 'master' of github.com:luvit/luvit
+fix build on windows
+Merge pull request #167 from racker/sync-write-stream
+lib: fs: add WriteStream and implement fs.createWriteStream
+deps/luacrypto: add a crypto library
+bump openssl for 32bit fixes
+Merge branch 'free_yajl_contextes'
+fix build with upstream
+fix build with upstream
+free json contextes
+Merge pull request #165 from dvv/zlib
+zlib binding added, with stream interface
+Add http benchmark examples
+Merge pull request #161 from dvv/master
+test for iStream:pipe()
+amend typo
+extract Response:done(), to be used in iStream:pipe()
+Merge branch 'master' of gh:luvit/luvit
+http.Server: do not die on sudden error conditions
+obj:removeListener(name, nil) removes all listeners for name
+listen(): allow for specifying backlog size
+keepalive: sudden EPIPE fixed
+Show the actual error from the http parser
+fix 32bit builds
+Detect architectures not yet supported, and exit out, rather than continuing silently.
+Handle more architectures, mapping them ia32.
+improve Connection: logic, for `ab` is HTTP/1.0!
+really serve Connection: keep-alive
+really serve Connection: keep-alive
+do not pass empty data chunks to http_parser
+do not pass empty data chunks to http_parser
+Fix uv version in dep
+Initial Implementation of keepalives for http.
+Update dependencies
+Merge pull request #158 from radare/master
+Autodetect system openssl. make USE_SYSTEM_SSL=0
+Merge remote-tracking branch 'upstream/master'
+fixed for windows build
+Merge pull request #154 from dvv/master
+Merge branch 'master' of gh:luvit/luvit
+allow chaining for emitters
+added catchall error handler
+Do not polute global namespace with useColors and fix typo
+update color constants on luvit -n
+Merge pull request #157 from radare/master
+fix repl parse error handling issue
+Merge pull request #155 from radare/master
+Do not polute global namespace with useColors and fix typo
+update color constants on luvit -n
+Merge pull request #153 from luvit/build_tls
+fix submodule
+add makefile support for tls and bump openssl dep
+pointed to right openssl headers
+expose openssl version
+build with openssl
+Merge pull request #148 from luvit/tls
+Merge remote-tracking branch 'origin/tls' into tls
+use retry when debugging is turned off
+Merge pull request #151 from dvv/master
+tweak callback declaration
+chunked encoding for http.request
+add connect simple test
+use original openssl without the header tweaks
+move tls tests to their own folder
+set the callback in the net module
+back out ssl changes to makefile
+first unit test passes!
+fix some errors and add the root certs
+fix a warning and include the right include paths
+fix typo
+add dvv's patch
+add test-tls-set-ciphers
+add openssl locking and init + bug fixes
+add doesnt_throw test
+add test-tls-client-abort
+wire up bindings
+fix root_cert header file
+add addCACert
+get rid of a stopping point comment i made
+more consistent license blocks
+fix spacing -- from comment
+add license header to luv_tls.h
+cleanup luvit_exports
+add TLS source
+provide a fallback include/
+Merge pull request #145 from Skomski/better-worker
+prettier
+Remove quotation marks
+Least-loaded worker
+Merge pull request #144 from racker/add-os-path-objects
+luvit: path: add os path modules
+don't nil out _handle quite yet
+Merge pull request #143 from racker/add_drain
+fix to use istream
+Merge remote-tracking branch 'origin/master' into add_drain
+http.request: update method overriding
+remove r2
+use upstream uv version
+Change Server to emit a Socket instead of a raw handle
+only call :done() if it exists
+pass a Socket() instead of a low level handle
+add support for drain and writeQueueSize()
+add drain
+http.request: fix connection callback signature
+buffer writes to unconnected yet http stream
+http upload test honors listen is async
+typo fixed
+typo fixed
+Merge pull request #142 from dvv/dvv/upload
+even more symmetricity -- request should also support upgrade
+source formatting
+expose http bugs
+make end and error handlers one-time, to not finish parser twice
+make request and response more symmetrical
+do not set chunking mode if chunk is empty
+do not parse empty chunks. either this, or remove the same from the server code
+added note on headers order
+request.upgrade was handled earlier
+do not double-close on error; first finish parser, in case of error handler is undefined
+fixed typos
+Merge pull request #141 from racker/use-os-agnostic-rel-paths
+Fix luvit --cflags to work with the native example
+modules.require: make relative paths for require the same no matter the platform
+Don't try to install a file that doesn't exist
+Clean up --libs and --cflags
+Merge pull request #140 from dvv/cflags
+remove excess debugging statement
+make luvit report building flags
+remove net2
+Update examples to match luvit.io
+Add link to mailing list
+Update README to match luvit.io
+Update http examples for new API
+Turn off LUA_USE_APICHECK and lua debugging symbols by default.  Also don't put zlib in tarball yet
+Sort modules in generated luvit_exports for deterministic output
+Update README to use new HTTP API
+Make host optional in net.Server:listen()
+Remove net2
+Update generated API docs
+Fix fs-streams.lua example to point to a file that actually exists
+Fix error reporting for error C generated error objects
+Merge branch 'master' of github.com:/luvit/luvit
+Merge pull request #137 from luvit/refactor_http
+Merge pull request #139 from racker/bump-libuv
+bump libuv to include windows fix
+bump libuv
+Merge branch 'master' of github.com:luvit/luvit
+Merge pull request #138 from racker/fix-tests-on-windows
+luvit: module: use path.join
+luvit: path: don't normalize in path.join
+tests: fixup for windows
+refactor http
+Merge branch 'master' of github.com:luvit/luvit
+luvit: uv.lua: Pipe:new takes ipc param not fd
+Fix bundled search paths
+Merge branch 'master' of github.com:luvit/luvit
+Fix modules search paths
+FIxup for linux
+Fix . -> : in Pipe:new()
+Add missing require in module.lua
+Merge branch 'fix_windows'
+Merge pull request #129 from racker/fix-windows-tty
+HACK: fix repl on windows
+luvit: fix path/fs in windows
+luvit.lua: don't use tty on windows
+lib: luvit: luvit.lua: use OS_BINDING.type()
+don't use colors when output is not to a TTY
+Add -n, --no-color option flag
+fix dependencies. be explicit
+move the header generation and copy to a new target
+force static_library for yajl
+add all target
+use luvit target
+generate MSVS 2010 project and use msbuild
+fix gyp build
+Fix luvit-config for the recent uv->uv_native API change
+Merge pull request #130 from Kami/freebsd_build_fixes
+Collapse wrappers for Tcp, Stream, and Handle too
+Collapse native methods for Process, Tty, Udp, and Pipe
+Remove function layer from Timer methods
+Include latest generated API docs
+Fix typo in comment
+Rename old uv module to uv_native. Move all libuv types into the new uv module.
+Commit newapi.txt notes
+Remove isIP function from net, they are already in dns
+Fix a bug in gyp - flock shouldn't be used directly it should reference a variable which uses different flavor of flock depending on the os.
+Update mapping to include freebsd 9 and 10.
+Merge branch 'master' into freebsd_build_fixes
+s/Node/Luvit/g
+Remove semicolons, it's lua not javascript
+Commit API stubs for a very node-like net module
+Update bundled bype to r1201
+Fix build options for freebsd.
+Fix typo.
+Add tarball target back
+Add zlib to tarball's gitmodules.local
+don't ignore the luvit_exports.* for now
+Merge branch 'master' of github.com:luvit/luvit
+Clean up stream file
+Close streams on error
+restore luvit_exports and fix luvit.gyp
+Merge branch 'master' of github.com:luvit/luvit
+clear the socket connectTimer
+Merge pull request #124 from dvv/master
+Merge pull request #123 from dvv/patch-4
+JSON tests added
+Use camelCase in joystick example
+Use -1 for null offset in fs.read
+Update API docs
+Update joystick example to new API
+Update the other examples
+Remove require example, the unit test is better
+Update fs examples
+Don't try to load exports file in non-bundle build
+Ignore generated exports files
+Add bundle make target
+Add process.execFile
+Remove exports functions
+Add writeFileSync
+Replace assert with error instance safe assert
+Show error message in syntax errors
+typo
+Merge pull request #122 from dvv/patch-3
+update readme to conform new API
+Add back in install target
+Move library yet again, but make more robust
+Rename lib to modules
+Add back in test and api make targets
+Don't bundle lua scripts in binary
+Merge pull request #121 from dvv/patch-2
+Merge pull request #120 from dvv/patch-1
+Merge pull request #119 from dvv/patch-3
+delegate error events from http parser to higher levels
+fix Stream:shutdown signature, to properly delegate to userdata
+Emit "end" for http.Response
+fix c89 in vector.luvit and build issue with gyp
+fix the depenendencies with gyp
+Clear up use_null logic
+Don't force options.use_null
+Don't make options requires for JSON.parse
+Merge pull request #118 from dvv/patch-2
+lib/json.lua: tough typo fixed
+Dynamically allocate the ports used for network based tests, starting at 10001
+Merge branch 'master' of github.com:luvit/luvit
+Add a very simple http test
+Merge pull request #117 from dvv/patch-1
+Merge branch 'master' into builder_for_vector
+clarify if and use size_t for lengths
+Fix potential use of uninitilized variables
+bug in parser -- no headers were reported
+point to the correct binary on windows
+fix gyp
+Include pre-rendered API docs for viewing on github
+Really the rest
+The rest of the object refactor
+Remove modules that were rolled into 'core'
+Add IRC hook to .travis.yml
+Add iStream stub to core
+Add Handle, Error, and Stream to core
+Put core comment near declaration
+Add core to the build and add in Emitter and Handle to core
+Put new object system in 'core'
+Fix doc-parser for camelCase refactor
+Merge pull request #113 from dvv/master
+make api should depend on lib/*.lua, be phony and not stage result
+Fix json to allow encoding numbers as keys.  Also add streaming parser helper
+Add linux-joystick example
+Merge pull request #111 from dvv/master
+add travis support
+Merge pull request #100 from dvv/patch-10
+Merge pull request #110 from tim-smart/consistent-style
+add swap files to gitignore
+remove temporary swap file
+Clean up naming conventions.
+Snake to camel case.
+Don't filter out section headers
+Add api make target
+Make doc parser a little more robust
+Unify format of a couple libraries so docs parser can consume them
+Write doc parser for luvit
+Don't require building a binary addon in normal test suite
+add target to gyp for vector library
+Add zlib as dep in preperation for bundling it
+upgrade libuv
+Merge branch 'master' of github.com:luvit/luvit
+Handle that windows produces luvit.exe
+Fix global leak
+Fix 32bit readers in buffer
+Fix compile issue
+If we had any tests that failed, exit 1 instead of 0
+Merge branch 'windows_fixes'
+Add buffer module
+Merge branch 'master' of github.com:luvit/luvit
+Make emitters preserve insert order of listeners
+or netdb for that matter
+windows doesn't have pthread.h
+fix indent
+windows fixes
+Merge pull request #103 from racker/c89
+c89 conversion
+Update luajit and libuv
+Add more methods to the buffer prototype
+Add more methods to Buffer class
+Add __ipairs metamethod for Buffer types
+Add basic mutable buffer
+Make Error instances tostringable
+Add Emitter.prototype:wrap() to help event emitters deal with callbacks in the prototype
+Normalize the path before checking the module cache
+Merge branch 'master' of github.com:luvit/luvit
+bump http-parser
+Merge pull request #99 from racker/add_export_dependendent_settings
+Allow nil offsets for FS.read
+Lookup luajit version too
+Update deps versions
+Fix more examples
+Fix native example
+Update Sdl example for new oop syntax
+Fix request and response
+update deps
+use less probable port for tests
+add luvit_exports
+Merge remote-tracking branch 'racker/fix_gyp_build' into add_export_dependendent_settings
+fix dependent_settings
+fix gyp build
+Begin to fix http
+Add watcher type and update example
+Fix coroutine example
+Allow for non-userdata streams
+Fix net test
+Update test-utils to use new OOP library
+Fix a couple tests
+Fix test runner and Process:spawn()
+Get most of the refactor working again
+Require :new for fiber to be consistent
+Use :new for stream in fs
+Fix a couple typos in the timer module
+More OOP refactor
+Document object tree API
+Fix build
+More refactor
+Making progress on oop refactor
+Refactor error.lua to use new objects
+Fix typo in object.lua
+Clean up method signatures in emitter
+Refactor Emitter
+Add object and handle modules to exports hack
+Add object and handle modules in prep for object system rehaul
+More -lrt flag for linux
+Merge pull request #96 from racker/fix_rt
+fix rt on osx
+Merge pull request #95 from racker/fix_dns
+fix dns support
+Merge pull request #93 from mmalecki/configure-error-message
+Don't print "Done" when error occured
+Link in system libraries after all our other libs.
+Add JSON and querystring in both GYP and the exports
+Merge branch 'master' into cleanup_gyp_build_osx
+Add license headers and rename to be consistent with the rest of the api
+Merge branch 'luvit_as_a_library' of github.com:racker/luvit into luvit_as_a_library
+add missing headers
+Make init and exports part of the base lib
+Merge branch 'master' into luvit_as_a_library
+add creation of static library for luvit
+Merge pull request #91 from dvv/bind
+Merge remote-tracking branch 'upstream/master' into luvit_as_a_library
+Merge remote-tracking branch 'origin/master' into luvit_as_a_library
+debugging stmt removed
+Merge pull request #90 from dvv/bind
+Utils.bind: signature reverted, to match usual; flaw with mangling bind_arg is fixed; tests added
+tweak help -on --arch
+Merge remote-tracking branch 'origin/cleanup_gyp_build_osx' into cleanup_gyp_build_osx
+remove target_arch within gyp_luvit
+remove generated file
+add --arch option to configure
+cleanup build on osx
+Merge pull request #83 from dvv/patch-7
+accomodate for the latest http_parser -- excess parser:finish() removed
+do the suck it in from the library side, no need for it in main
+use size_t to reduce warnings
+Add a hack to suck in all byte code symbols on all platforms
+Compile libluvit as a shared library.
+Improvements to portability and accessing environ on OSX when compiled as a shared library.
+Add hard dep on lua itself so include paths get setup righ
+options.gypi is generated by configure
+Remove generated file
+Split the library out from the main executable.
+Put the Lua State first to be more consistent
+Start splitting out the main function from the init/running of luvit
+Update luvit.gyp to handle new OS module and VERSION changes
+Add tcp keepalive and nodelay
+Don't kill local VERSION variale
+Add binding for auto number port too
+Add bindings for http_parser_parse_url
+Add proper version for http_parser
+Proper version for uv too
+Don't conflict with built-in YAJL_CONFIG
+Add proper versions for yajl and luajit too
+Clean up work dir after making tarball
+Get version from makefile
+Better tarball target
+Add tarball target for makefile
+Clean up temporary 'os_binding' module
+Copy over os.time as well
+Copy over os.date from built-in os module into new os module
+Fix luvit-config to work on Darwin/OSX
+Add OS module
+Merge branch 'master' of github.com:luvit/luvit
+Merge pull request #81 from dvv/patch-6
+allow lua-config.lua work with symlinked luvit binary
+Merge pull request #80 from racker/add_cross_platform_test_execution
+add invalid command
+add functionality to build.py for testing
+Merge pull request #78 from racker/lyajl_fixes_windows
+Merge pull request #68 from racker/upgrade_http_lib
+fixes for windows
+Merge remote-tracking branch 'racker/add_bind_to_utils_new'
+add test file
+ad bind to utils
+restore dependency
+add assertion function and fail string
+give us status as we go along
+update gitignore
+add test runner to makefile
+add initial pass to a test runner
+Return all results in json parsing (Useful for allow_multiple_values=true flag)
+Don't link yajl makefile, copy it
+Use copy instead of link for yakl makefile
+fix the crash and cleanup
+fixes for http.lua
+Merge branch 'master' into upgrade_http_lib
+just pass data along
+Merge remote-tracking branch 'upstream/master'
+Merge pull request #72 from racker/change_license
+Set Socket._connecTimer to nil after it has been closed
+Set Socket._connecTimer to nil after it has been closed
+use startswith and endswith
+fix bug in lame_sed
+going to test lame_sed on windows
+include lyajl.c and whitespace cleanup
+integrate gyp and yajl
+Merge pull request #67 from racker/integrate_yajl_gyp
+Add lyajl to gyp build
+Use Apache 2.0 License consistently throughout luvit
+Move git submodule step out on it's own
+Merge pull request #70 from dvv/master
+JSON fixed
+upgrade http
+Clean up old crufty argument that doesn't work anyway
+Make dependency on yajl dep sooner
+Remove yajl example
+Implement print_callback os yajl generator
+Implement JSON.stringify()
+Add null support
+Add JSON.parse wrapper
+Fix yajl bindings
+Commit current state of yajl.  Not working
+use startswith and endswith
+fix bug in lame_sed
+going to test lame_sed on windows
+include lyajl.c and whitespace cleanup
+integrate gyp and yajl
+Making progress on yajl bindings
+change to connectionCallback
+add clear_timer to close method
+call close
+emit an error
+include helper in test
+style nits
+add unit test and fix various things
+add net.lua to gyp
+fixed for tcp-echo-client
+change tcp example to use net
+add server support
+add net.connect
+add bytesWritten and bytesRead
+cleanup
+remove set to nil
+remove unneeded functions
+cleanup
+much better
+remove prototype
+add timeout support
+use super.meta
+tweak inherits
+beginnings of net module
+Stub out yajl bindings
+Update http-parser and libuv
+Merge pull request #66 from dvv/patch-3
+Merge pull request #64 from racker/add_isIP_support
+Merge pull request #63 from dvv/master
+lua variable scope fixed
+add bogus ip check
+add isIP support
+fixed querystring.parse to support custom delimiters
+attempt at drafting deep_equal for tests
+Merge branch 'master' of github.com:luvit/luvit
+added basic unit test for querystring
+Merge pull request #62 from dvv/master
+Merge pull request #60 from racker/dns_support
+refactor errors
+check for explicit ARES_SUCCESS
+remove the macro
+basic querystring helpers added
+http connect fixed
+finish porting to luv_get_loop
+set the channel and loop within the lua_State
+migrate code to luv_portability
+add portability header
+move AF_INET and friends to constants
+fix stdin/stdout on windows
+cleanup
+use uv_cwd
+fix snprintf on windows
+another windows fix
+windows fix
+node returns an array for cname
+force getaddrinfo to call the callback with an error
+only return a string on cname
+fix cname
+cleanup
+add more tests
+add the rest of the DNS helper functions
+check status codes of ares callback
+fix gethostbyaddr
+add beginnings of dns module and test
+implement getaddrinfo
+add getHostByAddr
+add SRV
+add TXT support
+add NS
+add mx
+Add CNAME suppor
+add AF_* exports to lua
+add IPv6 support
+dns support
+Break Stack.mount into Stack.mount and Stack.translate
+Add comment for uri parsing in Stack.mount
+Revert uri change in stack, it was right
+Merge branch 'master' of github.com:luvit/luvit
+Fix inverted backwards condition
+Merge pull request #59 from dvv/patch-1
+Fixes for Darwin x86_64
+get rid of magic while handling multiple headers, or headers containing spaces choke `flush_head`, since regexp is wrong for such headers.
+Put in hook for C modules to find their path by traversing package.loaded
+Merge pull request #55 from racker/add_error_class
+remove prototype
+Merge pull request #53 from radare/master
+add error class to luvit
+Add deinstall/uninstall target
+Merge pull request #52 from racker/fix_parallel_build
+fix parallel build
+Merge pull request #51 from racker/features/windows_build
+fix build on linux
+remove generated file
+cleanup whitespace
+tooling for windows
+add automatation helpers
+Fix gyp build for some macs
+Update message to show right make command
+Merge pull request #50 from racker/features/gyp_build_system_squashed
+Merge remote-tracking branch 'remotes/upstream/master' into features/gyp_build_system_squashed
+ia32 on windows for now
+reformat
+fixes for linux
+Gyp build for windows, linux, osx
+Add in missing bin folder
+Bump version to 0.1.4
+Add luvit-config tool to make building addons easier
+Put versions on the process table
+Merge pull request #46 from dvv/master
+Merge pull request #48 from mmalecki/path-dirname-fix
+Make `Path.dirname` work with paths ending with slashes
+Add basic tests for `path` module
+fixed probable dependency on host Lua
+added options to save debug info
+Bump version to 0.1.3
+Update uv and luajit deps
+Merge pull request #45 from mmalecki/echo-client-example
+TCP echo client example
+Minor tidy
+Don't git pull on every make, only if the deps are missing
+Merge pull request #43 from racker/issues/lenv
+fix tabs
+Merge remote-tracking branch 'remotes/upstream/master' into issues/lenv
+Fix environment for windows
+Use ipairs to iterate over arrays
+Update luajit and http-parser
+Fix __filename
+Add initial version of http client
+Update deps and fix make clean bug
+fixed misterious assertions, and realpath()
+ENOTDIR is also considered a not found file
+Add near easteregg
+Bump version
+Fix require to use proper file paths for the require caches
+Make symlink test harder
+Fix typo in test
+Clean up require and implement package.lua main lookup
+Support for non-tty input (pipes or files)
+Add more robust loading of .luvit files (fixes OSX)
+Ignore compiled files in git
+Clean the native example too
+Remove literal matches from require search path
+Update libuv
+Update example in README
+cleanup
+environment is inherited unless explicitly set
+fixed polluting typo
+fixed number of args expected by Fs.rename()
+fixed malloc() bug in process.c
+Merge pull request #36 from craigbarnes/master
+Remove unnecessary DESTDIR variable from Makefile
+stupid merge.. honor DESTDIR
+Get rid of the sed hack. Luajit build configuration is now in root's Makefile
+wtf again
+Oops
+Merge remote-tracking branch 'upstream/master'
+Ignore double sed issue
+Do not strip binary on OSX only.
+Do not strip when installing to bypass an initialization issue
+Tag version
+Remove extra slashes in install dir
+Don't get to fancy with sed, linux didn't like it
+Merge pull request #31 from radare/master
+Oops. I mean CoreServices instead of CoreFramework
+Use CoreFramework instead of Carbon to build on OSX Based on https://github.com/MSch/luvit/commit/2910b9925f03ea57561f4f02b4d4570580d0044b
+Fix build on OSX (force i386, luajit fails on osx-x86-64) Honor MAKE, CC, LDFLAGS, DESTDIR, PREFIX and BINDIR variables Handle luaL_newstate() initialization error Fix double sed on luajit Makefile
+Don't use deprecated lua_open
+Update luajit and uv versions
+Update deps
+Get around on_alloc not working
+Update sdl example to work again
+Attempt to make reading a socket work with ffi
+Get ffi sample writing to a socket
+Get enough of ffi working to listen on a port
+Make some progress on ffi version of uv
+Update luajit to get ffi callbacks
+Update uv
+Merge pull request #25 from racker/windows-port
+Merge pull request #24 from racker/updates-for-libuv
+Port luvit to Windows. Most changes are to make everything compile under C89, by declaring data before code.
+fix order of params
+unsetenv doesn't have a return value on many platforms
+uv_fs_event_init now has an extra flags param
+Pipe connect returns void
+Add experiment with ffi
+Add failing unit tests for the rest of require's functionality
+Simplify native example to not require exotic external libraries
+Small Tidy of module search path logic.  We can assume dirname is normalized
+Wait for pending writes to finish before closing the http response
+Don't rely on Debug.getinfo().source, it's unreliable.  Instead create a dirname aware require for each module
+Allow underscores in builtin modules
+Remove Emitter.prototype:add_listener
+Don't exclude the cache lookup
+Don't use the builtin loader for anything other than simple names, it gets confused and breaks stuff
+Don't use `code` for headers, it looks bad on github
+Start writing API docs
+Update luajit
+Add sample stack app
+Implement Stack.compose and Stack.mount
+Add stack library
+Clean up tests even more
+Only show test results for failed test
+Pretty up test runner results
+Tidy
+test/ -> tests/
+Add test suite
+Organize the unit tests
+Fix typo in test
+Write our own require function that caches properly
+Add checks in module test
+Add module test
+Clean up command-line stuff a little more
+Allow more options after a -e option
+Add proper command-line arguments
+Fix loop getting skipped
+Use the new FS.read_file_sync to load modules
+Tidy
+Remove extra line at start of repl
+Add better error reporting for FS_* exceptions and add FS.read_file_sync
+Implement FS.exists and FS.exists_sync
+Wrap core fs_* functions with forced sync and async wrappers
+Implement sync versions of fs_* on the C side
+Exit from luvut, not gtk
+Add example of native addon
+There is a difference between a missing .luvit module and a broken one
+Fix up module loading paths
+Implement a basic Path.resolve
+Get stack traces for errors on the first tick too
+Update libuv to 179f475 to match node v0.5.10
+Implement bundled module search algorithm
+Implement absolute requires, but is pending a fix to loadfile
+Implement a more robust relative require
+Update CGI parity notes
+Add CGI parity notes
+Add lua to the mime database
+Update uv and luajit
+Remove bad file
+Add logic to guess if there is content and adjust auto headers accordingly
+Give upgrade requests access to the raw client if they want it
+Fix a couple response bugs and add auto content-type
+Add mutable headers for easier middleware
+Add in completion callbacks into the response methods
+Fix a typo in emitter.js to fix remove_listener
+If only one function in a module is loaded, don't reference the entire module
+Fix a typo in a comment
+Make response auto headers configurable via prototype for finer grained control
+Make the auto headers configurable
+Tidy
+Fix chunked encoding
+Merge branch 'master' of github.com:creationix/luvit
+Implement auto headers and chunked encoding.  Also response:finish()
+Fix http uploads
+Fix upload example to not dump the actual data
+Implement 100-continue
+Clean up custom emitter hooks and fix nasty http event bug
+Don't use private APIs in the repl
+Try another possible solution for upgrade
+Don't hold open the event loop for signal handlers
+Update uv ane luajit
+Update examples
+Possible fix for upgrade events
+Add special __filename and __dirname magic getters to the global environment
+Add Path.join
+Implement getcwd
+Add initial implemention of path module
+Speed up debug lookup to get caller's file
+Make relative requires be relative to the file that required them
+Add tcp_nodelay implementation till libuv implements it properly
+Ignore SIGPIPE and exit cleanly on SIGTERM and SIGINT
+Implement user configurable signal handlers
+Fix signal handler to not segfault
+Attempt to capture signals
+Fix the rest of the async error handlers
+Clean up error handling for file watcher
+Allow namespaced access to raw timers
+Remove a couple examples
+Don't pcall the event source, it's trusted
+Clean up existing error handling for async errors
+Mark what needs to be done for async errors
+Don't kill dofile yet
+Create a process global and move some stuff to it
+Merge pull request #10 from mmalecki/test-tcp
+Add simple test for TCP server and client
+Allow passing extra args to callback functions
+Implement luv_udp_set_membership
+Speed up Utils.dump()
+Add start to SDL example
+Get actual stack traces on event source errors
+Add an upgrade event to help with websockets
+Fix type on event name
+Emit end in the right place, and it's more reliable
+Emit end on http requests
+Implement check_type
+Fix makefile for Fedora
+Change luv_emit_event to remove the userdata before calling the function so it works in coroutines
+Add asserts to luv_acall for sanity checking
+Add timeout in the coroutine mix to show it's not just FS operations
+Clean up coroutines
+Implement part of UDP
+Update uv and luajit
+Update comments and todo list
+Implement process module for spawning and killing child processes
+Remove junk lines
+Clean up read stream a little
+Fix typo
+Add range support in file streams
+Keep evaluate_line from leaking into the global
+Remove freenode.txt, we have our room now
+Add in initial version of Stream.prototype.pipe
+FIx a nasty concurrency bug caused by global functions
+A bunch of changes including a mostly working http static file server
+Fix type on http server example
+Add mime to the makefile
+Make extensions case insensitive
+Fix broken chain in streams
+Add mime library
+Clean up read stream a little
+Add FS.create_read_stream
+Add len to FS reads too
+Don't bake coroutine wrapper into fs module itself
+Speed up Utils.dump considerably
+Update graphviz docs to have request and response
+Use the existing len argument
+Rafactor HTTP module to use unified streams
+Clean up lua code a little
+Don't hardcode the ip and port in tcp
+Update examples
+Add create_server wrapper for tcp servers
+If 'error' events happen and there is no listener, then throw them
+Status is never useful in streams, don't send it to the lua layer
+Move docs into own folder
+Add types graph
+More unified APIs for EventEmitter hierarchy
+Add unified TCP library
+Allow userdata wrappers to be used as self in userdata methods
+Give even more info on stream results
+Give meaningful error messages after write in streams
+Rename fs_after to be after_fs like the rest of the system
+Move FS error handler formater to utils so streams can use it too
+Update uv
+Update uv
+Clean up and refactor fiver and event stuff
+Improve print to take any type and pass event name to event_source
+Close the lua_State in error too
+clean up luvit.lua
+Hook into lua side event hook
+Make the callback optional for write and update
+Remove printfs
+Fix all async callbacks to always call from the main thread
+Drop events in suspended threads for now
+Create a single helper for event sources
+Treat warning as errors
+Add a lua based event source
+Too many pcalls happening
+Turn on API checks in the makefile, we're still developing
+More lua style cleanup
+Clean up the color API
+Update uv
+More cleaning up and unifying the terminal I/O
+Tidy up lua code
+Add env sugar with virtual table `env`
+Fix deps for fresh clone
+Implement env module
+Don't create process global, just make argv a global itself
+Move execpath to be lua accessible
+Factor out misc functions into own file
+Stub out process and clean up a little
+Commit pipe_* and a bunch of other random stuff
+Implement event_emitter:once
+Implement uv_ref and uv_unref
+Update uv
+Implement tty module and make repl non-blocking
+Implement timers
+Add basic event emitters for program logic
+Implement FS.read_file and FS.write_file
+Update uv
+Stub out timer functions
+Update uv
+Clean up and mark remaining uv function to wrap
+Implement fs_watcher type
+Add freenode.txt to prove I own this project and claim the #luvit room on irc.freenode.net
+Add docs for fs_watcher type
+Add examples testing fs.readdir
+Fix fs_readdir
+Use built-in luaL_error
+Implement more fs_* functions (readdir, symlink, readlink, fchmod, chown, fchown)
+Implement a bunch more fs_* functions (fsync, fdatasync, ftruncate, sendfile, chmod, utime, futime, lstat, link)
+Implement fs_rename and fs_fsync
+Move fiber function into fs module.
+Update libuv version
+Make sure coroutines don't swallow errors
+Add a saner coroutine wrapper in the example
+Update title in README to match project description
+Add proper error routing for fs_* functions
+Add looping to coro example
+Add FS wrapper module for easier use
+Implement fs_stat and fs_fstat
+Stub out the rest of the fs_* functions
+Move stuff around
+And finally factor out ttp stubs
+Factor out pipe functions into own files
+Factor out udp stubs
+Factor luv_stream out into it's own files
+More refactoring, pull out tcp and handle
+Factor fs code into it's own file
+Get coroutines working for fs_* async functions
+Add more debugging to the coro example
+Add color for threads too
+Attempt at using coroutines to serialize async operations
+Add repeating fs test to look for memory leaks
+Refactor the fs_* stuff a little
+Update uv to get proper error messages for fs_*
+Fix build for 32-bit linux and fs_* functions
+Factor out commoncallback stuff from fs_* functions
+Use strings for file permissions mode
+Clean up dumping code a little
+Add a blocking repl to the executable.  TODO: make non-blocking
+Add process.exec_path
+Implement fs_mkdir and fs_rmdir
+Escape backslashes and null characters in dump
+Implement fs_write
+Implement fs_unlink
+Implement fs_read
+Implement fs_open and fs_close
+Stub out some of the FS functions
+Add jit link to help building
+Change to MIT since more people know that
+Update uv
+Implement the rest of the TCP functions
+Remove spaces
+Implement the rest of the stream methods
+Milestone. works as shebang interpreter
+one more tweak
+Clean up Makefile a little more
+Fix Makefile
+More attempts to embed the lua scripts
+Supress a warning for now
+Attempt to bundle lua scripts into binary
+Remove a debug line
+Clean up makefile a little
+Builtin libraries should be in the path
+Update deps
+Update examples in prep for builtins to be in path
+Try to embed the standard library in the binary
+Move to luajit from git
+Update README
+Organize code in prep for built-in libs
+Update uv
+Less segfaults
+Stub out more stuff
+Fix indentation
+Fix formatting of TODO.markdown
+Re-order TODO sections to make more sense
+Fix naming of some udp functions
+Stub out more functions
+Organize types and properly assign methods to right userdata types
+Clean up markdown in TODO list
+Add TODO notes to keep myself sane
+Minor refactor and error message cleanup
+Update libuv
+Organize the uv bindings and make them more 1-1 with the uv_* functions they call
+Go back to using luaL_register for lhttp_parser.c
+Remove an annoying printf in the raw C webserver
+Fix title in README
+Update the README
+Add ISC license
+Rename project and update submodules
+Fix another memory leak
+Plug a major memory leak thanks to valgrind
+Keep stack stable and add asserts to ensure no bugs
+Get basic HTTP hello world working at 20280.21 request per second!
+Get full TCP echo server working
+Fix bug so stack works again
+Syncing up
+Reading from client is now working
+Get a TCP server listening
+Implement more luv
+Make colors be names so it can be used externally
+Start to implement luv
+Tidy up dump output
+Clean up main.lua
+Add much better value dumping
+Fix so builtins are no longer stomping on global
+Add in missing lua files
+Clean up lua code and add response sample
+Remove cruft comments
+Clean up logging in sample code
+Finish initial implementation of http_parser bindings
+Implement more of the http_parser bindings
+Implement enough to get parsing events to printf statements
+Clean up the code
+Implement part of http_parser.new
+Update libuv
+Update libuv
+Fix .gitignore
+Start binding by exposing the version numbers
+Build aith APICHECK for now while developing addons
+Refactor.  It's starting to take shape
+Update to latest libuv
+Strip trailing spaces
+Working libuv http server updated to latest API
+Get more stuff building right
+Fix bad paths
+Start to use lua
+Ignore built files
+Add proper makefile dependency on lua
+Add basic file that links against bundled lua
+Bundle source for LuaJIT-2.0.0-beta8
+Initial Commit

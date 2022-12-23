@@ -1,0 +1,274 @@
+Fix wrong struct access for member.
+patch 9.0.0155 Problem:    No test for what patch 9.0.0155 fixes. Solution:   Add a test. Fix typos.  (closes #10822)
+patch 9.0.0032: in the quickfix window 'cursorline' overrules QuickFixLine
+Fix duplicated code that only appears in git.
+Fix vim.desktop generation.
+Fix missing patch number.
+patch 8.0.1353: QuickFixCmdPost is not used consistently
+patch 8.0.0800 Problem:    Terminal window scrollback contents is wrong. Solution:   Fix handling of multi-byte characters (Yasuhiro Matsumoto) Handle             empty lines correctly. (closes #1891)
+patch 8.0.0653: the default highlight for QuickFixLine is not good
+Fix duplication of patch.
+patch 8.0.0089 Problem:    Various problems with GTK 3.22.2. Solution:   Fix the problems, add #ifdefs. (Kazunobu Kuriyama)
+patch 8.0.0072 Problem:    MS-Windows: Crash with long font name. (Henry Hu) Solution:   Fix comparing with LF_FACESIZE. (Ken Takata, closes #1243)
+Fix patch applied twice.
+patch 7.4.2320 Problem:    Redraw problem when using 'incsearch'. Solution:   Save the current view when deleting characters. (Christian             Brabandt) Fix that the '" mark is set in the wrong position. Don't             change the search start when using BS.
+patch 7.4.2299 Problem:    QuickFixCmdPre and QuickFixCmdPost autocommands are not always             triggered. Solution:   Also trigger on ":expr", ":cbuffer", etc. (Yegappan Lakshmanan)
+patch 7.4.2291 Problem:    printf() handles floats wrong when there is a sign. Solution:   Fix placing the sign.  Add tests. (Dominique Pelle)
+patch 7.4.2288 Problem:    MS-Windows build instructions are clumsy. "dosbin" doesn't build. Solution:   Add rename.bat. Fix building "dosbin".
+patch 7.4.2137 Problem:    Using function() with a name will find another function when it is             redefined. Solution:   Add funcref().  Refer to lambda using a partial.  Fix several             reference counting issues.
+patch 7.4.2090 Problem:    Using submatch() in a lambda passed to substitute() is verbose. Solution:   Use a static list and pass it as an optional argument to the             function.  Fix memory leak.
+patch 7.4.2068 Problem:    Not all arguments of trunc_string() are tested.  Memory access             error when running the message tests. Solution:   Add another test case. (Yegappan Lakshmanan)  Make it easy to run             unittests with valgrind.  Fix the access error.
+patch 7.4.2060 Problem:    Wrong file name. Solution:   Fix typo.
+patch 7.4.2026 Problem:    Reference counting for callbacks isn't right. Solution:   Add free_callback(). (Ken Takata)  Fix reference count.
+patch 7.4.1979 Problem:    Getting value of binary option is wrong. (Kent Sibilev) Solution:   Fix type cast.  Add a test.
+patch 7.4.1949 Problem:    Minor problems with the quickfix code. Solution:   Fix the problems. (Yegappan Lakshmanan)
+patch 7.4.1929 Problem:    Inconsistent indenting and weird name. Solution:   Fix indent, make name all upper case. (Ken Takata)
+patch 7.4.1922 Problem:    Ruby 2.4.0 unifies Fixnum and Bignum into Integer. Solution:   Use rb_cInteger. (Weiong Mao)
+patch 7.4.1918 Problem:    Not enough testing for parsing viminfo lines. Solution:   Add test with viminfo lines in bad syntax.  Fix memory leak.
+patch 7.4.1897 Problem:    Various typos, long lines and style mistakes. Solution:   Fix the typos, wrap lines, improve style.
+patch 7.4.1780 Problem:    Warnings reported by cppcheck. Solution:   Fix the warnings. (Dominique Pelle)
+patch 7.4.1751 Problem:    Crash when 'tagstack' is off. (Dominique Pelle) Solution:   Fix it. (Hirohito Higashi)
+patch 7.4.1700 Problem:    Equivalence classes are not properly tested. Solution:   Add tests for multi-byte and latin1. Fix an error. (Owen Leibman)
+patch 7.4.1689 Problem:    Ruby interface has inconsistent coding style. Solution:   Fix the coding style. (Ken Takata)
+patch 7.4.1660 Problem:    has('patch-7.4.1') doesn't work. Solution:   Fix off-by-one error. (Thinca)
+patch 7.4.1502 Problem:    Writing last-but-one line of buffer to a channel isn't implemented             yet. Solution:   Implement it.  Fix leaving a swap file behind.
+patch 7.4.1479 Problem:    No testfor ":loadplugin". Solution:   Add a test.  Fix how option is being set.
+patch 7.4.1460 Problem:    Syntax error in rarily used code. Solution:   Fix the mch_rename() declaration. (Ken Takata)
+patch 7.4.1444 Problem:    Can't build with JSON but without multi-byte. Solution:   Fix pointer name.
+patch 7.4.1443 Problem:    Can't build GTK3 with small features. Solution:   Use gtk_widget_get_window().  Fix typos. (Dominique Pelle)
+patch 7.4.1432 Problem:    Typo in button text. Solution:   Fix the typo. (Dominique Pelle)
+patch 7.4.1429 Problem:    On MS-Windows, when not use renderoptions=type:directx, drawing             emoji will be broken. Solution:   Fix usage of unicodepdy. (Yasuhiro Matsumoto)
+patch 7.4.1412 Problem:    Compiler warning for indent. (Dominique Pelle) Solution:   Fix the indent.
+patch 7.4.1366 Problem:    Typo in test and resulting error in test result. Solution:   Fix the typo and correct the result. (James McCoy, close #650)
+patch 7.4.1319 Problem:    Tests fail on MS-Windows and on Unix with GUI. Solution:   Fix unregistering.
+patch 7.4.1283 Problem:    The job feature isn't available on MS-Windows. Solution:   Add the job feature.  Fix argument of job_stop(). (Yasuhiro             Matsumoto)
+patch 7.4.1275 Problem:    Build fails on MS-Windows. Solution:   Fix wrong #ifdef.
+patch 7.4.1273 Problem:    assert_false(v:false) still fails. Solution:   Fix the typo.
+patch 7.4.1212 Problem:    Can't build with Motif. Solution:   Fix function declaration.(Dominique Pelle)
+patch 7.4.1209 Problem:    Can't build with Athena. Solution:   Fix function declarations.
+patch 7.4.1131 Problem:    New lines in the viminfo file are dropped. Solution:   Copy lines starting with "|".  Fix that when using :rviminfo in a             function global variables were restored as function-local             variables.
+patch 7.4.1113 Problem:    Using {ns} in variable name does not work. (lilydjwg) Solution:   Fix recognizing colon.  Add a test.
+patch 7.4.1097 Problem:    Looking up the alloc ID for tests fails. Solution:   Fix the line computation.  Use assert_fails() for unlet test.
+patch 7.4.1093 Problem:    Typo in test goes unnoticed. Solution:   Fix the typo. Give error for wrong arguments to cursor().             (partly by Hirohito Higashi) Add a test for cursor().
+patch 7.4.1075 Problem:    Crash when using an invalid command. Solution:   Fix generating the error message. (Dominique Pelle)
+patch 7.4.1071 Problem:    New style tests are executed in arbitrary order. Solution:   Sort the test function names. (Hirohito Higashi)             Fix the quickfix test that depended on the order.
+patch 7.4.1057 Problem:    Typos in the :options window. Solution:   Fix the typos. (Dominique Pelle)
+patch 7.4.1041 Problem:    Various small things. Solution:   Add file to list of distributed files.  Adjust README.  Fix typo.
+patch 7.4.933 Problem:    Crash when using longest completion match. Solution:   Fix array index.
+patch 7.4.915 Problem:    When removing from 'path' and then adding, a comma may go missing.             (Malcolm Rowe) Solution:   Fix the check for P_ONECOMMA. (closes #471)
+patch 7.4.885 Problem:    When doing an upwards search without wildcards the search fails if             the initial directory doesn't exist. Solution:   Fix the non-wildcard case. (Stefan Kempf)
+patch 7.4.819 Problem:    Beeping when running the tests. Solution:   Fix 41 beeps. (Roland Eggner)
+patch 7.4.782 Problem:    Still a few problems with CTRL-A and CTRL-X in Visual mode. Solution:   Fix the reported problems. (Christian Brabandt)
+patch 7.4.776 Problem:    Equivalence class for 'd' does not work correctly. Solution:   Fix 0x1e0f and 0x1d0b. (Dominique Pelle)
+patch 7.4.745 Problem:    The entries added by matchaddpos() are returned by getmatches()             but can't be set with setmatches(). (Lcd) Solution:   Fix setmatches(). (Christian Brabandt)
+patch 7.4.729 Problem:    Occasional crash with 'list' set. Solution:   Fix off-by-one error. (Christian Brabandt)
+patch 7.4.704 Problem:    Searching for a character matches an illegal byte and causes             invalid memory access. (Dominique Pelle) Solution:   Do not match an invalid byte when search for a character in a             string.  Fix equivalence classes using negative numbers, which             result in illegal bytes.
+updated for version 7.4.683 Problem:    Typo in the vimtutor command. Solution:   Fix the typo. (Corey Farwell, github pull 349)
+updated for version 7.4.639 Problem:    Combination of linebreak and conceal doesn't work well. Solution:   Fix the display problems. (Christian Brabandt)
+updated for version 7.4.634 Problem:    Marks are not restored after redo + undo. Solution:   Fix the way marks are restored. (Olaf Dabrunz)
+updated for version 7.4.553 Problem:    Various small issues. Solution:   Fix those issues.
+updated for version 7.4.542 Problem:    Using a range for window and buffer commands has a few problems.             Cannot specify the type of range for a user command. Solution:   Add the -addr argument for user commands.  Fix problems. (Marcin             Szamotulski)
+updated for version 7.4.506 Problem:    MS-Windows: Cannot open a file with 259 characters. Solution:   Fix off-by-one error. (Ken Takata)
+updated for version 7.4.382 Problem:    Mapping characters may not work after typing Esc in Insert mode. Solution:   Fix the noremap flags for inserted characters. (Jacob Niehus)
+updated for version 7.4.366 Problem:    Can't run the linebreak test on MS-Windows. Solution:   Fix the output file name. (Taro Muraoka)
+updated for version 7.4.348 Problem:    When using "J1" in 'cinoptions' a line below a continuation line             gets too much indent. Solution:   Fix parenthesis in condition.
+updated for version 7.4.343 Problem:    matchdelete() does not always update the right lines. Solution:   Fix off-by-one error.  (Ozaki Kiichi)
+updated for version 7.4.315 Problem:    Fixes for computation of topline not tested. Solution:   Add test. (Hirohito Higashi)
+updated for version 7.4.301 Problem:    Still a scrolling problem when loading a session file. Solution:   Fix off-by-one mistake. (Nobuhiro Takasaki)
+updated for version 7.4.295 Problem:    Various typos, bad white space and unclear comments. Solution:   Fix typos.  Improve white space. Update comments.
+updated for version 7.4.230 Problem:    Error when using ":options". Solution:   Fix the entry for 'lispwords'. (Kenichi Ito)
+updated for version 7.4.197 Problem:    Various problems on VMS. Solution:   Fix several VMS problems. (Zoltan Arpadffy)
+updated for version 7.4.167 Problem:    Fixes are not tested. Solution:   Add a test for not autoloading on assignment. (Yukihiro Nakadaira)
+updated for version 7.4.141 Problem:    Problems when building with Borland: st_mode is signed short;             can't build with Python; temp files not ignored by Mercurial;             building with DEBUG doesn't define _DEBUG. Solution:   Fix the problems. (Ken Takata)
+updated for version 7.4.138 Problem:    Directory change messages are not recognized. Solution:   Fix using a character range literally. (Lech Lorens)
+updated for version 7.4.119 Problem:    Vim doesn't work well on OpenVMS. Solution:   Fix various problems. (Samuel Ferencik)
+updated for version 7.4.106 Problem:    Can't build with Ruby using Cygwin. Solution:   Fix library name in makefile. (Steve Hall)
+updated for version 7.4.087 Problem:    Compiler warning on 64 bit Windows systems. Solution:   Fix type cast. (Mike Williams)
+updated for version 7.4.053 Problem:    Test75 has a wrong header. (ZyX) Solution:   Fix the text and remove leading ".
+Fix problem with 'iskeyword' in CSS syntax.
+updated for version 7.4.014 Problem:    MS-Windows: check for writing to device does not work. Solution:   Fix #ifdefs. (Ken Takata)
+updated for version 7.4a.035 Problem:    Fix in patch 7.4a.032 is not tested. Solution:   Add test.
+Updated runtime files.  Fix NL translations.
+Fix duplicate patch number 1.
+updated for version 7.3.1310 Problem:    Typos in nsis script. Can use better compression. Solution:   Fix typos.  Use lzma compression. (Ken Takata)
+updated for version 7.3.1302 Problem:    Test 17 fails on MS-Windows.  Includes line break in file name             everywhere. Solution:   Fix 'fileformat'. Omit CR-LF from a line read from an included             file.
+updated for version 7.3.1301 Problem:    Some tests fail on MS-Windows. Solution:   Fix path separators in test 89 and 96.  Omit test 97, escaping             works differently.  Make findfile() work on MS-Windows.
+updated for version 7.3.1275 Problem:    "gn" does not work when the match is a single character. Solution:   Fix it, add a test. (Christian Brabandt)
+updated for version 7.3.1233 Problem:    Various Python problems. Solution:   Fix VimTryEnd. Crash with debug build and PYTHONDUMPREFS=1. Memory             leaks in StringToLine(), BufferMark() and convert_dl. (ZyX)
+updated for version 7.3.1228 Problem:    Python: various inconsistencies and problems. Solution:   StringToLine now supports both bytes() and unicode() objects.             Make function names consistant.  Fix memory leak fixed in             StringToLine. (ZyX)
+updated for version 7.3.1196 Problem:    Old regexp engine does not match pattern with backref correctly.             (Dominique Pelle) Solution:   Fix setting status.  Test multi-line patterns better.
+updated for version 7.3.1185 Problem:    New regexp engine: no match with ^ after \n. (SungHyun Nam) Solution:   Fix it, add a test.
+updated for version 7.3.1172 Problem:    Python 2: loading modules doesn't work well. Solution:   Fix the code. Add more tests. (ZyX)
+updated for version 7.3.1157 Problem:    New regexp engine fails on "\(\<command\)\@<=.*" Solution:   Fix rule for postponing match.  Further tune estimating whether             postponing works better.  Add test.
+updated for version 7.3.1092 Problem:    Can't build with regexp debugging.  NFA debug output shows wrong             pattern. Solution:   Fix debugging code for recent changes.  Add the pattern to the             program.
+updated for version 7.3.1089 Problem:    Tests 86 and 87 fail on MS-Windows. (Ken Takata) Solution:   Fix platform-specific stuff. (ZyX)
+updated for version 7.3.1088 Problem:    New regexp engine: \@<= and \@<! are not implemented. Solution:   Implement look-behind matching.  Fix off-by-one error in old             regexp engine.
+updated for version 7.3.1079 Problem:    Test 87 fails. Solution:   Fix the test for Python 3.3. (ZyX)  Make it pass on 32 bit systems.
+updated for version 7.3.1077 Problem:    Python: Allocating dict the wrong way, causing a crash. Solution:   Use py_dict_alloc(). Fix some exception problems. (ZyX)
+updated for version 7.3.1056 Problem:    Python: possible memory leaks. Solution:   Python patch 15. (ZyX) Fix will follow later.
+updated for version 7.3.1054 Problem:    Can't build without the +autocmd feature. (Elimar Riesebieter) Solution:   Fix use of buf and curbuf.
+updated for version 7.3.1052 Problem:    Python: possible SEGV and negative refcount. Solution:   Python patch 13: Fix IterIter function. (ZyX)
+updated for version 7.3.1030 Problem:    Can't build for debugging. Solution:   Fix struct member names.
+updated for version 7.3.1015 Problem:    New regexp engine: Matching composing characters is wrong. Solution:   Fix matching composing characters.
+updated for version 7.3.1005 Problem:    Get stuck on regexp "\n*" and on "%s/^\n\+/\r". Solution:   Fix handling of matching a line break. (idea by Hirohito Higashi)
+updated for version 7.3.1003 Problem:    Python interface does not compile with Python 2.2 Solution:   Fix thread issues and True/False. (ZyX)
+updated for version 7.3.1002 Problem:    Valgrind errors for Python interface. Solution:   Fix memory leaks when running tests. (ZyX)
+updated for version 7.3.1000 Problem:    Typo in char value causes out of bounds access. Solution:   Fix character value.  (Klemens Baum)
+updated for version 7.3.998 Problem:    Python: garbage collection issues. Solution:   Fix the GC issues: Use proper DESTRUCTOR_FINISH: avoids negative             refcounts, use PyObject_GC_* for objects with tp_traverse and             tp_clear, add RangeTraverse and RangeClear, use Py_XDECREF in some             places. (ZyX)
+updated for version 7.3.943 Problem:    Python: Negative indices were failing. Solution:   Fix negative indices. Add tests. (ZyX)
+updated for version 7.3.926 Problem:    Autocommands are triggered by setwinvar() et al. Missing BufEnter             on :tabclose. Duplicate WinEnter on :tabclose. Wrong order of             events for :tablose and :tabnew. Solution:   Fix these autocommand events. (Zyx)
+updated for version 7.3.925 Problem:    Typos in source files. Solution:   Fix the typos. (Ken Takata)
+updated for version 7.3.899 Problem:    #if indents are off. Solution:   Fix the indents.
+updated for version 7.3.896 Problem:    Memory leaks in Lua interface. Solution:   Fix the leaks, add tests. (Yukihiro Nakadaira)
+updated for version 7.3.881 Problem:    Python list does not work correctly. Solution:   Fix it and add a test. (Yukihiro Nakadaira)
+updated for version 7.3.877 Problem:    Forward searching with search() is broken. Solution:   Fix it and add tests. (Sung Pae)
+updated for version 7.3.848 Problem:    Can't build with Ruby 2.0 when using MinGW x64 or MSVC10. Solution:   Fix it. Also detect RUBY_PLATFORM and RUBY_INSTALL_NAME for x64.             (Ken Takata)
+updated for version 7.3.808 Problem:    Python threads still do not work properly. Solution:   Fix both Python 2 and 3.  Add tests. (Ken Takata)
+updated for version 7.3.750 Problem:    The justify macro does not always work correctly. Solution:   Fix off-by-one error (James McCoy)
+updated for version 7.3.726 Problem:    Typos and duplicate info in README. Solution:   Fix the text.
+updated for version 7.3.714 Problem:    Inconsistency: :set can be used in the sandbox, but :setlocal and             :setglobal cannot. (Michael Henry) Solution:   Fix the flags for :setlocal and :setglobal. (Christian Brabandt)
+updated for version 7.3.706 Problem:    Can't build Motif version. Solution:   Fix wrongly named variable. (Ike Devolder)
+Fix version.c, 638 was there twice.
+updated for version 7.3.611 Problem:    Can't use Vim dictionary as self argument in Python. Solution:   Fix the check for the "self" argument. (ZyX)
+updated for version 7.3.588 Problem:    Crash on NULL pointer. Solution:   Fix the immediate problem by checking for NULL. (Lech Lorens)
+updated for version 7.3.535 Problem:    Many #ifdefs for MB_MAXBYTES. Solution:   Also define MB_MAXBYTES without the +multi_byte feature.  Fix             places where the buffer didn't include space for a NUL byte.
+Fix more 'cpo' issues in runtime files.
+updated for version 7.3.516 Problem:    extend(o, o) may crash Vim. Solution:   Fix crash and add test. (Thinca and Hirohito Higashi)
+Fixed compatible mode in most runtime files.
+updated for version 7.3.505 Problem:    Test 11 fails on MS-Windows in some versions. Solution:   Fix #ifdefs for whether filtering through a pipe is possible. Move             setting b_no_eol_lnum back to where it was before patch 7.3.124.             (David Pope)
+updated for version 7.3.494 Problem:    Can't compile with Lua 9.1 or dynamic Lua. Solution:   Fix dll_ methods. Fix luado(). (Muraoka Taro, Luis Carvalho)
+updated for version 7.3.490 Problem:    Member confusion in Lua interface. Solution:   Fix it.  Add luaeval(). (Taro Muraoka, Luis Carvalho)
+updated for version 7.3.468 Problem:    For some compilers the error file is not easily readable. Solution:   Use QuickFixCmdPre for more commands. (Marcin Szamotulski)
+updated for version 7.3.450 Problem:    Win32: Still a problem with "!start /b". Solution:   Fix pointer use. (Yasuhiro Matsumoto)
+updated for version 7.3.423 Problem:    Small mistakes in comments, proto and indent. Solution:   Fix the mistakes.
+updated for version 7.3.403 Problem:    ":helpgrep" does not trigger QuickFixCmd* autocommands. Solution:   Trigger the autocommands. (Christian Brabandt)
+updated for version 7.3.347 Problem:    When dropping text from a browser on Vim it receives HTML even             though "html" is excluded from 'clipboard'. (Andrei Avk) Solution:   Fix the condition for TARGET_HTML.
+updated for version 7.3.342 Problem:    Code not in Vim style. Solution:   Fix the style. (Elias Diem)
+updated for version 7.3.324 Problem:    Completion for ":compiler" shows color scheme names. Solution:   Fix the directory name. (James Vega)
+updated for version 7.3.321 Problem:    Code not following Vim style. Solution:   Fix the style. (Elias Diem)
+updated for version 7.3.310 Problem:    Code not following Vim style. Solution:   Fix the style. (Elias Diem)
+updated for version 7.3.306 Problem:    When closing a window there is a chance that deleting a scrollbar             triggers a GUI resize, which uses the window while it is not in a             valid state. Solution:   Set the buffer pointer to NULL to be able to detect the invalid             situation.  Fix a few places that used the buffer pointer             incorrectly.
+updated for version 7.3.271 Problem:    Code not following Vim coding style. Solution:   Fix the style. (Elias Diem)
+updated for version 7.3.223 Problem:    MingW cross compilation doesn't work with tiny features. Solution:   Move acp_to_enc(), enc_to_utf16() and utf16_to_enc() outside of             "#ifdef CLIPBOARD".  Fix typo in makefile.
+updated for version 7.3.220 Problem:    Python 3: vim.error is a 'str' instead of an 'Exception' object,             so 'except' or 'raise' it causes a 'SystemError' exception.             Buffer objects do not support slice assignment.             When exchanging text between Vim and Python, multibyte texts become             gabage or cause Unicode Expceptions, etc.             'py3file' tries to read in the file as Unicode, sometimes causes             UnicodeDecodeException Solution:   Fix the problems. (lilydjwg)
+updated for version 7.3.178 Problem:    C-indent doesn't handle code right after { correctly. Solution:   Fix detecting unterminated line. (Lech Lorens)
+updated for version 7.3.176 Problem:    Ruby linking doesn't work properly on Mac OS X. Solution:   Fix the configure check for Ruby. (Bjorn Winckler)
+updated for version 7.3.167 Problem:    When using the internal grep QuickFixCmdPost is not triggered.             (Yukihiro Nakadaira) Solution:   Change the place where autocommands are triggered.
+updated for version 7.3.144 Problem:    Crash with ":python help(dir)". (Kearn Holliday) Solution:   Fix the way the type is set on objects. (Tobias Columbus)
+Updated runtime file.  Fix Italian translations.
+updated for version 7.3.048 Problem:    ":earlier 1f" doesn't work after loading undo file. Solution:   Set b_u_save_nr_cur when loading an undo file. (Christian             Brabandt)             Fix only showing time in ":undolist"
+updated for version 7.3.024 Problem:    Named signs do not use a negative number as intended. Solution:   Fix the numbering of named signs. (Xavier de Gaye)
+updated for version 7.3.017 Problem:    smatch reports errors. Solution:   Fix the reported errors. (Dominique Pelle)
+Fix #ifdef for GDK_SUPER_MASK. (Stephan Schulz)
+Fix building the Mac version with GUI.
+Fix: in compatible mode, in an empty buffer, ":r file" triggered an error message.
+Fix: strcat() on overlapping string. (Dominique Pelle)
+Fix illegal memory access when using expressions in the command line.
+Fix for Yaml syntax file. (Nikolai Weibull)
+Fix #ifdef for GDK_SUPER_MASK.
+Fix: Lua interface tried to load the library when closing a buffer or window.
+Fixes for :find completion.
+Runtime file updates.  Fix tar plugin window split.
+Fix compiler warning.
+Fix crash when using netbeans in a terminal when compiled with GUI support. (partly by Xavier de Gaye)
+Fix: :ltag command did not set w:quickfix_title. (Lech Lorens)
+Fix for float values on VMS. (Zoltan Arpadffy)
+Fixed: on MS-Windows sometimes files with number 4913 or higher are left behind.
+Fix: 'suffixesadd' was used for finding tags file.
+Fix: test 73 failed with small features.
+Fixed: on MS-Windows completion of shell commands didn't work.
+Fix: An unprintable multi-byte character at the start of the screen line caused the following text to be drawn at the wrong position.
+Fix: with newer GTK versions accented characters were drawn too much to the left.
+Fix: ml_get errors when using undo with 'virtualedit'.
+Fix a few problems for :find completion.  Test much more. (Nazri Ramliy)
+Fixed: "make install" installed a few Amiga .info files.
+Fix: when setting crypt key seed was not updated when the swap file wasn't created yet.
+Fix crash when no item in 'path' is used for :find completion.
+Fix crash in :find completion. (Nazri Ramliy)
+Fix: With 'path' set to relative directory ":find" completion didn't work. (Nazri Ramliy)
+Fix: the MS-Windows uninstaller did not delete registry keys on 64 bit systems.
+Fix: test 69 didn't work on MS-Windows.  Test 72 beeped too often.
+Fix: crash in spell checking with a 0x300 character.
+Fix: uninitialized memory access. (Dominique Pelle)
+Fix typos in README files. (Dominique Pelle)
+Fix: changing case of a character removed combining characters.
+Fix that uninstaller isn't found on 64-bit Windows.
+Fix: on MS-Windows the "open with..." menu starts Vim without a file.
+Fixed: CTRL-R in Insert mode doesn't insert composing characters.
+Fixes for coverity warnings.
+Fix test 72 not setting encryption method. (Dominique Pelle)
+Fix a few compile warnings.  (Mike Williams)
+Fix: :redir to a dictionary that is changed before ":redir END" causes a memory access error.
+Fix: concealed regions didn't get redrawn correctly when moving the cursor through them.
+Fix build warnings and problems for tiny/small Win32 build. (Mike Williams)
+Fix for "concealends". (Vince Negri)
+Fix compiler warnings on 64 bit systems.
+Fix: terminal title not properly restured when there are multi-byte characters.  (partly by James Vega)
+Prepare for 7.3b release.  Fix src/Makefile enabling python3 by default.
+Fix: editing a not encrypted file after a crypted file messed up reading the text from an undo file.
+Fix memory access to 'cryptmethod' during recovery. (Dominique Pelle)
+Fix: when resetting both 'title' and 'icon' the title would be set after a shell command. Reset 'title' and 'icon' in test47 to avoid the xterm title getting messed up.
+Fix for compiler warning about function prototype in pty.c.
+Fix for cursor position in wrapped line with concealed text.
+Fix: errors for allocating zero bytes when profiling an empty function.
+Fix memory leak in :find completion. (Dominique Pelle)
+Fix 'autochdir' not showing up in :options window. (Dominique Pelle) Adjust :options window for changes in conceal options.
+Fix: strdisplaywidth("x", 2) returned 3 instead of 1.
+Fix: "import termios" doesn't work with dynamically loaded Python. (James Vega)
+Fix building with Perl on Windows with MingW. (James Vega)
+Fix dependencies in help Makefile. (James Vega)
+Fix build problem when fchown() not available. (Gary Johnson)
+Fix that :py3file was not working.
+Fix hang when resizing in diff mode and there are concealed items.
+Fix some duplicates in ":find" completion. (Nazri Ramliy)
+Fix: When 'searchhl' causes a hang make CTRL-C disable 'shearchhl'.
+Fix 'colorcolumn' adjecent columns not highlighted after end of line.
+Fix typos in documentation. (Dominique Pelle)
+Fixed: crash with ":find " completion, using uninitialized count.
+Fix configure for Python3 libs and version number. (James Vega)
+Fix: 'colorcolumn' interfered with concealed text.
+Fix: MS-Windows installer used wrong path for uninstaller key.
+Fixes and improvements for MS-Windows build.
+Fix build broken without multi-byte feature.
+Fix bad parsing of 'colorcolumn'. (Dominique Pelle)
+Improved version of 2html.vim. Includes progress bar. Fix dynamic folding in diff view. (Benjamin Fritz)
+Fix: When entering a digraph or special character after a line that fits the window the '?' or '^' on the next line is not redrawn. (Ian Kelling)
+Fix: cursor line not properly concealed when moving between windows. (Vince Negri)
+Fix using freed memory in :find completion.
+Fix a few compiler warnings.
+Fix: Composing characters in :s substitute text were dropped.
+Fix: exists() was causing an autload script to be loaded.
+Fix crash in generating spell .sug file.
+Fix bug: spell menu moved cursor, causing Copy not to work.  Spell replacement didn't work in 'compatible' mode.
+Fixed ":s" message.  Docs updates.
+Fix that :mksession may generate "2argu" even though there is no such argument. (Peter Odding)
+Fix build problem with Ruby on Windows. (Cesar Romani)
+Fix a memory leak in encryption. (Dominique Pelle)
+Fix compiler warning.
+Fix compiler warnings for shadowed variables.  Make 'conceal' a long instead of int.
+Fixes for time in clipboard request.  Also fix ownership.  (David Fries)
+Fix tiny build, move functions to undo.c.
+Update src/po/it.po.  Fixed errors in ko.po.
+Fix conceal feature for gj, gk, etc. (Vince Negri)
+Fix crash when using ":grep".
+Fix Make_ivc.mak makefile. (Vince Negri)
+Fix crash for ":ownsyntax". (Dominique Pelle)
+Fixed: after ":ownsyntax perl" and ":e" syntax was cleared in other window.
+Fixed memory leak in ":ownsyntax".
+Fix a few compiler warnings.  Fix crash with encrypted undo file.
+Fix completion of file names with '%' and '*'.
+Don't use pointers to store numbers, use a union. Fixed MSVC makefile use of /Wp64 flag.
+Fix a few more things for persistent undo.
+Fix definition of UINT_PTR for 64 bit systems.
+Fix for using ":wundo foo" when foo is an empty file.
+Fix: :wundo didn't work in a buffer without a name.
+Fix uninit memory read in undo code.  Fix uint32_t in proto file. A few minor changes.
+Fix for Netbeans on MS-Windows not compiling.
+Fix wrong memory access when clearing crypt key.
+Fix: window title not updated after file dropped.
+Fix build on Cygwin and MingW.
+Fixed encryption big/little endian test. Use uint32_t to avoid crash on 64 bit machines. Added error numbers for Blowfish errors. Fixed the tiny version not building.
+Fix typo in release date.
+updated for version 7.2.433 Problem:    Can't use cscope with QuickFixCmdPre and QuickFixCmdPost. Solution:   Add cscope support for these autocmd events. (Bryan Venteicher)
+updated for version 7.2.391 Problem:    Internal alloc(0) error when doing "CTRL-V $ c". (Martti Kuparinen) Solution:   Fix computations in getvcol(). (partly by Lech Lorens)
+Fixed encoding name in Ukranian message file.

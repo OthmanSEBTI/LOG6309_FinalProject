@@ -1,0 +1,74 @@
+view: Fix a @param name in a comment
+vis: Fix a few :help strings
+Fix configure on DragonFly BSD
+Fix "parenthese" in identifiers
+Fix a typo in identifiers
+Fix asm lexer to correctly match conditional jcc, cmovcc, and setcc instructions
+Fix Unicode regex searches for libtre builds
+man: Fix a typo
+Fix compilation on GNU Hurd systems
+Fix formatting in man page
+Fix Debian package lintian warnings
+Fix errors and add ANS Forth 2012 keywords
+Fix README markdown and improve contribution section
+Fix a couple typos
+Fix date format string in man pages
+Fix date command in man page installation
+Fix documentation regarding Lua paths in README and manual page
+README: Fix instructions for lexers and themes
+Fix various issues reported by coverity scan
+Fix filetype table link in lexers/README.md
+[vis-open] Fix '--' to actually work.
+Fix autoindent when using O
+Fix typo `cursor-sceenline-up` -> `cursor-screenline-up`
+Fixed bug, use $XDG_CONFIG_HOME correctly
+Fix vis-test git submodule integration
+Fix to/till movements
+Fix default $VIS_PATH in man page
+gitignore: Fix pattern
+vis-open: Fix indentation
+Fix warnings found by static analyzer
+Fix handling of multibyte characters (at start of display area)
+Fix segfault in cmd_filter
+Fix copy/paste error in text_restore
+Fix echo foo | vis -
+Fix crit-bit tree URL reference
+Fix cell attributes for tabs
+Fix clang static analyzer warnings
+Fix drawing of selection
+Fixed multiline comment regexp.
+Fix :nnn where nnn > maximal number of lines
+Fix coverity issue 12388
+Fix :saveas command definition
+Fix segfault when using arrow keys in prompt
+Fix some compiler warnings
+Fix openline command on the first line
+Fix :quit regex
+Fix size_t specifiers in format strings
+Fix compilation on various *nix systems
+Fix compiler warnings
+Fix segfault when joining lines
+Fix mode switching bugs
+Fix typo in piece table caching layer
+Fix cursor position after 'p'
+Fix display of selection in visual mode
+Fix :0 on command prompt to move to begin of file
+Fix scrolling direction of CTRL-{F,B}
+Fix compilation on OpenBSD
+Fix editing of files with length 0
+Fix save to absolute paths
+Fix clang static analyzer warnings
+Fix 'G' movement to end of file
+Fix loading of not yet existing files
+Fix bug when moving to characters with display width > 1
+Fix ascii art tree of modes
+Fix warnings about redefinition of typedefed structs
+Fix :q command
+Fix a few memory leaks
+Fix repeat command
+Fix insertion of newlines
+Fix missuse of cursor instead of call in config.def.h
+Fix action multiplier
+Fix cursor placement after delete operation
+Fix Makefile
+Fix bugs in caching layer

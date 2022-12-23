@@ -1,0 +1,44 @@
+Fix typo in CHANGELOG
+Fix Markdown syntax (#663)
+Fix markdown syntax (#662)
+Fix repository's language classification on GitHub (#660)
+Fix spelling error in comment
+Fix typo in README
+Fix a few CSS comments
+Fix project URL in normalize.css file
+Fix code style
+Fix package.json
+Fix indentation
+Fix ‘san-serif’ typo in test file
+Fix `textarea` test title
+Fix i18n for `q` element
+Fix `pre` text formatting and overflow
+Fix vertical alignment of `progress`
+Fix rendering of test file on mobile
+Fix number input button cursor on OS X Chrome
+Fix `figure` margin normalization
+Fix `optgroup` normalization and add test
+Fix `font` and `color` inheritance for forms
+Fix fieldset width in Chrome and Firefox
+Fix component.json
+Fix incorrect closing tag in `test.html`
+Fix IE 10 active link background color
+Fix typo in CONTRIBUTING.md
+Fix example `git tag` command in docs
+Fix typo
+Fix cursor style for disabled button `input`
+Fix indentation and update timestamp
+Remove scrollbar normalization. Fix #64 #65
+Normalize only the left margin of lists. Fix #49
+Prevent text inputs growing as you type in IE6/7. Fix #46
+Normalize fieldset border. Fix #34
+Remove excess padding from radio and checkbox in IE8/9. Fix #27
+Leave default webkit-tap-highlight-color in place. Fix #23
+Prevent IE6 from ignoring the embedded media ruleset. Fix #10
+Set {overflow:auto} in IE6/7 for <button> and <input> inside <table>. Fix #18
+Fix #20 (only temporary until Chrome updates to version 13)
+Add <audio> and <video> tests to demo. Fix #21
+Remove <audio>, <video>, <canvas> display set to inline-block. Default display is inline. Fix #10
+Remove input[type="search"] WebKit decoration from Safari and Chrome in OSX, corrects excess inner padding. Fix #3
+Make tap-highlight-color fix work for Android devices. Fix #2
+Fix text-size-adjust so it doesn't prevent manual zooming in WebKit or iOS

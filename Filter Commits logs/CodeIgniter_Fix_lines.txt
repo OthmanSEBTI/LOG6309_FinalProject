@@ -1,0 +1,1533 @@
+Fixes #6141
+Bug Fix: [cookie_helper.php] set_cookie was missing sameSite argument
+Fix SessionUpdateTimestampHandlerInterface name
+[ci skip] Fix #6103
+Fix method _is_conn() in Ftp library, was returning incorrect result for valid connection making it impossible to use FTP
+Fix passing NULL to setcookie value parameter
+Fix PHP 8.1 deprecation
+[ci skip] Fix a documentation typo
+[ci skip] Fix a coding typo from 1a2651040ef701e750b1c13cd69cc70814b079d0
+Fix #92
+[ci skip] Fix CI_Session_driver_interface for PHP 5 (ref #6078)
+[ci skip] Fix CI_Session_driver_interface for PHP 5 (ref #6078)
+[ci skip] Fix #6083
+Fix #5562
+Fix broken tests in develop
+Fix some minor PHP 8.1 deprecation warnings
+Fixes styleguide ORs
+Fixes CREATE TABLE IF NOT EXISTS on pdo_pgsql_forge; checking for dummy data DB operations result returns
+Fixes travis yml
+Fixes "expires" cookie attribute bug
+[ci skip] Fix is_callable()-reliant logic broken by PHP 8
+Fix error in pdo/pgsql for php8.0
+Fix error in core/Output.php for php8.0
+Fix Flashdata time comparison for PHP 8
+[ci skip] Close #6005: Fix typos in email helper docs
+Fix user guide url
+Fix error in Travis php7.4 test
+Fixed issue with creating a resource from png using Image_lib
+[ci skip] Fix #5906
+Fixed double spacing.
+[ci skip] Fix #5901
+Fix database connection leak when closing PDO connection
+[ci skip] Fix #5879
+[ci skip] Fix #5879
+fix: Fixed a bug that could not get the version number when first call.
+[ci skip] Fix #5857
+Fix typo on .gitattributes
+[ci skip] Fix #5847
+[ci skip] Fix #5840
+Fix indent
+[ci skip] Fix changelog links to session library
+Fix count_all_result if QB query contains Having
+Fixed HTML type attribute for input field.
+Fix .aac file mime type
+[ci skip] Fix a CSRF-related bug
+Fix #5796
+[ci skip] Fix #5788
+Fix #5774
+Fixed broken 'Send a pull request' link and added links to official GitHub documentation for other steps in the 'How-to Guide'. Additional links were added to make the How-to Guide a little more user friendly for those who are unfamilar to GitHub.
+[ci skip] Merge pull request #5752 from exussum12/alternativeRedisFix
+[ci skip] Fix #5755
+Fix increment / decrement
+[ci skip] Fix #5703
+Fix code style
+[ci skip] Fix #5701
+[ci skip] Fix #5681
+[ci skip] Fix #5674
+Fix tabs
+[ci skip] Fix #5627
+[ci skip] Fix #5624
+[ci skip] Fix #5590 (add a default error message for FV valid_base64 rule)
+[ci skip] Fix #5587
+[ci skip] Fix #5571
+[ci skip] Fix #5561
+Fix grammar mistakes in cli.rst
+[ci skip] Fix #5542
+[ci skip] Fix #5526
+Fixing codestyle
+Fix sphinx warning message
+Fix test_like_set_side() unit test (dataProvider wasn't working)
+Fix #5448
+[ci skip] Fix #5435
+[ci skip] Fix #5420
+Fixed typo
+Fixed bug in ZIP library
+[ci skip] Fix #5425
+[ci skip] Fix 5423
+[ci skip] Fix rendering of literal 'http://' strings in the manual
+Fixed bug that character code did not change
+Fix a QB bug where where(), having() treated values passed to them as arbitrary SQL
+Fix a bug where INTL_IDNA_VARIANT_UTS46 was used while undeclared
+[ci skip] Fix #5348
+[ci skip] Fix allow_get_array defaulting to FALSE if it doesn't exist
+Fix issue #4454
+Fix #5331
+[ci skip] Fix patch for #5300
+Fixed docblock on model function. Changed @param model from string to mixed
+Fix #5297
+Fix broken .htaccess example code-block
+Fix issue 5202
+[ci skip] Fix a typo in pagination docs
+Fix auto_link
+Fix #5276
+[ci skip] Fix potential object injection in apc cache driver; deprecate the apc driver
+Fixed dbprefix()
+Fix #5260
+Fix Travis-CI failures
+Fix Travis-CI failures
+Fix #5246
+Fixed DBLIB subdriver to get the right version number of SQL Server.
+[ci skip] Fix #5236
+Fix some mistakes in the user guide
+[ci skip] Fix changelog entries (errors detected while testing #5188)
+[ci skip] Fix #5178 (regression caused by #5168)
+[ci skip] Fix #5168
+Fix #5164
+Fix the spelling of the word.
+[ci skip] Fix a bug in FV valid_email()
+Fix misc type inconsistencies between code and doc comments
+[ci skip] Fix #5131
+Fix typo in serializeval() Signed-off-by:Master Yoda <jim_parry@bcit.ca>
+[ci skip] Fix 5070
+[ci skip] Fix 3.1.4 release date ...
+Fix Apache header injection vulnerability in set_status_header()
+Fix #5057
+Fix #5050
+Fix #5044; add unit tests for img() HTML helper
+Fix a CI_Input::set_cookie() bug
+[ci skip] Fix #5002
+Fixed show_error() for check $exit_status
+Fix Travis tests script line
+Fix byte-safety issues & actually test for them
+[ci skip] Fix #4985
+Fixed regex used for loading helpers
+[ci skip] Fix an error with DB sessions triggered with regenerate + destroy
+Fix Undefined variable: object error
+Fix Undefined variable: object error
+Fix FV's valid_mac() on PHP 5.4
+Fix a possible file inclusion vulnerability in CI_Loader::vars()
+Fix an XSS vulnerability
+Fix #4804
+[ci skip] Fix 4953
+Fix bug: DB_query_builder do not add parenthesis for cached group_by
+[ci skip] Fix a changelog entry typo
+[ci skip] Fix a changelog entry typo
+Fix #4892 - update_batch()
+[ci skip] Fix #4937
+[ci skip] Fix #4928
+Fix steps numbering in 3.2.0 upgrade instructions
+Fix #4844
+Fix #4927
+Fix #4923
+[ci skip] Fix a changelog entry reference
+Fix #4917
+Fix #4916
+[ci skip] Fix a changelog entry link
+Fix #4905
+Fix #4902
+Fix #4679, for real
+Fixed coding style (this time for real)
+[ci skip] Fix #4887
+Fix compile_binds: do not use back references inside a character class.
+Fix #4890
+[ci skip] Fix upgrading instruction link titles
+[ci skip] Fix upgrading instruction link titles
+Fix #4884
+Fix #4871
+[ci skip] Fix changelog entry formatting from last commit
+Fix #4874
+Fix #4877
+[ci skip] Fix 3.1.1 download link
+Fix small doc problem.
+Small Changelog Fix
+[ci skip] Fix a changelog link
+Fix #4865
+Fix xmlrpc timeout, #4843 Signed-off-by:Master Yoda <jim_parry@bcit.ca>
+Fix #4851
+Fixed typos
+Fix #4823
+Fix entity_decode() issue
+Fix #4809
+[ci skip] Fix #4808
+Fix small doc problem.
+Fix #4787
+Fix CI_Upload errors on PHP 7.1
+Fix custom user agent not working
+CI_Unit_test: Fix name of visible test items.
+[ci skip] Fix #4739
+Fix #4737
+[ci skip] Fix #4736
+[ci skip] Fix #3919, #4732
+Fix Travis builds
+Fix Travis builds
+Fix SQLi in ODBC drivers
+[ci skip] Fix a changelog entry from last commit
+Fix #4712
+Fix #4713
+Fixed typos
+Fix #4695
+Fix #4679
+[ci skip] Fix an undefined index for 'timeout' in Redis session driver
+[ci skip] Fix a changelog entry reference
+Fix oci8_forge
+Fix #4674
+Fix #4675
+[ci skip] Fix a minor Redis Session bug
+Fix #4647
+Fix #4639 Really fix #4633
+Fixed PHPDoc parameter name and type discrepancies
+[ci skip] Fix #4637
+Fix typo in inflector helper writeup. Reported by email from Jessie Rubi Signed-off-by:Master Yoda <jim_parry@bcit.ca>
+Fix #4633
+Fix docs [ci skip]
+[ci skip] Fix #4613
+Fix #4605
+Fix a type of parameter in url_title [ci skip]
+#4583 Fix code style issues
+Fixes #4583 by separating attachments to related and mixed multiparts
+Fix #4563
+[ci skip] Fix #4562
+[ci skip] Fix #861 (regression)
+[ci skip] Fix #4557
+[ci skip] Fix CI_VERSION
+Fix #4539
+Fix a Form_validation bug that unnecessarily modifes $_POST
+Fixed brackets
+[ci skip] Fix a comment typo
+Fixed a condition in the get method
+Fixed an indent of description
+Fix #4516
+Fixed the index existence error
+[ci skip] Fix a changelog message typo
+[ci skip] Fix a wrong page link in the changelog
+Fix a number of CI_Cache bugs
+Fix a logical error from last commit
+[ci skip] Fix Profiler not applying htmlspecialchars() to all inputs
+Fix #4475
+[ci skip] Fix transactions for the ibase driver
+Fixed typo
+[ci skip] Fix Memcached replace() result code checks in CI_Session
+Fixed syntax error.
+Fix #4449
+Fix a bug where CI_Session_memcached_driver doesn't write empty sessions
+[ci skip] Fix Memcached session lock handling and error checking around replace() usage
+Fix regression on PHP7 when regenerating the session (#4362)
+Fix another regression caused by 805eddaefd9503b5dbbd924bd6da66e29c4768f3
+Fix a regression caused by 805eddaefd9503b5dbbd924bd6da66e29c4768f3
+Fix #4431
+Fix #4430
+Fix #4427
+Fix #4415 and add unit tests for https://bugs.php.net/bug.php?id=51192
+Fix an error from 6af9dd6e24687b6a7b9d14a058a47edcac761e61
+Fix #4407
+Fix formatting of paths
+Fix a regression in Form helper caused by 0139e6a4a99cbe9b0cc06f394fa12d5691193b72
+Fixed minor typographical error
+Fix #4401
+Fix #4399
+Fix #4395
+Fix #4391
+[ci skip] Fix a documentation error on output cache times
+Fix type in default constants configuration
+[ci skip] Fix a changelog line
+Fix #4374
+Fix MySQL errors from latest commits
+Fix MySQL's 'stricton' feature
+Fix #4362
+Fix #4337
+Fix #4350
+Fix #4343
+Fix #4331
+Fix logical errors from af849696d43f5c3b68962af1ae5096151a6d9f1a
+Fix erroneous variables from 85bc9fc53e4c3e46b2f4e1b1eac7e2828d4869e6
+Fix version() for Oracle DB drivers
+Fix #4312
+Fix #4039
+Fix #4306
+Fix mismatched brackets in documentation
+Fix #4283
+Fix file name
+[ci skip] Fix #4245
+Fix #4244
+Fixed PHP code style part 2
+[ci skip] Fix an infinite loop in captcha helper
+Fixed PHP code style
+Fixed white-space for JPEG2000 MIME types
+[ci skip] Fix a false default-fallback bug in set_checkbox(), set_radio()
+Fix #4212
+Fix #4192
+[ci skip] Fix changelog entry from latest commit
+Fix #3201
+Fix #4171 and a number of other transaction bugs
+Fix #4173
+[ci skip] Fix docs about QB caching
+Fix #4179
+[ci skip] Fix #4170
+[ci skip] Fix broken links in user guide
+Fix indentations
+Fix the testing of non-alhpa idioms Signed-off-by:Master Yoda <jim_parry@bcit.ca>
+Fix the tabs Signed-off-by:Master Yoda <jim_parry@bcit.ca>
+Fix the tabs Signed-off-by:Master Yoda <jim_parry@bcit.ca>
+Fix the tabs Signed-off-by:Master Yoda <jim_parry@bcit.ca>
+Fix #4137
+Fixed the pulldown nav Signed-off-by:Master Yoda <jim_parry@bcit.ca>
+Fix #4116 Close #4117
+Fix typo
+Fix #4120
+Fix typo
+Fix #4032
+Fix #4044
+Fix #4109
+Fix & extend 700619cebf75c4e4fcda6a2d7bea1afb84a029e4
+Fix a broken unit test from 700619cebf75c4e4fcda6a2d7bea1afb84a029e4
+Fix #4106
+Fix #4096
+Fix #4093
+[ci skip] Fix #4091
+Fix #4086
+[ci skip] Fix incorrect routing description
+Fix #4073
+Fix #4066
+Fix #4065
+[ci skip] Fix 'sqlsrv' connect failure endless loop
+Fix #4056
+[ci skip] Fix a doc typo
+Fix #4052
+Fix typo in comments
+Fix typo in comments
+Fix path for CLI error templates in upgrade doc
+Fix path for CLI error templates in upgrade doc
+Fix #4023
+Fix ReDoS-bug in string_helper.php
+Fix #4026
+Fix #4027
+Fix #4015
+Fix #4012
+[ci skip] Fix a changelog typo
+Revert "[ci skip] Fix where_in() docs"
+Fix a 'counter-#3989' bug
+Fix #4005
+Revert "Fix an internal bug in QB where() escaping"
+Revert "Fix #3989"
+Fix #4000
+Fix alignment
+Fixed typos
+Fix an issue with CI_Upload max filesize
+Fix testcases broken by b63dc1904e4f34cb48d7dce80155172c6e94d777
+Fix #3991
+Fix #3989
+Fix coding style
+Fixed typo
+Fix #3279
+[ci skip] Fix a docs compile warning
+Fix indentation
+Fix an internal bug in QB where() escaping
+[ci skip] Fix #3985
+Fix errors/cli/error_php.php output
+Fix #3752
+[ci skip] Fix #3778
+[ci skip] Fix a bug reported via PR #3704
+Fix sample code
+[ci skip] Fix #3869
+Fix a Typo
+Fix #3965
+Fix #3963
+Fixed typos
+Fix QB delete() for multiple tables with where()
+Fix regression caused by 59d1ffd927ef3b63dbadf42e1caf14957201fd2d
+Fix #3932
+Fix ask jeeves user-agent
+Fix #3913
+Fixed a cleanup miss in the default database config file to follow the recent SSL feature changes.
+Fix #3908
+Fix typo in url_title function description.
+Fix #3904
+Fix #3903
+Added new MySQLi parameters/info to default database config file. Fixed missing new MySQLi parameters from database configuration documentation examples.
+Fixed missing MySQLi driver parameter DOCBLOCK descriptions. Updated database configuration documentation to include a list of the new MySQLi driver parameters.
+Fix #3890
+Fix a bug in the CSV export DB utility
+Fixed some grammar.
+Fixed bug - using field_data() on Oracle databases
+[ci skip] Fix an erroneous doc link
+Fix an undefined variable error from fbde2798688ab99cfe3fdd22746d60f0877b2c27
+Fix #3846
+[ci skip] Fix IRC link in composer.json
+Bug Fix manually delete caching method
+[ci skip] Fix timezones list in date helper docs
+[ci skip] Fix a doc link causing a Sphinx compile warning
+Fix #3823
+Fix typos in user guide. Corrected "csrf_regenerate" in libraries/security.rst (it read "csrf_regeneration", incorrect per source code). Corrected "blog" as default controller in general/controllers.rst (it read "Blog", not per convention).
+Fix #3816
+Fix migration_version
+Output cache: Fixing a wrong timestamp. Credits to khoggatt (CodeIgniter forum).
+Cache Library Defaults Fixed
+Fix #3787
+Fix #3771
+Fix #3773
+[ci skip] Fix comment typos
+Fix #3733
+Fixed typo
+[ci skip] Fix a wrong docblock link
+Fix whitespace in previous commit
+Fix for parsing error in PHP 5.2 and 5.3
+Fix logged path to match checked path in loader
+[ci skip] Fix a broken link in the changelog
+Fix #3717
+Fixes pagination with relative URL
+Fix an "strpos(): Empty needle" warning
+Fix an "strpos(): Empty needle" warning
+Fix an example in the tutorial. Signed-off-by:Master Yoda <jim_parry@bcit.ca>
+Fix #3703
+Fix language overriding for calendar library
+Fix #3694: Packages not overriding stock libraries
+Fixed user guide internal & external links to resolve problems reported by sphinx "make linkcheck" Signed-off-by:Master Yoda <jim_parry@bcit.ca>
+Fixed redis cache save logic It was trying to use sAdd as a check if the key was created, but that will return false if it is already present in the set.
+[ci skip] Fix a typo in session docs
+Fixed bug of clearing POST array before every test.
+Fixed a typo in uri.rst documentation
+Fixed bugs in form_validation for methods matches, differs, and valid_base64. Implemented tests for valid and invalid inputs for all basic rules available for form_validation. The invalid input data currently doesn't pass all tests.
+Fixed indentation Signed-off-by:Heesung Ahn <ahn.heesung@gmail.com>
+Fix #3642
+Fix #3627: Keep timed locks for more than 5 seconds
+[ci skip] Fix a typo in config.php
+Fix #3633
+Fix an E_NOTICE caused by #3604
+Fix .travis.yml for PHP7 and try to fix a DB test
+[ci skip] Fix #3618
+[ci skip] Fix wrong example link in news tutorial
+[ci skip] Fix a changelog entry
+Fix #3610
+[ci skip] Fix where_in() docs
+Fix postgre driver config
+Fix #3603
+Fix #3593
+Fix #3572: CI_Security::_remove_evil_attributes()
+[ci skip] Fix a doc typo
+[ci skip] Fix a PHP7 BC break in a test that wouldn't even run
+Fix a typo in CI_Session
+[ci skip] Fix a typo in the docs
+Fix undefined variable notice in Session redis, memcached drivers
+Fix #3579
+Merge pull request #3577 from dev-ggallon/Fix_Database
+[ci skip] Fix a setting name in a comment
+Fix unreachable code
+Fix HELO localhost.localdomain violates RFC standards
+Fix incorrect FCPATH when a folder is named SELF
+[ci skip] Fix a bug where session IDs are not regenerated
+Revert "Fixed return values types in session drivers"
+Merge pull request #3556 from gadelat/FuncTypoFix
+Fixed return values types in session drivers
+Fix typos in func names
+Fixed inconsistent return types
+Documentation Fix
+Merge pull request #3547 from dev-ggallon/Database_Fix
+Fix a wrong var name in class CI_DB_pdo_4d_forge::_attr_type
+Fix a wrong var name in CI_Session::mark_as_temp()
+[ci skip] Fix #3515
+[ci skip] Fix indentation in erro handling docs
+Fixed horizontal position of watermark text when using drop shadow
+Fixed Watermark function to work without drop shadow
+Fix #3529
+Fixed #3516
+Fix error extends class name
+Fix unrecognized :doc: link
+Fix Sphinx broken path
+[ci skip] Fix incorrect wording in config.php
+[ci skip] Fix docs about ci_sessions table
+Fix Sphinx compilation errors
+[ci skip] Fix a typo in Card library docs
+feature/session (#3073): Fix non-existing variable error
+feature/session (#3073): Fix an error from previous patch
+Fix #3473
+Fix quoted_printable_encode() test
+Fix #3464
+Fix E_WARNING in CI_Security::entity_decode() on PHP<5.3.4
+[ci skip] Fix improper wording in upgrade notes
+Fix #3460
+Fix #3453
+Fixed typo
+Fix #3419
+Fix Issue #3417
+Fix 'Array to string conversion' notice in CSRF validation
+Fix a filter_uri() test
+Fixed sub-section header
+Fixed code style. Update changelog. #2349
+Fix the user guide writeup for the DB forge Signed-off-by:James L Parry <jim_parry@bcit.ca>
+Fix an error from the previous commit
+Added changelog entry updated documentation Fixed code style.
+Fix a regression from the previous commit
+Fix #3380
+Fixed the convention violations.
+Fixed the convention violations.
+Fix an erroneous variable name
+Fix an issue with 'postgre' persistent connections
+Fix  #656 add font_size in create_captcha()
+Fix merge conflicts
+Fixed tests
+Fixed return.
+Fix documentation instructions
+Fix #3318
+Fix #3317 ... MCrypt sucks
+Fix typo in changelog entry for #3305
+Fix #3310
+#3073 (feature/session): Fix a typo from ff37ffe164443e53b24d529f967a1bdf065bff3a
+Fix write() for session_regenerate_id(TRUE)
+#3073 (feature/session): Fix session_regenerate_id() issues
+Fixed download link text
+Revert "#3073 (feature/session): Fix a GC issue with the files driver"
+Fix copyright
+#3073 (feature/session): Fix a GC issue with the files driver
+Fix Sphinx compilation warnings
+Fix #3283
+[ci skip] Fix Travis build status badge
+Fix Config_test::test_base_url()
+Fix #3270
+feature/session (#3073): Fix a variable name
+Fix examples in documentation
+Fix #3242
+Fix a defined() check
+Fix #3238
+Fix #3228
+Fix CI_Security::get_random_bytes() length validation
+CI_Parser: Fix a regression from b27338ac9710cfcf69c4c99028f474aae8b28b49 (#3189)
+feature/session (#3073): Fix an E_WARNING in CI_Session_redis_driver
+Fix #2963
+[ci skip] Fix routing documentation (#3192)
+Fix #3189
+Fixed typo error
+Fix a wrong variable name from previous commit
+Fix #3187
+Fix #3123
+Fix #3160
+Fix #3161
+Fix CI_Encryption::substr() for PHP 5.3
+Fix CI_Encryption::substr() usage of mb_substr()
+Fix potential bugs in password_hash(), CI_Encryption
+Fix a few typos and add a backport (compat) for hex2bin()
+Fix #3131
+Fix #3124
+Fixed eof
+Fixed typo
+Fix a _potential_ flaw in password_hash()
+Fix #3112
+Fixed the changelog entry again
+Fixed a changelog entry
+Fix #3101
+Fix #3085
+#3073: Fix temp/flash data getters
+Fix a potential undefined variable error
+#3073: Fix an undefined variable error
+Fix Session_database_driver locking
+Fix wrong variable name
+Fixed code style.
+Fix #3057
+Fix handling of {unwrap} tags in word_wrap() functions
+[ci skip] Fix error notices in FV when trying to lookup error msgs for closures
+Fix caching of MIME config
+Fixed wrong url for Style Guide in Contributing Guide
+Fix PHP 5.6 charset-related warnings in tests
+Fix a typo
+Fix docblock of URI->rsegments property
+Fix in $_protected array of register_globals security procedure
+Fix #3004
+Fixed according to comment.
+Fix #2970
+[ci skip] Fix #2972
+Fix #2976
+Fixed typo in tutorial/create_news_items
+Fix typo in CI_Input constructor
+Fixed typo in model loader.
+Fix profiling of benchmarked names like 'something_endpoint_end'
+Fix DB forge unsigned attribute (PR #2949)
+Fixed coding style & line length.
+Fixed filemtime
+Fix #2928, #2929
+Fix #2928
+Fix #2919
+[ci skip] Fix a test skip message
+Fix #2916
+Fix #2901
+Fix CI_Calendar tests
+[ci skip] Fix date helper loading in CI_Calendar::get_total_days()
+Fixed typos in Migration library documentation
+Fixed variable scope.
+Fix #2884
+Fix for selected being NULL from set_value
+Fix #2878
+Fix #2364
+Fix syntax error
+Fixed code style & added few extra checks. Updated cart documentation.
+Fix issue #43
+Fix a typo in the smileys config (PR #2853)
+[ci skip] Fix a typo
+[ci skip] Fix class reference sections of Image_lib, Parser and User agent docs
+[ci skip] Fix a wrong reference in the docs
+Fixed Typo in String Helper function
+Fix conflicts
+Typo Fix
+Typo Fix Signed-off-by: Vivek Dinesh <vivekdinesh5@gmail.com>
+Fix #2856
+CI_Encryption: Fix more errors and add a 'portability' test case
+Fix a logical error in CI_Encryption
+CI_Encryption: Fix some errors and add unit tests for hkdf()
+Fix a syntax error from last commit
+[ci skip] Fix broken links
+[ci skip] Fix /readme.rst links
+Fix #2845
+Fix #2844
+Fix CI_Security::_remove_evil_attributes() being way too aggressive
+Fix syntax errors
+Fix #2836
+Fix #2729
+Fix #2737
+Fix whitespaces to tabs.
+Fix #2829
+Fix 2 Router-related errors
+Fix CI_URI:: not being properly indexed
+Fix #2825
+Fix #2827
+Fix #2799 by adding conditional PCRE UTF-8 support to CI_URI::filter_uri()
+Fix #2822: Incorrect usage of fwrite()
+Fix incorrect checks for the fwrite() return value
+Fix #133
+Fixed the comment and array alignment.
+Fixed coding styles in form_validation.rst
+Fixed a missed variable $errors in set_rules().
+Fix 2 errors caused by recent commits
+Fix #346
+[ci skip] Fix a wrong issue reference from the previous commit
+Fix #148
+Fix a few bugs in CI_Hook (based on PR #2762)
+Fix #2143
+Fix #2268 (manually implementing PR #2269)
+Fix #2237: Parser library failed if the same tag pair is used more than once within a template
+Fix #2579: Query Builder's "no escape" functionality didn't work properly with query cache
+[ci skip] Fix a docblock typo
+[ci skip] Fix a changelog message
+Fix #2775 (security lib docs)
+Issue #2763 - Fixes Session GC Probability Calculation
+Fix a bug where DB() tried to set the MySQL-specific 'sql_mode' on all drivers
+Fix #2406 query builder cache
+Fix HTTP Verb Routing Rules
+Fix #2710
+Fix a bug when multiple calls to QB's _compile_wh() or _compile_group_by() are required
+Fix #2703
+Fixing the dumbest parser error ever
+Fix CI_DB_query_builder::_merge_cache() triggering E_WARNINGs
+Fix issue #2695
+Fix CSS minifier
+Fix #2515 (manually merge PR #2516)
+Fix #2691
+[ci skip] Fix a changelog entry
+Fix issue #2681 (alternative to PR #2690)
+Fixed empty line at EOF and added changelog entry
+Fix #2674
+Fix #2682
+Fix issue #33
+Fixes Issue 2637 more elegant way to make sure that the comment is not in a js string var
+Fix duplicate changelog entry
+[ci skip] Fix a changelog message
+Fix array notation fields for set_select() as well
+Fix #2639
+Fix a PostgreSQL string escaping bug and use pg_escape_literal() when possible
+Fixed issue #2638 which prevented loading models in sub-folders by passing an array.
+Fixed coding style
+Fixed coding style
+[ci skip] Fix a documentation error
+Fix $replace parameter handling in get_config()
+Fix noneffective static variable cache in log_message()
+Fix a few more merge conflicts
+Fix various typos
+Fix #2585
+Fix #2501 & another -related bug
+Fix #2568
+Fix #2560
+Fix #2558
+Fixes in JavaScript Library
+[ci skip] Fix style guide typos
+Fix Loader_test::test_non_existent_model()
+Fix CI_Loader::model() tests
+Fix Form Validation issue with text inputs which have array as name
+Fix too verbose error logging on default production environment
+Fix User Guide Search button issue
+Fix an argument in test_directory_helper
+Fix test_directory_map
+Fix config_item() returning stale values
+Fix a Memcache(d) default configuration bug (based on #249)
+Fix #2490 (an improved version of PR #2534)
+[ci skip] Fix 2.1.4 upgrade instructions link
+Fixing incorect references for time zones
+Fix Travis tests
+Fix #2498
+Fix tests execution
+Fix a docblock in Loader class
+Fix issue #2388 / PR #2413 changelog entry
+Fix for extending classes in a subdirectory (e.g. drivers)
+Fix #2387
+Fix #2380 and deprecate CI_Router::fetch_*() methods
+Fixed for styleguide.
+Fix #2353
+Fixed error in form_textarea helper function
+Revert "Fixed error in Form Helper textarea function"
+Fixed error in Form Helper textarea function
+Fixed problem for transaction test mode.
+Fix MSSQL ALTER TABLE ADD statement
+Fix #2320
+Fix a typo in changelog.rst
+Fix #2301
+[ci skip] Fix #2289
+Fixed #2289
+Fix #2298
+Fix Session cookie driver storing untrimmed user agent string in the database causing set_userdata() calls to fail when $config['sess_match_useragent'] = TRUE
+Fix this use case: load->vars->('foobar', '')
+Fix #2273
+Fix Session tests
+Fix for issue #2236
+[ci skip] Fix some changelog entries
+Fixed the issue with bcc_batch_mode and subject
+Fix form_upload() test
+Fix typos in upgrade_300.rst
+Fix a code comment in Upload->_file_mime_type()
+Fixed curly braces. Removed redundant method set_useragent()
+Fixed tab-indentation. Made appropriate entries in changelog
+Fix a JSON validation error
+Fixed form helper variable error
+Added keep-alive connection to SMTP. Fixed socket read/write timeouts. Added PHP useragent
+Fix #2247
+Fix some stuff from recent pull requests
+Fix issue #2230
+Fixed documentation.
+Fix/improve #2211
+Fix list_fields seek bug
+Fix issue #2202 and alter Loader Class docs
+Fix issue #2179
+Upload library, clean_file_name function: Fix xss bug.
+Fix auto_link() for the Nth time
+Fix newline standardization.
+Fixing issue with comma
+Fix a code comment in Image_lib
+Fix issue #2191.
+Fix and optimize auto_link() URL helper function.
+Fix issues #2160, #2161
+[ci skip] Fix issue #2157 - docs on the email library
+Fix SQLSRV escape_str()
+Fix interbase limit issue for subqueries
+Fix MSIE conditionals regex in minify output
+Revert "Fix MSIE conditionals regex in minify output func"
+Fix MSIE conditionals regex in minify output func
+Fix #2108
+Fixed normalization of headers under Apache
+[ci skip] Fix some spaces
+Fix 2073
+Fix #2074
+Fix function_usable()
+Fix #2072
+Fix issue #539
+Fixed bug with regexp that matched tags
+Fix issue #2061
+Fix postgre db_connect()
+Fix #2041
+Fix #2037
+Fix some erroneous variable names (sorry)
+Fix #2027
+Fix #113
+3.0.0-dev: Fixing the issue #2023.
+Fix issue #118 (manually implementing PR #1832)
+[ci skip] Fix a typo in the styleguide
+Fix modify_column() issues (#2020)
+Fix #1996
+Fix issue #2015
+Fix an E_NOTICE
+Fix CI_Input::get() and CI_Input::post() not returning array when a key is not specified
+Fix #18
+Fix issues #751 and #2004
+Fix PostgreSQL WHERE with boolean values
+Fix some DB_cache-related issues
+Fixed an issue with my merge
+Fix issue #1994
+Fixed a typo
+Fix issue #1992
+Fixed a mismatched constraint value when creating the migration table
+Fix issue #777
+Fix DBForge index creation on MySQL and CUBRID
+Fix #1985
+Fix directory_map() tests
+Fix issue #1978
+Fix a lang key typo
+Fix #589
+Fix an escape_identifiers() bug
+Fixed a grammatical typo.
+Fixed typo in unit testing documentation.
+Fix Forge add_column() and modify_column()
+Fix DB drivers version() implementations that don't execute a query
+Fix #708
+Fix #98
+Fix #1957
+Fixed typo in logs.
+Fix the bloody tests
+Fix a directory/404_override bug and some routing-related optimizations
+Fix #1960
+Fix #1956
+Fix issue #122
+Fix an erroneous variable name
+Fix issue #1953 (form values being escaped twice)
+Fix an update_string() bug
+Fix #1946 dbforge add_key
+Fix issue in resetting QUERY_STRING, GET vars introduced in f2b19fee7876708c7a7bb5cba6b7df682a9d2a53
+Fix issues #388 & #705
+Fix an erroneous variable name
+Description for Fix #1938 added to changelog (sync)
+Description for Fix #1938 added to changelog
+Fix issue #658 (:any wildcard matching slashes)
+[ci skip] Fix a note in the QB documentation
+Fix issue #658 (:any wildcard matching slashes)
+[ci skip] Fix a note in the QB documentation
+Fix #1938
+Fix #1937
+Fix Loader tests
+Fix #50
+Fix #142
+Fix #1624 and clear-up the form validation docs (manually applying #1603)
+Fix an improper usage of empty() in the URI class
+Fix issue #59
+Fix #1811
+Fix #1146
+Fix #1255
+Fix #191
+Fix #1268 (or rather enforce some security measures, there's nothing really broken)
+Fix insert_batch() test case
+Fix #1922
+[ci skip] Fix a docblock
+[ci skip] Fix an erroneous link in the docs
+Fix issue #1925 (order_by() with  = FALSE)
+Fix issue #1917
+Fix issues #134, #1911
+Fix issue #779
+Fix a mock db entry
+Fix #1913
+Fix where() & having() escaping/prefixing literal values containing a period
+Fix issues #1476, #1909
+Fix another mailing issue (based on #1281)
+Fix issue #1409
+Fix Session cookies not being encrypted on creation and sess_destroy() not actually deleting cookies
+Fix issue #1897
+Fix user guide typos [ci skip]
+Fix CI_Input::ip_address() subnet detection
+Fix mysql's db_connect()
+Fix order_by()
+Fix where_in()
+Fix where() with literal multiple conditions
+Fix having(), group_by()
+Fix delete() with multiple tables and an erroneous variable
+Fix _get_operator() for 'LIKE expr ESCAPE'
+Fix issue #1875
+Fix issue #1862
+Fix email headers when using long email subjects and \r\n as crlf. (Part2)
+Fix a typo [ci skip]
+Fix issue #1257
+Fix issue #1765
+Fix SQLite3 DB error handling
+Fix #1745
+Fix issue #1692
+Fix issue #1340 [ci skip]
+[ci skip] Fix up the cheatsheets page (original pull #1244)
+Fix issue #935 [ci skip]
+Fix issue #116 + other space/style fixes [ci skip
+Fixed conflicts in changelog to reflect all changes.
+Fix escape_like_str() tests
+Fix issue #1789
+Added .dot and .dotx mimes. Fixes #1803
+Added 'binary/octet-stream' as PDF mime. Fixes #1840 and #1828
+Fixed #1817 Pagination class error
+Fixed pagination document error.
+Fixes issue #1815 - input::ip_address() returns incorrect IP behind proxy
+Removed the &nbsp; from the default config variables in the pagination class. Fixes #187 and #208
+Fixed issues #1756 and #1711
+Fix #1741 is_unique duplicated in documentation for Form_validation
+Fixed defaults and database check, reverted redundant shutdown feature
+Fixed multi-driver load return and last-ditch library subdirectory retry object names
+Fixed select_driver(), cookie sess_destroy(), and native cookie name conflict
+Fixing code sample styling and footer link
+Fixes issue #1678
+Fix bug #1000
+Fix issue #1712
+Fix email headers when using long email subjects and \r\n as crlf.
+Fix for oci_fetch_assoc(): ORA-01002: fetch out of sequence warning
+Fixed a bug when detecting if the user used a callback.
+Fixed userdata synchronization, loaded driver check, and all_flashdata keys
+Fixed _parent references and several minor bugs
+Fixed messed up welcome controller.
+Fix issue #1644
+Fix a bug in CI_DB_sqlsrv_driver::affected_rows()
+Removing $reduce_linebreaks in auto_typography helper. Fixes #1642
+Fix CI_DB_driver::_get_operator()
+Fix WHERE escaping/prefixing
+Updated .htaccess files with Apache 2.4+ safe deny statements. Fixes #1631
+Fix on _update_batch() : wrong variable used for field selection
+Fix in index.php inline documentation
+Fix issue #1613
+Fix some spaces here
+Fixed typo in the comments
+Fix a typo in Common.php
+Fixing typo in error for multiple migration conflict.
+Fix issue #1591
+Fix a join() test ... doh
+Fix a few join() bugs
+Fix PDO version()
+Fix pdo_result num_rows() for subdrivers that don't support rowCount()
+Fix a typo
+Fixed annotation for CI_Migration->find_migrations() method
+Fixed a change log formatting issue and doc reference
+Fix URL helper link
+Fixing upgrade file references
+Fix typos in upgrade_300.rst
+Fix some whitespace, removed unnecessary string concatenation.
+Fix issue #1567
+Fix an error in Loader code documentation
+Fixed code styling
+Fix standard_date() tests
+Fix issue #1551
+Fix MSSQL & SQLSRV db_connect()
+Fix field escaping with brackets
+Fix pdo_dblib and pdo_sqlsrv db_connect() and suppress warning messages for subdrivers that don't support certain option attributes
+Fixing imagemagick maintain ratio not implemented
+Fix issue #1546
+Fix Oracle limit() for pdo_oci
+Fix issue #1545
+Fix a PHPDoc error in FTP Class
+Fix issue #427
+Fix get_where() test
+Fix issue #1533
+Fixing various Sphinx bugs and syntax errors in docs
+Fix an erroneous property name
+Fix pdo_mysql db_connect() with empty char_set
+Fix pdo_pgsql _limit()
+Fix issues #1529 & #1530
+Fix Interbase _field_data() method
+Fix the subdriver check
+Fix issue #79
+Fix issue #1510
+Fixed Migrations and an incorrect strict comparison.
+Fix ODBC _limit()
+Fix issue #1328
+Fix two anchor_popup() issues
+Fix CI_Calendar::generate() not accepting NULLs (introduced in d261b1e89c3d4d5191036d5a5660ef6764e593a0)
+Fix issue #999
+Fix local_to_gmt()
+Fix issue #938 + some related improvements
+Fix issue #318 + added a default to the switch() in CI_Output::minify()
+Fix issue #167
+Fix error in Encryption Class documentation
+Fix nice_date() documentation
+Fix issue #520
+Fix having()
+Fix issue #1483
+Fix issue #1482
+Fixed ANOTHER DB_Forge bug in the mysql driver. I'm watching you @narfbg.
+Fix an issue from d461934184d95b0cfb2feec93f27b621ef72a5c2
+Fix issue #10 + URI class speed improvements
+Fixed some stuff in documentation.
+Fix docs for Input library (issue #1465)
+Fix a syntax error
+Fix issue #1460
+Fix issue #145
+Fix APPPATH
+Fix issue #1202
+Fix an issue introduced in 88cb278a1e52dd7db5b0ebe2037c12f0dd69c0c1
+Fix issue #1264
+Fix a join() issue
+Fix issue #1456
+Fix issue #1455 (introduct in d261b1e89c3d4d5191036d5a5660ef6764e593a0)
+Fix _where() with multiple condition custom query
+Fix _where() escaping operators
+Fix count_all()
+Fix issue #1452
+Fixed timezone change in index.php Now it does not ever change the local timezone, and it adds the option to get the 'local' time()
+Fix defined() usage in system/core/Common.php
+Fix issue #1447
+Fixed according to feedback.
+Fix a syntax error
+Fix issue #861 (and previous commit, for that matter)
+Fixing extra td; Issue #1374
+Fix a magic_quotes-related bug and changed the default parameter value for is_php()
+Fix issue #1423
+Fix an SQLite3 pconnect() bug + other minor changes
+Fixing final SQLite bug introduced in 48a2baf0e288accd206f5da5031d29076e130792
+Fix for bug in SQLite introduced in 48a2baf0e288accd206f5da5031d29076e130792
+Fixing PDO bug introduced in 48a2baf0e288accd206f5da5031d29076e130792
+Fixed bug in MySQL driver introduced in 48a2baf0e288accd206f5da5031d29076e130792
+Fixed bug in PostgreSQL introduced in 48a2baf0e288accd206f5da5031d29076e130792
+Fixed bug introduced in ed944a3c70a0bad158cd5a6ca5ce1f2e717aff5d
+Fixed bug created in `test_where_custom_string()` in /tests/codeigniter/database/query_builder/where_test.php by d6d1150959c95e43d310d0bc45f8bd674ff6460c
+Changed load model examples to use lowercase model name. Fixes #1417
+Fix issue where cache backup is ignored on first call.
+Fix issue #862
+Fix issue #136 (MySQL escape_like_str())
+Fix issue #319
+Fix issue #121
+Fix issues #44 & #110
+Fix issue #1273 and some cleanup in Query Builder
+Fix issue #1388
+Fixed conflicts with 2.1-stable merge.
+Fix a typo in the changelog
+Fix a issue with CI_DB_pdo_result::num_rows()
+Fix a issue with affect_rows in CI_DB_pdo_driver::_execute()
+Fixed typo
+Fixed some spaces
+Fixed return line and comments
+Fix issue #726
+Fixed conflicts from merging in 2.1.1.
+Fix issue #1349
+Fix issue #1342
+Fixing some typos in the xmlrpc class. Also, fputs is an alias for fwrite.
+Fixing some typos.
+Fix phpdoc config file
+Fix a wrong variable name
+Fix pagination anchor_class with multiple initializations
+Fix rest of the helpers
+Fix docblocks A-H
+Fix calendar and session libraries
+Fixed Cart, Migration, Parser and Zip libraries
+Fix Cache, Image_lib and Log libraries
+Update system/core/Input.php Fix a cookie get back problem. Cookie $index should start with a prefix.
+Fix Config.php and partially fix Image_lib.php
+Fix Table library docblocks
+Fixed conflicts.
+Fixed issue #122 - ruri_string() in subdirs.
+Fix issue #1265
+Fix syntax error
+Combine this feature with Fix Issue #935 in another pull request.
+Fix a merge oopsie in the language file.
+Fix changelog merge conflict
+Fix AR delete() for MSSQL and SQLSRV
+Fix AR delete() for Oracle
+Fix a CI_DB_pdo_driver::trans_commit() bug
+Fix erroneous merge
+Fix changelog
+Fix PDO field and table escaping
+Fixed MSSQL and SQLSrv truncate()
+Fixed schema
+Fix postgre table datatype
+Fix sqlite issue on PHP 5.4 both for native and PDO driver
+Fixing doc link in changelog
+Fixing user_guide compilation warnings
+Fix PostgreSQL connection strings
+Fix some stuff broken during repo sync
+Fix Posgres driver connection string. Current version has incorrect "username" parameter, which should be "user"
+Fix an issue in CI_Trackback::validate_url() and do some cleanup and optimizations in the library
+Fix issue #1238
+Fix issue #14
+Fix style coding
+Fix for Issue 88. _default_options does not exist in the Cache_memcahe driver
+Fix a CI_Loader::_ci_load_class() bug
+Fixed a typo and added the route for the config file.
+Fixed typo.
+Fix some examples in the user guide
+Fixed an issue with PostgreSQL's escape_str()
+Revert "Fixed visibility declarations on dbforge and utility classes"
+Fixed visibility declarations on dbforge and utility classes
+Fix possible error messages with do_hash() and alter a changelog entry
+Fix form_fieldset_close() example to match actual return
+Fix form_input() associative array example to match actual return
+Fix comment typo in Form_validation.php
+Fix some spaces and alignments in the new Wincache driver
+Fix escape_str() and change _prep_query() to just return the query
+Fixed typo in English language file for upload library.
+Fix conflicts (or at least trying to do so)
+Fix _limit()
+Fix erroneus regex from previous commit
+Fix incomplete and skipped test
+Fixing some spacing.
+Fix camelize()
+Fixed camelize.
+Fix test errors in Loader_test.php and URI_test.php
+Fix issue #1148
+Fix an eventual issue with LIKE escaping
+Fix documentation entry for the decimal form validation rule (issue #1149)
+Fix issue #940
+Fixed bug with rules not being passed to _config_delimiters or back into $this->_config_rules.
+Fix issue #501
+Fixed a bug in CI_Session::_unserialize()
+Fix issue #1125 ... for real
+Fixed bug for PostgreSQL driver where setting a limit() on update() or delete() would throw a syntax error from Postgres.
+Fix issue #64
+Fixed note in documentation
+Fix issue #1125
+Fix indentation for changes from pull #1121
+Fixed conflicts.
+Fixed a bug - CI_Upload::_file_mime_type() could've failed if popen() is used for the detection.
+Fix MySQL/MySQLi field_data()
+Fix a bug in Oracle's DB forge _create_table() method (AUTO_INCREMENT is not supported)
+Fix issue #1101 (MySQL/MySQLi result field_data())
+Fix issue #803 (Profiler library didn't handle objects properly)
+Fix issue #413 (Oracle _error_message(), _error_number())
+Fixed a bug in CUBRID's affected_rows()
+Fix a bug in PDO's insert_id() (PostgreSQL-specific)
+Fix PDO's _version() method where it used to return client version instead of the server one
+Fix issue #1036 (is_write_type() returned FALSE for RENAME, OPTIMIZE queries)
+Fix issue #611 (SQLSRV _error_message() and _error_number() warnings)
+Fix issue #153 (E_NOTICE generated by getimagesize())
+Fix issue #129 (ODBC num_rows() returning -1 in some cases)
+Fix issue #81 (ODBC list_fields(), field_data())
+Fix an Oracle escape_str() bug (#68, #414)
+Fix 'skip' section of limit clause
+Fix ODBC num_rows() for subdrivers that return -1
+Fix issue #177
+Fix escape_like_str()
+Fixed a db_set_charset() bug
+Fix issue 1070
+Fixing an error in #1061
+Fix counting issue, minor formatting
+Revert "Fix previous commit"
+Fixed insert_id possibly returning 0
+Fix previous commit
+Fixed result array fetching
+Fixed meta table method(s) for PDO
+Fixed issue #960
+Fix another issue
+Fix issue #1039
+Fix issue #81
+Fix issue #1036
+Fix Easy Connect string regexp and give TNS priority over it
+Fix pconnect with DSN
+Fix a changelog entry
+Fix auto_commit initialization
+Fix a possible bug in DB() and renamed a variable
+Fixed rtrim issue in hostname fragment, for backward compability
+Fix issue #81
+Fixed old-style pdo connection string
+Fix link to changelog
+Fixed PDO
+Fix CI_Input::is_ajax_request()
+Fix #1009 documentation fixed
+Fix some comment blocks
+Fixed some spaces.
+Added some more doctypes. Fixes #952.
+Fix issue #128
+Fix _limit()
+Fix _limit()
+Fix a comment typo
+Fixed spaces to conform to style-guide.
+Fix bug #195
+Fixed syntax according to feedback.
+Fix issue #154
+Fixed error in inflector_helper.php in the singular function. The function was excepting $singluar_rules and got $singular_values.
+Fix issue 863
+Fix a bug in system/core/CodeIgniter.php
+Fix a bug in the File helper
+Fixed a bug in CI_Lang::load()
+Fix issue #904
+Fix error undefined variable query on count_all_results db active record
+Fix a possible notice in Output library
+Fixes for issue 896
+Fix the same expression in crop()
+Fixed a bug in CI_Image_lib::resize()
+Fix issue 413
+Fix a method description
+Fixed paging with prefix and suffix for real page numbers. Refs #677 Fixes #52
+Fixed prefix and suffix in pagination. Fixes #677
+Fix a comment and remove access description lines
+Fix a comment typo
+Fix a bug and put some comments describing changes from pull #818
+Fix #808 Postgresql DBForge Driver errors. - _process_fields() was missing and add_column(), drop_column() was producing malformed queries.
+Fixing a documentation linking error in the 3.0 upgrade notes.
+Fixing a couple of issues in documentation files that occur when running Sphinx 'make html'
+Fixing soft tabs in a few files.
+Fix news item href
+Fixed year and month seconds for timespan().
+Fix regular expression for validating MIME type string
+Fix for Issue #538.
+Fixed typo in introductory paragraph.
+Fix for is_unique when you are not connected to a db. Refs: #724
+Changed pagination construct to call initialize so it sets the anchor class properly. Fixes #737
+Fixed sytax error in pdo driver
+Fixed accept lang test to account for boolean results.
+Fixed variable name causing problem
+Added 'opera mobi' to user agents making it identified as 'Opera Mini'. Fixes issue #683
+Fixed conflicts.
+Added TLS and SSL support to Email library. Fixes issue #171
+Fix invalid datetime format
+Fix invalid date format
+Fix invalid date format
+Fix invalid datetime format
+Fix invalid date format
+Fix invalid date format
+Fixed small typeo
+Fix some typo
+Fix #8 - Load core classes from the application folder first.
+Fixed one-liner code on Database Connection page of userguide
+Fixed issue #150 correctly.
+Fixed issue #150 (for mysql and mysqli), now returns the actual column length.
+Fixed a bug (#200) where MySQL queries would be malformed after calling db->count_all() then db->get()
+Typecast limit and offset in the Database Driver to integers. Fixes https://bitbucket.org/ellislab/codeigniter-reactor/issue/341/active-record-limit-function-have-sql#comment-597403
+Fixed LIKE statement escaping issues
+CI_Loader::driver() processes empty library. Fixed.
+Fix #576: using ini_get() to detect if apc is enabled or not
+Fix #576: using ini_get() to detect if apc is enabled or not
+Fixed pages route. Thanks @tomcode.
+Fix #537 issue: replace new wav mimetype
+Fix an erroneus variable name and a typo in comments
+Fix alignment with tabs instead of spaces
+Fixed an issue with the Image_lib class not clearing width, height or create_thumb properties when calling the clear() method.
+Fix mysql charset bug
+Fixes issue #439 some slashes not escaped in session data
+Fix #576: using ini_get() to detect if apc is enabled or not
+Fixed merge error.
+Fixed new line typo.
+Fixed code style issue
+Fixed markup glitches from HTML to RST parser.
+Fixed an extraneous new line
+Fixed some formatting issues with the changelog
+CI_Loader::driver() processes empty library. Fixed.
+Fix some user guide style
+Fix Views on User Guide
+Fix Controllers on User Guide
+Fix CodeIgniter URLs on User Guide
+Fix #537 issue: replace new wav mimetype
+Fix Encryption Class User Guide
+Fix Database Configuration on User Guider
+Changed translation of D and d in foreign chars. Fixes #500
+Fix location file Security Class to core folder
+Added TLS and SSL support to Email library. Fixes issue #171
+Fixing issue 465: select_max is adding prefix to table aliases when is not necessary
+Fix a typo on User agent library.
+Fix #484 - Hash is never set to the cookie
+Fix an erroneus variable name and a typo in comments
+Fixing the documentation link in the Unit_test library so that it points to the correct page
+Fixing the documentation link in the Typography library so that it's valid
+Fixing the Encryption link in the Sha1 library so that it's valid
+Fixing the documentation url given in the Table library
+Fix a variable type mismatch (issue #89) in system/database/DB_driver.php
+Fix alignment with tabs instead of spaces
+Fix issue #182 in system/database/drivers/oci8_result.php by caching the num_rows property after statement execution
+Fixed style guide suggestion from philsturgeon on code review
+Fix ./system/database/drivers/oci8_driver.php to pass the configured database character set on connect.
+Fixed affected_rows() function, added PDO/postgres note for insert_id() function
+Fixed LIKE statement escaping issues
+Fix some text
+Fix some typo
+Fixed pages route. Thanks @tomcode.
+Fixed URL helper documentation merge conflict.
+Fix for issue #406
+Fixed int typecasting of limit parameter in DB_active_rec.php
+Fix issue #378
+Fixed incorrectly named variables in the documentation.
+Fixed some formatting and stuff.
+Fixed some items based on code comments by gaker.
+Fixed issue #105 SQL log errors Enabled logging database query errors even if $db_debug is not enabled.
+Fixed recent change to $this->db->field_data() which errored for field types without constraints. It now uses a less expecting regex and defaults to NULL.
+Fix the default migration path.
+Fixed conflict with changelog.
+Fixed conflict in url_helper docs.
+Fixed spelling mistake.
+Fix hiperlink Added html_escape() on changelog
+Fixed class comment and reconnect function
+Fix link database driver on changelog
+Changed  doc block options. Fixes #100
+Changed  doc block options. Fixes #100
+Fixed db->close() and db->free_result() functions
+Fix #8 - Load core classes from the application folder first.
+Fixed #56
+Fixing a spelling error.
+Fixing errors in date helper tests.
+Fixed issue #26. Added max_filename_increment as a config setting.
+Fixed issue #150 (for mysql and mysqli), now returns the actual column length.
+Fix for issue #106
+Fixing stylish things
+Fixed more awesome stuff.
+Fixed some stuff.
+Added new config parameter "csrf_exclude_uris" which allows for URIs to be whitelisted from CSRF verification. Fixes #149
+Fixing configuration
+Fixed problem with needless seperator at begin/end of string
+Fix for the Image_lib clear() function so that it resets all variables to their default values.
+Fixed a bug (#181) where a mis-spelling was in the form validation language file.
+Fixed a bug (#200) where MySQL queries would be malformed after calling db->count_all() then db->get()
+Fixed conflict.
+Fixed a bug (Reactor #89) where MySQL export would fail if the table had hyphens or other non alphanumeric/underscore characters.
+Fixed conflicts in changelog.
+Fixed conflicts.
+Fixed conflicts.
+Fixed conflict in changelog.
+Fixed mysql and mysqli drivers to set NOT NULL as default for creating fields. All other drivers were correct.
+Fixed having method to insert quotes.
+Fixed issue #199 - Attributes passed as string does not include a space between it and the opening tag.
+Fixed conflict in changelog.
+Fixed conflicted changelog.
+Typecast limit and offset in the Database Driver to integers. Fixes https://bitbucket.org/ellislab/codeigniter-reactor/issue/341/active-record-limit-function-have-sql#comment-597403
+Fixed #378 Robots identified as regular browsers by the User Agent class.
+Fixed typo in ActiveRecord.
+Fixed a bug where Email library attachments with a . in the name would using invalid MIME-types.
+Fixed a bug where using this->db->select_max(), this->db->select_min(), etc could throw notices. Thanks to w43l for the patch.
+Fixed having method to insert quotes.
+Fixed mysql and mysqli drivers to set NOT NULL as default for creating fields. All other drivers were correct.
+Fixed issue #199 - Attributes passed as string does not include a space between it and the opening tag.
+Fixed missing table prefixes in Database Forge Class rename_table() method
+Fixed some small issues in the date tests.
+Fix #275 -- regression in db::_compile_select().  Thanks @patwork for the patch
+Fixed a regression where a PHP error could occur when using some methods.
+updated application flow image.  Fixes #273 - thanks @InsiteFx
+Fixed conflict with migrations merge.
+Removed the GET, POST, and COOKIE Data from security since we now allow $_GET data. Fixes #48
+Fixing up a tabs vs spaces inconsistency in DB_Result
+Fixed double-space typo.
+Fixed #74.
+Fixed #60.
+Fixed typo error in toc.html in documentation.
+Fixed #243 - Changed php version in the style guide to match requirements.
+Duplicate this->db->insert_batch in documentation. Fixes #202
+typo in modification to MySQLi driver.  Fixes #236
+Fix #233 Fixing a regression in _get_validation_object() in the form helper after some refactoring the other day.
+Fixed re-searching for config file even though one had been loaded ($found was set to true, never reset). Also fixes getsparks issue.
+Fix #235 error in form_helper docs.
+Fixing up the scope soup, and adding a way to set core config items.
+Fixed a bug (Core #340) where when passing in the second parameter to $this->db->select(), column names in subsequent queries would not be properly escaped.
+Fixing download links for reactor -- thanks kenjis for the patch
+Fix #224 Error in primary index.php $routing instructions
+Fixed a bug (Reactor #231) where Sessions Library database table example SQL did not contain an index on last_activity. See <a href="installation/upgrade_203.html">Upgrade Notes</a>
+Added ENVIRONMENT to reserved constants. Fixes #196
+Changed server check to ensure SCRIPT_NAME is defined. Fixes #57
+Fix: codeigniter-reactor/199 cookie name was overwritten with token name
+Fix: codeigniter-reactor/32 unicorns are no longer mute
+Fix: codeigniter-reactor/199 CSRF config in Security class is no longer ignored
+Fix: codeigniter-reactor/127 Form_validation rule error logging
+Fix: codeigniter-reactor/193 incorrect driver filepaths
+Fixed bug with form_helper calling now protected variables.
+Fix: #192 CI version constant incorrect in core/CodeIgniter
+Fixing a bug in the form_helper where csrf_token_name and csrf_hash were referencing class properties in the Security class that were moved.
+Fixed a bug in the Javascript Library where improperly escaped characters could result in arbitrary javascript execution.
+Fixed loading an array of libraries.
+Fixed issue #153 Escape Str Bug in MSSQL driver
+Fixed type in the JavaScript documentation for animate().
+Fixed merge.
+If you do is_really_writable() on a file that does not exist on a Windows server or on a Unix box with safe_mode enabled, it will create the file and leave it there. Fixes #80
+Added error logging to language. Fixes #32
+Fixed logic and removed the error supressing
+Fixed wording when inserting object via active record. Fixes: #143
+Removed closing php in creating libraries. Fixes: #129
+Changed scope on parse_exec_vars. Fixes #145
+Fixed coding to match standards from previous releases
+Wrong title for environments page. Fixes: #135
+Fixed upload issue reported by Valhallen and fixed by bubbafoley.
+Fixed the capitalization "bug" in the singular function as well.
+Fixed last commit, form helper will work fine for self-submissions and normal URLs.
+Added location of config for changing logging threshold. Fixes #120
+Fixed the function name in captcha helper. Fixes #51
+Fixed missing parentheses and added scope to examples. Fixes #103
+Fixed bug in escaping underscores etc in MSSQL LIKE conditions.
+Fixed docs specifying cache location (sys/cache v app/cache)
+Fix #329 where the file caching driver referenced the incorrect cache directory.
+Changed toc to match the js toc - Fixes #45
+Changed the downloads to be 2.0.0 - Fixes #47
+Fixed issue #41: Added audio/mp3 mime type to mp3.
+Fixed is_referral to return proper status. Fixes #40
+Fixes #27.  When the default controller was used, the _detect_uri() method was returning an incorrect URI, which caused a 404 when a query string was used and no controller specified. via Dan Horrigan
+Fixed a bug where the table class would not clear table data after calling generate().
+Added 404_override to Codeigniter file to catch the 404 if the controller is available but no method. Fixes #19
+The db utility had the wrong code example for database_exists(). Fixes #26
+Fixed breadcrumb and removed errand parentheses.
+Fix #21 - Typo in get_metadata() function of apc and memcached cache drivers.
+Updated the auto URI detection so that it works in more scenarios.  Fixes #3
+Fixed bug that prevented global config from loading on error
+Changed instructions for location of log path. Fixes #305
+Removed trailing slash from $this->uri->ruri_string(). Fixes #292
+Fixed a bug (#14628) where the DATE_ISO8601 variable was returning an incorrectly formatted date string.
+Added ability to auto load package config files. Fixes #281
+Changed email library to allow setting different user-agent. Fixes #286
+js and css was loaded via absolute url instead of pointing relative. Fixes #289
+js and css was loaded via absolute url instead of pointing relative. Fixes #289
+Fixed version in file uploading docs. Fixes: #255
+Fixed version in file uploading docs. Fixes: #255
+Fix #85 error in db queries in the output profiler.
+Fix #93 Updating postgres dbforge create table method. Thanks to James Gifford for the patch. http://codeigniter.com/forums/viewthread/73392/
+Fix: #236 Adding audio/mpeg3 as a valid mime type for mp3
+Fix: #211 DATE_RFC822 format in documentation was incorrect.  Should include a 2 digit year, not four.  see: http://www.w3.org/Protocols/rfc822/#z28
+Fix #288 html error in changelog.html
+Fix #260 - tightening up the is_ajax_request() method in the Input class.  Thanks sophistry for the suggestion
+Fix #237 get_instance() was being called in the output class before the CI_Controller exists.
+Fix #231 removing some PHP 4 doc notes from the creating libraries documentation
+Fix #233 Change Controller to CI_Controller in the models documentation
+Fix #230 where the validation class was referenced in the docs, not the form_validation class.
+Fixing a bug created yesterday with overzealous constructor replacements.
+Fixing output buffer error in the loader class
+Fix #225 typo in cart lib docs
+Fix #95 bug in the html helper where too much white space was rendered between the src and alt tags in the img() function.
+Fix #219 broken images in the documentation
+Fix #48  linking CI 2.x upgrade notes. Also including an instruction to extend CI_ classes.
+Fix #62 Adding CI_ prefix to Controller.
+Fixed a bug where  silently failed to override if set_time_limit was in Suhosin's function blacklist. Simply moved the set_time_limit call down a bit.
+Fixing the docblock on the unicode class.
+Fix #220 -- Missing semi-colon in captcha helper userguide on SQL command.
+Fix #83 where multiple libraries could not be loaded at once by passing an array to the load->library() function.
+Fix #120  -- Wording of Cross Site Request Forgery in config.php
+Fixed a bug where CI_Model is always loaded in core/Loader.php, regardless of if the class is instantiated or not.
+Fixed CSRF comments to avoid confusion.
+Fixed link
+fixed some grammar errors in the Views documentation.  Fixes #154
+added sess_expire_on_close to config file, corrected comment block for session config vars.  Fixes #149
+Fix #96 html validation failure on csrf hidden input on form_open() in the form helper.  Added <div class="hidden"> around the hidden form input.
+Fixed http://bitbucket.org/ellislab/codeigniter/issue/38/slight-bug-with-profilerphp
+Fixed a bug in the URL Helper where prep_url() could cause a PHP error on PHP versions < 5.1.2.
+Fixed a bug #129 where Model documentation referenced parent::Model instead of parent::CI_Model.
+removed redundant upload lang file, after lang name changs, it was blocking the CI lang file from loading.  Fixes #473
+Fixed a bug in the Upload class where a PHP error could occur when wildcards were used as the allowed_types.
+Fixed an example typo
+Fixed an undefined variable PHP error in the do_xss_clean() method of the Upload library.
+corrected references to Input class since the Security methods are now their own library.  Fixes #31
+ensured the security lib was loaded in a few calls to xss_clean() in other libraries.  Fixes #35
+Fixed Upload bug that would break when files and images were both included on an allowed filetype list in the wrong order: http://codeigniter.com/bug_tracker/bug/11552/
+Fixing a bug where odbc/mssql/oci8 db drivers would encounter a PHP error due to a function being moved from the input to security class.
+Fix #15 - Strict Standards Error in index.php
+Fixing typo in XMLRpc error message:
+Fixing Validation error in output profiler
+Fix #10 , extending the CodeIgniter controller with MY_Controller will lead to a fatal PHP error.
+Fixed constant SELF undefined issue when a bad system folder is set.
+Fixed a bug where files created with the Zip Library would result in file creation dates of 1980. Hat tip to JMous for a suggested fix on the forums.
+Fix #2 -- extra </a> on docs page
+Fixing bug in DB Driver where identifiers could be escaped in some drivers that can't accept it in the list_fields() function.
+Fixed a language key in the profiler: "profiler_no_memory_usage" to "profiler_no_memory".
+Fixed an error in the Zip library that didn't allow downloading on PHP 4 servers.
+Fixed a bug in the language class when outputting an error for an unfound file.
+Fixed a bug in the Calendar library where the shortname was output for "May".
+Fixed a case sensitive string replacement, simplified redundant string replacement
+Fixed a bug in the Form Validation library where multiple callbacks weren't working (#6110)
+Fixed a bug that was not setting the default checkbox/radio/pull-down value correctly
+Fixed a bug in the "save cart" function that was causing the total to be calcluated incorrectly
+Fixed a bug in plural() with words that end in y
+Fixed a bug where TRUNCATE was not considered a "write" query (#6619).
+DB count_all() not returns an integer always Added some syntactical improvements within DB (braces) Fixed a bug when doing 'random' on order_by() (#5706). Fixed a bug where adding a primary key through Forge could fail (#5731). Fixed a bug when using DB cache on multiple databases (#5737).
+Fixed a bug where the end character was being added when the character limit's limit intersected the last word of the string.
+Fixed a bug affecting some locales where word censoring would not work on words beginning or ending with an accented character.
+Fixed a bug when an opening quote is preceded by a paragraph tag and immediately followed by another tag.
+Fixed a bug in database escaping where a compound statement (ie: SUM()) wasn't handled correctly with database prefixes.
+Fixed the regex matching that checks for user-submitted paragraph tags, it was incorrectly matching in cases like
+Fixed order_by bug #5704
+Fixed a bug in which identifers were not being escaped properly when reserved characters were used
+Fixed bug #5702, in which the field label was not being fetched properly, when "matching" one field to another.
+Fixed a typo
+Fixed a typo
+Fixed some typos
+Fixed a bug in which the parser was being greedy if multiple identical sets of tags were enountered
+Fixed a bug in the table_exists function
+Fixed a nexted <li> bug
+Fixed a bug in which NULL values were not being preserved
+Fixed a bug in which servers that are case sensitive to file names were ignoring config files unless they were named with the correct case
+Fixed a bug in which the "isset" error message was being trigged by the "required" rule.
+Fixed a variable typo
+Fixed a typo
+Fixed an AR caching bug: 4995
+Fixed a preg_replace bug if the supplied string contains the delimiter
+Fixed bug: 5043
+Fixed an undefined variable.  Bug #5311
+Fixed an error reporting bug: 4900
+Fixed bug: 4893
+Fixed a tab issue
+Fixed bug #4562.  A path was not defined for NetPBM
+Fixed bug #4532.  If cropping, but the new values are identical to the old values we simply save
+Fixed a bug (4718) in which the path to the files was being set in correctly.
+Fixed bug 4775.  The constant AMP was undefined... this was a copy/past from EE code, where AMP exists.
+Fixed a number of bug reports related to table/db names not being escaped or prefixed correctly.
+Fixed a number of bug reports related to table/db names not being escaped or prefixed correctly.
+Fixed bug (#3472) that was adding quotes incorrectly.
+Oops!  Didn't realize that the CI super object was not being used by the main Driver.  Fixed...
+Fixed Oracle bug (#3306) that was preventing multiple queries in one action
+Fixed a bug (#2985) in which multiple queries using a single request were not being honored
+Fixed extra text in img() function description of the userguide
+Fixed a routing bug that occurred when the default route pointed to a subfolder.  Bug report: http://codeigniter.com/bug_tracker/bug/4661/
+Fixed the spelling of "Dhaka" in the timezone_menu() function of the Date helper. Added a missing quote in an example on the index page
+Fixed incorrect parenthesis in form_open() function. (#5135) A few doc typo fixes
+Fixed a bug in the Session class when database sessions are used where upon session update all userdata would be errantly written to the session cookie.
+Fixed a bug that was adding too many blank paragraph tags under certain conditions
+Fixed a boneheaded mistake I made...
+Fixed a language bug when setting errors manually
+Fixed a typo
+Fixed an empty string error
+Fixed the spelling of "respberry" in config/smileys.php
+Fixed a variable that was set wrong
+Fixed a typo
+Fixed a comment typo
+Fixed a bug in is_natural_no_zero
+Fixed a double opening &lt;p&gt; tag in the index pages of each system directory.
+goofed.  Fixed up.
+Fixed a bug (#4561) where orhaving() wasn't properly passing values.
+Fixed an example in Model docs
+Fixed a bug in AR compiling, where select statements with arguments got incorrectly escaped (#3478).
+Fixed a bug where $data was not being converted to an array properly in set_rules()
+Fixed bug with recursive deletes in delete_dir()
+Fixed an incorrect documentation of $this->load->language (#3520).
+Fixed a bug in the table library that could cause identically constructed rows to be dropped (#3459).
+Fixed a bug in DB Forge, when inserting an id field (#3456).
+Added the ability to set CRLF settings via config in the Email class. Added SVN commit number to changelog Fixed more guide typos and examples
+Fixed an AR bug when joining with a table alias and table prefix (#4400).
+Fixed a bug that wasn't allowing escaping to be turned off if the value of a query was NULL.
+Fixed a bug in link_tag() of the URL helper where a key was passed instead of a value.
+Fixed bug #4350 in get_filenames() when the $source_dir does not include a trailing slash
+Fixed an AR_caching error where it wasn't tracking table aliases (#3463)
+Fixed  bug (#3445) where the routed segment array when the default controller is used was not being re-indexed to begin with 1
+Fixed a bug in query binding (#3402).
+* Fixed a bug (#3396) where certain POST variables would cause a PHP warning. * Added $_SERVER, $_FILES, $_ENV, and $_SESSION to sanitization of globals.
+Fixed a bug where DBForge was outputting invalid SQL in Postgres by adding brackets around the tables in FROM
+Fixed bug #1813 - added check for $CI->db isset() and is_object() before returning false in Loader::database()
+Fixed a bug (#1872) where word_limiter() was not retaining whitespace.
+Fixed a bug (#2849) with arguments passed to a subfolder controller - CodeIgniter.php was expecting the subfolder to still be in $URI->rsegments, but it is removed already by Router::_validate_request()
+Fixed a bug (#3269) where the rsegment array would not be set properly when there is no URI request.
+Fixed a bug (#2679) where the "previous" pagination link would get drawn on the first page.
+Fixed a bug (#3024) in which master_dim wasn't getting reset by clear() in the Image library.
+Fixed a bug (#2858) which referenced a wrong variable in the Image class.
+Fixed a bug (#3328) where the smiley helper might return an undefined variable.
+Fixed a bug (#3330) in the FTP class where a comparison wasn't getting made. Fixed typo in the FTP Class (ftp_unable_to_remame).
+Fixed a series of grammatical and spelling errors in the language files.
+Fixed a bug in the XML-RPC library so that if not type is specified, a more intelligent decision is made as to the default type
+Fixed bug #3289 where temp files in directories being tested with is_really_writable() were not being handled properly
+Fixed a bug (#3015) in the User Agent library where more then 2 languages where not reported with languages().
+Fixed bug #3268 where router could leave '/' as the path
+Fixed a bug in the Typography Helper where unordered list was listed "un" (#3267)
+Fixed the bugfix for #3260!
+Fixed a bug (#3175) preventing certain libraries from working properly when autoloaded in PHP 4 by re-syncing the master object from the copy
+Fixed bug #2810 with nested tags improperly having paragraph tags placed around them.
+Fixed a bug in the Oracle driver that prevented num_rows from working.
+Fixed typos in the email Language class (email_attachment_unredable, email_filed_smtp_login).
+Fixed typos in the email Language class (email_attachment_unredable, email_filed_smtp_login).
+Fixed a bug in the upload library when allowed_files wasn't defined.
+Fixed a bug in get_filenames() in the File Helper where the array wasn't cleared after each call.
+Fixed a bug in _object_to_array that broke some types of inserts and updates.
+Fixed a bug in Validation where individual error messages for checkboxes wasn't supported.
+Fixed a typo in the image language file "suppor" to "support".
+Fixed an example of accept_charset() in the User Agent Library.
+Fixed a typo in the table library docs.
+Fixed a bug in highlight_pharse() that caused an error with slashes.
+Fixed an example for XML RPC. Fixed a missing "?>" in the smiley helper.
+Fixed a bug in word_wrap() of the Text Helper that incorrectly referenced an object.
+Fixed a bug in the Email library where some timezones were calculated incorrectly.
+Fixed a typo in the docblock comments that had CodeIgniter spelled CodeIgnitor.
+Fixed a bug in the Session library where user agent matching would fail on user agents ending with a space.
+Fixed a typo in the String Helper (uniquid changed to uniqid) (added to changelog)
+Fixed a bug in Validation where valid_ip() wasn't called properly
+Fixed a typo in the database language file.
+Fixed an example in the Calendar library for Showing Next/Previous Month Links.
+Fixed an example of comma-separated emails in the email library documentation
+Fixed a typo ("cal_mayl") in English calendar language file
+Fixed a bug in database driver where num_rows property wasn't getting updated
+Fixed the do_xss_clean() method so that if file_get_contents returns FALSE, then we return FALSE...
+Fixed a typo in error message

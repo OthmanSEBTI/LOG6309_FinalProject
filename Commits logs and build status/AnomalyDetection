@@ -1,0 +1,92 @@
+1f5deaa1609f8f1964c1e905c7a8ad2d1d0dc718,Merge pull request #51 from terrytangyuan/bugfix,Mon, 31 Aug 2015 15:11:23 -0500,Mon, 31 Aug 2015 15:11:23 -0500
+855454b18240c1799a2f7e47ad56ba46ff894e9c,Merge pull request #50 from terrytangyuan/master,Mon, 31 Aug 2015 15:09:06 -0500,Mon, 31 Aug 2015 15:09:06 -0500
+fb5a64a832efc215d29f2850ce534b9c20a5be83,Merge pull request #55 from terrytangyuan/issue39,Thu, 20 Aug 2015 17:35:20 -0700,Thu, 20 Aug 2015 17:35:20 -0700
+b9399b25faa9516a44d088e5941489a3cc8b952a,made results consistent for ts_anom_detection,Mon, 3 Aug 2015 22:11:14 -0400,Mon, 3 Aug 2015 22:11:14 -0400
+877354f46cdf7a91e96695b69f801ccea7aa548c,made results consistent for vec_anom_detection,Mon, 3 Aug 2015 22:08:58 -0400,Mon, 3 Aug 2015 22:08:58 -0400
+58dea61e47ab3b65dec3d34f3af586ffabe3ac5d,Merge pull request #52 from terrytangyuan/enhancement,Mon, 3 Aug 2015 13:30:13 -0500,Mon, 3 Aug 2015 13:30:13 -0500
+e5c596b79f3b923463b016aefe3e9c54feb33459,added check for correct type of the input parameter na.rm,Fri, 31 Jul 2015 18:14:34 -0400,Fri, 31 Jul 2015 18:14:34 -0400
+1618df3fbf8b20658576a9f854f437805544673a,added some Roxygen comments for the added code,Fri, 31 Jul 2015 17:32:13 -0400,Fri, 31 Jul 2015 17:32:13 -0400
+1c65aa49ffab5950787cd31d1a50662fd71f5d81,added issues status badge,Fri, 31 Jul 2015 15:32:40 -0400,Fri, 31 Jul 2015 15:32:40 -0400
+0899478efb21b55fd498d265bbb1c4ac14204f70,added pull-request status badge,Fri, 31 Jul 2015 15:32:15 -0400,Fri, 31 Jul 2015 15:32:15 -0400
+360b6e6d6813c17913f52bfddda1aef4682f6b77,fixed bug and added error handling when there are NAs in timestamp,Fri, 31 Jul 2015 15:14:22 -0400,Fri, 31 Jul 2015 15:14:22 -0400
+94301531b2a0983f987154ae8b7277789ef33d82,added more checks for input parameter max_anoms.,Tue, 28 Jul 2015 17:03:39 -0400,Tue, 28 Jul 2015 17:03:39 -0400
+c78f0df02a8e34e37701243faf79a6c00120e797,Merge pull request #38 from owenvallis/master,Thu, 16 Apr 2015 18:54:21 -0700,Thu, 16 Apr 2015 18:54:21 -0700
+99e721790ba55813abbef845ff5de9d4aad6016f,adding sudo to travis config,Thu, 16 Apr 2015 12:51:35 -0700,Thu, 16 Apr 2015 12:51:35 -0700
+24d03946036ac065a07fe37020484bd1d2285da7,Minor edit to .travis.yml,Thu, 16 Apr 2015 11:25:26 -0700,Thu, 16 Apr 2015 11:25:26 -0700
+37dc35f7fdaf0a6d4a6a136c8f93f2a565b7786b,adding commit to trigger build,Wed, 15 Apr 2015 23:17:27 -0700,Wed, 15 Apr 2015 23:17:27 -0700
+4fd30a083ba0a4deaab0e5ca1717cd092ce148aa,adding test for anoms at midnight,Wed, 15 Apr 2015 21:18:49 -0700,Wed, 15 Apr 2015 21:18:49 -0700
+12f947cc9a1ae28f67f691baed5b7536f55409e3,added 'stringsAsFactors=FALSE' to creation of data frames after fix for %Y-%m-%d %H:%M:%S formatting issue. Implements suggested patch for issue #29,Wed, 15 Apr 2015 17:19:30 -0700,Wed, 15 Apr 2015 17:19:30 -0700
+fe17b707de4024fdd58e90fe030cd5b3cf2a3862,adding tests for constant value time series,Wed, 15 Apr 2015 16:59:26 -0700,Wed, 15 Apr 2015 17:07:15 -0700
+22628d287eb284b3687232215c40254899afbeb7,added verbose mode to vec_anom_detection, and changed print to message. Adrresses issue #35,Wed, 15 Apr 2015 16:54:18 -0700,Wed, 15 Apr 2015 16:58:44 -0700
+42af34e0d38d02c614838de660975b9250810915,added verbose mode to ts_anom_detection, and changed print to message,Wed, 15 Apr 2015 16:51:03 -0700,Wed, 15 Apr 2015 16:51:03 -0700
+c76618f08806253d3682aadb02869a38885b22ac,replacing print with message for debugging,Wed, 15 Apr 2015 16:46:18 -0700,Wed, 15 Apr 2015 16:46:18 -0700
+503316319ec178cdee9eee4e30e4be20e70bb24b,moved check for constant time series up to where we calc sigma. This checks if it is 0, and breaks out of the ESD loop if True. Addresses issue #36,Wed, 15 Apr 2015 16:41:16 -0700,Wed, 15 Apr 2015 16:41:21 -0700
+dc043ea13e7ebd54285f3144cd682a11f4ef409d,adding back tests for NAs from commit b5fbae6,Wed, 15 Apr 2015 16:19:22 -0700,Wed, 15 Apr 2015 16:19:22 -0700
+b0921032b987527d4ed2db6bd886e1dab5a541dd,adding check for nan before testing if R(max anom) is greater then lam(critical value) in detect_anoms. Fix suggested in issue #36,Wed, 15 Apr 2015 16:14:32 -0700,Wed, 15 Apr 2015 16:14:32 -0700
+1039cfd92d0cdb15fc42bd08f3327816c30097fe,adding back the timestamp tests from commit f2884a2,Wed, 15 Apr 2015 16:06:44 -0700,Wed, 15 Apr 2015 16:06:44 -0700
+eb03242a0bed16dc90c2b19b5ee77433f71d2ca0,Merge branch 'master' of github.com:twitter/AnomalyDetection,Mon, 6 Apr 2015 12:20:36 -0700,Mon, 6 Apr 2015 12:20:36 -0700
+d05ccd4ec9cdf3b1454d77e198c02b048c5e063a,Fixing the file,Sun, 5 Apr 2015 15:56:48 -0700,Sun, 5 Apr 2015 15:56:48 -0700
+1b55845f2fa4b7d82ac26fc7a39c05b82cb929f2,Adding the file back,Sun, 5 Apr 2015 15:30:18 -0700,Sun, 5 Apr 2015 15:30:18 -0700
+b00ed87608bb70d45bb9ddc1eb1255a1544224e3,Addressing conflict,Thu, 2 Apr 2015 09:27:26 -0700,Thu, 2 Apr 2015 09:27:26 -0700
+5740ed99b9ef4a66a0aef22a513b6f74b9bf3be9,Merge branch 'jhochenbaum-master',Thu, 2 Apr 2015 09:25:25 -0700,Thu, 2 Apr 2015 09:25:25 -0700
+f2884a26dcebe970795ea48e7a512bdec7b53e82,Patch to fix POSIXlt format after using format conversion. See Issue 29. Added additional tests for output anoms timestamp format.,Thu, 2 Apr 2015 09:13:50 -0700,Thu, 2 Apr 2015 09:13:50 -0700
+b5fbae61d242f1f8a6ca4db4136df456d64e7efa,Merge pull request #30 from jhochenbaum/master,Wed, 1 Apr 2015 09:27:10 -0700,Wed, 1 Apr 2015 09:27:10 -0700
+e4568c013a949a80a375fa0d140a060b84900fc2,removing patch which shouldn't have been applied to vec_anom_detection for Issue 29,Tue, 31 Mar 2015 23:22:05 -0700,Tue, 31 Mar 2015 23:22:05 -0700
+507c94714b60653d928423ec0f538d56ff8e5b9e,Fixed issue when only one timestamp at midnight exists. Fixes Issue #29,Tue, 31 Mar 2015 23:08:47 -0700,Tue, 31 Mar 2015 23:08:47 -0700
+4ee1ed9c0df3f73a480049d4b30235116f705a1e,Merge branch 'master' of github.com:twitter/AnomalyDetection,Mon, 30 Mar 2015 09:51:43 -0700,Mon, 30 Mar 2015 09:51:43 -0700
+2ca23be8b719a47ddccf682e4d0628ebb76164d6,Merge pull request #27 from owenvallis/master,Mon, 30 Mar 2015 09:49:08 -0700,Mon, 30 Mar 2015 09:49:08 -0700
+47ca6faa5a6b7f24848eef371b2157bc56d72a3a,Merge branch 'master' of github.com:twitter/AnomalyDetection,Mon, 30 Mar 2015 09:04:49 -0700,Mon, 30 Mar 2015 09:04:49 -0700
+69b16c5c5fd1757b9f88902c8fffd77f549e6012,adding NA tests for AnomalyDetectionVec,Tue, 17 Mar 2015 09:46:45 -0700,Tue, 17 Mar 2015 09:46:45 -0700
+b1d85a54d08a1bb27c1bda388677b6a6b1776057,Updated detect_anoms to remove leading and trailing NAs before STL, and to stop the code and suggest interpolating for other NAs. Addresses Issue #22,Sun, 15 Mar 2015 23:10:15 -0700,Sun, 15 Mar 2015 23:10:15 -0700
+adcb6ff67f22d53abba7c8546af2fc1eeeed7dbc,Merge pull request #26 from owenvallis/master,Sun, 15 Mar 2015 21:55:33 -0700,Sun, 15 Mar 2015 21:55:33 -0700
+c4c20a2156461dd9bdda00e37b977bdf02d7f0ff,Merge branch 'master' of github.com:twitter/AnomalyDetection,Sun, 15 Mar 2015 21:28:44 -0700,Sun, 15 Mar 2015 21:28:44 -0700
+03a37c961c34463c617deb10431aea5e3d8d8b47,If no anoms are detected in detect_anoms, R_idx now returns NULL. Fixes Issue #24,Sun, 15 Mar 2015 21:28:32 -0700,Sun, 15 Mar 2015 21:28:32 -0700
+65bbbe56fb6e7ab2b48cf4520d2c88187c4c1d5d,Merge pull request #25 from owenvallis/master,Sun, 15 Mar 2015 21:14:36 -0700,Sun, 15 Mar 2015 21:14:36 -0700
+45a8f9cdbdba26009c490054e65e9384cca1ff20,merging fix_daily_data_issue into master,Sun, 15 Mar 2015 20:49:54 -0700,Sun, 15 Mar 2015 20:49:54 -0700
+aaa43a81da648eec4a62c719fb27338d91b23f53,modified gitignore to ignore r studio files,Sun, 15 Mar 2015 20:47:21 -0700,Sun, 15 Mar 2015 20:47:21 -0700
+60f02c7111cbf8a323ad54b6849882cdb645401d,Rebuilt docs and removed extra paranthesis in detect_anoms.R from pull request in Issue #20,Wed, 4 Mar 2015 14:31:37 -0800,Wed, 4 Mar 2015 14:31:37 -0800
+422df9ae96b2c511ce92df1c80b452848718b1c4,    Issue 20:     Issues using daily data with the "long_term" option,Mon, 26 Jan 2015 03:23:39 -0800,Mon, 26 Jan 2015 03:23:39 -0800
+61c7686dfd8b5e163b8d5bf301eb65775ad0dcaf,leading NAs are replaced with 0s now instead of 1s. Addresses issue #19,Sun, 25 Jan 2015 14:59:58 -0800,Sun, 25 Jan 2015 15:01:26 -0800
+d37a7e3286f0ae59a05c0bb215663a586d673273,added comments clarifying that seasonal decomp returns/is used for,Sun, 25 Jan 2015 14:59:06 -0800,Sun, 25 Jan 2015 14:59:06 -0800
+b9a53f8af8a9ec722b2ab2eda64b1d3b364ad867,Merge pull request #17 from wrathematics/master,Tue, 13 Jan 2015 09:42:01 -0800,Tue, 13 Jan 2015 09:42:01 -0800
+c433c3d8596f848b98558924beb5cd85a9e00ccb,Merge branch 'master' of https://github.com/wrathematics/AnomalyDetection,Tue, 13 Jan 2015 07:20:55 -0500,Tue, 13 Jan 2015 07:20:55 -0500
+f7ae8a58b9c76ede03020d41950223f4bf2cd18a,s/T/TRUE/g, s/F/FALSE/g,Tue, 13 Jan 2015 07:20:29 -0500,Tue, 13 Jan 2015 07:20:29 -0500
+72bf0c1ea6191cb3c90015e9c82fee2f2549fe67,added bytecode compiler and removed some unnecessary memory allocations,Tue, 13 Jan 2015 07:19:40 -0500,Tue, 13 Jan 2015 07:19:40 -0500
+10fb5899fef18ac1d77d396e61e7b6aaaddeb2ae,Merge pull request #16 from jhochenbaum/master,Mon, 12 Jan 2015 12:28:40 -0800,Mon, 12 Jan 2015 12:28:40 -0800
+d233e5c90f205ede488d4f8bb4bc79c681ceb013,perform log scaling in add_formatted_y() instead of using coord_trans(),Thu, 8 Jan 2015 01:38:39 +0000,Mon, 12 Jan 2015 18:35:15 +0000
+ded98ed488474f2a584557395580cf60d50239dd,Merge pull request #13 from darrkj/master,Fri, 9 Jan 2015 23:05:43 -0800,Fri, 9 Jan 2015 23:05:43 -0800
+1ecb8de8d26b1bf716abb236b6609615a19055ec,oops, add package back to external stringr functions,Fri, 9 Jan 2015 17:43:10 -0500,Fri, 9 Jan 2015 17:43:10 -0500
+962751b6658a0401e6de38267bf8f571ada3a30a,spacing and replace = with <-,Thu, 8 Jan 2015 22:50:52 -0500,Thu, 8 Jan 2015 22:50:52 -0500
+7e98e87a4e4a51849d4f7228285f3463c9e5ee0b,non inclusion checks,Thu, 8 Jan 2015 22:43:34 -0500,Thu, 8 Jan 2015 22:43:34 -0500
+b452bd6e5db07bf0966a056d661d1dbdf839ce1d,spacing,Thu, 8 Jan 2015 22:41:01 -0500,Thu, 8 Jan 2015 22:41:01 -0500
+e3a1107c2b5d66eb3e13341b3d308bf67f292f54,break line up,Thu, 8 Jan 2015 22:40:29 -0500,Thu, 8 Jan 2015 22:40:29 -0500
+52192a3b01af5ead6ff1fe46711beeabf94c2404,remove list name quotes,Thu, 8 Jan 2015 22:40:14 -0500,Thu, 8 Jan 2015 22:40:14 -0500
+c2baf8292455b7e2e58cf11feb80c8e40984e125,non inclusion checks,Thu, 8 Jan 2015 22:32:42 -0500,Thu, 8 Jan 2015 22:32:42 -0500
+19df8e167e85f8e826eac07df8001035e9483ea3,check non inlcusion instead of all false,Thu, 8 Jan 2015 22:29:17 -0500,Thu, 8 Jan 2015 22:29:17 -0500
+a3f2eda59b43667bdc8b157cb54799c4ace92601,cleanup args,Thu, 8 Jan 2015 22:28:09 -0500,Thu, 8 Jan 2015 22:28:09 -0500
+2fbfafe580da22e597fabc7890dd0b3fd466a55e,package imports stringr, calls not needed,Thu, 8 Jan 2015 22:20:00 -0500,Thu, 8 Jan 2015 22:20:00 -0500
+e841058c4874e253706f2fedc8f59e43b1353095,use nrow,Thu, 8 Jan 2015 22:14:44 -0500,Thu, 8 Jan 2015 22:14:44 -0500
+0b2780f53f046bbe9dc81f50183708d48c581212,make check one step,Thu, 8 Jan 2015 22:14:32 -0500,Thu, 8 Jan 2015 22:14:32 -0500
+2c03843c83c7c3ab99c7c73e43c08667321bb2da,more idiomatic,Thu, 8 Jan 2015 22:06:26 -0500,Thu, 8 Jan 2015 22:06:26 -0500
+708c6d660366ac9a41ffeeb2e4d6811b1d389d60,code cleanup,Thu, 8 Jan 2015 21:59:21 -0500,Thu, 8 Jan 2015 21:59:21 -0500
+4eb1bafef37fbb4837dc26cf7faf7f60094d3b3a,Merge pull request #10 from owenvallis/master,Wed, 7 Jan 2015 14:58:44 -0800,Wed, 7 Jan 2015 14:58:44 -0800
+a4e6b2517112164b67c26c7413f75a2b93177217,when gran is daily, changed only_last check from \!is.null to is.character,Wed, 7 Jan 2015 14:45:41 -0800,Wed, 7 Jan 2015 14:45:41 -0800
+766b064854ce466a87709bfce455e7e826ab5bf0,Fixed Epoch handling,Wed, 7 Jan 2015 13:31:38 -0800,Wed, 7 Jan 2015 13:31:38 -0800
+27bf91297de59fdb959202fade5eea6ae6939cfd,Merge pull request #7 from adamatw/master,Wed, 7 Jan 2015 12:23:50 -0800,Wed, 7 Jan 2015 12:23:50 -0800
+093f636bdaa01bc13284b49d0b33563e0bbaf8f9,Update ts_anom_detection.R,Wed, 7 Jan 2015 14:37:17 -0500,Wed, 7 Jan 2015 14:37:17 -0500
+67f6a657342af79676f0f936eb7de92f88ab6087,Fix LICENSE reference,Wed, 7 Jan 2015 07:02:50 -0600,Wed, 7 Jan 2015 07:02:50 -0600
+95c35e4409d1e4844735a309162f555e3b868270,Merge pull request #4 from gsee/patch-1,Tue, 6 Jan 2015 17:40:57 -0800,Tue, 6 Jan 2015 17:40:57 -0800
+d8dcb7dacc4614af7739312100ca6a80e8134c17,Update detect_anoms.R,Tue, 6 Jan 2015 19:29:23 -0600,Tue, 6 Jan 2015 19:29:23 -0600
+3b65fc9ea2b7d7b80c20899c22f9322f271abbf4,Merge branch 'master' of https://github.com/twitter/AnomalyDetection,Mon, 5 Jan 2015 18:44:38 -0800,Mon, 5 Jan 2015 18:44:38 -0800
+c5fdbdb86eb8c87f608d203f23da1c4824e90aa2,Fixed a typo,Mon, 5 Jan 2015 18:44:04 -0800,Mon, 5 Jan 2015 18:44:04 -0800
+db19f9ffec772b35346cc1954d8e394c289981f8,Add testthat as a dependency,Mon, 5 Jan 2015 14:54:12 -0600,Mon, 5 Jan 2015 14:54:12 -0600
+21d9b7f8673b1189ca377da4c040de63e5c90c35,Add stringr, lubridate dependencies,Mon, 5 Jan 2015 14:39:22 -0600,Mon, 5 Jan 2015 14:39:22 -0600
+bea8b03e71e26790d6fd626b5085e2fa636f57cf,Update README.md,Mon, 5 Jan 2015 14:05:30 -0600,Mon, 5 Jan 2015 14:05:30 -0600
+1b42961a84cbecd9f2349351ee4d59494692b8f8,Updated README.md #2,Fri, 19 Dec 2014 13:19:47 -0800,Fri, 19 Dec 2014 13:19:47 -0800
+c1b9d23e7ce9d7d3c658b9bd11beb555e3e3e07b,Updated README.cmd,Fri, 19 Dec 2014 13:18:06 -0800,Fri, 19 Dec 2014 13:18:06 -0800
+4ecac53ae9fa805bd3d374e54c66ccd3c855c3c2,Adding Figures,Fri, 19 Dec 2014 13:04:53 -0800,Fri, 19 Dec 2014 13:04:53 -0800
+655f2198118bdb1efe89ffdfaad4b0ff1209ad81,Editing the README.md,Wed, 10 Dec 2014 09:31:37 +0530,Wed, 10 Dec 2014 09:31:37 +0530
+fe838af1ac3ea7fb3d0c11154725b4443e4cff4e,Add Travis CI config,Tue, 9 Dec 2014 12:33:35 -0600,Tue, 9 Dec 2014 12:33:35 -0600
+ecf6f13336a1427e2c2d3246b3f92922c161154c,Initial README,Tue, 9 Dec 2014 12:29:43 -0600,Tue, 9 Dec 2014 12:29:43 -0600
+44a6556d743375d40fe5184d84d43668984caee4,Initial Import,Tue, 9 Dec 2014 11:48:51 -0600,Tue, 9 Dec 2014 11:48:51 -0600
+afed6a039258b42a19d4596f8afdb72fd943e525,Initial commit,Tue, 9 Dec 2014 11:46:24 -0600,Tue, 9 Dec 2014 11:46:24 -0600

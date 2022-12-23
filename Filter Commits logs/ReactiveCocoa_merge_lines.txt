@@ -1,0 +1,1772 @@
+Merge pull request #3732 from ReactiveCocoa/headers-phase
+Merge pull request #3729 from NachoSoto/catalyst
+Merge pull request #3686 from ReactiveCocoa/10.1.0-release
+Merge pull request #3677 from olejnjak/update-dependencies
+Merge pull request #3675 from rehatkathuria/master
+Merge pull request #3670 from tdimeco/watchkit-additions
+Merge pull request #3666 from gfontenot/update-readme-version
+Merge pull request #3664 from iv-mexx/patch-1
+Merge pull request #3656 from ReactiveCocoa/9.0-release
+Merge pull request #3591 from Marcocanc/non-optional-textvalues
+Merge branch 'master' into non-optional-textvalues
+Merge pull request #3650 from ReactiveCocoa/swift-4.2
+Merge pull request #3491 from ReactiveCocoa/kvo-update
+Merge pull request #3648 from Marcocanc/update-podspec
+Merge remote-tracking branch 'origin/master' into kvo-update
+Merge pull request #3647 from liscio/master
+Merge pull request #3646 from Marcocanc/ras-5
+Merge pull request #3642 from ReactiveCocoa/anders/fix-config
+Merge remote-tracking branch 'origin/master' into kvo-update
+Merge pull request #3589 from cocoahero/Reactive+UIApplication
+Merge branch 'master' into Reactive+UIApplication
+Merge pull request #3636 from eimantas/nsview-bindings
+Merge pull request #3635 from eimantas/master
+Merge pull request #3634 from eimantas/nsview-bindings
+Merge pull request #3631 from raphaeloliveira/update-readme
+Merge pull request #3629 from jcavar/patch-1
+Merge pull request #3617 from ReactiveCocoa/ci-xcode-9.4
+Merge pull request #3587 from asmallteapot/UIBarButtonItem-extensions
+Merge pull request #3601 from ReactiveCocoa/xcode-10
+Merge pull request #3604 from ReactiveCocoa/no-mapkit-on-watchos
+Merge pull request #3600 from Azureblade3808/master
+Merge pull request #3599 from ReactiveCocoa/cl-copy-matchers
+Merge pull request #3590 from mishagray/cocoapod-static-lib
+Merge pull request #3588 from cocoahero/Reactive+UIViewController
+Merge branch 'master' into Reactive+UIViewController
+Merge pull request #3585 from Marcocanc/responder
+Merge pull request #3584 from banjun/correct-changelog
+Merge pull request #3576 from asmallteapot/navigation-item-extension
+Merge pull request #3570 from ReactiveCocoa/anders/handle-forwarded-selectors
+Merge pull request #3566 from ra1028/feature/UIKeyboard-improvement
+Merge master
+Merge pull request #3565 from banjun/uisearchbar-focus-and-cancel
+Merge pull request #3549 from Palleas/add-reactive-nstextview
+Merge pull request #3541 from ReactiveCocoa/anders/update-podspec-1
+Merge pull request #3539 from ReactiveCocoa/anders/ras-3.0
+Merge pull request #3536 from ronaldsmartin/uikit/add-uitextfield-placeholder-binding
+Merge pull request #3533 from ReactiveCocoa/ras-3.0.0-rc.1
+Merge pull request #3531 from ReactiveCocoa/more-bindings
+Merge pull request #3461 from ReactiveCocoa/remove-dynamic-property
+Merge remote-tracking branch 'origin/master' into remove-dynamic-property
+Merge pull request #3529 from ReactiveCocoa/ras3
+Merge branch 'master' into remove-dynamic-property
+Merge pull request #3526 from ReactiveCocoa/swift4
+Merge pull request #3524 from ReactiveCocoa/reactive-mapkit
+Merge branch 'master' into reactive-mapkit
+Merge pull request #3518 from ReactiveCocoa/unmute-cocoapods-warnings
+Merge pull request #3527 from ReactiveCocoa/update-quick-and-nimble
+Merge pull request #3517 from ReactiveCocoa/hotfix-6.0.2
+Merge branch 'master' into hotfix-6.0.2
+Merge pull request #3516 from ReactiveCocoa/thanks-cocoapods
+Merge pull request #3511 from ReactiveCocoa/disable-code-coverage
+Merge pull request #3510 from ReactiveCocoa/ras-2.1-a2
+Merge pull request #3509 from ReactiveCocoa/disable-code-coverage
+Merge pull request #3508 from ReactiveCocoa/ras-2.1-alpha.1
+Merge pull request #3504 from albsala/uisearchbarcancelsignal
+Merge pull request #3470 from ReactiveCocoa/cl-fix-productname
+Merge pull request #3502 from iv-mexx/feature/changelog
+Merge pull request #3489 from ReactiveCocoa/keypath
+Merge branch 'master' into keypath
+Merge pull request #3501 from ReactiveCocoa/ras-2.0.1
+Merge pull request #3498 from ReactiveCocoa/fix-swift-runtime-infinite-recursion
+Merge branch 'rac2'
+Merge pull request #3493 from ReactiveCocoa/rac2-rc3
+Merge pull request #3490 from ReactiveCocoa/xcode9-ci
+Merge pull request #3486 from ReactiveCocoa/ras2-rc2
+Merge pull request #3484 from nickdomenicali/nsobjectprotocol
+Merge pull request #3481 from Qata/master
+Merge pull request #3483 from ReactiveCocoa/ras2-rc1
+Merge pull request #3480 from andrei-kuzma/uibutton-pressed-tvos
+Merge pull request #3479 from Igor-Palaguta/selectedRangeValues
+Merge pull request #3476 from ReactiveCocoa/update-release-roadmap
+Merge pull request #3478 from gparker42/gparker42-patch-1
+Merge pull request #3475 from ReactiveCocoa/ras-2.0.0-alpha.2
+Merge pull request #3474 from ReactiveCocoa/textvalues-fix
+Merge branch 'master' into textvalues-fix
+Merge pull request #3472 from ReactiveCocoa/controlevent-map
+Merge pull request #3453 from ReactiveCocoa/control-events-deadlock-fix
+Merge branch 'master' into control-events-deadlock-fix
+Merge branch 'master' into control-events-deadlock-fix
+Merge pull request #3466 from ReactiveCocoa/take-referring
+Merge pull request #3460 from ReactiveCocoa/intercepting-spec-patch
+Merge pull request #3457 from ReactiveCocoa/uikeyboard-fix
+Merge pull request #3459 from ReactiveCocoa/ios-ci-fix
+Merge pull request #3458 from ReactiveCocoa/update-gitignore
+Merge pull request #3442 from ReactiveCocoa/uitextfield-continuous
+Merge pull request #3449 from ReactiveCocoa/kvo-dependent-keys
+Merge pull request #3435 from ReactiveCocoa/swizzling-kvo-interop-fix
+Merge pull request #3439 from ReactiveCocoa/kvo-swift-object
+Merge pull request #3447 from Marcocanc/UIFeedbackGenerator
+Merge remote-tracking branch 'upstream/master' into UIFeedbackGenerator
+Merge pull request #3446 from ReactiveCocoa/silence-the-warnings
+Merge pull request #3448 from ReactiveCocoa/fix-ci
+Merge pull request #3444 from Marcocanc/UINavigationItem+UITabBar
+Merge pull request #3441 from ReactiveCocoa/update-podspec
+Merge pull request #3440 from walkingsmarts/master
+Merge pull request #3437 from ReactiveCocoa/andersio-patch-2
+Merge pull request #3436 from ReactiveCocoa/andersio-patch-1
+Merge pull request #3433 from ohbargain/nsbutton_in_nsstackview_emit_failure
+Merge pull request #3431 from ohbargain/nsbuttonspec_fix_element_run_failure
+Merge pull request #3413 from Burgestrand/pull-request/allow-non-initial-kvo
+Merge pull request #3426 from ReactiveCocoa/swift3.1
+Merge pull request #3425 from ReactiveCocoa/delegate-proxy-bugfix
+Merge pull request #3394 from ReactiveCocoa/nscontrol
+Merge branch 'master' into pull-request/allow-non-initial-kvo
+Merge pull request #3418 from ReactiveCocoa/kvo-nested-key-path
+Merge pull request #3410 from c12dd/master
+Merge pull request #3408 from ReactiveCocoa/update-nimble
+Merge pull request #3407 from ReactiveCocoa/utilize-lifetime-make
+Merge pull request #3405 from ReactiveCocoa/fix-schedulerprotocol-usage-warning
+Merge pull request #3404 from ReactiveCocoa/ras-1.1
+Merge pull request #3396 from alper/patch-1
+Merge pull request #3395 from dcaunt/reactive-uipickerview
+Merge pull request #3397 from kean/patch-1
+Merge pull request #3385 from ReactiveCocoa/delegate-intercept
+Merge pull request #3390 from jklausa/textfield-reactive-secure-text-entry
+Merge pull request #3388 from ReactiveCocoa/cl-additional-controls
+Merge pull request #3391 from keitaito/keitaito-patch-1
+Merge remote-tracking branch 'origin/cl-appkit-additions' into cl-additional-controls
+Merge commit 'f2b767e' into cl-additional-controls
+Merge pull request #3377 from ReactiveCocoa/5.0-release-minor-fixes
+Merge pull request #3371 from ohwutup/add-pressed-signal-for-nsbutton
+Merge pull request #3375 from dcaunt/fix/docs
+Merge pull request #3374 from ohwutup/add-selected-items-signal-nspopupbutton
+Merge pull request #3372 from ReactiveCocoa/unsafecocoaaction-depr
+Merge pull request #3369 from ReactiveCocoa/andersio-patch-1
+Merge pull request #3363 from ReactiveCocoa/reactiveswift-1.0.0
+Merge pull request #3361 from ReactiveCocoa/readme-update
+Merge pull request #3302 from ReactiveCocoa/swiftify-runtime-utils
+Merge branch 'master' into swiftify-runtime-utils
+Merge pull request #3330 from ReactiveCocoa/kvo-operation-fix
+Merge pull request #3355 from iv-mexx/updateReadme
+Merge pull request #3354 from ohbargain/nspopupbuttonspec-typo
+Merge pull request #3341 from dcaunt/reactive-uiscrollview
+Merge pull request #3342 from ReactiveCocoa/public-make-target
+Merge branch 'master' into reactive-uiscrollview
+Merge pull request #3322 from iv-mexx/feature/uiswitchAction
+Merge pull request #3345 from ReactiveCocoa/cocoaaction-uithread
+Merge pull request #3348 from ReactiveCocoa/test-fix
+Merge pull request #3337 from ohbargain/nspopupbutton
+Merge remote-tracking branch 'ReactiveCocoa/master' into reactive-uiscrollview
+Merge pull request #3344 from ReactiveCocoa/ras-rc1
+Merge pull request #3343 from ReactiveCocoa/release-roadmap
+Merge pull request #3335 from dcaunt/reactive-uisearchbar
+Merge pull request #3340 from dcaunt/fix-uikeyboard-typo
+Merge pull request #3336 from iv-mexx/removeDuplicateDocumentation
+Merge branch 'master' into swiftify-runtime-utils
+Merge pull request #3321 from calebd/reactive-refresh-control
+Merge pull request #3320 from iv-mexx/feature/documentation
+Merge pull request #3319 from ReactiveCocoa/keyboard-madness
+Merge pull request #3307 from augusteo/attributedText-uitextview
+Merge pull request #3305 from ReactiveCocoa/playground
+Merge pull request #3299 from ReactiveCocoa/cleanup-specs
+Merge pull request #3297 from ReactiveCocoa/andersio-patch-1
+Merge pull request #3296 from ReactiveCocoa/travis-8.1
+Merge branch 'travis-8.1' into trigger-arguments
+Merge pull request #3295 from ReactiveCocoa/separate-uikit-ios-files
+Merge pull request #3293 from walkingsmarts/reactive-uistepper
+Merge branch 'master' into trigger-arguments
+Merge pull request #3290 from ReactiveCocoa/andersio-patch-1
+Merge pull request #3291 from walkingsmarts/reactive-uislider
+Merge pull request #3288 from walkingsmarts/master
+Merge pull request #3118 from ReactiveCocoa/migration-guide
+Merge pull request #3284 from ReactiveCocoa/as-reload-data
+Merge pull request #3256 from bitomule/UIGestureRecognizer-trigger
+Merge pull request #3283 from ReactiveCocoa/nimble-5.1.1
+Merge pull request #3282 from ReactiveCocoa/nimble-equal-operator
+Merge pull request #6 from andersio/gesture-patch
+Merge branch 'master' into gesture-patch
+Merge branch 'UIGestureRecognizer-trigger' into gesture-patch
+Merge pull request #3277 from walkingsmarts/reactive-constant
+Merge branch 'master' into migration-guide
+Merge pull request #3278 from walkingsmarts/master
+Merge pull request #3276 from walkingsmarts/master
+Merge pull request #3270 from ReactiveCocoa/robjc-interop
+Merge pull request #3275 from ReactiveCocoa/refactor-textfield-textview-extensions
+Merge pull request #3273 from ReactiveCocoa/dynamicproperty-forbid-nil-object
+Merge pull request #3274 from ReactiveCocoa/fix-indent
+Merge pull request #5 from andersio/gesture-patch
+Merge pull request #3272 from ReactiveCocoa/readme-typo
+Merge pull request #3261 from ReactiveCocoa/readme-5.0
+Merge pull request #3266 from ReactiveCocoa/as-unused-var
+Merge pull request #3265 from ReactiveCocoa/trigger-deadlock-fix
+Merge remote-tracking branch 'upstream/master' into migration-guide
+Merge pull request #3252 from ReactiveCocoa/rex-modulemap
+Merge branch 'master' into rex-modulemap
+Merge branch 'add-podspec' into rex-modulemap
+Merge pull request #3 from ReactiveCocoa/master
+Merge pull request #3210 from ReactiveCocoa/rex
+Merge pull request #3250 from ReactiveCocoa/reactiveswift-alpha-3
+Merge pull request #3243 from iv-mexx/ObjCBridgingDocumentation
+Merge branch 'master' into rex
+Merge pull request #3242 from ReactiveCocoa/update-reactiveswift
+Merge branch 'master' into rex
+Merge pull request #3226 from iv-mexx/readme
+Merge branch 'master' into rex
+Merge pull request #3216 from wongzigii/patch-1
+Merge pull request #3215 from ReactiveCocoa/update-quick
+Merge remote-tracking branch 'rex/split-repo-prep' into rex
+Merge pull request #3205 from ReactiveCocoa/update-nimble
+Merge pull request #146 from RACCommunity/RAC5-swift3
+Merge pull request #3202 from pawel-sekara/master
+Merge pull request #3198 from wongzigii/patch-1
+Merge pull request #3195 from ReactiveCocoa/remove-instruments-templates
+Merge pull request #3194 from ReactiveCocoa/remove-objc-code
+Merge pull request #3182 from ReactiveCocoa/reactive-objc-and-bridge
+Merge branch 'master' into reactive-objc-and-bridge
+Merge pull request #3186 from yageek/bugfix/warning_3183
+Merge branch 'master' into reactive-objc-and-bridge
+Merge pull request #3187 from sharplet/nimble-master
+Merge pull request #3181 from ReactiveCocoa/depend-on-reactive-swift
+Merge pull request #3137 from ReactiveCocoa/reactive-swift
+Merge branch 'master' into reactive-swift
+Merge pull request #3175 from ReactiveCocoa/event-logger-starting
+Merge pull request #3171 from ReactiveCocoa/xcode8-gm
+Merge branch 'master' into reactive-swift
+Merge pull request #3167 from walkingsmarts/master
+Merge branch 'master' into reactive-swift
+Merge pull request #3165 from ReactiveCocoa/upstream-quick
+Merge branch 'master' into reactive-swift
+Merge pull request #3131 from ReactiveCocoa/property-lifetime
+Merge branch 'master' into property-lifetime
+Merge pull request #3156 from ReactiveCocoa/update-xcconfigs
+Merge branch 'master' into reactive-swift
+Merge pull request #3154 from ReactiveCocoa/update-result3-alpha4
+Merge branch 'master' into reactive-swift
+Merge pull request #3149 from Igor-Palaguta/ThenNoError
+Merge branch 'master' into reactive-swift
+Merge pull request #3129 from ReactiveCocoa/anders/patch-1
+Merge branch 'master' into reactive-swift
+Merge branch 'master' into RAC5-swift3
+Merge branch 'master' into property-lifetime
+Merge branch 'master' into anders/patch-1
+Merge pull request #153 from sebastianvarela/RAC5-swift3
+Merge pull request #3136 from ReactiveCocoa/swift3-beta-6
+Merge pull request #3145 from ReactiveCocoa/swift3-beta-6-update
+Merge pull request #150 from sharplet/swift-2.3
+Merge pull request #3139 from ReactiveCocoa/ikesyo/swift3-beta-6
+Merge pull request #3138 from ReactiveCocoa/mdiep/swift3-beta-6
+Merge pull request #3135 from dcaunt/fix-readme-bootstrap
+Merge pull request #3133 from ReactiveCocoa/ikesyo/generic-scoped-disposable
+Merge pull request #3132 from ReactiveCocoa/swiftpm-build-only
+Merge pull request #3130 from Nandiin/patch-1
+Merge pull request #3123 from ReactiveCocoa/atomic-modify
+Merge pull request #3119 from ReactiveCocoa/anders/lifetime-split
+Merge branch 'master' into atomic-modify
+Merge pull request #3127 from ReactiveCocoa/anders/replay-lazily
+Merge branch 'master' into anders/lifetime-split
+Merge pull request #3120 from ReactiveCocoa/anders/replay-lazily
+Merge pull request #3122 from ReactiveCocoa/rename-ignorenil
+Merge pull request #3125 from ReactiveCocoa/NachoSoto-patch-1-1
+Merge branch 'master' into migration-guide
+Merge pull request #3114 from ReactiveCocoa/update-result
+Merge pull request #3113 from ReactiveCocoa/remove-objc-build-scripts
+Merge pull request #2857 from ReactiveCocoa/RAC5
+Merge pull request #2959 from andersio/signal-lifetime
+Merge pull request #152 from sharplet/send-action-swizzle
+Merge pull request #3108 from ReactiveCocoa/RuiAAPeres-patch-1
+Merge branch 'RAC5' into signal-lifetime
+Merge pull request #3102 from ReactiveCocoa/swift3-beta-4
+Merge pull request #3067 from ReactiveCocoa/swift3-beta-3
+Merge pull request #3101 from ReactiveCocoa/RAC5-merge
+Merge branch 'master' into RAC5-merge
+Merge pull request #3087 from ReactiveCocoa/anders/dynamic-property-2
+Merge pull request #3097 from ReactiveCocoa/fix-onStarted
+Merge pull request #3096 from chrrasmussen/master
+Merge pull request #3098 from ReactiveCocoa/update-quick-v0.9.3
+Merge branch 'master' into anders/dynamic-property-2
+Merge pull request #3030 from sharplet/lifetime
+Merge pull request #3079 from ReactiveCocoa/anders/static-dispatch-atomic
+Merge branch 'master' into anders/dynamic-property-2
+Merge pull request #3086 from ReactiveCocoa/update-quick
+Merge pull request #3085 from ReactiveCocoa/timeout-noerror
+Merge pull request #3078 from ReactiveCocoa/mdiep/property-consistency
+Merge pull request #3077 from ReactiveCocoa/use-foundation-locking
+Merge branch 'master' into use-foundation-locking
+Merge pull request #3074 from ReactiveCocoa/extend-nsrecursivelock
+Merge pull request #3046 from filblue/reuse-atomic-in-mutable-property
+Merge branch 'RAC5' into anders/property-consistency
+Merge pull request #3023 from ReactiveCocoa/merge-readonly-properties
+Merge branch 'RAC5' into merge-readonly-properties
+Merge branch 'RAC5' into anders/property-consistency
+Merge pull request #3066 from ReactiveCocoa/rac5-merge-docs
+Merge branch 'master' into rac5-merge-docs
+Merge pull request #2995 from tomj/eimaintas_tomj_pr
+Merge pull request #3059 from ReactiveCocoa/update-result
+Merge branch 'RAC5' into anders/property-consistency
+Merge branch 'rac5-fix-travis' into anders/property-consistency
+Merge branch 'rac5-fix-playground' into anders/property-consistency
+Merge branch 'RAC5' into merge-readonly-properties
+Merge pull request #3057 from ReactiveCocoa/rac5-fix-travis
+Merge pull request #3005 from ReactiveCocoa/swift2.3
+Merge branch 'swift2.3' into rac5-fix-travis
+Merge branch 'rac5-fix-travis' into merge-readonly-properties
+Merge branch 'swift2.3' into rac5-fix-travis
+Merge pull request #3056 from andersio/rac5-fix-playground
+Merge branch 'rac5-fix-playground' into merge-readonly-properties
+Merge `AnyProperty` and `ConstantProperty`.
+Merge pull request #3001 from ReactiveCocoa/RAC5-swift3
+Merge branch 'swift2.3' into RAC5-swift3
+Merge pull request #3048 from ReactiveCocoa/rp/AmbiguityValuesTest
+Merge pull request #3043 from ReactiveCocoa/fix-producer-variadic-init
+Merge pull request #140 from RACCommunity/rp/deploy
+Merge branch 'RAC5' into RAC5-swift3
+Merge pull request #137 from RACCommunity/repo-transfer
+Merge pull request #3028 from ReactiveCocoa/rac5-unavailable-api
+Merge pull request #3031 from ReactiveCocoa/rp/sandbox
+Merge branch 'master' into RAC5
+Merge pull request #3019 from ReactiveCocoa/specs-remove-buffer-usage
+Merge branch 'master' into swift2.3
+Merge pull request #3018 from azeff/fix_mutableproperty_binding_teardown
+Merge pull request #3011 from ReactiveCocoa/startWithNext-errors
+Merge pull request #3015 from ReactiveCocoa/deprecate-buffer
+Merge pull request #130 from neilpa/bump4.2.1
+Merge branch 'master' into swift2.3
+Merge pull request #3012 from dmcrodrigues/remove-last-wrapper-to-runtime-functions
+Merge branch 'swift2.3' into RAC5-swift3
+Merge branch 'RAC5' into RAC5-swift3
+Merge branch 'master' into RAC5
+Merge branch 'liscio-swift3' into RAC5-swift3
+Merge branch 'swift3' of https://github.com/liscio/ReactiveCocoa into liscio-swift3
+Merge pull request #2975 from miikegb/make_flatten_operate_on_sequencetypes
+Merge pull request #2991 from inamiy/TestScheduler/fix-currentDate
+Merge pull request #2993 from sharplet/RAC5
+Merge branch 'master' into RAC5
+Merge pull request #2992 from natestedman/observertype
+Merge pull request #2987 from sharplet/then-interrupted
+Merge pull request #2984 from andersio/rac5-inout
+Merge pull request #2981 from ReactiveCocoa/update-result
+Merge pull request #2977 from kirillyakimovich/master
+Merge pull request #2966 from andersio/rac5-property-init
+Merge branch 'master' into RAC5
+Merge pull request #2972 from andersio/zip-fix
+Merge pull request #2961 from github-user32/master
+Merge pull request #126 from iv-mexx/feature/UISegmentedControl
+Merge branch 'master' into RAC5
+Merge pull request #2963 from andersio/rac5-property-fix
+Merge pull request #2922 from andersio/RAC5-property
+Add test cases for `Concat` and `Merge` flattening strategies.
+Merge pull request #2957 from srvv/playground
+Merge pull request #2955 from rpowelll/playground-typo
+Merge pull request #2952 from ReactiveCocoa/debounce
+Merge pull request #2954 from ReactiveCocoa/rp/suffix
+Merge pull request #2935 from tzongw/master
+Merge pull request #2941 from inamiy/beginWith
+Merge pull request #2943 from tomj/signal_playground
+Merge pull request #2947 from JovannyEspinal/patch-1
+Merge pull request #2912 from ReactiveCocoa/uischeduler-check-main-queue
+Merge pull request #2944 from ReactiveCocoa/simplify-signal-combineLatestWith
+Merge pull request #2938 from miikegb/fix-typos-signalproducer-playground-page
+Merge pull request #2936 from ReactiveCocoa/update-nimble
+Merge pull request #2930 from tomj/playground_build_steps_typos_formatting
+Merge pull request #2932 from ReactiveCocoa/utilize-event-value-getter
+Merge pull request #2931 from ReactiveCocoa/make-merge-more-generic
+Merge pull request #2917 from ReactiveCocoa/optimize-zipWith
+Merge pull request #2925 from larryonoff/feature/signal-producer-add-merge
+Merge pull request #2928 from larryonoff/feature/signal-producer-extend-init
+Merge pull request #2920 from ReactiveCocoa/extra-composite-disposable-operator
+Merge branch 'master' into RAC5
+Merge pull request #2915 from ReactiveCocoa/action-tweaks
+Merge pull request #2918 from ReactiveCocoa/fix-ci-build
+Merge pull request #2902 from Palleas/validate-playground
+Merge pull request #2914 from ReactiveCocoa/cocoaaction-spec
+Merge pull request #2910 from ReactiveCocoa/unsafe-cocoa-action-retain-cycle
+Merge pull request #2908 from ReactiveCocoa/cocoaaction-private-setter
+Merge pull request #2891 from tditchek/master
+Merge pull request #2905 from ReactiveCocoa/2900-style-tweaks
+Merge pull request #2903 from ReactiveCocoa/replay-lazily-lifetime
+Merge pull request #2900 from ReactiveCocoa/buffer-deadlock
+Merge pull request #2670 from Adlai-Holler/feature/ReplaceSpinlocks
+Merge pull request #2901 from Palleas/patch-1
+Merge pull request #2883 from RuiAAPeres/rp/CocoAction
+Merge pull request #2897 from ReactiveCocoa/nested-logging-event-types
+Merge pull request #2878 from geoffspears/master
+Merge pull request #2895 from ReactiveCocoa/refactor-eventlogger
+Merge pull request #2892 from ReactiveCocoa/flatten-minor-tweaks
+Merge pull request #2885 from ReactiveCocoa/flatten-no-error
+Merge pull request #2889 from ReactiveCocoa/original-value-from-modify
+Merge pull request #2884 from ReactiveCocoa/unique-values
+Merge pull request #2888 from sharplet/as-fix-dynamic-property-init
+Merge pull request #2887 from tomj/remove_println_from_docs
+Merge pull request #2881 from ReactiveCocoa/void-return-types-redux
+Merge branch 'master' into unique-values
+Merge pull request #2874 from tomj/render_playground_markup_by_default
+Merge pull request #2871 from RuiAAPeres/rp/updateContribution
+Merge pull request #2869 from ReactiveCocoa/make-racdelegateproxy-public
+Merge pull request #2867 from ReactiveCocoa/travis-tvos-and-watchos
+Merge pull request #2806 from larryonoff/feature/extend-composite-disposable
+Merge branch 'dmcrodrigues-add-tvOS-test-target'
+Merge pull request #2865 from ReactiveCocoa/playground-fix-styling
+Merge pull request #2866 from ReactiveCocoa/unreal-started-event
+Merge pull request #2864 from ReactiveCocoa/travis-faster-build
+Merge pull request #2863 from ReactiveCocoa/RAC5-dynamicproperty-tweaks
+Merge pull request #2862 from ReactiveCocoa/dynamicproperty-operators-tweaks
+Merge pull request #2551 from sharplet/dynamic-sugar
+Merge pull request #121 from eofs/feature/uikit-uiprogressview
+Merge pull request #2859 from ReactiveCocoa/2854-redux
+Merge pull request #2858 from ReactiveCocoa/inline-liftRight-in-takeUntil
+Merge pull request #2860 from ReactiveCocoa/avoid-using-buffer
+Merge pull request #2835 from dmcrodrigues/dr/add-collect-with-predicate-and-collect-with-count
+Merge pull request #2852 from sharplet/bridgeable-property
+Merge pull request #2849 from iv-mexx/playgroundPrintTuples
+Merge pull request #2853 from tomj/add_basic_operator_link
+Merge pull request #2850 from iv-mexx/playgroundSubscriptionExamples
+Merge pull request #2851 from aschuch/patch-1
+Merge pull request #2848 from RuiAAPeres/rp/updatePlayground
+Merge pull request #2839 from RuiAAPeres/rp/debug
+Merge pull request #2847 from ReactiveCocoa/refactor-modify
+Merge pull request #2846 from ReactiveCocoa/avoid-default-for-switching-event
+Merge pull request #2844 from ReactiveCocoa/bufferstate-improvements
+Merge pull request #2845 from ReactiveCocoa/2782-tzongw-master
+Merge pull request #2795 from RuiAAPeres/swift-playground
+Merge pull request #2788 from sdduursma/property-map
+Merge pull request #2792 from victorlin/sample-with
+Merge commit 'ddb7e245426a3a7d843ccdd923b9b5d8eb93cc90' into rp/debug
+Merge pull request #2840 from iv-mexx/documentation_debugging
+Merge pull request #2836 from ReactiveCocoa/restore-var-binding
+Merge pull request #118 from ikesyo/replace-observer
+Merge pull request #2764 from andersio/property-renewal
+Merge pull request #2828 from ReactiveCocoa/2570-cradnovich-actiontype-protocol
+Merge pull request #2800 from ReactiveCocoa/fix-leak-on-lift
+Merge pull request #2696 from erichoracek/raccommand-input-type
+Merge pull request #2826 from RuiAAPeres/rp/useSwap
+Merge pull request #2811 from ReactiveCocoa/dealloc-signal-for-replayLazily
+Merge pull request #2819 from ReactiveCocoa/optional-syntactic-sugar
+Merge pull request #117 from ikesyo/replace-sink-with-observer
+Merge pull request #116 from ikesyo/refactor-barbuttonitem-and-button
+Merge pull request #2814 from ReactiveCocoa/extract-dynamic-property
+Merge pull request #113 from ikesyo/filterMap-minor-refactorings
+Merge pull request #112 from ikesyo/trailing-newlines
+Merge pull request #105 from larryonoff/feature/extend-action
+Merge pull request #2812 from RuiAAPeres/rp/fixAssert
+Merge pull request #110 from bjarkehs/fix_podspec
+Merge branch 'master' of https://github.com/ReactiveCocoa/ReactiveCocoa into swift-playground
+Merge pull request #104 from dmcrodrigues/dr/uitableview-prepare-for-reuse-signal
+Merge pull request #108 from RuiAAPeres/rp/methodConventions
+Merge pull request #103 from RuiAAPeres/rp/pruning
+Merge pull request #101 from RuiAAPeres/rp/DismissViewController
+Merge pull request #2804 from kirillyakimovich/master
+Merge branch 'master' into rp/DismissViewController
+Merge pull request #100 from RuiAAPeres/rp/VCDisappear
+Merge pull request #2802 from ReactiveCocoa/update-xcconfigs
+Merge pull request #2801 from ReactiveCocoa/travis-release-build-with-testability
+Merge pull request #2797 from vagase/UIControl-memory-leak
+Merge pull request #99 from RuiAAPeres/rp/WillDeallocate
+Merge pull request #2777 from ReactiveCocoa/fix-racsequence-foldright
+Merge pull request #95 from RuiAAPeres/rp/UITextView
+Merge pull request #97 from dmcrodrigues/dr/uiswitch-on-property
+Merge pull request #94 from dmcrodrigues/dr/fix-cocoapods-spec
+Merge pull request #93 from 335g/selector
+Merge pull request #92 from neilpa/datepicker
+Merge pull request #91 from neilpa/label-missing-keys
+Merge pull request #90 from RuiAAPeres/AttributedText
+Merge pull request #89 from RuiAAPeres/rp/swift2.2
+Merge pull request #2771 from 335g/result2
+Merge pull request #2760 from ReactiveCocoa/swift-2.2
+Merge pull request #2701 from NachoSoto/test-signal-handler-lifetime
+Merge pull request #2718 from trifonov-ivan/skip-repeats-holds-unneeded
+Merge pull request #2732 from cxa/master
+Merge pull request #2721 from tonyarnold/fix/remove-box-project-reference
+Merge pull request #2717 from seltzered/patch-1
+Merge pull request #85 from bjarkehs/fix_rac_dependency_podspec
+Merge pull request #83 from mbuchetics/master
+Merge pull request #2702 from ReactiveCocoa/NachoSoto-patch-1-1
+Merge pull request #2695 from ReactiveCocoa/noerror-from-result
+Merge pull request #81 from bjarkehs/podspec
+Merge pull request #82 from ikesyo/rac4
+Merge pull request #2688 from ReactiveCocoa/rac4-changelog
+Merge pull request #2689 from NachoSoto/reactive-cocoa-h
+Merge pull request #2680 from yinanfang/update-readme
+Merge pull request #2677 from olegshnitko/fix/switchToLatest-leaks
+Merge pull request #80 from RuiAAPeres/addedUITextField
+Merge pull request #2673 from ReactiveCocoa/more-tvos-headers
+Merge pull request #2672 from ReactiveCocoa/no-default-capacity
+Merge pull request #2639 from ReactiveCocoa/replayLazily
+Merge pull request #2669 from ReactiveCocoa/update-nimble
+Merge pull request #2666 from ReactiveCocoa/NachoSoto-patch-1
+Merge pull request #2664 from ReactiveCocoa/NachoSoto-patch-1
+Merge pull request #2651 from NachoSoto/uicontrol-tvos
+Merge pull request #79 from neilpa/travis-update
+Merge pull request #2649 from JuIioCesar/master
+Merge pull request #2645 from mingliangfeng/master
+Merge pull request #2641 from Adlai-Holler/feature/DisposableIsClass
+Merge pull request #2622 from andersio/propertySignal
+Merge pull request #75 from neilpa/mutefor-clock
+Merge pull request #74 from neilpa/time-operators
+Merge pull request #2624 from ReactiveCocoa/atomic
+Merge pull request #2617 from andersio/2615-modify
+Merge pull request #2621 from ReactiveCocoa/minor-code-improvements
+Merge pull request #2620 from raven/patch-1
+Merge pull request #73 from neilpa/docs
+Merge pull request #72 from neilpa/more-targets
+Merge pull request #2618 from ReactiveCocoa/nimble-operators
+Merge pull request #2616 from ReactiveCocoa/readme-new-targets
+Merge pull request #2582 from ReactiveCocoa/disposable-cleanup
+Merge pull request #2603 from Vadim-Yelagin/issue2586
+Merge branch 'master' into disposable-cleanup
+Merge pull request #2565 from neonichu/scope-private-libextobjc-headers
+Merge pull request #2606 from NachoSoto/deployment-target
+Merge pull request #2602 from bencochran/kerning-tweak
+Merge pull request #2598 from natestedman/foundation-imports
+Merge pull request #2601 from Adlai-Holler/UpdateAtomic
+Merge pull request #2597 from natestedman/remove-var-binding
+Merge pull request #2592 from ReactiveCocoa/sequence-schedule-test
+Remove MergeState from merge operator
+Merge branch 'master' into disposable-cleanup
+Merge pull request #2587 from paulyoung/recommended-settings
+Merge pull request #2583 from natestedman/fix-will-never-be-executed
+Merge pull request #48 from neilpa/predicates
+Merge pull request #2577 from ReactiveCocoa/bag-improvements
+Merge pull request #2576 from cesteban/skipUntil
+Merge pull request #2580 from Adlai-Holler/BufferOptimization
+Merge remote-tracking branch 'origin/master' into skipUntil
+Merge branch 'master' into predicates
+Merge pull request #2574 from kaishin/master
+Merge pull request #2572 from ReactiveCocoa/signal-on
+Merge pull request #70 from ikesyo/associated-property-noescape
+Merge pull request #2573 from gfontenot/gf-result-1
+Merge pull request #2571 from ReactiveCocoa/lift-associativity
+Merge pull request #69 from ikesyo/reconsider-associated-property
+Merge pull request #68 from ikesyo/refactor-rex_valueProperty
+Merge branch 'master' into predicates
+Merge pull request #66 from neilpa/travis-ci
+Merge pull request #65 from neilpa/key-shadowing
+Merge pull request #62 from iv-mexx/UILabelTextColor
+Merge pull request #2526 from NachoSoto/signal-merge
+Merge branch 'master' into UILabelTextColor
+Merge pull request #61 from iv-mexx/fixTestFails
+Merge pull request #2545 from felixjendrusch/explicit-dependencies
+Merge pull request #2547 from ReactiveCocoa/class-vs-static
+Merge pull request #2544 from NachoSoto/to-rac-signal-extension
+Merge pull request #59 from skyylex/master
+Merge pull request #2534 from NachoSoto/fatal-error
+Merge pull request #2531 from NachoSoto/signal-flatmap-error
+Merge pull request #58 from skyylex/rex_pressed_example
+Merge pull request #2524 from ianthehenry/objcpp
+Merge pull request #2520 from gfontenot/gf-simulator-signing
+Merge pull request #2517 from ReactiveCocoa/latest-quick-and-nimble
+Merge pull request #56 from neilpa/rac4-alpha3
+Merge pull request #2512 from ReactiveCocoa/suffix-test-products
+Merge pull request #2509 from tonyarnold/fix/productname
+Merge pull request #2502 from NachoSoto/apple-tv-2
+Merge pull request #2503 from ReactiveCocoa/remove-swift1.2-wmo-setting
+Merge pull request #2505 from bencochran/Error-to-Failed-off-master
+Merge pull request #2507 from dkhamsing/patch-1
+Merge pull request #55 from ikesyo/new-observer-api
+Merge pull request #52 from neilpa/rac4-alpha2
+Merge pull request #2501 from ReactiveCocoa/rename-schemes
+Merge pull request #2500 from ReactiveCocoa/alpha2-docs
+Merge pull request #2499 from ReactiveCocoa/alpha2-docs
+Merge pull request #2189 from ReactiveCocoa/swift2
+Merge pull request #2494 from ReactiveCocoa/bagspec-no-testable
+Merge pull request #2493 from ReactiveCocoa/observer-typealias-use
+Merge pull request #54 from avalanched/master
+Merge pull request #2489 from ReactiveCocoa/public-bag
+Merge pull request #2481 from chenjsa/swift2
+Merge pull request #2486 from ReactiveCocoa/update-quick-and-nimble
+Merge pull request #2484 from AquaGeek/any-property
+Merge pull request #2483 from ReactiveCocoa/fix-queue-deprecation-warning
+Merge pull request #1 from ReactiveCocoa/swift2
+Merge pull request #2477 from chenjsa/swift2
+Merge pull request #2475 from dapenggao/swift2
+Merge pull request #2474 from dapenggao/swift2
+Merge pull request #2442 from ReactiveCocoa/observer-api
+Merge remote-tracking branch 'origin/swift2' into observer-api
+Merge pull request #2449 from NachoSoto/flatten-for-all
+Merge pull request #2439 from NachoSoto/producer-takeuntil-signal
+Merge pull request #2450 from NachoSoto/disposable-test
+Merge remote-tracking branch 'origin/swift2' into observer-api
+Merge pull request #2421 from NachoSoto/bag-memory-fix
+Merge pull request #2441 from NachoSoto/signal-generator-no-escape
+Merge pull request #2435 from dapenggao/patch-1
+Merge branch 'master' into swift2
+Merge pull request #2433 from ReactiveCocoa/fix-flatten-leak
+Merge pull request #2428 from dapenggao/patch-1
+Merge pull request #2413 from iv-mexx/updateReadme
+Merge pull request #2418 from ReactiveCocoa/xcode7.1-beta2-fix
+Merge pull request #2405 from rpowelll/patch-1
+Merge pull request #2388 from ReactiveCocoa/rename-generics
+Merge pull request #2398 from tonyarnold/fix/product_name
+Merge pull request #2295 from liscio/enh/queue-qos
+Merge pull request #2389 from nikita-leonov/debugging-tecniques
+Merge branch 'enh/queue-qos' of github.com:liscio/ReactiveCocoa into enh/queue-qos
+Merge branch 'swift2' of https://github.com/ReactiveCocoa/ReactiveCocoa into enh/queue-qos
+Merge pull request #2391 from ReactiveCocoa/fix-#2382
+Merge pull request #42 from ikesyo/publicize
+Merge pull request #43 from ikesyo/remove-staticstring-workarounds
+Merge pull request #44 from ikesyo/update-gitignore
+Merge pull request #41 from neilpa/version-0.8
+Merge pull request #40 from neilpa/housekeeping
+Merge pull request #39 from neilpa/swift2
+Merge branch 'master' into swift2
+Merge pull request #38 from neilpa/last-rac3-release
+Merge remote-tracking branch 'bencochran/Rename-Generic-Parameters' into rename-generics
+Merge pull request #2380 from nikita-leonov/fix-flatMap-signalProducerType
+Merge pull request #2363 from SpruceHealth/error_casting_compiler_bug_workaround
+Merge pull request #2378 from dapenggao/swift2
+Merge branch 'swift2' of https://github.com/dapenggao/ReactiveCocoa into swift2
+Merge pull request #5 from ReactiveCocoa/swift2
+Merge pull request #2370 from dapenggao/swift2
+Merge branch 'swift2' into error_casting_compiler_bug_workaround
+Merge pull request #2375 from nikita-leonov/rac4-readme-startWithNext-fix
+Merge pull request #2376 from gfontenot/gf-update-result-take-two
+Merge pull request #2373 from ReactiveCocoa/revert-2372-gf-update-result
+Merge pull request #2372 from gfontenot/gf-update-result
+Merge branch 'swift2' of https://github.com/dapenggao/ReactiveCocoa into swift2
+Merge pull request #4 from ReactiveCocoa/swift2
+Merge pull request #3 from ReactiveCocoa/swift2
+Merge pull request #2 from dapenggao/fix-indentation
+Merge branch 'swift2' into error_casting_compiler_bug_workaround
+Merge pull request #2354 from dapenggao/swift2
+Merge pull request #35 from neilpa/rac4-alpha1
+Merge branch 'master' into rac4-alpha1
+Merge pull request #2357 from ReactiveCocoa/rac4-changelog
+Merge pull request #2359 from ReactiveCocoa/revert-tvOS
+Merge pull request #32 from ikesyo/stop-buiding-test-target
+Merge pull request #33 from ikesyo/update-rac
+Merge pull request #1 from ReactiveCocoa/swift2
+Merge pull request #2352 from NachoSoto/signal-flatmap
+Merge pull request #2350 from NachoSoto/flatten-for-signal
+Merge pull request #2347 from dapenggao/swift2
+Merge pull request #2345 from stevebrambilla/unused-warnings
+Merge pull request #2342 from NachoSoto/enabled-swift-optimizations
+Merge pull request #2341 from ReactiveCocoa/revert-revert-deprecated
+Merge branch 'master' into swift2
+Merge pull request #2333 from NachoSoto/tvos
+Merge pull request #2334 from ReactiveCocoa/raccommand,-my-nemesis
+Merge pull request #2340 from ReactiveCocoa/revert-2330-objc-deprecations-redux
+Merge pull request #2339 from marchinram/swift2
+Merge pull request #2330 from ReactiveCocoa/objc-deprecations-redux
+Merge pull request #2328 from ReactiveCocoa/fix-concat-leak
+Merge pull request #2318 from sebreh/swift2
+Merge remote-tracking branch 'origin/master' into swift2
+Merge pull request #2316 from ReactiveCocoa/swift2-upgrade-quick-and-nimble
+Merge pull request #2310 from ReactiveCocoa/merge-master
+Merge branch 'master' into merge-master
+Merge pull request #2307 from ReactiveCocoa/shorten-NSComparisonResult-cases
+Merge pull request #30 from neilpa/compiler-warning
+Merge pull request #2303 from Nirma/modern_checking
+Merge pull request #2299 from Nirma/modern_loops
+Merge pull request #2292 from rpowelll/xcode-beta-carthage-fixes
+Merge pull request #2285 from ReactiveCocoa/xcode7-beta6-redux
+Merge pull request #2284 from mishagray/xcode7b6
+Merge pull request #2283 from juliangrosshauser/unsafecocoaaction-doc-fix
+Merge branch 'master' into swift2
+Merge pull request #29 from avalanched/retain-cycles
+Merge pull request #28 from neilpa/retain-cycles
+Merge pull request #2272 from yoichitgy/fix-typo-in-documentation
+Merge AppKit and UIKit extensions to swift2
+Merge pull request #24 from neilpa/more-uikit-extensions
+Merge branch 'master' into more-uikit-extensions
+Merge pull request #23 from neilpa/nstextfield
+Merge remote-tracking branch 'skyylex/master' into nstextfield
+Merge pull request #2248 from ReactiveCocoa/xcode7-beta5
+Merge pull request #2236 from ReactiveCocoa/swift2-readme
+Merge pull request #2242 from ReactiveCocoa/improve-getting-started
+Merge pull request #2232 from richeterre/master
+Merge pull request #2227 from ReactiveCocoa/remove-unused-repack
+Merge pull request #2226 from natan/framework-overview-typo
+Merge branch 'master' into swift2
+Merge pull request #2192 from ReactiveCocoa/propertyof-operator
+Merge pull request #2221 from ReactiveCocoa/swift2-upgrade-quick-and-nimble
+Merge pull request #2218 from ReactiveCocoa/fix/2216
+Merge pull request #22 from bjarkehs/uibarbuttonitem
+Merge pull request #2214 from MarcoSero/watchos-fixes
+Merge pull request #2209 from MarcoSero/watchos
+Merge pull request #2207 from zhigang1992/master
+Merge pull request #2205 from ReactiveCocoa/xcode7-beta4
+Merge pull request #20 from aschuch/patch-1
+Merge pull request #2191 from almassapargali/master
+Merge pull request #1382 from ReactiveCocoa/swift-development
+Merge pull request #2186 from ReactiveCocoa/cocoa-action-cast-fix
+Merge pull request #2181 from ReactiveCocoa/readme-reboot
+Merge pull request #2099 from ReactiveCocoa/protocol-extensions
+Merge branch 'swift2' into protocol-extensions
+Merge branch 'swift-development' into swift2
+Merge pull request #2177 from ReactiveCocoa/pr/2165
+Merge pull request #2152 from ReactiveCocoa/design-guidelines
+Merge branch 'swift-development' into pr/2165
+Merge branch 'swift-development' into design-guidelines
+Merge pull request #2161 from ReactiveCocoa/upgrade-nimble
+Merge pull request #2158 from ReactiveCocoa/xcode7-beta3
+Merge branch 'swift-development' into design-guidelines
+Merge pull request #2155 from ReactiveCocoa/travis-xcode64
+Merge pull request #2147 from ReactiveCocoa/reduce-property-deadlocking
+Merge pull request #2151 from MichaelMcGuire/swift-development
+Merge pull request #2148 from ReactiveCocoa/producer-signal-typealias
+Merge pull request #2133 from ReactiveCocoa/refactor-error-creation
+Merge pull request #2134 from ReactiveCocoa/refactor-action-apply
+Merge pull request #2104 from ReactiveCocoa/action-cocoa-action
+Merge branch 'swift2' into protocol-extensions
+Merge branch 'swift-development' into swift2
+Merge pull request #2063 from iv-mexx/feature/operators
+Merge branch 'swift2' into protocol-extensions
+Merge pull request #15 from neilpa/basic-uikit-extensions
+Merge pull request #2111 from ReactiveCocoa/warn-unused-result
+Merge branch 'swift2' into protocol-extensions
+Merge pull request #2102 from ReactiveCocoa/functions-as-observers-2
+Merge branch 'swift2' into functions-as-observers-2
+Merge branch 'swift2' into protocol-extensions
+Merge pull request #2096 from sharplet/pull-master
+Merge branch 'master' of https://github.com/ReactiveCocoa/ReactiveCocoa into pull-master
+Merge branch 'swift-development' into swift2
+Merge pull request #2073 from ReactiveCocoa/framework-overview-tweaks
+Merge pull request #2076 from ReactiveCocoa/buffer-capacity
+Merge pull request #2079 from ReactiveCocoa/use-disposables-operator
+Merge pull request #2080 from ReactiveCocoa/public-typealiases
+Merge pull request #2064 from ReactiveCocoa/move-framework-overview
+Merge pull request #2058 from norio-nomura/fix-dropping-signal-in-buffer
+Merge pull request #2062 from ReactiveCocoa/framework-overview
+Merge remote-tracking branch 'iv-mexx/feature/documentation' into framework-overview
+Merge pull request #2055 from ReactiveCocoa/squiggle-precedence
+Merge pull request #14 from neilpa/signal-property
+Merge pull request #13 from neilpa/timeout-after
+Merge pull request #12 from neilpa/nsobject-kvo
+Merge pull request #2052 from ReactiveCocoa/travis-6.3
+Merge pull request #2051 from ReactiveCocoa/recursive-property-access
+Merge pull request #2049 from alskipp/FlattenStrategy-Equatable
+Merge pull request #2046
+Merge pull request #2042 from ReactiveCocoa/disallow-recursion
+Merge pull request #11 from neilpa/uncollect
+Merge branch 'swift-development' into disallow-recursion
+Merge pull request #2021
+Merge pull request #1878 from larryonoff/bugfix/rac_valuesAndChangesForKeyPath-documentation
+Merge pull request #2038 from ReactiveCocoa/action-event-signal
+Merge pull request #2037 from ReactiveCocoa/organizing-docs
+Merge pull request #2040 from ReactiveCocoa/disposable-plus-equal
+Merge pull request #2041 from ReactiveCocoa/fix-latest-deadlock
+Merge pull request #2039 from ReactiveCocoa/nsnotif-producer
+Merge pull request #2032 from ReactiveCocoa/refactor-currying
+Merge pull request #2029 from ReactiveCocoa/completed-order-in-concat
+Merge pull request #1928 from Rupert-RR/issue-#1868-rac_description-on-non-NSObject-objects
+Merge pull request #2028 from khaullen/patch-1
+Merge pull request #2008 from bromas/CocoaActionReleaseBuild
+Merge pull request #2017 from ReactiveCocoa/prevent-concat-growth
+Merge pull request #1961 from larcus94/promises-futures
+Merge pull request #2009 from ReactiveCocoa/safe-dequeueing
+Merge pull request #2010 from ReactiveCocoa/promote-errors-interrupted
+Merge pull request #2011 from ReactiveCocoa/queue-scheduler-naming
+Merge pull request #1988 from ReactiveCocoa/remove-producer-flatmap
+Merge pull request #2005 from mortonfox/patch-1
+Merge pull request #10 from nomothetis/operators
+Merge pull request #4 from larryonoff/foundation-extensions
+Merge pull request #8 from larryonoff/print-improvements
+Merge pull request #3 from larryonoff/print-and-ignoreError
+Merge pull request #1992 from ReactiveCocoa/app-extension-api
+Merge pull request #1942 from liyihe96/swift-development
+Merge pull request #1975 from ReactiveCocoa/uninterrupted
+Merge pull request #1974 from ReactiveCocoa/make-it-final
+Merge pull request #1966 from ReactiveCocoa/signal-flatten
+Merge pull request #1896 from ReactiveCocoa/memory-corruption-workaround
+Merge remote-tracking branch 'origin/swift-development' into memory-corruption-workaround
+Merge pull request #1825 from sharplet/trying
+Merge pull request #1918 from gavrix/buffer-bugfix
+Merge pull request #1959 from Dwarven/swift-development
+Merge pull request #1949 from ReactiveCocoa/disposable-minor-refactoring
+Merge pull request #1952 from siemensikkema/patch-1
+Merge pull request #1954 from ReactiveCocoa/swift-minor-improvements
+Merge pull request #1947 from ReDetection/patch-arc-gcd-check
+Merge pull request #1926 from ikesyo/collect-optimization
+Merge pull request #1925 from ReactiveCocoa/not-use-dynamicType
+Merge pull request #1953 from ReactiveCocoa/noescape-for-signal-and-producer
+Merge pull request #1933 from ReactiveCocoa/new-result-type
+Merge pull request #1934 from iCodesign/swift-development
+Merge pull request #1924 from ReactiveCocoa/trailing-closure
+Merge pull request #1917 from ReactiveCocoa/skipRepeats-if-let
+Merge pull request #1921 from GuessMeApp/master
+Merge pull request #1922 from richeterre/swift-development
+Merge branch 'swift-development' into memory-corruption-workaround
+Merge pull request #1905 from ReactiveCocoa/release-build-for-test
+Merge branch 'swift-development' into release-build-for-test
+Merge pull request #1902 from ReactiveCocoa/uncurry-combinePrevious
+Merge branch 'swift-development' into memory-corruption-workaround
+Merge pull request #1900 from sharplet/trailing-closures
+Merge pull request #1901 from ReactiveCocoa/not-use-generator-directly
+Merge pull request #1898 from ReactiveCocoa/multiple-if-let-unwrapping
+Merge pull request #1897 from ReactiveCocoa/static-class-properties
+Merge pull request #1893 from ReactiveCocoa/atomic-noescape
+Merge pull request #1891 from NachoSoto/app-extension-only
+Merge pull request #1894 from ReactiveCocoa/non-void-return-types
+Merge pull request #1886 from ReactiveCocoa/flat-map
+Merge remote-tracking branch 'origin/master' into swift-development
+Merge branch 'swift-development' into flat-map
+Merge pull request #1846 from ReactiveCocoa/3.0-changelog
+Merge pull request #1877
+Merge pull request #1866 from kazmasaurus/mkannotation-prepare-for-reuse
+Merge pull request #1857 from 335g/MutablePropertyType-lifetime
+Merge pull request #1845 from 335g/re-edit-binding-operator
+Merge pull request #1860 from numist/ignore_-Wreceiver-is-weak
+Merge pull request #1850 from ReactiveCocoa/signal-flatmap
+Merge pull request #1834 from MichaelMcGuire/swift-development
+Merge branch 'swift-development' into 3.0-changelog
+Merge branch 'master' into swift-development
+Merge pull request #1841 from ReactiveCocoa/remove-racbacktrace
+Merge pull request #1832
+Merge pull request #1840 from ReactiveCocoa/gitignore-for-master
+Merge pull request #1838 from ReactiveCocoa/try-to-crash-less
+Merge pull request #1826 from 335g/tests-for-Signal
+Merge pull request #1830 from ReactiveCocoa/throttle-todo
+Merge pull request #1824 from ReactiveCocoa/swift-enable-fixed-tests
+Merge pull request #1802
+Merge pull request #1775 from ReactiveCocoa/swift-1.2
+Merge branch 'swift-development' into swift-1.2
+Merge pull request #1817 from iCodesign/swift-development
+Merge pull request #1811 from iCodesign/swift-development
+Merge pull request #1811 from iCodesign/swift-development
+Merge pull request #1808 from brow/fix-swift-bridging-again
+Merge pull request #1796 from ReactiveCocoa/command-action-bridging-tests
+Merge pull request #1790 from ReactiveCocoa/swift-throttle-redux
+Merge remote-tracking branch 'origin/master' into swift-development
+Merge remote-tracking branch 'origin/swift-development' into command-action-bridging-tests
+Merge pull request #1797 from ReactiveCocoa/rename-bridging-functions
+Merge pull request #1773 from NachoSoto/some-signal-tests
+Merge remote-tracking branch 'origin/swift-development' into swift-throttle-redux
+Merge branch 'swift-development' of github.com:ReactiveCocoa/ReactiveCocoa into some-signal-tests
+Merge pull request #1735 from ReactiveCocoa/disposal-event
+Merge remote-tracking branch 'origin/swift-development' into disposal-event
+Merge pull request #1792 from ReactiveCocoa/promote-no-error
+Merge pull request #1772 from ReactiveCocoa/join-with-strategy
+Merge pull request #1791 from juliangrosshauser/fix-typo-in-readme
+Merge remote-tracking branch 'origin/swift-development' into disposal-event
+Merge remote-tracking branch 'origin/swift-development' into join-with-strategy
+Merge pull request #1759 from brow/switchToLatest
+Merge branch 'swift-development' into disposal-event
+Merge pull request #1767 from infimache/master
+Merge pull request #1777 from emilypriddy/patch-2
+Merge pull request #1776 from emilypriddy/patch-1
+Merge pull request #1702 from almassapargali/signal-tests
+Merge pull request #1771 from NachoSoto/objective-c-bridging-tests
+Merge remote-tracking branch 'origin/swift-development' into join-with-strategy
+Merge pull request #1763 from ReactiveCocoa/overloaded-combine-and-zip
+Merge remote-tracking branch 'origin/swift-development' into overloaded-combine-and-zip
+Merge pull request #1770 from NachoSoto/signal-collect
+Merge branch 'swift-development' into signal-tests
+Merge branch 'swift-development' into switchToLatest
+Merge pull request #1699 from JaviSoto/swift-signal-producer-tests
+Merge pull request #1761 from NachoSoto/signal-producer-retry
+Merge branch 'swift-development' of github.com:ReactiveCocoa/ReactiveCocoa into swift-signal-producer-tests
+Merge pull request #1760 from NachoSoto/signal-producer-repeat
+Merge pull request #1745 from ReactiveCocoa/kvc-kvo-property
+Merge branch 'swift-development' into kvc-kvo-property
+Merge pull request #1756 from almassapargali/timeout-with-error
+Merge remote-tracking branch 'origin/swift-development' into switchToLatest
+Merge pull request #1757 from saniul/producer-merge-mergeMap
+Merge branch 'swift-development' into producer-merge-mergeMap
+Merge pull request #1755 from saniul/producer-concatMap
+Merge pull request #1754 from ReactiveCocoa/lift-signal-operators
+Merge branch 'swift-development' into signal-tests
+Merge pull request #1746 from ReactiveCocoa/pr/1739
+Merge branch 'swift-development' into pr/1739
+Merge pull request #1740 from neilpa/signal-try
+Merge pull request #1741 from kirillyakimovich/master
+Merge branch 'swift-development' into signal-tests
+Merge pull request #1734 from bencochran/fix-groupBy-ordering
+Merge pull request #1710 from ReactiveCocoa/producer-sync
+Merge pull request #1719 from ReactiveCocoa/then
+Merge pull request #1714 from ReactiveCocoa/concat-nada
+Merge pull request #1728 from kaybutter/property-binding-operators
+Merge pull request #1718 from ReactiveCocoa/takeWhile-tests
+Merge branch 'then' into producer-sync
+Merge branch 'swift-development' into signal-tests
+Merge pull request #1722 from samcal/patch-1
+Merge pull request #1717 from almassapargali/take-while
+Merge branch 'producer-sync' into signal-tests
+Merge pull request #1695 from ReactiveCocoa/bring-back-cocoa-action
+Merge branch 'swift-development' into bring-back-cocoa-action
+Merge remote-tracking branch 'origin/master' into swift-development
+Merge branch 'swift-development' into signal-tests
+Merge pull request #1704 from ReactiveCocoa/swift-take-until-replacement
+Merge pull request #1707 from kkazuo/patch-2
+Merge pull request #1705 from almassapargali/test-error
+Merge pull request #1698 from JaviSoto/swift-property-tests
+Merge branch 'swift-development' for \#1688 changes
+Merge pull request #1688
+Merge branch 'swift-development' into pr/1688
+Merge pull request #1694 from ReactiveCocoa/stub-swift-tests
+Merge pull request #1689 from ReactiveCocoa/happy
+Merge pull request #1684 from ReactiveCocoa/implement-action
+Merge pull request #1685 from ReactiveCocoa/burn-unused-code
+Merge branch 'swift-development' into implement-action
+Merge branch 'swift-development' into burn-unused-code
+Merge pull request #1683 from ReactiveCocoa/parameterized-errors
+Merge pull request #1655 from ReactiveCocoa/signal-templates
+Merge remote-tracking branch 'origin/swift-development' into signal-templates
+Merge pull request #1682 from ReactiveCocoa/pr/1681
+Merge remote-tracking branch 'origin/swift-development' into signal-templates
+Merge pull request #1680 from ReactiveCocoa/pacify-xcode
+Merge pull request #1678 from ReactiveCocoa/backport-racqueuescheduler-lldb-fixes
+Merge pull request #1667 from croath/master
+Merge pull request #1654 from ReactiveCocoa/try-constructors
+Merge remote-tracking branch 'origin/swift-development' into try-constructors
+Merge pull request #1653 from ReactiveCocoa/try-improvements
+Merge pull request #1665 from ReactiveCocoa/refactor-tryMap
+Merge pull request #1337 from ReactiveCocoa/code-style-fixes
+Merge pull request #1627 from ReactiveCocoa/kvo-proxy-redux
+Merge branch 'master' into code-style-fixes
+Merge remote-tracking branch 'origin/master' into kvo-proxy-redux
+Merge remote-tracking branch 'origin/master' into swift-development
+Merge pull request #1664 from ReactiveCocoa/mo-travis-mo-problems
+Merge pull request #1663 from ReactiveCocoa/scheduler-type
+Merge pull request #1635 from ReactiveCocoa/immediate-main-thread-scheduler
+Merge pull request #1645 from ReactiveCocoa/event-syntactic-sugar
+Merge branch 'swift-development' into signal-templates
+Merge branch 'master' into swift-development
+Merge pull request #1658 from ReactiveCocoa/carthage-0.5
+Merge pull request #1648 from jconst/swift-development
+Merge pull request #1638 from ReactiveCocoa/combining-conveniences
+Merge pull request #1636 from ReactiveCocoa/document-memory-management
+Merge pull request #1639 from ReactiveCocoa/action-command-bridging
+Merge pull request #1637 from kkazuo/patch-1
+Merge pull request #1608 from ReactiveCocoa/hot-signal-generator-lifetime
+Merge pull request #1628 from ReactiveCocoa/improve-actions
+Merge remote-tracking branch 'origin/swift-development' into hot-signal-generator-lifetime
+Merge remote-tracking branch 'origin/swift-development' into improve-actions
+Merge pull request #1622 from ReactiveCocoa/kill-subscription-terminology
+Merge branch 'swift-development' into kill-subscription-terminology
+Merge pull request #1614 from ReactiveCocoa/action-tests
+Merge pull request #1626 from ReactiveCocoa/make-debugging-internal
+Merge pull request #1625 from tonyarnold/patch-1
+Merge pull request #1623 from ReactiveCocoa/remove-differences-from-rx
+Merge branch 'swift-development' into action-tests
+Merge remote-tracking branch 'origin/master' into swift-development
+Merge pull request #1618 from ReactiveCocoa/pr/1425
+Merge pull request #1611 from ReactiveCocoa/cold-signal-tests
+Revert "Merge pull request #1597 from talko/backportlivesubscriber"
+Merge pull request #1597 from talko/backportlivesubscriber
+Merge branch 'master' into deliver-to-ui
+Merge pull request #1598 from ReactiveCocoa/debugging-tools
+Merge remote-tracking branch 'origin/swift-development' into debugging-tools
+Merge pull request #1600 from ReactiveCocoa/property-binding-syntax
+Merge pull request #1603 from ReactiveCocoa/zip
+Merge remote-tracking branch 'origin/swift-development' into debugging-tools
+Merge remote-tracking branch 'origin/swift-development' into property-binding-syntax
+Merge branch 'swift-development' into zip
+Merge pull request #1599 from ReactiveCocoa/monadic-operators
+Merge pull request #1601 from ReactiveCocoa/refactor-event-sink
+Merge pull request #1602 from ReactiveCocoa/remove-prunedisposed
+Merge pull request #1581 from ReactiveCocoa/swift-unit-tests
+Merge pull request #1604 from ReactiveCocoa/jspahrsummers-patch-1
+Merge branch 'swift-development' into swift-unit-tests
+Merge pull request #1595 from ReactiveCocoa/weak-references
+Merge pull request #1592 from ReactiveCocoa/fix-racy-test
+Merge pull request #1589 from ReactiveCocoa/hot-signal-lifetime
+Merge pull request #1590 from ReactiveCocoa/improve-synchronous-cold-signals
+Merge pull request #1585 from robb/fix-gitmodules
+Merge pull request #1584 from robb/llamakit-plus-plus
+Merge pull request #1576 from Shulepov/swift-ObservableProperty-issue1543
+Merge pull request #1578 from ReactiveCocoa/swift-cartfile
+Merge pull request #1577 from ReactiveCocoa/cartfile
+Merge branch 'cartfile' into swift-cartfile
+Merge branch 'cartfile' into swift-cartfile
+Merge branch 'cartfile' into swift-cartfile
+Merge pull request #1573 from ReactiveCocoa/fix-swift-bridging
+Merge pull request #1568 from foliot/skipRepeats-enhancement
+Merge pull request #1549 from ReactiveCocoa/fix-replay-1
+Merge pull request #1557 from ReactiveCocoa/upgrade-quick
+Merge pull request #1545 from ReactiveCocoa/signal-fromresult
+Merge pull request #1542 from ReactiveCocoa/always-more-swift-fixes
+Merge pull request #1541 from ReactiveCocoa/misc-fixes
+Merge pull request #1532 from ReactiveCocoa/swift-api-redux
+Merge pull request #1536 from rodionovd/documentation-fix-links
+Merge branch 'swift-development' into swift-api-redux
+Merge remote-tracking branch 'origin/master' into swift-development
+Merge pull request #1413 from ReactiveCocoa/xcode6
+Merge remote-tracking branch 'origin/master' into xcode6
+Merge pull request #1456 from talko/serial
+Merge pull request #1531 from ReactiveCocoa/group-source-by-language
+Merge branch 'swift-development' into group-source-by-language
+Merge branch 'swift-development' into swift-api-redux
+Merge branch 'xcode6' into swift-development
+Merge branch 'group-source-by-language' into swift-api-redux
+Merge branch 'swift-development' into group-source-by-language
+Merge branch 'xcode6' into swift-development
+Merge pull request #1529 from ReactiveCocoa/promise-improvements
+Merge pull request #1512 from ReactiveCocoa/signal-tests
+Merge branch 'master' into xcode6
+Merge pull request #1518 from ReactiveCocoa/producers-from-sequences
+Merge pull request #1521 from ReactiveCocoa/deploy-to-ios-8
+Merge remote-tracking branch 'origin/swift-development' into signal-tests
+Merge remote-tracking branch 'origin/swift-development' into producers-from-sequences
+Merge pull request #1515 from ReactiveCocoa/date-scheduler-current-date
+Merge pull request #1511 from ReactiveCocoa/update-quick
+Merge remote-tracking branch 'origin/master' into swift-development
+Merge pull request #1492 from ReactiveCocoa/scheduler-tests
+Merge branch 'swift-development' into scheduler-tests
+Merge pull request #1505 from ReactiveCocoa/llamakit
+Merge pull request #1501 from ReactiveCocoa/fix-subscriber-disposable-cycle
+Merge pull request #1500 from ReactiveCocoa/unsafe-subscriber-ref
+Merge pull request #1481 from equinux/master
+Merge pull request #1461 from talko/alert
+Merge pull request #1491 from ReactiveCocoa/promise-improvements
+Merge pull request #1493 from ReactiveCocoa/improved-timer-leeway
+Merge pull request #1489 from ReactiveCocoa/value-types-properly
+Merge pull request #1407 from ReactiveCocoa/swift-tests
+Merge branch 'swift-development' into swift-tests
+Merge branch 'master' into swift-development
+Merge branch 'swift-development' into swift-tests
+Merge pull request #1444 from ReactiveCocoa/dont-chain-me-bro
+Merge branch 'swift-development' into dont-chain-me-bro
+Merge pull request #1445 from ReactiveCocoa/bind-to-error-handling
+Merge branch 'swift-development' into bind-to-error-handling
+Merge pull request #1443 from ReactiveCocoa/retry
+Merge branch 'swift-development' into retry
+Merge branch 'swift-development' into swift-tests
+Merge branch 'swift-development' into swift-tests
+Merge pull request #1478 from talko/disposablecherrypick
+Merge pull request #1135 from ReactiveCocoa/remove-racactivesignals
+Merge branch 'swift-development' into swift-tests
+Merge pull request #1475 from pyrtsa/fix/beta6-issues
+Merge pull request #1336 from ReactiveCocoa/optimize-take
+Merge pull request #1465 from ReactiveCocoa/dont-use-debug
+Merge remote-tracking branch 'origin/master' into remove-racactivesignals
+Merge pull request #1454
+Merge remote-tracking branch 'origin/master' into xcode6
+Merge branch 'swift-development' into swift-tests
+Merge pull request #1426 into swift-development
+Merge branch 'swift-development' into pr/1426
+Merge pull request #1406 from ReactiveCocoa/add-swiftz-core
+Merge branch 'swift-development' into add-swiftz-core
+Merge remote-tracking branch 'origin/master' into swift-development
+Merge pull request #1436 from kylef/extscope2
+Merge pull request #1424 from ReactiveCocoa/pr/1422
+Merge branch 'swift-development' into pr/1422
+Merge pull request #1423 from ReactiveCocoa/audit-atomic-usage
+Merge pull request #1409 from ReactiveCocoa/improve-memory-management
+Merge pull request #1408 from ReactiveCocoa/centralized-errors
+Merge remote-tracking branch 'origin/master' into swift-development
+Merge pull request #1401 from JaviSoto/patch-1
+Merge pull request #1398 from ReactiveCocoa/lift-with-signal-of-arguments
+Merge remote-tracking branch 'origin/master' into swift-development
+Merge jspahrsummers/RxSwift@15734da
+Merge pull request #1393 from ReactiveCocoa/xctest
+Merge pull request #1388 from paulcbetts/patch-1
+Merge pull request #1381
+Merge pull request #1387 from ReactiveCocoa/fix-scheduler-subclass-visibility
+Merge pull request #1385 from ReactiveCocoa/put-a-final-on-it
+Merge pull request #1384
+Merge pull request #1307 from ReactiveCocoa/bump-deployment
+Merge jspahrsummers/RxSwift@9f60589ceba10a6e594e618034ab41bfad465318
+Merge pull request #1228 from jlawton/applicative
+Merge pull request #1355 from axelarge/scheduler-subclassing
+Merge pull request #1371 from mengxy/master
+Merge pull request #1354 from ReactiveCocoa/fix-cocoapods-link-in-readme
+Merge pull request #1251 from TimurBK/master
+Merge pull request #1344 from ReactiveCocoa/inspiration
+Merge branch 'master' of github.com:ReactiveCocoa/ReactiveCocoa
+Merge pull request #1340 from wiruzx/patch-1
+Merge pull request #1328 from ReactiveCocoa/subscribeon-simple-subscription
+Merge pull request #1278 from ikesyo/indexed-scan-aggregate
+Merge pull request #1313 from mattjgalloway/optimise_kvo
+Merge pull request #1312 from ReactiveCocoa/update-build-scripts
+Merge pull request #1281 from mattjgalloway/kvo_bug
+Merge pull request #1296 from ReactiveCocoa/fix-immediate-recursion
+Merge pull request #1294 from ikesyo/cleanup-imports
+Merge pull request #1270 from ikesyo/backport-aggregate
+Merge pull request #1271 from ikesyo/more-object-subscripting
+Merge pull request #1272 from ikesyo/readme-third-person-singular-present
+Merge pull request #1274 from ReactiveCocoa/libextobjc-update
+Merge pull request #1269 from eightytwo/feature/import-uirefreshcontrol
+Merge pull request #1249 from ReactiveCocoa/leak-or-false-positive
+Merge pull request #1255 from ikesyo/fix-typos
+Merge pull request #1242 from ReactiveCocoa/bind-fix
+Merge pull request #1231 from ReactiveCocoa/xcode-5.1-says-so
+Merge pull request #1203 from calebd/bug-fix-nsindexset
+Merge pull request #1204 from ReactiveCocoa/mac-static-lib-includes
+Merge pull request #1205 from camdez/master
+Merge pull request #1194 from ReactiveCocoa/flatten-dependencies
+Merge pull request #1199 from ReactiveCocoa/format-private-headers-consistently
+Merge pull request #1184 from ReactiveCocoa/retain-for-setKeyPathonObject
+Merge pull request #1192 from ReactiveCocoa/xcode-5.1-project-changes
+Merge pull request #1167 from ReactiveCocoa/racsignal-mergewith
+Merge pull request #1169 from ReactiveCocoa/backtrace-stack-overflow
+Merge pull request #1164 from ReactiveCocoa/xcconfigs-bump
+Merge pull request #1165 from trevorsheridan/patch-1
+Merge pull request #1156 from numen31337/master
+Merge pull request #1150 from ReactiveCocoa/fix-nsuserdefaults-test
+Merge pull request #1128 from ReactiveCocoa/subscribers-retaining-disposed-disposables
+Merge pull request #1143 from ReactiveCocoa/observe-deallocation-of-objects-conforming-to-protocol
+Merge pull request #1140 from ReactiveCocoa/better-async-response-check
+Merge pull request #1138 from chrissloey/patch-1
+Merge pull request #1133 from ReactiveCocoa/better-rendering-fix
+Merge pull request #1129 from ReactiveCocoa/fix-markdown-misrendering
+Merge pull request #1114 from ReactiveCocoa/signal-naming-envvar
+Merge pull request #1098 from drhr/master
+Merge pull request #1103 from ReactiveCocoa/jspahrsummers-patch-1
+Merge pull request #1095 from AshFurrow/ashfurrow-links
+Merge pull request #1086 from ReactiveCocoa/debug-signal-names
+Merge pull request #1084 from JaviSoto/feature-xcode51-clang-error
+Merge pull request #1082 from ReactiveCocoa/ask-us-questions
+Merge pull request #1078 from ReactiveCocoa/optimise-tests
+Merge pull request #1077 from ReactiveCocoa/double-dynamic-all-the-way
+Merge pull request #1076 from ReactiveCocoa/fix-methodsignatureforselector
+Merge pull request #1073 from ReactiveCocoa/reuse-dealloc-signal
+Merge pull request #1072 from ReactiveCocoa/remove-disposables
+Merge pull request #1058 from ReactiveCocoa/signal-selector-class
+Merge pull request #1070 from ReactiveCocoa/normal-command-kvo
+Merge pull request #1066 from alexfish/fix-dynamic-signal-header
+Merge pull request #1061 from Breek/remove_config_h
+Merge pull request #1045 from ReactiveCocoa/skip-nil-flattened-streams
+Merge pull request #1040 from ikesyo/uitableviewheaderfooterview
+Merge pull request #1011
+Merge pull request #1039 from ikesyo/more-delayed-schedule
+Merge pull request #1026 from ReactiveCocoa/kvo-dealloc-race
+Merge branch 'master' into kvo-dealloc-race
+Merge pull request #1031 from ReactiveCocoa/pr/1019
+Merge pull request #1028 from ReactiveCocoa/user-defaults-improvements
+Merge pull request #1005
+Merge pull request #1022 from ReactiveCocoa/fix-user-defaults-header-more
+Merge pull request #1021 from ReactiveCocoa/fix-user-defaults-header
+Merge pull request #1018 from ReactiveCocoa/user-defaults
+Merge pull request #1010 from ikesyo/swizzling-use-selector-var
+Merge pull request #1006 from ReactiveCocoa/copy-3.0-flatten
+Merge pull request #989 from corristo/flatten-last-sync-signal-bug
+Merge pull request #1 from ReactiveCocoa/flatten-last-sync-signal-bug
+Merge pull request #982 from ReactiveCocoa/remove-traces-of-racextensions
+Merge pull request #978 from ReactiveCocoa/fix-bool-lifting
+Merge pull request #957 from ReactiveCocoa/cutoff
+Merge pull request #962 from ReactiveCocoa/take-until-replacement-redux
+Merge pull request #961 from ReactiveCocoa/readme-fixes
+Merge pull request #953 from derrh/master
+Merge pull request #941 from ReactiveCocoa/nil-bound-streams
+Merge pull request #948 from ReactiveCocoa/bufferwithtime-nil-values
+Merge branch 'master' into nil-bound-streams
+Merge pull request #942 from ReactiveCocoa/ci-lulz
+Merge pull request #938 from ReactiveCocoa/xcconfigs++
+Merge pull request #926 from ikesyo/fix-respondstoselector-replacement
+Merge pull request #933 from ReactiveCocoa/xctool
+Merge pull request #932 from brow/sample_edge_case
+Merge pull request #922 from brow/synchronous_disable
+Merge pull request #927 from ReactiveCocoa/fix-xcodebuild
+Merge pull request #923 from drhr/master
+Merge pull request #905 from egrim/patch-1
+Merge pull request #895 from ReactiveCocoa/remove-stack-depth
+Merge pull request #891 from ReactiveCocoa/kvo-respond-to-selector
+Merge in ext_getImmediateInstanceMethod
+Merge pull request #888 from ansel1/master
+Merge pull request #873 from ReactiveCocoa/refresh-control-command
+Merge pull request #880 from ReactiveCocoa/false-leak-fix
+Merge pull request #879 from ReactiveCocoa/add-nil-disposable
+Merge pull request #856 from ReactiveCocoa/multicast-connect-race
+Merge pull request #855
+Merge pull request #861 from ReactiveCocoa/multicast-connect-race-test
+Merge pull request #867 from ReactiveCocoa/stochastic-analyzer
+Merge pull request #865 from ReactiveCocoa/bind-stopping
+Merge pull request #864 from ReactiveCocoa/disposable-leak-fix
+Merge pull request #859 from ReactiveCocoa/serial-disposable-race
+Merge branch 'multicast-connect-race' of github.com:ReactiveCocoa/ReactiveCocoa into multicast-connect-race-test
+Merge pull request #858 from ReactiveCocoa/faster-primitive-signals
+Merge pull request #846
+Merge pull request #841 from ReactiveCocoa/racify-url-connection
+Merge pull request #829 from ReactiveCocoa/disposable-optimization
+Merge pull request #830 from ReactiveCocoa/subscription-optimization
+Merge remote-tracking branch 'origin/master' into subscription-optimization
+Merge pull request #835 from ReactiveCocoa/guidelines-fixes
+Merge pull request #819 from ReactiveCocoa/mac-static-library
+Merge remote-tracking branch 'origin/master' into mac-static-library
+Merge pull request #822 from ReactiveCocoa/document-initially-order
+Merge pull request #823 from jonsterling/generalize-distinctUntilChanged
+Merge pull request #817 from ReactiveCocoa/graduate-racextensions
+Merge pull request #816 from jlawton/RACObserveWithProtocol
+Merge pull request #815 from ReactiveCocoa/name-signal-for-selector
+Merge pull request #791 from ReactiveCocoa/dtrace-support
+Merge branch 'master' into dtrace-support
+Merge pull request #803 from ReactiveCocoa/test-scheme-configuration
+Merge pull request #806 from ReactiveCocoa/readme-logout-example
+Merge pull request #812 from ReactiveCocoa/triple-slash-documentation
+Merge pull request #813 from ReactiveCocoa/retract-racdelegateproxy
+Merge pull request #787 from ReactiveCocoa/selector-signal-docs
+Merge remote-tracking branch 'origin/signal-for-selector-stret' into selector-signal-docs
+Merge pull request #790 from ReactiveCocoa/bool-type-encoding
+Merge pull request #778 from codecaffeine/master
+Merge pull request #775 from ReactiveCocoa/fix-dealloc-swizzling
+Merge pull request #782 from rabovik/fix-dealloc-swizzling
+Merge pull request #776 from rabovik/fix-dealloc-swizzling
+Merge pull request #764 from kkazuo/more-import
+Merge pull request #763 from ShadoFlameX/fix_long_int_casting
+Merge pull request #761 from ReactiveCocoa/lifting-polish
+Merge pull request #618 from ReactiveCocoa/2.0-development
+Merge pull request #759 from ReactiveCocoa/autoconnect-and-replay-changes
+Merge pull request #757 from ReactiveCocoa/short-switch-redux
+Merge pull request #758 from ReactiveCocoa/fix-command-enabled-completion
+Revert "Revert "Merge pull request #754 from ReactiveCocoa/short-switchToLatest""
+Revert "Merge pull request #754 from ReactiveCocoa/short-switchToLatest"
+Merge branch 'master' into 2.0-development
+Merge pull request #750 from ReactiveCocoa/text-view-delegate-warning
+Merge pull request #749 from ReactiveCocoa/multicast-command-executions
+Merge pull request #754 from ReactiveCocoa/short-switchToLatest
+Merge pull request #755 from ReactiveCocoa/fix-backtrace-overflow
+Merge pull request #751 from lukeredpath/bug/fix-retain-cycle-in-delegate-proxy
+Merge branch 'master' into 2.0-development
+Merge pull request #733 from ReactiveCocoa/command-replacement
+Merge pull request #748 from ikesyo/fix-signalforselector-on-previously-kvo'd-receiver
+Merge branch '2.0-development' into command-replacement
+Merge pull request #745 from BluMenlo/2.0-development
+Merge pull request #686 from ReactiveCocoa/uikit-bindings
+Merge branch '2.0-development' into uikit-bindings
+Merge pull request #741 from ReactiveCocoa/backtrace-lifetime-fix
+Merge pull request #735 from ReactiveCocoa/active-signals-optimization
+Merge branch '2.0-development' into uikit-bindings
+Merge pull request #729 from ReactiveCocoa/remove-fishhook
+Revert "Merge pull request #709 from ReactiveCocoa/add-fishhook"
+Merge remote-tracking branch 'origin/master' into 2.0-development
+Merge pull request #724 from ReactiveCocoa/merge-fast-enumeration-bug
+Merge branch '2.0-development' into uikit-bindings
+Revert "Merge control events signal with KVO signal."
+Merge pull request #695 from ReactiveCocoa/refactor-properties-and-bindings
+Merge remote-tracking branch 'origin/2.0-development' into refactor-properties-and-bindings
+Merge pull request #720 from js/fix-liftselector-doc
+Merge pull request #719 from ReactiveCocoa/uikit-test-archs
+Merge pull request #716 from ReactiveCocoa/test-scheduler
+Merge branch 'master' into 2.0-development
+Merge branch 'master' into 2.0-development
+Merge pull request #717 from ReactiveCocoa/fold-left-bug
+Merge pull request #715 from ReactiveCocoa/catchy
+Merge pull request #713 from ReactiveCocoa/flatten-crash
+Merge branch '2.0-development' into refactor-properties-and-bindings
+Merge pull request #712 from ReactiveCocoa/fix-dangling-points
+Merge remote-tracking branch 'origin/2.0-development' into refactor-properties-and-bindings
+Merge pull request #709 from ReactiveCocoa/add-fishhook
+Merge remote-tracking branch 'origin/2.0-development' into add-fishhook
+Merge pull request #710 from ReactiveCocoa/fix-cstring-lifting-test
+Merge control events signal with KVO signal.
+Merge remote-tracking branch 'origin/2.0-development' into refactor-properties-and-bindings
+Merge pull request #696 from ReactiveCocoa/ractypeparsing-unsupported-types
+Merge branch '2.0-development' into ractypeparsing-unsupported-types
+Merge remote-tracking branch 'origin/2.0-development' into refactor-properties-and-bindings
+Merge pull request #707 from ReactiveCocoa/uiactionsheet-tests
+Merge pull request #705 from ReactiveCocoa/prepare-for-reuse-signal
+Merge remote-tracking branch 'origin/2.0-development' into prepare-for-reuse-signal
+Merge pull request #704 from ReactiveCocoa/serial-disposable
+Merge branch 'master' into 2.0-development
+Merge pull request #699 from ReactiveCocoa/optimizations
+Merge pull request #703 from ReactiveCocoa/lock-free-active-signals
+Merge pull request #676 from lawrencelomax/reduce-boolean
+Merge remote-tracking branch 'origin/2.0-development' into refactor-properties-and-bindings
+Merge pull request #689 from ReactiveCocoa/remove-switch-without-default
+Merge branch '2.0-development' into remove-switch-without-default
+Merge pull request #685 from ReactiveCocoa/racsignal-initially
+Merge pull request #690 from ReactiveCocoa/update-documentation
+Merge branch '2.0-development' into uikit-bindings
+Merge pull request #694 from ReactiveCocoa/fix-backtrace-collection
+Merge branch '2.0-development' into uikit-bindings
+Merge pull request #591 from henrikhodne/hh-uialertview-raccommandsupport
+Merge pull request #680 from ReactiveCocoa/cleaner-backtrace-retrieval
+Merge branch '2.0-development' into cleaner-backtrace-retrieval
+Merge branch '2.0-development' into racsignal-initially
+Merge pull request #682 from ReactiveCocoa/add-changelog
+Merge pull request #684 from ReactiveCocoa/sprinkle-rac_description
+Merge branch 'master' into sprinkle-rac_description
+Merge pull request #683 from ReactiveCocoa/sprinkle-rac_description-master
+Merge branch 'add-changelog' into cleaner-backtrace-retrieval
+Merge pull request #671 from ReactiveCocoa/thread-local-stack-counter
+Merge pull request #678 from ReactiveCocoa/only-observe-weak-dealloc
+Merge branch '2.0-development' into thread-local-stack-counter
+Merge remote-tracking branch 'origin/thread-local-stack-counter' into thread-local-stack-counter
+Merge pull request #670 from ReactiveCocoa/default-binding-values
+Merge remote-tracking branch 'origin/2.0-development' into hh-uialertview-raccommandsupport
+Merge remote-tracking branch 'origin/2.0-development' into thread-local-stack-counter
+Merge remote-tracking branch 'origin/2.0-development' into default-binding-values
+Merge pull request #632 from ReactiveCocoa/racobserve-change-dictionary
+Merge branch '2.0-development' into racobserve-change-dictionary
+Merge pull request #669 from ReactiveCocoa/its-grammar
+Merge pull request #667 from ReactiveCocoa/clarify-map-previous
+Merge pull request #664 from ReactiveCocoa/date-based-scheduling
+Merge branch '2.0-development' into date-based-scheduling
+Merge pull request #658 from robb/switch-case
+Merge branch '2.0-development' into racobserve-change-dictionary
+Merge branch '2.0-development' into switch-case
+Merge pull request #662 from ReactiveCocoa/switchToLatest-docs
+Merge pull request #656 from ReactiveCocoa/correct-combineLatest-documentation
+Merge branch '2.0-development' into racobserve-change-dictionary
+Merge branch 'master' into 2.0-development
+Merge pull request #652
+Merge pull request #638 from ReactiveCocoa/appkit-bindings-proxy
+Merge remote-tracking branch 'origin/2.0-development' into appkit-bindings-proxy
+Merge branch '2.0-development' into racobserve-change-dictionary
+Merge branch 'master' into 2.0-development
+Merge pull request #648 from ReactiveCocoa/concat-as-flatten
+Merge branch 'master' into 2.0-development
+Merge pull request #642 from ReactiveCocoa/newcomers-guide
+Merge pull request #635 from ReactiveCocoa/deprecate-sequence-many
+Merge pull request #640 from ReactiveCocoa/do-and-subscribe
+Merge pull request #639 from ReactiveCocoa/immediate-take-until-test
+Merge branch 'master' into 2.0-development
+Merge pull request #636 from ReactiveCocoa/k&r-reduce-blocks
+Merge pull request #634 from ReactiveCocoa/tweak-kvo-observing
+Merge branch '2.0-development' into racobserve-change-dictionary
+Merge pull request #626 into 2.0-development
+Merge branch '2.0-development' into racobserve-change-dictionary
+Merge remote-tracking branch 'origin/2.0-development' into pr/626
+Merge pull request #611 from ReactiveCocoa/uiactionsheet-signal-support
+Merge pull request #629 from ReactiveCocoa/rename-ignoreElements
+Merge pull request #601 from ReactiveCocoa/racobserve
+Merge branch 'racobserve' into racobserve-change-dictionary
+Merge branch '2.0-development' into racobserve
+Merge branch '2.0-development' into uiactionsheet-signal-support
+Merge pull request #616 from ReactiveCocoa/deprecate-window-and-buffer
+Merge pull request #608 from ReactiveCocoa/signal-for-selector-from-protocol
+Merge branch '2.0-development' into deprecate-window-and-buffer
+Merge branch '2.0-development' into signal-for-selector-from-protocol
+Merge pull request #620 from ReactiveCocoa/remove-lift-block
+Merge remote-tracking branch 'origin/signal-for-selector-from-protocol' into uiactionsheet-signal-support
+Merge pull request #617 from ReactiveCocoa/rename-to-property
+Merge branch '2.0-development' into racobserve
+Merge remote-tracking branch 'origin/2.0-development' into signal-for-selector-from-protocol
+Merge pull request #590 from ReactiveCocoa/signal-for-selector
+Merge pull request #612 from ReactiveCocoa/libextobjc-subtree
+Merge branch '2.0-development' into libextobjc-subtree
+Merge branch '2.0-development' into racobserve
+Merge pull request #609 from ReactiveCocoa/consistent-lifting
+Merge remote-tracking branch 'origin/2.0-development' into signal-for-selector
+Merge pull request #613 from ReactiveCocoa/import-cleanup
+Merge branch '2.0-development' into racobserve
+Merge branch 'zero-alloc-selector-search' into 2.0-development (pull request #602)
+Merge remote-tracking branch 'origin/2.0-development' into signal-for-selector
+Merge remote-tracking branch 'origin/master' into 2.0-development
+Merge pull request #605 from ReactiveCocoa/deprecate-bindto
+Merge pull request #600 from ReactiveCocoa/throttle-values-passing-test
+Merge branch '2.0-development' into racobserve
+Merge branch 'master' into racobservablepropertysubject-custom-keypath-handling
+Merge branch 'master' into 2.0-development
+Merge pull request #589 from ReactiveCocoa/update-xcode
+Merge branch 'master' into racobservablepropertysubject-custom-keypath-handling
+Merge pull request #593 from limboy/2.0-development
+Merge remote-tracking branch 'origin/2.0-development' into signal-for-selector
+Merge branch 'pr/555' into 2.0-development (pull request #555)
+Merge remote-tracking branch 'origin/2.0-development' into pr/555
+Merge pull request #588 from ReactiveCocoa/interval-scheduler
+Merge pull request #558 from AshFurrow/uibutton-command
+Merge branch '2.0-development' into interval-scheduler
+Merge pull request #584 from ReactiveCocoa/remove-racsubscriber
+Merge pull request #586 from ReactiveCocoa/deprecate-add-dealloc-disposable
+Merge pull request #585 from ReactiveCocoa/remove-did-dealloc-signal
+Merge remote-tracking branch 'github/2.0-development' into uibutton-command
+Merge branch 'master' into 2.0-development
+Merge pull request #582 from ReactiveCocoa/subscription-not-disposing
+Merge branch 'master' into subscription-not-disposing
+Merge pull request #580 from ReactiveCocoa/dealloc-fixes
+Merge branch 'nil-observer' into 2.0-development (pull request #569)
+Merge branch 'nil-observer' into racobservablepropertysubject-custom-keypath-handling
+Merge branch 'nil-observer' into racobservablepropertysubject-custom-keypath-handling
+Merge branch 'master' into racobservablepropertysubject-custom-keypath-handling
+Merge pull request #566 from ReactiveCocoa/fix-current-scheduler
+Merge branch 'master' into 2.0-development
+Merge pull request #565 from ReactiveCocoa/fix-concat
+Merge pull request #564 from ReactiveCocoa/another-header
+Merge pull request #563 from ReactiveCocoa/add-headers-ios
+Merge pull request #561 from ReactiveCocoa/expose-current-scheduler
+Merge pull request #562 from ReactiveCocoa/more-queue-scheduler-changes
+Merge branch '2.0-development' into expose-current-scheduler
+Merge branch 'master' into 2.0-development
+Merge branch '2.0-development' into expose-current-scheduler
+Merge pull request #556 from AshFurrow/remove-nstask
+Merge branch 'master' into racobservablepropertysubject-custom-keypath-handling
+Merge pull request #553 from ReactiveCocoa/more-optimization
+Merge branch 'master' into racobservablepropertysubject-custom-keypath-handling
+Merge branch 'master' into more-optimization
+Merge pull request #551 from kastiglione/document-sdk-requirements
+Merge pull request #552 from kastiglione/pbxproj-cleanup
+Merge pull request #549 from ReactiveCocoa/skip-rac-description-in-debug
+Merge branch 'master' into racobservablepropertysubject-custom-keypath-handling
+Merge pull request #540 from ReactiveCocoa/main-thread-command
+Merge pull request #543 from ReactiveCocoa/better-subscribe-on-docs
+Merge pull request #541 from lsavino/patch-1
+Merge branch 'master' into 2.0-development
+Merge pull request #539 from ReactiveCocoa/better-racable-documentation
+Merge pull request #538 from ReactiveCocoa/fix-command-binding-concurrency
+Merge branch 'deprecate-some-starts' into 2.0-development (pull request #536)
+Merge pull request #537 from ReactiveCocoa/restore-old-command-signals
+Merge pull request #535 from ReactiveCocoa/remove-cstr-lifting
+Merge pull request #530 from ReactiveCocoa/catch-command-errors
+Merge branch '2.0-development' into catch-command-errors
+Merge pull request #529 from ReactiveCocoa/remove-command-deprecations
+Merge branch 'master' into 2.0-development
+Merge branch 'pr/528' (pull request #528)
+Merge pull request #501 from ReactiveCocoa/once
+Merge pull request #510 from ReactiveCocoa/ios-testing-target
+Merge pull request #521 from kastiglione/extract-event-trampoline-management
+Merge branch 'master' into racobservablepropertysubject-custom-keypath-handling
+Merge pull request #512 from webdevotion/master
+Merge pull request #517 from andrask/master
+Merge branch 'master' into ios-testing-target
+Merge branch 'pr/506' (pull request #506)
+Merge remote-tracking branch 'KyleLeneau/ios_unit_test_target' into ios-testing-target
+Merge branch 'master' into once
+Merge pull request #498 from ikesyo/refactor-toarray
+Merge branch 'master' into racobservablepropertysubject-custom-keypath-handling
+Merge remote-tracking branch 'kastiglione/clarify-sequenceNext' (pull request #496)
+Merge pull request #491 from kkazuo/supports-nsrange
+Merge pull request #494 from ReactiveCocoa/fix-array-enumeration
+Merge pull request #489 from ReactiveCocoa/faster-stream-names
+Merge pull request #480 from ReactiveCocoa/rac-gesture-signal
+Merge remote-tracking branch 'origin/master' into rac-gesture-signal
+Merge pull request #485 from kkazuo/typeparsing-ushort
+Merge pull request #484 from kkazuo/typeparsing-const-pointer
+Merge branch 'master' into racobservablepropertysubject-custom-keypath-handling
+Merge pull request #483 from kkazuo/typeparsing-ushort
+Merge pull request #470 from ReactiveCocoa/racobservablepropertysubject-fix-keypath
+Merge pull request #481 from ReactiveCocoa/assertion-refactoring
+Merge pull request #479 from kkazuo/supports-nsrange
+Merge pull request #478 from ReactiveCocoa/queue-scheduler
+Merge pull request #462 from ReactiveCocoa/frp-best-practices
+Merge pull request #476 from ReactiveCocoa/fix-parameter-assert
+Merge branch 'master' into racobservablepropertysubject-fix-keypath
+Merge pull request #438 from kastiglione/lift-with-arguments-array
+Merge pull request #466 from ReactiveCocoa/shpakovski-basic-operators
+Merge pull request #467 from ReactiveCocoa/build-scripts
+Merge branch 'kvotrampoline-tests' into racobservablepropertysubject-custom-keypath-handling
+Merge branch 'master' into shpakovski-basic-operators
+Merge branch 'master' into frp-best-practices
+Merge pull request #461 from ReactiveCocoa/sequence-optimization
+Merge pull request #460 from ReactiveCocoa/tuple-optimization
+Merge pull request #457 from ReactiveCocoa/weak-actual-delegate
+Merge pull request #454 from ReactiveCocoa/racobservablepropertysubject-note-thread-safety
+Merge pull request #453 from ReactiveCocoa/unsafe-unretained-racbind
+Merge pull request #442 from ReactiveCocoa/defer-kvo-start
+Merge branch 'master' into lift-with-arguments-array
+Merge pull request #440 from ndouglas/small_fix_to_RACBacktrace
+Merge pull request #424 from jonsterling/rac-lifting-HOM
+Merge pull request #426 from ReactiveCocoa/kvo-options
+Merge remote-tracking branch 'origin/master' into kvo-options
+Merge pull request #406 from KyleLeneau/uibarbutton_command_support
+Merge pull request #416 from ReactiveCocoa/fix-cycle
+Merge pull request #409 from ReactiveCocoa/named-scheduler
+Merge pull request #402 from ReactiveCocoa/bump-libextobjc
+Merge pull request #384 from ReactiveCocoa/signal-for-selector
+Merge pull request #386 from iMartinKiss/feature/delay-scheduler
+Merge pull request #391 from ReactiveCocoa/less-lulzy-example
+Merge pull request #395 from ReactiveCocoa/readme-objc
+Merge pull request #390 from zlajo/feature/group_by_event_forwarding
+Merge pull request #382 from kkazuo/xcode-header-export
+Merge branch 'feature/kvo-options' into develop
+Merge pull request #377 from aitskovi/objectPassingTest
+Merge branch 'did-dealloc-signal' (pull request #376)
+Merge pull request #379 from kkazuo/complete-on-dealloc
+Merge pull request #375 from ReactiveCocoa/complete-command
+Merge pull request #374 from ReactiveCocoa/command-retain-cycle
+Merge pull request #368 from aitskovi/all
+Merge pull request #372 from ReactiveCocoa/fix-disposable-growth
+Merge pull request #370 from ReactiveCocoa/recursive-block-fix
+Merge pull request #363 from ReactiveCocoa/better-appkit-binding
+Merge branch 'master' into better-appkit-binding
+Merge pull request #366 from dmitrym0/master
+Merge branch 'master' into better-appkit-binding
+Merge pull request #362 from ReactiveCocoa/execute
+Merge pull request #359 from ReactiveCocoa/aitskovi-fold
+Merge pull request #360 from ReactiveCocoa/fix-toproperty
+Merge branch 'fold' of https://github.com/aitskovi/ReactiveCocoa into aitskovi-fold
+Merge pull request #357 from ReactiveCocoa/remove-disposed-disposables
+Merge remote-tracking branch 'origin/master' into remove-disposed-disposables
+Merge pull request #358 from ReactiveCocoa/first-byref-fix
+Merge pull request #356 from ReactiveCocoa/weak-subscriber
+Merge pull request #348 from ReactiveCocoa/concat-thread-safety
+Merge pull request #334 from ReactiveCocoa/asynchronous-waiting
+Merge branch 'master' into asynchronous-waiting
+Merge pull request #347 from ReactiveCocoa/rac-macro-type
+Merge pull request #342 from ReactiveCocoa/better-sequencing-docs
+Merge pull request #341 from ReactiveCocoa/readme-binding-lifetime
+Merge branch 'master' into asynchronous-waiting
+Merge pull request #352 from ReactiveCocoa/fix-switchtolatest
+Merge pull request #351 from ReactiveCocoa/command-errors
+Merge branch 'master' into asynchronous-waiting
+Merge pull request #333 from ReactiveCocoa/wait-until-completed
+Merge branch 'wait-until-completed' into asynchronous-waiting
+Merge branch 'master' into wait-until-completed
+Merge pull request #345 from ReactiveCocoa/fix-racpropertysubject-constructor
+Merge pull request #346 from joshvera/fix-raccommand-items-in-flight
+Merge pull request #337 from js/uses-tabs-project-setting
+Merge pull request #335 from js/composed-chars-string-sequence
+Merge pull request #331 from ReactiveCocoa/documentation-cleanup
+Merge pull request #330 from ReactiveCocoa/signal-chain-style
+Merge pull request #329 from ReactiveCocoa/readme-commands
+Merge pull request #327 from ReactiveCocoa/added-not
+Merge pull request #323 from ReactiveCocoa/dispose-when-completed
+Merge pull request #322 from js/patch-1
+Merge pull request #320 from ReactiveCocoa/tuple-unpack-lifetime
+Merge pull request #321 from ReactiveCocoa/minor-doc-errors
+Merge pull request #319 from ReactiveCocoa/archive-build-note
+Merge pull request #317 from ReactiveCocoa/stream-combination-refactor
+Merge pull request #315 from ReactiveCocoa/link-to-docs-prominent
+Merge pull request #316 from ReactiveCocoa/clarify-guidelines-purpose
+Merge pull request #312 from ReactiveCocoa/command-signals-redux
+Merge pull request #304 from ReactiveCocoa/design-guidelines
+Merge pull request #310 from ReactiveCocoa/signal-naming
+Merge pull request #311 from ReactiveCocoa/signal-contract
+Merge pull request #306 from EnthusiasticCode/design-guidelines
+Merge branch 'design-guidelines' of https://github.com/ReactiveCocoa/ReactiveCocoa into design-guidelines
+Merge branch 'master' into design-guidelines
+Merge branch 'detailed-readme' (pull request #293)
+Merge branch 'master' into detailed-readme
+Merge branch 'design-guidelines' of https://github.com/ReactiveCocoa/ReactiveCocoa into design-guidelines
+Merge pull request #309 from ReactiveCocoa/sequence-contract
+Merge branch 'design-guidelines' of https://github.com/ReactiveCocoa/ReactiveCocoa into design-guidelines
+Merge pull request #307 from ReactiveCocoa/new-operator-guidelines
+Merge pull request #305 from ReactiveCocoa/ractuplepack
+Merge branch 'design-guidelines' of https://github.com/ReactiveCocoa/ReactiveCocoa into design-guidelines
+Merge branch 'design-guidelines' of https://github.com/ReactiveCocoa/ReactiveCocoa into design-guidelines
+Merge pull request #301 from ReactiveCocoa/setup-instructions
+Merge the "Examples" section into the other code samples and add detail
+Merge pull request #298 from ReactiveCocoa/move-demos
+Merge pull request #300 from ReactiveCocoa/fix-bindto
+Merge pull request #299 from ReactiveCocoa/one-signal-per-property
+Merge pull request #294 from andrask/master
+Merge branch 'master' of https://github.com/github/ReactiveCocoa
+Merge pull request #295 from github/log-names
+Merge remote-tracking branch 'origin/fix-superclass-dealloc-swizzling'
+Merge pull request #290 from github/fix-kvo-signal
+Merge pull request #291 from EnthusiasticCode/fix-imports-in-extensions
+Merge remote-tracking branch 'origin/master' into fix-superclass-dealloc-swizzling
+Merge pull request #289 from github/lazy-kvo-signal
+Merge remote-tracking branch 'origin/master' into fix-superclass-dealloc-swizzling
+Merge pull request #286 from github/take-until-dispose
+Merge branch 'master' into take-until-dispose
+Merge pull request #284 from github/fix-notification-cycle
+Merge pull request #283 from github/fix-tests
+Merge pull request #280 from EnthusiasticCode/racsequence-enumerator
+Merge pull request #282 from EnthusiasticCode/remove-extconcreteprotocol
+Merge pull request #281 from github/xcode46
+Merge branch 'master' into racsequence-enumerator
+Merge remote-tracking branch 'EnthusiasticCode/two-way-binding' (pull request #163)
+Merge branch 'master' into two-way-binding
+Merge pull request #279 from github/dynamic-sequence-deallocation
+Merge pull request #278 from github/disposable-optimization
+Merge branch 'master' into disposable-optimization
+Merge pull request #274 from github/bounded-compound-disposables
+Merge pull request #276 from github/switch-and-if-renaming
+Merge pull request #275 from github/sequence-tests
+Merge branch 'bounded-compound-disposables' into disposable-optimization
+Merge branch 'mutable-dealloc-disposables' into disposable-optimization
+Merge pull request #265 from github/rx-differences
+Specify the overload of Merge that -flatten: corresponds to
+Merge branch 'master' into rx-differences
+Merge pull request #270 from github/materialize
+Merge pull request #268 from github/build-on-primitives-more
+Merge branch 'master' into build-on-primitives-more
+Merge pull request #269 from github/ignore-elements
+Merge pull request #259 from github/fix-combine-latest-cycle
+Merge pull request #266 from EnthusiasticCode/nsenumerator-sequence
+Merge pull request #263 from github/more-header-fixes
+Merge pull request #260 from github/fix-flatten-cycle
+Merge pull request #264 from github/memory-management-docs
+Merge pull request #262 from EnthusiasticCode/ractuple-sequence
+Merge pull request #261 from EnthusiasticCode/debug-names
+Merge branch 'master' into two-way-binding
+Merge pull request #251 from github/replay-last
+Merge pull request #250 from github/easier-signal-naming
+Merge branch 'easier-signal-naming' into replay-last
+Merge pull request #253 from github/take-until-completed
+Merge branch 'easier-signal-naming' into replay-last
+Merge branch 'master' into easier-signal-naming
+Merge pull request #245 from github/fix-multicast
+Merge branch 'master' into easier-signal-naming
+Merge pull request #252 from danielctull-forks/master
+Merge pull request #248 from github/flatten-replaced
+Merge pull request #246 from github/fix-throttle-and-delay
+Merge branch 'master' into two-way-binding
+Merge branch 'master' into two-way-binding
+Merge remote-tracking branch 'EnthusiasticCode/eager-sequences' (pull request #241)
+Merge branch 'master' into two-way-binding
+Merge pull request #235 from github/multicast
+Merge pull request #206 from andrask/master
+Merge remote-tracking branch 'origin/master' into multicast
+Merge branch 'master' of https://github.com/github/ReactiveCocoa
+Merge pull request #240 from github/signal-logging
+Merge pull request #237 from github/concat-block-cycle
+Merge branch 'master' of https://github.com/github/ReactiveCocoa
+Merge pull request #233 from github/interval-test-races
+Merge pull request #225 from github/signal-name-debugging
+Merge branch 'master' into two-way-binding
+Merge branch 'master' into signal-name-debugging
+Merge pull request #223 from github/demo-infinite-spinner
+Merge pull request #229 from github/subscriber-multiple-subscriptions
+Merge branch 'master' into signal-name-debugging
+Merge branch 'master' into subscriber-multiple-subscriptions
+Merge branch 'master' into demo-infinite-spinner
+Merge branch 'master' into two-way-binding
+Merge pull request #230 from github/fix-flatten-documentation
+Merge pull request #218 from github/backtrace-fixes
+Merge pull request #217 from github/dispose-scheduling
+Merge pull request #216 from github/better-tuple-unpack-docs
+Merge pull request #213 from github/if-then-else
+Merge pull request #211 from github/remove-raccollection
+Merge branch 'subscriber-multiple-subscriptions' into two-way-binding
+Merge pull request #227 from mdiep/improve-project-description
+Merge branch 'master' into racbinding
+Merge branch 'master' into signal-name-debugging
+Merge branch 'master' into if-then-else
+Merge remote-tracking branch 'EnthusiasticCode/interval-with-leeway' (pull request #222)
+Merge remote-tracking branch 'EnthusiasticCode/remove-nsarray-parameters' (pull request #219)
+Merge remote-tracking branch 'EnthusiasticCode/zip-forward-errors-immediately' (pull request #209)
+Merge pull request #210 from github/tuple-unpack-fixes
+Merge pull request #208 from github/fix-readme-schedulers
+Merge pull request #207 from github/fix-lift-cycle
+Merge pull request #200 from github/remove-teardown-delay
+Merge branch 'master' into remove-teardown-delay
+Merge pull request #203 from github/one-way-binding-errors
+Merge pull request #199 from jonsterling/find-optional-methods
+Merge pull request #198 from github/back-to-the-class
+Merge pull request #197 from andrask/master
+Merge pull request #196 from github/better-sequence-to-signal
+Merge pull request #193 from github/better-sequence-logging
+Merge pull request #189 from github/geometry-lifting
+Merge branch 'master' into two-way-binding
+Merge pull request #181 from github/synchronous-signal-documentation
+Merge branch 'master' into synchronous-signal-documentation
+Merge pull request #185 from github/tuple-unpacking
+Merge pull request #184 from github/fix-replay-race
+Merge pull request #183 from github/fix-first
+Merge branch 'master' into two-way-binding
+Merge pull request #178 from github/keeplatest
+Merge pull request #182 from github/racable-memory-management-documentation
+Merge branch 'master' into racable-memory-management-documentation
+Merge pull request #180 from github/use-racsignal-protocol
+Merge pull request #174 from github/notification-center-tests
+Merge pull request #169 from github/scheduler-fixes
+Merge branch 'master' into scheduler-fixes
+Merge pull request #172 from github/remove-file-watching
+Merge branch 'master' into scheduler-fixes
+Merge pull request #170 from EnthusiasticCode/concat
+Merge pull request #167 from github/more-compound-disposables
+Merge branch 'master' into two-way-binding
+Merge branch 'more-compound-disposables' into scheduler-fixes
+Merge pull request #165 from github/nil-errors
+Merge pull request #164 from github/side-effects-documentation
+Merge remote-tracking branch 'origin/scheduler' (pull request #150)
+Merge pull request #144 from EnthusiasticCode/zipping-and-combining-duplicate-signals
+Merge branch 'master' into zipping-and-combining-duplicate-signals
+Merge pull request #154 from EnthusiasticCode/collect
+Merge remote-tracking branch 'origin/master' into scheduler
+Merge pull request #153 from github/combining-empty-streams
+Merge pull request #151 from github/simplify-specs
+Merge branch 'master' into zipping-and-combining-duplicate-signals
+Merge pull request #149 from jwilling/prefix-methods
+Merge pull request #147 from github/subscriber-threading
+Merge branch 'master' into subscriber-threading
+Merge pull request #135 from github/more-racstream
+Merge branch 'master' into more-racstream
+Merge pull request #142 from github/bind-fixes
+Merge branch 'bind-fixes' into more-racstream
+Merge branch 'master' into bind-fixes
+Merge pull request #128 from github/sample
+Merge pull request #145 from EnthusiasticCode/fix-zip-reduce-error-forwarding
+Merge branch 'bind-fixes' into more-racstream
+Merge pull request #137 from EnthusiasticCode/fix-readme-license
+Merge branch 'master' into more-racstream
+Merge pull request #131 from github/remove-fast-enumeration-extensions
+Merge branch 'master' into more-racstream
+Merge branch 'master' into remove-fast-enumeration-extensions
+Merge pull request #134 from github/sequence-lazy-bind-fixes
+Merge pull request #130 from github/remove-nsarray-extensions
+Merge pull request #124 from github/sequence-block-cycle
+Merge pull request #120 from EnthusiasticCode/zip-reduce
+Merge pull request #121 from github/mit-license
+Merge branch 'master' into zip-reduce
+Merge branch 'master' of github.com:github/ReactiveCocoa
+Merge pull request #118 from github/signal
+Merge branch 'master' into signal
+Merge pull request #98 from github/lift
+Merge branch 'master' into lift
+Merge pull request #117 from github/remove-all-load
+Merge pull request #92 from github/lazy-sequences
+Merge branch 'master' into lazy-sequences
+Merge remote-tracking branch 'origin/master' into lift
+Merge pull request #116 from github/contributing
+Merge pull request #115 from github/fix-scan
+Merge pull request #114 from github/fix-demo-combine-latest
+Merge branch 'master' into lazy-sequences
+Merge remote-tracking branch 'origin/master' into lazy-sequences
+Merge pull request #104 from github/get-return-value-fixes
+Merge pull request #103 from github/select-const
+Merge branch 'master' into lazy-sequences
+Merge pull request #97 from github/better-combine-latest
+Merge pull request #95 from github/better-interval
+Merge branch 'better-combine-latest' into lift
+Merge branch 'master' of github.com:github/ReactiveCocoa into better-combine-latest
+Merge pull request #96 from github/kvo-crash
+Merge remote-tracking branch 'origin/master' into lazy-sequences
+Merge remote-tracking branch 'origin/master' into better-interval
+Merge pull request #91 from github/sequence-next-on-completed
+Merge pull request #88 from github/merge-concurrent
+Merge branch 'master' into better-combine-latest
+Merge branch 'master' into merge-concurrent
+Merge remote-tracking branch 'origin/import-extkeypathcoding' (pull request #86)
+Merge pull request #85 from github/remove-rac-keypath
+Merge pull request #84 from github/resend-nil-errors
+Merge remote-tracking branch 'origin/switch' (pull request #83)
+Merge pull request #81 from tonyarnold/header-visibility-for-ios-fixes
+Merge remote-tracking branch 'origin/weak-all-the-things' (pull request #79)
+Merge pull request #78 from tonyarnold/xcode-4.5-fixes
+Merge remote-tracking branch 'origin/fix-autoconnect' (pull request #77)
+Merge pull request #76 from github/fixes
+Merge remote-tracking branch 'origin/remove-generators' (pull request #75)
+Merge pull request #71 from github/perform-selector
+Merge remote-tracking branch 'origin/master' into perform-selector
+Merge pull request #69 from github/backtrace-performance
+Merge pull request #68 from github/async-subject-nil-values
+Merge pull request #67 from github/fix-dangling-pointer
+Merge pull request #65 from github/derived-assignment
+Merge pull request #64 from github/fold
+Merge pull request #62 from github/readme-typo
+Merge remote-tracking branch 'origin/move-nsfilemanager-category' (pull request #61)
+Merge remote-tracking branch 'origin/fix-merge-sync' (pull request #60)
+Merge remote-tracking branch 'origin/watch-file' (pull request #58)
+Merge remote-tracking branch 'origin/master' into watch-file
+Merge remote-tracking branch 'origin/free-categories' (pull request #59)
+Merge remote-tracking branch 'origin/fix-withstart' (pull request #57)
+Merge remote-tracking branch 'origin/command' (pull request #56)
+Merge pull request #55 from github/fix-generator-races
+Merge remote-tracking branch 'origin/sequence-many' (pull request #52)
+Merge pull request #54 from github/send-first-distinct-nil
+Merge pull request #53 from github/fix-distinct-for-nils
+Merge pull request #49 from github/concrete-protocols
+Merge branch 'master' into concrete-protocols
+Merge branch 'master' into concrete-protocols
+Merge pull request #51 from github/racablewithstart
+Merge branch 'master' into concrete-protocols
+Merge pull request #50 from github/generator
+Merge remote-tracking branch 'origin/raccommand-fixups' (pull request #46)
+Merge branch 'incremental-combine-latest' (pull request #45)
+Merge pull request #44 from bvanderveen/combine-latest-tuple
+Merge remote-tracking branch 'origin/fix-kvo-subscribable-teardown' (pull request #41)
+Merge pull request #39 from aegzorz/master
+Merge pull request #38 from github/async-backtraces-only-in-debug
+Merge remote-tracking branch 'origin/fixes-from-816dcf11'
+Merge remote-tracking branch 'origin/more-synchronization'
+Merge branch 'master' into more-synchronization
+Merge pull request #34 from github/async-call-stacks
+Merge branch 'master' into async-call-stacks
+Merge remote-tracking branch 'origin/more-synchronization'
+Merge remote-tracking branch 'origin/sync-disposable'
+Merge remote-tracking branch 'origin/master' into async-call-stacks
+Merge branch 'master' of github.com:github/ReactiveCocoa
+Merge pull request #31 from nickynick/master
+Merge pull request #28 from github/fix-firstordefault-semaphore-lifetime
+Merge pull request #30 from github/fix-rackvowrapper-dealloc
+Merge pull request #29 from github/thread-safe-kvo
+Merge remote-tracking branch 'origin/derived-prop'
+Merge pull request #24 from github/block-instead-of-spin
+Merge pull request #22 from github/use-xcconfigs
+Merge pull request #23 from github/better-constructor-types
+Merge pull request #18 from github/update-expecta
+Merge pull request #16 from carlbrown/master
+Merge branch 'master' of github.com:github/ReactiveCocoa
+Merge branch 'master' of github.com:github/ReactiveCocoa
+Merge pull request #9 from EnthusiasticCode/master
+Merge branch 'master' of github.com:github/ReactiveCocoa
+Merge pull request #8 from akiland/master
+Merge pull request #7 from jwilling/master
+Merge branch 'master' of github.com:github/ReactiveCocoa
+Merge pull request #5 from codykrieger/uitextview-subscribable
+Merge remote-tracking branch 'github/master' into uitextview-subscribable
+Merge branch 'master' of github.com:github/ReactiveCocoa
+Merge remote-tracking branch 'github/master'
+Merge pull request #6 from akiland/master
+Merge branch 'master' of github.com:github/ReactiveCocoa
+Merge pull request #4 from jonsterling/tuple_subscripts
+Merge branch 'master' of github.com:github/ReactiveCocoa
+Merge pull request #3 from KingOfBrian/master
+Merge branch 'master' of github.com:github/ReactiveCocoa
+Merge branch 'master' of github.com:github/ReactiveCocoa
+Merge branch 'master' of github.com:github/ReactiveCocoa
+Merge branch 'master' of github.com:github/ReactiveCocoa
+Merge branch 'master' of github.com:github/ReactiveCocoa

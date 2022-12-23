@@ -1,0 +1,563 @@
+Fix Link header non-ASCII characters issue (#2903)
+Fixed simple mistakes and typos
+Fix line-endings in build.sh
+Fixed a couple of typos
+Fix HostConfiguration XML documentation
+Fixed analyzer warnings
+Fixed more broken tests
+Fixed broken tests
+Fixed broken tests on all tfms
+Fix restore verbosity
+Fix .editorconfig
+Fixed some english language use issues
+Fixed typo in Nancy.Validation.DataAnnotatioins.Tests project name
+Fixed dotliquid versions in csproj files
+Fixes diagnostics for inconstructible bootstrapper
+Fixed build warnings in src/Nancy
+Fixed file link in project file
+Moved AppDomainAssemblyCatalogFixture.cs to correct location within the project
+Fixes the assemby loading into the temp AppDomain
+Fixed Nancy dependencies for full framework
+Revert "Fixed the Mono version to 4.4.2 for Travis builds"
+Fixed conditional formating
+Fixed AppVeyor build badge
+Fixed the Mono version to 4.4.2 for Travis builds
+Fix anglesharp reference
+Remove assert on exception message. Fixes #2565
+Fix for deserializing JSON number to ulong and ushort values
+Fixed <value> tags. And bs comments from ghost doc
+Fixed unintended bug in EmbeddedFileResponse and removed the extra line in DiagnosticsSession
+Fixed more xml warnings and some trivial cleanup with resharper.
+Fixed more xml warnings and some cleanup with resharper.
+Fixed more xml warnings and some cleanup with resharper.
+Fixed xml warnings and some cleanup with resharper
+Fixed xml warnings in nancyInternalConfig
+Fixed xml warnings in errorpipeline
+Fixed warnings and some resharper stuff in DynamicDictionaryValue
+Fixed warnings and some resharper stuff in DynamicDictinaryValue
+Fixed warnings and some resharper stuff in DefaultNancyBootstrapper
+Fixed warnings in BeforePipeline
+Fixed warnings in AsyncNamedPipelineBase
+Fixed warnings in NancyEngine
+Fixed XML warnings in AfterPipeline
+Fixed unit tests for datetime serialization with negative local offsets
+Fixed web targets (#2476)
+Fix install script location
+Fixed build errors on dotnet5_4
+Fixed GetProperties with System.Reflection.TypeExtensions
+Fixes wording on the pull request template
+Fixed some reflection problems for CoreCLR in NancySerializationStrategy
+Fixed typo
+Fix syntax of Link HTTP Header
+Fix formatting issues and switched Type references to TypeInfo references
+Fixed NullReferenceException if Start is not called before Dispose.
+Fix xml comment
+Fixed invalid entry in .gitignore
+Fixed broken tests
+Added missing embedded resource to fix EmbeddedFileResponseFixture tests
+Made GenericFileResponseFixture pass on both runtimes
+Fixed build errors after package upgrades
+Fixed relative paths
+Fixed failing tests after linking in files
+Fixed assembly resolving filter to replicate the old behaviour
+Fix TravisCI
+added ITypeCatalog args to CustomInteractiveDiagFixture
+Fixed relative paths in projects
+Fixed review comments
+Fixed review comments
+Fixed missing bracket in comment
+Fixed failing tests
+Fixed failing test, metadata module test still broken
+Fixing up old demos
+Fixed up diags routes to use async definitions
+Fixed failing test
+Fix test (broken from rebase)
+Fixes in Nancy.Tests due to browser becoming async.
+Merge pull request #2150 from jeffthiele-iq/FixCancellationTokenSourceDisposal
+Fixes issue #2131 with XmlProcessor
+Fix for #2076
+Fixed XML comment
+Fixed XML comments
+Fixed review comment + renamed to XmlConfig convention
+Fixed failing tests
+Fixed some styling inconsistencies
+Fixed configuration methods on ConfigurableBootstrapperConfigurator
+Fixed typo
+Fixed a couple of bugs introduced by the massive rebase
+Fix test - explicitly set the NancyBootstrapperLocator.Bootstrapper
+Fix Nancy.Damo.Authentication.Forms to support ClaimsPrincipal
+Fix, changes (and some deletions) to ModuleSecurity, SecurityHooks and related tests due to ClaimsPrincipal support.
+Fix resharper ignore pattern.
+Merge pull request #2094 from richardprice/AuthCookieDecodeIssueFix
+Fixed tests!
+Fixed various cookie encoding and decoding issues and related tests
+Fixed failing tests
+NancyEngine now implements IDisposable such that when the engine is disposed, it will no longer handle subequent requests and will attempt to cancel existing in-flight requests. Fixes #1864.
+fix failing Test LoginFixture.Should_return_unauthorized_without_user_agent() This test did not define not to send a user agent. As the header entry was missing, Nancy.Testing.Browser.CreateRequest() added a default test user agent "Nancy.Testing.Browser" - thus the defining part of the fact to test was missing.
+Merge pull request #2066 from joebuschmann/exceptionExtensionsFix
+Merge branch 'exceptionExtensionsFix' of https://github.com/joebuschmann/Nancy into exceptionExtensionsFix
+Fixed test failing on Mono
+Fixed indentation
+Merge pull request #2062 from grumpydev/MaterialisingResponseNullFix
+Fixes #2016
+Fixes TypeLoadException from static constructor in AppDomainAssemblyTypeScanner.cs - avoid crash if there is an assembly version mismatch (assembly.GetExportedTypes())
+Allowing for null tracelog. Fixes #2040.
+Fixed test for razor view with generic model
+Fixed overload which called Dependency<object>
+Fixed various R# warnings and suggestions
+Wrapped DeserializeRequestBody in try/catch. Fixes #1927
+Fixed implicit cast from Uri to Url. Closes #1966
+Additional call to UpdateTypes in Bootstrap. Fixes #1942
+Fix two typos in RouteDescription constructor.
+Fixed grammer.
+Fix broken build.
+Fixed some misspellings
+Fixed a view typos
+Url - Fixed up indentations and whitespace in general
+Merge pull request #1847 from 06b/instanceTypoFix
+Fix instance typos
+Merge pull request #1843 from 06b/EncryptTypoFix
+Fix typo in MachineKeyEncryptionProvider
+Merge pull request #1841 from 06b/CompatibilityTypoFix
+Merge pull request #1835 from 06b/Nancy.Demo.Razor.Localization-TypoFix
+Merge pull request #1834 from 06b/Nancy.Demo.Caching-FormattingFix
+Fix typo on CultureView-de-De in Localization Demo
+Merge pull request #1827 from 06b/TypoCheckingAndFixes
+Merge pull request #1826 from 06b/RequestTypoFix
+Fix spelling and phrasing in BrowserResponseBodyWrapper's doc comments
+Fixing some typos
+Fix typos in Request.cs
+Merge pull request #1823 from 06b/ResponseTypoFix
+Fixed another typo
+Fix typo
+Fix xml comment
+Fix xml comment
+Fixed potential NullReferenceException. Fixes #1807
+Merge pull request #1809 from ClemPi/GenericFileResponseFix
+DynamicDictionary BugFix
+Fix for failled test: int convertion to nullable long
+Fix typo
+Fixed a bug that prevented transmitting chunked content with the Nancy SelfHost library.
+Merge pull request #1752 from ClemPi/DefaultRequestDispatcherFix
+Fix route dispatcher extension stripping behavior + unit test
+Fixed typo in HttpFile.cs
+add GWT comments to ConstraintNodeRouteResolverFixture
+Merge pull request #1569 from phillip-haydon/RoutingFix#1565
+Fixes it
+Fix xml comments
+Fixing comments
+Fix project name
+Fix assembly name
+Fixed typo
+Merge pull request #1626 from WynyardGroup/Querystring-Fix
+Merge pull request #1639 from richardprice/BindingCaseFix
+Fixed case comparison issue with model binding collections
+Fixed handling of YUI combo querystrings
+Fixed code indentation
+Fixed failing tests. DOH!"
+Fix a comment
+Merge pull request #1584 from kzhen/AssertExtensionsFix
+Fixed ShouldBeOfClass expect and actual around the wrong way
+Fixed Asserts.Equal, expected and actual were around the wrong way
+NancyMiddlware is a static factory that creates a MidFunc - the owin standard for middleware delegates. The engine is initialized once as before, and all options work, as before. Also tweaked NancyMiddlewareFixture
+Fixed failing test.
+Fix spelling of references in xml comments
+Fix malformed xml comments
+Fixing fixture formatting
+Fixed failing test.
+Fixed build, not sure what happened there
+Fixed and added tests
+Fixed tests
+Fixed silly copy/paste error
+Fixed merge errors and a failing test
+Fixed test so it fails properly
+Fixed tests
+Fixed date time test for DST
+Fixed error after rebase
+Merge pull request #1501 from rcknight/TracesMessageFix
+Fix incorrect error traces message It should tell people set DisableErrorTraces to false, not true, to enable them
+Merge pull request #1449 from scottt732/StackOverflowFix
+Fix for 'everyone' account in other languages
+Merge pull request #1463 from Adalyat/testBindingFixture
+Fixed error
+Fixed failing unit test.
+Fix documentation typo
+Fixed broken tests
+Fix typo
+Fixed bootstrapper declaration in web.config
+Fix XML docs typo
+Fixed indentation in JsonSerializer. sublime FTW :metal:
+Fixed whitespace, added XML docs
+Fixed camelCase names in diagnostics
+Fix XML comment
+move code around a bit in BrowserDefaultsFixture
+Fixed for TheHumanStyleCop
+Fixed the comments from @thecodejunkie
+Fixed xmldoc comment
+Fixed documentation about Csrf being disabled by default.
+Allow any whitespace after JSON tokens. Fixes issue #962.
+Added 'Given, When, Then' to the NamedPipelineBaseFixture test and fixed indenting.
+Fix WCF host Content-Type issue for 304 responses
+Merge pull request #1352 from steenhulthin/contributingMdFix
+Added IResourceReader to NancyInternalConfiguration. Fixes #1347
+comments in test DynamicDictionaryFixture.cs Should_remove_natural_key
+Found a key bug in DynamicDictionary.cs Remove(string key) Added test that confirms fix. DynamicDictionaryFixture.cs  Should_remove_natural_key()
+Fixed #1288
+Fixed some minor issues with demo project
+Fixing indentation
+Fixed Phillips rookie mistake ;)
+Fixed unclosed input tag for AntiForgeryToken in SSVE.
+Fix for unexpected request stream switching
+Fix obsolete method description
+Fixed broken tests
+Fixed XML comment of ModelValidationDescriptor
+Fixed travis for breaking albacore changes
+Fixed rakefile for VS2013 only boxes
+Fixed invalid XML comment
+Fixed broken tests
+Fixed invalid data annotation reference in XML comment
+Fixed type
+Fixed multiple enumeration of modelvalidators
+Fixed a bug when SSVE wasn't able to handle complex models like a Dictionary inside of another object.
+Fixed indentation
+Merge pull request #1296 from grumpydev/OwinDisposeFix
+Merge pull request #1159 from albertjan/FixFor-1140
+Fixed name of the Nancy.Validation.DataAnnotations.Tests project and namespace
+Fixed test boo-boo
+Fix problem with JsonBodyDeserializer and unsigned Nullable<> types
+Merge pull request #1276 from grumpydev/Fix1226
+Updated help text - Fixes #1226
+Merge branch 'CookieParsingBugFix' of https://github.com/erdomke/Nancy into erdomke-CookieParsingBugFix
+Merge pull request #1251 from justinvp/wcfHostFix
+Fixed spacing in changes
+Fixed invalid type reference in XML comment
+Merge pull request #1264 from grumpydev/FastPathFix
+Merge pull request #1258 from grumpydev/BinderJsonValueTypeCollectionFix
+Fixed issue with binding to json value type collections. Fixes #1257
+Fixed binding to reference types directly
+Merge pull request #1255 from albertjan/FixFor-1253
+Fixed QueryWrapper.ShouldContain assertion when QueryWrapper.Any() is false
+Fixed failed datetime test (localisation issue in the test)
+Fix assertion to check correct cookie value
+Fixed failing test for #1186
+Fix for Mono 2.x not returning the correct exception
+Merge pull request #1187 from damianh/SlnConfigFix
+Merge pull request #1183 from damianh/AsyncTestFixes
+Rewrite of Nancy.Owin.Tests - removed package dependencies that were causing problems on mono (Microsoft.Net.Http) and copied relavent tests from previous NancyOwinHostFixture
+Fixes the aspnet hosting failing tests. 1) Move the EndProcessRequest logic from NancyHttpRequestHandler into NancyHandler 2) Ensure nancyContext is disposed in NancyHandler.EndProcessRequest 3) Setup fake calls against the INancyEngine.HandleRequest async overload 4) Call EndProcessRequest in the tests
+Several NancyEngineFixture test fixes where instead of throwing an exception in the mocks, a faulted task is returned.
+Fixes HandleRequest_prereq_returns_response_should_still_run_postreq (ensure running post-hooks even if pre-hook returns a response)
+Fix tests in AfterPipelineFixture.  When adding piplines, instead of asserting on the items added, assert using the collection items.
+Fixes PipelineFixture.Should_clone_after_request_hooks_when_created_with_existing_pipeline() and .Should_clone_before_request_hooks_when_created_with_existing_pipeline()
+Fixes CsrfFixture.Should_be_able_to_disable_csrf failing test by changing AsyncNamedPipelineBase.Wrap such that a PipelineItem is returned where the Name property is not lost.
+Fixed a few spelling mistakes
+Fixed more tests
+Fixed SSVE throwing when conditional property on viewbag is null
+Fixed failing tests
+Fixed broken Owin packages
+Fixed a couple of build errors
+Fixed issue with 404/options
+Fixed custom module demo
+Fixed ASP.Net NancyHandlerFixture.cs
+Fixed ModuleSecurityFixture.cs
+Fixed DefaultRequestDispatcherFixture.cs
+Fixed NancyEngineFixture.cs
+Fixed NotFoundRouteFixture.cs
+Fixed NancyBootstrapperBaseFixture.cs
+Fixed DefaultRouteInvokerFixture.cs
+Fixed CsrfFixture.cs
+Fixed CookieBasedSessionsFixture.cs
+Fixed AfterPipelineFixture.cs
+Fixed BeforePipelineFixture.cs
+Fixed FormsAuthentication tests
+Fixed BasicAuthentication tests
+Fixed merge issue with csproj
+Fixed merge issues
+Fixed demo project
+Fixed stupid error handling mistake
+Fixed view location exceptions not getting to the client
+Merge pull request #1152 from albertjan/FixFor-1150
+Fix charset in JsonFormatter tests
+Fix charset in JSON tests
+Fix default JSON response charset
+Fix failing tests & Adds an even odder one.
+Fix indentation; add braces around single-line if.
+Fix some more typos
+Merge pull request #1144 from yojimbo87/selfHostHttpListenerCommentFix
+Fixed issue #1141 with invalid chars in filenames
+Fixed wget command
+Fixed output format bug
+Fix for Issue 1125 - Bootstrapper throws with multiple RootPathProviders
+Merge pull request #1123 from grumpydev/OwinClientCertFix
+Merge pull request #1122 from grumpydev/Fix-1120
+Fixed #1120
+Fixed code style issues
+Fixed substring
+Merge pull request #1112 from grumpydev/Fix-1090
+Fixed #1090
+Fixed merge issue
+Format DiagnosticsHookFixture
+Fix typo
+Fix class name typo
+Fix typos
+Merge pull request #1100 from kppullin/certExceptionMonoFix
+Merge pull request #1093 from smithjacobj/Options-Route-Fix
+Fixing indentation (tabs to spaces)
+Fix to cookie parsing algorithm in RequestHeaders
+Adjusted EmbeddedFileReposeFixture to expect ETag headers to be surrounded by quotes (tests fail)
+Fixed extension substring issue with static content
+Fixed merge conflicts
+Fixed issue with single wildcard
+Fixed a test bug in DefaultBinderFixture
+Merge pull request #1041 from majimenezp/FixADAsmScanner
+Fixed RequestStream tests
+Fix issue with login request helper
+Fix typo
+Fixed broken xunit reference
+Merge pull request #1038 from bwatts/WcfTrailingSlashFix
+Fixed an issue with @jchannon not being able to make projects properly or run rake
+Fixed incorrect spacing convention
+Fixed MonoDevelop spacing shenanigans
+Fixed tests
+Merge pull request #1013 from adamclerk/FixingMonoCompileBug
+Fix for #981
+Fixed typo in DefaultNancyBootstrapper's autoregister blacklist
+Fixed mimetype for json
+Fixing Mono Build Error
+Added Tests and Fix for Issue #995 Problem with Razor content in attributes
+Fixed Nancy.Demo.Razor.Localization
+Fixed xml comments
+Fixed remaining tests
+Fixed failing tests
+Fixed typo
+More Fixups.. zzz
+Merge pull request #996 from grumpydev/InvalidPathFix
+Fix for "invalid characters in path" when using browser
+Merge pull request #994 from grumpydev/NoRootFix
+Fixed issue where having no root route caused a 500
+Fixed aspnet bootstrapper
+Merge pull request #992 from tischlda/FixUserIdentityExtensionsFixture
+Fix UserIdentityExtensionsFixture, broken by making IUserIdentity immutable.
+Merge pull request #909 from btompkins/FixRootPathProvider
+Fixed HEAD and OPTIONS requests and mspec tests
+Fixed failing test
+Fixed filtering
+Fix for WCF and not-modified static content
+Merge pull request #980 from grumpydev/ExtendedAcceptHeaderFix
+Fixed failing tests
+Merge pull request #977 from grumpydev/Fix-969
+Fix for visual studio breaking the solution configs for the 500th time
+Fixed #913
+Merge pull request #968 from marcusoftnet/FixedWarningInDocumentWrapper
+Fixed an obsolete warning in DocumentWrapper.cs
+Fixed typo
+Only RewriteLocalhost when not TLD. Fixes #965
+Merge pull request #956 from grumpydev/Razor2Fixups
+Fixed issue with rendering attributes with code in them
+Fixed CI test execution
+Updated transforms + build provider - Fixes #942
+Fixed references
+Fixed typo in nuspec
+Fixed ~ expansion
+Fixed application registration enumerations
+Fixed test setup
+Fixed bug in the view location cache
+Fix "Boostrapper" typos
+Fixed comment
+Fixed comment
+Fixed sln configs
+Fixed bug in the cache.
+Merge pull request #928 from grumpydev/DiagsFixes
+Fixed a couple of warning for unused exception variables. They bothered my eyes :)
+Fixed memory leak in XmlBodyDeserializer
+Fixed build
+Fixed nuspec
+Fixed the build
+Fixed casing in nuspec file
+Fixed error message of Single-Assertion.
+Merge pull request #912 from grumpydev/BlankPathFix
+Fix for #911
+Merge pull request #910 from grumpydev/AcceptHeaderFix
+Fixed #908
+Fixed #892
+Update src/Nancy.Tests/Unit/ModelBinding/DefaultBinderFixture.cs
+Fixed messed up build configurations
+Fixed typo
+Merge pull request #887 from grumpydev/FaviconFix-886
+Fixes some stylecop sins by @jchannon
+Fix for #886
+Fixed stupid bug :)
+Added DefaultTextResouceFixture
+Merge pull request #876 from grumpydev/PrivateBinPathFix-873
+Merge pull request #874 from grumpydev/PrivateBinPathFix-873
+Fixed (hopefully) the private bin path handling
+Fixed multipart form value bug
+Merge pull request #859 from jchannon/RequestFixtureFormatting
+Fixed stupid path chopping up bug
+Fix failing DotLiquid tests
+Fix DotLiquid drop naming conventions
+Fixed bug #820.
+[Nancy.Hosting.Self] Fixed bug with base URL segments case-sensitive comparation.
+Fixed an issue where stacktrace of original exception would be lost in HandleError pipeline.
+Fixed issue #789
+Merge pull request #788 from bsommardahl/FixStatelessDemo
+Fixed invalid url in api constants file.
+Fixed typo
+Fixed issue with collection types and body deserializers
+Fixups
+Fixed indention
+Fixed json line ending trimming
+Fixed failing conneg tests
+Fixed hanging owin test
+Fixed typo
+Fixed JsonDeserializer for new Date format (two unit tests were broken).
+Fixed formatting to Visual Studio defaults (indents with 4 spaces).
+Fixed tabbed indentation.
+Fixed UriExtensions and unit tests for selfhosting
+removed Owin tests EnvironmentExtensionsFixture
+Fixed the self-hosting code to register the http/https URL prefixes using a + instead of "localhost". Together with the correct "netsh http add" command this allows for remote access to your self-hosted Nancy service.
+Fixed link header bug
+Fixed failing test
+Fixed typo
+Fixed json "/Date" format to serialize/deserialize timezone information (the deserialized datetime will now be local time).
+Fixed up build configs
+Fixed broken invoker tests
+Fixed link headers - code is still way too complex
+Fixed up log rendering and added more logging
+Fixed build so at least it compiles :-)
+Fixed using block in one class. Removed unused references from website project.
+Fixed using statements, replaced remnants of Forms with Stateless, cleaned up code a little more.
+Fixed a couple of typos
+Cleaned up NancyBoostrapperBaseFixture code
+Fixed error message and formatting
+Fixed nuspec file to remove old wcf project reference
+Fixes a small bug in BrowserContext where it was not prepending a "?" for the first item in the query string. If other Response-building test classes are examined (such as FakeRequest) it's clear that the Response constructor expects the initial "?" in the query string argument. Not to mention, tests that should have worked were failing until the fix was made.
+Fix for failing mspec test
+TextResponse Fixture
+Fixed file to follow code conventions
+Fixed StreamResponse bug with seek position
+Fix of a bug where the end of the stream was appended to the data of the multipart. Added closing boundary logic to Multipart. The multipart now stops after the closing buffer instead of the end of the stream. Changed the behavior of browser for multipart. When it adds the closing boundary it also adds \r\n before the boundary like specified in the RFC.
+Merge pull request #509 from logicbomb/Fix-Static-Convention
+Fix: Exception during rendering kills the self host process
+Fix failing unit tests
+Fix issues #497 and #419 that crash host due to uri casing or trailing slash
+Fixes #512. Quote dynamic strings properly when they are JSON Serialized.
+Fixed typo
+Fixed typo in exception message.
+Fixing spark path issue to make it follow documented conventions
+Fixed mono failing test
+Fixed test for mono - another extension method resolution issue
+Fixed bugs in default route pattern matcher
+Fixed typo in request tracing message
+Fixed potential csrf exception
+Fixed broken tests
+Fixed broken DefaultRouteResolver tests
+Fixed formatting, added tests, added demo.
+Merge pull request #465 from grumpydev/Fix459
+Fix for #459
+Fixed #458 - the default 500 error page is replaced by a real exception
+Fix for #428
+Fixed view location conventions
+Fixed stacktrace on error
+Fix for binding to interface types
+Fixed not found response
+Merge pull request #437 from grumpydev/ErrorPagesFixup
+Fix for #436 - Added a body null object for comparison
+Fixed so spark can find views in the root
+Merge pull request #391 from ChrisMH/StartupTaskFix
+Merge pull request #388 from t3hc13h/NancyOwinHostCookieBugFix
+Fixed typo in 500 error page.
+Fixed WCF hosting concurrency issues
+Fix for exception thrown when more than one cookie in response.
+Merge pull request #383 from grumpydev/CSRFTokenFix
+Fixed issue with the input tag being malformed for CSRF
+Merge pull request #382 from grumpydev/DefaultSerializerFix
+Fixed up loose ends
+Fix for #364 - passing in the context to 'Can' method
+Fixed stupid compilation failure.
+Fixed bug with non-insertable list
+Merge pull request #338 from grumpydev/0.8.1Fixes
+Fixup for subfolder namespace escaping
+Fixed some failing tests
+Merge pull request #337 from grumpydev/0.8.1Fixes
+Fixes #329 - error traces on in debug mode
+Merge pull request #334 from grumpydev/0.8.1Fixes
+Fixes for Razor partials and html file location
+Fixed #314
+Fix for issue #258
+Fixed cookie not created in owin host
+Fixed code styling
+Fixed some failing tests.  Also cleaned up a file with mixed tabs/spaces
+Fixed dependency issue
+Fix in the multipart form generation
+Added the missing CaseSensitivityFixture
+Fixed Spark H(null) encoding behavior
+Fixed failing tests
+Fixed bug in formsauth where querystring was stripped out in returnurl
+Fixed bug in the AsString extension
+Fixes a potential encoding problem with the rakefile
+Fixed #238
+Fix for #226 - cookie encoding problem in SelfHost
+Fixup for test runner
+Changed FileSystemRootPath provider. Fixes #203
+Fixed issue in ResourceViewLocationProvider where partial view extension match could occure
+Fixed bug in nuget task where the paths contain a space
+Fix for missing commit
+Fixed build errors due to the change in request header representation
+Fixed more tests on Mono and cleaned up the structure of the Nancy.Tests project
+Fixed behavior of PathHelper and improved test coverage. Also renamed ResponseConsitencyFixture to GenericFileResponseFixture
+Fixed test that fail on mono
+Converted the ShouldEqual extension method, for INancyCookie, into a static method of the ResponseFixture to work around a Mono compiler bug when resolving the correct extension method
+Fixup for missing files
+Fixed Ninject issues - Undid last commit - Removed resparper style file - Only wrapping the enumerable when comming in and out of Ninject
+Fixed two breaking tests and improved performance on one of the SparkViewEngine tests
+Fixed a couple of failing tests
+Fixed failing tests
+Fixup of resource view source provider and SSVE partial demo
+Merge pull request #139 from grumpydev/MspecFixup
+Fixup to make it build - still need to build out the tests again
+Fixed issue with default type converter and added additional tests
+Fixed collection converter to only match collection types it supports
+Fixes a bug with correctly detecting the content type of the form
+Fixed bug with POST requests but creating a seekable (MemoryStream) wrapping the request stream (only if required)
+Added mime-type inferrence support   Using Mono's MimeTypes.cs file with xml mime-type fix (application/xml rather than text/xml)   Note: js mime-type is now application/x-javascript which is handled by all browsers so     not an issue Fixed bug with GenericFileResponse (trailing 0s in stream) Removed redundant ImageResponse and StaticFileResponse
+Fixed failing test
+Fixed bug where adding Nancy-Version header could throw an exception if the response had been cached
+Fixed small bug in the multipart parsin + added missing XML comments
+Fixed up tests, added additional tests and demo route
+Fixed cookies test that was failing because of localization issues
+Fixed SLN file so all projects build properly
+Fixed a bug with implicit conversion between value types
+Fixed bug in SimpleViewModel when model was null + cleaned up tests to use the Nancy testing conventions
+Fixup after rebase - now using Nancy's HTTP return codes
+Fixed bug with views being locked during runtime
+Fixed failing unit tests that was skipped by the TD.NET runner. Bah
+Fixed broken dependency type reference
+Fixed some model related bugs in Razor and Spark engines
+Fixed my name (just one macron missing) in readme.md
+Fixing Windows Razor Reference in Demo Project
+Fixed indentation in rake file
+Fixed failing test for the AsXml extension method
+Fixed merge error
+Fixed problem with Windsor bootstrapper returning multiple instances of NancyModules
+Fixed typo in readme
+Fix for Andreas' .gitignore stopping the new projects building ;-) Added back in the Func<IRouteCache> binding for the Ninject bootstrapper. Worked around the Ninject child container limitation by also registering the modules into the child container when it's constructed. This isn't ideal, as it's extra overhead per-request, and it still can't handle the parent container using "overrides" from the child, but it works, and the latter limitation is something that Ninject users should already be aware of and used to.
+Fixed wonky csproj auto-merge
+Commented out a lot of tests to make them build. Deleted NancyApplicationFixture as it's not needed now.
+Removed resetting of stream position in Reqest.GetFormData(). Fixes NotSupportedException when stream does not support seeking.
+Fixed integration problem
+Fixed tests that were failing due to localization issues + cleaned up test to match style of other tests in the solution
+Fixed a failing test
+Changed assert on a test in the NancyEngineFixture
+Fixed formatting issues
+Fixing bug where calling Request.Form more than once would fail
+Fixed typo in exception messages.
+Fixed typo in exception messages.
+Fixed code layout
+Added comment to HostingFixture to clarify that the rest requires administrative priveledges or it will fail.
+Fixed some merge conflicts
+Fixed an assertion.
+Fixed bug where contenttype and content was not set when implicitly casting from int/httpstatuscode to response
+Fixed some typos.
+Fixed failing test.. dynamic stuff is crazy!
+Cleaned up tests in NancyModuleLocatorFixture

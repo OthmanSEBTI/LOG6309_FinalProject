@@ -1,0 +1,4645 @@
+added icons into resources folder
+Revert "Update Farsi translation"
+Update Farsi translation
+remove country tags, add Persian, Arabic section links
+Made beta section an anchor link
+OS x to Mac
+Update README.md
+adds links to Farsi and Arabic at that top
+Update README.md
+add farsi and arabic translations
+more spacing
+add spaces
+clean up tables
+try out emojis
+ox suggestions
+shorter image, fix RU iOS url
+try out table view
+rm DS_Store
+added splash image
+add link to PDF
+RU version
+Remove beam links for now
+Link to android version of beam
+Update README.md
+Add beam links
+Replace bitbucket links back to github
+Remove separate replica links
+Add separate replica links
+Update README.md
+Update README.md
+Correct Android link to .apk
+Switch main link to BitBucket, add version link
+Changed gitlab url
+Update README.md
+version and link fix
+Switch main download link to GitLab
+Update README.md
+Update README.md
+Update README.md
+Add Bitbucket links
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Only use s3 for now.
+Pointing to S3 instead of GitHub
+Update README.md
+Update README.md
+Added back beta links
+Update README.md
+Update README.md
+removing a step
+more reshuffling
+moving to archive to make room for downloads
+adding archive
+Updated minimum required versions in README
+Update LICENSE
+Update README.md
+Update cloud.yaml
+Update cloud.yaml
+Update cloud.yaml
+Update cloud.yaml
+Added cloud yaml template
+Added Used By badge
+Update README.md
+Update README.md
+CAPS
+Added separate beta section
+Update README.md
+Update README.md
+cleanups
+removed defunct projecttalk
+use named parameter for PrintStack
+add back prefix for stack trace
+bring back original indention
+only print stack for FATAL and ERROR
+deduplicate golog code
+another level of indention
+remove PRINT_STACK, no longer used
+avoid calling multiple times when printing stack
+Added translation comment.
+applyFlags return no error
+added back flag override support
+reverse-merging from master
+updated during testing
+Updated sampling algorithm back to original
+Only configuring logging once
+Added unit test for includeInSample
+Added test for rate limiting
+Bumped up loggly sampling percentage
+use correct template to generate config
+put generated go file in generated folder
+actual fix for race issues
+attempt to fix race issues
+removed log and fixed race in test
+removed unnecessary go routine
+made stuff more package private
+moved init stuff to config package
+fixed logs
+change to use specific options
+comments
+Added message when we do report to Loggly
+tweaks to get tests working
+Added loggly-sample-percentage command-line flag which defaults to sampling 0.5% of device ids
+simpler flag processing
+cleaned up locking
+remove incorrect log
+more simplifications
+fixed empty url check
+test cleanup
+more cleanups and get global config from new location
+make it easier to spot issue from user logs
+balancer don't retry same dialer if it was failed
+logging and global conf tweak
+cleaned up dispatch a little bit
+moved boilerplate into config package
+simplified this process a whole lot
+not used
+removed yamlconf
+Added comments and removed dead fields
+Added specific CA cert for auto-updates
+more naming fixes
+lots of fixes to get the integration test working
+fixed name
+added duration params
+fixed poll interval
+more naming cleanups
+adding generating global config, removing yaml conf
+Lots of changes to completely remove old config.go
+cleanups
+lots of changes to use a new config class for fetching, saving, etc with configs
+linter
+align balancer.lastDialTime in 64bit boundary
+lots of changes to fetch per-user proxies separately form global config
+update to 3.0.7
+Just removing go 1.6 since we have the custom go build.
+Update README.md
+3.0.6 link is 404
+Update README.md
+Increasing nofiles limit on UNIX systems
+Update README.md
+3.0.5
+Enabled borda reporting every 5 minutes for 1% of clients
+extract method balancer.pickDialer
+updating to 3.0.4
+Update README.md
+Update README.md
+3.0.1
+Updating links
+Add support for simulating autoupdates locally.
+add test to cover resetting a balancer
+balancer reset dialers right after new config is fetched
+added git add of resources
+Update README.md
+More notes on verifying the process.
+Just added more details on the commit process.
+updated bootstrap servers and masquerades
+Squashed 'src/github.com/getlantern/netx/' content from commit 4272960
+Removed netx
+BidiCopy test passing on Linux
+handler now specifies write timeout to BidiCopy
+Addressed code review comments
+netx.BidiCopy back to propagating original net errors
+Running all tests again
+Debugging netx
+avoid panic when error hitting /startup fix #4633
+Making netx test use ipv4
+Removed hack to get lantern_test to pass
+Added hack to get lantern_test to pass
+Using interruptible bidirectional copying to keep idle connections from piling up, closes getlantern/lantern#4686
+Removed unused tlsdialer.DialWithDialer method
+Changed origin to addr
+Ignoring EOF on reading from remote end while piping
+Removed unneeded constant
+Moved lantern-mobile back to its original spot
+Refactored protected
+Starting to use new netx package
+Upgraded to latest gomobile
+Cleaned up logging of errors in pipeData
+Squashed 'src/github.com/getlantern/idletiming/' changes from a6448e6..81aae81
+Fully respect the stickyconfig flag
+Being smarter about rebuilding lantern
+Sped up test target
+Using custom Go in docker
+Squashed 'src/github.com/getlantern/idletiming/' changes from 46696ff..a6448e6
+Added note about needing custom fork of go
+Squashed 'src/github.com/getlantern/idletiming/' content from commit 46696ff
+Removed old idletiming
+Squashed 'src/github.com/getlantern/http-proxy/' changes from 530b38b..37af317
+Squashed 'src/github.com/getlantern/borda/' changes from e59bfff..595f453
+Removed unnecessary test packages
+Squashed 'src/github.com/getlantern/errors/' changes from a0e2fff..2cb9490
+Squashed 'src/github.com/getlantern/errors/' changes from 64ed27b..a0e2fff
+Using new golog.Errorf capability
+Resting right http-proxy package
+Squashed 'src/github.com/getlantern/http-proxy/' changes from d36fe04..530b38b
+Squashed 'src/github.com/getlantern/golog/' changes from 56a26fa..00277a4
+Squashed 'src/github.com/getlantern/errors/' changes from 389bc1f..64ed27b
+Removed iniflags
+Added more test packages
+Added more test packages
+Removed getlantern/testify
+Grabbed latest http-proxy-lantern
+Squashed 'src/github.com/getlantern/measured/' changes from e10400d..7860e4f
+Updated to latest http-proxy
+Squashed 'src/github.com/getlantern/http-proxy/' changes from 7a6ec7b..d36fe04
+Squashed 'src/github.com/getlantern/ops/' changes from aa77778..b70875f
+Reenabled obfs4 test
+Updated errors package, added some test packages
+Squashed 'src/github.com/getlantern/errors/' changes from 158a252..389bc1f
+Not using DeviceID if it's not 6 bytes in length
+more reliable balancer check test
+Changed timing on fdcount test to reduce spurious failures
+When no check function provided for dialer, return true
+Added TLS ClientSessionCache in a few places to reduce TLS handshaking
+Added borda client to testpackages
+Squashed 'src/github.com/getlantern/borda/' content from commit e59bfff
+Removed borda
+fix dialDirect for issue 4500
+Removed bad fallback from default config
+Moved fdcount to beginning of tests
+Squashed 'src/github.com/getlantern/golog/' changes from d54cd52..56a26fa
+Updated to new ops API
+Squashed 'src/github.com/getlantern/ops/' changes from d86248c..aa77778
+Pointing at latest http-proxy-lantern
+Squashed 'src/github.com/getlantern/http-proxy/' changes from 26bfcf5..7a6ec7b
+Turned more stuff down to TRACE logging
+moving more logs to trace
+Whitelisting staging config URL
+Compressed encoding of asof time for bandwidth tracking
+Changed ops semantics
+Squashed 'src/github.com/mxk/go-flowrate/' content from commit cca7078
+Pointing at latest http-proxy-lantern
+Squashed 'src/github.com/getlantern/http-proxy/' changes from ba7e9e9..26bfcf5
+Added unit test for bandwidth
+Added comment about XBQ header
+Bandwidth tracking using data from proxies
+Waiting longer for proxy.cert
+Attempt to make compiling work again
+Attempt to make compiling work again
+Made app name global
+Using updated http-proxy-lantern
+changed qa name
+flashlight client call protect package only on Android
+Squashed 'src/github.com/getlantern/tlsdefaults/' content from commit afee23c
+Removed tlsdefaults
+Squashed 'src/github.com/getlantern/errors/' content from commit 158a252
+Removed errors
+Squashed 'src/github.com/vharitonsky/iniflags/' content from commit 743d690
+Squashed 'src/github.com/getlantern/testify/' content from commit 2eeb390
+Squashed 'src/github.com/getlantern/http-proxy/' content from commit ba7e9e9
+Removed http-proxy
+Pointing at latest http-proxy-lantern
+Squashed 'src/github.com/getlantern/measured/' content from commit e10400d
+Removed measured
+More borda tweaks
+Squashed 'src/github.com/getlantern/ops/' changes from 056dfce..d86248c
+Squashed 'src/github.com/getlantern/ops/' changes from d86248c..056dfce
+Tweaked http request context info
+Stopped unnecessary copying of buffers in borda client
+check only once after idle
+ServerBlacklistingThreshold -> serverBlacklistingThreshold
+more explicit intention to addCheckTarget
+RecheckAfterIdleFor -> recheckAfterIdleFor
+not serving proxied sites to ui
+Bypassing disallowed ports in SOCKS proxy
+Clearer assert on config error
+Squashed 'src/github.com/getlantern/ops/' changes from 7434731..d86248c
+Made borda configurable via command-line and config file
+Decoupled direct context references
+Squashed 'src/github.com/getlantern/ops/' changes from c54d1c3..7434731
+Squashed 'src/github.com/getlantern/golog/' changes from 900ce49..d54cd52
+Updated errors
+Squashed 'src/github.com/getlantern/context/' changes from b208fe7..624d99b
+make StartPolling static again
+Actually applying sampling percentage
+Not initializing borda on shutdown
+Squashed 'src/github.com/getlantern/ops/' changes from 9975a72..c54d1c3
+Squashed 'src/github.com/stretchr/testify/' changes from 6cb3b85..8d64eb7
+Squashed 'src/github.com/getlantern/ops/' changes from 4dbd1ca..9975a72
+Removed dangling uses of context
+removed redundant call
+attempt at fix
+added fix for blank urls
+naming issue flagged in linter
+ditch cloud-specified URLs
+fixed staging logic and test
+removed redundant check
+add staging flag for hitting staging servers
+Added back useragents
+Squashed 'src/github.com/getlantern/ops/' changes from 3d9df55..4dbd1ca
+Squashed 'src/github.com/getlantern/ops/' changes from 26aeab9..3d9df55
+More borda stuff
+Switched to using ops instead of bare context
+Squashed 'src/github.com/getlantern/context/' changes from 37bb596..b208fe7
+Squashed 'src/github.com/getlantern/ops/' changes from 062d2fe..26aeab9
+Squashed 'src/github.com/getlantern/ops/' changes from c5a680a..062d2fe
+Squashed 'src/github.com/getlantern/ops/' changes from 6829ffe..c5a680a
+Squashed 'src/github.com/getlantern/ops/' changes from 7fefc48..6829ffe
+Squashed 'src/github.com/getlantern/ops/' changes from 90ac2c0..7fefc48
+Squashed 'src/github.com/getlantern/context/' changes from 322ae9f..37bb596
+Squashed 'src/github.com/getlantern/ops/' content from commit 90ac2c0
+Squashed 'src/github.com/getlantern/context/' changes from 107450a..322ae9f
+Removed ReportedError function
+fix race condition and linter warnings
+Cleaned up reporting message
+adjust dialer check logic
+Removed instanceid
+Changed name of borda measurement to client_results
+Renamed borda client package
+Recording success op
+Flushing Borda when closing
+Borda fixes, reporting successes
+Made borda client more generic
+extract methods of ChainedServerInfo to chainedServer
+keep a list of check targets
+randomize MaxCheckTimeout
+make gometalinter happier
+check chained server through ping or recently proxied site fix #4268
+Logging and context tweaks
+Logging fixes
+Exiting borda context
+Added application to context
+Moved borda client to its own package
+Borda test updates
+int64
+use int64
+mvoing to int64
+fixed test for floats
+Changed to use float64 everywhere
+Update README.md
+Update blacklist
+Added some testpackages
+disallow setting the device ID
+more coverage on settings
+better tests for type checks
+fixed user id
+types
+moving user ID back to an int
+Switched to using interface for Error
+More usable New
+golog and errors tests pass
+Using hidden errors to propagate error information through all levels
+add better error handling
+add better error handling
+add better error handling
+fixed test
+Lots of tweaks to move the device ID to settings along with some linter cleanups closes #4319
+more fixes
+fixed up eventual
+Batching measurements
+Errors are making it to Borda
+Integrated Borda with new context and errors
+Extracting error context in log.Errorf
+Integrated new errors package with proxied.go
+Error logging fixes
+Added AsMap to context
+Added comment to buildError()
+Switched to new AsMap
+[gost] Added github.com/getlantern/context and its dependencies
+Squashed 'src/github.com/getlantern/context/' changes from 1fcff8b..107450a
+Squashed 'src/github.com/getlantern/context/' changes from ad08a4d..1fcff8b
+Integrated latest context
+Squashed 'src/github.com/getlantern/context/' changes from cbdd1d3..ad08a4d
+Capturing all request and response headers
+Capturing all request and response headers
+Renamed ErrorOp to Op
+Simplified to one fronted proxy type
+Added package-level Go
+Added nil guards to some context helpers
+Integrating context and errors
+Switched Loggly over to ErrorReporter interface
+Squashed 'src/github.com/getlantern/context/' changes from 00e84b3..cbdd1d3
+add errors package
+add %k and %+k to stack formatter
+Add 'src/github.com/getlantern/stack/' from commit 'ac4c579c437a23e1a15814c867ccb82122fb383b'
+Squashed 'src/github.com/getlantern/context/' changes from 77bcc89..00e84b3
+Context cleanup
+Squashed 'src/github.com/getlantern/context/' changes from 02b731a..77bcc89
+Using context for loggly
+Squashed 'src/github.com/getlantern/context/' changes from f1636d5..02b731a
+Squashed 'src/github.com/getlantern/context/' changes from f3c4ba8..f1636d5
+add golog.ErrorSkipFrames
+Squashed 'src/github.com/getlantern/context/' changes from 3fc6223..f3c4ba8
+Squashed 'src/github.com/getlantern/context/' changes from 3608728..3fc6223
+Added more context
+Added logging to obfs4 dial error
+Removed unnecessary debug statement
+Squashed 'src/github.com/stretchr/testify/' changes from 6fe211e..6cb3b85
+Squashed 'src/github.com/getlantern/context/' changes from 568a92d..3608728
+Contextual logging with nested contexts, goroutine support and nice defer syntax
+Squashed 'src/github.com/getlantern/context/' content from commit 568a92d
+Squashed 'src/github.com/oxtoacart/bpool/' content from commit 4e1c556
+Remove stack package dependency. This needs polishing.
+Send aggregated errors
+Test proper JSON decoding of measurements in test
+Use pipes instead of buffers
+Hiding cacheFile
+Hiding cache array
+Switched Travis to Go 1.6.2
+Testing everything again
+Validating masquerades differently in cache_test
+Switched to using EqualValues in cache_test
+Integrating ChainedThenFronted
+Switched to EqualValues in cache_test
+Trace requests
+Added unit test for cache
+Environment switch to easily test integration with external service
+Simple Borda client
+Added back direct feed fetching ability
+Update README.md
+Updated masquerades template
+Moved setClient to test
+Using http.RoundTripper instead of http.Client
+Mobile fixes
+Borda reporter first commit
+Couple of fixes
+Consolidated default masquerades
+Refactored util's http stuff into proxied package
+Updated unit test to handle both sequential and parallel execution
+Made parallelism of chainedAndFronted configurable
+add package-android to Makefile
+Updated masquerades
+just applying the diff between 2.2.2 and 2.2.3
+Removed ringfile from testpackages
+Simplified caching of masquerades
+Efficiency and testing tweaks
+Temporarily disabling balancer checks
+fixed test
+Caching vetted masquerades to disk for up to 24 hours
+fixed formatting
+manual merge from release-2.2.0
+Small tweaks
+cleaned up host header handling and test asynchronicity
+fixed log
+Added copying of headers to the fronted request closes #4246
+lost in merge from release branch with latest changes
+fix conflict
+changes to make android studio happy
+remove unused imports
+add 'try lantern feed' chinese translation
+add 'turn off feed' chinese translation
+fix back button on side-menu
+strip notifications for now
+remove log import
+remove ion and switch to glide for image loading
+infinite scroll files
+merge from devel with conflict fixes
+Formatting
+Changing no-cache argument everytime we set the PAC URL.
+Add back code that temporarily disables on/off switch
+fixed overlapping error issue closes #4222
+Not loading newsfeed thumbnails unless actually viewing feeds
+switch to GravityCompat
+minor nits
+check for initial sticky broadcast in receiver
+merge latest
+use title param for alert dialog
+fixed bug with checking image for the empty string
+remove extra line
+remove unused variable mPrefs
+update resource package name android-apt arg
+remove old method
+update comment
+fix order
+check api version when removing attribute for centering toggle button
+rename navitems and add extra checks when updating feed menu option
+clean-up drawer item clicked code
+clean-up isEmailValid
+move interface
+update comment
+useproxysettings with enableasservice too
+rename email input
+more clean-up
+merge new annotations
+add some additional annotations
+add some additional annotations
+Manual conflict fix.
+Adding parameter to avoid Windows' PAC caching.
+Conflic fix.
+close response body when bad status code fix #3987
+close receive half in pipeData
+make top right box more subtle when newsfeeds are shown
+update comment
+update comment
+update comment
+fix string formatting
+use fallback url when fetching feed in unavailable locale
+use fallback url when fetching feed in unavailable locale
+use fallback url when fetching feed in unavailable locale
+try to get better debugging info for errors
+fix defer ordering
+lock writes to the listener slice
+whoops here is the test
+refactored analytics to make it more testable and added a test
+Added user agent handling to analytics closes #4046
+create new shareable instance on menu option select
+add fix to sdk for overwriting application proxy settings
+clear proxy settings whenever wifi is disconected
+add comments
+add comments
+make sure to turn off button when wifi is disconnected
+use updateStatus when WiFi is disconnected
+remove extra imports
+add comments
+merge latest
+merge latest
+add comments
+add missing fragment
+add missing fragment
+add comment
+add comment
+added android guard
+add desktop activity
+add desktop activity
+update activity name
+Attempt to fix travis.
+hide mobile add when toggling between new and old looks
+remove redundant refresh method
+Few fixes for building on Windows.
+fixed error
+adding main class
+remove onConfigurationChanged
+remove onConfigurationChanged
+remove redundant refresh method
+on click, replace menu item for displaying news feed
+remove selectItemFromDrawer
+remove old comment block
+remove setupSwitch
+move newsfeed into its own view
+move newsfeed into its own view
+move newsfeed into its own view
+add feed icon
+add feed icon
+move desktop screen to separate activity; pull in changes from Pro branch
+Added both hash and version reporting closes #4164
+Lots of tweaks to not show the newsfeed by default closes #4185
+use cached feed when there are errors reloading it closes #4143
+use contentSnippetText for article summary when meta description is missing
+use contentSnippetText for article summary when meta description is missing
+use contentSnippetText for article summary when meta description is missing
+add some extra comments
+add log message
+add log message
+check for null or empty feed name
+check for null or empty feed name
+Manually merging test
+merge latest
+remove unnecessary setFeedName call
+remove unnecessary setFeedName call
+remove unused imports
+remove unused imports
+remove unused imports
+add rename existing fragments method to account for locale change
+merge latest
+add rename existing fragments method to account for locale change
+add rename existing fragments method to account for locale change
+remove onconfigurationupdate
+add rename existing fragments method to account for locale change
+don't listen for locale changes -- no longer necessary
+add rename existing fragments method to account for locale change
+merge latest
+merge latest
+fix merge conflict
+fix merge conflict
+added emtpy string handling and support for malay
+merge latest
+add ms_MY supported locale
+fixed import
+combine feedUrl and feed package
+combine feedUrl and feed package
+initial commit
+added compression of local storage closes #4166
+added constant for en_US
+more package fixes
+cleaned up packaging
+Added optimization to use non-english locales if they are already set
+Added fetching the feed url from the local client closes #4163
+Made feed test independent of network
+don't show error page if we disconnect
+make excludeFromAll work again
+expand feeds in directive fix #4108 again
+print errors adding feed sources and check for missing title
+Revert "Reduced cache time and added else to only load the feed if not in the cache closes #4108"
+Using pointers for Source and FeedItem
+show contentSnippetText instead of contentSnippet
+hide published date if empty fix #4145
+respect feeds_order fix #4117
+show feed name instead of site url fix #4149
+add descriptions before creating all array of entries
+fix conflict
+update test
+use sorted feeds
+use sorted feeds
+use sorted feeds
+use sorted feeds
+use sorted feeds
+add missing translations
+add missing translations
+add missing strings
+add missing strings
+show feed error and refresh automatically depending on connectivity
+show feed error and refresh automatically depending on connectivity
+track feed loading errors closes #4140
+fixed extra bracket
+Reduced cache time and added else to only load the feed if not in the cache closes #4108
+added a little more spacing
+just add a margin on the list and change the description to be fully centered and underlined closes #4105
+update share links
+Excluding BuzzFeed from all on mobile
+Excluding feeds from all based on excludeFromAll property
+Cleaned up rot13 package
+Switched to ROT13
+%s -> %v
+Renamed hasCustomChainedServers to validateConfig
+hide error page when showing mobile ad fix #4108
+add zh.json fix #4082
+Removed unused exists method from config
+Cleaned up initialization of config, added more unit tests for yamlconf
+minor simplification #4024
+improved test and error reporting on invalid settings
+Switched %s to %v
+only render template once
+no empty lines among connection help text
+cache feeds for 24 hours
+show again after fetched feeds
+show cached feeds first and fetch in background
+revert line-height to default 18px fix #4019
+show help links in new window
+fix fallbackUrl check
+pull in center button
+pull in center button
+pull in latest news feed changes off of devel
+pull in latest news feed changes off of devel
+added android studio section
+updated to work with latest gradle #4017
+adding tracking of error page loads
+adding back caching
+Added html links in translated string and os detection for log message
+adding device detector
+Do not include d3
+merge from 2.2.0
+move progress dialog down some
+move progress dialog down some
+add some comments about dependencies
+merge
+add comments about dependencies
+move progress dialog show to preExecute
+move progress dialog show to preExecute
+Tweaked generate-windows-icon
+code review tweaks
+Update build tools revision and Readme
+Added back syso icon
+Added syso file to Git
+Compiles on windows
+Moved lantern-ui to root of project
+show error right away if no connection is available on desktop screen
+show error right away if no connection is available on desktop screen
+add back commons-io package
+fixed userConfig issue
+Added FORCE_DOMAINFRONT environment variable for forcing domain fronting
+show help item if manage system proxy is disabled
+show error page if feeds fail to load
+show a progress bar while the feed loads
+remove autofit attr
+set max number of lines
+whenever an article is missing a meta description tag, use the content field instead
+First pass at error page #4024
+Unified request modification for chained proxies
+Pointing README badges at devel instead of valencia
+Cleaned up linter issues
+center on/off button
+set translate sanitize strategy fix #4036
+update existing translations with new link
+change android link and multiple translation keys fix #4029
+Removed FinestWebView-Android
+DRY uiaddr
+Cleaned up linter issues
+Code review updates
+add missing translations
+Update README-translations.md
+Updated eventual so that it doesn't need goroutines and therefore can't leak goroutines
+fix #4019
+updated masquerades and fallbacks
+Closes #4015
+don't create multiple trackers and make trackerFor, part of SDK, public
+move gradient of Lantern logo svg to <defs> fix #4009
+rename to gettracker since we're only using a single tracking id
+check for null last feed selected and include comment
+check for null last feed selected and include comment
+track feed events on mobile
+prevent pin it button fix #4007
+not show image under snippet fix #3997
+truncate feed title to one line with ellipsis fix #4006
+not show ellipsis for one line snippet
+show infinite-scroll only when tab is visible to fix performance issue
+Added ability to control config obfuscation with readableconfig command line flag
+Added ability to obfuscate yaml config using AES
+replace support lib version number
+add support for configuring webview proxy
+make sure configure webview proxy settings
+make sure configure webview proxy settings
+make sure configure webview proxy settings
+improve error handling when network connection is unavailable
+some additional clean-up
+improve error handling when network connection is unavailable
+improve error handling when network connection is unavailable
+some additional clean-up
+some additional clean-up
+update comment
+detect when app goes to foreground/background for refreshing feed
+detect when app goes to foreground/background for refreshing feed
+fix failing test
+hide thumbnail when fail to load image fix #3981
+exclude commons-io from mandrill dependency to resolve proguard issue affecting release builds
+exclude commons-io from mandrill dependency to resolve proguard issue affecting release builds
+fix issue with release builds
+upgrade google play services
+upgrade google play services
+check for null sources when setting up feed for the first time
+add missing resources
+add missing layout file
+upgrade to latest support library
+upgrade to latest support library
+make sure we're copying over pubsub dependency
+update test
+remove handleError extra parameter
+display error whenever we have trouble fetching the feed
+update translations from Transifex
+add accept gzip encoding header
+Removed svgs that aren't in devel
+Added gopkg.in dependencies
+Squashed 'src/github.com/rcrowley/go-metrics/' content from commit eeba7bd
+add accept gzip encoding header
+Squashed 'src/github.com/gorilla/context/' content from commit 1ea2538
+Squashed 'src/github.com/golang/groupcache/' content from commit 4eab30f
+add feed unit test
+add feed unit test
+Updated test-and-cover
+Updated .travis.yml and .gitignore
+Added http-proxy-lantern submodule
+Reapplied changes from old branch
+Added comment about deviceID
+make feed items arraylist thread safe
+feed item variables lowercase
+httpClient doesn't need to be global
+fixed narray width nav issue and issue with large screens closes #3975
+image always fill thumbnail box
+fix travis
+infinite scroll works
+check for error parsing feed json
+move GetFeed call to onResume
+move GetFeed call to onResume
+remove old finish method
+make 'all' a string resource
+avoid distort thumbnail
+added infinite scroll but still load all entries
+show version in about modal
+cleanup
+update feed header color according to vpn status after setting up the feed
+add ellipsis to truncated text
+remove unused imports
+remove unused imports
+remove unused imports
+remove unused imports
+clean-up and add some comments
+clean-up and add some comments
+clean-up and add some comments
+clean-up and add some comments
+merge
+set maximum height for newsfeed
+show spinner before newsfeed loaded
+merge
+remove leading and trailing whitespace from article descriptions
+remove leading and trailing whitespace
+clean up getfeed implementation
+clean up getfeed implementation
+fix for scrolling
+more cleanups #3959
+added media queries for width and height and tweaked width logic a bit more generally
+Back to using dialfactory
+Back to using dialfactory
+[gost] Added github.com/Yawning/obfs4/transports/obfs4 and its dependencies
+Squashed 'src/github.com/Yawning/obfs4/' content from commit a7a2575
+Back to stretchr
+Back to stretchr
+Added support for obfs4
+make 'all' first tab position
+Just don't include the bookmarks at all for now closes #3961
+fix indentation
+remove old activity
+rename method to start local proxy
+update sdk lib name
+remove tags
+fixed table to lookup image path fix #3954
+make fallback language right
+switch to feeds.getiantem.org
+add locale/fa.json to the same as locale/fa-IR.json
+fallback to en_US when HTTP error encountered
+show 1px item separator, to show correctly on Chrome for windows
+add feed fragment
+move feed retrieval to separate class
+add ga tracking for feeds
+Using correct proxiedsites package
+fetch feeds per current language
+Added toggle of footer link
+move feed retrieval to separate class
+move feed retrieval to separate class
+move feed retrieval to separate class
+made 16px
+switch to https
+change lantern message
+ui updates
+Revert "adjust mobile ad break point for new Lantern icon position"
+asynchronous image loading
+move feeds into tab layout
+not uglify app code
+merge
+adjust mobile ad break point for new Lantern icon position
+ui complete
+show feeds (wip)
+add news feed
+Not using Google Analytics in embedded Lantern
+Making sure that Lantern proxy is running inside Lantern app
+add news feed
+add news feed
+Comment update
+Add Go Report Card badge.
+Update version policy.
+Add Call.PC accessor method.
+update README-translations.md
+rename sdk-debug to android-sdk-debug in build.gradle
+also clear preferences if we get an interrupted exception (user closed VPN connection from notification menu)
+add isRunning method to see if Lantern is already running in the background
+clear user preferences in main activity onCreate
+resolve merge conflicts
+resolve merge conflicts
+clear user preferences in main activity onCreate
+Configuring proxiedsites in main instead of flashlight
+repharse 'build lantern' section of README
+delete "douyutv.com" from "proxiedsites" #3873
+removed from test packages
+Squashed 'src/github.com/pmezard/go-difflib/' content from commit 792786c
+Using purpose-built notification icon
+ported test from old proxy module
+removed use of getlantern proxy module closes #3876
+moved to 127 instead of localhost to bypass any platform-specific resolution issues closes #3859
+Configuring correct proxiedsites package, closes #3864
+idletiming correctly set deadline fix #3866
+Removed more dependencies that snuck in through atom
+Removed more dependencies that snuck in through atom
+Removed alecthomas stuff
+fix typo and state libc6-dev-i386 only on linux
+Switched to stretchr/testify
+fix format
+fix prerequisites for building lantern
+Switched to atomic cover mode
+Temporarily disabling coverage again
+Running through all tests without failing
+Disabling coverage for now
+Reenabled coverage
+Disabling coverage for now
+Removed extra logging.Close call
+Protecting rotator close with mutex
+Displaying same version information in Mobile as in Desktop
+Update README.md
+Closing connection when dial times out
+Leaving more time for site to leave whitelist
+Being less strict about timeout checking in tlsdialer_test
+Added back golang.org/x/net
+Removed net
+Unit tests passing
+Removed unised LoadBalancerTest for balancer
+Compiling liblantern for arm only
+more reliable detour test
+not persist version to settings.yaml resolve #3819
+Made additional note about global changes fixes #3816
+we keep hitting the min, so reducing
+fixed test
+refactor interface handling for cleaner structure with mobile
+make this a little cleaner with interfaces
+Added mutex for ForceWhitelist
+Force whitelisting getiantem.org in detour
+adding lantern to test packages
+Waiting to set fronted instance until masquerade candidates have been loaded, closes getlantern/lantern#3815
+Removed gocov from travis build
+Updated Travis build to Go 1.6
+better debug logs
+Removed calls to __system_property_get
+remove fronted entirely
+Added mobile dependencies
+these will be useful too
+separate config fetching from rest of config and add new headers closes #3800
+Added Windows dependencies
+Added back needed dependencies
+Removed potentially unused dependencies
+Squashed 'src/github.com/getlantern/detour/' changes from f75a9ea..7623da3
+Squashed 'src/github.com/getlantern/deepcopy/' changes from 5b37e86..7f45deb
+Squashed 'src/github.com/getlantern/proxy/' changes from 5c39a61..67973db
+Squashed 'src/github.com/getlantern/chained/' changes from fd3c3fa..e3e0e34
+Squashed 'src/github.com/getlantern/testify/' changes from f46c550..2eeb390
+Squashed 'src/github.com/getlantern/withtimeout/' changes from 9fae8b6..d1b4774
+Overwrote testify with latest from upstream
+Squashed 'src/github.com/stretchr/testify/' changes from efa3c4c..6fe211e
+Squashed 'src/github.com/getlantern/golog/' changes from 5245e76..900ce49
+Squashed 'src/github.com/getlantern/balancer/' changes from b8e5517..8d67984
+Squashed 'src/github.com/getlantern/appdir/' changes from 6e9e003..1592e4b
+Squashed 'src/github.com/davecgh/go-spew/' changes from fc32781..5215b55
+Squashed 'src/github.com/blang/semver/' changes from 31b7361..aea32c9
+Squashed 'src/github.com/armon/go-socks5/' changes from 8a8737b..3a873e9
+Squashed 'src/github.com/getlantern/flashlight/' changes from e954cca..d640d2e
+move int64 to top of struct resolves #3802
+Adding DeviceID.
+Squashed 'pubsub-java/' changes from 36f37d1..0fbbeb4
+Better format for JSON key names.
+Removed local.properties
+Removing unnecessary idea files
+Removing unnecessary idea files
+Temporarily pointing at pubsub-test
+Squashed 'pubsub-java/' changes from e4f760c..36f37d1
+Squashed 'pubsub-java/' changes from 65d7128..e4f760c
+Setting Host header in outgoing request, closes #3792
+Closes #3787
+Some code cleaning and making current UI compatible with backend changes.
+Few changes with messages format.
+Added comment about multi-tenancy
+rename balancer.Dialer.Dial to DialFN
+code review updates
+PubSub notification example works
+PubSub notification example works
+PubSub notification example works
+Added PubSub
+Doc updates
+Notification example now shows actual body
+Started to move notification logic into PubSub library
+Squashed 'pubsub-java/' changes from 9bf2f95..65d7128
+Bug fixing
+Squashed 'pubsub-java/' changes from c41c4b3..9bf2f95
+Squashed 'pubsub-java/' changes from fc42a25..c41c4b3
+Added Android PubSub API
+Squashed 'pubsub-java/' content from commit fc42a25
+Link to translations README
+Create README-translations.md
+fixing merge conflicts
+add new translations
+add new translations
+add new translations
+merge
+translation for farsi
+Added make-linux option
+Moved server build instructions here
+fix more race conditions with more robust tests
+fix race condition
+add load balancing test
+remove Weight and QOS field
+refactor with modified tests
+check dialer with no activity even if it doesn't fail
+avgConnTime to avgDialTime
+balancer: extract methods
+refactor strategy benchmarks
+more friendly benchmark result
+flashlight to use new balancer
+make Errcheck happy
+add benchmark for strategies
+wip: add benchmark
+add strategy tests
+add connect time related strategy
+use int32 to avoid bug when comparing
+rename heap to strategy
+use heap to sort dialers
+simplify dialer check logic
+Formatting updates
+Displaying formatted date as user-visible version
+Calculating versionCode dynamically based on date, eliminates need for version.properties, closes #3715
+Synchronizing access to client config
+Checking for nil connection in detour before closing
+Dynamically generating version inside App manifest
+Test passing on windows
+Added exec target to Makefile
+Using filepath instead of path
+treat all net.OpError as being blocked
+make android along with packages closes #3630
+Added README comment about clean-desktop
+removing echos and docker target
+removed go build example since we need make for resources from a clean checkout regardless and fixed make lantern example
+committed a couple things by mistake
+bumping version
+Protected access to client.ProxyAll, closes #3676
+changes from @oxtoacart closes #3712
+just added docker target closes #3709
+Minor cleanup
+Simplified build instructions for typical development cases, moved the release docs into a separate folder, etc.
+Separate README for release builds
+updated config
+Changed to save settings to disk whenever they change closes #3702 and closes #3704
+Stripping most binaries on build
+Cycling pac when changing proxyall setting
+Determining whether or not to use detour on every dial
+Further simplification
+Locking fix
+Closes #3681
+Further simplification
+Dynamically serving PAC file
+Cleaned up default allowed ports
+Added flashlight/main to test packages
+Returning on port parsing error
+Directing non-allowed CONNECT ports directly to destination
+Added comment to cmd
+Removed cmd.exe
+Removed unnecessary rm of node_modules from Makefile
+Using edgedetect to pick which UI URL to use
+Added edgedetect package
+fix build.gradle paths and make sure each command succeeds closes #3668
+Protected bns.pfx from git
+Changing UI address based on whether Lantern is configured as the system proxy
+Not using goroutines for pac settings change
+Addd an update-dist target for backward compatibility
+use 'desktop_option' translation on Desktop Version screen
+use 'desktop_option' translation on Desktop Version screen
+use 'app_name' string for side-menu title
+remove unnecessary Activity import
+changes to revert to previous locale and use translations for side menu options
+changes to revert to previous locale and use translations for side menu options
+added system proxy translation
+don't use -s when building locally closes #3658
+Added es6-promise polyfill to support older versions of node
+Made test-and-cover depend on resources.go
+Made linux-arm work
+Added HEADLESS for linux-arm
+Making sure to generate assets in docker
+Made docker optional
+allow ws(s):// resolves #3653
+Making error less verbose. Closes #3614
+Adding trackers for download link.
+Removed unnececessary copy step from android-release
+Updated proguard-rules to make sure that mobilesdk classes are kept, closes #3632
+Reverted pac.go
+adding getiantem.org closes #3638
+Reverted Makefile changes
+Added comment about what we're doing with LanternSpecialDomain
+Added comment about code signing on Windows
+Better logging for case when Lantern is already running
+README updates
+Commented udpated-dist target
+Reverted pac_bytes_linux
+Got rid of hardcoded rewrite address, reverted pac cmd for darwin
+Going pac to original pac file format, resigned pac.exe executable for windows with active Lantern key
+Always regenerating dist folder when building lantern for distribution
+Cherry picking.
+Tracking events.
+eerge branch 'valencia' of https://github.com/getlantern/lantern into valencia
+Attempt at making UI show up in edge
+persian translation
+no settings package anymore
+change to sha-256 for things like satori closes #3629
+put important methods first
+correctly set default on startup
+string for managing proxy settings
+delete a couple more files
+Build updates
+more settings cleanups
+Refactorings to allow users to set Lantern not to manage the system proxy closes #3626
+Refactorings to allow users to set Lantern not to manage the system proxy closes #3626
+Reverting detour to version from release branch
+Keep configuration files on uninstall closes #3607
+Removed black space at top of screen on Android 5.x
+Stripping symbols from android library
+Removing service broadcast listener once no longer needed
+changing back - not worth it for now
+no flashlight/server anymore
+merge valencia
+Updated resources and masquerades
+Removing X-Forwarded-For in RoundTripper, closes getlantern/lantern#3597
+changed to UUID
+Changed cloudflare url to HTTPS and added a cache busting query string
+Remove tun2socks obj directory
+Set the address resolution function closes #3593
+Saving lantern as service configuration in different place than plain lantern
+Removed unnecessary out parameter from dialWith
+No longer continually vetting masquerades, closes getlantern/lantern#3580
+Comment updates
+Added missing files
+Comment update
+Made Lantern Mobile work with new sdk API
+Added ability to run embedded Lantern as service
+Closes #3583
+Added back addr flag
+changed head check file
+Updated generated config
+A few build and readme tweaks
+updated from genconfig
+Update README.md
+Update README.md
+Wrapping window.ga on a function to prevent it from causing an undefined function error, this generally does not happen when using trackPageView. Closes #3555 and 3560.
+reverse merging from release-2.0.1
+close connections
+Allow overriding update server URL.
+Leaving more room for verified masquerades
+Couple of tweaks
+Eagerly dialing masquerades in parallel, using shorter timeout
+Added full head check closes #3531
+Removed unused module from LanternMobileTestbed
+concluding merge
+This directory was added by mistake.
+Removing IE cross mark and adding a regex to check e-mail address.
+removed setCandidateCh method
+Update build.gradle
+don't throw an error w/ android-debug when release build properties are missing
+Optimized eventual.Get
+Using eventual.Value for direct fronting candidates channel
+remove section from android-release
+few more README updates
+Replacing images with smaller ones.
+few more README updates
+update README...
+update README...
+Removed OS X specific stuff from lantern target
+Synchronized access to candidateCh, closes getlantern/lantern#3528
+Synchronized access to chainedAndFronted.fetcher, closes getlantern/lantern#3540
+Updated README
+pac now lazily gets proxy address, closes getlantern/lantern#issue3529
+Added lantern target that includes race detection
+Update build.gradle
+Update build.gradle
+Update build.gradle
+auto increment version code whenever we do a new release build
+auto increment version code whenever we do a new release build
+auto increment version code whenever we do a new release build
+send both app and lantern library version numbers
+send both app and lantern library version numbers
+include build config and set version number after creating UI
+include build config and set version number after creating UI
+upgrade android build tools
+Closes #3465
+rename debug task
+add release target
+add release target
+add release target to Makefile
+Updating angular-translate to 2.9.0. See https://github.com/angular-translate/angular-translate/issues/431
+move keys to gradle.properties
+update proguard rules and set minify to true for release builds
+add signing config
+Adding ignored revision.js.
+Adding lanternHideMobileAdVar
+Determining if this is the first time running the current build.
+Only initing gomobile when necessary
+Removed unused sub-project from settings.gradle
+Removed all build folders
+lantern-mobile builds
+Attempting to fix lantern-mobile build
+Removed build outputs from git
+Added some missing files
+Removed build outputs
+move cfg2redis.py to lantern_aws, remove references to manual uploading
+make golang output files optional and configurable
+Switched to official go-socks5
+[gost] Added github.com/armon/go-socks5 and its dependencies
+Squashed 'src/github.com/armon/go-socks5/' content from commit 8a8737b
+Removed our version of go-socks5
+Makefile and documentation updates
+Working on Nexus 4
+Split protecting and resolving
+Adding mail with attachment.
+Added protected package from lantern-mobile
+Squashed 'src/github.com/miekg/dns/' content from commit 83f7d65
+Closes #3482
+Added lantern-mobile app
+Closes #3483.
+Adding PNG images.
+Squashed 'src/github.com/getlantern/go-socks5/' changes from 0126026..d251d35
+Added unit test for SOCKS
+Added SOCKS5 support to flashlight
+Squashed 'src/github.com/getlantern/go-socks5/' content from commit 0126026
+Cleaned up balancer/reverse proxy init sequence
+added link for Arch Linux binary package
+Upgraded Go version in Dockerfile
+Added badserver for testing connection close
+Deferring initialization of reverseproxy
+Reusing ReverseProxy
+merge from valencia-embeddable
+Reusing chainedandfronted in config
+Cleaned up balancer initialization
+Comments to clarify what's going on with Run call
+Not waiting to find old balancer for closing on reconfigure
+Specifying listen address from Lantern library
+Just putting config in .lantern subfolder (not using app name)
+Added Google Analytics to SDK
+More code review updates
+Code review updates
+Manoto app seems stable with these changes
+Added Android logging info
+Closes #3460
+Closes #3459
+Added Java wrapper for mobile API
+merging from stable release branch
+Reverting my revert...
+Revert "Merging into stable release branch"
+README update
+Beefed up LanternMobileTestbed
+LanternTestBed working
+Lantern test passing
+Waiting for first chained server before serving
+Added unit test for lantern library
+Renamed Start to Run
+Added basic lantern API
+Client proxy now listens at random port
+More mobile progress
+Adding ga trackers.
+Starting on mobile library piece
+Eliminated dependency from library to settings package
+Updating more manoto URLs and making OSX_DEV_SDK optional.
+Moved core startup sequence into library
+Switching to 10.7 target
+Added library for eventual values
+Force run update-dist the first time genassets is called.
+Removing dist from version control and forcing update-dist on 'make packages'.
+Simplification through removing unnecessary packages
+Getting more strict on deployment target and SDK.
+Updating to go1.5.3
+Importing key.
+Adding deltarpm before update.
+Merging Dockerfile.
+Merging Dockerfile.
+Merging Dockerfile.
+Few fixes after review.
+Started moving startup lifecycle into library
+Eliminated dependency from config to settings
+Moved configuration logic into library
+Less aggressive close of logging
+Moved InstanceID out of settings and into config
+Respecting custom addresses in config
+Decoupled flag parsing from Config mechanism
+Adding main screen files after successful test.
+Reversed merged refreshed masquerades
+Moved main program code to main subfolder
+killing all peerscanner tests for now
+Added some clarifications for off-cycle updates of the global config.
+Removed dependency from client to settings
+removing cloudfront peerscanner test
+Disabled cfr test since we're not using peerscanner at the moment
+Updated masquerades in util_test.go
+Only giving up on dialing direct after we've already gotten at least one candidate
+Not adding candidates in goroutine
+Refreshed masquerades
+add MIN_OS_VERSION_MAC
+support minimum OSX 10.7
+Updating manoto page.
+Sending e-mail with Lantern Android Beta.
+getlantern/lantern#3409 Added ability to force use of a specific proxy and token to support testing
+wip: Lantern Mobile Ad
+Importing key.
+Adding deltarpm before update.
+Moving Go (which is frequenly updated) to the end, so it does not invalidate everything else.
+Adding deltarpm and cache. See https://github.com/getlantern/lantern/pull/3364
+Code review updates
+Updating Dockerfile to use go1.5
+Added info about installing lantern fork of gomobile
+Added migration instructions from boot2docker
+Removing go1.4. Testing go1.5.
+Update README.md
+return DIRECT for non-HTTP url in PAC
+Added pre-push.hook script that works by comparing changes to remote branch
+Added support for building mobile library without docker
+Upgraded to go 1.5.2 for lantern mobile
+Added support for most recent docker toolbox
+add pprofaddr option resolves #3291
+remove dependency of gtk packages in travis
+Update README URLs based on HTTP redirects
+Updating Dockerfile, gomobile was failing.
+check Accept header before render error page
+wrap error in http content for non-browser requests
+only render error page to browsers
+Close correct response body
+adding manototv.com
+Cleaner approach to dual fetching closes #3315
+remove extra for loop from http.go
+Make sure we close all responses closes #3312
+Remove unnecessary localhost check when waiting fro proxy server closes #3313
+Add X-Lantern-Device-Id field
+Instance ID becomes permanent
+Added stickyconfig flag
+add logglyTag
+adjust wait time in fdcount test
+fix yamlconf test
+Increased timeout in effort to get test passing
+fix for test
+not intended for valencia
+Adding settings load to init
+tweaking test since the second test did not do anything additional
+change wording
+not persist versions
+Send instance ID to logging package even with a panic
+added more masquerades to the test
+fixed for new instance id handling
+Lots of changes to use user-specific settings separately from global config closes #2896
+First pass at storing user settings separately #2896
+make profiling work
+switched servers
+Merging from valencia with fix for conflict in flashlight.go
+make golint happy (partly)
+remove deprecated menuZone from systray
+removed check for fronted servers existing
+Just removed file polling closes #3207
+removed continue statements
+retry requests to get passed occasional 403 errors closes #3238
+new configs for release
+install tarfs every time -- binary otherwise gets corrupted somehow
+changed to also ignore whitespace-only and fixed review issues
+Comment and log
+Don't duplicate yaml unnecessarily #3219
+Tweaks to automate the embedding of lantern.yaml closes #3219
+Added idletiming and cleaned up dual fetching a bit closes #3234
+More race condition fixes
+fixed race condition
+more debugging
+more logs to try to fix test
+Test fix and comment
+Moved to use embedded bootstrap config to fix auto-updates closes #3215
+updated with latest
+should not be checked in
+should not have been committed
+Changes to return correct response code from the local HTTP proxy and to generate configs the client side can properly use closes #3212, closes #3211, closes #3210
+fix for ubuntu
+More fixes
+fixed test
+Switch to using a stored version of chained and fronted
+changing to newer sets
+moved channel push and comments
+Squashed 'src/github.com/fatih/set/' content from commit 7b667b7
+[gost] Added github.com/mailgun/oxy/forward and its dependencies
+Squashed 'src/github.com/mailgun/oxy/' content from commit 547c334
+deleting and re-adding
+Changed to just iterate over connections
+no resources dir
+import
+[gost] Added github.com/mailgun/oxy/forward and its dependencies
+Squashed 'src/github.com/mailgun/oxy/' content from commit 547c334
+not used
+Squashed 'src/github.com/mailgun/oxy/' content from commit 547c334
+More tweaks to masqueraded pre-fill
+comment
+comment
+removed comment, file
+added util package
+fixed test
+Adding masquerades here directly to create a better parallel with downloaded configs
+Lots of changes to move to client side parallel fronted and chained access closes #3199
+Add implementations of encoding.MarshalText to stack.Call and stack.CallStack.
+a little cleaner
+tweaked channel sizes
+comments
+test cloudfront not cloudflare
+fix failing lantern-mobile tests
+comment failed new test temporarily
+use NewDirect
+remove deadlock
+Go version gump -> 1.4.3
+A few more cleanups
+add error logging
+make the logic of serveHTTPWithDDF more clear
+client stop keeping cert pool for fronted servers
+not used
+more fixes
+should not have been committed
+should not have been committed
+Lots of changes to support falling back to direct fronting
+fix respondBadGateway with test
+more tweaks to move towards supporting fronting for internal requests in a generalized way
+add test for LocalAddr() and RemoteAddr()
+detour supports LocalAddr() and RemoteAddr()
+check for nil
+fix potential segfalt and make golint happy
+code review updates
+Lots of tweaks to use direct fronting since this branch was created
+add -verify option to checkfallbacks
+added initial check for fronted header
+removed unused field
+cleaned up transport
+fixed token
+Added auth token to chained dialer check closes #3176
+removed cf test
+test fix
+Optional verbose output for checkfallbacks
+small cleanup
+iterate through bootstrap chained servers
+code review updates
+add test for NonStopWriter
+Add more masquerades (>10,000)
+Gets around issue with reverse proxy adding localhost address
+copy config file via ioutil
+add comment
+use different copy command for windows
+remove extra keys in baked in lantern.yaml
+copy lantern.yaml works
+change installer and file name
+more cleanups
+adding direct domain fronting for config fetching
+removing old test
+reverting changes
+cleanups
+separate code path for direct domain fronting
+Test for DDF with cloudfront masquerades
+fixed test
+naming and comments
+cleanups
+Lots of tweaks to get things working with auth tokens
+comment
+still able to quit if config.Init hangs
+comments and logging
+hacking connect requests
+Adding initial test and switched config to use cloudflare
+fixed typo
+fix config path of bootstrap_test.go on linux
+fix bootstrap_test.go
+update derived files
+remove default chained servers
+remove cloudflare masquerade candidates, add cloudfront's
+remove cloudflare servers and masquerades
+make genconfig.go take 'ip domain' pairs as input
+modify IP range scanner to scan cloudfront instead
+fix format of chained.yaml
+fix incorrect config path on linux
+skip directories in config lookup to avoid noise
+copy chained.yaml on linux
+fixed includes
+cross platform issues with sed
+no chained servers
+fixed sed again
+no backups with sed
+fixed test since DDF no longer works
+add comments
+balancer: not exclude used dialers when retry
+Consider all dialers as active when we only have a single chained dialer
+fixed package error
+Made initial config lookup a race
+don't publish ip every time adn don't check it so frequently
+fixed geolookup
+removed domain fronting tests
+fixed test
+fixed test
+typo
+more path fixes
+dummy chained server
+use bootstrap name #3106
+template yaml file
+Add images
+General description of the Lantern project
+Doc overview
+more cleanups
+Initial commit of Lantern developers documentation
+Improved old config checking #3106
+Make initial config loading work
+More integration, better tests, etc #3106
+sketch of doing config lookup through the embedded config #3106
+need to change config handling again because in iran old configs have old, bad masquerades
+not used
+first working version of scanner
+fix from code review
+better masquerades
+Adding README here
+Run Lantern even if panicwrap fails to fork
+only deal with verified masquerades
+more tweaks
+new config generator that verifies with DDF
+WIP: cf IP scanner
+skip fallbacks entirely for now #3092
+limiting masquerades
+added use of datacenter based on locale and better tests for config copying closes #3092
+Run Lantern even if panicwrap fails to fork
+Add start and end session recording closes #3089
+Only publish IP once #3089
+fixed test
+there is still a difference with ddf
+there is still a difference with ddf
+Make sure uint64 is aligned for its use on x86-32 and ARM
+token
+one more try
+nsis needs some file there
+fixes for manoto versus non-manoto versions
+Update README.md
+removed log and added comment
+log
+more fixes from code review
+fix from code review
+fixed test
+small test for config
+Use old config files if available closes #3083
+move back to old location because we do not want to continually refetch a bad config closes #3076
+Add cache control header and fix storing of etag
+Removing extra targets
+fix modified debian binaries #3007
+add path parameter to newRequestFunc
+make regex a variable
+clarified host
+Don't use pools, clarify test #3071
+More fixes #3071
+Change header format #3071
+Changed to use direct domain fronting #3071
+Adding missing "yum clean all" to prevent saving unnecessary cache files across layers.
+create Lantern.app/Contents/Resources/en.lproj directory
+Better logging
+added bzip
+Add check for dialing error closes #3057
+pull before update for github binaries to make sure commit does not fail
+fixed manoto dmg name
+Update README.md
+add forum links to README
+comments
+Changed loggly account and tweaked log size closes #3049
+changed to use close process instead of kill process closes #3046
+This somehow got lost in the repo migration.
+handle old clients and fix test #3007
+fix this while here
+Check en.lproj directory instead
+lots of changes to use the same binary for manoto and non-manoto and to upload the signed binaries for updates closes #3007
+add projecttalk link
+Don't use a function so casting can be applied to each array element directly (bypass Go's type checking for slices)
+Changes for custom manoto packaging for 2.0.1 before fix for #3007 is in -- temporary change to do packaging only
+fix yamlconf test
+fix peerscanner/dsp test
+Change to always open new manoto url closes #3025
+Closes #3019
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+fixed manoto link
+More fixes to signing -- requires keys in pfx format for whatever reason closes #3000
+Changed to use new code signing certificate that uses SHA2 closes #3000
+typo fix, README :environment:
+add PUT to nonidempotent methods
+Changing wording of the generic error page to make it more general.
+Remove HTTP config server closes #2988
+Cleaning up data races in peer stats closes #2980
+Added comment and test
+There is no point in renaming icons into resources.
+Adding "Address not found" generic page.
+Ha -- looks like the race was in the error variable itself closes #2981
+Add method for creating empty atomic strings
+avoid nil checks
+Use separate copies of http.Client closes #2976
+don't try to respond with bad gateway after OK closes #2977
+just adding -a flag to force a full rebuild closes #2974
+Use GetSemanticVersion in Android test app
+fixed compile error
+Added use of cf header on the server side and minor code cleanup #2943
+Add implementations of fmt.Stringer to stack.Call and stack.CallStack.
+Add exponential backoff timeout to test
+code review updates
+Issue #2959 review changes
+use new ip and country headers closes #2943
+removes dead code closes #2962
+Adding chained server info to error logs closes #2960
+Adding a restriction that prevents empty address to be added.
+Nicely formatted User Agent list
+Add User Agents registry
+Trying to fix TLSdialer tests (again)
+Respond OK to application ASAP when using CONNECT
+Squashed 'src/github.com/getlantern/osversion/' changes from 106c71c..fd62717
+Include OS version in loggly messages
+Test failing in Travis
+Add osversion to testpackages
+Free all the mallocs
+Another attempt to fix analytics closes #2788
+fix issue where welcome screen text disappears
+Removed leftover in CGO code
+Makefile to easily build the test command
+Support for Android
+Tests for Linux
+Squashed 'src/github.com/getlantern/osversion/' changes from 73eb738..106c71c
+Linux support
+Windows tests
+Added more specific Window versions where possible
+Do not consider unknown versions an error
+Basic Windows support
+GetSemanticVersion is common to all OS
+Added OSX Cheetah
+Removed gost leftovers
+Squashed 'src/github.com/getlantern/osversion/' content from commit 73eb738
+Vendored golang.org/x/sys
+use versioned dmg title fixes #2947
+make go vet happy
+add idletiming for chained dialer
+set TimeoutToDetour to zero
+No need for harcoding development version.
+make closed flag atomic to avoid data race
+avoid leak connection after TimeoutToConnect
+Explicitly skipping development version. Closes #2944.
+method name
+Tweaking server side to always report and use IP and country from CloudFlare closes #2941
+Changing manoto URL so we can track it
+Chaining s3cmd cp and setacl with &&.
+add log when signal received
+log Configure function should always append to success channel
+Closes #2929
+Add geolookup to automated tests
+fixed test
+Updating resources.
+Renaming update-icons target into update-resources.
+less trace logs for detour
+add trace for not implemented detour methods
+drain closed connection from conns queue
+uniformize fallback access data format
+clean detour code
+pass an empty IP to analytics
+add flag to anonymize the user IPs
+Use returned IP and send it to analytics closes #2922
+merging changes from release-2.0.0+stable branch
+Removing hard coded manoto
+Adding manoto for the manoto release
+Updated to use new tracking ID closes #2788
+fixed logging
+Update the comment
+Use SimplePrepender in logging to avoid stamping every line in multiline output
+Add tests for SimplePrepender
+Implement SimplePrepender Writer
+Error instead of fatal if we can't set up panicwrapper
+Handle error in flushing
+Revert Loggly test code for production
+Make sure that Configure won't block unwanted
+Avoid blocking on addr == ""
+Make flushable interface
+uniform brackets style
+fix bugs of detour
+fix git hook
+passes git pre-post hook
+remove more clutter
+Vendor panicwrap properly
+Flush golog errors on demand
+use atomic for dc.nonIdempotentHTTPRequest
+Workaround for #2799
+Revert "More testing on issue #2799"
+Comment code
+Closes #2908
+Lantern-mobile: interface now requires a callback for when actually proxying
+revise comments
+merge valencia
+parallel detour passes test
+code review tweaks
+Filter duplicate messages to avoid noise in loggly closes #2315
+avoid channel state closes #2897
+Change logging closes #2898
+fix for errcheck errors
+add info on how to test peerscanner to README
+Reverting TLSdialer test limit to 5000 microseconds until we make sure that CA certificate list fix wasn't enough
+Reduce timeouts for tests in TLSdialer: some connections were succeeding, defeating the purpose of the test
+Possible fix for #2858
+Make lantern-mobile: do not get any gomobile dependencies
+Updated Go 1.5 to release candidate 1
+fix typo
+*really* remove CloudFront and DNSimple support from peerscanner
+More testing on issue #2799
+New set of workaround tests for issue #2799
+Test timeout idea
+Possible workaround for #2799
+Heavy-weaponry websockets closing: makes sure Firefox closes old connections, allowing new connections to be established.
+filter countries by blacklist, not whitelist
+running genconfig for pending release
+running genassets for pending release
+updating to signed version of darwin pac file
+added signature
+add pac for linux_386 to bytes
+update pac linux_386
+update pac on linux_amd64
+code review updates
+sleep unconditionally on every iteration of register loop
+Removing .packaged-lantern.yaml files.
+Removing "manoto" target and using MANOTO=1 env variable instead.
+Trying to open nil or an empty string created weird issues on windows -- adding checks for that and ignoring
+just include these empty files as placeholders
+added handling of the packaged yaml
+fixed variable naming issues etc
+Adding "clean" dependency in "all".
+Adding a comment to relate the checksums with a version.
+Making sure manoto build won't make it to the latestAssetsMap map.
+Adding checksum comparison and making sure normal betas won't update to +manoto versions.
+revert removing of generating pac on linux arm
+compare with pacURL when clear proxy setting on startup
+sign windows and embed linux/windows
+fix pac-cmd on linux to check mode
+modify golang side caller for new pac-cmd
+fix pac-cmd windows to turn off pac only if the option is set
+update pac-cmd windows to avoid console window
+update pac-cmd on linux to check old-pac-url
+update pac-cmd on windows to check old-pac-url
+Added error log
+update pac-cmd on mac to check old-pac-url
+remove close button
+remove close button
+added file size check
+removed old comment
+added comment
+imports
+Added packaged config for manoto
+Added handling of embedded configuration closes #2857
+Adding bzip2 reader to fix full binary replacement signature mismatch.
+Adding some directories to clean to the 'clean' target.
+Adding a debug line that logs server upgrade instructions.
+Hotfix for upgrading beta8+manoto to 2.0.0 via an interim beta9+manoto.
+config updato
+Update original.txt
+Do not test cfr package, because it fails due to CloudFront deactivation
+Cleaned up some error checks
+This error should be discarded for proper functioning
+Spawn client/server goroutines directly, not within their own functions
+Adding registry key to set -clear-proxy-settings after installation.
+Use either -startup or -clear-proxy-settings on the Lantern HKCU/.../CurrentVersion/Run registry key.
+Adding -clear-proxy-settings option. Closes #2776.
+Delete old registry system startup setting from previous Lantern versions closes #2791
+fixed test
+undo
+new sites yo
+Possible fix for issue #2810
+Proof of concept for logging on panic
+Run Flashlight server in a goroutine, so it catches OS signals
+Error messages in logging package should reflect what they do
+Improved granularity of error codes closes #2847
+Turned some Debugf's into Errorf's
+Update README: inform of --no-verify
+README changes informing of git hook
+Removed confusing/incorrect statement in README
+Generic git hook (errcheck, go vet, golint, go test -race)
+incomplete
+reorder statements in golog.doPrintStack
+golog to print stack when PRINT_STACK=true
+incomplete
+Stopping Lantern when port 8787 is not available. Closes #2840
+Add a call to trigger an existing lantern to open the UI in the browser closes #2838
+Errcheck'ed github.com/getlantern/yamlconf
+Errcheck'ed github.com/getlantern/waitforserver
+Errcheck'ed github.com/getlantern/tlsdialer
+Errcheck'ed github.com/getlantern/tarfs
+Restore rotator tests; Sort test packages.txt
+Errcheck'ed github.com/getlantern/rotator
+refactor detour
+Errcheck'ed github.com/getlantern/proxy
+Errcheck'ed github.com/getlantern/profiling
+Errcheck'ed github.com/getlantern/peerscanner
+Errcheck'ed github.com/getlantern/lantern-mobile
+Errcheck'ed github.com/getlantern/keyman
+Errcheck'ed github.com/getlantern/jibber_jabber
+Errcheck'ed github.com/getlantern/idletiming
+Show error properly in enproxy test
+Errcheck'ed github.com/getlantern/i18n
+Errcheck'ed github.com/getlantern/golog
+Errcheck'ed github.com/getlantern/go-update
+detour use chan instead of slice to store connections
+Errcheck'ed github.com/getlantern/geolookup
+Errcheck'ed github.com/getlantern/loggly
+more refactor of detour
+Errcheck'ed github.com/getlantern/fronted
+Errcheck'ed github.com/getlantern/filepersist
+Errcheck'ed github.com/getlantern/fdcount
+refactor detour code
+parallel access to detour
+not including arm in package-linux for now #2829
+Removed quotes closes #2827
+updating config for release
+change to use 127 everywhere
+Adding latest to dist
+Log error dumping the response
+Errcheck'ed github.com/getlantern/enproxy
+Errcheck'ed github.com/getlantern/detour
+Errcheck'ed github.com/getlantern/connpool
+Errcheck'ed github.com/getlantern/cloudflare
+Errcheck'ed github.com/getlantern/checkfallbacks
+Errcheck'ed github.com/getlantern/chained
+Errcheck'ed github.com/getlantern/byteexec
+Errcheck'ed github.com/getlantern/bytecounting
+Errcheck'ed github.com/getlantern/buuid
+Errcheck'ed github.com/getlantern/balancer
+Errcheck'ed github.com/getlantern/autoupdate-server
+Errcheck'ed github.com/getlantern/analytics
+Errcheck'ed github.com/getlantern/flashlight/statreporter
+Errcheck'ed github.com/getlantern/flashlight/settings
+Errcheck'ed github.com/getlantern/flashlight/server
+Errcheck'ed github.com/getlantern/flashlight/pubsub
+Errcheck'ed github.com/getlantern/flashlight/proxiedsites
+Errcheck'ed github.com/getlantern/flashlight/logging
+Errcheck'ed github.com/getlantern/flashlight/genconfig
+Errcheck'ed github.com/getlantern/flashlight/config
+Errcheck'ed github.com/getlantern/flashlight/analytics
+Errcheck'ed github.com/getlantern/flashlight
+Removed leftover from lantern-android
+Adding more detailed error info in response bodies closes #2822
+More logging to know if we're successfully hitting masquerades at all
+updating dist
+More logging closes #2820
+more logs
+fix footer at bottom of UI landing page
+fix footer at bottom of UI landing page
+More logs closes #2798
+Temporarily disable localdiscovery #2813
+For some reason OSX code signing stopped liking PACKAGE_VENDOR -- hard coding
+Added startup flag and fixed code to remove lantern from startup items
+fixed test
+Rewriting the warning message to sound less like an error.
+Handle panics with panicwrap
+Add panicwrap and deps to project
+Updated Go 1.5 revision
+DRY android-lib/android-lib-dist tasks
+Updated README for Gomobile
+only add headers if new request is successfully created
+adding new startup flag closes #2802
+analytics fixes
+analytics fixes
+Added uninstall
+Adding shortcut closes #2804
+Gomobile: make sure the local environment has everything needed
+Removing TAG variable. Use VERSION instead. Closes #2795
+Build Android flashlight with gomobile
+Use Once() to make sure  only closes client<->proxy connections once
+TLSDialer test: make sure the error is of type net.Error before checking whether is a timeout error
+Explicitly setting ACL after promoting "beta" release to "production". Closes #2777.
+make IE10 happy with the size
+Preemptively close pipe if the request side fails or finishes, in client handler
+not proxy traffic to LAN hosts
+add dist folder
+fix top tiles margin
+fix UI page/elements to fit smaller screen sizes
+adding googleapis.com
+Reverse merging from valencia
+Do genconfig separately so we actually commit the changes for all platforms to pick them up
+Handler pipe: both directions wait for each other
+Handle all errors for flashlight/ui package
+Add additional test for Trace().
+No manoto in main version
+Handling all errors in flashlight/client package
+Handle CONNECT OK in order with respect to data piping client->proxy
+automatically generated config updates
+Added changes for 2765 to dist closes #2765
+use window object instead of instance for closing current window
+fix twitter url
+fix padding issue
+activate social sharing links
+add new footer
+Pass constants to libflashlight for mobile
+another tweak
+Tweaked git revision handling so date parsing works
+genconfig updates
+updated dist
+Removing tlsInfo() to keep logs clean and short. See https://github.com/getlantern/lantern/issues/2398#issuecomment-122396044
+Introducing revision date, this value will hold the date and time of the latest commit in HEAD.
+simplify code to compute running time
+append running time to timestamp
+updated genconfig
+adding UI changes to dist
+Bumped up timeout for checks closes #2743
+remove box shadow when clicking on settings icon
+restore code to display notification when backend is gone
+uncomment return statement
+disable CloudFront/DNSimple support
+reverting to use package version
+Changed to use version
+Make fronted servers trusted by default closes #2737
+Adding version to config on disk to make sure we ignore configs from old versions of Lantern closes #2731
+comment
+Added error logging
+imports
+Remove unnecessary wait for server
+cleaned up error naming
+removed dead code
+Bumped Fedora version of lantern for mobile
+New docker container for Go1.5beta and Gomobile
+avoid redirect
+Additional error checks and logs #2719
+Renamed lantern-android to reflect iOS support
+Multicast: detected and removed data race condition
+Multicast: updated test utility for new API
+Multicast: improved tests
+fix box-sizing
+manually merge valencia
+update dist
+sites not cover title
+adding to dist
+swapped in firetweet
+only open Manoto page once
+update dist of lantern-ui
+remove lantern link
+ui style improvements
+hard-coding for now
+Just updating dist to latest code
+add farsi translation
+add translate string
+Copy files recursively
+removed broken import
+Adding manoto-packages target
+Updating the version of gomobile
+Expose the interface we want to bind to Android/iOS
+code review suggestions
+Adding Makefile target for swapping the URL
+use smaller screenshots
+fix box shadow
+add new ui page
+add new ui page
+Better makefile for mobile backend development
+Added files created by docker when running android-lib make task
+Squashed 'src/github.com/blang/semver/' changes from fe545f5..31b7361
+Squashed 'src/github.com/kardianos/osext/' changes from ccfcd02..6e7f843
+Squashed 'src/github.com/getlantern/autoupdate-server/' changes from b2de4c4..2422360
+Squashed 'src/github.com/getlantern/autoupdate/' content from commit 7c82e64
+Removing manually added autoupdate.
+Squashed 'src/github.com/getlantern/go-update/' changes from 50f6de9..dd50a7c
+Sorting import paths with goimports.
+Squashed 'src/github.com/getlantern/go-update/' content from commit 50f6de9
+Removing manually added go-update.
+Forcing downloading of the complete patch when something goes wrong.
+Changes for pull-request review
+improved log again
+Changed to an error log
+Just tweaking the log level directly
+open manoto fb after first run
+Bringing in inconshreveable/go-update#15
+move unsigned upnpc out of windows directory
+sign upnpc for windows
+update upnpc windows binary
+Lantern Pi: make Fatal() log useful messages in tests
+fixed dialedby check
+Another attempt at fixing this test closes #2673
+Update README.md
+Lantern Pi: some fixes as per review
+Multicast: serialization using JSON; some small fixes
+modify genconfig to fetch ft version
+modify genconfig to fetch ft version
+potential fix for test errors #2673
+Lantern UI: updated dist assets
+Lantern UI: update Gulp tasks and NodeJS packages that were producing some errors
+Multicast: API changes required by Lantern Pi project
+Lantern Pi: provide a proper list of local Lanterns to the UI
+Adding genconfig target for the Makefile. Closes #2663.
+Added a verification that checks whether the system's Lantern binary got changed and replaces the user's copy of the binary in such case. Closes #2670.
+Lantern Pi: Allow binding UI listener to all interfaces in headless mode
+Lantern Pi: removed leftover
+Multicast: add tests to testpackages.txt
+Multicast: fixes for bugs exposed by integratio in Lantern
+Lantern Pi: UI service for Local Lanterns list
+Lantern Pi: Changes to UI for listing found Pis
+removed dead packages
+truly removing framed
+removed dependency on framed
+add test to cover connection refused detection
+treat all ECONNREFUSED as being blocked
+close logging until last minute to log more messages to file
+grab ft version number from config
+grab ft version number from config
+grab ft version number from config
+Added putting beta releases in GitHub as well closes #2633
+Lantern ARM: testing without 'framed'
+Lantern ARM: updated README
+Lantern ARM: generated new 'pac' for Linux ARM architecture
+Lantern ARM: Docker and Make support
+add checkfallbacks tests to testpackages.txt
+move checkfallbacks to its own directory in getlantern
+print --not log-- out check failures, with a distinctive prefix
+gofmt noise
+Multicast: SSM is not used, fix multicast address according to IANA
+don't write to log on disk at all on android
+add updated make.bash
+Refactor; divide output into stdout/stderr and handle it well with concurrent goroutines
+Multicast: get local IPs based on network interfaces, not localhost
+Multicast: Go's local IP reporting fails on the Pi, removed IP listings in messages
+Multicast: refactored message out of multicast.go
+Multicast: standalone utility for testing on different devices
+Multicast: zero failedtime means no timeout
+Multicast: call callbacks only if the peers is actually added or removed
+Multicast: callbacks for add/remove peers
+Multicast: add failure detection
+Multicast: using channels to communicate with listener goroutine
+Multicast: do not add ourselves to the list
+Multicast: hello/bye message, listen to peers
+Multicast: construct hello and bye messages
+Multicast: removed commented code
+Multicast local discovery: initial commit
+initial commit
+Adding missing appdir_linux.go file.
+Closes #2604
+initialize slices as needed when setting datacenter config
+Forcing extended log, this may help us decide if this error is really that bad.
+Fallback server checker, parallelized
+Added tls handshake timeout and don't keep connections alive closes #2614
+detour to close dns poisoned connection
+Allow uploading global config without uploading servers.
+fix #2612
+Updating config files with genconfig.
+close both clientConn and connOut to resolve #2330
+added firetweet closes #2603
+fix: url scheme was overwriting that of the original req
+list known datacenters in README
+add script to update the redis config from a cloud.yaml
+just adding dummy logging and a comment
+just changing the log so the error will be grouped in loggly
+Better implementation of request copy
+add severity to logs and update testify closes #2589
+Use waitgroup to make sure we don't close the client connection before sending a response closes #2560
+generate instanceid if it's empty
+fix client side of #2568
+Adding the same patch I used to fix #2583 to the Android's library build.
+Patch for skipping a failing test than rendered our docker image useless. See: https://github.com/getlantern/lantern/issues/2578
+verify autoreport is true before sending session info
+log error setting trusted CAs
+initialize client config in declaration
+don't intiialize http client
+update analytics test
+analytics updates
+use exit functions to turn off pac
+update README
+add proxyall command line option
+revert back to configure analytics only once
+move proxy all option to 2nd position in modal
+refactor flashlight.go to remove duplication
+serve different pac file according to proxy all config
+toggle on/off proxy all on setting screen
+add ProxyAll client config option to yaml
+Mostly logging but changed to keep reading from UI in the event of a single failure #2480
+more informative logging
+Latest revision that works.
+Attempting a different revision.
+Missing setenv.bash.
+changed to anonymous field closes #2567
+update reverseproxy to not use detour
+analytics changes
+Use non-detour dialer on Android
+resolve ambiguity in tarfs
+fixed compile error
+Added explicit acl setting closes #2555
+log fixes getlantern/firetweet#86
+update initial cloud config poll interval
+Added log for config update errors closes #2550
+don't wait for server since that's handled elsewhere #2548
+remove waitforserver in analytics
+WaitForServer no longer necessary
+Start analytics on a thread to avoid deadlock #2546
+Using waitforserver only for local addresses.
+don't ue CloudConfigCA
+include user agent
+include user agent
+include lantern version in user agent
+Adding waitforserver when creating HTTP proxy client.
+update endpoint
+analytics improvements
+analytics improvements
+analytics improvements
+Changed to record analytics only after the local server is definitely up and running #2540
+Don't use direct domain fronting for analytics closes #2540
+fixed bool
+Update trusted CAs on config updates
+make statserver.geoClient atomic
+use direct fronting to fetch config in lantern-android
+update config URL
+add default trusted CAs to initial config
+fix capture of ranged over variables
+remove initial attempt to fetch cloud config without proxying
+increase DialTimeoutMillis default
+use direct fronting to fetch cloud config, remove support for country-specific cloud.yamls
+make the result of NewDirectDomainFronter() accept https URLs
+DRY
+rename fronted.Dialer.DirectHttpClient -> NewDirectDomainFronter
+fix lantern-android/libflashlight/bindings tests, add to testpackages.txt
+fix error prompt in balancer test
+fix balancer test
+use separate channel to close balancer dialeer
+more informative logging for balancer
+use interface embedding for balancer_test
+ui.Show() wait for url in a go routine closes #2513
+adding heroku and loggly to proxied sites list #2482
+change cloud config URL to one that can be served dynamically; fixes #2517
+add facebook AppId to lantern-ui
+make windows installer detailed message more clear
+more ui tune
+use fixed size iframe for twitter, to avoid temporary scrollbar
+add padding for social logos to work on IE
+fix layout of social sharing modal for lantern-ui
+'make genassets' to respect UPDATE_DIST
+Made a separate function so debug logs print and cleaned up pseudo-uninstall code from previous version #2477
+Added debugging, silent uninstall
+uninstall previous version before install new one
+Change to not use persistent connections by default and added timeouts to the transport closes #2491
+killed unused mutex
+update to fix merge conflict
+fixed package
+added pubsub
+fixed test
+fixed to use channels
+correct conditional comment and remove outdated chrome frame
+unrelated lantern-android test fixes to make travis finally pass
+keep ie conditional comments
+second shot at fixing travis
+try and fix envvars.bash.enc for travis
+some changes required by Start->Init renaming
+Added comment #2457
+Made pubsub a little more intuitive #2457
+Only start polling once and compilation fix #2457
+Strip country
+use %s for error
+add fix for https://github.com/getlantern/lantern/issues/2402
+adjust log format in statserver/peer.go
+use type assertion to check if err is an UnknownAuthorityError
+Trying to detect if error is x509.UnknownAuthorityError.
+Adjusting error threshold in peer geolocation.
+Removing clutter.
+Should be vms.dialer.tlsInfo(masquerade) instead of masquerade.Domain.
+Removing dangling error declaration.
+Adding tlsInfo() function, it could help debugging https://github.com/getlantern/lantern/issues/2398.
+log detailed error if dialDetour() failed
+Adding support for LANTERN_BINARIES_PATH.
+Added test
+Error handling #2457
+Comments
+Cleaner #2457
+Made pub sub system use types and fixed location bug sending to ui #2457
+Squashed 'src/github.com/asaskevich/EventBus/' content from commit 30e8554
+removing and readding
+Slightly cleaner -- only start polling when we know where we are #2457
+lantern-ui reminds user to upgrade browser if < IE 10
+Added pubsub system for general use and for the user's location closes #2457
+Adding release target and removing some responsabilities from release-qa.
+Adding instructions and making some functions unexported.
+add trusted field to genconfig template
+Better log messages for auto-update server.
+golog can act as a std logger
+Removed -q option closes #2442
+log completion per run, not per worker
+force closing connection if request sent
+Adding docker dependency.
+Adding comments on why we don't believe race conditions could happen and providing a better alternative for balancer.New()
+Changed to write to HKCU since we're not installing as admin fixes #2389
+Added error messaging for errors stopping previous Lantern #2433
+Changed to keep installer up to make it clear its installing and added error handling for killing lantern #2433
+just fixing the name while i'm here
+Explicitly generating assets for linux packages #2431
+move janitor to its own subproject, to appease `go build`
+add reference to relevant docs
+program to find and delete test CloudFront distributions
+expose comment in dists; required to clean up test ones
+add separate analytics code tracking to lantern android
+Few fixes for name consistency.
+Update README.md
+Update README.md
+Adding a Trusted property on balancer.Dialer that determines if a dialer can be trusted with handling plain HTTP traffic.
+restore valByLang function
+Drafting "Trusted" property for telling which proxy server can be trusted with plain HTTP traffic.
+fix logging test
+fix unit test
+Adding some comments on the ServeHTTP process.
+Adding a few comments on the client-side proxy startup process and fixing some bugs found in the process.
+Merging with valencia.
+add line number and file name prefix to logging
+add line number and file name prefix to logging
+fix path to delete registry key
+update fronted server info
+Updating masquerades file.
+Updating READMEs.
+Integrating lantern-android build process into Lantern's build script.
+Removing generated code.
+Removing generated code.
+update fronted server info
+remove unnecessary files
+Cleaning test-and-cover.
+Ignoring .syso files.
+Merging valencia and issue2384.
+Making sure the .syso file does not interfere with other build targets.
+re-configure settings on config update
+remove print statement
+remove print statement
+runDir should not be a public constant but a local one.
+Revert "fix mutex in autoupdate"
+Adding a command to prevent git from wanting to add resources.go.
+Checking out resources file instead of removing it.
+Adding a note to prevent confusion.
+only link .syso on 386 arch to resolve lantern#2384
+update cloud config url
+Calling the genassets job as if we were inside the docker container.
+Calling genassets to jump around https://github.com/getlantern/lantern/issues/2388.
+Fail on the first testing error.
+Making target quietly.
+remove call to analaytics.Configure()
+remove call to analaytics.Configure()
+Including tests into the Makefile and updating the travis file.
+wait for location before fetching config (with timeout)
+fix mutex in autoupdate
+maxmind's code for the UK is GB...
+add UK to allowed countries for domain fronting
+add winsvc back
+add latest shared library
+error instead of fatal when writing to plist file; rename to avoid conflict
+add gowin files
+It is not neccessary to worry about backwards compatiblity yet.
+remove winapi library
+update shared library
+add Stop method to flashlight client
+add Stop method to flashlight client
+add Stop method to flashlight client
+add Stop method to flashlight client
+add Stop method to flashlight client
+rename MClient to MobileClient
+rename MClient to MobileClient
+remove linux launcher for now
+remove linux launcher for now
+remove linux launcher for now
+Using a lower-cased lantern config directory on Linux.
+fix unit tests
+fix unit tests
+fix unit tests
+fix unit tests
+fix unit tests
+restore config polling
+restore config polling
+clean-up get trusted certs call
+Changed to use a Makefile macro for code signing
+fix windows executable path
+make cloud config completely overwrite servers and masquerade sets
+add capability for country-specific cloud configs
+detour check ECONNREFUSED on Android
+add test to detour whitelist
+just panic when failed to base64 encode proxied sites
+fix service name on linux
+add IP prefixes, and sort them
+Closing #2369.
+Mergning valencia and issue-2363.
+Constants for production.
+Changing wording in the README file.
+Adding documentation for releases.
+Integrating create-tag and update-icons.
+add JP IPs seen so far
+base64 encode proxied sites
+add compressed upnpc
+fix AddToWl call in flashlight
+simplify code
+lookup parent domains when consult whitelist
+move enproxy/conn_http to test folder
+close connection before close response body in enproxy
+add linux launcher and service creation
+make clean now removes lantern-installer stuff too.
+Replacing releaseqa.bash with make release-qa and releasebeta.bash with release-beta.
+Replacing releaseqa.bash with make release-qa.
+fixed to reference qa script
+remove unnecessary imports
+update library
+update library
+Some notes on the code for better understanding.
+fix merge conflict
+Revert "close connection before close response body in enproxy"
+fix merge conflict
+Missing HEADLESS variable pass on docker-specific Makefile targets.
+update hardcoded default cloud config
+add all deployed versions of cloud.yaml config
+override cloudconfig to point old clients to the new URL
+remove peers round robin
+fix nil pointer in server mode
+close connection before close response body in enproxy
+lantern android and flashlight consolidation
+lantern android and flashlight consolidation
+lantern android and flashlight consolidation
+lantern android and flashlight consolidation
+lantern android and flashlight consolidation
+chained server changes
+The wd.Done() was being executed right after spawning io.Copy() so it really never waited for the io.Copy to complete before marking the job as done.
+Few changes for making golint happy.
+remove superfluous escape on '
+add windows launcher
+add windows launcher
+add windows launcher
+remove extraneous launchd parameter from plist template
+update dockerfile and makefile
+create plist file to auto launch on OS X
+create plist file to auto launch on OS X
+Logging error instead of exiting, a missing translation should not be a fatal error. Closes #2360.
+Removing hostIncludingPort as it's only used once and adding a log.Tracef to net.SplitHostPort, this may help debugging #2357.
+Some changes to keep golint (mostly) happy.
+add HEADLESS build option
+flashlight to accept headless build tag
+Removing superfluous check of a non nil body.
+enable auto launch on system startup setting
+enable auto launch on system startup setting
+Adding bzip2 decompression for assets.
+Passing VERSION env to docker image.
+add user analytics
+Removing dangling file lantern.icns.
+nonStopWriter never fails to resolve getlantern/lantern#2354
+update fallback (chained) proxy data
+Formatting issues.
+Some formatting.
+Updating documentation.
+Adding a mutex that prevents writing the same file at the same time when creating patches.
+Adding a clarification on the 60 chars limit.
+fixed naming
+Removing build script for OSX.
+Adding linux and windows target for generating binaries.
+Adding Dockerfile as part of flashlight-build.
+Few changes to avoid being too verbose.
+Testing package generation under OSX.
+Testing building all on darwin.
+Testing building on OSX.
+clean merge to valencia branch
+Targets for packages and binaries for Linux and Windows.
+clean merge to valencia branch
+clean merge to valencia branch
+clean merge to valencia branch
+clean merge to valencia branch
+clean merge to valencia branch
+clean merge to valencia branch
+Revert "User settings and server-side analytics"
+add welcome screen check before any usage requests are sent
+disable reset button
+disable reset button
+add ng-change to main welcome screen
+use ng-change instead of watch
+Drafting replacement for bash scripts.
+quick fixes for install script
+Few fixes for compiling inside docker image.
+Support for auto-updates on Linux.
+back to auto-close
+install under user permissions for auto-updates
+add updated libgojni.so
+add java.Init to libflashlight
+add derived files
+add new fallbacks.json
+README: genconfig manages more than masquerade hosts now
+add os custom var
+add tracking ID to session event request
+add os custom var
+Check if we're in a subshell or not getlantern/lantern#2334
+add check for existing analytics service
+fix issue with starting/stopping analytics service
+settings needed mutex
+settings needed mutex
+Added check for GOARCH on windows to make sure Lantern can run closes getlantern/lantern#2334
+disable reporting when anonymous usage is turned off
+Added cygwin detection for correctly setting the path
+disable reporting when anonymous usage is turned off
+add stop service
+add stop service
+add session tracking
+add separate mutex for settings configuration
+add session tracking
+add session tracking
+README update (mostly added so travis would retest this branch)
+lots of tweaks to auto-deploy new binaries to github, upload latest installers, etc closes getlantern/lantern#2327
+Adding a log message on current software version.
+Implementing autoupdate client.
+getlantern/lantern#2325 Allowing connections from US
+Only calling Allow on first request
+Caching country codes for geolookup
+Squashed 'src/github.com/hashicorp/golang-lru/' content from commit c3f28b2
+Merging valencia into autoupdate.
+getlantern/lantern#2325 Bug fixesB
+getlantern/lantern#2325 Bug fixesB
+Removed extra files
+getlantern/lantern#2325 Disallowing access from uncensored countries
+[gost] Added github.com/getlantern/geolookup and its dependencies
+Squashed 'src/github.com/getlantern/geolookup/' content from commit 1de70c9
+Using flags for starting up server.
+If we have an unrecoverable error from updates exit the goroutine but don't kill the program.
+backport of fix to https://github.com/getlantern/lantern/issues/2310
+add response body close
+don't treat colon in url as seperator
+change newRequest to Get
+change newRequest to Get
+add settings to welcome screen
+Removed unnecessary extra files
+Changing New() to accept a Config struct instead of relying on a string.
+remove unnecessary analytics response handling
+start analytics service when auto report setting changes
+start analytics service when auto report setting changes
+default auto report to true
+default auto report to true
+default auto report to true
+default auto report to true
+show settings screen first
+initial commit
+enable auto report switch
+enable auto report switch
+enable auto report switch
+enable auto report switch
+enable auto report switch
+Pointing at new cloud.yaml
+initial commit
+Unit test fixes
+Removed node_modules
+Switched to using semver
+Switched to using semantic versioning
+Code review updates
+use OS fonts to reduce file size
+[gost] Added github.com/blang/semver and its dependencies
+Squashed 'src/github.com/blang/semver/' content from commit fe545f5
+Code review updates
+adjust logging level in tarfs to avoid confusing
+reapply pac file only if there's new direct hosts
+more meaningful name for detector
+getlantern/lantern#2296 Refixed after bad merge
+turn off and on to let PAC file take effect
+update direct access hosts to pac file for speed optimization
+âsend addr to chan when a direct connection closes without error
+avoid breaking out of register loop on PostForm error
+tighter scope for dialer
+friendly error messages when testing without required env vars
+resetProxiedClient godoc
+fix comment
+comments on HostFn and deprecated Host, where they're used
+testing fixes
+update envvars.bash.enc with new secrets
+update README with new env var names for secrets
+fixes from QA
+getlantern/lantern#2306 Added full list of fallback proxies as chained servers
+not resend non-idempotent method requests
+add comments
+allow Cloudfront when checking reportedHost
+support servers registering with port 80, assume unencrypted
+send port 80 to peerdnsreg if running unencrypted
+update ListenAndServe in flashlight unit tests
+update copyright in LICENSE
+We don't need releasetool anymore.
+Squashed 'src/github.com/google/go-querystring/' content from commit d8840cb
+Squashed 'src/github.com/google/go-github/' content from commit 7ea4ee6
+Squashed 'src/github.com/getlantern/autoupdate-server/' content from commit b2de4c4
+Squashed 'src/github.com/kr/binarydist/' content from commit 9955b0a
+Squashed 'src/github.com/kardianos/osext/' content from commit ccfcd02
+finish loadHosts logic for Cloudfront, pending QA
+utility to check whether a host is ready to participate in DNSimple roundrobins
+add dspgroups
+Updating documentation.
+fix misunderstanding: `name`s were not fully qualified
+introduce host.dspRecord and some related functionality
+minor renaming
+Adding message for testing whether the patching succeeded or not.
+remove global hostsByName, rename hostsByIp->hosts
+rename group(s) -> cflGroup(s), to make room for DNSimple groups
+make room for dnsimple in main
+add details to main file comment
+Adding script for generating assets for testing.
+Updated cocoasudo to support OSX 10.6 closes getlantern/lantern#2297
+uniformize credential names
+minimal unit tests for dsp
+remove old hardcoded and leaked credentials
+[gost] Added github.com/getlantern/aws-sdk-go/aws and its dependencies
+Squashed 'src/github.com/getlantern/go-dnsimple/' content from commit 6f8bebe
+make this compile again after merge carnage
+[gost] Added github.com/getlantern/aws-sdk-go/gen/cloudfront and its dependencies
+Squashed 'src/github.com/vaughan0/go-ini/' content from commit a98ad7e
+Squashed 'src/github.com/getlantern/aws-sdk-go/' content from commit d94a7d4
+comment iran detection rules
+set detour country to iran
+add detour test to travis
+Updating autoupdate to work with autoupdate-server.
+update proxiedsites to detour whitelist once lantern.yaml changes
+merge valencia
+add README
+refactor code and tests
+Made proxy addr in pac file dynamic
+add trace
+bug fix
+clean up
+bug fix
+update test for iran
+update test prompt
+add tests
+Removed peerscanner_linux_amd64 binary
+Restored proxiedsites to correct version
+Squashed 'src/github.com/getlantern/proxy/' changes from 8e430d7..5c39a61
+Squashed 'src/github.com/getlantern/proxiedsites/' changes from 33aa72f..b4fc115
+Squashed 'src/github.com/getlantern/pathreflect/' changes from 3e7b0e6..5a84f4b
+Squashed 'src/github.com/getlantern/appdir/' changes from 6e5aa6a..6e9e003
+Squashed 'src/github.com/getlantern/deepcopy/' changes from 6ca5d81..5b37e86
+Squashed 'src/github.com/getlantern/chained/' changes from 1be1d6b..fd3c3fa
+Squashed 'src/github.com/getlantern/bytecounting/' changes from 49e163a..a672d58
+[gost] Added github.com/getlantern/buuid and its dependencies
+Squashed 'src/github.com/getlantern/buuid/' changes from 248cea1..43f979e
+Squashed 'src/github.com/getlantern/fdcount/' changes from 8c6e363..be4f757
+Squashed 'src/github.com/getlantern/idletiming/' changes from b614bc6..0e09328
+Squashed 'src/github.com/davecgh/go-spew/' changes from 1aaf839..fc32781
+Squashed 'src/github.com/getlantern/golog/' changes from 29b4121..5245e76
+Squashed 'src/github.com/getlantern/enproxy/' changes from a8e5b54..8e48af0
+getlantern/lantern#2296 Ignoring extra flag from OS X when running from quarantined
+Updating osext import path.
+code review update
+add preventive code in case no prefix added
+change prefix to 'flashlight.logging'
+extract only last 2 chunks to message
+add unit test
+extract prefix and truncate messages to 100 chars
+closes getlantern/lantern#2288 Added headless mode for lantern
+improve golog
+refactor
+add test
+bug fix
+Remove build badge because travis.ci uses a non-standard GOROOT that breaks TestTrimRuntime.
+Report value of GOROOT when test fails.
+Add baseline benchmark.
+getlantern/lantern#2284 Hiding hostname from logs
+getlantern/lantern#2285 Added additional logging when geolookup fails
+getlantern/lantern#2285 Only logging geolookup error as error if we've failed a lot
+bug fix
+init and dump whitelist
+more bug fix
+âclean up again
+more reliable version
+Clearing record after removing from rotation
+getlantern/lantern#2280 Not registering peers, registering fallbacks as peers instead
+fix unchanged name
+clean up
+just works
+Removed peers from cloud.yaml
+Added back peers at weight 0
+getlantern/lantern#2278 Added additional Google Talk ports
+Removed peers
+Code review fixes
+integrate into flashlight
+Squashed 'src/github.com/getlantern/rotator/' content from commit 97947be
+Removed dogenzaka rotator
+pass tests
+detect timeout
+Updated favicon to be 32 pixels, closes getlantern/lantern#2272
+Moved build and run onto one line
+prototype to detour
+Squashed 'src/github.com/getlantern/detour/' content from commit f75a9ea
+Clearing registration information irrespective of whether or not deregistering works
+Including more ip prefixes as fallbacks, closes getlantern/lantern#1739
+Not merging cloud configuration if it's unchanged
+peerscanner logging updates
+simple run script closes getlantern/lantern#2277
+getlantern/lantern#2274 getlantern/lantern#2276 Cloud configuration fixes
+double wait time in TestWaitUntilNoneMatchTimeout
+only save pac prompt icon on darwin
+Cleaned up exit logic in flashlight.go
+Added error handling to nonStopWriter
+genconfig with google domains
+add simple script to genconfig
+add google domains to genconfig
+revert to NonStopWriter
+make password prompt shorter to fit in one line
+exit if pac tool not properly setted up
+Ran genconfig
+Switched to using nl.fallbacks.getiantem.org and made peers a smaller percentage of rotation
+getlantern/lantern#2210 Peerscanner now maintains country-specific fallback rotations
+Using bzip compression for Lantern.dmg
+Removed unnecessary Visual Studio files
+Updated README to reflect that 32bit works too
+first shot at description
+.gitignore vim swap files
+update README, make lintian a bit happier
+Updated Quit() comment
+Signed systray dll
+fix on linux
+script to make ubuntu installers
+add loggly token to linux compile
+remove tray icon before quit app
+Took out tooltip placement attribute
+Moved goroutine into logging, fixed timezone reporting
+Removed country tooltips, closes getlantern/lantern#2265
+Dynamically picking masquerade on each dial of direct fronted client
+Rebuilt DLL with static linking and also signed it
+getlantern/lantern#2232 Code review fixes
+Always udpating dist with tagAndBuild
+Removed excess symbol from date format string
+Moving underlying HTTP client inside loggly.Client struct.
+Adding some clarifications.
+converting pacUrl to wchar_t and fixing http:// prefix for pac url closes getlantern/lantern#2260
+Improved validation in build scripts for windows code signing
+Added space before parenthesis in version string
+display current version of lantern in the UI
+No need to use RWMutex.
+Adding mutex to protect Configure and removing unused httpClient.
+Squashed 'src/github.com/getlantern/go-loggly/' content from commit b13ac8b
+Configuring loggly proxy based on flashlight's settings.
+Uninstall improvements
+Moving logging to its own package, so we can add a Configure() func to it.
+linux_compile fixes
+linux_compile fixes
+linux_compile fixes
+linux_compile fixes
+linux_compile fixes
+Pulling in country information from geolookup
+Adding more information for uninstaller
+Code review updates
+Removed eventsource
+Comment update on KillProcess
+Code review fix
+Took out intentional failure
+Switched statserver to use websocket closes getlantern/lantern#2045
+Code review fixes
+load share scripts dynamically
+Auto install improvements
+Auto install improvements
+Autoinstall improvements
+Switched app icon to new look
+Revert "getlantern/lantern#2255 Updated icons"
+Took out english log messages
+Windows 8 testing, localization tweaks, killing existing process
+Kill lantern.exe on uninstall
+Kill old lantern.exe process at install time
+Language selection dialog
+Script dies if nsis fails
+Built windows binary and signed
+Added ability to uninstall from add/remove programs
+Packaging windows as installer
+Updated app.icns
+Updated app.icns
+Updated remaining icons
+tagandbuild.bash now builds the Windows and OS X distributions
+getlantern/lantern#2255 Updated icons (not yet complete set)
+Putting icon in consistent, and short, location
+Squashed 'src/github.com/getlantern/filepersist/' content from commit e91ecde
+Code review fixes
+Code review fixes
+remove outdated vis block code segment
+Added nil guards for hqfd
+Removed console.log of messages
+Some bug fixes
+fix positioning of fb and twitter logos
+ui.envelope and ui.Envelope structs were very similar, let's use just one.
+It's no longer useful to launch geolookup.StartService in a goroutine.
+Renaming LookupCity into LookupIPWithClient, I think it's more clear what is does now.
+Merging https://github.com/getlantern/flashlight-build/pull/84.
+Protecting services map.
+Protecting SetHTTPClient with a mutex.
+Sending existent clients the hello message of the new service before adding a new one.
+Removing unused property and changing log.Debugf to log.Error.
+pass flashlight test
+rename pac.exe to pac before generate go code
+pac on windows as a gui program
+Hiding details of envelope from services
+Passing httpclient to geolookup call
+Better messaging around auto tool install
+Auto-installing gulp
+README update
+Installing rsrc instead of go getting it
+Squashed 'src/github.com/akavel/rsrc/' content from commit e48dbf1
+Removed rsrc
+Updated .gitignore
+DMG building changes
+Right aligned version string
+Added dmgbackground.svg
+show self icon on the map after geolocating
+show self icon on the map after geolocating
+Passing configuration to statserver is not required anymore since we used it for tunneling requests and now that's done within the geolookup package itself.
+This commit adds the following functionality to flashlight:
+Squashed 'src/github.com/getlantern/geolookup/' content from commit 1de70c9
+clicking 'Lantern' shows welcome screen
+Note about spurious compiler warning
+clicking 'Lantern' shows welcome screen
+Not enabling Loggly if there's no logglyToken
+set local storage (or cookie) key to only show welcome screen once
+set local storage (or cookie) key to only show welcome screen once
+Checking dist folder in to soruce control
+Optimizing build a little
+Made printout of translations a trace level thing
+Switched back to using skratchdot/open-golang
+Squashed 'src/github.com/skratchdot/open-golang/' changes from ba570a1..c874831
+Removed getlanten/open-golang
+fix positioning of fb and twitter logos
+fix positioning of fb and twitter logos
+add welcome screen
+add welcome screen
+add welcome screen
+report lang, country and time zone to loggly
+code review updates
+pass loggly token during compilation
+convert lantern.ico to .syso so we can embed it in windows exe
+add comment
+switch flashlight to use getlantern/open-golang
+use rundll32 to open url on windows
+Squashed 'src/github.com/getlantern/open-golang/' content from commit 40c15a1
+not add timestamp to loggly
+merge valencia
+Pac integrated, still need to do better on the shutdown logic
+Squashed 'src/github.com/getlantern/byteexec/' content from commit 1206fd5
+Adding pac support
+Squashed 'src/github.com/getlantern/pac-cmd/' content from commit 215b327
+Squashed 'src/github.com/getlantern/elevate/' content from commit 534f443
+Squashed 'src/github.com/getlantern/pac/' content from commit d2d68ee
+Code review fixes
+Added reference to cross-compilation ticket to README
+Code review fixes
+Code review fixes
+Restored logic for figuring out local resources directory
+Switched to minified angularjs-websocket
+Code review fixes
+Made local resources relative to GOPATH
+Code review fixes
+Update README.md
+Update README.md
+Added linuxcompile script
+Generating dist folder at crosscompile time
+Removed dist folder
+Squashed 'src/github.com/getlantern/lantern-ui/' content from commit 2dada07
+Removed lantern-ui
+Moved ui to lantern-ui to facilitate pushing with gost
+Optimized embedded of resources with tarfs
+Removed big resources.go from Git
+Squashed 'src/github.com/visionmedia/go-debug/' content from commit ff4a55a
+Squashed 'src/github.com/segmentio/go-loggly/' content from commit e78f697
+remove submodules
+Removing resources.go from Git
+Changed Open to Show
+Always show UI if uiaddr is set
+Added Show Lantern system tray link
+Using localized strings for systray
+Squashed 'src/github.com/getlantern/jibber_jabber/' content from commit 9a39595
+Squashed 'src/github.com/getlantern/i18n/' content from commit b777d49
+Added ability to get sub filesystems
+Removed checked in executables
+ignore errors when writing log
+send error logs to loggly
+Error handling fix
+Comment updates
+Removed unused utility functions
+Added Linux note to README
+Vendored set.v0
+Removed set.v0
+Renamed http.go to ui.go
+Removed dead code
+Refactoring flashlight ui
+always proxy fetching of config updates when running as client
+add missing unit tests
+add missing unit tests
+remove settings button and contact link
+Refactoring flashlight ui
+Refactoring flashlight ui
+[gost] Added github.com/gorilla/mux and its dependencies
+Squashed 'src/github.com/gorilla/context/' content from commit 215affd
+Squashed 'src/github.com/gorilla/mux/' content from commit 8a875a0
+Refactoring flashlight ui
+fix open external url
+Refactoring proxiedsites
+Added default cloud proxiedsites to binary
+Vendored gopkg.in/fatih/set.v0
+Squashed 'src/github.com/robertkrimen/otto/' content from commit c2346f4
+[gost] Added github.com/gorilla/websocket and its dependencies
+Squashed 'src/github.com/gorilla/websocket/' content from commit ab5b3a6
+remove reset button
+move uiaddr check outside of goroutine
+fix issue with http server call
+Enabling CGO on cross-compiles
+some refactoring
+remove addition and deletion entries
+remove addition and deletion entries
+move proxied sites channel out of ui server
+move proxied sites channel out of ui server
+move proxied sites channel out of ui server
+only apply delta deletions that exist in cloud list; otherwise just remove from add set
+Setting patch type as update.PATCHTYPE_BSDIFF.
+Added peers back to default set of fronted servers
+Documenting releasetool.
+Showing usage when no value for -source is provided.
+only apply delta deletions that exist in cloud list; otherwise just remove from add set
+fix bug reloading config
+fix bug updating UI textarea
+fix bug updating UI textarea
+fix bug updating UI textarea
+fix bug updating UI textarea
+fix bug updating UI textarea
+fix bug updating UI textarea
+clean up UI server comments
+clean up UI server comments
+fix initialization of proxied sites list in UI
+fix initialization of proxied sites list in UI
+Added function to Fronted for direct fronting
+fix http listenandserve call
+add support for multiple UI instances
+add support for multiple UI instances
+add support for multiple UI instances
+Attempt at making LinePrepender.Write more readable
+Updated comment on wfilter.LinePrepender and updated test to include buffer with only a newline
+Revert "do...while() version of wfilter Write()"
+do...while() version of wfilter Write()
+Eliminated need to buffer lines
+Added LICENSE to systray
+Added back all original test packages
+Moved apt-get into install
+Travis build now installs Linux systray build dependencies
+getlantern/lantern#2204 Created OS X dmg installer and script for signing windows build
+fix bug and correct ordering
+bump up max proxied sites in textarea
+add comments to initial write global list call
+clean up proxiedsites update()
+websocket updates
+websocket updates
+websocket updates
+websocket updates
+websocket updates
+Removed nattest from testpackages.txt
+Switched to more compact timestamp log format
+Logging fixes from code review
+websocket updates
+Preventing non-fallback ips from getting registered as fallbacks
+Tracking down some issues with non-fallbacks getting registered as fallbacks
+Always using direct IP for fallbacks
+websocket updates
+websocket updates
+Added wfilter to unit test
+Closes getlantern/lantern#2238 Added timestamp to files
+websocket updates
+websocket updates
+Back to v90 toolset
+remove needless string copy
+refactor strPtr to strUTF16
+Added comment to strPtr
+Making a copy of strings passed in from Go, and hanging on to reference on Go side until after call to DLL is finished
+Added comment to strPtr
+getlantern/lantern#2238 Added appdir to testpackages
+Added tarfs to testpackages
+getlantern/lantern#2238 Added logging to files with size-based log rotation
+Squashed 'src/github.com/stretchr/testify/' content from commit efa3c4c
+Squashed 'src/github.com/dogenzaka/rotator/' content from commit 97947be
+Squashed 'src/github.com/getlantern/appdir/' content from commit 6e5aa6a
+[gost] Added github.com/getlantern/wfilter and its dependencies
+Squashed 'src/github.com/getlantern/wfilter/' content from commit 65b2d3d
+Changed panic to log.Fatalf
+Made path formatting consistent
+Removed installer support
+Removed installer support
+Removed installer support
+getlantern/lantern#2216 Changed isDuplicateError
+More details in error logs for failed registrations
+getlantern/lantern#2216 Bypassing registerint to rotation when unnecessary
+getlantern/lantern#2216 Increased log level of already registered message
+getlantern/lantern#2216 Updated unit test
+Closes getlantern/lantern#2216 Tracking and managing orange cloud status separately from dns record
+rename whitelist to proxiedsites everywhere
+rename whitelist to proxiedsites everywhere
+rename whitelist to proxiedsites everywhere
+Squashed 'src/github.com/getlantern/proxiedsites/' content from commit 33aa72f
+rename whitelist to proxiedsites everywhere
+rename whitelist to proxiedsites everywhere
+rename whitelist to proxiedsites everywhere
+rename whitelist to proxiedsites everywhere
+move ui configuration into parent config
+revert to using os/user in util common
+fix UI capitalization
+fix file exists comment
+fix file exists comment
+update comment in get user home directory
+update comment in get user home directory
+update comment in get user home directory
+update firefly list
+check for user home directory
+remove unused LoadTemplate function
+remove unused LoadTemplate function
+check for user home directory
+check for user home directory
+check for user home directory
+check for user home directory
+check for user home directory
+check for user home directory
+fix error formatting
+Made crosscompile output binaries named lantern
+Updated crosscompile and README
+Squashed 'src/github.com/davecgh/go-spew/' changes from 83f84dc..1aaf839
+Squashed 'src/github.com/getlantern/systray/' changes from b1f1cea..d4b66f0
+Squashed 'src/github.com/getlantern/golog/' changes from 059b4ce..29b4121
+Squashed 'src/github.com/getlantern/systray/' changes from edf929c..b1f1cea
+remove angularjs scenarios
+Squashed 'src/github.com/getlantern/ui/' content from commit 743dfb1
+dont update pac file on subsequent GET requests
+dont update pac file on subsequent GET requests
+update comment style
+update comment style
+update comment style
+update comment style
+Squashed 'src/github.com/getlantern/tarfs/' content from commit c54f93f
+Squashed 'src/github.com/getlantern/golog/' changes from 059b4ce..29b4121
+Squashed 'src/github.com/getlantern/systray/' changes from edf929c..6a81309
+Updated crosscompile script to only do Windows and OS X
+revert masquerades file
+remove UI from initial PR
+add UI back in
+Squashed 'src/github.com/getlantern/ui/' content from commit 743dfb1
+add UI back in
+Squashed 'src/github.com/getlantern/ui/' content from commit 46df5b5
+add UI back in
+Add 'src/github.com/getlantern/ui/' from commit 'e736e07bd14cbd9bc508049dbe43d4c331407686'
+remove some packages taking up a ton of space
+remove some packages taking up a ton of space
+push whitelist code upstream
+Squashed 'src/github.com/getlantern/whitelist/' content from commit dbf1c4f
+remove some UI dependencies
+remove some UI dependencies
+remove AWS SDK temporarily, to try and suppress git noise for the preliminary PR
+remove some UI dependencies
+remove some UI dependencies
+remove some UI dependencies
+remove some UI dependencies
+remove some UI dependencies
+remove some UI dependencies
+remove some UI dependencies
+remove some UI dependencies
+remove open golang
+remove open golang
+Add 'src/github.com/getlantern/ui/' from commit '8f4055aec1cdd86047db368668bbffa3198ea429'
+remove open golang
+remove open golang
+remove open golang
+remove some UI dependencies
+remove some UI dependencies
+remove otto package
+remove set package
+don't enable cdn in noCdn records
+check for error updating YAML config
+Squashed 'src/github.com/getlantern/ui/' changes from a7807ea..700cf49
+flashlight: multifronting interactions with peerscanner
+Adding a copy of the autoupdate package.
+Adding a fork of github.com/inconshreveable/go-update that supports proxied requests.
+fix issue with openui flag
+fix issue with openui flag
+fix issue with openui flag
+remove gorilla
+use mutator to save updated yaml config
+use mutator to save updated yaml config
+use mutator to save updated yaml config
+basic hostFn test
+merge tarfs
+merge tarfs
+update genconfig to read directory of whitelist files
+update genconfig to read directory of whitelist files
+update genconfig to read directory of whitelist files
+slightly less strict header matching
+fix two merge mistakes
+allow empty -frontfqdns, meaning the same as a missing one
+update genconfig to read directory of whitelist files
+update genconfig to read directory of whitelist files
+update genconfig to read directory of whitelist files
+update genconfig to read directory of whitelist files
+move whitelist config into separate struct
+move whitelist config into separate struct
+support cloudfront (includes no-cdn entries)
+change order of arguments to cfr.CreateDistribution
+naming convention change: cf->cfl
+Removed references to natty and waddell
+NSIS rough draft working, added initial batch file for building on windows (missing signing and error handling)
+Iterating on nsis install
+Iterating on nsis install
+Iterating on nsis install
+Iterating on nsis install
+Iterating on nsis install
+Iterating on nsis install
+Iterating on nsis install
+Iterating on nsis install
+Iterating on nsis install
+Iterating on nsis install
+Iterating on nsis install
+Iterating on nsis install
+Iterating on nsis install
+Iterating on nsis install
+Iterating on nsis install
+Iterating on nsis install
+Iterating on nsis install
+Iterating on nsis install
+Iterating on nsis install
+First attempt at nsis installer
+add open UI flag
+fix issue propagating flashlight.yaml changes to whitelist
+fix issue propagating flashlight.yaml changes to whitelist
+Add 'src/github.com/fatih/set/' from commit '7b667b7b6a5d81d40a152d968b10e0e873fac404'
+changes reading cloud yaml and merging lists
+Add 'src/github.com/fatih/' from commit '7b667b7b6a5d81d40a152d968b10e0e873fac404'
+changes reading cloud yaml and merging lists
+changes reading cloud yaml and merging lists
+add whitelist to cloud.yaml
+Updated app url
+[gost] Added github.com/getlantern/tarfs and its dependencies
+Squashed 'src/github.com/getlantern/tarfs/' content from commit 55b7218
+Switched to using tarfs
+clean up http server configuration
+fix hardcoded domain
+provide origin domain to CreateDistribution
+test RefreshStatus, kind of
+test for creation
+.gitignore vim swap files
+cloudfront lib passing List test
+Squashed 'src/github.com/getlantern/aws-sdk-go/' content from commit d94a7d4
+WIP prior to gost-getting the AWS SDK
+Added ability to build installer dmg for OS X
+add genassets script
+add subtrees and initial commit
+add subtrees and initial commit
+Added codesigning resources to gitignore
+Created Mac AppBundle template
+Notes 2014-12-01
+Integrated systray
+Defaulting to client mode on port 8787, not using peers (for reliability)
+Squashed 'src/github.com/getlantern/systray/' content from commit edf929c
+add subtrees and initial commit
+Add 'src/github.com/skratchdot/open-golang/' from commit 'ba570a111973b539baf23c918213059543b5bb6e'
+Add 'src/github.com/robertkrimen/otto/' from commit 'dea31a3d392779af358ec41f77a07fcc7e9d04ba'
+Add 'src/github.com/getlantern/ui/' from commit 'a7807ea4754bf4dc92364a4f1744d1a23df21cef'
+Add 'src/github.com/getlantern/whitelist/' from commit 'dbf1c4f0c13edcf9be20407d016eb222eba99a6e'
+Initial commit
+Adding the ability to use a proxy for update checks and downloads.
+Changing import paths.
+remove unused css
+clean up whitelist resource
+clean up whitelist resource
+clean up whitelist resource
+clean up whitelist resource
+clean up whitelist resource
+add gen assets script
+fix whitelist management modal
+remove extraneous controller definitions
+remove extraneous controller definitions
+remove extraneous controller definitions
+remove extraneous controller definitions
+remove extraneous controller definitions
+initial commit
+initial commit
+Implementing periodical cloud configuration polling over naked and proxied network.
+Updating instructions for building on a Mac.
+Added ability to wait for condition in fdcount
+fix peer hover area distortion
+getlantern/lantern#1739 peerscanner now verifies host in response from proxies
+fix peer hover area distortion
+getlantern/lantern#1739 peerscanner now verifies host in response from proxies
+Update README.md
+Attempt to fix race condition with a lingering CLOSE_WAIT.
+Added duplicate checking
+Added retry of fdcount.Assert with exponential back-off
+increase radius to decrease distortion
+increase radius to decrease distortion
+increase radius to decrease distortion
+Code review fixes
+update rootscope apply check
+remove apply call every time we update the model
+.gitignore vim swap files
+simplify hostFn
+fix error message
+improve argument docstring, change it in README
+fix case problem, make checking more robust
+multi-front sticky routing (working, pending unit tests)
+A bit of styling on the README.md file.
+Notes for running inside an emulator.
+Few notes for building on a mac.
+Turns out the case for a wrapper for a net.Listener (what was that case!?) does not apply here.
+fix styling issues
+Implementing test as in testRequest() from flashlight_test.go.
+fix styling issues
+Changing export status of error messages that can't be used outside the package.
+Adjusting export status of Config, now it's unexported and fixing pending newListener changes.
+Making type for describing certificate authorities unexported.
+Also, there is no need to export newListener.
+There is no use in Listener being exported.
+AddFrontedServer was not actually required.
+Using a more appropriate file name for Listener definitions.
+Reversed file descriptor debug info in error message
+Dumping connection trace if file descriptor count in enproxy test fails
+ui-select changes
+ui-select changes
+Made connectAndRead concurrent
+remove i18n filter
+remove i18n filter
+remove i18n filter
+More timer fixes
+Timer fixes
+Updated comment for Pool
+Removed redial logic from pooled
+Being more aggressive about checking hosts
+Removed outdated comment
+remove synchronous ajax request in version file
+remove synchronous ajax request in version file
+remove synchronous ajax request in version file
+remove mouseenter and mouseleave event on friends search box
+add custom code to display cancel button in search input for FF
+Removed unused GetRotationRecords function
+fix search input
+fix search input
+fix search input
+make search input styling consistent across browsers
+Code review update
+getlantern/lantern#2196 Added support for MinQOS configuration
+update search bar width to match white list
+update ui-select
+Brought peers weight back down to 1/4 of fallbacks
+Brought default peer QOS back down to 2
+Switched connpool, fronted and chained to using interfaces for true immutability of configuration
+Made configuration of ConnPool immutable
+Updating README.md to describe the new lantern-android addition.
+Copying lantern-android.
+replace map center icon with data URI
+fix click target issue on narrow screens
+Only using direct ip for fallbacks
+More logging, timing out test after ttl
+Removed redundant roundrobin rotation
+Applied pan constraints to button-based zoom as well
+Replaced i18n filter with translate filter
+Recalculating width and height whenever constraining pan
+Constrained panning off map
+Never stopping host actor anymore (avoids race condition
+Tweaks
+Made max masquerades and poolsize configurable
+Tweak to logging freshening
+Making connpool lazy rather than eager
+Actually starting connection pool in fronted
+Accepting two types of forwarded-for
+automatically display new get mode peers
+automatically display new get mode peers
+automatically display new get mode peers
+automatically display new give mode peers
+update opacity of give mode dots
+reduce opacity slightly of give mode icon
+this fixes the black icons that were appearing for give mode users because of an undefined 'mode' field
+fix typo in angular translate syntax
+add missing translate module and bower components
+Switched to custom forwarded-for header
+client side changes to show raspberry pi lantern addresses in settings
+Finally fixed connection leak
+Squashed 'src/github.com/getlantern/track/' content from commit ca103ea
+add panning boundary constraints back in
+Faster test execution
+More testing to figure out file descriptor leak
+Setting Close to true on CloudFlare requests
+Removed unnecessary cloudflare library tests
+Updated README
+Removed unnecessary setDeadline in reading response to request
+Revised connection tracing output
+Smaller buffers and moved open tracking
+Another attempt at dealing with FD leak
+Another attempt at dealing with FD leak
+More efficient removal from rotation
+Aggressively closing body on decoding
+Added TLS session caching on CloudFlare connections
+Another tweak to the closing sequence
+More file descriptor leak tweaking
+Another shot at fixing memory leak
+Enabled deregistering of peers
+Switching to real rotation names in preparation for production
+Better error reporting for peer registration
+Added ability to flashlight to register with peerscanner
+Closing initialRequestCh from conn_impl_requests instead of conn_impl_writes
+Removed default NewRequest
+Made Conn package private
+More docs on tracing connection state
+Moved environment variables for tests into script
+Updated travis builds to 1.4.1
+Added encrypted environment variables for CloudFlare testing
+Cleaned up Dial function
+Updated fronted test
+Added info about TRACE_CONN_STATE to README
+Enproxy working pertty darned well
+Added connection state profiling, made progress on cleaning up close sequence
+Closing connection on fail
+Cleaned up NewRequest default
+Maybe fixed test
+Removed log from test
+Factored out idling logic and just using idletiming
+getlantern/lantern#2178 Added doneWritingCh
+getlantern/lantern#2178 Rationlized enproxy Close processing
+disable selection on footer
+fix position of magnifying glass in search bar on FF
+remove popup delay since it interferes with zooming
+disable selection on footer
+disable selection on footer
+getlantern/lantern#2178 Added test and fix for leaking connections
+Squashed 'src/github.com/getlantern/fdcount/' content from commit 8c6e363
+fix friends suggestion number
+Back to using http.Client
+add lantern pi changes
+Better file descriptor diff reporting
+Removed resource leak by not following redirects
+Created profiling utility
+Checking file descriptors in unit test
+Updated lsof output to show delta only
+Switched ot using new profiling library
+Squashed 'src/github.com/getlantern/profiling/' content from commit e1bdf80
+Started work on profiling support
+Disabled keepalives in test http client
+Disabled keepalives in test http client
+Added error handling for http.Serve
+Caching TLS sessions on client
+Made peerscanner listen using TLS
+Updated testpackages
+Comment updates
+Comment updates
+Comment updates
+Comment updates
+Deregistering old name on name change
+Reporting status from next test, keying to ip rather than name+ip
+Basically working
+Refactored version compiles
+Making progress on refactor
+In progress
+Added original peerscanner files back
+Added cf to testpackages
+Squashed 'src/github.com/pearkes/cloudflare/' content from commit b6d679e
+Squashed 'src/github.com/motain/gocheck/' content from commit 9beb271
+Squashed 'src/github.com/getlantern/cloudflare/' content from commit 1e54e20
+Squashed 'src/github.com/getlantern/cf/' content from commit 544eb2a
+Squashed 'src/github.com/getlantern/peerscanner/' content from commit 00a2cff
+getlantern/lantern#2148 Removed unnecessary assignment
+getlantern/lantern#2174 Made connection pooling on fronted optional
+add slight delay before showing popups to make panning smoother
+fix dev mode change language
+fix dev mode change language
+fix dev mode change language
+fix dev mode change language
+remove show lantern changes
+remove show lantern changes
+Added LICENSES to those projects that needed them
+pull map boundary clipping temporarily
+fix positioning of tooltips
+fix resizable directive
+Switched to golang.org/x/tools/cmd/cover
+Cleaned up dialing interface on enproxy
+getlantern/lantern#2164 Switched to staticlly linked version of upnpc, built from http://miniupnp.free.fr/files/download.php?file=miniupnpc-1.9.20141128.tar.gz
+getlantern/lantern#2162 Allowing port 5222
+getlantern/lantern#2165 Interrupting read/write processing if a request fails
+getlantern/lantern#2162 Slight performance optimization on comparing allowed ports
+getlantern/lantern#2162 Renamed method to server.checkForNonGlobalDestination
+getlantern/lantern#2162 Improved test coverage
+getlantern/lantern#2162 Restricted outbound access to just ports 80, 443, 8080 and 8443
+fix truncated 'x' in whitelist management and friends modals
+add angular translate changes
+add angular translate changes
+latest round of fixes
+latest round of fixes
+Upgraded remaining projects to Go 1.4
+Changed distinctClientIPs to distinctClients
+Changed distinctDestAddrs to distinctDestHosts
+getlantern/lantern#2148 Added stats for distinctClientIPs and distinctDestAddrs
+getlantern/lantern#2148 Added ability to track members
+fix when auto-report usage msg is displayed
+add some additional comments to make zoom functions clearer
+getlantern/lantern#2117 Cleaned up onIdle/onClose terminology
+getlantern/lantern#2117 Comment update
+getlantern/lantern#2117 More close cleanup
+getlantern/lantern#2117 Ensuring that close callback is called when Close() was called
+getlantern/lantern#2135 Defaulting empty port to 0
+Writing to connIn when responding with BadGateway after hijacking connection
+getlantern/lantern#2117 Shifted responsibility for closing connections from idletiming.Conn to client of idletiming.Conn
+getlantern/lantern#2117 idletiming.Conn now closes the underlying connection after idling, also cleaned up a few other items and the unit test
+getlantern/lantern#2117 Added utility for counting file descriptors
+getlantern/lantern#2117 Switched to utility for counting file descriptors
+getlantern/lantern#2117 Added utility for counting file descriptors
+Squashed 'src/github.com/getlantern/fdcount/' content from commit fb59a06
+Synchronized access to connMap
+getlantern/lantern#2121 Breaking out of loop when timeout occurs before deadline set for idle timeout
+getlantern/lantern#2121 Synchronizing access to read and write deadlines, fetching them only once at the beginning of our loops
+Always setting cpuprofile and memprofile based on command-line
+getlantern/lantern#2135 Switched to using net.SplitHostAndPort
+getlantern/lantern#2135 Switched to using net.SplitHostAndPort
+getlantern/lantern#2135 Switched to using net.SplitHostAndPort
+getlantern/lantern#2135 Switched to using net.SplitHostAndPort
+getlantern/lantern#2134 Added timestamp to cpu and memory profiling files
+getlantern/lantern#2121 Idletiming checks type of timeout error (read vs write)
+getlantern/lantern#2121 Reduced CPU usage in waitforserver by increasing sleep time on each loop
+getlantern/lantern#2121 Making sure trace logging terminates gracefully
+Updated gonative command example
+getlantern/lantern#2122 Code Review Updates
+revert to original 'Show Lantern' default behavior for other browsers
+Making sure to close connIn and connOut in chained Server
+Added test for dialing after closing a balancer
+Made balancer Close method remove closed dialers
+getlantern/lantern#2122 Moved destport dim to bytesGiven instead of bytesGivenTo
+getlantern/lantern#2122 flashlight server now tracks bytesGivenTo by client country and destination port
+getlantern/lantern#2122 Added more information to stat callbacks in enproxy
+Only adding default fronted server if no fronted and no chained servers present
+getlantern/lantern#2118 Added flserver reporting dimension for flashlight servers
+Waiting longer for server in test to come up
+Reordered code
+Took out unnecessary (and broken) pipelining support
+Comment update
+Package comment update
+show lantern changes
+Made logic for picking random dialer more readable
+Updated comment
+Removed unnecessary copy
+Clarified QOS sort order
+Changed logger domainfronted to just fronted
+Comment update
+Log update
+getlantern/lantern#2114 Added ability to run server unencrypted
+getlantern/lantern#2108 Adding small delay after starting servers to give them time to finish initializing
+add zoom buttons back
+fix zoom buttons
+fix zoom buttons
+fix zoom buttons
+fix zoom buttons
+getlantern/lantern#2105 crosscompile now uses tag for latest commit id if available, else just uses latest commit id
+Replaced log with golog and added some trace logging
+Moved coverage reporting into after_success part of lifecycle to avoid having coveralls issues break the build
+getlantern/lantern#2102 Removed arm from cross compilation
+Updated genconfig to accomodate new config structure
+Added TLS session resumption to chained proxies
+getlantern/lantern#2065 Updated README to discuss embedding upnpc
+getlantern/lantern#2065 Added recent upnpc binary for OS X (version 1.0.20141027) along with script for embedding it and the original binary that was used for embedding
+Added setenv.bash
+getlantern/lantern#2083 Switched travis builds to use golang.org/x/tools/cmd/cover
+getlantern/lantern#2083 Updated flashlight README to reflect switch to go 1.4
+getlantern/lantern#2083 Switched travis builds to Go 1.4
+Updated .gitignore
+Updated testpackages.txt to reflect new/removed packages
+getlantern/lantern#2065 Added timeout determineInternalIP in flashlight, along with comment exlaining what this function does
+getlantern/lantern#2065 Added timeout to upnpc call in go-igdman
+Squashed 'src/github.com/getlantern/fronted/' content from commit 68e7d2e
+Squashed 'src/github.com/getlantern/proxy/' content from commit 8e430d7
+Squashed 'src/github.com/getlantern/chained/' content from commit 1be1d6b
+Squashed 'src/github.com/getlantern/bytecounting/' content from commit 49e163a
+Squashed 'src/github.com/getlantern/balancer/' content from commit b8e5517
+Squashed 'src/github.com/getlantern/flashlight/' changes from 97941f3..e954cca
+Updated badges in README
+Added README
+getlantern/lantern#2081 Removed arm from cross-compile
+Updated testpackages.txt to include new packages for natty
+Removed gopkg.in stuff
+Squashed 'src/github.com/getlantern/yamlconf/' changes from 3e41924..93e279c
+[gost] Added github.com/getlantern/flashlight and its dependencies
+Squashed 'src/github.com/getlantern/pathreflect/' content from commit 3e7b0e6
+Squashed 'src/github.com/getlantern/yamlconf/' content from commit 3e41924
+Squashed 'src/github.com/getlantern/yaml/' content from commit 41a435d
+Squashed 'src/github.com/getlantern/tlsdialer/' content from commit dc2d575
+Squashed 'src/github.com/oxtoacart/bpool/' content from commit 0f78ff9
+Squashed 'src/github.com/getlantern/tlsdefaults/' content from commit 03d5e3a
+Squashed 'src/github.com/getlantern/buuid/' content from commit 248cea1
+Squashed 'src/github.com/getlantern/waddell/' content from commit d80bb3d
+Squashed 'src/github.com/getlantern/go-natty/' content from commit 2e686dd
+Squashed 'src/github.com/getlantern/nattywad/' content from commit 13aa3dc
+Squashed 'src/github.com/getlantern/deepcopy/' content from commit 6ca5d81
+Squashed 'src/github.com/getlantern/flashlight/' changes from f7b7af9..97941f3
+Added travis support
+[gost] Added github.com/getlantern/flashlight and its dependencies
+Squashed 'src/github.com/getlantern/keyman/' content from commit 9c722e2
+Squashed 'src/github.com/getlantern/framed/' content from commit aeabd58
+Squashed 'src/github.com/jackpal/go-nat-pmp/' content from commit a45aa3d
+Squashed 'src/github.com/getlantern/withtimeout/' content from commit 9fae8b6
+Squashed 'src/github.com/getlantern/byteexec/' content from commit 50402f3
+Squashed 'src/github.com/getlantern/go-igdman/' content from commit 6503795
+Squashed 'src/github.com/getlantern/eventsource/' content from commit 9cd55e3
+Squashed 'src/github.com/getlantern/idletiming/' content from commit b614bc6
+Squashed 'src/github.com/getlantern/enproxy/' content from commit a8e5b54
+Squashed 'src/github.com/getlantern/waitforserver/' content from commit 7baa5a0
+Squashed 'src/github.com/getlantern/testify/' content from commit f46c550
+Squashed 'src/github.com/getlantern/golog/' content from commit 059b4ce
+Squashed 'src/github.com/getlantern/connpool/' content from commit 0eac82a
+Squashed 'src/github.com/davecgh/go-spew/' content from commit 83f84dc
+Squashed 'src/github.com/getlantern/flashlight/' content from commit f7b7af9
+[gost] Initialized .gost
+[gost] Initialized .gitignore
+add map center button
+add map center button
+add map center button
+only show 'Usage' message in finished modal if checkbox is checked
+use hand for tooltips
+remove webview conditional for attaching zoom listener
+hide advanced/configure proxy settings under give mode button
+hide text underneath report anonymous usage
+enable zoom in/zoom out buttons
+upgrade to angular 1.3.6
+differentiate between chrome and webview when applyinging zoom behavior
+update zoom button styling
+update zoom button styling
+update zoom button styling
+fix collapsible section in get access settings
+prevent arc widths from reseting
+show country popup at mouse pointer
+scale self dot
+add plus/minus buttons
+add plus/minus buttons
+add plus/minus buttons
+add plus/minus buttons
+add plus/minus buttons
+add plus/minus buttons
+updating license
+fix dot resizing
+fix alert background color
+fix issues with collapsible sections
+fix panning behavior
+fix panning behavior
+fix styling issues
+fix styling issues
+fix styling issues
+remove ui bootstrap
+remove ui bootstrap
+fix #self dot display
+fix resize issue
+fix resize issue
+better tooltip positioning
+fix fill opacity
+faint arcs as you zoom in
+add center map icon
+add center map icon
+add center map icon
+additional formatting changes
+add back missing CSS attribute
+update js modules
+update js modules
+change to use ng-show directive
+change to use ng-show directive
+change to use ng-show directive
+fix popover issues
+committing correct bower.json
+committing correct bower.json
+committing correct bower.json
+Link to docs for newest API from master branch.
+Update README on master for release of v1 API.
+Simplify.
+Use local array instead of slice pool inside stack.Trace.
+More decisive comments.
+Add TrimRuntime to example.
+Improve README.
+Improve speed of Call.Format.
+Improve support for older versions of Go.
+Support versions of Go prior to the addition of sync.Pool.
+Return all paths to github.com for use on master branch.
+Adjust paths in example.
+Replace fragile code with a constant.
+Add Travis CI badge.
+Add Travis CI configuration.
+Add README.
+Improve documentation and add example.
+Improve test coverage.
+Change Call to a struct to cache the results of runtime.FuncForPC and add func Caller().
+Special handling for stack entries above runtime.sigpanic.
+Initial import from github.com/inconshreveable/log15/stack.
+Create LICENSE.md
+Replaces url to godoc badge in the readme
+zooming and panning UI pull
+zooming and panning UI pull
+zooming and panning UI pull
+Adjusted linux open-code to assume existence of xdg-open.
+adding updated translations
+adding updated translations
+getlantern/lantern#1724 Made port mapping alert only show up on startup or after network status changes
+typo
+getlantern/lantern#1724 Added concept of background notifications which are hidden as long as a modal is visible
+getlantern/lantern#1724 Added concept of background notifications which are hidden as long as a modal is visible
+getlantern/lantern#1724 Made alerts show up behind modals
+Added custom angular directive for compiling html in notifications getlantern/lantern#1706
+fixed message closes getlantern/lantern#1695
+fixed comma
+Added browser error message
+Added strings for manual port mapping
+getlantern/lantern#1602 Only updating total bandwidth when instanceStats has changed
+getlantern/lantern#1602 Not adding flashlight stats to countries
+getlantern/lantern#1602 Increased timeout for considering peer connected
+getlantern/lantern#1602 Added flashlight stats to UI
+test: fix relying on ordered map keys
+Update README.md
+Update to Go version 1.3
+Improve error reporting (again)
+fix intersection with two sets
+fixes #6 - (Windows) open.Start does not correctly handle URLs with ampersands
+test demonstrating bug in intersection
+Improve error reporting
+fix CheckAndApplyUpdate to always apply the update if one is available and not worry about initiative which is the common case
+Value.string(), .float64(), .bool(), etc.
+Add mutex locking for .Copy()
+go vet
+The zero value of Value is now defined to be undefined
+Minor cloning adjustments
+Simplification & refactor of (parts of) the runtime
+Use _runtime.toValue() instead of func toValue()
+Implement strings without value16
+go fmt
+fix silly crash
+better check API
+add feature list
+more doc improvements, gofmt
+improve the documentation with lots of examples
+doc formatting
+improve spinner logic
+revert 6d8b53e (getlantern/lantern#1523)
+better godoc
+fix deserialization of patch properties in the check. go fmt
+add license
+better spelling for when to show "self" dot
+fix getlantern/lantern#1523
+fix markdown syntax error
+Adding check for geo ip resolution before displaying point for self on map getlantern/lantern#1522
+better background
+Added new connecting message and color
+fix a bug where a signature without a publickey could cause panic + test
+try to fix doc formatting
+better API documentation
+Made welcome modal depend on connectivity.ip instead of connectivity.internet
+fix for assignment into nil map
+Update documention to mention natto
+terst
+terst
+add file hiding for windows
+fix bugs where invalid checksum/signatures didn't cause update failure. add tests for almost all public APIs in update package
+start computing default checksum if none specified. stop ignoring the patchtype passed to ApplyPatch
+terst
+update readme
+fixes for verify functions, reorganize the APIs a little bit
+update translations
+Add internal compilation step
+Disable script marshalling/unmarshalling for now
+Add Script marshalling/unmarshalling
+Tighten test comparisons instead of squashing everything to a string
+Add compilation (Script, vm.Compile, etc.)
+refactor and redesign the go-update API to be more flexible and easier to understand
+Skip unexported fields, begin json.Marshaler support
+Simplify the commandline client (otto)
+Add ability to parse []byte, *bytes.Buffer, io.Reader
+Tighten test comparisons instead of squashing everything to a string
+New parser
+don't try to show stats before they've loaded
+Add Object.Keys()
+Update README.md
+Issue 14. Created a more simplified New()
+Revert to v0.1.0
+Move to gopkg.in. Closes #20
+Update README.md
+Ran gofmt on files. Added self to contributors
+disable tests until we can get them working again
+update npm deps
+correct translation of "Ukrainian"
+tx pull --minimum-perc=99
+getlantern/lantern#1427 Including old stats
+getlantern/lantern#1427 Including old stats
+getlantern/lantern#1427 Stats tweaks for UI
+getlantern/lantern#1427 Integrated new stats with UI
+Reflect our new multiple intersection function
+Implement first version of multiple Intersections
+Reflect recent changes to Readme.
+Stop checking against 1.0.3 for release
+Add ability to call struct methods
+getlantern/lantern#1427 Updated to work with new statshub api
+getlantern/lantern#1427 Moved StatshubAPI into common
+getlantern/lantern#1427 Starting to update UI to work with new stats infrastructure
+change file hiding in windows to an api call
+make old binary a hidden file on windows since it can't be easily deleted
+improve logic to link to forum in user's language when available
+newnewNode => newNewNode
+Add compile-time checks for interface compliance.
+Added no config message
+Catch up to addition of Set.New()
+More tests for .Copy()
+Make sure to set the Otto/runtime dependency when copying
+terst
+Guard against _nilGetSetObject sneaking in
+Clarify AccessorDescriptor logic in DefineOwnProperty even more
+Can set a setter/getter if absent (8.12.9 / 10.a.ii.1)
+Preserve existing get/set unless explicitly undefined
+If set === undefined => writable = false
+Call getter/setter if property is AccessorDescriptor
+Provide early warning of missing functionality (set:/get:)
+improve show sign-in spinner logic
+fix missing quote
+rtl fixes
+friend suggestion fixes
+ditch copyright in about modal
+add and enable ru_RU
+update es
+fix changeLang for langs with multiple dialects
+update uk_UA
+add and enable uk
+add and enable ar
+update zh_CN
+update fr_CA
+update cs
+update fr_FR
+update ca
+update de
+only show free-to-friend suggestions when out of quota
+rm "prompt to friend contacts running lantern" setting
+allow hiding friend suggetions
+fixes #2
+Use build tags instead of checking platform at runtime.
+Write a more faster intersection method.
+Forgot to add document
+Add New() for ts struct too
+Add a new "New" method to the Interface
+Add note about setTimeout/setInterval
+Add ability to interrupt the runtime
+Add link to godoc.org
+Add JSON
+Add objectLength
+Add intersection tests
+hide installer url from updateAvailable modal
+fix language code for uk_UA
+add and enable uk_UA
+Fully implement multi-argument setHours/setMinutes/setFullYear/...
+Document problematic date/time behavior
+Add tests for Array.prototype.map
+Add tests for Array.prototype.forEach
+Add tests for Array.prototype.some
+Add tests for Array.prototype.every
+Test the genericity of Array.prototype.indexOf
+Update README.md
+Move some methods off of the Interface and into standalone functions.
+update es
+update pt_BR
+update de
+update fr_FR
+update fr_CA
+update nl
+update ca
+Shift nots tests into their own test file.
+Rewrite package docs accordingly.
+Move nots set into its own file.
+Shift ts set tests into separate file.
+Shift threadsafe Set into separate file.
+Handle non-numeric arguments to new Array properly
+improve forumUrl logic
+link forumsUrl to forum for user's language, translate prompt in contact modal
+add and enable de
+update pt_BR
+update nl
+update ja
+ltr for lang switcher menu
+enable new locales fr_CA, ca, cs
+update zh_CN
+update fa_IR
+add cs
+add sv
+add ca
+add fr_CA
+update sk
+update es
+update fr_FR
+first pass at rtl layout fixes getlantern/lantern#1269
+Introduce set, a common baseline for both non-ts and ts Set variants.
+Update .travis.yml to use Go version 1.2
+Just copy/paste all tests from ts set over for non-ts set.
+Introduce SetNonTS and bring it to implement set.Interface.
+Allow .bind to bind [[Construct]]
+Add caller and arguments properties to functions via .bind
+Add test for .binding something that is not callable
+Remove superfluous test
+Idiomatic go: use defer for mutex unlocks.
+Add Sam Boyer to Credits
+Add godoc for new Each() method.
+gofmt fixes spacing in closure calls.
+Improve arguments property handling
+Make Date.now test less flaky
+Updated toValue to properly handle nil pointers (dancannon)
+Corrected a few typos.  Added invalid url for TestStartWith as it seems was intended.
+fix typo
+don't submit friend interaction when out of quota...
+use $scope.model rather than window.model reference
+last fix for expanding friend search input logic
+more improvements around friending limits
+add ng-focus and ng-blur to our vendored angular
+fix spelling of ng-show="model.friends populated"
+allow domains > 4 chars in email addresses
+show topbar when model.profile.email is populated
+tooltip when friending a suggestion would count against limit
+mock backend logic for friend quota, ui improvements
+s/friend/suggestion
+add "suggested because friended you" reason
+conditionally disable friend suggestion 'add' buttonr
+Add set equality and subset benchmarks.
+Introduce a Set interface and refactor to meet it.
+Add Each() method.
+try json decoding diagnosticInfo before submitting
+ui improvements for getlantern/lantern#1314
+#1282 Permitting add of friend suggestions with freeToFriend == true
+show spinner for 10s after clicking sign in
+revert d4f483d getlantern/lantern#1282
+disable add/remove friend controls while awaiting result of previous call
+show spinner while awaiting result of add/remove friend
+revert a95ccd
+small style tweak
+only set focus to select2 when not disabled
+fix case
+restore friend counts when search is inactive
+disable add button in suggestions when out of quota
+implement friend quota ui + misc. improvements
+close getlantern/lantern#1287
+#960 Added spinner while waiting to determine internet connectivity
+Update README.md
+closes getlantern/lantern#1161
+suggested friends ui tweaks
+reduce max-width of .vcard entries in friends modal
+update french translations
+add japanese translations
+update portuguese translations
+update spanish translations
+add swedish translations
+update chinese translations
+add slovak translations
+update persian translations
+add dutch translation
+remove dependency on angulartics and jquery waypoints
+update to latest angular-translate
+update to latest d3
+update to latest angular-ui-select2
+update to latest select2
+update to latest lodash
+detect ie and display warning via js
+add warning if IE is detected
+#1212 Suppressing display of IP addresses on map except when in dev mode
+Rename package to set and some go vet/lint fixes
+closes getlantern/lantern#1173
+Adding missing backend string
+Update README.md
+show tag of current version in version update modal
+comment out model.version.installed.api check
+#1151 Code review updates
+pull latest translations and reenable
+make sure to populate displayedFriends on first switch from suggestions
+#1151 Added close button when Lantern back-end has disappeared
+Add Godoc badge
+minor updats for version update notifications getlantern/lantern#992
+revert some friends modal changes in b906ce70
+#1074 Added ids for Selenium testing
+use https jitsu link
+pull and enable french translations (thanks yann)
+filter more data from default reported state
+close getlantern/lantern#1078
+adding back friend error messages
+improvements and fixes to backend strings
+update screenshots
+style improvements
+update mock scenarios (location, version)
+allow toggling between suggested and current friends
+more translated strings for backend
+More backend messages
+Added more backend messages
+fix friends modal vertical overflow on ubuntu
+fixes for friends not yet loaded spinner
+set focus on give/get access button on welcome screen
+fix display of add friends widget when !nfriends
+improvements to lantern friends modal
+Adding backend tray strings
+deprecate go-execpath and switch to osext
+copy tweak
+fix lantern friends modal content vertical overflow
+upgrade to latest d3 and lodash
+improvements to lantern friends modal
+closes getlantern/lantern#1034
+add bitdeli badge to readme
+#944 Prevent displaying negative user counts on countries
+'syrian arab republic' -> 'syria'
+add no autoreport warning to finished screen
+show 'loading friends...' while model.friends is undefined
+update to d3 3.3.5
+update to lodash 2.1.0
+improve docs
+improve docs
+update readme docs on testing
+rm outdated docs from readme
+update outdated docs in readme re bower + select2
+make "try another user" button primary
+fix a bug which caused updates on windows to fail if the program had already updated once before
+ditch 'dev mode'/'mock backend' next to version in footer
+remove reminder to make sure backend sends "" for Modal.none
+improve dev langchooser design
+refactor ga management into gaMgr service, fix some logic
+don't send a final "end session" track event when user disables analytics
+use documented analytics optout method, track different modals as different page views
+fix issue where global stats would not appear
+loop with lodash to guard against 'undefined has no property...' errors
+enable google analytics for users that don't opt out #12
+update to latest angular-translate (1.1.0)
+yellow highlight overrides green or orange background on friend list entry hover
+improve design of friends list
+improved active global nav button styles
+update reportedState filter to schema changes
+improve margins in settings modal
+numerous copy/design/UI improvements
+add additional variants of Roboto
+restore "waiting for lantern" spinner
+hide friends search box when nothing to search
+fix CI (path to lodash)
+update some dependencies
+fix typo on New()'s test.
+#884 Calculating global peers by summing countries
+colorize friend connected statuses in friends modal
+friend connected status optimization
+update friend connected status on peers change
+show connected status of friends in friends modal
+#903 Eliminated self-loop line crossing
+changing url to new one to refresh github image cache.
+implement proxied sites list tip suggestions
+Minor cosmetic fix [ci skip]
+Add examples for multiple set operations
+Add Union() and Difference() functions for multiple sets
+share proxied sites tip, "contributing" -> "get involved"
+Clarifying code for self-loops
+Clarifying code for self-loops
+Adding self-loops for #903
+Add example for Pop() method [ci skip]
+Add Pop() method
+Added kbutton to help people clone their repos
+update link from webkit bug to chromium bug now that blink happened
+update fa_IR, add zh_CN translations
+extract email from input in friends modal
+improve search ui for friends and proxied sites
+support searching friends list
+fix select2 focus after adding a friend
+Escape peerids for use in CSS selector using the cssesc library
+fix select2 focus after adding a friend
+fix invalid chars in peerids
+PEER_UPDATE_INTERVAL and COUNTRIES_UPDATE_INTERVAL variables
+docs tweak
+packaging fixes for nodejitsu
+don't call size() on leading edge of throttle time
+resize broadcast tweaks
+swallow 'digest already in progress' errors on resize
+reposition self dot on map resize
+Moved update of projection to pre-broadcast call to avoid ordering dependency issues
+fix peers on null island regression
+Added comments for d3-ified map rendering
+D3-ified version for overnight test
+Intermediary step on d3-ification
+Updated readme
+copy/paste error (used bps where we meant bytes)
+use DEFAULT_AVATAR_URL variable rather than hard-coding
+show search field when proxiedSites modal is shown
+comment out 'help translate' link
+comment out sponsor links for now
+fix debug logging in tests for reals
+fix debug logging
+auto-focus on select2 in lanternFriends modal via directive
+don't show offline warning in footer before model is populated
+set focus to prompted element on each modal
+copy: consistent case in Lantern PC labels in vis
+copy(lanternFriends): more improvements to call to action
+copy(authorize > more info): move 'direct from google' to new para
+more about modal tweaks
+style improvements
+improvements to about modal
+Added note about logging in to google
+Attempt for more clear language in adding sites.
+Less 'mode' references, replace 'pc' with user
+make external links work with mock backend on nodejitsu demo instance
+Changes suggested by pants
+Forgot the word 'access'
+Changed wording of getting access
+More of a call to action on friends intro
+More natural language for 'mode'
+update to latest select2 with fix for ivaynberg/select2#1614
+Add a heavy goroutine based to tests. And remove wrong description of Clear()
+stop getandupdate if there's no update available
+Remove defers for upcoming wip fixes
+close progress channel in GetAndUpdate() if sanity check fails
+improved go-update's API by separating out a function for downloading as well as downloading and updating. added a function which simply checks if an update is available but does not try to apply it. added a pre-update sanity check which verifies permissions are correct
+add more info links to sponsor modals
+fix tests
+refactor + various improvements
+add back accidentally removed PAC_FILE_LOC translations
+add missing enum field SETTING.showFriendPrompts
+small refactoring
+get rid of karma deprecation warning
+update dependencies (using latest bower (1.1.2))
+bind to 127.0.0.1 rather than 0.0.0.0 by default, ditch angular-google-analytics
+Change for a simple return and small cosmetic fixes.
+Create LICENSE.md
+Cosmetic fix [ci skip]
+Make Add, Remove, Has to work with multiple items
+Cosmetic fix [ci skip]
+Add test functions
+simplify example
+Snippet should be in go
+Add travis badge to show build status
+Use go: 1.1 for travis build
+Add travis and set_test
+Use struct{} because it doesn't take any space
+Improve readme.md
+Add example
+Add type assertions helper functions
+Add comparison methods
+switch to new karma config format
+sponsorToContinue modal
+Improve readme.md
+Add Copy() method
+Add Set operations like Union, Symmetric Difference, and so on.
+Small typo fix
+Change package description
+Improve example
+Add AddAll() and change Len() to Size() (which is a better word)
+Cosmetic fix
+Update README.md with examples and information
+Initial commit
+RangeError if Array.length = 3.141, new Array(3.141), etc.
+copy, design, and i18n tweaks/improvements
+AUTHORIZE_LANTERN -> SIGN_IN
+show stats on welcome screen
+first pass at sponsor modal, misc. ui tweaks
+update welcome screenshot
+link to anuglarjs code standards
+add @oxtoacart to credits
+expand hoverable area around peers, brighten on hover
+updateAvailable modal tweaks
+toInteger: Add integerFloat
+add i18n documentation
+https://www.transifex.com/projects/p/{lantern-ui -> lantern}/
+don't return an error when no update is available
+add new Available attribute on Download that indicates whether the server has a new update
+go-update now works on windows, support for all three major platforms complete
+gofmt
+progress works properly when downloading gzip-encoded updates. range header continues to be sent across redirects. path manipulation now works on windows
+[[Value]] should NOT be set to Undefined if missing
+Test DefineOwnProperty (Array)
+8.12.9: Keep [[Value]] if not explicitly given
+8.12.9: Reject instead of just returning false
+transifexification
+Remove extra/invalid constructors (inline)
+Include property names when inlining
+update channel now works as promised
+first pass at moving translations into json
+copy: email use disclosure on authorize modal
+shorter example url in the docs
+add readme, remove Restart() function as it is not a feasible implementation at the moment
+initial commit of update library
+Add Number.toLocaleString
+Add String.toLocaleUpperCase
+Add String.toLocaleLowerCase
+Add Otto.Copy()
+Add String.trim (robertkrimen)
+Refine parts of builtin_array.go
+Add String.localeCompare
+Add Date.now()
+Add String.prototype.trim(), and non-standard trimLeft(), trimRight()
+copy tweak
+dependency maintenance
+ditch system proxy modal from initial setup
+specs(connectivity/nproxies) + warning when nproxies == 0
+copy fix
+temporarily switch to custom build of angular-bootstrap
+world.json -> world.topojson
+copy tweak
+vis design tweaks
+reimplement and improve several vis elements, refactor
+restore darkening of censoring countries
+switch to angular-bootstrap 0.4.0 release
+don't show peers on null island
+hopefully fix build, update to node 0.10 on travis-ci
+copy improvements
+friend.status.requested -> pending
+version
+clear previous error before trying again, not on success
+revert minor version bump in 4300343e7
+update to select2's latest revision of master
+Add Array.reduceRight (sdgoij)
+Add Array.reduce (sdgoij)
+Add Array.filter (sdgoij)
+Add Array.map (sdgoij)
+Add Array.forEach (sdgoij)
+Add Array.some (sdgoij)
+add friend ui improvement
+showFriendPrompts setting, bump version to 0.1.0
+second pass at new friends modal, update specs
+frst pass at new friends modal, fix validation
+Change handling of undefined in .Export
+Array.concat does not require length be a Uint32
+rewrite vis using angular directives, include app/components
+Add Array.every (sdgoij)
+Add toValue_* for more straightforward value conversion
+Add Array.lastIndexOf (sdgoij)
+Add Array.indexOf (sdgoij)
+Add Array.toLocaleString
+Add RegExp.compile
+Add Date.toJSON
+Add Date.toISOString (sdgoij)
+copy tweak from 6d277dee
+better email regex pattern
+bowerify angular-ui and angular-ui-bootstrap
+bowerify first set of dependencies
+update .gitignore
+Implement return/break/continue without panic/recover
+hardcode dir="ltr" on about and contact modals
+About/Contact persian strings
+persian fixes
+vendor compass_twitter_bootstrap, ruby 1.8 compat
+smaller splash image
+fixing typo in readme
+Embiggen test for #24
+Inline context initialization & improve _object.value
+initial commit
+Tidy tests (make release, make check, etc.)
+Prevent otto.Value from becoming a _goStructObject
+version bump to 0.0.9
+add some missing i18n to footer
+re-enable lang chooser in dev mode, enable farsi
+Add Object.getOwnPropertyNames (sdgoij)
+Add Date.toDateString, Date.toTimeString
+Constantize buildinDate_to*String layout
+last few single quote typo corrections
+removed stray single quotes
+Added Persian translation
+Add enumeration for Arguments (argumentsEnumerate)
+Add Object.keys (sdgoij)
+Allow (internal) enumeration through _every_ Object property
+Add Error.prototype.message
+Use defineOwnProperty (not put) for Array (literal) initialization
+Improve type_go_* behavior
+Handle Ptr properly in type_go_*
+Handle struct, map, & array/slice in exportNative
+suggest reinstalling lantern on settingsloadfailure
+Handle toReflectValue of interface{}
+style tweak
+add commented out firebug lite reference
+Edit documentation
+Remove throw behavior from Otto.Call
+Add Otto.Call
+Handle ToValue(nil)
+A Value panic during a FunctionCall is the same as a throw in JavaScript
+Add FunctionCall.Otto
+Remove FunctionCall.Run
+Add FunctionCall.Run
+Consolidate run/runSafe into _runtime
+Add Object.seal (sdgoij)
+Revamp property mode bit fiddling (write, enumerate, configure)
+No rush to change the interface of Value.Export()
+Change Export() to have new interface and slightly different behavior
+add splash screen
+Add Object.freeze (sdgoij)
+Rewrite of property handling to be more robust and compliant
+upgrade favicon: include 64x64 version, use blue lantern
+make friending the prompted action rather than inviting on lanternFriends modal
+version bump to 0.0.8
+ditch showVis from specs
+numerous design and copy improvements, including show vis during initial setup
+copy tweaks
+work around angular-ui/bootstrap#407
+Mock location as UTC for date testing
+Add Object.isSealed & Object.isFrozen
+Add check for testing against the release version of Go
+version bump to 0.0.7
+mode-specific copy on finished modal
+copy, style, and interaction design tweaks
+Add Object.isExtensible & Object.preventExtensions...
+set focus to textareas appropriately, misc fixes
+specify and implement new "url" interaction for opening external links
+first pass at search field for proxied sites list
+Add Object.toLocaleString
+Do not throw a TypeError when trying to set global, ignoreCase, source, etc.
+After a successful global RegExp.exec match, index shift the result
+Partially implement new Object(...)
+Another RegExp test
+Set the prototype of Math to the global object prototype
+Use RegExp._RegExp.Flags when doing new RegExp(RegExp)
+Use RegExp.source (not RegExp.toString) when doing new RegExp(RegExp)
+Cannot supply flags when constructing one RegExp from another
+RegExp(/xyzzy/) & RegExp(/xyzzy/, undefined) will return a reference to the exact same /xyzzy/ object...
+For RegExp.exec, return the rune index in the string, not the byte index
+Make note of different RegExp behavior
+Include .input, .index in the result of a successful RegExp.exec(...)
+Make encodeURI correspond to the 15.1.3.3 algorithm and encodeURIComponent ito 15.1.3.4
+Make decodeURI correspond to the 15.1.3.1 algorithm and decodeURIComponent ito 15.1.3.2
+use .$apply(fn) rather than .$apply() for better exception handling
+copy tweak
+move mode settings below app settings (getlantern/lantern#731)
+make topnav transfer rates more prominent
+add beta to welcome modal, closes getlantern/lantern#725
+copy: proxiedSites modal (getlantern/lantern#722)
+Make parseInt behavior correspond to the 15.1.2.3 algorithm
+Parse float literals of the kind ".01", ".0..." properly
+Make parseInt behavior correspond to the 15.1.2.2 algorithm
+eval is not a constructor
+eval.prototype === undefined
+eval.length === 1
+Set the prototype of the global object to be the object prototype
+Always declare a function if an identifier is given
+Can now attach a label to a block and have it break properly
+get dev from model, not config; global state srvc
+copy: explain proxying in proxiedSites modal
+Makefile for building of otto/otto*
+copy: prompt to use gmail addresses in invite prompt
+replace blank favicon with lantern icon
+only take the first 7 chars of versionObj.git
+Slightly better error return on an uncaught panic
+tryEvaluate => tryCatchEvaluate
+Finally should still run even if Catch has break, continue, return, etc.
+HasInstance should only exist on a Function
+Make sure to evaluate (compare) in the proper order
+For DefaultValue: HintString (not HintNumber) if object is a Date
+Date(...) => string (Not an object)
+Date() => string (Not an object)
+specify, detect, and show (in footer) backend dev mode
+Improve function declaration: adhere more closely to the specification
+Make sure delete([].xyzzy) (Array) actually works
+Add Array.isArray
+Unary postfix operation: return primitive value, not object (or otherwise)
+Add Date.toGMTString
+Add Date.toLocale*String
+Add Date.setYear
+Add Date.getYear
+Add Date.UTC
+Add Date.parse
+Update dbg
+default updateAvailable to false for mock server, bump to 0.0.4
+fixed crop of white logo
+Bundle terst dependency (github.com/robertkrimen/terst)
+"testacular" -> "karma" in travis config
+correct "logs/*" entry in .gitignore
+screenshot reorg
+rename Testacular to Karma
+Remove dev tools specific files from .gitignore
+Switch to one global .gitignore
+Moved global controllers to module
+Made runner.html to use utf-8 charset
+travis-ci config for unit and e2e tests
+update CDN link index.html to 1.0.6
+fix bug when proxied sites list from backend is not normalized
+replace references to "Google Talk" with "Google"
+fixed capitalisation of Karma and links corrected
+shift to karma from testacular
+replace stats in footer with "no internet" message when /connectivity/internet == false
+upgrade to angular 1.0.6
+upgrade to angular 1.0.6 universal-irreversibility
+work around nodejitsu/jitsu#379
+fix accidentally stripped ; in d850e5e
+always export "model" to window obj for easier debugging
+bump version to 0.0.3 post-tag
+vis fixes + improvements (esp. connection arcs)
+update to d3 v3.1.4 and associated changes
+update to faye v0.8.9
+set dev to false for release
+hide peers that would otherwise be displayed on null island
+support unknown peer type, bump version
+load RESET_MODEL via require
+bump version to 0.0.2, set dev to false post-tag
+set dev to false for release
+lantern ui version fixes for 2f582e4680834f342c1ace3acec32181bb777196
+only show lastConnected for peers when we mean to
+get version from package.json
+ditch queue for fetching world.json
+update to lodash 1.1.1
+fix position of tooltips near the bottom edge of the window
+refactor LigatureSymbols usage
+ditch -webkit-font-feature-settings: "liga" 1, "dlig" 1, fixes #40
+update to ligaturesymbols 2.11
+pluralization for footer stats
+npeers->nusers in country tooltips
+country stroke and scenario improvements
+precautions against pacUrl instability (getlantern/lantern#618)
+fix initialization of country tooltips
+only show lastConnected for self when we mean to
+fix systemProxy == false bug in systemProxy modal
+fix position of tooltips near the right edge of the window
+cache some dom selections
+ditch disabling "send" on contact modal when the textarea is pristine
+unexpectedState handling
+spec: /ninvites == -1 -> ninvitesUnknown
+add cloud proxy in virginia to peers scenario
+add screenshot, update reference in readme
+Add Math.abs
+Add escape/unescape
+back out https://github.com/getlantern/lantern-ui/commit/024e72c5#diff-5
+take out url change warning thanks to fix for getlantern/lantern#72
+use model value of systemProxy rather than local value to expand/collapse pacUrl info in settings modal
+fix potential field undefined issue
+spec: clarify /connectivity/lastConnected description
+use vizzuality green for "x Give Mode peers online" in country tooltip
+more informative country tooltips
+spec updates, more informative peer tooltips
+pass context: "unexpectedState" along with interactions in unexpectedState modal
+small refactor (API_URL_PREFIX)
+allow the real backend to mount the entire app under a random path for security
+use COMETD_MOUNT_POINT from constants.js in mock backend
+copy tweak
+animate arcs connecting you to peers
+ditch restart option in sanity modal, make reset button of settingsLoadFailure match sanity's
+delintification
+add "important" alert type, alias of "error" for now
+proxiedSites modal copy fix
+new notifications spec and implementation
+account for no internet on welcome modal
+warn that pacUrl changes when Lantern is restarted
+fix vis issues
+ui and code improvements
+copy/ui tweaks, accommodate long pacUrls
+workaround for getlantern/lantern#587
+link to docs and forums from contact modal
+ux improvements: settingsLoadFailure, autoReport
+flesh out package.json
+settingsLoadFailure and sanity modals improvements
+restore validity reset on proxiedSites input
+switch to animated gif spinner, closes #37
+switch to ui.bootstrap.alert
+use ui.bootstrap.tooltip instead of twitter bootstrap's
+hack ui.bootstrap.tooltip to always animate and append to body
+copy tweak
+fix for angular-ui/bootstrap#197
+update to angular ui bootstrap 0.2.0
+correctly maintain "setupComplete" state
+Add Number.toPrecision
+Add Number.toExponential
+numerous code and ux fixes and improvements
+cherry pick fix for ivaynberg/select2#581
+new app "config" object, move "dev" setting there
+serve wof with the right mimetype
+further specify, implement, and use /exception API
+show profile pictures for matches in invitee results, ux improvements
+css fix for select invitees input
+SyntaxError => ReferenceError
+make censoring countries' outlines less transparent when they have users online
+Can delete an undefined reference
+color censoring countries darker
+copy tweaks
+Add Object.getPrototypeOf
+privacy
+move use of default avatar responsibility to the backend
+Set callee property of Arguments object
+use vizzuality green in more places on map
+fixes + improvements to invite friends ui
+fix display of settingsLoadFailure modal, offer restart instead of quit
+serve ttf with the right mimetype
+style improvements
+cleanups/improvements to spec and code:
+Add Function.bind
+escape < and > in specs
+allow different notification types (#10)
+notifications (#10), add /interaction/invite, lanternFriends modal improvements
+specify placement: "bottom" for self tooltip
+tooltips for self and peers
+Enumerate (consistently) in definition order
+use common name for Russia, add "sent" and "received"
+update proxiedSites list on click continue
+country tooltips with stats positioned by mouse
+first pass at popovers for countries
+use common names of countries
+translate projection down 6% more for better centering
+Establish eval execution context with the global object
+Differentiate between direct and indirect eval
+basic pluralization for i18n filter
+comment out changes in updateAvailable modal
+tweak credits on about modal
+fix display of notInvited modal, cut requestInvite
+lanternFriends modal cuts
+copy improvements
+ditch explanation of autotrusted roster contacts
+better proxyAllSites ux
+ng-[x, y, d, ...] workaround directives no longer needed
+Add Math.round
+Add Math.sqrt
+Add Math.tan
+Add Math.sin
+Add Math.log
+tweak footer copy
+ditch settings.email, use model.profile.email
+mock scenario fix, meant to go in cc8a9fae
+note "lanternController" -> "showSpinner" idea
+small fixes (reportedState filter, cursor on footer links)
+update peers spec, tweak map style
+add connectivity.lanternController to spec
+draw self and peers in d3, firefox fixes
+move personal stats from footer to topbar; style
+ditch pan, zoom, and orthographic for now; style
+hide antarctica
+Added link to clickstart
+draw countries in d3 (faster, transitions)
+Remove cruft from arguments
+Rework _reference interface to correspond to ECMA more closely
+pan on drag for mercator
+allow toggling between projections
+add back mercator
+Object, Function, String, TypeError, etc. are not enumerable
+NaN, Infinity, undefined, etc. are not be enumerable
+Functions declared in a function should replace parameters
+Add _argumentsStash, with better conforming arguments behavior:
+major vis improvements
+Switch function environment to be declarative...
+Mutable bindings should not be deletable by default
+Add Math.cos
+Add Math.atan2
+Add Math.atan
+Add Math.asin
+Add Math.acos
+Shuffle builtinMath_*
+Streamline Math.ceil
+Streamline Math.floor
+Add Math.exp
+Strip leading 0s from exponent
+Fit number (exponent/decimal) formatting to ECMA-262 (slightly better)
+Use math.Copysign for unary negation
+Split builtin.go out to builtin_*.go
+update angular to 1.0.5
+vis: try out orthographic projection
+Add floatToString and streamline toString
+update to lodash 1.0.1
+Add _integer and _toInteger
+Better testing for toUint16/32/Int32
+toU16/U32/I32 => toUint16/Uint32/Int32
+style fixes and improvements, specify and use pacUrl
+Add future keywords checking
+update to jquery 1.9.1, fix tests
+style improvements, bug fix
+update to lodash 1.0.0
+major work on vis and footer
+progress replacing Twitter bootstrap with http://angular-ui.github.com/bootstrap/
+small tweaks
+update specs
+refactor mock backend, accept --skip-setup flag, merge "bayeuxProtocol" and "httpApi" version fields into single "api" field
+update specs about json patch
+tweak cometd reconnect params
+proper javascript `Error` usage
+ditch editable developer textarea for model
+rewrite getByPath to use JSONPointer, cleanup helpers
+switch to more up-to-date jsonpatch lib, fixes
+first pass at switching to JSON PATCH
+upgrade to faye 0.8.8
+Add Number.toString
+Split tests out of one big massive file
+Prevent slurp of underscore entirely if disabled
+Upgrade underscore to 1.4.4, including tests
+workaround for angular/angular.js#1050
+Add remarks about ToValue & Otto.ToValue
+Add Go <=> JavaScript type interaction
+Reorganize (type_*) code layout
+Add delete to type_array
+color countries by type of peers online
+fix bug in random peersCurrent mutation
+use localized country names and show stats in country titles
+allow reset when SKIPSETUP == true
+major vis progress
+add randomChoice helper
+specs: names for peers, prettyUser filter, titles for points on vis
+vis: add connections between self and peers
+compare equality rather than reference in $watches
+tweaks to settings modal
+fix typo and tests
+update readme
+first pass rewriting vis, misc cleanups
+fix font paths, ditch unused ProximaNova font
+upgrade to compass_twitter_bootstrap 2.2.2.2
+Remove remarks about UTF-16 incompatibility
+pull angular 1.0.4 update from angular-seed
+support proxied sites list global nav in backend
+add "location: nyc" scenario
+Convert string to utf16 for length, indexing, etc.
+Adjust Makefile (test-synopsis)
+Recognize erroneous "\x..", "\u...." as errors
+Move test262 & more into a separate distribution
+wip vis tweaks to work better with d3v3
+gofmt
+comment out langchooser, ditch tooltip on oauth modal button
+add proxied sites list button to global nav
+Minor .test262 adjustments
+upgrade to angular 1.0.4
+first pass at replacing Twitter bootstrap's js with http://angular-ui.github.com/bootstrap/
+wait for POST to finish before redirecting
+SPEC installerSHA1, updateAvailable modal improvements
+update readme
+nav button style tweaks, icons in corresponding modal titles
+sass reorg
+upgrade to d3v3 (wip), gobal nav button visibility (wip)
+use select2 fixes for invite friends, closes #21
+apply fix for ivaynberg/select2#567
+apply my patch from ivaynberg/select2#702
+welcome design
+advanced proxy settings ui improvements, switch to html5 details element
+ditch app.advanced settings, move reset to footer
+add ligaturesymbols font, use for global nav
+fix path to jquery in testacular config
+global nav + lanternFriends design improvements
+fix reference error
+dependency gardening
+ditch webshims, update to latest angular-seed (angular 1.0.3)
+rm extra angular stuff
+document intention to switch to json patch
+ditch truncateAfter filter, implement via css
+updateAvailable styles
+updateAvailable UI, specs
+contact form maxlength, copy tweaks
+proxyAllSites typo, closes #35
+first pass at contact modal, add more to model.system
+use deep clone for arrays in helpers.merge
+update to lodash 1.0.0-rc3
+Improve handling of \c
+Add panic test for when property.value might be nil
+Default a descriptor value to undefined if writable is given
+Pluck out panicking tests
+Add MIT license
+don't bother sending invitees when there are none
+send object instead of array in invite request
+"autoStart" -> "runAtSystemStart"
+first pass at invite friends #21
+ninvites scenario
+specs tweaks
+"userid" -> "email"
+spec updates to stats and contacts
+authorize modal tweaks
+spec and impl. model.friends.{current|pending}, accept/decline invite
+contactDevs -> contact
+nfriends, ninvites, npending badges
+rename some fields and scenarios
+resurrect gtalkOauthUrl
+progress on i18n #6
+Update SPECS.md
+switch to single /interaction/<interactionid> api, fixes + improvements
+ditch passwordCreate and settingsUnlock from MODAL enum
+make getlantern/lantern#357 a link
+ditch lantern password, update specs
+helpers improvements + tests
+add missing ng-cloak directive
+lanternFriends, spec pending, delete field, etc.
+inviteFriends -> lanternFriends
+more wip scenarios support, ui tweaks
+more wip scenarios support
+back out patch for angular issue 1624, work around it in ScenarioController for now
+wip refactor
+workaround for angular/angular.js#1624
+fix bug in merge
+dev label, disable mock backend-requiring dev tools with non mock backend
+better fix for for angular/angular.js#1553
+more wip scenarios support, ui tweaks
+partial fix for angular/angular.js#1553
+wip scenarios support, ui tweaks
+update to webshims 1.9.4
+use ui-validate for proxiedSites, ui tweaks
+update to angular-ui 0.3.1
+spec changes for version (#11) & mock, tweaks
+upgrade to AngularJS 1.0.3 bouncy-thunder
+spec update: connectivity.{internet,gtalkOauthUrl}
+smaller default proxied sites list
+normalize proxied sites, ditch unused ipv6 pat
+Safeguard RegExp.exec against non-RegExp
+sketch out about modal
+small tweaks + fixes
+ditch global ntransfers placeholder getlantern/lantern#302
+"this._bayeuxBackend.publishSync" -> "publishSync"
+proxiedSites UI/implementation fixes + improvements
+proxiedSites ux improvements
+Expand \c replacement range to include a-z ([A-Za-z])
+Throw proper SyntaxError if unable to parse a regular expression
+URIError => SyntaxError
+toIntegerFloat(Infinity) == Infinity
+proxiedSites validation, style, and ux
+If a property is defined without a value (nil interface), define it as undefined
+Add panicking report
+various fixes and improvements
+Clean up .test262/Makefile, add test262 report mechanism
+Make note of any (test262) panics during digestion
+Digest test262 results
+Test for correct endIndex when submatching
+Calculate endIndex from last place of match, not last place of last submatch
+spec updates, more connection mocking
+use guid instead of userid, may not be unique
+fix parabola id generator
+bind vis to model + spec updates (wip)
+Add remark about vertical tab and \s
+endIndex needs to be an offset from lastIndex
+replace d3.v3 with minified version
+fixes to sanity, devctrl, etc
+add Export capability to javascript Value
+style, updateAvailable modal, update fontawesome
+Test condition in case of continue in do-while
+Make sure that Date.valueOf is an integer
+minor: typo, comment
+spec, architecture, and ux overhaul
+Accept out-of-range +/-Infinity (instead of NaNing)
+Accept adjacent commas in array literals
+Add eval flag to _executionContext
+Have _objectEnvironment pay attention to deletable
+Get variable binding a bit closer to the specification
+Implementation (and use) of _declarativeEnvironment
+Begin refactoring/simplifying _*Environment
+Simplify _environment interface
+Move getIdentifierReference
+typeof null === "object"
+Pass back result of "delete ..." (true or false)
+Pass in base value as-is, ...?
+_argumentReference => _propertyReference
+_objectReference => _propertyReference
+Take out (unused?) _primitiveReference
+remove obsolete test-server scripts
+better app version spec, show in footer
+style tweaks for '#settings a.toggle.advanced' + note to self
+cleaner hideSettings detection
+use model.dev and model.version.api
+ditch scrap
+viz -> vis
+settings modal, transfers spec, various fixes
+major stylesheet overhaul, cleanups, redesign
+first pass integrating visualization
+Rename _referenceBase => _reference_
+Corect spelling of configurable, writable
+Add toPropertyDescriptor, Object.getOwnPropertyDescriptor
+Move toPropertyDescriptor into property.go
+Add Math.E, .LN10, .LOG2E, .PI, .SQRT2, etc.
+Add Object.create, Object.defineProperties
+Beef up _property, remove _defineProperty
+copy tweak
+Add Object.defineProperty( ... )
+Move defineOwnProperty back into _object
+Cleanup of stash, property, and object
+package.json for nodejitsu, link to live demo
+initial travis-ci setup, not totally working
+check for matching API_PREFIX in http api
+factor out server mocks into their own modules
+improve copy + ux in some modals, small fixes
+Bypass a little bit more of the gauntlet (for now)
+More (complex) RegExp => RE2 transforming and tests
+Get rid of .import crutch
+Tweak .test262
+Add a few regular expression tests
+Add backreferencing "test" :(
+Swap order of found/width in lexer.read return
+Don't expose re2 regular expression via //.source
+Adjust the test262 testing environment
+Adjust test262 Makefile
+Add a String.substr implementation
+Have newNumberNode use stringToFloat
+Partial rewrite of lexer
+Add shim.js for better test262 testing
+Classify "const" as a keyword
+Classify "debugger" as a keyword
+Add rudimentary Math.pow builtin
+Add String.fromCharCode
+add 'svg' MIME type to web-server
+Update README.md file
+Update to node 0.8 : "sys" is now called "util".
+Added global flag to path replace function in handleRequest to allow more than one space (aka %20) in the name
+sync README with code
+test262: Can't handle the UTF-16 right now
+Remarks on UTF-8/16
+Convert _syntaxError to SyntaxError (eval)
+Avoid backing up when checking for line terminator
+Fill out switch, for, for-in labelling
+Add break capability to switch
+Scan FORM FEED (U+000C) as whitespace
+Scan VERTICAL TAB (U+000B) as whitespace
+Gauntlet system for test262 (run until failing)
+pull out modals and developer panel into partials
+Make sure to grab tests that "failed as expected"
+Better test262 test procedure
+Scan NO-BREAK SPACE (U+00A0) as whitespace
+WIP v8-centric, test262 suite culling
+Require identifier for declared functions
+Add test262 testing environment
+Substitute undefined for failed captures in String.replace
+Handle missing captures gracefully in String.replace
+Sometimes RegExp captures can fail, detect this
+Allow empty test/update in for statements
+Better regular expression syntax checking
+Add note about regular expression limitation
+Catch *_syntaxError
+Shortcut the production of Object.Value()
+Alter Object.Call to be more in line with .Get, .Set
+Correct import statement
+Add note about underscore to the synopsis
+Add import line
+Add Caveat Emptor section
+Add README.markdown for registry
+Add README for underscore
+Add note about the registry package
+Add documentation to underscore
+Add underscore to the commandline
+Add registry package
+Add documentation to underscore.go
+Move underscore into otto/underscore
+Don't get carried away with Markdown in godoc
+Add note about commandline otto
+Add embedding example & isolate synopsis testing
+vendor required node modules
+Adjusted commentary on evaluateIdentifier
+Change getIdentifierReference to accept a node argument
+Partially fix ReferenceError origin reporting
+Line tracking for error reporting
+update docs
+request invite workflow, form fixes
+godocdown
+Add Date.toUTCString
+setSeconds/Minutes/Hours/Date, etc.
+Use new date adjustment technique
+Implement Date.setMonth/setUTCMonth
+Always rebuild otto/otto
+Make sure to error out early on ReferenceError
+Test for not erroring out early
+Markdown-ify README
+arabic, copy + ux improvements
+Initial commit
+gtalkUnreachable & finished modals, i18n improvements
+small shared model sync cleanup
+improvements to architecture, performance, ui, etc
+update README
+"waiting for lantern" overlay styles
+fixes to signin, savePassword, changeSetting, css
+use select2 input for model.modal
+move model.settings.state into model.modal, fixes
+spec tweaks, signin modal + api, fixes
+welcome setup screen + spec tweaks (give/get mode)
+spec tweaks, set password setup screen + api
+better SanityCtrl architecture, modelValidatorSrvc
+sanity controller, developer panel, 2-way sync
+corrupt settings dialog, css fixes
+unlock settings prompt + mock api, debug panel
+sketch out i18n
+copy CONTRIBUTING and COPYING from lantern
+ditch version numbers in lib subdirs
+blockInput directive, small improvements
+Update windows scripts to use Testacular
+better cometd service, code improvements + fixes
+add junit reporter to testacular configs
+pass arguments through test.sh and e2e-test.sh
+spec for ninvites
+ditch underscore.js for lodash
+update docs
+improve wildcards in testacular configs
+switch over to using Testacular for running unit tests
+switch over to using Testacular for E2E tests
+initial commit
+add link to CDN to index.html
+upgrade to AngularJS 1.0.2
+upgrade angular to 1.0.1
+upgrading AngularJS to 1.0
+upgrade to AngularJS 1.0.0rc12
+migrate code to 1.0.0rc11
+upgrade to AngularJS 1.0.0rc11 promise-resolution
+upgrade to AngularJS 1.0.0rc10 tesseract-giftwrapping
+fix typo in sample e2e test
+upgrade to AngularJS 1.0.0rc eggplant-teleportation
+upgrade to AngularJS 1.0.0rc8 blooming-touch
+upgrade to AngularJS 1.0.0rc7 rc-generation
+update the jasmine-jstd-adapter with fixes
+various fixes
+upgrade to AngularJS 1.0.0rc6 runny-nose
+upgrade to angular 1.0.0rc5 reality-distortion
+upgrade to angular 1.0.0rc4 insomnia-induction
+upgrade to 1.0.0rc3 barefoot-telepathy
+upgrade seed to 1.0.0rc2 silence-absorption
+Update seed app
+Update jasmine to 1.1.0
+Update angular to 1.0.0-rc1
+add inlined ng:cloak definition to the async template
+remove extra ng:app from async template
+upgrade to 0.10.6 final
+upgrade to AnuglarJS 0.10.6 bubblewrap-cape
+upgrade to AngularJS 0.10.0 chicken-hands
+upgrade to angular 0.9.19 canine-psychokinesis
+upgrade to angular 0.9.18 jiggling-armfat
+upgrade to angular 0.9.17 vegetable-reanimation
+Missing semi-colons
+Update scripts for running tests
+Add jstd-scenario-adapter so we can run e2e tests with JsTD
+angular 0.9.16 weather-control
+making the windows script crlf delimited
+update readme with windows info
+improving the windows bat scripts
+Added windows .bat equivalents to .sh scripts for running tests
+add index.html to the seed layout docs
+upgrading to angular 0.9.15 lethal-stutter
+fix typo in controllers.js placeholder code
+removing display:none + ng:show from index.html
+upgrading angular to 0.9.14 key-maker
+updating angular to 0.9.13 curdling-stare
+switching scripts/test.sh from sh to bash
+improving the test-server.sh console output
+jstd 1.3.1+ and jasmine-jstd-adapter upgrade
+default to utf8 charset
+angular 0.9.12 leftover .scope call fix
+angular 0.9.12 $hover service fix
+upgrading angular to 0.9.12 thought-implanter
+move jsTestDriver.conf into config/ directory
+upgrade to angular 0.9-10
+upgrade to angular 0.9.10 and update the code with angular API changes
+updated jasmine adapter to newer version
+the initial version

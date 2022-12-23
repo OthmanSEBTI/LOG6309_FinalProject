@@ -1,0 +1,493 @@
+Changing Bullet to Horizontal Line
+Copy edits
+Add note about yarn support to docs
+Add yarn.lock file
+Add sourcemaps to the tmp folder
+Add main.js to alternative starting point page
+chore(mdl): Use MDL 1.2.1 (#891)
+chore(mdl): Use MDL 1.2.1
+Add node version 6 to travis.
+Update npm dependencies.
+Add firebase login command to deploy docs.
+README: remove unused file
+upgrade to mdl 1.1.3 and change locations as well (#877)
+remove usage of the gulp-uncss plugin (#876)
+live browser reloading on js files is missing (#867)
+Remove registration.update() (#866)
+Update sw-precache to latest
+Update README URLs based on HTTP redirects
+Use '/' in sw-precache's stripPrefix (Closes #841)
+Revert "Properly return the streams from our tasks. Otherwise bad things can happen, as in:"
+Properly return the streams from our tasks. Otherwise bad things can happen, as in: https://github.com/adametry/gulp-eslint/issues/36
+Updated the commands doc to explain SW difference
+Close #793 PR: fix small typo in the 'Configuring colors' section of mdl-sass.md.
+fix typo in readme
+update .travis.yml
+Remove unused fs module import
+Remove unused callback in del task
+Replace deprecated minifiers with gulp-cssnano and gulp-htmlmin
+Simplify the quickstart support list (#790)
+Update browser support list (#790)
+Node 0.12 it up
+Minor updates to license year.
+Readme: expand on docs and recipes
+Docs: minor typo correction
+Docs: add a file appendix.
+README: add offline-support
+Deploy: correct paths to docs
+Add appengine deployment guide
+README: Add WPT scores and minor edits.
+README: Add code linting to features list.
+Docs: add firebase deployment recipe
+Docs: add deployment index
+index.html: improve comments in markup
+Bring basic.html back up to date with index.html meta tags
+Add missing syntax highlighting for code blocks
+Docs: MDL Sass guide - address feedback
+Docs: add MDL Sass guide
+Update to MDL 1.0.6
+Add latest project artwork thx to Mustafa
+Drop extras as no longer maintained
+Drop CSS library comparison post-MDL launch
+Drop sample content from meta description
+Update devDependencies
+ignore dist/ only in the root directory
+Rework sourcemap output to fix breaking builds
+Upgrade gulp-useref version and gulp task to 3.0.
+Final task name
+Rename eslint task and simplify metafiles
+Switch over to ESLint
+Add features table
+Update to Material Design Lite 1.0.5
+Trim app/images/icons. No longer needed (#760)
+Update to babel v6 and others deps
+Typos (Closes #772)
+Update the commands doc to explain SWs
+Implements runtime SW caching for some CDN resources (Closes #771)
+Use 3000 for dev, and 3001 for dist
+sw-precache 2.2.0 changes
+Switch main.scss -> main.css
+Drop font handling. No longer needed
+Drop Roboto Condensed
+Only report HTML size in HTML task
+Don't report sourcemap size in styles and scripts tasks
+Add feature section to readme
+Minor cleanup of README
+Adds optional ES2015 support (#739)
+Remove `opn` from dependencies
+Starter year
+Move script reloading to the JSHint watch task
+Update year
+Remove unused gulp-replace plugin
+Remove unused gulp-flatten plugin
+Add opt-in ES2015 support via Babel.
+Feature: enable scroll syncing when browsers are at different breakpoints
+Making sure gulp-newer does not filter out SCSS files.
+Small comment fix.
+Add meta tag to disable tap highlight on IE8.
+Switching gulp-changed to gulp-newer.
+Add mention of Gulp recipes.
+Add some notes about the scripts task
+removed styleguide.html and added brief documention on how to choose other color schemes (Closes #736)
+drop current style guide and replace with CDN version of MDL, index updated
+make JSCS ignore the gulpfile as JSCS doesn't support ES2015
+gulpfile - add callback to the clean task
+babel was renamed to babel-core
+switched from csso to clean-css
+remove small redundant piece of code
+Remove dynamic mapping to index.html (Closes #719)
+Remove dynamic mapping to index.html
+clean up fat arrow syntax a bit more
+Update global gulp version in `install.md`
+gulpfile.js -> gulpfile.babel.js
+Small fixes to the gulpfile
+ES2015ify the gulpfile
+fix JSCS code style issue
+Address some style issues in #697
+Adding type to the manifest.json file so app install banners work
+Update gulp-sass error-handling approach
+Update gulp-sass to 2.0.0
+Bring consistency to JS style used
+Build: fix icons for gulp/gulp serve
+Refresh CSS, JS, HTML build pipelines
+Add gulp-concat for script concatenation
+Tell useref to only reference, not anything to create, final path
+index.html: tidy up comments.
+Add support for Service Worker
+Update dependencies
+Remove unnecessary rules
+Lock two deps for necessary path release (#649)
+Modify comments in title-case to sentence-case
+Update .travis.yml
+bump deps
+bump `psi`
+Using `onError`callback for Sass
+Revert "README: Remove trailing spaces"
+README: Remove trailing spaces
+Link to Sindre's npm guide
+bump deps
+fix invalid hamburger.svg
+Don't install sass
+Remove .sass-cache folder from gitignore
+bump deps
+Added HTML5 webapp manifest
+Close #537 PR: Keep dist/.git while removing everything else..
+Install docs - add tldr for quick setup
+Improve and simplify install guide #526
+Remove Ruby references
+Renaming Apple touch icon to "apple-touch-icon". See #492
+Use https where possible
+Bump deps
+Add back precision
+Add missing space before commented out code.
+gulpfile - comment out the task loading by default
+bump dependencies
+Update dependencies
+gulpfile - add `logPrefix` to the other browserSync instance
+Output some error when require-dir tasks fails
+bump dependencies
+gulpfile - fix indentation
+bump gulp-autoprefixer
+Use correct ordering in installation instructions
+Update to latest gulp-cache.
+Simplify server configuration - remove 'baseDir'
+move `apple-touch-icon-precomposed` into `images/touch`
+Revert "move `apple-touch-icon-precomposed` into `images/touch`"
+code consistency
+minify SVG
+minify chrome-touch-icon-192x192.png
+move `apple-touch-icon-precomposed` into `images/touch`
+Revisions to the HTML starting point text.
+Add note about basic.html and IE8
+Make styling consistent with the site.
+Update Android icon sizes for basic.html
+Making 192x192 size chrome icon
+Adds Moz equivalent for nicer font rendering.
+Added link to commands in quickstart.
+Added docs folder with initial files. Pulled content from readme.
+Add `box-sizing` as an inherited value
+add spacing to css selector
+Rebase against master.
+Adding the comments from master into the branch
+Renaming CSS files to .scss and dropping components.css
+Moving styleguide around
+Improve index.html comments.
+Update .jscsrc
+Simplified overview section of readme
+Link WSK Extras repository from the main readme file.
+bump deps
+For #362 - adds section on WSK & CSS libraries.
+Adds JSCS configuration file.
+Adjusting browser-support matrix to reflect actual support.
+remove unnecessary css that was being overridden on .navdrawer-container element
+fix redundant css declaration
+remove repeated declaration block and unnecessary overridden css
+add spacing to css declaration
+fix #340
+Fetch the `.htaccess` file via `npm`
+remove deprecated .jshintrc props - fixes #329
+minify images
+update to new useref API
+bump deps
+Adding output css file
+Adding material design color palette variables to sass
+Reduce to a single S/CSS task and watcher
+Update gulp-ruby-sass to 0.7.1
+remove unnecessary empty line.
+SASS now compiles on serve
+remove duplicated line-height
+Removes https by default and provides some guidance for the developer about how to enable it
+Add 'auto' to the Google Analytics tracker create method.
+A tickle, this should not be needed.
+Adds 'https:true' to both serve task
+Updating the version of browser sync
+Move the `.htaccess` file into the `app` directory
+Close GH-275: Adds .htaccess file.
+Adds lang attribute to basic.html
+Adds the lang attribute to html
+bump deps
+Make the footer in style guide more useful
+Style formatting post font updates
+#251 - it turns out I didn't check in you know, the most important files
+Adding in RobotoCondensed Web fonts - #251 Adding in font files to /fonts Adding in CSS in to main.css rather than embed directly into the <head> - we can move this there later if we want. I have also changed slightly the declaration of what we serve than recomended in the bug (i.e, the Chris Coyer article), I went through how Google web fonts works and this is the recommended output that works in IE 9, 10 and above, Safari iOS 6 and above, Chrome and Firefox.  Note: we don't reference any ttf files, but I have included them
+Various styling fixes
+install Sass when running Travis
+Close GH-242: Handling scss compilation error.
+followup to 4730569239d811666227aa681fc976d2a0ff6d0a
+Address feedback on #238
+gulpfile - simplify error handler
+gulpfile - centralize autoprefixer config
+minor consistency tweak for #239
+minifyHtml should only run on html files
+Potential fix for #79
+Improve navbar UX logic for #233
+Add error handler for ruby-sass to fix #234
+Index: Load google fonts in head, rather than imports.
+Style guide: add recommended font loading to head.
+Compiled CSS: drop Google font imports
+Sass: Drop Google fonts being loaded from imports.
+use #ignore-click instead of 'javascript:;'
+tweak #217
+gulpfile - codestyle
+Adding ignore filters to uncss
+Adding a link to the demonstration site #97
+Removed undesirable minimal-ui in viewport
+fix issue with links jumping to the top of page. use href='javascript:;' instead of '#'.
+Added gulp task to copy files from app to dist
+Updates devDependencies to latest stable backwards-compatible versions.
+Preserve JavaScript license comment
+Rebase and bring in #145 (h/t @stephenplusplus)
+followup to #201
+Allow gulp task list to be extended. As a starter kit, we want users to be able to customize. As a source-based distribution we want users to stay updated. By allowing users to customize web-starter-kit gulp without editing gulpfile.js, they can rebase or merge future updates.
+Remove reload from the images task
+typo fix
+Handle error event generated by jshint fail reporter
+readme - link to latest release
+Removed reference to BrowserSync running instance
+Inject CSS styles
+Give serve preference to files in .tmp
+gulpfile - don't need `init` anymore
+Don't optimize images on serve
+Strip unnecessary link in styleguide
+Move demo gray to sass utils
+Bump gulp-cache to 0.2
+Strip unnecessary font-family rule
+Tweak to basic grammar
+Grammar tweaks to index
+Update pseudo-elements to double-colon syntax
+Update gitignore
+revert manifest.webapp version change in #85
+Close GH-85: A bunch of (smaller) changes….
+update indent value of jshint config and follow style rule.
+Targeting *:before and *:after for box sizing
+readme - remove features text
+Adds missing closing section tag around highlights.
+Move `Contributing` guide to a CONTRIBUTIN.md file
+readme - link download to releases page and not a specific release
+fixes #132 - style configuration.
+simplify clean task with `del`
+Adds .travis.yml to files to remove for the 'boilerplate-only option'.
+Include test asserting all generated build changes are commited.
+Adds newline to components.css.
+Adds `npm test` and travis.yml
+Removed margin top to fix article count appearance
+Update main.css
+Uses document.querySelector directly, rather than wrapping it.
+Reindents main.js using two spaces.
+Format .jshintrc in the same style as the code.
+Remove `404.html`
+Update editorconfig
+Size improvement to repeated qSA & dropping touch start
+X-UA-Compatible meta tag missing on some HTML pages
+ontouchstart => touchstart
+prettify the readme with some graphics
+styleguide js - remove unused var and don't redefine var
+styleguide js codestyle
+minor tweaks
+404.html - drop IE comment
+reorder some head tags for consistent grouping
+consistent indentation in the styleguide
+convert to 2 space indentation
+Update BrowserSync version to 1.0.0
+Set web-app-title for index.html
+enable iOS homescreen meta tags by default #102
+WOFF2 support
+Close GH-80: avoid gulp.start().
+Update .editorconfig
+Update _list.scss
+Bump PSI for PageSpeed to 0.0.4
+Add default directive to top-level SASS variable definitions.
+Mark package as private
+Expand contribution section to cover the site
+Comments for components.scss
+Update _normalize.scss | remove deprecated hgroup
+Remove license info from `404.html`
+styleguide - grammar
+Style guide: remove unnecessary meta prop
+Style guide: improve image alt tags
+Update components.css
+Update `robots.txt` file
+Change whitespace in styleguide JS
+readme - fix blackberry version - fixes #76
+Update README.md
+sync basic.html with index.html
+Update download link, link to BrowserSync.
+README tweaks.
+Update README.md
+Add FAQs mention to inspiration
+gulpfile - semicolon
+Further revisions to the readme
+ALARM!ALARM! rogue space.
+Drop capturing in the styleguide JS
+Minor formatting tweak
+Minor changes to toggling
+Add support for toggling snippets - fixes #42
+Add note on how to opt out of tooling
+Expand on UnCSS comments
+Further readme improvements
+Improvements to the readme
+Remove alt-layout - basic and index are sufficient
+Comment-up the Gulpfile
+sync readme `gulp watch` => `gulp serve`
+formatty things.
+Inline JS for style-guide. Unlikely to be changed.
+Remove unnecessary debug reference
+rename title for styles:components task.
+Rig up the gulpfile.
+Update index.html
+use a .tmp folder for sass styles.
+autoprefixr back on for app. it had something to say about our current css files.
+fixes #71 - restructure style task.
+For #60 - add correct docs link for canonical
+mobile-web-app-capable as a default
+Remove Article microdata
+Revise styles.scss, styles.css > components
+Add typography fix for fonts
+Update second line to H2, add style guide to nav
+Update README.md
+Tweak gulp build comment.
+Improve Gulp installation instructions.
+Further improve installation instructions.
+Add Node installation instructions.
+Add Ruby installation note
+Add troubleshooting section.
+Revise tooling instructions.
+Hide the h4 the right way.
+Remove extra padding under nav links.
+remove min-height for larger devices.
+Only show `h4` when nav drawer is open.
+Continuing fixes for #65 + niceties.
+Add initial UX suggestion for body.click > hide menu
+First fixes for #65 - zindex, overflow, min-height
+Add link to getting started, style guide
+`to to` -> `to do`
+Grammar tweaks.
+For #5 - add browser support list
+Add contribution guide section
+Readme revisions
+Remove CC headers from style guide
+Remove CC headers from Sass
+Drop CC headers from CSS
+Remove CC from additional layouts
+Remove CC from main index
+Add CC block to end of license file 1/2
+Add built with comment to let us discover projects using wsk
+Remove block for preventing link opens in mobile safari
+Remove disable tap highlight
+Clean up markup (re #60)
+minify hamburger icon
+Add download link to get the zip archive of the kit.
+Readme tweaks.
+Add black hamburger menu icon.
+Improve colour palette used, font-sizes on multi devices.
+Adding JS to auto-generate code smaples in the style quide
+Addressing HTML minifier feedback
+Adds alternative html minification for #54
+Minor tweaks for IE 10
+Meta tag correction.
+minify images
+consistency tweaks
+gulpfile - make livereload on vanilla CSS files instantaneous
+Add project meta tag
+Close GH-47: Adds support for UnCSS..
+Altering styles and removing the search fields
+gulpfile - turn off lr notification in the browser when loaded
+Clean-up of visual style guide
+gulpfile - no longer needs to change cwd
+Bump to latest version of PSI
+Update PageSpeed task now that nokey is default
+Add copyright headers as requested.
+bump deps
+gulpfile - don't need `size` in `jshint` task
+gulpfile - tweak pageres task
+gulpfile - add titles to the size plugin
+gulpfile - be explicit about supporting arrays in `watch`
+gulpfile - remove `fonts` task
+gulpfile - use rimraf instead of gulp-clean
+gulpfile - various tweaks
+gulpfile - switch to gulp-if for more succinct syntax
+Dont return on pagespeed
+Title case for web starter kit
+readme - add license mention
+better fix for #36
+Switch to PSI for pagespeed reporting
+Adds inspiration section
+Add requirements to readme
+fix running server from subfolders - fixes #36
+index.html - minor tweaks
+fix naming so gulp builds correctly
+bump deps
+gulpfile - let gulp know when we're done
+readme - add gulp install step and slightly tweak it
+Adding favicon.ico
+Switching out the favicons - still needs a favicon.ico. Also added comments to the fav icon groups and moved chrome add to homescreen fav icon to the bottom, otherwise it doesn't work
+Readme revisions.
+Update license to Apache 2.
+Swapping out the hamburger and search icons. Also made the index page fit slightly more closely with the styleguide
+Remove some unused sass
+Shouldn't need to be root to npm install
+scripts -> jshint, add to build process, expand watch.
+Add comments to compiled style-guide styles.
+Adds main.css
+Add back compiled styles file (do not remove)
+main.css > h5bp.css to be more clear
+Minor styleguide cleanup
+Add missing useref blocks for main index layout
+Add missing blocks for basic layout
+Add missing use ref blocks for alternative layout
+Remove Web Fundamentals headers
+Add missing icon resources and placeholder graphics
+Ignore any .tmp files
+Readme revisions.
+Remove samples, replace with alt-layout.html
+readme - syntax highlighting
+readme - drop sudo
+Add quick start information.
+Replace with app layout
+Revise slide out menu
+Revise styles to app layout
+Add hamburger and search icons
+fix some small formatting issues.
+Consistency between HTML and manifest attributes
+Provide a sample hosted URL
+minor tweaks in gulpfile and readme
+Revise wording on PageSpeed score for #17
+code style tweaks, gulpfile improvements and remove unused deps
+add meta files to enforce code style
+Sushi -> Web Starter Kit
+Reformat main.js
+Add a basic index.html
+Remove Todo on PageSpeed integration.
+Index: correct path to new styles, remove intro about PL.
+Adds static style-guide, cleaned up from Web Fundamentals.
+Introduce Sass styles from Web Fundamentals.
+Remove current main.scss
+Gulp: correct paths for Sass styles, icons and fonts.
+Remove PatternLab from the project
+Adds a cleaner version of samples
+Change dependency name browsersync -> browser-sync
+Close GH-13: Add PageSpeed task. Closes #12.
+Minor revisions to contains list.
+Close GH-10: Add initial BrowserSync support.
+bump deps
+Move the README back out.
+Introduce file renames. Minor restructuring.
+Add Gulpfile.
+Adds PatternLab.
+Drop Pure for now.
+Add initial (Pure-based) style guide
+Adding in some overview information.
+Add contents to readme.
+Add side-bar sample.
+Drop normalize reference.
+Include PureCSS
+Drop normalize as Pure includes it in the default build.
+humans.txt - drop jQuery and Modernizr references.
+Drop startup directory
+Drop crossdomain.xml
+Trim down the readme for now.
+Drop extraneous scripts.
+Drop jQuery
+Drop Modernizr
+Add initial H5BP mobile boilerplate
+Initial commit

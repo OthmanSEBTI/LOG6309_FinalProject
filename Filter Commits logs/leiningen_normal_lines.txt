@@ -1,0 +1,3576 @@
+relocation notice
+Release 2.9.10
+Changelog bump; switch ci to jdk 17.
+Update bootclasspath deps listing.
+Expand profiles before calculating which to remove in jar task.
+Add hinting to xml/parse calls in uberjar and search.
+Add test for dev-resources in uberjar.
+Update release steps.
+Bump to version 2.9.10-SNAPSHOT
+Release 2.9.9
+Update changelog.
+Recommend manual install in /usr/local/bin
+Update year in web page and remove tabs.
+Update link to CI badge.
+Don't allow built-in templates to shadow remote templates.
+Disable test-headless-socket until nrepl 1.0.0 is released
+Hard-code names of built-in templates instead of querying classpath.
+Do pedantic cycle detection based on strings, not dependency nodes.
+Codeberg doesn't use blob or tree in its URLs.
+Move the "moved repository" notice to higher in the readme.
+Update all links to point to codeberg instead of github.
+Add IRC notifications for failed builds.
+Just use a normal debian image.
+Even simpler CI config.
+Add CI config for woodpecker.
+Add a simple "repl :headless :socket" test
+Add "repl :headless :socket PATH" support
+Bump Clojure version to 1.11.1.
+Revert "Use non-deprecated --tmpdir argument to mktemp instead of -t."
+Bump data.xml to 0.2.0-alpha6
+Use non-deprecated --tmpdir argument to mktemp instead of -t.
+Get mktemp to find a temp dir for us.
+Bump nrepl version to 0.9.0.
+Be a little more forgiving of weird :repositories.
+Add aarch64 support to leiningen.core.utils
+Exclude module-info.class from uberjars.
+Make resource-paths in jar file distinct.
+Change sample project.clj to demonstrate :aot of entry point ns.
+Improve vcs not found message.
+Remove lein-sdkman from repository.
+Prevent AOT from interfering with reflection in check task.
+Propagate exception message in test task.
+Add web makefile 1-liner.
+Remove Google fonts from grench.html too!
+Stop using Google fonts for leiningen.org. How embarrassing!
+Set pom-scope during init-profile.
+Test for pom leakage more carefully.
+Disable silent in CI.
+Clean up test output to make real failures visible.
+Update bootclasspath deps listing.
+Mention need for lein install in checkout deps docs.
+Rearrange new functions to be more consistent with the original sectioning of change.clj
+Remove gratuituous trailing whitespace to eliminate a diff
+Code cleanup.  Add test to ensure exclusions, etc aren't broken by updating versions
+After discussion with @technomancy, reverted path expression syntax to smashed keywords, and detect whether on map or vector by analying the sjacket DOM to determine how to process the next key in the path
+Update leiningen.change/change doc-string
+Make `utils/mkdirs` nil-safe
+Bootclasspath conflicts are only relevant to plugin authors.
+Bump to 2.9.9-SNAPSHOT
+Release 2.9.8
+Changelog.
+Update lein
+Ability to provide custom LEIN_JAR location
+Remove test for error which is no longer thrown.
+Catch pathological pedantic exception after it happens.
+Revert "Warn when pedantic detects a pathological dependency tree."
+Change most warnings to warn-once.
+Link to Libera.Chat in website instead of Freenode
+Exit w/ non-zero status on lein help not-found
+Bump to next snapshot version and automate bumping.
+Release 2.9.7
+Look for jar files, not zip files when self-installing.
+Update copyright dates and web site copy.
+Update changelog.
+Warn when pedantic detects a pathological dependency tree.
+Bump REPLy to 0.5.1
+Refresh bootclasspath deps list.
+Update repl to reference incomplete instead of complete.
+Clarify the use of --quote-args.
+Bump transitive deps to mitigate CVE-2021-37714 and PRISMA-2021-0055
+Exclude ranges which point to a single version from pedantic
+Update REPLy to 0.5.0
+Update DEPLOY.md
+Support clojure 1.10.3
+Add tests for TLS cert verification.
+RIP freenode
+Setup GNUPGHOME for :verify test. Add commons-io/:no-key to assertion
+Remove commons-io signing check and update changelog.
+Remove -Xverify:none flag from bin/lein.
+Bump version number up to snapshot again.
+Release 2.9.6
+Message in bin/release.
+Sod off, Google.
+Upgrade pomegranate from 1.2.0 -> 1.2.1
+Upgrade pomegranate from 1.2.0 -> 1.2.1
+Clarify Clojars deploy token instructions
+Update docs to cover new Clojars verified group policy
+Name template namespaces after the artifact-id only.
+Install gnupg non-interactively.
+Somehow these new docker images don't have gpg installed??
+Update tests for new template resolution logic.
+Stop testing on EOL'd JVM versions; add 16.
+Update new task to look for templates the new way.
+Update documentation for creating templates.
+Update the template for creating new templates to reflect new Clojars rules.
+Remove assumptions in templates about what code host will be used.
+trim whitespace in .nrepl-port compatibility when user edits by hand
+Update sample.project.clj
+Remove misleading middleware example.
+Run exit-code tests in leiningen, don't disable exit-after-tests.
+Strengthen leiningen.test's reporting to avoid (future) data race
+Bump version number to next snapshot.
+Update changelog with 2.9.6 section.
+add back reloading require for :eval-in :nrepl
+remove ran?
+bump ci again
+bump ci?
+not sure why this fails on my machine, trying CI
+wip
+Release 2.9.5
+Update changelog and some documentation.
+Upgrade Apache httpclient
+Update commons-io to 2.8
+Update nREPL to 0.8
+Move web site to main repo.
+Make leiningen.core.project/meta-merge public
+Changed dependency sjacket to trptcolin's fork
+Update DEPLOY.md, fix a couple of typos
+Revert "Update DEPLOY.md, remove redirect from gpg encrypt"
+Update DEPLOY.md, remove redirect from gpg encrypt
+Throw an exception if you try to use composite :provided profile.
+Release script fixes.
+Bump version to 2.9.5-SNAPSHOT
+Release 2.9.4
+Changelog update for 2.9.4
+Update docs for composite profiles to recommend against mixed.
+Remove unused clojars key as per Toby.
+Don't try to dive deeper into getCollectExceptions results.
+add sha256 command for OpenBSD
+Add direct-linking jvm-opt to app uberjar profile
+Recommend Clojars deploy tokens over password.
+Apply test selectors to test vars only
+We don't actually have any stickers left.
+Bump version in top-level project.clj.
+fix race condition in utils/mkdirs
+Add `scheme` at reply options and transport to ack-server
+Update REPL-y's version in example snippet
+Update a reference to Drawbridge
+Update nREPL to version 0.7
+remove deprecated make-pom-properties
+LEIN_FAST_TRAMPOLINE should respect local profiles.clj
+lol the date
+Bump to 2.9.4-SNAPSHOT post-release.
+Release 2.9.3
+Changelog date.
+Document memoized middleware.
+Improve deps task docstring.
+Corrected actual sha256 checksum displayed in the error message in the event of a checksum mismatch.
+Revert "Revert "Deploy checksums for signatures.""
+Tuned text, added links
+Memoize application of middleware
+Write a sha256sum file with the correct format
+Bump to 2.9.3-SNAPSHOT.
+Release 2.9.2
+Oops; forgot to bump to a snapshot after the last release.
+Bump pprint version to match Clojars, improve docs
+Test multiple Java versions using workflows
+Improve tests
+Test cleanup
+CircleCI config cleanups
+More tests and some refactoring
+Run lein-pprint tests on Circle
+Release lein-pprint 1.3.0.
+Bump to Clojure 1.10.1 for Leiningen itself.
+Include PGP public keys to use in tests
+Revert "Deploy checksums for signatures."
+Bump Pomegranate to version 1.2.0
+Revert "Pick up fix for CVE-2018-10237"
+Remove mention of mailing list.
+Add the exit code to the "Subprocess failed" message
+Add CLI switches to control annotation behavior
+Make sure release tags are annotated.
+Apply explicit middleware and hooks even with disabled implicits
+fix: Exclude project-specific  from version control
+Upgrade reply to 0.4.4
+Use a newer docker image.
+add progress in lein release
+add consistent load order for lein check
+Remove duplicated test project explanation info from test projects
+Overhaul project initialization
+Recommend Java 8 to avoid illegal reflection.
+Add FAQ entry: illegal reflective access
+Specify secondary license in license files
+Replace sha1sum with sha256sum to deduplicate effort
+Actually check the checksum of downloaded jar
+Where on earth did that come from? 3 nested lets in a row?!
+Directly call aether/merge-versions-from-managed-coords
+Revert "Final attempt fixing GPG tests in CI"
+Unmerge non-leaky profiles for uberjar snapshot deps check
+Preserve and merge metadata of meta-merged collections
+Bump templates to use Clojure 1.10.1, which improves error reporting seen under lein
+Align Clojars URLs clojars.org/repo -> repo.clojars.org
+Omit unnecessary empty default keys in profile map setup
+Remove broken excluded profiles normalization
+Apply default metadata to composite profiles
+Final attempt fixing GPG tests in CI
+Revert "Attempt fixing GPG tests in CI"
+Attempt fixing GPG tests in CI
+Revert "Attempt to fix brittle GPG tests in CI"
+Set proxy settings when deploying
+Update :deploy-repositories clojars URL
+Defer to Pomegranate repo policy defaults
+Attempt to fix brittle GPG tests in CI
+Include repository policies in POM
+Update bootclasspath dependencies
+Remove hook warning.
+Add data.codec to bootclasspath deps
+Add test for "deps :verify" task
+Preserve user-supplied XML namespaces in POM
+Upgrade org.clojure/data.xml to 0.2.0-alpha5
+add missing '.' on doc/TUTORIAL.md
+remove unnecessary '.' from doc/TUTORIAL.md
+apply doctoc on doc/ja/TUTORIAL_ja.md
+translate doc/TUTORIAL.md partially
+gitignore lein_ja.man
+translate doc/ja/lein_ja.1
+copy doc/lein.1 to doc/ja/lein_ja.1
+translate doc/TUTORIAL.md partially
+translate doc/TUTORIAL.md partially
+translate doc/TUTORIAL.md partially
+translate doc/TUTORIAL.md partially
+translate doc/TUTORIAL.md to section 6.4
+copy doc/TUTORIAL.md to doc/ja/TUTORIAL_ja.md
+add detailed explanation into doc/TUTORIAL.md
+Pick up fix for CVE-2018-10237
+proper symbol equality for user
+elides printing of exception when require of user ns throws
+Add main to aot nss only if it's not there already
+Release 2.9.1
+Release date.
+Update bug_report.md
+Add more debugging info to the bug_report.md
+Update news.
+Move sorting of namespaces to compile to filesystem search.
+Handle empty http(s)_proxy string
+rm "master" from :repl-options :prompt example
+Add GitHub issue templates
+Turn off print-namespace-maps across all tasks, not just uberjar.
+remove unnecessary temp variable for working directory
+Use absolute LEIN_DIR path when running from checkout
+leiningen.uberjar: try to produce backwards-compatible EDN
+Bump version to 2.9.1-SNAPSHOT.
+Release 2.9.0
+Re-enable bootclasspath optimization.
+Remove unnecessary toolprovider import.
+2.9.0 today?
+Changelog entries for 2.9.0.
+Bump nREPL to 0.6.0
+Bump to Clojure version 1.10.0.
+Remove implicit middleware warning.
+change location of sort for ease of testing
+remove debug fluff
+add sort for compilable-namespaces for consistency of compilation order
+Offer solutions for old Clojure versions instead of bombing hideously in repl.
+Bump templates to use Clojure 1.10.0.
+Add pomegranate exclusions for pedantic.
+Bump version to 2.8.4-SNAPSHOT.
+removed deps and checked dependencies
+Release 2.8.3
+Changelog for 2.8.3.
+Stringify namespace of main for repl init.
+Bump version to 2.8.3-SNAPSHOT.
+Release 2.8.2
+Latest changelog.
+Replace require-and-resolve with existing require-resolve function.
+Display dynamically the uri-scheme for the nREPL transport
+Dockerhub deleted an image and broke our builds.
+Bump nrepl to 0.5.1.
+Allow init-ns to return nil sometimes.
+Allow freeform :pom-plugin configuration
+Fall back if neither repl init-ns nor main is found.
+Remove stray %s.
+Update readme and changelog.
+Attempt to reproduce #2408.
+Updated Lein.ps1
+Remove inaccurate documentation about repl profile.
+Bump reply to fix namespace not found bug.
+Bump the nREPL dep to latest
+Bump the reply dep to latest
+Allow Github repo URL without .git
+Exclude dot files at any level of the jar hierarchy.
+Remove link to broken Windows installer.
+Update bultitude dependency to 0.3.0 & new maintainer
+Upgrade version of pomegranate to latest.
+Update version of reply to latest.
+Update NEWS with 2.8.2 changes.
+Check for empty checksum and don't use it if so.
+Don't export INPUT_CHECKSUM; use system properties instead.
+Add CircleCI status badge to README
+Bump to nREPL 0.4.3
+[LEIN-2453] Support repository-overrides.clj
+Update DEPLOY.md as proposed in #1890
+pprint: add --not-pretty argument
+lein: always send diagnostics to stderr
+Update nREPL to 0.4.1
+Update clojars cert expiry date.
+Clarify that "override" refers to merging for profiles
+Update clojars cert
+Update `lein change` docstring to include set command
+Exclude project-specific `profiles.clj` from version control
+Upgrade dependencies
+Port TLS fix from #2405 to lein.ps1
+Add curl/wget HTTP_CLIENT again
+Skip the default "this didn't work" message
+Write nicer message instead of erroring out - #2416
+Bump commons-io version
+Ensure aliases are replaced when merging profiles
+Use `clojars` repo consistently in document
+Correct project.clj key
+Enforce TLS 1.2 for PowerShell downloader
+Improve the message when insecure HTTP repositories are detected.
+Use GPL-2.0-or-later as secondary license
+Update project templates to specify secondary license and fix readmes.
+Switch to EPL-2.0 in `lein new` templates
+Bump version of reply and clojure-complete
+Disable warning suppression for tests.
+Oops; typoed that last lein new test fix.
+Suppress multiple user profile warnings.
+Warn when hooks or implicit middleware is found.
+No no no no no no no. That is terrible advice.
+Turns out the no-TLS workaround does actually work.
+Add FAQ entry for Java 7's lack of TLS 1.2 support.
+Be more tolerant of empty project maps.
+Don't emit stack traces when search results can't be parsed.
+Document that deploy task accepts a URL as a repo name.
+Be more forgiving of empty project map.
+Prevent new projects from being named "cljs".
+Add project coordinate data to JAR metadata
+Bump templates to use Clojure 1.9.0.
+Oops; got the order wrong there.
+Document removal of drawbridge.
+Don't fail if bootclasspath deps list isn't found.
+Deploy typo and doc update.
+Bump the nREPL dep to 0.2.13
+[docs] Update TEMPLATES.md to refer to resources dir rather than src dir
+Avoid "You have $CLASSPATH set" errors on upgrade
+Update FAQ.md (#2356)
+Add description for changing maven read timeout
+Added support for :exact-lein-version.
+Release 1.2.0 of lein-pprint.
+Don't use :main, use :repl-options
+Add `main` to default template
+Bump dev version up to 2.8.2-SNAPSHOT.
+Release 2.8.1
+Reintroduce cleanup of trampoline files after we've used them.
+Hard-code built-in tasks.
+Changelog.
+Handle the existence of TRAMPOLINE_FILE consistently.
+Bump dynapath dependency.
+Remove cgroups faq.
+Get rid of cgroups special handling in core
+Ensure dynamic classloader even when no plugins are specified.
+Upgrade to pomegranate 0.4.0
+Consistently wrap a DynamicClassLoader even when not in 1.9+
+Don't trust modifiable-classloader? on Java 1.9+.
+Changelog update.
+Revert "Type-hint and print metadata of form used by run task"
+Update NEWS.md
+Make UseCGroupMemoryLimitForHeap apply only on Linux
+FAQ: fix typo in code sample
+Adjustments per comments from @technomancy
+We shouldn't recommend use of outdated JDKs.
+Replace 2.7.2 with 2.8.0 in FAQ on string deps
+Bump up to the next snapshot.
+Release 2.8.0
+Add changelog date.
+Port bootclasspath/verify changes to lein-pkg and lein-sdkman.
+Add LEIN_USE_BOOTCLASSPATH.
+Only warn for plugin conflicts when :pedantic? is :warn or :abort.
+Add a few changelog entries.
+Add explanation to plugin guide of how to not create a plugin.
+disable bytecode verification
+remove bootclasspath options
+Revert "Support skipping bootclasspath."
+A few stray news items.
+Go back to version 2.8.0-SNAPSHOT.
+Add test showing that empty values can be set under :scm :git
+Infer default values from .git/config for :scm :git
+Pom: refactor write-scm-tag and make-git-scm
+Release 2.8.0-RC1
+Prepare for 2.8.0-RC1.
+Add a comment explaining that the test task is a legacy monkeypatch.
+Check presence of substring using includes
+Add private function that removes doctoc comments
+Mention cgroups jvm options in FAQ.
+Remove docs for making plugins work with lein 1.x.
+Deprecate project middleware, hooks, and the :test profile.
+Allow overriding commit message
+Add :query subcommand to deps task.
+Type-hint and print metadata of form used by run task
+Oops; into does not take varargs.
+Don't enable cgroups memory flags on older JVMs.
+Default to getting JVM memory limit from cgroups.
+expand test coverage to confirm signing args for multiple gpg versions
+gpg unattended signing args must be specific to gpg version
+update documentation for unattended gpg
+allow GPG to be invoked unattended with passphrase (+2 squashed commits) Squashed commits: [81bda1b] allow GPG to be invoked unattended with passphrase [ef54597] allow GPG to be invoked unattended with passphrase
+Update some documentation.
+Deploy checksums for signatures.
+Work around bug in aether/s3-wagon-private which hides :passphrase.
+Update Maven Central mirror URL.
+Also add CLI options
+Freshen up formatting and add some missing tasks
+Update copyright year
+Add missing closing square bracket
+Prevent boxed math warnings in `lein test`
+Correct typo in README.md
+Return consistent result from leiningen.core.user/gpg
+Document how to read project.clj at runtime
+Do not include project.clj in JAR root
+Add base profile note to lein checkouts
+Trim whitespace in Git HEAD commit hash
+Remove Travis config as it has been extremely unreliable.
+Unmemoize in order to fix tests.
+Warn when $CLASSPATH is set.
+Remove LEIN_ROOT check.
+Bump copyright years.
+Document what causes insecure HTTP repository errors.
+Don't notify Travis on IRC any more.
+Add tests from pedantic lib as well.
+Upgrade Aether via new pomegranate; merge pedantic into leiningen-core.
+Add docstring for :why subcommand of deps.
+Add `lein deps :why com.google.guava/guava` command.
+Move plugin conflict warnings to only activate when :pedantic? is set.
+Document @-style connect args for repl credentials.
+Getting false from .mkdirs doesn't mean the directory doesn't exist.
+Never use .mkdirs directly; it silently masks errors.
+[#2272] Catch read-string exceptions and print a nicer error
+[#2272] Use clojure.edn/read-string to read profiles files
+Gitorious isn't a thing any more.
+Add circleci config.yml.
+Remove pedantic version warnings in leiningen-core.
+Clearer chmod in readme.
+Update list of conflictable bootclasspath deps.
+Remove unnecessary workarounds.
+Add back in commons-lang dependency.
+Remove Cheshire dependency; use XML for search results.
+Move clojure-complete out into repl-specific profile.
+Move reply to on-demand dependency.
+Remove clj-http dependency, and all transitive deps too.
+Recommendations from shellcheck.
+Make javac respect LEIN_SILENT.
+Embarrassing grammatical error in a docstring!
+Add :jar-inclusions to override built-in exclusion rules.
+Port some fixes from bin/lein to bin/lein-pkg.
+Support skipping bootclasspath.
+Invite feedback for problems in the tutorial.
+Found a redundency in code and reduced it.
+Warn when trying to load plugins that can't be used.
+Don't invoke release plugin fallback unless external plugin is present.
+Explain absence of nrepl during trampoline as per #2224.
+Allow in-leiningen repls when running outside a project.
+Add plugin-tree
+Update TUTORIAL.md
+Update TUTORIAL.md
+Change profiles string to recursively normalize
+Catch NoRouteToHostException exception
+give reference to how to get a SNAPSHOT version
+Support tree deps.
+Remove accidentally-added file.
+Removed duplicate of alias clojure.string in leiningen-core's project.clj
+Change profiles string to match subseqs
+Make profiles string in target path smarter
+Add note about fs permissions in get-deps error
+Add note about --no-sign in vcs tag docstring
+Add FAQ entry for string dependency names
+Add string deps to sample.project.clj & NEWS.md
+Rename artifact-namespace & artifact-name
+Add support for string deps in project.clj
+Bump http maven-wagon, fixes #1966
+Remove lein-newnew references from templates docs
+s/consistend/consistent
+Bump a few versions here and there.
+Bump tools.macro transitive dep.
+Update docs re: search changes.
+Improve error handling in search.
+Add quote marks to version strings in search results.
+Allow the search to continue if Central doesn't support that syntax.
+Remove mention of advanced query syntax.
+Replace lein search with live API-hitting task.
+Consist => Consistent
+Minor text fix
+Add a lot of `s'es.
+Added chocolatey to NEWS
+Update to dynapath 0.2.5
+Use new clojars repo url
+Add test for deploying to a file repo
+Infer classifier when deploying adhoc files
+Move enhancement from 2.7.1 to 2.7.2 in changelog
+Update NEWS
+Only warn about each exclusion once
+Bump dependencies, closes #2215
+Allow keyword dependency versions, fixes #2212
+Run new script version when upgrading lein.ps1
+Use existing PSBoundParameters in lein.ps1
+Back to snapshot
+Release 2.7.1
+Update NEWS.md
+Initial lein-sdkman, ref #2204
+Update lein-pkg root checking
+Doc: :env/varname is only allowed in :repositories
+Clarify main-class jar warning, closes #2208
+Let ns-exists? return true on generated namespaces
+Change from `concat` to `into`, to ensure vector
+Don't require `nil` for version in managed deps - fixes #2195
+Use GPG2 on macOS
+Add clarification re: `:exclusions` in managed dependencies docs
+Revert lein.bat hotfix
+Hotfix lein.bat
+Revert PowerShell script dependency on lein.bat
+Ensure java 1.6 is used for releases
+Back to snapshot
+Release 2.7.0
+Update NEWS.md
+Modify TEMPLATES.md to make it more clear how to test your template
+fix typo
+Parse GitHub usernames with - in them
+refer to '1.1.2'
+tocontrol -> to control in LICENSE files
+Run PowerShell without a profile/execution policy
+Port lein.bat to PowerShell
+Update the FAQ
+Update test for clojars cert expiration date - fixes #2170
+Provide the current clojars certificate [#2170]
+Add support for `dependencyManagement` section in pom
+Clarify docs, add tests for transitive deps
+Add `managed-dependencies` example and docs
+Add an explicit prep call before the test namespaces are calculated.
+Add support for reading project from Reader instead of file
+(#2067) Improve test coverage for managed dependencies
+(#2067) Improve comment about call to private pomegranate fn
+(#2067) Deprecate 'resolve-dependencies', add managed deps to it
+(#2067) add support for `managed-dependencies`
+Remove 'swank' and add missing commands to bash completion.
+Get lein partially working under Java 9
+Respect :scm :dir in leiningen.vcs/uses-vcs
+Catch and handle fixture errors during tests
+Add support for get-in pprinting
+Move away from quoted LEIN_JAR again.
+Update to pomegranate 0.3.1
+removed inidividual quotes around paths in CLASSPATH
+Quote CLASSPATH while calling Java
+Reduce comment line lengths to 80 columns
+Add comment warning about LEIN_JAR usage
+Add warning about LEIN_JAR usage in Windows
+Added debug-mode warning when files are dropped from uberjar due to name clash.
+Keep whitelist-keys for backwards compatibility
+Honor whitelist settings when javac called via jar - fixes #2089
+Git push will push only branch related tags
+Bump dependencies
+Back to snapshot
+Release 2.6.1
+Update NEWS.md
+Print meta only during compile, fixes #2079
+2.6.0 was released in February, duh
+Back to snapshot
+Release 2.6.0
+Update NEWS.md
+Improve native dependency feedback, fixes #1961
+Move away from deprecated Apache HTTP parts
+Code cleanup
+We haven't failed with oracle in a while
+Print meta when eval-in-subprocess
+Add troubleshooting steps for gpg: decryption failed
+Remove potemkin dependency
+Upgrade clojure-complete from 0.2.3 to 0.2.4
+Update mailing list information
+Remove clojars section from GPG instructions
+Add docs for providing :jvm-opts
+Clojure 1.8.0
+Explain how to read your project map at runtime
+Tell people to use profiles over middleware
+Bind *read-eval* false when reading gpg credentials
+Avoid piping std out when reading gpg credentials, ref #2062
+Update CONTRIBUTING.md, ref #2060
+Bump copyright years
+(#2043) `release` task: support SNAPSHOTs on qualifiers
+Updating lein-pkg jvm opts to match lein
+Updating lein-pkg jvm opts to match lein
+Adding platform independant sha to lien-pkg
+Set short timeout on compiler agent thread pool
+Don't create implicit resource dirs, fixes #2010
+Upgrade clj-http to 2.0.0
+Modify tiered-jvm-opts for :base profile
+Update task defn information, ref #1913
+Allow tasks to have vararg-only form, closes #1913
+Remove duplicate profiles before profile merging
+Convert `main` symbol to string
+Print GPG errors when we receive them, ref #1892
+Display progress on artifact signing, closes #1892
+Clarify password/passphrase in DEPLOY.md
+Reset ERRORLEVEL and RC in lein.bat
+Set LEIN_JAVA_CMD to JAVA_CMD if set
+Don't preset JAVA_CMD. Refs #2009
+2.5.2-SNAPSHOT doesn't build on Windows 7 with Java 8 #1899
+2.5.2-SNAPSHOT doesn't build on Windows 7 with Java 8 #1899
+add raw-resourcer higher order functoin which returns raw-files generator
+change default renderer io/reader -> io/input-stram to support binary files
+2.5.2-SNAPSHOT doesn't build on Windows 7 with Java 8 #1899
+bump some hidden nrepl deps, ref #2017
+Bump the nREPL dep to 0.2.12
+show a better error message when java is not found in PATH
+Update CHNAGELOG.md templates
+don't parse broken scm params from non-github URLs
+Documentation fix: change passphrase to password
+Return non zero status when :pedantic? is set to true or :abort
+Add Tim Visher to NEWS
+Need access to `regex?`
+Make `regex?` visible
+Don't trigger implicit-aot-warning on regex match
+Quote components in ()s in lein.bat
+Added section to template documentation explaining mustache delimiters.
+allow travis to do a container build
+allow setting no-auth in settings
+Back to snapshot
+Release 2.5.3
+Update NEWS.md
+Add CHANGELOG.md to tests.
+Pin potemkin. Ref #1693
+Only merge in mirrors (if key exist)
+Add CHANGELOG.md to lein new templates
+Add option to not sign tags when running "vcs" "tag"
+changed .printStackTrace with println .getMessage
+Split README documentation links into Usage and Development sections
+fixed printStackTrace bug using std out error
+Change the file-not-found test to be less strict on the output
+Create source, resource and test paths for eval prep
+Add link to "build" steps, ref #1971
+Use eval/sh-with-exit-code in vcs
+Add eval/sh-with-exit-code
+Add test for `new template` with mirror settings
+Add value of `:mirrors` in user profiles to fake project.
+fixed LANGUAGE only env variable
+Modify .lein-failures. Help retest individual tests.
+Allow check for root user to process correctly on Solaris.
+Updated old reference to hacking section of README to "Bootstrapping" from CONTRIBUTING.md from lein script
+gpa, not gpg
+suggested edits
+Added gpg note for windows users
+Add downgrade as first-class alias.
+Back to snapshot.
+Release 2.5.2
+Ensure release can be done from clean work tree
+Update NEWS.md
+Cleanup files after test.
+Do not include repl deps as test deps, fixes #1771
+Bump reply to 0.3.7
+Document how to replace default repl dependencies
+Allow ^:displace'ing clojure dep in :repl profile
+Load dependencies in repl outside of projects
+Allow tools.nrepl and cc to be project deps again
+Add link to Lucene query syntax tutorial, re #1927
+Update TUTORIAL.md, ref #1927
+Update docs - SCP deploy to clojars not supported
+Changed xml escaping to use commons.lang.StringEscapeUtils.escapeXml()
+add simple test for certificate processing.
+PLUGINS.md: Clarify some things
+added fix for components.xml merging.  If the description tag contained embedded html, it needs to be escaped in the resulting merged components.xml.
+Add support for reader conditional files (cljc)
+Bump cheshire dependency.
+Upgrade clojure dependency to 1.7.0
+Bump nrepl dependency.
+Use $() over ``.
+Quote those single-arguments properly.
+Escape variable so script does not break on space in username
+Display error message and error out only when using fast trampoline
+Use recommended way of detecting command in $PATH
+Check for other SHA1 implementations in $PATH
+Update PLUGINS.md
+Update PLUGINS.md
+one last wafer-thin tweak
+minor wording tweaks
+more sweeping changes
+slight tweak
+try to get checkout dependency tree looking right
+try to get checkout dependency tree looking right
+documented two gotchas in checkout dependencies
+Refactor main/drop-partial-args
+Provide another option for `lein new` to specify template version
+Give priority to global leinrc file
+Add /etc/leinrc to lein-pkg script
+Add /etc/leinrc to lein script
+Reorder jar/pom generation for deploy, fixes #1821
+Chas isn't wasting time, I can tell you that.
+Add note on jar naming in whitelisted keys for jar
+Ensure gpg outputs English messages
+Add info on AOT quirks to the FAQ, re #1858.
+Bump standalone nrepl version as well, ref #1861.
+Add note on where to direct PRs.
+Avoid wrapping shell pipes in writers, fixes #1857
+Bump reply dep to 0.3.6
+Bump nREPL dep to 0.2.8
+cleaxure has gone too far
+Whitelist :uberjar-name and :jar-name to allow propagation to uberjar
+bail-out logic
+We're in 2015 now.
+Move read-checkouts to project module and make it public
+Stringify run args by default, closes #1835.
+Added Artifactory to the list of repository managers
+Update README.md
+Normalize most sequence arguments to vectors
+Second iteration to get the "failed to download" behavior right.
+Adding a better description of what may be the issue with a failed download. Also adding some possible fixes options.
+Reorder the possible HTTP proxies to use to download Leiningen from GitHub. The new sequence is: PowerShell, Curl and then Wget.
+Clarify how to build Lein from source, ref #1828.
+Bump nrepl version, fixes #1829.
+Add example for artifact classifiers. Closes #1589
+Remove "Main-Class" if :main is nil, closes #1814.
+Add typehint to `class` param passed to Reflector/invokeStaticMethod
+fixed formatting for renderer
+updated doc string to describe render-fn
+provide ability to supply a custom rendering function
+remove solution from DEPLOY.md and specifically mention gpg 1.4.12 in GPG.md.
+avoid duplicate entries in manifest
+improve formatting
+add writings in the docs to solve gpg: can't query passphrase in batch mode error.
+Be explicit about array type.
+reverting to previous jar.clj
+Don't require port for drawbridge URLs
+Consistent capitalization of "Leiningen"
+Sorry 1.x, but we've moved on.
+Bump version to 2.5.2-SNAPSHOT.
+Update self-install URL in bat file too.
+Release 2.5.1
+Github is being dumb and disallowing .jar uploads.
+Update NEWS.
+Don't skip the certificate checking in lein.bat, geeeeeeeeez.
+Translated Plugin page to Japanese.
+Emphasise on password visibility in console.
+remove pom changes
+Add gitignore to ignore all mercurial related files and hgignore all git related files
+Add hgignore for programmer prefer mercurial DRCS
+Correct relative priority of profiles.clj and project.clj in Merging docs
+Use main/abort instead of throwing exception in clean.
+Don't pass through :doc on alias metadata propagation.
+Account for absolute target paths
+An alternative fix for #1721 to clean all profile paths
+Add test for cleaning spliced target path
+Check write permissions in lein jvm, fixes #1775.
+Improve with-write-permissions macro.
+Add :pass-through-help documentation.
+Remove reference to "lein help new"
+Correct classpath separator config
+with->on
+Clarify .lein-classpath usage with plugin deps
+Check write permissions before writing .nrepl-port
+Mention pom XML still needs to validate.
+Check if project data is available where needed for deploy tasks
+Add with-write-permissions macro and use it in leiningen.jar/jar to check for correct permissions
+remove clean targets for all profiles
+Don't change order of included profiles; fixes #1740
+Check :manifest before using default :main.
+Bump stencil to 0.3.5.
+Expose version-satisfies?. Shouldn't be internal.
+Another silly flatten that could be a mapcat
+Got rid of silly uses of apply and flatten
+Updated help text for `test`
+make it clearer that the :signing key is first-level
+(#1695) Respect priority when merging defaults
+(#1695) Add failing test for repository replace
+Add LEIN_NO_USER_PROFILES to sample.project.clj
+Use require-resolve in update-in for function.
+Update NEWS and clarify uses of GPG.
+Remove debug line when calling `lein deps`
+Bump to version 2.7 (latest) of Maven wagon-http.
+Upgrade `wagon-http` to version 2.6
+fixed #1719  - uses read-line for reading password, if no console is available
+fix typo: had ben -> had been
+Avoid setting SCRIPT to empty string
+Add regression test for file.encoding override
+leiningen.test.jar now covers array-of-pairs maps and sections
+Back to snapshot.
+Remove println
+Allow multiple repl task profiles
+Add profiles-with-matching-meta
+Preserve metadata on profiles from profiles.clj
+More readable and consistent spacing
+Manifest sections example & doc
+Manifest sections example & doc
+Implemented non-map manifest and sections
+Revert "Grant non-project profile access to with-profile"
+Add tests for with-profile
+Factor out default-project
+with-project returns values for all profile groups
+Use SimpleDateFormat instead of #inst (flaky)
+Release 2.5.0
+Depend directly on nrepl/clojure-complete.
+Bump nREPL version to 0.2.6
+Remove base dependencies for lein checkouts.
+Set env var if .lein-fast-trampoline exists.
+Release lein-pprint 1.1.2, allows running outside projects.
+Allow update-in task to run outside projects.
+Uberjar profile needs to be leaky too.
+Propagate metadata on composite profiles
+Bump to 2.5.0-SNAPSHOT.
+A few documentation changes.
+Rename :core-default to :leiningen/default.
+Add profile metadata
+Test higher order aliases.
+Implement higher order aliases, closes #1678.
+Use plugin name for reading profiles for now.
+Call load-plugins twice to fix chicken/egg problem.
+Revert addition of :downstream profile.
+Allow JVM file.encoding to be overridden by anything.
+Move $LEIN_JVM_OPTS farther down (override all but cp and lein*)
+Show pedantic warnings and use profile merging to let deps :tree warn correctly
+Update bin/release with more checks.
+Update NEWS.md file.
+Move :auto-clean to jar task.
+Revert "Apply profiles from middleware in main"
+Improve docs for default profiles.
+Make leiningen.core.project/read init the project.
+Rename :project profile to :downstream.
+Allow LEIN_JVM_OPTS to override -Dfile.encoding.
+Document in-plugin profiles.
+Expand builtin profile docs in README
+Use warn instead of println for warnings.
+Make LEIN_SILENT suppress compile messages.
+Bump nREPL & REPLy versions (to 0.2.5 & 0.3.5)
+Add :project profile to PROFILES.md
+Restore previous order of dependencies in pom
+Allow profiles to be loaded out of plugins.
+Remove :scope from sample.project.clj.
+Add warning if classifier specifies :dependencies
+Add simple test for :project profile in pom
+Apply profiles from middleware in main
+Add a :project profile
+Prioritise compilation of namespaces backed by files
+Allow https links for drawbridge integration
+Allow 'repl :connect' to read args from file
+Move :pedantic setting to default map; displace it.
+Add lein deps :implicits subtask.
+seq? -> sequential? to be able to handle vectors in pom/relativize
+Check if mktemp is available before using it.
+Check if in a lein project before ns completion
+Update zsh tasks from latest leiningen release
+Clarify what "last one" means for profile override
+Bump pedantic version
+Extract version parsing function out of parse-semantic-version.
+That was terrible advice.
+Document using unquote in :dev profile for OS-specific config.
+Don't read git files if they are unreadable.
+Preserve metadata during clj->sjacket conversions.
+How to opt out from "Main-Class: clojure.main"
+Bump reply version for drawbridge->nrepl exclusion
+Bump version number up to 2.4.4-SNAPSHOT.
+Release 2.4.3
+Revert "Check that exactly one (existing) source file is found per namespace when compiling"
+News for 2.4.3.
+Allow implicit hooks/middleware to be disabled.
+Bump REPLy for "standalone" (non-nREPL) bugfixes
+Only apply #1569 fix to :base profile.
+Make base profile's deps defer to raw :dependencies in pom.
+Failing test for #1569.
+switching to https for the central repo
+Add LEIN_NO_USER_PROFILES to avoid user profiles
+Print compile error stacktraces as they occur
+read-eval example provided in PROFILES.md
+Don't depend on unsigned jakarta-regexp lib.
+Clarified first-time install instructions
+use call to run wget and curl
+Update clj-http from 0.6.5 to 0.9.2
+Don't wrap `:signing` in a map in the docs.
+Added a unit test for the Main-Class warning in write-jar
+Added a warning message when the Main-Class does not exist within the jar file.
+remove heardcoded dash from prefix.
+fix 'lein vcs tag' to actually use prefix.
+Clarify :mirrors naming requirement.
+Default to warning when version ranges are present.
+when opening a JarFile, report name of file in any errors
+avoid creating dir only if it is \".\"
+Remove inline code blocks
+Remove citations and change 'voice'
+fix #1581 - do not try to create an existing directory
+Update lein-pkg version number.
+Document some common issues with GPG on Mac OSX
+Check that exactly one (existing) source file is found per namespace when compiling
+Ignore SIGINT sent to an interactive repl server
+Add issues.clj for programmatic issue summary.
+Use leiningen.core.project's idea of default repositories
+Support pairseqs in profiles :plugin-repositories
+Remove unneeded call to `resolve`
+Explicitly exit in trampolined repl.
+Allow opting out of :main for jars.
+Update new key expiry dates.
+Bump version to 2.4.3-SNAPSHOT.
+Release 2.4.2
+NEWS for 2.4.2.
+Bump version to 2.4.2-SNAPSHOT.
+Release 2.4.1
+Move make-project-properties to leiningen.core.project.
+Update NEWS for 2.4.1.
+Switch order of args in git vcs commit.
+Document pom.properties.
+Write pom.properties in :prep-tasks, not during jar creation.
+Document how to use bundled clojars.pem in case of CA problems.
+Put a newline in between META-INF/services/ entries.
+Don't load clojars cert in default project map.
+Update bundled clojars.pem.
+Lazy-load leiningen.core.ssl.
+correct Unnecessary capitalization
+Add regression test for #1555
+Improve profile coverage in sample.project.clj.
+Don't meta-merge a project into itself.
+For some reason when running from an uberjar, it's on the cp twice.
+Also need to bump the version here.
+Bump to 2.4.1-SNAPSHOT.
+Release 2.4.0
+Use GitHub releases.
+Release date.
+Support vcs tag prefix.
+Allow project map to override :vcs.
+Bump reply version to get jline fixes
+Document partial alias splicing.
+Allow project values to be spliced into alias invocations.
+Read uberjar filename after uberjar profile is merged.
+Remove bogus test.
+This is a no-op for the vast majority of users.
+Remove repo aliasing from deploy task; already done elsewhere.
+Trim long lines in deploy task.
+Rule 1: if you can use juxt, you use juxt.
+Auto-require namespace from :repl-options :caught.
+Add special-case for release task to prefer plugin if present.
+Allow for plugins to override built-in tasks.
+Document :repl-options :caught. Refs #799.
+Don't bump patch version in alpha/beta/rc bumps.
+remove unnecessary quote escaping in composite profile example
+Initialize the project to activate middleware, etc
+signatures should match other defmethods
+lein vcs TASK gives non-stacktrace message when unknown vcs.
+Add a :pom-location option to fix #1541
+Pass a stringed symbol into bump-version instead of a keyword.
+Improve error message to change when args aren't all readable strings.
+Formatting fix.
+Point to the right help text in deploy auth message.
+Avoid need for double-escaping in :release-tasks.
+Technically :alpha, :beta, and :rc aren't semantic levels.
+Update NEWS.md.
+Support :alpha, :beta, and :rc bump levels.
+Pass arguments to f in change task through the reader.
+Encourage use of main/info and friends for plugin output.
+Clean up deploy repository aliasing to work with both :repositories entries.
+Propagate args to `lein vcs push` to underlying command.
+Move level parsing to release task function. Default to :patch.
+Reword a few things in deploy.md.
+Ensure project.clj is written to project root.
+Use sjacket.parser/space-nodes instead of enumerating them ourselves
+Enable simple aliasing in :deploy-repositories.
+Document the release task.
+Removed unused function
+Simplified change to use existing code
+Use existing helper instead
+Disable problematic but non-essential test
+Aggressive resolve policy for lein.change functions
+Silence warn calls when LEIN_SILENT is set.
+Make bump-version work with strings and default to bound *level*.
+Update :git commit method.
+Update `leiningen.change` tests to use real `bump-version`
+Reappropriate `bump-version` function for `lein.change` usability
+Implement artifact/group-id editability
+Whitespace and test group merge
+Skip anaemic helper
+Update `collapse-fn` tests to illustrate argument order
+Minor changes for lein-release.
+Document change task; stop using prime marks in local names.
+Don't try to read non-forms in sjacket->clj.
+Add special case for "set" arg in change task; fix change tests.
+WIP: merge change task and release.
+Implement more features, simplify interface
+Add pending test for setting generic (nested) attributes
+Attempt to make types transparent across sjacket boundary
+Implement :release-tasks.
+Change increment-version to add snapshots where appropriate.
+Catch qualifier in version-map->string.
+Automatically load methods for other leiningen.vcs systems.
+Add assert-committed method to leiningen.vcs.
+Follow separator convention, reorganise, and add some comments
+Improve interface for changing project settings
+Experiment with generic conventions
+Set project version via sjacket
+Add TOC to the tutorial
+Lists duplicate keys in exception thrown
+defproject throws an exception on duplicate keys
+Clean up semver string parsing.
+Remove SCM protocol stub.
+Add test for version-map->string
+Remove some unnecessary code.
+Begin working on leiningen.release.
+Add vcs task with subtasks.
+Update raw.github.com links
+Update bootstrap instructions, ref #1515.
+Pick up a 'WARNING' that got missed
+Use warn instead of info where applicable
+Add ^:replace metadata to :aot [:all] normalization.
+Check for :aot [:all] in jar task too.
+Recommend `--` before template args, ref #1511
+Use clojure.main for uberjars that don't declare their own :main.
+Clarify that the default template is intended for libraries.
+Check user profile's plugin-repositories when looking for templates.
+Add structure of the newly created sample template
+PROFILES.md: Tip to use composite profile
+Update PROFILES.md
+PROFILES.md - be really explicit about overriding
+Prevent NPE when pedantic encounters dupe top-level deps to fix #1498
+Check for key not found message from gpg 2.x as well.
+Remove mention of :omit-default-repositories.
+Normalize :aot :all to :aot [:all].
+Emit success message after install.
+Use dep-key for distinct call in pom task.
+Be explicit about which .nrepl-port files to ignore
+Ignore .nrepl-port wherever it is in the source tree
+Include group in dedupe key to fix #1480
+Flush output of exception error messages
+Depend on latest Pomegranate, fixes #1447.
+Document various ways to register wagon factories [fixes #1483]
+Lock on *out* when printing during dependency fetches.
+Make Leiningen (more) Eastwood-friendly.
+added group-name to templates.clj
+Correcting errors that used to be :sources-paths in plugin document.
+Create new tests for use of --force option
+Update help text for -new- task
+Handle :force option in ->files function
+Minor formatting fix
+Reword error message from `lein upgrade`.
+Print error message when `upgrade` is unavailable.
+Add workaround for #1480.
+Expand profiles before [un]merging them, re #1421
+run travis tests with oraclejdk8
+Allow searching on multiple fields at once
+Document :clean-non-project-classes and reword help output.
+Bump all Clojure 1.5.1 deps to 1.6.0.
+Do not depend on map ordering in tests.
+Consistent comment style.
+Add -XX:-OmitStackTraceInFastThrow to default JVM opts.
+Adapt template template so that the #1409 fix doesn't break new templates.
+Tell Bultitude not to ignore unreadable namespaces in test/check.
+Failing test for #1409.
+Slightly more homogeneous test project names
+lein run: don't catch app errors as require errors
+Yank gen-class definition from extstream.clj into search.clj; remove extstream.clj
+Finishing touches
+Subclass java.io.InputStream via gen-class.  Does not print progress yet, but does correctly download all search indices
+Document reply's :skip-default-init option
+Implement search download progress reporting
+Don't call concat
+Oh no, slimed!
+Check :pass-through-help on vector aliases too, not just final var.
+Use more meaningful data in test-task-args-help-pass-through.
+Document :pass-through-help in plugin guide.
+Add exclusions for cd-client.
+Clarify :warn-on-reflection deprecation warning.
+Dereference vector aliases in task-args.
+Use a real lein task in pass-through-help tests, not funky var magic.
+Don't require :pass-through-help to be a boolean.
+Modify task-args to support pass-through-help meta.
+Make repl tests resilient to having .nrepl-port file in pwd.
+Support for overriding :clean-targets sanity checking (issue #1458). Also made unit tests safer and faster using with-redefs to mock out calls to delete-file-recursively. Better error messages when a path is being protected.
+Making new methods private for issue #1458
+Removed (run-tests) call that was being used for interactive REPL testing
+Partial implementation of fix for :clean-targets sanity checking (issue #1458)
+Update docstrings for repl and uberjar tasks based on feedback from hyPiRion
+Initial happy-path unit tests for the clean task. Relates to #1458
+Warn once when project.clj in checkout is missing.
+Test that :java-opts are converted to :jvm-opts.
+Test that profile metadata is retained.
+Backquote uberjar-merge-with vector.
+2.3.3 -> 2.4.0-SNAPSHOT.
+Revert license back to official EPL; addresses #1446.
+Don't show the "Suppressed exit" message when exit is called
+send stack trace through to the nREPL client
+Optional msg argument to leiningen.core.main/exit. Use it for abort.
+Propagate eval-in-project exit code in run task to lein's process.
+Only exit if there are errors
+Filter out directories matching readme/license prefix
+Update TUTORIAL.md
+Also expand the built-in default profiles.
+mention all files created by the project generator
+Decompose `with-profile` args not containing +/-.
+Handle bultitude returning full `ns` form instead of just symbol.
+Lower read time out for wagon-http
+Rename sample alias to something sensible.
+Don't use /tmp when LEIN_FAST_TRAMPOLINE is enabled.
+Revert "Fall back to defn-level help summaries if ns-level are not found."
+Update plugin guide.
+Fall back to defn-level help summaries if ns-level are not found.
+update bultitude dependency to 0.2.5
+Add nREPL URL to output along side the human readable message
+Updated TUTORIAL.md for Leiningen 2.3.4.
+Properly initialize read profiles.
+Properly setup profiles within project map.
+Drag out common map setup functionality.
+Remove dead :jvm-opts lookup
+Pull out empty meta-merge defaults.
+Load plugins and activate middleware in update-in.
+Bump copyright year.
+Revert "Rely less on undocumented features"
+Rely less on undocumented features
+Test edit distance function.
+Implement Damerau-Levenshtein, closes #1119.
+Upgrade stencil and exclude core.cache.
+RyanTM and I reduced the run time of the 'lein help' command by making it just parse the task source code files instead of actually requiring/compiling them (second try).
+fix DRIP_INIT not being set when LEIN_JAVA_CMD is drip
+Update remaining 2 "great documentation" links
+Point "great documentation" link to new URL
+Distinct test directories before requiring
+Add LEIN_SILENT option to suppress *info* output
+Make "/etc/leiningen" profile inclusion clearer.
+Block upgrades in bin/lein-pkg.
+Update man page.
+Print "already up-to-date" on upgrade if that's the case.
+Bump version number back to a snapshot.
+Release 2.3.4
+Accept both orderings of args in :show subtask of new.
+Support :keyword args in leiningen.core.main/parse-options.
+Suggest exclusions for overrides. Closes #1198.
+Clean up dependency-str weirdness of version calculation.
+Add exclusion suggestions for version ranges.
+Move parse-options test, fix typo.
+Move parse-options into leiningen.core.main for general use.
+Add a flag to allow SNAPSHOT template versions
+Better error messaging when we try to load a broken template
+Refactor lein new argument parsing
+Minor TUTORIAL fix
+Reformat FAQ.md's markdown to be a little more shell-friendly.
+Clarify order-dependent conflict resolutions.
+Escape classpath separators.
+Update sample.project.clj and NEWS.md.
+Bump reply version
+Don't print with-profile output when only one profile is invoked.
+Retain whitelisted keys for the eval/prep phase.
+Update dependency name in profile example
+Support nested `do` chains, remove implicit help.
+Mention `lein deps` in the tutorial.
+Account for repl urls with paths [fixes #1344, again]
+More nuanced merging of project defaults.
+task pom / :pom-plugins - bug fixed: extra <configuration> tag
+Bump version up to 2.3.4-SNAPSHOT.
+task pom / :pom-plugins added backward compatibility with version 2.3.3
+changed syntax of :pom-plugins definition for pom task
+Release 2.3.3
+Update news
+Add a test for gpg keys and ssl cert expiry.
+Implement `:uberjar-merge-with` requested in issue #973.
+Abort with a nicer message when neither port nor .nrepl-port is provided
+Fallback to .nrepl-port for 'repl :connect' subtask
+More descriptive error message for nonexistant ns.
+Better error message for bad -m args.
+Don't warn about user profiles when running outside a project.
+Use profile-scoped targets in app template.
+Use more descriptive local name.
+Maven plugins are now supported by :pom-plugins to avoid name conflict with Leiningen :plugins vector.
+Added support of maven plugins in project.clj.
+Don't add alias-help as public API in lein.help.
+Add alias explanations for `lein help task`.
+Add in a :plugin-tree test.
+Implement `lein deps :plugin-tree`, closes #1314.
+`lein install` may not be needed if `lein` can find the library in another repository.
+Slight clarification to checkout dependency usage
+Handle stdin for :eval-in :nrepl.
+Allow default eval-in dispatch value to be changed with a defmethod.
+Remove usage of soon-to-be legacy API in nrepl.
+Add ^:skip-aot as default for app template.
+fix #1309 - lein.bat now honors HTTP_CLIENT env var
+Reenable java main run test.
+Delete subdir directory.
+Go from use->require.
+Clean up helper docstrings.
+Described *1-*3,*e in repl-welcome
+Reorder the skip/added file check.
+fix(jar): Add directory entries to the jar file
+Bump version up to 2.3.3-SNAPSHOT.
+Release 2.3.2
+prepare for 2.3.2 release
+use ~/.s3cmd.lein.gpg for upload credentials
+NEWS for 2.3.2.
+Explain profile isolation in FAQ.
+Encourage production use of uberjars over `lein run` in tutorial.
+Discuss idempotency of hooks/middleware in plugin docs.
+Rearrange .gitignore and remove windows line endings.
+Attempt to force Aether to re-check for new versions of templates.
+Mention setting :sign-releases false during deploy.
+Add .nrepl-port to template .gitignores.
+Rearrange sample.project.clj.
+Roll back profile-scoped target path for now.
+Add :exclusions to :base deps to avoid version conflict warnings.
+Memoize pedantic-print-(ranges|overrides) by stringifying up front.
+fix #1150 https://github.com/technomancy/leiningen/issues/1150
+fix https://github.com/technomancy/leiningen/issues/1292
+Better error messages for the namespace argument
+Warn for projects which rely on implicit :aot via :main.
+Re-enable implicit :aot via :main.
+Add :aot :all to uberjar profile of app template.
+Release 2.3.1
+Update NEWS.
+Improve coverage of profiles in tutorial and profiles doc.
+Leave :provided out of target-isolation calculation paths altogether.
+Support disabling :monkeypatch-clojure-test.
+Typo.
+Support downgrade as alias to upgrade.
+Refer to checkout-deps-paths as a var instead of a raw fn.
+Update lein to detect an empty HTTP_CLIENT variable prior to attempting to download
+Special-case the :provided profile. Again.
+Automate upload of uberjar and signature in bin/release.
+2.3.0-SNAPSHOT -> 2.4.0-SNAPSHOT
+Move down_load_failed_message before all usages
+Bump back to snapshot.
+Release 2.3.0
+NEWS updates.
+Normalize profiles before excluding; fixes #1267.
+Allow -main to operate on project.clj files not in original cwd.
+Add :eval-in :pprint for debugging Leiningen and plugins.
+Save off project into an atom when trampolining for later use.
+Issue #1276: cleanup wrong-arg-num err msg on 0-arg tasks
+Typo fix.
+Support literal strings in :clean-targets.
+Issue #1272: Add :clean-targets option
+Minor cleanup from PR feedback
+Include licenses and readmes in jar.
+Suggest using profiles to change project map in PLUGINS.md.
+#1269: Skip tests differently when using :test-selectors
+Refactor a couple reduces into a couple somes
+Oops; typo.
+Remove dependency on "useful" library for packaging purposes.
+Add LICENSE file to project templates
+com.hypirion.io 0.3.1 (1.6-compiled)
+Bump com.hypirion.io to 0.3.0.
+Properly document template tags.
+News updates.
+Mention +/- syntax and per-profile isolation in PROFILES.md.
+Reword windows installer link.
+Bump REPLy version for completion bug
+Allow Oracle JDK 7 build to fail
+Enable Oracle's JDK7
+Build commits into any branch
+Revert uberjar test back to std. name, ref #1260.
+Calculate uberjar filename before merging uberjar profile.
+Move provided profile merge to prep call in jar task.
+Document LEIN_JVM_OPTS. Closes #1261.
+Deprecate explicit self-install command in bin/lein.
+Splice :version into :jar-name.
+Scope :compile-path and :native-path under :target-path.
+Scope :compile-path and :native-path under :target-path.
+Re-word contributing message.
+Remove lib directory from template gitignore.
+:use -> :require in "template" template.
+Make templates.clj conform to code conventions.
+Support :pedantic? :abort/:warn.
+Don't attach subprofiles to metadata map.
+Expand composite profiles before removing them.
+Default to recursive checkout deps.
+Remove cruft remaining from older lein versions.
+Empty :*-paths when running outside a project dir.
+Fallback to the original behaviour on any error invoking git plumbing
+Always return full SHA1 hash of HEAD
+Fallback to original behaviour on IOException
+Remove :target-path from :base profile.
+Error message when aws creds are missing.
+Move download-calculating script.
+automate collection and reporting of current leiningen download statistics
+Add resources dir to app template, ref #1016.
+We always tend to forget one of these.
+make sure get-jar-filename does the same preprocessing jar does.
+Use EPL 1.0 or later in new project templates.
+Replace bare println with main/info calls.
+Don't blow up on test failures in `test-ns-hook`.
+Narrower github readme means banner looks weird.
+Reduce silly uberjar output.
+fix typo in docstring
+fix typos in docs
+Use git's plumbing to lookup HEAD
+Add FAQ entry on background procs. Closes #1173.
+added suggestion to run `lein deploy clojars` after runing `lein deploy`
+Keep init-file when using LEIN_FAST_TRAMPOLINE
+Update FAQ to add entry about long-term performance
+Set default :jvm-opts in :base profile to :displace
+Secure handling of temporary trampoline file
+Use single quotes in shell command
+Delete the initfile when the subprocess exits, not when the Leiningen process exits
+Use (pr-str form) to write form to init-file
+Add in todos for 3.0.0.
+use init-file (-i) instead of form (-e) when evaluating forms in subprocess.
+Use nested strings in test-eval-in-project, refs #1203
+Don't need this now with read-edn.
+Include host in nrepl start message.
+Remove mention of 1.x in readme.
+Point to the djpowell installer for Windows.
+gpg-agent caching is time-bounded.
+Normalize line endings in slurp-resource
+copy-to-jar :bytes needs to unix-path the :path
+Add Host as arg to "repl :start" and "repl :headless" commands.
+add documentation on `lein search` options to tutorial.
+README - Update Windows install instructions
+Suggestion on when you have to set the 'http_proxy' variable
+CLASSPATH space-tolerant
+Move to using LEIN_JVM_OPTS for cygwin UnixTerminal
+FAQ update.
+Style notes in CONTRIBUTING.md.
+Bump back to snapshot.
+Release 2.2.0
+Only use when for side-effects.
+Add custom-help to reply-options expectation
+Allow trampoline repl without specifying init-ns
+Not using todo.org any more; just grep for TODO.
+Support custom repl :welcome message.
+Bump REPLy to 0.2.0
+Terribly minor improvement to the previous commit
+Add back support for java classes in :main
+Don't try static methods on `lein run`: better error msg
+Don't print nrepl server info on trampoline exit
+Send init code to trampoline repl as well
+Replace launch-standalone/launch-nrepl with launch
+Quote repl options for trampoline
+Use RELEASE instead of a version range when resolving templates.
+Update GPG.md
+Clarify that pcmpl-lein.el is not part of Leiningen.
+News updates.
+Slashes are used here even on Windows it seems.
+Support :bootclasspath in :java-agents.
+Looooooong liiiiiines.
+Clean up sanitize-repo-name.
+Don't use two-clause cond.
+fix repo name should not contain path delims under windows so test won't fail all tests pass under windows
+Preliminary support for :java-agents.
+Hold back on :aot :all in the uberjar profile till 3.0.
+Some todos.
+Don't block :user profile from ~/.lein/profiles.d.
+Make uberjar use the filename returned by jar instead of recalculating.
+oops still forgot some parens on their own line
+fix 2 test failures which only showed on windows
+moving 2 functions from utils to helper merged all commits to date which required adding "dev-resources" so a test wouldn't fail `bin\lein test` tested under windows (currently 2 failures and 1 error)
+Make profile-scope-target-path work with anonymous profiles.
+Scope :target-path by profile unless it's the default (:base).
+.gitignore some eclipse generated files + others
+Default to writing repl-port in ~/.lein when outside projects.
+Remove prefix clauses and :use from ns.
+fix some path errors in windows tests lein test still has 2 failures and 1 error after this. normalize-path should now handle absolute *nix paths correctly under windows addresses #1176
+Deploy ad-hoc files.
+Bump nrepl & clojure-complete dependencies
+Delete .leiningen-cmdline tempfiles when complete
+two strings were one for windows x86_64 test
+Don't create target/classes unless we're in an actual project.
+Remove stray println.
+#1166: reinstate support for :licenses, :licence, :licences
+Work around completely bonkers test failure.
+Correctly add extra test classpath to generated pom
+Stop claiming sample.project.clj is exhaustive
+Better at knowing what get-dependencies calls have been memoized
+Set *command-line-args* in lein run.
+Some more don't-warn-when-missing profiles.
+Add :repl to list of don't-warn-when-missing profiles.
+memoize get-dependencies
+Handle folders with spaces in their names (under windows) Show error message when parent folders(LEIN_ROOT) contain semicolon in their names and require that .lein-bootstrap be recreated in this case. Semicolon in files/folder names is not supported even though windows allows such names.
+get \leiningen-core\.lein-bootstrap paths properly in windows else getting: Error: Could not find or load main class clojure.main
+bootstrap typo in lein.bat
+Make error messages in project/read refer to correct file
+Update offline test metadata & run configuration
+Don't bother trying to save the same source files
+Add warnings when some dependencies are ignored for deps :tree
+Add support for executable files to lein new templates
+Rename `hooks` to `activate` in hooks code sample
+Escape quotes for Java versions below 7
+Allow bootstrap from batch file
+Stop pretending shell is a reasonable language
+Handle cygwin jline issues
+Isolate OSTYPE checks for cygwin a bit
+Back to 2.2.0-SNAPSHOT.
+Release 2.1.3
+News updates for 2.1.3.
+Document :middleware in sample project.
+Adapt tests to code change
+Don't read directly from user profile
+Don't explicitly check user profile in repl task it should have already been merged
+Revert "project.clj setting overrides profile setting"
+Populate project-map meta when outside project // cherry-picked from master
+project.clj setting overrides profile setting // fixes #1128
+Populate project-map meta when outside project // fixes #1129
+Support :ack-port config option
+repl task: use specified ack ports in :headless subcommand
+Print doc for aliases if provided, closes #1116.
+Update sample project.clj to use Clojure 1.5.1
+fixes #1123: mirrors can get credentials using gpg
+Add no-proxy to news.
+update-in: use resolve-and-apply (honor aliases)
+We always forget this, for some strange reason.
+update-in: improve docstring
+update-in: vary meta project :without-profiles
+update-in: improve docstring
+update-in: vary meta project :without-profiles
+Allow for spaces in download locations
+Improve error messages when reading user profiles.
+same require update for the app template
+update tests template to :require from :use
+Update docs with semantic change for profiles.d
+Formatting in test code
+Clarify docstring
+Test options-for-reply
+Better error message for unknown subcommand
+align repl host resolution with port resolution
+Use user/getenv to allow mocking in test
+Argh; forgot NEWS for 2.1.2. Here it is.
+Back to 2.2.0-SNAPSHOT.
+Release 2.1.2
+Add a note about testing the repl task.
+Use `file.separator` in pom path relativization.
+Move default :test-selectors to :leiningen/test profile.
+Move Tiered Compilation to LEIN_JVM_OPTS and document.
+Add support for no_proxy environment variable
+GPG doc updates.
+Add tests for IObj vs. non IObjs merging.
+Allow IObjs to be cmp. to non IObjs when merging.
+Only try to open file when needed in lein-version.
+Tests for repl
+More reordering + make testable fns public
+Extract connect-string function
+Reorder defs
+Fetch version from `pom.properties`
+Provide a default version for leiningen
+Change sample project file for global vars
+Add way to set global vars (*assert*, *warn-on-reflection*, etc.) through config key :global-vars.
+Major rework to properly honor options
+Minor style improvements
+:require clojure.string + improve readability
+Nicer opt-port
+Add guard rails for `lein new` newline handling.
+Change line endings for `lein new` on Windows.
+Make slurp-resource 2.0.0-compatible again
+Remove diagnostic println
+Allow ":" as root path for update-in
+Correcting typos in docs
+Reorganize most of repl.clj.
+update-in: simplify splitting of args
+Remove unused fn args
+Reorder defns as needed to compile
+Simplify signature of start-server
+Remove warn-chaining
+Delete duplicate code
+Update messages for bootstrapping lein in scripts.
+Recover gracefully from compile-erroring init-ns
+Don't use backtick in error messages.
+Clarify that ~/bin is only a good choice if it's on the path.
+Revert "Changed installation path recommendation in README."
+Changed installation path recommendation in README.
+Bump version back to 2.2.0-SNAPSHOT
+Release 2.1.1
+Newsies.
+Add :test-paths to :checkout-deps-shares.
+Allow run task to operate outside project directory.
+Mention JDK 6+ requirement in README
+Bump version numbers to 2.2.0-SNAPSHOT.
+Update update_in.clj
+Grant non-project profile access to with-profile
+Unify & expand the profile list for show-profiles
+Oh yeah... would have helped to catch that five minutes ago.
+Release 2.1.0
+Update NEWS.md.
+Look for bare maps in ~/.lein/profiles.d/*; disallow :user there.
+Remove tests-in-src; tidy up compilation-specs.
+Adjust compile task to make use of regex fns
+fix error in test introduced in 43581e2
+document user-visible changes addressing #898
+update java.library.path based on :native-prefix, addressing #898
+Bump cheshire, slingshot, and pomegranate deps.
+Don't blow up when test eval-in-project doesn't return a number.
+Tag tests which require network access.
+Remove outdated link to GitHub downloads page.
+#949 Allow specification of artifact signing key.
+Move gpg setup notes from DEPLOY to GPG [fixes #1073]
+A few more news entries.
+Formatting in tasks.
+Exclude in update-in task.
+Formatting for leiningen-core files.
+Bootstrap leiningen-core with the base profile only.
+Prefer ^:private to closing over an atom.
+Warn when system profiles contain :repositories.
+Add :system to list of profiles applied by default.
+always process trampolines, even when used in aliases and higher-order tasks remove unused leiningen.trampoline-file system property
+use an appropriate location for system profiles on windows move os detection into leiningen.core.utils
+ensure only one set of quotes around java command in trampolines
+credentials-fn != credentials
+Bugfix: Restrict repo credential lookup to known keys.
+Remove unneeded bindings around consolidated gpg.
+Add notice about 'help gpg' to error output.
+Link the GPG doc to 'help gpg'
+Add GPG doc.
+Mention lein test takes file args
+Exception only when needed to read from console.
+Exception as side-effect.
+Include LEIN_VERSION in LEIN_FAST_TRAMPOLINE files.
+Add section about tests in CONTRIBUTING.md
+Disable :prep-tasks in out-of-project runs.
+Rename update task to update-in.
+Use :user profile when running outside project root.
+Add expected :input-stream in repl test.
+Don't read input when calling GPG.
+Drag out piping logic to com.hypirion.io
+Bump dependency on com.hypirion.io
+The :base profile makes no sense outside a project.
+Replace `lein help deploy` with `lein help gpg`.
+Simplify handling of LEIN_JAVA_CMD to support parens in paths, such as with "Program Files (x86)"
+Add back wget and curl support as a fallback for users without powershell.
+Handle the case where gpg isn't installed; consolidate gpg usage.
+Update to bultitude 0.2.2 across the board.
+Load key-manager-properties from user profile as well.
+added default-key-manager that emulates the default JSSE behaviour.
+Rearrange repl task for greater clarity.
+Document requirement of test selectors to come at the end.
+Document :java-cmd and improve update task's docstring.
+Manually memoize to be able to warn when needed.
+Rebind only when needed.
+No need to pump in for check either.
+No need to pump from sysin for javac.
+Use RevivableInputStream to avoid blocking reads.
+Send bytes as received for correctness.
+Oops; missed a reference to get-jar-filename.
+Add news about interrupt-on-repl-input
+Bump clj-http version.
+Move checking of LEIN_OFFLINE into defaults map to lower priority.
+Suppress stack traces when dependencies can't resolve.
+Geez how did I forget THAT.
+Point people to the right place for bootstrapping instructions.
+News updates.
+Add update task for arbitrary project map transformations.
+When l.c.classpath/get-dependencies fails, it now propagates the root exc
+Tidy up a few tests
+Go back up a directory for travis test run
+Send https proxy property down to subprocesses
+Specify :root in repl test so the stub works
+Use Clojure 1.5.1 in lein new templates
+Warn on version ranges for deps :tree
+Add alias for bootstrap in leningen-core
+added support for windows/msys
+Bump Clojure to 1.5.1
+Allow use of mirrors when building a jar.
+fix :checkout-deps-shares to work with non-project-key fns, fixes gh-1049
+Update sample.project.clj
+Make core templates use Clojure 1.5
+upgrade bultitude from 0.1.7 to 0.2.1 else compilation fail on windows (at least)
+Recover gracefully from java :main as repl init-ns
+Move (:root project) docs next to the section on :no-project-needed
+Document (:root project)
+Consistently use (:root project) to check whether we are running in a project
+Call setWriteable on file before trying to delete it. Relates to [#460]
+Only register wagons from each file once
+add a per-dependency :native-prefix, addressing #898
+Update .travis.yml to bootstrap with lein1.
+Allow Leiningen checkout to be bootstrapped from 2.x.
+[#975] Deploy task should accept repo URL with credentials in it
+Workaround for :test-selectors and #878.
+Replace curl/wget usage in lein.bat with powershell.
+Move default test selectors to base profile.
+Better error message for #1017; make sure "clojure" can never be used as a project name
+Add tests for #1017
+Moving Tiered Compilation to the dev profile.
+Stop tiered compilation at 1 in project JVM.
+add resources dir to default new template, close #1016
+minor fix to search: "group (aliased as g)"
+Revert "Logging warnings to stderr and editing for consistency"
+Output task not found messages to *err*
+Force usage of newer dynapath until pomegranate updates.
+Tweak tutorial.
+fix tests broken by change in error format
+Log classpath files at debug in get-classpath
+Update src/leiningen/with_profile.clj
+Add in old fns to avoid breakage in plugins.
+Resolve failing test introduced by *warn*.
+Replace `main` ns with `log` where forgotten.
+Logging warnings to stderr and editing for consistency
+Add test cases for warn-user-repos and fix
+Add LEIN_SUPPRESS_USER_LEVEL_REPO_WARNINGS
+remove abort in new task which was for lein1 compatability
+new task generates in current directory by default, close #989
+add new task tests for other templates, fail case and :show
+documenting and testing --to-dir option for new task
+Make :only work with namespaces too.
+Add examples of new keys to sample.project.clj.
+Make sure metadata is propagated.
+Rewrite only-install-snapshots as install-releases?
+Add a comment about the need for with-local-vars
+Add a simple alias mechanism for :repositories and :deploy-repositories.
+Move back to using a var, since nREPL needs it
+Bump reply version
+document global options in help task, close #1005
+Rethink :only-deploy-master and generalize it for a set of branches.
+Add an :only-install-snapshots option that prevents `lein install` of non-snapshots.
+Add :only-deploy-master option to prevent deploys from non-master branches.
+Add never-deploy-snapshots option.
+upgrade to bultitude 0.2.1 to stop relying on bultitude private fns
+Re-enable :skip-aot.
+Improve boot time by limiting tiered compilation.
+add doc for #1000, mention :all for tests
+remove failing report test that is no longer valid
+allow `lein test` to take file args
+test for test command aborting on invalid namespace
+add missing tests for common test command invocations
+update links to docs rc->stable
+Add Sonatype OSS snapshots repo for pomegratate.
+Remove report to get rid of redundant information.
+Allow :classifiers to point to top-level profile names.
+Allow building of jars with classifiers
+Formatting in repl.clj.
+Update tests to remove :custom-init.
+Replace with-local-vars with a gensym.
+Don't require set-descriptor! in lein; only used inside project.
+Remove obsoleted tests
+Raise reply version to 0.1.10-SNAPSHOT
+Add middleware to set init-ns in nrepl session
+defn init-ns
+Remove def leiningen.repl.config/project-map
+Adapt repl tests
+Try to start repl even if some requires fail
+Longer repl connect timeout
+def leiningen.repl.config/project-map for nrepl clients
+require init-ns unconditionally
+Perform init unconditionally
+update test subcommand doc to have a realistic example
+document ns tagging and :only features of test subcommand
+Add tests for prioritized repos.
+Pick prioritized value in add-repo if there is one
+Move prioritized picks out of meta-merge.
+Simplify deploy
+Add experimental support for :eval-in :nrepl.
+Print command to run a single failing test above its output.
+Implement `symlink?`.
+Found a couple more shell invocations.
+Use -- to treat filenames as non-option args to gpg.
+adding message to set HTTP_PROXY and HTTPS_PROXY for those behind a firewall
+Remove superfluous exclusion of slf4j
+Make profile aliases available outside projects.
+fix https://github.com/Raynes/lein-newnew/issues/60 - preserve project map in a dynamic var for lein-newnew
+Work around CLJ-1153 in the default app template.
+update tutorial to correctly reference app template
+add tests for helpful renderer msgs, handle no args case
+have new renderer abort with a more helpful message
+point to correct docs for a local lein checkout
+Remove directory part of root-path when copying jar, re #953.
+"De-regexify" trim-leading.
+Document profiles.d functionality.
+Add support for ~/.lein/profiles.d. Closes #871.
+Memoize user/profiles.
+a typo
+Update sample.project.clj
+Add download log parsing code.
+Update URL to Tim Pope's "vim-foreplay"
+Bump to using leiningen-core 2.1.0-SNAPSHOT rather than just 2.0.0
+Remove mention of preview from docs; use stable branch.
+Bump to 2.1.0-SNAPSHOT.
+Release 2.0.0.
+News and FAQ about implicit repl deps.
+Bump REPLy version to handle bad input
+Remove some unnecessary regular expressions from the templates util ns.
+Allow implicit repl profiles to be overridden with namespaced names.
+Accept :main in addition to -m in run task.
+Add a faq entry about implicit repl deps.
+Doc rewording for checkout deps.
+Clarify wording of checkout dependencies in tutorial.
+Add pom.xml.asc and .lein-repl-history to lein new gitignores.
+Bump REPLy for parsing things like "\ "
+Add bin/lein-pkg to the list of files that get version substitutions.
+Add newlines at end of template files
+Bump REPLy & nREPL for Calendar print & regex read
+NEWS for RC2.
+Emit warning when user profile is in project files
+Add tests to check ^:replace/^:displace behaviour.
+Prioritize metadata from :replace-vals and suppress from :displace.
+Back to 2.0.0-SNAPSHOT.
+Release 2.0.0-RC2
+Be less specific in hooke-injection.
+Use default repos when non-nil project contains none.
+Oops, got the nesting wrong on that last one.
+Use default repositories for plugins when outside project.
+Bump reply / nREPL versions for nREPL 0.2.0 final
+"main/get-os" is supposed to be "eval/get-os" allows compiling lein from master now
+Normalize profiles before merging them
+Bump reply / nREPL versions
+Oops; accidentally merged lein-newnew 0.3.6 instead of latest.
+Docs for new.
+newnew's not newnew anymore; it's just new.
+Back to 2.0.0-SNAPSHOT.
+Release 2.0.0-RC1
+Print checksum exceptions
+Move resolution failure messages to catch block in get-dependencies.
+Bump to latest lein-newnew.
+Don't need to explicitly include clojars classic in project.clj.
+Todos and news.
+Don't refer folks to the Releases repository docs yet.
+changed leiningen/test to allow the call into the clojure.test report to pass through the hook to  the original multimethod
+Use `find .` instead of `tree` in the tutorial
+Disable snapshots from maven central
+Add debug logging to javac.
+No tabs
+Add a repo test case which actually merges repositories.
+Add tests to ensure that repository merging works as intended.
+Clarify the exit docstring.
+No tabs!
+Move contributing guidelines into their own file.
+Don't conj :main during uberjar if :aot is :all.
+Bump reply again for more sjacket fixes
+Bump reply version
+Exclusion to pacify lein-pedantic.
+Bump default search page size up to 50.
+Disable a test that requires Java 7.
+Rename :post-preview selector to :disabled.
+Better explanation of :pom-addition, a few more env vars in sample.
+Update README.md
+Update lein-pkg.
+Skip git revision in pom.xml if empty git repo.
+Use aether data to figure out repository id for listener output
+Print checksum mismatch message
+FAQ clarification around classpathy things and repos.
+Stop using prefix lists in javac's :require.
+Check compiler existence within javac subprocess.
+Removes run task aliases within metadata. fix #882
+Add :java-opts as an alias for :jvm-opts
+Factor out selected-namespaces code to prevent walk-off-the-screenage.
+Add capability for selectors to be two functions (one checks the ns, one the vars)
+Update doc/TUTORIAL.md
+Update tests to the new way of defining replacing repositories
+Update the sample project to the new way of replacing repositories
+export $SCRIPT as leiningen.script
+Define selected-namespaces to make core more readable
+Only run test namespaces that match a test selector
+Allow project's git repository to be different than project root
+Update with-profile to accept +/- prefixes
+clarify maven repository terminology. Also,
+Add documentation about the :port option when starting a headless REPL.
+Handle malformed :port option gracefully.
+omit redundant :no_upgrde snippet
+add upgrade support to lein.bat master
+don't propagate DRIP_INIT or DRIP_INIT_CLASS to subprocess
+fixes code fence in plugin tutorial markdown
+Bug fix for leading spaces in JVM_OPTS #856
+Back to classic Clojars for a while.
+Test :provided profile interpretation by the uberjar task.
+Add :port option to headless repl task.
+Add classic repo to Leiningen's own project.clj.
+Move AOT of :main into uberjar task. Remove :skip-aot.
+Better docstrings in leiningen-core.
+Accept optional not-found arg in lookup-alias.
+Accept ^:replace metadata on *env*; don't always want to merge.
+Remove deprecated conj-dependencies function.
+don't need a meta-merge to combine exclusion
+a typo
+fix bug when adding exclusions to dependencies with :displace metadata
+Bump reply for (exit) fix
+Allow for $LEIN_TRAMPOLINE_WARMUP.
+Update news.
+Remove compatibility shims and warnings in preparation for 2.0.0.
+Tidy up user.clj and help.clj.
+Avoid interleaving nREPL port info printing
+Bump reply version for a couple of bugfixes
+Bump reply and other repl-related versions
+Finish getting path quoting right for boot classpath #828
+OK, I knew that was too clever.
+fix #836 trampoline EOF error, on windows
+make trampoline work on windows applied the same fix that preview branch had ie. passing the trampoline file like this:  -Dleiningen.trampoline-file="%TRAMPOLINE_FILE%" ^
+Add leiningen-core's pom.xml to fix #745.
+Quote file paths: may contain spaces #828
+bring back lein.bat from LF to CRLF
+fix for previous commit to allow spaces in folder names ie. the passed path to -Dclojure.compile.path= should be inside double quotes
+Pass default clojure.compile.path just like the bash script does should fix cases where uses of lein.bat would cause the use of /classes/ folder instead of /target/classes/ which resulted in some classes not being found ie. when compiling leiningen project from source
+Clarify how librelist works.
+Don't use colon in filename in when-stale.
+Typo in profiles doc; resource is actually singular.
+repl task needs to disable pumping *in*.
+Pump *in* to subprocesses as well.
+Clarify that project-level tasks are usually unnecessary.
+Add a test for :only selector.
+Rename cmd-selectors to given-selectors.
+Remove an old comment.
+Use destructuring to clean things up a bit.
+Implement partial selectors and add a new default selector, :specific.
+Remove legacy arg.
+remove mention of github as typ values for :url
+changed to keep preferred tag-line
+doc/tut: various minor updates
+add :repl-options :init into headless startup
+Add sample.project.clj to the docs section
+New README section: documentation
+The name of the directory is irrelevant in checkouts.
+A typo
+Move checkout deps documentation to the tutorial, expand it with examples, change wording
+Un-deprecate :auth profile since full-disk encryption is a good use case for it.
+Alias `lein help project.clj` to `lein help sample`.
+Add mixed projects to lein help static content.
+Mention other languages in mixed-projects.
+There's nothing wrong with re-using :source-paths for java.
+New documentation guide: mixed Clojure/Java projects
+keep track of :active-profiles when merging
+switch with-profile to last-wins
+move dependency and repository merging into meta-merge
+add leiningen.core.project/make
+rename profile-key-merge to meta-merge
+move hooke-injection closer to where it is used
+Minor tutorial improvements
+Support subtask specific help via 'lein help task subtask'
+docs update for changes to resolution of repository credentials (gh-768)
+re-add support for :creds :gpg, add warning for anyone using e.g. :username :gpg to get all creds for a repo (gh-768)
+Add support for:
+Debug output in apply-task.
+Improve trampoline help.
+project.clj: add exclusion for sisu-inject-plexus
+Include namespace metadata in test-selector predicates, fixes #242
+Reverting "project.clj: add exclusion for sisu-inject-plexus"
+project.clj: add exclusion for sisu-inject-plexus
+Print message when installing jar locally.
+support :os and :arch options in project map
+always extract native deps from snapshot jars
+use -classpath instead of -cp so that jdb can be used for :java-cmd
+ignore things like .leinrc too
+code reuse: context specific CLASSPATH is used checkout and non-checkout
+use bash helper function add_path to setup classpath
+Add bash function add_path for (class)path setup
+Handle the default field case
+Fail if the field we are searching over is unsupported
+Print which field we are searching over
+Allow searching over fields other than artifact id, fixes #243
+Ignore all .lein\* files
+Display a message before we update the search index
+Add default REPL history file locations, per-project and globally
+Make LEIN_OFFLINE take precedence over what's in project.clj
+Bump clojure-complete dependency
+If LEIN_OFFLINE env var is set, assume offline mode by default. References #678.
+Honor :standalone in :repl-options.
+fix typo in lein script
+move setlocal first to prevent leaking it to parent shell in win7/xp However on win7 though (but not on winxp) all set variables inside script will be leaked if the script fails within another setlocal ie. set JAVA_CMD="ja"va" lein set Will show LEIN_HOME, LEIN_JAR and ORIGINAL_PWD remained set.
+use LEIN_JAVA_CMD in lein.bat just as in the bash script just as @technomancy said in #774 if LEIN_JAVA_CMD is not set it will fall back to JAVA_CMD which in turn if it's not set it will fall back to just "java" (without dbl.quotes)
+pass local-repo to install
+Add a warning under project-specific tasks.
+Mention the Gitorious mirroring and Travis tests.
+fix for when JAVA_CMD is set to path containing double quotes addresses #774 script will still fail if it contains characters like >, <, |, & or even parentheses or an even number of double quotes ie. this will work: set JAVA_CMD="c:\program"" f""iles\java\jdk1."7.0_0"5\bin\java.exe" lein javac
+fix truncated doc string for set-profiles
+Wait no, that Postel's law invocation doesn't make sense.
+Plugin -> Task
+Little addition to plugins doc
+Postel's law, I guess?
+Reduce output for dependency resolution
+Update leiningen-core/src/leiningen/core/project.clj
+Include user profile repos for search outside project, issue #762
+Use project/defaults for lein search, if needed. Issue #762
+work with drip-stable, et al
+REPL task cleans up repl-port file on shutdown
+Only apply workaround to Windows bug when not trampolining.
+Allow override of gpg executable using LEIN_GPG
+Don't insert :deploy-repositories/:plugin-repositories keys without vals.
+Propogates the file.encoding system property to subprocesses
+add DRIP_INIT so lein will be faster when running with decaf
+Clarify leiningen-core installation instructions
+Don't suppress stack traces unless it was an explicit exit thrown.
+Normalize format of :deploy-repositories and :plugin-repositories too.
+Bump reply version for a few issues
+Have lein.bat use local .lein-classpath.
+Stupid bash typo.
+News updates
+Back to 2.0.0-SNAPSHOT. Next release will be RC1, for reals.
+Release 2.0.0-preview10.
+Load plugins based on default project so :repositories are available.
+Consistently explain how to set insecure HTTP_CLIENT in bin/lein.
+Bump back to 2.0.0-SNAPSHOT.
+Release 2.0.0-preview9.
+news updates.
+Document :provided profile.
+Include :dev profile before :provided, giving :dev priority.
+Perform de-duplication on :repositories.
+Switch :repositories to vector format to preserve ordering.
+forgot to switch plugin-vars calls to pass keywords
+Include :provided profile when building JAR.
+support disabling autoload of plugin hooks and middleware
+remove unnecessary is inside of are expression
+add breaking test for #742
+Implement Maven "provided" scope with :provided profile.
+use (get project key) to be consistent
+Stop using project metadata for storing trampoline forms.
+documentation for automatic plugin hooks and middleware
+unify :hooks and :middleware format in project.clj
+set-profiles it is. and it's a high-level operation.
+Document profile merge logic a bit.
+Rename with-profiles to reset-profiles.
+Trim long lines in sample.project.clj.
+* upgrade to nREPL 0.2.0-beta9 * :nrepl-* configuration moved under :repl-options * :nrepl-middleware now takes advantage of descriptors in middleware metadata
+Don't store prep blocker on project metadata.
+Collapse load-hooks into one doseq.
+The newnew plugin lives in default-profiles, not the default project.
+rename reset-profiles to with-profiles
+fix unmerge-profiles to work with composite profiles
+Don't try to merge profiles without an active project.
+Prefer vary-meta to with-meta. Rename combine-profiles to apply-profiles-raw.
+Rename resolve-symbol -> require-resolve.
+Trim long lines in leiningen-core.
+Support ext dependencies in eval-in :classloader
+Better error messages for eval-in :classloader
+Make :eval-in :classloader work	with native deps
+Allow for plugin specific repositories with :plugin-repositories.
+Always set -Dclojure.compile.path when we are running from a checkout
+Try to make the LEIN_JVM_OPTS default sane for :eval-in :classloader
+Add support for .leinrc
+Document LEIN_FAST_TRAMPOLINE.
+Allow fix for recursive aliases to apply globally.
+Allow :eval-in to be a symbol instead of a keyword.
+Make fast trampolines opt-in for now, use shasum for portability.
+Download lein.jar to temporary name; rename into place
+Soooo... profiles are incredibly hard to get right. So is trampoline.
+Support picking up :dependencies from profiles in trampoline task.
+Back to snapshot.
+Release 2.0.0-preview8.
+Workaround for CLJ-1034.
+News updates.
+Mention :offline? and :local-repo for production deploys in tutorial.
+Put revision in pom.properties file.
+Ensure we don't exit without at least a message.
+add ^:displace to all REPL-injected dependency vectors
+add recipe for Maven Central deployment to DEPLOY.md
+Add an exclusion to reply to fix bootstrapping issues.
+Preserve metadata on project in merge/unmerge/reset-profiles
+only nedd to print an error about explicit hooks that cannot be resolved
+add missing utils require
+report errors better in load-hooks
+use resolve-symbol for hooks and middleware
+combine-profile does not need to keep track of included-profile.
+add resolve-symbol to utils and use it in resolve-task
+apply middleware whenever project profiles are modified
+automatically load middleware and hooks from plugins
+only emit allowed elements within pom's <scm>
+Turns out pom.asc is correct here.
+Exception handling in main can be simplified now that we're using ex-info.
+Improve error message when plugin isn't found.
+Pagination of search results.
+Help can use tasks from leiningen.core.main now.
+remove printlns :-(
+fix munging of symbols for require of named nREPL middleware and handlers
+Don't throw on index download.
+Better error message for malformed user profiles.clj.
+Bump reply/nrepl dependencies
+Use updated search index format and location. Lots of TODOs still.
+News updates.
+fix recursive merging of profiles that involve ^:replace and ^:displace meta on nested values
+Todo updates.
+Only the suggestions that have the same minimum distance.
+Initial crack at suggestions.
+Distance fn from amalloy.
+Whitespace.
+Don't complete for test! anymore.
+Because startup time is science
+Consolidate LEIN_JVM_OPTS defaults
+Don't set -Xms, it adds to the startup time and has no real benefit
+Add default value for LEIN_JVM_OPTS
+Distinguish between false and nil when checking file existence.
+Use when for side-effects, not return values.
+Document prep-tasks, :keyword task arg conventions, and l.c.m/abort.
+Temporarily honor numeric exit codes and warn of deprecation.
+add :pom-addtion example
+Remove commented-out shell wrapper remainders.
+Add ability to add arbitary content to generated pom file
+Make repl task only bind to localhost by default.
+Mention :gen-class, references #710
+Minor improvements to sample.project.clj, closes #710
+merging http proxy changes
+making http.nonProxyHosts more optional
+Remove profiles before checking for snapshot deps in pom.
+propagating non-proxy-hosts to sub processes too
+merging in pitherjo\'s change
+Honouring http_no_proxy to complement http_proxy for apache httpcomponents client compatible libraries
+Give nicer messages instead of ex-info subprocess failed traces.
+Honouring http_no_proxy to complement http_proxy for apache httpcomponents client compatible libraries
+Document how commas are treated.
+Add test! back as an example alias.
+Clean up l.c.eval namespace.
+Move "already compiled all namespaces" message to debug.
+Update env var reference.
+sorting out quoting of proxy section in faq
+sorting out quoting of proxy section in faq
+update faq for http_no_proxy
+using http_no_proxy instead of httpNoProxyHost
+using http_no_proxy instead of clunky httpNoProxyHost
+i think you meant host not port
+Don't depend on cd-client in a headless nrepl server.
+A better default/example
+Make it clear how to use :checksum setting that is applicable to all repositories
+Add environment variables reference to the bottom of sample.project.clj.
+Only use leiningen-core/lib for bootstrapping lein's own classpath.
+passing non-proxy-hosts though to pomegranate if present as environmental arg
+Correct :test-selectors example
+Make task name column wider in the lein -h output
+use composite profiles for :default
+separate combine-profile out into its own function for dsantiago
+add support for composite-profiles
+Unify exit code handling with ex-info.
+ignore emacs save files
+read profiles from PROJECT_ROOT/profiles.clj
+Don't override *exit-process?* or *exit-after-tests* unless needed.
+We don't need to store test results in a file anymore.
+Some more TODOs.
+Oops; this was intended as a joke.
+Add repeat higher-order task
+Clarify "checkouts" feature.
+Leiningen, be nice
+Update sample.project.clj to use the new `:javac-options` format
+Link to profile guide in readme.
+Add aliases for -help and -version
+"aliases" need not be an atom, now it isn't
+Remove redundant "help" aliases
+some semantic changes, not sure I fully get what you mean in some cases like the last :default change.
+Tweaks to the tutorial.
+Intercept "help" after task name, issue #629
+Auto-detect wagons from plugins.
+updated prep-tasks doco
+prep-tasks handles both strings and vectors
+changed doco to reflect prep-tasks args
+added prep-tasks which allows prep tasks to include args
+Improve example of :aliases in sample.project.clj.
+Unmark :post-preview compile tests.
+Re-enable post-compile cleaning.
+Explanatory message at the top of bin/lein.
+Bump bultitude, clucy versions.
+Formatting of chaining warning.
+Ignore all signatures.
+Compile nses in :aot vector order.
+Drop back to 2.0.0-SNAPSHOT, hopefully for the last time.
+Release 2.0.0-preview7.
+Documentation, news, todo updates.
+Add clojars to default :deploy-repositories.
+Look up aliases in prep and trampoline.
+Allow user-level repositories which contain credentials only.
+Add an example to the warning about task chaining
+Update todo
+Slightly better error message
+Abort task chaining if Java sources compilation (lein javac) fails
+Work with latest pomegranate deploy-artifacts signature.
+Deploy signatures along with jars and poms.
+News updates.
+Use both built-in :leiningen/test profile and :test profile in test task.
+Pull in latest lein-newnew.
+Fall back to reply beta8 due to trptcolin/reply#67
+Pull in drawbridge directly so we can exclude ring.
+fix :javac-options example in sample.project.clj
+Rephrase sample.project.clj comment for :scm #640
+Add :scm to sample.project.clj (#640)
+Try solving #640 with BC
+Bump REPLy/nREPL versions for reply task
+Remove :force arg to deps; -U makes it redundant.
+Honor :classifier and :extension when de-duping deps.
+Remove faked out exit code.
+Move tiered compilation out of profiles and injections into them.
+Turn :bootclasspath off by default; too many issues for now.
+Turn off bootclasspath for projects using 1.2.
+Link to namespace documentation in tutorial.
+Point people towards 2.x in the readme.
+Test boot time for lein run rather than lein version.
+Clarify that profiles.clj is just a map.
+Set user-agent in search index downloads.
+Move user-agent to its own function; make it match `lein version` more.
+Don't assume all args are strings; can have partial aliases.
+Enhanced User-Agent string #636
+Set "Leiningen" User-Agent in http requests for issue #636
+Rewrite docstring for deps task.
+First pass at verifying signatures via `lein deps :verify`.
+Allow leiningen.core.eval/sh to work with rebound *out* and *err*.
+Bump back to 2.0.0-SNAPSHOT.
+Exclude .DSA files too.
+Move hooke injections to default profile.
+Document do task.
+Suppress stack trace from exit exception in with-profile.
+Consistent use of leiningen-version function.
+Todo updates.
+Remove left-over use of integer error code in classloader eval.
+Remove outdated comment about ant.
+Improve defproject docstring.
+Minor fix to avoid this error:
+Release 2.0.0-preview6
+Read user profiles once (it uses IO so it should be faster)
+Add bin/release.
+NEWS for preview6.
+Replace :env values in :repositories with lookups from environment.
+Document :certificates.
+memoize call to gpg credentials
+Add browser-compatible hostname verifier to HTTPS scheme.
+Honor :certificates in project.clj.
+http://p.hagelb.org/what.gif
+Depend on reply directly rather than using the default profile.
+Back to 2.0.0-SNAPSHOT.
+Release 2.0.0-preview5.
+Mention bug in gpg that prevents gpg from prompting for passphrase.
+Revert "cache gpg credentials, be okay with asking for a passphrase"
+Temporary workaround for #613.
+Bump reply version to 0.1.0-beta8
+News for 2.0.0-preview5.
+cache gpg credentials, be okay with asking for a passphrase
+Add <packaging> to the POM.
+Remove test for deprecated :repository-auth settings.
+Fall back to ordered 1.2.0.
+leiningen-core tests don't need to be run separately.
+Work around bug in ordered maps.
+Don't prompt for a password deploying to file:// URLs.
+Update tutorial and deploy guide for HTTP deploy and credential storage.
+Interactively prompt for credentials if not found.
+Oracle JDK 7 fails, disabling for now
+Trying out a secret new travis-ci.org feature
+Move reply to default profile so that it can be upgraded.
+only decrypt the default credentials file if the file exists
+Java throws an exception if Runtime/exec doesn't find the command.
+Use ~/.lein/credentials.clj.gpg instead of :auth profile.
+Use https for clojars.
+Explain how to fall back to insecure SSL when self-install fails.
+Explain in FAQ how hard version ranges win and how to avoid them.
+Remove test for init-project.
+Tiny typo fix in tutorial
+Unneeded kw local var
+Enable pom tests
+Remove support for :run-aliases.
+Add "Running code" section to tutorial.
+Spin off separate profile guide from readme/tutorial.
+Apologize for the slowness of Central indexes; link to web search.
+Apply feedback from Steve Losh on tutorial.
+Spin FAQ off into its own page.
+Renaming test to better reflect what it is actually testing.
+Create path for jar file entries
+Bump REPL-y version for bugfixes
+Allow :replace/:displace metadata to work on :dependencies entries.
+Allow user-level :repl profile to override hard-coded repl profile.
+Ignore web directory where leiningen.org may be checked out.
+Don't break the line
+Set default encoding for Lein's JVM to UTF-8, fixes #586
+Allow with-profile to run outside a project dir.
+fixed another quote
+fixed another quote
+Bump back to 2.0.0-SNAPSHOT.
+Release 2.0.0-preview4.
+Use unmerge-profiles in jar and uberjar.
+More news.
+Apply tiered compilation to the project JVM, not just Leiningen's own.
+Move :checkout-deps-shares to default profile.
+Remove stray printing.
+Allow :checksum policy to be set at the top-level of project.clj as well.
+Ignore target-path from project reading test.
+Move pom.xml file back to the root of the project.
+Add :update profile and -U alias for applying it.
+Add :update support at the top-level of the project map.
+Update the news symlink to point at NEWS.md
+Quote lein-newnew in default profile.
+Untabify bin/lein.
+Remove unused script templates.
+Changed launcher lein.bat to determine whether it's a source checkout by looking for directory 'src'
+Improve namespace completion performance
+Reword a few things in READMEs, todo tweaks.
+Update NEWS for preview4.
+Make sure cygpath affects LEIN_JAR.
+Remove --update argument to search task.
+Bump reply
+added -o as an alias
+Make merge-profile private and convert found uses of it to merge-profiles.
+Add tests for unmerge-profiles and merging anonymous profiles through merge-profiles.
+Make add-profiles work even when there is no without-profiles metadata. Add a test for add-profiles.
+Update profiles-for to accept both keywords and direct maps.
+Add unmerge-profiles function.
+Return merge-profile to a public function, instead make it record the map it merges in the :included-profiles metadata.
+Add add-profiles function.
+Tidy up install task.
+Make merge-profile private.
+Remove "checksum" verbiage from when-stale.
+Remove a layer of quoting in the when-stale files.
+Fall back to project when :without-profiles is absent in pom.
+Allow URL scheme to be omitted in $http_proxy.
+Quit checking CLASSPATH in lein.bat.
+Set CLASSPATH from scratch rather than checking existing value.
+Added docs for `lein deps :tree`.
+Bump pomegranate for http deploy fixes
+Issue #559: Provide leiningen-version function
+Explicitly use bash in bin/lein.
+Drop the --no-check-certificate argument to wget.
+Clarify group-id in tutorial.
+Clarify that group ids are used for namespacing and are optional
+Use space in sample for classpath.
+Allow :manifest entries to contain functions.
+#541
+Example of group id
+Upgrade lein-newnew.
+Add fallback for LEIN_HOME environment variable
+Add target to .gitignore
+Decouple init-project from l.c.project/read
+Strip trailing ws
+Translate most common javac options in Leiningen 1 format into the one used by Leiningen 2
+Use newnew plugin 0.2.8 with the directory structure fix
+Put version in deps :tree inside a string.
+Don't set environment to empty map by default.
+Clarify profile selection logic in readme.
+Make the environment for subprocesses check a dynamic map.
+Bump version of ordered to avoid locked version range.
+make lein test print ns-specific commands that can be copied and pasted
+eliminate duplicate init-profile
+test for init-project
+load plugins, middleware, hooks, etc after merging profiles in with-profile
+Add references to leinjacker and its eval-in-project
+Add back in 1-arg version of help-for for backwards compatibility.
+print complete information on errors encountered in with-profile
+Bump reply version for jlinerc warning fix
+Allow trampolining the repl task
+Clarify that :password and :passphrase are used by different repositories.
+Bump to Clojure 1.4.0.
+Move :native-path to under target/ dir.
+avoid NPE when searching for "Suppressed exit"
+maven wants password not passphrase
+Bump reply, nREPL, and cd-client
+fix LEIN_HOME path when running under cygwin (required for user profiles)
+lein classpath: Accept optional output-file
+Print error for missing tasks instead of stacktrace
+Remove "bundled mode" from bin/lein.
+Bump back to snapshot.
+Release 2.0.0-preview3.
+Readme tweaks.
+Don't shutdown agents when exit is suppressed.
+Bump reply to 0.1.0-beta3.
+Have mercy on the packagers; don't pull in useful for a 1-line defn.
+Handle starting in a different ns
+Update sample.project.clj docs.
+Collapse all repl-* options into :repl-options map
+Prevent user profiles from affecting pom tests.
+Switch pom tests back to not having clojure-complete.
+Bump pomegranate; fixes #491
+Update bultitude.
+don't call pomegranate/can-modify?
+Add more repl task news
+news/todos
+Make help task look up argument in aliases map.
+bump clj-http dependency
+Once upgraded to 1.1.1, lein2 pprint showed the output (it didn't work with the previous version - no output shown)
+Bump reply dependency
+Port arbitrary version upgrades from 1.7.1.
+Don't warn of profile merge conflicts when the classes match.
+Update doc/TUTORIAL.md
+repl can be run from anywhere, too.
+News for preview3.
+Pom output handles dev dependencies that overlap standard deps
+Document $http_proxy in faq.
+Maven proxy only valid for Leiningen 1.x
+Set http proxy system properties. Addresses half of #281.
+Get authentication info out of $http_proxy.
+Skip profiles when calculating deps for uberjar.
+add proxy support
+Handle exclusion vector better for pom generation
+Document :filespecs in sample project.clj.
+Support :fn in :filespecs for arbitrary additions to jar.
+Allow arbitrary :filespecs in project.clj.
+Re-add missing stacktrace.
+FAQ link to Maven proxy docs
+Drop deps :tree indentation to 2.
+Temporarily disable test that relies on exit codes.
+Move :prep-tasks to default project instead of profile.
+Oops; forgot to actually remove compile call in that last one.
+Nicer formatting of lein deps :tree
+Remove plugin stuff from 1.x out of lein.bat.
+Remove jline from lein.bat.
+Remove Clojure 1.2 from bootclasspath in lein.bat. Might fix #486.
+Note that "lein search" can be slow
+Pom adds dev and test dependencies scoped
+Pom generation profile handling; Add java-source-paths
+Add debug and info functions for #473.
+Block repl on prep-tasks.
+Test needs to set-ize things.
+Bump reply version
+Give consistent & friendly output about nREPL port
+Add :included-profiles metadata to project map in merge-profiles. See issue 392.
+Now :project-init is redundant with :injections.
+We don't use CLOJURE_JAR anymore.
+Reorganize todo.
+Add :offline profile.
+Inline shutdown hook for killing subprocesses.
+Shouldn't need to aot in leiningen-core anymore.
+Make the sample file match the code
+Destroy subprocesses on shutdown
+fixed normal/trampoline statement and arguments
+Let deps :tree print a dependency tree
+fixed lein self-install on windows
+Set :jvm-opts during eval-in :leiningen.
+update README.md to add example of getting dependencies in place for 1.x branch
+Switch from :busted test tagging to :post-preview.
+Add :offline test selector.
+Don't use abort as a side-effect.
+Privatize anything that's not an explicit API.
+Switch leiningen.help/tasks to a function.
+Allow run-form to be public.
+echo port number of headless nREPL server
+add support for `lein :connect [hostname:]port`
+Display aliases in lein help
+Use a more helpful message when task is not found
+Add dummy plugin task to point confused people to upgrade guide.
+Clarify stable vs preview in readme.
+Get latest reply alpha
+add leiningen-core/src to source-paths and simplify :aot pattern
+shorten overlong line
+fix stale-namespaces to work with (:source-paths project)
+Deprecate conj-dependencies.
+Ignore TAGS
+Respect :java-cmd in project if it is given
+file timestamp resolution can be coarse, compile if mod dates are equal
+replaceAll -> replaceFirst (there is only one possible replacement)
+javac: check .java vs. .class mod dates, only compile stale sources
+One more test case for the lein new task, includes artifact group in project name
+Use lein-newnew 0.2.5
+Use lein-newnew 0.2.5.
+Back to 2.0.0-SNAPSHOT.
+javac: improve error report when system java compiler is missing
+fix broken test for search
+show progress when downloading maven index for search
+Release 2.0.0-preview2.
+Add :default profile in when loading plugins outside a project.
+Handle nil :plugins key when running outside project dir.
+Quit using :use.
+Update readme links to point to preview branch.
+Move version back to 2.0.0-SNAPSHOT.
+subtask-help-for expects a map, so let's give it one.
+Release 2.0.0-preview1.
+Load plugins when operating outside a project dir.
+Do full AOT in Leiningen project itself.
+Allow both :aot regexes and symbols to simultaneously work.
+Don't recursively prep project.
+leiningen.core.main/task-not-found needs to be marked as not needing a project to work properly.
+Docstring updates.
+Make "lein upgrade" look at preview branch.
+Use bootstrap classpath for Leiningen.
+Update sample, readme, todo.
+Update tutorial.
+Make copy-to-jar into a reduction so duplicate roots aren't added.
+Add a failing test for overlapped sourcepaths.
+Allow suppressing of leiningen.core.main/exit for IDEs/tools.
+Drop user/settings in favour of checking :user profile directly.
+Bump reply to get fixes
+Extract function for ack-port
+Documentation for lein repl :headless
+Add :headless flag to repl task
+Update sample.project.clj for 2.0.0-preview.
+Port :checkout-deps-shares to master branch.
+NEWS updates.
+Revert a text change to README.md
+Output full path of pom.xml.
+Pass through :local-repo and :offline? options to pomegranate.
+Add conj-dependency function.
+Test :exclusions.
+Move :dependencies back to vector-of-vectors.
+Make leiningen-core dirs visible when testing leiningen proper.
+Move normalization out of defproject into top-level comp.
+Cosmetics.
+Add warning if a checkouts directory does not contain a project.clj
+Don't put $LEIN_DIR/lib on the classpath; that's deprecated.
+Switch to bultitude for ns finding stuff.
+Use official data.xml release.
+Move prep-tasks out of atom into :default profile.
+Implement :middleware.
+Avoid sending an empty :attach port to reply
+keys in :auth :repository-auth can now be regexes matching repository URLs, fixes gh-424
+missed a test
+load plugins through classpath/resolve-dependencies so as to benefit from authentication config, etc, fixes gh-423
+allow hook load/activation exceptions to bubble up, fixes gh-419
+Upgrade pomegranate to 0.0.8, fixes gh-422
+Add a todo for including denormalize.
+Ensure we launch eval-in-subprocess in the project root.
+Update plugin guide to mention plural path keys.
+Update tasks to use plural paths. Use :resource-paths instead of resources.
+Switch to "input" paths as plural keys.
+Simplify profile merging now that deps/repos are maps.
+Allow :injections to be a collection.
+re-enable accepting repository URI as argument to `deploy`
+emit sane progress messages when resolving dependencies and deploying artifacts
+upgrade to pomegranate 0.0.7
+fix deploy task
+upgrade to pomegranate 0.0.6; changes default checksum policy to only warn on failure
+Suppress error when no test namespaces are found.
+tweak test so that we *actually* fix gh-413.
+Keep pom.xml in /target, fixes gh-413
+don't swap out thread context classloader if it's already modifiable
+upgrade to pomegranate 0.0.5; use its get-classpath in leiningen.core.ns to fix gh-412
+add project classpath to leiningen's classpath if :eval-in :leiningen, fixes gh-411
+:extra-classpath-dirs no longer supported
+Going to go ahead and call that a typo.
+Expose :repository-auth from user profiles to pomegranate.
+Test leiningen-core in CI.
+Remove user/settings check in repl task in favour of :user profile.
+Move special nrepl deps from :default profile to repl task.
+Bump reply for more CLJ-855 fun
+Clarify mismatch warning when merging profiles.
+Don't rely on binding of *ns* in project/read.
+Move :test-path to :default profile and lock inside project/read.
+Bump clucy version to avoid dynamicity warnings.
+Bash isn't necessary.
+Allow lein to run when called with no tasks and no .lein-classpath
+Bump reply & clojure-complete versions
+Hook up to nrepl beta1
+Doco stuff.
+Allow :aliases in project.clj.
+Call System/setProperty for eval-in-leiningen calls.
+Lock to data.xml timestamped snapshot, update todos.
+Clarify backwards-compatibility eval-in-project shim.
+Make with-profile start from the base project.
+Revert "Revert "Upgrade to the latest nrepl""
+Lock to non-snapshot reply
+Revert "Upgrade to the latest nrepl"
+Revert "Add sonatype snapshots for the time being"
+Add sonatype snapshots for the time being
+Upgrade to the latest nrepl
+Documentation typo fixes
+Replace `whoami` with `id -u` test
+Docstrings should make grammatical sense.
+Correct spelling for docstring
+Allow colon-separated profiles to sequential task application
+Mention running outside the context of projects in plugin guide.
+Add "Upgrading Existing Plugins" section to plugin guide.
+Couple more todos.
+Include temporary leiningen.compile/eval-in-project placeholder.
+Link to the EPL in project.clj.
+Be more forgiving of sparse project maps in eval-in-project.
+Tweak todo.
+Allow profiles arg to pprint a given profile.
+Document things better.
+Add the `lein profiles` command to list available profiles
+Override install instead of adding before_script
+Make sure .travis.yml includes language: clojure
+Absolutize paths in :without-profiles project map as well.
+Implement a few partially-applied help aliases.
+Allow aliases to specify partially-applied tasks.
+Don't do anything if there aren't any java sources.
+Check 'javac'.
+Handle task options and print a compiling message.
+Rewrote the javac task using built in Java compiler stuff.
+Rewrite explanation of profiles in readme.
+Profiles mean :jvm-opts in user/settings isn't necessary.
+Use :without-profiles version of project map in jar task.
+Warn when profile is specified that doesn't exist.
+Use absolute paths when checksumming lein's own project.cljs.
+Drop JLine/rlwrap since we have reply. Allow any task to trampoline.
+Add support for a 'check' task, which checks syntax and reports reflection warnings.
+Recalculate .lein-classpath when project.clj changes.
+Remove spurious leiningen.core reference.
+Mention symlink for bin/lein in "Building" section of readme.
+Remove dummy leiningen.core namespace.
+Move absolutize-path call into merge-profiles.
+Move :dev profile to :default in default-profiles.
+Promote leiningen-core/src in classpath when working in checkout.
+Move reply and lein-newnew to lein's own project.clj.
+Add Clojure exclusions across the board.
+Enable completion for non-leiningen projects
+Add a docstring to the repl task.
+Hardcore merging action.
+Allow users to explicitly set a REPL port.
+Up the repl timeout to 30 seconds.
+Add support for setting reply options.
+Allow the task to work outside of projects.
+Make lein-repl-server a delay.
+Use bound-fn so that it doesn't blow up with eval-in-leiningen.
+Use nrepl's ack mechanism instead of manual polling.
+Add connection polling.
+Wait for nrepl server to start.
+Allow :dependencies to be loaded after profiles in :eval-in-leiningen.
+WIP new lein repl task that uses reply.
+Honor :hooks. Allow hook namespaces to contain "activate" defn.
+Help, search, and repl tasks may run outside projects.
+Honor :test profile in test task.
+Inc lein-newnew version to fix boogz.
+Remove newnew stuff from leiningen and add it as a dependency.
+Clean up a bit.
+Add native deps extraction.
+Update travis to bootstrap leiningen-core
+Update pomegranate; all repo/dependency options should work
+Don't splice injected forms.
+Couple more TODOs.
+Release 1.1.1 of lein-pprint.
+Document prep-tasks, clean up ignores.
+Warn when encountering user-level repositories.
+Release 1.1.0 of lein-pprint example plugin.
+Added support for replacing/displacing profile values instead of merging.
+Update doc/TUTORIAL.md
+Support :injections project key.
+Calculate lein's own classpath in bin/lein.
+Update todo.org.
+Add prep-tasks for precompile/javac.
+Add :uberjar-inclusions.
+Update README's mention of client JVM vs tiered compilation.
+Update deploy task
+Update install task
+Update pomegranate version
+Update uberjar for new api
+Copy pom.xml generation from depot
+Derp; duplicate set key.
+Bootstrap CI with leiningen-core-2.0.0-SNAPSHOT-standalone.jar.
+Re-enable ci for master branch.
+Move dynamic resolution of eval-in-leiningen :dependencies.
+Tidy up from-checkout classpath setup.
+Tiered compilation in bin/lein.
+Move HACKING.md into leiningen-core README.md.
+Update leiningen.core.main tests.
+Move -main to leiningen.core.main.
+heh heh...
+General cleanup.
+Update hacking guide.
+Update tutorial for Leiningen 2.
+Remove old ns references in pom.clj.
+Add sample lein-pprint plugin.
+Update plugin guide; remove deprecations from sample.
+Update bootstrapping instructions, remove old lein.util.* references.
+Document profiles.
+Remove support for profiles.clj in root; read profiles.clj instead of load.
+Update readme for lein2.
+Load :dependencies in eval-in-leiningen cases.
+Load plugins inside leiningen.core.project/read.
+Re-enable tests targeted for preview.
+TODO updates, separate out tasks targeted for 2.0.0-preview.
+Remove deprecated util namespaces (except ns; still needs work).
+Get repl and trampoline tasks to at least compile.
+Remove deprecated :repl-init-script.
+Remove plugin task.
+OK, so relative paths in project maps was the wrong way to go.
+Remove dev-deps-only test project.
+Full test suite will at least compile.
+Checkout deps shouldn't apply default profiles.
+Generate pom from pre-profile project.
+Document a couple functions.
+Add debug profile.
+Remove old core tests.
+Add with-profile task.
+Expose pre-merged project without profiles applied on metadata.
+Allow profiles to be aliased to other profiles using keywords.
+Read profiles from ~/.lein/profiles.clj and :profiles key in defproject.
+Implement merging profiles into project maps.
+Add a test for unquote.
+Simplify representation of paths and deps to prepare for profiles.
+Include commented out :url option in default project.clj
+Normalize java-source-path (so that if it actually is provided, we get a normalized path).
+classlojure 0.6.5
+Expand HACKING.md a bit.
+Un-mapify :repositories before handing off to pomegranate.
+Compile works
+Update tests for test task.
+Update tests for compile tests
+Add note about master branch to readme.
+Normalize :repositories values into map. This fixes search task.
+Keep Clojure off the bootstrap classpath temporarily.
+Read plugins from ~/.lein/plugins2 for now.
+Absolutize paths inside get-classpath for now.
+Update the run task tests for 2.0
+Add test for leiningen.core.project namespace.
+Add leiningen-core's src/ dir to the bin/lein classpath.
+Switch run task over to using leiningen-core library.
+Try to fix reading of sample projects in leiningen.test.helper.
+Use leiningen.core.classpath from classpath task.
+Test selectors were mentioned earlier, and they go in project.clj, so should be reflected later on.
+Only show a single line of help for subtasks in task help.
+Preserve order in subtask help list.
+add eval-in :classloader
+remove :eval-in-leiningen check
+add eval-in multimethod and add support for :eval-in project key
+simple leiningen-core eval test
+Add explicit hooke dep to leiningen-core.
+Drop deprecated arities of eval-in-project.
+Better marginalia-friendly docs for leiningen-core.
+Update todo.org with 2.0 tasks.
+Disable CI tests for master for now.
+Move leiningen.util.ns to leiningen.core.ns.
+OK, now lein version at least runs again. Whew!
+Remove interactive and test! tasks.
+Make clean task just about target-dir.
+Switch from leiningen.core to leiningen.main.
+Add repositories handling in defproject.
+Add leiningen.core.eval; still needs plenty of work.
+Begin work on 2.0 in leiningen-core library.
+Properly escape USERPROFILE in lein.bat.
+Document :type in :dependencies in sample.project.clj.
+Technically the stdin fiasco is the JVM's fault, not Ant's.
+Move NEWS to markdown.
+Ignore wiki directory so I can keep a checkout in my lein checkout.
+Add :offline test selector.
+Add quotes to JVM_OPTS in bin/lein.
+Disable :checksum-deps when writing shell wrappers.
+Release 1.6.2.
+Ensure explicit deps calls override :checksum-deps.
+Call System/gc before deleting files recursively.
+Remove test line that accidentally snuck in.
+Use $PWD when determining "bundled lein".
+Explain eval-in-project with dummy project arg in plugin docs.
+Implement bundled mode in lein.bat.
+Need to make *err* a PrintWriter.
+Running in $HOME is not running in bundled mode.
+Port relevant changes from bin/lein to bin/lein-pkg.
+Pull in updated lein-pkg from Debian.
+Split out find-jars and find-deps-jars.
+Check for :compile-path in prep. Default to "" for project :root.
+Update NEWS file. Remove 2.0 stuff from todo; keep it on the wiki for now.
+installing in local repository even if redefined in settings.xml
+Keep already-packaged lein off the classpath in bin/pkg-lein.
+Don't need a message for ns-finding read failures.
+Work around Clojure 1.2 reader bug.
+s/project mode/bundled mode/.
+Coerce system properties into strings.
+added check for $ORIGINAL_PWD/.lein to exist and choose it over $HOME/.lein as LEIN_HOME. this allows project specific lein installations.
+Removed Clojure 1.3 warnings about dynamic vars.
+Add zsh completion for lein
+Add :parent to sample.project.clj
+prevent error for spaces in $SCRIPT path.
+Make plugin help tests much less specific.
+Indentation fix.
+Work around a windows specific problem in tests.
+Mention ((user-settings) :deploy-repositories) in DEPLOY.md
+Move user-level deploy repos to (user-settings)
+Add -r to rlwrap so it remembers terms for completion.
+Add user-level deploy-repositories setting
+Clarify :dev-deps vs lein plugin install.
+Boost search page size.
+Add :compile-path to sample.project.clj.
+added a fuller explanation of plugins to the README
+added notes about search command to README
+added note about lucene search to help on search command
+Add reminder about :gen-class to uberjar help.
+Remove workaround for joda.
+Apparently joda-time 1.6 is no longer resolving from central!
+Don't error out when cleaning up after snapshot deps test.
+Run self-install during ci.
+Prevent redundant self-install.
+Redo windows installation instructions, be consistent with markdown tt.
+Add Travis CI config.
+Propagate failure return values a bit better in install/jar.
+Just kidding! Move :compile-path mkdirs a bit higher.
+Clean up some test directory references.
+Don't attempt to include non-existent files in the jar.
+Move creation of :compile-path closer to actual compilation.
+Understand proxy class files in `has-source-package?'.
+Test that load works after compiling with :clean-non-project-classes true.
+Include a proxy in nom.nom.nom test, for compilation testing.
+Run implicit clean when deps are fetched.
+What was that all about?
+include java source files in jar as well
+Link directly to raw.github.com.
+Add support for :deploy-repositories slot for deployment-only repositories; closes gh-273
+eval-client-loop doesn't need writer arg.
+Catch exceptions loading ~/.lein/init.clj.
+Explain ordered map guarantee for repositories-for, refs #268
+Support ordering repositories, fixes #268
+Add a test around disabling maven central
+remove empty strings from jvm args
+Add resources to leiningen's classpath in lein.bat.
+installing in local repository even if redefined in settings.xml
+Re-enable execute permissions after last patch disabled it.
+Respect $LEIN_HOME when staving the standalone jar
+Looks like github in-browser merge messed up that markdown.
+Add syntax highlighting to Clojure code in the README
+Goals for 1.6.2.
+Extract native libs for all arch's into native/ dir.
+fix broken link
+Drop version number to 1.6.2-SNAPSHOT.
+Honor :jar-exclusions in copy-to-jar :bytes method.
+Don't include all of user-settings in new project.clj files.
+Keep already-packaged lein off the classpath in bin/pkg-lein.
+Use LEIN_JVM_OPTS in lein.bat.
+Use LEIN_JVM_OPTS in lein.bat.
+Bump lein.bat to 1.7.0-SNAPSHOT.
+arrowed!
+Move "deploy" help to "deploying" to avoid collision.
+Stream output from eval-in-subprocess.
+Added warning for downloading maven search indices. It's slow.
+Replace .lein_classpath with .lein-classpath for consistency.
+Replace .lein_classpath with .lein-classpath for consistency.
+Todo updates.
+Clarify license of images.
+Move "deploy" help to "deploying" to avoid collision.
+Update PLUGINS documentation.
+renamed .classpath to .lein_classpath so that it doesn't conflict with other tools like Eclipse that use .classpath
+Bump version to 2.0.0-SNAPSHOT.
+renamed .classpath to .lein_classpath so that it doesn't conflict with other tools like Eclipse that use .classpath
+Bump to 1.7.0-SNAPSHOT.
+Add missing jar to bin/lein-pkg.
+better fix for lein.bat, as per mtyaka's suggestion
+Add bin/lein-pkg for downstream packagers.
+Add tutorial redirect to keep links from breaking.
+fix test for empty CONTEXT_CP
+Remove useless x characters.
+Implement trampoline command on Windows.
+Use a consistent style with goto statements.
+Switch from rem commands to double colons for improved readability.
+Bump lein.bat to 1.6.1.
+Disable user plugin when the same artifact is a dev dependency in lein.bat.
+Release 1.6.1.
+Update paths of documentation files.
+NEWS updates.
+Suppress "repl started" message in interactive task.
+Mention HTTP proxying issues in the FAQ.
+Add uberjar task argument to specify alternate main ns.
+Re-word docs in favour of the term "project automation".
+Clarify :checkout-deps-shares in sample.project.clj.
+Added :checkout-deps-shares option
+Add deprecation warning for second arg to deps.
+Support :project-init in project.clj to allow :repl-options to use pprint.
+Bump to hooke 1.1.2 to fix compatibility with Clojure 1.3.
+added docs for context specific classpath
+Add a man page.
+Move docs to doc/ directory.
+added support for .classpath files
+Bump version to 1.6.1-SNAPSHOT.
+Bump lein.bat to 1.6.0.
+Make native-deps test work on systems other than 32-bit linux.
+Release 1.6.0.
+Remove unused requires.
+Move default jar-exclusions and uberjar-exclusions to defproject.
+Swap the order of dependencies and dev-dependencies when building pom.
+fix JAVA_OPTS backwards compat
+Preserve JVM_OPTS in trampoline.
+Support native-deps plugin for backwards-compatibility.
+Allow using "lein install foo 1.0" on non-clojure projects.
+load trampoline file into a var to allow cleaning it up
+Include jvm opts in trampolined command.
+Special-case repl for trampolining since it needs raw i/o. (WIP)
+Pull in deps in repl before launching socket server.
+Add *trampoline* var to expose whether trampolining is happening.
+Add exec to trampoline command.
+Tutorial updates for 1.6.
+Support LEIN_NO_DEV environment variable to skip development settings.
+Prevent "lein upgrade" from a checkout.
+Remove hacky jar multimethod.
+Move :eval-in-leiningen binding of *ns* to eval-in-project.
+Doco updates.
+clean up trampoline file
+map "Darwin" to :macosx
+Upgrade to lancet 1.0.1.
+Check *interactive?* and *exit-after-tests* in test task.
+Need a regex here, duh.
+Be more careful in project-accepted? predicate.
+Let's just slap an ALPHA label on trampoline for now!
+First cut at a trampoline task.
+Add a warning to classpath task regarding :local-repo-classpath.
+Allow search pagination to work outside project.
+Move *interactive?* flag to leiningen.core.
+Catch exceptions from missing search index downloads.
+Improve error message for unconfigured deploy.
+Don't shutdown agents in interactive mode.
+Accept a URL as an argument to the deploy task.
+Make search work outside project.
+I'm dumb.
+Mention bug in :omit-default-repositories.
+Add explicit *interactive* flag.
+add support for spaces in plugin paths
+disable user plugin when the same artifact is a dev dependency
+Bump hooke to 1.1.1.
+Show totals in search results.
+Extract os/arch-specific native libs into native.
+Use just plain native/ dir rather than keeping native/os/arch dirs.
+Move to usages of leiningen.util.paths.
+Move some path functions to leiningen.util.paths. Add defdeprecated.
+Shutdown agent thread pool when exiting.
+TODO updates.
+Paginate through search results from each repo in parallel.
+De-duplicate search results.
+Still need to copy :dev-deps with :local-repo-classpath.
+Make the run task support a main function other than -main.
+read user settings from settings map in ~/.lein/init.clj, write same to project.clj
+Clarify deployment guidelines in tutorial and deploy guide.
+TODO updates.
+Support :local-repo-classpath.
+Format versions as strings in search results.
+Make retest work with test selectors.
+NEWS updates.
+Tidy up plugin ns form.
+Re-enable hook saving failures for retest.
+Un-generalize code injection. Use for Hooke only.
+Add retest, sorta.
+Support namespace injection in eval-in-project.
+TODO updates.
+New project structure has an extra level of dirs; Thanks Peter Goodall.
+Remove user/*classpath* var.
+Remove deprecated build.clojure.org repositories by default.
+Ignore .lein-failures in new project skeletons.
+Add :extra-classpath-dirs to project classpaths.
+Bump to 1.6.0-SNAPSHOT.
+Update README to point to the latest Windows release.
+Don't escape the form when compiling in-process.
+Release 1.5.2.
+Check rlwrap for -q support before enabling it.
+Initializing NOT_FOUND prior to entering loop, to avoid error using /bin/sh on Solaris
+Release 1.5.1.
+Honor :disable-implicit-clean in uberjar task.
+NEWS updates for 1.5.1.
+Use the first line of task defn docstrings as help summary.
+TODO updates.
+Use whoami instead of $USER for root detection.
+Add more :repositories settings details to sample project.clj.
+Place deps for :eval-in-leiningen projects in lib/dev.
+pom task now adds dev-dependencies with scope test to pom.xml
+Revert "Enabled correct quoting, editor support in rlwrap"
+Surrounded the $@ with double quotes to prevent arguments with spaces (even quoted ones) from being broken appart into multiple args.
+Enabled correct quoting, editor support in rlwrap
+Mention in tutorial that test selectors need hooke.
+Don't bother with dev-deps when installing plugins.
+Update bin scripts to version 1.5.1-SNAPSHOT.
+Possibly check deps on eval-in-project if :checksum-deps is set.
+Bump version to 1.5.1-SNAPSHOT.
+Update README to point to the latest Windows release.
+Honor user-settings in more places.
+Revert back to warning on checksum mismatch instead of failing.
+Release 1.5.0.
+Docstrings for a bunch of core functions.
+Add user-settings.
+Move *ns* binding to read-project.
+Readme and NEWS updates.
+Update sample.project.clj to mention disabling snapshots/releases.
+Move init-settings to core.
+Add leiningen.pom/default-repo for backwards-compatibility.
+Update to Clojure 1.2.1.
+Add tests for snapshot/releases distinction.
+Factor out test helper functions.
+Support :snapshots/:releases/:update/:checksum settings in :repositories.
+Use AOT to speed up leiningen checkout launch.
+Add deploy guide.
+Tutorial updates.
+FAQ updates.
+No more :reload in skeleton tests.
+1.5.0 RC1
+Add global :exclusions
+add project files to the uberjar first, then dependencies
+Clarify description FIXME in project skeleton.
+Move to lancet as a separate project.
+NEWS updates.
+Move test namespaces to leiningen.test.*
+Revert "User plugins should take precedence on the project's classpath."
+User plugins should take precedence on the project's classpath.
+Factor out :repl-options handling into its own function.
+Rearrange todo.org.
+Honor :class-file-whitelist to make classes/ deletion more manageable.
+Accept :repl-init ns in favour of :repl-init-script.
+Warn when falling back to jline.
+Adjust .gitignore creation.
+Mention ant stdin bug.
+Key leiningen-auth by URL instead of repo name.
+Add prepend-tasks for task hooking in simplistic cases.
+Add flexibility to clean task.
+Continue loading hooks if one happens to fail.
+Remove clojure snapshot dep from test project.
+Bring jar text up to date with current shell wrappers.
+Improve self-install error messages with lein.bat.
+s/disable-implicit-clean/disable-deps-clean/. keep backwards-compat.
+Mention freezing snapshot versions.
+21st century, mate.
+Don't checksum the deps unless needed.
+A few doc changes.
+Suppress socket closed exceptions in interactive tasks.
+New project skeletons don't need contrib.
+First pass at fixing infinite loop in interactive task.
+Make bin/lein compatible with old Bourne shell.
+Don't send stderr to the socket repl.
+Add logic to create checksum file after creating dependencies
+Add ant-nodeps as a dependency to pull in symlink task
+The *jure check needs to be case-insensitive. Thanks to kencausey.
+Set includeantruntime to false for javac task.
+Add version to script wrappers.
+Moved make-auth to leiningen.deps from leiningen.deploy.  Modified leiningen.deps/make-deps-task to use make-auth.
+Add pcmpl-lein.el for eshell completion.
+Update bash completion with latest task list.
+Skip fetching deps unnecessarily when :checksum-deps is set.
+Separate :snapshots and :releases repository URLs in project.clj.
+Make user-specified %CLASSPATH% take priority.
+Make user-specified $CLASSPATH take priority.
+Update NEWS for 1.5.0 features.
+Add test for deploy task.
+Add deploy task.
+Reload tests in interactive mode.
+Bump version to 1.5.0-SNAPSHOT.
+Make lein test! able to handle nses
+Update copyright year in readme.
+Use the current year for the README
+Update README to point to the latest Windows release.
+Release 1.4.2.
+Added .gitattributes to avoid autocrlf for bat files
+Switch from JAVA_OPTS to JVM_OPTS in windows batch scripts.
+Allow :clean-non-project-classes to be a seq of regexes.
+Add sample.project.clj to static-help pages.
+Rework some of sample.project.clj.
+Switch from JAVA_OPTS to JVM_OPTS. The former retained as an alias for now.
+Make lein.bat save self-install jars into LEIN_HOME
+Enable extensions in lein.bat.
+Let plugins take precedence in lein.bat when running from checkout.
+Update README to point to the latest windows release.
+Release 1.4.1.
+Update NEWS for 1.4.1.
+Allow boosting :repl-retry-limit in project.clj for slow-starting projects.
+Point to the fixed windows zip file in README.
+Allow :main to not trigger AOT with :skip-aot metadata.
+Indentation for native-names.
+Switch test project to not use missing Clojure snapshot.
+Make :deps/:dev-deps aliases for :dependencies/:dev-dependencies.
+Clean up after test runs.
+Unshadow clojure.core/name to get tests passing again.
+Support setting clojure.debug system property.
+Make paths absolute when reading project.clj.
+Mention :keep-non-project-classes in sample.project.clj.
+Don't allow release versions that depend upon snapshots.
+Fail correctly in chained tasks.
+Bump to version 1.4.1-SNAPSHOT.
+Update README to point to the latest windows distribution.
+Release 1.4.0.
+Switch to $() shell execution for font-lock purposes.
+Switching all Github URLs to https.
+Clarify checkout dependency FAQ.
+No need to skip dev-deps when creating jar.
+Support static docs in help task. (readme, tutorial, news, licensing.)
+No quotes on repl start message.
+Conditionally exit after test runs only.
+Revert *exit-when-done* addition. Too drastic.
+Mention :test-selectors in sample.project.clj.
+Recanting the error of my ways: import classes belong in (), not [].
+Move try/catch from repl task to eval-in-project.
+Don't try to set ns in repl-server form.
+Alias classpath to cp.
+Catch exceptions in tasks in interactive task.
+Don't exit after eval in repl task either.
+Exit after tasks finish when not in interactive task.
+Turns out has-source-package is not a good enough keep-class? heuristic.
+Link to stable documentation instead of master.
+Use latest Hooke.
+Update help task to use short summaries.
+Mention interactive task and getting slimed in tutorial.
+Release 1.4.0-RC2.
+Mention interactive task speedup in faq.
+Prevent repl task from exiting lein interactive.
+Nicer prompt interaction.
+Better heuristic for when to close the socket in interactive tasks.
+Update plugin task's use of write-components to use new arity.
+Clean up a few bits of socket handling in repl and interactive tasks.
+Rebind clojure.test/*test-out* in test runs.
+Connect to repl socket inside interactive task.
+Add :uberjar-exclusions to project.clj.
+Make plugin paths platform-independent.
+Test plugin installation and create plugins dir where necessary.
+Update version numbers in tutorial, for kicks.
+Factor out make-build function.
+Move copy-out-loop into repl-client.
+Use a platform dependent nullsink in test.
+Don't install .bat files on Unix.
+Replace tabs with spaces.
+Convert the original pwd to windows style when on cygwin.
+Support :repl-options in project.clj.
+Include :all test selector by default.
+I love reduce, but it's not appropriate here.
+Doco updates.
+Solaris compatibility; thanks Licenser.
+Print an error message when plugin uninstall fails.
+Use a platform dependent tmp folder.
+Modify script-template to be able to run on cygwin.
+Add support for windows .bat wrappers.
+Set working directory in eval-in-project.
+Make sure paths in the shell wrapper are unix-style.
+Work around a RuntimeMXBean bug.
+Use a more portable way of getting user's home folder.
+Use windows-style paths when running on windows.
+Let the test! task run under lein.bat.
+Use the -Xbootclasspath trick in lein.bat.
+Place user plugins after lib/ on the classpath.
+Better unquote testing.
+Deprecate :jar-dir in favour of :target-dir.
+bin/lein placement notes.
+Expand on bootstrap instructions.
+Allow test selectors and namespaces to be specified in the same run.
+Mention features for 1.4 in tutorial/plugin docs.
+Test fixes.
+Factor out read-args function in test task.
+Better error message when you don't nest dependencies correctly.
+Don't need to generate "Installation" section in skeleton readme.
+Release 1.4.0-RC1.
+Keep self-install jars in ~/.lein/self-installs instead of ~/.m2.
+Documentation updates in preparation for 1.4 release.
+Fall back to Clojure 1.2 until bootclasspath issues are resolved.
+Skip wget cert check in lein.bat.
+Replace homedrive + homepath with userprofile.
+Expose leiningen.original.pwd in lein.bat.
+Modify lein.bat to allow running from source.
+Add test folder to the classpath.
+Skip curl cert check in lein.bat as well.
+Ignore SSL certs while we wait for Github to get their act together.
+Remove usage of handler arg in test task.
+Deprecate unused eval-in-project arguments.
+Documentation updates. Mention JAVA_CMD, contribution guidelines.
+Switch from :test-resources-path to :dev-resources-path; deprecate former.
+Deprecation notice for :namespaces in project.clj.
+Clarify unclear docstring for run task.
+Changed error message when missing required project.
+Allow :dev-dependencies without :dependencies.
+Update NEWS file for upcoming 1.4 release.
+TODO updates.
+Add delete-non-project-classes to compile task.
+Forgot a test file.
+Use a backslash instead of a forward slash.
+Allow for spaces in LEIN_HOME.
+Allow customization with JAVA_CMD and JAVA_OPTS.
+Don't use JLine when inside_emacs.
+Use JLine in repl and interactive tasks.
+Simplify argument handling with the %* special variable.
+Add leiningen plugin locations to the classpath.
+Avoid a goto statement.
+Move setLocal command higher up the file.
+Convert lein.bat to DOS-style line endings.
+Set LEIN_JAR before handling args
+Allow for spaces in LEIN_JAR path in lein.bat.
+Rename first-arg -> flag.
+Add run task plus rudimentary tests.
+Add local-repo-path as a top-level def for customization.
+Don't bother running deps task if there aren't any dependencies.
+Add one more subtask-help test.
+Add some tests around subtask help formatting.
+Pass the task var around to avoid extra lookups.
+Move plugin's subtask help mechanism to the help ns.
+Add verbose DEBUG output of errors initializing hookes.
+Upgrade to Ant 1.7.1 and exclude version from maven-ant-tasks
+Remove quote typo.
+Added quote marks around CLASSPATH variable to fix parsing error in cygwin.
+Add eval-in-leiningen to project.clj.
+Make plugin help get picked up by help task.
+Allow tasks to provide their own help function.
+Move some TODOs to 2.0. Let's not get ahead of ourselves.
+Support :eval-in-leiningen key in project.clj for plugins.
+Lock to Clojure 1.3.0-alpha1 while the dust settles.
+Don't create new skeleton in root. Expose leiningen.original.pwd.
+Use an arrow in leiningen.help/tasks. Keep it under 80 cols.
+Avoid duplication in tasks list in help task
+Add password-protected repository in sample.project.clj.
+Define ant-project earlier in lancet.
+Second attempt at the maven reporting bug, Resolves #112
+Call javac where appropriate in compile task.
+Mostly todos.
+Add javac task.
+Don't use keep.
+Handle crazy OS X case where read-line doesn't return nil on EOF.
+Clarify bootstrap process.
+Use read-line instead of read in repl-client.
+Clarify implied plugin dependency on Clojure and Contrib.
+Revert privatization of internal functions.
+Add contrib back in as per mailing list discussions.
+Readme formatting.
+Add exit command to interactive task.
+Support init form in eval-in-project.
+Flush repl I/O in a separate thread; closes #71.
+minor documentation typo fixes
+TODO updates.
+Assoc the var onto the metadata for test selectors.
+Test selectors may be customized in project.clj.
+Primitive test selectors
+Specify what file patterns to exclude from jars. Thanks to Zehua Liu.
+Parent support in pom task. Don't ask. =\
+80 columns please!
+Don't shell out in tests; that's terrible.
+Add :test-resources-path to sample.project.clj
+Silently delete failed self-install downloads.
+Now, help output is sorted.
+Unprivate for lein-plugin.
+README updates for Windows
+Unprivate a few more maven util functions.
+Don't need swank in project.clj; use user-level plugins.
+Dang; no defmacro- yet.
+Separate private/internal functions from public API.
+Upgrade to Clojure 1.3.0-SNAPSHOT.
+Ready for 1.4.0-SNAPSHOT.
+Release 1.3.1.
+Tighten up regex support in :aot declaration with a list comprehension.
+move separate function into source code
+allow to use regex (or string with regex) to specify which namespaces should be compiled
+Documentation updates preparing for 1.3.1.
+Actually, pipe standalone install through deps, not regular install.
+Pipe standalone install through regular instal to get deps.
+Auto-self-install on demand.
+Don't skip-dev when getting deps in jar task.
+Oops; swapped the order of the repl host/port.
+Failing test case for standalone-install bug.
+Oh man, what was I even thinking there.
+Remove unnecessary do form in defproject.
+Quote around the default shell wrapper's $@.
+Load user-init file earlier so aliases may be set.
+Allow the socket-repl host/port to be customized in project.clj.
+Use LEIN_VERSION env var instead of system property.
+Newline at the end of gitignore.
+Don't allow malformed checkout deps to interfere with eval-in-project.
+Mention dependency type setting in NEWS.
+Patch for issue 92
+Allow lein repl to work with 1.1.0. Curse you, Xbootclasspath!
+Use numeric return value for compile task. Tighten up implementation.
+Shorten nullsink function
+tightening
+typo
+compile/compile cleanup
+We're back! Jar/uberjar fails with a failed compile
+compile/compile is a hairy mother, but it behaves.  Added another test project
+Suppress compilation stacktrace when testing
+Oops; forgot a file.
+Allow jar to proceed even if compile returns nil.
+Reduce contrib usage. Obligatory grumbles about delete-file-recursively.
+NEWS for 1.3.1.
+Minor cleanup of :min-lein-version functions.
+Changed VERSION in bin/lein to LEIN_VERSION, and export it. Check to ensure :min-lein-version is less than or equal to the current leiningen version
+Quit using c.c.as-properties; doesn't seem necessary here.
+Added a build-failing project for flexing compilation-failing aware 'jar'; created test_projects and moved sample there too
+Allow Ctrl-d to exit the repl even when it runs in Leiningen's process.
+Remove eval-without-project
+Run non-project REPL in process.
+ensure project is present if required
+prune lein.bat for unwanted code add self-install feature to lein.bat add dummy upgrade feature to lein.bat
+Back to 1.3.1-SNAPSHOT; we have unfinished business here.
+Bump version to 1.4.0-SNAPSHOT.
+allow repl outside of a project
+Start repl in user ns if no :main is found.
+Release 1.3.0!
+Upgrade Leiningen and "new" task to Clojure 1.2.0 stable.
+Documentation updates for 1.3.0.
+Document 1.3.0 features.
+Added documentation TODOs.
+Give more useful error message on self-install.
+Bump to 1.3.0-RC1
+Update new task and Leiningen itself to use Clojure 1.2.0-RC3.
+fix for issue #86, updating the jboss repo in the sample.project.clj
+Add :omit-source option to leave files in :source-path out of jars.
+NEWS updates; just about ready for 1.3.0-RC1.
+Use deps fileset to write shell-wrapper classpath.
+Make repl task listen on a repl socket.
+Move mvn-specific bits out into util namespace.
+Use :reload instead of :reload-all in test skeleton.
+Change directories to project root before calculating classpath.
+Use the shell wrapper from resources/ if present rather than templating.
+Explain why clojure-test-mode is generally nicer than lein test.
+Standalone install task implemented.
+Add shell wrapper template.
+Copy shell wrappers from jar file to FS on install.
+Include bin scripts in generated jars when specified in :shell-wrapper.
+Indentation and whitespace fixes.
+Add support for user-level plugins.
+Load user init script on Leiningen launch.
+Rename :init-script to :repl-init-script; remove global-init-script.
+Make arglist check error more explicit.
+Add initial hacking guide; still needs lots of work.
+Remove bashisms for portability. Thanks to Mike Meyer.
+Add another test for arg chaining.
+Clean up argument grouping a bit.
+TODO and NEWS updates.
+merge multiple-tasks
+add small description of init-script related changes
+multiple tasks from the command line
+Add test! task that cleans and runs deps first.
+implement support for global initialization script
+check existence of init script
+implement loading of init-script specified in project.clj into REPL
+task-level arity checking
+unifying interactive and normal task calling
+more robust project-needed decision
+Bump version to 1.3.0-SNAPSHOT.
+Yeah, so we want rlwrap with the interactive task too.
+Add interactive task. No more waiting around for JVM boot if that's your thing.
+Warn when running as root.
+Indentation fix.
+Don't load hooks unless they're specified in project.clj.
+NEWS for 1.2.1, which should be coming soon.
+Catch exceptions looking for hooks, not just loading them.
+Detect download failures in self-install.
+Add resources and test-resources to pom output.
+Add pom for alternate building method. Will need to regenerate periodically.
+Add Building section to README.
+Better hooks loading warning message.
+Handle missing .class files better in leiningen.compile/stale-namespaces.
+Use a banner image in the readme instead of the full logo.
+fix syntax error and some quoting problems
+Search parent directories for project.clj if necessary (lein.bat) Deal with cygwin better (lein)
+Search parent directories for project.clj if necessary
+Added "OpenBSD" :openbsd to compile/native-names.
+s/meta-inf/META-INF/g in jar.clj
+Work around problems in Java's handling of windows command line escaping
+Refactor new task.
+Refactor deps task.
+Clean up some docstrings.
+Refactor jar and uberjar tasks.
+Mention disabling the self-install/upgrade task for packagers.
+Bump version to 1.2.1-SNAPSHOT.
+Release 1.2.0.
+Documentation update.
+Update -Xbootclasspath Clojure version
+Collapse checkout-deps file into compile.clj.
+Add Robert Hooke to Leiningen's dependencies.
+Bump to using Clojure beta1 for Leiningen and new projects.
+new command generates test namespace compatible with clojure-test-mode
+Trim long lines.
+Suppress hook-loading warning if lib dir is empty.
+TODO updates
+Leiningen's own build must use :disable-implicit-clean.
+Preserve order of :aot namespaces list.
+Add note that compilation involves running.
+Mention mvn invocation output in lein deps for non-hosted dependencies.
+Rearrange and expand uberjar/publishing tutorial sections.
+Oops; missed local in my let form.
+Bump version to 1.2.0-RC2.
+Document changes since RC1 in NEWS file.
+Tutorial fix.
+Documented :mailing-list and :license in sample.project.clj.
+Minor cleanup of make-repository.
+Adds support for repositories being maps, adds :username, :password options to the repository map.
+Remove unneeded use clause.
+Roll back mistaken explicit eval of unquoted defproject args.
+Mention unquote in sample.project.clj
+Rename munge-project-args to eval-unquoted-project.
+Modified defproject to emit unquoted forms verbatim.
+Recognize a :classifier keyword for dependencies as the Maven classifier
+Clean before uberjar, just to be sure.
+Documented :jar-name & :uberjar-name in sample.project.clj.
+Added setting of default jar names through :jar-name & :uberjar-name.
+Re-enable rlwrap in bin script.
+Misc documentation tweaks.
+Add support for test-only resources
+Implemented documentation suggestions from readers.
+Minor tutorial tweaks.
+Add a little more output to uberjar task.
+Finish compilation, publishing, and uberjar sections of tutorial.
+Suppress extra "lein deps" output.
+Project skeleton cleanup.
+Suppress useless compilation output.
+Replace intro with tutorial.
+Spruce up the readme a bit.
+Snapshot versions now work with self-install.
+Version 1.2.0-RC1.
+Update NEWS.
+Rearrange TODO.
+Allow compile task to take a list of namespaces as arguments.
+Handle more types of project metadata.
+Remove Leiningen's run-task in favour of Robert Hooke.
+Document version ranges.
+Collapse test task into only a single run-tests call.
+Added FreeBSD to native names in order for lien swank to wark on FreeBSD
+Some notes.
+That last commit was definitely the wine talking.
+Find dev-dependencies even when :library-path is customized.
+Don't try to deref nil hook atom.
+Keep hooks on the task function itself, genius.
+Reduce some contrib dependencies.
+Added plugin writing guide.
+Add sample.project.clj showing all honored project keys.
+Make aliases an atom so plugins can change it.
+Suppress annoying ant [null] prefix on all output.
+Also don't try to read the test results doc if it's empty.
+Don't try to read the test results doc if it doesn't exist.
+Updated NEWS. This is going to be a big release.
+Include arglists in task help output.
+Traverse up the current directory's ancestors to find project root.
+Make inter-task dependencies honor hooks.
+Allow leaving the repl with ctrl-d.
+Poll for repl startup.
+3/4 of the way to a working socket-based repl task. Take that, Ant!
+Don't shutdown agents in core; test task can handle that.
+Default to EPL for new projects. Change it if you like.
+Exit subprocess after writing test summary.
+Remove call to flatten.
+Fork unconditionally for now. This helps some things but *breaks* repl.
+Allow $JAVA_CMD to be customized.
+Allow :all hooks to be set.
+If a task returns an integer value, consider it an exit code.
+flatten needs to come from contrib seq-utils
+Remove dir-locals since setting non-whitelisted vars is annoying.
+running the test suite should not recompile and reload between tests!
+Write test summary to disk, then read it in test task.
+Revert "Allow eval-in-project to exit the VM."
+Allow eval-in-project to exit the VM.
+Add hooks using symbols instead of strings.
+First pass at implementing hooks, inspired by clojure.test fixtures.
+Allow :warn-on-reflection to be set in project.clj
+Automatically compile and deps in eval-in-project if needed.
+NEWS/TODO updates.
+Add dir-locals.el to enforce some Emacs settings.
+Add Leiningen logo (courtesy of Loren Broach) to resources dir.
+Allow :jvm-opts to be set in project.clj.
+Allow :fork option to be set in project.clj
+Use swank-clojure 1.2.1.
+Added Cygwin support to the lein script
+Changed lein script to compensate for lack of /dev/null under Windows
+Add src/ to lein-level classpath so it can contain lein tasks.
+Move lein-swank plugin to swank-clojure.
+Allow :aot as alternate way to list :namespaces.
+exits with 1 when tests have failures or errors
+Roll back to older version of mvn to avoid hanging on exit.
+Allow org.clojure group-id to be omitted from clojure/contrib deps.
+Clojure 1.2 update: flatten has been promoted to core.
+Enough is enough.
+Quit using that nasty $ESCAPED_ARGS hack for leiningen.core/-main.
+Update gitignore with new jar names.
+Keep dev-dependencies in lib/dev, out of the way of uberjar.
+Re-enable use of checkout-dependencies.
+Update known issues in readme.
+Move repl task out of shell script, finally! Depends on Clojure ticket #299.
+Upgrade to Clojure 1.2.0-master-SNAPSHOT.
+Whitespace change...
+More helpful message when no namespaces are configured for compilation.
+Keep jar files in root unless :jar-dir specifies otherwise.
+Write jar to the :target-path directory.
+Added option to omit-default-repositories.
+Use rlwrap if detected.
+Include version number in jar filenames.
+Do not assume bash it as /bin/bash; use /usr/bin/env bash.
+move classpath-related functions from compile to classpath module
+add "classpath" built-in subcommand
+Call read-project from leiningen.core ns.
+Implement first run of checkout dependencies.
+Mention $RLWRAP environment var in readme in jline section.
+slight readme formatting fix.
+Add ability to specify jline usage with env variable.
+Write ns->path and path->ns functions in core.
+I'm dumb; let some conflicts in.
+Accept host argument from the command line for lein-swank.
+Tweak symlinking of dependent jars.
+Make deps generic. Add draft symlink implementation.
+Check a project's src/ dir for leiningen tasks.
+Use on-disk file mod times in generated jars.  Allows require to use jar-stored AOT compilations.
+Separate version check from form generator; add an optional test-package argument to the from generator.
+Prevent users of Clojure 1.0 from calling the test task and point them to the lein-test-is plugin. closes #21
+Drop back to Clojure 1.1.0 until issues with 1.2.0 are resolved.
+write build config into pom -  makes pom-as-project work in NetBeans Enclojure
+updating versions and links
+allow swank, in lein-swank to accept additional arguments to pass to start-repl
+Allow $CLASSPATH to be used to customize repl classpath.
+Bunch more TODOs for 1.2.
+Added INTRO.md with concept background thanks to slyphon.
+TODO updates.
+Update lein-swank version and deps.
+Added a note to the sample app to explain that it's used in the tests.
+Use Java package naming conventions in Main-Class value of JAR manifest.
+Add a :main clause to the sample's project.clj file.
+Add a note in order to clarify that -Xbootclasspath is optional.
+Update lein.bat to reflect the fact that CLOJURE_JAR is optional.
+Bump to 1.2.0-SNAPSHOT.
+Release 1.1.0!
+Don't create single-segment namespaces in the "lein new" skeleton.
+restore Xbootclasspath on MacOS X
+[github-17] exclude Xbootclasspath from eval-in-project forking of JVM
+Allow task functions to be defined in project.clj.
+Bump version to RC2.
+Skip -Xbootclasspath on OS X until test issues are resolved.
+Make no-project-needed set an atom so plugins can add to it.
+Update todo and news.
+Only shutdown agents in JVMs 1.6+.
+Only show repl warning when running in a project dir.
+Refining upgrade: check for access, request confirmation.
+First pass at an upgrade task.
+Move test's shutdown-agents to inside eval-in-project.
+Shut down agents after test run.
+Compile :main even if not explicitly listed in :namespaces.
+Differentiate between no compilable namespaces and no stale namespaces.
+Modify test task so it doesn't load clojure.test in Leiningen's classloader.
+Tests broke; I'm dumb.
+Exclude temp files from jar creation.
+Update lein-swank dev dependency to 1.1.0.
+Whitespace fix. I'm crazy like that.
+Remove overzealous arity catch.
+We have a 1.1.0 release candidate.
+In bin script, find's -follow argument must come after path.
+constraining implicit dependencies resolving
+Add a test to ensure tests don't use Leiningen's Clojure version.
+Factor out form-for-testing-namespaces for other plugins to use.
+Specify namespaces for sample project to compile.
+Add build.clojure.org releases repository.
+Add a warning for the lein repl task.
+Don't use find's -H option; it's not present on older systems.
+Switch to ant 1.6.5 so we can access the subclassloader's classpath.
+cleaning :library-path
+Update lein-swank readme. Yay for random twitter bug reports.
+Add a note if compiling with no :namespaces specified.
+Make "lein jar" trim :source-path from packed files, not simply "src"
+installing pom.xml artifact along with jar
+adding error messages to lein.bat
+test path should be pointed by :test-path key
+TODOs and readme clarification.
+Don't try to System/exit from within eval-in-project. It doesn't work.
+Update new task. Output project.clj as string. Add skeletal test.
+Use Clojure 1.1.0 release for using Leiningen itself.
+Ignore autodoc dir.
+Add autodoc plugin.
+Mention windows support in docs.
+windows environment
+Update NEWS file.
+Don't AOT namespaces by default.
+Remove cargo-cult garbage in bin script. Thanks, Steve.
+Add a message in the jar task.
+Use 1.1.0 for both Leiningen itself and newly-generated projects.
+New version of lein-swank.
+test for issue 8 fix
+replaces '.' with '/' in package name when creating dir
+Add überjar alias.
+Extra space at end of question.
+Removing escaping backslashes from code in README.
+Added documentation about :exclusions in :dependencies to the README and deps docstring.
+Added documentation about :exclusions in :dependencies to the README and deps docstring.
+in eval-in-project, added setFailonerror true
+Added exclusions support in project files.  Useful for libraries that have extra dependencies unnecessary for runtime.  (Looking at you, log4j)
+may have fixed issues with fork not getting jvm args and setting if on osx
+moved setFork so that its only used when needed by native code
+made changes as suggested by technomancy
+more and better defaults for native-path
+added native-path key to project
+Minor readme tweaks.
+Added exclusions support in project files.  Useful for libraries that have extra dependencies unnecessary for runtime.  (Looking at you, log4j)
+Rename exit-with-error to abort.
+Honor $RLWRAP if present in repl task.
+Bump version.
+print an error message instead of a stack trace when no project.clj is found
+use exit-with-error instead of printing an error message and calling System/exit separately every time
+Release 1.0.1!
+first shot at bash completion for lein shell script
+Be more verbose about the JVM in lein version.
+Honor $JAVA_OPTS.
+Oops; new is shadowed by a macro; can't call it like that.
+Avoid rest args where possible in order to catch arity mistakes.
+Modify test task to take advantage of fixed clojure bug #193.
+Use 1.1.0-master, not -alpha.
+report wrong arity, don't crash
+grammar fix
+fix NPE when doing "lein core"
+Abort when running self-install on SNAPSHOT versions.
+Stray println snuck in.
+Replace rlwrap with jline for repl task.
+Call .replace instead of str-replace. Don't create lib or classes, just ignore.
+Don't pass in a project arg to tasks that don't use it.
+teach "leiningen add" not to conflate project's name and directory.
+Add aliases for version command. Don't need a project to use it.
+added 'version' command
+Bump version number to 1.0.1-SNAPSHOT
+Releasing 1.0.0.
+More details in lein-swank exception catching.
+Pass args through on repl task.
+Mention known issues, add readme to lein-swank.
+Run swank server using eval-in-project.
+Release Candidate 1? Why certainly; I don't mind if I do.
+Only include :resources-path in jar if it exists.
+Allow callers of eval-in-project to customize the java task.
+Add resources/ dir to the classpath and generated jars.
+Add project's lib/ directory to lein classpath for plugins.
+Added code to use rlwrap for "lein repl" if present.
+Add NEWS file with release notes. 1.0 is just around the corner.
+Minor readme/todo tweaks.
+Temporarily disable -Xbootclasspath until cause of NPE is discovered.
+Explain optional project.clj keys in readme. Note publishing deps on clojars.
+Heh... if lein-swank depends on leiningen that'd be a circular dependency.
+System/exit appropriately depending on pass/fail count.
+Todo updates.
+always use -Xbootclasspath/a, if $CLOJURE_JAR doesn't exist there's no harm done
+try to detect clojure.jar so we can use -Xbootclasspath/a
+Mention cleaning before uberjar to avoid dev deps.
+Skip dev dependencies when pulling deps for compiling.
+If no task is given fall back to help task.
+Change sample project to use Clojure 1.0.0.
+Run compile and test tasks in isolated classloader
+Unify terminology: there are no commands, just tasks.
+Allow test task to take namespaces as an argument.
+Updated todos.
+Updated contribution notes.
+Add lein-swank as a dev dependency.
+fixed weird jars issue crashing uberjar task; no longer checking input ZipEntry size
+Disable help summary output until Clojure bug #130 is fixed. =(
+Added test for install task.
+The install task no longer shells out to maven.
+Running a dev version of lein from a checkout shouldn't use LEIN_JAR.
+Remove duplicate task output from help task.
+Don't mkdir classes if it's a task that doesn't take a project arg.
+add note to todo about getting lein version from clojure code
+we no longer create a pom-generated.xml so we no longer have to clean it
+improve "clean" command: Don't delete lib/ and classes/, just empty them. Also delete -standalone jar and pom-generated.xml
+clean should delete whatever (:compile-path project) is, not hardcode "classes/"
+make :compile-path a key that's always present in the project hash map
+move mkdir of classes/ from shell script into core.clj
+Update todos.
+remove lancet require from pom, it wasn't being used
+include a pom.properties file in the jar
+refactor pom and jar code to use make-pom
+generate pom byte array (instead of on disk) and include that in the jar in appropriate meta-inf/groupid/artifactid directory
+refactor writing files to jar into a multimethod
+use org-mode "Tags" instead to assign work in todo.org
+Bootstrap instructions, take 3.
+Oops, bootstrap install is slightly more complicated than that.
+Add TODOs.
+Neither "new" nor "help" tasks need a project to run.
+Update readme for easier dev installation; add some TODOs.
+use java.util.jar to build jars instead of lancet
+Leave lib/ and classes/ intact but delete their contents.
+remove gen-class on leiningen.core and update lein shell script and project file to deal with it
+put Manifest.txt in classes/ instead of toplevel project directory
+Update credits. Thanks, Alex and Dan!
+put more info into the manifest of jars we build
+Yes, we are picky about whitespace, too.
+Appropriate error codes and improved message for command-not-found.
+handle missing command
+lein test should aggregate all test failures/passes etc and display a summary at the end of all the tests
+Don't mkdir classes unless you're in a project directory.
+Fall back to LEIN_JAR if core.class isn't found.
+Resolve symlinks to the script itself, not parent directories in a cross-platform way.
+resolve symlinks in a cross-platform way, using pwd -P
+Follow symlinks when finding BIN_DIR.
+don't check for existence of git repo, all we need to do is check for the source
+if lein shell script is being run from a git checkout then we should put src:lib:classes on the CLASSPATH in addition to the LEIN_JAR
+When creating a standalone jar don't unpack deps.
+Call setScm on the model object not the scm. Oops.
+Only call setScm if retrieving git data actually works.
+Ignore standalone jar too.
+Make uberjar create a $PROJECT-standalone.jar file.
+Populate the scm tag in the pom with git data if available.
+Update lein-swank.
+Only compile classes if the bytecode is older than the .clj source.
+Write to pom-generated.xml instead of pom.xml; don't prompt to overwrite.
+Add new task for generating project skeletons.
+Mention clojars in the readme.
+Bump version to 1.0.0-SNAPSHOT
+Calling it good: releasing 0.5.0!
+Skip dev dependencies when they probably aren't needed.
+Added :description output to pom.xml.
+Add somewhat-detailed help output for each task.
+Add help command and summaries for each command.
+Move deps-if-missing to shell script. Needs to happen before JVM launch.
+Warning on install if mvn is missing.
+Add disclaimer to autogenerated pom files.
+Enable jars to be created with Main-Class set in manifest.
+Add src/ and project.clj to jar.
+Prompt to overwrite if pom.xml exists already.
+Allow setting group in defproject.
+Added first-pass implementation of install command.
+Remove some overlap from pom.clj and deps.clj.
+Add pom task.
+Move the remnants of swank out of lein proper.
+bin/lein: ensure $PATH is searched when checking for curl.
+Swank-clojure isn't available in a repo yet.
+update usage for lein script
+Add motivation to README
+Spin off swank into a subproject.
+Only bring in dev dependencies when testing.
+Support development dependencies.
+Use lancet for jar creation.
+Clarify installation instructions.
+Download dependencies where appropriate.
+Oops; forgot to update dependency notation in readme.
+Allow custom :repositories to be specified in project.clj.
+Added a note about bootstrapping.
+lein shell script should show usage if you don't give a task
+Add a test for the compile task.
+Use client JVM since it shouldn't be a long-running process.
+Move test project to sample/ dir.
+Don't freak out when cleaning an already-clean project.
+Use group.id/artifact notation in project.clj.
+Couple more TODOs
+Version is no longer optional in defproject.
+put quotes around $1 in lein shell script so it runs okay on OS X
+This is not 1.0-level material... yet.
+Improve self-install.
+Comment out broken lancet call.
+Move condition to doseq form in uberjar.
+Don't need to bind *compile-path* in compile.
+Add self-install command.
+Remove need for fully-qualified defproject.
+Update lancet to use latest ant API.
+Add swank command.
+Add jar and uberjar commands.
+Add clean command.
+Use with-ns so defproject works unqualified. Bind *compile-path* explicitly.
+Bite the bullet and bundle lancet since it's not in any real repo yet.
+Move away from build.clj to project.clj.
+Allow tests to be filtered on predicates.
+Added FAQ, License.
+Bind *compile-path*, not sure how it becomes unbound.
+Implement compile command.
+Remove stub namespaces for now.
+Move to leiningen.core.
+Added temporary install note.
+Four spaces to indent a shell script, you HEATHEN!
+Added test namespace/task.
+Make bin script slightly smarter. One step at a time.
+Move main.clj to core.clj
+Fleshed out minimal bin script
+Put jars directly in lib/ instead of nesting.
+Rudimentary tests.
+Split functionality out into several namespaces.
+Initial commit.

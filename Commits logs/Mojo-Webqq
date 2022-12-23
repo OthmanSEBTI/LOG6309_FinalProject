@@ -1,0 +1,817 @@
+Merge branch 'master' of github.com:sjdy521/Mojo-Webqq
+2019-04-10 Mojo::Webqq v2.2.7 1）修复接收请求异常引起的程序终止的严重bug
+修复接收请求异常引起的程序终止的严重bug
+Update NOTICE
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update NOTICE
+Merge branch 'master' of github.com:sjdy521/Mojo-Webqq
+修复webqq修改，调用接口由http修改为https
+Merge pull request #276 from XZ-Dev/patch-1
+添加 ubuntu版本的 Dockerfile
+纠正Makefile.PL
+2018-11-22 Mojo::Webqq v2.2.6 发布
+修复Mojo::Transaction::success is DEPRECATED的问题 Mojolicious最低依赖版本变更为8.02
+2018-10-09 Mojo::Webqq v2.2.5 发布
+更新文档
+2018-10-09 Mojo::Webqq v2.2.4 发布
+Merge pull request #261 from XZ-Dev/patch-1
+Update FAQ.md
+Merge pull request #255 from XZ-Dev/patch-1
+Update API.md
+2018-06-29 Mojo::Webqq v2.2.3 发布
+公告更新
+2018-06-29 Mojo::Webqq v2.2.2 发布
+Merge branch 'master' of github.com:sjdy521/Mojo-Webqq
+更新依赖关系
+增加高校分数线插件
+增加高校分数线插件
+dockerfile更新
+https功能测试改为访问到百度主页
+2018-06-13 Mojo::Webqq v2.2.1 发布
+Merge branch 'master' of github.com:sjdy521/Mojo-Webqq
+2018-06-13 Mojo::Webqq v2.2.1 发布
+修复 http://w.qq.com 404 Not Found 引起的无法正常登录问题
+替换Remote/_login1.pm和Remote/_prepare_for_login.pm url后可正常使用
+IPWhere插件触发指令支持小写`ipwhere` https://github.com/sjdy521/Mojo-Webqq/issues/226
+1）API跨域支持完善 2）增加 model_update_timeout 参数，默认15s，缩短一些关键请求的超时时间和重试次数，防止程序长时间卡在
+接收到100000状态码，判断为登录状态失效，尝试重新登录
+Merge pull request #220 from heipidage/patch-13
+修改mipush通知栏发送参数问题
+解决MiPush插件部分参数转义问题
+Merge pull request #219 from heipidage/patch-12
+禁言接口禁言时长单位变更为1分钟 https://github.com/sjdy521/Mojo-Webqq/issues/217
+登录状态过期后强制自动注销重新登录
+为mipush增加通知栏消息推送
+2018-04-20 Mojo::Webqq v2.2.0 发布
+文档完善
+1）回滚[防止更新群信息死循环]的代码，因为存在问题导致更容易造成死循环 2）Openqq插件，发送好友消息和群消息支持使用昵称(name)或显示名称(displayname)来发送
+Update README.md
+2018-04-17 Mojo::Webqq v2.1.9 发布
+当前某些未知情况下可能会产生更新群信息死循环，做了一些防护措施
+忽略接收消息中的10000状态码
+smartqq当前已经无法正常识别表情内容，所有表情默认显示为"[表情]"
+webqq当前不支持接收图片消息， 但是对方发送图片时，webqq会产生一个空消息，通过这种方式可以间接识别出来收到了图片消息 现在，收到这种消息时，会转成文本的形式消息："[图片]" 比原来体验会更好一些 感谢 @heipidage 反馈
+Merge pull request #207 from heipidage/patch-11
+修复access_token过期问题
+GroupManage插件新增群/新增群成员等提醒消息可配置
+GroupManage插件新增群/新增群成员等提醒消息可配置
+dockerfile完善
+Merge pull request #204 from huangzhongzhang/patch-2
+添加缺失的组件。
+Update README.md
+docker使用说明完善
+docker使用说明完善
+1）Dockerfile更新，以便支持账号密码登录相关的依赖环境 2）依赖检查脚本bug修复
+Update NOTICE
+2018-02-26 Mojo::Webqq v2.1.8 发布
+修复Openqq插件上报接口直接回复消息时，返回json格式中文包含\uxxxx转义形式时会报错的问题
+Merge branch 'master' of github.com:sjdy521/Mojo-Webqq
+修复某些情况下群成员扩展信息（QQ号）丢失问题 感谢 @雪米 的反馈
+Update FAQ.md
+增加选项，以决定群员是否使用备注名。
+Update API.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update FAQ.md
+模块检查脚本完善
+增加依赖模块检测脚本
+修复SmartReply插件 is_need_at 和 keyword 无法同时生效的问题 https://github.com/sjdy521/Mojo-Webqq/issues/195
+Controller-API增加账号密码登录说明 SmartReply插件的完善
+Merge pull request #193 from huangzhongzhang/patch-2
+提交作品。
+Update README.md
+Merge branch 'master' of github.com:sjdy521/Mojo-Webqq
+typo
+Merge pull request #192 from huangzhongzhang/patch-1
+Webqq.pod 示例代码错误修正
+修复文档错误。
+Update NOTICE
+文档更新
+文档更新
+2018-01-22 Mojo::Webqq v2.1.7 发布
+SmartReply插件 is_need_at 和 keyword 改为“与”的关系
+bug修复
+增加账号密码的登录方式
+文档勘误
+2018-01-08 Mojo::Webqq v2.1.6 发布
+Update NOTICE
+Merge branch 'master' of github.com:sjdy521/Mojo-Webqq
+增加更多日志帮忙提示
+add 生成md5的命令
+2018-01-08 Mojo::Webqq v2.1.5 发布
+bug修复
+1）增加公告系统 2）修复无法获取uid，导致无法通过uid发送信息问题
+Openqq插件端口监听失败会终止程序运行 Openqq插件添加监听端口日志，方便定位问题
+修复Openqq插件的bug
+win系统默认禁用终端颜色显示
+Merge branch 'master' of github.com:sjdy521/Mojo-Webqq
+修复Openqq插件post_stdout不生效问题
+Merge pull request #173 from wsdjeg/patch-1
+Update Controller-API.md
+Update Collection.md
+Update FAQ.md
+增加faq
+显示显示讨论组和群成员的好友备注名 https://github.com/sjdy521/Mojo-Webqq/issues/170
+new中增加allow_message_sync参数，默认是0 是否允许同步来自其他设备登录账号发送的消息 默认为0 由于webqq自身发送消息后也会收到服务端重复的消息 且没办法和来自其他设备的消息区分，会导致出现一些不期望的结果，比如某些插件会陷入死循环等 因此默认不开启消息同步，如果你只是用来irc聊天，则可以考虑开启此选项 可以同步来自其他设备的消息，体验会更好一些
+Merge branch 'master' of github.com:sjdy521/Mojo-Webqq
+Openqq插件新增post_stdout参数，上报数据是否打印到stdout，适合管道交互信息方式，默认0
+Merge pull request #167 from Mr-Bubble/master
+Delete FFM.pm -no longer depend on FFM plugin from Mojo-Webqq
+Update README.md
+Update LICENSE
+Merge pull request #160 from Mr-Bubble/master
+server(plugin): fix uid undefined
+更新LICENSE
+增加LICENSE
+2017-08-31 Mojo::Webqq v2.1.4 发布
+修复max_client的bug
+2017-08-30 Mojo::Webqq v2.1.3 发布
+Merge branch 'master' of github.com:sjdy521/Mojo-Webqq
+fix issue: https://github.com/sjdy521/Mojo-Webqq/issues/142
+Merge pull request #135 from HubertZhang/master
+Repush FFM.pm
+加入 FCM-For-Mojo 从 0.3 Alpha 3 起所依赖组件
+Merge pull request #143 from yEs1do/master
+Update FAQ.md
+Merge branch 'master' of github.com:sjdy521/Mojo-Webqq
+controller增加max_clients 参数，默认允许创建的最大客户端数量100
+PostQRCodeToTelegram 加入显示详细的错误信息，二维码过期提示，登陆成功后自动删除消息功能
+fullcard支持。
+Merge branch 'master' of github.com:sjdy521/Mojo-Webqq
+修复群名片大量触发属性变更的bug
+Merge pull request #134 from strangemk2/master
+使用 utf8 编码规则加速群名片截取操作
+解决群名片按照21长度截取可能导致末尾一个字符的多个字节被截取不完整，出现残留乱码的问题
+1）new方法中新增  group_member_card_cut_length=>21    用于设置群名片截取的长度，默认21，建议只能设置小于21的长度，已保持和官方一致 2）group_member_card_ext_only => 0    是否仅从扩展接口中获取群名片，这样可以获取到完整的群名片，但如果群成员昵称相同就无法获取到群名片
+回退 @tusooa  提交的部分代码，因为会导致程序认为群成员名片发生变化，触发大量的 group_member_property_change 事件
+修复 /openwx/stop_client 返回结果不正确的问题
+1）增加controller状态检查，当controller退出后，所有client也自动退出 2）修复linux环境下无法通过/openqq/stop_client接口来终止程序的bug（升级后请手动清除模板文件） 感谢 @Aspirin 协助
+解决群名中有><则乱码的bug。
+修复了4个bug。(1)讯息中含有「&」则乱码(2)匹配不到uid(3)card在21字符以上显示不全(4)无法自定义identify_callback
+修复了讯息中有><则乱码的bug，并提供了一个选项，来选择是否将><按原样发送。
+修复终端打印消息无法显示群名称的bug
+赞助更新
+smartqq群名片只能获取前21个字节，会引起一些异常，比如： 1）GroupManage插件产生大量 群名片更新提醒的消息 2）群名片超过21个字节导致无法获取到群成员的uid（qq号） 修正上述异常，感谢 @家猫老大 的反馈
+1）new中增加send_interval参数可以自定义全局发送消息时间间隔 2）Openwx插件中 /openqq/send_friend_message 和 /openqq/send_group_message接口增加async=1来实现异步发送消息 3）相关文档更新
+2017-06-06 Mojo::Webqq v2.1.2 发布
+屏蔽webqq上也会收到其他设备上自己发送的消息的问题，以避免很多功能受到影响 该行为受参数 ignore_unknown_id 控制，参数默认值为1         Mojo::Webqq->new(ignore_unknown_id=>1)
+issues处理：https://github.com/sjdy521/Mojo-Webqq/issues/106
+Merge pull request #111 from vizv/fix-check-event-path
+fix(openqq): The path should be `openqq` instead of `openwx`.
+Add RikkaGCM.pm
+2017-04-25 Mojo::Webqq v2.1.1 发布
+1）忽略接收消息返回1202异常状态码导致客户端认为在线异常而主动注销重新登录的情况 2）GCM插件新增 allow_group_member 参数，上报指定群成消息，优先级高于allow_group/ban_group参数
+1）增加更新好友或者群成员uid失败的debug日志 2）new中新增group_member_identify_callback参数,参数说明如下： 原始信息中包含id/name/card 扩展信息中包含uid/name/card 二者没办法直接建立关联，只能够通过 name+card 相同时认为是匹配同一个用户，并非严谨，但大部分情况下可以满足要求 group_member_identify_callback提供了对群成员name和card进行自定义处理 传递给group_member_identify_callback的参数是群成员的 ($name,$card) 默认 group_member_identify_callback 不设置，相当于sub { my($name,$card)=@_; return $name . $card};
+修复某些情况下获取群成员uid异常问题 感谢 @chateau 反馈
+2017-04-19 Mojo::Webqq v2.1.0
+1）修复由于腾讯官方限制导致的无法获取群号码、群成员QQ号码的问题 2）http://s.web2.qq.com/api/get_friend_uin2接口已经失效，从代码中屏蔽调用 参考 https://github.com/sjdy521/Mojo-Webqq/issues/104
+2017-04-14 Mojo::Webqq v2.0.9 发布
+Merge pull request #99 from 745275633/patch-1
+Update ShowQRcode.pm
+Merge pull request #94 from Time-liar/patch-1
+Merge pull request #96 from BendustiK/master
+Fix: 如果同时设定了is_need_at和keyword, 会导致判定出错不会执行下方命令. 现在强制判断, 只有is_need_at为0的时候才检查keyword. 防止不明群众二者都设置
+Update README.md
+去掉“与1.x.x版本不兼容”的警告信息
+Merge pull request #89 from heipidage/patch-9
+Merge pull request #90 from heipidage/patch-10
+Update FmPush.pm
+Update FmPush.pm
+Merge pull request #88 from heipidage/patch-8
+Update FmPush.pm
+Merge pull request #87 from heipidage/patch-7
+对魅族手机支持
+Merge pull request #86 from heipidage/patch-6
+Merge pull request #85 from heipidage/patch-5
+Update HwPush.pm
+Merge pull request #84 from heipidage/patch-4
+Merge pull request #83 from heipidage/patch-3
+Update HwPush.pm
+Update HwPush.pm
+Update MiPush.pm
+修正为json输出格式
+Create MiPush.pm
+支持华为手机推送
+Merge pull request #76 from HubertZhang/master
+为OpenQQ重新登录请求增加三秒延时，增加API响应
+为OpenQQ增加重新登录功能
+Merge pull request #75 from heipidage/patch-2
+增加@支持
+state.json文件中增加previous_state属性，记录当前状态的前一个状态
+修复SmartReply插件无法回复好友消息的bug https://github.com/sjdy521/Mojo-Webqq/issues/73
+增加 jsonp 跨域支持 增加 跨域响应头 Access-Control-Allow-Origin: *
+2017-02-14 Mojo::Webqq v2.0.8 发布
+修复代码拼写错误
+修复用户更新昵称中存在空格等特殊字符，导致irc虚拟用户异常的问题
+文档完善
+Openqq插件增加https支持 IRCShell插件增加ssl加密支持
+修护IRCShell插件load_friend失效问题
+IRCShell插件增加登录验证支持
+文档完善
+IRCShell插件完善： 修复HexChat客户端使用/list无法获取到人数为空频道信息 增加allow_group/ban_group参数
+IRCShell bug修复
+IRCShell插件 新增auto_join_channel参数，默认为1，收到未加入的频道消息会自动加入频道并接收消息，主要为了防止漏收
+IRCShell插件完善
+2017-02-09 Mojo::Webqq v2.0.7 发布
+修复登录失败问题
+细节完善
+2017-02-08 Mojo::Webqq v2.0.6 发布
+1）修复在开启事件上报之后短时内内重启程序，无法重用之前的登录cookie实现免扫码登录的bug 2）修复controller设置了log_path的情况下，创建的客户端运行日志无法打印到log_path指定路径的bug
+Merge pull request #69 from heipidage/patch-1
+加入发送者类别实现消息回复功能
+API文档错误修正
+IRCShell插件完善 /query xxxx 如果用户不存在时，会实时从好友中搜索并创建用户
+2017-02-03 Mojo::Webqq v2.0.5 发布
+无视GCM插件设置allow_group=>[]的情况
+IRCShell插件完善 1）插件参数master_irc_user更名为master_irc_nick 2）插件参数image_api更名为upload_api 3）上传api替换为https://sm.ms/api/upload接口 4）新增群组、群组名称修改irc上也能够自动同步
+readme中的参数问题
+修复GCM插件获取二维码url错误
+修复GCM插件bug
+GCM插件完善
+Merge branch 'master' of github.com:sjdy521/Mojo-Webqq
+GCM插件完善
+1）新增 is_load_plugin 方法 检测客户端是否加载某个插件 2）GCM插件支持推送事件 3）完善MakeFile.PL文件
+Merge pull request #66 from liaobin/patch-2
+Update FAQ.md
+Merge pull request #65 from liaobin/patch-1
+Update FAQ.md
+帐号登录成功日志中包含真实的登录QQ号
+2017-01-16 Mojo::Webqq v2.0.4
+Dockerfile完善，充分利用cache机制，加快build速度，设置镜像为北京时区
+GCM插件完善
+2017-01-14 Mojo::Webqq v2.0.3 发布
+修复Dockerfile的bug
+Dockerfile完善
+1）基于Docker Hub实现自动化集成 2）适配新版本Mojolicious的改动
+更新FAQ
+1）发送失败默认重试次数从5次改为3次 2）增加ignore_retcode参数对发送消息返回这些状态码不认为发送失败，不重试，默认值[1202,100100]
+设置$client->log_unicode 为0 避免某些情况下产生的乱码问题
+新增GCM插件，接收消息通过谷歌提供的GCM接口发送到android手机 感谢 @周俊 支持 减少Openqq插件事件上报失败的重试次数
+对于请求失败重试，debug日志增加了n/m的重试过程，例如: [17/01/11 10:08:25] [warn] http://127.0.0.1:80/ 请求(0/2)失败: 404 Not Found [17/01/11 10:08:25] [warn] http://127.0.0.1:80/ 请求(1/2)失败: 404 Not Found [17/01/11 10:08:25] [warn] http://127.0.0.1:80/ 请求(2/2)失败: 404 Not Found
+2017-01-10 Mojo::Webqq v2.0.2 发布
+1）修复客户端正常调用->stop() 退出时无法清理临时文件的bug 2）修复客户端正常调用->stop() 退出时无法正常上报事件的bug 3）修复ctrl+c时客户端报错 Mojo::IOLoop already running at /usr/local/share/perl5/Mojo/UserAgent.pm line 60
+Openqq插件auth认证失败时返回json格式数据而非原来的文本错误信息
+进一步压缩图片，减少这个项目的体积
+压缩或删除一些图片，减少这个项目的体积
+修改插件适配性兼容webqq和weixin
+修改插件适配性兼容webqq和weixin
+20170109 Merge branch 'master' of https://github.com/sjdy521/Mojo-Webqq
+Update FAQ.md
+Create FAQ.md
+Update Plugin.md
+新增插件 PostQRcodeToTelegram
+Update Plugin.md
+Update README.md
+Update README.md
+Update Plugin.md
+Create Plugin.md
+Delete _config.yml
+加载了UploadQRcode插件之后，Openqq插件input_qrcode事件上报也会带上上传的二维码url
+取消群名片可以使用空串
+20170106 Merge branch 'master' of https://github.com/sjdy521/Mojo-Webqq
+conflict
+Merge pull request #50 from bollwarm/master
+Merge branch 'master' into master
+Merge branch 'master' of https://github.com/sjdy521/Mojo-Webqq pull newer version
+ conflict temp
+2017-01-05 Mojo::Webqq v2.0.1 发布
+Merge branch 'master' of github.com:sjdy521/Mojo-Webqq
+修复Openqq插件上报接口返回reply回复内容时产生大量报错的问题 感谢 @Hubertzhang
+Update README.md
+修复new_group_member/lose_group_member事件报错的问题 感谢 @阿凡夫俗子 反馈
+修复日志打印出现大量警告的问题
+1）/openqq/get_qrcode 获取到的图片mime纠正为png格式 2）修复PostQRcode插件使用QQ邮箱出现错误信息乱码的问题
+Merge branch 'master' of github.com:sjdy521/Mojo-Webqq
+开启http_debug后，debug日志不打印http post上传文件的二进制内容
+Set theme jekyll-theme-hacker
+修复PostQRcodeToTelegram插件的语法错误
+PostQRcodeToTelegram插件完善
+Merge branch 'master' of github.com:sjdy521/Mojo-Webqq
+修复bug
+Merge pull request #55 from HubertZhang/patch-1
+增加PostQRcodeToTelegram插件用法
+使用内置HTTP Request发送Telegram信息
+Merge pull request #54 from HubertZhang/patch-1
+Update Controller-API.md
+2016-12-29 Mojo-Webqq v2.0.0 发布
+细节完善
+Update Controller-API.md
+Update Controller-API.md
+Create Controller-API.md
+Update API.md
+Update API.md
+1）Openqq插件支持上报事件 2）增加 Controller 支持多帐号管理 3）修复windows系统终端打印乱码问题
+增加通过Telegram Bot发布登录二维码的插件
+细节完善
+文档修复、版本号确认
+修复群组对象对max_member/max_admin的支持
+修复API文档错误
+新版本将进行大量的重构，以便和Mojo-Weixin项目尽量统一，清理杂乱代码，同时增加更多新的特性 详情参见github issues： https://github.com/sjdy521/Mojo-Webqq/issues/51 不清楚有多少人正在使用这个项目，没办法一一通知到，可能的变更包括：
+修改子曰插件对mojo微信兼容，增加linux命令行插件
+误加入的文件
+IPwhere插件增加说明
+Merge branch 'master' of https://github.com/sjdy521/Mojo-Webqq
+IPwhere说明
+Merge branch 'master' of github.com:sjdy521/Mojo-Webqq
+更新README
+UploadQRcode插件采用新的https://sm.ms/的图床接口，感谢 @那谁 的建议
+Update README.md
+Merge branch 'master' of github.com:sjdy521/Mojo-Webqq
+2016-12-01 Mojo::Webqq v1.8.9 发布
+Update API.md
+Merge branch 'master' of github.com:sjdy521/Mojo-Webqq
+细节完善
+Update API.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update IPwhere.pm
+Merge pull request #45 from bollwarm/master
+add IPwhere插件
+2016-11-11 Mojo::Webqq v1.8.8 发布
+日志默认输出改为STDOUT
+修复Openqq插件经常出现 can't call method "res" on an undefined value的警告信息
+文档纠正
+文档更新
+完善退出信号处理 感谢 @hzz1989 反馈
+Update README.md
+Update README.md
+Update Collection.md
+Create Collection.md
+更新郑重声明
+Merge pull request #41 from shengyayun/master
+Merge pull request #40 from btbxbob/patch-1
+shuthup_group_member改为shutup_group_member
+2016-10-20 Mojo::Webqq v1.8.7 发布
+typo
+Merge branch 'master' of github.com:sjdy521/Mojo-Webqq
+Update README.md
+Update README.md
+完善MakeFile.PL
+Merge branch 'master' of github.com:sjdy521/Mojo-Webqq
+SmartReply插件官方api接口请求形式变更
+增加捐赠小伙伴列表，记住那些曾经爱心捐助的人们，非常感谢，你们的鼓励就是我坚持的动力
+同一个帐号只允许一个客户端实例运行
+修复 KnowledgeBase2 插件会导致知识库文件出现重复记录的问题 感谢 @时光盒子 的反馈
+新增Pu和ZiYue两个插件 感谢 @bollwarm 贡献
+Merge branch 'master' of github.com:sjdy521/Mojo-Webqq
+新增Pu和ZiYue两个插件
+Merge pull request #39 from bollwarm/master
+Update ZiYue.pm
+Update Pu.pm
+完善Mojo::Webqq::Plugin::Pu插件的编写规范
+add two plugin Ziyue and Pu
+文档细节完善
+完善API.md
+2016-09-28 Mojo::Webqq v1.8.6 发布
+细节完善
+登录状态添加callme
+Merge branch 'master' of github.com:sjdy521/Mojo-Webqq
+调整接收消息的执行顺序为全部插件加载完毕后再执行 以避免加载插件耗时过长导致接收消息无法处理而被服务端邀请重新登录
+Update API.md
+PostQRcode插件在使用465端口时自动开启tls支持
+2016-09-07 Mojo::Webqq v1.8.5 发布
+文档完善 添加更多ua_debug的参数，可以选择是否打印请求和响应的header和body
+完善重新登录流程 完善ua_debug信息
+Merge branch 'master' of github.com:sjdy521/Mojo-Webqq
+登录成功后删除残留的二维码文件
+Update README.md
+新增UploadQRcode插件，可以将二维码上传至云存储获取到url地址
+Merge branch 'master' of github.com:sjdy521/Mojo-Webqq
+尝试修复扫描二维码登录成功后又要重新扫码登录的问题
+增加更多友情链接
+Merge branch 'master' of github.com:sjdy521/Mojo-Webqq
+新增插件 FuckAndroid
+Update README.md
+Update README.md
+Update README.md
+Add files via upload
+Delete donate.png
+添加捐赠信息
+Delete donate.png
+Update README.md
+添加捐助二维码
+修复IRCShell插件无法正常获取到 master_irc_user 的BUG
+IRCShell插件文档完善
+2016-08-10 Mojo::Webqq v1.8.4 发布
+input_qrcode事件参数中增加原始二维码数据
+支持自动检测系统的代理设置（通过环境变量 HTTP_PROXY/HTTPS_PROXY) 感谢 @linux0ne 反馈
+文档更新
+new方法增加update_interval参数 默认600秒，用于控制客户端定时更新频率
+2016-07-07 Mojo::Webqq v1.8.3 发布
+对发送消息返回状态码1202添加配置项进行选择性处理
+修复gitter连接错误
+修复ProgramCode不可用的错误
+README中引用的图片添加作者名称
+Update README.md
+README文档添加特色功能
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+bug修复
+modified:   README.md
+Merge branch 'master' of github.com:sjdy521/Mojo-Webqq
+2016-06-30 Mojo::Webqq v1.8.2 发布
+去掉显式的login方法调用
+Update README.md
+对于获取json数据失败给与警告信息 其他细节完善
+Update README.md
+Merge pull request #35 from gitter-badger/gitter-badge
+Add Gitter badge
+1）FuckDaShen插件去掉"你妹啊"的不文明用语 感谢 @mu 反馈 2）KnowledgeBase2插件的知识库分隔符改为井号'#'，现在show_keyword参数用于控制是否打印触发的关键字信息 感谢@hzz1989 @尘 @蓝海
+修复文档错误 感谢 @蓝海 反馈
+取消input_qrcode事件中的二维码原始url参数，因为直接访问这个url获取到的二维码是无效的 感谢 @尘 的反馈
+2016-06-18 Mojo::Webqq v1.8.1 发布
+1）KnowledgeBase2插件知识库答案支持空白和换行 感谢 @尘 2）修复KnowledgeBase/KnowledgeBase2插件可能导致死循环的bug
+新增插件 KnowledgeBase2 可编辑知识库
+知识库插件完善，支持精确|模糊|正则 三种模式
+KnowledgeBase插件增加触发关键字
+KnowledgeBase完善
+1）修复大于号小于号被转义的问题 2）KnowledgeBase插件默认开启模糊匹配 3）相关文档完善
+修复在某些特殊情况下无法正常获取好友和群组qq号码的问题 感谢 @Your Vision 的测试反馈
+修复文档错误
+新增友情链接
+新增QQ群签到插件(补充提交)
+新增QQ群签到插件
+现在群组签到方法和Qiandao插件
+Update API.md
+Openqq插件新增/openqq/get_group_basic_info接口 感谢 @Your Vision 的建议
+Merge branch 'master' of github.com:sjdy521/Mojo-Webqq
+新增irc聊天截图，感谢 @動感光波
+Update README.md
+2016-05-30 Mojo::Webqq v1.8.0 发布
+Update README.md
+修复Translate插件不可用的bug 感谢 @丶Seven
+Update API.md
+Openqq插件新增接口 /openqq/search_friend /openqq/search_group /openqq/shuthup_group_member
+Merge branch 'master' of github.com:sjdy521/Mojo-Webqq
+Makefile.PL 增加如下依赖模块 Time::Piece Time::Seconds
+Update Docker.md
+Update Docker.md
+Update Docker.md
+Update README.md
+新增Docker.md文档
+2016-04-27 Mojo::Webqq v1.7.9 发布
+完善docker支持
+1）增加docker支持 2）客户端初始化new不需要强制指定qq参数
+Merge pull request #34 from BendustiK/master
+添加MacOS的支持。修改Windows的OS名称判断
+2016-04-21 Mojo::Webqq v1.7.8 发布
+去掉几个默认依赖模块 进一步完善add_job
+修复add_job方法的错误
+客户端的spawn方法增加一个新的参数 is_blocking 用于进行阻塞式执行命令
+-> 改为 → 感谢 @影随风轻
+强调perl版本要求
+2016-04-07 Mojo::Webqq v1.7.7 发布
+发送消息失败重试的日志级别从debug改为warn
+Merge branch 'master' of github.com:sjdy521/Mojo-Webqq
+Perlcode插件bug修复
+Update README.md
+Update API.md
+Create API.md
+1）修复SmartReply插件包含<br />等html标签的问题 2）针对发送消息无法判断是否发送成功的情况给出提示
+Update README.md
+Merge branch 'master' of github.com:sjdy521/Mojo-Webqq
+2016-03-26 Mojo::Webqq v1.7.6 发布
+文档更新
+1）针对发送消息返回的特定状态码(1202)，由于无法判断是否发送成功，也认为发送成功，以便防止程序一直发送失败而重新登录 2）增加msg_ttl属性，用于设置发送失败的消息重试次数
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+2016-03-25 Mojo::Webqq v1.7.5 发布
+针对部分发送失败的请求进行重新尝试
+新增 ShowQRcode 插件 感谢 @autodataming 注意：该插件需要在$client->login()之前加载
+Merge pull request #32 from autodataming/patch-5
+尝试直接打开二维码图片
+很多对象属性比较常用，但和Mojo::Weixin并不兼容， 比如消息对象很多属性是msg_开头，msg_class/msg_from，这些属性在Mojo::Weixin里变成了class/from 群对象的属性gid/gmarkname/gname，这些属性在Mojo::Weixin里变成了id/markname/name 为了和Mojo::Weixin对象属性保持一致，便于二者插件的移植，因此为Mojo::Webqq对象添加更多和Mojo::Weixin对象一致的属性名称
+新增GasPrice插件 感谢 @hyvinlam 其他细节完善
+Merge pull request #30 from hyvinlam/master
+new file GasPrice.pm check gas price of China
+Delete GasPrice.pm
+new Plugin:GasPrice.pm usage:check the gas price of China
+Update README.md
+Update IRC.md
+Update IRC.md
+Update README.md
+Update IRC.md
+Update README.md
+Update README.md
+Update README.md
+Update IRC.md
+Update IRC.md
+Create IRC.md
+Update README.md
+Riddle插件原有api不可用，更新其他api接口 感谢 @Perling 的反馈
+2016-03-14 Mojo::Webqq v1.7.4 发布
+发送消息对象默认的msg_from属性为"code"，表示消息是由代码发送产生的
+修复Riddle插件的错误
+Riddle 插件增加timeout参数
+增加 Riddle 插件，猜谜游戏 感谢作者 @limengyu1990
+修复ProgramCode插件的错误
+变量使用前先声明
+SmartReply插件增加 ban_user 参数，用于屏蔽不想生效的用户 感谢　＠丶Seven　的建议
+github issue fix https://github.com/sjdy521/Mojo-Webqq/issues/26 https://github.com/sjdy521/Mojo-Webqq/issues/27
+2016-03-02 Mojo::Webqq v1.7.3 发布
+屏蔽可能发送大量群成员修改名片的消息
+修复代码拼写错误
+文档完善
+可以通过post_api接口控制是否直接对消息发送者禁言
+修复 KnowledgeBase 的bug Openqq插件支持利用消息上报接口返回的内容来回复消息 文档完善
+2016-02-28 Mojo::Webqq v1.7.2 发布
+1）修复群名称、好友名称等包含html转义字符(&nbsp;之类)的bug 2）添加更多debug级别的日志输出信息
+感谢 @autodataming 的反馈 1）修复多张号登录的计数问题 2）修复登录失败没有return的bug
+修复如下报警信息 Use of uninitialized value in addition (+) at Mojo/Webqq/Counter.pm line 37
+SmartReply默认需要艾特 修复KnowledgeBase插件代码产生警告错误 支持在消息上报接口中包含qq号、群号等信息（https://github.com/sjdy521/Mojo-Webqq/issues/25）
+代码细节完善
+修复bug
+大量插件增加更多自定义参数满足各种场景需求
+README完善
+代码细节优化
+修复一些bug
+程序启动时增加版本号信息方便排查问题
+增加文档说明
+Merge branch 'master' of github.com:sjdy521/Mojo-Webqq
+针对群组（讨论组）数量非常多的情况进行性能优化，以便提升获取群组（讨论组）速度，提升启动速度，降低内存消耗 1）首次登录默认仅加载好友信息，群列表（不包含具体的群成员）、讨论组列表（不包含成员），以提升速度 2）在程序运行过程中会自动根据需要来加载群成员、讨论组成员信息，做到按需加载，较少不必要的消耗 3）程序定期更新个人信息、好友信息、群信息、讨论组信息，采用异步并发的方式，极大提升速度 4）增加is_init_friend/is_init_group/is_init_discuss/is_init_recent等选项来控制首次登录是否加载这些内容 5）增加is_updae_friend/is_update_group/is_update_discuss/is_update_recent等选项来控制是否定期更新这些内容
+Merge pull request #22 from autodataming/patch-3
+add comment fot $method
+修复README中关于发送消息api参数拼写错误 感谢 @ÖI Am FengÖ 的反馈
+修改文档错误
+加入免责声明
+2016-02-05 Mojo::Webqq v1.7.1 发布
+增加触发重新登录的发送消息异常次数
+修复README错误 感谢 @Raymond  反馈
+merge pull request #16
+连续多次二维码位过期未扫描则客户端退出，而不是一直不停的重新请求二维码 感谢 @Raymond 反馈
+修复可能导致重复多次登录的bug
+发送临时消息失败会给出信息提示（腾讯已经屏蔽了临时消息）
+2016-01-19 Mojo::Webqq v1.7.0 发布
+修复对新版Mojolicious兼容性问题
+2016-01-12 Mojo::Webqq v1.6.9 发布
+1）修复开启ua_debug选项打印的debug信息乱码的问题 2）修复群名称中包含空格字符导致无法获取到gnumber的bug 感谢 @lyrl 的反馈
+修复 add_friend/add_group/add_group_member/add_discuss_member 存在的bug
+重新登录清空相关的计数器，否则会导致频发重新登录 感谢 @路人乙 的反馈
+修复model_update_fail事件无法触发的bug 感谢 @林听海风 的反馈
+修复可能出现多次调用$client->ready()的bug 感谢 @datasdk 反馈
+2015-12-25 Mojo::Webqq v1.6.8 发布 Merry Christmas!
+发送消息失败增加失败信息说明
+只针对特定发送失败的状态进行重新登录，避免其他原因导致的发送失败也被意外的重新登录，造出重新登录过于频繁
+$client->add_job() 支持HH:MM 和 HH:MM:SS 格式，代码做了精炼 感谢 @林听海风
+$client->add_job() 文档修改
+$client->add_job() 支持HH:MM 和 HH:MM:SS 两种时间格式
+2015-12-23 Mojo::Webqq v1.6.7 发布
+由于腾讯接口变更，重新完善发送消息成功失败的状态检测机制 连续多次消息发送失败自动重新登录
+发送消息的接口在成功和失败的情况下返回的格式不一致，对这种情况进行了适配
+在更新个人信息失败的情况下，保障主体代码的正常运行
+完善README文档
+当前发现接收消息失败次数达到一定程度重现连接仍然无法正常接收消息，改为重新登录
+继续完善README
+README完善
+README完善
+README文档格式完善
+完善README文档，对不同需求的群体提供更加友好的使用说明
+修复demo例子中设置模块查找路径错误 感谢 @欣然从戎
+2015-12-09 Mojo::Webqq v1.6.6 发布
+修复更新群信息产生的错误问题 感谢 @hzz1989 的反馈
+2015-12-09 Mojo::Webqq v1.6.5
+对内容中可能出现的 &lt; &gt;等进行转义
+修复由于腾讯smartqq进行了修改，导致无法正常登录的问题，此次腾讯更新发现如下改动： 1）如果客户端qq或手机qq设置了屏蔽群消息，则smarqq也不会收到任何消息 2）smartqq无法收到其他客户端或手机发送的消息中包含的任何图片，完全被屏蔽了……腾讯这真是作死的节奏
+GroupManage插件添加成员修改群名片提醒
+GroupManage插件完善
+2015-12-03 Mojo::Webqq v1.6.4 发布
+1）修复了一个困扰已久的隐藏很深的bug，会导致各种意外报错，建议马上升级更新 2）对客户端接收消息心跳进行了加强保护，防止程序运行出错的情况下可能导致心跳停止而登录失效
+2015-12-02 Mojo::Webqq v1.6.3 发布
+安装方法完善
+1）GroupManage插件示例代码细微调整 2）IRCShell插件修复其他irc用户无法通过>>>执行perl代码问题
+GroupManage插件完善
+增加更多demo示例 感谢 @hzz1989
+Merge pull request #11 from hzz1989/master
+1）修复GroupManage的错误 感谢 @路人乙 的反馈 2）修复IRCShell插件的严重错误
+新增GroupManage插件
+添加openqq示例demo
+增加群禁言功能，详情请参加文档说明 禁言 $client->shutup_group_member() 取消禁言 $client->speakup_group_member()
+1）修复Perlcode插件在perl-5.10.1版本上编译错误的bug 感谢 @hzz1989 2）修复StockInfo插件加载时产生警告问题
+2015-11-25 Mojo::Webqq v1.6.2 发布
+修复Use of uninitialized value in concatenation的警告
+增加定期数据完整性检测机制，对于异常数据尝试进行修复
+1）新增MobileInfo插件，感谢 @不负如来不负卿 的共享 2）尝试修复·Can't call method "emit" on an undefined value·的报错，虽然没有找到根本的bug……
+修复文档错误 感谢 @涣涣天空 帮忙纠正
+修复文档错误
+增加Translation插件，支持多国语言翻译
+代码示例中增加更多指导
+修复插件拼写错误 ProgrameCode -> ProgramCode
+ProgrameCode插件细节完善
+代码细节完善
+新增ProgrameCode插件 感谢@不负如来不负卿
+文档中增加 receive_raw_message 事件说明
+1）新增receive_raw_message事件 2）修复IRCShell插件在相同昵称的irc帐号已经存在的情况下，无法正常显示qq群消息的bug
+2015-11-12 Mojo::Webqq v1.6.1 发布
+文档细节更新
+Merge pull request #10 from hzz1989/patch-1
+Update README.md
+修复获取群名片数据错误的bug
+取消本地手动安装步骤，这种方法需要自行解决依赖问题，新手都不懂，容易误导大家
+1）修改文档错误 2）$client->load()/$client->call()方法返回$client本身，方便实现链式调用
+修复无法正常更新讨论组信息，无法正常接收讨论组消息的bug
+2015-11-03 Mojo::Webqq v1.6.0 发布
+代码细节完善 1）$client->print()方法打印内容不再包含时间戳等信息 2）IRCShell插件更新帐号昵称时会先检查确认昵称确实发生改变
+修复无法在before_send_message回调中修复实际消息发送内容的bug
+优化xxx_property_change相关事件的执行效率
+增加如下事件，详情参加文档说明 friend_property_change group_property_change group_member_property_change discuss_property_change discuss_member_property_change
+修改IRC交流方式默认加入的频道
+修改IRC交流方式默认加入的频道
+修复travis-ci测试失败问题 将travis-ci的测试结果同步显示在github上
+添加travis-ci代码检查功能
+修复PostQRcode插件发送邮件一直是重复的旧二维码的bug
+2015-10-23 Mojo::Webqq v1.5.9 发布
+修改g_appid/g_daid/g_pt_version/g_style等默认登录参数
+IRCShell插件的IRC Server依赖模块改为Mojo::IRC::Server::Chinese Perlcode插件隐藏错误信息中的Sandbox命名空间
+增加更新日志和开发文档的地址
+2015-10-21 Mojo::Webqq v1.5.8 发布
+修复32位系统计算扩展信息的CSRF token时大整数计算错误的问题 感谢hzz的反馈
+修复Perlcode插件执行结果超出限制行数无法自动kill进程的bug
+修复IRCShell插件irc帐号没有加入频道的情况下也收到频道消息的bug
+增加官方交流方式 相关文档完善
+KnowledgeBase插件不再限制只识别自己发送的del指令
+延迟登录出现更新好友、群组信息失败时也能够正常的重新登录
+2015-10-15 Mojo::Webqq v1.5.7 发布
+修复客户端定时更新好友、群组数据导致扩展信息丢失（gnumber、qq）等，Openqq插件无法正常工作的问题
+相关文档更新
+1）完善生成的cookie文件路径跨平台兼容性 2）二维码和验证码文件使用固定路径，不再使用随机文件名 3）修复首次启动可能出现无法更新好友、群组等信息的bug
+增加model_update_fail事件，详情请参见文档说明
+smartqq登录一段时间后会无法再正常获取到好友信息、群消息 当连续获取信息失败次数超过3次会触发model_update_fail事件 虽然无法获取信息，但并不影响正常收发消息，只是部分功能会受限 先前的代码尝试重新登录，但仍然无法解决该问题，因此取消这部分无用的尝试
+1）增加消息发送内容为空的提醒 2）修复使用perl -w 执行程序时导致Perlcode插件执行代码产生意外warning的bug
+程序启动时删除之前残留的二维码和验证码临时文件
+2015-10-11 Mojo::Webqq v1.5.6 发布
+修复高版本perl(5.23.x)Experimental push on scalar is now forbidden的错误 https://rt.cpan.org/Public/Bug/Display.html?id=107698
+2015-10-11 Mojo::Webqq v1.5.5 发布
+1）好友分组属性categorie更名为category 2）获取好友QQ号/群号码/群成员QQ号码不再愁，现在程序会自动获取到这些数据 3）增加邀请好友入群/踢人/设置管理员/设置群名片等群管理功能 4）对象增加更多实用方法，具体参见文档说明 5）Openqq插件现在可以通过qq号码和群号码来指定发送对象
+解决#8 (https://github.com/sjdy521/Mojo-Webqq/issues/8) 1）PostQRcode现在也支持$client->mail()大部分参数，特别包括tls相关的 2）修复正文内容乱码的问题
+利用事件触发的方式来避免接收消息函数自身嵌套执行可能导致的引用计数递增等内存泄漏问题
+2015-10-08 Mojo::Webqq v1.5.4 发布
+修复Openqq插件无法执行报错的bug 感谢 hzz1989 的反馈
+修复$client->spawn 无法继承客户端的日志级别设定的bug 感谢Ljk的反馈
+2015-10-07 Mojo::Webqq v1.5.3 发布
+相关文档完善
+增加$msg->reply()方法，比原先的$client->reply_message()更简洁
+1）修复文档不一致问题 2）完善发送邮件方法->mail() 支持的参数
+1）插件增加call_on_load参数，若设置为1会在load完成之后马上执行call，相当于阻塞加载并执行插件 2）删除README.md中的Webqq::Encryption依赖 3）login方法默认变为阻塞执行，即delay参数默认为0，因为这样才是一般人最为习惯的理解，带来不便请谅解 4）PostQRcodee/PostImgVerifycode插件默认call_on_load=>1，并且需要在login之前load，相见文档中插件说明 5）修复接收消息中存在N久的大bug，没有判断消息类型就统一做处理导致消息结构异常 6）修复代码在开启warning时产生的部分报警信息 7）尝试在多次无法获取到好友、群、讨论组等数据时进行快速恢复登录，该功能还处于测试中
+2015-10-03 Mojo::Webqq v1.5.2 发布
+1）修复二维码登录报"实际登录帐号和程序预设帐号不一致"的严重bug 2）修复重新链接成功后设置cookie名称错误的bug
+2015-10-01 Mojo::Webqq v1.5.1 发布
+1）去掉Webqq::Encryption默认依赖 2）采用帐号密码登录时，添加帐号密码未设置的警告 3）文档细节完善
+Update README.md
+二维码扫描实际登录帐号和程序预设帐号不一致的情况下给出提示错误并停止运行
+1）默认开启延迟登录。部分旧版本代码可能不兼容（建议代码尽量写在ready事件触发中） 2）优化二维码登录流程和保存加载cookie的逻辑
+删除原先的README 文档完善
+增加README.md
+增加README.md文件
+1）登录默认选择二维码登录 2）增加获取临时消息中的图片功能 3）整体框架优化，部分代码和旧版本不兼容
+修复采用延迟登录之后ua_debug参数不生效的bug
+1）修复文档错误 2）修复发送消息中raw_content为空的bug 3）修复REAME中依赖模块缺失
+删除调试代码 优化发送消息的精确性
+1）发送消息支持表情，现在你可以通过[微笑][可爱]等和QQ客户端相同的表情名称来发送表情啦 2）修复Openqq插件读取api参数错误
+1）文档中添加更多注意事项说明 2）IRCShell插件只允许虚拟好友加入好友频道
+2015-09-27 Mojo::Webqq v1.5.0 发布
+修复is_at判断不准确的bug
+1）修复$msg->dump 打印乱码的bug 2）群对象和讨论组对象增加 ->me 方法 用于直接获取自己在群中或讨论组中的对象 3）消息增加->is_at() 方法，用于判断消息是否有艾特自己或某人
+修复Mojo::Webqq::Request存在的警告信息
+十分抱歉，腾讯虽然在页面上关闭帐号密码登录的方式，但实际上api还是可以使用的，自己搞错了。。 修复了先前因此造出的大量代码问题，并且默认恢复使用帐号密码的登录方式
+新增PostQRcode插件，将二维码发送到手机邮箱远程扫描二维码
+文档细节完善
+1）增加log_encoding属性用于手动设置输出到终端的编码 2）增加login_type属性，用于设置登录类型，并且默认登录类型改为二维码扫描登录 3）增加verifycode_path/qrcode_path属性 用于自定义二维码、验证码的下载保存路径 4）增加tmpdir属性，用于更改默认临时目录 5）增加$client->print()方法，用于打印内容到终端，防止乱码 6）请求超时时间延长至120s 7）增加二维码扫描登录方式（腾讯已经禁用了帐号密码登录方式） 8）优化好友图片下载速度
+修复文档细节
+1）文档中添加使用UTF8编写源码的警示 2）修复无法正常获取群备注名称的bug 感谢PERL学习交流群 @a蒜
+Mojo::Webqq::Request增加请求失败警告信息
+2015-09-24 Mojo::Webqq v1.4.9 发布
+文档中添加关于好友图片、群图片接收事件说明
+IRCShell插件增加qq图片转为在线链接的功能，方便irc上查看qq图片
+1）新增获取群图片特性 回调事件receive_group_pic 2）IRCShell插件自动将群中图片转为分享链接 3）修复获取好友图片时，图片文件写入数据错误的bug
+1）增加emoj表情支持 2）消息对象增加->text属性用于获取不包含表情、图片的纯文本内容 3）KnowledgeBase插件只有主人自己可以执行del指令
+2015-09-20 Mojo::Webqq v1.4.8 发布
+文档细节完善
+1）客户端增加keep_cookie和cookie_dir两个属性，用于设置是否保存登录cookie方便下次直接恢复登录 2）文档错误纠正
+修复文档中端口错误
+2015-09-18 Mojo::Webqq v1.4.7 发布
+Openqq插件增加接收消息上报到指定地址的功能 消息对象增加to_json()方法
+好友图片下载失败增加警告信息
+文档细节完善
+IRCShell插件添加对延迟登录和非延迟登录的支持
+1）PostImgVerifycode插件发布，支持远程手机邮箱接收和提交验证码 2）login()增加delay选项，用于支持延迟登录（加载完所有插件再登录） 3）mail()方法支持阻塞发送 4）IRCShell插件支持延迟登录
+1）Openqq插件增加认证回调函数 2）增加验证码下载失败的错误信息提示
+2015-09-11 Mojo::Webqq v1.4.6 发布
+添加friend_pic_dir属性 用于设置好友图片保存目录 感谢@wxg
+1）http request增加最大跳转次数限制 2）修复receive_friend_pic事件无法正常获取到好友图片的bug，感谢@wxg
+1）IRCShell插件增加load_friend的方法，用于控制初始是否生成好友虚拟账户到irc服务器 2）群和讨论组新增->members方法用于获取成员对象列表 3）相关文档的完善
+修复IRCShell消息发送失败时代码存在的错误
+2015-09-08 Mojo::Webqq v1.4.5 发布
+部分perl-5.10.1版本没有按照官方描述的自带CORE Module Time::HiRes Time::Piece Time::Seconds 因此MakeFile中显式的加入这些依赖模块
+消息队列尝试添加消息延迟pop的特性 IRCShell支持监听多个端口 已支持部分客户端网络无法正常连接服务端6667端口的bug IRCShell添加转发qq消息失败时的提醒功能
+文档中添加displayname属性说明
+对象新增displayname属性 修复IRCShell昵称和备注名称不一致的情况下产生的bug
+删除调试代码
+修复初始加载虚拟帐号时 如果已经存在真实帐号 产生的bug
+qq消息也会同步显示在相同昵称的irc客户端上
+新增获取好友、群、讨论组、最近联系人对象列表的便捷方法 ->friends() ->groups() ->discusss() ->recents()
+修复插件IRCShell重新登录后导致数据异常无法正常收发消息的bug
+2015-09-03 Mojo::Webqq v1.4.4 发布
+发送邮件识别添加错误信息 IRCSimulation插件完善
+修复好友图片下载代码的bug 重构IRCSimulation插件
+新增IRCSimulation插件, 按照原生irc的方式使用qq
+spawn方法exit_cb的返回结果中增加 'is_timeout' 的属性用于标识进程是否是超时退出
+2015-08-31 Mojo::Webqq v1.4.3 发布
+客户端增加->spawn()方法，以便于在单独的进程中执行代码或外部命令
+文档中添加timer() interval()方法的说明
+1）进一步完善Makefile.PL 2）纠正文档中的错误 3）修复make test过程中产生的warning警告
+MsgSync插件默认使用的irc服务器从freenode改为自己的irc.perfi.wang
+1）修复Makefile兼容性问题 2）增加遍历好友、群、群成员、讨论组、讨论组成员的方法
+Merge pull request #2 from neilbowers/master
+Set meta-spec to version 2, so that the repository info will be handled right
+2015-08-23 Mojo::Webqq v1.4.2 发布
+1）删除大量无用的错乱的代码 2）修复了容易造成频繁重新连接的bug
+修复multi_run()中的bug
+修改文档
+1）Mojo::Webqq增加ioloop属性，可以设置客户端使用的事件驱动，默认是Mojo::IOLoop->singleton; 2）将消息队列的处理函数从Mojo::Webqq::Client移动到Mojo::Webqq::Message 3）Mojo::Webqq::Client->run中只负责产生一个事件驱动，其余代码移动到Mojo::Webqq::Client->ready中，以便更好的和其他事件循环的代码进行配合使用 4）SmartReply插件修复了当设置群名片后，无法在群里艾特触发智能回复的bug
+2015-08-19 Mojo::Webqq v1.4.1 发布
+修复SmartReply插件因为编码问题导致无法正确识别内容，回复异常的问题
+KnowledgeBase修改为即时保存
+修复KnowledgeBase插件传参错误 修复FuckDaShen的bug
+调整README排版
+增加FuckDaShen插件 增加KnowledgeBase插件
+增加对群共享文件消息的支持
+MsgSync插件增加IRC服务器断开自动重连的机制
+2015-08-11 Mojo::Webqq v1.4.0 发布
+修复MsgSync插件参数设置不生效的bug 修复Perlcode插件输出多了一个换行符的bug
+完善文档 增加更多系统表情识别 完善MsgSync插件对irc昵称的识别
+修改SYNOPSIS，避免关于登录密码使用md5的描述歧义
+2015-08-03 Mojo::Webqq v1.3.9 发布
+修复before_send_message事件在消息发送失败多次尝试过程中也会被多次触发的bug 修复Perlcode/Perldoc插件查询结果中包含终端颜色转义字符的bug
+MsgSync插件完善
+完善MsgSync插件
+2015-07-30 Mojo::Webqq v1.3.8 发布
+1）发送消息支持第三个参数设置预处理函数，对即将发送的消息进行预处理 2）发送消息增加$msg->msg_from 属性 用于自由定义发送消息的来源 3）插件支持从插件全局包变量中获取优先级等参数 4）改进MsgSync插件支持多个QQ群和各自的IRC频道关联
+细节之处完善
+2015-07-17 Mojo::Webqq v1.3.7 发布
+修复邮件主题乱码问题
+mail方法增加回调参数，可以在回调中判断邮件发送状态
+为保持向后兼容性，仍然支持原有的receive_offpic事件
+receive_offpic事件名称修改为receive_friend_pic 更新相关的文档说明
+1、增加first_talk事件，某人第一次发起对话时触发 2、完善receive_offpic事件回调参数
+修复MsgSync插件长时间运行导致消息发送失败的bug
+add_job的时间参数支持设置为函数，来动态获取时间
+2015-07-03 Mojo::Webqq v1.3.6 发布
+修复文档错误
+好友、群、讨论组等对象增加send方法，可以通过对象直接发送消息
+修复在某些特殊情况下触发大量new_group_member事件的bug
+2015-06-23 Mojo::Webqq v1.3.5 发布
+进一步完善文档 修复openqq插件查找friend id失败返回错误消息的拼写错误
+修复pod文档中openqq插件错误，感谢 @一棵草|PERL学习交流 群的反馈
+调整pod文档
+pod文档中增加StockInfo插件使用说明
+README调整
+调整REAME格式
+REAME增加插件列表介绍
+Merge pull request #1 from shalk/master
+stock plugin support 股票或gp 开头关键字
+add plugin stockinfo
+pod文档中增加$client->mail方法说明
+修复客户端stop之后仍然定时更新数据的bug pod文档中增加http_get/http_post方法说明
+1）更新数据失败次数超过限制尝试重新连接 2）Perlcode插件修复无法正常设置gid的bug
+pod文档中增加安装Crypt::RSA模块的提醒
+2015-06-04 Mojo::Webqq v1.3.4 发布
+pod文档错误纠正 修复发送消息的msg_id一直不变的bug
+修复POD文档拼写错误
+2015-06-04 Mojo::Webqq v1.3.3 发布
+1）增加IO::Socket::SSL依赖模块版本 1.94+ 2）增加Openqq插件，支持提供http api接口进行信息获取和消息发送 3）修复Perlcode、Perldoc插件执行时导致进程阻塞的bug 4）t/https.t测试脚本失败时打印更多错误信息 感谢 @乀﹒安乐，仅此|PERL学习交流 群 的测试反馈
+2015-06-03 Mojo::Webqq v1.3.2 发布
+修复当需要输入验证码时，验证码路径乱码的bug 修复当需要输入验证码时，提示输入参数错误无法登录的严重bug
+修复消息队列中的消息ttl无法递减的bug 添加更多发送失败自动尝试重新发送的debug日志
+修复处理讨论组消息导致程序异常的bug
+2015-06-02 Mojo::Webqq v1.3.1 发布
+修复pod文档错误
+2015-06-02 Mojo::Webqq v1.3 发布
+细节修复
+客户端的mail方法，发送邮件添加发送成功的debug日志
+修复接收消息失败无法累计失败次数自动重连的bug 修复发送邮件产生warning的问题
+修复pod文档拼写错误 MsgSync插件对发送给irc的消息进行截断，防止出现irc flood导致客户端被服务器踢下线
+2015-06-01 Mojo::Webqq v1.2 发布
+1）修复encrypt_method属性导致的死循环问题 2）旧版本和新版本的Mojo::UserAgent::CookieJar::all函数不兼容导致登录失败问题 感谢 @moqimoqi.com|PERL学习交流 的反馈 3）修复首次登录无法获取到群成员信息再次更新群信息时大量触发new_group_member事件的bug 4）客户端全局消息发送间隔从原来的0s设置为3s，以防止发送消息过快被腾讯屏蔽 5）修复Mojo::Webbqq::Run使用smartmatch操作符导致部分perl版本不兼容问题 感谢 @杰克|PERL学习交流 的反馈
+2015-06-01 Mojo::Webqq v1.1 发布
+好友、群组、讨论组等数据类型中增加 _client 属性 使得每个数据类型本身保存客户端自身引用，能够通过客户端实现一些原本无法进行的操作
+继续修复SmartReply的bug，自己代码拼写错误了。。唉
+1）MsgSync插件修复irc消息多行问题 2）修复SmartReply插件好友不支持city属性而导致报错的bug
+修复好友、群组、消息对象调用dump方法时错误
+1）修复dump方法 2）修复ShowMsg插件bug 感谢 @杰克|PERL学习交流 群的 反馈 3）新增MsySync插件，支持qq群和irc频道消息同步
+1）新增Perldoc插件 支持在qq聊天消息中使用perldoc查询模块信息 2）新增mail方法，非阻塞发送邮件 3）修复输入验证码时格式错误 4）修复长时间登录导致无法更新好友信息、群信息的bug 5）其他细节完善
+修复pod文档错误
+2015-05-27 Mojo::Webqq v1.0 release

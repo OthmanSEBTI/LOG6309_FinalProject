@@ -1,0 +1,326 @@
+Fix placeholder check for dirty state
+Fix the aria-hidden setting for the case when a fixed drawer is open. (#5128)
+Fixed dead link for `CONTRIBUTING.md` in README.md
+Fixed minor typo in dialog README
+Fix checked/unchecked style for checkbox
+Fix js lint issues (#5013)
+Fix #1335 (#5041)
+Fix full width card action overflow in IE
+Add mdl-card__menu docs. Fixes #1094
+Fixing build after babel-core update.
+Fix linting issue in radio.js
+Fix alignment in list-control.html
+Fixed MaterialRadio.prototype.onChange_
+Fix "issue tracker" hyperlink in CONTRIBUTING.md .
+Revert "Fix closure errors"
+Fix closure errors
+Fix search icon position in dashboard template
+Fix list class reference to display the proper modifier classes.
+Fix drawer toggle mis-alignment due to incorrect line-height.
+Fix drawer toggle alignment problem
+Fix drawer active state colors
+Fixes element.MaterialRadio.[un]check() calls on radio lists
+Fix typo in layout readme
+Fix assignment for closure.
+Fix downgrade event firing (bug introduced in #4191)
+Fix grammatical error
+Fixing linting errors.
+Fix downgrade event as well
+Use the Event constructor in browsers that support it. Fixes #4188.
+Fixing merge issue with .drone.sec
+Fix snackbar position on mobile.
+Make labels interact better with placeholders in textfields. Fixes #243.
+Fix printing in IE11. Fixes #4129.
+Fix list example controls.
+Fix default timeout documentation.
+Fix documentation for multiline list item classes
+Fix double ascending modifier in config options.
+Update tab button appearance on window resize. Fixes #4061.
+Changing text field error color per MD team advice. Fixes #4066.
+Fix issues with waterfall headers on small screens. Fixes #4058.
+Fixing syntax highlighting in some docs
+Fixing broken menu demos
+Fix tags in example
+Small fix for snackbar sample. Fixes #4041
+Fixed another typo
+Fixed typo in the Tabs/README.md
+Fix typos in documenting comments
+Fixing build issue on node 0.12 with gulp-closure-compiler
+Fixed downgrading to always remove internal references.
+Fix duplicate checkFocus method.
+Fixing layout after what looks like a bad merge.
+Fix memory test output
+Fix links and grammar
+Fix margin-right when using .mdl-badge--overlap
+Fix left/right tooltip positioning
+Fixed js
+Fixing typo introduced in #1781
+Fix typo in blog template css
+Fixing issue loading CSS in android.com template
+Fix tabs memory leak by ensuring a downgrade. Fixes #1803.
+Fix active drawer item color.
+Fix tooltip to behave more correctly on mobile
+Fix typo in Getting Started (fixes #1744)
+Fix issues with layout obfuscator in iOS9. Fixes #1696.
+Fixes for docs footer issues: - Remove bullet points from footer links - Add spacing between links in footer
+Fix reference to class name for seamed mode (closes #1703)
+Fixes #1656
+Fixes #1642
+Fix Switch cursor issue (fixes #1530)
+Fix Mega footer checkbox chevron visible on wide screen (fixes #1582)
+Fix media-query at exactly 1024px (fixes #1577)
+Fixing menu unit test to not use internal properties
+Fix style leakage on styling site (fixes #1476)
+Fix microsite's footer spacing issue (fixes #1440)
+Add name and value options to datatable selectors. Fix data table tests to run.
+Fix merge conflicts with data tables update.
+Fixing up indentation issues that prevented jshint from successfully running
+Fix textfield background regression. Fixes #1423
+Revert "Fix iOS data table scrolling. Fixes #1194."
+Fix data table header checkbox positioning. Fixes #923. (Closes #1409)
+Fix iOS data table scrolling. Fixes #1194.
+Adding a pointer cursor on sliders. Fixes #1370
+Simplify reset imports. Fixes #1363
+Fix radio label wrapping in docs
+Improve Grid component styling on CodePen. Fixes #1009
+Fixes errors and omissions in existing layout docs. Fixes #1310
+Fixing CSS coding standard inconsistencies in demos
+Fixing link location for the "cutting the mustard" test (Closes #1318)
+Fixes the README instructions for latest gulp file rework. Fixes #1304
+Fix typo in layout README
+Fixing radio button position
+Fixed typo in the "card" README file
+Fix slider update with numeric 0
+Docs: Fix Cutting-the-mustard Link
+Fix typo in dashboard template (Closes #1208)
+Fixing incorrect JS doc (Closes #1161)
+Fixed test case 'should upgrade a single component to an element by using its CSS classes' to reveal a bug in the current `upgradeElement` caused by `dataUpgraded` not being correctly updated. Added test case 'should upgrade a single component to an element' to reveal a bug in the current `upgradeElement` caused by unreliably checking of upgraded class.
+Fix IE10/11 copy bug
+Issue if Drawer has mdl-layout--small-screen-only or large-screen-only. Then the hamburger Icon needs to be hidden on small/large screen.  Fixed this by adding class to slider-Icon(hamburger).
+Fix typo in _layout.scss
+Fix typo in _variables.scss
+Fix grid documentation
+Fix merge conflicts.
+Fix design link.
+Fixing typo in footer
+Fix link in docs that was 404ing
+Fix jshint deprecatoins
+Fixed grammatical error
+Fixed then name of the snippet file used in the getting started guide.
+Fix design link.
+Fixing typo in footer
+Fix link in docs that was 404ing
+Fix full screen repainting correctly
+Fix jshint deprecatoins
+Fixed grammatical error
+Fixed then name of the snippet file used in the getting started guide.
+Fix a link to Material Design Lite site and add link to Material Icon font
+Fix copy-to-clipboard in Firefox.
+Fix tooltip position
+Fix a link in CONTRIBUTING.md
+Fix commit conflict
+Fix links inside CONTRIBUTING.md
+Fixed typo in a JSDoc comment.
+Fix font code on style guide (fixes #809) (Closes #813)
+Fix font size in <ul>
+Fixes #785 - correct theme link in README
+Fixes #791 - typo in FAQ nav
+Fix module check and export.
+Fix font weight (Closes #738)
+Fix microsite footer (fixes #731) (Closes #732)
+Fix badge coloring and tooltip positioning
+Fixing wrong snippet being imported in floating numeric demo
+Text-only template: Fix ToC in IE10
+Text-only template: Fix play icon
+Text-only template: Fix custom footer in Firefox
+Article template: Fix footer
+Blog template: Fix nav spacing in IE10
+Blog template: Fix font in textarea in FF specifically
+Blog template: Fix main logo size on mobile
+Blog template: Fix text color in comment field
+Fix drawer styling (Closes #691)
+Fix styling page (closes #671) (Closes #689)
+Fix padding on template list on mobile (fixes #676) (Closes #688)
+Fix all the misalignments and make consistent across pages (fixes #683)
+Fix scrolling issue on Safari mobile (fixes #637) (Closes #659)
+Fix desktop scrolling issue in blog template
+Fix padding in mobile view
+Fix getting started page (fixes #672)
+Fix the syntax highlighting so that it does not generate links for each HTML tags. We had to switch to a "local" version since the version o cloud flare contains the plugin which generates the links by default.
+Fix title link color (fixes #633) (Closes #652)
+Fix target of header title link
+Fix footer behaviour at certain screen sizes
+Fix the cropping on mobile
+Fix ToC links & refresh Polymer section
+Fix header styling rule
+Fix ToC links & refresh Polymer section
+Fix components page history behavior: - Avoid duplicate history entries and loop when clicking the compspage index - avoid duplicate history entries and loop when entering an unknown hash fragment - Avoid entire page reload when clicking on the compspage index
+Fix components page history behavior: - Avoid duplicate history entries and loop when clicking the compspage index - avoid duplicate history entries and loop when entering an unknown hash fragment - Avoid entire page reload when clicking on the compspage index
+Fixing issue with CSS scoping in components
+Fix menu in blog template
+Fixes #558
+Fix card meta alignments (fixes #561)
+Fixes duplicate comments in minified JS build
+Fix width of <pre> blocks on narrow devices (getting started and customizer) (Closes #536)
+Fix broken about header at high screen widths (Closes #526)
+Fix all links by adding index.html which we need because of GCS hosting. Also fixed Components navigation which was removing the index.html
+Fix horizontal scrolling on components page (fixes #475)
+Fix visual issues with data tables
+Fix bug with header sizes with fixed drawers.
+Fixing issue with menu staying on top of items after closing
+Fixing shrink issue, since we had to remove upstream fix
+Article template: Fix padding on mobile (fixes #474) (Closes #480)
+Text-only template: Fix padding on mobile (fixes #473)
+Fixing menu z-index
+Update android.com screenshots Fixes #468
+Fix primary/accent colored flat buttons (fixes #466)
+Fix dashboard card (fixes #464)
+Fixing icon toggle demo
+Fix new nav container in desktop view (Closes #462)
+Fix scrollbar issue in mobile nav
+Fix issue where same copy-pasted was used every time.
+Fix tooltip positioning (fixes #431)
+Fix issue where same code snippets was shown every time.
+Fixing escaping of copy paste (Closes #411)
+Fixing up some styling on badge demo (Closes #433)
+Fixes #430 - remove extraneous = sign
+Fix emberrassing typo in customizer
+Fixing style nits (Closes #422)
+Fixing issue with auto checkboxes in data-table
+Fixing minor bugs in documentation
+Fixing the subpageheader in the Templates and the Component's page.
+Fix overflow bars on code samples.
+Fixing demo so card headers display as they should.
+Fixing docs links with '//'; small docs fixes.
+Fix wrapping issues in docs.
+Scoping docs CSS properly. Fixes #346
+Fixes #344
+Major changes to component documentation: - Reorganized components in categories - Updated all icons (per category, now) - Fixed menu and tooltip demos
+Fixing issue with nested layouts
+Fix card actions padding. Consistent padding on each side.
+Fixing up button demo
+Fix template previews
+Fix rest of about page
+Fix floating label on expandable textfield (fixes #304)
+Fixing bug with z-indices in sliders
+Fixing some issues with long drawers
+Fix templates for ie10
+Fix footer rendering issues in FF
+Fix icon placement on retina in Firefox (fixes #275)
+Fix footer in Firefox (fixes #279)
+Fix visual on component pages (fixes #277)
+Fixes for IE bugs
+Fixing bug with tabs in Firefox and IE
+Fix tests to use dist folder
+Fix active tab on frontpage
+Fix a lot of path issues in microsite
+Fix pathing issues on microsite
+Fix textfield padding to accomodate for errors
+Fix blog template
+Fixes #100 - update Shadows to Polymer versions
+Fix z-index of drawer-button in layout
+Fix side menu
+Fix watch behavior
+Fixes all of the broken black/white palette stuff.
+Fix documentation for drawer nav in layout
+Fix palette for black and white
+Revert "Fix palette values for black and white"
+Fix palette values for black and white
+Fixes #157 - adds License file headers
+Fixes #144
+Fix tab highlight base color
+Fixes #131
+Fix corporate-cla links in contribution guide.
+updateClasses bugfixes. Fixes #112
+Fix minor typo in the docs for the layout component. wsk-layout-navigation-link -> wsk-navgation__link
+Fix tooltip visual test
+Fix layout visual test
+Fix menu visual test
+Fix iframe sizing by removing scaffolding
+Fix visual testing page
+Fixes to the color templates. - Removing secondary color concept - Fixing template minification
+Fix broken resource references
+Fix for #43
+Fix for #45
+Fix banner generation
+Fixing layout demo after changes to textfield
+Fixing small bug after switching footer to icon font
+Fix spinner tests
+Fixes #15 - adds browser support
+Fix typos in classList for spinner component.
+Fixes #12 - bump gulp-sass
+Fix typos in classList for spinner component.
+Fixing an arcane bug with tooltips in Safari
+Fixing #621. Also doing some JS cleanup.
+Fixing typo in spinner. Also adding more documentation for "start" and "stop" public methods.
+Fixing build location for styleguide
+Fix .jscsrc rule
+Fixes gulp-changed plugin's usage in the gulpfile.js. See
+Fixing full-screen layout issue with wsk-layout
+Ensuring that wskComponentHandler.js comes first in the sources. Fixes a compilation issue.
+Fixing some compilation bugs
+Recent changes to componentHandler broke switch and tabs. Fixing.
+Fixing small syntax error in footer
+Condense padding for Styleguide nav. Fix transition.
+Fixing up the component handler to be compiled into the relevant scripts
+Fixing up CSS class names for column layout.
+Fixing up radio buttons in Firefox
+Fixing a merge
+Fixing up ripple CSS classes across the board.
+Fixes to correct breaking build.
+Fixes 564 - brings master changes into sprint
+Fix some scripts being built to root (wtf)
+Fix: BrowserSync chokes on iframes without a URL
+Fixes #487 - consume material icons
+Fix issues with Tooltips rendering cross-browser
+Fixing visuals for disabled buttons.
+Fix jshint
+Adding theme-color. Fixes #522
+Fixing header panel demo in IE
+Fixes to animation demo: - Moving demo further down the styleguide - Code style fixes
+Fixing SCSS compilation issue after removing old sidenav code
+Fixing FAB ripples, and fixing ripples overall in Firefox/IE.
+Fixes #82 - use LibSass instead of Ruby Sass
+Fixing up the checkbox css naming and fixing up JS issues
+Fix card background image variable
+Improving navigation. - Added content to all examples, to illustrate usage. - Added "centered horizontal" navigation. - Fixed a few minor bugs.
+Fixing up the navigation to scroll when too many items
+Fixes #441 - add custom logPrefix for BrowserSync
+Fix layout bug with palettes.
+Fixing up the palette and other styles to work with the styleguide and typography section
+Fixing merges and fixing addy's stuff - silly goose
+Fixing up the palette to have some sane behaviour in the mixin and display all the colors as shown in the material design spec
+Fix to new style-system not minifying output.
+Fixes #407 - headline works everywhere now.
+Fixes #397 - use updated Android icon size.
+Fixes #380 - drops basic.scss
+Fixes #403 - revert back to border-box sizing
+Fixed README typo.
+Fixed the gulp and gulp:serve tasks to work
+Fixing up the styleguide to work correctly with the sass stylesheet
+Fixing up the html files to no longer require useref for CSS
+Fixes #375: sync recommendations (index > basic)
+Fixes #337 - restore touch icons on Android && iOS
+Fixes #286 - fix navigation flash during resize.
+Fixes #264 - copy fonts to dist
+Fixes #253 - correctly minify styles
+Close GH-243: Vendor prefixes. Fixes #175
+Fixes #220 - move font loading to https
+Close GH-217: Adds a gulp serve:dist command that uses the dist build process.  Fixes #216. Fixes #215, Fixes #216
+Fixes #200
+Close GH-171: Livereload breaks on jshint error(s) when running `gulp serve`. Fixes #169
+Fix missing pygments highlighting
+Fixes #174 - moves demo classes to styleguide
+Fixed the link to the troubleshooting page.
+Fixes #103  grid issues (ty @CreativeJuiz)
+Fixes indentation and removes duplicate newlines.
+Fixed the article section by adding padding
+Fixed so that gulp runs jshint more than once
+Close GH-75: Add basic aria roles. Fixes #53
+Fixes for style guide image paths, style guide component linking.
+Fix the navigation bar being too short on desktop.
+Fix incorrect URL.
+Switch to input type=search. Fixes #39
+Tidying up the web starter kit styles - still needs work. Fixes #31
+Fixing up the subdirectory watch and adding support for subdirectory building
+Fix linking issues with scripts/main

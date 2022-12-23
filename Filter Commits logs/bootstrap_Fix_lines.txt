@@ -1,0 +1,1555 @@
+Fix disabled floating labels color
+Fix deprecation warning with sass 1.56.0 (#37425)
+Fix disabled floating labels and add some examples of it in the docs (#37299)
+Fix button hover color in cover example Replaced .btn-secondary class with .btn-light
+Fix active class toggling of tabs within dropdown (#37151)
+Fix modal event listeners (#37128)
+Docs: Fix typo Getting Started > Vite and Webpack guides (#37153)
+Fix modal event-listeners during dismiss click (#36863)
+Fix tooltip manual toggling (#37086)
+Fix accordion button color
+fix(dropdowns): Fix multiple dropdowns when they are inside the same tag (#37011)
+Fix
+Fix bump popperjs from 2.11.5 to 2.11.6
+Fix accordion: use $accordion-color rather than computing it via color-contrast
+Fix padding on starter template
+Fix input group z-index focus + validation
+Fix for horizontal list-group item
+Docs: Fix js options to what is really inside js (#37019)
+Fix
+Fix docs typo of `.form-checkbox` -> `.form-check`
+Fix floating labels
+Fix typos after #36762 (#36771)
+Fixes #36770: Add navbar image alt text (#36850)
+Fix pagination page items border radius
+Fix Algolia's DocSearch broken URL in README (#36812)
+Fix failing test on EventHandler (#36772)
+Fix various small typos in documentation (#36762)
+Fix typos in code (#36763)
+Fixing pagination compile issue
+Fix indentation in code sample
+Fix active/focused button link text color
+Fix typos in `snippets.js` (#36758)
+Fix on #35679 (#36668)
+Fix 'Remove from map' Sass description
+Fix a typo in the documentation masthead (#36658)
+Fix interoperability issue regarding Event properties (#36386)
+Fix tooltip/badge border radius when rounded disabled
+Fix dashboard example so that the sticky sidebar has scrollable content (#36608)
+Fix search modal z-index to be on top of all docs showcased components (#36627)
+Fix StackBlitz examples needing docs CSS (#36637)
+Fix popover live demo to use `data-bs-title` instead of `title` (#36613)
+Fix StackBlitz Popovers and Tooltips examples (#36449)
+Fixes #36550
+Fix typo in dropdown unit test
+Fix .dropdown-item border-radius when -padding-y is 0
+Fix StackBlitz examples by embedding snippets.js when needed (#36352)
+Fix missing Swag Store URL
+Fix homepage npm install snippet
+Fix a11y keyboard access to docs navigation (#36340)
+Fix contents.md
+Fix search with xs to md breakpoints
+Fix color-adjust with autoprefixer 10.4.6 (#36258)
+Fix proposal
+Carousel:  Fix not used option (`ride`), simplify `cycle` method  (#35983)
+Fix spacing of code snippets
+Fix containers page in docs to re-order list so it matches sections below it.
+Fix Chroma line highlight style
+Fix space between popover's arrow and triggering element (#35976)
+Fix proposal
+Fix for missing CSS variables on `.navbar-nav` (#36105)
+Fix CSpell by adding 'Analyser'
+Fix duplicate border radius CSS var definition
+Fix duplicate `.rounded-*` and `.fw-semibold` defs in examples
+Fix StackBlitz edit feature by selecting the closest example
+Fix typo for StackBlitz edit button's tooltip (#36073)
+Fix migration guide typos (#36040)
+Fixes #36015: Fix pagination link border-radius if statement
+Fixes #36016: Update .dropdown-item padding
+Fix some instances of lazy Sass math when multiplying new CSS var based border-width
+Fix docs error after #35644 (#36002)
+Fix dropdowns
+`media-breakpoint-only` now passes `$breakpoints` int `breakpoint-max`.  Fixes #35084.
+Fix modal doc
+Fixed border radius var name and .show target
+Fix typo in Badges CSS variables description
+Fixes #32082
+Fix overriding styles of `.list-group-item-action`
+Fix empty content of tooltip after 'copy' action in docs (#35773)
+Fixed typo in docs
+Fix dropdown docs about autoclose and esc key.
+Fix Popover test that randomly fails on BrowserStack (#35757)
+Fix visual tests (#35585)
+Fix spelling mistake in footer example (#35704)
+Fix: `isVisible` function behavior in case of a `<details>` element, on chrome 97 (#35682)
+Fix custom-checkbox and custom-radio in migration doc (#35609)
+Fix offcanvas title in 'Enable body scrolling' example (#35621)
+Popover/Tooltip: Fix vertical alignment on arrow of tip elements (#35527)
+Fix typo in comment (#35564)
+Fix tests fixture type (#35501)
+Fix variable name in form overview docs (#35468)
+Fix typo in $purples (#35466)
+Fix popover arrow & tooltip template after the `setContent` addition (#35441)
+Fix variable name in customizing comment (#35414)
+Fix typo in vertical alignment of table cells (#35348)
+Fix spacing utility classes mentioned in navbar supported content documentation (#35328)
+Fix typo in RTL Hello World! sentence (#35236)
+Fix a `unicorn/no-array-callback-reference` issue
+Fix capitalization after period in `contents.md` (#35111)
+Fix syntax error, update description
+Fix Collapse regression of handling toggling between sibling chilldren (#34951)
+Fix responsive img docs
+Fix Backdroped typo (#34920)
+Fix JavaScript typo (#34921)
+Fix a11y issues in `.hstack` example and placeholder 'How it works' example (#34892)
+Fix tooltip `data-bs-original-title` issue (#34842)
+Fix `$dropdown-link-hover-color` variable color value in _variable.scss (#34779)
+Fix typo in placeholder docs (#34752)
+Fix modal when is triggered by `bs-toggle`, to hide other open instances (#34701)
+Fix font size variable name (#34679)
+docs: Fix placeholders typo (#34686)
+Fix `Manipulator.offset()` (#33603)
+Fix `Util.reflow` function and add documentation (#34543)
+Fix site params variable on themes section
+Fixes #34187
+Fix another Sass division (#34332)
+Fix lingering Sass math (#34281)
+Fix carousel buttons (#34266)
+Fix handling of transitionend events dispatched by nested elements(#33845)
+Fix typo ("theses"→ "these")
+Fix x-paddings for select (with floating label, and in Firefox) (#34008)
+Fix prevented show event disables modals with fade class from being displayed again (#34085)
+Fix bug where backdrop calls method on null if it is already removed from the body (#34014)
+Fix test warning for dropdown, without expectations (#33938)
+Fix offcanvas test to expect the initial body `overflow` value (#33927)
+Fix offcanvas example, using a custom trigger selector (#33926)
+Fix: Click on input outside of dropdown-menu prevents dropdown from closing (#33920)
+Fix accidental directory rename from https://github.com/twbs/bootstrap/pull/33709
+Fix "directoinal" typo in v5 migration docs
+Fix backdrop `rootElement` not initialized in Modal (#33853)
+Fix accordion link (#33896)
+Fix "no long require" to "no longer require" typo (#33879)
+Fix value (#33868)
+Fix unnecessary classes (#33850)
+Fix browser support versions in migration doc
+Fix typo in migration.md
+Fix typo in scrollspy docs (#33841)
+Fix doc typo and Bootstrap Icons link (#33832)
+Tab.js: Fixes on click handling (#33586)
+Fixes #33686 typo in RTL docs
+Fix regression for handling `mouseenter`/`mouseleave` events introduced by #33310 (#33679)
+Fix typo
+Fixes signup form in Heroes example
+Fix Grid System docs (#33676)
+Fix toggle between modals example
+Fix v5 regressions in tab dropdown functionality (#33626)
+Docs: Fix wrong dark attribute in Table - Vertical Alignment (#33597)
+Fix wrong carousel transformation, direction to order (#33499)
+Fixed wrong method name _getInstance
+Fix validation feedback icon in select multiple
+Fix dropdown escape propagation (#33479)
+Fix flush accordion styles
+Fix carousel RTL and refactor code, fix rtl swipe issues (#32913)
+Fixes some copy around inline forms
+Fix Flex utilities to add vertical space in example
+Fix small typos / follow-up to #32630 (#33164)
+Fix typo in nav-tabs docs (#33081)
+Fix event handler removal in dropdown/carousel dispose (#33000)
+Fix boundary config description for dropdown and popover (#32979)
+Fix Popper preventOverflow boundary config (#32845)
+Fix dropdown keys to open menu (#32750)
+Fix default value for `$enable-deprecation-messages` (#32940)
+_carousel.scss: Fix typo in comment (#32950)
+docs: Fix `navbar-nav-scroll` description (#32846)
+Docs v5: Fix Sass rounding precision and state Sass implementation (#32512)
+Revert "docs: Fix popover example showing above navbar (#32445)" (#32533)
+Fix toggling modal when clicking on `data-bs-toggle="modal"` (#32691)
+Fix typo (#32740)
+Fix navbar docs - active nav-link (#32589)
+Fixes #32557: Add functions and variables to the utilities API docs imports (#32684)
+docs: Fix popover example showing above navbar (#32445)
+Fix: variables collide with globals (#32492)
+Fix popover docs example (#32489)
+Remove offset in Popover docs Fix fallbackPlacements in Popover and Tooltip docs
+Fix missed occurrencies of "Popper.js" (#32398)
+Fix conflict with Bootstrap CSS
+Fix `css-prefix-examples-rtl` script (#32326)
+Fix empty CSS variable
+Fix a few typos (#32204)
+Fix the marker SVG color to match the button (#32174)
+Fix `.close` instances (#32152)
+Fix caniuse.com URLS to prevent redirects (#32135)
+Fix missing border & add transitions
+Fix TypeError when Bootstrap is included in `head` (#32024)
+Fix color heights (#32023)
+Fix redirects (#32015)
+Fix Firefox padding issue
+Fix git conflicts after #30571 (#31982)
+Fix border radius for inputs groups with validation
+Fix border radii on validation messages
+Fix disabled checkbox toggle buttons (#31651)
+Fix links
+Fix bundlewatch test I missed
+Docs: Fix vertical align link
+Fix the remaining instances using the old logos.
+Fix incorrect green and cyan hex codes (#31572)
+docs: Fix typo on Customize -> Color page (#31556)
+docs: Fix issue number typo in migration
+Fixed typo in docs v5 (Utilities/API) page
+Fix docs sass importing example.
+Fix some hexa in colors docs. (#31254)
+Fix sidebar jump (#31232)
+Fix generated example code for RFS (#31213)
+homepage: Fix wrong indentation (#31211)
+Fix spelling mistake (#31190)
+Fix scrollable modal (#31151)
+Fix table separator typo (#31162)
+Fixes #31113 (#31120)
+Fix links to gutters page (#31116)
+Fix typo (#31102)
+Fix Stack Overflow tag (#31062)
+Fix tooltip when hovering a children element (delegateTarget) (#30928)
+Fix gzip badges
+Fix typo (#31051)
+Fix social_image_path dimensions
+Fix BootstrapCDN's name (#31049)
+Fix a broken link and a redirect. (#31045)
+Fix undefined custom properties in reboot (#30981)
+Fix forms validation snippets.
+Fix gradient on switch checkbox (#30868)
+Fix some easy Markdown linting issues
+Fix broken anchors. (#30828)
+Fix .browserslistrc file name in docs (#30800)
+Fix typo (#30745) (#30746)
+Fix form file height (#30699)
+Fix crash when pressing ArrowUp the first time
+Fix spinner-grow animation (#30504)
+Fix card list group borders & radii (#30497)
+Fix border radii
+Fix CSS and improve docs
+Fix date inputs heights in safari
+Fix active state dropdown
+Fix text decorations (#30492)
+Fix redirected links.
+Fix links after #30041
+Fix wrapping bug (#30345)
+Fix commonmark syntax (#30276)
+Fix pseudo paddings and height
+Fix `th` alignment for Safari (#30323)
+Fix centered modal scrolling issue (#30244)
+Fix logo alignment for IE (#29955)
+Fix file input (#30086)
+Fix the new lint errors.
+reboot.md: Fix rendering for the recent Hugo versions (#29938)
+Fix offcanvas example. (#29909)
+Fix typo in alt text (#29911)
+examples: Fix checkout page (#29886)
+Fix broken team link on icons page (#29871)
+Fix breadcrumb spacing with whitespace (#29745)
+Fix dart Sass compatibility for subtract (#29763)
+Fix dart Sass compatibility (#29755)
+Fix npm audit vulnerability (#29677)
+Fixed input-height-sm and input-height-lg calculations (#29653)
+progress: Fix IE overflow (#29629)
+Fix one dev npm vulnerability. (#29568)
+Fix top level ampersand (#29518)
+Fix border for single card in accordion (#29453)
+Fix incorrect aspect ratio on IE11
+Fix a few redirected links. (#29352)
+Fix shortcodes/example.html class bug. (#29344)
+Fix date heights
+Fix mounts
+Fix redirects. (#29254)
+Fix Firefox rendering issue (#29234)
+browser-devices.md: Fix Android version (#29224)
+Fix min-width of input-group flex items (#29209)
+docs: Fix badges after #28458. (#29199)
+Fix typos. (#29178)
+Fix minor typo (#29168)
+Fix reboot for placeholder links (#29140)
+Fix variable name
+Fix busted hover/focus on sidebar
+Fix subnavbar active style.
+Fix license header.
+Fix Typos across Bootstrap repository (#29082)
+Fix ads alignment
+Fix inline SVG.
+Fix docs search. (#29067)
+Fix application.js after aaf03bd
+Fix bootstrap-themes.png. (#29061)
+Fix breaking layout breaking error in code (#28328)
+#29034 Fix broken links (#29035)
+Fix dropdown unit test (#29037)
+v5: Fix disabled styling on .form-file (#29022)
+Fix typo. (#29008)
+Fixes #28994
+Fix pre color (#28966)
+Fix background position (#28814)
+Fix Typo Mistake in SCSS comment (#28821)
+Fix z-index according to our z-index rule (#28784)
+Fix incorrect variable for popover border radius (#28733)
+Fix broken link to css-discuss.incutio.com/wiki/Printing_Tables (#28637)
+Fix xo error: use `for...of`.
+Fix buttons :focus state styles (#27890)
+Fix `css-prefix-docs` script to be more restrictive. (#28525)
+Fix 404 layout.
+Fix the chroma fix and use Sass more.
+Fix bugify.
+Fix issue template links to the contributing guidelines (#28378)
+Fix border if only one card (#28365)
+Fixed Util.jQuery: window.$ is not reliable. Both Firefox and Chrome implements $ natively.
+Fix anchors wrapper.
+Fix new unit test in popover
+Fix delegation events
+Fix our data storage
+Fix detection of nativeEvents + trigger events with arguments
+Fix npm package contents
+Fix scrollable modal snippet
+Fix `.nav-justified` example (#28193)
+Fix text break in Firefox (#28063)
+Fix dropdown radius if `$dropdown-padding-y` is not 0 (#28127)
+Fix negative margin example (#28140)
+Fix custom select caret issue on IE (#28112)
+Fix validated custom select bg color (#28119)
+Fix approach redirect. (#28095)
+Fix `js-main` script. (#28057)
+Fix Carousel's touch option to not add touch listeners when set to false (#28046)
+Fix background size y
+Fix input-height-inner wrongly calculated (#28018)
+Fix incorrect responsive alignment of dropdown menu (#27873)
+Fix Typo on docs (#27962)
+Fix custom select font sizes (#27929)
+reboot: Fix comment (#27937)
+Fix form-feedback-icon-invalid color (#27935)
+Fix 4:3 embed (#27910)
+List out what's supported in validation styles Fixes #27169
+Add table-hover-color variables Fixes #26465
+Fixes #26468: Mention min-height issue in IE10/11 for flexbox vertical alignment
+Fix typo in "Hiding elements" section (#27843)
+Fix margin above toast when previous toast is hidden (#27820)
+Fix body scrolling issue when modal open (#27698)
+Fixed a fixed height issue of input-group size option (#27687)
+reboot: Fix mailto address (#27700)
+Fix placeholder image replacement.
+Fix toast documentation page.
+Fix modal positioning on Android.
+Fix empty custom-control-label alignment issue (#27566)
+Fix Edge bounce and restore original transition easing (#27279)
+Fix util tests on IE 10 (#27556)
+Fix readonly-plain-text with button addon (#25871)
+Fix typo in the Popper.js checks. (#27488)
+Fix for double border on cards in an accordion (#27133)
+Fix #26372: disabled btn hover issue (#27407)
+Fix size of modal dialogs at different widths (#27094)
+Fix double border on list-group (#27126)
+Fix doc typo
+Fix btn focus color (#27178)
+Fix a few links.
+Fix invalid selectors in tests and examples.
+Fix examples after the recent JS changes.
+Document input group wrapping behavior and override via utility class Fixes #25409
+Clarify docs for custom form structure Fixes #25440
+Fix section numbering in scrollspy doc example
+Fix paths.
+Fix dispose causing popover title to change
+Fix #26990 broken external example
+Fix custom-select font size/padding (#26585)
+Fix custom range height (#26898)
+Fix modal overflow style nesting (#26742)
+Fix property order
+Fix custom range thumb style (#26385)
+Fix `custom-forms` heights and position (#25602)
+Fixed logo in README
+Fix incorrect visibility utility description regarding screen readers (#26786)
+Fixes Edge and IE label overlapping issue (#25919)
+Fix node_modules path (#26653)
+Fix markdown code inside HTML code. (#26662)
+Fix inline labels with a custom select (#26615)
+Fix/add more correct labels/descriptions for input group examples (#26551)
+Fix double-transition bug (#26452)
+Fix unused box-shadow class
+Fix box-shadow class with built in utility
+Fix z-index target (#26361)
+Fix heading levels (#26433)
+Fix incorrect value of Stylelint option (#26192)
+Fix incorrect class name (#26239)
+Fix broken URI fragments and redirects.
+Fix Chrome's rendering of .card-columns
+Fix spacing between Item and numbers
+Fix duplicate `main` element.
+Fix skip element disabled via attribute when using keyboard navigation
+theming.md Typo Fix (#25875)
+Fix order of Save/Close buttons in modal code example (#25855)
+approach.md: Fix empty link.
+Fix examples' issues #25664 and #25388 (#25665)
+Fix caret alignment (#25719)
+Fix #25813 by adding extra columns to table
+Fix #25746
+Fix leftover reference to v4.0.0-alpha.6
+Fixes #25703
+Fix typo of example in hiding doc
+Fix carousel transition duration (#25218)
+Fix border-radius on Browse button for custom file input inside input groups (#25356)
+Fix the incorrect id in center modal example
+Fix pagination buttons hover z-index (#25532)
+Fix "CVV" label pointing to wrong field (#25518)
+Fix example Blog post card text overflowing for medium screen size. (#25416)
+Fix typo in approach.md (#25492)
+Fix typo in navs.md (#25404)
+Fix input height border (#25331)
+Fixes dropdown snippets (#25301)
+Fixed color for disabled buttons (#25167)
+Fix breakpoint mixins for custom breakpoint maps (#25264)
+Fix invalid "constraint validation API" URL in docs (#25244)
+Fix variable name in display utility class naming (#25261)
+docs: Fix overflow issue in IE. (#25142)
+Fix input group border radius issue (#25075) (#25076)
+Fix tooltip/popover arrow size and position
+Fix docs horizontal scrollbar (#24878)
+Fix dropup example code
+Fix nested cards on card group (#24766)
+Fix installing deps in our webpack docs
+Fix test failure with jQuery 1.9.1 (#24706)
+Fix broken footer link after the about page revamp. (#24612)
+Fix invalid `<nav ... role="tablist">` in docs.
+Fix bad title for our dispose method in our documentation
+Fix unit tests.
+Fix for right padding in dismissible alerts (#24481)
+Fix broken URI fragment and a redirected link. (#24456)
+Fix a few 404 and one redirected link. (#24432)
+Fix typo in popovers.md (#24425)
+Fix typo in scrollspy.md (#24398)
+Fix import.svg after 10bb79a. (#24359)
+Fix dropup in bottom navbar for all the breakpoints
+Fix modal bug
+Fix caret position for Dropdown in a bottom navbar
+Fix dropup in navbar
+Fix media-breakpoint-between (#23997)
+Fix custom-select with "multiple" attribute (#23055)
+Fix buttons that come after the input (input should be under the button)
+Fix #23013: Add boder-top:0 in .list-group-flush .list-group-item (#23108)
+Fix link to Extend section in Migration docs (#24192)
+Fix color on example btn on navbar (#24052)
+Fixes rounded corners on first and lat child on vertical btn group (#24119)
+Fix no rounded corners if there is only one card in a card-group (#24080)
+Fix missing tabindex and role in an example modal
+Fix missing `.btn` class from `bd-search-docs-toggler`. (#23942)
+Fix malformed `<select>` in example
+Fix(docs): duplicate class in navbar docs
+Fix navbar IE (#23652)
+Fix jquery version
+Fix migration button stateful link
+Fix misspell
+Fix failing test
+Fix unit tests in PhantomJS
+Fix unwanted body padding when a modal opens
+Fix `npm run docs-github` script. (#23688)
+Fix XSS in data-target
+Fix sticky margin when a modal is opened (#23669)
+Fix toggle for Tooltips/Popover which was called even if the Tooltip/Popover was disabled
+Fix favicons inclusion after e932345. (#23473)
+Fix error in Alerts component doc (#23522)
+Fixed Example Carousel so it works on mobile (#23470)
+Fix .btn-outline-light hover color
+Fix broken Examples link in the docs footer include – `footer.html`. (#23348)
+Fix malformed link
+Fix .table-info migration text
+Fix about sidebar.
+Fix broken links in doc (#23324)
+Fix JavaScript case and a typo. (#23320)
+Fix broken links in documentation. (#23315)
+Fix the broken about link in the footer (#23298)
+Fix SRI hashes. (#23286)
+Fix HTML validation errors.
+Fix to Chrome inheritance bug (#22872) (#23118)
+Fixes PropertySortOrder errors
+Fixes hound code style/standards
+Fix border on input group elements and custom form inputs
+Fix sourcemaps for node-sass too.
+Fix flex order generated code and a typo.
+Fix the min breakpoint in media-breakpoint-between
+Fix typo
+Fix the min breakpoint in media-breakpoint-between
+Fix HTML errors. (#23184)
+Fix ESLint docs errors. (#23163)
+Fix #22974
+Fixed a word (connectinh / connecting)
+Fix accidental removing of babel-plugin-transform-es2015-modules-strip
+Fix modal overflow with our navbar documentation and fix typo (#22864)
+Fix mixin media-breakpoint-only
+Fix duplicate ID in our documentation
+Fix unit tests with no assertion
+(Fixes #22414) Rename for consistency `$custom-checkbox-radius`, `$custom-checkbox-checked-icon`, `$custom-checkbox-indeterminate-indicator-color`, `$custom-checkbox-indeterminate-icon`, `$custom-radio-radius`, `$custom-radio-checked-icon`, `$custom-select-sm-font-size`, to `$custom-checkbox-border-radius`, `$custom-checkbox-icon-checked`, `$custom-checkbox-indicator-indeterminate-color`, `$custom-checkbox-icon-indeterminate`, `$custom-radio-border-radius`, `$custom-radio-icon-checked`, `$custom-select-font-size-sm` respectively
+Fix overflowing text in Cards with `word-wrap: break-word`
+Fix broken documentation links for Toolings section
+Fix search redirect
+Fix responsive .col-{infix}-auto
+Fix 22643 - Readme links to vanished file (#22647)
+Fix fallbackPlacement default value for Popovers documentation
+Fix (css): force .navbar .dropdown-menu positioning
+Fix tooltip margin to be stick at their caller
+Fix bad position for Tooltips with animation at true
+Fix dropdown in scrollspy visual test (add Popper.js)
+Fix dropdown-menu-right and dropdown-menu-left for Dropdown
+Fix some css for the arrow of Popover/Tooltip + update documentation
+Fix unit tests + Update Popper to 1.6.0
+Fix arrow for tooltip and popover
+Link to package.json Fixed
+Fix typo removeData for Tabs plugin
+Fix build by installing grunt dependencies before js-test-cloud
+Fix Toggle buttons don't honor [disabled] or .disabled
+Fix for copy/paste error in iOS hack to tooltips
+Fix running test on iOS with Saucelabs
+Fix carousel "hover" behavior on touch-enabled devices
+Fix popover arrow color for bottom position
+Fix collapse.js aria-expanded behavior
+Fix #22332: Adjust tests for hidden scrollbar
+Fix #18373: properly adjust padding-right of body and fixed elements when opening or closing modal
+Collapse - Fix check to not prevent event for input and textarea
+Fix JS components console error "Error: <Component> is transitioning"
+Fix different tooltips offset when hovering
+Fix wrapping card decks (#22289)
+Fix modal documentation (#22252)
+Fix Modal documentation about _handleUpdate method + move to public scope (#21877)
+Fix justified nav styles and update nav docs for fill/justify
+Fix getSelectorFromElement when # is a selector (#21615)
+Fix backdrop for dropdown menu on mobile (#21578)
+Fix code style
+Fix border width calculation for custom-select (#22068)
+Fixed spelling error. (#22102)
+Fix spelling error.
+Fix broken links.
+Fixes #21941
+Fix fallback jquery filename (#21940)
+Fixes #21814. Also accounts for custom file inputs.
+Fixes #21892
+Fixes #21908
+Fix body padding in Dashboard and Jumbotron examples.
+Fix spacebar key in Firefox for button elements
+Fix container within navbar on smallest breakpoint (#21722)
+Fix gaps between vertical grouped buttons when using labels (#21793) (#21796)
+Fix test to retrieve the proper item instead of it's parent
+Fix missing closing tag
+Fix horizontal scrollbar appearing in docs (#21747)
+Fixed minor typo
+Fix modal id in doc
+Fix incorrect docs.min.js bundle source.
+Fix media object alignment examples.
+Fix progress doc markup
+Fix typo on v4 Migration page
+Close #21090 - Fix aria-pressed attribute for buttons in container with data-toggle='buttons'
+Fix carousel markup
+Fix responsive embed class in flex container
+Fix grammatical/typo errors
+Fixes #20586
+Fixes #18228: Don't use `transparent` for bottom border, use bg color
+[Fix #19849] Tabs are opened even if disabled. (#20795)
+Closes: #21412: Fix unit test for carousel
+Fix vertical alignment a bit
+Fix typo in migration docs: card-title is replacing panel-title (#21331)
+Fix tabs by using new classes
+Fix A11yUserVoice bugify rendering. (#21282)
+docs/_data/browser-bugs.yml: Fix ordering
+Fix #20936 make inline checkbox/radio markup same as stacked (#20995)
+Fix #20908 (#21244)
+Fix incorrect select height calculation (#21171)
+Fix #20013, nullify #21112 (#21230)
+[Fix #17371][V4] Deactivating dropdown links in nav tab (#17642)
+Fixes #21195: Add more table of contents to pages with longer contents
+Fixes #21094: Move text-decoration override from the default link state to the hover/focus state so it can override the global styles properly
+Fixes #21114: clarify by removing mention of nesting
+Fixes #21123: More specific definition of fixed-width block level for .mx-auto
+Fixes #21179: docs typos on pull/float action
+Fix padding on .bg-faded demo.
+browser-features.yml: Fix MS A11y UserVoice entry
+Fix broken and redirected links.
+Fixes #21057, fixes utilities link on typography documentation page (#21058)
+Fix #17964 (#17997)
+Fix input group sizing in Firefox
+Fixes #20975: removed trailing whitespace
+Fixes #20975: removed trailing whitespace
+Fixes #20975: made navbar-text color on navbar-dark equal to non-hovered link color
+Fixes #17631: Add mention of removed .btn-group-justified
+Fixes #20498: Warn about flexbox bugs in our flex grid docs
+Fixes #20948: Rename Microsoft Edge to just Edge in docs
+Fixing ruby gem version to 4.0.0.alpha5
+Fix documentation for all-side spacing classes.
+Use a variable for the default font weights. Fixes #20741
+Fix bug multiple accordions collapse
+Fix sass map navbar-toggleable
+Fixes #20897 - Changed btn-default for btn-secondary on V4's Modal documentation page
+v4: Fix outdated utilites classes
+Fix Travis errors due to npm/npm#14042.
+Fix Hound warnings for minified files. (#20446)
+Fix broken/redirected links, moving to HTTPS where possible. (#20557)
+Fixes #20566 (#20768)
+Fixes #20118: Add and use Sass variables to control the color of our embedded SVGs for custom form elements (#20700)
+Fixes #20799: Apply same color change to disabled inline radios/checkboxes (#20826)
+Fixes #20543: Significantly darken the links in default navbars
+Fixes #19466: Document the flexbox order utils (#20697)
+Fix CSS and JS hashes for 4.0.0-alpha.4 (#20692) (#20694)
+Fix docs for heading sizes (#20646)
+Fix #20654 by reverting #20447 (#20665)
+Fix eslint (prefer-template)
+Fixes #20608 and #20578: Consistent checkbox and radio markup (#20629)
+Fixes #20619: Add important to the hover/focus as well (#20626)
+Fix segmented buttons in input group docs (#20489)
+Fix README badge alignment.
+Fixes #20504: Mention .divider to .dropdown-divider name change
+Fixes #20495: Update heading hierarchy to avoid nested ToC that leads to hiding of entire ToC
+Fixes #20513: Remove all default margin on .media given it's utility purpose and our margin utils
+Fix dropdown example in docs (Fix #20410)
+Fixes #20385
+Fixes #20382: Import the flexbox utilities into the docs flex stylesheet
+Fix package.json
+Fixes #20291: Update variable usage for input group addon
+Fixes #17990: clear the floats within .navbar-toggleable-* to avoid funky animation on close
+Fix typo in comment.
+Fix HTML validity error in sticky-footer-navbar example (#20295)
+Fix typo in 'Reboot' about units
+Fix typo in 'Reboot' section
+docs/migration.md: Fix "correspending" typo
+Fix docs asset file paths in /grunt/configBridge.json (#20178)
+Fix links to A11Y Project posts
+Fixes #17193: Remove mention and link to non-existant transitions plugin; that intro paragraph was two dupe sentences
+Fixes #17089 a bit
+ISSUE_TEMPLATE.md: Fix "questons" typo
+Fix load & scroll event usage in ScrollSpy tests (#19986)
+js/tests/unit/scrollspy.js: Fix "offsed" typos (#19985)
+Fix error with the new jQuery.
+Fix issue #16941 - HTML example in tooltip docs
+Fixed a small typo
+Fixes #19563: Add variable for setting background-color on .bg-inverse
+Fixes #19732: Mention change to list-group-item class and links/buttons in migration docs
+Fix #17511 by adding mention to the docs for how to extend the card columns
+Fixes #17911: Explicitly remove margin-bottom from cards in .card-deck
+Fixes #19840: Invert the .card-subtitle color as well for .card-inverse
+Fixes #18584: Link to autoprefixer json file (link is broken until we make this the master branch)
+Fixes #19267: Mention grid class changes in migration docs
+Fixes #19771: Enable .form-control-sm/lg on select.form-control
+Fixes #18492: Document .h1-.h6, change docs mention of inline usage to varying elements
+Fixes #18705: Clarify removal of .help-text and update changes to .form-group for horizontal layouts
+Fixes #18768: Add migration docs for dropdowns
+Fix overflow auto removal on pre elements
+Fix up linter to ignore all other Normalize upstream shenanigans
+Fixes #18573: Change name of .form-control-label to .col-form-label (and .form-control-legend to .col-form-legend) to reiterate use for only grid layouts
+Fixes #19690: Mention classes better for .list-inline and .list-inline-item
+Fixes #19221: Add .w-100 as width: 100% utility class
+Fix comment style
+Fixed typos
+Fix validation errors.
+Fixes #19142 (follow-up to #18771): Restore cursor: pointer to custom radio/checkbox components
+Fix typos in plural tag names
+Fix docs for new naming of .btn-outline
+Fixes #18949: Remove extra margin overrides for buttons in .modal-footer
+Fixes+tweaks to native font stack docs
+Fix apparent typo in b8ff763d6232d4a61858739b43f509366ffd1500
+docs/components/forms.md: Fix typo: non => none
+Fix CSS3 :not() selector
+Fix bad localhost link in Typography docs
+docs/components/modal.md: Fix typo
+Fixes #18550: really remove that reference
+Fixes #17969: Clear horizontal dls
+Fixes #17300: drop the unused at-viewports
+Fixes #17194: Ensure proper height on default select.form-control instances
+Fixes #18562: Disable Hound for Ruby
+Fix docs layout with added base class
+Fix typo in forms.md
+DOCS - Fix a link in popover for v4
+Fix typo in docs/assets/scss/docs.scss
+Fix active Home tab in narrow-jumbotron example
+Fix RVM under Travis caching by excluding node-which from $PATH
+Don't clearfix if flexbox is enabled. Fixes #18849
+Fixes #18681: Use a local varible to calculate a unit-less border offset for the popover title
+Fixes #17918: Add styles for disabled custom checkboxes and radios
+Fix margins in highlights
+Fixed NuGet link and bugs in MyGet script
+Fix typo in docs/getting-started/introduction.md
+Fix syntax of .text-hide's `font` property value
+Fix code block example
+Fix bulleted lists on Utilities doc
+js/tests/unit/modal.js: Fix typo
+Fix anchor link
+Fix size of validation feedback icons
+Fix header hierarchy in migration guide
+Fix .font-italic utility class definition
+Fix grammar in "Custom forms" docs
+Docs: Fix flavor text in input group example that got borked at some point
+Fix version numbers is JS files; fixes #18435
+Fix docs/search.json.
+Fix grammar of comment for <label> in Reboot
+Fix classes for responsive floats in migration
+navs.md: Fix typo
+Fix #17001 in v4
+scss/_utilities-responsive.scss: Fix outdated comment heading
+Fix typos in comments
+Fix #17768
+Fix the remaining issues for the clipboard.js switch.
+Fix Hound's JS config
+Fix three small typos
+[V4] Fixes #17953: Update migration docs of .btn-default replacement
+[V4] Fixes #17953: Add migration docs of .btn-default removal
+Fix docs for tooltips.
+docs/examples/cover/cover.css: Fix "inheritence" typo
+Fix for Issue #17711 - Added clearfix mixin to the nav-pills class.
+Docs: Fix typo in contributing regarding normalize.css
+Fix doc for tooltips and popover method dispose
+Fix usage of “its” and “it’s”
+Fixes to examples
+Fixes #17486: start work on responsive cards for decks, groups, and columns
+Fixes #17230: Renames .navbar-static-top to .navbar-full and adds docs for it
+Modals: Fix bad paddingRight calculation; fixes #17399
+Fix missing anchors and 404 errors.
+Fix Navbar at top of v4 Offcanvas example
+Fixed link to nav component from scrollspy documentation (reported by ianhernandez in Slack)
+Fix several erroneous links in docs.
+Fix the JS errors due to jekyll-search.
+Fix validation errors.
+Fix `grunt validate-html` task.
+Fix accidental triple colon from :before to ::before conversion
+Fix anchors, fix naming consistency
+forms.md: Fix link to disabled buttons docs
+forms.md: Fix rebooted form styles link
+Fix options link in Tooltip docs
+Fix options link in Popover docs
+Popover docs: Fix "Tether" capitalization
+tooltips.md: Fix capitalization of "Tether" more
+tooltips.md: Fix capitalization of "Tether"
+Pagination docs: Fix "pager alternative" link
+Fix Broken link in text alignment section of v4 Card docs
+v4 Fix link to narrow jumbotron example
+docs/layout/grid.md: Fix responsive utilities link
+introduction.md: Fix typo: "started template"
+Docs: Fix "read more about x-ua" link
+Fix link to wall of browser bugs; closes #17107
+Fix use of LESS var syntax in docs when referencing SCSS
+v4 Docs - Fix scroll spy navbar example
+Fix container option example code
+Fix tether typo
+Fix "background-variants" anchor
+Fixes the _image mixing by prefixing the parameters with $
+Fix -flex compile on Sass Ruby #17046
+Fix text utilities link
+Fix urls ./helpers => ./utilities
+Fixed a typo (disaabled).
+Fix link to .table section in Reboot
+Fixed couple of formatting errors in modal.md
+Fixed "Srollspy" typo in component title
+v4: Fix Typo in Forms docs
+Fix triggering of {shown,hidden}.bs.dropdown events so relatedTarget gets set properly
+Fix show "2b" text instead of proper glyphicon
+Fix hover border covering active in pagination
+Fix asymmetry between dropup and dropdown carets.
+Fixed typo
+Fix license header after e93c6a2216c69daa574abc16e7c14767fce44ad6.
+Merge pull request #16405 from rlindner81/Fix16371
+[Closes #16460] Fix .pagination-sm line height
+Fix issue where affixed element has incorrect positioning
+Fixes Issue #16371 Carousel control is vertically off center for small screens
+Fix radio and checkbox keyboard handling
+Fix no-label checkboxes/radios
+Fix dab6a4f0e3af750f5b1c7b88db1e7d14a15eb8b0.
+Fix collapsing .img-thumbnail due to display: table-cell clashing with max-width
+Fix #16075 by switching to maintained fork of grunt-sed
+Fix up some form docs styles, sizing, etc
+Fixes #16270.
+Fix existing radio button unit test
+Fix theme.css .btn[disabled] styles.
+Fixes #13583: Move .sr-only and .sr-only-focusable to mixins, then use them to create classes in _utilities.scss
+Fixes #15536: Resize .control-label's font-size and account for border on static form control in form groups
+Fixes #15074: Manually handle input sizing in form groups instead of using mixins because nesting
+Tooltip/popover: Fix auto placement to use viewport
+Fix #16072: Clicking into input field within dropdown no longer closes the dropdown
+Fix #16117 more permanently/generically
+Fixed proper navigation element selection on backward scrolling (from the bottom to the top)
+[Fixes #15951] Document JS test suite basics
+[Fix #16001] Add link to Vietnamese translation
+[Fixes #15953] Implement assert.expect in each unit test
+Modal: Fix backdrop not readjusting when height changes
+[Fixes #15976] Fix pagination link cut off border on hover
+Fix URL to match the keyword
+[Fixes #15928] Encourage use of icons with form validation states for colorblind users
+[Fixes #15944] Add Z-Index to avoid border overlapping
+Fix #15911: Clear the floats and move the padding to the header
+[Docs—Fixes #15882]Use an ID as the example for Scrollspy
+Fix a typo in contributing doc.
+Fix copy/pasta'd id on accessibility skiplink callout
+Fix #15652: Set `position: relative` on .{radio,checkbox}-inline
+Fix capitalization/singular of comments in helper class docs
+Fix #15712: Add example of how to use grid system within a modal
+[Fixes #15691] .form-control-static changes height when empty
+[Fixes #15766] Need Clearer Affix plugin documentation
+[Fixes #15825] .initialism class should use mixin
+Fix carousel example images after c08bf4ba8b968ecda295391b41d5e965b642ba7c.
+Fix oneskyapp translation links
+Fix link to French translation
+Fixes #15653 — Add comment which explains that how a responsive image should be centered
+[Fix Issue #15701] Tooltip/popover destroy docs don't explain the delegation case
+[Fix Issue #15683] `readonly` input should not have a not-allowed cursor
+Fix issue #15601 — Position of X-UA-Compatible
+[Fix issue #15719] Add a variable for .form-group's margin-bottom
+Fix #15688
+[Fix Issue #15682] .caret is smaller in Firefox than other browsers
+Fix name of Tooltip.replaceArrow() parameter
+Fix validation errors.
+Fix issue #15597 — Mention dropup variation in dropdown docs
+Fix image order in carousel example
+Fix error in condition in Tab plugin
+Fix having multiple selectors on a single line.
+Fix issue twbs/bootstrap#15561
+Fixes #15142: Add position: relative; to .dropup for proper placement of menus
+Fix bogus JSCS warning.
+Fixes #15536, #15559: Add .form-group sizing support to .form-control-static
+Fix table-striped to work with bootstraps tooltips on rows
+Fix @mdo's grammar
+Fixes #15422: Alternate fix for temporal input sizing in input groups
+Fixes #14990: Media bodies take up full width
+Fix/merge advice on low percentage progress bars
+Fix margin-bottom on dropdown (navbar-fixed-bottom).
+Fixes #15096: Fix navbar forms in the non-responsive example
+Fixes #15241: Add simple example to docs for collapse plugin
+Fixes #15140: Restore more missing .media styles from shipping #14801
+Fixes #15074: Fix the nesting problem with form control size variants
+Fixes #15124: Restore .media-object
+Fixes #15148: make the dropdown and dropup menus have the same margins
+Fix copy/paste error
+Fix #15194: Shrink media link area
+Fixes affix-top class not applying
+Fix name spelling
+Fixes to scope
+Fix link
+Fix a small grammar mistake.
+Fix .form-inline docs example
+Fixed a typo in Sign-in page example
+Fixes #14939: Don't remove focus outline from buttons in button groups
+Fix Issue #15076.
+Fixes #14234 again
+Fixes #14965: Reset top border-radii on dropdown menus in fixed bottom navbars
+Fixes #14979: Override .jumbotron padding within .container-fluid to match .container
+Fixes #15046: Add full font overrides for popovers and tooltips
+Fix modal backdrop overlaying the modal's scrollbar
+Fix typo
+Fix #14936: Use correct left/right and margin on tooltip arrows
+Fix the iOS 8 unit test failures
+Fix customizer download with Firefox.
+Fix tooltip occasionally not hiding when using a hide delay
+Fixes #14736: Reverts the remaining progress bar min value overrides from #12848
+Fixes #14806: reset the text-shadow in the themed buttons
+Fixes #14791: document dropdown dividers
+Fixes #14814: Use the link active bg variables for theme navbar gradients
+Fix up margins and unnest code
+Fixes #14799: Add vertical alignment of image in media component
+Fix a small typo in comment.
+Fix #14856
+Fix IE8 unit test breakage introduced by #14767
+Follow-up to e2cfbd5: Fix spaces in placement calculation
+Fixes tooltip misplacements in scrollable viewports with auto positioning
+Add min-height: 0% to .table-responsive; Fixes #14837
+Fixes #14251: Don't use hidden screen reader content in docs table so that Safari doesn't screw up overflow: hidden; content
+Fixes #14711: Account for list groups in collapsing panels
+Fix #12563: Reiterate that empty tooltips+popovers do not get displayed
+Fixes #14682: Remove quotes reset on blockquote elements as it causes rendering bugs
+Fixes #14687: Include video element in responsive embed
+Fix anchor link
+Fixes #14227, #14603: Drop translate3d for translate on navbars to avoid iOS rendering problems and ensure a more predictable base styling
+Fixes #14592: Add new variable for progress border radius
+Fixes #14642: Add docs mention for blank checkboxes and radios
+Fix tooltip misplacement with "auto top"
+Fixes #14628, #14629: Add note to docs about grunt docs command
+Fixes #14557: Reset the bottom margin on .form-group:last-child in .navbar-form to prevent extra spacing
+Fixes #14319: Prevent jumbotron reflow by ensuring padding of .container isn't interferred with by .jumbotron side padding
+Fix bug not re-calculating scrollbar width when opening modal.
+Fixes #14545: Avoid strange formatting on vendor prefixing for placeholder
+Fixed typos involving apostrophes
+Fixes #14437: Round the corners of table rows in panels as well as the cells
+Fixes #14443: Only transition what needs transitioning for thumbnails to avoid Safari/Chrome render bug
+Fix hover-tooltip flickering when mouse re-enters
+Fixes #14439: Add static tooltip example to docs
+Fixes #14329: Fixed list-groups nested inside of collapsing panels, from @apexskier
+Fixes #14337: Round .jumbotron corners within .container and .container-fluid
+Fixes #14386: Reset font, text, and line-height properties in popovers
+Fixes #13943 again: lighten links, and text, in navbar. Still not 100% compliant, but it's better.
+Fixes #14348: Add visibility styles to collapse and tab content to match .hidden
+Fixes #14440: Remove unused nav variable
+Assume Element.getBoundingClientRect() exists; Fixes #14093
+Fix #14411 by setting JSON Content-Type for Gist API request
+Gruntfile: Fix #13949 by separating docs into separate task & refactoring
+Fixes #14234: Reset the hack IE8-10 with another hack just for IE11 for temporal inputs and line-height
+Fixes #14251: Remove the -webkit-overflow-scrolling to prevent Safari from screwing up widths
+Fixes #14296: document a table caption example
+Fixes #14253: Add borders for tables that follow bodies in panels
+Fixes #13202: Always use overflow: auto; on .table-responsive to prevent content breaking out of containers
+Fix #14076: Add unit test for tooltips on SVG elements
+Fix #13818 by using more robust "find next carousel item" logic
+Fix #14164: move Windows Phone 8 IE10 viewport bug workaround script to footer of pages
+Fix #14219: Document that empty tooltips+popovers do not get displayed
+Fix #14224: Correctly document args passed to function vals for `title` & `content` options of tooltips+popovers
+Fixes #14213: Rouge 1.6.1
+Fixes #14142: Adding horizontal padding to captions in tables in panels.
+Fixes #14221: Make .form-control-static work in inline forms as well
+Fixes #14168: bold nested kbd elements
+Fixes #12669 again: Redeclare the line-heights again for date inputs in IE8+
+Fix issue where bottom affixed element floats over the footer when the   document height is smaller than the viewport height.
+Fix jsbin link
+Fix inaccessible buttons.
+Fixes #14074: Make open dropdown nav links in navbar use gradients
+Fixes #14133
+Fixes #14132: add .alert-dismissible to docs examples
+Fixes #14095: Add basic styling for captions, which we've for some reason been missing all this time.
+Fixes #13974, #14123: Remove translate3d repaint performance enhancement for text rendering and position wonkiness
+Fixes #14116: Use <button> elements over empty anchors
+Fixes #14107: Lighten placeholder text
+Fix text on ".progress-bar .sr-only" elements.
+Fix navs dropdown sections
+Fix navbar margins and update grid sidebar styles to match
+Fix IE8 reporting type object for `getBoundingClientRect`
+Fix IE8 reporting height style as all uppercase
+Fix invalid HTML in "should allow html entities" tooltip unit test
+Fix that @mdo nightlife <3
+Fix input sizing and increase vertical padding on textareas
+Fixes #14068: Update docs note for inline forms
+Fix small typo introduced in e2029e1
+Fixes #13746: Add docs section for brand image
+Fixes #13835: More explicitly document mobile dropdown menu dismissing behavior
+Fixes #14053: Don't show radio/checkbox in justified button groups
+Fixes #13997: Move min-height for radio/checkbox to their inner label
+Fixes #13967: Don't reset the cite element's font-style
+Fixes #13953: Remove the progress bar min-width styles for low percentages to avoid jumping progress
+Fixes #13943: Lighten the navbar inverse link color more since our text contrast change in v3.2.0
+Fixes #12738 again: use max-device-width instead of max-width for .navbar-collapse height in landscape devices
+Fixes #13989: Don't extend the input sizes; manually chain the selectors
+Fix inconsistency between demo and displayed code for modal demo
+Fixed crazy-making typo on home page
+Fix link to compiling info. Fixes #13938.
+Fixed @gray-base value being once space short
+Fixes #13903: Restore side padding on .btn-block
+Fixes #13872 more: add overrides for lg and sm input modifiers
+Fixes #13872: Always apply padding to .form-control-static for that vertical alignment
+Fix @gray-light in docs
+Fixes #13400, #13415: actually document the existing practice for links in panel headings
+Fix dismissible spelling
+Fix regression of #10038 introduced by #13772
+Fixes #13453: add firefox table-border and tbody bug to wall of bugs
+Fixes #13548: Use position: absolute; to fix checkbox and radio line-height problems that were introduced after #13003
+Fix gutter variable
+Fixes #13616: Add custom gutter support to containers
+Fixes #13587: Switch to Kramdown for Markdown compiler in Jekyll
+Fix favicon.ico after d763b0fe5b5d83025b94212638b1bd5500c43c71.
+Fix bug where a panel recieve extra top border
+Fixes #13478, reverts #10941
+Fixed affix-bottom positioning
+Fix .visible-print deprecation version #.
+Fixed navbar radius of example at docs
+Document .direction & .relatedTarget properties of Carousel events. Fixes #13395
+Add direction & relatedTarget properties to slid.bs.carousel event Fixes #13393
+#11464 - Fix JS noConflict mode - Refactor all plugins to use an internal reference to the jQuery plugin, because in noConflict mode you can never expect to be defined on the jQuery object
+Fixed typo and added leading space
+Fix indent
+Fix form-control-feedback position when label has sr-only class
+Fixes #13208: Drop <b> for <span> in code snippets and examples
+Fixed typo in Responsive Tables CSS docs
+Fix the new JSHint warnings.
+Fix carousel control margin asymmetry
+Fix HTML errors
+Fix tooltip viewport example
+Fixed nested tab elements li activation
+Fixes #13066: Add z-index to the form control feedback icons so input groups don't render on top of them
+Fixes #13037: add text-align: left; to prevent alignment change in dropdowns
+Fixes #13141: Add a max-width: 100%; to label elements so IE8 wraps text
+Fixes #13158: add link to nonresponsive docs in the example
+Fixes #13079: Scope .open class in button variant mixin to immediate children
+Fix #13138: use underscore prefix to ignore directories
+Fix popover when using append.
+Fix vertical alignment of temporal inputs on iOS
+Fix #12845 - Modal#hide should only be called with an event argument
+Fix #12375: stop using document.body.scrollTop as it's deprecated in the strict mode
+Fixes #13055: Mention outdenting more
+Fix JSHint errors
+Fixed typo at docs/examples/rtl/index.php
+Fixes #13003: Move padding on radio and checkbox options from the surrounding div to the label to remove the no-click deadzone caused by negative margin
+Fixes #12759
+Fixes #12738
+Fixes #12843: Scope label styles for horizontal forms to a media query so their narrow viewport display looks just like a normal form
+Fixes #12669: Properly reset line-height on date inputs for all sizes; Fix IE8+'s misaslignment of text within date inputs
+Fix bad grunt merge and then G R U N T
+Fixes #12892: Link to one of the SO articles on Bootstrap modals and YouTube
+Fixes #12487: Document required use of position relative for scrollspy
+Fix comment
+Fixes #12966: Ensure icon font vars are loaded into Customizer
+Fix typo.
+Fixes #12748
+Fixes #12937: Darken active button states just a smidge more
+Fixes #12683: Remove the overflow: hidden; from the .panel-group > .panel because it apparently serves no purpose and cuts off nested dropdown menus.
+Fixes #12722: Fixes up responsive tables in print
+Fixes #12934
+Fixes #12824: Remove white-space: nowrap from code elements
+Fixes #12901: Refactors list group active state for use on non-anchors
+Fixes #12848: Account for and document progress bars at 0-3%
+Fixes #12697: Document readonly inputs
+Fixes #12868: Enables icon feedback on validation states for large/small inputs.
+Fixes #12913: Remove scoped media queries from custom xs grid mixins
+Fixes #12914: Darken immediate children hr elements in jumbotrons
+Fixes #12916: Don't let .lead resize on viewport change
+Fixes #12593: Add support for table bodies and table rows to the collapse plugin
+Fix for stray 1px line under top navigation
+Fix small typo in JavaScript docs
+Fixes #12851: it's not a tumah
+Fix csslint errors.
+Fix for issue #12854 where push and pull resets
+Fixed flickering and simplified calculations
+Fixes #12822: Scope panel collapse styles to immediate panel bodies only
+Fixes #12808: Correct grid column values listed in Grid Options
+Fixes #12801: Add padding to the bottom of .form-control-static to match height of standard form controls
+Fixes #12756: Ensure horizontal dls are cleared by moving the clearfix out of the media query
+Fixes #12735: Fix sidebar hover state in Dashboard example
+Fixes #12810: Document .container-fluid in the CSS overview docs
+Fixes #12744: Document ability to remove animation on modals
+Fix UAs required message position on grouped radio buttons
+Fix customizer.js indentation warnings.
+Fix scrollspy typo in docs.css
+Fix multistr errors in customizer.js
+Fixes #11659, #12698, and #12349: Always apply position and z-index form controls in input groups for proper borders
+Fixes #12674
+Fixes #12685: Display current version under download button on homepage
+Fixes #12610: Better and more consistent prefixing of docs CSS with .bs-docs-
+Fixes #12625: Only remove first list group item's top and last list group item's bottom borders when the list group is first or last
+Fix #12656: add @blockquote-font-size
+Fix wrong id
+Fix .text-truncate() typo
+Fixes #12486: Restore full width inputs for input groups in inline forms and navbars
+Fixes #12447: Properly reset borders on table cells in panels
+Fixes #12477: Clarify IE support in docs
+Fixes #12590: Add Korean translation link
+Fixes #12526: Add scrollbars when necessary to the Dashboard example's sidebar
+Fixes #12555: Rearrange variables to place grids and containers closer
+Fixes #12614: Add progress bar example with visible label
+Fixes #12611: Mention limitation of one plugin's data attributes per element
+Added border radiuses to table when in a panel. Fixes #12461
+Fixes #12470: Scope large modal styles to minimum viewport width
+Improve alignment of the dashboard placeholder images Fixes #12435
+Fix issue causing .navbar-brand element height to be shorter than .navbar height
+Fix #12422: Reset height on multiple select in input size mixin
+Fixes #12424: Account for Normalize change on figure element so that we don't potentially screw folks over
+Fix typo
+Fix #10348: Customizer dependencies
+Fix #12359: Reset min-width on fieldsets so that they don't break responsive tables and behave more like standard block level elements
+Fix #12353: Scope table border reset in panels to first-child rows
+Fix #11655: Fix broken disabled states for iOS form controls and buttons
+Fixes #12344: Update docs to show workaround for using button element with justified button groups
+Fix #12025 and minify styles
+Fix typos, sentences in getting-started.html
+Fix holder.js links in examples
+Fix typo in index.html
+Fixing js error in IE9 where no transition is supported
+Fix customizer's toggle buttons' margin
+Fix footer links
+Fix page headers
+Fixes #12210: badges in xs buttons
+Fixes #12171: Ensure panel groups have a bottom margin since we nuke it on child panels
+Fixes #11990 and #12159: Make range inputs block level and 100% wide by default
+Fix #12073: Consistent order of variations
+Fix bad anchor link in CONTRIBUTING.md
+Fix typos
+Fix typo
+Fix anchor links
+Update Gruntfile.js to copy 'dist/' files to 'docs/dist/' with 'grunt dist' task; Fixes #12030: navbar toggle focus state
+Fix broken JS
+Fixes #12046: move .csscomb.json and .csslintrc to less/ folder
+Fixed typo
+fixes #11379 - Fix carousel this.sliding not getting reset if $next.hasClass('active')
+Fixes #12012: Use correct banner in docs js
+Fix wrong indent in .jscs.json
+Fixes #10492 better: - Made more generic. Applies to "> .table" and "> .table-responsive > .table" to support td/tr background colors too and not just .table-striped - Supports tfoot
+Fixes #11975: Change from png to .ico for favicon
+Fixes #10492 and some of #11970: round the proper corner on table cells in panels
+Fix old links
+Fixes #11952: Refactor blockquote styles
+Fix sentence in css.html
+Fix: IE10 or lower incorrectly determines the scrollheight of the body. Use document.documentElement for IE. To make this browser agnostic, the maximum scrollheight of both body and documentElement is used.
+Fix: IE10 or lower incorrectly determines the scrollheight of the body. Use document.documentElement for IE. To make this browser agnostic, the maximum scrollheight of both body and documentElement is used.
+Fixes #11918: Fork the @h5bp contributing guidelines and combine with our coding guidelines
+Fixes
+Fixes #11899: Ensure proper margins and .small/small usage for heading tags (e.g., .h1-.h6)
+Fix handling of btn-group placed inside input-group-btn (used for mixing dropdowns with normal buttons)
+Fixes #10492 again, this time for last row's corners on striped tables
+Fixes #11266: Apply a pixel-based line-height to date inputs for iOS 7
+Fixes #11402: Updated fix for select.form-control width in inline-forms
+Fixes #11660: Depcreate small and .small in blockquote in favor of footer
+Fixes #11783: Document requirement of .container(-fluid) in navbars
+Fixes #11795: Update the contributing guidelines to include some more CSS guidelines
+Fixes #11799: Mention support of number of add-ons in docs
+Fixes #11770: Move component-animations.less to the utility section of import list to match Customizer
+Fixes #11833: add warning to docs for popover multiple line positioning; update it's docs with example markup, too
+Fixes #11805 with docs mention of navbar
+Fixes #11829: Adds .make-xs-column mixins
+Fixes #11871: commas last
+Fixes #11801: use correct variables for grid containers
+Fix wrong variable name
+Fixes #11588: Scope font-size to only p elements in a .jumbotron and remove the supersized line-height from the base class
+Fixes #11555: Add `@tooltip-opacity` variable
+Fixes #11572: Add contextual background-color classes to match text classes; move both sets of classes to Helper Classes section of the CSS docs
+Fixes #11561: Add float: left; to .form-control within input groups to prevent IE9 from screwing up placeholder text and select menu arrows
+Fixes #10921: Add support for input groups within button toolbars
+Fixes #10505: Document more of LESS vars and mixins
+Fixes #10370: Improved and deprecated dropdown menu alignment options
+Fixes #11867: Add `@panel-body-padding` variable
+Fixes #10495: Float Glyphicon and set margins in .navbar-brand to ensure there is no added height because wtf even is CSS
+Fixes #11837: grid containers are fixed width now, no longer max-width
+Fixes #11786: Nest media queries within print utilities for mixin-friendliness
+Fix typo in new author meta tag
+Fixes #11741: Don't set headings font-family again, just use inherit
+Fixed some errors in the docs javascript.html
+Fixes #11729: Show code snippets on mobile views
+Fixes #11756: Mention document mode checking ability in IE comaptibility modes
+Fixes #11193: Add kbd element styles to indicate user input via keyboard
+Fixes #10884: Adds .info variant to contextual table classes
+Fixes #11766: Use color var for background on badges in buttons to restore proper background to default button badge
+Fixes #11764: Add meta data to docs for description, keywords, and authors
+Fixes #11760: Remove mailing list links from readme and about pages
+Fixed another small error
+Fixes #11610: Add @grid-float-breakpoint-max to better link navbar behavior across viewports and improve customization.
+Fixes #11712: Better support for .table-responsive within .panel's
+Fixes #11436: mention in docs that .container isn't nestable; update docs to mention width, not max-width
+Fixes #11669 - Adds smooth modal scrolling on iOS by default
+Fixes #11357: Vertically center sm and xs buttons in the navbar
+Fixes #9927: Update non-responsive example to prevent .navbar-collapse border from increasing height and increase specificity of nav selectors to keep dropdowns looking the same
+Fixes #10941: Fix Glyphicons path for those importing bootstrap.less from another directory
+Fixes #11658: Increase min-height of .radio and .checkbox for horizontal forms to ensure alignment of content below
+Fixes #11623: Reset position to static for grid columns within tables to unfuck borders in IE9/10 and Firefox
+Fixes #10716: Update what's included docs to add info on both download options
+Fixes #11268: Account for badges within buttons by matching background to text color and text color to background
+Fixes #11277: Drop the abbr element from the .initialism selector
+Fixes #11420: Update migration guide on split of .visible-/.hidden-desktop into .visible-/.hidden-md and .visible-/.hidden-lg
+Fixes #11444: Use @navbar-padding-vertical for nav links padding
+Fixes #11402: Set width: auto; to select.form-control within .form-inline
+Fixes #11515: Reorder the headings with body text and text emphasis classes
+Fixes #11544: Add color: inherit; to .panel-title to ensure proper text color when customizing @headings-color
+Fixes #11351: Correct grid class reset on input groups by using attribute selector, not an old class from v3 betas
+Fix up new margins on modals by not setting auto until screen-sm-min
+Fix #10979: Don't use .img-thumbnail as a mixin for .thumbnail to avoid dupe and unnecessary styles
+Fixes #11425: Use margin instead of padding on .modal-dialog to enable click-thru to .modal-backdrop
+Fixes #11390: Add max-width to containers within jumbotrons to avoid horizontal scrollbar
+Fixes #11468: Prevent default gradient  on  in Firefox for Android
+Fixes #10147: Remove outline from carousel controls on focus
+Fixes #10483 and #10357: Make .container mixin-friendly by moving the width declarations within one class
+Fixes #11553: Prevent double border on tables in panels without thead content
+Fixes #11516: Invert dropdown divider border in navbars
+Fixes #11634: Add warning to docs to not combine icon classes with other elements
+Fix for Issue #11411
+Fix #11594
+Fix #11513: Don't always float navbar-text
+Fix some weird indents
+Fixed single btn in btn-group-veritcal not being rounded
+Fixed button group button not being 100% width
+Fix #11400 and #11431
+Fix glyphicon class name wrapping in IE
+Fixes #11295: Restore offset, push, and pull zero classes (e.g., .col-md-offset-0)
+Fixed links
+Fix #7398 in Basic template
+Fixes #10341: don't change border color on contextual table classes
+Fixes #10516: Use auto positioning for dropdowns in justified nav to fix Firefox rendering
+Fixes #11245
+Fixes #11206: remove left padding on first inline list item
+Fixes #10601: Use overflow-y: auto; for navbar collapse instead of visible to better enable scrolling on Android 4.x
+Fixes #10620: remove gradient on buttons for IE9 in theme.less due to bleed through with rounded corners
+Fix up padding on default navbar example
+Fixes #10433: Navbar z-index refactor
+Fixes #10522: Enable use of form validation class on .radio, .checkbox, .radio-inline, and .checkbox-inline
+Fixes #10903 and #10457: IE8-9 don't support events on elements without background-color, so we have to hack it
+Fixed broken link
+Fixes issue #11122 -- navbar-fixed-bottom border
+Fixes issue #11098 -- Button documentation.
+Fixes #9925: convert font data to base64, fixing 0xefbfbd (Unicode Replacement Character) chars in customizer fonts.
+Fixes #10126: Update responsive test cases to properly highlight hidden class examples
+Fixes #10959: round the .lead values down to nearest pixel via floor()
+Fix #10948: Clarify navbar example target in docs
+Fixes #10755: Don't remove quotes around q element by default
+Fix a silly typo
+Fixes #10694: Remove unnecessary `content` property from `.caret`
+Fix package.json
+Removed unneeded 'accordion-toggle' class. Fixes #10481
+Fixes #10492: Account for responsive tables in panels
+fixes #10497: Fix Windows 8 and Windows Phone 8 behavior and apply it to the docs
+fixes #10497: Fix Windows 8 and Windows Phone 8 behavior and apply it to the docs
+Fix capitalization of “list groups” in middle of sentence
+Fixed hardcoded tooltip arrow positioning
+Fix #10556
+Fixed two more instances of [.]LESS in the text
+Fixes #10452: Add note about deprecation of .nav-divider
+Fixes #10399: Add hover styles to text emphasis classes
+Fixes #10417: Document `.hidden` in the Helper classes *Screen reader content* section
+Fixed to lowercase 'v' in 'v3.0'
+Fixes #10436: use screen-sm var instead of hardcoded pixel value
+Fixed error in documentation in mixins.less
+Fixes #10407: Add line-height to progress bar for proper text alignment within
+Bower: Ignore development and documentation files on bower.json. Fix #10313.
+Fixed glyphicons count
+Fix #10324: Add opt-in note to tooltip docs
+Fix broken link to alerts section of JS page.
+Fixes #10154: add .small
+Fixes #9928 and #9932: carousel example in IE10
+Fixes #10082: document `.navbar-form`
+Fixes #10088: Simpler nested headings section in accessibility docs
+Fixes #9991: Better docs for tabbable tabs and fade classes
+Fixes #10207: alert-dismissable example requires contextual class
+Fixes #10016 and updates that rather badly formatted callout
+Fixes #10137: correct classes on thumbnails
+Fix hidden.bs.tooltip and shown.bs.tooltip events firing too early in tooltip.js
+Fixes #9008: remove `alert-block` class from example
+Fix responsive table scrolling on Windows Phone 8.
+Fixing carousel control positioning
+Fixes #9974
+Fixes secondary issue in #9798
+Fix vertical alignment of carousel navigation arrows.
+Fix the customizer.js; Update alert styles for pre blocks
+Fix remainder of panel default examples and reorder nav links
+Fix broken tables in panel groups example
+Fix broken link and wrong label
+Fix some forgotten things for navbar-default
+Fix examples url in _layouts/home.html
+Fix well class names in migration section of getting-started.html
+Fix navbar brand alignment by removing header padding when above 768px
+Fixes #9752: clear floats in .panel-body
+Fixes #9749: provide js bin link in readme for easier bug reports
+Fixes #9552: Downsize and use whole numbers for panel title to prevent odd 1px bug
+Fixed up examples more
+Fix alignment of navbar header in fixed navbars
+Fixes #9663: Add offset overrides for medium and large grid tiers
+Fixes #9617: consistent variation order, add .label-primary
+Fixed indentation in JavaScript example
+Fix .navbar-right > .dropdown-menu alignment
+Fixes #9415
+Fixed errors
+Simplified Off Canvas example: - Removed unneeded media queries to be more consistent with the rest of Bootstrap. - Fixed unworking grid on latest 3.0 builds (BS version on this repo is outdated) - Inluded needed bootstrap.js
+Fixes #9260
+Fix Find/Replace-o; good catch, @FagnerMartinsBrack!
+Fixed #9196 - malformed HTML in doc
+Fixed link to JavaScript buttons plugin
+Fixes #8749: prevent navbar nav from overlapping navbar toggle
+Fix #9174: pad bottom of navbar collapsed content and clear floated contents
+Fix spacing after '='
+Fix #9132, but in the correct branch
+Fixes #9145: Fix tooltip opacity
+Fixes #9150: Hide popover titles in IE8
+Fix pixel values in Responsive Utilities docs to match the actual code
+Fix Issue #8175 - remove lh for input-lg|sm
+Fix Issue #8175
+Fixes #8732: unfucks disabled fieldset form example with form groups
+Fixes #8150: add `.static-form-control` for vertical alignment of static form text
+Fixes #8872: widen the carousel indicators to prevent wrapping
+Fixes #8795, a reoccurence of #1969
+Fixes #8770: mobile-first (stacked by default) horizontal dls
+Fixes #8786 (part 2): new default button styles
+Fixes #8786 (part 1): darken hover states on buttons
+Fixes #9049: switch order of gradient mixin params to avoid problems for upgraders
+Fixes #9073: add note to homepage about download differences
+Fixes #9061: Panel titles should inherit color when linked
+Fixes #8723: allow modals to not need the .fade class /cc @fat
+Fixes #8996: shift placement of justified CSS for nav component
+Fix #9008: consolidate `.alert-block` styles into `.alert`
+Fix #8944
+Fix #8658
+Fix relative links to examples and links to docs
+Fix wording in 'hidden on...' to be in line with 3.0 wording.
+Fix path to bootstrap javascript
+Fixed minor typos in javascript.html
+Fix typo in css.html
+Fixed minor typos in css.html
+Fix up dropdowns being incorrectly positioned on nav pills
+Fix broke ass navbar example docs stuff
+Fix clipped dropdowns in input groups section of docs
+Fix broke ass popovers direction example
+Fix ID of buttons section on javascript page
+Fixes #8293: sub nav links in JS docs
+Fixes #8605: use `.form-control` in `.input-group` instead of HTML tags
+Fix broken indentation
+Fixes #8586: add addional color text classes to apply all of branch colors easily
+Fix up navbar forms
+Fix #8428 - Document tooltip/popover events
+Fixes #8571: allow table classes in thead and tfoot
+Fixed typo
+Fixed breadcrumbs link
+Fixes #8385: update carousel captions
+Fixes #8278: fix  on print
+Fixes #8516: correct input-small and input-large on select elements
+Fixes #8374: ensure navbar is always at least 50px
+Fixes #8397: better navbar padding with grid gutter stuff
+Fixes #8452: adds `.active` to table classes
+Fixes #8441: remove `@font-size-mini`
+Fixes #8360: Add mention of IE compatibility mode to docs
+Fixes #8356: Move browser compatibility from wiki into real docs
+Fixes #8350: unfuck Chrome number input element cursor /cc @cvrebert @eintnohick
+Fix responsive utilities for table elements
+Merge pull request #8340 from JohnONolan/Fix-Broken-Docs-Links
+Fixes broken links to navbar component in docs.
+Fixes #8329: add `!important` to `.hidden`
+Fix #8287
+Fix 2 typos
+Fix spelling in comment
+Fix typo in comment
+Fix line breaks on add-ons with spaces
+Fixes #8211: restore proper table grid class behavior
+Fix overlap sidebar for Tablets and up in docs
+Fixes #8266: remove unnecessary `strong` and `em` styles
+Fixes #8154: enforce full width `.navbar-nav.pull-right` in mobile
+Fixes #8159: Be more specific about disabled inputs to avoid iOS bug
+Fixes #8093: Removes invalid focus styles on inputs
+Fixes #7730: Better hiding of empty titles in popovers
+Fixes #8001: add IDs for example inputs
+Fixes #7599: Improved print styles for a few key components
+Fixes broken layout for .input-group-addons within .input-large. Follows 6ce154c7ed64f3821cc7d6cbb0bfcf65b25f1b49
+Fixed link.
+Fixes #8175: Update input min-height vars to fix FF21 input rendering
+Fix up broken input group example layouts
+Fix
+Fix navbar toggles
+Fix navbar toggles
+Fix layout for examples in getting-started
+Fix for carousel indicators
+Fixed mixin btn-pseudo-state background for [disabled] buttons
+Fixes #7943: typo in makefile
+Fixed broken Customizer link for docs
+Fixes #7474: Use `@input-height-base` in `.navbar-vertical-align()` for `.navbar-form`
+Fixes #7611: fix optgroup formatting for Firefox
+Fix broke dropdown navbar example
+Fix z-index of carousel indicators
+Fixes #7898: ensure button type
+Fixed ugly outline in select fields
+Fixed ugly outline
+Fixes #7878: .col-span-* mentions to .col-lg-*
+Fixes #7885 and #7886: only right align horizontal form labels when above 768px
+Fix glyphicon in "Dropdown in a button group" example
+Fix caret position
+Fix
+Fix buttons within examples
+Fix buttons within examples
+Fix invalid input within docs
+Fix navbar button docs
+Fix the selectors for the .input-group-btn selector.
+Fix component margin and padding values to use @line-height-computed
+Fix link to examples
+Fix up navbar forms by using inline form as a mixin; fix docs for those
+Fixes #7823: add mention of container to CSS page; build out CSS overview subnav
+Fix form in navbar
+Fix form in navbar
+Fixes #7816: revert negative margin on .navbar-nav
+Fixes #7796: change @list-group-active-text to @list-group-active-color
+Fixes #7783: nuke bottom margin on fixed-bottom-navbar
+Fixes #7511: add support for nested button groups so you can use dropdowns in your button groups
+Fixes #7721: change @navbar-text to @navbar-color, along with inverse options
+Fix input border flicker in Chrome from @garoevans, closes #7689
+Fixes #7744: update grid mixin to use latest grid styles
+Fix navbar-toggle after commit bbee78b30b40ff0b1473a06ea7ecf5a42d51b614
+Fix navbar on phone/tablet devices after navbar overhaul
+Fixes #7688: move font-weight for glyphicons to before pseudo element
+Fixes #7661
+Fixes #7661
+Fixes #7617: lowercase and dash gray color vars
+Fixes #7648: Thumbnail caption should use @text-color variable. Also adds other thumbnail vars
+Fixes #7577: Attempt to fix, at least, issues with Windows Phone 8 and responsive not kicking in correctly
+Fixes #7591: add .make-small-column() mixin
+Fixes #7093: more consistent scrollspy docs
+Fixes #7640: only reset margin on last-child p within blockquotes
+Fix carousel examples within docs
+Fix flickering on progress bar width update
+Fixes #5256: Use > selector for better nesting of tables
+Fix docs.html Table Row Danger CSS Class
+Fix typo in docs
+Fixes #7462: add radial-gradient spec to mixin
+Fix corss link for sticky footer
+Fix corss link for sticky footer
+Fix link to navbar doc
+Fix link to navbar doc
+Fix responsive view for inverted navbar example
+Fixes #7438: remove max-height from justified nav tabs with some CSS wankery
+Fix image paths and carousel controls for carousel example
+Fix image paths and carousel controls for carousel example
+Fix path to examples to account for new layout
+Fixes #7213 Collapse plugin does not correctly set the "collapsed" class on accordion heading links
+Fixed the navbar toggle in example templates by changing all the ".btn .btn-navbar" to ".navbar-toggle"
+Fixed the navbar toggle in example templates by changing all the ".btn .btn-navbar" to ".navbar-toggle"
+Fixed all the .brand in navbar to .navbar-brand
+Fixed all the .brand in navbar to .navbar-brand
+Fixes #7297: add support for .success, .error, and .warning on td and th elements in tables
+Fixes #7150: colorize links in alerts
+Fix vertical button groups
+Fix dropdown (and therefore typeahead) wrap
+Fixes #7281: make tables super specific for hovers and striping to avoid nesting issues
+Fix minor grammatical problem
+Fix Typo sucess to success
+Fix alignment of .navbar-brand
+Fixes #6998: disabled background color properly on pagination
+Fixes #6995: Add disabled navbar nav link support
+Fixes #6954: properly reset grid classes within tables
+Fixes #6935: Use standard decimal points for .opacity() mixin
+Fixes #6897: Print styles get own .less file
+Fix typo on JavaScript documentation
+Fixes #6941: add alt attribute to images
+Fix the Star glyphicon in the CSS docs
+Fixes #6852: add cursor pointer to carousel indicators
+Fixes #6841: Add new Firefox placeholder, comments
+Fixes #6837: Enable text alignment utility classes on tables
+Fixes #6823: add some docs notes about tooltips in input groups
+Fixes #6808: mention IE lame-itude in docs for invalid inputs
+Fixes #6190: Add print utility classes
+Fixes #6794: incorrect docs mention of th element
+Fixes #6794: incorrect docs mention of th element
+Fixes #6657: Upgrade Normalize to 2.1.0
+Fixing inline lists for IE7
+Fix tooltip positioning for IE8 IE8 defines a placeholder object getBoundingClientRect which breaks the new getPosition() method
+Fix form-actions documentation
+Fix logic error where a disabled button would change color in an enabled fieldset
+Fix that thing with disabled buttons changing color on hover
+Fix floats in navbar
+Fixes #6586: remove top 5px margin from navbar input group button groups
+Fix btn link hover and tweak dropdown border/shadows
+Fix up .brand in navbar of docs
+Fixes #6538: Add th support to all the .table-rounded selectors
+Fixes #6528: Make .navbar a:hover .caret use @navbarlinkcolorhover and not -active
+Fixes #6547: Make blockquotes use multiple of @baseFontSize
+Fixes #6552: example fix for button group
+Fixes #6553: example fix for validation states
+Fixes #6473: Make .input-prepend and .input-append inline-block to match other form states
+Fixes #6474: remove duplicate .btn border colors to make @btn-border work
+Fixes #6478: scope table backgrounds to immediate td/th elements
+Fixes #6555: remove .controls-row from responsive
+ Fix link to File structure anchor
+Fixes #6189: Add holder.js to carousel example
+Fixes #6189: Add holder.js to carousel example
+Fixes #6370: Add comment to docs on typeahead and autocomplete
+Fixes #6352: marketing-alternate broken nav in FF17
+Fixes #6352: marketing-alternate broken nav in FF17
+Fixes #6339: Use important flag on .hide and .show utility classes
+Fixes #6236: Fix popover font-size in input groups
+Fixes #6337: scope '.media .pull-left' and '.media .pull-right' to immediate children only
+Fixes #6174: Caret alignment in small and mini buttons
+Update .dropdown-menu selectors to avoid conflicts with other elements. Fixes #6197
+Fix checkbox and radios example
+Fix docs typos
+Fixes #5729: Nested striped tables
+Fixes #6148: Icons in mini buttons properly aligned
+Fixes #6136: Proper scoping of breadcrumbs divider
+Fix code block white-space breaks within pre tags.
+Fixes #4550: Temporary fix for dropdown taps on mobile
+Fix up display of dropdown submenu examples on responsive views
+Fixes #6115: scope breadcrumb styles to immediate children only
+Fixing header color for success, error and info alerts
+Add relative positioning to .modal-body - Fixes #5991
+Fixes #5853: Maintain 10px margin above help block when following input groups
+Fix the carousel after we scoped selectors
+Fixes #5533: Remove filter gradient from disabled links on dropdowns
+Fixes #5594: Vertical button groups show use max-width, not width, and be scoped to immediate children buttons only
+Fixes #5616: scope carousel state classes to immediate children only
+Fixes #5930: redeclare font-size for popoves in btn-groups
+Fixes #5927: Scope button group 5px button left margin to immediate children
+Fixes #5940: Prevent @headingsColor from changing alert colors
+Fixes #4852: IE8 popover carets fixed
+Fixes #5963: Add large button example to icons, fix vertical alignment in large buttons
+Fixes #6010: Navbar dropdown caret should match link hover color
+Fixes #6012: Updated docs sidenav media queries and reset width for exactly 980px
+Fixes #6035: use font-size vars in button groups
+Fixes #5935: Updated vertical gradient mixin
+Fixes #5986: single toggle button html examples
+Fix typo in reset.less
+Fixes #5937: Border radius vars in button groups
+Fixes #5925: Adjust top margin of input group in navbar
+Fixes #5912: User correct selector for form field states.
+Fixes #5879: Manual update of Normalize credit
+Fix issue with double move event firing in typeahead.
+Fixes #5471: Remove color from .navbar and .navbar-inverse and reassign to .navbar-text to prevent unintended cascading
+Fixes #5596: switch vars in .size mixin
+Fixes #5785: allow for segmented button groups in input groups
+Fixes #5662: white-space: nowrap; on code element
+Fixes #5113: increase .typeahead z-index for proper use with modals
+Fixes #5776: Reside white-space for popovers
+Fixes #5739: Port in HTML5 BP print styles
+Fixes #5458: Clarify fluid nesting
+Fixes #5775: Collapse labels/badges
+Fixing various spelling typos in the docs.
+Fixing typos in affix options area in the docs.
+Fixed copy/paste caused typo
+Fixing typo in docs.
+Fix for #5362
+Fix for #4550
+Fixed bug in dropdown toggle where menu would only clear on the first drop down
+Fix small documentatio typos.
+Fixed a typo in docs/assets/css/docs.css
+Fix key events with Chrome + jQuery 1.8.0
+Fix typo found with codespell.
+Fix all submenus expanded recursively in dropdown
+Fix bug Collapse broken in IE
+Fix for thumbnails in responsive design
+Fix empty for attribute on labels in Horizontal form
+Fix Heads up! part for Images section
+Fix typo in One class, multiple tags section
+Fix typo
+Fixes typo for issue #4413.
+Fixed spelling error in forms documentation.
+Fix .thumbnail line-height
+Fixed a typo in inverse navbar code sample
+Fix wording (presumed typo)
+Fixes vertical-three-colors in Firefox
+Fix transition end name for opera 11+12
+Fixes #4002 responsive utilities classes
+Fix Opera .clearfix bug when using contenteditable
+Fixed extra margin on Navbar buttons.
+Fix #2758: Uneditable inputs in input-prepend/append
+Add note about styling tabs Fix typo in popover docs
+Fix and improve docs on tab config
+Typo Fixes for .mustache files
+Fixed double copy action in Makefile.
+Fixed small button caret and moved less code to dropdowns
+Fix typo in .mustache file
+Fix typos and clarify wording in carousel docs
+Fix broken links to fav and touch icons in examples, fixes #2244
+Fix broken links to fav and touch icons in examples, fixes #2244
+Fixing nav-pills code example - closes #2225
+Fixed compile problem with LESS 1.2.1.
+Fixed a wrong behaviour when using collapse and dropdown in responsive layout
+Fixed a typo in base-css.html which allows the user icon to be shown on the example button
+Fixes typo on download page
+Fix alerts JavaScript code example.
+Fixed duplicate and wrong IDs and label fors in forms.
+Fixed typo "tabs" ==> "button"
+Fixed simple grammatical errors. http://grammar.quickanddirtytips.com/backward-versus-backwards.aspx
+Fix broken named anchor link for LESS compiling instructions.
+Fixes issue with Opera flickering on the collapse plugin when reset is called without specifying the size
+Fixing the Docs for Tabs dropups
+Fixed @warningText and @warningBackground colors in docs
+Fixes left/right border overlap for IE7
+Fixes up internal and external spacing for IE7 buttons
+Move hero-unit css out of pattern.less and include it. Fixes #1185.
+Fix icon margin in large buttons.
+Fixes off-by-1px between checkbox and form label (all browsers)
+Fixes background color for disabled buttons to match pre-IE fix (which prevents hover effects)
+Fixed typo
+Fixed a mailto typo
+Fixed typo in Makefile
+Fixes apostrophe in less.html
+Fixes apostrophe usage in base-css.html
+Fix typo in docs/index.html
+Fixed typo
+Fix typo in Responsive design content
+Fixed when placement is a function
+Fix id anchor javascript
+Fixed broken anchors on js docs page
+Fix line number pretyprint in javascript docs
+Fix id tabs on docs component
+Capitalising 'Bootstrap' and abbreviations. Fixing typos.
+Fixed a typo. Because I'm a Grammar Nazi.
+Fix dropdown anchor
+Fix grammatically incorrect sentence (copy-paste oversight?)
+Fixes tab event selector in tabs example
+Fixed typo in Makefile
+Fixed a bug that wasn't working as expected on Linux
+Fixed comment to show appropriate file name.
+Fixes typos of "bootstrap"
+Fix spelling mistake in pre on js page (/ul instead of /div).
+Fix for issue #136. Now nests fine in both layouts.
+Fixed duplicate element ids
+Fixed readme spelling mistake, closes #123
+Fixed empty for fields on select labels
+Fixed a syntax error preventing less compilation with dotless
+Fix for alert box gradients in IE7/8
+Fix broken quotes and bizarre update of HTML5 to 6.
+Fixed a couple of missing parentheses.

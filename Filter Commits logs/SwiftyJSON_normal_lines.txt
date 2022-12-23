@@ -1,0 +1,454 @@
+fix compile warning, which will be compile error in upcoming swift 6
+Reorder build phases to fix Xcode 13.3 issue
+fix typo
+chore: bump cocoapods version
+Updated Readme
+Bump iOS deployment target to iOS 9. Remove platforms from Package.swift.
+removed broken link
+Bump to 5.0.0
+chore: improve code base
+Update project settings
+Bump pod version to 4.3.0 and update ci image to Xcode 10.2
+Updated swift-tools to version 5.0 (#1013)
+Add a "Reviewed by Hound" badge (#1006)
+Update README.md (#1010)
+Update README.md
+Remove unused script
+SwiftyJSON Model Generator Tools Reference added (#976)
+Re-organize directories
+Remove deprecated API in 4.2.0
+Remove .swift-version file
+Version bump to 4.2.0
+Update min requirement of watchOS to 3.0
+Added swift_version to podspec
+Update CI to Xcode 10.0/iOS 12.0
+Update build settings to Xcode 10.0
+Update Xcode Settings
+Version bump to 4.1.0
+Xcode9.3 image no longer support Apple TV 1080p
+Update osx image to 9.3
+Update README.md
+Updated broken Twitter API link
+Update to Xcode 9.3 recommend settings
+Improve broken testcases
+Add String to .boolValue tests for "Yes" and "1"
+Support Codable
+Update README to specify correct JSONSubscriptType
+Update README.md
+Version bump to 4.0.0
+Add .hound.yml
+Code base improvement
+Format code documentation
+Update the playground documentation Add all sections of usage.
+Update README.md
+Update deprecated examples and comments to fit the style
+Update .travis.yml
+Rename `OS X` to `macOS`
+[gardening] Remove print functions and XCTFail()
+Address #892
+Bump version to 4.0.0-alpha.1
+Compress SwiftLint violation
+Add "yes" and "1" to string.boolValue array
+Update README.md
+[SwiftLint] Compress SwiftLint violations
+[SwiftLint] Change SwiftLint target to macOS platform
+[Xcode9-beta] Update travisCI to Xcode9 image
+[Xcode9-beta]  set `SWIFT_SWIFT3_OBJC_INFERENCE` to default
+Update comments applied same rules
+Update comments by same rule of markup for formatting quick help
+Tiny optimization
+Compress SwiftLint violations
+Address #870
+[Travis] Use stable version over head version
+[Travis] Update osx_image to Xcode8.3
+Add detail about deprecated method
+[Swift4] Update System recommend settings
+Update examples that makes warning in README `.error` to `error!`.
+Change NSNumber extension’s property to fileprivate
+Get rid of trailing whitespaces
+Declare JSON’s type and error in a concise way.
+Update README.md
+Added SwiftyJSONError namespace
+Moving from NSError to Swift.Error
+call can throw but is not marked with try
+[SwiftLint] Compress swiftlint violations
+[SwiftLint] Prefer `!= nil` over `let _`
+Converted tabs to spaces
+RawTests.testNestedJSON() added
+[SwiftLint] Corrected Trailing Whitespace
+Move files into .github directory
+Add github ISSUE and PULL_REQUEST TEMPLATE
+Updated Year in License File
+[SwiftLint] Remove parentheses of conditional
+[SwiftLint] Satisfy implicit_getter rule
+[SwiftLint] Satisfy operator_whitespace rule
+[Tests] Improve SwiftyJSON Mutability test cases
+[SwiftLint] Autocorrect code style
+[SwiftLint] add .swiftlint.yml
+[SwiftLint] Add SwiftLint target
+rawValue test
+[Optimization] Update LLVM and Swift compiler level
+add Work with Moya section to README.MD
+fix nested JSON problems with JSON initialize method
+Bump version to 3.1.4
+Hello 2017
+Update README.md
+Convert every target
+Update to recommended proj settings
+Convert to latest swift version
+Update Work with Alamofire
+Add a title of NavigationBar with type
+Turn JSON.URL into lower-cased JSON.url
+Updated constructor to be more precise.
+replace JSONRawIndex and JSONIndex with generics and desclear by typealise
+Removed print statements
+Removed erroneous spaces and added spaces instead of tabs.
+Use exceptions to communicate merging error to user, if he tries to merge JSONs differing in type on top level.
+Created new init instead of multiple small ones.
+Added a security mechanism to prevent total overwriting of the source JSON in case that the JSON differ in type on the top level.
+Update scripts
+Updated TOC of README
+Corrected commit #c4a4de0. Sorry.
+Added pull request #725 to change log.
+Added documentation for merging two JSONs.
+Added label with: to merge and merged.
+update Integration section of README to reflect latest version in SPM usage subsection
+Added a function to deep merge a JSON object into another JSON object destructively and non-destructively.
+update readme
+make casting nil to nsnull optional
+represent strings with nil as if it was nsnull
+Instead of checking for the Int8 type explicitly when setting 'object', cast the Int8 value to an Int and pass that into an NSNumber when setting 'int8' or 'int8Value'
+Update version in pod spec
+Add performance test
+Attemp to fix #697
+The ‘isBool’ function on the NSNumber extension uses ‘trueObjCType’, which represents the type encoding for ‘true’ represented as an NSNumber, and ‘falseObjCType’, which represents the type encoding for ‘false’ represented as an NSNumber. Both type encodings are equal to ‘c’. However, an NSNumber that wraps around a value of type Int8 also has a type encoding of ‘c’. Therefore, a user who passes in a value of 0 or 1 (of type Int8) into JSON will expect to see the numbers 0 or 1 as the output because that was the intent. Unfortunately, that value will be wrapped into NSNumber and be considered a bool, so the user will see ‘true’ or ‘false’ instead.
+Re-organize tests to satisfy SPM
+Turn on render documentation mode.
+Finish subscript part. Add descriptions.
+Explictily set Prov Style Automatic for macOS
+Explicitly set Prov Style Automatic for tvOS
+Explictily set Prov Style Automatic for watchOS
+Explicitly set Prov Style Automatic for iOS target
+Add getting a string using a path to the element.
+Explictily set Prov Style Automatic for macOS
+Explicitly set Prov Style Automatic for tvOS
+Explictily set Prov Style Automatic for watchOS
+Explicitly set Prov Style Automatic for iOS target
+Updating subscript section in playground
+Update to swift3 syntax.
+Initialization.
+Basic playground docs.
+Minor update.
+Match pre-swift3 behavior for String -> Bool
+Added check for pre-escaped URLs to prevent double-escaping of % character
+Updating tests for NilLiteralConvertible
+Deprecating adoption nilLiteralConvertible
+Add carthage script
+Update pod spec
+Update SwiftyJSON.podspec
+Removed unnecessary type names
+Upgraded to swift 3.0
+Copyright year upgraded
+Copyright Year Update
+Auto tagging releases
+Update Alamofire example for Swift3
+adds performance enhancement to prevent merge conflicts
+reverts improper moving of code
+adds support for nested JSON in literals
+update readme with nested example
+Update pod version for 3.1.0
+Update BaseTests with new URL
+Move from NSURL to URL
+Typos in Comments correction
+Add spaces to badge icons
+Update min target for macOS to 10.10
+Add cocoapods and platform badge
+Add checks on exists method for errors
+Update code signing change to fix .travisCI
+Update NSErrorPointer usage in initializer.
+Set APPLICATION_EXTENSION_API_ONLY to yes for macOS target
+Add .swift-version
+Update pod version
+Update readme file for swift3
+Updated main source and tests to spec for Swift 3.0 as released in Xcode 8/0 GM.
+Basic playground set.
+Spelling fix: existence, not existance
+Small Readme fix
+Add Getting an array of string from a JSON Array
+filled Manifest
+Use Swift 3.0 for whole project
+Valid Swift 3.0 code
+Updated Year in License File
+updated "Swift Package Manager" installation manual
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Beta support for swift3.
+admin : fixed some typos
+Update README.md
+Update README.md
+Replace ++ with +=
+Remove blank space
+Update Alamofire code
+README typo
+Correct the spelling of CocoaPods in README
+Which's -> whose and typo fix in comments
+Changed from .empty to .isEmpty
+Update README.md
+Changed "Mac OS X" to "OS X"
+Update optimization level to "-Ofast"
+Programmatically set current tag
+set the watch os deployment target to watchOs 2.0 - otherwise it would have used always the most current one with the result that the lib is not usable with apps deploying on watchOS 2.0
+Use minimumCapacity parameter to optimize dictionary creations
+Update README.md
+add Package.swift
+update pod specs
+Add Parse as JSON.parse
+Update codesign identity
+Keep NSNumber Operator Internal
+fixes Bool case to return expected value
+Nil coalesce instead of force unwrap
+Utilizes existing optional binding to stop force unwrapping
+Uses optional binding to remove force unwrapping
+Remove force-unwrapped indicator from constants
+Correct JSON's type specification URL
+Deleted Framework search paths for target OSX Test
+use safe unwrapping for result value
+fixed Alamofire & SwiftJSON integration example
+Sets UIRequiredDeviceCapabilities for tvOS target
+Add Playground File
+Rename it to JSONKey
+Add Travis CI Icon
+Add tvOS
+Removing tvOS tests for now
+Adding tvOS and OSX
+Add back device specs
+Update Travis Config
+Updated README with better JSON parsing in Swift 2
+Adding Support for Custom JSONSubscriptType
+We do return true if the JSON is neither an Array nor a Dictionary
+update pod specs
+Change key to index for array
+Update SwiftyJSON.podspec
+Added tvOS deployment target to podspec
+Adding tvOS testing
+Adding watchOS.
+MACOSX_DEPLOYMENT_TARGET = 10.9
+Added Carthage bitcode support (see https://github.com/Carthage/Carthage/issues/535)
+println -> print in README.md
+Updated comments to the new Swift 2.0 style
+Changes PRODUCT_NAME of tvOS target to SwiftyJSON
+Adds support for tvOS
+Update podspec
+Update README.md
+remove superfluous catch frame
+While NSJSONSerialization states that it will throw, invalid JSON will make it throw prior to parsing. Apple recommends checking for valid JSON first. In practice, I've seen the case where do/try on rawData is never caught on exception, presumably because of the parsing issue (at least in XCode 7 GM.)
+XCTAssertLessThan and XCTAssertGreaterThan are now more strict about NSNumber types
+Move watchOS info plist to correct directory.
+XCode 7 GM: NSNumber now already conforms to Swift.Comparable
+Parse string numbers as NSDecimalNumber instead of double
+Existance check + tests + readme
+Updated BuilableName
+watchOS target added.
+Adding watchOS
+Re-Indent
+fixes compiler warning
+URL charset, not alphanumeric
+Update Deprecated Function
+Check if error pointer exists before setting memory
+Remove cast code in JSON compare.
+Implement CollectionType.
+Delete unnecessary cast. Implement SequenceType completely.
+Update for 2.2.1
+Change example path for carthage. #140 #177 #140
+Update for xcode7. #276 #272 #263
+Change example path for carthage. #276
+Add WorkingspaceSettings.xcsettings.
+Use reduce to get subscript json.
+Optimize performance of count
+example bug fix
+Allow construction of JSON from [String: JSON]
+Update JSON.nullJSON to JSON.null
+Update nullJSON to null
+Update subscript(path: [SubscriptType])
+Updated Readme to swift 2.0
+Update README.md
+Update for xcode7
+Update README.md
+add instruction on import to README
+Add Carthage/Build to .gitignore
+Update README.md
+update change log
+Update README.md
+Update the first two examples snippets
+Add test - get value from [SubscriptType]
+Update README.md
+Update swift's protocol to swift.protocol
+Update podspec
+Update README.md
+Only building tests for testing
+Avoid using subscript on AnyObject in Swift 1.2
+Update README.md
+Removed code signing identity from OSX target and tests.
+Better support for carthage users
+Update README for new Cocoapods
+Added automatically generated change log file
+Add OS X framework and tests target + scheme
+Rename info plists to have -iOS suffix
+Rename iOS tests target to “SwiftyJSON iOS Tests”
+Remove SwiftJSON OS X targets
+Remove SwiftJSON.xcodeproj/xcuserdata
+Swift 1.2 compatibility fixes
+Allow construction of JSON from [JSON]
+Setter for JSON array should use arrayObject not array (which does not expose a setter) (README.md)
+fix travis ci
+add missing ` in comments
+Update README.md
+Update README.md
+Update README.md
+change podspec to 2.1.3
+using with cocoapods require >= iOS 8
+trigger travis first build
+test travis config
+travis ci trigger
+add travis ci support
+Minor grammar fixes to README
+Updated because podspec is now available...
+Update optional cell textLabel's text.
+Prefixed "SequenceType" extension with Module name, since it was conflicting with other SequenceType declaration in separate library.
+Make framework extension friendly
+updated the TOC links
+fix the typos on the code snippets on README
+Use Mac' codesign identities for OSX targets
+Update README.md
+Update SwiftyJSON.podspec for 2.1.2
+Update README.md
+Added shared scheme
+Removed .xcscheme from gitignore
+Updated deployment target
+Should fix code signing issues
+Updated all the code signing identities
+Correct mblsha podspec
+Add a super simple error handling example
+Renamed type 'Unknow' to 'Unknown'
+Change recommendation for Alamofire integration
+Inherit project settings in target.
+Added OS X target - 100% test passing on OSX & iOS
+Remove redundant UIKit import to make tests OS X & iOS compatible.
+Update README.md
+Update README.md
+Add Chinese version link
+Update test  json print which's type is .dictionary.
+Update tests for `description`
+Update `description` and `debugDescription` to call `rawString`
+Delete the rawString's `error` argument
+Update rawData's default options to NSJSONWritingOptions(0)
+Add support for non-array and non-dictionary get the raw string
+Change if to ??
+Change Dictionary<K,V> to [K : V], Array<T> to [T]
+Update README.md
+Update for XCode 6.1
+If json type is `.Array` or `.Dictionary`, `json.boolValue` should return `false`.
+Update document.
+Update README.md
+Update README.md
+Update SwiftyJSON.swift
+Update array subscript: If index is minus, get the null json with out of bounds error.
+Add performance tests
+Update getter for [JSON] and [String:JSON] by map
+Add subscript which parameter is array or array literal. - sub = json["list",0,"name"] - let path: [SubscriptType]= ["list",0,"name"]; sub = json[path] - json["list",0,"name"] = "Jack" - let path: [SubscriptType] = ["list",0,"name"]; json[path] = "Jack"
+Making SourceKit not freak out about self.object.count being called
+Update for iOS 7
+Add launch image for example project
+Update tests for Xcode 6.1 GM 2
+Update README.md
+Update README.md
+Add JSON data's looping test
+Remove needless setting
+Added support for Xcode 6.1 GM Seed 2.
+Update error's printable
+Update README.md
+Update README.md
+Update README.md
+Change tests files name
+Add Dictionary and Array tests
+Update subscript's error
+Add number and string tests
+Add number setter
+Add comparable tests
+Add sequence type tests
+Add printable tests
+Add subscript tests
+Update example
+Update the test case and Add literal convertible tests
+Change enum JSON to strut JSON and Add literal convertible protocol
+Update README.md
+Add SequenceType methods
+Speedup initialization，but slow array and dictionary methods.
+Delete redundant code
+Add Dictionary methods
+Add iOS Example
+Add SwiftyJSON.xcworkspace
+Change the file path
+Update the initialization and compare methods
+Update README.md
+Adding documentation
+Update README.md
+Update the README.MD
+add the test case.
+optional value getter  and non optional value getter
+make JSONValue to JSON more friendly.
+Revert "Added rawObject method for unwrapping JSONValue enum to objects"
+Added object method for unwrapping JSON enum to object, thanks @k06a
+add error
+Update the README.MD
+make error to public, fix bool print bug, add some print test
+add error handle
+update to public
+make init methods to public
+set the default JSONReadingOptions to .AllowFragments
+Add NSError to Null type
+refactor! 1. Change JSONValue to JSON 2. Delete the part  of error 3. change enum' type to ScalarNumber, ScalarString, Sequence, Mapping 4. implement Comparable 5. update test
+Renaming rawObject to any
+Just variables renamed from "possible*" to "already*"
+Added rawObject method for unwrapping JSONValue enum to objects
+Rename LISCENSE to LICENSE
+Use BooleanType instead of LogicValue
+Converting JSON objects to string is fixed
+Updated to remove errors in Xcode Beta 3
+add first and last in JSONValue, add string to double, int etc.
+rawJSON
+add a "url" property to JSONValue
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Update README.md
+Add Error Handling And Wrong Keypath tracking
+Add Error Handling
+Update README.md
+I Give Up, Use NSNumber
+Remove JSON options since they are unnecessary
+Add more atomic unit tests
+Remove redundant 'description calls'
+Separate protocols implementation, refactor prettyString composing
+Add moar whitespaces
+Add gitignore, add pretty-print unit tests
+Simplify conditional logic in switch
+Add project with both OSX/iOS module targets
+.project file problems
+Update README.md
+Started unit tests and fixed a Bool value bug with it
+Update README.md
+Update README.md
+Change Tag Naming
+Add Support For Printable Protocol, Now It Can Generate Nice Printed JSON Text Add Support To Init With A NSData
+Update README.md
+Update README.md
+typo
+Update README.md
+Create LISCENSE
+init
+Initial commit

@@ -1,0 +1,360 @@
+8.0.1
+Render the main element correctly in IE
+Remove stylelint
+Fix typo in CHANGELOG
+v8.0.0
+Update CHANGELOG
+Don't remove search input cancel button in Chrome/Safari
+Add package-lock.json
+Remove bower
+Update browser support
+Point to yarnpkg's list of CDNs
+Remove the font-size test on html tag
+Inherit font family for inputs
+Restore gaps in links underline in iOS 8+ and Safari 8+
+7.0.0
+Revert changes to 'body' and form elements
+Non-functional maintenance
+Fix Markdown syntax (#663)
+Correct the padding in firefox (#671)
+Update CHANGELOG.md (#670)
+Stop test.html from skewing language classification (#667)
+Fix markdown syntax (#662)
+6.0.0
+Include iOS Safari in Browser support
+Update stylelint configuration
+Update normalize.css (#661)
+Fix repository's language classification on GitHub (#660)
+Remove all opinionated rules (#649)
+Place the document heading above the html element's comment. (#639)
+Update homepage URL (#633)
+5.0.0
+Update macOS reference
+Update text-size-adjust documentation
+Update semver strategy (#615)
+More explicitly define font resets on form controls (#607)
+Merge branch 'feature/html-sectioning'
+Correct the display of <summary> in all browsers
+Use HTML Living Standard sectioning
+Merge branch 'battaglr-placeholder'
+Remove `placeholder` normalization
+v4.2.0
+Update CHANGELOG.md date
+4.2.0
+Merge branch 'battaglr-patch-1'
+Remove "heading" reference since is redundant
+Simplify headings normalization comment
+Add rule for all headings lh (#596)
+Restore optgroup font normalisation (#589)
+4.1.1
+4.1.0 (#576)
+Normalize file select buttons (#574)
+Correct the outline of search inputs in Safari (#575)
+Remove gaps in links underline in iOS 8+ and Safari 8+ (#573)
+Merge pull request #569 from necolas/fix/549
+Limit Firefox focus normalization to buttons
+Merge pull request #571 from necolas/fix/550
+Merge pull request #568 from necolas/fix/562
+Correct the text style of placeholders in Chrome, Edge, and Safari
+Remove overflow from select and update multiple overflow
+Merge pull request #563 from necolas/fix/544
+Merge pull request #564 from necolas/fix/542
+Restore `main` to package.json
+Remove opinionated cursor styles on buttons
+Merge pull request #558 from XiBOR/master
+Merge pull request #552 from battaglr/remove-v1-references
+Merge pull request #561 from mdouglasbrett/patch-1
+Small copy change
+Combine two same selectors #553
+Remove `v1` references
+Merge pull request #541 from gouch/patch-1
+Fix spelling error in comment
+Merge pull request #539 from necolas/v4
+4.0.0
+Update documentation and tests
+Update and organize the normalize.css file
+Update project configuration
+Merge pull request #538 from necolas/fix/313
+Merge pull request #537 from necolas/fix/438
+Merge pull request #536 from necolas/fix/100
+Remove opinionated pre overflow
+Move input type appearance normalization into its own rule
+Reduce selector weight of input types
+Correct wrapping not present in IE8/9/10/11 and Edge 12/13
+Merge pull request #535 from necolas/fix/img-border
+Only normalize border-style on img
+Merge pull request #532 from necolas/fix/522
+Update the dfn support message
+Merge pull request #533 from necolas/fix/377
+Remove unnecessary input line-height
+Merge pull request #531 from necolas/fix/363
+Use inherit to fix legend color
+Merge pull request #530 from battaglr/use-longhand-outline
+Merge pull request #529 from battaglr/mark-opinionated-declarations
+Use explicit `outline-width` property instead of `outline`
+Mark opinionated declarations
+Merge pull request #528 from battaglr/add-bower-install-details
+Add Bower install details
+Remove double space
+Merge pull request #515 from alrra/update-travis-yml
+Merge pull request #514 from hudochenkov/audio-ios
+Remove `sudo: false` from `.travis.yml`
+Specify browsers for displaying `audio` without controls issue
+Add Travis CI for linting #508
+Use Stylelint as a gatekeeper #508
+Merge pull request #507 from alrra/update-browser-support-list
+Update `Browser support` section from `README.md`
+Remove opinionated table resets
+Update documentation and CHANGELOG.md
+Merge pull request #490 from lastfm/fix-firefox-button-focus-outline-take-two-481
+Add comment addressing intentional duplicated monospace font
+Address inconsistent styling of abbr[title]
+Update CHANGELOG.md for color inheritence change
+Merge pull request #502 from magnificode/disabled-element-color-inheritance
+Remove unnecessary color inheritance test now that it has been removed from form elements.
+Remove color inheritance for button, input, optgroup, select and textarea elements. Color inheritance here causes possible usability issues when working on black backgrounds with white text. Addresses #349 and #339.
+Ensure long-hand background declaration usage for consistency.
+Normalize `hr` overflow
+Address inconsistent styling of b and strong
+Remove box-sizing for input[type="search"]
+Add link to contribution guidelines
+Remove Bower and Component(1) files
+Remove 'hgroup'
+Fix typo in README
+Replace lost button and input focus style
+3.0.3
+Force LICENCE to be published to npm
+Remove unnecessary vendor prefixes
+Fix a few CSS comments
+Fix project URL in normalize.css file
+Add cdnjs link to README
+Add main property to 'package.json'
+3.0.2
+Add 'menu' to tests
+Fix code style
+Only alter 'background-color' of links in IE 10
+Add `menu` element to HTML5 display definitions
+Fix package.json
+Add extended docs to README
+3.0.1
+Fix indentation
+More accurate comments
+Add package.json
+v3.0.0
+Fix ‘san-serif’ typo in test file
+Fix `textarea` test title
+v3.0.0-rc.1
+Update CHANGELOG
+Update browser support
+Explicit tests for each normalization
+Reorganise normalize.css and edit comments
+Revert 6992935807a5ed7ec60fb97e3f9fd02cc102a110
+Fix i18n for `q` element
+Fix `pre` text formatting and overflow
+Fix vertical alignment of `progress`
+Change indentation: 4 -> 2 spaces
+Address `button` overflow in IE 8/9/10
+Fix rendering of test file on mobile
+Revert `textarea` alignment modification
+Fix number input button cursor on OS X Chrome
+Remove `a:focus` outline normalization
+Fix `figure` margin normalization
+Fix `optgroup` normalization and add test
+Normalize `optgroup`
+Remove default table cell padding
+Set correct display for `progress` in IE 8/9
+Fix `font` and `color` inheritance for forms
+Fix fieldset width in Chrome and Firefox
+v2.1.3
+Update CHANGELOG
+Fix component.json
+Add IE 10 to checkbox/radio normalization comments
+Fix incorrect closing tag in `test.html`
+Add Component(1) install instructions
+README: change guidance and demphasise v1
+Normalize the `template` element display
+Fix IE 10 active link background color
+v2.1.2
+Add `bower.json` to release instructions
+Revert root color and background normalization
+Simplify the Component(1) manifest file
+Add Bower manifest file
+Change the Bower website URL
+Correct date of 2.1.1 release in CHANGELOG
+Fix typo in CONTRIBUTING.md
+v2.1.1
+Fix example `git tag` command in docs
+Add contribution guidelines
+Change gh-page URLs to use `.io`
+Fix typo
+Protect root against system color schemes
+Clean up component.json
+Add Bower install and more to README
+v2.1.0
+Update README acknowledgements
+Update CHANGELOG
+Normalize form element `text-transform`
+Normalize `h1` margin
+Update CHANGELOG
+Normalize `hr`
+Add `hr` test
+Remove unnecessary `pre` styles
+Update CHANGELOG
+Add `main` element to HTML5 display definitions
+Fix cursor style for disabled button `input`
+Language and comment style
+Update component.json for 'component' support
+v2.0.1
+Remove stray IE 6/7 hack
+v2.0.0
+Drop legacy browser support
+v1.0.1
+Adjust `small` font size normalization
+Minor change to test file
+Add component.json
+Add CHANGELOG
+v1.0.0
+Update CSS comment wording
+Rename demo.html to test.html
+Rename LICENSE to LICENSE.md
+Add MIT License
+Minor copy and comment adjustments
+Remove .gitignore
+Minor consistency adjustments
+Reintroduce fix for WebKit audio/video control bug
+Update README with link to 'contribute' wiki
+Revert addition of input placeholder rules
+Fix indentation and update timestamp
+Addresses placeholder text remaining visible on focus in Chrome
+Correct code format and update timestamp
+Add placeholder color normalization
+Add placeholder color normalization
+Remove height from `audio:not([controls])` in iOS5
+Add `summary` to the block-level display rule for HTML5 elements
+Remove `hr` and separate some margin normalizations
+Normalize typography
+Manual merge with GitHub master branch
+Remove `details` from the rule applying padding-left to lists.
+Add interactive content tests to demo.html
+Update CSS comments
+Normalize lists
+Update CSS comments
+Normalize headings
+Demo: add disabled input test and other minor updates.
+Re-set cursor to default for disabled `input` and `button`.
+Combine the two WebKit search input pseudo-element rules
+Move font-family normalization from `body` to `html`. Close #62
+Remove scrollbar normalization. Fix #64 #65
+Remove search cancel button from search inputs on Mac OS X.
+Add small improvements to `legend` normalization.
+Remove excess padding from checkbox and radio inputs in IE7. Close #42
+Normalize only the left margin of lists. Fix #49
+Minor comment cleanup.
+Normalize h1 font-size. Close #41
+Clearing heading tests added to the demo
+Remove default `a` and `a:visited` color normalizations.
+Prevent text inputs growing as you type in IE6/7. Fix #46
+Edit README to say normalize should be used as an alternative to resets. Close #39
+Remove temporary Chrome pre-13 fix for audio/video control styling bug.
+Normalize fieldset border. Fix #34
+Update comment for img border normalization to include reference to Firefox 3
+Demo HTML: Whitespace cleanup. Validation cleanup (remove strike element, valid input values, SVG shape.) Close #32
+Add additional abbr and dfn tests to the demo
+Remove excess padding from radio and checkbox in IE8/9. Fix #27
+Link to a YUI Compressor-based minification tool in README. Close #4
+Update monospace font stack fix to work in Safari 4
+Correct inaccurate description of [hidden] rule
+Leave default webkit-tap-highlight-color in place. Fix #23
+Separate [hidden] and audio:not([controls]) to prevent entire rule being dropped in IE8
+Simplify hiding of hidden and audio without controls. Work around IE6/7 list-style bug with nav, fix #25
+Add a test for the [hidden] attribute
+Add [hidden] attribute normalization
+Prevent IE6 from ignoring the embedded media ruleset. Fix #10
+Set {overflow:auto} in IE6/7 for <button> and <input> inside <table>. Fix #18
+Fix #20 (only temporary until Chrome updates to version 13)
+Merge branch 'master' of github.com:necolas/normalize.css
+Add <audio> and <video> tests to demo. Fix #21
+Very minor copy typo fix and `zoom` property change.
+Add IE9 correction for SVG overflow, fix #16. Update demo to include explicit <img> and <svg> tests.
+Add timestamp and repo link. Close #7
+Update README with more details and link to demo
+Reintroduce <audio>, <canvas>, <video> display setting
+Improve accuracy of <img> style comments
+Add fix for legend not inheriting color in IE6/7/8/9
+Remove unnecessary styles for <td> and <th>. All browsers apply same default styles.
+Update README with link to demo and license info
+Make comments less verbose
+Minor tidy up of <pre><code> HTML example
+Update .gitignore
+Remove <audio>, <video>, <canvas> display set to inline-block. Default display is inline. Fix #10
+Add .gitignore file
+Merge pull request #14 from AustinWi/patch-1
+Removed <tags> so they wouldn't conflict with procssor.com You can see the exact issue here http://img832.imageshack.us/img832/7329/tagnormalissues.png
+Correct meta viewport to use initial-scale
+Move font-size:100% into html ruleset, fix #5. Remove placeholder body line-height.
+Minor changes to properties and values that could be shortened. Improve comment language and change section-comment format (via Jonathan Neal).
+Minor change to <pre> etc font-family. Set {display:inline-block} only for audio[controls].
+Include link to Procssor for those who want a different CSS formatting style
+Remove input[type="search"] WebKit decoration from Safari and Chrome in OSX, corrects excess inner padding. Fix #3
+Make tap-highlight-color fix work for Android devices. Fix #2
+Minor change to outline value (none to 0)
+Typo correction
+Minor copy changes to CSS comments
+Minor formatting correction
+Switch a:active and a:hover order
+Demo: modify form element tests to include both input-inside-label and input-outisde-label markup options. Include examples of form parts wrapped in <p> alongside examples wrapped in <div>. Add tel and file <input> types.
+Add {vertical-align:middle} to form elements in IE6/7 - fixes their incorrect label-input alignment when using baseline. Reorder the form element rulesets
+Minor format change to README
+Update README; remove normalize.metrics.css
+Demo: Add box-sizing tests; add more HTML5 <input> type examples; add <figure> example; reorganise elements
+Minor edit to monospace font fix
+Normalize <figure> margins
+Add -webkit-appearance:button to clickable input types, fixes inability to style them in iOS. Remove input[type=image] as it already receives a pointer cursor and should not receive button appearance
+Include http: in path to HTML5 Shim. Remove inputs with 'required' and 'pattern' attributes: not relevant to this demo.
+Correct the box sizing declarations required to improve cross-browser consistency of specific input types
+Remove [vertical-align:top] from [pre, code, kbd, samp]. Was meant to be for iOS but causes issues.
+Change dummy href value
+Remove link to normalize.metrics.css - move away from 'black boxing' the 'normalizing' styles.
+Add table element normalization. Add default font-size and line-height to <body>. Set font-family on <body> and form elements to improve consistency. Set font-size:100% on form elements so they inherit body's font-size.
+Add blockquote and list normalization (previously in normalize.metrics.css)
+Add normalization of <form> and <fieldset> elements. Add input[type='reset'] to box sizing normalization. Add cursor:pointer for clickable inputs/buttons.
+Normalize <a> colors. Remove <small> line-height (no effect when not block-level). Reorganise file and edit comments.
+Edit demo file; addition of <form> elements, <mark>, <blockquote>, and clearer inline element tests.
+Add line-height:normal to <input> and <button> elements to match Firefox 3/4 value (set with !important in the UA stylesheet)
+Add vertical-align:baseline to form elements
+Add bold font-weight to <b> and <strong>. Add font-size to <pre> <code> <kbd> <samp> (was missing). Introduce more links to further reading.
+Style HTML5 embedded elements. Remove default cursor from <html>. Reformat comments
+Set text-size-adjust to 100%
+Remove remnants of IE <audio> hack
+Change vertical-align for inline-block elements to baseline. Set textarea vertical-align to top.
+Fix text-size-adjust so it doesn't prevent manual zooming in WebKit or iOS
+Remove CSS expressions targeting IE6. Performance issue.
+Align textarea with text-top. Improves readability and fixes FF3/4 odd 'baseline' alignment
+Add vertical-align:baseline to form elements
+Remove overflow:hidden from body, cuts off content of fixed-width elements
+Set vertical-align:baseline for sub and sup
+Improved <sup> <sub> alignment
+Update headings
+Vendor-prefixed properties precede their standard counterparts
+Formatting
+iOS text resizing
+Proper line-height assignment
+Updated README.md
+Updated demo.html
+Normalize and personalized sizing and spacing
+Improved display inline block Improved <audio> display Added <input> <select> <textarea> box sizing
+Update
+Update: <body>
+Update
+Update
+Update
+Update
+First README.md
+Update
+Notes
+Language
+Language
+Language
+Language update
+Initial
+It has begun.

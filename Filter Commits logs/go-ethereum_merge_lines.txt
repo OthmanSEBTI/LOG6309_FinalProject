@@ -1,0 +1,2702 @@
+Merge pull request #26049 from sandakersmann/master
+Merge pull request #26044 from karalabe/rename-typed-tx-files
+Merge pull request #26038 from karalabe/split-txpool
+Merge pull request #25924 from holiman/comments_fix
+Merge pull request #25831 from karalabe/fix-challenge-stop-hang
+Merge pull request #25694 from karalabe/concurrent-heal-check
+Merge pull request #25651 from holiman/fix_snapqueue
+Merge pull request #25582 from holiman/err_handling
+Merge pull request #25581 from karalabe/triedb-fix-flush-order
+Merge pull request #25506 from ycyraum/apply-transaction-no-bc
+Merge pull request #25461 from sandakersmann/master
+Merge pull request #25428 from karalabe/engineapi-snap-import-deny
+Merge pull request #25371 from Zachinquarantine/mergeconfig-message
+Merge pull request #25397 from karalabe/fix-tracer-capitalization
+cmd: use flags.Merge for grouping flags (#25392)
+Merge pull request #25379 from holiman/leveldb_update
+params: change Merge config to print simpler message
+Merge pull request #25096 from lightclient/remove-version-field
+Merge pull request #25293 from sandakersmann/master
+Merge pull request #25290 from karalabe/tar-archive-folder-time
+Merge pull request #25288 from karalabe/enable-sepolia-dnsdisc
+Merge pull request #25247 from sandakersmann/master
+Merge pull request #25206 from dbadoy/master
+Merge pull request #25044 from karalabe/rpc-histograms
+Merge pull request #24945 from karalabe/cht-1.10.18
+Merge pull request #24867 from holiman/no_preop_memexpand
+Merge pull request #24936 from holiman/no_compilers
+Merge pull request #24915 from karalabe/catalyst-custom-errors
+Merge pull request #24908 from zhaochonghe/master
+Merge pull request #24905 from holiman/fix_has
+Merge pull request #24901 from karalabe/fix-linter
+Merge pull request #24884 from karalabe/deprecate-rinkeby
+params: set ropsten TTD for TheMerge (#24876)
+Merge pull request #24817 from karalabe/fix-PC-regression
+Merge pull request #24813 from holiman/jammy
+Merge pull request #24659 from karalabe/snapshot-remove-noo
+Merge pull request #24652 from karalabe/block-fetcher-timeouts
+Merge pull request #24605 from karalabe/revert-setting-ttd
+Merge pull request #24544 from karalabe/go-1.18
+Merge pull request #24545 from karalabe/beacon-sync-fix-test
+Merge pull request #24515 from karalabe/pending-statedb-accesslist-init
+Merge pull request #24529 from holiman/fix_inf
+Merge pull request #24391 from rjl493456442/trie-iterator
+Merge pull request #24328 from karalabe/uke-catalyst
+Merge pull request #24288 from holiman/prefer_prefixed
+Merge pull request #24281 from karalabe/dev-read-write
+Merge pull request #24171 from ucwong/pmp
+Merge pull request #24197 from rjl493456442/periodically-flush-batch
+Merge pull request #24210 from holiman/whitelist_investigate
+Merge pull request #24117 from holiman/db_has
+Merge pull request #24066 from holiman/no_no_recursion
+Merge pull request #24047 from karalabe/delete-dead-sync-bloom
+Merge pull request #24032 from karalabe/downloader-response-preprocess
+Merge pull request #23967 from ipsilon/evm_jumptable_type
+Merge pull request #23960 from karalabe/verify-range-deletion
+Merge pull request #23928 from holiman/no_iota
+Merge pull request #23949 from karalabe/fix-repair-heuristic
+Merge pull request #23880 from eltociear/patch-3
+Merge pull request #23869 from karalabe/cht-1.10.12-ropsten
+Merge pull request #23868 from karalabe/cht-1.10.12
+Merge pull request #23677 from karalabe/canon-rlp-fetcher
+Merge pull request #23670 from karalabe/get-header-rlp
+Merge pull request #23610 from karalabe/gomod-tify
+Merge pull request #23609 from karalabe/regex-fix
+Merge pull request #23561 from karalabe/temp-split-leseh
+Merge pull request #23120 from karalabe/drop-eth-65
+Merge pull request #23385 from karalabe/cht-1.10.7
+Merge pull request #23384 from holiman/fix_gasfoo
+Merge pull request #23374 from karalabe/fix-docker-tag
+Merge pull request #23373 from karalabe/docker-flip
+Merge pull request #23371 from karalabe/gofmt
+Merge pull request #23370 from karalabe/windows-pruning-fix-b
+Merge pull request #23183 from karalabe/cht-1.10.5
+Merge pull request #23178 from karalabe/feeapi-fixes
+Merge pull request #23168 from karalabe/puppeth-fix-dashboard
+Merge pull request #23167 from karalabe/docker-nomake
+Merge pull request #23159 from karalabe/ethstats-fix-fullnode
+Merge pull request #23104 from karalabe/tracer-context
+Merge pull request #23089 from holiman/fix_fuzzers
+Merge pull request #23062 from nfeignon/fix-abi-bind-ensure-context
+Merge pull request #23083 from karalabe/docker-fix-experimental
+Merge pull request #23082 from karalabe/docker-flat-publish
+Merge pull request #23078 from karalabe/docker-post-publish
+Merge pull request #23069 from karalabe/docker-multi-arch
+Merge pull request #23061 from karalabe/docker-noarm
+Merge pull request #23060 from karalabe/travis-docker
+Merge pull request #23050 from karalabe/1559-receipt-rpc
+Merge pull request #23051 from karalabe/cht-1.10.4
+Merge pull request #23039 from holiman/basefeepergas
+Merge pull request #23013 from holiman/genesis_fix
+Merge pull request #23027 from karalabe/1559-call
+Merge pull request #23028 from karalabe/1559-rpcgascap
+Merge pull request #22995 from karalabe/enforce-miner-tip
+Merge pull request #22973 from karalabe/the-switch
+Merge pull request #22921 from karalabe/les-simplify-reqids
+Merge pull request #22840 from holiman/eip_3554
+Merge pull request #22857 from karalabe/tracer-stack-fix-2
+Merge pull request #22809 from holiman/alt_3541
+Merge pull request #22803 from karalabe/silence-scary-warning
+Merge pull request #22739 from holiman/remove_code
+Merge pull request #22789 from karalabe/snap-fix-batch
+Merge pull request #22777 from karalabe/snapshots-abort-resume-on-sync
+Merge pull request #22765 from karalabe/revert-eth-hashrate
+Merge pull request #22762 from karalabe/snap-lower-complexity
+Merge pull request #22761 from karalabe/snap-small-packets
+Merge pull request #22753 from karalabe/p2p-tracker-stopfix
+Merge pull request #22751 from holiman/tracker_fix
+Merge pull request #21467 from holiman/minor_ethashfix
+Merge pull request #22686 from holiman/minor_fixes
+Merge pull request #22678 from karalabe/snap-ephemeral-channels
+Merge pull request #22666 from karalabe/remove-stale-datatype
+Merge pull request #22636 from karalabe/drop-eth64
+Merge pull request #22632 from karalabe/cht-1.10.2
+Merge pull request #22629 from karalabe/fix-chain-tracing-from-0
+Merge pull request #22604 from karalabe/hashrate-capitalization-fix
+Merge pull request #22596 from holiman/snap_timelimits
+Merge pull request #22591 from karalabe/snap-detailed-timeout-logs
+Merge pull request #22590 from karalabe/nil-histogram
+Merge pull request #22586 from karalabe/resettting-histogram
+Merge pull request #22581 from karalabe/network-latency-monitoring
+Merge pull request #22573 from holiman/checkfreq
+Merge pull request #22513 from holiman/no_snap_bloom
+Merge pull request #22551 from karalabe/snapshot-parent-get-panic
+Merge pull request #22452 from holiman/testupdate_berlin
+Merge pull request #22426 from ethereum/revert-22413-unship-berlin
+Merge pull request #22414 from karalabe/unship-2315
+Merge pull request #22432 from karalabe/add-hirsute
+Merge pull request #22431 from karalabe/builder-fix-ppa
+Merge pull request #22380 from karalabe/berlin
+Merge pull request #22381 from karalabe/lower-error-log
+Merge pull request #22369 from karalabe/android-bionic-builder
+Merge pull request #22368 from karalabe/ndk-bump
+Merge pull request #22350 from karalabe/disable-preimage-collection
+Merge pull request #22334 from karalabe/fix-snap-cancel
+Merge pull request #22331 from karalabe/enforce-min-snap-difflayers
+Merge pull request #22332 from karalabe/fix-fastsync-restart-bloom-crash
+Merge pull request #22319 from karalabe/fix-defer-leak
+Merge pull request #22293 from karalabe/txunindex-1year
+Merge pull request #22294 from holiman/pruner_compact_fix
+Merge pull request #22291 from karalabe/fix-pruner-compaction
+Merge pull request #22288 from karalabe/1.10.unstable
+Merge pull request #22280 from karalabe/snapshot-default
+Merge pull request #21047 from holiman/improve_updates_2
+Merge pull request #22177 from karalabe/snapshot-storage-logs
+Merge pull request #22169 from karalabe/faucet-regen
+Merge pull request #22157 from karalabe/prque-tests
+Merge pull request #22137 from karalabe/faucet-fb-fix
+Merge pull request #22136 from karalabe/faucet-websocket-fix
+Merge pull request #22122 from karalabe/snapshot-polishes
+Merge pull request #22107 from karalabe/faucet-twitter
+Merge pull request #21890 from ligi/issue_templates
+Merge pull request #21861 from holiman/remove_retesteth
+Merge pull request #21803 from holiman/ethash
+Merge pull request #21804 from karalabe/snapshot-marker-sync
+Merge pull request #21805 from karalabe/travis-drop-1.13
+Merge pull request #21806 from karalabe/deprecate-eoan
+Merge pull request #21787 from karalabe/pod-non-verbose
+Merge pull request #21747 from holiman/yolov2update
+Merge pull request #21745 from holiman/yolov2_bootnodes
+Merge pull request #21635 from karalabe/cht-1.9.22
+Merge pull request #21529 from karalabe/dynamic-pivot
+Merge pull request #21537 from karalabe/les-reorg-fix
+Merge pull request #21534 from karalabe/cht-1.9.21
+Merge pull request #21504 from karalabe/trie-path-sync
+Merge pull request #21491 from karalabe/state-sync-leak-fix
+Merge pull request #21486 from karalabe/cht-1.9.20
+Merge pull request #21483 from karalabe/freezer-truncate-silent
+Merge pull request #21477 from karalabe/snapshotter-shallow-generator
+Merge pull request #21472 from holiman/fix_dltest_fail
+Merge pull request #21466 from karalabe/go1.15
+Merge pull request #21461 from karalabe/ppa-drop-disco
+Merge pull request #21437 from karalabe/cht-1.9.19
+Merge pull request #21434 from karalabe/ethstats-split-rwlock
+Merge pull request #21433 from holiman/statsync_exiter
+Merge pull request #21428 from holiman/ethstats_moar
+Merge pull request #21429 from holiman/timerfix
+Merge pull request #21427 from karalabe/fix-statesync-delivery-time
+Merge pull request #21425 from holiman/leslock
+Merge pull request #21411 from holiman/fix_codelookup
+Merge pull request #21358 from hendrikhofstadt/fix/tx-sort-time
+Merge pull request #21368 from holiman/update_uint256
+Merge pull request #21300 from rjl493456442/txpool-fix-queued-evictions
+Merge pull request #21352 from karalabe/dev-noinit-genesis
+Merge pull request #21336 from karalabe/tiny-ref-optimization
+Merge pull request #21347 from karalabe/ethstats-fixes
+Merge pull request #21256 from karalabe/p2p-packet-metrics
+Merge pull request #21170 from duanhao0814/fix-dup-ecrecover
+Merge pull request #21192 from karalabe/fix-escape-analysis
+Merge pull request #21188 from karalabe/cht-1.9.15
+Merge pull request #21173 from karalabe/faucet-delete-oldaccs
+Merge pull request #21172 from karalabe/faucet-twitter-mobile
+Merge pull request #21162 from karalabe/daofork-order-check-fix
+Merge pull request #21061 from karalabe/cht-1.9.14
+Merge pull request #21056 from karalabe/statedb-simpler-code
+Merge pull request #21036 from karalabe/snapshot-storage-leak
+Merge pull request #21032 from karalabe/skip-announce-goroutine-eth64
+Merge pull request #21028 from karalabe/memfix-32bit-arch
+Merge pull request #21026 from karalabe/disable-highmem-test
+Merge pull request #21023 from karalabe/snapshot-verify-iterator-release
+Merge pull request #21021 from karalabe/tests-snapshot-gen-cleanup
+Merge pull request #21003 from karalabe/snapshot-journal-nilfix
+Merge pull request #20988 from karalabe/catchup-shutdown
+Merge pull request #20953 from holiman/fixdlseek
+Merge pull request #20923 from holiman/fix_seckeybuf
+Merge pull request #20925 from karalabe/cht-1.9.13
+Merge pull request #20835 from holiman/bump
+Merge pull request #20816 from karalabe/disable-gosigar-ios
+Merge pull request #20152 from karalabe/snapshot-5
+Merge pull request #20781 from karalabe/fix-clique-console-apis
+Merge pull request #20779 from meowsbits/patch-3
+Merge pull request #20780 from karalabe/fix-eth-mine-sync-race
+Merge pull request #20747 from karalabe/update-crypto-deps
+Merge pull request #20762 from karalabe/fix-txprop-leak
+Merge pull request #20712 from karalabe/txfetcher-fix-test-randomness
+Merge pull request #20687 from karalabe/cht-1.9.11
+Merge pull request #20678 from karalabe/broadcast-sqrt-proper
+Merge pull request #20681 from karalabe/go1.13.8
+Merge pull request #20234 from rjl493456442/newtxhashes_2
+Merge pull request #20580 from karalabe/cht-1.9.10
+Merge pull request #20579 from karalabe/android-go-1.13.6
+Merge pull request #20578 from karalabe/win-go-1.13.6
+Merge pull request #20570 from karalabe/ppa-focal-go-1.13.6
+Merge pull request #20555 from holiman/cripple_txsize
+Merge pull request #20546 from karalabe/validate-block-broadcast
+Merge pull request #20540 from holiman/verbose_panic
+Merge pull request #20444 from MariusVanDerWijden/patch-4
+Merge pull request #20428 from karalabe/cht-1.9.9
+Merge pull request #20415 from karalabe/trie-dirty-cache-metrics
+Merge pull request #20403 from karalabe/fix-freezer-reinit
+Merge pull request #20385 from etclabscore/fix/version-cmd-networkid
+Merge pull request #20360 from karalabe/ppa-fix-cigo-clean
+Merge pull request #20356 from karalabe/ppa-fix-cigo
+Merge pull request #20350 from holiman/puppeth_ssh
+Merge pull request #20339 from etclabscore/fix/cmd-puppeth-blocknonce-type
+Merge pull request #20338 from etclabscore/feat/statetests-dedupe-walk-refactor
+Merge pull request #20261 from holiman/less_querying
+Merge pull request #20248 from karalabe/cht-1.9.7
+Merge pull request #20231 from SamuelMarks/go1.13.4
+Merge pull request #20225 from karalabe/forkid-eth-handshake-verification-plus
+Merge pull request #20140 from karalabe/eth64-handshake-forkid
+Merge pull request #20204 from holiman/fix_downloader_race
+Merge pull request #20133 from karalabe/measure-subprotocol-traffic
+Merge pull request #20115 from holiman/minor_dashboard_fx
+Merge pull request #20096 from skylenet/remove-ef-legacy-bootnodes
+Merge pull request #20092 from karalabe/vendor-usb-bump
+Merge pull request #20090 from soc1c/s1-testnet-istanbul
+Merge pull request #20091 from karalabe/cht-1.9.4
+Merge pull request #20085 from karalabe/txpool-api-fix
+Merge pull request #20081 from karalabe/txpool-lockless-dedup
+Merge pull request #20075 from holiman/evm_defaults
+Merge pull request #19953 from karalabe/state-accumulate-writes
+Merge pull request #20059 from karalabe/ppa-manual-go
+Merge pull request #20058 from karalabe/go1.13
+Merge pull request #20038 from holiman/minor_encodingfix
+Merge pull request #20047 from karalabe/counter-to-gauge
+Merge pull request #20046 from karalabe/graphql-fix-web-and-decoding
+Merge pull request #20033 from karalabe/docker-expose-graphql
+Merge pull request #19915 from holiman/filltx
+Merge pull request #20019 from holiman/minor_adminfix
+Merge pull request #20004 from karalabe/istanbul-override
+Merge pull request #19993 from karalabe/istanbul-eip-integration
+Merge pull request #19995 from karalabe/ios-notag
+Merge pull request #19992 from karalabe/fix-blake2b-386-2
+Merge pull request #19990 from karalabe/fix-blake2b-386
+Merge pull request #19972 from keep-network/istanbul-eip-152-blake2b-f-precompile
+Merge pull request #19983 from karalabe/private-chain-config
+Merge pull request #19955 from karalabe/deprecate-cosmic
+Merge pull request #19942 from karalabe/cht-1.9.2
+Merge pull request #19902 from karalabe/simulated-close
+Merge pull request #19875 from karalabe/dev-4gb-cache
+Merge pull request #19873 from karalabe/author-1.9.1
+Merge pull request #19872 from karalabe/cht-1.9.1
+Merge pull request #19856 from karalabe/chaindb-property-fix
+Merge pull request #19854 from karalabe/genesis-commit-check
+Merge pull request #19818 from rjl493456442/encap-les
+Merge pull request #19814 from karalabe/ulc-fixup
+Merge pull request #19815 from karalabe/go-1.12.7
+Merge pull request #19810 from karalabe/txpool-noncer
+Merge pull request #19807 from karalabe/cht
+Merge pull request #19784 from karalabe/fix-constantinople-fix
+Merge pull request #19680 from holiman/bootnode_update
+Merge pull request #19700 from karalabe/cleanup-graphql
+Merge pull request #19732 from karalabe/simulated-eip155
+Merge pull request #19731 from holiman/fix_19707
+Merge pull request #19725 from karalabe/goroutine-metrics
+Merge pull request #19701 from holiman/fixles
+Merge pull request #19702 from karalabe/txprop-stricter-limiting
+Merge pull request #19692 from karalabe/metrics-extensions
+Merge pull request #19681 from karalabe/fix-libusb-docker
+Merge pull request #19674 from karalabe/usb-ios-fixup
+Merge pull request #19671 from holiman/usbfix
+Merge pull request #19588 from gballet/trezor-fix-ownlib
+Merge pull request #19630 from karalabe/fix-commit-strings
+Merge pull request #19629 from karalabe/duktape-2.3.0
+Merge pull request #19524 from gballet/scwallet-puk-count
+Merge pull request #19628 from karalabe/nofreeze-genesis
+Merge pull request #19591 from karalabe/64bit-align
+Merge pull request #19244 from karalabe/freezer-2
+Merge pull request #19563 from karalabe/faucet-remove-g+-mention
+Merge pull request #19562 from holiman/fix_tabcrash
+Merge pull request #19550 from ethersphere/swarm-rather-stable
+Merge pull request #19539 from karalabe/faucet-updates
+Merge pull request #19534 from karalabe/downloader-delay-fix
+Merge pull request #19513 from fjl/p2p-discover-split-v4
+Merge pull request #19500 from karalabe/cht-txpool-open-limit
+Merge pull request #19497 from karalabe/peers-50
+Merge pull request #19438 from karalabe/ledger-new-derivation-path
+Merge pull request #18168 from karalabe/trie-better-cache-size-estimation
+Merge pull request #19468 from karalabe/enforce-fastsync-checkpoints
+Merge pull request #19470 from SamuelMarks/go1.12.4
+Merge pull request #19345 from Matthalp/optimize-receipt-storage
+Merge pull request #19426 from karalabe/vendor-fix-freegeoip
+Merge pull request #19423 from SamuelMarks/go1.12.3
+Merge pull request #19403 from zsfelfoldi/remove-les1
+Merge pull request #19411 from holiman/uncle_abort_early
+Merge pull request #19412 from karalabe/rinkeby-petersburg
+Merge pull request #19405 from SamuelMarks/go1.12.2
+Merge pull request #19400 from karalabe/nuke-bug
+Merge pull request #19402 from karalabe/trie-disallow-metaroot-retrieval
+Merge pull request #19399 from karalabe/nuke-monitor
+Merge pull request #18322 from rjl493456442/reomit-log-events
+Merge pull request #19328 from karalabe/preload
+Merge pull request #19374 from karalabe/console-fix-coinbase-printout
+Merge pull request #19369 from karalabe/les-update-chts
+Merge pull request #19348 from LiangMa/overflowPR
+Merge pull request #19351 from karalabe/txpool-precache-signatures
+Merge pull request #19343 from karalabe/trie-metrics-split
+Merge pull request #19344 from karalabe/eth-remove-redundant-chainconfig
+Merge pull request #19308 from holiman/fix_reset_txpool
+Merge pull request #19331 from karalabe/fix-trie-metrics
+Merge pull request #19327 from karalabe/fix-expensive-metrics
+Merge pull request #19288 from karalabe/les-verbose-errors
+Merge pull request #19269 from holiman/alt_18957
+Merge pull request #19261 from karalabe/less-blocks
+Merge pull request #19259 from ligi/address_19246
+Merge pull request #19252 from karalabe/badgerdb
+Merge pull request #19232 from karalabe/dl-fix-local-drop-sync
+Merge pull request #19021 from karalabe/database-cleanup
+Merge pull request #19222 from karalabe/clique-fix-test
+Merge pull request #19205 from holiman/alltools_clef
+Merge pull request #19187 from karalabe/fix-ppa-go1.11-cache-2
+Merge pull request #19184 from karalabe/fix-ppa-go1.11-cache
+Merge pull request #19183 from karalabe/bn256-arm64-go1.12-fix
+Merge pull request #19182 from karalabe/fix-legacy-receipt-decoding
+Merge pull request #19166 from SamuelMarks/go-1.12
+Merge pull request #19164 from karalabe/nuke-old-containers
+Merge pull request #19169 from karalabe/ppa-bump
+Merge pull request #19114 from holiman/update_bigcache
+Merge pull request #19087 from karalabe/ios-fix-take-2
+Merge pull request #19072 from karalabe/update-syscalls
+Merge pull request #18988 from holiman/repro18977
+Merge pull request #19012 from holiman/default155
+Merge pull request #18991 from karalabe/archive-write-cache
+Merge pull request #16619 from kielbarry/contractsgolint
+Merge pull request #19005 from karalabe/puppeth-fix-petersburg
+Merge pull request #18121 from karalabe/goerli
+Merge pull request #18436 from karalabe/chainmu-dedup
+Merge pull request #18454 from karalabe/postpone-constantinople
+Merge pull request #18371 from jeremyschlatter/patch-1
+Merge pull request #18390 from realdave/remove-sha3-pkg
+Merge pull request #18281 from karalabe/puppeth-faucet
+Merge pull request #18271 from karalabe/1.8.20-chts
+Merge pull request #18028 from ryanschneider/blockhash-whitelist
+Merge pull request #18269 from Quasilyte/patch-1
+Merge pull request #17914 from holiman/block_analysis
+Merge pull request #18268 from karalabe/forkit
+Merge pull request #18211 from karalabe/drop-fd-limit
+Merge pull request #18172 from holiman/puppeth_converter
+Merge pull request #18235 from karalabe/puppeth-enforce-lowercase
+Merge pull request #18196 from karalabe/downloader-cht-fix
+Merge pull request #18197 from karalabe/v1.8.19-chts
+Merge pull request #18179 from holiman/fix_tests
+Merge pull request #17973 from holiman/splitter2
+Merge pull request #18085 from holiman/downloader_span
+Merge pull request #18087 from karalabe/trie-read-cacher
+Merge pull request #18097 from karalabe/update-chts-2
+Merge pull request #17982 from holiman/polish_contantinople_extcodehash
+Merge pull request #17887 from karalabe/warn-failed-account-access
+Merge pull request #17839 from karalabe/downloader-invalid-hash-chain-fix
+Merge pull request #17843 from karalabe/ropsten-block-and-chts
+Merge pull request #17801 from eosclassicteam/patch-1
+Merge pull request #17796 from epiclabs-io/mru-feeds
+Merge pull request #17771 from ethersphere/cmd-config-errors
+Merge pull request #17799 from ethersphere/correct_swarm_version
+Merge pull request #17800 from ethersphere/disable_cmd_swarm_tests_on_win
+Merge pull request #17781 from ethersphere/trim_newline
+Merge branch 'master' into cmd-config-errors
+Merge pull request #17747 from ethersphere/max-stream-peer-servers
+Merge branch 'master' into max-stream-peer-servers
+Merge pull request #17755 from JekaMas/implement-home-directory-expansion
+Merge pull request #17757 from ethersphere/retrieve-request-ttl-pr
+Merge pull request #17734 from frncmx/fix-dos-attack-invalid-hash-length
+Merge branch 'master' into max-stream-peer-servers
+Merge pull request #17732 from karalabe/faucet-caching
+Merge pull request #17383 from holiman/eip1283
+Merge pull request #17730 from karalabe/revert-go1.10-ppa
+Merge pull request #17726 from karalabe/go-1.11-ppa-fix
+Merge pull request #17719 from karalabe/update-chts
+Merge pull request #17718 from karalabe/chain-age-logs
+Merge pull request #17701 from karalabe/go-1.11
+Merge pull request #17675 from holiman/eip1234
+Merge pull request #17622 from karalabe/chain-maker-seal
+Merge pull request #17674 from eosclassicteam/discord
+Merge pull request #17652 from YaoZengzeng/file-permission
+Merge pull request #17651 from ethersphere/wet-run-bug
+Merge pull request #17620 from karalabe/clique-epoch-fix
+Merge pull request #17540 from karalabe/miner-uncle-fix
+Merge pull request #17546 from karalabe/miner-max-limit
+Merge pull request #17494 from karalabe/mined-block-uncle-check
+Merge pull request #17492 from karalabe/eth-miner-threads-defaults
+Merge pull request #17472 from karalabe/txpool-locals
+Merge pull request #17466 from karalabe/rinkeby-light-snapshots
+Merge pull request #17451 from karalabe/bn256-relicense
+Merge pull request #17460 from holiman/tracerfix
+Merge pull request #17437 from hackmod/console-typo
+Merge pull request #17430 from karalabe/miner-notify-less-aggressive-test
+Merge pull request #17426 from karalabe/miner-fees-log-fix
+Merge pull request #17368 from karalabe/bn256-go1.11
+Merge pull request #17405 from karalabe/miner-remote-dag
+Merge pull request #17416 from karalabe/miner-details
+Merge pull request #17412 from karalabe/puppeth-fix-dial-panic
+Merge pull request #17402 from karalabe/deprecate-flags
+Merge pull request #17347 from karalabe/miner-notify
+Merge pull request #17357 from karalabe/tracer-trie-deref-bug
+Merge pull request #16333 from shazow/addremovetrustedpeer
+Merge pull request #17318 from ligi/fix_punctuation
+Merge pull request #17311 from karalabe/puppeth-graceful-stop
+Merge pull request #17310 from karalabe/mobile-nil-panic
+Merge pull request #17301 from karalabe/tests-enable-constantinople
+Merge pull request #17302 from karalabe/revert-evm-nil-panic
+Merge pull request #17282 from karalabe/trie-flushlist-fixes
+Merge netsim mig to master (#17241)
+Merge pull request #17281 from karalabe/puppeth-cachewarn-fix
+Merge pull request #17279 from karalabe/puppeth-banlist-fix
+Merge pull request #17245 from karalabe/azure-deps-fixups
+Merge pull request #17251 from karalabe/ppa-deprecate-artful
+Merge pull request #17252 from karalabe/travis-debsrc-fix
+Merge pull request #17250 from karalabe/fix-clean
+Merge pull request #17244 from chainpunk/master
+Merge pull request #17233 from ethersphere/swarm-readme
+Merge pull request #17206 from hadv/master
+Merge pull request #16734 from reductionista/eip234
+Merge pull request #17231 from ethersphere/develop
+Merge pull request #17111 from karalabe/trie-memleak
+Merge pull request #17092 from pilu/master
+Merge pull request #17087 from OpenCommunityCoin/build/portable-shell
+Merge pull request #17054 from chfast/log-time-format
+Merge pull request #17041 from ethersphere/swarm-network-rewrite-merge
+Merge pull request #16954 from holiman/more_tracers
+Merge pull request #16977 from karalabe/go-1.10.3
+Merge pull request #16958 from karalabe/pending-account-fast
+Merge pull request #16959 from karalabe/fix-linters
+Merge pull request #16945 from karalabe/triedb-spurious-warning
+Merge pull request #16942 from karalabe/rpc-nil-reply
+Merge pull request #16882 from karalabe/streaming-ecrecover
+Merge pull request #16894 from hadv/master
+Merge pull request #16800 from rjl493456442/memory_allowance_warining
+Merge pull request #16880 from holiman/http_timeouts
+Merge pull request #16843 from karalabe/txpool-fix-deadlock
+Merge pull request #16831 from abeln/patch-1
+Merge pull request #16803 from karalabe/trie-avoid-funccall
+Merge pull request #16722 from karalabe/trie-iterator-proofs
+Merge pull request #16769 from karalabe/async-broadcasts
+Merge pull request #16758 from hadv/fix/typos
+Merge pull request #16720 from rjl493456442/PreTxsEvent
+Merge pull request #16753 from karalabe/go-1.10.2
+Merge pull request #16739 from karalabe/android-trusty
+Merge pull request #16644 from ligi/reduce_aar_size
+Merge pull request #16569 from holiman/evm_blocknum
+Merge pull request #16576 from CrispinFlowerday/bugfix/local_underpriced_txs
+Merge pull request #16630 from tstranex/master
+Merge pull request #16636 from reductionista/travis
+Merge pull request #16588 from karalabe/tracer-dirty-fix
+Merge pull request #16552 from karalabe/revert-docker-user
+Merge pull request #16551 from ethereum/revert-16477-puppeth-dockerfile-permission-fix
+Merge pull request #16550 from ethereum/revert-16478-fix-alltools-dockerfile
+Merge pull request #16494 from karalabe/txpool-stable-pricedelete
+Merge pull request #16491 from holiman/fix_copy_again
+Merge pull request #16485 from holiman/fixcopycopy
+Merge pull request #16481 from karalabe/go1.10.1
+Merge pull request #16478 from karalabe/fix-alltools-dockerfile
+Merge pull request #16477 from karalabe/puppeth-dockerfile-permission-fix
+Merge pull request #15225 from holiman/test_removefrom_dirtyset
+Merge pull request #16394 from hydai/fix_typo
+Merge pull request #16388 from hydai/fix_comments
+Merge pull request #16319 from rjl493456442/dump_preimages
+Merge pull request #16387 from karalabe/evm-polsihes
+Merge pull request #16256 from epiclabs-io/unpack_one_arg_event
+Merge pull request #15990 from markya0616/sim_backend_block_hash
+Merge pull request #16315 from karalabe/drop-vagrant
+Merge pull request #16310 from karalabe/websocket-request-limits
+Merge pull request #16287 from razum2um/master
+Merge pull request #16289 from jeffwalsh/remove-add-std-arg
+Merge pull request #16128 from karalabe/go1.10
+Merge pull request #16285 from karalabe/fix-resend-optional-param
+Merge pull request #16275 from karalabe/bump-duktape
+Merge pull request #16240 from cuiweixie/txpool
+Merge pull request #16229 from karalabe/evm-call-fix
+Merge pull request #16250 from gluk256/317-fatalf
+Merge pull request #16245 from gluk256/311-close-channel
+Merge pull request #16231 from gluk256/303-reader
+Merge pull request #16228 from karalabe/faucet-background-skip
+Merge pull request #16223 from gluk256/300-msg-serialiation
+Merge pull request #16210 from gluk256/288-filter-optimization
+Merge pull request #16214 from b00ris/whisperv6_datarace
+Merge pull request #16206 from gluk256/277-mailserver
+Merge pull request #16217 from karalabe/rpc-receipt-fetch-fix
+Merge pull request #16207 from karalabe/drop-go1.7
+Merge pull request #16198 from gluk256/266-wnode
+Merge pull request #16176 from gluk256/255-refactoring
+Merge pull request #16172 from gluk256/244-light-client
+Merge pull request #16146 from status-im/pombeirp/whisperv6-peer-race-cond-fix
+Merge pull request #16164 from karalabe/les-receipt-fix-optimal
+Merge pull request #15748 from janos/multiple-ens-endpoints
+swarm, cmd/swarm: Merge branch 'master' into multiple-ens-endpoints
+Merge pull request #16166 from karalabe/drop-dead
+Merge pull request #15919 from ethersphere/p2p-protocols-pr
+swarm, cmd/swarm: Merge branch 'master' into multiple-ens-endpoints
+Merge pull request #16165 from karalabe/faucet-twitter-api
+Merge pull request #16157 from nileshtrivedi/master
+Merge pull request #15776 from ProChain/master
+Merge pull request #15770 from holiman/abi_nostruct
+Merge pull request #16142 from karalabe/graceful-sigterm
+Merge pull request #16115 from nonsense/update_rjeczalik_notify
+Merge pull request #16109 from karalabe/p2p-bond-check
+Merge pull request #16095 from karalabe/les-lock
+Merge pull request #16098 from holiman/fix_import
+Merge pull request #16085 from karalabe/p2p-fix-outofbounds
+Merge pull request #16073 from karalabe/puppeth-unify-discovery
+Merge pull request #16071 from holiman/lintfix
+Merge pull request #16068 from karalabe/import-known-rolledback-blocks
+Merge pull request #16063 from karalabe/deprecate-ubuntu-zesty
+Merge pull request #16062 from karalabe/nodisable-fastsync
+Merge pull request #16061 from karalabe/downloader-nostate-ancestor-lookup
+Merge pull request #16037 from karalabe/light-startup-polishes
+Merge pull request #16022 from gballet/whisper-v6-investigate-macos-timeout
+Merge pull request #16020 from evertonfraga/patch-1
+Merge pull request #16009 from holiman/db_handles
+Merge pull request #16011 from karalabe/fix-bootnode-gofmt
+Merge pull request #15996 from karalabe/drop-redundant-methods
+Merge pull request #15997 from karalabe/batch-reset-size
+Merge pull request #15832 from karalabe/abigen-events
+Merge pull request #15948 from holiman/addr_v5_bootnode
+Merge pull request #15941 from karalabe/fix-header-reorg-order
+Merge pull request #15902 from shapeshed/patch-2
+Merge pull request #15869 from Magicking/ethstats-reporting-fix
+Merge pull request #15863 from karalabe/light-miner-error
+Merge pull request #15466 from karalabe/uint64-gas-limit
+Merge pull request #15731 from holiman/revamp_abi
+Merge pull request #15730 from karalabe/puppeth-expose-faucet-http
+Merge pull request #15285 from yondonfu/abi-offset-fixed-arrays
+Merge pull request #15729 from karalabe/faucet-fix-twitter
+Merge pull request #15727 from karalabe/rinkeby-akasha-bootnode
+Merge pull request #15693 from zsfelfoldi/wait_nopeers
+Merge branch 'master' into abi-offset-fixed-arrays
+Merge pull request #15674 from chfast/vm-no-snapshot-param
+Merge pull request #15698 from original-brownbear/15668
+Merge pull request #15696 from ferhatelmas/p2p-goroutine-leak
+Merge pull request #15686 from sorin/sorin-geth-attach-rinkeby
+Merge pull request #15679 from shapeshed/patch-1
+cmd/swarm: Merge branch 'master' into multiple-ens-endpoints
+Merge pull request #15629 from holiman/relax_futuretime
+swarm, cmd/swarm: Merge branch 'master' into multiple-ens-endpoints
+Merge pull request #15577 from karalabe/common-hexconvert-singlebyte
+Merge pull request #15557 from MaximilianMeister/bootnodes-toml
+Merge pull request #15549 from karalabe/statedb-copy
+Merge pull request #15329 from holisticode/exact-match-fix
+Merge pull request #15498 from nonsense/account_cache_modtime_test_fix
+Merge pull request #15552 from karalabe/javascript-tracers-nowrap
+Merge pull request #15390 from karalabe/puppeth-devcon3
+Merge pull request #15538 from zoenolan/patch-1
+Merge pull request #15521 from rjl493456442/clean_tx_journal
+Merge pull request #15527 from holiman/bump_watch
+Merge pull request #15526 from karalabe/accounts-new
+Merge pull request #15509 from tbm/typo
+Merge pull request #15506 from tsarpaul/master
+Merge pull request #15505 from karalabe/fix-rpc-pr
+Merge pull request #15496 from karalabe/rpc-get-healthcheck
+Merge pull request #15489 from karalabe/bloombits-shifted-start
+Merge pull request #14582 from holiman/jumpdest_improv
+Merge pull request #15470 from karalabe/clique-sametd-splitter
+Merge pull request #15479 from guoger/patch-1
+Merge pull request #15467 from karalabe/docker-alltools
+Merge pull request #15457 from robert-zaremba/testify
+Merge pull request #15464 from karalabe/docker-fix
+Merge pull request #15450 from karalabe/lint-gofmt-misspell
+Merge pull request #15448 from karalabe/android-build-fix
+Merge pull request #15398 from ferhatelmas/core-swarm-typo
+Merge pull request #15389 from mcdee/rlpdump
+Merge pull request #15343 from karalabe/txpool-replacement-propagation
+Merge pull request #15344 from karalabe/ubuntu=artful
+Merge pull request #15313 from karalabe/puppeth-nongithub-faucet
+Merge pull request #15298 from karalabe/stack-then-readonly
+Merge pull request #15288 from karalabe/trie-hash-benchmark
+Merge pull request #15275 from mcdee/master
+Merge pull request #15287 from ernestodeltoro/typo_thoretical
+Merge pull request #15269 from karalabe/puppeth-dumb-ip-filtering
+Merge pull request #15280 from terasum/master
+Merge pull request #14785 from Arachnid/downloaddb
+Merge pull request #15241 from karalabe/puppeth-fork-management
+Merge pull request #15248 from karalabe/update-liner
+Merge pull request #15232 from karalabe/macos-usbhw-fixes
+Merge pull request #15030 from rjl493456442/expose_vm_failed
+Merge pull request #15224 from karalabe/byzantium-block-numbers
+Merge pull request #15042 from rjl493456442/receipt_rpc
+Merge pull request #15208 from ayeowch/fix-typo
+Merge pull request #15181 from fjl/state-revert-log-index
+Merge pull request #15147 from karalabe/enable-byzantium-ropsten
+Merge pull request #15146 from karalabe/byzantium-rebrand
+Merge pull request #15141 from karalabe/rinkeby-infura-bootnode
+Merge pull request #15138 from karalabe/statesync-peer-drops
+Merge pull request #15137 from karalabe/puppeth-keywords
+Merge pull request #15129 from zsfelfoldi/cht1040
+Merge pull request #14973 from rjl493456442/fix_downloader
+Merge pull request #15124 from fjl/debug-gcpercent
+Merge pull request #15103 from karalabe/disable-fastsync-postpivot
+Merge pull request #14631 from zsfelfoldi/bloombits2
+Merge pull request #15095 from karalabe/txpool-avoid-deep-reorg
+Merge pull request #15094 from karalabe/eth-auto-maxpeers
+Merge pull request #15092 from karalabe/puppeth-main-docker-images
+Merge pull request #15085 from karalabe/txpool-immutable
+Merge pull request #15089 from karalabe/docker-multistage
+Merge pull request #15047 from holiman/ecmul_benchmarks
+Merge pull request #15054 from karalabe/go-1.9
+Merge pull request #15039 from karalabe/metropolis-contract-clash
+Merge pull request #15028 from karalabe/metropolis-iceage
+Merge pull request #15033 from fjl/core-receipt-status-bytes
+Merge pull request #15029 from karalabe/rlp-raw-decode
+Merge pull request #15014 from rjl493456442/metropolis-eip658
+Merge pull request #15000 from fjl/node-flock
+Merge pull request #15018 from Bo-Ye/master
+Merge pull request #15022 from karalabe/enable-byzantium-state-tests
+Merge pull request #15017 from karalabe/usbhid-macos-thread-fix
+Merge pull request #14983 from karalabe/metropolis-revert
+Merge pull request #15016 from gurrpi/patch-1
+Merge pull request #14996 from markya0616/send_not_announce
+Merge pull request #14999 from karalabe/puppeth-ethstats-blacklist
+Merge pull request #14993 from karalabe/bn256-precompile-fixes
+Merge pull request #14981 from karalabe/metropolis-returndata
+Merge pull request #14978 from karalabe/metropolis-staticcall
+Merge pull request #14959 from karalabe/metropolis-precompiles
+Merge pull request #14951 from egonelbre/megacheck_swarm
+Merge pull request #14885 from karalabe/trezor-boom
+Merge pull request #14964 from fjl/tests-update-2
+Merge pull request #14522 from ethereum/go-ethereum/chainproc2
+Merge pull request #14940 from karalabe/txpool-races
+Merge pull request #14933 from egonelbre/megacheck_eth
+Merge pull request #14928 from fjl/build-goroot-explain
+Merge pull request #14927 from karalabe/blockchain-test-cleanups
+Merge pull request #14914 from egonelbre/megacheck_consensus
+Merge pull request #14922 from egonelbre/megacheck_miner
+Merge pull request #14923 from egonelbre/megacheck_node
+Merge pull request #14918 from egonelbre/megacheck_ethstats
+Merge pull request #14921 from egonelbre/megacheck_log
+Merge pull request #14915 from egonelbre/megacheck_console
+Merge pull request #14913 from egonelbre/megacheck_common
+Merge pull request #14911 from karalabe/txpool-flaky-test
+Merge pull request #14910 from karalabe/drop-yakkety-support
+Merge pull request #14905 from armellini13/patch-1
+Merge pull request #14897 from karalabe/cardinal-sin
+Merge pull request #14898 from detailyang/patch-1
+Merge pull request #14889 from karalabe/ethash-cache-on-import
+Merge pull request #14882 from am2rican5/rinkeby-genesis
+Merge pull request #14858 from xmikus01/patch-1
+Merge pull request #14859 from cdetrio/evm-flag-gasprice
+Merge pull request #14824 from karalabe/faucet-ignore-whitespace
+Merge pull request #14823 from karalabe/puppeth-limited-logging
+Merge pull request #14807 from Dexaran/master
+Merge pull request #14733 from karalabe/metro-eip100
+Merge pull request #14792 from karalabe/slim-docker-image
+Merge pull request #14737 from holiman/txpool_localaccounts
+Merge pull request #14723 from Arachnid/downloadrefactor
+Merge pull request #14749 from karalabe/disable-metro-allprotocols
+Merge pull request #14732 from ethersphere/swarm-remove-ethapi
+Merge pull request #14646 from ethersphere/swarm-ens-api
+Merge pull request #14727 from holiman/count_txs_right
+Merge pull request #14718 from holiman/gascalc_fix
+Merge pull request #14686 from fjl/hexutil-json-type-error
+Merge pull request #14690 from karalabe/faucet-key-reuse
+Merge pull request #14540 from bas-vk/whisper-api
+Merge pull request #14687 from markya0616/unused_events
+Merge pull request #14697 from homotopycolimit/master
+Merge pull request #14596 from markya0616/valid_clique_vote
+Merge pull request #14685 from karalabe/ethdb-metrics-fail-fix
+Merge pull request #14681 from fjl/build-fixup
+Merge pull request #14673 from holiman/txfix
+Merge pull request #14677 from karalabe/miner-cli-gasprice
+Merge pull request #14657 from markya0616/refactor_clique
+Merge pull request #14667 from fjl/swarm-fuse-cleanup
+Merge pull request #14635 from necaremus/patch-1
+Merge pull request #14581 from holiman/byte_opt
+Merge pull request #14604 from bas-vk/mobile-getfrom
+Merge pull request #14598 from konradkonrad/fix_makedag
+Merge pull request #14583 from ethersphere/core-log-fixes
+Merge pull request #14570 from Arachnid/jumpdestanalysis
+Merge pull request #14565 from karalabe/relax-privkey-checks
+Merge pull request #14561 from karalabe/txpool-perf-fix
+Merge pull request #14563 from karalabe/ethstats-reduce-traffic-2
+Merge pull request #14564 from karalabe/fix-1.6-docker
+Merge pull request #14516 from holiman/noncefixes
+Merge pull request #14553 from karalabe/puppeth-key-check
+Merge pull request #14547 from karalabe/txpool-gas-decrease
+Merge pull request #14545 from karalabe/clique-cache-signatures
+Merge pull request #14548 from karalabe/ethstats-no-txs
+Merge pull request #14523 from karalabe/txpool-cli-flags
+Merge pull request #14539 from karalabe/txpool-inspec-nonces
+Merge pull request #14537 from karalabe/setgasprice-durning-nomine
+Merge pull request #14524 from karalabe/noimport-during-fastsync
+Merge pull request #14517 from Ali92hm/master
+Merge pull request #14514 from karalabe/go1.8.3
+Merge pull request #14515 from karalabe/golint-tooooolong
+Merge pull request #14446 from bas-vk/cli-help
+Merge pull request #14513 from obscuren/allocate-stack
+Merge pull request #14502 from karalabe/mobile-import-ecdsa
+Merge pull request #14336 from obscuren/metropolis-preparation
+Merge pull request #14507 from karalabe/faucet-misspell
+Merge pull request #14504 from bas-vk/wallet-import
+Merge pull request #14501 from sqli-nantes/master
+Merge pull request #14454 from karalabe/mobile-surface-txrlp
+Merge pull request #14452 from karalabe/dual-bootnodes
+Merge pull request #14441 from karalabe/receipt-data-regression
+Merge pull request #14427 from zsfelfoldi/compress
+Merge pull request #14440 from karalabe/cocoapods-confirm-fix
+Merge pull request #14423 from karalabe/bitutil
+Merge pull request #14418 from karalabe/rinkeby-flag
+Merge pull request #14413 from bas-vk/cli-chain-mngt
+Merge pull request #14402 from karalabe/tiered-faucet
+Merge pull request #14414 from gluk256/77_release
+Merge pull request #14412 from karalabe/init-both-chains
+Merge pull request #14411 from karalabe/clique-double-sign
+Merge pull request #13885 from bas-vk/rpc_generic_pubsub
+Merge pull request #14407 from karalabe/ethash-generation-race
+Merge pull request #14406 from karalabe/downloader-sensitive-code
+Merge pull request #14403 from fjl/console-number
+Merge pull request #14399 from bas-vk/rpc-cors
+Merge pull request #14388 from bas-vk/cli-account-mngt
+Merge pull request #14379 from farazdagi/fix/deadlock-in-node-wait
+Merge pull request #14377 from karalabe/unify-network-ids
+Merge pull request #14350 from fjl/trie-iterator-skip-2
+Merge pull request #14372 from bas-vk/bootnodegenkey
+Merge pull request #14364 from fjl/core-remove-split-stat-ty
+Merge pull request #14339 from karalabe/faucet-block-banned-users
+Merge pull request #14357 from karalabe/nousb-flag
+Merge pull request #14358 from karalabe/wrong-genesis-description
+Merge pull request #13886 from bas-vk/rpc_blocknum_parse
+Merge remote-tracking branch 'fjl/license-update-1.6'
+Merge pull request #14327 from karalabe/flag-group-fixes
+Merge pull request #3786 from fjl/compiler-metadata
+Merge pull request #14326 from karalabe/launchpad-go-1.8
+Merge pull request #14323 from fjl/ethash-verify-headers-fix
+Merge pull request #14320 from karalabe/rlpdump-single-flag
+Merge pull request #14322 from karalabe/puppeth-new-configs
+Merge pull request #14311 from Arachnid/tracing
+Merge pull request #13883 from karalabe/boardcast-sync-head
+Merge pull request #13881 from karalabe/go-1.8.1
+Merge pull request #13880 from karalabe/remote-miner-fix
+Merge pull request #13870 from karalabe/miners-fixes
+Merge pull request #13856 from karalabe/ethstats-sanity-checks
+Merge pull request #13851 from karalabe/ethstats-url-scheme-discovery
+Merge pull request #13516 from fjl/core-marshal-non-pointer
+Merge pull request #3801 from karalabe/ledger-linux-confirm
+Merge pull request #3820 from fjl/core-types-eip155-chainid-mul
+Merge pull request #3813 from fjl/build-fixes-2
+Merge pull request #3794 from fjl/core-genesis-refactor
+Merge pull request #3795 from fjl/pow-fix-test-mode
+Merge pull request #3809 from fjl/all-use-normal-context
+Merge pull request #3808 from fjl/build-go-1.7
+Merge pull request #3756 from fjl/core-types-gencodec
+Merge pull request #3802 from karalabe/cocoapods-stable
+Merge pull request #3800 from karalabe/ethstats-genesis-fixes
+Merge pull request #3779 from zsfelfoldi/cht-update
+Merge pull request #3755 from ligi/mobile_fix_typo
+Merge pull request #3739 from karalabe/logger-updates-4
+Merge pull request #3738 from karalabe/impossible-reorg-warning
+Merge pull request #3741 from karalabe/fix-makefile-xgo
+Merge pull request #3735 from karalabe/bundle-bootnode
+Merge pull request #3727 from karalabe/travis-mips
+Merge pull request #3722 from fjl/hexutil-text-unmarshal
+Merge pull request #3728 from obscuren/format-trace
+Merge pull request #3725 from karalabe/kill-it-with-fire
+Merge pull request #3723 from karalabe/logger-updates-2
+Merge pull request #3721 from karalabe/drop-legacy-db-updates
+Merge pull request #3709 from fjl/p2p-context-log
+Merge pull request #3718 from karalabe/terminal-format-hash
+Merge pull request #3717 from tranvictor/master
+Merge pull request #3708 from fjl/log-letter
+Merge pull request #3711 from karalabe/update-downloader-logs
+Merge pull request #3715 from karalabe/update-hid-library
+Merge pull request #3705 from karalabe/drop-legacy-commands
+Merge pull request #3696 from karalabe/contextual-logger
+Merge pull request #3698 from karalabe/govet-latest-only
+Merge pull request #3682 from karalabe/update-go1.8
+Merge pull request #3681 from karalabe/usb-hidapi
+Merge pull request #3683 from karalabe/swarm-go1.8-vet-fix
+Merge pull request #3679 from fjl/vendor-govendor
+Merge pull request #3674 from obscuren/gaz64
+Merge pull request #3671 from karalabe/1.5.9-stable
+Merge pull request #3670 from karalabe/docker-usb-fix
+Merge pull request #3649 from ethersphere/swarm-sigterm-fix
+Merge pull request #3668 from obscuren/revert-gas64
+Merge pull request #3592 from karalabe/hw-wallets
+Merge pull request #3662 from karalabe/travis-linux-android
+Merge pull request #3648 from bas-vk/abigen
+Merge pull request #3641 from karalabe/events-init-once
+Merge pull request #3635 from holiman/hive_fixes
+Merge pull request #3605 from fjl/event-feed
+Merge pull request #3607 from zsfelfoldi/light-fix2
+Merge pull request #3615 from nolash/bzzpathfix_real5
+Merge pull request #3624 from kaneshin/patch-01
+Merge pull request #3623 from kaneshin/patch-1
+Merge pull request #3599 from karalabe/docker-alpine-cacerts
+Merge pull request #3584 from obscuren/dead-code
+Merge pull request #3579 from bas-vk/natspec
+Merge pull request #3581 from karalabe/accounts-polish
+Merge pull request #3570 from fjl/hexutil-zero-fix
+Merge pull request #3560 from karalabe/ci-misspell
+Merge pull request #3555 from obscuren/unskip-test
+Merge pull request #3553 from bas-vk/rm-olympic-support
+Merge pull request #3551 from fjl/core-import-log-align
+Merge pull request #3546 from fjl/deps-update
+Merge pull request #3548 from fjl/geth-fix-bootnodes
+Merge pull request #3535 from fjl/all-ineffassign
+Merge pull request #3538 from karalabe/cycle-1.5.7
+Merge pull request #3537 from karalabe/release-1.5.6
+Merge pull request #3519 from zsfelfoldi/light-topic5
+Merge pull request #3534 from bas-vk/writemipmaprace
+Merge pull request #3529 from fjl/console-error-fix
+Merge pull request #3533 from karalabe/modum-io-develop-2
+Merge pull request #3526 from karalabe/misspell
+Merge pull request #3525 from fjl/all-gosimple-cleanup
+Merge pull request #3524 from karalabe/mobile-signwith-swift-fixup
+Merge pull request #3516 from fjl/types-drop-sign-ecdsa
+Merge pull request #3518 from fjl/ethclient-dependency-cleanup
+Merge pull request #3517 from karalabe/empty-ios-prefix
+Merge pull request #3417 from karalabe/mobile-polishes
+Merge pull request #3515 from bas-vk/exportropsten
+Merge pull request #3511 from karalabe/live-fakepow
+Merge pull request #3505 from bas-vk/txinblock
+Merge pull request #3486 from bas-vk/txbyhash
+Merge pull request #3490 from karalabe/fix-miner-api
+Merge pull request #3475 from fjl/rpc-hex-improvements
+Merge pull request #3479 from karalabe/android-ropsten-dao
+Merge pull request #3403 from VoR0220/fixedPointsAbi
+Merge pull request #3454 from karalabe/allow-zeroprice-tx
+Merge pull request #3453 from fjl/api-sign-recover-hex
+Merge pull request #3445 from karalabe/govet-ip-signal
+Merge pull request #3442 from karalabe/discv5-fix-ip-comparison
+Merge pull request #3433 from karalabe/badblock-order-fix
+Merge pull request #3441 from karalabe/begin-1.5.6-cycle
+Merge pull request #3440 from karalabe/release-1.5.5
+Merge pull request #3430 from karalabe/miner-pending-race
+Merge pull request #3421 from ethersphere/s/swarm-cmd
+Merge pull request #3439 from karalabe/drop-deprecated-wily
+Merge pull request #3429 from bas-vk/txpool-crash
+Merge pull request #3427 from Arachnid/gzipdump
+Merge pull request #3437 from karalabe/update-ci-go1.7.4
+Merge pull request #3434 from karalabe/drop-legacy-android
+Merge pull request #3431 from karalabe/miner-race-fixes
+Merge pull request #3413 from zsfelfoldi/light-topic4
+Merge pull request #3425 from karalabe/netstats-time-fixup
+Merge pull request #3402 from fjl/ethclient-api-fixes
+Merge pull request #3390 from bas-vk/statsd-stop
+Merge pull request #3373 from karalabe/ethstats-block-fields
+Merge pull request #3368 from bas-vk/sha3
+Merge pull request #3376 from karalabe/drop-dao-flags
+Merge pull request #3370 from karalabe/ethstats-block-fields
+Merge pull request #3355 from fjl/hexutil-2
+Merge pull request #3362 from karalabe/cocoapods-fix-3000
+Merge pull request #3356 from fjl/accounts-no-watch-on-windows
+Merge pull request #3352 from fjl/build-git-tag
+Merge pull request #3325 from fjl/p2p-netrestrict
+Merge pull request #3346 from obscuren/registrar-removal
+Merge pull request #3345 from karalabe/cleanup-mobile-crossbuilds
+Merge pull request #3341 from obscuren/touch-delete-fix
+Merge pull request #3338 from karalabe/miner-driveby-cleanup
+Merge pull request #3337 from karalabe/core-driveby-cleanup
+Merge pull request #3317 from fjl/build-unstable-simplify
+Merge pull request #3327 from karalabe/cocoapods-version-round2
+Merge pull request #3278 from obscuren/version-1-5-1
+Merge pull request #3280 from fjl/fix-go15
+Merge pull request #3275 from obscuren/les-print-fix
+Merge pull request #3271 from Arachnid/dockerfiles
+Merge pull request #3270 from fjl/version-1.5.1
+Merge pull request #3260 from obscuren/version-1-5-1
+Merge pull request #3259 from obscuren/version-1-5-0
+Merge pull request #3268 from fjl/build-master-unstable
+Merge pull request #3266 from fjl/travis-ppa-live
+Merge pull request #3263 from karalabe/travis-cocoapods-gpg2
+Merge pull request #3262 from karalabe/travis-cocoapods-gpg2
+Merge pull request #3258 from karalabe/unfuckup-travis
+Merge pull request #2977 from karalabe/initial-mobile-suport
+Merge pull request #3253 from zsfelfoldi/light-topic3
+Merge pull request #3179 from obscuren/eip-158
+Merge pull request #3248 from zsfelfoldi/light-topic3
+Merge pull request #3247 from fjl/bzzd
+Merge pull request #3244 from karalabe/reinstate-cache
+Merge pull request #3232 from zsfelfoldi/light-topic3
+Merge pull request #3241 from karalabe/fix-pgp-signer
+Merge pull request #3239 from karalabe/fix-windows-separators
+Merge pull request #3231 from fjl/liner-update
+Merge pull request #3238 from karalabe/appveyor-azure-push
+Merge pull request #3226 from karalabe/azure-gethstore
+Merge pull request #3225 from kenji-isuntv/develop
+Merge pull request #3216 from karalabe/fastsync-bigdb-tuning
+Merge pull request #3218 from kenji-isuntv/develop
+Merge pull request #3064 from pirapira/limit_struct_logs
+Merge pull request #3215 from fjl/weird-files
+Merge pull request #3195 from karalabe/fix-testnet-fastsync
+Merge pull request #3189 from fjl/leveldb-update
+Merge pull request #3185 from karalabe/fix-log-race
+Merge pull request #3184 from karalabe/import-gas-use
+Merge pull request #3176 from karalabe/trie-stats-report
+Merge pull request #3173 from karalabe/parametrized-trie-cache-get
+Merge pull request #3168 from benjaminbrent/develop
+Merge pull request #3153 from fjl/trie-unload-fix
+Merge pull request #3161 from karalabe/trie-cache-counters
+Merge pull request #3156 from holiman/metrics-blocks
+Merge pull request #3160 from karalabe/import-database-stats
+Merge pull request #3158 from karalabe/pretty-print-imports
+Merge pull request #3100 from kobigurk/develop
+Merge pull request #3142 from fjl/trie-sync-fix
+Merge pull request #3141 from obscuren/reprice-block-number
+Merge pull request #3111 from obscuren/gas-price-fork
+Merge pull request #3138 from karalabe/txpool-pending-limits
+Merge pull request #3136 from Arachnid/expvar
+Merge pull request #3133 from ethersphere/http-fix
+Merge pull request #3120 from obscuren/reporter-fix
+Merge pull request #3104 from fjl/core-import-log
+Merge pull request #3117 from fjl/txpool-low-limit
+Merge pull request #3088 from bas-vk/rpc-block-output
+Merge pull request #3094 from fjl/tests-update
+Merge pull request #3092 from fjl/state-journal
+Merge pull request #3090 from karalabe/fix-eth-header-indexing
+Merge pull request #3089 from bas-vk/resend
+Merge pull request #3081 from ethernomad/cors-max-age
+Merge pull request #3082 from fjl/build-fix-tag-appveyor
+Merge pull request #3073 from fjl/build-git17
+Merge pull request #3072 from karalabe/state-storage-dirty
+Merge pull request #3066 from fjl/build-env
+Merge pull request #3068 from fjl/update-sha3
+Merge pull request #3067 from karalabe/vm-avoid-hashing
+Merge pull request #3062 from fjl/trie-delete-bug
+Merge pull request #3032 from Gustav-Simonsson/keystore_padding
+Merge pull request #2914 from fjl/node-coinhabit
+Merge pull request #3048 from sandakersmann/patch-2
+Merge pull request #3053 from karalabe/fjl-state-trie-journal
+Merge pull request #3043 from fjl/windows-fix-fatalf
+Merge pull request #3041 from fjl/build-less-parallel
+Merge pull request #3040 from karalabe/dummy
+Merge pull request #3037 from karalabe/state-caching
+Merge pull request #3035 from Gustav-Simonsson/zero_value_transfer_noop
+Merge pull request #3009 from Gustav-Simonsson/fix_oom_in_light
+Merge pull request #3021 from bas-vk/ethclient-logs
+Merge pull request #3010 from Gustav-Simonsson/remove_unused_initcode_field
+Merge pull request #3006 from Arachnid/patch
+Merge pull request #2999 from karalabe/bury-blockchain-version
+Merge pull request #2983 from bas-vk/txindex
+Merge pull request #2973 from bas-vk/filterid
+Merge pull request #2984 from karalabe/fix-head-sub
+Merge pull request #2979 from karalabe/ethclient-sync-api
+Merge pull request #2976 from fjl/utils-version
+Merge pull request #2949 from elliots/fix/#2948
+Merge pull request #2742 from karalabe/tx-spam-protection
+Merge pull request #2972 from Arachnid/ens
+Merge pull request #2965 from fjl/swarm-merge
+Merge pull request #2918 from hypergig/patch-2
+Merge pull request #2962 from fjl/release-move
+Merge pull request #2963 from fjl/ens-solc-0.3.6
+Merge pull request #2964 from nagydani/develop
+Merge pull request #2967 from fjl/godeps-update
+Merge pull request #2952 from Arachnid/ens
+Merge pull request #2956 from fjl/chequebook
+Merge pull request #2930 from fjl/ethclient
+Merge pull request #2943 from Arachnid/tracing
+Merge pull request #2941 from Arachnid/tracing
+Merge pull request #2929 from Arachnid/tracing
+Merge pull request #2928 from obscuren/remove-dao-message
+Merge pull request #2927 from obscuren/license
+Merge pull request #2923 from Arachnid/tracing
+Merge pull request #2921 from karalabe/fix-fetcher-log
+Merge pull request #2909 from fjl/account-manager-cleanup
+Merge pull request #2885 from bas-vk/subscriptions
+Merge pull request #2913 from karalabe/travis-go-1.7
+Merge pull request #2873 from bas-vk/canonicalblock
+Merge pull request #2866 from karalabe/downloader-future-ancestors
+Merge pull request #2891 from fjl/rpc-client-fixes
+Merge pull request #2868 from karalabe/downloader-abort-master-drop
+Merge pull request #2867 from karalabe/dao-challenge-finish
+Merge pull request #2861 from karalabe/track-peer-heads-properly
+Merge pull request #2896 from karalabe/fix-xgo-crossbuilds
+Merge pull request #2892 from fjl/vm-hide-ecrecover-message
+Merge pull request #2889 from fjl/godeps-update-notify
+Merge pull request #2740 from Firescar96/removepeer
+Merge pull request #2870 from lukeyeager/patch-1
+Merge pull request #2862 from yep/faster-git-clone
+Merge pull request #2855 from karalabe/downloader-fix-stall-drop
+Merge pull request #2808 from fjl/rpc-client-3
+Merge pull request #2842 from fjl/downloader-remove-eth61
+Merge pull request #2712 from bas-vk/sendtx
+Merge pull request #2851 from yep/alpine-3-4
+Merge pull request #2833 from karalabe/fix-dao-challenge-annoyance
+Merge pull request #2836 from fjl/godeps-update-leveldb
+Merge pull request #2711 from hdiedrich/1.4.7-filter-races-cleanup
+Merge pull request #2821 from Arachnid/discover-enode
+Merge pull request #2834 from zsfelfoldi/chaindb-upgrade-fix
+Merge pull request #2814 from karalabe/dao-hard-finalcombo
+Merge pull request #2823 from karalabe/circleci-hive
+Merge pull request #2724 from pirapira/fix_reset_fees
+Merge pull request #2819 from fjl/rpc-back-to-npipe
+Merge pull request #2799 from zsfelfoldi/api-nonce-fix2
+Merge pull request #2801 from karalabe/dao-hardfork-importdrop
+Merge pull request #2793 from karalabe/blockchain-import-mine-datarace
+Merge pull request #2805 from karalabe/readme-running-geth
+Merge pull request #2782 from karalabe/docker-alpine-master-nogmp
+Merge pull request #2776 from karalabe/disable-eth61
+Merge pull request #2763 from karalabe/fix-readme-type
+Merge pull request #2759 from karalabe/drop-redundant-full-service
+Merge pull request #2159 from zsfelfoldi/light-backend
+Merge pull request #2750 from sybiload/develop
+Merge pull request #2752 from karalabe/revert-soft-fork
+Merge pull request #2734 from karalabe/dao-final-block
+Merge pull request #2725 from karalabe/obscuren-softfork-dao-2
+Merge pull request #2731 from justincc/remove-old-natspec-js-stubs
+Merge pull request #2726 from fjl/appveyor
+Merge pull request #2722 from fabioberger/fixTypos
+Merge pull request #2685 from karalabe/ethash-bitengdian-fix
+Merge pull request #2693 from obscuren/evm-bin-create
+Merge pull request #2697 from karalabe/CamTosh-patch-1-3
+Merge pull request #2680 from karalabe/abi-fix-uints
+Merge pull request #2686 from obscuren/issue-2542
+Merge pull request #2455 from zsfelfoldi/chaindb
+Merge pull request #2687 from karalabe/downloader-fasttest-fix
+Merge pull request #2681 from karalabe/fix-cli-deprecation
+Merge pull request #2677 from bas-vk/cli
+Merge pull request #2653 from tbocek/develop
+Merge pull request #2670 from bas-vk/indent
+Merge pull request #2673 from karalabe/fix-accounts-usage-text
+Merge pull request #2671 from karalabe/randomize-console-tests
+Merge pull request #2669 from karalabe/fix-windows-console-color
+Merge pull request #2649 from karalabe/omit-startup-tx-processing
+Merge pull request #2630 from karalabe/adaptive-qos-tuning
+Merge pull request #2647 from karalabe/fastsync-critical-resilience
+Merge pull request #2655 from fjl/txpool-lock
+Merge pull request #2656 from fjl/console-test
+Merge pull request #2637 from karalabe/downloader-always-cancel
+Merge pull request #2627 from karalabe/concurrent-head-sync
+Merge pull request #2535 from karalabe/modularize-console
+Merge pull request #2585 from karalabe/trie-dirty-tracking
+Merge pull request #2626 from karalabe/fix-testnet-zero-nonce
+Merge pull request #2614 from fjl/bad-block-report
+Merge pull request #2617 from obulpathi/develop
+Merge pull request #2612 from remyroy/fix-eth-getCompilers
+Merge pull request #2613 from remyroy/rel-path-solc
+Merge pull request #2603 from Digital-Contraptions-Imaginarium/develop
+Merge pull request #2564 from bas-vk/submit-tx
+Merge pull request #2597 from fabioberger/develop
+Merge pull request #2575 from bas-vk/filter
+Merge pull request #2589 from karalabe/estimate-remove-codecheck
+Merge pull request #2315 from karalabe/concurrent-headers-2
+Merge pull request #2582 from obscuren/fix-sign-tx
+Merge pull request #2580 from fjl/p2p-config
+Merge pull request #2574 from karalabe/notx-during-fastsync
+Merge pull request #2567 from fjl/console-history-exclude
+Merge pull request #2563 from obscuren/rpcaddr-fix
+Merge pull request #2559 from karalabe/abigen-unmarshal
+Merge pull request #2560 from 6londe/patch-3
+Merge pull request #2551 from obscuren/abi-interface-slice-fix
+Merge pull request #2549 from karalabe/geth-tester-text-templates
+Merge pull request #2548 from karalabe/surface-rpc-endpoint
+Merge pull request #2515 from karalabe/multigo-travis
+Merge pull request #2539 from bas-vk/origin-case
+Merge pull request #2537 from obscuren/hotfix-pending-statu
+Merge pull request #2529 from fjl/fdlimit-bsd
+Merge pull request #2524 from fjl/windows-ci-scripts
+Merge pull request #2523 from fjl/shutdown
+Merge pull request #2528 from karalabe/fix-web3-eth_syncing
+Merge pull request #2527 from obscuren/trace-transaction-fix
+Merge pull request #2520 from karalabe/makefile-cross-update
+Merge pull request #2514 from bas-vk/startRPC_WS
+Merge pull request #2518 from fjl/debug-go-trace
+Merge pull request #2517 from fjl/debug-go-trace
+Merge pull request #2511 from obscuren/ver-fix
+Merge pull request #2510 from fjl/p2p-fixups
+Merge pull request #2505 from karalabe/make-readme-suck-less
+Merge pull request #2497 from karalabe/version-contract-3
+Merge pull request #2493 from almindor/develop
+Merge pull request #2504 from Arachnid/public-vmconfig
+Merge pull request #2485 from karalabe/fakepow
+Merge pull request #2435 from obscuren/abi-array-fixes
+Merge pull request #2499 from bas-vk/reorg-logs
+Merge pull request #2491 from obscuren/genesis-config-fix
+Merge pull request #2496 from karalabe/abibind-missing-contract-error
+Merge pull request #2492 from fjl/accounts-arm64
+Merge pull request #2484 from pcasaretto/address-test-coverage
+Merge pull request #2478 from fjl/geth-js-tweak
+Merge pull request #2481 from fjl/bootnode-fixup
+Merge pull request #2463 from fjl/rpc-context-key
+Merge pull request #2462 from fjl/rpc-remove-js
+Merge pull request #2461 from karalabe/fix-simulator-estimates
+Merge pull request #2458 from fjl/go-vet
+Merge pull request #2460 from fjl/whisper-expiration-test-delay
+Merge pull request #2457 from fjl/license-update-1.4
+Merge pull request #2456 from bas-vk/rpc-arg-whitespace
+Merge pull request #2454 from karalabe/trace-fix
+Merge pull request #2235 from fjl/chaindb-api-and-console-fixes
+Merge pull request #2450 from karalabe/fix-ios-kqueue
+Merge pull request #2448 from fjl/jsre-bignum
+Merge pull request #2446 from karalabe/console-unlock-fix
+Merge pull request #2284 from fjl/accounts-addr-cache
+Merge pull request #2444 from karalabe/gethrpctest-chainconfig-panic
+Merge pull request #2359 from bas-vk/rpc-optional-args
+Merge pull request #2431 from bas-vk/js-preload
+Merge pull request #2440 from karalabe/update-ethash
+Merge pull request #2430 from bas-vk/chaincmd
+Merge pull request #2427 from bas-vk/pending-tx-console-format
+Merge pull request #2423 from karalabe/abigen-support-arrays
+Merge pull request #2417 from fjl/rpc-go-winio
+Merge pull request #2407 from bas-vk/rpc-notifications
+Merge pull request #2416 from karalabe/kill-canary
+Merge pull request #2396 from obscuren/abi-slices
+Merge pull request #2412 from fjl/p2p-eip8-enable
+Merge pull request #2378 from obscuren/enable-jit-a-b
+Merge pull request #2415 from karalabe/fix-missing-gastarget
+Merge pull request #2409 from fjl/geth-fixup-init
+Merge pull request #2405 from karalabe/abigen-default-methods
+Merge pull request #2404 from obscuren/common-hash-json-length-validation
+Merge pull request #2402 from obscuren/eth-sign-fix
+Merge pull request #2281 from obscuren/configurable-genesis
+Merge pull request #2383 from karalabe/goabi-exclusions-duplicates
+Merge pull request #2399 from karalabe/fix-trace-json-output
+Merge pull request #2398 from karalabe/fix-trace-json-output
+Merge pull request #2381 from karalabe/fix-abigen-tuples
+Merge pull request #2357 from karalabe/abi-binding-generator
+Merge pull request #2141 from obscuren/evm-init
+Merge pull request #2371 from hiddentao/fix_prompt_passwd_input
+Merge pull request #2259 from bas-vk/http
+Merge pull request #2348 from obscuren/abi-variable-input
+Merge pull request #2354 from karalabe/miner-atomic-pending
+Merge pull request #2355 from karalabe/abi-constant-functions-2
+Merge pull request #2341 from leijurv/patch-2
+Merge pull request #2350 from leijurv/patch-3
+Merge pull request #2351 from leijurv/patch-4
+Merge pull request #2352 from leijurv/patch-5
+Merge pull request #2327 from fjl/debug-fixes
+Merge pull request #2342 from obscuren/issue-templates
+Merge pull request #2337 from karalabe/upnp-error-hang
+Merge pull request #2311 from obscuren/future-proc-fix
+Merge pull request #2322 from karalabe/headerchain-preformance-fixes
+Merge pull request #2326 from karalabe/goleveldb-datarace-fix
+Merge pull request #2321 from karalabe/downloader-throughput-datarace
+Merge pull request #2081 from zsfelfoldi/light-chain
+Merge pull request #2301 from obscuren/uncle-fix
+Merge pull request #2320 from karalabe/update-goleveldb
+Merge pull request #2228 from karalabe/allocate-cache-to-chaindata
+Merge pull request #2309 from bas-vk/passwd
+Merge pull request #2310 from karalabe/ethash-future-cache
+Merge pull request #2293 from kobigurk/develop
+Merge pull request #2292 from remyroy/fix-solc-win-path
+Merge pull request #2285 from karalabe/forward-empty-bodies
+Merge pull request #2280 from bas-vk/js-cleanup
+Merge pull request #2267 from karalabe/pending-state-events
+Merge pull request #2278 from fjl/rpc-inproc-pipe
+Merge pull request #2221 from karalabe/expost-key-decryption
+Merge pull request #2215 from bas-vk/estimategas
+Merge pull request #2269 from obscuren/repl-multi-line
+Merge pull request #2273 from obscuren/lower-min-accepted-ga-price
+Merge pull request #2272 from karalabe/fix-premature-downloader-exit
+Merge pull request #2266 from obscuren/up-gas-floor
+Merge pull request #2265 from fjl/downloader-mem
+Merge pull request #2260 from karalabe/ethash-cache-fixes
+Merge pull request #2251 from karalabe/increase-downlaoder-queue
+Merge pull request #2242 from jimenezrick/upstream-crypto
+Merge pull request #2218 from karalabe/time-drift-warning
+Merge pull request #2252 from karalabe/disable-metrics-metaops
+Merge pull request #2147 from prasanna/add-vagrantfile
+Merge pull request #2234 from obscuren/tx-rpc-fix
+Merge pull request #2220 from karalabe/fix-rollback-lock
+Merge pull request #2095 from karalabe/trie-node-iterator
+Merge pull request #2116 from obscuren/homestead
+Merge pull request #2227 from bas-vk/mathrandom
+Merge pull request #2226 from fjl/eip-8
+Merge pull request #2206 from fjl/update-deps
+Merge pull request #2210 from obscuren/abi-typed-array
+Merge pull request #2205 from obscuren/pending-filters
+Merge pull request #2175 from karalabe/refactor-http-rpc
+Merge pull request #2192 from obscuren/runtime-abi-fixes
+Merge pull request #2195 from obscuren/gpo-rpc
+Merge pull request #2193 from karalabe/sync-state-reports
+Merge pull request #2189 from karalabe/fix-nil-miner
+Merge pull request #2184 from karalabe/fix-fastsync-state-serializer-bug
+Merge pull request #2183 from bas-vk/issue2180
+Merge pull request #2106 from obscuren/out-of-bound-logs
+Merge pull request #2178 from isghe/fix_typo
+Merge pull request #2168 from karalabe/move-rpc-into-node
+Merge pull request #2171 from karalabe/rpc-modules-fix
+Merge pull request #2169 from karalabe/fix-http-rpc-method
+Merge pull request #2134 from karalabe/save-state-writes
+Merge pull request #2154 from karalabe/rpc-fixes
+Merge pull request #2156 from ppratscher/add_replay_tx
+Merge pull request #2167 from obscuren/abi-event-fixes
+Merge pull request #2166 from obscuren/contrib
+Merge pull request #2170 from karalabe/fix-miner-registration
+Merge pull request #2098 from karalabe/rpc-txpool-queue-inspection
+Merge pull request #2146 from fjl/discover-win32-large-packets
+Merge pull request #2165 from karalabe/gmp-dep-master-alpine
+Merge pull request #2164 from karalabe/add-alpine-images
+Merge pull request #2151 from fjl/debug-api
+Merge pull request #2143 from karalabe/fix-transaction-sort-2
+Merge pull request #2140 from obscuren/rpc2-console
+Merge pull request #2136 from fjl/glog-prefix
+Merge pull request #2145 from caktux/develop
+Merge pull request #2115 from karalabe/vm-debug-storage
+Merge pull request #2132 from bas-vk/console-sleep
+Merge pull request #2130 from bas-vk/nodeinfo-format
+Merge pull request #2119 from karalabe/statedb-batch-commit
+Merge pull request #2114 from karalabe/chain-maker-state-remake
+Merge pull request #2110 from LefterisJP/determining_home_for_ubuntu_core
+Merge pull request #2097 from karalabe/block-state-checks
+Merge pull request #2101 from karalabe/delete-outoffund-transactions
+Merge pull request #2099 from karalabe/fix-throttling-test
+Merge pull request #2064 from fjl/remove-common-rlp
+Merge pull request #2084 from bas-vk/rpcnilptr
+Merge pull request #2019 from zsfelfoldi/light-state
+Merge pull request #1925 from fjl/p2p-dial-resolve
+Merge pull request #1997 from zsfelfoldi/gasprice2
+Merge pull request #2077 from karalabe/fix-header-query-duplication
+Merge pull request #2061 from zsfelfoldi/rpc-context
+Merge pull request #2072 from karalabe/admin-debug-apis
+Merge pull request #2070 from karalabe/android-archives
+Merge pull request #2035 from bas-vk/rcp-v2-rebase
+Merge pull request #2056 from fjl/fix-account-format
+Merge pull request #2058 from karalabe/geth-framework
+Merge pull request #2003 from obscuren/abi-calling
+Merge pull request #2051 from karalabe/store-transaction-fastsync
+Merge pull request #2034 from karalabe/always-allow-dyndials
+Merge pull request #2037 from fjl/no-libgmp
+Merge pull request #2024 from obscuren/exp-logs
+Merge pull request #2036 from karalabe/ios-arm64-cross
+Merge pull request #2032 from karalabe/linux-arm64-cross
+Merge pull request #1862 from Gustav-Simonsson/libsecp256k1_ecdh
+Merge pull request #2025 from karalabe/windows-account-unlock-testfix
+Merge pull request #2022 from karalabe/multiversion-arm-builds
+Merge pull request #2005 from zsfelfoldi/light-trie
+Merge pull request #2021 from fjl/fix-etherbase-no-accounts
+Merge pull request #2020 from bas-vk/issue2016
+Merge pull request #2015 from bas-vk/console-instance-name
+Merge pull request #2014 from karalabe/enable-ios-builds
+Merge pull request #2011 from karalabe/fix-hex-address
+Merge pull request #1970 from karalabe/customizable-protocol-stacks
+Merge pull request #2002 from karalabe/ios-cross-builds
+Merge pull request #1999 from karalabe/javascript-timer-argcheck
+Merge pull request #2001 from obscuren/fixes
+Merge pull request #1996 from obscuren/whisper-spam-fix
+Merge pull request #1988 from bas-vk/issue1971
+Merge pull request #1991 from Gustav-Simonsson/common_tests
+Merge pull request #1666 from obscuren/create-transaction
+Merge pull request #1995 from karalabe/parametrize-crosscompile-go
+Merge pull request #1953 from karalabe/switch-to-fast-peers
+Merge pull request #1993 from obscuren/remove-legalese
+Merge pull request #1923 from karalabe/cleanup-receipt-data-access
+Merge pull request #1980 from fjl/downloader-deliver-hang
+Merge pull request #1917 from obscuren/validator-interface
+Merge pull request #1964 from obscuren/evm-runtime
+Merge pull request #1990 from karalabe/fix-whisper-autocomplete
+Merge pull request #1984 from fjl/secp256k1-recover-id-verify
+Merge pull request #1976 from karalabe/enable-light-kdf
+Merge pull request #1974 from karalabe/fix-rpc-regression
+Merge pull request #1967 from karalabe/fix-filter-test-datarace
+Merge pull request #1963 from karalabe/fix-database-regression
+Merge pull request #1966 from karalabe/fix-recover-noparam-panic
+Merge pull request #1969 from karalabe/fix-whisper-tests-datarace
+Merge pull request #1965 from karalabe/fix-natto-test
+Merge pull request #1968 from karalabe/fix-json-tests-datarace
+Merge pull request #1960 from karalabe/fix-peer-ignore-list
+Merge pull request #1934 from karalabe/polish-protocol-infos
+Merge pull request #1943 from obscuren/abi-fixes
+Merge pull request #1948 from bas-vk/rpcfix
+Merge pull request #1958 from fjl/secp256k1-pkgsrc
+Merge pull request #1954 from obscuren/regression-miner
+Merge pull request #1952 from obscuren/testnet-peers
+Merge pull request #1949 from karalabe/update-command-usage
+Merge pull request #1951 from fjl/godeps-upgrade-goupnp
+Merge pull request #1946 from fjl/xeth-oom
+Merge pull request #1945 from bas-vk/rpcparsing
+Merge pull request #1939 from karalabe/fix-blocked-sync-goroutines
+Merge pull request #1940 from wildfjre/lightkdfflag
+Merge pull request #1937 from karalabe/make-ldflags
+Merge pull request #1919 from ethersphere/getnatspec
+Merge pull request #1932 from fjl/gpo-defootgunize
+Merge pull request #1928 from Gustav-Simonsson/common_tests
+Merge pull request #1924 from fjl/eth-status-timeout
+Merge pull request #1929 from ethersphere/develop
+Merge pull request #1922 from karalabe/fix-receipt-storage-regression
+Merge pull request #1840 from ethersphere/console
+Merge pull request #1883 from obscuren/jit-vm-optimisations
+Merge pull request #1889 from karalabe/fast-sync-rebase
+Merge pull request #1918 from obscuren/get-hash-fix
+Merge pull request #1758 from fjl/coinbase
+Merge pull request #1899 from obscuren/mipmap-bloom
+Merge pull request #1907 from Gustav-Simonsson/ethash_godep
+Merge pull request #1869 from Gustav-Simonsson/gpu_miner
+Merge pull request #1881 from Gustav-Simonsson/state_new_error
+Merge pull request #1853 from Gustav-Simonsson/libsecp256k1_update
+Merge pull request #1898 from karalabe/eventmux-post-race
+Merge pull request #1887 from Gustav-Simonsson/icap
+Merge pull request #1896 from karalabe/fix-vm-stack-logs
+Merge pull request #1888 from obscuren/testnet
+Merge pull request #1885 from karalabe/olympic-fix
+Merge pull request #1880 from Gustav-Simonsson/core_transfer
+Merge pull request #1833 from Gustav-Simonsson/crypto_tests
+Merge pull request #1851 from bas-vk/historyfile
+Merge pull request #1850 from karalabe/genesis-block-receipts
+Merge pull request #1879 from obscuren/versioning
+Merge pull request #1877 from obscuren/head-write
+Merge pull request #1756 from obscuren/core-refactor
+Merge pull request #1866 from karalabe/honor-eth-capabilities
+Merge pull request #1865 from obscuren/deadlock-chainmanager-fix
+Merge pull request #1405 from fjl/lean-trie
+Merge pull request #1856 from karalabe/andorid-path-fix
+Merge pull request #1859 from fjl/fix-discover-refresh-race
+Merge pull request #1852 from obscuren/filter-nil-fix
+Merge pull request #1854 from karalabe/badhasherror-formatting-loop
+Merge pull request #1843 from karalabe/cleanup-downloader-channel
+Merge pull request #1803 from Gustav-Simonsson/badhashes
+Merge pull request #1844 from obscuren/version-file
+Merge pull request #1842 from fjl/rpc-fix-unknown-block
+Merge pull request #1827 from Gustav-Simonsson/common_tests
+Merge pull request #1835 from karalabe/make-cross
+Merge pull request #1669 from obscuren/tx-pool-auto-resend
+Merge pull request #1822 from karalabe/contain-pow
+Merge pull request #1814 from Gustav-Simonsson/common_tests
+Merge pull request #1817 from obscuren/nonce-fix
+Merge pull request #1815 from karalabe/chain-maker-timer
+Merge pull request #1793 from jeffallen/typo
+Merge pull request #1813 from kobigurk/develop
+Merge pull request #1811 from bas-vk/timer-clearinterval
+Merge pull request #1810 from karalabe/pure-header-verifications-2
+Merge pull request #1801 from fjl/ethdb
+Merge pull request #1784 from karalabe/standard-sync-stats
+Merge pull request #1744 from kobigurk/develop
+Merge pull request #1806 from ethersphere/solc2
+Merge pull request #1786 from ethersphere/solc
+Merge pull request #1797 from karalabe/ensure-ipcpath-exists
+Merge pull request #1792 from jeffallen/uuid
+Merge pull request #1789 from Gustav-Simonsson/core_remove_unused_functions
+Merge pull request #1796 from karalabe/ethash-android-support
+Merge pull request #1779 from karalabe/split-block-storage-3000
+Merge pull request #1773 from obscuren/dev-mode
+Merge pull request #1778 from fjl/rlp-trie-changes
+Merge pull request #1781 from Gustav-Simonsson/state_object_copy
+Merge pull request #1780 from bas-vk/miner-crash
+Merge pull request #1777 from hectorchu/develop
+Merge pull request #1774 from bas-vk/console-crash
+Merge pull request #1752 from karalabe/fix-eth61-test
+Merge pull request #1764 from kobigurk/honor_ipc_datadir
+Merge pull request #1761 from CJentzsch/patch-3
+Merge pull request #1726 from Gustav-Simonsson/update_tests
+Merge pull request #1755 from fjl/coinbase
+Merge pull request #1751 from maran/fix_filters
+Merge pull request #1745 from mrdomino/obsd-build-master
+Merge pull request #1742 from fjl/rpc-receipt-root
+Merge pull request #1734 from fjl/ldflags-warning-go1.5
+Merge pull request #1724 from Gustav-Simonsson/get_work
+Merge pull request #1739 from bas-vk/empty-password
+Merge pull request #1701 from karalabe/eth62-sync-rebase
+Merge pull request #1717 from karalabe/forward-solidity-errors
+Merge pull request #1718 from caktux/develop
+Merge pull request #1721 from bas-vk/console-error-parsing
+Merge pull request #1722 from bas-vk/remote-deleteaccount
+Merge pull request #1711 from Gustav-Simonsson/timestamp_big_int
+Merge pull request #1710 from bas-vk/useragent
+Merge pull request #1694 from obscuren/hide-fdtrack
+Merge pull request #1652 from bas-vk/autoreconnect
+Merge pull request #1689 from fjl/discover-ignore-temp-errors
+Merge pull request #1688 from karalabe/fix-double-imports
+Merge pull request #1680 from maran/fix_removedb
+Merge pull request #1454 from ethersphere/frozen-cryptoclean
+Merge pull request #1683 from ethereum/travis
+Merge pull request #1682 from obscuren/readme-improvements
+Merge pull request #1681 from obscuren/miner-receipt-fix
+Merge pull request #1675 from obscuren/submithashrate-change
+Merge pull request #1673 from karalabe/fix-api-xeth-responses
+Merge pull request #1627 from zsfelfoldi/gpo
+Merge pull request #1649 from maran/pending_tx_response
+Merge pull request #1674 from tgerring/bootnodes
+Merge pull request #1667 from fjl/pretty-printer-improvements
+Merge pull request #1654 from obscuren/call-gas
+Merge pull request #1663 from obscuren/issue-1662
+Merge pull request #1659 from bas-vk/exec-output
+Merge pull request #1658 from bas-vk/liner-ctrl-c
+Merge pull request #1642 from ethereum/fix-js-console-windows
+Merge pull request #1655 from obscuren/db-merge-fix
+Merge pull request #1635 from bas-vk/useragent
+Merge pull request #1638 from obscuren/jit-fixes
+Merge pull request #1470 from ebuchman/encHandshake
+Merge pull request #1651 from karalabe/rlp-boolean-support
+Merge pull request #1647 from fjl/fix-disc-reason
+Merge pull request #1646 from fjl/fix-client-identifier
+Merge pull request #1621 from ethereum/fix-discover-hangs
+Merge pull request #1641 from obscuren/web3-update
+Merge pull request #1640 from obscuren/trace-flag-ethtest
+Merge pull request #1604 from obscuren/db-merge
+Merge pull request #1611 from obscuren/expdiff-olympic-fix
+Merge pull request #1626 from obscuren/defaults-fix
+Merge pull request #1490 from obscuren/jit-vm
+Merge pull request #1620 from caktux/develop
+Merge pull request #1615 from obscuren/contract-addr-fix
+Merge pull request #1595 from obscuren/extra-data
+Merge pull request #1614 from obscuren/web3-finite-fix
+Merge pull request #1596 from obscuren/submit-hashrate
+Merge pull request #1610 from obscuren/address-check
+Merge pull request #1600 from ethereum/fix-tests-windows
+Merge pull request #1603 from ebuchman/trie_hex_fix
+Merge pull request #1594 from ebuchman/trie_hex_fix
+Merge branch 'develop'
+Merge branch 'develop'
+Merge branch 'develop'
+Merge pull request #1583 from obscuren/miner-price-order
+Merge pull request #1588 from obscuren/diff-bomb
+Merge pull request #1587 from obscuren/miner-race
+Merge pull request #1578 from Gustav-Simonsson/frontier_thawing
+Merge pull request #1574 from fjl/fdtrack
+Merge pull request #1562 from ethersphere/blankpasswd
+Merge pull request #1581 from obscuren/olympic
+Merge pull request #1479 from tgerring/ethtest
+Merge pull request #1548 from fjl/accounts-test-deflake
+Merge pull request #1568 from obscuren/issue-1559
+Merge pull request #1569 from obscuren/default-genesis
+Merge pull request #1461 from bas-vk/eth_resend
+Merge pull request #1541 from bas-vk/issue1518
+Merge pull request #1545 from obscuren/log-index
+Merge pull request #1561 from karalabe/add-missing-autocompletes
+Merge pull request #1553 from prusnak/develop
+Merge pull request #1534 from obscuren/issue-1040
+Merge pull request #1544 from karalabe/fix-stall-detector
+Merge pull request #1546 from obscuren/tests-update
+Merge pull request #1543 from enriquefynn/develop
+Merge pull request #1533 from ethersphere/frontier/etherbase
+Merge pull request #1515 from fjl/license-fixes
+Merge pull request #1536 from fjl/fix-go1.5-build
+Merge pull request #1529 from obscuren/extra-data-fix
+Merge pull request #1528 from obscuren/reduce-extra-data
+Merge pull request #1525 from obscuren/genesis-write-fix
+Merge pull request #1524 from obscuren/default-extra
+Merge pull request #1520 from obscuren/reward-5eth
+Merge pull request #1521 from obscuren/client-update
+Merge pull request #1497 from obscuren/remove-rle
+Merge pull request #1522 from obscuren/genesis-block-check
+Merge pull request #1523 from obscuren/lower-gasprice
+Merge pull request #1519 from obscuren/develop
+Merge pull request #1507 from obscuren/batch-write
+Merge pull request #1510 from fjl/license-fixes
+Merge pull request #1508 from karalabe/database-caching
+Merge pull request #1511 from karalabe/rlp-data-race
+Merge pull request #1503 from fjl/fix-accounts-race
+Merge pull request #1481 from tgerring/legalese
+Merge pull request #1500 from karalabe/fix-miner-race
+Merge pull request #1496 from karalabe/fix-xeth-races
+Merge pull request #1484 from fjl/rlp-json-tests
+Merge pull request #1480 from obscuren/miner-state-sync
+Merge pull request #1488 from ethereum/travis
+Merge pull request #1477 from tgerring/legalese
+Merge pull request #1469 from obscuren/smart-mining
+Merge pull request #1476 from obscuren/deadlock-logs
+Merge pull request #1475 from obscuren/issue1473
+Merge pull request #1468 from Gustav-Simonsson/xeth_transact_logging
+Merge pull request #1462 from obscuren/genesis
+Merge branch 'release/0.9.38' into develop
+Merge branch 'release/0.9.38'
+Merge pull request #1452 from obscuren/develop
+Merge pull request #1453 from ethersphere/frozen-accounts
+Merge pull request #1441 from obscuren/logs-return-fix
+Merge pull request #1451 from karalabe/handle-potential-TD-forge-attack
+Merge pull request #1450 from karalabe/fix-propagation-td
+Merge pull request #1447 from karalabe/fix-database-metrics-race-3
+Merge pull request #1443 from Gustav-Simonsson/core_uint64_ts
+Merge pull request #1436 from bas-vk/net_version
+Merge pull request #1432 from tgerring/develop
+Merge branch 'release/0.9.36'
+Merge pull request #1430 from obscuren/web3-0.8.0
+Merge branch 'release/0.9.36'
+Merge branch 'release/0.9.36' into develop
+Merge branch 'release/0.9.36'
+Merge branch 'release/0.9.36' of github.com-obscure:ethereum/go-ethereum into release/0.9.36
+Merge pull request #1426 from fjl/license
+Merge pull request #1428 from obscuren/coinbase-fixes
+Merge pull request #1429 from obscuren/rebase-registrar
+Merge pull request #1423 from obscuren/gasused-receipt-fix
+Merge pull request #1418 from fjl/one-interrupt
+Merge pull request #1414 from Gustav-Simonsson/update_tests
+Merge pull request #1416 from fjl/one-interrupt
+Merge pull request #1415 from obscuren/web3-update
+Merge pull request #1413 from obscuren/receipt-fix
+Merge pull request #1410 from obscuren/newerrors-fix
+Merge pull request #1400 from obscuren/badblock-reporting
+Merge pull request #1409 from fjl/fix-tx-hash
+Merge pull request #1397 from tgerring/rpcreceipt
+Merge pull request #1395 from Gustav-Simonsson/fix_core_errors_in_apply_txs
+Merge pull request #1369 from obscuren/statedb-update-cleanup
+Merge pull request #1283 from ethersphere/frontier/accounts
+Merge pull request #1399 from obscuren/receipts-storing-fix
+Merge pull request #1385 from Gustav-Simonsson/update_tests
+Merge pull request #1393 from bas-vk/issue1377
+Merge pull request #1392 from bas-vk/ipcpipelining
+Merge pull request #1394 from obscuren/develop
+Merge pull request #1389 from obscuren/txpool-issues
+Merge pull request #1391 from tgerring/consolefalse
+Merge pull request #1390 from karalabe/fix-downloader-test-race
+Merge branch 'develop' of github.com:ethereum/go-ethereum into develop
+Merge pull request #1378 from obscuren/issue1367
+Merge pull request #1351 from karalabe/eth61
+Merge pull request #1373 from obscuren/recovery-tools
+Merge pull request #1370 from obscuren/force-checkpoint
+Merge pull request #1355 from Gustav-Simonsson/block_header_ts_uint64
+Merge pull request #1366 from ethers/rpcRequest
+Merge pull request #1363 from obscuren/safeguard
+Merge pull request #1328 from bas-vk/issue1327
+Merge pull request #1362 from obscuren/txpool-cleanup
+Merge branch 'hotfix/0.9.34-1' into develop
+Merge branch 'hotfix/0.9.34-1'
+Merge branch 'release/0.9.34' into develop
+Merge branch 'release/0.9.34'
+Merge pull request #1360 from obscuren/peter-metrics
+Merge pull request #1357 from obscuren/core-optimisations-2
+Merge branch 'miner-broadcast' into core-optimisations-2
+Merge pull request #1356 from Gustav-Simonsson/debug_develop
+Merge pull request #1353 from karalabe/fix-double-fetch
+Merge pull request #1341 from karalabe/proto-version-negotiation
+Merge pull request #1335 from tgerring/mistcleanup
+Merge pull request #1344 from karalabe/monitor-fixes
+Merge pull request #1321 from karalabe/cut-it-open-3000
+Merge pull request #1332 from bas-vk/ipcbatch
+Merge pull request #1085 from Gustav-Simonsson/key_store_v3
+Merge pull request #1329 from Gustav-Simonsson/ethash_input_validations
+Merge branch 'release/0.9.32' into develop
+Merge branch 'release/0.9.32'
+Merge pull request #1314 from karalabe/handle-fetcher-attacks-2
+Merge pull request #1279 from bas-vk/rpc-http
+Merge pull request #1309 from fjl/p2p-fix-lookup-spin
+Merge pull request #1304 from obscuren/state-renames
+Merge pull request #1305 from obscuren/database-error-check
+Merge pull request #1302 from obscuren/mist-removal
+Merge pull request #1236 from tgerring/ethtest
+Merge pull request #1298 from karalabe/slack-n-bound
+Merge pull request #1290 from tgerring/dataargs
+Merge pull request #1295 from karalabe/fix-broadcast-order
+Merge pull request #1267 from SilentCicero/develop
+Merge pull request #1275 from karalabe/optimise-fetcher
+Merge pull request #1282 from obscuren/state-cleanup
+Merge pull request #1287 from karalabe/fix-downloader-cancel-interrupt
+Merge pull request #1269 from bas-vk/console-batch
+Merge pull request #1281 from karalabe/fix-overlapping-delivery-hang
+Merge pull request #1274 from Gustav-Simonsson/update_ethash_godep
+Merge branch 'release/0.9.30' into develop
+Merge branch 'release/0.9.30'
+Merge pull request #1260 from obscuren/tx-drop-low-tx
+Merge pull request #990 from zsfelfoldi/gasprice
+Merge pull request #1261 from fjl/p2p-no-writes-at-shutdown
+Merge pull request #1243 from karalabe/instrument-downloader-sync
+Merge pull request #1255 from obscuren/chain-proc-interupt
+Merge pull request #1256 from obscuren/fix-printable-chars
+Merge pull request #1254 from bas-vk/ipcwindowspathfix
+Merge pull request #1245 from bas-vk/ipcdatadirfix
+Merge pull request #1239 from bas-vk/rpc-apis
+Merge pull request #1228 from obscuren/vm-optimisations
+Merge pull request #1227 from karalabe/block-fetcher-optimisations
+Merge pull request #1224 from karalabe/report-import-progress
+Merge pull request #1218 from tgerring/rpcsign
+Merge pull request #1223 from obscuren/tx-pool-vroooooom
+Merge pull request #1230 from fjl/p2p-discover-fix-ping-test
+Merge pull request #1222 from obscuren/state-vm-test-suit-fix
+Merge pull request #1221 from karalabe/fix-p2p-dial-test
+Merge branch 'release/0.9.28' into develop
+Merge branch 'release/0.9.28'
+Merge pull request #1220 from karalabe/fix-chain-deadlock2
+Merge pull request #1212 from fjl/p2p-eth-block-timeout
+Merge pull request #1213 from karalabe/polish-console-prettyprinter
+Merge pull request #1219 from Gustav-Simonsson/precompiled_ec_recover_padding
+Merge pull request #1216 from karalabe/fix-eth-dataraces
+Merge pull request #1217 from tgerring/rpcsign
+Merge pull request #1156 from tgerring/issue1145
+Merge pull request #1215 from obscuren/issue1202
+Merge pull request #1188 from karalabe/newblockhashes-proposal
+Merge pull request #1153 from karalabe/downloader-banned-starvation-attack
+Merge pull request #1211 from obscuren/genesis_writout_fix
+Merge pull request #1193 from tgerring/hotbackup
+Merge pull request #1209 from obscuren/txpool_test_and_pending_fix
+Merge pull request #1199 from obscuren/settable_genesis_nonce
+Merge pull request #1204 from carver/deep-log-crashfix
+Merge pull request #1198 from fjl/core-fix-nonce-check
+Merge pull request #1189 from karalabe/downloader-polishes
+Merge pull request #1100 from karalabe/drop-sync-peer-on-empty-hash
+Merge pull request #1185 from fjl/p2p-nat-timeouts
+Merge pull request #1186 from obscuren/log_fixes
+Merge pull request #1181 from obscuren/txpool_fixes
+Merge pull request #1184 from karalabe/nonstop-block-fetches
+Merge pull request #1167 from Gustav-Simonsson/check_ec_recover_err
+Merge pull request #1151 from fjl/parallel-nonce-2
+Merge pull request #1150 from fjl/fix-jumpdest
+Merge pull request #1176 from karalabe/congestion-control
+Merge pull request #1166 from Gustav-Simonsson/add_ec_sig_validations
+Merge pull request #1175 from karalabe/keccak-update
+Merge pull request #1169 from Gustav-Simonsson/unsupport_bruncles
+Merge pull request #1161 from tgerring/bootnode
+Merge pull request #1155 from karalabe/fix-chainmanager-datarace
+Merge branch 'release/0.9.26'
+Merge branch 'release/0.9.26' into develop
+Merge branch 'release/0.9.26'
+Merge pull request #1142 from obscuren/100-pct-block-prop
+Merge pull request #1140 from Gustav-Simonsson/fix_account_unlock_logging
+Merge pull request #1141 from obscuren/parallelisation-issue
+Merge pull request #1132 from obscuren/log_optimisations
+Merge pull request #1137 from obscuren/web3_update
+Merge pull request #1123 from fjl/lean-blockchain-commands
+Merge pull request #1135 from karalabe/tempban-invalid-hashes
+Merge pull request #1128 from karalabe/hard-disconnect-trial
+Merge pull request #1129 from obscuren/database_cache_removal
+Merge pull request #1124 from karalabe/detaied-download-progress
+Merge pull request #1121 from obscuren/miner_time_fix
+Merge pull request #1112 from fjl/fix-console-exit
+Merge pull request #1122 from Gustav-Simonsson/improve_validate_header_comments
+Merge pull request #1067 from carver/deep-mining-log
+Merge pull request #1120 from Gustav-Simonsson/revert_gas_limit_change
+Merge branch 'release/0.9.25' into develop
+Merge branch 'release/0.9.25'
+Merge pull request #1114 from obscuren/develop
+Merge pull request #1113 from obscuren/develop
+Merge pull request #1108 from karalabe/fine-seeding
+Merge pull request #1111 from obscuren/neg_tx_check
+Merge pull request #1090 from fjl/jsre-fixes
+Merge pull request #1086 from debris/solidity_std
+Merge pull request #1106 from karalabe/silence-useless-downloader-log
+Merge branch 'develop'
+Merge branch 'develop'
+Merge branch 'develop'
+Merge branch 'release/0.9.24' into develop
+Merge branch 'release/0.9.24'
+Merge pull request #1014 from fjl/p2p-dialer-3000
+Merge pull request #1099 from obscuren/fork_fix
+Merge pull request #1102 from karalabe/maintain-block-origins
+Merge pull request #1101 from obscuren/issue-1096
+Merge pull request #1078 from carver/patch-1
+Merge pull request #1066 from karalabe/peer-db-polishes
+Merge pull request #1077 from obscuren/disasm
+Merge pull request #1076 from obscuren/rpc_sign
+Merge pull request #1072 from Gustav-Simonsson/add_random_tests
+Merge pull request #1074 from bas-vk/issue1068
+Merge branch 'develop'
+Merge branch 'release/0.9.23' into develop
+Merge branch 'release/0.9.23'
+Merge pull request #1055 from ethersphere/autodag
+Merge pull request #1064 from karalabe/downloader-attacks
+Merge pull request #1063 from bas-vk/issue1053
+Merge pull request #1062 from Gustav-Simonsson/tests_updates
+Merge pull request #1059 from obscuren/cleanup
+Merge pull request #1043 from obscuren/test_fixes
+Merge pull request #1049 from zsfelfoldi/receipts
+Merge pull request #1048 from ethersphere/cli-fixes
+Merge pull request #1050 from karalabe/handle-slow-download-tester
+Merge pull request #1051 from karalabe/fix-odd-naming
+Merge pull request #1044 from obscuren/thread_safe_block_cache
+Merge pull request #1046 from tgerring/issue1045
+Merge pull request #1035 from karalabe/eth-threadsafe-peers
+Merge pull request #1036 from tgerring/issue884
+Merge pull request #1034 from obscuren/tx_pool_fix
+Merge pull request #1022 from obscuren/parallel_nonce_checks
+Merge pull request #1033 from tgerring/issue1010
+Merge pull request #1032 from tgerring/issue1025
+Merge pull request #1031 from bas-vk/issue1012
+Merge branch 'hotfix/0.9.22' into develop
+Merge branch 'hotfix/0.9.22'
+Merge pull request #1021 from obscuren/global_chain_lock
+Merge pull request #1011 from obscuren/upgradedb_fix
+Merge branch 'hotfix/0.9.21.1' into develop
+Merge branch 'hotfix/0.9.21-1'
+Merge branch 'release/0.9.21' into develop
+Merge branch 'release/0.9.21'
+Merge pull request #989 from obscuren/develop
+Merge pull request #996 from karalabe/fix-potential-crosscheck-race
+Merge pull request #997 from karalabe/fix-shitty-test-server-issue
+Merge pull request #995 from Gustav-Simonsson/update_state_tests_and_vm_create_return
+Merge pull request #994 from karalabe/fix-cancel-double-close
+Merge pull request #988 from karalabe/fix-downloader-vulnerabilities
+Merge pull request #987 from obscuren/develop
+Merge pull request #984 from tgerring/issue924
+Merge pull request #975 from obscuren/develop
+Merge pull request #983 from tgerring/issue958
+Merge pull request #982 from tgerring/issue962
+Merge pull request #980 from fjl/geth-test-no-scrypt
+Merge pull request #974 from karalabe/downloader-fix-unknown-parent-attack
+Merge pull request #971 from fjl/p2p-limit-tweaks
+Merge pull request #973 from bas-vk/issue972
+Merge pull request #960 from fjl/nat-fixes
+Merge pull request #969 from Gustav-Simonsson/ethash_improve_hashrate_update2
+Merge pull request #950 from karalabe/downloader-cancel-sync
+Merge pull request #949 from bas-vk/issue944
+Merge pull request #970 from ethereum/vitalik_quick_test
+Merge pull request #966 from fjl/fixup-discover-chunked-neighbors
+Merge pull request #963 from Gustav-Simonsson/fix_keystore_crypto_comments
+Merge pull request #965 from subtly/patch-1
+Merge pull request #954 from karalabe/fix-downloader-nil-panic
+Merge pull request #948 from karalabe/fix-downlaoder-activepeer-shadow
+Merge pull request #946 from Gustav-Simonsson/fix_geth_unlock_account
+Merge branch 'release/0.9.20' into develop
+Merge branch 'release/0.9.20'
+Merge pull request #631 from Gustav-Simonsson/improve_key_store_crypto
+Merge pull request #933 from bas-vk/issue928
+Merge pull request #932 from obscuren/develop
+Merge pull request #899 from ethersphere/solc-test-fix
+Merge pull request #929 from obscuren/develop
+Merge pull request #925 from obscuren/worker_owned_accounts
+Merge pull request #918 from obscuren/cpu_miner_fixes
+Merge pull request #915 from karalabe/downloader-threading-fixes
+Merge pull request #920 from tgerring/issue917
+Merge pull request #914 from ethersphere/develop
+Merge branch 'develop' of github.com:ethereum/go-ethereum into develop
+Merge pull request #908 from obscuren/develop
+Merge pull request #911 from karalabe/whisper-graceful-fail
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum
+Merge pull request #894 from obscuren/develop
+Merge pull request #893 from obscuren/develop
+Merge pull request #888 from obscuren/develop
+Merge branch 'develop' of github.com:ethereum/go-ethereum into develop
+Merge pull request #863 from karalabe/ordered-block-download
+Merge pull request #885 from fjl/p2p-fixes
+Merge pull request #840 from karalabe/throttled-dialing
+Merge pull request #882 from zsfelfoldi/develop
+Merge pull request #876 from obscuren/jsre_fixes
+Merge pull request #875 from Gustav-Simonsson/test_updates
+Merge pull request #833 from ethersphere/frontier/solidity
+Merge pull request #864 from obscuren/filter_changes
+Merge pull request #877 from Gustav-Simonsson/update_ethash_godep
+Merge pull request #867 from Gustav-Simonsson/fix_block_tests_genesis_block_total_difficulty
+Merge pull request #866 from fjl/p2p-last-minute
+Merge branch 'karalabe-cherry-trusted-peers' into develop
+Merge pull request #791 from fjl/discover-sha3-distance
+Merge pull request #861 from obscuren/transaction_pool_fixes
+Merge pull request #859 from Gustav-Simonsson/ethash_reloaded
+Merge pull request #771 from zsfelfoldi/develop
+Merge pull request #856 from karalabe/windows-console-color-fix
+Merge pull request #835 from obscuren/handler_errors
+Merge pull request #830 from obscuren/downloader-missing-parent
+Merge pull request #825 from obscuren/develop
+Merge pull request #822 from fjl/makefile-improvements
+Merge pull request #828 from tgerring/pathfixes
+Merge pull request #821 from karalabe/nodedb-fix
+Merge pull request #820 from fjl/rlp-readkind-overflow
+Merge pull request #793 from karalabe/discovery-node-cache
+Merge pull request #819 from karalabe/leveldb-update
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge branch 'kobigurk-develop' into develop
+Merge branch 'develop' of https://github.com/kobigurk/go-ethereum into kobigurk-develop
+Merge pull request #738 from karalabe/whisper-cleanup
+Merge pull request #817 from tgerring/rpcglog
+Merge pull request #818 from Gustav-Simonsson/add_privkey_loading_to_block_tests
+Merge pull request #813 from obscuren/general_fixes
+Merge pull request #805 from obscuren/download_improvements
+Merge pull request #796 from Gustav-Simonsson/fix_ignoring_of_unexpected_files_in_key_dir
+Merge pull request #803 from obscuren/log_filter_fixes
+Merge pull request #773 from ethersphere/frontier/cli
+Merge pull request #804 from alexvandesande/avsa-geth
+Merge branch 'avsa-geth' of https://github.com/alexvandesande/go-ethereum into avsa-geth
+Merge pull request #800 from obscuren/ethereum_js_update
+Merge pull request #797 from tgerring/bootnodes
+Merge pull request #778 from bas-vk/issue764
+Merge pull request #794 from Gustav-Simonsson/block_tests_more_validations
+Merge branch 'issue764' of https://github.com/bas-vk/go-ethereum into issue764
+Merge pull request #792 from veox/doc-crypto-secp256k1
+Merge pull request #769 from obscuren/develop
+Merge pull request #779 from Gustav-Simonsson/block_tests_reloaded
+Merge pull request #780 from maran/arm_build
+Merge pull request #786 from tgerring/issue739
+Merge pull request #782 from alexvandesande/develop
+Merge pull request #783 from tgerring/issue777
+Merge pull request #784 from tgerring/issue737
+Merge pull request #787 from ethereum/revert-785-revert-781-develop
+Merge pull request #785 from ethereum/revert-781-develop
+Merge pull request #781 from caktux/develop
+Merge pull request #776 from fjl/win32-build-fixes
+Merge pull request #765 from Gustav-Simonsson/more_block_test_improvements
+Merge pull request #766 from tgerring/issue762
+Merge pull request #760 from obscuren/develop
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #756 from Gustav-Simonsson/block_test_improvements
+Merge pull request #763 from aboreum/develop
+Merge pull request #761 from aboreum/develop
+Merge branch 'develop' of https://github.com/aboreum/go-ethereum into develop
+Merge branch 'develop' of github.com-obscure:obscuren/go-ethereum into develop
+Merge pull request #734 from bas-vk/issue-729
+Merge pull request #755 from karalabe/command-flags-cleanup
+Merge branch 'ethersphere-frontier/natspec' into develop
+Merge branch 'frontier/natspec' of https://github.com/ethersphere/go-ethereum into ethersphere-frontier/natspec
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #748 from fjl/build-script-unix
+Merge branch 'fjl-rlp-size-validation' into develop
+Merge branch 'rlp-size-validation' of https://github.com/fjl/go-ethereum into fjl-rlp-size-validation
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #749 from fjl/fix-nodekey-persistence
+Merge branch 'downloader-proto' into develop
+Merge branch 'develop' into downloader-proto
+Merge branch 'develop' into downloader-proto
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge branch 'develop' into downloader-proto
+Merge pull request #736 from frozeman/develop
+Merge pull request #718 from karalabe/whisper-cleanup
+Merge pull request #733 from fjl/p2p-dial-timer
+Merge pull request #728 from tgerring/issue727
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #730 from Gustav-Simonsson/update_transaction_tests
+Merge branch 'develop' into downloader-proto
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #704 from fjl/p2p-concurrency-fixups
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #709 from ligi/patch-1
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #702 from ethersphere/frontier/blockpool
+Merge pull request #700 from bas-vk/issue_650
+Merge pull request #689 from Gustav-Simonsson/add_transaction_tests
+Merge pull request #690 from karalabe/whisper-cleanup
+Merge pull request #695 from ethersphere/frontier/blockpool
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #692 from ethersphere/frontier/blockpool
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #691 from fjl/discovery-fixes
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #687 from karalabe/develop
+Merge pull request #682 from bas-vk/issue_567
+Merge branch 'ethersphere-frontier/blockpool' into develop
+Merge branch 'frontier/blockpool' of https://github.com/ethersphere/go-ethereum into ethersphere-frontier/blockpool
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #678 from bas-vk/feature_635
+Merge pull request #671 from bas-vk/issue_567
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #658 from Gustav-Simonsson/add_ec_point_on_curve_check
+Merge pull request #648 from Gustav-Simonsson/forward_ecrecover_err_and_remove_dup_checks
+Merge pull request #657 from Gustav-Simonsson/disable_libsecp256k1_debug_check
+Merge branch 'Gustav-Simonsson-update_bitcoin_secp256k1_lib2' into develop
+Merge branch 'update_bitcoin_secp256k1_lib2' of https://github.com/Gustav-Simonsson/go-ethereum into Gustav-Simonsson-update_bitcoin_secp256k1_lib2
+Merge branch 'tgerring-rpcfabian' into develop
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #653 from debris/circular_structure
+Merge branch 'develop' into rpcfabian
+Merge branch 'develop' into glog
+Merge branch 'develop' into glog
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #627 from ethersphere/frontier/blockpool
+Merge commit 'f6bd4b16e38f9cacd57b57befdeeaed789a473c4' into develop
+Merge pull request #626 from tgerring/rpcfabian
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge commit '812cbff1a28d89b44a0c8c5a210ac61c7e19da35' into develop
+Merge pull request #636 from debris/prototype_functions
+Merge pull request #633 from debris/prototype_functions
+Merge pull request #619 from tgerring/rpcfabian
+Merge branch 'develop' into rpcfabian
+Merge pull request #625 from debris/nonenumerable
+Merge pull request #623 from Gustav-Simonsson/read_protocol_values_from_common_params
+Merge commit '4e3ffbcf9bae7e44e45fd1b6e504b3645040d73c' into develop
+Merge commit 'f801183b8bea24ce9988fbd06c2f17fedfc3587f' into develop
+Merge pull request #592 from fjl/disco-ping-pong
+Merge pull request #618 from tgerring/issue613
+Merge pull request #588 from ethersphere/frontier/SEC-29
+Merge pull request #616 from bas-vk/develop
+Merge branch 'tgerring-hexify' into develop
+Merge branch 'hexify' of https://github.com/tgerring/go-ethereum into tgerring-hexify
+Merge pull request #589 from tgerring/corssetting
+Merge branch 'rpccall' into hexify
+Merge commit 'ec181b308addc30c04973e9058960d579c84eef5' into develop
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #606 from tgerring/bootnode
+Merge pull request #594 from Gustav-Simonsson/fix_block_header_gas_limit_validation
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge branch 'ebuchman-fix_ecrecover' into develop
+Merge branch 'fix_ecrecover' of https://github.com/ebuchman/go-ethereum into ebuchman-fix_ecrecover
+Merge branch 'kobigurk-develop' into develop
+Merge branch 'develop' of https://github.com/kobigurk/go-ethereum into kobigurk-develop
+Merge pull request #579 from tgerring/rpcargs
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #585 from aperseghin/patch-2
+Merge pull request #586 from aperseghin/patch-3
+Merge branch 'develop' into rpcargs
+Merge pull request #581 from aperseghin/patch-1
+Merge pull request #580 from ethersphere/frontier/cli-key
+Merge pull request #584 from tgerring/issue577
+Merge pull request #565 from tgerring/responsetypes
+Merge remote-tracking branch 'origin' into rpcargs
+Merge branch 'rpcargs' of github.com:tgerring/go-ethereum into rpcargs
+Merge pull request #550 from ethersphere/frontier/cli-key
+Merge commit 'a718515b3d43f00497231f981b5ea757b71d55ff' into develop
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #564 from fjl/rlp-nil-array
+Merge pull request #560 from tgerring/xethcleanup
+Merge pull request #561 from ethersphere/frontier/blockpool
+Merge branch 'master' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #559 from Gustav-Simonsson/blocktests_update_ethash
+Merge commit '24066dca4646c8a376aa5dfbceec0a4b3f872c11' into develop
+Merge commit '58c6cc8fd7ff8a27004ed62d912e0a61ae1b73bb' into develop
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #553 from ethersphere/jsonlog
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #552 from ethersphere/jsonlog
+Merge pull request #551 from ethersphere/frontier/eth-version-exports
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #537 from Gustav-Simonsson/blocktests2
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #548 from tgerring/typescleanup
+Merge pull request #547 from tgerring/commoncleanup
+Merge pull request #536 from zsfelfoldi/develop
+Merge branch 'ethersphere-jsonlog' into develop
+Merge branch 'jsonlog' of https://github.com/ethersphere/go-ethereum into ethersphere-jsonlog
+Merge pull request #526 from ethersphere/frontier/blockpool
+Merge branch 'conversion' into develop
+Merge pull request #535 from maran/fixReadmeLink
+Merge branch 'develop' into conversion
+Merge branch 'rpcfrontier' into develop
+Merge branch 'develop' into conversion
+Merge branch 'rpcfrontier' into develop
+Merge branch 'conversion' of github.com-obscure:ethereum/go-ethereum into conversion
+Merge remote-tracking branch 'ethereum/conversion' into conversion
+Merge branch 'ethersphere-frontier/blockpool' into conversion
+Merge branch 'frontier/blockpool' of https://github.com/ethersphere/go-ethereum into ethersphere-frontier/blockpool
+Merge branch 'rpcxeth' into rpcfrontier
+Merge remote-tracking branch 'ethereum/conversion' into conversion
+Merge branch 'rpcfrontier' of github.com-obscure:ethereum/go-ethereum into rpcfrontier
+Merge branch 'rpcfrontier' of github.com:ethereum/go-ethereum into rpcfrontier
+Merge branch 'rpcinline' into rpcxeth
+Merge branch 'rpcutil' into rpcfrontier
+Merge branch 'develop' into conversion
+Merge commit 'f144a95940a5df0809bb028eef7b337125423602' into develop
+Merge branch 'rpcfrontier' into develop
+Merge branch 'rpcfrontier' into develop
+Merge remote-tracking branch 'ethereum/conversion' into conversion
+Merge branch 'develop' into conversion
+Merge branch 'develop' into rpcfrontier
+Merge branch 'develop' into conversion
+Merge remote-tracking branch 'ethereum/conversion' into conversion
+Merge commit '85fa3790ac9f67232f0e31e7f861c66ef0e0047e' into develop
+Merge branch 'rpcutil' into rpcfrontier
+Merge branch 'rpcfrontier' into conversion
+Merge branch 'develop' into rpcfrontier
+Merge branch 'develop' into conversion
+Merge branch 'ethersphere-frontier/cli-private-network' into develop
+Merge branch 'frontier/cli-private-network' of https://github.com/ethersphere/go-ethereum into ethersphere-frontier/cli-private-network
+Merge pull request #523 from fjl/docker-fast
+Merge pull request #522 from fjl/makedag
+Merge branch 'conversion' of github.com-obscure:ethereum/go-ethereum into conversion
+Merge remote-tracking branch 'ethereum/conversion' into conversion
+Merge branch 'develop' into conversion
+Merge pull request #498 from maran/feature/drytoHex
+Merge branch 'rpcfrontier' into develop
+Merge branch 'develop' into rpcfrontier
+Merge pull request #485 from ethersphere/frontier/nodeadmin.js
+Merge branch 'develop' into conversion
+Merge commit 'dffaa678f966f87dcd011671a16b554b29a37549' into develop
+Merge remote-tracking branch 'ethereum/conversion' into conversion
+Merge branch 'conversion' of github.com-obscure:ethereum/go-ethereum into conversion
+Merge branch 'develop' into rpcfrontier
+Merge branch 'conversion' of https://github.com/ethereum/go-ethereum
+Merge branch 'frontier/js' into frontier/nodeadmin.js
+Merge remote-tracking branch 'upstream/develop' into frontier/js
+Merge remote-tracking branch 'upstream/develop' into frontier/nodeadmin.js
+Merge branch 'frontier/js' into frontier/nodeadmin.js
+Merge branch 'frontier/js' into frontier/nodeadmin.js
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge branch 'fjl-block-tests' into develop
+Merge branch 'rpcfrontier' into develop
+Merge pull request #481 from maran/feature/fromHexDry
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #467 from ethersphere/frontier/natspec
+Merge branch 'rpcfrontier' into develop
+Merge commit '6051345bc9ab8ccf74a49c43342771e0c2cba588' into develop
+Merge branch 'rpcfrontier' into develop
+Merge commit '3ff7a627d1921be0aeacdd8eb2853ba4537487eb' into develop
+Merge commit '412e8b0e377bd89fc8fc858bd09c89deee805c1e' into develop
+Merge branch 'rpcfrontier' of github.com-obscure:ethereum/go-ethereum into rpcfrontier
+Merge branch 'develop' into rpcfrontier
+Merge branch 'develop' into rpcfrontier
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #460 from tgerring/ethutil
+Merge commit '92c6150199395eea6c9893b631cc990e3ff72a33' into develop
+Merge branch 'develop' into rpcfrontier
+Merge pull request #462 from fjl/miner-coinbase
+Merge branch 'fjl-unencrypted-keys' into develop
+Merge branch 'rpcfrontier' into develop
+Merge branch 'rpcfrontier' of github.com-obscure:ethereum/go-ethereum into rpcfrontier
+Merge branch 'rpcfrontier' of github.com:ethereum/go-ethereum into rpcfrontier
+Merge branch 'develop' into rpcfrontier
+Merge branch 'rpcfrontier' of github.com-obscure:ethereum/go-ethereum into rpcfrontier
+Merge branch 'develop' into rpcfrontier
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #447 from fjl/accounts-integration
+Merge branch 'fjl-accounts-integration' into develop
+Merge branch 'rpcfrontier' of github.com-obscure:ethereum/go-ethereum into rpcfrontier
+Merge branch 'rpcfrontier' of github.com:ethereum/go-ethereum into rpcfrontier
+Merge branch origin/develop into accounts-integration
+Merge branch 'develop' into rpcfrontier
+Merge pull request #449 from Gustav-Simonsson/add_blockchain_tests2
+Merge branch 'poc-9' into develop
+Merge pull request #438 from ethersphere/poc9/cli
+Merge pull request #437 from ethersphere/poc9/natspec
+Merge branch 'accounts-integration' of https://github.com/fjl/go-ethereum into fjl-accounts-integration
+Merge branch 'poc-9' into develop
+Merge ethereum/poc-9 into accounts-integration
+Merge commit '3deb470b2d07d28040a381722022cdf8867a829a' into poc-9
+Merge commit 'c1cafb56d5da57a44f1d766c5299f11664b93921' into poc-9
+Merge commit 'e2c75b0fa17394553b93fe7ddd62c0f6a6441119' into poc-9
+Merge branch 'poc-9' of github.com-obscure:ethereum/go-ethereum into poc-9
+Merge pull request #435 from zsfelfoldi/poc-9
+Merge branch 'poc-9' of github.com-obscure:ethereum/go-ethereum into poc-9
+Merge pull request #433 from fjl/newcli
+Merge pull request #434 from fjl/poc-9
+Merge branch 'ethersphere-blockpool3' into poc-9
+Merge branch 'blockpool3' of https://github.com/ethersphere/go-ethereum into ethersphere-blockpool3
+Merge pull request #431 from tgerring/jsonlogs
+Merge branch 'ethersphere-blockpool2' into poc-9
+Merge branch 'blockpool2' of https://github.com/ethersphere/go-ethereum into ethersphere-blockpool2
+Merge commit '4e8a9a1cd4a10370fc4a888af0fb2def6f1b961b' into poc-9
+Merge branch 'poc-9' of github.com-obscure:ethereum/go-ethereum into poc-9
+Merge pull request #429 from chfast/pr/fix_vm_tests
+Merge branch 'develop' into poc-9
+Merge branch 'tendermint-develop_pull_request' into develop
+Merge branch 'develop_pull_request' of https://github.com/tendermint/ethermint into tendermint-develop_pull_request
+Merge pull request #426 from Gustav-Simonsson/add_blockchain_tests
+Merge branch 'develop' into poc-9
+Merge branch 'alexvandesande-ui' into develop
+Merge branch 'fjl-p2p-handshake-2' into poc-9
+Merge branch 'p2p-handshake-2' of https://github.com/fjl/go-ethereum into fjl-p2p-handshake-2
+Merge remote-tracking branch 'upstream/poc-9' into blockpool3
+Merge branch 'develop' into ui
+Merge branch 'develop' into poc-9
+Merge pull request #413 from chfast/pr/jit_build_fixes
+Merge branch 'develop' into poc-9
+Merge branch 'develop' into poc-9
+Merge branch 'ethersphere-jsonlogs' into poc-9
+Merge branch 'jsonlogs' of https://github.com/ethersphere/go-ethereum into ethersphere-jsonlogs
+Merge branch 'ethersphere-blockpool2' into poc-9
+Merge branch 'blockpool2' of https://github.com/ethersphere/go-ethereum into ethersphere-blockpool2
+Merge pull request #411 from ethersphere/readme
+Merge pull request #409 from tgerring/jsonlogs
+Merge pull request #408 from tgerring/removews
+Merge branch 'xcthulhu-publictests' into poc-9
+Merge branch 'publictests' of https://github.com/xcthulhu/go-ethereum into xcthulhu-publictests
+Merge commit 'a6e04ab05150d1b5aa4adb297f3e5146b1559b02' into poc-9
+Merge commit '42a210b571b9358df16da148d9724c2ef9abbca5' into poc-9
+Merge commit 'd9d40888ce9498b25925ccbf1447b1f62597aa2f' into poc-9
+Merge commit '0867e4fae96c0b0d234f1710119a129f8b0d96f7' into poc-9
+Merge commit '4659b51b50394c596f0548eb53390c80ba96e392' into poc-9
+Merge commit 'b7ec9fbb0e49e345a8a2566226a76d50b48266a7' into poc-9
+Merge commit 'd0354b844028220b31f55c2cdbe9d4cc546d4b52' into poc-9
+Merge remote-tracking branch 'tgerring/jsonlogs' into jsonlogs
+Merge remote-tracking branch 'upstream/develop' into blockpool2
+Merge remote-tracking branch 'upstream/develop' into evmjit
+Merge commit '41c9dc973d2dc8614db6c1e3dbb2ec5564935368' into poc-9
+Merge branch 'develop' of github.com:ethereum/go-ethereum into removews
+Merge pull request #69 from winsvega/develop
+Merge pull request #402 from tgerring/rpcupdates
+Merge pull request #398 from tgerring/assetpath
+Merge branch 'ethersphere-blockpool2' into poc-9
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge branch 'publictests' of github.com:ebuchman/go-ethereum into ethash_pow
+Merge branch 'develop' of https://github.com/ethereum/go-ethereum into develop
+Merge branch 'hotfix/0.8.5-2' into develop
+Merge branch 'hotfix/0.8.5-2'
+Merge branch 'master' into hotfix/0.8.5-2
+Merge branch 'develop'
+Merge branch 'blockpool2' of https://github.com/ethersphere/go-ethereum into ethersphere-blockpool2
+Merge remote-tracking branch 'origin' into develop
+Merge pull request #68 from winsvega/develop
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #392 from tgerring/rpcdefaultblock
+Merge pull request #391 from tgerring/osext
+Merge pull request #385 from Gustav-Simonsson/account_manager_key_locking
+Merge pull request #388 from Gustav-Simonsson/validate_block_header_gas_limit
+Merge pull request #67 from winsvega/develop
+Merge pull request #66 from winsvega/develop
+Merge pull request #382 from ethereum/travis
+Merge pull request #379 from tgerring/rpcupdates
+Merge pull request #378 from Gustav-Simonsson/fix_account_manager_tests
+Merge pull request #373 from tgerring/issue370
+Merge pull request #368 from maran/feature/changeDataDir
+Merge pull request #369 from tgerring/issue367
+Merge remote-tracking branch 'upstream/develop' into evmjit
+Merge remote-tracking branch 'origin/develop' into develop
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge branch 'master' into develop
+Merge remote-tracking branch 'upstream/develop' into evmjit
+Merge pull request #65 from romanman/develop
+Merge branch 'develop' into ui
+Merge remote-tracking branch 'origin/develop' into develop
+Merge pull request #360 from Gustav-Simonsson/add_stack_size_checks
+Merge branch 'develop'
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #359 from fjl/p2p-identity
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge branch 'release/0.8.5' into develop
+Merge branch 'release/0.8.5'
+Merge pull request #364 from ethereum/travis
+Merge branch 'hotfix/0.8.4-1' into develop
+Merge branch 'hotfix/0.8.4-1'
+Merge branch 'release/0.8.4' into develop
+Merge branch 'release/0.8.4'
+Merge branch 'release/0.9.0' into develop
+Merge branch 'release/0.9.0'
+Merge branch 'tgerring-rpcupdates' into develop
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #355 from fjl/test-fixes
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #352 from fjl/no-enc-handshake
+Merge pull request #345 from maran/feature/minerthreads
+Merge pull request #335 from alexvandesande/ui
+Merge pull request #339 from tgerring/jsonlog
+Merge branch 'develop' of https://github.com/ethereum/go-ethereum into develop
+Merge pull request #325 from fjl/deps-cleanup
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #327 from fjl/udp-out-of-range
+Merge branch 'alexvandesande-ui' into develop
+Merge branch 'ui' of https://github.com/alexvandesande/go-ethereum into develop
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge branch 'develop' into ui
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge remote-tracking branch 'origin/develop' into develop
+Merge pull request #60 from winsvega/develop
+Merge branch 'develop' of https://github.com/ethereum/tests into develop
+Merge branch 'develop' of github.com:ethereum/go-ethereum into develop
+Merge branch 'develop' into bounty
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #309 from fjl/peer-window
+Merge pull request #3 from Gustav-Simonsson/fix_ecies_params_init_bug
+Merge branch 'Gustav-Simonsson-align_key_and_ecdsa_nonce_entropy' into develop
+Merge branch 'align_key_and_ecdsa_nonce_entropy' of https://github.com/Gustav-Simonsson/go-ethereum into Gustav-Simonsson-align_key_and_ecdsa_nonce_entropy
+Merge pull request #308 from fjl/default-bootnodes
+Merge branch 'develop' into poc8
+Merge branch 'miner' into develop
+Merge branch 'develop' into miner
+Merge branch 'fjl-poc8-net-integration' into develop
+Merge branch 'logjson' into develop
+Merge pull request #59 from winsvega/develop
+Merge remote-tracking branch 'origin/develop' into develop
+Merge pull request #2 from Gustav-Simonsson/correct_ecies_shared_key_generation
+Merge branch 'develop' into miner
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #303 from fjl/rlp-flat
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #302 from alexvandesande/UI
+Merge pull request #301 from ethereum/travis
+Merge pull request #300 from tgerring/jsonrpc
+Merge branch 'develop' into jsonrpc
+Merge branch 'sveneh-origin_develop' into develop
+Merge branch 'origin_develop' of https://github.com/sveneh/go-ethereum into sveneh-origin_develop
+Merge remote-tracking branch 'origin/develop' into develop
+Merge pull request #298 from alexvandesande/UI
+Merge pull request #296 from frewsxcv/patch-1
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #290 from Gustav-Simonsson/correct_block_parent_timestamp_check
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge commit '9d84609b3faf797f4a611587abdda3d6b3b07917' into develop
+Merge branch 'master' of https://github.com/ethereum/ethereum.js
+Merge branch 'tgerring-develop' into develop
+Merge branch 'develop' of https://github.com/tgerring/go-ethereum into tgerring-develop
+Merge pull request #287 from ethereum/system-testing
+Merge branch 'develop' into miner
+Merge branch 'develop' into miner
+Merge branch 'develop' of github.com:tgerring/go-ethereum into develop
+Merge pull request #55 from ethereum/develop
+Merge remote-tracking branch 'origin' into develop
+Merge branch 'develop' of github.com:tgerring/go-ethereum into develop
+Merge branch 'develop' into cpp
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #3 from ethereum/develop
+Merge branch 'bounty' into develop
+Merge branch 'bounty' into develop
+Merge branch 'bounty' into develop
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge branch 'develop'
+Merge branch 'qt5.4' of github.com-obscure:ethereum/go-ethereum into qt5.4
+Merge branch 'qt5.4' of github.com:ethereum/go-ethereum into qt5.4
+Merge branch 'cpp' into cpp2
+Merge branch 'develop' into qt5.4
+Merge branch 'develop' into qt5.4
+Merge branch 'develop' into Gustav-Simonsson-key_store_and_accounts_integration
+Merge branch 'develop' into qt5.4
+Merge branch 'key_store_and_accounts_integration' of https://github.com/Gustav-Simonsson/go-ethereum into Gustav-Simonsson-key_store_and_accounts_integration
+Merge branch 'jsonrpc' of github.com:ethereum/go-ethereum into jsonrpc
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge branch 'jsonrpc' into qt5.4
+Merge branch 'jsonrpc' of github.com-obscure:ethereum/go-ethereum into jsonrpc
+Merge branch 'develop' into qt5.4
+Merge branch 'jsonrpc' into qt5.4
+Merge branch 'develop' into jsonrpc
+Merge pull request #50 from winsvega/develop
+Merge branch 'chfast-pr/evmjit' into develop
+Merge branch 'pr/evmjit' of https://github.com/chfast/go-ethereum into chfast-pr/evmjit
+Merge branch 'key_store_and_accounts_integration' of https://github.com/Gustav-Simonsson/go-ethereum into Gustav-Simonsson-key_store_and_accounts_integration
+Merge branch 'develop' into cpp
+Merge branch 'master' into sync
+Merge branch 'develop' into sync
+Merge remote-tracking branch 'upstream/develop' into evmjit
+Merge remote-tracking branch 'upstream/develop' into pr/evmjit
+Merge branch 'develop' into jsonrpc
+Merge branch 'Gustav-Simonsson-import_presale_keys' into develop
+Merge branch 'import_presale_keys' of https://github.com/Gustav-Simonsson/go-ethereum into Gustav-Simonsson-import_presale_keys
+Merge branch 'pr/evmjit' of https://github.com/chfast/go-ethereum into chfast-pr/evmjit
+Merge commit 'b1971f46cce7d21be5f6277c9f8c406a0d195f78' into natspec
+Merge commit '93fa6855afad7a7eb86e49efe384372a6060da35' into natspec
+Merge commit 'b32dedc5b54f853cf63bb2663c8bca6aa4272b0b' into natspec
+Merge commit '8e3ba3a4285cc7e902a018196b3849df56944dd0' into natspec
+Merge commit 'cdd7af2a6e87363d0ff7d2528f9d9b521bf2ef20' into natspec
+Merge commit 'eb4984c0d036c1420e782ca136810e851e33fb37' into natspec
+Merge commit 'c4638ba3edbd14677da5441d61f7845668df2b22' into natspec
+Merge branch 'develop' into jsonrpc
+Merge commit '53b4fda16d0b191be8ab986379a328aa38aaf916' into natspec
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #259 from Gustav-Simonsson/develop
+Merge branch 'develop' of https://github.com/ethereum/tests into develop
+Merge commit '2b4d38b9bf059014596e1ab00c99dc2ad4ab3761' into ethereumjs
+Merge pull request #260 from fjl/rlp-encoder
+Merge pull request #32 from kumavis/patch-1
+Merge commit '6a383d6ed3fb37cf6739f6ac441652adfdb70463' into ethereumjs
+Merge commit '29333fc213b62b27ef826616cf77430947fb6eab' into ethereumjs
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #48 from sveneh/develop
+Merge commit 'd876522bc0614fea3180a54be57bcb61784b352e' into ethereumjs
+Merge pull request #257 from fjl/rlp-encoder
+Merge commit '1a6dbeff6e86d65cae6d7db366cbaa4182eaff7f' into ethereumjs
+Merge pull request #798 from LefterisJP/natspec_OnContractCreation
+Merge pull request #254 from chfast/pr/jitvm_stub
+Merge commit 'a1023a5dffee7c06e8b75a21f5c9b8826e820942' into develop
+Merge commit 'ab745d3b0eb89d67db1ed953020c665be3d072ed' into develop
+Merge branch 'tests' into develop
+Merge branch 'master' into develop
+Merge branch 'master' into tests
+Merge branch 'master' of https://github.com/ethereum/ethereum.js
+Merge branch 'develop' into tests
+Merge branch 'ethersphere-develop' into develop
+Merge branch 'develop' of https://github.com/ethersphere/go-ethereum into ethersphere-develop
+Merge branch 'master' into tests
+Merge branch 'master' of https://github.com/ethereum/ethereum.js
+Merge remote-tracking branch 'upstream/develop' into develop
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #244 from fjl/license-tool
+Merge pull request #22 from debris/strings
+Merge pull request #21 from debris/master
+Merge pull request #239 from fjl/grab-bag
+Merge pull request #235 from fjl/rlpdump
+Merge pull request #233 from fjl/rlpdump
+Merge branch 'ethersphere-eth.blockpool' into poc8
+Merge
+Merge branch 'poc8' into docbranch
+Merge branch 'docbranch' of github.com-obscure:ethereum/go-ethereum into docbranch
+Merge branch 'poc8' into docbranch
+Merge branch 'develop' into poc8
+Merge branch 'develop' into poc8
+Merge branch 'develop' into poc8
+Merge branch 'develop' into poc8
+Merge branch 'hotfix/0.7.11' into develop
+Merge branch 'hotfix/0.7.11'
+Merge remote-tracking branch 'origin/develop' into develop
+Merge branch 'develop' into poc8
+Merge pull request #217 from ethereum/tests
+Merge branch 'develop' into poc8
+Merge branch 'tests' of github.com:ethereum/go-ethereum into tests
+Merge pull request #216 from ethereum/develop
+Merge branch 'develop'
+Merge remote-tracking branch 'origin/develop' into develop
+Merge branch 'develop' into poc8
+Merge branch 'release/v0.7.10' into develop
+Merge branch 'release/v0.7.10'
+Merge branch 'ebuchman-badsig' into poc8
+Merge branch 'badsig' of https://github.com/ebuchman/go-ethereum into ebuchman-badsig
+Merge branch 'develop' into poc8
+Merge branch 'develop' of https://github.com/ethereum/tests into develop
+Merge fixes
+Merged develop
+Merge branch 'develop' into poc8
+Merge pull request #213 from ethereum/develop
+Merge pull request #15 from debris/master
+Merge pull request #211 from fjl/fix-server-disc
+Merge branch 'develop' into poc8
+Merge branch 'develop' into ethersphere-ethp2p
+Merge branch 'poc8' into develop
+Merge pull request #204 from fjl/fix-p2p-disconnect
+Merge branch 'poc8' into develop
+Merge pull request #206 from ethereum/tests
+Merge pull request #1 from Gustav-Simonsson/fix_reference_links
+Merge branch 'poc8' into develop
+Merge pull request #203 from fjl/rlp-fixes
+Merge branch 'poc8' into develop
+Merge branch 'fjl-feature/p2p-protocol-interface' into poc8
+Merge branch 'feature/p2p-protocol-interface' of https://github.com/fjl/go-ethereum into fjl-feature/p2p-protocol-interface
+Merge branch 'poc8' into develop
+Merge pull request #199 from ethereum/tests
+Merge pull request #42 from negedzuregal/fix
+Merge pull request #194 from ethereum/poc8
+Merge pull request #187 from honestmoney/develop
+Merge remote-tracking branch 'origin/develop' into develop
+Merge branch 'tests' into poc8
+Merge pull request #1 from cubedro/master
+Merge pull request #11 from debris/master
+Merge pull request #10 from debris/abi
+Merge remote-tracking branch 'origin/develop' into develop
+Merge pull request #39 from wanderer/develop
+Merge branch 'develop' into refactor
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #184 from fjl/feature/rlp
+Merge pull request #38 from wanderer/develop
+Merge pull request #37 from wanderer/develop
+Merge branch 'develop' of https://github.com/tgerring/go-ethereum into tests
+Merge branch 'develop' of https://github.com/tgerring/go-ethereum
+Merge pull request #13 from frewsxcv/master
+Merge pull request #12 from debris/master
+Merge pull request #10 from cubedro/master
+Merge pull request #11 from ethereum/revert-6-master
+Merge pull request #6 from frewsxcv/master
+Merge remote-tracking branch 'origin/develop' into develop
+Merge pull request #36 from wanderer/develop
+Merge pull request #35 from ethers/delOld
+Merge pull request #1 from tgerring/tests
+Merge pull request #9 from debris/autoprovider
+Merge pull request #8 from debris/autoprovider
+Merge branch 'debris-subprotocol_prefix_merge'
+Merge remote-tracking branch 'origin/develop' into develop
+Merge branch 'develop' of https://github.com/ethereum/tests into develop
+Merge pull request #6 from cubedro/develop
+Merge pull request #5 from cubedro/debris-error_handling_fix
+Merge branch 'debris-error_handling_fix' into develop
+Merge remote-tracking branch 'origin/develop' into develop
+Merge remote-tracking branch 'origin/develop' into develop
+Merge remote-tracking branch 'origin/develop' into develop
+Merge pull request #32 from ethers/indexjs
+Merge pull request #1 from cubedro/example
+Merge remote-tracking branch 'origin/develop' into develop
+Merge pull request #31 from CJentzsch/develop
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #1 from debris/master
+Merge pull request #167 from fjl/feature/split-tx-event
+Merge pull request #166 from fjl/fix/mist-quit
+Merge pull request #168 from fjl/feature/working-tests
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #152 from ethersphere/p2p
+Merge pull request #150 from fjl/develop
+Merge eth-go repository into go-ethereum
+Merge branch 'master' into develop
+Merge pull request #148 from waffle-iron/master
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #149 from JosephGoulden/develop
+Merge remote-tracking branch 'origin/master' into develop
+Merge pull request #26 from wanderer/develop
+Merge pull request #141 from thibauld/develop
+Merge pull request #62 from fjl/fuck
+Merge pull request #138 from erezwanderman/fixwindows
+Merge pull request #139 from fjl/feature/simpler-log-system
+Merge pull request #59 from fjl/feature/raceless-ethlog
+Merge pull request #58 from fjl/feature/event
+Merge pull request #140 from fjl/feature/event
+Merge pull request #23 from ethers/fix22
+Merge branch 'master' into develop
+Merge branch 'master' into develop
+Merge pull request #137 from caktux/master
+Merge pull request #136 from fjl/feature/raceless-ethereum-filters
+Merge branch 'develop' of github.com-obscure:ethereum/eth-go into develop
+Merge pull request #57 from fjl/feature/raceless-ethereum-filters
+Merge pull request #56 from fjl/feature/raceless-eventer
+Merge remote-tracking branch 'origin/develop'
+Merge pull request #18 from CJentzsch/develop
+Merge remote-tracking branch 'origin/develop' into develop
+Merge pull request #17 from CJentzsch/develop
+Merge remote-tracking branch 'upstream/develop' into develop
+Merge branch 'release/0.6.8' into develop
+Merge branch 'release/0.6.8'
+Merge pull request #16 from CJentzsch/develop
+Merge remote-tracking branch 'upstream/develop' into develop
+Merge pull request #15 from CJentzsch/develop
+Merge remote-tracking branch 'upstream/develop' into develop
+Merge pull request #14 from CJentzsch/develop
+Merge remote-tracking branch 'upstream/develop' into develop
+Merge pull request #13 from CJentzsch/develop
+Merge branch 'release/0.6.7' into develop
+Merge branch 'release/0.6.7' into develop
+Merge branch 'release/0.6.7'
+Merge branch 'master' into develop
+Merge pull request #52 from nicksavers/winfix
+Merge branch 'master' into develop
+Merge branch 'master' into develop
+Merge branch 'release/0.6.6' into develop
+Merge branch 'release/0.6.6'
+Merge branch 'release/0.6.6' into develop
+Merge branch 'release/0.6.6'
+Merge branch 'tmp' into develop
+Merge branch 'develop'
+Merge branch 'hotfix/0.6.5-2' into develop
+Merge branch 'hotfix/0.6.5-2'
+Merge branch 'hotfix/0.6.5-3' into develop
+Merge branch 'hotfix/0.6.5-3'
+Merge branch 'hotfix/0.6.5-2' into develop
+Merge branch 'hotfix/0.6.5-2'
+Merge branch 'develop'
+Merge branch 'hotfix/0.6.5-1' into develop
+Merge branch 'hotfix/0.6.5-1'
+Merge branch 'hotfix/0.6.5-1' into develop
+Merge branch 'hotfix/0.6.5-1'
+Merge branch 'release/0.6.5' into develop
+Merge branch 'release/0.6.5'
+Merge branch 'release/0.6.5' into develop
+Merge branch 'release/0.6.5'
+Merge branch 'JosephGoulden-develop' into develop
+Merge branch 'develop' of https://github.com/JosephGoulden/go-ethereum into JosephGoulden-develop
+Merge remote-tracking branch 'upstream/develop' into develop
+Merge branch 'develop' of github.com-obscure:ethereum/eth-go into develop
+Merge branch 'master' into develop
+Merge pull request #49 from WeMeetAgain/develop
+Merge branch 'feature-pushtx' into develop
+Merge branch 'master' into develop
+Merge branch 'release/0.6.4' into develop
+Merge branch 'release/0.6.4'
+Merge branch 'release/0.6.4'
+Merge branch 'release/0.6.4' into develop
+Merge branch 'release/0.6.4'
+Merge branch 'release/0.6.3' into develop
+Merge branch 'release/0.6.3'
+Merge branch 'release/0.6.3' into develop
+Merge branch 'release/0.6.3'
+Merge branch 'release/0.6.3'
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge branch 'develop' of github.com-obscure:ethereum/eth-go into develop
+Merge pull request #115 from ethersphere/develop
+Merge pull request #43 from ethersphere/develop
+Merge branch 'develop' of github.com:ethereum/eth-go into develop
+Merge branch 'ethersphere-feature/ethutil-refactor' into develop
+Merge branch 'ethersphere-feature/ethutil-refactor' into develop
+Merge branch 'feature/ethutil-refactor' of https://github.com/ethersphere/eth-go into ethersphere-feature/ethutil-refactor
+Merge branch 'release/0.6.0' into develop
+Merge branch 'release/0.6.0'
+Merge branch 'release/0.6.0' into develop
+Merge branch 'release/0.6.0'
+Merge branch 'feature/new_vm' into develop
+Merge branch 'feature/refactor_vm' into develop
+Merge branch 'master' into develop
+Merge branch 'develop' of github.com-obscure:ethereum/eth-go into develop
+Merge branch 'master' into develop
+Merge branch 'master' into develop
+Merge branch 'develop' of github.com:ethereum/eth-go into feature/ethutil-refactor
+Merge branch 'develop' of github.com:ethereum/go-ethereum into feature/ethutil-refactor
+Merge branch 'master' into develop
+Merge branch 'develop' into guiminer
+Merge branch 'develop'
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge branch 'develop' of github.com-obscure:ethereum/eth-go into develop
+Merge branch 'develop' of github.com-obscure:ethereum/eth-go into develop
+Merge branch 'develop' of github.com:ethereum/go-ethereum into feature/ethutil-refactor
+Merge branch 'develop'
+Merge branch 'develop' of github.com-obscure:ethereum/eth-go into develop
+Merge branch 'develop'
+Merge pull request #101 from ethereum/revert-100-feature/ethutil-refactor
+Merge pull request #34 from ethereum/revert-33-feature/ethutil-refactor
+Merge pull request #100 from ethersphere/feature/ethutil-refactor
+Merge branch 'develop' of github.com-obscure:ethereum/eth-go into develop
+Merge pull request #33 from ethersphere/feature/ethutil-refactor
+Merge branch 'develop' of github.com:ethereum/eth-go into feature/ethutil-refactor
+Merge branch 'develop' of github.com:ethereum/go-ethereum into feature/ethutil-refactor
+Merge branch 'develop' of github.com:ethereum/eth-go into feature/ethutil-refactor
+Merge pull request #10 from romanman/patch-1
+Merge branch 'develop'
+Merge branch 'develop'
+Merge branch 'ethersphere-feature/clientid' into develop
+Merge branch 'develop' of github.com-obscure:ethereum/eth-go into develop
+Merge branch 'ethersphere-feature/clientid' into develop
+Merge branch 'feature/clientid' of https://github.com/ethersphere/eth-go into ethersphere-feature/clientid
+Merge pull request #32 from josephyzhou/develop
+Merge branch 'develop' of github.com:ethereum/eth-go into feature/clientid
+Merge branch 'develop' of github.com:/ethereum/tests into develop
+Merge branch 'develop'
+Merge branch 'develop'
+Merge branch 'develop'
+Merge branch 'release/0.5.16' into develop
+Merge branch 'release/0.5.16'
+Merge pull request #28 from ethersphere/feature/keys
+Merge pull request #96 from ethersphere/feature/keys
+Merge branch 'develop' of github.com:ethereum/go-ethereum into feature/keys
+Merge branch 'develop' of github.com-obscure:ethereum/eth-go into develop
+Merge branch 'develop' of github.com:ethereum/eth-go into develop
+Merge branch 'ethersphere-feature/keys' into develop
+Merge branch 'feature/keys' of https://github.com/ethersphere/go-ethereum into ethersphere-feature/keys
+Merge branch 'ebuchman-miner_up_to_date' into develop
+Merge branch 'develop' into interop
+Merge branch 'develop' of github.com-obscure:ethereum/eth-go into develop
+Merge branch 'develop' of github.com:ethereum/go-ethereum into feature/keys
+Merge branch 'master' into develop
+Merge pull request #27 from ethersphere/bugfix/ethchain-test
+Merge branch 'master' of github.com-obscure:ethereum/eth-go
+Merge branch 'develop'
+Merge pull request #26 from ethersphere/master
+Merge branch 'develop'
+Merge branch 'develop'
+Merge branch 'release/0.5.15' into develop
+Merge branch 'release/0.5.15'
+Merge branch 'release/0.5.15' into develop
+Merge branch 'release/0.5.15'
+Merge branch 'develop' into release/0.5.15
+Merge branch 'develop' into release/0.5.15
+Merge branch 'ethersphere-feature/logging' into develop
+Merge branch 'ethersphere-feature/logging' into develop
+Merge branch 'develop' of github.com:ethereum/go-ethereum into feature/logging
+Merge remote-tracking branch 'upstream/develop' into feature/logging
+Merge branch 'develop' of github.com-obscure:ethereum/eth-go into develop
+Merge remote-tracking branch 'upstream/develop' into feature/logging
+Merge branch 'develop' of github.com-obscure:ethereum/eth-go into develop
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge branch 'develop' of github.com:ethereum/go-ethereum into develop
+Merge branch 'release/0.5.14' into develop
+Merge branch 'release/0.5.14'
+Merge branch 'release/0.5.14' into develop
+Merge branch 'release/0.5.14'
+Merge branch 'develop' of github.com:ethereum/go-ethereum into develop
+Merge branch 'develop' of github.com-obscure:ethereum/eth-go into develop
+Merge branch 'feature/peers' into develop
+Merge branch 'develop' of github.com:ethereum/eth-go into develop
+Merge branch 'develop' of github.com:ethereum/eth-go into develop
+Merge branch 'release/0.5.13' into develop
+Merge branch 'release/0.5.13'
+Merge branch 'release/0.5.13' into develop
+Merge branch 'release/0.5.13'
+Merge branch 'develop' of github.com:ethereum/go-ethereum into develop
+Merge branch 'develop' into interop
+Merge branch 'develop' into interop
+Merge branch 'release/poc5-rc12' into develop
+Merge branch 'release/poc5-rc12'
+Merge branch 'release/poc5-rc12' into develop
+Merge branch 'release/poc5-rc12'
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge branch 'develop'
+Merge branch 'develop'
+Merge branch 'develop'
+Merge branch 'master' of github.com:ethereum/tests into develop
+Merge branch 'develop'
+Merge branch 'develop'
+Merge branch 'develop'
+Merge branch 'develop'
+Merge branch 'release/poc5-rc11' into develop
+Merge branch 'release/poc5-rc11'
+Merge branch 'release/poc5-rc11' into develop
+Merge branch 'release/poc5-rc11'
+Merge branch 'develop' of github.com:ethereum/eth-go into develop
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge branch 'master' into develop
+Merge branch 'develop' of github.com-obscure:ethereum/eth-go into develop
+Merge branch 'develop' of github.com:ethereum/eth-go into develop
+Merge branch 'hotfix/2' into develop
+Merge branch 'hotfix/2'
+Merge branch 'develop'
+Merge branch 'release/poc5-rc10' into develop
+Merge branch 'release/poc5-rc10'
+Merge branch 'release/poc5-rc10' into develop
+Merge branch 'release/poc5-rc10'
+Merge branch 'develop' of github.com-obscure:ethereum/eth-go into develop
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge branch 'develop' of github.com:ethereum/eth-go into develop
+Merge branch 'develop' of github.com-obscure:ethereum/eth-go into develop
+Merge branch 'develop' of github.com:ethereum/go-ethereum into develop
+Merge branch 'release/poc5-rc9' into develop
+Merge branch 'release/poc5-rc9'
+Merge branch 'release/poc5-rc9' into develop
+Merge branch 'release/poc5-rc9'
+Merge branch 'develop' of github.com:ethereum/go-ethereum into develop
+Merge branch 'develop' of github.com:ethereum/go-ethereum into develop
+Merge pull request #5 from bkirwi/master
+Merge pull request #4 from ethers/master
+Merge branch 'develop' of github.com:ethereum/go-ethereum into develop
+Merge branch 'develop'
+Merge branch 'release/poc5-rc8' into develop
+Merge branch 'develop' of github.com-obscure:ethereum/eth-go into develop
+Merge branch 'release/poc5-rc8' into develop
+Merge branch 'release/poc5-rc8'
+Merge branch 'release/poc5-rc8'
+Merge branch 'develop' of github.com:ethereum/eth-go into develop
+Merge branch 'develop' of github.com:ethereum/go-ethereum into develop
+Merge branch 'hotfix/4' into develop
+Merge branch 'hotfix/4'
+Merge branch 'master' into develop
+Merge branch 'hotfix/3' into develop
+Merge branch 'hotfix/3'
+Merge branch 'hotfix/2' into develop
+Merge branch 'hotfix/2'
+Merge branch 'hotfix/1' into develop
+Merge branch 'hotfix/1'
+Merge branch 'release/poc5-rc7' into develop
+Merge branch 'release/poc5-rc7'
+Merge branch 'release/poc5-rc7' into develop
+Merge branch 'release/poc5-rc7'
+Merge branch 'develop' of github.com-obscure:ethereum/eth-go into develop
+Merge branch 'develop' of github.com-obscure:ethereum/eth-go into develop
+Merge pull request #21 from nicksavers/patch-1
+Merge branch 'develop' of github.com-obscure:ethereum/eth-go into develop
+Merge branch 'develop' of github.com:ethereum/eth-go into develop
+Merge branch 'feature/otto' into develop
+Merge branch 'release/poc5-rc6' into develop
+Merge branch 'release/poc5-rc6' into develop
+Merge branch 'release/poc5-rc6'
+Merge branch 'release/poc5-rc6'
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge branch 'develop' of github.com:ethereum/eth-go into develop
+Merge branch 'develop'
+Merge branch 'develop'
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge branch 'develop'
+Merge branch 'develop' of github.com-obscure:ethereum/eth-go into develop
+Merge branch 'release/poc5-rc4' into develop
+Merge branch 'release/poc5-rc4'
+Merge branch 'release/poc5-rc4'
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge branch 'develop' of github.com-obscure:ethereum/eth-go into develop
+Merge branch 'develop' of github.com:ethereum/go-ethereum into develop
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge branch 'develop' of github.com:ethereum/go-ethereum into develop
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge branch 'release/poc5-rc3' into develop
+Merge branch 'release/poc5-rc3'
+Merge branch 'release/poc5-rc3' into develop
+Merge branch 'release/poc5-rc3'
+Merge branch 'release/poc5-rc2' into develop
+Merge branch 'release/poc5-rc2'
+Merge branch 'release/poc5-rc2' into develop
+Merge branch 'release/poc5-rc2'
+Merge branch 'develop' of github.com:ethereum/eth-go into develop
+Merge branch 'develop' of github.com-obscure:ethereum/eth-go into develop
+Merge branch 'release/poc5-rc1' into develop
+Merge branch 'release/poc5-rc1'
+Merge branch 'release/poc5-rc1' into develop
+Merge branch 'release/poc5-rc1'
+Merge branch 'develop' into feature/rpc
+Merge branch 'develop' into feature/rpc
+Merge branch 'develop' into feature/rpc
+Merge branch 'develop' into feature/rpc
+Merge branch 'develop' into feature/rpc
+Merge branch 'develop' into feature/rpc
+Merge pull request #34 from compleatang/develop
+Merge pull request #3 from autolycus/develop
+Merge
+Merged accounts and contracts in to StateObject
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge branch 'develop' of github.com:ethereum/go-ethereum into develop
+Merge
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge branch 'split' into develop
+Merge branch 'develop' of github.com-obscure:ethereum/eth-go into develop
+Merge branch 'feature/mnemonic' into develop
+Merge pull request #32 from cabreraalex/develop
+Merge branch 'develop' into feature/mnemonic
+Merge branch 'develop' into feature/mnemonic
+Merge branch 'miner' of github.com-obscure:ethereum/eth-go into miner
+Merge branch 'develop' into miner
+Merge branch 'develop' into miner
+Merge conflicts
+Merge branch 'master' into develop
+Merge pull request #31 from ethersphere/master
+Merge master into miner branch
+Merge branch 'master' into miner
+Merge branch 'develop' of https://github.com/WeMeetAgain/go-ethereum into WeMeetAgain-develop
+Merge branch 'develop' into miner
+Merge conflicts
+Merge conflicts
+Merge
+Merge branch 'develop' of https://github.com/jarradh/eth-go into jarradh-develop
+Merge branch 'develop' of github.com-obscure:ethereum/eth-go into develop
+Merge pull request #10 from mquandalle/patch-1
+Merge branch 'master' into develop
+Merge branch 'develop' of github.com-obscure:ethereum/go-ethereum into develop
+Merge pull request #21 from jarradh/master
+Merge branch 'hotfix/0.3.1' into develop
+Merge branch 'hotfix/0.3.1'
+Merge branch 'develop'
+Merge branch 'develop' of https://github.com/james-c/eth-go into james-c-develop
+Merge branch 'release/0.3.0' into develop
+Merge branch 'release/0.3.0'
+Merge branch 'release/0.3.0' into develop
+Merge branch 'release/0.3.0'
+Merge branch 'goleveldb_fix' into develop
+Merge pull request #8 from josephyzhou/develop
+Merge branch 'develop' of github.com-obscure:ethereum/eth-go into develop
+Merge pull request #5 from sdboyer/iotas
+Merge pull request #6 from sdboyer/genisis
+Merge pull request #7 from sdboyer/vet-fixes
+Merge pull request #3 from josephyzhou/develop
+Merge branch 'master' into develop
+Merge branch 'hotfix/0.2.2-1' into develop
+Merge branch 'hotfix/0.2.2-1'
+Merge branch 'release/0.2.2' into develop
+Merge branch 'release/0.2.2'
+Merge branch 'release/0.2.2' into develop
+Merge branch 'release/0.2.2'
+Merge branch 'master' of github.com-obscure:ethereum/go-ethereum
+Merge pull request #10 from josephyzhou/master
+Merge pull request #11 from hiddentao/readme
+Merge branch 'master' into readme
+Merge branch 'master' of github.com-obscure:ethereum/go-ethereum
+Merge pull request #9 from josephyzhou/master
+Merge branch 'master' of github.com-obscure:ethereum/go-ethereum
+Merge pull request #4 from stephantual/master
+Merge pull request #1 from obscuren/master
+Merge branch 'master' of github.com:ethereum/tests

@@ -1,0 +1,806 @@
+Fix live_reload config tests (#5105)
+Fix layouts module in component guide (#5095)
+Typo Fix: Missing curly bracket added. (#5094)
+Fix broken live_reload (#5082)
+Fix hello_html directory name (#5093)
+Fix typo: sigining -> signing (#5088)
+Fix "Deploy your application" link (#5086)
+Fix html folder documentation (#5087)
+Fix phx.gen.auth templates for --no-live (#5081)
+Fix select multiple name (#5069)
+Fix specs for put_layout, put_new_layout and put_root_layout (#5062)
+Fix console formatter
+Fix translate_error/1 for phx.new and phx.gen.live generators with --no-gettext option (#5066)
+Fix CI
+Fix tests
+Fix commas
+Fix fallback format match error. Closes #5053
+Fix attr typing (#5043)
+Fix integration tests
+Fix integration_test and format a few more templates (#5057)
+Fix authentication forms (LiveView variant) (#5050)
+Fix suite on Elixir v1.15-dev
+Fix umbrella web file generation. Closes #5060
+Fix typespec for put_new_layout/2 and put_new_view/2 (#5040)
+Fix minor typo in `phx.digest` comment (#5054)
+Fix typo (#5055)
+Fix phx.digest test
+Fix missing changelog entries (#4996)
+Fix incorrect link (#5049)
+Fix core components placement
+Fix build
+Fix warning on latest Elixir
+Fix reconnecting websockets on heartbeat timeout (#4921)
+Fix wildcard check_origin vulnerability.
+Fix and format all templates files (#4820)
+Fix current password label for settings page template (#4995)
+Fix missing select type
+Fix: Verified route in mix phx.gen.auth confirmation_edit.html.heex (#4976)
+Fix bug in sigil_p query encoding (#4988)
+Fix closing tags in documentation code examples (#4985)
+Fix markdown issues (#4972)
+Fix typos (#4971)
+Fix typo (#4963)
+Fix double warnings
+Fix typo (#4936)
+Fix typos (#4958)
+Fix Dockefile reference
+Fix typo (#4932)
+Fix minor typo when generating cache manifest comment (#4913)
+Fix spec closes #4514
+Fix heartbeat after disconnect. Closes #4623
+Fix socket binary reply (#4896)
+Fix a bug that remove the Telemetry when ecto is disabled (#4907)
+Fix api scope
+Fix deprecation warnings from Elixir v1.15-dev
+Fix test
+Fix gen channel task. (#4901)
+Fix reference to UserSocket module in setup block (#4809)
+Fix templates
+Fix Brotli Compressor example (#4857)
+Fix minor typo in Context guide (#4851)
+Fix JSON response @spec (#4830)
+Fix Fly.io Login link (#4826)
+Fix race
+Fix punctuation and grammar issues in guides (#4811)
+Fix phx.gen.release ecto_sql check (#4796)
+Fix CI
+Fix tests
+Fix npm tests
+Fix warnings
+Fix list indentation in auth guide. (#4753)
+Fix `LongPoll` callbacks in JS client (#4718)
+Fix docs warning on Phoenix.Logger
+Fix incorrect html (#4703)
+Fix syntax highlighting in a socket config (#4717)
+Fix indentation (#4680)
+Fix missing bracket in presence guide (#4664)
+Fixing spelling mistake in app.js (#4663)
+Fix test failure
+Fix docker stop timeout with phx.gen.release (#4650)
+Fix broken `check_origin: :conn` (#4649)
+Fix two tense issues in sentences. (#4643)
+Fix socket opts.params documentation (#4636)
+Fix content of warning messages in phx.gen.release (#4635)
+Fix app name in phx.gen.release docs (#4624)
+Fix warning
+Fix installer tests
+Fix js build
+Fix typo in gen.auth instructions (#4606)
+Fix a couple of minor typos (#4596)
+Fix doc (#4599)
+Fix link to phoenix javascript files (#4589)
+assets app.js: Fix relative path in comment (#4552)
+Fix typo in Deploying with Releases guide (#4547)
+Fix small typo in gen.auth docs (#4558)
+Fix JavaScript Socket documentation (#4562)
+Fix spec error (#4555)
+Fix warnings on Elixir v1.13+
+Fix base file for js documentation (#4543)
+Fix installer, update external flag for esbuild
+Fix race on logging duplicate channel join
+Revert "Fix Dockerfile in guides/deployment/releases.md (#4531)" (#4533)
+Fix Dockerfile in guides/deployment/releases.md (#4531)
+Fix typos in the Views and templates guide (#4515)
+Fix links in ecto.md (#4511)
+Fixing doc to make example work with Phoenix 1.6 (#4516)
+Fix typo in `maybe_print_mailer_installation_instructions/1` (#4498)
+Fix LongPoll readyState check (#4483)
+Fix formatting in Joining Channels example (#4494)
+Fix bug causing outdated messages to be delivered to same topic
+Fixed typo in contexts.md (#4459)
+Fix broken hook command on heroku.md (#4455)
+Fixes type in contexts documentation (#4439)
+Fix typos in documentation (#4438)
+Fix dockerfile (#4447)
+Fix minor typos in umbrella and single configs (#4415)
+Fix: remove roles navigation + main (#4407)
+Fix CI on Elixir v1.13
+Fix typo in generated config/runtime.exs (#4382)
+Fix the mime.types url (#4374)
+Fix default Swoosh adapter for mailer generator (#4360)
+Fix presence onJoin including current metadata in new presence. Closes #3475
+Fix multi-stage build args in dockerfile example (#4306)
+Fix js docs
+Fix phx_new installer test by copying new phoenix.js file
+Fix Elixir master warning
+Fix formatter tests
+Fix build
+Fixes #4302: changed def -> defp (#4303)
+Fix minor spelling issues (#4304)
+Fix presence example description (#4287)
+Fix indentation in Markdown list. (#4274)
+Fix router helper (#4282)
+Fix minor typos in Channels guide (#4255)
+Fix code instructions in How-to: Custom Error Pages (#4245)
+Fix links in Views guide (#4244)
+Fix singular form in context task message (#4238)
+Fix unexpected event errors in telemetry routing tests (#4229)
+Fix flaky Phoenix.Config test (#4223)
+Fix EchoSocket example code (#4220)
+Fix warnings on Erlang/OTP 24
+Fix docs warnings, closes #4176
+Fix bug in Plug guide code (#4179)
+Fix Documentation Links (#4161)
+Fix typos (#4136)
+Fix a typo (#4132)
+Fix Channel and Endpoint typespecs (#4125)
+Fix code typo in Router documentation (#4122)
+Fix typo in Gigalixir word (#4116)
+Fix unbalanced brackets in current_path() example. (#4113)
+Fix arity of Ecto.Changeset.put_change in guide (#4090)
+Fix build
+Fix typo in Phoenix.Channels docs (#4084) (#4085)
+Fix typo. Closes #4084
+Fix typo in contexts guide (#4075)
+Fix failing CI
+Fix typo (#4066)
+Fix phx.gen.live for checkboxes, closes #4065
+Fix heisentest
+Fix tests generated by --live generator (#4050)
+Fix formatting with phx.gen.json generated code (#4033)
+Fix formatting with phx.gen.html generated code (#4031)
+Fix tests generated by --live generator (#4017)
+Fix :eaddrinuse errors when running in CI (#3999)
+Fix mix task name in info text (#3968)
+Fix typo in views.md (#3971)
+Fix Phoenix.Router.Route.build/13 spec (#3973)
+Fix broken link to Gettext in docs (#3984)
+Fix some typos (#3988)
+Fix warning on test suite
+Fix typos and grammar in guides
+Fix typos in guides (#3951)
+Fix some small typos in the 'Testing' guides (#3943)
+Docs: Fix Presence docs code typo (#3942)
+Fix typo in guides (#3930)
+Fix broken link to contexts guide (#3925)
+Fix plugs as composition example (#3908)
+Fix some missed pipeline usage in admin scope cases (#3909)
+Fix typos in guides (#3910)
+Fix migrate task description (#3911)
+Fix bug in presence documentation example (#3913)
+Fix typo (#3902)
+Fix references to Phoenix.Presence.list/1 (#3901)
+Fix sentence "we will the" (#3904)
+Fix sentence
+Fix tests on latest plug
+Fix telemetry event to match docs and telemetry spec
+Fixed typos and improved parts of sentences. (#3898)
+Fix typo in documentation (#3890)
+Fix typos. (#3864)
+Fix test filename in `testing controllers` doc (#3867)
+Fix a typo in the docs for testing controllers (#3858)
+Fix a few minor typos in guides (#3845)
+Fix Endpoint.socket/3 docs reference to "Shared configurations" (#3843)
+Fix variable name in code example for presence doc (#3831)
+Fix Cowboy.Drainer link (#3830)
+Fix syntax highlighting for an example test (#3833)
+Fix Cowboy.Drainer link (#3823)
+Fix formatting of generated *_live_test.exs (#3820)
+Fix docs refs (#3817)
+Fix grammar (#3816)
+Fixed typo: introspect (#3810)
+Fix grammar in plug guide (#3795)
+Fix minor typo in phoenix/guides/routing.md (#3794)
+Fix link in testing guide (#3791)
+Fix type in Views guide page (#3787)
+Fix grammar in view guide (#3789)
+Fix typo error in the word structured (#3788)
+Fix guide link
+Fix version number before link to v1.5 changelog (#3782)
+Fix guides: plug code typo (#3784)
+Fix broken link (#3779)
+Fix typo (#3775)
+Fix broken link in Deploying with Heroku guide (#3773)
+Fix umbrella no html (#3778)
+Fixes gettext links in guide documentation (#3770)
+Fix tiny typo (#3765)
+Fix helper paths for phx.gen.live with --web (#3760)
+Fix dashboard installer, closes #3740, closes #3751 (#3755)
+Fix implementation (and docs) for logging requests (#3750)
+Fixing spelling error (#3748)
+Fix typo in Live index template (#3752)
+Fix devMode in webpack.config.js (#3725)
+Fix hero styling
+Fix Phoenix.Ecto.CheckRepoStatus name in changelog (#3673)
+Fix warnings
+Fix some warnings
+Fix build
+Fix file path formatting (#3660)
+Fix typo in `test/conn_test.ex` (#3648)
+Fix error handling when joining a channel using LongPoll (#3616)
+Fix on latest Elixir
+Fix typo (#3633)
+Fix typo (#3628)
+Fix inconsistency in generated docs (#3617)
+Fix typo and improve wording in routing.md guide (#3626)
+Fix typos (#3623)
+Fix typo in compile-time configuration (#3620)
+Fix blame in Phoenix.ActionClauseError (#3594)
+Fix 404 on "Using MySQL" link (#3604)
+Fix `ConnTest` and `Contributing` typos (#3613)
+Fix typo (#3606)
+Fix typos in endpoint and socket docs (#3602)
+Fix indentation for Socket.assigns/3 example (#3601)
+Fix typo (#3595)
+Fix typo
+Fix trivial ui issue (#3500)
+Fix `build/12` @spec (#3543)
+Fixed regex in default live_reload config (#3534)
+Fixed wrong documentation on phoenix endpoint watcher (#3529)
+Fix dead links to cowboy docs & examples (#3528)
+Fix typo in router docs (#3526)
+Fix typo in heroku.md (#3522)
+Fix typo in testing guide (#3491)
+Fix typo, should be handle_in/3 (#3471)
+ Fix rollback/2 in releases guide (#3489)
+Fix Cowboy WebSocket error handling (#3497)
+Fix deployment link on Releases Guide (#3476)
+Fix 2nd code sample of "Contexts/FAQ/Strategies for cross-context workflows" section (#3425)
+Fix Dockerfile build dependency (#3457)
+Fix wrong version in CHANGELOG
+Fixed template example field name (#3434)
+Fixes to Ecto guides
+Fix Multi.run usage in contexts guide (#3440)
+Fix channel join and immediate leave entering rejoin loop. Closes #3349
+Fix typo (#3416)
+Fix typo (#3413)
+Fix secrets related info in Deployment docs (#3406)
+Fixing mix ecto.drop documentation typo (#3405)
+Fix URL generation, closes #3392
+Fix outdated docs. Closes #3323
+Fix caniuse-lite warning about deprecated version. (#3384)
+Fixed typos in installer template docs. (#3386)
+Fix missing prod secret import for umbrellas
+Fixed logic issue in `Phoenix.Digester.uncompressed_digested_file?`. (#3383)
+Fix value encoding in json generator controller test update method (#3368)
+Fix put_secure_browser_headers/2 docs (#3347)
+Fix json typo. Closes #3341
+Fix log warning race for phx_leave
+Fix warnings for optional deps
+Fix unused var
+Fix unused var
+Fix documentation generated in prod.exs (#3299)
+Fix docs
+Fix Typo (#3303)
+Fix sentence in Ecto guide (#3283)
+Revert reconnect optimizations which introduced regressions. Fixes #3161 (#3272)
+Fix warning in presence
+Add jason to umbrella ecto deps. Fixes #3263
+Fix references in guides (#3251)
+Fix Controller.put_flash and Presence.list arities in docs (#3232)
+Fix the Elixir minimum version on guide to 1.5 (#3229)
+Fixup docs
+Fix Mocha warning about --compilers (#3183)
+Fix typo - also created to also create (#3185)
+Fix code block format (#3184)
+Fix errors_on when using array field changeset
+Fix doc rendering bugs (#3191)
+Fix missing json config for phx.new.web task. Closes #3121
+Fix Phoenix.js ES5 output, upgrade webpack (#3126)
+Fix :utc_datetime default params string representation
+Fix js build
+Fix/building docs (#3088)
+Fix match for < OTP 20
+Fix Mix task name in message
+Fix path to dev config for non-umbrella
+Fix typespec for ConnTest.bypass_through/3 (#3086)
+Fix fetching the wrong version of cowboy when deps update (#3080)
+Fix warning about cowboy_websocket behaviour (#3078)
+Fix incorrect assert in websocket channel test (#3075)
+Fix json test inconsistent formatting
+Fix security warnings for node growl
+Fix URL
+Fix invalid type
+Fix Phoenix.Controller.layout/1 spec (#3057)
+Fix whitespace checks in installer tests
+Fixes the `references` switch should requires an explict fkey name.
+Fix app config in namespaced umbrella apps (#3031)
+Fix typo
+Fix CI failures
+Fix incorrect key name (#2962)
+Fix typos and minor code changes to avoid confusion (#2979)
+Fix context alias generation (#2972)
+Fix typo in testing_controllers.md (#2970)
+Fix unnecessary quotes warning in generated app (#2964)
+Fix link to adding pages (#2958)
+Fix multiple routes causing errors on unique helper clauses. Closes #2864 (#2954)
+Fix a tiny typo in the endpoint.ex (#2946)
+Fix syntax and typo in controller.ex (#2943)
+Fix build
+Fixed link error to mix tasks page (#2932)
+Fix generated channel tests, closes #2922
+Fix off by one error in pool supervisor, closes #2908
+Do no not try to reconnect after explicit disconnect. Fixes #2857
+Fix installer umbrella tests
+Fix bug causing undefined __channel__ on unmatched topics. Closes #2901
+Fix typo in channel docs (#2882)
+Fix typo in bypass_through docs (#2880)
+Fix warning in render errors suite
+Fix typo and redundancy in remark. (#2870)
+Fix installer archive installation instructions to use prod build (#2863)
+Fix invalid layout markup
+Fix app reference. Closes #2815
+Fix typo on channel documentation (#2812)
+Expand router forward aliases inside scope. Fixes #2794
+Fix typo in generator help: inteded -> intended (#2807)
+Fix typo
+Fix race when presence diff arrives before state. Closes #2255 (#2763)
+Fix typo in file path
+Fix indent
+Fix missing warning for json library
+Fix Elixir versions in build matrix (#2748)
+Fix issue when umbrella apps don’t use `web` in the name (#2741)
+Fix v1.6 warning
+Fix Channel.terminate/2 callback specification (#2718)
+Fix non-working example usage in phx.server doc (#2697)
+Fix a typo in the Views guide (#2695)
+Fix atom colon location (#2677)
+Fixup docs
+Fixup docs
+Fix typo in example.
+Fixup docs
+Fix function ErrorView.render/2 is undefined (#2673)
+Fix for dialyzer with `build_conn` (#2669)
+Fix the generated code of the ecto repo  (#2650)
+Fix Plog.Conn typo to Plug.Conn (#2652)
+Fix function arity in Views guide (#2653)
+Fix direct link to endpoint API docs (#2640)
+Fix json values when generating controller tests. Closes #2618
+Fix generated error view tests
+Fix typo (#2595)
+Fix phoenix.js documentation (#2590)
+Fix all misaligned code blocks on routes guide (#2574)
+Fix minor typos and backtick quotes (#2573)
+Fix alignment of `mix phx.routes` sample output in routing guide (#2572)
+Fix reraising errors (#2568)
+Fix test warnings
+Fix typo in guides/docs/views.md (#2565)
+Fixed errors in the documentation in the phx.gen.presence/presence.ex template and phx.gen.presence.ex file (#2554)
+Fix broken link (#2548)
+Fix install instructions for brunch in umbrellas. Closes #2545
+Fixes 'boostrap' to 'bootstrap' in phx.gen.context (#2541)
+Fix error formatting
+Endpoint: Fix a spelling error in the @moduledoc (#2527)
+Fix broken link to mix tasks in Ecto guide (#2520)
+Fix "not not" typo in controller guides
+Fix doc (#2508)
+Fix typo in routing guide (#2494)
+Fix typo. (#814)
+Fix a typo on the Channels page (#808)
+Fix typo in channels.md (#811)
+Fix typos and improve readability
+Fix deprecated links. Closes ##2463
+Fix typo and capitalize HTTP and HTTPS (#2450)
+Fix doc typo in lib/phoenix/controller.ex (#2455)
+Fix module call Endpoint as HelloWeb.Endpoint after call 'iex -S mix' (#769)
+Fix context generator command in contexts guide (#766)
+Fix typo in view guide (#763)
+Fixed file path
+Fix various formatting issues and typos (#755)
+Fix formatting of various guides (#738)
+Fix typo: "what about a our" -> "what about our" in context guide (#750)
+Fixes typo in function name (#756)
+Fix typo in views guide (#754)
+Fix nested web namespace route generation. Closes #2425
+Fix GenStage link in Running Asynchronous Tasks (#733)
+Fix typos in contexts guide
+Fix link to context guide
+Fix: Typo (#2428)
+Fixed info about timeout duration in phoenix.js (#2422)
+Fixed generate typo in phx.gen.html and phx.gen.json docs (#2420)
+Fix links in context guide
+Fix assets location for guide images
+Fix missing link to ecto in context guide (#719)
+Fix typos in endpoint.md
+Fix .Web suffix typo in phx.new doc (#2411)
+Fix alias being wrapped in quotes for umbrellas. Closes #2403
+Fix typos in context guide (#716)
+Fix typo in contexts guide (#710)
+Fix link markdown syntax for Plug.Logger (#709)
+Fix RC Version number
+Fix formatting
+Fix utc_datetime handling on Elixir v1.5
+Fix mix phx.routes hint (#2396)
+Fixed newline in migration template (#2245)
+Fix js tests
+Fix longpoll tests
+Fix documentation on format encoders (#2380)
+Fix Map.put args
+Fix installer tests for umbrella generators
+Fix formatting of list on overview page
+Fix typo "start start" -> "that start" in routing guide
+Fix Nginx config comment (#697)
+Fixed typos in controllers.md (#694)
+Fixed typo in plug.md.
+Fix old command references
+Fix typo (#2317)
+Fix outdated links: from elixir-lang.org to hexdocs.pm (#2312)
+Fix spacing in generated embedded schemas (#2311)
+Fix phx.gen.html templates and shell instructions with --web
+Fix function argument inconsistencies in docs for scope (#2268)
+Fix test compile warnings on Elixir 1.4.4 caused by dup function heads
+Fix location for files in presence and channel generators (#2299)
+Fix issue causing flash to remain when using clear_flash. Closes #2298
+Fix called to Mix.Dep.Umbrella.cached/0 in CodeReloader
+Fix wording on routes guide (#679)
+Fix the typo in phx.router (should be phx.routes) (#2261)
+Fix current_path String.Chars protocol error when using nested query params (#2258)
+Fix doc of errors_on function (#2252)
+Fix arity typo on list_<schema> test name (#2244)
+Fix typos (#2235)
+Fixup docs
+Fix syntax errors in controller plug examples (#2206)
+Fix invalid example in controller action guard example (#2203)
+Fix typo in controller.ex (#2202)
+Fix typo (#2201)
+Fix trailing whitespace on gettext dependency in umbrella web template
+Fix missing arity in `get_*!/1` function in generated context test (#2196)
+Fix typo on controllers page (#667)
+Fix typo in controller test name (#662)
+Fix datetime handling and formatting in generators. Closes #2152
+Fixup docs
+Fix self-mix reference for web task and post-install oputput. Closes #2143
+Fix signed_at documentation
+Fix model mix task deprecation warning (#2175)
+Fix create example in context generator template (#2166)
+Fixed spec to match name of compile_stop_callbacks/2. (#2164)
+Fix tests for binary ids and references
+Fix ecto generator config path for umbrella apps (#2135)
+Fix version
+Fix type in docs
+Fix duplicated test
+Fix spacing on generated repo config
+Fix type on context option
+Fix live reload paths for new apps
+Fix warnings and tests
+Fix test artifacts
+Handle failed json parsing. Fixes #2098
+Fix mix.exs and package.json paths when using --dev flag with generators
+Fix name clash with web app manifest file (#2086)
+Fixed typo in conn_test bypass_through description (#2081)
+Phoenix.js: Fix export to global.
+Fix mix digest.clean docs (seconds vs minutes) (#2049)
+Fixed typo in test case name (#2044)
+Fix formatting of text blocks (#624)
+Fix typos (#2032)
+Fix phoenix.js typo
+Fix typo in changelog
+Fixup docs
+Fix warning
+Fix typo in changelog (#2001)
+Fix test race making travis unhappy
+Fix typo to say 'pattern match' in controller testing guide (#601)
+Fix typo on mix tasks page 'particulary' -> 'particularly' (#597)
+Fix brunch docs link on the static assets guide (#589)
+Fix unclosed backquotes in Token docs (#1977)
+Fix typos (#1969)
+Fix spacing between generated Edit and Back links (#1957)
+Fix accesing onerror(status) instead of onerror(resp && resp.status)
+Fix extra 204 response when 404 error and debug_errors enabled (#1938)
+Fix flaky installer tests
+Fix experimental generators
+Fix typo in Phoenix.Transports.LongPoll.Server documentation
+Fix gitignore template files
+Fix template root path
+Fix typo in bonus_guides/H_file_uploads.md (#568)
+Fix pubsub link
+Fix a module definition typo in the channels docs
+Fix typo in Transport comments
+Fix missing verb for Plug.Parsers in Routing (#547)
+Fix typo on installation guide (#544)
+Fix up
+Fix typo
+Fix a tiny, tiny typo (#1809)
+Fixed a few dialyzer issues and a couple of bugs found by those issues. (#1805)
+Fix unused var
+Fix Elixir 1.4 warnings in tests
+Fix Elixir 1.4 warnings
+Silcence endpoint test logs. Fixes #1782
+Fixed some incorrect specs
+Fix small typo in Presence docs
+Fix up docs
+Fix up docs
+Fixes typo
+Fix binary-id generator location in config/config.exs
+Fix .gitignore installer templates typo (#1745)
+Cancel join timer when leaving. Fixes #1739
+Fix warnings
+Fixed syntax errors in Channel.subscribe/2 docs
+Fix a typo in the conn() deprecation notice; improve the build_conn() typespecs
+Fix errors_on format
+Fix uninstall command
+Fix plug init on forward for non-literal returns. Closes #1686
+Fix typo ommitting -> omitting
+Fix mismatch between namespace and app_namespace (#1677)
+Fix instrumentation logging of internal phoenix topics
+Explicitly configure ErrorView for new applications. Fixes #1648
+Fix a few typos in phoenix.new installer.
+Fix unclear wording in test guideline (#493)
+Fix typos
+Fix phoenix new tests
+Fix model generator tests
+ Fix tiny typo in lib/phoenix/view.ex
+Fixed typo that specified incorrect arity for "connect" helper macro in Phoenix.ChannelTest moduledoc
+Fix placement of period within quotes in static cache manifest warning.
+Fix the brunch configuration documentation link
+Fix typos in comments for presence usage
+Fix encoding of spaces in URL path components
+Fix live reload docs
+Fix live reload docs
+Fix regex to match urls in compressed stylesheets
+Fix mention of HTTP header for put_resp_content_type
+Fix typo in controller docs: put_layout
+Fix typo in mix.exs template
+Fix invalid JSON in controllers guide
+Fix a typo in a comment in the installer
+Fix typo
+Fix syntax error in exception message
+Fix small typo in endpoint.ex documentation
+Fixes typo
+Fixes Mix.Tasks.Phoenix.Gen.Model w/:binary types
+Fix race conditions in presence tests
+Fix brunch wrapping
+Fix phoenix.js for browser
+Fix typo in model testing guide
+Fix docs
+Fix Phoenix.Endpoint instrument example
+Fix dialyzer warning in put_new_layout
+Fixing syntax
+Fix link to dets.
+Fixing `File.Error` could not make directory (with `:`) in alpine
+Fix incorrect/missing code in find_message plug
+Fix label test
+Fix indetion in `handler_info` code
+Fix typo on testing/J_channels guide
+Fix unbound variable. Closes #1376
+Fix documentation typos
+Fix installer's user_socket code sample
+Fix put_layout examples
+Fix case to match project docs: Eex -> EEx
+Fix installer spec
+Expose code_change for channels. Fixes #1336
+Fix cowboy handler dispatch docs
+Fix scrub_params/2 typespec
+Fix invalid @doc attributes
+Fix helpers test
+Fix typo in Phoenix.Socket.Transport.parse_origin
+Fix error_view_test to use atoms
+Fixes typo in pubsub.ex
+Fix default value syntax
+Fixes in "Generating More Files" in the testing introduction
+Fix the code block got included in quote, which also affects next normal line format.
+Fixed typo in Testing Models guide and updated Static Assets Guide
+Fixed a few typos and updated views guide
+Fixes to the testing introduction guide
+Fix digest tests
+Fix message option lookup
+Fix incorrect error message on channel join pattern mismatch.
+Fix missing code span
+Fix typo (Channelnel -> Channel)
+Fix a couple of typos in socket.js
+Fix typo in Plug.SSL
+Fix upstart script at Advanced Deployment section
+Fix indentation in example code
+Fix typo
+Fix typos in phoenix.gen.html/json
+Fixed typo in blog title for The Erlangelist
+Fix typo in brunch-config.js
+Fix typo
+Fix module definition call
+Fixed typo in moduledoc
+Fix path to generated favicon file.
+Fix typo in docs
+Fix build
+Fix typo.
+Fix missing :references key
+Fix PubSub Redis link in docs
+Fix small typos
+Fix latin abbreviations in Phoenix.js comments
+Fix typo.
+Fix phrase: can take of that → can take care of that
+Fix outdated docs
+Fix dup'd longpoller url
+Fix link markdown.
+Fix http/ws normalization in LongPoller
+Fix typo.
+Fix application layout path
+Fixed the docstring to comply with the latest version of ecto
+Typo Fixes
+Fix typo in phoenix.js
+Fix typo in phoenix.js
+Fix Channel.terminate typespec
+Fix typo in example of render_existing.
+Fix path in Assigning Layouts section.
+Fix typo in endpoint docs
+Fixed endpoint documentation typo
+Fix `accept` request header typo in docs
+Fix arity for Phoenix.Channel.Server.broadcast/4
+Fix typo.
+Fix race condition in phoenix endpoint tests
+Fixing locale example to set conn var
+Fix typo in phoenix.js
+Fix plural dir name
+Fix 'transport' sp. and add 'by' in Routing / Channel Routes.
+Fix static_url helper to use static_url endpoint config
+Fix typo
+Fix typo.
+Fix typo.
+Fix build, improve docs
+Fix test and update generator test for generated channel test
+Fix all headings so they should render correctly on phoenix website
+Fix typo.
+Fix typo.
+Fix typo in phoenix.js
+Fixing moduledoc for conntest
+Match all standard WS close events. Fixes #848
+Fix return signatures
+Fixed some typos around the spelling of "recycling" in the docs
+Fix travis after_script invocation
+Fixing oops
+Fix word usage in `ConnCase` docs.
+Fix typo in documentation of `render_one`
+Fix spelling mistake
+Fix typo in L_advanced_deployment.md
+Fix spelling of 'persistent'
+Fix up tests
+Fix typos in Ecto models guide.
+Fix phoenix.new tests
+Fix generator tests
+Fix long poller tests with latest plug
+Fix phoenix.new tests
+Fix typos in G_channels.md
+Fix typo  in H_ecto-models.md
+Fix typos in DD_Plug.md
+Fix typo in documentation
+Fix typo
+Fix typo
+Fix typo
+Fixing reset call in Channel.leave
+Fix Elixir install information link
+Fix two little typos
+Fixed typos
+Fix RedisServer and RedisConn EXIT semantics. Closes #732
+Fix typos in D_controllers.md
+Fix layout test
+Fix failing tests.
+Fix tests after merge
+Fix missing timeout clause
+Fix adapter tests
+Fix nginx setup steps
+Fix vendor reference
+Fix vendor'd assets being incorrectly ES6to5 compiled. Closes #696
+Fixes for running watchers on Windows and umbrella apps
+Fix a few comment typos add some comment puncutation
+Fix typo in channel documentation
+Fix resources new/show routing order with :only option. Closes #661
+Fix syntax error in config/dev.exs
+Fix the build
+Fix new test
+Fix safe_concat with iodata
+Fix indentation
+Fix typo in channel documentation
+Fix grammar in exceptions
+Fix typos in endpoint
+Fix phoenix.js longpoll reconnect bug
+Fix bug preventing receiving messages during LP window
+Fix docs
+Fix terminate
+Fix bug prevent redis pubsub messages after eredis recovery
+Fix docs
+Fix terminate
+Fix bug prevent redis pubsub messages after eredis recovery
+Fix ex_doc
+Fix elixirc_path arguments
+Fix docs
+Fix endpoint normalization for longpolling
+Fixed typos.
+Fix Transport heartbeat storing control sockets. Closes #562
+Fix typo in contributing guidelines
+Fix unused var
+Fix the build
+Fix phoenix dep reference in new project generator
+Fix typo in Router's resources doc
+Fix halting change description
+Fix syntax error in template config/test.exs
+Fix Router example
+Fix start docs. Closes #479
+Fix session config
+Fix outdated function calls
+Fix SSL instructions
+Fix possessives.
+Fix typos
+Fix logo display
+Fix logo url in README
+Fix errors on phoenix.js client and handle heartbeat messages
+Fix Flash docs
+Fix Mix.Util references
+Fix Template.UndefiendError exception
+Fixes Phoenix.Naming.underscore bug #336
+Fix Template.UndefiendError exception
+Fix missing Cowboy alias
+Fix typos in README
+Fix docs task
+Fix Code Reloader
+Fix outdated docs
+Fix JSON.encode sytnax
+Fix stray deprecated path
+Fix template path not being shown on some compiliation failures. Close #293.
+Fix deprecated code_reload config reference
+Fix :update named route not being generated. Close #279
+Fixing typo in README.md. Now phoenix requires Elixir ~> v0.15.1.
+Fixing a similar syntax error.
+Fix syntax error in templated config file.
+Fix unused assigns variable warning for eex templates
+Fix bug where non-html templates were trying to render layout
+Fix documentation typo
+Fix broken link in generated comments.
+Fix broken link in generated comments.
+Fix broken link in generated comments.
+Fixed IO.ANSI.format bug
+Fix references to old View module names in README
+Fix unused var
+Fix root route splat not matching and incorrect match order. Close #222
+Fix typos
+Fix logger warnings
+Fix assigns merge order in render
+Fix config path in README.md
+Fix missing config settings
+Fix template config missing commas
+Fix project template not loading env based config
+Fix use Phoenix.Channel
+Fix typo
+Fix mime link. Close #176
+Fix render examples
+Fix engine bug where safe content was marked as unsafe
+Fix spelling
+Fix missing tail on */* Accept header matching
+Fix new task attempting to eval templates and add welcome page in generated app
+Fix test callbacks (teardown_all -> on_exit
+Fixed current *.Behaviour deprecations.
+Fix app configuration failing to merge base app config into Env config
+Fix named route generators adding extra '_' when :helper left out.
+Fix Mix.project deprecations
+Fix warnings from channel test
+Fix typos
+Fix routes task. Router not longer lives in App.Config module.
+Fix bug not sending leave event from phoenix.js client
+Fix channel test
+Fix arity issue in Channel
+Fix warnings
+Fix typos
+Fix typo
+Fix unrelated warning in tests :-)
+Remove ability to use hypenated route splitting for named routes. Fix #58
+Fixup spelling oddities
+Fix typos
+Use Mix.Task.run instead of reaching directly for Compile task for code reloading. Fix #48.
+Fix warnings.
+Fix duplicate test name preventing tests from running.
+Fix typo
+Fix routing of root path and allow definitions of routing paths with leading slash.
+Fix routing of root path and allow definitions of routing paths with leading slash.
+Fix example router.
+Fix phoenix.new task file location.
+Fix application module name.
+Fix unused var warnings

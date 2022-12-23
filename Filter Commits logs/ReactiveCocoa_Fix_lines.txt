@@ -1,0 +1,440 @@
+Fixed build phases order in target
+Fix broken filenames (#3727)
+Fix spm xcode 12.5 missing Foundation import (#3725)
+Fix watchOS build error (#3703)
+[CI] Fix podspec linting
+Fix some WatchKit binding mistakes
+Drop `swift(>=3.2)` compile time condition. Fix an error message typo.
+Fix use of deprecated functions, other warnings
+Fixed an intermittent crash in a ObjC-ported KVO stress test.
+Fix the KVO test case which cannot be run in isolation.
+Fix build configurations of ReactiveMapKit.
+Fix CHANGELOG entry
+Fix for issue #3596.
+Fix broken Swift 3.2 build. (#3556)
+Fix changelog formating: Without extra newline, the header for 4.0 is not rendered as header
+Fixed an issue causing infinite recursion in the Swift runtime.
+Fixed typos in the changelog. [skip ci]
+Fixed issue with UIButton pressed action on tvos
+Fix bad productName values
+Fixed a Swift 3.0 crash due to an errorous `Associations` overload signature.
+Fixed a bridging issue in `KeyboardChangeContext`.
+Fix iOS CI test, and add 32-bit iOS test.
+Fixed an ActionProxy crash when `NSApp` is not present.
+Fixed an interoperability issue with KVO in the swizzling logic. The original implementation had not taken account of the existence of other swizzling users.
+Fix CI by specifying valid, specific simulators
+Fixed badges in the README.
+Fixed a false negative in `DelegateProxy.responds(to:)`. It happened on a selector when the proxy has a forwardee, is implemented by the forwardee and is not implemented by the proxy.
+Fixed an bug preventing the forwardee from being cleared in `DelegateProxy`.
+Fixed an occurrence of exception due to key path tail observers not being detached. This happens specifically when a nested key path is being observed, for example `parent.child`, where `parent` is being replaced by a new object. `KeyValueObserver` is not eager enough to clean up the tails, causing the then-deallocated object (the original `parent`) to have still observers attached.
+Fix a `SchedulerProtocol` usage warning
+Fix #selector usage in README and docs
+Fix typo
+Fix broken link
+Fix documentation index BindingTarget link
+Fix README BindingTarget link
+Fix podspec which was broken in 5.0.0-alpha.6
+Fix testcase for recent version of master
+Fix NSPopUpButtonSpec for RAS 1.0.0-rc.1.
+Fix a typo
+Fixed a `Lifetime` related KVO crash.
+Fix the build.
+Fixed a typo in a code snippet of the changelog.
+Fixed a typo in a code snippet of the readme.
+Fixed a thread safety issue in the method interception logic.
+Fixed a couple of typos in the changelog.
+Fixed a `nil` expectation in InterceptingSpec.
+Fix tests for `values` signal
+Fixed a typo.
+Fix up path of AppKit group in ReactiveCocoaTests
+Fix indent
+Fixed a few typos in the readme.
+Fixed a typo in the readme.
+Fixed the typos in the new test cases for deadlocking.
+Fixed a bug which caused a deadlock in `trigger(for:)`.
+Fixed up some language, added a tiny bit more
+Fixed another typo in a code snippet.
+Fixed a typo.
+Fixed the ReusableComponentsSpecs.
+Fixed the failing `NSControlSpec` test cases.
+Fix missing space
+Fixed a typo in the doc of `UIProgressView.reactive`.
+Fixed a typo of the property name in `Reactive<NSControl>`.
+Fixed the watchOS target settings.
+Reverted the weak behavior of `CocoaAction`. Fixed its retain cycle test case.
+Fixed the failing `UIButton.rex_pressed` test.
+Fix inverted logic
+Fix Xcode 8 GM compatibility
+Fix description
+Fix casing for enum values in markup
+Fix .travis.yml scheme names
+Fix the remaining build errors in ObjectiveCBridging.swift for Xcode 8 beta 6
+Fix lots of compile errors with Xcode 8ß6
+Fix file extension
+Fix Build on Xcode8b4
+Fixes broken link
+Fixed warnings for unused values
+Fixed unused expression result warnings
+Fixed warning by verifying test result at compile time
+Fixed warnings regarding new if syntax
+Fixed warnings by adding explicit let
+Merge pull request #3084 from Patrickuang/FixThrottleScheduleDateIssue
+Signal and SignalProducer: added timeoutWithError overloads for NoError. Fixes #3083.
+Fix the event enum cases and a few parameter names.
+Fix the markup for `Signal.swift`
+Fixed grammer in `DocumentingCode.md`.
+Fix indentation
+Fix grammer und formattering!
+Fix indentation for event and scheduler markup
+Fix indentation in `Scheduler.swift`
+Fix the signatures in Foundation extensions.
+Fixed a few missed bits that found by the migrator.
+Fix `SignalProducer(values: Value...)` signature to be distinguished from `SignalProducer(values: S)`
+Fix a couple of typos.
+Fix `CocoaAction` KVC issues.
+Fix the broken unbreakables.
+Fix the documentation of `Disposable` types.
+Fixed SignalProducer playground
+Convert `RACCommand.toAction` into a free function. Fix a few argument labels.
+Fix a/an grammar in Observer documentation.
+Fix TestScheduler not having correct `currentDate` while advancing
+Fixed indentation on tests.
+Fixed test description to accurately describe its intention.
+Fixed an issue preventing zipped producers from completing.
+Fixed a nil-unwrapping crash in `AnyProperty`. It would happen on properties with its producer terminated when being passed into the affected initialiser.
+Fix memory leak when binding MutablePropertyType to a producer by ensuring startWithCompleted's result is added to the disposable.
+Fix a typo in the documentation playground
+Fix a typo.
+Fixed typo, re-order scan and reduce to improve readability and update description for sampleWith operator.
+Fix indentation
+Fix wording
+Fix link to CocoaAction
+Merge pull request #2893 from raphaeloliveira/FixBasicOperatorsDocTableOfContents
+Fix BasicOperators.md table of contents
+Fix indentation
+Fix race condition in uniqueValues
+Fix typo
+Fix typo in EventLogger `functionName`
+Fix tvOS in podspec and add to travis
+Fix the problem with dismiss via Cocoa API
+Fix memory leak on `lift`
+[Objective-C] Fix -[RACSequence foldRightWithStart:reduce:]
+Fix podspec and xcodeproj versions
+Fix variance
+Fixed invalid Quick usage in RACSequenceSpec
+Fix style in test
+Fix up punctuation in uniqueValues documentation
+Merge pull request #2650 from Adlai-Holler/FixQueueSchedulerDoc
+Fixed @warn_unused_result message on SignalType.merge
+Fix documentation for QueueScheduler.init(:,name:)
+Fix typo on BasicOperators.md
+Fix indentation.
+Fix for code style
+Fix some signal/producer doc comments in flatten
+Fix typo
+Implemented Signal.mergeSignals. Fixes #2487
+Moved flatMapError to Signal. Fixes #2414
+Fix 2476: Rename PropertyOf to AnyProperty
+Fixed SignalProducer.sampleOn(Signal) docs
+Fixed SignalProducer.lift taking a Signal and added tests for it
+Fixed infinite recursion in RACScheduler.schedule
+Revert "Fixed a few more warnings related to Bag being a class now"
+Fixed a few more warnings related to Bag being a class now
+Fixed warnings for unused variables
+Fix point-free sweetness.
+Fix intermixing of spaces and tabs
+Fix indentation again, indent with spaces
+Fix indentation
+Fixed build error by explicitly referencing self inside closure. Fixes compatibility with Xcode 7.1 beta 2
+Fixed spelling.
+Fix test failures reported in #2382
+Fixed spelling.
+Fixed spelling.
+Fixed description of expected result.
+Fixed description of expected result.
+Fixed formatting.
+Fixed formatting.
+Fixed spelling.
+Merge pull request #2367 from bencochran/Fix-Filter
+Fix `filter`
+Fix changelog typo
+Fix RAC# spacing
+Moved FlattenStrategy to Signal to re-enable flatten over signals of producers (Fixes #2315)
+Fix documentation
+Fix typo
+Fix retain cycles in associated properties
+Fix a typo in DesignGuidelines.md: 'is is' to 'it is'
+Fix iOS for Swift 2 changes
+Fix link in Design Guidelines
+Fixed two minor typos in FrameworkOverview.md
+Fix header visibility for watchOS target
+Fix preprocessor directive for iOS build
+Fix minor README typo, link to CHANGELOG for ObjC section
+Fix heading levels (again)
+Fixed two typos
+Fix documentation for scan operator
+Fix the `collect` example by marking it as code snippet
+Fix trailing closures for subscriptions again
+Fix UILabel comment
+Fix mutability warning
+Fix some new build warnings
+Fix up code review notes
+Fix mutability warnings in tests
+Fix spelling errors
+Fix legacy framework overview links
+Fix description of retry
+Fix links
+Fix some incorrect comments about signals-of-producers
+Fix some preconditions that got moved into closures
+Fix order of Completed event in .Concat
+Fix indentation
+Fixed links to RACSignal and RACSequence
+Fix the build
+Fix indentation
+Fix memory corruption in times()
+Fix comment
+Fix a failing test with optimization
+Fixes Xcode's wonky indentation and swaps in tabs for spaces.
+Fixing throttle bug
+Fix startOn crash in Swift 1.2b3
+Fix up merge/Swift warnings and errors
+Fix tests for RACCommand's dumb asynchrony
+Fix typo in README
+Fix take(0) test
+Fix Signal.init, .pipe memory management tests
+Fix incorrect interruption when startWithSignal terminates
+Fix wait() crashing if no values are sent
+Fix a runtime crash.
+Fixed test description
+Fix typo
+Fix reference to CocoaAction.selector
+Fix take() completion
+Revert "Fix race conditions in takeUntilReplacement()"
+Fix race conditions in takeUntilReplacement()
+Fixed reduce() Disposable TODO
+Fixed silly mistake in new reduce() impl
+Fixed reduce() edge case
+Fixed unnecessary atomics
+Fix a variety of type errors
+Fix bizarre type error within first()
+Fix a bunch of rando compiler errors
+Fix style, condition checking in RACKVOProxySpec
+Fix over-aggressive find/replace in sendNext()
+Fix out-of-date docs for `value` and `errors`
+Fix accidentally-recursive Action initializer
+Fix method brace style
+Fix mapAccumulate tests
+Fix continuation test not running on main thread
+Fix on() not forwarding events
+Fix visibility and `subscribed` behavior for on()
+Fix type signatures and documentation in Action
+Fix LlamaKit framework references
+Fix framework copying for iOS tests
+Fix assertion failure in NSNotificationCenter spec
+"Fix" iOS tests
+Fix up Mac tests that are failing
+Fix compilation in a few files, add extobjc files
+Fix deadlock in Promise.await()
+Fix memory management in sampleOn test
+Fix retain cycle in -didSubscribeWithDisposable:
+Fix raw value conversions for Error enum
+Fix: Crash on iOS5 in RacBacktrace #1321
+Fix accidental shadowing in QueueScheduler.init()
+Fix array manipulation in CompositeDisposable
+Fix up submodule references
+Fix GCD memory management in tests
+Fix visibility of RACScheduler+Subclass.h
+Fix naming of private properties in AsyncBuffer
+Fix up RACSignal boolean operators for Swift
+Fix Xcode 6 compile error
+Fix the link to the CocoaPods specs in the readme.
+Fix a test naming
+Fix signal names
+Fix typo
+Fix code style
+Fix for case where attributes is NULL
+Fix code style
+Fix recursive scheduling with the immediate scheduler.
+Fix project name
+Fix code format
+Fix code style in README.md
+Fix some typos
+Fix typo.
+Fix references to -ap
+Merge pull request #1222 from 343max/syntaxFixes
+Fix bug in NSIndexSet tests.
+Fix typo in README
+Fix the name set for -merge:
+Fix typo
+Fixed some tests.
+Fix the italics and fixed width text being nested wrong when rendered by Github.
+Fixed RACSubject and RACSubscriber retaining disposed disposables.
+Updated xcconfigs submodule to fix clang error on Xcode 5.1 due to deprecated linker flag (Fixes #1050)
+Fix swizzled implementation of `-methodSignatureForSelector:`
+Fixed some things.
+Fixing RACDynamicSignal.h import
+Fix indentation
+Fixed -flatten: to not deallocate dequeueAndSubscribeIfAllowed while it's running.
+Fixed cut off signal not being disposed as soon as the receiver sends a value.
+Fixed -bufferWithTime:scheduler: not supporting nil values.
+Fix typo
+Fixed typo in example.
+Fix misplaced tab
+Fix Cocoa naming convention in example
+Fix RACSerialDisposable leaking its set disposable upon dealloc
+Fix ownership race condition when swapping disposables
+Fix race condition when connecting to a multicast connection
+Fix stillHasSubscribers check after removal
+Fix link to Parallelizing Independent Work in README
+Fix OOB array access in -initWithDisposables:
+Fix RACObserve with protocols.
+Fix unused include
+Fixing compilation warning for missing long int casting.
+Fix false idempotents
+Fix synchronous expectation for [control isEnabled]
+Fix executing/errors not always arriving on main thread
+Fix disposal happening too late in NSControl.rac_command
+Fix up unit tests and implementation bugs
+Fix -rac_signalForSelector: doesn't invoke original method on previously KVO'd receiver
+Fix RACSignalSupport to reset delegate after dynamically adding methods
+Fix the RACViewChannelExampleSetViewValueBlock.
+Fix rac_liftSelector:withSignals: documentation to nil terminate
+Fix RACSequence enumeration restarting
+Fix outdated description for -afterDelay:schedule:
+Fix return types for RACScheduler class methods
+Fix -catch: disposable test
+Fix return type mentioned in the CHANGELOG
+Fix C string lifting test.
+Fix building and linking of the UIKit test host
+Fix incorrect sample in -rac_signalForSelector: docs
+Fix two-way binding in RACKVOBinding
+Fix additional typo
+Fix typo in operation name string
+Fix broken RACBacktrace link in Framework Overview
+Fix duplicate subscriptions in tests
+Fix alert view test description
+Fixed indentation in reduceByAnd
+Fixed some style issues for reduceByAnd/Or
+Fix method name in RACImmediateScheduler
+Fix argument indentation
+Fixing documentation of +switch:cases:
+Fixed grammr
+Fix method signatures in deprecated warning messages.
+Fixed default value in -asynchronousFirstOrDefault:success:error:
+Fix dealloc triggered callbacks for single key key paths
+Fix the disposable not being removed when disposed.
+Fix the test for intermediate path components.
+Fixed broken tests, thanks @kastiglione.
+Fix up RACBacktraceSpec
+Fix up libextobjc and xcconfig project file references
+Fix RACObservablePropertySubject using the wrong KVO signal method.
+Fixed bugs with callback serialization.
+Fix initial value in UITextField+RACSignalSupport
+Fixed some style issues in the tests.
+Fix buffered nexts getting resent after completion
+Fix spec filename
+Fix -concat disposal and stop O(N) disposable growth
+Fix up RACTestExampleScheduler interface
+Fix method name in deprecation warning
+Fixed UIButton RACCommand support unit test.
+Fixed formatting in NSObject(RACObservablePropertyObserving) docs.
+Fix missing import
+Fix concurrency in UIBarButtonItem.rac_command
+Fix concurrency in NSControl.rac_command
+Fix dumb NSError comparison issues
+Fix bizarre test failures on Release
+Fix building and running Mac tests
+Fixed typo ( missing ^ for completed block )
+Fix integer underflow in index arithmetic
+Fix ushort type code parsing for -rac_returnValue
+Fix update being applied to key paths when there are nil intermediate values.
+Fix switching example
+Fix signal operator links
+Fix another link
+Fixed link & more specific link
+Fixed copy-pasta mistake
+Fix detection of initial KVO observation
+Style Fixes
+Fix all NSAssert retain cycles
+Fix recursive scheduling to handle the block being asynchronous
+Style Fixes
+Fixed -switchToLatest completing when the latest child signal hasn't completed yet.
+Fix documentation typo
+Fix -first methods not disposing after the first event
+Fix thread safety of -[RACSignal concat:]
+Change _itemsInFlight to an int32_t. Fixes armv7 misalignment.
+Fix retain cycle in -viewDidLoad example
+Fix +zip: and +combineLatest: not returning 1-tuples
+Fix typo
+Fix up existing unit tests
+Fixed some more typos
+Fixed typos and some clarifications for 'side effects behaviour'
+Fix phrasing typo
+Fixed some formatting.
+Fixed some style issues.
+Fix Clojure seq link
+Fix link
+Fix anchors?
+Fix overview links
+Removed continue from loop. Fixed indentation issues in test.
+Fix a few typos and clarify a point
+Fixed imports in RACExtensions.
+Fixed comments and added synchronization around property access of RACSequenceEnumerator.
+Fix RACSequenceAdditionsSpec
+Fix eager sequences test
+Fix typo
+Fixed some formatting.
+Fixed formatting and wording of docs.
+Fix -bind: setting the correct name.
+Fixed some formatting and other code smells in the tests.
+Fixed some expectations in RACKVOWrapperSpec.
+Fixed RACProperty docs.
+Fixed RACProperty -initWithSignal:subscriber: docs.
+Fix the max interval not being based on leeway
+Fix indentation in RACSubscriberExamples.h
+Fixed RACLazyProperty not handling synchronous start signals correctly.
+Fix documentation for -[RACStream flatten]
+Fix -concat sending completed to the subscriber multiple times
+Fixed RACRemainderKVOBinding.
+Fixed some issues with RACKeyKVOBinding.
+Fixed some formatting in the method docs.
+Fixed the method docs.
+Fix -retry: sending RACMaybes
+Fix the use of -asMaybes in GHAPIDemo
+Fixed implementations.
+Fix backtrace logging with RACSchedulers
+Fix the use of schedulers in the README
+Fix thread safety for disposing of a -toProperty:onObject: binding
+Fix some references to <RACSignal> in documentation
+Fixed the RACBind macro to use @keypath.
+Fix typo
+Fixed the test for KVO interference.
+Fixes to RACBehaviorSubject to bring it in line with RACReplaySubject
+Fix GHAPIDemo and also document that new schedulers are cheap
+Fixed typo.
+Fixed the race condition.
+Fixed some style issues.
+Fixed RACSignal with side-effecting duplicates.
+Fix subscribeForever not getting unlocked due to short circuiting
+Fix GHAPIDemo
+Fixed RACSignal's +zip:reduce: error forwarding logic.
+Fixed RACSignal's +zip:reduce: error tests.
+Fixed RACSignal's +zip:reduce: to handle duplicate signals.
+Fixed +combineLatest:reduce: to handle duplicate signals.
+Fix NSDictionary.rac_sequence with mutable dictionaries
+Fixed more formatting.
+Fixed formatting according to github style guidelines.
+Fix use of +combineLatest:reduce: in GHAPIDemo
+Fix GHAPIDemo calling -flattenMap:
+Fix use of mapReplace: in NSTask+RACSupport
+Fix <NSCoding> for RACEmptySequence
+Fix -[RACSequence isEqual:]
+Fix manual stream creations
+Fix itShouldBehaveLike()s… again…
+Fix RACExtensions for breaking API changes
+Fix RACiOSDemo for breaking API changes
+Fix GHAPIDemo for breaking API changes
+Fix sequence category prefix (mtl_ -> rac_)
+Fix RACSequence fast enumeration
+Fixes suggested by Xcode 4.5 (duplicate headers)
+Fixed a retain cycle in -[NSObject(RACOperations) rac_whenAny].

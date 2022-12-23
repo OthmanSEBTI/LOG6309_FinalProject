@@ -1,0 +1,1313 @@
+npm install happens at build, no more forking of libraries
+Fix severe package
+Do a npm install each time while building project
+Update codebase to use the lighttable dir from core
+Remove lighttable dir from node_modules
+Move lighttable from node_modules to core/
+Update and remove packages
+Bump electron to v13.1.2
+Replace ipc with ipcMain and ipcRenderer
+Also bump to latest electron so, API can be latest
+Update packages because of vulnerabilities
+Add lsp to gitignore
+Changes to accomodate with the updated libraries
+Use updated libraries
+Comment out breaking script changes
+Update core packages keeping lighttable dir in correct place
+Merge pull request #2476 from LightTable/switch-yargs
+Update packages
+Replace unmaintained optimist with yargs
+Merge pull request #2473 from LightTable/weekly-digest
+Create weekly-digest.yml
+Merge pull request #2471 from LightTable/security-fixes
+Update scripts to accomodate with direct electron download
+Remove gruntfile and create easier electron download process
+Merge pull request #2470 from LightTable/security-fixes
+Allow macos failure on travis
+Update electron version fixing security issues
+Security Fix: Update packages version
+Update electron to appropriate version for now
+Merge pull request #2391 from prertik/new-release
+Update travis to use openjdk
+Update ClojureScript
+Fix warnings which block the CI builds
+Fix cljs error
+Support JDK 11
+Fix 'threadError' issue
+Update version of packages and conform to current JavaScript standard
+Fix electron package and update package version
+Replace deprecated electron modules
+browserInjection should use ipcRenderer not ipcMain
+web-preferences has been replaced with webPreferences
+min-width and min-height have been replace with minWidth and minHeight
+loadUrl has been replaced with loadURL
+app.getDataPath has been replaced with app.getData
+Electron's ipc module has been replaced with ipcRenderer
+electron's ipc module has been replaced with ipcMain
+Update grunt dependencies and add npm's package-lock.json
+Increment electron to v0.37.8 before deprecations in v1
+Merge pull request #2446 from algoshipda/fix-typo
+fix typo Khan -> Kahn
+Migrate WhiteSource configuration file to json format
+Merge pull request #2428 from LightTable/cm-upgrade
+Update codemirror to latest version
+Initial WhiteSource configuration file
+Update README notifying of the develop branch
+Fix not being able to load editor
+Fix line-height change
+npm i codemirror@5.11.0
+Update issue templates
+Merge pull request #2410 from prertik/fix-codecov
+Fix codecov integration
+Merge pull request #2409 from prertik/readme-fix
+Update README badges and add codecov support
+Merge pull request #2408 from prertik/ci-integrations
+Update README to add status badges
+Add more configurations to existing CI and add new CI tools
+Merge pull request #2390 from prertik/add-coc
+Add Code of Conduct
+Add codeshelter badge
+[#2361] added mercurial in ignore pattern
+[#2361] fix for git ignore pattern
+[#2361] SVN_ASP_DOT_NET_HACK fix and cvs uppercase
+[2361] files/folders which directly match svn and cvs keywords are ignored
+Add note requesting additional maintainers
+Remove unused dataTransfer code from dragdrop.js
+Adjust branding header position
+Revert "Remove unused dataTransfer code from dragdrop.js"
+Remove unused dataTransfer code from dragdrop.js
+Update developer-install.md
+Fix Control Pane's arrow direction
+Toggle find bar (#2330)
+Add behaviors to enable setting `strictSSL` option for file downloads using the `request` package. Implements #2212
+Update Node package *request* to latest version
+Rebrand built exe for Windows (#2324)
+Add keybinding for ctrl-+ and group zooming related keybindings
+Bump Mousetrap version and indicate LT code deviations
+Select text in Plugin Manager   Enhancement to select text in Plugin Manager view   See issue https://github.com/LightTable/LightTable/issues/2178
+Make sure ltcache/default.clj exists before attempting to open it.
+Add link-like appearance and behavior to plugin name in the plugin manager
+Bump version in Usage section to 0.8.1
+Add label field to the inline doc for behaviors and objects.
+Replaces the goto-line command with go-to-line and fixes keymap for consistency
+Update style guide to define expected :desc convention
+Change source to website. Open source page when clicking plugin title.
+Add optional docstring to defui, behavior, and object.
+Remove unnecessary, and potentially dangerous, -f from delete! function.
+Document functions of util namespaces.
+Fix language docs sidebar from keeping focus when closed
+Merge pull request #2260 from sbauer322/fix-editor-docs-typo
+Fix typos in documentation
+Merge pull request #2253 from sbauer322/2060-add-doc-strings-to-editor-and-files-namespaces
+Add documentation to editor and files namespaces - closes #2060
+Merge pull request #2257 from kenny-evitt/add-whole-file-eval-info-to-docs
+Merge pull request #1921 from Dadie/master
+Add info about whole-file eval for Light Table source files to 'committers' doc.
+Merge pull request #2252 from Mouvedia/patch-1
+Chocolatey step
+Merge pull request #2238 from sbauer322/replace-wrench-with-fs-extra
+Replace wrench with shelljs across project
+Merge pull request #2233 from tomtau/fix-folder-renaming
+Merge pull request #2239 from LightTable/note-removing-node-packages
+Merge pull request #2242 from sbauer322/add-style-guide
+Update for-committers.md to point to style-guide.md for code conventions
+Add initial LightTable Style Guide document
+Add pre-release list with a checklist item about removing Node.js packages.
+Add note about removing a Node package.
+folder renaming updated in the document manager - fixes #2232
+Merge pull request #2222 from sbauer322/update-committers-docs-api
+Update for-committers doc regarding building API docs and LT version - closes #2202
+Change first section to clarify directions for making use of the issue template.
+Merge pull request #2219 from kenny-evitt/add-note-about-nodejs-legacy
+Add note about installing additional Node.js package for Debian-based Linux distros.
+Merge pull request #2195 from kenny-evitt/issue-template
+Add GitHub issue template.
+Only core team members who are heavily using and understand the full infrastructure should modify these dirs
+Merge pull request #2183 from kenny-evitt/ignore-plugin-script-directory
+Exclude the 'script' sub-directory when building the plugin metadata cache.
+Merge pull request #2164 from LightTable/fix-underline-result-menu
+Add menu for underline-result - close #2161
+:app has no effect
+Add changelog for 0.8.1
+Update version of default plugin Clojure to 0.3.1. #2126
+Bump Light Table version to 0.8.1. #2126
+Fix script file referenced as containing default plugins and their versions
+Merge pull request #2125 from LightTable/fix-save-cursor-jump
+Merge pull request #2124 from LightTable/0.8.1-cleanup
+Merge pull request #2123 from LightTable/autoclose-brackets
+Fix scroll position jumping on save after stripping whitespace
+Remove stale and unused styling in structure.css
+Add deprecation warning for js->clj
+Move titlebar window commands next to other window commands
+Remove unused titlebar behavior
+Merge pull request #2115 from kenny-evitt/quote-which-in-build-script
+Deprecate pair-keymap-diffs
+Use backspace binding that comes with closebrackets.js
+Tweaks to existing behaviors
+Merge branch 'master' into autoclose-brackets
+Quote `which` commands in build script so the Bash file existence check handles paths with spaces on Windows.
+Update CONTRIBUTING to point people to open issues in plugin repo
+Merge pull request #2118 from LightTable/remove-plugin-dependencies
+Merge pull request #2119 from LightTable/add-file-types-for-htmlembedded
+Merge pull request #2117 from LightTable/fix-linux-middle-click-tab-close
+Merge pull request #2116 from LightTable/add-zoom-keys
+Add 4 file types for htmlembedded mode - close #1883
+Bump JavaScript plugin that works with plugin deps removed
+Middle click tab close should not paste - close #1816
+Cleanup whitespace
+Cmd/Ctrl-+ to zoom in and Cmd/Ctrl-0 to reset zoom
+Remove harbor package that has moved to JavaScript plugin
+Remove jshint styling
+Remove jshint package as its unused and JSHint plugin already has it
+Merge pull request #2109 from LightTable/toggle-connect-bar
+Merge pull request #2110 from LightTable/more-keybinding-docs
+Document keybindings with multiple extensions - close #1379
+Just have a toggle connect command - close #1167
+Merge pull request #2106 from LightTable/menu-improvements
+Merge pull request #2108 from LightTable/resolve-open-path-file
+open-path should open existing tab for same relative file - close #1427
+Merge pull request #2107 from LightTable/fix-behavior-indentation
+Closing characters should not be on separate lines per review
+Fix behavior indentation - close #1986
+Merge pull request #2104 from LightTable/remove-fake-light-skin
+Update menu selector to role
+Remove stale todos in menu and related locations from #1297
+Improve menu usability for linux and windows - close #1143
+Merge pull request #2101 from LightTable/make-docs-more-usable
+Merge pull request #2103 from LightTable/correct-behavior-description
+Merge pull request #2105 from LightTable/case-sensitive-rename
+Allow case sensitive renaming - close #1352
+Remove fake light skin - close #1403
+Font settings is global, not editor specific - #1460
+Make docs navigable by opening in a browser tab - close #1097
+Merge pull request #2099 from LightTable/improve-plugin-manager-feedback
+Give user feedback when plugin is (un)installed/updated - close #1920
+Merge pull request #2097 from LightTable/fix-editor-save-behaviors
+Merge pull request #2094 from LightTable/improve-file-handling-with-vcs
+Fix cursor jumping when file is updated outside LT
+Fix editor save+ behaviors not updating tab - close #1733
+Merge pull request #2096 from LightTable/horizontall-scroll-for-navigator
+Horizontal scroll on navigator for wide item in list - close #1891
+Add options for "enable-brackets-autoclose" behavior.
+Don't warn if file is modified externally
+Change delete behavior to be less confusing and time consuming
+Add behaviors to enable/disable closebrackets addon.
+Merge pull request #2091 from LightTable/handle-invalid-tags-response
+Handle invalid metadata-commits same as tags response
+Display error message for invalid data from tags url - close #2026
+Merge pull request #2090 from LightTable/fix-file-open-error
+Avoid opening a nonexistent file and logging error
+Fix build script if build target doesn't exist - close #2086
+Merge pull request #2076 from ryanpcmcquen/build-fix
+Merge branch 'prelude-to-clojurescript-upgrade'
+Update script and instructions to account for two build targets
+use `which` for npm and lein check
+Merge pull request #2073 from kenny-evitt/decrease-version-check-frequency
+Merge branch 'pr/2058'
+Allow console/error to log multiple args like console.error
+Decrease new-version check frequency from every five minutes to every hour.
+Make error handling consistent with console/error
+Add error handling if opening a file fails
+Handle or remove silent caught exceptions
+Merge pull request #2071 from LightTable/update-travis
+Merge branch 'master' into upgrade-clojurescript
+Core team should be getting notifications
+Merge pull request #2069 from kenny-evitt/add-release-checksum-step
+Merge pull request #2070 from LightTable/add-osx-install-instructions
+Add install instructions for OSX
+Add a step to the release checklist to generate MD5 checksums for the uploaded binary package files for each platform.
+Merge pull request #2068 from LightTable/add-0.8-changelog
+Mention updating Codox `:source-uri` when bumping version
+Add changelog task to avoid forgetting next time
+Doc urls will need to point to 0.8.0
+Add changelog for 0.8.0
+Merge pull request #2063 from kenny-evitt/update-versions-to-0.8.0-for-release
+Update HTML plugin to version to 0.1.0.
+Bump LT version to 0.8.0.
+Merge pull request #2059 from LightTable/add-api-docs
+Merge pull request #2052 from LightTable/upgrade-electron
+Update public API per review
+Add script and documentation for publishing api docs
+Update description to match readme since it appears in api docs
+Add more docstrings for some public fns
+Add api doc generation through codox
+Add a note to contributing about not modifying codemirror files
+Replace 'catch js/Error' with 'catch :default'
+Replace 'catch js/global.Error' with 'catch :default'
+Cleanup duplicated error handling
+Merge pull request #2057 from LightTable/comment-cleanup
+Merge pull request #2055 from LightTable/fix-open-file-from-finder
+Merge branch 'pr/1458'
+DRY up block-comment and toggle-comment
+Merge branch 'master' into comment-cleanup
+Fix error callback handling
+Merge branch 'master' into pr/1458
+Remove mention of io.js as electron uses a version of node.js
+Merge pull request #1606 from seancaffery/rename-width
+Fix opening file from osx file manager - close #2053
+Merge pull request #2051 from LightTable/improve-experience
+Upgrade to Electron 0.34.5
+Use full urls in comment explanation
+Make user.keymap and user.behaviors more user friendly
+Add settings and plugin manager to menu
+Merge pull request #2042 from rundis/improve-block-comments-support
+Merge pull request #2046 from kenny-evitt/fix-plugin-latest-versions
+Fix version sorting for building plugin cache data. Fixes #2043
+Introduce block comment command  and make toggle comment block aware by default
+Merge pull request #2037 from LightTable/script-release
+Add directions on reporting console messages
+Add release process from #1936 with updated script command
+Provide one command for building a release: script/build.sh --release
+Merge pull request #2019 from nLight/issue-1635-huge-literal-autocomplete
+Update intro to clarify docs are online - close #2016
+Add space before 'to get started' in landing page
+Merge pull request #2008 from rundis/fix-result-stacking-normal-eval
+Implement a hint length limit for auto-complete #1635
+Revert "Makes inline result address more specific to fix #1213 LightTable/Clojure#32"
+Merge pull request #1972 from kenny-evitt/nicer-tarball-paths
+Merge pull request #1982 from kenny-evitt/bump-default-plugin-versions
+Bump version of Clojure plugin included by default to version 0.2.0.
+Bump LT version to '0.8.0-alpha'.
+Add missing thread requires necessary for app to be bootable in modern cljs
+Organize+move cljsdeps and add cljsbuild target ids
+Compile automatically `cljsDeps.js`
+Fix remaining compilation warnings in 1.7.48
+JSON should be prefixed with js/
+Rely on clj->js + js->clj that comes with ClojureScript
+Merge pull request #1992 from LightTable/fix-uninstall-message
+Remove redundant comment per feedback
+Split up available-plugins monolithic fn
+Fix uninstall popping up erroneous messages - close #1944
+Merge pull request #1990 from LightTable/fix-install-staleness
+Merge pull request #1989 from LightTable/fix-workspace-behaviors
+Fix installing a plugin doesn't load new behavior- close #1970
+workspace.behaviors should support the new flat format
+Workspace behaviors no longer triggers incorrect dialogs
+Bump Clojure and Python plugins to the latest versions.
+Bump version of JavaScript default plugin to latest.
+Merge pull request #1976 from LightTable/fix-browser-clear-console
+Destroy devtools-client along with parent browser - close #1975
+Merge pull request #1964 from rundis/window-close-handling
+Ensure that clean-up behaviors are raised on close and prompts for unsaved are handled #1961
+Remove extraneous 'builds' directory in tarball contents.
+Merge pull request #1969 from kenny-evitt/zip-windows-release
+Optionally zip release files after app build (for Windows).
+Merge pull request #1967 from LightTable/last-atom-shell-ref
+Forgot to update process.versions when updating to newer electron
+Merge pull request #1957 from LightTable/more-electron
+Update electron version to match current version
+grunt-cli should be tracked like any other node dep
+Use io.js for dev. We already use it with electron
+Add $IPC_DEBUG for debugging ipc message interactions
+Update electron to version that others can download - close #1958
+Remove unused requires in main process
+Clean up disjointed Electron app
+Move shell/ and platform/ to more sensible location
+Mention more deps and a note about vendored deps
+Add Electron guide
+Few more atom-shell renames and organize OS prereqs for install
+Change atom-shell references to electron
+Merge pull request #1781 from cldwalker/cleanup-node-deps
+Merge pull request #1955 from LightTable/add-docstrings
+Add code reading and node versions to doc
+Remove unused node packages
+Start a package.json for dependencies that are vendored
+Add ns docstrings for #1715
+Add fn docstrings per #1715
+Merge pull request #1942 from rundis/invalid_behaviors_file
+Merge pull request #1937 from rundis/incorrect_header_check
+Fixes #1727 Invalid behaviors file
+Merge pull request #1940 from martinchooooooo/patch-1
+Slightly clean up developer install doc
+Handle .git suffix in plugin metadata when downloading. In addition handle download errors more gracefully
+Merge pull request #1756 from LightTable/atom-shell
+Merge pull request #1935 from gitter-badger/gitter-badge
+Added Gitter badge
+Merge pull request #1930 from BenjaminVanRyseghem/atom-shell
+Quotes `pwd` to support spaces in path
+Merge pull request #1927 from rundis/nix_build_precon
+Merge pull request #1925 from kenny-evitt/atom-shell-add-git-attributes-to-disable-git-autocrlf
+Added precondition section for Linux build on atom-shell
+Add Git attributes file to disable auto-CRLF conversion for all text files.
+Fix: Add missing $ in \\.jar so that only files that end with .jar are ignored
+Merge pull request #1919 from rundis/mac_electron_fix
+Fix buildscript for mac app still called Atom.app not Electron.app
+Merge pull request #1899 from miraleung/electron-name-change
+Merge pull request #1892 from martinchooooooo/atom-shell
+Cleanup some text
+Add some sub-sections and add setup steps for Windows.
+Update Linux refs in build scripts for atom-shell name change
+Updated comment for future reference
+Realised there were other references to atom-shell to update
+Update build scripts for atom-shell name change to electron
+fix removing old css injections
+fix css eval in browser
+add focus event, prevent navigation when files are dropped
+fix javascript evaling the whole file everytime
+latest atom-shell fixes file:// url issues in webviews, when you move a browser tab it needs to reconncet to devtools, and we need to let people know about moves
+Revert "upgrade to the latest clojurescript and fix a couple warnings/build errors"
+Focus search when opening plugin manager close #1422
+Merge pull request #1868 from thewhitetulip/patch-2
+upgrade to the latest clojurescript and fix a couple warnings/build errors
+comment toggle with pmeta-/
+Merge pull request #1844 from snufkon/tweak-editor-force-wrap-command
+Merge branch 'pr/1866'
+Tweak a few file types per linguist close #1796
+add file types for codemirror modes
+move to latest atom-shell
+get webview eval working
+Fix modifier references for OSX in doc close #1850
+fix a bug of :editor.force.wrap command
+Open workspace if one of the args is a directory #1830
+Merge pull request #1843 from LightTable/add-credits
+Add credits to readme
+Merge pull request #1840 from ohAitch/fix/css-eval-escaping
+Fix css injection-eval filename escaping.
+Fix subtle cli bugs
+expr substr isn't valid on osx - close #1838
+Update build script to install grunt-cli locally
+Move run.sh to light.sh and support multiple platforms
+Cleanup old nw gitignores
+Clean up window closing
+Fix closing window on Windows
+Merge pull request #1831 from LightTable/add-rulers
+Add behavior to use CM rulers - close #892
+Update dev instructions and tweak build packaging
+Fix being unable to open file from cygwin terminal
+Global vars instead of load-order dependent channels for fix
+Merge pull request #1815 from sawcordwell/sc/rstfiletype
+Add reStructuredText file type
+build script works in windows 7 cygwin
+Combine 32 + 64 bit linux commandline scripts
+Update build script to work with ubuntu 64 bit
+Merge pull request #1812 from jfojtl/f11
+#1788 Added keybinding of F11 to fullscreen
+Merge pull request #1811 from joshuafcole/fix/inline-result-stacking
+Makes inline result address more specific to fix #1213 LightTable/Clojure#32
+Upgrade to latest atom-shell now that atom/atom-shell#969 is fixed
+Update open to be backwards compatible for urls
+Misc minor atom-shell cleanup
+Revert back to explicit window events and ipc channels
+Update binary detection
+Updating atom-shell app works
+Revert back to older atom-shell where remote-debugging works
+Use Info.plist from LightTableMac.zip file instead of atom's plist
+Capitalize extension name to be consistent
+Add file-type definition for gherkin - close #1795
+Merge open and save file dialog implementations
+Fix main-menu getting called 4 times on init
+Remove last traces of node-webkit menu
+Sign osx app to avoid endless osx firewall dialogs
+LightTable.app displays name correctly with latest atom-shell
+Remove osx_deps script - replaced by script/build.sh
+Use atom's node for worker-thread
+Introduce script/build.sh to handle deps and then build app
+Fix init-codemirror by adding back harmony flag
+Merge branch 'master' into atom-shell
+Update mac script for atom
+Fix icon not showing up in osx dock
+Enhancements to build script
+Add a build script to replace *_deps.sh
+Handle files from file manager once LT is already open
+Fix open cli path and intro for 2 or more windows
+Start LT with open file(s) from a file manager
+upgrade to atom-shell 0.20.1 - it dramatically improves retina performance
+Clean up main.js
+Fix dev tools borked by c1de64b
+Move argument parsing to browser side.
+Implement part of cli/args and verify it works with intro
+Use ipc ns for remaining interop ipc calls
+Use store! to set localStorage and doc its usage
+Save and restore position, size and fullscreen
+Fix get-data-path and use it
+Fix warnings from lt-user-dir and move windows mkdir fix to where it's needed
+focus windows on open
+that should do it
+Fix some of the warnings - args no longer needed
+Revert "ignore node_modules" which clobbers files in deploy/core/node_modules.
+Open files from the commandline
+Merge pull request #1779 from cldwalker/cm-addon-behavior
+Fix fat-cursor not showing up when searching in default theme
+Add behavior to allow users to use CM addons that come with LT
+add untitled file count
+fix another arity change
+Add styling for quote and link for default theme - close #1731
+fixes
+reverse app/platform dependency
+Fix ibdknox theme active line background - close #1740
+Merge branch 'use-codemirror-package'
+fix icon
+fix windows issue
+Change text in replace button to make it stand out as an action
+prove the concept
+clearer name
+reimplement open dialog
+reimplement save dialog
+implement some IPC utils
+remove redundant log
+fix windows issue
+fix a windows issue
+wow, that was an obscure bug
+more flexible run script
+fix relative paths
+menu fix
+fix workspace reconstitution
+get some sane closing behaviour back
+Port most nw package.json options to atom-shell
+this conflicted with the app object
+ignore node_modules
+small compatibility check for plugins
+add in an OSX run script and get everything in the right place
+get most everything working. Still need to fix proxy, cli, and injecting into browser tabs
+start getting LT on the atom-shell
+Correct fix for paths with a dot in the directory #1755
+Revert "Fix extension parsing for paths with a dot in the directory - close #1755"
+Fix extension parsing for paths with a dot in the directory - close #1755
+Start doc for committers - explain known state of node deps
+Use StringStream provided by runmode addon
+Add back foldgutter css which had been missing a while
+Blacklist modes to prevent loading instead of gitignoring them
+Move custom codemirror addons to their own dir
+Remove gitignore that is too general
+Use codemirror 4.7.0 node package instead of custom install  - #1655
+Rename Show to Toggle to be correct regardless of doc state
+Merge branch 'pr/1716'
+Fix funky spacing for cli behaviors
+Tweaks to #1716
+Merge branch 'master' into pr/1716
+Merge pull request #1752 from cldwalker/update-readme
+Mention which browser in readme
+Update Doc and For Developers sections with wiki info
+Add a community section
+Organize readme by splitting out to separate docs
+Only set new version after install, close #1735
+0.7.2
+Top level link to changelog to make it more discoverable
+Mention autocompletion change in #1296
+merge
+fix reversing of behaviors when they're translated to triggers
+single-arity log fn
+0.7.1
+add description to keymap diffs behavior
+fix defaults for latest chromium
+0.7.0
+remove CA add MIT release agreement
+merge
+add changelog for 0.7.0
+Merge pull request #1723 from cldwalker/flatten-map-config
+fix behavior metadata not getting correctly applied and cache creation ordering
+Give examples of subtracting behaviors and keymaps in user defaults
+Backup and convert map format to flat vec format
+Remove unused behavior, var and args
+fix things broken in the revert
+fix compiler warning after revert
+rever 3b5fab6
+revert 172154d40152f3eadda47b57dae1bfa720640044
+revert 21e3dde
+revert 6b80b12
+revert af2b058b2b39a452f4fa60cbddc90628eebf5a33
+revert 4c6bbd42
+fix clear for behaviors helper
+Add newlines to file-types behavior args to be diff friendly
+Remove debugging statements when autocompleting behaviors
+Remove exports of removed fns
+Move pair keybindings out of default to a behavior close #1713
+Revert quote pair from 82fe8cbfc8001c550182b8ae900c022d003e46c5
+Merge pull request #1718 from cldwalker/add-cljsbuild-test
+get autocomplete and the helper working for keymaps as well
+auto completion for the new behaviors syntax, better behavior helper
+Add a travis config to alert when cljsbuild warnings are checked in
+Merge branch 'master' of github.com:Kodowa/Light-Table-Playground
+fix typo
+Fix console/error getting cut off
+Bump fetch to get rid of cljs warning
+fix out of date check
+switch keymaps and behaviors to the new flat syntax
+fix display of error reporting of strings
+Merge branch 'master' of github.com:Kodowa/Light-Table-Playground
+Open file at location with cli #1549
+handle failure better
+Contributing tweaks - link to tutorial, mention irc and wording tweaks
+remove hack to allow installed plugins to show in available
+remove the need for the plugin server
+Merge pull request #1684 from cldwalker/add-user-plugin
+merge
+track down the nw11 white screen bug
+Dry up references to user plugin dir
+Rename settings/ to User/ and truly fix copying user plugin
+Fixed first-time copy of user.cljs
+Merge branch 'master' into add-user-plugin
+Add quote pair, close #1556
+Update contributing to pull in contributing intro
+Merge pull request #1703 from LightTable/omm/license
+DRY: comment/uncomment/toggle-comment
+Merge branch 'pr/1698'
+Fix inline-exception warning properly
+Fix remaining warnings that can be fixed
+Encourage users to go the mailing list for questions
+move to MIT license
+Bring back some functions, that might broke inner API
+Merge branch 'master' into add-user-plugin
+Fixed couple of compile-time warnings #1658
+Fixed couple of compile warnings
+Fixed couple of compile-time warnings #1658
+Adjust contributing wording to avoid any misleading wording, close #1614
+Mention license in readme, close #973
+Allow users to press enter in autocomplete by default. Close #1296
+Merge branch 'master' of github.com:Kodowa/Light-Table-Playground
+fix the skins and themes to no longer use css variables as they've been removed in the latest versions of chromium. You can now use node-webkit 10+
+fix menu for the latest nw
+fix menu for the latest nw
+Merge branch 'master' of github.com:Kodowa/Light-Table-Playground
+update core codemirror
+Merge pull request #1676 from brabadu/master
+Fixed context/out! arity
+Merge branch 'pr/1689'
+Use contains? for set membership for readability
+Show message if file/folder is already in workspace
+Merge branch 'master' of github.com:Kodowa/Light-Table-Playground
+fix regexp replace
+Prevent adding same folder and file to workspace #775 #1588 #1217
+Merge branch 'pr/1440'
+Update warn-delete to convention of editor as first arg
+Merge pull request #1438 from Bost/rounded-tabs
+tabs: rounded top corners look better that sharp edges
+Print /fullpath/file in the message if the file was modified or deleted.
+Fix Haxe extension per #1539
+Merge pull request #1679 from cldwalker/plugin-submission-message
+Add some descriptions to user.cljs
+Add command to add user plugin to workspace
+Add command to open user.cljs
+Fix uninstall causing extra missing popup
+Trigger off of :refresh! instead of new :save-deps behavior
+Update user.plugin :dependencies for plugin (un)install/update
+Load user.cljs and its commands
+Introduce user.cljs, plugin.edn, project.clj for user plugins
+Get back exec! redefinition in sidebar.command
+Reordered and declared vars for warnings in tabs.cljs and thread.cljs
+Reordered and declared vars for the rest of warnings
+Reordered and declared vars for the rest of warnings
+Fixed eval.cljs, files.cljs, find.cljs warnings
+Fixed langs/behaviors.cljs, langs/keymap.cljs, menu.cljs and opener.cljs warnings
+Fixed search.cljs warnings
+Fixed sidebar/command.cljs warnings
+Fixed navigate.cljs warnings
+Fixed status_bar.cljs warnings
+Fixed sidebar/workspace.cljs warnings
+tabs.cljs and workspace.cljs reordering
+Merge pull request #1646 from cldwalker/update-behaviors
+Reorder defn only
+Be explicit about version format to prevent #1677
+Address user confusion around plugin.json vs plugin.edn #1677 #1141
+Revert 1bbd7e516df0c3fd6ebdd15aa65bc4a38707ecdd for some files
+Reorder refs to reduce number of undeclared var warnings
+Reorder some definitions to reduce undeclared var warnings
+Reordered defs to remove undeclared Var warning
+Removed most of Wrong number of args warnings
+Remove references to nonexistent :resize behavior
+Remove remaining unused behaviors
+Merge pull request #1634 from cldwalker/show-plugins-directory
+Update result-menu! to point to result-menu+
+Remove unused top-level get-skins call
+:lt.objs.eval/destroy-on-clear behavior should be destroy-on-cleared
+Point to correct tab destroy behavior
+Remove nonexistent behaviors
+undo my hack, correctly remove old tab-labels
+ensure that when behaviors are reloaded the tabs get drawn again
+Show plugins directory in About tab
+Merge branch 'master' of github.com:Kodowa/Light-Table-Playground
+HACK: prevent tab switching from leaking label objects. Closes #1625
+Merge pull request #1603 from one-more-minute/backspace-indent
+Merge pull request #1624 from one-more-minute/containing-path
+fix for untitled editors
+set capture to true between each command triggered by the keyboard
+fix use of keydown/keyup for search
+use keyboard/stop-commands!
+refactor to use command + parameter
+use backspace-indent by default
+implement keyboard/raise
+initial implementation
+changed linked document command to
+Merge pull request #1585 from cldwalker/open-linked-doc
+Add command to open current file as linked doc
+add keyboard/stop-commands! to prevent further commands from firing when a specific command has completely handled a keypress. This allows for explicitly shortcircuiting commands based on the order they are placed in in the keybindings definitions. Related to #1603.
+merge and make inline exceptions use the menu behaviors to be consistent
+Merge pull request #1552 from ndr-qef/fold-code-at
+Merge pull request #1613 from joshuafcole/fix/search-cursor
+Merge pull request #1616 from mortalapeman/inline-result-menu
+Merge pull request #1618 from mortalapeman/fix-connector
+Fix connector failing to connect
+Inline result menu
+Use ->cm-doc where appropriate
+Add behavior to optionally open linked doc from navigator
+Add behavior to set default options for new linked docs
+Closing a linked doc should correctly remove it from linked docs
+Removes artifacts from the more invasive fix
+Fixes cursor trampoline with lower impact
+emacs-centric fix by moving cursor reversion into hide!
+Set width of sidebar items to the maximum width of their siblings
+Removes useless newline
+Removes cruft code
+Ensure rename input is at least as wide as file name
+Add element scrollWidth accessor
+Adds crude copy support to console
+Adds copy-exception BEH and menu opt
+Merge pull request #1602 from one-more-minute/auto-paren
+behave normally when there is a selection
+select result when wrapping with parentheses
+add after option to replace-selection
+Merge pull request #1601 from seancaffery/add-duplicate-file-menu
+Add duplicate file option to workspace files
+show a notification if you can't show the error
+prevent errors without lines from throwing
+prevent behaviors from getting reverse ordered when converted to triggers
+Merge pull request #1562 from Cottin/theme-selector-beats-rainbow
+fix bug with status-bar rename
+remove the reverse call in plugin diff ordering
+undo the ordering change.
+fix final diff-ordering for plugins
+Merge pull request #1578 from dkinzer/use-https
+Merge pull request #1574 from joshuafcole/refactor/css-rename
+Merge pull request #1583 from gekkoe/patch-2
+Merge pull request #1580 from one-more-minute/line-class-conversion
+Merge pull request #1584 from cldwalker/jump-stack-fixes
+Renames statusbar behaviors -> status-bar
+Renames statusbar -> status-bar in files, ns, and symbols
+gst
+Renames #statusbar -> #status
+Opening an already open path creates a linked doc
+editor.jump-to should only call jump-to once
+jump-stack.push should use given editor
+Note on hotkeys for OS X
+add editor conversion
+Download via https.
+Renames #bottombar -> #bottom-bar
+Renames #statusbar-container -> #status-bar
+Renames #side -> #left-bar
+changed bracket selectors so it beats the ones in rainbow/color.css
+changed bracket selectors so it beats the ones in rainbow/color.css
+Merge branch 'master' of github.com:Kodowa/Light-Table-Playground
+don't try to limit size in websocket connection prints, and return arrays as is
+Merge pull request #1512 from gruns/master
+Merge pull request #1537 from blandinw/patch-1
+Allow fold-code to fold at location
+0.6.7
+fix weird focus issue. I think this fixes #1293, #1468.
+Merge pull request #1540 from gekkoe808/patch-1
+Merge branch 'master' of github.com:Kodowa/Light-Table-Playground
+proxy support for downloads via the http_proxy, https_proxy environment vars thanks to @sethyuan. Fixes #1451
+Merge pull request #1511 from mortalapeman/ws-behaviors
+refix line ending preservation. Closes #359
+Default hotkey on OSX for searcher is cmd-shift-f
+fix CodeMirror search failing with RegExp syntax
+fix typo
+Merge branch 'master' of github.com:Kodowa/Light-Table-Playground
+ignore drag events in codemirror. closes #1524, closes #1523
+Be consistent and portable (#!/usr/bin/env sh over #!/bin/sh) with shebangs.
+Merge pull request #1505 from skrat/patch-1
+Fixing CSS for default theme & CM4
+remove the default CM theme which seems to be causing problems
+change log, remove html modes since they're in the html plugin, 0.6.6
+workaround for widgets overflowing to the next line
+pull in latest cm and fix the cursor height bug
+prevent font settings from being unnecessarily updated
+Merge branch 'master' of github.com:Kodowa/Light-Table-Playground
+Merge branch 'cm4'
+Merge pull request #1473 from ndr-qef/line-count-native
+editor/line-count takes a native editor
+typos in descriptions
+Merge branch 'cm4' of github.com:Kodowa/Light-Table-Playground into cm4
+update to latest modes, add in multiple cursors commands
+Merge pull request #1472 from ndr-qef/cm4
+Update editor/set-line to CodeMirror 4 API
+Merge pull request #1471 from Gozala/fix-solarized
+Make selection background color Base02.
+Revert "Update solarized.css"
+add my overlay changes back to the cm4 thing, fixes rainbow parens
+move to the latest cm4 stuff
+One more post
+Add docs and blog posts to readme
+Merge branch 'master' into cm4
+Dont walk forward when editing find bar
+Try a default port for socket.io first
+Merge pull request #1441 from ykomatsu/master
+Merge pull request #1391 from mortalapeman/extensible-menus
+Workspace Behaviors on Startup
+Merge current master into pull request branch
+Merge pull request #1439 from Bost/fix-css-property
+Merge pull request #1442 from seancaffery/fix-gutter-api
+Move add / remove methods after helpers
+Add multiple fonts support
+eclipse theme: fix 'Invalid CSS property value: #red' warning
+Merge pull request #1416 from one-more-minute/patch-2
+Merge branch 'master' of github.com:Kodowa/Light-Table-Playground
+prevent the inspector from exploding if you give a sourcemap url that doesn't lead to a file
+Merge pull request #1423 from joshuafcole/fix/jump-to
+Merge pull request #1409 from seancaffery/add-gutter
+Fixes default position to be in the correct format
+Merge pull request #1421 from Bost/dev
+Merge pull request #1370 from cldwalker/line-comment-options
+Merge pull request #1372 from cldwalker/fix-try-read
+Merge pull request #1411 from cldwalker/copy-inline-result
+Merge pull request #1434 from cldwalker/zoom-keybindings
+Add reasonable default keybindings for zooming
+Fixes error internal to CM when line number is not specified
+Fixes :editor.jump-to to push current position to stack
+search-box UI convenience: select the text automatically pasted to input line
+Fix WARNING: Wrong number of args (0) passed to lt.objs.menu/clear!
+Don't Repeat Yourself
+git-ignore .nrepl-port
+Remove windowsVerbatimArguments option (fixes #1413)
+copy inline result from its menu
+Remove duplication in gutter api
+Add remove-gutter to editor
+Merge pull request #1408 from cldwalker/fix-searcher-search
+Merge pull request #1406 from cldwalker/update-clipboard-in-editor
+searcher's search! behavior should use argument it's given
+reuse clipboard fns in editor
+Add add-gutter to editor
+Make $ and $$ multi arity
+Add object for tab label
+Rename tabset menu items trigger
+Merge remote-tracking branch 'lighttable/master' into extensible-menus
+reorganize tabs.cljs a bit, adjust close-tab button styling, add  behavior.
+Merge pull request #1297 from mortontw/report-issue
+Merge pull request #1368 from ndr-qef/context-logging
+Merge pull request #1382 from snufkon/tweak-show-docs-command
+Merge pull request #1384 from ccspell/patch-1
+Merge pull request #1387 from cldwalker/add-copy-and-paste
+Merge pull request #1388 from cldwalker/expose-open-path
+Merge pull request #1389 from cldwalker/require-command-keys
+Merge pull request #1400 from nickgieschen/master
+Merge pull request #1405 from seancaffery/installed-plugin-sort
+Ignore case when sorting installed plugins
+URI encode sourceURL of js files
+cm4 official
+Log context changes
+Fix this variable reference in tab-menu-items
+Update rem-tabset def to remove compiler warning
+Make tab and tabset context menus extensible
+require command keys to avoid missing keys breaking commandbar
+add copy and paste
+expose open-path for external use
+Merge branch 'master' into cm4
+Modified files for more simple implementation of Reporting Issues within Light Table.
+Update solarized.css
+Merge remote-tracking branch 'upstream/master' into report-issue
+tweak show-docs command to open only one doc
+update comment-options to be per editor instance
+combine try-read catches now that :default is available in cljs
+0.6.5 changelog
+tab -> tabs for commands that affect tabs
+fix sourceMappingURL path for windows :( fixes #1375
+Merge pull request #1349 from qazwse/master
+fix replaces with '(' in them
+fix typo in catch argument
+allow options to be set for line commenting
+add explicit console.show and console.hide commands, when opening the console in a tab, close the bottombar #1327
+Merge pull request #1331 from ndr-qef/update-outdated
+Merge pull request #1354 from ndr-qef/object-assoc
+Merge pull request #1327 from spelufo/master
+Add function to assoc-in objects
+Merge pull request #1330 from Gozala/bug/log-trigger
+Merge pull request #1345 from cldwalker/fix-typos
+Merge pull request #1346 from patrickconnelly/master
+Merge pull request #1350 from snufkon/add-default-input-to-searcher
+Merge pull request #1359 from piyush0101/master
+fix #1357, move the selected tab not just the active one
+Add command to update all outdated plugins
+Adding a set-line function to editor.cljs
+add default input to searcher
+focussing url bar highlights url
+add common lisp .lisp file extension
+Merge pull request #1340 from ndr-qef/nav-index-limit
+fix last remaining references to light-table-core
+Merge pull request #1325 from snufkon/add-close-others
+Merge pull request #1337 from snufkon/move-new-tabset
+Merge pull request #1336 from ndr-qef/ellipsis-on-truncation
+Merge pull request #1317 from seancaffery/sean/plugin-button-hover
+Add setting for number of files indexed by the navigator
+Add ellipsis to truncated results
+Adding a menu item to move tab to new tabset
+Adding a command to move tab to new tabset
+Add a `trigger` to args of an `:object.behavior.time` event.
+Prevent opening multiple console tabs.
+Adding a command to close tabs except current tab
+Change cursor to pointer for plugin install / uninstall / update
+don't let the mac menu only partially pick up keyboard shortcuts
+Changed implementation of Reporting Issue. The GitHub site is now opened in a new browser tab; this allows use of browser functions (eg. back and forward functions).
+Merge pull request #1291 from statesside/patch-2
+Merge pull request #1308 from piyush0101/master
+make the close tab button look nice
+Updated pull request #1291
+Merge remote-tracking branch 'upstream/master'
+Closing tabs in all tabsets with close-all
+Merge pull request #1270 from mortontw/master
+Merge branch 'master' of github.com:Kodowa/Light-Table-Playground
+Merge branch 'master' of https://github.com/celwell/LightTable into celwell-master
+Merge pull request #1273 from fraoch/master
+Merge pull request #1113 from joshuafcole/refactor/rename-active-tab-beh
+Merge pull request #1289 from ndr-qef/adjust-loc-line
+Merge pull request #1307 from nickgieschen/master
+Adding a command to close all tabs
+rewrite sourceMappingURL with full path so source maps can be found for 3rd party plugins
+Changed the URL which the Report Bug button takes the user to. Users will now be taken to the Light Table issues page instead of a new page for creating the issue. This is done to prevent duplicatoin of bugs.
+Reverted files back to originals from Light Table master repo; I only want this (my personal branch) to address the use "X" icon to close issue.
+wrap pair insertion and deletion in editor operations
+Added Leiningen and run directions to READ.md...
+Reverting tabs.cljs file back to original repo. I do not want to merge this file with the changes specific to this branch.
+Added a fix for being able to report GitHub  issues within Light Table. One can click the GitHub button on the welcome page or select "Report an Issue" from within the Help menu.
+remove alt-# as it breaks a bunch of international keyboards, #1284
+Allow editor/adjust-loc to specify line movement
+check for missing deps on getting available plugins, this should fix the personal plugin dependencies issue
+LT UI doesn't really have a defined dir, you should be able to eval anything into it, fixes #1176
+Merge branch 'master' of github.com:Kodowa/Light-Table-Playground
+add 'Plugins: Ignore cache and force reload the current behaviors file' command
+add in  command
+Merge pull request #1285 from flaviozantut/patch-1
+Merge pull request #1287 from seancaffery/middle-click-tab-close
+Close tab with middle / cmd + click
+Add behaviors for app pre/post-init
+fixed php ext editor
+Merge
+Add behaviour to set zoom
+better cljs websocket errors in general
+print ex-data for websocket cljs errors
+Show update button below uninstall and source when there is one available.
+Merge remote-tracking branch 'upstream/master'
+remove old less mode that apparently doesn't work
+Merge remote-tracking branch 'upstream/master'
+remove tar.gz
+fix plugin installing weirdness, 0.6.4
+Created UI "X" button that allows user to close tabs when clicked.
+catch all browser errors, changelog, 0.6.3
+Merge pull request #1252 from yuanmai/patch-1
+Merge pull request #1225 from mortalapeman/wip/workspace-delete-fix
+Merge pull request #1233 from mihneadb/curl
+Fixed the namespace of print-length
+Merge pull request #1249 from ndr-qef/remove-compound
+Remove editor/compound
+for browser cljs just use pr-str so that we don't get weird mismatches with instance-of
+don't let negated tags end up nil
+Merge branch 'master' of github.com:Kodowa/Light-Table-Playground
+try pr-string in the console first since clojure errors might come through differently
+check for curl
+Merge pull request #1203 from fraoch/master
+Merge pull request #1208 from cndreisbach/improve-extension-support
+Merge pull request #1210 from heyLu/update-wrench-js
+fix recent workspace delete, auto-wrapping quotes around the selection, don't popup the context menu if it's been handled by the browser
+Removed unused files/->type fn
+Merge pull request #1138 from mortalapeman/master
+Merge pull request #1160 from chmllr/master
+Merge pull request #1179 from ndr-qef/msg-timeout
+Merge pull request #1195 from mihneadb/last-tab
+Merge pull request #1205 from ndr-qef/osx-path-error
+Merge pull request #1209 from manutter51/fix-leiningen-detection
+Merge pull request #1213 from mihneadb/select-all
+make select-all include the whole first line
+Remove stray testing line
+update to wrench v1.5.6.
+Fix leiningen detection in osx_deps.sh.
+Improve extension support
+Merge branch 'master' of github.com:Kodowa/Light-Table-Playground
+make behavior :- negate at the object level. So if some behavior is added to a more general tag, e.g. :editor, you can disable it in :editor.markdown using the :- diff.
+Display error message if OSX path sourcing fails
+Copy across platform specific scripts, update version of zip, add .gitignore for env values
+Extend set-msg! with custom timeout
+Make msg* opts argument optional
+clojure-y name
+Improve docstring.
+use :last
+tabs.goto 8 goes to last tab
+Merge pull request #1197 from ThePawnBreak/smart_quoting
+Merge pull request #1191 from toqueteos/patch-1
+Implemented smart quoting in auto-paren plugin.
+Merge pull request #1194 from mihneadb/alt-tab
+Merge pull request #1192 from ndr-qef/file-append
+Merge pull request #1166 from Morgawr/tabset
+Merge pull request #1122 from Morgawr/master
+Merge pull request #1178 from MarcoPolo/master
+Support alt + N tab switching
+Add append-to-file function
+Merge pull request #1187 from ndr-qef/transient-save-ext
+Fix typo
+Include file extension in transient save dialog
+Updated the thread macro to be the background macro
+fixed issue #1165 - Tabsets don't properly resize after being removed
+Merge branch 'master' of https://github.com/LightTable/LightTable
+Merge branch 'master' into cm4
+Merge branch 'master' of github.com:Kodowa/Light-Table-Playground
+make console and notifos more resilient to non-dommable things
+Merge pull request #1161 from ndr-qef/basename-ext
+Extend basename to fully wrap node function
+favor user dir when versions match for plugins
+Matching bracket highlighting to tomorrow-night
+inverted condition for line height
+Merge branch 'master' of https://github.com/LightTable/LightTable
+fix plugins shouldn't require a restart when installed
+0.6.2
+fix a bug with removing styles, don't apply the active tabset highlighting to all themes
+use cm4
+fix intro image path
+ensure the latest version of a plugin is always loaded
+changelog add find-plugin, closes #1072 #1114
+add in Console: set buffer size behavior. Fixes #1137
+update to latest cljs
+remove another use of direction:rtl
+Merge pull request #1125 from gunnarahlberg/master
+Merge pull request #1134 from ndr-qef/transient-save
+Merge pull request #1144 from DomKM/master
+Merge pull request #1102 from efuquen/folding
+Fix Recent Workspace Delete
+moved fold-code command to pool.cljs
+added command to fold code, default keymap ctrl-=
+setup CodeMirror folding, added behaviours to show gutter folding
+don't use app:// anymore
+add LightTable.app and light executable to gitignore, remove old versions in osx build process
+bit more linenumber styling
+update codemirror
+remove fit-content warning
+fix the really ugly default line numbers and line number position
+make sure functions return correctly in external browser connections
+Add some clarifications on workflow
+Ensure destruction of recent workspaces
+Transient save suggests first workspace directory as location
+Remove extraneous behavior
+Check lein version. LT does not build on older lein versions
+Refactor Recent Menu Behavior
+fixed wrong permission change commit
+fixed font line-height bug with 0 spacing
+use cljs.core.type to return the type of errors from external browsers
+make local client and remote browser connection much less prone to disaster when throwing non-errors
+fix key normalization in :- for keymaps
+Merge branch 'master' of github.com:Kodowa/Light-Table-Playground
+add files/relative
+Specify bash rather than sh
+Default the build process to 1gb of memory
+fix the fix for linux_deps.sh :p
+relativize the image paths
+Renames :on-active-active-tabset to :tab-active
+Merge branch 'master' of github.com:LightTable/LightTable
+don't blow up when there wasn't a previously active tabset
+wording
+plugin tracking in the wiki policy
+allow active tabset styling fixes ##496
+Adding shebang and change file mode
+Adding more pattern
+Adding a travis file
+Merge branch 'master' of github.com:Kodowa/Light-Table-Playground
+Make the plugin manager UI more consistent, don't show installed plugins in available, add install button, sort installed by name, better failure reporting fixes #1095
+Fix linux_deps.sh reference to 32bit linux download
+Merge branch 'master' of github.com:Kodowa/Light-Table-Playground
+add body.inactive for explicitly tracking not active
+body.active if the window has focus fixes #1098
+Merge pull request #1096 from can3p/patch-2
+make path parameter optional
+add SQL filetype back in, not sure how it got removed
+keymap and behavior auto-complete now respect : as meaning look at tags, not descriptions
+Add toggle line wrapping command fixes #1089
+Merge branch 'master' of github.com:Kodowa/Light-Table-Playground
+Fix #628, fix external browsers don't disconnect, and add :root-relative and :dir to local client
+Merge pull request #1100 from rmunn/patch-1
+Add Ability to Remove Recent Workspace
+Fix typo in plugins.cljs
+Use file path as working directory for Save As
+grammatical and stylistic changes to readme
+Merge pull request #1078 from can3p/patch-1
+Merge branch 'master' of github.com:Kodowa/Light-Table-Playground
+set the default screen size to be smaller
+Merge pull request #1054 from wesleywiser/fix_for_64_bit_non_debian_linux
+when opening a new window make sure it has focus
+Merge pull request #1082 from zoranzaric/fix-1008
+Merge pull request #990 from joshuafcole/feature/provide-custom-styles
+Merge pull request #980 from brandonbloom/no-export
+Merge pull request #1059 from whaley/master
+Merge pull request #1067 from dmohs/docs-tabset
+Fix typo in reload message text
+Fix minor bug in :show-docs command. Instead of moving the new docs tab "over by one" (which breaks when there are already multiple tabsets open), keep a handle to the new tabset and add the docs tab to it.
+.zsh and .zshrc registered as shell extensions
+Removes old commented code
+Only applies CSS for the current skin
+Merge pull request #1055 from Feminist-Software-Foundation/master
+Makes skin update on inject like themes, allows multiple skins
+Removed gendered pronouns; replace with neutral, singular "they"
+Fix finding libudev on 64-bit openSUSE
+fix bug that caused line-endings not to get appended to the end of files correctly
+behavior for disabling metrics, to make it easier for those in restrictive environments
+look in the 64b dirs first
+Catch errors while walking the filesystem
+Merge branch 'master' of github.com:LightTable/LightTable
+Merge branch 'master' of github.com:LightTable/LightTable into feature/provide-custom-styles
+removes excess whitespace
+Updates default skins and themes to be relative so they can be completed by adjust-path
+Updates provide-theme to work like provide-skin
+Resolves provide-skin issues
+Revert "Initial pass at fixing provide-* for custom themes"
+Remove readlink -f from mac script and replace it with something that hopefully works on mac :)
+Add LT_HOME to mac instructions
+add in the platform specific stuff (run scripts)
+Merge branch 'master' of github.com:Kodowa/Light-Table-Playground
+don't fall over if there's a parse error without a stack
+Merge pull request #1018 from benmathes/master
+Update README.md
+Merge pull request #1006 from message/bash-lein-check
+Uncomment cljsbuild on windows, but mention the issue in the readme
+typo
+windows build on cygwion. Fails to cljsbuild
+undo setting the optimizations to none since node can't load code compiled that way
+use safe read for keymaps, don't let bad reads kill key loading in plugins
+Correct the repo name for LightTable
+Merge pull request #988 from joneshf/master
+Plugins do not need an update if we have no chached version info #999
+update project.clj description/url from the default
+Added check if lein exists
+Merge branch 'master' of github.com:LightTable/LightTable
+Initial pass at fixing provide-* for custom themes
+Turn auto-show-on-input on by default
+Add LiveScript file type
+Alphabetize file types
+Update linux build
+Remove dead export
+Merge branch 'dev-deps' of github.com:darthdeus/LightTable into darthdeus-dev-deps
+Merge pull request #971 from thoradam/master
+Add osx_deps.sh to grab all the binary dependencies at once
+Preserve the repo for the mac build
+re-enable workspace behavior diffs per #465
+Merge pull request #976 from Gozala/bug/solirized-activeline
+Fix active line visualisation in salarized theme.
+unhardcode the filter-list highlight color
+reorganize
+uncomment
+Confirmed working build instructions for mac
+Fix mac instructions
+Add the correct plugins folder for mac
+Update OS X and Windows instructions too
+No longer need to update any plugins except clojure during build
+Bump version to 0.6.0 for linux instructions
+Show cursor when selecting text
+Contributing file
+it's LightTable now not light-table-core
+fix the build instruction urls
+add license
+last little fix for the version check, we're at 0.6.0
+remove spurious println
+fix verison check
+more changes in the changelog
+0.6.0 changelog
+couple tweaks to the inline doc styling
+add in the instruction to delete the inner app so that the outer one will get picked up
+little cleanup
+remove clojure mode
+remove clojure from the default file types
+fix my provided? code
+fix doc search styling and instarepl live toggle
+Merge branch 'master' into plugins
+remove css, js, fix devtools evaling twice in the case of an unsaved file, make load/provided? handle the nested namespace case, reformat
+Small improvements to specificity-sort
+remove html, add in plugins/*plugin-dir* to get the current dir at load time, load keys on first behavior load, and properly pick up the updated object in update-listeners
+move python out, fix plugin load time issues by loading new js before we've decided on a final set of triggers
+move vim, emacs, and visible whitespace to plugins, reformat some files
+Speed up ->triggers somewhat
+Check dir in specificity-sort
+allow dropping files/folders onto the workspace tree
+windows instructions
+Merge branch 'master' of github.com:Kodowa/light-table-core
+Or you could do that
+Reverse specificity-sort
+Merge branch 'master' of github.com:Kodowa/light-table-core
+add the - back into the tmp.tar name
+Add 32 bit instructions
+Add full pathto jump-stack in readme
+better untarring for windows
+apparently on linux data-path is an array...
+try and find the non-string files/join
+remove old loading code, fix eval so that when you click on an eval result and your cursor is somewhere else it doesn't hop everywhere, move plugins to the user-plugins-dir
+Speed up specificity-sort
+ensure that the hover color is the same as the active color for popups
+remove the old shell experiment
+Merge branch 'master' of github.com:Kodowa/light-table-core
+fix bug where zero length filter-lists would blow up if you pressed up or down
+Add declassifier as example plugin
+version 0.6.0, remove the dirs since they're no longer necessary, fix auto-complete so that if it's not visible we're not capturing keys anymore
+throw a popup to confirm if you want to update
+fix a bug where closing an editor would not remove the current theme
+raise the contrast on the key-binding hints
+couple small skin tweaks
+move all of the user-y stuff out of the LT dir and move it to nw's user-data path
+fix scrollbars
+helps if I don't mistype
+you can only be active once connected
+style the connect bar
+Merge branch 'master' of github.com:Kodowa/light-table-core
+fix plugin manager styling, new loading indicators to match the skin, reorder plugins to show installed first
+Put build instructions etc in readme
+fix searcher styling
+pad the bottom of the rightbar slightly to maintain an edge
+reformat default behaviors, add statusbar-container, put find in it. make find look nice again
+format
+console styling
+filter lists start out as empty
+added in open recent to context menu and root menu, give some better hints how to get going when the ws is empty, fix removal of the display:none for empty hints
+light and dark skins are now the same
+fix all the themes
+Merge branch 'master' into newtheme
+remove the double stacktraces, handle the empty case of filter-list
+more skin stuff
+Merge branch 'master' into newtheme
+reformat
+don't escape if the hinter isn't active
+Dedupe hints
+Speed up autocomplete by not using dynamic tags and by avoiding constantly starting/escaping hints when the result list is empty
+Remove sorting from autocomplete results - takes ~300ms
+Up max heap size and use CMS to avoid running out of memory on OS X
+Merge branch 'master' of github.com:Kodowa/light-table-core
+don't rethrow
+Merge branch 'master' of github.com:Kodowa/light-table-core
+catch load errors and output them
+more theme stuff
+Add missing folders
+Add plugins folder
+Put jump-stack behaviors in behaviors file
+Merge branch 'master' into newtheme
+don't use a vec for the ui
+Merge branch 'master' into newtheme
+Merge branch 'master' of github.com:Kodowa/light-table-core
+make scrolling through results in the command/navigate panes several orders of magnitude faster
+rightbar styling
+Move doc search to :app
+Add docs stuff to default keymap
+Merge branch 'master' into newtheme
+Merge branch 'master' of github.com:Kodowa/light-table-core
+add in provided? to for plugin loading check
+more
+don't special case fullscreen anymore
+get rid of the custom frame
+Capital
+Merge branch 'master' into newtheme
+add discconect from clients command
+Merge branch 'master' into newtheme
+start using official clojurescript
+remove some old crap from editor and add in a codemirror-flags behavior
+fix bug with watched delete on files
+Merge branch 'master' of github.com:Kodowa/light-table-core
+add min height to bottom bar to prevent sizing into nothing
+add open in browser command
+more tweaks
+Allow disabling main menu
+new theme
+latest highlight line
+some reasonable organiziation
+fix overwrite popup
+handle the disconnected from internet case more gracefully
+more working indicators, uninstall prompt
+plugin submit and status, don't steal focus when you exec a command if the commandbar no longer has the focus
+fix search typo, only escape when there's a str, add editor/on-change behavior, update codemirror/vim, add jump-to command, fix plugin update notification and add it for installed pane
+add the frame back in for new windows
+plugin update, hide workspace commands
+don't warn about cycles when there are no plugins, disable threaded compositing
+add missing requires
+handle the plugin cycle case gracefully
+dependency order behavior loading
+fix bug that would cause any unpathed file to break rename
+styling and transitive install of plugins :D
+actually refresh plugins instead of just updating the view
+wip plugins manager
+rethrow object errors to try and get the full stacks, fix workspace rename/delete reporting, and ask if you really want to delete a file before we do it
+fix replace
+remove println
+create-menu requires an argument
+Use behaviour macro everywhere
+Remove bootstrap files from repo
+Ignore build output now that we have an easy repeatable build
+Add a behaviour macro to name reactions
+Use sourcemap
+Dont concat backwards
+Unhack
+Ugly hack - convert tokens objects to edn on the wire and back to objects at the other side
+Use js objs for completions
+Build
+Allow hints to be objects as well as maps
+Move clj stuff to plugin
+Update crate
+Update autocomplete behaviour to point to plugin
+Move auto-complete to plugin
+Instead of installing dependencies with pomegranate, just allow users to load a jar
+Move clojure related behaviors into plugin
+Merge branch 'master' of github.com:Kodowa/light-table-core
+merge
+move to a known stable version of CLJS, remove my scary dep on a local copy
+Track lines more carefully in jump-stack. Jump back to correct column.
+Echo notifos messages to console, since notifos truncates them and cant be copy/pasted
+Bug fixes for dependency loading
+Rename result-type
+Move LightTable-Clojure to plugins
+Move autocomplete code into an actual clj file
+Add a zero-arg version of done-working
+Revert "done-working needs an empty arg"
+done-working needs an empty arg
+Revert "Update bootstrap (shudder)"
+Update bootstrap (shudder)
+Bump cljs version
+Bump cljsbuild to a stable version
+Missing opts to set-msg!
+Typo
+Split jump-to-definition up into language-specific and editor-specific. Add a jump stack.
+First pass at jump-to-definition
+Fix missing arg in exception handling
+Typo
+Fix typo in inline docs
+fix behavior ordering bug
+remove spurious codemirror call that stopped the world and report the file if a plugin behaviors file blows up
+WIP Plugin manager stuff. Don't yell too loudly about the things in plugins.cljs, they're not fully ready yet.
+Separate triggering hint update from actually performing it
+Remove print
+Support autocomplete in cljs
+Put autocomplete in default behaviours
+Implement proper autocompletion in clojure
+very simple plugin validation, move rainbow parens to a plugin
+update codemirror, fix doc saving again
+better highlight line and fix new document saving
+Close documents when no editors rely on them anymore. Closes #2.
+add the tag-behaviors call back in for thread
+order by-tag by id and fix multiple popup context bug
+remove some cruft from proc, fix multi-popup context issue
+remove uses of object/parent, cleanup object.cljs a bit
+remove old markdown stuff, rename tcp-client to node
+remove the uses of tag-behaviors, remove struct.cljs
+remove codex, should be a plugin nothing worthwhile there right now
+html eval fix
+remove my personal behaviors from the repo
+add provide skin/theme behaviors
+remove duplicated window/app code, just keep app
+move old settings to cache and get rid of settings2
+move over to using codemirror docs and remove the file manager
+0.5.20
+focus issues, instarepl dirtiness, and windows fixes
+0.5.19
+make sure plugins can't blow up LT if they have read issues/don't exist
+fix error where a pathless file will cause no files to open
+wooohooo plugins
+0.5.15
+0.5.11
+0.5.9, 0.5.10
+forgot some files
+update to latest cljs, move to nrepl, 0.5.5
+0.5.3
+0.5.2 and removing a bunch of crap
+0.5.1
+Open folder menu item
+pmeta-g as a default binding in find
+0.5.1 fixes
+0.5.0
+almost 0.5
+cli fixes, dark skin refactoring
+tons more
+more refactoring
+back to working
+watches ranges for clj and cljs, watched_range fix for browser js, you can now set the editor theme based on editor context e.g. by language, fix solarized themes offsetting the lines, add in :exclusive to a behavior to say that it overrides any previous instances of it, fix menu not being set on focus
+better exception styling/placement + fix for codemirror's inline widget changes causing the cursor to flow to the right of results
+remove debug line
+latest cljs adds an exists? fn that was screwing lt.objs.files up. Fix no-project client and remove hardcoded path for the thread instance
+JS watches, CLJS watches, more CLJS 1806 fixes, configurable animations
+Move to CLJS 1806, fix console resizing issue, use pmeta for find, remove lots of random 'chris' uses
+clean import

@@ -1,0 +1,87 @@
+Fix severe package
+Security Fix: Update packages version
+Fix warnings which block the CI builds
+Fix cljs error
+Fix 'threadError' issue
+Fix electron package and update package version
+Fix not being able to load editor
+Fix line-height change
+Fix codecov integration
+Fix Control Pane's arrow direction
+Fix language docs sidebar from keeping focus when closed
+Fix typos in documentation
+Fix script file referenced as containing default plugins and their versions
+Fix scroll position jumping on save after stripping whitespace
+Fix behavior indentation - close #1986
+Fix cursor jumping when file is updated outside LT
+Fix editor save+ behaviors not updating tab - close #1733
+Fix build script if build target doesn't exist - close #2086
+Fix error callback handling
+Fix opening file from osx file manager - close #2053
+Fix version sorting for building plugin cache data. Fixes #2043
+Fix remaining compilation warnings in 1.7.48
+Fix uninstall popping up erroneous messages - close #1944
+Fix installing a plugin doesn't load new behavior- close #1970
+Fixes #1727 Invalid behaviors file
+Fix: Add missing $ in \\.jar so that only files that end with .jar are ignored
+Fix buildscript for mac app still called Atom.app not Electron.app
+Fix modifier references for OSX in doc close #1850
+Fix css injection-eval filename escaping.
+Fix subtle cli bugs
+Fix closing window on Windows
+Fix being unable to open file from cygwin terminal
+Fix main-menu getting called 4 times on init
+Fix init-codemirror by adding back harmony flag
+Fix icon not showing up in osx dock
+Fix open cli path and intro for 2 or more windows
+Fix dev tools borked by c1de64b
+Fix get-data-path and use it
+Fix warnings from lt-user-dir and move windows mkdir fix to where it's needed
+Fix some of the warnings - args no longer needed
+Fix fat-cursor not showing up when searching in default theme
+Fix ibdknox theme active line background - close #1740
+Revert "Fix extension parsing for paths with a dot in the directory - close #1755"
+Fix extension parsing for paths with a dot in the directory - close #1755
+Fix funky spacing for cli behaviors
+Fix console/error getting cut off
+Fixed first-time copy of user.cljs
+Fix inline-exception warning properly
+Fix remaining warnings that can be fixed
+Fixed couple of compile-time warnings #1658
+Fixed couple of compile warnings
+Fixed couple of compile-time warnings #1658
+Fixed context/out! arity
+Fix Haxe extension per #1539
+Fix uninstall causing extra missing popup
+Fixed eval.cljs, files.cljs, find.cljs warnings
+Fixed langs/behaviors.cljs, langs/keymap.cljs, menu.cljs and opener.cljs warnings
+Fixed search.cljs warnings
+Fixed sidebar/command.cljs warnings
+Fixed navigate.cljs warnings
+Fixed status_bar.cljs warnings
+Fixed sidebar/workspace.cljs warnings
+Fix connector failing to connect
+Fixes cursor trampoline with lower impact
+proxy support for downloads via the http_proxy, https_proxy environment vars thanks to @sethyuan. Fixes #1451
+Fixing CSS for default theme & CM4
+Fixes default position to be in the correct format
+Fixes error internal to CM when line number is not specified
+Fixes :editor.jump-to to push current position to stack
+Fix WARNING: Wrong number of args (0) passed to lt.objs.menu/clear!
+Fix this variable reference in tab-menu-items
+Fixed the namespace of print-length
+Fix leiningen detection in osx_deps.sh.
+Fix typo
+add in Console: set buffer size behavior. Fixes #1137
+Fix Recent Workspace Delete
+Fix linux_deps.sh reference to 32bit linux download
+Fix #628, fix external browsers don't disconnect, and add :root-relative and :dir to local client
+Fix typo in plugins.cljs
+Fix typo in reload message text
+Fix minor bug in :show-docs command. Instead of moving the new docs tab "over by one" (which breaks when there are already multiple tabsets open), keep a handle to the new tabset and add the docs tab to it.
+Fix finding libudev on 64-bit openSUSE
+Fix active line visualisation in salarized theme.
+Fix mac instructions
+Fix missing arg in exception handling
+Fix typo in inline docs
+latest cljs adds an exists? fn that was screwing lt.objs.files up. Fix no-project client and remove hardcoded path for the thread instance

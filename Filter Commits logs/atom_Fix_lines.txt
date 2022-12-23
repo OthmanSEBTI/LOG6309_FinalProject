@@ -1,0 +1,1385 @@
+Fix linting issues
+Fix typo
+Fix npm ENOENT error in install-script-runner-dependencies
+Bump language-ruby to 0.73.0 Fixes #22160
+fix(git-diff): Fixed linter issue and caught unnoticed spec issue.
+Fix text-editor failing spec
+Fix specs
+bootstrap: Fix syntax error for Node older than 10
+Fix lint errors.
+Fix lint errors.
+Fix lint errors.
+Fix go-to-line package failing spec
+Fix linting issues
+Fix package-lock.json
+Fix typo in tree-sitter-language-mode-spec.js
+Fixed numbered list in APT command
+Fixed command to install APT dependencies
+Fix a bug of CI linet error (src/menu-helpers.js)
+Fix a bug of CI (prettier) bug
+Fix bug of Linter error
+Fix error of CI linter
+Fix bug of atom/{src, spec}/*.js for CI error
+Fix bug of "Reopen Project" menu
+Fix menu bug with atom-i18n
+tree-indenter: Fix typo
+Fix linting
+Fix RPM dependencies
+Fix typo in text-editor-spec.js
+Fix tree-sitter-language-mode null highlight iterators
+Fix faded app icons on Windows
+Fix old comment
+Fix typo in menu-sort-helpers-spec.js (#22032)
+Fix  git diff subscriptions (#21968)
+Fix path when copying resource (#21900)
+Fix js colors to match solarized dark example (#19991)
+Fix buggy partial startup on macOS due to flag added by Gatekeeper/XProtect (#21861)
+Fix tree-sitter language injection inside of empty nodes
+Fixed atom.confirm and internal use of dialog.showMessageBox
+Fix WSL uname test
+Fix color parsing
+Fixed breaking change
+Fix lint errors
+Fix uploadToServer can't be null
+:keyboard: Fix a typo (chromedriver -> mksnapshot)
+:shirt: Fix lints for 'script' dir
+:shirt: Fix lints (verify-machine-requirements.js)
+Fix parsing error
+Fix parsing error
+Fix lint
+Fix lint
+Fix node versioin
+Fix lint errors
+Fix .deb install on ubuntu 20.04
+Fix startup issue after notarization
+Fix package-lock
+Fixed lint errors again
+Fixed lint errors
+Fixed unable to copy selected text from spec-suite window
+Fix language-typescript version in package.json
+Fix base16 project link
+Fix typo in comment
+Fix linter errors
+Fix linter errors
+Fix creation of binary folders
+Fix squirrel-update specs
+Fix typos.
+Fix issue when ripgrep returns matches that are empty
+Fix lint error
+Fix exception when multiple language layers are not yet highlighted
+Fix generation of release notes for nightly builds
+Fix lint error
+Fix test initialization
+Fix linter errors
+Fix unrelated test
+Fix handling of binary files when using ripgrep scanner
+Fix path issues in Windows
+Fix ripgrep scan implementation to pass all the tests
+Fix leak of LanguageMode objects in tests
+Fix package-lock.json
+Fix @atom/notify's binary path when running within Atom's ASAR archive
+Fix lint error
+Fix test
+Fix atom.open()
+Fix bracket matcher upgrade
+Fix usage of deprecated Buffer APIs in render process
+Fix atom --dev with JSON config files
+Fix specs
+Fix lint errors 🙈
+Fix lint error
+Fix reset-font-size
+Fix language-python and first-mate versions in package-lock.json
+Fix lint errors
+Fix problems with _dimensions being modified in-place
+Fix issue upgrading npm & use upgraded version
+Fix atom-application tests
+Fix lint error
+Fix syntax error that caused test not to run and some problems with test
+Fix reopen project when there are no open windows
+Fix linting issue after rebase
+Fix remaining linter issues
+Fix undefined variables from specs
+Fix git-diff package test
+Fix syntax error in fixture
+Fix specs
+Fix "Open Folder" menu item on Windows
+Fix artifact upload of OLD_RELEASE_NOTES.md
+Fix restart behavior for "Restart and Install Update" on macOS
+Fix usage of deprecated Buffer APIs in render process
+Update windows atom.sh launch script to support WSL changes in 1809 Fixes #18702
+Fix typo in atom.confirm documentation
+Fix highlighting of enum names within glob imports
+Fix and relax some lint rules
+Fix typo that messed up fold marker updates
+Fix lint
+Fix failure to emit did-change-highlighting event
+Fix tree-sitter-rust in package-lock.json
+Fix grammar-selector link text in packages README
+Fix autoflow package path in packages/README.md
+Fix atom.desktop for some Linux systems
+Fix incorrect theme name in comment
+Fixed broken Markdown syntax in doc
+Fix the 'repository' field of migrated package's package.json files
+Fix icon in autocomplete popover
+Fix package-lock.json merge conflict
+Fix bad condition on artifact upload task in linux.yml
+Fix up text editor specs
+Fix strategy and timeout
+Fix: Added capturing to keydown events when hiding tooltips
+Fix unloading serialization test
+Fix lint
+Fix off-by-one error that was masked by TextMateLanguageMode
+Fix TreeSitterLanguageMode.isRowCommented
+Fix missing READMEs on core package detail pages
+Fixes #17794
+Fix outdated package-lock.json files
+Fix syntax error
+Fix asset globbing in publish-release script
+Fix build artifact downloads in production builds
+Fix broken logic for IsReleaseBranch
+Fix wrong VSTS variable name
+Fix wrong variable name
+Fix syntax error in windows.yml when referencing environment variables
+Fix repository tests that fail when run in fork of atom/atom
+Fix YAML syntax issue
+Fix issues publishing macOS artifacts
+Fix #17535
+✅ Fix overly-specific assertion
+Fix highlighting when parent nodes extend beyond their first and last children
+Fix a ruby folding issue
+Fix logic for updating foldable range cache
+Fix handling of folds inside highlighted tokens
+Fix markdown
+:shirt: Fix lint errors
+Fixed failing tests and moved hiding of tooltips on keydown events to tooltip manager.
+Fixed liniting issues.
+Fix error when injection points are added before grammars are loaded
+Fix propogation of included ranges for injections within injections
+Fix linter errors
+Fix language-javascript version
+Fix test failures on darwin caused by non-GNU awk
+Fix CommandInstaller tests
+Fix possible mismatch between .findMarkers and .descendantsOfType
+Fix highlighting problem when seeking past the end of a syntax tree
+Fix isReleasedVersion check in AtomEnvironment
+Fix syntax highlighting problems with injected languages
+Fix Tree-sitter folding bug affecting HTML
+Fix indentation in bulleted list
+Fix property name
+Fix minor details and wording
+:non-potable_water: Fix leak when switching between tree-sitter languages
+Fix deprecated hidden-inset title bar style
+Fix bug w/ empty node handling, comment TreeSitterHighlightIterator
+Fix #17356
+Fix branch name in appveyor.yml
+Fix sentence 😳
+Fix test failure re: "Module._cache.hasOwnProperty is not a function"
+Fix out of date doc block method name
+Fixes https://github.com/atom/atom/issues/17013 by creating the recovery directory
+Fix 2018-04-23 weekly update
+Fix linter error
+Fix lint error
+Fix white I-beam cursor
+Fix link
+Fix markdown formatting
+Fix markdown formatting
+:bug: Fix documentation for the Config class
+Fix regression where config file was loaded in specs
+Fix linting error in config.js
+Fix shaking editor when typing
+Fix dock dragging and dropping
+Fix snapshot blacklist for request module
+Fix path duplication after decaffeinating main process code
+Fix loadGrammar callback argument order
+Fix whitespace
+Fix accidental quadratic
+Fix comment typo
+Fix spec
+Fix typo in TreeSitterLanguageMode.onDidChangeHighlighting
+Fix #16538: Middle-click pastes into read only editor on Linux
+Fix #14716: Error when deserializing TreeView for project
+Fix tests
+Fix typo in StorageFolder.clear
+Fix foldBufferRow regression
+Fix filename backtick inconsistency and fix wording in README
+Fix non-word char usage of current word cursor methods
+Fix syntax ... maybe 🙏
+Fix race condition between opening new files and restoring window state
+Fix section comments
+Fix lint issue
+Fix typo in protocol handler installer popup
+Fix handling of {undo: 'skip'} in TextEditor.insertText
+Fix handling of empty tokens in TreeSitterHighlightIterator
+:shirt: Fix linter error
+Fix WorkspaceElement tests
+Fix AtomEnvironment tests
+Fix error in TreeSitterHighlightIterator.seek
+Fix exception in getFoldableRangeForNode
+Fix nesting level calculation for children of partially-folded nodes
+Fix folding of internal nodes when fold end isn't specified
+Fix specs
+Fix misplaced default chunkSize property
+Fix memory leak in .maintainLanguageMode
+Fix deprecated TextEditorRegistry methods
+Fix regression and minimize chance for incorrect replacements
+Fix incorrectly written async test
+Fix TextEditor tests
+Fix Workspace spec
+:memo: Fix comment on GrammarRegistry class
+Fixed non ssl links
+:bug: Fix #16135
+Fix errors when passing subword regex to native find methods
+Fix bug in test
+Fix flaky test
+Fix lint errors
+Fix select-word command between word and non-word chararacters
+Fix error in .getLongTitle when editor isn't in the workspace
+Fix error in .getLongTitle when editors have no path
+Fix another spec
+:shirt: Fix "'tooltipElement' is assigned a value but never used"
+:shirt: Fix "'disposable' is assigned a value but never used"
+👕 Fix "Return statement should not contain assignment"
+Fix exception when trying to fold non-foldable row
+:shirt: Fix 'Unnecessary escape character: \"'
+👔 Fix "Arrow function should not return assignment"
+👔 Fix "The object literal notation {} is preferrable"
+👔 Fix "'model' is assigned a value but never used"
+👔 Fix "A constructor name should not start with a lowercase letter"
+👔 Fix "Expected a conditional expression & instead saw an assignment"
+Fix the randomized test
+👔 Fix linter error: "Arrow function should not return assignment."
+🐛 Fix bug disposing watchers in Project::addPath
+Fix loop contructs that got borked by `decaffeinate`
+:necktie: Fix linter violations
+Fix rendering bug when folds hide the vertical scrollbar w/ soft wrap on
+Fix comment misplaced by decaffeinate
+Fix mouseup listener cleanup when dragging in text editor
+:apple: Fix faded app icons on macOS 10.13
+Fix spec
+Fix isProjectAtRoot
+Fix toggleLineCommentsForBufferRows
+Fix unfoldBufferRow
+Fix scope name in TokenizedBuffer test
+Fix tokenized buffer spec
+Fix bugs in urlMain handling
+Fix missing devMode param in AtomApplication#findPackageWithName
+Fix package.json key
+:memo: Fix cursor name letter casing [ci skip]
+Fix a few more tests
+Fix another two tests
+Fix two more tests
+Fix those specs
+Fix Build error
+Fix rendering of block decorations for invalid markers
+Fix so all directions are tested in the specs
+Fix lint error
+Fix highlight end pixel position calculation
+Fix line number position when block decorations are at tile boundaries
+Fix folding for lines that contain a comment
+Fix tests by ignoring off screen lines
+Fix tests
+Fix measuring lines in presence of pending autoscroll requests
+Fix specs
+:bug: Fix atom/tabs#461
+Fixed links in keymap.cson
+Fix exception in screenPositionForPixelPosition when content updates are pending
+Fix dock button rendering issue
+Fix middle-mouse-button paste on Linux
+Fix measuring block dec. if adding them before updating element's width
+Fix resetting styles in NodePool
+Fix test
+Fix typo in the `CONTRIBUTING.md` document
+:bug: Fix `PaneContainer::onDidStopChangingActivePaneItem()`
+Fix exception on cancelling path selection when saving
+:memo: Fix get{Left|Right|Bottom}Dock links
+Fix not resetting unused styles in NodePool
+Fix lint errors
+Fix unintended unload prevention for spec windows
+Fix Pane.close test
+Fix handling of aborted save in Pane.saveItem
+:memo: Fix odd grammar in API docs
+Fix specs on macOS when "Show scroll bars" option isn't "always"
+Add keyb accelerators to file change & window state dialogs. Fixes #2928
+Fix handling of .save and .saveAs rejections
+:green_heart: Fix linter failure
+:memo: Fix image not displaying
+Fix lint errors
+:bug: Fix Report Issue link to CONTRIBUTING.md
+Fix exception when starting to drag text
+Fix search issues menu link
+:bug: Fix #14442
+Fix the atom:// URL handler for real (with tests this time)
+Fix editor element tests on Windows
+Fix editor component tests on Windows
+Fix running packages preloading tests in interactive mode
+Fix lint errors
+Fix atom.setSize spec when window is full screen
+:lipstick: Fix more lint errors
+Fix blurring the editor when no hidden input is present
+Fix specs
+Fix missing import in script/bootstrap
+Fix rendering artifacts when resizing with soft wraps
+Fix clicking past the content height
+Fix remaining linting warnings
+Fix remaining test failures in core
+Fix lint errors
+Fix error when attaching soft-wrap editor in synchronous update mode
+Fix positioning for block decorations located at the beginning of a tile
+Fix build failures
+Fix shift-scroll on Windows and Linux
+Fix more lint errors
+Fix cursor positioning around fold markers
+Fix lint error
+Fix pageUp/Down tests by using a real element
+Fix lint errors
+Fix clicking fold placeholders by ignoring pointer events on cursors div
+Fix spec/text-editor-spec.coffee
+Fix lint errors and delete dead code
+Fix bad syntax in src/initialize-benchmark-window.js
+Fix test
+Fix typo
+Fix wrong variable name
+Fix auto-width
+Fix clearing of marker-specific properties for layer decorations
+Fix event handler method name in specs
+Fix spurious selections marker layer update to avoid extra render
+Fix CSP for fonts
+Fix lint error
+:shirt: Fix linting errors
+Fix bundled package path check to use path, not name
+Fix another regexp error for excluding C++ files from the app
+Fix regexps for excluding C++ sources from the binary
+:bug: Fix URI resolution in `openSync()`
+Fix positioning of left dock toggle button when panel container has min-width
+Fix spurious pane activation when changing focus within a pane
+Fix less spec
+Fix usages of removed getModel method in tests
+Fix adding bundled packages to ModuleCache and increase test coverage
+Fix regression in hovered dock tracking due to workspace refactor
+Fix dock hiding on drag
+Fix dock dragging
+Fix workspace specs
+Fix lint errors
+Fix usages of Workspace.paneContainer
+Fix Workspace.open test for activating existing items in docks
+Fix issue https://github.com/atom/atom/issues/14109 and https://github.com/atom/atom/issues/13978
+Fix deactivating and reactivating preloaded package
+:bug: Fix observation of moved items
+Fixes #14102 to use ATOM_HOME if present.
+Fix spec/package-spec.coffee
+Fix typo
+Fix typo in comments of text-editor-registry.js
+Fix up helpers
+Fix main process test race conditions
+:white_check_mark: Fix main process tests
+Fix tests
+Fix lint errors
+Fix remaining tests
+Fix Workspace specs
+Fix dev mode
+Fix lint errors
+Fix lint errors
+Fix workspace-spec.js
+Fix ThemeManager specs
+Fix Workspace specs
+Fix path on macOS link
+Fix destroying a `PanelContainer` containing multiple panels
+Fix core renderer tests
+Fix usage of dynamic arguments variable in an arrow function
+Fix dev mode
+:bug: Fix apm shell script reference in Windows
+Fix spurious rename
+:keyboard: Fix typo
+Fix infinite recursion when calling getLastSelection from onDidAddCursor
+Fix increasing/decreasing font size via ctrl-mousewheel
+Fix broken link for macOS.
+Fix uncaught exceptions in ThemeManager specs
+Fix exceptions activating invalid packages in tests
+Fix describe block indentation
+Fix spec for path
+Fix autocomplete-css specs
+Fix usages of destroyed buffers in specs
+Brackets inexplicably need to be quoted in the command bit (but not in args). Fixes #13346
+Fix title bar tests on non-macOS systems
+Fix first guard clause
+Fix lint errors
+Fixed link (issue label is mac, not os-x)
+Fix lint errors
+Properly escape &^| chars in commands on Windows. Fixes #13178
+Fix package-transpilation-registry tests on Win32
+Fix id/source-path for themes on Win32
+Fix MenuManager spec that forget to set darin to test macOS behavior
+Fix error in highlight region width calculation
+Add support for cp850 Fixes #13342
+Fix linting error
+:shirt: Fix lint error
+Fix #12528
+Fix prepending multiple gutters at once
+Fix lint errors
+:art: Fix spec, cleanup
+Fix specs, rename cp > child_process
+Fix wrong binding on atom-environment.coffee
+Fix typo
+Fix linting issues/errors
+Fix toggleLineCommentsInSelection for empty lines
+Fix portable extraction for beta
+Fix header panels
+Fix atom-panel-container when fullscreen
+Fix tests
+Fix lint errors
+:shirt: Fix linter errors
+:art: Fix weird auto-generated spacing
+Fix for #10474
+Fix failing tests
+Fix decorations flashing more than once
+Fix wrong variable name causing style.width to be constantly re-assigned
+Fix fixture that gets modified as part of a test.
+Fix a typo and grammar error in CONTRIBUTING.md
+Fix uses of `call-window-method` IPC channel in specs
+Fix style guide links in CONTRIBUTING.md
+Fix test description
+Fix invalid usage of activation disposable in Package::load
+Fix unset keystroke handling, :art:
+Fix Page not found
+:arrow_up: markdown-preview. Fixes #8652
+Fix app not quitting on win32 and linux when closing the last window
+Fix position of atom-pane-resize-handle
+Change Help->Documentation url from https to http (Fix #12583)
+Fix release channel detection on Travis
+Fix show/hide line numbers in editor
+Fix outdated code in script/clean
+Fix lint errors
+:green_heart: Fixes tests for configurable large-file-warning.
+Fix spec for preserving custom grammars when panes are split
+Fix focus issues on CircleCI
+Fix timing issues in atom-application-test
+Fix calling `atom --version`
+Fix null guard in StateStore
+Fix Regression In #12317 For zsh
+:non-potable_water: Fix leak in Workspace::buildTextEditor
+:memo: Fix typo in setAutoIndent{,OnPaste} docs
+Fix editor leaks in TextEditorRegistry
+Fix maintenance of grammars for copied editors
+Fix running tests on macOS
+Fix artifact zipping on CircleCI
+Fix another path reassignment :grimacing:
+Fix reassignment of path variable. Grrrrr CoffeeScript.
+Fix certificate download on Windows
+:bug: Fix window size is not updated on resize
+:art: Fix Decoration::destroy docs
+Fix exception when package requires an incompatible native module
+Fix apm bin path on AppVeyor
+Fix WinShell closure/for issue, improve error handling
+Fix regex to allow multi-digit minor versions in build script
+Fix regex to allow multi-digit minor versions in build script
+Fix concat
+Fix regression where spacebar scrolled elements containing editors
+Fix up Squirrel specs
+:shirt: Fix lint errors
+Fixup Squirrel installer spec tests
+:art: Fix fat-arrow linter warning
+Fixes from testing Windows shell integration
+Fix overflowing of the tabs II
+Don't erase NODE_ENV from environment. Atom sets this to 'production' earlier, but some code paths can cause it to be un-set. This degrades performance and sometimes crashes React. Fixes #12024.
+Fix backslashes for Windows paths
+Fix WebView focus
+Fix find+replace specs
+Fix quoting in clean script caused by accidental undo
+Fix DownloadingState typo
+Fix overflowing of the tabs
+Fix uncaught exception when open file dialog is cancelled
+:shirt: Fix linting issues
+:shirt: Fix linter errors
+Fix opening console in DevTools
+Fix TokenizedBuffer specs?
+Fix some specs on Windows and honor options.shell
+Fix coffeelint error on trailing whitespace
+Fix bug when positioning cursors after the fold-marker
+Revert "Fix the test."
+Fix the test.
+Fix wrong implementation in TextEditor.prototype.screenRowForBufferRow
+Fix specs failures on Windows including paths
+Fix deprecation
+Fix backgroundThrottling assignment
+Fixes #4126 for fish-shell
+Fix defective spec and associate 'screen' as a renderer module
+Don't load packages starting with dot. Fixes #9805
+Ignore autorun on our buffered process commands. Fixes #10082
+Fix linter error
+Fix lint error
+Fixed positioning for overlay
+:memo: Fix linking the decorateMarker
+:memo: Fix dead atom.io/docs links
+Fix LanguageMode specs
+:fire: :green_heart: Fix TokenizedBuffer specs
+:green_heart: Fix TextDecorationLayer API specs in TokenizedBuffer
+:green_heart: Fix TextEditorPresenter specs
+Fix LinesYardstick specs to use the new tagCode-based scope structure
+Fix accented character menu spec
+Fix typo
+Fix old electron require syntax in specs
+:bug: Fix potential null reference callback invokation
+:apple: Fix emoji rendering
+Fix clean command to actually work when paths missing
+Revert "Fix the specs."
+Fix the specs.
+:green_heart: Fix more tests using tokenizedLineForScreenRow
+Fix typo in error message.
+Fix TextEditor cutToEndOfLine() test
+Fix TextEditor backspace() and delete() specs
+:bug: Fix inaccurate logic in moveLineDown
+Fix clean command to actually work when paths missing
+Fix `moveLineUp` and `moveLineDown` to work with free-form folds
+Fix lastScreenRowForBufferRow
+Fix moveLineUp and moveLineDown
+Fix specs related to the produced HTML line output
+Fix broken command parameter
+Fix platformSupportsUpdates() specs
+Fix usage of the onDidCompleteDownload() method
+:bug: Treat empty comment line as comment and add tests (Fix #4140)
+Fix option pass-through in Selection:: and Cursor::autoscroll
+Fix Workspace#open pending specs
+Fix a inconsistent getLineCount() use
+Fix error in specs
+:green_heart: Fix unrelated failing spec
+Fix for linter error on CI build.
+Fix for directory provider on Windows. Checks for presence of host in URL passed in instead of protocol (false positive).
+Fix typo in function call
+:memo: Fix atom.workspace.open split parameter mismatch
+Fix waitsForStateToUpdate proper like.
+:memo: Fix minor typo in CONTRIBUTING.md
+Fix bug from merge with PR#10743
+:bug: Reuse scroll position on text editor's copy. Fixes #8765
+:green_heart: Fix Tokenized Buffer spec
+Fix tests
+Fix tests for serialization
+Don't cascade maximized windows Fixes #10335
+Fix screenPositionForPixelPosition with DisplayLayers
+Fix pixelPositionForScreenPosition
+Fix F11 keymaps
+:checkered_flag: Fix corrupting Windows Paths
+:memo: Fix mistyped spec description
+Fix the openExt call.
+Fix path standardization on case-sensitive file systems.
+Fix up dragging and leave an indent on left panels
+Fix test: modified buffer terminates pending state
+Fix bug in ::activateItemAtIndex
+Fix bug in ::activateItem
+Fix bug in ::activate Item
+Fix the test.
+Fix hunk callback position.
+:lipstick: Fix lint warnings
+Fix indentation
+Fix the documentation style.
+Fix usage when we're given no options.
+Fix bad merge. Oops.
+:green_heart: Fix LinesYardstick specs
+:green_heart: Fix component and presenter specs
+Fix paragraph motions in the presence of CRLF line endings
+:green_heart: Fix specs
+:green_heart: Fix false negative
+Fix linting errors
+Fix missing parentheses
+:bug: Fix typo in project deserializer method
+Fix executeJavaScriptInDevTools
+Fix Electron deprecations
+Fix removeListener calls
+Fix specs. Duh.
+:bug: Fix typo in project deserializer method
+Fix typo
+Fix linter error
+Fix gutter spec indentation
+Fix typo
+Fix activatePackages
+:white_check_mark: Fix core specs
+Revert "Fix core specs"
+Fix core specs
+:art: Fix typo in moveLineUp comment
+:bug: Fix top of a wrapped line not visible when moving it up
+:bug: Fix auto indent no longer applied when moving lines
+Fix indentation in subword motion specs
+:bug: Fix moving multiple selection with folds creates new folds
+:bug: Fix moving a multiple selection with a fold creating new folds
+:art: Fix tests descriptions
+:bug: Fix moving single selection intersecting a fold
+:bug: Fix incorrectly reported width when measuring lines
+:bug: Fix incorrectly reported width when measuring lines
+Fixup railcar script
+:memo: Fix Cursor.getScreenPosition comment return type
+Fix function name to be consistent with convention
+Fix setting the env variable
+Fix merge problem and missing function call
+Fix broken link to section
+Fix confirm dialog spec
+Fix up deserialize specs
+Fix up deserialize specs
+:bug: Fix toggle-menu-bar command
+Fix extra child node removal in PanelContainerElement
+Fix spec failures due to slight changes in DOM positioning
+Fix leftover spec
+Fix fall-back to dev resource path in main
+Fix busted merge
+Fix function names - consistent with convention
+:memo: Fix typo
+Fix for packages with no spec/fixtures directory
+:bug: Fix typo
+Fix setting default values in config
+Fix ENOENT exceptions in text-editor-spec
+:bug: Fix folds not preserved when moving multiple selections down
+:art: Fix description test
+Fix coffeescript source maps.
+:art: Fix bad indentation
+:bug: Fix moving multiple selections down locked at wrapped line
+:bug: Fix #4300 by preventing 'will-navigate'
+Fix broken focused suite in spec
+Fix typos
+:bug: Fix ::registerDefaultOpeners
+Fix some linter errors
+Fix typo in package manager
+Fix updating of load settings
+Fix tooltip manager specs
+Fix linter errors
+:bug: Fix Windows context menu shortcut
+:bug: Fix an issue where yardstick cache wasn't being emptied
+:bug: Fix wrong pixel to screen position conversion
+Fix typos
+Fix a :bug: where some invalid lines were being measured
+:green_heart: Fix TextEditorPresenter specs
+Fix soft-wrapping spec
+Fix linting errors
+Fix typo on TextEditorElement ::getWidth/::getHeight
+:bug: Fix invalid shellAppDir on OS X
+Fix runas requirement
+:green_heart: Fix specs
+Fix coffelint error causing Travis builds to fail
+:green_heart: Fix some TextEditorComponent specs
+:green_heart: Fix remaining failures in TextEditorPresenter
+Fix soft wrapping when editorWidthInChars is used
+:green_heart: Fix TextEditorComponent specs
+Fix typo
+Fix typo
+Fix incorrect indentation on setAppUserModelId
+:green_heart: Fix presenter specs
+Fix coffelint error causing Travis builds to fail
+Fix linter errors
+Fix delegated tooltips
+Fix use of _atomModuleCache in getNativeModuleDependencyPaths
+:memo: Fix typo
+:green_heart: Fix TextEditorPresenter specs
+Fix bad import name
+Fix a typo in Electron URL
+Fix typo
+Fix chromedriver location in integration specs
+:memo: Fix wording on specs
+:bug: Fix undefined reference to syntheticEvent
+:art: Fix non-alphabetical ordering of dependencies
+:memo: Fixed link for instructions Node.js.
+:memo: Fix wording on specs
+Fix nits with the spec.
+Fix display buffer spec for new historied marker behavior
+Fix typos
+Fix a bug with refreshing the gutter UI.
+Fixed openEmptyEditorOnStart fixture tabs
+Fix openEmptyEditorOnStart fixture
+Fix openEmptyEditorOnStart spec styling
+Fix method typo
+Fix config.get for schemas containing objects
+:memo: Fix a typo and make recommendation more clear
+Fix inline source map regex
+:arrow_up: text-buffer. Fixes #8322
+Fix ViewRegistry::addViewProvider documentation
+Fix bug where word- and line-wise selections got stuck in reversed state
+Fix occasional spec flakiness on travis
+Fix flaky project spec caused by async service hub
+Fix use of deprecated atom-keymap method
+Fix specs to deal w/ async ServiceHub::consume
+Fix specs
+Fix indentation for languages without indent pattern
+Fix config.set scope selector example
+Fix indentation when pasting lines
+Fix janky .travis.yml config
+Fix Arch build instructions
+Fix selection behavior at beginning or end of line
+Fix case when selection is at the beginning or end of a line
+:bug: Fix race condition as well
+Fix copypasta selector
+:bug: Fix pane resize cursors on Windows
+Fix destroy listeners
+Fix incorrect state save when exiting
+Fixed 'setBufferRange' documentation parameter name
+Fix documentation bug.
+Fix some nits I found during my self-review.
+Fix inconsistency with pane resize cursors.
+Fix text-editor-component-spec failure
+:bug: Fix typo
+Fix text lint error
+Fix build issue: import ui vars.
+:bug: Fix application:open-license command
+:shirt: Fix linter error in build/tasks/install-task
+:shirt: Fix linter errors in text-editor-view
+:shirt: Fix linter errors in text-editor-spec
+WIP: :shirt: Fix even more linter errors
+WIP: :shirt: Fix linter errors
+Fix integration tests
+:green_heart: Fix wrong spec
+Fix spec failure
+:green_heart: Fix remaining specs
+Fix tests + add integration test
+Fix bug w/ markers mutated inside of change listeners
+Fix DisplayBuffer spec
+Fix spurious lint error by rearranging syntax
+:green_heart: Fix all TextEditorPresenter specs
+:green_heart: Fix position specs
+[Gutter] Fix custom decorations tests in TextEditorPresenter specs
+[Gutter] Fix former .sortedDescription tests in TextEditorPresenter specs
+[Gutter] Fix shared gutter styles tests in TextEditorPresenter specs
+[Gutter] Fix line-number gutter tests in TextEditorPresenter specs
+Fix assignment of last non-whitespace column for paired characters
+Fix soft wrapping with tags array, including soft-wrap indent
+Fix bufferRangeForScopeAtPosition with new tags array scheme
+Fix TokenizedLine::copy for new representation
+[Gutter] Fix GutterContainerComponent spec
+[Gutter] Fix CustomGutterComponent spec
+Fix another lint error
+Fixture name to match fixture dir
+Fix some integration test flakiness
+Fix clicking on line
+Fix char measurement
+Fix up docs with Extended tag and rewording
+Fix spec to expect whitespace to be removed
+Fix most of the specs
+Fixed glaring mistake in test spec
+Fix scroll width calculation when longest line is folded
+[Gutter] Fix coffeescript style issues
+Fix issue #6466 by using full path to atom
+Fix legacy event spec for scheduler change
+Fix docs for AtomApplication::openPaths
+Fix spec
+Fix paragraph computation in blocks of single line comments.
+:green_heart: Fix race condition on window-spec
+Fix cibuild returning 0 as status code
+:memo: Fix doc on getting the home directory
+:shirt: Fix new coffeelint errors
+:art: :green_heart: Fixed the test script.
+Fix screen/buffer range error in paragraph cursor motions
+Fix error when running apm in packages
+Fix text-editor-component spec
+Fix screenPositionForPixelPosition for case above first row.
+Fix double autoscroll when moving cursor
+Fix deprecated calls and recommendations in deprecated methods
+Fix random editor spec now for indented soft-wrap
+:green_heart: Fix failing spec
+Fix soft-wrapping specs
+Fix Project::relativePath w/ URLs
+Fix a bug when a URI is passed to atom.project.removePath().
+Fix ::longestScreenRow update for changes directly above longest line
+Fix a lint warning reported by `./script/grunt lint`.
+Fix assignment of oldState values in ScrollbarComponent
+:green_heart: Fix soft wrapping scroll spec
+Fix bug in Project::relativize
+Fix race when starting atom twice in spec
+:white_check_mark: Fix failing specs (and add new ones)
+Fix handling of args and env in atom-launcher script
+Fix up assertion messages. Make some .then() calls one-liners.
+Fix an assertion that was failing but was being reported as part of the wrong test.
+Fix atom engine semver in upgrading docs
+:memo: Fix comment typos
+Revert "Fixes RPM install path and icon location"
+Fix velocity scrolling upward
+Fix undefined method errors in overlay manager
+Fix randomized spec failures
+Fix action logging in random spec
+Fix indentation
+Fix spec organization
+Fix 0-width cursors in presenter instead of view
+Fix spec
+Fix endRow calculation
+Fix link to wrong version of Jasmine
+:memo: Fix broken json-schema.org link
+:memo: Fix typo in 'Creating Package' docs
+:bug: Fix ident guides missing on whitespace only lines with invis chars
+Fixes RPM install path and icon location
+:memo: Fix previous change.
+:memo: Fix a broken link.
+:memo: Fix theme docs.
+:memo: Fix doc reference in config
+:art: Fix wording
+:art: Fix spec title
+Fix up the linter error
+:memo: Fix broken npm package.json link
+:memo: Fix BufferedProcess docs
+Fix comment for Selection::adjustIndent
+Fix inconsistent keybindings in first package guide
+:memo: Fix typo in addOpener doc
+Fix Config::unset with no scope-selector
+:bug: Fix overflow of mini editors
+Fix the version number in the upgrade guide
+:bug: Fix line-height of the indent-guide
+Fix styleSheets manifest key in package.json of fixtures
+Fix deprecated styleSheets manifest key
+Fix error string when there is a user config error
+Fix theme manager specs
+Fix config specs
+Fix getOriginUrl calling itself
+Fix folding with splits
+Fix spec it function.
+Fix bounds checking of alpha
+Fix context menu docs Closes #4963
+Fix core deprecations
+Fix undefined Grim references
+:memo: Fix PackageManager::onDidLoadAll description
+:memo: Fix URL references for LESS.
+Fix don’t
+Fix deprecation suppression in specs
+Fix removing the dragover event listener
+Fix colons in examples
+Fix deprecation location reporting in spec runner
+Fix LanguageMode::foldAllAtIndentLevel
+:memo: Fix examples in config API docs
+Fix grammar in spec description
+Fix logic error when exception is thrown in config observer
+Fix context menu when shadow DOM is enabled
+Fix config priorities
+Fix deprecation in package-manager-spec
+Fix Config::getSettings
+Fixed activateNow when no activation promise
+Fix position in Cursor::moveToBeginningOfPreviousParagraph
+Use xargs -0 instead of sed, as this is easier to understand. Fixed atom/atom#4337 Fixes atom/atom#4336
+Fix line numbers in coffeescript stack traces for error hooks
+Fix deprecated Workspace::getActiveEditor call
+Fix tooltip command display when command has no keybinding
+Fix atom.sh when running from directory with space
+Fix spec name
+Fix deprecation link colors
+Fixed link error
+Fix Notification::getDetail
+Fix misinformation in deprecation warning
+Fix ordering of panels in panel containers
+Fix workspace model spec now that legacy panel class is added in view
+Fix window-spec for key name change in deserialized state
+Fix local variable name
+Fix memory leak in GitRepository and convert to CompositeDisposables
+Fix logCursorScopes
+Fix link, add link
+Fix link
+Fix resetting scoped config defaults
+Fix relative import for auto-updater
+Fix linter error
+Fix method name
+Fix autocomplete specs
+Fix disappearing editor when folding all
+Fix issue removing panels
+Fix typos
+Fix corner cases related to lifecycle state of EditorComponent on events
+Fix specs
+Fix appendToLinesView
+Fix setEditorHeightInLines shim now that we’ve dropped .react class
+Fix sourcePath on text editor stylesheet loading
+Fix tests
+:memo: Fix typo
+Upgrade scandal@1.0.3 for isBinary Fix
+Fix comments n junk
+Fix specs
+Fix typo in comment
+Fix spec
+Fix cursor not being able to move within the last line of text.
+Fix cursor so clicking the below the last line of text puts the cursor at the end of the last line.
+Fix join lines so that only a single space will exist between two lines that are joined.
+Fix theme-manager-specs
+Fix Token::isEqual() to accept scopes for now.
+Fix deprecate reference
+Fix spec
+Fix spec
+Fix weird spec
+Fix checkout-head-revision command
+Fix warnings from schema incorrectness
+Fix specs
+Fix specs for settings view.
+Fix handling of submenus in conversion of legacy context menu format
+Fix renaming error throwing exception in checkout-head-revision command
+Fix spec
+Fix :memo:
+Fix config resetting all values when one changes.
+Fix onDidChange usage
+Fix doc to match implementation
+Fix specs
+Fix up message strings
+Fix up Config doc string
+Fix specs
+Fix specs
+Fix specs
+Fix specs in config
+Fix specs
+Fix linter error
+Fix command-installer-spec
+Fix spec
+Fix Copy / Cut's accelerators
+Fix CommandRegistry::get/restoreSnapshot
+Fix specs
+Fix reference to display-buffer-marker
+Fix the title duplication
+Fix deprecation method calls
+Fix CommandRegistry::findCommands spec
+Fix / clean up specs
+Fix section name in git class
+Fix doc strings in Atom class
+Fix docs
+Fix Doc String
+Fix observeBuffers
+:lipstick: Fix doc string
+Fix deprecation warning
+Fix linter error
+Fix doc strings
+Fix editor observation docs
+Fix doc strings
+Fix comments
+Fix comment
+Fix some doc strings
+Fix indentation to make coffeelint happy
+Fix specs
+Fix dupe functions
+Fix syntax highlighting
+Fixup doc strings that don’t parse correctly
+Fix Decoration events
+Fix indentation
+Fix the mini-editor test
+:bug: Fix incorrect assertions
+Fix editor:move-to-first-character-of-line with leading hard tabs
+Fix error when running `checkout-head-revision`
+Fix benchmark requires
+Fix the status bar nested inline blocks.
+Fix specs
+Fixes unexecutable commands on win32 in BP
+Fix indentation
+Fix `split-selection-into-lines`
+Fix source maps for CoffeeScript on Windows.
+Fix getVersion spec
+Fix typo in event trigger
+Fix a bug where scopes were being duplicated for every single token
+Fix abbreviation
+Fix typo
+Fix spec
+:bug: Fix regression in indent-guide in React editor
+Fix typo
+Fix autoscroll specs for addSelectionForBufferRange
+:lipstick: Fix ugly test
+Fix specs
+Fix spec
+Fix spec name
+Fix prepare docs
+Fix scrollbar dragging in React editor
+Fix specs for use of setImmediate instead of nextTick in requestUpdate
+Fix specs
+Fix specs failures caused by making lines 100% width
+Fixed typo's for proposed commit.
+Fix errors refreshing directly after adding selection below/above
+Fix spec
+Fix editor-view tests
+Fix id generation
+Fix decoration specs to work with markers only
+Fix gutter width
+Fix casing on Grim import
+Fix spec
+Fix failures associated with not passing `focused: true` on pane splits
+Fix context-menu specs
+Fix linter errors
+Fix inequality in LinesComponent::shouldComponentUpdate
+Fix indenting of HTML (closing) tags for instance. Fix #1294
+Fix bug in LinesCompoent::shouldComponentUpdate
+:memo: Fix typo in docs
+Fix example in editor-view.coffee
+Fix slash in Windows build instructions
+Fix interval cancellation in specs
+Fix typo
+Ignore paste in react editor, Fixes #2186
+Fixed a typo where cmd would appear in linux.cson
+Fix gutter specs and update lines when digit counts change
+Fix the height/width of the editor in spec
+Fix horizontal scrolling spec
+Bug #1791 Fix typo in example group name and function names.
+Fix another subscription leakage associated with theme manager specs
+Fix failures running config specs locally
+Fix subscription leak when ~/.atom/styles.less is present running specs
+Fix link for TextMate's GitHub Organization
+Fix #2152: Cast opened paths to string
+Fix #2152: Cast opened paths to string
+Fix specs that broke when accounting for horizontal scrollbar height
+Fix running .cmd stubs through BufferedProcess
+:penguin: Fix #2103, #2100 Update platform bindings for linux/win.
+Fix Windows build instructions
+Fixed typos
+:lipstick: Fix typo in pasteText method comments
+Fix link to API in README
+Fix windows links
+Fix spacing
+Fix Workspace::openLicense
+Fix workspaceView spec
+Fix undefined variables in tokenized-line-spec
+Fix deprecation message
+Fix typo
+Fix undefined variable references rendering lines
+Fix incorrect triple-click spec
+Fix broken spec
+Fix spec
+Fix inconsistent indentation
+Fix indentation error
+Fix default size bug
+Fix bug in Project::getEditors
+Fix problem with Workspace::eachEditor
+Fix WorkSpace typo
+:penguin: Fix normalized menu item label.
+Fix grunt install.
+Fix specs on Mac.
+Fix setting NODE_PATH in specs window.
+Update apm: Fix keytar on Linux.
+Fix grunt on Linux.
+Fix ::translateToBufferMarkerAttributes reference
+:lipstick: Fix indentation level of the last describe in editor-spec
+Fix broken docs links
+Fix position translation bug for wrapped lines with hard tabs
+Fix licenses task, list "All Rights Reserved" in package.json for now.
+Fix CSON syntax for keybinding example
+Fix broken method links
+Fix exit call in check licenses task
+Fix spec
+Fix specs for Tokenized Buffer
+Fix specs for Syntax
+Fix specs for Language Mode
+Fix specs for Editor View
+Fix name of argument in docs for clipBufferPosition
+Fix typo
+Fix lurking soft-wrap bugs
+Fix method name bug
+Fix reload window text
+Fix typo in method names
+Fix :bug:
+Fix spelling error
+Fix executing grunt under Windows.
+Fix typo
+Fix specs
+Fix gutter view rendering specs
+Fix references to renamed method in specs
+:lipstick: Fix misleading variable name
+Fix page up/page down keybindings
+Fix editor method name
+Fix cut, copy and paste key bindings
+Fix issues splitting panes with DOM events
+Fix botched merge of package.json. Sorry.
+Fix git specs when running under symbolic path.
+Fix layout of tabs with flexbox repaint hack
+Fix core specs
+Fix EditorView spec
+Fix access to undefined root property
+Fix bootstrap in renderer.
+Fix variable name
+Fix pane spec
+:non-potable_water: Fix mini editor leak
+Fix logging
+Fix pane spec. Fully test serialization lifecycle via ::testPersistence.
+Fix site.createDocument shim
+Fix comment
+Fix pesky workspace view serialization spec
+Fix window specs
+Fix syntax error
+Fix typo constructor
+:lipstick: Fix typo in dialog.
+:lipstick: Fix atom-shell's download dir.
+Fix replace on open buffers. only replace paths specified.
+Fix up things for kevin
+Fix update-atom-shell task when using the keychain
+Fix path affixing in git.coffee
+Fix syntax path matching
+Fix tests in editor
+Fix indentation of comments
+Fixture hashes depend on line returns
+Fix gutter rendering when there are folds
+Fix the panel code to use the tool-panel component
+Fix test
+Fix tests
+Fix calling of apm and grunt in script/cibuild and script/test.
+Fix the "'true' is not found" error.
+:lipstick: Fix typo in variable name
+Fix replication spec
+Fixup specs
+Fix docs
+Fix config tests
+Fix test for both local and janky
+Fix tests
+Fix lint errors
+:lipstick: Fix typos in specs.
+Fix bootstrap script on Windows.
+Fix return value for getValueAsHTML
+Fix based on matts suggestions
+Fix Text Buffer spec
+Fix Project spec
+Fix spelling
+Fix resourcePath in main.coffee
+Fix removal of editors
+Fix "Missing or invalid User Agent string." error.
+Fix the tests
+Fix hiddenInput offset calculation
+Fix selectAll on buffers longer than the rendered lines
+Fix issue when there are no client rects
+Fix test, use bufferRowsFOrScreenRowsProperly
+Get benchmarks running again: Fix imports.
+Fix for non-extant lines
+Fix lint errors in MenuManager
+Fix indentation
+Fix Project::scan specs
+Fix button heights.
+Fix requires
+Fix race condition in package-generator specs
+Fix default project path in specs
+Fix strangeness when split panes
+Fix section styles
+Fix small issues
+Fix .block css definition
+Fix tabs
+Fix selected items in lists
+Fix shadow in popover-list
+Fix weirdness with list colors in light ui
+Fix tree padding broken by bootstrap upgrade
+Fix lists to make use of the text-* classes
+Fix Section styling
+Fix styles in jasmine runner
+Fix pane:became-inactive and pane:became-active events
+Fix color highlight issue in Ruby, #716
+Fix incorrect biscotto references
+Fix visibility of classes.
+Fix all biscoto warnings
+Fix more TomDoc references
+Fix delegation references in comments
+Fix documentation links
+Fixed broken links in ReadMe
+Fixed broken links for configuring.md, theming.md, and extending.md
+Fixed broken links to configuring.md, theming.md and extending.md
+Fixed broken links to configuring, theming, and extending.
+Fix corner case in RowMap::mapBufferRowRange w/ 0-buffer-row regions
+Fix parameter ordering
+Fix background highlight colors naming
+Fix naming errors
+Fix broken specs
+Fix broken specs
+Fix padding on connections count
+Fix tests. Indent oops.
+Fix issue in jumping to next bookmark
+Fix `CommandPanel` spec
+Fix test
+Fix comments so they match up with actual behavior
+Fix isReversed option name
+Fix 'isReversed' option name for marker creation
+Add 'Inspect Element' context menu. Fixes #632.
+Fix tests in EditSession
+Fix specs due to scrollTop/Left becoming methods on EditSession
+Fix specs regarding beforeunload event.
+Fix spec of confirmSync in 'window:close'.
+Fix doc specs
+Fix build script
+Close window immediately if renderer is crashed. Fixed #580.
+Fix atom.getVersion.
+Fix window spec.
+Fix link package spec.
+Fix opening links in external browsers.
+Use toggleDevTools instead of showDevTools. Fixes atom/atom-shell#8.
+Fix #550. Use `min-width: 0` after flexbox orientation switch.
+Fix wrap guide spec again. Previously it only passed w/ a wide window.
+Fix perf regression: Don't update line numbers for single line changes
+Fix wrap guide specs after panes css change
+Fix perf regression caused by `flex-flow: column` on pane item views
+Fix regression: folds can be destroyed by clicking them
+Fix specs for testing highlighted lines
+Fix some docs issues
+Fix edit session specs concerning delete/backspace + folds
+Fix tests
+Fix block comments in src
+Fix method missing exception in LineMap.logLines
+Fix docs references
+Fix command interpreter spec
+Fix some edit session specs. The remaining failures are less trivial.
+Fix selection spec to to check marker destruction properly
+Fix DisplayBuffer spec
+Fix jqueryui-browser npm version
+Fix typo
+Fix event emitter error
+Fix dem specs
+Fix some documentation
+Fix #505. Update grammars if any included grammars are updated.
+Oops. Fix tree-view auto-scrolling and specs after breaking them.
+Fix syntax error in select-list.less of atom-dark-ui theme
+Fix command panel preview list header styling
+Fix tree-view specs
+Fix select-list auto-scrolling specs
+Fix mini-editor appearance by clearing styles on hidden input.
+Fix jasmine styling
+Fix errors
+Fix doc tasks
+Fix version spec
+Fix spec
+Fix atom.version spec
+Fix fuzzy specs
+Fix scan specs
+Fix the usage of spawn.
+Update cefode: Fix crash when throwing exception from window context.
+Fix markdown preview height. Some styles crept back in during merge.
+Fix objective-c compiler warning
+Fix pane focus and active item serialization
+Fix broken specs after rebase
+Fix RootView.saveAll()
+Fix breakages due to save method moving to Pane (except saveAll specs)
+Fix spell check spec
+Fix CSS for .file-name -> .title class rename
+Fix TreeView specs
+Fix symbols view
+Fix status bar spec
+Fix snippets spec
+Fix package generator spec
+Fix GFM grammar spec
+Add Pane.moveItemToPane specs. Fix bug moving the last edit session.
+Fix exception when pane items with no view are removed from the pane
+Fix logic mistake
+Fix syntax errors
+Fix race condition in spec
+Fix spec to match improved CoffeeScript grammar
+Fix :shit: I shouldn't have checked in
+Fix link rendering in markdown (don't break [...] across lines)
+Fix snippet specs
+Fix errors in benchmarks
+Fix cursor autoscrolling when position doesn't change
+Fix spec for 'focused' to 'is-focused' class rename.
+Fix focused spec bug
+Fix start/end for range
+_ and - both considered non word characters. Fixes #82
+Fixing a treeView scroll spec
+Fixing the scrolling errors created by adding a wrapper
+Fixed fuzzy-finder's file regex
+Fix crash when deserializing a pane without a wrapped view
+Fix point snippet prefix
+Fix undo/redo of snippet expansions. Tab stops are restored correctly.
+Fix spec now that `Theme.load` returns a theme instead of an array
+Fix the benchmarks by assigning config defaults
+Fix wrap guide's font size subscription
+Fix triggering of change event after file resurrection
+Fix exception when moving to the end of word when there *is* no word
+Fix stack overflow in `DisplayBuffer` spec
+Fix bug when setTimeout is called from within a timeout in specs
+Fix `PathWatcher` failures
+Fix other WrapGuide specs
+Fix bug caused by the fact that `0 <= null ===> true`. God. damn. it.
+Fix spec to allow for 20 extra pixels to right of the lines
+Fix how repositories work in TextMate grammars
+Oops. Fix broken specs.
+Fix broken spec
+Fix bugs in optimization of cursor line highlighting in the gutter
+Fixture file used for git specs
+Fix cursor line highlight style
+Fix spec failures caused by editor css changes
+Fix extension keymap loading
+Fix spec relying on wrong version of tab text
+Fix bug with fuzzy-filter searches using keys.
+Fix typo/exception in TreeView's handling of `core:close` event
+Fix `LanguageMode.proto.suggestedIndentationForBufferRow` exception for row 0
+Fix command panel specs
+Fix autocomplete specs
+Fix spec breakage caused by a styling change
+Fix 'rake nof'
+Fix specs
+Fix newline invisible symbol
+Fix linemap translation when an atomic token is at the end of a line.
+Fix the command panel's handling of move-up/move-down
+Fix breaking due to "root-view:" prefixed events
+Fix fuzzy-finder spec
+Fix bug where editor was not focused when selecting a path in fuzzy finder
+Fix selector that prohibits weird characters from making lines extra-tall
+Triple click selects entire line (including \n). Fixes #44
+Fix stynax error in Rakefile
+Fix TreeView spec that was failing in #MOLO
+Fixes problem where `xcodebuild` creates broken binaries unless it is given the -scheme option (I can only reproduce this on my Air)
+Fix `rake run`
+Fix window spec
+Fix merge screw-up
+Fix spy
+Fix failing spec
+Fix OnigRegExp spec
+Fix broken benchmark
+Fix bug in failing editor spec
+Fix bug where short folded lines don't always span the scroll view
+Fix editor's lack of cooperation as a flexbox item
+Fix preview list cursor styling
+Fix click behavior when the event target is a child of the li instead of the li
+Fix broken specs due to keybindings change
+Fix bug where cursor occasionally precedes '/' after pressing meta-f
+Fix bug in Project.scan that was getting the state machine into a bad state
+Fix spec to now that we don't build PreviewItems
+Fix the $native.exec callback in ChildProcess.exec
+Fix indentation of selected region with tab
+Fix specs that broke due to no subscription on `Buffer` from `UndoManager`
+Fix benchmark suit
+Fix bug where edit sessions were not properly restored on refresh
+Fix benchmarks by castrating `loadUserConfiguration` method correctly now that it's moved
+Fix setBuffer calls in benchmark-suite
+Fix remaining multi-keystroke specs
+Fix issues with selections when switching between edit sessions
+Fix bugs when switching between EditSessions
+Fix call to renamed method
+Fix tests that blow up when number of files in fixture directory increased
+Fix broken build :-/
+Fix bug where canceling an autocomplete could delete a previously confirmed completion
+Fix some off by one errors in the overdraw calculations
+Fix issue where creating a second fold on a wrapped line fragment caused a duplicate line to be rendered
+Fix failing benchmark
+Fix breakage caused by method rename
+Fixes bug in benchmarks
+Fix tests
+Fix bug: file finder correctly focuses editor after opening a file.
+Fix syntax error in fs.base
+Fix spec that wasn't actually testing anything
+Fix TreeView errors on expansion and contraction
+Fix EventEmitter… need to wait until after the loop to return!
+Fix autocomplete:cancel keybinding
+Fix broken specs
+Fix panes CSS to apply borders to nested rows / columns again
+Fix bug where clicking an editor pane didn't focus the editor
+Fix bug where you can't move rightward over fold placeholders
+Fix CurrentSelectionAddress goof
+Fix broken benchmarks suite.
+Fix specs I broke with CSS changes.
+Fix horizontal split inside top-level vertical split.
+Fix bug where destroying a fold on last screen line of wrapped line caused an artifact.
+Fix scrolling misbehavior and display artifacts.
+Fix bug where you couldn't use backspace, delete, arrow keys in file finder.
+Fix bug where file-finder pushed editor up.
+Fix bug where render ids were NaN
+Fix exception when auto-indenting after fold placeholder.
+Fix bug where text typed into empty buffer was on the wrong line.
+Fix broken import
+Fix bug introduced when I resolved a conflict resolution.
+Fix compiler error in Xcode 4.3
+Fix bug in LineMap.spliceByDelta with multi-fragment screen lines
+Fixed Jasmine errors about 'abort not existing on undefined'
+Fixes for screenLineCount rename
+Fix path to specs. Now spec-suite runs.
+Fix position translation
+Fix typo ಠ_ಠ
+Meta-alt-w toggles soft-wrap. Fix insert line element bug.
+Fix bug that happened to pass specs.
+Fix Range.inspect
+Fix bug with 'not' selectors in specifity.js
+Fix bug: Don't scroll to top on click after scrolling down.
+Fix bug: can now delete multiple lines
+Fix horizontal scrolling oddness
+Fix fileFinder test
+Fix vim key up/down nav
+Fix bug: Don't call handleKeyEvent with undefined event
+Fix Project.getFilePaths spec. It returns relative paths.
+Fix breakage
+Fix broken specs
+Fix bug where subviews could clobber outlets on superviews.
+Fix html builder bug: functions are considered objects, causing attributes to get clobbered.
+Unfocus spec. Fix spec.
+Fix for the blue screen of death
+The shift key is basically ignored now. Fixes #47.
+Save window size and position. Fixes #45
+Upgrade ace & pilot. Fixes #44
+Fix references to editor.
+Remove trailing whitespace on save. Fixes #18.
+only send events to AtomWindows. Fixes #16.

@@ -1,0 +1,3128 @@
+Fix asyncDelegator reporting "done" too early (#51274)
+Fix auto-import when `paths` points to project reference redirect (#51492)
+Fix smoke test substitution (#51494)
+Fix incorrect spelling of packageId (#51483)
+Fix __importDefault when used on typescript libraries (#51474)
+Fix missing awaits in Herebyfile (#51465)
+Fix JSDoc eslint rule for properties and methods (#51462)
+Fix --bundle=false on Windows (#51459)
+Fix all internal JSDoc comments
+Fix up linting, make lint clean
+Fix nightly post-#50528 merge (#51432)
+Fixed a regression with discriminating unions based on a union property against `undefined` with `strictNullChecks: false` (#49648)
+Fixed the issue with some longer variadic tuples with `any` rest being incorrectly assignable to shorter variadic tuples (#50218)
+Fix services' type's `isLiteral` implementation (#50929)
+Fix #50869, only cache calculated type for non-context sensitive parameters (#50976)
+Fixes the tests that got disabled when generating config set es2016 expecting to find libFile and remove incorrect affects flag from listFilesOnly (#51243)
+Fix for broken baseline in yieldInForInInDownlevelGenerator (#51345)
+Fix assertion functions accessed via wildcard imports (#51324)
+fix(51301): Fixing an unused import at the end of a line removes the newline (#51320)
+Fix early call to return/throw on generator (#51294)
+Fix apparent typo in getStringMappingType (#51248)
+Fix typo in canWatchDirectoryOrFile found by CodeQL (#51262)
+Fix super property transform in async arrow in method (#51240)
+Fixed a false positive "await has no effect on the type" diagnostic with mixed generic union (#50833)
+Fix isExhaustiveSwitchStatement to better handle circularities (#51095)
+Fix nightly publish oops in Gulpfile (#51131)
+Fix incorrect options type to WatchOptions (#51064)
+Fix crash in goto-def on `@override` (#51016)
+Fix `<=` and `>` comparisons when compared against prerelease versions (#50915)
+Fix comparability between type parameters related by a union constraint (#50978)
+Fixing pr comments
+Fix assert in addIndirectUser in FAR (#50905)
+Fix debug.ts __debugKind check (#50871)
+Fix import statement completions followed by interface declaration (#50350)
+Fixing spaces
+Fixing baseline errors
+Fixed an issue with destructured bindings from a generic union constraint not being narrowed correctly (#50221)
+Fix test around RegExp match vs. exec results (#50813)
+Fixes for pr
+Fix crash caused by incorrect bounds check (regression in 4.8) (#50797)
+Fix equality narrowing and comparable relation for intersections with {} (#50735)
+Fix test baselining for tsserver host timeouts (#50748)
+Fix workflow typo (#50746)
+Fix backticks in our JSDoc comments (#50737)
+Fix eslint not looking at certain scripts, fix lints (#50660)
+Fix typechecking related lints that changed post 4.8, update LKG to 4.8.2 (#50472)
+Fix auto import crash due to difference in `paths` handling (#50419)
+Fixes for `decorators` property deprecations (#50343)
+🔨 Fix missing "Implement interface" code fix for mapped types with implicit `keyof T` in their definition (#49999)
+Fix export = error message to not have redundant language (#50308)
+Revert "Fixed an issue with contextual type for intersection properties (#48668)" (#50279)
+Fix up code so we don't crash when TS itself is emitted with let/const (#50151)
+Fix System module `export import =` (#49788)
+Fix misleading Date constructor documentation (addresses #49350) (#49649)
+Fixed a false positive related to binding patterns and spread expressions (#49684)
+Fix contextual typing on yield and return expressions in generator function (#49736)
+Fix return value and error reporting for getIterationTypesOfMethod (#50146)
+Fix bugs in module specifier generation with `paths`/`typesVersions` (#49792)
+Fix implied formats, file watching, new source file creating during edits (#50098)
+Fix trailing formatting edit when range ends mid-token (#50082)
+Fix(49525): Adds documentation for the Proxy type. (#49674)
+Fixed changes to previous commit:
+Fixed closing JSDoc when adding multiple blocks (#49888)
+Fix(49472): Added docs for Set and Map types (#49522)
+Fixed an issue with generic naked T not being allowed as async generator's return (#49023)
+Fixed initializaiton-time inference for class properties assigned through element access (#49374)
+🐛 Fix smart selection of propery signatures having JSDoc comments (#49804)
+Fixed outdated expectation comments (#49691)
+Fix for Awaited<T> inference (#49748)
+Fix mapper used to instantiate distributive conditional manufactured in declaration emit (#49737)
+Fixed an issue with self-referential awaited union (#49677)
+Fix mis-completed variable name in tracepoint (#49715)
+Fix parser TODO (#49679)
+Fix(49473): Added docs for RegExpMatchArray  (#49499)
+Fix arrow expressions in conditional expressions, take N+1 (#49531)
+Fix renaming of node_modules (#49568)
+Fix incorrectly added resolution to resolutionsWithOnlyAffectingLocations (#49523)
+Fix up "Use symbolic GitHub Actions Node.js versions (#49403)" (#49420)
+Fix(49198): Added missing definition for Atomics.waitAsync and es2022 sharedmemory file (#49204)
+Fix definite assignment analysis issue caused by `x !== null` checks (#49387)
+Fix check in isMappedTypeGenericIndexedAccess (#49341)
+Fix46246 (#46357)
+Fix index fallback of CJS package from ESM-mode import when `main` is present but does not resolve (#49327)
+Fix crash from inaccurate type guard implementation (#49252)
+Fix extensions for noDtsResolution in node16/nodenext (#49233)
+Fix the implicit glob key so that recursive keys are not differing just directory separator for wildcard directory (#49246)
+Fix path completions for typesVersions (#49154)
+Fix uncalled function check usage detection for && expressions (#49157)
+Fixed an issue with contextual type for intersection properties (#48668)
+Fix module specifier generation crash from typesVersions (#49035)
+Fix type parameter comparability to consistently allow comparisons on unconstrained type parameters (#48861)
+fix(44466): Fixes parsing contextual keyword casts as arrow functions
+Fix missing parsingContext restore at return in parseDelimitedList (#48999)
+Fix more tests missing 'it' call in 'describe' (#48994)
+Fix node16 tests (#48974)
+Fix blocking of recursive dependencies in getNarrowedTypeOfSymbol (#48941)
+Fix formatter's processChildNodes (#48921)
+Fix #47753 - Organize imports removes type imports that are only referenced in @link (jsdoc) (#47824)
+Fix export default expression comment (#48323)
+Fix `getExportSymbolOfValueSymbolIfExported` (#48769)
+Fix workflow syntax error (#48842)
+Fix auto-import completions sometimes not updating existing imports (#48815)
+Fix emit for undefined SourceFile (#48774)
+Fix: verification of incremental correctness that was not working because of using wrote writeFile (#48751)
+Fixed string literal completions for partially-typed strings when overload could get matched (#48811)
+Fix handling of prologue statements when there are parameter property declarations (#48775)
+Fix meta property symbol lookup (#48773)
+Fix transformed constructor code when there is code between prologue statements and super call (#48765)
+Fix lints after dep update (#48707)
+Fixed multiple prologue directives with parameter properties (#48687)
+Fix workflow syntax
+Fix the issue with not serializing impliedFormat when signature and version of the file are same (#48614)
+Fix semantic merge conflict
+Fix semantic merge conflict
+Fix crash when circular reference in variance annotations (#48539)
+Fix API under exactOptionalPropertyTypes (#48505)
+Fix string literal completions when a partially-typed string fixes inference to a type parameter (#48410)
+Fix newline inserted in empty block at end of formatting range (#48463)
+Revert "Fix contextual discrimination for omitted members (#43937)" (#48426)
+Fix test build post-LKG (#48403)
+Fix document registry cache key calculation for `paths` compiler option (#48389)
+Fix#48281 - Indentation not respected when executing various refactorings (TypeScript/JavaScript) (#48340)
+Fix parser regression for bad related diagnostic on missing matching brackets (#44158)
+Fix top level logical assignment leak (#40536)
+Fix/dependent parameters obj methods (#48110)
+Fix conditional type type parameter leak (#31455)
+Fix crash when `this` is typed as a generic `T` with no type constraints (#47991)
+Fix contextual discrimination for omitted members (#43937)
+Fixes #35735: Avoids listing missing properties for types with only call/construct signatures (#40973)
+Fix const enum comments (#47990)
+Fix modifier order for class member completions (#48066)
+Fix incorrect parser error assumption in semicolon handling leading to incremental parser brokenness (#48067)
+Fix object.assign first param constraint (#40909)
+Fix #38482 making ThisParameterType<T> more general (#47162)
+Fix inference for generic-typed constructor parameter when no explicit constructor is present (#47750)
+Fix incorrect rest element type inside contextually typed parameter (#47909)
+Fix 47746 - Missing properties quickfix does not handle generic parameters (#47790)
+fix(47076):Fix error term of declaration in modules (#47087)
+Fix destructuring and narrowing interaction (#47337)
+Fix substitution types of indexed access types of substitution types (#47791)
+Fix @link https:// formatting (#47705)
+Fix captured const in downlevel for-await (#47680)
+Fix inlay hint crash for jsdoc function type syntax (#47684)
+Fix captured let/const in 'for' condition or incrementer (#47681)
+Fix confusing file name in generated diagnostics file (#46821)
+Fix duplicate completions from two different copies of a node_modules package (#47584)
+Fix diagnostic serialization crash (#47604)
+Fix JsDocTags inheritage and setter/getter quickInfo (#46801)
+Fix detecting an existing `Map`/`Set`
+Fix narrowing of intersection with function type (#47483)
+Fix parser test cases missing 'it' calls (#47545)
+Fixed Go To Definition using jsconfig (#47434)
+Fix import assertion occurrences crash and make import assertion parsing more generous (#47535)
+Fix type error in fourslash.ts (#47430)
+Fix implicit glob detection when ancestor directory contains `.` (#47418)
+Fix for crash for auto import completions with a rooted rootDirs entry (#47411)
+Fix for crash in navbar with double ambient modules (#47395)
+Fix the related repos CI (#47386)
+Fix checker initialization crash with esModuleInterop and global merges resolving to ImportEquals aliases (#47348)
+Fix conditional type constraint exploration + signature relations (#47341)
+Fix baselines from bad merge (#47177)
+Fix multiple issues with indexed access types applied to mapped types (#47109)
+Fix enums and namespace merge (#47059)
+Fix extract type crash (#47136)
+Fix Awaited<T> for onfulfilled callbacks with more than one argument (#46951)
+Fix strict/es5+ octal literal 2x error #46810 (#46823)
+Fix checker initialization crash (#46973)
+Fix parsing of parenthesized functions in conditional expressions (#46960)
+Fix formatting the end of a selection (#46875)
+Fix broken module resolution after large/rapid edits in nodenext (#46818)
+Fix extra newline in class member snippet completions (#46737)
+Fix RWC missing file detection (#46673)
+Fix contextual typing for symbol-named properties (#46558)
+Fix git remote in cherry pick script (#46647)
+Fix `findUpDir.ts` and uses
+Fix mapped type instantiation circularity (#46586)
+Fix react-jsx spread children invalid emit (#46565)
+Fix crash pulling on global types before they're initialized (#46471)
+Fix isNewIdentifierLocation after generator (#46491)
+Fix auto import crash on weird JS aliasing (#46490)
+Fix isNewIdentifierLocation after async (#46485)
+Fix typos in es5.d.ts (#46321)
+Fix ordering of module specifiers based on package.json presence (#46437)
+Fix React auto-import blocking component imports in --preserve (#46368)
+Fix explainFiles on files under nodenext with types references (#46367)
+Fix stack overflow in JSX discriminated union logic (#46354)
+Fix extension automatic script kind detection for new extensions (#46205)
+Fix main (#46160)
+Fix issues + Support template literal types as discriminants (#46137)
+Fix indexing error in guessDirectorySymlink (#46105)
+Fix GH-32798: Allow == null to narrow unknown to null | undefined (#45853)
+Fix const assertions on enums
+Fix typo in findAllReferences.ts (#45973)
+Fixed trimming comments on the remaining range (#45807)
+Fix main by using '.default' on the new ms release (#45910)
+Fix for resolvedTrueType and resolvedFalseType of conditionType not resolved (#45838)
+Fix infinite recursion in control flow analyzer inlining logic (#45845)
+Fix name resolution in typedef and allow defaults for template tags (#45483)
+Fix missing abstract keyword in completion (#45710)
+Fix the default text for --useDefineForClassFields (#45513)
+Fix verify.baselineCompletions (#45615)
+Fix 'as const'-like behavior in JSDoc type cast (#45464)
+Fixed JS completions type spread (#45484)
+Fix incorrect suggestion for package that bundles types (#45507)
+Fix unassignable properties by adding undefined with exactOptionalPropertyTypes (#45032)
+Fix __spreadArray for non-concat-spreadables (#45386)
+Fix typo in helpers.ts (#45365)
+Fix symbol display exception when handling incomplete class (#44936)
+Fix index signature assignability from optional properties in --exactOptionalPropertyTypes mode (#45185)
+Fix check for generic types in control flow analysis (#45148)
+Fix completions in return when in function with contextual 'this' (#45340)
+Fix getting completion details for meta properties (#45031)
+Fix position of keyword in "Add 'override' modifier" code fix (#45274)
+Fix decorator metadata references to type-only-imported namespaces (#44915)
+Fix bigInt completions (#45059)
+Fix getChildCount/At methods in EndOfFileTokens (#44991)
+Fix compiler crash on property symbols without declarations (#45190)
+Fix import statement completions for export= in JS files (#45128)
+Fix template string refactoring and nodeFactory bug
+Fix and validate post-increment/decrement in module emit (#44968)
+Fix auto import crashes caused by unrelocatable symbols (#45055)
+Fix auto import require of CJS module with module:es2015+ and allowSyntheticDefaultExports (#44955)
+Fix namespace name conflict detection in "Convert named imports to namespace import" action (#45019)
+Fixes JSDoc @type function with variable args is interpreted incorrectly (#44864)
+Fix "Union types are not being narrowed down correctly in 4.3 #44401" (#44771)
+Fix decorator emit regression for static fields (#44933)
+Fix class name reference in class expr (#44877)
+Fix types in the boolean trivial lint rule (#44801)
+Fix bad line number assertion in `ScriptInfo.positionToLineOffset`
+Fix constant reference check in CFA (#44762)
+Fix auto imports in opening JSX tag (#44724)
+Fix check for overwritten properties in object spreads (#44696)
+Fix 'arguments' check in class field initializer or static initialization block (#44393)
+fix(44676): fix constToLetQuickFix selection range (#44677)
+Fix late bound method name assignment, added tests (#43344)
+Fixes to inference and mapped types in --strictOptionalProperties mode (#44595)
+Fix bug due to sharing of `.type.members`
+Fix typo in open-cherry-pick-pr.ts (#44517)
+Fix duplicate visit of param tag comments (#44443)
+Fixes subset of bugs (three tests fixed) listed in issue #41974 (#44367)
+Fix unintended 'as const' name lookup error (#44311)
+Fix outFile check (#44277)
+Fix regression no codefix for ts2657 (#43635)
+Fix the code that checks for variadic signatures
+Fix logic for determining whether to simplify keyof on mapped types (#44042)
+Fix typo in host.ts (#43930)
+Fix perf regression from #42556 (#43949)
+Fix package.json auto imports for pnpm without project references (#43892)
+Fix typo in system.ts (#43895)
+Fix `node.getStart()` for nodes spanning multiline JSDoc comments (#43854)
+Fix completions of exports elsewhere in same file (#43755)
+Fix object literals lack of this references (#43572)
+Fix getCodeFixesAtPosition for ts(2339) thows error False expression: Token end is child end (#43645)
+Fix organize imports overlap (#43228)
+Fix @typedef/@callback scope (#43682)
+Fix sending correct symbol when using commonjs require and destructuring (#43511)
+Fix Add all missing imports when ordered alphabetically (#43453)
+Fix getTypeFromJSDocVariadicType in callback tag (#43562)
+Fix getRecursionIdentity function to always return some identity (#43527)
+Fix template literal type relations (#43440)
+Fix length of `JSDocTypedefTag`
+Fix typo (#43404)
+Fix Issue #39155 (importModuleSpecifierEnding does not apply for module specifier completions) (#42467)
+[GH-43213] Fix duplicate comments printed in quick info section (#43240)
+Fix narrowing of intersections of type variables and primitive types (#43131)
+Fix dump of tracing legend (#43263)
+Fixed reporting error for type arity (#43111)
+Fix jsx formatting (#42671)
+Fix issue with some baselines for tsbuildinfo not getting generated (#43218)
+Fixed issue where non null assertion caused getFlowTypeOfReference to return the declared type if the type was already narrowed to never. (#35863)
+Fix #38608 (#38610)
+Fix missing func modifier (#40379)
+Fix37991 (#43166)
+Merge pull request #43055 from armanio123/FixDefineForClassFields
+Fixed typo error. (#42816)
+Fix preserveSourceNewlines sibling node comparison (fixes extra newlines in organize imports) (#42630)
+Fix: checkAliasSymbol crash when checking for @deprecated (#42971)
+Fix regexes. (#42921)
+Fix for crash when using ca call expression on private identifier coming from an any typed variable. (GH #42860) (#42861)
+Fix duplicate auto-import completions (#42850)
+Fix import fix on react or react dev (#41950)
+Fix Format Selection on JSDoc comments (#42411)
+Fix completions crash on transient exported property named 'default' (#42583)
+Fix indentation of multiline conditional expressions (#42484)
+Fix discriminant property narrowing through optional chain with null (#42503)
+Fix formatter determination of initial indentation of list items after the first (#42352)
+Merge pull request #42356 from armanio123/FixJSDocFormatting
+Fix incorrectly logging ts files instead of .js files as top files (#42463)
+Fix broken user and docker tests (#42431)
+Fix "Cannot find name 'global'. Did you mean 'global'?" (#42262)
+Fix start position on JSDoc parsin
+Fixed JSDoc with only one asterisk in comment
+Fix typos in comments (#42396)
+Fix type parameter lookup for TypeAlias LibraryManagedAttributes (#42245)
+Fix double asterisk formatting in JSDoc
+Fix indentation for closing > of ExpressionWithTypeArguments (#42341)
+Fix array spread with sideeffects (#41523)
+Fix module resolution for import call emit (#41390)
+Fix a small typo in the issue template. (#42208)
+fix(lib/es2015): Fix definition of `ProxyHandler` (#35594)
+fix(lib/es2015): Fix types of `Reflect` methods (#41987)
+Fix/jsx syntax quickinfo (#42124)
+Fix auto import completion inserting wrong module specifier (#41955)
+Fix find-all-refs crashing in some project references scenarios (#42025)
+Fix more inferred template literal types (#42039)
+Fix single-line comment disrupting return w/optional chain (#42026)
+Fix #41800 correctly. (#41895)
+Fix post-LKG API baselines (#41973)
+Rename codeFixNoPropertyAccessFromIndexSignature4.ts to codeFixNoPropertyAccessFromIndexSignature5.ts
+Fix non-homomorphic mapped type constraint issues (#41807)
+Fix deprecation messages to point to correct APIs
+Fix insufficiently merged baselines (#41803)
+Fix codefix for noPropertyAccessFromIndexSignature
+Fix import tracker for dynamic import (#41473)
+Fix typos (#41723)
+Fix typos in comments (#41307)
+Fix getTypeFacts for pattern template literal types (#41693)
+Fix show deprecated suggestion for alias (#41128)
+Fix/jsx global preferred over config implicit (#41476)
+Fix definition of ts.Iterator
+Fix post-LKG build
+Fix crash on attempting to suggest a ts import for a synthetic js resolution
+Fix Markdown spec link (#41375)
+Fix incremental emit issue where dependency relations implied by synthesized imports would not be detected (#41346)
+Fix double alias of complex export/import/default/namespace combination
+Fix missing file name of extended source file in synchronizeProjectList when it is missing on disk (#41222)
+Fix crashes when the global JSX namespace is an alias
+Fixup other fourslash test
+Fix two issues with ConvertToTypeOnlyExport codefix (#40490)
+Fix visibility lookup for cjs require aliases
+Fix dependency order and observer registration
+Fix some rest cases and handling of unused results
+Fix destructuring evaluation order for initializers
+Fix auto imports for export default edge cases (#41068)
+Fix baselines now that dupe test is gone
+Fix crash resolving ImportTypeNode in JSDoc (#40838)
+Fix relative paths in commonjs decl emit w/property access (#40986)
+Fix overlapping changes when un-qualifying import use site within transformed export (#40987)
+Fix crash due to unchecked cast in addImplementationSuccessElaboration
+Fix lint
+Fix export binding of namespaced typedefs (#40980)
+Fix missed tasks to add esnext.weakref (#40981)
+Fixes calculating resolved project reference to redirect for module resolution (#40954)
+Fix class expression from being assignable if types don't match (#40660)
+#40763 Fixed: Bad error message when forgetting a comma in an array of templ… (#40907)
+Fix function merged with export as namespace sourcefile (#40908)
+Fix recursive types in @typedef (#40861)
+Fix noUncheckedIndexedAccess with tuple rest types and generic index types (#40681)
+Fix typo in JSON.stringify doc (#40735)
+Fix default property assigned prototype (#40836)
+Merge pull request #40783 from armanio123/FixCommentOnStartLine
+Fixed bug with toggleLineComment ends in a start line
+Fix unnecessary new lines in output represented incorretly in the baseline (#40751)
+Fix premature closing of AutoImportProviderProject for unbuilt monorepos (#40620)
+Fix spec links in README (#40711)
+Fix crash on js declaration emit of export assigned default augmented function (#40596)
+Fix missing constraints for parenthesized `infer T` (#40406)
+Fix indentation of arrow functions returning parenthesized expressions (#40677)
+Fix typo in isChangedSignagure (#40668)
+Fix children prop for `react-jsx` and `react-jsxdev` (#40630)
+Fix iterable contextual type (#40592)
+Fix missing renamed compiler flags (#40606)
+Fix error on duplicate commonjs exports (#40545)
+Fix incorrect name of index signature flag in implementation (#40541)
+Fix JS declaration emit for acessors in a class/interface merge (#40456)
+Fix see tag quickinfo (#40458)
+feat(25770): add Quick Fix to convert LiteralType to MappedType (#40226)
+Fixes stack overflow when exporting a lot in commonjs (#38994)
+Fix call hierarchy item serialization and server tests (#40348)
+Fix crash intersecting dynamic import w/esModuleInterop (#40249)
+Fix extract symbol crash on unterminated literals; don’t offer to extract `export = ...` (#40272)
+Fix misplaced comma in auto imported specifier (#40273)
+Fix `getContextualTypeForBindingElement` for arrays
+Fix commonjs require of ES export (#40221)
+Fix typo in (Readonly)Set.keys comment (fixes #40164) (#40176)
+Fixes crash on chained property access on require (#40135)
+Fix tuple name homogeneity check (#40118)
+Fix lack of error on default export of nonexistant name (#40094)
+Fix formatting scanner on JSX text that looks like trivia (#39718)
+Fix this-parameter emit for JSDocFunction types (#39814)
+Fix location for duplicate function implementation errors
+Fixes slow nav to issue by keeping project with result. (#39721)
+Fix emit/formatting issues in refactors (#39506)
+Fix 38219: signature helper works for optional function condition. (#39672)
+Fix 31995: make cached key more precise to avoid returning wrong cached value. (#39670)
+Fix incorrect deprecated mark (#39611)
+Fix tsc --watch crash on module augmentations when module resolution changes (#39604)
+Fix find-all-references on undefined (#39591)
+Fix typo (#39562)
+Fix typo (#39585)
+Fix @param type parameter lookup (#39532)
+Fixed syntax error
+Fixed baseline
+Fixes searches for export * as 'identifier' (#39533)
+Fix default import/export helper usage
+Fix39458 (#39508)
+Fixes searches for symbols exported using export * as (#39507)
+Fix namespace import/export helper usage
+Fix getTypeAtLocation for dotted implements clauses (#39363)
+Fix crash in decorator metadata calculation when serializing template literal type nodes (#39481)
+Fix test semantic merge conflict between #39348 and #39130 (#39478)
+Fix for relating covered discriminants in unions (#39393)
+Fix control flow analysis for nested try-catch-finally statements (#39399)
+Fix for relating covered discriminants in unions
+Fix crash on completion in jsdoc namepath (#39347)
+Fix type of computed name following spread (#39319)
+Fix crash in reporting unresolved project reference as part of compilerOptions verification (#39095)
+Fix two test typos
+Fixes issues with reload because of output emit (#39030)
+Fix crash when serializing the return type of a generic call to Array.prototype.flat (#38904)
+Fix handling of `aruments` in the emitter
+Fix declaration emit for property references of imported object literal types (#39055)
+Fix casing for wild card keys for implicit globs to get wild card directories to watch (#39049)
+Fix isSameEntityName (#38999)
+Fix typo for 'blocklist' (#39001)
+Fix merging of JS value & TS type decl
+Fix two tests
+Fixed uncomment bug
+Fix relation between generic mapped types and types with index signatures (#38761)
+Fixed lint errors
+Fixed more lint issues.
+Fixed lint issues
+Fixed uncomment bug
+Fixed toggleLineComment jsx cases
+Fix multiline name
+Fix multi-file usage
+Fix recently added test so it is cross-plat
+Fix type and simplify code
+Fix @implements emit for namespaced base types
+Fix debug command for Node debugging
+Fix cfa
+Fix regression organize imports duplicates comments (#38599)
+Fix crash in JS declaration emit (#38508)
+Fix (cosmetic) typos in checker.ts comments
+Fix build type error (#38525)
+Fix detecting default project when file is part for more than one project but not part of default configured project (eg because its output of that projet) (#38429)
+Fix for jsdoc modifiers on constructor params (#38403)
+Fix js missing type arguments on existing nodes and jsdoc object literal declaration emit (#38368)
+Fix some JSDoc factory function return types.
+Fix tranced es5 classes after new scope
+Fix crash caused by assertion with evolving array type (#38398)
+Fix regression in name resolution in parameter (#38351)
+Fix `updateBinary` `operator` parameter (#38129)
+Fix incorrect line text computation to stop comment directive searching (#38296)
+Fix index signatures on unions of intersections (#38278)
+Fix jsdoc variadic type nodes not being remapped to equivalent TS in output (#38276)
+Fix crash on duplicate default exports (#38272)
+Fix: convertFunctionToEs6Class cannot recognize `x.prototype = {}` pattern (#35219)
+Fix values and types merging in JS module exports (#37896)
+Fix truthiness call check for this-property access (#38163)
+Fix temp variable scoping in async generators (#38121)
+Fix temp vars referenced in parameter (#38130)
+Fix newline issues when adding multiple imports (#38119)
+Fix preserveNewlines printer option when a list child has the same start or end as its parent (#37846)
+Fix js declaration emit for inherited and this-typed inherited fields (#37970)
+Fix use-before-def with methods on esnext+useDefineForClassFields (#38033)
+Fix typo in issue template titles (#38042)
+Fix doc comment template on assignment expressions (#38032)
+Fixed a couple of tsserver unit tests
+Fix crash on declaration emit for globalThis (#37992)
+Fix indentation preservation in JSDoc (#37717)
+Fix crash from missing valueDeclaration on intersection property (#37696)
+Fix parenthesization rules for yield (#37849)
+Fix code block in jsdoc (#37864)
+Fix async function block return expr error in js (#37845)
+Fix metadata serialization for invalid jsdoc types (#37836)
+Fix easy misunderstanding "! ===" (#37838)
+Fix serialisation of static class members in JS (#37780)
+Fix crash for private identifier in expando assignments (#37764)
+Fix variable name collisions (#37761)
+Fix goto implementation does not suggest all subtypes (#33652)
+Fix rename for type symbols imported as a different name (#37745)
+Fix crash on bad namespace parse (#37626)
+Fix post-LKG build
+Fix emit of simple module.exports.C.prototype pattern (#37719)
+Fix narrow-by-constructor logic (#37698)
+Fix build after merging #35862
+Fixed issue where missing method call went unreported if the call target symbol did no have an id assigned or if the called property was used inside the if block on a different target. (#35862)
+Fix contextual types for maybe-async callbacks (#37205)
+Fix #31319 : Narrow unit-unit inequality tests using comparability (#33071)
+Fix Number.is* to accept unknown again (#34932)
+Fix import order (#37510)
+Fix sys.debugMode when using VSCode's new preview debugger (#37558)
+Fix emit for optional chain with non-null assertion (#36539)
+Fix `getSignatureOfTypeTag` (#37473)
+Fix poor error span for unclosed JSX tags in the presence of whitespace/comments (#37419)
+Fix `Node#getStart(sourceFile, true)` throwing when node has a js doc and no parent (#37439)
+Fix #33732 (#36077)
+Fix declaration emit when the packages are included through symlinks (#37438)
+Fix assignment of intersections to objects with optional properties (#37195)
+Fix test failure as part of #35922
+Fix tests failure due to #36317
+Fix crash when host.getSourceFile returns undefined (#37373)
+Fix 33436 (#35225)
+Fix longer type-only property access in non-emitting heritage clauses (#37264)
+Fixes duplicated comment when executing code fix to add missing enum member (#28163)
+Merge pull request #37260 from uniqueiniquity/watchFileExistsFix
+Fix file exists check for watch program
+Fix emitting `?.`
+Fix Get/Set being enumerable (#32264)
+Fix crash on aliased,exported @enum tag in jsdoc (#36996)
+Fix class emit in converted loop body (#36795)
+Fix find-refs crash on JSDocNamepath (#36941)
+Fix access of protected members on generic this-type (#36928)
+Fix copy-paste error in navigateToItemIsEqualTo (#36912)
+Fix typo in getChangesSinceVersion (#36885)
+Fix lint
+Fix implicit dependencies on es6 lib exposed by node changes
+Fix API baseline paths in script
+Fix initialization error when destructuring from object literal that includes a spread assignment (#36865)
+fix(29565): Add missing super() quickFix errors for constructo… (#36601)
+Fix organizeImports with type-only imports (#36807)
+Fix renaming an ExportSpecifier name when propertyName is present (#36790)
+Fix npm test if os.cpus().length == 1 (#35753)
+Fix getTypeAtLocation for `as const` to not issue a diagnostic (#36741)
+Fix get candidate for overload failure checking (#36744)
+Fix jsdoc comment parsing initial state (#36661)
+Fix crash when trying to import a non-exported type (#36619)
+fix(33600): disallow convertFunctionToEs6Class Quick Fix for IIFE (#36580)
+Fix contextually typed object literal completions where the object being edited affects its own inference (#36556)
+Fix `export *` that resolves to something type-only (#36558)
+Fix wrong script info used to resolve line/offset for call hierarchy items (#36559)
+Fix declaration for Array.prototype[Symbol.unscopables] (#36540)
+Fix overzealous renaming of emit helpers in es module emit (#36541)
+Fix crash in emitTokenWithComment (#36542)
+Fixes to handle file names in module resolution watching and createGetCanonicalFileName (#36106)
+Fixes JSX attribute escaping when parent pointers are missing (#35743)
+Fix use-before-def errors for ESNext property declarations (#36465)
+Fix contextually typed parameter issues (#36476)
+Fix type-only imports in interface 'extends' and import=/export= (#36496)
+Fix commas in JSON (#36497)
+Fix potential leaks in checker (#36491)
+Fix js declaration emit for exporting default which looks like namespace merge (#36482)
+Fix getExpandoSymbol for already-expando symbols (#36457)
+Fix crash on erroneous enum member merged with exported type alias (#36429)
+Fix crash on missing parent pointer in binder when transpiling export as ns (#36387)
+Fix local and exported type alias merging (#36237)
+Fix isProgramUpToDate when changing rootFileNames (#36011)
+Fix for issue #32528: Prevent meta property from appearing twice (#35844)
+Fix erroneous optional chain narrowing (#36145)
+Fix completions triggered on existing private identifier property access (#36191)
+Fix lints
+Fixes broken emit with useDefineForClassFields + private field (#35898)
+Fix crash in codefixes re: braces of class body (#36087)
+Fix narrowing of optional chains (#36089)
+Fixed unreported strict property initialization violations. (#35891)
+Fix `signatureToSignatureDeclarationHelper`
+Fix ThisParameterType<T> type (#36013)
+Fix `getEffectiveTypeAnnotationNode`
+Fix cmdline aliases specs
+Fix type parameter leak (#35949)
+Fixed find all references for private identifiers. (#35887)
+Fix error on `interface`s in `.js` files (#35969)
+Fixed outlining spans for chained method calls. (#35860)
+Fixed lints.
+Fix JSDoc param type completions when name hasn’t been written yet (#35787)
+Fix `scripts/hooks/post-checkout`
+Fix implement interface codefix for synthetic member symbols (#35718)
+Fix decoding of HTML entities in TSX/JSX (#35739)
+Fix completions when the ts installation and project are on two different windows drive (#35733)
+Fix formatting scanner on multiline JSX attribute strings (#35705)
+Fix33448 (#35513)
+Fix binding of this-assignments w/computed properties (#35639)
+Fix spelling codefix for optional chain property access (#35583)
+Fix `getTypeFromJSDocValueReference`
+Fix build from incomplete merge
+Fix compileOnSaveEmit when using source of project reference redirect with --out (#35335)
+Fix control flow analysis for break/continue with label (#35377)
+Fix `getIntrinsicAttributesTypeFromJsxOpeningLikeElement`
+Fix azure-sdk dockerfile for latest rush
+Fix printing and emit for definite assignment assertions (#35095)
+Fix the usage of pattern matching in module resolution for check of hasZeroOrOneAsteriskCharacter (#35209)
+Fix crash with Object.defineProperty for imported alias (--allowJs) (#35198)
+Fix check for `get`/`set` recommendation (#34885)
+Fix excess property checking for unions with index signatures (#34927)
+Fix #35060 (#35065)
+Fix import type resolution in jsdoc, mark 2 (#35057)
+Fix chalk import (#35040)
+Fix missing semicolon
+Fix `isInJsxText` after JSXOpeningElement with type arguments (#34958)
+Fix up some of the ignore files, and removing the create language service script (#33684)
+Fix control flow analysis in try-catch-finally (#34880)
+Fix switch statement exhaustiveness checking (#34840)
+Fix alias naming and structure bugs in js declarations (#34786)
+Fix checker handling for empty type argument lists (#34790)
+Fix a crash when transforming functions in modules. (#34513)
+Fix incorrectly looking for position in call/new expression arguments when looking for indentation of type arguments (#34779)
+Fix extract type on JS function params (#34745)
+Fix type reference to merged prototype property assignment (#34764)
+Fix error when exporting const enums (#33060) (#34721)
+Fix typo in watchMode.ts (#34701)
+Fix reachability analysis for ?? operator (#34702)
+Fix regression in mixin emit by removing unneeded line of code (#34715)
+Fix expando handling in getTypeReferenceType (#34712)
+Fix crash in assigning function with this ref to alias (#34650)
+Fix undefined `this`
+Fix type inference regression
+Fix crash in expando assignment to alias (#34566)
+Fix stack overflow in circular assignment declaration (#34543)
+Fix auto-imports from auto type acquisition definitions (#33766)
+Fixed scenario names
+Fix scenario name
+Fix quick info for methods whose contextual type is a mapped type property (#33930)
+Fix completions of optional properties in generic positions (#33937)
+Fix lint rules
+Use getNormalizedAbsolutePath to combine basePath and config value for file names Fixes #34502 by being consistent in path normalization
+doc(lib/es5): Fix grammar in DateConstructor.UTC documentation (#34509)
+Fix crash when exporting+aliasing globalThis inside `declare global` (#34408)
+Fixes missing error exit code when a bogus input file is specified
+Add forceDtsEmit flag to getEmitOutput Fixes #33936
+Make sure commandline options are absolute paths so they dont conflict with tsbuildinfo paths Fixes #33667
+Use correct default project for file if that project is opened at later time Fixes #31926
+Fix noImplicitAny check on ambient private getters (#33896)
+Fix bounds check
+Fix for incorrect 'this' type for optional call (#33799)
+Fix crash in transformations (#33768)
+Fix the third crash in the chrome user suite test by remembering to pass excludeThisKeyword (#33711)
+Fixes binding well known symbol assignment via element access (#33687)
+Fix crash in contextual typing of defaulted element access declarations (#33686)
+Fix issue when types installed after watch/editor is opened for auto type reference that is for global types not being detected Fixes #32285
+Fix error message
+Fix the issue when file is attached to project because its a root file name but program contains instead its d.ts Fixes #33323
+Fix after merging latest baselining branch
+Fix that works with both LKG and built compilers
+Fix linting issue
+Fix lint on master
+Sort the paths for module specifier by closeness to importing file path Fixes #32970
+Fix linting issues
+Fix forEachChild
+Fix grammar issues on CONTRIBUTING.md (#33535)
+Fix ESLint extension config (#33501)
+Fix incorrect parameter types for AsyncIterator next/return (#33354)
+Fix linting issues
+Fix inference circularity error triggered by exhaustive switch analysis
+Fix call to Debug.fail in compiler
+Fix `Identifiers: NaN` diagnostic when having JSON SourceFiles
+Fixed typo
+Allow .d.ts with --isolatedModules Fixes #29490
+Fix typo
+Fix smart selection bug with TemplateTails (#33108)
+Fix lint error
+Fix visitLexicalEnvironment to properly merge hoisted declarations (#33219)
+Fix transpiling when options specify incremental or tsbuildinfofile Fixes #33184
+Fix the semantic diagnostics caching in builder to handle conversion from relative to buildInfo to absolute path (#33168)
+Fixes #32923
+Merge pull request #33124 from armanio123/FixGotoMultipleFile
+Fix instantiation of alias type arguments for deferred type references
+Fix writing multi-line text without semicolons (#32903)
+Fixed goto when declarations are on multiple files
+Fix bugs in combineUsages/getSignatureFromCalls
+Fix fourslash test
+Merge pull request #33064 from armanio123/FixNavbarMultilineUnterminated
+Fix infer from usage prop assignment (#33088)
+Fix fourslash server (#33063)
+Merge pull request #32672 from armanio123/FixNavbarMultiline
+Fix prototype property type lookup (#33034)
+Add assert comments in CodeFixes and Refactors (#33016)
+Fix discovery and execution of root-level tests in the parallel runner (#32980)
+Fix default behavior for transpileModule when fileName not provided (#32982)
+Fix Cannot read property 'text' of undefined crash (#32734)
+Fixed navigationbar regex
+fix(docs): Fixed the docs for Array#slice not spec (#31182)
+Fix export=global auto import exclusion (#32898)
+Disallow incremental with noEmit Fixes #32882
+Merge pull request #32788 from microsoft/tsbuildFixes
+Fix references to path-mapped ambient modules in declaration files (#32878)
+Fix lint error
+Fix the incorrectly accepted suggestion
+Fixed lint issues
+Fix unicode escapes in jsx identifiers and extended unicode characters in jsdoc (#32716)
+Fix inferred TNext of generator to use TNext of contextual return type (#32719)
+Fix class member completion disappear after a property declaration with a private modifier
+Fix emit for object rest on a module export (#32699)
+Fixes export destructured variables reference (#32007)
+Fix `readonly` occurrences highlighting (#32583)
+Fix binding of jsdoc typedefs with no in-comment name attached to an expression statement (#32610)
+Fixed issue for navbar when having multiline string literals
+Fix a typo in the error message around language service plugins
+Wire in compilerOptions of the program in to the host's resolveModuleNames and resolveTypeReferenceDirectives api Fixes #31056
+Store already known not parenthesized arrow expression positions for faster exit in case of deep parsing Fixes #31987
+Use single stats watcher per filename Fixes #28690
+Fix smart select on last blank line of file (#32544)
+Merge pull request #32531 from microsoft/importFixCompletion
+When the exported symbol is merged symbol from declaration use that name to verify quality Fixes #27880
+Fix object spread runtime semantics (#32514)
+Fix issues uncovered by DT tests
+Merge pull request #32490 from microsoft/assertFix
+Fix the assert of reporting file infos still attached to the project for circular json reference
+Fix type keyword completions (#32474)
+Fix capitalization in parseInt description
+Fix lint error
+Fix build/lint due to differences in master and LKG (#32450)
+Fix missing tokenToString for the backtick Fixes #32073
+Fix the export on TestServerHostCreationParameters to fix build break after LKG Its not detected currently is because LKG doesnt have #32156
+Handle scoped package names in typing installer Fixes #32075
+Fix for angle-bracket type assertion
+Fixed auto completion after a < token to return types not values.
+Fix regression of generic T assignability to Partial<T> (#32354)
+Fixed failing test due to changed details
+Fix type parameter inference cache invalidation
+Ensure that the filePaths in compiler options are absolute before getting relative path to buildInfo directory Fixes #32353
+Fix lookup of optional methods in declaration emit (#32094)
+Fixed lint error
+Add negative test case for addMissingConst codeFix with unexpected array elements
+Fix bad rebase
+Fix not emitted statement in then clauses producing syntactically invalid output (#32010)
+Fix incorrectly exported type
+Fix strict bugs in user pr script
+Fix linting error
+Fix esModuleInterop affectsEmit change test
+Fix lint
+When checking sourceFile is from external library, use sourceFile.resolvedPath since thats how the source files are queried and thats the real path Fixes #32086
+Fix more tests
+Fix lint, remove overloads
+Fix declaration emit for negative number property declarations
+Fix tuple and array comparisons during identity checking (#32089)
+Fix lint and remove done TODOs
+Fix incorrect noImplicitAny error on contextual union function signature
+Fix tests
+Container only ref needs to be ignored from uptodate status Fixes #31288
+Support --locale with --build Fixes #31960
+Fix lint
+Fix smartSelection returning extra span inside string quotes when cursor is outside them
+fix(lib): Fix `RegExp` constructor with `string|RegExp` and `flags` (#30586)
+Fix minor issue
+Fix es2019.string.d.ts
+When resolving from typings cache, handle node code modules Fixes #29865
+Do not watch tsconfig files from folders that we canot watch Fixes #30818
+Fix minor issue
+Fix deprecation warnings in experiment sync script
+Fix lint error
+Fix linter errors
+Include declarationSpan as relevant declaration span when defintion or other places are declaration name Fixes #30849
+Do not log errors when ts server plugin is not found in one folder but is eventually resolved. Fixes #30106
+Fix handling of empty 'types', 'typings', etc. fields in package.json (#31539)
+Fix containsPrecedingToken for tokens whose preceding token is a missing node
+Always use resolved file to figure out subModule name in package id Fixes #30429
+Fix crash when checking invalid object rest (#31530)
+Fix compiler crash with object rest in catch binding (#31522)
+Fix for computed properties in instance initializers (#31517)
+Switch to using File not found message instead of trace message file does not exit Fixes #30872
+Ignore drive letters when comparing casings of the files with forceConsistentCasingInFileNames Fixes #31327
+Add sortText depending scope of symbols Fixes #15024
+Fix infinite loop: module.exports alias detection (#31436)
+Fix newlines in smartSelection baselines to not be platform dependent (#31437)
+Fix the test since tsbuildinfo is now always emitted (629bc0c)
+Fix error message regressed by #30916 (#31276)
+Fix outdated comments for unknown type
+Fix whitespace issue in codefix file
+Fix error from master merge
+Fixed several typos, mostly in comments and parameter names. (#31287)
+Fix accidental internal parameter to public API
+Fixed broken twitter account link in README.md (#31210)
+Include only files that can be emitted into the source file directory check for composite projects Fixes #31181
+Fix the failing baseline
+Fix the graph ordering test case to check actual order and not just members as set
+Target affects emit hence mark the option so that all files are reemitted when target changes Fixes #31118
+Fix binder performance regression
+Fix inference to indexed access type containing substitution type
+Change the type of 'uriComponent' (passed to 'encodeURIComponent') from 'string' to 'string | number | boolean'. Fixes #18159 (#31103)
+Fix #24991: Weaken narrowing for == (#29840)
+Fix crash getting error for type alias index signature without a type
+Fix baseline file name changes
+Fix contextual types for a single jsx child (#31040)
+Fix iterable SetConstructor interface (#29777)
+Fix merging module augmentations to pattern ambient modules
+Fix let/const selection for binding patterns
+Fix lateBoundSymbol test case to handle the simple lib file for the test
+Revert and always use merged symbol to get members of late bound symbol Fixes #30891
+Make sure to emit again if change in compiler option affects emit Fixes #30736
+When interfaces are merged, always ensure that the parent symbol of the late bound member symbol is declared symbol containing the node. Ensure that resolvedMembers adds the late bound symbol even when its resolved sunce lateBoundMember may or may not be added to resolved members depending on when its checked Fixes #30891
+Fix inference from enum object type to generic mapped type
+Fix some bad jsdoc comment indent (#30838)
+Fix unsafe parameter coercions related to PragmaPseudoMap
+Fix missing baseline diff (#30770)
+Fix arity error sometimes reaching out of bounds of the arguments actually present
+Fix tests to be non-global.
+Fixed post-merge introduced lint errors
+When old program resolved to module and that file is included, dont consider as ambient resolution. Fixes #30422
+Never create redirect for sourceFiles that get emitted to single output file Fixes #30591
+Ensure that from tsc with --incremental sets source file version Fixes #30588 and #30589
+Fix find all references of inherited constructor (#30514)
+Fix crash caused by cyclic defaults (#30532)
+Fix typo
+Report output file not built error for any module resolution that ends up to source file Fixes #29918
+Ensure --pretty with --build is passed correctly to create reporters Fixes #30282
+Fix _superIndex emit when super access captured in async arrow
+Fix authors script (#30440)
+Fix convert to named parameters rest parameter tuple (#30286)
+Fix globalThis completions (#30441)
+Fix logic error introduced in #30334
+Check oldest output time with tsconfig time to see if its out of date Fixes #26503
+Fixes #29524, a merged UMD-global (#30403)
+Filter ts only keywords from js file completion Fixes #29212
+Exclude Json files from Project reference redirects from files to be emitted list Fixes #30382
+Add extends of type parameter as type only location for completions Fixes #28511
+Fix react-redux break on DT (#30375)
+Fix map constructor to accept readonly tuple Fixes #29721
+Fix completions when writing spread expression Fixes #29234
+Handle recursive symlinks when matching file names Fixes #28842
+Correct the generation of output file names for tsc --b Fixes #30356
+Do not schedule updating bundle if the buildInfo file wont be generated for the project Fixes #30346
+Fix mixin logic to preserve at least one constructor type even when the (#27701)
+Set oldestOutputFileName in uptodate status when updating just timestamps of output Fixes #29875
+InferenceContext has-a (not is-a) mapper and has-a new nonFixingMapper
+Fixed isVariadic handling when signature parameters are expanded for itemInfoForParameters
+Fix signature cloning to ensure target and mapper are propagated
+Fix case where getParameterTypeAtPosition didn't return undefined for out of bounds
+Fix tests after rebase
+Fix check for function type (allow checked type to have overloads)
+Ignore anything starting with ".git" Fixes #29782
+In recursive directory watching ignore folders and files in node_modules starting with "." Fixes #30004
+Handle error when type parameter of mapped type uses private type Fixes #30201
+Fix issue of more inferences leading to worse results
+Fix unnecessary additional deletion paths from cleanLssl target
+Fix prologue emitting in case of modules with --out scenario
+Fix lint error
+Fix out-of-bounds issue in getParameterNameAtPosition
+Fix the build error
+Fix incorrect message when incremental is false with composite projects
+Fix test by reverting change in textChanges that occured by mistake in 499bc70056c95f72bade0326aad38c671ae6d204
+Make applyChangesToOpenFiles efficient to handle batch file opens, close and changes before updating projects Fixes #29667
+Do not wrap npm path with quotes Fixes #30086
+Fix baseline accept when there are multiple .delete files (#30091)
+Fix `.npmignore` by adding the `.git` file (as opposed to just a directory, which is not the case for  git worktrees) and the `.failed-tests` file.
+Fix the blank lines for internal enum members with --stripInternal
+Fix baseline-accept-rwc (#30052)
+Fix incorrect emit when internal method is inside internal interface
+Fix the crash found while compiling src/compiler
+Fix emit when internal propogates through multiple levels of references
+Fix issue with .tsbuildinfo the .d.ts emit when emitting without creating program
+Fix build breaks (#29977)
+Fix broken check in getUnionType (check was always true)
+Fixed tslint error.
+Fix incremental build changes declaration dir
+Fix linter warnings.
+Fix missing comma
+Fix initialization of `TokenOrIdentifierObject#transformFlags`.
+Fix lint errors
+Fix NarrowTypeByTypeof, NarrowTypeByInstanceof, isPropertyInitializedInConstructor
+Fix type reference dts emit failure
+PR review: Fix typo.
+Fix lint issues.
+Fix UnparsedPrologue kind
+Fix lint error
+Handle get from readFileCache correctly. Fixes #29623
+Fixup restrictive instantiations to actually erase type parameter constraints (#29592)
+Fix crash in watch-local
+Fix master: handle generating type name for late bound dupe message more nicely (#29572)
+Fix unnecessary union
+Fix typo in runner selection in gulp
+Fix lint error
+Fix crash in signatureHelp
+Handle find all references for symbol merged with UMD module and global var Fixes #29093
+Fix resolution of properties from prototype assignment in JS (#29302)
+Fix #29457
+Fix gulp builds not building some targets
+Fix typo
+Fix trailing whitespace
+Fix crash in getTextOfPropertyName
+Handle generating action for export equals with anonymous symbol Fixes #28845
+Fix typo
+Fix typo
+Fix implement interface quickfix import types (#29410)
+Fix comment
+Fix unneeded cast lints (#29383)
+Use the SourceMapSource to get line and column instead of current source file Fixes #29300
+Fix typo
+Fix crash (#29333)
+Fix existing test
+Verify that completion with new identifier location returns isNewIdentifierLocation: true Fixes #24009
+Fix the failing test case
+There is no need to check for file presence when trying to rename imports based on file rename Fixes #29031
+Fix gulp baseline-accept (#29301)
+Use the sourceFile to determine the jsxNamespace at the location for organizingImports Fixes #28827
+Do not cache semantic diagnostics with --isolated modules Fixes #28332
+Fix function declaration without body to be checked as context sensitive Fixes #29032
+Fix crash in organizeImports
+The assert that cached value of config file existance is always correct, might not be true if file watcher is not invoked before creating configured project Fixes #29191
+Merge pull request #29214 from uniqueiniquity/nestedAsyncCodeFix
+Fix spelling of convertible
+Fix discriminant property check
+Fix the up-to-date-ness checks of sucessive `gulp` invocations (#29088)
+Fix all new lint failures (#29080)
+#28977 Fix test baselines
+When removing the errors for the exports from the file, apart from removing transitive exports, remove the diagnostics of file that import these exports Fixes #28983
+Fix error message when type argument arity is wrong (#28366)
+Fix handling of index signatures in discriminated unions
+Fix findAllReferences for 'this' parameter declarations
+Fix the edits clamping from #28583 after rebasing to master
+Fix paths showConfig, exhaustively test showConfig
+Fix crash on umd and module merge, allow umds to be accessed when merged with a non-UMD symbol
+Use compilerOptionsIndicateEs6Modules over program contains es6 modules for determining auto import offering. Also dont depend on uncheck js file for this. Fixes #28696
+Fix logic that bails out of incremental parsing in certain contexts
+Fix crash on property assignment of unresolved module (#28606)
+Fix typo (#28526)
+Merge pull request #27376 from Microsoft/codeFixCannotFindModule_suggestion_falsePositive
+Fix tests and lint
+Fixed codeFixAll behavior and adjusted changed fourslash tests
+Fix comments after sread expression, spread assignment (#28482)
+Fixed up flags on test cases and stray newline.
+When serializing conditional types, use true and false type to determine emit Fixes #27999
+Fix typo comment
+Fix duplicated amd module comments in declaration bundle (#28451)
+Merge pull request #28454 from Microsoft/codeFixAfterPrologue
+Include code fix after prologue Fixes #15515
+Remove lib file errors when all files are to be emitted. Fixes #26389
+Add affectsModuleResolution to compile options: maxNodeModuleJsDepth Fixes inferred project incorrectly modifying existing compiler options Fixes #27108
+Use seen map to avoid circular transitive exports to cause stack over flow Fixes #28433
+Add test case for codeFix
+Fix public API
+Allow creation of relative path file infos only for open script infos Fixes #20476
+Fix enum const initializer visibility painting (#28415)
+Fix fourslash test
+Fix comments on pull request
+Fix the issue with file being included in the referencing project on rename when it wasnt included earlier Fixes #28307
+Fix the issue with file being included in the referencing project on rename when it wasnt included earlier Fixes #28043
+Fix lint errors
+Merge pull request #28071 from pesca/improveCodeFix
+Fix bug when augmenting parent-less symbol (#28345)
+When removing old diagnostics for files referencing modules that export affected file with signature change, delete the diagnostics of the module as well as anything that exports that module Fixes #28328
+Fix ambient initializer emit for bigint
+Fix error numbers
+Fix `symbolCanBeReferencedAtTypeLocation` for namespace that exports itself (#28295)
+Fixes Microsoft/TypeScript#6955
+Fix incorrect event
+Fix broken twitter link in README
+Fix test case for project reference with composite not true
+Fix declaration emit for cross-file enums (#28237)
+Ignore any changes to file or folder that are in node_modules and start with "." Fixes #27673
+Fixed some typos.
+Fixed typos in spec.md
+Remove 'verify.fileAfterCodeFix', use 'verify.codeFix' (#28110)
+Fix tests for node 11 (#28108)
+Fix Object.defineProperty declaration expando-ness and renames (#28061)
+Fix bug: only getCompletionEntriesFromTypings if completions are for top-level directory (#27226)
+Fix lint
+Fix performance regression when reusing old state
+Do not do any reduction (even if it contains any) to the union type when getting contextual type Fixes #27975
+Fix alias of module.exports->exports->IIFE (#27992)
+Fix JS merge crashes from lovefield (#27989)
+findAllRefs: Fix bug when symbol.declarations is undefined (#27977)
+Use reference map from declaration file as exported map to handle deep import semantic diagnostics invalidation Fixes #27973
+Fix bug in reduceEachChild (fixes #27854) - add reducing of type arguments in tagged template expression
+When contextual type doesnt find property, use the index signature from unit type(fix the incorrectly used union type to get the signature) Fixes #27949
+Fix compile errors in tsbuildWatchMode.ts (#27870)
+Fix isSourceFileFromExternalLibrary for file with redirect (#27917)
+Handle when advancing past , of call expression moves past endPos of formatting Fixes #26513
+Use string/number signature to get contextual type Fixes #26587
+Allow files to be included by `*.json` pattern in include of tsconfig Fixes #25636
+Skip writing json file if it is going to overwrite same location Fixes #24715
+Do not generate jsFile path if its emitOnlyDeclarations is set Fixes #27009
+importFixes: Skip alias when testing isTypeOnlySymbol (#27674)
+Remove any existing errors in case of successful build in tsbuild watch mode Fixes #27685
+Converted legacySafelist to map to avoid using array prototype methods accidently to match with filename Eg. constructor.js was adding constructor function to aquisition.include which resulted in the mismatch between typing installer's typeAquisition (which was passed as JSON string and parsed back to null) and one in project That meant we kept on queuing the new typing installation request. Fixes #27435
+Fix bug: Ensure JSDoc type range is valid (#27343)
+Use ambient modules as references to keep track of reporting and usage of modules correctly Fixes #27585
+Fix name resolution of `exports` in JS (#27394)
+Fix class/constructor-function merge (#27366)
+Fix linting issue
+Report the errors for static incompatibility only if instance types are assignable Fixes #26138
+Send even for ProjectLoadStart and ProjectLoadFinish Fixes #27206
+Ignore the directory watchers invoked in non polling watch mode with no relative file name information Fixes #27326
+Fix the fileByName cache when program is used completely which breaks the getSourceFile not return redirected file by its name
+Fix git submodule update syntax (#27549)
+Fixes for review comments.
+Fix GH#18217 issue for FileLog. (#27430)
+Add resolvedPath and originalFileName to redirected file Fixes #27207
+Handle the case of failed lookup location being not normalized. Also fixed issue where type defs with relative name didnt resolve when directoryExists is present on the host Fixes #27405
+Only copy non error values in array when converting the json Fixes #27432
+Fix typo in PseudoPragma* types (#27437)
+Fix parent points in unreachable code (#27400) (#27406)
+Issue #27301: Fixed crash when converting function to async (#27396)
+Fix commonjs export= merging (#27368) (#27371)
+Fix bug: Allow completions after '@' with no contextToken (#27325)
+Fix crash in use-before-def checking of enum tag (#27350) (#27354)
+Fix 'x instanceof ctor' where type of ctor is Function
+Fixes the completionForStringLiteralNonrelativeImport13 test
+Fix non-selfclosing JSX tag contextual types (#27251)
+Fix 27086. Ignore directories starting with a dot.
+Fix iterated type in for-await-of
+Fix error message for class type in JSDoc missing type arguments (#27222)
+Fix per-iteration bindings in for-loop head
+Fix signature help not showing in block body bug
+Detect the input file of referenced project with fileNames from parsed command Fixes #25864 and #26054
+Merge pull request #27188 from uniqueiniquity/miscAsyncFixes
+Use originalFileName (fileName of input project reference file) to resolve module/typereferences/reference paths in it instead of output decl file path This also ensures that originalFileName, resolvedPath are set correctly even when we are reusing program structure Fixes #26036
+Fix enum tag circular references (#27161)
+Fix bug where array element is undefined (#26433)
+Fix bug: Get mapped location of definition for findAllReferencesFull (#27113)
+Fix non-toplevel prototype assignment (#27096)
+Fix the project reference verification to include json source file version check
+Fix bugs: Replace SourceFile if '--noUnusedLabels' changed (#27060)
+Fix resulting issue in compiler
+Fix cross-file merge of assignment decl valueDeclaration (#26918)
+Fixing react defaultize+generic default props interaction (#27088)
+Fix the usage of createProgram in tsc
+Fix bug: VariableDeclaration may have SemanticMeaning.All if an `@enum` in JS (#27085)
+Fix watch of project with project references
+Fix bug: Ignore @enum tag in TS (#27076)
+Fix bug: Ensure `export =` symbol always has a valueDeclaration (#26973)
+Fix this-type in prototype-assigned object literals (#26925)
+Fix inference when source and target both have rest parameters
+Fix FunctionType emit when only parameter has no type
+findAllReferences: Fix declarationIsWriteAccess for PropertyAssignment in destructuring (#26949)
+Fix JSX completions after boolean property (#26943)
+Merge pull request #26793 from minestarks/parentDirFix
+Fixes for type parameter name resolution in JS (#26830)
+Fix diagnostic reporting for empty files in tsconfig
+Narrowing unknown by typeof object to object | null Fixes #26327
+Support json module emit when module emit is commonjs, amd, es2015 or esnext Fixes #25755 and #26020
+Use widened type (just like importing using module.exports = in js file) Fixes #26429
+Fix faulty path handling
+Fix equalOwnProperties
+Fix namespace expando merge (#26690)
+importFixes: Only provide a fix using the best module specifier for a given module (#26738)
+Correctly mark visibile nodes when declaration isnt explicitly turned on but composite is true Fixes #26669
+Fix error introduced by rebase
+Reset the build queue correctly Fixes issue reported in #26545#issuecomment-416961260
+Fix overlapping test runs in 'gulp watch'
+codeFixInferFromUsage: Assume that using `x[0]` means that `x` is an array (#26739)
+Fix typo
+Add js source maps to list of outputs when doing --build Fixes #26619
+Add option --lazyConfiguredProjectsFromExternalProject to enable lazy load of configured projects referenced by external project Fixes #26696
+Fix bug: Don't go to *any* constructor signature for jsx element (#26715)
+Fix bug: Don't let empty signature documentation override other documentation (#26638)
+Fix duplicate completions bugs (#26648)
+Merge pull request #26569 from dsherret/issue26535_FixNullableDocumentRegistryTarget
+Fixes to the advice for untyped module imports from unknown packages:
+Fix test
+Fix lint errors
+Fix invalid cast (#26462)
+Do not include json file unless --resolveJsonModule is specified Fixes #26402
+Fixes #26128 - signature comp for  jsdoc @class. (#26160)
+Return the nonrecursive directory watcher correctly on platforms that dont support recrusive directory watching Fixes #26288
+Use original path from resolved module cache when available. Fixes #26273 Thanks to @ajafff, for partial fix  and test (#26310)
+Fix bug: `symbol.valueDeclaration` not guaranteed to be defined (#26267)
+Refresh semantic diagnostics when compiler options affecting semantic diagnostics generation changes Fixes #26195
+Fixes to ensure getDefinitionAndBoundSpan works correctly when using composite projects Project references need to be detached from the project when closing project In SourceMapDecoder handle when the redirected file to project reference is set as the output of the project Keep configured project alive if project it references has open ref Fixes #26164
+Do not read files greater than maxFileSize which is currently 4mb Fixes #24762
+Fixes #26122 - erroneous "TS2350" for js constructors called with incorrect parameters (#26124)
+Fix issue with Array#flatMap callback return type
+importFixes: When one file redirects to another, consider both for global import specifiers (#25834)
+Handle when property name turns out to be non string literal computed name because of errors in tsconfig file Fixes #26076
+Fix decorated accessor emit (#26016)
+Merge pull request #26101 from Microsoft/Fix26083-2
+navigationBar: Fix bug for shorthand ambient module (#25992)
+Fix bug for isValidTrigger when contextToken is undefined (#25993)
+Fix bugs for go-to-definition on mapped type method (#25991)
+ Fix #25954 - Always retain export modifier if default modifier is present (#25974)
+When json module is not found, include enabling --resolveJsonModule might help. Fixes #25722
+Fix duplicate "this" completion (#25900)
+Fix inferFromUsage on index signatures (#25934)
+Fix typos
+Fix #25820 - handle redirected files when comparing paths (#25902)
+Report compiler options errors as well as part of configFileDiag event Fixes #25741
+Ensure fixSpelling and importFixes still trigger on "Did you mean the instance/static member ..." (#25847)
+Reflect getCurrentProgram as Program|undefined in the ResolutionHostCache If there were any exceptions, the getCurrentProgram might return undefined so this is defensive check for program Fixes #25765
+`errorCodes` in `CodeFixRequestArgs` is non-optional (#25815)
+Watch subdirectories in project root instead of watching project root so as to avoid watching excluded directories that are not part of config file Fixes #25629 and Microsoft/vscode#51139
+Fix parsing of parenthesized JSDoc parameters (#25799)
+Fix comment emit for namespaces & enums.
+Fix comments for import and export declarations.
+Fix formatting at trailing comma (#25706)
+Fix invalid cast: JSDocSignature is not a SignatureDeclaration (#25734)
+Fix type of TypeParameterDeclaration#parent (#25737)
+Merge pull request #25735 from j-oliveras/Fix_25657
+Fixes 25657. Jakefile: make concatenateFiles third parameter optional.
+Merge pull request #25656 from j-oliveras/Fix_25653
+Fix Buffer.from uses to handle node 5.4.1 bug (#25659)
+Support resolveJsonModule option when files contain the json file Fixes #25636
+indentMultilineCommentOrJsxText: Fix bug when 'parts' is empty (#25645)
+Fix incorrect handling of preserveWatchOutput flag is in config file Fixes #25620
+Use exported modules through declaration emit to invalidate the semantic diagnostics Fixes #24986
+Report errors for module generation other than "commonjs" with --resolveJsonModule Fixes #25517
+Fix bogus use before def in jsdoc (#25532)
+Fix crash in JS when checking destructuring shorthand assignment (#25529)
+Fix crash in elaborateElementwise when the target property is known but it doesn't have a declaration (e.g., in a mapped type).
+Fix lineText in references command (#25494)
+Do not report esModuleInterop needed error for json imports Fixes #25400
+Support code-fix-all for importFixes (#25137)
+Fix typo to fix logging when built with --watch --diagnostics
+parser: Fix testing for missing list (#25411)
+Fix the completion when base type is unknown type from unknown namespace Fixes #25387
+Fix fourslash tests
+Merge pull request #25335 from Microsoft/codeFixAddMissingEnumMember_all
+Consolidate overloads in constructors for Map, Set, WeakMap, and WeakSet Fixes https://github.com/Microsoft/TypeScript/issues/23551 Fixes https://github.com/Microsoft/TypeScript/issues/25362
+Fix module specifier case handling for declaration emit (#25110)
+Fix control flow loop in yield expression (#25228)
+Fix duplicate errors in js special assignments (#24508)
+Fix lint race when not running tests in parallel (#25235)
+Fix removal of default import (#25200)
+Fix bad merge
+Fix test failure (#25199)
+Fix completions trigger character on JSX opening tag (#25167)
+Fix issue regarding WeakMap constructor
+Fix decorator design:types emit for type variables.
+Fix --strictNullChecks error with getDefaultProjectForFile (#25060)
+Fix issue
+Merge pull request #25144 from Microsoft/gulpfileFixes
+Fix runtests-parallel, tsserverlibrary, up-to-date checks
+Fix RWC baseline paths
+Fix crash when binding jsdoc-style inner namepaths (#25106)
+Fix the build on case-sensitive file systems.
+Mark the declarations visible correctly when emit is disabled but asked to emit declarations for watch mode Fixes #25068
+Fix bug: Still implement a method even if the return type is defined in another file (#24978)
+Fix test messages to mention esnext.intl
+Fix fs.copyFileSync not supported in Node 6
+Fixes downstream prepend projects not being built correctly on upstream changes
+Fix jake diff (#25012)
+Fix protocol: Field is 'body', not 'edits' (#25005)
+Fix bug in importTracker: default and namespace imports are not exclusive (#24965)
+Fix sources array case sensitivity
+Fix off-by-one error with sourcemaps
+moveToNewFile: Reuse code from importFixes for inserting import (#24957)
+Handle the json extension when ResolvedModule result is json file Fixes #24932
+Fix file casing
+Fix insiders publish
+Do not watch the parent folders recursively if not needed. This avoids watching folders like parent folder of the project root just to watch files created in the folder Fixes Microsoft/vscode#51139
+Fix input file path
+Fix buildProtocol to handle lib+noresolve
+Fix API Sample tests
+Fix path to core to fix configure prerelease (#24906)
+Merge pull request #24870 from Microsoft/Fix24826
+Merge remote-tracking branch 'origin/master' into Fix24826
+Fix #24826: Add mapping for ES2018 target to library
+Fix regexp operand
+Fix for linux
+Fix bug: In findAllReferences, don't crash on static method missing body (#24814)
+Fix lint errors
+Fix unittests config
+Fix runtests async
+Updates the graph before checking if file is present in project for error checking When file is moved using getEditsForFileRename, the watch notification could be delayed This could result in project updates in background that could be delayed and result in file not present in the project after its synchronised Fixes #24547
+Always resolve the first identifier of computed property name to get the symbol and track it Fixes #24798
+Fix bug: In newFileChanges, setParentNodes in new source file (#24765)
+Do not watch folders like "c:/users/username", "c:/users/username/folderAtRoot" Fixes Microsoft/vscode#51139
+Fix prologue order in async function
+Fix circularity error when extending class in same JSContainer (#24710)
+Fix property assignment on aliases (#24659)
+Fix the issue with createSemanticDiagnosticsBuilderProgram, createEmitAndSemanticDiagnosticsBuilderProgram and createAbstractBuilder not assignable to CreateProgram<T> Fixes #24625
+Fix merge lexical environment to *always* respect prologue statements (#24602)
+Fix createProgram js docs.
+Disable source maps and declaration emit for the json module Fixes #24546
+Fix bug when name resolution fails in a @typedef: Don't set `lastLocation` (#24585)
+Do not emit trailing comma in json module Fixes #24530
+Make suggestion diagnostics to wire cancellationToken This especially needed if its a js file without the ts-check, the file wont be typechecked in getSemanticDiagnostics Fixes part of #19458
+Fix preProcessFile tests
+Fixup sourcemap positions and text writer calculations
+Fix exported type resolution in commonjs (#24495)
+Fix cast: location may be a SourceFile (#24498)
+Fix async generator return as well
+Instead of creating filter for subDirectories to watch in the ancestor directory of root, watch those subDirectories for failed lookup locations Before this change, when failed lookup location didnt fall in root directory, we tried to find the ancestor directory of the rootDirectory to watch. We also created subDirectory map for the directories that are being watched so we dont go through invalidation if path is unwanted directory With this change, we will watch those subdirectories instead of root. On windows node supports file system level recursive watching so the earlier approach was better because we reduced number of watches created But on other os, since node doesnt support it, we create the watches for existing folders outselves, so earlier approach becomes expensive. This should be better compromize to satisfy both types of OS. Fixes #24434
+Fix duplicate identifier error with module.exports (#24466)
+Fix return and throw propagation for yield*
+Fixes Number.is* signatures to accept any input.
+Fixes to keyof and narrowing by typeof check
+Fix to issue 23326 for completions on new.target (#24342)
+Fix for issue #6154 - overriding methods with properties in the derived class (#24343)
+Fix strictNullChecks breaks
+Fix tests run in parallel
+Minor cleanups in importFixes (#23995)
+Fix typo: seperate -> separate (#24338)
+Fix getter of local symbol for export= when it is json module Fixes #24341
+Improve verify.codeFixAvailable (#24325)
+Merge pull request #24262 from armanio123/FixObjectLiteralExpression
+Fix errors
+Fix bug: Get merged module symbol in forEachExternalModule (#24295)
+Fix bug: VariableDeclaration initializer may be undefined (#24256)
+Merge pull request #24271 from Microsoft/portRegExpDotAllFix
+Fixed test regression, removed nodeContentIsAlwaysIndented
+Fix issue with formatting object literal csharp style
+Unused variable error reporting needs to handle nodes that could not belong to current source file Eg. when resolving module, the another file gets checked and its locals are added to potentiallyUnused list Fixes #24215
+moveToNewFile: Fix bug for missing importClause (#24224)
+moveToNewFile: Fix bug for VariableDeclaration missing initializer (#24214)
+Merge pull request #24212 from Microsoft/Fix24199
+Fix jsdoc type resolution [merge to master] (#24204)
+Merge pull request #24136 from Microsoft/inferFromUsageFixes
+Fix lint
+codeFixInferFromUsage: Avoid duplicate fix for variable declaration (#24169)
+Fix jsx element parsing within ternary (#24149)
+Fix bug: Converting 'module.exports = {...}' to ES6 doesn't introduce a default export (#24141)
+Fix unused diagnostic for rename-destructuring `{ a: b }` (#24145)
+Fix placement of indent for @ts-ignore comment (#24143)
+Fix conversion of TextChanges to FileCodeEdits for new file (#24126)
+Fix stack overflow in merge symbol (#24134)
+Apart from typing, use main field in package json to resolve typescript files Fixes #23502
+Fix async generator rejection handling
+Fix repeated merging of js initializers
+Extract 'moduleSpecifiers' namespace out of importFixes (#24010)
+Fix comment (#24035)
+Fix RWC test case sensitivity (#24012)
+Fix publish nightly on case sensitive FS (#23997)
+Fix crash in recursive declared type resolution (#23950)
+Fix #23180 - Generating source maps with relative path in sourceRoot option produces maps with absolute file paths
+Fix RWC tsconfig and lib paths (#23979)
+Fix comment typos in utilities.ts
+Fix comment typo in types.ts
+Fix comment typo in program.ts
+Fix comment typo in resolutionCache.ts
+Fix typo in parser.ts
+Suggest json files in completion when resolveJsonModule is set and module resolution is node Fixes #23899
+Fix indentation
+Fix typo in comment
+Add support to update module resolutions on watches from mono repo like setup with path mapping Fixes #22349
+Fix find-all-refs for import("mod").Foo where Foo is a typedef (#23881)
+Fix call to 'fail' in jakefile (#23845)
+Fix #22419: Add `kind` field to `OutliningSpan`
+Fix bug: JSDocPropertyTag is a declaration (#23876)
+Fix the assert for orphan script info source change event
+Fix typo: `||` should be parenthesized (#23811)
+Fix discriminant checking in contextual types to avoid infinite recursion
+Fix typo
+Handle the test case when tsconfig file changes without needing to update the program Fixes #23687
+Fix typo (#23725)
+Fix `insertNodeAtClassStart` for empty class with comment (#23342)
+importNameCodeFix: consistently put fixes to use existing imports before fixes for existing imports (#23663)
+Fix issues with runtests-browser
+Fix the crash when reporting errors of file that was referenced by inferred project root, is opened right after closing the root file Fixes the crash reported in https://github.com/Microsoft/TypeScript/issues/23255#issuecomment-382653325
+Fix assert in getjsdochost (#23575)
+Fix bug: Don't rename 'default' in `export { default as x } from "m";` (#23434)
+Fix bug: IfStatement#elseStatement can be undefined (#23467)
+Fix bug: VariableDeclaration initiazer may be undefined (#23439)
+Fix Promise.reject
+Fix lint error and normalization issue
+Fixes and improvements to indexed access type relationships
+Fix spacing.
+Fixed up test. Thanks arrow functions...
+Fix jakefile case and circular references
+Add fixName property to CodeFixAction (#23350)
+Fix bug: isSymbolReferencedInFile should return true for shorthand property assignment (#23314)
+Fix harness file listing
+generateGetAccessorAndSetAccessor: Fix typos and use type predicate (#23310)
+Fix typeo: rename udpateReportDiagnostic to updateReportDiagnostic
+Fix bug: ensure 'reportsUnnecessary' is actually sent by tsserver (#23293)
+Fix bug: don't insert a semicolon when inserting a FunctionDeclaration (#23240)
+Fix bug: Include comment for @param tag with nested tag (#23276)
+Fix issue #22923
+Fix typo and use array helper (#23169)
+Fix crash in type resolution in JS IIFEs (#23171)
+Fix bug: `<div a="1" b/**/ >` is not a jsx initializer (#23138)
+Fix factorial jsdoc search:chained assignments (#23115)
+Fixed unit tests for error counts
+Fix bug: ClassDeclaration not guaranteed to be first declaration of a class (#22983)
+Allow strict mode reserved keywords in qualified type names; Fixes 22785
+Fix parent node walk termination condition in getConstrainedTypeVariable
+Fix formatting
+Do not watch child directories of the sym link folders Fixes #22668
+Do not watch child directories of the sym link folders Fixes #22668
+Correct the incremental parsing when there is jsDoc node Fixes #22924
+Fix typo in Array Type Literals section of spec
+Add 'fixAllDescription' property to CodeFixAction (#22616)
+Merge pull request #22775 from adriengibrat/FixFunctionApplyDefinition
+Merge pull request #22886 from Microsoft/Fix22866
+Fix function.apply type definition
+importFixes: Distinguish when we need to import JSX constructor or JSX namespace (#22828)
+Fix lint issues
+Fix #22866: Condition checking for name collision of generated variable names on emit happening
+organizeImports: Fix bug in reference-testing for renamed import (#22797)
+Fixes for new mocha types (#22799)
+Fix test for overlapping changes (#22741)
+Fix lint errors
+Fix Promise interfaces
+Fix when program module resolution in watch mode when node_modules folder itself gets the rename event Fixes #22712
+Fix type when annotated with a JSDoc function type (#22692)
+Fix indent (#22662)
+Fix await code action crashes when await is not in a function (#22623)
+Fix completions and brace in empty  file (#22620)
+Make sure config file parsing errors are available through program Fixes #22570, #21940
+Do not close the file watches just to create new ones in the type installer Fixes #22581
+Instead of using current time, use predefined time for modification to ensure we can detect changes correctly and arent timing dependent Fixes #22455
+Fix crash after `var = require('x')` type resolution (#22452)
+Fix bug: Don't skip emitting JSX attributes (#21777)
+Do not send delete event every poll for missing folder Fixes #22494
+Fix typo in emitDeclarationOnly error message for declaration required
+Fix #22133: Expose getOutliningSpans on the server protocol (#22400)
+Allow types as well as values in possibly type argument location Fixes #22369
+Symbol kind needs to use location before falling back to flags Fixes #22366
+Merge pull request #22343 from Microsoft/codeFixActionNotUndefined
+Fix ignore message indentation (#22340)
+Create the action only if the text change creation is successful.  … Make change for the infer type from usage could return undefined even if type is present if the type cannot be named Fixes #22184
+Do not try to resolve alias for default symbol Fixes #22257
+Fix #21617: Give detailed message on `for-of` of iterators without downlevelIteration
+Fix bug where findAllReferences included a node outside of sourceFilesToSearch (#22062)
+breakpoints: Fix invalid cast (#22153)
+Fix type of isIterationStatement (#22065)
+Fix typo in inference (#22243)
+Fix comment
+Fix declaration emitted crash on mapped type with no type (#22213)
+Fix lint
+Fix emit for json file
+Reload the text from file if there is pending reload of the script info before determining to use SVC Fixes #20806
+Fix nested js-containers+proto assignment in types space
+Fix js-prototype-assignment on declarations
+Fix bug: don't call `addIndirectUser` if we're not tracking indirect users (#22121)
+Fix bug: Handle QualifiedName in getMeaningFromRightHandSideOfImportEquals (#21779)
+Search till root just like tsc when the projectRootPath specified doesnt contain the info.path Fixes #21209
+Fix the assert for undefined leaf in LineNode (#21924)
+Fix issues
+Fix lint errors
+Fix bug: Interface type parameter merged with property is not unused (#21966)
+assertItemInCompletionList: Fix error messages (#21908)
+Fix jake lint on Windows
+Handle the delayed updates due to user action correctly when ensuring the project structure is upto date Fixes #20629
+importFixes: Fix bug by using replaceNode and removing changeIdentifierToPropertyAccess (#21898)
+Clarify assumptions in verifyImportFixAtPosition (#21899)
+Fix emit when binder treats exported const as namespace
+Fix duplicate label in es2017 async function
+Fix completion of jsx attributes in self closing element Fixes #21844
+Fix error message for implicit-any property in object literal with symbol key (#21883)
+Fix #21848: Allows to mutate `const` with non-null assertion (#21873)
+Fix bogus jsdoc error
+findAllRefs: Fix bug for `export` not at top-level of a module/namespace (#21846)
+Fix bug: handle missing symbol.parent for non-accessible symbol (#21834)
+Fix #20805 (#21755)
+Fix formatting of conditional types (#21762)
+Fix the member completion returned on right side of the import when it does not resolve to any symbol Fixes #20794
+Fix #21641, Add indirect location for default imports for synthetic defaults (#21703)
+Fix getConstrainedTypeParameter function
+Fix getDefaultProjectForFile check Fixes #21738
+Construct signature is valid signature declaration Fixes #21501
+Fix bug: support non-Identifier previousToken in importFixes (#21650)
+Fix bug: Check for both "./" and ".\" (#21730)
+Fix space issue in mapped type formatting (#21712)
+Fix bug in normalizeAndPreserveTrailingSlash: For "./", return "", not "/" (#21704)
+Fix the lint error
+Fix ScriptElementKind for path mapping completions (#21695)
+Handle source file versioning better since the emit depends on it This ensures that when file is deleted and re-created, the file version isnt same to ensure emits correctly Fixes #21444
+importFixes: Bundle module specifiers with import kinds, and replace ImportCodeActionMap with existing functionality (#20700)
+Fix JSX contextual types to not eagerly become apparent, use 2-pass inference for JSX (#21383)
+Fix assertion: class reference location may be 'default' keyword instead of class name (#21630)
+Fix return types of NodeBuilder methods (#21619)
+Fix bug: replacmentSpan for completion shouldn't include property name that doesn't start with completion name (#21587)
+Fix harness getDirectores implementation to not include directory as prefix (#21633)
+Fix unintended sharing of typeParameters property in SymbolLinks
+Fix initializer assignability for unique symbol
+Fix over-aggressive transformation of super properties
+Fix minor typos in documentation (#21538)
+Always get diagnostics when emitting irrespective of whether its declaration only emit The diagnostics reporting and expression resolution caching is quite intermingled at present. Hence when we tried to get the declaration output without getting diagnostics, the resolution for functions return expression is cached but errors arent reported Symbols arent marked as referenced. So at later time when trying to get the diagnostics since the expression resolution is cached, it doesnt even go through all checks For now get diagnostics irrespective of declaration only output to avoid this issue. Fixes #21518
+Fix for Issue #21512 and code cleanup for Jakefile.js (#21513)
+Fix ordering in fourslash tests
+Simplify isEmittedFile check instead of iterating through all source files. Fixes #21459
+Fix dependency for 'publish-nightly'.
+Fix bug: Support `this.` completions even when isGlobalCompletion is false (#21330)
+Fix loop labels for for..await
+Fix bug in resolveMappedTypeMembers
+Expose sort and deduplicate diagnostics in Public API Fixes #20876
+Fix JSX attribute checking when spreading unions
+Fixes #17080
+Fixes #17080
+Allow dynamic files without external project and also use file names starting with ^ as dynamic file Fixes #21204
+Fix bug: result of createUnionOrIntersectionProperty may be undefined (#21332)
+Fixes #17080 https://github.com/Microsoft/TypeScript/issues/17080 Added testcases from the Github bugreport (all working as intended now). Signed CLA.
+Fixes #17080
+Fix formatting between for and await (#21254)
+Fix isTypeOfExpression in compiler API (#20875). (#20884)
+Fix typo in message
+Fix lint and test errors and add tests
+DT runner:Fix $ExpectError handling
+Fix parsing
+Handle CodeFixAction in mapCodeAction (#21247)
+Fix formatter crash for `const { ...a: b } = {};`: forEachChild and emitBindingElement should handle `...` before the propertyName (#21268)
+Fix deletion of node_modules in DT test
+Replace TextChangesContext with RefactorOrCodeFixContext
+Fix the invalid file/directory location when getting file system entry for caching read directory results Fixes #20607
+Fix #21089: Do not infer from numeric index signature in Object.values and Object.entries (#21129)
+Fix the api test failures
+Fix the error callback of the present directory watcher
+Make getCombinedCodeFix API public (#21234)
+Fix bug: getNonNullableType before getting signatures of method (#21212)
+Fix destructuring assignment when assignment target is RHS
+Fix symbol-named properties incorrectly requiring alignment with string indexer type
+Fix incorrect parenthesization logic for conditional expression branches
+Fixes var declaration shadowing in async functions
+Fix temp variable emit for names used in nested classes
+Fix bug: get merged symbol of symbol.parent before checking against module symbol (#21147)
+Fix tests
+Fix timestamp writing, npm install, and cache behavior
+Fix lint error
+Fix to remove extra space between function and array index. (#21113)
+Fix WeakSet interface (#19756)
+Fix bug: normalize path after combining (#21100)
+Fixes #20026 (#20157)
+Fix this.timeout not actually applying the timeout within it blocks (#21079)
+Fix build failure with newest `@types/mocha` (#21075)
+Fix bug: Resolve module symbol before checking whether module export is a re-export (#20989)
+Fix lint failure (#21073)
+Fix invalid cast (#20426)
+Fix conflict between formatting rules (#21038)
+Fix version of @types/node to 8.5.5 (#21019)
+Fix quick info for require template string (#20851)
+Fix quickinfo display of deferred mapped types
+Fix printing of deferred mapped types' index signatures
+Fix printing of deferred mapped types
+Fix narrowTypeBySwitchOnDiscriminant function
+Fix higher order inference on indexed access types (#20165)
+Fix 'this' parameter handling in getUnionSignatures
+Fix linting error
+Fix lint errors
+Fix devtools test (#20731)
+Fix get symbol at location to behave correctly for parameter assignments and jsx attributes (#20706)
+Fixed an incorrect assumption K in Union works with numeric literals
+Fixed a mistake, whereby the check for the literal type was satisfied when any (not every) was a literal
+Fix typo
+Fix test
+Resolve merge conflicts in codeFix
+Fix error messeage (#20601)
+Fix bug: FunctionDeclaration may have missing name (#20618)
+Fix return type
+Fixes #20475 (no repro found yet)
+Fixes #20542
+Fixes #20527
+Fix #20520
+Fix #20523
+Support a "getCombinedCodeFix" service (#20338)
+Update the project graph before checking if opened file is present in the existing project Fixes #20017
+Fix deepEqual emptyArray tests
+Fixed prettyContextNotDebugAssertion.errors baseline
+Fix whitespace lint
+Fix type-annotation declaration in JS files
+Fix #19959 and #19958: Remove un-localizable messages (#20019)
+Fix visibility checking of mutually recursive exports (#19929)
+Fix build in the presence of definite assignment analysis (#20170)
+Fix semantic merge conflict (#20119)
+Fixed internal safelist
+Fix lint error
+Fixed unbalanced parenthesis
+Fix crash on non-dts-require (#19980)
+Fix getReturnTypeFromBody widening
+Merge pull request #19968 from uniqueiniquity/jsxFragmentFix
+Fix crash when running tsc with -diagnostics
+Fix quote lint
+Ensure that enum member value is computed before using it Fixes #19898
+Fix typo
+Fix declaration emit for imported export alias specifiers (#19852)
+Fix undefined error for diagnostic for instantiating an abstract class (#19809)
+Fix getDefaultLibraryFile + turn off lib
+Fix lint and allow null keyword
+Fixed minor syntactics error (#19801)
+Fix assertion -- an import may come from a require() call (#19667)
+Fix invariant generic error elaboration logic
+Fix new lint error
+Handle the script infos that are opened with non rooted disk path Fixes #19588
+Fix incorrect relative module name detection (#19702)
+Handle cases when npm install doesnt get triggered with the actual file added Fixes #19597
+Fix TokenOrIdentifierObject.getText() crash (#19673)
+Fix the order of JSDocTag kinds
+Fix #102: More accurate error message for module in type reference (#19324)
+Fix declaration emit for `typeof` default export (#19471)
+Reload contents of file from disk irrespective of project presence and file already containing its own text Fixes #19336
+Fixed tsserverlibrary.d.ts tests
+Set the files found during node_modules search correctly when reusing existing program structure This marks files reused correctly as from external library resulting in not using them for files to be emitted and computed for output structure Fixes #19327
+Fix build break (#19431)
+Fix lint (#19387)
+Fixup line and offset of rename location of refactor (#19265)
+Fix getParameterSymbolFromJSDoc
+Fix "noStringLiteral" lint errors (#19310)
+Fixed incorrect insertSpaceBeforeFunctionParenthesis behavior on functions with type-arguments
+Fix undefined error using `getEffectiveTypeRoots` (#19300)
+Fix https://github.com/Microsoft/TypeScript/issues/19270: ensure output name is a valid locale name (#19308)
+Fix lint
+Fix tsc-instrumented
+Fix bugs in jsdoc annotation refactor
+Fix #19257: Ensure a generated signature has a return type (#19264)
+Handle when directory watcher is invoked on file change Fixes #19206
+Fix lint
+Do not watch root folders for failed lookup locations and effective type roots Fixes #19170
+Fix generated name scope when emitting async functions
+Fix instantiated generic mixin declaration emit (#19144)
+Fix for-in emit under systemjs (#19223)
+Add getCompilerOptions method to project Fixes #19218
+Fixed api reference tests
+Fix spacing lint
+Fix duplicated JSDoc comments
+Fix the way configured project's reference is managed so that the open file
+Fix lint
+Fix lint error
+Fix incorrect cast target (#19093)
+Handle case sensitivity when looking up config file for Script info Fixes #17726
+Replace more 'verify.rangeAfterCodeFix' with 'verify.codeFix' (#18800)
+Handle the case of completion of class member when member name is being edited Fixes #17977
+Fix invalid cast (#18821)
+Fix 'this' capturing for dynamic import
+Fix Array.{reduce,reduceRight} methods (#18987)
+Fix recursive reference in type parameter default
+Handle the case when finishCachingPerDirectoryResolution is not called because of exception Fixes #18975
+importFixes: Remove unnecessary undefined check (#19045)
+Fix emit for classes with both fields and 'extends null'
+Fix linting error in new function
+Fix semicolon lint
+Merge pull request #18969 from Microsoft/uncalledDecoratorQuickFix
+Let builder find out from imports/typereference directives if file references have changed. This is needed to ensure that the ambient module addition takes effect Fixes #15632
+Do not report config file errors if the file opened isnt from configured project and that project doesnt have the config errors Fixes #16635
+Fix whitespace around inserted property initializer
+Fix whitespace around inserted static property
+Fix location of generateLocalizedDiagnosticMessages.js (#18923)
+Fix parsing of qualified name in @augments (#18914)
+Fix `gulp lint` (#18921)
+Fix acquiring format options for getEditsForRefactor (#18848)
+Fix crash when extending non-EntityNameExpression (#18853)
+Fix bug: Report errors on `extends` expression in JS even if an `@augments` tag is present (#18854)
+Merge pull request #18806 from armanio123/FixScriptBlockFormatting
+Fixes to @augments handling (#18775)
+Fixed formatting on script blocks, added regrestion tests, fixed minor bugs
+Fix crash when @augments tag has no type (#18739)
+Fix getSourceFile return type (#18689)
+Fix formatting when keyword is parsed as part of a JSX identifier (e.g. `module-layout`) (#18598)
+Fix unittest parallel reporting (#18583)
+Fix property access bug instead by wrapping entire access in brackets Modify parenthesizeExpressionForExpressionStatement to add brackets around an expression statement in which the left-most expression is an object literal.
+Merge pull request #18192 from armanio123/FixExpressionExpectedAtEOF
+Fix broken test
+Fixed formatting for multiline initialization of object and class members (#18494)
+Fixes to emit / format for codeFix (#18484)
+Merge pull request #17415 from armanio123/FixRenameInDefaultLibrary
+Fixed sourceFiles type error
+Merge branch 'master' into FixRenameInDefaultLibrary
+Fix:Instantiate javascript constructor signatures
+Merge pull request #18426 from amcasey/FixBaselines
+Fix fourslash baselines
+Fix fourslash tests
+Fix forEachChild's visit of JSDocTypedefTag
+Fix build break
+Update `fromCodeFixContext` (#18290)
+Fix lint issues
+Fix 18224 (#18259)
+Fix jsdoc lint
+Fix linting errors
+Fix signature help
+Fix extract method for anon class expressions (#18168)
+Fix RWC - use replayLog, not recordLog (#18095)
+Fix typo in comment
+Fix TypeScript printer bug when encountering regular expression literals
+Fix crash in name resolution with custom transforms and emitDecoratorMetadata
+Fix crash when attempting to merge an import with a local declaration (#18032)
+Fix issue #16803 do not error on getters/setters (#18031)
+Fix crash when exporting class without name
+Fix instrumenter target + deprecation warning (#17973)
+Fix copy-paste error
+Fix lint errors
+Fix to use correct target type ID
+Fix name capture logic
+Fix tests that had syntax errors with empty object literal property accesses
+Fix stack overflow when resolving default construct signatures (#17878)
+Fix empty object literal property access
+Fix #17069 and #15371
+Revert "Fix getConstraintOfIndexedAccess"
+Fix #17069 and #15371
+Fix linter issues
+Fix lint errors.
+Fixed failing tests and lint. Added unit tests.
+Fixes to session's handling of empty results (#17728)
+Merge pull request #17750 from Microsoft/importFixInferQuote
+Fix runtests-browser with latest node (#17735)
+Fix many no-object-literal-type-assertion lint errors (#17278)
+Simplify `assignTypeToParameterAndFixTypeParameters` (#17706)
+Fix type predicate index in error reporting
+Fix outlining of objects in array
+Fix import addition location (#17327)
+Fix 16628: "undefined" exception when name of binding element in binding pattern is empty (#17132)
+Fix parsing of globalPlugins and pluginProbeLocations: Don't include empty string (#17143)
+Fix logging of module resolution errors (#17144)
+FileWatcher - handle empty directory path as the current directory Fixes #14559
+JSDoc Instantiation Fixes (#17553)
+Merge pull request #17455 from Microsoft/mappedTypeFixes
+Fix find-all-references for destructured getter (#17483)
+Fixes CR comments
+Fix runtests-browser in gulp, including RWC, remove into-stream (#17540)
+Fix bad parameter comment (#17496)
+Fix the errors in branch after port of #17469
+Merge pull request #17474 from Microsoft/quickFixLeftOfPropertyAccess
+Fix tests
+Merge pull request #17462 from Microsoft/codeFixForErrorForPropertyOfTypeAsType
+Fix #16778 - use previous type and not declared type (#17381)
+Properly check mapped type constituents / Fix generic mapped type display
+Fix infinite loop in jsdoc parsing (#17420)
+Fix typo: Infered -> inferred (#17417)
+Fix for loop which retains jsdoc behaviors
+Fix quote styles to match
+Merge pull request #17257 from armanio123/FixNodeModulesTodos
+Fix exceptions on empty tuple errors (#17311)
+Fix linter (#17312)
+Fix typeOperatingSpacingRule:use ReadonlyArray
+Fix configure-nightly script to match new contents of core.ts (#17014)
+Fix #17023 (#17180)
+Fix lint
+Fix error message
+Fix bug in importTracker: `getExportNode` must verify that we are on the LHS of a VariableDeclaration (#17205)
+Fixes the fourslash runner tests by handling hosts that cannot support read directory or getDirectories
+Fix case where we can return [undefined]
+Fix comment behavior in remove unused named bindings
+Fix caret update logic in fourslash tests
+Fix typo (#17064)
+Fix call to getCodeFixesAtPosition (#17063)
+Fix typo (#16826)
+Fix scope of @typedef references (#16718)
+Fix gulp & types for gulp to 3 (#16771)
+Fix missed lint error
+Preserve method comments in JS->ES6 conversion. Fixes #16622
+Also check TypeAlias for unused type parameters Fixes #15208
+Use the same logic of getting current directory as the one used when emitting files through project It means we would use currentDirectory as project Root or script info's directory as the current directory Fixes issue reported in https://developercommunity.visualstudio.com/content/problem/57099/typescript-generated-source-maps-have-invalid-path.html
+Show public/private/protected/readonly when looking for constructor parameter and otherwise parameter declaration or property declaraiton should result in no completion Fixes #15937
+Fix #16521: mark thisArg as optional in typed array map function (#16526)
+Fix class extends+decorator with new class emit
+Fix constructor instantiation with defaults
+Fix grammar check for empty type argument list and compiler crash
+Merge pull request #16309 from aozgaa/codeFixPrefixUnused2
+Fix reference to isTypeParameterDeclaration in services
+Fix comments
+Fix escaping and follow symbols for element access
+Fix #16367: remove const modifier from tsserverlibrary.d.ts (#16381)
+Fixed up comments.
+Fix lint failure (#16338)
+Fix parameter emit for synthetic function types
+Fix typo in getTypeReferenceType
+Fix fourslash test
+Fix fourslash tests
+Fix fourslash tests
+rename codeFix
+Fix emit when type import merges with local value
+Fix breaking tests
+Fix for..await emit for es2017
+Merge pull request #16045 from aozgaa/codeFixAddMissingMethod
+importFixes: Support missing "React" at a JSXOpeningElement (#16066)
+Fix linting
+Merge branch 'master' into addCodeFixMissingMethod
+Fix issue with 'for await' over a union type
+Fix equals
+Fix linting
+Fix build breaks with the instrumenter
+Fix lint
+Fix the build break of typings installer
+Fix react tests w/incorrect weak type assignments
+Fix emit duplicate comment
+Fix the issue 15232 (#16004)
+[Master] Fix 15179 missing comment in switch case clause (#16033)
+Fix typo: symbol -> parentSymbol
+Fix linting errors
+Fix fourslash test
+Fix missing initializers
+Fix path in importDeclTypes.ts test (#15992)
+Fix use of getTokenAtPosition to use updated signature
+Fix updateTypeAliasDeclaration call
+Fix #15540: Throw error when importing @types (#15866)
+Fix #15463: use intersection types to emulate spread in generic react  components (#15851)
+Fix issue with throw in async delegator.
+Merge pull request #15805 from Microsoft/Fix14661
+Merge pull request #15744 from Microsoft/CompileOnSaveFixInResolveModuleName
+Fix bug for goto-definition on a TSX constructor using an alias declaration
+Fix lint
+Merge pull request #15704 from Microsoft/Fix15062-2
+Fix #15062: report errors for parameter properties in private constructors
+Fix linting error
+Revert "Fix lint"
+Fix var emit order for converted loops
+Fix lint
+Fix case of suggestion blacklist.
+Merge pull request #15542 from aozgaa/importFixesOrganization
+Fix formatting for async computed method: Allow space between 'async' and '['
+Fix over agressive async delegation
+Fix failing transpileModule test
+Fix issues raised in PR review
+Fix semicolon lint
+unusedIdentifierFixes: Factor out nested switch statements and fix implicit fallthrough
+importTracker: Fix error for undefined importClause
+Fix declaration emit for string valued enum members
+Fix type-to-string handling of enum literal types
+Fix block-scoped enum declarations
+Fix baselines and function call from merging master
+Fix class name emit in ES5
+Fix visitEachChild for signatures
+Fix lint
+Fix linting
+Fix null error in importTracker: VariableDeclaration might not have a VariableStatement ancestor
+Merge pull request #15283 from Microsoft/Fix15237
+Merge pull request #15296 from Microsoft/Fix15224
+Merge pull request #15260 from Microsoft/Fix15200
+Fix spelling and add comment
+Fix loop block scope binding in generator
+Fix lint errors
+Merge pull request #15229 from Microsoft/Fix15220
+Use base tsconfig's compileOnSave option if tsconfig.json doesnt have it specified Fixes #13910
+Fix downloads badge (0/month)
+Fix yield* as well
+Fix globalPlugins TSServer Flag
+Fix baselines and linting error from merging with master
+Fix linting error
+Fix failing fourslash test
+Fix #15184: Use `void` and not `undefined` for `this` parameter types in the library
+Fix merge
+Fix linting error
+Fixing consuming whitespace in children
+Fix down-level emit for captured loop variable in async function
+Fix issue that randomly closes configured projects (#15080)
+Fix callback types to match covariantly
+Fix path escaping and slash normalization
+Fix regex for real this time
+Fixes
+Fix excess property check with empty target object type
+Fix Headers interface
+Fix failing test
+Merge pull request #15021 from RyanCavanaugh/lintFixes
+Fix linting error
+Fix whitespace lint
+Fix linting error
+Fix options for typedef-whitespace lint rule
+Merge pull request #14100 from Microsoft/BowerComponentsFix
+Fix the name of protocol.ts in tsconfig.json (#14918)
+Merge pull request #14900 from Microsoft/Fix14892
+Fix AMD emit
+Fix #14892: Add undefined check before using the intializer of for-statement
+Fix #14346
+Fix where we report noImplicitAny error in dynamic import
+Fix deeply nested type check
+Fix #14620: Lookup names in exports as well as locals when binding special properties
+Fix type of HeritageClause#types
+Fix parent type of JsxAttributes
+Fix lint scripts
+Fix `gulp runtests-browser`
+Fix typo
+Fix lint errors
+Fix up incorrect system emit
+Fix bad merge
+Fix deep clone
+Fix missing import call expression in function and class declaration
+Fix up error when we can't find promise type in import call expression
+Merge pull request #14568 from Microsoft/checkJSFiles_QuickFixes
+Merge remote-tracking branch 'origin/updateCodeFixForAddMissingMember' into checkJSFiles_QuickFixes
+Fix Per Request Cancellation Tokens
+Fix building webTestServer
+Fix tslint compilation in gulp
+Fix more gulp.dests to use the relative path of the tsconfig
+Fix typo
+Allow the right-hand side of an 'in' expression to be of non-primitive object type. Fixes #14269
+Fix fourslash test
+Fix JsDoc tagname in tests
+Fix gulp-typescript usage now that it is set to latest
+Fix for-await-of emit in async function
+Fix #14136: Make `Object.create` return `any` all the time
+Fix formatting
+Fix TypeError when JSDoc.tags is undefined (see #14362)
+Fix emit for downlevel generated catch variable
+Fix comment
+Fix linting error
+Merge pull request #14158 from aozgaa/QuickFixPeriods
+Fix compile errors
+Fix #14171: Recognize property assignements to `module.export` aliases as exports
+Fix for-await-of emit in async function
+Merge pull request #14162 from Microsoft/Fix14136
+Fix #14136: Make `Object.create` return `any` all the time
+Fix linting
+Merge pull request #14097 from aozgaa/MissingPropertyFix
+Merge branch 'master' into MissingPropertyFix
+Fix and consolidate tsx rename tests
+Fix downstream use
+Merge pull request #13996 from Microsoft/UnsupportedExtensionsFix
+Merge pull request #13936 from Microsoft/FixObjectCreate
+Merge pull request #14055 from aozgaa/UnduplicateAbstractMethodCodeFix
+Fix failing tests
+Fix lint failures
+Merge branch 'master' into FixObjectCreate
+Fix jsdoc typedef symbol scope + avoid bind twice if the tag has a jsdoc namespace
+lib: Fix documentation of String.replace first parameter.
+Fix "semicolon" lint rule options (was not enabled)
+Fix typo
+Merge pull request #13983 from Microsoft/lintFixes
+Fix lint failures detected by tslint@4.4.2
+Fix comments
+Fix assigned type of assignment nested in literals
+Fix #13932: Change the order of overloads and allow union for `Object.create`
+Fix linting
+Fix linter error
+Merge pull request #13831 from zhengbli/importFixCasing
+Fix casing in import quick fix
+Merge pull request #13806 from Microsoft/Fix13789
+Fix typo causing bug
+Fix duplicate identifier reporting in classes
+Fix isSymbolInScopeOfMappedTypeParameter to include mapped types
+Fix typo
+Fix positionToLineOffset conversion for getImplementation
+Fix linting error
+Fix tests
+Fix Symbol.valueOf method signature
+Fix typo in intersection apparent type
+Fix error reporting bug
+Fixes formatting
+Fix regressions
+Merge pull request #13585 from Microsoft/Fix14036
+Fix https://github.com/DefinitelyTyped/DefinitelyTyped/issues/14036:
+Use the value symbol for decorator purpose only if it is same as typesymbol Fixes #13155
+Fix linting error
+Mark as referenced aliases in Union that will get emitted as part of decorator metadaa Fixes #13449
+Fix circularity check, simplify default type mapper
+Fix incorrect return type
+Fix bug for constructor with modifier
+Fixing default typeRoots on Windows
+Fix typo
+Fix tsconfig inheritance in gulpfile -- must do it manually
+Fix one more use of `createMapFromTemplate`
+Fix type relations for 'keyof T' type where T is union or intersection
+Fix linting
+Fix test
+Fix gulp-typescript version
+Fix --project help
+Fix name: `mapEntries` is more accurate
+Merge pull request #13287 from zhengbli/importFixExtendedTsconfig
+Fix super/this capture for extends null
+Fix the emit when jsx attribute expression is empty Fixes #12994
+Fix Gulp build of tsserverlibrary to match Jake.
+Fix homomorphic type check in instantiateMappedType
+Merge pull request #11547 from Microsoft/interfaceFixes
+Merge pull request #13233 from Microsoft/FixTestFailure
+Fix test failure resulting from bad merge
+#13063 Fix strictNullChecks breaking typeof
+Merge pull request #13189 from Microsoft/Fix12724
+Fix UMD header to work with r.js
+Fix non-thenable check for IndexedAccess types
+Fix #1809, introduce non primitive type
+Update current scope when visiting namespace elements Fixes #13098
+Do not report error on unused removed property from object spread Fixes #13076
+Fix issue 12218 and linter error
+Add serialization of typenode for null/undefined/never as part of metadata type Fixes #12684 and #11933
+Fix tslint version
+Fix condition in onSubstituteNode
+Fix __awaiter helper for IE8 compat
+Merge pull request #12893 from Microsoft/capturedThisFix
+Merge pull request #12898 from Microsoft/NavigateToFixForIIFE
+Merge branch 'master' into interfaceFixes
+Merge pull request #12897 from Microsoft/Fix12316
+Fix https://github.com/Microsoft/TypeScript/issues/12316: Add `method` to known tag names
+Fixed jsDoc parser - no longer omits asterisks in the middle (if the line does not start with asterisk) and additional case for whitespaces being ignored
+Fixed missing whitespace in jsDoc comments. Fixes https://github.com/Microsoft/TypeScript/issues/12236
+Merge branch 'master' into interfaceFixes
+Merge branch 'master' into interfaceFixes
+Fix paramtypes metadata emit
+Do not report unused local error on locals that are intended for removing properties with object spread Fixes #12766
+Fix error on extends in declaration file with importHelpers
+Fix target error for gulp
+Fix await for inherited promise
+Fix decorator emit for accessors
+Fix merge issues
+Write property name of destructuring pattern explicitly There wont be any symbol for the property name but we already know it is a property name Fixes #12166
+Merge branch 'interfaceFixes' of https://github.com/Microsoft/TypeScript into interfaceFixes
+Merge branch 'master' into interfaceFixes
+Fix elided syntax kinds falling through to visitConstructor in TypeScript transformer.
+When creating string literal for property access, unescape the identifier text Fixes #12562
+Handle parameter type error for index signature in declaration emit Fixes #12572
+Fix function name
+Merge branch 'master' into interfaceFixes
+Fix multiple 'keyof' issues with 'for-in' and 'in' operator
+Merge pull request #12434 from Microsoft/Fix12377
+Instead of creating clone of the jsxFactory's leaf node, create synthesized node Fixes #12467 This avoid setting original node which would be something from isolated parsing and hence not valid when resolving expression
+Instead of creating clone of the jsxFactory's leaf node, create synthesized node Fixes #12467 This avoid setting original node which would be something from isolated parsing and hence not valid when resolving expression
+Merge pull request #12431 from Microsoft/rwcFixes
+Fix lint errors
+Fix comparable relation for keyof T Treat keyof T as string | number for purposes of indexing Allow indexed access types with for-in and in operator
+Fix issue #12260.
+Handle when type alias's type parameter extends type that wont get emitted in .d.ts Fixes #12326
+Handle the scenario when heritage clause of interface is not entity name expression Fixes #12291
+Fix lint warnings
+Fixes error message when Type is used as a Namespace
+Merge branch 'master' into interfaceFixes
+Fix grammar issue (#12096)
+Merge branch 'master' into interfaceFixes
+Fix argument list for new containing yield
+Fix spread/rest emit for symbols.
+Fix missing alias for decorated classes in es5
+Fix handling of default class
+Fix typo and capitalization
+Fix string constituent check in checkElementTypeOfArrayOrString
+Fix extends -> implements for decorators/modifiers
+Fixes for object spread emit
+Fix test
+Fix #442: (es3, es5, es6+) Show compiler errors for conflicting properties.
+Fix test
+Fix duplicate function error
+Merge branch 'master' into interfaceFixes
+Fix Type Param method Tests
+Test Fixes
+Fixing wrong line number in tests/baselines/reference/variableDeclarationInStrictMode1.errors.txt after rebuilding and testing compiler.
+Accept baseline tests. Fixing `diagnosticMessages.json` (merge result not included in prior commit).
+Fix linting errors
+Fix lint
+Mark property referenced in the destructuring as referenced Fixes #11324
+Fix #11396: Make error message referene `Promise` explicitly (#11982)
+Fix 'keyof any' to produce 'string | number'
+Merge branch 'master' into interfaceFixes
+Fix linting errors
+Refactor fourslash testing for codeFixes
+Report all the js file errors and skip only the nodes that are not allowed in js Fixes #11800
+Fix realPathMap in test harness: Must be used in `directoryExists`
+Add removeAbstractModifier Fix
+Simplify getCodeFixChanges
+Fix: test for presence, not absence
+Fix bug: We want to test for existence of the enum value, not whether it's non-zero
+Fix bug: Return a resolution diagnostic for a `.jsx` import if `--allowJs` is turned off
+Move codeFixProvider.ts
+Split CodeFixes in Separate Files
+Merge branch 'master' into interfaceFixes
+Fix #10108 (Completion suggestion for object literal with getter) (#11808)
+Remove Type Assignability QuickFix
+Fix the AV resulting from presence of undefined in the jsDocPropertyTags Fixes #11703
+Fix #11545 ('export as namespace foo' occurs EOF without semicolon) (#11797)
+Fix 'import a = A' case
+Report error on unused destructured parameters Fixes #11795
+Fix #11650 add an error message for no source files parsing a tsconfig.json (#11743)
+Fix #10967, allow boolean flags to have explicit value (#11798)
+Perform a useful comparison. Fixes #11805
+Check type parameters of the type alias declaration Fixes #11166
+Allow unused locals in for in or for of that start with _ Fixes #11734
+When creating react namespace identifier, set its parent to jsx opening element in the parse tree This helps in resolving the react identifier correctly and Fixes #11654
+Fix #11660: wrong reports that block-scoped variable used before its … (#11692)
+Fixes #10624
+Mark local "react" symbol as referenced since it might not be marked if there was no error message being displayed Fixes #10312
+Fix lint error
+Fix for issue #442
+Fix for issue #442
+Fix issues from merge
+Fix emit issue regarding null/undefined in type annotations
+Fix-ups around formatting and assertions
+Merge branch 'master' into interfaceFixes
+Fix the Function interface (#11269) (#11293)
+Fix test
+Fix bug in scanner
+Fix lint
+Merge pull request #11511 from Microsoft/FixImportListCompletions
+Fix typo
+Fixed errors with overloaded method exports
+Merge branch 'pvb/codeaction/api' into interfaceFixes
+Fix minor issue
+Fix #10758 Add compiler option to parse in strict mode
+Fix #10758 Add compiler option to parse in strict mode
+Fix #10758 Add compiler option to parse in strict mode
+Fix issue in control flow analysis of nested loops
+Narrowed consts flow through object literal or class expression method Fixes #10501
+Fix test failure
+Fix array conditional
+Fix lint warnings.
+Fix some minor issues
+Merge pull request #11328 from Microsoft/FixTripleSlashCompletions
+Fix linting issues
+Fix syntax error in __awaiter when running in ES3
+Do not get return type from contextual signature if we are already in process of getting return type of it Fixes #10073
+Fix #11314: Expose `insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces` and `insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces` on protocol definiton (#11405) (#11410)
+Merge branch 'master' into FixTripleSlashCompletions
+Fix incorrect returning of completion entries when in string literal of property assignment expression Fixes #11232
+Even in javascript files when creating completion entry from symbols we need to perform identifier check Fixes #11217
+For union or intersection types use constituent serialized type if its same for all of the constituent types Fixes #10809
+Handle the require call in javascript file for getSymbolAtLocation This helps in getting the alias symbol so that it can go to the definition of external module Fixes #9251
+Bind the source file as external module only if not already done Return type of require call is from external module resolution only if it doesnt resolve to local module Fixes #10931
+Merge branch 'master' into FixTripleSlashCompletions
+Fixed a comment
+Fix tests changed by #11309
+Merge branch 'master' into FixAbsoluteTripleSlashCompletions
+Fix capitalization of lsHost
+Fix gulp-typescript to 2.14.1 untill gulpFile.ts is migrated. (#11290)
+Fix crash with nested generators
+Merge branch 'master' into FixAbsoluteTripleSlashCompletions
+Merge branch 'master' into FixAbsoluteTripleSlashCompletions
+Fix linting issue
+Fix fragment handling
+Fix tests
+Fixed fourslash test.
+Merge pull request #11191 from Microsoft/JSCompletionCommitOnEnterFix
+Fix misleading error TS2410 from issue #10601
+Merge branch 'master' into FixAbsoluteTripleSlashCompletions
+Merge branch 'master' into FixAbsoluteTripleSlashCompletions
+Merge branch 'master' of https://github.com/Microsoft/TypeScript into JSCompletionCommitOnEnterFix
+Merge branch 'master' into FixAbsoluteTripleSlashCompletions
+Fix  error when compiling with declarations
+Fix missing visit of expression in for..of
+Fix some issues with module ES6/target ES5
+Fix downlevel async hoisting
+Merge pull request #11069 from Microsoft/FixNPMLocation
+Merge branch 'release-2.0.5' into FixNPMLocation
+Fix #10002: add dom.iterable to supported lib values
+Fixup
+Merge pull request #10962 from johanssj/Fix10949
+Fix Reflect has method signature(s) per issue #10949 initial report
+Fix build break: difference result from treating things as literal type
+Merge pull request #10917 from Salasar/Fix10843
+Fixing formatting
+Merge pull request #10928 from Microsoft/addTestFix10625
+Fix super in down-level async method
+Fix test issues due to an out of order merge
+Fix issue 10843
+Fix merge conflict
+Merge pull request #10902 from Microsoft/FixIOCapture
+Fix build error caused by merge
+Fix lint
+Fix both new enum assignability predicates
+Fix lint
+Fix both new enum assignability predicates
+Fix build tasks for iocapture
+Fix captured block scope variables in downlevel async.
+Fix missing final label.
+Fix missing asteriskToken for target=es6/module=amd.
+Fix issue with helper emit.
+Fix lint
+Fix ECMA-402 declarations (issue #10618)
+Fix {Map,WeakMap}.prototype.set method signatures (#10694)
+Fix typescript and tslint versions
+Fix line endings
+Fix deferred export of array binding pattern
+Fix classifier as well.
+Fix both new enum assignability predicates
+Fix fourslash test
+Fix tests
+Fix duplicate baselines
+Fix bug: return `undefined`, not `false`
+Fix versions of TS and tslint
+Merge pull request #10757 from Microsoft/Fix10755
+Fix #10755: remove uses of `package` as an identifier name
+Fix the TS version to 2.1.0-dev.20160906 to avoid build break in tslint untill a new package is released
+Fixing the fix
+Fix merge issue
+Port #10728: Fix #6500
+Fix #6500 (#10728)
+Fixed issue where last function context & parent node wasn't being preserved.
+Fix linting error
+Fixing unit tests, lint errors & addressing CR feedback
+Fix error from merging
+Fix fourslash tests
+Fix lint errors
+Fix existing TypingsInstaller tests
+Fix remaining call to use `unorderedRemoveItem`
+Merge pull request #10661 from Salasar/Fix10618
+Fix RWC Runner to report both .types and .symbols errors (#10513)
+Fix compile on save issues (#10615)
+Fix 10408 : Better error message for set/get with noImplicitAny error (#10597)
+Fix build break caused by merge from master
+Fixing errors and adding a fourslash test
+Fix crash when checking module exports for export=
+Fix issue when building dependency graph for files with circular refs (#10514)
+Fix 10472: Invalid emitted code for await expression (#10483)
+Fix class/interface merging issue + lint error
+Improves Promise type definition. Fixes #4903
+Fixing regex for triple slash references
+Fix tests
+Fix RWC Runner (#10420)
+Fix comment
+Fix 10289: correctly generate tsconfig.json with --lib (#10355)
+Fix comment
+Fix link to blog
+Fix 10625: JSX Not validating when index signature is present  (#10352)
+Fix the style fix (#10344)
+Fix typo
+Fix processDiagnosticMessages script
+Fix single-quote lint
+Fix loop over array to use for-of instead of for-in
+Fix 10076: Fix Tuple Destructing with "this" (#10208)
+Fix non-strict-compliant test
+Fix instanceof operator narrowing issues
+Fixing the filtering of nested module completions
+SuperFix fourslash tests
+Fix lssl task (#9967)
+Fix more lint
+Fix lint
+Fixing shim and normalizing paths
+[Release-2.0] Fix 9662: Visual Studio 2015 with TS2.0 gives incorrect @types path resolution errors (#9867)
+Fix newline lint
+Fix linting error
+Fix lint error
+Fix #10083 - allowSyntheticDefaultImports alters getExternalModuleMember (#10096)
+Fix bug
+Fixing import completion spans to only include the end of the directory fragment
+Fix issue related to this and #8383
+Fix tests and merge
+Fix lint error
+Fix lint errors
+Fix test and rename a function
+Fixed broken singleAsteriskRegex. Fixes #9918 (#9920)
+Fix typo in comment for MAX_SAFE_INTEGER
+Fixed broken singleAsteriskRegex. Fixes #9918 (#9920)
+Fix linting errors
+Fix fourslash test
+Fix issue in getTypeDefinitionAtPosition
+Port Fix 9894 to master (#9896)
+Fix bug in binder uncovered by changes
+[Release-2.0] Fix 9829 : do not report error using import, export, module augmentation in d.t.s (#9894)
+[Release-2.0] Fix 9632 Auto-completion for quoted property in object literal expression (#9745)
+Fix #9843. IScriptSnapshot can return undefined
+Fixed up tests that used 'string[]' instead of 'TemplateStringsArray'.
+Fix several test failures.
+[Release-2.0] Fix 9782:  do not report blocked-scope-used-before-declaration error in ambient context (#9789) (#9830)
+[Release-2.0] Fix 9782:  do not report blocked-scope-used-before-declaration error in ambient context (#9789)
+Fix fourslash test
+Fix fourslash tests
+Port Fix9685 to master (#9788)
+Merge pull request #9784 from Microsoft/Fix9636
+Provide the complete path to tsconfig file. Fixes #9785
+Fix fourslash test
+[Release-2.0] Fix 9685: missing decoratedClassAlias emit in self-reference decorated class (#9763)
+Merge branch 'release-2.0' into Fix9636
+Fix #9636: Report unused type paramters only on last declaration
+Fix linting error (#9762)
+Fix a command example in help messages (#9747)
+Fixes capitalization (#9736)
+Fix endsWith bug
+Fix multiple Salsa assignment-declarations
+Fix `this` in harness and improve gulpfile defaults
+Fixed implicit any
+Fixed the node tracking and a harness bug
+Fix module tracking
+Fixed implicit any
+Fixed the node tracking and a harness bug
+Fix module tracking
+Fixed up tests that used 'string[]' instead of 'TemplateStringsArray'.
+Fix multiple Salsa assignment-declarations
+Fix #9550: exclude 'this' type parameters from unusedParameters checks.
+Fix #9550: exclude 'this' type parameters from unusedParameters checks.
+Merge pull request #9541 from Microsoft/Fix9531
+Fix #9531: account for async as an contextual keyword when parsing export assignments
+Fixing behavior of resolvePath
+Fix reading files from IOLog because previous our API captures (#9483)
+Fix PromiseLike to be compatible with es6-promise (#9484)
+Fix #9458: exclude parameters starting with underscore from unusedParamter checks
+Fix incorrectly-saved quote symbols in ThirdPartyNoticeText.txt
+Merge branch 'unusedIdentifierFixes-3' into release-2.0
+Merge branch 'release-2.0' into unusedIdentifierFixes-3
+Merge branch 'release-2.0' into unusedIdentifierFixes-2
+Fix #9402: Do not report unused identifier errors for catch variables
+Fix crash in async functions when targetting ES5.
+Fix 9363: Object destructuring broken-variables are bound to the wrong object (#9383)
+Fix type of the disableSizeLimit option
+Fixed the regexp for removing full paths
+Fixed bugs and linting
+Fix 8467: Fix incorrect emit for accessing static property in static propertyDeclaration (#8551)
+Fix 8355: Fix emit metadata different between transpile and tsc --isolatedModule (#9232)
+Fix 8549: Using variable as Jsx tagname (#9337)
+Fix bug where `exports.` was prepended to namespace export accesses
+Fix typo
+Fix lint
+Fix LKG useDebug task and newLine flag
+Fix excess whitespace issues
+Fix single-quote lint
+Fix case of gulpfile dependencies
+Fix object whitespace lints
+Fixed linting error
+Fix rwc-runner from breaking change in compiler (#9284)
+Fix case when a document contains multiple script blocks with different base indentations. Use the base indent size if it is greater that the indentation of the inherited predecessor
+Merge pull request #9176 from Microsoft/Fix9173-2
+Merge branch 'master' into Fix9173-2
+Fix linter warning
+Fix comment
+Merge pull request #9100 from Microsoft/Fix9098
+Merge pull request #9174 from Microsoft/Fix9173
+Fix #9173: clear out lib and types before creating a program in transpileModule
+Fix lssl task
+Fix run.js depending on the wrong local build target
+Fix typos in help text
+Fix bug: do unescaping in the right place, so that it only affects escaped javascript identifiers
+Fix decorator metadata emit for rest arg with no type
+Fixes runtests-parallel not reporting failure for failed tests.
+Fixes runtests-parallel not reporting failure for failed tests.
+Fixes an issue with runtests-parallel when global mocha is not installed.
+Fixed typo
+Fix #9098: report missing function impelementation errors for merged classes and namespaces
+Fix package.json casing
+Fix #8523
+Fixes an issue with runtests-parallel when global mocha is not installed.
+Fix merging issues and multiple project scenario
+Fix7334 Disallow async in functionExpression and ArrowFunction (#9062)
+Allow --sourceRoot with --inlineSources option Fixes #8445
+Fix sourcemaps for debugging tests
+Fix module loading error
+Fix comment
+Fixed typo
+Fix comments in tests
+Fix test helper
+Force LF newlines for LKG builds/non debug builds Fixes 6630
+Fix linting issues
+Fix test
+Fix typo
+Fix signature help
+Fix findIndex documentation.
+Fix fourslash test
+Fix mistake
+Fix merge issues
+Fix test
+Fix formatOnEnter for double newlines
+Fix broken test
+Fix various linter warnings.
+Fix unresolved merge issue.
+[Transforms] Fix diskFile0.js.map (#8848)
+Fix linting errors
+Fix test
+Merge pull request #8845 from Microsoft/Fix8834
+Fix typos
+Fix #8834: exclude paramters and variables from flag checks
+Fix localeCompare differences between node versions
+Fixing lint errors
+Fix localeCompare differences in node versions
+Fix lint errors
+Fix more tests
+Fix trailing whitespace
+Fix aggregation issue for namespaces
+Fix compiler issue after merge
+Merge pull request #8825 from Microsoft/Fix8795-1
+Fixing linter and test errors
+Merge branch 'master' into Fix8795-1
+Fix broken baselines
+Fix #8795: make properties defined in optional constructor paramters optional
+Do not resolve alias when getting symbol of import equal's right hand side Fixes #5501
+[Transforms] Fix projects sourcemaps (#8718)
+[Transforms] Fix other sourcemaps (#8721)
+Fixed whitespace
+Fixed diagnostic message wording
+Fix missing else statement
+Merge branch 'Fix8634'
+Merge branch 'master' into Fix8634
+Fix tests for PR #8732
+Merge pull request #8732 from Microsoft/Fix8729
+Fix #8729: Make JSON.stringify accept `null` and `undefined` replacers
+Merge pull request #8700 from Microsoft/Fix8692
+Fix subtype relationship for 'never' type
+Fix findIndex definition
+Merge pull request #8697 from Microsoft/Fix8694
+Fix #8694: check for singatures before calling a type empty
+Fix typo
+Fix lint errors
+Fix minor comment grammatical errors
+Fix issues after merge
+Fix getOccurances not picking up hte right file because of casing
+Fix message text for printNavigationBar
+Fix 8589: by appending "-1.0" pre-release version will be comparising by lexically comparison in ASCII sort order. (#8629)
+Fixing test
+Fix issue with emit flag reset in param initializers.
+Fix #8582: Add Error.prototype.stack definition
+Fix bug: getTouchingPropertyName does not return undefined, but it may return the source file node
+Fix source map emit for imports, accepts several baselines.
+Merge pull request #8509 from Microsoft/Fix8507
+Fix 8532: Correct source map output for computed getter of object literal
+Fix #7966: A non-anonymous type can still fail to have a symbol. For example, an intersection type.
+Fix source maps for arrow functions, comments in sourcemap writer.
+Fix #7590: Allow 'readonly' to be used in constructor parameters
+Fixes source map alignment for enums
+Fix 8482: Add Object.values and Object.entries  (#8538)
+Fix TypeErrors from decorated class emit.
+Merge pull request #8456 from Microsoft/Fix8415
+Fix minor comment typo
+Merge branch 'master' into Fix8415
+Fix 7304: show correct quickinfo on "this" in type position (#8508)
+Fix #8507: Consider UnknownSymbols values for import/export purposes
+Merge pull request #8481 from Microsoft/Fix8470-2
+Fixes space-tab indentation issues
+Allow module augmentations to add new top-level names. Fixes #8478
+Fix #8470: use ts.normalizePath before checking filename idenity
+Fix 8407: Allow (weak)map & (weak)set constructor when targeting ES5 using ES6 library (#8451)
+Fix 8262: allow unparenthesized parameter in async arrow-function (#8444)
+Fix #4808: Follow target symbols
+Merge branch 'master' into Fix8415
+Merge pull request #8450 from Microsoft/Fix8357
+Merge pull request #8449 from Microsoft/Fix8423
+Fix #8415: Add method declaration to contextually typed locations when searching for symbols
+Fix #8357: Remove optionality for the definition of `IteratorResult`
+Fix #8423: Remove undefined while getting the type of the first argument of then signature
+Fix error
+Fix fourslash test
+Merge pull request #8362 from Microsoft/Fix8338
+Merge pull request #8366 from Microsoft/Fix7611-2
+Fixing repro test
+Fix #7611: Add support for String Literal Types in find all refs and occurances
+Fix indentation for array items
+Fix #8338: add signatures to RegExp constructor accepting RegExp
+[Transforms] Fix emit comment in wrong position when transforms export declaration to require statement (#8321)
+Merge pull request #8314 from Microsoft/Fix8287
+Fix missing calling of export helper function in decorated class-declaration (#8319)
+Merge branch 'transforms' into Fix8287
+Fix #8287: handel ImportEqualsDeclaration correctelly
+Fix8256 (#8292)
+Merge pull request #8284 from Microsoft/Fix8271
+Merge pull request #8286 from Microsoft/controlFlowCacheFix
+Fix broken test
+Fix #8271: Add `undefined` type to index signatures
+Merge pull request #8266 from Microsoft/FixGlobalTSServerOprations
+Fixes offsets for decorated parameters.
+Fixes source map emit for synthetic constructors
+[Transforms] Fix 8157 (#8242)
+Do not report errors during contextual typecheck Fixes #8229
+Fix incorrect user defined type guard function in compiler
+[Transforms] Fix emit comment in synthesized function expression (#8234)
+Fixes issues with emit for ShorthandPropertyAssignments and exported namespaces
+Do not transform the emit of function with rest parameter unless declared in AST Fixes #7749
+Change the tests for typereference directive tests 11 and 12 to use module gen amd so they can emit correctly Fixes #8182
+Merge pull request #8210 from Microsoft/Fix8162
+Fix #8162 and #8173: Add root symbols to search in find all referecnes
+Fix debug failure in parser
+Fixes various source map emit issues
+Fix missing iterator in NodeList (#8199)
+Do not transform the emit of function with rest parameter unless declared in AST Fixes #7749
+Fix #8130: Do not fail if the resources for the specified locale does not exisit
+Assign the node to expression statement of variable so that it emits comments Fixes #8156 Tests fixed: - decoratorInstantiateModulesInFunctionBodies.ts - downlevelLetConst13.ts - es6ImportNamedImportDts.ts - es6ImportNamedImportWithExport.ts - exportedBlockScopedDeclarations.ts - exportNonInitializedVariablesAMD.ts - exportNonInitializedVariablesCommonJS.ts - exportNonInitializedVariablesSystem.ts - exportNonInitializedVariablesUMD.ts - privacyCannotNameVarTypeDeclFile.ts - privacyCheckAnonymousFunctionParameter.ts - privacyCheckAnonymousFunctionParameter2.ts - privacyImport.ts - privacyTopLevelInternalReferenceImportWithExport.ts - privacyVar.ts
+Fix declaration emit when first generic function type in type argument position specified using space
+Fixes source map emit for namespaces
+Parenthesize the fn or constructor type with type parameter when writing it in type argument Fixes #8105
+Fix source maps for rest params, class properties, parameter properties, and accessors.
+Fix baseline as it appears in the master branch Fixes #8098
+Fixed emit for decorated classes that eventually get exported.
+Merge pull request #8096 from Microsoft/Fix8066
+Fix the incorrectly assigned arrow expression trailing comments Fixes #8041
+Fix case of mocha TAP -> tap
+Fix the trailing comments for enum declaration Fixes #8045
+Fix the trailing comment emit for module declaration Fixes #8045
+Fix typo
+Fix the name when synthesized node is clone of auto generate identifier kind This fixes variable declaration created for default exported class without name Fixes #7875
+Fix finishFlow function and rename to finishFlowLabel
+Fix the AV when accessing edge on IE debugger
+Do not report error on implicityly any binding element if it is from parameter destructuring of private method Fixes #8002
+Fix existing tests baseline with modified error message
+Completion list of named imports shouldnt contain default export member Fixes #6124
+Fix new error in compilerRunner about function declaration in block scope
+Fix linting errors
+Fixing tests
+Fixing fourslash tests
+Fix for https://github.com/Microsoft/TypeScript/issues/4697, do not stop running the tests on the first failure
+Fixes comment emit for super property call
+Fix the git ignore so that browser test server is ignored
+Fixes detached comment emit for constructors
+Fixes issues that were causing runtests-browser to fail
+Fix rwc (#7895)
+Merge pull request #7923 from Microsoft/Fix7922
+Fix #7922: Only bundle if module==AMD or module==System
+Revert to old emit for metadata. Also adds baselines support for transpiler tests. Fixes #7878.
+Fixes extra _1 in class names and auto-parentheses for comma expression in call/new. Fixes #7857. Fixes #7858.
+Fix literal property names
+Fixes extra parens around yield downleveled from await
+Destructuring of object binding pattern element without property name should reference property Fixes #6312
+Fixes indentation of object literals with computed properties
+Fixes comment emit for down-level accessor declarations.
+Fixes missing whitespace in modifiers
+Fix incorrect emit for JSX/React
+Fixed typo when computing transform flags for exponentation
+Fixes emit for exported namespaces in external modules.
+Emit "declare" for temp default var name only if declaration file emit context allows Fixes #7807
+Fixes indentation of class expression bodies with static initializers.
+Merge pull request #7713 from Microsoft/Fix7703
+Fixes some comment emit and other changes
+Fix == typo and add object literal 'this' test
+Fix parens for NewExpression
+Fix up baselines and missing , after merge
+Fix test failure by having correct case for the file-name
+Fix test failure by having correct case for the file-name
+Fix emit for modules and enums.
+Fix style and whitespace
+Fix some tests
+Fix issue with destructuring in for..of
+Fix lint failures
+Fix #7101
+Fix #7703: make arrow function span the first line instead of the whole function body
+Fixing some tests
+Fix remaining debug failures.
+Fix comment in test
+Fix issues in analysis of do..while and for..in/for..of
+Merge pull request #7688 from Microsoft/Fix7629
+Fix #7629: Check if errros are needed before reporting them in enumRelatedTo
+Fix overly aggressive optimization
+Fixes elision of import declarations in ES6 modules.
+Fix async method with super
+Fixed multiline block for async functions
+Fixed minor difference in string literal emit for AMD modules
+Fixes the various TypeErrors coming from some transforms.
+Fixes generated names and some formatting in system modules.
+Fix import binding substitution for AMD/CJS
+Fix extra slice in array with spread
+Fix missing commas in binding pattern emit.
+Fix unnecessary parens for omitted expressions and trailing commas in spread arrays
+Fix default class and function exports
+Fix #7637: treat jsx tag names as expressions
+Fix for amd-dependency paths
+Fixes order of amd-dependency imports
+Fix comment emit for import equals
+Fixing tests
+Fixes emit for async function declarations.
+Fixes issues with emit for cloned identifiers
+Fixes issue with variable declarations for modules
+Fix emit for accessors with missing bodies
+Fixes emit for module/enum and single-line arrow functions.
+Fix issue with find references for jsx tags
+Fixed perf issue in binder, plus PR feedback
+Fix project updateing issue after editing config file
+Fix failed tests
+Merge pull request #7532 from Microsoft/declarationEmitFixes2
+Merge pull request #7524 from Microsoft/rwcRunnerFixes
+Fix #7397: Remove error checks for noEmit and out* compiler options combined.
+Fix issue writing too many files asynchronuslly
+Fix linting error
+Fixed default import from export equals
+Fixed es2015 imports from export=
+Fix duplicate errors in JSDoc function types with anon parameters
+Fix shorthand properties for non-es6 module formats
+Fix issue with narrowing exported variables
+Fix bugs in reduceLeft and reduceRight
+Merge pull request #7392 from Microsoft/declarationEmitFixes
+Fix #4506: Remove assert to allow for invalid patterns already flagged erlier by the checker
+Fix #3810: Handel expressions in extends clauses
+Fix #5651: Get the correct meaning for expressions in extends clauses
+Fixed invalid assertion in ts transformer
+Fix #7173: Widen the type do the defualt export expression before writing it out.
+Fix unit test
+Fix #7362: check for --watchFile in tsconfig.json as well as on the commandline
+Fixes CR feedback
+Fixed labels
+Fixed typo in visitCallExpression
+Fixed visitJsxText, plus PR Feedback
+Fix failing JSDocParser tests
+Fix linting error
+Fix getTypeOfSymbolAtLocation to handle hypothetical lookups
+Fix linter comments
+Fixed linter warnings.
+Fixed linter warnings
+Fixed linter warnings, added comments and minor cleanup.
+Fixed typo in visitEachChild
+Fix WS linter errors
+Fixed issue with smartindenter
+Fixed issue with test dependencies
+Fix new linter warning.
+Fix for new linter warning
+Fixing lint issues caught by Travis CI build (Rules appear to be more strict - this was not caught on a local lint run)
+Fixes new implementation
+Fixes method and constructor top-level
+Fixes if statement
+Fixes typo
+Fixes linting issues
+Fixes outDir exclude
+No bold "Fixes"
+Fixes exclude options
+Fix lint errors
+Fix to test harness and addressing CR comments
+Fixed wording and updated tests
+Fix fallback to classic resolution
+Fixed up fourslash tests to only test functions.
+Fix rwc in including files into compilation
+Fixed watcher for rename operations, and for allowJs in config file
+Fixing comment
+Fix node_modules exclude
+Fixed up paths in fourslash tests
+Fixed up baselines
+Fixed linter error
+Fix emitted file extension for JavaScript files with JSX.Preserve
+Fixes typo
+Fix Stack Overflow and Gitter links in CONTRIBUTING.md
+Fix lastEncodedSourceMapSpan from being set to undefined
+Fix lint
+Fix typo in compiler reactNamespace error string
+Fixes bug #6673
+Fix free function bug in cachingInServerLSHost
+Fix case when position === 0
+Fix build error
+Fix for thisProperty
+Fixed typo in diagnostic message name
+Fix find all references for salsa
+Merge pull request #5870 from Microsoft/alternateFixSuperInAsyncMethod
+merge branch 'alternateFixSuperInAsyncMethod' into reservePromiseInTopLevelModule
+Merge branch 'master' into alternateFixSuperInAsyncMethod
+Fix up todo in jsdoccomment template code.
+Fix tests
+Fix 'includes' method in 'Int8Array'.
+Merge branch 'master' into alternateFixSuperInAsyncMethod
+Fixing fourslash test
+Fixing fourslash test
+Fix lint errors.
+Fix the getCanonicalFileName in sys.ts and also check null value in file watcher call back
+Merge branch 'master' into alternateFixSuperInAsyncMethod
+Fix issue #6478 (bug in the language services)
+Move emit helper flags to binder. Fixes #6113
+Fix for https://github.com/Microsoft/TypeScript/issues/6428
+Fix lint issue
+Fix whitespaces
+Fix find all refs in shorthand properties for imports and exports
+Fixed new linter warnings
+Fix lint in services/patternMatcher.ts
+Fix #6277 - stop looking for `any` specifically, and use isTypeSubtypeOf like the old code
+Fix breakpoints in object literal pattern destructuring assignment
+Fix ++/-- lint
+Fix lint issues
+Fix the breakpoint for comma expression
+Fix the breakpoint spans of call / new expressions
+Fixups for #6163.
+Fix the breakpoints in For Of destructuring
+Fix prefix double underscore with extra underscore
+Fix issue #5810 doubled comment on functions in array literals
+Fix merge error
+Fix the array binding pattern breakpoint span of variable declaration statement
+Fix fourslash range annotation
+Fix linter nits.
+Fix linting issue
+Fix up fourslash test
+Fix build error
+Fix linting issue
+Fix linting issue
+Fix broken tests
+Fix comment
+Fix linting
+Fixed unnecessary error in test.
+Fix lint
+Fix the temporary assignment source maps in a better way This doesnt create synthetic nodes with source map node on them And makes us determine what to put source map on for temporary assignments
+Fix declaration emitter scoping issue for type parameter constraints
+Fix too many watcher instances issue
+Fixed test to explicitly have return type annotation.
+Fix up for 'async'
+Fixed typos in comments
+Fix lint
+Fix issue: Confusing error message when calling value whose type is a union of types with call signatures
+Fix narrowing, interfaces. Expose issue with generic instantiation
+Fix for #5058 - Exclude implemented interface functions from autocompletion suggestions.
+Fix for issue #5947
+Fix linting errors
+Fix length check in typeArgumentsRelatedTo
+Fix union/union and intersection/intersection type inference
+Fix #5928 - Write line after shebang
+Fix typo in the spec
+Fix linter error
+Fix #5844 - add many new tests covering named/anonymous default exports
+Fix emit for type as expression
+Fix whitespace issues
+Fixes #5789.
+Fixes #5564.
+Fix where to report on error. Move from constructor node to just super node
+Fix crushing of getting signatureDeclaration when we are not in function declaration
+Fix linting errors
+Fix object type literal regression
+Fix the source map emit for decorators Handled #5584
+Fixed invalid code for binding expressions.
+When constructing signature, include parameter symbol instead of property symbol of parameter-property declaration Fixes #4566
+Fix class exports with varrying module emits while targeting es6
+Fix the sourcemap emit of lambda expression without return on another line Handles #5122
+Fix lint compliant
+Fix the --sourceRoot and --mapRoot option handling
+Fix TC
+Fixed comments.
+Fix merge problems from master
+Fix new and improved linter errors
+Fix linter error
+Fix issue #5444
+Fixed unreachable code in tests.
+Fixed comment.
+Merge pull request #5461 from Microsoft/contributingLibFixes
+Fix description of '--pretty'.
+Fixed 'tsconfig.json' ordering.
+Fix `isConstructorParameter`
+Fix handling of escaped characters in string
+Fix #5430: Use FileMap instead of a simple Map for storing file list in tsserver
+Use resolvedSymbol instead of mergedSymbol. Fixes #5333.
+Fixed ordering for lib.es6.d.ts.
+Fix union types of variadic functions
+Fix check for excess properties in union and intersection types
+Fixes issue in emitExpressionIdentifier when combining --target ES6 with --module. Fixes #5315.
+Fix issue: can't add a file back to a configured project after being deleted once
+Fixups.
+Merge pull request #5290 from Microsoft/interfaceClassMergingFix
+Fix comments
+Fixed linter error
+Switched switch statement to if branches. Fixes #5229.
+Merge pull request #5262 from zhengbli/Fix5127CR
+Fix lint errors
+Fix rwcRunner
+Fix issues with removing roots
+Fix the duplicate function implementation error that depended on order of files
+Fixes #5104.
+Fix the lint error
+Verify the emit file name is unique and doesnt overwrite input file Fixes #4424
+Fixup comments
+Fix case for completion on the line after a self-closing element
+Fix i4684
+Fix lint: remove trailing whitespace on empty line
+Fix this.member completion+quickinfo of overloads
+Fixes some checker errors regarding async functions. Fixes #5115.
+Fix linter warnings.
+Fix emit for ES6 export default class with static initializers. Fixes #5136.
+Fixes instance of type exclusion in else clause
+Fix tslint error
+Fix emitting parenthesis when downlevel
+Fixing few code review comments
+Fix jakefile rules build
+Fixed issue in test.
+Fix linter errors
+Fix lint error that was commited
+Merge pull request #5042 from zhengbli/FixFloat32ArrayInLib
+Fix the bug turning Float32Array type to any
+Fixed unnecessay whitespace changes
+Fixed #5032: tsserver: Format on type broken
+Fixing comment and error message per CR feedback
+Fixed duplicate diagnostic codes.
+Fixed links to spec in the README.
+Fix jake task, style/const in script.
+Fix capitalization of minimumintegerDigits
+Fix documentation
+Fix import/export assignment checks to look at module kind rather than language version
+Merge pull request #4774 from Microsoft/iocaptureFixes
+Merge branch 'master' into iocaptureFixes
+Merge branch 'master' into iocaptureFixes
+Fix some comments
+Fix #4727: prerocess `export import` declarations correctelly
+Merge pull request #4656 from Microsoft/Fix4655
+Fix issue #4603
+Merge pull request #4631 from Microsoft/formattingFixesFromMaster
+If Type annotation is missing, emit design:Type as Object Fixes #4549
+Fixing fourslash tests
+Fixing fourslash tests
+Fixes fallback checks that cause an exception during call resolution for an async function
+Fix occurrences on `this` in class expressions Fix #4479
+Fixes declaration emit for a class that extends null
+Fixes declaration emit for a class that extends null
+Fix inconsistent line endings in lib.d.ts
+Fix issue when the newly added files in tsconfig is not opened
+Merge pull request #4394 from Microsoft/browserifyFix
+Instead of writing text from source file use text property to write text of synthesized node Fixes #4364
+Resolve the decorator type as type and check if the symbol has value. This would make sure we are referencing correct symbol to check if it has value Fixes #4239
+Fix React whitespace emit #4376
+Fixed spelling
+Fixed newlines, switched 'module' keyword to 'namespace'.
+Fix documentation for methods of the 'String' interface.
+Fix space
+Fix null reference in type parametr of type alias
+Fix File constructor
+Fix document.open return type
+Fix #4170, remove error when using import=require syntax in t=ES6 and in ambient context
+Fix #4274: When collecting linked aliases use SymbolFlags.Alias to capture local aliases as well
+Fix ImageData constructor
+Fix #4277: Ensure we are passing refEnd and not length to findSourceFile.
+Fix bugs and add support for @param expressions
+Merge pull request #4276 from SaschaNaz/typeAssertionFormattingFix
+Fix comment
+Fix comments
+Fix #3912: emit declaration for binding elements correctelly
+Fix case where # occurs after > in JSX expression
+Fixed assignability bug
+Fix #4159: look up the type alias paramter within the context of the parent type alias declaration
+Fix #4194: emit type paramters in type alias declaration
+Fix mistyped `occurrence`.
+Fix #4025: report options diagnostics
+Fixing fourslash test
+Fix `occurance` typo.
+Fix new linter errors
+Fix as many linter errors as possible
+Fixed newline handling
+Fixed a comment
+Emit the helpers inside the module body Fixes #3655
+Fix issue with exit status by ensuring the same 'diagnostics' variable is reused.
+Offer JSX attribute intellisense between string-literal props and the closing tag. Fixes #4098
+Fixes renaming not affecting JSX closing tags (#4093)
+Fixed the comments and source map emit interaction. Fixes #4003
+Fix naming and update comment
+Fixed test message.
+Fix formatting glitches
+Fix jake lint with newest tslint
+Fixed spelling error
+Fix tslint issues
+Fix reporting an error on block-scope for module
+Fix crash when the element instance type was undefined
+Fix for issue #3932. Moved the null-check in emitSerializedTypeNode
+Fix for issue #3932, added null-check.
+Fixing fourslash tests
+Fix comment
+Fixed out of bounds error; made index start directly at the line number.
+Fix reading rwc file
+Fix fourslash test
+Fixing fourslash tests
+Fixes an issue when resolving a type name as an expression when emitting type metadata for decorators
+Fix CRLF
+Fixed #3887 tsserver drops responses
+Fixed tests.
+Fixed reporting of problems with tests.
+Fix comment spacing for readDirectory in shims.ts
+Fixed indentation
+Fix var->let that broke sourcemap baselines
+Fix let->var related errors, revert some lets
+Fix CRLF
+Fix jakefile
+Fix semicolon
+Fix file endings.
+Fix most tslint errors in the harness
+Fix occurrences in ClassExpressions
+Fix tests
+Merge pull request #3738 from SaschaNaz/parenIndentFix
+Fixing bug in test
+Fixed Testing
+Fixed conversion from forEach to for-of
+Fix merge mistake.
+Fixes spacing issue
+Fixes emit of type predicated in delcaration files
+Fixes fourslash code formatting
+Fix type parameters every time a parameter is assigned a contextual type
+Fix issue https://github.com/Microsoft/TypeScript/issues/3277
+Fix FormData constructor
+Fix the definition of interface ErrorEventHandler
+Fix bug #3737 (exported JSX classes props not validated)
+Fix up other React tests
+Fix comment
+Fix test.
+Fix comments
+Fixing first example
+Fixed/added test.
+Fix issue #3216
+Fix attribute completion following JSX exprs
+Fix rename for class expression
+Fixed generic abstract class inheritance and some comments
+Fix tabbing
+Fix build errors due to naive var->let replacement
+Fix assert with declaration emit for export specifier for a global
+Fixing up whitespace and semicolons
+Fix marker name.
+Fixed formatting spaces on default keyword
+Fixed coment.
+Fixed formatting spaces on protected keyword
+Fixes goto definitions for type predicates
+Fixed some error messages.
+Fixed order of arguments in error message
+Fixes #2632 (invoking methods on numbers)
+Fix the issue that the "out" path is not relative to the path of tsconfig.json
+Fix async function emit for lexical arguments
+Fix React emit for spread attributes when they are the first attribute
+Fix emit for boolean attributes
+Fix incremental parsing issue.
+Fix capitalization
+Fixes type predicate crash bug
+Fix line endings in program.ts
+Fix Intl.DateTimeFormat.format and Int.NumberFormatOptions signature
+Fixed some indentation issues
+Fix merge conflicts with master
+Fixes type predicate formatting
+Fix crash with unmet generic type constraints
+Fixed Some indentation
+Fix downstream crashes resulting from allowing module elements in a statement context
+Fix white space
+Fix heading level.
+Fixes CR feedback
+Fixes CR feedback
+Fixed 'displayName'.
+Fixed tests.
+Fixed case for the 'declare' keyword.
+Fixes rebase issues
+Fixes old tests
+Fix error message typo
+Fixed test that disturbingly wasn't doing anything.
+Fixed intendation typo
+Fix JSDoc error code for to avoid duplicate error code
+Fix CRLF issue in baselines
+Fix CRLF issue
+Fix #3245: ensure transpile diagnostics only include syntactic and compiler options diagnostics
+Fix testcases for isolated modules.
+Fix for #2971, adds missing logic in checkFunctionExpressionBodies
+Fix issue in the parsing of tsConfig file, this was fixed in master before, but never ported.
+Fix for #2971, adds missing logic in checkFunctionExpressionBodies
+Fixes concat style
+Fixes missing check in isParenthesizedArrowFunctionExpressionWorker
+Merge pull request #2979 from Microsoft/completionFixes
+Fixed missing call to nextToken()
+Merge branch 'master' into completionFixes
+Fixes old tests
+Fix up two comments
+Fix typing for Promises so that a void error callback doesn't mess up inference
+Fixes iojs environment check issue
+Fix 'resolveName' to correctly obtain local name of export default
+Fix typo
+Fix contextual typing of object literal methods
+Fix some crashes in the checker
+Fix #3012: expose scanner
+Fix host formatting configuration issues
+Fix issue #2984
+Fixes helpers in strict mode
+Fix name.
+Fix name.
+Fixes Aggressive completion makes it difficult to type function types. #2494  + test case
+Fix for Completion interferes with typeing a "type alias". #2882 + test case
+Fix #2953: Put DataView definition back into lib.d.ts
+Fix #2929: relax the check for export= in ES6 if it is resulting from an ambient declaration
+Fixed checks to use isReservedNameInStrictMode.
+Fixes 	his in decorator helpers
+Fixes 	his in decorator helpers
+Fixed checks to use isReservedNameInStrictMode.
+Fix #2837: remove (y, x) from the comment
+Merge pull request #2874 from Microsoft/iteratorTypeFix
+Merge branch 'master' of https://github.com/Microsoft/TypeScript into iteratorTypeFix
+Fix Iterator type in es6.d.ts
+Fix typo
+Fix dom type "ArrayBufferView"
+Merge pull request #2805 from Microsoft/moduleFixes
+Merge branch 'master' into moduleFixes
+Fix #2801: Sort module names for AMD preamble
+Merge pull request #2754 from Microsoft/destructuringFixes
+Merge branch 'master' of https://github.com/Microsoft/TypeScript into destructuringFixes
+Merge branch 'master' of https://github.com/Microsoft/TypeScript into destructuringFixes
+Fix parenthesizeForAccess to always parenthesize NewExpressions and NumberLiterals
+Fix up comment
+Merge branch 'master' of https://github.com/Microsoft/TypeScript into destructuringFixes
+Merge branch 'master' of https://github.com/Microsoft/TypeScript into destructuringFixes
+Merge pull request #2747 from Microsoft/FixGetOccurances
+Merge pull request #2756 from Microsoft/completionFixes
+Fix #2724: ensure checkIteratedTypeOrElementType returns a type
+Fix crash in emitter on rest parameters with binding patterns
+Fix crash in rest element destructuring
+Fix #2725: Add check for parent before using it
+Fix getOccurances filter check
+Fixed jsDoc, wrapping, newlines
+Fix issue #2677 : Labels should not get quick info
+Fix for __decorate emit on undecorated file following a decorated file
+Fix formatting and parameter names
+Fix a test so that we don't get duplicate declaration errors.
+Fix up the harness code.
+Fix for #2619
+Fixed 'isWriteAccess' check.
+Fixed /// <reference
+Fix for #2619
+Fix find all refs and goto def for decorators
+Fixes #2601, incorrect resolution of this/super
+Fix for #2249
+Fix annoying spellin errors.
+Fix tests.
+Fix error spans for classes.
+Fix for #2561
+Fix for checking type nodes with separate compilation, removed duplicate functions due to merge conflict
+Fix merge conflict
+Merge pull request #2557 from Microsoft/exportEqualsDtsFix
+Merge pull request #2569 from Microsoft/revertModuleImportFix
+Fix comment.
+Fix emit trailing comma for array binding pattern for varaible declaration
+Fix export.default assignment for export default class/function
+Fix: File watchers not being disposed in -watch mode
+Fix bug stemming from use of tsc findConfigFile by server.  Server needs its own version of this because tsc always starts from the current directory but the server must start from whatever directory contains the newly opened file.
+Fix comment to be more accurate
+Fixed transitive export completion list issue.
+Fix issue where getSemanticDiagnostics was returning undefined on a .d.ts file.
+Fix issue with AMD emit for 'import d, * as x from "foo"'
+Fixing emit for import d, * as foo from "foo" case
+Fixed issue where goToDef on a shorthand property of an undefined entity would crash.
+Fixed test.
+Fixed the contextual check for modifiers to check the original modifier instead of the flags of the node.
+Fixed test.
+Fix diagnostic codes.
+Merge pull request #2394 from Microsoft/repoLanguageClassificationFix
+Merge pull request #2356 from Microsoft/typeParameterFixing
+Merge branch 'master' of https://github.com/Microsoft/TypeScript into typeParameterFixing
+Fixed case for index signatures.
+Fixed up more tests.
+Fixed missing marker.
+Fixed up tests.
+Fixed harness.
+Fix copy/paste error.
+Merge branch 'master' of https://github.com/Microsoft/TypeScript into typeParameterFixing
+Merge branch 'master' of https://github.com/Microsoft/TypeScript into typeParameterFixing
+Merge branch 'master' of https://github.com/Microsoft/TypeScript into typeParameterFixing
+Fix issue of the default binding not elided if namedImport is reference
+Fix line wrapping
+Persist inference context object throughout the signature, and add isFixed property
+Fix the checks with language version to use default es3
+Fix call to emitNode after merge with master
+Fix file path resolution in RWC
+Fix for #2268 createDiagnosticCollection should be @internal
+Fixed tests due to lib.d.ts changes
+Fix up comment.
+Fixed jake runtests-browser on node 0.12
+Merge pull request #2222 from billti/tsconfigWatchFix
+Merge pull request #2223 from billti/FixPathNormalization
+Fixed baselines to account for correct path normalization
+Fix path normalization for patterns such as './/tsconfig.json'
+Fix watch to honor tsconfig.json setting
+Fix sourcemaps for 'for...of' and no source maps for synthesized nodes
+Fix createTempVariable to always record the name in the currentScopeNames
+Fixing error reporting issue in checkExternalModuleExports
+Fixing a few issues
+Fixed error message.
+Fix issue where source files could get corrupted.
+Fixed VSDevMode.ps1 parameter info
+Fix getIteratedType to work with 'any' at all levels
+Fix naming in checkForInStatement
+Fixed character escaping for characters with values below 0x20 and '9'.
+Merge pull request #2122 from Microsoft/getDefaultLibFileNameFix
+Fix export * merging to not overwrite original members
+Fix failing test.
+Fixes overly-aggressive auto-collapse for "Collapse to Definitions"
+Fix crash on destructuring null or undefined into rest element
+Fixed case where property should not be emitted.
+Run jake in interactive mode so output isn't lost. Fix jake perftsc.
+Fix function name.
+Fix up API samples.
+Fix time measurement
+Fixed assertion
+Fixed issue with the kinds we check.
+Fix issue with cancellation corrupting LS state.
+Fix error message
+Fix error message wording
+Fix expression checking for symbols
+Fix language service handling of diagnostics.
+Fix getFileContents so as not to always return the current file
+Fix typo in type name
+Fix spelling of 'Filename' to be 'FileName'.
+Fix usage of tabs instead of spaces.
+Fixing ambient external module grammar
+Fix #1871 by ensuring the at we get the canonical filename before we check the extension
+Fix spacing due to tab
+Fix method name.
+Fixed fourslash test.
+Fix error message wording
+Fix source map scope name for computed properties
+Fixes the emit of comment when comment ends on last line This fixes regression from 5a7500ca5e62d7e6c7863cf42d156e8bcdc3017c with addition of eof token Handles #1714
+Fix to make the completionlist work correctly when typing a new generic type + fourslash tests
+Fix unicode comparision and counting error for test262
+Fix unicode comparision and counting error for test262
+Merge pull request #1699 from Microsoft/instrumenterFix
+Fixes the duplicate doc comment display in case of union property Handles #1237
+Fixing negated language version checks
+Fixed incorrect tests.
+Fix narrow type for instanceOf and add testcases
+Fix jake perftsc task Added ts module prefix andd depend on types.ts (for ts.Map<string>)
+Fixed portion of test.
+Fix tagged templates that consist of a single part
+Fixed issue where the second type's signature having type parameters would not cause an error.
+Fixed 'verifyDefinitionsName' to check the container name properly.
+Fixed messed-up formatting from moving around code.
+Fix broken enum value alignment.
+Fix issue #1503 with modules and imports sharing a name
+Fixed "TypeError: invalid data" when executables run by exec exited with non-zero code.
+Fixed bug where function expressions were not getting checked in template expressions.
+Fixed contextual typing for tagged template expressions.
+Fixed old sys dependency, as sys is now ts.sys.
+Fixed 'use strict' check.
+Fixed up baselines.
+Fixed 'use strict' check.
+Fixed up baselines.
+Fix invariant issues.
+Fix some parts of for-each invariant checking.
+Fix speculative parsing by terminating the list when encounting illegal token
+Fix the merge conflicts
+Fix indentation.
+Fix comment.
+Fix so 'jake diff' works with PowerShell.
+Fixed navigation expansion for missing identifier nodes.
+Fix the getSymbolInfo and getTypeOfNode entry points to resolve the context sensitive information before resolving the actual node
+Fixes the quickInfo when hovering over var inside the context sensitive expression Handles #1165
+Fix missing return types.
+Fix typo in comment
+Fixing fourslash test
+Merge pull request #1342 from Microsoft/externalModuleFix
+Fixed issue where old-Mac newlines don't work in harness.
+Fix documentation for Uint32Array.subarray
+Fixed issue where classifier didn't check for backslash-newline.
+Fix merge issues
+Fixed test.
+Fixed bug where tagged templates with a literal adjacent to EOF showed sig help.
+Fix parsing of function expression names.
+Fixed bug in union type identity comparison
+Fixed issue where findAllRefs on identifiers starting with 2+ underscores failed.
+Fixing check.
+Fix interface.
+Fix and add test case for display parts for type aliases
+Fixed comment.
+Fixed issue where template expression in call expressions would emit with unnecessary parentheses.
+Fix for crash in QuickInfo on module path in import statement.
+Fixed the api for resolving script reference and getting source file as per review feedback
+Fixed broken test.
+Fixed template head offsetting.
+Fixed isUnclosedTemplateLiteral to account for new possible inputs.
+Fix comment
+Fix symbol constructor and update Object properties
+Fixed issue in harness where lib.d.ts errors are note counted.
+Fixes to type guards
+Fix emit for shotr-hand assignment for module
+Fixes the quickInfo and completion list details for let and adds test cases for let and const Handles #1083
+Instead of setting fresh value, or the value with existing one of if alias is referenced in value position Fixes #1130
+Fix the relative path reference resolution Fixes #1039
+Fix spelling mistakes, and remove unused function.
+Fix the completion entry for __proto Fixes #850
+All the identifiers need to be escaped to make sure compiler doesnt confuse __NonUnderscore character incorrectly Fixes #548
+Fix paramters for Math.hypot function
+If we are comparing left hand side for is position of type node, it is false, because it is namespace position and not type position Fixes #837
+Test case for completion list at backslash following string Fixed by 5acc1a1bd21e7aafb3bd5066969af6a7ddfd547b Tests #982
+Fix get type from short-hand property assignment
+Fixed some methods using the wrong start time
+Fixed issues with incomplete calls, cleaned some code up.
+Fix the crash in completion entry by fixing the unknown token check
+Fix the union property kind if the property is union of exported variable of module Fixes #929
+Fix the crash in getCompilerOptionsDiagnostics by not using file name as compiler options do not have file name Fixes #988
+Fix the line preservation between jsdoc comments while displaying it
+Fixed the merge conflicts that went undetected in github
+Show narrowed type in quickInfo/completion entry Fixes #927
+Fix the logic in getting the contextual signature of union type as per spec Fixes #1054
+Completion entry details of union of methods with no call signature Fixes #928
+Fix indentation
+Fixed emit for parenthesized template expressions.
+Fix signature help crash when requested outside argument list
+Fixing type check error in services.ts
+Merge pull request #952 from Microsoft/completionFixes
+Merge branch 'master' into completionFixes
+Fixed findAllRefs/getOccs bug where private properties declared in the constructor were only local to the constructor.
+Merge branch 'master' into completionFixes
+Fix getTokenPos for scanning import statement
+Fixing comments
+Fix the resolveName function
+Fix indentation and space
+Fix indentation
+Fix wrong condition for unterminated multi-line comments
+Merge branch 'master' into completionFixes
+Fix issue #764, select the correct scope node if not left of a dot
+Fix issue #866, detect the current location correctelly in completion entry details
+Fixing in, for...in, and instanceof with union type operands
+Merge pull request #942 from Microsoft/unionTypeFixes
+Fix the crash in declaration file emit when alias is used before its declaration
+Merge pull request #925 from Microsoft/cannotFindFileFix
+Fix colorization unittest
+Fix runtests for unittests
+Fixing fourslash test
+Fix search for shadowed const declarations by a var declarations to search for any variable instead of only a blockScoped one to ensure we are not picking it up from a wrong scope.
+Fix emitting for const in for loops
+Fix signature help crash when requested outside argument list
+Fix how arguments and undefined are shown in the quickInfo Removes the undefined identication from symbol flags instead add method to typechecker
+Fix line endings
+Fixed semantic colorization for module names on the value side.
+Fixing merge conflicts
+Fix newlines in tests
+Fixing badge URL
+Merge pull request #867 from Microsoft/reAddColorizationFix
+Fixed the bad merge and tests failing because of it
+Fix contextually typed object literal proeprties that are not properties of the union type but are properties on of one of its constituant types
+Fix comments
+Fix formatting
+Fixed the typo
+Fixed ordering, syntax, addressed CR feedback, made things work.
+Fixing tests and baselines
+Fix throwing exception from emitFile
+Fixed the + overload according to feedback
+Fix crash when getting member completion for an object literal
+Fix the quickInfo for rest parameters
+Quick info on undefined Fixes #775
+Fix spelling
+Fixed another bug in parser & fixed up baselines
+Fix compileOnSave with external module
+Fixed bug where numeric check wasn't catching everything
+Fixing issue where the top level source file item was not being selected.
+Fix generic symbol display information
+Merge pull request #817 from Microsoft/renameEnumMember Fixes the name displayed in the rename dialog to be just symbol name instead of qualified path
+Fix the source map directory resolution with non case sensitive file names
+Get just the name of the symbol (instead of qualified path) as symbolName of the definition info. Fixes #652
+Fix spelling
+Fixed bug where value-space identifiers got classified as interfaces when sharing the same name as an interface.
+Fix error reporting position
+Fix reporting duplication errors to report at all declarations
+Fix the quick info on error types
+Fix argumentCount and selectedItemIndex
+Fix arity checking for partial overload resolution
+Fixed indentation
+Fixed some of the baselines, made file comparisons handle different casing, put diagnostic message in correct order
+Fix issue where trivia is incorrectly identified as an identifier following a dot.
+Fixed a few of the code review suggestions
+Fixing formatting glitch
+Fix failure in tests.
+Fix typo in comments
+Fixed up colorization tests.
+Fix errors in signatureHelp.ts
+Fix name printing in signature help
+Fixed fourslash bug for adjacent braces, courtesy of @mhegazy.
+Merge pull request #713 from Microsoft/JSONInLocaleFix
+Fix language service; doesn't capture declaration emit errors
+Merge pull request #676 from Microsoft/completionFixes
+Fixed issue where parser improperly parses a function declaration with no identifier.
+Merge branch 'master' into completionFixes
+Fix space formatting
+Merge branch 'master' into completionFixes
+Fix test baseline
+Fix declaring function for writer and setting writer to undefined
+Fix getEmitOutput to only output one file except when 'out' flag is specified. Add testcases
+Fixed bug where function type literals may omit their '=>'.
+Fix the error spans issue
+Fix spelling
+Fix widening in object literal property assignments
+Fix spelling
+Fix spelling
+Fix contextual signature instantiation during type inference
+Fix the condition for qualifying the symbol of methods and functions in the enclosing declaration
+Fixing a few issues in Language Specification
+Fix incremental parsing bug due to non invalidating cached data in nodes.
+Fix typo in running the tests section
+Fix typo in file name
+Fixes #492 Conflicts: 	src/services/services.ts
+Fixed the parenthesis around the expression around line indent calculation
+Fix the tab and indent calculation when formatting comments in the emitted output
+Fix undefined symbol name in error message
+Fix the compilerRunner when compiling resulting d.ts file when --out is specified
+Fixed the file map lookup to use hasOwnProperty
+Fixed TypeScript.declarationEmitGetAccessorFunctionTime having a wrong value
+Fix shouldAssert function this.currentAssertionLevel was always undefined
+Fix getReferences for labels
+Fix the new sourceMapRecording correctly if the multiple files output to single js file and the file ends with interface definition
+Fix json for text spans.
+Fixed according to code review feedback
+Fix isTypeNode to not consider namespace accesses types
+Fix test chainedImportAlias to use all of its file regions
+Fix the trailing comments for variable declaration and function/arrow expressions
+Fix the indent for the parameter and typeparameter emit in .d.ts file
+Fix the compiler runner to handle comments flag to determine if it is --removeComments
+Fixed typo soruceFile -> sourceFile
+Fix the incorrect declaration file path during d.ts file compile in the compilerrunner
+Report errors on properties and variable type visibility Fixes #69
+Fixed memory leak from '--watch' flag.
+Support extensionless <reference> comments. Fixes #344.
+Fixed up duplicate diagnostic.
+Fix the incorrect error reporting and declaration file emit for the type parameter constraint of private methods Also incorporates code review feedback
+Fix duplicate getTypeOfExpression function.
+Merge pull request #337 from Microsoft/LibFormDataFix
+Fix #314: SourceBuffer.appendBuffer() is missing overload for ArrayBufferView param in lib.d.ts
+Fix #225: Incompatible FormData constructor between W3C specs
+Fixed diagnostic generator; added messages.
+Fix compile errors in fourslash tests
+Properly build container list in binder. Containers are added to container list only if they aren't already on the list. Fixes #325.
+Fix typos
+Fixed error when parsing slashes in RegExp literals.
+Fix noimplicitany issues
+Error when importing shadowed internal module. Fixes #73.
+Fix up comment about bug #236 in checkCallExpression
+Fix token once more
+Fix Code Climate token again
+Better error messages in function calls. Fixes #93. This is an evolution of #220.
+Fix Code Climate token
+Fix minor formatting issues
+Merge pull request #223 from Microsoft/linuxTestFixes
+Allow reserved words in type queries. Fixes #181.
+Aligning index signature type inference with assignability rules. Type inference now supports inferring from string index signatures to numeric index signatures. Fixes #167.
+Fixed misleading comment
+Add node_modules\.bin to path. Fixes browserify task when browserify isn't installed globally.
+Added contextual signature instantiation during type inference. Fixes #88.
+Fix browser tests not working when not cloned in TypeScript directory
+Ensuring local module names are unique in emit. Fixes #41 and #42.
+Ensuring local module names are unique in emit. Fixes #41 and #42.
+Report errors if the type parameter uses constraint that is using private type/module Fixes #86
+Report error on Class/Interface heritage clause if it cant be accessed Fixes #78 and #83
+Fixed the typo in declaration emitter of implements clause
+Fix web test server for new repo
+Fix for 954635: Clodule declaration ordering Fix for 955714: Fundule declaration ordering
+Fix for I/O performance problems sys.readFile checks whether file exists before reading instead of relying on exceptions sys.writeFile returns a boolean result and doesn't use exceptions to communicate errors Disabled code to create directories until performance has been verified

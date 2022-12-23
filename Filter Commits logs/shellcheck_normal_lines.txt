@@ -1,0 +1,1408 @@
+Add SVG logo
+Improve SC1059 error message
+Try to parse the inside of traps (fixes #2584)
+Allow arbitrary bats @test names (fixes #2587)
+Don't suggest pgrep for `ps -p .. | grep` (fixes #2597)
+Remove outdated test
+Revert "Add employer mandated disclaimer"
+Remove true/false from SC2216/SC2217 (fixes #2603)
+Permit colon after exec
+Add `mapfile` to harmless commands for SC2094
+Suppress SC2311 with `set -o posix`
+Include inherited env for DFA of leftover functions (fixes #2560)
+Add READLINE_POINT to list of variables without spaces
+Recognize more Bash internal variables
+Remove duplicate "COPROC" from internal vars list
+Reflow lists of internal shell variables
+Handle variable assignments from `read` in CFG
+Trace numerical status, use for SC2071 (ref #2541)
+Store postdominators as Array Node [Node] for a significant win
+Use Data.Map.Strict instead for a ~15% parsing speedup
+Let annotations take effect earlier (fixes #2534)
+Allow quoting values in directives (fixes #2517)
+Refactor to not generate Parameters twice
+Plug space leaks when processing multiple files
+Don't use & for updates as result is unspecified
+Discard next rather than existing fixes when they overlap
+Correctly discard overlapping fixes in diff output (fixes #2370)
+Refine #2544 to not warn when $? postdominates [ ] (fixes #2544)
+Include postdominators in CFGResult
+Add unit test to ensure SC2321 does not trigger on associative arrays
+SC2323: Warn about redundant parens in a[(x+1)] and $(( ((x)) )) (ref: #1666)
+SC2321: Warn about redundant $(()) in arr[$((i))]=x (ref: #1666)
+Additionally pluralize 'arguments' in SC2183
+Warn when $? refers to echo or condition (ref #2541)
+Add escape characters to SC2028: \a, \b, \e, \f, \v, \\, \', \OOO, \xHH
+Include exit codes in DFA (ref #2541)
+Omit SC3021 about `>& file` unless definitely non-numeric (fixes #2520)
+Normalize spaces around = in unit tests
+Also emit SC2004 for array indices (fixes #1666)
+SC2318: Warn about backreferencing in `declare x=1 y=$x` (fixes #1653)
+Qualify Data.Map as M instead of tedious Map
+In addition to start/end, track sets of nodes belonging to tokens
+Suppress SC2086 for variables declared -i (ref #2541)
+Precompile new fgl dependency on armv6hf
+Use DFA for SC2086
+Add SC2317 warning about unreachable commands
+Control Flow Graph / Data Flow Analysis support
+Upgrade cURL for Windows build image
+Freeze macOS dependency by sha256
+Allow text to build on Fedora by installing dependencies
+Parse &&/|| as left-associative
+When reparsing array indices, do it recursively
+SC2183 grammer fix: 'variable' instead of 'variables' if only one variable
+ci: update github actions
+Mention SC2316 in changelog
+Only trigger SC2316 on unquoted words.
+add SC2316: error on multiple declarations like 'readonly local'
+Warn about spaces around = in alias (fixes #2442)
+Switch linux-x86_64 build from Ubuntu to Alpine for musl
+Allow parsing [[ x = ["$y"] ]] (fixes #2165)
+Improve decoding of single quoted literals (fixes #2418)
+Minor formatting fixes
+bats: Add check for useless negation (SC2314/15)
+Rewrite SC2032 warning and mention line number (fixes #2353)
+Mark prefix/postfix inc/dec as integers (fixes #2376)
+Comment spelling fixes
+Post-release CHANGELOG update
+Stable version 0.8.0
+Update copyright years
+Update stack resolver
+Update distro tests
+Update release checklist
+Include `local -r` in check-extra-masked-returns (fixes #2362)
+Consider all forms of TA_Assignment to remove spaces (fixes #2364)
+Warn about [^..] in Dash (fixes #2361)
+Have quickscripts search for relevant paths (fixes #2286)
+Give more examples of what ShellCheck looks for
+Treat typeset similar to declare (fixes #2354)
+Mention known incompatibilities in man page
+Skip SC2214 if variable is modified in loop (fixes #2351)
+For `while getopts; do case ..` checks, make sure variable matches
+Warn about `read foo[i]` expanding as glob (fixes #2345)
+Mention require-double-brackets in CHANGELOG
+Add suggestion level in text for TTY output (fixes #2339)
+Mention check-extra-masked-returns in changelog
+Add extra checks for masked return codes
+Don't emit SC2140 when trapped string is /, = or : (fixes #2334)
+Disable UUOC for cat with unquoted variable (fixes #2333)
+The removed check was SC1004, not SC1003
+Add a `setgitversion` script to update the version string with git
+Strip lines containing "STRIP" from ./striptests
+Don't trigger SC2140 on ${x+"a" "b"} (fixes #2265)
+Suppress SC2094 when both are input redirections (fixes #2325)
+Remove SC1004 (fixes #2326)
+Allow `disable=all` to disable all warnings (fixes #2323)
+Allow specifying external-sources=true in shellcheckrc (fixes #1818)
+Show info about `set -e` suppression during function calls
+Do not suggest `grep -c` as a replacement for `grep -l/-L | wc -l`
+Warn about strings for numerical operators in [[ ]] (fixes #2312)
+Improve warnings about unnecessary subshells (fixes #2169)
+Add shellcheck-precommit hook to README.md
+Add pre-commit instructions
+Revert "Allow running this repo as a pre-commit hook"
+Allow running this repo as a pre-commit hook
+Don't warn about unused variables starting with _ (fixes #1498)
+Add `rg` to list of commands ignored for SC2016 (fixes #2209)
+Remove trailing whitespace
+Improve warnings for expr (fixes #2033)
+Recognize wait -p as assigning a variable (fixes #2179)
+Don't warn about variables guarded with :+ (fixes #2296)
+Warn about looping over array values and using them as keys
+Improve warnings for bad parameter expansion (fixes #2297)
+Suppress SC2167 when name is "_" (fixes #2298)
+Extend warnings about spaces around = to 'let'
+Remove defunct SonarQube plugin link (fixes #2292)
+Switch build status badge from TravisCI to GitHub
+SC2295 Warn about unquoted variables in PE patterns (fixes #2290)
+Review fixes in README
+Minor changes in README
+Warn about eval'ing arrays
+Avoid trigger SC2181 on composite $? checks (fixes #1167)
+Optionally suggest [[ over [ in Bash scripts (-o require-double-brackets) (fixes #887)
+Don't consider [ -n/-z/-v $var ] assignments for subshell modification (fixes #2217)
+Allow printf/return/assignments after exec (fixes #2249)
+Warn about unquoted blanks in echo (fixes #377)
+Warn about quoting in assignments to sh declaration utilities (fixes #1556)
+Have SC2155 trigger on 'typeset' as well (fixes #2262)
+Don't print colors when $TERM is 'dumb' or unset (fixes #2260)
+Don't warn about repeated range in [[ -v arr[xxx] ]] (fixes #2285)
+Re-add warnings about 'declare var = value' (fixes #2279)
+Don't warn when line starts with &> (fixes #2281)
+Add :/. to chars recognized for \alias suppression (fixes #2287)
+SC2181: Add '!' in suggestion as appropriate (fixes #2189)
+Sanity check command names (fixes #2227)
+Add a comma to function characters
+move readme to extra-doc-files and add changelog to releases
+Treat ${arr[*]} like $* for SC2048
+Add wait between GitHub and Docker to allow replication
+Update Cabal version for Hackage
+Post-release CHANGELOG update
+Stable version v0.7.2
+Make x-comparison warning default
+Clarify 'which'
+Improve warnings on backslashes in comments
+suppress ntlm error messages in Windows build
+Brand New Build!
+Error on backslash in comment   #2132
+Allow `env` to have flags and variables in shebang
+add support for `/bin/busybox sh` shebang
+Whitelist podman for SC2016 about '$var'
+Improve SC2283 message and position
+fixed typing mistakes in changelog
+Parse heredocs correctly with carriage returns (fixes #2103)
+Escape control characters when adding user data to messages
+Don't treat ${!x@} as reference of x (fixes #2116)
+Improve checks for = in command names (fixes #2102)
+Fuse maps
+Remove unused helper stub
+Remove redundant bind and return
+Use execState instead of snd . runState
+Fuse map into any
+Use find
+Use syntactic sugar instead of building lists by hand
+Use mapM instead of reimplementing it
+Implement groupByLink in terms of foldr
+Use mapM_ instead of reimplementing it
+Simplify actualArgs
+Simplify parseArgs
+Simplify parser
+Remove unnecessary use of Maybe from shellFor
+Change error 2076 to a warning.
+Add Haddock markup to SystemInterface
+Treat 'exec $1' like '$1' for the purpose of quoting (fixes #2068)
+Support env -S/--split-string in shebangs (fixes #2105)
+Warn when a variable is assigned to itself
+Improve handling of trailing tokens for []/compounds (fixes #2091)
+Add POSIX checks for more Bash-specific variables (fixes #2093)
+add macports as installation option in README.md
+SC2095: Also warn if the command is backgrounded
+Simplify .prepare-deploy
+Add readonly to SC2155
+Optional style warning about [ x$var = xval ]
+Use getopts parser to find 'read' arrays (fixes #2073)
+SC2267: Warn about xargs -i (fixes #2058)
+Rewrite getopts style option parser
+Recognize `local -x` similarly to `export` (fixes #2069)
+Update SC2091/SC2092 message and ignore in quotes.
+Improve compatibility checks
+Give each sh/dash compatibility warning its own SC3xxx error code
+Allow specifying ranges in disable directives
+Suppress SC2035 for echo * and printf * (fixes #2036)
+Parse assignments according to spec (fixes #2022)
+Upgrade SC2169 (unsupported in dash) from warning to error (fixes #2013)
+Warn when using &/| between test statements
+Consider variables in -z/-n tests to be checked
+Modernize getting mapfile array name
+Suppress SC2216 for du --files0-from or --exclude-from (fixes #1286)
+Update README.md
+Warn when shell functions blatantly recurse (fixes #1994)
+Improve SC1033/SC1034 message
+Handle tilde expansion in pattern matching (fixes #1769)
+Handle literal linefeeds in printf format strings (fixes #2007)
+Improve handling of command prefixes like exec/command (fixes #2008)
+Warn about non-POSIX case modification expansions (fixes #1977)
+Re-enable Windows job
+Remove trailing whitespace
+Use TravisCI workspaces
+Treat $x/ or $(x)/ as ./ when finding sourced files (fixes #1998)
+Warn about extra spaces between ((s in for((;;))
+Autolink https://www.shellcheck.net/
+Clarify that SC1090 refers to ShellCheck, not sh
+Rephrase: *Shellcheck* can't follow non-constant source
+Warn about defining and using an alias in a single command (fixes #1807)
+Count $# as an argument reference in SC2120
+update dependency free AUR package
+Allow disabling SC1072/SC1073 with annotations (fixes #1931)
+Improve SC2259/60/61 messages
+Warn about duplicate uses of stdin/out/err
+Use SC prefix for disable= in man page
+Spelling fixes
+Revert "Use fromRight instead of reimplementing it"
+Clean up and optimize getSuspiciousRegexWildcard
+Move bracedString to be local to its last use site
+Get rid of bracedString everywhere it's easy to
+Combine bracedString into getSingleUnmodifiedVariable
+Simplify checkVariableBraces
+Simplify thenSkip, and use in another location
+Avoid some awkward parentheses with forM_
+Use fromRight instead of reimplementing it
+Remove unnecessary fromMaybe and when from bashism
+Write getLiteralArgs with foldr and without fromMaybe or monads
+Make it slightly lazier still (and more clear)
+Make skipRepeating lazier and faster
+Simplify warnRedundant
+Simplify checkSetAssignment
+Use MultiWayIf instead of case-matching on ()
+Simplify checkArg
+Prefer pattern matching in undirected
+Use a guard instead of unless
+Use pattern matching instead of snd
+Use foldr in checkFindNameGlob
+Only perform the comparisons once
+Remove unnecessary cases from wordToPseudoGlob
+Remove unnecessary monadicity from wordToPseudoGlob
+Simplify getAssociativeArrays
+Simplify getCommandNameAndToken
+Simplify process
+Implement supportsArrays with pattern-matching
+Don't bother with asks if you're just immediately binding the result anyway
+Simplify getSpecial
+Simplify dropPrefix
+Use head instead of (!! 0)
+Simplify isArrayFlag
+Remove an unnecessary operator section
+Remove unnecessary as-patterns
+Remove unnecessary maybeToList
+Use a list comprehension instead of a concatMap with extra lists
+Simplify causesSubshell
+Use execState instead of reimplementing it
+Implement findFirst in terms of foldr
+Remove unnecessary Maybe from isQuoteFreeElement
+Use force instead of reimplementing it
+Disable SC2257 about > $((i=42)) for Dash
+Simplify nameExpansion
+Filter GitHub uploads by tag
+Update Changelog with new version
+Stable version v0.7.1
+Don't warn about [ 0 -ne $FOO ] || [ 0 -ne $BAR ] (fixes #1891)
+Use shellcheck on yourself
+Run "deploy" step only for "Build" stages
+Update distro tests to support newer Cabal
+Don't try to deploy docker images on PR runs
+Stop deploying artifacts to GCS
+Mark that base >= 4.8.0.0 is required
+Include shebang in AST traversal (fixes #1858)
+recognize `: ${parameter=word}` as assignment
+Simplify checkWhileReadPitfalls
+Simplify checkForInQuoted
+Try to make TravisCI not fail on deployment of Docker stage
+Improve detection of for loops with single values
+Make SC2095 (ssh in while read loops) more robust and suggest fixes
+Use headOrDefault instead of fromMaybe and listToMaybe
+Refer to GitHub rather than GCS for release builds
+src/ShellCheck/Analytics.hs: suggest using a shell directive for SC2148
+Upload to assets to GitHub
+Add conda install instructions
+SC2257: Warn when changing arithmetic variables in redirections
+Remove unused instance Ord Replacement (fixes #1829)
+Bump SC1102/SC1105 about ambiguous `$((` to Error (fixes #1836)
+Parse keywords with case sensitivity (fixes #1809)
+Rename 'Test' stage
+Don't try to deploy on PRs
+Optimize patterns in checkFindNameGlob
+Remove a partial pattern match equivalent to fromJust from checkFindNameGlob
+Simplify mockedSystemInterface
+Simplify shellFromFilename
+Use isJust instead of reimplementing it
+Remove unnecessary uses of head
+Simplify determineShell
+Use Map.member instead of isJust and Map.lookup
+Use isNothing instead of reimplementing it
+Use forM_ instead of reimplementing it
+Avoid a zip that breaks fusion
+Remove unnecessary fromMaybes
+Do toLower earlier
+Simplify a double negative
+Use Map.! instead of reimplementing it
+Simplify findFunction
+Avoid unnecessary use of when and unless
+Inline an uncurry
+Simplify <> for SpaceStatus
+Simplify matchToken
+Use void instead of do and return ()
+Use head instead of reimplementing it
+Get rid of potentially
+Simplify check and checkTranslatedStringVariable
+Use mapM_ and sequence_ instead of reimplementing them
+Use find instead of take 1 and filter
+Use mapM instead of implementing a slower version of it
+Replace mapMaybe and concatMap with list comprehensions
+Add getLiteralStringDef and simplify with it
+Switch getLiteralStringExt to Identity where it can never be Nothing
+Remove more unnecessary uses of fromJust
+Use the Identity monad to avoid unnecessary uses of fromJust
+Use findM instead of filterM
+Simplify literalEquals
+SC2191: Tighten index checks
+Adjust a pattern to get rid of a fromJust
+Use maybe instead of isJust and fromJust
+Adjust a pattern to avoid tail
+Use pattern matching instead of head
+Use case matching instead of null
+Use drop instead of splitAt since we only use the second half
+Use null instead of comparing with empty lists
+Use list comprehensions instead of clunky combinations of map and filter
+Use gets instead of fmapping the result of get
+Remove unnecessary "map snd"
+Use sortOn instead of sortBy and comparing
+Use maybe instead of fromMaybe and fmap
+Use find instead of listToMaybe and filter
+Remove incorrect otherwise
+Use "drop 1" instead of clumsily rewriting it
+Get rid of our getOpt, as it already exists as lookup
+Use notElem instead of not on the result of elem
+Make SC2141 trigger more broadly
+Don't trigger SC2154 (unassigned var) in `-n`/`-z` expressions #1583
+SC2016: disable for mumps -run %XCMD and LOOP%XCMD
+Add multi-architecture Docker image build
+Issue 1759 mapfile and process substition
+Added a unit test for parsing shell keyword case branches
+Issue 1731 Literals in case patterns
+Make SC2230 optional
+Mention that ShellCheck is now compatible with Cabal 3
+Try to search for binary on macOS/Cabal3
+Revert docker image to 18.04 since ld fails on later versions
+Explicitly add 'mappend' for old GHC versions
+Support Cabal 3. Man page no longer autobuilds.
+Update brew before building on macOS due to incompatible Ruby
+Hide <> from Writer to not conflict with Semigroup
+Include missing Semigroup import
+For SC2256, make sure the complete string is a variable name
+SC2256: Check for translated strings matching known variables
+Make image build process a bit simpler
+Only trigger SC1014 when command is a complete word (fixes #1737)
+Warn about [ x -ot y ] in POSIX mode
+Correctly handle empty variables for SC2086 (fixes #1722)
+Modify CHANGELOG.md
+Make command-specific checks act on `builtin ...`
+Support for heredoc quoted token like `'"FOO"`
+Parse regular `for` with body in curly braces
+Use single quotes for the format string example in SC2059
+Nix install instructions
+Warn about unexpected characters after ]/]] (fixes #1680)
+Move failing test to correct check
+Make `read -t 0` test more forgiving towards other flags
+Suggest using `$((..))` in `[ 2*3 -eq 6 ]` (fixes #1641)
+Update README.md
+Allow `read -t 0` to not require -r flag
+add github
+Suggest quoting case patterns, as for SC2053 (fixes #1682)
+Mention the CircleCI shellcheck orb in the README.
+Remove _cleanup now that builds don't run in sequence
+Update TravisCI config for new winghc docker image
+Make `-f diff` stop saying it found more issues when it didn't.
+Stable version 0.7.0
+Tweak man page
+Mention aarch64 and macOS binaries in CHANGELOG
+Add a release checklist script
+Update distrotest with new image names
+Set up Travis build matrix
+THIS COMMIT WILL BE FORCE PUSHED AWAY (Help I'm not good with computers)
+Add automated linux-aarch64 build
+Add support to compiling a binary for macOS
+Warn about $_ in POSIX sh (fixes #1647)
+Don't warn about printf '%()T' without corresponding argument
+Also mention globbing in SC2206 (fixes #1626)
+Don't consider `.*` a glob-like regex (fixes #1214)
+Add warning for chmod -r (fixes #1321)
+Recognize `read -ra foo` as arrays (fixes #1636)
+Improve message for SC1067
+Allow SCRIPTDIR in source directives (fixes #1617)
+Don't count 'readonly x' as a reference to x (fixes #1573)
+Add an empty Custom.hs to simplify site-specific patching
+Avoid defining flags for non-literal parameters
+Handle diffs for files without trailing linefeed
+Warn about ending double quotes just to make $ literal
+Remove unused parse-time AST warnings
+Remove unnecessary lookahead in readDollarLonely
+Allow SC2103 to be silenced (fixes #1591)
+Filter warnings by annotations in unit tests
+Bump stack snapshot
+Add support for basic shflags semantics
+Use mappend over <> for compatibility
+Add a Diff output format
+Update JSON1 docs in man page
+Remove unused ioref
+Improve message for SC2055
+Add .dockerignore
+#1607 fixing brew command
+Add missing JSON1.hs
+Optionally check for unassigned uppercase variables
+Add JSON1 as a separate format, wrap result in an object
+Warn about [ -v var ] for POSIX sh
+Warn about [ $a != x ] || [ $a != y ]
+SC2016: Don't trigger when using empty backticks
+Inform about ineffectual ! on commands (fixes #1531)
+Don't suggest removing braces from $((${x+1})) (fixes #1533)
+Specify 'variable' in require-braces
+SC2250: New optional check for braces around variable references
+Track whether braces were present in T_DollarBraced
+Refactor definition of special variables.
+:memo: Update Copyright to year 2019 and Markdown linting
+Don't suggest [[..]] for sh in SC2081 (fixes #1562)
+Promote `json1` as the primary JSON format
+Add json1 format that ignores tabs
+Replace verbose checks with optional checks
+Emit resolved rather than apparent filename for 'source' (fixes #1579)
+Simplify docker instructions
+Delete trailing spaces
+Add support for source-path directives (fixes #1577)
+Tweak README
+ensure docker invocation is ephemeral
+:memo: add Chocolatey installation method
+Update message for SC2171
+Don't warn about "a"b"c" in =~ regex (fixes #1565)
+:memo: docs: Update pandoc to match `Setup.hs`
+Warn about arithmetic base conversation in sh (fixes #1547)
+Mention in manual that 'sh' means POSIX and not system
+Don't mention arrays in SC2089 in sh/dash (fixes #1014)
+Auto-disable SC2119 when disabling SC2120 (fixes #703)
+Expand root paths into source paths
+Add option to look for sources in alternate root paths
+snap: Migrate to core18 base
+snap: Replace deprecated build and install keyword
+snap: Drop unneeded trailing slash in the `source` property
+snap: Flip `grade` property to stable
+Limit SC2032 to likely command args (fixes #1537)
+SC2249: When verbose, warn about missing default case (fixes #997)
+SC2248: Warn about unquoted variables without special chars
+Set SC2243/SC2244 level to "verbose"
+Add a verbose mode: `-S verbose`
+Warn about flipped $ and " in $"(cmd)" (fixes #1517)
+Allow using 'source -- file' (fixes #1518)
+Add the minimum version of 'directory'
+Use less modern APIs to support more GHC versions
+Add missing backtick in man page
+Add support for `.shellcheckrc` files
+Continue on parse errors in backticks (fixes #1475)
+Update README.md with more CI and build info
+wget -qO- "https://storage.googleapis.com/shellcheck/shellcheck-"${scversion}".linux.x86_64.tar.xz" | tar -xJv
+README.md: pipe wget | tar to reduce duplication
+Check wait flags in dash & POSIX sh
+Don't look at 'set' options after a non-literal.
+Check set flags under dash & POSIX sh (fixes #990)
+Update SC1008 to suggest using directive.
+Check hash flags under dash and POSIX sh
+Issue 1330 unsupported echo flags
+Check unset flags under dash and POSIX sh
+Issue 1393 quiet flag
+Mention extension in changelog and man page
+Don't warn that `cd ../..` and similar can fail in SC2164
+Check type flags under dash and POSIX sh (fixes #1471)
+Issue 837 flag to include only certain warnings
+Add some unit tests for extension detection
+Add bats support
+Issue 824 grep fixed strings and SC2063
+Not determine the shell from `.sh` extension
+Check trap flags under dash & POSIX sh (fixes #1461)
+Allow specifying that flags should not be checked for support.
+Check umask flags under dash & POSIX sh (fixes #1459)
+Make ShellCheck not emit warnings about the shebang if the shell type is determined from the extension
+Check cd flags under dash & POSIX sh (fixes #1457)
+Warn if a shebang's interpreter ends in / (fixes #373)
+Silence SC2103 when using 'set -e' (fixes #667)
+Check readonly flags in dash/POSIX sh (fixes #1448)
+Add new replacement format to the JSON
+Remove duplicate `pathTo` and unused `replaceMultiLines`
+Issue 1318 single comma array delimiter
+Let checkGrepRe only parse flags once
+Process replacements according to AST depth (fixes #1431)
+Make quicktest interpret test/shellcheck.hs directly
+Issue 1404 grep glob false positives
+Recognize --help (fixes #1441)
+Add context to case pattern warnings
+Expand echo + sed style warning to herestrings
+Realign virtual tabs when applying fix
+Allow SC2243 and SC2244 to trigger with quotes, add fix
+Check jobs flags in dash/POSIX sh (fixes #1429)
+Add check for ambiguous nullary test
+Update supported ulimit flags for dash
+Remove unnecessary Regex constraint
+Remove spurious new line in fix message
+Remove overlaps before applying replacements
+Move fix application logic to separate module
+Smarter sorting and application of fix to handle multiple replacements
+Add method to apply a multi-line replacement
+SC1068 (var = x) now alternatively suggests quoting (fixes #1412)
+Be more specific about why you should read the wiki page
+Allow tests to access token positions for fixes
+Update CHANGELOG with new release and autofix merge
+Enable autofix support. It's still preliminary.
+Minor renaming and output fixes
+Change definition of Replacement, add ToJSON instance for it
+Expose token positions in params, use that to construct fixes
+Prototype fix
+Stable version 0.6.0
+Add 'striptests' script to Cabal package
+Make wiki links fit in 80 columns
+Fill in missing bits in CHANGELOG
+Add man page instructions (fixes #1347)
+Disable smart typography extension for markdown input
+Preemptively fix possible '-- |' breakage
+Add stack builds to distro test
+Add warnings for 'exit' similar to 'return' (fixes #1388)
+Update README.html
+SC2240: Warn about `. script args..` in sh/dash (fixes #1373)
+Update Docker build-only image to Ubuntu 18.04
+Also warn about glob matching with [ a != b* ] (fixes #1374)
+Work around snap's old cabal + new snapcraft proxy.
+Add SC1133: Warn when a line starts with |/||/&& (fixes #1359)
+Improve regex parsing (fixes #1367)
+Add SC2239: shebang is not absolute path.
+Add $# to list of variables not containing spaces (fixes #1362)
+Add automated cross-distro testing via Docker
+ShellCheck.cabal: our Setup.hs works fine with Cabal 2.4.x
+getParentTree: avoid pattern matching in do notation
+Don't suggest subshells for cd ..; foo; cd..
+Add SC2238 about redirections to command names
+Add plug for shfmt
+Minor script cleanup
+Add employer mandated disclaimer
+Expand "rhs"; this abbreviation seems needlessly obfuscating.
+Understand array variable declaration in read (fixes #679 fixes #1272)
+Add link to flymake-shellcheck under Emacs section
+Suggest reading the wiki page in the issue template
+Suggest -z/-n instead of ! -n/-z (fixes #1326).
+Improve find leading flag detection (fixes #1312)
+Account for &&/||/{}/() in SC2233&co (fixes #1320).
+Avoid using `error` for option parsing failure
+Add --severity to CHANGELOG
+SQUASH: --severity specifies *minimum* severity to be handled
+Add command-line option -S/--severity
+Make data in Interface more opaque
+Add test for parsing bitwise not
+Modernize SC2028 echo escape test
+Use regex to match special flags for printf
+Suggest 'cat' when piping/redirecting to echo (fixes #1292)
+Don't trigger SC2222 for fallthrough case branches (fixes #1044)
+Use three instead of two dots in 2006 message
+Retire SC1117 (unknown quoted escapes) due to noise
+Allow directive/-s to override shebang blacklist (fixes #974)
+Add a test for 03ce3b15
+Realign =s
+Minimize build size with -Os and -split-sections
+Add armv6hf link for Raspberry Pi
+TravisCI armv6hf build (aka Raspberry Pi build)
+Add instructions to install linux binary
+Make SC1012 "printf '\t'" suggestion use single quotes
+Don't warn about tr '[=e=]' equivalence classes
+Update CHANGELOG to mention end positions
+Improve spans for some warnings
+Expose (some) span information in TTY output
+Require all Ids to be constructed with a span
+Warn about & followed by letters, e.g. http://foo/?a=b&c=d
+Do not warn find --help (fixes #1188)
+Allow trailing comma in exclude flag
+Do not warn on mv -i (fixes #1251)
+Check popd flags for -n (fixes #1252)
+Remove unused import
+Make end pos non-optional
+Change getNextId to create a zero width span at new id
+Change usage of endPosOfStartId to startSpan and endSpan
+Add api to begin and end a span of source code
+Correctly consider $'..' a literal (fixes #1242)
+Remove unnecessary dot
+Add end pos to readSingleQuoted
+Add end pos to readDollarBraced
+Add end pos to readDollarVariable
+Add function to set end pos of start id
+Remove usage of withNextId
+Support emitting a correct end column on SC2086
+Show tags in travis output
+Update CHANGELOG after release
+Stable version 0.5.0
+Warn about string operations on $@/$* (fixes #1236)
+Check if builtin cd is called
+Parse here docs as per spec (fixes #1050)
+Add a unit test and separate ids for 884eff0c
+Add T_SourceCommand to wrap source commands and sourced code
+Warn about unnecessary subshells in tests
+Handle offset references of the form [foo]:bar (fixes #1124)
+Suppress SC2016 for git filter-branch (fixes #196)
+Assignments are okay in SC2094 (fixes #1192)
+Add Data.Monoid
+Make .ghci look in ./src
+Don't think declare -x -F var is used (fixes #1209).
+Clarify 'export' suggestion in SC2034 (unused vars).
+Add unset to list of commands exempt from 2016
+When given a %* format string, expect one more argument
+Change to aeson (fixes #1085)
+Remove unused code
+Whitelist rename for SC2016 (fixes #1199)
+Refactor sudo checks into CommandChecks
+Warn about invalid arguments to sudo
+Update gallery of bad code
+Account for array index in SC2154 ${var:?} (fixes #1166)
+Remove 'nice' from list of non-reading commands (fixes #1169)
+Warn about elseif or elsif as command names (fixes #1177)
+Add FreeBSD installation instructions
+Added scoop install
+Allow stripping unit tests
+hlints
+bump to latest ghc
+Blacklist base 4.6.0.1 to disable GHC 7.6.3 (#1131)
+Add info on connecting to removable-media interface in snap description
+Add snap install instructions to README
+Add snapcraft generated files to the Git tracking ignore rules
+Add removable-media plug so that scripts in removable media can be checked
+Enable strict mode with home access
+Warn when printf arg count is not a multiple of format count
+quickrun script now works with new source layout
+Consider type a valid command in sh
+Attempt to fix snap build
+Suggest quoting expansions in for loop globs
+Encourage users to use stable rather than latest
+Allow more Docker build caching
+README - Travis script for updating shellcheck ver
+Add TravisCI Build Status file
+Simplify Dockerfile
+Simplify Dockerfile
+Move library into src/
+Add custom-setup stanza and containers lowerbound
+MacPorts version appears unmaintained. Remove from docs.
+Update CHANGELOG with $var[ and here doc expansion fixes
+Functionality for emitting parse errors but still continue
+Add a debugParseScript for development
+Update changelog with associative arrays in (()) fix
+Rely upon /usr/bin/env to find bash
+Raise error unless interpreter supports globstar
+Check for calls to `which`.
+SC2229: Warn about 'read $var'
+Update changelog
+Add missing import
+Update Travis CI part in README.md
+Warn about 'while!' and 'while:'
+s/parser error/syntax error/g
+Improve message for SC2163 (export $var). Helps #1117
+Add test for `local` keyword in SC2154
+Mention shellcheck-static for Arch
+SC2029: Skip when there are options to ssh
+SC2029: Add false positive test
+Add unit test for issue #1091
+Use readVariableName combinator
+Remove unused here doc boundary concept.
+Mention SC2224-6 about mv/cp/ln without destination
+Warn about C-style comments
+Make docker image shellcheck-alpine behave more like alpine.
+Add snapcraft.yaml to build snap package
+Update openSUSE instruction
+Improve indented here doc token message.
+Extend SC2216/SC2217 with 'true' and 'false'
+convert http:// URIs to https://
+Stable version 0.4.7
+Add a changelog
+Cabal: Don't make executables depend on library
+Use Data.Map.Strict instead of Map.insertWith'
+Try to warn when using directives after commands (#981)
+Improve directive parsing
+Warn when using directives in front of elif and case items (#1036)
+Improve automated docker builds and tagging
+Dockerfile renamed "shellcheck" to "bin". Unbreak it.
+Add Table of Contents in README.md
+Enable syntax highlight in README.md code block
+Add Alpine-based docker image
+Don't suggest $@ in [[ $* = "" ]] (#976)
+Warn when one case pattern overrides another.
+Warn about missing default case for getopts.
+Don't suggset quoting in grep -- -foo bar* (#517)
+Suggest (( expr )) over let expr (#813)
+Add ^@![]/ to allowed function characters (#909)
+Updated readme installation instructions
+Add support for -a: emit for sourced files.
+Documented binary cabal install for MacOS
+Autogenerate list of formats for --help
+Use spaces with list of dialects in --help for consistency
+List available output formats in --help output
+Add storage bucket listing to readme
+Add Stack as install method
+Warn when calling functions before defining them.
+Improve message for SC1052-54 about 'then;'
+Don't warn about missing path for find -O3 . (#942)
+Swap SC1041 and SC1042 for better sort order.
+Improve here doc diagnosis
+Use standard Haskell 'void' instead of custom
+Mention docker release tags in readme
+Suggest explicit escape "\\n" for "\n"
+Ignore leading \ for commands (#927)
+Warn when piping/redirecting to mv/cp/echo/etc (#921)
+Improve parsing of line breaks in for statements (#926)
+Don't complain about missing space in {( (#937)
+Warn when commands start with dashes (#938)
+Mention correct operator when warning about spaces around += (#944)
+Skip command argument when checking trap signal specs (#946)
+Add Linux binaries to readme
+Make TravisCI auto-build Linux executables.
+README: style fixes, add Neomake
+Analytics.hs: Refactor cd, popd and pushd checks
+Link to Windows executables in the Readme
+Zip compiled Windows executables.
+Autobuild Windows .exe files
+Allow escaping ( with quotes in [ .. ]  (#925)
+Don't trigger SC2026 when followed by empty literals (#923)
+add compilation documentation for test runners
+Avoid rescanning tree for lastpipe on every node.
+Recognize bash's `shopt -s lastpipe`
+SC2114 about rm -rf /usr is no longer silenced by --
+Recognize missing and superfluous cases in getopts loops.
+Treat + like :+ to squash SC2068
+Mention DevGuide in the README
+Allow comments after shellcheck directives.
+Update Docker instructions.
+SC2174: Do not warn at `mkdir -pm 0700 ../foo`
+SC2164: Make SC2164 apply to `pushd` and `popd`
+Add VSCode integration to editor list
+Improve and deduplicate string comparison warnings.
+Document shell directive added by 944313c6
+Parse ksh nested arrays and warn about var=((
+Parse empty [ ] conditionals
+Warn when using a glob as a command name.
+Warn when redirecting to a literal integer.
+Remove leftover debug trace
+Don't warn about quoting variables in [ -v 'bar[$foo]' ]
+Don't trigger SC2037 when quoting (PAGER="cat" foo)
+Recognize more invalid shebangs
+Don't warn about [ -v foo ] being unassigned.
+Replace _otherwise with _ in cases
+Implement fixes suggested by HLint
+Don't suggest \[\] in PS1 for non-bash
+Warn about unquoted expansions in arrays.
+Don't suggest removing $ for (( $! + ${!var} ))
+Update README.md
+Update README.md
+Update README.md
+Update resolver
+Stable version 0.4.6
+Add missing import
+Don't suggest indirection for 'declare var$n=foo'
+Add HandBrakeCLI to list of stdin swallowing apps
+Update README.md
+Decode UTF-8 sequences over 0x10FFFF as latin1
+readme: Add ALE Vim plugin
+Add less common actions to find -o check.
+Don't parse unicode quotes as real quotes.
+Getting command name from busybox now gets applet name
+Manually decode input files as lenient UTF-8.
+Don't warn about grep pattern issues when using -F.
+Warn about += bashism in sh and dash.
+Warn when finding HTML entities like &amp;
+Count | as a regex metacharacter for 2076.
+Add TravisCI Setup to README.md
+SC2164: show two possible variants for circumenting the warning
+Warn about ( -d foo ) and similar.
+Update Analytics.hs
+Update Analytics.hs
+This commit fixes #803
+This commit fixes #797
+Warnings for braces/globs/arrays in [/[[.
+Warn when using deprecated egrep/fgrep.
+Update README.md
+Warn about comparisons and cases that can never match.
+Minor 2% parser speedup
+Improve code for warning about escaped single quotes.
+Warn about missing and invalid subscripts in array assignments.
+Warn about missing space in [ foo= bar ]
+add missing references to dash
+README.md: sort package managers, add emerge (Gentoo)
+Don't warn about .sh.version being unused (for Ksh)
+Add warnings about redirections without commands.
+Count "%(%Y%m%d)T" as a single format in printf.
+Improve heredoc delimiter handling.
+Don't quote source in 2041 and 2043.
+Alias ash to dash with warning.
+Add deprecation warning for tempfile
+Explicitly import Data.Monoid
+Save string read by T_ParamSubSpecialChar
+Add handling for special characters in parameter substitutions.
+Use $TRAVIS_TAG in $TAG if defined
+Add info/link on ignoring issues to README
+Allow spaces/comments before filewide annotations.
+Some cleanup and refactoring.
+Push git tags to dockerhub as docker tags
+Use camelcase for cabal commands to align with stack.
+Reformat issue template
+Create ISSUE_TEMPLATE.md
+Stable version 0.4.5
+Improve parsing of fd close/duplicate redirections.
+Allow unrecognized directives with warnings.
+Don't warn about [ a '>' b ] needing escapes.
+Split duplicate SC1009 into SC1014 for if [ grep foo bar ]
+Don't suggest grep -c when used with -o
+Add info when using 'find' without path
+Consider ${foo:=bar} an assignment.
+Don't consider ~foo constant.
+Warn about passing globs to `unset`.
+Warn about >& in sh
+Don't warn about unused vars with readonly -f
+Change DOCKER_REPO value and add test runner
+Use cleaner escaping method
+Change syntax style for readability
+Test Dockerfiles and Travis CI on downstream repos
+Warn about printf hello world and printf "%s %s" foo
+Count b as a reference in ${a:b}
+Allow `#inline comments` without SC2046.
+Add style note for 'mycmd; if [ $? -eq 0 ]'.
+Support multidimensional KSH arrays and warn in Bash.
+add Dockerfile that will build shellcheck
+Don't suggest removing $ in (( ${COLUMNS-80} ))
+s/range/class/ when warning about tr '[abc]'
+Improve warning for 'else if'.
+Improve parser errors when reparsing array indices.
+Don't warn about missing shebang when using directives.
+Don't warn when $(seq) is used unquoted.
+Warn about (( 1 -lt 2 ))
+Performance: make readDollarExpr fail early if no $
+Improve parsing for ambiguous $((foo) ) and ((foo) ).
+Recognize declare -A statements when value is inlined.
+Parse indices of associative arrays properly
+Emit the end line in the JSON.
+Make SC1035 emit a proper end column
+PositionedComment and ParseNote contains end cols.
+Add Gentoo to supported distribution list.
+In (( x = y )), logic to not reference x also grabbed y
+Stable version 0.4.4
+Don't warn about a && b || c in if/while/until.
+Warn when arrays are appended/assigned scalars.
+Improve 'let' parsing, trigger unused var for ((a=1))
+Add missing warnings for {$i..10} similar to {1..$i}
+Add missing import
+Separate out command specific checks.
+Don't warn about LINENO in dash
+s/sh/bash/ in SC2176 because of posix guarantees.
+Warn about timing pipelines and compound commands in sh/dash.
+Allow parsing   'time ( foo )'
+Directives after the shebang now apply to the entire script.
+Add warning for multi-digit FDs in posix/dash.
+Add stack support
+Improve error for missing final ) in $((foo)
+Support parsing $((( as $( ((, with warning.
+Add warning for trailing spaces after \ breaks.
+Improve expansion in single quote false positives.
+Ignore SC2055 if rhs of either != is a glob.
+Add special case warning to quote in eval echo {1..$n}
+Update README.md
+Stable version 0.4.3
+Use system over callCommand to allow linking on ghc 7.6.3.
+Add >= process-1.2.0.0 as dependency due to custom build.
+Stable version 0.4.2
+Make SC2174 only trigger for nested directories.
+Add a warning when you mkdir with both -p and -m.
+Change cabal Build-Type to Custom to actually use Setup.hs.
+Allow escaped characters in [..] globs
+Don't warn about quoting for [ -v var ]
+Add more variables which are assumed to be set.
+Add scripts for running shellcheck/tests interpreted.
+Let SC2094 ignore echo/printf/sponge.
+Warn about missing space in 'function foo{'.
+Mention -- as alternative to ./* in SC2035
+Don't warn about deprecated `` when just used for comments.
+Document --color in the man page.
+Shorten long help line
+Make use of --color with no argument equivalent to --color=always
+Add initial support for --color
+Delete trailing whitespace
+Mention that cabal installs to ~/.cabal/bin
+Updating README.md to take over for shellcheck.net/about.html
+Properly handle escaped double quotes in quoted backtick expressions.
+Trap warnings for kill/stop, non-XSI ints, "sig"-prefix and casing.
+Consider "echo $(<file)" a bashism, and don't warn about UUOE.
+Count declare -p as a variable reference.
+Warn about non-posix function names like x-y
+Update getFlag function  to also return non-flags.
+Support parsing quoted test operators, and also warn about unicode dashes.
+Count ~/ as dynamic for resolving source paths.
+Warn about ]] with no corresponding [[.
+Don't trigger constant checks for -ot/-ef/-nt
+install instructions for openSUSE
+Include bash builtin arrays in SC2128.
+Account for dereferencing for numerical ops in [[ ]].
+Don't warn about undefined HOSTNAME if it's being assigned.
+Don't warn about empty assignments when at end of command.
+Add dash as a first class supported shell.
+Add warning about local in sh or not in bash functions.
+Warn about non-posix %q and flags for printf.
+Split SC2165 messages into separate codes (2167).
+Document exit codes in man page.
+Don't consider {} and {a} brace expansions.
+Don't warn about quoted rhs of =~ when not a regex.
+Don't warn about disrespected quotes in ${#var}.
+Warn about ${!var} in POSIX mode.
+Don't warn about comparisons when redirecting stderr for test.
+Account for set -o errexit and #!/bin/bash -e for unchecked cd.
+Warn about [ -n foo ] when foo is entirely constant.
+Add Fedora install procedure to README.md
+Stable version 0.4.1
+Stable version 0.4.0
+Support {n}>&1 named file descriptors.
+End here doc tokens on < and >.
+Parse ksh ${ ..; } expansions.
+Warn when using unescaped parens in eval.
+Parse double arithmetic negation, i.e. (( !!a ));
+Added FlexibleContexts extension in Parser.hs to fix compilation.
+Support nested trinary expressions.
+Don't consider ${!os*} reference of 'os'
+Adds support for a SHELLCHECK_OPTS environment variable.
+Ignore === in assignments, and add a special warning 1097 for ==.
+Improved parsing error expected messages.
+Also warn about missing 'then' before 'else'
+Adds a #shellcheck source=file directive to override source statements.
+Don't warn about uuoc for cat -n and similar.
+Update man page with info for -x.
+Preliminary support for sourced files.
+Moved the various AST convenience functions to a separate module.
+Warn about undefined behavior of test -a and -o.
+Avoid new 2129 warnings when disabling the first one.
+Stop 2164 and 2103 about 'cd foo || exit' from overlapping.
+Warn about bashism [^bar].
+Removed unused pragma.
+Separated formatters into multiple files.
+Some cleanup to make room for future improvements.
+Less confusing message for SC2140
+Warn about zero-width spaces.
+cleanup
+Don't warn about unquoted :+ expansions.
+Warn when nested loops have conflicting variable names.
+Warn about 'cd' when not used as part of a conditional
+Warn about 'export $foo'
+Warn when using read without -r
+Special case messages for [ true ] and false/0/1
+Add a .ghci file to allow running ghci without cabal repl
+Makes literal check work for args to -z and -n
+Warn about [ foo ] when "foo" is non-constant with constant parts.
+Make 2077 point to the = in [ foo=bar ]
+Allow escaped linefeeds to break lines in $(())
+Added bug reporting info to README.md.
+Added copyright notice to individual source files.
+Included copyright information in the man page.
+Stable version 0.3.8. Now GPLv3!
+Relicense from AGPL v3 to GPL v3.
+Made SC2082 indirection message more sh friendly.
+Don't consider declare -Ffp assignments.
+Don't warn about unpassed parameters if used in child functions.
+Don't warn about 2>&1 > foo if piping or capturing.
+Allow empty scripts, $()s and <()s. Also improves related error messages.
+Make quoted tilde message suggest $HOME instead.
+Added install instructions for native Windows
+Don't output ansi escape codes on Windows
+Account for brace expansion in SC2115 (catastrophic rm).
+Don't warn about a&&b||c if c == printf
+Warn about injecting filenames into sh -c strings with find.
+Count mapfile/readarray as variable assignment
+Parse variables and subexpressions in brace expansions
+Warn when failing to quote here strings.
+Don't warn about a/b*c for ksh or when b == c
+Warn about glob matching in [[ ]] for != as well as ==.
+Warn on unindexed references for implicit arrays.
+Stable version 0.3.7
+Added multiple new checks from checkbashisms
+Switch from regex-compat to regex-tdfa
+Add expect to list of known non-shells
+Declared FlexibleContexts for GHC 7.10
+Stable version 0.3.6
+Remove zsh specific variables.
+Killed Zsh support
+Include [] as glob chars to warn about quoting for
+Warn about export/declare/local masking return values.
+Improved missing shebang message.
+Multiple wrong assignment warning fixes
+Improve SC2143 error message
+Add warning for vars that are referenced but not assigned.
+Warn about obviously bad return values, like -1 or "foo"
+Don't warn about modifying $@ or $IFS in a subshell
+Count [[ -v foo ]] (and -R) as a variable reference
+Add filename to JSON output.
+Track variables created through coproc.
+Add support for coproc
+s/deprecated/legacy/ for backtick warnings.
+Rewrote catastrophic rm detection, now simpler and more robust.
+Add a pre-sdist hook to compile the man page (Github issue #247).
+Suppress SC2140 if the user just prefers quoting single items at a time.
+Warn when trying to find -exec "shell command" \;
+Warn about redirecting to globs in sh
+Stable version 0.3.5
+Warn about 'for $var in values'.
+Better warnings for repeated ;;s
+More lenient line feed handling in test expressions.
+typo fixes - https://github.com/vlajos/misspell_fixer
+Don't warn about ${args[@]} when nested in other ${}
+Allow export "foo"="bar" in 2140
+Warn about `` in ''
+Added -or and -print0 to SC2146
+cat "$@" is not UUOC
+Removed Arch from readme, added Debian.
+Don't warn about unpassed parameters in functions using 'set ..'.
+Improve messages for missing 'then' statements.
+Consider find -exec when warning about vars in single quotes.
+Warn about swapped !# in the shebang.
+Don't trigger SC2004 for (( $$ ))
+Don't crash on empty files with -f gcc.
+Update ShellCheck.cabal
+Only warn once per unused variable name.
+Prevent overlap of 2116 and 2005 in foo $(echo $(bar))
+Improve warnings for $ in (()). Also improves array subscripts.
+Ignore SC2033 when passing quoted function names.
+Require a QuickCheck that doesn't break on UTF-8.
+Warn about missing shebangs.
+Better handling of directories and inaccessible files.
+Check PS1/PROMPT_COMMAND/trap for simple variable references
+Warn about quoted ~ in PATH
+Warn about ineffectual quotes in a="/foo/'bar baz'"; $a
+Parse empty and comment-only backtick expansions.
+Stable version 0.3.4
+Removed Makefile from cabal file
+Warn about precedence in find -name -o -name -exec.
+Parse let arguments as arithmetic expressions.
+Support indices in array declarations
+Delete outdated Makefile.
+Allow escape sequences in here documents.
+Removed accidentally submotted debug code
+Updated readme
+Don't warn when using find -print0 | xargs --null
+Reworked arithmetics to allow composite terms
+Removes trailing whitespace.
+Adds homebrew installation steps to README.
+Warn when concatening strings and arrays.
+Support ;& and ;;& in case statements
+Updated Extra-Source-Files accordingly with #165
+Add extra source files in the source tarball
+Collection of HLint fixes
+Updated README with new cabal instructions
+Removed outdated version comment
+Test Suite in Cabal (cabal test)
+Stable version 0.3.3
+Also check nested ifs for ssh/ffmpeg in read loops
+Using a more complete Haskell .gitignore
+Use version from generated cabal Paths module
+Check for globs in test, e.g. [[ -e file* ]]
+Don't warn about splitting in select statements
+Suggest grep -q instead of [ "$(.. | grep)" ]
+Warn about aliases referencing $1/$*/$@
+Added a shellcheck-static Makefile target
+Warn about suspicious IFS, such as IFS="\n"
+Warn about literal, unquoted {/}
+Warn about using numerical test operators with strings
+Don't warn about &&+|| when used with return
+Improved error messages for SC2044/SC2045
+Warn about suspiciously unquoted literal parts like "var="value""
+Warn about aliases that expand at define time
+Warn about UTF-8 BOMs in scripts.
+Removed noisy SC1000 about unescaped $s
+Suggested updating cabal-install in the readme
+Allow zsh =(..) process substitution
+Don't warn about sed '$s/foo/bar/'
+Suggest grouping redirections when appending on 3+ lines
+Warn about foo=(bar baz); echo $foo
+Only get vars after the last option in read
+Add pandoc to needed dependencies
+Support for zsh short form for loops and anonymous functions
+Prevent SC2101 to collide with 2060 for tr -d [:space:]
+Don't warn when single quoting PROMPT_COMMAND and PS1
+Suggest grep -c for grep|wc
+Don't warn about single quoting $0 for xprop
+Don't warn about expr when using <, > and friends
+Stop using generic char 'c' in 2022
+Instructions for adding ShellCheck to PATH
+Add cabal update to install instructions
+Check for accidentally overriding $PATH
+Stable version 0.3.2
+Recognize declare -x as exporting variables
+Rename Unquotable to QuoteFree
+Count array indexes as references, even without $
+Don't suggest removing $ in (( 10#$n ))
+Don't warn about decimals in (( )) for zsh/ksh
+Warn about using <=/>=, and don't warn about -gt 1.2 in ksh/zsh
+Accept and warn about capitalization in keywords.
+readme: added compiler memory note
+readme: markdown for link rendering
+Don't warn about for s in "${!var}", it could be an array
+Check attempts to set variables with 'set'
+Don't warn about commas when quoted in a=("a,b")
+Warn about array assignments for /bin/sh
+Warn about functions using parameters that are never passed
+Don't warn about decimals when comparing with =
+Added support for |&
+Allow \n before and after ||/&& in [[ ]]
+Make the executable depend on the library
+Reformat ShellCheck.cabal for readability
+Warn about using 'su foo' to continue as foo
+Improved $(echo ..) warnings
+Some hlint fixes.
+Suggest useless use of echo for $(echo $var)
+Added better message for SC1007, for 'var= value'
+Added double prime to list of unicode quotes.
+Improve warnings for missing quotes.
+README: Updated URL, reformatted long lines
+Parse forward ticks (acute accents) just like backticks and warn.
+Some checks for accidental rm -r
+Stable version 0.3.1
+Added --version flag
+Added -s to the man page
+Added -s flag to override dialect, e.g. -s ksh
+Replaced parser error for 'function' with shell-aware check.
+Don't consider last stage of pipeline a subshell for Ksh/Zsh
+Refactoring, 25% speedup.
+Warn about break/continue in subshells and outside loops
+Removed duplicate check for [[ a == b + 1 ]]
+Check for [[ i + 1 = 2 ]]
+Warn about literal "\ " just like literal quotes.
+Macports install info thanks to @myint
+Allow {} in arithmetic for loops
+Don't warn about sed '$d' or '$p'
+Don't warn about comma separation in for f in {a,b}
+Parse but warn about "else if"
+Added Mac OS instructions with brew (relates #11)
+Stable version 0.3.0
+Cleaned up cabal file to make 'cabal check' pass.
+man page: Added Directives section
+Warn about 'cd $f; foo; cd ..' loop antipattern.
+Allow '# shellcheck disable=SC1234' to ignore by code.
+Don't warn about quotes in variables for eval
+Warn about abused char classes, such as [10-15] and [:digit:]
+expanded cabal file
+Parser: allow subshell function definitions
+Tweaked man page format
+Minor performance tweaks (~10% improvement)
+Warn about 'i=i+1' and 'i=i + 1'
+Added a shellcheck(1) man page
+Warn about 'foo=bar echo $foo'
+Don't warn about single quoted vars for ssh
+If printf string contains %, don't warn about using vars
+Parser: accept here doc token strings more liberally
+Warn about while read f; do ssh "$f"; done
+Don't require separator before do in 'for i do ..'
+Don't warn for A&&B||C if C is echo/exit/assignment
+Cleaned up command matching code
+Assume variables have spaces by default
+Assume variables have spaces/globs by default
+Added hint to suggest missing ;; in case
+Added --exclude to filter out warnings
+Replace Prelude.catch with Control.Exception.catch
+More discriminating error codes
+Exit with 1 on comments and 2 on failure
+gcc output mode now uses a tab width of 1
+Support for checkstyle compatible xml output
+Added gcc compatible output for editor integrations
+Removed jsoncheck. Use 'shellcheck -f json -' instead
+Added proper command line parsing
+\" should not be treated specially in `backticks`
+Show expose error code in shellcheck frontends
+Numbered messages
+updated debian/ubuntu required packages
+Accept ./? in function names
+Don't warn about expr if using : operator
+Added Fedora prerequisites in README
+Don't warn about single quotes in args to perl
+Accept dir-/basename due to edge cases like "/" and "foo"
+gitignore and makefile for building with cabal and make
+Stable version 0.2.0
+Use exit status and stderr properly in terminal tool
+README: clarify build step
+Suggest ./* instead of * for command arguments
+Improved assignment parsing: track indices and += vs =
+Warn about unicode quotes
+Don't warn about unused variables for read ''
+Move command and variable lists to ShellCheck.Data.
+build: update recommended Ubuntu package list
+build: include all binaries for clean
+Suggest pgrep when grepping ps
+Warn about assigned but unreferenced variables
+Parse the contents of unquoted here documents
+Warn about client side expansion in ssh strings/heredocs.
+Allow :+- in function names. :(){ :|:;};:, anyone?
+Don't warn for 'find .. | xargs -0' or 'ls -N | ..'
+Stable version 0.1.0.
+Clarified warning for expr
+Don't warn about redirecting sudo to /dev/null
+Allow lack of spaces/separators in for((;;))do ..
+Warn about suspicious quotes in "foo "$var" bar"
+Tried to make [ foo=bar ] messages simpler
+Don't warn about echo "--------" is posix mode
+Don't warn for \. (regex) and \, (printf "%q" output)
+Don't warn for $ on $(( ${array[refs]} ))
+Don't warn about IFS= read ..
+Added $PWD as a variable likely to contain spaces
+Generalized for f in $(ls) warning, due to many edge cases.
+Support for recursive regex groups
+Also allow array syntax for args to readonly.
+Don't suggest ${foo//bar/baz} for #!/bin/sh
+Improved messages for missing spaces in [..]
+Warn for [ \( foo = bar\) ]
+Don't try to parse $'..' in ""
+Simplified PS1 checks.
+Parser support for export a=(b c). Also declare/local/typeset.
+Better unquoted message, seeing as how it's so common.
+Added bashism warning for &>
+Added check for for f in $(find ..) similar to $(ls)
+Warn for [ $foo = *glob* ]
+Added missing id/recursing defintions for DollarBracket
+Moved shebang verification to parser
+Don't try to parse scripts declared as perl, ruby or python
+Parser support for $[..], plus deprecation warning.
+Reformatted ugly AST definition
+Improved bad indirection detection
+Improved help for missing here doc terminator.
+Don't warn about quoting when $var is the command name.
+Check for 'echo "\n"'.
+Don't warn about f=/dev/null in 'foo $f > $f'
+Mention second level structure being parsed when error.
+Removed warning for ~ in the middle of strings. Too common.
+Warn about $() but not quotes in 'if $(cmd); ..'
+Added and improved parse warnings for missing spaces.
+Added check for 'exec foo; cmd'
+Added check for functions used with sudo/xargs/etc
+Doubled speed by applying all checks in one iteration.
+Added check for './ file'. Apparently people do that.
+Added check for ~ in quotes
+Warn for possible bad quote nesting like 'echo 'foo''
+Added most checks from 'checkbashisms'. Thanks to Braakman, Rodin and Gilbey!
+Added recursive parsing support for `..`
+Added awkward check for PS1 escapes outside \[..\]
+Added warnings for sudo cmd > file
+Initial Cabal file
+Don't start comments for #s in the middle of words. Thanks Mitch!
+Improved regex parsing. To think [[ f =~ f( ]] )* ]] is valid..
+Warn about arg='--foo="bar"'; cmd $arg
+Rewrote variable tracking code for future expansion
+Also check for overridden time parameters for /bin/sh
+Different checks per shell, and increased bashism detection.
+Added check for 'time --format' and such, which Bash swallows.
+Added error for ${foo$n}
+Added warning for foo$n=42
+Don't complaing about lack of quotes for 'local' and 'declare'
+Allow [ foo \> bar ], while warning for [[ .. \> .. ]] and [ 1 \< 2 ]
+Warn for test n > 4
+Better messages for ignored backslashes like 'echo foo\n'
+Warn for subshell modifications using 'let'
+Warn for [[ $foo > 3.14 ]]
+Quick hack to read and discard array indexing in arithmetic contexts
+Warn on "grep foo*.jpg" and "grep *foo*"
+Add check for [[ "foo" ]]
+Return list of notes rather than a Map -> Map
+Also warn for '$((foo)) $(cmd) ${foo}', not just '$foo'
+Warn against open parenthesis in normal words
+Split up numerical and legal binary op function
+Improved empty then/elif/else clause errors
+Warn on trap "echo $num" USR1
+Warn on for f in 1,2,3 and for f in ls;
+Check if =~ is applied to something that looks like a glob
+The test cases are fun, but not up to date. The unit tests are better.
+Add warnings for empty then clauses
+Added warning for empty do clauses
+Make [[ foo=bar ]] check say 'operator' instead of '=', because !=
+Parse single/double quoted literals in arithmetic context
+select loops and bases in arithmetic contexts
+Don't warn for awk '$1'
+{1..$n} is only a problem in Bash
+Hacked in place warnings for if [[ 1 ]] then :; fi
+Parsing support for array indices in assignments.
+Removed superfluous messages for [ cow]
+Added warning for find . -execdir rm *.jpg \;
+Read any -* as binary/unary op, and warn on unknown.
+Added check for bashisms with #!/bin/sh
+Added check for "#!/usr/bin/env bash -x"
+Parse the shebang separately
+Support for arithmetic for loops.
+Added warning for { if :; then :; fi > cow }
+Revert "Added warning for fi }, and not for ) }"
+Added warning for fi }, and not for ) }
+Added better malformed parsing messages
+Compile with -O9
+Check for tr hello world
+Parser help with globs, fixed message for grep foo\*
+Added check for find / -exec foo && bar \;
+Warning for dirname/basename
+Added parsing support for $'..', which also fixed bug in `\``
+Added support for process substitution
+Added error for cat << (foo)
+Added [[ op -v and -R
+Added check for for f in $(cat foo)
+Check for [[ $foo =~ '.*' ]]
+Added check for $(expr 3 + 2)
+Misspelled 'deprecated'
+Added check for while $((n>3)); do ..
+Stop treating backticks as literals.
+Added slightly better ${..} parsing
+Suggest IFS='' as style for assigning empty vars.
+Added check for grep foo*
+Added check for find / -name *.php
+Added check for 'foo(a,b) {', support 'function foo {'
+Punctuated message.
+Added better message for missing ]/]]
+Added grep | sed check like existing grep | awk.
+Added more robust a=cat foo | grep bar checker
+Added check for a=ls -l
+Added check for A=foo | grep bar
+Added extglobs as splitting words
+Added checks for tr a-z A-Z and [asdf]
+Case statements are now rightfully unquotable contexts
+Even more robust then/fi/do/done feedback
+More robust fi/done mixup reporting
+Added check, for f in 'find /'; do ..
+Check for if[ foo ]
+Added more helpful message for 'if [ grep .. ]'
+Made unquoted $(..) check more robust
+Replaced common commands from /bin to posix utility list
+Removed trailing whitespace
+Added check for constant [[]] expression, e.g. [[ a == b ]]
+Added warnings for then/fi/do/done treated literally.
+Added a check for spurious }s
+Added check for echo $foo | wc -c
+Added check for echo $a | sed s/foo/bar/g
+Added better space/glob checks
+Added ulimit to test script because lol debugging
+Added extglob support that actually works
+Added check for [[ a != foo || a != bar ]], and same for (( ))
+Moved Eq Token instance to AST where it belongs
+Added extglob support
+Added checks for multiple pipe combinations.
+Added the regex lib as a dependency
+Typo
+Added some more punctuation to messages.
+Give it some attitude
+Homogenized punctuation across messages.
+More helpful errors for partial if statements
+Accidentally made quackCheck non-executable
+Never mind quackCheck
+Added readme and licenses
+Support a+=foo
+Removed bash, true and false from [ command ] check, since these could be values
+Cleaned up analytics notes
+Moved AST into its own file
+Added check for printf "$var"
+Added check for [[ foo == $bar ]]
+Added check for $(($n))
+Rewrote the horrible analyze code
+Added support for parsing arithmetic context
+Added warning for {1..$N}
+Added check for [ a==b ]
+Added more [[]]-related checks
+Added parser for [[]]/[] with associated errors
+Minor text modifications
+Added reason in messages about subshells
+Added a json interface
+Renamed much of the ShellCheck.Simple interface
+Renamed from codename Shpell to final name ShellCheck.
+Ditched the stunted concept and added better warnings
+Check for attempted expansion in single quoted variables
+Warnings for unquoted positional parameters
+Added read/export as variable modifying commands for subshells
+Made Makefile marginally less sucky
+Revert ""modified" -> "set" for subshell var messages"
+Added subshell variable detection cases
+"modified" -> "set" for subshell var messages
+Basic subshell detection in place
+Added support for stack based analysis
+Less sentience
+Show 'eof' instead of blank string in unexpected token messages
+I'm tired of seeing this garbage in the changelog
+Added error for 2>&1 > lol
+Upgraded for f in $(ls ..) to Error. I mean, come on.
+Added and fixed checkes related to "$@"/$*
+Made lonely dollar not match $'..'
+Build shpell before running tests, in case of compiler errors
+Added warning for a && b || c
+Tweaked some messages and added more badcases
+For * in `ls` case now uses $(..)
+Added Makefile and horrifying test framework
+Made tool seem less sentient
+Gave Parsec errors proper positioning info
+Added some test cases, not all of which are supported yet
+Minor reformatting
+Added cute simplified API plus a CLI frontend
+Moved analytics out of the ParsecT monad and into its own module
+Moar errors
+Added warning for &;
+Added check for using a file in the same pipeline as a redirect
+Added warnings for then;, else;
+Rewrote the whole Annotation thing.  Added quickCheck tests.
+Initial version

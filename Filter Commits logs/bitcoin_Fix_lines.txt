@@ -1,0 +1,2199 @@
+Merge bitcoin/bitcoin#26418: Fix signing of multi_a and rawtr scripts with wallets that only have corresponding keys
+Merge bitcoin/bitcoin#26402: doc: Fix typos
+Fix: typos
+Merge bitcoin/bitcoin#26394: Fix typo in comment SHA256->SHA512
+Fix typo in comment SHA256->SHA512
+Merge bitcoin/bitcoin#26381: test: Fix intermittent issue in p2p_sendtxrcncl.py
+Merge bitcoin/bitcoin#26275: Fix crash on deriveaddresses when index is 2147483647 (2^31-1)
+[net processing] Fixup TryLowWorkHeadersSync comment
+test: Fix intermittent issue in p2p_sendtxrcncl.py
+Merge bitcoin/bitcoin#26344: wallet: Fix sendall with watchonly wallets and specified inputs
+Merge bitcoin/bitcoin#25322: build: Fix `capnp` package build for Android
+Merge bitcoin/bitcoin#26284: Fix comment typos
+Fix comment typos in scriptpubkeyman.cpp, wallet.cpp, wallet.h
+psbt: Fix merging of m_tap_tree
+Merge bitcoin/bitcoin#26212: contrib: Fix capture_output in getcoins.py
+contrib: Fix capture_output in getcoins.py
+Merge bitcoin/bitcoin#26149: Fix assert failure in miniscript string parsing
+Merge bitcoin/bitcoin#26132: wallet: Fix nNextResend data race in ResubmitWalletTransactions
+Fix nNextResend data race in ResubmitWalletTransactions
+Merge bitcoin/bitcoin#26005: Wallet: Fix error handling (copy_file failure in RestoreWallet, and in general via interfaces)
+Merge bitcoin/bitcoin#26091: test: Fix syncwithvalidationinterfacequeue calls
+Fix issues identified by codespell 2.2.1 and update ignored words
+Merge bitcoin/bitcoin#26037: test: Fix `wallet_{basic,listsinceblock}.py` for BDB-only wallets
+test: Fix `wallet_listsinceblock.py` for BDB-only wallets
+test: Fix `wallet_basic.py` for BDB-only wallets
+Merge bitcoin/bitcoin#25914: test: Fix intermittent issue in p2p_leak.py
+Merge bitcoin/bitcoin#25959: doc: Fix link to MurmurHash3.cpp (moved from Google Code to Github)
+Merge bitcoin/bitcoin#25915: test: Fix wallet_balance intermittent issue
+Merge bitcoin/bitcoin#25872: Fix issues when calling std::move(const&)
+Fix typo from PR25717
+Fix link to MurmurHash3.cpp from Austin Appleby
+test: Fix wallet_balance intermittent issue
+test: Fix intermittent issue in p2p_leak.py
+Fix iwyu
+Fix issues when calling std::move(const&)
+Merge bitcoin/bitcoin#25077: Fix chain tip data race and corrupt rest response
+[BugFix]: Do not allow deserializing PSBT with empty PSBT_OUT_TAP_TREE
+Fix logical race in rest_getutxos
+Fix UB/data-race in RPCNotifyBlockChange
+Merge bitcoin/bitcoin#25770: build: Fix help string for `--enable-external-signer` configure option
+build: Fix help string for `--enable-external-signer` configure option
+Merge bitcoin/bitcoin#25700: psbt: Fix unsigned integer overflow
+psbt: Fix unsigned integer overflow
+Merge bitcoin-core/gui#629: Fix translator comment for Restore Wallet `QInputDialog`
+gui: Fix translator comment for Restore Wallet QInputDialog
+Merge bitcoin/bitcoin#25668: refactor: Fix iwyu on node/chainstate
+refactor: Fix iwyu on node/chainstate
+Merge bitcoin/bitcoin#25643: depends: compile FastFixedDtoa with -O1 to fix cross-arch reproducibility for arm32
+Merge bitcoin/bitcoin#25641: Fix `-Wparentheses` gcc warning
+depends: modify FastFixedDtoa optimisation flags
+Fix `-Wparentheses` gcc warning
+build: Fix autoconf variable names for tools found by `AC_PATH_TOOL`
+Merge bitcoin/bitcoin#25624: fuzz: Fix assert bug in txorphan target
+fuzz: Fix assert bug in txorphan target
+Merge bitcoin/bitcoin#25488: doc: Fix typo in macdeploy
+doc: Fix typo in macdeploy
+Merge bitcoin/bitcoin#23418: Fix signed integer overflow in prioritisetransaction RPC
+rpc: Fix Univalue push_backV OOM in listtransactions
+Fix signed integer overflow in prioritisetransaction RPC
+refactor: Fix style in `initTranslations()` function
+qt6: Fix type registration
+Merge bitcoin/bitcoin#25425: build: Fix `::_wsystem` check
+Merge bitcoin/bitcoin#25424: build, qt: Fix `QMAKE_CXXFLAGS` expression for `mingw32` host
+build: Fix `::_wsystem` check
+build, qt: Fix `QMAKE_CXXFLAGS` expression for `mingw32` host
+Merge bitcoin/bitcoin#25352: test: Fix previous release binary download script for Apple ARM64
+test: Fix previous release binary download script for Apple ARM64
+qt: Fix `BitcoinAmountField`'s base widget
+qt, refactor: Fix `sendcoinsentry.ui` indentation
+Merge bitcoin/bitcoin#25333: test: Fix out-of-range port collisions
+test: Fix out-of-range port collisions
+Merge bitcoin/bitcoin#25312: test: Fix port collisions caused by p2p_getaddr_caching.py
+build: Fix `capnp` package build for Android
+[test] Fix port collisions caused by p2p_getaddr_caching.py
+Merge bitcoin/bitcoin#25294: test: Fix wait_for_debug_log UnicodeDecodeError
+Merge bitcoin/bitcoin#25298: doc: Fix command in "OpenBSD Build Guide"
+doc: Fix command in "OpenBSD Build Guide"
+test: Fix wait_for_debug_log UnicodeDecodeError
+Merge bitcoin/bitcoin#25276: doc: Fix typo in importdescriptors
+doc: Fix typo in importdescriptors
+Merge bitcoin/bitcoin#25200: doc: Fix spelling errors identified by codespell in comments
+Merge bitcoin/bitcoin#25216: Doc: Fix parameter in hwm example block
+Update zmq.md: Fix parameter in hwm example block
+Fixup option name in bench message
+doc: Fix spelling errors identified by codespell in coments
+Merge bitcoin/bitcoin#25176: Fix frequent -netinfo JSON errors from missing getpeerinfo#relaytxes
+Fix frequent -netinfo JSON errors from null getpeerinfo#relaytxes
+Merge bitcoin/bitcoin#25157: Fix -rpcwait with -netinfo returning negative time durations
+Merge bitcoin/bitcoin#25124: test: Fix intermittent race in p2p_unrequested_blocks.py
+Fix -rpcwait with -netinfo printing negative time durations
+Merge bitcoin/bitcoin#25095: rpc: Fix implicit-integer-sign-change in gettxout
+Merge bitcoin/bitcoin#25123: test: Fix race condition in index prune test
+test: Fix race condition in index pruning test
+rpc: Fix implicit-integer-sign-change in gettxout
+test: Fix intermittent race in p2p_unrequested_blocks.py
+Merge bitcoin/bitcoin#25046: build: Fix `libmultiprocess` cross-compiling to Linux hosts
+Merge bitcoin/bitcoin#25042: lint: Fix lint-circular-dependencies.py file list
+build: Fix `libmultiprocess` cross-compiling to Linux hosts
+lint: Fix lint-circular-dependencies.py file list
+Merge bitcoin/bitcoin#24958: build: Fix macOS Apple M1 build with miniupnpc and libnatpmp. Again :)
+Merge bitcoin/bitcoin#24739: test: Fix intermittent test failure in wallet_listreceivedby.py
+Merge bitcoin/bitcoin#24392: build: Fix configuring depends with cmake
+Merge bitcoin/bitcoin#24454: tests: Fix calculation of external input weights
+build: Fix `AC_CHECK_HEADERS` and `AC_CHECK_LIB` for `libnatpmp` package
+build: Fix `AC_CHECK_HEADERS` and `AC_CHECK_LIB` for `miniupnpc` package
+build, refactor: Fix indentation
+Merge bitcoin/bitcoin#24919: doc: Fix a link to `test/lint/lint-python.py`
+doc: Fix a link to `test/lint/lint-python.py`
+Merge bitcoin/bitcoin#24855: rpc: Fix `setwalletflag` disabling of flags
+qt: Fix headers
+test: Fix intermittent test failure in wallet_listreceivedby.py
+Merge bitcoin/bitcoin#24733: build: Fix "ERR: Unsigned tarballs do not exist"
+build: Fix "ERR: Unsigned tarballs do not exist"
+Merge bitcoin/bitcoin#24716: rpc: Fix documentation assertion for `getrawtransaction`
+Merge bitcoin/bitcoin#24715: build, test: Fix test logfile name
+rpc: Fix documentation assertion for `getrawtransaction`
+build, test: Fix test logfile name
+Merge bitcoin/bitcoin#24523: build: Fix Boost.Process test for Boost 1.78
+Merge bitcoin/bitcoin#24691: Fix getpeerinfo doc
+doc: Fix getpeerinfo doc
+Merge bitcoin/bitcoin#24666: refactor: Fix coinselection.h include, Make COutput a struct
+wallet: Fix coinselection include
+Merge bitcoin/bitcoin#24579: doc: Fix getblockchaininfo/getdeploymentinfo RPC docs
+Merge bitcoin/bitcoin#24535: test: Fix generate calls and comments in feature_segwit
+build: Fix Boost.Process test for Boost 1.78
+test: Fix generate calls and comments in feature_segwit
+Merge bitcoin/bitcoin#24578: test: Fix intermittent failure in feature_segwit
+Revert "build: Fix gcc-cross-x86_64-w64-mingw32-10.3.0 in Guix"
+test: Fix intermittent failure in feature_segwit
+doc: Fix getblockchaininfo/getdeploymentinfo RPC docs
+Merge bitcoin/bitcoin#24521: build: Fix Boost.Process detection on macOS arm64
+build: Fix Boost.Process detection on macOS arm64
+Merge bitcoin/bitcoin#24516: build, ci: Fix MSVC builds and other improvements
+Merge bitcoin/bitcoin#24371: util: Fix `ReadBinaryFile` reading beyond maxsize
+Merge bitcoin/bitcoin#24397: build: Fix Boost.Process check for Boost 1.73 and older
+Merge bitcoin/bitcoin#22546: build, qt: Fix `make deploy` on M1-based macOS with system frameworks
+Merge bitcoin/bitcoin#24426: test: Fix intermittent Tsan issue
+Merge bitcoin/bitcoin#24406: test: Fix Wambiguous-reversed-operator compiler warnings
+test: Fix intermittent Tsan issue
+build: Fix Boost.Process check for Boost 1.73 and older
+test: Fix Wambiguous-reversed-operator compiler warnings
+Merge bitcoin/bitcoin#24263: doc: Fix gen-manpages, rewrite in Python
+build: Fix configuring depends with cmake
+Fixup style of VerifyDB
+Merge bitcoin/bitcoin#24231: streams: Fix read-past-the-end and integer overflows
+Merge bitcoin/bitcoin#24347: rpc: Fix implicit-integer-sign-change in verifychain
+build: Fix a non-portable use of `test`
+util: Fix ReadBinaryFile reading beyond maxsize
+Merge bitcoin/bitcoin#24348: build: Fix Guix build for Windows (attempt 2)
+Merge bitcoin/bitcoin#24359: doc: Fix typos
+doc: Fix typos
+build: Fix gcc-cross-x86_64-w64-mingw32-10.3.0 in Guix
+rpc: Fix implicit-integer-sign-change in verifychain
+Merge bitcoin/bitcoin#24277: build: Fix `make deploy` for Windows when building out of source tree
+Merge bitcoin/bitcoin#24297: Fix unintended unsigned integer overflow in strencodings
+streams: Fix read-past-the-end and integer overflows
+Fix unintended unsigned integer overflow in strencodings
+Merge bitcoin/bitcoin#24196: Fix integer sanitizer suppressions in validation.cpp
+Merge bitcoin-core/gui#404: Fix various edge case bugs in QValidatedLineEdit
+Merge bitcoin/bitcoin#24195: test: Fix failfast option for functional test runner
+Fix integer sanitizer suppressions in validation.cpp
+Merge bitcoin/bitcoin#24227: Fix unsigned integer overflow in LoadMempool
+Merge bitcoin/bitcoin#24217: Fix unsigned integer overflow in tapscript validation weight calculation
+build: Fix `make deploy` for Windows when building out of source tree
+doc: Fix gen-manpages, rewrite in Python
+Merge bitcoin/bitcoin#24131: build, qt: Fix Windows cross-compiling with Qt 5.15
+Merge bitcoin/bitcoin#24219: Fix implicit-integer-sign-change in bloom
+Fix unsigned integer overflow in LoadMempool
+refactor: Fixup uint64_t-cast style in touched line
+Merge bitcoin/bitcoin#24218: zmq: Fix implicit-integer-sign-change
+Merge bitcoin/bitcoin#24190: test: Fix sanitizer suppresions in streams_tests
+Merge bitcoin/bitcoin#24192: test: Fix feature_init intermittent issues
+Fix implicit-integer-sign-change in bloom
+zmq: Fix implicit-integer-sign-change
+Fix unsigned integer overflow in tapscript validation weight calculation
+test: Fix feature_init intermittent issues
+Merge bitcoin/bitcoin#24168: Fix some race conditions in `BanMan::DumpBanlist()`
+Merge bitcoin/bitcoin#24203: doc: Fix typos pointed out by lint-spelling
+Merge bitcoin/bitcoin#24129: build: Fix xargs warnings for Guix builds
+doc: Fix typos pointed out by lint-spelling
+Fix race condition for SetBannedSetDirty() calls
+Fix data race condition in BanMan::DumpBanlist()
+test: Fix sanitizer suppresions in streams_tests
+Merge bitcoin/bitcoin#24134: build: Fix zeromq package when cross-compiling
+Merge bitcoin/bitcoin#24155: doc: Fix rpc docs
+doc: Fix rpc docs
+build: Fix xargs warnings for Guix builds
+Merge bitcoin/bitcoin#24095: util: Fix mis-swapped `prettyIndent` and `indentLevel` arguments
+util: Fix mis-swapped `prettyIndent` and `indentLevel` arguments
+Merge bitcoin/bitcoin#24059: Fix implicit-integer-sign-change in arith_uint256
+Fix implicit-integer-sign-change in arith_uint256
+Merge bitcoin/bitcoin#23980: doc: Fix typo in getmempoolinfo (z->s)
+Merge bitcoin/bitcoin#23981: doc: Fix typo in LoadBlockIndex
+doc: Fix typo in LoadBlockIndex
+doc: Fix typo in getmempoolinfo
+Merge bitcoin/bitcoin#23977: depends: Fix typo
+depends: Fix typo
+Merge bitcoin/bitcoin#23937: doc: Fix dumptxoutset RPC help doc
+Fixup style of moved code
+doc: Fix dumptxoutset RPC help doc
+script: Fix copyright_header.py
+Merge bitcoin/bitcoin#23840: doc: Fix -changetype help text
+Merge bitcoin/bitcoin#23817: build: Fix regression introduced in PR23603
+Merge bitcoin/bitcoin#23858: test: Fix rpc_scantxoutset intermittent issue
+build: Fix regression introduced in PR23603
+test: Fix pep8 of touched file
+test: Fix rpc_scantxoutset intermittent issue
+Merge bitcoin/bitcoin#22875: util: Fix Racy ParseOpCode function initialization
+Fix Racy ParseOpCode function initialization
+doc: Fix -changetype help text
+Merge bitcoin/bitcoin#23781: test: Fix `system_tests/run_command` on Windows
+test: Fix intermittent issue in p2p_addr_relay.py
+test: Fix intermittent test failure in feature_backwards_compatibility
+test: Fix "non-zero exit code" subtest in system_tests for Windows
+test: Fix "false" subtest in system_tests for Windows
+test: Fix "echo" subtest in the system_tests for Windows
+Merge bitcoin/bitcoin#23756: refactor: Fix implicit integer sign changes in strencodings
+build, android: Fix Android GUI not loading on Qt 5.15
+Merge bitcoin/bitcoin#23365: index: Fix backwards search for bestblock
+Fix implicit integer sign changes in strencodings
+Merge bitcoin/bitcoin#23603: build: Fix x86_64 <-> arm64 cross-compiling for macOS
+Merge bitcoin/bitcoin#23707: fuzz: Fix RPC internal bug detection
+fuzz: Fix RPC internal bug detection
+Merge bitcoin/bitcoin#23254: doc: Fix typo and grammar
+Merge bitcoin/bitcoin#23678: build: Fix build for Android x86_64
+Merge bitcoin/bitcoin#23693: Revert "Fixes Bug in Transaction generation in ComplexMempool benchmark"
+Revert "Fixes Bug in Transaction generation in ComplexMempool benchmark"
+Merge bitcoin/bitcoin#22856: test: Fix bug in transaction generation in ComplexMempool benchmark
+build: Fix build for Android x86_64
+build, qt: Fix regression in rendering on macOS Big Sur
+Merge bitcoin/bitcoin#23626: refactor: Fix implicit-signed-integer-truncation in cuckoocache.h
+The evhttp_connection_get_peer function from libevent changes the type of the second parameter. Fixing the problem.
+refactor: Fix implicit-signed-integer-truncation in cuckoocache.h
+Merge bitcoin/bitcoin#23617: doc: Fix typos in packages.md
+doc: Fix typos in packages.md
+index: Fix backwards search for bestblock
+build: Fix x86_64 <-> arm64 cross-compiling for macOS
+Merge bitcoin/bitcoin#22981: doc: Fix incorrect C++ named args
+doc: Fix incorrect C++ named args
+Merge bitcoin/bitcoin#23524: doc: Fix typos in endif header comments
+doc: Fix typos in endif header comments
+Merge bitcoin/bitcoin#23510: doc: Fixed dead link in build-unix.md
+Fix Arch linux dead link
+Merge bitcoin/bitcoin#23414: wallet: Fix comment grammar in bdb.h
+wallet: Fixed Grammatical error in bdb.h
+Merge bitcoin/bitcoin#22076: build: Fix `make apk` if ccache enabled, and enable it on CI
+build: Fix `make apk` if ccache enabled
+Merge bitcoin/bitcoin#23403: test: Fix segfault in the psbt_wallet_tests/psbt_updater_test
+Merge bitcoin/bitcoin#23380: addrman: Fix AddrMan::Add() return semantics and logging
+test: Fix segfault in the psbt_wallet_tests/psbt_updater_test
+Merge bitcoin/bitcoin#23332: doc: Fix CWalletTx::Confirmation doc
+Fix bnb_search_test to use set equivalence for
+doc: Fix CWalletTx::Confirmation doc
+Merge bitcoin/bitcoin#23271: crypto: Fix K1/K2 use in the comments in ChaCha20-Poly1305 AEAD
+Fix K1/K2 use in the comments in ChaCha20-Poly1305 AEAD
+Merge bitcoin/bitcoin#23258: doc: Fix outdated comments referring to ::ChainActive()
+Merge bitcoin/bitcoin#23303: test: Fix wallet_multisig_descriptor_psbt.py
+test: Fix wallet_multisig_descriptor_psbt.py
+Merge bitcoin/bitcoin#23148: build: Fix guix linker-loader path and add check_ELF_interpreter
+guix: Fix powerpc64(le) dynamic linker name
+Fix outdated comments referring to ::ChainActive()
+Fix typo and grammar
+style: Fix whitespace in Parse* functions
+doc: Fixup ToIntegral docs
+Merge bitcoin-core/gui#409: Fix window title of wallet loading window
+qt: Fix WalletControllerActivity progress dialog title
+Merge bitcoin/bitcoin#23200: Fix intermittent failure in wallet_send.py and rpc_fundrawtransaction.py
+Fix intermittent test failures due to missing sync_all
+Merge bitcoin/bitcoin#23178: util: Fix GUIX build with syscall sandbox
+test: Fix typos in tests
+Merge bitcoin/bitcoin#23064: fuzz: Fix memory leak in system fuzz target
+Merge bitcoin/bitcoin#23124: Fix feature_segwit.py failure due to witness
+fuzz: Fix memory leak in system fuzz target
+Fix feature_segwit failure due to witness
+[includes] Fix up included files
+Merge bitcoin/bitcoin#23061: Fix (inverse) meaning of -persistmempool
+Fix outdated keypool size default
+Merge bitcoin/bitcoin#22798: doc: Fix RPC result documentation
+Fix (inverse) meaning of -persistmempool
+doc: Fix RPC result documentation
+Fix BlockAssembler::AddToBlock, CTxMemPool::PrioritiseTransaction logging
+Merge bitcoin/bitcoin#22987: qa: Fix "RuntimeError: Event loop is closed" on Windows
+Merge bitcoin/bitcoin#22992: Fix Qt test broken by #22219
+Fix Qt test broken by #22219
+Merge bitcoin/bitcoin#22979: doc: Fix walletdisplayaddress RPC doc
+qa: Fix "RuntimeError: Event loop is closed" on Windows
+doc: Fix walletdisplayaddress RPC doc
+Merge bitcoin/bitcoin#22912: ci: Fix merge_script in MSVC task
+bench: Fix 32-bit compilation failure in addrman bench
+Merge bitcoin/bitcoin#22922: ci: Fix and enable tests on Windows
+test: Fix tests on Windows
+Merge bitcoin/bitcoin#22879: addrman: Fix format string in deserialize error
+ci: Fix merge_script in MSVC task
+Fix addrdb includes
+Merge bitcoin/bitcoin#22397: build: Fix macOS Apple Silicon build with miniupnpc and libnatpmp
+Merge bitcoin/bitcoin#22791: init: Fix asmap/addrman initialization order bug
+addrman: Fix format string in deserialize error
+Fixes Bug in Transaction generation in ComplexMempool benchmark
+Merge bitcoin/bitcoin#22820: build, qt: Fix typo in QtInputSupport check
+build, qt: Fix typo in QtInputSupport check
+Merge bitcoin/bitcoin#20586: Fix Windows build with --enable-werror
+Merge bitcoin/bitcoin#22713: Fix build with Boost 1.77.0
+Fix build with Boost 1.77.0
+Fix typo in bitcoin-cli.cpp
+doc: Fix validation typo
+Merge bitcoin/bitcoin#22331: crypto: Fix K1/K2 use in ChaCha20-Poly1305 AEAD
+Merge bitcoin-core/gui#399: Fix "Load PSBT" functionality when no wallet loaded
+qt, refactor: Fix indentation
+Merge bitcoin-core/gui#393: Fix regression in "Encrypt Wallet" menu item
+qt: Fix regression in "Encrypt Wallet" menu item
+Fix whitespace in touched files
+build: Fix macOS Apple Silicon build with miniupnpc and libnatpmp
+Merge bitcoin/bitcoin#21882: build: Fix undefined reference to __mulodi4
+Merge bitcoin/bitcoin#22531: guix: Fixes to guix-{attest,verify}
+build: Fix undefined reference to __mulodi4
+Merge bitcoin/bitcoin#22561: Fix typo in comment
+Fix typo in comment
+Fix incorrect whitespace in addrman
+Merge bitcoin/bitcoin#22446: test: Fix wallet_listdescriptors.py if bdb is not compiled
+qt, refactor: Fix code styling of moved InitExecutor class
+test: Fix wallet_listdescriptors.py if bdb is not compiled
+Merge bitcoin/bitcoin#22348: build: Fix cross build for Windows with Boost Process
+build: Fix Boost Process compatibility with mingw-w64 compiler
+[crypto] Fix K1/K2 use in ChaCha20-Poly1305 AEAD
+Merge bitcoin/bitcoin#22201: test: Fix TestShell to allow running in Jupyter Notebook
+Fixed inconsistencies between code and comments
+build, qt: Fix wrong cross-compiling detection on macOS
+devtools: Fix verneed section parsing in pixie
+refactor: Fix CAddrMan::Check style
+Merge bitcoin/bitcoin#22230: build: Fix MSVC linker /SubSystem option for bitcoin-qt.exe
+build: Fix MSVC linker /SubSystem option for bitcoin-qt.exe
+Merge bitcoin-core/gui#361: Fix gui segfault caused by bitcoin/bitcoin#22216
+Fix gui segfault caused by bitcoin/bitcoin#22216
+Merge bitcoin/bitcoin#22186: build, qt: Fix compiling qt package in depends with GCC 11
+Merge bitcoin/bitcoin#21944: wallet: Fix issues when `walletdir` is root directory
+Merge bitcoin/bitcoin#22174: build, qt: Fix libraries linking order for Linux hosts
+build, qt: Fix compiling qt package in depends with GCC 11
+build, qt: Fix libraries linking order for Linux hosts
+Merge bitcoin/bitcoin#22153: test: Fix p2p_leak.py intermittent failure
+test: Fix p2p_leak.py intermittent failure by lowering timeout
+Merge bitcoin/bitcoin#22123: depends: Fix qt.mk for mac arm64
+scripted-diff: Fix coinstats data member names
+depends: Fix qt.mk for mac arm64
+Fix issues when `walletdir` is root directory
+Merge bitcoin/bitcoin#22109: doc: Fix external links (IRC, ...)
+doc: Fix external links (IRC, ...)
+Merge bitcoin/bitcoin#22103: test: Fix IPv6 check on BSD systems
+test: Fix IPv6 check on BSD systems
+scripted-diff: Fix ellipsis after pr20773
+Merge bitcoin/bitcoin#22002: Fix crash when parsing command line with -noincludeconf=0
+qt, macos: Fix GUIUtil::PolishProgressDialog bug
+Fix crash when parsing command line with -noincludeconf=0
+Merge bitcoin/bitcoin#21947: doc: Fix OSS-Fuzz links
+Merge bitcoin/bitcoin#21948: test: Fix off-by-one in mockscheduler test RPC
+test: Fix off-by-one in mockscheduler test RPC
+doc: Fix OSS-Fuzz links
+Merge bitcoin/bitcoin#21584: Fix assumeutxo crash due to invalid base_blockhash
+Fix assumeutxo crash due to invalid base_blockhash
+rpc: for sat/vB fee rates, limit ParseFixedPoint decimals to 3
+test: ParseFixedPoint with 3 decimals for sat/vB fee rates
+Merge bitcoin/bitcoin#21814: test: Fix feature_config_args.py intermittent issue
+Merge bitcoin/bitcoin#21427: depends: Fix id_string invocations
+test: Fix feature_config_args.py intermittent issue
+Merge bitcoin/bitcoin#21792: test: Fix intermittent issue in p2p_segwit.py
+test: Fix intermittent issue in p2p_segwit.py
+Merge bitcoin/bitcoin#21785: test: Fix intermittent issue in p2p_addr_relay.py
+test: Fix intermittent issue in p2p_addr_relay.py
+Merge bitcoin/bitcoin#21777: test: Fix feature_notifications.py intermittent issue
+test: Fix feature_notifications.py intermittent issue
+test: Fix test cache issue
+net, refactor: Fix style in CConnman::StopNodes
+Merge bitcoin/bitcoin#21736: doc: Fix doxygen comment silent merge conflict in descriptor.cpp
+doc: Fix doxygen comment silent merge conflict in descriptor.cpp
+Merge #21678: test: Fix TestPotentialDeadLockDetected suppression
+Merge #21585: Fix assumeutxo crash due to truncated file
+test: Fix TSan suppression
+Merge #21653: ci: Fix previous releases cache order
+Fix Windows build with --enable-werror on Ubuntu Focal
+Merge #21661: doc: Fix name of script guix-build
+Merge #21663: ci: Fix macOS brew install command
+ci: Fix macOS brew install command
+doc: Fix name of script guix-build
+ci: Fix previous releases cache order
+depends: Fix id_string invocations
+Merge #21626: doc: Fix typos from codespell
+doc: Fix typos from codespell lint
+Merge #21572: Fix wrong wallet RPC context set after #21366
+Merge #21617: fuzz: Fix uninitialized read in i2p test
+Merge #21582: Fix assumeutxo crash due to missing base_blockhash
+fuzz: Fix uninitialized read in test
+Merge #21611: Fix a typo in guix-build output
+Fix a typo in guix-build output
+Fix assumeutxo crash due to missing base_blockhash
+Fix assumeutxo crash due to truncated file
+Fix wrong wallet RPC context set after #21366
+Merge bitcoin-core/gui#266: Doc: Copyright: Fix embedded font file location
+Doc: Copyright: Fix embedded font file location
+[net processing] Fix overindentation in MaybeSendAddr()
+Merge #21495: build, qt: Fix static builds on macOS Big Sur
+build, qt: Fix static builds on macOS Big Sur
+Merge #21512: fuzz: Fix tx_pool target to properly fuzz immature outpoints
+Merge bitcoin-core/gui#248: Fix: For values of "Bytes transferred" and "Bytes/s" with 1000-based prefix names use 1000-based divisor instead of 1024-based
+fuzz: Fix tx_pool target to properly fuzz immature outpoints
+Merge #21349: build: Fix fuzz-cuckoocache cross-compiling with DEBUG=1
+Merge #21040: wallet: Fix already-loading message grammar
+ Fix wrong(1024) divisor for 1000-based prefixes
+Merge bitcoin-core/gui#229: Fix regression with initial sorting after pr205
+build, qt: Fix lib paths in *.pc files
+Merge #21400: build: Fix regression introduced in #21363
+build, qt: Fix regression introduced in #21363
+build, refactor: Fix indentation
+build: Fix fuzz-cuckoocache cross-compiling for Windows with DEBUG=1
+Merge #18298: build: Fix Qt processing of configure script for depends with DEBUG=1
+build, refactor: Fix indentation for if..then..fi
+Merge #21325: lint: Fix spelling errors in comments
+lint: Fix spelling errors in comments
+qt: Fix regression with initial sorting after pr205
+Merge #21292: build, doc: Fix configure script output indentation and typos
+build, doc: Fix configure script output indentation and typos
+Merge bitcoin-core/gui#204: Drop buggy TableViewLastColumnResizingFixer class
+Merge #21226: build: Fix fuzz binary compilation under windows
+Merge #21230: test: Fix NODE_NETWORK_LIMITED_MIN_BLOCKS disconnection
+Fix fuzz binary compilation under windows
+tree-wide: Fix erroneous AcceptToMemoryPool replacements
+test: Fix NODE_NETWORK_LIMITED_MIN_BLOCKS disconnection
+Merge #20557: addrman: Fix new table bucketing during unserialization
+Merge #21075: doc: Fix markdown formatting
+Merge #21115: test: Fix Windows cross build
+test: Fix Windows cross build
+doc: Fixup docs in fuzz/script_assets_test_minimizer.cpp
+contrib/signet: Fix typos
+doc: Fix markdown formatting
+wallet: Fix already-loading error message grammar
+Merge #21051: Fix -Wmismatched-tags warnings
+Fix -Wmismatched-tags warnings
+qt: Drop buggy TableViewLastColumnResizingFixer class
+Merge #21004: contrib: Fix docker args conditional in gitian-build
+Fix wallet_send.py wallet setup to work with descriptors
+Fix docker args conditional
+Merge #20998: test: Fix BlockToJsonVerbose benchmark
+Fix BlockToJsonVerbose benchmark
+Merge #20983: Fix MSVC build after gui#176
+Fix MSVC build after gui#176
+Merge bitcoin-core/gui#176: Fix TxViewDelegate layout
+guix: Fix typo
+Merge #20955: test: Fix get_previous_releases.py for aarch64
+[addrman] Fix new table bucketing during unserialization
+test: Fix get_previous_releases.py for aarch64
+Merge #20945: Fix 0.21.0 release note to specify correct option BIP 157 support
+Fix 0.21.0 release note to specify correct option BIP 157 support
+scripted-diff: Fix typo in stub manual pages
+doc: Fix systemd spelling and link to doc/init.md
+build: Fix Qt processing of configure script for depends with DEBUG=1
+Merge #14501: Fix possible data race when committing block files
+qt: Fix TxViewDelegate layout
+Merge #20763: test: Fix comment typo in BitcoinTestFramework
+test: Fix Comment Typo in BitcoinTestFramework
+Merge #20683: test: Fix restart node race
+Merge #20697: ci: Fix COMMIT_RANGE variable value for PRs
+ci: Fix COMMIT_RANGE variable value for PRs
+Merge bitcoin-core/gui#155: Fix checkbox layout in Create Wallet dialog
+test: Fix restart node race
+Merge #20569: test: Fix intermittent wallet_multiwallet issue with got_loading_error
+Merge #20594: Fix getauxval calls in randomenv.cpp
+Merge #19982: test: Fix inconsistent lock order in wallet_tests/CreateWallet
+test: Fix inconsistent lock order in wallet_tests/CreateWallet
+Merge #20535: test: Fix intermittent feature_taproot issue
+test: Fix intermittent wallet_multiwallet issue with got_loading_error
+Merge #20466: test: Fix intermittent p2p_fingerprint issue
+Merge #20540: test: Fix wallet_multiwallet issue on windows
+test: Fix wallet_multiwallet issue on windows
+test: Fix intermittent feature_taproot issue
+Merge #20522: [test] Fix sync issue in disconnect_p2ps
+[test] Fix wait condition in disconnect_p2ps
+Fix and improve taproot_construct comments
+Fix length of R check in test/key_tests.cpp:key_signature_tests
+Merge #20456: test: Fix intermittent issue in mempool_compatibility
+test: Fix intermittent p2p_finerprint issue
+Fix QPainter non-determinism on macOS
+ci: Fix doc typos in .cirrus.yml
+Merge #20449: build: Fix Windows installer build
+test: Fix intermittent issue in mempool_compatibility
+Fix version string in Windows and Mac installers
+Merge bitcoin-core/gui#46: refactor: Fix deprecation warnings when building against Qt 5.15
+Merge #20024: init: Fix incorrect warning "Reducing -maxconnections from N to N-1, because of system limitations"
+Fix mock SQLiteDatabases
+Merge bitcoin-core/gui#120: Fix multiwallet transaction notifications
+Merge #20322: test: Fix intermittent issue in wallet_listsinceblock
+depends: Fix PYTHONPATH setting in config.site.in
+Merge #20292: test: Fix intermittent feature_taproot issue
+Merge #20326: tests: Fix ecdsa_verify in test framework
+test: Fix intermittent issue in wallet_listsinceblock
+Merge #20316: test: Fix wallet_multiwallet test issue on Windows
+test: Fix wallet_multiwallet test issue on Windows
+Merge #20299: test: Fix intermittent rpc_net issue
+test: Fix intermittent rpc_net issue
+[addrman] Fix Connected() comment
+test: Fix intermittent feature_taproot issue
+test: Fix deser issue in create_block
+Merge #20290: fuzz: Fix DecodeHexTx fuzzing harness issue
+fuzz: Fix DecodeHexTx fuzzing harness issue
+Merge #20230: wallet: Fix bug when just created encrypted wallet cannot get address
+Fix change detection of imported internal descriptors
+Merge bitcoin-core/gui#116: Fix unreasonable default size of the main window without loaded wallets
+wallet: Fix bug when just created encrypted wallet cannot get address
+Merge bitcoin-core/gui#71: Fix visual quality of text in QR image
+Merge #20176: test: Fix intermittent issue in p2p_feefilter
+Merge #20214: test: Fix rpc_net intermittent issue
+test: Fix rpc_net intermittent issue
+test: Fix typo (one tx is enough) in p2p_feefilter
+Merge #20179: test: Fix intermittent issue in wallet_import_rescan
+Merge #20180: test: Fix -Wunused-function warnings if configured --without-libs
+test: Fix -Wunused-function warning if configured --without-libs
+test: Fix intermittent issue in wallet_send
+test: Fix intermittent issue in wallet_import_rescan
+test: Fix intermittent issue in p2p_feefilter
+Merge #20168: contrib: Fix gen_key_io_test_vectors.py imports
+contrib: Fix gen_key_io_test_vectors.py imports
+Merge #20035: signet: Fix uninitialized read in validation
+signet: Fix uninitialized read in validation
+Merge bitcoin-core/gui#102: Fix SplashScreen crash when run with -disablewallet
+gui: Fix SplashScreen crash when run with -disablewallet
+p2p: Fix off-by-one error in fetching address loop
+Merge #20006: Fix misleading error message: Clean stack rule
+init: Fix incorrect warning "Reducing -maxconnections from N to N-1, because of system limitations"
+Fix misleading error message: Clean stack rule
+Merge #19868: build: Fix target name
+build: Fix target name
+qt: Fix visual quality of text in QR image
+Merge #19887: test: Fix flaky wallet_basic test
+test: Fix flaky wallet_basic test
+[tests] Fix pep8 style violations in address.py
+Merge #19859: qa: Fixes failing functional test by changing version
+Merge #19822: chain: Fix CChain comparison UB by removing it (it was unused)
+Merge #19778: test: Fix intermittent issue in wallet_bumpfee
+qt, refactor: Fix 'buttonClicked is deprecated' warnings
+qt, refactor: Fix 'split is deprecated' warnings
+qt, refactor: Fix 'QFlags is deprecated' warnings
+qt, refactor: Fix 'pixmap is deprecated' warnings
+qt, refactor: Fix 'QDateTime is deprecated' warnings
+Fix possible data race when committing block files
+test: Fix intermittent issue in wallet_bumpfee
+Merge #19765: doc: Fix getmempoolancestors RPC result doc
+doc: Fix getmempoolancestor RPC result doc
+Merge #19709: test: Fix 'make cov' with clang
+test: Fix 'make cov' with clang
+Merge #19696: rpc: Fix addnode remove command error
+[net] Fix bug where AddrFetch connections would be counted as outbound full relay
+Merge #19669: contrib: Fixup valgrind suppressions file
+contrib: Fixup valgrind suppressions file
+Merge #19595: Fix .gitignore for src/test/fuzz directory
+Fix .gitignore for src/test/fuzz directory
+[net processing] Fixup MaybeDiscourageAndDisconnect() style
+Merge #19562: test: Fix fuzzer compilation on macOS
+test: Fix fuzzer compilation on macOS fixes #19557
+Merge #16878: Fix non-deterministic coverage of test DoS_mapOrphans
+Merge #19536: qt, build: Fix QFileDialog for static builds
+qt: Fix QFileDialog for static builds
+Merge #19353: Fix mistakenly swapped "previous" and "current" lock orders
+Merge #19429: test: Fix intermittent failure in wallet_encryption
+Merge #19323: gui: Fix regression in *txoutset* in GUI console
+ci: Fix configure options for macOS builds
+Merge #19490: wallet: Fix typo in comments; Simplify assert
+Merge #19493: wallet: Fix clang build in Mac
+wallet: Fix clang build in Mac
+wallet: Fix typo in comments; Simplify assert
+Merge #18850: wallet: Fix ZapSelectTx to sync wallet spends
+[net processing] Fix bad indentation in SendMessages()
+gui: Fix regression in GUI console
+test: Fix intermittent failure in wallet_encryption
+Merge #19428: Fix boost/C++17 compile failures
+script: Fix boost/C++17 compile failure
+Merge #19333: refactor: Fix clang compile failure
+Merge #19356: build: Fix search for brew-installed BDB 4 on OS X
+Revert "Fix link error with --enable-debug"
+Merge bitcoin-core/gui#8: Fix regression in TransactionTableModel
+moveonly: Fix indentation in bumpfee RPC
+build: Fix search for brew-installed BDB 4 on OS X
+qt: Fix regression in TransactionTableModel
+Fix mistakenly swapped "previous" and "current" lock orders
+refactor: Fix clang compile failure
+Merge #19309: refactor: Fix link error with --enable-debug
+Fix link error with --enable-debug
+Merge #19287: contrib: Fix SyntaxWarning in Python base58 implementation
+contrib: Fix SyntaxWarning in Python base58 implementation
+build: Fix indentation in UNIVALUE check
+Merge #19177: test: Fix and clean p2p_invalid_messages functional tests
+tests: Add std::vector<uint8_t> ConsumeFixedLengthByteVector(FuzzedDataProvider& fuzzed_data_provider, const size_t length)
+Fix "invalid message size" test
+refactor: Fix formatting of timedata.cpp
+Merge #19131: refactor: Fix unreachable code in init arg checks
+refactor: Fix unreachable code in init arg checks
+Merge #19022: test: Fix intermittent failure in feature_dbcrash
+Merge #18452: qt: Fix shutdown when waitfor* cmds are called from RPC console
+Merge #14988: wallet: Fix for confirmed column in csv export for payment to self transactions
+Merge #17597: qt: Fix height of QR-less ReceiveRequestDialog
+Merge #18700: Fix locking on WSL using flock instead of fcntl
+doc: Fix unrelated typos reported by codespell
+[indexes] Fix default [de]serialization of BlockFilter.
+[trivial/doc] Fix comment type
+Merge #19023: test: Fix intermittent ETIMEDOUT on FreeBSD
+test: Fix intermittent ETIMEDOUT on FreeBSD
+test: Fix intermittent failure in feature_dbcrash
+Merge #17946: Fix GBT: Restore "!segwit" and "csv" to "rules" key
+qt: Fix shutdown when waitfor* cmds are called from RPC console
+Merge #18894: gui: Fix manual coin control with multiple wallets loaded
+Merge #18578: gui: Fix leak in CoinControlDialog::updateView
+Merge #18866: test: Fix verack race to avoid intermittent test failures
+test: Fix outstanding -Wsign-compare errors
+Fix ZapSelectTx to sync wallet spends
+Merge #18873: test: Fix intermittent sync_blocks failures
+Merge #18853: wallet: Fix typo in assert that is compile-time true
+Merge #18854: doc: Fix typo in Coin doxygen comment
+gui: Fix manual coin control with multiple wallets loaded
+test: Fix intermittent sync_blocks failures
+wallet: Fix typo in assert that is compile-time true
+test: Fix verack race to avoid intermittent test failures
+gui: Fix itemWalletAddress leak when not tree mode
+Merge #18839: test: Fix intermittent issues
+doc: Fix typo in Coin doxygen comment
+test: Fix p2p_leak intermittent issue
+test: Fix intermittent p2p_segwit issue
+Merge #18798: ci: Fix default retry script usage
+Merge #18765: test: Fix wallet_bumpfee intermittent error
+test: Fix wallet_bumpfee intermittent error
+ci: Fix default retry script usage
+tests: Add fuzzing coverage for ParseFixedPoint(...)
+Merge #18753: test: Fix intermittent failure in wallet_importmulti
+Fix WSL file locking by using flock instead of fcntl
+Merge #18752: test: Fix intermittent error in mempool_reorg
+Merge #18589: Fix naming of macOS SDK and clarify version
+test: Fix intermittent failure in wallet_importmulti
+test: Fix intermittent error in mempool_reorg
+Fix naming of macOS SDK and clarify version
+Merge #18721: test: Fix linter issue
+test: Fix linter issue
+Merge #17831: rpc: doc: Fix and extend getblockstats examples
+rpc: doc: Fix and extend getblockstats examples
+Merge #18607: rpc: Fix named arguments in documentation
+Merge #18632: doc: Fix macos comments in release-notes
+doc: Fix macos comments in release-notes
+Merge #18563: test: Fix unregister_all_during_call cleanup
+Merge #18558: build: Fix boost detection for arch armv7l
+Fix unregister_all_during_call cleanup
+Merge #18549: qt: Fix Window -> Minimize menu item
+qt: Fix Window -> Minimize menu item
+Merge #18487: rpc: Fix rpcRunLater race in walletpassphrase
+Merge #18508: RPC: Fix more formatting nits
+rpc: Fix rpcRunLater race in walletpassphrase
+Merge #18338: Fix wallet unload race condition
+Merge #16995: Fix gcc 9 warnings
+Fix wallet unload race condition
+ci: Fix brew in Travis
+Merge #18397: build: Fix libevent linking for bench_bitcoin binary
+build: Fix typo in EVENT_CFLAGS variable
+build: Fix libevent linking for bench_bitcoin binary
+Fix a compiler warning: unused GetDevURandom()
+Merge #15283: log: Fix UB with bench on genesis block
+Merge #18350: test: Fix mining to an invalid target + ensure that a new block has the correct hash internally
+Merge #18344: doc: Fix nit in getblockchaininfo
+Merge #18357: Fix missing header in sync.h
+build: Fix m4 escaping
+build: Fix indentation in bitcoin_qt.m4
+Fix missing header in sync.h
+Fix mining to an invalid target + ensure that a new block has the correct hash internally in Python tests
+Fix nit in getblockchaininfo
+Merge #18213: test: Fix race in p2p_segwit
+build: Fix mingw pkgconfig file and dependency naming
+Merge #18260: refactor: Fix implicit value conversion in  formatPingTime
+test: Fix race in p2p_segwit
+Merge #18167: Fix a violation of C++ standard rules where unions are used for type-punning
+Fix a violation of C++ standard rules that unions cannot be switched.
+Merge #18108: Fix .gitignore policy in build_msvc directory
+Merge #18123: gui: Fix race in WalletModel::pollBalanceChanged
+gui: Fix race in WalletModel::pollBalanceChanged
+Merge #18051: build: Fix behavior when ALLOW_HOST_PACKAGES unset
+Merge #18101: qt: Fix deprecated QCharRef usage
+qt: Fix deprecated QCharRef usage
+scripted-diff: Add missing spaces in RPCResult, Fix type names
+Merge #18062: gui: Fix unintialized WalletView::progressDialog
+Merge #18023: Fix some asmap issues
+gui: Fix unintialized WalletView::progressDialog
+build: Fix behavior when ALLOW_HOST_PACKAGES unset
+Merge #18022: test: Fix appveyor test_bitcoin build of *.raw
+build: Fix appveyor test_bitcoin build of *.raw
+Merge #18013: bench: Fix benchmarks filters
+Fix benchmarks filters
+Merge #17453: gui: Fix intro dialog labels when the prune button is toggled
+doc: Fix syntax error (trailing square bracket) in finalizepsbt
+doc: Fix syntax error (trailing square bracket) in walletprocesspsbt
+test: Fix whitespace in p2p_permissions.py
+Merge #17767: ci: Fix qemu issues
+Merge #17945: doc: Fix doxygen errors
+Fix doxygen errors
+Merge #17931: test: Fix p2p_invalid_messages failing in Python 3.8 because of warning
+Merge #17907: doc: Fix improper Doxygen inline comments
+Fix improper Doxygen inline comments
+Merge #17893: qa: Fix double-negative arg test
+Merge #16963: wallet: Fix unique_ptr usage in boost::signals2
+Merge #17445: zmq: Fix due to invalid argument and multiple notifiers
+qa: Fix double-negative arg test
+ci: Fix QEMU_USER_CMD parse issues
+Merge #17849: ci: Fix brew python link
+ci: Fix brew python link
+Merge #17758: Fix CNetAddr::IsRFC2544 comment + tests
+Merge #17685: tests: Fix bug in the descriptor parsing fuzzing harness (descriptor_parse)
+tests: Fix fuzzing harness for descriptor parsing (descriptor_parse)
+Fixed wget call in gitian-build.py
+Merge #17547: build: Fix configure report about qr
+Merge #17643: wallet: Fix origfee return for bumpfee with feerate arg
+Key pool: Fix omitted pre-split count in GetKeyPoolSize
+Merge #17634: qt: Fix comparison function signature
+Fix origfee return for bumpfee with feerate arg
+Fix comparison function signature
+Merge #17624: net: Fix an uninitialized read in ProcessMessage(…, "tx", …) when receiving a transaction we already have
+net: Fix uninitialized read in ProcessMessage(...)
+qt: Fix class name of Ui::ModalOverlay
+Merge #17527: Fix CPUID subleaf iteration
+build: Fix configure report about qr
+Merge #16161: util: Fix compilation errors in support/lockedpool.cpp
+Fix CPUID subleaf iteration
+Merge #17466: depends: qt: Fix C{,XX} pickup
+Fix segfault in allocator_tests/arena_tests
+Fix compilation errors in support/lockedpool.cpp
+Merge #17322: Fix input size assertion in wallet_bumpfee.py
+Fix input size assertion in wallet_bumpfee.py
+depends: qt: Fix C{,XX} pickup
+zmq: Fix due to invalid argument and multiple notifiers
+Merge #17427: qt: Fix missing qRegisterMetaType for size_t
+qt: Fix missing qRegisterMetaType for size_t
+Merge #17378: TestShell: Fix typos & implement cleanups
+TestShell: Fix typo in TestShell warning printout
+Merge #17258: Fix issue with conflicted mempool tx in listsinceblock
+Merge #17351: doc: Fix some misspellings
+doc: Fix some misspellings
+Merge #17286: Fix help-debug -checkpoints
+Merge #17325: log: Fix log message for -par=1
+log: Fix log message for -par=1
+Merge #17274: tests: Fix fuzzers eval_script and script_flags by re-adding ECCVerifyHandle dependency
+Fix incorrect help-debug for -checkpoints
+Fix missing strFailReason in CreateTransaction
+Fix misplaced AssertLockHeld
+Fix issue with conflicted mempool tx in listsinceblock
+Merge #17267: bench: Fix negative values and zero for -evals flag
+Fix occurences of c_str() used with size() to data()
+bench: Fix negative values and zero for -evals flag
+gui: Fix duplicate wallet showing up
+Merge #17120: gui: Fix start timer from non QThread
+Merge #17226: gui: Fix payAmount tooltip in SendCoinsEntry
+gui: Fix payAmount tooltip in SendCoinsEntry
+Merge #17119: doc: Fix broken bitcoin-cli examples
+Merge #17140: test: Fix bug in blockfilter_index_tests.
+[wallet] Fix whitespace in CWallet::CommitTransaction()
+Merge #17086: tests: Fix fs_tests for unknown locales
+tests: Fix fs_tests for unknown locales
+test: Fix bug in blockfilter_index_tests.
+[rpc] Fix broken bitcoin-cli examples
+gui: Fix start timer from non QThread
+wallet: Fix for exported confirmation field in payment to self transactions
+[validation] Fix REJECT message comments
+Merge #16973: test: Fix combine_logs.py for AppVeyor build
+[validation] Fix peer punishment for bad blocks
+lint: Fix shellcheck SC2155
+Merge #16821: Fix bug where duplicate PSBT keys are accepted
+Merge #17084: build: Fix #include sys/poll.h to just poll.h (without sys/)
+build: Fix #include sys/poll.h to just poll.h (without sys/)
+gitian: Fix README inclusion in archives
+Merge #17030: test: Fix Python Docstring to include all Args.
+Fix bug where duplicate PSBT keys are accepted
+Fix Python Docstring to include all Args.
+doc: Fix amount typo in release notes
+Merge #16849: Fix block index inconsistency in InvalidateBlock()
+Merge #16991: qa: Fix service flag comparison check in rpc_net test (luke-jr)
+qa: Fix service flag comparison check in rpc_net test
+Merge #16817: rpc: Fix casing in getblockchaininfo to be inline with other fields
+test: Fix combine_logs.py for AppVeyor build
+[RPC] Fix casing in getblockchaininfo to be inline with the rest of the response
+Merge #16837: depends: qt: Fix {C{,XX},LD}FLAGS pickup
+Merge #16920: test: Fix extra_args in wallet_import_rescan.py
+Merge #16900: doc: Fix doxygen comment for SignTransaction in rpc/rawtransaction_util
+test: Fix extra_args in wallet_import_rescan.py
+doc: Fix doxygen comment for SignTransaction in rpc/rawtransaction_util
+Fix Android zlib cross compilation issue (https://stackoverflow.com/questions/21396988/zlib-build-not-configuring-properly-with-cross-compiler-ignores-ar)
+Merge #16812: doc: Fix whitespace errs in .md files, bitcoin.conf, and Info.plist.in
+doc: Fix whitespace errs in .md files, bitcoin.conf, Info.plist.in, and find_bdb48.m4
+depends: qt: Fix LDFLAGS pickup
+Fix block index inconsistency in InvalidateBlock()
+depends: qt: Fix C{,XX}FLAGS pickup
+Merge #16796: wallet: Fix segfault in CreateWalletFromFile
+test/contrib: Fix invalid escapes in regex strings
+wallet: Fix segmentation fault in CreateWalletFromFile
+wallet: Fix documentation around WalletParameterInteraction
+Merge #16556: Fix systemd service file configuration directory setup
+Merge #16572: wallet: Fix Char as Bool in Wallet
+Merge #15864: Fix datadir handling
+[Fix] The default whitelistrelay should be true
+Merge #16618: [Fix] Allow connection of a noban banned peer
+Merge #16633: travis: Fix test_runner.py timeouts
+Merge #16626: doc: Fix spelling error chache -> cache.
+Fix spelling error chache -> cache.
+[Fix] Allow connection of a noban banned peer
+Merge #16615: doc: Fix typos in COPYRIGHT
+doc: Fix typos in COPYRIGHT
+Merge #16596: rpc: Fix getblocktemplate CLI example
+rpc: Fix getblocktemplate CLI example (#16594)
+Fix Char as Bool in interfaces
+Merge #16530: doc: Fix grammar and punctuation in developer notes
+doc: Fix grammar and punctuation in developer notes
+Merge #16493: test: Fix test failures
+test: Fix “local variable 'e' is assigned to but never used”
+Merge #16459: [qa] Fix race condition in example_test.py
+[qa] Fix race condition in example_test.py
+Fix datadir handling in bitcoin-cli
+Fix datadir handling in bitcoin-qt
+Fix datadir handling in bitcoind
+Merge #16420: QA: Fix race condition in wallet_encryption test
+QA: Fix race condition in wallet_encryption test
+Merge #16379: Fix autostart filenames on Linux for testnet/regtest
+Fix autostart filenames on Linux
+Merge #16322: wallet: Fix -maxtxfee check by moving it to CWallet::CreateTransaction
+gui: Fix missing qRegisterMetaType(WalletModel*)
+Merge #16158: Fix logic of memory_cleanse() on MSVC and clean up docs
+wallet: Fix -maxtxfee check by moving it to CWallet::CreateTransaction
+Merge #16313: doc: Fix broken link in doc/build-osx.md
+Fix: "Bitcoin Core" -> "The Bitcoin Core"
+doc: Fix broken link in doc/build-osx.md
+Merge #16286: refactoring: wallet: Fix GCC 7.4.0 warning
+Fix GCC 7.4.0 warning
+Merge #16231: gui: Fix open wallet menu initialization order
+Merge #16246: MSVC: Fix error in debug mode (Fix #16245)
+MSVC: Fix error in debug mode (Fix #16245)
+gui: Fix open wallet menu initialization order
+Merge #16186: doc/lint: Fix spelling errors identified by codespell 1.15.0
+Merge #16214: travis: Fix caching issues
+travis: Fix caching issues
+addrdb: Remove temporary files created in SerializeFileDB. Fixes non-determinism in unit tests.
+Merge #15834: Fix transaction relay bugs introduced in #14897 and expire transactions from peer in-flight map
+Fix spelling errors identified by codespell 1.15.0
+fixup: Fix prunning test
+Fix RPC/pruneblockchain returned prune height
+Fix bug around transaction requests
+Merge #16059: configure: Fix thread_local detection
+Fix gitian-build.py --verify option
+Fix Docker related issues for gitian-build.py
+Merge #15968: Fix portability issue with pthreads
+Fix portability issue with pthreads
+Fix handling of invalid headers
+Merge #15877: doc: Fix -dustrelayfee= argument docs grammar
+Merge #13788: Fix --disable-asm for newer assembly checks/code
+Fix missing input template by making minimal tx
+doc: Fix -dustrelayfee= argument docs grammar
+test: Fixup creatmultisig documentation and whitespace
+Merge #15749: Fix: importmulti only imports origin info for PKH outputs
+Merge #15669: rpc: Fix help text for signtransactionwithXXX
+Merge #15684: doc/dependencies: Fix typo libsrvg->librsvg
+doc/dependencies: Fix typo libsrvg->librsvg
+rpc: Fix help text for signtransactionwithXXX
+doc: Fix all typos reported by codespell
+Merge #15582: Fix overflow bug in analyzepsbt fee: CAmount instead of int
+Fix overflow bug in analyzepsbt fee: CAmount instead of int
+Fixup whitespace
+Merge #15335: Fix lack of warning of unrecognized section names
+Merge #15462: gui: Fix async open wallet call order
+gui: Fix async open wallet call order
+qa: Fix wallet_txn_doublespend issue
+Fix lack of warning of unrecognized section names
+Merge #15407: msvc: Fix silent merge conflict between #13926 and #14372 part II
+msvc: Fix silent merge conflict between #13926 and #14372 part II
+Merge #15337: rpc: Fix for segfault if combinepsbt called with empty inputs
+Merge #15203: Fix issue #9683 "gui, wallet: random abort (segmentation fault)
+rpc: Fix for segfault if combinepsbt called with empty inputs
+Merge #15347: Fix build after pr 15266 merged
+Fix issue #9683 "gui, wallet: random abort (segmentation fault) running master/HEAD".
+Fix build after pr 15266 merged
+netaddress: Fix indentation in IsLocal
+Merge #15325: msvc: Fix silent merge conflict between #13926 and #14372
+Merge #15280: gui: Fix shutdown order
+gui: Fix m_node.startShutdown() order
+gui: Fix WalletController deletion
+Merge #15330: test: Fix race in p2p_invalid_messages
+test: Fix race in p2p_invalid_messages
+msvc: Fix silent merge conflict between #13926 and #14372
+Fix ScanForWalletTransactions start_block comment
+Merge #15299: Fix assertion in CKey::SignCompact
+Fix assertion in CKey::SignCompact
+wallet: Fixup rescanblockchain result doc
+Fix UB with bench on genesis block
+Merge #15258: Scripts and tools: Fix devtools/copyright_header.py to always honor exclusions
+Scripts and tools: Fix devtools/copyright_header.py to always honor exclusions
+Fix macOS launch-at-startup memory issue
+Merge #15167: qt: Fix wallet selector size adjustment
+Merge #15210: gui: Fix window title update
+gui: Fix window title update
+Fix warnings introduced in shellcheck v0.6.0
+Remove repeated suppression. Fix indentation.
+Merge #14151: windows: Fix remaining compiler warnings (MSVC)
+Fix remaining compiler warnings (MSVC). Move disabling of specific warnings from /nowarn to project file.
+Merge #14594: qt: Fix minimized window bug on Linux
+Fix wallet selector size adjustment
+Merge #14517: qt: Fix start with the `-min` option
+Merge #15128: docs: Fix download link in doc/README.md
+Merge #15117: Fix invalid memory write in case of failing mmap(...) in PosixLockedPageAllocator::AllocateLocked
+Merge #14085: index: Fix for indexers skipping genesis block.
+Fix download link
+Merge #15110: build_msvc: Fix the build problem in libbitcoin_server
+Fix out-of-bounds write in case of failing mmap(...) in PosixLockedPageAllocator::AllocateLocked
+Merge #14357: streams: Fix broken streams_vector_reader test. Remove unused seek(size_t).
+Fix the build problem in libbitcoin_server
+Qt: Fix update headers-count
+Fix minimized window bug on Linux
+Merge #15085: gui: Fix incorrect application name when passing -regtest
+gui: Fix for Incorrect application name when passing -regtest
+Merge #15000: qt: Fix broken notificator on GNOME
+Merge #15069: test: Fix rpc_net.py "pong" race condition
+test: Fix rpc_net.py "pong" race condition
+Merge #14738: Tests: Fix running wallet_listtransactions.py individually through test_runner.py
+Merge #15012: Docs: Fix minor error in doc/psbt.md
+Fix minor grammar error in doc
+Fix broken notificator on GNOME
+Merge #14993: rpc: Fix data race (UB) in InterruptRPC()
+rpc: Fix data race (UB) in InterruptRPC()
+Merge #14964: test: Fix race in mempool_accept
+Merge #14969: tests: Fix cuckoocache_tests TSAN failure introduced in 14935.
+Fix cuckoocache_tests TSAN failure introduced in #14935. Fixes #14967.
+test: Fix race in mempool_accept
+Merge #14319: doc: Fix PSBT howto and example parameters
+Merge #13076: Fix ScanForWalletTransactions to return an enum indicating scan result: success / failure / user_abort
+Merge #14783: gui: Fix boost::signals2::no_slots_error in early calls to InitWarning
+Merge #14670: http: Fix HTTP server shutdown
+Fix start with the `-min` option
+doc: Fix PSBT howto and example parameters
+Merge #14848: docs: Fix broken Gmane URL in security-check.py
+Fix broken Gmane URLs
+Merge #14820: test: Fix descriptor_tests not checking ToString output of public descriptors
+Fix descriptor_tests not checking ToString output of public descriptors
+Merge #14785: Scripts: Fix detection of copyright holders
+Fix detection of copyright holders
+Merge #14521: qt, docs: Fix `bitcoin-qt -version` output formatting
+Fix running individually through test_runner.py, as suggested by @MarcoFalke (#14732)
+Merge #14651: Refactor: Fix compiler warning in prevector.h
+Merge #14686: build: Fix windows build error if `--disable-bip70`
+build: Fix windows build error if `--disable-bip70`
+Merge #14619: tests: Fix value display name in test_runner help text
+Merge #14632: Tests: Fix a comment
+Fix `bitcoin-qt -version` output formatting
+Tests: Fix a comment
+Merge #14568: build: Fix Qt link order for Windows build
+Merge #14416: Fix OSX dmg issue (10.12 to 10.14)
+build: Fix Qt link order for Windows build
+Fix typo in test_framework/blocktools
+Merge #14320: [bugfix] wallet: Fix duplicate fileid detection
+wallet: Fix duplicate fileid
+Merge #14453: rpc: Fix wallet unload during walletpassphrase timeout
+Merge #14417: Fix listreceivedbyaddress not taking address as a string
+Merge #14426: utils: Fix broken Windows filelock
+Fix typo
+rpc: Fix wallet unload during walletpassphrase timeout
+utils: Fix broken Windows filelock
+Merge #14450: qt: Fix QCompleter popup regression
+Revert "qa: Fix codespell error and have lint-spelling error instead of warn"
+Fix listreceivedbyaddress not taking address as a string
+Fix QCompleter popup regression
+Fix CLEAN_BITCOIN_TEST to remove .log files for all BITCOIN_TESTS files
+Merge #14428: docs: Fix macOS files description in qt/README.md
+Merge #14421: Fix path to doc/descriptors.md in 0.17 release notes
+Fix macOS files description
+Merge #14395: Fix typos and cleanup
+Fix typos
+Merge #14331: doxygen: Fix member comments
+doxygen: Fix member comments
+Merge #13546: wallet: Fix use of uninitialized value bnb_used in CWallet::CreateTransaction(...)
+Fix for incorrect version attr set on functional test segwit block.
+test: Fix broken segwit test
+[test] Fix flake8 warnings in tests
+Merge #14247: Fix crash bug with duplicate inputs within a transaction
+Fix crash bug with duplicate inputs within a transaction
+Merge #14179: qa: Fixups to "Run all tests even if wallet is not compiled"
+Merge #14213: Docs: Fix reference to lint-locale-dependence.sh
+Fix reference to lint-locale-dependence.sh
+qa: Fix codespell error and have lint-spelling error instead of warn
+Merge #14189: qa: Fix silent merge conflict in wallet_importmulti
+qa: Fix silent merge conflict in wallet_importmulti
+rpc: Fix SoftForkMajorityDesc and SoftForkDesc signatures
+Merge #13954: Warn (don't fail!) on spelling errors. Fix typos reported by codespell.
+Fix typos reported by codespell
+Merge #14103: docs: Fix broken Doxygen comments
+Fix potential deadlock
+Merge #14093: tests: Fix accidental trunction from int to bool
+tests: Fix accidental trunction from int to bool
+index: Fix for indexers skipping genesis block.
+Merge #14056: Docs: Fix help message typo optiona -> optional
+Docs: Fix help message typo optiona -> optional
+Merge #13985: [trivial] Fix slightly confusing mispelling in feature_blocksdir.py log message
+Fix typo in feature_blocksdir.py log message
+Merge #13974: [trivial] Fix typo in CDiskBlockPos struct's ToString
+[trivial] Fix typo in CDiskBlockPos struct's ToString
+Merge #13960: Fix PSBT deserialization of 0-input transactions
+Merge #13965: tests: Fix extended functional tests fail
+Fix PSBT deserialization of 0-input transactions
+Fix incorrect Doxygen comments
+Merge #13667: wallet: Fix backupwallet for multiwallets
+Merge #13255: trivial: Fixed typos and cleaned up language
+trivial: Fixed typos and cleaned up language
+Merge #13835: [trivial,doc] Fix memory consistency model in comment
+[trivial,doc] Fix memory consistency model in comment
+doc: Fix chainTxData comment
+Merge #13782: Fix osslsigncode compile issue in gitian-build
+Merge #13806: qa: Fix bench/block_assemble assert failure
+Fix osslsigncode compile issue in gitian-build
+Merge #13764: contrib: Fix test-security-check fail in Ubuntu 18.04
+Merge #13732: Depends: Fix Qt's rcc determinism
+Fix accidental use of the addition assignment operator ("+="). Remove newlines from error message.
+Merge #13773: wallet: Fix accidental use of the comma operator
+wallet: Fix accidental use of the comma operator
+contrib: Fix test-security-check fail in Ubuntu 18.04
+Fix Qt's rcc determinism for depends/gitian
+Merge #13212: Net: Fixed a race condition when disabling the network.
+Merge #13725: Fix bitcoin-cli --version
+Fix bitcoin-cli --version
+Fix merging of global unknown data in PSBTs
+Merge #13712: wallet: Fix non-determinism in ParseHDKeypath(...). Avoid using an uninitialized variable in path calculation.
+Merge #13647: Scripts and tools: Fix BIND_NOW check in security-check.py
+Merge #13652: rpc: Fix that CWallet::AbandonTransaction would leave the grandchildren, etc. active
+scripted-diff: Fix references to share/rpcuser (now share/rpcauth)
+wallet: Fix backupwallet for multiwallets
+Merge #13566: Fix get balance
+Merge #13626: qa: Fix some TODOs in p2p_segwit
+qa: Fix some TODOs in p2p_segwit
+Fix that CWallet::AbandonTransaction would only traverse one level
+QA: Fix bug in -usecli logic that converts booleans to non-lowercase strings
+Merge #13565: test: Fix AreInputsStandard test to reference the proper scriptPubKey
+Fix command line help for -printtoconsole and -debuglogfile
+Merge #13096: [Policy] Fix MAX_STANDARD_TX_WEIGHT check
+Fix depends Qt5.9.4 mac build
+Merge #13522: [tests] Fix p2p_sendheaders race
+[tests] p2p_segwit: Fix flake8 warnings.
+Merge #13545: tests: Fix test case streams_serializedata_xor. Remove Boost dependency.
+Fix AreInputsStandard test to reference the proper scriptPubKey
+Merge #13551: tests: Fix incorrect documentation for test case cuckoocache_hit_rate_ok
+tests: Fix incorrect documentation for test case cuckoocache_hit_rate_ok
+Fix incorrect tests
+Merge #12882: tests: Make test_bitcoin pass under ThreadSanitzer (clang). Fix lock-order-inversion (potential deadlock).
+Merge #13503: Document FreeBSD quirk. Fix FreeBSD build: Use std::min<int>(...) to allow for compilation under certain FreeBSD versions.
+Merge #13498: [wallet] Fixups from account API deprecation
+Merge #13507: RPC: Fix parameter count check for importpubkey
+[tests] Fix p2p_sendheaders race
+Net: Fixed a race condition when disabling the network.
+Document FreeBSD quirk. Fix FreeBSD build.
+Fix parameter count check for importpubkey.
+Merge #13494: Follow-up to #13454: Fix broken build by exporting LC_ALL=C
+Follow-up to #13454: Fix broken build by exporting LC_ALL=C
+Merge #13479: contrib: Fix CVE-2018-12356 by hardening the regex
+Fix CVE-2018-12356 by hardening the regex.
+Merge #13476: Fix incorrect shell quoting in FreeBSD build instructions.
+Fix incorrect shell quoting in FreeBSD build instructions.
+tests: Fix lock-order-inversion (potential deadlock) in DoS_tests. Reported by TSAN.
+Merge #13294: Fix compiler warnings emitted when compiling under stock OpenBSD 6.3
+mempool: Fix max descendants check
+Fix compiler warnings emitted when compiling under stock OpenBSD 6.3
+Merge #13353: qa: Fixup setting of PATH env var
+Merge #13355: Fix "gmake check" under OpenBSD 6.3 (probably *BSD): Avoid using GNU grep specific regexp handling
+Fix "gmake check" under OpenBSD 6.3 (probably *BSD): Avoid using GNU grep specific regexp handling
+qa: Fixup setting of PATH env var
+Merge #13069: docs: Fix typos
+Merge #13304: qa: Fix wallet_listreceivedby race
+Merge #13314: Fix FreeBSD build by including utilstrencodings.h
+Fix FreeBSD build by including utilstrencodings.h
+qa: Fix wallet_listreceivedby race
+Merge #13297: [wallet] Fix incorrect comment for DeriveNewSeed.
+[wallet] Fix incorrect comment for DeriveNewSeed.
+Merge #12924: Fix hdmaster-key / seed-key confusion (scripted diff)
+Merge #13023: Fix some concurrency issues in ActivateBestChain()
+[wallet] Fix potential memory leak in CreateWalletFromFile
+Merge #12963: Fix Clang Static Analyzer warnings
+Merge #11689: mempool: Fix missing locking in CTxMemPool::check(…) and CTxMemPool::setSanityCheck(…)
+Fix concurrency-related bugs in ActivateBestChain
+Merge #13192: [tests] Fixed intermittent failure in p2p_sendheaders.py.
+[tests] Fixed intermittent failure in p2p_sendheaders.py.
+Merge #13079: Fix rescanblockchain rpc to properly report progress
+Fix typos
+Merge #13180: Fix re-declared scoped enum as unscoped (Causes issues with some compilers)
+Fix missing locking in CTxMemPool::setSanityCheck(double dFrequency)
+Fix missing locking in CTxMemPool::check(const CCoinsViewCache *pcoins)
+Fix MAX_STANDARD_TX_WEIGHT check
+Fix rescanblockchain rpc to property report progress
+Merge #13148: logging: Fix potential use-after-free in LogPrintStr(...)
+logging: Fix potential use-after-free in LogPrintStr(...)
+Merge #13136: [tests] Fix flake8 warnings in several wallet functional tests
+[tests] Fix flake8 warnings in several wallet functional tests
+Merge #13130: [tests] Fix race in rpc_deprecated.py
+[tests] Fix race in rpc_deprecated.py
+Merge #13031: Fix for utiltime to compile with msvc.
+[wallet] [rpc] Fix importaddress help text
+Merge #13030: [bugfix] [wallet] Fix zapwallettxes/multiwallet interaction.
+Merge #13052: trivial: Fix relevent typo
+trivial: Fix relevent typo
+Merge #13048: [tests] Fix feature_block flakiness
+[tests] Fix feature_block flakiness
+[tests] Fix flake8 warnings in blocktools.py
+Fix for utiltime to compile with msvc.
+Merge #13026: Fix include comment in src/interfaces/wallet.h
+[wallet] Fix zapwallettxes/multiwallet interaction.
+Merge #13007: test: Fix dangling wallet pointer in vpwallets
+test: Fix dangling wallet pointer in vpwallets
+Merge #12982: Fix inconsistent namespace formatting guidelines
+Merge #12951: [doc] Fix comment in FindForkInGlobalIndex
+Merge #12946: depends: Fix Qt build with XCode 9.3
+Fix inconsistent namespace formatting guidelines
+Merge #12743: Fix csBestBlock/cvBlockChange waiting in rpc/mining
+Fix dead stores. Values were stored but never read. Limit scope.
+[doc] Fix comment in FindForkInGlobalIndex
+depends: Fix Qt build with XCode 9.3
+Merge #12920: test: Fix sign for expected values
+Merge #12650: gui: Fix issue: "default port not shown correctly in settings dialog"
+test: Fix sign for expected values
+Fix illegal default `addProxy` and `addrSeparateProxyTor` settings.
+Merge #12896: docs: Fix conflicting statements about initialization in developer notes
+docs: Fix conflicting statements about initialization in developer notes
+Fix csBestBlock/cvBlockChange waiting in rpc/mining
+Merge #12804: [tests] Fix intermittent rpc_net.py failure.
+Merge #12820: contrib: Fix check-doc script regexes
+Merge #12810: [Tests] Fix a typo at assert_start_raises_init_error() and use specific exception for initialization error
+Merge #12784: Fix bug in memory usage calculation (unintended integer division)
+[tests] Fix intermittent rpc_net.py failure.
+contrib: Fix check-doc script regexes
+Merge #12806: qa: Fix function names in feature_blocksdir
+qa: Fix function names in feature_blocksdir
+Fix error in memory usage calculation (unintended integer division)
+Merge #12797: init: Fix help message for checkblockindex
+init: Fix help message for checkblockindex
+Fix missing or inconsistent include guards
+Merge #12747: Fix typos
+Merge #12716: Fix typos and cleanup in various files
+Fix typos
+Fix typos
+Merge #12678: build: Fix a few compilation issues with Clang 7 and -Werror
+[tests] Fix flake8 warnings in feature_block.py
+Merge #12683: Fix more constness violations in serialization code
+Merge #12681: Fix ComputeTimeSmart test failure with -DDEBUG_LOCKORDER
+Fix ComputeTimeSmart test failure with -DDEBUG_LOCKORDER
+Merge #12627: qa: Fix some tests to work on native windows
+Merge #12204: Fix overly eager BIP30 bypass
+qa: Fix some tests to work on native windows
+Fix cs_main lock in LoadExternalBlockFile
+Merge #11995: [depends] Fix Qt build with Xcode 9
+[Depends] Fix Qt build with Xcode 9.2
+Merge #12573: Fix compilation when compiler do not support __builtin_clz*
+Merge #12475: qa: Fix python TypeError in script.py
+Merge #12543: Fix typos
+Merge #12582: Fix ListCoins test failure due to unset g_wallet_allow_fallback_fee
+Merge #12584: Fix typos and cleanup documentation
+Fix typos and cleanup
+Fix ListCoins test failure due to unset g_wallet_allow_fallback_fee
+Consensus: Fix bug when compiler do not support __builtin_clz*
+Fix typos
+qa: Fix python TypeError in script.py
+Merge #12455: Fix bip68 sequence test to reflect updated rpc error message
+test: Fix bip68 sequence test to reflect updated rpc error message
+Fix overly eager BIP30 bypass
+Merge #12356: Fix 'mempool min fee not met' debug output
+util: Fix multiple use of LockDirectory
+Merge #12438: [Tests] Fix trivial typo in test_runner.py causing error
+Fix typo in test_runner.py causing error
+Merge #12424: Fix rescan test failure due to unset g_address_type, g_change_type
+[tests] Fix flake8 warnings in invalidblockrequest
+[test] Fix nits leftover from 11771
+Fix rescan test failure due to unset g_address_type, g_change_type
+Merge #12416: Fix Windows build errors introduced in #10498
+Fix Windows build errors introduced in #10498
+Merge #12393: Fix a-vs-an typos
+Merge #12392: Fix ignoring tx data requests when fPauseSend is set on a peer
+Fix a-vs-an typos
+Fix ignoring tx data requests when fPauseSend is set on a peer
+Fix 'mempool min fee not met' debug output
+Merge #12367: Fix two fast-shutdown bugs
+Fix fast-shutdown crash if genesis block was not loaded
+Fix fast-shutdown hang on ThreadImport+GenesisWait
+[tests] Fix style warnings in feature_fee_estimation.py
+Merge #12283: Fix typos
+Fix missing cs_main lock for GuessVerificationProgress()
+[tests] Fix flake8 warnings in invalidtxrequest
+tests: Fix accidental redefinition of previously defined variable via list comprehension
+Merge #12292: [tests] Fix names of excluded extended tests for travis
+Merge #11577: Fix warnings (-Wsign-compare) when building with DEBUG_ADDRMAN
+[tests] Fix names of excluded extended tests for travis
+Fix typos
+Merge #12264: Fix versionbits warning test
+Fix intermittent failure in p2p-versionbits-warning.py
+Fix flake8 warnings in p2p-versionbits-warning.py
+Merge #12241: [trivial][docs] Fix incorrect link in /test/ README.md
+[trivial][docs] Fix incorrect link in /test/ README.md
+Merge #12212: Trivial: Fix spelling in zapwallettxes test description
+Trivial: Fix spelling in zapwallettxes test description
+Merge #12168: Trivial: Fix #include sys/fcntl.h to just fcntl.h (without sys/)
+Trivial: Fix #include sys/fcntl.h to just fcntl.h (without sys/)
+Merge #12133: [qa] Fix rare failure in p2p-segwit.py
+Merge #12150: Fix ListCoins test failure due to unset g_address_type, g_change_type
+Fix ListCoins test failure due to unset g_address_type, g_change_type
+Merge #12143: [Doc] Fix link for BIP-159 pull request
+[Doc] Fix link for bip 159 pull request
+Fix rare failure in p2p-segwit.py
+Merge #12093: Fix incorrect Markdown link
+Fix incorrect Markdown link
+Fixes issue #12067 `sendmany` curl example is wrong.
+Merge #11291: Fix string concatenation to os.path.join and add exception case
+Merge #11981: Fix gitian build after libzmq bump
+Merge #11960: [Doc] Fix link to installation script
+[Doc] Fix link to installation script
+Merge #11947: test: Fix rawtransactions test
+test: Fix rawtransactions test
+[tests] Fix network threading in functional tests
+Fix string concatenation to os.path.join and add exception case
+Merge #11809: gui: Fix proxy setting options dialog crash
+gui: Fix proxy setting options dialog crash
+Merge #11834: [verify-commits] Fix gpg.sh's echoing for commits with '\n'
+[verify-commits] Fix gpg.sh's echoing for commits with '\n'
+Merge #11804: [docs] Fixed outdated link with archive.is
+[docs] Fixed outdated link with archive.is
+Merge #11337: Fix code constness in CBlockIndex::GetAncestor() overloads
+Merge #11783: Fix shutdown in case of errors during initialization
+Merge #11747: Fix: Open files read only if requested
+[rpc] Fix fVerbose parsing (remove excess if cases).
+Fix shutdown in case of errors during initialization
+Merge #11746: trivial: Fix unsuccessful typo
+Fix: Open files read only if requested
+trivial: Fix unsuccessful typo
+Merge #11738: Fix sendrawtransaction hang when sending a tx already in mempool
+Fix sendrawtransaction hang when sending a tx already in mempool
+Merge #11707: [tests] Fix sendheaders
+Merge #11713: Fix for mismatched extern definition in wallet tests
+Fix for mismatched extern definition in wallet test classes which was breaking msvc linking.
+Merge #10920: [qt] Fix potential memory leak in newPossibleKey(ChangeCWallet *wallet)
+Merge #11690: [trivial] Fix the StartupWMClass for bitoin-qt, so gnome-shell can recognize it
+Merge #11684: trivial: Fix typo – "Ubutntu" → "Ubuntu"
+trivial: Fix typo – "Ubutntu" → "Ubuntu"
+Merge #11644: Fix qt build broken by 5a5e4e9
+Fix qt build broken by 5a5e4e9
+Merge #11635: trivial: Fix typo – alreardy → already
+trivial: Fix typo – alreardy → already
+Merge #11597: [trivial] Fix error messages in CFeeBumper
+Fix -disablewallet default value
+Merge #10866: Fix -Wthread-safety-analysis warnings. Compile with -Wthread-safety-analysis if available.
+Fix -Wthread-safety-analysis warnings. Change the sync.h primitives to std from boost.
+[trivial] Fix error messages in CFeeBumper
+Merge #11571: Fixed a couple small grammatical errors.
+Fix warnings when building with DEBUG_ADDRMAN
+Merge #11541: Build: Fix Automake warnings when running autogen.sh
+Fixed a couple small grammatical errors.
+Merge #11538: qa: Fix race condition failures in replace-by-fee.py, sendheaders.py
+qa: Fix race condition in sendheaders.py
+Fix automake warnings when running autogen.sh
+qa: Fix replace-by-fee race condition failures
+Fix valid path output
+Fix incorrect quoting of quotes (the previous quotes had no effect beyond unquoting)
+Merge #11467: Fix typos. Use nullptr instead of NULL.
+Merge #11492: [wallet] Fix leak in CDB constructor
+Merge #11508: Fix crash via division by zero assertion
+Merge #11483: Fix importmulti bug when importing an already imported key
+Fix crash via division by zero assertion
+[wallet] Fix leak in CDB constructor
+Fix wallet RPC race by waiting for callbacks in sendrawtransaction
+Merge #10898: Fix invalid checks (NULL checks after dereference, redundant checks, etc.)
+Merge #11277: Fix uninitialized URI in batch RPC requests
+Fix importmulti bug when importing an already imported key
+Merge #10853: [tests] Fix RPC failure testing (again)
+Fix a vs. an typo
+Fix code style in keystore.cpp/crypter.cpp
+Merge #11107: Fix races in AppInitMain and others with lock and atomic bools
+Merge #11440: Fix validationinterface build on super old boost/clang
+Merge #11443: [qa] Allow "make cov" out-of-tree; Fix rpc mapping check
+Merge #11419: Utils: Fix launchctl not being able to stop bitcoind
+Fix uninitialized URI in batch RPC requests
+Fix validationinterface build on super old boost/clang
+Merge #11399: Fix bip68-sequence rpc test
+Merge #11284: Fix invalid memory access in CScript::operator+= (guidovranken, ajtowns)
+qa: Fix lcov for out-of-tree builds
+Merge #11303: Fix estimatesmartfee rounding display issue
+Merge #11319: [qa] Fix error introduced into p2p-segwit.py, and prevent future similar errors
+Fix launchctl not being able to stop bitcoind
+Merge #11408: Trivial: Fix parameter name typo in ErasePurpose walletdb method
+Fix bip68-sequence rpc test
+Fix parameter name typo in ErasePurpose walletdb method.
+Merge #11392: Fix stale link in gitian-building.md
+Merge #11340: Trivial: Fix validation comments
+[Qt] Add delay before filtering transactions Fixes 3141
+Trivial: Fix validation comments
+Fix code constness in CBlockIndex::GetAncestor() overloads
+Merge #11332: Fix possible crash with invalid nCustomFeeRadio in QSettings (achow101, TheBlueMatt)
+Merge #11330: Trivial: Fix comments for DEFAULT_WHITELIST[FORCE]RELAY
+Fix Qt 0.14.2->0.15.0 segfault if "total at least" is selected
+Trivial: Fix comments for DEFAULT_WHITELIST[FORCE]RELAY
+Merge #11326: Fix crash on shutdown with invalid wallet
+Fix uninitialized g_connman crash in Shutdown()
+qa: Fix bug introduced in p2p-segwit.py
+Merge #11264: [doc] Fix broken Markdown table in dependencies.md
+Merge #11100: Fix confusing blockmax{size,weight} options, dont default to throwing away money
+Fix invalid memory access in CScript::operator+=
+[Docs] Fix broken Markdown table in dependencies.md. Cleanups.
+Merge #11237: qt: Fixing division by zero in time remaining
+Fix CTxMemPoolEntry::UpdateAncestorState: modifySigOps param type int -> int64_t
+Merge #11156: Fix memory leaks in qt/guiutil.cpp
+Merge #10911: [qt] Fix typo and access key in optionsdialog.ui
+Fix race for mapBlockIndex in AppInitMain
+Fix style in -stdin and -stdinrpcpass handling
+Fix division by zero in time remaining
+Merge #11173: RPC: Fix currency unit string in the help text
+Merge #11143: Fix include path for bitcoin-config.h
+Merge #11164: Fix boost headers included as user instead of system headers
+Fix currency/fee-rate unit string in the help text
+Merge #11198: [Qt] Fix display of package name on 'open config file' tooltip
+Fix include path for bitcoin-config.h in crypto/common.h
+[Qt] Fix display of package name on 'open config file' tooltip
+Merge #11145: Fix rounding bug in calculation of minimum change
+Fix boost headers included as user instead of system headers
+Merge #11151: Fix header guards using reserved identifiers
+Fix memory leaks in qt/guiutil.cpp
+Fix header guards using reserved identifiers
+Fix rounding errors in calculation of minimum change size
+Fix getchaintxstats()
+Fix potential null dereferences
+Merge #11007: wallet: Fix potential memory leak when loading a corrupted wallet file
+Merge #10878: Docs: Fix Markdown formatting issues in init.md
+Merge #11083: Fix combinerawtransaction RPC help result section
+Fix combinerawtransaction RPC help result section
+Merge #10901: Fix constness of ArgsManager methods
+Merge #10680: Fix inconsistencies and grammar in various files
+Merge #10956: Fix typos
+wallet: Fix memory leak when loading a corrupted wallet file
+Merge #11032: [qa] Fix block message processing error in sendheaders.py
+[qa] Fix block message processing error in sendheaders.py
+Merge #11025: qa: Fix inv race in example_test
+qa: Fix inv race in example_test
+Expose more parallelism with relaxed atomics (suggested in #9938). Fix a test to check the exclusive or of two properties rather than just or.
+Fix typos.
+Merge #10998: Fix upgrade cancel warnings
+Merge #10999: Fix amounts formatting in `decoderawtransaction`
+[qt] Fix potential memory leak in newPossibleKey(ChangeCWallet *wallet)
+Merge #10995: Fix resendwallettransactions assert failure if -walletbroadcast=0
+Merge #10919: Fix more init bugs.
+Fix resendwallettransactions assert failure if -walletbroadcast=0
+Merge #10977: [net] Fix use of uninitialized value in getnetworkinfo(const JSONRPCRequest&)
+[net] Fix use of uninitialized value in getnetworkinfo(const JSONRPCRequest& request)
+Merge #10974: Fix typo in sendcoinsdialog.
+Fix typo in sendcoinsdialog.
+Fix some broken init-time prints/constants
+Fix resume-of-reindex-after-restart
+Merge #10788: [RPC] Fix addwitnessaddress by replacing ismine with producesignature
+Merge #10758: Fix some chainstate-init-order bugs.
+Update init.md: Fix section numbering.
+Fix segfault when shutting down before fully loading
+Fix some LoadChainTip-related init-order bugs.
+Merge #10931: Fix misleading "Method not found" multiwallet errors
+Merge #10912: [tests] Fix incorrect memory_cleanse(…) call in crypto_tests.cpp
+Fix misleading "Method not found" multiwallet errors
+[tests] Fix incorrect memory_cleanse(…) call in crypto_tests.cpp
+Fix constness of ArgsManager methods
+Merge #10862: Remove unused variable int64_t nEnd. Fix typo: "conditon" → "condition".
+Fix misspellings and remove safety verbiage
+Update init.md: Fix line breaks in section 3b.
+Fix typo: "conditon" → "condition"
+Merge #9980: Fix mem access violation merkleblock
+Fix potential overflows in ECDSA DER parsers
+Fix test_bitcoin circular dependency issue
+Merge #10837: Fix resource leak on error in GetDevURandom
+Merge #10842: Fix incorrect Doxygen tag (@ince → @since). Doxygen parameter name matching.
+Fix incorrect Doxygen tag (@ince → @since). Make Doxygen parameter names match actual parameter names.
+Fix resource leak
+Merge #10833: Fix typos
+Fix typos
+Merge #10819: Fix uninitialized atomic variables
+Fix uninitialized atomic variables
+Merge #9804: Fixes subscript 0 (&var[0]) where should use (var.data()) instead.
+Fix signed/unsigned comparison warning introduced in c8e29d7ff0.
+Fix rare edge case of paying too many fees when transaction has no change.
+Fix subscript[0] potential bugs in key.cpp
+Fix subscript[0] in utilstrencodings.cpp
+Fix subscript[0] in streams.h
+Fix subscript[0] in validation.cpp
+Fix subscript[0] in torcontrol
+Fix subscript[0] in netaddress.cpp
+Fix subscript[0] in base58.cpp
+Fix subscript[0] in compressor.cpp
+Fix 2 subscript[0] bugs in pubkey.cpp, and eliminate one extra size check
+Fix subscript[0] bug in net.cpp if GetGroup returns a 0-sized vector
+Merge #10759: Fix multi_rpc test for hosts that dont default to utf8
+Fix multi_rpc test for hosts that dont default to utf8
+Fix MD formatting in REST-interface.md and spelling mistake in test_runner.py
+[tests] Fix flake8 warnings in getblocktemplate tests
+[tests] Fix import order in getblocktemplate test
+Fix inconsistencies and grammar in various files
+Merge #10633: doc: Fix various typos
+Fixed multiple typos
+Merge #10530: Fix invalid instantiation and possibly unsafe accesses of array in class base_uint<BITS>
+Fix const_reverse_iterator constructor (pass const ptr)
+Merge #10587: Net: Fix resource leak in ReadBinaryFile(...)
+Net: Fix resource leak in ReadBinaryFile(...)
+Merge #10569: Fix stopatheight
+Fix stopatheight
+Fix instantiation and array accesses in class base_uint<BITS>
+Merge #10538: [trivial] Fix typo: "occurrences" (misspelled as "occurrances")
+Bugfix: wallet: Fix warningStr, errorStr argument order
+[trivial] Fix typo: "occurrences" (misspelled as "occurrances")
+Merge #10535: [qa] fundrawtx: Fix shutdown race
+[qa] fundrawtx: Fix shutdown race
+Merge #10403: Fix importmulti failure to return rescan errors
+Merge #10422: Fix timestamp in fee estimate debug message
+Merge #10506: Fix bumpfee test after #10449
+Fix bumpfee test after #10449
+Merge #10469: Fixing typo in rpcdump.cpp
+Merge #10450: Fix bumpfee rpc "errors" return value
+Merge #10479: [trivial] Fix comment for ForceSetArg()
+Merge #10454: Fix broken q4 test build
+[trivial] Fix comment for ForceSetArg()
+Fixing typo in rpcdump.cpp
+Merge #10419: [trivial] Fix three recently introduced typos
+Fix broken q4 test build
+Fix bumpfee rpc "errors" return value
+Fix: make CCoinsViewDbCursor::Seek work for missing keys
+Merge #10410: Fix importwallet edge case rescan bug
+[trivial] Fix three recently introduced typos
+Fix timestamp in fee estimate debug message
+Merge #10413: Fix docs (there's no rpc command setpaytxfee)
+Fix docs (there's no rpc command setpaytxfee)
+Fix importwallet edge case rescan bug
+torcontrol: Fix ParseTorReplyMapping
+Fix importmulti failure to return rescan errors
+Merge #10134: [qa] Fixes segwit block relay test after inv-direct-fetch was disabled
+Merge #10344: [tests] Fix abandonconflict.py intermittency
+[qa] Fixes segwit block relay test after inv-direct-fetch was disabled
+[tests] Fix abandonconflict.py intermittency
+Merge #10180: [trivial] Fix typos (tempoarily → temporarily, inadvertantly → inadvertently)
+Merge #10305: Fix potential NPD introduced in b297426c
+Fix potential NPD introduced in b297426c
+Merge #9743: Fix several potential issues found by sanitizers
+Merge #10258: Fixed typo in documentation for merkleblock.h
+Fixed typo in documentation for merkleblock.h
+Merge #10250: Fix some empty vector references
+Fix some empty vector references
+Merge #10187: tests: Fix test_runner return value in case of skipped test
+tests: Fix test_runner return value in case of skipped test
+[trivial] Fix typos (tempoarily → temporarily, inadvertantly → inadvertently)
+Merge #10156: Fix for issues with startup and multiple monitors on windows.
+Fix for issues with startup and multiple monitors on windows.
+Merge #10167: [trivial] Fix typo ("improssible" → "impossible")
+Merge #10168: Fix build warning from #error text
+Fix build warning from #error text
+[trivial] Fix typo ("improssible" → "impossible")
+Merge #10153: logging: Fix off-by-one for shrinkdebugfile default
+logging: Fix off-by-one for shrinkdebugfile
+Merge #10036: Fix init README format to render correctly on github
+bitcoin-tx: Fix missing range check
+Fix rebase issue where pwalletMain was used instead of pwallet Ser./Deser. nInternalChainCounter as last element
+Merge #10069: [QA] Fix typo in fundrawtransaction test
+Merge #9946: Fix build errors if spaces in path or parent directory
+[QA] Fix typo in fundrawtransaction test
+Fix superfluous cast and code style nits in RPC wallet-hd.py test
+Fix issue where CDataStream->nVersion was taken a CKeyPool record version
+Fix wrong keypool internal size in RPC getwalletinfo help
+Merge #10029: Fix parameter naming inconsistencies between .h and .cpp files
+Merge #10045: [trivial] Fix typos in comments
+[trivial] Fix typos in comments
+Merge #10039: Fix compile errors with Qt 5.3.2 and Boost 1.55.0
+Merge #10037: Trivial: Fix typo in help getrawtransaction RPC
+Trivial: Fix typo in help getrawtransaction RPC
+Fix parameter naming inconsistencies between .h and .cpp files
+Fix init README format to render correctly on github
+Merge #10033: Trivial: Fix typo in key.h comment
+Trivial: Fix typo in key.h comment
+Fix shadowing of local variables.
+Merge #10011: build: Fix typo s/HAVE_DONTWAIT/HAVE_MSG_DONTWAIT
+build: Fix typo s/HAVE_DONTWAIT/HAVE_MSG_DONTWAIT
+Merge #9842: Fix RPC failure testing (continuation of #9707)
+Merge #10008: [trivial] Fix a typo (introduced two days ago) in the default fee warning
+[trivial] Fix a typo (introduced two days ago) in the default fee warning
+Fix RPC failure testing (2 of 2)
+Merge #9940: Fix verify-commits on OSX, update for new bad Tree-SHA512, point travis to different keyservers
+Merge #9953: Fix shutdown hang with >= 8 -addnodes set
+Fix logging bug and improve readability of smartfees.py
+Merge #9972: Fix extended rpc tests broken by #9768
+Fix extended rpc tests broken by 8910b4717e5bb946ee6988f7fe9fd461f53a5935
+Fix travis failing to fetch keys from the sks keyserver pool
+Merge #9962: [trivial] Fix typo in rpc/protocol.h
+[trival] Fix typo introduced into rpc/protocol.h in commit 338bf06
+Merge #9916: Fix msvc compiler error C4146 (minus operator applied to unsigned type)
+Merge #9853: Fix error codes from various RPCs
+Fix shutdown hang with >= 8 -addnodes set
+Merge #9936: [trivial] Fix three typos introduced into walletdb.h in commit 7184e25
+Fix msvc compiler error C4146 (unary minus operator applied to unsigned type)
+devtools: Fix a syntax error typo
+Merge #9932: Fix verify-commits on travis and always check top commit's tree
+[trivial] Fix typos introduced in 7184e25c80aa8b1629a700bb7a7e290ad0bb2792
+Fix bashisms in verify-commits and always check top commit's tree
+Fix msvc compiler error C4146 (minus operator applied to unsigned type)
+Merge #9843: Fix segwit getblocktemplate test
+Merge #9739: Fix BIP68 activation test
+Fix regsig checking for subkey sigs in verify-commits
+Merge #9829: Fix importmulti returning rescan errors for wrong keys
+Fix importmulti returning rescan errors for wrong keys
+Merge #9875: tests: Fix dangling pwalletMain pointer in wallet tests
+tests: Fix dangling pwalletMain pointer in wallet tests
+Fix segwit getblocktemplate test.
+Merge #9577: Fix docstrings in qa tests
+Fix docstrings in qa tests
+Merge #9820: Fix pruning test broken by 2 hour manual prune window
+Fix pruning test broken by 2 hour manual prune window
+Merge #9817: Fix segfault crash when shutdown the GUI in disablewallet mode
+Fix segfault crash when shutdown the GUI in disablewallet mode
+Merge #9798: Fix Issue #9775 (Check returned value of fopen)
+Fix for issue #9775. Added check for open() returning a NULL pointer.
+Merge #9696: [trivial] Fix recently introduced typos in comments
+Merge #9675: Fix typo and spelling inconsistency in CONTRIBUTING.md
+[trivial] Fix recently introduced typos in comments
+Fix BIP68 activation test
+Merge #9707: Fix RPC failure testing
+Fix typo and spelling inconsistency in CONTRIBUTING.md
+Fix RPC failure testing
+Merge #9712: bench: Fix initialization order in registration
+bench: Fix initialization order in registration
+Merge #9651: Fix typos
+Fixup style a bit by moving { to the same line as if statements
+Merge #9671: Fix super-unlikely race introduced in 236618061a445d2cb11e72
+Fix super-unlikely race introduced in 236618061a445d2cb11e72
+Merge #9580: Fix various minor linearization script issues
+Merge #9646: depends: Fix cross build for qt5.7
+Fix typos
+Merge #9510: [trivial] Fix typos in comments
+[trivial] Fix typos in comments
+Merge #9574: [depends] Fix QT build on OSX
+Fix various minor linearization script issues
+Fix CCheckQueue IsIdle (potential) race condition and remove dangerous constructors.
+Fix to have miner test aware of new separate block min tx fee
+Fix missing use of dustRelayFee
+Merge #9512: Fix various things -fsanitize complains about
+Fix memory leak in multiUserAuthorized
+Fix memory leak in net_tests
+Fix memory leak in wallet tests
+Merge #9507: Fix use-after-free in CTxMemPool::removeConflicts()
+Fix use-after-free in CTxMemPool::removeConflicts()
+Merge #9487: Remove stray semicolon (Fix empty body warning)
+Remove stray semicolon (Fix empty body warning)
+Merge #8747: [rpc] Fix transaction size comments and RPC help text.
+Fix edge case with stale fee estimates
+Fix dangerous condition in ModifyNewCoins.
+Merge #9288: Fix a bug if the min fee is 0 for FeeFilterRounder
+Merge #9460: Fix a few typos in translated strings
+qt,wallet: Fix a few typos in messages
+Merge #9412: build: Fix 'make deploy' for OSX
+Fix bug in dmg builder so that it actually reads in the configuration file
+Merge #9420: Fix linker error when configured with --enable-lcov
+Fix linker error when configured with --enable-lcov
+Fix non-const mapMultiArgs[] access after init.
+build: Fix 'make deploy' for OSX
+Fix testfile reference
+Merge #9236: Fix races for strMiscWarning and fLargeWork*Found, make QT runawayException use GetWarnings
+Merge #9366: Fix: OSX QT compile: use built-in swap if available, or defer
+Merge #9335: Fix typo in test/data/tx_valid.json
+Fix spelling.
+Fix qt/paymentrequestplus.cpp for OpenSSL 1.1 API.
+Fix wallet/test/crypto_tests.cpp for OpenSSL 1.1 API.
+Fix transaction size comments. Size now refers to virtual size as defined in BIP141.
+Merge #9268: Fix rounding privacy leak introduced in #9260
+Merge #9296: Fix missed change to WalletTx structure
+Fix missed change to WalletTx structure
+Merge #9014: Fix block-connection performance regression
+Fix rounding privacy leak introduced in #9260
+Merge #9253: Fix calculation of number of bound sockets to use
+Merge #9230: Fix some benign races in timestamp logging
+Fix calculation of number of bound sockets to use
+Merge #9225: Fix some benign races
+Merge #9233: Fix some typos
+Fix some typos
+Fix race when accessing std::locale::classic()
+Fix unlocked access to vNodes.size()
+Fix AddrMan locking
+Merge #9216: Doc: Fix copypasted comment
+Fix copypasted comment.
+Merge #9200: bench: Fix subtle counting issue when rescaling iteration count
+bench: Fix subtle counting issue when rescaling iteration count
+Merge #9186: test: Fix use-after-free in scheduler tests
+test: Fix use-after-free in scheduler tests
+Merge #9160: [trivial] Fix hungarian variable name
+[trivial] Fix hungarian variable name
+[qa] Fix sync_blocks timeout argument
+Merge #9058: Fixes for p2p-compactblocks.py test timeouts on travis (#8842)
+Fix mininode version message format
+Fix auto-deselection of peers
+Merge #9067: Fix exit codes
+Merge #9095: test: Fix test_random includes
+Merge #9026: Fix handling of invalid compact blocks
+test: Fix test_random includes
+Fix exit codes: - `--help`, `--version` etc should exit with `0` i.e. no error ("not enough args" case should still trigger an error) - error reading config file should exit with `1`
+Fix compact block handling to not ban if block is invalid
+[qa] Fix stale data bug in test_compactblocks_not_at_tip
+[qa] Fix bug in compactblocks v2 merge
+Merge #8993: Trivial: Fix doxygen comment: the transaction is returned in txOut
+Fix doxygen comment: the transaction is returned in txOut
+Merge #8928: Fix init segfault where InitLoadWallet() calls ATMP before genesis
+Fix ismine and addwitnessaddress: no uncompressed keys in segwit
+Fix init segfault where InitLoadWallet() calls ATMP before genesis
+Merge #8904: [qa] Fix compact block shortids for a test case
+Merge #8882: [qa] Fix race conditions in p2p-compactblocks.py and sendheaders.py
+[qa] Fix compact block shortids for a test case
+[qa] Fix race condition in sendheaders.py
+[qa] Fix bug in mininode witness deserialization
+Fix overly-prescriptive p2p-segwit test for new fetch logic
+Merge #8862: Fix a few cases where messages were sent after requested disconnect
+Merge #8854: [qa] Fix race condition in p2p-compactblocks test
+[qa] Fix race condition in p2p-compactblocks test
+Fix nulldummy.py test
+Merge #8820: [depends] Fix Qt compilation with Xcode 8
+Merge #8357: [mempool] Fix relaypriority calculation error
+[depends] Fix Qt compilation with Xcode 8
+Merge #8802: Fix future copyright year
+Fix future copyright year
+Trivial: build-aux/m4/l_atomic: Fix typo
+Merge #8769: Trivial: Fix ISO URL, capitalization
+Trivial: Fix ISO URL, capitalization
+Merge #8739: [qa] Fix broken sendcmpct test in p2p-compactblocks.py
+Merge #8762: Trivial: Fix typo
+Fix relaypriority calculation error
+Trivial: Fix typo
+Fix broken sendcmpct test in p2p-compactblocks.py
+Merge #8667: Fix SIGHASH_SINGLE bug in test_framework SignatureHash
+Merge #8681: Performance Regression Fix: Pre-Allocate txChanged vector
+Merge #8664: Fix segwit-related wallet bug
+Performance Regression Fix: Pre-Allocate txChanged vector
+Merge #8673: Trivial: Fix obvious assignment/equality error in test
+Merge #8606: Fix some locks
+Fix obvious assignment/equality error in test
+Fix SIGHASH_SINGLE bug in test_framework SignatureHash
+Merge #8607: [doc] Fix doxygen off-by-one comments, fix typos
+Fix some locks
+Merge #8226: contributing.md: Fix formatting (line lengths and smart quotes)
+Merge #8560: Trivial: Fix two VarInt examples in serialize.h
+Trivial: Fix two VarInt examples in serialize.h
+[doc] Fix typos in comments, doxygen: Fix comment syntax
+init: Fix typo in help message for -whitelistforcerelay
+Merge #8540: qt: Fix random segfault when closing "Choose data directory" dialog
+qt: Fix random segfault when closing "Choose data directory" dialog
+Merge #8505: Trivial: Fix typos in various files
+Merge #8513: Fix a type error that would not compile on OSX.
+Fix a type error that would not compile on Apple LLVM version 6.1.0 (clang-602.0.53) (based on LLVM 3.6.0svn)
+Merge #8481: Qt: Fix minimize and close bugs
+Fix minimize and close bugs
+Merge #8444: Fix p2p-feefilter.py for changed tx relay behavior
+Merge #8392: Fix several node initialization issues
+Fix p2p-feefilter.py for changed tx relay behavior
+Merge #8373: Fix OSX non-deterministic dmg
+Merge #8320: Fix 0.12 release notes on block relaying
+Merge #8312: Fix mempool DoS vulnerability from malleated transactions
+Fix 0.12 release notes on block relaying
+Merge #8314: Fix pkg-config issues for 0.13
+Fix DoS vulnerability in mempool acceptance
+build: Fix Qt5PlatformSupport check without pkg-config
+contributing.md: Fix formatting
+Fix some minor compact block issues that came up in review
+Fix LogPrint to LogPrintf
+Merge #7713: Fixes for verify-commits script
+Fix bitcoin_qt.m4 and fix-xcb-include-order.patch
+[qa] pull-tester: Fix assertion and check for run_parallel
+Merge #8171: [RPC] Fix createrawtx sequence number unsigned int parsing
+Merge #8201: [qa] fundrawtransaction: Fix race, assert amounts
+[qa] fundrawtransaction: Fix race, assert amounts
+Merge #8172: Fix two warnings for comparison between signed and unsigned
+[RPC] Fix createrawtx sequence number unsigned int parsing
+Fix two warnings for comparison between signed and unsigned
+[rpc] fundrawtransaction: Fix help text and interface
+Merge #8139: Fix interrupted HTTP RPC connection workaround for Python 3.5+
+Fix interrupted HTTP RPC connection workaround for Python 3.5+
+Merge #8129: Fix RPC console auto completer
+Merge #8033: Fix Socks5() connect failures to be less noisy and less unnecessarily scary
+Fix typo adddrman to addrman as requested in #8070
+Merge #7696: Fix de-serialization bug where AddrMan is left corrupted
+Merge #8046: [Qt][OSX] Fix Cmd-Q / Menu Quit shutdown on OSX
+Merge #8041: [qa] Fix bip9-softforks blockstore issue
+[Qt][OSX] Fix Cmd-Q / Menu Quit shutdown on OSX
+[qa] Fix bip9-softforks blockstore issue
+Merge #8028: Fix insanity of CWalletDB::WriteTx and CWalletTx::WriteToDisk
+Merge #8016: Fix multithread CScheduler and reenable test
+Fix insanity of CWalletDB::WriteTx and CWalletTx::WriteToDisk
+Merge #8009: Docs: Fixed invalid example paths in gitian-building.md
+Fixed invalid example paths in gitian-building.md
+Fix de-serialization bug where AddrMan is corrupted after exception * CAddrDB modified so that when de-serialization code throws an exception Addrman is reset to a clean state * CAddrDB modified to make unit tests possible * Regression test created to ensure bug is fixed * StartNode modifed to clear adrman if CAddrDB::Read returns an error code.
+[qa] Fix typos in doc and comments
+Merge #7807: Fixed miner test values, gave constants for less error-prone values.
+Merge #7514: Fix IsInitialBlockDownload for testnet
+Merge #7933: Fix OOM when deserializing UTXO entries with invalid length
+Merge #7941: Fixing comment in script_test.json test case
+Fixing comment in script_test.json test case
+Fix OOM bug: UTXO entries with invalid script length
+Merge #7925: qt: Fix out-of-tree GUI builds
+qt: Fix out-of-tree GUI builds
+Merge #7919: Fix headers announcements edge case
+Merge #7912: Tests: Fix deserialization of reject messages
+Merge #7913: Fix for incorrect locking in GetPubKey() (keystore.cpp)
+Fix headers announcements edge case
+Tests: Fix deserialization of reject messages
+Fix for incorrect locking in GetPubKey() (keystore.cpp)
+Merge #7904: txdb: Fix assert crash in new UTXO set cursor
+[qa] rpc-tests: Fix link in comment and label error msg
+txdb: Fix assert crash in new UTXO set cursor
+[amount] tests: Fix off-by-one mistake
+Merge #7793: [doxygen] Fix member comments
+Fix some misconstructed tests
+Fix formatting of NOPs for generated script tests
+Fix JSON pretty printing in script_tests
+[doc] Fix doxygen comments for members
+Merge #7785: Trivial: Fix typo: Optimizaton -> Optimization [skip ci]
+Fix typo: Optimizaton -> Optimization
+Merge #7477: Fix quoting of copyright holders in configure.ac.
+Merge #7773: Fix comments in tests
+Fix comments in tests
+Merge #7646: Fix lockunspent help message
+Fix lockunspents help message
+Merge #7715: Fix calculation of balances and available coins.
+Fix calculation of balances and available coins.
+Merge #7621: Fixes ZMQ startup with bad arguments.
+Merge #7683: Fix torcontrol.cpp unused private field warning
+Fix torcontrol.cpp unused private field warning
+Merge #7668: Fix history deletion bug after font size change
+Fix history deletion bug after font change
+Merge #7637: Fix memleak in TorController [rework]
+Fix memleak in TorController [rework]
+Merge #7617: [doc/log] Fix markdown syntax and line terminate LogPrint
+[doc] Fix markdown
+Fixes ZMQ startup with bad arguments.
+Merge #7604: build: Remove spurious dollar sign. Fixes #7189.
+Fix doxygen comment for payTxFee
+Remove spurious dollar sign. Fixes #7189.
+Merge #7583: [doc] Fix typos
+[doc] Fix typos
+Merge #7527: [Trivial, RPC] Fix and cleanup listreceivedbyX documentation
+Fix and cleanup listreceivedbyX documentation
+Fix IsInitialBlockDownload to play nice with testnet
+Fix quoting of copyright holders in configure.ac.
+Fix spelling: misbeha{b,v}ing
+Merge #7425: devtools: Fix utf-8 support in messages for github-merge
+devtools: Fix utf-8 support in messages for github-merge
+Merge #7381: [walletdb] Fix syntax error in key parser
+[walletdb] Fix syntax error in key parser
+Fix error in blockchain.py introduced in merge
+[qa] Fix pyton syntax in rpc tests
+Fix typo, wrong information in gettxout help text.
+Fixing typos on security-check.py and torcontrol.cpp
+Fix RPCTimerInterface ordering issue Dispatching a QThread from a non Qt thread is not allowed. Always use the HTTPRPCTimerInterface (non QT) to dispatch RPCRunLater threads.
+[init] Fix error message of maxtxfee invalid amount
+SQUASHME: Fix rpc tests that assumed fallback to minRelayTxFee
+[qt] Fix misleading translation
+net: Fix sent reject messages for blocks and transactions
+Fix mempool limiting for PrioritiseTransaction
+Fix typo in wallet.cpp
+Update miner.cpp: Fix typo in comment
+[trivial] Fix typo in peertablemodel.cpp
+Fix various typos
+Fix removeForReorg to use MedianTimePast
+Fix comment in removeForReorg
+Fix removal of time-locked transactions during reorg
+Fix url in .travis.yml
+Trivial: Fix warning introduced by #7053 by casting to uint64_t
+Fix and improve relay from whitelisted peers
+[trivial] Fix -maxmempool InitError
+OpenSSL 1.1.0: Fix text variant of the version number
+Fix relay mechanism for whitelisted peers under blocks only mode.
+Fix usage of local python-bitcoinlib
+Fix debug log message for block files
+[trivial] contrib: Fix `echo`s in verify.sh
+[qa] keypool: Fix white space to prepare transition to test framework
+Fixed integer comparison warning.
+Fix comment for blocksonly parameter interactions
+Fix fRelayTxs comment
+Fix bug in mempool_tests unit test
+[doc] Fix FIXME for libblkmaker in release-notes.md
+[depends] Fix miniupnpc compilation on osx
+Globals: Make AcceptBlockHeader static (Fix #6163)
+Fix incorrect locking of mempool during RBF replacement
+Fix crash in validateaddress with -disablewallet
+Fix CCoins serialization documentation
+Fix ZMQ Notification initialization and shutdown
+Fix chainstate serialized_size computation
+Fix BIP65 p2p test
+Fix pre-push-hook regexes
+Fix stale comment in CTxMemPool::TrimToSize.
+Fix comment formatting tabs
+Fix calling mempool directly, instead of pool, in ATMP
+[Trivial] Fixed typo when referring to a previous section in depends/README.md [skip ci]
+doc: Fix dead link in gitian-building
+Fix debian/copyright list to be non-comma-separated.
+Fix mempool package tracking edge case
+Fix spelling of Qt
+Fix locking in GetTransaction.
+Merge pull request #6684 Fixes #6682
+net: Fix CIDR notation in ToString()
+[trivial] Fix rpc message "help generate"
+Fixes typo in build-osx.md.
+[TRIVIAL] Fix typo: exactmath -> exactmatch
+Fix race condition between starting HTTP server thread and setting EventBase()
+Fix comment
+Fix crash when mining with empty keypool.
+Fix masking of irrelevant bits in address groups.
+Fix race condition on test node shutdown
+Fix spelling mistake in -> if.
+Fix argument parsing oddity with -noX
+Fix warning introduced by #6412
+Fix intermittent test failure, reduce test time
+tests: Fix bitcoin-tx signing testcase
+Fix various warnings
+Fix scheduler build with some boost versions.
+Fix getbalance *
+Fix univalue handling of \u0000 characters.
+Fix walletbackup.py after directory restructuring
+Fix off-by-one error w/ nLockTime in the wallet
+Fix two problems in CSubNet parsing
+Fix intermittent hang issue in scheduler_tests
+Fix for clearing fCheckForPruning
+Fix incorrect variable name in FindFilesToPrune
+Fix removing of orphan transactions
+Fix comptool send_message call when MAX_INV_SZ reached
+Fix potential race conditions in p2p testing framework
+Fix mininode disconnections to work with select
+Fix default binary in p2p tests to use environment variable
+Fix for correctly including climits on certain platforms {DragonFlyBSD}.
+Fix typo in init.cpp interpration/interpretation
+Fix docs for 'complete' field in 'signrawtransaction' response
+Fix CheckBlockIndex for reindex.
+Fix missing lock in submitblock
+Fix travis after merging #5957
+Fix clang compile warnings intriduced in #5681
+Fix --disable-wallet build after merge of #5681
+Fix InvalidateBlock to add chainActive.Tip to setBlockIndexCandidates
+Fix - bitcoin-qt usage message
+src/netbase.h: Fix endian in CNetAddr serialization
+Merge #5784: Fix usage of NegateSignatureS in script_tests
+Merge #5792: Fix filename for testing QT.
+Fix filename for testing QT.
+Fix NegateSignatureS to not duplicate last byte of S
+Fix getblocktemplate_proposals test by mining one block
+Fix README link from util.sh -> util.py.
+Fix typo
+Fix typo - sentence starts with capital letter
+Fix priority calculation in CreateTransaction
+Fix tests after #5413
+Fix smartfees test for change to relay policy
+Fix reference.
+Fix typo
+Fix CScriptID(const CScript& in) in empty script case
+bitcoin-tx: Fix JSON validation of prevtxs
+Fix small typos in comments and error messages
+Fix download link for gitian builds
+Fix missing python2 in rpc-tests
+Fix rest.py test after #5376
+[Qt] Fix wallet-lock in CWallet::GetAccountAddresses(..)
+Fix python usage for arch's broken maintainers
+Fix typo in doxygen comment.
+Fixed mempool sync after sending a transaction
+build: fix link error on some platforms. Fixes #5235
+Fix typo in listreceivedbyaddress and listaccounts  help text
+[Qt] Fix height of BitcoinAmountField
+Fix node ranges in the test framework.
+Fixing warning C4099: 'CExtPubKey' : type name first seen using 'class' now seen using 'struct'
+build: Fix "too many arguments" error
+Fix all header defines
+Fix -loadblock after shutdown during IBD
+Fix for crash during block download
+Fix IsInitialBlockDownload which was broken by headers first.
+Clear vFixedSeeds for regtest network
+rpc: Fix leveldb iterator leak, and flush before `gettxoutsetinfo`
+Fixes for missing boost tuple.hpp header include.
+Add a SECURE style flag for ThreadSafeMessageBox, which indicates that the message contains sensitive information. This keeps the message from being output to the debug log by bitcoind. Fixes a possible security risk when starting bitcoind in server mode without the 'rpcpassword' option configured, resulting in the "suggested" password being output to the debug log.
+Fix large reorgs
+Fix rebuild-chainstate feature and improve its performance
+depends: disable unused bdb replication manager. Fixes new mingw builds
+Fixed setaccount accepting foreign address
+build: Fix OSX build when using Homebrew and qt5
+Fix formatting in  init.md
+Fix vector out of bounds in script tests
+Fixing C4146 warning
+script: Fix reference into empty vector run time exception
+Fixed the broken `brew` shell command
+Fixed typo in README.md file. "-regest" "-regtest"
+Fixing out of bounds asses error
+Fixing out of bounds error in GetKey()
+Fixing improper input syntax and failing bounds check
+test: Fix DoS tests after c74332c
+Fixing condition 'sabotaging' MSVC build
+Fixing 'vector out of bounds' issue in base 32 and 64
+Add warnings for autogen.sh. Fix AC_CONFIG_SRCDIR.
+Fixing compiler warning C4101
+Fix crashing bug caused by orphan(s) with duplicate prevout.hash
+Fixing compiler warning C4800: 'type' forcing value to bool 'true' or 'false'
+Fix make_change to not create half-satoshis
+Fixing Compiler Error C2466
+Fix a few "Uninitialized scalar field" warnings
+Fix build with DEBUG_LOCKORDER
+build: osx: Fix incomplete framework packaging for codesigning
+Build-osx: Force Fix.
+Build-osx: Force Fix.
+Fix github-merge with git version 2.1.0
+build: Fix boost build on some platforms
+Fix thread name setting
+Fix typo in gettransaction help
+Fixes ignored qt 4.8 codecs path on windows when configuring with --with-qt-libdir
+build: Fix 'make deploy' when binaries haven't been built yet
+build: Fix windows configure when using --with-qt-libdir
+Fix minor bug which only affected log messages.
+Fixed a bug with index bounds checking
+pyminer: Fix memory leak, refactor to be more pythonic, maintainable, and possibly faster
+Fix typos in comments (missing i's).
+[Qt] Fix thin space in URI
+Fix a signed/unsigned warning introduced in 1b4568c
+Fix semantic typo in state.CorruptionPossible check
+Fixed error in 'getbalance' when using watchonly addresses.
+Fix Watchonly: cs_main lock not held
+[Qt] Fix No such slot UnitDisplayStatusBarControl::onDisplayUnitsClicked
+[Qt] Fix segfault when launched with -disablewallet
+Fix Error: No file at @loader_path/libboost_system-mt.dylib
+Fix the build for windows
+Fix CChain::GetLocator
+Fixed some stuff in TransactionDesc
+Fix formatting in release-process.md
+Fix the Qt5 build after d95ba75
+test: Fix warning about integer signedness in P2SH tests
+Fix the build for Qt5
+rpc-tests: Fix rpcbind_test after 0193fb8
+Fixed captitalization in bitcoin-cli-res.rc
+Fix formatting
+build: qt: split locale resources. Fixes non-deterministic distcheck
+Fix compiler warnings
+qt: PeerTableModel: Fix potential deadlock. #4296
+Fix GUI build with `--disable-wallet`
+Fix stray uppercase A in tx_valid.json.
+osx: Fix missing dock menu with qt5
+Fix name of Cory's pgp key
+[Qt] Fix Start bitcoin on system login
+[Qt] Fix Transaction details shows wrong To:
+Qt: Fix monospace font in osx 10.9
+Fix warning when compiling in OS X
+Fix NameError in macdeploy script
+Fix incorrect checkpoint data for testnet3
+Fix build in OS X 10.9
+Fix addnode "onetry": Connect with OpenNetworkConnection
+Fix transaction tests
+Typo Fix In decoderawtransaction Help: s/txid/hex/
+Fixes error
+Fix a typo in RPC signrawtransaction help
+Fixes the broken image in the Gitian Build Guide
+Fix typo in `createmultisig` help
+Fix `-printblocktree` output
+Fix test build after d138598
+Fix regression tests
+[Qt] Fix enable/disable show and remove buttons
+Fix importwallet nTimeFirstKey
+[QT] Fixes feel when resizing the last column on tables (issue #2862)
+Fix bloom filter not to use bit_mask
+Fixed compile error on Debian jessie (gcc version 4.8.2 (Debian 4.8.2-16))
+Qt: Fix ESC in disablewallet mode
+Fix script test handling of empty scripts
+Fix missing wallet lock in CWallet::SyncTransaction(..)
+[Qt] Fix coin control qt5 checkbox bug in tree mode
+Fix for GetBlockValue() after block 13,440,000
+Fix null pointer in IsTrusted()
+Fix coin control sorts date as text
+Fix typo in doc/build-unix.md regarding building without UPnP
+Fix bitcoin-cli exit status code
+Fix crash in importwallet and dumpwallet formatting
+[Qt] Fix nTransactionFee in qt-settings
+Fix build time when building from tarball (now really)
+qt: Fix Windows/Darwin executable metadata
+Fix `getaddednodeinfo` RPC call with dns=false
+qt: Fix tab order in send and receive tab
+[Qt] Fix coin control labels update
+Fix off-by-one errors in use of IsFinalTx()
+qt: Fix richtext detection hang issue on very old Qt versions
+build: Fix warning about space after trailing backslash
+Fix importprivkey / rescan
+GUI: Fix design in overview page
+ui: Fix GUI initialization order
+Fix heading in README.md
+Fix typos in spendfrom README
+Fix typo in unit-tests.md
+Fix unit test error on OSX 10.9 using Apple LLVM v5.0.
+Fix infinite loop with LogPrint on Windows
+Fix file hash verification error in deps-win32.yml
+Fix a rare crash on Mac OS X, by removing a setFocus on the payTo field that was not necessary, as the field still receives focus without it.
+Fix uninitialized variable added in b33b9a6fe
+Fix struct/class declaration mismatches
+Fix port binding by listening on port $BASHPID
+Fix comparison tool by asking for blocks more aggressively
+Fix and improve release-process.md
+Fix gitian qt-win32.yml build
+Fix gitian: bitcoin-deps is at version 0.0.7
+Fix minor unit test memory leaks
+Fix typo in a comment: it's base58, not base48.
+Fix out-of-bounds check
+makefile.mingw: Fix Win32 RPC Crashes.
+Fix non-standard disconnected transactions causing mempool orphans
+Fix typo in README.md
+Fix multi-block reorg transaction resurrection
+Fix fcntl include in net.cpp & netbase.cpp
+Fix boost uint type bug by reordering the includes
+Fix minor backward incompatibility
+Fix build date for from-tarball builds
+Fix Gnome bitcoin: URI handler
+Merge pull request #2613 from jonasschnelli/prefsFix
+Merge branch 'master' of git://github.com/bitcoin/bitcoin into prefsFix
+Fix crash-at-shutdown if exiting before initializing wallet
+Fix memory leak on exception in Key::SignCompact
+Merge pull request #2608 from jonasschnelli/pathCacheFix
+Fix leveldb make flags.
+Fix signed/unsigned comparison warnings
+Fix transaction fee in uBTC
+Fix typo
+Fix qt unit test build on OSX
+Bugfix: makefile.linux-mingw: Fix so passed CXXFLAGS/LDFLAGS work correctly
+Fix getbalance discrepency
+Fix two clang3.3 warnings
+Fix corruption bug found and analyzed by dhruba@gmail.com
+Merge pull request #2187 from CodeShark/SyncWithWalletsFix
+Fix clang warnings
+Fix two typos in main.h
+Fix duplicate shortcut usage in sign/verify message dialog.
+Fix status text after reindex
+Fix tests after cache tweaks
+Fixed making leveldb with custom CFLAGS/CXXFLAGS in the same way as makefile.unix
+Fix linux-mingw makefile's leveldb build by setting CXX.
+Fix out-of-bounds read noticed by Ricardo Correia
+Fixes a race condition in CreateNewBlock and a future null deref on testnet.
+Fixed 100% CPU utilization problem on FreeBSD 9
+Fixed compile error on FreeBSD 9. See http://code.google.com/p/leveldb/issues/detail?id=98
+Fix a use-after-free problem in initialization (#1920)
+Fix bad merge, pszDataDir duplication
+Fixed compilation error with clang.
+Fix: when testnet=1 specified, change default ports to 18332 and 18333
+Fix double-paren typo
+Fix mac .dmg packager for latest macports qt4
+Merge pull request #1427 from rebroad/StartTimeFix
+Fix RPC console parser to handle escaped arguments more like bash
+Fix compiler warning on mac
+Handle locked pages more robustly (Fixes issue #1462)
+Fix infinite loops in connection logic
+Fix 32-bit build error: include util.h to get int64 typedef
+Fix test_bitcoin build in makefile.linux-mingw
+Fix Qt test cases by moving address checks to parseBitcoinURI
+Fix Win32 compiling of qt/test/uritests.cpp
+Correctly handle missing inputs in signrawtransaction. Fixes #1654.
+Bugfix: Fix a variety of misspellings
+Fix spelling of successfully
+Fix Typo
+Fix thread names after review
+Fix Qt build on OSX
+Fix OBO in socks5 auth proposal. This fixes compatibility with openssh's socks5 proxy and tor's .2.3.x branch.
+Merge pull request #1559 from sje397/BalanceSignalFix
+Add a timer to check for changes in immature or unconfirmed balances, when these are non-zero. Fixed a minor mem leak.
+Fix remaining warnings.
+Fix signed/unsigned warnings in {script,serialize}.h (fixes #1541)
+Fix a couple more typos
+Fix a typo in TransactionDesc
+Fix a few typos
+Fix build error.
+Merge pull request #1347 from rebroad/FixAlreadyAskedFor
+Fix netbase tests
+Fix inverted logic for !Discover/!UPNP when !Listen.
+Fix #956 the Boost 1.49 way.
+Fix build of testcases after commit 0f10b21719e1b0d9683a142f0a7105e65f095694
+Fix broken config files
+Fix Mingw64 build (missing headers according to M$ documentation)
+Fix DEBUG_LOCKCONTENTION
+Fix coin selection to only include change when it's necessary.
+Fix noinline definition so that it works for more compilers.
+Fix issue#1082, testnet difficulty unsigned integer underflow
+Fix typo.  libarcode => libqrcode
+Fix signed subtraction overflow in CBigNum::setint64().
+Fix warning about uninitialized value
+Fix initialization of inaddr_any
+Fix version numbers of archive builds
+Fix osx build
+Fix DEBUG_LOCKCONTENTION
+Bitcoin-Qt: Remove redundant tooltip on optional transaction fee. Fixes #1218
+Fix addrman crashes
+Fixed non-sensical error message
+Check earlier for blocks with duplicate transactions. Fixes #1167
+Fix critical UI performance issue (#1154)
+Add missing includes. (Fix bulding under GCC 4.7)
+Fix bugs on 'unsigned char' platforms.
+Fix phexdigits[255] is undefined.
+Fix tests after recent refactors
+Fix potential deadlock
+Fix misc. minor sign-comparison warnings
+Fix sign-compare warnings: netbase's Lookup* max-solutions may be unsigned
+Fix loop index var types, fixing many minor sign comparison warnings
+Set label when selecting an address that already has a label. Fixes #1080.
+Fix #1086: add /testnet to passed datadir
+Fix OSX build errors.
+Fix build.h dependencies
+Fix URI link to bitcoin-qt.exe instead of bitcoin.exe
+Fix warning about deprecated unescaped backslash
+Use last checkpoint instead of hard-coded 140,700. Fixes #913.
+Fix Win32 RPC Crashes.
+Fix windows build in windows Qt SDK
+Fix release-process.txt for new deps zip.
+Fix addrProxy setting
+Fix tests after 38067c18
+Fix #616: remove base_uint::operator&=(uint64 b)
+Fix #626: RecvLine wrong error message
+Fix #650: CKey::SetSecret BIGNUM leak
+Fix compilation warning.
+Fix #846.  Allow negative options such as "nolisten=1" in bitcoin.conf as well as on the command line.
+Fix issue #848 : broken mining on testnet
+Fix compilation warning.
+Fix wallet locking locking
+Fix Minimize to the tray instead of the taskbar
+Fix wallet encryption with compressed pubkeys
+Fix #822
+Fix #794.  Only remove transactions from memory pool when they're actually in the memory pool.
+Fix UPnP by reannouncing every 20 minutes.
+Fixed addmultisigaddress if looking up public keys from locked wallets.
+Fix handling of default ports
+Fix horrific performance found by gmaxwell.
+Fix issue #659, and cleanup wallet/command-line argument handling a bit
+Fix typo (#734)
+Fix some address-handling deadlocks
+Fix transaction type in UI: not all tx'es with "from"/"to" field are necessarily IP tx'es
+Fixed OP_EVAL recursion unit test, checks for both infinite and exactly-3-deep recursion
+Fix OP_EVAL recursion depth counting
+Fix Linux gitian descriptor to use QRCode support.
+Fix #722.
+Fix broken ExtractAddress (refactored, made callers check for addresses in keystore if they care)
+Fix logic for IsChange() for send-to-self transactions.
+Fix status bar not displaying Alerts.
+Fix crash-on-osx-on-shutdown bug. And cleanup CDB handling in Rewrite.
+Fix boost filesystem incompatibility problem
+Fix segmentation fault when editing address not in address book (issue #615)
+Fix typo. Improve Gentoo instructions.
+Fix extraneous directory specifier, beautify bash syntax $VAR -> ${VAR}
+Fix build on windows and mac
+Fix for 64bit build
+Fix miner_test unit test bug
+qmake build system improvements - USE_SSL=1 to support RPC SSL - BDB_LIB_SUFFIX= to link against specific BDB version - Fix typo - Start lrelease during qmake phase to prevent errors/warnings
+Fix build: put back rules to build cryptopp files
+Fix QA email address
+Fix AddAddress cs_mapaddresses/db transaction deadlock
+Fix build process to actually work.
+Fix bad merge: getaccountaddress was broken for new accounts
+Fixed regression I introduced: wallets with lots of transactions were unusable in GUI.
+Fix RPC call name in error message.
+Logic running with -keypool=0 was wrong (empty keys were being returned). Fixes #445
+Fix typo ("you own security")
+Fixed potential deadlocks in GUI code. Also changed semantics of CWalletTx::GetTxTime(); now always returns the time the transaction was received by this node, not the average block time. And added information about -DDEBUG_LOCKORDER to coding.txt.
+Fix rpc-hanging deadlocks
+Don't std::advance past beginning of transactions array.  Fixes #465
+Fix incorrect RPC error messages
+Fix testing setup
+Fix EncryptKeys crash introduced by a9ba4710, identified by TD.
+Fix UNIX-specific thread handle leak.
+Fix for small change outputs
+Fix bug with accessing vchData[0] when vchData is empty. Fix typo in CBase58Data::CompareTo
+Fix "Last received block was generated Up to date"
+Fix error when export is cancelled without specifying a filename.
+Fix bad return values in LoadWallet.
+Fix Build in GetReservedKey() in wallet.cpp
+Fix crashes when a wallet is locked and GetReservedKey() is called
+Fix makefile.linux-mingw
+Fix synchronization of default key
+Fix detailed transaction information on doubleclick
+Fix connection failure debug output
+Fix AddressBook syncrhonization between a CWallet and CWalletDB
+Fix segfault when creating new wallet
+Fix some padding and focus issues with the new BitcoinAmountWidget
+Fix missing includes needed for Boost 1.46.
+Fix CPU Usage bug when using -nolisten and have no connections.
+Fix rfc1918 and rfc3927 compliance for ignoring non-internet-routable hosts.
+Fix GUI build on UNIX.
+Fixed some mistakes in the German translation.
+Fixed 2 things on the italian translation
+Fixes #240 and #244 - delete delete[] mismatch.
+Fix for small change outputs
+Fix MinGW build due to bad pointers to ui.rc pixmaps stuff.
+Fix broken build (invalid use of qualified name std::advance)
+Fix broken build (remove declarations of GUI generate methods)
+Fix segfault when we're unable to create the lock file.
+Fix for #156: UPnP segfault when no valid UPnP IGDs are found.
+Fixed issue 76 -- RPC error where addresses from addressbook's sending tab appear in listaccounts
+Fix deadlocks in setaccount, sendfrom RPC calls
+Fix -logtimestamps to only print time prefix once per output line
+Fix minimum transaction fee calculation mismatch between CreateTransaction and CreateBlock
+makefile.unix: Fixed errors building bitcoind without wxWidgets installed.     WXINCLUDEPATHS and WXLIBS now assigned with '=' instead of ':='.     This means they are only evaluated on-demand, and they will never be     requested by 'make bitcoind', so it won't try to call wx-config.
+Fix -maxconnections.  It used to account for the 8 outbound connections twice when calculating the number of slots left for incoming connections.
+Fix bus error in DebugPrint if -datadir given non-existent directory.
+Fix issue 34: correct spelling of -rpcsslcertificatechainfile in --help text.
+Fix setaccount/getaccountaddress interaction bug See https://github.com/bitcoin/bitcoin/issues#issue/29
+Fix so listaccounts with minconf works.
+Fix IsInitialBlockDownload if running on testnet
+Fixed description of -rpcuser/-rpcpassword options.
+Fix CRLF
+Workaround for bug on wxWidgets 2.9.0 Ubuntu 9.10 64-bit where first character of the hidden columns were displayed so status column had three numbers overprinted.  Fixed by adding a leading space to the hidden columns.  64-bit compile with wxWidgets 2.9.0 seems to be fully working normally now.
+Workaround for bug on wxWidgets 2.9.0 Ubuntu 9.10 64-bit where first character of the hidden columns were displayed so status column had three numbers overprinted.  Fixed by adding a leading space to the hidden columns.  64-bit compile with wxWidgets 2.9.0 seems to be fully working normally now.
+Linux alternatives for the Windows headers and PerformanceCounter. Some typedefs and #defines for the Linux build. Fixed GetDataDir.
+Linux alternatives for the Windows headers and PerformanceCounter. Some typedefs and #defines for the Linux build. Fixed GetDataDir.
+Fixed the installer script and made the autostart registry based.
+Fixed the installer script and made the autostart registry based.

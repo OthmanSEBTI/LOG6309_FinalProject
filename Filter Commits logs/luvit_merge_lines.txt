@@ -1,0 +1,649 @@
+Merge pull request #1171 from luvit/release-2.18.1
+Merge pull request #1170 from luvit/update-certs
+Merge pull request #1159 from truemedian/master
+Merge pull request #1155 from leXinshou/master
+Merge pull request #1142 from luvit/release-v2.18.0
+Merge pull request #1149 from squeek502/test-dns-linux-hotfix
+Merge pull request #1145 from squeek502/freenode-readme
+Merge pull request #1146 from squeek502/github-actions
+Merge pull request #1147 from squeek502/tls-server-verify-test
+Merge pull request #1144 from squeek502/test-colors-consistency
+Merge pull request #1143 from squeek502/querystring-test-fix
+Merge pull request #1139 from truemedian/master
+Merge pull request #1140 from luvit/release-v2.17.1
+Merge pull request #1126 from TSnake41/stream-readable-localize
+Merge pull request #1124 from luvit/assert-resume
+Merge pull request #1120 from squeek502/openssl-1.1.0-fix
+Merge pull request #1119 from zhaozg/master
+Merge pull request #1085 from luvitred/master
+Merge pull request #1117 from squeek502/signal-listeners
+Merge pull request #1112 from zhaozg/simplify_emitter
+Merge pull request #1115 from zhaozg/fix/tty-write
+Merge pull request #1114 from zhaozg/fix/test-process
+Merge pull request #1116 from zhaozg/feature/network
+Merge pull request #1111 from luvit/fix/cover
+Merge pull request #1110 from zhaozg/cover
+Merge pull request #1108 from zhaozg/master
+Merge pull request #1105 from zhaozg/master
+Merge pull request #1098 from squeek502/luvit-2.17.0-bump
+Merge pull request #1097 from zhaozg/master
+Merge pull request #1096 from squeek502/stdio-file-bandaid
+Merge pull request #1095 from squeek502/stdio-file-bandaid
+Merge pull request #1093 from datatypevoid/patch-1
+Merge pull request #1088 from luvitred/emitter
+Merge pull request #1079 from zhaozg/fix_tlsv13
+Merge pull request #1078 from zhaozg/master
+Merge pull request #1075 from joerg-krause/master
+Merge pull request #1077 from squeek502/windows-exec
+Merge pull request #1070 from zhaozg/master
+Merge pull request #1069 from zhaozg/master
+Merge pull request #1067 from zhaozg/fix
+Merge pull request #1066 from zhaozg/fix
+Merge pull request #1065 from zhaozg/upssl
+Merge pull request #1048 from Python1320/patch-1
+Merge pull request #1043 from zhaozg/master
+Merge pull request #1041 from zhaozg/master
+Merge pull request #1040 from zhaozg/master
+Merge pull request #1039 from zhaozg/master
+Merge pull request #1038 from aiverson/master
+Merge pull request #1029 from luvit/fixes/dns_tweaks
+Merge pull request #1028 from zhaozg/master
+Merge pull request #1014 from squeek502/process-usage
+Merge pull request #1010 from eZethNesthrown/master
+Merge pull request #1008 from squeek502/appveyor-fix
+Merge pull request #1007 from luvit/flush-streams-on-exit
+Merge pull request #1001 from SinisterRectus/timer
+Merge pull request #980 from luvit/release-2.14.1
+Merge pull request #979 from cfarquhar/issue/978
+Merge pull request #977 from squeek502/windows-require
+Merge pull request #973 from zhaozg/ci_master
+Merge pull request #975 from yaa110/patch-1
+Merge pull request #969 from joerg-krause/patch-1
+Merge pull request #959 from Miigon/patch-1
+Merge pull request #954 from mscdex/patch-1
+Merge pull request #956 from cyrilis/patch-1
+Merge pull request #945 from n1tehawk/20170131_resolvebyip
+Merge pull request #942 from Miigon/master
+Merge pull request #941 from Miigon/master
+Merge pull request #935 from Miigon/master
+Merge pull request #936 from SinisterRectus/master
+Merge branch 'master' of github.com:luvit/luvit
+Merge pull request #933 from luvitrocks/master
+Merge pull request #928 from cyrilis/patch-1
+Merge pull request #923 from Miigon/master
+Merge pull request #1 from luvit/master
+Merge pull request #919 from luvit/fixes/dns_error_fix
+Merge pull request #916 from squeek502/http-header
+Merge pull request #915 from luvit/fixes/bump_2.11.3
+Merge pull request #914 from luvit/fixes/release_2.11.1
+Merge pull request #912 from luvit/fixes/patch_dns_resolving
+Merge pull request #909 from Miigon/master
+Merge pull request #906 from SinisterRectus/patch-1
+Merge pull request #899 from squeek502/repl-error
+Merge pull request #895 from squeek502/url-resolve
+Merge pull request #892 from squeek502/url-format
+Merge pull request #894 from squeek502/patch-2
+Merge pull request #888 from zhaozg/master
+Merge pull request #889 from zhaozg/patch-1
+Merge pull request #887 from zhaozg/master
+Merge pull request #876 from luvit/luv-change-adapt
+Merge pull request #850 from luvit/fixes/tap_handle_closing
+Merge pull request #861 from luvit/luvly
+Merge pull request #874 from luvit/fix/dns_struct_simplification
+Merge pull request #873 from luvit/fix/use_windows_dns
+Merge pull request #871 from Miigon/patch-1
+Merge pull request #866 from squeek502/patch-1
+Merge pull request #855 from luvit/bump/luvi_try2
+Revert "Merge pull request #848 from zhaozg/master"
+Merge pull request #854 from luvit/fixes/term
+Merge pull request #848 from zhaozg/master
+Merge pull request #844 from urzds/feat/print-value-on-type-mismatch
+Merge pull request #842 from urzds/fix/term-screen-256color
+Merge pull request #823 from luvit/fix-exit-leak
+Merge pull request #822 from luvit/require-internal-first
+Merge pull request #798 from kaustavha/kaustavha/feat/childprocess-exec
+Merge pull request #816 from luvit/fixes/dns_errors
+Merge pull request #813 from kaustavha/kaustavha/fix/repl
+Merge pull request #811 from simonvetter/svetter/fixResolvConfParser
+Merge pull request #807 from zhaozg/master
+Merge pull request #809 from zhaozg/fix
+Merge pull request #806 from bfontaine/patch-1
+Merge pull request #804 from luvit/fixes/add_versions_of_luvi_options
+Merge pull request #803 from luvit/fixes/fix_http_end
+Merge pull request #802 from zhaozg/master
+Merge pull request #799 from luvit/zhaozg-master
+Merge pull request #801 from luvit/fix-once-removal
+Merge pull request #793 from kaustavha/kaustavha/feat/repl-auto-add-libs
+Merge pull request #792 from luvit/fixes/handshake_on_error
+Merge pull request #790 from luvit/fixes/add_close_event_to_spawn
+Merge pull request #788 from squeek502/qs-stringify
+Merge pull request #786 from squeek502/http-dup-headers
+Merge pull request #785 from schwa423/repl
+Merge branch 'master' into repl
+Merge pull request #784 from zhaozg/master
+Merge pull request #782 from luvit/fixes/add_travis_backtrace
+Merge pull request #781 from luvit/fixes/process_stdout_destroy_itself
+Merge pull request #780 from luvit/fixes/zombie_processes_on_kill
+Merge pull request #778 from luvit/fs-readfile-stream
+Merge pull request #777 from luvit/binary-certs
+Merge pull request #776 from luvit/header-meta
+Merge pull request #775 from luvit/feat/add_32bit_build_to_appveyor
+Merge pull request #774 from luvit/check/fs_open_non_existant
+Merge pull request #772 from luvit/fixes/add_shutdown_timer
+Merge pull request #771 from luvit/revert-770-fixes/change_tmp_directory
+Merge pull request #770 from luvit/fixes/change_tmp_directory
+Merge pull request #769 from luvit/fixes/tls_connection_epipe
+Merge pull request #768 from luvit/fixes/error_objects_in_fs
+Merge pull request #767 from luvit/fixes/resolv_conf_loading
+Merge github.com:luvitred/luvit
+Merge pull request #765 from zhaozg/master
+Merge pull request #761 from luvit/fixes/fix_stdout_stderr_wait_for_finish
+Merge pull request #757 from luvit/fixes/tls_socket
+Merge branch 'master' of github.com:luvit/luvit
+Merge pull request #755 from gsick/fix_process_exit_listener
+Merge pull request #756 from gsick/fix_http_write_get_length_of_nil
+Merge pull request #754 from luvit/fixes/stdout_stderr_exit
+Merge pull request #753 from luvit/fixes/flush_stdout_on_exit
+Merge pull request #751 from OptionCloudgate/master
+Merge branch 'master' of https://github.com/OptionCloudgate/luvit
+Merge pull request #750 from luvit/fixes/load_resolver_non_windows
+Merge pull request #747 from luvit/fixes/flush_fix
+Merge pull request #744 from luvit/coro-all-the-things
+Merge pull request #746 from luvit/fixes/tls_reads
+Merge pull request #740 from luvit/fixes/stdio
+Merge pull request #738 from luvit/fixes/connect_proxy_tls
+Merge pull request #735 from runner-mei/patch-1
+Merge pull request #732 from OptionCloudgate/master
+Merge pull request #729 from zhaozg/master
+Merge pull request #733 from luvit/fixes/nil_the_root_cas_after_load
+Merge pull request #724 from zhaozg/master
+Merge pull request #727 from Playermet/patch-1
+Merge pull request #720 from luvit/fixes/add_append_file_support
+Merge pull request #719 from luvit/fixes/close_on_finish
+Merge pull request #723 from luvit/feat/port_more_tests
+Merge pull request #718 from luvit/module-class
+Merge pull request #717 from lduboeuf/patch-2
+Merge pull request #716 from lduboeuf/patch-1
+Merge pull request #715 from squeek502/fix-readline
+Merge pull request #709 from squeek502/fix-readline
+Merge pull request #710 from squeek502/readline-insert-above
+Merge pull request #712 from zhaozg/master
+Merge pull request #707 from squeek502/fix-readme
+Merge pull request #708 from squeek502/readme-links
+Merge pull request #704 from luvit/fixes/pass_all_options
+Merge pull request #703 from luvit/prep/release_2_1_0
+Merge pull request #702 from GabrielNicolasAvellaneda/master
+Merge pull request #701 from luvit/fixes/double_callback2
+Revert "Merge pull request #698 from luvit/fixes/double_callback"
+Merge pull request #698 from luvit/fixes/double_callback
+Merge pull request #700 from luvit/fixes/remove_encoding
+Merge pretty-print into a single file
+Merge pull request #695 from luvit/fixes/net_destroy_and_process_once
+Merge pull request #694 from luvit/fixes/child_process_errors
+Merge pull request #693 from luvit/fixes/fix_kill_close
+Merge pull request #690 from GabrielNicolasAvellaneda/master
+Merge pull request #689 from GabrielNicolasAvellaneda/master
+Merge pull request #688 from luvit/windows_process
+Merge pull request #669 from luvit/http_post_error
+Merge pull request #686 from 5at/master
+Merge pull request #681 from luvit/feat/add_poll_libcurl_example
+Merge pull request #683 from gsick/fix_handle_nil_error
+Merge pull request #680 from luvit/fixes/stdin_highwater_mark
+Merge pull request #676 from luvit/fixes/emit_exit_event
+Merge pull request #675 from luvit/fixes/release_buffers_set_mode
+Merge pull request #673 from luvit/fixes/pause_stdin
+Merge pull request #672 from rjeli/master
+Merge pull request #671 from luvit/tls-read-fix
+Merge pull request #666 from luvit/fixes/flush_http
+Merge pull request #667 from luvit/fixes/add_thawte_premium_server_ca
+Merge pull request #662 from luvit/fixes/net_socket_destroy
+Merge pull request #661 from luvit/fixes/init_lua_rng
+Merge pull request #660 from luvit/fixes/add_build
+Merge pull request #659 from luvit/fixes/remove_all_cruft
+Merge pull request #654 from luvit/fixes/unicode_json
+Merge pull request #653 from james2doyle/feat/version-flag
+Merge pull request #652 from luvit/v1.9.5-pre
+Merge pull request #650 from luvit/feat/process_std_support
+Merge pull request #649 from luvit/fixes/wrap_readme
+Merge pull request #618 from luvit/fixes/add_test_fs_readstream
+Merge pull request #646 from luvit/update-lit
+Merge pull request #644 from luvit/fixes/capture_end_of_stream
+Merge pull request #639 from luvit/update-deps
+Merge pull request #638 from DBarney/fix/http-client-done-ignored
+Merge pull request #636 from luvit/new-require
+Merge pull request #633 from luvit/https-more-tests
+Merge pull request #634 from luvit/http-lax
+Merge pull request #632 from luvit/make-up
+Merge pull request #627 from luvit/http-connect
+Merge pull request #629 from DBarney/fix/http-codec-string-check
+Merge pull request #630 from DBarney/fix/http-client-bubble-error
+Merge pull request #628 from DBarney/fix/datagram-arg-order
+Merge pull request #625 from luvit/library-tidy
+Merge app into root
+Merge pull request #619 from luvit/fixes/add_readdir_test
+Merge pull request #621 from luvit/fixes/litify
+Merge pull request #612 from luvit/http-client
+Merge pull request #616 from luvit/fixes/add_fs_write_file_test
+Merge pull request #617 from luvit/fixes/add_test_fs_write
+Merge pull request #615 from luvit/fixes/test-fs-stat
+Merge pull request #614 from luvit/fixes/fix_timeout_test
+Merge pull request #608 from luvit/string_extension
+Merge pull request #611 from luvit/fixes/process_kill_and_getpid
+Merge pull request #605 from luvit/lit-up
+Merge pull request #604 from luvit/cleanup/child_process
+Merge pull request #602 from luvit/fixes/lints
+Merge pull request #601 from luvit/fixes/tls_memory
+Merge branch 'fixes/tls_memory' of github.com:luvit/luvit into fixes/tls_memory
+Merge pull request #600 from luvit/refactor/stream_module
+Merge pull request #599 from luvit/fixes/refactor_stream_module_loading
+Merge pull request #598 from luvit/fixes/add_writefilesync
+Merge pull request #597 from luvit/fixes/close_writestream_on_reopen
+Merge pull request #596 from luvit/fixes/stream_writable_error_object
+Merge pull request #594 from luvit/fixes/improvements_to_environment
+Merge pull request #592 from grandao/luvi-up
+Merge pull request #591 from grandao/luvi-up
+Merge pull request #590 from luvit/http-sugar
+Merge pull request #589 from james2doyle/patch-1
+Merge pull request #588 from luvit/http-sugar
+Merge pull request #587 from luvit/fixes/add_ffi_test
+Merge pull request #584 from luvit/fixes/add_path
+Merge pull request #585 from luvit/fixes/double_timer_close
+Merge pull request #583 from luvit/fixes/child_process_does_not_exist
+Merge pull request #582 from luvit/fixes/add_clear_timer
+Merge pull request #581 from luvit/luacheck-fixes
+Merge pull request #579 from luvit/fixes/add_tls_client_reject
+Merge http encoder/decoder into a single package
+Merge pull request #580 from luvit/tweak/dns_resolve_prototype
+Merge pull request #572 from KennethWilke/luvi-up
+Merge pull request #567 from luvit/readline
+Merge pull request #565 from luvit/feat/null_cipher_test
+Merge pull request #564 from luvit/fixes/emit_exit_on_nexttick
+Merge pull request #563 from luvit/http-decoder
+Merge pull request #562 from luvit/http-decoder
+Merge pull request #561 from luvit/fixes/tls_client_verify
+Merge pull request #560 from luvit/fixes/tls
+Merge pull request #556 from luvit/feat/process_exit
+Merge pull request #558 from luvit/fix-examples
+Merge pull request #557 from luvit/random-fixes
+Merge pull request #559 from luvit/fixes/disable_dns_windows_test
+Merge pull request #555 from KennethWilke/luvi-up
+Merge pull request #554 from luvit/add_fs_write_stream
+Merge pull request #553 from luvit/fixes/bind
+Merge pull request #552 from luvit/update-luvi
+Merge pull request #551 from luvit/tls.connect
+Merge pull request #545 from luvit/process
+Merge pull request #549 from luvit/add-net-streams
+Merge pull request #550 from luvit/add-vagrantfile
+Merge pull request #544 from luvit/update-luvi
+Merge pull request #543 from luvit/fs-tweaks
+Merge pull request #541 from luvit/helpful
+Merge pull request #540 from luvit/codec.emitter
+Merge pull request #537 from luvit/fixes/remove_x509_test
+Merge pull request #538 from luvit/json_fixes
+Merge pull request #536 from luvit/add_tcp_test
+Merge pull request #535 from luvit/udp_test_case
+Merge pull request #534 from luvit/add-luvit-module
+Merge pull request #533 from luvit/exit-code
+Merge pull request #532 from luvit/fixes/fix-fs-example
+Merge pull request #531 from luvit/tls-codec
+Merge pull request #530 from luvit/dns_support
+Merge pull request #529 from luvit/add-fs-readfile
+Merge pull request #528 from luvit/fixes/net_timeout
+Merge pull request #526 from luvit/port-crypto
+Merge pull request #525 from luvit/add-emitter
+Merge pull request #523 from luvit/http-codec
+Merge head table with headers table in http-codec.
+Merge pull request #524 from luvit/fixes/fix_ecancelled
+Merge pull request #522 from luvit/fixes/add-test-socket-timeout-test.lua
+Merge pull request #518 from luvit/fs-sugar
+Merge pull request #519 from luvit/add-buffer
+Merge pull request #520 from luvit/add_instanceof_test
+Merge pull request #521 from luvit/add-net
+Merge pull request #517 from luvit/timers
+Merge pull request #516 from luvit/fixes/add_hooks
+Merge pull request #511 from luvit/fixes/fs_call_memory_leak
+Merge pull request #508 from luvit/fixes/socket_error
+Merge pull request #507 from luvit/fixes/stream_end_ordering
+Merge pull request #505 from IZEDx/patch-1
+Merge pull request #503 from luvit/zippy
+Merge pull request #502 from luvit/restore_builtins
+Merge pull request #501 from luvit/restore_builtins
+Merge pull request #500 from DBarney/master
+Merge pull request #499 from luvit/fixes/binary_to_install
+Merge pull request #498 from luvit/fix-gyp-uv-include-install
+Merge pull request #495 from luvit/fixes/tls_error_cb
+Merge pull request #494 from luvit/fixes/econnreset_on_socket
+Merge pull request #491 from luvit/use-clean-env-in-process-test
+Merge pull request #489 from luvit/fixes/is_connected_socket
+Merge pull request #488 from luvit/fixes/add_remove_all_listeners
+Merge pull request #487 from luvit/fix/openssl_bump
+Merge pull request #486 from luvit/fixes/infinite_loop
+Merge pull request #484 from luvit/fixes/add_blurb_for_embedding
+Revert "Merge pull request #264 from tim-smart/feature/querystring-stringify"
+Merge pull request #264 from tim-smart/feature/querystring-stringify
+Merge pull request #482 from luvit/fixes/gnu_source
+Merge pull request #481 from luvit/fixes/only_allow_stringable_objects
+Merge pull request #478 from luvit/fixes/prevent_infinite_recursion
+Merge pull request #480 from luvit/fixes/lua52compat
+Merge pull request #479 from luvit/fixes/luvit_32bit
+Merge pull request #471 from luvit/fixes/no_delay_keepalive
+Merge pull request #469 from luvit/songgao/fix_fs_readstream_length
+Merge pull request #475 from luvit/fixes/util_dump
+Merge pull request #474 from luvit/release/0.8.1_notes
+Merge pull request #472 from luvit/fix/stream_close
+Merge pull request #466 from rjemanuele/fixes/pathing
+Merge pull request #467 from luvit/fixes/certs
+Merge pull request #465 from luvit/fixes/libuv_bump
+Merge pull request #464 from luvit/songgao/emitter_doc
+Merge pull request #463 from luvit/fixes/openssl_1.0.1h
+Merge pull request #462 from luvit/songgao/added_emitter_listenerCount
+Merge pull request #458 from luvit/fixes/windows
+Merge pull request #457 from gsick/fix_missing_errors_in_module
+Merge pull request #456 from luvit/fixes/openssl_upgrade_fixes
+Merge pull request #455 from luvit/fixes/bump_openssl_1_0_1g
+Merge branch 'master' of github.com:luvit/luvit
+Merge pull request #453 from luvit/fixes/checkout_cares
+Merge pull request #439 from luvit/features/poll
+Merge pull request #451 from luvit/bump/uv
+Merge pull request #449 from luvit/bump/luajit_2_0_3
+Merge pull request #448 from luvit/fixes/freebsd
+Merge pull request #447 from wscherphof/npm
+Merge pull request #442 from luvit/fixes/global_leaks
+Merge pull request #443 from rafis/master
+Merge pull request #441 from luvit/fixes/nil_callbacks_for_dns
+Merge pull request #437 from dalange/patch-2
+Merge pull request #436 from luvit/fix/zlib-test-path
+Merge pull request #435 from dalange/master
+Merge pull request #434 from dalange/patch-1
+Merge pull request #433 from Kami/emit_parse_error_on_req_object
+Merge pull request #432 from Kami/fix_response_object_error_propagation
+Merge pull request #431 from Kami/use_absolute_paths_in_tests
+Merge pull request #430 from racker/fixes/posix_signal_handling
+Merge pull request #427 from Kami/update_readme_build_instructions
+Merge pull request #428 from Kami/arm_build_fixes
+Merge pull request #425 from rjemanuele/libuv_upgrade
+Merge branch 'master' of ssh://github.com/racker/luvit into upstream-master
+Merge pull request #421 from rjemanuele/cares_fix
+Merge pull request #410 from cehoffman/fs_watcher_fix
+Merge branch 'upstream_master' into racker_master
+Merge pull request #419 from rjemanuele/upgrade_libuv
+Merge pull request #417 from norefle/windows-version-fix
+Merge pull request #412 from rjemanuele/windows_test_fix
+Merge pull request #411 from cehoffman/path_basename_ext_rm
+Merge remote-tracking branch 'upstream/master'
+Merge pull request #409 from rjemanuele/remove_dll
+Merge pull request #408 from cehoffman/patch-1
+Merge pull request #406 from luvit/fixes/path_windows
+Merge pull request #404 from luvit/features/detached_processes
+Merge pull request #401 from 5at/master
+Merge pull request #402 from Cloven/master
+Merge remote-tracking branch 'upstream/master'
+Merge pull request #400 from rjemanuele/long-file-name-cleanup
+Merge pull request #399 from rjemanuele/openssl_test_fix
+Merge pull request #394 from AndrewTsao/patch-3
+Merge pull request #383 from rjemanuele/fix-env
+Merge pull request #389 from rjemanuele/upmaster-windows-fix
+Merge pull request #386 from dvv/patch-1
+Merge pull request #385 from Kami/update_changes
+Merge pull request #384 from luvit/0.6.0-changelog
+Merge pull request #382 from rjemanuele/fix-env
+Merge pull request #381 from rjemanuele/fix-env
+Merge pull request #380 from luvit/fixup-gyp-build-for-luajit
+Merge pull request #378 from hasufell/master
+Merge pull request #377 from luvit/fix_timer_double_close_issue
+Merge pull request #375 from piscisaureus/fix-spawn-windows
+Merge pull request #374 from luvit/check-ssl-in-puller
+Merge pull request #373 from rjemanuele/crlf-normalize
+Merge pull request #372 from rjemanuele/long-path-fix
+Merge branch 'master' into crlf-normalize
+Merge pull request #371 from rjemanuele/long-path-fix
+Merge pull request #370 from AndrewTsao/patch-2
+Merge pull request #369 from rjemanuele/master
+Merge pull request #368 from rjemanuele/master
+Merge pull request #366 from luvit/move-to-luajit-on-luvit
+Merge pull request #365 from rjemanuele/master
+Merge pull request #364 from rjemanuele/master
+Merge remote-tracking branch 'upstream/master'
+Merge pull request #363 from racker/revert-remove-shutdown-in-clear-text
+Merge branch 'master' of github.com:luvit/luvit
+Merge pull request #362 from racker/uncolorize
+Merge pull request #359 from douyw/patch-1
+Merge pull request #358 from racker/on-close
+Merge pull request #357 from racker/fixup-streams
+Merge pull request #353 from racker/luv_on_close
+Merge pull request #350 from greenITea/master
+Merge pull request #352 from racker/add_fs_stat_macros_windows
+Merge branch 'master' of https://github.com/luvit/luvit
+Merge pull request #351 from luvit/fixup-compiler-warnings
+Merge pull request #348 from luvit/fix-fverify-luacrypto
+Merge branch 'master' of github.com:luvit/luvit
+Merge pull request #349 from racker/fix-extend
+Merge branch 'master' of github.com:luvit/luvit
+Merge branch 'master' of github.com:luvit/luvit
+Merge pull request #341 from kengonakajima/master
+Merge pull request #347 from AndrewTsao/patch-1
+Merge pull request #346 from racker/https-server
+Merge pull request #345 from racker/fix-tests
+Merge remote-tracking branch 'upstream/master'
+Merge remote-tracking branch 'upstream/master'
+Merge remote-tracking branch 'upstream/master'
+Merge pull request #340 from luvit/fix/double_closes
+Merge pull request #335 from AndrewTsao/master
+Merge remote-tracking branch 'upstream/master'
+Merge branch 'master' of https://github.com/racker/luvit
+Merge branch 'master' of github.com:luvit/luvit
+Merge pull request #338 from hnakamur/fix_error_utils_colorize
+Merge pull request #310 from hnakamur/test-fs-utime
+Merge pull request #333 from luvit/allow_stdin_close
+Merge pull request #329 from hnakamur/good-if-style-in-fs-tests
+Merge pull request #331 from luvit/fix_o_sync_windows
+Merge remote-tracking branch 'upstream/master'
+Merge branch 'master' of https://github.com/racker/luvit
+Merge pull request #330 from luvit/add_unref_ref_to_handle
+Merge pull request #326 from hnakamur/test-fs-truncate
+Merge pull request #328 from hnakamur/test-fs-append-file
+Merge pull request #327 from hnakamur/test-fs-write-sync
+Merge pull request #316 from luvit/fix-ffi-on-gyp-build
+Merge pull request #325 from hnakamur/instanceof
+Merge pull request #324 from hnakamur/test-fs-readfile-zero-byte-liar
+Merge pull request #313 from hnakamur/test-fs-write
+Merge pull request #306 from luvit/fix_udp_on_64bit
+Merge pull request #320 from hnakamur/test-fs-append-file-sync
+Merge pull request #315 from hnakamur/test-fs-read
+Merge pull request #318 from hnakamur/test-fs-fsync
+Merge pull request #321 from hnakamur/test-fs-read-file-sync
+Merge pull request #322 from hnakamur/test-fs-readfile-empty
+Merge pull request #323 from hnakamur/test-fs-readfile-unlink
+Merge pull request #298 from hnakamur/ignore-dirty-submodules
+Merge pull request #301 from hnakamur/test-fs-stat
+Merge pull request #290 from luvit/add-readdir-test
+Merge pull request #300 from luvit/test-tls-client-econnreset
+Merge pull request #291 from hnakamur/test-fs-write-file
+Merge pull request #292 from hnakamur/test-fs-exists
+Merge pull request #293 from hnakamur/test-fs-open
+Merge pull request #296 from hnakamur/test-fs-chmod
+Merge pull request #289 from luvit/bump-libuv-to-0.8-base
+Merge pull request #285 from hnakamur/install_target_for_gyp
+Merge pull request #279 from coolaj86/patch-1
+Merge remote-tracking branch 'upstream/master'
+Merge pull request #284 from luvit/fixes/dns_assert
+Merge pull request #278 from luvit/pull-out-dist-build
+Merge remote-tracking branch 'origin/master'
+Merge pull request #282 from Kami/dont_call_pause_no_ref_on_pure_lua_stream
+Merge pull request #276 from luvit/process-title
+Merge pull request #275 from luvit/remove-next-tick-http-onSock
+Merge pull request #274 from luvit/fixup-Process-stdout-stderr-setup
+Merge branch 'add_pause_resume_to_tty'
+Merge pull request #272 from luvit/add_pause_resume_to_tty
+Merge remote-tracking branch 'origin/master' into add_pause_resume_to_tty
+Merge branch 'add_pause_resume_to_tty' of github.com:luvit/luvit into add_pause_resume_to_tty
+Merge remote-tracking branch 'upstream/master' into add_pause_resume_to_tty
+Merge pull request #271 from luvit/fixup-buildsystem-after-luajit-bump
+Merge branch 'coro-sugar' of github.com:luvit/luvit
+Merge pull request #265 from luvit/add-build-info-to-readme
+Merge pull request #263 from mhart/patch-1
+Merge pull request #255 from hnakamur/add-Buffer-toString
+Merge pull request #233 from mjohnsullivan/master
+Merge pull request #259 from luvit/fix-make-clean
+Merge pull request #256 from luvit/features/improve_http_module
+Merge pull request #257 from luvit/coro-sugar
+Merge branch 'fix_dns_ipv4_ipv6'
+Merge branch 'release_0.3.2' into release_0.4.0
+Merge pull request #246 from luvit/fix_ipv6_resolver_new
+Merge pull request #244 from luvit/fix-gyp-build-on-linux-and-windows
+Merge pull request #242 from luvit/gyp-as-submodule
+Merge pull request #240 from racker/tls_context
+Merge pull request #239 from luvit/fix_hrtime_types
+Merge pull request #237 from racker/add-callback-state-saver
+Merge pull request #236 from Kami/fix_http_request_without_body
+Merge pull request #235 from Kami/url_parse_parse_query_string
+Merge branch 'master', remote-tracking branch 'origin/master'
+Merge pull request #232 from racker/fileWritetype
+Merge pull request #230 from luvit/getpid
+Merge pull request #226 from luvit/fix-assert-functional
+Merge pull request #223 from luvit/fix-string-gc-in-fs-write
+Merge pull request #221 from luvit/add-exit-code
+Merge branch 'master' of github.com:luvit/luvit
+Merge pull request #216 from luvit/test-tls-client-reject
+Merge pull request #215 from luvit/hookup-tls-errors-to-lua
+Merge pull request #214 from alFReD-NSH/patch-1
+Merge branch 'master' of github.com:luvit/luvit
+Merge pull request #213 from radare/master
+Merge pull request #210 from luvit/add-more-tls-tests
+Merge pull request #208 from bnoordhuis/sunos
+Merge pull request #202 from luvit/standardize-build.py-spacing
+Merge pull request #204 from luvit/add-debug-info-to-luajit
+Merge pull request #201 from luvit/fix_windows_tests
+Merge pull request #193 from luvit/remove-end-from-api-docs
+Merge pull request #200 from dvv/master
+Merge pull request #199 from Sh4rK/master
+Merge pull request #196 from Sh4rK/master
+Merge pull request #195 from luvit/luv_handle
+Merge pull request #194 from luvit/remove-tls-semicolons
+Merge pull request #190 from luvit/unref_json_fix
+Merge branch 'master' of github.com:luvit/luvit
+Merge pull request #189 from twojcik/master
+Merge branch 'master' of github.com:luvit/luvit
+Merge pull request #188 from twojcik/master
+Merge pull request #186 from luvit/fix_clear_timer
+Merge pull request #185 from racker/master
+Merge pull request #184 from racker/fixup-stream-destroy
+Merge remote-tracking branch 'origin/master' into fix_timer
+Merge pull request #183 from racker/enable-tls-tests
+Merge pull request #182 from luvit/fix_timer
+Merge pull request #181 from racker/fixup-socket-error-handling
+Merge pull request #179 from hasufell/master
+Merge pull request #175 from radare/fixmake
+Merge pull request #174 from racker/move-luacrypto
+Merge pull request #173 from racker/stop-using-white
+Merge pull request #172 from racker/create-tmpdir-in-runner
+Merge pull request #171 from luvit/free_yajl_contextes
+Merge pull request #168 from luvit/connect_buffer
+Merge pull request #170 from racker/test-pipe-fix-on-windows
+Merge pull request #163 from racker/add-luacrypto
+Merge branch 'master' of github.com:luvit/luvit
+Merge pull request #167 from racker/sync-write-stream
+Merge branch 'free_yajl_contextes'
+Merge pull request #165 from dvv/zlib
+Merge pull request #161 from dvv/master
+Merge branch 'master' of gh:luvit/luvit
+Merge pull request #158 from radare/master
+Merge remote-tracking branch 'upstream/master'
+Merge pull request #154 from dvv/master
+Merge branch 'master' of gh:luvit/luvit
+Merge pull request #157 from radare/master
+Merge pull request #155 from radare/master
+Merge pull request #153 from luvit/build_tls
+Merge pull request #148 from luvit/tls
+Merge remote-tracking branch 'origin/tls' into tls
+Merge pull request #151 from dvv/master
+Merge pull request #145 from Skomski/better-worker
+Merge pull request #144 from racker/add-os-path-objects
+Merge pull request #143 from racker/add_drain
+Merge remote-tracking branch 'origin/master' into add_drain
+Merge pull request #142 from dvv/dvv/upload
+Merge pull request #141 from racker/use-os-agnostic-rel-paths
+Merge pull request #140 from dvv/cflags
+Merge branch 'master' of github.com:/luvit/luvit
+Merge pull request #137 from luvit/refactor_http
+Merge pull request #139 from racker/bump-libuv
+Merge branch 'master' of github.com:luvit/luvit
+Merge pull request #138 from racker/fix-tests-on-windows
+Merge branch 'master' of github.com:luvit/luvit
+Merge branch 'master' of github.com:luvit/luvit
+Merge branch 'fix_windows'
+Merge pull request #129 from racker/fix-windows-tty
+Merge pull request #130 from Kami/freebsd_build_fixes
+Merge branch 'master' into freebsd_build_fixes
+Merge branch 'master' of github.com:luvit/luvit
+Merge branch 'master' of github.com:luvit/luvit
+Merge pull request #124 from dvv/master
+Merge pull request #123 from dvv/patch-4
+Merge pull request #122 from dvv/patch-3
+Merge pull request #121 from dvv/patch-2
+Merge pull request #120 from dvv/patch-1
+Merge pull request #119 from dvv/patch-3
+Merge pull request #118 from dvv/patch-2
+Merge branch 'master' of github.com:luvit/luvit
+Merge pull request #117 from dvv/patch-1
+Merge branch 'master' into builder_for_vector
+Merge pull request #113 from dvv/master
+Merge pull request #111 from dvv/master
+Merge pull request #100 from dvv/patch-10
+Merge pull request #110 from tim-smart/consistent-style
+Merge branch 'master' of github.com:luvit/luvit
+Merge branch 'windows_fixes'
+Merge branch 'master' of github.com:luvit/luvit
+Merge pull request #103 from racker/c89
+Merge branch 'master' of github.com:luvit/luvit
+Merge pull request #99 from racker/add_export_dependendent_settings
+Merge remote-tracking branch 'racker/fix_gyp_build' into add_export_dependendent_settings
+Merge pull request #96 from racker/fix_rt
+Merge pull request #95 from racker/fix_dns
+Merge pull request #93 from mmalecki/configure-error-message
+Merge branch 'master' into cleanup_gyp_build_osx
+Merge branch 'luvit_as_a_library' of github.com:racker/luvit into luvit_as_a_library
+Merge branch 'master' into luvit_as_a_library
+Merge pull request #91 from dvv/bind
+Merge remote-tracking branch 'upstream/master' into luvit_as_a_library
+Merge remote-tracking branch 'origin/master' into luvit_as_a_library
+Merge pull request #90 from dvv/bind
+Merge remote-tracking branch 'origin/cleanup_gyp_build_osx' into cleanup_gyp_build_osx
+Merge pull request #83 from dvv/patch-7
+Merge branch 'master' of github.com:luvit/luvit
+Merge pull request #81 from dvv/patch-6
+Merge pull request #80 from racker/add_cross_platform_test_execution
+Merge pull request #78 from racker/lyajl_fixes_windows
+Merge pull request #68 from racker/upgrade_http_lib
+Merge remote-tracking branch 'racker/add_bind_to_utils_new'
+Merge branch 'master' into upgrade_http_lib
+Merge remote-tracking branch 'upstream/master'
+Merge pull request #72 from racker/change_license
+Merge pull request #67 from racker/integrate_yajl_gyp
+Merge pull request #70 from dvv/master
+Merge pull request #66 from dvv/patch-3
+Merge pull request #64 from racker/add_isIP_support
+Merge pull request #63 from dvv/master
+Merge branch 'master' of github.com:luvit/luvit
+Merge pull request #62 from dvv/master
+Merge pull request #60 from racker/dns_support
+Merge branch 'master' of github.com:luvit/luvit
+Merge pull request #59 from dvv/patch-1
+Merge pull request #55 from racker/add_error_class
+Merge pull request #53 from radare/master
+Merge pull request #52 from racker/fix_parallel_build
+Merge pull request #51 from racker/features/windows_build
+Merge pull request #50 from racker/features/gyp_build_system_squashed
+Merge remote-tracking branch 'remotes/upstream/master' into features/gyp_build_system_squashed
+Merge pull request #46 from dvv/master
+Merge pull request #48 from mmalecki/path-dirname-fix
+Merge pull request #45 from mmalecki/echo-client-example
+Merge pull request #43 from racker/issues/lenv
+Merge remote-tracking branch 'remotes/upstream/master' into issues/lenv
+Merge pull request #36 from craigbarnes/master
+Merge remote-tracking branch 'upstream/master'
+Merge pull request #31 from radare/master
+Merge pull request #25 from racker/windows-port
+Merge pull request #24 from racker/updates-for-libuv
+Merge branch 'master' of github.com:creationix/luvit
+Merge pull request #10 from mmalecki/test-tcp

@@ -1,0 +1,2903 @@
+Merge branch 'discrete' (#9342)
+Merge branch 'master' into discrete
+Merge branch 'master' into discrete
+Merge branch 'master' into 9342
+Merge branch 'discrete' of github.com:scikit-learn/scikit-learn into discrete
+Merge branch 'master' into discrete
+Merge branch 'discrete' of github.com:scikit-learn/scikit-learn into discrete
+Merge branch 'master' into discrete
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' into discrete
+Merge branch 'master' into discrete
+Merge branch 'master' into discrete
+Merge branch 'master' into discrete
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge pull request #7525 from rickiepark/master
+Merge pull request #7480 from omtcyfz/minor-k-means-cleanup
+Merge pull request #7428 from amueller/contributors018
+Merge pull request #7018 from willingc/update-readme
+Merge pull request #7368 from amueller/deprecation_warnings_tests
+Merge pull request #7390 from themrmax/export-graphviz-to-string
+Merge pull request #7389 from jnothman/sniff_bad_scoring2
+Merge pull request #7412 from jnothman/fix_test_descriptions
+Merge pull request #7449 from elena-sharova/hashing_feature_transform_example_#7140
+Merge pull request #7447 from stvn66/stvn66-dbscan-docs-typo
+Merge pull request #7404 from amueller/capitalization_rebase
+Merge pull request #7401 from ogrisel/sgdclf-predict_proba-delegation
+Merge pull request #7396 from ogrisel/mlp-optimizer
+Merge pull request #6400 from scikit-learn/radneigh-njobs
+Merge pull request #7309 from amueller/how_to_ask_questions
+Merge pull request #7393 from ogrisel/mlp-multilabel
+Merge pull request #7304 from jnothman/binary_prf_mine
+Merge pull request #7261 from betatim/negative-scorers
+Merge pull request #7324 from raghavrv/rename_results_
+Merge pull request #7342 from themrmax/pydotplus-decision-tree-plotting
+Merge pull request #7317 from amueller/common_test_names
+Merge pull request #7316 from totalgood/doc-clf-reg-patch
+Merge pull request #7216 from b0noI/master
+Merge pull request #7282 from asnt/fix-convergence-warnings
+Merge pull request #7300 from nelson-liu/rename_unveil_tree_structure
+Merge pull request #7264 from MridulS/kmeansdoc
+Merge pull request #7252 from lesteve/fix-mock-dataframe-check-array
+Merge branch 'master' of https://github.com/b0noI/scikit-learn
+Merge pull request #7217 from ClimbsRocks/patch-9
+Merge pull request #7213 from zhengruifeng/doc_fix
+Merge pull request #7199 from nelson-liu/edit_cv_sparse_docs
+Merge pull request #7143 from iver56/patch-1
+Merge pull request #7172 from jasonlaska/patch-1
+Merge pull request #7165 from tKammy/fixed_typo
+Merge pull request #4658 from Titan-C/sphx-glr
+Merge pull request #7119 from jrfiedler/remove-unused-imports
+Merge pull request #7064 from Erotemic/quickfix_py2_libsvm_kernel_unicode
+Merge pull request #7083 from amueller/typos
+Merge pull request #7033 from nelson-liu/fix_tfidf_intro_to_ir_citation
+Merge pull request #7041 from jnothman/dbscan_doc
+Merge pull request #7057 from doshyt/doc-update-confusion
+Merge pull request #7063 from samuelstjean/patch-1
+Merge pull request #7062 from neo01124/master
+Merge pull request #6966 from doshyt/doc-update-confusion
+Merge pull request #6982 from fisache/master
+Merge pull request #6979 from ClimbsRocks/patch-8
+Merge pull request #6946 from proinsias/proinsias-doc-nb
+Merge pull request #6944 from proinsias/proinsias-rfc-doc-defaults
+Merge pull request #6935 from proinsias/proinsias-gs-typo
+Merge pull request #6900 from fishcorn/fishcorn-patch-1
+Merge pull request #6908 from HashCode55/master
+Merge pull request #6613 from nelson-liu/correct_license_spelling
+Merge pull request #6853 from krishnakalyan3/class_weight_balance
+Merge pull request #6850 from kmike/class_weight_error
+Merge pull request #6801 from jnothman/noparams
+Merge pull request #6785 from yenchenlin1994/make-csr_row_norms-support-fused-types
+Merge pull request #6817 from TomDLT/logistic_class_weight
+Merge pull request #6610 from jeff1evesque/feature-6609
+Merge pull request #6274 from jakevdp/setup_py_fix
+Merge pull request #6790 from arokem/patch-1
+Merge pull request #6724 from jnothman/emi_bug
+Merge pull request #6755 from hnykda/hnykda-fix-votingclassifier-example
+Merge pull request #6760 from maniteja123/average_precision
+Merge pull request #6770 from nelson-liu/fix_check_array_typo
+Merge pull request #6677 from MechCoder/remove_checks_sparse
+Merge pull request #6671 from zivori/model_seclection._validation.cross_val_predict_apply_func
+Merge pull request #5414 from vighneshbirodkar/el
+Merge pull request #6705 from mathcass/decomposition_typo
+Merge pull request #6707 from saiwing-yeung/my-fixes
+Merge remote-tracking branch 'scikit-learn/master'
+Merge pull request #6698 from ixjlyons/fix-neighbor-docs
+Merge pull request #6666 from tguillemot/GSoC-GMM-new
+Merge pull request #6682 from hlin117/multilasso
+Merge pull request #6664 from yenchenlin1994/make-cython-compiler-directives-global
+Merge pull request #6607 from maniteja123/imputer_indicator
+Merge pull request #6658 from ClimbsRocks/patch-5
+Merge pull request #6653 from davidwarshaw/doc-remove-redundant-brier_score_loss
+Merge pull request #6638 from braunmagrin/patch-1
+Merge pull request #6636 from ogrisel/fix-strict-tests-2
+Merge pull request #6632 from mszep/patch-1
+Merge pull request #6611 from maniteja123/chebyshev_doc
+Merge pull request #6127 from hugobowne/MultiOneVsRestClassifier
+Merge pull request #6606 from tkamishima/tkamishima_one_hot_encoder_parameter_checking
+Merge pull request #6419 from nelson-liu/fix_linkcheck
+Merge pull request #6608 from tacaswell/doc_knc_docstring
+Merge pull request #6539 from yenchenlin1994/use-fused-type-in-inplace-normalize
+Merge pull request #6588 from yenchenlin1994/use-fused-types-in-assign_rows_csr
+Merge PR #6037: copy_X in KernelPCA
+Merge pull request #6376 from tracer0tong/issue_6352
+Merge pull request #6395 from yenchenlin1994/make-dump_svmlight_file-support-sparse-y
+Merge pull request #6569 from MechCoder/minor
+Merge pull request #6579 from nlathia/issue-6541
+Merge pull request #6575 from hlin117/logregdocs
+Merge pull request #6221 from dsquareindia/LabelBinarizer_fix
+Merge pull request #6566 from practicalswift/fix-nameerror-and-remove-unused-variable-in-multiclass
+Merge pull request #6565 from bryandeng/doc-link
+Merge pull request #6466 from lesteve/nose-ignore-files-tweak
+Merge pull request #6498 from clamus/rand-lasso-fix-6493
+Merge pull request #6542 from ohld/make_scorer-link
+Merge pull request #6173 from dsquareindia/featurehasher_fix
+Merge pull request #6549 from FlorianWilhelm/ardregression_doc_addition
+Merge pull request #6546 from Naereen/patch-1
+Merge pull request #6543 from ohld/update-footer-year
+Merge pull request #6531 from gasagna/patch-1
+Merge pull request #6530 from Arafatk/master
+Merge pull request #6521 from giorgiop/patch-2
+Merge pull request #5299 from giorgiop/pca+randomizedpca
+Merge pull request #6494 from ogrisel/fix-travis-conda-numpy
+Merge pull request #6508 from lesteve/travis-nomkl
+Merge pull request #6503 from rhiever/patch-1
+Merge pull request #5699 from bhargav/mlp-test-warning
+Merge pull request #6490 from nelson-liu/fix_isolation_forest_docstring
+Merge pull request #6481 from maniteja123/logistic-doc
+Merge pull request #6469 from ralexx/docstring-typos
+Merge pull request #6411 from nelson-liu/create_issue_pr_template
+Merge pull request #6379 from lesteve/fix-stratified-shuffle-split-train-test-overlap
+Merge pull request #6371 from yenchenlin1994/add-test-for-vote-classifier
+Merge pull request #6458 from yenchenlin1994/add-doc-for-voting-classifier
+Merge pull request #6462 from scottclowe/doc-align-contrubting-code-indents
+Merge pull request #6461 from scottclowe/fix-typo
+Merge pull request #6453 from yenchenlin1994/fix-its-typo
+Merge pull request #5291 from MechCoder/huber_loss
+Merge pull request #6372 from amueller/poly_feature_names
+Merge pull request #6447 from MechCoder/whiten_pca
+Merge pull request #6442 from radarhere/patch-1
+Merge pull request #6404 from dsquareindia/dbscan_doc_enh
+Merge pull request #6426 from yenchenlin1994/remove-redundant-typo
+Merge pull request #6427 from nelson-liu/fix_svm_doc_citation
+Merge pull request #6412 from Naereen/patch-3
+Merge pull request #6414 from ssaeger/issue_6413
+Merge pull request #6349 from yenchenlin1994/remove-redundant-shuffle-assignment
+Merge pull request #6396 from nelson-liu/reorganize_build_files
+Merge pull request #6393 from yenchenlin1994/add-test-for-local-linear-embedding
+Merge pull request #6254 from rvraghav93/cythonize_when_pxd_changes
+Merge pull request #6363 from ogrisel/pr-6332-followup
+Merge pull request #6391 from yenchenlin1994/remove-redundant-assignment-in-test-locally-linear
+Merge pull request #6384 from yenchenlin1994/fix-broken-link-in-sparse-example
+Merge pull request #6333 from lesteve/fix-test-label-binarizer-on-windows
+Merge pull request #6343 from lesteve/fix-tsne-memory-leak
+Merge pull request #6366 from yarikoptic/master
+Merge pull request #6354 from rgommers/fix-build-error
+Merge pull request #6360 from alyssaq/patch
+Merge pull request #6362 from hlin117/dummy
+Merge pull request #6336 from GaelVaroquaux/fix_roc_auc_doc_phrasing
+Merge pull request #6327 from yenchenlin1994/fix-lda-transform-output-probability
+Merge pull request #6125 from AnishShah/issue6118
+Merge pull request #6339 from yenchenlin1994/fix-typo-in-test_ranking
+Merge pull request #5872 from lucasdavid/parallel-nn-in-isomap
+Merge pull request #6328 from rvraghav93/model_selection_repr_fix
+Merge pull request #6260 from ogrisel/pr-5920-followup
+Merge pull request #5425 from amueller/update_doc_readme
+Merge pull request #5863 from trevorstephens/cw_util_fix
+Merge pull request #5675 from AlexanderFabisch/gmm_clustering
+Merge pull request #5880 from jakevdp/spectral-doc
+Merge pull request #6040 from amueller/circle_texlive
+Merge pull request #6331 from joerobmunoz/fix-model-evaluation-typo
+Merge pull request #6324 from chyikwei/fix-lda-joblib-error
+Merge pull request #5945 from mth4saurabh/improve-mlp-docs
+Merge pull request #6294 from rasbt/whats_new_typos
+Merge pull request #6058 from davidthaler/carousel_fix
+Merge pull request #6285 from yenchenlin1994/update-DictVectorizer-doc-about-one-hot-encoding
+Merge pull request #6292 from yenchenlin1994/fix-error-message-in-check-cv
+Merge pull request #6293 from yenchenlin1994/fix-doc-typo-in-binary-tree
+Merge pull request #6319 from gjreda/fix-soft-voting-docs
+Merge pull request #6314 from tshauck/remove-superfluous-declaration
+Merge pull request #6311 from jakirkham/badge_svg_travis
+Merge pull request #6296 from pestrickland/master
+Merge pull request #6299 from ogrisel/fix-appveyor-pip
+Merge pull request #6268 from ogrisel/fix-spectral-embedding-stopping-condition
+Merge pull request #6270 from ogrisel/pr-5711-followup
+Correct typo in ``decomposition.rst``. Merge latest changes.
+Merge pull request #6286 from ogrisel/pr-6206-followup
+Merge pull request #5794 from rasbt/check_votingclassifier
+Merge pull request #6267 from yenchenlin1994/fix-LDA-doc-error
+Merge pull request #6232 from maniteja123/fetch_20newsgroups
+Merge pull request #6264 from yenchenlin1994/fix-multioutput-regression-tree-example
+Merge pull request #6277 from rasbt/latendDAupdate
+Merge pull request #6272 from jakevdp/fix6269
+Merge pull request #5701 from ziky90/gp-comparison-fixes
+Merge pull request #6241 from louridas/fix-iris-decision-tree
+Merge pull request #6152 from halwai/faq
+Merge pull request #6244 from harrymvr/patch-1
+Merge pull request #6225 from ogrisel/fix-6147-scoring-memmap
+Merge pull request #6218 from mth4saurabh/update-input-data-note-clustering-docs
+Merge pull request #6238 from amlankar/patch-1
+Merge pull request #6230 from yenchenlin1994/fix-Hierarchical-parameter-doc
+Merge pull request #6235 from lesteve/fix-reading-of-bunch-pickle-generated-with-0.16
+Merge pull request #6201 from GaelVaroquaux/more_ledoit_wold_tests
+Merge pull request #6227 from strixcuriosus/classification-report-format
+Merge pull request #6214 from mth4saurabh/minor-fix-RandomizedLasso-doc
+Merge pull request #6229 from dsquareindia/LabelEncode-error-msg-fix
+Merge pull request #6213 from dsquareindia/add_profile_link
+Merge pull request #6212 from kingjr/fix_kernel_ridge_doc
+Merge remote-tracking branch 'upstream/pr/6182'
+Merge pull request #6208 from TomDLT/authors-update
+Merge pull request #6179 from ogrisel/joblib-0.9.4
+Merge pull request #6187 from mth4saurabh/update-paper-url
+Merge pull request #6151 from MechCoder/silhouette_score_refactor
+Merge pull request #5497 from MechCoder/ransac_residual
+Merge pull request #5219 from scikit-learn/authors-update
+Merge pull request #6146 from toastedcornflakes/MLP_fix
+Merge pull request #6157 from lesteve/fix-faq-link
+Merge pull request #6150 from MechCoder/fix
+Merge pull request #6139 from dsquareindia/fetch_lfw_doc_fix
+Merge pull request #6087 from kaichogami/binary_partial_fit
+Merge pull request #6148 from MechCoder/ridge_cleare
+Merge pull request #5833 from welch/issue-5581-doc-warm-start
+Merge pull request #6119 from Qwasser/fetch_lfw_pairs-target-shape
+Merge pull request #6111 from betatim/base-not-a-list
+Merge pull request #6102 from toastedcornflakes/denoising_doc_fix
+Merge pull request #6108 from chezou/chezou-patch-1
+Merge pull request #6107 from MechCoder/2016
+Merge pull request #6104 from maniteja123/issue5715
+Merge pull request #6097 from mrandrewandrade/master
+Merge pull request #6088 from duboism/solve6078
+Merge pull request #6084 from ogrisel/rebased-pr-3804
+Merge pull request #6068 from nelson-liu/rework_nearest_centroid_classification
+Merge pull request #6069 from MechCoder/mbkmeans_fix
+Merge pull request #6048 from zhengqm/fix-cluster-example-bug
+Merge pull request #6067 from IsaacHaze/lsh_link_fix
+Merge pull request #6060 from nelson-liu/add-deep-learning-to-faq
+Merge pull request #6036 from kputnam/patch-1
+Merge pull request #6050 from ogrisel/coveralls-tweaks
+Merge pull request #6044 from yarikoptic/master
+Merge pull request #6046 from davidthaler/plot_krr_fixup
+Merge pull request #6042 from kputnam/patch-2
+Merge pull request #5730 from hdmetor/bugfix/5720
+Merge pull request #6034 from alexloginov/patch-2
+Merge pull request #6018 from proinsias/provide_argument
+Merge pull request #5946 from nmayorov/fetch_kddcup99_bug
+Merge pull request #5852 from nickyj88/master
+Merge pull request #6006 from hlin117/logistic_docs
+Merge pull request #5578 from waterponey/circleCI_push
+Merge pull request #5721 from amueller/examples_deprecation_fixes
+Merge pull request #6004 from leosartaj/affprop
+Merge pull request #5999 from jseabold/doc-fix
+Merge pull request #5773 from amueller/python3.3_fix_again
+Merge pull request #5942 from hlin117/lda_svd
+Merge pull request #5981 from seales/master
+Merge pull request #5925 from lesteve/fix-coveralls
+Merge pull request #5994 from fabioticconi/add_link
+Merge pull request #5890 from amueller/post_release_dev_doc_fixes
+Merge pull request #5800 from fabioticconi/patch-1
+Merge pull request #5923 from fabioticconi/add_link
+Merge pull request #5990 from jblackburne/fix-test_no_sparse_y_support
+Merge pull request #5829 from joshuacook/repair_link
+Merge pull request #5634 from sieben/space_indentation
+Merge pull request #5980 from dshieble/Odd_docstring_for_CountVectorizer_analyzer
+Merge pull request #5784 from MechCoder/parallel_rfecv
+Merge pull request #5949 from olologin/plot_svm_anova.py-and-"all-CPU's"
+Merge pull request #5966 from hlin117/pairwise-docs
+Merge pull request #5944 from nelson-liu/fix_make_pipeline_doc
+Merge pull request #5962 from alexfields/master
+Merge pull request #5251 from TomDLT/sag_multi
+Merge pull request #5954 from KjellSwedin/correct_LinearRegression_example
+Merge pull request #5936 from olologin/MultiLabelBinarizer_check_is_fitted
+Merge pull request #5919 from nelson-liu/fix_stock_example
+Merge pull request #5882 from LeiG/fix_confusing_n_samples
+Merge pull request #5892 from mth4saurabh/add-user-guide-link-to-lda
+Merge pull request #5850 from JeremyNixon/jeremy-feature
+Merge pull request #5910 from amueller/nyu_funding
+Merge pull request #5913 from mekman/doc_fix_minor2
+Merge pull request #5896 from fayeshine/fayeshine-patch-1
+Merge pull request #5886 from sieben/with_statement
+Merge pull request #5728 from amueller/more_doc_fixes
+Merge pull request #5895 from toastedcornflakes/master
+Merge pull request #5828 from mth4saurabh/add-mlp-to-changelog
+Merge pull request #5858 from mcculloh/gradientboost
+Merge pull request #5834 from hugobowne/dev_requirement_documentation
+Merge pull request #5885 from sieben/has_key_deprecated
+Merge pull request #5831 from codevig/mybranch
+Merge pull request #5855 from pieteradejong/doc-edits-transforms
+Merge pull request #5865 from hlin117/mailmap
+Merge pull request #5860 from pwgerman/rbm_doc_hidden_units
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into gradientboost
+Merge pull request #5846 from hlin117/whatsnew
+Merge branch 'dev_requirement_documentation' of https://github.com/hugobowne/scikit-learn into dev_requirement_documentation
+Merge pull request #5771 from bhargav/minor-doc-fixes
+Merge pull request #5802 from alvarouc/master
+Merge pull request #5819 from hlin117/pca-docs
+Merge pull request #5754 from rvraghav93/deprecated_mpl_15
+Merge pull request #5809 from lmcinnes/doc_related_hdbscan
+Merge pull request #5783 from varun-kr/check_classification_bug
+Merge pull request #5752 from hrjn/fix-5694-proper
+Merge pull request #5791 from MechCoder/scale_csc
+Merge pull request #5806 from vighneshbirodkar/nmf_fix
+Merge pull request #5798 from vruusmann/patch-1
+Merge pull request #5801 from hlin117/pca-plotting
+Merge pull request #5796 from max-moroz/dummy_classifier_memory_efficiency
+Merge pull request #5733 from giorgiop/trevis-with-timer
+Merge pull request #5492 from arthurmensch/remove_cython
+Merge pull request #5678 from betatim/no-warning-iforest
+Merge pull request #5526 from giorgiop/fix-weight-linearregression
+Merge pull request #5755 from rvraghav93/fix_depr_version
+Merge pull request #5742 from amueller/pdf_doc_link
+Merge pull request #5753 from staranjeet/grammatical-fix
+Merge pull request #5749 from ethanwhite/calibration-wording
+Merge pull request #5740 from perimosocordiae/patch-2
+Merge pull request #5714 from rvraghav93/learning_curve_doc
+Merge pull request #5257 from amueller/installation_instructions
+Merge pull request #5692 from amueller/skip_32_bit_tests
+Merge pull request #5731 from ClimbsRocks/patch-2
+Merge pull request #5727 from Naereen/patch-2
+Merge pull request #5511 from KamalakerDadi/sphinx_version_added
+Merge pull request #5700 from bhargav/neural-network-documentation
+Merge pull request #5698 from gclenaghan/fix_5687
+Merge pull request #5708 from amueller/0.17_whatsnew
+Merge pull request #5680 from amueller/lda_fix_refactoring
+Merge pull request #5695 from amueller/doc_fixes
+Merge pull request #5668 from amueller/multioutput_string_comparison
+Merge pull request #5688 from amueller/robust_scaler_1column_fix
+Merge pull request #5684 from amueller/deprecated_float_indexing_rfe
+Merge pull request #5682 from trevorstephens/OneHotEncoder_warn_fix
+Merge pull request #5572 from dohmatob/fix-5562
+Merge pull request #5637 from MechCoder/one_hot_enc_doc
+Merge pull request #5673 from amueller/sag_dont_warn_on_auto
+Merge pull request #5661 from amueller/tsne_test_32bit
+Merge pull request #5666 from amueller/sag_sparse_warnings
+Merge pull request #5657 from sieben/remove_cython_warnings
+Merge pull request #5654 from sieben/simplify_chain_comparaisons
+Merge pull request #5665 from amueller/no_deprecated_residuals
+Merge pull request #5667 from amueller/theilsen_test_closes_dev_null
+Merge pull request #5658 from amueller/train_test_split_conserves_type_doc
+Merge pull request #5644 from trevorstephens/export_gviz_32bit_fix
+Merge pull request #5659 from ElDeveloper/doc-fix
+Merge pull request #5626 from ogrisel/fix-osx-logistic-class-weights
+Merge pull request #5650 from shawpan/fix-user-guide-link-ransac#5621
+Merge pull request #5655 from sieben/deprecated
+Merge pull request #5652 from sieben/trailing_semicolon
+Merge pull request #5647 from sieben/patch-1
+Merge pull request #5648 from sieben/default_argument_mutable
+Merge pull request #5636 from TomDLT/appveyor_logistic
+Merge pull request #5646 from mscherer/fix_doc
+Merge pull request #5645 from sieben/useless_pass
+Merge pull request #5566 from rvraghav93/mod_sel_doc
+Merge pull request #5629 from sieben/dict_litteral
+Merge pull request #5632 from sieben/chain_comparaisons
+Merge pull request #5633 from sieben/list_litteral
+Merge pull request #5635 from ogrisel/ogrisel-joblib-0.9.3
+Merge pull request #5617 from ngoix/doc-iforest
+Merge pull request #5613 from jakevdp/tsne-cleanup
+Merge pull request #5574 from johannah/module-decomposition-colorblind
+Merge pull request #5577 from waterponey/circleCI_doc
+Merge pull request #5607 from giorgiop/doc-broken-links
+Merge pull request #5597 from vortex-ape/matplotlib_issue
+Merge pull request #5531 from arjoly/float-min_samples
+Merge pull request #5594 from betatim/isolationtree-docs
+Merge pull request #5592 from antialias/correct-typo
+Merge pull request #5591 from antialias/master
+Merge pull request #5590 from glouppe/param-sampler-rng
+Merge pull request #5575 from johannah/module-other-colorblind
+Merge pull request #5556 from johannah/module-feature-colorblind
+Merge pull request #5552 from johannah/module-tree-colorblind
+Merge pull request #5573 from johannah/module-model-colorblind
+Merge pull request #5546 from johannah/module-svm-colorblind
+Merge pull request #4163 from ngoix/iforest
+Merge pull request #5587 from jnothman/model_selection-whatsnew
+Merge pull request #5582 from gclenaghan/remove_balanced_weights
+Merge pull request #5586 from giorgiop/patch-1
+Merge pull request #5579 from rvraghav93/inspect_fix
+Merge pull request #5576 from johannah/module-mixture-colorblind
+Merge pull request #5550 from johannah/module-text-colorblind
+Merge pull request #5565 from MechCoder/hot_fix
+Merge pull request #5214 from glennq/mlp_refactoring
+Merge pull request #5560 from arjoly/serialization-bug-tree
+Merge pull request #5467 from tomMoral/travis-ci
+Merge pull request #5537 from johannah/module-linear-colorblind
+Merge pull request #5274 from MechCoder/liblinear_samples_weights
+Merge pull request #5541 from johannah/module-classification-colorblind
+Merge pull request #5544 from Mbompr/check-PR-5417
+Merge pull request #5012 from yanlend/patch-2
+Merge pull request #5506 from RachitKansal/my-work
+Merge pull request #5543 from ltiao/patch-1
+Merge pull request #5517 from lesteve/replace-base-class-method-calls-by-super
+Merge pull request #5487 from arjoly/example-node
+Merge pull request #5008 from TomDLT/logistic_multiclass
+Merge pull request #5519 from ishank08/imp_transform
+Merge pull request #5431 from hlin117/nan-targets
+Merge pull request #5512 from giorgiop/randomized-svd-versionadded
+Merge pull request #5465 from massil94/dev-massil
+Merge pull request #5456 from aabadie/remove_deprecation_metrics
+Merge pull request #5457 from aabadie/remove_deprecation_metrics_second_pass
+Merge pull request #5469 from rvraghav93/zero_gamma
+Merge pull request #5446 from deepcharles/charles1
+Merge pull request #5141 from giorgiop/power-iter-randomized-svd
+Merge pull request #5449 from Jeffrey04/5433-MaxAbsScaler-1-row-csr-fix
+Merge pull request #5451 from zermelozf/deprecated-stuff
+Merge pull request #5436 from Mbompr/plot-roc-example-4976
+Merge pull request #5319 from nicodv/patch-1
+Merge pull request #5494 from dohmatob/minor-issues
+Merge pull request #5438 from aabadie/datasets_doc
+Merge pull request #5486 from jakevdp/xrange-fix
+Merge pull request #5480 from pletelli/gpc_plot
+Merge pull request #5478 from rvraghav93/description_undefinedmetricwarning
+Merge pull request #5479 from pletelli/fix_circleci_build
+Merge pull request #4826 from rvraghav93/exceptions
+Merge pull request #5475 from glouppe/gp-deprecation
+Merge pull request #5468 from jmschrei/pomegranate
+Merge pull request #5445 from tomMoral/devTom
+Merge pull request #5452 from MaryanMorel/issue_5313
+Merge pull request #5466 from glouppe/gp_new
+Merge pull request #5458 from glouppe/labelkfold-withoutshuffle
+Merge pull request #5443 from AlexandreAbraham/optimize_graph_is_connected
+Merge pull request #5459 from waterponey/circleCI
+Merge pull request #5454 from GaelVaroquaux/test_branch
+Merge pull request #4995 from yanlend/patch-1
+Merge pull request #5440 from giorgiop/scaler-deprecation
+Merge pull request #5437 from rvraghav93/remove_deprecated_stuff
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn into patch-1
+Merge branch 'patch-1' of https://github.com/yanlend/scikit-learn into patch-1
+Merge pull request #5375 from rvraghav93/set_precision
+Merge pull request #5429 from amueller/python33_reload
+Merge pull request #5423 from MechCoder/example_fix
+Merge pull request #5421 from shagunsodhani/proposed-fix-for-#5387
+Merge pull request #5416 from giorgiop/fix-scaler-refit
+Merge pull request #5411 from lesteve/fix-plot-tomography-l1-reconstruction-example
+Merge pull request #5413 from amueller/cleanup_tests
+Merge pull request #5402 from lesteve/fix-lshforest-doctest
+Merge pull request #5399 from lesteve/update-joblib-to-0.9
+Merge pull request #5409 from lesteve/fix-plot-lle-digits
+Merge pull request #5398 from rvraghav93/fix_for_numpy_10
+Merge pull request #5410 from GaelVaroquaux/fix_doc_gcv
+Merge pull request #5395 from amueller/some_test_deprecation_warnings
+Merge pull request #4478 from amueller/fix_randomized_svd_transpose
+Merge pull request #5400 from kwgoodman/doctypo
+Merge pull request #5104 from giorgiop/scaler-partial-fit
+Merge pull request #5360 from TomDLT/sparseridge
+Merge pull request #5378 from amueller/gridsearch_docs_unsupervised
+Merge pull request #5234 from vighneshbirodkar/mcd_fix
+Merge pull request #5362 from MechCoder/lasso_fix
+Merge pull request #5384 from map222/patch-1
+Merge pull request #5386 from jmschrei/contrib
+Merge pull request #4242 from MechCoder/select_from_model
+Merge pull request #5371 from ylow/sgd_bug_fix
+Merge pull request #5349 from jakevdp/naive-bayes-scale
+Merge pull request #5369 from joshloyal/fix_hashing_docstring
+Merge pull request #5365 from Naereen/patch-2
+Merge pull request #5356 from rvraghav93/ridge_appveyor_failure
+Merge pull request #5363 from Naereen/patch-1
+Merge pull request #5237 from gclenaghan/remove_thresholds
+Merge pull request #4707 from amueller/k_means_init_mismatch
+Merge pull request #5336 from giorgiop/pca-warning
+Merge pull request #5231 from vighneshbirodkar/kmeans_fix
+Merge pull request #5347 from ariddell/patch-3
+Merge pull request #5346 from Naereen/patch-1
+Merge SelectFromModel and L1-selection examples Add test to check the threshold can be set without refitting
+Merge pull request #5337 from ogrisel/fix-coordinate-descent-memory-layout
+Merge pull request #5335 from rrohan/current
+Merge pull request #5332 from larsmans/nmf-cleanup
+Merge pull request #5334 from ogrisel/better-ensure-min-error-message
+Merge pull request #5317 from hlin117/verbose-sparse-encode
+Merge pull request #5302 from ogrisel/python-3.5-appveyor
+Merge pull request #5252 from jmschrei/presort
+Merge pull request #5300 from glouppe/fix-5292
+Merge pull request #5303 from larsmans/faster-lda
+Merge pull request #5311 from jereze/master
+Merge pull request #5310 from JeanKossaifi/add_repo
+Merge pull request #4955 from copyconstructor/preserve-vocab-ordering
+Merge pull request #5305 from jmschrei/criterion_patch
+Merge pull request #5301 from ogrisel/python-3.5-inspect-deprecation
+Merge pull request #5253 from ogrisel/online-lda-with-parallel-context-manager
+Merge pull request #5294 from trevorstephens/lda_qda_fit_params
+Merge pull request #5293 from amueller/pipeline_X1d_inverse
+Merge pull request #5278 from jmschrei/_criterion_cleanup
+Merge pull request #4852 from TomDLT/nmf
+Merge pull request #5288 from jnothman/bicluster-example-speed
+Merge pull request #4887 from amueller/tsne_fixes
+Merge pull request #5283 from TomDLT/remove_warnings
+Merge pull request #5289 from carrillo/master
+Merge pull request #5280 from ogrisel/pr-4924-rebased
+Merge pull request #5284 from tdhopper/patch-1
+Merge pull request #5271 from vortex-ape/lda-typo
+Merge pull request #5245 from ogrisel/lda-acronym-deprecation
+Merge pull request #5261 from glouppe/check-importances
+Merge pull request #5262 from andylamb/lamb-fix-class-weight-check
+Merge pull request #5238 from rvraghav93/cvdoc
+Merge pull request #5258 from amueller/docfixes
+Merge pull request #5263 from hlin117/check_X_y-docs
+Merge pull request #5206 from acganesh/numpy_scipy_ver_check
+Merge pull request #5249 from MechCoder/init_centroids_bug
+Merge pull request #5216 from JPFrancoia/master
+Merge pull request #5242 from arjoly/stable-test-2
+Merge pull request #5228 from jmschrei/gb_apply
+Merge pull request #5200 from jackzhang84/add_dump_svmlight_file_comment
+Merge pull request #5225 from MechCoder/fix_overflow
+Merge pull request #5230 from jmschrei/_tree_split
+Merge pull request #5207 from MechCoder/ensemble_sample_weight_bug
+Merge pull request #5199 from ogrisel/joblib-0.9.0b4
+Merge pull request #5218 from mooz/patch-1
+Merge pull request #5195 from jnothman/example_latex
+Merge pull request #5223 from mattilyra/allow_sparse_in_baggingclassifier
+Merge pull request #5190 from glouppe/labelkfold
+Merge pull request #5220 from arjoly/fast-reverse-update
+Merge pull request #5201 from christophebourguignat/master
+Merge pull request #5194 from christophebourguignat/master
+Merge pull request #2459 from dougalsutherland/euclidean_distances
+Merge pull request #5174 from jnothman/dbscan_precomputed_sparse
+Merge pull request #5037 from betatim/tree-feature-transform
+Merge pull request #5182 from MechCoder/predict_proba_fix
+Merge pull request #5189 from GaelVaroquaux/pr_4779
+Merge pull request #4881 from sonnyhu/weighted_least_squares
+Merge pull request #4779 from martinosorb/parallel-ms
+Merge pull request #4767 from trevorstephens/passive-aggressive_cw
+Merge pull request #5184 from christophebourguignat/master
+Merge pull request #5188 from GaelVaroquaux/pr_4090
+Merge pull request #4312 from xuewei4d/friendly_error_on_kneighbors
+Merge pull request #4104 from maheshakya/johnson-lindenstrauss_bound_example_fix
+Merge pull request #5186 from sdvillal/issue5165
+Merge pull request #4253 from Flimm/doc-precision_recall_fscore_support
+Merge pull request #5187 from GaelVaroquaux/pr_4009
+Merge pull request #5162 from ogrisel/faq-freeze
+Merge branch 'master' into pr_4009
+Merge branch 'master' into pr_4009
+Merge branch 'master' into pr_3651
+Merge pull request #5131 from michigraber/nonnegative-lars
+Merge pull request #5161 from beepee14/sparse_prediction_check
+Merge pull request #5167 from NoonienSoong/clustering_example
+Merge pull request #5098 from olologin/OneClassSvm_sparse_test
+Merge pull request #5063 from amueller/bagging_input_validation
+Merge pull request #5157 from amueller/ridge_intercept_docs
+Merge pull request #5071 from mth4saurabh/fix-issue-3594
+Merge pull request #5081 from amueller/transformers_consistent_n_samples
+Merge pull request #5143 from Eric89GXL/fix-r2
+Merge pull request #5094 from pv/fix-inplace
+Merge pull request #5133 from arthurmensch/lasso_perf_checks
+Merge pull request #5120 from larsmans/faster-lda
+Merge pull request #5113 from fzalkow/master
+Merge pull request #5126 from rasbt/rbf
+Merge branch 'nonnegative-lars' of https://github.com/michigraber/scikit-learn into nonnegative-lars
+Merge pull request #5111 from chyikwei/remove-unnecessary-variable
+Merge pull request #5050 from AnishShah/issue5043
+Merge pull request #5074 from jdwittenauer/master
+Merge pull request #5117 from kylerbrown/patch-1
+Merge pull request #4919 from rvraghav93/label_binarizer
+Merge pull request #3659 from chyikwei/onlineldavb
+Merge pull request #5093 from amueller/one_class_svm_memory_fix
+Merge pull request #5092 from kazemakase/fix-lda-covariance
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn into patch-1
+Merge pull request #5076 from PGryllos/update_doc
+Merge pull request #5059 from amueller/function_transformer_rebase
+Merge pull request #5077 from rvraghav93/fix_import_coor_des
+Merge pull request #5072 from amueller/fix_fun_conversion_warning
+Merge pull request #5047 from amueller/scipy_0.16_fixes
+Merge pull request #5049 from amueller/gp_reshape_fixes
+Merge pull request #5052 from larsmans/kappa
+Merge pull request #4775 from arthurmensch/cd_fast_readonly_array_brainfix
+Merge pull request #5057 from amueller/fix_2d_y_svm_regressor
+Merge pull request #5010 from jmschrei/_tree_doc
+Merge pull request #5016 from lesteve/update-joblib-to-0.9.0b3
+Merge branch 'nonnegative-lars' of https://github.com/michigraber/scikit-learn into nonnegative-lars
+Merge pull request #4965 from mrphilroth/4922
+Merge pull request #5048 from marktab/fixlfw
+Merge pull request #5042 from amueller/contributing_addition
+Merge pull request #4960 from mkrump/lb_encoder
+Merge pull request #5038 from jnothman/textdoc
+Merge pull request #4957 from dotsdl/issue-4614
+Merge pull request #5025 from jakirkham/fix_typo
+Merge pull request #5019 from glouppe/voting-get_params
+Merge pull request #4967 from stephen-hoover/threshold-boosting-samme_proba
+Merge pull request #5005 from amueller/drop_old_doc_links
+Merge pull request #5021 from lesteve/make-copy-joblib-sh-python3-compatible
+Merge pull request #5017 from lesteve/fix-coveralls-badge
+Merge pull request #5020 from ogrisel/fix-nmf-rng-seeding
+Merge pull request #5018 from ltiao/patch-1
+Merge pull request #4961 from mrphilroth/issue4959
+Merge pull request #5011 from TomDLT/rcv1_order
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn
+Merge pull request #4933 from banilo/regr_score_docs
+Merge pull request #4954 from ankurankan/fix/4744
+Merge pull request #5001 from hlin117/svm-documentation
+Merge pull request #4972 from ogrisel/doc-whatsnew-joblib-0.9.0b2
+Merge pull request #4984 from TomDLT/rcv1-subset
+Merge pull request #4908 from TomDLT/rcv1
+Merge pull request #4983 from ogrisel/appveyor-http-rackspace
+Merge pull request #4977 from edsonduarte1990/master
+Merge pull request #4979 from donnemartin/master
+Merge pull request #4971 from dotsdl/issue-4724
+Merge pull request #4915 from untom/minmax_scale
+Merge pull request #4956 from nealchau/ransacresid
+Merge pull request #4937 from pianomania/FeatureHasher_add_example
+Merge pull request #4966 from lazywei/multilabel-dump-svmlight
+Merge pull request #4958 from rasbt/treeregressor
+Merge pull request #4962 from vinc456/unexpected-facial-recognition
+Merge pull request #4783 from tokoroten/decrease_randomforest_memory
+Merge pull request #4953 from mrphilroth/issue4940
+Merge pull request #4947 from zyrikby/patch-1
+Merge pull request #4952 from stephen-hoover/fix_nmf_init_doc
+Merge pull request #4934 from thvasilo/patch-1
+Merge pull request #4927 from jnothman/hiding_predict_proba
+Merge pull request #4928 from rvraghav93/pls_deprecated
+Merge pull request #4932 from rasbt/randomforest
+Merge pull request #4918 from ejcaropr/doc-fix
+Merge pull request #4836 from amueller/pca_docstring
+Merge pull request #4900 from arjoly/fix-raise-memerror
+Merge pull request #4905 from lesteve/update-joblib-0.9.0b2
+Merge pull request #4893 from jmschrei/cca_stability
+Merge pull request #4840 from jnothman/dynamicgrid
+Merge pull request #4894 from tw991/rf
+Merge pull request #4562 from hsuantien/emptylabelset
+Merge pull request #4891 from MechCoder/lrcv_bug
+Merge pull request #4851 from trevorstephens/ridge_no_copy
+Merge pull request #4860 from rvraghav93/additive_chi2_sampler_reflink
+Merge pull request #4872 from ogrisel/remove-hmm-ref-in-tests
+Merge pull request #4862 from jnothman/fixlink
+Merge pull request #4870 from rasbt/decisiontreeregressor
+Merge pull request #4868 from rasbt/silhouette
+Merge pull request #4849 from jnothman/contrib-link
+Merge pull request #4859 from Titan-C/sidebar
+Merge pull request #4861 from ltiao/patch-1
+Merge pull request #4853 from amueller/fix_ica_pca_example
+Merge pull request #4857 from christophebourguignat/master
+Merge pull request #4828 from untom/maxabs_scaler
+Merge pull request #4854 from opahk/master
+Merge pull request #4847 from TomDLT/doc_dev
+Merge pull request #4796 from joshloyal/standard-scaler-std-doc
+Merge pull request #4835 from tw991/feature2
+Merge pull request #4838 from trevorstephens/ridge_sw
+Merge pull request #4824 from amueller/testing_less_warnings
+Merge pull request #4763 from sonnyhu/RidgeCV_slice_sampleweight
+Merge pull request #4833 from tw991/feature
+Merge pull request #4832 from kronosapiens/update-docs
+Merge pull request #4829 from rvraghav93/remove_deprecated_check_cv
+Merge branch 'pr/4714' + pep8 fixes
+Merge pull request #4819 from sornars/svcgamma
+Merge pull request #4818 from amueller/sgd_decision_function_deprecation
+Merge pull request #4810 from mblondel/cite_api_paper
+Merge pull request #4723 from amueller/backlinks
+Merge pull request #4347 from amueller/class_weight_auto
+Merge pull request #4786 from amueller/estimator_tags_bug
+Merge pull request #4785 from amueller/no_noise_boilerplate
+Merge pull request #4431 from vortex-ape/deprecate_func
+Merge pull request #4680 from amueller/pipeline_named_steps_fix
+Merge pull request #4792 from amueller/coveralls-badge
+Merge pull request #4663 from Titan-C/sidebar
+Merge pull request #4777 from TomDLT/liblinear_randomstate
+Merge pull request #4778 from untom/fixname
+Merge pull request #4761 from tiagofrepereira2012/fix_lle
+Merge pull request #4770 from TomDLT/logistic
+Merge pull request #4125 from untom/RobustScaler
+Merge pull request #4686 from bnaul/graph_lasso_tests
+Merge pull request #4765 from alexeygrigorev/master
+Merge pull request #4762 from trevorstephens/gridsearch_unused_params
+Merge pull request #4739 from amueller/regressor_output_shape_test
+Merge pull request #4751 from amueller/dict_learning_n_jobs_bug
+Merge pull request #4362 from rvraghav93/make_PyFuncDistance_picklable
+Merge pull request #4716 from TomDLT/notfitted
+Merge pull request #4754 from TomDLT/astype_fix
+Merge pull request #4748 from TomDLT/check_maxiter
+Merge pull request #4753 from TomDLT/newton_cg
+Merge pull request #4679 from TomDLT/newton_cg
+Merge pull request #4741 from amueller/multioutput_warning
+Merge pull request #4749 from ogrisel/travis-no-sudo
+Merge pull request #4684 from ogrisel/readonly-lars-path
+Merge pull request #4743 from ogrisel/fix-check-finite-gram-omp
+Merge pull request #4730 from amueller/ovr_classifier_sparse_coef
+Merge pull request #4697 from amueller/remove_warning_test_pandas_slicing
+Merge pull request #4705 from amueller/cross_val_predict_input_types
+Merge pull request #4645 from TomDLT/astype_fix
+Merge pull request #4725 from jseabold/avoid-nan-equals-comp
+Merge pull request #4734 from ajschumacher/patch-6
+Merge pull request #4733 from amueller/fix_csc_random_sampling
+Merge pull request #4727 from Spikhalskiy/truncated-svd-doc-T
+Merge pull request #4702 from betatim/online-learning-batch-size
+Merge pull request #4694 from betatim/check-fit-returns-self
+Merge pull request #4713 from amueller/ridge_cv_nonmutable_alphas
+Merge pull request #4698 from trevorstephens/doc-export_graphviz
+Merge pull request #4695 from perimosocordiae/patch-1
+Merge pull request #3735 from trevorstephens/pretty-decision-trees
+Merge pull request #4438 from mbatchkarov/stratified_train_test_split
+Merge pull request #4692 from kianho/plot-ensemble-oob-trace
+Merge pull request #4665 from kianho/plot-ensemble-oob-trace
+Merge pull request #4161 from rasbt/ensemble-classifier
+Merge pull request #4683 from yanlend/patch-1
+Merge pull request #4654 from amueller/fix_partial_dependency_percentiles
+Merge pull request #4681 from trevorstephens/gplearn-link
+Merge pull request #4678 from amueller/pandas_safe_indexing_fix
+Merge pull request #4676 from zacstewart/master
+Merge pull request #4642 from arjoly/error-bagging-sw
+Merge pull request #4650 from lesteve/fix-4641
+Merge pull request #4653 from ssaeger/issue_4633
+Merge pull request #4528 from amueller/rfe_feature_importance_test
+Merge pull request #4662 from GaelVaroquaux/infonea_testimonial
+Merge pull request #4659 from MAnyKey/sampler-samples
+Merge pull request #4593 from clorenz7/gmm_fit_predict
+Merge pull request #4526 from vortex-ape/if_matplotlib
+Merge pull request #4550 from amueller/common_test_refactoring
+Merge pull request #4647 from lesteve/better-appveyor-badge
+Merge pull request #4640 from dougalsutherland/patch-1
+Merge pull request #4631 from Aerlinger/documentation_improvements
+Merge pull request #4371 from saketkc/fix_setup
+Merge pull request #4636 from scls19fr/scls19fr-Update_confusion_matrix_docstring
+Merge pull request #4613 from bnaul/graph_lasso_tests
+Merge pull request #4434 from xuewei4d/catch_LinAlgError_gmm
+Merge pull request #4592 from clorenz7/bugfix/gauss_proc_eps_issue
+Merge pull request #4610 from sseg/ex-wikipedia-py3
+Merge pull request #4534 from xuewei4d/optimize_rfecv
+Merge pull request #4467 from giantoak/param_invariance
+Merge pull request #4604 from jnothman/faster_lshforest
+Merge pull request #4608 from jfraj/test_pickle_bunch
+Merge pull request #4606 from ibayer/remove_order_check
+Merge pull request #4600 from jfraj/bug_20newsgroup
+Merge pull request #4595 from sseg/bicluster-example
+Merge pull request #4590 from jfraj/fix_bug4559
+Merge pull request #4596 from ibayer/doc_train_test_split
+Merge pull request #1 from scikit-learn/master
+Merge pull request #4541 from amueller/robust_input_dtype_check
+Merge pull request #4588 from amueller/random_forest_predict_check
+Merge pull request #4584 from sdegryze/fit-predict-for-pipeline
+Merge pull request #4581 from kno10/patch-1
+Merge pull request #4530 from amueller/gbrt_estimators_docstring
+Merge pull request #4570 from thedrow/topic/call-enumerate-on-empty-clusters-only
+Merge pull request #4488 from glouppe/tree-apply
+Merge pull request #4555 from ogrisel/fix-astype-copy-true
+Merge pull request #4560 from ogrisel/shuffle-passthrough
+Merge pull request #4563 from mspacek/patch-2
+Merge pull request #4561 from mspacek/patch-1
+Merge pull request #4542 from ogrisel/fix-doc-partial-pip-upgrades
+Merge pull request #4531 from zhaipro/fix
+Merge pull request #4537 from amueller/callibrated_classifier_cv_linearsvc_seed
+Merge pull request #4506 from mheilman/master
+Merge pull request #4516 from amueller/distance_function_docstring
+Merge pull request #4519 from ClimbsRocks/patch-1
+Merge pull request #4514 from sinhrks/missing_all
+Merge pull request #4505 from jmetzen/isotonic_make_unique_fix
+Merge pull request #4420 from amueller/cca_low_rank
+Merge pull request #4418 from amueller/classifier_regressor_tags
+Merge pull request #4496 from vmichel/rfe_feature_importances
+Merge pull request #4484 from vortex-ape/remove_array2d
+Merge pull request #4489 from betatim/rf-oob-docs
+Merge pull request #4356 from vortex-ape/dict_vectorizer
+Merge pull request #4456 from cgohlke/patch-1
+Merge pull request #4464 from vortex-ape/logregcv
+Merge pull request #4428 from amueller/ledoit_wolf_shrinkage_fix
+Merge pull request #4471 from baharev/small-typo
+Merge pull request #4476 from CaMeLCa5e/master
+Merge pull request #4423 from vortex-ape/agg_clustering
+Merge pull request #4462 from xuewei4d/deprecate_estimator_params_docstring
+Merge pull request #4189 from amueller/sparse_decision_function
+Merge pull request #4451 from ragv/travis_ignore_docstring
+Merge pull request #4448 from pprett/fix-gbrt-min-leaf-weight
+Merge pull request #4350 from vortex-ape/build_issue
+Merge pull request #4439 from bryandeng/dataset_docs
+Merge pull request #4389 from vortex-ape/move_test
+Merge pull request #4427 from amueller/lda_lsqr_predict
+Merge pull request #4436 from ogrisel/rebased-pr-3747
+Merge pull request #4432 from ragv/travis_ignore_docstring
+Merge pull request #4422 from trevorstephens/y_numeric_for_np180
+Merge pull request #4433 from gwulfs/master
+Merge pull request #4409 from bryandeng/immutable_defaults
+Merge pull request #4368 from xuewei4d/deprecate_estimator_params
+Merge pull request #4322 from amueller/kneighbors_include_self_fixes
+Merge pull request #4377 from vortex-ape/intercept_scaling
+Merge pull request #4416 from vortex-ape/kernel_precomputed
+Merge pull request #4412 from ragv/maint_remove_n_iterations_2
+Merge pull request #4411 from ragv/maint_remove_n_iterations
+Merge pull request #4370 from amueller/0.17_deprecated
+Merge pull request #4407 from agramfort/calibration_nan_fix
+Merge pull request #4388 from Barmaley-exe/svr-doc-n-test
+Merge pull request #4402 from amueller/ompcv_fix
+Merge pull request #4401 from ogrisel/rebased-pr-4157
+Merge pull request #4390 from Barmaley-exe/tests-fix
+Merge pull request #4392 from sinhrks/setparams
+Merge pull request #4295 from ragv/sigmoid_decision_fn
+Merge pull request #4395 from akitty/patch-1
+Merge pull request #4383 from saketkc/maint
+Merge pull request #4381 from amueller/style_errors_b
+Merge pull request #4378 from dan-blanchard/patch-1
+Merge pull request #4335 from martin0258/dpgmm-lowerbound-bug
+Merge pull request #4331 from martin0258/uni-feature-doc-seealso
+Merge pull request #4364 from amueller/appveyor_badge
+Merge pull request #4363 from arimbr/patch-1
+Merge pull request #4359 from josephlewis42/master
+Merge pull request #4352 from amueller/issue-4297-infinite-isotonic_bak
+Merge pull request #4302 from amueller/isotonic_regression_duplicate_fixes
+Merge pull request #4028 from ogrisel/wheelhouse-uploader
+Merge pull request #4342 from sotte/fix_contributing_format
+Merge pull request #4339 from amueller/scipy2013_lecture_link
+Merge pull request #4345 from bendavies/20newsgroups_example
+Merge pull request #4317 from ogrisel/fix-radius-queries
+Merge pull request #4338 from lesteve/fix-typo-in-pyamg-skip-test-message
+Merge pull request #4234 from amueller/rbm_random_state_gibbs
+Merge pull request #4326 from Barmaley-exe/svm-dual-coef-fix
+Merge pull request #4325 from amueller/more_minor_doc_fixes
+Merge pull request #3965 from amueller/sgd_classifier_shuffle
+Merge pull request #4307 from amueller/more_quite_testing
+Merge pull request #4192 from jnothman/binary_iff_binary
+Merge pull request #4313 from vortex-ape/spectral_clustering
+Merge pull request #4323 from amueller/generate_empty_example_rsts
+Merge pull request #4320 from amueller/minor_doc_fixes
+Merge pull request #4318 from amueller/skip_omp_cv_on_travis
+Merge pull request #4314 from vortex-ape/RBFSampler
+Merge pull request #4315 from ugurcaliskan/patch-2
+Merge pull request #4310 from larsmans/svm-bounds-l2
+Merge pull request #4308 from terrycojones/fix-missing-space
+Merge pull request #4293 from kyleabeauchamp/patch-1
+Merge pull request #4092 from ogrisel/iris-rbf-params-heatmap-example
+Merge pull request #4261 from ragv/svm_scale_c_plot
+Merge pull request #4284 from hbredin/dgpmm_convergence
+Merge pull request #4269 from MechCoder/deprecate_n_components
+Merge pull request #4146 from amueller/fdr_treshold_bug_2
+Merge pull request #4057 from amueller/dtype_object_conversion
+Merge pull request #4165 from amueller/gbrt_staged_defensive_copies
+Merge pull request #4282 from glouppe/tree-fix-4281
+Merge pull request #4277 from Celeo/contributing-request-typo
+Merge pull request #4266 from lesteve/python3-fix-plot-kmeans-silhouette-analysis
+Merge pull request #4265 from harrymvr/doc_spectral_clustering
+Merge pull request #4251 from ogrisel/fix-shape-format
+Merge pull request #4204 from mvdoc/master
+Merge pull request #3891 from ragv/decision_function_ovo_1523
+Merge pull request #4214 from ogrisel/fix-empty-input-data
+Merge pull request #4136 from amueller/test_dtypes_all
+Merge pull request #24 from ogrisel/fix-nan-1d-regularized-covariance
+Merge pull request #4233 from amueller/minor_doc_improvement_ensemble
+Merge pull request #4244 from ugurcaliskan/patch-1
+Merge pull request #4226 from ragv/fix_4224
+Merge pull request #3933 from fabianp/loss_liblinear
+Merge pull request #4232 from lesteve/use-absolute-imports-in-tests
+Merge pull request #4222 from saketkc/benchmark_fixes
+Merge pull request #4229 from ragv/4135
+Merge pull request #4221 from saketkc/fixes
+Merge pull request #4176 from amueller/mean_shift_no_centers
+Merge pull request #4206 from ogrisel/fix-strict-select-fdr
+Merge pull request #4179 from amueller/nystroem_singular_kernel
+Merge pull request #4064 from amueller/pipeline_scoring_y_none
+Merge pull request #4186 from xbhsu/non-inheriting_estimator_tests
+Merge pull request #4190 from trevorstephens/refactor_cw
+Merge pull request #4203 from gwulfs/rel_projs
+Merge pull request #4201 from amueller/related_projects_skll
+Merge pull request #4109 from amueller/gmm_tied_covariance
+Merge pull request #4193 from lesteve/deactivate-travis-default-venv
+Merge pull request #4198 from arjoly/gbrt-fix-percent-max_features
+Merge commit 'b35b2fdad3a38e29bf5ef3534aeb9468b7f20f4a' from #4181
+Merge pull request #4037 from ragv/make_storing_stop_words_optional
+Merge pull request #4188 from miniyou/patch-1
+Merge pull request #4174 from ragv/fixes_4173
+Merge pull request #4046 from MechCoder/allow_X_none
+Merge pull request #4171 from amueller/statistical_learning_gridsearch
+Merge pull request #4156 from AlexanderFabisch/fix_tsne_one_comp
+Merge pull request #4147 from amueller/precision_recall_unsorted_indices
+Merge pull request #4131 from amueller/faq_no_1000_citations
+Merge pull request #4155 from trevorstephens/nb-fix-3186
+Merge pull request #4160 from trevorstephens/doc-fix-4098
+Merge pull request #4159 from aflaxman/gp_docs
+Merge pull request #4158 from ragv/whatsnew
+Merge pull request #4141 from amueller/bootstrap_int_one_fix
+Merge pull request #4148 from amueller/clean_up_after_tests
+Merge pull request #4153 from hsalamin/remove_exp_warning
+Merge pull request #4151 from larsmans/dbscan-faster
+Merge pull request #3836 from untom/fixedsplit
+Merge pull request #4139 from MSusik/negative_njobs
+Merge pull request #4076 from ragv/silhouette_plot
+Merge pull request #3850 from amueller/randomized_search_no_replacement
+Merge pull request #4118 from jmetzen/kernel_ridge_doc
+Merge pull request #4117 from chyikwei/fix_import_err
+Merge pull request #4113 from ragv/isotonic
+Merge pull request #4111 from ragv/slinear_isotonic
+Merge pull request #4085 from jnothman/pairwise_parallel
+Merge pull request #4052 from amueller/clustering_sparse_matrix
+Merge pull request #4018 from ragv/fix_for_nan_scale
+Merge pull request #4105 from amueller/minor_spelling_fixes
+Merge pull request #4058 from amueller/cleanup_common_tests
+Merge pull request #3562 from arjoly/bench-mnist
+Merge pull request #4095 from jjhelmus/bug_local_import
+Merge pull request #4093 from MechCoder/regresssion_nc
+Merge pull request #4097 from amueller/remove_unneccessary_initialization
+Merge pull request #3640 from untom/fix_consensus_score
+Merge pull request #3961 from trevorstephens/rf-class_weight
+Merge branch 'master' into rf-class_weight
+Merge pull request #4089 from wujiang/patch-1
+Merge pull request #4086 from ragv/whatsnew
+Merge pull request #4029 from ragv/maint_raise_uniform_error_notfitted
+Merge pull request #4075 from banilo/pipe_typo
+Merge pull request #4078 from pratapvardhan/misc-docs
+Merge pull request #4071 from amueller/grid_search_document_best_estimator
+Merge pull request #4042 from lmichelbacher/patch-2
+Merge branch 'master' into rf-class_weight
+Merge pull request #4061 from ragv/pep8_cleanup
+Merge pull request #4054 from tttthomasssss/bugfix-4051-affinity-prop
+Merge pull request #4049 from akshayah3/sparse
+Merge pull request #4031 from amueller/check_scoring_fixes
+Merge pull request #4047 from agramfort/faster_sparse_enet_dual_gap
+Merge pull request #4030 from amueller/add_pipeline_docstrings
+Merge pull request #4044 from andreasvc/patch-1
+Merge pull request #4038 from jakevdp/ensure_symmetric2
+Merge pull request #3991 from jnothman/lshforest_improvements
+Merge pull request #4013 from amueller/deprecated_0.16
+Merge pull request #4024 from jakevdp/ensure_symmetric
+Merge pull request #4026 from akshayah3/master
+Merge pull request #4021 from jakevdp/fix_check_symmetric
+Merge pull request #3982 from amueller/metaestimator_delegation
+Merge pull request #4011 from MechCoder/fix_deprecation_paths
+Merge pull request #4012 from pricingassistant/doc-typo-fix
+Merge pull request #4010 from MechCoder/sparse_bug
+Merge pull request #4003 from ClashTheBunny/patch-1
+Merge pull request #3994 from jnothman/vec_dbscan
+Merge pull request #4000 from he7d3r/patch-1
+Merge pull request #3995 from jmetzen/fix_isotonic
+Merge pull request #3997 from pricingassistant/doc-typo-fix
+Merge pull request #3985 from MechCoder/return_distances
+Merge pull request #3976 from MechCoder/agglomerative_playground2
+Merge pull request #3989 from hammer/patch-2
+Merge pull request #3978 from MechCoder/compute_full_tree_bug
+Merge pull request #3952 from MechCoder/callable_connectivity
+Merge pull request #3986 from amueller/remove_allow_nd_in_train_test_split
+Merge pull request #3523 from cle1109/slda
+Merge return_distance tests of both linkage and ward tree
+Merge pull request #3980 from larsmans/lsh-forest
+Merge pull request #3979 from lmichelbacher/patch-1
+Merge pull request #3158 from mvdoc/clustering
+Merge branch 'pr/3944'
+Merge pull request #3974 from lesteve/fix-silhouette-typo
+Merge pull request #3966 from mvdoc/wtree_children
+Merge pull request #3968 from MechCoder/metric_neighbors_Graph
+Merge pull request #3969 from MechCoder/remove_check_X_y
+Merge remote-tracking branch 'upstream/master' into wtree_children
+Merge pull request #3946 from MechCoder/doc_fix
+Merge pull request #3953 from Titan-C/savefigarg
+Merge pull request #3824 from nmayorov/rfecv_bugfix
+Merge pull request #3964 from bwignall/boostdoctypo
+Merge pull request #3931 from dsullivan7/cwwarn
+Merge pull request #3962 from MechCoder/check_X_y
+Merge pull request #3802 from MechCoder/birch
+Merge pull request #3954 from amueller/fix_sgd_learningrate_docs
+Merge pull request #3955 from hammer/patch-1
+Merge pull request #2679 from jnothman/prf_average_explicit
+Merge pull request #3940 from ragv/doc_own_estimators
+Merge branch 'update-liblinear'
+Merge pull request #3934 from amueller/common_test_slight_cleanup
+Merge pull request #3936 from sethdandridge/typofix
+Merge pull request #3869 from borjaayerdi/rfe_n_features_to_remove
+Merge pull request #3925 from Titan-C/cssbox
+Merge branch 'pr/3914'
+Merge pull request #3921 from trevorstephens/docstring-format-fixes
+Merge pull request #3923 from Lothiraldan/patch-1
+Merge pull request #3920 from jlopezpena/pls-coef
+Merge pull request #3915 from ThomasDelteil/fix_css_examples
+Merge pull request #3899 from jlopezpena/fix-OvOlist
+Merge pull request #3898 from arjoly/nogil-feature-importance
+Merge pull request #3902 from JeanKossaifi/doc_enhancement
+Merge pull request #3905 from jlopezpena/fix-example-plot_pca_3d
+Merge pull request #3578 from jnothman/pls-validation
+Merge pull request #3900 from dimazest/latexpdf
+Merge pull request #3893 from jnothman/css_fix
+Merge pull request #3881 from amueller/code_tag_new_sphinx
+Merge pull request #3882 from MechCoder/doc_tree
+Merge pull request #3892 from mrshu/mrshu/naive-bayes-small-fixes
+Merge pull request #3889 from jdcaballero/master
+Merge pull request #3823 from ragv/omp-3644
+Merge pull request #3883 from ogrisel/sgd-stability
+Merge pull request #3690 from queqichao/fix_bug_in_cross_validation_when_using_sparse_matrix_for_fit_params
+Merge pull request #3858 from banilo/km_init
+Merge pull request #3871 from anntzer/fast-affinity-propagation
+Merge pull request #3826 from amueller/kde_y_none
+Merge pull request #3870 from FlorianWilhelm/whats_new_theilsen
+Merge pull request #3173 from arjoly/sparse-tree
+Merge pull request #3868 from MechCoder/typo_example_faces
+Merge pull request #2949 from FlorianWilhelm/theilsen
+Merge pull request #3867 from snuderl/patch-1
+Merge pull request #3857 from MechCoder/test_sparse_knc
+Merge pull request #3860 from ogrisel/custom-rp-warning
+Merge pull request #3852 from lesteve/add-cds-funding
+Merge pull request #3862 from Titan-C/doc_comment
+Merge pull request #3861 from ogrisel/fix-python-2.6-test
+Merge branch 'pr/3837'
+Merge pull request #3853 from ogrisel/backport-lsqr-fix
+Merge pull request #3833 from amueller/sgd_partial_fit_variable_length
+Merge pull request #3854 from justmarkham/doc-changes
+Merge pull request #3571 from jnothman/fix-link-embedding
+Merge pull request #3829 from amueller/feature_selection_from_model_doc
+Merge pull request #3779 from arjoly/sw-dummy-regressor
+Merge pull request #3811 from MechCoder/fix_repeated_checking
+Merge pull request #3800 from MechCoder/unknown_transform
+Merge pull request #3801 from cmd-ntrf/typo_vbgmm
+Merge pull request #3797 from Titan-C/clean
+Merge pull request #3795 from dsullivan7/svm_doc
+Merge pull request #3786 from AlexanderFabisch/tsne_fix
+Merge pull request #3772 from MechCoder/manhattan_metric
+Merge pull request #3783 from jakevdp/gmm-doc-fix
+Merge pull request #3778 from MechCoder/expose_positive
+Merge pull request #3646 from s8wu/multinomial_newtoncg
+Merge pull request #3773 from dsullivan7/sgdtestfix
+Merge pull request #3770 from dsullivan7/asgdintercept
+Merge pull request #3752 from MechCoder/remove_testing_test
+Merge branch 'master' into theilsen
+Merge pull request #3763 from ogrisel/fix-warning-test-affinities
+Merge branch 'master' into theilsen
+Merge pull request #3750 from MechCoder/bug_nearest_centroid
+Merge pull request #3761 from FlorianWilhelm/median_absolute_error
+Merge branch 'master' into median_absolute_error
+Merge pull request #3742 from abhishekkrthakur/master
+Merge pull request #3669 from pprett/fix-isotonic-pickling
+Merge pull request #3746 from MechCoder/nearest_neighbor_manhattan
+Merge branch 'master' into theilsen
+Merge pull request #3480 from dsullivan7/sgd
+Merge pull request #3740 from MechCoder/lassolarsicattribute
+Merge pull request #3732 from queqichao/fix_typo
+Merge pull request #3731 from ndawe/master
+Merge pull request #3730 from ogrisel/fix-libsvm-random-seed
+Merge pull request #3724 from mlopezantequera/patch-1
+Merge branch 'pr/3710'
+Merge pull request #3713 from akshayah3/Boost
+Merge pull request #3715 from trevorstephens/correct-gbc-docstring
+Merge pull request #3705 from floydsoft/patch-1
+Merge pull request #3656 from dougalsutherland/fix-rbf-samp
+Merge pull request #3695 from dougalsutherland/kde-docs
+Merge branch 'pr/3696'
+Merge pull request #3687 from perimosocordiae/fast-l1-dist
+Merge branch 'master' into theilsen
+Merge pull request #3697 from luispedro/cv_doc_fix
+Merge pull request #3285 from kastnerkyle/incremental_pca
+Merge branch 'fix_bug_in_cross_validation_when_using_sparse_matrix_for_fit_params' of https://github.com/queqichao/scikit-learn into fix_bug_in_cross_validation_when_using_sparse_matrix_for_fit_params
+Merge branch 'pr/3683'
+Merge pull request #3224 from pprett/gbrt-sample-weight
+Merge pull request #3678 from akshayah3/LinearReg
+Merge pull request #3674 from MechCoder/fix_l1_penalty
+Merge pull request #3676 from danfrankj/master
+Merge pull request #3667 from ajschumacher/patch-6
+Merge pull request #3587 from jnothman/transforms-doc
+Merge pull request #3653 from MechCoder/minor_opt
+Merge remote-tracking branch 'upstream/master' into multinomial_newtoncg
+Merge branch 'master' into theilsen
+Merge pull request #3564 from jnothman/bounds
+Merge branch 'pr/3613'
+Merge pull request #3629 from ogrisel/fix-unstable-lars-test
+Merge pull request #3619 from ogrisel/fix-miniconda
+Merge pull request #3611 from ogrisel/fix-isfinite-windows
+Merge pull request #3580 from jnothman/gridsearch-score
+Merge pull request #3612 from calvingiles/fix-resource-warnings
+Merge pull request #3608 from agramfort/fix_gnb_proba
+Merge pull request #3591 from MechCoder/refactor_logreg
+Merge pull request #3603 from MechCoder/fix_imputation_example
+Merge pull request #3604 from rahiel/patch-1
+Merge pull request #3598 from GaelVaroquaux/np_warnings
+Merge pull request #3593 from MechCoder/row_norms_doc_fix
+Merge pull request #3588 from tejesh95/patch-1
+Merge pull request #3001 from jnothman/doc_sample_gens
+Merge pull request #3586 from MechCoder/python3_installation
+ENH: Merge MultinomialLR into LR with multi_class='multinomial'
+Merge pull request #3573 from MechCoder/high_dimensional_enetcv
+Merge pull request #3572 from AndrewWalker/patch-1
+Merge pull request #3438 from hamsal/sprs-out-dmy
+Merge branch 'pr/3395'
+Merge branch 'pr/3545'
+Merge branch 'pr/3535'
+Merge pull request #3539 from jnothman/fast_indexing
+Merge pull request #3527 from jnothman/unnest-model-evaluation
+Merge pull request #3528 from MechCoder/fix_heisen
+Merge pull request #3489 from jnothman/attributes-doc
+Merge pull request #3509 from arjoly/fix-rp-sparse
+Merge pull request #3522 from ugurthemaster/patch-1
+Merge pull request #3491 from ogrisel/fix-warning-test-cross-val
+Merge pull request #3492 from furukama/patch-2
+Merge pull request #3454 from ldirer/confusion_matrix_example
+Merge pull request #3465 from pvnguyen/patch-1
+Merge pull request #3479 from MechCoder/improve_logcv_docs
+Merge pull request #3477 from kastnerkyle/docbuild_fix
+Merge pull request #2862 from MechCoder/LogCV
+Merge pull request #3441 from ogrisel/travis-no-verbose-tests
+Merge pull request #3472 from arjoly/fix-metrics-division
+Merge pull request #3470 from ogrisel/fix-sparse-randomized-pca-deprecation
+Merge pull request #2777 from jnothman/doc_linkcode
+Merge pull request #3460 from jnothman/fix_nn_example_doc
+Merge pull request #3327 from jnothman/examples_in_apiref
+Merge pull request #3447 from amueller/input_validation_b
+Merge remote-tracking branch 'upstream/master' into theilsen
+Merge pull request #3443 from amueller/input_validation_refactoring
+Merge remote-tracking branch 'gvaroquaux/pr_2949' into theilsen
+Merge pull request #3445 from arjoly/flatten-metrics
+Merge pull request #3442 from arjoly/split-metrics-module
+Merge pull request #3401 from vene/scorer_weights
+Merge pull request #3444 from arjoly/explain-default-score
+Merge pull request #2804 from arjoly/lrap
+Merge pull request #3439 from arjoly/test-commons
+Merge pull request #3433 from lesteve/remove-non-integer-deprecation-warnings
+Merge pull request #3430 from amueller/test_list_input
+Merge pull request #3418 from arjoly/dummy-weight
+Merge branch 'master' into theilsen
+Merge pull request #3403 from ogrisel/speedup-tests
+Merge pull request #3414 from lesteve/scheduled-removal-from-0.15
+Merge pull request #3411 from lesteve/scheduled-removal-from-0.15
+Merge pull request #3412 from brentp/logistic_l1_l2_ex
+Merge branch 'master' into theilsen
+Merge pull request #3406 from jnothman/minor
+Merge pull request #2694 from amueller/allow_y_lists
+Merge pull request #3397 from arjoly/tree-factor-rand
+Merge pull request #3396 from amueller/less_loud_randomized_lasso
+Merge pull request #3400 from arjoly/forest-test-oob
+Merge pull request #3349 from MechCoder/return_niter
+Merge pull request #3377 from ldirer/hashing_fix3356
+Merge pull request #3385 from GaelVaroquaux/fix_intp
+Merge pull request #3382 from ogrisel/install-doc-update
+Merge pull request #3376 from GaelVaroquaux/fix_mb_kmeans
+Merge pull request #3363 from ogrisel/appveyor-ci
+Merge pull request #3381 from kastnerkyle/skip_omp_cv_regressors
+Merge pull request #3378 from kastnerkyle/dense_cholesky_warnings
+Merge pull request #3375 from ldirer/hashing_fix3356
+Merge pull request #3353 from kastnerkyle/skip_ompcv_travis
+Merge branch 'pr/3316'
+Merge branch 'pr/3358'
+Merge pull request #3369 from NelleV/install_doc
+Merge pull request #3368 from stevetjoa/typo-diriclet
+Merge pull request #3366 from MechCoder/link-to-blog
+Merge pull request #3365 from fabianp/master
+Merge pull request #3361 from ogrisel/travis-no-multiprocessing-joblib
+Merge pull request #3357 from houbysoft/patch-1
+Merge pull request #3355 from larsmans/optipng
+Merge pull request #3344 from ihaque/remove_dup_fit
+Merge pull request #3343 from ihaque/doc_partial_fit
+Merge pull request #3333 from ogrisel/maint-skip-download-tests
+Merge pull request #3334 from ami-GS/external
+Merge pull request #3328 from ogrisel/joblib-0.8.2
+Merge pull request #3268 from jblackburne/nonrepeating_roc_thresholds
+Merge pull request #3317 from pignacio/model_persistence_doc
+Merge pull request #3256 from kastnerkyle/windows_download_helper
+Merge pull request #3318 from abhishekkrthakur/master
+Merge pull request #3308 from jnothman/ovr_constant_predict_proba
+Merge pull request #3309 from argriffing/remove-symeig
+Merge pull request #3295 from rphlypo/bootstrap_traintest
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn into bootstrap
+Merge pull request #3165 from jnothman/links_in_examples
+Merge pull request #3297 from esc/doc/random_kitchen_sink
+Merge pull request #3286 from ilam/seconddoc
+Merge pull request #3280 from larsmans/remove-hmm-docs
+Merge pull request #3102 from MechCoder/gil-enet
+Merge pull request #3250 from mjbommar/isotonic-refactor-2
+Merge branch 'pr/3263': minor fixes from the 0.15.X branch
+Merge pull request #3261 from larsmans/test-interaction-features
+Merge pull request #3260 from larsmans/cd-deprecation
+Merge pull request #3254 from laurentluce/presentations-links-fix
+Merge pull request #3239 from larsmans/faster-poly-features
+Merge pull request #3251 from ogrisel/fix-msvc-INFINITY
+Merge pull request #3240 from JelleZijlstra/fix-defaultdict
+Merge branch 'pr/3247'
+Merge pull request #3246 from ogrisel/rebased-pr-2657
+Merge pull request #3248 from MechCoder/remove_precompute_multi
+Merge pull request #3242 from ogrisel/joblib-0.8.1
+Merge pull request #2822 from AlexanderFabisch/tsne
+Merge pull request #3161 from hamsal/ada-sparse
+Merge pull request #3237 from ogrisel/travis-scipy-0.14.0
+Merge pull request #3234 from ogrisel/nosetests-exe
+Merge pull request #3231 from bwignall/quickfix-cap
+Merge pull request #3230 from bwignall/quickfix-gaussian
+Merge pull request #3176 from agramfort/omp_default
+Merge pull request #3225 from bwignall/quickfix-typo
+Merge pull request #3217 from bwignall/innerprod
+Merge pull request #3212 from ogrisel/joblib-0.8.0
+Merge pull request #3208 from staubda/improve_RFE_doc
+Merge pull request #3198 from apw/patch-1
+Merge pull request #3199 from mjbommar/isotonic-out-of-bounds-2
+Merge pull request #3200 from ugurthemaster/patch-2
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn
+Merge pull request #3197 from mjbommar/issue-3167-eradicate-todense
+Merge pull request #3157 from mjbommar/isotonic-increasing-auto
+Merge remote-tracking branch 'upstream/master' into isotonic-increasing-auto
+Merge pull request #3196 from andrewclegg/master
+Merge pull request #3193 from mjbommar/issue-3167-eradicate-todense
+Merge pull request #3169 from mjbommar/issue-3167-eradicate-todense
+Merge pull request #3192 from mmaker/master
+Merge pull request #3184 from YS-L/tfidfvectorizer_idf
+Merge pull request #3189 from ogrisel/travis-doctest
+Merge pull request #3182 from arjoly/test-forest
+Merge pull request #3178 from MechCoder/Iss3174
+Merge pull request #3156 from IvicaJovic/fixes
+Merge pull request #3154 from rajatkhanduja/fixing_examples
+Merge pull request #3152 from jdowns/lfw-conditional-import
+Merge pull request #3151 from rajatkhanduja/fixing_examples
+Merge branch 'pr/3120'
+Merge pull request #3145 from ogrisel/travis-coveralls
+Merge pull request #3140 from MechCoder/small_fixes
+Merge branch 'simplify-fselection'
+Merge pull request #3135 from ugurthemaster/patch-1
+Merge pull request #3134 from jrouly/string_values
+Merge pull request #3133 from kmike/patch-2
+Merge pull request #3127 from rmcgibbo/_fit_and_score-docstring
+Merge pull request #3104 from MechCoder/swap_sparse
+Merge pull request #3116 from eickenberg/ridge_wrong_solver_exception
+Merge branch 'pr/3091'
+Merge pull request #2936 from ugurthemaster/master
+Merge pull request #3101 from fabianp/logos
+Merge pull request #3096 from ash211/patch-1
+Merge pull request #3066 from denisgarci/agglomeration-transform-constructor
+Merge pull request #3090 from ogrisel/learning-curves-warnings
+Merge pull request #3086 from mdbecker/update_authors
+Merge pull request #3076 from msalahi/sparse-bagging-tests
+Merge pull request #3083 from sdenton4/enh_learning_curves
+Merge pull request #3067 from mdbecker/truncated_svd_calculate_explained_variance
+Merge pull request #3082 from ElDeveloper/install-link
+Merge pull request #3085 from eickenberg/update_ridge_authors
+Merge pull request #3069 from ssaeger/issue_3068
+Merge pull request #3074 from msalahi/iris-file-warnings
+Merge pull request #3078 from ndawe/examples
+Merge pull request #3063 from chalmerlowe/improved-digits-example
+Merge branch 'python-3-sphinx-fixes'
+Merge pull request #3062 from abatula/archlinux-install-doc
+Merge pull request #3070 from luispedro/fix-enet-doc
+Merge pull request #3061 from jess010/ami-docs
+Merge pull request #3059 from mdbecker/update_from_33_to_34
+Merge pull request #3056 from glouppe/tree-bestfirst
+Merge pull request #3057 from ajschumacher/patch-4
+Merge pull request #3053 from ajschumacher/patch-1
+Merge pull request #3055 from ajschumacher/patch-3
+Merge pull request #3049 from glouppe/tree-bestfirst
+Merge pull request #2952 from jnothman/future_warn_two_labels
+Merge pull request #3022 from ogrisel/travis-old-numpy-scipy
+Merge pull request #3035 from ogrisel/test-sgd-stability-error
+Merge pull request #3025 from ogrisel/remove-unstable-lobpcg-test
+Merge pull request #3030 from ogrisel/fix-lars-drop-for-good-test-failure
+Merge pull request #3017 from cgohlke/patch-2
+Merge pull request #3010 from griffinmyers/fix-select-k-best
+Merge pull request #3007 from Manoj-Kumar-S/refactor_sparsefuncs
+Merge pull request #3006 from ogrisel/fix-implicit-init-introspection
+Merge conflict in whats_new.rst
+Merge pull request #3003 from jnothman/hyperlinked_tt_colour
+Merge pull request #2982 from kmike/fix-macos-hangs
+Merge pull request #2997 from GaelVaroquaux/okcupid_testimonial
+Merge pull request #2955 from larsmans/less-blas
+Merge pull request #2991 from Manoj-Kumar-S/csr_sparse_center
+Merge pull request #2977 from arjoly/tree-cleanup
+Merge pull request #2981 from matrixorz/master
+Merge pull request #2959 from Oscarlsson/silhouette_score_label_number
+Merge pull request #2966 from maheshakya/feature_selector
+Merge pull request #2973 from pprett/datarobot-testimonial
+Merge pull request #2971 from jyu-rmn/master
+Merge pull request #2964 from abhishekkrthakur/patch-1
+Merge pull request #2951 from Manoj-Kumar-S/speed_sparse
+Merge pull request #2960 from ethanwhite/docs-typo
+Merge pull request #2958 from hamsal/check_arrays_n_dim
+Merge pull request #2938 from jnothman/clean_impute
+Merge pull request #2875 from arjoly/et-skip-invalid-
+Merge pull request #2941 from perimosocordiae/patch-1
+Merge pull request #2886 from maheshakya/dummy_regressor
+Merge pull request #2945 from maheshakya/olivetti
+Merge pull request #2943 from jyu-rmn/patch-1
+Merge pull request #2928 from ogrisel/fix-linalgerror
+Merge pull request #2931 from GaelVaroquaux/rm_solve_triangular
+Merge pull request #2929 from ajtulloch/izip-tests
+Merge pull request #2199 from GaelVaroquaux/hc_linkage
+Merge pull request #2925 from ajtulloch/izip-cross-validation
+Merge pull request #2920 from yoni/master
+Merge branch 'master' into theilsen
+Merge pull request #2917 from ariddell/patch-1
+Merge remote-tracking branch 'upstream/master' into rbmbranch
+Merge pull request #2876 from Manoj-Kumar-S/fix_auto
+Merge pull request #2910 from larsmans/hasattr-predict-proba
+Merge pull request #2909 from ogrisel/peerindex-testimonial
+Merge pull request #2897 from ugurthemaster/patch-1
+Merge pull request #2895 from kaushik94/master
+Merge pull request #2884 from dsullivan7/clusterdoc
+Merge pull request #2882 from larsmans/expit
+Merge pull request #2877 from pmandera/tfidf-citation
+Merge pull request #2869 from jperla/master
+Merge pull request #2866 from Manoj-Kumar-S/Iss2751
+Merge branch 'master' into hc_linkage
+Merge pull request #2865 from hanke/boston_13features
+Merge pull request #2864 from sciunto/doc
+Merge pull request #2829 from arjoly/maxfeatures-seamantics
+Merge pull request #2859 from eltermann/fixed-typo
+Merge pull request #2858 from ameasure/patch-1
+Merge pull request #2857 from eltermann/copyright-updated
+Merge pull request #2852 from jwkvam/adaboost_test
+Merge pull request #2750 from jnothman/no-str
+Merge pull request #2830 from eltermann/wrt-abbreviation
+Merge pull request #2840 from earino/develop
+Merge pull request #2836 from glouppe/tree-importances
+Merge pull request #2765 from AlexanderFabisch/validation_curves
+Merge pull request #2831 from eltermann/doc-typo
+Merge pull request #2827 from amueller/fix_subgradient_equation
+Merge pull request #2826 from perimosocordiae/patch-1
+Merge branch 'master' into hc_linkage
+Merge pull request #2825 from bryan-lunt/master
+Merge pull request #2818 from jnothman/flakes
+Merge pull request #2820 from ankit-maverick/issue2819
+Merge pull request #2768 from robertlayton/meanshiftdoc
+Merge pull request #2797 from cli248/fix-DeprecationWarning
+Merge remote-tracking branch 'upstream/master' into fix-DeprecationWarning
+Merge pull request #2800 from eltermann/doc-fix-tree
+Merge pull request #2799 from charlescearl/charles-label-prop-doc-updates
+Merge pull request #2747 from larsmans/tree-sort
+Merge pull request #2794 from cli248/master
+Merge pull request #2790 from jnothman/tree_without_cycles
+Merge pull request #2791 from adrinjalali/master
+Merge pull request #2789 from ugurthemaster/patch-2
+Merge pull request #2775 from stefan-w/python-3-fix
+Merge pull request #2776 from DanielWeitzenfeld/master
+Merge pull request #2782 from blagarde/patch-2
+Merge pull request #2781 from blagarde/patch-1
+Merge pull request #2780 from ugurthemaster/patch-1
+Merge pull request #2779 from jnothman/ref_sec_link
+Merge pull request #2772 from jnothman/tfidf_no_copy
+Merge pull request #2767 from GaelVaroquaux/my_master
+Merge pull request #2760 from AlexanderFabisch/check_error_patterns
+Merge pull request #2761 from ogrisel/thanks
+Merge pull request #2762 from sergiopasra/fedora-package
+Merge pull request #2732 from jnothman/two-array-tree
+Merge `fit_grid_point` into `_cross_val_score`
+Merge pull request #2756 from ogrisel/joblib-0.8.0a3
+Merge pull request #1971 from jaquesgrobler/DOC_olivier_tut
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn
+Merge pull request #2754 from eltermann/doc-fix-tfidf
+Merge pull request #2745 from arjoly/mse-criterion
+Merge pull request #2753 from pprett/gbrt-verbose-remaining-time
+Merge pull request #2744 from arjoly/test-impurity
+Merge pull request #2743 from eltermann/doc_fix
+Merge pull request #2742 from ai8rahim/issue-2741
+Merge pull request #2734 from eloj/cv-broken-format-string
+Merge pull request #2715 from larsmans/tree-malloc
+Merge pull request #2717 from Manoj-Kumar-S/test_log_loss
+Merge pull request #2570 from pprett/gbrt-enh-stackrec-greedy
+Merge branch 'master' into DOC_olivier_tut
+Merge pull request #2724 from glouppe/forest-2721
+Merge pull request #2720 from amueller/chi2_fused_types
+Merge pull request #2719 from amueller/remove_description_in_common_tests
+Merge pull request #2714 from amormachine/master
+Merge branch 'master' into gbrt-enh-stackrec-greedy
+Merge pull request #2712 from glouppe/imputer-copy
+Merge pull request #2706 from likang7/patch-2
+Merge pull request #2708 from likang7/patch-3
+Merge pull request #2702 from glouppe/imputer-copy
+Merge pull request #2710 from eshilts/DOC-load_boston
+Merge pull request #2700 from amueller/refactor_common_tests
+Merge pull request #2673 from larsmans/libsvm-310
+Merge pull request #2685 from bicycle1885/fix-oob-score
+Merge pull request #2684 from blagarde/master
+Merge pull request #2683 from blagarde/master
+Merge pull request #2674 from GaelVaroquaux/bug_ovo_string_y
+Merge pull request #9 from glouppe/gbm
+Merge pull request #2671 from agramfort/fix_f_oneway_int
+Merge pull request #2669 from GaelVaroquaux/phimeca
+Merge pull request #2660 from amueller/mbkmeans_compute_labels_fix_new
+Merge pull request #2664 from agramfort/fix_randomized_pca
+Merge pull request #2667 from kowalski87/master
+Merge pull request #2659 from jakevdp/gaussiannb_speedup
+Merge pull request #2656 from arjoly/np1.8-warnings
+Merge pull request #2651 from amueller/spotify_testimonial
+Merge pull request #2654 from arjoly/metrics-0.15
+Merge pull request #2649 from jakevdp/polynomial_doc
+Merge pull request #2653 from jaquesgrobler/remove_ellipticenvelope_deprecation
+Merge branch 'master' into gbrt-enh-stackrec-greedy
+Merge pull request #2643 from jnothman/bench_mutilabel_metrics
+Merge pull request #2647 from trein/patch-1
+Merge pull request #2642 from larsmans/rbm-speedup
+Merge pull request #2626 from jnothman/string_objects
+Merge pull request #2488 from oddskool/pred_latency
+Merge pull request #2592 from jnothman/prf_derivative_warnings
+Merge remote-tracking branch 'upstream/master' into pred_latency
+Merge pull request #2631 from pprett/fix-sgd-l1-ratio
+Merge remote-tracking branch 'upstream/master' into pred_latency
+Merge remote-tracking branch 'upstream/master' into pred_latency
+Merge pull request #2629 from arjoly/fix-auc
+Merge pull request #2460 from arjoly/auc-multilabel
+Merge pull request #2628 from dengemann/improve_ica_example
+Merge remote-tracking branch 'upstream/master' into pred_latency
+Merge pull request #8 from glouppe/gbm
+Merge pull request #2624 from dengemann/fix_dot
+Merge pull request #2541 from dengemann/fix_dot
+Merge branch 'master' into DOC_olivier_tut
+Merge pull request #7 from glouppe/gbm
+Merge commit 'fbab2cd' into gbm
+Merge pull request #2620 from jaquesgrobler/master
+Merge pull request #2617 from pprett/sgd-regressor-fix
+Merge pull request #2615 from rgommers/fix-numfocus-link
+Merge pull request #2614 from zyv/patch-1
+Merge branch 'master' into DOC_olivier_tut
+Merge branch 'master' into DOC_olivier_tut
+Merge pull request #2585 from jakevdp/polynomial
+Merge pull request #2608 from jakevdp/master
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn into prf_derivative_warnings
+Merge pull request #2583 from amueller/doc_rbf_parameters
+Merge branch 'master' into gbrt-enh-stackrec-greedy
+Merge pull request #2566 from Manoj-Kumar-S/constant-output
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge pull request #2576 from ankit-maverick/issue2560
+Merge remote-tracking branch 'upstream/master' into pred_latency
+Merge pull request #2574 from ogrisel/travis-speed
+Merge pull request #2571 from edran/readme
+Merge remote-tracking branch 'upstream/master' into pred_latency
+Merge remote-tracking branch 'upstream/master' into pred_latency
+Merge remote-tracking branch 'upstream/master' into pred_latency
+Merge pull request #2565 from change/change_org_testimonial
+Merge branch 'pr/2556'
+Merge pull request #2558 from Jorge-C/patch-1
+Merge master in hc_linkage
+Merge remote-tracking branch 'upstream/master' into pred_latency
+Merge pull request #2550 from StevenMaude/minor-typo-fixes
+Merge pull request #2543 from johncollins/dev
+Merge pull request #2524 from rmcgibbo/hmmfix
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge pull request #2546 from StevenMaude/patch-1
+Merge pull request #2536 from larsmans/rm-mlcomp-doc-class
+Merge pull request #2538 from ogrisel/test-test-common
+Merge pull request #2528 from ogrisel/tree-nogil
+Merge pull request #2533 from samuelstjean/patch-1
+Merge pull request #2517 from jaquesgrobler/simpler-collapsible-toctrees
+Merge pull request #2525 from rmcgibbo/hmmfix2
+Merge pull request #2505 from rphlypo/master
+Merge branch 'glbugfixes'
+Merge pull request #2523 from ogrisel/skip-numpy-unicode-bug
+Merge pull request #2504 from glouppe/tree-tweaks
+Merge pull request #2519 from ankit-maverick/minor_docfix
+Merge pull request #2527 from shoyer/permutation_test_score-docstring
+Merge pull request #2516 from jaquesgrobler/add-copybutton-examples
+Merge pull request #2521 from dmedri/master
+Merge pull request #2515 from jaquesgrobler/add_minutes_examples
+Merge branch 'refactor-squared-norms'
+Merge pull request #2502 from ericjster/plot_dbscan
+Merge branch 'plot_dbscan' of https://github.com/ericjster/scikit-learn into plot_dbscan
+Merge pull request #2487 from jaquesgrobler/DOC_speed_up_frontpage
+Merge pull request #2495 from jaquesgrobler/ENH_coverage_travis
+Merge pull request #2500 from ndawe/r2
+Merge pull request #2497 from dengemann/extend_fast_dot
+Merge pull request #2489 from samuela/patch-1
+Merge pull request #2479 from larsmans/website-speed
+Merge pull request #2457 from untom/rbm_csr_format
+Merge pull request #2463 from ogrisel/stratified-kfold
+Merge pull request #2442 from glouppe/tree-shuffle
+Merge pull request #2474 from glouppe/tree-tests
+Merge pull request #2469 from glouppe/tree-presort
+Merge pull request #2462 from kmike/metrics-unicode
+Merge pull request #2426 from larsmans/sgd-improvements
+Merge pull request #2222 from FedericoV/Out_of_core_example
+Merge pull request #2350 from jaquesgrobler/DOC_inria_google_logos
+Merge pull request #2438 from arjoly/tree-mem-overhead2
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into logaddexp-fix
+Merge branch 'bagging'
+Merge pull request #2278 from jnothman/prf_rewrite3
+Merge pull request #2370 from ogrisel/doc-cross-validation
+Merge pull request #2432 from jwkvam/docs_cluster
+Merge pull request #2430 from glouppe/forest-2414
+Merge pull request #2424 from sergiopasra/no-shebang
+Merge pull request #2404 from agramfort/fix_probabilitic_pca
+Merge pull request #2415 from kemaleren/skip_checkerboard
+Merge pull request #2418 from rsivapr/typo-docs
+Merge pull request #2406 from dengemann/tinker_fa
+Merge pull request #2412 from rolisz/patch-2
+Merge pull request #2411 from Balu-Varanasi/remove_unused_import
+Merge pull request #2410 from Balu-Varanasi/pep8_fixes
+Merge pull request #2210 from pgervais/distances_argmin
+Merge pull request #2394 from ndawe/export_graphviz
+Merge pull request #2396 from dengemann/insert_fast_dot
+Merge pull request #2288 from dengemann/fast_dot
+Merge branch 'hc_linkage' of github.com:GaelVaroquaux/scikit-learn into hc_linkage
+Merge pull request #2308 from pprett/gbrt-check-supported-loss
+Merge pull request #2385 from ndawe/tree
+Merge pull request #2369 from larsmans/no-warnings-in-fs
+Merge pull request #2368 from emsrc/cosine_distance
+Merge pull request #2363 from glouppe/tree-memory
+Merge pull request #2361 from rolisz/patch-1
+Merge pull request #2348 from arjoly/deprecate-auc_score
+Merge pull request #2345 from rgbkrk/patch-1
+Merge pull request #2338 from agramfort/pca_cleanup
+Merge pull request #2337 from jaquesgrobler/DOC_fix_cut_ML_flowchart
+Merge pull request #2336 from jaquesgrobler/DOC_fix_whitespace_on_userguide
+Merge pull request #2331 from jaquesgrobler/master
+Merge pull request #2290 from dengemann/more_ica_improvements
+Merge pull request #2329 from NelleV/website
+Merge pull request #2324 from arjoly/missing-contributions
+Merge branch 'pr_2304'
+Merge pull request #2295 from larsmans/fast-sigmoid
+Merge pull request #2299 from ogrisel/grid-scores
+Merge pull request #2293 from amueller/warning_input_shapes
+Merge pull request #2281 from ogrisel/improvements-to-setup-py
+Merge pull request #2280 from larsmans/randomsearch-scoring
+Merge pull request #2277 from glouppe/tree-fix-32bits
+Merge pull request #2264 from jakevdp/setup_fix
+Merge pull request #2262 from NicolasTr/fix_statistics
+Merge pull request #2258 from NicolasTr/ignore_pycharm_files
+Merge pull request #2247 from pgervais/docfixes
+Merge pull request #2241 from arjoly/grid-cv-multioutput
+Merge branch 'pr/2246'
+Merge pull request #2230 from pprett/neighbors-segfault-fix
+Merge pull request #2229 from larsmans/kernel-center-narrative
+Merge remote-tracking branch 'upstream/master'
+Merge pull request #2228 from amueller/travis_virtualenv_stuff
+Merge pull request #2223 from arjoly/doc-datasets
+Merge pull request #2194 from NicolasTr/as_float_array_copy
+Merge pull request #2175 from ogrisel/nb-partial-fit
+Merge pull request #2182 from NelleV/pls_refactor_2
+Merge pull request #2217 from vene/ica_fit_transform
+Merge pull request #2216 from glouppe/tree-doc
+Merge pull request #2213 from cmd-ntrf/master
+Merge pull request #2212 from dengemann/ica_memory
+Merge branch 'pr/1954'
+Merge pull request #2205 from jaquesgrobler/ENH_rel_canonical
+Merge pull request #2203 from agramfort/cov_doc_fix
+Merge pull request #6 from jaquesgrobler/cov_doc_fix
+Merge branch 'gbrt-oob-improvement'
+Merge pull request #2017 from jaquesgrobler/ENH_docstrings_in_gallery
+Merge pull request #2202 from NelleV/isotonic_reverse
+Merge branch 'master' into ENH_docstrings_in_gallery
+Merge pull request #2195 from erg/bug-2189
+Merge pull request #2196 from erg/labelencoder-docs-fix
+Merge pull request #2187 from FedericoV/non_negative_style
+Merge branch 'pr_2002'
+Merge remote-tracking branch 'upstream/master'
+Merge pull request #2131 from glouppe/trees-v2
+Merge pull request #2163 from ianozsvald/fix_plot_forest_iris_docs
+Merge branch 'pr_1732'
+Merge more Py3 fixes
+Merge pull request #2146 from ianozsvald/clearer_iris_decision_surfaces
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge in master
+Merge pull request #2145 from NelleV/kCCA
+Merge pull request #2142 from sergeyf/master
+Merge pull request #2140 from arjoly/ajoly-glouppe-sponsor
+Merge pull request #2138 from NelleV/kCCA
+Merge pull request #2135 from fhs/meanshift-doc
+Merge pull request #2027 from mblondel/select_categorical
+Merge pull request #2118 from NelleV/DOC_fix
+Merge pull request #2104 from kastnerkyle/master
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into select_categorical
+Merge pull request #2090 from kanielc/fix_weight
+Merge pull request #2087 from ahojnnes/examples-print-doc
+Merge pull request #2085 from agramfort/fix_y_score_fa
+Merge pull request #2082 from larsmans/empty-parameter-grid
+Merge pull request #2004 from oddskool/out-of-core-examples
+Merge branch 'master' of git://github.com/scikit-learn/scikit-learn into out-of-core-examples
+Merge pull request #2054 from ogrisel/invalid-n-folds
+Merge pull request #2080 from ahojnnes/dist-todo
+Merge pull request #2076 from pprett/dbscan-doc-enh
+Merge pull request #2074 from jnothman/ward_docstring
+Merge remote-tracking branch 'upstream/master' into dbscan-doc-enh
+Merge pull request #2075 from jnothman/agglomeration_simplify
+Merge branch 'master' of git://github.com/scikit-learn/scikit-learn into out-of-core-examples
+Merge pull request #2071 from djv/patch-1
+Merge pull request #2067 from jnothman/test_binarizer
+Merge branch 'master' of git://github.com/scikit-learn/scikit-learn into out-of-core-examples
+Merge pull request #2055 from jnothman/cv_refactor
+Merge pull request #1716 from larsmans/truncated-svd
+Merge pull request #2056 from jnothman/leavepout_clarify
+Merge pull request #1914 from fabianp/ridge_svd
+Merge pull request #2031 from jnothman/tree_comments
+Merge remote-tracking branch 'upstream/master' into pr/2016
+Merge pull request #2005 from kmike/test_pipeline_methods_preprocessing_svm
+Merge pull request #1996 from jaquesgrobler/DOC_sprint_sponser_banner
+Merge pull request #1998 from kgeis/fix-setup-instruction
+Merge branch 'tutorial' into DOC_olivier_tut
+Merge pull request #1986 from jaquesgrobler/DOC_reference_fixes
+Merge branch 'tutorial'
+Merge pull request #7 from jhale/new_ball_tree
+Merge pull request #1880 from NicolasTr/patch_extractor_float_max_patches
+Merge pull request #1935 from jnothman/base_filter_inv_transform
+Merge pull request #1944 from jnothman/selectpercentile_limit_bug
+Merge pull request #1911 from Jim-Holmstroem/generalize_label_type_for_confusion_matrix
+Merge pull request #1924 from jaquesgrobler/FIX_sidebar_on_index_page
+Merge pull request #1884 from jaquesgrobler/ml_map
+Merge pull request #1913 from Jim-Holmstroem/refactored_precision_recall_fscore_support_to_count_with_integer_type
+Merge pull request #1907 from aflaxman/stratified_shuffle_split_rand_state_doc_str
+Merge pull request #1893 from dougalsutherland/sgd-docs
+Merge pull request #1886 from NelleV/DOX_fix
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge pull request #1581 from jaquesgrobler/example_gallery_cleanup
+Merge pull request #1852 from slattarini/typofixes
+Merge pull request #1836 from kmike/master
+Merge pull request #1839 from amueller/dbscan_example
+Merge pull request #1823 from erg/issue-1466
+Merge pull request #1816 from ndawe/master
+Merge pull request #1812 from kmike/testing-fixes
+Merge branch 'master' into pr/1798
+Merge pull request #1804 from AlexanderFabisch/fix_example_path
+Merge pull request #1803 from kmike/hmm
+Merge branch 'pr/1790' -- Python 3 support from PyCon sprint
+Merge pull request #1773 from jnothman/prf_docstring
+Merge pull request #1772 from jnothman/comment_exhaustive_search
+Merge pull request #1767 from rmcgibbo/balltree_docstring
+Merge pull request #1758 from larsmans/kernelpca-fix
+Merge pull request #1753 from NelleV/FIX
+Merge pull request #1741 from arjoly/metrics-fix-np-1.3
+Merge pull request #1740 from tjanez/move_roc_curve_test
+Merge pull request #1736 from jamestwebber/patch-1
+Merge pull request #1712 from glouppe/tree-maxfeatures
+Merge pull request #1730 from arjoly/doc-feature-selection
+Merge pull request #1726 from agramfort/round_kfold
+Merge pull request #1727 from amueller/min_max_scaler_fix
+Merge pull request #1713 from larsmans/vectorizer-memory-use
+Merge branch 'sparse-coef'
+Merge pull request #1705 from glouppe/tree-fix
+Merge pull request #1700 from erg/rf
+Merge pull request #1695 from mrjbq7/issue-1694
+Merge branch 'master' into gbrt-deviance-fix
+Merge pull request #1688 from hrishikeshio/fit_transform
+Merge branch 'master' into gbrt-deviance-fix
+Merge pull request #1524 from amueller/break_ovo_ties
+Merge pull request #1668 from glouppe/adaboost-tree
+Merge pull request #1660 from rlmv/fe_tests
+Merge pull request #1657 from glouppe/feature-importances
+Merge pull request #1656 from rlmv/idf_diag
+Merge branch 'treeweights'
+Merge pull request #1644 from jaquesgrobler/doc_url_error
+Merge pull request #29 from glouppe/adaboost
+Merge pull request #28 from glouppe/adaboost
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge pull request #27 from glouppe/adaboost
+Merge pull request #1607 from agramfort/reconstruction_err_nmf_sparse
+Merge pull request #26 from glouppe/adaboost
+Merge pull request #1576 from mrorii/fix_kneighbors
+Merge branch 'master' into gbrt-deviance-fix
+Merge pull request #25 from glouppe/adaboost
+Merge pull request #1604 from darkrho/doc-linear-model-typo
+Merge remote-tracking branch 'upstream/master' into treeweights
+Merge pull request #1598 from amueller/naive_bayes_class_prior_rename_revert
+Merge pull request #1529 from vene/lgamma_port
+Merge pull request #1592 from jaquesgrobler/master
+Merge pull request #24 from glouppe/adaboost
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into adaboost
+Merge pull request #1582 from ApproximateIdentity/doc-n_jobs-parallel
+Merge pull request #1578 from zaxtax/elastic_documentation
+Merge pull request #1577 from ApproximateIdentity/n_jobs-documentation
+Merge pull request #23 from glouppe/adaboost
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into adaboost
+Merge branch 'master' into lgamma_port
+Merge pull request #22 from glouppe/adaboost
+Merge pull request #1563 from kuantkid/sparse_knn_graph
+Merge pull request #21 from glouppe/adaboost
+Merge pull request #20 from glouppe/adaboost
+Merge pull request #1564 from jaquesgrobler/contributor_guide_links
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into adaboost
+Merge pull request #1536 from kyleabeauchamp/issue-1403
+Merge pull request #1561 from kyleabeauchamp/MinMaxScaler_Inverse
+Merge pull request #1562 from kmike/master
+Merge pull request #1556 from larsmans/cython-cleanup
+Merge pull request #1530 from agramfort/doc_lasso
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge pull request #1517 from amueller/lda_qda_cleanup
+Merge pull request #1505 from NelleV/mds
+Merge pull request #1504 from NelleV/isotonic
+Merge pull request #1483 from aweinstein/fix_doc_example
+Merge pull request #1465 from AWinterman/issue-1017
+Merge pull request #1470 from kuantkid/fix_spectral_cluster_test
+Merge pull request #1451 from amueller/chunksize_batchsize_rename
+Merge pull request #1478 from amueller/pep8
+Merge pull request #1468 from erg/random-failures-12345
+Merge pull request #1458 from seberg/contig_strides
+Merge pull request #1388 from arjoly/issue1047_gradient_boosting_uses_decision_trees
+Merge pull request #9 from benjaminwilson/master
+Merge pull request #1445 from glouppe/tree-shape
+Merge pull request #1441 from kuantkid/fix_spectral_test
+Merge pull request #1440 from amueller/matplotlib_requirement
+Merge remote-tracking branch 'upstream/master'
+Merge branch 'master' into gbrt-interactions
+Merge pull request #1429 from tnunes/fix_pipeline_fit_transform
+Merge pull request #1430 from erg/issue-1407
+Merge pull request #1428 from tnunes/feature_union_fit_transform
+Merge branch 'master' into gbrt-interactions
+Merge branch 'master' into gbrt-interactions
+Merge branch 'master' into gbrt-random-state-fix
+Merge remote-tracking branch 'upstream/master' into gbrt-interactions
+Merge pull request #1424 from jaquesgrobler/plot_omg_fix
+Merge pull request #1425 from arjoly/enh_bench_covertype
+Merge pull request #1408 from satra/fix/rebase1396
+Merge pull request #1418 from kuantkid/archlinux
+Merge pull request #1415 from SnippyHolloW/travis
+Merge https://github.com/scikit-learn/scikit-learn into travis
+Merge pull request #1372 from jaquesgrobler/doc-fix-dev_guide
+Merge branch 'master' into gbrt-interactions
+Merge branch 'master' into pr/1409
+Merge pull request #1397 from SnippyHolloW/travis
+Merge https://github.com/scikit-learn/scikit-learn
+Merge pull request #1373 from mblondel/random_clf
+Merge pull request #1382 from mblondel/add_intercept
+Merge branch 'master' into gbrt-interactions
+Merge pull request #909 from larsmans/hashing-trick
+Merge pull request #1374 from jakevdp/doc_GA_flag
+Merge branch 'master' into gbrt-interactions
+Merge pull request #1366 from agramfort/move_isotonic
+Merge pull request #1369 from AlexandreAbraham/fix_doc_clean
+Merge pull request #1367 from fannix/master
+Merge branch 'master' of https://github.com/jaquesgrobler/scikit-learn into fix_doc_clean
+Merge pull request #1361 from astaric/py3k
+Merge pull request #1279 from amueller/one_hot_encoder
+Merge branch 'master' into gbrt-interactions
+Merge pull request #1335 from robertlayton/clustdocs
+Merge branch 'master' into gbrt-interactions
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' into gbrt-interactions
+Merge branch 'larsmans_pr' into one_hot_encoder
+Merge pull request #1344 from mattilyra/CountVectorizer.decode
+Merge branch 'master' into gbrt-interactions
+Merge branch 'master' into pr/1279
+Merge pull request #1331 from jaquesgrobler/master
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'sgd_learners' of https://github.com/zaxtax/scikit-learn into passive_aggressive
+Merge pull request #1320 from dnouri/test_coverage
+Merge pull request #1323 from dnouri/countvectorizer_doc_1154
+Merge pull request #1290 from tjanez/master
+Merge pull request #1292 from aymas/pass_rng_kmeans_gmm
+Merge remote-tracking branch 'upstream/master' into gbrt-interactions
+Merge remote-tracking branch 'upstream/master'
+Merge branch 'master' into gbrt-interactions
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge pull request #1269 from mrjbq7/doc-fixes
+Merge branch 'master' into gbrt-interactions
+Merge branch 'master' into gbrt-interactions
+Merge pull request #1263 from glouppe/fix-1254
+Merge pull request #1266 from cdeil/patch-1
+Merge branch 'master' into gbrt-interactions
+Merge branch 'master' into gbrt-interactions
+Merge exthmath tests into the same file.
+Merge branch 'master' into gbrt-interactions
+Merge remote-tracking branch 'upstream/master' into pr/975
+Merge branch 'master' into pr/975
+Merge branch 'pr/1214'
+Merge remote-tracking branch 'origin/pr/1234'
+Merge pull request #1237 from kalaidin/typos
+Merge branch 'master' into gbrt-interactions
+Merge pull request #1204 from larsmans/mi-feature-selection
+Merge pull request #1223 from ibayer/master
+Merge pull request #1215 from amueller/pipeline_muliclass
+Merge pull request #1211 from kcarnold/gitattributes
+Merge pull request #1208 from larsmans/check-empty-vocabulary
+Merge pull request #1197 from glouppe/master
+Merge pull request #1187 from ogrisel/bugfix-logistic-ovr-probabilities
+Merge pull request #1189 from fabianp/svmlight
+Merge pull request #1193 from larsmans/dictvectorizer-csr
+Merge pull request #1182 from fabianp/svmlight
+Merge pull request #1169 from larsmans/ridge-cg
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge pull request #1144 from glouppe/tree-malloc
+Merge pull request #1143 from larsmans/refactor-liblinear
+Merge pull request #1141 from pprett/sgd-predict-proba
+Merge pull request #1015 from vene/cov-speedup
+Merge pull request #1138 from fabianp/doc_float
+Merge remote-tracking branch 'upstream/master' into sgd-clone-fix
+Merge pull request #1110 from buma/predict_proba_doc
+Merge pull request #1109 from buma/predict_proba_doc
+Merge branch 'master' into sgd-yshape-fix
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' into mixins
+Merge pull request #1100 from NelleV/makefile
+Merge branch 'master' into mixins
+Merge pull request #1094 from ibayer/warnings
+Merge pull request #1068 from amueller/grid_search_cleanup
+Merge branch 'sgd-predict-proba'
+Merge branch 'master' into sgd-predict-proba
+Merge pull request #1009 from amueller/one_class_check
+Merge pull request #1078 from buguen/docs
+Merge pull request #1077 from ludwigschwardt/minor-fixes
+Merge pull request #1075 from jaquesgrobler/master
+Merge branch 'fit_pairwise'
+Merge pull request #1063 from welinder/peter-dev
+Merge branch 'master' into peter-dev
+Merge pull request #1049 from fsav/c-docstring-patch
+Merge pull request #1046 from TimSC/master
+Merge pull request #1045 from agramfort/fix/as_float_array
+Merge pull request #1039 from jakevdp/lle-test-fix
+Merge pull request #1043 from jaquesgrobler/master
+Merge pull request #991 from jakevdp/doc-update
+Merge pull request #1000 from amueller/qda_lda_1000
+Merge pull request #995 from kernc/CountVectorizer_analyzer_char_nospace
+Merge branch 'qda_lda_1000' of github.com:amueller/scikit-learn into qda_lda_1000
+Merge remote-tracking branch 'jakevdp/vene-cov-speedup' into cov-speedup
+Merge remote-tracking branch 'VirgileFritsch/cov-speedup' into cov-speedup
+Merge branch 'master' into cov-speedup
+Merge branch 'cov-speedup' of git://github.com/vene/scikit-learn into vene-cov-speedup
+Merge pull request #1013 from amueller/auc_score
+Merge branch 'cov-speedup' of https://github.com/vene/scikit-learn into cov-speedup
+Merge pull request #1008 from mrjbq7/doc-fixes
+Merge pull request #1005 from NelleV/MDS
+Merge pull request #1001 from serch/master
+Merge branch 'master' into fit_pairwise
+Merge branch 'master' into fit_pairwise
+Merge pull request #983 from GaelVaroquaux/faster_ward
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'linking_arrayfuncs'
+Merge pull request #1 from cournape/linking_arrayfuncs
+Merge pull request #955 from vene/mem_prof
+Merge pull request #886 from amueller/multiclass_always_present
+Merge pull request #974 from jaquesgrobler/master
+Merge branch 'master' into tree-y-float64
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn
+Merge pull request #971 from acompa/master
+Merge pull request #969 from jaquesgrobler/master
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn
+Merge pull request #946 from glouppe/tree-speedup
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge pull request #956 from Carreau/patch-1
+Merge pull request #953 from jaquesgrobler/nature_css_addons
+Merge branch 'tree-speedup' of github.com:glouppe/scikit-learn into tree-speedup
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into tree-speedup
+Merge pull request #950 from mrjbq7/trees
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into tree-speedup
+Merge pull request #948 from mrjbq7/trees
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into tree-speedup
+Merge pull request #945 from cpa/master
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into tree-speedup
+Merge pull request #938 from ogrisel/svmlight-double-precision
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into tree-speedup
+Merge pull request #923 from glouppe/tree-mo
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into tree-mo
+Merge branch 'gbrt-huber'
+Merge pull request #3 from bdholt1/glouppe-tree-mo
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into tree-mo
+Merge pull request #932 from jaquesgrobler/master
+Merge remote branch 'upstream/master' into gbrt-huber
+Merge pull request #928 from yarikoptic/master
+Merge branch 'master' into gbrt-huber
+Merge pull request #926 from agramfort/fix_X_list_grid_search
+Merge remote branch 'upstream/master' into gbrt-huber
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into tree-mo
+Merge pull request #921 from fhoeni/scaler_bugfix
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into tree-mo
+Merge pull request #893 from amueller/common_test
+Merge branch 'master' into gbrt-huber
+Merge branch 'master' into gbrt-huber
+Merge branch 'master' into fit_pairwise
+Merge pull request #914 from alexis-mignon/master
+Merge pull request #894 from amueller/svm_sparse_dense
+Merge remote branch 'upstream/master' into gbrt-huber
+Merge branch 'master' into gbrt-huber
+Merge pull request #900 from kernc/neighbors_predict_proba
+Merge pull request #891 from ibayer/merge_cd
+Merge pull request #892 from ibayer/fix_mldata_docstring
+Merge pull request #875 from AlexandreAbraham/ward_coo_bug
+Merge branch 'merge_cd' of https://github.com/ibayer/scikit-learn into merge_cd
+Merge pull request #889 from vene/generate-multitarget
+Merge pull request #876 from alexis-mignon/master
+Merge pull request #888 from jaquesgrobler/master
+Merge pull request #887 from danohuiginn/master
+Merge pull request #881 from amueller/fix_ica_components_rename
+Merge pull request #868 from larsmans/liblinear-1.91
+Merge pull request #776 from amueller/normalized_mutual_information
+Merge pull request #877 from duckworthd/master
+Merge remote-tracking branch 'upstream/master'
+Merge pull request #858 from amueller/fastica_components_rename
+Merge pull request #874 from temporaer/master
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn into merge_cd
+Merge pull request #873 from vene/remove_sc_warning
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge pull request #872 from jaquesgrobler/master
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn
+Merge pull request #869 from pprett/pls-scale-by-zero
+Merge branch 'master' into gbrt-huber
+Merge branch 'master' into gbrt-huber
+Merge pull request #851 from duckworthd/master
+Merge remote branch 'upstream/master'
+Merge pull request #847 from kwgoodman/master
+Merged svm parameter selection visualization
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'sgd_losses' of github.com:mblondel/scikit-learn into sgd_losses
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'install-windows' of https://github.com/vene/scikit-learn
+Merge pull request #812 from amueller/pipeline_decision_function
+Merge pull request #802 from amueller/arpack_backports
+Merge pull request #813 from invisibleroads/patch-1
+Merge pull request #814 from invisibleroads/master
+Merge pull request #809 from zaxtax/master
+Merge pull request #800 from amueller/less_neighbors_warnings
+Merge pull request #796 from amueller/kmeans_dtype
+Merge pull request #783 from dwf/svm_docs_minor
+Merge pull request #782 from jaquesgrobler/Update_Changelog
+Revert "Merge pull request #773 from amueller/forest_pre_dispatch"
+Merge pull request #756 from larsmans/svmlight_fix
+Merge pull request #770 from amueller/oblivious_grid_search
+Merge pull request #729 from larsmans/fit-predict
+Merge pull request #773 from amueller/forest_pre_dispatch
+Merge branch 'fix-issue-762'
+Merge pull request #761 from glouppe/master
+Merge pull request #747 from ibayer/posCoeff
+Merge pull request #1 from agramfort/posCoeff
+Merge pull request #742 from davidmarek/pdistance
+Merge pull request #748 from ogrisel/hmm-test-hierarchy-simplification
+Merge pull request #751 from jaquesgrobler/master
+Merge pull request #741 from ogrisel/sorted-dictvectorizer
+Merge branch 'gradient-boosting-enh2'
+Merge branch 'nearest_centroids' of https://github.com/robertlayton/scikit-learn into nearest_centroids
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge pull request #736 from paolo-losi/bench_covtype
+Merge pull request #5 from larsmans/nearest_centroids
+Merge branch 'master' of https://github.com/udi/scikit-learn into udi-master
+Merge pull request #733 from jaquesgrobler/master
+Merge remote-tracking branch 'origin/nearest_centroids' into nearest_centroids
+Merge pull request #730 from jaquesgrobler/rename_EllipticEnvelope
+Merge pull request #728 from satra/fix/f_regression
+Merge branch 'WIP_tut'
+Merge pull request #726 from emmanuelle/doc_correction
+Merge pull request #648 from amueller/linear_model_class_weights
+Merge pull request #707 from amueller/graphviz_dot_refactoring
+Merge pull request #717 from jaquesgrobler/Issue714
+Merge branch 'combat' of https://github.com/ibayer/scikit-learn into lsqr_fix
+Merge branch 'shuffle_kfold' of https://github.com/NelleV/scikit-learn into kfold-shuffle
+Merge branch 'master' into gradient_boosting
+Merge branch 'master' into WIP_tut
+Merge pull request #714 from jaquesgrobler/Next_button
+Merge pull request #705 from agramfort/fix_ica
+Merge pull request #709 from ibayer/cleanExamples
+Merge pull request #685 from ibayer/master
+Merge remote branch 'upstream/master' into gradient_boosting
+Merge branch 'pprett/gradient_boosting' of https://github.com/glouppe/scikit-learn into glouppe-pprett/gradient_boosting
+Merge pull request #712 from agramfort/fix_y_center
+Merge pull request #711 from davidmarek/sparse_pca
+Merge branch 'master' into gradient_boosting
+Merge remote branch 'upstream/master' into sgd-weight-vector
+Merge branch 'dictvectorizer'
+Merge remote branch 'upstream/master' into gradient_boosting
+Merge pull request #693 from jaquesgrobler/Collapse_Sidebar
+Merge pull request #699 from njwilson/issue-250
+Merge pull request #698 from njwilson/master
+Merge pull request #696 from njwilson/issue-691
+Merge pull request #695 from njwilson/tmp-dir-for-cache
+Merge pull request #692 from njwilson/minor-doc-fixes
+Merge pull request #694 from njwilson/skip-kmeans-2-jobs-mac
+Merge branch 'master' of github.com:amueller/scikit-learn
+Merge remote branch 'upstream/master' into gradient_boosting
+Merge branch 'hmmc'
+Merge pull request #668 from ogrisel/text-feature-extraction-simplification
+Merge remote-tracking branch 'origin/master' into WIP_tut
+Merge branch 'gradient_boosting' into scottblanc-gradient_boosting
+Merge branch 'gradient_boosting' of https://github.com/scottblanc/scikit-learn into scottblanc-gradient_boosting
+Merge branch 'master' into gradient_boosting
+Merge branch 'master' into sgd-weight-vector
+Merge branch 'master' into sgd-weight-vector
+Merge branch 'master' into gradient_boosting
+Merged a few examples into the example pool
+Merged some examples into examples folder. - updated links accordingly - renamed miss-spelt excercice to exercise
+Merge pull request #684 from clayw/graphviz-fix
+Merge remote-tracking branch 'upstream/master'
+Merge remote-tracking branch 'origin/master' into WIP_tut
+Merge branch 'master' into sgd-weight-vector
+Merge branch 'master' into text-feature-extraction-simplification
+Merge pull request #2 from GaelVaroquaux/hmmc
+Merge pull request #679 from amueller/logistic_l1_l2_sample
+Merge branch 'master' into text-feature-extraction-simplification
+Merge remote-tracking branch 'upstream/master' into text-feature-extraction-simplification
+Merge pull request #674 from amueller/sample_datasets
+Merge remote-tracking branch 'upstream/master' into text-feature-extraction-simplification
+Merge pull request #673 from amueller/crammer_singer_rename
+Merge branch 'master' into sample_datasets
+Merge pull request #669 from amueller/example_gallery_css
+Merge remote-tracking branch 'upstream/master' into text-feature-extraction-simplification
+Merge pull request #649 from daien/GridSearchCV_precomputed_kernel
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into text-feature-extraction-simplification
+Merge branch 'master' into linear_model_class_weights
+Merge branch 'master' into gradient_boosting
+Merge remote-tracking branch 'origin/master' into WIP_tut
+Merge pull request #664 from conradlee/663-kfold-init-bug
+Merge pull request #660 from amueller/remove_namespaces
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge pull request #654 from GaelVaroquaux/enet_cv
+Merge branch 'master' into WIP_tut
+Merge pull request #643 from amueller/forest_logging
+Merge pull request #641 from amueller/doc_fixes
+Merge pull request #610 from amueller/svm_class_weights
+Merge branch 'master' into svm_class_weights
+Merge pull request #634 from amueller/svm_decision_function_dirty_fix
+Merge pull request #637 from fannix/fix
+Merge pull request #603 from jakevdp/GPML-fixes
+Merge pull request #633 from robertlayton/ig
+Merge pull request #627 from amueller/min_leaf_cherrypick
+Merge branch 'master' into WIP_tut
+Merge branch 'master' into svm_class_weights
+Merge pull request #628 from daien/master
+Merge pull request #620 from amueller/coordinate_decent_alpha_warning
+Merge remote branch 'upstream/master' into sgd-refactoring
+Merge pull request #623 from npinto/ridge-docfix
+Merge remote branch 'upstream/master' into sgd-refactoring
+Merge pull request #601 from agramfort/scale_C_true
+Merge pull request #618 from ogrisel/train_test_split
+Merge remote-tracking branch 'origin/master' into WIP_tut
+Merge pull request #578 from jakevdp/old-version-warning
+Merge pull request #6 from amueller/old-version-warning
+Merge pull request #613 from bwhite/patch-1
+Merge branch 'master' into sgd-refactoring
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' into gradient_boosting
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into gmm-fixes
+Merge branch 'WIP_tut', remote-tracking branch 'gaelVaroqueux/stat_tutorial' into WIP_tut
+Merge commit 'upstream/master' into GPML-fixes
+Merge branch 'label-propagation'
+Merge branch 'master' into gradient_boosting
+Merge remote branch 'upstream/master'
+Merge remote branch 'upstream/master' into gradient_boosting
+Merge pull request #602 from jaquesgrobler/doc_remotes_note
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge remote branch 'upstream/master' into gradient_boosting
+Merge branch 'perceptron' of github.com:mblondel/scikit-learn into perceptron
+Merge pull request #546 from amueller/svm_coef_sign
+Merge commit 'upstream/master' into old-version-warning
+Merge pull request #588 from jakevdp/balltree-fix
+Merge branch 'master' into svm_coef_sign
+Merge pull request #593 from jaquesgrobler/doc_update
+Merge pull request #576 from larsmans/merge-svms
+Merge pull request #591 from jaquesgrobler/doc_update
+Merge pull request #443 from satra/enh/metrics
+Merge remote-tracking branch 'mblondel/metrics' into enh/metrics
+Merge remote-tracking branch 'upstream/master' into enh/metrics
+Merge branch 'enh/metrics' of https://github.com/satra/scikit-learn into metrics
+Merge pull request #587 from jakevdp/arpack-init
+Merge commit 'upstream/master'
+Merge branch 'master' into gradient_boosting
+Merge remote-tracking branch 'larsmans/typesafe-murmurhash'
+Merge pull request #571 from amueller/tree_indices
+Merge branch 'warm_start'
+Merge branch 'warm_start' of github.com:mblondel/scikit-learn into warm_start
+Merge branch 'master' into gradient_boosting
+Merge pull request #564 from ogrisel/murmurhash
+Merge pull request #561 from larsmans/merge-linearsvcs
+Merge branch 'master' into merge-linearsvcs
+Merge branch 'sgd_partial_fit'
+Merge pull request #11 from larsmans/sgd_partial_fit
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge pull request #3 from GaelVaroquaux/murmurhash
+Merge pull request #10 from larsmans/sgd_partial_fit
+Merge branch 'master' into svm_coef_sign
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge dense and sparse SGD implementations.
+Merge pull request #551 from fannix/master
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn into label-propagation
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn
+Merge branch 'larsmans-label-propagation'
+Merge branch 'master' into old-gradient-boosting
+Merge branch 'sgd-fortran-layout'
+Merge branch 'omp-zerofix'
+Merge pull request #1 from agramfort/hmmc
+Merge pull request #541 from ogrisel/immutable-readonly-coef
+Merge pull request #537 from amueller/gaussian_nb_underscore
+Merge pull request #526 from amueller/ball_tree_skip_doctests
+Merge branch 'tree-feature-importance' into old-gradient-boosting
+Merge pull request #532 from amueller/grid_search_attributes
+Merge pull request #529 from eickenberg/doc_fix
+Merge pull request #528 from glouppe/issue349
+Merge remote-tracking branch 'upstream/master' into issue349
+Merge pull request #527 from otizonaizit/master
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge pull request #523 from glouppe/tree-doc
+Merge pull request #521 from lucidfrontier45/master
+Merge remote branch 'upstream/master'
+Merge pull request #513 from amueller/doc_underscores_for_real
+Merge pull request #491 from glouppe/parallel-forest
+Merge remote-tracking branch 'upstream/master' into parallel-forest
+Merge pull request #519 from ogrisel/subsampling-shufflesplit
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'parallel-forest' of github.com:glouppe/scikit-learn into parallel-forest
+Merge pull request #2 from ogrisel/glouppe-parallel-forest
+Merge remote-tracking branch 'upstream/master' into parallel-forest
+Merge pull request #478 from glouppe/tree
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn into doc_underscores_for_real
+Merge remote-tracking branch 'upstream/master' into tree
+Merge pull request #515 from ogrisel/sparse-scaler
+Merge remote-tracking branch 'upstream/master' into tree
+Merge branch 'master' into sparse-scaler
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into gmm-fixes
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' into sparse-scaler
+Merge branch 'master' into sparse-scaler
+Merge commit 'upstream/master'
+Merge pull request #501 from jakevdp/dataset-fix
+Merge pull request #512 from amueller/doc_consitency
+Merge pull request #507 from jakevdp/neighbors-check
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn
+Merge pull request #510 from amueller/aaarrrgghhh
+Merge pull request #417 from larsmans/multilabel
+Merge pull request #504 from jakevdp/sphinx-images
+Merge remote-tracking branch 'vene/lars_multilabel' into multilabel
+Merge pull request #488 from mblondel/sparse-kmeans
+Merge with master.
+Merge branch 'master' into sparse-kmeans
+Merge pull request #490 from mblondel/news20_loader
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn into minibatch-kmeans-optim
+Merge commit 'upstream/master' into dataset-fix
+Merge branch 'master' into multilabel
+Merge pull request #486 from jakevdp/util-docs
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn into minibatch-kmeans-optim
+Merge commit 'upstream/master' into util-docs
+Merge commit 'upstream/master' into util-docs
+Merge branch 'master' into minibatch-kmeans-optim
+Merge pull request #495 from vene/sc-mixin
+Merge branch 'minibatch-kmeans-optim' of https://github.com/ogrisel/scikit-learn into minibatch-kmeans-optim
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn
+Merge branch 'master' into sc-example
+Merge pull request #493 from amueller/kernel_approximation_doc
+Merge branch 'master' into minibatch-kmeans-optim
+Merge pull request #2 from mblondel/multilabel
+Merge pull request #8 from larsmans/news20_loader
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn
+Merge pull request #456 from vene/sparse-coder
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn into sparse-coder
+Merge multilabel branch with master.
+Merge branch 'master' into sparse-coder
+Merge pull request #4 from glouppe/dev-doc
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn
+Merge branch 'example-fix'
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn
+Merge branch 'master' into minibatch-kmeans-optim
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn
+Merge pull request #482 from DraXus/master
+Merge branch 'master' into sparse-coder
+Merge branch 'master' into minibatch-kmeans-optim
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn
+Merge pull request #481 from mblondel/mean_var2
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn
+Merge branch 'master' into n_samples_scaling
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn
+Merge pull request #477 from jakevdp/gmm-fix
+Merge branch 'master' into sparse-coder
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn
+Merge pull request #475 from amueller/datasets_doctests
+Merge remote-tracking branch 'upstream/master'
+Merge pull request #473 from amueller/dataset_whitespace
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge pull request #465 from amueller/fastica_wowhiten
+Merge pull request #471 from amueller/linnerud_renaming
+Merge remote-tracking branch 'origin/master' into n_samples_scaling
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge pull request #469 from amueller/preprocessing_epsilon_doctest
+Merge pull request #467 from Balu-Varanasi/pep8-compliant
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn
+Merge pull request #466 from amueller/svm_iris_example
+Merge branch 'master' into n_samples_scaling
+Merge branch 'master' into enh/metrics
+Merge pull request #464 from NelleV/FIX_bibtex
+Merge pull request #463 from npinto/patch-2
+Merge pull request #461 from Balu-Varanasi/bug_in_rst_file
+Merge remote branch 'upstream/master' into gradient_boosting
+Merge branch 'master' into sparse-coder
+Merge pull request #452 from glouppe/doc
+Merge pull request #453 from yarikoptic/master
+Merge remote-tracking branch 'upstream/master'
+Merge pull request #396 from VirgileFritsch/refactor_mcd
+Merge with Gael's glasso changes.
+Merge branch 'master' into gradient_boosting
+Merge remote-tracking branch 'upstream/master'
+Merge remote-tracking branch 'upstream/master'
+Merge branch 'master' into gradient_boosting
+Merge remote-tracking branch 'upstream/master'
+Merge branch 'master' into enh/metrics
+Merge pull request #439 from glouppe/ensemble-rebased
+Merge remote branch 'upstream/master'
+Merge remote-tracking branch 'upstream/master'
+Merge pull request #447 from amueller/pep8
+Merge pull request #1 from ogrisel/glouppe-ensemble-rebased
+Merge pull request #446 from larsmans/svmlight-loader-memory-use
+Merge branch 'master' into gradient_boosting
+Merge remote branch 'upstream/master'
+Merge remote-tracking branch 'upstream/master' into ensemble-rebased
+Merge branch 'master' into minibatch-kmeans-optim
+Merge branch 'master' into gradient_boosting
+Merge remote-tracking branch 'upstream/master' into ensemble-rebased
+Merge remote-tracking branch 'upstream/master'
+$Merge branch 'master' into n_samples_scaling
+Merge branch 'tree-array-repr'
+Merge branch 'tree-array-repr'
+Merge pull request #402 from robertlayton/ami
+Merge remote-tracking branch 'upstream/master'
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn into ami
+Merge branch 'ami' of https://github.com/robertlayton/scikit-learn into ami
+Merge pull request #432 from glouppe/tree
+Merge remote-tracking branch 'upstream/master'
+Merge remote-tracking branch 'origin/master' into tree
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn into ami
+Merge branch 'master' into minibatch-kmeans-optim
+Merge branch 'master' into minibatch-kmeans-optim
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn
+Merge pull request #425 from amueller/svm_cache_size
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn into ami
+Merge branch 'master' into minibatch-kmeans-optim
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge remote-tracking branch 'upstream/master'
+Merge pull request #410 from larsmans/accept-matrix-input
+Merge branch 'master' into minibatch-kmeans-optim
+Merge pull request #3 from ogrisel/robertlayton-ami
+Merge remote-tracking branch 'robertlayton/ami' into robertlayton-ami
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge pull request #414 from amueller/grid_search_verbosity
+Merge pull request #408 from vene/omp_bug
+Merge branch 'ami' of github.com:robertlayton/scikit-learn into ami
+Merge branch 'master' into ami
+Merge branch 'master' into omp_bug
+Merge pull request #407 from amueller/sgd_url_typo
+Merge branch 'omp-bug-test' into omp_bug
+Merge branch 'omp-bug-test' into omp_bug
+Merge pull request #404 from amueller/grid_search_doc
+Merge branch 'master' into omp_bug
+Merge pull request #400 from amueller/docs_typo
+Merge remote-tracking branch 'upstream/master'
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn
+Merge remote-tracking branch 'upstream/master'
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge remote-tracking branch 'upstream/master'
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into enh/ensemble
+Merge pull request #23 from larsmans/enh/ensemble
+Merge branch 'fix-split-sample-mask' of https://github.com/TimSC/scikit-learn into TimSC-fix-split-sample-mask
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into enh/ensemble
+Merge branch 'master' into tree
+Merge pull request #364 from robertlayton/silhouette
+Merge pull request #22 from ogrisel/bdholt1-enh-tree
+Merge remote-tracking branch 'bdholt1/enh/tree' into bdholt1-enh-tree
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge pull request #383 from bdholt1/svm-mem-leak2
+Merge pull request #377 from larsmans/sparse-nmf
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into enh/tree
+Merge remote-tracking branch 'bdholt1/enh/tree' into bdholt1-enh-tree
+Merge pull request #375 from VirgileFritsch/mcd
+Merge branch 'mcd' of github.com:VirgileFritsch/scikit-learn into mcd
+Merge pull request #381 from satra/doc/permutation
+Merge remote-tracking branch 'bdholt1/enh/tree' into bdholt1-enh-tree
+Merge remote-tracking branch 'upstream/master' into silhouette
+Merge remote branch 'upstream/master'
+Merge pull request #376 from fabianp/fast_tests
+Merge remote branch 'upstream/master'
+Merge pull request #373 from larsmans/svmlight
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge pull request #21 from glouppe/tree
+Merge pull request #357 from larsmans/overwrite-to-copy
+Merge remote-tracking branch 'bdholt1/enh/tree' into tree
+Merge remote-tracking branch 'bdholt1/enh/tree' into tree
+Merge pull request #20 from GaelVaroquaux/tree
+Merge branch 'silhouette' of https://github.com/robertlayton/scikit-learn into silhouette
+Merge pull request #354 from amueller/liblinear_parameter_errors
+Merge branch 'tmp'
+Merge pull request #19 from pprett/bdholt1-enh/tree
+Merge pull request #360 from cmd-ntrf/master
+Merge branch 'enh/tree' of github.com:bdholt1/scikit-learn into enh/tree
+Merge pull request #17 from larsmans/enh/tree
+Merge pull request #16 from pprett/bdholt1-enh/tree
+Merge branch 'enh/tree' of github.com:bdholt1/scikit-learn into enh/tree
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into enh/tree
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge pull request #353 from amueller/sgd_warm_starts
+Merge branch 'master' of git://github.com/scikit-learn/scikit-learn
+Merge pull request #7 from larsmans/sklearn
+Merge branch 'vene-sc'
+Merge branch 'sc' of https://github.com/vene/scikit-learn into vene-sc
+Merge branch 'sc' of https://github.com/vene/scikit-learn into vene-sc
+Merge branch 'sc' of https://github.com/vene/scikit-learn into vene-sc
+Merge branch 'sc' of https://github.com/vene/scikit-learn into vene-sc
+Merge remote-tracking branch 'vene/sc' into vene-sc
+Merge branch 'master' into vene-sc
+Merge pull request #14 from pprett/bdholt1-enh/tree
+Merge branch 'dictionary_learning' of git://github.com/GaelVaroquaux/scikit-learn into sc
+Merge branch 'master' into sc
+Merge pull request #313 from robertlayton/pairwise_distance
+Merge branch 'vene-sc' of git://github.com/ogrisel/scikit-learn into sc
+Merge branch 'master' into sc
+Merge remote-tracking branch 'vene/sc' into vene-sc
+Merge pull request #13 from pprett/bdholt1-enh/tree
+Merge pull request #350 from tinyclues/master
+Merge remote branch 'bdholt1/enh/tree' into bdholt1-enh/tree
+Merge remote-tracking branch 'jakevdp/neighbors-refactor'
+Merge remote branch 'bdholt1/enh/tree' into bdholt1-enh/tree
+Merge branch 'master' of git://github.com/scikit-learn/scikit-learn
+Merge pull request #347 from ogrisel/cluster-metrics-2
+Merge pull request #3 from ogrisel/jakevdp-neighbors-refactor
+Merge remote-tracking branch 'jakevdp/neighbors-refactor' into jakevdp-neighbors-refactor
+Merge branch 'master' into sc
+Merge pull request #12 from pprett/bdholt1-enh/tree
+Merge branch 'master' into cluster-metrics-2
+Merge branch 'sc' of git://github.com/agramfort/scikit-learn into sc
+Merge branch 'master' into sc
+Merge remote branch 'bdholt1/enh/tree' into bdholt1-enh/tree
+Merge commit 'upstream-RW/master'
+Merge branch 'enh/tree' of github.com:bdholt1/scikit-learn into enh/tree
+Merge pull request #346 from npinto/patch-1
+Merge commit 'upstream/master' into neighbors-refactor
+Merged PR263 into this PR Basically, l1 now returns a pairwise distance matrix by default, with an option for componentwise version.
+Merge pull request #343 from glouppe/euclidean_distances
+Merge pull request #341 from ogrisel/cross-validation-improvements
+Merge branch 'enh/tree' of github.com:bdholt1/scikit-learn into enh/tree
+Merge pull request #11 from pprett/bdholt1-enh/tree
+Merge branch 'enh/tree' of https://github.com/bdholt1/scikit-learn into bdholt1-enh/tree
+Merge https://github.com/bdholt1/scikit-learn into bdholt1-enh/tree
+Merge pull request #10 from ogrisel/bdholt1-enh-tree
+Merge branch 'master' into pairwise_distance
+Merge commit 'upstream/master' into neighbors-refactor
+Merge branch 'master' into cross-validation-improvements
+Merge git://github.com/scikit-learn/scikit-learn
+Merge branch 'master' into sc
+Merge branch 'master' into glouppe-master
+Merge remote-tracking branch 'glouppe/master' into glouppe-master
+Merge branch 'master' into bdholt1-enh-tree
+Merge remote-tracking branch 'bdholt1/enh/tree' into bdholt1-enh-tree
+Merge branch 'enh/tree' of https://github.com/bdholt1/scikit-learn into bdholt1-enh/tree
+Merge branch 'master' into cross-validation-improvements
+Merge pull request #9 from ogrisel/bdholt1-enh-tree
+Merge branch 'master' into bdholt1-enh-tree
+Merge branch 'master' into pairwise_distance
+Merge branch 'master' into bdholt1-enh-tree
+Merge remote-tracking branch 'upstream/master'
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn into pairwise_distance
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' into pairwise_distance
+Merge pull request #335 from fabianp/rename
+Merge pull request #331 from JeanKossaifi/master
+Merge branch 'cython-ball-tree'
+Merge commit 'upstream-RW/master' into cython-ball-tree
+Merge branch 'upstream-master' into enh/tree2
+Merge pull request #328 from bdholt1/crossval
+Merge branch 'upstream-master' into crossval
+Merge branch 'cython-ball-tree'
+Merge pull request #326 from bdholt1/fix/svm
+Merge remote-tracking branch 'upstream/master'
+Merge remote-tracking branch 'glouppe/master' into glouppe-master
+Merge pull request #320 from mblondel/multiclass
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' into multiclass
+Merge branch 'master' into sc
+Merge branch 'master' into multiclass
+Merge remote-tracking branch 'upstream/master'
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge remote-tracking branch 'JeanKossaifi/sorted_repr' into JeanKossaifi-sorted_repr
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge remote-tracking branch 'JeanKossaifi/master'
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' into sc
+Merge branch 'master' into multiclass
+Merge pull request #273 from robertlayton/kmeans_transform2
+Merge pull request #2 from ogrisel/robertlayton-kmeans_transform2
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge pull request #316 from jakevdp/cython-ball-tree
+Merge branch 'master' into sc
+Merge branch 'master' into robertlayton-kmeans_transform2
+Merge pull request #318 from JeanKossaifi/master
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn
+Merge branch 'master' into robertlayton-kmeans_transform2
+Merge pull request #317 from agramfort/normalize_data
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into normalize_data
+Merge github.com:scikit-learn/scikit-learn into enh/tree
+Merge branch 'new_lp'
+Merge branch 'clayw-label_prop' of github.com:vene/scikit-learn into clayw-label_prop
+Merge branch 'normalize_data'
+Merge remote-tracking branch 'robertlayton/kmeans_transform2' into robertlayton-kmeans_transform2
+Merge git://github.com/scikit-learn/scikit-learn into enh/tree
+Merge branch 'master' into sc
+Merge pull request #314 from emmanuelle/spectral
+Merged agramfort's branch with my own
+Merge remote-tracking branch 'upstream/master'
+Merge remote branch 'upstream/master' into pairwise_distance
+Merge pull request #302 from jakevdp/manifold-doc
+Merge remote-tracking branch 'mblondel/kmeans_transform2' into kmeans_transform2
+Merge branch 'master' into kmeans_transform2
+Merge pull request #311 from glouppe/test-coverage
+Merge branch 'enh/tree'
+Merge https://github.com/scikit-learn/scikit-learn
+Merge remote-tracking branch 'upstream/master'
+Merge branch 'master' into sc
+Merge remote-tracking branch 'upstream/master' into test-coverage
+Merge pull request #296 from bdholt1/fix/feature_extraction
+Merge https://github.com/scikit-learn/scikit-learn into enh/tree
+Merge with master
+Merge branch 'kmeans_transform2' of https://github.com/robertlayton/scikit-learn into kmeans_transform2
+Merge remote-tracking branch 'upstream/master'
+Merge remote branch 'upstream/master' into normalize_data
+Merge remote branch 'upstream/master'
+Merge pull request #305 from vincentschut/mini-batch-kmeans-batch-labeling
+Merge remote-tracking branch 'upstream/master'
+Merge branch 'master' into sc
+Merge commit 'upstream/master' into manifold-doc
+Merge remote-tracking branch 'vene/patch-extraction' into vene-patch-extraction
+Merge branch 'boston'
+Merge pull request #303 from glouppe/master
+Merge remote-tracking branch 'upstream/master'
+Merge branch 'master' into jakevdp-manifold-isomap
+Merge branch 'manifold-isomap' into manifold-doc
+Merge pull request #295 from bdholt1/boston
+Merge branch 'master' into sc
+Merge branch 'samples_generator' of git://github.com/glouppe/scikit-learn into samples_generator
+Merge remote-tracking branch 'upstream/master' into samples_generator
+Merge pull request #277 from vene/omp
+Merge branch 'dbscan' of git://github.com/robertlayton/scikit-learn into dbscan
+Merge branch 'boston' of https://github.com/bdholt1/scikit-learn
+Merge branch 'master' into omp
+Merge pull request #6 from vene/boston
+Merge https://github.com/scikit-learn/scikit-learn
+Merge branch 'master' into manifold-isomap
+Merge branch 'omp' of github.com:vene/scikit-learn into omp
+Merge remote-tracking branch 'upstream/master' into samples_generator
+Merge pull request #11 from agramfort/omp
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge remote branch 'jakevdp/kernelpca-arpack'
+Merge remote-tracking branch 'upstream/master' into samples_generator
+Merge remote-tracking branch 'remotes/origin/master' into kmeans_transform2
+Merged decisiontree and tree_model into tree, random_forests to ensemble
+Merge pull request #289 from sabba/master
+Merge https://github.com/scikit-learn/scikit-learn
+Merge branch 'enh/ensemble' of https://github.com/satra/scikit-learn
+Merge branch 'origin/master' into dbscan
+Merge remote-tracking branch 'noel/decisiontree' into treemerge
+Merge remote-tracking branch 'sabba/master'
+Merge branch 'master' into omp
+Merge branch 'manifold-test' into manifold-doc
+Merge pull request #280 from vene/lars_n_features
+Merge pull request #281 from glouppe/master
+Merge branch 'master' into lars_n_features
+Merge branch 'master' of https://github.com/robertlayton/scikit-learn
+Merge pull request #278 from agramfort/rename_lars
+Merge branch 'master' into omp
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into rename_lars
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into rename_lars
+Merge branch 'master' into rename_lars
+Merge pull request #279 from JeanKossaifi/master
+Merge remote branch 'upstream/master'
+Merge pull request #272 from glouppe/master
+Merge pull request #266 from glouppe/master
+Merge pull request #265 from JeanKossaifi/master
+Merge branch 'dbscan' of https://github.com/robertlayton/scikit-learn into dbscan
+Merge branch 'master' into sc
+Merge pull request #259 from larsmans/input-validation
+Merge pull request #261 from glouppe/master
+Merge pull request #218 from fabianp/fix_lars
+Merge pull request #260 from glouppe/master
+Merge pull request #255 from vene/kernel-pca
+Merge remote-tracking branch 'lemin/sparse-mbkm'
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'variational-infinite-gmm' of https://github.com/GaelVaroquaux/scikit-learn
+Merge remote-tracking branch 'master/master' into sparse-mbkm
+Merge pull request #212 from vene/sparsepca
+Merge branch 'sparsepca' of github.com:vene/scikit-learn into sparsepca
+Merge pull request #8 from GaelVaroquaux/dwf_sparse_pca
+Merge pull request #7 from GaelVaroquaux/dwf_sparse_pca
+Merge branch 'master' into sparsepca
+Merge pull request #1 from larsmans/dbscan
+Merge branch 'dwf_sparse_pca' of git://github.com/GaelVaroquaux/scikit-learn into dwf_sparse_pca
+Merge pull request #248 from dwf/misc_fixes
+Merge pull request #247 from NelleV/FIX_doc
+Merge branch 'sparsepca' into sc
+Merge branch 'master' into sparsepca
+Merge pull request #230 from agramfort/radius_neighbors_graph
+Merge branch 'sparsepca' into sc
+Merge pull request #236 from JeanKossaifi/sparse_matrix_type
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'sparsepca' into sc
+Merge branch 'sparsepca' into sc
+Merge pull request #234 from larsmans/inverse-vectorizer
+Merge branch 'sparsepca' into sc
+Merge branch 'mblondel-fix_ridge' into sparsepca
+Merge branch 'master' into sparsepca
+Merge pull request #235 from mblondel/fix_ridge
+Merge branch 'sparsepca' into mblondel-fix_ridge
+Merge pull request #228 from larsmans/tfidf
+Merge branch 'master' into sc
+Merge branch 'master' into sparsepca
+Merge branch 'sparsepca' into sc
+Merge pull request #222 from jakevdp/balltree-doc
+Merge branch 'sparsepca' into sc
+Merge branch 'master' into sparsepca
+Merge branch 'sparsepca' into sc
+Merge pull request #219 from larsmans/sparse-knn
+Merge branch 'sc' of git://github.com/larsmans/scikit-learn into sc
+Merge branch 'sparsepca' into sc
+Merge branch 'master' into sc
+Merge branch 'master' into sparsepca
+Merge branch 'sparse_pca' of git://github.com/GaelVaroquaux/scikit-learn into sparsepca
+Merge pull request #5 from agramfort/sc
+Merge branch 'master' into sparse-mbkm
+Merged Gael's latest update to sparse_pca.py
+Merged Gael's gist newest update
+Merge branch 'master' into sparse-knn
+Merge pull request #3 from agramfort/sc
+Merge branch 'sc' of github.com:vene/scikit-learn into sc
+Merge branch 'sparsepca' into sc
+Merge branch 'sparsepca' into sc
+Merge branch 'sparsepca' into sc
+Merge branch 'sparsepca' of github.com:vene/scikit-learn into sparsepca
+Merged Gael's latest update to sparse_pca.py
+Merge pull request #1 from ogrisel/jakevdp-manifold
+Merge pull request #216 from ametaireau/master
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn
+Merge pull request #2 from agramfort/sparsepca
+Merge branch 'master' into sparsepca
+Merge pull request #209 from mblondel/svmlight_format
+Merge branch 'master' into svmlight_format
+Merge branch 'master' into pberkes-mldata
+Merge pull request #7 from larsmans/mblondel-svmlight
+Merge pull request #210 from larsmans/bernoulli-naive-bayes
+Merge branch 'mblondel-svmlight' of git://github.com/larsmans/scikit-learn into svmlight_format
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into sparsepca
+Merge pull request #6 from larsmans/mblondel-svmlight
+Merge branch 'svmlight_format' of git://github.com/mblondel/scikit-learn into mblondel-svmlight
+Merged dense and sparse MiniBatchKMeans implementations. MiniBatchKMeans now supports both dense and sparse inputs X.
+Merge branch 'master' into bernoulli-naive-bayes
+Merge remote branch 'upstream/master' into sparse-mbkm
+Merge pull request #6 from larsmans/master
+Merge pull request #207 from pprett/mbkm-fix
+Merge pull request #198 from amueller/fastICA_transposed
+Merge pull request #193 from ogrisel/preprocessing-simplification
+Merge pull request #203 from amueller/docs_fix_again
+Merge branch 'master' into bernoulli-naive-bayes
+Merge pull request #194 from jakevdp/balltree-queryrad
+Merge pull request #200 from amueller/minor_docs
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn
+Merge branch 'master' into preprocessing-simplification
+Merge branch 'master' into preprocessing-simplification
+Merge branch 'manifold' of git://github.com/fabianp/scikit-learn into manifold
+Merge branch 'master' into preprocessing-simplification
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'extended-digits-manifold-example'
+Merge pull request #3 from ogrisel/pberkes-mldata
+Merge pull request #2 from larsmans/pberkes-mldata
+Merge branch 'mldata' of https://github.com/pberkes/scikit-learn into pberkes-mldata
+Merge pull request #153 from fabianp/manifold
+Merge pull request #184 from larsmans/amitibo-naive-bayes
+Merge pull request #1 from ogrisel/pberkes-mldata
+Merge branch 'mldata' of https://github.com/pberkes/scikit-learn into pberkes-mldata
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' into sparsepca
+Merged Gael's gist newest update
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge pull request #185 from amueller/master
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'bootstrap'
+Merge branch 'balltree-wrapper' of https://github.com/jakevdp/scikit-learn into jakevdp-balltree-wrapper
+Merge branch 'master' into bootstrap
+Merge branch 'master' into bootstrap
+Merge pull request #181 from lucaswiman/master
+Merge sparse and vanilla naive Bayes
+Merge branch 'master' of https://github.com/amitibo/scikit-learn into amitibo-naive-bayes
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into manifold
+Merge branch 'master' of git://github.com/scikit-learn/scikit-learn
+Merge pull request #178 from kwgoodman/master
+Merge branch 'master' of github.com:scikit-learn/scikit-learn-tutorial
+Merge commit 'upstream/master'
+Merge branch 'batchKMeans' of https://github.com/NelleV/scikit-learn into NelleV-batchKMeans
+Merge remote branch 'gael/batchKMeans' into batchKMeans
+Merge branch 'master' into sparsepca
+Merge pull request #161 from ogrisel/clustering-metrics
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'batchKMeans' of https://github.com/NelleV/scikit-learn into NelleV-batchKMeans
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' into clustering-metrics
+Merge pull request #3 from GaelVaroquaux/manifold
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge pull request #167 from bsilverthorn/fix-kernelpca-ncomponents
+Merge branch 'batchKMeans' of https://github.com/NelleV/scikit-learn into NelleV-batchKMeans
+Merge remote branch 'upstream/master'
+Merge remote branch 'upstream/master'
+Merge branch 'master' into clustering-metrics
+Merge pull request #163 from paolo-losi/revert_preprocessing
+Merge remote branch 'upstream/master' into revert_preprocessing
+Merge branch 'master' into clustering-metrics
+Merge branch 'master' into batchKMeans
+Merge branch 'master' into batchKMeans
+Merge pull request #160 from larsmans/master
+Merge pull request #157 from fabianp/joblib_fix
+Merge branch 'rocfix'
+Merge pull request #150 from pprett/learningrate
+Merge pull request #154 from larsmans/master.
+Merge pull request #148 from yarikoptic/master.
+Merge pull request #147 from larsmans/master.
+Merge pull request #144 from larsmans/balltree-cleanup.
+Merged pull request #140 from fabianp/lfw.
+Merged pull request #5 from larsmans/master.
+Merged pull request #4 from larsmans/master.
+Merge branch 'covariance' of git://github.com/VirgileFritsch/scikit-learn
+Merged pull request #135 from paolo-losi/l1_logreg_minC.
+Merge branch 'master' into l1_logreg_minC
+Merge branch 'variational-infinite-gmm' of https://github.com/GaelVaroquaux/scikit-learn into variational-infinite-gmm
+Merge branch 'variational-infinite-gmm' of https://github.com/GaelVaroquaux/scikit-learn into gael-variational
+Merge branch 'variational-infinite-gmm' of https://github.com/alextp/scikit-learn into alextp-variational-infinite-gmm
+Merge branch 'variational-infinite-gmm' of https://github.com/alextp/scikit-learn into alextp-variational-infinite-gmm
+Merge branch 'variational-infinite-gmm' of https://github.com/alextp/scikit-learn into alextp-variational-infinite-gmm
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn into l1_logreg_minC
+Merge branch 'variational-infinite-gmm' of https://github.com/alextp/scikit-learn into alextp-variational-infinite-gmm
+Merge branch 'variational-infinite-gmm' of https://github.com/alextp/scikit-learn into alextp-variational-infinite-gmm
+Merge branch 'master' of https://github.com/ametaireau/scikit-learn-tutorial into ametaireau-master
+Merge branch 'variational-infinite-gmm' of https://github.com/alextp/scikit-learn into alextp-variational-infinite-gmm
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn into variational-infinite-gmm
+Merge branch 'master' into alextp-variational-infinite-gmm
+Merge branch 'variational-infinite-gmm' of https://github.com/alextp/scikit-learn into alextp-variational-infinite-gmm
+Merge with Olivier's branch
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn into l1_logreg_minC
+Merge branch 'batchKMeans' of https://github.com/NelleV/scikit-learn into NelleV-batchKMeans
+Merge remote branch 'scikit/master' into batchKMeans
+Merge branch 'batchKMeans' of https://github.com/NelleV/scikit-learn into NelleV-batchKMeans
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn into l1_logreg_minC
+Merge branch 'variational-infinite-gmm' of https://github.com/alextp/scikit-learn into alextp-variational-infinite-gmm
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn into variational-infinite-gmm
+Merge branch 'master' into batchKMeans
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of git://github.com/scikit-learn/scikit-learn into decisiontree
+Merge branch 'master' of git://github.com/scikit-learn/scikit-learn
+Merge branch 'master' of git://github.com/scikit-learn/scikit-learn
+Merge branch 'master' of git://github.com/scikit-learn/scikit-learn
+Merge branch 'master' into decomposition
+Merge branch 'master' of git://github.com/scikit-learn/scikit-learn
+Merge branch 'master' of git://github.com/scikit-learn/scikit-learn
+Merge branch 'master' into decomposition
+Merge branch 'kpca'
+Merge branch 'covariance' of github.com:VirgileFritsch/scikit-learn into covariance
+Merge branch 'master' into decomposition
+Merge branch 'master' into nmf-fix
+Merge branch 'nmf-fix' into decomposition
+Merge branch 'lda' of https://github.com/bthirion/scikit-learn into lda
+Merge branch 'master' into lda
+Merge branch 'text' of https://github.com/vmichel/scikit-learn into vmichel-text
+Merge branch 'nmf-lite' of https://github.com/vene/scikit-learn into vene-nmf-lite
+Merge branch 'master' into vene-nmf-lite
+Merge branch 'master' into nmf-lite
+Merge branch 'master' of git://github.com/scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'nmf-lite' of https://github.com/vene/scikit-learn into vene-nmf-lite
+Merge branch 'nmf-nnls'. Docstring fixes, mainly.
+Merge branch 'nmf-lite' of https://github.com/vene/scikit-learn into vene-nmf-lite
+Merged
+Merge branch 'nmf-lite' of git://github.com/agramfort/scikit-learn into nmf-lite
+Merge branch 'nmf-nnls' into nmf-lite
+Merge branch 'master' into variational-infinite-gmm
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'hcluster2'
+Merge branch 'cython-balltree-wrapper' of https://github.com/thouis/scikit-learn
+Merge branch 'mblondel-kpca' of https://github.com/vene/scikit-learn into kpca
+Merge branch 'master' of https://github.com/yml/scikit-learn
+Merge remote branch 'origin'
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' into kpca
+Merge branch 'master' into nmf-nnls
+Merge branch 'master' of git://github.com/scikit-learn/scikit-learn
+Merge remote branch 'upstream/master'
+Merge branch 'master' into nmf-nnls
+Merge branch 'master' into sgdsampleweight
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'lda' of https://github.com/mblondel/scikit-learn into discriminant_analysis
+Merge remote branch 'vincentschut/master'
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'pls' of https://github.com/fabianp/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' into 20newsgroups-dataset
+Merge branch 'master' into nmf
+Merge branch 'master' into 20newsgroups-dataset
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' into 20newsgroups-dataset
+Merge branch 'master' into 20newsgroups-dataset
+Merge branch 'lfw-dataset'
+Merge branch 'lfw-dataset' of https://github.com/GaelVaroquaux/scikit-learn into lfw-dataset
+Merge branch 'lfw-dataset' into 20newsgroups-dataset
+Merge branch 'hcluster2' of http://github.com/bthirion/scikit-learn into hcluster2
+Merge branch 'master' into lfw-dataset
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'hcluster' into hcluster2 that matches master
+Merge branch 'pls' of https://github.com/fabianp/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' into lfw-dataset
+Merge branch 'master' into lfw-dataset
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' into lfw-dataset
+Merge branch 'master' into lfw-dataset
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' into lfw-dataset
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'ridge'
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' into asaf
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge dense and sparse code.
+Merge branch 'cv_indices' of https://github.com/agramfort/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of git://github.com/jaberg/scikit-learn
+Merge branch 'permutations'
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merged upstream changes
+Merge branch 'master' into nmf
+Merge branch 'master' of https://github.com/dubourg/scikit-learn into dubourg-master
+Merge branch 'gaussian_process_review'
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' into sparse-pca
+Merge branch 'master' into sparse-pca
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'sgd-rename'
+Merge branch 'master' of git@github.com:scikit-learn/scikit-learn
+Merge branch 'neighbor_barycenter'
+Merge branch 'log_proba'
+Merge branch 'master' into sgd-rename
+Merge branch 'master' of git@github.com:scikit-learn/scikit-learn
+Merge branch 'master' of https://github.com/scikit-learn/scikit-learn
+Merge branch 'master' of git@github.com:scikit-learn/scikit-learn
+Merge branch 'master' into importanceweighting
+Merge branch 'importanceweighting' of git@github.com:pprett/scikit-learn
+Merge branch 'master' of git@github.com:scikit-learn/scikit-learn
+Merge branch 'svmgui'
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'faces-example'
+Merge branch 'master' of git@github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' into log_proba
+Merge branch 'master' into log_proba
+Merge branch 'speciesmodeling' of git@github.com:pprett/scikit-learn
+Merge branch 'master' into log_proba
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' into log_proba
+Merge branch 'warmstart'
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' into textextract2
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'dense' of git://github.com/pprett/scikit-learn into dense
+Merge branch 'master' into dense
+Merge branch 'dense' of github.com:pprett/scikit-learn
+Merge branch 'master' of git@github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' into ova
+Merge branch 'textextract'
+Merge branch 'textextract' of git://github.com/ogrisel/scikit-learn into textextract
+Merge branch 'master' into textextract
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'textextract' of git://github.com/ogrisel/scikit-learn into textextract
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' into textextract
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' into issue-155-multiclass-precision-recall
+Merge branch 'master' into issue-155-multiclass-precision-recall
+Merge branch 'master' into issue-155-multiclass-precision-recall
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'sgd'
+Merge branch 'master' into textextract
+Merge branch 'master' into textextract
+Merge branch 'master' into textextract
+Merge commit 'origin/master'
+Merge branch 'master' into textextract
+Merge branch 'master' into sgd
+Merge branch 'master' of github.com:pprett/scikit-learn
+Merge branch 'master' of git@github.com:pprett/scikit-learn
+Merge branch 'textextract' of git://github.com/mblondel/scikit-learn into textextract
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of git@github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' into textextract
+Merge branch 'master' into textextract
+Merge branch 'master' into textextract
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' into textextract
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of http://github.com/fabianp/scikit-learn
+Merge branch 'cross_val' of github.com:GaelVaroquaux/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'textextract' of git://github.com/mblondel/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'fabian/python_lars_fast_2'
+Merge branch 'master' of git@github.com:scikit-learn/scikit-learn
+Merge branch 'master' of git@github.com:scikit-learn/scikit-learn
+Merge branch 'master' into issue-77-sparse-cd
+Merge branch 'master' into issue-77-sparse-cd
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into pipeline
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' into issue-77-sparse-cd
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' into issue-77-sparse-cd
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into issue-77-sparse-cd
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into kmeans
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into issue-77-sparse-cd
+Merge http://github.com/GaelVaroquaux/scikit-learn into gael
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:GaelVaroquaux/scikit-learn
+Merge branch 'master' of github.com:GaelVaroquaux/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:GaelVaroquaux/scikit-learn
+Merge branch 'ica'
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into issue-77-sparse-cd
+Merge branch 'add_ica' of http://github.com/bthirion/scikit-learn into ica
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into issue-77-sparse-cd
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of git@github.com:scikit-learn/scikit-learn
+Merge branch 'master' of git@github.com:scikit-learn/scikit-learn
+Merge branch 'master' of git@github.com:scikit-learn/scikit-learn
+Merge branch 'master' of https://vmichel@github.com/scikit-learn/scikit-learn
+Merge branch 'master' of git@github.com:vmichel/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of git@github.com:scikit-learn/scikit-learn
+Merge branch 'master' of git@github.com:scikit-learn/scikit-learn
+Merge branch 'master' of git@github.com:GaelVaroquaux/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn into cross_val_gael
+Merge branch 'cross_val_gael' of github.com:GaelVaroquaux/scikit-learn into cross_val_gael
+Merge branch 'master' of git@github.com:scikit-learn/scikit-learn
+Merge branch 'master' of git@github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' into char-ngram-features
+Merge branch 'master' of ssh://scikit-learn.git.sourceforge.net/gitroot/scikit-learn/scikit-learn
+Merge branch 'cross_val_gael' of git@github.com:GaelVaroquaux/scikit-learn into cross_val_gael
+Merge branch 'master' of git@github.com:scikit-learn/scikit-learn
+Merge branch 'master' of ssh://scikit-learn.git.sourceforge.net/gitroot/scikit-learn/scikit-learn
+Merge branch 'master' of github.com:scikit-learn/scikit-learn
+Merge branch 'master' of git@github.com:scikit-learn/scikit-learn
+Merge branch 'master' of ssh://gvaroquaux@scikit-learn.git.sourceforge.net/gitroot/scikit-learn/scikit-learn
+Merge branch 'master' of git@github.com:scikit-learn/scikit-learn
+Merge branch 'master' of ssh://revilyo@scikit-learn.git.sourceforge.net/gitroot/scikit-learn/scikit-learn
+Merge branch 'master' of ssh://scikit-learn.git.sourceforge.net/gitroot/scikit-learn/scikit-learn
+Merge branch 'master' of git://scikit-learn.git.sourceforge.net/gitroot/scikit-learn/scikit-learn
+Merge branch 'master' of ssh://scikit-learn.git.sourceforge.net/gitroot/scikit-learn/scikit-learn
+Merge branch 'temp'
+Merge branch 'gael' of http://github.com/agramfort/scikit-learn
+Merge branch 'master' of git://scikit-learn.git.sourceforge.net/gitroot/scikit-learn/scikit-learn
+Merge branch 'master' of http://github.com/GaelVaroquaux/scikit-learn
+Merge branch 'master' of ssh://scikit-learn.git.sourceforge.net/gitroot/scikit-learn/scikit-learn
+Merge branch 'master' of ssh://scikit-learn.git.sourceforge.net/gitroot/scikit-learn/scikit-learn
+Merge branch 'cross_val_gael' of git@github.com:GaelVaroquaux/scikit-learn
+Merge branch 'master' of ssh://scikit-learn.git.sourceforge.net/gitroot/scikit-learn/scikit-learn
+Merge branch 'sparse-documents'
+Merge branch 'master' of github.com:GaelVaroquaux/scikit-learn
+Merge branch 'master' of http://github.com/GaelVaroquaux/scikit-learn
+Merge branch 'master' of http://github.com/GaelVaroquaux/scikit-learn
+Merge branch 'master' of http://github.com/agramfort/scikit-learn
+Merge branch 'master' of ssh://scikit-learn.git.sourceforge.net/gitroot/scikit-learn/scikit-learn
+Merge branch 'master' of ssh://scikit-learn.git.sourceforge.net/gitroot/scikit-learn/scikit-learn
+Merge branch 'master' of github.com:agramfort/scikit-learn
+Merge branch 'master' of github.com:agramfort/scikit-learn
+Merge branch 'master' of git@github.com:agramfort/scikit-learn
+Merge branch 'master' of git@github.com:agramfort/scikit-learn
+Merge branch 'master' of git@github.com:agramfort/scikit-learn
+Merge branch 'master' of http://github.com/vmichel/scikit-learn
+Merge branch 'master' of git@github.com:agramfort/scikit-learn
+Merge branch 'master' of ssh://scikit-learn.git.sourceforge.net/gitroot/scikit-learn/scikit-learn
+Merge branch 'master' of git@github.com:vmichel/scikit-learn
+Merge branch 'master' of github.com:vmichel/scikit-learn
+Merge branch 'master' of github.com:GaelVaroquaux/scikit-learn
+Merge branch 'master' of github.com:GaelVaroquaux/scikit-learn
+Merge branch 'master' of github.com:GaelVaroquaux/scikit-learn
+Merge branch 'master' of github.com:vmichel/scikit-learn
+Merge branch 'master' of git@github.com:vmichel/scikit-learn
+Merge branch 'master' of github.com:GaelVaroquaux/scikit-learn
+Merge branch 'master' of ssh://scikit-learn.git.sourceforge.net/gitroot/scikit-learn/scikit-learn
+Merge branch 'master' of http://github.com/agramfort/scikit-learn
+Merge branch 'master' of http://github.com/GaelVaroquaux/scikit-learn
+Merge branch 'master' of http://github.com/GaelVaroquaux/scikit-learn
+Merge branch 'master' of http://github.com/agramfort/scikit-learn
+Merge branch 'master' of http://github.com/GaelVaroquaux/scikit-learn
+Merge branch 'master' of http://github.com/GaelVaroquaux/scikit-learn
+Merge branch 'master' of http://github.com/GaelVaroquaux/scikit-learn
+Merge branch 'master' of http://github.com/agramfort/scikit-learn
+Merge branch 'master' of ssh://scikit-learn.git.sourceforge.net/gitroot/scikit-learn/scikit-learn
+Merge branch 'master' of ssh://scikit-learn.git.sourceforge.net/gitroot/scikit-learn/scikit-learn
+Merge branch 'master' of github.com:agramfort/scikit-learn
+Merge branch 'master' of ssh://scikit-learn.git.sourceforge.net/gitroot/scikit-learn/scikit-learn
+Merge remote branch 'upstream/master'
+Merge branch 'hmm'
+Merge branches 'master' and 'master' of ssh://scikit-learn.git.sourceforge.net/gitroot/scikit-learn/scikit-learn
+Merge branch 'master' of ssh://scikit-learn.git.sourceforge.net/gitroot/scikit-learn/scikit-learn
+Merge branch 'master' into issue-67-LARS-shape
+Merge branch 'master' into issue-67-LARS-shape
+Merge branch 'master' into issue-67-LARS-shape
+Merge branch 'master' of ssh://gvaroquaux@scikit-learn.git.sourceforge.net/gitroot/scikit-learn/scikit-learn
+Merge branch 'master' of ssh://gvaroquaux@scikit-learn.git.sourceforge.net/gitroot/scikit-learn/scikit-learn
+Merge branch 'master' of ssh://scikit-learn.git.sourceforge.net/gitroot/scikit-learn/scikit-learn
+Merge branch 'master' of /Volumes/DAVID/scikit-learn
+Merge branch 'master' of ssh://scikit-learn.git.sourceforge.net/gitroot/scikit-learn/scikit-learn
+Merge branch 'master' of ssh://scikit-learn.git.sourceforge.net/gitroot/scikit-learn/scikit-learn
+Merge branch 'master' of ssh://scikit-learn.git.sourceforge.net/gitroot/scikit-learn/scikit-learn
+Merge branch 'master' into ticket-51-cd-early-stopping_2
+Merge branch 'master' of ssh://ogrisel@scikit-learn.git.sourceforge.net/gitroot/scikit-learn/scikit-learn
+Merge branch 'coordinate_descent_4' of http://github.com/fseoane/scikit-learn into coordinate_descent_4
+Merge branches 'master' and 'master' of ssh://ogrisel@scikit-learn.git.sourceforge.net/gitroot/scikit-learn/scikit-learn
+Merge branch 'coordinate_descent_3' of http://github.com/fseoane/scikit-learn into HEAD
+Merge branch 'coordinate_descent_2' of http://github.com/fseoane/scikit-learn
+Merge branches 'master' and 'master' of ssh://ogrisel@scikit-learn.git.sourceforge.net/gitroot/scikit-learn/scikit-learn
+Merge branch 'master' of ssh://scikit-learn.git.sourceforge.net/gitroot/scikit-learn/scikit-learn
+Merge branches 'master' and 'master' of git://scikit-learn.git.sourceforge.net/gitroot/scikit-learn/scikit-learn
+Merge branches 'master' and 'master' of git://github.com/yarikoptic/scikit-learn
+Merge with main branch David Cournapeau <david@ar.media.kyoto-u.ac.jp> | 2006-07-13 19:35:51 +0900 (Thu, 13 Jul 2006)

@@ -1,0 +1,1743 @@
+Fix purge_key function name
+Fix remaining automation env vars
+Fix task supervisor name in example (#12230)
+Fix tracer on_module docs (#12211)
+Fix formatter: size*unit shortcut in bitstring (#12201)
+Fix DynamicSupervisorExample: pass strategy option (#12200)
+Fix Time.add/3 documentation (#12193)
+Fix URI.merge using the examples from rfc3986 (#12180)
+Fix ambiguity in &INT with brackets
+Fix range first and last description in module doc (#12169)
+Fix algebra edge case on :erlang.binary_to_atom/2 (#12163)
+Fix signature order in type checkings messages, closes #11744
+Fix arity in URI.parse/1 in IEx docs (#12148)
+Fix checker on missing debug info, closes #12140
+Fix a typo in Supervisor doc (#12136)
+Fix race in dynamic supervisor suite
+Fix warning
+Fix bootstrap
+Fix Mix.Tasks.Format.text_diff_format/3 spec (#12115)
+Fix argument count for --no-pry
+Fixes wording (#12105)
+Fix module attribute with empty list in Macro.to_string, closes #12097
+Fix heisentest
+Fix path on notification script
+Fix loop while unifying type variables, closes #11658
+Fix ExUnit.Diff handling of charlists (#12073)
+Fix typo (#12068)
+Fix unclosed backquotes in Code.Fragment and Macro (#12061)
+Fixing edge cases in Enum.slide/3 (#12052)
+Fix infinite loop in Enum.take/2 (#12048)
+Fix bugs in binary_slice/2 (#12045)
+Fix bug: Enum.slice selecting extra element (#12043)
+Fix bug in Enum.slice with step>1 (#12042)
+Fix bug in Enum.drop/2 (#12040)
+Fix secrets syntax
+Fix deprecation table rendering, closes #12034
+Fix Process.monitor/2 spec (#12030)
+Fixes typo: "past" -> "paste" (#12029)
+Fix --sname/--name undefined handling on Erlang/OTP 24
+Fix bug DynamicSupervisor child_spec validation (#11836)
+Fix passing of File.cp_r! on_conflict option (#12015)
+Fix link to typespecs page (#11999)
+Fix @type for Regex, add doctest example (#11996)
+Fix docs reference of stream/0 and binstream/0 (#11986)
+Fix old error assertion
+Fix specs in IO.ANSI (#11983)
+Fix a couple of small bugs in Macro.dbg/3 (#11982)
+Fix bootstrap issues
+Fix exports/1 in IEx for long fun names (#11972)
+Fix bug in fn defaults (#11963)
+Fix regression on identifier\\ being interpreted as a single identifier
+Fix Date.Range.first_in_iso_days/last_in_iso_days typespec (#11948)
+Fix dialyzer warnings in ExUnit assertions (#11930)
+Fix ExUnit assertion when operator is overriden (#11929)
+Fix inspection of Macro.Env
+Fix example in overridables_in
+Fix typos (#11901)
+Fix typo in the docs for URI.new!/1 (#11898)
+Fix Supervisor.init/2 return type in spec (#11871)
+Fix missing arity in some functions (#11854)
+Fix function link in docs for the Code module (#11850)
+Fix small things here and there in the CHANGELOG
+Fix typo in a TODO comment
+Fix warnings on lexical tracker suite
+Fix punctuation and grammar issues in guides (#11790)
+Fix ExUnit.Callbacks.start_link_supervised!/2 spec (#11784)
+Fix mix suite
+Fix System.shell/2 command escaping on Unix (#11767)
+Fix variable declaration in default argument block (#11758)
+Fix typo in mix escript.build docs (#11743)
+Fix Version.parse/1 incorrectly stripping dots from field (#11736)
+Fixes for multi args before + in mix do
+Fix typo (#11722)
+Fix use of assert_receive[d] in catch_exit doc (#11702)
+Fix: dot path for umbrella test (#11693)
+Fix bug when formatting :"\\" (#11699)
+Fix Logger docs and specs (#11697)
+Fix `EEx.tokenize/2` docs (#11694)
+Fix EEx.tokenize/2 CaseClauseError (#11677)
+Fix `Enumerable.slice` docs (#11672)
+Fix spec for EEx.tokenize/2 and EEx.Compiler.compile/2 (#11670)
+Fix CLI when Erlang flags are given after --rpc-eval
+Fix typos (#11653)
+Fix typo (#11641)
+Fix --warnings-as-errors for compiling with --all-warnings (#11634)
+Fix typo in Config.Provider link (#11618)
+Fix function name in doc and spelling (#11608)
+Fix typo in ExUnit documentation (#11606)
+Fix recursion on guards with map fields, closes #11602
+Fix indentation of options in mix format
+Fix typo (#11592)
+Fix duplicate bindings causing weird behaviour (#11584)
+Fix bug with edge-case when converting to algebra quoted Elixir alias (#11572)
+Fix coverage threshold ignored for Total line in Summary (#11571)
+Fix syntax in notifications script (#11553)
+Fix Windows build (#11548)
+Fix a few issues in the mix test.coverage docs (#11539)
+Fix typo in Special Forms docs (#11535)
+Fix the nested `uniq:` acc name clash by preserving a scope (#11532)
+Fix hidden escape chars in File.stream!/3 docs (#11529)
+Fix typespec on Base.decode16! (#11526)
+Fix failing doctest for String.replace/3 (#11515)
+Fix minor spelling (#11513)
+Fix documentation errors found via ExDoc (#11512)
+Fix compatibility and deprecations
+Fix Registry docs (#11478)
+Fix recursive call in Keyword.replace_lazy helper (#11477)
+Fix formatting of lists in module attribues (#11462)
+Fix codepoint byte counting in slice, closes #11461
+Fix halt for --version
+Fix wrong autocomplete for atoms in IEx
+Fix spec for Code.Identifier.escape/4 (#11445)
+Fix normalization of kw list in blocks (#11431)
+Fix opaque Version.Requirement usage (#11428)
+Fix links to EEP 48 (#11411)
+Fix typespec for Macro.struct!/2
+Fix normalizer not preserving user choice on module attribute lists (#11397)
+Fix warning from call to dynamically generated module
+Fix bootstrap
+Fix formatting of map-like types in warnings (#11351)
+Fix some grammatical errors in README.md (#11366)
+Fix regression on URI.parse/1, closes #11363
+Fix broken link in Task docs
+Fix Config.config_env/0 with empty Process dictionary (#11356)
+Fix example
+Fix a few typos (#11342)
+Fix mistake in ParallelCompiler.require/2 spec (#11340)
+Fix MIX_INSTALL_DIR docs (#11338)
+Fix perf regression on file reading, closes #11335
+Fix `--fail-above` with `--exclude` (#11306)
+Fix wrong module attribute on Calendar.ISO (#11326)
+Fix infinite loop in String.slice/2 (#11302)
+Fix docs of Module.safe_concat/1 / Module.safe_concat/2: (#11299)
+Fix typo (#11276)
+Fix IO.chardata_to_string/1 misleading signature (#11273)
+Fix bugs installing escripts with rebar3 deps
+Fix indentation of code example (#11267)
+Fix docs for new functions in Macro.Env (#11259)
+Fix Version.Requirement.new/2 spec (#11257)
+Fixes output of deps.unlock when dependency is not locked (#11235)
+Fix .iex.exs load after pry session (#11234)
+Fix nfd cluster columns (#11231)
+Fix minor issues in Logger docs (#11212)
+Fix redundancies in Task and Task.Supervisor docs (#11196)
+Fix Mix.ProjectStack.reset_config_mtime/0 spec (#11193)
+Fix old manifest purging
+Fix typo in `zip_reduce/3` documentation (#11188)
+Fix typo in `String.slice/2` docs (#11169)
+Fix Code.Fragment.surround_context/3 behaviour for distant columns (#11151)
+Fix Code.Fragment.surround_context/3 range for spaced identifiers (#11150)
+Fix bootstrap
+Fix autocomplete on atoms with at
+Fix regex
+Fix Inspect.Algebra.color/3 return type in spec (#11091)
+Fix normalization of partial keyword list elements (#11084)
+Fix docs for <>/2 operator (#11067)
+Fix warning on Erlang suite
+Fix warning on binary test suite
+Fix the failures count when an on_exit hook errors in setup_all
+Fix typo in docs for Code.ensure_loaded?/1 (#11029)
+Fix spec for which_children, closes #11005
+Fix ast normalizing issue with keyword lists (#11002)
+Fix formatter integration test
+Fix typo in supervisor.ex (#10992)
+Fix bootstrapping issue
+Fix typo (#10979)
+Fix OTP version reference
+Fix signature expansion when no docs (#10971)
+Fix indentation of multiline expressions and types
+Fix minor detail Enumerable doc (#10942)
+Fix table in Operators page (#10930)
+Fix case when callback spec uses when clause (#10927)
+Fix minor spelling (#10921)
+Fix optional callback blame hint (#10893)
+Fix regression in Enum.dedup/1 (#10886)
+Fix bootstrap warning
+Fix Mix suite with async_run and await_run
+Fix grammar in Logger backends docs (#10883)
+Fix git default branch warnings (#10860)
+Revert "Fix git default branch warnings (#10856)"
+Fix git default branch warnings (#10856)
+Fix grammar in Range docs (#10851)
+Fix t:Range.t/2 (#10833)
+Fix KeyError custom message (#10829)
+Fix typo in CHANGELOG.md (#10827)
+Fix docs regarding empty ranges on negative steps (#10821)
+Fix Enumerable.Range.member?/2 with empty range (#10819)
+Fix OTP 24 test warnings (#10817)
+Fix mix tests on older git versions (#10815)
+Fix ^^^ warning (#10814)
+Fix typo in CHANGELOG.md [no ci] (#10809)
+Fix broken docs references (#10798)
+Fix bootstrap
+Fix warnings
+Fix typo in mix test task (#10767)
+Fix small typo in mix alias docs (#10759)
+Fix docs example in ExUnit.Case (#10754)
+Fix prefix check when consolidating protocols (#10751)
+Fix undefined function warning
+Fix filesystem race condition in Mix tests
+Fix warning message mentioning quoted atoms may end with ! or ? (#10724)
+Fix remaining warning translations for OTP 24 (#10720)
+Fix translating erl compiler errors to diagnostics on OTP 24 (#10719)
+Fix typo in GenServer docs (#10717)
+Fix Macro.underscore for digit preceded by capitals, closes #10713 (#10715)
+Fix logic error in docs of GenServer's c:terminate/2 (#10714)
+Fix Git warning (#10707)
+Fix logic in get_in docs (#10704)
+Fix typo in documentation (#10697)
+Fix spelling mistake in release docs (#10688)
+Fix context in defdelagate/2 AST (#10682)
+Fix URI deprecation warnings
+Fix typo (`s/InstalTest/InstallTest`) (#10678)
+Fix warning in Enum.all?/2 doctest (#10673)
+Fix bug with slice returning invalid value for negative first value
+Fix typo, closes #10660
+Fix tuple subtype check (#10655)
+Fix typos (#10639)
+Fix typos (#10628)
+Fix typos (#10625)
+Fix cryptic error when defimpl is defined without :for option (#10620)
+Fix small typo in pipe operator doc (#10606)
+Fix `Path.relative_to/2` when referencing self (#10601)
+Fix warnings on IEx
+Fix spelling (#10583)
+Fix test failures when `MIX_TARGET` is set with a non-empty value (#10573)
+Fix double-newline and improve comment in the "new" gitignore
+Fix variable overriding in records, closes #10540
+Fix function arity in Task.await/2 doc (#10564)
+Fix GenServer option typespec (#10563)
+Fix bootstrap error
+Fix typo in Module documentation (#10558)
+Fix typos in Enum documentation (#10522)
+Fix docs tests on OTP 23 (#10510)
+Fix test on Erlang master
+Fix failure on Erlang/OTP master
+Fix intermittent test failure caused by archive warning (#10493)
+Fix mix escript.build docs (#10486)
+Fix unused variable warning
+Fix typo in documentation (#10477)
+Fix failing test
+Fix small typo in Xref task docs (#10476)
+Fix race condition when loading test helper, closes #10464
+Fix dialyzer specs for Task.Supervisor, closes #10460
+Fix race condition deps.compile+deps.update
+Fix docs for Kernel#and/2 and Kernel#or/2 (#10450)
+Fix stop_supervised/1 for temporary children (#10442)
+Fix test on earlier OTP versions
+Fix bootstrap issue in Code module
+Fix spec for Enum.zip_with/2 (#10424)
+Fix warning message in app requirement (#10417)
+Fix order dependent tests in logger suite
+Fix returning errors in Module.Types.Expr.of_expr (#10410)
+Fix a typo in Kernel.SpecialForms.&/1 docs (#10409)
+Fix IEx parser configuration (#10407)
+Fix handle_call return type
+Fix single quotes to backticks in string.ex (#10392)
+Fix race condition in tests
+Fix typo in types_test.exs (#10382)
+Fix inference of open maps with non-singleton keys
+Fix copy paste mistake in String.capitalize docs (#10369)
+Fix and improve specs and docs in Map.pop/3 and Map.pop!/2 (#10341)
+Fix typo in ExUnit.Case
+Fix unregistration crash (#10326)
+Fix small typo in comment (#10321)
+Fix trace tagging of internal type variable
+Fix `&//2` parsing issue (#10312)
+Fix typo in Diff doc (#10304)
+Fix typo in test name (#10258)
+Fix not being able to escape "|" inside a table (docstring) (#10254)
+Fix since doc for mix cmd task (#10252)
+Fix Code.Typespec.spec_to_quoted/2 when union in  %{__struct__:} is used (#10238)
+Fix ambiguity on Path.expand/1 docs (#10231)
+Fix bug of only taking first app option in mix cmd (#10226)
+Fix suite
+Fix typo in comment (#10211)
+Fix canonical link in HTML docs (#10206)
+Fix markdown codeblock rendering issue (#10202)
+Fix warnings detected by future version of ExDoc (#10195)
+Fix ExUnit format (#10196)
+Fix minor typo in CHANGELOG (#10178)
+Fix race condition in case of dead captures on io devices
+Fix a typo in CHANGELOG.md (#10155)
+Fix typo on macro docs (#10144)
+Fix mtime race condition in tests
+Fix xref format across multiple OSes
+Fix bug in Inspect.AlgebraTest (#10128)
+Fix the build
+Fix the build
+Fix CI
+Fixes tiny typo (missing article) (#10119)
+Fixes typos in comments and documentation (#10117)
+Fix typo in Logger documentation (#10116)
+Fix typo in Typespecs page (#10113)
+Fix read of app file located in archive .ez file (#10062)
+Fix typo (#10048)
+Fix Task PID and caller in Task Supervisor reports (#10025)
+Fix typo in Registry module documentation (#10015)
+Fix spec for Mix.ProjectStack.compile_env/1 (#9994)
+Fix handling of empty user home flag in System.user_home/0 (#9991)
+Fix spec for Mix.Local.Installer.parse_args/2 (#9992)
+Fix spec for Mix.Project.deps_apps/0 (#9985)
+Fix spec for Exception.blame_mfa/3 (#9981)
+Fix a typo in the Application docs (#9971)
+Fix deep nested lists inside docs (#9970)
+Fix type specifications for EEx.Tokenizer.tokenize/4 (#9966)
+Fix return type for ExUnit.OnExitHandler.register/1 (#9968)
+Fix multiple dialyzer errors in the Elixir application (#9965)
+Fix `mix cmd` examples in its moduledoc (#9969)
+Fix dialyzer errors caused by erl_anno:anno type being opaque (#9961)
+Fix erroneous code snippet in documentation (#9963)
+Fix diffing for variable structs, closes #9958
+Fix build on Windows
+Fixes to ExUnit.Diff, closes #9926
+Fix formatting in Application.compile_env!/3 docs
+Fixed typo in naming conventions docs. (#9929)
+Fix typo in Macro docs (#9927)
+Fix tokenizer emitting repeated warnings in the REPL (#9924)
+Fix Erlang compiler bug on 21.0
+Fix supervisor docs (#9925)
+Fix various typos and improve docs (#9922)
+Fix improper regex use, closes #9914
+Fix incorrect spelling (#9909)
+Fix formatting
+Fix lib/mix/lib/mix/tasks/test.ex markdown (#9894)
+Fix links (#9882)
+Fix metadata link
+Fix File module rename tests on PASE (#9860)
+Fix typos in mix release docs (#9857)
+Fix typo in doc for `time_zone_periods_from_wall_datetime/2` (#9846)
+Fixes for Erlang/OTP 23
+Fix float binary type specifier (#9844)
+Fix the build
+Fix typo in "Patterns and Guards.md" (#9836)
+Fix error message for import :except option (#9819)
+Fix divergedreq error when update changes requirement and version (#9811)
+Fix bootstrap
+Fix CI
+Fix typo
+Fix unused variable warnings (#9790)
+Fix a link to a type in the docs for Logger
+Fix logger truncate for multi-byte characters (#9767)
+Fix doc for `time_zone_periods_from_wall_datetime/2` (#9770)
+Fix typo in Patterns and Guards page (#9768)
+Fix docs for compiler tracing events (#9760)
+Fix typo in String documentation (#9756)
+Fix bug: move :indentation from sigil meta to binary meta (#9738)
+Fixed-width font for Kernel [skip ci] (#9732)
+Fix since for is_struct/2 (#9726)
+Fix formatting
+Fix no_parens test
+Fix mix.release raising error when src is missing in erts_source (#9703)
+Fix Path.absname/1 to correctly handle UNC paths on Windows (#9689)
+Fix bounded funs in macrocallbacks, closes #9687
+Fixes typo in Config docs [skip ci] (#9682)
+Fixes for new Macro.to_string behaviour
+Fix spelling mistake in docs (#9660)
+Fix CI for stale tests
+Fix race conditions in impl test
+Fix table format in Base module (#9614)
+Fix bug when last two columns are empty in IO.ANSI.Docs (#9615)
+Fix typo on test name (#9611)
+Fix ERLC_OPTS in .cirrus.yml (#9605)
+Fix message in CI
+Fix release tar when include_erts is false (#9570)
+Fix race condition on dynamic supervisor test, closes #9574
+Fix release tar path in docs (#9563)
+Fix recently introduced bug in NO_COLOR feature (#9558)
+Fix bug in Calendar.ISO.day_of_era/3 typespec (#9539)
+Fix guards with newly bound variables on diff
+Fix failure on Windows CI
+Fix "mix format" docs mention to wrong section (#9513)
+Fix for default leftover in Enum.chunk/3 (#9507)
+Fix assertion on test with race condition
+Fix a typo in Calendar docs (#9498)
+Fix heisentest in ExUnit suite
+Fix mix local.hex and mix local.rebar
+Fix a typo on System.build_info docs (#9491)
+Fix typo in comment on Module.Types.Infer (#9475)
+Fix: do not log that logger application is stopping (#9468)
+Fix heisentest
+Fix reading whole file opened as :charlist (#9448)
+Fix pending test
+Fix specs in IEx related to break (#9433)
+Fix typo in release docs (#9435)
+Fix ExUnit.Case.env/0 type (#9423)
+Fix typespec for Calendar.ISO.year_of_era/1 (#9414)
+Fix typos and outdated config
+Fix type details in the child spec documentation (#9371)
+Fix typo in Stream documentation
+Fix defstruct code formatting with inline comments (#9358)
+Fix DateTime.truncate/2 docs to show that :millisecond is an atom (#9365)
+Fix documentation (#9361)
+Fix typos in Regex docs (#9353)
+Fixed guard typespec (#9341)
+Fix registration of Logger.ErlangHandler (spec mismatch) (#9330)
+Fix documentation for ordering in @after_compile (#9335)
+Fix documentation for ordering in @before_compile
+Fix typo in docs
+Fixes for release install command on Windows, closes #9310
+Fix join/2 dot result at path end (#9285)
+Fix function arity in the DynamicSupervisor docs
+Fix missing backtick in mix.release struct docs (#9281)
+Fix container algebra on diffs (#9263)
+Fix release RPC tests (#9253)
+Fix a few typos here and there (#9238)
+Fix formatter removing nested parens in call on call (#9211)
+Fix Keyword moduledoc typo (#9197)
+Fix doctest in Code (#9194)
+Fix typo in docs about registered callbacks order (#9175)
+Fix typo in Port docs (#9174)
+Fix typo in Config docs (#9156)
+Fix typespec of Macro.Env.t (#9155)
+Fix typos in Macro docs (#9141)
+Fix bad naming on release script for Windows (#9135)
+Fix redirection to null on windows (#9130)
+Fix doc (#9107)
+Fix grammar mistake in Compatibility page (#9077)
+Fix casing in Unicode Syntax (#9074)
+Fix typo in Config.Provider moduledoc (#9070)
+Fix hiding Mix format errors with stdin (#9059)
+Fix specs in EEx.Tokenizer (#9061)
+Fix overlapping domains in Dialyzer (#9046)
+Fix skipping message assertion
+Fix typo on techniques section of release mix task (#9026)
+Fix a syntax error in the docs for try/1 (#9017)
+Fix typo (#9011)
+Fix some typos in Mix.Tasks.Release (#9002)
+Fix columns in tokenize of dot_call_op (#8995)
+Fix typo OPT -> OTP on elixir application.ex (#8996)
+Fix typo of configuration in release.ex
+Fix ETS leak in Registry.register
+Fix GenServer.code_change/3 @spec (#8959)
+Fix a typo in the docs for "mix release" (#8950)
+Fix bug in Kernel.in/2 when right is [] (#8946)
+Fix doc example for Protocol.derive/3 (#8934)
+Fix dialyzer warnings related to Version.Requirement's opaque type (#8929)
+Fix a typo in the docs for the Code module (#8926)
+Fix grammar in Module
+Fix alias surrounded by backticks not being linked
+Fix function/arity surrounded by backticks not being linked
+Fix small typo for ceil behavior docs (#8874)
+Fix uncommented `...` in periodic task genserver documentation (#8820)
+Fix typos in Kernel.SpecialForms (#8819)
+Fix documentation typos (#8805)
+Fix typo in Task.Supervisor.async_nolink/3 doc (#8793)
+Fix module inspect on case insensitive filesystems (#8782)
+Fix grammar issue in Mix.Tasks.Compile.Xref moduledoc (#8784)
+Fix typo in DynamicSupervisor docs (#8783)
+Fix typos in Kernel.SpecialForm docs (#8781)
+Fix link to IEx.pry/0 in IEx.Server moduledoc (#8773)
+Fix typo in syntax reference page (#8770)
+Fix CI for releases (#8755)
+Fix typos in Kernel.SpecialForm docs (#8756)
+Fix typos in Mix.Tasks.Release (#8741)
+Fix typos in Mix.Release (#8739)
+Fix typo (#8737)
+Fix OS assertion on Elixir script
+Fix typos in Kernel.SpecialForms doc (#8731)
+Fix IEx.pry crash when IEx (IEx.Broker) isn't running (#8730)
+Fix rounding for subnormal floats (#8687)
+Fix specs for Mix.Project umbrella?/1 and apps_paths/1 (#8683)
+Fix indentation in doctests (#8654)
+Fix a typo in the Library Guidelines page (#8651)
+Fix typo in Task docs (#8650)
+Fix docs for DynamicSupervisor.start_child/2 (#8647)
+Fix parsing Markdown links for h function (fix #8629) (#8641)
+Fix typo in GenServer docs (#8623)
+Fix typo in DynamicSupervisor.init/1 docs (#8622)
+Fix typo in compile.xref (#8609)
+Fix cond scope and improve coverage, closes #8542 (#8544)
+Fix day in t:File.erlang_time (#8503)
+Fix typo in File docs (#8500)
+Fix IEx.Server test (#8496)
+Fix @spec for List.improper?/1 (#8490)
+Fix typos in IEx modules' docs (#8477)
+Fix a typo in the Mix.Task.Deps module docs (#8430)
+Fix link to fn/1 special form in Kernel docs (#8427)
+Fix direct `Logger.log` call in case of compile_time_purge_matching logger option (#8391)
+Fix breaking of documentation introduced in #8373 (#8381)
+Fix typos in the docs for the IEx module (#8373)
+Fix ZWJ handling in Unicode grapheme clusters (#8361)
+Fix minor grammar for docs of Module.register_attribute (#8365)
+Fix misleading doc string (#8355)
+Fix message when all dependencies are up to date (#8326)
+[typo] Fix wildcard in test file pattern matching (#8311)
+Fix typo in bad_pipe/2 private function (#8290)
+Fix bug introduced to ExUnit in #8257 (#8264)
+Fix grammar in the Integer.undigits/2 docs (#8224)
+Fix error messages for some "try" errors (#8220)
+Fix the t/1 IEx helper for private types (#8218)
+Fix broken link to library guidelines (#8216)
+Fix registry doc test (#8200)
+Fix wrong arity in Integer docs (#8181)
+Fix invalid expansion for remote (#8154)
+Fix for converting from negative iso days on New Year in a leap year (#8145)
+Fix a typo in the docs for Enum.filter/2 (#8144)
+Fix typo in Guards.md (#8142)
+Fix docs and specs in IEx.Pry
+Fix GenServer spec (#8124)
+Fix a typo in the File docs (#8119)
+Fix Logger spec for functions working with backends (#8117)
+Fix double space in Process @moduledoc (#8107)
+Fix type in logger.ex doc sample (#8096)
+Fix arity of try/1 in :elixir_import.special_form (#8079)
+Fix typos in Task.Supervisor documentation (#8072)
+Fix typo in String.to_charlist/1 doc (#8067)
+Fix typos in literals (strings/charlists) (#8057)
+Fix comment typos (#8056)
+Fix typo secon -> second (#8051)
+Fix unused variable warning (#8049)
+Fix year in negative datetimes with offset (#8038)
+Fix errors with ref/4 IEx helper (#8016)
+Fix error typo in elixir_bitstring.erl (#8030)
+Fixes to List.myers_difference/3
+Fix warning for unused var in Module (#8005)
+Fix formatting in docs for access.ex (#8003)
+Fix all compiler warnings (#7992)
+Fix issues with dialyzer infinite loop (#7993)
+Fix too wide example for Calendar.ISO.datetime_to_string (#7956)
+Fix make dialyze target
+Fix example in DynamicSupervisor moduledoc (#7945)
+Fix example code in Tuple @moduledoc (#7944)
+Fix misplaced parenthesis in System.cmd/3 examples [skip-ci] (#7942)
+Fix a typo in the unnecessary quotes warning (#7934)
+Fix nested use of Mix.Config.eval!/2 (#7925)
+Fixed indentation in StringIO.open/3 examples (#7920)
+Fix error when :trim_bom is used with :encoding
+Fix Unicode references
+Fix time unit depracation messages (#7885)
+Fix syntax highlighting of Calendar.ISO docs (#7880)
+Fix Time.diff/3 doc (#7878)
+Fix typo in Mix.Dep documentation (#7876)
+Fix erlang-based tests
+Fixes to binary generators with collectable into in comprehensions
+Fix documentation for Date.months_in_year/1
+Fix specs for Task.Supervisor.start_child/2,3,4,5
+Fix description of max_children option (#7787)
+Fix error_handler tests on Erlang/OTP 20 and earlier
+Fix moduledoc typos in Regex (#7762)
+Fix some grammar in the docs for Integer.parse/1 (#7761)
+Fix example code referencing a non-existent variable (#7757)
+Fix the LFE example in Mix.Compilers.Erlang (#7755)
+Fix typo in Library Guidelines: paralleiize -> parallelize (#7751)
+Fix typo in docs of `Task.async_stream/5` (#7746)
+Fix type spec for Task.Supervisor.start_child/4 (#7744)
+Fix documentation of GenServer
+Fix column in :elixir_tokenizer for double quotes in keyword identifiers (#7722)
+Fix space in OptionParser docs (#7710)
+Fix faulty function call in comment (#7692)
+Fix reference in Code.Formatter's doc (#7690)
+Fix typespec for Registry.dispatch
+Fix example $metadata output in Logger.Formatter docs
+Fixed `Supervisor.child_spec/2` param name used in docs (#7657)
+Fix link to Kernel.elem/2 (#7654)
+Fix an "unused variable" warning in the String module (#7603)
+Fix typespec for DynamicSupervisor.init/1 (#7596)
+Fix typespec for DynamicSupervisor.on_start_child (#7590)
+Fix typo in code formatter (#7582)
+Fix typespecs for named records (#7569)
+Fix typo (#7570)
+Fix parsing of queries with just "?" in URI.parse/1 (#7565)
+Fix formatter for tilde inside bitstrings, closes #7558
+Fix small typo in `break!/4` doc (#7554)
+Fix defguardp arity in docs (#7546)
+Fix mix compile error on invalid umbrella apps_path (#7537)
+Fix column in :elixir_tokenizer for sigils with modifiers (#7529)
+Fix typos in GenServer @moduledoc (#7525)
+Fix typo (#7524)
+Fix typo in library guidelines (#7516)
+Fix function typos (#7507)
+Fix typo in formatter (#7504)
+Fix the description of the c/1 IEx helper (#7502)
+Fix typo in a comment in IEx.Pry (#7501)
+Fix small math error in error_logger config option (#7499)
+Fix swapped cursor_left and cursor_right
+Fix minor logger documentation typo (#7491)
+Fix column count on heredoc tokenizer (#7486)
+Fix a typo in the docs for quote (#7483)
+Fix table column alignment with ANSI escapes (#7415)
+Fix the build
+Fix typo in Macro docs (#7405)
+Fix some variable names in the docs for NaiveDateTime (#7387)
+Fix typos in NaiveDateTime module documentation (#7389)
+Fix DynamicSupervisor error report when restarting child (#7377)
+Fix DynamicSupervisor handling of extra arguments on child restart (#7371)
+Fix Port.open/2 signature (#7360)
+Fix typo in Macro docs (#7357)
+Fix a few typos in some pages in the docs (#7352)
+Fix missing param in DynamicSupervisor doc (#7326)
+Fixed eprof to work with multiple processes (#7317)
+Fix DynamicSupervisor error report
+Fix typo in the Logger docs (#7312)
+Fix two Macro.to_string tests (#7296)
+Fix a minor typo in the documentation (#7275)
+Fix typo (#7269)
+Fix typo in mix documentation (#7262)
+Fix updating and using Hex in the same VM instance (#7249)
+Fix example of "Catching values of any kind" (#7241)
+Fix precedence of & in regards to =, closes #7188
+Fix a typo in a heredoc-related warning
+Fix inspect for non-decimal negative integers (#7181)
+Fix typo (#7178)
+Fix Application start and start_phase spec (#7153)
+Fix Supervisor.child_spec() type (#7157)
+Fixes to readme and deprecation pages
+Fix clean command for erlang-based compiler tasks
+Fix documentation for a formatter option (#7129)
+Fix typo in the documentation for String.split/3 (#7127)
+Fix Stream.chunk_every/4 odd results when step > count (#7114)
+Fix some wording in the IO documentation (#7111)
+Fix documentation for Mix.Generator.create_file/3 (#7110)
+Fix count_children for Task.Supervisor, closes #7101
+Fix some language in the docs for :bind_quoted (#7079)
+Fix the documentation for Dynamic Supervisor (#7086)
+Fix precedence of bitwise XOR (^^^) in formatter (#7036)
+Fix @impl warnings with default arguments (#7028)
+Fix spec of Map.get_and_update!/3 (#7021)
+Fix a formatting bug in the documentation for Application.spec/1
+Fix bootstrapping issues
+Fix formatting of multiline "foo.{...}" calls (#6979)
+Fix backtick position in Enum doc (#6965)
+Fix handling deprecated return value for Erlang.compile callback (#6960)
+Fix IEx and Mix suites on Windows (#6959)
+Fix a bug where we discarded some meta in some literals in the parser (#6946)
+Fix docs about logging strings vs functions (#6942)
+Fix tokenizer tests
+Fix README.md incorrect link to Getting Started guide (#6927)
+Fixes to previously formatted files
+Fix bootstrap
+Fix optional comma test in tuple_test
+Fix the build for IEx pry tests
+Fix build failure on map test
+Fix the build and improve wrapping in IEx.Info
+Fix build on line filter
+Fix the build
+Fix the build
+Fix test race condition accessing tmp directory (#6721)
+Fix arity of defdelegate in the code formatter
+Fix File.ls/1 docs, closes #6636
+Fix example for ex_unit assertion (#6608)
+Fix negative microsecond result from DateTime.from_unix/2 (#6599)
+Fix @impl attribute for default arguments (#6595)
+Fix typo in Task docs (#6588)
+Fix local.hex --if-missing (#6576)
+Fix overridable tests
+Fix typo in Task.Supervisor (#6545)
+Fix typo in MapSetTest
+Fix compiler warnings in ExUnit.assert_receive/3
+Fix more typos and spelling errors (#6530)
+Fix a few spelling errors (#6525)
+Fix typo in Inspect.Algebra doc (#6522)
+Fix random seed generation in ExUnit for Windows systems (#6512)
+Fix keyword ordering on try
+Fix ordering of rescue and catch in try
+Fix bootstrapping issues
+Fix a word in the Kernel moduledoc (#6506)
+Fix mix test CLI test output
+Fix integer token representation for decimal integers
+Fix Date.Range.t (#6496)
+Fix an example in the docs for Enum.reduce/3 (#6493)
+Fix the spec and docs for Integer.undigits/2
+Fix some formatting in the documentation for the Supervisor module
+Fix error in Task.Supervisor docs (#6489)
+Fix mix_exs option in Mix.Tasks.Run
+Fix typos (#6484)
+Fix spelling (#6460)
+Fix Time.new spec (#6447)
+Fix gen_event docs typo (#6440)
+Fix URI.parse/1 to preserve empty fragments (#6419)
+Fix double spelling in Calendar.ISO
+Fix Macro.to_string/2 for tuple calls (#6418)
+Fix top slowest to consider we may have measured 100%
+Fix a copy and paste error in the documentation (#6408)
+Fix documentation formatting where ` follows \ (#6400)
+Fix operation passed to assert_no_null_byte (#6397)
+Fix small typo in GenServer,Supervisor,Task doc (#6384)
+Fix compiler and dialyzer warnings on with
+Fix formating in ExUnit
+Fix protocols diff calculation between compilations (#6339)
+Fix failing assertion in Kernel.ErrorsTest
+Fix @spec in the "Defining a specification" section of Typespecs page (#6338)
+Fix typo in the documentation for Agent (#6324)
+Fix warnings in NaiveDateTime
+Fix warnings when running tests on OTP lower 20
+Fix return type of Mix.Task.alias?/1 (#6310)
+Fix system_info test
+Fix DateTime.convert/2 (#6277)
+Fix failing Base test
+Fix comment preservation bug (#6284)
+Fix binaries optimisation from #6240 (#6272)
+Fix the documentation for Stream.drop_while/2 and Stream.take_while/2
+Fix stream cycle over empty enumerable (#6253)
+Fix inspect for Regexes with terminator, closes #6255
+Fix small typo in Unicode docs (#6250)
+Fix broken test for Mix.Task run callback (#6245)
+Fix ExUnit.MultiError.message/1 implementation
+Fix typo in Enum doctest (#6228)
+Fix message leak in Task.async_stream and friends (#6214)
+Fix typo in Process docs (#6218)
+Fix mention to double-underscore forms in Naming Conventions (#6199)
+Fixes to CHANGELOG
+Fix typo
+Fix Date moduledoc
+Fix DateTime.from_iso8601/2 when offset has no colon
+Fix a TODO comment
+Fix Supervisor.start_link to obey type contracts
+Fix a typo in the documentation for ExUnit.Formatter
+Fix inspect value for :name option (#6160)
+Fix escript on windows
+Fix typo in the docs for Enum.map_every/3 (#6151)
+Fix warnings in Inspect impl
+Fix struct syntax expansion test
+Fix "floating-point" spelling
+Fix test failing introduced in 6a2cfef (#6110)
+Fix precedence of unary operators and operator capture
+Fix typo in operators docs (#6103)
+Fix typo in variable names in Regex (#6085)
+Fix a typo in a test for Version
+Fix warning in Module
+Fix formatting issue in CHANGELOG.md (#6032)
+Fix max_seconds type
+Fix race condition in format_exit test
+Fix quoting of bitstring literals
+Fix some verb conjugation in the docs (#6010)
+Fix use of Prepositions
+Fix a typo in a comment in Registry (#5958)
+Fix MatchError in ExUnit when comparing maps with nil or boolean keys (#5957)
+Fix whitespace for GenServer.whereis/1
+Fix Integer.gcd/2 to not raise for zeros
+Fix documentation for ExUnit.Assertions.assert/1
+Fix warning in doctest for Agent.start_link/2
+Fixes and improvements to Calendar modules
+Fix warning when asserting a pattern that always match (#5918)
+Fix some minor things in docs for some functions in Kernel
+Fix documentation of Kernel.use/2 (#5900)
+Fix the behaviour of defdelegate/2 with default arguments (#5894)
+Fix typespec for Task.async/1, Task.Supervisor.async/2 and friends
+Fix a typo in the docs for "mix deps.compile" (#5850)
+Fix a few typos in Deprecations page (#5840)
+Fix test messages in Profile.CprofTest
+Fix bootstraping of elixir_bitstring
+Fix several warnings in Float
+Fix some documentation in OptionParser
+Fix dir? documentation (#5827)
+Fix integer invalid base error message (#5826)
+Fix typespec of DateTime.from_unix! (#5810)
+Fix var context in Kernel.ExpansionTest
+Fix how the generated annotation is handled in Elixir
+Fix camelize mechanism for uppercase chars
+Fix a bug when checking for _ clauses in cond
+Fix option validation in "with"
+Fix last mentions to elixir_scope
+Fix a bug in URI.merge/2 (#5780)
+Fix test related on definition body
+Fix minor typo in the Inspect.Algebra documentation (#5784)
+Fix arguments in operators section of syntax reference (#5775)
+Fix doc in Mix.Config (#5766)
+Fixed typo in Registry.start_link arity (#5759)
+Fix indentation in Logger.Translator
+Fix typo and grammar in Mix.Tasks.Compile.App doc (#5733)
+Fix an example in the docs for Map.put_new/3 (#5723)
+Fix redefined function source location (#5720)
+Fix deps.get infinite loop on depedency cycles (#5715)
+Fix code style in tests for OptionParser (#5714)
+Fix bug that allows upper case letters in app name (#5713)
+Fix Kernel.binary_part/3 spec (#5703)
+Fix race condition yield_many test
+Fix Protocol.def/1 to accept more than 63 arguments in definition
+Fix documentation error (#5683)
+Fix dialyzer underspec warning with __protocol__/1 (#5679)
+Fix Macro.underscore/1 for screaming snake case (#5630)
+Fix Macro.camelize/1 for screaming snake case (#5662)
+Fix Mix.Shell.IO.yes? documenation (#5659)
+Fix port message format (#5658)
+Fix wrong word in System.cmd docs (#5657)
+Fix translation of maps used as map keys (#5654)
+Fix typo in IEx.pry/1 documentation (#5653)
+Fix typo in URITest test name (#5647)
+Fix a typo in IEx.Evaluator.prune_stacktrace (#5644)
+Fix e/1 IEx helper to not return :ok (#5643)
+Fix a typo in the docs for Map.split/2 (#5642)
+Fix Path.join/1 for lists of one element (#5639)
+Fix typespecs in Calendar (#5635)
+Fix broken hash link in Registry doc (#5623)
+Fix Path.win32_pathtype/1 code style
+Fix removal of aliases (#5591)
+Fix a typo in Kernel (#5595)
+Fix ceil function with zero as input (#5594)
+Fix a typo in IEx.Server (#5589)
+Fix indentation in IEx.Autocomplete
+Fixed typos in ansi docs test names (#5571)
+Fixed typo in Guards guide (#5570)
+Fixed typo in elixir_def:format_error/1 (#5569)
+Fix a typo in the docs for :preferred_cli_env in Mix.Project
+Fix typo in the docs for  (#5564)
+Fix whitespace inconsistencies all around (#5562)
+Fix whitespace inconsistencies in stdlib (#5559)
+Fix double whitespace in Inspect
+Fix race condition in paritions registry cleanup test
+Fix typo in the docs for Access (#5542)
+Fix system_test (#5528)
+Fix expansion_test
+Fix a deprecation in elixir_dispatch
+Fix typo in Application start callback doc (#5522)
+Fix typo in Tuple moduledoc (#5510)
+Fix small typo on CHANGELOG.md (#5484)
+Fix typo (#5475)
+Fix converger order (#5452)
+Fix IEx coloring tests
+Fix the doc of arithmetic division (`/`) (#5460)
+Fix the example of `div/2` (#5459)
+Fix the spec and guards for Inspect.Algebra.surround_many/6 (#5450)
+Fix typo on String.replace doc (#5449)
+Fixes to the Port docs
+Fix ratio for floats > 2
+Fix typo in Kernel (#5434)
+Fix description of struct literal
+Fix consistency in Calendar (#5430)
+Fix typo in tokenizer (#5428)
+Fix typo on Mix.Tasks.Deps.Update doc (#5427)
+Fix Record.defrecord/3 example (#5408)
+Fix the docs of Supervisor.start_link/2 (#5411)
+Fix a typo in the docs for Registry (#5409)
+Fix typo in Kernel doc (#5406)
+Fix typo in Registry docs (#5405)
+Fix return value for GenServer.handle_info doc (#5401)
+Fix a couple of typos in the docs for Registry
+Fixing :count support in OptionParser.to_argv (#5394)
+Fixes to the documentation (#5382)
+Fix typo in Mix.Dep.Converger doc (#5363)
+Fix typo on Mix.Tasks.Deps.Tree doc (#5361)
+Fix typo in Mix.Tasks.Deps.Precompile doc (#5359)
+Fix typo in MapSet doc (#5358)
+Fix ExUnit case when dealing with timeout 0 (#5336)
+Fix ExUnit "test invalidated" message typo (#5338)
+Fix commends around module_nesting/2 in Kernel (#5330)
+Fix typo: :sasl_logger_tty_h -> :sasl_report_tty_h (#5320)
+Fix markdown formatting error
+Fix ===/2 operator precedence issue in Float
+Fix typos and add source
+Fix Dialyzer warnings on opaque protocol calls (#5286)
+Fixes a silly typo in the docs (#5269)
+Fix typo in README (#5283)
+Fix Macro.to_string when printing keywords (#5270)
+Fix typespec for Mix.ProjectStack.project() (#5263)
+Fix Task.shutdown/1,2 infinite block when no monitor (#5252)
+Use singular names for time units, as in Erlang/OTP 19.1. Fix #5236 (#5244)
+Fix precision note in the "Operators" reference page (#5243)
+Fix a typo in the "Operators" page of the docs (#5242)
+Fix a few typos introduced in 904e89782dcde18463b1306e6fe47a0798d55e7f
+Fixing spelling mistakes of specially -> especially. (#5235)
+Fix typo in Calendar moduledoc (#5227)
+Fix a typo in the CHANGELOG (#5226)
+Fix last_day_of_month callback
+Fix `struct` built-in type documentation (#5219)
+Fix some `exported from case` from erlang source (#5214)
+Fix operators table (#5207)
+Fix the name of the last argument to defmodule/2 and defprotocol/2 (#5201)
+Fix formatting in doctests for String.splitter/3 (#5195)
+Fix typos in file.ex (#5178)
+Fix some markup in the docs for ExUnit.Case
+Fix typo in `List` (#5166)
+Fix a typo in the name of a parameter in the ExDoc comment for File.stream!/3 (#5160)
+Fix order dependency in logger suite
+Fix {Enum, Stream}.map_every/3 behaviour when nth is 0
+Fix DateTime.from_unix!/2 to actually raise ArgumentError
+Fix String.split when parts and trim is used (#5077)
+Fix typo in documentation (#5070)
+[ci skip] Fix typespecs for Stream.chunk/2 (#5064)
+Fix broken GenServer using :via registry (#5052)
+Fix a bug in String.replace_leading/3 and String.replace_trailing/3 (#5022)
+Fix Keyword.get_and_update!/3 test
+Fix Enum.fetch/2 to return nil if Stream has no given index
+Fix a typo in the "Typespecs" page in the docs (#5011)
+Fix docs for \N and \g{N} in String.replace/4 and Regex.replace/4 (#4998)
+Fix docs (#5006)
+Fix IO.binread docs
+Fix edit script for maps when there are no joint elements
+Fix doc formatting for IO.gets/2 (#4974)
+Fix a typo in the docs for Kernel.use/2
+Fix typespecs not showing up for Stream.into/3 (#4956)
+Fixed small error in docs representation (#4954)
+Fix color_background/3 exception tests (#4949)
+Fix typespec for List.keymember?/3 (#4938)
+Fix @macrocallback spec translation
+Fix the spec for OptionParser.parse_head!/2
+Fix typespec for Kernel.pop_in/2 (#4931)
+Fix struct/0 typespec
+Fix some docs in the Record module
+Fix typo in the docs for the List module (#4903)
+Fix race condition in IEx.Server (#4895)
+Fix an assertion in Kernel.TypespecTest
+Fix documentation for Date.new/3 (#4888)
+Fix Kernel.LexicalTracker not to discard alias directives on import
+Fix h helper for binary operators, closes #4859 (#4860)
+Fix the name of the ExUnit.DescribeTest module (#4824)
+Fix race conditions in logger translator tests
+Fix failing Kernel.DialyzerTest under Windows (#4805)
+Fix failing SigilsTest for newline under Windows (#4806)
+Fix DateTime struct examples.
+Fix parallel compiler to only send found message once (#4777)
+Fix Kernel.SpecialForms.try documentation (#4763)
+Fix failing tests for System.cmd/3 on windows (#4760)
+Fix indentation in a doctest in DateTime (#4743)
+Fix Enum and Mix.Dep documentation
+Fix reference to "archive" in Mix.Tasks.Escript.Install
+Fix typo in Logger reset_metadata documentation (#4732)
+Fix default encoding for put_chars in StringIO (#4730)
+Fix Calendar @moduledoc about date subdivision overspecification. (#4724)
+Fixes indentation around in the URI module (#4715)
+Fix syntax error in doctest
+Fix small typo in Kernel.SpecialForms documentation (#4700)
+Fix Kernel datetime tests and structs docs
+Fix schedulers online assertion
+Fix binary typespecs
+Fix test race in IEx (#4666)
+Fix the documentation for functions in Base
+Fix a typo in the iex man page (#4655)
+Fix failing doctest for Path.expand/1 under windows.
+Fix failing test "expand path with user home" for Path.expand under Windows.
+Fix failing test "relative win" for Path.relative_to/2 under windows
+Fix warning errors in IEx and EEx
+Fixes for Erlang 19 RC
+Fix nfd normalization bug (#4606)
+Fix typo in Algebra doc (#4616)
+Fix typo in Keyword doc (#4603)
+Fix minor typo in GenServer documentation (#4595)
+Fix typo in docs for `left && right` (#4593)
+Fix documentation typo (#4574)
+Fix ExUnit stacktrace formatting when its entry has no location (#4572)
+Fix a bug when non-literal ranges are unquoted in guards
+Fix documentation typo [ci skip] (#4567)
+Fix documentation typo (#4558)
+Fix String.replace_trailing/3 replacement bug
+Fix String.replace_leading/3 replacement bug
+Fix String.replace_leading/3 bug when the rest of string equals match
+Fix typo
+Fix broken link in README
+Fix Macro.to_string keyword blocks in normal function calls (#4526)
+Fixes typo in test. "shorcut" => "shortcut". (#4520)
+Fix 'elixir -v' to display Erlang :system_version info
+Allow generated variables in map keys. Fix #4428 (#4504)
+Fix map with struct difference highlighting
+Fix typos in GenServer docs
+Fix typo
+Fix and improve Enum.sum/1 for ranges
+Fix duplicate String.to_char_list conversion
+Fix Regex overloaded Dialyzer warnings
+Fix Mix and Keyword Dialyzer warnings
+Fix  "is a supertype of the success typing" warning
+Fix overlapping domain for range spec
+Fix 'Elixir.ExUnit.Filters':eval/4 return type spec
+Fix error text in rebar eval_script
+Fix doc string for h() fn in iex
+Fix local.rebar overwrite check
+Fix doctests parsing when IEx prefix contains a number
+Fix rebar default requirements
+Fix a possible binary leak in Integer.parse/1
+Do not escape new line when interpolation is disabled. Fix #4209.
+Fix typo in elixir.erl
+Fixed typos in Kernel.SpecialForms docs
+Fixing typos in GenEvent docs
+Fix String.slice/2 doc
+Fix some style issues
+Fix a typo in the name of `MIX_ARCHIVES` in the docs.
+Fix an issue with removing a non-existing escript
+Fix Stream.resource spec
+Fixed typos in GenEvent docs. Removed dead link to Getting Started guide.
+Fix System.read_stripped/1 to properly deal with \r\n\t
+Fix typespecs table
+Fix alphabetical order of IEx helpers
+Fix "case" tag filtering doesn't work
+Fix wording in the docs for case and cond
+Fix Enum.uniq_by example
+Revert "Fix iex test race condition"
+Fix spelling of overridden in SpecialForms docs
+Fix iex test race condition
+Fix warning in mix test.
+Fix typo in exunit test
+Fix bug in Path.join. Fix #4252.
+Fix typos in Elixir docs
+Fixed arity typo in Path documentation
+Fix the build
+Fix documentation for GenEvent Streaming
+Fixes typo in `quote` docs
+Fix a crash in Macro.to_string if a tree looks like a sigil but the function is not an atom
+Fix a typo in `for/1` docs
+Fix typo in String documentation: padding -> pad
+Fix the description of the timeout
+Fixes bug in IEx.Config.configuration
+Fixes to docs
+Fix grammar
+Fix a race condition in gen_event_test.exs. Fix #4131
+Fix race condition in task_test.exs, closes #4130
+Fix bug in Macro.to_string. Fix #4116.
+Fix CHANGELOG
+Fix link to Kernel.<=/2 in Enum.sort_by/3 @doc
+Fix small typo in Writing Documentation.md
+Fix issue #4081 UnicodeConversionError would generate invalid strings
+Fix example in `quote`
+Fix bug in Macro.to_string. Fix #4065.
+Fix typo: ArguementError -> ArgumentError
+Fix edge case in Path.expand. Fix #4050.
+Fix invalid UTF-8 in Base.decode error message
+Fix typos in Elixir moduledocs
+Fixed typo in supervisor docs
+Fix #3914: split IEx server/evaluator state to prevent unnecessary copying
+Fix indentation in elixir_exp
+Fix remsh'ing to node with different beam files
+Fix a typo in GenServer Documentation
+Fix erroneous formatting in the docs for 'try'
+Fix formatting of example
+Fix filesystem race condition on mix test suite
+Fixing minor misspelling
+Fix innacurate iex output
+Fix bootstrap issues on macro code
+Fix code example in the document for quote macro
+Fix race condition on umbrella path dependency test
+Fix dialyzer warnings for remote calls
+Fix bitstring splicing for `bytes` type modifier
+Fixed a typo in @doc.
+Fix small typo in docs for File.rename/2
+Fix default value of :time option in File.Stat docs
+Fix failing tests
+Fix Range validation
+Fix Macro.to_string/2 to print ranges
+Fix assertion errors with more than 1 pinned var
+Fix invalid String.to_atom calls
+Fix bugs involving Markdown code
+Fix `responsible to keep` → `responsible for keeping` in env.ex doc
+Fix markdown files
+Fix `does` → `do` verbal agreement in special_forms.ex
+Fix typo in File.cp_r for files (rename tmp to b.txt)
+Fix typespecs for Stream.chunk
+ExUnit: Fix warning in test
+Line numbers for doctest errors. Fixes issue #3592
+Fix typo in mix man page
+Fix warning in warning_test.exs
+Fix test name related failure
+Fix doc comment for File.cp_r
+Fix race condition in `CaptureLogTest`
+Fix identention inside lists
+Remove compiled protocols on mix clean. Fixes #3541
+Fix bootstrap issues in kernel/cli
+Fix var warnings
+Add quotes. Fixes #3536
+Rename release_zip to release_precompiled. Fixes #3543
+Fix Docs: Kernel.++/2 is not allowed in guards
+Fix Macro.pipe syntax when bootstraping
+Fix grammar in Macro.expand/2
+Fixing typo in Task.Supervisor.async/4 distributed task docs
+Fix re-registering of device after exit signal in `ExUnit.CaptureIO`
+Fix implementation of Stack module which doesn't fit to the Supervisor implementation
+Fix warnings in doctests
+Fix the logger format in the Logger moduledoc to match the actual used one
+Fix unused variable warning in logger test
+Fix map typespec in helpers test
+Fix map typespec in helpers test
+Fix reversed Line, Column in tokenizer
+Fix typespec test on OTP18
+Fix race condition in gen_event tests
+Fix typo
+Fix race condition in logger translator test
+Fix `StringIO` processes leakage in the `ExUnit.CaptureIO`
+Fix GenEvent detecting module that isn't loaded
+Fixed several mistakes in the elixir and iex man pages
+Fix an errant function arity in the docs
+Fix including .app file in archives
+Fix docs typos
+Fix `File.cp/3` in case of a file coping to itself
+Fix doc formatting for `Path.split/1` examples
+Fix runner test
+Fix `=` to `==` in a KeywordTest test
+Fix `Keyword.get_and_update/3` function
+Fix inferred argument names in `Module.simplify_signature/2`
+Rename Enum.sample to Enum.random. Fixes #3285.
+Fix to_string for Version with numeric pre
+Fix Version.pre typespec
+Fix default value on `which_applications` timeout
+Fix whitespace errors in Integer source file
+Fix small defects
+Remove guards. Fixes #3248.
+Fixes for Erlang 18.0-rc1
+Fix doc formatting in ExUnit.Formatter
+Fix spec for `Keyword.new/2`
+Fix error in EEx docstring ("a macro" to "an expression")
+Fix race discovered by +T 9 in GenEvent test.
+Fix doctest :only, so it accepts multiple functions
+Fix ExUnit.Assertions assertion fail doc example
+Fix typo
+Fix some docs in the `Atom` module
+Fixed the formatting and some docs in the Tuple module
+Fix @spec for Path.wildcard + doc:return value
+Fix httpc proxy option profile
+Fix Exception.stacktrace_entry/0 type spec
+Fix boundary in Enum.take/2, closes #3042
+Fix some grammar in the docs for Access, and add more docs
+Fix race condition in undef logger translator tests
+Fix a minor typo in the docs for `Module`
+Fix `Keyword.get_and_update/4` funtion name
+Fix the logging with `metadata[:function]`
+Fixes #3009
+Fix error documentation for Kernel.hd/1
+Fixed typos in Supervisor doc
+Fix inconsistency of collection in Enum
+Fix failing documentation assertion
+Fix column counting in elixir_interpolation.erl
+Fix line extraction in elixir_parser
+Fix a few simple typo's, found while perusing the code.
+Fix mix shell tests when ansi escapes are disabled
+Fix bootstrap issues
+Fix doc build instructions
+Fix incorrect boundary condition
+Fix IO.ANSI.Docs for multiple stars/underscores/backticks
+Fix broken IO.ANSI.Docs parser
+Fix misspellings in docs, comments, and strings.
+Fix string splitting on regex when both :trim and other options are present
+Fix splitting of empty strings on regex with trim: true
+Fix typo in module documentation
+Fix GenServer.cast/2 docs
+Fix command_to_module_name not converting snakecased names properly
+Fix SupervisorTest :push handle_cast method
+Fix type of Inspect.Opts limit
+Fix `String.ljust/2,3` and `String.rjust/2,3` functions
+Fix @doc of List.keyfind,keymember? and keydelete
+Fix typo
+Fix test for mix deps.clean.
+Fix missing concatenation operator.
+Fix a couple of minor typos in docstrings
+Fix String.replace/4 typespec
+Fix documentation of IO module
+Fix :stderr_to_stdout option
+Fix spec for surround_many
+Fix compiler warning
+Fix a typo in Dict's docs
+Fixed String doc link
+Fix a typo in Code.eval_file's doc
+Fix a typo in IO.inspect’s doc
+Fix my own typo in helpers.ex
+Fix typos in Stream.transform/3 docs
+Fix IEx test
+Fix elixir dialyzer warnings
+Fix iex dialyzer warnings
+Fix :sys.replace_state/2,3 for GenEvent
+Fix mix dialyzer warnings and improve task specs
+Fix Mix lock files to use maps
+Fix logger dialyzer warnings
+Fix exit signal race condition in logger tests
+Fix Logger.log/2 not to raise on Logger exit
+Fix unused warnings
+Fix race condition in Logger.ErrorHandlerTest
+Fix logger watcher race condition
+Fix a typo in Mix.Project.compile_path doc
+Fix the build
+Fix docs (missing indentation in examples)
+Fix Enum.traverse deprecated warning doctest
+Fix failures in logger
+Fix the build
+Fix example in config/config.exs that's created for new projects.
+Fix build
+Fix build
+Fixed doc typos in Task and URI
+Fixed Logger.configure_backend spec
+Fixing typos in Logger module docs
+Fix list rendering on ANSI docs
+Fix padding in Logger
+Fix iex test
+Fix docs and specs introspection in iex
+Fix test suite
+Fix logger docs
+Fix indent
+Fixed typos in Mix.Tasks.Clean docs
+Fix IO.ANSI doctests
+Fix a typo in typespec doc
+Fixing doc typos in Keyword
+Fixed to use flattened array $newArgs
+Fix a typo on Application.format_error doc
+Fixed typos in Exception docs
+Fix stacktrace in Module.get_attribute example
+Fix `mix archive` in changelog
+Fix bug where umbrella tasks were not reenabled
+Fix the usage of `embed_elixir` in escript.build
+Fix typo in GenEvent moduledoc
+Fix regex compilation and set ucp flags
+Fix some sentence tenses in changelog
+Fixed Changelog typos
+Fix bug when flat_map is used inside another flat_map with enumerable, closes #2483
+Fix unmatched returns dialyzer warnings
+Fix remote call AST
+Fix the guard for this clause evaluates to false warning
+Fixed Process doc typos
+Fix dialyzer makefile commands
+Fix typespec_to_ast for lists
+Fix weird examples in Version docs
+Fixed CHANGELOG typo
+Fix failing test and improve zip/unzip docs
+Fix phrasing of Enum.sort_by/3 @doc
+Fix spacing
+Fix @spec sort_by
+Fix regression when case is used inside cond head
+Fixed typos in Kernel.SpecialForms docs
+Fix changelog message typo
+Fixing doc typos in Task
+Fix local.install description
+Fix unclear doc in Stream.unfold
+Fixed doc typos in Agent and File.Stream
+Fix size/1 warnings
+Fixing typos in Application doc
+Fix typo on Access docs
+Fix typo in deriving docs
+Fix wrong changelog entry
+Fix ordered list formatting
+Fix map printing to indent 2 levels, closes #2165
+Fix consolidate task example
+Fix path normalization of "/.."
+Fix edge cases for `URI.decode/1`
+Fix a typo in Kernel docs
+Fix a typo
+Fix help for elixirc executables, closes #2380
+Fix broken promise in Kernel.SpecialForms
+Fixed reading .mix/config.exs
+Fix operator precedence bug in Mix.Compilers.Elixir.clean/1
+Fix Path.absname("/") to return the absolute path "/", not "".
+Fix :io.columns calls
+Fix typo on CLI --app parsing
+Fix get_and_update_in/2 docs
+Fix Kernel bootstrap
+Fix nested updates bootstrapping
+Fix formatting in .md files
+Fixing doc links
+Fix formatting and proof-read GenEvent docs
+Dedicated inspect implementation for regexes. Fix #2250
+Fix example for exception/1
+Fix example for String.to_char_list
+Fix typo
+Fix typo in Agent docs
+Fix match in `Mix.Tasks.Run` test
+Fix typo on ExUnit
+Fix typos on Mix
+Fix Stream.cycle/1 with inner halting stream, closes #2285
+Fix handling of boolean options with bad values
+Fix value normalization in strict mode
+Fix race condition on supervisor test
+Fix raising `Code.LoadError`
+Fix command-line arguments handling in `Kernel.CLI`
+Fix command-line arguments handling in `Mix.Tasks.Run`
+Fix example of using `defrecord`
+Fix indentation
+Fix ExUnit.DocTest docs
+Fix false positives when inspecting records, closes #2287
+Fix race condition on agent tests
+Fix unused variable warning
+Fix handling of end of command options (`--`) in `OptionParser`
+Fix syntax error on .%, closes #2245
+Fix compile error during boostraping
+Fix two test cases
+Compiler now mentions which file has a duplicated module. Fixes #2131
+Fix mix test
+Fix how Elixir.Elixir is inspected
+Fix typo on Kernel.CLI
+Fixed typo and improper use of their in documentation
+Fix iex startup
+Fix formatting and move Version.Schema to Version
+Fix some dialyzer warnings
+Fix pruning IEx stacktraces too aggressively
+Fix stacktraces for :elixir.eval_forms/4
+Fixing issue with command line parameters getting passed to elixir.bat from iex.bat
+Fix more typos
+Fix doc on Mix.Shell.Process
+Fix set related warnings
+Fix some dialyzer warnings
+Fix mix build failure
+Fix remote calls to work with dialyzer in 17.0
+Fix IO docs
+Make ExUnit.Filters convert to_string before matching. Fixes #2064.
+Fix git checkout when directory already exists
+Fix error when cleaning single dependency
+Fix compiler abstract code
+Fix typo on MacroTest
+Revert "Fix cli tests to avoid unix warnings"
+Fix cli tests to avoid unix warnings
+Fix bug in for comprehensions
+Fix Elixir tests on Windows, closes #2190
+Fix compiler crash for some map literals
+Fix regression on deprecated functions
+Fix bad conditional logic when checking for +iex
+Fix ExUnit.Assertions receive macros compiler warnings
+Fix accidental commented code
+Fix test error and warnings
+Fix version scheme for Erlang/OTP
+Fixed doc typos. Fixed unused function arg.
+Fix escript generation for projects with deps
+Fixed Kernel.SpecialForms.try reference
+Fixing typos in Kernel.SpecialForms
+Fixed typos in Collectable docs
+Fixed typos in File docs
+Fixed doc typos in Module
+Fixed Kernel.SpecialForms doc typos
+Fixed StringIO doc typos
+Fixing doc typos in Kernel
+Fix typo in Maps, add 2 examples to docs
+Fix `String.slice error`
+Fix `String.slice error`
+Fix handling of raw rebar deps
+Fix handling of raw rebar deps
+Fix test suite failure that showed up after randomization
+Fixed spec for Enum.flat_map
+Fixing result handling of :file.consult
+Fixed spec for Enum.flat_map
+Fixing result handling of :file.consult
+Fixing doc typos in Version
+Fixing doc typos in Version
+Fix dependency compilation order
+Fix dependency compilation order
+Fix test suite warnings on 17.0-rc1
+Fix build and update CHANGELOG
+Fix build and remove warnings
+Fix test in previous commit
+Fix fixtures copying on mix tests
+Fix list with keywords expansion
+Fix bootstraping issues
+Fix functions as default values in records
+Fix HashDict.pop signature
+Fix Module.definitions_in documentation typo.
+Fix bootstrapping issue in previous commit
+Fix test race condition
+Fixing doc typos in Kernel.Typespec
+Fixing doc typos in ExUnit
+Fix spelling of overridden
+Fix a couple of typos in the File module
+Fix other references to IO.ANSI.Docs
+Fix IO.ANSI.Docs and its corresponding test
+Fix Float.parse to handle numbers of the form "-0.x"
+Fix expansion of =, inbits and inlist regarding rhs lexical info
+Fix build
+Fix quote docs
+Fix bug in applying multiple filters
+Fixed doc typos in Kernel and String
+Fixing typos in Enum/Enumerable docs
+Fixed typo in CHANGELOG
+Fix Version.match? with ~> and -dev versions
+Fix warning about unused variable
+Fixed docstrings in URI
+Fix comment
+Fix regression when using in with module attributes
+Fix failed IEx test that depended on ExUnit types
+Fixing CHANGELOG typos
+Fix error message of access
+Fix some typos
+Fix the example for @before_compile hook
+Revert "Fix status code in mix test"
+Fix typo in CHANGELOG
+Fix the build, we no longer fail when taking over itself
+Fix build bootstrap
+Fixing docs typos in IO.ANSI
+Fix IO.ANSI docs
+Fix redefining module race condition in mix tests
+Fixed interpolation per issue 1758
+Fix type of name passed to :code.lib_dir
+Fix type of executable passed to Port.open in IEx.CLI.tty_works/0
+Fix elixir_errors.erl specs to include binary path
+Fix Inspect.Algebra.format/3 to handle :infinity correctly
+Fix IEx.Instrospection.beam_specs/1 when no abstract code in beam
+Fix Regex specs
+Fix spec for Enum.chunks/4
+Fix invalid raises in Code
+Fix Version.parse/1 specs
+Fix typo s/Mix.Shell.error/Mix.shell.error/
+Fix docs for the [test_coverage] option of the [mix test]
+Fix status code in mix test
+Fixed newline mismatches on windows for test_mix
+Fix wrong :timer.tc call
+Fix documentation on String.split/1
+Fix @spec line
+Fix a bug with Process.group_leader so IEx.pry properly affects the server leader
+Fix up handling of enabled: color option
+Fix indentation on doc example
+Fix typos (tks @ericmj)
+Fix bug where nested defmodule was shadowing alias hygiene
+Fix `compile: false` dependency option
+Fix handling of nested do expressions in EEx, closes #1710
+Fix bug on `Regex.scan/3` when capturing groups and the regex has no groups
+Fix regression on Stream nesting
+Fix handling pre/build data when minor/patch is missing in Mix.Version
+Fix Stream.take/2 and Stream.take_while/2 for Stream.Lazy
+Fix failing doctest
+Fixed doc typos in String and Node
+Fixed typo in Enum docs
+Fixed doc typos in Code and Path
+Fixed typos in CHANGELOG.md
+Fixed doc typos in IEx.Helpers
+Fix for Mix.Version comparisons with dev versions
+Fix typo in CHANGELOG.md
+Fixed comment typo in lib/elixir/src/elixir_translator.erl
+Fixed typos in Mix.Shell.Process docs
+Fixed Kernel.defrecord arity in docs
+Fix typo in File.rmdir/1
+Fix Process.whereis documentation
+Fix the build
+Fix bug on sorting algorithm on certain branches, closes #1580
+Fixed doc typos in Dict
+Fixed doc typos in Enum
+Fixed doc typos in List
+Fix warnings and update CHANGELOG
+Fix a bug in insert_at adding items to the wrong location with negative indexes
+Fix regression on do/end blocks, closes #1551
+Fix for #1555
+Fix default shutdown of child supervisors to infinity
+Fix issue with enableddelayedexpansion
+Fix String.contains? not raising on non-string arg
+Fix shadowing warning in case with function, closes #1524
+Fix String.starts_with? and String.ends_with? non-raising edge case
+Fixed doc typos in Macro
+Fix issue with nested binaries in Macro.to_string/1, closes #1522
+Fixed doc typos in Regex
+Fix Stream bugs and add more composing tests
+Fix Macro.to_string with &
+Fixing doc typos in File
+Fixed problem with elixir.bat removing exclamation marks from command line
+Fixed typos in Enum docs
+Fix Enum.at docs
+Fix usage of char_list and fix the build
+Fixed additional doc typos in Code module
+Fixed Issue #1506, added description of return values for Code.eval_string and Code.eval_quoted
+Fix some invalid error messages from Mix
+Fixed docs typos and added  markers around functions in docs
+Fixed Kernel.match? example. Added formatting to Kernel docs.
+Fixed docs typos in recent commits
+Fixed typos in Mix.Tasks.Test docs
+Fix the build
+Fixed GenFSM example code and typos.
+Fixed typos in Mix.Tasks.Compile.Erlang and Mix.Tasks.Test
+Fixed doc typos in Mix.Projects and Mix.Utils
+Fix a bug on OptionParser where missing options appeared on the final result
+Fixed doc typos in Mix.Tasks.Escriptize
+Fixed typos in Kernel.ParallelCompiler docs
+Fixed doc typos and formatting in IO
+Fixed minor typo in Mix.deps doc
+Fixed doc typos in Mix.Tasks.Compile.*
+Fixed typos and formatting issues in Mix.Tasks.CompileElixir
+Fixed docs as recommended by @alco
+Fixed doc typos in ExUnit.DocTest
+Fixed doc typos in ExUnit.Assertions
+Fixed doc typos in ExUnit
+Fixed doc typos in Kernel.Special_Forms
+Fixed doc typos in Mix.Tasks.Test
+Fixed doc typos in OptionParser
+Fixed typos in Mix.Deps. Updated error strings in test cases
+Fixed doc typos in Mix.Archive
+Fixed doc typos in Mix
+Fixed doc typos in Mix.Tasks.Deps.*
+Fixed typos in Mix.Deps.Retriever docs
+Fixed legacy typos in Kernel
+Fixed typos in Record docs
+Fixed typos in Kernel docs
+Fixed doc typos in IEx.Helpers
+Fixed doc typos in the IEx module
+Fixed typos in IEx.Options docs
+Fixed doc typos in the Inspect protocol
+Fixed doc typos in Inspect.Algebra
+Fixing typos in Kernel module docs
+Fixing typos in Path module docs
+Fixed typos in Set module docs
+Fixing typos in Mix.Task docs
+Fixing doc typos in Regex module
+Fixed typos in Kernel
+Fixed typos in Kernel
+Fix surprising behaviour with Module.register_attribute/3 that caused attributes to be persisted unecessarily
+Fixed typos in Regex module docs
+Fixed doc typos for Kernel.defrecord and Kernel.defrecordp
+Fixed typo in Record.update ArgumentError message
+Fixed typos in Record docs
+Fix typo on ExUnit.CLIFormatter
+Fixing typos in the Code module
+Fixing typos in Stream docs
+Fixing typos in GenEvent.Behaviour
+Fixed calls to super in GenServer.Behaviour example
+Fixed typos in GenServer.Behaviour docs
+Fix defrecordp documentation with regards to the type generated
+Fix defrecordp definition of the <record>_t type
+Fix typo in Module.get_attribute doc
+Fixed iex tests on windows
+Fixed doc typos in IEx module
+Fixing typos and formatting in Keyword docs
+Fixed return type in doc of Enum.each
+Fixed doc example for Enum.each
+Fixed typo in Enum.min docs
+Fixed bad Example formatting in Enum
+Fixed typo in mix task local.uninstall doc
+Fix typo in mix project tests
+Fix Mix.Version being inconsistent with pre and build metadata
+Fix unused variable warning
+Fix typo (tks @ericmj)
+Fixed some incorrect markdown in binary_to_list/3's documentation.
+Fixed ex_doc path in README
+Fixed typos in file.ex docs
+Fix typo on assertion message
+Merge pull request #1295 from ToJans/WindowsRebarFix
+Fix the rebar wrapper on windows
+Fix formatting issues in Typespec's docs
+Fix a bug when inspecting records nested in tuples
+Fixed path tests when running on Windows: removed drive prefixes from check
+Fixed unit test for File.Touch with failure on Windows
+Fixed a bug within File.rm_rf on windows
+Fixed grammar and wrong word (exit, not exist) in Process.exit/2 documentation.
+Fix rebar config scripts evaluation
+Fix Dict.drop documentation
+Fix typo in doc
+Fix compiler_options docblock formatting errors
+Fix a bug on Path.split/1
+Fix typo on List documentation
+Fix code escaping in ExUnit.Callbacks docstring
+Fix Makefile dependencies
+Fix tests that expect the parallel compiler callback to only pass one parameter.
+Fix Enum.uniq/2 spec
+Fix iex -S mix on Windows
+Fix Record's moduledoc
+Fix edge case for String.contains?
+Fix edge cases for starts_with?, ends_with? and contains?
+Fix minor compile-time warnings
+Fix HashDict so that key comparison uses exact match
+Fix IEx's module source lookup
+Fix typo on |> docs, closes #1168
+Mix.Shell: Fix incorrect Windows' COMSPEC handling
+Fix v helper to work with new :iex_history format
+ Fixes a bug in Stringends_with?
+Fix a bug in option keys validation
+Fix a typo in the doc for IO.ANSI.escape
+Fix docstring for escape_fragment
+Fix a bug where `unquote_splicing` did not work on the left side of a stab op
+Fix a bug with nested record definitions
+Fix a bug where `mix deps.get` was not retrieving nested dependencies
+Fix checking unused local functions and default arguments
+Fix autocompletion tests for Enum
+Fix all "evalute" typos
+Fix sample .iex file in the doc
+Fix a bug in ~/.iex expansion
+Fix h(c/2), closes #1101
+Fix behavior of Path.expand/2. Improve docstrings
+Fix docs for IO.getn
+Fix docstring for require_file
+Fix stray `file` variable
+Fix warning for unused default arguments
+Fix String.valid_codepoint? tests
+Fix problem with an in-dep rebar not being found—need to pass in the full path to it, and not just ./rebar
+Fix mix function names and docs
+Fix badmatch with Regex.captures(%r/(.)/g, "cat")
+Fix a bug on RecordRewriter when a variable is matched in many clauses, closes #1037
+Fix regression introduced by 18c4e2b8104990afb49a1020eee70ccccf957bbe
+Fix typo
+Fix tasks may run multiple times
+Fix doctests for unless
+Fix "evalute" typos
+Fixing typo in docstring for List.keyfind
+Fix `ls` IEx helper to render file types correctly for all paths
+Fix expectation error reporting in doctests
+Only error on ambiguous imported function calls, not on the imports themselves. Fixes #788.
+Fix a bug on Module.to_binary(Elixir), closes #920
+Fix an example in `lc` documentation
+Check also Kernel.SpecialForms in h(). Fixes #906
+Fix is_record tests to check tuple_size before accessing the first element
+Fixed File.listdir! to return the list, without wrapping it in {:ok, _}
+Fix the build
+Fix formatting and examples in CHANGELOG
+Fix logic mistake in cond example
+Fix bug in Path.expand
+Fix typo in RELEASE.md
+Fix bug when running mix on directories containig space, closes #840
+Fix typo in IEx.Helpers.h/1
+Fix invalid bit syntax in docs.
+Fix typo in typespec of Node.disconnect
+Fix unused vars warnings
+Fix #812: Write a trailing newline character to the Mix lockfile.
+Fix type in deprecation
+Fix a bug, improve wording (ht: @alexrp)
+Mix: Support --no-compile options in deps.get and deps.update. Fixes #763.
+Fix unused variable warning
+Fix identation, improve error messages
+Fix test since we return a four item tuple in the stacktrace
+Fix record documentation
+Fix indent
+Fix the implementation of String.capitalize/2
+Fix bootstrap files order
+Fix var in Makefile
+Fix return value of String.at/2 with negative position out of bounds
+Fix String.at/1 documentation example
+Fix IEX's s helper to correctly handle MF and MFA requests
+Fix System.halt/1 and System.halt/0 type specifications
+Fix mix executable
+Fix mix iex
+Fix typespec to AST conversion for functions with variable arity (...)
+Fix a bug that prevented from inspecting immediate values in typespecs (such as ...)
+Fix indentation
+Fix a bug in macro_exported?/3
+Fix mix dependency format error string
+Fix failing erlang tests
+Fix percent encoding algorithm used by URI.encode
+Fix documentation for defrecordp
+Fix unecessary double file read
+Fix Kernel.Typespec.to_binary for tuple() type (with no element type specified)
+Fix delegations in Process.ex
+Fix delegations in Node.ex (ht @yrashk)
+Fix an issue where variables inside clauses remained unassigned
+Fix Keyword.merge, speed up Keyword.delete
+Fixing bug introduced in 'Protocols are powered by behaviours...'(11f934b)
+Fix some spelling mistakes in Kernel
+Fix failing erlang test
+Fix failing tests
+Fix partial application on lists with many elements and tail
+Fix a bug where a partial alias could not be expanded on iex
+Fix regression in mix
+Fix escriptize mix task
+Fixing compilation warning about unused variable.
+Fix examples in dict docs.
+Fix regression in parser
+Fixed typos
+Fix precedene of @ operator
+Fixing the crash in Macro.to_binary when it receives a list. I.e. something like (quote do: foo([1, 2, 3])).
+Fix build for bootstraping
+Fix fake warning when a match happens after a default arg
+Fix build: solve dependency graph on bootstrap
+Fix small error in mix escriptize documentation
+Fix a bug in Macro.expand that returned false for not expandable aliases
+Fix build
+Fix IEx remsh autocompletion when the connecting node does not have Elixir
+Fix div and rem docs
+Fix build, do not match on line
+Fix the build
+Fix the build
+Fix function list expansion for modules called using the Erlang alias
+Fix typo
+Fix builds
+Fix tests that were not using absolute paths
+Fix makefile dependency
+Fixes a bug that broke the correct behavior of the `in` guard
+Fixes specification for list_to_bitstring/1
+Fix small doc type
+Fix rebar invocation on Makefile, thanks to hirsch_
+Fix build
+Fixes for .bat files
+Fix operator precedence in Macro.to_binary, closes #377
+Fix typo on defaults error message
+Fixes mismatched length record-like tuple printing
+Fix failing build
+Fix regression on access macro
+Fix precedence of inlist and inbits generators with match
+Fix type in lib/ex_unit.ex docs.
+Fix typos
+Fixes regression in record access protocol handling introduced in 088eff4c19614101cea55dfef9966d4de89181e3
+Fix examples indentation in the File docs
+Fixing File.delete doc and renaming to File.rm
+Fixes the problem with skewed error logger's output in IEx
+Fix a bug where nested super calls did not propagate properly
+Fix issue with iex not booting elixir properly
+Fix printing of records, closes #292
+Fix EEx (currently it does not support functions)
+Fix in erlang tests
+Fix failing tests in Elixir.ErrorsTest
+Fix whitespace issue [ci skip]
+Fix type in tests
+Fix todo, build and add more docs
+Fix the documentation of function_from_string
+Fix compiler warnings with default argument
+Fix issues with Enum protocol for dicts
+Fix assert_raises usage
+Fix small typos.
+Fix erroneous names in docstrings
+Fix a scenario where nested variables were not propagating.
+Fix enumeration in put_env(dict)
+Fix a bug in enumeration
+Fix iex.
+Fix printing in IEx.
+Fix Env issue. It works now
+Fix nesting docs, closes #217.
+Fix Regex.replace documentation
+Fix some docs.
+Fix make docs.
+Fix a mistake in the comment for umergec
+Fix wildcard version to be the same as in erlang master branch.
+Fix apply/2
+Fix bug with more than one key/value options
+Fix File.expand_path
+Fix module compilation.
+Fixes Getting Started link in Important links
+Fix eval_quoted documentation
+Fix iterator protocol so it doesn't need to track the first token.
+Fix grammar
+Fix ambiguity in the parser and improve errors for missing implementations.
+Fix failing tests.
+Fix rescue docs
+Fix typo
+Fix rescue and catch docs
+Fix typos.
+Fix more docs.
+Fix code.ex docs.
+Fix ^ inside exceptions.
+Fix link in README.
+Fix typo in chapter 6.
+Fix small bug related to quoted underscores.
+Fix __LINE__ for macros.
+Fix line numbers in evaled code, #99
+Fix protocol exceptions.
+Fix multi assignment clauses in different conditions.
+Fix all upcase atom inspect.
+Fix precedence and make tests green again.
+Fix wildcard.
+Allow records to have their own methods. Fix assign bug.
+Fix empty strings handling.
+Fix interpolation and print Elixir version on IEx.
+Fix associativity.
+Fix bad merge.
+Fix kv blocks for case.
+Fix spelling.
+Fix up call args.
+Fix up dot expressions.
+Fix an special case that evaled chars not in utf8 are not properly handled by erl_eval.
+Fix iex.
+Fix precedence on binding + method call.
+Fix failing tests.
+Fix up mixins.
+Fixed the regex in String#chop
+Fix small bug, add TODO notes.
+Fix small bug and remove old cache directives.
+Fix dependencies between tasks.
+Fix example (thanks to Josep Bach).
+Fix a bug on code formatter.
+Fix typo (tks grimen)
+Fix small error (tks to justinbaker).
+Fix unary precedence.
+Fix silly errors on README (thx @tpitale and @mperham for pointing it out).
+Fix bad syntax catch.
+Fix how switches are passed from parent to child.
+Fix up Makefile.
+Fix fib example.
+Fix heredoc, add module_eval and fix gen_server.
+OrderedDict#map returns a list (Erlang orddict inner structure), which is incorrect. Fixed that and added some test case of OrderedDict
+Fix comments: * I think b:1 is a typo * fold causes inverted sequence in list
+Fix associativity and precedence.
+Fix vars visibility on if/else expressions.
+Fix make clean.
+Fix ExUnit.
+Fix typos.

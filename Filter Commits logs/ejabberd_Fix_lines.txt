@@ -1,0 +1,1145 @@
+Fix compilation warnings with Elixir 1.14
+Fix DOAP file logo namespace
+Fix cache invalidation in shared roster
+make-binaries: Fix GitHub release version checks
+Fix unix socket support for ejabberd_http (thanks to Simon Lipp)(#3894)
+Fix mucsub unsubscribe notification payload to have muc_unsubcribe in it
+make-packages: Fix permissions on RPM systems
+Fix filter_nodes
+mod_shared_roster: Fix wrong hook type #roster{} (now #roster_item{})
+Fix error reporting in 'make options' on OTP24+
+Fix mam delete_old_messages_batch for sql backend
+Container: Fix build instructions
+make-binaries: Fix linking of EIMP dependencies
+Fix regression on stop_ping in clustering context (thanks to fdie)(#3817)
+Fix mod_conversejs crash when mod_register not enabled (#3824)
+Fix parsing of scram password from prosody
+Fix typos in changelog
+Fix errors and warnings for "rebar3 edoc"
+Fix spec
+Fix one more place where misc:uri_parse is used
+Runtime: Fix path of own workflow file
+Fix 'make xref' when using Mix; notice it only checks Elixir files
+mod_push: Fix notifications for pending sessions
+Fix dialyzer warning
+Fix syntax of some commands' result_example
+Fix compatibility with older mix versions
+Fix compilation with Erlang 19
+Fix bug introduced in 8d8a3177 (#3782)
+Fix WebSocket uppercase
+Fix compilation on OTP < 21 and remove dialyzer warning
+Fix sqlite schema
+Fix typo introduced in 99fdba0, present since 16.01
+Ensure db_type default value is set when no mssql was defined. Fix typo
+Fix configure when mssql option not set, and add it to --enable-all
+Fix support for MSSQL testing
+Fix typos
+Fix version when this command was really updated
+Fix login when generating client id, keep connection record (#3593)
+Fix Dialyzer, related to Luerl API update from 0.3 to 1.0
+Fix "make rel" when using mix, broken after 94a733c66
+Fix 'make update' when used with rebar 3.18
+mod_muc_room: Fix function name typo
+Fix ERTS path in ejabberdctl with `rebar3 release`
+mod_stun_disco: Fix parsing of IPv6 listeners
+Fix Dialyzer warning, old passwd tuple don't match current tuple definition
+Fix exception in mucsub {un}subscription events multicast handler
+node_pep: Fix remove_expired_items/2 argument name
+mod_pubsub: Fix get_max_items_node/1 specification
+Fix create_room_with_opts when using SQL storage (#3700)
+Fix vcard_search definition in pgsql new schema (thanks to Stu Tomlinson)(#3695)
+Fix roster_tests:get_items
+Fix SQL_UPSERT in mod_push_sql:store_session
+Fix previous commit: add forgotten endline blankspaces
+ejabberd_admin: Fix ejabberd_piefxis commands
+Fix WebAdmin recent change
+Fix syntax in mod_disco example configuration
+Fix CHANGELOG: rebar2's elixir workaround was problematic and was reverted
+Fix typo when creating index (thanks to Millesimus)
+mod_pubsub: Fix check_opt_range/3 spec
+mod_push: Fix handling of MUC/Sub messages
+Fix spec: xmpp:set_from_to/3 allows undefined as second argument
+Fix previous commit to pass all tests
+Fix dialyzer warning
+mod_push_keepalive: Fix 'resume_timeout' docs
+Fix reverse order of items when using <before/> in Pubsub with RSM (#3621)
+Fix index attribute when getting last page from PubSub with RSM (#3618)
+Fix extauth.py failure in test suite with Python 3 (#3612)
+Fix invalid_encoding error when using extended plane characters in vcard.
+Fix dialyzer warnings
+Fix syntax not recognized by older erlang
+Fix INTRUDER and add padding to second text line
+Fix remove_mam_for_user_with_peer when removing room archive (#3536)
+Fix Dialyzer warning about function contract that changed in fad14ff31
+Fix muc tests
+Fix URL of CAPTCHA section
+Fix PONG responses (#3515)
+Fix specified key was too long (#3513)
+Fix bug handling jid:decode/1 return, introduced in cdb286d1d (#3461)
+Fix bug in send_message introduced in 7fc500dae (#3485)
+Fix MAM tests that now fail due to commit d6e9e0342 (#3506)
+Fix typo in Weblate URL
+Fix version number
+Fix delete_old_message when using sqlite spool table
+Fix URL of ejabberd_po, use the final one
+Fix handling of log_rotate_size: infinity
+ejabberd_systemd: Fix comment
+Fix invalid timezone in mod_time (issue #3454)
+Fix a pair of pubsub specs to please Dialyzer
+Fix typo in case clause detected by Dialyzer
+Fix sqlite3 dependency version (#3452)
+Fix getting age of newly created rooms in rooms_unused_*
+Fix more places that needed changes after scram.erl api modifications
+Fix typo in last commit
+Fix room_unused_destroy on hibernated rooms
+Fix logic that determines room age when history_size=0
+mod_push: Fix log message argument
+mod_push: Fix API call return type on error
+Fix docker DB initialization
+Fix syntax for lager dependency version (#3379)
+mod_pubsub: Fix typo in 'hosts' documentation
+Fix vCard search by User when using Mnesia
+Fix to allow vhost admins to view WebAdmin menus (#3355)
+Fix try_url/1 parsing of uri_parse result format, reported by Dialyzer
+mod_stun_disco: Fix function specification
+Fix crash when creating new MUC log file in non-ASCII lang (#3324)
+Fix YAML syntax in example configuration (#3301)
+mod_stun_disco: Fix wording of log message
+Fix hardcoded URL to register.css and URLS to sections (#3281)
+Fix most EDoc errors, even if that's not used nowadays apparently
+Fix link in mod_sip to SIP Docs section
+Fix webadmin muc room sorting broken due to trailing slash patch (#3256)
+Fix the new service_subscription_subscribers test (#2696)
+Fix @from attribute on MucSub 'subscribers' node messages
+Fix English typos in configure.ac
+ejabberd_stun: Fix 'turn_ip' fallback
+Fix some English typos
+Fix previous commit
+Fix doc content in mod_admin_extra so it can be extracted by make translations
+Fix unused variables from previous commit
+Fix set_loglevel example argument documentation
+Fix mod_pubsub indentation
+Fix potential message loss in terminating c2s sessions
+Fix unsubscribe command result, handle_sync_event result, and dialyzer
+Fix type of computed field in node_flat sql query
+Fix Dialyzer warning that jid can't be 'undefined'
+Fix issue with family field on cockroachdb
+Fix list parameters in sql queries on pgsql
+Fix handle of 'http' atom in Headers, problem introduced in 357e7e11
+ejabberd_admin: Fix *_config command result format
+Fix 20.01 changelog
+mod_sip: Fix compilation without SIP support
+Fix case clause error regarding admin_generated password (#3122)
+Fix mod_muc_log skipping non-Latin messages (thanks to Yandrey)(#3115)
+Fix previous commit
+Fix acl reloading
+Fix loading of third-party modules at startup
+Fix unicode string formatting
+Fix race condition in Redis/SQL supervisors startup
+Fix logger initialization on OTP<21.3
+Fix error reporting in configuration related admin commands
+msgs: de: Fix comma setting
+Fix dialyzer warning in #oauth_ctx
+Fix startup of supervisors for listening modules
+Fix unicode formatting in ACME module
+Fix unicode processing in ejabberd.yml
+Fix IDNA support in ACME requests
+Fix typo
+Fix typos in issue template
+Fix BEGIN/COMMIT/ROLLBACK syntax for MSSQL (#2978)
+Fix certificate selection for s2s
+Fix the regression introduced in dd57950
+Fix some links to Guide in WebAdmin and add new ones (#3003)
+Fix call to deprecated ejabberd_config:get_myhosts() (#3000)
+Fix typo in type spec
+Fix db_type validation
+Fix race condition when deleting c2s session record
+Fix SQL connections leakage
+Fix previous commit
+Fix default value of resume_timeout
+Fix typo in log message
+Fix UTF-8 support in translation files
+Fix wrong virtual host in mod_pubsub:send_stanza (#2930)
+Fix typo
+Fix example on test data set deletion
+Fix pending nodes retrieval for SQL backend
+Fix typos using codespell
+Fix opt_type.sh script and re-generate options
+Fix 'get-pending' command form generation
+Fix regexp matching
+Fix startup order of ejabberd_sup children
+Fix broken ejabberd_cluster:call/5
+Fix formatting
+Fix Elixir modules detection in the configuration file
+Fix return type in try_set_password()
+Fix validator of option ejabberd_service->hosts
+Fix jwt_key option processing
+Fix formatting
+Fix 'request_handlers' transformation
+Fix a condition in ejabberd_auth_jwt
+Fix ejabberd_auth_jwt return types and regenerate ejabberd_option.erl
+Fix type specs
+Fix shaper selection in ejabberd_c2s
+Fix usage of TLS in mod_mqtt
+Fix creation of type spec for map() options
+Fix support for nonexistent or empty access_commands in ejabberd_xmlrpc
+Fix component routes unregistration
+Fix exception formatting on old Erlang
+Fix validator of mod_avatar
+Revert "Fix pubsub compliance XEP-0060 § 7.1.3.6 (#2864)"
+Fix user_send_packet in mod_privacy; was failing on newly created users
+Fix mod_privacy race condition
+Fix example argument in private_set, don't include Query element
+Fix last commit
+Fix PostgreSQL compatibility in mod_offline_sql:remove_old_messages (#2695)
+Fix typo in Change User Password adhoc command (thanks to	lovetox)(#2884)
+Fix mod_legacy_auth to reflect recent changes
+Fix pubsub compliance XEP-0060 § 7.1.3.6 (#2864)
+Fix bug that appears when importing privacy from Prosody (#2872)
+Fix typo and remove forgotten log from 492da2ba
+Fix room state cleanup from db on change of persistent option change
+Fix escaping for sql part of mamsub from muc mam
+Fix offline from mam on mnesia
+Fix #2540 Ejabberd doesnt compile as mix umbrella project dependency
+Fix RFC6454 violation on websocket connection when validating Origin header
+Fix handling of list arguments on pgsql
+Fix syntax in Elixir config file
+Fix previous commit
+Fix issue with creating HostMatch in mod_mam_sql
+Fix issue with mam tests
+Fix Register command to respect mod_register's Access option (#2837)
+Fix crash in mod_muc_admin:web_page_main/2 caused by just_created (#2830)
+Fix cond_options with new options
+Fix transaction aborting and restarting in ejabberd_sql
+Fix incorrect capitalization in German translation
+mod_muc_admin: Fix indentation
+Fix "make translations", got broken in 446e6e6f3
+mod_mam_mnesia: Fix check for empty archive
+Fix support to restart module with live options in WebAdmin
+Fix argument name consistency
+Fix ping IQ reply/timeout processing ("mod_ping" regression since 17.x that may cause resources leakage)
+Fix crash when running reload_config and sql_pool_size option is used
+Fix typo in comment
+Fix decompressing of custom elements with custom namespace
+Fix PIEFXIS export of user when password is scrammed (#2721)
+Fix a pair of small typos
+Fix (un)setting of priority
+Fix wording
+Fix mod_mix_mnesia get_participants/3 callback
+Fix submission-id and channel resource
+Fix PostgreSQL compatibility in mod_offline_sql:remove_old_messages (#2695)
+Fix typo in recent PR commit (#2697)
+Fix test case for invalid language
+Fix command for loading pgsql schema
+Fix mod_http_apt_test
+Fix for the previous commit
+Fix another typo in ejabberd.yml
+Fix tiny typo in configuration file
+Fix unused variable warning
+ejabberd_s2s_in: Fix indentation
+Fix version in mix.exs
+Fix bugs introduced by previous commit
+Fix listeners child specs creation
+mod_muc_room: Fix the room's CAPS hash
+Fix some dialyzer warnings
+Fix max_user_conferences in Mnesia to consider only one MUC service (#2556)
+Fix typo from commit 0bf93eefc
+Fix typo in command description
+Fix search for User in vjud
+Fix piefxis import of privacy lists (thanks to crosser)(#2412)
+Fix piefxis import of vCard elements (#2514)
+Fix compiler warnings regarding test cases
+pubsub_tests: Fix race condition
+mod_http_upload_quota: Fix process name lookup
+Fix regression: list SASL EXTERNAL mechanism for inbound s2s
+Fix misc:try_url for erlang < R20
+Fix Erlang limits in ejabberdctl.cfg.example to reflect current situation
+Fix typo
+Fix reset_stream in websocket using pre-rfc protocol
+mod_push_mnesia: Fix lookup of all host sessions
+Fix problem in commit 548ef7b835fbf2ad965bb4bb3a6f4e4905717002
+Fix authentication for usernames containing uppercase characters
+mod_muc_sql: Fix export to SQL
+Fix typo file:read() -> file:open()
+Fix a typo
+Fix get_affiliation/2
+Fix mnesia call in mam archive management function
+Fix type of rest:url/2
+Fix deprecated call injected by 265c7b62
+Fix notification payload generated by pubsub
+Fix csi tests
+Fix illegal match on previous commit
+Fix Code format when logging a MUC room kick/ban
+Fix process_discoitems_result in mod_multicast
+Fix returning value from mod_vcard_ldap's search() callback
+Fix result of XEP-0060 §6.5.9.12 (#2288)
+Fix: mod_offline:store_offline_msg/1 expects a message, not list (#2312)
+mod_admin_extra: Fix srg_get_info with '@all@'
+Fix 'badmatch' crash
+Fix external components unregistration
+Fix indentation
+Dialyzer checks always failed because the return value of the function 'get_subscribed_rooms' in 'mod_muc_sql' is different to the defined value in 'mod_muc'. Fix was to update the return value in 'mod_muc.erl'.
+Fix type spec
+Fix MySQL error server_host used in key specification without a key length
+Fix compilation ordering in mix by s/-behavior/-behaviour/
+Fix mod_roster start invocation in elixir tests
+Fix elixir tests
+Fix exception in mod_privilege:process_presence_in
+Fix elixir tests
+Fix processing of ldap_memberattr_format_re option
+mod_caps: Fix indentation
+Fix a typo in call to create_captcha()
+Fix more tests
+Fix a typo in mod_caps
+Fix tag used in luerl dependency
+Fix typo /this/it/
+Fix example config macro names
+Fix detection of rebar3
+Fix indentation in commented example
+Fix ejabberd command privacy_set
+Fix stun/esip mix deps
+Fix check_opt_range when no boundary is configured
+Fix a regression in xmpp_socket
+Fix a typo in comment :)
+mod_muc_admin: Fix last timestamp retrieval
+Fix commands rooms_unused_list and _destroy
+Fix race between join_cluster and ejabberd_mnesia (#2079)
+Fix mix_sql features and options
+ejabberd_sm: Fix get_session_sid/3
+Fix processing order
+Fix typos in mod_legacy_auth and mod_register
+mod_muc_room: Fix typo
+Fix num_subscribers on node metadata (#2122)
+Fix session table cleanup
+Fix minor typo in comment
+Fix function clause on filelib:wildcard/1
+Fix SQL serialization
+Fix a bug introduced in the previous commit in ejabberd_sql_pt
+Fix filtering of rebar list-deps
+Fix renew_certificates ejabberdctl command
+Fix ACME options validation
+Fix elixir tests
+Fix sed invocation that was incompatible with FreeBSD sed
+Fix select_type race on plugin_init
+Fix mod_mam reloading
+Makefile.in: Fix "make clean && make"
+Fix a record default
+Fix a test related to mod_caps
+mod_mam: Fix indentation
+ejabberdctl: Fix 'read' syntax for non-bash shells
+ejabberdctl: Fix paths for release build
+Bug Fix The dictionary returned after the directory call contains a meta key whose value is a JSON dictionary. This is now taken care so that only bitstring values are kept as resource URIs
+Fix pkix:validate() return value
+Fix sql query
+Fix sql syntax error in lite.sql
+Fix last commit
+Fix typespec
+Fix typo
+Fix pubsub test, title not mandatory
+Fix delete item from unregistered user (#2067)
+Fix another typo ;)
+Fix typo
+Add missing fix from 07a193d4d, Fix purge_offline (#2057)
+Fix ZH translation
+Fix a typo: meta -> viewport
+Fix warning when compile with newer elixir
+Fix crash in mod_http_fileserver when logging URL with query elements (#2021)
+Fix race introduced by ffdaff374 on ejabberd_mnesia init
+Fix function clause introduced by c17ec50e3a
+Fix xref error
+Fix command set_last that always returned code 1, error (#2010)
+mod_push_mnesia: Fix typo in error message
+Fix iexdebug and iexlive commands (#1981)
+Fix a typo and improve logging message
+Fix version of jose library
+Fix deletion of multiple offline messages using WebAdmin (#1962)
+Fix a typo
+Fix 'make install' to work with new output from rebar list-deps
+Fix crash when destroying room without providing reason (#1954)
+Fix mod_multicast start and reading of configured limits (#1949)
+Fix typo from 9c5427e0c
+Fix regression introduced by b82b93f8f0c229e
+Fix pubsub send_loop after 3fec7824
+Fix tests for 8679cfd2f
+ejabberd_c2s: Fix priority of 'certfile' option
+Fix warning in previous commit
+Fix missing validation from 633b68db1 (#1900)
+Fix Xref from 5dcc97c
+Fix clustering table reg_users_counter (#1889)
+Fix getting cached last item (#1814)
+Fix spec for mod_pubsub:subscribe_node
+Fix PubSub send last published items (#1572)
+Fix PEP node removal (#1839)
+Fix disco#items on PEP service
+Fix PEP node identity (#1717)
+Fix extauth.py so support : in passwords (thanks to jmberg)(#1676)
+Revert "Fix get_module_opt call in mod_block_strangers"
+Fix get_module_opt call in mod_block_strangers
+Fix nick bug with MUC on riak
+Fix errors from 1a0db3d
+Fix indentation of commands lines
+Fix errors when running ejabberdctl as root
+Fix old route record in mnesia's route table haven't been remove when restarting in some cases (#1184)
+Fix ERLANG_OPTS when setting INET_DIST_INTERFACE
+Fix args_examples from last commit
+Fix ERLANG_OPTS end lines when setting FIREWALL_WINDOW (#1856)
+Fix set_presence command to work in recent ejabberd
+Fix invalid argument in get_messages_susbset
+Fix Salt import from prosody SCRAMmed password (#1803)
+Fix clone code in update-deps-release
+Fix problem with updating deps in rebar.config for non-tags
+Fix username in mam export (#1510)(thanks to themaverik)
+Fix mod_muc_admin:set_room_affiliation
+Fix outgoing_s2s_timeout description (#1684)
+Fix invalid {args,result}_examples in mod_muc_admin
+Fix srg_user_add/del for non-Mnesia database backends (#1780)
+Fix OTP-17.5 support
+Fix IP address parsing for mod_metrics
+Fix refactor bug on wait_status
+Fix elixir tests on elixir 1.4
+Fix and document push_roster_all command
+Fix mix warnings
+Fix version to be SemVer compatible
+Fix EJABBERD_OPTS
+Fix rooms list in WebAdmin (#1753)
+Fix case clause
+Cosmetic change: Fix indentation errors
+Fix values put in args_examples
+Fix function_clause after authentication refactoring
+Fix use_cache/1 callback
+Fix: update sql statement, added missing delimeter for sql queries
+Fix elixir tests
+Fix elixir tests
+Fix typo
+mod_stream_mgmt: Fix typo in variable name
+mod_stream_mgmt: Fix 'if_offline' detection
+Fix elixir tests
+Fix private_get command sending a proper xmlel (#1683)
+Fix cleaning of Riak route table
+Fix closing of outbound S2S connections
+Fix a typo
+Fix ejabberd_router:is_my_route/1
+Fix order of starting supervisors. ExtMod should be loaded before GenModSupervisor because ext_mod adds proper paths to ebin from modules (ejabberd-contrib). Without this change you have to add -pa parameter with path to module's ebin.
+ejabberd_sm: Fix routing of headline messages
+ejabberd_sm: Fix routing of groupchat messages
+ejabberd_sm: Fix typo in debug message
+Fix c2s connection close on demand
+Fix a typo
+Fix PEP issues (#1636)
+prosody2ejabberd: Fix offline message record type
+prosody2ejabberd: Fix message attribute removal
+Fix crash in mod_muc_admin, we operate on integers here not lists
+Fix compilation with mix (#1588)
+Fixed wrong parameter values in mod_muc_admin
+prosody2ejabberd: Fix SCRAM hash conversion
+Fix handling of xmlrpc request without authentication structure
+Fix handling ejabberd_sql:sql_transaction result (#1584)
+Fix typo and spec
+Fix previous commit
+Fix bug in api_permission parsing
+Fix compilation on R17
+Fix parsing of acl/access rules inside oauth sections of api_permissions
+Fix elixir tests
+Fix log message format
+Fix a case clause and run c2s_filter_send on send_error/3
+Fix pubsub MySQL schema
+Fix elixir tests
+Fix match of itemid on get_cached_item, fixes 14e771d8
+Fix s2s_dns_timeout issues
+Fix some dialyzer warnings
+Fix compilation when included as Elixir dependency (#1526)
+Fix some dialyzer warnings
+Fix handling of config.ctc files
+Fix tests
+Fix calling to mod_offline:store_packet
+mod_pubsub: Fix last item cache for multiple hosts
+Fix typo
+Fix reporting dialback failures
+Fix index processing (#1461)
+Fix configuration commands (#1432)
+Fix some corner cases while re-reading RFC6120
+Fix attaching ejabberd_s2s_out process to a supervisor
+Fix migration of old pubsub database (#1409)
+Fix typo in previous commit
+Fix problem with get_vcard command (#1447)
+Fix cyrsasl test after recent changes
+Fix case clauses when using compression (#1431)(thanks to Evgeniy Khramtsov)
+Revert "Fix 'nodetree' configuration lookups for PEP"
+Fix 'nodetree' configuration lookups for PEP
+Fix compilation of external module with new xmpp lib
+Fix reload_config
+Fix error formatting, which closed client connection (#1389)
+Fix mod_http_api_mock_test on 19.1
+Fixes pt-br translation (thanks to Rodrigues)(#1393)
+Fix typo introduced by 92db9ff changes
+Fix typo in copyright date
+Fix xref issue injected by fbfbb96
+Fix get_roster issue injected by fbfbb96
+Fix vcard_ldap exports
+Fix issues on import improvements
+Fix logging in tests on R17
+Fix elixir tests
+Fix non-empty disco-nodes processing
+Fix s2s test
+Fix handling mod_http_upload disco#info queries: need decoded elements
+Fix conference disco#items when running multiple virtual hosts
+Fix RSM for conference disco#items
+Fix includes in eunit compilation flags
+Fix elixir tests
+Fix typo
+Fix tests that use #forwarded
+Fix types in check_password_hash
+Fix IQ result processing
+Fix reading room jids from file for create and destroy_rooms_file commands
+Fix: Replace erlang function with fail-safe jlib function.
+Fix randoms:uniform/1 return
+Fix delete_old_messages command for SQL backends
+Fix typos in Czech translation (#1318)
+Fix 404 response formatting (thanks to Kaggggggga)(#1306)
+Revert "Fix getting of subscribed rooms: consider also temporary ones (#1242)"
+Fix getting of subscribed rooms: consider also temporary ones (#1242)
+Fix dialyzer warnings for mod_mam
+Fix nick-to-jid mapping for MUC subscribers
+Fix subscribed rooms list retreivement
+Fix typo on previous commit (#1284)
+Fix message routing from subscribers
+Fix compilation with Elixir 1.3 / R19
+node_mb: Fix configuration documentation
+Fixed typo in  Stream Management option name
+Fixed #1260 Stream Management feature for the websocket connections
+Fix result type of subscribe_room command
+Fix type convertion bug injected by 4ccc40b (#1229)
+Fix calls to undefined functions
+Fix error return expectation in command test
+Fix HTTP process return formatting
+Fix type spec for set_from_to/3
+Fix list appending bug
+Fix tests, command need to be properly added to list of exposed commands
+Fix elixir test case: stringprep was required
+Fix handling of complex values as arguments in http_api
+Fix test for changes in oauth expiry
+mod_mam: Fix handling of result set page limit
+Fix hooks de-registration
+Fix command argument formatting
+Fix ce0d1704c6cc167c8bc891587952f78c55f979ad
+Fix compilation error
+Fix missed escaping in node_flat_sql.erl
+Fix use of like parameter in sql pubsub's requests
+mod_configure: Fix editing of access rules
+Fix compilation issues on R19
+Fix dependencies when using Elixir Mix
+Fix typo from d8bb5d9c
+mod_pubsub: Fix matching of set_node/1 result
+Fix PubSub RSM on get_items (#1147)
+Fix pgsql compatibility on delete_old_messages (#1137)
+Fix handling of queued stanzas on session timeout
+mod_mam: Fix "assume_mam_usage: if_enabled"
+mod_pubsub: Fix node configuration changes for SQL
+mod_client_state: Fix handling of chat states
+Fix quicktest case
+Fix "unused variable" warning
+Fix problem in dfee843 when non-occupant admin kicks an occupant (#1135)
+Fix ejabberd.ldif
+Fix a typo
+Fix set_presence API
+Fix mod_http_api_test.exs
+Fix tests
+ejabberd_auth*: Fix indentation
+Fix jid:from_string/1 function specification
+Fix a typo
+Fix C2S session data leak (#1078)
+Fix ejabberdctl.template duplication
+Fix sender in case of explicit pep subscriptions
+ejabberdctl: Fix path to epmd
+Fix typo in mod_mam:select() (#1098)
+Fix use of pubsub node plugin when configured with default_node_config
+Fix error text for message bounces
+Fix check for standalone chat state notifications
+Fix node ping command
+Fix hometree root check (#1070)
+Fix typo in error message
+Fix check_password
+Fix anonymous auth
+Fix error message paramater formatting
+Fix mod_muc_admin:get_room_options
+Fix mod_muc_admin:set_room_affiliation
+Fix merge issues
+Fix tests, they are now running fine locally
+Fix failing tests
+Fix Dialyzer inconsistency
+Fix commands api option
+Fix commands access check.
+Fix commands access check.
+Fix log printout
+Fix some LIMIT related problems with MSSQL
+Fix issue getting shared roster
+Fix start via systemd (#978)
+Fix is_connected/0 function
+Fix a typo in travis.yml
+Fix indentation of mod_register in default configuration file
+Fix issue #1015
+Fix Addresses element which lacked others local destinations
+Fix result type of "connected_users_info" command
+Fix config fetch after host/serverhost cleanup
+Fix call to lager_util:is_loggable/3
+Fix escaping of argument in iexlive and iexdebug
+Fix format_result also in xmlrpc, after aa5caa3 (#982)
+Fixed type specifications for 'rebar doc'
+Fix pubsub disco after host/serverhost cleanup
+Fix host/serverhost usage (#902)
+Fix for #935
+Fix format_result so get_room_options command works again after aa5caa3
+Fix the color of links in tables in web admin
+Fix example value for rescode return type
+Fix section links to the Guide in the WebAdmin
+XEP-0198: Fix session timeout corner case
+Fix presence-based delivery
+Fix order of arguments references
+Fix fuzzy tag in correct string
+Fix records in mod_muc.hrl
+Fix MAM MUC for v0.4.1
+Fix 'make install' to work on osx
+Fix handling of some options in old style configs
+mod_http_upload: Fix logging of file size mismatch
+Fix pubsub virtual nodetree plugin
+Fix last item message type as message attribute
+Fix mod_carboncopy configuration for test suite
+Fix pubsub headers
+Fix pubsub test error
+Fix problem with handling of old db entries in mod_mam
+mod_offline: Fix outdated comments
+Fix more places where random:seed is used
+Fix randoms.erl on R17 that don't have random:seed(integer())
+Fix bug in last commit
+XEP-0198: Fix stanza counting corner case issue
+Fix archive preference retreiving (#848)
+Fix example config about ejabberd_xmlrpc (#771)
+Fix problem with pipelined http requests arriving in single packet
+Fix ipv6 configuration processing (#803)
+mod_http_upload: Fix string()/binary() type issue
+Remove access_commands 'unrestricted' option, use [] instead.  Fix unauthenticated calls to commands with policy=user.
+Fix access_commands option handling
+ejabberd_listener: Fix ETS update on port reuse
+Fix cyrsasl_oauth:mech_new call
+Fix acl issue from cleanup
+Revert "Fix compilation on Erlang R15B"
+Fix force_update_presence
+Fix problem with --auth in ejabberd_ctl:process2/2
+Fix calling problem introduced when reducing bashisms (#748)
+Fix regression introduced when code was binarized (EJAB-641)
+Fix MSSQL support
+Fix typo
+Fix German translation (thanks to STPKITT)(#726)
+Fix problem with merging same port, different ip listeners in config files
+Fix case clause during S2S certificate checks
+Fix and document create_rooms_file and destroy_
+Fix problem with merging values from multiple config files
+Fix mod_mam compatibility with RSM for other backends
+Fix tests related to MAM
+Fix mod_mam compatibility with RSM (only with odbc backend).
+Fix MAM tests (EJABS-2480).
+Fix dialyzer warning
+Fix max_items and don't let PEP depends on item cache
+Fix bug introduced in commit b88fa6f6174
+Fix typo
+Fix commands export2odbc, connected_users_vhost and push_alltoall (#586)
+Fix anonymous user login, it wasn't stored in anonymous mnesia table
+Fix MUC room options vaildation
+Fix pubsub/odbc crash on remote user unsubscribe (EJAB-1483)
+Fix merging of not yaml config files
+Fix use of publish_only affiliation with odbc backend
+A few more... Fix epmd not in PATH (#484)(thanks to acediac)
+Fix dialyzer warning in mod_muc_admin:206
+Fix function specification
+Fixed some string()/binary() issues in ejabberd_odbc
+Revert "Fix EJABBERD_OPTS quoting for Elixir"
+Fix indentation
+Fix setting 'description' with change_room_option command (#567)
+Fix check_password_hash argument parsing (#559)
+Fix set_last command to work with recent ejabberd (#555)
+Fix fetching from git@github url and allow compilation from ejabberd sources
+Fix service disco handling for bare account JIDs
+Fix validating function for iqdisc
+Fix typo, oups...
+Fixed node type (thanks to saczawap) (#435)
+Fix LDAP substrings filter (EJAB-1715)
+Fixed error replying on blocked messages
+CSI test: Fix race when slave becomes active again
+Fix nick logging in mod_muc_log plaintext (#522)
+Fix problem with pushing bufferend #xmlel-s to receiver in websocket code
+Fix bug when sorting the list of rooms in WebAdmin
+Fix problem with c2s buffering on old style websocket connections
+Fix compilation result for asn1 files
+Fix asn1 module compilation with mix
+Fix type spec
+Fix output formatting in srg_get_info commend from mod_admin_extra
+Fix problems with get_vcard* functions from mod_admin_extra
+Fix lite.sql and convert binary to integer
+Fix even more dialyzer warnings
+Fix set_presence command (ejabberd-contrib#61)
+Fix more mod_admin_extra commands
+Fix problems in process_rosteritems command
+Fix return error when requesting non-existing vcard value (#21)
+mod_admin_extra: Fix private_get/private_set types
+mod_admin_extra: Fix stats(_host) argument types
+Fix get_vcard and set_vcard when using option module_resource (issue #21)
+Fix add_rosteritem, delete_rosteritem, and get_roster
+Fix command change_password (fixes #16)
+Fixes srg_* commands (fixes #147)
+Fix srg_create when calling ejabberd_regexp (fixes issue #12)
+Fix "IP address not available" error message
+Fix compilation on Erlang R15B
+Fix mod_offline termination
+Fix epmd not in PATH (#484)
+Fix unblock all when Riak is used as a backend
+Fix R15B compilation
+Fix Elixir tests failure detection
+Fix: default_host is forgotten between consecutive HTTP requests (#416)
+Fix typo on state reuse
+Fix IPv6 loopback address in the guide
+Fix processing POST messages after changes from adding websocket handling
+Fix EJABBERD_OPTS quoting for Elixir
+Fix incorrect Elixir name
+Fix "make install" without Elixir support
+Fix typo in debug message
+Fix a few function specifications
+Fix integer parameter which can be set to 0
+Fix missing copyright dates to 2015 (EJAB-1733)
+Fix overflow in XEP-0203 delay: if microseconds exceeded 999499, *** was put in the formatted timestamp
+Fix binaries when ejabberd_ctl passes auth details
+Fix access_commands option in ejabberd_xmlrpc, now it works
+Fix spec comment and remove useless case block
+Fix unused vars warning
+Fix missing presences when adding shared groups (Github PR#99, thanks to Bokner)
+Fix binaries in command ejabberdctl stop_kindly
+Fix example: turn_ip must be specified as string
+Fix ejabberd_captcha's listener parsing
+Fix upgrade of PubSub mnesia tables from older ejabberd version.
+mod_muc_log: Fix configuration parsing
+Fix mod_client_state's configuration parsing
+Fix parsing of "ldap_dn_filter" option
+Fix for ejabbed bug #359 - now strings are formatted correctly.
+Fix kick_user command
+Fix "make install" without JSON support
+Fix race in CSI test case
+Fix xref check when odbc driver is not used.
+Fix list unblocking when Riak is used as a backend
+Fix format of an XML-RPC response
+Fix init script: use getent to allow ejabberd user from external authentication sources (LDAP)
+Fix privacy checks of presence probes
+Fix a comment in ejabberd_hooks
+Fix an XEP reference in the guide
+Fix return value of mod_shared_roster:delete_group. Current one is not compatible with mod_admin_extra.
+Fix MUC option docs: "infinity", not "infinite"
+Fix the deprecation warning to reflect YAML format
+Fix odbc update_t and update insert case return value
+Fix migration of pubsub nodes. Was deleting and re-creating all nodes on each startup.
+Fix events broadcasting via C2S
+Fix "s2s_access" option name in documentation
+Fix ejabberd.yml comment on overload protection
+Fix ejabberd.yml comment on log rotation syntax
+Fix Record-Route signing
+Fix returned types
+Fix blocklist get
+Fix broken hooked functions
+Fix configuraton with custom nodetree plugin
+Fix compile errors introduced by previous cherry picks
+Fix roster versioning support when Riak backend is enabled
+Fix case clause
+Fixate Riak client library
+Revert "Fix IQ XML generation."
+Fix IQ XML generation.
+Fix previous commit
+Fix data convertion
+Fix LibYAML version in the list of dependencies
+Fix 'via' option lookup
+Fix previous commit
+Fix odbc_port option processing
+Fix proxying of ACK requests for 2xx responses
+Fix check_from/2 formatting
+Fix formatting
+Fix URL markup in the guide
+Fix bug when joining empty path
+Fix previous commit (C2S session close on server shutdown)
+Fix C2S session close on server shutdown
+Fix PEP broadcasting issue on ODBC (EJAB-1680)
+Fix PEP broadcasting issue (EJAB-1680)
+Fix small bug in presence_based_delivery implementation
+Fix CSeq comparison
+Fix error reporting in previous commit
+Fix formatting string argument (thanks to Locojay)(github #129)
+Fix extraction of host names from certificates
+Fix two small typos in the guide
+Fix compilation on pre-R17
+Fix loading translation files on R17
+Fix description of access rules syntax
+Fix a type error
+Fix badarg issue on module update web site
+Fix user_resources command, and ejabberd_xmlrpc parsing auth details in call
+Fix service_info options processing
+Fix ACLs syntax change (thanks to jokker23)(issue #140)
+Fix --{enable,disable}-transient_supervisors flag
+Fixing mod_carboncopy sends carbons of carbons (fixes #107)
+Fixed parameter order in call to restore_room/3
+Fix for the previous commit
+Fix auth verification in ejabberd_xmlrpc (thanks to Vicis)
+Fix example configuration option 'add' to 'append_host_config'
+Fix some type specs and errors
+Fix some type errors
+Fix display ACLs in WebAdmin
+Fix handling of format_status arguments (thanks to Nbaronov)
+Fix bypass for tls-required (thanks to Zeha)
+Fix roster version support
+Fix problem with decoding http headers over tls connections
+Fix the template: do not use 'global' keyword
+Fix release version number.
+Fix the ACL rule
+Fix ejabberdctl config name
+Fix version check
+Fix timestamp processing
+Fix some type errors
+Fix IDNA conversion
+Fix a typo
+Fix external authentication
+Fix previous commit
+Fix some dialyzer warnings
+Fix all calls to functions of p1_tls application
+Fix node auto-creation
+Fixed broadcast messages handling
+Fixed conversion to ezlib
+Fix the error report of an incorrect certfile
+Fix Guide: ejabberd_service expects a shaper_rule, not a shaper
+Fix a bug when reading tuples from config
+Fix get of announcement form
+Fix error when generating random binary strings
+Fix bug when getting room config
+Fix mod_http_fileserver work with binaries (GITHUB-59)
+Fix several refactoring related bugs
+Fix documentation of mysql and pgsql configuration
+Fix room configuration after binarization
+Fix privacy list broadcast internal stanza after binarization
+Fix bug when displaying offline messages in WebAdmin
+Fix issue with ejabberd_xmlrpc user auth and SCRAM
+Fix compatibility of LDAP support with Erlang R16A (EJAB-1612)
+Fix warning about unused variable
+Fix angle brackets handle in MUC plaintext log (EJAB-1610)
+Fixed signedness issue in tls_drv GET_DESCRYPTED_INPUT (EJAB-1591)
+Fix broken JPEG photo (EJAB-1526)
+Fixed mod_offline:store_offline_msg argument (EJAB-1581)
+Fix regression introduced in odbc/mnesia merge
+Fix file name of Name Service Switch (thanks to Konstantin Khomoutov)
+Fix MUC start when Mnesia tables don't exist yet
+Fix account registration
+Fix get_subscription_lists/4
+Fix English strings (thanks to Andreas van Cranenburgh)
+Fix translation script to use ejabberd_regexp (EJAB-921)
+Fix makefile rules for building dll-s in Makefile.win32 files
+Fix Enlish in the Guide (thanks to Ludovic Bocquet)
+Fix typo in xep number, bosh is xep0206 (thanks to Ludovic Bocquet)
+Fix the documentation about default value of captcha_cmd option
+Fixed ejabberd_http:get_line
+Fixed the previous mod_blocking patch
+Fix update with stripped beams (thanks to Jose M Herrero)(EJAB-1520)
+Fix command "update" to return response in the expected format
+Fix bug on s2s shaper when TLS is used
+Fix error in mod_vcard when lowercasing some vjud search result fields (EJAB-1490)
+Fix presence problem after first unavailable (thanks to Christopher Faulet) (EJAB-1466)
+Fix previous commit about language name
+Fix extraction of language name from PO files
+Fix instruction and error text
+Fix voice request/approvement detection and extract_jid_from_voice_approvement/1
+Fix typo
+Fix patterns in check_voice_request_fields/2 and check_voice_approvement_fields/2
+Fix return value inconsistency in last_voice_request_time/2
+Fix form instructions
+Fix exception handling in is_voice_request/1
+Fix mod_muc_log crash when first log entry is room being destroyed (EJAB-1499)
+Fix Denial of Service when user sends malformed publish stanza (thanks to Oleg Smirnov) (EJAB-1498)
+Fix dialyzer warnings
+Fix dialyzer warnings
+Fix previous commit
+Fixed support for multi-resource occupants (EJAB-305)
+Fix room config change logging, due to allow_private_messages_from_visitors
+Fix SCRAM to support attributes which value has only one character
+Fix typo in the Guide about user_regexp
+Fix dialyzer warnings
+Fix SCRAM auth of uppercase passwords (EJAB-1196)
+Fix potential case-clause crash
+Fix some case clauses
+Fix bug in scram is_alpha
+Fix ODBC account counting (thanks to Artem Sh)(EJAB-1491)
+Fix and improve support for SCRAM auth method (EJAB-1196)
+Fix typo in modules overview
+Fix reference to 'admin' ACL name (thanks to Samuel Wejeus)(EJAB-1476)
+Fix compilation in Windows (thanks to flyingwow99)
+Fix crash when user publishes an item (EJAB-1457)
+Fix some typos in the Guide
+Fix minor English error
+Fix a recent commit about "Set script as executable"
+Fix syntax error
+Fix typo (thanks to Krzee)
+Fix bashism and make some lines similar to master branch (EJAB-1404)
+Fix typo in French translation
+Fix delayed response of a timeout call was reused for next login (EJAB-1385)
+Fix warning about unused variables
+Fix detection of mod_last at server start (EJAB-641)
+Revert "Fix cyrsasl_digest RFC-2831 2.1.2.1 (EJAB-476)"
+Fix cyrsasl_digest RFC-2831 2.1.2.1 (EJAB-476)
+Fix characters not allowed in username. Don't include that in translatable string.
+Fix some English strings
+Fix http-bind supervisor to support multiple vhosts (EJAB-1321)
+Fix R12B5 compatibility in ejabberd_http_bind.erl (EJAB-1343)
+Fix typos in the example configuration file
+Fixes a leak of ejabberd_receiver processes.
+Fix crash in ejabberd_c2s when blacklist hook returned true (thanks to Jonas Ådahl)
+Fix errors in EDoc comments
+Fix bug in mod_pubsub in_subscription return value
+Fix errors detected by Dialyzer
+Fix unused variable warning in ejabberd_loglevel
+Fix detection of Erlang R11 and older (thanks to Mathias Ertl)(EJAB-1287)
+Fix typo (thanks to Evgeniy Khramtsov)
+Fix my flock change from last friday
+Fix print of command result that contains ~ (thanks to Tsukasa Hamano)
+Fix typo in --enable-transient_supervisors
+Fix privacy check when serving local Last (thanks to Brian Acton)(EJAB-1271)
+Fix problem when FIREWALL_WINDOW options for erl kernel were used
+Fix for Erlang R12, that doesn't support: true andalso ok
+Fix typo in update_list command (EJAB-1237)
+Fix English typos
+Fix EDoc comment
+Fixed Bugs handling Service Discovery to contacts.
+Fix indentation (EJAB-1038)
+Fix crash in number of occupants; other minor changes (EJAB-1038)
+Fix warnings about unused variable.
+Fix German translation (thanks to Florian Zumbiehl)(EJAB-1195)
+Fix resending authorization problem
+Fix typos in example config comments (thanks to Florian Zumbiehl)(EJAB-1192)
+Fix cluster race condition in route read (thanks to Alexey Shchepin)
+Fix bashism in 'ejabberdctl started'
+Fix character in README file
+Bug Fix: The value of max # of erlang process specified in ejabberdctl.cfg was not used.
+Fix bug handling Reason in gen_fsm:terminate
+Fix typo in doc
+Fix documentation installation, no need for executable permission (thanks to Peter)(EJAB-1170)
+Fix typo in EJABBERD_BIN_PATH (thanks to Martin Langhoff)(EJAB-891)
+Fix some moved URLs in the Guide
+Fix OTP version detection to work with old supported R10 and R11
+Fix explanation of access_max_user_messages.
+Fix so script runs correctly when invoked by root (EJAB-1152)
+Fix warning about unused variable
+Fix error message when register is forbidden by ACL (EJAB-803)
+Fix EDoc comment
+Fix get_group_opt to return Default value in case of Mnesia error.
+Fix erl -setcookie argument in cluster setup (thanks to Jan Koum)
+Fix memory and port leak when TLS is enabled in HTTP (thanks to Brian Cully)(EJAB-1119)
+Fix bug that couldn't connect if starttls_required and zlib were set (EJAB-1118)
+Fix warning of unused variable
+Fix explanation of option content_types. Reorder options.
+Fix EDoc errors
+Fix bug that forgot listener options when using R12 or older.
+Fix ProcessOne name in comments.
+Fix disco on root node, add commands to disco (thanks to Brian Cully)(EJAB-1094)
+Fix stringprep Bidi checking (thanks to Alexey Shchepin)(EJAB-1087)
+Fix mistake that disallowed s2s_out connections when using Erlang R12 or older.
+Fix word Sensible with Sensitive (thanks to Marcin Owsiany)(EJAB-1071)
+Fix unnecessary call to xml:crypt/1 (thanks to Janusz Dziemidowicz)(EJAB-1064)
+Fixed more gcc signedness warnings
+Fix regression for authorize node subscription (thanks to Brian Cully)(EJAB-1060)
+Fix wrong XEP number to XEP-0227. Recompile translation files.
+Fix pubsub tables constraints in MySQL schema creation script.
+Fix missing tag when configuring subscription option (thanks to Clochix)
+Fix Edoc errors
+Fix EDoc comment
+Fix EDoc errors.
+Fix port in IRC register form.
+Fix english strings
+Fix error when nick registration stanza doesn't contain Value.
+Fix typo from EJAB-988
+Fix updating pending subscriptions (EJAB-980)
+Fix set-subscriptions to work with multi-subscribe (EJAB-977)
+Fix remote-stream-error stanzas
+Fix warning of unused Host variable
+Fix unknown rid error (thanks to Jerome Sautret)
+Fix syntax error. (thanks to Jerome Sautret)
+Use DEBUG instead of INFO_MSG to keep log files small. Fix parse errors for grepping 'stream:error' (thanks to Stefan Strigler)
+Fixes for pausing sessions; did not parse 'pause' attribute to int (thanks to Stefan Strigler)
+Fix for 'terminate' in request, send empty body instead of error (thanks to Stefan Strigler)
+Fix capitalization of HTTP headers (thanks to Brian Cully)(EJAB-892)
+Fix ip source to comply with new ip storage into ejabberd_http (thanks to Christophe Romain)
+Fix error creating ETS table if enabled in several vhosts (EJAB-551). Unregister the command when stopping the module.
+Fix syntax error in config file.
+Add forgotten copyright and license notices. Fix blackspaces.
+Fix Access check: the rule can be defined in a vhost or global.
+* trunk/src/odbc/ejabberd_odbc.erl: Fix typo (EJABS-859) (EJAB-940) (CR-EJAB-10) * branches/road-to-exmpp/src/odbc/ejabberd_odbc.erl: Likewise.
+Fix bad transaction returncode in unsubscribe presence handler
+* src/mod_muc/mod_muc_room.erl: Fix badarg return (EJAB-899)
+* src/win32_dns.erl: Fix problem parsing some win32 dns (EJAB-927)
+* src/cyrsasl_digest.erl: Fix auth verification (EJAB-863)
+* src/jlib.erl: Fix recursive call to speedup base64 decoding (thanks to Jeffrey Rogiers)(EJAB-333)
+* src/ejabberd.cfg.example: Fix English typos. Fix line length: max 80 characters per line. Remove trailing blankspaces. Added markers for Vim fold, you may want to add to $HOME/.vimrc this line: set modeline * src/ejabberdctl.cfg.example: Likewise
+* src/ejabberd_c2s.erl: Fix for SASL Anonymous connections not stored or purged (thanks to Andy Skelton)(EJAB-912)
+* src/msgs/pl.po: Fix some translations (thanks to Andrzej Smyk)
+* src/ejabberd_frontend_socket.erl: Fix compilation warnings and add TODO comments.
+* src/mod_irc/mod_irc_connection.erl: Fix compilation warnings.
+Fix mistake when calling win32_dns.
+* src/tls/tls_drv.c: Fix encryption problem for ejabberd_http after timeout (thanks to Alexey Shchepin)(EJAB-880)
+Fix PEP with other domains and s2s (EJAB-825)
+* src/tls/tls_drv.c: Fix to support OpenSSL older than 0.9.8f (EJAB-877)(thanks to Jonathan Schleifer) * doc/guide.tex: It is again supported OpenSSL older than 0.9.8f * doc/guide.html: Likewise
+Fix small compilation error introduced in revision 1923
+* src/mod_pubsub/node_default.erl: Fix that non-subscriber could fetch items from Authorize node (thanks to Brian Cully)(EJAB-873)
+* src/mod_pubsub/mod_pubsub.erl: Fix incorrect implementation of Pubsub payload requirements (thanks to Andy Skelton)(EJAB-823)
+* src/ejabberd_listener.erl: Fix report message of 'undef' error
+Fix a minor compilation warning and add EDoc comment
+* src/mod_shared_roster.erl: Fix bug: a pending subscription request, and later the requester added to the roster due to a shared roster group, that request could neither be accepted or rejected (thanks to Brian Cully)(EJAB-869)
+* src/Makefile.in: Fix arguments to Install program
+* src/web/ejabberd_web_admin.erl: Calls to the hook webadmin_menu_node provide the node as first argument, and calls to webadmin_menu_hostnode provide both the host and the node. Fix call to make_menu_items, because webadmin_menu_node was called in cases where webadmin_menu_hostnode should be called. Align to right some table elements.
+* src/odbc/mysql.sql: Fix complain about comment syntax * src/odbc/pg.sql: Likewise
+* src/msgs/pl.po: Fix typo (thanks to Apag0r)(EJAB-844)
+* doc/guide.tex: Fix some English strings: JID -> Jabber ID; jabberd 1.4 -> jabberd14; commited -> committed * src/*/*.erl: Likewise * src/msgs/*.msg: Likewise * src/msgs/*.po: Likewise
+* src/odbc/ejabberd_odbc.erl: Fixed processing of UPDATE results with pgsql
+* src/mod_configure.erl: Fix access check for vhost configuration
+* src/msgs/ru.po: Fix typo (thanks to Dominges) * src/msgs/ru.msg: Likewise
+* src/*.erl: Fix EDoc comments
+* src/aclocal.m4: Fixes in configure script: fix disable-disable_zlib and disable-pam; in case of problems, PAM verification aborts with error instead of warning. (EJAB-787) * src/configure.ac: Likewise * src/configure: Likewise
+* src/odbc/odbc_queries.erl: Fix removal of private_storage of an account when the account is removed
+Fix send_last_published_item issue when running on clustered table (EJAB-793)
+* src/mod_pubsub/mod_pubsub.erl: Fix update pubsub tables from ejabberd 1.x to 2.x (EJAB-817)
+* doc/guide.tex: Fix capitalization of some section titles
+Fix default value of default_room_options (thanks to Aleksey Shchepin)
+* src/ejabberdctl.template: Fix detection of ejabberdctl.cfg path
+* src/ejabberd_lstener.erl: Fix listeners * src/ejabberd_sup.erl: Likewise * src/gen_mod.erl: Likewise
+* src/ejabberd_frontend_socket.erl: Fixed SSL sockets
+* src/odbc/odbc_queries.erl: Fix empty query that fail on MySQL.
+* src/mod_configure.erl: Fix adhoc commands reply types for "get-online-users-num" and "get-registered-users-num" (EJAB-756).
+* doc/guide.tex: Fix explanation of mod_muc's anonymous option. Make clear that an ejabberd_service can only serve a single external component. Provide Mnesia directory when setting clustering (thanks to Matthew Reilly)
+Fix: provide the port as an integer, not string (EJAB-560)
+* doc/guide.tex: Fix mod_proxy configuration example * doc/guide.html: Likewise
+Fix release date of ejabberd 2.0.2 to 28 August 2008
+* src/ejabberd_router.erl: Fix call to mnesia match_object
+* doc/guide.tex: Fix names of chatroom to room, user to occupant * doc/guide.html: Likewise
+Fix call to unexported function nodetree_default:get_subnodes/2
+* src/msgs/sv.msg: Fixed formatting typos
+* src/ejabberd_service.erl: Fix XEP-0114 compliance: define xmlns in header of error response; check the connection is attempted to a served component; include in response the JID of served component not server (thanks to Sergei Golovan)
+* src/msgs/uk.msg: Fix: each string in a single line * src/msgs/wa.msg: Likewise
+* src/odbc/odbc_queries.erl: Fixed a typo
+* src/mod_muc/mod_muc_room.erl: Fix to allow a server admin to add himself as owner of a room (EJAB-687)
+* src/Makefile.in: Fix docdir so it recognizes prefix. If sbin dir does not exist, create it. Fix cookiefile permission check. (EJAB-696)
+* src/mod_pubsub/mod_pubsub.erl: Fix compilation warnings * src/mod_pubsub/node_zoo.erl: Likewise * src/mod_shared_roster.erl: Likewise
+* src/mod_muc/mod_muc_log.erl: Fix XHTML compliance: ensure some language is set, include ID attribute in each message, add microseconds to ensure unique value (EJAB-497)
+* doc/guide.tex: Fix indentation of verbatim text
+* src/ejabberd_s2s_out.erl: Fix compilation error.
+* src/mod_muc/mod_muc_room.erl: Fixed room shaper processing
+* src/mod_shared_roster.erl: Fix for new registered accounts not being immediately shown in an 'all' special shared roster group (thanks to Alexey Shchepin) (EJAB-71) * src/mod_register.erl: New vhost event user_registered
+* src/ejabberd_s2s_out.erl: Fix long timeout when reconnecting s2s after a remote server crash (EJAB-540) * src/ejabberd_s2s_in.erl: Likewise * src/ejabberd_s2s.erl: Likewise * doc/guide.tex: Likewise
+* src/tls/tls_drv.c: Fixed gcc signedness warnings * src/ejabberd_zlib/ejabberd_zlib_drv.c: Likewise
+*src/ejabberd_c2s.erl: Uniform default value for empty privacy list. Fixes (EJAB-603).
+* doc/guide.tex: Fix default_room_opts with default_room_options * doc/guide.html: Likewise
+* doc/guide.tex: Fix epam location (thanks to Evgeniy Khramtsov) * doc/guide.html: Likewise
+* src/msgs/de.msg: Fix irc typo (thanks to Jonathan Schleifer) * src/msgs/cs.msg: Likewise * src/msgs/pl.msg: Likewise * src/msgs/sk.msg: Likewise
+* doc/guide.tex: Describe option Matches in mod_vcard_ldap (thanks to Evgeniy Khramtsov)(EJAB-530).  Fix typo in the description of ldap_server option. * doc/guide.html: Likewise
+* src/ejabberd_update.erl: Fix crash when browsing the Update page in Erlang R12 (EJAB-552)
+* src/web/ejabberd_http_poll.erl: Fixed HTTP headers when a requested session doesn't exist
+* src/ejabberd_check.erl: Fixed missing clause (EJAB-533).
+* src/mod_roster.erl: Fixed "from" attribute in roster pushes * src/mod_roster_odbc.erl: Likewise
+* src/web/ejabberd_web_admin.erl: Fixed native support for all the ACL types (EJAB-253)
+* src/mod_pubsub/node.template: Fixed typo
+* src/mod_pubsub/node_buddy.erl: Fixed typo * src/mod_pubsub/node_club.erl: Likewise * src/mod_pubsub/node_dispatch.erl: Likewise * src/mod_pubsub/node_pep.erl: Likewise * src/mod_pubsub/node_private.erl: Likewise
+* src/mod_pubsub/nodetree_virtual.erl: Fixed error report at startup.
+* src/ejabberd_s2s_out.erl: Fixed behavior when outgoing_s2s_port option is not defined (EJAB-487)
+* src/ejabberd_s2s_out.erl: Fixed behavior when outgoing_s2s_port option is not defined
+* src/mod_vcard_ldap.erl: Fix some field names (EJAB-483)
+* Fixed typo.
+* doc/release_notes_2.0.0.txt: Fix on number of supported languages.
+* doc/release_notes_2.0.0.txt: Fixes and update.
+* src/mod_announce.erl: Fixed unnoticeable bug related to Node matching. Renamed some nonstandard node names according to XEP-0133. Small reordering of clauses.
+Fixed small mistake.
+* src/web/ejabberd_http.erl: Fixed URL decoding code (EJAB-450)
+* src/Makefile.in: Fix compilation warnings: Part 5: To fix a warning about behaviour undefined, the erlang module that implements the behaviour must be compiled before the module that uses such behaviour (EJAB-290)
+* src/eldap/eldap.erl: Fix compilation warnings: Part 4 (EJAB-290) * src/web/ejabberd_web_admin.erl: Likewise
+* src/mod_irc/iconv.erl: Fix compilation warnings: 3 (EJAB-290) * src/mod_irc/mod_irc.erl: Likewise * src/mod_irc/mod_irc_connection.erl: Likewise * src/mod_pubsub/mod_pubsub.erl: Likewise * src/stringprep/stringprep.erl: Likewise * src/web/ejabberd_http.erl: Likewise * src/web/ejabberd_http_poll.erl: Likewise
+* src/mod_caps.erl: Fix compilation warnings: Part 2 (EJAB-290) * src/mod_configure.erl: * src/mod_configure2.erl: * src/mod_offline_odbc.erl: * src/mod_shared_roster.erl: * src/mod_stats.erl: * src/mod_version.erl:
+* src/cyrsasl.erl: Fix compilation warnings: Part 1 (EJAB-290) * src/ejabberd_auth_odbc.erl: Likewise * src/ejabberd_config.erl: Likewise * src/ejabberd_hooks.erl: Likewise * src/ejabberd_s2s_out.erl: Likewise * src/ejabberd_sm.erl: Likewise * src/idna.erl: Likewise * src/jd2ejd.erl: Likewise
+* src/mod_pubsub/mod_pubsub.erl: Fixed URI.
+* ChangeLog: Fix conflict.
+* src/aclocal.m4: Fix autoconf caching for SSL libraries (thanks to Michael Shields) (EJAB-439)
+* doc/guide.tex: Document ejabberd_http's request_handlers (EJAB-372). Fixed small Latex problems. Sort options of listening sockets.
+* doc/guide.tex: Document ejabberd_http's request_handlers (EJAB-372). Fixed small Latex problems.
+* doc/guide.tex: Fixed several typos.
+* examples/extauth/check_pass_null.pl: Fixed external authentication example script (EJAB-404)
+* ChangeLog: Fixed typo.
+* src/ejabberd_s2s.erl: Fixed merge conflict (duplicate functions).
+* src/guide.tex: Fix: user_regexp acls are valid for all local users (all vhosts).
+* ChangeLog: Fixed attibution to commiter.
+Fixed conflict
+* src/ejabberd_auth_odbc.erl: Fixed wrong call preventing user removal with relational databases.
+* src/mod_roster_odbc.erl: Fixed wrong call.
+* src/ejabberd_s2s.erl: Fixed typo.
+* src/mod_roster_odbc.erl: Fixed typo
+* src/ejabberd_config.erl: Fixed "language" option processing (thanks to Badlop)
+* src/mod_vcard_odbc.erl: Fix for previous commit (thanks to Badlop)
+* src/guide.tex: Fixed typo.
+* src/ejabberd_s2s.erl: Fixed spelling
+* src/mod_muc/mod_muc_log.erl: Fix wrong return on check access log.
+* doc/guide.tex: Fixed typos in labels.
+* src/ejabberd_ctl.erl: Bugfix: Now display all register commands for a vhost and not only one (Thanks to Badlop) (EJAB-162). * src/ejabberd.cfg.example: Fixed typo.
+* src/mod_proxy65/mod_proxy65_services.erl: Fixed typo.
+* doc/guide.tex: Fixed regexp ACL configuration examples (Thanks to Massimiliano Mirra).
+* src/odbc/mysql.sql: Fix database creation script.
+* src/eldap_utils.erl: Fixed missing export (EJAB-154).
+* src/guide.tex: Fixed typos.
+* ChangeLog: Fixed typo.
+* src/release_notes_1.1.2.txt: Fixed hanging paragraph
+* doc/release_notes_1.1.2.txt: Fixed typos and rephrasing.
+* doc/guide.tex: Fixed Latexish typos.
+* src/mod_muc/mod_muc_log.erl: Fixed html special characters escaping, added new image buttons, chatroom titles now point to xmpp: URIs (thanks to Badlop)
+* src/mod_muc/mod_muc_log.erl: Fixed html special characters escaping, added new image buttons, chatroom titles now point to xmpp: URIs (thanks to Badlop)
+* Makefile.in: Fix for MacOSX compilation (EJAB-124). * ejabberd_zlib/Makefile.in: Likewise. * mod_irc/Makefile.in: Likewise. * stringprep/Makefile.in: Likewise. * tls/Makefile.in: Likewise.
+* src/mod_muc/mod_muc_room.erl: Fixed logging configuring permission check
+* src/ejabberd_c2s.erl: Bugfix: added a missing catch and fixed the error code used on unknown namespace. * src/ejabberd_s2s_out.erl: Improved s2s connection negociation (dialback namespace usage) when using tls. * src/ejabberd_sm.erl: Fixed the error code used on unknown namespace. * src/mod_register.erl: ejabberd now sends iq result and stream end on user remove.
+* src/mod_muc/mod_muc_room.erl: Fixed the order in which room presence packets are sent (First existing presence to new occupant, then new occupant presence to existing users (EJAB-115).
+* src/ejabberd_auth.erl: Fixed broken multiple connection with anonymous login problem (EJAB-107). * src/ejabberd_auth_anonymous.erl: Likewise.
+* doc/release_note_1.1.1.txt: Fixed typo.
+* Fixed notes for version 1.1.0 release.
+* src/mod_pubsub/mod_pubsub.erl: Fixed pubsub root node creation (conflict error was send on node creation)
+* src/mod_privacy.erl: Fixed privacy list pushing (thanks to Sergei Golovan) * src/ejabberd_c2s.erl: Likewise
+* src/odbc/pg.sql: Fixed syntax error
+Fixed ChangeLog
+* src/odbc/ejabberd_odbc.erl: underscore and percent are now only escaped in like queries. MySQL where not escaping those escaped characters in other context (EJAB-24) * src/mod_vcard_odbc.erl: likewise. * src/odbc/mysql.sql: Fixed MySQL database creation script: Was not properly working with all MySQL version.
+Fixed typos
+Fixed version number
+* src/msgs/pl.msg: Fixed syntax error
+* src/web/ejabberd_web_admin.erl: Fixed encoding of user names in URLs
+* src/mod_vcard.erl: Fixed xmlns in disco items replies (thanks to Maxim Ryazanov) * src/mod_vcard_ldap.erl: Likewise * src/mod_vcard_odbc.erl: Likewise
+* src/ejabberd_s2s_out.erl: Fixed invalid behaviour upon connecting to host with invalid domain * src/ejabberd_s2s.erl: Likewise
+* src/mod_disco.erl: Fixed extra_domains option processing
+Fixed mod_vcard_odbc.erl SVN properties
+* src/cyrsasl_digest.erl: Fixed challenge/response parsing (thanks to Martin Pokorny)
+Fixed some english mistakes.
+* src/web/ejabberd_web_admin.erl: Fixed CSS style sheet to be standards compliant (thanks to Sander Devrieze)
+* src/mod_disco.erl: Fixed processing of host features and extra_domains option
+* src/mod_pubsub/mod_pubsub.erl: Fixed XML element name for pubsub#event namespace (thanks to Magnus Henoch)
+* src/mod_muc/mod_muc_room.erl: Fixed bug with storing affiliations of invited users in members-only room (thanks to Sergei Golovan)
+* src/ejabberd_c2s.erl: Fixed starttls_required behaviour for legacy connections (thanks to Brian Campbell)
+* src/mod_disco.erl: Fixed domain listing when one virtual host is a subdomain of another
+Fixes a bug on the web interface: On user creation screen the user creation was using the function try_register/2 instead of the new one try_register/3; The link to the message queue were also missing the server.
+Fixed date in documentation. Preparing release note for ejabberd 0.9
+* examples/transport-configs/configs/msn-transport.xml: Fixed typo (thanks to Sander Devrieze)
+* src/aclocal.m4: Fixed headers detecting in AM_WITH_OPENSSL (thanks to Leif Johansson)
+* src/mod_muc/mod_muc_room.erl: Fixed room destroying
+* src/ejabberd_s2s_out.erl: Fixed socket closing condition
+* src/web/ejabberd_http.erl: Fixed processing of POST body for HTTP Polling
+* doc/guide.tex: Fix (thanks to Sander Devrieze)
+* src/web/ejabberd_http_poll.erl: Fixed sending of Set-Cookie header
+* src/ejabberd_c2s.erl: Fixed bind namespace
+* src/ejabberd_c2s.erl: Fixed processing of presence probe from client
+* src/ejabberd_listener.erl: Fixed starting of SSL connection
+* doc/guide.tex: Fixed typo
+* src/mod_configure.erl: Fixed some error codes
+* src/ejabberd_s2s_in.erl: Fixed "id" attribute processing * src/ejabberd_s2s_out.erl: Likewise
+* src/ejabberd_listener.erl: Fixed SSL options
+* src/mod_muc/mod_muc.erl: Fixed handling of room names with uppercase letters
+* src/mod_muc/mod_muc_room.erl: Fixed room destroying * src/mod_muc/mod_muc.erl: Likewise
+* src/ejabberd_s2s_out.erl: Fixed error replies, added timeouts * src/ejabberd_s2s_in.erl: Likewise
+* src/mod_irc/mod_irc_connection.erl: Fixed URL to ejabberd
+* src/ejabberd_s2s_out.erl: Fixed ports leak * src/ejabberd_listener.erl: Likewise
+* src/mod_roster.erl: Fixed bug with handling of roster set stanzas that contains CDATA

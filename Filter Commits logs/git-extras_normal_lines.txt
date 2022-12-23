@@ -1,0 +1,1073 @@
+Makefile: ensure bash is used instead of /bin/sh (#1004)
+fix base branch in the pull-request command (#1003)
+Update docs for git abort change (#1000)
+Bump version to 6.6.0-dev (#997)
+Version 6.5.0
+git root: show '.' when using with -r in the root dir (#995)
+git standup: work as expected when no configured (#996)
+rephrase question depending on switch (#984)
+Include revert conflicts in git abort (#992)
+fix(git-effort):fork: retry: Resource temporarily unavailable #979 (#990)
+git-sync --force will sync without interaction (#989)
+fix(git-cp): keep the history of the files
+git-bulk: previous refactor redirected $PWD to stderr by mistake
+Minor changes to man/git-standup.md
+Replaced -g and -A with -F gpg|authordate
+fix(bin/git-browse): fix commit hash
+fix(bin/git-browse): fix bitbucket url
+feat: open website at file & line number or range
+#970 standup added -A flag for author date
+update docs due to formatting error in git-utimes man page
+update per shellcheck advice
+update git-utimes.{1,html} to add --newer flag
+Don't read git-extras.standup.implicit-week twice in git standup
+quote mod_s and git_s integer vars
+updates per request of spacewander
+Update Commands.md
+allow modification date updates for symbolic links
+add --newer flag and ignore files in the working tree or index
+Documented config git-extras.standup.implicit-week
+Minor change to git standup -w documentation
+Improved check if -w or -d was given to git standup
+Renamed config git-extras.standup.implicit-week from git-extras.standup-implicit-week
+Documented weekend behaviour of git standup -w
+docs(instllation): replace `git.io`
+Bump version to 6.5.0-dev
+Added config git-extras.standup-implicit-week for git standup
+Document git standup -w option
+Version 6.4.0
+git-browse/browse-ci: use powershell.exe only when it is available
+git-release: Add prefix to semver
+fix: fix stderr & stdout redirect
+git-ignore-io: make sure .gi_list is created before access
+git-ignore: the directory of target file may not exist
+fix(git-browse-ci): set pipefail
+docs: fix docs
+chore: update docs & completions
+feat: implement git-browse-ci
+quiet option, errors to stderr
+Removed xargs from git-effort
+Highlight path option more
+Updated manual for git local-commits, must track a branch
+Made local-commits work with all remotes
+Updated Readme.md after review
+Added section about main branch to the Readme file
+Clarified comment of when newline should be added
+Updated git-extras manual after review.
+git-ignore: ensure new patterns comes after a newline
+Spell corr in git-unlock synopsis
+Consider init.defaultBranch in git_extra_default_branch, changed default branch to main.
+doc: add packaging status
+Ignored error when git restore --staged fails when there is no commit
+Added git-magic command
+Bump version to 6.4.0-dev
+Version 6.3.0
+git-delete-squashed-branches: fail fast if can't checkout
+git-clear: add force option
+Adopted git --dedup-by-email to the project coding style
+summary --dedup-by-email now compares email adresses case insensitive.
+Updated lines under Synopsis in the manuals so they are commonly formatted
+Add incompability check for git summary --line --no-merges, split synopsis in its manual.
+fix git (un)lock with spaced filenames
+Updated completion for git summary
+Updated documentation for git-summary --no-merges
+Added option --no-merges to git summary
+git-summary: support filtering `--line` with path
+Add git-abort
+Update point to github docs for forks from API
+update working
+git-fork | Update man/md/html pages to talk about need of the github personal access token
+Updated documentation (AUTHORS)
+bin/git-fork | updating for feedback from PR #928
+git-fork | update to match REST-API auth standards as of 2021-06
+Update install doc: Homebrew is not just for macOS
+delete-squashed-branches: Make side-effect clear in docs
+delete-squashed-branches: Make branch checkout side effect clear
+Add delete-squashed-branches command
+Picture is broken
+Ignore checked-out branches on different worktrees
+Bump version to 6.3.0-dev
+doc: Remove man page for git-line-summary
+Version 6.2.0
+fix(git-utimes): make sure it work under OS X.
+chore: fix typo
+fix(git-ignore): use $XDG_CONFIG_HOME only when it is defined
+fixed small error
+Correct macOS spelling
+Correct openSUSE spelling and update Version
+Update zinit docs
+Remove bug|refactor|chore from documentation
+git-summary: reject invalid option
+ci: use checkout@v2
+ci: move to GitHub Action
+fix: zsh completion of git-coauthor command
+doc: add the usage of the parameter `--from` for create-branch and feature
+feat(feature): checkout from start point if exists
+feat(create-branch): add optional --from to set the start point
+[ fix #891 ] Cast branch output if HEAD not exists
+[ feat ] Quote the default_path var
+[ fix ] Quote env var
+[ fix ] Quote the XDG_CACHE_HOME
+[ feat ] Use default global ignore file
+[ refactor ] Optimize var not existing check
+[ feat ] Add XDG_CACHE_HOME check
+adding a format for git-contrib
+git-utimes: Change files modification time to their last commit date
+feat(delete-tag): get default remote from git config if exists
+squash help: re-ran make for extras and squash
+squash help: ran make man/git-extras.{html,1}
+squash help: ran make man/git-squash.{html,1}
+squash help: corrects option name in PR
+Updates git-squash.md: fixes help which was unclear and had remnants from copied template it appears
+Bump version to 6.2.0-dev
+Version 6.1.0
+git-info: fix regex for bsd sed
+feat: pass origin argument down to git execution
+change: migrate default branch
+doc: fix typo
+git-back: removed
+fix typo
+sort completion in alphabetical order
+remove incorrect completion
+git-info: add zsh completion
+doc: fix argument description
+git-info: moved argument checking
+git-info: fix namespace
+doc: update derived git-info files
+doc: add description for git-info
+Add bash completion for git-info
+git-info: colorized headers
+git-info: extend configuration and commit information
+git-info: remove notes about git-log, git-show
+git-info: add info about submodules
+git-info: fix indentation, remove comment
+Grammar correction
+Remove $user
+corrections
+Update doc
+fix config message name
+Remove comments
+PR test
+implement fish completions file
+feat(browse): automatically select origin remote if one exists, fallback to first otherwise
+fix(browse): update sed pattern to work on mac
+Bump version to 6.1.0-dev
+Version 6.0.0
+doc: remove gitter
+git-cp: remove trailing space
+Tighten numeric regex
+Cleanup code
+Modify to work when only a single commit, add parameter checks
+Correct undo documentation to match code order of parameters
+docs: Note flag for git extra --version
+doc: add a note about the package maintainer.
+break change: remove docs and other stuff of git-feature's alias
+Remove scripts that are mere alias wrappers for git-feature
+docs: mention installation via FreeBSD pkg
+git-archive-file: rename invalid chars in the output filename
+add a default for the remote to fetch a pr from
+add a config setting for prefix
+update zsh completion for bug and refactor commands
+updated zsh completion script
+updated git-feature documentation
+add squash option to git-feature
+add squash option to git-feature
+Simplify the code.
+Signal if the destination already exists.
+@spacewander review.
+Update man page export for git-psykorebase with ronn-ng 0.9.0
+@mschneiderwind review.
+Add documentation.
+Add first version of git-cp
+Implement suggested changes from code review
+Add git-browse command
+change: deprecate git-back
+git-sed: limit paths via pathspec
+Bump version to 5.2.0-dev.
+Version 5.1.0
+git-bulk: support cloning from a relative path
+git-standuo: clarify the -a option
+git-paste: check pastebinit before running it
+git-coauthor: quote variable in the comparison
+git-bulk: don't disappoint shellcheck
+git-sed: escape special characters for tr
+build: do not require the nonstandard and unpredictable 'which' utility
+add repositories to workspace from source (#804)
+read COMMANDS_WIHOUT_REPO from not_need_git_repo file
+git-ignore: support non-default .git directory
+retire the msysgit installation script
+git-bulk: line break is need in the SYNOPSIS doc section
+fix bug in allowedargcount() to not execute command if wrong args count
+git-delete-submodule: don't remove the history of deleted submodule
+Add flags -s and -u for signed tags
+git-squash: miss completion script change
+git-squash: clean up shellcheck warnings
+git-squash: add --squash-messages to concat commit messages into one.
+git-standup: add option to limit the number of commit
+git-delete-submodule: comment the DUMMY prefix and ignore the output of grep -v.
+git-standup: add separate newline between the output
+add PR changes
+add --force option to continue on error
+improve readability
+display git submodule status output before exiting
+check git submodule status before declaring success
+reorganize flow
+delete empty .gitmodules
+git-standup: add option '-B' to group the commits by branch
+git-summary: clean up other shellcheck warnings
+git-summary: fix incorrect active days when commits range is given
+git-summary: remove useless result function.
+git-summary: add --dedup-by-email to remove duplicate users
+git-summary: add missing example of --line option
+Use GIT_DIR environment variable to to set .git directory
+Docs: add OpenSUSE distribution information
+git-effort: adjust column limit according to the paths
+Regenerate docs
+Add git-paste for sending patches to pastebin
+Switch from using /tmp to using mktemp
+Switch http URLs to https where possible
+docs(Installation): :memo: add src in zplugin ice modifier to source the completion file
+git-pr: mention the limitation of -m option
+Add conditional logic for linebreaks
+Ensure arguments exist
+Add git coauthor command
+improve the quality of the integrity check.
+Bump version to 5.1.0-dev.
+Link to the contributing document
+Version 5.0.0
+git-line-summary: should be the history
+git-guilt: protect against encoding issues with LC_ALL=C
+git-rename-branch: change branch argument order
+Makefile: check dependencies before installation.
+Installation.md: add dependencies section.
+man/Readme.md: we don't need to update git-extras docs separately
+check_integrity.sh: check more strickly.
+implements remote pref for create-branch
+git-pr: add -m|--merge option to check out a merge commit
+impl for checking remote pref
+git-fork: prompt for password before 2FA code.
+check_integrity.sh: improve readability.
+GH-752 updated documentation to show rename workaround
+git-mv-remote: rename a remote regardless of any existing remotes
+Installation instructions added for CRUX (#746)
+git-guilt: avoid exceeding 80 columns.
+Bump version to 4.8.0-dev.
+Version 4.7.0
+git-pr: emphasized that the remote is required when pulling multiple PRs.
+git-pr: accpeted multiple GitHub URL or ID with remote.
+git-pr: added <[remote]:pr number> option.
+doc: clarify the current working directory when building the docs.
+feat: Add -s(--soft) for git sync
+Adding support for symlink directories in bulk command
+git-standup: ensure color usage
+misc: sort command list in alphabetical order
+git-force-clone: should not need git repo
+install.cmd: tweak comments
+git-rename-branch: Don't fail if remote doesn't exist
+Make `git undo -s` restore the staging area
+Bump version to 4.7.0-dev.
+Version 4.6.0
+Makefile: change the installed manpage destination in FreeBSD (#725)
+git-changelog: should remove ^0 suffix from the commit description.
+git-changelog: add --start-commit option, like --start-tag but for commit
+git-changelog: add missing newline to the plain output
+optimisation of mkdir
+Ensure info dir exists
+add: git-ignore -p (private to repo)
+Added Arch Linux
+Documentation rebuild: git-sed.* flags argument
+Documentation rebuild: git-clear.html whitespace removal
+Documentation rebuild: git-extras.* updates
+Documentation rebuild: index.txt updates
+Documentation rebuild: dates and headers
+Remove one of the documentation building tools
+Remove some trailing whitespace
+Major/Minor release should reset minor/patch versions to 0
+git-sed: fix previous bsd sed workaround
+git-sed: detect sed -i support and work around for the BSD sed
+git-sed: discover a separator when the / character is used in arguments
+git-sed: pass the -r option to the xargs command
+git-sed: Allow the flags to be passed as a third argument
+Remove double path delimiters in zsh description
+Installation.md: Zsh-plugin method which doesn't require root access
+Bump version to 4.6.0-dev.
+Version 4.5.0
+git-release: show message if nothing given after --semver
+doc: update git-extras index
+git-release: add --no-empty-commit for empty commit hater
+git-release: create an empty release commit if there is nothing to commit
+git-summary: unescape tab for linux column utility
+git-undo: add confirmation when `-h` is specified
+Remove trailing dot of German Windows
+feat(git-release): push tags first to help ci tools not miss them
+git-release: handle extra non-numeric prefix in tag with --semver
+git-release: add --semver option
+git-release: function usage doesn't exist, ignore unknown argument instead
+Preserve the existing user_commands in the git completion system
+Mention how to control changelog format in docs of git-changelog
+Docs> Add -- in front of cmd for git log
+git-effort: restore normal (visible) cursor properly
+Add GitHub two-factor auth support to git-pull-request
+Added Nix/NixOS method of installation
+Use local variables & format strings
+Remove arbitrary column limit on ignore-io
+install: submit brew patch to upstream
+Bump version to 4.5.0-dev.
+Version 4.4.0
+install: display absolute path of zsh completion script
+zsh: update completion of git bug|chore|feature|refactor|create-branch
+git summary: use more common way to cd to top level directory
+Update man page for `create-branch`
+Update man pages
+Update docs for new behavior
+Use "$@" instead of $@
+Consolidate feature/bug/chore/refactor logic
+Allow -r parameter to be in any order in command line
+Add ability to specify a remote
+fix a wrong name in installation message
+Added git-bulk to not_need_git_repo
+fix various typos
+Add git-mr to checkout GitLab merge requests
+git-delete-merged-branches: replace xargs -r option
+Bump version to 4.4.0-dev.
+ Version 4.3.0
+git-authors: remove trailing spaces
+git-release: add pre-release failure message
+git release: stop if pre-release hook fails
+git-release: update docs
+pass release arguments to pre/post-release scripts
+git-fork: Let curl exit with error code on fail
+Add BSD cat support
+git-standup: update zsh completion
+git-standup: also update the docs
+git-standup: add sanity check to -d option and overwrite -w option
+git-standup: upgrade interface to catch up with kamranahmedse/git-standup
+Typos again
+Corrected repository location print out and docs ws-root-directory absolute path
+Codereview Spacewander - whitespaces in workspace locations
+Review from spacewander
+Remove slashes from git-config command
+git-rename-branch: use detected upstream remote
+git-pull-request: use detected upstream remote
+git-delete-branch: avoid deleting local upstream
+Better behaviour in non workspace directories
+Current workspace is default target of bulk operations
+Even shorter
+Code refactor
+bug fix in single ws mode
+code formatting
+New Command git-bulk initial commit
+fix syntax & name variables better in rename-branch
+taken out duplicate columns setting
+Optimized file length calculation
+Columns in git-effort adopt to file length
+Add RHEL/CentOS installation
+fall back to EMAIL when user.email is not configured
+Check commit existed before running some commands
+Adds SSH prompt to git fork
+use U+266A instead of comma as separator
+fix git-extras update and tweak Windows detection
+stamp: show real looking results in Commands.md doc
+stamp: add warning in documentation about corner case
+stamp: add zsh autocompletion
+stamp: remove non used multiple lines error messages
+stamp: the message consists in all terms after the identifier
+stamp: identifier is case insensitive for the replacement
+stamp: add to Commands doc
+stamp: add manual
+stamp: add bash autocompletion
+stamp: add replace option
+stamp: display new full message as result
+stamp: add extra optional message parameter
+stamp: add basic script
+git-clear-soft: change default yes/no option to "no" (as with git-clear)
+git-delete-merged-branches: use "xargs -r" to prevent error when there are no branches to delete
+git-sed: use "git grep -z" and "xargs -0" to cope with spaces in filenames
+git-fresh-branch: fix handling of 'yes' response when there are changes
+git-{clear,clear-soft,sync}: improve yes/no prompts
+git-sed: fix 'unkonwn' typo
+Commands.md: add link to 'git summary' in 'git line-summary' documentation
+Commands.md: add links to "git bug", etc. to index
+Commands.md: add 'git rscp' link to 'git scp' documentation
+Commands.md: put commands in alphabetical order
+fix: git-squash docs. Replaced 'actual' with 'current'
+Add travis ci
+show all commit messages if no tag found
+strip out branches like trap-effort-signals
+Add git-reauthor to completion script
+Relax #! format check
+Be explicit about only resetting git directories
+Use LC_ALL=C for locale consistency
+Remove unnecessary check
+git-force-clone
+Need to remove the temp file regardless
+Spelling fixes for the roon file and html files
+Spelling fixes
+Add --no-email to git-author
+Bump version to 4.3.0-dev.
+Version 4.2.0
+remove contributors' email addresses to avoid #544
+promote two maintainers
+fixes #583
+update docs to clarify rename-branch (#581)
+count: remove usage of extra arguments for detailed display
+Make git-pr set up branch for pulling (#570)
+add link to ronn git repo (#575)
+add rename-branch command (#576)
+git-repl: improve and clean up docs
+Add 'exit' to git-repl command documentation
+Add built in 'exit' command to git-repl
+pull-request: should read local config if present
+git-release: fix typo in documentation
+Update git-fork man page
+Remove a non-contributor from AUTHORS
+Update docs to reflect new git-fork behaviour
+Set fork remotes using ssh if available
+Add git reauthor (#548)
+modify CONTRIBUTING.md again
+Clean up git-pull-request
+Improve JSON encoding
+add doc for git-pull-request and others
+modify CONTRIBUTING.md
+update check_integrity with nicolaiskogheim's patch
+add git-release-patch to Commands.md
+add git-back to Commands.md
+regenerate git-obliterate doc
+follow common shebang
+add git-show-(un)merged-branches to Commands.md
+Add check integrity script
+Add contributing guideline
+fork: Fetch `origin` after forking
+fork: Quote refs by backtick rather than single quote
+fork: Add git-fork.html removed by accident
+fork: Describe the behavior if current dir is repo
+fork: Rename 'origin' to 'upstream' after forking
+fork: Fork 'origin' remote repo if repo is not given
+submit zsh completion script to upstream
+update the title of git-clear-soft
+Add note about overwriting git aliases
+fix git-fork by removing '.git'
+fix the support for forking via ssh
+update documentation. fix "git ignore-io" flags
+Update the way to delete submodule
+Edit description of git clear-soft to indicate hard reset
+Add git-clear-soft command 	Modify git-clear to indicate default behavior of removing git ignored files
+Add Ubuntu installation
+add docs for git standup
+add git-standup
+Add Fedora package-manager installation instruction
+Add -m flag to git-setup to set the initial commit message.
+Mention initial copyright year and add contributors to copyright
+Bump version to 4.2.0-dev.
+Version 4.1.0
+Regerenate git-pr.html
+Update git PR manual to mention URLs
+handle GIT_EDITOR which contains space
+use ps -f and awk to emulate pgrep
+add upstream check & bugfix
+add example of git-sync
+upstream is used by default
+add git-sync
+Add BSD installation instructions.
+installation.md: Update information about column.exe
+install.cmd: add a check for write rights to the install folder
+install.cmd: properly escape the ! in the shebang line
+Make the win installer more robust
+Update Installation.md
+Makefile: fix inverted list of commands that use is_git_repo
+Add Gitter badge.
+Bump version to 4.1.0-dev.
+Version 4.0.0
+Add David Rogers to AUTHORS.
+Better USAGE message
+Touch multiple files supplied
+Use `$@` instead of `$*` re #467
+Update AUTHORS.
+installation: put $SYSCONFDIR (/etc) under $PREFIX by default
+Makefile: allow customizing of SYSCONFDIR (/etc) location
+Update all man pages.
+Add more info how to set global gitignore
+Regenerate git-changelog man pages (.html and .1) for #471.
+git-changelog: option to only use merges
+Use the default installation path in install.cmd
+use real purplish
+add simple sed command
+disable color if the output is not printed to tty
+replace wildcard '?' to literal '?'
+git-scp: use portable terminal escape sequences
+git-summary: protect against character encoding issues with LC_ALL=C
+git-effort: use portable terminal escape sequences
+Makefile: refactor is-git-repo inclusion logic
+Makefile: escape $ used inside eval as shell variable
+Add possibility to also checkout pull requests based on GitHub urls
+summary: beware of locale issues, and pass options to line-summary
+Update git-ignore-io mannual
+Replace "export" option with "replace" in git-ignore-io
+Remove exclamation mark
+Remove warning when search without word.
+Add warning when there is not argument after search, append and export
+Alphabetized list
+effort, summary: Correctly estimate the number of active days
+effort: change order of arguments to function
+effort: add usage message
+effort: More robust argument parsing
+add alias conflict prompt
+Add full name for list option
+Make sure git-authors doesn't return twice the same one.
+update git-feature docs
+add alias to git-feature
+Modify print_last_modified_time to make it Linux compatible
+Remove redundant \n in tr
+Not to update list each time git-ignore-io is executed
+Refactor git-ignore-io and remove .gitignore
+Update manual and description in Commands
+remove duplicate checkout
+Generate manual using ronn for git-ignore-io
+Finish manual for git-ignore-io
+Add description to Commands.md for git-ignore-io
+Implement search function or git-ignore-io
+Remove help from git-ignore-io
+Init gitignore and ignore vim osx temp files
+Updated documentation for git-ignore
+Added details to git-pr documentation
+made more precise security-question.
+more concise implementation of git-clear
+added git-clear to Commands.md
+added manpage for git-clear
+implemented git-clear
+fix link of `git feature|refactor|bug|chore`
+Mark default task as .PHONY
+make it possible to update via `git extras`
+merge-into: change --ff option to --ff-only. fix #421
+update Commands.md
+Improve man page presentation.
+Add documentation.
+change 'search-term' to 'search-pattern'
+abort git-alias when too many arguments given.
+effort docs: add note about omitting unsorted results
+effort docs: add example with directories
+effort docs: filename -> path
+effort docs: Adjust numbers in example
+effort: rename 'file' to 'path' to be more accurate
+Set default make task to be install
+fork docs: change SSH to HTTPS in example
+effort: fix active days always 1
+line-summary: 'function f{...' -> 'f() {...'
+line-summary: add missing quotation marks
+line-summary: tighten regex
+summary docs: Remove --line example
+summary docs: explain relation to git-line-summary
+summary docs: use correct order of arguments
+guilt: remove --help option
+guilt: document call without arguments
+guilt docs: Capitalize letters
+guilt: Adds simplified example
+add missing git-obliterate documentation
+fork: http-urls had colon instead of slash
+fork: original->upstream in docs
+contrib: update docs
+alias: docs
+now we can specify a commit range for git-obliterate
+Add completion for git-psykorebase.
+alias: polish the docs
+alias: bugfix
+contrib: refactor, and conform to git
+git-alias: use sed insted of colrm
+git-changelog: use cp instead of mv
+git-extras: use git-help instead of man
+add install script for PortableGit(msysgit)
+Quote variables bc of filenames with spaces
+Guard against 'seq 0'
+Pass --import-functions if required
+effort: documentation for git effort --since #326
+effort: error on bad value to --above
+archive-file: cleaner way to get current branch
+effort: don't count untouched files
+Add info about new options to man pages
+Add completion for more options to effort
+Do proper argument parsing
+Catch "HEAD -> master" when creating the changelog
+Remove unused var.
+Handle signals in git-changelog.
+Avoid spawning subshell
+Remove unnecessary call to cat
+perf: reduce calls to git log
+Parallelize git-effort with xargs
+Alter options to git log. Remove pipe
+cd man && ./manning-up.sh && git diff --stat | grep ' 2 ' | awk '{print }' | xargs git checkout --
+Use https for git-fork
+added windows installation section in the Installation.md
+format install.cmd
+add install.cmd for installation on windows
+Makefile: Use a more portable mktemp invocation
+Using shorter URL
+installation with curl and bash
+keep installation silent
+update installation in `git-extras update`
+FIXes location of `--` for `grep`
+FIXes 'mktemp' to work again on Linux
+Document for git-line-summary
+install the latest release version of git-extras
+git-effort: replace "wc | cut" with "wc | awk"
+align hashbang of git-guilt & git-merge-into
+Don't treat ignored patterns as regexps
+Version 3.0.0
+run pre-release ./manning-up.sh
+Updated documentation for git-scp and slight feature change
+add support for git version below 2.2.0
+correct the broken regex
+Rearrange documentation links, see #358
+git-merge-repo
+git merge-repo
+add wiki for git-guilt
+add support for git version below 2.2.0
+fix indentation errors in git guilt
+Hope to fix #341
+use argument separator for usages of `grep` which can choke on weird input
+helper/reset-env: helper to prevent GREP_OPTIONS from causing issues
+add docs for git guilt
+add git-guilt
+sort unless there is only one item
+add show-merged-branches and show-unmerged-branches
+Updated bash completions for better-changelog.
+Update docs for revised git-changelog.
+Complete rewrite to support commit ranges for pretty and list output.
+Support ~ in add_patterns for git-ignore
+Support ~ in show git-ignore
+add wiki for git-merge-into
+add docs for git-merge-into
+add merge-into to merge two branches quickly
+git-fresh-branch: Check for changes and prompt for input before nuking. (Issue: #142)
+fix gh-pages to stash and don't delete files
+Allow empty initial commit when setup repo.
+git-summary correctly displays project name
+git scp #300
+changelog: add git-config support for format and log options
+use standard git editor in git-authors & git-changelog
++ custom commit message options supports
+Added in option to concat extra feature names
+link to git delta
+git delta usage
+git-delta
+Add git-authors
+Add git-authors
+Updated Commands (markdown)
+Updated Commands (markdown)
+Updated Commands (markdown)
+Updated Commands (markdown)
+Updated Commands (markdown)
+tj#300 Added bash completion
+extra mktemp into git_extra_mktemp
+adding git-chore
+add enough X to fix #303. GNU mktemp requires at least three X in the last part of template.
+symlink git-rscp to git-scp
+Avoid duplicating asterisk.
+Updated License.
+path argument can not be optional in `rscp`; add more docs
+OMG a spelling mistake\!
+updated documentation because git-squash does no longer delete source-branch
+Updated man page for git-scp
+First RFC documentation
+When deleting a branch check if git has config.
+Added a footer.
+remove stuff from readme & form a list
+add a few keywords
+some remaining dashes
+roughly finished
+Updated Commands (markdown)
+Updated Commands (markdown)
+Updated Commands (markdown)
+gonna use the clean sub command for each command explanation
+adding links turn out to be a pain, go to sleep
+add commands page link
+add commands page, all copy & paste
+add screencasts
+copy from readme
+Updated Install (markdown)
+Created Install (markdown)
+adapted a more generic, customizable and friendly script
+Copy from git-goth https://github.com/chernjie/git-goth
+Initial Home page
+add more bash completion functions
+Add ref completion to git-missing.
+Revert "Ignore *.html and *.1 auto-generated files in man/"
+make will not assume man pages already exists
+Ignore man/git-*.html and man/git-*.1
+Remove auto-generated files man/git-*.html and man/git-*.1
+added changelog to release as optional flag
+Use mktemp for temporary file creation.
+make release hook more flexible
+added --no-color to git-delete-merged-branches
+More portable she-bangs.
+Use process-specific tmp file and clean up on exit
+Update Readme.md
+git-info: POSIX compliance
+Version bump.
+Updated the list.
+Version 2.2.0
+modify the behavior of git-ignore, now it will cd root to find .gitignore
+Update `mktemp` command to work on Mac OS X
+add new command 'git root' to show the path to root of repo
+correct the format of git-rebase-patch.md. Now we can handle it with script
+correct the '-m' argument for grep. Then regenralize git-extra
+replace visionmedia/git-extras to tj/git-extras
+changing incorrect reference of tag to tags
+added git-locked to check what files have been locked
+Version 2.1.0
+fixed descriptions: match required/optional params
+fix #180 and #232 feature|bug|refactor checkout
+Implement git-pr
+FIX: representation of git-info
+import changes *from* a branch
+use mixin to add 'is git repo' check for some commands
+Bump version in `bin/git-extras`
+Changelogs for version 2.0.0
+add welcome in git-repl
+Added option to specify base
+Update homebrew URL and remove ‘buggy’ label
+ADD: git-reset-file
+Readme: document git-delete-merged-branches
+File perms fix.
+Revert 2 commits to `git-changelog`
+Update docs to match `git-delete-merged-branches` behavior
+Exempt `master` from deleted branches
+Refactor and improve `git squash`
+add git-fork
+Uses column -t to align summary output in a table.
+FIX: check if un-pushed commits
+Update Readme.md with lock and unlock commands
+git-unlock Unlock local files in git repository
+git-lock Lock files in git repository
+Add git-rebase-patch
+Make git-obliterate work if there are whitespaces in filename
+invoke bash via /usr/bin/env for portability
+Release 1.9.1
+improved Makefile with BINPREFIX
+fixed Makefile uninstall target for man files
+Letter spacing in author list
+Use two-space indents for log entry output, so it again is debian changelog compatible (as before commit 1235e4a5)
+git effort: handle filenames containing whitespace cleanly
+Add line-summary as an options --line  & doc
+Add check for no changes in the tree (no sub-modules)
+Update Readme.md
+Update git-changelog docs for --no-merges option
+Add --no-merges option to changelog
+git-changelog: don't output a trailing space after the date
+removing `git promote`
+Simplify delete-merged-branches
+Update Readme.md
+Address issue #190, git-setup should test for existing .git in target directory
+Add comment for the code
+Added multi-delete for git-delete-branch and git-delete-tag Correcting typos Compiled latest documentation Applying changes from delete-tag to delete-branch for consistency Removed unnecessary string quotes (thanks `git` ref design) and everything works Tags are not being found with string concatenation Updated delete-tag to accept multiple tags Corrections for delete-branch Updating docs for delete-tag Added 'Todd Wolfson' to AUTHORS Updated documentation for delete-branch Moved deletions to concatenate strings and delete in one fell swoop Reworking delete-branch to delete multiple branches in series
+Small typo correction
+git-create-branch: bug fix for branch creation use HEAD instead of origin
+changed the code for git bug|feature|refactor to only accept single argument when not finishing a bug|feature|refactor. This is an easy solution to avoid misspelings of the word 'finish'
+allow options to be passed through to git log
+adding git-missing command
+Release 1.9.0
+git-squash: add --me flag to flatten the current branch
+Make repository_age() "history rewrite safe"
+modify to count for text file
+add git-line-summary
+Release 1.8.0
+move docs target up
+git-delete-merged-branches: use -D instead of delete-branch
+removed unnecessary git checkout for bug, feature and refactor
+Adds the tag swtich to bash completion.
+Updated readme; included the --tag switch.
+Added support for a --tag argument to directly set the tag name in the header.
+Added support for multiple arguments in git-changelog.
+Execute commands that are already prefixed with git directly
+Execute a shell command, if the command is prefixed with !
+Adding option to omit config in git-info
+added git-archive-file to Readme.md
+added man pages for git-archive-file
+import from https://github.com/TheHippo/git-archive-file
+fix one-liner. Closes #164
+remove INSTALL check
+fix delete-branch to work with same-name tags
+fix typo
+Move misplaced text into git effort section
+change git-effort(1) to use /bin/bash for now. Closes #78
+Delete tag on origin even if it wasn't locally fetched yet.
+Delete branch on origin even if it wasn't locally fetched yet.
+Update bit/git-count
+Update bin/git-count
+docs updates for get-delete-merged-branches
+Make delete-merge-branches more user-friendly
+Revert "Added git-review to review files on branch since the branch was created."
+Add remote parameter to git-release
+Added git-review to review files on branch since the branch was created.
+Add usage note to delete-branch.
+Replace http with https for man Github urls
+Recommit of @d153e9c Changes  to PR #114.
+Alphabetically sorted bash_completion.
+Generate only a single manual.
+merge with muthasib as per pull req #114.
+Add bash_completion for new git-ignore switches.
+Make all bin scripts executable.
+Add docs for shorthand version of --list.
+All documentation updated as a result from shell script.
+The complete index of all available documents.
+Added automated manual generation.
+whitespace only
+Added examples to git-commits-since
+Complete git-ignore includes global.
+Added git-show-tree.
+Add global gitignore to git-ignore output
+git-undo now includes -h|--hard option.
+help ronn make hyperlinks.
+Use git describe to fetch last tag
+Recursive remove by default.
+Add to readme
+Add `git-obliterate` for removing file from history.
+Update master
+screencast link
+fix git-summary repo age, remove "ago"
+remove debug shit
+fix some quoting in git-pull-request and ensure the remote is available
+fix git-pull-request curl body quoting
+add default of HEAD to git-pull-request
+add initial git-pull-request(1) implementation
+fix git-extras whitespace
+Revert "Removing a bashism from git-effort"
+Removing a bashism from git-effort
+Adding delete-merge-branches, gh-pages, rename-tag and squash manpages
+Adding bug/refactor/feature man pages
+Adding bug/refactor/feature man pages
+move active above commits in git-summary
+Added git-delete-merged-branches(1)
+Revert "Added git-has(1) to check if a commit is present in the current branch"
+Added git-has(1) to check if a commit is present in the current branch
+Adding shebang to the rename-tag command
+Updated main documenation to include git-info
+Added documentation for git-info command.
+Added git-info command.
+Updated git-extras to include git-effort.
+Added missing documenation for git-effort command
+Updating git-summary documentation, because we added a 'repo age' field to git-summary command.
+Added dots for fill instead of blank spaces
+Release 1.7.0
+git-summary: shorter repo age
+git-summary: make : line up
+Added repo age to git-summary.
+git-undo now keeps file changes when undoing.
+Release 1.6.0
+tweak update a bit
+Favoring the use of bash "Parameter Expansion" instead of "dirname" as "dirname" has some cross-platform challenges.
+Corrected `git extras update` where ${PREFIX} was not honored for `make install`
+Uninstall bash completion from correct directory
+git-release: removed "Prepared"
+added switch -l as shortcut for --list to git-changelog
+git-changelog accepts optional parameter to pass changelog output file
+fixed incorrect argument passing and added pushing to remote
+added git-rename-tag
+ocd
+made `git commit` optional and added `-a -m` switches to `tag`
+changelog pulls tags in reverse order
+switched to printf instead of echo
+Added git-local-commits: script to show a log of all commits not pushed to origin
+fixed git-repl conditional
+Added displaying current branch name to git-repl(1) prompt
+Improvements to git-repl
+use https to clone in the automatic install script
+Release 1.5.1
+Install bash completion to $(DESTDIR)/etc, not $(DESTDIR)$(PREFIX)/etc
+Added active days to git-summary(1) (and refactored)
+Removed git-pull-request(1)
+mention cmd
+sorted effort image
+replace unsorted with sorted
+Added: sort git-effort(1) results. Closes #73
+refactoring git-effort
+Release 1.4.0
+docs
+Added: allow files to be passed to `git-effort(1)`. Closes #71
+Added: hide/show cursor for `git-effort(1)`
+Changed: color `git-effort(1)` commits / active days independently
+refactord git-effort(1)
+Modified git-pull-request to be able to create pull requests, as well as apply them
+Added git-gh-oauth: script to manage oauth keys for github
+active days img
+Release 1.3.0
+Added active days to `git-effort(1)` output
+Release 1.2.0
+update git-effort(1) image
+Added a greater color range to git-effort(1)
+use red instead of green
+ws
+Added --above <n> to git-effort(1)
+Release 1.1.0
+docs for git-effort(1)
+Added git-effort(1) (not yet complete)
+refactored git-summary(1)
+Release 1.0.0
+Added _git_squash() to bash_completion.sh
+fixed git-squash
+changed git-squash(1)
+Update man/git-fresh-branch.html
+Update man/git-fresh-branch.1
+Update man/git-fresh-branch.md
+Added git-squash
+Send error messages to stderr instead of stdout
+Added MacPorts as a way to install git-extras
+Added myself to AUTHORS file
+Make bash_completion install respect $(PREFIX) variable
+Support DESTDIR
+Release 0.9.0
+make /etc/bash_completion.d
+(un)installation instructions
+bash completion script
+remove git-ignore garbage
+Adding `git-ignore` patterns from template was inside `git-create-branch` documentation.
+Release 0.8.1
+track gh-pages branch
+remove git-promote
+Update Readme.md
+Update Readme.md
+Release 0.8.0
+Added pre- post-release hooks to git-release
+Added git-promote
+merged
+Removed git-apply-branch
+fixed: "git extra update" errors when pwd includes whitespace
+Added syntax highlighting; numerous tweaks to punctuation; use present tense consistently throughout; tweaked markup so commands are backticked for readability.
+Added `git-apply-branch`
+doc typo
+Release 0.7.0
+typo
+Added percentages to `git-summary`
+fixed one-liner
+Release 0.6.0
+new `git-back` command for soft undos
+Release 0.5.1
+docs
+revert git-ignore but retain argc == 0 as showing .gitignore contents
+revert broken git-release
+recursive install == bad
+added INSTALL check
+merge conflicts
+fixed typo error
+Use annotated tags to release commits instead of lightweight tags
+git-setup: create a directory if the provided one does not exist yet. Additionally, enables the creation of directories with names containing spaces in a more fashion way. Example: 'git setup path/to/repo name'.
+git-ignore: show all availables templates if no patterns are found.
+improved user feedback: show matched string using 'grep --color'
+git-ignore template support. Templates are based in https://github.com/github/gitignore
+git-ignore doesnt fail if .gitignore file dont exists yet
+Release 0.4.1
+refactor git-graft
+git-graft now defaults to current branch instead of master
+Release 0.4.0
+docs
+Added git-refactor
+Release 0.3.0
+docs
+Added `git-pull-request`
+Revert "Revert "Make sure to get the last chronological tag, instead of relying on the bogus `git tag` sorting.""
+Revert "Make sure to get the last chronological tag, instead of relying on the bogus `git tag` sorting."
+Release 0.2.0
+docs
+Added `git-extras`, removed `git-extras-version` and `git-extras-update`
+Make sure to get the last chronological tag, instead of relying on the bogus `git tag` sorting.
+delete branch after merge
+Added git-bug
+Added git-feature
+Added LICENSE
+documentation for git-alias
+git alias
+Bump version
+Added git-create-branch
+removed git-ignore template support
+Create install dir before copying
+Release 0.1.0
+Added gh-pages command
+adopting uniq code style across multiple scripts: variables assignments, arguments validation and core logic. This style reduces if statements usage and makes code easier to understand. :D
+fixed typo error
+Use annotated tags to release commits instead of lightweight tags
+https. Closes #27
+git-setup: create a directory if the provided one does not exist yet. Additionally, enables the creation of directories with names containing spaces in a more fashion way. Example: 'git setup path/to/repo name'.
+git-ignore: show all availables templates if no patterns are found.
+improved user feedback: show matched string using 'grep --color'
+git-ignore template support. Templates are based in https://github.com/github/gitignore
+git-ignore doesnt fail if .gitignore file dont exists yet
+MANPATH -> MANPREFIX. Closes #25
+Release 0.0.7
+Installing / uninstall man pages
+Added html docs
+Built docs
+typo
+new `make clean`
+Started new makefile for docs
+Renamed man pages to *.md
+Added gitignore
+misc makefile fixes
+first manual's version
+man pages support
+One-liner
+Added -d -> -D. Closes #15
+Misc
+Release 0.0.6
+Use a shallow clone in git-update-extras.
+Add command git-touch.
+Bump version
+Release 0.0.5
+new git-ignore docs
+automatically remove trailing slash from argument if it exists
+add some usage notes to git-delete-submodule
+added git-delete-submodule for delete submodules easily
+show ignored files if no arguments are provided
+automatically remove trailing slash from argument if it exists
+add some usage notes to git-delete-submodule
+added git-delete-submodule for delete submodules easily
+show ignored files if no arguments are provided
+git-setup argument is now optional, defaulting to the CWD
+Styling
+Alias repl "ls" as ls-files
+Brew installation
+Bumped version. be sure to `git update-extras` !
+Release 0.0.4
+Don't fail if the local branch doesn't exist
+Also delete the remote branch
+Updated AUTHORS
+Add docs about git summary to Readme.mkd
+Make git-summary take an optional commitish
+git-graft dest branch defaults to master
+Use `test -d` for a more compatible directory check
+Use wildcard function for $(BINS)
+Add git-setup
+Misc refactoring
+Graft Update
+Added git-graft.
+Added git-undo for removing recent commits.
+think big.
+Added the essential'fresh-branch' feature. Updated Readme.md accordingly.
+updated makefile
+Updated history
+Release 0.0.3
+Added git-extras-version
+Added git-update-extras
+Delete remote tag only if local was deleted
+Delete remote branch only if local was deleted
+Use -d to avoid deleting an unmerged branch by accident
+read doesn't have the -e option in SH on my machine at least.
+Release 0.0.2
+Handle spaces in contributor's name for git-contrib
+Allow spaces in release names/numbers
+Added git-contrib
+Makefile cleanup
+Added git-summary
+Added git-commits-since
+Added git-repl
+Added git-delete-tag
+Added git-delete-branch
+Readme typo
+Added git-changelog. Closes #1
+Docs for git-ignore. Closes #3
+Added git-ignore
+Readme typo
+Install docs
+Added git-release
+Readme
+Passing args to git shortlog
+Added --all support to git-count
+Initial commit
